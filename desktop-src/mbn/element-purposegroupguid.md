@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PurposeGroups](element-purposegroups.md)</td>
+<td><a href="element-purposegroups">PurposeGroups</a></td>
 <td><p>An optional list of groups of profiles, where each group includes profiles used for a common purpose.</p>
 <p>This element is new for v4 of the schema.</p>
 <p>One profile can be listed in multiple groups.</p></td>

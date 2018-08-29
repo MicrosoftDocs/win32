@@ -44,8 +44,8 @@ Constructs instances of the [**XMUBYTEN4**](https://msdn.microsoft.com/en-us/lib
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUBYTEN4 ()</strong>](https://msdn.microsoft.com/en-us/library/Ee420495(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMUBYTEN4</code><br/> Default constructor for [<strong>XMUBYTEN4</strong>](https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx)<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420495(v=VS.85).aspx"><strong>XMUBYTEN4 ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMUBYTEN4</code><br/> Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx"><strong>XMUBYTEN4</strong></a><br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -53,8 +53,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUBYTEN4 (uint32_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404738(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN4</code> from a <code>uint32_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMUBYTEN4</strong>](https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx) from a <code>uint32_t</code> variable containing component data in a packed format. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404738(v=VS.85).aspx"><strong>XMUBYTEN4 (uint32_t)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN4</code> from a <code>uint32_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx"><strong>XMUBYTEN4</strong></a> from a <code>uint32_t</code> variable containing component data in a packed format. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -62,8 +62,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUBYTEN4 (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee420504(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMUBYTEN4</strong>](https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx) from a from a four element <code>float</code> array argument. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420504(v=VS.85).aspx"><strong>XMUBYTEN4 (const float*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx"><strong>XMUBYTEN4</strong></a> from a from a four element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -71,8 +71,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUBYTEN4 (const uint8_t*)</strong>](https://msdn.microsoft.com/en-us/library/Hh404736(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUBYTE4</code> from a four element <code>uint8_t</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMUBYTEN4</strong>](https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx) from a four element <code>uint8_t</code> array argument.<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404736(v=VS.85).aspx"><strong>XMUBYTEN4 (const uint8_t*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUBYTE4</code> from a four element <code>uint8_t</code> array argument.<br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx"><strong>XMUBYTEN4</strong></a> from a four element <code>uint8_t</code> array argument.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -80,8 +80,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUBYTEN4 (float,float,float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee420501(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUBYTEN4</strong>](https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx) from four <code>float</code> arguments. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420501(v=VS.85).aspx"><strong>XMUBYTEN4 (float,float,float,float)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx"><strong>XMUBYTEN4</strong></a> from four <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -89,8 +89,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUBYTEN4 (uint8_t,uint8_t,uint8_t,uint8_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404737(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN4</code> from four <code>uint8_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUBYTEN4</strong>](https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx) from a four <code>uint8_t</code> arguments. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404737(v=VS.85).aspx"><strong>XMUBYTEN4 (uint8_t,uint8_t,uint8_t,uint8_t)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN4</code> from four <code>uint8_t</code> arguments. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx"><strong>XMUBYTEN4</strong></a> from a four <code>uint8_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.

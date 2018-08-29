@@ -41,7 +41,7 @@ Defines constant string values that are used to increase recognition accuracy by
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="___________FACTOID_WORDLIST_________"></span><span id="___________factoid_wordlist_________"></span><dl> <dt> <strong>FACTOID_WORDLIST</strong> </dt> </dl></td>
-<td style="text-align: left;">Indicates to a recognizer to use a programmatically-defined list of words. The list of words is defined by the [<strong>WordList</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of a [<strong>InkRecognizerContext</strong>](inkrecognizercontext-class.md) object. <br/>
+<td style="text-align: left;">Indicates to a recognizer to use a programmatically-defined list of words. The list of words is defined by the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist"><strong>WordList</strong></a> property of a <a href="inkrecognizercontext-class"><strong>InkRecognizerContext</strong></a> object. <br/>
 <blockquote>
 [!Note]<br />
 If a string is added to a word list, its capitalized versions are also implicitly added. For instance, adding &quot;hello&quot; implicitly adds &quot;Hello&quot; and &quot;HELLO&quot;.

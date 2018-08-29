@@ -30,15 +30,15 @@ The Windows Filtering Platform (WFP) API is divided into the following component
 </thead>
 <tbody>
 <tr class="odd">
-<td rowspan="2">[Callout API](http://go.microsoft.com/fwlink/p/?linkid=95959) (FWPS)${REMOVE}$<br />
+<td rowspan="2"><a href="http://go.microsoft.com/fwlink/p/?linkid=95959">Callout API</a> (FWPS)${REMOVE}$<br />
 </td>
-<td>[Data types](http://go.microsoft.com/fwlink/p/?linkid=98324) used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br/></td>
+<td><a href="http://go.microsoft.com/fwlink/p/?linkid=98324">Data types</a> used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br/></td>
 <td><dl> fwpstypes.h<br />
 fwpstypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[Functions](http://go.microsoft.com/fwlink/p/?linkid=98325) and [enumerated types](http://go.microsoft.com/fwlink/p/?linkid=98326) used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br/></td>
+<td><a href="http://go.microsoft.com/fwlink/p/?linkid=98325">Functions</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=98326">enumerated types</a> used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br/></td>
 <td><dl> fwpsu.h<br />
 fwpsk.h<br />
 </dl></td>
@@ -47,13 +47,13 @@ fwpsk.h<br />
 <tr class="odd">
 <td rowspan="2">IKE/AuthIP API (IKEEXT)${REMOVE}$<br />
 </td>
-<td>[Enumerated types](fwp-enums.md) and [structures](fwp-structs.md) used for managing IKE and AuthIP main mode (MM) policy and security associations.</td>
+<td><a href="fwp-enums">Enumerated types</a> and <a href="fwp-structs">structures</a> used for managing IKE and AuthIP main mode (MM) policy and security associations.</td>
 <td><dl> iketypes.h<br />
 iketypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[Functions](fwp-ike-functions.md) used for managing IKE and AuthIP MM policy and security associations.</td>
+<td><a href="fwp-ike-functions">Functions</a> used for managing IKE and AuthIP MM policy and security associations.</td>
 <td><dl> fwpmu.h<br />
 fwpmk.h<br />
 </dl></td>
@@ -62,13 +62,13 @@ fwpmk.h<br />
 <tr class="odd">
 <td rowspan="2">IPsec API (IPSEC)${REMOVE}$<br />
 </td>
-<td>[Enumerated types](fwp-enums.md) and [structures](fwp-structs.md) used for managing IPsec policies and security associations.</td>
+<td><a href="fwp-enums">Enumerated types</a> and <a href="fwp-structs">structures</a> used for managing IPsec policies and security associations.</td>
 <td><dl> ipsectypes.h<br />
 ipsectypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[Functions](fwp-ipsec-functions.md) used for managing IPsec policies and security associations.</td>
+<td><a href="fwp-ipsec-functions">Functions</a> used for managing IPsec policies and security associations.</td>
 <td><dl> fwpmu.h<br />
 fwpmk.h<br />
 </dl></td>
@@ -77,13 +77,13 @@ fwpmk.h<br />
 <tr class="odd">
 <td rowspan="2">Management API (FWPM)${REMOVE}$<br />
 </td>
-<td>[Enumerated types](fwp-enums.md) and [structures](fwp-structs.md) used for managing the filter engine.</td>
+<td><a href="fwp-enums">Enumerated types</a> and <a href="fwp-structs">structures</a> used for managing the filter engine.</td>
 <td><dl> fwpmtypes.h<br />
 fwpmtypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[Functions](fwp-mgmt-functions.md) used for managing the filter engine. These functions are used to perform the following tasks:<br/>
+<td><a href="fwp-mgmt-functions">Functions</a> used for managing the filter engine. These functions are used to perform the following tasks:<br/>
 <ul>
 <li>Set and query filters, providers, and callouts.</li>
 <li>Retrieve IPsec statistics.</li>
@@ -96,7 +96,7 @@ fwpmk.h<br />
 </tr>
 <tr class="odd">
 <td>Shared API (FWP)</td>
-<td>Fundamental [enumerated types](fwp-enums.md) and [structures](fwp-structs.md) shared across the Windows Filtering Platform.</td>
+<td>Fundamental <a href="fwp-enums">enumerated types</a> and <a href="fwp-structs">structures</a> shared across the Windows Filtering Platform.</td>
 <td><dl> fwptypes.h<br />
 fwptypes.idl<br />
 </dl></td>

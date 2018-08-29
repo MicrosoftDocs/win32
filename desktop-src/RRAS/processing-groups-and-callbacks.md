@@ -36,8 +36,8 @@ The tasks listed in this table do not occur in any specific order; rather, they 
 <tr class="odd">
 <td>Manage group memberships based on protocol information received on those interfaces that the protocol owns. Management is performed using the following functions:
 <ul>
-<li>[<strong>MgmAddGroupMembershipEntry</strong>](/windows/desktop/api/Mgm/nf-mgm-mgmaddgroupmembershipentry)</li>
-<li>[<strong>MgmDeleteGroupMembershipEntry</strong>](/windows/desktop/api/Mgm/nf-mgm-mgmdeletegroupmembershipentry)</li>
+<li><a href="/windows/desktop/api/Mgm/nf-mgm-mgmaddgroupmembershipentry"><strong>MgmAddGroupMembershipEntry</strong></a></li>
+<li><a href="/windows/desktop/api/Mgm/nf-mgm-mgmdeletegroupmembershipentry"><strong>MgmDeleteGroupMembershipEntry</strong></a></li>
 </ul></td>
 <td>Add to and delete from the outgoing interface list for the specified (s, g), (*, g), and (*, *) entries. This list represents the set of interfaces on which data for this group is forwarded. The data for this group is from the specified source.</td>
 
@@ -46,20 +46,20 @@ The tasks listed in this table do not occur in any specific order; rather, they 
 
 <td>Send alerts to routing protocols in the form of callbacks. The following events trigger the multicast group manager to invoke a callback:
 <ul>
-<li>Join or leave groups ( [<strong>PMGM_JOIN_ALERT_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_join_alert_callback), [<strong>PMGM_PRUNE_ALERT_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_prune_alert_callback)).</li>
-<li>Group membership changed by IGMP ( [<strong>PMGM_LOCAL_JOIN_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_local_join_callback), [<strong>PMGM_LOCAL_LEAVE_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_local_leave_callback)).</li>
-<li>Data received on wrong interface ( [<strong>PMGM_WRONG_IF_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_wrong_if_callback)).</li>
-<li>Data received from new sources or to a new group ( [<strong>PMGM_CREATION_ALERT_CALLBACK</strong>](https://msdn.microsoft.com/en-us/library/Aa376677(v=VS.85).aspx) and [<strong>PMGM_RPF_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_rpf_callback)).</li>
+<li>Join or leave groups ( <a href="/windows/desktop/api/Mgm/nc-mgm-pmgm_join_alert_callback"><strong>PMGM_JOIN_ALERT_CALLBACK</strong></a>, <a href="/windows/desktop/api/Mgm/nc-mgm-pmgm_prune_alert_callback"><strong>PMGM_PRUNE_ALERT_CALLBACK</strong></a>).</li>
+<li>Group membership changed by IGMP ( <a href="/windows/desktop/api/Mgm/nc-mgm-pmgm_local_join_callback"><strong>PMGM_LOCAL_JOIN_CALLBACK</strong></a>, <a href="/windows/desktop/api/Mgm/nc-mgm-pmgm_local_leave_callback"><strong>PMGM_LOCAL_LEAVE_CALLBACK</strong></a>).</li>
+<li>Data received on wrong interface ( <a href="/windows/desktop/api/Mgm/nc-mgm-pmgm_wrong_if_callback"><strong>PMGM_WRONG_IF_CALLBACK</strong></a>).</li>
+<li>Data received from new sources or to a new group ( <a href="https://msdn.microsoft.com/en-us/library/Aa376677(v=VS.85).aspx"><strong>PMGM_CREATION_ALERT_CALLBACK</strong></a> and <a href="/windows/desktop/api/Mgm/nc-mgm-pmgm_rpf_callback"><strong>PMGM_RPF_CALLBACK</strong></a>).</li>
 </ul></td>
 <td>Using these callbacks, the multicast group manager is able to coordinate packet forwarding when several multicast routing protocols are present on a router.</td>
 </tr>
 <tr class="odd">
-<td>Enumerate the multicast forwarding entries (MFEs), using the [<strong>MgmGetFirstMfe</strong>](/windows/desktop/api/Mgm/nf-mgm-mgmgetfirstmfe), [<strong>MgmGetNextMfe</strong>](/windows/desktop/api/Mgm/nf-mgm-mgmgetnextmfe), and [<strong>MgmGetMfe</strong>](/windows/desktop/api/Mgm/nf-mgm-mgmgetmfe) functions. Make decisions about multicast data based on the results of the enumeration.</td>
+<td>Enumerate the multicast forwarding entries (MFEs), using the <a href="/windows/desktop/api/Mgm/nf-mgm-mgmgetfirstmfe"><strong>MgmGetFirstMfe</strong></a>, <a href="/windows/desktop/api/Mgm/nf-mgm-mgmgetnextmfe"><strong>MgmGetNextMfe</strong></a>, and <a href="/windows/desktop/api/Mgm/nf-mgm-mgmgetmfe"><strong>MgmGetMfe</strong></a> functions. Make decisions about multicast data based on the results of the enumeration.</td>
 <td>Return the requested MFEs. Return ERROR_NO_MORE ITEMS when there are no more MFEs to return.<br/></td>
-<td>Use the [<strong>MgmGetFirstMfeStats</strong>](/windows/desktop/api/Mgm/nf-mgm-mgmgetfirstmfestats), [<strong>MgmGetNextMfeStats</strong>](/windows/desktop/api/Mgm/nf-mgm-mgmgetnextmfestats), [<strong>MgmGetMfeStats</strong>](/windows/desktop/api/Mgm/nf-mgm-mgmgetmfestats) functions to enumerate MFE statistics. See [Administrative Application Scenario](administrative-application-scenario.md) for a complete example of using these functions.<br/></td>
+<td>Use the <a href="/windows/desktop/api/Mgm/nf-mgm-mgmgetfirstmfestats"><strong>MgmGetFirstMfeStats</strong></a>, <a href="/windows/desktop/api/Mgm/nf-mgm-mgmgetnextmfestats"><strong>MgmGetNextMfeStats</strong></a>, <a href="/windows/desktop/api/Mgm/nf-mgm-mgmgetmfestats"><strong>MgmGetMfeStats</strong></a> functions to enumerate MFE statistics. See <a href="administrative-application-scenario">Administrative Application Scenario</a> for a complete example of using these functions.<br/></td>
 </tr>
 <tr class="even">
-<td>Modify the upstream neighbor in an MFE using the [<strong>MgmSetMfe</strong>](/windows/desktop/api/Mgm/nf-mgm-mgmsetmfe) function.</td>
+<td>Modify the upstream neighbor in an MFE using the <a href="/windows/desktop/api/Mgm/nf-mgm-mgmsetmfe"><strong>MgmSetMfe</strong></a> function.</td>
 
 <td>Clients use this function to modify the information regarding the incoming interface.</td>
 </tr>

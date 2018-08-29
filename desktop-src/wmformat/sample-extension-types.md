@@ -48,11 +48,11 @@ The following table lists the predefined data unit extension identifiers, and de
 <tbody>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_OutputCleanPoint</td>
-<td>The data indicates whether the sample is a [<em>cleanpoint</em>](wmformat-glossary.md). A value of zero indicates that the sample is not a cleanpoint. A non-zero value indicates that it is a cleanpoint. This sample data unit extension (DUE) type is used to keep track of cleanpoints when writing precompressed media streams that were encoded with third-party codecs.</td>
+<td>The data indicates whether the sample is a <a href="wmformat-glossary"><em>cleanpoint</em></a>. A value of zero indicates that the sample is not a cleanpoint. A non-zero value indicates that it is a cleanpoint. This sample data unit extension (DUE) type is used to keep track of cleanpoints when writing precompressed media streams that were encoded with third-party codecs.</td>
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_Timecode</td>
-<td>The data is a [<strong>WMT_TIMECODE_EXTENSION_DATA</strong>](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data) structure containing SMPTE time code data associated with the sample.The size for this DUE is always WM_SampleExtension_Timecode_Size, which is 14 bytes.<br/></td>
+<td>The data is a <a href="/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data"><strong>WMT_TIMECODE_EXTENSION_DATA</strong></a> structure containing SMPTE time code data associated with the sample.The size for this DUE is always WM_SampleExtension_Timecode_Size, which is 14 bytes.<br/></td>
 </tr>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_FileName</td>
@@ -64,7 +64,7 @@ The following table lists the predefined data unit extension identifiers, and de
 </tr>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_PixelAspectRatio</td>
-<td>The data indicates the pixel aspect ratio of the content in the sample. This applies only to video.This extension type is used to identify the aspect ratio of non-square pixels. For more information, see [To Read and Write Video Streams with Non-Square Pixels](to-read-and-write-video-streams-with-non-square-pixels.md).<br/> Aspect ratio values are stored as a word whose low byte is the X aspect and whose high byte is the Y aspect. For example, 16:9 is stored as 0x0910.<br/> The size for this DUE is always WM_SampleExtension_PixelAspectRatio_Size, which is 2 bytes.<br/></td>
+<td>The data indicates the pixel aspect ratio of the content in the sample. This applies only to video.This extension type is used to identify the aspect ratio of non-square pixels. For more information, see <a href="to-read-and-write-video-streams-with-non-square-pixels">To Read and Write Video Streams with Non-Square Pixels</a>.<br/> Aspect ratio values are stored as a word whose low byte is the X aspect and whose high byte is the Y aspect. For example, 16:9 is stored as 0x0910.<br/> The size for this DUE is always WM_SampleExtension_PixelAspectRatio_Size, which is 2 bytes.<br/></td>
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_SampleDuration</td>
@@ -81,7 +81,7 @@ This data unit extension is not configured in the profile. It is included in sam
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_ColorSpaceInfo</td>
-<td>The data provides information about the color space used for the current video frame.The value of this extension is a [<strong>WMT_COLORSPACEINFO_EXTENSION_DATA</strong>](/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmt_colorspaceinfo_extension_data) structure.<br/> This data unit extension is not configured in the profile. It is included in samples output from the decoder.<br/> The size of this DUE is always WM_SampleExtension_ColorSpaceInfo_Size, which is 3 bytes.<br/></td>
+<td>The data provides information about the color space used for the current video frame.The value of this extension is a <a href="/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmt_colorspaceinfo_extension_data"><strong>WMT_COLORSPACEINFO_EXTENSION_DATA</strong></a> structure.<br/> This data unit extension is not configured in the profile. It is included in samples output from the decoder.<br/> The size of this DUE is always WM_SampleExtension_ColorSpaceInfo_Size, which is 3 bytes.<br/></td>
 </tr>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_UserDataInfo</td>

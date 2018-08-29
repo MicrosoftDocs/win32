@@ -42,59 +42,59 @@ The WinSNMP communications functions provide an interface between the calling Wi
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>SnmpCancelMsg</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcancelmsg)</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcancelmsg"><strong>SnmpCancelMsg</strong></a></td>
 <td>Requests that the Microsoft WinSNMP implementation cancel retransmission attempts and time-out notifications for an SNMP request message.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SnmpCleanup</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanup)</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanup"><strong>SnmpCleanup</strong></a></td>
 <td>Informs the implementation that an application is disconnecting and no longer requires allocated resources.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SnmpCleanupEx</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanupex)</td>
-<td>Performs cleanup when there are no outstanding successful calls to [<strong>SnmpStartup</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup) or [<strong>SnmpStartupEx</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartupex) within a WinSNMP application.</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanupex"><strong>SnmpCleanupEx</strong></a></td>
+<td>Performs cleanup when there are no outstanding successful calls to <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup"><strong>SnmpStartup</strong></a> or <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartupex"><strong>SnmpStartupEx</strong></a> within a WinSNMP application.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SnmpClose</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpclose)</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpclose"><strong>SnmpClose</strong></a></td>
 <td>Enables the implementation to deallocate resources associated with a session, and to close communications mechanisms.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SnmpCreateSession</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession)</td>
-<td>Requests the implementation to open a WinSNMP session and allocate resources and communications mechanisms. When developing new WinSNMP applications, it is recommended that you call the [<strong>SnmpCreateSession</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession) function to open a WinSNMP session instead of calling the [<strong>SnmpOpen</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpopen) function.</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession"><strong>SnmpCreateSession</strong></a></td>
+<td>Requests the implementation to open a WinSNMP session and allocate resources and communications mechanisms. When developing new WinSNMP applications, it is recommended that you call the <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession"><strong>SnmpCreateSession</strong></a> function to open a WinSNMP session instead of calling the <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpopen"><strong>SnmpOpen</strong></a> function.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SnmpListen</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmplisten)</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmplisten"><strong>SnmpListen</strong></a></td>
 <td>Registers or unregisters a WinSNMP application as an SNMP agent.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SnmpOpen</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpopen)</td>
-<td>Requests the implementation to open a WinSNMP session and allocate resources and communications mechanisms. When developing new WinSNMP applications, it is recommended that you call the [<strong>SnmpCreateSession</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession) function to open a WinSNMP session instead of calling the <strong>SnmpOpen</strong> function.</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpopen"><strong>SnmpOpen</strong></a></td>
+<td>Requests the implementation to open a WinSNMP session and allocate resources and communications mechanisms. When developing new WinSNMP applications, it is recommended that you call the <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession"><strong>SnmpCreateSession</strong></a> function to open a WinSNMP session instead of calling the <strong>SnmpOpen</strong> function.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SnmpRecvMsg</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg)</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg"><strong>SnmpRecvMsg</strong></a></td>
 <td>Returns SNMP messages and outstanding trap data and notifications.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SnmpRegister</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpregister)</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpregister"><strong>SnmpRegister</strong></a></td>
 <td>Informs the implementation that the application needs to register or unregister for traps and notifications.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SnmpSendMsg</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsendmsg)</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsendmsg"><strong>SnmpSendMsg</strong></a></td>
 <td>Requests that the implementation transmit a protocol data unit.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SnmpStartup</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup)</td>
-<td>Notifies the implementation to perform initialization procedures for the application. An application must call the [<strong>SnmpStartup</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup) function successfully before it calls any other WinSNMP function.</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup"><strong>SnmpStartup</strong></a></td>
+<td>Notifies the implementation to perform initialization procedures for the application. An application must call the <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup"><strong>SnmpStartup</strong></a> function successfully before it calls any other WinSNMP function.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SnmpStartupEx</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartupex)</td>
-<td>Notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services. [<strong>SnmpStartupEx</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartupex) enables support for multiple independent software modules that use WinSNMP within the same application.</td>
+<td><a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartupex"><strong>SnmpStartupEx</strong></a></td>
+<td>Notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services. <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartupex"><strong>SnmpStartupEx</strong></a> enables support for multiple independent software modules that use WinSNMP within the same application.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SNMPAPI_CALLBACK</strong>](/windows/desktop/api/Winsnmp/nc-winsnmp-snmpapi_callback)</td>
+<td><a href="/windows/desktop/api/Winsnmp/nc-winsnmp-snmpapi_callback"><strong>SNMPAPI_CALLBACK</strong></a></td>
 <td>Notifies a WinSNMP session that an SNMP message or asynchronous event is available.
 <blockquote>
 [!Note]<br />
-This callback function applies only to sessions opened as a result of a call to the [<strong>SnmpCreateSession</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession) function.
+This callback function applies only to sessions opened as a result of a call to the <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession"><strong>SnmpCreateSession</strong></a> function.
 </blockquote>
 <br/></td>
 </tr>

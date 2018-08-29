@@ -29,62 +29,62 @@ There are several pairs of low-level functions for setting and retrieving an obj
 <tbody>
 <tr class="odd">
 <td><ul>
-<li>[Files](https://msdn.microsoft.com/library/windows/desktop/aa364399)</li>
-<li>[Directories](https://msdn.microsoft.com/library/windows/desktop/aa364399)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/aa364399">Files</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/aa364399">Directories</a></li>
 <li>Mailslots</li>
-<li>[Named pipes](https://msdn.microsoft.com/library/windows/desktop/aa365600)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/aa365600">Named pipes</a></li>
 </ul></td>
-<td>Use the [<strong>GetFileSecurity</strong>](/windows/desktop/api/Winbase/nf-winbase-getfilesecuritya) and [<strong>SetFileSecurity</strong>](/windows/desktop/api/Winbase/nf-winbase-setfilesecuritya) functions. These functions use character strings to identify the securable object, instead of using handles.</td>
+<td>Use the <a href="/windows/desktop/api/Winbase/nf-winbase-getfilesecuritya"><strong>GetFileSecurity</strong></a> and <a href="/windows/desktop/api/Winbase/nf-winbase-setfilesecuritya"><strong>SetFileSecurity</strong></a> functions. These functions use character strings to identify the securable object, instead of using handles.</td>
 </tr>
 <tr class="even">
 <td><ul>
-<li>[Processes](https://msdn.microsoft.com/library/windows/desktop/ms684880)</li>
-<li>[Threads](https://msdn.microsoft.com/library/windows/desktop/ms686769)</li>
-<li>[Access tokens](access-rights-for-access-token-objects.md)</li>
-<li>[File-mapping objects](https://msdn.microsoft.com/library/windows/desktop/aa366559)</li>
-<li>[Semaphores](https://msdn.microsoft.com/library/windows/desktop/ms686670)</li>
-<li>[Events](https://msdn.microsoft.com/library/windows/desktop/ms686670)</li>
-<li>[Mutexes](https://msdn.microsoft.com/library/windows/desktop/ms686670)</li>
-<li>[Waitable timers](https://msdn.microsoft.com/library/windows/desktop/ms686670)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms684880">Processes</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms686769">Threads</a></li>
+<li><a href="access-rights-for-access-token-objects">Access tokens</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/aa366559">File-mapping objects</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms686670">Semaphores</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms686670">Events</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms686670">Mutexes</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms686670">Waitable timers</a></li>
 </ul></td>
-<td>Use the [<strong>GetKernelObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa446641(v=VS.85).aspx) and [<strong>SetKernelObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa379578(v=VS.85).aspx) functions.</td>
+<td>Use the <a href="https://msdn.microsoft.com/en-us/library/Aa446641(v=VS.85).aspx"><strong>GetKernelObjectSecurity</strong></a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379578(v=VS.85).aspx"><strong>SetKernelObjectSecurity</strong></a> functions.</td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li>[Window stations](https://msdn.microsoft.com/library/windows/desktop/ms687391)</li>
-<li>[Desktops](https://msdn.microsoft.com/library/windows/desktop/ms682575)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms687391">Window stations</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms682575">Desktops</a></li>
 </ul></td>
-<td>Use the [<strong>GetUserObjectSecurity</strong>](/windows/desktop/api/Winuser/nf-winuser-getuserobjectsecurity) and [<strong>SetUserObjectSecurity</strong>](/windows/desktop/api/Winuser/nf-winuser-setuserobjectsecurity) functions.</td>
+<td>Use the <a href="/windows/desktop/api/Winuser/nf-winuser-getuserobjectsecurity"><strong>GetUserObjectSecurity</strong></a> and <a href="/windows/desktop/api/Winuser/nf-winuser-setuserobjectsecurity"><strong>SetUserObjectSecurity</strong></a> functions.</td>
 </tr>
 <tr class="even">
 <td><ul>
-<li>[Registry keys](https://msdn.microsoft.com/library/windows/desktop/ms724878)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms724878">Registry keys</a></li>
 </ul></td>
-<td>Use the [<strong>RegGetKeySecurity</strong>](/windows/desktop/api/Winreg/nf-winreg-reggetkeysecurity) and [<strong>RegSetKeySecurity</strong>](/windows/desktop/api/Winreg/nf-winreg-regsetkeysecurity) functions.</td>
+<td>Use the <a href="/windows/desktop/api/Winreg/nf-winreg-reggetkeysecurity"><strong>RegGetKeySecurity</strong></a> and <a href="/windows/desktop/api/Winreg/nf-winreg-regsetkeysecurity"><strong>RegSetKeySecurity</strong></a> functions.</td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li>[Windows service objects](https://msdn.microsoft.com/library/windows/desktop/ms685981)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms685981">Windows service objects</a></li>
 </ul></td>
-<td>Use the [<strong>QueryServiceObjectSecurity</strong>](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceobjectsecurity) and [<strong>SetServiceObjectSecurity</strong>](/windows/desktop/api/Winsvc/nf-winsvc-setserviceobjectsecurity) functions.</td>
+<td>Use the <a href="/windows/desktop/api/Winsvc/nf-winsvc-queryserviceobjectsecurity"><strong>QueryServiceObjectSecurity</strong></a> and <a href="/windows/desktop/api/Winsvc/nf-winsvc-setserviceobjectsecurity"><strong>SetServiceObjectSecurity</strong></a> functions.</td>
 </tr>
 <tr class="even">
 <td><ul>
 <li>Printer objects</li>
 </ul></td>
-<td>Use the [<strong>PRINTER_INFO_2</strong>](https://msdn.microsoft.com/library/windows/desktop/dd162845) structure with the [<strong>GetPrinter</strong>](https://msdn.microsoft.com/library/windows/desktop/dd144911) and [<strong>SetPrinter</strong>](https://msdn.microsoft.com/library/windows/desktop/dd145082) functions.</td>
+<td>Use the <a href="https://msdn.microsoft.com/library/windows/desktop/dd162845"><strong>PRINTER_INFO_2</strong></a> structure with the <a href="https://msdn.microsoft.com/library/windows/desktop/dd144911"><strong>GetPrinter</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd145082"><strong>SetPrinter</strong></a> functions.</td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li>[Network shares](https://msdn.microsoft.com/library/windows/desktop/aa370891)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/aa370891">Network shares</a></li>
 </ul></td>
-<td>Use level 502 with the [<strong>NetShareGetInfo</strong>](https://msdn.microsoft.com/library/windows/desktop/bb525388) and [<strong>NetShareSetInfo</strong>](https://msdn.microsoft.com/library/windows/desktop/bb525389) functions.</td>
+<td>Use level 502 with the <a href="https://msdn.microsoft.com/library/windows/desktop/bb525388"><strong>NetShareGetInfo</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/bb525389"><strong>NetShareSetInfo</strong></a> functions.</td>
 </tr>
 <tr class="even">
 <td><ul>
-<li>[Private objects (objects private to the creating application)](acl-based-access-control.md)</li>
+<li><a href="acl-based-access-control">Private objects (objects private to the creating application)</a></li>
 </ul></td>
-<td>Use the [<strong>CreatePrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa376405(v=VS.85).aspx), [<strong>DestroyPrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa446613(v=VS.85).aspx), [<strong>GetPrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa446646(v=VS.85).aspx) and [<strong>SetPrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa379580(v=VS.85).aspx) functions.</td>
+<td>Use the <a href="https://msdn.microsoft.com/en-us/library/Aa376405(v=VS.85).aspx"><strong>CreatePrivateObjectSecurity</strong></a>, <a href="https://msdn.microsoft.com/en-us/library/Aa446613(v=VS.85).aspx"><strong>DestroyPrivateObjectSecurity</strong></a>, <a href="https://msdn.microsoft.com/en-us/library/Aa446646(v=VS.85).aspx"><strong>GetPrivateObjectSecurity</strong></a> and <a href="https://msdn.microsoft.com/en-us/library/Aa379580(v=VS.85).aspx"><strong>SetPrivateObjectSecurity</strong></a> functions.</td>
 </tr>
 </tbody>
 </table>

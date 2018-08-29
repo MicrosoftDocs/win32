@@ -220,7 +220,7 @@ The following success and error codes are defined.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="E_IMAPI_RAW_IMAGE_IS_READ_ONLY"></span><span id="e_imapi_raw_image_is_read_only"></span><dl> <dt><strong>E_IMAPI_RAW_IMAGE_IS_READ_ONLY</strong></dt> <dt>(HRESULT)0x80AA0A00L</dt> </dl></td>
-<td style="text-align: left;">The image has become read-only due to a call to [<strong>IRawCDImageCreator::CreateResultImage</strong>](/windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-createresultimage). As a result the object can no longer be modified.<br/></td>
+<td style="text-align: left;">The image has become read-only due to a call to <a href="/windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-createresultimage"><strong>IRawCDImageCreator::CreateResultImage</strong></a>. As a result the object can no longer be modified.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="E_IMAPI_RAW_IMAGE_TOO_MANY_TRACKS"></span><span id="e_imapi_raw_image_too_many_tracks"></span><dl> <dt><strong>E_IMAPI_RAW_IMAGE_TOO_MANY_TRACKS</strong></dt> <dt>(HRESULT)0x80AA0A01L</dt> </dl></td>
@@ -523,7 +523,7 @@ The following success and error codes are defined.
 <td style="text-align: left;">The drive did not complete the erase in one hour. The drive may require a power cycle, media removal, or other manual intervention to resume proper operation.<br/>
 <blockquote>
 [!Note]<br />
-Currently, this value will also be returned if an attempt to perform an erase on CD-RW or DVD-RW media via the [<strong>IDiscFormat2Erase</strong>](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase) interface fails as a result of the media being bad.
+Currently, this value will also be returned if an attempt to perform an erase on CD-RW or DVD-RW media via the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase"><strong>IDiscFormat2Erase</strong></a> interface fails as a result of the media being bad.
 </blockquote>
 <br/></td>
 </tr>
@@ -662,7 +662,7 @@ The following success and error codes are defined in Imapi2fserror.h.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="IMAPI_E_IMAGEMANAGER_NO_IMAGE"></span><span id="imapi_e_imagemanager_no_image"></span><dl> <dt><strong>IMAPI_E_IMAGEMANAGER_NO_IMAGE</strong></dt> <dt>(HRESULT)0xC0AAB202L</dt> </dl></td>
-<td style="text-align: left;">The image has not been set using the [<strong>IIsoImageManager::SetPath</strong>](/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath) or [<strong>IIsoImageManager::SetStream</strong>](/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream) methods prior to calling the [<strong>IIsoImageManager::Validate</strong>](/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-validate) method.<br/></td>
+<td style="text-align: left;">The image has not been set using the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath"><strong>IIsoImageManager::SetPath</strong></a> or <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream"><strong>IIsoImageManager::SetStream</strong></a> methods prior to calling the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-validate"><strong>IIsoImageManager::Validate</strong></a> method.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="IMAPI_E_IMAGEMANAGER_IMAGE_TOO_BIG"></span><span id="imapi_e_imagemanager_image_too_big"></span><dl> <dt><strong>IMAPI_E_IMAGEMANAGER_IMAGE_TOO_BIG</strong></dt> <dt>(HRESULT)0xC0AAB203L</dt> </dl></td>

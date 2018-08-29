@@ -67,7 +67,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Context](element-context.md)</td>
+<td><a href="element-context">Context</a></td>
 <td><p>Specifies the parameters required to establish a data connection.</p></td>
 </tr>
 </tbody>

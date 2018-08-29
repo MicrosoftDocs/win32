@@ -124,26 +124,26 @@ Converting programs written to use the Direct3D 10 or 10.1 API is a straight-for
 <td>D3DCompiler (see D3DCompiler.h)
 <blockquote>
 [!Note]<br />
-For Windows Store apps, the [D3DCompiler APIs](https://msdn.microsoft.com/library/windows/desktop/dd607340) are supported only for development, not deployment.
+For Windows Store apps, the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607340">D3DCompiler APIs</a> are supported only for development, not deployment.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td>Effects 10</td>
-<td>[Effects 11](http://go.microsoft.com/fwlink/p/?LinkId=271568) is available as shared source online.
+<td><a href="http://go.microsoft.com/fwlink/p/?LinkId=271568">Effects 11</a> is available as shared source online.
 <blockquote>
 [!Note]<br />
-This solution is not suited to Windows Store apps because it requires the [D3DCompiler APIs](https://msdn.microsoft.com/library/windows/desktop/dd607340) at runtime (deployment).
+This solution is not suited to Windows Store apps because it requires the <a href="https://msdn.microsoft.com/library/windows/desktop/dd607340">D3DCompiler APIs</a> at runtime (deployment).
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>D3DX9/D3DX10 Math</td>
-<td>[DirectXMath](https://msdn.microsoft.com/library/windows/desktop/hh437833)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/hh437833">DirectXMath</a></td>
 </tr>
 <tr class="even">
 <td>D3DX10</td>
-<td>D3DX11 in the legacy DirectX SDK [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926), [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929), and [DirectXMesh](http://go.microsoft.com/fwlink/p/?linkid=324981) offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br/> [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) and [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) offer high-quality support for rendering styled lines and fonts.<br/></td>
+<td>D3DX11 in the legacy DirectX SDK <a href="http://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a>, <a href="http://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a>, and <a href="http://go.microsoft.com/fwlink/p/?linkid=324981">DirectXMesh</a> offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br/> <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd368038">DirectWrite</a> offer high-quality support for rendering styled lines and fonts.<br/></td>
 </tr>
 </tbody>
 </table>

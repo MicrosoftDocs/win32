@@ -88,7 +88,7 @@ The following event identifiers are defined.
 <tbody>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_MPEG2DEMUX_PTS_TRANSLATION</td>
-<td>Logged when the [MPEG-2 Demultiplexer](mpeg-2-demultiplexer.md) filter converts a presentation time stamp (PTS) to stream time.
+<td>Logged when the <a href="mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter converts a presentation time stamp (PTS) to stream time.
 <ul>
 <li><strong>data</strong>[0]: Converted start time.</li>
 <li><strong>data</strong>[1]: Converted stop time.</li>
@@ -100,19 +100,19 @@ The following event identifiers are defined.
 <td>PERFINFO_STREAMTRACE_MPEG2DEMUX_SAMPLE_RECEIVE</td>
 <td>Logged when MPEG-2 Demultiplexer receives a sample.
 <ul>
-<li><strong>data</strong>[0]: Current time returned by [<strong>QueryPerformanceCounter</strong>](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx>).</li>
+<li><strong>data</strong>[0]: Current time returned by <a href="https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx>"><strong>QueryPerformanceCounter</strong></a>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_VMR_BEGIN_ADVISE</td>
-<td>Logged when the VMR schedules a sample for rendering, immediately before the VMR calls [<strong>IReferenceClock::AdviseTime</strong>](/windows/desktop/api/Strmif/nf-strmif-ireferenceclock-advisetime).
+<td>Logged when the VMR schedules a sample for rendering, immediately before the VMR calls <a href="/windows/desktop/api/Strmif/nf-strmif-ireferenceclock-advisetime"><strong>IReferenceClock::AdviseTime</strong></a>.
 <ul>
 <li><strong>data</strong>[0]: Reference time when streaming began, which corresponds to stream time zero.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>PERFINFO_STREAMTRACE_VMR_BEGIN_DECODE</td>
-<td>Logged when the VMR begins a decoding operation—that is, when the decoder calls [<strong>IAMVideoAccelerator::BeginFrame</strong>](/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe). No event data.</td>
+<td>Logged when the VMR begins a decoding operation—that is, when the decoder calls <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe"><strong>IAMVideoAccelerator::BeginFrame</strong></a>. No event data.</td>
 </tr>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_VMR_BEGIN_DEINTERLACE</td>
@@ -132,7 +132,7 @@ The following event identifiers are defined.
 </tr>
 <tr class="even">
 <td>PERFINFO_STREAMTRACE_VMR_END_DECODE</td>
-<td>Logged when the VMR ends a decoding operation—that is, when the decoder calls [<strong>IAMVideoAccelerator::EndFrame</strong>](/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe). No event data.</td>
+<td>Logged when the VMR ends a decoding operation—that is, when the decoder calls <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe"><strong>IAMVideoAccelerator::EndFrame</strong></a>. No event data.</td>
 </tr>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_VMR_END_DEINTERLACE</td>

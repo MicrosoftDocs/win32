@@ -39,8 +39,8 @@ Accesses specific matrix elements referenced by row and column from the current 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMMATRIX::operator () (size_t,size_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404685(v=VS.85).aspx)</td>
-<td style="text-align: left;">Returns a <code>reference</code> to a matrix element of an instance <code>XMMATRIX</code> as specified by row and column arguments.<br/> This operator returns a <code>reference</code> to a matrix element of an instance [<strong>XMMATRIX</strong>](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) as specified by row and column arguments.<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404685(v=VS.85).aspx"><strong>XMMATRIX::operator () (size_t,size_t)</strong></a></td>
+<td style="text-align: left;">Returns a <code>reference</code> to a matrix element of an instance <code>XMMATRIX</code> as specified by row and column arguments.<br/> This operator returns a <code>reference</code> to a matrix element of an instance <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx"><strong>XMMATRIX</strong></a> as specified by row and column arguments.<br/>
 <blockquote>
 [!Note]<br />
 This operator is only available when developing with C++.
@@ -48,8 +48,8 @@ This operator is only available when developing with C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMMATRIX::operator () (size_t,size_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404686(v=VS.85).aspx)</td>
-<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMMATRIX</code> as specified by row and column arguments.<br/> This operator returns the value of a matrix element of an instance [<strong>XMMATRIX</strong>](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) as specified by row and column arguments. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404686(v=VS.85).aspx"><strong>XMMATRIX::operator () (size_t,size_t)</strong></a></td>
+<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMMATRIX</code> as specified by row and column arguments.<br/> This operator returns the value of a matrix element of an instance <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx"><strong>XMMATRIX</strong></a> as specified by row and column arguments. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available when developing with C++.

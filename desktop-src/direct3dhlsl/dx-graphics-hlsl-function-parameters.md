@@ -82,7 +82,7 @@ If there are multiple function arguments, they are separated by commas.
 </tr>
 <tr class="even">
 <td><p><span id="Type"></span><span id="type"></span><span id="TYPE"></span><strong>Type</strong></p></td>
-<td><p>The argument type; can be any valid HLSL [type](dx-graphics-hlsl-data-types.md).</p></td>
+<td><p>The argument type; can be any valid HLSL <a href="dx-graphics-hlsl-data-types">type</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><span id="Name"></span><span id="name"></span><span id="NAME"></span><strong>Name</strong></p></td>
@@ -90,11 +90,11 @@ If there are multiple function arguments, they are separated by commas.
 </tr>
 <tr class="even">
 <td><p><span id="Semantic"></span><span id="semantic"></span><span id="SEMANTIC"></span><strong>Semantic</strong></p></td>
-<td><p>Optional string that identifies the intended usage of the data (see [Semantics (DirectX HLSL)](dx-graphics-hlsl-semantics.md)).</p></td>
+<td><p>Optional string that identifies the intended usage of the data (see <a href="dx-graphics-hlsl-semantics">Semantics (DirectX HLSL)</a>).</p></td>
 </tr>
 <tr class="odd">
 <td><p><span id="InterpolationModifier"></span><span id="interpolationmodifier"></span><span id="INTERPOLATIONMODIFIER"></span><strong>InterpolationModifier</strong></p></td>
-<td><p>Optional [interpolation modifier](dx-graphics-hlsl-struct.md) which allows a shader to determine the method of interpolation. An interpolation modifier on a function argument only applies to an argument used as an input to a pixel shader function.</p></td>
+<td><p>Optional <a href="dx-graphics-hlsl-struct">interpolation modifier</a> which allows a shader to determine the method of interpolation. An interpolation modifier on a function argument only applies to an argument used as an input to a pixel shader function.</p></td>
 </tr>
 <tr class="even">
 <td><p><span id="Initializers"></span><span id="initializers"></span><span id="INITIALIZERS"></span><strong>Initializers</strong></p></td>

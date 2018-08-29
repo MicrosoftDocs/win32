@@ -28,43 +28,43 @@ The Windows SDK includes the following code samples that demonstrate the use of 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AECMicArray](aecmicarray.md)</td>
+<td><a href="aecmicarray">AECMicArray</a></td>
 <td>This sample uses the MMDevice, WASAPI, DeviceTopology, and EndpointVolume APIs to capture a high-quality voice stream. TThe sample supports acoustic echo cancellation (AEC) and microphone array processing by using the the AEC DMO also called the Voice capture DSP provided by Microsoft .</td>
 </tr>
 <tr class="even">
-<td>[CaptureSharedEventDriven](capturesharedeventdriven.md)</td>
+<td><a href="capturesharedeventdriven">CaptureSharedEventDriven</a></td>
 <td>This sample application uses the Core Audio APIs to capture audio data from an input device, specified by the user and writes it to a uniquely named .WAV file in the current directory. This sample demonstrates event-driven buffering.</td>
 </tr>
 <tr class="odd">
-<td>[CaptureSharedTimerDriven](capturesharedtimerdriven.md)</td>
+<td><a href="capturesharedtimerdriven">CaptureSharedTimerDriven</a></td>
 <td>This sample application uses the Core Audio APIs to capture audio data from an input device, specified by the user and writes it to a uniquely named .WAV file in the current directory. This sample demonstrates timer-driven buffering.</td>
 </tr>
 <tr class="even">
-<td>[DuckingCaptureSample](duckingcapturesample.md)</td>
+<td><a href="duckingcapturesample">DuckingCaptureSample</a></td>
 <td>This sample application demonstrates opening and closing communication streams and causing ducking events that an application can get to implement stream attenuation. This application implements a chat client that uses Core Audio APIs to read audio data from a communication device and to play it on the output device.</td>
 </tr>
 <tr class="odd">
-<td>[EndpointVolume](endpointvolume.md)</td>
+<td><a href="endpointvolume">EndpointVolume</a></td>
 <td>This sample application uses the Core Audio APIs to change the volume of the device, specified by the user.</td>
 </tr>
 <tr class="even">
-<td>[OSD](osd.md)</td>
+<td><a href="osd">OSD</a></td>
 <td>This sample uses the MMDevice and EndpointVolume APIs to implement an on-screen display that shows volume changes to the output stream that plays through the default audio-rendering endpoint device. The on-screen display appears when the user adjusts the volume level in the Windows volume-control program, Sndvol.exe, and it disappears after the volume level remains unchanged for a short period.</td>
 </tr>
 <tr class="odd">
-<td>[RenderExclusiveEventDriven](renderexclusiveeventdriven.md)</td>
+<td><a href="renderexclusiveeventdriven">RenderExclusiveEventDriven</a></td>
 <td>This sample application uses the Core Audio APIs to render audio data to an output device, specified by the user. This sample demonstrates event-driven buffering for a rendering client in exclusive mode. For an exclusive-mode stream, the client shares the endpoint buffer with the audio device.</td>
 </tr>
 <tr class="even">
-<td>[RenderExclusiveTimerDriven](renderexclusivetimerdriven.md)</td>
+<td><a href="renderexclusivetimerdriven">RenderExclusiveTimerDriven</a></td>
 <td>This sample application uses the Core Audio APIs to render audio data to an output device, specified by the user. This sample demonstrates timer-driven buffering for a rendering client in exclusive mode. For an exclusive-mode stream, the client shares the endpoint buffer with the audio device.</td>
 </tr>
 <tr class="odd">
-<td>[RenderSharedEventDriven](rendersharedeventdriven.md)</td>
+<td><a href="rendersharedeventdriven">RenderSharedEventDriven</a></td>
 <td>This sample application uses the Core Audio APIs to render audio data to an output device, specified by the user. This sample demonstrates event-driven buffering for a rendering client in shared mode. For a shared-mode stream, the client shares the endpoint buffer with the audio engine.</td>
 </tr>
 <tr class="even">
-<td>[RenderSharedTimerDriven](rendersharedtimerdriven.md)</td>
+<td><a href="rendersharedtimerdriven">RenderSharedTimerDriven</a></td>
 <td>This sample application uses the Core Audio APIs to render audio data to an output device, specified by the user. This sample demonstrates timer-driven buffering for a rendering client in shared mode. For a shared-mode stream, the client shares the endpoint buffer with the audio engine.</td>
 </tr>
 <tr class="odd">

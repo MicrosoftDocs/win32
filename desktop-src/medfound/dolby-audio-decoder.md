@@ -64,17 +64,17 @@ The following table lists the requires and optional attributes for the input med
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MF_MT_MAJOR_TYPE](mf-mt-major-type-attribute.md)</td>
+<td><a href="mf-mt-major-type-attribute">MF_MT_MAJOR_TYPE</a></td>
 <td>Major type.</td>
 <td>Required. Must be <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
-<td>[MF_MT_SUBTYPE](mf-mt-subtype-attribute.md)</td>
+<td><a href="mf-mt-subtype-attribute">MF_MT_SUBTYPE</a></td>
 <td>Audio subtype.</td>
 <td>Required. See the previous table for details.</td>
 </tr>
 <tr class="odd">
-<td>[MF_MT_AUDIO_SAMPLES_PER_SECOND](mf-mt-audio-samples-per-second-attribute.md)</td>
+<td><a href="mf-mt-audio-samples-per-second-attribute">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
 <td>Sample rate, in samples per second.</td>
 <td>Optional. Valid values are: 48000, 44100, 32000, 24000, 22050, and 16000. If this attribute is not set, the default value is 48000. <br/>
 <blockquote>
@@ -84,12 +84,12 @@ Dolby AC-3 streams are limited to the three highest rates in this list.
 <br/></td>
 </tr>
 <tr class="even">
-<td>[MF_MT_AUDIO_NUM_CHANNELS](mf-mt-audio-num-channels-attribute.md)</td>
+<td><a href="mf-mt-audio-num-channels-attribute">MF_MT_AUDIO_NUM_CHANNELS</a></td>
 <td>Number of channels, including the low frequency (LFE) channel, if present.</td>
 <td>Optional. Valid values are in the range 1 (mono) to 8 (7.1 channel configuration). If this attribute is not set, the default value is 2 (stereo).</td>
 </tr>
 <tr class="odd">
-<td>[MF_MT_AUDIO_CHANNEL_MASK](mf-mt-audio-channel-mask-attribute.md)</td>
+<td><a href="mf-mt-audio-channel-mask-attribute">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Specifies the assignment of audio channels to speaker positions.</td>
 <td>Optional. If specified, the value must be consistent with the number of audio channels. If the attribute is not set, the decoder uses a default channel mask, based on the number of channels.</td>
 </tr>
@@ -213,22 +213,22 @@ The following table lists the required and optional attributes for the output me
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MF_MT_MAJOR_TYPE](mf-mt-major-type-attribute.md)</td>
+<td><a href="mf-mt-major-type-attribute">MF_MT_MAJOR_TYPE</a></td>
 <td>Major type.</td>
 <td>Required. Must be <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
-<td>[MF_MT_SUBTYPE](mf-mt-subtype-attribute.md)</td>
+<td><a href="mf-mt-subtype-attribute">MF_MT_SUBTYPE</a></td>
 <td>Audio subtype.</td>
 <td>Required. See the previous table for details.</td>
 </tr>
 <tr class="odd">
-<td>[MF_MT_AUDIO_SAMPLES_PER_SECOND](mf-mt-audio-samples-per-second-attribute.md)</td>
+<td><a href="mf-mt-audio-samples-per-second-attribute">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
 <td>Sample rate, in samples per second.</td>
 <td>Required. Valid values are: 48000, 44100, 32000, 24000, 22050, and 16000. The output sample rate must be identical to the input sample rate. The decoder cannot change the sampling rate of the stream.</td>
 </tr>
 <tr class="even">
-<td>[MF_MT_AUDIO_NUM_CHANNELS](mf-mt-audio-num-channels-attribute.md)</td>
+<td><a href="mf-mt-audio-num-channels-attribute">MF_MT_AUDIO_NUM_CHANNELS</a></td>
 <td>Number of channels, including the low frequency (LFE) channel, if present.</td>
 <td>Required for PCM output. <br/> Not needed for digital output. <br/> If the input type is mono, stereo, or dual-mono (all without LFE channel), the only valid value is 2, for stereo output. Otherwise, the value can be: <br/>
 <ul>
@@ -238,7 +238,7 @@ The following table lists the required and optional attributes for the output me
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[MF_MT_AUDIO_CHANNEL_MASK](mf-mt-audio-channel-mask-attribute.md)</td>
+<td><a href="mf-mt-audio-channel-mask-attribute">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Specifies the assignment of audio channels to speaker positions.</td>
 <td>Required for PCM output if the number of channels is greater than 2. The value must be:<br/>
 <ul>
@@ -249,22 +249,22 @@ The following table lists the required and optional attributes for the output me
 Not needed for digital output. <br/></td>
 </tr>
 <tr class="even">
-<td>[MF_MT_AUDIO_BITS_PER_SAMPLE](mf-mt-audio-bits-per-sample-attribute.md)</td>
+<td><a href="mf-mt-audio-bits-per-sample-attribute">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
 <td>Number of bits per audio sample.</td>
 <td>Required for PCM output. The value must be 32 for <strong>MFAudioFormat_Float</strong>, and 16 for <strong>MFAudioFormat_PCM</strong>.<br/> Not needed for digital output.<br/></td>
 </tr>
 <tr class="odd">
-<td>[MF_MT_AUDIO_VALID_BITS_PER_SAMPLE](mf-mt-audio-valid-bits-per-sample-attribute.md)</td>
+<td><a href="mf-mt-audio-valid-bits-per-sample-attribute">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
 <td>Number of valid bits of audio data in each audio sample.</td>
-<td>Optional for PCM output. If set, the value must be identical to [MF_MT_AUDIO_BITS_PER_SAMPLE](mf-mt-audio-bits-per-sample-attribute.md).<br/> Not needed for the digital output subtypes.<br/></td>
+<td>Optional for PCM output. If set, the value must be identical to <a href="mf-mt-audio-bits-per-sample-attribute">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.<br/> Not needed for the digital output subtypes.<br/></td>
 </tr>
 <tr class="even">
-<td>[MF_MT_AUDIO_BLOCK_ALIGNMENT](mf-mt-audio-block-alignment-attribute.md)</td>
+<td><a href="mf-mt-audio-block-alignment-attribute">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
 <td>Block alignment, in bytes.</td>
 <td>Optional for PCM output. Not needed for digital output.</td>
 </tr>
 <tr class="odd">
-<td>[MF_MT_AUDIO_AVG_BYTES_PER_SECOND](mf-mt-audio-avg-bytes-per-second-attribute.md)</td>
+<td><a href="mf-mt-audio-avg-bytes-per-second-attribute">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
 <td>Average number of bytes per second.</td>
 <td>Optional for PCM output. Not needed for digital output.</td>
 </tr>

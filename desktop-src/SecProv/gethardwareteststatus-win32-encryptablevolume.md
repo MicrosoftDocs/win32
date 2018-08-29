@@ -63,14 +63,14 @@ Specifies whether a hardware test is pending, as well as the success of failure 
 <tbody>
 <tr class="odd">
 <td><span id="NotFailed_and_NonePending"></span><span id="notfailed_and_nonepending"></span><span id="NOTFAILED_AND_NONEPENDING"></span><dl> <dt><strong>NotFailed_and_NonePending</strong></dt> <dt>0</dt> </dl></td>
-<td>If a test was requested, the test has succeeded on the last computer restart and volume encryption is now in progress. For the encryption status, see the [<strong>GetConversionStatus</strong>](getconversionstatus-win32-encryptablevolume.md) method. Otherwise, no test ran on the last computer restart and none is pending. <br/></td>
+<td>If a test was requested, the test has succeeded on the last computer restart and volume encryption is now in progress. For the encryption status, see the <a href="getconversionstatus-win32-encryptablevolume"><strong>GetConversionStatus</strong></a> method. Otherwise, no test ran on the last computer restart and none is pending. <br/></td>
 </tr>
 <tr class="even">
 <td><span id="Failed"></span><span id="failed"></span><span id="FAILED"></span><dl> <dt><strong>Failed</strong></dt> <dt>1</dt> </dl></td>
 <td>Volume encryption did not start. All key protectors were removed.<br/> To resolve a failed test:<br/>
 <ul>
 <li>Consult the information in the <em>TestError</em> parameter.</li>
-<li>Add key protectors and use the [<strong>EncryptAfterHardwareTest</strong>](encryptafterhardwaretest-win32-encryptablevolume.md) method again.</li>
+<li>Add key protectors and use the <a href="encryptafterhardwaretest-win32-encryptablevolume"><strong>EncryptAfterHardwareTest</strong></a> method again.</li>
 </ul></td>
 </tr>
 <tr class="odd">

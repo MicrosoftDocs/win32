@@ -50,7 +50,7 @@ Demonstrates how to apply a texture to a triangle using Direct3D 12.<br />
 </dl></td>
 <td>Y</td>
 <td>Y</td>
-<td>[Creating a basic Direct3D 12 component](creating-a-basic-direct3d-12-component.md)</td>
+<td><a href="creating-a-basic-direct3d-12-component">Creating a basic Direct3D 12 component</a></td>
 </tr>
 <tr class="even">
 <td>D3D12Bundles</td>
@@ -71,35 +71,35 @@ Demonstrates how to apply a texture to a triangle using Direct3D 12.<br />
 <td>Demonstrates how multi-engine can be used to do asynchronous compute work alongside 3D work on the same GPU.</td>
 <td>Y</td>
 <td>Y</td>
-<td>[Multi-engine n-body gravity simulation](multi-engine-n-body-gravity-simulation.md)</td>
+<td><a href="multi-engine-n-body-gravity-simulation">Multi-engine n-body gravity simulation</a></td>
 </tr>
 <tr class="odd">
 <td>D3D12PredicationQueries</td>
 <td>Demonstrates occlusion culling using query heaps and predication.</td>
 <td>Y</td>
 <td>Y</td>
-<td>[Predication queries](predication-queries.md)</td>
+<td><a href="predication-queries">Predication queries</a></td>
 </tr>
 <tr class="even">
 <td>D3D12DynamicIndexing</td>
 <td>Demonstrates the dynamic indexing capabilities of DirectX 12 and HLSL.</td>
 <td>Y</td>
 <td>Y</td>
-<td>[Dynamic Indexing using HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)</td>
+<td><a href="dynamic-indexing-using-hlsl-5-1">Dynamic Indexing using HLSL 5.1</a></td>
 </tr>
 <tr class="odd">
 <td>D3D1211on12</td>
 <td>Demonstrates basic usage of the 11on12 layer. This sample renders text using D2D using the Direct3D 11 API on a Direct3D 12 11on12 device.</td>
 <td>Y</td>
 <td>Y</td>
-<td>[D2D using D3D11on12](d2d-using-d3d11on12.md)</td>
+<td><a href="d2d-using-d3d11on12">D2D using D3D11on12</a></td>
 </tr>
 <tr class="even">
 <td>D3D12ExecuteIndirect</td>
 <td>Demonstrates compute engine culling in conjunction with the execute indirect feature to only render objects that pass the culling test.</td>
 <td>Y</td>
 <td>Y</td>
-<td>[Indirect drawing and GPU culling](indirect-drawing-and-gpu-culling-.md)</td>
+<td><a href="indirect-drawing-and-gpu-culling-">Indirect drawing and GPU culling</a></td>
 </tr>
 <tr class="odd">
 <td>D3D12PipelineStateCache</td>

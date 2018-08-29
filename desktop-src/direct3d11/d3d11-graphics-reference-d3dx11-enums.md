@@ -39,7 +39,7 @@ This section contains information about D3DX 11 enumerations.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>D3DX11_CHANNEL_FLAG</strong>](d3dx11-channel-flag.md)<br/></td>
+<td><a href="d3dx11-channel-flag"><strong>D3DX11_CHANNEL_FLAG</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -47,7 +47,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> These flags are used by functions which operate on one or more channels in a texture.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3DX11_ERR</strong>](d3dx11-err.md)<br/></td>
+<td><a href="d3dx11-err"><strong>D3DX11_ERR</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -55,7 +55,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Errors are represented by negative values and cannot be combined. The following is a list of values that can be returned by methods included with the D3DX utility library. See the individual method descriptions for lists of the values that each can return. These lists are not necessarily comprehensive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3DX11_FILTER_FLAG</strong>](d3dx11-filter-flag.md)<br/></td>
+<td><a href="d3dx11-filter-flag"><strong>D3DX11_FILTER_FLAG</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -63,7 +63,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Texture filtering flags.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3DX11_IMAGE_FILE_FORMAT</strong>](d3dx11-image-file-format.md)<br/></td>
+<td><a href="d3dx11-image-file-format"><strong>D3DX11_IMAGE_FILE_FORMAT</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -71,7 +71,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Image file formats supported by D3DX11Createxxx and D3DX11Savexxx functions.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3DX11_NORMALMAP_FLAG</strong>](d3dx11-normalmap-flag.md)<br/></td>
+<td><a href="d3dx11-normalmap-flag"><strong>D3DX11_NORMALMAP_FLAG</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -79,7 +79,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Normal map options. You can combine any number of these flags by using a bitwise OR operation.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3DX11_SAVE_TEXTURE_FLAG</strong>](d3dx11-save-texture-flag.md)<br/></td>
+<td><a href="d3dx11-save-texture-flag"><strong>D3DX11_SAVE_TEXTURE_FLAG</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.

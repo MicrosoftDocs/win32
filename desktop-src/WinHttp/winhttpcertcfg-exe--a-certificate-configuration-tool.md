@@ -72,10 +72,10 @@ The following table lists parameters for the configuration tool.
 </tr>
 <tr class="odd">
 <td>-c</td>
-<td>Specifies the location and name of the [<em>certificate store</em>](glossary.md). Use &quot;LOCAL_MACHINE&quot; or &quot;CURRENT_USER&quot; to designate which registry branch to use for the location. The <em>certificate store</em> can be any installed on the machine. Typical name examples are &quot;MY&quot;, &quot;Root&quot;, and &quot;TrustedPeople&quot;. The location and name of the <em>certificate store</em> are separated with a backward slash, for example, &quot;LOCAL_MACHINE\Root&quot;.
+<td>Specifies the location and name of the <a href="glossary"><em>certificate store</em></a>. Use &quot;LOCAL_MACHINE&quot; or &quot;CURRENT_USER&quot; to designate which registry branch to use for the location. The <em>certificate store</em> can be any installed on the machine. Typical name examples are &quot;MY&quot;, &quot;Root&quot;, and &quot;TrustedPeople&quot;. The location and name of the <em>certificate store</em> are separated with a backward slash, for example, &quot;LOCAL_MACHINE\Root&quot;.
 <blockquote>
 [!Note]<br />
-Although the &quot;CURRENT_USER&quot; branch of the registry can be specified with this parameter, extending access to private keys is primarily intended for certificates installed in a local computer [<em>certificate store</em>](glossary.md) that can be accessed by multiple users.
+Although the &quot;CURRENT_USER&quot; branch of the registry can be specified with this parameter, extending access to private keys is primarily intended for certificates installed in a local computer <a href="glossary"><em>certificate store</em></a> that can be accessed by multiple users.
 </blockquote>
 <br/></td>
 </tr>

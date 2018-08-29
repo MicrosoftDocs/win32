@@ -35,7 +35,7 @@ Index of the item that will be made hot. If this value is -1, none of the items 
 </dd> <dt>
 
 *lParam* 
-</dt> <dd>A combination of HICF\_xxx flags. See [**NMTBHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbhotitem).</dd> </dl>
+</dt> <dd>A combination of HICF\_xxx flags. See <a href="/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbhotitem">**NMTBHOTITEM**</a>.</dd> </dl>
 
 ## Return value
 

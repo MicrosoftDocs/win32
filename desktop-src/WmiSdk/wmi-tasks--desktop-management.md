@@ -58,7 +58,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...determine if a remote computer has booted up in the Safe Mode with Networking state?</td>
-<td>Use the [<strong>Win32_ComputerSystem</strong>](https://msdn.microsoft.com/library/aa394102) class and check the value of the <strong>PrimaryOwnerName</strong> property.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and check the value of the <strong>PrimaryOwnerName</strong> property.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -105,7 +105,7 @@ foreach ($objComputer in $colSettings)
 </tr>
 <tr class="even">
 <td>...determine if a computer screensaver requires a password?</td>
-<td><p>Use the [<strong>Win32_Desktop</strong>](https://msdn.microsoft.com/library/aa394121) class and check the value of the <strong>ScreenSaverSecure</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394121"><strong>Win32_Desktop</strong></a> class and check the value of the <strong>ScreenSaverSecure</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -157,7 +157,7 @@ foreach ($desktop in $desktops) {
 </tr>
 <tr class="odd">
 <td>...verify that a computer screen has been set for 800 pixels by 600 pixels?</td>
-<td><p>Use the [<strong>Win32_DesktopMonitor</strong>](https://msdn.microsoft.com/library/aa394122) class and check the values of the properties <strong>ScreenHeight</strong> and <strong>ScreenWidth</strong>.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394122"><strong>Win32_DesktopMonitor</strong></a> class and check the values of the properties <strong>ScreenHeight</strong> and <strong>ScreenWidth</strong>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -218,7 +218,7 @@ foreach ($desktop in $desktops) {
 </tr>
 <tr class="even">
 <td>...determine how long a computer has been running?</td>
-<td><p>Use the [<strong>Win32_OperatingSystem</strong>](https://msdn.microsoft.com/library/aa394239) class and the <strong>LastBootUpTime</strong> property. Subtract that value from the current time to get the system uptime.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394239"><strong>Win32_OperatingSystem</strong></a> class and the <strong>LastBootUpTime</strong> property. Subtract that value from the current time to get the system uptime.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -286,7 +286,7 @@ foreach ($system in $computers) {
 </tr>
 <tr class="odd">
 <td>...reboot or shut down a remote computer?</td>
-<td><p>Use the [<strong>Win32_OperatingSystem</strong>](https://msdn.microsoft.com/library/aa394239) class and the [<strong>Win32Shutdown</strong>](https://msdn.microsoft.com/library/aa394058) method. You must include the [RemoteShutdown](privilege-constants.md) privilege when connecting to WMI. For more information, see [Executing Privileged Operations Using VBScript](executing-privileged-operations-using-vbscript.md). Unlike the [<strong>Shutdown</strong>](https://msdn.microsoft.com/library/aa393627) method on <strong>Win32_OperatingSystem</strong>, the <strong>Win32Shutdown</strong> method allows you to set flags to control the shutdown behavior.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394239"><strong>Win32_OperatingSystem</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa394058"><strong>Win32Shutdown</strong></a> method. You must include the <a href="privilege-constants">RemoteShutdown</a> privilege when connecting to WMI. For more information, see <a href="executing-privileged-operations-using-vbscript">Executing Privileged Operations Using VBScript</a>. Unlike the <a href="https://msdn.microsoft.com/library/aa393627"><strong>Shutdown</strong></a> method on <strong>Win32_OperatingSystem</strong>, the <strong>Win32Shutdown</strong> method allows you to set flags to control the shutdown behavior.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -335,7 +335,7 @@ foreach ($objOperatingSystem in $colOperatingSystem)
 </tr>
 <tr class="even">
 <td>...determine what applications automatically run each time I start Windows?</td>
-<td><p>Use the [<strong>Win32_StartupCommand</strong>](https://msdn.microsoft.com/library/aa394464) class.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394464"><strong>Win32_StartupCommand</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

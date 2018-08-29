@@ -45,7 +45,7 @@ The following table lists the available packet property globally unique identifi
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="STR_GUID_Z_or_GUID_PACKETPROPERTY_GUID_Z"></span><span id="str_guid_z_or_guid_packetproperty_guid_z"></span><span id="STR_GUID_Z_OR_GUID_PACKETPROPERTY_GUID_Z"></span><dl> <dt><strong>STR_GUID_Z or GUID_PACKETPROPERTY_GUID_Z</strong></dt> </dl></td>
-<td style="text-align: left;">The z-coordinate or distance of the pen tip from the tablet surface. The [<strong>TabletPropertyMetricUnit</strong>](/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit) enumeration type determines the unit of measurement for this property.<br/></td>
+<td style="text-align: left;">The z-coordinate or distance of the pen tip from the tablet surface. The <a href="/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit"><strong>TabletPropertyMetricUnit</strong></a> enumeration type determines the unit of measurement for this property.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="STR_GUID_PAKETSTATUS_or_GUID_PACKETPROPERTY_GUID_PACKET_STATUS"></span><span id="str_guid_paketstatus_or_guid_packetproperty_guid_packet_status"></span><span id="STR_GUID_PAKETSTATUS_OR_GUID_PACKETPROPERTY_GUID_PACKET_STATUS"></span><dl> <dt><strong>STR_GUID_PAKETSTATUS or GUID_PACKETPROPERTY_GUID_PACKET_STATUS</strong></dt> </dl></td>

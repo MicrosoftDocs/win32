@@ -31,12 +31,12 @@ The VMR-9 supports up to 16 monitors.
 <td>Filter Interfaces</td>
 <td>The VMR-9 supports several distinct rendering modes. It supports a different set of interfaces depending on the rendering mode:<br/>
 <ul>
-<li>All modes: [<strong>IAMCertifiedOutputProtection</strong>](/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection), [<strong>IAMFilterMiscFlags</strong>](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags), [<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [<strong>IMediaPosition</strong>](/windows/desktop/api/Control/nn-control-imediaposition), [<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [<strong>IQualProp</strong>](/windows/desktop/api/Amvideo/nn-amvideo-iqualprop), [<strong>IVMRAspectRatioControl9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmraspectratiocontrol9), [<strong>IVMRDeinterlaceControl9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmrdeinterlacecontrol9), [<strong>IVMRFilterConfig9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmrfilterconfig9), [<strong>IVMRMixerBitmap9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixerbitmap9), [<strong>IVMRMixerControl9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixercontrol9)</li>
-<li>Renderless mode: [<strong>IVMRSurfaceAllocatorNotify9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmrsurfaceallocatornotify9)</li>
-<li>Windowed mode: [<strong>IBasicVideo</strong>](/windows/desktop/api/Control/nn-control-ibasicvideo), [<strong>IBasicVideo2</strong>](/windows/desktop/api/Control/nn-control-ibasicvideo2), [<strong>IVideoWindow</strong>](/windows/desktop/api/Control/nn-control-ivideowindow), [<strong>IVMRMonitorConfig9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmrmonitorconfig9)</li>
-<li>Windowless mode: [<strong>IVMRMonitorConfig9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmrmonitorconfig9), [<strong>IVMRWindowlessControl9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9)</li>
+<li>All modes: <a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>IAMCertifiedOutputProtection</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>IAMFilterMiscFlags</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>, <a href="/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a>, <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmraspectratiocontrol9"><strong>IVMRAspectRatioControl9</strong></a>, <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrdeinterlacecontrol9"><strong>IVMRDeinterlaceControl9</strong></a>, <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrfilterconfig9"><strong>IVMRFilterConfig9</strong></a>, <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixerbitmap9"><strong>IVMRMixerBitmap9</strong></a>, <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixercontrol9"><strong>IVMRMixerControl9</strong></a></li>
+<li>Renderless mode: <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrsurfaceallocatornotify9"><strong>IVMRSurfaceAllocatorNotify9</strong></a></li>
+<li>Windowed mode: <a href="/windows/desktop/api/Control/nn-control-ibasicvideo"><strong>IBasicVideo</strong></a>, <a href="/windows/desktop/api/Control/nn-control-ibasicvideo2"><strong>IBasicVideo2</strong></a>, <a href="/windows/desktop/api/Control/nn-control-ivideowindow"><strong>IVideoWindow</strong></a>, <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrmonitorconfig9"><strong>IVMRMonitorConfig9</strong></a></li>
+<li>Windowless mode: <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrmonitorconfig9"><strong>IVMRMonitorConfig9</strong></a>, <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9"><strong>IVMRWindowlessControl9</strong></a></li>
 </ul>
-To set the rendering mode, call [<strong>IVMRFilterConfig9::SetRenderingMode</strong>](/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode). For more information, see [VMR Modes of Operation](vmr-modes-of-operation.md).<br/></td>
+To set the rendering mode, call <a href="/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode"><strong>IVMRFilterConfig9::SetRenderingMode</strong></a>. For more information, see <a href="vmr-modes-of-operation">VMR Modes of Operation</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -44,7 +44,7 @@ To set the rendering mode, call [<strong>IVMRFilterConfig9::SetRenderingMode</st
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IAMVideoAccelerator</strong>](/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator), [<strong>IMemInputPin</strong>](/windows/desktop/api/Strmif/nn-strmif-imeminputpin), [<strong>IOverlay</strong>](/windows/desktop/api/Strmif/nn-strmif-ioverlay), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IPinConnection</strong>](/windows/desktop/api/Strmif/nn-strmif-ipinconnection), [<strong>IVMRVideoStreamControl9</strong>](/windows/desktop/api/Vmr9/nn-vmr9-ivmrvideostreamcontrol9)</td>
+<td><a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator"><strong>IAMVideoAccelerator</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ioverlay"><strong>IOverlay</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipinconnection"><strong>IPinConnection</strong></a>, <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrvideostreamcontrol9"><strong>IVMRVideoStreamControl9</strong></a></td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -67,11 +67,11 @@ To set the rendering mode, call [<strong>IVMRFilterConfig9::SetRenderingMode</st
 <td>Quartz.dll</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_DO_NOT_USE</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

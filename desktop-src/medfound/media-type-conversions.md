@@ -32,41 +32,41 @@ The following functions initialize a Media Foundation media type from a format s
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>AM_MEDIA_TYPE</strong>](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx) (DirectShow)<br/> [<strong>DMO_MEDIA_TYPE</strong>](https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx) (DirectX Media Objects) <br/> [<strong>WM_MEDIA_TYPE</strong>](https://msdn.microsoft.com/en-us/library/Dd757963(v=VS.85).aspx) (Windows Media Format SDK) <br/>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx"><strong>AM_MEDIA_TYPE</strong></a> (DirectShow)<br/> <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx"><strong>DMO_MEDIA_TYPE</strong></a> (DirectX Media Objects) <br/> <a href="https://msdn.microsoft.com/en-us/library/Dd757963(v=VS.85).aspx"><strong>WM_MEDIA_TYPE</strong></a> (Windows Media Format SDK) <br/>
 <blockquote>
 [!Note]<br />
 These structures are equivalent.
 </blockquote>
 <br/> <br/></td>
-<td>[<strong>MFInitMediaTypeFromAMMediaType</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromammediatype)</td>
+<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromammediatype"><strong>MFInitMediaTypeFromAMMediaType</strong></a></td>
 </tr>
 <tr class="even">
-<td>[<strong>BITMAPINFOHEADER</strong>](https://msdn.microsoft.com/en-us/library/Dd318229(v=VS.85).aspx)</td>
-<td>[<strong>MFCreateVideoMediaTypeFromBitMapInfoHeaderEx</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfcreatevideomediatypefrombitmapinfoheaderex)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd318229(v=VS.85).aspx"><strong>BITMAPINFOHEADER</strong></a></td>
+<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatevideomediatypefrombitmapinfoheaderex"><strong>MFCreateVideoMediaTypeFromBitMapInfoHeaderEx</strong></a></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFVIDEOFORMAT</strong>](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat)</td>
-<td>[<strong>MFInitMediaTypeFromMFVideoFormat</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommfvideoformat)</td>
+<td><a href="/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat"><strong>MFVIDEOFORMAT</strong></a></td>
+<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommfvideoformat"><strong>MFInitMediaTypeFromMFVideoFormat</strong></a></td>
 </tr>
 <tr class="even">
-<td>[<strong>MPEG1VIDEOINFO</strong>](https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx)</td>
-<td>[<strong>MFInitMediaTypeFromMPEG1VideoInfo</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg1videoinfo)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx"><strong>MPEG1VIDEOINFO</strong></a></td>
+<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg1videoinfo"><strong>MFInitMediaTypeFromMPEG1VideoInfo</strong></a></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MPEG2VIDEOINFO</strong>](https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx)</td>
-<td>[<strong>MFInitMediaTypeFromMPEG2VideoInfo</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg2videoinfo)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx"><strong>MPEG2VIDEOINFO</strong></a></td>
+<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg2videoinfo"><strong>MFInitMediaTypeFromMPEG2VideoInfo</strong></a></td>
 </tr>
 <tr class="even">
-<td>[<strong>VIDEOINFOHEADER2</strong>](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx)</td>
-<td>[<strong>MFInitMediaTypeFromVideoInfoHeader2</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader2)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx"><strong>VIDEOINFOHEADER2</strong></a></td>
+<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader2"><strong>MFInitMediaTypeFromVideoInfoHeader2</strong></a></td>
 </tr>
 <tr class="odd">
-<td>[<strong>VIDEOINFOHEADER</strong>](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx)</td>
-<td>[<strong>MFInitMediaTypeFromVideoInfoHeader</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx"><strong>VIDEOINFOHEADER</strong></a></td>
+<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader"><strong>MFInitMediaTypeFromVideoInfoHeader</strong></a></td>
 </tr>
 <tr class="even">
-<td>[<strong>WAVEFORMATEX</strong>](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx>) or [<strong>WAVEFORMATEXTENSIBLE</strong>](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx>)</td>
-<td>[<strong>MFInitMediaTypeFromWaveFormatEx</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex)</td>
+<td><a href="https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx>"><strong>WAVEFORMATEX</strong></a> or <a href="https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx>"><strong>WAVEFORMATEXTENSIBLE</strong></a></td>
+<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex"><strong>MFInitMediaTypeFromWaveFormatEx</strong></a></td>
 </tr>
 </tbody>
 </table>

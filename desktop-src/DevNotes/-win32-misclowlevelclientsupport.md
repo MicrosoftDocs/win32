@@ -30,107 +30,107 @@ This topic contains information about low-level APIs that are used by the Window
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>_lclose</strong>](/windows/desktop/api/winbase/nf-winbase-_lclose)</td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-_lclose"><strong>_lclose</strong></a></td>
 <td>The _lclose function closes the specified file so that it is no longer available for reading or writing. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CloseHandle function.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>_lopen</strong>](/windows/desktop/api/winbase/nf-winbase-_lopen)</td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-_lopen"><strong>_lopen</strong></a></td>
 <td>The _lopen function opens an existing file and sets the file pointer to the beginning of the file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CreateFile function. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>_lread</strong>](/windows/desktop/api/winbase/nf-winbase-_lread)</td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-_lread"><strong>_lread</strong></a></td>
 <td>The _lread function reads data from the specified file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the ReadFile function. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>AreDvdCodecsEnabled</strong>](/windows/desktop/api/comppkgsup/nf-comppkgsup-aredvdcodecsenabled)</td>
+<td><a href="/windows/desktop/api/comppkgsup/nf-comppkgsup-aredvdcodecsenabled"><strong>AreDvdCodecsEnabled</strong></a></td>
 <td>Returns a value indicating whether DVD codecs are enabled on the current device.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DisableProcessWindowsGhosting</strong>](/windows/desktop/api/Winuser/nf-winuser-disableprocesswindowsghosting)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-disableprocesswindowsghosting"><strong>DisableProcessWindowsGhosting</strong></a></td>
 <td>Disables the window ghosting feature for the calling GUI process. Window ghosting is a Windows Manager feature that lets the user minimize, move, or close the main window of an application that is not responding.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetMediaComponentPackageInfo</strong>](/windows/desktop/api/comppkgsup/nf-comppkgsup-getmediacomponentpackageinfo)</td>
+<td><a href="/windows/desktop/api/comppkgsup/nf-comppkgsup-getmediacomponentpackageinfo"><strong>GetMediaComponentPackageInfo</strong></a></td>
 <td>Returns a list of properties for all media codecs installed on the system that meet the specified requirements.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetMediaExtensionCommunicationFactory</strong>](/windows/desktop/api/comppkgsup/nf-comppkgsup-getmediaextensioncommunicationfactory)</td>
+<td><a href="/windows/desktop/api/comppkgsup/nf-comppkgsup-getmediaextensioncommunicationfactory"><strong>GetMediaExtensionCommunicationFactory</strong></a></td>
 <td>Creates a communication factory for registering a media extension.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>InstantiateComponentFromPackage</strong>](/windows/desktop/api/comppkgsup/nf-comppkgsup-instantiatecomponentfrompackage)</td>
+<td><a href="/windows/desktop/api/comppkgsup/nf-comppkgsup-instantiatecomponentfrompackage"><strong>InstantiateComponentFromPackage</strong></a></td>
 <td>Creates an instance of a class in an application package. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IsMediaBehaviorEnabled</strong>](/windows/desktop/api/comppkgsup/nf-comppkgsup-ismediabehaviorenabled)</td>
+<td><a href="/windows/desktop/api/comppkgsup/nf-comppkgsup-ismediabehaviorenabled"><strong>IsMediaBehaviorEnabled</strong></a></td>
 <td>Gets a value indicating whether the media behavior associated with the specified GUID is enabled.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>NtClose</strong>](/windows/desktop/api/Winternl/nf-winternl-ntclose)</td>
-<td>Deprecated. This function is used to close the specified handle. [<strong>NtClose</strong>](/windows/desktop/api/Winternl/nf-winternl-ntclose) is superseded by [CloseHandle](http://msdn.microsoft.com/en-us/library/ms724211(VS.85).aspx).<br/></td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-ntclose"><strong>NtClose</strong></a></td>
+<td>Deprecated. This function is used to close the specified handle. <a href="/windows/desktop/api/Winternl/nf-winternl-ntclose"><strong>NtClose</strong></a> is superseded by <a href="http://msdn.microsoft.com/en-us/library/ms724211(VS.85).aspx">CloseHandle</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>NtDeviceIoControlFile</strong>](/windows/desktop/api/Winternl/nf-winternl-ntdeviceiocontrolfile)</td>
-<td>Deprecated. Builds descriptors for the supplied buffer(s) and passes the untyped data to the device driver associated with the file handle. [<strong>NtDeviceIoControlFile</strong>](/windows/desktop/api/Winternl/nf-winternl-ntdeviceiocontrolfile) is superseded by [DeviceIoControl](http://msdn.microsoft.com/en-us/library/aa363216(VS.85).aspx).<br/></td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-ntdeviceiocontrolfile"><strong>NtDeviceIoControlFile</strong></a></td>
+<td>Deprecated. Builds descriptors for the supplied buffer(s) and passes the untyped data to the device driver associated with the file handle. <a href="/windows/desktop/api/Winternl/nf-winternl-ntdeviceiocontrolfile"><strong>NtDeviceIoControlFile</strong></a> is superseded by <a href="http://msdn.microsoft.com/en-us/library/aa363216(VS.85).aspx">DeviceIoControl</a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>NtWaitForSingleObject</strong>](/windows/desktop/api/Winternl/nf-winternl-ntwaitforsingleobject)</td>
-<td>Deprecated. Waits until the specified object attains a state of <code>signaled</code>. [<strong>NtWaitForSingleObject</strong>](/windows/desktop/api/Winternl/nf-winternl-ntwaitforsingleobject) is superseded by [WaitForSingleObject](http://msdn.microsoft.com/en-us/library/ms687032.aspx).<br/></td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-ntwaitforsingleobject"><strong>NtWaitForSingleObject</strong></a></td>
+<td>Deprecated. Waits until the specified object attains a state of <code>signaled</code>. <a href="/windows/desktop/api/Winternl/nf-winternl-ntwaitforsingleobject"><strong>NtWaitForSingleObject</strong></a> is superseded by <a href="http://msdn.microsoft.com/en-us/library/ms687032.aspx">WaitForSingleObject</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RtlAnsiStringToUnicodeString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring)</td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring"><strong>RtlAnsiStringToUnicodeString</strong></a></td>
 <td>Converts the specified ANSI source string into a Unicode string. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>RtlCharToInteger</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlchartointeger)</td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlchartointeger"><strong>RtlCharToInteger</strong></a></td>
 <td>Converts a character string to an integer.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RtlFormatCurrentUserKeyPath</strong>](https://msdn.microsoft.com/library/Ff899322(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/library/Ff899322(v=VS.85).aspx"><strong>RtlFormatCurrentUserKeyPath</strong></a></td>
 <td>Initializes the supplied buffer with a string representation of the SID for the current user. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>RtlFreeAnsiString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlfreeansistring)</td>
-<td>Frees the string buffer allocated by [<strong>RtlUnicodeStringToAnsiString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtoansistring).<br/></td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlfreeansistring"><strong>RtlFreeAnsiString</strong></a></td>
+<td>Frees the string buffer allocated by <a href="/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtoansistring"><strong>RtlUnicodeStringToAnsiString</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RtlFreeOemString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlfreeoemstring)</td>
-<td>Frees the string buffer allocated by [<strong>RtlUnicodeStringToOemString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtooemstring).<br/></td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlfreeoemstring"><strong>RtlFreeOemString</strong></a></td>
+<td>Frees the string buffer allocated by <a href="/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtooemstring"><strong>RtlUnicodeStringToOemString</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>RtlFreeUnicodeString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlfreeunicodestring)</td>
-<td>Frees the string buffer allocated by [<strong>RtlAnsiStringToUnicodeString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring) or by [RtlUpcaseUnicodeString](http://msdn.microsoft.com/en-us/library/ms803011.aspx).<br/></td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlfreeunicodestring"><strong>RtlFreeUnicodeString</strong></a></td>
+<td>Frees the string buffer allocated by <a href="/windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring"><strong>RtlAnsiStringToUnicodeString</strong></a> or by <a href="http://msdn.microsoft.com/en-us/library/ms803011.aspx">RtlUpcaseUnicodeString</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RtlInitString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlinitstring)</td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlinitstring"><strong>RtlInitString</strong></a></td>
 <td>Initializes a counted string. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>RtlInitUnicodeString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlinitunicodestring)</td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlinitunicodestring"><strong>RtlInitUnicodeString</strong></a></td>
 <td>Initializes a counted Unicode string. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RtlUnicodeStringToAnsiString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtoansistring)</td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtoansistring"><strong>RtlUnicodeStringToAnsiString</strong></a></td>
 <td>Converts the specified Unicode source string into an ANSI string. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>RtlUnicodeStringToOemString</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtooemstring)</td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtooemstring"><strong>RtlUnicodeStringToOemString</strong></a></td>
 <td>This functions converts the specified Unicode source string into an OEM string. The translation is done with respect to the OEM code page (OCP). <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RtlUnicodeToMultiByteSize</strong>](/windows/desktop/api/Winternl/nf-winternl-rtlunicodetomultibytesize)</td>
+<td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlunicodetomultibytesize"><strong>RtlUnicodeToMultiByteSize</strong></a></td>
 <td>Determines how many bytes are needed to represent a Unicode string as an ANSI string.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>RtlUnicodeToUTF8N</strong>](rtlunicodetoutf8n.md)</td>
-<td>The [<strong>RtlUnicodeToUTF8N</strong>](rtlunicodetoutf8n.md) function translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.<br/></td>
+<td><a href="rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a></td>
+<td>The <a href="rtlunicodetoutf8n"><strong>RtlUnicodeToUTF8N</strong></a> function translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RtlUTF8ToUnicodeN</strong>](rtlutf8tounicoden.md)</td>
-<td>The [<strong>RtlUTF8ToUnicodeN</strong>](rtlutf8tounicoden.md) function translates the specified source string into a Unicode string, using the UTF-8 code page.<br/></td>
+<td><a href="rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a></td>
+<td>The <a href="rtlutf8tounicoden"><strong>RtlUTF8ToUnicodeN</strong></a> function translates the specified source string into a Unicode string, using the UTF-8 code page.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SendIMEMessageEx</strong>](/windows/desktop/api/Ime/nf-ime-sendimemessageexa)</td>
+<td><a href="/windows/desktop/api/Ime/nf-ime-sendimemessageexa"><strong>SendIMEMessageEx</strong></a></td>
 <td>Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.
 <blockquote>
 [!Note]<br />
@@ -139,7 +139,7 @@ This function is obsolete and should not be used.
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>WINNLSEnableIME</strong>](/windows/desktop/api/Winnls32/nf-winnls32-winnlsenableime)</td>
+<td><a href="/windows/desktop/api/Winnls32/nf-winnls32-winnlsenableime"><strong>WINNLSEnableIME</strong></a></td>
 <td>Temporarily enables or disables an IME and, at the same time, turns on or off the display of all windows owned by the IME.
 <blockquote>
 [!Note]<br />

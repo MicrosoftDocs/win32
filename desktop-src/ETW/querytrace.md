@@ -112,7 +112,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_ACCESS_DENIED</strong></dt> </dl></td>
-<td>Only users running with elevated administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can query event tracing sessions. To grant a restricted user the ability to query trace sessions, add them to the Performance Log Users group or see [<strong>EventAccessControl</strong>](/windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can control a trace session.<br/></td>
+<td>Only users running with elevated administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can query event tracing sessions. To grant a restricted user the ability to query trace sessions, add them to the Performance Log Users group or see <a href="/windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol"><strong>EventAccessControl</strong></a>.<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can control a trace session.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_WMI_INSTANCE_NOT_FOUND</strong></dt> </dl></td>

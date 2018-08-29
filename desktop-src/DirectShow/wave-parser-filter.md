@@ -23,7 +23,7 @@ The WAVE Parser filter parses WAV-format audio data from .wav, .au, or .aif file
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IAMMediaContent</strong>](/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent), [<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [<strong>IPersistMediaPropertyBag</strong>](/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag)</td>
+<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>IPersistMediaPropertyBag</strong></a></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -36,15 +36,15 @@ The WAVE Parser filter parses WAV-format audio data from .wav, .au, or .aif file
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
-<td>Major type: MEDIATYPE_AudioSubtype: MEDIASUBTYPE_PCM or other compression type. (See [<strong>Audio Subtypes</strong>](audio-subtypes.md).)<br/> Format type: FORMAT_WaveFormatEx<br/></td>
+<td>Major type: MEDIATYPE_AudioSubtype: MEDIASUBTYPE_PCM or other compression type. (See <a href="audio-subtypes"><strong>Audio Subtypes</strong></a>.)<br/> Format type: FORMAT_WaveFormatEx<br/></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -59,11 +59,11 @@ The WAVE Parser filter parses WAV-format audio data from .wav, .au, or .aif file
 <td>quartz.dll</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_UNLIKELY</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

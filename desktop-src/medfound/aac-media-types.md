@@ -63,46 +63,46 @@ The following media type attributes apply to AAC audio.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>MF_MT_MAJOR_TYPE</strong>](mf-mt-major-type-attribute.md)</td>
+<td><a href="mf-mt-major-type-attribute"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
 <td>Major type. Must be <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>MF_MT_SUBTYPE</strong>](mf-mt-subtype-attribute.md)</td>
+<td><a href="mf-mt-subtype-attribute"><strong>MF_MT_SUBTYPE</strong></a></td>
 <td>Audio subtype. Refer to the previous description for details.</td>
 </tr>
 <tr class="odd">
-<td>[MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION](mf-mt-aac-audio-profile-level-indication.md)</td>
+<td><a href="mf-mt-aac-audio-profile-level-indication">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
 <td>Audio profile and level. <br/> The value of this attribute is the <strong>audioProfileLevelIndication</strong> field, as defined by ISO/IEC 14496-3.<br/> If unknown, set to zero or 0xFE (&quot;no audio profile specified&quot;).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong>](mf-mt-audio-avg-bytes-per-second-attribute.md)</td>
+<td><a href="mf-mt-audio-avg-bytes-per-second-attribute"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
 <td>Bit rate of the encoded AAC stream, in bytes per second.</td>
 </tr>
 <tr class="odd">
-<td>[MF_MT_AAC_PAYLOAD_TYPE](mf-mt-aac-payload-type.md)</td>
-<td>Payload type.<br/> Applies only to <strong>MFAudioFormat_AAC</strong>.<br/> [MF_MT_AAC_PAYLOAD_TYPE](mf-mt-aac-payload-type.md) is optional. If this attribute is not specified, the default value 0 is used, which specifies the stream contains raw_data_block elements only.<br/></td>
+<td><a href="mf-mt-aac-payload-type">MF_MT_AAC_PAYLOAD_TYPE</a></td>
+<td>Payload type.<br/> Applies only to <strong>MFAudioFormat_AAC</strong>.<br/> <a href="mf-mt-aac-payload-type">MF_MT_AAC_PAYLOAD_TYPE</a> is optional. If this attribute is not specified, the default value 0 is used, which specifies the stream contains raw_data_block elements only.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong>](mf-mt-audio-bits-per-sample-attribute.md)</td>
+<td><a href="mf-mt-audio-bits-per-sample-attribute"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
 <td>Bit depth of the decoded PCM audio.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>MF_MT_AUDIO_CHANNEL_MASK</strong>](mf-mt-audio-channel-mask-attribute.md)</td>
+<td><a href="mf-mt-audio-channel-mask-attribute"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a></td>
 <td>Assignment of audio channels to speaker positions.</td>
 </tr>
 <tr class="even">
-<td>[<strong>MF_MT_AUDIO_NUM_CHANNELS</strong>](mf-mt-audio-num-channels-attribute.md)</td>
+<td><a href="mf-mt-audio-num-channels-attribute"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
 <td>Number of channels, including the low frequency (LFE) channel, if present.<br/> The interpretation of this value depends on the media subtype, as described previously.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong>](mf-mt-audio-samples-per-second-attribute.md)</td>
+<td><a href="mf-mt-audio-samples-per-second-attribute"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
 <td>Sample rate, in samples per second.<br/> The interpretation of this value depends on the media subtype, as described previously.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MF_MT_USER_DATA</strong>](mf-mt-user-data-attribute.md)</td>
+<td><a href="mf-mt-user-data-attribute"><strong>MF_MT_USER_DATA</strong></a></td>
 <td>The value of this attribute depends on the subtype:<br/>
 <ul>
-<li><strong>MFAudioFormat_AAC</strong>: Contains the portion of the [<strong>HEAACWAVEINFO</strong>](https://msdn.microsoft.com/library/windows/desktop/dd757806) structure that appears after the <strong>WAVEFORMATEX</strong> structure (that is, after the <strong>wfx</strong> member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.</li>
+<li><strong>MFAudioFormat_AAC</strong>: Contains the portion of the <a href="https://msdn.microsoft.com/library/windows/desktop/dd757806"><strong>HEAACWAVEINFO</strong></a> structure that appears after the <strong>WAVEFORMATEX</strong> structure (that is, after the <strong>wfx</strong> member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.</li>
 <li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: Contains the AudioSpecificConfig() data.</li>
 </ul></td>
 </tr>

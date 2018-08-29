@@ -167,7 +167,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_MORE_DATA</strong></dt> </dl></td>
-<td>The buffer for [<strong>EVENT_TRACE_PROPERTIES</strong>](event-trace-properties.md) is too small to hold all the information for the session. If you do not need the session's property information, you can ignore this error. If you receive this error when stopping the session, ETW will have already stopped the session before generating this error.<br/></td>
+<td>The buffer for <a href="event-trace-properties"><strong>EVENT_TRACE_PROPERTIES</strong></a> is too small to hold all the information for the session. If you do not need the session's property information, you can ignore this error. If you receive this error when stopping the session, ETW will have already stopped the session before generating this error.<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_ACCESS_DENIED</strong></dt> </dl></td>

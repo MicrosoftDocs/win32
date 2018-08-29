@@ -156,96 +156,96 @@ Applications use the following service functions to connect and disconnect a [*c
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CryptAcquireContext</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireContext</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Acquires a handle to the current user's [<em>key container</em>](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) within a particular CSP.</td>
+<br/> Acquires a handle to the current user's <a href="https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx"><em>key container</em></a> within a particular CSP.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptContextAddRef</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref"><strong>CryptContextAddRef</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Increments the [<em>reference count</em>](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) on an [<strong>HCRYPTPROV</strong>](hcryptprov.md) handle.</td>
+<br/> Increments the <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx"><em>reference count</em></a> on an <a href="hcryptprov"><strong>HCRYPTPROV</strong></a> handle.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptEnumProviders</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProviders</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Enumerates the providers on a computer.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptEnumProviderTypes</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidertypesa)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidertypesa"><strong>CryptEnumProviderTypes</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Enumerates the types of providers supported on the computer.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptGetDefaultProvider</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetdefaultprovidera)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetdefaultprovidera"><strong>CryptGetDefaultProvider</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Determines the default CSP either for the current user or for the computer for a specified provider type.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptGetProvParam</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam"><strong>CryptGetProvParam</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Retrieves the parameters that govern the operations of a CSP.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptInstallDefaultContext</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultContext</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Installs a previously acquired [<strong>HCRYPTPROV</strong>](hcryptprov.md) context to be used as a default context.</td>
+<br/> Installs a previously acquired <a href="hcryptprov"><strong>HCRYPTPROV</strong></a> context to be used as a default context.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptReleaseContext</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext"><strong>CryptReleaseContext</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Releases the handle acquired by the [<strong>CryptAcquireContext</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function.</td>
+<br/> Releases the handle acquired by the <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireContext</strong></a> function.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSetProvider</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera) and [<strong>CryptSetProviderEx</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetproviderexa)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera"><strong>CryptSetProvider</strong></a> and <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetproviderexa"><strong>CryptSetProviderEx</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Specifies the user default CSP for a particular CSP type.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSetProvParam</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovparam)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovparam"><strong>CryptSetProvParam</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Specifies attributes of a CSP.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptUninstallDefaultContext</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptuninstalldefaultcontext)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptuninstalldefaultcontext"><strong>CryptUninstallDefaultContext</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Removes a default context previously installed by [<strong>CryptInstallDefaultContext</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext).</td>
+<br/> Removes a default context previously installed by <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultContext</strong></a>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>FreeCryptProvFromCertEx</strong>](freecryptprovfromcertex.md)</td>
-<td>Releases the handle either to a [<em>cryptographic service provider</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) or to a Cryptography API: Next Generation (CNG) key.</td>
+<td><a href="freecryptprovfromcertex"><strong>FreeCryptProvFromCertEx</strong></a></td>
+<td>Releases the handle either to a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>cryptographic service provider</em></a> (CSP) or to a Cryptography API: Next Generation (CNG) key.</td>
 </tr>
 </tbody>
 </table>
@@ -271,82 +271,82 @@ Key generation and exchange functions [*exchange keys*](https://msdn.microsoft.c
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CryptDeriveKey</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey"><strong>CryptDeriveKey</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Creates a key derived from a password.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptDestroyKey</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey"><strong>CryptDestroyKey</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Destroys a key.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptDuplicateKey</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatekey)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatekey"><strong>CryptDuplicateKey</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Makes an exact copy of a key, including the [<em>state</em>](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the key.</td>
+<br/> Makes an exact copy of a key, including the <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx"><em>state</em></a> of the key.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptExportKey</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey"><strong>CryptExportKey</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Transfers a key from the CSP into a [<em>key BLOB</em>](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) in the application's memory space.</td>
+<br/> Transfers a key from the CSP into a <a href="https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx"><em>key BLOB</em></a> in the application's memory space.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptGenKey</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey"><strong>CryptGenKey</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Creates a random key.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptGenRandom</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenrandom)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenrandom"><strong>CryptGenRandom</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Generates random data.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptGetKeyParam</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam"><strong>CryptGetKeyParam</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Retrieves a key's parameters.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptGetUserKey</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey"><strong>CryptGetUserKey</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Gets a handle to the key exchange or signature key.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptImportKey</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey"><strong>CryptImportKey</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Transfers a key from a [<em>key BLOB</em>](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) to a CSP.</td>
+<br/> Transfers a key from a <a href="https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx"><em>key BLOB</em></a> to a CSP.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSetKeyParam</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam"><strong>CryptSetKeyParam</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Specifies a key's parameters.</td>
 </tr>
@@ -389,36 +389,36 @@ The following functions support encryption and decryption operations. [**CryptEn
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CryptDecrypt</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecrypt)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecrypt"><strong>CryptDecrypt</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Decrypts a section of [<em>ciphertext</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) by using the specified encryption key.</td>
+<br/> Decrypts a section of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>ciphertext</em></a> by using the specified encryption key.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptEncrypt</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt"><strong>CryptEncrypt</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Encrypts a section of [<em>plaintext</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) by using the specified encryption key.</td>
+<br/> Encrypts a section of <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>plaintext</em></a> by using the specified encryption key.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptProtectData</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata)</td>
-<td>Performs encryption on the data in a [<strong>DATA_BLOB</strong>](https://msdn.microsoft.com/en-us/library/Aa381414(v=VS.85).aspx) structure.</td>
+<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></td>
+<td>Performs encryption on the data in a <a href="https://msdn.microsoft.com/en-us/library/Aa381414(v=VS.85).aspx"><strong>DATA_BLOB</strong></a> structure.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptProtectMemory</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory)</td>
+<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a></td>
 <td>Encrypts memory to protect sensitive information.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptUnprotectData</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata)</td>
-<td>Performs a decryption and integrity check of the data in a [<strong>DATA_BLOB</strong>](https://msdn.microsoft.com/en-us/library/Aa381414(v=VS.85).aspx).</td>
+<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></td>
+<td>Performs a decryption and integrity check of the data in a <a href="https://msdn.microsoft.com/en-us/library/Aa381414(v=VS.85).aspx"><strong>DATA_BLOB</strong></a>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptUnprotectMemory</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectmemory)</td>
-<td>Decrypts memory that was encrypted using [<strong>CryptProtectMemory</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory).</td>
+<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectmemory"><strong>CryptUnprotectMemory</strong></a></td>
+<td>Decrypts memory that was encrypted using <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a>.</td>
 </tr>
 </tbody>
 </table>
@@ -444,80 +444,80 @@ These functions compute [*hashes*](https://msdn.microsoft.com/en-us/library/ms72
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CryptCreateHash</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash"><strong>CryptCreateHash</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Creates an empty hash object.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptDestroyHash</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroyhash)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroyhash"><strong>CryptDestroyHash</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Destroys a hash object.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptDuplicateHash</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatehash)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatehash"><strong>CryptDuplicateHash</strong></a></td>
 <td>Duplicates a hash object.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptGetHashParam</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgethashparam)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgethashparam"><strong>CryptGetHashParam</strong></a></td>
 <td>Retrieves a hash object parameter.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptHashData</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata"><strong>CryptHashData</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Hashes a block of data, adding it to the specified hash object.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptHashSessionKey</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashsessionkey)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashsessionkey"><strong>CryptHashSessionKey</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Hashes a session key, adding it to the specified hash object.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSetHashParam</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsethashparam)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsethashparam"><strong>CryptSetHashParam</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Sets a hash object parameter.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSignHash</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignhasha)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignhasha"><strong>CryptSignHash</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Signs the specified hash object.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptUIWizDigitalSign</strong>](/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign)</td>
-<td>Displays a wizard that digitally signs a document or a [<em>BLOB</em>](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx).</td>
+<td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a></td>
+<td>Displays a wizard that digitally signs a document or a <a href="https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx"><em>BLOB</em></a>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptUIWizFreeDigitalSignContext</strong>](/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizfreedigitalsigncontext)</td>
-<td>Releases a pointer to a [<strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong>](/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_context) structure.</td>
+<td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizfreedigitalsigncontext"><strong>CryptUIWizFreeDigitalSignContext</strong></a></td>
+<td>Releases a pointer to a <a href="/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_context"><strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong></a> structure.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptVerifySignature</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea"><strong>CryptVerifySignature</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Verifies a digital signature, given a handle to the hash object.</td>
 </tr>
 <tr class="even">
-<td>[<strong>PFNCFILTERPROC</strong>](/windows/desktop/api/Cryptuiapi/nc-cryptuiapi-pfncfilterproc)</td>
-<td>Filters the certificates that appear in the digital signature wizard displayed by the [<strong>CryptUIWizDigitalSign</strong>](/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign) function.</td>
+<td><a href="/windows/desktop/api/Cryptuiapi/nc-cryptuiapi-pfncfilterproc"><strong>PFNCFILTERPROC</strong></a></td>
+<td>Filters the certificates that appear in the digital signature wizard displayed by the <a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a> function.</td>
 </tr>
 </tbody>
 </table>
@@ -850,243 +850,243 @@ The following CryptoAPI functions manage data and certificates.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CertCompareCertificate</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificate)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificate"><strong>CertCompareCertificate</strong></a></td>
 <td>Compares two certificates to determine whether they are identical.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertCompareCertificateName</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificatename)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificatename"><strong>CertCompareCertificateName</strong></a></td>
 <td>Compares two certificate names to determine whether they are identical.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertCompareIntegerBlob</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certcompareintegerblob)</td>
-<td>Compares two integer [<em>BLOBs</em>](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx).</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcompareintegerblob"><strong>CertCompareIntegerBlob</strong></a></td>
+<td>Compares two integer <a href="https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx"><em>BLOBs</em></a>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertComparePublicKeyInfo</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparepublickeyinfo)</td>
-<td>Compares two [<em>public keys</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) to determine whether they are identical.</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparepublickeyinfo"><strong>CertComparePublicKeyInfo</strong></a></td>
+<td>Compares two <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>public keys</em></a> to determine whether they are identical.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFindAttribute</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindattribute)</td>
-<td>Finds the first attribute identified by its [<em>object identifier</em>](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID).</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindattribute"><strong>CertFindAttribute</strong></a></td>
+<td>Finds the first attribute identified by its <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx"><em>object identifier</em></a> (OID).</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertFindExtension</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindextension)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindextension"><strong>CertFindExtension</strong></a></td>
 <td>Finds the first extension identified by its OID.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertFindRDNAttr</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindrdnattr)</td>
-<td>Finds the first [<em>RDN</em>](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) attribute identified by its OID in the name list of the <em>Relative Distinguished Names</em>.</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindrdnattr"><strong>CertFindRDNAttr</strong></a></td>
+<td>Finds the first <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx"><em>RDN</em></a> attribute identified by its OID in the name list of the <em>Relative Distinguished Names</em>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertGetIntendedKeyUsage</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetintendedkeyusage)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetintendedkeyusage"><strong>CertGetIntendedKeyUsage</strong></a></td>
 <td>Acquires the intended key usage bytes from the certificate.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertGetPublicKeyLength</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetpublickeylength)</td>
-<td>Acquires the public/private key's bit length from the [<em>public key BLOB</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx).</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetpublickeylength"><strong>CertGetPublicKeyLength</strong></a></td>
+<td>Acquires the public/private key's bit length from the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>public key BLOB</em></a>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertIsRDNAttrsInCertificateName</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certisrdnattrsincertificatename)</td>
-<td>Compares the attributes in the [<em>certificate name</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) with the specified [<strong>CERT_RDN</strong>](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_rdn) to determine whether all attributes are included there.</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisrdnattrsincertificatename"><strong>CertIsRDNAttrsInCertificateName</strong></a></td>
+<td>Compares the attributes in the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>certificate name</em></a> with the specified <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_rdn"><strong>CERT_RDN</strong></a> to determine whether all attributes are included there.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertIsStrongHashToSign</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certisstronghashtosign)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a></td>
 <td>Determines whether the specified hash algorithm and the public key in the signing certificate can be used to perform strong signing.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertVerifyCRLRevocation</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrlrevocation)</td>
-<td>Verifies that the subject certificate is not on the [<em>certificate revocation list</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CRL).</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrlrevocation"><strong>CertVerifyCRLRevocation</strong></a></td>
+<td>Verifies that the subject certificate is not on the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>certificate revocation list</em></a> (CRL).</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertVerifyCRLTimeValidity</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrltimevalidity)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrltimevalidity"><strong>CertVerifyCRLTimeValidity</strong></a></td>
 <td>Verifies the time validity of a CRL.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertVerifyRevocation</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyrevocation)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyrevocation"><strong>CertVerifyRevocation</strong></a></td>
 <td>Verifies that the subject certificate is not on the CRL.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CertVerifyTimeValidity</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certverifytimevalidity)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifytimevalidity"><strong>CertVerifyTimeValidity</strong></a></td>
 <td>Verifies the time validity of a certificate.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CertVerifyValidityNesting</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyvaliditynesting)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyvaliditynesting"><strong>CertVerifyValidityNesting</strong></a></td>
 <td>Verifies that the subject's time validity nests within the issuer's time validity.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptExportPKCS8</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8)</td>
-<td>This function is superseded by the [<strong>CryptExportPKCS8Ex</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex) function.</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8"><strong>CryptExportPKCS8</strong></a></td>
+<td>This function is superseded by the <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a> function.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptExportPKCS8Ex</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a></td>
 <td>Exports the private key in PKCS #8 format.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptExportPublicKeyInfo</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a></td>
 <td>Exports the public key information associated with the provider's corresponding private key.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptExportPublicKeyInfoEx</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfoex)</td>
-<td>Exports the public key information associated with the provider's corresponding private key. This function differs from [<strong>CryptExportPublicKeyInfo</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo) in that the user can specify the public key algorithm, thereby overriding the default provided by the CSP.</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfoex"><strong>CryptExportPublicKeyInfoEx</strong></a></td>
+<td>Exports the public key information associated with the provider's corresponding private key. This function differs from <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a> in that the user can specify the public key algorithm, thereby overriding the default provided by the CSP.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfofrombcryptkeyhandle)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfofrombcryptkeyhandle"><strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong></a></td>
 <td>Exports the public key info associated with a provider's corresponding private key.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptFindCertificateKeyProvInfo</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindcertificatekeyprovinfo)</td>
-<td>Enumerates the cryptographic providers and their [<em>key containers</em>](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) to find the private key that corresponds to a certificate's public key.</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindcertificatekeyprovinfo"><strong>CryptFindCertificateKeyProvInfo</strong></a></td>
+<td>Enumerates the cryptographic providers and their <a href="https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx"><em>key containers</em></a> to find the private key that corresponds to a certificate's public key.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptFindLocalizedName</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindlocalizedname)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindlocalizedname"><strong>CryptFindLocalizedName</strong></a></td>
 <td>Finds the localized name for a specified name, for example, finds the localized name for the store name of the Root system.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptHashCertificate</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate"><strong>CryptHashCertificate</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Hashes the encoded content.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptHashCertificate2</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate2)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate2"><strong>CryptHashCertificate2</strong></a></td>
 <td>Hashes a block of data by using a Cryptography API: Next Generation (CNG) hash provider.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptHashPublicKeyInfo</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashpublickeyinfo)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashpublickeyinfo"><strong>CryptHashPublicKeyInfo</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Computes the hash of the encoded public key information.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptHashToBeSigned</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashtobesigned)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashtobesigned"><strong>CryptHashToBeSigned</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Computes the hash of the &quot;to be signed&quot; information in the encoded signed content ([<strong>CERT_SIGNED_CONTENT_INFO</strong>](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_signed_content_info)).</td>
+<br/> Computes the hash of the &quot;to be signed&quot; information in the encoded signed content (<a href="/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_signed_content_info"><strong>CERT_SIGNED_CONTENT_INFO</strong></a>).</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptImportPKCS8</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpkcs8)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpkcs8"><strong>CryptImportPKCS8</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Imports the [<em>private key</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) in PKCS #8 format to a [<em>cryptographic service provider</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP).</td>
+<br/> Imports the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>private key</em></a> in PKCS #8 format to a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>cryptographic service provider</em></a> (CSP).</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptImportPublicKeyInfo</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Converts and imports public key information into the provider, and returns a handle of the public key.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptImportPublicKeyInfoEx</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex"><strong>CryptImportPublicKeyInfoEx</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Converts and imports the public key information into the provider, and returns a handle of the public key. Additional parameters (over those specified by [<strong>CryptImportPublicKeyInfo</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo)) that can be used to override defaults are provided to supplement [<strong>CERT_PUBLIC_KEY_INFO</strong>](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_public_key_info).</td>
+<br/> Converts and imports the public key information into the provider, and returns a handle of the public key. Additional parameters (over those specified by <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a>) that can be used to override defaults are provided to supplement <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_public_key_info"><strong>CERT_PUBLIC_KEY_INFO</strong></a>.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptImportPublicKeyInfoEx2</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2"><strong>CryptImportPublicKeyInfoEx2</strong></a></td>
 <td>Imports a public key into a CNG asymmetric provider.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMemAlloc</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a></td>
 <td>Allocates memory for a buffer. This memory is used by all Crypt32.lib functions that return allocated buffers.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptMemFree</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemfree)</td>
-<td>Frees memory allocated by [<strong>CryptMemAlloc</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc) or [<strong>CryptMemRealloc</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc).</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemfree"><strong>CryptMemFree</strong></a></td>
+<td>Frees memory allocated by <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a> or <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptMemRealloc</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a></td>
 <td>Frees memory currently allocated for a buffer, and allocates memory for a new buffer.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptQueryObject</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptqueryobject)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptqueryobject"><strong>CryptQueryObject</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Retrieves information about the content of a BLOB or a file.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSignAndEncodeCertificate</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignandencodecertificate)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignandencodecertificate"><strong>CryptSignAndEncodeCertificate</strong></a></td>
 <td>Encodes the &quot;to be signed&quot; information, signs this encoded information, and encodes the resulting signed, encoded information.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSignCertificate</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsigncertificate)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsigncertificate"><strong>CryptSignCertificate</strong></a></td>
 <td>Signs the &quot;to be signed&quot; information in the encoded, signed content.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPAddProvider</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider)</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a></td>
 <td>Adds a Subject Interface Package (SIP).</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPCreateIndirectData</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipcreateindirectdata)</td>
-<td>Returns a [<strong>SIP_INDIRECT_DATA</strong>](/windows/desktop/api/Mssip/ns-mssip-sip_indirect_data_) structure that contains a [<em>hash</em>](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) of the supplied [<strong>SIP_SUBJECTINFO</strong>](/windows/desktop/api/Mssip/ns-mssip-sip_subjectinfo_) structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a></td>
+<td>Returns a <a href="/windows/desktop/api/Mssip/ns-mssip-sip_indirect_data_"><strong>SIP_INDIRECT_DATA</strong></a> structure that contains a <a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx"><em>hash</em></a> of the supplied <a href="/windows/desktop/api/Mssip/ns-mssip-sip_subjectinfo_"><strong>SIP_SUBJECTINFO</strong></a> structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPGetCaps</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipgetcaps)</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a></td>
 <td>Retrieves the capabilities of an SIP.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPGetSignedDataMsg</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipgetsigneddatamsg)</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetsigneddatamsg"><strong>CryptSIPGetSignedDataMsg</strong></a></td>
 <td>Retrieves an Authenticode signature from the file.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPLoad</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipload)</td>
-<td>Loads the dynamic link library that implements a subject interface package and assigns appropriate library export functions to a [<strong>SIP_DISPATCH_INFO</strong>](/windows/desktop/api/Mssip/ns-mssip-sip_dispatch_info_) structure.</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipload"><strong>CryptSIPLoad</strong></a></td>
+<td>Loads the dynamic link library that implements a subject interface package and assigns appropriate library export functions to a <a href="/windows/desktop/api/Mssip/ns-mssip-sip_dispatch_info_"><strong>SIP_DISPATCH_INFO</strong></a> structure.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPPutSignedDataMsg</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipputsigneddatamsg)</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipputsigneddatamsg"><strong>CryptSIPPutSignedDataMsg</strong></a></td>
 <td>Stores an Authenticode Signature in the target file.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPRemoveProvider</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipremoveprovider)</td>
-<td>Removes a SIP added by a previous call to the [<strong>CryptSIPAddProvider</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider) function.</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremoveprovider"><strong>CryptSIPRemoveProvider</strong></a></td>
+<td>Removes a SIP added by a previous call to the <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a> function.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPRemoveSignedDataMsg</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipremovesigneddatamsg)</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremovesigneddatamsg"><strong>CryptSIPRemoveSignedDataMsg</strong></a></td>
 <td>Removes a specified Authenticode signature.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPRetrieveSubjectGuid</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguid)</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguid"><strong>CryptSIPRetrieveSubjectGuid</strong></a></td>
 <td>Retrieves a GUID based on the header information in a specified file.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguidforcatalogfile)</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguidforcatalogfile"><strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong></a></td>
 <td>Retrieves the subject GUID associated with the specified file.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSIPVerifyIndirectData</strong>](/windows/desktop/api/Mssip/nf-mssip-cryptsipverifyindirectdata)</td>
+<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipverifyindirectdata"><strong>CryptSIPVerifyIndirectData</strong></a></td>
 <td>Validates the indirect hashed data against the supplied subject.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptUpdateProtectedState</strong>](/windows/desktop/api/Dpapi/nf-dpapi-cryptupdateprotectedstate)</td>
-<td>Migrates the current user's master keys after the user's [<em>security identifier</em>](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SID) has changed.</td>
+<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptupdateprotectedstate"><strong>CryptUpdateProtectedState</strong></a></td>
+<td>Migrates the current user's master keys after the user's <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx"><em>security identifier</em></a> (SID) has changed.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptVerifyCertificateSignature</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature)</td>
-<td>Verifies the signature of a subject certificate or a [<em>CRL</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) by using the public key information.</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a></td>
+<td>Verifies the signature of a subject certificate or a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>CRL</em></a> by using the public key information.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptVerifyCertificateSignatureEx</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignatureex)</td>
-<td>An extended version of [<strong>CryptVerifyCertificateSignature</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature).</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignatureex"><strong>CryptVerifyCertificateSignatureEx</strong></a></td>
+<td>An extended version of <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetEncSChannel</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-getencschannel)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-getencschannel"><strong>GetEncSChannel</strong></a></td>
 <td>Stores the encrypted Schannel DLL contents in memory.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>pCryptSIPGetCaps</strong>](/windows/desktop/api/Mssip/nc-mssip-pcryptsipgetcaps)</td>
+<td><a href="/windows/desktop/api/Mssip/nc-mssip-pcryptsipgetcaps"><strong>pCryptSIPGetCaps</strong></a></td>
 <td>Implemented by an SIP to report capabilities.</td>
 </tr>
 </tbody>
@@ -1154,30 +1154,30 @@ A key identifier can have the same properties as a certificate context. For more
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CryptCreateKeyIdentifierFromCSP</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatekeyidentifierfromcsp)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatekeyidentifierfromcsp"><strong>CryptCreateKeyIdentifierFromCSP</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Creates a key identifier from a CSP's [<em>public key BLOB</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx).</td>
+<br/> Creates a key identifier from a CSP's <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>public key BLOB</em></a>.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptEnumKeyIdentifierProperties</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties"><strong>CryptEnumKeyIdentifierProperties</strong></a></td>
 <td>Enumerates key identifiers and their properties.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CryptGetKeyIdentifierProperty</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty"><strong>CryptGetKeyIdentifierProperty</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Acquires a specific property from a specified key identifier.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CryptSetKeyIdentifierProperty</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty)</td>
+<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty"><strong>CryptSetKeyIdentifierProperty</strong></a></td>
 <td><blockquote>
 [!Important]<br />
-This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx) Microsoft may remove this API in future releases.
+This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
 <br/> Sets a property of a specified key identifier.</td>
 </tr>

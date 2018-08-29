@@ -1577,284 +1577,284 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CreateProcessA</strong>](https://msdn.microsoft.com/en-us/library/60katz9k.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/60katz9k.aspx"><strong>CreateProcessA</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateProcessAsUserW</strong>](https://msdn.microsoft.com/en-us/library/ms682429.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682429.aspx"><strong>CreateProcessAsUserW</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateProcessW</strong>](https://msdn.microsoft.com/en-us/library/60katz9k.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/60katz9k.aspx"><strong>CreateProcessW</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateRemoteThread</strong>](https://msdn.microsoft.com/en-us/library/ms682437.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682437.aspx"><strong>CreateRemoteThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateRemoteThreadEx</strong>](https://msdn.microsoft.com/en-us/library/Dd405484.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd405484.aspx"><strong>CreateRemoteThreadEx</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateThread</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682453.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682453.aspx"><strong>CreateThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>DeleteProcThreadAttributeList</strong>](https://msdn.microsoft.com/en-us/library/ms682559.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682559.aspx"><strong>DeleteProcThreadAttributeList</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ExitProcess</strong>](https://msdn.microsoft.com/en-us/library/ms682658.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682658.aspx"><strong>ExitProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ExitThread</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682659.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682659.aspx"><strong>ExitThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>FlushInstructionCache</strong>](https://msdn.microsoft.com/en-us/library/ms885595.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms885595.aspx"><strong>FlushInstructionCache</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>FlushProcessWriteBuffers</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683148.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683148.aspx"><strong>FlushProcessWriteBuffers</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetCurrentProcess</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683179.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683179.aspx"><strong>GetCurrentProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetCurrentProcessId</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683180.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683180.aspx"><strong>GetCurrentProcessId</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetCurrentProcessorNumber</strong>](https://msdn.microsoft.com/en-us/library/ms683181.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683181.aspx"><strong>GetCurrentProcessorNumber</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetCurrentProcessorNumberEx</strong>](https://msdn.microsoft.com/en-us/library/Dd405487.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd405487.aspx"><strong>GetCurrentProcessorNumberEx</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetCurrentThread</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683182.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683182.aspx"><strong>GetCurrentThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetCurrentThreadId</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683183.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683183.aspx"><strong>GetCurrentThreadId</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetCurrentThreadStackLimits</strong>](https://msdn.microsoft.com/en-us/library/Hh706789.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh706789.aspx"><strong>GetCurrentThreadStackLimits</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetExitCodeProcess</strong>](https://msdn.microsoft.com/en-us/library/ms683189.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683189.aspx"><strong>GetExitCodeProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetExitCodeThread</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683190.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683190.aspx"><strong>GetExitCodeThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetPriorityClass</strong>](https://msdn.microsoft.com/en-us/library/ms683211.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683211.aspx"><strong>GetPriorityClass</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetProcessHandleCount</strong>](https://msdn.microsoft.com/en-us/library/ms683214.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683214.aspx"><strong>GetProcessHandleCount</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetProcessId</strong>](https://msdn.microsoft.com/en-us/library/ms683215.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683215.aspx"><strong>GetProcessId</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetProcessIdOfThread</strong>](https://msdn.microsoft.com/en-us/library/ms683216.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683216.aspx"><strong>GetProcessIdOfThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetProcessMitigationPolicy</strong>](https://msdn.microsoft.com/en-us/library/Hh769085.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh769085.aspx"><strong>GetProcessMitigationPolicy</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetProcessPriorityBoost</strong>](https://msdn.microsoft.com/en-us/library/ms683220.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683220.aspx"><strong>GetProcessPriorityBoost</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetProcessTimes</strong>](https://msdn.microsoft.com/en-us/library/ms683223.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683223.aspx"><strong>GetProcessTimes</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetProcessVersion</strong>](https://msdn.microsoft.com/en-us/library/ms683224.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683224.aspx"><strong>GetProcessVersion</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetStartupInfoW</strong>](https://msdn.microsoft.com/en-us/library/ms683230.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683230.aspx"><strong>GetStartupInfoW</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetSystemTimes</strong>](https://msdn.microsoft.com/en-us/library/ms724400.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms724400.aspx"><strong>GetSystemTimes</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetThreadContext</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms679362.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms679362.aspx"><strong>GetThreadContext</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetThreadId</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683233.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683233.aspx"><strong>GetThreadId</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetThreadIdealProcessorEx</strong>](https://msdn.microsoft.com/en-us/library/Dd405499.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd405499.aspx"><strong>GetThreadIdealProcessorEx</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetThreadInformation</strong>](https://msdn.microsoft.com/en-us/library/Hh448382.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh448382.aspx"><strong>GetThreadInformation</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetThreadIOPendingFlag</strong>](https://msdn.microsoft.com/en-us/library/ms683234.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683234.aspx"><strong>GetThreadIOPendingFlag</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetThreadPriority</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683235.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683235.aspx"><strong>GetThreadPriority</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetThreadPriorityBoost</strong>](https://msdn.microsoft.com/en-us/library/ms683236.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683236.aspx"><strong>GetThreadPriorityBoost</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>GetThreadTimes</strong>](https://msdn.microsoft.com/en-us/library/ms683237.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683237.aspx"><strong>GetThreadTimes</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>InitializeProcThreadAttributeList</strong>](https://msdn.microsoft.com/en-us/library/ms683481.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms683481.aspx"><strong>InitializeProcThreadAttributeList</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>IsProcessCritical</strong>](https://msdn.microsoft.com/en-us/library/Dn386160.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dn386160.aspx"><strong>IsProcessCritical</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>IsProcessorFeaturePresent</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724482.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms724482.aspx"><strong>IsProcessorFeaturePresent</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>OpenProcess</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684320.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms684320.aspx"><strong>OpenProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>OpenProcessToken</strong>](https://msdn.microsoft.com/en-us/library/Aa379295.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379295.aspx"><strong>OpenProcessToken</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>OpenThread</strong>](https://msdn.microsoft.com/en-us/library/ms684335.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms684335.aspx"><strong>OpenThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>OpenThreadToken</strong>](https://msdn.microsoft.com/en-us/library/ms383723.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms383723.aspx"><strong>OpenThreadToken</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ProcessIdToSessionId</strong>](https://msdn.microsoft.com/en-us/library/Aa382990.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa382990.aspx"><strong>ProcessIdToSessionId</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>QueryProcessAffinityUpdateMode</strong>](https://msdn.microsoft.com/en-us/library/Bb309062.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb309062.aspx"><strong>QueryProcessAffinityUpdateMode</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>QueueUserAPC</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684954.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms684954.aspx"><strong>QueueUserAPC</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ResumeThread</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms685086.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms685086.aspx"><strong>ResumeThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SetPriorityClass</strong>](https://msdn.microsoft.com/en-us/library/ms686219.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms686219.aspx"><strong>SetPriorityClass</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetProcessAffinityUpdateMode</strong>](https://msdn.microsoft.com/en-us/library/Bb309063.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb309063.aspx"><strong>SetProcessAffinityUpdateMode</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SetProcessMitigationPolicy</strong>](https://msdn.microsoft.com/en-us/library/Hh769088.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh769088.aspx"><strong>SetProcessMitigationPolicy</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetProcessPriorityBoost</strong>](https://msdn.microsoft.com/en-us/library/ms686225.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms686225.aspx"><strong>SetProcessPriorityBoost</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SetProcessShutdownParameters</strong>](https://msdn.microsoft.com/en-us/library/ms686227.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms686227.aspx"><strong>SetProcessShutdownParameters</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetThreadContext</strong>](https://msdn.microsoft.com/en-us/library/ms680632.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms680632.aspx"><strong>SetThreadContext</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SetThreadIdealProcessorEx</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/dd405517.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd405517.aspx"><strong>SetThreadIdealProcessorEx</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetThreadInformation</strong>](https://msdn.microsoft.com/en-us/library/Hh448390.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh448390.aspx"><strong>SetThreadInformation</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SetThreadPriority</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686277.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms686277.aspx"><strong>SetThreadPriority</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetThreadPriorityBoost</strong>](https://msdn.microsoft.com/en-us/library/ms686280.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms686280.aspx"><strong>SetThreadPriorityBoost</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SetThreadStackGuarantee</strong>](https://msdn.microsoft.com/en-us/library/ms686283.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms686283.aspx"><strong>SetThreadStackGuarantee</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetThreadToken</strong>](https://msdn.microsoft.com/en-us/library/Aa379590.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379590.aspx"><strong>SetThreadToken</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>SuspendThread</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686345.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms686345.aspx"><strong>SuspendThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SwitchToThread</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686352.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms686352.aspx"><strong>SwitchToThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>TerminateProcess</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686714.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms686714.aspx"><strong>TerminateProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>TerminateThread</strong>](https://msdn.microsoft.com/en-us/library/ms686717.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms686717.aspx"><strong>TerminateThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>TlsAlloc</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686801.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms686801.aspx"><strong>TlsAlloc</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>TlsFree</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686804.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms686804.aspx"><strong>TlsFree</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthrea
 
 </tr>
 <tr class="even">
-<td>[<strong>TlsGetValue</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686812.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms686812.aspx"><strong>TlsGetValue</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>TlsSetValue</strong>](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686818.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms686818.aspx"><strong>TlsSetValue</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td>[<strong>UpdateProcThreadAttribute</strong>](https://msdn.microsoft.com/en-us/library/ms686880.aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms686880.aspx"><strong>UpdateProcThreadAttribute</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 </tbody>

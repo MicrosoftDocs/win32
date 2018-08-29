@@ -62,9 +62,9 @@ A number of registry keys and values define the level and type of logging curren
 <td>Level</td>
 <td><strong>REG_DWORD</strong><br/> Takes integer values from 0 through 2^32-1. The value is a logical mask consisting of 32 bits. The following bit masks are combined to define the type of debugging output generated:<br/>
 <ul>
-<li>0: SNMP class provider [<strong>IWbemServices</strong>](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) method invocations</li>
+<li>0: SNMP class provider <a href="/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices"><strong>IWbemServices</strong></a> method invocations</li>
 <li>1: SNMP class provider implementation</li>
-<li>2: SNMP instance provider [<strong>IWbemServices</strong>](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) method invocations</li>
+<li>2: SNMP instance provider <a href="/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices"><strong>IWbemServices</strong></a> method invocations</li>
 <li>3: SNMP instance provider implementation</li>
 <li>4: SNMP class library</li>
 <li>5: SNMP SMIR</li>
@@ -73,7 +73,7 @@ A number of registry keys and values define the level and type of logging curren
 <li>8: SNMP threading code</li>
 <li>9: SNMP event provider interfaces and implementation</li>
 </ul>
-Set Level to (2^0 + 2^8=) 257 for operations involving calls to the SNMP class provider [<strong>IWbemServices</strong>](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) methods, and operations using SNMP threading code.<br/></td>
+Set Level to (2^0 + 2^8=) 257 for operations involving calls to the SNMP class provider <a href="/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices"><strong>IWbemServices</strong></a> methods, and operations using SNMP threading code.<br/></td>
 </tr>
 </tbody>
 </table>

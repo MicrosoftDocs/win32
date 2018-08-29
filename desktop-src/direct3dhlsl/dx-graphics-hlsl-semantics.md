@@ -159,14 +159,14 @@ These semantics have meaning when attached to a pixel-shader input parameter. Th
 <td>Floating-point scalar that indicates a back-facing primitive. A negative value faces backwards, while a positive value faces the camera.
 <blockquote>
 [!Note]<br />
-This semantic is available in [Direct3D 9 Shader Model 3.0](dx-graphics-hlsl-sm3.md). For Direct3D 10 and later, use [SV_IsFrontFace](#semantics-supported-only-for-direct3d-10-and-newer) instead.
+This semantic is available in <a href="dx-graphics-hlsl-sm3">Direct3D 9 Shader Model 3.0</a>. For Direct3D 10 and later, use <a href="#semantics-supported-only-for-direct3d-10-and-newer">SV_IsFrontFace</a> instead.
 </blockquote>
 <br/></td>
 <td>float</td>
 </tr>
 <tr class="even">
 <td>VPOS</td>
-<td>The pixel location (x,y) in screen space. To convert a Direct3D 9 shader (that uses this semantic) to a Direct3D 10 and later shader, see [Direct3D 9 VPOS and Direct3D 10 SV_Position](https://docs.microsoft.com/windows))</td>
+<td>The pixel location (x,y) in screen space. To convert a Direct3D 9 shader (that uses this semantic) to a Direct3D 10 and later shader, see <a href="https://docs.microsoft.com/windows">Direct3D 9 VPOS and Direct3D 10 SV_Position</a>)</td>
 <td>float2</td>
 </tr>
 <tr class="odd">

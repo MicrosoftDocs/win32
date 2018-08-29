@@ -62,19 +62,19 @@ Specifies whether the volume and the encryption key (if any) are secured.
 <tbody>
 <tr class="odd">
 <td><span id="Unprotected"></span><span id="unprotected"></span><span id="UNPROTECTED"></span><dl> <dt><strong>Unprotected</strong></dt> <dt>0</dt> </dl></td>
-<td>PROTECTION OFF<br/> For a standard HDD:<br/> The volume is unencrypted, partially encrypted, or the volume's encryption key is available in the clear on the hard disk. The encryption key is available in the clear on the hard disk if key protectors have been disabled by using the [<strong>DisableKeyProtectors</strong>](disablekeyprotectors-win32-encryptablevolume.md) method or if no key protectors have been specified by using the following methods:
+<td>PROTECTION OFF<br/> For a standard HDD:<br/> The volume is unencrypted, partially encrypted, or the volume's encryption key is available in the clear on the hard disk. The encryption key is available in the clear on the hard disk if key protectors have been disabled by using the <a href="disablekeyprotectors-win32-encryptablevolume"><strong>DisableKeyProtectors</strong></a> method or if no key protectors have been specified by using the following methods:
 <ul>
-<li>[<strong>ProtectKeyWithCertificateFile</strong>](protectkeywithcertificatefile-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithCertificateThumbprint</strong>](protectkeywithcertificatethumbprint-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithExternalKey</strong>](protectkeywithexternalkey-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithNumericalPassword</strong>](protectkeywithnumericalpassword-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithPassphrase</strong>](protectkeywithpassphrase-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithTPM</strong>](protectkeywithtpm-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithTPMAndPIN</strong>](protectkeywithtpmandpin-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithTPMAndPINAndStartupKey</strong>](protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithTPMAndStartupKey</strong>](protectkeywithtpmandstartupkey-win32-encryptablevolume.md)</li>
+<li><a href="protectkeywithcertificatefile-win32-encryptablevolume"><strong>ProtectKeyWithCertificateFile</strong></a></li>
+<li><a href="protectkeywithcertificatethumbprint-win32-encryptablevolume"><strong>ProtectKeyWithCertificateThumbprint</strong></a></li>
+<li><a href="protectkeywithexternalkey-win32-encryptablevolume"><strong>ProtectKeyWithExternalKey</strong></a></li>
+<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
+<li><a href="protectkeywithpassphrase-win32-encryptablevolume"><strong>ProtectKeyWithPassphrase</strong></a></li>
+<li><a href="protectkeywithtpm-win32-encryptablevolume"><strong>ProtectKeyWithTPM</strong></a></li>
+<li><a href="protectkeywithtpmandpin-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
+<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
+<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
 </ul>
-<br/> For an EHDD:<br/> The band for the volume is perpetually unlocked, has no key manager, or is managed by a third party key manager.<br/> This can also mean that the band is managed by BitLocker but the [<strong>DisableKeyProtectors</strong>](disablekeyprotectors-win32-encryptablevolume.md) method has been called and the drive is suspended.<br/></td>
+<br/> For an EHDD:<br/> The band for the volume is perpetually unlocked, has no key manager, or is managed by a third party key manager.<br/> This can also mean that the band is managed by BitLocker but the <a href="disablekeyprotectors-win32-encryptablevolume"><strong>DisableKeyProtectors</strong></a> method has been called and the drive is suspended.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="Protected"></span><span id="protected"></span><span id="PROTECTED"></span><dl> <dt><strong>Protected</strong></dt> <dt>1</dt> </dl></td>

@@ -27,22 +27,22 @@ The emphasis of the encoding algorithms in the Main Profile is on dynamic video 
 <tbody>
 <tr class="odd">
 <td>General-purpose video encoding</td>
-<td>[Windows Media Video 9 Encoder](windowsmediavideo9encoder.md)<dl> Main Profile<br />
+<td><a href="windowsmediavideo9encoder">Windows Media Video 9 Encoder</a><dl> Main Profile<br />
 </dl></td>
 </tr>
 <tr class="even">
 <td>Encoding high definition video or video that conforms to the VC-1 Advanced Profile SMPTE standard</td>
-<td>[Windows Media Video 9 Encoder](windowsmediavideo9encoder.md)<dl> Advanced Profile<br />
+<td><a href="windowsmediavideo9encoder">Windows Media Video 9 Encoder</a><dl> Advanced Profile<br />
 </dl></td>
 </tr>
 <tr class="odd">
 <td>Converting bitmapped images to dynamic video</td>
-<td>[Windows Media Video 9 Encoder](windowsmediavideo9encoder.md)<dl> Image<br />
+<td><a href="windowsmediavideo9encoder">Windows Media Video 9 Encoder</a><dl> Image<br />
 </dl></td>
 </tr>
 <tr class="even">
 <td>Encoding computer-application video (screen capture) or other highly static video</td>
-<td>[<strong>Windows Media Video 9 Screen Encoder</strong>](windowsmediavideo9screenencoder.md)</td>
+<td><a href="windowsmediavideo9screenencoder"><strong>Windows Media Video 9 Screen Encoder</strong></a></td>
 </tr>
 </tbody>
 </table>

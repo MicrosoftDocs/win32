@@ -63,11 +63,11 @@ Shell metadata in general does not require Windows 7, but Media Foundation did 
 </tr>
 <tr class="odd">
 <td>Property keys are wide-character strings.</td>
-<td>Property keys are [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx) values.</td>
+<td>Property keys are <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx"><strong>PROPERTYKEY</strong></a> values.</td>
 </tr>
 <tr class="even">
-<td>Property values are [<strong>PROPVARIANT</strong>](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) values.</td>
-<td>Property values are [<strong>PROPVARIANT</strong>](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) values.</td>
+<td>Property values are <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx"><strong>PROPVARIANT</strong></a> values.</td>
+<td>Property values are <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx"><strong>PROPVARIANT</strong></a> values.</td>
 </tr>
 </tbody>
 </table>

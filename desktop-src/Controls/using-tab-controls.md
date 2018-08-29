@@ -30,17 +30,17 @@ This topic contains two examples that use tab controls. The first example demons
 </thead>
 <tbody>
 <tr class="odd">
-<td>[How to Create a Tab Control in the Main Window](create-a-tab-control-in-the-main-window.md)<br/></td>
-<td>The example in this section demonstrates how to create a tab control and display it in the client area of the application's main window. The application displays a third window (a static control) in the display area of the tab control. The parent window positions and sizes the tab control and static control when it processes the [<strong>WM_SIZE</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632646) message. <br/> There are seven tabs in this example, one for each day of the week. When the user selects a tab, the application displays the name of the corresponding day in the static control. <br/></td>
+<td><a href="create-a-tab-control-in-the-main-window">How to Create a Tab Control in the Main Window</a><br/></td>
+<td>The example in this section demonstrates how to create a tab control and display it in the client area of the application's main window. The application displays a third window (a static control) in the display area of the tab control. The parent window positions and sizes the tab control and static control when it processes the <a href="https://msdn.microsoft.com/library/windows/desktop/ms632646"><strong>WM_SIZE</strong></a> message. <br/> There are seven tabs in this example, one for each day of the week. When the user selects a tab, the application displays the name of the corresponding day in the static control. <br/></td>
 </tr>
 <tr class="even">
-<td>[How to Create a Tabbed Dialog Box](create-a-tabbed-dialog-box.md)<br/></td>
-<td>The example in this section demonstrates how to create a dialog box that uses tabs to provide multiple pages of controls. The main dialog box is a modal dialog box. Each page of controls is defined by a dialog box template that has the [<strong>WS_CHILD</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child) style. When a tab is selected, a modeless dialog box is created for the incoming page and the dialog box for the outgoing page is destroyed. <br/>
+<td><a href="create-a-tabbed-dialog-box">How to Create a Tabbed Dialog Box</a><br/></td>
+<td>The example in this section demonstrates how to create a dialog box that uses tabs to provide multiple pages of controls. The main dialog box is a modal dialog box. Each page of controls is defined by a dialog box template that has the <a href="https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child"><strong>WS_CHILD</strong></a> style. When a tab is selected, a modeless dialog box is created for the incoming page and the dialog box for the outgoing page is destroyed. <br/>
 <blockquote>
 [!Note]<br />
-In many cases, you can implement multiple-page dialog boxes more easily by using property sheets. For more information about property sheets, see [About Property Sheets](property-sheets.md).
+In many cases, you can implement multiple-page dialog boxes more easily by using property sheets. For more information about property sheets, see <a href="property-sheets">About Property Sheets</a>.
 </blockquote>
-<br/> The template for the main dialog box simply defines two button controls. When processing the [<strong>WM_INITDIALOG</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645428) message, the dialog box procedure creates a tab control and loads the dialog box template resources for each of the child dialog boxes. <br/></td>
+<br/> The template for the main dialog box simply defines two button controls. When processing the <a href="https://msdn.microsoft.com/library/windows/desktop/ms645428"><strong>WM_INITDIALOG</strong></a> message, the dialog box procedure creates a tab control and loads the dialog box template resources for each of the child dialog boxes. <br/></td>
 </tr>
 </tbody>
 </table>

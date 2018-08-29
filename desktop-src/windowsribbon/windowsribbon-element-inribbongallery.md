@@ -65,7 +65,7 @@ Represents the [In-Ribbon Gallery](windowsribbon-controls-inribbongallery.md), a
 <td><strong>CommandName</strong><br/></td>
 <td>xs:positiveInteger or xs:string<br/></td>
 <td>No<br/></td>
-<td>Associates the element with a [<strong>Command</strong>](windowsribbon-element-command.md).<br/> <br/>
+<td>Associates the element with a <a href="windowsribbon-element-command"><strong>Command</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)<br/> </dt> <dd> A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
@@ -190,15 +190,15 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ControlGroup</strong>](windowsribbon-element-controlgroup.md)<br/></td>
+<td><a href="windowsribbon-element-controlgroup"><strong>ControlGroup</strong></a><br/></td>
 
 </tr>
 <tr class="even">
-<td>[<strong>Group</strong>](windowsribbon-element-group.md)<br/></td>
+<td><a href="windowsribbon-element-group"><strong>Group</strong></a><br/></td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>QuickAccessToolbar.ApplicationDefaults</strong>](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md)<br/></td>
+<td><a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults"><strong>QuickAccessToolbar.ApplicationDefaults</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 Windows 8 and newer.

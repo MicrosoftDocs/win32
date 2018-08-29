@@ -37,7 +37,7 @@ The following table contains information specific to the Overlay Mixer 2. For al
 <td>CLSID_OverlayMixer2</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td><ul>
 <li>MERIT_UNLIKELY</li>
 <li>Windows Vista or later: MERIT_DO_NOT_USE</li>

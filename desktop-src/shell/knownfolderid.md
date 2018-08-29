@@ -818,7 +818,7 @@ The **KNOWNFOLDERID** constants represent GUIDs that identify standard folders r
 </tr>
 <tr class="even">
 <td>Legacy Display Name</td>
-<td>Not applicable. This <strong>KNOWNFOLDERID</strong> refers to the Windows Vista Synchronization Manager. It is not the folder referenced by the older [<strong>ISyncMgrConflictFolder</strong>](/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder).</td>
+<td>Not applicable. This <strong>KNOWNFOLDERID</strong> refers to the Windows Vista Synchronization Manager. It is not the folder referenced by the older <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>ISyncMgrConflictFolder</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>Legacy Default Path</td>

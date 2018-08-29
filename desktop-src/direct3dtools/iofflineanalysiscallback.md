@@ -26,7 +26,7 @@ The **IOfflineAnalysisCallback** interface inherits from the [**IUnknown**](http
 
 The **IOfflineAnalysisCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>OfflineAnalysisComplete</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432707)</td><td style="text-align: left;"><p>A callback function used to notify the host that offline analysis has completed.</p></td></tr><tr class="even"><td style="text-align: left;">[<strong>OfflineAnalysisProgress</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432708)</td><td style="text-align: left;"><p>A callback function used to notify the host of offline analysis progress.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432707"><strong>OfflineAnalysisComplete</strong></a></td><td style="text-align: left;"><p>A callback function used to notify the host that offline analysis has completed.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432708"><strong>OfflineAnalysisProgress</strong></a></td><td style="text-align: left;"><p>A callback function used to notify the host of offline analysis progress.</p></td></tr></tbody></table>
 
  
 

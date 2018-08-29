@@ -60,7 +60,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...rename a file without getting an error message?</td>
-<td>Use the [<strong>CIM_DataFile</strong>](https://msdn.microsoft.com/library/aa387236) class. Ensure that you pass the entire path name when calling the [<strong>Rename</strong>](https://msdn.microsoft.com/library/aa393051) method, for example, &quot;C:\Scripts\Test.txt&quot; instead of &quot;Text.txt&quot;. For PowerShell, using <strong>CIM_DataFile</strong> may be inefficient. As such, you may simply use the Rename-Item cmdlet.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the [<strong>CIM_DataFile</strong>](https://msdn.microsoft.com/library/aa387236) class. Ensure that you pass the entire path name when calling the <a href="https://msdn.microsoft.com/library/aa393051"><strong>Rename</strong></a> method, for example, &quot;C:\Scripts\Test.txt&quot; instead of &quot;Text.txt&quot;. For PowerShell, using <strong>CIM_DataFile</strong> may be inefficient. As such, you may simply use the Rename-Item cmdlet.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -147,7 +147,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...create shared folders on a computer?</td>
-<td><p>Use the [<strong>Win32_Share</strong>](https://msdn.microsoft.com/library/aa394435) class and the [<strong>Create</strong>](https://msdn.microsoft.com/library/aa389393) method.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394435"><strong>Win32_Share</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa389393"><strong>Create</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -196,7 +196,7 @@ $Shares= [WMICLASS]&quot;Win32_Share&quot;
 </tr>
 <tr class="even">
 <td>...copy a folder?</td>
-<td><p>Use the [<strong>Win32_Directory</strong>](https://msdn.microsoft.com/library/aa394130) class and the [<strong>Copy</strong>](https://msdn.microsoft.com/library/aa389347) method. For PowerShell, you can simply use the Copy-Item cmdlet.</p>
+<td><p>Use the [<strong>Win32_Directory</strong>](https://msdn.microsoft.com/library/aa394130) class and the <a href="https://msdn.microsoft.com/library/aa389347"><strong>Copy</strong></a> method. For PowerShell, you can simply use the Copy-Item cmdlet.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

@@ -103,7 +103,7 @@ For the preceding command to work, three files must be located in the current wo
 <td><strong>/v integer</strong></td>
 <td>The verbosity level. The default is 3.
 <ul>
-<li>0 - The test logs only messages concerning specific [<strong>IFilter</strong>](https://www.bing.com/search?q=<strong>IFilter</strong>) interface failures. The test dumps the chunk contents.</li>
+<li>0 - The test logs only messages concerning specific <a href="https://www.bing.com/search?q=<strong>IFilter</strong>"><strong>IFilter</strong></a> interface failures. The test dumps the chunk contents.</li>
 <li>1 - The test logs warning messages as well as those for level 0.</li>
 <li>2 - The test logs messages concerning tests that passed as well as those for level 1.</li>
 <li>3 - The test logs informational messages as well as those for level 2. In addition, the test dumps the structure of the chunk.</li>

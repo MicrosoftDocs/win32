@@ -25,7 +25,7 @@ In addition to its basic sound-rendering capabilities, this filter can process D
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IAMAudioRendererStats</strong>](/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats), [<strong>IAMClockSlave</strong>](/windows/desktop/api/Strmif/nn-strmif-iamclockslave), [<strong>IAMDirectSound</strong>](/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound), [<strong>IAMResourceControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol), [<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [<strong>IBasicAudio</strong>](/windows/desktop/api/Control/nn-control-ibasicaudio), <strong>IDirectSound3DBuffer</strong>, <strong>IDirectSound3dListener</strong>, [<strong>IMediaPosition</strong>](/windows/desktop/api/Control/nn-control-imediaposition), [<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [<strong>IReferenceClock</strong>](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats"><strong>IAMAudioRendererStats</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamclockslave"><strong>IAMClockSlave</strong></a>, <a href="/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>IAMDirectSound</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol"><strong>IAMResourceControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>IBasicAudio</strong></a>, <strong>IDirectSound3DBuffer</strong>, <strong>IDirectSound3dListener</strong>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>IReferenceClock</strong></a></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -42,7 +42,7 @@ Format type: FORMAT_WaveFormatEx<br/></td>
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IMemInputPin</strong>](/windows/desktop/api/Strmif/nn-strmif-imeminputpin), [<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IPinConnection</strong>](/windows/desktop/api/Strmif/nn-strmif-ipinconnection), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipinconnection"><strong>IPinConnection</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -65,11 +65,11 @@ Format type: FORMAT_WaveFormatEx<br/></td>
 <td>quartz.dll</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_PREFERRED</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_AudioRendererCategory</td>
 </tr>
 </tbody>

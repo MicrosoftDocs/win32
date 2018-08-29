@@ -30,7 +30,7 @@ This section and the following table show the four major areas of compatibility 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Versioning](versioning.md)</td>
+<td><a href="versioning">Versioning</a></td>
 <td><ul>
 <li>Version Vectors</li>
 <li>User Agent String</li>
@@ -41,7 +41,7 @@ This section and the following table show the four major areas of compatibility 
 </ul></td>
 </tr>
 <tr class="even">
-<td>[Standards](standards.md)</td>
+<td><a href="standards">Standards</a></td>
 <td><ul>
 <li>HTML 4.01 improvements</li>
 <li>CSS 2.1 improvements</li>
@@ -54,7 +54,7 @@ This section and the following table show the four major areas of compatibility 
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[Security](security.md)</td>
+<td><a href="security">Security</a></td>
 <td><ul>
 <li>HTTPS improvements</li>
 <li>More secure scripting</li>
@@ -68,7 +68,7 @@ This section and the following table show the four major areas of compatibility 
 </ul></td>
 </tr>
 <tr class="even">
-<td>[Architecture](architecture.md)</td>
+<td><a href="architecture">Architecture</a></td>
 
 <td><ul>
 <li>Loosely coupled Internet Explorer</li>

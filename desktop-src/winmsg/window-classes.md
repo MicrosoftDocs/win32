@@ -70,29 +70,29 @@ The following functions are obsolete.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>GetClassInfo</strong>](https://msdn.microsoft.com/en-us/library/ms633578(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms633578(v=VS.85).aspx"><strong>GetClassInfo</strong></a></td>
 <td>Retrieves information about a window class. <br/>
 <blockquote>
 [!Note]<br />
-The [<strong>GetClassInfo</strong>](https://msdn.microsoft.com/en-us/library/ms633578(v=VS.85).aspx) function has been superseded by the [<strong>GetClassInfoEx</strong>](https://msdn.microsoft.com/en-us/library/ms633579(v=VS.85).aspx) function. You can still use <strong>GetClassInfo</strong>, however, if you do not need information about the class small icon.
+The <a href="https://msdn.microsoft.com/en-us/library/ms633578(v=VS.85).aspx"><strong>GetClassInfo</strong></a> function has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms633579(v=VS.85).aspx"><strong>GetClassInfoEx</strong></a> function. You can still use <strong>GetClassInfo</strong>, however, if you do not need information about the class small icon.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetClassWord</strong>](https://msdn.microsoft.com/en-us/library/ms633583(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms633583(v=VS.85).aspx"><strong>GetClassWord</strong></a></td>
 <td>Retrieves the 16-bit (<strong>WORD</strong>) value at the specified offset into the extra class memory for the window class to which the specified window belongs.
 <blockquote>
 [!Note]<br />
-This function is deprecated for any use other than <em>nIndex</em> set to GCW_ATOM. The function is provided only for compatibility with 16-bit versions of Windows. Applications should use the [<strong>GetClassLong</strong>](https://msdn.microsoft.com/en-us/library/ms633580(v=VS.85).aspx) function.
+This function is deprecated for any use other than <em>nIndex</em> set to GCW_ATOM. The function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://msdn.microsoft.com/en-us/library/ms633580(v=VS.85).aspx"><strong>GetClassLong</strong></a> function.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetClassLong</strong>](https://msdn.microsoft.com/en-us/library/ms633588(v=VS.85).aspx)</td>
-<td>Replaces the specified 32-bit (<strong>long</strong>) value at the specified offset into the extra class memory or the [<strong>WNDCLASSEX</strong>](https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx) structure for the class to which the specified window belongs.
+<td><a href="https://msdn.microsoft.com/en-us/library/ms633588(v=VS.85).aspx"><strong>SetClassLong</strong></a></td>
+<td>Replaces the specified 32-bit (<strong>long</strong>) value at the specified offset into the extra class memory or the <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx"><strong>WNDCLASSEX</strong></a> structure for the class to which the specified window belongs.
 <blockquote>
 [!Note]<br />
-This function has been superseded by the [<strong>SetClassLongPtr</strong>](https://msdn.microsoft.com/en-us/library/ms633589(v=VS.85).aspx) function. To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <strong>SetClassLongPtr</strong>.
+This function has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms633589(v=VS.85).aspx"><strong>SetClassLongPtr</strong></a> function. To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <strong>SetClassLongPtr</strong>.
 </blockquote>
 <br/> <br/></td>
 </tr>

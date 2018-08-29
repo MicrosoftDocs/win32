@@ -45,7 +45,7 @@ The following values define the possible class GUIDs for kernel events that an N
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ALPC</strong>](alpc.md)</td>
+<td><a href="alpc"><strong>ALPC</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 45d8cccd-539f-4b72-a8b7-5c683142609a */
     ALPCGuid,
     0x45d8cccd,
@@ -55,7 +55,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="even">
-<td>[<strong>DiskIo</strong>](diskio.md)</td>
+<td><a href="diskio"><strong>DiskIo</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c */
     DiskIoGuid,
     0x3d6fa8d4,
@@ -65,7 +65,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="odd">
-<td>[<strong>HWConfig</strong>](hwconfig.md) and [<strong>SystemConfig</strong>](systemconfig.md)</td>
+<td><a href="hwconfig"><strong>HWConfig</strong></a> and <a href="systemconfig"><strong>SystemConfig</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 01853a65-418f-4f36-aefc-dc0f1d2fd235 */
     EventTraceConfigGuid,
     0x01853a65,
@@ -75,7 +75,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="even">
-<td>[<strong>FileIo</strong>](fileio.md)</td>
+<td><a href="fileio"><strong>FileIo</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 90cbdc39-4a3e-11d1-84f4-0000f80464e3 */
     FileIoGuid,
     0x90cbdc39,
@@ -85,7 +85,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Image</strong>](image.md)</td>
+<td><a href="image"><strong>Image</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 2cb15d1d-5fc1-11d2-abe1-00a0c911f518 */
     ImageLoadGuid,
     0x2cb15d1d,
@@ -95,7 +95,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="even">
-<td>[<strong>PageFault_V2</strong>](pagefault-v2.md)</td>
+<td><a href="pagefault-v2"><strong>PageFault_V2</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 3d6fa8d3-fe05-11d0-9dda-00c04fd7ba7c */
     PageFaultGuid,
     0x3d6fa8d3,
@@ -105,7 +105,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="odd">
-<td>[<strong>PerfInfo</strong>](perfinfo.md)</td>
+<td><a href="perfinfo"><strong>PerfInfo</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* ce1dbfb4-137e-4da6-87b0-3f59aa102cbc */
     PerfInfoGuid,
     0xce1dbfb4,
@@ -115,7 +115,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="even">
-<td>[<strong>Process</strong>](process.md)</td>
+<td><a href="process"><strong>Process</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c */
     ProcessGuid,
     0x3d6fa8d0,
@@ -125,7 +125,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Registry</strong>](registry.md)</td>
+<td><a href="registry"><strong>Registry</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* AE53722E-C863-11d2-8659-00C04FA321A1 */
     RegistryGuid, 
     0xae53722e,
@@ -135,7 +135,7 @@ The following values define the possible class GUIDs for kernel events that an N
 );</code></pre></td>
 </tr>
 <tr class="even">
-<td>[<strong>SplitIo</strong>](splitio.md)</td>
+<td><a href="splitio"><strong>SplitIo</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* d837ca92-12b9-44a5-ad6a-3a65b3578aa8 */
     SplitIoGuid, 
     0xd837ca92,
@@ -145,7 +145,7 @@ The following values define the possible class GUIDs for kernel events that an N
 );</code></pre></td>
 </tr>
 <tr class="odd">
-<td>[<strong>TcpIp</strong>](tcpip.md)</td>
+<td><a href="tcpip"><strong>TcpIp</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 9a280ac0-c8e0-11d1-84e2-00c04fb998a2 */
     TcpIpGuid,
     0x9a280ac0,
@@ -155,7 +155,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="even">
-<td>[<strong>Thread</strong>](thread.md)</td>
+<td><a href="thread"><strong>Thread</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* 3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c */
     ThreadGuid,
     0x3d6fa8d1,
@@ -165,7 +165,7 @@ The following values define the possible class GUIDs for kernel events that an N
   );</code></pre></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UdpIp</strong>](udpip.md)</td>
+<td><a href="udpip"><strong>UdpIp</strong></a></td>
 <td><pre class="syntax" data-space="preserve"><code>DEFINE_GUID ( /* bf3a50c5-a9c9-4988-a005-2df0b7c80f80 */
     UdpIpGuid,
     0xbf3a50c5,

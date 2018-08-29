@@ -59,9 +59,9 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Provider](element-provider.md)</td>
+<td><a href="element-provider">Provider</a></td>
 <td><p>Specifies one preferred network provider in a list of providers to be used when roaming.</p>
-<p>The value of this element is an instance of the v1 [<strong>providerType</strong>](../mbn/schema_providertype_complextype.md) complex type.</p></td>
+<p>The value of this element is an instance of the v1 <a href="../mbn/schema_providertype_complextype"><strong>providerType</strong></a> complex type.</p></td>
 </tr>
 </tbody>
 </table>
@@ -83,9 +83,9 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MBNProfileExt](element-mbnprofileext.md)</td>
+<td><a href="element-mbnprofileext">MBNProfileExt</a></td>
 <td><p>The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element. It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</p>
-<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the [<strong>ProfileConditionedOn</strong>](element-profileconditionedon.md) child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
+<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
 </tr>
 </tbody>
 </table>

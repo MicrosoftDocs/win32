@@ -465,7 +465,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>file completion</td>
-<td>Returns the estimated percentage a [load](load.md), [save](save.md), [capture](capture.md), [cut](cut.md), [copy](copy.md), [delete](delete.md), [paste](paste.md), or [undo](undo.md) operation has progressed. (Applications can use this to provide a visual indicator of progress.)</td>
+<td>Returns the estimated percentage a [load](load.md), [save](save.md), [capture](capture.md), [cut](cut.md), <a href="copy">copy</a>, [delete](delete.md), [paste](paste.md), or [undo](undo.md) operation has progressed. (Applications can use this to provide a visual indicator of progress.)</td>
 </tr>
 <tr class="even">
 <td>file format</td>
@@ -473,7 +473,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>file mode</td>
-<td>Returns &quot;loading&quot;, &quot;saving&quot;, &quot;editing&quot;, or &quot;idle&quot;. During a [<strong>load</strong>](load.md) operation, it returns &quot;loading&quot;. During [<strong>save</strong>](https://www.bing.com/search?q=<strong>save</strong>) and [<strong>capture</strong>](capture.md) operations, it returns &quot;saving&quot;. During [<strong>cut</strong>](cut.md), [<strong>copy</strong>](copy.md), [<strong>delete</strong>](delete.md), [<strong>paste</strong>](paste.md), or [<strong>undo</strong>](undo.md) operations, it returns &quot;editing&quot;.</td>
+<td>Returns &quot;loading&quot;, &quot;saving&quot;, &quot;editing&quot;, or &quot;idle&quot;. During a <a href="load"><strong>load</strong></a> operation, it returns &quot;loading&quot;. During <a href="https://www.bing.com/search?q=<strong>save</strong>"><strong>save</strong></a> and <a href="capture"><strong>capture</strong></a> operations, it returns &quot;saving&quot;. During <a href="cut"><strong>cut</strong></a>, <a href="copy"><strong>copy</strong></a>, <a href="delete"><strong>delete</strong></a>, <a href="paste"><strong>paste</strong></a>, or <a href="undo"><strong>undo</strong></a> operations, it returns &quot;editing&quot;.</td>
 </tr>
 <tr class="even">
 <td>format tag</td>
@@ -493,11 +493,11 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>gamma</td>
-<td>Returns the value set with [<strong>setvideo</strong>](setvideo.md) &quot;gamma to&quot; <em>value</em>.</td>
+<td>Returns the value set with <a href="setvideo"><strong>setvideo</strong></a> &quot;gamma to&quot; <em>value</em>.</td>
 </tr>
 <tr class="odd">
 <td>index</td>
-<td>Returns the current index display. For more information, see the [<strong>set</strong>](set.md) &quot;index&quot; command.</td>
+<td>Returns the current index display. For more information, see the <a href="set"><strong>set</strong></a> &quot;index&quot; command.</td>
 </tr>
 <tr class="even">
 <td>index on</td>
@@ -513,7 +513,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>length</td>
-<td>Returns the total length of the media, in the current time format. For PPQN files, the length is returned in song pointer units. For SMPTE files, it is returned as <em>hh:mm:ss:ff</em>, where <em>hh</em> is hours, <em>mm</em> is minutes, <em>ss</em> is seconds, and <em>ff</em> is frames. For VCR devices, the length is 2 hours (unless the length has been explicitly changed using the [<strong>set</strong>](https://www.bing.com/search?q=<strong>set</strong>) command).</td>
+<td>Returns the total length of the media, in the current time format. For PPQN files, the length is returned in song pointer units. For SMPTE files, it is returned as <em>hh:mm:ss:ff</em>, where <em>hh</em> is hours, <em>mm</em> is minutes, <em>ss</em> is seconds, and <em>ff</em> is frames. For VCR devices, the length is 2 hours (unless the length has been explicitly changed using the <a href="https://www.bing.com/search?q=<strong>set</strong>"><strong>set</strong></a> command).</td>
 </tr>
 <tr class="even">
 <td>length track <em>number</em></td>
@@ -585,7 +585,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>pause timeout</td>
-<td>Returns the maximum duration, in milliseconds, of a [<strong>pause</strong>](pause.md) command.</td>
+<td>Returns the maximum duration, in milliseconds, of a <a href="pause"><strong>pause</strong></a> command.</td>
 </tr>
 <tr class="even">
 <td>play format</td>
@@ -613,7 +613,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>postroll duration</td>
-<td>Returns the length of videotape, in the current time format, needed to brake the VCR transport when a [<strong>stop</strong>](stop.md) or [<strong>pause</strong>](pause.md) command is issued.</td>
+<td>Returns the length of videotape, in the current time format, needed to brake the VCR transport when a <a href="stop"><strong>stop</strong></a> or <a href="pause"><strong>pause</strong></a> command is issued.</td>
 </tr>
 <tr class="odd">
 <td>power on</td>
@@ -673,7 +673,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>speed</td>
-<td>Returns the current speed of the device in frames per second (or in the same format used by the [<strong>set</strong>](https://www.bing.com/search?q=<strong>set</strong>) &quot;speed&quot; command). The MCIPIONR videodisc player does not support this flag.</td>
+<td>Returns the current speed of the device in frames per second (or in the same format used by the <a href="https://www.bing.com/search?q=<strong>set</strong>"><strong>set</strong></a> &quot;speed&quot; command). The MCIPIONR videodisc player does not support this flag.</td>
 </tr>
 <tr class="even">
 <td>start position</td>
@@ -681,7 +681,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>still file format</td>
-<td>Returns the current file format for the [<strong>capture</strong>](capture.md) command.</td>
+<td>Returns the current file format for the <a href="capture"><strong>capture</strong></a> command.</td>
 </tr>
 <tr class="even">
 <td>stretch</td>
@@ -693,7 +693,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>time format</td>
-<td>Returns the current time format. For more information, see the time formats in the [<strong>set</strong>](set.md) command.</td>
+<td>Returns the current time format. For more information, see the time formats in the <a href="set"><strong>set</strong></a> command.</td>
 </tr>
 <tr class="odd">
 <td>time mode</td>
@@ -713,7 +713,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>timecode type</td>
-<td>Returns &quot;smpte&quot;, &quot;smpte drop&quot;, &quot;other&quot;, or &quot;none&quot;. Note the frames per second can be obtained from the status &quot;frame rate&quot; command, and the accuracy of the device can be returned by the [<strong>capability</strong>](capability.md) &quot;seek accuracy&quot; command.</td>
+<td>Returns &quot;smpte&quot;, &quot;smpte drop&quot;, &quot;other&quot;, or &quot;none&quot;. Note the frames per second can be obtained from the status &quot;frame rate&quot; command, and the accuracy of the device can be returned by the <a href="capability"><strong>capability</strong></a> &quot;seek accuracy&quot; command.</td>
 </tr>
 <tr class="even">
 <td>tint</td>
@@ -729,11 +729,11 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>unsaved</td>
-<td>Returns <strong>TRUE</strong> if there is recorded data in the workspace that might be lost as a result of a [<strong>close</strong>](close.md), [<strong>load</strong>](load.md), [<strong>record</strong>](record.md), [<strong>reserve</strong>](reserve.md), [<strong>cut</strong>](cut.md), [<strong>delete</strong>](delete.md), or [<strong>paste</strong>](paste.md) command. Returns <strong>FALSE</strong> otherwise.</td>
+<td>Returns <strong>TRUE</strong> if there is recorded data in the workspace that might be lost as a result of a <a href="close"><strong>close</strong></a>, <a href="load"><strong>load</strong></a>, <a href="record"><strong>record</strong></a>, <a href="reserve"><strong>reserve</strong></a>, <a href="cut"><strong>cut</strong></a>, <a href="delete"><strong>delete</strong></a>, or <a href="paste"><strong>paste</strong></a> command. Returns <strong>FALSE</strong> otherwise.</td>
 </tr>
 <tr class="even">
 <td>video</td>
-<td>Returns &quot;on&quot; or &quot;off&quot;, reflecting the state set by the [<strong>setvideo</strong>](setvideo.md) command.</td>
+<td>Returns &quot;on&quot; or &quot;off&quot;, reflecting the state set by the <a href="setvideo"><strong>setvideo</strong></a> command.</td>
 </tr>
 <tr class="odd">
 <td>video key color</td>
@@ -745,7 +745,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>video monitor</td>
-<td>Returns &quot;output&quot; or one of the valid source-input types. For more information, see the [<strong>setvideo</strong>](setvideo.md) &quot;monitor&quot; command.</td>
+<td>Returns &quot;output&quot; or one of the valid source-input types. For more information, see the <a href="setvideo"><strong>setvideo</strong></a> &quot;monitor&quot; command.</td>
 </tr>
 <tr class="even">
 <td>video monitor number</td>
@@ -753,7 +753,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>video record</td>
-<td>Returns &quot;on&quot; or &quot;off&quot;, reflecting the current state set by [<strong>setvideo</strong>](setvideo.md) &quot;record&quot;.</td>
+<td>Returns &quot;on&quot; or &quot;off&quot;, reflecting the current state set by <a href="setvideo"><strong>setvideo</strong></a> &quot;record&quot;.</td>
 </tr>
 <tr class="even">
 <td>video record track <em>number</em></td>
@@ -761,7 +761,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>video source</td>
-<td>Returns the video-source type. For more information, see the [<strong>setvideo</strong>](setvideo.md) command.</td>
+<td>Returns the video-source type. For more information, see the <a href="setvideo"><strong>setvideo</strong></a> command.</td>
 </tr>
 <tr class="even">
 <td>video source number</td>

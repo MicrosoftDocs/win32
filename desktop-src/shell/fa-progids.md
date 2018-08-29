@@ -51,11 +51,11 @@ A ProgID subkey should include the following elements. Note that some string dat
 </tr>
 <tr class="odd">
 <td><strong>AppUserModelID</strong> (introduced in Windows 7)</td>
-<td>Set this optional entry to the application's explicit Application User Model ID (AppUserModelID) if the application uses an explicit AppUserModelID and uses either the system's automatically generated <strong>Recent</strong> or <strong>Frequent</strong> Jump Lists or provides a custom Jump List. If an application uses an explicit AppUserModelID and does not set this value, items will not appear in that application's Jump Lists. This is a REG_SZ string. For more information, see [Application User Model IDs (AppUserModelIDs)](appids.md).<br/></td>
+<td>Set this optional entry to the application's explicit Application User Model ID (AppUserModelID) if the application uses an explicit AppUserModelID and uses either the system's automatically generated <strong>Recent</strong> or <strong>Frequent</strong> Jump Lists or provides a custom Jump List. If an application uses an explicit AppUserModelID and does not set this value, items will not appear in that application's Jump Lists. This is a REG_SZ string. For more information, see <a href="appids">Application User Model IDs (AppUserModelIDs)</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>EditFlags</strong></td>
-<td>Set this optional entry using flags from the [<strong>FILETYPEATTRIBUTEFLAGS</strong>](/windows/desktop/api/Shlwapi/ne-shlwapi-filetypeattributeflags) enumeration. The EditFlags entry controls some aspects of the Shell's handling of the file types linked to this ProgID. You can also use the EditFlags entry to limit how much the user can modify certain aspects of these file types using a file's property sheet. The <strong>FILETYPEATTRIBUTEFLAGS</strong> values used for EditFlags are binary values designed so that you can combine multiple attributes into a single value in a bitwise OR operation. This is a REG_DWORD or REG_BINARY value.<br/></td>
+<td>Set this optional entry using flags from the <a href="/windows/desktop/api/Shlwapi/ne-shlwapi-filetypeattributeflags"><strong>FILETYPEATTRIBUTEFLAGS</strong></a> enumeration. The EditFlags entry controls some aspects of the Shell's handling of the file types linked to this ProgID. You can also use the EditFlags entry to limit how much the user can modify certain aspects of these file types using a file's property sheet. The <strong>FILETYPEATTRIBUTEFLAGS</strong> values used for EditFlags are binary values designed so that you can combine multiple attributes into a single value in a bitwise OR operation. This is a REG_DWORD or REG_BINARY value.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>FriendlyTypeName</strong></td>

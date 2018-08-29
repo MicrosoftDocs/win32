@@ -123,7 +123,7 @@ The following table compares the Windows Media Player 6.4 object model propertie
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>CCActive</strong></td>
-<td>Not available. See [Closed Captioning](closed-captioning.md) for information about how closed captioning has changed in Windows Media Player.</td>
+<td>Not available. See <a href="closed-captioning">Closed Captioning</a> for information about how closed captioning has changed in Windows Media Player.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>.<strong>ChannelDescription</strong></td>

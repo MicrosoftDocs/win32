@@ -145,7 +145,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...start and stop services?</td>
-<td><p>Use the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class and the [<strong>StopService</strong>](https://msdn.microsoft.com/library/aa393673) and [<strong>StartService</strong>](https://msdn.microsoft.com/library/aa393660) methods.</p>
+<td><p>Use the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class and the <a href="https://msdn.microsoft.com/library/aa393673"><strong>StopService</strong></a> and <a href="https://msdn.microsoft.com/library/aa393660"><strong>StartService</strong></a> methods.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -192,7 +192,7 @@ Next
 </tr>
 <tr class="even">
 <td>...change service account passwords using a script?</td>
-<td><p>Use the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class and the [<strong>Change</strong>](https://msdn.microsoft.com/library/aa384901) method.</p>
+<td><p>Use the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class and the <a href="https://msdn.microsoft.com/library/aa384901"><strong>Change</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -267,7 +267,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...find the services that must be running before I can start the DHCP service?</td>
-<td><p>Query for [ASSOCIATORS OF](associators-of-statement.md) the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class named &quot;DHCP&quot; that are in the [<strong>Win32_DependentService</strong>](https://msdn.microsoft.com/library/aa394120) class and have &quot;Dependent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the DHCP service: in this case, it is dependent on the other services that are being started.</p>
+<td><p>Query for <a href="associators-of-statement">ASSOCIATORS OF</a> the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class named &quot;DHCP&quot; that are in the <a href="https://msdn.microsoft.com/library/aa394120"><strong>Win32_DependentService</strong></a> class and have &quot;Dependent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the DHCP service: in this case, it is dependent on the other services that are being started.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -315,7 +315,7 @@ Get-WmiObject -Query $query -Namespace &quot;root\cimv2&quot; | format-list Disp
 </tr>
 <tr class="odd">
 <td>...find the services that require the WMI service (Winmgmt) service to be running before they can start?</td>
-<td><p>Query for [ASSOCIATORS OF](associators-of-statement.md) the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class named &quot;DHCP&quot; that are in the [<strong>Win32_DependentService</strong>](https://msdn.microsoft.com/library/aa394120) class and have &quot;Antecendent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the rasman service: in this case, it is antecedent to must be started before the dependent services.</p>
+<td><p>Query for <a href="associators-of-statement">ASSOCIATORS OF</a> the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class named &quot;DHCP&quot; that are in the <a href="https://msdn.microsoft.com/library/aa394120"><strong>Win32_DependentService</strong></a> class and have &quot;Antecendent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the rasman service: in this case, it is antecedent to must be started before the dependent services.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

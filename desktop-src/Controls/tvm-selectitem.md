@@ -48,7 +48,7 @@ Action flag. This parameter can be one of the following values:
 <tbody>
 <tr class="odd">
 <td><span id="TVGN_CARET"></span><span id="tvgn_caret"></span><dl> <dt><strong>TVGN_CARET</strong></dt> </dl></td>
-<td>Sets the selection to the specified item. The tree-view control's parent window receives the [TVN_SELCHANGING](tvn-selchanging.md) and [TVN_SELCHANGED](tvn-selchanged.md) notification codes. <br/></td>
+<td>Sets the selection to the specified item. The tree-view control's parent window receives the <a href="tvn-selchanging">TVN_SELCHANGING</a> and <a href="tvn-selchanged">TVN_SELCHANGED</a> notification codes. <br/></td>
 </tr>
 <tr class="even">
 <td><span id="TVGN_DROPHILITE"></span><span id="tvgn_drophilite"></span><dl> <dt><strong>TVGN_DROPHILITE</strong></dt> </dl></td>
@@ -63,7 +63,7 @@ Action flag. This parameter can be one of the following values:
 <td>When a single item is selected, ensures that the treeview does not expand the children of that item. This is valid only if used with the TVGN_CARET flag. <br/>
 <blockquote>
 [!Note]<br />
-To use this flag, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
+To use this flag, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="cookbook-overview">Enabling Visual Styles</a>.
 </blockquote>
 <br/></td>
 </tr>

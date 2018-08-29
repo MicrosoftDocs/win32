@@ -31,7 +31,7 @@ Sets group information.
 </dt> <dd>ID that specifies the group whose information is to be set.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to an [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup) structure that contains the information to set.</dd> </dl>
+</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup">**LVGROUP**</a> structure that contains the information to set.</dd> </dl>
 
 ## Return value
 

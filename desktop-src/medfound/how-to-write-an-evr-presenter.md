@@ -431,7 +431,7 @@ Here are some guidelines for implementing the methods in this interface. All of 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>[<strong>OnClockStart</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart)</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a></td>
 <td><ol>
 <li>Set the presenter state to started.</li>
 <li>If the <em>llClockStartOffset</em> is not <strong>PRESENTATION_CURRENT_POSITION</strong>, flush the presenter's queue of samples. (This is equivalent to receiving an <strong>MFVP_MESSAGE_FLUSH</strong> message.)</li>
@@ -439,7 +439,7 @@ Here are some guidelines for implementing the methods in this interface. All of 
 </ol></td>
 </tr>
 <tr class="even">
-<td>[<strong>OnClockStop</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop)</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>OnClockStop</strong></a></td>
 <td><ol>
 <li>Set the presenter state to stopped.</li>
 <li>Flush the presenter's queue of samples.</li>
@@ -447,15 +447,15 @@ Here are some guidelines for implementing the methods in this interface. All of 
 </ol></td>
 </tr>
 <tr class="odd">
-<td>[<strong>OnClockPause</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause)</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a></td>
 <td>Set the presenter state to paused.</td>
 </tr>
 <tr class="even">
-<td>[<strong>OnClockRestart</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart)</td>
-<td>Treat the same as [<strong>OnClockStart</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart) but do not flush the queue of samples.</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a></td>
+<td>Treat the same as <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> but do not flush the queue of samples.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>OnClockSetRate</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate)</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a></td>
 <td><ol>
 <li>If the rate is changing from zero to nonzero, cancel frame stepping.</li>
 <li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see [Scheduling Samples](#scheduling-samples).</li>
@@ -610,7 +610,7 @@ The following table lists the events that the presenter sends, along with the ev
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>EC_COMPLETE</strong>](https://msdn.microsoft.com/en-us/library/Dd319485(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319485(v=VS.85).aspx"><strong>EC_COMPLETE</strong></a></td>
 <td>The presenter has finished rendering all frames after the MFVP_MESSAGE_ENDOFSTREAM message.<br/>
 <ul>
 <li><em>Param1</em>: HRESULT indicating the status of the operation.</li>
@@ -619,7 +619,7 @@ The following table lists the events that the presenter sends, along with the ev
 For more information, see [End of Stream](#end-of-stream).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>EC_DISPLAY_CHANGED</strong>](https://msdn.microsoft.com/en-us/library/Dd319492(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319492(v=VS.85).aspx"><strong>EC_DISPLAY_CHANGED</strong></a></td>
 <td>The Direct3D device has changed.<br/>
 <ul>
 <li><em>Param1</em>: Not used.</li>
@@ -628,7 +628,7 @@ For more information, see [End of Stream](#end-of-stream).<br/></td>
 For more information, see [Managing the Direct3D Device](#managing-the-direct3d-device).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EC_ERRORABORT</strong>](https://msdn.microsoft.com/en-us/library/Dd319538(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319538(v=VS.85).aspx"><strong>EC_ERRORABORT</strong></a></td>
 <td>An error has occurred that requires streaming to stop.<br/>
 <ul>
 <li><em>Param1</em>: <strong>HRESULT</strong> indicating the error that occurred.</li>
@@ -636,7 +636,7 @@ For more information, see [Managing the Direct3D Device](#managing-the-direct3d-
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>EC_PROCESSING_LATENCY</strong>](https://msdn.microsoft.com/en-us/library/Dd319601(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319601(v=VS.85).aspx"><strong>EC_PROCESSING_LATENCY</strong></a></td>
 <td>Specifies the amount of time that the presenter is taking to render each frame. (Optional.)<br/>
 <ul>
 <li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the amount of time to process the frame, in 100-nanosecond units.</li>
@@ -645,7 +645,7 @@ For more information, see [Managing the Direct3D Device](#managing-the-direct3d-
 For more information, see [Processing Output](#processing-output).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EC_SAMPLE_LATENCY</strong>](https://msdn.microsoft.com/en-us/library/Dd319605(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319605(v=VS.85).aspx"><strong>EC_SAMPLE_LATENCY</strong></a></td>
 <td>Specifies the current lag time in rendering samples. If the value is positive, samples are behind schedule. If the value is negative, samples are ahead of schedule. (Optional.)<br/>
 <ul>
 <li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the lag time, in 100-nanosecond units.</li>
@@ -653,7 +653,7 @@ For more information, see [Processing Output](#processing-output).<br/></td>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>EC_SCRUB_TIME</strong>](https://msdn.microsoft.com/en-us/library/Dd319607(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319607(v=VS.85).aspx"><strong>EC_SCRUB_TIME</strong></a></td>
 <td>Sent immediately after <strong>EC_STEP_COMPLETE</strong> if the playback rate is zero. This event contains the time stamp of the frame that was displayed.<br/>
 <ul>
 <li><em>Param1</em>: Lower 32 bits of the time stamp.</li>
@@ -662,7 +662,7 @@ For more information, see [Processing Output](#processing-output).<br/></td>
 For more information, see [Frame Stepping](#frame-stepping).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EC_STEP_COMPLETE</strong>](https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx"><strong>EC_STEP_COMPLETE</strong></a></td>
 <td>The presenter has completed or canceled a frame step.<br/>
 <ul>
 <li><em>Param1</em>: Not used.</li>

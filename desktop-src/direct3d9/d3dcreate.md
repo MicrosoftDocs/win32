@@ -27,7 +27,7 @@ A combination of one or more flags that control the device create behavior.
 </tr>
 <tr class="even">
 <td>D3DCREATE_ADAPTERGROUP_DEVICE</td>
-<td>Application asks the device to drive all the heads that this master adapter owns. The flag is illegal on nonmaster adapters. If this flag is set, the presentation parameters passed to [<strong>CreateDevice</strong>](/windows/desktop/api) should point to an array of [<strong>D3DPRESENT_PARAMETERS</strong>](d3dpresent-parameters.md). The number of elements in <strong>D3DPRESENT_PARAMETERS</strong> should equal the number of adapters defined by the NumberOfAdaptersInGroup member of the [<strong>D3DCAPS9</strong>](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9) structure. The DirectX runtime will assign each element to each head in the numerical order specified by the AdapterOrdinalInGroup member of <strong>D3DCAPS9</strong>.</td>
+<td>Application asks the device to drive all the heads that this master adapter owns. The flag is illegal on nonmaster adapters. If this flag is set, the presentation parameters passed to <a href="/windows/desktop/api"><strong>CreateDevice</strong></a> should point to an array of <a href="d3dpresent-parameters"><strong>D3DPRESENT_PARAMETERS</strong></a>. The number of elements in <strong>D3DPRESENT_PARAMETERS</strong> should equal the number of adapters defined by the NumberOfAdaptersInGroup member of the <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9"><strong>D3DCAPS9</strong></a> structure. The DirectX runtime will assign each element to each head in the numerical order specified by the AdapterOrdinalInGroup member of <strong>D3DCAPS9</strong>.</td>
 </tr>
 <tr class="odd">
 <td>D3DCREATE_DISABLE_DRIVER_MANAGEMENT</td>
@@ -65,7 +65,7 @@ A combination of one or more flags that control the device create behavior.
 </tr>
 <tr class="odd">
 <td>D3DCREATE_ENABLE_PRESENTSTATS</td>
-<td>Enables the gathering of present statistics on the device. Calls to [<strong>GetPresentStatistics</strong>](https://msdn.microsoft.com/en-us/library/Bb205901(v=VS.85).aspx) will return valid data. 
+<td>Enables the gathering of present statistics on the device. Calls to <a href="https://msdn.microsoft.com/en-us/library/Bb205901(v=VS.85).aspx"><strong>GetPresentStatistics</strong></a> will return valid data. 
 <table>
 <tbody>
 <tr class="odd">
@@ -107,7 +107,7 @@ Unless hardware vertex processing is not available, the usage of software vertex
 </tr>
 <tr class="even">
 <td>D3DCREATE_MULTITHREADED</td>
-<td>Indicates that the application requests Direct3D to be multithread safe. This makes a Direct3D thread take ownership of its global [critical section](https://msdn.microsoft.com/en-us/library/ms682530(v=VS.85).aspx) more frequently, which can degrade performance. If an application processes window messages in one thread while making Direct3D API calls in another, the application must use this flag when creating the device. This window must also be destroyed before unloading d3d9.dll.</td>
+<td>Indicates that the application requests Direct3D to be multithread safe. This makes a Direct3D thread take ownership of its global <a href="https://msdn.microsoft.com/en-us/library/ms682530(v=VS.85).aspx">critical section</a> more frequently, which can degrade performance. If an application processes window messages in one thread while making Direct3D API calls in another, the application must use this flag when creating the device. This window must also be destroyed before unloading d3d9.dll.</td>
 </tr>
 <tr class="odd">
 <td>D3DCREATE_NOWINDOWCHANGES</td>

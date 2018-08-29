@@ -56,7 +56,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...determine how much free memory a computer has?</td>
-<td>Use the class [<strong>Win32_OperatingSystem</strong>](https://msdn.microsoft.com/library/aa394239) and the <strong>FreePhysicalMemory</strong> property.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the class <a href="https://msdn.microsoft.com/library/aa394239"><strong>Win32_OperatingSystem</strong></a> and the <strong>FreePhysicalMemory</strong> property.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -99,7 +99,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine whether a computer has a DVD drive?</td>
-<td><p>Use the [<strong>Win32_CDROMDrive</strong>](https://msdn.microsoft.com/library/aa394081) class and check for the acronym DVD in the <strong>Name</strong> or <strong>DeviceID</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394081"><strong>Win32_CDROMDrive</strong></a> class and check for the acronym DVD in the <strong>Name</strong> or <strong>DeviceID</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -237,7 +237,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine whether a computer has a PCMCIA slot?</td>
-<td><p>Use the [<strong>Win32_PCMCIAController</strong>](https://msdn.microsoft.com/library/aa394251) class and check the value of the <strong>Count</strong> property. If <strong>Count</strong> is 0, then the computer has no PCMCIA slots.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394251"><strong>Win32_PCMCIAController</strong></a> class and check the value of the <strong>Count</strong> property. If <strong>Count</strong> is 0, then the computer has no PCMCIA slots.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -285,7 +285,7 @@ if (!$pcmcia.count) {
 </tr>
 <tr class="even">
 <td>...identify devices that are not working (those marked with an exclamation point icon in <strong>Device Manager</strong>)?</td>
-<td><p>Use the [<strong>Win32_PnPEntity</strong>](https://msdn.microsoft.com/library/aa394353) class and use the following clause in your [WQL](querying-with-wql.md) query. <strong>WHERE ConfigManagerErrorCode <> 0</strong> Note that this code may not detect USB devices that are missing drivers.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394353"><strong>Win32_PnPEntity</strong></a> class and use the following clause in your <a href="querying-with-wql">WQL</a> query. <strong>WHERE ConfigManagerErrorCode <> 0</strong> Note that this code may not detect USB devices that are missing drivers.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -346,7 +346,7 @@ foreach ($device in $baddevices) {
 </tr>
 <tr class="odd">
 <td>...determine the properties of the mouse used on computer?</td>
-<td><p>Use the [<strong>Win32_PointingDevice</strong>](https://msdn.microsoft.com/library/aa394356) class. This returns the properties of all pointing devices, not just mouse devices.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394356"><strong>Win32_PointingDevice</strong></a> class. This returns the properties of all pointing devices, not just mouse devices.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -474,7 +474,7 @@ param ($value)
 </tr>
 <tr class="even">
 <td>...determine the speed of a processor installed in a computer?</td>
-<td><p>Use the [<strong>Win32_Processor</strong>](https://msdn.microsoft.com/library/aa394373) class and check the value of the <strong>MaxClockSpeed</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394373"><strong>Win32_Processor</strong></a> class and check the value of the <strong>MaxClockSpeed</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -503,7 +503,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine whether a computer is a tower, a mini-tower, a laptop, and so on?</td>
-<td><p>Use the [<strong>Win32_SystemEnclosure</strong>](https://msdn.microsoft.com/library/aa394474) class and check the value of the <strong>ChassisType</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394474"><strong>Win32_SystemEnclosure</strong></a> class and check the value of the <strong>ChassisType</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -554,7 +554,7 @@ foreach ($proc in $processors)
 </tr>
 <tr class="even">
 <td>...get the serial number and asset tag of a computer?</td>
-<td><p>Use the [<strong>Win32_SystemEnclosure</strong>](https://msdn.microsoft.com/library/aa394474) class, and the properties <strong>SerialNumber</strong> and <strong>SMBIOSAssetTag</strong>.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394474"><strong>Win32_SystemEnclosure</strong></a> class, and the properties <strong>SerialNumber</strong> and <strong>SMBIOSAssetTag</strong>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -607,7 +607,7 @@ foreach ($objSMBIOS in $colSMBIOS)
 </tr>
 <tr class="odd">
 <td>...determine what kind of device is plugged into a USB port?</td>
-<td><p>Use the [<strong>Win32_USBHub</strong>](https://msdn.microsoft.com/library/aa394506) class and check the <strong>Description</strong> property. This property may have a value such as &quot;Mass Storage Device&quot; or &quot;Printing Support&quot;.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394506"><strong>Win32_USBHub</strong></a> class and check the <strong>Description</strong> property. This property may have a value such as &quot;Mass Storage Device&quot; or &quot;Printing Support&quot;.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -661,7 +661,7 @@ foreach ($objItem in $colItems)
 </tr>
 <tr class="even">
 <td>...determine how many tape drives are installed on a computer?</td>
-<td><p>Use the class [<strong>Win32_TapeDrive</strong>](https://msdn.microsoft.com/library/aa394491) class and then use the [<strong>SWbemObjectSet.Count</strong>](swbemobjectset-count.md) method. If Count = 0, then no tape drives are installed on the computer.</p>
+<td><p>Use the class <a href="https://msdn.microsoft.com/library/aa394491"><strong>Win32_TapeDrive</strong></a> class and then use the <a href="swbemobjectset-count"><strong>SWbemObjectSet.Count</strong></a> method. If Count = 0, then no tape drives are installed on the computer.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

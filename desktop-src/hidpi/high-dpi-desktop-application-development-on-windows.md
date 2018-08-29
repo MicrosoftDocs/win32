@@ -183,35 +183,35 @@ The table below shows the level of per-monitor DPI awareness support offered by 
 </ul></td>
 <td>1703</td>
 <td>Application</td>
-<td>[GitHub Sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow)</td>
+<td><a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub Sample</a></td>
 </tr>
 <tr class="odd">
 <td>Windows Forms</td>
 <td>Limited automatic per-monitor DPI scaling for some controls</td>
 <td>1703</td>
 <td>UI framework</td>
-<td>[High DPI Support in Windows Forms](https://msdn.microsoft.com/library/mt799789.aspx)</td>
+<td><a href="https://msdn.microsoft.com/library/mt799789.aspx">High DPI Support in Windows Forms</a></td>
 </tr>
 <tr class="even">
 <td>Windows Presentation Framework (WPF)</td>
 <td>Native WPF applications will DPI scale WPF hosted in other frameworks and other frameworks hosted in WPF do not automatically scale</td>
 <td>1604</td>
 <td>UI framework</td>
-<td>[GitHub Sample](https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI)</td>
+<td><a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub Sample</a></td>
 </tr>
 <tr class="odd">
 <td>GDI</td>
 <td>None</td>
 <td>N/A</td>
 <td>Application</td>
-<td>See [GDI High-DPI Scaling](https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/)</td>
+<td>See <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI High-DPI Scaling</a></td>
 </tr>
 <tr class="even">
 <td>GDI+</td>
 <td>None</td>
 <td>N/A</td>
 <td>Application</td>
-<td>See [GDI High-DPI Scaling](https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/)</td>
+<td>See <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI High-DPI Scaling</a></td>
 </tr>
 <tr class="odd">
 <td>MFC</td>

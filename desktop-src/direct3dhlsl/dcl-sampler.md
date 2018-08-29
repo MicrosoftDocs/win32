@@ -47,7 +47,7 @@ Declares a sampler register.
 </tr>
 <tr class="even">
 <td><span id="mode"></span><span id="MODE"></span><em>mode</em><br/></td>
-<td>[in] A sampler mode, which constrains which sampler states (listed in the members of [<strong>D3D10_SAMPLER_DESC</strong>](https://msdn.microsoft.com/library/windows/desktop/bb172415)) are honored. The modes and states are listed in the following table.<br/> 
+<td>[in] A sampler mode, which constrains which sampler states (listed in the members of <a href="https://msdn.microsoft.com/library/windows/desktop/bb172415"><strong>D3D10_SAMPLER_DESC</strong></a>) are honored. The modes and states are listed in the following table.<br/> 
 <table>
 <thead>
 <tr class="header">

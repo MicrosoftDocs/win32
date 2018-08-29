@@ -31,33 +31,33 @@ Network DDE provides functions that allow you to delete a share, get or set shar
 <tbody>
 <tr class="odd">
 <td>Delete a DDE share</td>
-<td>Use the [<strong>NDdeShareDel</strong>](nddesharedel.md) function.</td>
+<td>Use the <a href="nddesharedel"><strong>NDdeShareDel</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td>Get DDE share information</td>
-<td>Use the [<strong>NDdeShareGetInfo</strong>](nddesharegetinfo.md) function.</td>
+<td>Use the <a href="nddesharegetinfo"><strong>NDdeShareGetInfo</strong></a> function.</td>
 </tr>
 <tr class="odd">
 <td>Set DDE share information</td>
-<td>Use the [<strong>NDdeShareSetInfo</strong>](nddesharesetinfo.md) function.</td>
+<td>Use the <a href="nddesharesetinfo"><strong>NDdeShareSetInfo</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td>Enumerate DDE shares</td>
-<td>Use the [<strong>NDdeShareEnum</strong>](nddeshareenum.md) function. You can also enumerate the trusted DDE shares by using the [<strong>NDdeTrustedShareEnum</strong>](nddetrustedshareenum.md) function.<br/></td>
+<td>Use the <a href="nddeshareenum"><strong>NDdeShareEnum</strong></a> function. You can also enumerate the trusted DDE shares by using the <a href="nddetrustedshareenum"><strong>NDdeTrustedShareEnum</strong></a> function.<br/></td>
 </tr>
 <tr class="odd">
 <td>Enumerate connected users</td>
-<td>Use the [<strong>NetSessionEnum</strong>](https://msdn.microsoft.com/library/windows/desktop/bb525382) function.</td>
+<td>Use the <a href="https://msdn.microsoft.com/library/windows/desktop/bb525382"><strong>NetSessionEnum</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td>Change the DDE share name</td>
 <td>Delete the old share and create a new share.
 <p><img src="../common/wedge.gif" /><strong>To change the share name</strong><br/></p>
 <ol>
-<li>Retrieve the share information using [<strong>NDdeShareGetInfo</strong>](nddesharegetinfo.md).</li>
-<li>Remove the share using [<strong>NDdeShareDel</strong>](nddesharedel.md).</li>
-<li>Change the <strong>lpszShareName</strong> member of the [<strong>NDDESHAREINFO</strong>](nddeshareinfo-str.md) structure returned by [<strong>NDdeShareGetInfo</strong>](nddesharegetinfo.md).</li>
-<li>Pass the modified [<strong>NDDESHAREINFO</strong>](nddeshareinfo-str.md) structure to [<strong>NDdeShareAdd</strong>](nddeshareadd.md).</li>
+<li>Retrieve the share information using <a href="nddesharegetinfo"><strong>NDdeShareGetInfo</strong></a>.</li>
+<li>Remove the share using <a href="nddesharedel"><strong>NDdeShareDel</strong></a>.</li>
+<li>Change the <strong>lpszShareName</strong> member of the <a href="nddeshareinfo-str"><strong>NDDESHAREINFO</strong></a> structure returned by <a href="nddesharegetinfo"><strong>NDdeShareGetInfo</strong></a>.</li>
+<li>Pass the modified <a href="nddeshareinfo-str"><strong>NDDESHAREINFO</strong></a> structure to <a href="nddeshareadd"><strong>NDdeShareAdd</strong></a>.</li>
 </ol></td>
 </tr>
 </tbody>

@@ -65,7 +65,7 @@ The following table depicts a typical control and content view of the UI Automat
 <li>Image</li>
 </ul></td>
 <td><ul>
-<li>Image (Depends whether the image contains information, based on the value of the [<strong>UIA_IsContentElementPropertyId</strong>](uiauto-automation-element-propids.md) property)</li>
+<li>Image (Depends whether the image contains information, based on the value of the <a href="uiauto-automation-element-propids"><strong>UIA_IsContentElementPropertyId</strong></a> property)</li>
 </ul></td>
 </tr>
 </tbody>

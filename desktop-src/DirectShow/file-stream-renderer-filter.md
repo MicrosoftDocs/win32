@@ -25,7 +25,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 <tbody>
 <tr class="odd">
 <td>Filter interfaces</td>
-<td>[<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
 </tr>
 <tr class="even">
 <td>Input pin media types</td>
@@ -37,7 +37,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 </tr>
 <tr class="odd">
 <td>Input pin interfaces</td>
-<td>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Output pin media types</td>
@@ -45,7 +45,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 </tr>
 <tr class="odd">
 <td>Output pin interfaces</td>
-<td>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [<strong>IStreamBuilder</strong>](/windows/desktop/api/Strmif/nn-strmif-istreambuilder)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-istreambuilder"><strong>IStreamBuilder</strong></a></td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -56,11 +56,11 @@ The use of this filter is deprecated. To render multiple files within the same f
 <td>Quartz.dll</td>
 </tr>
 <tr class="even">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_UNLIKELY</td>
 </tr>
 <tr class="odd">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

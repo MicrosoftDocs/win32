@@ -81,7 +81,7 @@ If a key is missing or if it contains an invalid value, the entire configuration
                Linkage
                   Bind</code></pre></td>
 <td><strong>REG_MULTI_SZ</strong></td>
-<td>Lists the device names of all the NICs on which to bind by default (for example, \Device\AMDPCN1). If the key does not exist, the server will bind to all NICs. If the key does exist, the server will bind to the NICs specified in the key, unless the NICFlags field is set to RPC_C_BIND_TO_ALL_NICS. If the key has a null (&quot;&quot;) value, the configuration will be marked as invalid and all calls to <strong>RpcServerUseProtseq*</strong> over [<strong>ncacn_ip_tcp</strong>](https://msdn.microsoft.com/library/windows/desktop/aa367104) or [<strong>ncadg_ip_udp</strong>](https://msdn.microsoft.com/library/windows/desktop/aa367113) will fail.</td>
+<td>Lists the device names of all the NICs on which to bind by default (for example, \Device\AMDPCN1). If the key does not exist, the server will bind to all NICs. If the key does exist, the server will bind to the NICs specified in the key, unless the NICFlags field is set to RPC_C_BIND_TO_ALL_NICS. If the key has a null (&quot;&quot;) value, the configuration will be marked as invalid and all calls to <strong>RpcServerUseProtseq*</strong> over <a href="https://msdn.microsoft.com/library/windows/desktop/aa367104"><strong>ncacn_ip_tcp</strong></a> or <a href="https://msdn.microsoft.com/library/windows/desktop/aa367113"><strong>ncadg_ip_udp</strong></a> will fail.</td>
 </tr>
 </tbody>
 </table>

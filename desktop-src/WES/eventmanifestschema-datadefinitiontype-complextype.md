@@ -83,17 +83,17 @@ Defines a data item that you want to include with the event.
 <tbody>
 <tr class="odd">
 <td>count</td>
-<td>[<strong>CountType</strong>](eventmanifestschema-counttype-simpletype.md)</td>
+<td><a href="eventmanifestschema-counttype-simpletype"><strong>CountType</strong></a></td>
 <td>The number of elements in the array if the data item is an array. You can specify the actual count or the name of another data item that contains the count. <br/></td>
 </tr>
 <tr class="even">
 <td>inType</td>
 <td><strong>QName</strong></td>
-<td>The data type for this data item. For a list of predefined input data types, see the [<strong>InputType</strong>](eventmanifestschema-inputtype-complextype.md) complex type.<br/></td>
+<td>The data type for this data item. For a list of predefined input data types, see the <a href="eventmanifestschema-inputtype-complextype"><strong>InputType</strong></a> complex type.<br/></td>
 </tr>
 <tr class="odd">
 <td>length</td>
-<td>[<strong>LengthType</strong>](eventmanifestschema-lengthtype-simpletype.md)</td>
+<td><a href="eventmanifestschema-lengthtype-simpletype"><strong>LengthType</strong></a></td>
 <td>The length of a variable length data item, such as a binary blob. For binary data, specify the length in bytes and for string data, specify the length in characters. You can specify the actual length or the name of another data item that contains the length.<br/> If you use the length attribute to specify a fixed length string, you must pad the string to its fixed length allowing for the null-terminator character at the end (for example, if the length is 5, the string &quot;abc&quot; must be padded as &quot;abc &quot;. The string length must include the null-terminator character.<br/></td>
 </tr>
 <tr class="even">
@@ -109,12 +109,12 @@ Defines a data item that you want to include with the event.
 <tr class="odd">
 <td>name</td>
 <td>string</td>
-<td>The name of the data item. You can use the name to reference this data item in your XML fragment if you specify a [<strong>UserData</strong>](eventmanifestschema-userdata-templateitemtype-element.md) section in your template. You can also reference this name in a length or count attribute of another data item if this data item contains its length or count value.<br/> <strong>Windows Vista:</strong> This attribute is optional.<br/></td>
+<td>The name of the data item. You can use the name to reference this data item in your XML fragment if you specify a <a href="eventmanifestschema-userdata-templateitemtype-element"><strong>UserData</strong></a> section in your template. You can also reference this name in a length or count attribute of another data item if this data item contains its length or count value.<br/> <strong>Windows Vista:</strong> This attribute is optional.<br/></td>
 </tr>
 <tr class="even">
 <td>outType</td>
 <td><strong>QName</strong></td>
-<td>The data type to use when rendering this data item. For a list of predefined output data types, see the [<strong>OutputType</strong>](eventmanifestschema-outputtype-complextype.md) complex type.<br/> <strong>Windows Vista:</strong> The output type is ignored, and the service determines the type based on the input type.<br/></td>
+<td>The data type to use when rendering this data item. For a list of predefined output data types, see the <a href="eventmanifestschema-outputtype-complextype"><strong>OutputType</strong></a> complex type.<br/> <strong>Windows Vista:</strong> The output type is ignored, and the service determines the type based on the input type.<br/></td>
 </tr>
 </tbody>
 </table>

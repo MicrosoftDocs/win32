@@ -32,21 +32,21 @@ The DirectShow EVR filter is documented in the Media Foundation SDK documentatio
 <td>Filter Interfaces (through <strong>QueryInterface</strong>)</td>
 <td>DirectShow interfaces:
 <ul>
-<li>[<strong>IAMCertifiedOutputProtection</strong>](/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection)</li>
-<li>[<strong>IAMFilterMiscFlags</strong>](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags)</li>
-<li>[<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)</li>
-<li>[<strong>IKsPropertySet</strong>](ikspropertyset.md)</li>
-<li>[<strong>IMediaEventSink</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink)</li>
-<li>[<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)</li>
-<li>[<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</li>
-<li>[<strong>IQualProp</strong>](/windows/desktop/api/Amvideo/nn-amvideo-iqualprop)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>IAMCertifiedOutputProtection</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>IAMFilterMiscFlags</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li>
+<li><a href="ikspropertyset"><strong>IKsPropertySet</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>IMediaEventSink</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
+<li><a href="/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a></li>
 </ul>
 Media Foundation interfaces:<br/>
 <ul>
-<li>[<strong>IEVRFilterConfig</strong>](https://msdn.microsoft.com/library/windows/desktop/ms694298)</li>
-<li>[<strong>IMFGetService</strong>](https://msdn.microsoft.com/library/windows/desktop/ms694261)</li>
-<li>[<strong>IMFVideoPositionMapper</strong>](https://msdn.microsoft.com/library/windows/desktop/ms695386)</li>
-<li>[<strong>IMFVideoRenderer</strong>](https://msdn.microsoft.com/library/windows/desktop/ms698954)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms694298"><strong>IEVRFilterConfig</strong></a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms694261"><strong>IMFGetService</strong></a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms695386"><strong>IMFVideoPositionMapper</strong></a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms698954"><strong>IMFVideoRenderer</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -57,15 +57,15 @@ Media Foundation interfaces:<br/>
 <td>Input Pin Interfaces (through <strong>QueryInterface</strong>)</td>
 <td>DirectShow interfaces:
 <ul>
-<li>[<strong>IMemInputPin</strong>](/windows/desktop/api/Strmif/nn-strmif-imeminputpin)</li>
-<li>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin)</li>
-<li>[<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
 </ul>
 Media Foundation interfaces:<br/>
 <ul>
-<li>[<strong>IDirectXVideoMemoryConfiguration</strong>](https://msdn.microsoft.com/library/windows/desktop/ms703164)</li>
-<li>[<strong>IEVRVideoStreamControl</strong>](https://msdn.microsoft.com/library/windows/desktop/ms704789)</li>
-<li>[<strong>IMFGetService</strong>](https://msdn.microsoft.com/library/windows/desktop/ms694261)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms703164"><strong>IDirectXVideoMemoryConfiguration</strong></a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms704789"><strong>IEVRVideoStreamControl</strong></a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/ms694261"><strong>IMFGetService</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -85,11 +85,11 @@ Media Foundation interfaces:<br/>
 <td>evr.dll</td>
 </tr>
 <tr class="even">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_DO_NOT_USE</td>
 </tr>
 <tr class="odd">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

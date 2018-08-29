@@ -58,7 +58,7 @@ The following table describes the toolbar buttons:
 <td>Rate bar. Shows the current playback rate. Use this bar to increase or decrease the rate.<br/>
 <blockquote>
 [!Note]<br />
-The playback rate depends on the rates that are supported by the topology. For more information about rate control support in Media Foundation and the associated APIs, see [Rate Control](rate-control.md).
+The playback rate depends on the rates that are supported by the topology. For more information about rate control support in Media Foundation and the associated APIs, see <a href="rate-control">Rate Control</a>.
 </blockquote>
 <br/></td>
 </tr>

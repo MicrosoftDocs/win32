@@ -146,12 +146,12 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="even">
 <td>AlphaBlendEnable</td>
 <td>bool</td>
-<td>True or False. Same values as D3DRS_ALPHABLENDENABLE in [<strong>D3DRENDERSTATETYPE</strong>](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx).</td>
+<td>True or False. Same values as D3DRS_ALPHABLENDENABLE in <a href="https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx"><strong>D3DRENDERSTATETYPE</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>AlphaFunc</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DCMPFUNC</strong>](https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx) without the D3DCMP_ prefix. See D3DRS_ALPHAFUNC.</td>
+<td>Same values as <a href="https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ALPHAFUNC.</td>
 </tr>
 <tr class="even">
 <td>AlphaRef</td>
@@ -166,7 +166,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="even">
 <td>BlendOp</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DBLENDOP</strong>](https://msdn.microsoft.com/en-us/library/Bb172509(v=VS.85).aspx) without the D3DBLENDOP_ prefix.</td>
+<td>Same values as <a href="https://msdn.microsoft.com/en-us/library/Bb172509(v=VS.85).aspx"><strong>D3DBLENDOP</strong></a> without the D3DBLENDOP_ prefix.</td>
 </tr>
 <tr class="odd">
 <td>ColorWriteEnable</td>
@@ -181,7 +181,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>DestBlend</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DBLEND</strong>](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx) without the D3DBLEND_ prefix.</td>
+<td>Same values as <a href="https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx"><strong>D3DBLEND</strong></a> without the D3DBLEND_ prefix.</td>
 </tr>
 <tr class="even">
 <td>DitherEnable</td>
@@ -191,7 +191,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>FillMode</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DFILLMODE</strong>](https://msdn.microsoft.com/en-us/library/Bb172556(v=VS.85).aspx) without the D3DFILL_ prefix.</td>
+<td>Same values as <a href="https://msdn.microsoft.com/en-us/library/Bb172556(v=VS.85).aspx"><strong>D3DFILLMODE</strong></a> without the D3DFILL_ prefix.</td>
 </tr>
 <tr class="even">
 <td>LastPixel</td>
@@ -201,7 +201,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>ShadeMode</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DSHADEMODE</strong>](https://msdn.microsoft.com/en-us/library/Bb172605(v=VS.85).aspx) without the D3DSHADE_ prefix.</td>
+<td>Same values as <a href="https://msdn.microsoft.com/en-us/library/Bb172605(v=VS.85).aspx"><strong>D3DSHADEMODE</strong></a> without the D3DSHADE_ prefix.</td>
 </tr>
 <tr class="even">
 <td>SlopeScaleDepthBias</td>
@@ -211,7 +211,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>SrcBlend</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DBLEND</strong>](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx) without the D3DBLEND_ prefix.</td>
+<td>Same values as <a href="https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx"><strong>D3DBLEND</strong></a> without the D3DBLEND_ prefix.</td>
 </tr>
 <tr class="even">
 <td>StencilEnable</td>
@@ -221,12 +221,12 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>StencilFail</td>
 <td>dword</td>
-<td>Same values as [D3DSTENCILCAPS](d3dstencilcaps.md) without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILFAIL.</td>
+<td>Same values as <a href="d3dstencilcaps">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILFAIL.</td>
 </tr>
 <tr class="even">
 <td>StencilFunc</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DCMPFUNC</strong>](https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx) without the D3DCMP_ prefix. See D3DRS_STENCILFUNC.</td>
+<td>Same values as <a href="https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_STENCILFUNC.</td>
 </tr>
 <tr class="odd">
 <td>StencilMask</td>
@@ -236,7 +236,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="even">
 <td>StencilPass</td>
 <td>dword</td>
-<td>Same values as [D3DSTENCILCAPS](d3dstencilcaps.md) without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILPASS.</td>
+<td>Same values as <a href="d3dstencilcaps">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILPASS.</td>
 </tr>
 <tr class="odd">
 <td>StencilRef</td>
@@ -251,12 +251,12 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>StencilZFail</td>
 <td>dword</td>
-<td>Same values as [D3DSTENCILCAPS](d3dstencilcaps.md) without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILZFAIL.</td>
+<td>Same values as <a href="d3dstencilcaps">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILZFAIL.</td>
 </tr>
 <tr class="even">
 <td>TextureFactor</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DCOLOR</strong>](d3dcolor.md). Same values as D3DRS_TEXTUREFACTOR.</td>
+<td>Same values as <a href="d3dcolor"><strong>D3DCOLOR</strong></a>. Same values as D3DRS_TEXTUREFACTOR.</td>
 </tr>
 <tr class="odd">
 <td>Wrap0 - Wrap15</td>
@@ -275,12 +275,12 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="even">
 <td>ZEnable</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DZBUFFERTYPE</strong>](https://msdn.microsoft.com/en-us/library/Bb205568(v=VS.85).aspx) without the D3DZB_ prefix.</td>
+<td>Same values as <a href="https://msdn.microsoft.com/en-us/library/Bb205568(v=VS.85).aspx"><strong>D3DZBUFFERTYPE</strong></a> without the D3DZB_ prefix.</td>
 </tr>
 <tr class="odd">
 <td>ZFunc</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DCMPFUNC</strong>](https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx) without the D3DCMP_ prefix. See D3DRS_ZFUNC.</td>
+<td>Same values as <a href="https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ZFUNC.</td>
 </tr>
 <tr class="even">
 <td>ZWriteEnable</td>

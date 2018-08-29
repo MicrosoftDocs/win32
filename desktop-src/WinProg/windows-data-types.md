@@ -215,7 +215,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="ATOM"></span><span id="atom"></span><strong>ATOM</strong></td>
-<td>An atom. For more information, see [About Atom Tables](https://msdn.microsoft.com/library/windows/desktop/ms649053).<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef WORD ATOM;</code><br/></td>
+<td>An atom. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/ms649053">About Atom Tables</a>.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef WORD ATOM;</code><br/></td>
 </tr>
 <tr class="odd">
 <td><span id="BOOL"></span><span id="bool"></span><strong>BOOL</strong></td>
@@ -239,11 +239,11 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="CHAR"></span><span id="char"></span><strong>CHAR</strong></td>
-<td>An 8-bit Windows (ANSI) character. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).<br/> This type is declared in WinNT.h as follows:<br/> <code>typedef char CHAR;</code><br/></td>
+<td>An 8-bit Windows (ANSI) character. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.<br/> This type is declared in WinNT.h as follows:<br/> <code>typedef char CHAR;</code><br/></td>
 </tr>
 <tr class="odd">
 <td><span id="COLORREF"></span><span id="colorref"></span><strong>COLORREF</strong></td>
-<td>The red, green, blue (RGB) color value (32 bits). See [<strong>COLORREF</strong>](https://msdn.microsoft.com/library/windows/desktop/dd183449) for information on this type.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef DWORD COLORREF;</code><br/></td>
+<td>The red, green, blue (RGB) color value (32 bits). See <a href="https://msdn.microsoft.com/library/windows/desktop/dd183449"><strong>COLORREF</strong></a> for information on this type.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef DWORD COLORREF;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="CONST"></span><span id="const"></span><strong>CONST</strong></td>
@@ -275,7 +275,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HACCEL"></span><span id="haccel"></span><strong>HACCEL</strong></td>
-<td>A handle to an [accelerator table](https://msdn.microsoft.com/library/ms645526(v=VS.85).aspx).<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef HANDLE HACCEL;</code><br/></td>
+<td>A handle to an <a href="https://msdn.microsoft.com/library/ms645526(v=VS.85).aspx">accelerator table</a>.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef HANDLE HACCEL;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="HALF_PTR"></span><span id="half_ptr"></span><strong>HALF_PTR</strong></td>
@@ -309,19 +309,19 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HBITMAP"></span><span id="hbitmap"></span><strong>HBITMAP</strong></td>
-<td><p>A handle to a [bitmap](https://msdn.microsoft.com/library/windows/desktop/dd183377).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd183377">bitmap</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HBITMAP;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HBRUSH"></span><span id="hbrush"></span><strong>HBRUSH</strong></td>
-<td><p>A handle to a [brush](https://msdn.microsoft.com/library/windows/desktop/dd183394).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd183394">brush</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HBRUSH;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="HCOLORSPACE"></span><span id="hcolorspace"></span><strong>HCOLORSPACE</strong></td>
-<td><p>A handle to a [color space](https://msdn.microsoft.com/en-us/library/Dd316799(v=VS.85).aspx).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/en-us/library/Dd316799(v=VS.85).aspx">color space</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HCOLORSPACE;</code></p></td>
 </tr>
@@ -339,13 +339,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HCURSOR"></span><span id="hcursor"></span><strong>HCURSOR</strong></td>
-<td><p>A handle to a [cursor](https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">cursor</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HICON HCURSOR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="HDC"></span><span id="hdc"></span><strong>HDC</strong></td>
-<td><p>A handle to a [device context](https://msdn.microsoft.com/library/windows/desktop/dd183560) (DC).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd183560">device context</a> (DC).</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HDC;</code></p></td>
 </tr>
@@ -357,7 +357,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HDESK"></span><span id="hdesk"></span><strong>HDESK</strong></td>
-<td><p>A handle to a [desktop](https://msdn.microsoft.com/library/windows/desktop/ms682573).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/windows/desktop/ms682573">desktop</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HDESK;</code></p></td>
 </tr>
@@ -375,19 +375,19 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HENHMETAFILE"></span><span id="henhmetafile"></span><strong>HENHMETAFILE</strong></td>
-<td><p>A handle to an [enhanced metafile](https://msdn.microsoft.com/library/windows/desktop/dd145051).</p>
+<td><p>A handle to an <a href="https://msdn.microsoft.com/library/windows/desktop/dd145051">enhanced metafile</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HENHMETAFILE;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="HFILE"></span><span id="hfile"></span><strong>HFILE</strong></td>
-<td><p>A handle to a file opened by [<strong>OpenFile</strong>](https://msdn.microsoft.com/library/windows/desktop/aa365430), not [<strong>CreateFile</strong>](https://msdn.microsoft.com/library/windows/desktop/aa363858).</p>
+<td><p>A handle to a file opened by <a href="https://msdn.microsoft.com/library/windows/desktop/aa365430"><strong>OpenFile</strong></a>, not <a href="https://msdn.microsoft.com/library/windows/desktop/aa363858"><strong>CreateFile</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef int HFILE;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HFONT"></span><span id="hfont"></span><strong>HFONT</strong></td>
-<td><p>A handle to a [font](https://msdn.microsoft.com/library/windows/desktop/dd162470).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd162470">font</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HFONT;</code></p></td>
 </tr>
@@ -405,13 +405,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HHOOK"></span><span id="hhook"></span><strong>HHOOK</strong></td>
-<td><p>A handle to a [hook](https://msdn.microsoft.com/library/ms632589(v=VS.85).aspx).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/ms632589(v=VS.85).aspx">hook</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HHOOK;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HICON"></span><span id="hicon"></span><strong>HICON</strong></td>
-<td><p>A handle to an [icon](https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx).</p>
+<td><p>A handle to an <a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">icon</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HICON;</code></p></td>
 </tr>
@@ -442,13 +442,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HMENU"></span><span id="hmenu"></span><strong>HMENU</strong></td>
-<td><p>A handle to a [menu](https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">menu</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HMENU;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HMETAFILE"></span><span id="hmetafile"></span><strong>HMETAFILE</strong></td>
-<td><p>A handle to a [metafile](https://msdn.microsoft.com/library/windows/desktop/dd145051).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd145051">metafile</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HMETAFILE;</code></p></td>
 </tr>
@@ -473,19 +473,19 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HPEN"></span><span id="hpen"></span><strong>HPEN</strong></td>
-<td><p>A handle to a [pen](https://msdn.microsoft.com/library/windows/desktop/dd162786).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd162786">pen</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HPEN;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="HRESULT"></span><span id="hresult"></span><strong>HRESULT</strong></td>
-<td><p>The return codes used by COM interfaces. For more information, see [Structure of the COM Error Codes](https://msdn.microsoft.com/en-us/library/ms690088(v=VS.85).aspx). To test an <strong>HRESULT</strong> value, use the [<strong>FAILED</strong>](https://msdn.microsoft.com/en-us/library/ms693474(v=VS.85).aspx) and [<strong>SUCCEEDED</strong>](https://msdn.microsoft.com/en-us/library/ms687197(v=VS.85).aspx) macros.</p>
+<td><p>The return codes used by COM interfaces. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690088(v=VS.85).aspx">Structure of the COM Error Codes</a>. To test an <strong>HRESULT</strong> value, use the <a href="https://msdn.microsoft.com/en-us/library/ms693474(v=VS.85).aspx"><strong>FAILED</strong></a> and <a href="https://msdn.microsoft.com/en-us/library/ms687197(v=VS.85).aspx"><strong>SUCCEEDED</strong></a> macros.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef LONG HRESULT;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HRGN"></span><span id="hrgn"></span><strong>HRGN</strong></td>
-<td><p>A handle to a [region](https://msdn.microsoft.com/library/windows/desktop/dd162913).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd162913">region</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HRGN;</code></p></td>
 </tr>
@@ -503,13 +503,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HWINSTA"></span><span id="hwinsta"></span><strong>HWINSTA</strong></td>
-<td><p>A handle to a [window station](https://msdn.microsoft.com/library/windows/desktop/ms687096).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/windows/desktop/ms687096">window station</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE WINSTA;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HWND"></span><span id="hwnd"></span><strong>HWND</strong></td>
-<td><p>A handle to a [window](https://msdn.microsoft.com/library/ms632595(v=VS.85).aspx).</p>
+<td><p>A handle to a <a href="https://msdn.microsoft.com/library/ms632595(v=VS.85).aspx">window</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HWND;</code></p></td>
 </tr>
@@ -573,25 +573,25 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="LANGID"></span><span id="langid"></span><strong>LANGID</strong></td>
-<td><p>A language identifier. For more information, see [Language Identifiers](https://msdn.microsoft.com/library/windows/desktop/dd318691).</p>
+<td><p>A language identifier. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd318691">Language Identifiers</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef WORD LANGID;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LCID"></span><span id="lcid"></span><strong>LCID</strong></td>
-<td><p>A locale identifier. For more information, see [Locale Identifiers](https://msdn.microsoft.com/library/windows/desktop/dd373763).</p>
+<td><p>A locale identifier. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd373763">Locale Identifiers</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef DWORD LCID;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LCTYPE"></span><span id="lctype"></span><strong>LCTYPE</strong></td>
-<td><p>A locale information type. For a list, see [Locale Information Constants](https://msdn.microsoft.com/library/windows/desktop/dd464799).</p>
+<td><p>A locale information type. For a list, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd464799">Locale Information Constants</a>.</p>
 <p>This type is declared in WinNls.h as follows:</p>
 <p><code>typedef DWORD LCTYPE;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LGRPID"></span><span id="lgrpid"></span><strong>LGRPID</strong></td>
-<td><p>A language group identifier. For a list, see [<strong>EnumLanguageGroupLocales</strong>](https://msdn.microsoft.com/library/windows/desktop/dd317819).</p>
+<td><p>A language group identifier. For a list, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd317819"><strong>EnumLanguageGroupLocales</strong></a>.</p>
 <p>This type is declared in WinNls.h as follows:</p>
 <p><code>typedef DWORD LGRPID;</code></p></td>
 </tr>
@@ -677,31 +677,31 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="LPBOOL"></span><span id="lpbool"></span><strong>LPBOOL</strong></td>
-<td><p>A pointer to a [<strong>BOOL</strong>](#bool).</p>
+<td><p>A pointer to a <a href="#bool"><strong>BOOL</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef BOOL far *LPBOOL;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LPBYTE"></span><span id="lpbyte"></span><strong>LPBYTE</strong></td>
-<td><p>A pointer to a [<strong>BYTE</strong>](#byte).</p>
+<td><p>A pointer to a <a href="#byte"><strong>BYTE</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef BYTE far *LPBYTE;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPCOLORREF"></span><span id="lpcolorref"></span><strong>LPCOLORREF</strong></td>
-<td><p>A pointer to a [<strong>COLORREF</strong>](https://msdn.microsoft.com/library/windows/desktop/dd183449) value.</p>
+<td><p>A pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd183449"><strong>COLORREF</strong></a> value.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef DWORD *LPCOLORREF;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LPCSTR"></span><span id="lpcstr"></span><strong>LPCSTR</strong></td>
-<td><p>A pointer to a constant null-terminated string of 8-bit Windows (ANSI) characters. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).</p>
+<td><p>A pointer to a constant null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef __nullterminated CONST CHAR *LPCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPCTSTR"></span><span id="lpctstr"></span><strong>LPCTSTR</strong></td>
-<td><p>An [<strong>LPCWSTR</strong>](#lpcwstr) if <strong>UNICODE</strong> is defined, an [<strong>LPCSTR</strong>](#lpcstr) otherwise. For more information, see [Windows Data Types for Strings](https://msdn.microsoft.com/library/windows/desktop/dd374131).</p>
+<td><p>An <a href="#lpcwstr"><strong>LPCWSTR</strong></a> if <strong>UNICODE</strong> is defined, an <a href="#lpcstr"><strong>LPCSTR</strong></a> otherwise. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd374131">Windows Data Types for Strings</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -735,43 +735,43 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="LPCWSTR"></span><span id="lpcwstr"></span><strong>LPCWSTR</strong></td>
-<td><p>A pointer to a constant null-terminated string of 16-bit Unicode characters. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).</p>
+<td><p>A pointer to a constant null-terminated string of 16-bit Unicode characters. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CONST WCHAR *LPCWSTR;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LPDWORD"></span><span id="lpdword"></span><strong>LPDWORD</strong></td>
-<td><p>A pointer to a [<strong>DWORD</strong>](#dword).</p>
+<td><p>A pointer to a <a href="#dword"><strong>DWORD</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef DWORD *LPDWORD;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPHANDLE"></span><span id="lphandle"></span><strong>LPHANDLE</strong></td>
-<td><p>A pointer to a [<strong>HANDLE</strong>](#handle).</p>
+<td><p>A pointer to a <a href="#handle"><strong>HANDLE</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE *LPHANDLE;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LPINT"></span><span id="lpint"></span><strong>LPINT</strong></td>
-<td><p>A pointer to an [<strong>INT</strong>](#int).</p>
+<td><p>A pointer to an <a href="#int"><strong>INT</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef int *LPINT;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPLONG"></span><span id="lplong"></span><strong>LPLONG</strong></td>
-<td><p>A pointer to a [<strong>LONG</strong>](#long).</p>
+<td><p>A pointer to a <a href="#long"><strong>LONG</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef long *LPLONG;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LPSTR"></span><span id="lpstr"></span><strong>LPSTR</strong></td>
-<td><p>A pointer to a null-terminated string of 8-bit Windows (ANSI) characters. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).</p>
+<td><p>A pointer to a null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CHAR *LPSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPTSTR"></span><span id="lptstr"></span><strong>LPTSTR</strong></td>
-<td><p>An [<strong>LPWSTR</strong>](#lpwstr) if <strong>UNICODE</strong> is defined, an [<strong>LPSTR</strong>](#lpstr) otherwise. For more information, see [Windows Data Types for Strings](https://msdn.microsoft.com/library/windows/desktop/dd374131).</p>
+<td><p>An <a href="#lpwstr"><strong>LPWSTR</strong></a> if <strong>UNICODE</strong> is defined, an <a href="#lpstr"><strong>LPSTR</strong></a> otherwise. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd374131">Windows Data Types for Strings</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -805,13 +805,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="LPWORD"></span><span id="lpword"></span><strong>LPWORD</strong></td>
-<td><p>A pointer to a [<strong>WORD</strong>](#word).</p>
+<td><p>A pointer to a <a href="#word"><strong>WORD</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef WORD *LPWORD;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LPWSTR"></span><span id="lpwstr"></span><strong>LPWSTR</strong></td>
-<td><p>A pointer to a null-terminated string of 16-bit Unicode characters. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).</p>
+<td><p>A pointer to a null-terminated string of 16-bit Unicode characters. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef WCHAR *LPWSTR;</code></p></td>
 </tr>
@@ -823,37 +823,37 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PBOOL"></span><span id="pbool"></span><strong>PBOOL</strong></td>
-<td><p>A pointer to a [<strong>BOOL</strong>](#bool).</p>
+<td><p>A pointer to a <a href="#bool"><strong>BOOL</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef BOOL *PBOOL;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PBOOLEAN"></span><span id="pboolean"></span><strong>PBOOLEAN</strong></td>
-<td><p>A pointer to a [<strong>BOOLEAN</strong>](#boolean).</p>
+<td><p>A pointer to a <a href="#boolean"><strong>BOOLEAN</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef BOOLEAN *PBOOLEAN;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PBYTE"></span><span id="pbyte"></span><strong>PBYTE</strong></td>
-<td><p>A pointer to a [<strong>BYTE</strong>](#byte).</p>
+<td><p>A pointer to a <a href="#byte"><strong>BYTE</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef BYTE *PBYTE;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PCHAR"></span><span id="pchar"></span><strong>PCHAR</strong></td>
-<td><p>A pointer to a [<strong>CHAR</strong>](#char).</p>
+<td><p>A pointer to a <a href="#char"><strong>CHAR</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CHAR *PCHAR;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PCSTR"></span><span id="pcstr"></span><strong>PCSTR</strong></td>
-<td><p>A pointer to a constant null-terminated string of 8-bit Windows (ANSI) characters. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).</p>
+<td><p>A pointer to a constant null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CONST CHAR *PCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PCTSTR"></span><span id="pctstr"></span><strong>PCTSTR</strong></td>
-<td><p>A [<strong>PCWSTR</strong>](#pcwstr) if <strong>UNICODE</strong> is defined, a [<strong>PCSTR</strong>](#pcstr) otherwise. For more information, see [Windows Data Types for Strings](https://msdn.microsoft.com/library/windows/desktop/dd374131).</p>
+<td><p>A <a href="#pcwstr"><strong>PCWSTR</strong></a> if <strong>UNICODE</strong> is defined, a <a href="#pcstr"><strong>PCSTR</strong></a> otherwise. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd374131">Windows Data Types for Strings</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -881,49 +881,49 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PCWSTR"></span><span id="pcwstr"></span><strong>PCWSTR</strong></td>
-<td><p>A pointer to a constant null-terminated string of 16-bit Unicode characters. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).</p>
+<td><p>A pointer to a constant null-terminated string of 16-bit Unicode characters. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CONST WCHAR *PCWSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PDWORD"></span><span id="pdword"></span><strong>PDWORD</strong></td>
-<td><p>A pointer to a [<strong>DWORD</strong>](#dword).</p>
+<td><p>A pointer to a <a href="#dword"><strong>DWORD</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef DWORD *PDWORD;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PDWORDLONG"></span><span id="pdwordlong"></span><strong>PDWORDLONG</strong></td>
-<td><p>A pointer to a [<strong>DWORDLONG</strong>](#dwordlong).</p>
+<td><p>A pointer to a <a href="#dwordlong"><strong>DWORDLONG</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef DWORDLONG *PDWORDLONG;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PDWORD_PTR"></span><span id="pdword_ptr"></span><strong>PDWORD_PTR</strong></td>
-<td><p>A pointer to a [<strong>DWORD_PTR</strong>](#dword-ptr).</p>
+<td><p>A pointer to a <a href="#dword-ptr"><strong>DWORD_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef DWORD_PTR *PDWORD_PTR;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PDWORD32"></span><span id="pdword32"></span><strong>PDWORD32</strong></td>
-<td><p>A pointer to a [<strong>DWORD32</strong>](#dword32).</p>
+<td><p>A pointer to a <a href="#dword32"><strong>DWORD32</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef DWORD32 *PDWORD32;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PDWORD64"></span><span id="pdword64"></span><strong>PDWORD64</strong></td>
-<td><p>A pointer to a [<strong>DWORD64</strong>](#dword64).</p>
+<td><p>A pointer to a <a href="#dword64"><strong>DWORD64</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef DWORD64 *PDWORD64;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PFLOAT"></span><span id="pfloat"></span><strong>PFLOAT</strong></td>
-<td><p>A pointer to a [<strong>FLOAT</strong>](#float).</p>
+<td><p>A pointer to a <a href="#float"><strong>FLOAT</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef FLOAT *PFLOAT;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PHALF_PTR"></span><span id="phalf_ptr"></span><strong>PHALF_PTR</strong></td>
-<td><p>A pointer to a [<strong>HALF_PTR</strong>](#half-ptr).</p>
+<td><p>A pointer to a <a href="#half-ptr"><strong>HALF_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -951,85 +951,85 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PHANDLE"></span><span id="phandle"></span><strong>PHANDLE</strong></td>
-<td><p>A pointer to a [<strong>HANDLE</strong>](#handle).</p>
+<td><p>A pointer to a <a href="#handle"><strong>HANDLE</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef HANDLE *PHANDLE;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PHKEY"></span><span id="phkey"></span><strong>PHKEY</strong></td>
-<td><p>A pointer to an [<strong>HKEY</strong>](#hkey).</p>
+<td><p>A pointer to an <a href="#hkey"><strong>HKEY</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HKEY *PHKEY;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PINT"></span><span id="pint"></span><strong>PINT</strong></td>
-<td><p>A pointer to an [<strong>INT</strong>](#int).</p>
+<td><p>A pointer to an <a href="#int"><strong>INT</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef int *PINT;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PINT_PTR"></span><span id="pint_ptr"></span><strong>PINT_PTR</strong></td>
-<td><p>A pointer to an [<strong>INT_PTR</strong>](#int-ptr).</p>
+<td><p>A pointer to an <a href="#int-ptr"><strong>INT_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef INT_PTR *PINT_PTR;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PINT8"></span><span id="pint8"></span><strong>PINT8</strong></td>
-<td><p>A pointer to an [<strong>INT8</strong>](#int8).</p>
+<td><p>A pointer to an <a href="#int8"><strong>INT8</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef INT8 *PINT8;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PINT16"></span><span id="pint16"></span><strong>PINT16</strong></td>
-<td><p>A pointer to an [<strong>INT16</strong>](#int16).</p>
+<td><p>A pointer to an <a href="#int16"><strong>INT16</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef INT16 *PINT16;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PINT32"></span><span id="pint32"></span><strong>PINT32</strong></td>
-<td><p>A pointer to an [<strong>INT32</strong>](#int32).</p>
+<td><p>A pointer to an <a href="#int32"><strong>INT32</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef INT32 *PINT32;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PINT64"></span><span id="pint64"></span><strong>PINT64</strong></td>
-<td><p>A pointer to an [<strong>INT64</strong>](#int64).</p>
+<td><p>A pointer to an <a href="#int64"><strong>INT64</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef INT64 *PINT64;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PLCID"></span><span id="plcid"></span><strong>PLCID</strong></td>
-<td><p>A pointer to an [<strong>LCID</strong>](#lcid).</p>
+<td><p>A pointer to an <a href="#lcid"><strong>LCID</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef PDWORD PLCID;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PLONG"></span><span id="plong"></span><strong>PLONG</strong></td>
-<td><p>A pointer to a [<strong>LONG</strong>](#long).</p>
+<td><p>A pointer to a <a href="#long"><strong>LONG</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef LONG *PLONG;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PLONGLONG"></span><span id="plonglong"></span><strong>PLONGLONG</strong></td>
-<td><p>A pointer to a [<strong>LONGLONG</strong>](#longlong).</p>
+<td><p>A pointer to a <a href="#longlong"><strong>LONGLONG</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef LONGLONG *PLONGLONG;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PLONG_PTR"></span><span id="plong_ptr"></span><strong>PLONG_PTR</strong></td>
-<td><p>A pointer to a [<strong>LONG_PTR</strong>](#long-ptr).</p>
+<td><p>A pointer to a <a href="#long-ptr"><strong>LONG_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef LONG_PTR *PLONG_PTR;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PLONG32"></span><span id="plong32"></span><strong>PLONG32</strong></td>
-<td><p>A pointer to a [<strong>LONG32</strong>](#long32).</p>
+<td><p>A pointer to a <a href="#long32"><strong>LONG32</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef LONG32 *PLONG32;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PLONG64"></span><span id="plong64"></span><strong>PLONG64</strong></td>
-<td><p>A pointer to a [<strong>LONG64</strong>](#long64).</p>
+<td><p>A pointer to a <a href="#long64"><strong>LONG64</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef LONG64 *PLONG64;</code></p></td>
 </tr>
@@ -1104,43 +1104,43 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PSHORT"></span><span id="pshort"></span><strong>PSHORT</strong></td>
-<td><p>A pointer to a [<strong>SHORT</strong>](#short).</p>
+<td><p>A pointer to a <a href="#short"><strong>SHORT</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef SHORT *PSHORT;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PSIZE_T"></span><span id="psize_t"></span><strong>PSIZE_T</strong></td>
-<td><p>A pointer to a [<strong>SIZE_T</strong>](#size-t).</p>
+<td><p>A pointer to a <a href="#size-t"><strong>SIZE_T</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef SIZE_T *PSIZE_T;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PSSIZE_T"></span><span id="pssize_t"></span><strong>PSSIZE_T</strong></td>
-<td><p>A pointer to a [<strong>SSIZE_T</strong>](#ssize-t).</p>
+<td><p>A pointer to a <a href="#ssize-t"><strong>SSIZE_T</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef SSIZE_T *PSSIZE_T;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PSTR"></span><span id="pstr"></span><strong>PSTR</strong></td>
-<td><p>A pointer to a null-terminated string of 8-bit Windows (ANSI) characters. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).</p>
+<td><p>A pointer to a null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CHAR *PSTR;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PTBYTE"></span><span id="ptbyte"></span><strong>PTBYTE</strong></td>
-<td><p>A pointer to a [<strong>TBYTE</strong>](#tbyte).</p>
+<td><p>A pointer to a <a href="#tbyte"><strong>TBYTE</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef TBYTE *PTBYTE;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PTCHAR"></span><span id="ptchar"></span><strong>PTCHAR</strong></td>
-<td><p>A pointer to a [<strong>TCHAR</strong>](#tchar).</p>
+<td><p>A pointer to a <a href="#tchar"><strong>TCHAR</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef TCHAR *PTCHAR;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PTSTR"></span><span id="ptstr"></span><strong>PTSTR</strong></td>
-<td><p>A [<strong>PWSTR</strong>](#pwstr) if <strong>UNICODE</strong> is defined, a [<strong>PSTR</strong>](#pstr) otherwise. For more information, see [Windows Data Types for Strings](https://msdn.microsoft.com/library/windows/desktop/dd374131).</p>
+<td><p>A <a href="#pwstr"><strong>PWSTR</strong></a> if <strong>UNICODE</strong> is defined, a <a href="#pstr"><strong>PSTR</strong></a> otherwise. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd374131">Windows Data Types for Strings</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1167,13 +1167,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="PUCHAR"></span><span id="puchar"></span><strong>PUCHAR</strong></td>
-<td><p>A pointer to a [<strong>UCHAR</strong>](#uchar).</p>
+<td><p>A pointer to a <a href="#uchar"><strong>UCHAR</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef UCHAR *PUCHAR;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PUHALF_PTR"></span><span id="puhalf_ptr"></span><strong>PUHALF_PTR</strong></td>
-<td><p>A pointer to a [<strong>UHALF_PTR</strong>](#uhalf-ptr).</p>
+<td><p>A pointer to a <a href="#uhalf-ptr"><strong>UHALF_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1201,73 +1201,73 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="PUINT"></span><span id="puint"></span><strong>PUINT</strong></td>
-<td><p>A pointer to a [<strong>UINT</strong>](#uint).</p>
+<td><p>A pointer to a <a href="#uint"><strong>UINT</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef UINT *PUINT;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PUINT_PTR"></span><span id="puint_ptr"></span><strong>PUINT_PTR</strong></td>
-<td><p>A pointer to a [<strong>UINT_PTR</strong>](#uint-ptr).</p>
+<td><p>A pointer to a <a href="#uint-ptr"><strong>UINT_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef UINT_PTR *PUINT_PTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PUINT8"></span><span id="puint8"></span><strong>PUINT8</strong></td>
-<td><p>A pointer to a [<strong>UINT8</strong>](#uint8).</p>
+<td><p>A pointer to a <a href="#uint8"><strong>UINT8</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef UINT8 *PUINT8;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PUINT16"></span><span id="puint16"></span><strong>PUINT16</strong></td>
-<td><p>A pointer to a [<strong>UINT16</strong>](#uint16).</p>
+<td><p>A pointer to a <a href="#uint16"><strong>UINT16</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef UINT16 *PUINT16;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PUINT32"></span><span id="puint32"></span><strong>PUINT32</strong></td>
-<td><p>A pointer to a [<strong>UINT32</strong>](#uint32).</p>
+<td><p>A pointer to a <a href="#uint32"><strong>UINT32</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef UINT32 *PUINT32;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PUINT64"></span><span id="puint64"></span><strong>PUINT64</strong></td>
-<td><p>A pointer to a [<strong>UINT64</strong>](#uint64).</p>
+<td><p>A pointer to a <a href="#uint64"><strong>UINT64</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef UINT64 *PUINT64;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PULONG"></span><span id="pulong"></span><strong>PULONG</strong></td>
-<td><p>A pointer to a [<strong>ULONG</strong>](#ulong).</p>
+<td><p>A pointer to a <a href="#ulong"><strong>ULONG</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef ULONG *PULONG;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PULONGLONG"></span><span id="pulonglong"></span><strong>PULONGLONG</strong></td>
-<td><p>A pointer to a [<strong>ULONGLONG</strong>](#ulonglong).</p>
+<td><p>A pointer to a <a href="#ulonglong"><strong>ULONGLONG</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef ULONGLONG *PULONGLONG;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PULONG_PTR"></span><span id="pulong_ptr"></span><strong>PULONG_PTR</strong></td>
-<td><p>A pointer to a [<strong>ULONG_PTR</strong>](#ulong-ptr).</p>
+<td><p>A pointer to a <a href="#ulong-ptr"><strong>ULONG_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef ULONG_PTR *PULONG_PTR;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PULONG32"></span><span id="pulong32"></span><strong>PULONG32</strong></td>
-<td><p>A pointer to a [<strong>ULONG32</strong>](#ulong32).</p>
+<td><p>A pointer to a <a href="#ulong32"><strong>ULONG32</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef ULONG32 *PULONG32;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PULONG64"></span><span id="pulong64"></span><strong>PULONG64</strong></td>
-<td><p>A pointer to a [<strong>ULONG64</strong>](#ulong64).</p>
+<td><p>A pointer to a <a href="#ulong64"><strong>ULONG64</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef ULONG64 *PULONG64;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PUSHORT"></span><span id="pushort"></span><strong>PUSHORT</strong></td>
-<td><p>A pointer to a [<strong>USHORT</strong>](#ushort).</p>
+<td><p>A pointer to a <a href="#ushort"><strong>USHORT</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef USHORT *PUSHORT;</code></p></td>
 </tr>
@@ -1279,19 +1279,19 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PWCHAR"></span><span id="pwchar"></span><strong>PWCHAR</strong></td>
-<td><p>A pointer to a [<strong>WCHAR</strong>](#wchar).</p>
+<td><p>A pointer to a <a href="#wchar"><strong>WCHAR</strong></a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef WCHAR *PWCHAR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PWORD"></span><span id="pword"></span><strong>PWORD</strong></td>
-<td><p>A pointer to a [<strong>WORD</strong>](#word).</p>
+<td><p>A pointer to a <a href="#word"><strong>WORD</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef WORD *PWORD;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PWSTR"></span><span id="pwstr"></span><strong>PWSTR</strong></td>
-<td><p>A pointer to a null-terminated string of 16-bit Unicode characters. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).</p>
+<td><p>A pointer to a null-terminated string of 16-bit Unicode characters. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef WCHAR *PWSTR;</code></p></td>
 </tr>
@@ -1303,19 +1303,19 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="SC_HANDLE"></span><span id="sc_handle"></span><strong>SC_HANDLE</strong></td>
-<td><p>A handle to a service control manager database. For more information, see [SCM Handles](https://msdn.microsoft.com/library/windows/desktop/ms685104).</p>
+<td><p>A handle to a service control manager database. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/ms685104">SCM Handles</a>.</p>
 <p>This type is declared in WinSvc.h as follows:</p>
 <p><code>typedef HANDLE SC_HANDLE;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="SC_LOCK"></span><span id="sc_lock"></span><strong>SC_LOCK</strong></td>
-<td><p>A lock to a service control manager database. For more information, see [SCM Handles](https://msdn.microsoft.com/library/windows/desktop/ms685104).</p>
+<td><p>A lock to a service control manager database. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/ms685104">SCM Handles</a>.</p>
 <p>This type is declared in WinSvc.h as follows:</p>
 <p><code>typedef LPVOID SC_LOCK;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="SERVICE_STATUS_HANDLE"></span><span id="service_status_handle"></span><strong>SERVICE_STATUS_HANDLE</strong></td>
-<td><p>A handle to a service status value. For more information, see [SCM Handles](https://msdn.microsoft.com/library/windows/desktop/ms685104).</p>
+<td><p>A handle to a service status value. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/ms685104">SCM Handles</a>.</p>
 <p>This type is declared in WinSvc.h as follows:</p>
 <p><code>typedef HANDLE SERVICE_STATUS_HANDLE;</code></p></td>
 </tr>
@@ -1333,13 +1333,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="SSIZE_T"></span><span id="ssize_t"></span><strong>SSIZE_T</strong></td>
-<td><p>A signed version of [<strong>SIZE_T</strong>](#size-t).</p>
+<td><p>A signed version of <a href="#size-t"><strong>SIZE_T</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef LONG_PTR SSIZE_T;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="TBYTE"></span><span id="tbyte"></span><strong>TBYTE</strong></td>
-<td><p>A [<strong>WCHAR</strong>](#wchar) if <strong>UNICODE</strong> is defined, a [<strong>CHAR</strong>](#char) otherwise.</p>
+<td><p>A <a href="#wchar"><strong>WCHAR</strong></a> if <strong>UNICODE</strong> is defined, a <a href="#char"><strong>CHAR</strong></a> otherwise.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1367,7 +1367,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="TCHAR"></span><span id="tchar"></span><strong>TCHAR</strong></td>
-<td><p>A [<strong>WCHAR</strong>](#wchar) if <strong>UNICODE</strong> is defined, a [<strong>CHAR</strong>](#char) otherwise.</p>
+<td><p>A <a href="#wchar"><strong>WCHAR</strong></a> if <strong>UNICODE</strong> is defined, a <a href="#char"><strong>CHAR</strong></a> otherwise.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1395,13 +1395,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="UCHAR"></span><span id="uchar"></span><strong>UCHAR</strong></td>
-<td><p>An unsigned [<strong>CHAR</strong>](#char).</p>
+<td><p>An unsigned <a href="#char"><strong>CHAR</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef unsigned char UCHAR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="UHALF_PTR"></span><span id="uhalf_ptr"></span><strong>UHALF_PTR</strong></td>
-<td><p>An unsigned [<strong>HALF_PTR</strong>](#half-ptr). Use within a structure that contains a pointer and two small fields.</p>
+<td><p>An unsigned <a href="#half-ptr"><strong>HALF_PTR</strong></a>. Use within a structure that contains a pointer and two small fields.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1429,13 +1429,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="UINT"></span><span id="uint"></span><strong>UINT</strong></td>
-<td><p>An unsigned [<strong>INT</strong>](#int). The range is 0 through 4294967295 decimal.</p>
+<td><p>An unsigned <a href="#int"><strong>INT</strong></a>. The range is 0 through 4294967295 decimal.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef unsigned int UINT;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="UINT_PTR"></span><span id="uint_ptr"></span><strong>UINT_PTR</strong></td>
-<td><p>An unsigned [<strong>INT_PTR</strong>](#int-ptr).</p>
+<td><p>An unsigned <a href="#int-ptr"><strong>INT_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1463,31 +1463,31 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="UINT8"></span><span id="uint8"></span><strong>UINT8</strong></td>
-<td><p>An unsigned [<strong>INT8</strong>](#int8).</p>
+<td><p>An unsigned <a href="#int8"><strong>INT8</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef unsigned  char UINT8;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="UINT16"></span><span id="uint16"></span><strong>UINT16</strong></td>
-<td><p>An unsigned [<strong>INT16</strong>](#int16).</p>
+<td><p>An unsigned <a href="#int16"><strong>INT16</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef unsigned  short UINT16;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="UINT32"></span><span id="uint32"></span><strong>UINT32</strong></td>
-<td><p>An unsigned [<strong>INT32</strong>](#int32). The range is 0 through 4294967295 decimal.</p>
+<td><p>An unsigned <a href="#int32"><strong>INT32</strong></a>. The range is 0 through 4294967295 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef unsigned int UINT32;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="UINT64"></span><span id="uint64"></span><strong>UINT64</strong></td>
-<td><p>An unsigned [<strong>INT64</strong>](#int64). The range is 0 through 18446744073709551615 decimal.</p>
+<td><p>An unsigned <a href="#int64"><strong>INT64</strong></a>. The range is 0 through 18446744073709551615 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef usigned __int 64 UINT64;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="ULONG"></span><span id="ulong"></span><strong>ULONG</strong></td>
-<td><p>An unsigned [<strong>LONG</strong>](#long). The range is 0 through 4294967295 decimal.</p>
+<td><p>An unsigned <a href="#long"><strong>LONG</strong></a>. The range is 0 through 4294967295 decimal.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef unsigned long ULONG;</code></p></td>
 </tr>
@@ -1521,7 +1521,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="ULONG_PTR"></span><span id="ulong_ptr"></span><strong>ULONG_PTR</strong></td>
-<td><p>An unsigned [<strong>LONG_PTR</strong>](#long-ptr).</p>
+<td><p>An unsigned <a href="#long-ptr"><strong>LONG_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1549,13 +1549,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="ULONG32"></span><span id="ulong32"></span><strong>ULONG32</strong></td>
-<td><p>An unsigned [<strong>LONG32</strong>](#long32). The range is 0 through 4294967295 decimal.</p>
+<td><p>An unsigned <a href="#long32"><strong>LONG32</strong></a>. The range is 0 through 4294967295 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef unsigned int ULONG32;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="ULONG64"></span><span id="ulong64"></span><strong>ULONG64</strong></td>
-<td><p>An unsigned [<strong>LONG64</strong>](#long64). The range is 0 through 18446744073709551615 decimal.</p>
+<td><p>An unsigned <a href="#long64"><strong>LONG64</strong></a>. The range is 0 through 18446744073709551615 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef unsigned __int64 ULONG64;</code></p></td>
 </tr>
@@ -1591,7 +1591,7 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 </tr>
 <tr class="odd">
 <td><span id="USHORT"></span><span id="ushort"></span><strong>USHORT</strong></td>
-<td><p>An unsigned [<strong>SHORT</strong>](#short). The range is 0 through 65535 decimal.</p>
+<td><p>An unsigned <a href="#short"><strong>SHORT</strong></a>. The range is 0 through 65535 decimal.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef unsigned short USHORT;</code></p></td>
 </tr>
@@ -1609,7 +1609,7 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 </tr>
 <tr class="even">
 <td><span id="WCHAR"></span><span id="wchar"></span><strong>WCHAR</strong></td>
-<td><p>A 16-bit Unicode character. For more information, see [Character Sets Used By Fonts](https://msdn.microsoft.com/library/windows/desktop/dd183415).</p>
+<td><p>A 16-bit Unicode character. For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/dd183415">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef wchar_t WCHAR;</code></p></td>
 </tr>

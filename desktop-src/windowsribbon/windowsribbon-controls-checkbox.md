@@ -55,52 +55,52 @@ The following table lists the property keys that are associated with the Check B
 </thead>
 <tbody>
 <tr class="odd">
-<td>[UI_PKEY_BooleanValue](windowsribbon-reference-properties-uipkey-booleanvalue.md)</td>
-<td>Supports [<strong>IUIFramework::GetUICommandProperty</strong>](https://msdn.microsoft.com/library/windows/desktop/dd371370) and [<strong>IUIFramework::SetUICommandProperty</strong>](https://msdn.microsoft.com/library/windows/desktop/dd371478).
+<td><a href="windowsribbon-reference-properties-uipkey-booleanvalue">UI_PKEY_BooleanValue</a></td>
+<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.
 <blockquote>
 [!Note]<br />
-If the Command associated with the control is invalidated through a call to [<strong>IUIFramework::InvalidateUICommand</strong>](https://msdn.microsoft.com/library/windows/desktop/dd371375), the framework queries this property when <code>UI_INVALIDATIONS_VALUE</code> is passed as the value of <em>flags</em>.
+If the Command associated with the control is invalidated through a call to <a href="https://msdn.microsoft.com/library/windows/desktop/dd371375"><strong>IUIFramework::InvalidateUICommand</strong></a>, the framework queries this property when <code>UI_INVALIDATIONS_VALUE</code> is passed as the value of <em>flags</em>.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[UI_PKEY_Enabled](windowsribbon-reference-properties-uipkey-enabled.md)</td>
-<td>Supports [<strong>IUIFramework::GetUICommandProperty</strong>](https://msdn.microsoft.com/library/windows/desktop/dd371370) and [<strong>IUIFramework::SetUICommandProperty</strong>](https://msdn.microsoft.com/library/windows/desktop/dd371478).</td>
+<td><a href="windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a></td>
+<td>Supports <a href="https://msdn.microsoft.com/library/windows/desktop/dd371370"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd371478"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="odd">
-<td>[UI_PKEY_Keytip](windowsribbon-reference-properties-uipkey-keytip.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-keytip">UI_PKEY_Keytip</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td>[UI_PKEY_Label](windowsribbon-reference-properties-uipkey-label.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-label">UI_PKEY_Label</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td>[UI_PKEY_LabelDescription](windowsribbon-reference-properties-uipkey-labeldescription.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-labeldescription">UI_PKEY_LabelDescription</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td>[UI_PKEY_LargeHighContrastImage](windowsribbon-reference-properties-uipkey-largehighcontrastimage.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage">UI_PKEY_LargeHighContrastImage</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td>[UI_PKEY_LargeImage](windowsribbon-reference-properties-uipkey-largeimage.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-largeimage">UI_PKEY_LargeImage</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td>[UI_PKEY_SmallHighContrastImage](windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage">UI_PKEY_SmallHighContrastImage</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td>[UI_PKEY_SmallImage](windowsribbon-reference-properties-uipkey-smallimage.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-smallimage">UI_PKEY_SmallImage</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td>[UI_PKEY_TooltipDescription](windowsribbon-reference-properties-uipkey-tooltipdescription.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription">UI_PKEY_TooltipDescription</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td>[UI_PKEY_TooltipTitle](windowsribbon-reference-properties-uipkey-tooltiptitle.md)</td>
+<td><a href="windowsribbon-reference-properties-uipkey-tooltiptitle">UI_PKEY_TooltipTitle</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 </tbody>

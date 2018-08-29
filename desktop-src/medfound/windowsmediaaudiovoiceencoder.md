@@ -36,25 +36,25 @@ The Windows Media Audio Voice encoder supports the following properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MFPKEY_WMAVOICE_ENC_BufferWindow](mfpkey-wmavoice-enc-bufferwindowproperty.md)</td>
+<td><a href="mfpkey-wmavoice-enc-bufferwindowproperty">MFPKEY_WMAVOICE_ENC_BufferWindow</a></td>
 <td>Specifies the buffer window, in milliseconds, used for the voice codec.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[MFPKEY_WMAVOICE_ENC_DecoderDelay](mfpkey-wmavoice-enc-decoderdelayproperty.md)</td>
+<td><a href="mfpkey-wmavoice-enc-decoderdelayproperty">MFPKEY_WMAVOICE_ENC_DecoderDelay</a></td>
 <td>Specifies encoder latency in packet units.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[MFPKEY_WMAVOICE_ENC_EDL](mfpkey-wmavoice-enc-edlproperty.md)</td>
+<td><a href="mfpkey-wmavoice-enc-edlproperty">MFPKEY_WMAVOICE_ENC_EDL</a></td>
 <td>Specifies the portions of content to be encoded as music by the voice codec.<br/> <dl> Windows XP and later.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[MFPKEY_WMAVOICE_ENC_MusicSpeechClassMode](mfpkey-wmavoice-enc-musicspeechclassmodeproperty.md)</td>
+<td><a href="mfpkey-wmavoice-enc-musicspeechclassmodeproperty">MFPKEY_WMAVOICE_ENC_MusicSpeechClassMode</a></td>
 <td>Specifies the mode of the voice codec.<br/> <dl> Windows XP and later.<br />
 Read/write.<br />
 </dl></td>

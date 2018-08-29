@@ -49,7 +49,7 @@ The following identifiers are used to identify standard encryption algorithms in
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_CAPI_KDF_ALGORITHM"></span><span id="bcrypt_capi_kdf_algorithm"></span><dl> <dt><strong>BCRYPT_CAPI_KDF_ALGORITHM</strong></dt> <dt>L&quot;CAPI_KDF&quot;</dt> </dl></td>
-<td style="text-align: left;">Crypto API (CAPI) key derivation function algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptkeyderivation) and [<strong>NCryptKeyDerivation</strong>](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptkeyderivation) functions.<br/></td>
+<td style="text-align: left;">Crypto API (CAPI) key derivation function algorithm. Used by the <a href="/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptkeyderivation"><strong>BCryptKeyDerivation</strong></a> and <a href="/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptkeyderivation"><strong>NCryptKeyDerivation</strong></a> functions.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_DES_ALGORITHM"></span><span id="bcrypt_des_algorithm"></span><dl> <dt><strong>BCRYPT_DES_ALGORITHM</strong></dt> <dt>&quot;DES&quot;</dt> </dl></td>
@@ -154,15 +154,15 @@ Beginning with Windows Vista with SP1 and Windows Server 2008, the random number
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_SP800108_CTR_HMAC_ALGORITHM"></span><span id="bcrypt_sp800108_ctr_hmac_algorithm"></span><dl> <dt><strong>BCRYPT_SP800108_CTR_HMAC_ALGORITHM</strong></dt> <dt>L&quot;SP800_108_CTR_HMAC&quot;</dt> </dl></td>
-<td style="text-align: left;">Counter mode, hash-based message authentication code (HMAC) key derivation function algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptkeyderivation) and [<strong>NCryptKeyDerivation</strong>](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptkeyderivation) functions.<br/></td>
+<td style="text-align: left;">Counter mode, hash-based message authentication code (HMAC) key derivation function algorithm. Used by the <a href="/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptkeyderivation"><strong>BCryptKeyDerivation</strong></a> and <a href="/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptkeyderivation"><strong>NCryptKeyDerivation</strong></a> functions.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_SP80056A_CONCAT_ALGORITHM"></span><span id="bcrypt_sp80056a_concat_algorithm"></span><dl> <dt><strong>BCRYPT_SP80056A_CONCAT_ALGORITHM</strong></dt> <dt>L&quot;SP800_56A_CONCAT&quot;</dt> </dl></td>
-<td style="text-align: left;">SP800-56A key derivation function algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptkeyderivation) and [<strong>NCryptKeyDerivation</strong>](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptkeyderivation) functions.<br/></td>
+<td style="text-align: left;">SP800-56A key derivation function algorithm. Used by the <a href="/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptkeyderivation"><strong>BCryptKeyDerivation</strong></a> and <a href="/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptkeyderivation"><strong>NCryptKeyDerivation</strong></a> functions.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="_BCRYPT_PBKDF2_ALGORITHM"></span><span id="_bcrypt_pbkdf2_algorithm"></span><dl> <dt> <strong>BCRYPT_PBKDF2_ALGORITHM</strong></dt> <dt>L&quot;PBKDF2&quot;</dt> </dl></td>
-<td style="text-align: left;">Password-based key derivation function 2 (PBKDF2) algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptkeyderivation) and [<strong>NCryptKeyDerivation</strong>](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptkeyderivation) functions.<br/></td>
+<td style="text-align: left;">Password-based key derivation function 2 (PBKDF2) algorithm. Used by the <a href="/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptkeyderivation"><strong>BCryptKeyDerivation</strong></a> and <a href="/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptkeyderivation"><strong>NCryptKeyDerivation</strong></a> functions.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_ECDSA_ALGORITHM"></span><span id="bcrypt_ecdsa_algorithm"></span><dl> <dt><strong>BCRYPT_ECDSA_ALGORITHM</strong></dt> <dt>&quot;ECDSA&quot;</dt> </dl></td>

@@ -57,16 +57,16 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MmsConfiguration](element-mmsconfiguration.md)</td>
+<td><a href="element-mmsconfiguration">MmsConfiguration</a></td>
 <td><p>Configuration information for Multimedia Messaging Service (MMS).</p>
 <p>In addition to setting the configuration elements within this element, an MMS profile must have the following settings.</p>
 <ul>
-<li>Its [<strong>Name</strong>](element-name.md) element must contain a system-wide unique name.</li>
-<li>Its [<strong>ProfileCreationType</strong>](../mbn/schema_profilecreationtype_mbnprofile_element.md) must be set to <strong>UserProvisioned</strong>.</li>
-<li>Its [<strong>SimIccID</strong>](https://msdn.microsoft.com/en-us/library/Dd323201(v=VS.85).aspx) must contain the ICCID of the SIM that this profile is intended for.</li>
-<li>Its [<strong>ConnectionMode</strong>](../mbn/schema_connectionmode_mbnprofile_element.md) must be set to <strong>Manual</strong>.</li>
-<li>Its [<strong>PurposeGroupGuid</strong>](element-purposegroupguid.md) must contain the GUID for MMS purpose group.</li>
-<li>Its [<strong>IsAdditionalPdpContextProfile</strong>](../WWAN_profile_v3/element_IsAdditionalPdpContextProfile.md) must be set to <strong>true</strong>.</li>
+<li>Its <a href="element-name"><strong>Name</strong></a> element must contain a system-wide unique name.</li>
+<li>Its <a href="../mbn/schema_profilecreationtype_mbnprofile_element"><strong>ProfileCreationType</strong></a> must be set to <strong>UserProvisioned</strong>.</li>
+<li>Its <a href="https://msdn.microsoft.com/en-us/library/Dd323201(v=VS.85).aspx"><strong>SimIccID</strong></a> must contain the ICCID of the SIM that this profile is intended for.</li>
+<li>Its <a href="../mbn/schema_connectionmode_mbnprofile_element"><strong>ConnectionMode</strong></a> must be set to <strong>Manual</strong>.</li>
+<li>Its <a href="element-purposegroupguid"><strong>PurposeGroupGuid</strong></a> must contain the GUID for MMS purpose group.</li>
+<li>Its <a href="../WWAN_profile_v3/element_IsAdditionalPdpContextProfile"><strong>IsAdditionalPdpContextProfile</strong></a> must be set to <strong>true</strong>.</li>
 </ul></td>
 </tr>
 </tbody>

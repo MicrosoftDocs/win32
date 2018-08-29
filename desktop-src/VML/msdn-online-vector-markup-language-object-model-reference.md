@@ -262,7 +262,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="even">
 <td>BackDepth</td>
-<td>[<strong>VgLength</strong>](msdn-online-vml-vglength.md). Amount of backward extrusion. Ranges from 0 to 32767.</td>
+<td><a href="msdn-online-vml-vglength"><strong>VgLength</strong></a>. Amount of backward extrusion. Ranges from 0 to 32767.</td>
 </tr>
 <tr class="odd">
 <td>Brightness</td>
@@ -286,7 +286,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="odd">
 <td>Edge</td>
-<td>[VgLength](msdn-online-vml-vglength.md). Sets the size of a simulated rounded beveled edge. Ranges from 0 to 32767 in floating point pts. Default is &quot;1pt&quot;.</td>
+<td><a href="msdn-online-vml-vglength">VgLength</a>. Sets the size of a simulated rounded beveled edge. Ranges from 0 to 32767 in floating point pts. Default is &quot;1pt&quot;.</td>
 </tr>
 <tr class="even">
 <td>Facet</td>
@@ -294,7 +294,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="odd">
 <td>ForeDepth</td>
-<td>[VgLength](msdn-online-vml-vglength.md). Amount of forward extrusion. Ranges from 0 to 32767.</td>
+<td><a href="msdn-online-vml-vglength">VgLength</a>. Amount of forward extrusion. Ranges from 0 to 32767.</td>
 </tr>
 <tr class="even">
 <td>LightFace</td>
@@ -376,7 +376,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="odd">
 <td>SkewAmt</td>
-<td>[VgPercentage](#data-types-used-in-the-vml-object-model). If Type is Parallel, attribute determines the amount of skew. Ranges from 0 to 100.</td>
+<td><a href="#data-types-used-in-the-vml-object-model">VgPercentage</a>. If Type is Parallel, attribute determines the amount of skew. Ranges from 0 to 100.</td>
 </tr>
 <tr class="even">
 <td>SkewAngle</td>
@@ -469,11 +469,11 @@ Describes how a path should be filled for fills more complex than a solid color.
 </tr>
 <tr class="even">
 <td>Colors</td>
-<td>[IVgGradientColorArray](#data-types-used-in-the-vml-object-model). Intermediate colors in the gradient and their relative positions along the gradient, e.g., &quot;30% red, 70% blue, 90% green&quot;. Primary color (Color attribute in shape) is 0% and secondary color (Color2 attribute) is 100%.</td>
+<td><a href="#data-types-used-in-the-vml-object-model">IVgGradientColorArray</a>. Intermediate colors in the gradient and their relative positions along the gradient, e.g., &quot;30% red, 70% blue, 90% green&quot;. Primary color (Color attribute in shape) is 0% and secondary color (Color2 attribute) is 100%.</td>
 </tr>
 <tr class="odd">
 <td>Focus</td>
-<td>[VgSignedPercentage](#data-types-used-in-the-vml-object-model). Focal point for linear gradient fill. Values go from -100 to +100.</td>
+<td><a href="#data-types-used-in-the-vml-object-model">VgSignedPercentage</a>. Focal point for linear gradient fill. Values go from -100 to +100.</td>
 </tr>
 <tr class="even">
 <td>FocusPosition</td>
@@ -604,7 +604,7 @@ Defines the path that makes up the shape, using a string that contains a rich se
 </tr>
 <tr class="even">
 <td>TextBoxRect</td>
-<td>[IVgFixedRectangleArray](#data-types-used-in-the-vml-object-model). Array containing the rectangles that define where text should go.</td>
+<td><a href="#data-types-used-in-the-vml-object-model">IVgFixedRectangleArray</a>. Array containing the rectangles that define where text should go.</td>
 </tr>
 <tr class="odd">
 <td>V</td>
@@ -731,7 +731,7 @@ Describes a shadow effect on a shape.
 </tr>
 <tr class="odd">
 <td>Matrix</td>
-<td>[IvgSkewMatrix](#data-types-used-in-the-vml-object-model). A perspective transform matrix in the form, &quot;sxx,sxy,syx,syy,px,py&quot; [s=scale, p=perspective]. The s items specify how the shadow should scale with respect to the shape, and the p items specify how the shadow should skew with respect to the shape. For example, the following matrix resizes the shape by a factor of 2 and skews it by a factor of 4 in all directions: <br/> &quot;2,2,2,2,4,4&quot;<br/> This matrix is only used if the type of the shadow is set to perspective.<br/></td>
+<td><a href="#data-types-used-in-the-vml-object-model">IvgSkewMatrix</a>. A perspective transform matrix in the form, &quot;sxx,sxy,syx,syy,px,py&quot; [s=scale, p=perspective]. The s items specify how the shadow should scale with respect to the shape, and the p items specify how the shadow should skew with respect to the shape. For example, the following matrix resizes the shape by a factor of 2 and skews it by a factor of 4 in all directions: <br/> &quot;2,2,2,2,4,4&quot;<br/> This matrix is only used if the type of the shadow is set to perspective.<br/></td>
 </tr>
 <tr class="even">
 <td>Obscured</td>
@@ -739,7 +739,7 @@ Describes a shadow effect on a shape.
 </tr>
 <tr class="odd">
 <td>Offset</td>
-<td>[IVgSkewOffset](#data-types-used-in-the-vml-object-model). Amount of x,y offset from the shape's location. Default is &quot;2pt,2pt&quot;.</td>
+<td><a href="#data-types-used-in-the-vml-object-model">IVgSkewOffset</a>. Amount of x,y offset from the shape's location. Default is &quot;2pt,2pt&quot;.</td>
 </tr>
 <tr class="even">
 <td>Offset2</td>
@@ -759,7 +759,7 @@ Describes a shadow effect on a shape.
 </tr>
 <tr class="even">
 <td>Type</td>
-<td>[VgShadowType](#data-types-used-in-the-vml-object-model). Values are:
+<td><a href="#data-types-used-in-the-vml-object-model">VgShadowType</a>. Values are:
 <ul>
 <li>Single (default)</li>
 <li>Double</li>
@@ -939,7 +939,7 @@ Describes how to draw the path if something beyond a solid line with a solid col
 </tr>
 <tr class="even">
 <td>MiterLimit</td>
-<td>[Length](msdn-online-vml-vglength.md). The maximum distance between the inner point and outer point of a joint. This number is a multiple of the thickness of the line. Ranges from 0 to 32,767.</td>
+<td><a href="msdn-online-vml-vglength">Length</a>. The maximum distance between the inner point and outer point of a joint. This number is a multiple of the thickness of the line. Ranges from 0 to 32,767.</td>
 </tr>
 <tr class="odd">
 <td>On</td>
@@ -985,7 +985,7 @@ Describes how to draw the path if something beyond a solid line with a solid col
 </tr>
 <tr class="odd">
 <td>Weight</td>
-<td>[VgLength](msdn-online-vml-vglength.md). Width of line. Ranges from 0 to 1584.
+<td><a href="msdn-online-vml-vglength">VgLength</a>. Width of line. Ranges from 0 to 1584.
 <div class="alert">
 <blockquote>
 [!Note]<br />

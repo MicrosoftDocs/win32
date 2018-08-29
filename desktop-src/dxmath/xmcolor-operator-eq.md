@@ -37,8 +37,8 @@ Assigns vector component data to the current instance of [**XMCOLOR**](/windows/
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[XMCOLOR::operator = (const XMCOLOR&)](https://msdn.microsoft.com/en-us/library/Ee419410(v=VS.85).aspx)</td>
-<td style="text-align: left;">This operator assigns the vector component data from one instance of [<strong>XMCOLOR</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor) to the current instance of <strong>XMCOLOR</strong>.<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419410(v=VS.85).aspx">XMCOLOR::operator = (const XMCOLOR&)</a></td>
+<td style="text-align: left;">This operator assigns the vector component data from one instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a> to the current instance of <strong>XMCOLOR</strong>.<br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -46,8 +46,8 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[XMCOLOR::operator = (const uint32_t)](https://msdn.microsoft.com/en-us/library/Hh437883(v=VS.85).aspx)</td>
-<td style="text-align: left;">This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMCOLOR</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor).<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh437883(v=VS.85).aspx">XMCOLOR::operator = (const uint32_t)</a></td>
+<td style="text-align: left;">This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a>.<br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.

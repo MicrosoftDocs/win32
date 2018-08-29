@@ -144,7 +144,7 @@ The Format column in the table below describes the way each Unicode text field i
 <td>ListItemsAreDynamic</td>
 <td>Yes</td>
 <td>Boolean. Can be 0 or 1.</td>
-<td>Indicates whether the list is generated dynamically. Dynamic lists do not have items in listitem.csv. If a list is marked as dynamic, its items are provided by [IWMPContentPartner::GetListContents](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents)</td>
+<td>Indicates whether the list is generated dynamically. Dynamic lists do not have items in listitem.csv. If a list is marked as dynamic, its items are provided by <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a></td>
 </tr>
 </tbody>
 </table>

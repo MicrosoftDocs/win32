@@ -44,8 +44,8 @@ Constructs instances of the [**XMHALF2**](/windows/desktop/api/DirectXPackedVect
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMHALF2 ()</strong>](https://msdn.microsoft.com/en-us/library/Ee419654(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMHALF2</code>. <br/> Default constructor for [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2). <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419654(v=VS.85).aspx"><strong>XMHALF2 ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMHALF2</code>. <br/> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2"><strong>XMHALF2</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -53,8 +53,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMHALF2 (HALF,HALF)</strong>](https://msdn.microsoft.com/en-us/library/Ee419656(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from two <code>HALF</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2) from two <code>HALF</code> arguments.<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419656(v=VS.85).aspx"><strong>XMHALF2 (HALF,HALF)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from two <code>HALF</code> arguments.<br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2"><strong>XMHALF2</strong></a> from two <code>HALF</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -62,8 +62,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMHALF2 (const HALF*)</strong>](https://msdn.microsoft.com/en-us/library/Ee419658(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from a two element <code>HALF</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2) from a from a two element <code>HALF</code> array argument. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419658(v=VS.85).aspx"><strong>XMHALF2 (const HALF*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from a two element <code>HALF</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2"><strong>XMHALF2</strong></a> from a from a two element <code>HALF</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -71,8 +71,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMHALF2 (float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee419659(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2) from two <code>float</code> arguments. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419659(v=VS.85).aspx"><strong>XMHALF2 (float,float)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2"><strong>XMHALF2</strong></a> from two <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -80,8 +80,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMHALF2 (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee419661(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from a two element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2) from a two element <code>float</code> array argument. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419661(v=VS.85).aspx"><strong>XMHALF2 (const float*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from a two element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2"><strong>XMHALF2</strong></a> from a two element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.

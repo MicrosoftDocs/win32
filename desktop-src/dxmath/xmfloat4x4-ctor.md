@@ -44,8 +44,8 @@ Constructs instances of the [**XMFLOAT4X4**](https://msdn.microsoft.com/en-us/li
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT4X4 (float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee419629(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from sixteen scalar <code>float</code> values. <br/> Initializes a new instance of the [<strong>XMFLOAT4X4</strong>](https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx) structure from sixteen scalar <code>float</code> values. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419629(v=VS.85).aspx"><strong>XMFLOAT4X4 (float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from sixteen scalar <code>float</code> values. <br/> Initializes a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx"><strong>XMFLOAT4X4</strong></a> structure from sixteen scalar <code>float</code> values. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -53,8 +53,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT4X4 ()</strong>](https://msdn.microsoft.com/en-us/library/Ee419628(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT4X4</code><br/> Default constructor for [<strong>XMFLOAT4X4</strong>](https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx)<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419628(v=VS.85).aspx"><strong>XMFLOAT4X4 ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT4X4</code><br/> Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx"><strong>XMFLOAT4X4</strong></a><br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.
@@ -62,8 +62,8 @@ This is only available for C++ based development.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT4X4 (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee419631(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from a sixteen element <code>float</code> array. <br/> Initializes a new instance of the [<strong>XMFLOAT4X4</strong>](https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx) structure from a sixteen element <code>float</code> array. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419631(v=VS.85).aspx"><strong>XMFLOAT4X4 (const float*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from a sixteen element <code>float</code> array. <br/> Initializes a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx"><strong>XMFLOAT4X4</strong></a> structure from a sixteen element <code>float</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.

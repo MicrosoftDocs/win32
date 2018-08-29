@@ -94,8 +94,8 @@ This section contains detailed notes on each of the test tools used to verify pa
 <li>Right-click the icon and test each application-defined play & support task.</li>
 <li>Click the icon and verify that the metadata (publisher, developer, genre, release date, version) at the bottom displays and is correct.</li>
 <li>Verify that the game icon displays Windows Experience Index (WEI) information in Games Explorer.</li>
-<li>Verify that game hyperlinks for metadata work correctly in Games Explorer. (If hyperlinks don't show up, then this is a possible sign that the exe isn't signed; see [section 2.3](#23-sign-files).)</li>
-<li>Verify that the game displays accurate parental control rating in Games Explorer. (If it says unrated, then verify that this is an unrated game; otherwise, this is an indicator that the exe isn't signed; see [section 2.3](#23-sign-files).)</li>
+<li>Verify that game hyperlinks for metadata work correctly in Games Explorer. (If hyperlinks don't show up, then this is a possible sign that the exe isn't signed; see <a href="#23-sign-files">section 2.3</a>.)</li>
+<li>Verify that the game displays accurate parental control rating in Games Explorer. (If it says unrated, then verify that this is an unrated game; otherwise, this is an indicator that the exe isn't signed; see <a href="#23-sign-files">section 2.3</a>.)</li>
 <li>Verify that the game does not place launch shortcuts on user desktop.</li>
 <li>Click Start -> All Programs.</li>
 <li>Verify that the game does not place launch shortcuts in the Start Menu.</li>
@@ -772,7 +772,7 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 [!Note]<br />
 Autorun programs that were written for use on versions of Windows prior to Windows Vista should not use the .NET runtime, because this technology is not included with Windows XP or older versions of Windows.
 </blockquote>
-<br/> For further guidance, please refer to [Games for Windows Technical Requirements](https://msdn.microsoft.com/library/windows/desktop/ee417691) 3.7, Support Autorun. <br/></td>
+<br/> For further guidance, please refer to <a href="https://msdn.microsoft.com/library/windows/desktop/ee417691">Games for Windows Technical Requirements</a> 3.7, Support Autorun. <br/></td>
 </tr>
 <tr class="even">
 
@@ -899,7 +899,7 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 </ol>
 </dd> <dt><span id="Automated_test_"></span><span id="automated_test_"></span><span id="AUTOMATED_TEST_"></span>Automated test:</dt> <dd>
 <ul>
-<li>Use the Microsoft Games for Windows Test Tool; see [section 6.4](#64-microsoft-games-for-windows-test-tool).</li>
+<li>Use the Microsoft Games for Windows Test Tool; see <a href="#64-microsoft-games-for-windows-test-tool">section 6.4</a>.</li>
 </ul>
 </dd> </dl></td>
 </tr>

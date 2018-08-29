@@ -63,7 +63,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...uninstall software using a script?</td>
-<td>If the software was installed using Microsoft Windows Installer (MSI), use the WMI class [<strong>Win32_Product</strong>](https://msdn.microsoft.com/library/aa394378) and the [<strong>Uninstall</strong>](https://msdn.microsoft.com/library/aa393941) method.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>If the software was installed using Microsoft Windows Installer (MSI), use the WMI class <a href="https://msdn.microsoft.com/library/aa394378"><strong>Win32_Product</strong></a> and the <a href="https://msdn.microsoft.com/library/aa393941"><strong>Uninstall</strong></a> method.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -113,7 +113,7 @@ foreach ($colItem in $colSoftware)
 </tr>
 <tr class="even">
 <td>...inventory all the software installed on a computer with a script?</td>
-<td><p>If the software was installed using Microsoft Windows Installer (MSI) use the WMI class [<strong>Win32_Product</strong>](https://msdn.microsoft.com/library/aa394378).</p>
+<td><p>If the software was installed using Microsoft Windows Installer (MSI) use the WMI class <a href="https://msdn.microsoft.com/library/aa394378"><strong>Win32_Product</strong></a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -168,7 +168,7 @@ foreach ($colItem in $colSoftware)
 </tr>
 <tr class="odd">
 <td>...determine what version of Microsoft Office is installed?</td>
-<td><p>Use the [<strong>Win32_Product</strong>](https://msdn.microsoft.com/library/aa394378) class and check the value of the <strong>Version</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394378"><strong>Win32_Product</strong></a> class and check the value of the <strong>Version</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

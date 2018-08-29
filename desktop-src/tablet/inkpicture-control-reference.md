@@ -119,117 +119,117 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>AutoRedraw Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw)</td>
-<td>Gets or sets a value that specifies whether the InkPicture control repaints when the window is invalidated (whether the [<strong>InkDisp</strong>](inkdisp-class.md) object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw"><strong>AutoRedraw Property</strong></a></td>
+<td>Gets or sets a value that specifies whether the InkPicture control repaints when the window is invalidated (whether the <a href="inkdisp-class"><strong>InkDisp</strong></a> object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>BackColor</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor"><strong>BackColor</strong></a></td>
 <td>Gets or sets the background color for the InkPicture control. The default background color is the system window background color, which is typically white.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CollectingInk Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink"><strong>CollectingInk Property</strong></a></td>
 <td>Gets the value that specifies whether the InkPicture control is collecting ink (run time only).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CollectionMode</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode"><strong>CollectionMode</strong></a></td>
 <td>Gets or sets the collection mode that determines whether ink, gestures, or ink and gestures are recognized as the user writes.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Cursors Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors)</td>
-<td>Gets the [<strong>IInkCursors</strong>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors) collection available for use in the InkPicture control's inking region.<br/></td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors"><strong>Cursors Property</strong></a></td>
+<td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors"><strong>IInkCursors</strong></a> collection available for use in the InkPicture control's inking region.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CustomStrokes</strong>](https://msdn.microsoft.com/en-us/library/ms703274(v=VS.85).aspx)</td>
-<td>Gets the [<strong>IInkCustomStrokes</strong>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes) collection to be persisted with the ink (design-time only).<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms703274(v=VS.85).aspx"><strong>CustomStrokes</strong></a></td>
+<td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes"><strong>IInkCustomStrokes</strong></a> collection to be persisted with the ink (design-time only).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DefaultDrawingAttributes Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes)</td>
-<td>Gets or sets the default [<strong>InkDrawingAttributes</strong>](inkdrawingattributes-class.md) collection to use when drawing and displaying ink (run time only).<br/></td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes"><strong>DefaultDrawingAttributes Property</strong></a></td>
+<td>Gets or sets the default <a href="inkdrawingattributes-class"><strong>InkDrawingAttributes</strong></a> collection to use when drawing and displaying ink (run time only).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DesiredPacketDescription Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription"><strong>DesiredPacketDescription Property</strong></a></td>
 <td>Gets or sets the packet description of the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DynamicRendering Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering"><strong>DynamicRendering Property</strong></a></td>
 <td>Gets or sets the value that specifies whether the InkPicture control dynamically renders the ink as it is collected.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>EditingMode</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode"><strong>EditingMode</strong></a></td>
 <td>Gets or sets a value that specifies whether the InkPicture control is in ink mode, deletion mode, or selecting/editing mode.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Enabled</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled"><strong>Enabled</strong></a></td>
 <td>Gets or sets a value that determines whether the InkPicture control can respond to user-generated events.<br/>
 <blockquote>
 [!Note]<br />
-This property is equivalent to the [<strong>InkEnabled</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled) property.
+This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>InkEnabled</strong></a> property.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>EraserMode</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode"><strong>EraserMode</strong></a></td>
 <td>Gets or sets the value that specifies whether ink is erased by stroke or by point.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EraserWidth</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth"><strong>EraserWidth</strong></a></td>
 <td>Gets or sets the value that specifies the width of the eraser pen tip.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>hWnd</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd"><strong>hWnd</strong></a></td>
 <td>Gets the window handle to which the InkPicture control is bound. (run time only)<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Ink</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink)</td>
-<td>Gets or sets the [<strong>InkDisp</strong>](inkdisp-class.md) object that is associated with the InkPicture control (run time only).<br/></td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink"><strong>Ink</strong></a></td>
+<td>Gets or sets the <a href="inkdisp-class"><strong>InkDisp</strong></a> object that is associated with the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>InkEnabled</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>InkEnabled</strong></a></td>
 <td>Gets or sets a value that specifies whether the InkPicture control collects pen input (in-air packets, cursor in range events, and so on).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MarginX Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx"><strong>MarginX Property</strong></a></td>
 <td>Gets or sets the x-axis margin around the window rectangle in screen coordinates.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MarginY Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy"><strong>MarginY Property</strong></a></td>
 <td>Gets or sets the y-axis margin around the window rectangle in screen coordinates.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MouseIcon Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mouseicon)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mouseicon"><strong>MouseIcon Property</strong></a></td>
 <td>Gets or sets the current custom mouse icon.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MousePointer Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer"><strong>MousePointer Property</strong></a></td>
 <td>Gets or sets a value that indicates the type of mouse pointer that appears when the mouse is over a particular part of the InkPicture control.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Picture</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture"><strong>Picture</strong></a></td>
 <td>Gets the graphics file to appear on the InkPicture control.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>Renderer Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer)</td>
-<td>Gets or sets the [<strong>InkRenderer</strong>](inkrenderer-class.md) object that is used to draw ink on the InkPicture control (run time only).<br/></td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer"><strong>Renderer Property</strong></a></td>
+<td>Gets or sets the <a href="inkrenderer-class"><strong>InkRenderer</strong></a> object that is used to draw ink on the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Selection</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection)</td>
-<td>Gets the [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection currently selected inside the InkPicture control (run time only).<br/></td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection"><strong>Selection</strong></a></td>
+<td>Gets the <a href="https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx">InkStrokes</a> collection currently selected inside the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SizeMode</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode"><strong>SizeMode</strong></a></td>
 <td>Gets or sets how the control handles image placement and sizing.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SupportHighContrastInk Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastink)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastink"><strong>SupportHighContrastInk Property</strong></a></td>
 <td>Gets a value that specifies whether ink is rendered as just one color, Color = COLOR_WINDOWTEXT (from the GetSystemMetrics call) when the system is in High Contrast mode.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SupportHighContrastSelectionUI</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastselectionui)</td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastselectionui"><strong>SupportHighContrastSelectionUI</strong></a></td>
 <td>Gets or sets a value that specifies whether all selection user interfaces (selection bounding box and selection handles) are drawn in high contrast when the system is in High Contrast mode.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Tablet Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet)</td>
-<td>Gets the [<strong>IInkTablet</strong>](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) object that the InkPicture control is currently using to collect input.<br/></td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet"><strong>Tablet Property</strong></a></td>
+<td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet"><strong>IInkTablet</strong></a> object that the InkPicture control is currently using to collect input.<br/></td>
 </tr>
 </tbody>
 </table>
