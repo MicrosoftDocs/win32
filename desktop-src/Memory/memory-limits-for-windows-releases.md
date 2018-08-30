@@ -65,10 +65,11 @@ The following table specifies the limits on physical memory for Windows 10.
 
 | Version               | Limit on X86    | Limit on X64     |
 |-----------------------|-----------------|------------------|
-| Windows 10 Enterprise | 4 GB<br/> | 2TB<br/>   |
-| Windows 10 Education  | 4 GB<br/> | 2TB<br/>   |
-| Windows 10 Pro        | 4 GB<br/> | 2TB<br/>   |
-| Windows 10 Home       | 4 GB<br/> | 128GB<br/> |
+| Windows 10 Enterprise | 4 GB<br/> | 6 TB<br/>   |
+| Windows 10 Education  | 4 GB<br/> | 2 TB<br/>   |
+| Windows 10 Pro for Workstations  | 4 GB<br/> | 6 TB<br/>   |
+| Windows 10 Pro        | 4 GB<br/> | 2 TB<br/>   |
+| Windows 10 Home       | 4 GB<br/> | 128 GB<br/> |
 
 
 
