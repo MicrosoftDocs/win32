@@ -31,7 +31,7 @@ Retrieves the insertion point closest to a specified point.
 </dt> <dd>Pointer to a **POINT** structure that contains the hit test coordinates.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to an [**LVINSERTMARK**](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark) structure that specifies the insertion point closest to the coordinates defined by the *wParam* parameter.</dd> </dl>
+</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark">LVINSERTMARK</a> structure that specifies the insertion point closest to the coordinates defined by the *wParam* parameter.</dd> </dl>
 
 ## Return value
 

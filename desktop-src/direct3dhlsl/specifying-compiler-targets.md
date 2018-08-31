@@ -111,7 +111,7 @@ Here are the shader targets that Direct3D 9.1, 9.2 and 9.3 [feature levels](http
 </tr>
 <tr class="even">
 <td>ps_4_0_level_9_3</td>
-<td>[Pixel shader](https://msdn.microsoft.com/library/windows/desktop/bb205146#pixel-shader-stage) for 9.3 (similar limits to ps_2_x² with additional shader features)
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/bb205146#pixel-shader-stage">Pixel shader</a> for 9.3 (similar limits to ps_2_x² with additional shader features)
 <ul>
 <li>512 instructions</li>
 <li>32 temporary registers</li>
@@ -126,7 +126,7 @@ Here are the shader targets that Direct3D 9.1, 9.2 and 9.3 [feature levels](http
 </tr>
 <tr class="odd">
 <td>vs_4_0_level_9_1</td>
-<td>[Vertex shader](https://msdn.microsoft.com/library/windows/desktop/bb205146#vertex-shader-stage) for 9.1 and 9.2 (similar to vs_2_0)
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/bb205146#vertex-shader-stage">Vertex shader</a> for 9.1 and 9.2 (similar to vs_2_0)
 <ul>
 <li>256 instructions</li>
 <li>12 temporary registers</li>
@@ -135,7 +135,7 @@ Here are the shader targets that Direct3D 9.1, 9.2 and 9.3 [feature levels](http
 </tr>
 <tr class="even">
 <td>vs_4_0_level_9_3</td>
-<td>[Vertex shader](https://msdn.microsoft.com/library/windows/desktop/bb205146#vertex-shader-stage) for 9.3 (similar to vs_2_a² with additional shader features and instancing)
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/bb205146#vertex-shader-stage">Vertex shader</a> for 9.3 (similar to vs_2_a² with additional shader features and instancing)
 <ul>
 <li>256 instructions</li>
 <li>32 temporary registers</li>

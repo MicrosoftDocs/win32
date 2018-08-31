@@ -51,7 +51,7 @@ This section contains information about the programming elements used with toolb
 <td>Creates a toolbar window and adds the specified buttons to the toolbar.
 <blockquote>
 [!Note]<br />
-This function is deprecated, because it does not support all features of toolbars. Use <a href="https://msdn.microsoft.com/library/windows/desktop/ms632680"><strong>CreateWindowEx</strong></a> instead. For examples, see [Using Toolbar Controls](using-toolbar-controls.md).
+This function is deprecated, because it does not support all features of toolbars. Use <a href="https://msdn.microsoft.com/library/windows/desktop/ms632680"><strong>CreateWindowEx</strong></a> instead. For examples, see <a href="using-toolbar-controls">Using Toolbar Controls</a>.
 </blockquote>
 <br/> <br/></td>
 </tr>

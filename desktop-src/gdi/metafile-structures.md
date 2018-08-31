@@ -23,7 +23,12 @@ The following structures are used with enhanced-format metafiles.
 [**HANDLETABLE**](/windows/desktop/api/Wingdi/ns-wingdi-taghandletable)  
 [**POINTL**](https://msdn.microsoft.com/en-us/library/Dd162807(v=VS.85).aspx)  
 [**RECTL**](https://msdn.microsoft.com/en-us/library/Dd162907(v=VS.85).aspx)  
-</dl> <dl> Note that the [**EMR**](/windows/desktop/api/Wingdi/ns-wingdi-tagemr) structure is used as the first member of the remaining structures.  
+</dl> 
+
+Note that the [**EMR**](/windows/desktop/api/Wingdi/ns-wingdi-tagemr) structure is used as the first member of the remaining structures.  
+
+<dl> 
+
 [**EMR**](/windows/desktop/api/Wingdi/ns-wingdi-tagemr)  
 [**EMRABORTPATH**](/windows/desktop/api/Wingdi/ns-wingdi-tagabortpath)  
 [**EMRALPHABLEND**](/windows/desktop/api/Wingdi/ns-wingdi-tagemralphablend)  

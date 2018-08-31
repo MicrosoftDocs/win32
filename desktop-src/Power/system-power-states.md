@@ -44,7 +44,7 @@ The following table lists the ACPI power states from highest to lowest power con
 <tr class="even">
 <td>Sleep<br/> (Modern Standby)<br/></td>
 <td>S0 low-power idle<br/></td>
-<td>Some SoC systems support a low-power idle state known as [Modern Standby](http://go.microsoft.com/fwlink/p/?LinkID=624142). In this state, the system can very quickly switch from a low-power state to high-power state, so that it can respond quickly to hardware and network events. Systems that support Modern Standby do not use S1-S3.<br/></td>
+<td>Some SoC systems support a low-power idle state known as <a href="http://go.microsoft.com/fwlink/p/?LinkID=624142">Modern Standby</a>. In this state, the system can very quickly switch from a low-power state to high-power state, so that it can respond quickly to hardware and network events. Systems that support Modern Standby do not use S1-S3.<br/></td>
 </tr>
 <tr class="odd">
 <td>Sleep<br/></td>
@@ -230,11 +230,3 @@ WOL is supported from sleep (S3) or hibernate (S4). It is not supported from fas
 
 [About Power Management](about-power-management.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

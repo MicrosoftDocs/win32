@@ -101,7 +101,7 @@ The constructor string should not be used to store security-sensitive informatio
 <td>Turns on or off component-level role-based security checking.<br/></td>
 </tr>
 <tr class="odd">
-<td>[Declarative role assignment](assigning-roles-to-components--interfaces--or-methods.md)<br/></td>
+<td><a href="assigning-roles-to-components--interfaces--or-methods">Declarative role assignment</a><br/></td>
 <td>Enables explicit assignment of roles to the component.<br/></td>
 </tr>
 <tr class="even">

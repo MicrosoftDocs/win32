@@ -321,7 +321,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>audio</td>
-<td>Returns &quot;on&quot; or &quot;off&quot; depending on the most recent [setaudio](setaudio.md) &quot;on&quot; or &quot;off&quot; command. It returns &quot;on&quot; if either or both speakers are enabled, and &quot;off&quot; otherwise.</td>
+<td>Returns &quot;on&quot; or &quot;off&quot; depending on the most recent <a href="setaudio">setaudio</a> &quot;on&quot; or &quot;off&quot; command. It returns &quot;on&quot; if either or both speakers are enabled, and &quot;off&quot; otherwise.</td>
 </tr>
 <tr class="even">
 <td>audio alignment</td>
@@ -341,7 +341,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>audio input</td>
-<td>Returns the approximate instantaneous audio level of the analog input audio signal. A value greater than 1000 implies clipping distortion. Some devices can return this value only while recording audio. The value has no associated [set](set.md) or [setaudio](setaudio.md) command.</td>
+<td>Returns the approximate instantaneous audio level of the analog input audio signal. A value greater than 1000 implies clipping distortion. Some devices can return this value only while recording audio. The value has no associated <a href="set">set</a> or <a href="setaudio">setaudio</a> command.</td>
 </tr>
 <tr class="odd">
 <td>audio monitor</td>
@@ -349,7 +349,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>audio monitor number</td>
-<td>Returns the monitored-video number of the type specified by <strong>status</strong> &quot;audio monitor&quot;. For more information, see the [setaudio](setaudio.md) command.</td>
+<td>Returns the monitored-video number of the type specified by <strong>status</strong> &quot;audio monitor&quot;. For more information, see the <a href="setaudio">setaudio</a> command.</td>
 </tr>
 <tr class="odd">
 <td>audio record</td>
@@ -369,7 +369,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>audio source number</td>
-<td>Returns the audio-source number of the type returned by <strong>status</strong> &quot;audio source&quot;. For more information, see the [setaudio](setaudio.md) command.</td>
+<td>Returns the audio-source number of the type returned by <strong>status</strong> &quot;audio source&quot;. For more information, see the <a href="setaudio">setaudio</a> command.</td>
 </tr>
 <tr class="even">
 <td>audio stream</td>
@@ -413,7 +413,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>clock</td>
-<td>Returns the external time. The time must be an unsigned long integer expressing total increments. For more information, see the [capability](capability.md) &quot;clock increment rate&quot; command.</td>
+<td>Returns the external time. The time must be an unsigned long integer expressing total increments. For more information, see the <a href="capability">capability</a> &quot;clock increment rate&quot; command.</td>
 </tr>
 <tr class="odd">
 <td>clock id</td>
@@ -433,7 +433,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>counter format</td>
-<td>Returns the current counter format. For more information, see the [set](set.md) &quot;counter format&quot; command.</td>
+<td>Returns the current counter format. For more information, see the <a href="set">set</a> &quot;counter format&quot; command.</td>
 </tr>
 <tr class="even">
 <td>counter resolution</td>
@@ -449,7 +449,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>disk space <em>drive</em></td>
-<td>Returns the approximate disk space, in the current time format, that can be obtained by a [reserve](reserve.md) command for the specified disk <em>drive.</em> The <em>drive</em> is usually specified as a single letter or a single letter followed by a colon (:). Some devices, however, might use a path.</td>
+<td>Returns the approximate disk space, in the current time format, that can be obtained by a <a href="reserve">reserve</a> command for the specified disk <em>drive.</em> The <em>drive</em> is usually specified as a single letter or a single letter followed by a colon (:). Some devices, however, might use a path.</td>
 </tr>
 <tr class="even">
 <td>division type</td>
@@ -465,11 +465,11 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>file completion</td>
-<td>Returns the estimated percentage a [load](load.md), [save](save.md), [capture](capture.md), [cut](cut.md), <a href="copy">copy</a>, [delete](delete.md), [paste](paste.md), or [undo](undo.md) operation has progressed. (Applications can use this to provide a visual indicator of progress.)</td>
+<td>Returns the estimated percentage a <a href="load">load</a>, <a href="save">save</a>, <a href="capture">capture</a>, <a href="cut">cut</a>, <a href="copy">copy</a>, <a href="delete">delete</a>, <a href="paste">paste</a>, or <a href="undo">undo</a> operation has progressed. (Applications can use this to provide a visual indicator of progress.)</td>
 </tr>
 <tr class="even">
 <td>file format</td>
-<td>Returns the current file format for [record](record.md) or <strong>save</strong> commands.</td>
+<td>Returns the current file format for <a href="record">record</a> or <strong>save</strong> commands.</td>
 </tr>
 <tr class="odd">
 <td>file mode</td>
@@ -749,7 +749,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>video monitor number</td>
-<td>Returns the monitored-video number of the type returned by status &quot;video monitor&quot;. For more information, see the [setvideo](setvideo.md) command.</td>
+<td>Returns the monitored-video number of the type returned by status &quot;video monitor&quot;. For more information, see the <a href="setvideo">setvideo</a> command.</td>
 </tr>
 <tr class="odd">
 <td>video record</td>

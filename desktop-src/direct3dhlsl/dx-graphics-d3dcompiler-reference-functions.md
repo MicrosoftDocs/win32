@@ -123,10 +123,10 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <br/> Gets shader debug information.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3DGetInputAndOutputSignatureBlob</strong>](d3dgetinputandoutputsignatureblob.md)<br/></td>
+<td><a href="d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-[<strong>D3DGetInputAndOutputSignatureBlob</strong>](d3dgetinputandoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong></a> value.
+<a href="d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong></a> value.
 </blockquote>
 <br/> Gets the input and output signatures from a compilation result.<br/></td>
 </tr>
@@ -134,15 +134,15 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong></a> value.
+<a href="d3dgetinputsignatureblob"><strong>D3DGetInputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong></a> value.
 </blockquote>
 <br/> Gets the input signature from a compilation result.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3DGetOutputSignatureBlob</strong>](d3dgetoutputsignatureblob.md)<br/></td>
+<td><a href="d3dgetoutputsignatureblob"><strong>D3DGetOutputSignatureBlob</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-[<strong>D3DGetOutputSignatureBlob</strong>](d3dgetoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong></a> value.
+<a href="d3dgetoutputsignatureblob"><strong>D3DGetOutputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong></a> value.
 </blockquote>
 <br/> Gets the output signature from a compilation result.<br/></td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 Description: Specifies an algorithm identifier.
 ms.assetid: 557436b4-f7f1-4708-acc7-c6b47e6322ad
-title: ALG\_ID
+title: ALG_ID
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -9,9 +9,9 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# ALG\_ID
+# ALG_ID
 
-The **ALG\_ID** data type specifies an algorithm identifier. Parameters of this data type are passed to most of the functions in CryptoAPI.
+The **ALG_ID** data type specifies an algorithm identifier. Parameters of this data type are passed to most of the functions in CryptoAPI.
 
 
 ```C++
@@ -20,7 +20,7 @@ typedef unsigned int ALG_ID;
 
 
 
-The following table lists the algorithm identifiers that are currently defined. Authors of custom [*cryptographic service providers*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSPs) can define new values. Also, the **ALG\_ID** used by custom CSPs for the key specifications **AT\_KEYEXCHANGE** and **AT\_SIGNATURE** are provider dependent. Current mappings follow the table.
+The following table lists the algorithm identifiers that are currently defined. Authors of custom [*cryptographic service providers*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSPs) can define new values. Also, the **ALG_ID** used by custom CSPs for the key specifications **AT_KEYEXCHANGE** and **AT_SIGNATURE** are provider dependent. Current mappings follow the table.
 
 
 
@@ -76,7 +76,7 @@ The following table lists the algorithm identifiers that are currently defined. 
 <tr class="even">
 <td>CALG_CYLINK_MEK</td>
 <td>0x0000660c</td>
-<td>An algorithm to create a 40-bit DES key that has parity bits and zeroed key bits to make its key length 64 bits. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>An algorithm to create a 40-bit DES key that has parity bits and zeroed key bits to make its key length 64 bits. This algorithm is supported by the <a href=""></a><a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_DES</td>
@@ -151,7 +151,7 @@ This algorithm is supported only through <a href="https://msdn.microsoft.com/en-
 <tr class="even">
 <td>CALG_HMAC</td>
 <td>0x00008009</td>
-<td>HMAC keyed hash algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>HMAC keyed hash algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_KEA_KEYX</td>
@@ -161,12 +161,12 @@ This algorithm is supported only through <a href="https://msdn.microsoft.com/en-
 <tr class="even">
 <td>CALG_MAC</td>
 <td>0x00008005</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx"><em>MAC</em></a> keyed hash algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx"><em>MAC</em></a> keyed hash algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_MD2</td>
 <td>0x00008001</td>
-<td>MD2 hashing algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>MD2 hashing algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_MD4</td>
@@ -176,7 +176,7 @@ This algorithm is supported only through <a href="https://msdn.microsoft.com/en-
 <tr class="odd">
 <td>CALG_MD5</td>
 <td>0x00008003</td>
-<td>MD5 hashing algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>MD5 hashing algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_NO_SIGN</td>
@@ -201,12 +201,12 @@ This algorithm is supported only through <a href="https://msdn.microsoft.com/en-
 <tr class="even">
 <td>CALG_RC2</td>
 <td>0x00006602</td>
-<td>RC2 block encryption algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>RC2 block encryption algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_RC4</td>
 <td>0x00006801</td>
-<td>RC4 stream encryption algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>RC4 stream encryption algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_RC5</td>
@@ -216,12 +216,12 @@ This algorithm is supported only through <a href="https://msdn.microsoft.com/en-
 <tr class="odd">
 <td>CALG_RSA_KEYX</td>
 <td>0x0000a400</td>
-<td>RSA public key exchange algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>RSA public key exchange algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_RSA_SIGN</td>
 <td>0x00002400</td>
-<td>RSA public key signature algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>RSA public key signature algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_SCHANNEL_ENC_KEY</td>
@@ -246,12 +246,12 @@ This algorithm is supported only through <a href="https://msdn.microsoft.com/en-
 <tr class="odd">
 <td>CALG_SHA</td>
 <td>0x00008004</td>
-<td>SHA hashing algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>SHA hashing algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_SHA1</td>
 <td>0x00008004</td>
-<td>Same as <strong>CALG_SHA</strong>. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>Same as <strong>CALG_SHA</strong>. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_SHA_256</td>
@@ -310,15 +310,15 @@ This algorithm is supported only through <a href="https://msdn.microsoft.com/en-
 
  
 
-For the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md), the [Microsoft Strong Cryptographic Provider](microsoft-strong-cryptographic-provider.md), and the [Microsoft Enhanced Cryptographic Provider](microsoft-enhanced-cryptographic-provider.md), the **ALG\_IDs** used for the key specifications **AT\_KEYEXCHANGE** and **AT\_SIGNATURE** are as follows:
+For the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md), the [Microsoft Strong Cryptographic Provider](microsoft-strong-cryptographic-provider.md), and the [Microsoft Enhanced Cryptographic Provider](microsoft-enhanced-cryptographic-provider.md), the **ALG_IDs** used for the key specifications **AT_KEYEXCHANGE** and **AT_SIGNATURE** are as follows:
 
--   **CALG\_RSA\_KEYX** is used for **AT\_KEYEXCHANGE**.
--   **CALG\_RSA\_SIGN** is used for **AT\_SIGNATURE**.
+-   **CALG_RSA_KEYX** is used for **AT_KEYEXCHANGE**.
+-   **CALG_RSA_SIGN** is used for **AT_SIGNATURE**.
 
-For the [Microsoft Base DSS and Diffie-Hellman Cryptographic Provider](microsoft-base-dss-and-diffie-hellman-cryptographic-provider.md), the **ALG\_IDs** used for the key specifications **AT\_KEYEXCHANGE** and **AT\_SIGNATURE** are as follows:
+For the [Microsoft Base DSS and Diffie-Hellman Cryptographic Provider](microsoft-base-dss-and-diffie-hellman-cryptographic-provider.md), the **ALG_IDs** used for the key specifications **AT_KEYEXCHANGE** and **AT_SIGNATURE** are as follows:
 
--   **CALG\_DH\_SF** is used for **AT\_KEYEXCHANGE**.
--   **CALG\_DSS\_SIGN** is used for **AT\_SIGNATURE**.
+-   **CALG_DH_SF** is used for **AT_KEYEXCHANGE**.
+-   **CALG_DSS_SIGN** is used for **AT_SIGNATURE**.
 
 ## Requirements
 
@@ -339,7 +339,7 @@ For the [Microsoft Base DSS and Diffie-Hellman Cryptographic Provider](microsoft
 [Cryptography Functions](cryptography-functions.md)
 </dt> <dt>
 
-[**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier)
+[**CRYPT_ALGORITHM_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier)
 </dt> <dt>
 
 [**CryptFindOIDInfo**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindoidinfo)

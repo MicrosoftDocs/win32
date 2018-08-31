@@ -33,8 +33,8 @@ The AAC decoder supports the following audio subtypes:
 
 | Subtype                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Header       |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| **MFAudioFormat\_AAC**      | Raw AAC or ADTS AAC.<br/> For this subtype, the media type gives the sample rate and number of channels prior to the application of spectral band replication (SBR) and parametric stereo (PS) tools, if present. The effect of the SBR tool is to double the decoded sample rate relative to the core AAC-LC sample rate. The effect of the PS tool is to decode stereo from a mono-channel core AAC-LC stream.<br/> This subtype is equivalent to **MEDIASUBTYPE\_MPEG\_HEAAC**, defined in wmcodecdsp.h. See [Audio Subtype GUIDs](audio-subtype-guids.md). <br/> The [MPEG-4 File Source](mpeg-4-file-source.md) and the ADTS Parser output this subtype. <br/> | mfapi.h      |
-| **MEDIASUBTYPE\_RAW\_AAC1** | Raw AAC. <br/> This subtype is used for AAC contained in an AVI file with the audio format tag equal to WAVE\_FORMAT\_RAW\_AAC1 (0x00FF). <br/> For this subtype, the media type gives the sample rate and number of channels after the SBR and PS tools are applied, if present.<br/>                                                                                                                                                                                                                                                                                                                                                                                      | wmcodecdsp.h |
+| **MFAudioFormat_AAC**      | Raw AAC or ADTS AAC.<br/> For this subtype, the media type gives the sample rate and number of channels prior to the application of spectral band replication (SBR) and parametric stereo (PS) tools, if present. The effect of the SBR tool is to double the decoded sample rate relative to the core AAC-LC sample rate. The effect of the PS tool is to decode stereo from a mono-channel core AAC-LC stream.<br/> This subtype is equivalent to **MEDIASUBTYPE_MPEG_HEAAC**, defined in wmcodecdsp.h. See [Audio Subtype GUIDs](audio-subtype-guids.md). <br/> The [MPEG-4 File Source](mpeg-4-file-source.md) and the ADTS Parser output this subtype. <br/> | mfapi.h      |
+| **MEDIASUBTYPE_RAW_AAC1** | Raw AAC. <br/> This subtype is used for AAC contained in an AVI file with the audio format tag equal to WAVE_FORMAT_RAW_AAC1 (0x00FF). <br/> For this subtype, the media type gives the sample rate and number of channels after the SBR and PS tools are applied, if present.<br/>                                                                                                                                                                                                                                                                                                                                                                                      | wmcodecdsp.h |
 
 
 
@@ -74,7 +74,7 @@ To configure the AAC decoder, set the following attributes on the input media ty
 <td>Optional. Applies only to <strong>MFAudioFormat_AAC</strong>. <br/> The value of this attribute is the <strong>audioProfileLevelIndication</strong> field, as defined by ISO/IEC 14496-3. <br/> If unknown, set to zero or 0xFE (&quot;no audio profile specified&quot;).<br/></td>
 </tr>
 <tr class="even">
-<td>[MF_MT_AAC_PAYLOAD_TYPE](mf-mt-aac-payload-type.md)</td>
+<td><a href="mf-mt-aac-payload-type">MF_MT_AAC_PAYLOAD_TYPE</a></td>
 <td>Payload type.<br/></td>
 <td>Applies only to <strong>MFAudioFormat_AAC</strong>. The decoder supports the following payload types: <br/>
 <ul>
@@ -82,7 +82,7 @@ To configure the AAC decoder, set the following attributes on the input media ty
 <li>1: ADTS. The stream contains an adts_sequence(), as defined by MPEG-2. Only one raw_data_block() per adts_frame() is allowed.</li>
 <li>3: Audio transport stream with a synchronization layer (LOAS) and a multiplex layer (LATM). Of the three types of LOAS, only <strong>AudioSyncStream</strong> is supported. The multiplex layer is <strong>AudioMuxElement</strong>, restricted to one audio program and one layer.</li>
 </ul>
-[MF_MT_AAC_PAYLOAD_TYPE](mf-mt-aac-payload-type.md) is optional. If this attribute is not specified, the default value 0 is used, which specifies the stream contains raw_data_block elements only.<br/></td>
+<a href="mf-mt-aac-payload-type">MF_MT_AAC_PAYLOAD_TYPE</a> is optional. If this attribute is not specified, the default value 0 is used, which specifies the stream contains raw_data_block elements only.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-bits-per-sample-attribute"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
@@ -186,11 +186,11 @@ Sampling rates above 48 kHz are not supported.
 
 The decoder supports up to 6 audio channels. For each speaker configuration, the decoder expects the AAC syntactic elements to appear in a certain order. The following table lists the supported speaker configurations. The third column of the table lists the expected syntactic elements and their order, using the following notation:
 
--   <SCE1>: The single\_channel\_element (SCE) associated with the front center speaker.
+-   <SCE1>: The single_channel_element (SCE) associated with the front center speaker.
 -   <SCE2>: The SCE associated with the back center speaker.
--   <CPE1>: The channel\_pair\_element (CPE) associated with the front speakers.
+-   <CPE1>: The channel_pair_element (CPE) associated with the front speakers.
 -   <CPE2>: The CPE associated with the back (or side) speakers
--   <LFE>: The lfe\_channel\_element (LFE).
+-   <LFE>: The lfe_channel_element (LFE).
 
 For more information about these syntactic elements, refer to ISO/IEC 13818-7.
 
@@ -198,14 +198,14 @@ For more information about these syntactic elements, refer to ISO/IEC 13818-7.
 
 | Configuration       | Channel Mask                                                                                                                                                              | AAC Syntactic Elements                          |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Mono                | **SPEAKER\_FRONT\_CENTER**                                                                                                                                                | <SCE1>                                    |
-| Stereo or dual mono | **SPEAKER\_FRONT\_LEFT** \| **SPEAKER\_FRONT\_RIGHT**                                                                                                                     | <CPE1>                                    |
-| 2/1                 | **SPEAKER\_FRONT\_LEFT** \| **SPEAKER\_FRONT\_RIGHT** \| **SPEAKER\_BACK\_CENTER**                                                                                        | <CPE1><SCE1>                        |
-| 2/2                 | **SPEAKER\_FRONT\_LEFT** \| **SPEAKER\_FRONT\_RIGHT** \| **SPEAKER\_BACK\_LEFT** \| **SPEAKER\_BACK\_RIGHT**                                                              | <CPE1><CPE2>                        |
-| 3/0                 | **SPEAKER\_FRONT\_LEFT** \| **SPEAKER\_FRONT\_RIGHT** \| **SPEAKER\_FRONT\_CENTER**                                                                                       | <SCE1><CPE1>                        |
-| 3/1                 | **SPEAKER\_FRONT\_LEFT** \| **SPEAKER\_FRONT\_RIGHT** \| **SPEAKER\_FRONT\_CENTER** \| **SPEAKER\_BACK\_CENTER**                                                          | <SCE1><CPE1><SCE2>            |
-| 3/2                 | **SPEAKER\_FRONT\_LEFT** \| **SPEAKER\_FRONT\_RIGHT** \| **SPEAKER\_FRONT\_CENTER** \| **SPEAKER\_BACK\_LEFT** \| **SPEAKER\_BACK\_RIGHT**                                | <SCE1><CPE1><CPE2>            |
-| 3/2 + LFE           | **SPEAKER\_FRONT\_LEFT** \| **SPEAKER\_FRONT\_RIGHT** \| **SPEAKER\_FRONT\_CENTER** \| **SPEAKER\_LOW\_FREQUENCY** \| **SPEAKER\_BACK\_LEFT** \| **SPEAKER\_BACK\_RIGHT** | <SCE1><CPE1><CPE2><LFE> |
+| Mono                | **SPEAKER_FRONT_CENTER**                                                                                                                                                | <SCE1>                                    |
+| Stereo or dual mono | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT**                                                                                                                     | <CPE1>                                    |
+| 2/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_CENTER**                                                                                        | <CPE1><SCE1>                        |
+| 2/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                                              | <CPE1><CPE2>                        |
+| 3/0                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER**                                                                                       | <SCE1><CPE1>                        |
+| 3/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_CENTER**                                                          | <SCE1><CPE1><SCE2>            |
+| 3/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                | <SCE1><CPE1><CPE2>            |
+| 3/2 + LFE           | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_LOW_FREQUENCY** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT** | <SCE1><CPE1><CPE2><LFE> |
 
 
 
@@ -273,25 +273,25 @@ Here is an example of the input media type needed for a 6-channel, 48-kHz AAC-LC
 
 | Attribute                                                                                      | Value                                                                                |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [**MF\_MT\_MAJOR\_TYPE**](mf-mt-major-type-attribute.md)                                      | **MFMediaType\_Audio**                                                               |
-| [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md)                                             | **MFAudioFormat\_AAC**                                                               |
-| [**MF\_MT\_AUDIO\_SAMPLES\_PER\_SECOND**](mf-mt-audio-samples-per-second-attribute.md)        | 48000                                                                                |
-| [**MF\_MT\_AUDIO\_NUM\_CHANNELS**](mf-mt-audio-num-channels-attribute.md)                     | 6                                                                                    |
-| [MF\_MT\_AAC\_PAYLOAD\_TYPE](mf-mt-aac-payload-type.md)                                       | 0                                                                                    |
-| [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md)                                        | {0x00, 0x00, 0x2a, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x11, 0xb0} |
-| [MF\_MT\_AAC\_AUDIO\_PROFILE\_LEVEL\_INDICATION](mf-mt-aac-audio-profile-level-indication.md) | 0x2a (optional)                                                                      |
+| [**MF_MT_MAJOR_TYPE**](mf-mt-major-type-attribute.md)                                      | **MFMediaType_Audio**                                                               |
+| [**MF_MT_SUBTYPE**](mf-mt-subtype-attribute.md)                                             | **MFAudioFormat_AAC**                                                               |
+| [**MF_MT_AUDIO_SAMPLES_PER_SECOND**](mf-mt-audio-samples-per-second-attribute.md)        | 48000                                                                                |
+| [**MF_MT_AUDIO_NUM_CHANNELS**](mf-mt-audio-num-channels-attribute.md)                     | 6                                                                                    |
+| [MF_MT_AAC_PAYLOAD_TYPE](mf-mt-aac-payload-type.md)                                       | 0                                                                                    |
+| [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md)                                        | {0x00, 0x00, 0x2a, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x11, 0xb0} |
+| [MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION](mf-mt-aac-audio-profile-level-indication.md) | 0x2a (optional)                                                                      |
 
 
 
  
 
-The first 12 bytes of [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) correspond to the following [**HEAACWAVEINFO**](https://msdn.microsoft.com/library/windows/desktop/dd757806) structure members:
+The first 12 bytes of [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) correspond to the following [**HEAACWAVEINFO**](https://msdn.microsoft.com/library/windows/desktop/dd757806) structure members:
 
 -   **wPayloadType** = 0 (raw AAC)
 -   **wAudioProfileLevelIndication** = 0x2a (AAC Profile, Level 4)
 -   **wStructType** = 0
 
-The last two bytes of [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) contain the value of AudioSpecificConfig(), as defined by MPEG-4.
+The last two bytes of [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) contain the value of AudioSpecificConfig(), as defined by MPEG-4.
 
 -   AudioSpecificConfig.audioObjectType = 2 (AAC LC) (5 bits)
 -   AudioSpecificConfig.samplingFrequencyIndex = 3 (4 bits)
@@ -306,14 +306,14 @@ Given this input type, use the following output media type to get 6-channel, 32-
 
 | Attribute                                                                                    | Value                    |
 |----------------------------------------------------------------------------------------------|--------------------------|
-| [**MF\_MT\_MAJOR\_TYPE**](mf-mt-major-type-attribute.md)                                    | **MFMediaType\_Audio**   |
-| [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md)                                           | **MFAudioFormat\_Float** |
-| [**MF\_MT\_AUDIO\_BITS\_PER\_SAMPLE**](mf-mt-audio-bits-per-sample-attribute.md)            | 32                       |
-| [**MF\_MT\_AUDIO\_SAMPLES\_PER\_SECOND**](mf-mt-audio-samples-per-second-attribute.md)      | 48000                    |
-| [**MF\_MT\_AUDIO\_NUM\_CHANNELS**](mf-mt-audio-num-channels-attribute.md)                   | 6                        |
-| [**MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND**](mf-mt-audio-avg-bytes-per-second-attribute.md) | 1152000 (optional)       |
-| [**MF\_MT\_AUDIO\_BLOCK\_ALIGNMENT**](mf-mt-audio-block-alignment-attribute.md)             | 24 (optional)            |
-| [**MF\_MT\_AUDIO\_CHANNEL\_MASK**](mf-mt-audio-channel-mask-attribute.md)                   | 0x3f (optional)          |
+| [**MF_MT_MAJOR_TYPE**](mf-mt-major-type-attribute.md)                                    | **MFMediaType_Audio**   |
+| [**MF_MT_SUBTYPE**](mf-mt-subtype-attribute.md)                                           | **MFAudioFormat_Float** |
+| [**MF_MT_AUDIO_BITS_PER_SAMPLE**](mf-mt-audio-bits-per-sample-attribute.md)            | 32                       |
+| [**MF_MT_AUDIO_SAMPLES_PER_SECOND**](mf-mt-audio-samples-per-second-attribute.md)      | 48000                    |
+| [**MF_MT_AUDIO_NUM_CHANNELS**](mf-mt-audio-num-channels-attribute.md)                   | 6                        |
+| [**MF_MT_AUDIO_AVG_BYTES_PER_SECOND**](mf-mt-audio-avg-bytes-per-second-attribute.md) | 1152000 (optional)       |
+| [**MF_MT_AUDIO_BLOCK_ALIGNMENT**](mf-mt-audio-block-alignment-attribute.md)             | 24 (optional)            |
+| [**MF_MT_AUDIO_CHANNEL_MASK**](mf-mt-audio-channel-mask-attribute.md)                   | 0x3f (optional)          |
 
 
 
@@ -354,11 +354,3 @@ If Platform Update Supplement for Windows Vista is installed, the AAC audio deco
 
 [Supported Media Formats in Media Foundation](supported-media-formats-in-media-foundation.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

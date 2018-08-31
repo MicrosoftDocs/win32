@@ -86,7 +86,7 @@ The offset does not have the same effect as a translation because the noise func
 </tr>
 <tr class="odd">
 <td>Noise<br/> D2D1_TURBULENCE_PROP_NOISE<br/></td>
-<td>The turbulence noise mode. This property can be either <em>fractal sum</em> or <em>turbulence</em>. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. See [Noise modes](#noise-modes) for more info. <br/> The type is D2D1_TURBULENCE_NOISE.<br/> The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.<br/></td>
+<td>The turbulence noise mode. This property can be either <em>fractal sum</em> or <em>turbulence</em>. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. See <a href="#noise-modes">Noise modes</a> for more info. <br/> The type is D2D1_TURBULENCE_NOISE.<br/> The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.<br/></td>
 </tr>
 <tr class="even">
 <td>Stitchable<br/> D2D1_TURBULENCE_PROP_STITCHABLE<br/></td>

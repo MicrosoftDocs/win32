@@ -1,4 +1,3 @@
-
 ---
 Description: You can use the DrawString method of the Graphics class to draw text at a specified location or within a specified rectangle.
 ms.assetid: a873c132-f232-4144-bcc3-ca200055074c
@@ -12,7 +11,7 @@ ms.date: 05/31/2018
 
 # Drawing Text
 
-You can use the [DrawString](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar_int_const font_const pointf &_const brush)) method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class to draw text at a specified location or within a specified rectangle.
+You can use the [DrawString](/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring) method of the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class to draw text at a specified location or within a specified rectangle.
 
 -   [Drawing Text at a Specified Location](#drawing-text-at-a-specified-location)
 -   [Drawing Text in a Rectangle](#drawing-text-in-a-rectangle)
@@ -23,7 +22,6 @@ To draw text at a specified location, you need [**Graphics**](/windows/desktop/a
 
 The following example draws the string "Hello" at location (30, 10). The font family is Times New Roman. The font, which is an individual member of the font family, is Times New Roman, size 24 pixels, regular style. Assume that **graphics** is an existing [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object.
 
-
 ```
 FontFamily  fontFamily(L"Times New Roman");
 Font        font(&fontFamily, 24, FontStyleRegular, UnitPixel);
@@ -31,10 +29,8 @@ PointF      pointF(30.0f, 10.0f);
 SolidBrush  solidBrush(Color(255, 0, 0, 255));
 
 graphics.DrawString(L"Hello", -1, &font, pointF, &solidBrush);
-            
+
 ```
-
-
 
 The following illustration shows the output of the preceding code.
 
@@ -50,11 +46,10 @@ One of the [**DrawString**](https://www.bing.com/search?q=**DrawString**) method
 
 The following example creates a rectangle with upper-left corner (30, 10), width 100, and height 122. Then the code draws a string inside that rectangle. The string is restricted to the rectangle and wraps in such a way that individual words are not broken.
 
-
 ```
 WCHAR string[] = 
    L"Draw text in a rectangle by passing a RectF to the DrawString method.";
-                       
+
 FontFamily   fontFamily(L"Arial");
 Font         font(&fontFamily, 12, FontStyleBold, UnitPoint);
 RectF        rectF(30.0f, 10.0f, 100.0f, 122.0f);
@@ -64,20 +59,10 @@ graphics.DrawString(string, -1, &font, rectF, NULL, &solidBrush);
 
 Pen pen(Color(255, 0, 0, 0));
 graphics.DrawRectangle(&pen, rectF);
-            
 ```
-
-
 
 The following illustration shows the text drawn in the rectangle.
 
 ![screen shot of a small window containing a recangle, within which appears the first part of a sentence](images/fontstext2.png)
 
 In the preceding example, the fourth argument passed to the [**DrawString**](https://www.bing.com/search?q=**DrawString**) method is a [**RectF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf) object that specifies the bounding rectangle for the text. The fifth parameter is of type [**StringFormat**](/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat)— the argument is **NULL** because no special string formatting is required.
-
- 
-
- 
-
-
-

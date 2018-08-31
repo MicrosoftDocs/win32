@@ -114,7 +114,7 @@ Or, to use a double quote mark:
 </tr>
 <tr class="odd">
 <td>Wildcard</td>
-<td>Words or phrases with the asterisk (*) added to the end. For more information, see [Using Wildcards in the CONTAINS Predicate](-search-sql-wildcards.md).</td>
+<td>Words or phrases with the asterisk (*) added to the end. For more information, see <a href="-search-sql-wildcards">Using Wildcards in the CONTAINS Predicate</a>.</td>
 <td><div class="code">
 <span data-codelanguage=""></span>
 <table>
@@ -183,7 +183,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 </tr>
 <tr class="even">
 <td>Near</td>
-<td>Words, phrases, or wildcards separated by the function NEAR. For more information, see [NEAR Term](-search-sql-near.md).</td>
+<td>Words, phrases, or wildcards separated by the function NEAR. For more information, see <a href="-search-sql-near">NEAR Term</a>.</td>
 <td><div class="code">
 <span data-codelanguage=""></span>
 <table>
@@ -202,7 +202,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 </tr>
 <tr class="odd">
 <td>FormsOf</td>
-<td>Matches a word and the inflectional versions of that word. For more information, see [FORMSOF Term](-search-sql-formsof.md).</td>
+<td>Matches a word and the inflectional versions of that word. For more information, see <a href="-search-sql-formsof">FORMSOF Term</a>.</td>
 <td><div class="code">
 <span data-codelanguage=""></span>
 <table>
@@ -225,7 +225,7 @@ Matches &quot;happy&quot;, &quot;happier&quot;,
 </tr>
 <tr class="even">
 <td>IsAbout</td>
-<td>Combines matching results over multiple word, phrase, or wildcard search terms. Each search term can optionally be weighted. You can optionally specify the rank calculation method, which combines the weights and how many of the items the document matches. For more information, see [ISABOUT Term](-search-sql-isabout.md).</td>
+<td>Combines matching results over multiple word, phrase, or wildcard search terms. Each search term can optionally be weighted. You can optionally specify the rank calculation method, which combines the weights and how many of the items the document matches. For more information, see <a href="-search-sql-isabout">ISABOUT Term</a>.</td>
 <td><div class="code">
 <span data-codelanguage=""></span>
 <table>

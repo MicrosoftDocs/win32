@@ -122,7 +122,7 @@ The table below shows how applications will render under different scenarios:
 <ul>
 <li>Non-client area</li>
 <li>Theme-drawn bitmaps in common controls (comctl32 V6)</li>
-<li>Dialogs ([CreateDialog](https://msdn.microsoft.com/library/windows/desktop/ms645434)*)</li>
+<li>Dialogs (<a href="https://msdn.microsoft.com/library/windows/desktop/ms645434">CreateDialog</a>*)</li>
 </ul>
 <br/></td>
 </tr>
@@ -172,7 +172,7 @@ The table below shows the level of per-monitor DPI awareness support offered by 
 <td>Full</td>
 <td>1604</td>
 <td>UI framework</td>
-<td>[Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp)</td>
+<td><a href="https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp">Universal Windows Platform (UWP)</a></td>
 </tr>
 <tr class="even">
 <td>Raw Win32/Common Controls V6 (comctl32.dll)</td>

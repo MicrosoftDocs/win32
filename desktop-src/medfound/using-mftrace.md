@@ -17,7 +17,7 @@ MFTrace uses the Detours library to hook into Media Foundation API calls and gen
 
 ## Usage
 
-**mftrace** \[**-a** *Process*\]\[**-c** *ConfigurationFile*\]\[**-dc**\]\[**-es**\]\[**-k** *KeyWords*\]\[**-l** *Level*\]\[**-o** *OutputFile*\]\[**-v**\]\[**-?**\] \[{*COMMAND*\|*ETL\_FILE*}\]
+**mftrace** \[**-a** *Process*\]\[**-c** *ConfigurationFile*\]\[**-dc**\]\[**-es**\]\[**-k** *KeyWords*\]\[**-l** *Level*\]\[**-o** *OutputFile*\]\[**-v**\]\[**-?**\] \[{*COMMAND*\|*ETL_FILE*}\]
 
 
 
@@ -39,7 +39,7 @@ MFTrace uses the Detours library to hook into Media Foundation API calls and gen
 </tr>
 <tr class="even">
 <td><span id="-c_Configuration_File"></span><span id="-c_configuration_file"></span><span id="-C_CONFIGURATION_FILE"></span><strong>-c</strong> <strong></strong> <em>Configuration File</em><br/></td>
-<td>Read settings from the specified configuration file. See [MFTrace Configuration File](mftrace-configuration-file.md).<br/></td>
+<td>Read settings from the specified configuration file. See <a href="mftrace-configuration-file">MFTrace Configuration File</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="-dc"></span><span id="-DC"></span><strong>-dc</strong><br/></td>
@@ -101,14 +101,14 @@ MFTrace uses the Detours library to hook into Media Foundation API calls and gen
 
 <dl> <dt>
 
-<span id="TRACE_FORMAT_SEARCH_PATH"></span><span id="trace_format_search_path"></span>TRACE\_FORMAT\_SEARCH\_PATH
+<span id="TRACE_FORMAT_SEARCH_PATH"></span><span id="trace_format_search_path"></span>TRACE_FORMAT_SEARCH_PATH
 </dt> <dd>
 
 To trace components that use the Windows software trace preprocessor (WPP), set this environment variable to the specify the path to the trace message format (TMF) files for the component.
 
 </dd> <dt>
 
-<span id="_NT_SYMBOL_PATH"></span><span id="_nt_symbol_path"></span>\_NT\_SYMBOL\_PATH
+<span id="_NT_SYMBOL_PATH"></span><span id="_nt_symbol_path"></span>_NT_SYMBOL_PATH
 </dt> <dd>
 
 If symbol lookup is enabled (**-es**), set this environment variable to specify the symbol path.

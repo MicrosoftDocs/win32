@@ -73,56 +73,56 @@ This section describes the Windows objects implemented by the Shell.
 <td>Represents the collection of verbs for an item in a Shell folder. This object contains properties and methods that allow you to retrieve information about the collection.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IShellDispatch</strong>](ishelldispatch.md)<br/></td>
+<td><a href="ishelldispatch"><strong>IShellDispatch</strong></a><br/></td>
 <td>Represents an object in the Shell. Methods are provided to control the Shell and to execute commands within the Shell. There are also methods to obtain other Shell-related objects. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IShellDispatch</strong>](ishelldispatch.md) is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
+<a href="ishelldispatch"><strong>IShellDispatch</strong></a> is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IShellDispatch2</strong>](ishelldispatch2-object.md)<br/></td>
-<td>Extends the [<strong>IShellDispatch</strong>](ishelldispatch.md) object with a variety of new functionality. <br/>
+<td><a href="ishelldispatch2-object"><strong>IShellDispatch2</strong></a><br/></td>
+<td>Extends the <a href="ishelldispatch"><strong>IShellDispatch</strong></a> object with a variety of new functionality. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IShellDispatch2</strong>](ishelldispatch2-object.md) is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
+<a href="ishelldispatch2-object"><strong>IShellDispatch2</strong></a> is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IShellDispatch3</strong>](ishelldispatch3.md)<br/></td>
-<td>Extends the [<strong>IShellDispatch2</strong>](ishelldispatch2-object.md) object. [<strong>IShellDispatch3</strong>](ishelldispatch3.md) supports one new method in addition to the properties and methods supported by <strong>IShellDispatch2</strong>. <br/>
+<td><a href="ishelldispatch3"><strong>IShellDispatch3</strong></a><br/></td>
+<td>Extends the <a href="ishelldispatch2-object"><strong>IShellDispatch2</strong></a> object. <a href="ishelldispatch3"><strong>IShellDispatch3</strong></a> supports one new method in addition to the properties and methods supported by <strong>IShellDispatch2</strong>. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IShellDispatch3</strong>](ishelldispatch3.md) is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
+<a href="ishelldispatch3"><strong>IShellDispatch3</strong></a> is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IShellDispatch4</strong>](ishelldispatch4.md)<br/></td>
-<td>Extends the [<strong>IShellDispatch3</strong>](ishelldispatch3.md) object. In addition to the properties and methods supported by <strong>IShellDispatch3</strong>, [<strong>IShellDispatch4</strong>](ishelldispatch4.md) supports four additional methods. <br/>
+<td><a href="ishelldispatch4"><strong>IShellDispatch4</strong></a><br/></td>
+<td>Extends the <a href="ishelldispatch3"><strong>IShellDispatch3</strong></a> object. In addition to the properties and methods supported by <strong>IShellDispatch3</strong>, <a href="ishelldispatch4"><strong>IShellDispatch4</strong></a> supports four additional methods. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IShellDispatch4</strong>](ishelldispatch4.md) is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
+<a href="ishelldispatch4"><strong>IShellDispatch4</strong></a> is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IShellDispatch5</strong>](ishelldispatch5.md)<br/></td>
-<td>Extends the [<strong>IShellDispatch4</strong>](ishelldispatch4.md) object. In addition to the properties and methods supported by <strong>IShellDispatch4</strong>, [<strong>IShellDispatch5</strong>](ishelldispatch5.md) adds a method that displays open windows in a 3D stack. <br/>
+<td><a href="ishelldispatch5"><strong>IShellDispatch5</strong></a><br/></td>
+<td>Extends the <a href="ishelldispatch4"><strong>IShellDispatch4</strong></a> object. In addition to the properties and methods supported by <strong>IShellDispatch4</strong>, <a href="ishelldispatch5"><strong>IShellDispatch5</strong></a> adds a method that displays open windows in a 3D stack. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IShellDispatch5</strong>](ishelldispatch5.md) is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
+<a href="ishelldispatch5"><strong>IShellDispatch5</strong></a> is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IShellDispatch6</strong>](ishelldispatch6.md)<br/></td>
-<td>Extends the [<strong>IShellDispatch5</strong>](ishelldispatch5.md) object. In addition to the properties and methods supported by <strong>IShellDispatch5</strong>, [<strong>IShellDispatch6</strong>](ishelldispatch6.md) adds a method that displays the Apps Search pane. <br/>
+<td><a href="ishelldispatch6"><strong>IShellDispatch6</strong></a><br/></td>
+<td>Extends the <a href="ishelldispatch5"><strong>IShellDispatch5</strong></a> object. In addition to the properties and methods supported by <strong>IShellDispatch5</strong>, <a href="ishelldispatch6"><strong>IShellDispatch6</strong></a> adds a method that displays the Apps Search pane. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IShellDispatch6</strong>](ishelldispatch6.md) is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
+<a href="ishelldispatch6"><strong>IShellDispatch6</strong></a> is implemented and accessed through the <a href="shell"><strong>Shell</strong></a> object.
 </blockquote>
 <br/></td>
 </tr>

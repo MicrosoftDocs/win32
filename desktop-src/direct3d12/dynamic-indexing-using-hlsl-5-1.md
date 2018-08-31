@@ -180,24 +180,24 @@ The contents of `g_txMats[]` are procedurally generated textures created in **Lo
 <tbody>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc"><strong>D3D12_RESOURCE_DESC</strong></a></td>
-<td><dl>[<strong>DXGI_FORMAT</strong>](https://msdn.microsoft.com/library/windows/desktop/bb173059)<br />
-[<strong>D3D12_RESOURCE_FLAGS</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags)<br />
-[<strong>D3D12_RESOURCE_DIMENSION</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_dimension)<br />
+<td><dl><a href="https://msdn.microsoft.com/library/windows/desktop/bb173059"><strong>DXGI_FORMAT</strong></a><br />
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags"><strong>D3D12_RESOURCE_FLAGS</strong></a><br />
+<a href=""></a>[<strong>D3D12_RESOURCE_DIMENSION</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_dimension)<br />
 </dl></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
 <td><dl><a href="cd3dx12-heap-properties"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
-[<strong>D3D12_HEAP_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags)<br />
-[<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
+<a href=""></a>[<strong>D3D12_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags)<br />
+<a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/cd3dx12-resource-desc"><strong>CD3DX12_RESOURCE_DESC</strong></a><br />
+<a href=""></a>[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
 </dl></td>
 </tr>
 <tr class="odd">
 <td><a href="https://msdn.microsoft.com/library/windows/desktop/ee420742"><strong>XMVECTOR</strong></a></td>
 <td><dl><a href="https://msdn.microsoft.com/library/windows/desktop/ee421213"><strong>XMVectorSet</strong></a><br />
-[<strong>XMColorHSLToRGB</strong>](https://msdn.microsoft.com/library/windows/desktop/hh437860)<br />
+<a href=""></a>[<strong>XMColorHSLToRGB</strong>](https://msdn.microsoft.com/library/windows/desktop/hh437860)<br />
 </dl></td>
 </tr>
 </tbody>
@@ -257,10 +257,10 @@ Texture data is uploaded to the GPU via an upload heap and SRVs are created for 
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
 <td><dl><a href="cd3dx12-heap-properties"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
-[<strong>D3D12_HEAP_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags)<br />
-[<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags"><strong>D3D12_HEAP_FLAG</strong></a><br />
+<a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/cd3dx12-resource-desc"><strong>CD3DX12_RESOURCE_DESC</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -273,8 +273,8 @@ Texture data is uploaded to the GPU via an upload heap and SRVs are created for 
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
-<td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<td><dl><a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 </tbody>
@@ -346,17 +346,17 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
 <tbody>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc"><strong>D3D12_RESOURCE_DESC</strong></a></td>
-<td><dl>[<strong>D3D12_RESOURCE_FLAGS</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags)<br />
-[<strong>D3D12_RESOURCE_DIMENSION</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_dimension)<br />
+<td><dl><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags"><strong>D3D12_RESOURCE_FLAGS</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_dimension"><strong>D3D12_RESOURCE_DIMENSION</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
 <td><dl><a href="cd3dx12-heap-properties"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
-[<strong>D3D12_HEAP_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags)<br />
-[<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags"><strong>D3D12_HEAP_FLAG</strong></a><br />
+<a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/cd3dx12-resource-desc"><strong>CD3DX12_RESOURCE_DESC</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -366,10 +366,10 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
 <td><dl><a href="cd3dx12-heap-properties"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
-[<strong>D3D12_HEAP_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags)<br />
-[<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags"><strong>D3D12_HEAP_FLAG</strong></a><br />
+<a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/cd3dx12-resource-desc"><strong>CD3DX12_RESOURCE_DESC</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -379,7 +379,7 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
 <td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 </tbody>
@@ -444,9 +444,9 @@ Finally for **LoadAssets**, a single sampler is created to sample from either th
 <tr class="odd">
 <td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_sampler_desc"><strong>D3D12_SAMPLER_DESC</strong></a></td>
 <td><dl><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_filter"><strong>D3D12_FILTER</strong></a><br />
-[<strong>D3D12_TEXTURE_ADDRESS_MODE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_texture_address_mode"></a><br />
 D3D12_FLOAT32_MAX (<a href="constants"><strong>Constants</strong></a>)<br />
-[<strong>D3D12_COMPARISON_FUNC</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_comparison_func"><strong>D3D12_COMPARISON_FUNC</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
@@ -460,7 +460,7 @@ D3D12_FLOAT32_MAX (<a href="constants"><strong>Constants</strong></a>)<br />
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
 <td><dl><a href="constants">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
-[<strong>D3D12_SRV_DIMENSION</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -470,8 +470,8 @@ D3D12_FLOAT32_MAX (<a href="constants"><strong>Constants</strong></a>)<br />
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
 <td><dl><a href="constants">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
-[<strong>DXGI_FORMAT</strong>](https://msdn.microsoft.com/library/windows/desktop/bb173059)<br />
-[<strong>D3D12_SRV_DIMENSION</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension)<br />
+<a href="https://msdn.microsoft.com/library/windows/desktop/bb173059"><strong>DXGI_FORMAT</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -521,10 +521,6 @@ The value of the root constant is set in **FrameResource::PopulateCommandLists**
 | [**SetGraphicsRootDescriptorTable**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable) |            |
 | [**DrawIndexedInstanced**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced)                     |            |
 
-
-
- 
-
 ## Run the sample
 
 Now when we render the scene, each city will have a different value for `matIndex` and will thus look up a different texture from `g_txMats[]` making the scene look like this:
@@ -552,11 +548,3 @@ Now when we render the scene, each city will have a different value for `matInde
 
 [Specifying Root Signatures in HLSL](specifying-root-signatures-in-hlsl.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

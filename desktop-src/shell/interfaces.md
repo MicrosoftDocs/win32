@@ -1331,16 +1331,16 @@ This interface is the current, renamed version of <a href="https://msdn.microsof
 <td>Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IUserNotification2</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2) differs from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a> only in its <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>Show</strong></a> method, which adds an additional parameter for a callback interface to communicate with the notification. Otherwise the two interfaces are identical in form and function. CLSID_UserNotification implements both versions of <strong>Show</strong> as an overload.
+<a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> differs from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a> only in its <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>Show</strong></a> method, which adds an additional parameter for a callback interface to communicate with the notification. Otherwise the two interfaces are identical in form and function. CLSID_UserNotification implements both versions of <strong>Show</strong> as an overload.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IUserNotification2</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2)<br/></td>
+<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a><br/></td>
 <td>Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IUserNotification2</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2) does not inherit from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a>. <strong>IUserNotification2</strong> differs from <strong>IUserNotification</strong> only in its <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>Show</strong></a> method, which adds an additional parameter for a callback interface to communicate with the notification. Otherwise the two interfaces are identical in form and function. CLSID_UserNotification implements both versions of <strong>Show</strong> as an overload.
+<a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> does not inherit from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>IUserNotification</strong></a>. <strong>IUserNotification2</strong> differs from <strong>IUserNotification</strong> only in its <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>Show</strong></a> method, which adds an additional parameter for a callback interface to communicate with the notification. Otherwise the two interfaces are identical in form and function. CLSID_UserNotification implements both versions of <strong>Show</strong> as an overload.
 </blockquote>
 <br/></td>
 </tr>
