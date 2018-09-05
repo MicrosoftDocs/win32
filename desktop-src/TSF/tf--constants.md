@@ -1,5 +1,5 @@
 ---
-title: TF\_\ Constants
+title: TF_ Constants
 description: TSF atom function calls use these constants to manage thread input processes.
 ms.assetid: 1b779d99-3e09-4789-8575-73a6ecb44e3b
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_RemoteDesktopServices02 class
+title: MDM_Policy_Config01_RemoteDesktopServices02 class
 description: The MDM\_Policy\_Config01\_RemoteDesktopServices02 class configures the remote desktop service policies.
 ms.assetid: d2c53be7-6dec-4603-b851-e9c979475496
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_SUBRESOURCE\_TILING structure
+title: CD3DX12_SUBRESOURCE_TILING structure
 description: A helper structure to enable easy initialization of a D3D12\_SUBRESOURCE\_TILING structure.
 ms.assetid: 102E5E25-300B-40F2-A953-E40AD7EE61AD
 keywords:

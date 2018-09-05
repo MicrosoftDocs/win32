@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the bounding rectangle of the Windows taskbar.
 ms.assetid: 8072bb2d-05e6-4baa-a7f4-1377b94fdd45
-title: ABM\_GETTASKBARPOS message
+title: ABM_GETTASKBARPOS message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

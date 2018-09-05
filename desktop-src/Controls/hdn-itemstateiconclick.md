@@ -1,5 +1,5 @@
 ---
-title: HDN\_ITEMSTATEICONCLICK message
+title: HDN_ITEMSTATEICONCLICK message
 description: Notifies a header control's parent window that the user clicked an item's state icon. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: a1969579-3a69-49ff-b06e-4b7450146a92
 keywords:

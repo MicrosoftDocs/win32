@@ -1,5 +1,5 @@
 ---
-title: PBM\_SETSTATE message
+title: PBM_SETSTATE message
 description: Sets the state of the progress bar.
 ms.assetid: 4626f334-db74-4618-8fc7-e6f21c88ca19
 keywords:

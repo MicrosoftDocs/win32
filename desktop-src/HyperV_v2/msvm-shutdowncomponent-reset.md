@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: cdd14090-4ea1-4547-b8a5-fd40f7e494f5
-title: Reset method of the Msvm\_ShutdownComponent class
+title: Reset method of the Msvm_ShutdownComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

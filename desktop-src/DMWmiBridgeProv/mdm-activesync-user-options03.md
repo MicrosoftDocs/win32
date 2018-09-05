@@ -1,5 +1,5 @@
 ---
-title: MDM\_ActiveSync\_User\_Options03 class
+title: MDM_ActiveSync_User_Options03 class
 description: The MDM\_ActiveSync\_User\_Options03 class defines the options that are set for each ActiveSync account.
 ms.assetid: b325f676-9b83-4212-a228-e2d774515be6
 keywords:

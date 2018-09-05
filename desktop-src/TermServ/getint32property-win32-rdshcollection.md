@@ -1,5 +1,5 @@
 ---
-title: GetInt32Property method of the Win32\_RDSHCollection class
+title: GetInt32Property method of the Win32_RDSHCollection class
 description: Retrieves an integer property value of a Win32\_RDSHCollection object.
 audience: developer
 author: REDMOND\\markl

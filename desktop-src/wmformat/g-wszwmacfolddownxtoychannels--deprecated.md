@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMACFoldDownXToYChannels
+title: g_wszWMACFoldDownXToYChannels
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: fba57510-f609-42f9-b33d-16668fd0f2fa
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_EXTENDED\_STORAGE\_INFO structure
+title: WINBIO_EXTENDED_STORAGE_INFO structure
 description: Contains information about the capabilities and enrollment requirements of the storage adapter for a biometric unit.
 ms.assetid: 7A648610-E947-4967-A9AF-C8A9C0B81D92
 keywords:

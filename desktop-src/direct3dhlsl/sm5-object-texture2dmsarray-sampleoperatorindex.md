@@ -1,5 +1,5 @@
 ---
-title: sample.Operator\ \ \ \ function
+title: sample.Operator    function
 description: Returns a read-only resource variable.
 ms.assetid: 5334c1d5-dfbd-4987-875c-0b92967b0f13
 keywords:

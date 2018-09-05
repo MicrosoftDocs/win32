@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_APNBinding02 class
+title: MDM_VPNv2_APNBinding02 class
 description: Reserved for Future Use.
 ms.assetid: ef530e79-b9cc-4bee-8d7b-45227ed55dbe
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETNUMBEROFWORKAREAS message
+title: LVM_GETNUMBEROFWORKAREAS message
 description: Retrieves the number of working areas in a list-view control. You can send this message explicitly or use the ListView\_GetNumberOfWorkAreas macro.
 ms.assetid: ce0bcccd-62a2-45a4-959e-9959c9ca0c46
 keywords:

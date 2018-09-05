@@ -1,7 +1,7 @@
 ---
 Description: An object that describes its type as WPD\_CONTENT\_TYPE\_TELEVISION represents a television recording.
 ms.assetid: b8e8da1a-94a9-4540-a4eb-fe0c0cd383f9
-title: WPD\_CONTENT\_TYPE\_TELEVISION
+title: WPD_CONTENT_TYPE_TELEVISION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

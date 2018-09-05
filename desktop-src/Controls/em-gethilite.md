@@ -1,5 +1,5 @@
 ---
-title: EM\_GETHILITE message
+title: EM_GETHILITE message
 description: EM\_GETHILITE message
 ms.assetid: efaa8b3c-230c-4295-9ffd-f2c290437b0d
 keywords:

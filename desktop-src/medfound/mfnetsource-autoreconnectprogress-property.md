@@ -1,7 +1,7 @@
 ---
 Description: The number of times the network source has attempted to reconnect to the network.
 ms.assetid: e3410e68-6358-4f00-8039-833a4ccdf7fa
-title: MFNETSOURCE\_AUTORECONNECTPROGRESS property
+title: MFNETSOURCE_AUTORECONNECTPROGRESS property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Event that signals when a flush operation has finished.
 ms.assetid: e2640fa1-03d1-4323-a9cb-698d130929f7
-title: COutputQueue::m\_evFlushComplete member
+title: COutputQueue::m_evFlushComplete member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

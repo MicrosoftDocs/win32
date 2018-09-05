@@ -1,5 +1,5 @@
 ---
-title: DisableUserVhd method of the Win32\_TSSessionDirectory class
+title: DisableUserVhd method of the Win32_TSSessionDirectory class
 description: Disables a user profile VHD.
 audience: developer
 author: REDMOND\\markl

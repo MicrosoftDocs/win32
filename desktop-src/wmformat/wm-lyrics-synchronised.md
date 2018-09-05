@@ -1,5 +1,5 @@
 ---
-title: WM/Lyrics\_Synchronised
+title: WM/Lyrics_Synchronised
 description: The WM/Lyrics\_Synchronised attribute contains lyrics synchronized to times in the file.
 ms.assetid: edc73826-9062-4767-8659-8ec4652c42ab
 keywords:

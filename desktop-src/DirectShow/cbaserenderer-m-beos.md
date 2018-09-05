@@ -1,7 +1,7 @@
 ---
 Description: Flag that indicates whether end-of-stream was reached.
 ms.assetid: bd919aac-1e37-4693-85ab-f747bfce8994
-title: CBaseRenderer::m\_bEOS member
+title: CBaseRenderer::m_bEOS member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

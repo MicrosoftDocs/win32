@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayRADIUSServer class
+title: Win32_TSGatewayRADIUSServer class
 description: Describes a Remote Authentication Dial-In User Service (RADIUS) server, which has a set of Remote Desktop Services connection authorization policies (RD \ 160;CAPs).
 audience: developer
 author: REDMOND\\markl

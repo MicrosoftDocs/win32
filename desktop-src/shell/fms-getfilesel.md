@@ -1,6 +1,6 @@
 ---
 Description: Contains information about a selected file in the active File Manager window (the directory window or the Search Results window).
-title: FMS\_GETFILESEL structure
+title: FMS_GETFILESEL structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

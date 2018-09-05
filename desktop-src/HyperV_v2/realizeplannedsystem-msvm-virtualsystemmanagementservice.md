@@ -1,7 +1,7 @@
 ---
 Description: Validates the configuration of a planned virtual machine and converts it to a realized virtual machine.
 ms.assetid: bddbdc35-4603-45c3-96b4-04f445dbb3a6
-title: RealizePlannedSystem method of the Msvm\_VirtualSystemManagementService class
+title: RealizePlannedSystem method of the Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

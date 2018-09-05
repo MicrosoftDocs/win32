@@ -1,7 +1,7 @@
 ---
 Description: Maximum number of frames from one key frame to the next, in a video media type.
 ms.assetid: 833a212c-83a8-4046-8ac7-2bce35b2a982
-title: MF\_MT\_MAX\_KEYFRAME\_SPACING attribute
+title: MF_MT_MAX_KEYFRAME_SPACING attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Sent to cancel certain modes, such as mouse capture.
 ms.assetid: c801233a-c4d8-4fd9-aaf0-3d4503bbce26
-title: WM\_CANCELMODE message
+title: WM_CANCELMODE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

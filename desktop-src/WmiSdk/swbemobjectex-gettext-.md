@@ -7,7 +7,7 @@ ms.assetid: 98961d94-8360-4ed7-b1b1-20b4fca45d45
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObjectEx.GetText\_ method
+title: SWbemObjectEx.GetText_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,7 +1,7 @@
 ---
 Description: Resets the virtual keyboard.
 ms.assetid: 6D4A9F02-53BD-47C2-9C09-F22C3630312F
-title: Reset method of the Msvm\_Keyboard class
+title: Reset method of the Msvm_Keyboard class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

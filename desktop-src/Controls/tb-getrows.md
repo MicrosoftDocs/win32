@@ -1,5 +1,5 @@
 ---
-title: TB\_GETROWS message
+title: TB_GETROWS message
 description: Retrieves the number of rows of buttons in a toolbar with the TBSTYLE\_WRAPABLE style.
 ms.assetid: ced30d62-762a-426e-b3c7-7e57c60145bd
 keywords:

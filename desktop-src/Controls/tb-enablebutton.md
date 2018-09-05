@@ -1,5 +1,5 @@
 ---
-title: TB\_ENABLEBUTTON message
+title: TB_ENABLEBUTTON message
 description: Enables or disables the specified button in a toolbar.
 ms.assetid: d73851ee-f909-4b70-9514-c45cd3a7e999
 keywords:

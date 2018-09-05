@@ -1,5 +1,5 @@
 ---
-title: WM\_BACKUP\_RESTORE\_STATUS structure
+title: WM_BACKUP_RESTORE_STATUS structure
 description: The WM\_BACKUP\_RESTORE\_STATUS structure holds information about a pending license backup or restore operation.
 ms.assetid: 74e94bc6-376b-4848-a9f9-11c9cb4005f2
 keywords:

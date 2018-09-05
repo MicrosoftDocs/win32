@@ -1,7 +1,7 @@
 ---
 Description: Sent to an extension DLL when File Manager is loading the DLL.
 ms.assetid: 9d673ab8-c468-4b46-b96e-1adfaa9f85fb
-title: FMEVENT\_LOAD message
+title: FMEVENT_LOAD message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

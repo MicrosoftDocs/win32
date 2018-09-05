@@ -1,5 +1,5 @@
 ---
-title: LB\_GETSEL message
+title: LB_GETSEL message
 description: Gets the selection state of an item.
 ms.assetid: f92c02e7-3c6d-4649-8798-42eb4a0c51b6
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Sets the render-target format for the Media Engine.
 ms.assetid: 70FFDD44-9FDE-4D86-AD65-60019AC4A2BC
-title: MF\_MEDIA\_ENGINE\_VIDEO\_OUTPUT\_FORMAT attribute
+title: MF_MEDIA_ENGINE_VIDEO_OUTPUT_FORMAT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

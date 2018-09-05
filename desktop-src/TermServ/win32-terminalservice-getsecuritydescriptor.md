@@ -1,5 +1,5 @@
 ---
-title: GetSecurityDescriptor method of the Win32\_Service class
+title: GetSecurityDescriptor method of the Win32_Service class
 description: Returns the security descriptor that controls access to the service.
 audience: developer
 author: REDMOND\\markl

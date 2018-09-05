@@ -1,5 +1,5 @@
 ---
-title: Win32\_CentralPublishingChangeEvent class
+title: Win32_CentralPublishingChangeEvent class
 description: An event that represents a change to the central RDV settings.
 audience: developer
 author: REDMOND\\markl

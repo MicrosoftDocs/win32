@@ -1,5 +1,5 @@
 ---
-title: WM\_MENUCOMMAND message
+title: WM_MENUCOMMAND message
 description: Sent when the user makes a selection from a menu.
 ms.assetid: 1ed702ef-8d32-4d4c-a68a-ffd199112ced
 keywords:

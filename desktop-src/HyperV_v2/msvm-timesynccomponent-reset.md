@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: fb0ce09b-0d14-4de8-b2e5-4d86169b261b
-title: Reset method of the Msvm\_TimeSyncComponent class
+title: Reset method of the Msvm_TimeSyncComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: TCM\_SETMINTABWIDTH message
+title: TCM_SETMINTABWIDTH message
 description: Sets the minimum width of items in a tab control. You can send this message explicitly or by using the TabCtrl\_SetMinTabWidth macro.
 ms.assetid: c0be3d4e-774c-4233-820f-01ffbb69ecf0
 keywords:

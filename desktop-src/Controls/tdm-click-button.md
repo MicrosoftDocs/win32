@@ -1,5 +1,5 @@
 ---
-title: TDM\_CLICK\_BUTTON message
+title: TDM_CLICK_BUTTON message
 description: Simulates the action of a button click in a task dialog.
 ms.assetid: cc8a8252-3418-4a28-bfb7-11d6e3fee903
 keywords:

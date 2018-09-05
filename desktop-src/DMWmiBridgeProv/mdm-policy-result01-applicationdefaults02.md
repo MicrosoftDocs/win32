@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_ApplicationDefaults02 class
+title: MDM_Policy_Result01_ApplicationDefaults02 class
 description: The MDM\_Policy\_Result01\_ApplicationDefaults02 class represents the available application defaults policies.
 ms.assetid: bf7df9a1-7af1-49a6-9456-3e6ec48234e2
 keywords:

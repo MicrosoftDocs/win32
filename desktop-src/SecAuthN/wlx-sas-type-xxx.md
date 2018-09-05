@@ -1,7 +1,7 @@
 ---
 Description: Values define a specific SAS type.
 ms.assetid: c0a1269b-f9d4-49e1-89ca-526fef148134
-title: WLX\_SAS\_TYPE\_XXX
+title: WLX_SAS_TYPE_XXX
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

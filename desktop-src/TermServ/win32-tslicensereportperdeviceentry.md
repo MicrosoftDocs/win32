@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLicenseReportPerDeviceEntry class
+title: Win32_TSLicenseReportPerDeviceEntry class
 description: Provides details about the failed Remote Desktop Services Per Device client access license (RDS \ 160;Per Device CAL).
 audience: developer
 author: REDMOND\\markl

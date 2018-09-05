@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_WINDOWS
 ms.assetid: 931ec33d-d1d0-4a6b-aa55-61db2631dd4f
-title: LOCALE\_WINDOWS
+title: LOCALE_WINDOWS
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

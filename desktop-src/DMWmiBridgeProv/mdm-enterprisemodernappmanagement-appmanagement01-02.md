@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseModernAppManagement\_AppManagement01\_02 class
+title: MDM_EnterpriseModernAppManagement_AppManagement01_02 class
 description: The MDM\_EnterpriseModernAppManagement\_AppManagement01\_02 class specifies whether you want to block a specific app from being updated via auto-updates.
 ms.assetid: b018f61a-2458-4c1a-b75c-6ca5eebb2977
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CBEM\_SETWINDOWTHEME message
+title: CBEM_SETWINDOWTHEME message
 description: Sets the visual style of a ComboBoxEx control.
 ms.assetid: 064f9a24-42be-42f4-bee3-e7320fe8c366
 keywords:

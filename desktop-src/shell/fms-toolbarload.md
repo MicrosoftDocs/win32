@@ -1,6 +1,6 @@
 ---
 Description: Contains information about custom buttons to be added to the File Manager toolbar. The buttons are provided by a File Manager extension DLL.
-title: FMS\_TOOLBARLOAD structure
+title: FMS_TOOLBARLOAD structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

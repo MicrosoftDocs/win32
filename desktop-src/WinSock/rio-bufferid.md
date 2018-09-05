@@ -1,7 +1,7 @@
 ---
 Description: Specifies a registered buffer descriptor used with the Winsock registered I/O extensions.
 ms.assetid: 87D0A3F6-A44C-4D7F-B276-7FD5DC2DE7A3
-title: RIO\_BUFFERID
+title: RIO_BUFFERID
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

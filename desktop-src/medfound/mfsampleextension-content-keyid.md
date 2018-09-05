@@ -1,7 +1,7 @@
 ---
 Description: Sets the Key ID for the sample.
 ms.assetid: 75339350-05AA-486E-9C28-11070C0DA61D
-title: MFSampleExtension\_Content\_KeyID attribute
+title: MFSampleExtension_Content_KeyID attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

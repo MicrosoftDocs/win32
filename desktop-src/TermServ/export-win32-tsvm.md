@@ -1,5 +1,5 @@
 ---
-title: Export method of the Win32\_TSVm class
+title: Export method of the Win32_TSVm class
 description: Retrieves the virtual machine session monitoring information.
 audience: developer
 author: REDMOND\\markl

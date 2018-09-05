@@ -1,5 +1,5 @@
 ---
-title: WMDM\_STORAGE\_ENUM\_MODE enumeration
+title: WMDM_STORAGE_ENUM_MODE enumeration
 description: The WMDM\_STORAGE\_ENUM\_MODE enumeration type defines how the content on the storage is to be enumerated. This enumeration is used by IWMDMStorage3 SetEnumPreference.
 ms.assetid: 38293e54-92e4-4f0a-bdea-5dc684a9548b
 keywords:

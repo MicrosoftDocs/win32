@@ -1,5 +1,5 @@
 ---
-title: LVM\_MAPINDEXTOID message
+title: LVM_MAPINDEXTOID message
 description: Maps the index of an item to a unique ID.
 ms.assetid: d0486e21-2703-4289-abb0-f5f9c7b60b40
 keywords:

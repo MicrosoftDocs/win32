@@ -1,5 +1,5 @@
 ---
-title: TB\_PRESSBUTTON message
+title: TB_PRESSBUTTON message
 description: Presses or releases the specified button in a toolbar.
 ms.assetid: 03f6c3c2-d679-4e3a-a07b-c7e46c97972a
 keywords:

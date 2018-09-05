@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_FontProperties\_ForegroundColorType
+title: UI_PKEY_FontProperties_ForegroundColorType
 description: Identifies the UI\_PKEY\_FontProperties\_ForegroundColorType property.
 ms.assetid: ab04c0b0-911f-4649-9ce8-5ecd847abf9f
 ms.technology: desktop

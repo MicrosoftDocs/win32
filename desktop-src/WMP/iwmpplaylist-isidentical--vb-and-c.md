@@ -1,5 +1,5 @@
 ---
-title: IWMPPlaylist.isIdentical (VB and C\ )
+title: IWMPPlaylist.isIdentical (VB and C )
 description: The isIdentical property (the get\_isIdentical method in C\ ) gets a value indicating whether the specified playlist is identical to the current playlist.
 ms.assetid: 0e5520ee-3d41-4e36-98f4-7bc2ec45fcb8
 keywords:

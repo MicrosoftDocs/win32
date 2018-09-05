@@ -1,5 +1,5 @@
 ---
-title: vs\_2\_x
+title: vs_2_x
 description: A programmable vertex shader is made up of a set of instructions that operate on vertex data. Registers transfer data in and out of the ALU. Additional control can be applied to modify the instruction, the results, or what data gets written out.
 ms.assetid: 64b07597-1e16-4803-b991-e78eabc2c060
 ms.technology: desktop

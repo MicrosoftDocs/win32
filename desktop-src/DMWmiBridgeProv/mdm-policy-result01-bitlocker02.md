@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_BitLocker02 class
+title: MDM_Policy_Result01_BitLocker02 class
 description: The MDM\_Policy\_Result01\_Bitlocker02 class represents the BitLocker policies available.
 ms.assetid: 5b20a129-65a8-4ec1-b938-57ddaca46ac3
 keywords:

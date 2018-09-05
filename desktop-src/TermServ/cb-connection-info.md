@@ -1,5 +1,5 @@
 ---
-title: CB\_CONNECTION\_INFO structure
+title: CB_CONNECTION_INFO structure
 description: Contains information about an incoming connection request.
 audience: developer
 author: REDMOND\\markl

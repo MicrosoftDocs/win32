@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSSessionDirectorySetting class
+title: Win32_TSSessionDirectorySetting class
 description: Represents the association between an instance of the Win32\_TerminalService class and an instance of the Win32\_TSSessionDirectory class.
 audience: developer
 author: REDMOND\\markl

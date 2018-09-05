@@ -1,5 +1,5 @@
 ---
-title: TS\_CHAR\_\ Constants
+title: TS_CHAR_ Constants
 description: The TS\_CHAR\_\ constants describe the type of character.
 ms.assetid: b40ca931-d45c-4101-9380-bb2b3ad25fba
 topic_type:

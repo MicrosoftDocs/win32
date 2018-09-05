@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_Antivirus01 class
+title: MDM_DeviceStatus_Antivirus01 class
 description: The MDM\_DeviceStatus\_Antivirus01 class is used by the enterprise to query the state of antivirus compliance of devices with their enterprise policies.
 ms.assetid: 8b3145a6-b836-4750-a0c3-88472f9a12c5
 keywords:

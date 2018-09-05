@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a Media Foundation transform (MFT) supports Microsoft Direct3D 11.
 ms.assetid: 23482B8A-58F3-4B39-9C6D-54EC27D36C01
-title: MF\_SA\_D3D11\_AWARE attribute
+title: MF_SA_D3D11_AWARE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

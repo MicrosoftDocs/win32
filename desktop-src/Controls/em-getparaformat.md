@@ -1,5 +1,5 @@
 ---
-title: EM\_GETPARAFORMAT message
+title: EM_GETPARAFORMAT message
 description: Retrieves the paragraph formatting of the current selection in a rich edit control.
 ms.assetid: 79a7d34f-5da1-452d-b31f-b2eec913f5cb
 keywords:

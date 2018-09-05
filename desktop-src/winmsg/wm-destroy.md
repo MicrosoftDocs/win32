@@ -1,7 +1,7 @@
 ---
 Description: Sent when a window is being destroyed. It is sent to the window procedure of the window being destroyed after the window is removed from the screen.
 ms.assetid: 089c0645-199b-4a90-9cbc-740f0cf3267d
-title: WM\_DESTROY message
+title: WM_DESTROY message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

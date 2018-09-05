@@ -1,5 +1,5 @@
 ---
-title: MDM\_DevDetail\_Ext01 class
+title: MDM_DevDetail_Ext01 class
 description: The MDM\_DevDetail\_Ext01 class handles the management object which provides device-specific parameters to the OMA DM server.
 ms.assetid: 8b8cb8e8-a299-4a87-8206-a846a79dd647
 keywords:

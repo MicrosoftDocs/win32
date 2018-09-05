@@ -1,5 +1,5 @@
 ---
-title: WMDRMNET\_Revocation
+title: WMDRMNET_Revocation
 description: The WMDRMNET\_Revocation property retrieves the revocation list for Windows Media DRM 10 for Network Devices.
 ms.assetid: 54029c9e-1951-43cf-bc42-2e8d27175a6d
 keywords:

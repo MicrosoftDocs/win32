@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Power02 class
+title: MDM_Policy_Config01_Power02 class
 description: The MDM\_Policy\_Config01\_Power02 class configures the power policies.
 ms.assetid: 8913c38c-0d8d-456f-a412-d47c2ccd5d13
 keywords:

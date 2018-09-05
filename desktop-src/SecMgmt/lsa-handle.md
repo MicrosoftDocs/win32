@@ -1,7 +1,7 @@
 ---
 Description: Handle to the local Policy object.
 ms.assetid: f5878d27-558b-4ef1-9401-1277e740c61d
-title: LSA\_HANDLE
+title: LSA_HANDLE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

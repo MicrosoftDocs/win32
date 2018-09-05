@@ -1,5 +1,5 @@
 ---
-title: TSMF\_SUPPORT\_NODEDATA\_IN structure
+title: TSMF_SUPPORT_NODEDATA_IN structure
 description: Used inside the TSMF\_SUPPORT\_DATA\_IN structure to contain information about supported media formats.
 audience: developer
 author: REDMOND\\markl

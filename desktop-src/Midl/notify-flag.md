@@ -1,5 +1,5 @@
 ---
-title: notify\_flag attribute
+title: notify_flag attribute
 description: The \ notify\_flag\ attribute provides notification identifying whether a server routine is called.
 ms.assetid: a40b7114-d2e3-40c1-a0b1-599428188611
 keywords:

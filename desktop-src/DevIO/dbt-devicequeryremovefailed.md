@@ -1,7 +1,7 @@
 ---
 Description: The system broadcasts the DBT\_DEVICEQUERYREMOVEFAILED device event when a request to remove a device or piece of media has been canceled.
 ms.assetid: a24916a9-b67a-4622-b9f3-4b4f26bf4d6b
-title: DBT\_DEVICEQUERYREMOVEFAILED event
+title: DBT_DEVICEQUERYREMOVEFAILED event
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

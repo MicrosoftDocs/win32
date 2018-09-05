@@ -1,5 +1,5 @@
 ---
-title: cpp\_quote attribute
+title: cpp_quote attribute
 description: The cpp\_quote keyword instructs MIDL to emit the specified string, without the quote characters, into the generated header file.
 ms.assetid: 0e5a929e-b564-43f7-9270-e79486279834
 keywords:

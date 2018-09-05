@@ -1,5 +1,5 @@
 ---
-title: TTM\_WINDOWFROMPOINT message
+title: TTM_WINDOWFROMPOINT message
 description: Allows a subclass procedure to cause a tooltip to display text for a window other than the one beneath the mouse cursor.
 ms.assetid: f3bf6917-1745-4e4f-a9c1-8fe86b2b3906
 keywords:

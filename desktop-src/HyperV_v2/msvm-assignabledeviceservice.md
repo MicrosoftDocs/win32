@@ -1,7 +1,7 @@
 ---
 Description: Manages the assignable devices on a host computer system.
 ms.assetid: d958e978-682e-49eb-bd10-d31d9563fdbf
-title: Msvm\_AssignableDeviceService class
+title: Msvm_AssignableDeviceService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

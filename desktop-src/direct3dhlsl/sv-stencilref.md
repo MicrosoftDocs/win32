@@ -1,5 +1,5 @@
 ---
-title: SV\_StencilRef
+title: SV_StencilRef
 description: SV\_StencilRef represents the current pixel shader stencil reference value.
 ms.assetid: 0E27BF04-9DA0-4D6D-BD50-07553F80590E
 keywords:

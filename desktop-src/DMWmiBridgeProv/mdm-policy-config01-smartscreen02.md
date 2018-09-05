@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_SmartScreen02 class
+title: MDM_Policy_Config01_SmartScreen02 class
 description: The MDM\_Policy\_Config01\_SmartScreen02 class configures the smart screen policies.
 ms.assetid: e5ad04a1-afa9-4887-a4c1-c92c574a5398
 keywords:

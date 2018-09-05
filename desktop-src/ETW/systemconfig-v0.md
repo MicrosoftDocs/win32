@@ -1,7 +1,7 @@
 ---
 Description: This class is the parent class for hardware configuration events. The following syntax is simplified from MOF code.
 ms.assetid: 9da1a7ec-89b5-462b-a336-544e4b7adf96
-title: SystemConfig\_V0 class
+title: SystemConfig_V0 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

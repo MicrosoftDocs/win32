@@ -1,7 +1,7 @@
 ---
 Description: Signals that the DVD player started playback of a new program in the DVD\_DOMAIN\_Title domain.
 ms.assetid: c0745615-d527-4d93-9118-30419c6c811e
-title: EC\_DVD\_CHAPTER\_START
+title: EC_DVD_CHAPTER_START
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

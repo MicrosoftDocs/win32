@@ -1,7 +1,7 @@
 ---
 Description: Creates a custom PKCS \#10 request and attempts to enroll it in an enterprise certification authority (CA).
 ms.assetid: ACBD3CE1-6A2A-47EE-9482-7398ABE15F5C
-title: enrollCustomPKCS10\_2
+title: enrollCustomPKCS10_2
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the object that handles quality messages.
 ms.assetid: 86f29550-9ab0-48de-879d-afad0589a30c
-title: CBasePin::m\_pQSink member
+title: CBasePin::m_pQSink member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

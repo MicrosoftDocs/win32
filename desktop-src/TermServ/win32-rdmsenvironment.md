@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSEnvironment class
+title: Win32_RDMSEnvironment class
 description: Manages a Remote Desktop Management Services (RDMS) environment.
 audience: developer
 author: REDMOND\\markl

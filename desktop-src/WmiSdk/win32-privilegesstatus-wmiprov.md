@@ -7,7 +7,7 @@ ms.assetid: 85bda855-1488-4d7a-99ed-798e9859fef7
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Win32\_PrivilegesStatus class
+title: Win32_PrivilegesStatus class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

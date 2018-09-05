@@ -1,7 +1,7 @@
 ---
 Description: This class is the parent class for image load events. The following syntax is simplified from MOF code.
 ms.assetid: d35b14c7-ab76-4fed-a1cc-6215a13e8451
-title: Image\_V0 class
+title: Image_V0 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

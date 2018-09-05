@@ -1,5 +1,5 @@
 ---
-title: MCI\_VCR\_SET\_PARMS structure
+title: MCI_VCR_SET_PARMS structure
 description: The MCI\_VCR\_SET\_PARMS structure contains parameters for the MCI\_SET command for video-cassette recorders.
 ms.assetid: f55515f5-14f6-47e4-8be2-4524975fc950
 keywords:

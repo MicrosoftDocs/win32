@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_MGType class
+title: Modify method of the MicrosoftDNS_MGType class
 description: The Modify method updates a Mail Group (MG) Resource Record.
 ms.assetid: c7d42964-19fb-410d-a434-85af20754e20
 keywords:

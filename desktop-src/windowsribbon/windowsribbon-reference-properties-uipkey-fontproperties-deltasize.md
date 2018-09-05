@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_FontProperties\_DeltaSize
+title: UI_PKEY_FontProperties_DeltaSize
 description: Identifies the UI\_PKEY\_FontProperties\_DeltaSize property.
 ms.assetid: 021a6c79-1d3e-47d2-9601-cdaa2e66a50a
 ms.technology: desktop

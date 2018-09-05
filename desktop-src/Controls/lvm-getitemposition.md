@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETITEMPOSITION message
+title: LVM_GETITEMPOSITION message
 description: Retrieves the position of a list-view item. You can send this message explicitly or by using the ListView\_GetItemPosition macro.
 ms.assetid: e5841089-c34e-498e-b94c-45c845bfc747
 keywords:

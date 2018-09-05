@@ -1,7 +1,7 @@
 ---
 Description: Defines the format of a file containing certificates information.
 ms.assetid: 2118746a-9fa4-4e6a-82ce-e57f154f4a94
-title: CAPICOM\_CERTIFICATES\_SAVE\_AS\_TYPE enumeration
+title: CAPICOM_CERTIFICATES_SAVE_AS_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

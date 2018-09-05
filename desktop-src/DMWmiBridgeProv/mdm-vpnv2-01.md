@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_01 class
+title: MDM_VPNv2_01 class
 description: The MDM\_VPNv2\_01 class allows configuration of the VPN profile of the device.
 ms.assetid: cfef674b-880c-4c9f-a2c1-6c2cb03189da
 keywords:

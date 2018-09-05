@@ -1,5 +1,5 @@
 ---
-title: DDS\_PIXELFORMAT structure
+title: DDS_PIXELFORMAT structure
 description: Surface pixel format.
 ms.assetid: 39c5e48d-cf20-4d77-80d5-a67f04de4883
 keywords:

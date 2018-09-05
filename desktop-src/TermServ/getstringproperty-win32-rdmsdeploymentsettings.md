@@ -1,5 +1,5 @@
 ---
-title: GetStringProperty method of the Win32\_RDMSDeploymentSettings class
+title: GetStringProperty method of the Win32_RDMSDeploymentSettings class
 description: Retrieves a string property for the deployment settings of a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

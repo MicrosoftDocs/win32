@@ -1,7 +1,7 @@
 ---
 Description: This association links a managed element to the metric values being maintained for it.
 ms.assetid: 89b43736-90ae-49e0-a0ed-7918ddec8558
-title: Msvm\_MetricForME class
+title: Msvm_MetricForME class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

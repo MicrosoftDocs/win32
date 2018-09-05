@@ -1,5 +1,5 @@
 ---
-title: DRM\_DRMHeader\_IndividualizedVersion
+title: DRM_DRMHeader_IndividualizedVersion
 description: The DRM\_DRMHeaderIndividualizedVersion attribute contains the minimum individualized version required to play back the file.
 ms.assetid: 2ac24660-8b7a-4dba-9f9f-ad8b13a22f5c
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the allocator that created this sample.
 ms.assetid: b4faccec-9124-4ae6-8662-ac5eb017328a
-title: CMediaSample::m\_pAllocator member
+title: CMediaSample::m_pAllocator member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

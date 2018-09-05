@@ -1,7 +1,7 @@
 ---
 Description: Sent by the VMR-7 and the VMR-9 when it was unable to accept a dynamic format change request from the upstream decoder.
 ms.assetid: 0c865853-2484-4833-9c92-3d6452b655f1
-title: EC\_VMR\_RECONNECTION\_FAILED
+title: EC_VMR_RECONNECTION_FAILED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

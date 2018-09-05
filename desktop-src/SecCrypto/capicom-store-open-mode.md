@@ -1,7 +1,7 @@
 ---
 Description: Used with the Store.Open method to indicate how a certificate store is to be opened.
 ms.assetid: 6ec87b8c-9431-4ecc-bd90-943cfe2df1c2
-title: CAPICOM\_STORE\_OPEN\_MODE enumeration
+title: CAPICOM_STORE_OPEN_MODE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

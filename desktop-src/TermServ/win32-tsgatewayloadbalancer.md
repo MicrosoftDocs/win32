@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayLoadBalancer class
+title: Win32_TSGatewayLoadBalancer class
 description: Describes a set of Remote Desktop Gateway (RD Gateway) load-balancing servers. These are used to load balance RD Gateway connections across multiple servers.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the supported rate-control modes for an H.264 video stream.
 ms.assetid: DAA62ECD-AFA2-40C2-9B52-F2D581F4D894
-title: MF\_MT\_H264\_SUPPORTED\_RATE\_CONTROL\_MODES attribute
+title: MF_MT_H264_SUPPORTED_RATE_CONTROL_MODES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

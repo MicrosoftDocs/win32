@@ -1,5 +1,5 @@
 ---
-title: MSAD\_DomainController class
+title: MSAD_DomainController class
 description: Represents the domain controller (DC) on which the WMI provider is running.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: RBN\_ENDDRAG notification code
+title: RBN_ENDDRAG notification code
 description: Sent by a rebar control when the user stops dragging a band. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 24b06144-6a4c-46a4-bef1-d6592f72a2c0
 keywords:

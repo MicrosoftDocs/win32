@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SUPPLEMENTAL
 ms.assetid: 288026bc-4d73-45a7-809a-0385fc678c8d
-title: LOCALE\_SUPPLEMENTAL
+title: LOCALE_SUPPLEMENTAL
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Describes the location for the include file.
 ms.assetid: a15d363e-0d82-44a9-816b-edf2f60540b3
-title: D3DXINCLUDE\_TYPE enumeration
+title: D3DXINCLUDE_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

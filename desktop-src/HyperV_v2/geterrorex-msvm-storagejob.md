@@ -1,7 +1,7 @@
 ---
 Description: When the job is executing or has terminated without error, then this method returns no Msvm\_Error instance.
 ms.assetid: 119E7EFD-78C9-46F1-8A53-C51A7A34B32E
-title: GetErrorEx method of the Msvm\_StorageJob class
+title: GetErrorEx method of the Msvm_StorageJob class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

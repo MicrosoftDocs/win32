@@ -1,7 +1,7 @@
 ---
 Description: Specifies the monitor refresh rate.
 ms.assetid: deeb780c-2dc2-4a9a-926a-23b9ae3bedd5
-title: MF\_TOPOLOGY\_PLAYBACK\_FRAMERATE attribute
+title: MF_TOPOLOGY_PLAYBACK_FRAMERATE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

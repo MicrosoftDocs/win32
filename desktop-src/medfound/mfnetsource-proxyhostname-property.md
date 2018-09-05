@@ -1,7 +1,7 @@
 ---
 Description: Specifies the host name of the proxy server.
 ms.assetid: e53c86e9-c326-41c9-aa86-c80a750b9ce3
-title: MFNETSOURCE\_PROXYHOSTNAME property
+title: MFNETSOURCE_PROXYHOSTNAME property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

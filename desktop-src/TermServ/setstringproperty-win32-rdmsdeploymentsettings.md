@@ -1,5 +1,5 @@
 ---
-title: SetStringProperty method of the Win32\_RDMSDeploymentSettings class
+title: SetStringProperty method of the Win32_RDMSDeploymentSettings class
 description: Updates a string property for the deployment settings of a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

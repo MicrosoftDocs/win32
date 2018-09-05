@@ -1,7 +1,7 @@
 ---
 Description: Shared resource constants.
 ms.assetid: 91FD9AAC-D13F-499E-BC17-73F5D5E2FE91
-title: DXGI\_SHARED\_RESOURCE\_RW
+title: DXGI_SHARED_RESOURCE_RW
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

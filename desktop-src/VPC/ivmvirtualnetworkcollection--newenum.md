@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetworkCollection \_NewEnum property
+title: IVMVirtualNetworkCollection _NewEnum property
 description: Retrieves an enumerator for the collection.
 ms.assetid: 3ea01a88-72ec-4dc0-901f-e48092cf9251
 keywords:

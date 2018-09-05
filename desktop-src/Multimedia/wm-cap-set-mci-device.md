@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_SET\_MCI\_DEVICE message
+title: WM_CAP_SET_MCI_DEVICE message
 description: The WM\_CAP\_SET\_MCI\_DEVICE message specifies the name of the MCI video device to be used to capture data. You can send this message explicitly or by using the capSetMCIDeviceName macro.
 ms.assetid: 83fdf567-ceb2-45aa-8529-433a5c64ac0a
 keywords:

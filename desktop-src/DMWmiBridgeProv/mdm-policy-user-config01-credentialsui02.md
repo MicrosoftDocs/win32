@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Config01\_CredentialsUI02 class
+title: MDM_Policy_User_Config01_CredentialsUI02 class
 description: The MDM\_Policy\_User\_Config01\_CredentialsUI02 class represents the available credentials policies.
 ms.assetid: b0a45070-c25b-4a4d-9fbc-cd107fd0fa2f
 keywords:

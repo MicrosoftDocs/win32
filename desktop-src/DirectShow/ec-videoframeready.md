@@ -1,7 +1,7 @@
 ---
 Description: A video frame is ready for display.
 ms.assetid: af6198be-9656-49a6-9598-b1c040be5a1a
-title: EC\_VIDEOFRAMEREADY
+title: EC_VIDEOFRAMEREADY
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

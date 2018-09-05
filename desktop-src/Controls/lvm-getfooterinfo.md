@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETFOOTERINFO message
+title: LVM_GETFOOTERINFO message
 description: Gets information about the footer of a list-view control. Send this message explicitly or by using the ListView\_GetFooterInfo macro.
 ms.assetid: 5734e151-50c0-46df-8f2c-220c4910a590
 keywords:

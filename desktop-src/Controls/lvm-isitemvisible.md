@@ -1,5 +1,5 @@
 ---
-title: LVM\_ISITEMVISIBLE message
+title: LVM_ISITEMVISIBLE message
 description: Indicates if an item in the list-view control is visible. Send this message explicitly or by using the ListView\_IsItemVisible macro.
 ms.assetid: 355be527-e2b9-46be-96a0-951d72216d92
 keywords:

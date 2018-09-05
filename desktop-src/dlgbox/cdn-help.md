@@ -1,5 +1,5 @@
 ---
-title: CDN\_HELP notification code
+title: CDN_HELP notification code
 description: Sent by an Explorer-style Open or Save As dialog box when the user clicks the Help button.
 ms.assetid: 18ee86b2-3446-4de4-a47a-2e44e677f4f7
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CFSTR\_DSOP\_DS\_SELECTION\_LIST
+title: CFSTR_DSOP_DS_SELECTION_LIST
 description: The CFSTR\_DSOP\_DS\_SELECTION\_LIST clipboard format provides an HGLOBAL that contains a DS\_SELECTION\_LIST structure. The DS\_SELECTION\_LIST structure contains data about the items selected in a Directory Object Picker dialog box.
 audience: developer
 author: REDMOND\\markl

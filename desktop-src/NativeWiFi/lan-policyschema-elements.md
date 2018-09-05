@@ -1,7 +1,7 @@
 ---
 Description: A wired (LAN) policy profile contains the following schema elements.
 ms.assetid: 361f76f1-a26f-46b3-a9ab-e56627c9b19f
-title: LAN\_policy Schema Elements
+title: LAN_policy Schema Elements
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

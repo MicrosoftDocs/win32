@@ -1,5 +1,5 @@
 ---
-title: CreateSelfSignedCertificate method of the Win32\_TSGatewayServer class
+title: CreateSelfSignedCertificate method of the Win32_TSGatewayServer class
 description: Creates a self-signed certificate and returns the certificate hash as an \ 0034;out \ 0034; parameter.
 audience: developer
 author: REDMOND\\markl

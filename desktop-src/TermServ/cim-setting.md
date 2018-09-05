@@ -1,5 +1,5 @@
 ---
-title: CIM\_Setting class
+title: CIM_Setting class
 description: Represents configuration-related and operational parameters for one or more managed system elements.
 audience: developer
 author: REDMOND\\markl

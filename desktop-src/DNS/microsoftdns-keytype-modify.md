@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_KEYType class
+title: Modify method of the MicrosoftDNS_KEYType class
 description: The Modify method updates a KEY Resource Record.
 ms.assetid: 0ea1e0e5-ccd1-4800-b0c3-27795c36250c
 keywords:

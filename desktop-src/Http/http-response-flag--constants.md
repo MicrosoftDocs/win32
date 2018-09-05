@@ -1,5 +1,5 @@
 ---
-title: HTTP\_RESPONSE\_FLAG\_ Constants
+title: HTTP_RESPONSE_FLAG_ Constants
 description: Define options to configure responses in the HTTP Server API.
 ms.assetid: bcb59457-fd22-4166-8a72-ba85209ec8c7
 topic_type:

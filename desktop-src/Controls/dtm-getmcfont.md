@@ -1,5 +1,5 @@
 ---
-title: DTM\_GETMCFONT message
+title: DTM_GETMCFONT message
 description: Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can send this message explicitly or use the DateTime\_GetMonthCalFont macro.
 ms.assetid: 6687a1dc-6f6d-4684-80b2-f726b08d2f3a
 keywords:

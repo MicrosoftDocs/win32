@@ -1,7 +1,7 @@
 ---
 Description: The get\_Item method gets an ITMedia pointer corresponding to the specified index.
 ms.assetid: ad218357-82c8-4fcb-b71b-ba17564a5ca5
-title: ITMediaCollection::get\_Item method
+title: ITMediaCollection::get_Item method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

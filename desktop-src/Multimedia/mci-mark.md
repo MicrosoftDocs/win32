@@ -1,5 +1,5 @@
 ---
-title: MCI\_MARK command
+title: MCI_MARK command
 description: The MCI\_MARK command records or erases marks that can be used with the MCI\_SEEK command for high-speed searches. VCR devices recognize this command.
 ms.assetid: 69b17e5b-99a1-4fb9-bc0e-30e772c1f11f
 keywords:

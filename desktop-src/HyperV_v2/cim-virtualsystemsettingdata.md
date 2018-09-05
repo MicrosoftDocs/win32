@@ -1,7 +1,7 @@
 ---
 Description: Describes the virtual aspects of a virtual system through a set of virtualization specific properties. CIM\_VirtualSystemSettingData is also used as the top level class of virtual system configurations.
 ms.assetid: 501e659d-f190-41f9-aafa-447048a60e7c
-title: CIM\_VirtualSystemSettingData class
+title: CIM_VirtualSystemSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

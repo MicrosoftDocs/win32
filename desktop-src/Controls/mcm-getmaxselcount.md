@@ -1,5 +1,5 @@
 ---
-title: MCM\_GETMAXSELCOUNT message
+title: MCM_GETMAXSELCOUNT message
 description: Retrieves the maximum date range that can be selected in a month calendar control. You can send this message explicitly or by using the MonthCal\_GetMaxSelCount macro.
 ms.assetid: 34204231-3a3c-4eba-913d-b0c27769c338
 keywords:

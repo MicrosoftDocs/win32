@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_SET\_CALLBACK\_ERROR message
+title: WM_CAP_SET_CALLBACK_ERROR message
 description: The WM\_CAP\_SET\_CALLBACK\_ERROR message sets an error callback function in the client application. AVICap calls this procedure when errors occur. You can send this message explicitly or by using the capSetCallbackOnError macro.
 ms.assetid: 4eb57515-9b5a-466c-bbaa-fdee3bca19db
 keywords:

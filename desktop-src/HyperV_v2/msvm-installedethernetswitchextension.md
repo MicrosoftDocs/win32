@@ -1,7 +1,7 @@
 ---
 Description: Represents an instance of an extension component installed on a host system.
 ms.assetid: ad24fb08-36af-42a8-a910-63eae54fa5b8
-title: Msvm\_InstalledEthernetSwitchExtension class
+title: Msvm_InstalledEthernetSwitchExtension class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

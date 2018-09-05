@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT\_DATA structure
+title: MPTHREAT_DATA structure
 description: Notification data passed due to threat detection or modification.
 ms.assetid: 07A2F88B-9D58-44EC-86D0-BDCC1DF44B94
 keywords:

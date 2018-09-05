@@ -1,5 +1,5 @@
 ---
-title: D2D1\_RECT\_F
+title: D2D1_RECT_F
 description: Represents a rectangle defined by the coordinates of the upper-left corner (left, top) and the coordinates of the lower-right corner (right, bottom).
 ms.assetid: a961c0e3-fb76-4c07-b76e-47d8c09ada08
 keywords:

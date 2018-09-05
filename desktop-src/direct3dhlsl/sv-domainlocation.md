@@ -1,5 +1,5 @@
 ---
-title: SV\_DomainLocation
+title: SV_DomainLocation
 description: Defines the location on the hull of the current domain point being evaluated.
 ms.assetid: 907f568c-7c45-41e5-96c4-6e6b816a4a53
 keywords:

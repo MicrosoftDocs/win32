@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_AUDIO
 ms.assetid: a3d84878-489b-489a-a67e-0e4d25ddd3f7
-title: WPD\_CONTENT\_TYPE\_AUDIO
+title: WPD_CONTENT_TYPE_AUDIO
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

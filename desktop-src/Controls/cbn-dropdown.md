@@ -1,5 +1,5 @@
 ---
-title: CBN\_DROPDOWN notification code
+title: CBN_DROPDOWN notification code
 description: Sent when the list box of a combo box is about to be made visible. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
 ms.assetid: 2ee9bb19-951b-46bb-a90d-1ade92c2d76c
 keywords:

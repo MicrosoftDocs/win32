@@ -1,5 +1,5 @@
 ---
-title: CB\_GETTOPINDEX message
+title: CB_GETTOPINDEX message
 description: An application sends the CB\_GETTOPINDEX message to retrieve the zero-based index of the first visible item in the list box portion of a combo box.
 ms.assetid: 1e304acf-30ff-40a4-b214-6ed98ddaed3a
 keywords:

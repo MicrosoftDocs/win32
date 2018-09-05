@@ -1,5 +1,5 @@
 ---
-title: RB\_SIZETORECT message
+title: RB_SIZETORECT message
 description: Attempts to find the best layout of the bands for the given rectangle.
 ms.assetid: c6242b54-bd65-489b-b417-9680cc39b64a
 keywords:

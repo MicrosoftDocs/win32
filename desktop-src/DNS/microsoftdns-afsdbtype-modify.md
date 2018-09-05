@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_AFSDBType class
+title: Modify method of the MicrosoftDNS_AFSDBType class
 description: The Modify method updates an Andrew File System Database Server (AFSDB) Resource Record.
 ms.assetid: 9b98a3cf-cc2b-4497-921b-eaca4d13d6a1
 keywords:

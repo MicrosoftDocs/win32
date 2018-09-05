@@ -1,7 +1,7 @@
 ---
 Description: Stops the service.
 ms.assetid: c96ca784-c935-41a4-b1aa-8360cf270c9e
-title: StopService method of the Msvm\_TerminalService class
+title: StopService method of the Msvm_TerminalService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: The following table describes IPPROTO\_UDP socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the protocol parameter to the socket function specified as UDP (IPPROTO\_UDP).
 ms.assetid: 579448a1-22af-488f-a1f5-97ba69a15524
-title: IPPROTO\_UDP Socket Options
+title: IPPROTO_UDP Socket Options
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

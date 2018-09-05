@@ -1,5 +1,5 @@
 ---
-title: DRM\_LicenseState
+title: DRM_LicenseState
 description: The DRM\_LicenseState property is not used. It is actually not a property at all, but rather is simply the root string for the other license state property string identifiers such as DRM\_LicenseState\_Playback.
 ms.assetid: d130c8a6-d718-4378-ba69-00b55edf9fab
 keywords:

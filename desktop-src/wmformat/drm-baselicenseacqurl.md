@@ -1,5 +1,5 @@
 ---
-title: DRM\_BaseLicenseAcqURL
+title: DRM_BaseLicenseAcqURL
 description: The DRM\_BaseLicenseAcqURL attribute contains a partial, base URL to which a player application must navigate to obtain a license for the content.
 ms.assetid: 9acaac44-81b2-467c-9510-023fbb47dd04
 keywords:

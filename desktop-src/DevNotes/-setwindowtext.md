@@ -1,7 +1,7 @@
 ---
 Description: Changes the text of the specified window's title bar (if it has one).
 ms.assetid: 0da53972-8f2e-4ca5-92f8-97eb88514e35
-title: '\_SetWindowText function'
+title: '_SetWindowText function'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

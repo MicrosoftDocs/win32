@@ -1,5 +1,5 @@
 ---
-title: HDM\_INSERTITEM message
+title: HDM_INSERTITEM message
 description: Inserts a new item into a header control. You can send this message explicitly or use the Header\_InsertItem macro.
 ms.assetid: aececf32-090d-4cd4-a239-4435a322f72e
 keywords:

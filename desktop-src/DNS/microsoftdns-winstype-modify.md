@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_WINSType class
+title: Modify method of the MicrosoftDNS_WINSType class
 description: The Modify method updates a Windows Internet Name Service (WINS) Resource Record.
 ms.assetid: b61c429a-6b01-4b17-9312-bc5b69d1e76a
 keywords:

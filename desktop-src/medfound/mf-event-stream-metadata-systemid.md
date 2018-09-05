@@ -1,7 +1,7 @@
 ---
 Description: Specifies the system ID for which the key data is intended.
 ms.assetid: 02B6CA71-103C-4639-8D07-7EAF6A814679
-title: MF\_EVENT\_STREAM\_METADATA\_SYSTEMID attribute
+title: MF_EVENT_STREAM_METADATA_SYSTEMID attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

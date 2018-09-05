@@ -1,5 +1,5 @@
 ---
-title: mips.Operator\ \ \ \ function
+title: mips.Operator    function
 description: Returns a read-only resource variable or a Texture1D.
 ms.assetid: 0b64f0d3-f9a1-474b-b229-d91d18922d5c
 keywords:

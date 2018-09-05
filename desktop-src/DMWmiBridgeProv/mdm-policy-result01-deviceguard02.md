@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_DeviceGuard02 class
+title: MDM_Policy_Result01_DeviceGuard02 class
 description: The MDM\_Policy\_Result01\_DeviceGuard02 class configures the Device Guard policies.
 ms.assetid: ba21d324-85dc-4cb5-8123-196413e457eb
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EM\_SHOWBALLOONTIP message
+title: EM_SHOWBALLOONTIP message
 description: The EM\_SHOWBALLOONTIP message displays a balloon tip associated with an edit control.
 ms.assetid: 1e6915b7-4b61-43b2-be13-b89c72378a1a
 keywords:

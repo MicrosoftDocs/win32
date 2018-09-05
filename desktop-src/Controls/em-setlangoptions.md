@@ -1,5 +1,5 @@
 ---
-title: EM\_SETLANGOPTIONS message
+title: EM_SETLANGOPTIONS message
 description: Sets options for Input Method Editor (IME) and Asian language support in a rich edit control.
 ms.assetid: d42d0512-3339-471d-a91a-114151554799
 keywords:

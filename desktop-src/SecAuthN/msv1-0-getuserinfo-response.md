@@ -1,7 +1,7 @@
 ---
 Description: The MSV1\_0\_GETUSERINFO\_RESPONSE structure is obsolete.
 ms.assetid: bf9d58be-303f-4f7f-aef4-5358ace06951
-title: MSV1\_0\_GETUSERINFO\_RESPONSE
+title: MSV1_0_GETUSERINFO_RESPONSE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

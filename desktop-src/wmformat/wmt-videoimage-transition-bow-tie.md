@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_BOW\_TIE
+title: WMT_VIDEOIMAGE_TRANSITION_BOW_TIE
 description: The bow tie transition reveals the new image in a set of triangles on opposite sides of the frame.
 ms.assetid: d98da767-eea7-460c-ae5f-6bef9d93ad9d
 keywords:

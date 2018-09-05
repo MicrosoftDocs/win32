@@ -1,5 +1,5 @@
 ---
-title: RemoveLSFromSpecifiedLicenseServerList method of the Win32\_TerminalServiceSetting class
+title: RemoveLSFromSpecifiedLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Removes the given license server from the list of specified license servers.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SSORT\_CONSTANTS
 ms.assetid: 7287e183-cfeb-4970-a28a-92909579ad06
-title: LOCALE\_SSORT\_CONSTANTS
+title: LOCALE_SSORT_CONSTANTS
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

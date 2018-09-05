@@ -1,7 +1,7 @@
 ---
 Description: The PRINTER\_NOTIFY\_INFO\_DATA structure identifies a job or printer information field and provides the current data for that field.
 ms.assetid: 7a7b9e01-32e0-47f8-a5b1-5f7e6a663714
-title: PRINTER\_NOTIFY\_INFO\_DATA structure
+title: PRINTER_NOTIFY_INFO_DATA structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

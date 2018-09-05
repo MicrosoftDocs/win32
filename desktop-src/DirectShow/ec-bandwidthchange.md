@@ -1,7 +1,7 @@
 ---
 Description: This event is not supported.
 ms.assetid: 280c9222-8627-4b0c-a109-5b84cc0527ae
-title: EC\_BANDWIDTHCHANGE
+title: EC_BANDWIDTHCHANGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

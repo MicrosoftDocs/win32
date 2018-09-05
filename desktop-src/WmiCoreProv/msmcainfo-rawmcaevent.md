@@ -1,7 +1,7 @@
 ---
 Description: Contains a Machine Check Architecture (MCA) event. This class is available only in 64-bit Windows systems.
 ms.assetid: d1806b91-43a3-4329-8fe5-de1e4755740f
-title: MSMCAInfo\_RawMCAEvent class
+title: MSMCAInfo_RawMCAEvent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

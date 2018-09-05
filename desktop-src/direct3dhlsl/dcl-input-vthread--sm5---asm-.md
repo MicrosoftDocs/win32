@@ -1,5 +1,5 @@
 ---
-title: dcl\_input vThread (sm5 - asm)
+title: dcl_input vThread (sm5 - asm)
 description: Declare compute shader input IDs.
 ms.assetid: C041863A-32B0-4588-A1A9-E416AF9B723C
 ms.technology: desktop

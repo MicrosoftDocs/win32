@@ -1,7 +1,7 @@
 ---
 Description: Image file formats supported by D3DXCreatexxx and D3DX10Savexxx functions.
 ms.assetid: 39602f3c-5c91-4667-96d0-c3bdba712d88
-title: D3DX10\_IMAGE\_FILE\_FORMAT enumeration
+title: D3DX10_IMAGE_FILE_FORMAT enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

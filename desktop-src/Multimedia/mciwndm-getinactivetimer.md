@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETINACTIVETIMER message
+title: MCIWNDM_GETINACTIVETIMER message
 description: The MCIWNDM\_GETINACTIVETIMER message retrieves the update period used when the MCIWnd window is the inactive window. You can send this message explicitly or by using the MCIWndGetInactiveTimer macro.
 ms.assetid: 84e00d2f-2cf8-4b6b-a8cb-7eb320754783
 keywords:

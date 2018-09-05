@@ -1,5 +1,5 @@
 ---
-title: D3DX\_R16G16\_UINT\_to\_UINT2 function
+title: D3DX_R16G16_UINT_to_UINT2 function
 description: Unpacks DXGI\_FORMAT\_R16G16\_UINT shader data to an XMUINT2.
 ms.assetid: bb24fdc4-db47-4cf3-af05-4b39c3af3701
 keywords:

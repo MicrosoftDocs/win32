@@ -1,7 +1,7 @@
 ---
 Description: Retrieves additional information about an error.
 ms.assetid: 64a90f18-3ae7-4021-857f-64adf8c40430
-title: GetErrorEx method of the Msvm\_CollectionReferencePointExportJob class
+title: GetErrorEx method of the Msvm_CollectionReferencePointExportJob class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

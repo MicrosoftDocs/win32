@@ -1,7 +1,7 @@
 ---
 Description: The get\_Jitter method retrieves the standard deviation of time in milliseconds between each frame and the next for all frames since streaming started.
 ms.assetid: 629e725e-7dee-4824-8f79-cd3335f4901b
-title: CBaseVideoRenderer.get\_Jitter method
+title: CBaseVideoRenderer.get_Jitter method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

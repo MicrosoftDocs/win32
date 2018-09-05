@@ -1,7 +1,7 @@
 ---
 Description: The LINEBEARERMODE\_ bit-flag constants describe different bearer modes of a call.
 ms.assetid: 87e46ec9-ed5f-4ff5-a382-34eb164f4e66
-title: LINEBEARERMODE\_ Constants
+title: LINEBEARERMODE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

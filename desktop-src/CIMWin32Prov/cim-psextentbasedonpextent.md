@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_PSExtentBasedOnPExtent class
+title: CIM_PSExtentBasedOnPExtent class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

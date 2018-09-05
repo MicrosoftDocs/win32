@@ -1,5 +1,5 @@
 ---
-title: DRM\_LicenseState\_Copy
+title: DRM_LicenseState_Copy
 description: The DRM\_LicenseState\_Copy property contains a WM\_LICENSE\_STATE\_DATA structure that contains details about how this right has been applied to the content.
 ms.assetid: 97a79e35-6533-4781-b368-ffe8d81956ec
 keywords:

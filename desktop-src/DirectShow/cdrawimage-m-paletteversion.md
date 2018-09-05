@@ -1,7 +1,7 @@
 ---
 Description: The m\_PaletteVersion member variable is used to track when the palette changes.
 ms.assetid: 45cb6e62-48b4-4480-a3fa-0f790f3c725d
-title: CDrawImage::m\_PaletteVersion member
+title: CDrawImage::m_PaletteVersion member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: TCN\_FOCUSCHANGE notification code
+title: TCN_FOCUSCHANGE notification code
 description: Notifies a tab control's parent window that the button focus has changed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 7500faae-5386-465d-ae4a-285205bccc1f
 keywords:

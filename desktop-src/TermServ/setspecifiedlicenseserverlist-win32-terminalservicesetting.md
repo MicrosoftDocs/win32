@@ -1,5 +1,5 @@
 ---
-title: SetSpecifiedLicenseServerList method of the Win32\_TerminalServiceSetting class
+title: SetSpecifiedLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Updates the list of specified license servers, replacing any existing specified license servers.
 audience: developer
 author: REDMOND\\markl

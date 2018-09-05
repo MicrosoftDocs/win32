@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Defender02 class
+title: MDM_Policy_Result01_Defender02 class
 description: The MDM\_Policy\_Result01\_Defender02class represents policies related to Windows Defender.
 ms.assetid: 82c8a7a2-8369-46c4-aa87-b44b742a274d
 keywords:

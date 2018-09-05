@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether context messages should be sent to the owning window's window procedure.
 ms.assetid: 57ecf10a-8a02-4353-b916-9080ebc0b270
-title: CONTEXT\_ENABLE\_TYPE enumeration
+title: CONTEXT_ENABLE_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

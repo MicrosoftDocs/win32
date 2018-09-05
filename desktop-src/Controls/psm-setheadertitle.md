@@ -1,5 +1,5 @@
 ---
-title: PSM\_SETHEADERTITLE message
+title: PSM_SETHEADERTITLE message
 description: Sets the title text for the header of a wizard's interior page. You can send this message explicitly or use the PropSheet\_SetHeaderTitle macro.
 ms.assetid: 19d4badf-d99d-4a28-92d4-33bcf5d23944
 keywords:

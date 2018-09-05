@@ -1,6 +1,6 @@
 ---
 Description: Contains information that File Manager uses to add a Help string for a menu or toolbar command item.
-title: FMS\_HELPSTRING structure
+title: FMS_HELPSTRING structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

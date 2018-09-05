@@ -1,7 +1,7 @@
 ---
 Description: Flags for surface and resource creation options.
 ms.assetid: b5026566-89b5-458e-b36d-a55e5f8c10c1
-title: DXGI\_USAGE
+title: DXGI_USAGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

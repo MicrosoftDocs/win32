@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETREPEAT message
+title: MCIWNDM_GETREPEAT message
 description: The MCIWNDM\_GETREPEAT message determines if continuous playback has been activated. You can send this message explicitly or by using the MCIWndGetRepeat macro.
 ms.assetid: 6d644117-e705-421f-b45f-9f0e833e6bc8
 keywords:

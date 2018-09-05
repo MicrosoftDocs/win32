@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus class
+title: MDM_DeviceStatus class
 description: The MDM\_DeviceStatus class is used by the enterprise to keep track of device inventory and query the state of compliance of these devices with their enterprise policies.
 ms.assetid: fceaaf36-8f33-410a-89b4-c824b10164d5
 keywords:

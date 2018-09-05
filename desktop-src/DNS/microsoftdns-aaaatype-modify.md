@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_AAAAType class
+title: Modify method of the MicrosoftDNS_AAAAType class
 description: The Modify method updates an IPv6 address (AAAA) Resource Record.
 ms.assetid: d58f8a88-8473-4b26-89f0-237d2457f00b
 keywords:

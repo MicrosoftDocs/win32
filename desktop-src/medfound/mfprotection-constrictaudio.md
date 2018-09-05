@@ -1,7 +1,7 @@
 ---
 Description: Specifies to constrict audio.
 ms.assetid: 455F12C9-FBD0-483F-AAC1-63FAC2A5F1F3
-title: MFPROTECTION\_CONSTRICTAUDIO attribute
+title: MFPROTECTION_CONSTRICTAUDIO attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

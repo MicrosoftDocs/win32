@@ -7,7 +7,7 @@ ms.assetid: 30402d7d-f7cb-43b5-96b5-a8a76144e32d
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.Instances\_ method
+title: SWbemObject.Instances_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

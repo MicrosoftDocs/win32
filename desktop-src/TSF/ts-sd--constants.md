@@ -1,5 +1,5 @@
 ---
-title: TS\_SD\_\ Constants
+title: TS_SD_ Constants
 description: The TS\_SD\_\ constants describe dynamic document states used by an application at runtime.
 ms.assetid: fb673e42-bee7-484e-872a-d709d5ca12f2
 topic_type:

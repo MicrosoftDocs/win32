@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_DataProtection02 class
+title: MDM_Policy_Config01_DataProtection02 class
 description: The MDM\_Policy\_Config01\_DataProtection02 class represents the data protection policies available.
 ms.assetid: 54750bae-ee5d-4db9-896f-28d9550c4d5d
 keywords:

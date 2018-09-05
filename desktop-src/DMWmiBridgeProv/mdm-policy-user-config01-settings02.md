@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Config01\_Settings02 class
+title: MDM_Policy_User_Config01_Settings02 class
 description: The MDM\_Policy\_User\_Config01\_Settings02 class configures additional calendars in the taskbar.
 ms.assetid: 66cfdb55-17a7-4586-86b3-70ba7dcd5637
 keywords:

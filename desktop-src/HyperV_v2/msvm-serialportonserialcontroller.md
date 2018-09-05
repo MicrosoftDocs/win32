@@ -1,7 +1,7 @@
 ---
 Description: Associates a serial port with a serial controller.
 ms.assetid: A07DE787-2600-4C40-9CE2-7D96D6A58E53
-title: Msvm\_SerialPortOnSerialController class
+title: Msvm_SerialPortOnSerialController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_WKSType class
+title: MicrosoftDNS_WKSType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Well-Known Services (WKS) record.
 ms.assetid: 7bbfd518-d473-4127-949b-9133a43ac7a7
 keywords:

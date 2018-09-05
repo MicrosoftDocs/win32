@@ -1,7 +1,7 @@
 ---
 Description: An association used to establish &\#0034;part of&\#0034; relationships between one instance of an Msvm\_EthernetPortAllocationSettingData and one or more instances of an Msvm\_EthernetSwitchFeatureSettingData.
 ms.assetid: fab15342-a134-4d4a-9668-1272041614b9
-title: Msvm\_EthernetPortSettingDataComponent class
+title: Msvm_EthernetPortSettingDataComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

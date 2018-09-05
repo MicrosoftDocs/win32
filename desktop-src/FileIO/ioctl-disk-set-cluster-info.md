@@ -1,7 +1,7 @@
 ---
 Description: Sets the cluster information on a disk.
 ms.assetid: AB2243D9-4913-4412-87E0-2C8DB8AB10B8
-title: IOCTL\_DISK\_SET\_CLUSTER\_INFO control code
+title: IOCTL_DISK_SET_CLUSTER_INFO control code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

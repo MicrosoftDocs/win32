@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_ANSI\_381\_POS Palm Constants
+title: WINBIO_ANSI_381_POS Palm Constants
 description: Specify the palm and palm areas scanned by a sensor.
 ms.assetid: FD0B731C-81FB-41F0-8D1E-99AB2DE98773
 topic_type:

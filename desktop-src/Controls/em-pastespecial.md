@@ -1,5 +1,5 @@
 ---
-title: EM\_PASTESPECIAL message
+title: EM_PASTESPECIAL message
 description: Pastes a specific clipboard format in a rich edit control.
 ms.assetid: b4b9c1a7-943d-4dc8-bcb9-054c984b82ba
 keywords:

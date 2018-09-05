@@ -1,7 +1,7 @@
 ---
 Description: Represents the runtime security settings of a CIM\_ComputerSystem.
 ms.assetid: fa4448dc-9353-475f-ac9b-5c50f36360d8
-title: Msvm\_SecurityElement class
+title: Msvm_SecurityElement class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

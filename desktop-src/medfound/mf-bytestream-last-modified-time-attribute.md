@@ -1,7 +1,7 @@
 ---
 Description: Specifies when a byte stream was last modified.
 ms.assetid: dceff922-44eb-478f-842a-8ac0e73a02ee
-title: MF\_BYTESTREAM\_LAST\_MODIFIED\_TIME attribute
+title: MF_BYTESTREAM_LAST_MODIFIED_TIME attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

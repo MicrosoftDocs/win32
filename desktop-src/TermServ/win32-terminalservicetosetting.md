@@ -1,5 +1,5 @@
 ---
-title: Win32\_TerminalServiceToSetting class
+title: Win32_TerminalServiceToSetting class
 description: Represents the association between an instance of the Win32\_TerminalService class and the setting of a particular Win32\_TerminalServiceSetting property.
 audience: developer
 author: REDMOND\\markl

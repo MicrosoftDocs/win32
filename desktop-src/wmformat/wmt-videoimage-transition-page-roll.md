@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_PAGE\_ROLL
+title: WMT_VIDEOIMAGE_TRANSITION_PAGE_ROLL
 description: The page roll transition transforms the old image with a page-flipping effect, revealing the new image underneath.
 ms.assetid: 50efa4e9-0d3a-4b85-96b0-6d5cd637ca98
 keywords:

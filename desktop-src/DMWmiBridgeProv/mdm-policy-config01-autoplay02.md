@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Autoplay02 class
+title: MDM_Policy_Config01_Autoplay02 class
 description: The MDM\_Policy\_Config01\_Autoplay02 class configures the available autoplay policies.
 ms.assetid: ef7ccdb6-3f77-4c43-87d9-56acda97be21
 keywords:

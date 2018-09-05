@@ -1,7 +1,7 @@
 ---
 Description: Winsock network tracing event for socket close operation.
 ms.assetid: C59B2B51-288A-46C9-B390-26A18DB0C2FB
-title: AFD\_EVENT\_CLOSE event
+title: AFD_EVENT_CLOSE event
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Offset between the time stamp on each sample received by the sample grabber, and the time when the sample grabber presents the sample.
 ms.assetid: 8d06b415-aafc-4276-9a88-4b7262df62f1
-title: MF\_SAMPLEGRABBERSINK\_SAMPLE\_TIME\_OFFSET attribute
+title: MF_SAMPLEGRABBERSINK_SAMPLE_TIME_OFFSET attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

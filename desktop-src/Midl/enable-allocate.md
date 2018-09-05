@@ -1,5 +1,5 @@
 ---
-title: enable\_allocate attribute
+title: enable_allocate attribute
 description: The \ enable\_allocate\ ACF attribute specifies that the server stub code should enable the stub memory management environment.
 ms.assetid: 3a232a82-f114-4d8c-8b71-cf8860c77db3
 keywords:

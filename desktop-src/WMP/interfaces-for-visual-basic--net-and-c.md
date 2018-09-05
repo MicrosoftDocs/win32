@@ -1,5 +1,5 @@
 ---
-title: Interfaces for Visual Basic .NET and C\
+title: Interfaces for Visual Basic .NET and C
 description: Interfaces for Visual Basic .NET and C\
 ms.assetid: c66f1e03-20eb-45b1-8710-be9eae63e7ad
 keywords:

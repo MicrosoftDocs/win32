@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSVirtualIP class
+title: Win32_TSVirtualIP class
 description: Defines Internet protocol (IP) virtualization settings for a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl

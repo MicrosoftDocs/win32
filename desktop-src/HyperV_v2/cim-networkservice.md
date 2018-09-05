@@ -1,7 +1,7 @@
 ---
 Description: This class is deprecated. Instead, we recommend deriving from the CIM\_Service class.
 ms.assetid: 67b3a96e-4549-41e0-8097-f8d145df0c49
-title: CIM\_NetworkService class
+title: CIM_NetworkService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: TTM\_RELAYEVENT message
+title: TTM_RELAYEVENT message
 description: Passes a mouse message to a tooltip control for processing.
 ms.assetid: 76d6d0ed-f357-479e-83d8-03d2e988cbd3
 keywords:

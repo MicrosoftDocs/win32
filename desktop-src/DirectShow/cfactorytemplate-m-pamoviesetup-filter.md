@@ -1,7 +1,7 @@
 ---
 Description: Pointer to an AMOVIESETUP\_FILTER structure.
 ms.assetid: 72db601b-78a3-484a-a27f-147ec36022ab
-title: CFactoryTemplate::m\_pAMovieSetup\_Filter member
+title: CFactoryTemplate::m_pAMovieSetup_Filter member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

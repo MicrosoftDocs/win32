@@ -1,5 +1,5 @@
 ---
-title: sample\_c (sm4 - asm)
+title: sample_c (sm4 - asm)
 description: Performs a comparison filter.
 ms.assetid: 59786ED2-48FB-494E-A5A4-F732D63BF01B
 ms.technology: desktop

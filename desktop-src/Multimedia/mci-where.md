@@ -1,5 +1,5 @@
 ---
-title: MCI\_WHERE command
+title: MCI_WHERE command
 description: The MCI\_WHERE command obtains the clipping rectangle for the video device.
 ms.assetid: f64a7e49-4ee1-4836-ba9a-0bbdc47626b3
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Reporting\_SecurityAuditing01\_RetrieveByCount02 class
+title: MDM_Reporting_SecurityAuditing01_RetrieveByCount02 class
 description: The MDM\_Reporting\_SecurityAuditing01\_RetrieveByCount02 class is used to retrieve a specified number of logs from the StartTime.
 ms.assetid: dfa50c04-99d6-4f6a-90ff-70a829bd317d
 keywords:

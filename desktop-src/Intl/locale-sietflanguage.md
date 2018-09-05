@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SIETFLANGUAGE
 ms.assetid: b42d782a-a252-421b-b399-73ca47136313
-title: LOCALE\_SIETFLANGUAGE
+title: LOCALE_SIETFLANGUAGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

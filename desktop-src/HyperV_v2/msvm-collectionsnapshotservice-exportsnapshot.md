@@ -1,7 +1,7 @@
 ---
 Description: Exports a snapshot collection of virtual computer systems to a file. The snapshot collection, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.
 ms.assetid: 61fbc81c-c3e8-4058-b11a-4ed69481207c
-title: ExportSnapshot method of the Msvm\_CollectionSnapshotService class
+title: ExportSnapshot method of the Msvm_CollectionSnapshotService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

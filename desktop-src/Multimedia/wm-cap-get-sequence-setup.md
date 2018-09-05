@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_GET\_SEQUENCE\_SETUP message
+title: WM_CAP_GET_SEQUENCE_SETUP message
 description: The WM\_CAP\_GET\_SEQUENCE\_SETUP message retrieves the current settings of the streaming capture parameters. You can send this message explicitly or by using the capCaptureGetSetup macro.
 ms.assetid: 2220c92a-1994-4f15-9730-1cf01972dda6
 keywords:

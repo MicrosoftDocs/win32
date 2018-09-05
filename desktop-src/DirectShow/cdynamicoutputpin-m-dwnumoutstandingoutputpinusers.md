@@ -1,7 +1,7 @@
 ---
 Description: Number of streaming threads using this pin.
 ms.assetid: f8650a17-edab-4d69-91da-78107c3c60b9
-title: CDynamicOutputPin::m\_dwNumOutstandingOutputPinUsers member
+title: CDynamicOutputPin::m_dwNumOutstandingOutputPinUsers member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

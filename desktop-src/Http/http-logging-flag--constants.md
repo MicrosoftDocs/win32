@@ -1,5 +1,5 @@
 ---
-title: HTTP\_LOGGING\_FLAG\_ Constants
+title: HTTP_LOGGING_FLAG_ Constants
 description: Define the options to configure logging on the HTTP Server API.
 ms.assetid: b6afef7a-5426-4ccd-9785-169e83812c07
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: MCM\_GETMAXTODAYWIDTH message
+title: MCM_GETMAXTODAYWIDTH message
 description: Retrieves the maximum width of the \ 0034;today \ 0034; string in a month calendar control. This includes the label text and the date text. You can send this message explicitly or by using the MonthCal\_GetMaxTodayWidth macro.
 ms.assetid: bb55c24e-ba04-4a57-97b0-ff04d77e1d43
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The LINEAGENTFEATURE\_ constants list features that are available for an agent on an address.
 ms.assetid: 5953eb49-08ac-4c13-9fd3-df5473f96af8
-title: LINEAGENTFEATURE\_ Constants
+title: LINEAGENTFEATURE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

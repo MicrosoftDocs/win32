@@ -1,7 +1,7 @@
 ---
 Description: Notifies applications that a power-management event has occurred.
 ms.assetid: 46452909-ac0e-4c06-8542-0b94d00e6556
-title: WM\_POWERBROADCAST message
+title: WM_POWERBROADCAST message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

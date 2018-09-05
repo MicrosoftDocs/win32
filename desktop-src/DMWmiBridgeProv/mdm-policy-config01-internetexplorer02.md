@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_InternetExplorer02 class
+title: MDM_Policy_Config01_InternetExplorer02 class
 description: The MDM\_Policy\_Config01\_InternetExplorer02 class configures the Internet Explorer policies.
 ms.assetid: 32cc6a64-3008-4add-96e8-33b31beb207f
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetPixelFormat method.
 ms.assetid: 0879bfb7-0175-4275-a093-a69b39c66a41
-title: IWICBitmapSource\_GetPixelFormat\_Proxy function
+title: IWICBitmapSource_GetPixelFormat_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

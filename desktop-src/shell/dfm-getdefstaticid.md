@@ -1,6 +1,6 @@
 ---
 Description: Sent by the default context menu implementation during creation, specifying the default menu command and allowing an alternate choice to be made. Used by LPFNDFMCALLBACK.
-title: DFM\_GETDEFSTATICID message
+title: DFM_GETDEFSTATICID message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

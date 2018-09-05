@@ -7,7 +7,7 @@ ms.assetid: 4d2e4715-041c-49e9-b948-a148dfe85483
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_Event class'
+title: '__Event class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

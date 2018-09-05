@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayServer class
+title: Win32_TSGatewayServer class
 description: Used for Remote Desktop Gateway (RD Gateway) server-specific operations.
 audience: developer
 author: REDMOND\\markl

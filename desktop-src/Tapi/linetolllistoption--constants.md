@@ -1,7 +1,7 @@
 ---
 Description: The LINETOLLLISTOPTION\_ bit-flag constants describe options for manipulating a toll list.
 ms.assetid: 22878045-c1d1-45b6-a864-d979514e4b7d
-title: LINETOLLLISTOPTION\_ Constants
+title: LINETOLLLISTOPTION_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

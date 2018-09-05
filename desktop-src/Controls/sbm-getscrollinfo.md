@@ -1,5 +1,5 @@
 ---
-title: SBM\_GETSCROLLINFO message
+title: SBM_GETSCROLLINFO message
 description: The SBM\_GETSCROLLINFO message is sent to retrieve the parameters of a scroll bar.
 ms.assetid: 3b43430f-b55f-43ec-8558-baf5c953064f
 keywords:

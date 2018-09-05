@@ -1,5 +1,5 @@
 ---
-title: WM\_INITMENU message
+title: WM_INITMENU message
 description: Sent when a menu is about to become active.
 ms.assetid: d0fcc6d8-f57c-4d04-b9e7-4cfab6add173
 keywords:

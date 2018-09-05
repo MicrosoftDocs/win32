@@ -1,5 +1,5 @@
 ---
-title: STOWED\_EXCEPTION\_INFORMATION\_HEADER structure
+title: STOWED_EXCEPTION_INFORMATION_HEADER structure
 description: Contains info that identifies the parent structure.
 ms.assetid: 0BC1FDAA-C750-4DEC-AF6A-B2CB3240B67C
 keywords:

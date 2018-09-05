@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Privacy02 class
+title: MDM_Policy_Result01_Privacy02 class
 description: The MDM\_Policy\_Result01\_Privacy02 class represents the search policies available.
 ms.assetid: 40aa1b74-bdec-471d-a7d4-89e59bf8637c
 keywords:

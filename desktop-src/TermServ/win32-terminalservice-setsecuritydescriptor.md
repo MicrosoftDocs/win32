@@ -1,5 +1,5 @@
 ---
-title: SetSecurityDescriptor method of the Win32\_Service class
+title: SetSecurityDescriptor method of the Win32_Service class
 description: Writes an updated version of the security descriptor that controls access to the service.
 audience: developer
 author: REDMOND\\markl

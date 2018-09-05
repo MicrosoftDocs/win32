@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_TemperatureSensor Methods
+title: CIM_TemperatureSensor Methods
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

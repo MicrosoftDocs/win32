@@ -1,5 +1,5 @@
 ---
-title: GetLicenseFromStoreMethod method of the MDM\_EnterpriseModernAppManagement\_StoreLicenses02\_01 class
+title: GetLicenseFromStoreMethod method of the MDM_EnterpriseModernAppManagement_StoreLicenses02_01 class
 description: Method for getting a license from the store. See also, GetLicenseFromStore.
 ms.assetid: 4cf8a979-60c1-4ec1-968e-5a90cc671ebf
 keywords:

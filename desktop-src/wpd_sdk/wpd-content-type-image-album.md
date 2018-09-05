@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_IMAGE\_ALBUM
 ms.assetid: e2ae9f89-5a71-4443-b0c1-81e4c650e1bb
-title: WPD\_CONTENT\_TYPE\_IMAGE\_ALBUM
+title: WPD_CONTENT_TYPE_IMAGE_ALBUM
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

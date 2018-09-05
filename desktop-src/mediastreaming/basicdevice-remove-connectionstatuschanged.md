@@ -1,5 +1,5 @@
 ---
-title: BasicDevice.remove\_ConnectionStatusChanged method
+title: BasicDevice.remove_ConnectionStatusChanged method
 description: Unregisters an event handler for the ConnectionStatusChanged event.
 ms.assetid: 537CA8FE-D2E1-4CC7-BB80-FBE36A2D4A1E
 keywords:

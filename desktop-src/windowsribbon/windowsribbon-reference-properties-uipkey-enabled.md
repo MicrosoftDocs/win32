@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_Enabled
+title: UI_PKEY_Enabled
 description: Identifies the UI\_PKEY\_Enabled property.
 ms.assetid: bb75487c-a222-4d92-87cb-1c11d137af7b
 ms.technology: desktop

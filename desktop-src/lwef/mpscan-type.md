@@ -1,5 +1,5 @@
 ---
-title: MPSCAN\_TYPE enumeration
+title: MPSCAN_TYPE enumeration
 description: Type of scan performed.
 ms.assetid: 980A80FD-FF02-4338-B7FB-DAA141F65E89
 keywords:

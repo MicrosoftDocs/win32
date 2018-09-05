@@ -1,7 +1,7 @@
 ---
 Description: The get\_ProtocolVersion method gets the Session Descriptor Protocol (SDP; see RFC 2327) protocol version.
 ms.assetid: 7c62357c-427f-40f9-a9d2-c4e1a8400e97
-title: ITSdp::get\_ProtocolVersion method
+title: ITSdp::get_ProtocolVersion method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

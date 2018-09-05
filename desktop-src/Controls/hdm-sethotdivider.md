@@ -1,5 +1,5 @@
 ---
-title: HDM\_SETHOTDIVIDER message
+title: HDM_SETHOTDIVIDER message
 description: Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can send this message explicitly or use the Header\_SetHotDivider macro.
 ms.assetid: 56f6e5c6-1df3-4b4d-9ad8-97fb168c5462
 keywords:

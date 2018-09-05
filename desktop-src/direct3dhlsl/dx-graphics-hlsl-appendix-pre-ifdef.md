@@ -1,5 +1,5 @@
 ---
-title: '\ ifdef and \ ifndef Directives'
+title: ' ifdef and  ifndef Directives'
 description: Preprocessor directives that determine whether a specific preprocessor constant or macro is defined.
 ms.assetid: c1cc2e1d-2599-45ec-9629-56c4b42e0d0e
 keywords:

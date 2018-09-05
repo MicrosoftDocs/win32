@@ -1,5 +1,5 @@
 ---
-title: MMIOM\_RENAME message
+title: MMIOM_RENAME message
 description: The MMIOM\_RENAME message is sent to an I/O procedure by the mmioRename function to request that the specified file be renamed.
 ms.assetid: 38a746c8-3a6f-4cb2-a5b4-c11bd1e73c8a
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Contains a DirectShow format GUID for a media type.
 ms.assetid: dc532791-39e1-4acb-9e62-21d8f25be870
-title: MF\_MT\_AM\_FORMAT\_TYPE attribute
+title: MF_MT_AM_FORMAT_TYPE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

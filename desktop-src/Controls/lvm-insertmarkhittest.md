@@ -1,5 +1,5 @@
 ---
-title: LVM\_INSERTMARKHITTEST message
+title: LVM_INSERTMARKHITTEST message
 description: Retrieves the insertion point closest to a specified point.
 ms.assetid: 901bb770-a36d-4d9f-a53b-d497b4df39e5
 keywords:

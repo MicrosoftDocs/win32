@@ -1,5 +1,5 @@
 ---
-title: SynchronizePublishingData method of the Win32\_RDMSManagementData class
+title: SynchronizePublishingData method of the Win32_RDMSManagementData class
 description: Synchronizes the specified set of publishing data for Remote Desktop Management Services (RDMS).
 audience: developer
 author: REDMOND\\markl

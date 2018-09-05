@@ -1,7 +1,7 @@
 ---
 Description: Specifies the post processing mode for the decoder.
 ms.assetid: c6dab7f6-4a3e-45bb-b81c-5f4c39f9e954
-title: MFPKEY\_POSTPROCESSMODE Property
+title: MFPKEY_POSTPROCESSMODE Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

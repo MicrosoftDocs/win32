@@ -1,5 +1,5 @@
 ---
-title: IsTransportEnabled method of the Win32\_TSGatewayServerSettings class
+title: IsTransportEnabled method of the Win32_TSGatewayServerSettings class
 description: Determines whether the specified transport is enabled.
 audience: developer
 author: REDMOND\\markl

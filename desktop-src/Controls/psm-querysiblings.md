@@ -1,5 +1,5 @@
 ---
-title: PSM\_QUERYSIBLINGS message
+title: PSM_QUERYSIBLINGS message
 description: Sent to a property sheet, which then forwards the message to each of its pages. You can send this message explicitly or by using the PropSheet\_QuerySiblings macro.
 ms.assetid: 96f48847-b7b8-4d6f-8bde-ada915b7c962
 keywords:

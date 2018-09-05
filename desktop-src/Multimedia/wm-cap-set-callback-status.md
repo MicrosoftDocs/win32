@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_SET\_CALLBACK\_STATUS message
+title: WM_CAP_SET_CALLBACK_STATUS message
 description: The WM\_CAP\_SET\_CALLBACK\_STATUS message sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can send this message explicitly or by using the capSetCallbackOnStatus macro.
 ms.assetid: 451ba9f9-7bfb-4c57-af6c-d5f691f39618
 keywords:

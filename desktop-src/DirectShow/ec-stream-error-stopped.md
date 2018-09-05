@@ -1,7 +1,7 @@
 ---
 Description: A stream has stopped because of an error.
 ms.assetid: bee05025-161e-49b7-8c9b-79e1ed28315f
-title: EC\_STREAM\_ERROR\_STOPPED
+title: EC_STREAM_ERROR_STOPPED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

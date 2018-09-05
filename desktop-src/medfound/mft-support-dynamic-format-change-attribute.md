@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a Media Foundation transform (MFT) supports dynamic format changes.
 ms.assetid: 64d32c78-8bee-4d3c-a770-5a097cb71b13
-title: MFT\_SUPPORT\_DYNAMIC\_FORMAT\_CHANGE attribute
+title: MFT_SUPPORT_DYNAMIC_FORMAT_CHANGE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

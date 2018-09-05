@@ -1,7 +1,7 @@
 ---
 Description: Represents the configured state of a synthetic Fibre Channel port or a Fibre Channel switch port.
 ms.assetid: 680badc4-8dba-47e8-859a-0ed472a15eda
-title: Msvm\_FcPortAllocationSettingData class
+title: Msvm_FcPortAllocationSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

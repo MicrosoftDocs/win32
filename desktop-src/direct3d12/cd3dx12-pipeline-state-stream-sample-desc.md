@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_SAMPLE\_DESC structure
+title: CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC structure
 description: A helper structure used to describe a sample description as a single object suitable for a stream description.
 ms.assetid: D84C5373-AC0F-430A-97A1-6125611869B2
 keywords:

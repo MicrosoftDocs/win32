@@ -1,6 +1,6 @@
 ---
 Description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window). The selected file can have a long file name.
-title: FM\_GETFILESELLFN message
+title: FM_GETFILESELLFN message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

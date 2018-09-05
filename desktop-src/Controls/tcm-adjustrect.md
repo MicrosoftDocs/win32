@@ -1,5 +1,5 @@
 ---
-title: TCM\_ADJUSTRECT message
+title: TCM_ADJUSTRECT message
 description: Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can send this message explicitly or by using the TabCtrl\_AdjustRect macro.
 ms.assetid: 2f14201a-e4a3-4ae5-b9cf-4a674c52f24a
 keywords:

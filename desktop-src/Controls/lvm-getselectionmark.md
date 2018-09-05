@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETSELECTIONMARK message
+title: LVM_GETSELECTIONMARK message
 description: Retrieves the selection mark from a list-view control. You can send this message explicitly or use the ListView\_GetSelectionMark macro.
 ms.assetid: 21daf7d7-1217-4608-93f9-c390546f1591
 keywords:

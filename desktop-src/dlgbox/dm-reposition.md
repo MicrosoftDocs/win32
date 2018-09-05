@@ -1,5 +1,5 @@
 ---
-title: DM\_REPOSITION message
+title: DM_REPOSITION message
 description: Repositions a top-level dialog box so that it fits within the desktop area. An application can send this message to a dialog box after resizing it to ensure that the entire dialog box remains visible.
 ms.assetid: 8386d23e-06ea-4ea7-adde-ac97fc97861d
 keywords:

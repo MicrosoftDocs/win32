@@ -1,5 +1,5 @@
 ---
-title: TB\_BUTTONCOUNT message
+title: TB_BUTTONCOUNT message
 description: Retrieves a count of the buttons currently in the toolbar.
 ms.assetid: 4d1b53a9-c561-49ce-9f8c-ffc9ce4dbbf7
 keywords:

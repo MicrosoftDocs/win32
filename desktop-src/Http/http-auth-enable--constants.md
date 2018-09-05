@@ -1,5 +1,5 @@
 ---
-title: HTTP\_AUTH\_ENABLE\_ Constants
+title: HTTP_AUTH_ENABLE_ Constants
 description: Define authentication schemes that can be enabled on a URL Group.
 ms.assetid: db22645f-c9e4-427e-b3d5-91d568aec7c5
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSFileTypeAssociation class
+title: Win32_RDMSFileTypeAssociation class
 description: Manages a file type association for a published application.
 audience: developer
 author: REDMOND\\markl

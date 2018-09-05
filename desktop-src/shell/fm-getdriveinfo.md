@@ -1,6 +1,6 @@
 ---
 Description: Sent by a File Manager extension to retrieve drive information from the active File Manager window.
-title: FM\_GETDRIVEINFO message
+title: FM_GETDRIVEINFO message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

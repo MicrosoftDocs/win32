@@ -1,7 +1,7 @@
 ---
 Description: Configures the network adapters IP settings to be applied to a virtual machine after a failover.
 ms.assetid: a49d089e-f5dc-4bfb-9f66-2593304b9795
-title: SetFailoverNetworkAdapterSettings method of the Msvm\_ReplicationService class
+title: SetFailoverNetworkAdapterSettings method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

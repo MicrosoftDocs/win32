@@ -1,5 +1,5 @@
 ---
-title: WM\_ADSPROP\_NOTIFY\_APPLY message
+title: WM_ADSPROP_NOTIFY_APPLY message
 description: An Active Directory directory service property sheet extension sends the WM\_ADSPROP\_NOTIFY\_APPLY message to the notification object if the property page PSN\_APPLY handler succeeds.
 audience: developer
 author: REDMOND\\markl

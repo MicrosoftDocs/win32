@@ -1,5 +1,5 @@
 ---
-title: SV\_GSInstanceID
+title: SV_GSInstanceID
 description: Defines the instance of the geometry shader.
 ms.assetid: 66d1706f-3c14-46db-a791-dc3de9831cc9
 keywords:

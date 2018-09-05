@@ -1,5 +1,5 @@
 ---
-title: WS\_METADATA
+title: WS_METADATA
 description: An opaque type used to reference a set of metadata documents.
 ms.assetid: aa7383a1-60fa-448a-b0c6-b9c49d9d5070
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_CryptographySuite03 class
+title: MDM_VPNv2_CryptographySuite03 class
 description: The MDM\_VPNv2\_CryptographySuite03 class contains cryptography information for the native VPN profile.
 ms.assetid: d8d16d43-bd54-4ca8-a850-ce48390df7d6
 keywords:

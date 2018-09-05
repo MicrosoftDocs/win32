@@ -1,5 +1,5 @@
 ---
-title: BCM\_GETTEXTMARGIN message
+title: BCM_GETTEXTMARGIN message
 description: Gets the margins used to draw text in a button control. You can send this message explicitly or use the Button\_GetTextMargin macro.
 ms.assetid: 6c141752-e636-41c4-9d05-df8b320ff59f
 keywords:

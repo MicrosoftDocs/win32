@@ -1,5 +1,5 @@
 ---
-title: WM\_SETFOCUS message
+title: WM_SETFOCUS message
 description: Sent to a window after it has gained the keyboard focus.
 ms.assetid: 77180e4c-95a6-41a4-93d9-033381ae7543
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EC\_WMT\_EVENT
+title: EC_WMT_EVENT
 description: EC\_WMT\_EVENT
 ms.assetid: 51d51659-8e7d-49b7-83f2-a80e99d39d78
 keywords:

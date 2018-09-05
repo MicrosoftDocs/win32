@@ -1,5 +1,5 @@
 ---
-title: ddy\_fine function
+title: ddy_fine function
 description: Computes a high precision partial derivative with respect to the screen-space x-coordinate.
 ms.assetid: 29fcdbc9-470b-4b5b-b18c-f75dd2c87920
 keywords:

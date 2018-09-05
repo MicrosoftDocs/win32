@@ -1,5 +1,5 @@
 ---
-title: iid\_is attribute
+title: iid_is attribute
 description: The \ iid\_is\ pointer attribute specifies the IID of the COM interface pointed to by an interface pointer.
 ms.assetid: 7fb5eb87-15d8-4717-b79a-e8a81f2f7293
 keywords:

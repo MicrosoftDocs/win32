@@ -1,7 +1,7 @@
 ---
 Description: Requests whether it is acceptable to drop a data object on the item specified by the accompanying SMDATA structure.
 ms.assetid: 777bbc7e-6b0f-4627-9d92-4aa8209082ca
-title: SMC\_SFDDRESTRICTED message
+title: SMC_SFDDRESTRICTED message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

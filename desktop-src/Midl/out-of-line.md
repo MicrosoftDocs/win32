@@ -1,5 +1,5 @@
 ---
-title: out\_of\_line attribute
+title: out_of_line attribute
 description: The DCE IDL keyword out\_of\_line is not supported in Microsoft RPC.
 ms.assetid: b56289d6-efe6-42be-9f5f-51d4f039c9df
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: StopService method of the MicrosoftDNS\_Server class
+title: StopService method of the MicrosoftDNS_Server class
 description: The StopService method stops the DNS Server.
 ms.assetid: 80637d5b-e43a-4710-b3ab-eec246587788
 keywords:

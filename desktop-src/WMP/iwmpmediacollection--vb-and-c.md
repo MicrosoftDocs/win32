@@ -1,5 +1,5 @@
 ---
-title: IWMPMediaCollection (VB and C\ ) interface
+title: IWMPMediaCollection (VB and C ) interface
 description: Provides methods that can be used to organize a large collection of media items.
 ms.assetid: a9e3d466-7dcf-4f1b-ba6f-9d166a35f03d
 keywords:

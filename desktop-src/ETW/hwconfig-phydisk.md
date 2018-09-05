@@ -1,7 +1,7 @@
 ---
 Description: The HWConfig\_PhyDisk class is the event type class for physical disk configuration events. The following syntax is simplified from MOF code.
 ms.assetid: b134ab45-b161-452f-be84-ccbdfa3fe4af
-title: HWConfig\_PhyDisk class
+title: HWConfig_PhyDisk class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

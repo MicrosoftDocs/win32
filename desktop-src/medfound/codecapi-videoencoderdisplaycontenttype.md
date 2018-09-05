@@ -1,7 +1,7 @@
 ---
 Description: Sets whether the content is full-screen video, as opposed to screen content that might have a smaller window of video or have no video at all.
 ms.assetid: A2D0D6A0-30CB-435B-A5CD-A6FB001C46ED
-title: CODECAPI\_VideoEncoderDisplayContentType property
+title: CODECAPI_VideoEncoderDisplayContentType property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

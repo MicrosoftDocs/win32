@@ -1,5 +1,5 @@
 ---
-title: D2D1\_SIZE\_F
+title: D2D1_SIZE_F
 description: Stores an ordered pair of floats, typically the width and height of a rectangle.
 ms.assetid: c2fd41fb-72b3-418b-ad87-65549b04657d
 keywords:

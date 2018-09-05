@@ -1,5 +1,5 @@
 ---
-title: MPCONFIGURATION\_DATA structure
+title: MPCONFIGURATION_DATA structure
 description: Contains data about configuration changes, including the old and new values.
 ms.assetid: AB70B1C0-C148-44BC-8C0E-CC5D2A66BCA5
 keywords:

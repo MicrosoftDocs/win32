@@ -1,7 +1,7 @@
 ---
 Description: Number of pins on the filter.
 ms.assetid: dcd3a240-beff-4481-8768-a0c0f69f0bfd
-title: CSource::m\_iPins member
+title: CSource::m_iPins member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

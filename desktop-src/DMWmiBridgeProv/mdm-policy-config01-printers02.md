@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Printers02 class
+title: MDM_Policy_Config01_Printers02 class
 description: The MDM\_Policy\_Config01\_Printers02 class configures the printer policies.
 ms.assetid: c0e6dc53-5f84-4cef-a4c4-08db6486784a
 keywords:

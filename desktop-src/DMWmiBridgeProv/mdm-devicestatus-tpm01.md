@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_TPM01 class
+title: MDM_DeviceStatus_TPM01 class
 description: The MDM\_DeviceStatus\_TPM01 class is used by the enterprise to query the TPM version of devices with their enterprise policies.
 ms.assetid: 9df10fbe-91b7-49f4-9e27-6c42218a6718
 keywords:

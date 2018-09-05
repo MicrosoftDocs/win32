@@ -1,5 +1,5 @@
 ---
-title: SetHomeDirectory method of the Win32\_TerminalServiceSetting class
+title: SetHomeDirectory method of the Win32_TerminalServiceSetting class
 description: Sets the TerminalServicesHomeDirectory property for the class.
 audience: developer
 author: REDMOND\\markl

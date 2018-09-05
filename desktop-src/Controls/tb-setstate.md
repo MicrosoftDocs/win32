@@ -1,5 +1,5 @@
 ---
-title: TB\_SETSTATE message
+title: TB_SETSTATE message
 description: Sets the state for the specified button in a toolbar.
 ms.assetid: 68633b58-8d21-4931-b01f-32a66bda37b1
 keywords:

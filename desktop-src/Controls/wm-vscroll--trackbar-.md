@@ -1,5 +1,5 @@
 ---
-title: WM\_VSCROLL (Trackbar) notification code
+title: WM_VSCROLL (Trackbar) notification code
 description: The WM\_VSCROLL message is sent to the owner of a vertical trackbar control when the slider changes position. A window receives this message through its WindowProc function.
 ms.assetid: E491E210-9605-4ABB-A667-471830DA7C2B
 keywords:

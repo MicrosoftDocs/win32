@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether the numerical password meets the special format requirements for this authentication value.
 ms.assetid: 3995405f-db4d-4f72-98dc-133a09f9cf65
-title: IsNumericalPasswordValid method of the Win32\_EncryptableVolume class
+title: IsNumericalPasswordValid method of the Win32_EncryptableVolume class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

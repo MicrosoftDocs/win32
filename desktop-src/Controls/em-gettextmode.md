@@ -1,5 +1,5 @@
 ---
-title: EM\_GETTEXTMODE message
+title: EM_GETTEXTMODE message
 description: Gets the current text mode and undo level of a rich edit control.
 ms.assetid: 5c976a82-9c51-4700-9db4-a6b0ed7bb852
 keywords:

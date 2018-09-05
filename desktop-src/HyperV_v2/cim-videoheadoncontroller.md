@@ -1,7 +1,7 @@
 ---
 Description: Associates a video head with the video adapter that contains it.
 ms.assetid: d15f4350-1529-4246-9ea2-8453e52516c6
-title: CIM\_VideoHeadOnController class
+title: CIM_VideoHeadOnController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

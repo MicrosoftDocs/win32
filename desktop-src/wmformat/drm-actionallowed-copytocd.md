@@ -1,5 +1,5 @@
 ---
-title: DRM\_ActionAllowed\_CopyToCD
+title: DRM_ActionAllowed_CopyToCD
 description: The DRM\_ActionAllowed\_CopyToCD attribute indicates whether the content is allowed to be copied to a CD.
 ms.assetid: c650bb2e-6cec-404a-8ece-7a5687cda99f
 keywords:

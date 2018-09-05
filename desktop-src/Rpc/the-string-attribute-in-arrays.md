@@ -1,5 +1,5 @@
 ---
-title: The \ string\ Attribute in Arrays
+title: The  string Attribute in Arrays
 description: You can use the \ string\ attribute for one-dimensional character arrays, wide-character arrays, and byte arrays that represent text strings.
 ms.assetid: 96cebb84-6123-4bf8-b70b-a4f6d48cce52
 keywords:

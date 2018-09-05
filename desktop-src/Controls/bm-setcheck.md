@@ -1,5 +1,5 @@
 ---
-title: BM\_SETCHECK message
+title: BM_SETCHECK message
 description: Sets the check state of a radio button or check box. You can send this message explicitly or by using the Button\_SetCheck macro.
 ms.assetid: 8294e6c4-caac-4c60-85ff-38698a1d2ae4
 keywords:

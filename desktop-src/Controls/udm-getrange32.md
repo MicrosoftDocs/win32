@@ -1,5 +1,5 @@
 ---
-title: UDM\_GETRANGE32 message
+title: UDM_GETRANGE32 message
 description: Retrieves the 32-bit range of an up-down control.
 ms.assetid: a94b50c9-cd2f-430d-875f-720e51f544f1
 keywords:

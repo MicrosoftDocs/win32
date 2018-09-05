@@ -1,7 +1,7 @@
 ---
 Description: Specifies the SVC capabilities of an H.264 video stream.
 ms.assetid: B727D9D2-6126-41F8-A27A-743640FE3AE4
-title: MF\_MT\_H264\_SVC\_CAPABILITIES attribute
+title: MF_MT_H264_SVC_CAPABILITIES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

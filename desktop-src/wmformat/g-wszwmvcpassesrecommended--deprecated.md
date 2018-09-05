@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCPassesRecommended
+title: g_wszWMVCPassesRecommended
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 87fe3663-d2d1-444b-a74f-428bf1ad9608
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Represents the bandwidth settings for a virtual switch.
 ms.assetid: bc6f8cd3-f74a-4f4a-9ffe-a88def3966d9
-title: Msvm\_VirtualEthernetSwitchBandwidthSettingData class
+title: Msvm_VirtualEthernetSwitchBandwidthSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

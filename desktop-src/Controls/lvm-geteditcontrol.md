@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETEDITCONTROL message
+title: LVM_GETEDITCONTROL message
 description: Gets the handle to the edit control being used to edit a list-view item's text. You can send this message explicitly or by using the ListView\_GetEditControl macro.
 ms.assetid: 70450b24-9879-4be8-9bc9-f87008b66415
 keywords:

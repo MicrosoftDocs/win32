@@ -1,5 +1,5 @@
 ---
-title: TDM\_NAVIGATE\_PAGE message
+title: TDM_NAVIGATE_PAGE message
 description: Recreates a task dialog with new contents, simulating the functionality of a multi-page wizard.
 ms.assetid: e0eefd08-e279-47db-97e9-7ca86b41e22f
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MM\_JOY2BUTTONDOWN message
+title: MM_JOY2BUTTONDOWN message
 description: The MM\_JOY2BUTTONDOWN message notifies the window that has captured joystick JOYSTICKID2 that a button has been pressed.
 ms.assetid: b4cd48ea-91ad-48e9-b0ae-58d8ee124171
 keywords:

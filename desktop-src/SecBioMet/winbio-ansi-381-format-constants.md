@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_ANSI\_381\_FORMAT Constants
+title: WINBIO_ANSI_381_FORMAT Constants
 description: Specify format owner and format type.
 ms.assetid: 5EFFF7EB-D998-4EE9-A23F-B17477F00863
 topic_type:

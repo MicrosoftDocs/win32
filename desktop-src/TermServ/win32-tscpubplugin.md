@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSCPubPlugin class
+title: Win32_TSCPubPlugin class
 description: Represents a plug-in that is configured to be used through the RemoteApp and Desktop Connection Management Service.
 audience: developer
 author: REDMOND\\markl

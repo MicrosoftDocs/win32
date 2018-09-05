@@ -1,7 +1,7 @@
 ---
 Description: The PRINTER\_INFO\_9 structure specifies the per-user default printer settings.
 ms.assetid: 8bafb995-f31c-46e3-a950-45e240c678aa
-title: PRINTER\_INFO\_9 structure
+title: PRINTER_INFO_9 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

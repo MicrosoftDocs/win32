@@ -7,7 +7,7 @@ ms.assetid: 049f8722-1674-4c4f-9300-09b1cc1412fb
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SetSD method of the \_\_SystemSecurity class
+title: SetSD method of the __SystemSecurity class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

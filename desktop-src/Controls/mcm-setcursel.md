@@ -1,5 +1,5 @@
 ---
-title: MCM\_SETCURSEL message
+title: MCM_SETCURSEL message
 description: Sets the currently selected date for a month calendar control. If the specified date is not in view, the control updates the display to bring it into view. You can send this message explicitly or by using the MonthCal\_SetCurSel macro.
 ms.assetid: 2a9f82a1-66d9-44dd-b60f-b588b4688316
 keywords:

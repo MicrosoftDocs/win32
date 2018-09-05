@@ -1,7 +1,7 @@
 ---
 Description: Represents the state of the GPU partition.
 ms.assetid: 319b37d5-b5f0-4251-9482-316347a9015b
-title: Msvm\_GpuPartition class
+title: Msvm_GpuPartition class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

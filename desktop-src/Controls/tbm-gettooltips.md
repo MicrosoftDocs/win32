@@ -1,5 +1,5 @@
 ---
-title: TBM\_GETTOOLTIPS message
+title: TBM_GETTOOLTIPS message
 description: Retrieves the handle to the tooltip control assigned to the trackbar, if any.
 ms.assetid: 30efef12-1aec-4635-94a7-1843db404c4f
 keywords:

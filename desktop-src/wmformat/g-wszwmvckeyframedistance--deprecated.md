@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCKeyframeDistance
+title: g_wszWMVCKeyframeDistance
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 4f835102-2409-418e-80d4-0f917d6d4736
 keywords:

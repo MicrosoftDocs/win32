@@ -1,5 +1,5 @@
 ---
-title: CBN\_ERRSPACE notification code
+title: CBN_ERRSPACE notification code
 description: Sent when a combo box cannot allocate enough memory to meet a specific request. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
 ms.assetid: c1c19c40-fc88-47d0-9676-7a267a48ae98
 keywords:

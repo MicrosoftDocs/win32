@@ -1,5 +1,5 @@
 ---
-title: TB\_CHECKBUTTON message
+title: TB_CHECKBUTTON message
 description: Checks or unchecks a given button in a toolbar.
 ms.assetid: e67734a9-851c-41ab-8ad7-15d434f58e5a
 keywords:

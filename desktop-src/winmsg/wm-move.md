@@ -1,7 +1,7 @@
 ---
 Description: Sent after a window has been moved.
 ms.assetid: 552ddc26-fe63-449b-8c82-bb927a2c1c41
-title: WM\_MOVE message
+title: WM_MOVE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

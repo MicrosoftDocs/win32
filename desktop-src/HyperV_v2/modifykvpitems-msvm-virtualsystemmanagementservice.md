@@ -1,7 +1,7 @@
 ---
 Description: Modifies existing key-value pairs on a virtual machine.
 ms.assetid: A014F681-4429-4982-95AA-DF371925BB3B
-title: ModifyKvpItems method of the Msvm\_VirtualSystemManagementService class
+title: ModifyKvpItems method of the Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

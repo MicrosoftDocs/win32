@@ -1,7 +1,7 @@
 ---
 Description: Initializes a color using the (a,y,u,v) values.
 ms.assetid: 47b65aab-511a-44c1-ab94-973bc2da7e04
-title: D3DCOLOR\_AYUV macro
+title: D3DCOLOR_AYUV macro
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

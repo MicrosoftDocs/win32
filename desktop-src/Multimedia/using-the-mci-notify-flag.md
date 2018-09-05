@@ -1,5 +1,5 @@
 ---
-title: Using the MCI\_NOTIFY Flag
+title: Using the MCI_NOTIFY Flag
 description: Using the MCI\_NOTIFY Flag
 ms.assetid: 1d1803c8-f315-463e-ae0d-a258aa3af3c9
 keywords:

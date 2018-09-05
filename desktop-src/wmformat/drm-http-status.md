@@ -1,5 +1,5 @@
 ---
-title: DRM\_HTTP\_STATUS enumeration
+title: DRM_HTTP_STATUS enumeration
 description: The DRM\_HTTP\_STATUS enumeration type defines a range of states for a DRM request.
 ms.assetid: 09183ef9-4832-4469-a960-dbeb67381949
 keywords:

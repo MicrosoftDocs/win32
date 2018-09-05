@@ -1,5 +1,5 @@
 ---
-title: DRM\_OPL\_OUTPUT\_IDS structure
+title: DRM_OPL_OUTPUT_IDS structure
 description: The DRM\_OPL\_OUTPUT\_IDS structure holds a number of output protection level (OPL) output identifiers.
 ms.assetid: 3627f2a7-1cea-400b-82e7-678898ccc386
 keywords:

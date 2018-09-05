@@ -1,5 +1,5 @@
 ---
-title: '\ in, string\ and \ out, string\ Prototype'
+title: ' in, string and  out, string Prototype'
 description: The following function prototype uses two parameters an \ in, string\ parameter and an \ out, string\ parameter.
 ms.assetid: acb0ec4f-1846-4fa2-98c2-2081b52a8260
 ms.technology: desktop

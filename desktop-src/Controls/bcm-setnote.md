@@ -1,5 +1,5 @@
 ---
-title: BCM\_SETNOTE message
+title: BCM_SETNOTE message
 description: Sets the text of the note associated with a command link button. You can send this message explicitly or use the Button\_SetNote macro.
 ms.assetid: c167072a-8207-4744-ac66-247141d726ab
 keywords:

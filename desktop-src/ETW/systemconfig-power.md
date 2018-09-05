@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for power configuration events. The following syntax is simplified from MOF code.
 ms.assetid: 7065b0b0-9a1d-4fce-a494-5762d5efb239
-title: SystemConfig\_Power class
+title: SystemConfig_Power class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

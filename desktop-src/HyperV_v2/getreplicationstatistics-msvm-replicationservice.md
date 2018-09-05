@@ -1,7 +1,7 @@
 ---
 Description: Retrieves replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
 ms.assetid: 24f3f572-fa85-4680-be77-7e835e6471c5
-title: GetReplicationStatistics method of the Msvm\_ReplicationService class
+title: GetReplicationStatistics method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

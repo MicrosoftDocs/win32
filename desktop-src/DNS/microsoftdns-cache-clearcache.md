@@ -1,5 +1,5 @@
 ---
-title: ClearCache method of the MicrosoftDNS\_Cache class
+title: ClearCache method of the MicrosoftDNS_Cache class
 description: The ClearCache method clears the DNS Server cache of resource records.
 ms.assetid: ff8d24b7-e3c0-401d-ad4b-a33400f6ae21
 keywords:

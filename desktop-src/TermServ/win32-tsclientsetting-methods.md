@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSClientSetting Methods
+title: Win32_TSClientSetting Methods
 description: The Win32\_TSClientSetting class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

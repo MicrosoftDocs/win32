@@ -1,5 +1,5 @@
 ---
-title: MDM\_Update\_InstallableUpdates01\_01 class
+title: MDM_Update_InstallableUpdates01_01 class
 description: The MDM\_Update\_InstallableUpdates01\_01 class is used to manage and control the rollout of approved updates.
 ms.assetid: 53ca2291-a92a-46ed-948d-6d2a2dddd296
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Class identifier (CLSID) of the object.
 ms.assetid: d4816dad-c6cc-419e-8e9b-43edb4bf9928
-title: CBaseMediaFilter::m\_clsid member
+title: CBaseMediaFilter::m_clsid member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

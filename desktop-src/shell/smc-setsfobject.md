@@ -1,6 +1,6 @@
 ---
 Description: Notifies you to save the passed object.
-title: SMC\_SETSFOBJECT message
+title: SMC_SETSFOBJECT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

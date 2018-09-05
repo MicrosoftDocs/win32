@@ -1,6 +1,6 @@
 ---
 Description: Sets the network address types that a specified network address control accepts.
-title: NCM\_SETALLOWTYPE message
+title: NCM_SETALLOWTYPE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

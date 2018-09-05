@@ -1,7 +1,7 @@
 ---
 Description: Specifies the profile of video encoding on the output media type. This is an alias of MF\_MT\_MPEG2\_PROFILE attribute.
 ms.assetid: 29D1CCCA-CC11-46F1-A094-8BA8F74F7EE9
-title: MF\_MT\_VIDEO\_PROFILE attribute
+title: MF_MT_VIDEO_PROFILE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

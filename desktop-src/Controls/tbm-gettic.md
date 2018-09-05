@@ -1,5 +1,5 @@
 ---
-title: TBM\_GETTIC message
+title: TBM_GETTIC message
 description: Retrieves the logical position of a tick mark in a trackbar. The logical position can be any of the integer values in the trackbar's range of minimum to maximum slider positions.
 ms.assetid: 9d70c860-de97-4579-bb10-e9e9db7f1784
 keywords:

@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Win32\_CDROMDrive class
+title: Win32_CDROMDrive class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

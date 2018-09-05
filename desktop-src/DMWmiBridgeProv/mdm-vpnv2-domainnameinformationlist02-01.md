@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_DomainNameInformationList02\_01 class
+title: MDM_VPNv2_DomainNameInformationList02_01 class
 description: The MDM\_VPNv2\_DomainNameInformationList02\_01 class describes the Name Resolution Policy Table (NRPT) rules for the VPN profile.
 ms.assetid: ed6863aa-f85e-4f65-9312-ddf60a8c0d5a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CheckStatus method of the Win32\_TSGatewayConnection class
+title: CheckStatus method of the Win32_TSGatewayConnection class
 description: Checks the status of a Remote Desktop Gateway (RD Gateway) server connection to another computer, and determines whether the target computer is configured for load balancing.
 audience: developer
 author: REDMOND\\markl

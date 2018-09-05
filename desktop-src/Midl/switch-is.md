@@ -1,5 +1,5 @@
 ---
-title: switch\_is attribute
+title: switch_is attribute
 description: The \ switch\_is\ attribute specifies the expression or identifier acting as the union discriminant that selects the union member.
 ms.assetid: 93552bdf-6a14-47ce-877e-32ed976bb895
 keywords:

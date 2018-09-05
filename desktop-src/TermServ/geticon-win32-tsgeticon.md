@@ -1,5 +1,5 @@
 ---
-title: GetIcon method of the Win32\_TSGetIcon class
+title: GetIcon method of the Win32_TSGetIcon class
 description: Returns the contents of the specified icon.
 audience: developer
 author: REDMOND\\markl

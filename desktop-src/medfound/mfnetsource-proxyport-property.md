@@ -1,7 +1,7 @@
 ---
 Description: Specifies the port number of the proxy server.
 ms.assetid: cd84911b-3658-489f-b454-23eded0cbfa0
-title: MFNETSOURCE\_PROXYPORT property
+title: MFNETSOURCE_PROXYPORT property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

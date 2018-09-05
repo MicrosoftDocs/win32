@@ -1,5 +1,5 @@
 ---
-title: MCI\_DELETE command
+title: MCI_DELETE command
 description: The MCI\_DELETE command removes data from the file. Digital-video and waveform-audio devices recognize this command.
 ms.assetid: cf7fae86-e81e-4006-9755-fd01f81aeb62
 keywords:

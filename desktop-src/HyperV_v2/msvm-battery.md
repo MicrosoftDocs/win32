@@ -1,7 +1,7 @@
 ---
 Description: Represents a virtual battery device.
 ms.assetid: 24e745cc-d92b-429b-87eb-4caae5d4a95a
-title: Msvm\_Battery class
+title: Msvm_Battery class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

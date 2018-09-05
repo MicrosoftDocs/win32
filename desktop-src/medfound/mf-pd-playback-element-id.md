@@ -1,7 +1,7 @@
 ---
 Description: Contains the identifier of the playlist element in the presentation.
 ms.assetid: 355818cf-1e00-46ad-9ce1-ab3a178164f9
-title: MF\_PD\_PLAYBACK\_ELEMENT\_ID attribute
+title: MF_PD_PLAYBACK_ELEMENT_ID attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

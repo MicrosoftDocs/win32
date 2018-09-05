@@ -1,5 +1,5 @@
 ---
-title: SetName method of the Win32\_SessionDirectoryVMMPlugin class
+title: SetName method of the Win32_SessionDirectoryVMMPlugin class
 description: Sets the name of the plug-in.
 audience: developer
 author: REDMOND\\markl

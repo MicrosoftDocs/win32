@@ -1,7 +1,7 @@
 ---
 Description: Specifies a local plugin control policy.
 ms.assetid: 2936F3C9-3BCB-452A-8C03-35D73A200CE2
-title: MF\_LOCAL\_PLUGIN\_CONTROL\_POLICY attribute
+title: MF_LOCAL_PLUGIN_CONTROL_POLICY attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

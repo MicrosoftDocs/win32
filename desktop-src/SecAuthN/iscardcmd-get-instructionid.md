@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the instruction identifier byte from the application protocol data unit (APDU).
 ms.assetid: 294f51cd-0a13-4dfb-bf02-9edd11a7085e
-title: ISCardCmd::get\_InstructionId method
+title: ISCardCmd::get_InstructionId method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

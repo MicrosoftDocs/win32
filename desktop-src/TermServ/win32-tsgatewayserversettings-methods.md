@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayServerSettings Methods
+title: Win32_TSGatewayServerSettings Methods
 description: The Win32\_TSGatewayServerSettings class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

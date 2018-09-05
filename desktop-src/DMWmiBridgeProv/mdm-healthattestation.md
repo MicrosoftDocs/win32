@@ -1,5 +1,5 @@
 ---
-title: MDM\_HealthAttestation class
+title: MDM_HealthAttestation class
 description: The MDM\_HealthAttestation class enables enterprise IT managers to assess the health of managed devices and take enterprise policy actions.
 ms.assetid: 64f40ccc-98f6-48d6-bcd4-793375e3dbfb
 keywords:

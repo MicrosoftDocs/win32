@@ -1,7 +1,7 @@
 ---
 Description: The put\_StopTime method sets the NTP (Network Time Protocol) ending time value. If the end time is zero, the session is not bounded.
 ms.assetid: 6f07054c-5fb2-4ee4-9025-3acf9b51ddbd
-title: ITTime::put\_StopTime method
+title: ITTime::put_StopTime method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

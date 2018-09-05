@@ -1,7 +1,7 @@
 ---
 Description: 'The PHONEBUTTONSTATE\_ bit-flag constants describe the button's positions.'
 ms.assetid: 'f1196e31-65c6-4ade-a0b7-c7758ce97be1'
-title: 'PHONEBUTTONSTATE\_ Constants'
+title: 'PHONEBUTTONSTATE_ Constants'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

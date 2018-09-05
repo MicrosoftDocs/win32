@@ -1,7 +1,7 @@
 ---
 Description: Represents a display controller.
 ms.assetid: 14598ae6-58e2-46ca-8653-b57e5833a224
-title: CIM\_DisplayController class
+title: CIM_DisplayController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

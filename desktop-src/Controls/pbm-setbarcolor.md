@@ -1,5 +1,5 @@
 ---
-title: PBM\_SETBARCOLOR message
+title: PBM_SETBARCOLOR message
 description: Sets the color of the progress indicator bar in the progress bar control.
 ms.assetid: 4b512420-04ec-4884-ab13-4c58304b95f6
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: e72e4ecc-70a8-4eb6-877c-670857ea9b6d
-title: Reset method of the Msvm\_Ps2Mouse class
+title: Reset method of the Msvm_Ps2Mouse class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

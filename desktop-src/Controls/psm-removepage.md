@@ -1,5 +1,5 @@
 ---
-title: PSM\_REMOVEPAGE message
+title: PSM_REMOVEPAGE message
 description: Removes a page from a property sheet. You can send this message explicitly or by using the PropSheet\_RemovePage macro.
 ms.assetid: 2f387e97-4db4-4ad5-8600-7325da674e33
 keywords:

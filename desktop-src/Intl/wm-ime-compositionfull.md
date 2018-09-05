@@ -1,7 +1,7 @@
 ---
 Description: Sent to an application when the IME window finds no space to extend the area for the composition window. A window receives this message through its WindowProc function.
 ms.assetid: d81d6438-c470-4ae5-8016-8d816bcba9b8
-title: WM\_IME\_COMPOSITIONFULL message
+title: WM_IME_COMPOSITIONFULL message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

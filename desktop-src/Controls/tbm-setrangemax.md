@@ -1,5 +1,5 @@
 ---
-title: TBM\_SETRANGEMAX message
+title: TBM_SETRANGEMAX message
 description: Sets the maximum logical position for the slider in a trackbar.
 ms.assetid: 8e9d8fd3-2ee3-4fb6-aa1f-9d6e999ef330
 keywords:

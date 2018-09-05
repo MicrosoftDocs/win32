@@ -1,5 +1,5 @@
 ---
-title: EM\_GETIMECOMPTEXT message
+title: EM_GETIMECOMPTEXT message
 description: Retrieves the Input Method Editor (IME) composition text.
 ms.assetid: 1516305c-5f87-4ae0-97db-8709c71abacc
 keywords:

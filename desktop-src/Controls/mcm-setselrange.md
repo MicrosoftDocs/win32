@@ -1,5 +1,5 @@
 ---
-title: MCM\_SETSELRANGE message
+title: MCM_SETSELRANGE message
 description: Sets the selection for a month calendar control to a given date range. You can send this message explicitly or by using the MonthCal\_SetSelRange macro.
 ms.assetid: 750b0c83-6baa-4caa-a738-feae8751a70e
 keywords:

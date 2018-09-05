@@ -1,5 +1,5 @@
 ---
-title: NM\_CLICK (list view) notification code
+title: NM_CLICK (list view) notification code
 description: Sent by a list-view control when the user clicks an item with the left mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 7921bc27-54ca-4bb2-ac88-8267776661ab
 keywords:

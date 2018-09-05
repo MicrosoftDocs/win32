@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the CreateBitmap method.
 ms.assetid: 5647521b-231d-4819-97ab-4dfb5f796211
-title: IWICImagingFactory\_CreateBitmap\_Proxy function
+title: IWICImagingFactory_CreateBitmap_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

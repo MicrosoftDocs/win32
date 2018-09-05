@@ -1,5 +1,5 @@
 ---
-title: CDM\_GETFOLDERPATH message
+title: CDM_GETFOLDERPATH message
 description: Retrieves the path of the currently open folder or directory for an Explorer-style Open or Save As dialog box.
 ms.assetid: 7c3d4598-b45d-46c1-ad0d-cb0ecd20b3eb
 keywords:

@@ -7,7 +7,7 @@ ms.assetid: 5121cd02-b122-48fd-995a-cf6c77948fd8
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: COOKER\_AVERAGE
+title: COOKER_AVERAGE
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

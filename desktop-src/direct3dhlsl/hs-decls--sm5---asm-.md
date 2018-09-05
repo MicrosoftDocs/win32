@@ -1,5 +1,5 @@
 ---
-title: hs\_decls (sm5 - asm)
+title: hs_decls (sm5 - asm)
 description: Start the declarations phase in a hull shader.
 ms.assetid: 1C8552B1-F649-4B73-A365-D449A9121DAE
 ms.technology: desktop

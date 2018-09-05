@@ -1,5 +1,5 @@
 ---
-title: D3DX\_R16G16\_FLOAT\_to\_FLOAT2 function
+title: D3DX_R16G16_FLOAT_to_FLOAT2 function
 description: Unpacks DXGI\_FORMAT\_B8G8R8X8\_UNORM\_SRGB shader data to an XMFLOAT2.
 ms.assetid: 6c57dc86-d034-4b54-8572-44ac3738beb9
 keywords:

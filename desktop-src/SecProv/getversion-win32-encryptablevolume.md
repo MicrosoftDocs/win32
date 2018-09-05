@@ -1,7 +1,7 @@
 ---
 Description: Returns the FVE metadata version of the volume.
 ms.assetid: 21d5bf6d-c613-4200-b35c-1bad1ee72ec7
-title: GetVersion method of the Win32\_EncryptableVolume class
+title: GetVersion method of the Win32_EncryptableVolume class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

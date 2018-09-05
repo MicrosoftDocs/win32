@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionBrokerServiceProperties class
+title: Win32_SessionBrokerServiceProperties class
 description: Defines the query for a session broker service.
 audience: developer
 author: REDMOND\\markl

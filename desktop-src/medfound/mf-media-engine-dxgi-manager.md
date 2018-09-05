@@ -1,7 +1,7 @@
 ---
 Description: Sets the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager on the Media Engine.
 ms.assetid: CB952492-0ACF-4501-BD8B-133E26FCE8F7
-title: MF\_MEDIA\_ENGINE\_DXGI\_MANAGER attribute
+title: MF_MEDIA_ENGINE_DXGI_MANAGER attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

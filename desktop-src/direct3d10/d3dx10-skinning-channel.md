@@ -1,7 +1,7 @@
 ---
 Description: The member of the vertex decl to do the software skinning on. This is used with the ID3DX10SkinInfo::DoSoftwareSkinning API.
 ms.assetid: 67c817cd-ce78-4e8b-bdc3-7c4d6670dee1
-title: D3DX10\_SKINNING\_CHANNEL structure
+title: D3DX10_SKINNING_CHANNEL structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

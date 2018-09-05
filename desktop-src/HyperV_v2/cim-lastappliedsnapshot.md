@@ -1,7 +1,7 @@
 ---
 Description: Represents an association between a computer system and its most recently applied virtual system snapshot.
 ms.assetid: 722491a3-1c46-4d37-8bd6-7c7d6648a806
-title: CIM\_LastAppliedSnapshot class
+title: CIM_LastAppliedSnapshot class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

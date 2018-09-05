@@ -1,7 +1,7 @@
 ---
 Description: The CAPICOM\_HASH\_ALGORITHM enumeration defines a hash algorithm.
 ms.assetid: 5373b6cc-944a-4d83-ac71-59edcb2af94e
-title: CAPICOM\_HASH\_ALGORITHM enumeration
+title: CAPICOM_HASH_ALGORITHM enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

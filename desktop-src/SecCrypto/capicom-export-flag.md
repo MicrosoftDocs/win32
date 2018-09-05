@@ -1,7 +1,7 @@
 ---
 Description: The CAPICOM\_EXPORT\_FLAG enumeration type defines whether any private key export errors are ignored.
 ms.assetid: 12e6862b-5c73-4e45-8829-8086048e94f3
-title: CAPICOM\_EXPORT\_FLAG enumeration
+title: CAPICOM_EXPORT_FLAG enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Seeking capabilities.
 ms.assetid: c849db20-7567-41e0-9a57-85070a6e6a3a
-title: CSourceSeeking::m\_dwSeekingCaps member
+title: CSourceSeeking::m_dwSeekingCaps member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

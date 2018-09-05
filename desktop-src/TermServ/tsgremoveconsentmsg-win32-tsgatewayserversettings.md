@@ -1,5 +1,5 @@
 ---
-title: TSGRemoveConsentMsg method of the Win32\_TSGatewayServerSettings class
+title: TSGRemoveConsentMsg method of the Win32_TSGatewayServerSettings class
 description: Removes the administrative message for the gateway server.
 audience: developer
 author: REDMOND\\markl

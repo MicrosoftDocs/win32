@@ -1,7 +1,7 @@
 ---
 Description: The get\_Hue method retrieves the hue value on which to key. This property applies only when the key type is DXTKEY\_HUE.
 ms.assetid: d37fedd6-f29f-4f16-821b-c5f8520c4e12
-title: IDxtKey::get\_Hue method
+title: IDxtKey::get_Hue method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

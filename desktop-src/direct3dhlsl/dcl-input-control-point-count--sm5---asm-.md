@@ -1,5 +1,5 @@
 ---
-title: dcl\_input\_control\_point\_count (sm5 - asm)
+title: dcl_input_control_point_count (sm5 - asm)
 description: Declare the hull shader input control point count in the hull shader declaration section.
 ms.assetid: 2E524BF0-3DD0-446A-8437-0CF17B348D83
 ms.technology: desktop

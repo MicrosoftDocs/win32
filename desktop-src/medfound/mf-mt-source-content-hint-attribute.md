@@ -1,7 +1,7 @@
 ---
 Description: Describes the intended aspect ratio for a video media type.
 ms.assetid: 6b32e257-c523-4859-8c8f-661c33810624
-title: MF\_MT\_SOURCE\_CONTENT\_HINT attribute
+title: MF_MT_SOURCE_CONTENT_HINT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

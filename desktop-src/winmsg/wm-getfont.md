@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the font with which the control is currently drawing its text.
 ms.assetid: a6d05ef5-9933-4d03-a677-a8328bf1cb7d
-title: WM\_GETFONT message
+title: WM_GETFONT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

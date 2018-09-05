@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the input pin connected to this pin.
 ms.assetid: 752f01ca-4195-4558-9a81-4a6a24e19b75
-title: CBaseOutputPin::m\_pInputPin member
+title: CBaseOutputPin::m_pInputPin member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

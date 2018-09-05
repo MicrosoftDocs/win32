@@ -1,7 +1,7 @@
 ---
 Description: Specifies the desired average volume level of output audio content.
 ms.assetid: 2e59537f-ee14-4186-b312-297225e91120
-title: MFPKEY\_WMADRC\_AVGTARGET Property
+title: MFPKEY_WMADRC_AVGTARGET Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

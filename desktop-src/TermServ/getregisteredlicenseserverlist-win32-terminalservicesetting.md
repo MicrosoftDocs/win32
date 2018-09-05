@@ -1,5 +1,5 @@
 ---
-title: GetRegisteredLicenseServerList method of the Win32\_TerminalServiceSetting class
+title: GetRegisteredLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Gets the list of registered license servers.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: WM\_ADSPROP\_NOTIFY\_SETFOCUS message
+title: WM_ADSPROP_NOTIFY_SETFOCUS message
 description: The WM\_ADSPROP\_NOTIFY\_SETFOCUS message is used internally by the notification object.
 audience: developer
 author: REDMOND\\markl

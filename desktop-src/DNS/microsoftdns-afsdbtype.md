@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_AFSDBType class
+title: MicrosoftDNS_AFSDBType class
 description: Subclass of MicrosoftDNS\_ResourceRecord that represents an Andrew File System Database Server (AFSDB) record.
 ms.assetid: 536f4df7-bd01-458b-b8f1-36f066e9ca04
 keywords:

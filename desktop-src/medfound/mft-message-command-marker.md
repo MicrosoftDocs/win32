@@ -1,7 +1,7 @@
 ---
 Description: Marks a point in the stream. This message applies only to Asynchronous MFTs.
 ms.assetid: eae1d066-64af-45e2-b8bb-eddf9147ad8b
-title: MFT\_MESSAGE\_COMMAND\_MARKER
+title: MFT_MESSAGE_COMMAND_MARKER
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

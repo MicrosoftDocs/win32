@@ -1,7 +1,7 @@
 ---
 Description: Exports a virtual machine, or a snapshot of a virtual machine, to a file.
 ms.assetid: b88712e4-a1a6-4188-8082-f4973f89018d
-title: ExportSystemDefinition method of the Msvm\_VirtualSystemManagementService class
+title: ExportSystemDefinition method of the Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

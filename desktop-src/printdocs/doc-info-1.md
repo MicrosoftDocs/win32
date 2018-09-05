@@ -1,7 +1,7 @@
 ---
 Description: The DOC\_INFO\_1 structure describes a document that will be printed.
 ms.assetid: 142d988b-dd74-4312-8b27-331a7ec70344
-title: DOC\_INFO\_1 structure
+title: DOC_INFO_1 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

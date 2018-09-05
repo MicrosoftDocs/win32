@@ -1,7 +1,7 @@
 ---
 Description: Represents a logical device that allows a user to input, view or hear data on the computer system.
 ms.assetid: 95f88a63-3a2a-4b8c-9849-564dac254933
-title: CIM\_UserDevice class
+title: CIM_UserDevice class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

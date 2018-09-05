@@ -1,5 +1,5 @@
 ---
-title: BN\_PAINT notification code
+title: BN_PAINT notification code
 description: Sent when a button should be painted.
 ms.assetid: 1c742272-60bb-42f1-a9b3-974e9a8540cd
 keywords:

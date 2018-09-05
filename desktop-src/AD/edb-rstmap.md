@@ -1,5 +1,5 @@
 ---
-title: EDB\_RSTMAP structure
+title: EDB_RSTMAP structure
 description: Used with the DsRestoreRegister function to map a backed up database to a new database.
 audience: developer
 author: REDMOND\\markl

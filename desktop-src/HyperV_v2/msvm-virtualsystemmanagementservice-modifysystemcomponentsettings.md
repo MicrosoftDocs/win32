@@ -1,7 +1,7 @@
 ---
 Description: Modifies generic system component settings.
 ms.assetid: e745be32-c26a-4343-99c8-950788243adf
-title: ModifySystemComponentSettings method of the Msvm\_VirtualSystemManagementService class
+title: ModifySystemComponentSettings method of the Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

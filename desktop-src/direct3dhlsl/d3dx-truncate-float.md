@@ -1,5 +1,5 @@
 ---
-title: D3DX\_Truncate\_FLOAT function
+title: D3DX_Truncate_FLOAT function
 description: Truncates a FLOAT value.
 ms.assetid: 47d59c96-1f2d-4878-9fe5-7817107cc837
 keywords:

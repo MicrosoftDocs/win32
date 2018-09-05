@@ -7,7 +7,7 @@ ms.assetid: d973feb5-27c4-4d8e-bf1b-0a455afa4375
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_PARAMETERS class'
+title: '__PARAMETERS class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

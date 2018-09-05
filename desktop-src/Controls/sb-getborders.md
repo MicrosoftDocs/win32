@@ -1,5 +1,5 @@
 ---
-title: SB\_GETBORDERS message
+title: SB_GETBORDERS message
 description: Retrieves the current widths of the horizontal and vertical borders of a status window.
 ms.assetid: 120c1e0d-6f42-424e-94e0-a080d216d39d
 keywords:

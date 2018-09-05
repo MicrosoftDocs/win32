@@ -1,7 +1,7 @@
 ---
 Description: Associates a virtual machine instance with the management service that controls its state.
 ms.assetid: 12EB3951-74D4-477F-8B55-69FAA3B14631
-title: Msvm\_ServiceAffectsElement class
+title: Msvm_ServiceAffectsElement class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

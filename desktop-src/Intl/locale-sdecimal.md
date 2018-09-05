@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SDECIMAL
 ms.assetid: afb5b22b-be50-4428-853a-721fc6035507
-title: LOCALE\_SDECIMAL
+title: LOCALE_SDECIMAL
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

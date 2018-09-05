@@ -1,5 +1,5 @@
 ---
-title: ICM\_COMPRESS\_END message
+title: ICM_COMPRESS_END message
 description: The ICM\_COMPRESS\_END message notifies a video compression driver to end compression and free resources allocated for compression. You can send this message explicitly or by using the ICCompressEnd macro.
 ms.assetid: 5d4b5962-c4f0-44eb-a3a9-36026f167a5a
 keywords:

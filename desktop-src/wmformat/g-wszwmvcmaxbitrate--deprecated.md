@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCMaxBitrate
+title: g_wszWMVCMaxBitrate
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 2637d302-107b-4697-b9a2-4917a9ef8e04
 keywords:

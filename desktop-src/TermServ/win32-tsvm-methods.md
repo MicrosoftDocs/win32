@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSVm Methods
+title: Win32_TSVm Methods
 description: The Win32\_TSVm Methods class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

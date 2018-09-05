@@ -1,5 +1,5 @@
 ---
-title: WM\_NCRBUTTONDBLCLK message
+title: WM_NCRBUTTONDBLCLK message
 description: Posted when the user double-clicks the right mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 20d62b05-07de-49da-b160-29fa1f5067fa
 keywords:

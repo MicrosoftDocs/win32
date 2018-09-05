@@ -1,5 +1,5 @@
 ---
-title: RB\_MOVEBAND message
+title: RB_MOVEBAND message
 description: Moves a band from one index to another.
 ms.assetid: bb5b45de-957e-46fb-b59a-18b55b69c395
 keywords:

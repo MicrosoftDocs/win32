@@ -1,7 +1,7 @@
 ---
 Description: Represents the state of the Volume Shadow Copy Service (VSS) service, which implements the VSS Requester in the guest operating system.
 ms.assetid: 4DD38929-1E3F-4105-BC1A-B367516F7B6E
-title: Msvm\_VssComponent class
+title: Msvm_VssComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

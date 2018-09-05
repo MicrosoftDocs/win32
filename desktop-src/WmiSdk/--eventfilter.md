@@ -7,7 +7,7 @@ ms.assetid: 369d3c28-2b69-456f-9144-d7c73e3123bc
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_EventFilter class'
+title: '__EventFilter class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

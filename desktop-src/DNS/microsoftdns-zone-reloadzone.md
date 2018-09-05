@@ -1,5 +1,5 @@
 ---
-title: ReloadZone method of the MicrosoftDNS\_Zone class
+title: ReloadZone method of the MicrosoftDNS_Zone class
 description: The ReloadZone method reloads the DNS Zone from its database.
 ms.assetid: 9fb3c216-563c-4603-a29a-27627ac644d8
 keywords:

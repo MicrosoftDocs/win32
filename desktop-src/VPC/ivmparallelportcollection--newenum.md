@@ -1,5 +1,5 @@
 ---
-title: IVMParallelPortCollection \_NewEnum property
+title: IVMParallelPortCollection _NewEnum property
 description: Retrieves an enumerator for the collection.
 ms.assetid: 2e26fba7-bcc0-4bb3-bf89-3c62cbd2b37e
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WS\_SECURITY\_CONTEXT
+title: WS_SECURITY_CONTEXT
 description: An opaque type used to reference a security context object.
 ms.assetid: 8d23357b-bff8-45fe-80ef-df3f3b0edde1
 keywords:

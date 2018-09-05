@@ -1,5 +1,5 @@
 ---
-title: TF\_SS\_\ Constants
+title: TF_SS_ Constants
 description: The TF\_SS\_\ constants, defined before run time in the TF\_STATUS structure, describe static document states.
 ms.assetid: 371aeeda-f081-4506-ba51-79c6a8bc8768
 topic_type:

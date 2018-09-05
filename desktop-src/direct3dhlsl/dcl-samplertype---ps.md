@@ -1,5 +1,5 @@
 ---
-title: dcl\_samplerType (sm2, sm3 - ps asm)
+title: dcl_samplerType (sm2, sm3 - ps asm)
 description: Declare a pixel shader sampler.
 ms.assetid: c90ff5b6-f89a-4993-8a5d-dbbc4a7896b0
 ms.technology: desktop

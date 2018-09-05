@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Display02 class
+title: MDM_Policy_Result01_Display02 class
 description: The MDM\_Policy\_Result01\_Display02 class represents the display policies.
 ms.assetid: 9f8675d6-1fd7-4269-8059-9159622f03cb
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSStartMenuApplication class
+title: Win32_TSStartMenuApplication class
 description: Describes the applications that are on the Start menu of a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl

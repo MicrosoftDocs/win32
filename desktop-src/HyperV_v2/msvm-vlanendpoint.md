@@ -1,7 +1,7 @@
 ---
 Description: Represents the VLAN endpoint of a switch port.
 ms.assetid: 82F2EC39-0C9C-4A9D-A6C4-1543A62A341D
-title: Msvm\_VLANEndpoint class
+title: Msvm_VLANEndpoint class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

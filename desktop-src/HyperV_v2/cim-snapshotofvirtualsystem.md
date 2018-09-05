@@ -1,7 +1,7 @@
 ---
 Description: Associates a virtual system a snapshot of the virtual system.
 ms.assetid: f85f6914-dbb8-42c9-a732-11d48613c15c
-title: CIM\_SnapshotOfVirtualSystem class
+title: CIM_SnapshotOfVirtualSystem class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

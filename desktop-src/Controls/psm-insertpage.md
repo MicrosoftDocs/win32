@@ -1,5 +1,5 @@
 ---
-title: PSM\_INSERTPAGE message
+title: PSM_INSERTPAGE message
 description: Inserts a new page into an existing property sheet. The page can be inserted either at a specified index or after a specified page. You can send this message explicitly or by using the PropSheet\_InsertPage macro.
 ms.assetid: 69d55e68-510d-45f1-93d6-ce2bf5dfdb6d
 keywords:

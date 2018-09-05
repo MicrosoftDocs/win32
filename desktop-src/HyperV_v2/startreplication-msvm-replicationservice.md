@@ -1,7 +1,7 @@
 ---
 Description: Starts the replication of a virtual machine.
 ms.assetid: 58e89329-1ad4-4473-856d-ebfd7a863fa8
-title: StartReplication method of the Msvm\_ReplicationService class
+title: StartReplication method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

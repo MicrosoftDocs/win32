@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_ApplicationDefaults02 class
+title: MDM_Policy_Config01_ApplicationDefaults02 class
 description: The MDM\_Policy\_Config01\_ApplicationDefaults02 class allows an administrator to set default file type and protocol associations. When set, default associations will be applied on sign-in to the PC.
 ms.assetid: 01a45151-bce3-47a7-bffe-1a3f5a1348ff
 keywords:

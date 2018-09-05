@@ -1,5 +1,5 @@
 ---
-title: CB\_ADDRESS\_TYPE enumeration
+title: CB_ADDRESS_TYPE enumeration
 description: Specifies the address type.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: LB\_GETLISTBOXINFO message
+title: LB_GETLISTBOXINFO message
 description: Gets the number of items per column in a specified list box.
 ms.assetid: 925bebd9-2563-4892-a7d7-73d4ef012b42
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Represents a service that controls the migration of virtual systems between host systems. This class also verifies whether a pending migration is likely to succeed.
 ms.assetid: 28948a36-3b92-4d52-9a48-aaa155e7fad5
-title: CIM\_VirtualSystemMigrationService class
+title: CIM_VirtualSystemMigrationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

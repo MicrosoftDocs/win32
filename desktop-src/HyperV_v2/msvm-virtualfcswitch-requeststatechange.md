@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: acbc06cd-7f6c-4555-8816-de3f021126aa
-title: RequestStateChange method of the Msvm\_VirtualFcSwitch class
+title: RequestStateChange method of the Msvm_VirtualFcSwitch class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

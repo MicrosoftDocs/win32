@@ -1,5 +1,5 @@
 ---
-title: texld - ps\_2\_0 and up
+title: texld - ps_2_0 and up
 description: Sample a texture at a particular sampler, using provided texture coordinates. This instruction is different from the texld - ps\_1\_4 instruction used in pixel shader version 1\_4.
 ms.assetid: 2b0d02b4-d9dd-4388-aa86-03b27bc4fdc8
 ms.technology: desktop

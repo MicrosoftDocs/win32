@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_NXTType class
+title: Modify method of the MicrosoftDNS_NXTType class
 description: The Modify method updates a Next (NXT) Resource Record.
 ms.assetid: 5a21b843-0761-4022-b00a-9dbcd6814454
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DRM\_LicenseAcqURL
+title: DRM_LicenseAcqURL
 description: The DRM\_LicenseAcqURL attribute contains the address of a Web page that the client application can navigate to in order to obtain a content license for DRM version 7 content.
 ms.assetid: bee29e39-ded8-439d-9164-fc318cb535c0
 keywords:

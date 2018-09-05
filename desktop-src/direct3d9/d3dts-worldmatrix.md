@@ -1,7 +1,7 @@
 ---
 Description: Maps indices in the range 0 through 255 to the corresponding transform states.
 ms.assetid: b0a1548c-de5d-4eff-baf9-4aecb5e13443
-title: D3DTS\_WORLDMATRIX macro
+title: D3DTS_WORLDMATRIX macro
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

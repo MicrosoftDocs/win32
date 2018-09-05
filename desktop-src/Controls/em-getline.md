@@ -1,5 +1,5 @@
 ---
-title: EM\_GETLINE message
+title: EM_GETLINE message
 description: Copies a line of text from an edit control and places it in a specified buffer. You can send this message to either an edit control or a rich edit control.
 ms.assetid: ff56d2c6-5013-46c6-90d8-ee2bdc9074b1
 keywords:

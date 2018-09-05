@@ -1,7 +1,7 @@
 ---
 Description: Information relating to a periodic capture state.
 ms.assetid: 6C032D97-4B37-48D2-BD1A-35B8BA48B8AB
-title: TRACE\_PERIODIC\_CAPTURE\_STATE\_INFO structure
+title: TRACE_PERIODIC_CAPTURE_STATE_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

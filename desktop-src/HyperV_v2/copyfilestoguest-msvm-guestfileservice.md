@@ -1,7 +1,7 @@
 ---
 Description: Copies files from the Hyper-V host to the virtual machine.
 ms.assetid: 76667557-13B2-4286-BC6B-E32FADE62A7A
-title: Msvm\_GuestFileService::CopyFilesToGuest method
+title: Msvm_GuestFileService::CopyFilesToGuest method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

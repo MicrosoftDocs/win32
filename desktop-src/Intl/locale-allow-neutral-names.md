@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_ALLOW\_NEUTRAL\_NAMES
 ms.assetid: b4f9d07c-3c39-46aa-933d-5c8c6ae98345
-title: LOCALE\_ALLOW\_NEUTRAL\_NAMES
+title: LOCALE_ALLOW_NEUTRAL_NAMES
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

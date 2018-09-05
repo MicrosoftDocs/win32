@@ -1,7 +1,7 @@
 ---
 Description: Represents a generic association used to establish the parts of a relationship between managed elements.
 ms.assetid: 9785ea8b-fb76-4ffe-8649-aa2fe1b01d5f
-title: CIM\_ConcreteComponent class
+title: CIM_ConcreteComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

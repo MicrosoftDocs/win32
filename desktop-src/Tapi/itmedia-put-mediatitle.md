@@ -1,7 +1,7 @@
 ---
 Description: The put\_MediaTitle method sets a textual title for the media that the application can use for informational or display purposes. This must be an ASCII convertible string if the character set is ASCII. Otherwise, it can be any BSTR string.
 ms.assetid: bbab033b-bd37-4ef6-9e84-1d0b17ecbd4e
-title: ITMedia::put\_MediaTitle method
+title: ITMedia::put_MediaTitle method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

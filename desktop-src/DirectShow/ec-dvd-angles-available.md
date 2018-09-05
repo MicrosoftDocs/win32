@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether an angle block is being played and angle changes can be performed.
 ms.assetid: 15593841-3162-4598-86bc-1debca22b284
-title: EC\_DVD\_ANGLES\_AVAILABLE
+title: EC_DVD_ANGLES_AVAILABLE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

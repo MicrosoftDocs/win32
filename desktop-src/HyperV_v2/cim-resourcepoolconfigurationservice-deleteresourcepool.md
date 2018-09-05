@@ -1,7 +1,7 @@
 ---
 Description: Start a job to delete a resource pool.
 ms.assetid: af3d9c7c-a825-4568-822d-044b3d92d144
-title: DeleteResourcePool method of the CIM\_ResourcePoolConfigurationService class
+title: DeleteResourcePool method of the CIM_ResourcePoolConfigurationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

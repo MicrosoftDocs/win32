@@ -1,5 +1,5 @@
 ---
-title: ForceRefresh method of the MicrosoftDNS\_Zone class
+title: ForceRefresh method of the MicrosoftDNS_Zone class
 description: The ForceRefresh method forces an update of the secondary DNS Server from the master server.
 ms.assetid: 8dde1703-53c3-4d1e-bfb3-f6d5d1666740
 keywords:

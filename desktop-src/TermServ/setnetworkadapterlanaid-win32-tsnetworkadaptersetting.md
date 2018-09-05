@@ -1,5 +1,5 @@
 ---
-title: SetNetworkAdapterLanaID method of the Win32\_TSNetworkAdapterSetting class
+title: SetNetworkAdapterLanaID method of the Win32_TSNetworkAdapterSetting class
 description: Specifies the Local Area Network Adapter (LANA) number of the network adapter to set.
 audience: developer
 author: REDMOND\\markl

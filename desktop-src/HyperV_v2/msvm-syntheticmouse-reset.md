@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: c28790d8-e731-46a3-8c84-677dd4257b2f
-title: Reset method of the Msvm\_SyntheticMouse class
+title: Reset method of the Msvm_SyntheticMouse class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

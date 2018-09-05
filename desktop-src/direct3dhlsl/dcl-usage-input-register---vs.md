@@ -1,5 +1,5 @@
 ---
-title: dcl\_usage input (sm1, sm2, sm3 - vs asm)
+title: dcl_usage input (sm1, sm2, sm3 - vs asm)
 description: Declare the association between a vertex element usage and a usage index for a vertex shader input register.
 ms.assetid: e0360f4d-1250-4dc5-b790-372b303a37a8
 ms.technology: desktop

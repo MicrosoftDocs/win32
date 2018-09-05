@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayResourceGroup Methods
+title: Win32_TSGatewayResourceGroup Methods
 description: The Win32\_TSGatewayResourceGroup class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

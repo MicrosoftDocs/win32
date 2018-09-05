@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionDirectorySession class
+title: Win32_SessionDirectorySession class
 description: Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) session.
 audience: developer
 author: REDMOND\\markl

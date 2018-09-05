@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_Cache class
+title: MicrosoftDNS_Cache class
 description: The MicrosoftDNS\_Cache class describes a cache existing on a DNS Server.
 ms.assetid: 139406eb-70f2-4614-9662-703ada032298
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Simulates a click of the specified device button.
 ms.assetid: 77CFA2E9-E422-464C-B124-6F7D3D56BA4C
-title: ClickButton method of the Msvm\_Ps2Mouse class
+title: ClickButton method of the Msvm_Ps2Mouse class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: The DRIVER\_INFO\_3 structure contains printer driver information.
 ms.assetid: ccf87319-0bcf-4f71-8de3-0190459d2b0e
-title: DRIVER\_INFO\_3 structure
+title: DRIVER_INFO_3 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

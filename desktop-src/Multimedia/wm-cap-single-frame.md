@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_SINGLE\_FRAME message
+title: WM_CAP_SINGLE_FRAME message
 description: The WM\_CAP\_SINGLE\_FRAME message appends a single frame to a capture file that was opened using the WM\_CAP\_SINGLE\_FRAME\_OPEN message. You can send this message explicitly or by using the capCaptureSingleFrame macro.
 ms.assetid: 95466961-0719-4ff7-afc8-f7bf0e0974ac
 keywords:

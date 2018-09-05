@@ -1,5 +1,5 @@
 ---
-title: RemoveDesktopAssignment method of the Win32\_RDMSDesktopAssignment class
+title: RemoveDesktopAssignment method of the Win32_RDMSDesktopAssignment class
 description: Removes a desktop assignment.
 audience: developer
 author: REDMOND\\markl

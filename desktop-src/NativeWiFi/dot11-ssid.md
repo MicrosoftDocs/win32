@@ -1,7 +1,7 @@
 ---
 Description: Contains the SSID of an interface.
 ms.assetid: f2b15ef9-99ee-4505-8575-224112024d7a
-title: DOT11\_SSID structure
+title: DOT11_SSID structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

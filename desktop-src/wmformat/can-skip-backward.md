@@ -1,5 +1,5 @@
 ---
-title: Can\_Skip\_Backward
+title: Can_Skip_Backward
 description: The Can\_Skip\_Backward attribute is a file-level attribute indicating whether you can skip to the previous item in the server-side playlist.
 ms.assetid: 91a8cfee-ccb6-4e0e-90f0-2e134fee56d1
 keywords:

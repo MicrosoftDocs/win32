@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_ErrorReporting02 class
+title: MDM_Policy_Config01_ErrorReporting02 class
 description: The MDM\_Policy\_Config01\_ErrorReporting02 class configures the error reporting policies.
 ms.assetid: 41067b5e-0db5-43b3-b1d5-2d6c54c35388
 keywords:

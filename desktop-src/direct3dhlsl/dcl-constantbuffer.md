@@ -1,5 +1,5 @@
 ---
-title: dcl\_constantBuffer (sm4 - asm)
+title: dcl_constantBuffer (sm4 - asm)
 description: dcl\_constantBuffer (sm4 - asm)
 ms.assetid: 164fb2a4-8782-42f0-b4ba-1f87d9c7255d
 ms.technology: desktop

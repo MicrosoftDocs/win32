@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_SERVICE
 ms.assetid: 87c4c228-69e0-4b55-b91f-fe6e561f6d18
-title: WPD\_CONTENT\_TYPE\_SERVICE
+title: WPD_CONTENT_TYPE_SERVICE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

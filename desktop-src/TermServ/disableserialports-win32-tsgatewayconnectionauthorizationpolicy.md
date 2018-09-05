@@ -1,5 +1,5 @@
 ---
-title: DisableSerialPorts method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: DisableSerialPorts method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the SerialPortsDisabled property.
 audience: developer
 author: REDMOND\\markl

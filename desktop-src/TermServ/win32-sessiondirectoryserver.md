@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionDirectoryServer class
+title: Win32_SessionDirectoryServer class
 description: Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) server.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: TB\_SETSTYLE message
+title: TB_SETSTYLE message
 description: Sets the style for a toolbar control.
 ms.assetid: a1056136-e027-4ce4-b348-2d912a3ab467
 keywords:

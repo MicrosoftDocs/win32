@@ -1,7 +1,7 @@
 ---
 Description: Specifies the type of picture that is output by a video encoder.
 ms.assetid: 18A47033-3EAC-46C3-94AB-6ED20732F63C
-title: MFSampleExtension\_VideoEncodePictureType attribute
+title: MFSampleExtension_VideoEncodePictureType attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

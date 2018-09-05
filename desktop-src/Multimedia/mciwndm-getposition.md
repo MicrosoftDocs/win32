@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETPOSITION message
+title: MCIWNDM_GETPOSITION message
 description: The MCIWNDM\_GETPOSITION message retrieves the numerical value of the current position within the content of the MCI device.
 ms.assetid: 6dc5d3bd-8515-4514-a2a5-c1bee07f7acf
 keywords:

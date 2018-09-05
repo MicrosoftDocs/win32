@@ -1,5 +1,5 @@
 ---
-title: EN\_PROTECTED notification code
+title: EN_PROTECTED notification code
 description: Notifies a rich edit control's parent window that the user is taking an action that would change a protected range of text. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 29c0cb51-675c-44b1-ad45-5f7140ca5675
 keywords:

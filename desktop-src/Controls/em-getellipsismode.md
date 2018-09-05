@@ -1,5 +1,5 @@
 ---
-title: EM\_GETELLIPSISMODE message
+title: EM_GETELLIPSISMODE message
 description: Retrieves the current ellipsis mode.
 ms.assetid: 01A755F3-6C6E-4974-9866-76BF15E0F3AD
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Modifies the settings for the Hyper-V Replica service.
 ms.assetid: e203f9f5-da4b-4ba7-8637-add7169990d3
-title: ModifyServiceSettings method of the Msvm\_ReplicationService class
+title: ModifyServiceSettings method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

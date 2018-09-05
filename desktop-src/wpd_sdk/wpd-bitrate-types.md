@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_BITRATE\_TYPES enumeration type describes an audio files compression type.
 ms.assetid: 9905b189-00c5-469b-ae48-10c79b9ac903
-title: WPD\_BITRATE\_TYPES enumeration
+title: WPD_BITRATE_TYPES enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

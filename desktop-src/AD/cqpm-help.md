@@ -1,5 +1,5 @@
 ---
-title: CQPM\_HELP message
+title: CQPM_HELP message
 description: Sent to the CQPageProc callback function of a query form extension page to allow the page extension to display context-sensitive help for the page.
 audience: developer
 author: REDMOND\\markl

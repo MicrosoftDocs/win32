@@ -1,7 +1,7 @@
 ---
 Description: Represents the port profile settings.
 ms.assetid: 43ddb0a3-8621-4993-b0a9-8ddcfb0eaad5
-title: Msvm\_EthernetSwitchPortProfileSettingData class
+title: Msvm_EthernetSwitchPortProfileSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: WM\_DDE\_REQUEST message
+title: WM_DDE_REQUEST message
 description: A Dynamic Data Exchange (DDE) client application posts a WM\_DDE\_REQUEST message to a DDE server application to request the value of a data item. To post this message, call the PostMessage function with the following parameters.
 ms.assetid: 922452d2-455c-43e1-a8a8-e3c52b0fab51
 keywords:

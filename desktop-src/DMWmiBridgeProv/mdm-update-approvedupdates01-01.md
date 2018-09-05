@@ -1,5 +1,5 @@
 ---
-title: MDM\_Update\_ApprovedUpdates01\_01 class
+title: MDM_Update_ApprovedUpdates01_01 class
 description: The MDM\_Update\_ApprovedUpdates01\_01 class is used to manage and control the rollout of approved updates.
 ms.assetid: 3903dbc1-c745-4e9a-a7f7-455338b77563
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: PSM\_RESTARTWINDOWS message
+title: PSM_RESTARTWINDOWS message
 description: Indicates that Windows needs to be restarted for the changes to take effect.
 ms.assetid: 5bf634ee-7408-45df-adb6-c5b947f6c47b
 keywords:

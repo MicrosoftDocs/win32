@@ -1,7 +1,7 @@
 ---
 Description: Specifies the delta increase between the picture quantizer of the anchor frame and the picture quantizer of the B-frame.
 ms.assetid: 8ab9401b-6fed-4178-955f-2e0bf950bf60
-title: MFPKEY\_BDELTAQP Property
+title: MFPKEY_BDELTAQP Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

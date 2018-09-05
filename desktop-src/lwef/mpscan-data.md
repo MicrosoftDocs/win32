@@ -1,5 +1,5 @@
 ---
-title: MPSCAN\_DATA structure
+title: MPSCAN_DATA structure
 description: Scan data passed to the callback.
 ms.assetid: 6C9AAF1E-7566-43EE-A100-5112E9B8878C
 keywords:

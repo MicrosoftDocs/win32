@@ -1,5 +1,5 @@
 ---
-title: ncacn\_nb\_tcp attribute
+title: ncacn_nb_tcp attribute
 description: The ncacn\_nb\_tcp keyword is used to identify TCP over NetBIOS as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: 3633842c-d1f5-46d9-866e-e54f31415ea5
 keywords:

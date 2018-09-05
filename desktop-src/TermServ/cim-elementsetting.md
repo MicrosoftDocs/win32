@@ -1,5 +1,5 @@
 ---
-title: CIM\_ElementSetting class
+title: CIM_ElementSetting class
 description: Represents the association between managed system elements and the setting class defined for them.
 audience: developer
 author: REDMOND\\markl

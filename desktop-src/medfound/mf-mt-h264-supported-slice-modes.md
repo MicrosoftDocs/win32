@@ -1,7 +1,7 @@
 ---
 Description: Specifies the supported slice modes for an H.264 video stream.
 ms.assetid: 72DA62EC-A509-4C3B-A51D-7313C176AAA9
-title: MF\_MT\_H264\_SUPPORTED\_SLICE\_MODES attribute
+title: MF_MT_H264_SUPPORTED_SLICE_MODES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

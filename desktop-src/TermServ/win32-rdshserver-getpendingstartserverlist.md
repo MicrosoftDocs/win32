@@ -1,5 +1,5 @@
 ---
-title: GetPendingStartServerList method of the Win32\_RDSHServer class
+title: GetPendingStartServerList method of the Win32_RDSHServer class
 description: Retrieves a list of server waiting to start.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: TTM\_SETTIPTEXTCOLOR message
+title: TTM_SETTIPTEXTCOLOR message
 description: Sets the text color in a tooltip window.
 ms.assetid: a6c6eb31-e6c4-47e2-b112-48e7cd21b778
 keywords:

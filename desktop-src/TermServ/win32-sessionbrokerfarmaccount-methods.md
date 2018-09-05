@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionBrokerFarmAccount Methods
+title: Win32_SessionBrokerFarmAccount Methods
 description: The Win32\_SessionBrokerFarmAccount class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

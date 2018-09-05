@@ -1,5 +1,5 @@
 ---
-title: HDM\_SETBITMAPMARGIN message
+title: HDM_SETBITMAPMARGIN message
 description: Sets the width of the margin, specified in pixels, of a bitmap in an existing header control. You can send this message explicitly or use the Header\_SetBitmapMargin macro.
 ms.assetid: 5ac04701-18c8-42d4-9850-fe6eb813672c
 keywords:

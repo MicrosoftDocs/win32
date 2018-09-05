@@ -1,7 +1,7 @@
 ---
 Description: Specifies that the media source will be created in a remote process.
 ms.assetid: 3a2f9ff5-1780-40f3-b36b-3a7cccb47d05
-title: MF\_SESSION\_REMOTE\_SOURCE\_MODE attribute
+title: MF_SESSION_REMOTE_SOURCE_MODE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MCI\_VD\_ESCAPE\_PARMS structure
+title: MCI_VD_ESCAPE_PARMS structure
 description: The MCI\_VD\_ESCAPE\_PARMS structure contains the command sent to a device for the MCI\_ESCAPE command for videodisc devices.
 ms.assetid: 7c735943-b67a-4be5-82b5-6a058349623e
 keywords:

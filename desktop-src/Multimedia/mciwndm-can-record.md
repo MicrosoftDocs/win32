@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_CAN\_RECORD message
+title: MCIWNDM_CAN_RECORD message
 description: The MCIWNDM\_CAN\_RECORD message determines if an MCI device supports recording. You can send this message explicitly or by using the MCIWndCanRecord macro.
 ms.assetid: b5a789fa-6a88-487d-a374-8f4798ee5a62
 keywords:

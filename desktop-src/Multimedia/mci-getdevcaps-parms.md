@@ -1,5 +1,5 @@
 ---
-title: MCI\_GETDEVCAPS\_PARMS structure
+title: MCI_GETDEVCAPS_PARMS structure
 description: The MCI\_GETDEVCAPS\_PARMS structure contains device-capability information for the MCI\_GETDEVCAPS command.
 ms.assetid: a7b128c5-2121-49cd-b668-3a8466d49a73
 keywords:

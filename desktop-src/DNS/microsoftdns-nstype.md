@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_NSType class
+title: MicrosoftDNS_NSType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Name Server (NS) record.
 ms.assetid: 8d229acd-bc47-4a32-b6f1-b784a48dc91a
 keywords:

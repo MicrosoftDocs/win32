@@ -1,5 +1,5 @@
 ---
-title: MCI\_WAVE\_SET\_PARMS structure
+title: MCI_WAVE_SET_PARMS structure
 description: The MCI\_WAVE\_SET\_PARMS structure contains information for the MCI\_SET command for waveform-audio devices.
 ms.assetid: 24c26124-274f-457e-ab87-887f3bcffce3
 keywords:

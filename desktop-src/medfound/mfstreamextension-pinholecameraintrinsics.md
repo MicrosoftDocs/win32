@@ -1,7 +1,7 @@
 ---
 Description: Contains the pinhole camera intrinsics for the stream.
 ms.assetid: 7E5E7C60-9C3F-406B-A7DD-A953181CD314
-title: MFStreamExtension\_PinholeCameraIntrinsics attribute
+title: MFStreamExtension_PinholeCameraIntrinsics attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

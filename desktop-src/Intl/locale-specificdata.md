@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SPECIFICDATA
 ms.assetid: 75a06bf1-fbc8-4921-a00b-ba60174ceafc
-title: LOCALE\_SPECIFICDATA
+title: LOCALE_SPECIFICDATA
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

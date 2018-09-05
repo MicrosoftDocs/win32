@@ -1,5 +1,5 @@
 ---
-title: ResumeZone method of the MicrosoftDNS\_Zone class
+title: ResumeZone method of the MicrosoftDNS_Zone class
 description: The ResumeZone method resumes the DNS Zone.
 ms.assetid: 1309309a-e785-44e4-afc5-63842ac9a7d8
 keywords:

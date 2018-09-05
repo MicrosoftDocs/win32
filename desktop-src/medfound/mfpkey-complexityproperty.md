@@ -1,7 +1,7 @@
 ---
 Description: Specifies the encoder algorithm complexity.
 ms.assetid: 1537e98b-d7ed-49e6-aa25-8f2f124c88eb
-title: MFPKEY\_COMPLEXITY Property
+title: MFPKEY_COMPLEXITY Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

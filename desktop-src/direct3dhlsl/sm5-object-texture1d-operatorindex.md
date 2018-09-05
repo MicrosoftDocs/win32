@@ -1,5 +1,5 @@
 ---
-title: Operator\ \ function
+title: Operator  function
 description: Returns a read-only resource variable for a Texture1D.
 ms.assetid: df54097d-4d1b-496a-a17d-6e9a10cfb996
 keywords:

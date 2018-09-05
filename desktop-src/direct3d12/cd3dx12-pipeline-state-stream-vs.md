@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_VS structure
+title: CD3DX12_PIPELINE_STATE_STREAM_VS structure
 description: A helper structure used to describe a vertex shader as a single object suitable for a stream description.
 ms.assetid: 27EAB08C-D3B9-4920-B7D2-754AA3562A94
 keywords:

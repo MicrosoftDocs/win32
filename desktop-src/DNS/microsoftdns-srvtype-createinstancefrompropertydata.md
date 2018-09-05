@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_SRVType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_SRVType class
 description: The CreateInstanceFromPropertyData method instantiates a Service (SRV) Resource Record.
 ms.assetid: ef55faa8-1109-4c96-98ac-2b01b940fa5c
 keywords:

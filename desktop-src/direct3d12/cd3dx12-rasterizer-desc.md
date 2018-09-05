@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_RASTERIZER\_DESC structure
+title: CD3DX12_RASTERIZER_DESC structure
 description: A helper structure to enable easy initialization of a D3D12\_RASTERIZER\_DESC structure.
 ms.assetid: 28AA8256-1CAF-484F-B219-0F0461BA947C
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DRM\_COPY\_OPL structure
+title: DRM_COPY_OPL structure
 description: The DRM\_COPY\_OPL structure holds information about the output protection levels (OPLs) specified in a license for copy actions.
 ms.assetid: 439cbd56-05c1-46f8-86b9-ac1341902a40
 keywords:

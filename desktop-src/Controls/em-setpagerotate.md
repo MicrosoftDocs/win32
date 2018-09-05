@@ -1,5 +1,5 @@
 ---
-title: EM\_SETPAGEROTATE message
+title: EM_SETPAGEROTATE message
 description: Sets the text layout for a rich edit control.
 ms.assetid: 3c2a37fe-ee9f-4b34-87bf-7ac27d010afc
 keywords:

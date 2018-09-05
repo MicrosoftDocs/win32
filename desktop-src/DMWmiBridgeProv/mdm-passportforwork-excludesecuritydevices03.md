@@ -1,5 +1,5 @@
 ---
-title: MDM\_PassportForWork\_ExcludeSecurityDevices03 class
+title: MDM_PassportForWork_ExcludeSecurityDevices03 class
 description: The MDM\_PassportForWork\_ExcludeSecurityDevices03 class defines the Trusted Platform Modules allowed to use with Windows Hello for Business.
 ms.assetid: ca8fba3a-736b-4bd3-ac93-e0d44d54798d
 keywords:

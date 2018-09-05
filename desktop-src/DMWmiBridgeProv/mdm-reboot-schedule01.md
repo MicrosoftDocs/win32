@@ -1,5 +1,5 @@
 ---
-title: MDM\_Reboot\_Schedule01 class
+title: MDM_Reboot_Schedule01 class
 description: The MDM\_Reboot\_Schedule01class is used to configure a specific time for the reboot of a device.
 ms.assetid: d865609a-9f17-4256-9c69-4fea75011c1f
 keywords:

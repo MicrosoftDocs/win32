@@ -1,7 +1,7 @@
 ---
 Description: The SENSOR\_CATEGORY\_UNSUPPORTED category contains sensors that fall outside of any other defined category (including SENSOR\_CATEGORY\_OTHER).
 ms.assetid: EB80867D-4FFF-485C-837E-2FBE8ECF6CC6
-title: SENSOR\_CATEGORY\_UNSUPPORTED
+title: SENSOR_CATEGORY_UNSUPPORTED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

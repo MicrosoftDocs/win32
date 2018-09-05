@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT
 ms.assetid: 112de70b-afcc-4fba-b74f-c33bd759d517
-title: WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT
+title: WPD_CONTENT_TYPE_FUNCTIONAL_OBJECT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

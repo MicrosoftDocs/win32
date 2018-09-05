@@ -7,7 +7,7 @@ ms.assetid: 84099483-03e4-4c21-b680-f0975b18c1f6
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_SystemEvent class'
+title: '__SystemEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

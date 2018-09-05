@@ -1,7 +1,7 @@
 ---
 Description: The following GUIDs define categories for Media Foundation transforms (MFTs). These categories are used to register and enumerate MFTs.
 ms.assetid: eca3ae3b-e40a-407d-986c-d0a85b891f52
-title: MFT\_CATEGORY
+title: MFT_CATEGORY
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: CFSTR\_DSOBJECTNAMES
+title: CFSTR_DSOBJECTNAMES
 description: The CFSTR\_DSOBJECTNAMES clipboard format provides a global memory handle (HGLOBAL) that contains DSOBJECTNAMES structure.
 audience: developer
 author: REDMOND\\markl

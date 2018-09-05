@@ -1,5 +1,5 @@
 ---
-title: RB\_SETPARENT message
+title: RB_SETPARENT message
 description: Sets a rebar control's parent window.
 ms.assetid: bb8036d4-cab8-4887-86c6-66460bdbe64b
 keywords:

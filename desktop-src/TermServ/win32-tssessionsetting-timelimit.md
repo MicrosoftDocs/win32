@@ -1,5 +1,5 @@
 ---
-title: TimeLimit method of the Win32\_TSSessionSetting class
+title: TimeLimit method of the Win32_TSSessionSetting class
 description: Sets the maximum time allocated to the specified session-limit type.
 audience: developer
 author: REDMOND\\markl

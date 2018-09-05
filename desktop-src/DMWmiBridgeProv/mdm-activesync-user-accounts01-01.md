@@ -1,5 +1,5 @@
 ---
-title: MDM\_ActiveSync\_User\_Accounts01\_01 class
+title: MDM_ActiveSync_User_Accounts01_01 class
 description: The MDM\_ActiveSync\_User\_Accounts01\_01 class defines all available ActiveSync accounts.
 ms.assetid: bcd1fdcb-675a-4833-9d3c-0509e68f7b00
 keywords:

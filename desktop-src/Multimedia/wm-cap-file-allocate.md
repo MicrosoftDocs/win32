@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_FILE\_ALLOCATE message
+title: WM_CAP_FILE_ALLOCATE message
 description: The WM\_CAP\_FILE\_ALLOCATE message creates (preallocates) a capture file of a specified size. You can send this message explicitly or by using the capFileAlloc macro.
 ms.assetid: 31ebe824-4a30-4212-9479-a5cbd8fc1e1d
 keywords:

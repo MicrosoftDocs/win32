@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_WINSRType class
+title: MicrosoftDNS_WINSRType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a WINS Reverse Look-up (WINSR) record.
 ms.assetid: e611dc63-838f-4a79-baca-febd27612111
 keywords:

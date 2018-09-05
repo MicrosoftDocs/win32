@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_X25Type class
+title: Modify method of the MicrosoftDNS_X25Type class
 description: The Modify method updates an X.25 (X25) Resource Record.
 ms.assetid: 2d82d67e-ae29-4ded-86fe-7db0ef5ed74f
 keywords:

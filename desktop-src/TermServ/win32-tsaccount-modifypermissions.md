@@ -1,5 +1,5 @@
 ---
-title: ModifyPermissions method of the Win32\_TSAccount class
+title: ModifyPermissions method of the Win32_TSAccount class
 description: Sets a permission for the specified account.
 audience: developer
 author: REDMOND\\markl

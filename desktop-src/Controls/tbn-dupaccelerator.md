@@ -1,5 +1,5 @@
 ---
-title: TBN\_DUPACCELERATOR notification code
+title: TBN_DUPACCELERATOR notification code
 description: Ascertains whether an accelerator key can be used on two or more active toolbars. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 98068d1a-1460-4be3-8575-9294b82ce903
 keywords:

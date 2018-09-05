@@ -1,5 +1,5 @@
 ---
-title: MDM\_AppLocker\_ApplicationLaunchRestrictions01\_StoreApps03 class
+title: MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03 class
 description: The MDM\_AppLocker\_ApplicationLaunchRestrictions01\_StoreApps03 class allows you to specify which EXE applications are allowed or disallowed for Enterprise Data Protection.
 ms.assetid: de5ceaea-589a-4ed7-8dd6-eb9477d68e0e
 keywords:

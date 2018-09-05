@@ -1,5 +1,5 @@
 ---
-title: MDM\_WindowsLicensing class
+title: MDM_WindowsLicensing class
 description: The MDM\_WindowsLicensing class is designed for licensing related management scenarios.
 ms.assetid: 9b26d8dc-aab6-4c67-9dbc-4b53525b9354
 keywords:

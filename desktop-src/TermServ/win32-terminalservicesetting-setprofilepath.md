@@ -1,5 +1,5 @@
 ---
-title: SetProfilePath method of the Win32\_TerminalServiceSetting class
+title: SetProfilePath method of the Win32_TerminalServiceSetting class
 description: The SetProfilePath method sets the ProfilePath property for the class.
 audience: developer
 author: REDMOND\\markl

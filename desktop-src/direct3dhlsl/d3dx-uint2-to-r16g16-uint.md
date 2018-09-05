@@ -1,5 +1,5 @@
 ---
-title: D3DX\_UINT2\_to\_R16G16\_UINT function
+title: D3DX_UINT2_to_R16G16_UINT function
 description: Packs the given XMUINT2 back into a DXGI\_FORMAT\_R16G16\_UINT.
 ms.assetid: 1f8aef92-7f34-4020-8a7e-6204922fc6d4
 keywords:

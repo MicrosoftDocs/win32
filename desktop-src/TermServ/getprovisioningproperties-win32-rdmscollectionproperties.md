@@ -1,5 +1,5 @@
 ---
-title: GetProvisioningProperties method of the Win32\_RDMSCollectionProperties class
+title: GetProvisioningProperties method of the Win32_RDMSCollectionProperties class
 description: Retrieves the provisioning properties of the virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

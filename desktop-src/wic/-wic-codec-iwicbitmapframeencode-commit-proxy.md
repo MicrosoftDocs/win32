@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the Commit method.
 ms.assetid: 605801e5-00f8-4e4f-87d3-ad34d3568ee5
-title: IWICBitmapFrameEncode\_Commit\_Proxy function
+title: IWICBitmapFrameEncode_Commit_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

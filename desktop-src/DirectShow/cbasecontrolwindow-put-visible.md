@@ -1,7 +1,7 @@
 ---
 Description: The put\_Visible method makes shows or hides the window.
 ms.assetid: 77e8d071-f876-4e35-945c-d1daf96ad02b
-title: CBaseControlWindow.put\_Visible method
+title: CBaseControlWindow.put_Visible method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

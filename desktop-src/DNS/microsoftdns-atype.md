@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_AType class
+title: MicrosoftDNS_AType class
 description: Subclass of MicrosoftDNS\_ResourceRecord that represents a host Address (A) record.
 ms.assetid: c7bd8a26-b0ac-49ef-9068-a0ecddeb6ef4
 keywords:

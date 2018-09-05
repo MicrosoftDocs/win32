@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM1 structure
+title: CD3DX12_PIPELINE_STATE_STREAM1 structure
 description: A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC and D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC.
 ms.assetid: 4D3E4D99-E820-4220-92F3-4924791E780F
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: This class represents a migration operation job created for storage or virtual system migration by the virtual system migration service.
 ms.assetid: 8526e28c-bfc8-42b3-850c-0a875a52a42c
-title: Msvm\_MigrationJob class
+title: Msvm_MigrationJob class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseDataProtection\_Settings01 class
+title: MDM_EnterpriseDataProtection_Settings01 class
 description: The MDM\_EnterpriseDataProtection\_Settings01 class is used to configure Windows Information Protection (WIP) (formerly known as Enterprise Data Protection) specific settings.
 ms.assetid: 7537f548-85fb-46b4-ab94-c9dcf2bf1447
 keywords:

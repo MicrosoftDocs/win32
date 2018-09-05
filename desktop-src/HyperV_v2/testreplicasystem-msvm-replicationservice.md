@@ -1,7 +1,7 @@
 ---
 Description: Creates a new replica of a virtual machine with the specified snapshot for testing purposes.
 ms.assetid: 447f3c8f-8c57-4874-9466-91c6aea533bc
-title: TestReplicaSystem method of the Msvm\_ReplicationService class
+title: TestReplicaSystem method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

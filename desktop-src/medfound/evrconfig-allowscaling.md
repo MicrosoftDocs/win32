@@ -1,7 +1,7 @@
 ---
 Description: Alllows the Enhanced Video Renderer (EVR) to mix the video within a rectangle that is smaller than the output rectangle, and then scale the result.
 ms.assetid: 7e3b8fe1-959b-4391-a715-5d5a7a7dda39
-title: EVRConfig\_AllowScaling attribute
+title: EVRConfig_AllowScaling attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

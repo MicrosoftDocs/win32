@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSManagementData class
+title: Win32_RDMSManagementData class
 description: Synchronizes publishing data for Remote Desktop Management Services (RDMS).
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: MCI\_VCR\_PLAY\_PARMS structure
+title: MCI_VCR_PLAY_PARMS structure
 description: The MCI\_VCR\_PLAY\_PARMS structure contains parameters for the MCI\_PLAY command for video-cassette recorders.
 ms.assetid: e180c203-3113-4fdb-bcf1-ea3e45e646e2
 keywords:

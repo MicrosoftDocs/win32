@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SYEARMONTH
 ms.assetid: 57eae43a-72e1-410f-b003-c75f720e17fd
-title: LOCALE\_SYEARMONTH
+title: LOCALE_SYEARMONTH
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

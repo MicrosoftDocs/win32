@@ -1,7 +1,7 @@
 ---
 Description: Creates a snapshot of a virtual system.
 ms.assetid: cad4cb4f-523f-4fda-ac88-8cece7abc227
-title: CreateSnapshot method of the CIM\_VirtualSystemSnapshotService class
+title: CreateSnapshot method of the CIM_VirtualSystemSnapshotService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

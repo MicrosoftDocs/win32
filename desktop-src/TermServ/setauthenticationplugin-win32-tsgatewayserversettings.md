@@ -1,5 +1,5 @@
 ---
-title: SetAuthenticationPlugin method of the Win32\_TSGatewayServerSettings class
+title: SetAuthenticationPlugin method of the Win32_TSGatewayServerSettings class
 description: Sets the current authentication plug-in for the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

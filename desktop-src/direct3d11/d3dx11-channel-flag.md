@@ -1,5 +1,5 @@
 ---
-title: D3DX11\_CHANNEL\_FLAG enumeration
+title: D3DX11_CHANNEL_FLAG enumeration
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. These flags are used by functions which operate on one or more channels in a texture.
 ms.assetid: 058a0a1e-3c1b-4397-a41a-2e47d878cd92
 keywords:

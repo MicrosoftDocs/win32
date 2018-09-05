@@ -1,5 +1,5 @@
 ---
-title: fault\_status attribute
+title: fault_status attribute
 description: The \ fault\_status\ ACF attribute specifies that an error code of type error\_status\_t indicates a failure of the remote procedure, rather than other types of problems such as communication errors.
 ms.assetid: 9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0
 keywords:

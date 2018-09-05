@@ -1,5 +1,5 @@
 ---
-title: EM\_SETCHARFORMAT message
+title: EM_SETCHARFORMAT message
 description: Sets character formatting in a rich edit control.
 ms.assetid: 5e7a545d-4ca4-4dc6-badb-584c11194982
 keywords:

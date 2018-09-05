@@ -1,6 +1,6 @@
 ---
 Description: Notifies the IShellView when one of its objects is placed on the Clipboard as a result of a menu command. Used by SHShellFolderView\_Message.
-title: SFVM\_SETCLIPBOARD message
+title: SFVM_SETCLIPBOARD message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

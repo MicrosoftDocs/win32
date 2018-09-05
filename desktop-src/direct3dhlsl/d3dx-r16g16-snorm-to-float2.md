@@ -1,5 +1,5 @@
 ---
-title: D3DX\_R16G16\_SNORM\_to\_FLOAT2 function
+title: D3DX_R16G16_SNORM_to_FLOAT2 function
 description: Unpacks DXGI\_FORMAT\_R16G16\_SNORM shader data to an XMFLOAT2.
 ms.assetid: b54df555-b71f-46cd-8be7-34de785d15e2
 keywords:

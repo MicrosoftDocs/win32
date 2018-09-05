@@ -1,5 +1,5 @@
 ---
-title: MPSIGUPDATE\_DATA structure
+title: MPSIGUPDATE_DATA structure
 description: Notification data passed to the signature update callback function.
 ms.assetid: E999ABC2-CC72-43CC-86D9-4F29E9128E1A
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: SetDiffVHDPath method of the Win32\_RDMSDeploymentSettings class
+title: SetDiffVHDPath method of the Win32_RDMSDeploymentSettings class
 description: Updates the directory path to which the differencing disks are deployed for a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

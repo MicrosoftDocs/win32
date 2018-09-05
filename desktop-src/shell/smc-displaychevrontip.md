@@ -1,6 +1,6 @@
 ---
 Description: Notifies you that an infotip is about to be displayed for the chevron associated with the item specified by the accompanying SMDATA structure.
-title: SMC\_DISPLAYCHEVRONTIP message
+title: SMC_DISPLAYCHEVRONTIP message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

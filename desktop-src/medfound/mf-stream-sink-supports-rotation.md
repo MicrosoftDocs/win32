@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether the stream sink supports video rotation.
 ms.assetid: 6CE17F9D-3BBB-4F4F-9F1A-495188F1815F
-title: MF\_STREAM\_SINK\_SUPPORTS\_ROTATION attribute
+title: MF_STREAM_SINK_SUPPORTS_ROTATION attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

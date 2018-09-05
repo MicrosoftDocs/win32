@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SENGLISH\* Constants
 ms.assetid: b7ed177c-f8a5-4d6b-916b-299b859b3c46
-title: LOCALE\_SENGLISH\* Constants
+title: LOCALE_SENGLISH* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

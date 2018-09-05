@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_IMAGE
 ms.assetid: 87342ac7-3f4d-4ed2-99f1-843a79032c6e
-title: WPD\_CONTENT\_TYPE\_IMAGE
+title: WPD_CONTENT_TYPE_IMAGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

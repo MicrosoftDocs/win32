@@ -1,7 +1,7 @@
 ---
 Description: Specifies events associated with the data proxy steps of an IInkAnalyzer object.
 ms.assetid: 57fee525-02e2-4721-b6e5-28112d53db2a
-title: '\_IAnalysisProxyEvents interface'
+title: '_IAnalysisProxyEvents interface'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

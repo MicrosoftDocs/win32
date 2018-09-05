@@ -1,5 +1,5 @@
 ---
-title: MCI\_SAVE command
+title: MCI_SAVE command
 description: The MCI\_SAVE command saves the current file.
 ms.assetid: 286e6f31-cb93-443b-8191-8c363b366eae
 keywords:

@@ -7,7 +7,7 @@ ms.assetid: 554bbabd-2639-40f5-8786-6df2188db0ec
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ClassOperationEvent class'
+title: '__ClassOperationEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_NSType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_NSType class
 description: The CreateInstanceFromPropertyData method instantiates a Name Server (NS) Resource Record.
 ms.assetid: f2399a9d-840d-4392-86c4-610894e60f8e
 keywords:

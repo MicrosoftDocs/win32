@@ -1,7 +1,7 @@
 ---
 Description: Specifies the language used by a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 834cac0a-0c84-49aa-baf2-32bae26e215b
-title: MF\_SD\_ASF\_EXTSTRMPROP\_LANGUAGE\_ID\_INDEX attribute
+title: MF_SD_ASF_EXTSTRMPROP_LANGUAGE_ID_INDEX attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

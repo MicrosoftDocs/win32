@@ -1,7 +1,7 @@
 ---
 Description: The LINEGATHERTERM\_ bit-flag constants describe the conditions under which buffered digit gathering is terminated.
 ms.assetid: 409e1984-e5a4-4636-ab53-5973fe7b78ea
-title: LINEGATHERTERM\_ Constants
+title: LINEGATHERTERM_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

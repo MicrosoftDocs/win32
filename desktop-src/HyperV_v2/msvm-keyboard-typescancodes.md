@@ -1,7 +1,7 @@
 ---
 Description: Simulates a key sequence using scan codes.
 ms.assetid: F67D2FBA-3CE0-4135-9043-FAB59381DE3C
-title: TypeScancodes method of the Msvm\_Keyboard class
+title: TypeScancodes method of the Msvm_Keyboard class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

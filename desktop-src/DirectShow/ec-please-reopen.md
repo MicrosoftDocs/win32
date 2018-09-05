@@ -1,7 +1,7 @@
 ---
 Description: The source file has changed. The application should rebuild the filter graph.
 ms.assetid: f99df68f-d7e8-4dbf-b958-84fe3f0821f0
-title: EC\_PLEASE\_REOPEN
+title: EC_PLEASE_REOPEN
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

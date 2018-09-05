@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_HINFOType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_HINFOType class
 description: The CreateInstanceFromPropertyData method instantiates a Host Information (HINFO) Resource Record.
 ms.assetid: dfc11ae8-5013-4b48-a1e9-78566dc32297
 keywords:

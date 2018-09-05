@@ -1,7 +1,7 @@
 ---
 Description: The get\_Rate method retrieves the playback rate. This method implements the IMediaPosition::get\_Rate method.
 ms.assetid: 216cbcef-4874-4565-abb0-8c8bf67fe23c
-title: CPosPassThru.get\_Rate method
+title: CPosPassThru.get_Rate method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

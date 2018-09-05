@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_NetworkIdentifiers01\_01 class
+title: MDM_DeviceStatus_NetworkIdentifiers01_01 class
 description: The MDM\_DeviceStatus\_NetworkIdentifiers01\_01 class allows you to query a device for network properties.
 ms.assetid: 2439010e-62fa-4482-b280-b9f98d1fbb7b
 keywords:

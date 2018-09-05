@@ -1,5 +1,5 @@
 ---
-title: RAS\_PARAMS\_FORMAT enumeration
+title: RAS_PARAMS_FORMAT enumeration
 description: The RAS\_PARAMS\_FORMAT enumeration type is used in the RAS\_PARAMETERS structure to indicate the type of data associated with a media-specific key.
 ms.assetid: dd2c0110-1f27-4a8f-bc61-f15588ebc4ca
 keywords:

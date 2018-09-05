@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_ROOT\_SIGNATURE structure
+title: CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE structure
 description: A helper structure used to describe the root signature as a single object suitable for a stream description.
 ms.assetid: 351A78DC-9BDE-43B4-9A72-D65EE15CA441
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The get\_Streams method creates a collection of streams associated with the current participant.
 ms.assetid: 9ab05b14-8ef8-4e7f-b598-05795011e35d
-title: ITParticipant::get\_Streams method
+title: ITParticipant::get_Streams method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

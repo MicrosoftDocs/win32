@@ -1,5 +1,5 @@
 ---
-title: SetSecurityLayer method of the Win32\_TSGeneralSetting class
+title: SetSecurityLayer method of the Win32_TSGeneralSetting class
 description: The SetSecurityLayer method sets the security layer.
 audience: developer
 author: REDMOND\\markl

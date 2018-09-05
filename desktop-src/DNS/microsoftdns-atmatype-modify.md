@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_ATMAType class
+title: Modify method of the MicrosoftDNS_ATMAType class
 description: The Modify method updates an ATM Address to Name (ATMA) Resource Record.
 ms.assetid: 202fc38d-fb8f-4044-bb7d-9e041cbde8ec
 keywords:

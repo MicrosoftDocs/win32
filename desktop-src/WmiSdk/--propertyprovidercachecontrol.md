@@ -7,7 +7,7 @@ ms.assetid: 8fc7de7a-889c-4d53-97ea-a676879de1d3
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_PropertyProviderCacheControl class'
+title: '__PropertyProviderCacheControl class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

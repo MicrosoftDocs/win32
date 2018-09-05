@@ -1,7 +1,7 @@
 ---
 Description: Specifies the type of cryptographic service provider (CSP).
 ms.assetid: faf2390d-bf78-4943-91f3-1db9939fedfb
-title: CAPICOM\_PROV\_TYPE enumeration
+title: CAPICOM_PROV_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: A message that is sent to all top-level windows when the SystemParametersInfo function changes a system-wide setting or when policy settings have changed.
 ms.assetid: 77174e06-a25b-440a-9e9c-4fd5979c433c
-title: WM\_SETTINGCHANGE message
+title: WM_SETTINGCHANGE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

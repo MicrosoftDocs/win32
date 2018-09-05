@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDCentralPublishedRemoteApplication class
+title: Win32_RDCentralPublishedRemoteApplication class
 description: Describes an application published on another computer, for remote use through Terminal Services.
 audience: developer
 author: REDMOND\\markl

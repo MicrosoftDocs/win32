@@ -1,7 +1,7 @@
 ---
 Description: Provides the names for CAPICOM object identifiers.
 ms.assetid: 6c1eb2cc-84ac-4920-99ba-56ac8de4a851
-title: CAPICOM\_OID enumeration
+title: CAPICOM_OID enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Uses the new passphrase to obtain a new derived key.
 ms.assetid: 89398bae-a2a2-466c-8a1e-a702018d679f
-title: ChangePassphrase method of the Win32\_EncryptableVolume class
+title: ChangePassphrase method of the Win32_EncryptableVolume class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

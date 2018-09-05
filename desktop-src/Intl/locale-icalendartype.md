@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_ICALENDARTYPE
 ms.assetid: 1b7bc650-8edf-465c-a166-1bbe41131149
-title: LOCALE\_ICALENDARTYPE
+title: LOCALE_ICALENDARTYPE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

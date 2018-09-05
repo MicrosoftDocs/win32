@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_SmartScreen02 class
+title: MDM_Policy_Result01_SmartScreen02 class
 description: The MDM\_Policy\_Result01\_SmartScreen02 class represents the smart screen policies.
 ms.assetid: 9a775712-ce42-48c2-b286-eaf7ca8fed20
 keywords:

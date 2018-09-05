@@ -7,7 +7,7 @@ ms.assetid: bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.Delete\_ method
+title: SWbemObject.Delete_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

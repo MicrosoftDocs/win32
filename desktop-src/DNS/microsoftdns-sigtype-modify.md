@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_SIGType class
+title: Modify method of the MicrosoftDNS_SIGType class
 description: The Modify method updates a Signature (SIG) RR.
 ms.assetid: 6a7017da-d3f1-4aba-a53a-96f578518304
 keywords:

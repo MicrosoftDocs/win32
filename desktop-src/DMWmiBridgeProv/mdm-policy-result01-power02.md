@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Power02 class
+title: MDM_Policy_Result01_Power02 class
 description: The MDM\_Policy\_Result01\_Power02 class represents the power policies.
 ms.assetid: 1458228f-f442-4fd4-b402-e0a4c06ecaa5
 keywords:

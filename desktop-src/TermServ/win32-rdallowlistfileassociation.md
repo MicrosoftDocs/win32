@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDAllowListFileAssociation class
+title: Win32_RDAllowListFileAssociation class
 description: Describes a published file type association with a RemoteApp.
 audience: developer
 author: REDMOND\\markl

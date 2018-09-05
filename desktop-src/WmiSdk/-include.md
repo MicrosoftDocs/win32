@@ -7,7 +7,7 @@ ms.assetid: 06765956-e4ee-467b-9b3b-d5da17b9cd82
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\#include'
+title: '#include'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

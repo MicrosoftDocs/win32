@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapterCollection \_NewEnum property
+title: IVMNetworkAdapterCollection _NewEnum property
 description: Retrieves an enumerator for the collection.
 ms.assetid: 9b970fc6-f8a3-4a16-9d59-789a59a99b68
 keywords:

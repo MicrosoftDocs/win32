@@ -1,5 +1,5 @@
 ---
-title: D2D1\_INVALID\_PROPERTY\_INDEX
+title: D2D1_INVALID_PROPERTY_INDEX
 description: Defines an invalid property index.
 ms.assetid: 912207f4-90fc-47f6-851a-6537cfe80d49
 topic_type:

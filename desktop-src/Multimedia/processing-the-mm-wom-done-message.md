@@ -1,5 +1,5 @@
 ---
-title: Processing the MM\_WOM\_DONE Message
+title: Processing the MM_WOM_DONE Message
 description: Processing the MM\_WOM\_DONE Message
 ms.assetid: 215167d0-3020-453d-b6b3-cee5803836c9
 keywords:

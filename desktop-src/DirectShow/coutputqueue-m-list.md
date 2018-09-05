@@ -1,7 +1,7 @@
 ---
 Description: Media sample queue.
 ms.assetid: 910f1c0c-2ce9-452f-a97b-aa424da9a93e
-title: COutputQueue::m\_List member
+title: COutputQueue::m_List member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

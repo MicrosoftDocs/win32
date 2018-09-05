@@ -1,7 +1,7 @@
 ---
 Description: Occurs before the IInkAnalyzer deletes a IContextLink object between two IContextNode objects.
 ms.assetid: bc9716b8-8793-4886-aff4-d880024129a6
-title: '\_IAnalysisProxyEvents::ContextNodeLinkDeleting event'
+title: '_IAnalysisProxyEvents::ContextNodeLinkDeleting event'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: ee5ea754-42b6-4bea-b312-b88adeea891f
-title: RequestStateChange method of the Msvm\_MetricService class
+title: RequestStateChange method of the Msvm_MetricService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

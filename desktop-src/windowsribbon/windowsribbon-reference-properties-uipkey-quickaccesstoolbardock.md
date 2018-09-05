@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_QuickAccessToolbarDock
+title: UI_PKEY_QuickAccessToolbarDock
 description: Identifies the UI\_PKEY\_QuickAccessToolbarDock property.
 ms.assetid: 77f7b0a8-f276-4501-9d53-fb5a3185edcc
 ms.technology: desktop

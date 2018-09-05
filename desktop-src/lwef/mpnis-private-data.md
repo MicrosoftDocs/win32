@@ -1,5 +1,5 @@
 ---
-title: MPNIS\_PRIVATE\_DATA structure
+title: MPNIS_PRIVATE_DATA structure
 description: Private NIS notifications.
 ms.assetid: 19B4928F-BC78-4DEA-A563-1516B6454465
 keywords:

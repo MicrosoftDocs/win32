@@ -1,5 +1,5 @@
 ---
-title: CFSTR\_DS\_PARENTHWND
+title: CFSTR_DS_PARENTHWND
 description: The CFSTR\_DS\_PARENTHWND clipboard format provides a global memory handle (HGLOBAL) that contains the window handle (HWND) of the main MMC window.
 audience: developer
 author: REDMOND\\markl

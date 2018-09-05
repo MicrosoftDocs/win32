@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_ATMAType class
+title: MicrosoftDNS_ATMAType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents an ATM Address to Name (ATMA) record.
 ms.assetid: 3e9e4032-08a0-4a2e-bcff-f461b69a44d4
 keywords:

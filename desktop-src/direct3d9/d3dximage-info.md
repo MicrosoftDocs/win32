@@ -1,7 +1,7 @@
 ---
 Description: Returns a description of the original contents of an image file.
 ms.assetid: d6cbd5b7-642e-43ce-a2ed-11a400c5bdc1
-title: D3DXIMAGE\_INFO structure
+title: D3DXIMAGE_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

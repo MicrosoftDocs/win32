@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_ICURRENCY
 ms.assetid: af98a851-f401-4a5a-b85f-ec9d97d7ede0
-title: LOCALE\_ICURRENCY
+title: LOCALE_ICURRENCY
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

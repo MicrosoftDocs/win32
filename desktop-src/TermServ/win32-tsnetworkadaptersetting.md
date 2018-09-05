@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSNetworkAdapterSetting class
+title: Win32_TSNetworkAdapterSetting class
 description: Defines various configuration settings for the Win32\_Terminal class including properties related to the network adapter and the maximum number of connections allowed.
 audience: developer
 author: REDMOND\\markl

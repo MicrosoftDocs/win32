@@ -1,7 +1,7 @@
 ---
 Description: Typically, an application draws in a window in response to a WM\_PAINT message.
 ms.assetid: 2d015879-58d2-4cbe-b1cc-445f2e8fd316
-title: The WM\_PAINT Message
+title: The WM_PAINT Message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

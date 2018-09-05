@@ -1,6 +1,6 @@
 ---
 Description: Sets the position of an item in the Shell view. Used by SHShellFolderView\_Message.
-title: SFVM\_SETITEMPOS message
+title: SFVM_SETITEMPOS message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

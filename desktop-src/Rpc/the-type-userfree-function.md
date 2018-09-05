@@ -1,5 +1,5 @@
 ---
-title: The type\_UserFree Function
+title: The type_UserFree Function
 description: The type \_UserFree function is a helper function for the \ wire\_marshal\ and \ user\_marshal\ attributes.
 ms.assetid: cc83a074-ea6c-432a-92fe-6397a6dc3c3c
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: PauseService method of the Win32\_Service class
+title: PauseService method of the Win32_Service class
 description: Attempts to place the service in the paused state.
 audience: developer
 author: REDMOND\\markl

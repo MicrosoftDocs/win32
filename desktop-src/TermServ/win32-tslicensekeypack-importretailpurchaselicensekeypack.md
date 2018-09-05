@@ -1,5 +1,5 @@
 ---
-title: ImportRetailPurchaseLicenseKeyPack method of the Win32\_TSLicenseKeyPack class
+title: ImportRetailPurchaseLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Imports, from another Remote Desktop license server, a Remote Desktop Services license key pack that was purchased through a retail channel.
 audience: developer
 author: REDMOND\\markl

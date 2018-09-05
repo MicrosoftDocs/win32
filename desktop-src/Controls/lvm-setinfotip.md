@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETINFOTIP message
+title: LVM_SETINFOTIP message
 description: Sets tooltip text in delayed response to the LVN\_GETINFOTIP notification.
 ms.assetid: 3dbf6a9a-52ec-4619-9c70-041e75942e20
 keywords:

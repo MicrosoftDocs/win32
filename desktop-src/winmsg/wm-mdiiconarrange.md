@@ -1,7 +1,7 @@
 ---
 Description: An application sends the WM\_MDIICONARRANGE message to a multiple-document interface (MDI) client window to arrange all minimized MDI child windows. It does not affect child windows that are not minimized.
 ms.assetid: 935b9e29-224d-449e-b89f-b6062bed7702
-title: WM\_MDIICONARRANGE message
+title: WM_MDIICONARRANGE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: explicit\_handle attribute
+title: explicit_handle attribute
 description: The \ explicit\_handle\ ACF attribute specifies that each procedure has, as its first parameter, a primitive handle, such as a handle\_t type.
 ms.assetid: c95d005e-dcc7-4d83-885d-91c0773c0ed8
 keywords:

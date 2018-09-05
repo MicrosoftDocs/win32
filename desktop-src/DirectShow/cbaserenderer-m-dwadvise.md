@@ -1,7 +1,7 @@
 ---
 Description: Identifier of the timer event that schedules rendering.
 ms.assetid: 7b9e5ac8-417d-4d9c-a3ce-80d8286a50d4
-title: CBaseRenderer::m\_dwAdvise member
+title: CBaseRenderer::m_dwAdvise member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: TBM\_SETPAGESIZE message
+title: TBM_SETPAGESIZE message
 description: Sets the number of logical positions the trackbar's slider moves in response to keyboard input, such as the or keys, or mouse input, such as clicks in the trackbar's channel.
 ms.assetid: 34edb868-4b6b-4b3f-b315-3ce39346b134
 keywords:

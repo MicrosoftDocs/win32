@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the input pin.
 ms.assetid: 0806074e-a844-40eb-b488-c00ba93f4cac
-title: CTransformFilter::m\_pInput member
+title: CTransformFilter::m_pInput member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

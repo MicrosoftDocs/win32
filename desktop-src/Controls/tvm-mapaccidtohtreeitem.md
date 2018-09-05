@@ -1,5 +1,5 @@
 ---
-title: TVM\_MAPACCIDTOHTREEITEM message
+title: TVM_MAPACCIDTOHTREEITEM message
 description: Maps an accessibility ID to an HTREEITEM.
 ms.assetid: f4feb7cb-2138-4930-b8ee-b9e2d4b19001
 keywords:

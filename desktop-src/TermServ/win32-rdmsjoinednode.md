@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSJoinedNode class
+title: Win32_RDMSJoinedNode class
 description: Represents a server node that is managed by Remote Desktop Management Services (RDMS).
 audience: developer
 author: REDMOND\\markl

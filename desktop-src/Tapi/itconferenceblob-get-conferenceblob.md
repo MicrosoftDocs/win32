@@ -1,7 +1,7 @@
 ---
 Description: The get\_ConferenceBlob method gets a pointer to the textual conference blob currently stored in the conference blob object.
 ms.assetid: eb378f84-11bc-4f6e-9133-bc303e07eb53
-title: ITConferenceBlob::get\_ConferenceBlob method
+title: ITConferenceBlob::get_ConferenceBlob method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

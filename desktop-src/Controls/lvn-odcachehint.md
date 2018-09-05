@@ -1,5 +1,5 @@
 ---
-title: LVN\_ODCACHEHINT notification code
+title: LVN_ODCACHEHINT notification code
 description: Sent by a virtual list-view control when the contents of its display area have changed.
 ms.assetid: 2fac6a16-f65e-402f-9295-f2beb23db924
 keywords:

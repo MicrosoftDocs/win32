@@ -1,7 +1,7 @@
 ---
 Description: Changes the extended replication relationship to the primary relationship for a replica virtual machine. The replica virtual machine must be in a failover committed state.
 ms.assetid: B593A155-B5E6-44E5-8835-09DEB1FF868E
-title: Msvm\_ReplicationService::ChangeReplicationModeToPrimary method
+title: Msvm_ReplicationService::ChangeReplicationModeToPrimary method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

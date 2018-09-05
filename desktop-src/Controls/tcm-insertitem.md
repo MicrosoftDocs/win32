@@ -1,5 +1,5 @@
 ---
-title: TCM\_INSERTITEM message
+title: TCM_INSERTITEM message
 description: Inserts a new tab in a tab control. You can send this message explicitly or by using the TabCtrl\_InsertItem macro.
 ms.assetid: e547c49a-699c-4137-8680-20391d138d54
 keywords:

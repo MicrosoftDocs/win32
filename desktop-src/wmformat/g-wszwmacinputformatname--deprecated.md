@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMACInputFormatName
+title: g_wszWMACInputFormatName
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: a3fde3d4-cc56-405f-aff4-57b30d334fbd
 keywords:

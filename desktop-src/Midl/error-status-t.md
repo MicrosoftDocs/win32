@@ -1,5 +1,5 @@
 ---
-title: error\_status\_t attribute
+title: error_status_t attribute
 description: The error\_status\_t keyword designates a type for an object that contains communication-status or fault-status information.
 ms.assetid: 7eff0d20-c058-4f16-a3db-0b4c82303135
 keywords:

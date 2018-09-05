@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGeneralSetting Methods
+title: Win32_TSGeneralSetting Methods
 description: The Win32\_TSGeneralSetting class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

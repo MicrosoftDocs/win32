@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetDecoderInfo method.
 ms.assetid: 4117492e-d652-4c72-9979-cc4e554a6fd8
-title: IWICBitmapDecoder\_GetDecoderInfo\_Proxy function
+title: IWICBitmapDecoder_GetDecoderInfo_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

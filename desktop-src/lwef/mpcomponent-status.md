@@ -1,5 +1,5 @@
 ---
-title: MPCOMPONENT\_STATUS structure
+title: MPCOMPONENT_STATUS structure
 description: Component status information.
 ms.assetid: 0E589E52-A204-425C-880B-CF13C16893F3
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Contains the on-disk file system recognition information stored in the volumes boot sector (logical disk sector zero).
 ms.assetid: d9c19e01-ff82-4bbc-9eb6-aac9dc5c34ac
-title: FILE\_SYSTEM\_RECOGNITION\_STRUCTURE structure
+title: FILE_SYSTEM_RECOGNITION_STRUCTURE structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

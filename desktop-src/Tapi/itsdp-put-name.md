@@ -1,7 +1,7 @@
 ---
 Description: The put\_Name method sets the session name.
 ms.assetid: aba05cdb-a870-490e-8bb0-98b11780b112
-title: ITSdp::put\_Name method
+title: ITSdp::put_Name method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Returns one of the output identifiers that is associated with a specified cryptographic session and Direct3D device.
 ms.assetid: 7b56055a-fb36-4e54-9bee-ab9401b09267
-title: D3DAUTHENTICATEDQUERY\_OUTPUTID
+title: D3DAUTHENTICATEDQUERY_OUTPUTID
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

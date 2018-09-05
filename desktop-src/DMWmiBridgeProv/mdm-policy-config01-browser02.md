@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Browser02 class
+title: MDM_Policy_Config01_Browser02 class
 description: The MDM\_Policy\_Config01\_Browser02 class represents the browser policies available.
 ms.assetid: 296e3be4-3bc1-4e06-9e31-532639a0b912
 keywords:

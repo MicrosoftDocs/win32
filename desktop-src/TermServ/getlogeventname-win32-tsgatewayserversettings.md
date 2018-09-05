@@ -1,5 +1,5 @@
 ---
-title: GetLogEventName method of the Win32\_TSGatewayServerSettings class
+title: GetLogEventName method of the Win32_TSGatewayServerSettings class
 description: Returns the log event name for the specified log event index.
 audience: developer
 author: REDMOND\\markl

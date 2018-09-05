@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETITEMTEXT message
+title: LVM_SETITEMTEXT message
 description: Changes the text of a list-view item or subitem. You can send this message explicitly or by using the ListView\_SetItemText macro.
 ms.assetid: 1a9c7e4d-78e0-44c7-bf4f-d0fc7a0049f3
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_SECTION
 ms.assetid: 8680a74b-9594-4271-a511-637f617aa12a
-title: WPD\_CONTENT\_TYPE\_SECTION
+title: WPD_CONTENT_TYPE_SECTION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

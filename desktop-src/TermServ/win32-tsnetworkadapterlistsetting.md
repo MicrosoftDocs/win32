@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSNetworkAdapterListSetting class
+title: Win32_TSNetworkAdapterListSetting class
 description: Enumerates the list of network adapters that can be configured for a Win32\_Terminal, based on the specified terminal protocol and transport method.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: Represents a metric definition that contains the meta data for a CIM\_MetricInstance object.
 ms.assetid: 6abfb0dc-e80b-4ca6-89d9-2e43283d0abe
-title: CIM\_BaseMetricDefinition class
+title: CIM_BaseMetricDefinition class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

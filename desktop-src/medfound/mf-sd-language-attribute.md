@@ -1,7 +1,7 @@
 ---
 Description: Specifies the language for a stream.
 ms.assetid: b64a9554-a560-4212-8964-b68ebbadc046
-title: MF\_SD\_LANGUAGE attribute
+title: MF_SD_LANGUAGE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

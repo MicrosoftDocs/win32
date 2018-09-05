@@ -1,5 +1,5 @@
 ---
-title: MDM\_Reporting\_EnterpriseDataProtection01\_RetrieveByCount02 class
+title: MDM_Reporting_EnterpriseDataProtection01_RetrieveByCount02 class
 description: The MDM\_Reporting\_EnterpriseDataProtection01\_RetrieveByCount02 class is used to retrieve a specified number of logs from the StartTime.
 ms.assetid: 0a581d5a-129b-48c3-a7a1-3947cc1e2ee9
 keywords:

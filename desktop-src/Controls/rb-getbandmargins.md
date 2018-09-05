@@ -1,5 +1,5 @@
 ---
-title: RB\_GETBANDMARGINS message
+title: RB_GETBANDMARGINS message
 description: Retrieves the margins of a band.
 ms.assetid: 262f4180-53f9-428f-9360-75b762470270
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IWMPLibraryServices (VB and C\ ) interface
+title: IWMPLibraryServices (VB and C ) interface
 description: Provides methods to enumerate libraries.
 ms.assetid: f2a72731-6e61-4f78-b0ca-ae907004eb7d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: D3DX\_IsNan function
+title: D3DX_IsNan function
 description: Determines if the value is a NaN (Not a Number).
 ms.assetid: 862d1d34-36ab-471e-b3ce-ce71896441e5
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: BN\_DOUBLECLICKED notification code
+title: BN_DOUBLECLICKED notification code
 description: Sent when the user double-clicks a button.
 ms.assetid: 2fd7363a-5a02-453c-bfab-df5cbf8e42a5
 keywords:

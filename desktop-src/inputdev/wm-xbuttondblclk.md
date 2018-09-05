@@ -1,5 +1,5 @@
 ---
-title: WM\_XBUTTONDBLCLK message
+title: WM_XBUTTONDBLCLK message
 description: Posted when the user double-clicks the first or second X button while the cursor is in the client area of a window.
 ms.assetid: 68f7abaf-cf6d-499a-957f-3c4d73cdbdee
 keywords:

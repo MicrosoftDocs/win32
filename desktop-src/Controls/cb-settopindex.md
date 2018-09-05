@@ -1,5 +1,5 @@
 ---
-title: CB\_SETTOPINDEX message
+title: CB_SETTOPINDEX message
 description: An application sends the CB\_SETTOPINDEX message to ensure that a particular item is visible in the list box of a combo box.
 ms.assetid: 2be78f17-848f-435a-9c2c-df6108ee7d9e
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies an activation object that creates a custom video mixer for the enhanced video renderer (EVR) media sink.
 ms.assetid: 60484f87-7588-4b52-93aa-ef8fad66d971
-title: MF\_ACTIVATE\_CUSTOM\_VIDEO\_MIXER\_ACTIVATE attribute
+title: MF_ACTIVATE_CUSTOM_VIDEO_MIXER_ACTIVATE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

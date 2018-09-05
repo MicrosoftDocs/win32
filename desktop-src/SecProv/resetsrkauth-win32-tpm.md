@@ -1,7 +1,7 @@
 ---
 Description: Resets the Storage Root Key (SRK) authorization value to be compatible with the operating system.
 ms.assetid: af008733-b43c-4017-9e79-bdd98f2e20b6
-title: ResetSrkAuth method of the Win32\_Tpm class
+title: ResetSrkAuth method of the Win32_Tpm class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

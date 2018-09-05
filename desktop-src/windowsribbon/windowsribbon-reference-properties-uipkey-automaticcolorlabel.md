@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_AutomaticColorLabel
+title: UI_PKEY_AutomaticColorLabel
 description: Identifies the UI\_PKEY\_AutomaticColorLabel property.
 ms.assetid: 736259f1-b536-40a5-bce7-98602a0ab041
 ms.technology: desktop

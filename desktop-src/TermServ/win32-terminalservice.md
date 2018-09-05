@@ -1,5 +1,5 @@
 ---
-title: Win32\_TerminalService class
+title: Win32_TerminalService class
 description: A subclass of the Win32\_Service class. Win32\_TerminalService represents the Element property of the Win32\_TerminalServiceToSetting association.
 audience: developer
 author: REDMOND\\markl

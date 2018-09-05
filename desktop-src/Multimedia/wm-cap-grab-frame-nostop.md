@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_GRAB\_FRAME\_NOSTOP message
+title: WM_CAP_GRAB_FRAME_NOSTOP message
 description: The WM\_CAP\_GRAB\_FRAME\_NOSTOP message fills the frame buffer with a single uncompressed frame from the capture device and displays it.
 ms.assetid: 5f6e3ce7-3595-456e-82c8-eeb162ace81a
 keywords:

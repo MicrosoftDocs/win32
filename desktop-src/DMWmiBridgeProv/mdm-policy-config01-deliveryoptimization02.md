@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_DeliveryOptimization02 class
+title: MDM_Policy_Config01_DeliveryOptimization02 class
 description: The MDM\_Policy\_Config01\_DeliveryOptimization02 class represents the delivery optimization policies available.
 ms.assetid: 10dfb751-f044-4f30-90e0-af0fcb0931fb
 keywords:

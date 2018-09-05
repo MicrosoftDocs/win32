@@ -1,7 +1,7 @@
 ---
 Description: Specifies the portions of content to be encoded as music by the voice codec.
 ms.assetid: c63034ce-33d7-4f2f-9498-fc16e25b6d4d
-title: MFPKEY\_WMAVOICE\_ENC\_EDL Property
+title: MFPKEY_WMAVOICE_ENC_EDL Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

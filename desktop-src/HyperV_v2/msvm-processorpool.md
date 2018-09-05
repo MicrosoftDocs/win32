@@ -1,7 +1,7 @@
 ---
 Description: Aggregates the processor resources that may be allocated to a virtual machine.
 ms.assetid: C0497900-00F3-4975-9D12-C82C13C03D8E
-title: Msvm\_ProcessorPool class
+title: Msvm_ProcessorPool class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

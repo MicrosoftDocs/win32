@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_WKSType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_WKSType class
 description: The CreateInstanceFromPropertyData method instantiates a Well-Known Services (WKS) Resource Record.
 ms.assetid: 6d910716-74f9-48a0-b43c-3243f5518caf
 keywords:

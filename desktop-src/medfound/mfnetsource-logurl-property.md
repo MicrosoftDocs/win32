@@ -1,7 +1,7 @@
 ---
 Description: List of URLs to which the network source will send logging information.
 ms.assetid: 772c5b57-273d-4289-9229-ef7a199c6473
-title: MFNETSOURCE\_LOGURL property
+title: MFNETSOURCE_LOGURL property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

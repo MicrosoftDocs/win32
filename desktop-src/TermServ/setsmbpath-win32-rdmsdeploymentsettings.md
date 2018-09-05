@@ -1,5 +1,5 @@
 ---
-title: SetSMBPath method of the Win32\_RDMSDeploymentSettings class
+title: SetSMBPath method of the Win32_RDMSDeploymentSettings class
 description: Updates the UNC path to the SMB share to which virtual machines of the virtual desktop collection are deployed.
 audience: developer
 author: REDMOND\\markl

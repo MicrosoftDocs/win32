@@ -1,5 +1,5 @@
 ---
-title: MCM\_GETMONTHDELTA message
+title: MCM_GETMONTHDELTA message
 description: Retrieves the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can send this message explicitly or by using the MonthCal\_GetMonthDelta macro.
 ms.assetid: 6db02993-b22c-430f-8928-8bd5768b2151
 keywords:

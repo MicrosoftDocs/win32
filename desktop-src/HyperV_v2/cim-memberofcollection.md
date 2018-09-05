@@ -1,7 +1,7 @@
 ---
 Description: Represents a relationship in which a managed element is a member of and is aggregated by a collection.
 ms.assetid: 324284fa-ece6-41df-9891-040a7561dce4
-title: CIM\_MemberOfCollection class
+title: CIM_MemberOfCollection class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

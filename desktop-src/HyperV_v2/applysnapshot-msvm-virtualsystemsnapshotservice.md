@@ -1,7 +1,7 @@
 ---
 Description: Applies a virtual machine snapshot to the virtual machine that it was created from.
 ms.assetid: 45f1ec8f-aa96-4060-8f8c-0471d0ad4a21
-title: ApplySnapshot method of the Msvm\_VirtualSystemSnapshotService class
+title: ApplySnapshot method of the Msvm_VirtualSystemSnapshotService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

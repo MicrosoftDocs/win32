@@ -1,5 +1,5 @@
 ---
-title: WM\_UNICHAR message
+title: WM_UNICHAR message
 description: The WM\_UNICHAR message can be used by an application to post input to other windows.
 ms.assetid: edbfcf14-0371-43ce-9676-eb10d964d0b7
 keywords:

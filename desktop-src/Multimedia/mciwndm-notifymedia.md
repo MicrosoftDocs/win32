@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_NOTIFYMEDIA message
+title: MCIWNDM_NOTIFYMEDIA message
 description: The MCIWNDM\_NOTIFYMEDIA message notifies the parent window of an application that the media has changed.
 ms.assetid: cc31502d-09a9-4580-9ff8-9c2be51c8e35
 keywords:

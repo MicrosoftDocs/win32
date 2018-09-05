@@ -1,7 +1,7 @@
 ---
 Description: Specifies the clear (non-encrypted) byte block size for sample-based pattern encryption.
 ms.assetid: F65112FA-B380-45F8-A1FC-3408FE6E49E2
-title: MFSampleExtension\_Encryption\_SkipByteBlock attribute
+title: MFSampleExtension_Encryption_SkipByteBlock attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

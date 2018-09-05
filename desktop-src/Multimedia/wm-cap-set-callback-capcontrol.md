@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_SET\_CALLBACK\_CAPCONTROL message
+title: WM_CAP_SET_CALLBACK_CAPCONTROL message
 description: The WM\_CAP\_SET\_CALLBACK\_CAPCONTROL message sets a callback function in the application giving it precise recording control. You can send this message explicitly or by using the capSetCallbackOnCapControl macro.
 ms.assetid: 1e93ed7b-8205-45fe-bdcf-efe3f709f728
 keywords:

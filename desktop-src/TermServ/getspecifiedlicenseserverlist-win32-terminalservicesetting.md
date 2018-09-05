@@ -1,5 +1,5 @@
 ---
-title: GetSpecifiedLicenseServerList method of the Win32\_TerminalServiceSetting class
+title: GetSpecifiedLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Retrieves the list of specified license servers.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: Contains configuration properties for an encoder.
 ms.assetid: f9bd8a50-e43e-4668-86a0-c9d5f517f4cf
-title: MFT\_PREFERRED\_ENCODER\_PROFILE attribute
+title: MFT_PREFERRED_ENCODER_PROFILE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

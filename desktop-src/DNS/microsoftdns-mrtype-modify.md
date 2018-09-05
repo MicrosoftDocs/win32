@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_MRType class
+title: Modify method of the MicrosoftDNS_MRType class
 description: The Modify method updates a Mailbox Rename (MR) Resource Record.
 ms.assetid: eb833735-d485-4603-9976-305244537acd
 keywords:

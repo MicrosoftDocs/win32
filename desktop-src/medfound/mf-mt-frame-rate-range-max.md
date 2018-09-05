@@ -1,7 +1,7 @@
 ---
 Description: The maximum frame rate that is supported by a video capture device, in frames per second.
 ms.assetid: 8e0c4996-9f78-424e-b012-502228b6a27a
-title: MF\_MT\_FRAME\_RATE\_RANGE\_MAX attribute
+title: MF_MT_FRAME_RATE_RANGE_MAX attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

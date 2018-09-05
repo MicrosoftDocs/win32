@@ -1,5 +1,5 @@
 ---
-title: UpdateFromDS method of the MicrosoftDNS\_Zone class
+title: UpdateFromDS method of the MicrosoftDNS_Zone class
 description: The UpdateFromDS method forces an update of the zone from the Directory Service (DS).
 ms.assetid: 471f0754-1221-4d1d-8ffd-36c1ab54b7e5
 keywords:

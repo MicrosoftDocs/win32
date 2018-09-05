@@ -1,7 +1,7 @@
 ---
 Description: Represents the virtual system migration service. It is used for migrating a virtual system or for migrating the storage of a virtual system from one virtualization platform to another.
 ms.assetid: b0e0f187-beeb-4fdf-a91c-f6c5500f0f6d
-title: Msvm\_VirtualSystemMigrationService class
+title: Msvm_VirtualSystemMigrationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

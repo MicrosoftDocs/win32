@@ -1,5 +1,5 @@
 ---
-title: SetSessionDirectoryActive method of the Win32\_TSSessionDirectory class
+title: SetSessionDirectoryActive method of the Win32_TSSessionDirectory class
 description: The SetSessionDirectoryActive method sets the SessionDirectoryActive property.
 audience: developer
 author: REDMOND\\markl

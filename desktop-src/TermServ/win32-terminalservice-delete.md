@@ -1,5 +1,5 @@
 ---
-title: Delete method of the Win32\_Service class
+title: Delete method of the Win32_Service class
 description: The Delete \ 8194;WMI class method deletes an existing service.
 audience: developer
 author: REDMOND\\markl

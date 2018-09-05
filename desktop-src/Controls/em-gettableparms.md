@@ -1,5 +1,5 @@
 ---
-title: EM\_GETTABLEPARMS message
+title: EM_GETTABLEPARMS message
 description: Retrieves the table parameters for a table row and the cell parameters for the specified number of cells.
 ms.assetid: 36ADA41B-735B-4D6E-92B1-33260C71DF73
 keywords:

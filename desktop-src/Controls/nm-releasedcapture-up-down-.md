@@ -1,5 +1,5 @@
 ---
-title: NM\_RELEASEDCAPTURE (up-down) notification code
+title: NM_RELEASEDCAPTURE (up-down) notification code
 description: Notifies an up-down control's parent window that the control is releasing mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 88a4a9a2-ba7f-4ccc-b5bf-749f49dc666b
 keywords:

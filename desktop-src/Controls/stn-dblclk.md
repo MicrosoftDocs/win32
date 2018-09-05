@@ -1,5 +1,5 @@
 ---
-title: STN\_DBLCLK notification code
+title: STN_DBLCLK notification code
 description: The STN\_DBLCLK notification code is sent when the user double-clicks a static control that has the SS\_NOTIFY style. The parent window of the control receives this notification code through the WM\_COMMAND message.
 ms.assetid: e3203309-87ea-46f4-9269-7e68c6fa0e4a
 keywords:

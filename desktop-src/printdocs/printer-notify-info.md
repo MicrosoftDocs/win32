@@ -1,7 +1,7 @@
 ---
 Description: The PRINTER\_NOTIFY\_INFO structure contains printer information returned by the FindNextPrinterChangeNotification function. The function returns this information after a wait operation on a printer change notification object has been satisfied.
 ms.assetid: c104fabe-edf5-426e-859b-694811975623
-title: PRINTER\_NOTIFY\_INFO structure
+title: PRINTER_NOTIFY_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

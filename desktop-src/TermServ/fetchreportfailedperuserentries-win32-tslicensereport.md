@@ -1,5 +1,5 @@
 ---
-title: FetchReportFailedPerUserEntries method of the Win32\_TSLicenseReport class
+title: FetchReportFailedPerUserEntries method of the Win32_TSLicenseReport class
 description: Retrieves details of failed Remote Desktop Services Per User client access licenses (RDS \ 160;Per User CALs) from the report.
 audience: developer
 author: REDMOND\\markl

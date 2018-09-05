@@ -1,5 +1,5 @@
 ---
-title: PSM\_GETCURRENTPAGEHWND message
+title: PSM_GETCURRENTPAGEHWND message
 description: Retrieves a handle to the window of the current page of a property sheet. You can send this message explicitly or by using the PropSheet\_GetCurrentPageHwnd macro.
 ms.assetid: 1f2d0af9-5853-48e7-b827-483be032b6ca
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_ISDNType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_ISDNType class
 description: The CreateInstanceFromPropertyData method instantiates an ISDN Resource Record.
 ms.assetid: cd3b98e3-a804-473e-8831-5f045d43a54f
 keywords:

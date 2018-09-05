@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_TrafficFilterList02\_App04 class
+title: MDM_VPNv2_TrafficFilterList02_App04 class
 description: The MDM\_TrafficFilterList02\_App04 class provides configuration of the apps that are allowed over the VPN interface.
 ms.assetid: a56d004b-8fe3-4187-8aad-962f1cab8f7f
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EM\_SETHANDLE message
+title: EM_SETHANDLE message
 description: Sets the handle of the memory that will be used by a multiline edit control.
 ms.assetid: 0eae9365-62af-4040-8a51-273997a00b81
 keywords:

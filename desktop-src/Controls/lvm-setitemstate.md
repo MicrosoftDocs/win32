@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETITEMSTATE message
+title: LVM_SETITEMSTATE message
 description: Changes the state of an item in a list-view control. You can send this message explicitly or by using the ListView\_SetItemState macro.
 ms.assetid: aecd14dd-cfd0-4c7c-bddc-f65022de68c9
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LBN\_KILLFOCUS notification code
+title: LBN_KILLFOCUS notification code
 description: Notifies the application that the list box has lost the keyboard focus. The parent window of the list box receives this notification code through the WM\_COMMAND message.
 ms.assetid: ef927b56-3c46-4ae7-87df-13295cf175a8
 keywords:

@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Pause method of the Win32\_PrintJob class
+title: Pause method of the Win32_PrintJob class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

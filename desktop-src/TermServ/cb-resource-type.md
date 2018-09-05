@@ -1,5 +1,5 @@
 ---
-title: CB\_RESOURCE\_TYPE enumeration
+title: CB_RESOURCE_TYPE enumeration
 description: Specifies the type of resource that the incoming connection is connecting to.
 audience: developer
 author: REDMOND\\markl

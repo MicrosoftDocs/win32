@@ -1,5 +1,5 @@
 ---
-title: WM\_DWMWINDOWMAXIMIZEDCHANGE message
+title: WM_DWMWINDOWMAXIMIZEDCHANGE message
 description: Sent when a Desktop Window Manager (DWM) composed window is maximized.
 ms.assetid: db8cd104-388e-4211-9e4e-f169aef9651c
 keywords:

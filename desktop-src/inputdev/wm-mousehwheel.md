@@ -1,5 +1,5 @@
 ---
-title: WM\_MOUSEHWHEEL message
+title: WM_MOUSEHWHEEL message
 description: Sent to the active window when the mouse's horizontal scroll wheel is tilted or rotated.
 ms.assetid: 4d6a3d73-38ef-450d-89d2-2d381fc7a7c3
 keywords:

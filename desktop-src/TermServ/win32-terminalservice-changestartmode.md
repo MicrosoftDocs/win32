@@ -1,5 +1,5 @@
 ---
-title: ChangeStartMode method of the Win32\_Service class
+title: ChangeStartMode method of the Win32_Service class
 description: Modifies the start mode of a Win32\_TerminalService.
 audience: developer
 author: REDMOND\\markl

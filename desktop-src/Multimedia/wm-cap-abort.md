@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_ABORT message
+title: WM_CAP_ABORT message
 description: The WM\_CAP\_ABORT message stops the capture operation.
 ms.assetid: a0479d73-8422-4833-9e8a-c262ec386f58
 keywords:

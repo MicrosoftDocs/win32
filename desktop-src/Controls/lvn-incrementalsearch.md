@@ -1,5 +1,5 @@
 ---
-title: LVN\_INCREMENTALSEARCH notification code
+title: LVN_INCREMENTALSEARCH notification code
 description: Notifies a list-view control's parent window that an incremental search has started. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 34517250-a6ba-490b-b87e-b09048543339
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TB\_ISBUTTONHIGHLIGHTED message
+title: TB_ISBUTTONHIGHLIGHTED message
 description: Checks the highlight state of a toolbar button.
 ms.assetid: d5aab670-a989-46f2-b4f8-d8a8968cbe07
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_AAAAType class
+title: MicrosoftDNS_AAAAType class
 description: Subclass of MicrosoftDNS\_ResourceRecord that represents an IPv6 Address (AAAA) record. The AAAA record is commonly pronounced \ 0034;quad-a record \ 0034;.
 ms.assetid: e16a7a69-18df-43dc-add9-700a702724ce
 keywords:

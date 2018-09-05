@@ -1,5 +1,5 @@
 ---
-title: GenerateReportEx method of the Win32\_TSLicenseReport class
+title: GenerateReportEx method of the Win32_TSLicenseReport class
 description: Generates a current license usage report for both Per User and Per Device licenses.
 audience: developer
 author: REDMOND\\markl

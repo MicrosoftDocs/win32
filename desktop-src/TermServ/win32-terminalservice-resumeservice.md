@@ -1,5 +1,5 @@
 ---
-title: ResumeService method of the Win32\_Service class
+title: ResumeService method of the Win32_Service class
 description: Attempts to place the referenced service in the resumed state.
 audience: developer
 author: REDMOND\\markl

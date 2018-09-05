@@ -1,7 +1,7 @@
 ---
 Description: Signals the beginning of every video object unit (VOBU), a video segment which is 0.4 to 1.0 seconds in length.
 ms.assetid: 1f2def2f-3a6b-458b-b564-09b6cf74543c
-title: EC\_DVD\_CURRENT\_TIME
+title: EC_DVD_CURRENT_TIME
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

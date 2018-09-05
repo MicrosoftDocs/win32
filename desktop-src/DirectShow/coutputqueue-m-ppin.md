@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the input pin's IPin interface.
 ms.assetid: caa36019-1d48-4c2d-9327-517f3a8d3941
-title: COutputQueue::m\_pPin member
+title: COutputQueue::m_pPin member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

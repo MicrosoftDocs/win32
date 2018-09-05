@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Kerberos02 class
+title: MDM_Policy_Config01_Kerberos02 class
 description: The MDM\_Policy\_Config01\_Kerberos02 class configures the Kerberos policies.
 ms.assetid: d34ccc8a-0c0c-4b7a-88c2-35360ebd0b8e
 keywords:

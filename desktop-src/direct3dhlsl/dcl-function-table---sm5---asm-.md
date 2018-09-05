@@ -1,5 +1,5 @@
 ---
-title: dcl\_function\_table (sm5 - asm)
+title: dcl_function_table (sm5 - asm)
 description: Declare a function table.
 ms.assetid: 3693A03F-5E4B-40E8-B436-2FE3462C8DB8
 ms.technology: desktop

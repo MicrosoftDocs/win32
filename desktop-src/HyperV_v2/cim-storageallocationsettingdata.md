@@ -1,7 +1,7 @@
 ---
 Description: Represents settings for the allocation of virtual storage.
 ms.assetid: 128fd3e9-8759-4b2f-a881-d34e89c539ac
-title: CIM\_StorageAllocationSettingData class
+title: CIM_StorageAllocationSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

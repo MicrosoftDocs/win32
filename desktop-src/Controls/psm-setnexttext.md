@@ -1,5 +1,5 @@
 ---
-title: PSM\_SETNEXTTEXT message
+title: PSM_SETNEXTTEXT message
 description: Sets the text of the Next button in a wizard. You can send this message explicitly or by using the PropSheet\_SetNextText macro.
 ms.assetid: 4608425e-1724-4d0b-b0f6-9fec147a85f6
 keywords:

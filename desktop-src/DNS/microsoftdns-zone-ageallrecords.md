@@ -1,5 +1,5 @@
 ---
-title: AgeAllRecords method of the MicrosoftDNS\_Zone class
+title: AgeAllRecords method of the MicrosoftDNS_Zone class
 description: The AgeAllRecords method enables aging for some or all non-NS and non-SOA records in a zone.
 ms.assetid: 0e0df1ab-6c7c-4bc4-b292-8f89095970eb
 keywords:

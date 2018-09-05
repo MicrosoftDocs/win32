@@ -1,5 +1,5 @@
 ---
-title: Win32\_TerminalServiceSetting class
+title: Win32_TerminalServiceSetting class
 description: Represents the configuration for a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: D3DX\_FLOAT2\_to\_R16G16\_UNORM function
+title: D3DX_FLOAT2_to_R16G16_UNORM function
 description: Packs the given XMFLOAT2 back into a DXGI\_FORMAT\_R16G16\_UNORM.
 ms.assetid: 5a1bd034-262f-4f55-8f38-d2fda42bb13b
 keywords:

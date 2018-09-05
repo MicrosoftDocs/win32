@@ -1,6 +1,6 @@
 ---
 Description: Sent by the default context menu implementation to assign a name to a menu command.
-title: DFM\_MAPCOMMANDNAME message
+title: DFM_MAPCOMMANDNAME message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: LB\_ITEMFROMPOINT message
+title: LB_ITEMFROMPOINT message
 description: Gets the zero-based index of the item nearest the specified point in a list box.
 ms.assetid: 5739eccb-e708-4ddb-ac97-d3e6c6120842
 keywords:

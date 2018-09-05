@@ -1,5 +1,5 @@
 ---
-title: WS\_POLICY
+title: WS_POLICY
 description: An opaque type used to reference a metadata input policy.
 ms.assetid: 04623686-5065-4e97-8685-c72f848b92ab
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the codec should use conservative perceptual optimization when encoding.
 ms.assetid: f44fd932-d8f8-46c7-b17c-27e6141408ab
-title: MFPKEY\_PERCEPTUALOPTLEVEL Property
+title: MFPKEY_PERCEPTUALOPTLEVEL Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

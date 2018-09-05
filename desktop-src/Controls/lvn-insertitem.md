@@ -1,5 +1,5 @@
 ---
-title: LVN\_INSERTITEM notification code
+title: LVN_INSERTITEM notification code
 description: Notifies a list-view control's parent window that a new item was inserted. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 8d368fb2-e4fc-4dc4-a89e-872ba1278b75
 keywords:

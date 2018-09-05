@@ -1,7 +1,7 @@
 ---
 Description: The LINETRANSLATEOPTION\_ bit-flag constant describes an option used by address translation.
 ms.assetid: 3f5e9952-945e-42b8-8536-b52a0c833282
-title: LINETRANSLATEOPTION\_ Constants
+title: LINETRANSLATEOPTION_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

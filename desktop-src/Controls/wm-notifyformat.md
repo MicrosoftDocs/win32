@@ -1,5 +1,5 @@
 ---
-title: WM\_NOTIFYFORMAT message
+title: WM_NOTIFYFORMAT message
 description: Determines if a window accepts ANSI or Unicode structures in the WM\_NOTIFY notification message. WM\_NOTIFYFORMAT messages are sent from a common control to its parent window and from the parent window to the common control.
 ms.assetid: 45ddef45-3300-448d-b609-5fe931b08336
 keywords:

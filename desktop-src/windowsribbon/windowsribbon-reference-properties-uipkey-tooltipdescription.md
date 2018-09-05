@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_TooltipDescription
+title: UI_PKEY_TooltipDescription
 description: Identifies the UI\_PKEY\_TooltipDescription property.
 ms.assetid: 658e798a-f41e-4538-94ac-38a9cb20dd74
 ms.technology: desktop

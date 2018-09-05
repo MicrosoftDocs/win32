@@ -7,7 +7,7 @@ ms.assetid: 1b5aaea7-50f4-40bd-ab2a-f4ff55cc22fc
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.SpawnDerivedClass\_ method
+title: SWbemObject.SpawnDerivedClass_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

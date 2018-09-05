@@ -1,7 +1,7 @@
 ---
 Description: Specifies the low-pass filter bandwidth, as a percentage of the destination sample rate.
 ms.assetid: 7d9b5949-2d9e-436a-9e44-61c6fc86f973
-title: MFPKEY\_WMRESAMP\_LOWPASS\_BANDWIDTH Property
+title: MFPKEY_WMRESAMP_LOWPASS_BANDWIDTH Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

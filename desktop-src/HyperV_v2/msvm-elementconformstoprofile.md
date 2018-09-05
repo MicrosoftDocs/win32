@@ -1,7 +1,7 @@
 ---
 Description: Defines the registered profiles to which the referenced system conforms.
 ms.assetid: F01E79BE-82D9-49E0-AB0C-FD1B48BC4A55
-title: Msvm\_ElementConformsToProfile class
+title: Msvm_ElementConformsToProfile class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

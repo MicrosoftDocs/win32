@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_NSType class
+title: Modify method of the MicrosoftDNS_NSType class
 description: The Modify method updates a Name Server (NS) Resource Record.
 ms.assetid: da625231-cf4e-4526-b713-737e6b9f5831
 keywords:

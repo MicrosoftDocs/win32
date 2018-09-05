@@ -1,7 +1,7 @@
 ---
 Description: Starts the service.
 ms.assetid: 499e4650-255f-4c84-98fc-de81d5cd6daf
-title: StartService method of the Msvm\_TerminalService class
+title: StartService method of the Msvm_TerminalService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

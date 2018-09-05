@@ -1,5 +1,5 @@
 ---
-title: HDN\_ENDTRACK notification code
+title: HDN_ENDTRACK notification code
 description: Notifies a header control's parent window that the user has finished dragging a divider. This notification code sent in the form of a WM\_NOTIFY message.
 ms.assetid: d9b25871-7bd6-439c-91b8-e8249d9be67d
 keywords:

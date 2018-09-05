@@ -1,5 +1,5 @@
 ---
-title: WM\_RBUTTONUP message
+title: WM_RBUTTONUP message
 description: Posted when the user releases the right mouse button while the cursor is in the client area of a window.
 ms.assetid: 12d148ba-9324-4db3-b537-b2cd4d0b8f32
 keywords:

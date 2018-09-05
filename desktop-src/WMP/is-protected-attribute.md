@@ -1,5 +1,5 @@
 ---
-title: Is\_Protected Attribute
+title: Is_Protected Attribute
 description: The Is\_Protected attribute indicates whether the content is protected using digital rights management (DRM).
 ms.assetid: 049d4116-7ba6-49f5-ad54-82a98b79d6bc
 keywords:

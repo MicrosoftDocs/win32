@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_GRAB\_FRAME message
+title: WM_CAP_GRAB_FRAME message
 description: The WM\_CAP\_GRAB\_FRAME message retrieves and displays a single frame from the capture driver. After capture, overlay and preview are disabled. You can send this message explicitly or by using the capGrabFrame macro.
 ms.assetid: 91d58c1c-53b9-4813-88c2-7a1acf641d96
 keywords:

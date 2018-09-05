@@ -1,5 +1,5 @@
 ---
-title: MDM\_WindowsAdvancedThreatProtection\_Configuration01 class
+title: MDM_WindowsAdvancedThreatProtection_Configuration01 class
 description: The MDM\_WindowsAdvancedThreatProtection\_Configuration01 class is used to determine the configuration of Windows Defender Advanced Threat Protection (WDATP) endpoints.
 ms.assetid: b4b2ff02-3836-4044-b8fa-d3405f433d8c
 keywords:

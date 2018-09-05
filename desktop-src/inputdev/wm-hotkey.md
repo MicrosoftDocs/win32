@@ -1,5 +1,5 @@
 ---
-title: WM\_HOTKEY message
+title: WM_HOTKEY message
 description: Posted when the user presses a hot key registered by the RegisterHotKey function. The message is placed at the top of the message queue associated with the thread that registered the hot key.
 ms.assetid: 28d87c2f-b2bb-4176-910b-0addea6beb93
 keywords:

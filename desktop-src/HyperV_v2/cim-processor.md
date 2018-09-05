@@ -1,7 +1,7 @@
 ---
 Description: Represents the capabilities and management of a processor.
 ms.assetid: 70cf9776-eeda-42c2-90c4-704ecf1cdafe
-title: CIM\_Processor class
+title: CIM_Processor class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

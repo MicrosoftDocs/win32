@@ -1,5 +1,5 @@
 ---
-title: SBM\_GETPOS message
+title: SBM_GETPOS message
 description: The SBM\_GETPOS message is sent to retrieve the current position of the scroll box of a scroll bar control.
 ms.assetid: 00344d93-f205-4cda-aa25-6dd065f41b6e
 keywords:

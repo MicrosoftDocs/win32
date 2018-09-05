@@ -1,5 +1,5 @@
 ---
-title: TBM\_CLEARSEL message
+title: TBM_CLEARSEL message
 description: Clears the current selection range in a trackbar.
 ms.assetid: ccf69fb7-d616-4a7a-8c7c-7a82827758b1
 keywords:

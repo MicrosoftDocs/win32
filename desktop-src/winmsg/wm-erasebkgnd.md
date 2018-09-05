@@ -1,7 +1,7 @@
 ---
 Description: Sent when the window background must be erased (for example, when a window is resized). The message is sent to prepare an invalidated portion of a window for painting.
 ms.assetid: 3bdc37da-227c-4be1-bf0b-99704b8acbe1
-title: WM\_ERASEBKGND message
+title: WM_ERASEBKGND message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

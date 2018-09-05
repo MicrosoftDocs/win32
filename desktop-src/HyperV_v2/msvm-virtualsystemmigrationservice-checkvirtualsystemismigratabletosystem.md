@@ -1,7 +1,7 @@
 ---
 Description: Determines whether the specified virtual system can be migrated to a destination system.
 ms.assetid: 2E340737-DEE9-4853-ACD8-BEE2A8C69D6D
-title: CheckVirtualSystemIsMigratableToSystem method of the Msvm\_VirtualSystemMigrationService class
+title: CheckVirtualSystemIsMigratableToSystem method of the Msvm_VirtualSystemMigrationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

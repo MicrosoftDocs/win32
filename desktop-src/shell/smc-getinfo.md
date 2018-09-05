@@ -1,6 +1,6 @@
 ---
 Description: Requests information about a regular menu item.
-title: SMC\_GETINFO message
+title: SMC_GETINFO message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

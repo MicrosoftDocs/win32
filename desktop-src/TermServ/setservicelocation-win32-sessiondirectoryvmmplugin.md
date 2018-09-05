@@ -1,5 +1,5 @@
 ---
-title: SetServiceLocation method of the Win32\_SessionDirectoryVMMPlugin class
+title: SetServiceLocation method of the Win32_SessionDirectoryVMMPlugin class
 description: Sets the service location for the plug-in.
 audience: developer
 author: REDMOND\\markl

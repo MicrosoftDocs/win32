@@ -1,5 +1,5 @@
 ---
-title: CFSTR\_DS\_PROPSHEETCONFIG
+title: CFSTR_DS_PROPSHEETCONFIG
 description: The CFSTR\_DS\_PROPSHEETCONFIG clipboard format provides a global memory handle (HGLOBAL) that contains a PROPSHEETCFG structure.
 audience: developer
 author: REDMOND\\markl

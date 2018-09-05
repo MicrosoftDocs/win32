@@ -1,5 +1,5 @@
 ---
-title: EM\_SETUIANAME message
+title: EM_SETUIANAME message
 description: Sets the name of a rich edit control for UI Automation (UIA).
 ms.assetid: 60506FEE-9708-4668-8846-42B0B696DD9A
 keywords:

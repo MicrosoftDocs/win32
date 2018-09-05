@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the first parameter (P1) byte from the application protocol data unit (APDU).
 ms.assetid: a6648e70-96d8-4b7d-ae6d-8832e38d1c71
-title: ISCardCmd::get\_P1 method
+title: ISCardCmd::get_P1 method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

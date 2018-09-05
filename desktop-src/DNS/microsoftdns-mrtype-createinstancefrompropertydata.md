@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_MRType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_MRType class
 description: The CreateInstanceFromPropertyData method instantiates a Mailbox Rename (MR) Resource Record.
 ms.assetid: 7dab86e0-bf05-4e98-b1f8-e1daecd4425c
 keywords:

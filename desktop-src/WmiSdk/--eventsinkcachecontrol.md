@@ -7,7 +7,7 @@ ms.assetid: f7b14efc-a2f7-4e99-8ec8-5b5af0743139
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: \_\_EventSinkCacheControl class
+title: __EventSinkCacheControl class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

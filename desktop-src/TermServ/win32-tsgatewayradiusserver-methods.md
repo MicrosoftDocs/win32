@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayRADIUSServer Methods
+title: Win32_TSGatewayRADIUSServer Methods
 description: The Win32\_TSGatewayRADIUSServer class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

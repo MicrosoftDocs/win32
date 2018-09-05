@@ -1,5 +1,5 @@
 ---
-title: SetInt32Property method of the Win32\_RDMSDeploymentSettings class
+title: SetInt32Property method of the Win32_RDMSDeploymentSettings class
 description: Updates an integer property for the deployment settings of a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

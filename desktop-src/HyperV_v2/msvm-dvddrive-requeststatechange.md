@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: b36d19ea-35fc-4989-9ee9-199b8166674e
-title: RequestStateChange method of the Msvm\_DVDDrive class
+title: RequestStateChange method of the Msvm_DVDDrive class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

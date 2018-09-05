@@ -1,5 +1,5 @@
 ---
-title: BN\_DISABLE notification code
+title: BN_DISABLE notification code
 description: Sent when a button is disabled.
 ms.assetid: 5e2bb434-f20d-42f1-a9e9-46c4d10b8c7e
 keywords:

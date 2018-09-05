@@ -1,7 +1,7 @@
 ---
 Description: Allows the Enhanced Video Renderer (EVR) to limit its output to match GPU bandwidth.
 ms.assetid: d591af2e-d47d-4220-a4f6-968f2ac45284
-title: EVRConfig\_AllowDropToThrottle attribute
+title: EVRConfig_AllowDropToThrottle attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

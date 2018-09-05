@@ -1,5 +1,5 @@
 ---
-title: WM\_DWMCOLORIZATIONCOLORCHANGED message
+title: WM_DWMCOLORIZATIONCOLORCHANGED message
 description: Informs all top-level windows that the colorization color has changed.
 ms.assetid: 6118d41b-f0b4-4034-aa98-d8757f18ca0d
 keywords:

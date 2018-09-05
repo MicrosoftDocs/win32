@@ -7,7 +7,7 @@ ms.assetid: 61ed7984-3036-4b19-a27e-5eb079c5b230
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_IndicationRelated class'
+title: '__IndicationRelated class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

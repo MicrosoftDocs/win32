@@ -7,7 +7,7 @@ ms.assetid: 1e5d95cb-0961-4be8-b80a-37b598c9ccfe
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ProviderRegistration class'
+title: '__ProviderRegistration class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: EM\_LINESCROLL message
+title: EM_LINESCROLL message
 description: Scrolls the text in a multiline edit control.
 ms.assetid: 5398082d-f1ef-4a3a-9e5a-83cf286adbf1
 keywords:

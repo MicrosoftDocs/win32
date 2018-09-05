@@ -1,5 +1,5 @@
 ---
-title: MPSCAN\_RESULT structure
+title: MPSCAN_RESULT structure
 description: The results of a scan.
 ms.assetid: 9031A371-092A-4175-BE1D-90442A5BED2D
 keywords:

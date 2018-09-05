@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDriveCollection \_NewEnum property
+title: IVMFloppyDriveCollection _NewEnum property
 description: Retrieves an enumerator for the collection.
 ms.assetid: 06de9560-cba9-4c64-907e-83e77781cafc
 keywords:

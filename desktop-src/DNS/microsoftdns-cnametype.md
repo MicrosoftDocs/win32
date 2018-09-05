@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_CNAMEType class
+title: MicrosoftDNS_CNAMEType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Canonical Name (CNAME) record.
 ms.assetid: 93a972e3-abb1-425f-beb7-32abe7d0b485
 keywords:

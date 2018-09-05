@@ -1,5 +1,5 @@
 ---
-title: cut\_stream (sm5 - asm)
+title: cut_stream (sm5 - asm)
 description: The geometry shader instruction that completes the current primitive topology at the specified stream, if any vertices have been emitted to it, and starts a new topology of the type declared by the geometry shader at that stream.
 ms.assetid: CEFDD13B-34FD-4E9C-94A0-CB8879A7DBDE
 ms.technology: desktop

@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the memory allocator.
 ms.assetid: b5e37ce0-7c02-4395-bfdf-0ee8c11da09a
-title: CBaseOutputPin::m\_pAllocator member
+title: CBaseOutputPin::m_pAllocator member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

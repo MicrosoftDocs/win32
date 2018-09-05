@@ -1,5 +1,5 @@
 ---
-title: AddDesktopAssignment method of the Win32\_RDMSDesktopAssignment class
+title: AddDesktopAssignment method of the Win32_RDMSDesktopAssignment class
 description: Add a desktop assignment.
 audience: developer
 author: REDMOND\\markl

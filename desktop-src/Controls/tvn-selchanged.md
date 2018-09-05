@@ -1,5 +1,5 @@
 ---
-title: TVN\_SELCHANGED notification code
+title: TVN_SELCHANGED notification code
 description: Notifies a tree-view control's parent window that the selection has changed from one item to another. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 682170d3-5843-4d92-afeb-c37f3502ed5d
 keywords:

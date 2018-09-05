@@ -1,5 +1,5 @@
 ---
-title: TS\_SS\_\ Constants
+title: TS_SS_ Constants
 description: The TS\_SS\_\ constants, defined before run time in the TS\_STATUS structure, describe static document states.
 ms.assetid: 17264527-946a-4648-a4eb-30db751602ab
 topic_type:

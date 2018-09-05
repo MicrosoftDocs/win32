@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_X25Type class
+title: MicrosoftDNS_X25Type class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents an X.25 (X25) record.
 ms.assetid: 1213dfd7-30b3-413e-b723-f4284fa0b416
 keywords:

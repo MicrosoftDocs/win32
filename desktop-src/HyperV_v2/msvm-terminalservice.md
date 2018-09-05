@@ -1,7 +1,7 @@
 ---
 Description: Manages all remote terminal connections to a particular host.
 ms.assetid: 9b81f6d5-20fa-4277-b943-756d85359fd2
-title: Msvm\_TerminalService class
+title: Msvm_TerminalService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: EM\_CONVPOSITION message
+title: EM_CONVPOSITION message
 description: .
 ms.assetid: DE21E5F7-5F37-4B34-81DD-F0113AFB9E4B
 keywords:

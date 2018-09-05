@@ -1,5 +1,5 @@
 ---
-title: MDM\_ClientCertificateInstall\_SCEP01\_01 class
+title: MDM_ClientCertificateInstall_SCEP01_01 class
 description: The MDM\_ClientCertificateInstall\_SCEP01\_01 class enables access to the node for SCEP certificate installation, using unique IDs to differentiate different certificate install requests.
 ms.assetid: 273e6ef7-fd00-4049-bb8b-b9900b3d250b
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Firewall\_App04 class
+title: MDM_Firewall_App04 class
 description: The MDM\_Firewall\_App04 class is used to configure the Windows Defender Firewall settings.
 ms.assetid: d7844d89-97d3-43b4-85af-c9464d475167
 keywords:

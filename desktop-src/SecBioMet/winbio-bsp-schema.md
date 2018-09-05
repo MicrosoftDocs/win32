@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_BSP\_SCHEMA structure
+title: WINBIO_BSP_SCHEMA structure
 description: Describes the capabilities of a biometric service provider.
 ms.assetid: d690c735-55a1-4e2c-8b39-d52a1972bf93
 keywords:

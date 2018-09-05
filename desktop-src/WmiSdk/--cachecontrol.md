@@ -7,7 +7,7 @@ ms.assetid: 32631610-8c0e-4f04-b0b2-62e5f8e23ef4
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_CacheControl class'
+title: '__CacheControl class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

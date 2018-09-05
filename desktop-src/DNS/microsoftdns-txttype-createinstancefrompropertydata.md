@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_TXTType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_TXTType class
 description: The CreateInstanceFromPropertyData method instantiates a Text (TXT) Resource Record.
 ms.assetid: f518bb07-e64f-4240-a7b8-9363374b83d6
 keywords:

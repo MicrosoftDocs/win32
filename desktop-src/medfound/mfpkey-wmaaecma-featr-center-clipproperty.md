@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the Voice Capture DSP performs center clipping.
 ms.assetid: 6830cadd-fa8d-41e1-ac11-a6c8f2795941
-title: MFPKEY\_WMAAECMA\_FEATR\_CENTER\_CLIP Property
+title: MFPKEY_WMAAECMA_FEATR_CENTER_CLIP Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

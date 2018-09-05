@@ -1,7 +1,7 @@
 ---
 Description: Defines a basic service set (BSS) network type.
 ms.assetid: 13d57339-655e-4978-974e-e7b12a83d18a
-title: DOT11\_BSS\_TYPE enumeration
+title: DOT11_BSS_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: DRM\_PLAY\_OPL structure
+title: DRM_PLAY_OPL structure
 description: The DRM\_PLAY\_OPL structure holds information about the output protection levels (OPLs) specified in a license for play actions.
 ms.assetid: 10703893-630c-4cbe-a0b0-d2890905daba
 keywords:

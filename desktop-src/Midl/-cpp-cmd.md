@@ -1,5 +1,5 @@
 ---
-title: /cpp\_cmd switch
+title: /cpp_cmd switch
 description: The /cpp\_cmd switch specifies the preprocessor that the MIDL compiler uses to preprocess input files.
 ms.assetid: d6261fdd-155d-4327-b254-d0267f0dec69
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ReinstallOpenPurchaseLicenseKeyPack method of the Win32\_TSLicenseKeyPack class
+title: ReinstallOpenPurchaseLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Reinstalls an Open License Remote Desktop Services license key pack.
 audience: developer
 author: REDMOND\\markl

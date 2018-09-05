@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for PnP events. The following syntax is simplified from MOF code.
 ms.assetid: 01e9a8bb-3f54-4e20-b4db-1b4bba745d4f
-title: SystemConfig\_PnP class
+title: SystemConfig_PnP class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

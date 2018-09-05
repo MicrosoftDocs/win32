@@ -1,7 +1,7 @@
 ---
 Description: Contains information about a processor.
 ms.assetid: fa8c533c-3a54-4eb5-893f-649dfd8b4609
-title: PROCESSOR\_POWER\_INFORMATION structure
+title: PROCESSOR_POWER_INFORMATION structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

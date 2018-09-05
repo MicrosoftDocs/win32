@@ -1,5 +1,5 @@
 ---
-title: WM\_NCMBUTTONUP message
+title: WM_NCMBUTTONUP message
 description: Posted when the user releases the middle mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 93335e46-c72b-4139-9785-67ce2a6bcb4a
 keywords:

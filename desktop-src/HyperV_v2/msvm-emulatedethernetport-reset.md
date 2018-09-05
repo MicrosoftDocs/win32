@@ -1,7 +1,7 @@
 ---
 Description: Resets the virtual device.
 ms.assetid: e4eb3952-a58e-4acd-85df-205d6ed23133
-title: Reset method of the Msvm\_EmulatedEthernetPort class
+title: Reset method of the Msvm_EmulatedEthernetPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Messaging02 class
+title: MDM_Policy_Result01_Messaging02 class
 description: The MDM\_Policy\_Result01\_Messaging02 class represents the text message back up and restore and Messaging Everywhere.
 ms.assetid: cdc92999-3a2b-4653-b64f-79e19abe5559
 keywords:

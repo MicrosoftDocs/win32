@@ -1,7 +1,7 @@
 ---
 Description: Specifies that network abstraction layer (NAL) unit types should be forwarded on output samples by the decoder.
 ms.assetid: 2A1D8629-EB66-4F72-9AD7-93123D941BB0
-title: MF\_MT\_FORWARD\_CUSTOM\_NALU attribute
+title: MF_MT_FORWARD_CUSTOM_NALU attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

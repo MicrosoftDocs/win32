@@ -1,5 +1,5 @@
 ---
-title: MCM\_SETMONTHDELTA message
+title: MCM_SETMONTHDELTA message
 description: Sets the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can send this message explicitly or by using the MonthCal\_SetMonthDelta macro.
 ms.assetid: 2d01b95f-3be8-4548-80b5-ac01d3e49e9f
 keywords:

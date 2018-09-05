@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: c780c162-3352-4f13-a84a-26eb99f9d380
-title: RequestStateChange method of the Msvm\_VideoHead class
+title: RequestStateChange method of the Msvm_VideoHead class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

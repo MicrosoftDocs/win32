@@ -1,7 +1,7 @@
 ---
 Description: Represents the association between two metric definitions or two metric values.
 ms.assetid: 78fb926d-8981-443a-a82d-ebac34d38e13
-title: Msvm\_MetricCollectionDependency class
+title: Msvm_MetricCollectionDependency class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

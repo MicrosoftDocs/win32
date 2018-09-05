@@ -1,5 +1,5 @@
 ---
-title: PSN\_TRANSLATEACCELERATOR notification code
+title: PSN_TRANSLATEACCELERATOR notification code
 description: Notifies a property sheet that a keyboard message has been received. It provides the page an opportunity to do private keyboard accelerator translation. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 04d67326-92f9-4b92-a27e-354815f3c1a8
 keywords:

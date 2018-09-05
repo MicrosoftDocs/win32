@@ -1,5 +1,5 @@
 ---
-title: TBN\_DELETINGBUTTON message
+title: TBN_DELETINGBUTTON message
 description: Sent by a toolbar control when a button is about to be deleted. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 08116071-36d6-456b-88f9-62a22cdb7ed9
 keywords:

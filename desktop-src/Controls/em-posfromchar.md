@@ -1,5 +1,5 @@
 ---
-title: EM\_POSFROMCHAR message
+title: EM_POSFROMCHAR message
 description: Retrieves the client area coordinates of a specified character in an edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: a32532fa-976f-4c19-ac6e-29e5614fc410
 keywords:

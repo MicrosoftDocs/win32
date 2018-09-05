@@ -1,7 +1,7 @@
 ---
 Description: Represents a key/value pair.
 ms.assetid: B13E9C5F-5B13-4EE5-AE5F-F51B61BDB9B7
-title: Msvm\_KvpExchangeDataItem class
+title: Msvm_KvpExchangeDataItem class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

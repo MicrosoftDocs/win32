@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 34d70ff2-4545-4ab7-8c84-6532c342768b
-title: RequestStateChange method of the Msvm\_CollectionReferencePointExportJob class
+title: RequestStateChange method of the Msvm_CollectionReferencePointExportJob class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

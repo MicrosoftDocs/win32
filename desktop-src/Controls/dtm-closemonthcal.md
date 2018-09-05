@@ -1,5 +1,5 @@
 ---
-title: DTM\_CLOSEMONTHCAL message
+title: DTM_CLOSEMONTHCAL message
 description: Closes a date and time picker (DTP) control. Send this message explicitly or by using the DateTime\_CloseMonthCal macro.
 ms.assetid: f60af77f-ec34-4f3d-9427-cda7ac6083bf
 keywords:

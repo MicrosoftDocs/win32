@@ -1,7 +1,7 @@
 ---
 Description: The LINETERMSHARING\_ bit-flag constants describe different ways in which a terminal can be shared between line devices, addresses, or calls.
 ms.assetid: 50a52a50-4d94-4068-9ea4-bea862400036
-title: LINETERMSHARING\_ Constants
+title: LINETERMSHARING_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

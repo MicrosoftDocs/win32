@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the current media sample.
 ms.assetid: 08f7b19b-e8e9-4462-805e-b242da9da742
-title: CBaseRenderer::m\_pMediaSample member
+title: CBaseRenderer::m_pMediaSample member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

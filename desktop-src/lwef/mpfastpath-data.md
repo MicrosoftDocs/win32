@@ -1,5 +1,5 @@
 ---
-title: MPFASTPATH\_DATA structure
+title: MPFASTPATH_DATA structure
 description: FastPath update notification.
 ms.assetid: E19F153D-DD46-4E27-9A4B-33586794DAC2
 keywords:

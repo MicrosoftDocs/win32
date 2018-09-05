@@ -1,7 +1,7 @@
 ---
 Description: The EVENT\_INSTANCE\_INFO structure maps a unique transaction identifier to a registered event trace class.
 ms.assetid: 83a3802c-b992-43a2-a98a-bdee2ecfef24
-title: EVENT\_INSTANCE\_INFO structure
+title: EVENT_INSTANCE_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_RootHints class
+title: MicrosoftDNS_RootHints class
 description: The MicrosoftDNS\_RootHints class describes the RootHints stored in a Cache file on a DNS Server. This class simplifies visualizing the containment of DNS objects, rather than representing a real object.
 ms.assetid: d6dbce97-cffd-476a-ba61-c070d8245f0a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WM\_ADSPROP\_NOTIFY\_FOREGROUND message
+title: WM_ADSPROP_NOTIFY_FOREGROUND message
 description: The WM\_ADSPROP\_NOTIFY\_FOREGROUND message is used internally by the notification object.
 audience: developer
 author: REDMOND\\markl

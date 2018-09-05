@@ -1,6 +1,6 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application when the controlling application of the Control Panel closes. The controlling application sends the message once for each dialog box that the application supports.
-title: CPL\_STOP message
+title: CPL_STOP message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

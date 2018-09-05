@@ -1,7 +1,7 @@
 ---
 Description: The get\_TransportProtocol method gets the transport protocol.
 ms.assetid: d270d6f4-bdcf-4cf4-970b-65f0be706171
-title: ITMedia::get\_TransportProtocol method
+title: ITMedia::get_TransportProtocol method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

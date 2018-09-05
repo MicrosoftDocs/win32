@@ -1,7 +1,7 @@
 ---
 Description: Enables two instances of the Media Session to share the same Protected Media Path (PMP) process.
 ms.assetid: a922c79b-d6c1-447d-b6fa-993970169a3f
-title: MF\_SESSION\_SERVER\_CONTEXT attribute
+title: MF_SESSION_SERVER_CONTEXT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

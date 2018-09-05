@@ -1,5 +1,5 @@
 ---
-title: WM\_HSCROLLCLIPBOARD message
+title: WM_HSCROLLCLIPBOARD message
 description: Sent to the clipboard owner by a clipboard viewer window.
 ms.assetid: 73558de6-a822-40f7-9eb2-47ea5afd4e6e
 keywords:

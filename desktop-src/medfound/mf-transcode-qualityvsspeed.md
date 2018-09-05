@@ -1,7 +1,7 @@
 ---
 Description: Specifies a number between 0 and 100 that indicates the tradeoff between encoding quality and encoding speed.
 ms.assetid: 872140e8-fd39-446c-a84f-1e04ea95076e
-title: MF\_TRANSCODE\_QUALITYVSSPEED attribute
+title: MF_TRANSCODE_QUALITYVSSPEED attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

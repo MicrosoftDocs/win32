@@ -1,5 +1,5 @@
 ---
-title: TB\_TRANSLATEACCELERATOR message
+title: TB_TRANSLATEACCELERATOR message
 description: Passes a keyboard message to the toolbar.
 ms.assetid: 936837a7-a6a7-4bde-8e4c-4ffeba55358d
 keywords:

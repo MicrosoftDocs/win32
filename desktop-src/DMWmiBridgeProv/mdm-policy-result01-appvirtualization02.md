@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_AppVirtualization02 class
+title: MDM_Policy_Result01_AppVirtualization02 class
 description: The MDM\_Policy\_Result01\_AppVirtualization02 class represents the available app virtualization policies.
 ms.assetid: fc28646f-f4b9-4648-a22d-b90d32ff888f
 keywords:

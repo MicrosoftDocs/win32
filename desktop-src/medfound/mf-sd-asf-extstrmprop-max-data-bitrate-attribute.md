@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum data bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: d20d374a-a259-4e89-8eeb-942bbe53e959
-title: MF\_SD\_ASF\_EXTSTRMPROP\_MAX\_DATA\_BITRATE attribute
+title: MF_SD_ASF_EXTSTRMPROP_MAX_DATA_BITRATE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

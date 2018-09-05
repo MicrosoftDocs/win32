@@ -1,5 +1,5 @@
 ---
-title: RestoreDefaults method of the Win32\_TSPermissionsSetting class
+title: RestoreDefaults method of the Win32_TSPermissionsSetting class
 description: Restores the default permission set values for the terminal.
 audience: developer
 author: REDMOND\\markl

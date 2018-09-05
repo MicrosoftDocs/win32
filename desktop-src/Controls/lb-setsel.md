@@ -1,5 +1,5 @@
 ---
-title: LB\_SETSEL message
+title: LB_SETSEL message
 description: Selects an item in a multiple-selection list box and, if necessary, scrolls the item into view.
 ms.assetid: 643783f2-0e00-4b79-b957-47938bb9f8da
 keywords:

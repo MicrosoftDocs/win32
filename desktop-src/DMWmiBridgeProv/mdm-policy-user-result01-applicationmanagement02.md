@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Result01\_ApplicationManagement02 class
+title: MDM_Policy_User_Result01_ApplicationManagement02 class
 description: The MDM\_Policy\_User\_Result01\_ApplicationManagement02 class represents the start policies available that are set on a per-user basis.
 ms.assetid: 62545af1-9c26-481e-9668-cd253cf592e7
 keywords:

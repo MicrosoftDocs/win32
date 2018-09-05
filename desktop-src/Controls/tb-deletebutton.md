@@ -1,5 +1,5 @@
 ---
-title: TB\_DELETEBUTTON message
+title: TB_DELETEBUTTON message
 description: Deletes a button from the toolbar.
 ms.assetid: 6ba569f0-c400-4c0d-bc9f-3a82bcef0360
 keywords:

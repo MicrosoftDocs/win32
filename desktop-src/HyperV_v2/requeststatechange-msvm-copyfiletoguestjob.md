@@ -1,7 +1,7 @@
 ---
 Description: Changes the state of the job.
 ms.assetid: 3B11CE45-63E4-43D1-AAF6-02F83C9CBB85
-title: Msvm\_CopyFileToGuestJob::RequestStateChange method
+title: Msvm_CopyFileToGuestJob::RequestStateChange method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

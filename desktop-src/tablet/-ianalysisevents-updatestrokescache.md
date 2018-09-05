@@ -1,7 +1,7 @@
 ---
 Description: Occurs before the IInkAnalyzer accesses stroke data.
 ms.assetid: fed46476-4531-4516-9375-d7b654efb3be
-title: '\_IAnalysisEvents::UpdateStrokesCache event'
+title: '_IAnalysisEvents::UpdateStrokesCache event'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

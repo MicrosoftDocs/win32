@@ -1,7 +1,7 @@
 ---
 Description: Occurs when the final analysis stage is finished.
 ms.assetid: 97318c2d-980e-436c-b97d-e064bace5bf0
-title: '\_IAnalysisEvents::Results event'
+title: '_IAnalysisEvents::Results event'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

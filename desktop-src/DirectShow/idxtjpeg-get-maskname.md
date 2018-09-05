@@ -1,7 +1,7 @@
 ---
 Description: The get\_MaskName method retrieves the name of a JPEG file to be used as the wipe mask.
 ms.assetid: b21913c0-4269-41f9-b2f0-ae69be9c0871
-title: IDxtJpeg::get\_MaskName method
+title: IDxtJpeg::get_MaskName method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

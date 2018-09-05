@@ -1,5 +1,5 @@
 ---
-title: TVN\_DELETEITEM notification code
+title: TVN_DELETEITEM notification code
 description: Notifies a tree-view control's parent window that an item is being deleted. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0d8801e0-02ae-40c9-8625-83d98b434d0a
 keywords:

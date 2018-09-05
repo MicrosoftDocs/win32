@@ -7,7 +7,7 @@ ms.assetid: c1dc9a91-76f9-4527-ad69-0323a9aef28a
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_EventConsumer class'
+title: '__EventConsumer class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: EmptySpecifiedLicenseServerList method of the Win32\_TerminalServiceSetting class
+title: EmptySpecifiedLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Removes all license servers from the list of specified license servers.
 audience: developer
 author: REDMOND\\markl

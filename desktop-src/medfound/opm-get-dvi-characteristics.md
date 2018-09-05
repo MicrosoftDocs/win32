@@ -1,7 +1,7 @@
 ---
 Description: Queries whether a digital video interface (DVI) connector supports DVI version 1.1 or later.
 ms.assetid: b6c450c0-e97f-472d-ae09-fa1e062aeb9e
-title: OPM\_GET\_DVI\_CHARACTERISTICS
+title: OPM_GET_DVI_CHARACTERISTICS
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

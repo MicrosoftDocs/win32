@@ -1,7 +1,7 @@
 ---
 Description: The encoding process is the reverse of the decoding process described in Decoding a CERT\_INFO Structure.
 ms.assetid: 5d3311e5-a2fb-46f7-aa76-f232b39b34fd
-title: Encoding a CERT\_INFO Structure
+title: Encoding a CERT_INFO Structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

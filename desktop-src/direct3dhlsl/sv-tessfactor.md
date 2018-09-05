@@ -1,5 +1,5 @@
 ---
-title: SV\_TessFactor
+title: SV_TessFactor
 description: Defines the tessellation amount on each edge of a patch.
 ms.assetid: 970ff744-da5b-4933-866c-dd38b85fb48d
 keywords:

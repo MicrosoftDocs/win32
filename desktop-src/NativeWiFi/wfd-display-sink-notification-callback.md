@@ -1,7 +1,7 @@
 ---
 Description: Defines the callback function&\#8212;which you implement in your app&\#8212;that was specified to the WFDStartDisplaySink function.
 ms.assetid: 0D4C00FD-4ED6-4F0F-BB72-0A1FCC05DB37
-title: WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK callback function
+title: WFD_DISPLAY_SINK_NOTIFICATION_CALLBACK callback function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

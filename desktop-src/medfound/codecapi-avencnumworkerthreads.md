@@ -1,7 +1,7 @@
 ---
 Description: Sets the number of worker threads used by a video encoder.
 ms.assetid: E490DF0C-97DE-4375-A4DB-17DA4E782E2D
-title: CODECAPI\_AVEncNumWorkerThreads property
+title: CODECAPI_AVEncNumWorkerThreads property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

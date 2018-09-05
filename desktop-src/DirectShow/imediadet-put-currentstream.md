@@ -1,7 +1,7 @@
 ---
 Description: The put\_CurrentStream method specifies the stream number for the media detector to use.
 ms.assetid: 01fb7ccf-9b45-434c-b574-f3027d85ea8a
-title: IMediaDet::put\_CurrentStream method
+title: IMediaDet::put_CurrentStream method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

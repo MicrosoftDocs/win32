@@ -1,7 +1,7 @@
 ---
 Description: Signals a DVD warning condition.
 ms.assetid: d7221e8a-089f-4eaf-a193-548709c14336
-title: EC\_DVD\_WARNING
+title: EC_DVD_WARNING
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

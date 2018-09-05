@@ -1,7 +1,7 @@
 ---
 Description: Describes the setting data for a virtual serial port.
 ms.assetid: 8b257bbf-495a-4eef-86a1-70e31e4a85a5
-title: Msvm\_SerialPortSettingData class
+title: Msvm_SerialPortSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

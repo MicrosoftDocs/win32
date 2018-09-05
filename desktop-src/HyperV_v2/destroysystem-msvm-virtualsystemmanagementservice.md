@@ -1,7 +1,7 @@
 ---
 Description: Removes the previously defined virtual machine from the management scope of the host system.
 ms.assetid: 16E6EEB0-CB29-4FFC-AEFF-872E099337FA
-title: DestroySystem method of the Msvm\_VirtualSystemManagementService class
+title: DestroySystem method of the Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: InterrogateService method of the Win32\_Service class
+title: InterrogateService method of the Win32_Service class
 description: Requests that the referenced service update its state to the service manager.
 audience: developer
 author: REDMOND\\markl

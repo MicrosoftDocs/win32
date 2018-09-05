@@ -1,5 +1,5 @@
 ---
-title: ncacn\_np attribute
+title: ncacn_np attribute
 description: The ncacn\_np keyword identifies named pipes as the protocol family for the endpoint.
 ms.assetid: 02961bb8-faf0-42e5-b134-dd2983e6d146
 keywords:

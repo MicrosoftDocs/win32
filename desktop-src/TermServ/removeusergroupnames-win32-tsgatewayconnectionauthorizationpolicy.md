@@ -1,5 +1,5 @@
 ---
-title: RemoveUserGroupNames method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: RemoveUserGroupNames method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Removes specified user group names from the existing user groups in the UserGroupNames property.
 audience: developer
 author: REDMOND\\markl

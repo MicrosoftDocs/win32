@@ -1,5 +1,5 @@
 ---
-title: TVM\_GETTOOLTIPS message
+title: TVM_GETTOOLTIPS message
 description: Retrieves the handle to the child tooltip control used by a tree-view control. You can send this message explicitly or by using the TreeView\_GetToolTips macro.
 ms.assetid: 65e8189e-ae3e-4268-b1ed-bb0d88f2cbe3
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_Authentication03 class
+title: MDM_VPNv2_Authentication03 class
 description: The MDM\_VPNv2\_Authentication03 class contains authentication information for the native VPN profile.
 ms.assetid: 931752a9-6de5-46d4-b9d9-2c59c49e8ed9
 keywords:

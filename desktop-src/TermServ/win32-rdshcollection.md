@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDSHCollection class
+title: Win32_RDSHCollection class
 description: Manages a collection of Remote Desktop Session Hosts.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: Defines the geometric aperture for a video media type.
 ms.assetid: a2489ba1-f322-4b63-a479-0d9879c30a8c
-title: MF\_MT\_GEOMETRIC\_APERTURE attribute
+title: MF_MT_GEOMETRIC_APERTURE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

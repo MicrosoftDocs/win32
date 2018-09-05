@@ -1,5 +1,5 @@
 ---
-title: IP\_SPECIFIC\_DATA structure
+title: IP_SPECIFIC_DATA structure
 description: The IP\_SPECIFIC DATA structure contains IP-specific data.
 ms.assetid: 68f2f4cc-141b-4f22-94ac-cc72e8dcca0a
 keywords:

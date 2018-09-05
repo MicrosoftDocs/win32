@@ -1,5 +1,5 @@
 ---
-title: BN\_UNHILITE notification code
+title: BN_UNHILITE notification code
 description: Sent when the highlight should be removed from a button.
 ms.assetid: 9839a55b-9e9c-4c9c-8e92-347007ea27be
 keywords:

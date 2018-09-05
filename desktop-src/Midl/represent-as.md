@@ -1,5 +1,5 @@
 ---
-title: represent\_as attribute
+title: represent_as attribute
 description: The \ represent\_as\ ACF attribute associates a named local type in the target language repr-type with a transfer type named-type that is transferred between client and server.
 ms.assetid: ae44d220-e8f3-47a3-8f5e-a2668ac75411
 keywords:

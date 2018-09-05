@@ -1,7 +1,7 @@
 ---
 Description: Defines a wireless LAN authentication algorithm.
 ms.assetid: ac4097df-46dc-4c64-b72a-7cb9dce8b418
-title: DOT11\_AUTH\_ALGORITHM enumeration
+title: DOT11_AUTH_ALGORITHM enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

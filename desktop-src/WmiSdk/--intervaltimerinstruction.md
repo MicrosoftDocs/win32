@@ -7,7 +7,7 @@ ms.assetid: 0895a743-a0dd-4833-a2bf-0196369e18b9
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_IntervalTimerInstruction class'
+title: '__IntervalTimerInstruction class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

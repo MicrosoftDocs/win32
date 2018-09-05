@@ -1,5 +1,5 @@
 ---
-title: Delete method of the Win32\_TSAccount class
+title: Delete method of the Win32_TSAccount class
 description: The Delete method deletes the specified user, group, or computer account.
 audience: developer
 author: REDMOND\\markl

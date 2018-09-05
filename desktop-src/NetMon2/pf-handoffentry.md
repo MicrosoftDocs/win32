@@ -1,7 +1,7 @@
 ---
 Description: The PF\_HANDOFFENTRY structure defines a protocol that Network Monitor adds to the handoff set of a parser.
 ms.assetid: c26bee6e-7dbf-4994-a0a7-a280cf4838be
-title: PF\_HANDOFFENTRY structure
+title: PF_HANDOFFENTRY structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSSystemInfo class
+title: Win32_TSSystemInfo class
 description: Represents the Centralized Publishing Server Information Service.
 audience: developer
 author: REDMOND\\markl

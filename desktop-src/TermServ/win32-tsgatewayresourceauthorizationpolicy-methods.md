@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayResourceAuthorizationPolicy Methods
+title: Win32_TSGatewayResourceAuthorizationPolicy Methods
 description: The Win32\_TSGatewayResourceAuthorizationPolicy class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: Notifies an application when an IME is about to close the status window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: d59fdf76-50e7-4a59-b1bd-a12cdb0026f6
-title: IMN\_CLOSESTATUSWINDOW notification code
+title: IMN_CLOSESTATUSWINDOW notification code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

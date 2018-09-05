@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: 7fa12de6-061c-40ff-98f2-8befd8c502b4
-title: Reset method of the Msvm\_KvpExchangeComponent class
+title: Reset method of the Msvm_KvpExchangeComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

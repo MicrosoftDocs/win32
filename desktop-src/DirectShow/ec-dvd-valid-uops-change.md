@@ -1,7 +1,7 @@
 ---
 Description: Signals that the available set of IDvdControl2 interface methods has changed.
 ms.assetid: dfe698b9-abe5-44a7-9844-f408f11fd0ce
-title: EC\_DVD\_VALID\_UOPS\_CHANGE
+title: EC_DVD_VALID_UOPS_CHANGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

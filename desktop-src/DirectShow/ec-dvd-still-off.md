@@ -1,7 +1,7 @@
 ---
 Description: Signals the end of any still (PGC, Cell, or VOBU).
 ms.assetid: 459464b1-3085-4ad7-8eb3-960cee89d395
-title: EC\_DVD\_STILL\_OFF
+title: EC_DVD_STILL_OFF
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

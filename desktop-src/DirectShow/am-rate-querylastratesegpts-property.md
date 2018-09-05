@@ -1,7 +1,7 @@
 ---
 Description: This property queries the decoder for the start time of the rate change that was queued most recently, regardless of its position in the rate-change queue.
 ms.assetid: 3c7006e7-48fd-4df8-b446-8ee2b024278b
-title: AM\_RATE\_QueryLastRateSegPTS Property
+title: AM_RATE_QueryLastRateSegPTS Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

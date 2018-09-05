@@ -1,5 +1,5 @@
 ---
-title: CHANGE\_LOG\_HEADER structure
+title: CHANGE_LOG_HEADER structure
 description: The change log header.
 ms.assetid: 24fee9a5-b073-474f-afd5-d81f66399936
 keywords:

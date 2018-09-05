@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_OPEN message
+title: MCIWNDM_OPEN message
 description: The MCIWNDM\_OPEN message opens an MCI device and associates it with an MCIWnd window.
 ms.assetid: ad1dfe0f-015b-45a9-ab88-cc0bdf0aa057
 keywords:

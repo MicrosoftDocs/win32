@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSPublishedApplication class
+title: Win32_RDMSPublishedApplication class
 description: Manages a published application.
 audience: developer
 author: REDMOND\\markl

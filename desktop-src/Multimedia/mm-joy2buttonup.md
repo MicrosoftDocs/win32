@@ -1,5 +1,5 @@
 ---
-title: MM\_JOY2BUTTONUP message
+title: MM_JOY2BUTTONUP message
 description: The MM\_JOY2BUTTONUP message notifies the window that has captured joystick JOYSTICKID2 that a button has been released.
 ms.assetid: da024466-7cd3-42ec-90a7-1468eb42841e
 keywords:

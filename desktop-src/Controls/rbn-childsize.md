@@ -1,5 +1,5 @@
 ---
-title: RBN\_CHILDSIZE notification code
+title: RBN_CHILDSIZE notification code
 description: Sent by a rebar control when a band's child window is resized. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ba64d21a-e568-4894-8007-be644ae4f54a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDCentralPublishedFarm class
+title: Win32_RDCentralPublishedFarm class
 description: The list of farms from which desktops or applications have been published.
 audience: developer
 author: REDMOND\\markl

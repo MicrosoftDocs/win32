@@ -1,7 +1,7 @@
 ---
 Description: The PKEY\_AudioEndpoint\_ControlPanelPageProvider property specifies the CLSID of the registered provider of the device-properties extension for the audio endpoint device.
 ms.assetid: 429a7572-b609-46fd-946e-ee34ddd6cc5e
-title: PKEY\_AudioEndpoint\_ControlPanelPageProvider
+title: PKEY_AudioEndpoint_ControlPanelPageProvider
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Memory management tracing event for a heap reallocation operation.
 ms.assetid: D8080B7B-CECC-40DB-B52A-2C3E4F04ABA9
-title: ETW\_HEAP\_EVENT\_REALLOC event
+title: ETW_HEAP_EVENT_REALLOC event
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: EM\_DISPLAYBAND message
+title: EM_DISPLAYBAND message
 description: Displays a portion of the contents of a rich edit control, as previously formatted for a device using the EM\_FORMATRANGE message.
 ms.assetid: 845513d0-f32b-418c-8255-a5caf2d56215
 keywords:

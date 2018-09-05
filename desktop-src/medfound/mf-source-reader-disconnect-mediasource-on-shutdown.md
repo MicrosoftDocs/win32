@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the Source Reader shuts down the media source.
 ms.assetid: c85f5994-8005-48c9-8a05-0316f48f4142
-title: MF\_SOURCE\_READER\_DISCONNECT\_MEDIASOURCE\_ON\_SHUTDOWN attribute
+title: MF_SOURCE_READER_DISCONNECT_MEDIASOURCE_ON_SHUTDOWN attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

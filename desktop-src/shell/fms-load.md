@@ -1,6 +1,6 @@
 ---
 Description: Contains information that File Manager uses to add a custom menu provided by a File Manager extension DLL. The structure also provides a delta value that the extension DLL can use to manipulate the custom menu after File Manager has loaded the menu.
-title: FMS\_LOAD structure
+title: FMS_LOAD structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

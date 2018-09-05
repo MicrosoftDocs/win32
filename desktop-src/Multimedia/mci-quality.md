@@ -1,5 +1,5 @@
 ---
-title: MCI\_QUALITY command
+title: MCI_QUALITY command
 description: The MCI\_QUALITY command defines a custom quality level for audio, video, or still image data compression. Digital-video devices recognize this command.
 ms.assetid: 91ad9704-0089-4b1f-b0f6-919ab5fd84e0
 keywords:

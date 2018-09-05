@@ -1,5 +1,5 @@
 ---
-title: vs\_3\_0
+title: vs_3_0
 description: A programmable vertex shader is made up of a set of instructions that operate on vertex data. Registers transfer data in and out of the ALU. Additional control can be applied to modify the instruction, the results, or what data gets written out.
 ms.assetid: 0f40f946-3525-4203-bfe2-1cd941d8e2ec
 ms.technology: desktop

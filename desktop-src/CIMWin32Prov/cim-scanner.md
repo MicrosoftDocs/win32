@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_Scanner class
+title: CIM_Scanner class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

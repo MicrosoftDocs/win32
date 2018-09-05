@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDSHServer class
+title: Win32_RDSHServer class
 description: Manages a Remote Desktop Session Host (RDSH) server.
 audience: developer
 author: REDMOND\\markl

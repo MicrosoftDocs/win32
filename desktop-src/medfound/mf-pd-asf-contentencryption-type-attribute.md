@@ -1,7 +1,7 @@
 ---
 Description: Specifies the type of protection mechanism used in an Advanced Systems Format (ASF) file.
 ms.assetid: 91ceb610-6ff4-4133-beab-6debb94eec2c
-title: MF\_PD\_ASF\_CONTENTENCRYPTION\_TYPE attribute
+title: MF_PD_ASF_CONTENTENCRYPTION_TYPE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

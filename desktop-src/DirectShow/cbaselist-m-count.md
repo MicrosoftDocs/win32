@@ -1,7 +1,7 @@
 ---
 Description: Number of items in the list.
 ms.assetid: 61ef047d-c7c7-4ec3-8853-7e2e6311fa36
-title: CBaseList::m\_Count member
+title: CBaseList::m_Count member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

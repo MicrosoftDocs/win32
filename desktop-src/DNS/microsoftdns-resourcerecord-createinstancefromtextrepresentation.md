@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromTextRepresentation method of the MicrosoftDNS\_ResourceRecord class
+title: CreateInstanceFromTextRepresentation method of the MicrosoftDNS_ResourceRecord class
 description: The CreateInstanceFromTextRepresentation method instantiates a MicrosoftDNS\_ResourceRecord object.
 ms.assetid: 19600a9a-f75d-40ad-98e5-f81465d10f79
 keywords:

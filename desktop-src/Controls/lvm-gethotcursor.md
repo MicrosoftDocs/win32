@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETHOTCURSOR message
+title: LVM_GETHOTCURSOR message
 description: Retrieves the HCURSOR value used when the pointer is over an item while hot tracking is enabled. You can send this message explicitly or use the ListView\_GetHotCursor macro.
 ms.assetid: 064d04b2-d74e-4a80-aec6-97a3c53fc4fb
 keywords:

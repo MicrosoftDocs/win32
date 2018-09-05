@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the next sample in the allocator's list of samples.
 ms.assetid: a3a6c812-fc9d-4856-b33c-f60453f98909
-title: CMediaSample::m\_pNext member
+title: CMediaSample::m_pNext member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

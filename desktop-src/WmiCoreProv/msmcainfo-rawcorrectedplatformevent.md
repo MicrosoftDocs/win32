@@ -1,7 +1,7 @@
 ---
 Description: Contains a Corrected Platform Event (CPE). This class is available only in 64-bit Windows systems.
 ms.assetid: b24a390e-293d-4dd4-b747-33c298a5d45f
-title: MSMCAInfo\_RawCorrectedPlatformEvent class
+title: MSMCAInfo_RawCorrectedPlatformEvent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: FileAssociations method of the Win32\_TSApplicationFileExtensions class
+title: FileAssociations method of the Win32_TSApplicationFileExtensions class
 description: Scans the registry to get the current file associations for an application.
 audience: developer
 author: REDMOND\\markl

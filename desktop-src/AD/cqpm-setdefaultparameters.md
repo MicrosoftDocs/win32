@@ -1,5 +1,5 @@
 ---
-title: CQPM\_SETDEFAULTPARAMETERS message
+title: CQPM_SETDEFAULTPARAMETERS message
 description: Sent to the CQPageProc callback function of a query form extension page to set alternate default parameters for the page.
 audience: developer
 author: REDMOND\\markl

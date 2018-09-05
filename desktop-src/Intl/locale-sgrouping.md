@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SGROUPING
 ms.assetid: 3f07ecae-38f4-477b-8b23-a9cd87613c24
-title: LOCALE\_SGROUPING
+title: LOCALE_SGROUPING
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_RTType class
+title: Modify method of the MicrosoftDNS_RTType class
 description: The Modify method updates a Route Through (RT) Resource Record.
 ms.assetid: 80053ae6-8ce8-4aa1-be2b-aac9daa5dae3
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: CIM\_ProcessIndication is an abstract superclass for specialized indication classes, that address specific changes and alerts published by providers and instrumentation.
 ms.assetid: b321b5ec-4868-4149-99ad-4596fd49c39b
-title: CIM\_ProcessIndication class
+title: CIM_ProcessIndication class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

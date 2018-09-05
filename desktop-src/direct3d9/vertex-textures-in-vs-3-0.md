@@ -1,7 +1,7 @@
 ---
 Description: The vertex shader 3.0 model supports texture lookup in the vertex shader using the texldl - vs texture load statement.
 ms.assetid: 595cb5c0-da12-4fe9-944c-a61d8ed990b4
-title: Vertex Textures in vs\_3\_0 (DirectX HLSL)
+title: Vertex Textures in vs_3_0 (DirectX HLSL)
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

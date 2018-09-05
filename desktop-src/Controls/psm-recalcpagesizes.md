@@ -1,5 +1,5 @@
 ---
-title: PSM\_RECALCPAGESIZES message
+title: PSM_RECALCPAGESIZES message
 description: Recalculates the page size of a standard or wizard property sheet after pages have been added or removed. You can send this message explicitly or use the PropSheet\_RecalcPageSizes macro.
 ms.assetid: 42257ea3-0471-4c67-adcd-01cd2669a51e
 keywords:

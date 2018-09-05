@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether the contents of the volume are accessible from Windows.
 ms.assetid: 54b2a41b-11c6-40ec-97fa-74996c15554e
-title: GetLockStatus method of the Win32\_EncryptableVolume class
+title: GetLockStatus method of the Win32_EncryptableVolume class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: The get\_StartPort method gets the 16-bit port value for the first port.
 ms.assetid: 203b51ea-8e0c-47d2-b267-36a0bf3bff72
-title: ITMedia::get\_StartPort method
+title: ITMedia::get_StartPort method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: WMT\_PROP\_DATATYPE
+title: WMT_PROP_DATATYPE
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: d86cbadd-16da-448d-bda9-db1219db3cf9
 keywords:

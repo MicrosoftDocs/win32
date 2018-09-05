@@ -1,7 +1,7 @@
 ---
 Description: Specifies the device conformance template for a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: e0bfb393-c8de-47cf-b80a-b0d88722e815
-title: MF\_SD\_ASF\_METADATA\_DEVICE\_CONFORMANCE\_TEMPLATE attribute
+title: MF_SD_ASF_METADATA_DEVICE_CONFORMANCE_TEMPLATE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

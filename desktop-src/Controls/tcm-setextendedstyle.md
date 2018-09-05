@@ -1,5 +1,5 @@
 ---
-title: TCM\_SETEXTENDEDSTYLE message
+title: TCM_SETEXTENDEDSTYLE message
 description: Sets the extended styles that the tab control will use. You can send this message explicitly or by using the TabCtrl\_SetExtendedStyle macro.
 ms.assetid: 96ccebe1-2836-4198-8cd7-858401562c21
 keywords:

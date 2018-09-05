@@ -1,7 +1,7 @@
 ---
 Description: Describes the capabilities of a CIM\_MetricService object.
 ms.assetid: 3b4da02f-5298-46d4-876c-404baca38c03
-title: CIM\_MetricServiceCapabilities class
+title: CIM_MetricServiceCapabilities class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

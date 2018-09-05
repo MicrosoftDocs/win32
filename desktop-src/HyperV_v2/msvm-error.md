@@ -1,7 +1,7 @@
 ---
 Description: Contains information about the severity, cause, recommended actions, and other data related to the failure of a CIM Operation.
 ms.assetid: 128B9ECE-D26C-4A7D-BFB7-69CD986B0DBA
-title: Msvm\_Error class
+title: Msvm_Error class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

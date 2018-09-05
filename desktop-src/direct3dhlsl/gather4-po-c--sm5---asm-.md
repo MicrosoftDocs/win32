@@ -1,5 +1,5 @@
 ---
-title: gather4\_po\_c (sm5 - asm)
+title: gather4_po_c (sm5 - asm)
 description: Behaves the same as gather4\_po, except performs comparison on texels, similar to sample\_c.
 ms.assetid: B128EEF3-3440-4F00-9792-20FB1AE075E9
 ms.technology: desktop

@@ -1,5 +1,5 @@
 ---
-title: TF\_ES\_\ Constants
+title: TF_ES_ Constants
 description: The following are constants used by the ITfContext RequestEditSession method.
 ms.assetid: 5498329f-3302-4f66-bdec-cab7db0cdc0e
 topic_type:

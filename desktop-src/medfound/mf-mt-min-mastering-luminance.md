@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum luminance of the display on which the content was authored, in Nits. This attribute has the same semantics as min\_display\_mastering\_luminance as defined in the CEA-861.3 standard.
 ms.assetid: 222EBA58-AEF6-4E59-BB5F-64A21A2C0E3C
-title: MF\_MT\_MIN\_MASTERING\_LUMINANCE attribute
+title: MF_MT_MIN_MASTERING_LUMINANCE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

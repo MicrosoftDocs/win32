@@ -1,5 +1,5 @@
 ---
-title: DRM\_DRMHeader\_KeyID
+title: DRM_DRMHeader_KeyID
 description: The DRM\_DRMHeader\_KeyID attribute contains the key ID for the file.
 ms.assetid: cf9fe829-8473-4dd5-9a99-48b709fec0d8
 keywords:

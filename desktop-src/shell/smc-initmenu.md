@@ -1,6 +1,6 @@
 ---
 Description: Notifies you to initialize the menu band.
-title: SMC\_INITMENU message
+title: SMC_INITMENU message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

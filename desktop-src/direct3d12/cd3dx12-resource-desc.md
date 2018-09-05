@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_RESOURCE\_DESC structure
+title: CD3DX12_RESOURCE_DESC structure
 description: A helper structure to enable easy initialization of a D3D12\_RESOURCE\_DESC structure.
 ms.assetid: F18D41BE-8AEF-444E-AC8B-EC57C63BF083
 keywords:

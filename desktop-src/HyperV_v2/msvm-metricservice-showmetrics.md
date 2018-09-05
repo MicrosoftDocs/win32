@@ -1,7 +1,7 @@
 ---
 Description: Shows the specified metrics.
 ms.assetid: 3716b5e6-b360-4719-a0f3-60b8d39deb31
-title: ShowMetrics method of the Msvm\_MetricService class
+title: ShowMetrics method of the Msvm_MetricService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

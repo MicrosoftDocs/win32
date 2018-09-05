@@ -1,7 +1,7 @@
 ---
 Description: The SPFILENOTIFY\_FILEEXTRACTED notification is sent to a callback routine by SetupIterateCabinet to indicate either that a file was extracted from the cabinet or that an extraction failed and cabinet processing has been canceled.
 ms.assetid: 70ffe06c-e72d-4bb8-a13c-e2946ff72fa6
-title: SPFILENOTIFY\_FILEEXTRACTED message
+title: SPFILENOTIFY_FILEEXTRACTED message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

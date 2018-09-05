@@ -1,7 +1,7 @@
 ---
 Description: Represents one head of a CIM\_DisplayController object.
 ms.assetid: 2bb034d9-d1df-4cc8-a6a8-b6ad7289f582
-title: CIM\_VideoHead class
+title: CIM_VideoHead class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: ICM\_DECOMPRESSEX\_BEGIN message
+title: ICM_DECOMPRESSEX_BEGIN message
 description: The ICM\_DECOMPRESSEX\_BEGIN message notifies a video compression driver to prepare to decompress data.
 ms.assetid: 35298274-91b5-4df0-b4b0-4a71d6a49990
 keywords:

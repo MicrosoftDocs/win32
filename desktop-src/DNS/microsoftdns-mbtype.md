@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_MBType class
+title: MicrosoftDNS_MBType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mailbox (MB) resource record.
 ms.assetid: b8f3b106-58f4-44b8-b2db-b00f1a495641
 keywords:

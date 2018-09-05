@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetMetadataQueryWriter method.
 ms.assetid: 64d2c6d8-f1dd-4397-8487-4d23c69aea82
-title: IWICFastMetadataEncoder\_GetMetadataQueryWriter\_Proxy function
+title: IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: Add method of the Win32\_TSGatewayRADIUSServer class
+title: Add method of the Win32_TSGatewayRADIUSServer class
 description: Adds a new Remote Authentication Dial-In User Service (RADIUS) server.
 audience: developer
 author: REDMOND\\markl

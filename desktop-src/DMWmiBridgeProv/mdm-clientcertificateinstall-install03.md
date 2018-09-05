@@ -1,5 +1,5 @@
 ---
-title: MDM\_ClientCertificateInstall\_Install03 class
+title: MDM_ClientCertificateInstall_Install03 class
 description: The MDM\_ClientCertificateInstall\_Install03 class enables the enterprise to set the installation of client certificates.
 ms.assetid: 0083e54c-e621-47da-a20d-17c8bbf7dd3a
 keywords:

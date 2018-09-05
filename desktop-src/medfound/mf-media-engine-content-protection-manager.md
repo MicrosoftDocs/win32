@@ -1,7 +1,7 @@
 ---
 Description: Enables the Media Engine to play protected content.
 ms.assetid: F6F17EC7-6553-4127-B691-C20C945DD4D8
-title: MF\_MEDIA\_ENGINE\_CONTENT\_PROTECTION\_MANAGER attribute
+title: MF_MEDIA_ENGINE_CONTENT_PROTECTION_MANAGER attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Internet schemes supported by WinHTTP.
 ms.assetid: 31e45879-807e-4dd5-9f99-94a46011e55e
-title: INTERNET\_SCHEME
+title: INTERNET_SCHEME
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MB\_GetString function
+title: MB_GetString function
 description: Returns strings for standard message box buttons.
 ms.assetid: D2AF238D-F5A8-477D-BF47-0F5D4D68B27E
 keywords:

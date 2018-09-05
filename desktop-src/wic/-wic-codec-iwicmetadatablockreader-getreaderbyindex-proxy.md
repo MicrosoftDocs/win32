@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetReaderByIndex method.
 ms.assetid: 9d70b339-9772-4c13-949e-109f354f9986
-title: IWICMetadataBlockReader\_GetReaderByIndex\_Proxy function
+title: IWICMetadataBlockReader_GetReaderByIndex_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,6 +1,6 @@
 ---
 Description: Registers or unregisters an autohide appbar for a given edge of the screen. This message extends ABM\_SETAUTOHIDEBAR by enabling you to specify a particular monitor, for use in multiple monitor situations.
-title: ABM\_SETAUTOHIDEBAREX message
+title: ABM_SETAUTOHIDEBAREX message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

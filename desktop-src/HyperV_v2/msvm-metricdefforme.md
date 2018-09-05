@@ -1,7 +1,7 @@
 ---
 Description: Defines the association between an Msvm\_BaseMetricDefinition and a CIM\_ManagedElement to define metrics for the latter. The metrics definition is given context by the ManagedElement, which is why the definition is dependent on the element.
 ms.assetid: 528d9b1a-089d-48ae-b5a6-40bc9d09191c
-title: Msvm\_MetricDefForME class
+title: Msvm_MetricDefForME class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

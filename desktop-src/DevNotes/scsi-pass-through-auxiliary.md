@@ -1,7 +1,7 @@
 ---
 Description: Contains auxiliary information used for Initiator, Target, LUN, and Queue (I\_T\_L\_Q) nexus and multi- data-sequence SCSI pass-through operations.
 ms.assetid: 795EED23-D45C-4024-81F4-3514FDA09DEA
-title: SCSI\_PASS\_THROUGH\_AUXILIARY structure
+title: SCSI_PASS_THROUGH_AUXILIARY structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

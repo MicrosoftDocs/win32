@@ -1,7 +1,7 @@
 ---
 Description: Sets a callback that creates the PMP Media Session during source resolution.
 ms.assetid: 7277C5E0-BB91-4EEA-9529-64E66D179CDC
-title: MFPKEY\_PMP\_Creation\_Callback property
+title: MFPKEY_PMP_Creation_Callback property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

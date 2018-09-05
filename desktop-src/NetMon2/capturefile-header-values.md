@@ -1,7 +1,7 @@
 ---
 Description: Defines the Network Monitor header file structure.
 ms.assetid: 944980c9-ebaa-4042-a112-d32b7a28ba21
-title: CAPTUREFILE\_HEADER\_VALUES structure
+title: CAPTUREFILE_HEADER_VALUES structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

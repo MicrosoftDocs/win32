@@ -1,7 +1,7 @@
 ---
 Description: Identifies the object-related security information being set or queried.
 ms.assetid: e3e8b35d-9d18-4611-a898-72ca13e40d33
-title: SECURITY\_INFORMATION
+title: SECURITY_INFORMATION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

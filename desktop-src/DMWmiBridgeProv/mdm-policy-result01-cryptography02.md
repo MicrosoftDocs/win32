@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Cryptography02 class
+title: MDM_Policy_Result01_Cryptography02 class
 description: The MDM\_Policy\_Result01\_Cryptography02 class represents policies related to cryptography.
 ms.assetid: 3ab41bb4-920d-4647-8f05-f6938f51c409
 keywords:

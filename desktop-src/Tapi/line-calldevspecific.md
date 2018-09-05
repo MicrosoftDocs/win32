@@ -1,7 +1,7 @@
 ---
 Description: The TSPI LINE\_CALLDEVSPECIFIC message is sent to the LINEEVENT callback function to notify TAPI about device-specific events occurring on a call.
 ms.assetid: accd753a-3be0-4c7d-bbc7-d294d1381144
-title: LINE\_CALLDEVSPECIFIC message
+title: LINE_CALLDEVSPECIFIC message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

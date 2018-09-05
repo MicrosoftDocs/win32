@@ -1,7 +1,7 @@
 ---
 Description: Specifies the MIME type of a byte stream.
 ms.assetid: bcf86ece-2673-4ed8-98fd-cd0e2154b4a8
-title: MF\_BYTESTREAM\_CONTENT\_TYPE attribute
+title: MF_BYTESTREAM_CONTENT_TYPE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

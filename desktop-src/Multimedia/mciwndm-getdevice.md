@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETDEVICE message
+title: MCIWNDM_GETDEVICE message
 description: The MCIWNDM\_GETDEVICE message retrieves the name of the currently open MCI device. You can send this message explicitly or by using the MCIWndGetDevice macro.
 ms.assetid: e69a73a6-a927-4536-98c7-ee7d5b16668a
 keywords:
