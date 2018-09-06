@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLegacyPlugin class
+title: Win32_TSLegacyPlugin class
 description: Represents a Remote Desktop server that the built-in RemoteApp and Desktop Connection Management Service plug-ins will query for RemoteApp programs.
 audience: developer
 author: REDMOND\\markl

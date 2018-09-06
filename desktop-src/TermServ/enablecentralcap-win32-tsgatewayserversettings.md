@@ -1,5 +1,5 @@
 ---
-title: EnableCentralCAP method of the Win32\_TSGatewayServerSettings class
+title: EnableCentralCAP method of the Win32_TSGatewayServerSettings class
 description: Controls the CentralCAPEnabled property, which controls the Remote Desktop Services connection authorization policies (RD \ 160;CAPs) for the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_RemoteShell02 class
+title: MDM_Policy_Config01_RemoteShell02 class
 description: The MDM\_Policy\_Config01\_RemoteShell02 class configures the remote shell policies.
 ms.assetid: 7026fadb-ec6a-4696-a24c-1b1e071b94b0
 keywords:

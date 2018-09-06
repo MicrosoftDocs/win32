@@ -7,7 +7,7 @@ ms.assetid: 7cb1ef3b-3b0a-4f72-96de-862022fd6db8
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_EventQueueOverflowEvent class'
+title: '__EventQueueOverflowEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

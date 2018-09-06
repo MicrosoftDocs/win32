@@ -1,5 +1,5 @@
 ---
-title: Win32\_RdvhManagement Methods
+title: Win32_RdvhManagement Methods
 description: The Win32\_RdvhManagement Methods class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

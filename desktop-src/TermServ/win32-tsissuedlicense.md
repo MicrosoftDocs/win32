@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSIssuedLicense class
+title: Win32_TSIssuedLicense class
 description: Describes instances of Remote Desktop Services Per Device client access licenses (RDS \ 160;Per Device CALs) that are issued from a Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: HDM\_SETITEM message
+title: HDM_SETITEM message
 description: Sets the attributes of the specified item in a header control. You can send this message explicitly or use the Header\_SetItem macro.
 ms.assetid: c8f0d526-3ebe-48c5-8aea-ea3703e2d983
 keywords:

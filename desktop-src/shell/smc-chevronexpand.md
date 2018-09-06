@@ -1,6 +1,6 @@
 ---
 Description: The user has clicked a chevron to expand the item specified by the accompanying SMDATA structure.
-title: SMC\_CHEVRONEXPAND message
+title: SMC_CHEVRONEXPAND message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

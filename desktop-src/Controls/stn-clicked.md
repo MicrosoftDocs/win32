@@ -1,5 +1,5 @@
 ---
-title: STN\_CLICKED notification code
+title: STN_CLICKED notification code
 description: The STN\_CLICKED notification code is sent when the user clicks a static control that has the SS\_NOTIFY style. The parent window of the control receives this notification code through the WM\_COMMAND message.
 ms.assetid: deeac9e9-c23e-4ffb-a1d7-18782efb7a5c
 keywords:

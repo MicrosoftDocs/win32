@@ -1,7 +1,7 @@
 ---
 Description: Allows the TPM owner to enable or resume the TPM.
 ms.assetid: 9fb0b0aa-a569-4c0c-859e-8640480dbb3e
-title: Enable method of the Win32\_Tpm class
+title: Enable method of the Win32_Tpm class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

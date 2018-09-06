@@ -1,7 +1,7 @@
 ---
 Description: The PARTICIPANT\_EVENT enum describes participant events.
 ms.assetid: 678165f2-ad0b-415f-86bf-8c4e3bd8d793
-title: PARTICIPANT\_EVENT enumeration
+title: PARTICIPANT_EVENT enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

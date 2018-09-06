@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSApplicationFileExtensions class
+title: Win32_TSApplicationFileExtensions class
 description: The file name extensions that are handled by an application on a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl

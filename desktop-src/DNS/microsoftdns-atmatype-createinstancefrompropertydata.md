@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_ATMAType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_ATMAType class
 description: The CreateInstanceFromPropertyData method instantiates an ATM Address to Name (ATMA) Resource Record.
 ms.assetid: 0f3270fe-40d0-43f7-b4fc-95d96f9dd9f9
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the filter that created this pin.
 ms.assetid: e7939bce-d832-45e6-94fd-2f5e07792eef
-title: CTransInPlaceOutputPin::m\_pTIPFilter member
+title: CTransInPlaceOutputPin::m_pTIPFilter member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

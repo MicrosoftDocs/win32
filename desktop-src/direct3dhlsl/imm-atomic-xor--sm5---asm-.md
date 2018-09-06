@@ -1,5 +1,5 @@
 ---
-title: imm\_atomic\_xor (sm5 - asm)
+title: imm_atomic_xor (sm5 - asm)
 description: Immediate atomic bitwise XOR to memory. Returns value in memory before the XOR.
 ms.assetid: 310037F6-F048-4DE1-9A5C-76C919D9E68B
 ms.technology: desktop

@@ -1,7 +1,7 @@
 ---
 Description: Sent when an application uses the WM ASF Writer filter to index Windows Media Video files.
 ms.assetid: e5f69aa1-f9b0-4403-acab-25d1f971a876
-title: EC\_WMT\_INDEX\_EVENT
+title: EC_WMT_INDEX_EVENT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

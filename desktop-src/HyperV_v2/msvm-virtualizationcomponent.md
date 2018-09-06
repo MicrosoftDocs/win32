@@ -1,7 +1,7 @@
 ---
 Description: Represents a service of the Microsoft Windows Hyper-V platform.
 ms.assetid: 309EFE4C-EEA4-454C-943D-CBF99D64FE15
-title: Msvm\_VirtualizationComponent class
+title: Msvm_VirtualizationComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

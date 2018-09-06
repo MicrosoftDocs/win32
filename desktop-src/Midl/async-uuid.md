@@ -1,5 +1,5 @@
 ---
-title: async\_uuid attribute
+title: async_uuid attribute
 description: The \ async\_uuid\ interface attribute directs the MIDL compiler to define both synchronous and asynchronous versions of a COM interface.
 ms.assetid: 1c20eaa1-78b5-4463-a8c1-d81e55d5c618
 keywords:

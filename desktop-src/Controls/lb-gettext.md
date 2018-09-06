@@ -1,5 +1,5 @@
 ---
-title: LB\_GETTEXT message
+title: LB_GETTEXT message
 description: Gets a string from a list box.
 ms.assetid: 6bf7ec3b-237b-4668-9493-40c098a32428
 keywords:

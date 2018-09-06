@@ -1,5 +1,5 @@
 ---
-title: PROTOCOL\_SPECIFIC\_DATA structure
+title: PROTOCOL_SPECIFIC_DATA structure
 description: The PROTOCOL\_SPECIFIC\_DATA structure contains memory reserved for data specific to a particular routing protocol.
 ms.assetid: b6c3a342-4726-4f7b-9511-dbe1393faf98
 keywords:

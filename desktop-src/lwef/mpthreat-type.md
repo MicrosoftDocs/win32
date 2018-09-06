@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT\_TYPE enumeration
+title: MPTHREAT_TYPE enumeration
 description: Possible threat types.
 ms.assetid: 56061F12-AA89-4203-BED4-99613E24002A
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the third parameter (P3) byte from the application protocol data unit (APDU).
 ms.assetid: 5fe90686-f542-42be-91ed-6600eaee3e7b
-title: ISCardCmd::get\_P3 method
+title: ISCardCmd::get_P3 method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

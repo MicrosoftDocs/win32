@@ -1,7 +1,7 @@
 ---
 Description: Specifies how to create a custom mixer for the enhanced video renderer (EVR).
 ms.assetid: 00e65718-885f-4e1f-9b06-66c7f5786851
-title: MF\_ACTIVATE\_CUSTOM\_VIDEO\_MIXER\_FLAGS attribute
+title: MF_ACTIVATE_CUSTOM_VIDEO_MIXER_FLAGS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

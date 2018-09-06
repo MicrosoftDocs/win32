@@ -1,7 +1,7 @@
 ---
 Description: Contains the serial number of a USB device. It is used by the IOCTL\_STORAGE\_GET\_MEDIA\_SERIAL\_NUMBER control code.
 ms.assetid: a7df4528-a3b7-4ffa-b595-7ac918371582
-title: MEDIA\_SERIAL\_NUMBER\_DATA structure
+title: MEDIA_SERIAL_NUMBER_DATA structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1653,6 +1653,7 @@
 #### [MEConnectStart](meconnectstart.md)
 #### [MEContentProtectionMessage](mecontentprotectionmessage.md)
 #### [MEContentProtectionMetadata](mecontentprotectionmetadata.md)
+#### [MEDeviceStreamCreated](medevicestreamcreated.md)
 #### [MEEnablerCompleted](meenablercompleted.md)
 #### [MEEnablerProgress](meenablerprogress.md)
 #### [MEEncodingParameters](meencodingparameters.md)

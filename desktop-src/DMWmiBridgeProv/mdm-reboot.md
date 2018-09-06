@@ -1,5 +1,5 @@
 ---
-title: MDM\_Reboot class
+title: MDM_Reboot class
 description: The MDM\_Rebootclass is used to configure reboot settings.
 ms.assetid: 876ba854-1c26-49cf-915d-194be9f9c1d4
 keywords:

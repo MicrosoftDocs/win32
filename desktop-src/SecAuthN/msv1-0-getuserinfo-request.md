@@ -1,7 +1,7 @@
 ---
 Description: The MSV1\_0\_GETUSERINFO\_REQUEST structure is obsolete.
 ms.assetid: c5a668d4-f22b-4992-acde-96dc21f033c5
-title: MSV1\_0\_GETUSERINFO\_REQUEST
+title: MSV1_0_GETUSERINFO_REQUEST
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

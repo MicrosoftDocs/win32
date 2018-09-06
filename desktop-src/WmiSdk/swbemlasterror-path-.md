@@ -7,7 +7,7 @@ ms.assetid: 5472e463-54cb-4ba2-8c00-08b70013e38d
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemLastError.Path\_ property
+title: SWbemLastError.Path_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

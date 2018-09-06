@@ -1,7 +1,7 @@
 ---
 Description: Specifies how the Voice Capture DSP performs microphone array processing.
 ms.assetid: 5e04fe50-d764-4497-9999-37279e156204
-title: MFPKEY\_WMAAECMA\_FEATR\_MICARR\_MODE Property
+title: MFPKEY_WMAAECMA_FEATR_MICARR_MODE Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

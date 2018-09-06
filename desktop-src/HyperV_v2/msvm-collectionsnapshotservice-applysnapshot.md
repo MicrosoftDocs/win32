@@ -1,7 +1,7 @@
 ---
 Description: Applies a snapshot collection to the collection of virtual computer system.
 ms.assetid: c76c552a-ae07-4dab-a938-740d77447a53
-title: ApplySnapshot method of the Msvm\_CollectionSnapshotService class
+title: ApplySnapshot method of the Msvm_CollectionSnapshotService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

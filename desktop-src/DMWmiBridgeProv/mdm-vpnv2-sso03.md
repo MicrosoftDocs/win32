@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_Sso03 class
+title: MDM_VPNv2_Sso03 class
 description: The MDM\_VPNv2\_Sso03 class can be used to select a certificate different from the VPN Authentication certificate for the Kerberos Authentication in the case of Device Compliance.
 ms.assetid: 179b6b69-1319-4310-aebc-f61550af6c77
 keywords:

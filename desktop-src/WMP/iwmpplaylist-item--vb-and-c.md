@@ -1,5 +1,5 @@
 ---
-title: IWMPPlaylist.Item (VB and C\ )
+title: IWMPPlaylist.Item (VB and C )
 description: The Item property (the get\_Item method in C\ ) gets an interface to the media item at the specified index.
 ms.assetid: 874663e2-0b89-4ef7-9d4a-3a334482b352
 keywords:

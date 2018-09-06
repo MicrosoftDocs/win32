@@ -1,5 +1,5 @@
 ---
-title: Win32\_WinSAT class
+title: Win32_WinSAT class
 description: Defines summary assessment information for the most recent formal assessment.
 ms.assetid: adf4de42-9dfd-46a7-ae75-3bbcfd15dd68
 keywords:

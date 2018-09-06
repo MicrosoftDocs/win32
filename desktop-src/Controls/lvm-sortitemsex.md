@@ -1,5 +1,5 @@
 ---
-title: LVM\_SORTITEMSEX message
+title: LVM_SORTITEMSEX message
 description: Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can send this message explicitly or by using the ListView\_SortItemsEx macro.
 ms.assetid: eab2f6f5-68fd-4cb6-acf4-cb267ee40fdc
 keywords:

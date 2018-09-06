@@ -1,7 +1,7 @@
 ---
 Description: The system broadcasts the DBT\_DEVICEREMOVECOMPLETE device event when a device or piece of media has been physically removed.
 ms.assetid: e25d35b9-f8f1-4850-996c-e1cb393cca66
-title: DBT\_DEVICEREMOVECOMPLETE event
+title: DBT_DEVICEREMOVECOMPLETE event
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

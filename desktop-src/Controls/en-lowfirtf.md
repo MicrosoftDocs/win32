@@ -1,5 +1,5 @@
 ---
-title: EN\_LOWFIRTF notification code
+title: EN_LOWFIRTF notification code
 description: Notifies the parent window of a Microsoft Rich Edit control that an unsupported Rich Text Format (RTF) keyword was received. A Rich Edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 3b18320b-ebc3-44f2-a93c-e967a028c522
 keywords:

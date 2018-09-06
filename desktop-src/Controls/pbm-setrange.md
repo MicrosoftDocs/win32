@@ -1,5 +1,5 @@
 ---
-title: PBM\_SETRANGE message
+title: PBM_SETRANGE message
 description: Sets the minimum and maximum values for a progress bar and redraws the bar to reflect the new range.
 ms.assetid: 251eb8c5-bedc-4e2c-90c2-e1626cb00420
 keywords:

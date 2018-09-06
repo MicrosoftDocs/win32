@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT\_DETECTION enumeration
+title: MPTHREAT_DETECTION enumeration
 description: Possible known bad threat detection types.
 ms.assetid: 14FCA9BD-A9A1-488B-B8E8-88DE0DF18F27
 keywords:

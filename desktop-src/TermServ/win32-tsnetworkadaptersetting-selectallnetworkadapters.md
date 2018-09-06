@@ -1,5 +1,5 @@
 ---
-title: SelectAllNetworkAdapters method of the Win32\_TSNetworkAdapterSetting class
+title: SelectAllNetworkAdapters method of the Win32_TSNetworkAdapterSetting class
 description: The SelectAllNetworkAdapters method selects all network adapters.
 audience: developer
 author: REDMOND\\markl

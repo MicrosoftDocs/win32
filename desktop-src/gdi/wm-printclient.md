@@ -1,7 +1,7 @@
 ---
 Description: The WM\_PRINTCLIENT message is sent to a window to request that it draw its client area in the specified device context, most commonly in a printer device context.
 ms.assetid: 8703ee74-812a-4ca2-8ee3-a3b8779739e7
-title: WM\_PRINTCLIENT message
+title: WM_PRINTCLIENT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

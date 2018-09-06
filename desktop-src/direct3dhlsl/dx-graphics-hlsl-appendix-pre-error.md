@@ -1,5 +1,5 @@
 ---
-title: '\ error Directive'
+title: ' error Directive'
 description: Preprocessor directive that produces compiler-time error messages.
 ms.assetid: e32bcd6f-f2c1-43f7-a0bb-2c384b056492
 keywords:

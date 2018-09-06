@@ -1,5 +1,5 @@
 ---
-title: LB\_SETCURSEL message
+title: LB_SETCURSEL message
 description: Selects a string and scrolls it into view, if necessary. When the new string is selected, the list box removes the highlight from the previously selected string.
 ms.assetid: 28d81f9d-a926-400c-8803-dcdb0e8f193d
 keywords:

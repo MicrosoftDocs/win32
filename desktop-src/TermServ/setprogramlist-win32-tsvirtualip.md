@@ -1,5 +1,5 @@
 ---
-title: SetProgramList method of the Win32\_TSVirtualIP class
+title: SetProgramList method of the Win32_TSVirtualIP class
 description: Overwrites the list of programs that use IP virtualization.
 audience: developer
 author: REDMOND\\markl

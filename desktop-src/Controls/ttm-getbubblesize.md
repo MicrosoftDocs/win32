@@ -1,5 +1,5 @@
 ---
-title: TTM\_GETBUBBLESIZE message
+title: TTM_GETBUBBLESIZE message
 description: Returns the width and height of a tooltip control.
 ms.assetid: 6afb971e-f05d-4b7a-b63d-3672bfcc32dc
 keywords:

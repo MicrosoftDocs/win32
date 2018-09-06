@@ -1,7 +1,7 @@
 ---
 Description: The put\_MessageDrain method sets the window to receive window messages sent to the video renderer.
 ms.assetid: b2d2d489-a66f-474a-b8bf-b019179f6f69
-title: CBaseControlWindow.put\_MessageDrain method
+title: CBaseControlWindow.put_MessageDrain method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Reference average volume level of a Windows Media Audio file.
 ms.assetid: ea7d4ed1-2a96-4372-9936-abdd6473b57e
-title: MF\_MT\_AUDIO\_WMADRC\_AVGREF attribute
+title: MF_MT_AUDIO_WMADRC_AVGREF attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

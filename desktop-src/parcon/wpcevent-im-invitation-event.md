@@ -1,7 +1,7 @@
 ---
 Description: Per-user event provided for logging initiation of conversations by Instant Messaging clients.
 ms.assetid: b2cd1d37-9993-4990-83b7-b147a109e4af
-title: WPCEVENT\_IM\_INVITATION event
+title: WPCEVENT_IM_INVITATION event
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

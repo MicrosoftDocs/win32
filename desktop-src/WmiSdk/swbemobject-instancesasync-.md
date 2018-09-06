@@ -7,7 +7,7 @@ ms.assetid: d10fcbbf-6110-4152-8201-db43dc7a3c14
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.InstancesAsync\_ method
+title: SWbemObject.InstancesAsync_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

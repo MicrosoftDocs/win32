@@ -1,5 +1,5 @@
 ---
-title: The named\_type\_to\_local Function
+title: The named_type_to_local Function
 description: The stubs call the named\_type\_to\_local function to convert data from a transmitted type to the type that they present to the application.
 ms.assetid: c272cc1f-e47b-4d5a-a4e2-cefeaeb8c175
 keywords:

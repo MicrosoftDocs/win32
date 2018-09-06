@@ -1,7 +1,7 @@
 ---
 Description: The MSV1\_0\_ENUMUSERS\_RESPONSE structure is obsolete.
 ms.assetid: d21aafc3-37a6-4cd3-a180-dd1fa6c195d8
-title: MSV1\_0\_ENUMUSERS\_RESPONSE
+title: MSV1_0_ENUMUSERS_RESPONSE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

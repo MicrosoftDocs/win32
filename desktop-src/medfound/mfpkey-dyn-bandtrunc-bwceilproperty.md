@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum coded bandwidth allowed by band truncation in the encoder.
 ms.assetid: 01af4961-b372-462b-a24e-c600d1cd76ab
-title: MFPKEY\_DYN\_BANDTRUNC\_BWCEIL Property
+title: MFPKEY_DYN_BANDTRUNC_BWCEIL Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_PTRType class
+title: MicrosoftDNS_PTRType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Pointer (PTR) record.
 ms.assetid: 2cb0f13b-e683-473b-9cdd-bc5d805b919d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WM\_PSD\_MINMARGINRECT message
+title: WM_PSD_MINMARGINRECT message
 description: Notifies a PagePaintHook hook procedure of the coordinates of the margin rectangle in the sample page. A Page Setup dialog box sends this message when it is about to draw the contents of the sample page.
 ms.assetid: 14977b52-7a6f-4c55-956a-716398a71613
 keywords:

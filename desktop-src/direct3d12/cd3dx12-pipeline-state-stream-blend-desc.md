@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_BLEND\_DESC structure
+title: CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC structure
 description: A helper structure used to describe a blend description as a single object suitable for a stream description.
 ms.assetid: A629B05D-0A70-4C96-9F66-1508F2667BF6
 keywords:

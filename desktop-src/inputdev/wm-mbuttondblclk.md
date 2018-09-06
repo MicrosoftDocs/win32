@@ -1,5 +1,5 @@
 ---
-title: WM\_MBUTTONDBLCLK message
+title: WM_MBUTTONDBLCLK message
 description: Posted when the user double-clicks the middle mouse button while the cursor is in the client area of a window.
 ms.assetid: 97167941-93bc-4b83-adff-8ca7a3b2591e
 keywords:

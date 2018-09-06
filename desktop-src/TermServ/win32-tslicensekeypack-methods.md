@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLicenseKeyPack Methods
+title: Win32_TSLicenseKeyPack Methods
 description: The Win32\_TSLicenseKeyPack class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

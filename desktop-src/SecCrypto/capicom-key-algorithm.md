@@ -1,7 +1,7 @@
 ---
 Description: The CAPICOM\_KEY\_ALGORITHM enumeration defines key algorithms.
 ms.assetid: 2274c0ae-fa92-4059-a638-94a5f982c0c7
-title: CAPICOM\_KEY\_ALGORITHM enumeration
+title: CAPICOM_KEY_ALGORITHM enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

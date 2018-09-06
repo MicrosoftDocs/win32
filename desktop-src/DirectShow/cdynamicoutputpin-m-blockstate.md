@@ -1,7 +1,7 @@
 ---
 Description: Blocking state.
 ms.assetid: 55afd314-efd3-47bf-80e3-e17c1332a4cf
-title: CDynamicOutputPin::m\_BlockState member
+title: CDynamicOutputPin::m_BlockState member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

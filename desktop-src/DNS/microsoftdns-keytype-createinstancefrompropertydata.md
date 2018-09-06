@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_KEYType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_KEYType class
 description: The CreateInstanceFromPropertyData method instantiates a KEY Resource Record.
 ms.assetid: 77d7b800-4077-46da-9199-e2abb5801978
 keywords:

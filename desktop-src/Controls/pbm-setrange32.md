@@ -1,5 +1,5 @@
 ---
-title: PBM\_SETRANGE32 message
+title: PBM_SETRANGE32 message
 description: Sets the minimum and maximum values for a progress bar to 32-bit values, and redraws the bar to reflect the new range.
 ms.assetid: 7958ea14-17b4-4c0e-97ec-b09fa0d36e8b
 keywords:

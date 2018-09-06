@@ -1,5 +1,5 @@
 ---
-title: EM\_SHOWSCROLLBAR message
+title: EM_SHOWSCROLLBAR message
 description: Shows or hides one of the scroll bars in the host window of a rich edit control.
 ms.assetid: 0a6ec010-4870-4faf-9dc2-1da961dc8194
 keywords:

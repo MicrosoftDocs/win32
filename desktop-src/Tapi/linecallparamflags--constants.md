@@ -1,7 +1,7 @@
 ---
 Description: The LINECALLPARAMFLAGS\_ constants describe various status flags about a call.
 ms.assetid: f323ec9f-5bab-4b5d-93ef-8a552ee0d591
-title: LINECALLPARAMFLAGS\_ Constants
+title: LINECALLPARAMFLAGS_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

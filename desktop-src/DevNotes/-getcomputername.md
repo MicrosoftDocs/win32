@@ -1,7 +1,7 @@
 ---
 Description: Gets the computer name.
 ms.assetid: 8b6fd61a-dd5a-46b8-920e-cc8a848732b6
-title: '\_GetComputerName function'
+title: '_GetComputerName function'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

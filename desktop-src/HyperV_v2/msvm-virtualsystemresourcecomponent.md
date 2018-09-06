@@ -1,7 +1,7 @@
 ---
 Description: Represents a virtual device service of the Microsoft Windows Hyper-V platform.
 ms.assetid: 865D83E1-0FC6-4F96-94BB-AA5116890127
-title: Msvm\_VirtualSystemResourceComponent class
+title: Msvm_VirtualSystemResourceComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

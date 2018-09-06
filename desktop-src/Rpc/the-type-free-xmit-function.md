@@ -1,5 +1,5 @@
 ---
-title: The type\_free\_xmit Function
+title: The type_free_xmit Function
 description: The stubs call the type\_free\_xmit function to free memory associated with the transmitted data.
 ms.assetid: f15ce25b-d36c-4ee5-b796-f0aba1997047
 keywords:

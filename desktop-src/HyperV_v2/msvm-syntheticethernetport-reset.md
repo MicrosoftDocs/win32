@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: ebe8e9f6-4110-4c69-8924-49e346be93a4
-title: Reset method of the Msvm\_SyntheticEthernetPort class
+title: Reset method of the Msvm_SyntheticEthernetPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

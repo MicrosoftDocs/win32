@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_Manual03 class
+title: MDM_VPNv2_Manual03 class
 description: The MDM\_VPNv2\_Manual03class is an optional node containing the manual server settings.
 ms.assetid: c294c5a2-35e2-46ca-b7d8-9c63f9d3cdd6
 keywords:

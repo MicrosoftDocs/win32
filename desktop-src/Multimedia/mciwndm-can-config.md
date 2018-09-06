@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_CAN\_CONFIG message
+title: MCIWNDM_CAN_CONFIG message
 description: The MCIWNDM\_CAN\_CONFIG message determines if an MCI device can display a configuration dialog box. You can send this message explicitly or by using the MCIWndCanConfig macro.
 ms.assetid: f1eb22a8-d0fc-4d2c-a414-392e560cfbed
 keywords:

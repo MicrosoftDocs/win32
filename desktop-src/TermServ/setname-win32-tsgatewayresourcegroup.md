@@ -1,5 +1,5 @@
 ---
-title: SetName method of the Win32\_TSGatewayResourceGroup class
+title: SetName method of the Win32_TSGatewayResourceGroup class
 description: Sets the Name property for the resource group.
 audience: developer
 author: REDMOND\\markl

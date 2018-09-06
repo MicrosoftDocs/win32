@@ -1,5 +1,5 @@
 ---
-title: PBM\_SETBKCOLOR message
+title: PBM_SETBKCOLOR message
 description: Sets the background color in the progress bar.
 ms.assetid: e28af958-babb-4c2e-9202-89b608c22f8e
 keywords:

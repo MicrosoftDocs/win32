@@ -1,5 +1,5 @@
 ---
-title: TB\_SETBITMAPSIZE message
+title: TB_SETBITMAPSIZE message
 description: Sets the size of the bitmapped images to be added to a toolbar.
 ms.assetid: 20b99cd8-6ef1-4037-92d2-c64a1003b5fe
 keywords:

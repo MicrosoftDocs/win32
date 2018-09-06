@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum video bit rate for the Digital Living Network Alliance (DLNA) media sink.
 ms.assetid: 5805f930-6cbd-4089-a052-522b4d152cc1
-title: MF\_MP2DLNA\_VIDEO\_BIT\_RATE attribute
+title: MF_MP2DLNA_VIDEO_BIT_RATE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

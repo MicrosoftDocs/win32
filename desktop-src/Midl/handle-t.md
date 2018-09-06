@@ -1,5 +1,5 @@
 ---
-title: handle\_t attribute
+title: handle_t attribute
 description: The handle\_t keyword declares an object to be of the primitive handle type handle\_t. A primitive binding handle is a data object that can be used by the application to represent the binding.
 ms.assetid: 94962ed6-5c17-43e7-853f-1e9c4b3118a7
 keywords:

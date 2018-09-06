@@ -1,5 +1,5 @@
 ---
-title: WM\_DSA\_SHEET\_CREATE\_NOTIFY message
+title: WM_DSA_SHEET_CREATE_NOTIFY message
 description: Posted to the Active Directory MMC snap-in to create a secondary property sheet.
 audience: developer
 author: REDMOND\\markl

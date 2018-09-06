@@ -1,5 +1,5 @@
 ---
-title: EM\_FORMATRANGE message
+title: EM_FORMATRANGE message
 description: Formats a range of text in a rich edit control for a specific device.
 ms.assetid: 6d1e562b-d741-4d4a-a395-554083cb0dbb
 keywords:

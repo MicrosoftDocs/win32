@@ -1,7 +1,7 @@
 ---
 Description: The PORT\_INFO\_3 structure specifies the status value of a printer port.
 ms.assetid: 0939353f-284b-4dbb-89a2-04918c934430
-title: PORT\_INFO\_3 structure
+title: PORT_INFO_3 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

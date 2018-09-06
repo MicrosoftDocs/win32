@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether stream switching is enabled on the network source.
 ms.assetid: 691a3549-eaf8-4e3d-ad0e-e5b013658f78
-title: MFNETSOURCE\_THINNINGENABLED property
+title: MFNETSOURCE_THINNINGENABLED property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

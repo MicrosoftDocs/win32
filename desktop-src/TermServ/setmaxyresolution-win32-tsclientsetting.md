@@ -1,5 +1,5 @@
 ---
-title: SetMaxYResolution method of the Win32\_TSClientSetting class
+title: SetMaxYResolution method of the Win32_TSClientSetting class
 description: Sets the MaxYResolution property.
 audience: developer
 author: REDMOND\\markl

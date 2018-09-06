@@ -1,5 +1,5 @@
 ---
-title: DTM\_GETSYSTEMTIME message
+title: DTM_GETSYSTEMTIME message
 description: Gets the currently selected time from a date and time picker (DTP) control and places it in a specified SYSTEMTIME structure. You can send this message explicitly or use the DateTime\_GetSystemtime macro.
 ms.assetid: 81c95187-109c-4b36-98ea-a2e77ce42d9a
 keywords:

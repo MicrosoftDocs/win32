@@ -7,7 +7,7 @@ ms.assetid: 46ffadd0-82e3-4ace-85a6-a7cb4bc2f982
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemLastError.Properties\_ property
+title: SWbemLastError.Properties_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

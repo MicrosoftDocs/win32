@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_SRVType class
+title: MicrosoftDNS_SRVType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Service (SRV) record.
 ms.assetid: 4b36246d-4466-46d9-9267-180e43547ae6
 keywords:

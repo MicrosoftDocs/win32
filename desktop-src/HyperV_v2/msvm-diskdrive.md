@@ -1,7 +1,7 @@
 ---
 Description: Represents a hard disk drive inside of a virtual machine.
 ms.assetid: BF03CD02-7CDE-45E2-84D1-EC8E4457094A
-title: Msvm\_DiskDrive class
+title: Msvm_DiskDrive class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

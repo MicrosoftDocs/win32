@@ -1,5 +1,5 @@
 ---
-title: PGM\_GETPOS message
+title: PGM_GETPOS message
 description: Retrieves the current scroll position of the pager control. You can send this message explicitly or use the Pager\_GetPos macro.
 ms.assetid: 1e0f967a-3290-43b7-b812-8cf56abf2d32
 keywords:

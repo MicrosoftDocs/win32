@@ -1,5 +1,5 @@
 ---
-title: LB\_GETTOPINDEX message
+title: LB_GETTOPINDEX message
 description: Gets the index of the first visible item in a list box.
 ms.assetid: c051cb34-c358-4696-80b0-28c627a0a862
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: RemoveComputerGroupNames method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: RemoveComputerGroupNames method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Removes specified computer group names from the ComputerGroupNames property.
 audience: developer
 author: REDMOND\\markl

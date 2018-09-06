@@ -1,7 +1,7 @@
 ---
 Description: Convert an existing virtual system snapshot to a reference point. The snapshot gets deleted as a side effect. Only recovery snapshots can be converted to reference points.
 ms.assetid: c634d749-e18f-4a11-a574-2aee705c0722
-title: ConvertToReferencePoint method of the Msvm\_VirtualSystemSnapshotService class
+title: ConvertToReferencePoint method of the Msvm_VirtualSystemSnapshotService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

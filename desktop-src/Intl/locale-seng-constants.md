@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SENG\* Constants
 ms.assetid: a1990e5a-c2c2-4ecc-a206-f818b179fc80
-title: LOCALE\_SENG\* Constants
+title: LOCALE_SENG* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

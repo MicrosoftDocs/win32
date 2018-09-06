@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMACSourceFormatTag
+title: g_wszWMACSourceFormatTag
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: c1ceb8e8-20d2-4dda-a47d-2c23df49d66f
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Identifies a property that is to be set on a transition or effect, along with the number of distinct values that the property assumes over the duration of the transition or effect.
 ms.assetid: 3b1c35cf-f1f7-4f2c-8d94-1aaae4116833
-title: DEXTER\_VALUE structure
+title: DEXTER_VALUE structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

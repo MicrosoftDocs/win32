@@ -1,7 +1,7 @@
 ---
 Description: Associates a virtual Ethernet switch to the extensions currently bound to it.
 ms.assetid: d8c87fa2-6859-49ed-abd5-32a836b00e5a
-title: Msvm\_HostedEthernetSwitchExtension class
+title: Msvm_HostedEthernetSwitchExtension class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

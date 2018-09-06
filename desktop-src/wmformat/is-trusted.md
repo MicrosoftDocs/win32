@@ -1,5 +1,5 @@
 ---
-title: Is\_Trusted
+title: Is_Trusted
 description: The Is\_Trusted attribute is a file-level attribute specifying whether the license acquisition URL in the file is trusted.
 ms.assetid: 7b383b45-e992-4a07-af0b-9ef220ddd9af
 keywords:

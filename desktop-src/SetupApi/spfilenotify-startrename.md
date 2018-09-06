@@ -1,7 +1,7 @@
 ---
 Description: The SPFILENOTIFY\_STARTRENAME notification is sent to the callback function when the queue starts a file rename operation.
 ms.assetid: 005c1840-6aa9-4e94-bfe7-6a9d53735fd9
-title: SPFILENOTIFY\_STARTRENAME message
+title: SPFILENOTIFY_STARTRENAME message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

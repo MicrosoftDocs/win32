@@ -1,5 +1,5 @@
 ---
-title: TCM\_DELETEALLITEMS message
+title: TCM_DELETEALLITEMS message
 description: Removes all items from a tab control. You can send this message explicitly or by using the TabCtrl\_DeleteAllItems macro.
 ms.assetid: 733494c4-38f4-44ba-98d2-c33a8d63c3b7
 keywords:

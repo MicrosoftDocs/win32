@@ -1,7 +1,7 @@
 ---
 Description: Sets the given instruction identifier in the application protocol data unit (APDU).
 ms.assetid: ea527ffd-b053-467d-883d-b93d5bbfb071
-title: ISCardCmd::put\_InstructionId method
+title: ISCardCmd::put_InstructionId method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSSessionSetting Methods
+title: Win32_TSSessionSetting Methods
 description: The Win32\_TSSessionSetting class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

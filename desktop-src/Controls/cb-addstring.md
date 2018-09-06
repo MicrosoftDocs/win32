@@ -1,5 +1,5 @@
 ---
-title: CB\_ADDSTRING message
+title: CB_ADDSTRING message
 description: Adds a string to the list box of a combo box. If the combo box does not have the CBS\_SORT style, the string is added to the end of the list. Otherwise, the string is inserted into the list, and the list is sorted.
 ms.assetid: 201bcb7b-e7d1-41e6-8eb7-a5864b659a52
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The get\_BitRate method retrieves an approximate bit rate for the video.
 ms.assetid: e12e4677-a038-479f-8b64-937ad521c4be
-title: CBaseControlVideo.get\_BitRate method
+title: CBaseControlVideo.get_BitRate method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: RBN\_DELETINGBAND notification code
+title: RBN_DELETINGBAND notification code
 description: Sent by a rebar control when a band is about to be deleted. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 92840cb1-375e-4c37-bde4-7ba02a1ff4f1
 keywords:

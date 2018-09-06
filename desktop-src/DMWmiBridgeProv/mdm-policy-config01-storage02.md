@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Storage02 class
+title: MDM_Policy_Config01_Storage02 class
 description: The MDM\_Policy\_Config01\_Storage02 class configures the storage policies.
 ms.assetid: 5c58e6d4-dfc6-4467-9a86-08eb31ccf28d
 keywords:

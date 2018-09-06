@@ -1,5 +1,5 @@
 ---
-title: transmit\_as attribute
+title: transmit_as attribute
 description: The \ transmit\_as\ attribute instructs the compiler to associate type-id, which is a presented type that client and server applications manipulate, with a transmitted type xmit-type.
 ms.assetid: 3dd1a242-03ec-49b4-ac96-87ef186e41d2
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_RASTERIZER structure
+title: CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER structure
 description: A helper structure used to describe a rasterizer description as a single object suitable for a stream description.
 ms.assetid: 650C2DA3-63FB-44D1-BE9A-E21E13DA24DB
 keywords:

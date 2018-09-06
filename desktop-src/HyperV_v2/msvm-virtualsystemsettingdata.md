@@ -1,7 +1,7 @@
 ---
 Description: Represents the virtualization-specific settings for a virtual machine.
 ms.assetid: BE81405E-E773-41CE-9441-33D60B63550E
-title: Msvm\_VirtualSystemSettingData class
+title: Msvm_VirtualSystemSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

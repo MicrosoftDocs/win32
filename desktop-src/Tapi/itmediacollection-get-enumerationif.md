@@ -1,7 +1,7 @@
 ---
 Description: The get\_EnumerationIf method gets a pointer to a media enumeration interface.
 ms.assetid: d5f1e10f-e5ad-45e6-a5ec-024905603012
-title: ITMediaCollection::get\_EnumerationIf method
+title: ITMediaCollection::get_EnumerationIf method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

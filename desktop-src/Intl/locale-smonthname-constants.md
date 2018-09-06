@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SMONTHNAME\* Constants
 ms.assetid: 81269282-bea8-4a5d-929d-c68af34bd1ac
-title: LOCALE\_SMONTHNAME\* Constants
+title: LOCALE_SMONTHNAME* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

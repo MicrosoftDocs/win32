@@ -1,5 +1,5 @@
 ---
-title: XTYP\_REQUEST transaction
+title: XTYP_REQUEST transaction
 description: A client uses the XTYP\_REQUEST transaction to request data from a server. A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives this transaction when a client specifies XTYP\_REQUEST in the DdeClientTransaction function.
 ms.assetid: e776b995-6a64-4398-9e29-c151f3ef4c1d
 keywords:

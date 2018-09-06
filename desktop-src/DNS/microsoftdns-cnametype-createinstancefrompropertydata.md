@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_CNAMEType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_CNAMEType class
 description: The CreateInstanceFromPropertyData method instantiates a Canonical Name (CNAME) Resource Record.
 ms.assetid: b5a5e14a-fb30-4cdf-90d0-7ef446350ac6
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Flag that indicates whether a run-time error has occurred.
 ms.assetid: 917bcb21-a11e-4ac5-af96-565f61c155cd
-title: CBasePin::m\_bRunTimeError member
+title: CBasePin::m_bRunTimeError member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

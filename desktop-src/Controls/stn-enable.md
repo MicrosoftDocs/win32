@@ -1,5 +1,5 @@
 ---
-title: STN\_ENABLE notification code
+title: STN_ENABLE notification code
 description: The STN\_ENABLE notification code is sent when a static control is enabled.
 ms.assetid: daac2ed3-c7cd-46f8-abfa-78754b277ef4
 keywords:

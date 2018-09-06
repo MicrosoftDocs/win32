@@ -1,7 +1,7 @@
 ---
 Description: Indicates if auto provisioning of the TPM is enabled.
 ms.assetid: C908673C-8BDB-4541-85C6-65FED1EBB535
-title: Win32\_Tpm::IsAutoProvisioningEnabled method
+title: Win32_Tpm::IsAutoProvisioningEnabled method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

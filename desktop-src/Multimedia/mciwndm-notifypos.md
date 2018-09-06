@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_NOTIFYPOS message
+title: MCIWNDM_NOTIFYPOS message
 description: The MCIWNDM\_NOTIFYPOS message notifies the parent window of an application that the window position has changed.
 ms.assetid: ccc8903b-ad79-495a-8003-20e120ad28ff
 keywords:

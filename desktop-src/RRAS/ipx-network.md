@@ -1,5 +1,5 @@
 ---
-title: IPX\_NETWORK structure
+title: IPX_NETWORK structure
 description: The IPX\_NETWORK structure describes an IPX network address.
 ms.assetid: 83fc4022-8515-4a51-ac47-f92572447fbf
 keywords:

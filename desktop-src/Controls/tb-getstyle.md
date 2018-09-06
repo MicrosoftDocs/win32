@@ -1,5 +1,5 @@
 ---
-title: TB\_GETSTYLE message
+title: TB_GETSTYLE message
 description: Retrieves the styles currently in use for a toolbar control.
 ms.assetid: 6fbe8733-79df-462e-acb6-6568105e5058
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CQPM\_INITIALIZE message
+title: CQPM_INITIALIZE message
 description: Sent to the CQPageProc callback function of a query form extension page when the page is added to a form.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: Resets the replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
 ms.assetid: da4b60f8-6964-45af-8412-935234c7c0ff
-title: ResetReplicationStatistics method of the Msvm\_ReplicationService class
+title: ResetReplicationStatistics method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: '\_VIDEOINFOHEADER structure'
+title: '_VIDEOINFOHEADER structure'
 description: The \_VIDEOINFOHEADER structure contains information about a video stream and includes a \_BITMAPINFOHEADER structure that defines the format of an individual frame.
 ms.assetid: 5a39d66e-8dbc-4572-8370-14f722b6c906
 keywords:

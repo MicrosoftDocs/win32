@@ -1,5 +1,5 @@
 ---
-title: WM\_RBUTTONDOWN message
+title: WM_RBUTTONDOWN message
 description: Posted when the user presses the right mouse button while the cursor is in the client area of a window.
 ms.assetid: da1a7d7c-6e49-4097-8b43-dcee7bd5fb3f
 keywords:

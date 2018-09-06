@@ -1,5 +1,5 @@
 ---
-title: D2D1\_MATRIX\_4X4\_F
+title: D2D1_MATRIX_4X4_F
 description: Represents a 4-by-4 matrix.
 ms.assetid: 6df02d4c-cd3c-697e-0aff-7f2d307d3d7d
 keywords:

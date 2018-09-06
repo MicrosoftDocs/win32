@@ -1,5 +1,5 @@
 ---
-title: SetResourceGroup method of the Win32\_TSGatewayResourceAuthorizationPolicy class
+title: SetResourceGroup method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Sets the resource group type and name.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_INSET
+title: WMT_VIDEOIMAGE_TRANSITION_INSET
 description: The inset transition reveals the new image in a rectangle originating from one corner of the frame.
 ms.assetid: fd8bc4b7-0546-4897-ab7b-a320bbd126ef
 keywords:

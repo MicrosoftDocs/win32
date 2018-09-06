@@ -1,7 +1,7 @@
 ---
 Description: Specifies how color information is used in motion search operations.
 ms.assetid: a625b103-0a55-4268-a01a-6a464a56fec2
-title: MFPKEY\_MOTIONSEARCHLEVEL Property
+title: MFPKEY_MOTIONSEARCHLEVEL Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -7,7 +7,7 @@ ms.assetid: 31ff43dc-dc70-4ba0-866f-37445912f837
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_EventConsumerProviderRegistration class'
+title: '__EventConsumerProviderRegistration class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

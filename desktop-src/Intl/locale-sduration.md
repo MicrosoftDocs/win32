@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SDURATION
 ms.assetid: 45ffd7ed-f964-4948-8679-cf960b5c1e0e
-title: LOCALE\_SDURATION
+title: LOCALE_SDURATION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

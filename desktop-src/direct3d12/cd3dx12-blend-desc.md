@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_BLEND\_DESC structure
+title: CD3DX12_BLEND_DESC structure
 description: A helper structure to enable easy initialization of a D3D12\_BLEND\_DESC structure.
 ms.assetid: D37BB62E-904B-4953-9119-21F3B37570C0
 keywords:

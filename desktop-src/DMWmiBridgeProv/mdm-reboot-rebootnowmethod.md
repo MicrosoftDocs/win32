@@ -1,5 +1,5 @@
 ---
-title: RebootNowMethod method of the MDM\_Reboot class
+title: RebootNowMethod method of the MDM_Reboot class
 description: This method executes a reboot of the device.
 ms.assetid: b1bacad8-06db-4e56-9f3d-46c9a0036729
 keywords:

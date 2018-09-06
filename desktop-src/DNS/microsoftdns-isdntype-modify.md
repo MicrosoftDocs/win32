@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_ISDNType class
+title: Modify method of the MicrosoftDNS_ISDNType class
 description: The Modify method updates an ISDN Resource Record.
 ms.assetid: 09e23853-ca92-43a3-8bd9-7de10eb5eddc
 keywords:

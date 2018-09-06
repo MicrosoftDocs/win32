@@ -1,5 +1,5 @@
 ---
-title: LVM\_INSERTGROUP message
+title: LVM_INSERTGROUP message
 description: Inserts a group into a list-view control.
 ms.assetid: d43e21bc-e212-42dd-af88-48813d40cd50
 keywords:

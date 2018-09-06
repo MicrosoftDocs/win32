@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_RTType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_RTType class
 description: The CreateInstanceFromPropertyData method instantiates a Route Through (RT) Resource Record.
 ms.assetid: 1ebb0543-d031-4430-acbe-708c4931b7a4
 keywords:

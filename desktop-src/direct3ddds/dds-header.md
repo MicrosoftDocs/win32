@@ -1,5 +1,5 @@
 ---
-title: DDS\_HEADER structure
+title: DDS_HEADER structure
 description: Describes a DDS file header.
 ms.assetid: 7f8bde30-0ff9-4bb9-b444-5c875e6a0865
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Sent to the topmost affected window after an application's input language has been changed. You should make any application-specific settings and pass the message to the DefWindowProc function, which passes the message to all first-level child windows.
 ms.assetid: 4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c
-title: WM\_INPUTLANGCHANGE message
+title: WM_INPUTLANGCHANGE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

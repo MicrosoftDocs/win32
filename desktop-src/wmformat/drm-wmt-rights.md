@@ -1,5 +1,5 @@
 ---
-title: WMT\_RIGHTS enumeration
+title: WMT_RIGHTS enumeration
 description: Defines the rights that may be specified in a DRM license.
 ms.assetid: 9c034ca0-83e9-4a4c-8e98-96e2a95fd97c
 keywords:

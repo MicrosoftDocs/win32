@@ -1,5 +1,5 @@
 ---
-title: sample\_d (sm4 - asm)
+title: sample_d (sm4 - asm)
 description: Samples data from the specified Element/texture using the specified address and the filtering mode identified by the given sampler.
 ms.assetid: 9CF57C4A-C0D1-4D57-A5EE-62BBBB291438
 ms.technology: desktop

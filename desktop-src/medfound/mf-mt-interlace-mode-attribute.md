@@ -1,7 +1,7 @@
 ---
 Description: Describes how the frames in a video media type are interlaced.
 ms.assetid: 19aa0147-ac49-4a2e-ac75-e967fec9ca68
-title: MF\_MT\_INTERLACE\_MODE attribute
+title: MF_MT_INTERLACE_MODE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

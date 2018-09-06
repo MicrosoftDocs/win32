@@ -1,5 +1,5 @@
 ---
-title: SB\_GETUNICODEFORMAT message
+title: SB_GETUNICODEFORMAT message
 description: Retrieves the Unicode character format flag for the control.
 ms.assetid: 0b2b543a-b1ef-452c-9b34-c5fbbac4aaa9
 keywords:

@@ -1,6 +1,6 @@
 ---
 Description: Return the default icon for the item specified by the accompanying SMDATA structure.
-title: SMC\_DEFAULTICON message
+title: SMC_DEFAULTICON message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionDirectoryVMMPlugin Methods
+title: Win32_SessionDirectoryVMMPlugin Methods
 description: The Win32\_SessionDirectoryVMMPlugin class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

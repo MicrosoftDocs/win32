@@ -1,7 +1,7 @@
 ---
 Description: Represents an association between a job and the CIM\_ManagedElement objects that may be affected by its execution.
 ms.assetid: 94c5e602-214c-4003-921c-8955c3859738
-title: CIM\_AffectedJobElement class
+title: CIM_AffectedJobElement class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

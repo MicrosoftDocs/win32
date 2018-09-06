@@ -1,7 +1,7 @@
 ---
 Description: Specifies the capabilities flags for an H.264 video stream.
 ms.assetid: 59EF18D6-6063-4EF3-BBFB-51A966CFF09E
-title: MF\_MT\_H264\_CAPABILITIES attribute
+title: MF_MT_H264_CAPABILITIES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

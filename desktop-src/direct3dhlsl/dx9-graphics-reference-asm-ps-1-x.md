@@ -1,5 +1,5 @@
 ---
-title: ps\_1\_1, ps\_1\_2, ps\_1\_3, ps\_1\_4
+title: ps_1_1, ps_1_2, ps_1_3, ps_1_4
 description: The pixel shader assembler is made up of a set of instructions that operate on pixel data contained in registers.
 ms.assetid: 51b59f98-2fa8-4280-bc36-f4328a646168
 ms.technology: desktop

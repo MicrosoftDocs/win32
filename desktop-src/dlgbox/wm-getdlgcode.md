@@ -1,5 +1,5 @@
 ---
-title: WM\_GETDLGCODE message
+title: WM_GETDLGCODE message
 description: Sent to the window procedure associated with a control.
 ms.assetid: 96d2caee-be6e-46e9-98b3-bffc3af1c003
 keywords:

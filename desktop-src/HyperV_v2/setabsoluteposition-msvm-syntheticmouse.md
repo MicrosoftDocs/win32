@@ -1,7 +1,7 @@
 ---
 Description: Sets the horizontal and vertical position of the mouse cursor.
 ms.assetid: 7845E10A-7F61-4134-BF81-AED5483F36AD
-title: SetAbsolutePosition method of the Msvm\_SyntheticMouse class
+title: SetAbsolutePosition method of the Msvm_SyntheticMouse class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

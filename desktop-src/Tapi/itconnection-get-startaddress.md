@@ -1,7 +1,7 @@
 ---
 Description: The get\_StartAddress method gets the first address to be used for the session.
 ms.assetid: 3c4fec19-1b7d-4052-afd8-7aaf095907d0
-title: ITConnection::get\_StartAddress method
+title: ITConnection::get_StartAddress method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

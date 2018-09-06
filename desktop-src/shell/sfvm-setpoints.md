@@ -1,6 +1,6 @@
 ---
 Description: Sets the points of the currently selected objects to the data object on Copy and Cut commands. Used by SHShellFolderView\_Message.
-title: SFVM\_SETPOINTS message
+title: SFVM_SETPOINTS message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

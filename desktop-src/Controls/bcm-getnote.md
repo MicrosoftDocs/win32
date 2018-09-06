@@ -1,5 +1,5 @@
 ---
-title: BCM\_GETNOTE message
+title: BCM_GETNOTE message
 description: Gets the text of the note associated with a command link button. You can send this message explicitly or use the Button\_GetNote macro.
 ms.assetid: ddaf4227-1316-49b5-abf0-00215472c46c
 keywords:

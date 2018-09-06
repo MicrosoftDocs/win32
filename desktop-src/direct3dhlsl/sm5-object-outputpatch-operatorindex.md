@@ -1,5 +1,5 @@
 ---
-title: Operator\ \ function
+title: Operator  function
 description: Returns the nth control point in the patch.
 ms.assetid: 3ac15fe8-8bab-46a2-8826-61ade927c99e
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the color primaries for a video media type.
 ms.assetid: 56f31c1a-b610-4da0-9df4-76e15add672c
-title: MF\_MT\_VIDEO\_PRIMARIES attribute
+title: MF_MT_VIDEO_PRIMARIES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

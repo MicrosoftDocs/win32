@@ -7,7 +7,7 @@ ms.assetid: ff738412-fcca-4e4a-a178-0d1d391ec99b
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.PutAsync\_ method
+title: SWbemObject.PutAsync_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

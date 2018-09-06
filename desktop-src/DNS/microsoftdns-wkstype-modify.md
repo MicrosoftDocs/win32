@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_WKSType class
+title: Modify method of the MicrosoftDNS_WKSType class
 description: The Modify method updates a Well-Known Services (WKS) Resource Record.
 ms.assetid: 3a9100eb-dc90-45bb-9739-14026da100fd
 keywords:

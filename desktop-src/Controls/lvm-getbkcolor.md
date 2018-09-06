@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETBKCOLOR message
+title: LVM_GETBKCOLOR message
 description: Gets the background color of a list-view control. You can send this message explicitly or by using the ListView\_GetBkColor macro.
 ms.assetid: 077d3b2e-f6d1-4acc-b002-e9e707ad274c
 keywords:

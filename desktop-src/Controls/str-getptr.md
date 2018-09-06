@@ -1,5 +1,5 @@
 ---
-title: Str\_GetPtr function
+title: Str_GetPtr function
 description: Copies a string from one buffer to another.
 ms.assetid: a3dd55a0-3f8b-4d6c-9956-666bebc3ab8d
 keywords:

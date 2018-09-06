@@ -1,5 +1,5 @@
 ---
-title: MCI\_FREEZE command
+title: MCI_FREEZE command
 description: The MCI\_FREEZE command freezes motion on the display. Digital-video, video-overlay, and VCR devices recognize this command.
 ms.assetid: 6f90984a-24dc-4046-8234-986b2125bab4
 keywords:

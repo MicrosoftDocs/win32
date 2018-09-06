@@ -1,5 +1,5 @@
 ---
-title: TB\_GETEXTENDEDSTYLE message
+title: TB_GETEXTENDEDSTYLE message
 description: Retrieves the extended styles for a toolbar control.
 ms.assetid: d9e31a8e-5e5a-4d2d-bc3b-65ac40e8592f
 keywords:

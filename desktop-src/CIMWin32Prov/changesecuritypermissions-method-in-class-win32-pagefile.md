@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: ChangeSecurityPermissions method of the Win32\_PageFile class
+title: ChangeSecurityPermissions method of the Win32_PageFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,7 +1,7 @@
 ---
 Description: The class that represents configured settings for an Msvm\_VirtualSystemCollection.
 ms.assetid: 6592a551-e80a-4bf5-8808-c859cb6c2b4f
-title: Msvm\_CollectionSettingData class
+title: Msvm_CollectionSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

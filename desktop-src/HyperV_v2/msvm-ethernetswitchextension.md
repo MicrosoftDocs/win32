@@ -1,7 +1,7 @@
 ---
 Description: Represents an instance of an extension component bound to a virtual Ethernet switch.
 ms.assetid: 5b3e26e3-4cb9-47c9-865e-2f3232bbfc8e
-title: Msvm\_EthernetSwitchExtension class
+title: Msvm_EthernetSwitchExtension class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

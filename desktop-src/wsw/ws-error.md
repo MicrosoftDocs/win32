@@ -1,5 +1,5 @@
 ---
-title: WS\_ERROR
+title: WS_ERROR
 description: An opaque type used to reference to an error object.
 ms.assetid: d5763d93-8eff-4df8-9a8a-a58aefabcb21
 keywords:

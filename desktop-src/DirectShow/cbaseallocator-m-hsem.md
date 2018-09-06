@@ -1,7 +1,7 @@
 ---
 Description: Semaphore that is signaled when a sample becomes available.
 ms.assetid: 1861bc3a-b071-4876-a69c-84bf249260bd
-title: CBaseAllocator::m\_hSem member
+title: CBaseAllocator::m_hSem member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

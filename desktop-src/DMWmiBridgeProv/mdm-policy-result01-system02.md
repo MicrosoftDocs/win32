@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_System02 class
+title: MDM_Policy_Result01_System02 class
 description: The MDM\_Policy\_Result01\_System02 class represents the System policies available.
 ms.assetid: 9A0D9688-9062-429F-897F-75705DC8FD79
 keywords:

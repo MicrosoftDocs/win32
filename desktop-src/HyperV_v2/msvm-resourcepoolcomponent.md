@@ -1,7 +1,7 @@
 ---
 Description: Represents a resource pool element of the Microsoft Windows Hyper-V platform.
 ms.assetid: DF48E8A6-240F-44E9-9DA3-1E6694396F10
-title: Msvm\_ResourcePoolComponent class
+title: Msvm_ResourcePoolComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

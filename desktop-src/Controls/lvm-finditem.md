@@ -1,5 +1,5 @@
 ---
-title: LVM\_FINDITEM message
+title: LVM_FINDITEM message
 description: Searches for a list-view item with the specified characteristics. You can send this message explicitly or by using the ListView\_FindItem macro.
 ms.assetid: 3b18c8ad-97e6-4f4d-bf89-afb95f925ed1
 keywords:

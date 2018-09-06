@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceManageability\_Provider01\_01 class
+title: MDM_DeviceManageability_Provider01_01 class
 description: The MDM\_DeviceManageability\_Provider01\_01 class is used retrieve the general information about MDM configuration capabilities on the device.
 ms.assetid: 080e5cdd-4509-42d6-b5f8-36df6f8d9b45
 keywords:

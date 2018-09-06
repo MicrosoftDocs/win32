@@ -1,5 +1,5 @@
 ---
-title: EM\_SETTEXTMODE message
+title: EM_SETTEXTMODE message
 description: Sets the text mode or undo level of a rich edit control. The message fails if the control contains any text.
 ms.assetid: d6741234-0ef3-4cd2-8817-6c852f1b500d
 keywords:

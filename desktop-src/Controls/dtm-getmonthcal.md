@@ -1,5 +1,5 @@
 ---
-title: DTM\_GETMONTHCAL message
+title: DTM_GETMONTHCAL message
 description: Gets the handle to a date and time picker's (DTP) child month calendar control. You can send this message explicitly or use the DateTime\_GetMonthCal macro.
 ms.assetid: 78bbdcc9-2b2b-420b-be9b-6f2f573d60b6
 keywords:

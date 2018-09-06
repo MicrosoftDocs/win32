@@ -1,7 +1,7 @@
 ---
 Description: Returns the physical connector type of the video output.
 ms.assetid: c5862758-0125-4dbe-af72-5ed4a85bd702
-title: OPM\_GET\_CONNECTOR\_TYPE
+title: OPM_GET_CONNECTOR_TYPE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

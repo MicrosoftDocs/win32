@@ -1,5 +1,5 @@
 ---
-title: FetchReportSummaryEntries method of the Win32\_TSLicenseReport class
+title: FetchReportSummaryEntries method of the Win32_TSLicenseReport class
 description: Retrieves summaries of Remote Desktop Services Per User client access licenses (RDS \ 160;Per User CALs) from the report.
 audience: developer
 author: REDMOND\\markl

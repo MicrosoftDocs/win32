@@ -1,5 +1,5 @@
 ---
-title: D3DX\_UINT4\_to\_R10G10B10A2\_UINT function
+title: D3DX_UINT4_to_R10G10B10A2_UINT function
 description: Packs the given XMINT4 back into a DXGI\_FORMAT\_R10G10B10A2\_UINT.
 ms.assetid: fe10c62e-2d84-4f6b-886b-247ee344f6c7
 keywords:

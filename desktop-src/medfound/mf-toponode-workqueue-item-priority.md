@@ -1,7 +1,7 @@
 ---
 Description: Specifies the work-item priority for a branch of the topology.
 ms.assetid: B2FA1151-08D3-46F9-A38D-AC8908EFA6A2
-title: MF\_TOPONODE\_WORKQUEUE\_ITEM\_PRIORITY attribute
+title: MF_TOPONODE_WORKQUEUE_ITEM_PRIORITY attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

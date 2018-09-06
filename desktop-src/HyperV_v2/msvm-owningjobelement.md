@@ -1,7 +1,7 @@
 ---
 Description: Represents an association between a job and the managed element responsible for the creation of the job.
 ms.assetid: 1a100c7e-7e17-47dd-b730-c05c5e4dccda
-title: Msvm\_OwningJobElement class
+title: Msvm_OwningJobElement class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

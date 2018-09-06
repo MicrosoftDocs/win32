@@ -1,5 +1,5 @@
 ---
-title: dcl\_sampler (sm4 - asm)
+title: dcl_sampler (sm4 - asm)
 description: dcl\_sampler (sm4 - asm)
 ms.assetid: 285a47fa-2d47-4ba9-90b9-3f4c61d5dce1
 ms.technology: desktop

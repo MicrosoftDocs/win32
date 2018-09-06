@@ -1,7 +1,7 @@
 ---
 Description: Batch size.
 ms.assetid: 77a92da4-1b07-45e8-924e-29bedd068139
-title: COutputQueue::m\_lBatchSize member
+title: COutputQueue::m_lBatchSize member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

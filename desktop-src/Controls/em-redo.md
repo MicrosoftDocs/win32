@@ -1,5 +1,5 @@
 ---
-title: EM\_REDO message
+title: EM_REDO message
 description: Sends an EM\_REDO message to a rich edit control to redo the next action in the control's redo queue.
 ms.assetid: 28ec1ec2-a56d-442f-b3cb-9feeb92edaeb
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Enable method of the Win32\_Terminal class
+title: Enable method of the Win32_Terminal class
 description: The Enable method disables or enables the terminal.
 audience: developer
 author: REDMOND\\markl

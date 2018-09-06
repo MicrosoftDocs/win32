@@ -1,5 +1,5 @@
 ---
-title: GetWinstationDriverNames method of the Win32\_TerminalServiceSetting class
+title: GetWinstationDriverNames method of the Win32_TerminalServiceSetting class
 description: Retrieves a list of Winstation driver names.
 audience: developer
 author: REDMOND\\markl

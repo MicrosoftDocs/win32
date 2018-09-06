@@ -1,7 +1,7 @@
 ---
 Description: The CAPICOM\_KEY\_SPEC enumeration defines key specifications.
 ms.assetid: e4aaaf69-ab28-4e8c-8a8a-6dc662299865
-title: CAPICOM\_KEY\_SPEC enumeration
+title: CAPICOM_KEY_SPEC enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

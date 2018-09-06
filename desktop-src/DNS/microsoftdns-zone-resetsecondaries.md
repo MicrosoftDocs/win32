@@ -1,5 +1,5 @@
 ---
-title: ResetSecondaries method of the MicrosoftDNS\_Zone class
+title: ResetSecondaries method of the MicrosoftDNS_Zone class
 description: The ResetSecondaries method resets the IP addresses for secondary DNS Servers in the zone.
 ms.assetid: b9a47714-f180-40cf-831a-f59e804a4ca2
 keywords:

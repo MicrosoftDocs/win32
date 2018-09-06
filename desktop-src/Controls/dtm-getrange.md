@@ -1,5 +1,5 @@
 ---
-title: DTM\_GETRANGE message
+title: DTM_GETRANGE message
 description: Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the DateTime\_GetRange macro.
 ms.assetid: 190cada6-49ee-483f-a464-d3d789127159
 keywords:

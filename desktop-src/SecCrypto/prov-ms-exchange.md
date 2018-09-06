@@ -1,7 +1,7 @@
 ---
 Description: Designed for the cryptographic needs of the Microsoft Exchange mail application and other applications compatible with Microsoft Mail.
 ms.assetid: 40b28dee-85b6-431c-834f-b1e5b3242d4b
-title: PROV\_MS\_EXCHANGE
+title: PROV_MS_EXCHANGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

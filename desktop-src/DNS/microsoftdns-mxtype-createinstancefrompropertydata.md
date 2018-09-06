@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_MXType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_MXType class
 description: The CreateInstanceFromPropertyData method instantiates a Mail Exchanger (MR) Resource Record.
 ms.assetid: 5724b14a-bb64-460c-ac49-28bac85b8620
 keywords:

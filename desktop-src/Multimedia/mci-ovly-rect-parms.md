@@ -1,5 +1,5 @@
 ---
-title: MCI\_OVLY\_RECT\_PARMS structure
+title: MCI_OVLY_RECT_PARMS structure
 description: The MCI\_OVLY\_RECT\_PARMS structure contains positioning information for the MCI\_PUT and MCI\_WHERE commands for video-overlay devices.
 ms.assetid: 1cfd8e51-c76f-4a1c-905c-efacbd8146f4
 keywords:

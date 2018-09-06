@@ -1,5 +1,5 @@
 ---
-title: Object Model Reference for Visual Basic .NET and C\
+title: Object Model Reference for Visual Basic .NET and C
 description: Object Model Reference for Visual Basic .NET and C\
 ms.assetid: 81cd1f81-1bd2-420f-b20b-3505ad52f201
 keywords:

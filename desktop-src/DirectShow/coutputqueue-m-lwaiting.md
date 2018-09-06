@@ -1,7 +1,7 @@
 ---
 Description: Flag that has a nonzero value when the thread is waiting for a sample.
 ms.assetid: bc628f47-fa5b-4742-aed4-351081a61c13
-title: COutputQueue::m\_lWaiting member
+title: COutputQueue::m_lWaiting member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

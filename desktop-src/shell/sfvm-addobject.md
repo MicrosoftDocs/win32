@@ -1,6 +1,6 @@
 ---
 Description: Adds an object to the Shell view. Used by SHShellFolderView\_Message.
-title: SFVM\_ADDOBJECT message
+title: SFVM_ADDOBJECT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

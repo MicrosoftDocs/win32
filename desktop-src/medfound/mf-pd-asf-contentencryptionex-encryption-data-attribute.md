@@ -1,7 +1,7 @@
 ---
 Description: Contains encryption data for an Advanced Systems Format (ASF) file. This attribute corresponds to the Extended Content Encryption Object in the ASF header, defined in the ASF specification.
 ms.assetid: 8bf5e7a4-073f-4b2c-8e9c-49f6f11c9093
-title: MF\_PD\_ASF\_CONTENTENCRYPTIONEX\_ENCRYPTION\_DATA attribute
+title: MF_PD_ASF_CONTENTENCRYPTIONEX_ENCRYPTION_DATA attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

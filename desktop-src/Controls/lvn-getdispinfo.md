@@ -1,5 +1,5 @@
 ---
-title: LVN\_GETDISPINFO notification code
+title: LVN_GETDISPINFO notification code
 description: Sent by a list-view control to its parent window. It is a request for the parent window to provide information needed to display or sort a list-view item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 04310e39-69bc-45d7-958c-00452279d7a9
 keywords:

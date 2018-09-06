@@ -1,7 +1,7 @@
 ---
 Description: Defines the means by which a client can discover the valid range of default settings for a virtual resource.
 ms.assetid: AC516723-7CD2-4F10-B8BF-EF9D458D3E5B
-title: Msvm\_AllocationCapabilities class
+title: Msvm_AllocationCapabilities class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

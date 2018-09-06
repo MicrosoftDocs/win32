@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Location02 class
+title: MDM_Policy_Result01_Location02 class
 description: The MDM\_Policy\_Result01\_Location02 class gets the settings of the location service of the device.
 ms.assetid: f6d639db-c9d4-4d7e-b857-54aad602ea29
 keywords:

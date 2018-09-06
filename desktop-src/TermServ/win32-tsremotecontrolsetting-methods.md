@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSRemoteControlSetting Methods
+title: Win32_TSRemoteControlSetting Methods
 description: The Win32\_TSRemoteControlSetting class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

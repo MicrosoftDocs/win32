@@ -1,5 +1,5 @@
 ---
-title: KeyValueCompareAndSet method of the Win32\_RDSHCollection class
+title: KeyValueCompareAndSet method of the Win32_RDSHCollection class
 description: Compares the specified key in the collection with a comparand; if they match, the key is set to a new value. If the key does not exist, the method will insert the key into the collection.
 audience: developer
 author: REDMOND\\markl

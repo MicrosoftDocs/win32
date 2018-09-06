@@ -1,7 +1,7 @@
 ---
 Description: Requests that the Device re-establish its configuration, setup and/or state information from a backing store.
 ms.assetid: 5a70f048-b335-4617-ae49-a99e728fa2e8
-title: RestoreProperties method of the CIM\_LogicalDevice class
+title: RestoreProperties method of the CIM_LogicalDevice class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

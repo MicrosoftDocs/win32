@@ -1,7 +1,7 @@
 ---
 Description: The output for an LSA SID name mapping operation.
 ms.assetid: 327D1567-4202-4897-B282-8DCF2246A7B5
-title: LSA\_SID\_NAME\_MAPPING\_OPERATION\_OUTPUT structure
+title: LSA_SID_NAME_MAPPING_OPERATION_OUTPUT structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

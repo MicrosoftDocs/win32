@@ -1,7 +1,7 @@
 ---
 Description: Modifies the feature settings of an Ethernet switch port.
 ms.assetid: 8c21a932-fffb-40fd-9166-d7e351329217
-title: ModifyFeatureSettings method of the Msvm\_VirtualEthernetSwitchManagementService class
+title: ModifyFeatureSettings method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

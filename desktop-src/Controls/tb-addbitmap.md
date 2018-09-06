@@ -1,5 +1,5 @@
 ---
-title: TB\_ADDBITMAP message
+title: TB_ADDBITMAP message
 description: Adds one or more images to the list of button images available for a toolbar.
 ms.assetid: 9040ab84-a5f3-4e4b-bc90-590b2ceeaa5a
 keywords:

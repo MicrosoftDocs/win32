@@ -1,5 +1,5 @@
 ---
-title: SV\_OutputControlPointID
+title: SV_OutputControlPointID
 description: Defines the index of the control point ID being operated on by an invocation of the main entry point of the hull shader.
 ms.assetid: 0b4c070f-1c7b-4739-af32-16410d3c5abd
 keywords:

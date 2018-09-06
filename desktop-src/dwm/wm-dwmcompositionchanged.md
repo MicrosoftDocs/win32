@@ -1,5 +1,5 @@
 ---
-title: WM\_DWMCOMPOSITIONCHANGED message
+title: WM_DWMCOMPOSITIONCHANGED message
 description: Informs all top-level windows that Desktop Window Manager (DWM) composition has been enabled or disabled.
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmessages\wm_dwmcompositionchanged.htm
 keywords:

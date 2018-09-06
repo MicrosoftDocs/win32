@@ -1,7 +1,7 @@
 ---
 Description: The WNODE\_HEADER structure is a member of the EVENT\_TRACE\_PROPERTIES structure.
 ms.assetid: 862a8f46-a326-48c6-92b7-8bb667837bb7
-title: WNODE\_HEADER structure
+title: WNODE_HEADER structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

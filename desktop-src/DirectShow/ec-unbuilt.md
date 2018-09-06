@@ -1,7 +1,7 @@
 ---
 Description: The EC\_UNBUILT event is sent by the Video Control when a graph has been torn down. This event is not forwarded to applications.
 ms.assetid: fb38ad3e-c2a8-4329-87a4-9e2437a7c4ca
-title: EC\_UNBUILT
+title: EC_UNBUILT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Represents a synthetic keyboard device.
 ms.assetid: 8fe9bdd5-59e8-421d-812a-08aa3c54c88f
-title: Msvm\_SyntheticKeyboard class
+title: Msvm_SyntheticKeyboard class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

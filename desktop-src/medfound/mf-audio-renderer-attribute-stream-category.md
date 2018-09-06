@@ -1,7 +1,7 @@
 ---
 Description: Specifies the audio stream category for the Streaming Audio Renderer (SAR).
 ms.assetid: 88E79DE6-2062-4471-A939-D1D4DD2EC42D
-title: MF\_AUDIO\_RENDERER\_ATTRIBUTE\_STREAM\_CATEGORY attribute
+title: MF_AUDIO_RENDERER_ATTRIBUTE_STREAM_CATEGORY attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

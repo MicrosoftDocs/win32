@@ -1,5 +1,5 @@
 ---
-title: CBN\_SELCHANGE notification code
+title: CBN_SELCHANGE notification code
 description: Sent when the user changes the current selection in the list box of a combo box.
 ms.assetid: 2d0d711c-dfc4-485b-97bb-9ccfa7c5864b
 keywords:

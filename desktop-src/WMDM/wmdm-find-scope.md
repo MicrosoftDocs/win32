@@ -1,5 +1,5 @@
 ---
-title: WMDM\_FIND\_SCOPE enumeration
+title: WMDM_FIND_SCOPE enumeration
 description: The WMDM\_FIND\_SCOPE enumeration type defines the scope of the storage object.
 ms.assetid: 971f84d5-8383-4b38-a201-b21100b2f37e
 keywords:

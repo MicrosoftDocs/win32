@@ -1,5 +1,5 @@
 ---
-title: /no\_cpp, /nocpp
+title: /no_cpp, /nocpp
 description: The /no\_cpp switch specifies that the MIDL compiler does not call the C preprocessor to preprocess the IDL file.
 ms.assetid: 25c8316d-136f-44c5-b524-84f45551b512
 keywords:

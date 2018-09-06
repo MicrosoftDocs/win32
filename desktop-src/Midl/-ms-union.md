@@ -1,5 +1,5 @@
 ---
-title: /ms\_union switch
+title: /ms_union switch
 description: The /ms\_union switch controls the NDR alignment of nonencapsulated unions.Note  This attribute is provided for backwards compatibility.
 ms.assetid: 683d1498-6419-4600-ad5b-c0b6ea44a8e1
 keywords:

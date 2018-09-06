@@ -1,5 +1,5 @@
 ---
-title: RB\_DRAGMOVE message
+title: RB_DRAGMOVE message
 description: Updates the drag position in the rebar control after a previous RB\_BEGINDRAG message.
 ms.assetid: 0d2ce7fe-4172-45d9-932b-50f3e4cf2d8e
 keywords:

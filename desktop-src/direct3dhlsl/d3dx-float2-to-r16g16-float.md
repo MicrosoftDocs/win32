@@ -1,5 +1,5 @@
 ---
-title: D3DX\_FLOAT2\_to\_R16G16\_FLOAT function
+title: D3DX_FLOAT2_to_R16G16_FLOAT function
 description: Packs the given XMFLOAT2 back into a DXGI\_FORMAT\_R16G16\_FLOAT.
 ms.assetid: 8d03fac3-68f0-4c85-afaa-ff2cb76f1b73
 keywords:

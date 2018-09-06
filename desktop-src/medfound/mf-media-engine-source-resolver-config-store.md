@@ -1,7 +1,7 @@
 ---
 Description: Gets the source resolver config store.
 ms.assetid: 112B9CC2-DC0E-4AA4-978F-604ACD807E9D
-title: MF\_MEDIA\_ENGINE\_SOURCE\_RESOLVER\_CONFIG\_STORE attribute
+title: MF_MEDIA_ENGINE_SOURCE_RESOLVER_CONFIG_STORE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

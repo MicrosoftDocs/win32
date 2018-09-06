@@ -1,7 +1,7 @@
 ---
 Description: An asynchronous command to run the graph has failed.
 ms.assetid: 0bfcf4b4-b35a-4593-9956-8e1e8c9139cb
-title: EC\_ERROR\_STILLPLAYING
+title: EC_ERROR_STILLPLAYING
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

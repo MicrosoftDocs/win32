@@ -1,5 +1,5 @@
 ---
-title: EM\_CANREDO message
+title: EM_CANREDO message
 description: Determines whether there are any actions in the control redo queue.
 ms.assetid: 4a76adc8-f815-4cf7-8742-b7695e5a0f64
 keywords:

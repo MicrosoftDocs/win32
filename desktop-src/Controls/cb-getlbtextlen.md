@@ -1,5 +1,5 @@
 ---
-title: CB\_GETLBTEXTLEN message
+title: CB_GETLBTEXTLEN message
 description: Gets the length, in characters, of a string in the list of a combo box.
 ms.assetid: f0fe0eef-f9db-4d9f-9a42-5bb2aeae30a0
 keywords:

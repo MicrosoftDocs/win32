@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_MINFOType class
+title: MicrosoftDNS_MINFOType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mail Information (MINFO) record.
 ms.assetid: 9c4b70b8-f9cf-4dea-8d2d-43e0de002d52
 keywords:

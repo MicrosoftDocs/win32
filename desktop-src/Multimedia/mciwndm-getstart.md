@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETSTART message
+title: MCIWNDM_GETSTART message
 description: The MCIWNDM\_GETSTART message retrieves the location of the beginning of the content of an MCI device or file. You can send this message explicitly or by using the MCIWndGetStart macro.
 ms.assetid: 2350616c-2aac-4ff6-b074-bb785a97cdfb
 keywords:

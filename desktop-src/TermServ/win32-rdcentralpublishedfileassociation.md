@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDCentralPublishedFileAssociation class
+title: Win32_RDCentralPublishedFileAssociation class
 description: Info for a file extension associated with an application.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: WM\_INITMENUPOPUP message
+title: WM_INITMENUPOPUP message
 description: Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.
 ms.assetid: 08ae1a78-5e68-488c-9b77-ee42044ca3ab
 keywords:

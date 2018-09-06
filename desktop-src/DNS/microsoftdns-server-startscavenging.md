@@ -1,5 +1,5 @@
 ---
-title: StartScavenging method of the MicrosoftDNS\_Server class
+title: StartScavenging method of the MicrosoftDNS_Server class
 description: The StartScavenging method starts scavenging stale records in the zones subjected to scavenging.
 ms.assetid: ee1bc0e0-9334-4971-a524-4bb8a9015b5b
 keywords:

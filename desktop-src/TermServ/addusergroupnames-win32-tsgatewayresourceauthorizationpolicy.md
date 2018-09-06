@@ -1,5 +1,5 @@
 ---
-title: AddUserGroupNames method of the Win32\_TSGatewayResourceAuthorizationPolicy class
+title: AddUserGroupNames method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Adds the specified semicolon-separated list of user group names to the existing user groups in the UserGroupNames property.
 audience: developer
 author: REDMOND\\markl

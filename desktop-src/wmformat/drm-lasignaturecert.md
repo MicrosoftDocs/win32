@@ -1,5 +1,5 @@
 ---
-title: DRM\_LASignatureCert
+title: DRM_LASignatureCert
 description: The DRM\_LASignatureCert attribute contains the certificate that authenticates the signature in the DRM header.
 ms.assetid: f3ca7d52-86e7-4b22-b274-4fbfdc707cbf
 keywords:

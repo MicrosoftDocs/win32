@@ -1,5 +1,5 @@
 ---
-title: SetPrimaryLicenseServer method of the Win32\_TerminalServiceSetting class
+title: SetPrimaryLicenseServer method of the Win32_TerminalServiceSetting class
 description: Sets the given license server as the first entry in the list of specified license servers.
 audience: developer
 author: REDMOND\\markl

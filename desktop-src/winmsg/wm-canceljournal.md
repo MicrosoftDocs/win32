@@ -1,7 +1,7 @@
 ---
 Description: Posted to an application when a user cancels the application's journaling activities. The message is posted with a NULL window handle.
 ms.assetid: 7515acb5-4526-40f7-abb7-822a073ac7dc
-title: WM\_CANCELJOURNAL message
+title: WM_CANCELJOURNAL message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

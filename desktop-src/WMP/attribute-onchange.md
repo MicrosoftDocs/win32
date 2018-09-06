@@ -1,5 +1,5 @@
 ---
-title: attribute\_onchange
+title: attribute_onchange
 description: When a skin attribute changes value, an event occurs that can be handled by an event handler. The name of the event handler is the name of the attribute followed by an underscore and \ 0034;onchange \ 0034;, such as \ 0034;value\_onchange \ 0034;.
 ms.assetid: 783b686c-d56c-4036-9af4-97b9b246ef7e
 keywords:

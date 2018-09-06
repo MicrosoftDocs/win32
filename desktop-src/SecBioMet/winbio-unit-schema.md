@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_UNIT\_SCHEMA structure
+title: WINBIO_UNIT_SCHEMA structure
 description: Describes the capabilities of a biometric unit.
 ms.assetid: b20adf18-2948-481f-9d12-8da17aa152f7
 keywords:

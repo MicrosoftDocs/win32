@@ -1,5 +1,5 @@
 ---
-title: IsDbReachable method of the Win32\_SessionBrokerServiceProperties class
+title: IsDbReachable method of the Win32_SessionBrokerServiceProperties class
 description: Checks if the database is reachable.
 audience: developer
 author: REDMOND\\markl

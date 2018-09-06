@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for video configuration events.
 ms.assetid: ddb5924b-70d9-4693-bf68-0536c3c3fa8d
-title: SystemConfig\_Video class
+title: SystemConfig_Video class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

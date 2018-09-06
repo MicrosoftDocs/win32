@@ -1,7 +1,7 @@
 ---
 Description: Specifies the binding flags to use when allocating Microsoft Direct3D 11 surfaces for media samples.
 ms.assetid: C3B475B1-9A44-47EA-BCE7-D3D0FB56DDAC
-title: MF\_SA\_D3D11\_BINDFLAGS attribute
+title: MF_SA_D3D11_BINDFLAGS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

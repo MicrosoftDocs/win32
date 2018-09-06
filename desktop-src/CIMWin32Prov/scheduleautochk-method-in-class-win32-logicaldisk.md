@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: ScheduleAutoChk method of the Win32\_LogicalDisk class
+title: ScheduleAutoChk method of the Win32_LogicalDisk class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

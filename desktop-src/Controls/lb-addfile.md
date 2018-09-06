@@ -1,5 +1,5 @@
 ---
-title: LB\_ADDFILE message
+title: LB_ADDFILE message
 description: Adds the specified filename to a list box that contains a directory listing.
 ms.assetid: 60426293-779b-4a4b-95a2-4901b5f6a13b
 keywords:

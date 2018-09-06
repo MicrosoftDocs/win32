@@ -1,7 +1,7 @@
 ---
 Description: The PORT\_INFO\_2 structure identifies a supported printer port.
 ms.assetid: 93675294-61d4-40e4-b84c-f252978e0285
-title: PORT\_INFO\_2 structure
+title: PORT_INFO_2 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

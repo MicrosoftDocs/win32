@@ -1,5 +1,5 @@
 ---
-title: TVM\_EXPAND message
+title: TVM_EXPAND message
 description: The TVM\_EXPAND message expands or collapses the list of child items associated with the specified parent item, if any. You can send this message explicitly or by using the TreeView\_Expand macro.
 ms.assetid: d6c2e5b2-ce36-4c2b-b527-91c6de56e305
 keywords:

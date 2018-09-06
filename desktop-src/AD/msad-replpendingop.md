@@ -1,5 +1,5 @@
 ---
-title: MSAD\_ReplPendingOp class
+title: MSAD_ReplPendingOp class
 description: Represents the DS\_REPL\_OP structure, which describes a replication task that is currently executing or pending execution.
 audience: developer
 author: REDMOND\\markl

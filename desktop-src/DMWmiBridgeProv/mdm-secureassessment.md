@@ -1,5 +1,5 @@
 ---
-title: MDM\_SecureAssessment class
+title: MDM_SecureAssessment class
 description: The MDM\_SecureAssessmentclass is used to provide configuration information for the secure assessment browser.
 ms.assetid: ad456f01-c77d-428b-a8bf-03e9ae106e60
 keywords:

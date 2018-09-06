@@ -1,5 +1,5 @@
 ---
-title: CreateWinstation method of the Win32\_TerminalServiceSetting class
+title: CreateWinstation method of the Win32_TerminalServiceSetting class
 description: Creates a new listener stack based on the unique combination of listener name and NIC.
 audience: developer
 author: REDMOND\\markl

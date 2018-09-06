@@ -1,7 +1,7 @@
 ---
 Description: The LINEAGENTSTATUSEX\_ constants describe the status of an agent.
 ms.assetid: 4edebbb4-e031-468e-ad88-3226814a606b
-title: LINEAGENTSTATUSEX\_ Constants
+title: LINEAGENTSTATUSEX_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

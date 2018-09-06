@@ -1,5 +1,5 @@
 ---
-title: TB\_SETHOTITEM message
+title: TB_SETHOTITEM message
 description: Sets the hot item in a toolbar.
 ms.assetid: 15005741-29d2-48c6-b5f0-15178a49b917
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: D3DX\_R8G8B8A8\_UINT\_to\_UINT4 function
+title: D3DX_R8G8B8A8_UINT_to_UINT4 function
 description: Unpacks DXGI\_FORMAT\_R8G8B8A8\_UINT shader data to an XMUINT4.
 ms.assetid: fe25041f-db18-4555-a77a-e8d487143aa6
 keywords:

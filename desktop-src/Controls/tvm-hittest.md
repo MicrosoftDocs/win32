@@ -1,5 +1,5 @@
 ---
-title: TVM\_HITTEST message
+title: TVM_HITTEST message
 description: Determines the location of the specified point relative to the client area of a tree-view control. You can send this message explicitly or by using the TreeView\_HitTest macro.
 ms.assetid: 18ea3737-f429-4c10-9133-3b5729aa36fa
 keywords:

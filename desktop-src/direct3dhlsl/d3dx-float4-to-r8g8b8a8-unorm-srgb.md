@@ -1,5 +1,5 @@
 ---
-title: D3DX\_FLOAT4\_to\_R8G8B8A8\_UNORM\_SRGB function
+title: D3DX_FLOAT4_to_R8G8B8A8_UNORM_SRGB function
 description: Packs the given XMFLOAT4 back into a DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB.
 ms.assetid: 66580428-6f06-4e0c-bf89-01f03c7304ad
 keywords:

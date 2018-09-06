@@ -1,5 +1,5 @@
 ---
-title: LVN\_BEGINLABELEDIT notification code
+title: LVN_BEGINLABELEDIT notification code
 description: Notifies a list-view control's parent window about the start of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: c13a9e95-22a9-476e-aeee-4928b8b096b0
 keywords:

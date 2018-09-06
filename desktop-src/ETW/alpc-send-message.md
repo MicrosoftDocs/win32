@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for ALPC send message events. The following syntax is simplified from MOF code.
 ms.assetid: 7f12259b-f737-4bef-9dea-2ffe3517e0da
-title: ALPC\_Send\_Message class
+title: ALPC_Send_Message class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

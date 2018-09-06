@@ -1,6 +1,6 @@
 ---
 Description: Sent by a File Manager extension to retrieve a count of the selected files in the active File Manager window (either the directory window or the Search Results window).
-title: FM\_GETSELCOUNT message
+title: FM_GETSELCOUNT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Sent to a window that the user is resizing. By processing this message, an application can monitor the size and position of the drag rectangle and, if needed, change its size or position.
 ms.assetid: 8cf56194-8a10-48e1-b0eb-aa3d66896599
-title: WM\_SIZING message
+title: WM_SIZING message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

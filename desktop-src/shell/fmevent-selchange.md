@@ -1,6 +1,6 @@
 ---
 Description: Sent to an extension DLL when the user selects a file name in the File Manager directory window or Search Results window.
-title: FMEVENT\_SELCHANGE message
+title: FMEVENT_SELCHANGE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

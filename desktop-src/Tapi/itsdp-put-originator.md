@@ -1,7 +1,7 @@
 ---
 Description: The put\_Originator method sets the conference originator.
 ms.assetid: b70fc584-3536-4296-bc38-e20ff6630abc
-title: ITSdp::put\_Originator method
+title: ITSdp::put_Originator method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

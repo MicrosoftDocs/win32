@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSEnvironmentSetting class
+title: Win32_TSEnvironmentSetting class
 description: Defines the configuration settings for the Win32\_Terminal class including initial program policy.
 audience: developer
 author: REDMOND\\markl

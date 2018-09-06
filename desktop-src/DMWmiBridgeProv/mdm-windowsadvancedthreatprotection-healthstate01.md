@@ -1,5 +1,5 @@
 ---
-title: MDM\_WindowsAdvancedThreatProtection\_HealthState01 class
+title: MDM_WindowsAdvancedThreatProtection_HealthState01 class
 description: The MDM\_WindowsAdvancedThreatProtection\_HealthState01 class is used to determine the health status of Windows Defender Advanced Threat Protection (WDATP) endpoints.
 ms.assetid: 8d630b95-9895-4cb8-99f2-8f869c4dfd18
 keywords:

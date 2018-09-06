@@ -1,5 +1,5 @@
 ---
-title: ncacn\_http attribute
+title: ncacn_http attribute
 description: The ncacn\_http keyword identifies the Microsoft Internet Information Server (IIS) as the protocol family for the endpoint.
 ms.assetid: 92d2b44c-2eab-4474-826b-ccafd26db124
 keywords:

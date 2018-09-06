@@ -1,5 +1,5 @@
 ---
-title: TBM\_GETNUMTICS message
+title: TBM_GETNUMTICS message
 description: Retrieves the number of tick marks in a trackbar.
 ms.assetid: 3c3f7ebb-a544-474c-ba14-68eae543ee38
 keywords:

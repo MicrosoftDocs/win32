@@ -1,7 +1,7 @@
 ---
 Description: Returns the version number of the system renewability message (SRM) currently used by the video output.
 ms.assetid: 65d4b98b-369f-4863-a28c-f9e3b4c2b55d
-title: OPM\_GET\_CURRENT\_HDCP\_SRM\_VERSION
+title: OPM_GET_CURRENT_HDCP_SRM_VERSION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

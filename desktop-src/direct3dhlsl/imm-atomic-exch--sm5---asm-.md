@@ -1,5 +1,5 @@
 ---
-title: imm\_atomic\_exch (sm5 - asm)
+title: imm_atomic_exch (sm5 - asm)
 description: Immediate atomic exchange to memory.
 ms.assetid: D06AE57E-52A4-4579-84FF-7DE9E713A5E3
 ms.technology: desktop

@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseModernAppManagement\_AppManagement01\_03 class
+title: MDM_EnterpriseModernAppManagement_AppManagement01_03 class
 description: The MDM\_EnterpriseModernAppManagement\_AppManagement01\_03 class provides specific information about the app, such as name, version, and publisher.
 ms.assetid: 424e68de-1411-490f-b33b-5243ffa5a31e
 keywords:

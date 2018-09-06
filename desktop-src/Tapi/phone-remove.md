@@ -1,7 +1,7 @@
 ---
 Description: The TAPI PHONE\_REMOVE message is sent to inform an application of the removal (deletion from the system) of a phone device.
 ms.assetid: 7c888976-65da-477a-b5a6-6e78d5f603b1
-title: PHONE\_REMOVE message
+title: PHONE_REMOVE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

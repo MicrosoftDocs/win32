@@ -1,7 +1,7 @@
 ---
 Description: Gets the module path.
 ms.assetid: ff632357-8d4a-4de4-a69a-0be9e380639d
-title: '\_GetModuleFileName function'
+title: '_GetModuleFileName function'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

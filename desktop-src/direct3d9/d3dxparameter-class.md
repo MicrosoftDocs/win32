@@ -1,7 +1,7 @@
 ---
 Description: The type of object.
 ms.assetid: ab405984-2ebc-4514-9400-bdb13676eda5
-title: D3DXPARAMETER\_CLASS enumeration
+title: D3DXPARAMETER_CLASS enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

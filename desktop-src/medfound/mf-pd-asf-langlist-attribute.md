@@ -1,7 +1,7 @@
 ---
 Description: Specifies a list of language identifiers which specifies the languages contained in an Advanced Systems Format (ASF) file. This attribute corresponds to the Language List Object, defined in the ASF specification.
 ms.assetid: 07b8a991-b392-47c1-a6d7-a1f5dcc82e5c
-title: MF\_PD\_ASF\_LANGLIST attribute
+title: MF_PD_ASF_LANGLIST attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

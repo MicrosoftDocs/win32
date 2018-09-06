@@ -1,5 +1,5 @@
 ---
-title: DRM\_Rights
+title: DRM_Rights
 description: The DRM\_Rights property specifies the rights that the application will require in the next attempt to open a protected file.
 ms.assetid: fbf62e8d-069e-427b-9093-6c579cdaa96a
 keywords:

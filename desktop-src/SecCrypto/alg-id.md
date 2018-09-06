@@ -1,7 +1,7 @@
 ---
 Description: Specifies an algorithm identifier.
 ms.assetid: 557436b4-f7f1-4708-acc7-c6b47e6322ad
-title: ALG\_ID
+title: ALG_ID
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

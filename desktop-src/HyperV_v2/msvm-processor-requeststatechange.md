@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 6885b282-f1f6-40fe-ab28-b1c0dc061777
-title: RequestStateChange method of the Msvm\_Processor class
+title: RequestStateChange method of the Msvm_Processor class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

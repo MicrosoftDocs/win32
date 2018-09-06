@@ -1,5 +1,5 @@
 ---
-title: SetSmartcardAllowed method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: SetSmartcardAllowed method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the SmartcardAllowed property, which enables or disables support for using a smart card to connect to the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

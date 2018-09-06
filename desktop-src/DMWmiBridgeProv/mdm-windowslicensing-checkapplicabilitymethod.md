@@ -1,5 +1,5 @@
 ---
-title: CheckApplicabilityMethod method of the MDM\_WindowsLicensing class
+title: CheckApplicabilityMethod method of the MDM_WindowsLicensing class
 description: Checks if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices. See also, CheckApplicability.
 ms.assetid: b28ea397-72dd-4c10-a9fb-53087c3b654c
 keywords:

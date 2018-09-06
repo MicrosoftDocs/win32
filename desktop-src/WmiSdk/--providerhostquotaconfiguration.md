@@ -7,7 +7,7 @@ ms.assetid: 5f5ed1c6-bd1a-406d-a682-7a52059d9450
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ProviderHostQuotaConfiguration class'
+title: '__ProviderHostQuotaConfiguration class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

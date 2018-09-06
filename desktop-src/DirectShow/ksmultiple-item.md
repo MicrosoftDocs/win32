@@ -1,7 +1,7 @@
 ---
 Description: The KSMULTIPLE\_ITEM structure describes the size and count of variable-length properties on kernel-mode pins.
 ms.assetid: aedbf7bc-393d-4ab5-afcd-d8822b925f07
-title: KSMULTIPLE\_ITEM structure
+title: KSMULTIPLE_ITEM structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

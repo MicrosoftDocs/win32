@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CancelAllJobs method of the Win32\_Printer class
+title: CancelAllJobs method of the Win32_Printer class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

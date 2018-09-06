@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_FileSystem class
+title: CIM_FileSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

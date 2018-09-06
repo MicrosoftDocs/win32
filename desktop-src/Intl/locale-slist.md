@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SLIST
 ms.assetid: 02a20bf8-3996-4344-ba5d-4c2b7eaf6f2e
-title: LOCALE\_SLIST
+title: LOCALE_SLIST
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

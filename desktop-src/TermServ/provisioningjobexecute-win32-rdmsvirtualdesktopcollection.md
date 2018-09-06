@@ -1,5 +1,5 @@
 ---
-title: ProvisioningJobExecute method of the Win32\_RDMSVirtualDesktopCollection class
+title: ProvisioningJobExecute method of the Win32_RDMSVirtualDesktopCollection class
 description: Runs a virtual desktop provisioning job.
 audience: developer
 author: REDMOND\\markl

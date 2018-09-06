@@ -1,5 +1,5 @@
 ---
-title: CBEM\_SETITEM message
+title: CBEM_SETITEM message
 description: Sets the attributes for an item in a ComboBoxEx control.
 ms.assetid: 752df8ea-fd5e-47fa-b729-d019bdde0904
 keywords:

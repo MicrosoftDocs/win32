@@ -1,7 +1,7 @@
 ---
 Description: Indicates to the video sample allocator to create textures as shareable using the legacy mechanism.
 ms.assetid: A9F4D4AF-BB47-48E2-B40A-D0245FD61FAF
-title: MF\_SA\_D3D11\_SHARED\_WITHOUT\_MUTEX attribute
+title: MF_SA_D3D11_SHARED_WITHOUT_MUTEX attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

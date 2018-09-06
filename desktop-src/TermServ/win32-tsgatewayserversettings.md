@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayServerSettings class
+title: Win32_TSGatewayServerSettings class
 description: Provides methods and properties to view and configure Remote Desktop Gateway (RD Gateway) server settings.
 audience: developer
 author: REDMOND\\markl

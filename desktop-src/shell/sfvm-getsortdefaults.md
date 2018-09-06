@@ -1,6 +1,6 @@
 ---
 Description: Allows the callback object to specify a default sorting parameter. Used by IShellFolderViewCB::MessageSFVCB.
-title: SFVM\_GETSORTDEFAULTS message
+title: SFVM_GETSORTDEFAULTS message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

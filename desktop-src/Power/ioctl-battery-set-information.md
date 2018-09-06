@@ -1,7 +1,7 @@
 ---
 Description: Sets various battery information.
 ms.assetid: b827983d-5fb8-43f2-b732-541d16b3eb7b
-title: IOCTL\_BATTERY\_SET\_INFORMATION control code
+title: IOCTL_BATTERY_SET_INFORMATION control code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

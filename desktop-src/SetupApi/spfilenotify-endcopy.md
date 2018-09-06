@@ -1,7 +1,7 @@
 ---
 Description: The SPFILENOTIFY\_ENDCOPY notification is passed to the callback function when the queue completes a copy operation. This notification is sent even if the user cancels or if an error occurs.
 ms.assetid: d58dc397-8803-466c-9069-728faf2c2030
-title: SPFILENOTIFY\_ENDCOPY message
+title: SPFILENOTIFY_ENDCOPY message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

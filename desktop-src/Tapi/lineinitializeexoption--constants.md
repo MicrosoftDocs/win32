@@ -1,7 +1,7 @@
 ---
 Description: The LINEINITIALIZEEXOPTION\_ constants specify which event notification mechanism to use when initializing a session.
 ms.assetid: 77674a45-7133-4518-af47-a9d58392b80b
-title: LINEINITIALIZEEXOPTION\_ Constants
+title: LINEINITIALIZEEXOPTION_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

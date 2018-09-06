@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_SAMPLE\_MASK structure
+title: CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK structure
 description: A helper structure used to describe a sample mask as a single object suitable for a stream description.
 ms.assetid: 20116DA1-F56D-42CA-A846-42509FAF88C1
 keywords:

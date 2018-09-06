@@ -1,5 +1,5 @@
 ---
-title: D3DX\_R10G10B10A2\_UINT\_to\_UINT4 function
+title: D3DX_R10G10B10A2_UINT_to_UINT4 function
 description: Unpacks DXGI\_FORMAT\_R10G10B10A2\_UINT shader data to an XMINT4.
 ms.assetid: 47c4f11f-936a-46d5-9533-1a4f9fce6168
 keywords:

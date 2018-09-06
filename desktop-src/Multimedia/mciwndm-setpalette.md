@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_SETPALETTE message
+title: MCIWNDM_SETPALETTE message
 description: The MCIWNDM\_SETPALETTE message sends a palette handle to the MCI device associated with the MCIWnd window. You can send this message explicitly or by using the MCIWndSetPalette macro.
 ms.assetid: d2399cb7-d83c-465c-b02f-e6a016c28ae3
 keywords:

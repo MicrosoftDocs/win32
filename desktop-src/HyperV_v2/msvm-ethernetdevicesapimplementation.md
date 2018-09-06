@@ -1,7 +1,7 @@
 ---
 Description: Represents an association between a service access point and the logical device that implements it.
 ms.assetid: C0DDB199-AD97-4DD7-8056-BD6BD0CECFA8
-title: Msvm\_EthernetDeviceSAPImplementation class
+title: Msvm_EthernetDeviceSAPImplementation class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

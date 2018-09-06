@@ -1,7 +1,7 @@
 ---
 Description: The LABELED\_SYSTEMTIME structure defines a label that is displayed when a specific SYSTEMTIME property value is detected.
 ms.assetid: 307b490a-af8e-4f2a-a45a-33a84fcb4d5c
-title: LABELED\_SYSTEMTIME structure
+title: LABELED_SYSTEMTIME structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

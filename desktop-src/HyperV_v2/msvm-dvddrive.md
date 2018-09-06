@@ -1,7 +1,7 @@
 ---
 Description: Represents a DVD drive inside of a virtual machine.
 ms.assetid: BA813950-436F-46F1-8C1F-79C5AB1A459B
-title: Msvm\_DVDDrive class
+title: Msvm_DVDDrive class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

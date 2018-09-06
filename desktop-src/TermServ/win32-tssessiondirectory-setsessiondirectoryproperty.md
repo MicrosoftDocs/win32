@@ -1,5 +1,5 @@
 ---
-title: SetSessionDirectoryProperty method of the Win32\_TSSessionDirectory class
+title: SetSessionDirectoryProperty method of the Win32_TSSessionDirectory class
 description: Sets the SessionDirectoryLocation property or the SessionDirectoryClusterName property for the class.
 audience: developer
 author: REDMOND\\markl

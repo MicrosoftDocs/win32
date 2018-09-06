@@ -1,7 +1,7 @@
 ---
 Description: Initiates a failover for a virtual machine to an application or standard replication point image.
 ms.assetid: cd7e9398-c234-4637-906d-69b46ebf3f51
-title: InitiateFailover method of the Msvm\_ReplicationService class
+title: InitiateFailover method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_SIGType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_SIGType class
 description: The CreateInstanceFromPropertyData method instantiates a Signature (SIG) Resource Record.
 ms.assetid: 8e83e56f-d2b3-4b71-be70-7d2640d49845
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies Analog Copy Protection (ACP) protection.
 ms.assetid: A7D8EE13-0558-488E-A097-F1F3C1D3DD41
-title: MFPROTECTION\_ACP attribute
+title: MFPROTECTION_ACP attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

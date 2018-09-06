@@ -1,7 +1,7 @@
 ---
 Description: Represents an association between a service access point (SAP) and a logical device that implements it.
 ms.assetid: 40c8111a-d439-4c0f-805e-9c10d7182eb4
-title: CIM\_DeviceSAPImplementation class
+title: CIM_DeviceSAPImplementation class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

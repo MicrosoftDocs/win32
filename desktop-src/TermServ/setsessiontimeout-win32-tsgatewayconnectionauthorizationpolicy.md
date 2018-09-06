@@ -1,5 +1,5 @@
 ---
-title: SetSessionTimeout method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: SetSessionTimeout method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the SessionTimeout and SessionTimeoutAction properties.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLicenseReportEntry class
+title: Win32_TSLicenseReportEntry class
 description: Provides details of the issued Remote Desktop Services Per User client access license (RDS \ 160;Per User CAL).
 audience: developer
 author: REDMOND\\markl

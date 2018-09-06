@@ -7,7 +7,7 @@ ms.assetid: 8a4daab0-7d10-4a37-aacd-1f3f499b859a
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.Derivation\_ property
+title: SWbemObject.Derivation_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

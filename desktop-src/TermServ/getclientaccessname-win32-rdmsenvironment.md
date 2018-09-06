@@ -1,5 +1,5 @@
 ---
-title: GetClientAccessName method of the Win32\_RDMSEnvironment class
+title: GetClientAccessName method of the Win32_RDMSEnvironment class
 description: Retrieves the Domain Name System (DNS) resource record (RR) name of the Remote Desktop Management Services (RDMS) environment.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: Packages the object type, version, and size information that is required in many NDIS 6.0 structures.
 ms.assetid: 0dfb6022-1d8d-4bd9-bde3-2ee6d683f223
-title: NDIS\_OBJECT\_HEADER structure
+title: NDIS_OBJECT_HEADER structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

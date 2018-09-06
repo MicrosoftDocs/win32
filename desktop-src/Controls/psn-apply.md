@@ -1,5 +1,5 @@
 ---
-title: PSN\_APPLY notification code
+title: PSN_APPLY notification code
 description: Sent to every page in the property sheet to indicate that the user has clicked the OK, Close, or Apply button and wants all changes to take effect. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 18da6bdb-9409-49b6-8116-580fedd99a02
 keywords:

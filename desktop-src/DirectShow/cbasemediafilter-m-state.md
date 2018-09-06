@@ -1,7 +1,7 @@
 ---
 Description: Indicates the current state of the object.
 ms.assetid: 5a642fff-5855-4b5e-8682-5f7fdf1254cb
-title: CBaseMediaFilter::m\_State member
+title: CBaseMediaFilter::m_State member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

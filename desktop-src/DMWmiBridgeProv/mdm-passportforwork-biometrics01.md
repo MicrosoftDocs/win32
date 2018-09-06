@@ -1,5 +1,5 @@
 ---
-title: MDM\_PassportForWork\_Biometrics01 class
+title: MDM_PassportForWork_Biometrics01 class
 description: The MDM\_PassportForWork\_Biometrics01 class defines biometric settings.
 ms.assetid: 64012526-eac6-4f01-8665-2bd460bc1b93
 keywords:

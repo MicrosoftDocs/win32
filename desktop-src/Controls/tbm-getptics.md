@@ -1,5 +1,5 @@
 ---
-title: TBM\_GETPTICS message
+title: TBM_GETPTICS message
 description: Retrieves the address of an array that contains the positions of the tick marks for a trackbar.
 ms.assetid: d15a4b4d-2ced-40a4-9351-ed7ecc5a5751
 keywords:

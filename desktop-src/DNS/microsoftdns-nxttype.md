@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_NXTType class
+title: MicrosoftDNS_NXTType class
 description: Subclass of MicrosoftDNS\_ResourceRecord that represents a Next (NXT) RR.
 ms.assetid: bb24509e-083b-4432-89e3-501167f12299
 keywords:

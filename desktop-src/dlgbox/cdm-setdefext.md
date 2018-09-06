@@ -1,5 +1,5 @@
 ---
-title: CDM\_SETDEFEXT message
+title: CDM_SETDEFEXT message
 description: Sets the default file name extension for an Explorer-style Open or Save As dialog box.
 ms.assetid: bd4999f1-0a7e-4b7f-a0ba-a7c2a7f196c6
 keywords:

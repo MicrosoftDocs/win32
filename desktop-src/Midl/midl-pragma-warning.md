@@ -1,5 +1,5 @@
 ---
-title: midl\_pragma warning attribute
+title: midl_pragma warning attribute
 description: Use the midl\_pragma warning option to temporarily override MIDL's warning message behavior at compile time.
 ms.assetid: d32a3d3f-5c4d-4f93-a72a-2224ceed0012
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Config01\_Desktop02 class
+title: MDM_Policy_User_Config01_Desktop02 class
 description: The MDM\_Policy\_User\_Config01\_Desktop02 class represents the available folder profile policies.
 ms.assetid: 44a60c60-bae5-44b2-b096-387c915e2692
 keywords:

@@ -7,7 +7,7 @@ ms.assetid: 1ade1751-52a2-4ada-8255-323321111663
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_SecurityDescriptor class'
+title: '__SecurityDescriptor class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

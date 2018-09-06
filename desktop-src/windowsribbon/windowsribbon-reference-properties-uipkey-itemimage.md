@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_ItemImage
+title: UI_PKEY_ItemImage
 description: Identifies the UI\_PKEY\_ItemImage property.
 ms.assetid: 71bc7917-eb15-4cde-b11d-7d449f95cd50
 ms.technology: desktop

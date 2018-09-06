@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the filter graph manager.
 ms.assetid: ad736a2d-1dc5-4be9-8b9b-d2cfb87f2576
-title: CBaseFilter::m\_pGraph member
+title: CBaseFilter::m_pGraph member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

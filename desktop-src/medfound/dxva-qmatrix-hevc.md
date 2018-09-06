@@ -1,7 +1,7 @@
 ---
 Description: Defines a quantization matrix.
 ms.assetid: 44a5c81f-98d8-4b16-a467-433bae781691
-title: DXVA\_Qmatrix\_HEVC structure
+title: DXVA_Qmatrix_HEVC structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

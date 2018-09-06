@@ -1,7 +1,7 @@
 ---
 Description: This property sends a command to the device to search for a specified time code. The UVC device driver supports this property.
 ms.assetid: 0502d59a-0a9e-4192-af9f-1553cd13a69c
-title: KSPROPERTY\_EXTXPORT\_TIMECODE\_SEARCH
+title: KSPROPERTY_EXTXPORT_TIMECODE_SEARCH
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

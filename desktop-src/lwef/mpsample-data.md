@@ -1,5 +1,5 @@
 ---
-title: MPSAMPLE\_DATA structure
+title: MPSAMPLE_DATA structure
 description: Notification data passed to the sample submission callback function.
 ms.assetid: 58F348C6-411D-4545-9D4D-A80095FD139B
 keywords:

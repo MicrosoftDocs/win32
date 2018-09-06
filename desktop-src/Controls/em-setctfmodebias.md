@@ -1,5 +1,5 @@
 ---
-title: EM\_SETCTFMODEBIAS message
+title: EM_SETCTFMODEBIAS message
 description: Sets the Text Services Framework (TSF) mode bias for a rich edit control.
 ms.assetid: 17e3aac8-2ba8-4c06-bfd6-e118cfb82529
 keywords:

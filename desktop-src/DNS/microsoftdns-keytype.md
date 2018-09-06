@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_KEYType class
+title: MicrosoftDNS_KEYType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a KEY Resource Record.
 ms.assetid: d3fa1f35-fa0a-47ee-b2be-4464b9b21d80
 keywords:

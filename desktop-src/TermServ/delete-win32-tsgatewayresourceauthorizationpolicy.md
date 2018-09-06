@@ -1,5 +1,5 @@
 ---
-title: Delete method of the Win32\_TSGatewayResourceAuthorizationPolicy class
+title: Delete method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Deletes the current Remote Desktop resource authorization policy (RD \ 160;RAP).
 audience: developer
 author: REDMOND\\markl

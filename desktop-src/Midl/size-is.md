@@ -1,5 +1,5 @@
 ---
-title: size\_is attribute
+title: size_is attribute
 description: Use the \ size\_is\ attribute to specify the size of memory, in elements, allocated for sized pointers, sized pointers to sized pointers, and single- or multidimensional arrays.
 ms.assetid: 1f3f3629-f668-460d-86fd-16ef22449973
 keywords:

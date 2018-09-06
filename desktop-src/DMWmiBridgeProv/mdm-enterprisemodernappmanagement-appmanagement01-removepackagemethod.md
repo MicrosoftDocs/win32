@@ -1,5 +1,5 @@
 ---
-title: RemovePackageMethod method of the MDM\_EnterpriseModernAppManagement\_AppManagement01 class
+title: RemovePackageMethod method of the MDM_EnterpriseModernAppManagement_AppManagement01 class
 description: Method for removing packages. See also RemovePackage.
 ms.assetid: 0f48fd9c-5a3f-48e5-a954-e937e79af049
 keywords:

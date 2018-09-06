@@ -1,5 +1,5 @@
 ---
-title: RB\_INSERTBAND message
+title: RB_INSERTBAND message
 description: Inserts a new band in a rebar control.
 ms.assetid: ac621f65-b8ab-41d6-928d-a48fbea572e7
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: NM\_TVSTATEIMAGECHANGING notification code
+title: NM_TVSTATEIMAGECHANGING notification code
 description: Sent by a tree-view control to its parent window that the state image is changing. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 8e42d8b3-5e76-4d03-94b0-3e4583669095
 keywords:

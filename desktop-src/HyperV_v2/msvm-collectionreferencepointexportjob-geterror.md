@@ -1,7 +1,7 @@
 ---
 Description: Retrieves an error.
 ms.assetid: 7c47acae-d398-4698-81db-e3c8a812f339
-title: GetError method of the Msvm\_CollectionReferencePointExportJob class
+title: GetError method of the Msvm_CollectionReferencePointExportJob class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

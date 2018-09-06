@@ -1,7 +1,7 @@
 ---
 Description: Typedef for the REGPINTYPES structure.
 ms.assetid: 606e48b0-6b71-41b3-b634-227bf973bc0c
-title: AMOVIESETUP\_MEDIATYPE structure
+title: AMOVIESETUP_MEDIATYPE structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: The TSPI LINE\_SENDDIALOGINSTANCEDATA message causes TAPI to call the TUISPI\_providerGenericDialogData function in the UI DLL associated with htDlgInst, passing it the parameter block pointed to by lpParams, of length dwSize.
 ms.assetid: d3c176ba-8b4b-4b7c-a603-130dfa761898
-title: LINE\_SENDDIALOGINSTANCEDATA message
+title: LINE_SENDDIALOGINSTANCEDATA message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

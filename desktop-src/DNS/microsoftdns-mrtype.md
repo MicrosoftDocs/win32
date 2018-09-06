@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_MRType class
+title: MicrosoftDNS_MRType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mailbox Rename (MR) record.
 ms.assetid: fa5da18f-121b-477b-8876-6e337382e9b8
 keywords:

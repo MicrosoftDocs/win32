@@ -1,5 +1,5 @@
 ---
-title: RefreshCertContext method of the Win32\_TSGatewayServerSettings class
+title: RefreshCertContext method of the Win32_TSGatewayServerSettings class
 description: Refreshes the certificate that is used by the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

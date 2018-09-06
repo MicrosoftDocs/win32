@@ -1,7 +1,7 @@
 ---
 Description: The filter graph is shutting down, prior to being destroyed.
 ms.assetid: f1b3fc87-16ec-485b-b659-fc7d975c4a22
-title: EC\_SHUTTING\_DOWN
+title: EC_SHUTTING_DOWN
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

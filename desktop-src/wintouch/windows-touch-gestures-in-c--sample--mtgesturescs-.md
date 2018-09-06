@@ -1,5 +1,5 @@
 ---
-title: Windows Touch Gestures in C\ Sample (MTGesturesCS)
+title: Windows Touch Gestures in C Sample (MTGesturesCS)
 description: This section describes the Windows Touch Gestures sample in C\ .
 ms.assetid: 4b2d70bb-47e4-4448-97e2-6f6e29d1dfdf
 keywords:

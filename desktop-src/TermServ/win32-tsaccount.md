@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSAccount class
+title: Win32_TSAccount class
 description: Allows deletion of an account that exists on the Win32\_Terminal and modification of existing permissions.
 audience: developer
 author: REDMOND\\markl

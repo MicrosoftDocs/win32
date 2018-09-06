@@ -1,7 +1,7 @@
 ---
 Description: Provides the ability to return a filtered list of CIM\_BaseMetricValue instances.
 ms.assetid: c207a0ef-11f1-42c4-af77-3dcf3fbff8a7
-title: GetMetricValues method of the CIM\_MetricService class
+title: GetMetricValues method of the CIM_MetricService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

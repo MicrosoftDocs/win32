@@ -1,5 +1,5 @@
 ---
-title: TTM\_HITTEST message
+title: TTM_HITTEST message
 description: Tests a point to determine whether it is within the bounding rectangle of the specified tool and, if it is, retrieves information about the tool.
 ms.assetid: d4dcc29b-c64c-41b8-a153-300df68ecdf5
 keywords:

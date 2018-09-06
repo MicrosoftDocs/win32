@@ -1,5 +1,5 @@
 ---
-title: TB\_SETINSERTMARK message
+title: TB_SETINSERTMARK message
 description: Sets the current insertion mark for the toolbar.
 ms.assetid: 9a576fca-89cf-4db5-9840-35bfa56af89e
 keywords:

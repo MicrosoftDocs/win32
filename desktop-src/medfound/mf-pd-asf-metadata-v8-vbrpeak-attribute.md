@@ -1,7 +1,7 @@
 ---
 Description: Specifies the highest momentary bit rate in a variable bit rate (VBR) Advanced Systems Format (ASF) file.
 ms.assetid: a31f447d-b718-4f8d-b0d5-643497339557
-title: MF\_PD\_ASF\_METADATA\_V8\_VBRPEAK attribute
+title: MF_PD_ASF_METADATA_V8_VBRPEAK attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

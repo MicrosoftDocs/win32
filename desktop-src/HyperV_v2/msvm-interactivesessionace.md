@@ -1,7 +1,7 @@
 ---
 Description: Represents an access control entry (ACE) that determines access to the interactive session of a virtual machine.
 ms.assetid: dfec83d6-8033-47b5-aa6f-fc7447a29f43
-title: Msvm\_InteractiveSessionACE class
+title: Msvm_InteractiveSessionACE class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: LB\_GETITEMHEIGHT message
+title: LB_GETITEMHEIGHT message
 description: Gets the height of items in a list box.
 ms.assetid: ee96fce6-babd-4581-ac0e-2eb955fe543b
 keywords:

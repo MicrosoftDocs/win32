@@ -1,5 +1,5 @@
 ---
-title: WriteBackRootHintDatafile method of the MicrosoftDNS\_RootHints class
+title: WriteBackRootHintDatafile method of the MicrosoftDNS_RootHints class
 description: The WriteBackRootHintDatafile method writes the RootHints back to the DNS Cache file.
 ms.assetid: 5c3d598b-ee84-4483-a434-2f24419847b2
 keywords:

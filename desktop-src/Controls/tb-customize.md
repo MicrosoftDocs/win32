@@ -1,5 +1,5 @@
 ---
-title: TB\_CUSTOMIZE message
+title: TB_CUSTOMIZE message
 description: Displays the Customize Toolbar dialog box.
 ms.assetid: 45249467-d585-4ffd-8bbe-e39739059c40
 keywords:

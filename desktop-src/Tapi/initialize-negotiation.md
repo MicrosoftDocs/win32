@@ -1,7 +1,7 @@
 ---
 Description: The INITIALIZE\_NEGOTIATION datatype is a special value of type DWORD.
 ms.assetid: ce978913-47a1-4387-bd1b-1795aaf82dd7
-title: INITIALIZE\_NEGOTIATION
+title: INITIALIZE_NEGOTIATION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

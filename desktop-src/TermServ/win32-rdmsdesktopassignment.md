@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSDesktopAssignment class
+title: Win32_RDMSDesktopAssignment class
 description: Describes the RD collection User Desktop assignment.
 audience: developer
 author: REDMOND\\markl

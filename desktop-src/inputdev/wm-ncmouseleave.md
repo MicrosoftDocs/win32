@@ -1,5 +1,5 @@
 ---
-title: WM\_NCMOUSELEAVE message
+title: WM_NCMOUSELEAVE message
 description: Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to TrackMouseEvent.
 ms.assetid: b3ada6db-93ce-45d7-b408-d08692328aeb
 keywords:

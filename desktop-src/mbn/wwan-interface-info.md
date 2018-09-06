@@ -1,7 +1,7 @@
 ---
 Description: Describes a wide area network (WWAN) interface.
 ms.assetid: CA85DE48-50AE-47D7-9F4F-5F7B574C67B3
-title: WWAN\_INTERFACE\_INFO structure
+title: WWAN_INTERFACE_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

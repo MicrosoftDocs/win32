@@ -7,7 +7,7 @@ ms.assetid: 00e726b6-970a-4aa9-addb-1c52ad977728
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_SecurityRelatedClass class'
+title: '__SecurityRelatedClass class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

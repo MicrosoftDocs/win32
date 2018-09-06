@@ -1,7 +1,7 @@
 ---
 Description: Specifies that the current frame is encoded using one or multiple LTR frames.
 ms.assetid: 51FD6E36-9CDF-4005-942F-7A92CA706F38
-title: CODECAPI\_AVEncVideoUseLTRFrame property
+title: CODECAPI_AVEncVideoUseLTRFrame property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

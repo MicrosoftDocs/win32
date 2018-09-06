@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_SRVType class
+title: Modify method of the MicrosoftDNS_SRVType class
 description: The Modify method updates a Service (SRV) Resource Record.
 ms.assetid: 626483c9-4b36-4e62-b9ad-dd7bb18f2e1e
 keywords:

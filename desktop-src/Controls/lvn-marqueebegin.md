@@ -1,5 +1,5 @@
 ---
-title: LVN\_MARQUEEBEGIN notification code
+title: LVN_MARQUEEBEGIN notification code
 description: Notifies a list-view control's parent window that a bounding box (marquee) selection has begun. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e9daa264-1861-4791-9a12-cf95d86a688e
 keywords:

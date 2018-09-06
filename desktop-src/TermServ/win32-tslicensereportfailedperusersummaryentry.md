@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLicenseReportFailedPerUserSummaryEntry class
+title: Win32_TSLicenseReportFailedPerUserSummaryEntry class
 description: Provides details of the domains to which Per User Issuance was failed.
 audience: developer
 author: REDMOND\\markl

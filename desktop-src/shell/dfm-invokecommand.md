@@ -1,6 +1,6 @@
 ---
 Description: Sent by the default context menu implementation to request the callback function that handles the menu (LPFNDFMCALLBACK) to invoke a menu command.
-title: DFM\_INVOKECOMMAND message
+title: DFM_INVOKECOMMAND message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

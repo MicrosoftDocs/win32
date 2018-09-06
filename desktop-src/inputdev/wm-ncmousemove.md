@@ -1,5 +1,5 @@
 ---
-title: WM\_NCMOUSEMOVE message
+title: WM_NCMOUSEMOVE message
 description: Posted to a window when the cursor is moved within the nonclient area of the window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 49c7cde9-701c-4821-8d16-31ca3c016ed4
 keywords:

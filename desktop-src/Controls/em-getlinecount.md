@@ -1,5 +1,5 @@
 ---
-title: EM\_GETLINECOUNT message
+title: EM_GETLINECOUNT message
 description: Gets the number of lines in a multiline edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 9fe63c10-7395-4f98-a672-14960a70d14f
 keywords:

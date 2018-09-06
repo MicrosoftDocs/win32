@@ -1,5 +1,5 @@
 ---
-title: dcl\_maxOutputVertexCount (sm4 - asm)
+title: dcl_maxOutputVertexCount (sm4 - asm)
 description: dcl\_maxOutputVertexCount (sm4 - asm)
 ms.assetid: 91eb2dfc-f4ff-4f23-9cb4-ec5fdb676157
 ms.technology: desktop

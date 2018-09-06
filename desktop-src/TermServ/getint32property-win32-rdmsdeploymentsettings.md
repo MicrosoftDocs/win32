@@ -1,5 +1,5 @@
 ---
-title: GetInt32Property method of the Win32\_RDMSDeploymentSettings class
+title: GetInt32Property method of the Win32_RDMSDeploymentSettings class
 description: Retrieves an integer property for the deployment settings of a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

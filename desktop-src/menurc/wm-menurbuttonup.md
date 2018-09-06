@@ -1,5 +1,5 @@
 ---
-title: WM\_MENURBUTTONUP message
+title: WM_MENURBUTTONUP message
 description: Sent when the user releases the right mouse button while the cursor is on a menu item.
 ms.assetid: e061cba0-6aea-4df4-a39a-7e55f0db45c0
 keywords:

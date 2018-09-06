@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_PAL\_AUTOCREATE message
+title: WM_CAP_PAL_AUTOCREATE message
 description: The WM\_CAP\_PAL\_AUTOCREATE message requests that the capture driver sample video frames and automatically create a new palette. You can send this message explicitly or by using the capPaletteAuto macro.
 ms.assetid: b94d245d-adf4-4fe0-b053-87109ef5fd2f
 keywords:

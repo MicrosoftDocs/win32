@@ -7,7 +7,7 @@ ms.assetid: 8cbbec60-3b8a-4390-97b6-1cb616e5b944
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemMethod.Qualifiers\_ property
+title: SWbemMethod.Qualifiers_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

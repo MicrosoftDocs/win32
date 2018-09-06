@@ -1,5 +1,5 @@
 ---
-title: TB\_GETMETRICS message
+title: TB_GETMETRICS message
 description: Retrieves the metrics of a toolbar control.
 ms.assetid: 19c735cf-09f8-443e-8a73-dd64af0193a1
 keywords:

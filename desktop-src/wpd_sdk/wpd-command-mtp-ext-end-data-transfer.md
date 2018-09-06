@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER command completes a data transfer and read response from the device.
 ms.assetid: df2da2e6-ed5a-41a1-be30-844c0d6b409b
-title: WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER Command
+title: WPD_COMMAND_MTP_EXT_END_DATA_TRANSFER Command
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

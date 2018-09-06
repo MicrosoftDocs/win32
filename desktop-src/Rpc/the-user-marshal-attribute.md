@@ -1,5 +1,5 @@
 ---
-title: The user\_marshal Attribute
+title: The user_marshal Attribute
 description: The \ user\_marshal\ attribute is an ACF-type attribute similar in syntax to \ represent\_as\ .
 ms.assetid: 5a381b44-e271-4713-954f-a55840a92bb7
 keywords:

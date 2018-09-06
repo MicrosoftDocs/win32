@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_SETACTIVETIMER message
+title: MCIWNDM_SETACTIVETIMER message
 description: The MCIWNDM\_SETACTIVETIMER message sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is active. You can send this message explicitly or by using the MCIWndSetActiveTimer macro.
 ms.assetid: a30c0091-d9bb-44a3-a7b0-d1be30adcd9c
 keywords:

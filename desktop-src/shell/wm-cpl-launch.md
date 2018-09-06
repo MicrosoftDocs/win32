@@ -1,6 +1,6 @@
 ---
 Description: This message is not supported.
-title: WM\_CPL\_LAUNCH message
+title: WM_CPL_LAUNCH message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

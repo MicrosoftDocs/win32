@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_GPU\_DESCRIPTOR\_HANDLE structure
+title: CD3DX12_GPU_DESCRIPTOR_HANDLE structure
 description: A helper structure to enable easy initialization of a D3D12\_GPU\_DESCRIPTOR\_HANDLE structure.
 ms.assetid: 6E405AD6-D370-4B87-849A-C52D64C79BF7
 keywords:

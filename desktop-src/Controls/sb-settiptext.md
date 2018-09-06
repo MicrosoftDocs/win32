@@ -1,5 +1,5 @@
 ---
-title: SB\_SETTIPTEXT message
+title: SB_SETTIPTEXT message
 description: Sets the tooltip text for a part in a status bar. The status bar must have been created with the SBT\_TOOLTIPS style to enable tooltips.
 ms.assetid: 8fc3cc00-9742-4861-b2c2-b8aa30f75aaa
 keywords:

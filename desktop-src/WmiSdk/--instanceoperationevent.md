@@ -7,7 +7,7 @@ ms.assetid: f6d2b6e5-0dca-4cb5-95a5-33b45cd76807
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_InstanceOperationEvent class'
+title: '__InstanceOperationEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

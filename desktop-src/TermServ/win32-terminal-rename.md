@@ -1,5 +1,5 @@
 ---
-title: Rename method of the Win32\_Terminal class
+title: Rename method of the Win32_Terminal class
 description: The Rename method renames the terminal.
 audience: developer
 author: REDMOND\\markl

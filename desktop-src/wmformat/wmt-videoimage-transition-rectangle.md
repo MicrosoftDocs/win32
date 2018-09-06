@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_RECTANGLE
+title: WMT_VIDEOIMAGE_TRANSITION_RECTANGLE
 description: The rectangle transition reveals the new image in a rectangle within the frame.
 ms.assetid: 2e238cd5-1da5-4145-a44d-b2658559fa0f
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Converts an integer value.
 ms.assetid: 2c1e4af8-c2d5-4d83-bf9c-ae28ef1a9ad3
-title: '\_MAKEINTRESOURCE function'
+title: '_MAKEINTRESOURCE function'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

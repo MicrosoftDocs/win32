@@ -1,7 +1,7 @@
 ---
 Description: Number of audio channels in an audio media type.
 ms.assetid: 524283fb-d046-4f8c-a30f-4fe7ddb43174
-title: MF\_MT\_AUDIO\_NUM\_CHANNELS attribute
+title: MF_MT_AUDIO_NUM_CHANNELS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

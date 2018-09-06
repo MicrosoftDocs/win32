@@ -1,7 +1,7 @@
 ---
 Description: Pointer to a critical section object that protects the filter state.
 ms.assetid: e733360d-ed95-493f-a85b-53d584681f60
-title: CBasePin::m\_pLock member
+title: CBasePin::m_pLock member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

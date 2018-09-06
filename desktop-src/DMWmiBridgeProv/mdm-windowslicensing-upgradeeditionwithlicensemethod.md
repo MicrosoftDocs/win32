@@ -1,5 +1,5 @@
 ---
-title: UpgradeEditionWithLicenseMethod method of the MDM\_WindowsLicensing class
+title: UpgradeEditionWithLicenseMethod method of the MDM_WindowsLicensing class
 description: Method for providing a license for an edition upgrade of Windows 10 mobile devices. See also, UpgradeEditionWithLicense.
 ms.assetid: 1a57fb71-eea6-41bf-bc44-6d3a816096a4
 keywords:

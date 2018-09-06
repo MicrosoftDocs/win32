@@ -1,7 +1,7 @@
 ---
 Description: The TSPI LINE\_CREATEDIALOGINSTANCE message causes TAPI to create an association between the service provider and an instance of the TUISPI\_providerGenericDialog function executing in the context of the application.
 ms.assetid: 5a7e34bc-1dc3-40c4-b07e-de5b88cbcd75
-title: LINE\_CREATEDIALOGINSTANCE message
+title: LINE_CREATEDIALOGINSTANCE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

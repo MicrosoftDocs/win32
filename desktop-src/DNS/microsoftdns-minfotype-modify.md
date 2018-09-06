@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_MINFOType class
+title: Modify method of the MicrosoftDNS_MINFOType class
 description: The Modify method updates a Mail Information (MINFO) Resource Record.
 ms.assetid: fbec0cd3-f735-44c6-b010-80f35cc33d98
 keywords:

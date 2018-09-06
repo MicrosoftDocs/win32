@@ -1,5 +1,5 @@
 ---
-title: EM\_GETIMEOPTIONS message
+title: EM_GETIMEOPTIONS message
 description: Retrieves the current Input Method Editor (IME) options.
 ms.assetid: 81ec89b9-dabd-487e-805e-e3c2e58e3068
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: This class is the parent class for TCP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: f43ef400-e4e5-4cf3-b7a9-437f9a88e6ca
-title: TcpIp\_V1 class
+title: TcpIp_V1 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

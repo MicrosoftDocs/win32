@@ -1,7 +1,7 @@
 ---
 Description: Gets metric values.
 ms.assetid: 71c614ef-a005-45aa-9999-a19dc9f9c0df
-title: GetMetricValues method of the Msvm\_MetricService class
+title: GetMetricValues method of the Msvm_MetricService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

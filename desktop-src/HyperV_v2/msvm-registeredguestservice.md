@@ -1,7 +1,7 @@
 ---
 Description: Represents an association between an instance of Msvm\_GuestServiceInterfaceComponent and an instance of Msvm\_GuestService, which represents a service running in the guest.
 ms.assetid: 246CFAC1-7D83-4DE7-B9D3-96326511E08B
-title: Msvm\_RegisteredGuestService class
+title: Msvm_RegisteredGuestService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: EnableUserVhd method of the Win32\_TSSessionDirectory class
+title: EnableUserVhd method of the Win32_TSSessionDirectory class
 description: Enables a user profile VHD on an RDSH server.
 audience: developer
 author: REDMOND\\markl

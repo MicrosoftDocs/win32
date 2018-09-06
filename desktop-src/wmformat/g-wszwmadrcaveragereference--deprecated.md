@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMADRCAverageReference
+title: g_wszWMADRCAverageReference
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 422a2024-7dfd-4f76-a9e1-437eb5aa7adf
 keywords:

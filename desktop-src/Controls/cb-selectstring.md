@@ -1,5 +1,5 @@
 ---
-title: CB\_SELECTSTRING message
+title: CB_SELECTSTRING message
 description: Searches the list of a combo box for an item that begins with the characters in a specified string. If a matching item is found, it is selected and copied to the edit control.
 ms.assetid: c08dff72-7e44-40ed-8b64-513359292829
 keywords:

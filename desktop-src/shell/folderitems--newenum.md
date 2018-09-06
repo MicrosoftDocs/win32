@@ -1,6 +1,6 @@
 ---
 Description: Creates and returns a new FolderItems object that is a copy of this FolderItemsss object.
-title: FolderItems.\_NewEnum method
+title: FolderItems._NewEnum method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

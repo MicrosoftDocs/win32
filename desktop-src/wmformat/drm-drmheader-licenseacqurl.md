@@ -1,5 +1,5 @@
 ---
-title: DRM\_DRMHeader\_LicenseAcqURL
+title: DRM_DRMHeader_LicenseAcqURL
 description: The DRM\_DRMHeader\_LicenseAcqURL attribute contains the license acquisition URL for a DRM version 7 license.
 ms.assetid: 00c788b4-b291-4df5-9926-0badc7357faf
 keywords:

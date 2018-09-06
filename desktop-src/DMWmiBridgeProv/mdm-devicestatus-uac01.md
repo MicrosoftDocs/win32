@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_UAC01 class
+title: MDM_DeviceStatus_UAC01 class
 description: The MDM\_DeviceStatus\_UAC01 class is used by the enterprise to query the UAC status of devices with their enterprise policies.
 ms.assetid: fb1ca1bb-229e-4eaa-a1e3-e790c1dab760
 keywords:

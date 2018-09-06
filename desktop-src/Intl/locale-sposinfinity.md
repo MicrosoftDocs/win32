@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SPOSINFINITY
 ms.assetid: e3bb9a2a-8cf6-4919-b958-4583ccf1d592
-title: LOCALE\_SPOSINFINITY
+title: LOCALE_SPOSINFINITY
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

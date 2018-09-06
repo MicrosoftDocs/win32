@@ -1,7 +1,7 @@
 ---
 Description: Using SIO\_MULTIPOINT\_LOOPBACK command code to enable or disable loopback of multipoint traffic.
 ms.assetid: 7e11932b-ce9a-4500-888f-8a08ab67b46c
-title: SIO\_MULTIPOINT\_LOOPBACK Ioctl
+title: SIO_MULTIPOINT_LOOPBACK Ioctl
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

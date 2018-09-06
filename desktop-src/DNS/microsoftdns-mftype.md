@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_MFType class
+title: MicrosoftDNS_MFType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mail Forwarding Agent for Domain (MF) record.
 ms.assetid: 0ba0fddd-c316-4a5b-ad65-6344dbe949c1
 keywords:

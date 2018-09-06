@@ -1,5 +1,5 @@
 ---
-title: DRM\_ActionAllowed\_CollaborativePlay
+title: DRM_ActionAllowed_CollaborativePlay
 description: The DRM\_ActionAllowed\_CollaborativePlay attribute indicates whether the license allows the content to be played collaboratively.
 ms.assetid: 111e8fa7-ef5a-483a-b930-8a8e5b4d120a
 keywords:

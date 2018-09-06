@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLogonSetting class
+title: Win32_TSLogonSetting class
 description: Defines configuration settings for the Win32\_Terminal class related to client logon.
 audience: developer
 author: REDMOND\\markl

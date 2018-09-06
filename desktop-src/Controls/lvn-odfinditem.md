@@ -1,5 +1,5 @@
 ---
-title: LVN\_ODFINDITEM message
+title: LVN_ODFINDITEM message
 description: Sent by a virtual list-view control when it needs the owner to find a particular callback item.
 ms.assetid: 5a3f9fed-0c57-46bf-b986-ea8b54290b5e
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETLENGTH message
+title: MCIWNDM_GETLENGTH message
 description: The MCIWNDM\_GETLENGTH message retrieves the length of the content or file currently used by an MCI device. You can send this message explicitly or by using the MCIWndGetLength macro.
 ms.assetid: bee4d9fc-78eb-4577-98bb-d6c2d9acbb7f
 keywords:

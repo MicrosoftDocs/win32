@@ -1,5 +1,5 @@
 ---
-title: EM\_GETSTORYTYPE message
+title: EM_GETSTORYTYPE message
 description: Gets the story type.
 ms.assetid: 06D87AA1-5AA3-4235-AC1D-045CE9975384
 keywords:

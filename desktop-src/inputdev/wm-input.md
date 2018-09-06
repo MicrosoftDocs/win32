@@ -1,5 +1,5 @@
 ---
-title: WM\_INPUT message
+title: WM_INPUT message
 description: Sent to the window that is getting raw input. A window receives this message through its WindowProc function.
 ms.assetid: a014d68c-841c-4120-b752-4b3fac60e12d
 keywords:

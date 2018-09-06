@@ -1,5 +1,5 @@
 ---
-title: PSN\_GETOBJECT notification code
+title: PSN_GETOBJECT notification code
 description: Sent by a property sheet to request a drop target object when the cursor passes over one of the tab control's buttons. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 179ac47c-9b32-4682-866d-1a1fad85080c
 keywords:

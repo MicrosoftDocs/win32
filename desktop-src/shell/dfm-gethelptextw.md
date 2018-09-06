@@ -1,6 +1,6 @@
 ---
 Description: Allows the callback object to specify a help text string.
-title: DFM\_GETHELPTEXTW message
+title: DFM_GETHELPTEXTW message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

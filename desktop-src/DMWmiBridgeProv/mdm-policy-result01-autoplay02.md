@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Autoplay02 class
+title: MDM_Policy_Result01_Autoplay02 class
 description: The MDM\_Policy\_Result01\_Autoplay02 class represents the available autoplay policies.
 ms.assetid: f116015d-f10e-4d17-9c0b-7253894e6c0f
 keywords:

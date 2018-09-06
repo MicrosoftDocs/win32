@@ -1,7 +1,7 @@
 ---
 Description: Represents the instance value of a metric.
 ms.assetid: 6b272ae8-7684-45bb-bff8-6559680cc8b6
-title: CIM\_BaseMetricValue class
+title: CIM_BaseMetricValue class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

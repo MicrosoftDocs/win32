@@ -1,5 +1,5 @@
 ---
-title: DRM\_ActionAllowed\_Copy
+title: DRM_ActionAllowed_Copy
 description: The DRM\_ActionAllowed\_Copy attribute indicates whether the content is allowed to be copied to a device, such as a portable player.
 ms.assetid: 3a391a14-ccbb-43c6-b362-0db53d93ab79
 keywords:

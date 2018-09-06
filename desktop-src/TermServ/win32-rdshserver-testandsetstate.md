@@ -1,5 +1,5 @@
 ---
-title: TestAndSetState method of the Win32\_RDSHServer class
+title: TestAndSetState method of the Win32_RDSHServer class
 description: Compares the current state to the specified comparand; if the two match, the state is set to a new value. Regardless of the match, the current state is also returned.
 audience: developer
 author: REDMOND\\markl

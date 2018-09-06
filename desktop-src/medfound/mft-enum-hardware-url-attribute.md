@@ -1,7 +1,7 @@
 ---
 Description: Contains the symbolic link for a hardware-based Media Foundation transform (MFT).
 ms.assetid: 7e153051-a167-4ff7-8178-b290d8a1345e
-title: MFT\_ENUM\_HARDWARE\_URL\_Attribute attribute
+title: MFT_ENUM_HARDWARE_URL_Attribute attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: gather4\_po (sm5 - asm)
+title: gather4_po (sm5 - asm)
 description: A variant of gather4, but instead of supporting an immediate offset \ -8..7\ , the offset comes as a parameter to the instruction, and also has larger range of \ -32..31\ .
 ms.assetid: A77A32B4-BD4F-46E7-9999-13EAA8A26974
 ms.technology: desktop

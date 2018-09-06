@@ -1,5 +1,5 @@
 ---
-title: TTM\_SETDELAYTIME message
+title: TTM_SETDELAYTIME message
 description: Sets the initial, pop-up, and reshow durations for a tooltip control.
 ms.assetid: 0a73def0-550c-4d01-9cb1-1eb1f4356fa3
 keywords:

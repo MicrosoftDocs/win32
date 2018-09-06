@@ -1,5 +1,5 @@
 ---
-title: BCM\_SETTEXTMARGIN message
+title: BCM_SETTEXTMARGIN message
 description: The BCM\_SETTEXTMARGIN message sets the margins for drawing text in a button control.
 ms.assetid: 0798b1c5-7db4-46c6-8881-4c847abc7460
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: HDM\_TRANSLATEACCELERATOR message
+title: HDM_TRANSLATEACCELERATOR message
 description: Not implemented.
 ms.assetid: 1e38a202-885c-4539-98d6-bc0e650198dc
 keywords:

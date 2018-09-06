@@ -1,5 +1,5 @@
 ---
-title: LVM\_MAPIDTOINDEX message
+title: LVM_MAPIDTOINDEX message
 description: Maps the ID of an item to an index.
 ms.assetid: 1082b7c6-c399-473d-aa4a-2b75e9bd2ab0
 keywords:

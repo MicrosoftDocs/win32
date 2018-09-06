@@ -1,6 +1,6 @@
 ---
 Description: Notifies you of a new item, as specified by the accompanying SMDATA structure.
-title: SMC\_NEWITEM message
+title: SMC_NEWITEM message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: WM\_CTLCOLORSCROLLBAR message
+title: WM_CTLCOLORSCROLLBAR message
 description: The WM\_CTLCOLORSCROLLBAR message is sent to the parent window of a scroll bar control when the control is about to be drawn.
 ms.assetid: 35832a23-96f1-42cb-a986-06726bf2a124
 keywords:

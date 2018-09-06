@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Reset method of the CIM\_Sensor class
+title: Reset method of the CIM_Sensor class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

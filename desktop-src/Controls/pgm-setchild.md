@@ -1,5 +1,5 @@
 ---
-title: PGM\_SETCHILD message
+title: PGM_SETCHILD message
 description: Sets the contained window for the pager control.
 ms.assetid: 717e6720-aa42-4ecd-9520-4618a04dc28d
 keywords:

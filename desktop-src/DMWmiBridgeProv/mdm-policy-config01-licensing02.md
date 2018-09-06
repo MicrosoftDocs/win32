@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Licensing02 class
+title: MDM_Policy_Config01_Licensing02 class
 description: The MDM\_Policy\_Config01\_Licensing02 class represents the licensing policies available.
 ms.assetid: 7ec186e9-626e-4361-88fd-665b947ca23d
 keywords:

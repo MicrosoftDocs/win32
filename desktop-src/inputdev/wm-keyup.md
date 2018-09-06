@@ -1,5 +1,5 @@
 ---
-title: WM\_KEYUP message
+title: WM_KEYUP message
 description: Posted to the window with the keyboard focus when a nonsystem key is released. A nonsystem key is a key that is pressed when the ALT key is not pressed, or a keyboard key that is pressed when a window has the keyboard focus.
 ms.assetid: 67d9d82d-fab0-4aec-a337-7a9cb2b0b586
 keywords:

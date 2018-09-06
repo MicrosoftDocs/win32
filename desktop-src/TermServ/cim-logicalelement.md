@@ -1,5 +1,5 @@
 ---
-title: CIM\_LogicalElement class
+title: CIM_LogicalElement class
 description: The base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
 audience: developer
 author: REDMOND\\markl

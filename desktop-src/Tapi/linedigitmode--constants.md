@@ -1,7 +1,7 @@
 ---
 Description: The LINEDIGITMODE\_ constants describe different types of inband digit generation.
 ms.assetid: d603ea28-2b93-4548-bb16-78e93087f828
-title: LINEDIGITMODE\_ Constants
+title: LINEDIGITMODE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

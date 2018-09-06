@@ -1,5 +1,5 @@
 ---
-title: D3DX\_Saturate\_FLOAT function
+title: D3DX_Saturate_FLOAT function
 description: Retrieves the saturated value of the given FLOAT.
 ms.assetid: 659df450-3535-44eb-b867-89529369f903
 keywords:

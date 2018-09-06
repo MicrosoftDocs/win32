@@ -1,5 +1,5 @@
 ---
-title: XTYP\_ADVSTOP transaction
+title: XTYP_ADVSTOP transaction
 description: A client uses the XTYP\_ADVSTOP transaction to end an advise loop with a server. A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives this transaction when a client specifies XTYP\_ADVSTOP in the DdeClientTransaction function.
 ms.assetid: 67dfa463-6a44-43a5-93be-a39c19c87c1c
 keywords:

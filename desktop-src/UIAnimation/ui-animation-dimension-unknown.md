@@ -1,5 +1,5 @@
 ---
-title: UI\_ANIMATION\_DIMENSION\_UNKNOWN
+title: UI_ANIMATION_DIMENSION_UNKNOWN
 description: Indicates that the requested dimension cannot be retrieved.
 ms.assetid: DEDFEB69-B537-45AD-BFCB-193178414116
 topic_type:

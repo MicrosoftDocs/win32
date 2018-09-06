@@ -1,7 +1,7 @@
 ---
 Description: The get\_SrcOffsetY method retrieves the vertical offset of the source rectangle.
 ms.assetid: b692e71b-c7a9-437c-9127-fa517e817883
-title: IDxtCompositor::get\_SrcOffsetY method
+title: IDxtCompositor::get_SrcOffsetY method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

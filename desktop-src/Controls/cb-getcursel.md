@@ -1,5 +1,5 @@
 ---
-title: CB\_GETCURSEL message
+title: CB_GETCURSEL message
 description: An application sends a CB\_GETCURSEL message to retrieve the index of the currently selected item, if any, in the list box of a combo box.
 ms.assetid: 47bf87f6-637f-48e9-849e-b2acbe5a6a7b
 keywords:

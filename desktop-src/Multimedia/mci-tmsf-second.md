@@ -1,5 +1,5 @@
 ---
-title: MCI\_TMSF\_SECOND macro
+title: MCI_TMSF_SECOND macro
 description: The MCI\_TMSF\_SECOND macro retrieves the seconds component from a parameter containing packed tracks/minutes/seconds/frames (TMSF) information.
 ms.assetid: 0f431545-bde0-4898-9a9d-993847aedf50
 keywords:

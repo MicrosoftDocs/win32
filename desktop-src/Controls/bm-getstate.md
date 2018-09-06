@@ -1,5 +1,5 @@
 ---
-title: BM\_GETSTATE message
+title: BM_GETSTATE message
 description: Retrieves the state of a button or check box. You can send this message explicitly or use the Button\_GetState macro.
 ms.assetid: ca4c2f1a-b657-490a-ac8b-5f0cfef64d76
 keywords:

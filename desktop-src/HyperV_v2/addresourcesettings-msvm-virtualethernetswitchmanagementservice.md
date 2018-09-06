@@ -1,7 +1,7 @@
 ---
 Description: Adds resources to a virtual switch configuration.
 ms.assetid: aad5fac1-3884-4a95-abe3-bf192f23ea41
-title: AddResourceSettings method of the Msvm\_VirtualEthernetSwitchManagementService class
+title: AddResourceSettings method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

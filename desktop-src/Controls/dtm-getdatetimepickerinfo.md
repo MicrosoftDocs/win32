@@ -1,5 +1,5 @@
 ---
-title: DTM\_GETDATETIMEPICKERINFO message
+title: DTM_GETDATETIMEPICKERINFO message
 description: Gets information on a date and time picker (DTP) control.
 ms.assetid: 04847b68-ac45-4b28-8f62-2cd68ffe48d4
 keywords:

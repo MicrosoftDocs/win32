@@ -1,5 +1,5 @@
 ---
-title: ImportAgreementLicenseKeyPack method of the Win32\_TSLicenseKeyPack class
+title: ImportAgreementLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Imports, from another Remote Desktop license server, a Remote Desktop Services license key pack that was purchased through a license agreement, and automatically connects over the Internet to validate the key pack license.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLicenseServer class
+title: Win32_TSLicenseServer class
 description: Provides methods and properties to view and configure Remote Desktop Licensing (RD Licensing) on a Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl

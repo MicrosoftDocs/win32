@@ -1,5 +1,5 @@
 ---
-title: '\ define Directive'
+title: ' define Directive'
 description: Preprocessor directive that defines a constant or a macro.
 ms.assetid: 44d98e28-868c-4403-baa1-c08d33a7b589
 keywords:

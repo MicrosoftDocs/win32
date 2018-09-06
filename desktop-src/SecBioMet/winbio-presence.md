@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_PRESENCE structure
+title: WINBIO_PRESENCE structure
 description: Contains information about the presence of an individual whose presence is being monitored.
 ms.assetid: 810D452E-DDFA-4AB2-AEFB-0C170C0C18D4
 keywords:

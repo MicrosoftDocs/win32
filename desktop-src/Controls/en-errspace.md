@@ -1,5 +1,5 @@
 ---
-title: EN\_ERRSPACE notification code
+title: EN_ERRSPACE notification code
 description: Sent when an edit control cannot allocate enough memory to meet a specific request. The parent window of the edit control receives this notification code through a WM\_COMMAND message.
 ms.assetid: 23a6eb10-a9d7-4fd5-9176-407c35e6f492
 keywords:

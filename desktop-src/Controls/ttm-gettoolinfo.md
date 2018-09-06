@@ -1,5 +1,5 @@
 ---
-title: TTM\_GETTOOLINFO message
+title: TTM_GETTOOLINFO message
 description: Retrieves the information that a tooltip control maintains about a tool.
 ms.assetid: b94d3b78-2437-4c60-ba46-b3f57cf9c876
 keywords:

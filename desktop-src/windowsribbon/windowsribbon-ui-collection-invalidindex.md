@@ -1,5 +1,5 @@
 ---
-title: UI\_COLLECTION\_INVALIDINDEX
+title: UI_COLLECTION_INVALIDINDEX
 description: Specifies a constant that identifies an invalid index in a collection.
 ms.assetid: 0524c712-c968-4a2c-955e-c92f21f2b1da
 topic_type:

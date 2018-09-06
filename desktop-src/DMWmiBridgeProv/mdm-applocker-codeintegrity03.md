@@ -1,5 +1,5 @@
 ---
-title: MDM\_AppLocker\_CodeIntegrity03 class
+title: MDM_AppLocker_CodeIntegrity03 class
 description: The MDM\_AppLocker\_CodeIntegrity03 class defines the policy for Code Integrity.
 ms.assetid: 8e7649b4-2e89-4d79-923e-3767e5b0ea52
 keywords:

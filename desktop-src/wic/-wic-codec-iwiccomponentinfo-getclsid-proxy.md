@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetCLSID method.
 ms.assetid: c6a8d752-590f-43d6-bac8-72b5bd259ad0
-title: IWICComponentInfo\_GetCLSID\_Proxy function
+title: IWICComponentInfo_GetCLSID_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

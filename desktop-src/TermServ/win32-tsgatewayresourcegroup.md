@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayResourceGroup class
+title: Win32_TSGatewayResourceGroup class
 description: Describes a resource group, which maps a set of resources (computer names) to a single entity.
 audience: developer
 author: REDMOND\\markl

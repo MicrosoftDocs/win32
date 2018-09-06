@@ -1,5 +1,5 @@
 ---
-title: ICM\_COMPRESS\_FRAMES\_INFO message
+title: ICM_COMPRESS_FRAMES_INFO message
 description: The ICM\_COMPRESS\_FRAMES\_INFO message notifies a compression driver to set the parameters for the pending compression.
 ms.assetid: d2f6f3b7-dff6-4fef-a642-cb77b00119af
 keywords:

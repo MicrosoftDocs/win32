@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSRemoteControlSetting class
+title: Win32_TSRemoteControlSetting class
 description: Defines the remote control configuration settings for the Win32\_Terminal class.
 audience: developer
 author: REDMOND\\markl

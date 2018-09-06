@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GET\_DEST message
+title: MCIWNDM_GET_DEST message
 description: The MCIWNDM\_GET\_DEST message retrieves the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can send this message explicitly or by using the MCIWndGetDest macro.
 ms.assetid: d4d8a3eb-aad4-4435-a23b-7a9c55fc194d
 keywords:

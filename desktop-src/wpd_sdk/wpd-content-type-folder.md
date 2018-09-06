@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_FOLDER
 ms.assetid: 88557fc8-feb5-417f-9278-f9cf8c3ac10c
-title: WPD\_CONTENT\_TYPE\_FOLDER
+title: WPD_CONTENT_TYPE_FOLDER
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

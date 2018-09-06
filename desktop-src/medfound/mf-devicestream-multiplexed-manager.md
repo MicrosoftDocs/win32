@@ -1,7 +1,7 @@
 ---
 Description: Provides an instance of IMFMuxStreamAttributesManager which manages the IMFAttributes describing the substreams of a multiplexed media source.
 ms.assetid: 0149BD8B-8C9D-47FD-9EC1-BEBEE73BC73E
-title: MF\_DEVICESTREAM\_MULTIPLEXED\_MANAGER attribute
+title: MF_DEVICESTREAM_MULTIPLEXED_MANAGER attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

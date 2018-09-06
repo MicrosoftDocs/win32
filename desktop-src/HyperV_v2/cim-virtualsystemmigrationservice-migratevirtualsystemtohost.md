@@ -1,7 +1,7 @@
 ---
 Description: Method to move, migrate or relocate a virtual system to a target host specified by a network name or IP address.
 ms.assetid: 09fdc0b2-641c-47f5-b270-e26e3acf7ea5
-title: MigrateVirtualSystemToHost method of the CIM\_VirtualSystemMigrationService class
+title: MigrateVirtualSystemToHost method of the CIM_VirtualSystemMigrationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

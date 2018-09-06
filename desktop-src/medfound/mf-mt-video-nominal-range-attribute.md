@@ -1,7 +1,7 @@
 ---
 Description: Specifies the nominal range of the color information in a video media type.
 ms.assetid: 7b2b809e-aae4-401c-816a-626fb88f5f87
-title: MF\_MT\_VIDEO\_NOMINAL\_RANGE attribute
+title: MF_MT_VIDEO_NOMINAL_RANGE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

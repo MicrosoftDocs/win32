@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SISO\* Constants
 ms.assetid: c830e9e9-b58a-4d31-929a-ed699bc08d9f
-title: LOCALE\_SISO\* Constants
+title: LOCALE_SISO* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: This class is the parent class for registry events. The following syntax is simplified from MOF code.
 ms.assetid: 879ac606-f451-4d5d-bf78-3e7fd3093189
-title: Registry\_V0 class
+title: Registry_V0 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

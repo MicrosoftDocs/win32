@@ -1,5 +1,5 @@
 ---
-title: CQPM\_GETPARAMETERS message
+title: CQPM_GETPARAMETERS message
 description: Sent to the CQPageProc callback function of a query form extension page to retrieve data about the query performed by the page.
 audience: developer
 author: REDMOND\\markl

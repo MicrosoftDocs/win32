@@ -1,5 +1,5 @@
 ---
-title: RecycleRpcApplicationPools method of the Win32\_TSGatewayServerSettings class
+title: RecycleRpcApplicationPools method of the Win32_TSGatewayServerSettings class
 description: Recycles the RPC application pools in IIS.
 audience: developer
 author: REDMOND\\markl

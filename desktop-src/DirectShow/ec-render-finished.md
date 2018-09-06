@@ -1,7 +1,7 @@
 ---
 Description: This event is not supported.
 ms.assetid: a7d207c0-3d93-468a-b463-1eab68b286a2
-title: EC\_RENDER\_FINISHED
+title: EC_RENDER_FINISHED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the value that a property assumes at a given time.
 ms.assetid: 117868b7-65e5-4b3b-9e50-4106ee6a65d0
-title: DEXTER\_PARAM structure
+title: DEXTER_PARAM structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

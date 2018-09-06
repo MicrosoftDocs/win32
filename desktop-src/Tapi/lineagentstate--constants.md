@@ -1,7 +1,7 @@
 ---
 Description: The LINEAGENTSTATE\_ constants describe the state of an agent on an address.
 ms.assetid: 1dbc33e7-05cc-4cb9-8904-f495b884b8db
-title: LINEAGENTSTATE\_ Constants
+title: LINEAGENTSTATE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

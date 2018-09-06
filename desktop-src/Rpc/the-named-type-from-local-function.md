@@ -1,5 +1,5 @@
 ---
-title: The named\_type\_from\_local Function
+title: The named_type_from_local Function
 description: The stubs call the named\_type\_from\_local function.
 ms.assetid: ba35e2fb-957e-4e62-b0d4-ae76e30fa343
 keywords:

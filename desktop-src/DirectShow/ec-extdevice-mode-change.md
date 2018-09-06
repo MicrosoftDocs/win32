@@ -1,7 +1,7 @@
 ---
 Description: Not supported.
 ms.assetid: d5f7da6a-f559-4ad3-af1d-3e6a8edb9b9b
-title: EC\_EXTDEVICE\_MODE\_CHANGE
+title: EC_EXTDEVICE_MODE_CHANGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

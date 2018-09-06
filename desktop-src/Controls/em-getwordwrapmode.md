@@ -1,5 +1,5 @@
 ---
-title: EM\_GETWORDWRAPMODE message
+title: EM_GETWORDWRAPMODE message
 description: Gets the current word wrap and word-break options for the rich edit control.
 ms.assetid: a87d80d6-2e9e-40ba-9348-a1cc1ef8ec10
 keywords:

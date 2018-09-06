@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_PLAYTO message
+title: MCIWNDM_PLAYTO message
 description: The MCIWNDM\_PLAYTO message plays the content of an MCI device from the current position to the specified ending location or until another command stops playback.
 ms.assetid: ed940ee7-7b96-47da-99d3-6697f8a2e3d5
 keywords:

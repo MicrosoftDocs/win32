@@ -1,5 +1,5 @@
 ---
-title: WM\_UNDO message
+title: WM_UNDO message
 description: An application sends a WM\_UNDO message to an edit control to undo the last operation. When this message is sent to an edit control, the previously deleted text is restored or the previously added text is deleted.
 ms.assetid: bb5a3425-bf99-4a08-8747-82c24c5889ad
 keywords:

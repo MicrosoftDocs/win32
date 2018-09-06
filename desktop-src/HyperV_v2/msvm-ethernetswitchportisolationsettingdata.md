@@ -1,7 +1,7 @@
 ---
 Description: Represents the Isolation setting data.
 ms.assetid: f6bf5fcf-61c4-4e69-8ba0-fff4c4873368
-title: Msvm\_EthernetSwitchPortIsolationSettingData class
+title: Msvm_EthernetSwitchPortIsolationSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

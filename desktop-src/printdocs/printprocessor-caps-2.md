@@ -1,7 +1,7 @@
 ---
 Description: Represents printer capability information.
 ms.assetid: 70120739-a4e0-4b87-ac7a-40a42fb509ee
-title: PRINTPROCESSOR\_CAPS\_2 structure
+title: PRINTPROCESSOR_CAPS_2 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

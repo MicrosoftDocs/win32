@@ -7,7 +7,7 @@ ms.assetid: 8fddbcd1-7393-4a3b-8a10-a8b620efc19f
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ExtrinsicEvent class'
+title: '__ExtrinsicEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

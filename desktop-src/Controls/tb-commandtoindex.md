@@ -1,5 +1,5 @@
 ---
-title: TB\_COMMANDTOINDEX message
+title: TB_COMMANDTOINDEX message
 description: Retrieves the zero-based index for the button associated with the specified command identifier.
 ms.assetid: 079d318e-56b2-4890-ac4a-c1798fc2f62a
 keywords:

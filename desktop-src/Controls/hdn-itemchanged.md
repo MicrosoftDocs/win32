@@ -1,5 +1,5 @@
 ---
-title: HDN\_ITEMCHANGED notification code
+title: HDN_ITEMCHANGED notification code
 description: Notifies a header control's parent window that the attributes of a header item have changed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ab707010-8ed2-4575-8233-8a1f5656e498
 keywords:

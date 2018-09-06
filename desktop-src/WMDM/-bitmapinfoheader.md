@@ -1,5 +1,5 @@
 ---
-title: '\_BITMAPINFOHEADER structure'
+title: '_BITMAPINFOHEADER structure'
 description: The \_BITMAPINFOHEADER structure defines the format of a video frame.
 ms.assetid: 394b8ded-81db-4ad3-8cf7-086f1e832771
 keywords:

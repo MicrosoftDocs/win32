@@ -1,7 +1,7 @@
 ---
 Description: The IPX\_ADDRESS structure provides an address at the IPX protocol level.
 ms.assetid: 06939ac3-3718-4441-b2c8-c73adfe3babe
-title: IPX\_ADDRESS structure
+title: IPX_ADDRESS structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

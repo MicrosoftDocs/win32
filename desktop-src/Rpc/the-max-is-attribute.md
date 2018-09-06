@@ -1,5 +1,5 @@
 ---
-title: The \ max\_is\ Attribute
+title: The  max_is Attribute
 description: You can specify the valid bounds of the index numbers of an array using the \ max\_is\ attribute.
 ms.assetid: b629e3cf-544d-47ee-8f8f-b049f693897c
 keywords:

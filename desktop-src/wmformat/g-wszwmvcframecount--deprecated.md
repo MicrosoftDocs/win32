@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCFrameCount
+title: g_wszWMVCFrameCount
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: bd888a1b-030d-411f-88f4-3deb94197d7c
 keywords:

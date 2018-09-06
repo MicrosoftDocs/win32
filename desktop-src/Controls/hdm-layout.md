@@ -1,5 +1,5 @@
 ---
-title: HDM\_LAYOUT message
+title: HDM_LAYOUT message
 description: Retrieves information used to set the size and position of the header control within the target rectangle of the parent window. You can send this message explicitly or use the Header\_Layout macro.
 ms.assetid: 0763e483-f01d-4739-8c61-1c52d1aad0b4
 keywords:

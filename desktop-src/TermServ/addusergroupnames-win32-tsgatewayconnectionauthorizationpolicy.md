@@ -1,5 +1,5 @@
 ---
-title: AddUserGroupNames method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: AddUserGroupNames method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Adds the specified user group names to the UserGroupNames property.
 audience: developer
 author: REDMOND\\markl

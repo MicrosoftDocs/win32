@@ -1,5 +1,5 @@
 ---
-title: PSM\_GETRESULT message
+title: PSM_GETRESULT message
 description: Used by modeless property sheets to retrieve the information returned to modal property sheets by PropertySheet. You can send this message explicitly or use the PropSheet\_GetResult macro.
 ms.assetid: e0f609ea-5d7e-4c17-ade1-3c1051c5a5bf
 keywords:

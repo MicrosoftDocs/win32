@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_SINGLE\_FRAME\_OPEN message
+title: WM_CAP_SINGLE_FRAME_OPEN message
 description: The WM\_CAP\_SINGLE\_FRAME\_OPEN message opens the capture file for single-frame capturing. Any previous information in the capture file is overwritten. You can send this message explicitly or by using the capCaptureSingleFrameOpen macro.
 ms.assetid: 4814737c-4395-4c01-a68e-fac43dd291fd
 keywords:

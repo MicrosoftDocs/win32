@@ -1,7 +1,7 @@
 ---
 Description: Represents a resource pool, which is a logical entity provided by the host system to allocate and assign resources.
 ms.assetid: c8e0b701-1814-4409-a073-017f8fea841a
-title: CIM\_ResourcePool class
+title: CIM_ResourcePool class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

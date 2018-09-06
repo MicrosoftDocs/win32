@@ -1,7 +1,7 @@
 ---
 Description: Specifies trusted audio drivers.
 ms.assetid: 6728D066-2954-4CE7-936B-CCAADC04CE30
-title: MFPROTECTION\_TRUSTEDAUDIODRIVERS attribute
+title: MFPROTECTION_TRUSTEDAUDIODRIVERS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -7,7 +7,7 @@ ms.assetid: 77e8e025-d584-495d-98f8-71e7fb2c9698
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ClassModificationEvent class'
+title: '__ClassModificationEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

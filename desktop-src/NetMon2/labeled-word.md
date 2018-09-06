@@ -1,7 +1,7 @@
 ---
 Description: The LABELED\_WORD structure defines a label that is displayed when a specific WORD property value is detected.
 ms.assetid: bfb1d34e-4a07-493f-8e43-508b77cce581
-title: LABELED\_WORD structure
+title: LABELED_WORD structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

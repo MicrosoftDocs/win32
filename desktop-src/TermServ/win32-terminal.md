@@ -1,5 +1,5 @@
 ---
-title: Win32\_Terminal class
+title: Win32_Terminal class
 description: Represents a terminal.
 audience: developer
 author: REDMOND\\markl

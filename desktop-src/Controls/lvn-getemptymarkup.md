@@ -1,5 +1,5 @@
 ---
-title: LVN\_GETEMPTYMARKUP notification code
+title: LVN_GETEMPTYMARKUP notification code
 description: Sent by list-view control to its parent window when the control has no items. The LVN\_GETEMPTYMARKUP notification code is a request for the parent window to provide markup text. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 5ea74120-f347-493a-af14-6bda5b8f6082
 keywords:

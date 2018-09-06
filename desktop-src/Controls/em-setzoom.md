@@ -1,5 +1,5 @@
 ---
-title: EM\_SETZOOM message
+title: EM_SETZOOM message
 description: Sets the zoom ratio of a rich edit control. The ratio must be a value between 1/64 and 64.
 ms.assetid: 6cdec5b8-4ce7-4fd5-8083-4daa63d17f63
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WMDRM\_ENCRYPT\_SCATTER\_INFO structure
+title: WMDRM_ENCRYPT_SCATTER_INFO structure
 description: The WMDRM\_ENCRYPT\_SCATTER\_INFO structure contains information needed to configure the IWMDRMEncryptScatter interface for use.
 ms.assetid: 25e19511-56ac-441b-b521-5097dd792ead
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LVM\_SORTITEMS message
+title: LVM_SORTITEMS message
 description: Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can send this message explicitly or by using the ListView\_SortItems macro.
 ms.assetid: ed3d5cec-69af-49a1-9cb7-eb5da1163071
 keywords:

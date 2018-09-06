@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_WiFi02 class
+title: MDM_Policy_Result01_WiFi02 class
 description: The MDM\_Policy\_Result01\_WiFi02 class represents the Wi-Fi policies available.
 ms.assetid: 074C4428-401D-4564-B7AC-45C2221EEC3A
 keywords:

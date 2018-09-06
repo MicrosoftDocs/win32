@@ -1,7 +1,7 @@
 ---
 Description: Sets a new class identifier in the application protocol data unit (APDU).
 ms.assetid: 7e7d42f2-2858-4b37-a7d5-a919e3e005da
-title: ISCardCmd::put\_ClassId method
+title: ISCardCmd::put_ClassId method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

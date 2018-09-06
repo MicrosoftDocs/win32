@@ -1,7 +1,7 @@
 ---
 Description: Signals a DVD error condition.
 ms.assetid: 2cd3e0c4-e2b7-4aa1-9f3c-9003eabfb08a
-title: EC\_DVD\_ERROR
+title: EC_DVD_ERROR
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

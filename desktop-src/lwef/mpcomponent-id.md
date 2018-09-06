@@ -1,5 +1,5 @@
 ---
-title: MPCOMPONENT\_ID enumeration
+title: MPCOMPONENT_ID enumeration
 description: Possible components for the malware protection manager.
 ms.assetid: 014B400A-880B-419D-9F50-F3354CE945D9
 keywords:

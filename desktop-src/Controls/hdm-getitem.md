@@ -1,5 +1,5 @@
 ---
-title: HDM\_GETITEM message
+title: HDM_GETITEM message
 description: Gets information about an item in a header control. You can send this message explicitly or use the Header\_GetItem macro.
 ms.assetid: fb1330d3-fd28-490c-9caa-4b2b5ff86ba0
 keywords:

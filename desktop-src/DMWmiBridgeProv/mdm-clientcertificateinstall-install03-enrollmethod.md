@@ -1,5 +1,5 @@
 ---
-title: EnrollMethod method of the MDM\_ClientCertificateInstall\_Install03 class
+title: EnrollMethod method of the MDM_ClientCertificateInstall_Install03 class
 description: Triggers the device to start the certificate enrollment.
 ms.assetid: 21a31574-0b19-44bf-90db-4bb9e2611364
 keywords:

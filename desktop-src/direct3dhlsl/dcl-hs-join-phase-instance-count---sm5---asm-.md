@@ -1,5 +1,5 @@
 ---
-title: dcl\_hs\_join\_phase\_instance\_count (sm5 - asm)
+title: dcl_hs_join_phase_instance_count (sm5 - asm)
 description: Declare the join phase instance count in a hull shader join phase.
 ms.assetid: 9951B849-0537-4D08-9ADE-8CF6FF51A193
 ms.technology: desktop

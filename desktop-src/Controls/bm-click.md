@@ -1,5 +1,5 @@
 ---
-title: BM\_CLICK message
+title: BM_CLICK message
 description: Simulates the user clicking a button. This message causes the button to receive the WM\_LBUTTONDOWN and WM\_LBUTTONUP messages, and the button's parent window to receive a BN\_CLICKED notification code.
 ms.assetid: f76ca5eb-170c-43fc-a239-67af15497f08
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Reporting\_SecurityAuditing01\_RetrieveByTimeRange02 class
+title: MDM_Reporting_SecurityAuditing01_RetrieveByTimeRange02 class
 description: The MDM\_Reporting\_SecurityAuditing01\_RetrieveByTimeRange02 class is used to retrieve the logs that exist within the StartTime and StopTime.
 ms.assetid: e360bc76-f006-45e1-b78a-29125fbcd5ae
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_WindowsAdvancedThreatProtection class
+title: MDM_WindowsAdvancedThreatProtection class
 description: The MDM\_WindowsAdvancedThreatProtection class is used to onboard and offboard endpoints for Windows Defender Advanced Threat Protection (WDATP).
 ms.assetid: 7a95253e-6d13-4c1b-b78d-c56c6378f7c3
 keywords:

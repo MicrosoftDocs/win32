@@ -1,7 +1,7 @@
 ---
 Description: Modifies virtual resource settings.
 ms.assetid: 4942f167-0e53-4ae2-b973-4a06b636b44a
-title: ModifyResourceSettings method of the CIM\_VirtualSystemManagementService class
+title: ModifyResourceSettings method of the CIM_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

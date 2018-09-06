@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: 28e4d174-6cea-4c9c-be29-78d63493c9a3
-title: Reset method of the Msvm\_InternalEthernetPort class
+title: Reset method of the Msvm_InternalEthernetPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

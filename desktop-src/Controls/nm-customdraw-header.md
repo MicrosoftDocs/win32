@@ -1,5 +1,5 @@
 ---
-title: NM\_CUSTOMDRAW (header) notification code
+title: NM_CUSTOMDRAW (header) notification code
 description: Sent by a header control to notify its parent window about drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 44dab54b-45ef-4fba-93b8-2a3e35cda23f
 keywords:

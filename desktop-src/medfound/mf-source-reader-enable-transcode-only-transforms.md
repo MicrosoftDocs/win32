@@ -1,7 +1,7 @@
 ---
 Description: Enables the Source Reader to use Media Foundation transforms (MFTs) that are optimized for transcoding.
 ms.assetid: 9463EB8C-2CA3-4F8F-8A2A-B1292879DD1B
-title: MF\_SOURCE\_READER\_ENABLE\_TRANSCODE\_ONLY\_TRANSFORMS attribute
+title: MF_SOURCE_READER_ENABLE_TRANSCODE_ONLY_TRANSFORMS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

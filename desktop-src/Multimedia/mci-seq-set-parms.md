@@ -1,5 +1,5 @@
 ---
-title: MCI\_SEQ\_SET\_PARMS structure
+title: MCI_SEQ_SET_PARMS structure
 description: The MCI\_SEQ\_SET\_PARMS structure contains information for the MCI\_SET command for MIDI sequencer devices.
 ms.assetid: 71638a92-c1d6-474b-bc97-ea63ca586aaa
 keywords:

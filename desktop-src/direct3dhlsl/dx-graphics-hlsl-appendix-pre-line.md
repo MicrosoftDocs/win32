@@ -1,5 +1,5 @@
 ---
-title: '\ line Directive'
+title: ' line Directive'
 description: Preprocessor directive that sets the compiler's internally-stored line number and filename to the specified values.
 ms.assetid: 307410af-bd78-4b3d-b515-adf58298f35f
 keywords:

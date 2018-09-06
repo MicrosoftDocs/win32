@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseModernAppManagement\_AppSettingPolicy04 class
+title: MDM_EnterpriseModernAppManagement_AppSettingPolicy04 class
 description: The MDM\_EnterpriseModernAppManagement\_AppSettingPolicy04 class specifies all managed app setting values.
 ms.assetid: 65e2d2aa-31fd-4733-a1f7-8a572700a562
 keywords:

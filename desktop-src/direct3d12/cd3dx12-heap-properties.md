@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_HEAP\_PROPERTIES structure
+title: CD3DX12_HEAP_PROPERTIES structure
 description: A helper structure to enable easy initialization of a D3D12\_HEAP\_PROPERTIES structure.
 ms.assetid: AC759F25-D643-412D-AA83-3A2C040BE64B
 keywords:

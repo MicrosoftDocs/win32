@@ -1,6 +1,6 @@
 ---
 Description: Requests a pointer to a specified object.
-title: SMC\_GETOBJECT message
+title: SMC_GETOBJECT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

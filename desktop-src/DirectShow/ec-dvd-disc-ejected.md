@@ -1,7 +1,7 @@
 ---
 Description: Signals that a DVD disc was ejected.
 ms.assetid: 031156c2-f0f0-4a9e-b792-4d656ec49aef
-title: EC\_DVD\_DISC\_EJECTED
+title: EC_DVD_DISC_EJECTED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

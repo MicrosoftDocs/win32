@@ -1,6 +1,6 @@
 ---
 Description: Retrieves the handle to the autohide appbar associated with an edge of the screen. This message extends ABM\_GETAUTOHIDEBAR by enabling you to specify a particular monitor, for use in multiple monitor situations.
-title: ABM\_GETAUTOHIDEBAREX message
+title: ABM_GETAUTOHIDEBAREX message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

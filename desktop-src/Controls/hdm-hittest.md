@@ -1,5 +1,5 @@
 ---
-title: HDM\_HITTEST message
+title: HDM_HITTEST message
 description: Tests a point to determine which header item, if any, is at the specified point.
 ms.assetid: ff866bd1-9f2a-457c-921d-549610ab9088
 keywords:

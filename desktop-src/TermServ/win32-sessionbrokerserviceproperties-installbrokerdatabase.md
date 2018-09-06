@@ -1,5 +1,5 @@
 ---
-title: InstallBrokerDatabase method of the Win32\_SessionBrokerServiceProperties class
+title: InstallBrokerDatabase method of the Win32_SessionBrokerServiceProperties class
 description: Installs an RD connection broker database on a central SQL server.
 audience: developer
 author: REDMOND\\markl

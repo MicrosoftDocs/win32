@@ -1,7 +1,7 @@
 ---
 Description: The put\_AttributeList method sets the list of attributes.
 ms.assetid: f7d57c0c-9114-42a4-b2bc-c812334d8136
-title: ITAttributeList::put\_AttributeList method
+title: ITAttributeList::put_AttributeList method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Represents an association between a service and a managed element that might be affected by its execution.
 ms.assetid: 2fd9199f-9ab0-4c42-9708-d6cd6911f77a
-title: CIM\_ServiceAffectsElement class
+title: CIM_ServiceAffectsElement class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

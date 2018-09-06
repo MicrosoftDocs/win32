@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for network interface card configuration events. The following syntax is simplified from MOF code.
 ms.assetid: 66b2c116-810e-489d-ad5e-f9c09902005b
-title: SystemConfig\_NIC class
+title: SystemConfig_NIC class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the average bytes per second in a quality-based variable-bit-rate (VBR) audio stream.
 ms.assetid: dcee969a-617e-4045-a468-8158afb06356
-title: MFPKEY\_WMAENC\_AVGBYTESPERSEC Property
+title: MFPKEY_WMAENC_AVGBYTESPERSEC Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

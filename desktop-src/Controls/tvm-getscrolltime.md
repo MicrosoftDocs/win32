@@ -1,5 +1,5 @@
 ---
-title: TVM\_GETSCROLLTIME message
+title: TVM_GETSCROLLTIME message
 description: Retrieves the maximum scroll time for the tree-view control. You can send this message explicitly or by using the TreeView\_GetScrollTime macro.
 ms.assetid: 992d1906-cda3-4ac7-ba90-c681c551ac2e
 keywords:

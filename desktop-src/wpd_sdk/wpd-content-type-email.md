@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_EMAIL
 ms.assetid: 96f81477-5ec9-49c1-987a-348a92a7e638
-title: WPD\_CONTENT\_TYPE\_EMAIL
+title: WPD_CONTENT_TYPE_EMAIL
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

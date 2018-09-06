@@ -1,5 +1,5 @@
 ---
-title: StopService method of the Win32\_Service class
+title: StopService method of the Win32_Service class
 description: Places the service, represented by the Win32\_TerminalService object, in the stopped state.
 audience: developer
 author: REDMOND\\markl

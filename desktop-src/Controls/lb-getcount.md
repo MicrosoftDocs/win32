@@ -1,5 +1,5 @@
 ---
-title: LB\_GETCOUNT message
+title: LB_GETCOUNT message
 description: Gets the number of items in a list box.
 ms.assetid: 1fbe44fc-8b9d-4bfa-a8bb-06817eecf064
 keywords:

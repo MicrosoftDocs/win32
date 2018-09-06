@@ -1,5 +1,5 @@
 ---
-title: WM\_CTLCOLORLISTBOX message
+title: WM_CTLCOLORLISTBOX message
 description: Sent to the parent window of a list box before the system draws the list box. By responding to this message, the parent window can set the text and background colors of the list box by using the specified display device context handle.
 ms.assetid: e128e77f-e966-44c4-9f0e-efcf421b6c82
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The put\_Caption method sets the window title or caption.
 ms.assetid: 6671805a-e1ef-40f1-bc3f-bf7954ff9851
-title: CBaseControlWindow.put\_Caption method
+title: CBaseControlWindow.put_Caption method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

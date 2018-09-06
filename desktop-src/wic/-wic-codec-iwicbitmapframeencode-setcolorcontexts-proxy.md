@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the SetColorContexts method.
 ms.assetid: 985ae179-df59-42a0-9987-5dd863512e57
-title: IWICBitmapFrameEncode\_SetColorContexts\_Proxy function
+title: IWICBitmapFrameEncode_SetColorContexts_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: SBM\_SETRANGE message
+title: SBM_SETRANGE message
 description: The SBM\_SETRANGE message is sent to set the minimum and maximum position values for the scroll bar control.
 ms.assetid: 9cf84354-3944-4c10-9b59-39427b840868
 keywords:

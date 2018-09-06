@@ -1,7 +1,7 @@
 ---
 Description: Manages the configuration of resource pools by using jobs.
 ms.assetid: cc0f0236-2335-4dd9-9132-51b3e6b9fcf4
-title: CIM\_ResourcePoolConfigurationService class
+title: CIM_ResourcePoolConfigurationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

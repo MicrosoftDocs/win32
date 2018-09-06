@@ -1,7 +1,7 @@
 ---
 Description: The PROVIDOR\_INFO\_1 structure identifies a print provider.
 ms.assetid: 0eff115a-b3d2-4c8f-b820-46e7f62dd295
-title: PROVIDOR\_INFO\_1 structure
+title: PROVIDOR_INFO_1 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

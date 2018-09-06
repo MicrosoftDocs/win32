@@ -1,5 +1,5 @@
 ---
-title: TTN\_GETDISPINFO notification code
+title: TTN_GETDISPINFO notification code
 description: Sent by a tooltip control to retrieve information needed to display a tooltip window. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: af9ecc27-2004-4c45-9f1d-9ee0b2b50ff6
 keywords:

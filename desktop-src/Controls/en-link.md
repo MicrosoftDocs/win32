@@ -1,5 +1,5 @@
 ---
-title: EN\_LINK notification code
+title: EN_LINK notification code
 description: A rich edit control sends EN\_LINK notification codes when it receives various messages, for example, when the user clicks the mouse or when the mouse pointer is over text that has the CFE\_LINK effect.
 ms.assetid: 67f02908-957e-4d91-8a70-70399ce9cf2e
 keywords:

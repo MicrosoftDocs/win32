@@ -1,5 +1,5 @@
 ---
-title: SetMaxMonitors method of the Win32\_TSClientSetting class
+title: SetMaxMonitors method of the Win32_TSClientSetting class
 description: Sets the MaxMonitors property.
 audience: developer
 author: REDMOND\\markl

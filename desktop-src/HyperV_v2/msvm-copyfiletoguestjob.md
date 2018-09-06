@@ -1,7 +1,7 @@
 ---
 Description: Represents a guest file service operation job.
 ms.assetid: 817AF83B-B601-4AE4-AB5B-CFEACB9A7F41
-title: Msvm\_CopyFileToGuestJob class
+title: Msvm_CopyFileToGuestJob class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

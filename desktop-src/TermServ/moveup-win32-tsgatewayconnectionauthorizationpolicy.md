@@ -1,5 +1,5 @@
 ---
-title: MoveUp method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: MoveUp method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Moves the current Remote Desktop connection authorization policy (RD \ 160;CAP) one position up in the order that RD \ 160;CAPs are evaluated.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: The approximate time when the Media Session raised an event.
 ms.assetid: 58083bc8-59cc-4503-8fae-36fcd864921a
-title: MF\_SESSION\_APPROX\_EVENT\_OCCURRENCE\_TIME attribute
+title: MF_SESSION_APPROX_EVENT_OCCURRENCE_TIME attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

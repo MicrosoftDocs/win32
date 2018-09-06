@@ -1,5 +1,5 @@
 ---
-title: byte\_count attribute
+title: byte_count attribute
 description: The \ byte\_count\ ACF attribute is a parameter attribute that associates a size, in bytes, with the memory area indicated by the pointer.
 ms.assetid: 7e146888-fe7c-461c-8615-70da1e3b12cd
 keywords:

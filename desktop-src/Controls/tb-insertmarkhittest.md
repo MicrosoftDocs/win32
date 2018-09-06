@@ -1,5 +1,5 @@
 ---
-title: TB\_INSERTMARKHITTEST message
+title: TB_INSERTMARKHITTEST message
 description: Retrieves the insertion mark information for a point in a toolbar.
 ms.assetid: 65c64fd0-f089-4b1a-84e5-1a3e10aa7f5e
 keywords:

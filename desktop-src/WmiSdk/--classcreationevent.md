@@ -7,7 +7,7 @@ ms.assetid: a946a8eb-498c-4104-b80f-e520b0e62e36
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ClassCreationEvent class'
+title: '__ClassCreationEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

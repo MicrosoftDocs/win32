@@ -1,7 +1,7 @@
 ---
 Description: For segment re-encoding, specifies the quantizer of the frame prior to the starting segment.
 ms.assetid: 00b72389-1f0e-469d-af07-db515071e0fb
-title: MFPKEY\_REENCQPREF Property
+title: MFPKEY_REENCQPREF Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

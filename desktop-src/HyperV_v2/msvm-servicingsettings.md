@@ -1,7 +1,7 @@
 ---
 Description: Contains settings used during servicing operations.
 ms.assetid: 17dc3c97-232c-4ac4-988c-84c3061b4133
-title: Msvm\_ServicingSettings class
+title: Msvm_ServicingSettings class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: strict\_context\_handle attribute
+title: strict_context_handle attribute
 description: The \ strict\_context\_handle\ ACF attribute sets restrictions on context handles.
 ms.assetid: c34f9018-d519-4a75-ad6f-70d386a20817
 keywords:

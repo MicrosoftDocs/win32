@@ -1,5 +1,5 @@
 ---
-title: HDM\_CLEARFILTER message
+title: HDM_CLEARFILTER message
 description: Clears the filter for a given header control. You can send this message explicitly or use the Header\_ClearFilter macro.
 ms.assetid: 74c0265e-68d1-4414-8fd9-20f5f041d4b4
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IPM\_SETRANGE message
+title: IPM_SETRANGE message
 description: Sets the valid range for the specified field in the IP address control.
 ms.assetid: 03068c5d-822f-459d-8f79-e7f0430a27bf
 keywords:

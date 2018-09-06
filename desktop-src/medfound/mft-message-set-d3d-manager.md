@@ -1,7 +1,7 @@
 ---
 Description: Sets or clears the Direct3D Device Manager for DirectX Video Accereration (DXVA).
 ms.assetid: fd346d56-1f80-488a-94c8-4e4e36d72890
-title: MFT\_MESSAGE\_SET\_D3D\_MANAGER
+title: MFT_MESSAGE_SET_D3D_MANAGER
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Event that is signaled when the filter stops or the pin flushes data.
 ms.assetid: 01edf32e-d44d-4b55-b422-165cbe12324c
-title: CDynamicOutputPin::m\_hStopEvent member
+title: CDynamicOutputPin::m_hStopEvent member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

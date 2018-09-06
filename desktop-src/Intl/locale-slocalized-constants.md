@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SLOCALIZED\* Constants
 ms.assetid: 1f91461a-ece3-4c71-b399-3d22eec368a9
-title: LOCALE\_SLOCALIZED\* Constants
+title: LOCALE_SLOCALIZED* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

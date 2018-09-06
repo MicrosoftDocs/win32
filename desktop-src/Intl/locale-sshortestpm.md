@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SSHORTESTPM
 ms.assetid: 553f31c3-fd73-4a5a-a6e1-5efabed4a17b
-title: LOCALE\_SSHORTESTPM
+title: LOCALE_SSHORTESTPM
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: The LABELED\_BIT structure defines a label BIT pair.
 ms.assetid: 500b5159-bf9f-49d4-8567-d8e462015eb0
-title: LABELED\_BIT structure
+title: LABELED_BIT structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

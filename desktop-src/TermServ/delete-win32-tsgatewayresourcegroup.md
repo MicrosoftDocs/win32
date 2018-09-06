@@ -1,5 +1,5 @@
 ---
-title: Delete method of the Win32\_TSGatewayResourceGroup class
+title: Delete method of the Win32_TSGatewayResourceGroup class
 description: Deletes the resource group.
 audience: developer
 author: REDMOND\\markl

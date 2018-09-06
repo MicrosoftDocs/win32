@@ -7,7 +7,7 @@ ms.assetid: fae267a9-e0ec-43fa-a3c3-d50345775a1d
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_EventDroppedEvent class'
+title: '__EventDroppedEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

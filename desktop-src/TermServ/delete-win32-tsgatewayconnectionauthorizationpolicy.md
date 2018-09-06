@@ -1,5 +1,5 @@
 ---
-title: Delete method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: Delete method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Deletes the current Remote Desktop connection authorization policy (RD \ 160;CAP).
 audience: developer
 author: REDMOND\\markl

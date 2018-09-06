@@ -1,5 +1,5 @@
 ---
-title: dcl\_tgsm\_structured (sm5 - asm)
+title: dcl_tgsm_structured (sm5 - asm)
 description: Declare a reference to a region of shared memory space available to the compute shader s thread group. The memory is viewed as an array of structures.
 ms.assetid: C42CD506-58EB-4740-8403-3F9BF29F0CAE
 ms.technology: desktop

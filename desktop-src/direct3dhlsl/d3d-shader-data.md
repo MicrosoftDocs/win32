@@ -1,5 +1,5 @@
 ---
-title: D3D\_SHADER\_DATA structure
+title: D3D_SHADER_DATA structure
 description: Describes shader data.
 ms.assetid: 34cde0c9-e8ee-428d-86f5-87c91b95f5d8
 keywords:

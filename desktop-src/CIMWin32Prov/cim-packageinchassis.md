@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_PackageInChassis class
+title: CIM_PackageInChassis class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

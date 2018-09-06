@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_CategoryId
+title: UI_PKEY_CategoryId
 description: Identifies the UI\_PKEY\_CategoryId property.
 ms.assetid: c1e81b2f-3f89-4bc5-a69b-64e841778790
 ms.technology: desktop

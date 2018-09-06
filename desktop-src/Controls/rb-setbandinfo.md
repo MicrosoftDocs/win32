@@ -1,5 +1,5 @@
 ---
-title: RB\_SETBANDINFO message
+title: RB_SETBANDINFO message
 description: Sets characteristics of an existing band in a rebar control.
 ms.assetid: 00021c35-612d-4278-b10c-6e9f1f45a543
 keywords:

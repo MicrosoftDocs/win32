@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_Battery01 class
+title: MDM_DeviceStatus_Battery01 class
 description: The MDM\_DeviceStatus\_Battery01 class is used by the enterprise to query the state of battery compliance of devices with their enterprise policies.
 ms.assetid: f4e92e2a-e267-467a-9905-2539dcaf8d8c
 keywords:

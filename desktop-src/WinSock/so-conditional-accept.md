@@ -1,7 +1,7 @@
 ---
 Description: Is designed to allow an application to decide whether or not to accept an incoming connection on a listening socket.
 ms.assetid: 964683eb-5dfc-4441-abb7-315be8b89a19
-title: SO\_CONDITIONAL\_ACCEPT socket option
+title: SO_CONDITIONAL_ACCEPT socket option
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

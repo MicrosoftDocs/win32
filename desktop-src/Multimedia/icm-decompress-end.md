@@ -1,5 +1,5 @@
 ---
-title: ICM\_DECOMPRESS\_END message
+title: ICM_DECOMPRESS_END message
 description: The ICM\_DECOMPRESS\_END message notifies a video decompression driver to end decompression and free resources allocated for decompression. You can send this message explicitly or by using the ICDecompressEnd macro.
 ms.assetid: 16ce2424-9606-455f-afbd-84326457538e
 keywords:

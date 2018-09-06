@@ -1,5 +1,5 @@
 ---
-title: MDM\_BitLocker class
+title: MDM_BitLocker class
 description: The MDM\_BitLocker class is used by the enterprise to manage encryption of PCs and devices.
 ms.assetid: e8bea6dc-8d3d-46d2-b2e3-9a4c547a639f
 keywords:

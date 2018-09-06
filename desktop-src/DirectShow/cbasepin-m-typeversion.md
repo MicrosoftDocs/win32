@@ -1,7 +1,7 @@
 ---
 Description: Current version of the set of preferred media types.
 ms.assetid: 14c576f6-0bdc-47eb-994e-cfa4a908d729
-title: CBasePin::m\_TypeVersion member
+title: CBasePin::m_TypeVersion member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

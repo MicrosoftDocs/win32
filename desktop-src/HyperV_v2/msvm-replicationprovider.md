@@ -1,7 +1,7 @@
 ---
 Description: Represents the available providers for replication.
 ms.assetid: CAAD1CFC-6473-4642-8366-0A5625AE1F70
-title: Msvm\_ReplicationProvider class
+title: Msvm_ReplicationProvider class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

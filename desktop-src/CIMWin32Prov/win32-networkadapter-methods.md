@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Win32\_NetworkAdapter Methods
+title: Win32_NetworkAdapter Methods
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

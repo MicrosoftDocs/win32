@@ -1,5 +1,5 @@
 ---
-title: LVN\_HOTTRACK notification code
+title: LVN_HOTTRACK notification code
 description: Sent by a list-view control when the user moves the mouse over an item. This notification code is only sent by list-view controls that have the LVS\_EX\_TRACKSELECT extended list-view style. It is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 6bbfe6b8-9b67-49e4-9481-65abe98608bb
 keywords:

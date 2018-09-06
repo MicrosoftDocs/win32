@@ -1,5 +1,5 @@
 ---
-title: Create method of the Win32\_Service class
+title: Create method of the Win32_Service class
 description: Creates a new system service.
 audience: developer
 author: REDMOND\\markl

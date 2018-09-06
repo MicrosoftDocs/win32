@@ -7,7 +7,7 @@ ms.assetid: b031af45-9237-434d-91db-69222306c615
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: GetSecurityDescriptor method of the \_\_SystemSecurity class
+title: GetSecurityDescriptor method of the __SystemSecurity class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

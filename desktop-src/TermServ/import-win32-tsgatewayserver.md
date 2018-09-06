@@ -1,5 +1,5 @@
 ---
-title: Import method of the Win32\_TSGatewayServer class
+title: Import method of the Win32_TSGatewayServer class
 description: Imports a given configuration to the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

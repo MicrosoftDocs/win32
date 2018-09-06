@@ -1,7 +1,7 @@
 ---
 Description: The JOB\_INFO\_1 structure specifies print-job information such as the job-identifier value, the name of the printer for which the job is spooled, the name of the machine that created the print job, the name of the user that owns the print job, and so on.
 ms.assetid: de915932-11a7-47e8-9be9-edab76d94189
-title: JOB\_INFO\_1 structure
+title: JOB_INFO_1 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

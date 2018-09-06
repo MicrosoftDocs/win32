@@ -1,5 +1,5 @@
 ---
-title: Create method of the Win32\_TSGatewayResourceGroup class
+title: Create method of the Win32_TSGatewayResourceGroup class
 description: Creates a resource group.
 audience: developer
 author: REDMOND\\markl

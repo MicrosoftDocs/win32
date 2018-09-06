@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_DomainResourceRecordContainment class
+title: MicrosoftDNS_DomainResourceRecordContainment class
 description: The MicrosoftDNS\_DomainResourceRecordContainment class is used for RR containment; every instance of the MicrosoftDNS\_Domain may contain multiple instances of the MicrosoftDNS\_ResourceRecord class.
 ms.assetid: 556c5e8d-58a1-4cb4-b4e9-eebdd86ed6a0
 keywords:

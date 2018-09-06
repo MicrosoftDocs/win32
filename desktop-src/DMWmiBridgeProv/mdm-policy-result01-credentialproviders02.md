@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_CredentialProviders02 class
+title: MDM_Policy_Result01_CredentialProviders02 class
 description: The MDM\_Policy\_Result01\_CredentialProviders02 class represents the available credential provider policies.
 ms.assetid: dc9e276b-8813-46cf-8e5a-0d41a93331ea
 keywords:

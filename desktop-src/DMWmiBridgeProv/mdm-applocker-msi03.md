@@ -1,5 +1,5 @@
 ---
-title: MDM\_AppLocker\_MSI03 class
+title: MDM_AppLocker_MSI03 class
 description: The MDM\_AppLocker\_MSI03 class defines the policy restrictions for processing MSI files.
 ms.assetid: b7b6602d-38b7-46f0-9542-71228ab0c303
 keywords:

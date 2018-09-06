@@ -1,5 +1,5 @@
 ---
-title: Create method of the Win32\_TSGatewayResourceAuthorizationPolicy class
+title: Create method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Creates a Remote Desktop resource authorization policy (RD \ 160;RAP).
 audience: developer
 author: REDMOND\\markl

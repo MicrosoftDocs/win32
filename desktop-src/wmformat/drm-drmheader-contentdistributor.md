@@ -1,5 +1,5 @@
 ---
-title: DRM\_DRMHeader\_ContentDistributor
+title: DRM_DRMHeader_ContentDistributor
 description: The DRM\_DRMHeader\_ContentDistributor attribute contains a string identifiying the content distributor.
 ms.assetid: ea9ae7ba-35cc-4e86-995c-9abcdae48f9c
 keywords:

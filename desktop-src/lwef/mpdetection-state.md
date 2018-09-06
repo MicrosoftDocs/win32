@@ -1,5 +1,5 @@
 ---
-title: MPDETECTION\_STATE enumeration
+title: MPDETECTION_STATE enumeration
 description: The state of the currently detected threat.
 ms.assetid: 293771FF-A210-41D0-88A5-3B52ACAA9295
 keywords:

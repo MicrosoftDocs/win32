@@ -1,5 +1,5 @@
 ---
-title: deriv\_rtx\_fine (sm5 - asm)
+title: deriv_rtx_fine (sm5 - asm)
 description: Computes the rate of change of components.
 ms.assetid: 5752C85B-2965-489C-BF27-968FAF5EAA52
 ms.technology: desktop

@@ -1,7 +1,7 @@
 ---
 Description: Sets a Microsoft DirectComposition visual as the playback region for the Media Engine.
 ms.assetid: C381D28E-B7A1-4A1A-9F8D-42A4ABB1C633
-title: MF\_MEDIA\_ENGINE\_PLAYBACK\_VISUAL attribute
+title: MF_MEDIA_ENGINE_PLAYBACK_VISUAL attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Represents the state of the RDV component, which is responsible for providing a transport for the parent to the guest for configuration purposes.
 ms.assetid: e53238ee-8264-416b-8855-193c28089cfa
-title: Msvm\_RdvComponent class
+title: Msvm_RdvComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

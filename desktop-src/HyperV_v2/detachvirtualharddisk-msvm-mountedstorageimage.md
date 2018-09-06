@@ -1,7 +1,7 @@
 ---
 Description: Detaches the mounted storage image that is associated with this class.
 ms.assetid: C3AB0EEE-71FE-4049-90AB-01F5D77E3B97
-title: DetachVirtualHardDisk method of the Msvm\_MountedStorageImage class
+title: DetachVirtualHardDisk method of the Msvm_MountedStorageImage class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

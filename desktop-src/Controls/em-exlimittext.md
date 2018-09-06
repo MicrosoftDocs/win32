@@ -1,5 +1,5 @@
 ---
-title: EM\_EXLIMITTEXT message
+title: EM_EXLIMITTEXT message
 description: Sets an upper limit to the amount of text the user can type or paste into a rich edit control.
 ms.assetid: 66fcdbb9-99ac-4122-b89c-be4aef80fbae
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_CAPABILITY Constants
+title: WINBIO_CAPABILITY Constants
 description: Fingerprint sensor sub types.
 ms.assetid: D447273E-2A02-484E-B0E4-69FEADD15797
 topic_type:

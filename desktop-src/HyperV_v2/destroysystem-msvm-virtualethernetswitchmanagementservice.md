@@ -1,7 +1,7 @@
 ---
 Description: Destroys a virtual switch.
 ms.assetid: f0b6b4cc-e9b7-4255-a9e1-a2a826b8f119
-title: DestroySystem method of the Msvm\_VirtualEthernetSwitchManagementService class
+title: DestroySystem method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

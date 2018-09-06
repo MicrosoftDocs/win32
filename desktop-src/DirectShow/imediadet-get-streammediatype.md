@@ -1,7 +1,7 @@
 ---
 Description: The get\_StreamMediaType method retrieves the media type of the current stream. All video streams are converted to VIDEOINFOHEADER types, and all audio streams are converted to WAVEFORMATEX types.
 ms.assetid: 7fc15cb3-af77-42c1-b5eb-d1d88bf9cd1d
-title: IMediaDet::get\_StreamMediaType method
+title: IMediaDet::get_StreamMediaType method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

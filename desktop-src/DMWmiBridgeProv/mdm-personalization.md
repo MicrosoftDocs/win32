@@ -1,5 +1,5 @@
 ---
-title: MDM\_Personalization class
+title: MDM_Personalization class
 description: The MDM\_Personalization class is used to set the lock screen and desktop background images. Setting these policies also prevents the user from changing the image.
 ms.assetid: 99b60767-b321-4ec6-9802-76221d26c830
 keywords:

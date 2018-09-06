@@ -1,5 +1,5 @@
 ---
-title: GenerateReport method of the Win32\_TSLicenseReport class
+title: GenerateReport method of the Win32_TSLicenseReport class
 description: GenerateReport is no longer available for use as of Windows Server 2012.
 audience: developer
 author: REDMOND\\markl

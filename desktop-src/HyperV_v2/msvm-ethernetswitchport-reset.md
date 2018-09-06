@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: f09641e4-6bf6-4738-afab-0a50f15d3a68
-title: Reset method of the Msvm\_EthernetSwitchPort class
+title: Reset method of the Msvm_EthernetSwitchPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

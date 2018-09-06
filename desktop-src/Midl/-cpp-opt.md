@@ -1,5 +1,5 @@
 ---
-title: /cpp\_opt switch
+title: /cpp_opt switch
 description: The /cpp\_opt switch specifies options to pass to the C/C++ preprocessor.
 ms.assetid: f0059caa-aff3-4e96-95f8-a0014d6a6556
 keywords:

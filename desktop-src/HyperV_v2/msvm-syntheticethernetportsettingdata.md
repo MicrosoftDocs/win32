@@ -1,7 +1,7 @@
 ---
 Description: Represents the configured state of a synthetic Ethernet adapter.
 ms.assetid: BE895BAF-7766-43A2-9659-3ABA97A16134
-title: Msvm\_SyntheticEthernetPortSettingData class
+title: Msvm_SyntheticEthernetPortSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

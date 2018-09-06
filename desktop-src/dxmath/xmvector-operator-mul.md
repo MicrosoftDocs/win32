@@ -1,7 +1,7 @@
 ---
 Description: Multiplication operators.
 ms.assetid: f8397999-9956-4d11-8705-c95b788a9f03
-title: operator \* operators
+title: operator * operators
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

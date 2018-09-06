@@ -1,5 +1,5 @@
 ---
-title: WM\_ADSPROP\_SHEET\_CREATE message
+title: WM_ADSPROP_SHEET_CREATE message
 description: Sent to the notification object to create a secondary property sheet in an Active Directory MMC snap-in.
 audience: developer
 author: REDMOND\\markl

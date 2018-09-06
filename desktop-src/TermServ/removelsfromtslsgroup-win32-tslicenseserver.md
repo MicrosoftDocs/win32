@@ -1,5 +1,5 @@
 ---
-title: RemoveLSfromTSLSGroup method of the Win32\_TSLicenseServer class
+title: RemoveLSfromTSLSGroup method of the Win32_TSLicenseServer class
 description: Removes the Remote Desktop license server from the Remote Desktop Services License Servers group on a domain controller in the same domain as the license server.
 audience: developer
 author: REDMOND\\markl

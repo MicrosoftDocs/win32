@@ -1,5 +1,5 @@
 ---
-title: PBM\_GETBKCOLOR message
+title: PBM_GETBKCOLOR message
 description: Gets the background color of the progress bar.
 ms.assetid: 9526ed78-08d9-468f-831b-72bb7c8c92d1
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the data field from the application protocol data unit (APDU), placing it in a byte buffer object.
 ms.assetid: fbffeeeb-56e5-4484-b294-8b6f59c919eb
-title: ISCardCmd::get\_Data method
+title: ISCardCmd::get_Data method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

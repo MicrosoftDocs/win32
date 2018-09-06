@@ -1,5 +1,5 @@
 ---
-title: ps\_1\_1\_\_ps\_1\_2\_\_ps\_1\_3\_\_ps\_1\_4 Registers
+title: ps_1_1__ps_1_2__ps_1_3__ps_1_4 Registers
 description: Pixel shaders depend on registers to get vertex data, to output pixel data, to hold temporary results during calculations and to identify texture sampling stages.
 ms.assetid: ca25a030-b4da-4893-b9f3-e3bb12f18d83
 keywords:

@@ -1,6 +1,6 @@
 ---
 Description: Notification sent to the view callback object to specify the locations and events that should be registered for change notification events.
-title: SFVM\_GETNOTIFY message
+title: SFVM_GETNOTIFY message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_EVENT structure
+title: WINBIO_EVENT structure
 description: Contains status information sent to the callback routine when an event notice is raised.
 ms.assetid: f46df7ff-8197-49cb-b1f8-4e7e3288e3df
 keywords:

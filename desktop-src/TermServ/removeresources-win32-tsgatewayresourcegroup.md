@@ -1,5 +1,5 @@
 ---
-title: RemoveResources method of the Win32\_TSGatewayResourceGroup class
+title: RemoveResources method of the Win32_TSGatewayResourceGroup class
 description: Removes resources from the resource group.
 audience: developer
 author: REDMOND\\markl

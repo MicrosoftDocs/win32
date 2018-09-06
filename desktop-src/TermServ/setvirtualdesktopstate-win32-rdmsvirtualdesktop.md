@@ -1,5 +1,5 @@
 ---
-title: SetVirtualDesktopState method of the Win32\_RDMSVirtualDesktop class
+title: SetVirtualDesktopState method of the Win32_RDMSVirtualDesktop class
 description: Updates the state of the virtual desktop.
 audience: developer
 author: REDMOND\\markl

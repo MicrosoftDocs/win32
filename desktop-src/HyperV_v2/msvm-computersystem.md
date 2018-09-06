@@ -1,7 +1,7 @@
 ---
 Description: Represents a physical computer system or virtual machine.
 ms.assetid: 897AD1B9-0EDD-4DCE-963D-D5DE03AF55A9
-title: Msvm\_ComputerSystem class
+title: Msvm_ComputerSystem class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

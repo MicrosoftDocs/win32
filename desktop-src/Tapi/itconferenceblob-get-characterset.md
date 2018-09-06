@@ -1,7 +1,7 @@
 ---
 Description: The get\_CharacterSet method gets a BLOB\_CHARACTER\_SET descriptor of the character set used in the current conference blob.
 ms.assetid: 9783d18c-79f6-4faa-b12d-9504c13d54e3
-title: ITConferenceBlob::get\_CharacterSet method
+title: ITConferenceBlob::get_CharacterSet method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: cafc6841-4814-4bf9-947b-c6afd4747367
-title: Reset method of the Msvm\_VssComponent class
+title: Reset method of the Msvm_VssComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

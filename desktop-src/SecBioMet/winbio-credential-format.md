@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_CREDENTIAL\_FORMAT enumeration
+title: WINBIO_CREDENTIAL_FORMAT enumeration
 description: Defines flags that can be used to specify the end-user credential format.
 ms.assetid: f107e000-98a2-44f0-aa5e-d13b5d9c8d43
 keywords:

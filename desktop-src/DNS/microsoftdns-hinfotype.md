@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_HINFOType class
+title: MicrosoftDNS_HINFOType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Host Information (HINFO) record.
 ms.assetid: c6591010-0fe6-45b2-9032-9f847237ecf6
 keywords:

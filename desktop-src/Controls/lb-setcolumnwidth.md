@@ -1,5 +1,5 @@
 ---
-title: LB\_SETCOLUMNWIDTH message
+title: LB_SETCOLUMNWIDTH message
 description: Sets the width, in pixels, of all columns in a multiple-column list box.
 ms.assetid: 227baae1-98f1-450e-97d4-4c7e9142614e
 keywords:

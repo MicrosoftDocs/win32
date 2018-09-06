@@ -1,7 +1,7 @@
 ---
 Description: The LINEANSWERMODE\_ bit-flag constants describe how an existing active call on a line device is affected by answering another offering call on the same line.
 ms.assetid: 35f63d92-970f-4fb8-aba9-179fc7de70f4
-title: LINEANSWERMODE\_ Constants
+title: LINEANSWERMODE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Represents the VFP QOS settings.
 ms.assetid: e58a7a8d-0301-43ea-9338-18bc8c458e2d
-title: Msvm\_EthernetSwitchPortMigrationQosSettingData class
+title: Msvm_EthernetSwitchPortMigrationQosSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

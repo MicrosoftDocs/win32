@@ -1,5 +1,5 @@
 ---
-title: LB\_GETITEMDATA message
+title: LB_GETITEMDATA message
 description: Gets the application-defined value associated with the specified list box item.
 ms.assetid: 3a3f7fa5-ce04-4e95-86e1-5c7de796d1b6
 keywords:

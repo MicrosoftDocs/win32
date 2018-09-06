@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetColors method.
 ms.assetid: 31590de3-f35c-4253-9a80-2f59c795bf3f
-title: IWICPalette\_GetColors\_Proxy function
+title: IWICPalette_GetColors_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

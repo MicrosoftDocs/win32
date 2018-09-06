@@ -1,5 +1,5 @@
 ---
-title: DumpVmInfo method of the Win32\_TSVm class
+title: DumpVmInfo method of the Win32_TSVm class
 description: This member is for internal testing purposes, and should not be used in your code.
 audience: developer
 author: REDMOND\\markl

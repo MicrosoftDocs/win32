@@ -1,5 +1,5 @@
 ---
-title: DRM\_OUTPUT\_PROTECTION structure
+title: DRM_OUTPUT_PROTECTION structure
 description: The DRM\_OUTPUT\_PROTECTION structure holds information about an output protection technology.
 ms.assetid: e458013d-b77e-4e03-bff9-e3ecfc72ebdb
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WS\_HEAP
+title: WS_HEAP
 description: An opaque type used to reference a heap object.
 ms.assetid: 1866f54f-26fc-4889-a88f-0d298a418bdc
 keywords:

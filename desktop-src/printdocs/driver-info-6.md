@@ -1,7 +1,7 @@
 ---
 Description: The DRIVER\_INFO\_6 structure contains printer driver information.
 ms.assetid: 9771cbb5-caaa-4b7d-9a96-d24234440bac
-title: DRIVER\_INFO\_6 structure
+title: DRIVER_INFO_6 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

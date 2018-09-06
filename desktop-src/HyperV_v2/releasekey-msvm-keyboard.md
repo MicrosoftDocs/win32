@@ -1,7 +1,7 @@
 ---
 Description: Simulates a key release.
 ms.assetid: EAE84BD5-ECEA-44E7-A7AB-CD18299DF2FE
-title: ReleaseKey method of the Msvm\_Keyboard class
+title: ReleaseKey method of the Msvm_Keyboard class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

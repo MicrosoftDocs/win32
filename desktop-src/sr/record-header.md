@@ -1,5 +1,5 @@
 ---
-title: RECORD\_HEADER structure
+title: RECORD_HEADER structure
 description: The record header used by the CHANGE\_LOG\_ENTRY and CHANGE\_LOG\_HEADER structures.
 ms.assetid: f8d2147c-ad13-4be4-94d7-ae0ca26511da
 keywords:

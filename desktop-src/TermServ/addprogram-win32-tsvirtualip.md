@@ -1,5 +1,5 @@
 ---
-title: AddProgram method of the Win32\_TSVirtualIP class
+title: AddProgram method of the Win32_TSVirtualIP class
 description: Adds a program to the list of programs that use IP virtualization.
 audience: developer
 author: REDMOND\\markl

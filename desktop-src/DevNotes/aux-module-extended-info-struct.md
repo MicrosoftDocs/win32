@@ -1,7 +1,7 @@
 ---
 Description: Contains extended module information.
 ms.assetid: 705769de-0aeb-4a28-b174-8620efa74baf
-title: AUX\_MODULE\_EXTENDED\_INFO structure
+title: AUX_MODULE_EXTENDED_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

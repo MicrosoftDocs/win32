@@ -1,5 +1,5 @@
 ---
-title: GetVirtualDesktopDetails method of the Win32\_RDMSVirtualDesktop class
+title: GetVirtualDesktopDetails method of the Win32_RDMSVirtualDesktop class
 description: Retrieves the additional information about the virtual desktop.
 audience: developer
 author: REDMOND\\markl

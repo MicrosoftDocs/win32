@@ -1,5 +1,5 @@
 ---
-title: UpdateDirectConnectLicenseServer method of the Win32\_TerminalServiceSetting class
+title: UpdateDirectConnectLicenseServer method of the Win32_TerminalServiceSetting class
 description: UpdateDirectConnectLicenseServer is no longer available.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: CQPM\_CLEARFORM message
+title: CQPM_CLEARFORM message
 description: Sent to the CQPageProc callback function of a query for extension page when the contents of the page should be reset to the default values.
 audience: developer
 author: REDMOND\\markl

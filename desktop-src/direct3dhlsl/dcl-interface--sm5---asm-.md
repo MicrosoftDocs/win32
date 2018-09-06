@@ -1,5 +1,5 @@
 ---
-title: dcl\_interface (sm5 - asm)
+title: dcl_interface (sm5 - asm)
 description: Declare function table pointers (interfaces).
 ms.assetid: 5A4D911E-7117-409B-8FDC-9CEC2C185C15
 ms.technology: desktop

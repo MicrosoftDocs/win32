@@ -1,5 +1,5 @@
 ---
-title: DisconnectProtocol method of the Win32\_TSGatewayConnection class
+title: DisconnectProtocol method of the Win32_TSGatewayConnection class
 description: Disconnects all connections of the specified protocol from the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

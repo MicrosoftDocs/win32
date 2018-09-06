@@ -1,7 +1,7 @@
 ---
 Description: The PRINTER\_INFO\_3 structure specifies printer security information.
 ms.assetid: 527d635d-2d75-4b56-bab7-e95c9919a8fb
-title: PRINTER\_INFO\_3 structure
+title: PRINTER_INFO_3 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

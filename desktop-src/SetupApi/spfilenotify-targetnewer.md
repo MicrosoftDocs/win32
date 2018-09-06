@@ -1,7 +1,7 @@
 ---
 Description: The SPFILENOTIFY\_TARGETNEWER notification is sent to the callback routine if the file to be copied was queued with the SP\_COPY\_NEWER or SP\_COPY\_FORCE\_NEWER flags specified and a newer version of the file already exists in the target directory.
 ms.assetid: 93bcd610-f75d-4900-841c-f67946af5c4a
-title: SPFILENOTIFY\_TARGETNEWER message
+title: SPFILENOTIFY_TARGETNEWER message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

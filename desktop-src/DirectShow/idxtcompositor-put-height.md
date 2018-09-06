@@ -1,7 +1,7 @@
 ---
 Description: The put\_Height method specifies the height of the target rectangle.
 ms.assetid: 032b5468-bce8-4492-abbe-e442131ebe3a
-title: IDxtCompositor::put\_Height method
+title: IDxtCompositor::put_Height method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the CreateDecoderFromFileHandle method.
 ms.assetid: bc7f8a07-6d82-4d95-88ef-979d571758f4
-title: IWICImagingFactory\_CreateDecoderFromFileHandle\_Proxy function
+title: IWICImagingFactory_CreateDecoderFromFileHandle_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

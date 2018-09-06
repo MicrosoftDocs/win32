@@ -1,7 +1,7 @@
 ---
 Description: Removes migration network subnets from the virtual system migration service.
 ms.assetid: 6ae8de07-552b-4525-8806-bfb9da73bd42
-title: RemoveNetworkSettings method of the Msvm\_VirtualSystemMigrationService class
+title: RemoveNetworkSettings method of the Msvm_VirtualSystemMigrationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: The SPFILENOTIFY\_FILEOPDELAYED notification is sent by SetupInstallFileEx or SetupCommitFileQueue to a callback routine when a file operation was delayed because the file was in use. The operation will be processed the next time the system is rebooted.
 ms.assetid: a0b38e2b-2390-49e5-b288-77c31636e696
-title: SPFILENOTIFY\_FILEOPDELAYED message
+title: SPFILENOTIFY_FILEOPDELAYED message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

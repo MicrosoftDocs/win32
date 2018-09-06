@@ -1,6 +1,6 @@
 ---
 Description: Notifies the callback object that the folder view window is being created. Used by IShellFolderViewCB::MessageSFVCB.
-title: SFVM\_WINDOWCREATED message
+title: SFVM_WINDOWCREATED message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

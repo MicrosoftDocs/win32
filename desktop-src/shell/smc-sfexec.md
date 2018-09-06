@@ -1,6 +1,6 @@
 ---
 Description: Execute the Shell folder item specified in the accompanying SMDATA structure.
-title: SMC\_SFEXEC message
+title: SMC_SFEXEC message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

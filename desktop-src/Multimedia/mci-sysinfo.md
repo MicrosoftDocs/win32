@@ -1,5 +1,5 @@
 ---
-title: MCI\_SYSINFO command
+title: MCI_SYSINFO command
 description: The MCI\_SYSINFO command retrieves information about MCI devices.
 ms.assetid: 605efd25-8849-42aa-99fd-b36b6fd2c7b7
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TB\_INDETERMINATE message
+title: TB_INDETERMINATE message
 description: Sets or clears the indeterminate state of the specified button in a toolbar.
 ms.assetid: 6a0f2b82-8241-4c2e-b349-606975ba1a24
 keywords:

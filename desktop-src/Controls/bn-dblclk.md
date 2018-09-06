@@ -1,5 +1,5 @@
 ---
-title: BN\_DBLCLK notification code
+title: BN_DBLCLK notification code
 description: Sent when the user double-clicks a button.
 ms.assetid: 60cc033f-8b84-4aa5-b625-fdee9deb4757
 keywords:

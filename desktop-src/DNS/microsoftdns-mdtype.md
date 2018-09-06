@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_MDType class
+title: MicrosoftDNS_MDType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mail Agent for Domain (MD) record.
 ms.assetid: 11242372-65fe-44ee-845b-2430aec59127
 keywords:

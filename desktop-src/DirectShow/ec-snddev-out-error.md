@@ -1,7 +1,7 @@
 ---
 Description: A device error has occurred in an audio renderer filter.
 ms.assetid: 60e36476-f553-468d-a28d-351fdf4a02f1
-title: EC\_SNDDEV\_OUT\_ERROR
+title: EC_SNDDEV_OUT_ERROR
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

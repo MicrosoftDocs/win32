@@ -1,5 +1,5 @@
 ---
-title: NSC\_Email
+title: NSC_Email
 description: The NSC\_Email attribute contains the e-mail address of the multicast station.
 ms.assetid: cbd30e01-d57b-48ee-95b0-71585a668a6c
 keywords:

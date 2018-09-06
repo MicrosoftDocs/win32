@@ -1,5 +1,5 @@
 ---
-title: PSN\_QUERYCANCEL notification code
+title: PSN_QUERYCANCEL notification code
 description: Indicates that the user has canceled the property sheet. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 4a789e08-065a-485c-87e3-f7958e2dc544
 keywords:

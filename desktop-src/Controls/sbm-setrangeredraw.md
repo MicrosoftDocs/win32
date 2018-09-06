@@ -1,5 +1,5 @@
 ---
-title: SBM\_SETRANGEREDRAW message
+title: SBM_SETRANGEREDRAW message
 description: An application sends the SBM\_SETRANGEREDRAW message to a scroll bar control to set the minimum and maximum position values and to redraw the control.
 ms.assetid: badb58cc-9e3a-4766-a67f-631a7feb6285
 keywords:

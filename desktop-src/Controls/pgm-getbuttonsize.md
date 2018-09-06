@@ -1,5 +1,5 @@
 ---
-title: PGM\_GETBUTTONSIZE message
+title: PGM_GETBUTTONSIZE message
 description: Retrieves the current button size for the pager control. You can send this message explicitly or use the Pager\_GetButtonSize macro.
 ms.assetid: fa8b4814-4587-4149-83a7-84faad2a4641
 keywords:

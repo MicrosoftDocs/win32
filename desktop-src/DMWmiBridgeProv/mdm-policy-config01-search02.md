@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Search02 class
+title: MDM_Policy_Config01_Search02 class
 description: The MDM\_Policy\_Config01\_Search02 class represents the search policies available.
 ms.assetid: 0ae4876c-3584-4b22-be02-a499443f5df0
 keywords:

@@ -4,7 +4,7 @@ MS-HAID: vspixengine.Xml\_Resource\_Ids
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: Xml\_Resource\_Ids enumeration
+title: Xml_Resource_Ids enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

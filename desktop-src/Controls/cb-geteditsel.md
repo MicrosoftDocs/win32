@@ -1,5 +1,5 @@
 ---
-title: CB\_GETEDITSEL message
+title: CB_GETEDITSEL message
 description: Gets the starting and ending character positions of the current selection in the edit control of a combo box.
 ms.assetid: 72b64135-e35a-4f72-9fc7-e6bedf495f23
 keywords:

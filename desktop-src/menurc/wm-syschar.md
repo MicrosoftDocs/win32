@@ -1,5 +1,5 @@
 ---
-title: WM\_SYSCHAR message
+title: WM_SYSCHAR message
 description: Posted to the window with the keyboard focus when a WM\_SYSKEYDOWN message is translated by the TranslateMessage function.
 ms.assetid: 55987105-3c53-42e5-8fab-a3c9f2ca7273
 keywords:

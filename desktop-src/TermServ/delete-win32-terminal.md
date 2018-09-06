@@ -1,5 +1,5 @@
 ---
-title: Delete method of the Win32\_Terminal class
+title: Delete method of the Win32_Terminal class
 description: Deletes the specified terminal.
 audience: developer
 author: REDMOND\\markl

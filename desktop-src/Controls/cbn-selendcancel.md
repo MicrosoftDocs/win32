@@ -1,5 +1,5 @@
 ---
-title: CBN\_SELENDCANCEL notification code
+title: CBN_SELENDCANCEL notification code
 description: Sent when the user selects an item, but then selects another control or closes the dialog box. It indicates the user's initial selection is to be ignored. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
 ms.assetid: ac8d6d9f-4455-42d6-b0f1-5aaa55b8ee42
 keywords:

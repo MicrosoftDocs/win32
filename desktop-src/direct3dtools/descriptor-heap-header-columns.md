@@ -4,7 +4,7 @@ MS-HAID: vspixengine.DESCRIPTOR\_HEAP\_HEADER\_COLUMNS
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: DESCRIPTOR\_HEAP\_HEADER\_COLUMNS enumeration
+title: DESCRIPTOR_HEAP_HEADER_COLUMNS enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Event that is signaled when the pin successfully blocks, or the user cancels a pending block.
 ms.assetid: 699bb7f7-e4f7-47c3-bbb1-0bc6556651ae
-title: CDynamicOutputPin::m\_hNotifyCallerPinBlockedEvent member
+title: CDynamicOutputPin::m_hNotifyCallerPinBlockedEvent member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

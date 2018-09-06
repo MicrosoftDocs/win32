@@ -1,5 +1,5 @@
 ---
-title: RemoveUserAssignment method of the Win32\_RDMSVirtualDesktop class
+title: RemoveUserAssignment method of the Win32_RDMSVirtualDesktop class
 description: Removes the user assignment from the virtual desktop.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: EM\_EXGETSEL message
+title: EM_EXGETSEL message
 description: Retrieves the starting and ending character positions of the selection in a rich edit control.
 ms.assetid: 60fcf13e-6c45-4f4e-9b54-70f0985122fb
 keywords:

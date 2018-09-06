@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_TrafficFilterList02\_01 class
+title: MDM_VPNv2_TrafficFilterList02_01 class
 description: The MDM\_VPNv2\_TrafficFilterList02\_01 class contains an optional list of rules. Only traffic that matches these rules can be sent via the VPN Interface.
 ms.assetid: 3cffe96d-7454-43a1-aa5b-33e820369e7e
 keywords:

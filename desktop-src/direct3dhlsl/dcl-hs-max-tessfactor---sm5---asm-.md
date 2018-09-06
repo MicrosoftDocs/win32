@@ -1,5 +1,5 @@
 ---
-title: dcl\_hs\_max\_tessfactor (sm5 - asm)
+title: dcl_hs_max_tessfactor (sm5 - asm)
 description: Declare the maxTessFactor for the patch.
 ms.assetid: 7EF0FD81-69FE-49F6-95DF-0C452A90A713
 ms.technology: desktop

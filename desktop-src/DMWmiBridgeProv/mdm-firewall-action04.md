@@ -1,5 +1,5 @@
 ---
-title: MDM\_Firewall\_Action04 class
+title: MDM_Firewall_Action04 class
 description: The MDM\_Firewall\_Action04 class is used to configure the Windows Defender Firewall settings.
 ms.assetid: d0704662-ac2b-4ff5-a2c1-8f2bc7835488
 keywords:

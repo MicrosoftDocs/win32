@@ -1,5 +1,5 @@
 ---
-title: DRM\_LicenseState\_CollaborativePlay
+title: DRM_LicenseState_CollaborativePlay
 description: The DRM\_LicenseState\_CollaborativePlay property contains a WM\_LICENSE\_STATE\_DATA structure that contains details about how this right has been applied to the content.
 ms.assetid: 023cf437-82d4-449a-9b60-aee2a554bf9d
 keywords:

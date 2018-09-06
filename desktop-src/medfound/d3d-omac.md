@@ -1,7 +1,7 @@
 ---
 Description: Contains a Message Authentication Code (MAC).
 ms.assetid: be5515fd-1936-46b8-9fc8-8d1f87048c38
-title: D3D\_OMAC structure
+title: D3D_OMAC structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

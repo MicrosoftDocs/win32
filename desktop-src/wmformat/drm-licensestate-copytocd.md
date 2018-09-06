@@ -1,5 +1,5 @@
 ---
-title: DRM\_LicenseState\_CopyToCD
+title: DRM_LicenseState_CopyToCD
 description: The DRM\_LicenseState\_CopyToCD property contains a WM\_LICENSE\_STATE\_DATA structure that contains details about how this right has been applied to the content.
 ms.assetid: 0a32ce53-87ce-4b63-bfd6-3a0dd629dabc
 keywords:

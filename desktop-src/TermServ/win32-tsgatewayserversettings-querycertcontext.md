@@ -1,5 +1,5 @@
 ---
-title: QueryCertContext method of the Win32\_TSGatewayServerSettings class
+title: QueryCertContext method of the Win32_TSGatewayServerSettings class
 description: Indicates whether the specified certificate is installed.
 audience: developer
 author: REDMOND\\markl

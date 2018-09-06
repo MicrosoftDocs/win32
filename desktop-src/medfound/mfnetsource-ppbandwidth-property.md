@@ -1,7 +1,7 @@
 ---
 Description: Specifies the packet-pair bandwidth and run-time bandwidth detected by the network source.
 ms.assetid: 430de7fc-fe62-4b89-b3fc-7cd956e40892
-title: MFNETSOURCE\_PPBANDWIDTH property
+title: MFNETSOURCE_PPBANDWIDTH property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: XTYP\_CONNECT\_CONFIRM transaction
+title: XTYP_CONNECT_CONFIRM transaction
 description: A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives the XTYP\_CONNECT\_CONFIRM transaction to confirm that a conversation has been established with a client and to provide the server with the conversation handle.
 ms.assetid: 4db67539-9322-44d7-bf2b-749bd6cfcbb4
 keywords:

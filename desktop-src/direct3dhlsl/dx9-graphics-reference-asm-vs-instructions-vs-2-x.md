@@ -1,5 +1,5 @@
 ---
-title: Instructions - vs\_2\_x
+title: Instructions - vs_2_x
 description: This section contains reference information for the vertex shader version 2\_x instructions.
 ms.assetid: fac85f96-0f4b-49a8-9c00-9e68000d1c76
 ms.technology: desktop

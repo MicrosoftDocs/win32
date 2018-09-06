@@ -1,5 +1,5 @@
 ---
-title: BM\_SETSTATE message
+title: BM_SETSTATE message
 description: Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can send this message explicitly or use the Button\_SetState macro.
 ms.assetid: 675ebe8d-b381-46ca-b328-ebe9f25d864a
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Represents the logical connection point for a network adapter. When the Wi-Fi endpoint is connected to a switch port, the network adapter connected to the Wi-Fi endpoint has network connectivity.
 ms.assetid: 66ed1503-9c11-4a51-a3a5-21e5d7021197
-title: Msvm\_WiFiEndpoint class
+title: Msvm_WiFiEndpoint class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

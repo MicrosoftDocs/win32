@@ -1,5 +1,5 @@
 ---
-title: NM\_CHAR notification code
+title: NM_CHAR notification code
 description: The NM\_CHAR notification code is sent by a control when a character key is processed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: b750f2a6-8642-4d76-96bb-bf58b00cd5c4
 keywords:

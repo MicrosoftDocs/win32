@@ -1,5 +1,5 @@
 ---
-title: TBN\_GETBUTTONINFO notification code
+title: TBN_GETBUTTONINFO notification code
 description: Retrieves toolbar customization information and notifies the toolbar's parent window of any changes being made to the toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 088527fe-5a38-4c35-ba68-d0cbfdee410c
 keywords:

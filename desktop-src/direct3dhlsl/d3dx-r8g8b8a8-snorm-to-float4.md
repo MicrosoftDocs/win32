@@ -1,5 +1,5 @@
 ---
-title: D3DX\_R8G8B8A8\_SNORM\_to\_FLOAT4 function
+title: D3DX_R8G8B8A8_SNORM_to_FLOAT4 function
 description: Unpacks DXGI\_FORMAT\_R8G8B8A8\_SNORM shader data to an XMFLOAT4.
 ms.assetid: 2f2b9d5e-f4d0-470a-a4bb-b333d57f03e7
 keywords:

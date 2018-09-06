@@ -1,7 +1,7 @@
 ---
 Description: Specifies the FOURCC that identifies the encoder you want to use.
 ms.assetid: c03da576-cb58-4686-af6f-9575520c759c
-title: MFPKEY\_FOURCC Property
+title: MFPKEY_FOURCC Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

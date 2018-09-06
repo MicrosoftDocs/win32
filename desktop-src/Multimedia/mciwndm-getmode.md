@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETMODE message
+title: MCIWNDM_GETMODE message
 description: The MCIWNDM\_GETMODE message retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can send this message explicitly or by using the MCIWndGetMode macro.
 ms.assetid: cc327281-434e-4047-9e15-c04a10953f47
 keywords:

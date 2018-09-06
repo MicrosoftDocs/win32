@@ -1,5 +1,5 @@
 ---
-title: TB\_SETDRAWTEXTFLAGS message
+title: TB_SETDRAWTEXTFLAGS message
 description: Sets the text drawing flags for the toolbar.
 ms.assetid: b088af32-ea8a-4304-89f1-a7cec5497f85
 keywords:

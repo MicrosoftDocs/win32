@@ -1,5 +1,5 @@
 ---
-title: MP\_PERSISTENCE\_LIMIT\_TYPE enumeration
+title: MP_PERSISTENCE_LIMIT_TYPE enumeration
 description: Persistence limit type.
 ms.assetid: 57423110-7966-4240-8B15-1859D3D9EA4C
 keywords:

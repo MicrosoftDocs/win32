@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SCONSOLEFALLBACKNAME
 ms.assetid: 36465a1c-085f-4f80-ad3d-5be6eaefe943
-title: LOCALE\_SCONSOLEFALLBACKNAME
+title: LOCALE_SCONSOLEFALLBACKNAME
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -7,7 +7,7 @@ ms.assetid: 168505d7-4677-4f41-935e-149f22de2cb5
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_NamespaceModificationEvent class'
+title: '__NamespaceModificationEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

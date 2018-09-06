@@ -1,7 +1,7 @@
 ---
 Description: Places the service in the started state.
 ms.assetid: 8977b806-150c-4ddc-a471-3fdafdcb4a55
-title: StartService method of the CIM\_Service class
+title: StartService method of the CIM_Service class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Controls the signaling of MFSampleExtension\_MeanAbsoluteDifference through IMFAttribute on each output sample.
 ms.assetid: 61C0F431-FBF5-4B17-8F3A-0F6AD2BA33B7
-title: CODECAPI\_AVEncVideoMeanAbsoluteDifference property
+title: CODECAPI_AVEncVideoMeanAbsoluteDifference property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

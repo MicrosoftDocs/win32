@@ -1,5 +1,5 @@
 ---
-title: in\_line attribute
+title: in_line attribute
 description: The DCE IDL keyword in\_line is not supported in Microsoft RPC.
 ms.assetid: 11ef8a9f-e358-4a38-bae2-fcd998f7fb76
 keywords:

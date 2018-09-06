@@ -1,7 +1,7 @@
 ---
 Description: Specifies the logic that the codec will use to detect interlaced source video.
 ms.assetid: 29c7fc1c-2047-4562-ba14-48f9cfbfe68c
-title: MFPKEY\_VTYPE Property
+title: MFPKEY_VTYPE Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

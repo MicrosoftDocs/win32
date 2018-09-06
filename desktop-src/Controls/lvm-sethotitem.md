@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETHOTITEM message
+title: LVM_SETHOTITEM message
 description: Sets the hot item for a list-view control. You can send this message explicitly or use the ListView\_SetHotItem macro.
 ms.assetid: 0aa2b15d-4983-4234-9863-f1fdee09f913
 keywords:

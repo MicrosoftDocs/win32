@@ -7,7 +7,7 @@ ms.assetid: 84e514f5-b114-4bfc-ab0b-9745f249168b
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_thisNAMESPACE class'
+title: '__thisNAMESPACE class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

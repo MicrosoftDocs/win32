@@ -1,7 +1,7 @@
 ---
 Description: Requests that the state of the element be changed.
 ms.assetid: D1742588-D932-4FE1-8D2A-E410BEE371FF
-title: RequestStateChange method of the Msvm\_Keyboard class
+title: RequestStateChange method of the Msvm_Keyboard class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

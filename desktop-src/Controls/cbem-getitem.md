@@ -1,5 +1,5 @@
 ---
-title: CBEM\_GETITEM message
+title: CBEM_GETITEM message
 description: Gets item information for a given ComboBoxEx item.
 ms.assetid: 2df07ae8-fa84-487c-a4a7-90244dfdb40e
 keywords:

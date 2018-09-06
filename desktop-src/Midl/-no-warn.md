@@ -1,5 +1,5 @@
 ---
-title: /no\_warn switch
+title: /no_warn switch
 description: The /no\_warn switch directs the MIDL compiler to suppress warning messages.
 ms.assetid: 260b9430-2daf-454e-92ba-e30ca57b35e1
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLogonSetting Methods
+title: Win32_TSLogonSetting Methods
 description: The Win32\_TSLogonSetting class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

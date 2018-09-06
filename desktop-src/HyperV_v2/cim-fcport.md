@@ -1,7 +1,7 @@
 ---
 Description: Represents the capabilities and management of a fibre channel (FC) port device.
 ms.assetid: 32a11971-9e18-410d-a3cd-4921a7e986f0
-title: CIM\_FCPort class
+title: CIM_FCPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

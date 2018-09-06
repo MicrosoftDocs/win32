@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_ISDNType class
+title: MicrosoftDNS_ISDNType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents an ISDN record.
 ms.assetid: 8925042c-65d3-465f-aedd-9f7c862620b5
 keywords:

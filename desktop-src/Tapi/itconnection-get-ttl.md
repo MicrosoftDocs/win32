@@ -1,7 +1,7 @@
 ---
 Description: The get\_Ttl method gets the time to live (TTL) scope for transmissions on the addresses.
 ms.assetid: ea3c22d8-476e-4b4b-98c6-f1075e704f3d
-title: ITConnection::get\_Ttl method
+title: ITConnection::get_Ttl method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

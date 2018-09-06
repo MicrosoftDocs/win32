@@ -1,5 +1,5 @@
 ---
-title: WS\_SERVICE\_HOST
+title: WS_SERVICE_HOST
 description: An opaque type used to reference a service host.
 ms.assetid: 1186e3ae-87d0-4d0b-a7cc-cce63dc091e2
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_OPERATION\_STATES enumeration values describe the current state of an operation in progress.
 ms.assetid: a002f735-e385-4c7c-b734-e70a9c6842ca
-title: WPD\_OPERATION\_STATES enumeration
+title: WPD_OPERATION_STATES enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

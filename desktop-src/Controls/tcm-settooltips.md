@@ -1,5 +1,5 @@
 ---
-title: TCM\_SETTOOLTIPS message
+title: TCM_SETTOOLTIPS message
 description: Assigns a tooltip control to a tab control. You can send this message explicitly or by using the TabCtrl\_SetToolTips macro.
 ms.assetid: c1b173b1-9da6-441a-a2b6-3875e2c343f8
 keywords:

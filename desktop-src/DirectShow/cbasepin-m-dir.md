@@ -1,7 +1,7 @@
 ---
 Description: Direction of the pin.
 ms.assetid: 57c7e435-9db3-45ef-be83-52d65ff1f7a5
-title: CBasePin::m\_dir member
+title: CBasePin::m_dir member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

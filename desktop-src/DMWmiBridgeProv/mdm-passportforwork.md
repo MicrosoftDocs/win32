@@ -1,5 +1,5 @@
 ---
-title: MDM\_PassportForWork class
+title: MDM_PassportForWork class
 description: The MDM\_PassportForWork is used to provision Windows Hello for Business.
 ms.assetid: 49bba780-e26f-463d-97ae-e095ea16be87
 keywords:

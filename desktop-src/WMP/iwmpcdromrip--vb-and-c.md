@@ -1,5 +1,5 @@
 ---
-title: IWMPCdromRip (VB and C\ ) interface
+title: IWMPCdromRip (VB and C ) interface
 description: Provides properties and methods to manage copying, or ripping, tracks from an audio CD.Ripping a CD by using the IWMPCdromRip interface has the same effect as ripping music by using the Windows Media Player user interface.
 ms.assetid: d7fbfc68-61b5-45bf-8df5-e3125a51a4d8
 keywords:

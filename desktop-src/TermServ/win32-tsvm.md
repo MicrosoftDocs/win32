@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSVm class
+title: Win32_TSVm class
 description: Represents a Remote Desktop virtual machine.
 audience: developer
 author: REDMOND\\markl

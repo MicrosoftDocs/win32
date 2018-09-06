@@ -1,5 +1,5 @@
 ---
-title: EM\_SETTEXTEX message
+title: EM_SETTEXTEX message
 description: Combines the functionality of the WM\_SETTEXT and EM\_REPLACESEL messages, and adds the ability to set text using a code page and to use either rich text or plain text.
 ms.assetid: 1ba9e4c0-7870-4057-8a8b-d0e6577349ac
 keywords:

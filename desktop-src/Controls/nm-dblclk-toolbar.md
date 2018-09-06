@@ -1,5 +1,5 @@
 ---
-title: NM\_DBLCLK (toolbar) notification code
+title: NM_DBLCLK (toolbar) notification code
 description: Notifies the parent window of a toolbar control that the user has double-clicked the left mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: c6198245-cfd4-4e1f-877d-94c1d47e09d2
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: STN\_DISABLE notification code
+title: STN_DISABLE notification code
 description: The STN\_DISABLE notification code is sent when a static control is disabled.
 ms.assetid: 7ff0c191-4ff3-4a11-a418-8f45e16d0318
 keywords:

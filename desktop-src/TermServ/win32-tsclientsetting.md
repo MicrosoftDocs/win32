@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSClientSetting class
+title: Win32_TSClientSetting class
 description: Defines configuration settings for the Win32\_Terminal class related to connection policy.
 audience: developer
 author: REDMOND\\markl

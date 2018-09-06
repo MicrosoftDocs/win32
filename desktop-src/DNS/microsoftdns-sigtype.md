@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_SIGType class
+title: MicrosoftDNS_SIGType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Signature (SIG) Resource Record.
 ms.assetid: ef3729ad-448b-449e-ae59-34888925128a
 keywords:

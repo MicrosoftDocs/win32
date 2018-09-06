@@ -1,5 +1,5 @@
 ---
-title: TVM\_GETIMAGELIST message
+title: TVM_GETIMAGELIST message
 description: Retrieves the handle to the normal or state image list associated with a tree-view control. You can send this message explicitly or by using the TreeView\_GetImageList macro.
 ms.assetid: bcf5eac8-cb07-4cf8-ad93-47319fc915a5
 keywords:

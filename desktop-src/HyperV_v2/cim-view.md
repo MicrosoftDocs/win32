@@ -1,7 +1,7 @@
 ---
 Description: The CIM\_View class is an superclass for classes that provide de-normalized, aggregate representations of managed resources.
 ms.assetid: 1e8e3c5f-3c27-4bfb-9f9b-b02936e0b4cf
-title: CIM\_View class
+title: CIM_View class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

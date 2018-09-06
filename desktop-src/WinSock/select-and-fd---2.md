@@ -1,7 +1,7 @@
 ---
 Description: Since sockets are not represented by the UNIX-style, small, non-negative integer, the implementation of the select function was changed in Windows Sockets.
 ms.assetid: 97c7996c-c541-4673-b26f-d66f3fc0b62e
-title: Select, FD\_SET, and FD\_XXX Macros
+title: Select, FD_SET, and FD_XXX Macros
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

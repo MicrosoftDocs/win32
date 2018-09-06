@@ -1,5 +1,5 @@
 ---
-title: IWMPError.Item (VB and C\ )
+title: IWMPError.Item (VB and C )
 description: The Item property (the get\_Item method in C\ ) gets an IWMPErrorItem interface at the specified index in the error queue.
 ms.assetid: acfaaaa5-eb13-4ba0-8417-4229adc62c5d
 keywords:

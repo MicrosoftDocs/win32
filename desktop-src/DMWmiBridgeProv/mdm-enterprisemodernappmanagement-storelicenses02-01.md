@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseModernAppManagement\_StoreLicenses02\_01 class
+title: MDM_EnterpriseModernAppManagement_StoreLicenses02_01 class
 description: The MDM\_EnterpriseModernAppManagement\_StoreLicenses02\_01 class is used to manage licenses for store apps.
 ms.assetid: 9fdcba35-6c21-4a39-99f4-470acf7d35bb
 keywords:

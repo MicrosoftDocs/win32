@@ -7,7 +7,7 @@ ms.assetid: 92d17c7c-ebca-4dd0-80d8-6edd999ca394
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_Trustee class'
+title: '__Trustee class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

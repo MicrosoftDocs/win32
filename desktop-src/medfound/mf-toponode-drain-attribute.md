@@ -1,7 +1,7 @@
 ---
 Description: Specifies when a transform is drained.
 ms.assetid: 68332106-d1fe-467b-8baa-1e592b9cc243
-title: MF\_TOPONODE\_DRAIN attribute
+title: MF_TOPONODE_DRAIN attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

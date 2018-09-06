@@ -1,5 +1,5 @@
 ---
-title: UI\_ANIMATION\_REPEAT\_INDEFINITELY
+title: UI_ANIMATION_REPEAT_INDEFINITELY
 description: Indicates that the interval between two keyframes in a storyboard should repeat indefinitely until the IUIAnimationStoryboard Conclude method is called.
 ms.assetid: 09213B74-16C9-48F9-9626-59FF6CFDE975
 topic_type:

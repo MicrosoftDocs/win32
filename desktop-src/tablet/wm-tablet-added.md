@@ -1,7 +1,7 @@
 ---
 Description: The WM\_TABLET\_ADDED message is posted when a tablet device is added to Windows.
 ms.assetid: 74323b34-2364-47eb-b8ac-b97546e43b32
-title: WM\_TABLET\_ADDED message
+title: WM_TABLET_ADDED message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

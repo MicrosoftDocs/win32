@@ -1,5 +1,5 @@
 ---
-title: PGM\_RECALCSIZE message
+title: PGM_RECALCSIZE message
 description: Forces the pager control to recalculate the size of the contained window. Sending this message will result in a PGN\_CALCSIZE notification being sent. You can send this message explicitly or use the Pager\_RecalcSize macro.
 ms.assetid: 51b75ce8-2b41-4f1a-830e-b25e7d77dccb
 keywords:

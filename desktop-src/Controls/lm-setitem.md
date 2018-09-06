@@ -1,5 +1,5 @@
 ---
-title: LM\_SETITEM message
+title: LM_SETITEM message
 description: Sets the states and attributes of an item.
 ms.assetid: 02a68a31-2541-480e-b768-449d40e5e9e0
 keywords:

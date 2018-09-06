@@ -1,7 +1,7 @@
 ---
 Description: Describes a volume.
 ms.assetid: c0224f4e-3d32-4bdd-b56c-4e8aa291bb27
-title: D3DVOLUME\_DESC structure
+title: D3DVOLUME_DESC structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

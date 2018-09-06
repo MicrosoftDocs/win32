@@ -1,7 +1,7 @@
 ---
 Description: The PERFINFO\_DSHOW\_AVREND structure contains data for a trace event of type GUID\_VIDEOREND.The VMR logs this event immediately before rendering a frame.
 ms.assetid: 95deda21-0ef4-4bf0-9fa3-826a813757b9
-title: PERFINFO\_DSHOW\_AVREND structure
+title: PERFINFO_DSHOW_AVREND structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Specifies protection system specific data.
 ms.assetid: 9FF8B67A-E7A3-4732-9770-503C1D07A1FF
-title: MF\_EVENT\_STREAM\_METADATA\_KEYDATA attribute
+title: MF_EVENT_STREAM_METADATA_KEYDATA attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

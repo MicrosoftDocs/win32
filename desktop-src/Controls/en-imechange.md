@@ -1,5 +1,5 @@
 ---
-title: EN\_IMECHANGE notification code
+title: EN_IMECHANGE notification code
 description: Notifies a rich edit control's parent that the IME conversion status has changed.
 ms.assetid: 2893e4ef-5904-4a57-95c5-3f6cfbb60d90
 keywords:

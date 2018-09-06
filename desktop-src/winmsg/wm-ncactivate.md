@@ -1,7 +1,7 @@
 ---
 Description: Sent to a window when its nonclient area needs to be changed to indicate an active or inactive state.
 ms.assetid: d25732b9-b9ab-4754-a4cf-002d32e3945e
-title: WM\_NCACTIVATE message
+title: WM_NCACTIVATE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

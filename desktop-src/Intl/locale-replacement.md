@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_REPLACEMENT
 ms.assetid: 12b8e3dc-20bc-451e-b375-f533b403d159
-title: LOCALE\_REPLACEMENT
+title: LOCALE_REPLACEMENT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

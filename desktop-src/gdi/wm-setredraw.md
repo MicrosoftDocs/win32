@@ -1,7 +1,7 @@
 ---
 Description: An application sends the WM\_SETREDRAW message to a window to allow changes in that window to be redrawn or to prevent changes in that window from being redrawn.
 ms.assetid: 0085a55e-7bf6-4eb6-a649-832b685db1cc
-title: WM\_SETREDRAW message
+title: WM_SETREDRAW message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

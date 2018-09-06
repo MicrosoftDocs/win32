@@ -1,5 +1,5 @@
 ---
-title: MDM\_SharedPC class
+title: MDM_SharedPC class
 description: The MDM\_SharedPC class is used to configure settings for shared PC usage.
 ms.assetid: 90985c4d-601e-4827-aee0-13524a69f759
 keywords:

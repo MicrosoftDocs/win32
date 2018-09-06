@@ -1,7 +1,7 @@
 ---
 Description: The SENSOR\_CATEGORY\_LOCATION category contains sensors that provide geographic location information.
 ms.assetid: f82ce6da-fe2d-4931-99dc-4aeb2f0f3317
-title: SENSOR\_CATEGORY\_LOCATION
+title: SENSOR_CATEGORY_LOCATION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

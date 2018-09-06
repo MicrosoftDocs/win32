@@ -1,5 +1,5 @@
 ---
-title: WM\_WTSSESSION\_CHANGE message
+title: WM_WTSSESSION_CHANGE message
 description: Notifies applications of changes in session state.
 audience: developer
 author: REDMOND\\markl

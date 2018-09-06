@@ -1,7 +1,7 @@
 ---
 Description: The get\_Filename method retrieves the name of the source file currently used by the media detector.
 ms.assetid: 68f0f1ea-74a2-4b65-9f1d-8699326d9d04
-title: IMediaDet::get\_Filename method
+title: IMediaDet::get_Filename method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

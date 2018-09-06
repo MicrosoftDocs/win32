@@ -1,5 +1,5 @@
 ---
-title: ICM\_GETDEFAULTQUALITY message
+title: ICM_GETDEFAULTQUALITY message
 description: The ICM\_GETDEFAULTQUALITY message queries a video compression driver to provide its default quality setting. You can send this message explicitly or by using the ICGetDefaultQuality macro.
 ms.assetid: bba7f451-52c2-4684-a7c9-e4b05cb946c5
 keywords:

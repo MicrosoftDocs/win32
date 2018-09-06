@@ -1,6 +1,6 @@
 ---
 ms.assetid: 6f411049-2bab-4cb2-bca2-f0c6efc191fc
-title: LAN\_policy Schema Simple Types
+title: LAN_policy Schema Simple Types
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

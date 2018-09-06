@@ -1,7 +1,7 @@
 ---
 Description: Represents an association in which a bridge service is a component of a switch service.
 ms.assetid: 737d5ba1-0759-40cf-bc46-a059d19902c8
-title: CIM\_SwitchServiceTransparentBridging class
+title: CIM_SwitchServiceTransparentBridging class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

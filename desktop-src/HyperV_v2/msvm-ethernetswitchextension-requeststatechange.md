@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 3c7b61f9-dacd-4462-87c9-fef2e1bf02e1
-title: RequestStateChange method of the Msvm\_EthernetSwitchExtension class
+title: RequestStateChange method of the Msvm_EthernetSwitchExtension class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

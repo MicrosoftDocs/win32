@@ -7,7 +7,7 @@ ms.assetid: 4761bdb2-455a-48c4-9e22-bfba6a1036ec
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.SpawnInstance\_ method
+title: SWbemObject.SpawnInstance_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

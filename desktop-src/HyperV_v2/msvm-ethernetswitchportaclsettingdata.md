@@ -1,7 +1,7 @@
 ---
 Description: Represents the access control list (ACL) for switch port settings.
 ms.assetid: c0d6dfa1-017c-4e66-9ee3-425182d84231
-title: Msvm\_EthernetSwitchPortAclSettingData class
+title: Msvm_EthernetSwitchPortAclSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

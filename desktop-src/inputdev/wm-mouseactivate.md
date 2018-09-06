@@ -1,5 +1,5 @@
 ---
-title: WM\_MOUSEACTIVATE message
+title: WM_MOUSEACTIVATE message
 description: Sent when the cursor is in an inactive window and the user presses a mouse button. The parent window receives this message only if the child window passes it to the DefWindowProc function.
 ms.assetid: 335c0819-a655-4dd1-9511-1f148b87271c
 keywords:

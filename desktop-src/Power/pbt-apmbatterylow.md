@@ -1,7 +1,7 @@
 ---
 Description: Notifies applications that the battery power is low.
 ms.assetid: ef24b8cf-d801-4452-a03c-3f2bdbdd7e5d
-title: PBT\_APMBATTERYLOW event
+title: PBT_APMBATTERYLOW event
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

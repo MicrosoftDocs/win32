@@ -1,5 +1,5 @@
 ---
-title: DRM\_LicenseState\_Playback
+title: DRM_LicenseState_Playback
 description: The DRM\_LicenseState\_Playback property contains a WM\_LICENSE\_STATE\_DATA structure that contains details about how this right has been applied to the content.
 ms.assetid: deb559e6-1854-4ac7-bc77-c641e9579fde
 keywords:

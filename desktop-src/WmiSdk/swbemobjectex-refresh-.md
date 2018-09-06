@@ -7,7 +7,7 @@ ms.assetid: 6aeaa336-fb98-4eda-b746-fc958198d8ae
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObjectEx.Refresh\_ method
+title: SWbemObjectEx.Refresh_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

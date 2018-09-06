@@ -1,7 +1,7 @@
 ---
 Description: The put\_MediaType method sets the output media type on the resizer filter.
 ms.assetid: e213179e-cc88-4365-aaa0-51d4b9c97476
-title: IResize::put\_MediaType method
+title: IResize::put_MediaType method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: ncacn\_spx attribute
+title: ncacn_spx attribute
 description: The ncacn\_spx keyword identifies SPX as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: 45e93e25-e84d-4242-80b0-c4b61e80f716
 keywords:

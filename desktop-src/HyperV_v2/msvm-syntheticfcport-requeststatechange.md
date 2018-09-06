@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 5655b5ec-dd12-49b9-8753-5f329a91b4e1
-title: RequestStateChange method of the Msvm\_SyntheticFcPort class
+title: RequestStateChange method of the Msvm_SyntheticFcPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

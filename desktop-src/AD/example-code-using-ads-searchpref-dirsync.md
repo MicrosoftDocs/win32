@@ -1,5 +1,5 @@
 ---
-title: Example Code Using ADS\_SEARCHPREF\_DIRSYNC
+title: Example Code Using ADS_SEARCHPREF_DIRSYNC
 description: The following code example uses the ADSI implementation of the directory synchronization (DirSync) control to search the local domain partition of an Active Directory server for user objects changed since the previous call.
 audience: developer
 author: REDMOND\\markl

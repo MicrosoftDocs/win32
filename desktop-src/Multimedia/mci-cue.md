@@ -1,5 +1,5 @@
 ---
-title: MCI\_CUE command
+title: MCI_CUE command
 description: The MCI\_CUE command cues a device so that playback or recording begins with minimum delay. Digital-video, VCR, and waveform-audio devices recognize this command.
 ms.assetid: 22da4a84-a7af-42df-b950-8d1184fff9ba
 keywords:

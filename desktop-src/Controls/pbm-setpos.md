@@ -1,5 +1,5 @@
 ---
-title: PBM\_SETPOS message
+title: PBM_SETPOS message
 description: Sets the current position for a progress bar and redraws the bar to reflect the new position.
 ms.assetid: 9ebeaa19-0f42-4af7-85d8-aae22498fd6f
 keywords:

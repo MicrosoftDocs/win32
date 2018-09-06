@@ -7,7 +7,7 @@ ms.assetid: bcb64c81-3b40-4665-a880-a100629656e0
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_AbsoluteTimerInstruction class'
+title: '__AbsoluteTimerInstruction class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

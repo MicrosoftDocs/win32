@@ -1,5 +1,5 @@
 ---
-title: TTM\_SETTOOLINFO message
+title: TTM_SETTOOLINFO message
 description: Sets the information that a tooltip control maintains for a tool.
 ms.assetid: ba18f651-2e52-46e2-871b-c1760e94ab59
 keywords:

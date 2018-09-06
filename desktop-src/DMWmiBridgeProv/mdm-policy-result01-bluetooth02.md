@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Bluetooth02 class
+title: MDM_Policy_Result01_Bluetooth02 class
 description: The MDM\_Policy\_Result01\_Bluetooth02 class represents the Bluetooth management policies available.
 ms.assetid: 629f2323-f6f6-4d4f-8558-9553f4dbe871
 keywords:

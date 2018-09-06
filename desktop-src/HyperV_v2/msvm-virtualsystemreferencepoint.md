@@ -1,7 +1,7 @@
 ---
 Description: Represents a reference point for a virtual system.
 ms.assetid: b3ba4fa7-3b77-4a1d-ab8f-d38af12ab5dd
-title: Msvm\_VirtualSystemReferencePoint class
+title: Msvm_VirtualSystemReferencePoint class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

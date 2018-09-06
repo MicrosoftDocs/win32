@@ -1,5 +1,5 @@
 ---
-title: deriv\_rtx\_coarse (sm5 - asm)
+title: deriv_rtx_coarse (sm5 - asm)
 description: Computes the rate of change of components.
 ms.assetid: 57743BB2-251C-4EA7-BDA9-70B2ECEE3B3F
 ms.technology: desktop

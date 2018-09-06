@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETOUTLINECOLOR message
+title: LVM_GETOUTLINECOLOR message
 description: Retrieves the color of the border of a list-view control if the LVS\_EX\_BORDERSELECT extended window style is set.
 ms.assetid: cc9d69d1-1470-4eaa-8d54-e31b796cf685
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Update class
+title: MDM_Update class
 description: The MDM\_Update class is used to manage and control the rollout of new updates.
 ms.assetid: 503884fd-190c-482d-b600-1a15363891f3
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EN\_HSCROLL notification code
+title: EN_HSCROLL notification code
 description: Sent when the user clicks an edit control's horizontal scroll bar. The parent window of the edit control receives this notification code through a WM\_COMMAND message. The parent window is notified before the screen is updated.
 ms.assetid: beaaa80c-4108-4a8e-aed8-04c9a3a08f3e
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EnvironmentVariables method of the Win32\_TSExpandEnvironmentVariables class
+title: EnvironmentVariables method of the Win32_TSExpandEnvironmentVariables class
 description: Expands system-defined environment variables.
 audience: developer
 author: REDMOND\\markl

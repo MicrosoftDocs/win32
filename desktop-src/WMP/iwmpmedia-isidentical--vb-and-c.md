@@ -1,5 +1,5 @@
 ---
-title: IWMPMedia.isIdentical (VB and C\ )
+title: IWMPMedia.isIdentical (VB and C )
 description: The isIdentical property (the get\_isIdentical method in C\ ) gets a value indicating whether the specified media item is the same as the current one.
 ms.assetid: 1406a0ff-2dc8-4cde-8b71-4a39b8608fb1
 keywords:

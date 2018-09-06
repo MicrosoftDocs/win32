@@ -1,5 +1,5 @@
 ---
-title: MDM\_AppLocker\_EnterpriseDataProtection01\_EXE03 class
+title: MDM_AppLocker_EnterpriseDataProtection01_EXE03 class
 description: The MDM\_AppLocker\_EnterpriseDataProtection01\_EXE03 class captures the list of executable applications that are allowed to handle enterprise data.
 ms.assetid: 43f253d4-3f9d-4651-91b4-b7460706e8b4
 keywords:

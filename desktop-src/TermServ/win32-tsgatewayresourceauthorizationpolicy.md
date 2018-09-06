@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayResourceAuthorizationPolicy class
+title: Win32_TSGatewayResourceAuthorizationPolicy class
 description: Describes a Remote Desktop resource authorization policy (RD \ 160;RAP). An RD \ 160;RAP is used to decide whether a user is authorized to connect to a specified resource through Remote Desktop Gateway (RD Gateway).
 audience: developer
 author: REDMOND\\markl

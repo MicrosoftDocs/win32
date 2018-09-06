@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the media type, if the type has changed from the previous sample in the data stream. Otherwise, this member variable is NULL.
 ms.assetid: cde1ace1-4c7c-49c2-9a63-062da197da1b
-title: CMediaSample::m\_pMediaType member
+title: CMediaSample::m_pMediaType member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

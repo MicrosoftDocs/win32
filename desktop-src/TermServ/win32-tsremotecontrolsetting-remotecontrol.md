@@ -1,5 +1,5 @@
 ---
-title: RemoteControl method of the Win32\_TSRemoteControlSetting class
+title: RemoteControl method of the Win32_TSRemoteControlSetting class
 description: The RemoteControl method sets the LevelOfControl property.
 audience: developer
 author: REDMOND\\markl

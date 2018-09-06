@@ -1,5 +1,5 @@
 ---
-title: LB\_SETCOUNT message
+title: LB_SETCOUNT message
 description: Sets the count of items in a list box created with the LBS\_NODATA style and not created with the LBS\_HASSTRINGS style.
 ms.assetid: 3ebc4237-24d3-443f-86d5-bdcd66a31baf
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WMDRM\_IMPORT\_CONTENT\_KEY structure
+title: WMDRM_IMPORT_CONTENT_KEY structure
 description: The WMDRM\_IMPORT\_CONTENT\_KEY structure stores the content key used in importing protected content.
 ms.assetid: 29a0f98d-96a3-46b2-a67c-dbb23449e927
 keywords:

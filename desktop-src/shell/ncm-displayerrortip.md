@@ -1,6 +1,6 @@
 ---
 Description: Displays an error message in the balloon tip associated with the network address control.
-title: NCM\_DISPLAYERRORTIP message
+title: NCM_DISPLAYERRORTIP message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

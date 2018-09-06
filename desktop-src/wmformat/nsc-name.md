@@ -1,5 +1,5 @@
 ---
-title: NSC\_Name
+title: NSC_Name
 description: The NSC\_Name attribute contains the name of the multicast station.
 ms.assetid: e6b3e126-73a0-4471-92d0-ca66510c12d3
 keywords:

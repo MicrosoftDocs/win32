@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for image load events. The following syntax is simplified from MOF code.
 ms.assetid: e2836153-8e4f-4c7f-9542-9402ed9e4356
-title: Image\_V0\_Load class
+title: Image_V0_Load class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

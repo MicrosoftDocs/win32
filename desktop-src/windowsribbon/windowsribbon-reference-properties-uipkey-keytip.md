@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_Keytip
+title: UI_PKEY_Keytip
 description: Identifies the UI\_PKEY\_Keytip property.
 ms.assetid: 7af4abcb-abb0-466a-bc58-274fa18b79af
 ms.technology: desktop

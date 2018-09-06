@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Result01\_EnterpriseCloudPrint02 class
+title: MDM_Policy_User_Result01_EnterpriseCloudPrint02 class
 description: The MDM\_Policy\_User\_Result01\_EnterpriseCloudPrint02 class represents the available cloud print policies.
 ms.assetid: cf830cb5-2477-4b21-9d98-9fa9989daa7f
 keywords:

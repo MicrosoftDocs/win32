@@ -1,5 +1,5 @@
 ---
-title: D3DX\_R16G16\_SINT\_to\_INT2 function
+title: D3DX_R16G16_SINT_to_INT2 function
 description: Unpacks DXGI\_FORMAT\_R16G16\_SINT shader data to an XMINT2.
 ms.assetid: 0aad1581-5fd8-43c0-828d-51ef9eb82a74
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the topology loader enumerates the media types provided by the media source.
 ms.assetid: 2675ef16-2018-47e8-bb22-2fc0d62e6681
-title: MF\_TOPOLOGY\_ENUMERATE\_SOURCE\_TYPES attribute
+title: MF_TOPOLOGY_ENUMERATE_SOURCE_TYPES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

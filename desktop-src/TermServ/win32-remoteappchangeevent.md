@@ -1,5 +1,5 @@
 ---
-title: Win32\_RemoteAppChangeEvent class
+title: Win32_RemoteAppChangeEvent class
 description: Represents a change to Windows Server 2008 R2 RemoteApp settings on the Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl

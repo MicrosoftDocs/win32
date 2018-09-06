@@ -1,7 +1,7 @@
 ---
 Description: Contains a pointer to the presentation descriptor from the Protected Media Path (PMP).
 ms.assetid: cf12552e-0963-46fa-9a26-44dd601ab68c
-title: MF\_PD\_APP\_CONTEXT attribute
+title: MF_PD_APP_CONTEXT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

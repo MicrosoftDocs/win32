@@ -1,5 +1,5 @@
 ---
-title: GetDistinguishedName method of the MicrosoftDNS\_Server class
+title: GetDistinguishedName method of the MicrosoftDNS_Server class
 description: The GetDistinguishedName method retrieves the DS distinguished name for the zone.
 ms.assetid: b8c7fc18-87d6-4653-b837-760d6584d9e7
 keywords:

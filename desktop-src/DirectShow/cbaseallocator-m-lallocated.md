@@ -1,7 +1,7 @@
 ---
 Description: Number of buffers currently allocated.
 ms.assetid: 6a3d0948-7e03-4f41-8014-fa15d4578014
-title: CBaseAllocator::m\_lAllocated member
+title: CBaseAllocator::m_lAllocated member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

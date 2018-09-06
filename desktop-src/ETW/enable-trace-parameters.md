@@ -1,7 +1,7 @@
 ---
 Description: Defines the information used to enable a provider.
 ms.assetid: bc7cf886-f763-428a-9e75-031e8df26554
-title: ENABLE\_TRACE\_PARAMETERS structure
+title: ENABLE_TRACE_PARAMETERS structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

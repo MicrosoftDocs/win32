@@ -1,7 +1,7 @@
 ---
 Description: An association between an instance of the Msvm\_EthernetSwitchPort class and an instance of the Msvm\_EthernetPortData class that represents data gathered about the port by a switch extension.
 ms.assetid: 08677914-af09-47b7-9d4d-406696e1f504
-title: Msvm\_EthernetPortInfo class
+title: Msvm_EthernetPortInfo class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

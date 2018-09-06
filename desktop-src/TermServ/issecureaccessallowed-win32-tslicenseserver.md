@@ -1,5 +1,5 @@
 ---
-title: IsSecureAccessAllowed method of the Win32\_TSLicenseServer class
+title: IsSecureAccessAllowed method of the Win32_TSLicenseServer class
 description: Retrieves whether a Remote Desktop Session Host (RD Session Host) server is allowed to request Remote Desktop Services client access licenses (RDS \ 160;CALs) from the Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for thread start events. The following syntax is simplified from MOF code.
 ms.assetid: 412de56f-4f54-46e8-ab60-d47371247e79
-title: Thread\_V1\_TypeGroup1 class
+title: Thread_V1_TypeGroup1 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

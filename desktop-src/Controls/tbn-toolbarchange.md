@@ -1,5 +1,5 @@
 ---
-title: TBN\_TOOLBARCHANGE notification code
+title: TBN_TOOLBARCHANGE notification code
 description: Notifies the toolbar's parent window that the user has customized a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 6c5127e6-391f-4592-8547-4cc3d3ed6cf0
 keywords:

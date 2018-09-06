@@ -1,5 +1,5 @@
 ---
-title: UpdateScanMethod method of the MDM\_EnterpriseModernAppManagement\_AppManagement01 class
+title: UpdateScanMethod method of the MDM_EnterpriseModernAppManagement_AppManagement01 class
 description: Method for starting the Windows Update scan. See also, UpdateScan.
 ms.assetid: 61d17072-0fe5-4d5b-8e9e-fed536883ac9
 keywords:

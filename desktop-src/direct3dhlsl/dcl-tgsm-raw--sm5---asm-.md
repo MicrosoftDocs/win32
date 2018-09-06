@@ -1,5 +1,5 @@
 ---
-title: dcl\_tgsm\_raw (sm5 - asm)
+title: dcl_tgsm_raw (sm5 - asm)
 description: Declare a reference to a region of shared memory space available to the compute shader s thread group.
 ms.assetid: 8EA6931C-5B13-431F-A886-04F8C73CD22D
 ms.technology: desktop

@@ -1,7 +1,7 @@
 ---
 Description: Represents the association between a team ExternalEthernetPort and a member ExternalEthernetPort.
 ms.assetid: e21bea94-d6a8-4788-958e-78ce255837aa
-title: Msvm\_VirtualEthernetSwitchNicTeamingMember class
+title: Msvm_VirtualEthernetSwitchNicTeamingMember class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

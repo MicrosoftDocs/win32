@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_FontProperties\_Strikethrough
+title: UI_PKEY_FontProperties_Strikethrough
 description: Identifies the UI\_PKEY\_FontProperties\_Strikethrough property.
 ms.assetid: 18ee653d-db01-4615-a85d-ad4ac6a0f422
 ms.technology: desktop

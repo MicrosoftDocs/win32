@@ -1,7 +1,7 @@
 ---
 Description: Specifies the left edge of the destination rectangle, in pixels.
 ms.assetid: 9411a7f7-0ce6-43b7-b50d-54489a7bb864
-title: MFPKEY\_COLORCONV\_DSTLEFT Property
+title: MFPKEY_COLORCONV_DSTLEFT Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

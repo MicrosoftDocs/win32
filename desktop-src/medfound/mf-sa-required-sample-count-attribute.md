@@ -1,7 +1,7 @@
 ---
 Description: Indicates the number of uncompressed buffers that the enhanced video renderer (EVR) media sink requires for deinterlacing.
 ms.assetid: b62bff64-153f-4028-a546-250419dc4152
-title: MF\_SA\_REQUIRED\_SAMPLE\_COUNT attribute
+title: MF_SA_REQUIRED_SAMPLE_COUNT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

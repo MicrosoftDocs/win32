@@ -1,5 +1,5 @@
 ---
-title: DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS structure
+title: DRM_AUDIO_OUTPUT_PROTECTION_IDS structure
 description: The DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS structure contains a list of audio output protection identifiers.
 ms.assetid: 21972b18-334b-4a4d-812d-21cbfaf7cc58
 keywords:

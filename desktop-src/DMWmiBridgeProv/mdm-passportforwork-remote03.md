@@ -1,5 +1,5 @@
 ---
-title: MDM\_PassportForWork\_Remote03 class
+title: MDM_PassportForWork_Remote03 class
 description: The MDM\_PassportForWork\_Remote03 class defines the Windows Hello for Business remote policy settings.
 ms.assetid: 221701be-944f-42cd-847e-553d41281749
 keywords:

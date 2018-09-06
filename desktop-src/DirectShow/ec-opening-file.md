@@ -1,7 +1,7 @@
 ---
 Description: The graph is opening a file, or has finished opening a file.
 ms.assetid: 352867e1-025f-4adb-be32-f7941c0ec8cf
-title: EC\_OPENING\_FILE
+title: EC_OPENING_FILE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_PluginProfile02 class
+title: MDM_VPNv2_PluginProfile02 class
 description: The MDM\_VPNv2\_PlugInProfile02 class describes the information needed when using a Windows Store based VPN plugin.
 ms.assetid: 522c32e5-74f9-46b2-b590-ca6ade241e97
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for interrupt request (IRQ) events. The following syntax is simplified from MOF code.
 ms.assetid: 9d4692e8-f19f-478c-a003-396722e426c3
-title: SystemConfig\_IRQ class
+title: SystemConfig_IRQ class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

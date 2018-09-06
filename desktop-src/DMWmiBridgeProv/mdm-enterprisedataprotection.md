@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseDataProtection class
+title: MDM_EnterpriseDataProtection class
 description: The MDM\_EnterpriseDataProtection class is used to determine the current status of Windows Information Protection (WIP) (formerly known as Enterprise Data Protection) specific settings.
 ms.assetid: 2b97de12-76d1-4b74-a979-f0484807b840
 keywords:

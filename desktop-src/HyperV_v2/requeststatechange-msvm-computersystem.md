@@ -1,7 +1,7 @@
 ---
 Description: Requests that the state of the virtual machine be changed to the specified value.
 ms.assetid: 87BE4C7D-604B-4F8D-B4DC-89BD563E3999
-title: RequestStateChange method of the Msvm\_ComputerSystem class
+title: RequestStateChange method of the Msvm_ComputerSystem class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

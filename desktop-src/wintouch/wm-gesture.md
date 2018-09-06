@@ -1,5 +1,5 @@
 ---
-title: WM\_GESTURE message
+title: WM_GESTURE message
 description: Passes information about a gesture.
 ms.assetid: 4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8
 keywords:

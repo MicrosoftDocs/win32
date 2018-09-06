@@ -1,5 +1,5 @@
 ---
-title: CBEM\_GETEXTENDEDSTYLE message
+title: CBEM_GETEXTENDEDSTYLE message
 description: Gets the extended styles that are in use for a ComboBoxEx control.
 ms.assetid: 7c661d9c-fa9a-4284-9bb0-d54708cb6468
 keywords:

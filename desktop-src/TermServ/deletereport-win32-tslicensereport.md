@@ -1,5 +1,5 @@
 ---
-title: DeleteReport method of the Win32\_TSLicenseReport class
+title: DeleteReport method of the Win32_TSLicenseReport class
 description: Deletes a report object on the Remote Desktop license server. This is not a static method.
 audience: developer
 author: REDMOND\\markl

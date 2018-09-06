@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_MaxValue
+title: UI_PKEY_MaxValue
 description: Identifies the UI\_PKEY\_MaxValue property.
 ms.assetid: f05436ed-b8bd-4374-af12-d9b114d98f6c
 ms.technology: desktop

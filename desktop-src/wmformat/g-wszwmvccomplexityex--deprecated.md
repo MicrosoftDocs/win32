@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCComplexityEx
+title: g_wszWMVCComplexityEx
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 12be9bdc-4ce0-4fee-bab5-bbb8b7c157da
 keywords:
