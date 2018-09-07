@@ -1,5 +1,5 @@
 ---
-title: SetTSRedirectorMode method of the Win32\_TSSessionDirectory class
+title: SetTSRedirectorMode method of the Win32_TSSessionDirectory class
 description: Sets the value to indicate whether the server will act as a Remote Desktop Services redirector.
 audience: developer
 author: REDMOND\\markl

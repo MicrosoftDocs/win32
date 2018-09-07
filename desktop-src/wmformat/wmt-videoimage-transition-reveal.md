@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_REVEAL
+title: WMT_VIDEOIMAGE_TRANSITION_REVEAL
 description: The reveal transition reveals the new image along a straight line originating from one side of the frame.
 ms.assetid: 75ff6155-6b28-474a-b5d1-c3f1b3873b8e
 keywords:

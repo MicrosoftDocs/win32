@@ -1,7 +1,7 @@
 ---
 Description: Notfies an application when a selected IME needs information about the candidate window. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
 ms.assetid: 35849290-a5be-406f-82f5-4a7e2af48586
-title: IMR\_CANDIDATEWINDOW notification code
+title: IMR_CANDIDATEWINDOW notification code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: The put\_NetworkType method sets the network type.
 ms.assetid: 747e3133-d103-44dc-b119-5a4cb4ed7f18
-title: ITConnection::put\_NetworkType method
+title: ITConnection::put_NetworkType method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

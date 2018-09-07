@@ -1,5 +1,5 @@
 ---
-title: MCI\_INDEX command
+title: MCI_INDEX command
 description: The MCI\_INDEX command turns the on-screen display on or off. VCR devices recognize this command.
 ms.assetid: c0f18f28-3578-4648-9b75-2d3ede68b3df
 keywords:

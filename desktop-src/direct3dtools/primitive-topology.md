@@ -4,7 +4,7 @@ MS-HAID: vspixengine.PRIMITIVE\_TOPOLOGY
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: PRIMITIVE\_TOPOLOGY enumeration
+title: PRIMITIVE_TOPOLOGY enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

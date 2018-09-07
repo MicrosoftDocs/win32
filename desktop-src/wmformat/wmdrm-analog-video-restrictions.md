@@ -1,5 +1,5 @@
 ---
-title: WMDRM\_ANALOG\_VIDEO\_RESTRICTIONS structure
+title: WMDRM_ANALOG_VIDEO_RESTRICTIONS structure
 description: The WMDRM\_ANALOG\_VIDEO\_RESTRICTIONS structure holds information about a restriction for playing back content as analog video.
 ms.assetid: 13b38115-bd18-45b9-a1d5-542e043a4bde
 keywords:

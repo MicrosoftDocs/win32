@@ -1,5 +1,5 @@
 ---
-title: GetStringProperty method of the Win32\_RDSHServer class
+title: GetStringProperty method of the Win32_RDSHServer class
 description: Retrieves a string property value of a Win32\_RDSHServer object.
 audience: developer
 author: REDMOND\\markl

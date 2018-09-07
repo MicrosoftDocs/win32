@@ -7,7 +7,7 @@ ms.assetid: b848b38b-c0c3-49cd-b1e2-b0a440b82d61
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.ExecMethodAsync\_ method
+title: SWbemObject.ExecMethodAsync_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: TTM\_UPDATETIPTEXT message
+title: TTM_UPDATETIPTEXT message
 description: Sets the tooltip text for a tool.
 ms.assetid: 2a7432dd-76f9-42b4-b639-178dce1d89ef
 keywords:

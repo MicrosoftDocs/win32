@@ -1,5 +1,5 @@
 ---
-title: WMDM\_PROP\_VALUES\_RANGE structure
+title: WMDM_PROP_VALUES_RANGE structure
 description: The WMDM\_PROP\_VALUES\_RANGE structure describes a range of valid values for a particular property in a particular property configuration.
 ms.assetid: fb823a66-cc9c-4632-a4f0-03c7255c3ccb
 keywords:

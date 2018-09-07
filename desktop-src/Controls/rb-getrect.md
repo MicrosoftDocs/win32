@@ -1,5 +1,5 @@
 ---
-title: RB\_GETRECT message
+title: RB_GETRECT message
 description: Retrieves the bounding rectangle for a given band in a rebar control.
 ms.assetid: e272b090-1e4d-4cff-87f0-557ad8116e7e
 keywords:

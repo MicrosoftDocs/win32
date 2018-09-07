@@ -1,5 +1,5 @@
 ---
-title: WM\_CTLCOLORBTN message
+title: WM_CTLCOLORBTN message
 description: The WM\_CTLCOLORBTN message is sent to the parent window of a button before drawing the button. The parent window can change the button's text and background colors. However, only owner-drawn buttons respond to the parent window processing this message.
 ms.assetid: fd2ab917-ffd6-4f71-9b1c-0ecdfe53ae8b
 keywords:

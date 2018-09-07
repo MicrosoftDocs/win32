@@ -1,5 +1,5 @@
 ---
-title: GetInt32Property method of the Win32\_RDMSVirtualDesktopCollection class
+title: GetInt32Property method of the Win32_RDMSVirtualDesktopCollection class
 description: Retrieves an integer property from a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

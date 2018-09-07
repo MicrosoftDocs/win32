@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETVIEW message
+title: LVM_SETVIEW message
 description: Sets the view of a list-view control.
 ms.assetid: e6d3f16d-52ea-4863-a6c9-9a085d5f794a
 keywords:

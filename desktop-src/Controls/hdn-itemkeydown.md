@@ -1,5 +1,5 @@
 ---
-title: HDN\_ITEMKEYDOWN notification code
+title: HDN_ITEMKEYDOWN notification code
 description: Notifies a header control's parent window that a key has been pressed with an item selected. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ab6922ab-907d-44fc-8606-28f395118405
 keywords:

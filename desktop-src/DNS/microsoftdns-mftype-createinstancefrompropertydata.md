@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_MFType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_MFType class
 description: The CreateInstanceFromPropertyData method instantiates a Mail Forwarding Agent for Domain (MF) Resource Record.
 ms.assetid: e669d065-bfba-4a86-8519-2317e03ed4ee
 keywords:

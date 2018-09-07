@@ -1,7 +1,7 @@
 ---
 Description: Imports reference point metadata of the virtual system.
 ms.assetid: 8e32fded-cd84-4586-83c4-c23200d4698e
-title: ImportReferencePointMetadata method of the Msvm\_VirtualSystemReferencePointService class
+title: ImportReferencePointMetadata method of the Msvm_VirtualSystemReferencePointService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

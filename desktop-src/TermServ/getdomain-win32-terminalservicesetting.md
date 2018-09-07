@@ -1,5 +1,5 @@
 ---
-title: GetDomain method of the Win32\_TerminalServiceSetting class
+title: GetDomain method of the Win32_TerminalServiceSetting class
 description: Retrieves the name of the domain that the Remote Desktop Session Host (RD Session Host) server is a member of.
 audience: developer
 author: REDMOND\\markl

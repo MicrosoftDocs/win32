@@ -1,7 +1,7 @@
 ---
 Description: Enables a process to open a shared resource, or disables a process from opening shared resources.
 ms.assetid: 5fa2b88f-e946-436c-953e-04e0e338146c
-title: D3DAUTHENTICATEDCONFIGURE\_SHAREDRESOURCE
+title: D3DAUTHENTICATEDCONFIGURE_SHAREDRESOURCE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

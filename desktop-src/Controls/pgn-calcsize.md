@@ -1,5 +1,5 @@
 ---
-title: PGN\_CALCSIZE notification code
+title: PGN_CALCSIZE notification code
 description: Sent by a pager control to obtain the scrollable dimensions of the contained window.
 ms.assetid: a15f4191-2f26-4139-bdaf-bab219449b78
 keywords:

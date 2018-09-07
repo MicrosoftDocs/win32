@@ -1,5 +1,5 @@
 ---
-title: VS\_VERSIONINFO structure
+title: VS_VERSIONINFO structure
 description: Represents the organization of data in a file-version resource. It is the root structure that contains all other file-version information structures.
 ms.assetid: 7864510f-1894-4f17-bf7b-fd5bc1ba4aae
 keywords:

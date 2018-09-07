@@ -1,5 +1,5 @@
 ---
-title: PGM\_SETPOS message
+title: PGM_SETPOS message
 description: Sets the current scroll position for the pager control. You can send this message explicitly or use the Pager\_SetPos macro.
 ms.assetid: b882ea2d-9dab-4d36-9201-29522141f779
 keywords:

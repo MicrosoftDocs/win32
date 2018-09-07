@@ -1,7 +1,7 @@
 ---
 Description: An association that describes how storage extents can be assembled from lower level extents.
 ms.assetid: 8be9bb2c-ef46-454b-bfc3-0398c64d17b7
-title: Msvm\_BasedOn class
+title: Msvm_BasedOn class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

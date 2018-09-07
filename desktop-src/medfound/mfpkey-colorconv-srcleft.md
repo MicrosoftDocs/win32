@@ -1,7 +1,7 @@
 ---
 Description: Specifies the left edge of the source rectangle, in pixels.
 ms.assetid: d5450ff9-085f-4345-87af-bf6c87931755
-title: MFPKEY\_COLORCONV\_SRCLEFT Property
+title: MFPKEY_COLORCONV_SRCLEFT Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

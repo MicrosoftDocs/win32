@@ -1,7 +1,7 @@
 ---
 Description: Starts the service.
 ms.assetid: 3f0d7ee7-4083-43d6-ac5f-8e7dc5188683
-title: StartService method of the Msvm\_ReplicationService class
+title: StartService method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: EN\_ALIGN\_RTL\_EC notification code
+title: EN_ALIGN_RTL_EC notification code
 description: Sent when the user has changed the edit control direction to right-to-left. The parent window of the edit control receives this notification code through a WM\_COMMAND message.
 ms.assetid: c53bc808-48c6-4a8f-ae5d-af2164fe419a
 keywords:

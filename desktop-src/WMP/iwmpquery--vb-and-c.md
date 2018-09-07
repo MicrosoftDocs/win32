@@ -1,5 +1,5 @@
 ---
-title: IWMPQuery (VB and C\ ) interface
+title: IWMPQuery (VB and C ) interface
 description: Represents a compound query.
 ms.assetid: b9cfeec9-f928-4b12-88c2-0f78b26f8687
 keywords:

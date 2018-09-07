@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDPersonalDesktopAssignment class
+title: Win32_RDPersonalDesktopAssignment class
 description: The list of personal desktop assignments.
 audience: developer
 author: REDMOND\\markl

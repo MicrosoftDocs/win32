@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETITEMTEXT message
+title: LVM_GETITEMTEXT message
 description: Retrieves the text of a list-view item or subitem. You can send this message explicitly or by using the ListView\_GetItemText macro.
 ms.assetid: 5711ed18-a766-4e7f-9e9d-b9203231b369
 keywords:

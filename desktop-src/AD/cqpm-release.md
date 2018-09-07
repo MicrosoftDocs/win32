@@ -1,5 +1,5 @@
 ---
-title: CQPM\_RELEASE message
+title: CQPM_RELEASE message
 description: Sent to the CQPageProc callback function of a query form extension page when the page is about to be unloaded.
 audience: developer
 author: REDMOND\\markl

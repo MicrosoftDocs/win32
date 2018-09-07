@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_COMPONENT Constants
+title: WINBIO_COMPONENT Constants
 description: Specify the type of adapter being used.
 ms.assetid: f920788b-2175-4c01-81b5-e7b49111a7ac
 topic_type:

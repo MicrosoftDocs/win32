@@ -1,7 +1,7 @@
 ---
 Description: The DXGI\_PRESENT constants specify options for presenting frames to the output.
 ms.assetid: 1ddf8643-ea3e-4c9f-8439-c245942f7333
-title: DXGI\_PRESENT
+title: DXGI_PRESENT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

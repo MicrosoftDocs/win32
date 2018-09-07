@@ -1,5 +1,5 @@
 ---
-title: LVM\_INSERTGROUPSORTED message
+title: LVM_INSERTGROUPSORTED message
 description: Inserts a group into an ordered list of groups.
 ms.assetid: 8ad1660b-8b64-4f02-ac1b-b7edeeea38ab
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Operator\ \ function
+title: Operator  function
 description: Returns a read-only resource variable.
 ms.assetid: 6a9e1176-439b-4565-9c7e-957d7c4045f0
 keywords:

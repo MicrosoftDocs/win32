@@ -7,7 +7,7 @@ ms.assetid: d5f0abc7-32cf-4d85-b5cd-5d60c991bcbc
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_Namespace class'
+title: '__Namespace class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

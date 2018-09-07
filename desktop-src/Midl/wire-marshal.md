@@ -1,5 +1,5 @@
 ---
-title: wire\_marshal attribute
+title: wire_marshal attribute
 description: The \ wire\_marshal\ attribute specifies a data type that will be used for transmission (the wire-type) instead of an application-specific data type (the userm-type).
 ms.assetid: 51969f2c-7390-42c4-8aa6-ba12fdb22d23
 keywords:

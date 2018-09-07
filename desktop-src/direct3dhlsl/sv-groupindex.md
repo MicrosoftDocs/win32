@@ -1,5 +1,5 @@
 ---
-title: SV\_GroupIndex
+title: SV_GroupIndex
 description: The \ 0034;flattened \ 0034; index of a compute shader thread within a thread group, which turns the multi-dimensional SV\_GroupThreadID into a 1D value. SV\_GroupIndex varies from 0 to (numthreadsX \ numthreadsY \ numThreadsZ) \ 8211; 1.
 ms.assetid: e793be10-7c83-478c-859a-4b0a2c537570
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The following tables describe NSPROTO\_IPX socket options that apply to sockets created for the IPX/SPX address family (AF\_IPX). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
 ms.assetid: 0d5c8299-14d7-41e5-8ff6-f57a732acb26
-title: NSPROTO\_IPX Socket Options
+title: NSPROTO_IPX Socket Options
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

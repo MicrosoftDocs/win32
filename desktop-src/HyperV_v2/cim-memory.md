@@ -1,7 +1,7 @@
 ---
 Description: Represents the capabilities and management of memory-related logical devices.
 ms.assetid: 802c1c0e-7eab-4a17-9a29-6502ece6cb24
-title: CIM\_Memory class
+title: CIM_Memory class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

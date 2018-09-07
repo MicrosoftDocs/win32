@@ -1,5 +1,5 @@
 ---
-title: NM\_CLICK (syslink) notification code
+title: NM_CLICK (syslink) notification code
 description: Notifies a control's parent window that the user has clicked a hyperlink with the left mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e92d7c92-f2c6-44aa-bce5-3bb07c184e7d
 keywords:

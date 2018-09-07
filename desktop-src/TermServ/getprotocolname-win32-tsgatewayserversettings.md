@@ -1,5 +1,5 @@
 ---
-title: GetProtocolName method of the Win32\_TSGatewayServerSettings class
+title: GetProtocolName method of the Win32_TSGatewayServerSettings class
 description: Returns the protocol name for the specified protocol index.
 audience: developer
 author: REDMOND\\markl

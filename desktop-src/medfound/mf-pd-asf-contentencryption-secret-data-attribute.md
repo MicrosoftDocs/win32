@@ -1,7 +1,7 @@
 ---
 Description: Contains secret data for an encrypted Advanced Systems Format (ASF) file. This attribute corresponds to the Secret Data field of the Content Encryption Header, defined in the ASF specification.
 ms.assetid: e6ce71d6-59cd-42da-906a-ab71f2bef16f
-title: MF\_PD\_ASF\_CONTENTENCRYPTION\_SECRET\_DATA attribute
+title: MF_PD_ASF_CONTENTENCRYPTION_SECRET_DATA attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

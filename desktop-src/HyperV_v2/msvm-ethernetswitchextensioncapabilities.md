@@ -1,7 +1,7 @@
 ---
 Description: Represents the association between Ethernet extensions and their capabilities.
 ms.assetid: 6b32235a-175d-48f9-af3a-2d40f748a518
-title: Msvm\_EthernetSwitchExtensionCapabilities class
+title: Msvm_EthernetSwitchExtensionCapabilities class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

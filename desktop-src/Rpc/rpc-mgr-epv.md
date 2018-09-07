@@ -1,5 +1,5 @@
 ---
-title: RPC\_MGR\_EPV
+title: RPC_MGR_EPV
 description: The data type RPC\_MGR\_EPV defines a manager entry-point vector.
 ms.assetid: 396e76de-065f-471e-ade9-34770b16a958
 keywords:

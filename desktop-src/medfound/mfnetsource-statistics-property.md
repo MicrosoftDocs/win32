@@ -1,7 +1,7 @@
 ---
 Description: Contains network statistics for the network source.
 ms.assetid: 1948481b-febd-434b-a5dc-faef592ea0ed
-title: MFNETSOURCE\_STATISTICS Property
+title: MFNETSOURCE_STATISTICS Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

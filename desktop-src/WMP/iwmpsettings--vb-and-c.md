@@ -1,5 +1,5 @@
 ---
-title: IWMPSettings (VB and C\ ) interface
+title: IWMPSettings (VB and C ) interface
 description: Provides properties and methods that get or set the values of Windows Media Player settings.The IWMPSettings interface exposes the following properties.
 ms.assetid: fb37b455-221e-4cee-a219-cacf2938a92a
 keywords:

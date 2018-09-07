@@ -1,7 +1,7 @@
 ---
 Description: The get\_SubStream gets a pointer to an array of ITSubStream interfaces representing the substreams involved in the event.
 ms.assetid: 0af9097a-2481-4543-bb3d-35ccd352e992
-title: ITParticipantEvent::get\_SubStream method
+title: ITParticipantEvent::get_SubStream method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

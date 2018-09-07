@@ -1,5 +1,5 @@
 ---
-title: StartService method of the MicrosoftDNS\_Server class
+title: StartService method of the MicrosoftDNS_Server class
 description: The StartService method starts the DNS Server.
 ms.assetid: f6343a34-9d1b-4f82-897e-289650af6be9
 keywords:

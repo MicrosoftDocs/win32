@@ -1,7 +1,7 @@
 ---
 Description: Contains a pointer to the applications callback interface for the Source Reader.
 ms.assetid: de226a5a-03c0-4bfe-bb20-8969ce43cf53
-title: MF\_SOURCE\_READER\_ASYNC\_CALLBACK attribute
+title: MF_SOURCE_READER_ASYNC_CALLBACK attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

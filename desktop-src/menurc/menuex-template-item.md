@@ -1,5 +1,5 @@
 ---
-title: MENUEX\_TEMPLATE\_ITEM structure
+title: MENUEX_TEMPLATE_ITEM structure
 description: Defines a menu item in an extended menu template. This structure definition is for explanation only; it is not present in any standard header file.
 ms.assetid: f6e2fd0a-16b8-48e3-8597-341085a7adbd
 keywords:

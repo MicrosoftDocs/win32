@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSVmMetadataItem class
+title: Win32_TSVmMetadataItem class
 description: Represents a metadata item for a Remote Desktop virtual machine.
 audience: developer
 author: REDMOND\\markl

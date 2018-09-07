@@ -1,7 +1,7 @@
 ---
 Description: Stops the service.
 ms.assetid: ff92e1ba-3093-4e78-8729-9f98a22a9f74
-title: StopService method of the Msvm\_ReplicationService class
+title: StopService method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

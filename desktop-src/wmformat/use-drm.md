@@ -1,5 +1,5 @@
 ---
-title: Use\_DRM
+title: Use_DRM
 description: The Use\_DRM attribute instructs the writer object to apply DRM version 1 protection to the current file.
 ms.assetid: ad959e4a-faf7-4b61-9988-6878afcf3a90
 keywords:

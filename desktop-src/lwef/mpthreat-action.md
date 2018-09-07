@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT\_ACTION enumeration
+title: MPTHREAT_ACTION enumeration
 description: Possible threat actions.
 ms.assetid: 142249A5-4C9D-4E3A-A06E-70C040F9C14F
 keywords:

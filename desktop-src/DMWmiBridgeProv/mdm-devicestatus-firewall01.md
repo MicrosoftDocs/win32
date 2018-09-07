@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_Firewall01 class
+title: MDM_DeviceStatus_Firewall01 class
 description: The MDM\_DeviceStatus\_Firewall01 class is used by the enterprise to query the state of firewall compliance of devices with their enterprise policies.
 ms.assetid: 0f62350c-8c7b-44fb-b163-dedaf4669895
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The DEVINTERFACE\_XXX GUIDs are used to represent the GUIDs for device interfaces.
 ms.assetid: 2503463B-D7C6-4C82-8421-424D79FD1C2A
-title: DEVINTERFACE\_XXX GUIDs
+title: DEVINTERFACE_XXX GUIDs
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

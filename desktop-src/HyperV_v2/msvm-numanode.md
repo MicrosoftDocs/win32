@@ -1,7 +1,7 @@
 ---
 Description: Represents a Non-Uniform Memory Access (NUMA) node of a virtual system.
 ms.assetid: a2e9aa74-15e5-4a78-b7f8-ffe2883a31d0
-title: Msvm\_NumaNode class
+title: Msvm_NumaNode class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

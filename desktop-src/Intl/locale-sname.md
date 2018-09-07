@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SNAME
 ms.assetid: 9823f675-8dc8-42c1-938f-22910434694e
-title: LOCALE\_SNAME
+title: LOCALE_SNAME
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

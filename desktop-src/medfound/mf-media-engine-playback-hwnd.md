@@ -1,7 +1,7 @@
 ---
 Description: Sets a handle to a video playback window for the Media Engine.
 ms.assetid: 63889D81-12C5-47C1-B52A-6358E68830C3
-title: MF\_MEDIA\_ENGINE\_PLAYBACK\_HWND attribute
+title: MF_MEDIA_ENGINE_PLAYBACK_HWND attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

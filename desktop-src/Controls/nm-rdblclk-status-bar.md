@@ -1,5 +1,5 @@
 ---
-title: NM\_RDBLCLK (status bar) notification code
+title: NM_RDBLCLK (status bar) notification code
 description: Notifies the parent windows of a status bar control that the user has double-clicked the right mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 57d8c5a7-e179-4b65-a3aa-5566d5780c18
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MCI\_MONITOR command
+title: MCI_MONITOR command
 description: The MCI\_MONITOR command specifies the presentation source. Digital-video devices recognize this command.
 ms.assetid: b6c476ef-d1a4-477d-a104-dda10be60915
 keywords:

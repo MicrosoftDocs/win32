@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether protectors are available for the volume.
 ms.assetid: 92a959ea-27ec-4d38-a955-846bfd7b3a60
-title: IsKeyProtectorAvailable method of the Win32\_EncryptableVolume class
+title: IsKeyProtectorAvailable method of the Win32_EncryptableVolume class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

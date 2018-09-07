@@ -1,7 +1,7 @@
 ---
 Description: Sent when the value of a general parameter register (GPRM) changes.
 ms.assetid: 3e0c400e-9ea5-458c-9eca-97d66a440590
-title: EC\_DVD\_GPRM\_Change
+title: EC_DVD_GPRM_Change
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: ReactivateServer method of the Win32\_TSLicenseServer class
+title: ReactivateServer method of the Win32_TSLicenseServer class
 description: Reactivates the Remote Desktop license server by using a new identifier that was obtained over the phone or the Internet.
 audience: developer
 author: REDMOND\\markl

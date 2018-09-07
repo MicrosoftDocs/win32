@@ -1,7 +1,7 @@
 ---
 Description: Represents the configured state of the memory for a virtual machine.
 ms.assetid: 4B6FEE50-1C5F-4F41-B14A-E10B40400A1B
-title: Msvm\_MemorySettingData class
+title: Msvm_MemorySettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

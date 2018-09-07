@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Display02 class
+title: MDM_Policy_Config01_Display02 class
 description: The MDM\_Policy\_Config01\_Display02 class configures the display policies.
 ms.assetid: 106eecc5-ede0-4d66-ba51-967a8f7bcb66
 keywords:

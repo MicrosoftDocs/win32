@@ -1,5 +1,5 @@
 ---
-title: PSM\_INDEXTOID message
+title: PSM_INDEXTOID message
 description: Takes the index of a property sheet page and returns its resource ID. You can send this message explicitly or use the PropSheet\_IndexToId macro.
 ms.assetid: c153675a-360f-4916-aa0b-500636dd9022
 keywords:

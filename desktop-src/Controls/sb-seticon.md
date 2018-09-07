@@ -1,5 +1,5 @@
 ---
-title: SB\_SETICON message
+title: SB_SETICON message
 description: Sets the icon for a part in a status bar.
 ms.assetid: d8528cd1-54d2-44ba-b0d6-29111f75616a
 keywords:

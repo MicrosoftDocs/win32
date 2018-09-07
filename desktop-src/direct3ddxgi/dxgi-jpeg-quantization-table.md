@@ -1,7 +1,7 @@
 ---
 Description: Describes a JPEG quantization table.
 ms.assetid: DE1AAB15-B0B8-4594-BBCE-5F8EE5CE0AF7
-title: DXGI\_JPEG\_QUANTIZATION\_TABLE structure
+title: DXGI_JPEG_QUANTIZATION_TABLE structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

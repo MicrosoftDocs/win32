@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_RPType class
+title: MicrosoftDNS_RPType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Responsible Person (RP) record.
 ms.assetid: 2b1c1bbc-a69f-4480-a7f2-6420240d4ad8
 keywords:

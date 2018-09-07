@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_Eap04 class
+title: MDM_VPNv2_Eap04 class
 description: The MDM\_VPNv2\_Eap04 class contains the required configuration XML information when the native profile specifies EAP authentication.
 ms.assetid: 87a78743-1ee6-4b86-bfbf-62ba9059535a
 keywords:

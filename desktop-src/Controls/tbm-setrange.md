@@ -1,5 +1,5 @@
 ---
-title: TBM\_SETRANGE message
+title: TBM_SETRANGE message
 description: Sets the range of minimum and maximum logical positions for the slider in a trackbar.
 ms.assetid: 9c225742-8e5e-4f47-af8c-8243b6c90c1d
 keywords:

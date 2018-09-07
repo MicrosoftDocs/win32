@@ -1,5 +1,5 @@
 ---
-title: DWRITE\_RENDERING\_MODE enumerations
+title: DWRITE_RENDERING_MODE enumerations
 description: Starting in Windows 8, the DWRITE\_RENDERING\_MODE enumeration added new enumeration values and deprecated others.
 ms.assetid: 3EA568B4-310D-4F70-9530-5916419282E5
 ms.technology: desktop

@@ -1,7 +1,7 @@
 ---
 Description: Indicates when the current DVD title number changes.
 ms.assetid: 9888f2ec-fc2d-4d6d-a03d-b381373337eb
-title: EC\_DVD\_TITLE\_CHANGE
+title: EC_DVD_TITLE_CHANGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

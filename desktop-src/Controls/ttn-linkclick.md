@@ -1,5 +1,5 @@
 ---
-title: TTN\_LINKCLICK notification code
+title: TTN_LINKCLICK notification code
 description: Sent when a text link inside a balloon tooltip is clicked. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: d3e76431-5b5f-4d67-8528-db21fd939917
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TB\_SETCMDID message
+title: TB_SETCMDID message
 description: Sets the command identifier of a toolbar button.
 ms.assetid: 0674c905-2d9d-45d3-b565-2f3bcd7d6383
 keywords:

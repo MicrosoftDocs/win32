@@ -1,7 +1,7 @@
 ---
 Description: Specifies the number of packets in the data section of an Advanced Systems Format (ASF) file.
 ms.assetid: 29cf2412-0a9a-4cf5-b0c3-668204c1c352
-title: MF\_PD\_ASF\_FILEPROPERTIES\_PACKETS attribute
+title: MF_PD_ASF_FILEPROPERTIES_PACKETS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

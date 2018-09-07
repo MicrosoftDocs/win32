@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Config01\_Start02 class
+title: MDM_Policy_User_Config01_Start02 class
 description: The MDM\_Policy\_User\_Config01\_Start02 class represents the start policies available that are set on a per-user basis.
 ms.assetid: bbb64553-4d93-433d-96e4-bfd3f5588138
 keywords:

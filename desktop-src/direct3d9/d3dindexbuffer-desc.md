@@ -1,7 +1,7 @@
 ---
 Description: Describes an index buffer.
 ms.assetid: 5d45213e-b3c0-4eb7-a4f9-8d8730eb3899
-title: D3DINDEXBUFFER\_DESC structure
+title: D3DINDEXBUFFER_DESC structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

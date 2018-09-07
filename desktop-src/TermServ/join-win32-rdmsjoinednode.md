@@ -1,5 +1,5 @@
 ---
-title: Join method of the Win32\_RDMSJoinedNode class
+title: Join method of the Win32_RDMSJoinedNode class
 description: Adds a node to Remote Desktop Management Services (RDMS).
 audience: developer
 author: REDMOND\\markl

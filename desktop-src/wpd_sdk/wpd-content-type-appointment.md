@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_APPOINTMENT
 ms.assetid: d41c26ef-9f51-4ba7-b1a4-57abec91925e
-title: WPD\_CONTENT\_TYPE\_APPOINTMENT
+title: WPD_CONTENT_TYPE_APPOINTMENT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

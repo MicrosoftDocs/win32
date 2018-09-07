@@ -1,5 +1,5 @@
 ---
-title: GetActivationStatus method of the Win32\_TSLicenseServer class
+title: GetActivationStatus method of the Win32_TSLicenseServer class
 description: Retrieves the current activation status of the Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl

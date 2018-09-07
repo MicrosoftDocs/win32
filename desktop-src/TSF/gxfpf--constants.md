@@ -1,5 +1,5 @@
 ---
-title: GXFPF\_\ Constants
+title: GXFPF_ Constants
 description: GXFPF\_\ constants specify the character position to return based on the screen coordinates of the point relative to a character bounding box.
 ms.assetid: e69e5a4c-65e6-4d9b-8cb0-962524aa5d39
 topic_type:

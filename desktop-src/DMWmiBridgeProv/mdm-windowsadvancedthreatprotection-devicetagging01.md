@@ -1,5 +1,5 @@
 ---
-title: MDM\_WindowsAdvancedThreatProtection\_DeviceTagging01 class
+title: MDM_WindowsAdvancedThreatProtection_DeviceTagging01 class
 description: The MDM\_WindowsAdvancedThreatProtection\_DeviceTagging01 class is used to onboard, determine configuration and health status, and offboard endpoints for Windows Defender Advanced Threat Protection.
 ms.assetid: b56d5d46-e994-404a-865a-c59bb948f2b3
 keywords:

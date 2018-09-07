@@ -1,5 +1,5 @@
 ---
-title: The named\_type\_free\_inst Function
+title: The named_type_free_inst Function
 description: The stubs call the named\_type\_free\_inst function to free memory associated with the transmitted type.
 ms.assetid: 4b9e10cb-25bb-4f00-86a0-5436e5ac71d9
 keywords:

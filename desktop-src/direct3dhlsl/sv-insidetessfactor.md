@@ -1,5 +1,5 @@
 ---
-title: SV\_InsideTessFactor
+title: SV_InsideTessFactor
 description: Defines the tessellation amount within a patch surface.
 ms.assetid: f0762aca-d84d-44c0-a163-9737ef92c1e5
 keywords:

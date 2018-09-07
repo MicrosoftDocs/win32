@@ -1,5 +1,5 @@
 ---
-title: RB\_BEGINDRAG message
+title: RB_BEGINDRAG message
 description: Puts the rebar control in drag-and-drop mode. This message does not cause a RBN\_BEGINDRAG notification to be sent.
 ms.assetid: 1e3e4928-cb84-4fd4-8056-84de1f791d1c
 keywords:

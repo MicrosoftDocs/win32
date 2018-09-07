@@ -1,7 +1,7 @@
 ---
 Description: A new segment has started.
 ms.assetid: 9742436a-e233-4641-a0d5-aa240cde5f28
-title: EC\_SEGMENT\_STARTED
+title: EC_SEGMENT_STARTED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

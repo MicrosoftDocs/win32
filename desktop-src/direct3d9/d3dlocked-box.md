@@ -1,7 +1,7 @@
 ---
 Description: Describes a locked box (volume).
 ms.assetid: b371fb5e-2d65-453c-acd7-214de8aaa78a
-title: D3DLOCKED\_BOX structure
+title: D3DLOCKED_BOX structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

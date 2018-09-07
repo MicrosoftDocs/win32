@@ -1,7 +1,7 @@
 ---
 Description: The video renderer was destroyed or removed from the graph.
 ms.assetid: facf35c2-d6a2-4373-bce5-171fd9325116
-title: EC\_WINDOW\_DESTROYED
+title: EC_WINDOW_DESTROYED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

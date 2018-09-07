@@ -1,5 +1,5 @@
 ---
-title: MCI\_LOAD\_PARMS structure
+title: MCI_LOAD_PARMS structure
 description: The MCI\_LOAD\_PARMS structure contains the filename to load for the MCI\_LOAD command.
 ms.assetid: 371d11cc-44db-496b-b51a-66d7b919b794
 keywords:

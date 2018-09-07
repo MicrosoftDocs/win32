@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: IsCompatible method of the CIM\_Rack class
+title: IsCompatible method of the CIM_Rack class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

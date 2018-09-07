@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSPermissionsSetting Methods
+title: Win32_TSPermissionsSetting Methods
 description: The Win32\_TSPermissionsSetting class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

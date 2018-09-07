@@ -1,5 +1,5 @@
 ---
-title: MMIOM\_WRITE message
+title: MMIOM_WRITE message
 description: The MMIOM\_WRITE message is sent to an I/O procedure by the mmioWrite function to request that data be written to an open file.
 ms.assetid: 46e2dd9a-c4a7-4c99-86e4-a67b424411d1
 keywords:

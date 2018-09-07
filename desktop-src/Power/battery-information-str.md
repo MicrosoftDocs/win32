@@ -1,7 +1,7 @@
 ---
 Description: Contains battery information.
 ms.assetid: 6a236f48-5a06-4537-a769-bd68e5c0eb27
-title: BATTERY\_INFORMATION structure
+title: BATTERY_INFORMATION structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

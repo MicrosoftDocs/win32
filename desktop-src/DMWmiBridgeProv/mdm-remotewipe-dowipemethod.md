@@ -1,5 +1,5 @@
 ---
-title: doWipeMethod method of the MDM\_RemoteWipe class
+title: doWipeMethod method of the MDM_RemoteWipe class
 description: Triggers the device to start the remote wipe.
 ms.assetid: dc25dc09-6a74-4c08-b452-b1d83085bb41
 keywords:

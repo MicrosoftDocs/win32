@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the default proxy locator should force proxy auto-detection.
 ms.assetid: ab547a92-94a2-482e-b7ac-aeb3fdfb6b91
-title: MFNETSOURCE\_PROXYRERUNAUTODETECTION property
+title: MFNETSOURCE_PROXYRERUNAUTODETECTION property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

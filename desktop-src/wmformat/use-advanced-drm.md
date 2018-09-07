@@ -1,5 +1,5 @@
 ---
-title: Use\_Advanced\_DRM
+title: Use_Advanced_DRM
 description: The Use\_Advanced\_DRM attribute specifies whether DRM version 7 is used to protect the content.
 ms.assetid: a385152f-d72e-473c-93a0-5697659df23c
 keywords:

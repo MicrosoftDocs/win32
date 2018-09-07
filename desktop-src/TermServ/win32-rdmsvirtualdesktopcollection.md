@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSVirtualDesktopCollection class
+title: Win32_RDMSVirtualDesktopCollection class
 description: Creates and manages a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

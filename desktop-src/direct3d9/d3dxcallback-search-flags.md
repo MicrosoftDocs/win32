@@ -1,7 +1,7 @@
 ---
 Description: Flags used to obtain callback information.
 ms.assetid: e8126ff0-db23-4da6-a999-0efb8c2647da
-title: D3DXCALLBACK\_SEARCH\_FLAGS enumeration
+title: D3DXCALLBACK_SEARCH_FLAGS enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

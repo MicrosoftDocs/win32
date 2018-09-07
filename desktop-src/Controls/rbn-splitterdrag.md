@@ -1,5 +1,5 @@
 ---
-title: RBN\_SPLITTERDRAG notification code
+title: RBN_SPLITTERDRAG notification code
 description: Sent by a rebar control when the user drags a splitter. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 7827c971-6a92-452f-b961-1abe6ae66d2a
 keywords:

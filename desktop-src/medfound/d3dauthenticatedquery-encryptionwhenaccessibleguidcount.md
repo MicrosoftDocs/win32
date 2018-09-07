@@ -1,7 +1,7 @@
 ---
 Description: Returns the number of encryption types that can be used to encrypt content before it becomes accessible to the CPU or bus.
 ms.assetid: 442b80f5-8467-427d-a01e-5d22f6ddafea
-title: D3DAUTHENTICATEDQUERY\_ENCRYPTIONWHENACCESSIBLEGUIDCOUNT
+title: D3DAUTHENTICATEDQUERY_ENCRYPTIONWHENACCESSIBLEGUIDCOUNT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

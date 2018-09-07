@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the IMediaEventSink interface on the filter graph manager.
 ms.assetid: 0d61e8b6-e9a3-495b-8bb1-9dab1f8b3626
-title: CBaseFilter::m\_pSink member
+title: CBaseFilter::m_pSink member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

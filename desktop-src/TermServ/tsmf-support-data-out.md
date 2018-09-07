@@ -1,5 +1,5 @@
 ---
-title: TSMF\_SUPPORT\_DATA\_OUT structure
+title: TSMF_SUPPORT_DATA_OUT structure
 description: Contains information about media formats.
 audience: developer
 author: REDMOND\\markl

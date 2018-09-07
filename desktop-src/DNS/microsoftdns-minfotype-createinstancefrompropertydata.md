@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_MINFOType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_MINFOType class
 description: The CreateInstanceFromPropertyData method instantiates a Mail Information (MINFO) Resource Record.
 ms.assetid: 693b4b19-cbdd-48d5-89e0-a700a60477aa
 keywords:

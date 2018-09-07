@@ -1,5 +1,5 @@
 ---
-title: SetDeviceRedirectionType method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: SetDeviceRedirectionType method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the DeviceRedirectionType property, which controls which devices will be redirected.
 audience: developer
 author: REDMOND\\markl

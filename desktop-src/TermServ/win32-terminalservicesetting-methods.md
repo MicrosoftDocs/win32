@@ -1,5 +1,5 @@
 ---
-title: Win32\_TerminalServiceSetting Methods
+title: Win32_TerminalServiceSetting Methods
 description: The Win32\_TerminalServiceSetting class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: Contains flags for a Media Foundation transform (MFT) activation object.
 ms.assetid: de377132-19b0-4c8c-882e-193c31420739
-title: MF\_TRANSFORM\_FLAGS\_Attribute attribute
+title: MF_TRANSFORM_FLAGS_Attribute attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

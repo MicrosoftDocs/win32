@@ -1,5 +1,5 @@
 ---
-title: SB\_GETTEXTLENGTH message
+title: SB_GETTEXTLENGTH message
 description: Retrieves the length, in characters, of the text from the specified part of a status window.
 ms.assetid: 2cd43106-dd43-499e-b595-760e9ededab5
 keywords:

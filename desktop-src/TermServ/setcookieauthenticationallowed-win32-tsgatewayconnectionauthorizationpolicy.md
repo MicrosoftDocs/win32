@@ -1,5 +1,5 @@
 ---
-title: SetCookieAuthenticationAllowed method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: SetCookieAuthenticationAllowed method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the CookieAuthenticationAllowed property.
 audience: developer
 author: REDMOND\\markl

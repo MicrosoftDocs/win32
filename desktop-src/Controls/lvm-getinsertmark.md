@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETINSERTMARK message
+title: LVM_GETINSERTMARK message
 description: Retrieves the position of the insertion point.
 ms.assetid: ad00df4c-4b4b-48f1-8821-7849a216df2e
 keywords:

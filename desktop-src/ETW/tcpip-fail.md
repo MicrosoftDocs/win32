@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for TCP/IP failure events. The following syntax is simplified from MOF code.
 ms.assetid: 1fe20b8c-b8f1-4db0-af78-1ebfc40b2bbd
-title: TcpIp\_Fail class
+title: TcpIp_Fail class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetDataPointer method.
 ms.assetid: 7256d6eb-cb7c-4067-8382-511d64da6825
-title: IWICBitmapLock\_GetDataPointer\_STA\_Proxy function
+title: IWICBitmapLock_GetDataPointer_STA_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

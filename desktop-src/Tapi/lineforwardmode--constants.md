@@ -1,7 +1,7 @@
 ---
 Description: The LINEFORWARDMODE\_ bit-flag constants describe the conditions under which calls to an address can be forwarded.
 ms.assetid: 8cc053bd-1056-42be-b48a-d2312c456893
-title: LINEFORWARDMODE\_ Constants
+title: LINEFORWARDMODE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

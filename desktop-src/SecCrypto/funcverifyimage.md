@@ -1,7 +1,7 @@
 ---
 Description: Used by a cryptographic service provider (CSP) to verify the signature of a DLL.
 ms.assetid: 477a6c9f-05ac-485a-8b27-5605fc11c1d6
-title: CRYPT\_VERIFY\_IMAGE function pointer
+title: CRYPT_VERIFY_IMAGE function pointer
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

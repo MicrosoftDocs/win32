@@ -1,5 +1,5 @@
 ---
-title: NM\_CHAR (toolbar) notification code
+title: NM_CHAR (toolbar) notification code
 description: Sent by a toolbar when it receives a WM\_CHAR message. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 7bf0b046-da8e-448f-94e1-62ba0989f7ba
 keywords:

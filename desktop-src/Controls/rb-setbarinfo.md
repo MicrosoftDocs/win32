@@ -1,5 +1,5 @@
 ---
-title: RB\_SETBARINFO message
+title: RB_SETBARINFO message
 description: Sets the characteristics of a rebar control.
 ms.assetid: e4413d46-574f-4ccd-b5fd-3ba6c1e3924b
 keywords:

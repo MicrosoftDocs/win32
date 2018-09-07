@@ -7,7 +7,7 @@ ms.assetid: 6eba9bff-a5b9-4741-94ef-7d65b33d9aff
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_InstanceProviderRegistration class'
+title: '__InstanceProviderRegistration class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

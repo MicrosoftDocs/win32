@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETGROUPMETRICS message
+title: LVM_GETGROUPMETRICS message
 description: Gets information about the display of groups.
 ms.assetid: 75e7da66-50c6-4834-ae66-e43b8f9b0b34
 keywords:

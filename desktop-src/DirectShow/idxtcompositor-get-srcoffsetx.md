@@ -1,7 +1,7 @@
 ---
 Description: The get\_SrcOffsetX method retrieves the horizontal offset of the source rectangle.
 ms.assetid: 528a5306-86bd-4ae2-ad03-57247362c5b5
-title: IDxtCompositor::get\_SrcOffsetX method
+title: IDxtCompositor::get_SrcOffsetX method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

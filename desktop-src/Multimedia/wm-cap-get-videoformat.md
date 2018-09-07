@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_GET\_VIDEOFORMAT message
+title: WM_CAP_GET_VIDEOFORMAT message
 description: The WM\_CAP\_GET\_VIDEOFORMAT message retrieves a copy of the video format in use or the size required for the video format. You can send this message explicitly or by using the capGetVideoFormat and capGetVideoFormatSize macros.
 ms.assetid: ac72dfdb-fe1a-4007-bdce-41e5e67d076a
 keywords:

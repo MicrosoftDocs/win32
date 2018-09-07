@@ -1,7 +1,7 @@
 ---
 Description: Contains the response to a D3DAUTHENTICATEDQUERY\_OUTPUTID query.
 ms.assetid: 4dfd1d65-b203-456a-bc9b-527906bcf87e
-title: D3DAUTHENTICATEDCHANNEL\_QUERYROUTPUTID\_OUTPUT structure
+title: D3DAUTHENTICATEDCHANNEL_QUERYROUTPUTID_OUTPUT structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

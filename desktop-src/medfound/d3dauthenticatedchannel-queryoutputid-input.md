@@ -1,7 +1,7 @@
 ---
 Description: Contains input data for a D3DAUTHENTICATEDQUERY\_OUTPUTID query.
 ms.assetid: 8864c298-be9a-4ff4-a9c5-996b62937c18
-title: D3DAUTHENTICATEDCHANNEL\_QUERYOUTPUTID\_INPUT structure
+title: D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTID_INPUT structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

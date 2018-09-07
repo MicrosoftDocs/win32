@@ -1,5 +1,5 @@
 ---
-title: force\_allocate attribute
+title: force_allocate attribute
 description: The ACF attribute \ force\_allocate\ forces a pointer parameter to be allocated using midl\_user\_allocate instead of optimizing away the allocation.
 ms.assetid: 40e3a7d9-7e4f-4e3d-8c82-fb6ef567f293
 keywords:

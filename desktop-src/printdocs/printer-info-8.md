@@ -1,7 +1,7 @@
 ---
 Description: The PRINTER\_INFO\_8 structure specifies the global default printer settings.
 ms.assetid: 98f26a45-5302-4358-bed6-691d9bc37554
-title: PRINTER\_INFO\_8 structure
+title: PRINTER_INFO_8 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

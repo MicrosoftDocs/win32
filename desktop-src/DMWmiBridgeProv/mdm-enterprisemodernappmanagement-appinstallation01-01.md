@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01 class
+title: MDM_EnterpriseModernAppManagement_AppInstallation01_01 class
 description: The MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01 class is used to install apps from the Windows Store or a hosted location.
 ms.assetid: fc4c4c82-6f43-41fc-863b-940c0517f28b
 keywords:

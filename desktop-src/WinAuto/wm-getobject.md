@@ -1,5 +1,5 @@
 ---
-title: WM\_GETOBJECT message
+title: WM_GETOBJECT message
 description: Sent by both Microsoft Active Accessibility and Microsoft UI Automation to obtain information about an accessible object contained in a server application.
 ms.assetid: 455398b7-f748-4ab0-8953-3f74439e44f1
 keywords:

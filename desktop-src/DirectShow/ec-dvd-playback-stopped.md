@@ -1,7 +1,7 @@
 ---
 Description: Indicates that DVD playback has been stopped. This event is sent when a title or chapter completes and the DVD Navigator does not find any other branching instruction for subsequent playback. The event is not sent when the application stops playback.
 ms.assetid: c8617307-d70e-48af-8e85-69105595aa10
-title: EC\_DVD\_PLAYBACK\_STOPPED
+title: EC_DVD_PLAYBACK_STOPPED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

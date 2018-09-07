@@ -1,7 +1,7 @@
 ---
 Description: Specifies Windows Media Digital Rights Management (WMDRM) Output Trust Authority (OTA).
 ms.assetid: 88E73129-3EA9-49F8-BDE7-DB73402400CB
-title: MFPROTECTION\_WMDRMOTA attribute
+title: MFPROTECTION_WMDRMOTA attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

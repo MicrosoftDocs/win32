@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Config01\_Education02 class
+title: MDM_Policy_User_Config01_Education02 class
 description: The MDM\_Policy\_User\_Config01\_Education02 class configures the education policies.
 ms.assetid: d9a263c7-ee9c-4857-b9a6-f0efdb373e13
 keywords:

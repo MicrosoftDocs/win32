@@ -1,5 +1,5 @@
 ---
-title: ExecuteKCC method of the MSAD\_DomainController class
+title: ExecuteKCC method of the MSAD_DomainController class
 description: Calls the DsReplicaConsistencyCheck function, which invokes the Knowledge Consistency Checker (KCC) to verify the replication topology.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCBAvg
+title: g_wszWMVCBAvg
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: c838375d-0ba0-4e12-be9d-f4c455f35114
 keywords:

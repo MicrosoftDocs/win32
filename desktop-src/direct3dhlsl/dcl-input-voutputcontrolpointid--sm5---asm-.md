@@ -1,5 +1,5 @@
 ---
-title: dcl\_input vOutputControlPointID (sm5 - asm)
+title: dcl_input vOutputControlPointID (sm5 - asm)
 description: Declare the the output control point ID in a hull shader control point phase.
 ms.assetid: 376ECA4F-DD71-4466-8A9D-E92A536832BC
 ms.technology: desktop

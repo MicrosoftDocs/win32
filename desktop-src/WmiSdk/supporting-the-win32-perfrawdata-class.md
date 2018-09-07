@@ -7,7 +7,7 @@ ms.assetid: 04abb2f9-800f-497a-ac8f-8ef210746273
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Supporting the Win32\_PerfRawData Class
+title: Supporting the Win32_PerfRawData Class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

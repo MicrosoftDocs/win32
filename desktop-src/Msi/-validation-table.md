@@ -1,7 +1,7 @@
 ---
 Description: The \_Validation table is a system table that contains the column names and the column values for all of the tables in the database.
 ms.assetid: 52b1c537-efb6-4bb8-9e7f-b4848be52a71
-title: '\_Validation Table'
+title: '_Validation Table'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Sets the moniker binding flags for the Microsoft Media Foundation HTTP byte stream.
 ms.assetid: 9426D235-65E1-40BA-94E9-CF0C49263E6F
-title: MFPKEY\_HTTP\_ByteStream\_Urlmon\_Bind\_Flags property
+title: MFPKEY_HTTP_ByteStream_Urlmon_Bind_Flags property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

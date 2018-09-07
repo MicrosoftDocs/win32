@@ -1,5 +1,5 @@
 ---
-title: XTYP\_XACT\_COMPLETE transaction
+title: XTYP_XACT_COMPLETE transaction
 description: A Dynamic Data Exchange (DDE) client callback function, DdeCallback, receives the XTYP\_XACT\_COMPLETE transaction when an asynchronous transaction, initiated by a call to the DdeClientTransaction function, has completed.
 ms.assetid: d34a6fab-0e3c-44fe-b25f-7011228fe261
 keywords:

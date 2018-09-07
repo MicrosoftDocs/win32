@@ -1,5 +1,5 @@
 ---
-title: ncacn\_at\_dsp attribute
+title: ncacn_at_dsp attribute
 description: The ncacn\_at\_dsp keyword identifies AppleTalk DSP as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: 3165e4f6-8869-4eff-af65-53e85f78a949
 keywords:

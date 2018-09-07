@@ -1,5 +1,5 @@
 ---
-title: /enum\_class switch
+title: /enum_class switch
 description: The /enum\_class switch enables use of the C++ enum class construct.
 ms.assetid: 801C00DF-6798-4650-9141-56B89C9241E4
 keywords:

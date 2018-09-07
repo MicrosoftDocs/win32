@@ -1,7 +1,7 @@
 ---
 Description: A subset of PROV\_RSA\_FULL. It supports only those functions and algorithms required for hashes and digital signatures.
 ms.assetid: ebb6192b-f34e-4218-a1e8-308708ae5935
-title: PROV\_RSA\_SIG
+title: PROV_RSA_SIG
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

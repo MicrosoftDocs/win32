@@ -7,7 +7,7 @@ ms.assetid: a9d023ba-d401-4dde-88e6-cbd0e20d4549
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_SystemClass class'
+title: '__SystemClass class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

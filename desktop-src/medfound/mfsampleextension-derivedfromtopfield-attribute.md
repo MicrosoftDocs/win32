@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a deinterlaced video frame was derived from the upper field or the lower field.
 ms.assetid: 3710ab94-afb3-44d3-a680-b4a716810ec1
-title: MFSampleExtension\_DerivedFromTopField attribute
+title: MFSampleExtension_DerivedFromTopField attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

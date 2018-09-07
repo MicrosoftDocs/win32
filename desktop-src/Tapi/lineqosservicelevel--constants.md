@@ -1,7 +1,7 @@
 ---
 Description: These constants are used by a TSP to identify the type of a QoS (Quality of Service) level required.
 ms.assetid: 9fc3f6eb-7103-43c5-84f8-3842757e5be7
-title: LINEQOSSERVICELEVEL\_ Constants
+title: LINEQOSSERVICELEVEL_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

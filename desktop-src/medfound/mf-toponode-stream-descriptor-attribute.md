@@ -1,7 +1,7 @@
 ---
 Description: Contains a pointer to the stream descriptor for the media source.
 ms.assetid: 5acafbc1-823f-4b6d-8737-04b3a6a0cf87
-title: MF\_TOPONODE\_STREAM\_DESCRIPTOR attribute
+title: MF_TOPONODE_STREAM_DESCRIPTOR attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

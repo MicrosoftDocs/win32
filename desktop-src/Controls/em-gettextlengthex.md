@@ -1,5 +1,5 @@
 ---
-title: EM\_GETTEXTLENGTHEX message
+title: EM_GETTEXTLENGTHEX message
 description: Calculates text length in various ways. It is usually called before creating a buffer to receive the text from the control.
 ms.assetid: 42c89b7b-e48d-4517-9993-ce58ff9e4e40
 keywords:

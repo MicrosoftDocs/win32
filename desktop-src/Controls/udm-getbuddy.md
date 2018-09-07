@@ -1,5 +1,5 @@
 ---
-title: UDM\_GETBUDDY message
+title: UDM_GETBUDDY message
 description: Retrieves the handle to the current buddy window.
 ms.assetid: 684b224d-5565-4bf4-9c18-c5e4cd01ee00
 keywords:

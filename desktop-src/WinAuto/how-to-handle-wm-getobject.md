@@ -1,5 +1,5 @@
 ---
-title: How to Handle WM\_GETOBJECT
+title: How to Handle WM_GETOBJECT
 description: When it receives a WM\_GETOBJECT message that contains OBJID\_CLIENT, the server must return a pointer to the object that implements IAccessible.
 ms.assetid: 455398b7-f748-4ab0-8953-3f74439e44f1
 ms.technology: desktop

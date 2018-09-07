@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Update02 class
+title: MDM_Policy_Config01_Update02 class
 description: The MDM\_Policy\_Config01\_Update02 class represents the update policies available.
 ms.assetid: 7324912c-7ac5-42fd-baee-f7e2d81de023
 keywords:

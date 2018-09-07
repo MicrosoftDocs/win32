@@ -1,5 +1,5 @@
 ---
-title: WriteBackZone method of the MicrosoftDNS\_Zone class
+title: WriteBackZone method of the MicrosoftDNS_Zone class
 description: The WriteBackZone method saves Zone data to its zone file.
 ms.assetid: 5f9f1fcc-79a1-465a-a94e-3283135c9b69
 keywords:

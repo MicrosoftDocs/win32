@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the CreateStream method.
 ms.assetid: c827e1aa-13ae-459e-a1dc-5ff8c31a54bc
-title: IWICImagingFactory\_CreateStream\_Proxy function
+title: IWICImagingFactory_CreateStream_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

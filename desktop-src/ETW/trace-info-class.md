@@ -1,7 +1,7 @@
 ---
 Description: Determines the type of information to include with the trace.
 ms.assetid: b163e120-454a-48ba-93a9-71351fc3f2c2
-title: TRACE\_INFO\_CLASS enumeration
+title: TRACE_INFO_CLASS enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

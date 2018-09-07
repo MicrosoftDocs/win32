@@ -1,7 +1,7 @@
 ---
 Description: Contains the response to a D3DAUTHENTICATEDQUERY\_PROTECTION query.
 ms.assetid: eb99089a-5e8e-4970-9c40-7f6a9662b5ec
-title: D3DAUTHENTICATEDCHANNEL\_QUERYPROTECTION\_OUTPUT structure
+title: D3DAUTHENTICATEDCHANNEL_QUERYPROTECTION_OUTPUT structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

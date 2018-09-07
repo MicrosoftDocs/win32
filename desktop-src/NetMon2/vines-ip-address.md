@@ -1,7 +1,7 @@
 ---
 Description: The VINES\_IP\_ADDRESS structure is an IP address on a Vines network.
 ms.assetid: 681753a5-08a2-48e6-9e46-c028c12ad9c1
-title: VINES\_IP\_ADDRESS structure
+title: VINES_IP_ADDRESS structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

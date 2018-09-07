@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETSPEED message
+title: MCIWNDM_GETSPEED message
 description: The MCIWNDM\_GETSPEED message retrieves the playback speed of an MCI device. You can send this message explicitly or by using the MCIWndGetSpeed macro.
 ms.assetid: d10a8f88-e85e-449b-8655-bb0832031d59
 keywords:

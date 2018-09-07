@@ -1,5 +1,5 @@
 ---
-title: SetPasswordAllowed method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: SetPasswordAllowed method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the PasswordAllowed property, which enables or disables support for using a password to connect to the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

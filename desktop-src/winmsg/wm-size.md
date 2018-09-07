@@ -1,7 +1,7 @@
 ---
 Description: Sent to a window after its size has changed.
 ms.assetid: e3e14dcd-9236-48bd-a692-6985d8146f81
-title: WM\_SIZE message
+title: WM_SIZE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

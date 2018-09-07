@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_CredentialsUI02 class
+title: MDM_Policy_Config01_CredentialsUI02 class
 description: The MDM\_Policy\_Config01\_CredentialsUI02 class configures the available credential provider policies.
 ms.assetid: 508b8dc8-cc89-4260-9346-30deeac606fd
 keywords:

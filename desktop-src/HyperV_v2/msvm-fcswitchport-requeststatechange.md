@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 42b9b67d-ee64-4c78-860c-9af61f780ff8
-title: RequestStateChange method of the Msvm\_FcSwitchPort class
+title: RequestStateChange method of the Msvm_FcSwitchPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Storage02 class
+title: MDM_Policy_Result01_Storage02 class
 description: The MDM\_Policy\_Result01\_Storage02 class represents the available storage policies.
 ms.assetid: e0e3b867-38b5-4b10-a13e-6f99b8ff6db3
 keywords:

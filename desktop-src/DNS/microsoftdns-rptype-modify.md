@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_RPType class
+title: Modify method of the MicrosoftDNS_RPType class
 description: The Modify method updates a Responsible Person (RP) Resource Record.
 ms.assetid: a779b905-922c-42ff-b3d9-318b3a848230
 keywords:

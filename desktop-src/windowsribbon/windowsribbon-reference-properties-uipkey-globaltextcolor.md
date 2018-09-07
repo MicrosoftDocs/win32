@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_GlobalTextColor
+title: UI_PKEY_GlobalTextColor
 description: Identifies the UI\_PKey\_GlobalTextColor property.
 ms.assetid: 60607c12-a6cf-4ecf-ae0b-341e6500a4fa
 ms.technology: desktop

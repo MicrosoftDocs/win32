@@ -1,5 +1,5 @@
 ---
-title: SB\_SETMINHEIGHT message
+title: SB_SETMINHEIGHT message
 description: Sets the minimum height of a status window's drawing area.
 ms.assetid: 346fe654-f808-4191-9c3d-f9a4def08df1
 keywords:

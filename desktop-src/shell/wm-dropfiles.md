@@ -1,7 +1,7 @@
 ---
 Description: Sent when the user drops a file on the window of an application that has registered itself as a recipient of dropped files.
 ms.assetid: 07dc2df7-4699-4e9c-b1a5-4ce877116268
-title: WM\_DROPFILES message
+title: WM_DROPFILES message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

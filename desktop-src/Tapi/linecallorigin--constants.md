@@ -1,7 +1,7 @@
 ---
 Description: The LINECALLORIGIN\_ constants describe the origin of a call.
 ms.assetid: b830a40e-62d9-4a6c-b43f-8318f30a7cd4
-title: LINECALLORIGIN\_ Constants
+title: LINECALLORIGIN_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

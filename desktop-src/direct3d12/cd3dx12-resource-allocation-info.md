@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_RESOURCE\_ALLOCATION\_INFO structure
+title: CD3DX12_RESOURCE_ALLOCATION_INFO structure
 description: A helper structure to enable easy initialization of a D3D12\_RESOURCE\_ALLOCATION\_INFO structure.
 ms.assetid: 81FC8D0E-2C15-42D3-9E06-1FE193F707C6
 keywords:

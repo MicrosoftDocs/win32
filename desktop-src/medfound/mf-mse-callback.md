@@ -1,7 +1,7 @@
 ---
 Description: Contains a pointer to the applications callback interface for the IMFMediaSourceExtensionNotify.
 ms.assetid: A5783F9B-6261-4384-9484-275F550709E2
-title: MF\_MSE\_CALLBACK attribute
+title: MF_MSE_CALLBACK attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

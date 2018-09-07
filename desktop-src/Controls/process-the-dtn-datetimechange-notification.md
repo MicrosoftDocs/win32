@@ -1,5 +1,5 @@
 ---
-title: How to Process the DTN\_DATETIMECHANGE Notification
+title: How to Process the DTN_DATETIMECHANGE Notification
 description: This topic demonstrates how to process notification of changes, made by the user, to the date and time picker (DTP) control.
 ms.assetid: AE029962-E9D3-47BC-A24F-312B54137F18
 ms.technology: desktop

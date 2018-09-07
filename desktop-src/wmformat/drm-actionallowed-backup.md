@@ -1,5 +1,5 @@
 ---
-title: DRM\_ActionAllowed\_Backup
+title: DRM_ActionAllowed_Backup
 description: The DRM\_ActionAllowed\_Backup attribute indicates whether the license is allowed to be backed up.
 ms.assetid: 49b503ff-a2ca-405c-a8ac-49653c62e13e
 keywords:

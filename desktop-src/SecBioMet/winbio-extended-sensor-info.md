@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_EXTENDED\_SENSOR\_INFO structure
+title: WINBIO_EXTENDED_SENSOR_INFO structure
 description: Contains information about the capabilities and enrollment requirements of the sensor adapter for a biometric unit.
 ms.assetid: 37D8BC57-F68D-487A-98B0-94D62CC091C2
 keywords:

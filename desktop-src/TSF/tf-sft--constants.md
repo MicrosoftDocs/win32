@@ -1,5 +1,5 @@
 ---
-title: TF\_SFT\_\ Constants
+title: TF_SFT_ Constants
 description: The TF\_SFT\_\ constants specify display settings of a floating language bar.
 ms.assetid: 628e1d85-9614-4327-b89b-723f6eeb0718
 topic_type:

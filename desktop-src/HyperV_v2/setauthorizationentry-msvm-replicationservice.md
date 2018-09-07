@@ -1,7 +1,7 @@
 ---
 Description: Sets the replication authorization entry for a virtual machine.
 ms.assetid: 39b6b0c4-5515-4863-9038-4c37421abe65
-title: SetAuthorizationEntry method of the Msvm\_ReplicationService class
+title: SetAuthorizationEntry method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the device category for a video capture device.
 ms.assetid: 008ff9df-ebe0-4efd-a62c-24f4a4239ebd
-title: MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_CATEGORY attribute
+title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

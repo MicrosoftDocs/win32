@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_CoolingDevice Methods
+title: CIM_CoolingDevice Methods
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

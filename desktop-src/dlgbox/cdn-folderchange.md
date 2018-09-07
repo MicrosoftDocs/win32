@@ -1,5 +1,5 @@
 ---
-title: CDN\_FOLDERCHANGE notification code
+title: CDN_FOLDERCHANGE notification code
 description: Sent by an Explorer-style Open or Save As dialog box when a new folder is opened.
 ms.assetid: 864ab80d-cd99-4dd6-8aff-49beed246e53
 keywords:

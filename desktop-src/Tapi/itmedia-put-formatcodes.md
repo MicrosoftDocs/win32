@@ -1,7 +1,7 @@
 ---
 Description: The put\_FormatCodes method sets the list of media payload format codes. The variant contains a SAFEARRAY of BSTRs. Each BSTR within that array is a format code string.
 ms.assetid: b76a7fee-0fae-41fb-a8cd-6803458d9182
-title: ITMedia::put\_FormatCodes method
+title: ITMedia::put_FormatCodes method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

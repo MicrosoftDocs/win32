@@ -1,7 +1,7 @@
 ---
 Description: The LINEADDRFEATURE\_ constants list the operations that can be invoked on an address.
 ms.assetid: dedeee7b-578b-4b19-8b99-5cd23779d661
-title: LINEADDRFEATURE\_ Constants
+title: LINEADDRFEATURE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

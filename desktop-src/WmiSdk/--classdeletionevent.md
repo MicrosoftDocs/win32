@@ -7,7 +7,7 @@ ms.assetid: dd44c03e-4d0d-4750-942d-495893d21650
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ClassDeletionEvent class'
+title: '__ClassDeletionEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_SET\_CALLBACK\_WAVESTREAM message
+title: WM_CAP_SET_CALLBACK_WAVESTREAM message
 description: The WM\_CAP\_SET\_CALLBACK\_WAVESTREAM message sets a callback function in the application.
 ms.assetid: f2554cbb-73de-4f76-b785-6c18c82c2992
 keywords:

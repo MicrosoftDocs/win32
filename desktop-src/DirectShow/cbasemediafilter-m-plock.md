@@ -1,7 +1,7 @@
 ---
 Description: Pointer to a critical section.
 ms.assetid: 7d949b7f-a6a7-4ab5-b651-f85b70d55065
-title: CBaseMediaFilter::m\_pLock member
+title: CBaseMediaFilter::m_pLock member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

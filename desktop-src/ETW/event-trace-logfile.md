@@ -1,7 +1,7 @@
 ---
 Description: The EVENT\_TRACE\_LOGFILE structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events.
 ms.assetid: 179451e9-7e3c-4d3a-bcc6-3ad9d382229a
-title: EVENT\_TRACE\_LOGFILE structure
+title: EVENT_TRACE_LOGFILE structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

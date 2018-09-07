@@ -1,5 +1,5 @@
 ---
-title: MCM\_SETCOLOR message
+title: MCM_SETCOLOR message
 description: Sets the color for a given portion of a month calendar control. You can send this message explicitly or by using the MonthCal\_SetColor macro.
 ms.assetid: 4ceb7b0e-82be-474a-a163-7e71356818c0
 keywords:

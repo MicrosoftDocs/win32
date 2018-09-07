@@ -1,5 +1,5 @@
 ---
-title: GetConnectionString method of the Win32\_RDMSDeploymentSettings class
+title: GetConnectionString method of the Win32_RDMSDeploymentSettings class
 description: Retrieves the deployment-level database connection string.
 audience: developer
 author: REDMOND\\markl

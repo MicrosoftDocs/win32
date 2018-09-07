@@ -1,7 +1,7 @@
 ---
 Description: The \_NewEnum property of NoticeNumbers retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: 21c19edd-b060-46cd-ad44-efd3a77b327c
-title: NoticeNumbers.\_NewEnum property
+title: NoticeNumbers._NewEnum property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

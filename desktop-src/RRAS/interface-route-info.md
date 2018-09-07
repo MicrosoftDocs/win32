@@ -1,5 +1,5 @@
 ---
-title: INTERFACE\_ROUTE\_INFO structure
+title: INTERFACE_ROUTE_INFO structure
 description: Used to specify the routes to be added or deleted on an RRAS server.
 ms.assetid: 6dbf86b8-80bd-4000-8047-91a76875829f
 keywords:

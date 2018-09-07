@@ -1,5 +1,5 @@
 ---
-title: CFSTR\_DSQUERYSCOPE
+title: CFSTR_DSQUERYSCOPE
 description: The CFSTR\_DSQUERYSCOPE clipboard format provides a global memory handle (HGLOBAL) that contains a string that specifies the query scope.
 audience: developer
 author: REDMOND\\markl

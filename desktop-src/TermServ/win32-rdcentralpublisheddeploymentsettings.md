@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDCentralPublishedDeploymentSettings class
+title: Win32_RDCentralPublishedDeploymentSettings class
 description: Contains the deployment settings used to generate RDP files for resources published from a farm.
 audience: developer
 author: REDMOND\\markl

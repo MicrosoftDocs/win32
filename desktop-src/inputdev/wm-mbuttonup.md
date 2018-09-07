@@ -1,5 +1,5 @@
 ---
-title: WM\_MBUTTONUP message
+title: WM_MBUTTONUP message
 description: Posted when the user releases the middle mouse button while the cursor is in the client area of a window.
 ms.assetid: fb8dee71-11bd-4405-855d-a5d120442271
 keywords:

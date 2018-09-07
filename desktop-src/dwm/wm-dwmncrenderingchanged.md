@@ -1,5 +1,5 @@
 ---
-title: WM\_DWMNCRENDERINGCHANGED message
+title: WM_DWMNCRENDERINGCHANGED message
 description: Sent when the non-client area rendering policy has changed.
 ms.assetid: 31beb127-ebec-49a8-8b65-de00941cbd67
 keywords:

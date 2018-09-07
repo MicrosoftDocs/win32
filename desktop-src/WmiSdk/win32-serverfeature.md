@@ -7,7 +7,7 @@ ms.assetid: fe3bb95c-7f69-47b5-9c3d-771cdc3ed9ca
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Win32\_ServerFeature class
+title: Win32_ServerFeature class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

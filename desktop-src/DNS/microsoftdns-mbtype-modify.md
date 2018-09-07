@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_MBType class
+title: Modify method of the MicrosoftDNS_MBType class
 description: The Modify method updates a Mailbox (MB) Resource Record.
 ms.assetid: ee76031c-ac1b-4ebb-9fb2-3b64553867cc
 keywords:

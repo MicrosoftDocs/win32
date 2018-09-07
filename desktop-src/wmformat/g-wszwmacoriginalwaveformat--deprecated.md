@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMACOriginalWaveFormat
+title: g_wszWMACOriginalWaveFormat
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 5d4f727c-c58c-4d66-8140-469cb24b3b0e
 keywords:

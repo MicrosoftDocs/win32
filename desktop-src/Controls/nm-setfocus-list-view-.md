@@ -1,5 +1,5 @@
 ---
-title: NM\_SETFOCUS (list view) notification code
+title: NM_SETFOCUS (list view) notification code
 description: Notifies a list-view control's parent window that the control has received the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 43d3b09a-f095-4f30-87a8-2f2e782d6720
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETALIAS message
+title: MCIWNDM_GETALIAS message
 description: The MCIWNDM\_GETALIAS message retrieves the alias used to open an MCI device or file with the mciSendString function. You can send this message explicitly or by using the MCIWndGetAlias macro.
 ms.assetid: 37131b89-275c-4ab6-9278-0e08c42471bd
 keywords:

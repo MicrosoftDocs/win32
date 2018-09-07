@@ -1,5 +1,5 @@
 ---
-title: TVN\_ITEMEXPANDING notification code
+title: TVN_ITEMEXPANDING notification code
 description: Notifies a tree-view control's parent window that a parent item's list of child items is about to expand or collapse. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec
 keywords:

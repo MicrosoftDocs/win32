@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLicenseReportFailedPerUserEntry class
+title: Win32_TSLicenseReportFailedPerUserEntry class
 description: Provides details about the failed Remote Desktop Services Per User client access license (RDS \ 160;Per User CAL).
 audience: developer
 author: REDMOND\\markl

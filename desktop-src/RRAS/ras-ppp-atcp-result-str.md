@@ -1,5 +1,5 @@
 ---
-title: RAS\_PPP\_ATCP\_RESULT structure
+title: RAS_PPP_ATCP_RESULT structure
 description: The RAS\_PPP\_ATCP\_RESULT structure is used to report the result of an AppleTalk protocol projection operation for a port.
 ms.assetid: ac9df618-f79c-4066-a37e-f92e64e951dd
 keywords:

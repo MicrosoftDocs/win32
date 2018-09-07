@@ -1,5 +1,5 @@
 ---
-title: RB\_SETCOLORSCHEME message
+title: RB_SETCOLORSCHEME message
 description: Sets the color scheme information for the rebar control.
 ms.assetid: ddf8f3e4-66b7-4b53-a04e-b4dd372f71c4
 keywords:

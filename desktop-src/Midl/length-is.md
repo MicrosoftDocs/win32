@@ -1,5 +1,5 @@
 ---
-title: length\_is attribute
+title: length_is attribute
 description: The \ length\_is\ attribute specifies the number of array elements to be transmitted. You must specify a non-negative value.
 ms.assetid: 060dbd4a-3078-4050-abfe-c1b633c06861
 keywords:

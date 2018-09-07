@@ -1,5 +1,5 @@
 ---
-title: DRV\_QUERYCONFIGURE message
+title: DRV_QUERYCONFIGURE message
 description: Directs the driver to specify whether it supports custom configuration.
 ms.assetid: fb2e36a7-8d6b-4b08-b2d7-e128ca7082dc
 keywords:

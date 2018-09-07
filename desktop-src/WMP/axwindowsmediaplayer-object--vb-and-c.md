@@ -1,5 +1,5 @@
 ---
-title: AxWindowsMediaPlayer Object (VB and C\ )
+title: AxWindowsMediaPlayer Object (VB and C )
 description: AxWindowsMediaPlayer Object (VB and C\ )
 ms.assetid: d7eeac20-1afa-4e73-9af6-9772fbb65516
 keywords:

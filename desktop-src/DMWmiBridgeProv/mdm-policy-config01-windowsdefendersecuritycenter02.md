@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_WindowsDefenderSecurityCenter02 class
+title: MDM_Policy_Config01_WindowsDefenderSecurityCenter02 class
 description: The MDM\_Policy\_Config01\_WindowsDefenderSecurityCenter02 class represents the Windows Defender Security Center policies.
 ms.assetid: 406c3992-e9ed-49c5-a4c4-97d91013d416
 keywords:

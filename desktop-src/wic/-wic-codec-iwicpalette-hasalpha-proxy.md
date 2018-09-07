@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the HasAlpha method.
 ms.assetid: 8af9f588-ac22-40c4-8973-9636951cc9e6
-title: IWICPalette\_HasAlpha\_Proxy function
+title: IWICPalette_HasAlpha_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

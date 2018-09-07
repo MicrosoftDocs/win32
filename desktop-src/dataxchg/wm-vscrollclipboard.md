@@ -1,5 +1,5 @@
 ---
-title: WM\_VSCROLLCLIPBOARD message
+title: WM_VSCROLLCLIPBOARD message
 description: Sent to the clipboard owner by a clipboard viewer window when the clipboard contains data in the CF\_OWNERDISPLAY format and an event occurs in the clipboard viewer's vertical scroll bar.
 ms.assetid: 17bd32c4-1b07-42b7-b269-f517e3ec13f3
 keywords:

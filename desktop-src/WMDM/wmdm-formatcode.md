@@ -1,5 +1,5 @@
 ---
-title: WMDM\_FORMATCODE enumeration
+title: WMDM_FORMATCODE enumeration
 description: The WMDM\_FORMATCODE enumeration type defines a list of format codes that describe types of content transferred to and from a device.
 ms.assetid: 203d9bdf-cbbd-4d06-8292-26c8a472e2aa
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionBrokerFarm class
+title: Win32_SessionBrokerFarm class
 description: Defines the query for a session broker farm.
 audience: developer
 author: REDMOND\\markl

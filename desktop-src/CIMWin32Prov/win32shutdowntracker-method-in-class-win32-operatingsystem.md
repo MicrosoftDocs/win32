@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Win32ShutdownTracker method of the Win32\_OperatingSystem class
+title: Win32ShutdownTracker method of the Win32_OperatingSystem class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

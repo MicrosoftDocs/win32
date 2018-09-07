@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SNATIVE\* Constants
 ms.assetid: 560978d7-a33c-4e62-9abd-cbd3ec38f3b5
-title: LOCALE\_SNATIVE\* Constants
+title: LOCALE_SNATIVE* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

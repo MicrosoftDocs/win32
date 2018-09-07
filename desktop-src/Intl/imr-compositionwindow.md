@@ -1,7 +1,7 @@
 ---
 Description: Notifies an application when a selected IME needs information about the composition window. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.
 ms.assetid: 08fd7119-d225-4a78-b2cd-8b58887c9139
-title: IMR\_COMPOSITIONWINDOW notification code
+title: IMR_COMPOSITIONWINDOW notification code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

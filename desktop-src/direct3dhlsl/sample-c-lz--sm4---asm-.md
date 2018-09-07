@@ -1,5 +1,5 @@
 ---
-title: sample\_c\_lz (sm4 - asm)
+title: sample_c_lz (sm4 - asm)
 description: Performs a comparison filter. This instruction behaves like sample\_c, except LOD is 0, and derivatives are ignored.
 ms.assetid: 5F11F091-AF2F-4293-88C7-824F11FE01E4
 ms.technology: desktop

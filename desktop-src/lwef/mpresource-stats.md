@@ -1,5 +1,5 @@
 ---
-title: MPRESOURCE\_STATS structure
+title: MPRESOURCE_STATS structure
 description: Resource-related statistics.
 ms.assetid: D1DC4BC9-911D-448C-A421-11D2F51F0A61
 keywords:

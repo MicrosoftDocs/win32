@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_CROSS\_FADE
+title: WMT_VIDEOIMAGE_TRANSITION_CROSS_FADE
 description: The cross-fade transition has no special effect; the characteristics of the fade (dissolve) are determined by the fPrevBlendCoef and fCurrBlendCoef members of the WMT\_VIDEOIMAGE\_SAMPLE2 structure.
 ms.assetid: 254c4552-ce49-4f44-86e3-ee7d30c83000
 keywords:

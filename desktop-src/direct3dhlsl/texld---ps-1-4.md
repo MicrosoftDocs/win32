@@ -1,5 +1,5 @@
 ---
-title: texld - ps\_1\_4
+title: texld - ps_1_4
 description: Loads the destination register with color data (RGBA) sampled using the contents of the source register as texture coordinates. The sampled texture is the texture associated with the destination register number.
 ms.assetid: 1970aed4-4da7-40a1-960d-fba4dfd8c433
 ms.technology: desktop

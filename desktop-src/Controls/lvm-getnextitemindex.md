@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETNEXTITEMINDEX message
+title: LVM_GETNEXTITEMINDEX message
 description: Retrieves the index of an item in a specified list-view control that matches the specified properties and relationship to another item. Send this message explicitly or by using the ListView\_GetNextItemIndex macro.
 ms.assetid: 84cfeb24-83b5-4028-a4ca-97c39ae3c817
 keywords:

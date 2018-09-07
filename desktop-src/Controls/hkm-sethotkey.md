@@ -1,5 +1,5 @@
 ---
-title: HKM\_SETHOTKEY message
+title: HKM_SETHOTKEY message
 description: Sets the hot key combination for a hot key control.
 ms.assetid: 372a7b2f-d9d5-43a8-9c06-730f2f5dc56e
 keywords:

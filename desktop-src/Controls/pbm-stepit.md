@@ -1,5 +1,5 @@
 ---
-title: PBM\_STEPIT message
+title: PBM_STEPIT message
 description: Advances the current position for a progress bar by the step increment and redraws the bar to reflect the new position. An application sets the step increment by sending the PBM\_SETSTEP message.
 ms.assetid: fd9947f6-7a48-4207-b691-b7db78eb8a85
 keywords:

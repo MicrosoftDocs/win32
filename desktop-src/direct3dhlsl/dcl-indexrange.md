@@ -1,5 +1,5 @@
 ---
-title: dcl\_indexRange (sm4 - asm)
+title: dcl_indexRange (sm4 - asm)
 description: dcl\_indexRange (sm4 - asm)
 ms.assetid: 88af30f3-dbf9-4556-b170-a7371680f9b9
 ms.technology: desktop

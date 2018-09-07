@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: 1c1de976-fa2b-4401-baa3-e5e0ed23f6ff
-title: Reset method of the Msvm\_DiskDrive class
+title: Reset method of the Msvm_DiskDrive class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

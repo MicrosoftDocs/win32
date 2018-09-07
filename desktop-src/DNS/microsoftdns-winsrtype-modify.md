@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_WINSRType class
+title: Modify method of the MicrosoftDNS_WINSRType class
 description: The Modify method updates a WINS Reverse Look up (WINSR) Resource Record.
 ms.assetid: 28be0045-5b0d-4434-a2a9-b56191f1e213
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Accounts02 class
+title: MDM_Policy_Result01_Accounts02 class
 description: The MDM\_Policy\_Result01\_Accounts02 class represents policies related to accounts.
 ms.assetid: 581d63de-6ea8-4c4a-8b94-06228ed07371
 keywords:

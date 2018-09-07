@@ -1,5 +1,5 @@
 ---
-title: SetUserAuthenticationRequired method of the Win32\_TSGeneralSetting class
+title: SetUserAuthenticationRequired method of the Win32_TSGeneralSetting class
 description: Enables or disables the requirement that users must be authenticated at connection time by setting the value of the UserAuthenticationRequired property.
 audience: developer
 author: REDMOND\\markl

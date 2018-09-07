@@ -1,5 +1,5 @@
 ---
-title: ChangeMode method of the Win32\_TerminalServiceSetting class
+title: ChangeMode method of the Win32_TerminalServiceSetting class
 description: The ChangeMode method sets the licensing type of the current Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl

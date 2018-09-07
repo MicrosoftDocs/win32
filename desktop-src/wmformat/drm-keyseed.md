@@ -1,5 +1,5 @@
 ---
-title: DRM\_KeySeed
+title: DRM_KeySeed
 description: The DRM\_KeySeed property contains the key seed that will be used in conjunction with the KeyID to create the key.
 ms.assetid: 38613d50-89c2-4422-9265-5e89de030ae9
 keywords:

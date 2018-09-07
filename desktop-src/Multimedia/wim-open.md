@@ -1,5 +1,5 @@
 ---
-title: WIM\_OPEN message
+title: WIM_OPEN message
 description: The WIM\_OPEN message is sent to a waveform-audio input callback function when a waveform-audio input device is opened.
 ms.assetid: 4c646f58-c324-467e-871b-8fc36d5b89bc
 keywords:

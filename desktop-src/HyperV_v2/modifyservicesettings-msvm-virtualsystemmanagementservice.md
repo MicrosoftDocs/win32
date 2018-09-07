@@ -1,7 +1,7 @@
 ---
 Description: Modifies the setting data for the service.
 ms.assetid: 1CA49922-894D-4AA1-B741-6A0DC9F5654E
-title: ModifyServiceSettings method of the Msvm\_VirtualSystemManagementService class
+title: ModifyServiceSettings method of the Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

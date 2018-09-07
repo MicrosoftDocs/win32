@@ -1,5 +1,5 @@
 ---
-title: TF\_IAS\_\ Constants
+title: TF_IAS_ Constants
 description: The TF\_IAS\_\ constants are used as bitfield flags in methods that insert text or embedded objects at a selection or insertion point.
 ms.assetid: adc5c539-fdb1-4829-ad17-2f54ec179c47
 topic_type:

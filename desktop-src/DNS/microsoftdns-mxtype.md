@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_MXType class
+title: MicrosoftDNS_MXType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mail Exchanger (MR) RR.
 ms.assetid: 7c147628-5bda-48dd-beb4-e630d1886da8
 keywords:

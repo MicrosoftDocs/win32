@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_FontProperties\_BackgroundColor
+title: UI_PKEY_FontProperties_BackgroundColor
 description: Identifies the UI\_PKEY\_FontProperties\_BackgroundColor property.
 ms.assetid: e4c9b614-db31-488d-8f05-0e6f41be39f6
 ms.technology: desktop

@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC structure
+title: CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC structure
 description: A helper structure to enable easy initialization of a D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC structure.
 ms.assetid: 4505C1CE-CAA5-4092-B990-75740A2B194C
 keywords:

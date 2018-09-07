@@ -1,6 +1,6 @@
 ---
 Description: Sends notification that the menus have completely refreshed and you can reset your state.
-title: SMC\_REFRESH message
+title: SMC_REFRESH message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

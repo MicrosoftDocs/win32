@@ -1,5 +1,5 @@
 ---
-title: ORPC\_DBG\_ALL structure
+title: ORPC_DBG_ALL structure
 description: The ORPC\_DBG\_ALL structure is used to pass parameters to the methods of the IOrpcDebugNotify interface.
 ms.assetid: 05371beb-9202-40a6-96d2-4b91497e2ee9
 keywords:

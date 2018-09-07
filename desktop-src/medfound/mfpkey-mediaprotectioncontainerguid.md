@@ -1,7 +1,7 @@
 ---
 Description: Specifies the GUID that identifies the Digital Rights Management (DRM) protection system in the container.
 ms.assetid: DACB355B-17B9-4968-8920-5233603FD796
-title: MFPKEY\_MediaProtectionContainerGuid property
+title: MFPKEY_MediaProtectionContainerGuid property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETVOLUME message
+title: MCIWNDM_GETVOLUME message
 description: The MCIWNDM\_GETVOLUME message retrieves the current volume setting of an MCI device. You can send this message explicitly or by using the MCIWndGetVolume macro.
 ms.assetid: 3f1de023-4da8-4899-accc-409701d6e921
 keywords:

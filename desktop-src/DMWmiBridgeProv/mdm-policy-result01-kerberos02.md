@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Kerberos02 class
+title: MDM_Policy_Result01_Kerberos02 class
 description: The MDM\_Policy\_Result01\_Kerberos02 class represents the Kerberos policies.
 ms.assetid: a628272d-723f-491a-a6a1-70514e5096ef
 keywords:

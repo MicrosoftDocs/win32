@@ -1,5 +1,5 @@
 ---
-title: EM\_RECONVERSION message
+title: EM_RECONVERSION message
 description: Invokes the Input Method Editor (IME) reconversion dialog box.
 ms.assetid: 1234905f-cbf2-42a3-b14a-5ade25ad9d75
 keywords:

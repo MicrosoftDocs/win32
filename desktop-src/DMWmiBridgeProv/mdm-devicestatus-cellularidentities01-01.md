@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_CellularIdentities01\_01 class
+title: MDM_DeviceStatus_CellularIdentities01_01 class
 description: The MDM\_DeviceStatus\_CellularIdentities01\_01 class allows you to query whether device are in compliance with enterprise encryption policy.
 ms.assetid: e117ff72-48c0-4b25-8b09-c096851c18ac
 keywords:

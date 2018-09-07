@@ -1,7 +1,7 @@
 ---
 Description: Event that is signaled when the pin is not blocked.
 ms.assetid: c05670e1-e9fe-4cb1-917f-6f75d25cde1b
-title: CDynamicOutputPin::m\_hUnblockOutputPinEvent member
+title: CDynamicOutputPin::m_hUnblockOutputPinEvent member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

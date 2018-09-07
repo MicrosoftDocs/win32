@@ -1,5 +1,5 @@
 ---
-title: D3D11\_RECT
+title: D3D11_RECT
 description: D3D11\_RECT is declared as follows
 ms.assetid: 737B47A3-E609-48E4-A0B6-017206E500B1
 keywords:

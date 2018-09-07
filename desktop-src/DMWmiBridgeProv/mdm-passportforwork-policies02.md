@@ -1,5 +1,5 @@
 ---
-title: MDM\_PassportForWork\_Policies02 class
+title: MDM_PassportForWork_Policies02 class
 description: The MDM\_PassportForWork\_Policies02 class provisions Windows Hello for Business.
 ms.assetid: 362fe819-a68a-4433-8b43-201d9678a8da
 keywords:

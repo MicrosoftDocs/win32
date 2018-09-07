@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SPERMILLE
 ms.assetid: 319c512c-9a88-44d4-9207-ba7183a041eb
-title: LOCALE\_SPERMILLE
+title: LOCALE_SPERMILLE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

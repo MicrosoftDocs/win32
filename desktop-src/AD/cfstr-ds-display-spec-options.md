@@ -1,5 +1,5 @@
 ---
-title: CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS
+title: CFSTR_DS_DISPLAY_SPEC_OPTIONS
 description: The CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS clipboard format provides an HGLOBAL that contains a DSDISPLAYSPECOPTIONS structure.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: Change method of the Win32\_Service class
+title: Change method of the Win32_Service class
 description: Modifies a Win32\_TerminalService.
 audience: developer
 author: REDMOND\\markl

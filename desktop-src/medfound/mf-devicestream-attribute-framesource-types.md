@@ -1,7 +1,7 @@
 ---
 Description: Represents the frame source type.
 ms.assetid: 4A2B427E-E654-48BA-8BF4-16F1B1F8D266
-title: MF\_DEVICESTREAM\_ATTRIBUTE\_FRAMESOURCE\_TYPES attribute
+title: MF_DEVICESTREAM_ATTRIBUTE_FRAMESOURCE_TYPES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

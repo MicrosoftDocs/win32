@@ -1,7 +1,7 @@
 ---
 Description: Describes a locked rectangular region.
 ms.assetid: ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6
-title: D3DLOCKED\_RECT structure
+title: D3DLOCKED_RECT structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,6 +1,6 @@
 ---
 Description: Registers or unregisters an autohide appbar for a given edge of the screen. If the system has multiple monitors, the monitor that contains the primary taskbar is used.
-title: ABM\_SETAUTOHIDEBAR message
+title: ABM_SETAUTOHIDEBAR message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

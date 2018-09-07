@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETTOOLTIPS message
+title: LVM_SETTOOLTIPS message
 description: Sets the tooltip control that the list-view control will use to display tooltips. You can send this message explicitly or use the ListView\_SetToolTips macro.
 ms.assetid: 5b4335a4-e9f0-4b13-b00b-516af3b60bf1
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: pointer\_default attribute
+title: pointer_default attribute
 description: The \ pointer\_default\ attribute specifies the default pointer attribute for all pointers except top-level pointers that appear in parameter lists.
 ms.assetid: a6e83034-8adb-483d-8d1e-432a1aed22c6
 keywords:

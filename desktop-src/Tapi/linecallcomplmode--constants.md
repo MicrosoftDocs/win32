@@ -1,7 +1,7 @@
 ---
 Description: The LINECALLCOMPLMODE\_ bit-flag constants describe different ways in which a call can be completed.
 ms.assetid: 68f755a1-586b-4c5b-b8e8-c8b40eb71685
-title: LINECALLCOMPLMODE\_ Constants
+title: LINECALLCOMPLMODE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

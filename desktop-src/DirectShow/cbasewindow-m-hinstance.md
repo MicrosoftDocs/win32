@@ -1,7 +1,7 @@
 ---
 Description: Handle to the module instance.
 ms.assetid: ad889ebe-2bd8-4456-9517-9e2909697a02
-title: CBaseWindow::m\_hInstance member
+title: CBaseWindow::m_hInstance member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

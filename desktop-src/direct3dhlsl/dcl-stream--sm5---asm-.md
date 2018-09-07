@@ -1,5 +1,5 @@
 ---
-title: dcl\_stream (sm5 - asm)
+title: dcl_stream (sm5 - asm)
 description: Declare a geometry shader output stream.
 ms.assetid: 0A8B8AB5-B7B0-46BB-91E8-B2E8E3D64B74
 ms.technology: desktop

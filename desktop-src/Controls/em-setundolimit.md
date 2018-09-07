@@ -1,5 +1,5 @@
 ---
-title: EM\_SETUNDOLIMIT message
+title: EM_SETUNDOLIMIT message
 description: Sets the maximum number of actions that can stored in the undo queue of a rich edit control.
 ms.assetid: 485dbcda-89f4-40de-ad55-cd524958e910
 keywords:

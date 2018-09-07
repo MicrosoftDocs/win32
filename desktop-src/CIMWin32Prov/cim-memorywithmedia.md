@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_MemoryWithMedia class
+title: CIM_MemoryWithMedia class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

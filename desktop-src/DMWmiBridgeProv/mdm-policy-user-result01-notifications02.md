@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Result01\_Notifications02 class
+title: MDM_Policy_User_Result01_Notifications02 class
 description: The MDM\_Policy\_User\_Result01\_Notifications02 class represents the notification policies available.
 ms.assetid: a2da74f3-2585-4c8c-abab-751ba4c708a1
 keywords:

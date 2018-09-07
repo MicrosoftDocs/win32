@@ -1,5 +1,5 @@
 ---
-title: Win32\_TerminalError class
+title: Win32_TerminalError class
 description: Represents a terminal error.
 audience: developer
 author: REDMOND\\markl

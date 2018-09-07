@@ -1,5 +1,5 @@
 ---
-title: RB\_GETEXTENDEDSTYLE message
+title: RB_GETEXTENDEDSTYLE message
 description: This message is not implemented.
 ms.assetid: 3c08b930-caee-4b8e-be6e-678386733bb1
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Associates the Msvm\_VirtualSystemReferencePoint to the corresponding Msvm\_VirtualSystem objects.
 ms.assetid: 5a9cb099-c0ae-4088-a64c-f2720a6cb9c8
-title: Msvm\_ReferencePointOfVirtualSystem class
+title: Msvm_ReferencePointOfVirtualSystem class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

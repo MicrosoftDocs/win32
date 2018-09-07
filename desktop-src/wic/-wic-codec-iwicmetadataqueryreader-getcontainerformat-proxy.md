@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetContainerFormat method.
 ms.assetid: 3a909151-53c2-4f82-9ead-f689b73f5faf
-title: IWICMetadataQueryReader\_GetContainerFormat\_Proxy function
+title: IWICMetadataQueryReader_GetContainerFormat_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

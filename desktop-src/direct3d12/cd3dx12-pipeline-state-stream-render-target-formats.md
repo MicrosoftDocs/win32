@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_RENDER\_TARGET\_FORMATS structure
+title: CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS structure
 description: A helper structure used to describe the render target formats as a single object suitable for a stream description.
 ms.assetid: 8C5C2279-7985-41B6-87EA-ABB0007DAFD4
 keywords:

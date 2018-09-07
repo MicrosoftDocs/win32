@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the raw application protocol data unit (APDU).
 ms.assetid: d8b326db-de54-4ef8-becb-fd905414c45c
-title: ISCardCmd::get\_Apdu method
+title: ISCardCmd::get_Apdu method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

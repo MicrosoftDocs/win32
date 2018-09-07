@@ -7,7 +7,7 @@ ms.assetid: 39a8a6e7-b499-410a-8c27-d4a05d1a61b9
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.ExecMethod\_ method
+title: SWbemObject.ExecMethod_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

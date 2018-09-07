@@ -1,5 +1,5 @@
 ---
-title: SetCertificate method of the Win32\_TSGatewayServerSettings class
+title: SetCertificate method of the Win32_TSGatewayServerSettings class
 description: Sets the certificate hash for HTTPS binding on port 443 in IIS.
 audience: developer
 author: REDMOND\\markl

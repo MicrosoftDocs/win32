@@ -1,5 +1,5 @@
 ---
-title: UpgradeEditionWithProductKeyMethod method of the MDM\_WindowsLicensing class
+title: UpgradeEditionWithProductKeyMethod method of the MDM_WindowsLicensing class
 description: Enters a product key for an edition upgrade of Windows 10 desktop devices. See also, UpgradeEditionWithProductKey.
 ms.assetid: 6576fb5c-210c-4979-8c01-ed8f78e72c2c
 keywords:

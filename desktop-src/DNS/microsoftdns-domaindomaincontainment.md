@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_DomainDomainContainment class
+title: MicrosoftDNS_DomainDomainContainment class
 description: The MicrosoftDNS\_DomainDomainContainment class is used for domain containment; DNS domains may contain other DNS domains.
 ms.assetid: 43faa046-30bf-4fb3-9698-98d09c424fad
 keywords:

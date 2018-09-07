@@ -1,5 +1,5 @@
 ---
-title: Create method of the Win32\_Terminal class
+title: Create method of the Win32_Terminal class
 description: Creates a terminal with default settings which can be customized by using the properties and methods of the Win32\_TerminalSetting classes.
 audience: developer
 author: REDMOND\\markl

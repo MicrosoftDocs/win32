@@ -1,5 +1,5 @@
 ---
-title: EM\_SETMODIFY message
+title: EM_SETMODIFY message
 description: Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 9393f03e-0719-458b-8122-616df738c417
 keywords:

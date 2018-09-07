@@ -1,7 +1,7 @@
 ---
 Description: The \_NewEnum property of Signers retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: 99d7ddd3-a552-4125-b220-d1b28f20d1ed
-title: Signers.\_NewEnum property
+title: Signers._NewEnum property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

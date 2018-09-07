@@ -1,7 +1,7 @@
 ---
 Description: Specifies a work queue for a topology branch.
 ms.assetid: 5bc7e2db-cfd2-4b94-b4d6-fe2b9ea9daf8
-title: MF\_TOPONODE\_WORKQUEUE\_ID attribute
+title: MF_TOPONODE_WORKQUEUE_ID attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

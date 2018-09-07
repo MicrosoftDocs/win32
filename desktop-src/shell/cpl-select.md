@@ -1,6 +1,6 @@
 ---
 Description: CPL\_SELECT message
-title: CPL\_SELECT message
+title: CPL_SELECT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

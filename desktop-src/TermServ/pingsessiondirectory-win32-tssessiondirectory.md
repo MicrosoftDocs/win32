@@ -1,5 +1,5 @@
 ---
-title: PingSessionDirectory method of the Win32\_TSSessionDirectory class
+title: PingSessionDirectory method of the Win32_TSSessionDirectory class
 description: Checks whether the Remote Desktop Connection Broker (RD Connection Broker) server is available.
 audience: developer
 author: REDMOND\\markl

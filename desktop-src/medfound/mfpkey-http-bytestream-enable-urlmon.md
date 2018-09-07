@@ -1,7 +1,7 @@
 ---
 Description: Enables the Microsoft Media Foundation HTTP byte stream to use URL monikers (also called Urlmon).
 ms.assetid: 8B7D2FF7-D8A8-49E9-8CED-D37853B97A8F
-title: MFPKEY\_HTTP\_ByteStream\_Enable\_Urlmon property
+title: MFPKEY_HTTP_ByteStream_Enable_Urlmon property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

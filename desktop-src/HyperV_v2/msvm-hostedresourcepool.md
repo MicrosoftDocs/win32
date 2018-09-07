@@ -1,7 +1,7 @@
 ---
 Description: Represents a specialization of the system component association that establishes that the resource pool is defined in the context of the system.
 ms.assetid: 72b68687-2b5f-4fef-bdca-a5c0bbfa3564
-title: Msvm\_HostedResourcePool class
+title: Msvm_HostedResourcePool class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

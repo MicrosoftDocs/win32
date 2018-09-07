@@ -1,5 +1,5 @@
 ---
-title: Registers - vs\_2\_x
+title: Registers - vs_2_x
 description: This section contains reference information for the input and output registers implemented by vertex shader version 2\_x.
 ms.assetid: 35dfa3c8-be8e-4b2b-84c4-766850cf146c
 ms.technology: desktop

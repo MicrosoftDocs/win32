@@ -1,5 +1,5 @@
 ---
-title: DL\_DRAGGING notification code
+title: DL_DRAGGING notification code
 description: Signals that the user has moved the mouse while dragging an item.
 ms.assetid: 87fc4c24-8e88-4e3c-8f54-ecc7f80de5d7
 keywords:

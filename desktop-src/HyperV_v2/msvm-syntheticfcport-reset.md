@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: 971669cf-1ef3-493d-9f64-4b2b48bbc6cb
-title: Reset method of the Msvm\_SyntheticFcPort class
+title: Reset method of the Msvm_SyntheticFcPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

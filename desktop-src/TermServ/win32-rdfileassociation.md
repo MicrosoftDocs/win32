@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDFileAssociation class
+title: Win32_RDFileAssociation class
 description: Represents a file type association for a RemoteApp.
 audience: developer
 author: REDMOND\\markl

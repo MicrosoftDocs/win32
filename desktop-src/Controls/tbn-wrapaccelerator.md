@@ -1,5 +1,5 @@
 ---
-title: TBN\_WRAPACCELERATOR notification code
+title: TBN_WRAPACCELERATOR notification code
 description: Requests the index of the button in one or more toolbars corresponding to the specified accelerator character. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: fc2443fd-e1b3-4085-b65d-96c08f544944
 keywords:

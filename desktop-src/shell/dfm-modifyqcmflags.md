@@ -1,6 +1,6 @@
 ---
 Description: Allows the callback to modify the CFM\_XXX values passed to IContextMenu::QueryContextMenu.
-title: DFM\_MODIFYQCMFLAGS message
+title: DFM_MODIFYQCMFLAGS message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

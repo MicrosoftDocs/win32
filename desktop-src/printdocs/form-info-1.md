@@ -1,7 +1,7 @@
 ---
 Description: 'The FORM\_INFO\_1 structure contains information about a print form. The information includes the print form's origin, its name, its dimensions, and the dimensions of its printable area.'
 ms.assetid: '1c42ea6c-82cf-463c-bc67-44a8d8c4a1e7'
-title: 'FORM\_INFO\_1 structure'
+title: 'FORM_INFO_1 structure'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

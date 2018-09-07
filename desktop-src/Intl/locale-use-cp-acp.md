@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_USE\_CP\_ACP
 ms.assetid: 686ca9f2-515d-449f-8871-77c78ab5c31a
-title: LOCALE\_USE\_CP\_ACP
+title: LOCALE_USE_CP_ACP
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

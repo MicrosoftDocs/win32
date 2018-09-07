@@ -7,7 +7,7 @@ ms.assetid: ee6b17b7-4f01-4731-8d6b-a3421621a75a
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_LastAppliedSettingData class
+title: CIM_LastAppliedSettingData class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

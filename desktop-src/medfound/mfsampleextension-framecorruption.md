@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a video frame is corrupted.
 ms.assetid: 0218F6F6-6832-445C-B733-6A99E4EA2A3B
-title: MFSampleExtension\_FrameCorruption attribute
+title: MFSampleExtension_FrameCorruption attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

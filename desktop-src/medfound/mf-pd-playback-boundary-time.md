@@ -1,7 +1,7 @@
 ---
 Description: Stores the time (in 100-nanoseconds units) at which the presentation must begin, relative to the start of the media source.
 ms.assetid: 7a3dddad-067b-46af-9ed9-4ccc65f9d772
-title: MF\_PD\_PLAYBACK\_BOUNDARY\_TIME attribute
+title: MF_PD_PLAYBACK_BOUNDARY_TIME attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

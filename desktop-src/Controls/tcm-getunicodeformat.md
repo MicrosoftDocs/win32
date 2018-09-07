@@ -1,5 +1,5 @@
 ---
-title: TCM\_GETUNICODEFORMAT message
+title: TCM_GETUNICODEFORMAT message
 description: Retrieves the Unicode character format flag for the control. You can send this message explicitly or use the TabCtrl\_GetUnicodeFormat macro.
 ms.assetid: 720e0325-500b-436c-8713-38ed780735bf
 keywords:

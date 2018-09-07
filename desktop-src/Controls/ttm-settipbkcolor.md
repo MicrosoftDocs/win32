@@ -1,5 +1,5 @@
 ---
-title: TTM\_SETTIPBKCOLOR message
+title: TTM_SETTIPBKCOLOR message
 description: Sets the background color in a tooltip window.
 ms.assetid: ed7860db-a221-4855-85d6-1b3b356279ed
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: PublishLS method of the Win32\_TSLicenseServer class
+title: PublishLS method of the Win32_TSLicenseServer class
 description: Publishes the Remote Desktop license server in Active Directory Domain Services.
 audience: developer
 author: REDMOND\\markl

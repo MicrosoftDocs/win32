@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_SET\_OVERLAY message
+title: WM_CAP_SET_OVERLAY message
 description: The WM\_CAP\_SET\_OVERLAY message enables or disables overlay mode. In overlay mode, video is displayed using hardware overlay. You can send this message explicitly or by using the capOverlay macro.
 ms.assetid: b74c0619-2b70-46e0-9acd-43d658529233
 keywords:

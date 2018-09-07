@@ -1,5 +1,5 @@
 ---
-title: CCM\_SETWINDOWTHEME message
+title: CCM_SETWINDOWTHEME message
 description: Sets the visual style of a control.
 ms.assetid: 0200fa11-847f-477c-92e0-790b4d1ca0ef
 keywords:

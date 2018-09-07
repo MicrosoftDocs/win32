@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSPublishedApplication class
+title: Win32_TSPublishedApplication class
 description: Defines the applications that are made available for remote use through Windows Server 2008 R2 RemoteApp.
 audience: developer
 author: REDMOND\\markl

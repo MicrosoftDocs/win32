@@ -1,5 +1,5 @@
 ---
-title: ddy\_coarse function
+title: ddy_coarse function
 description: Computes a low precision partial derivative with respect to the screen-space y-coordinate.
 ms.assetid: f6103cd3-f7ee-41c2-b3cf-9e72ca84b25e
 keywords:

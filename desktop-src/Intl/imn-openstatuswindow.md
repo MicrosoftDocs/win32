@@ -1,7 +1,7 @@
 ---
 Description: Notifies an application when an IME is about to create the status window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: bbd85c72-aa78-4e1d-8a7a-490650b2d782
-title: IMN\_OPENSTATUSWINDOW notification code
+title: IMN_OPENSTATUSWINDOW notification code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: 'The PHONELAMPMODE\_ bit-flag constants describe various ways in which a phone's lamp can be lit.'
 ms.assetid: '4f6ed2fa-32c9-44b4-bfb5-2c1446ea84fe'
-title: 'PHONELAMPMODE\_ Constants'
+title: 'PHONELAMPMODE_ Constants'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

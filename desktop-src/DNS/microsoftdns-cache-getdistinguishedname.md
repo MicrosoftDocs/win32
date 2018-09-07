@@ -1,5 +1,5 @@
 ---
-title: GetDistinguishedName method of the MicrosoftDNS\_Cache class
+title: GetDistinguishedName method of the MicrosoftDNS_Cache class
 description: The GetDistinguishedName method retrieves the distinguished name for the zone.
 ms.assetid: 976858ec-f376-47e6-90b0-d946a1256c82
 keywords:

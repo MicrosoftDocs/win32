@@ -1,7 +1,7 @@
 ---
 Description: Sent to an application by the IME to notify the application of a key release and to keep message order. A window receives this message through its WindowProc function.
 ms.assetid: 652f951f-4e9f-407c-844c-b250b6a9e6f5
-title: WM\_IME\_KEYUP message
+title: WM_IME_KEYUP message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

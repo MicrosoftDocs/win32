@@ -1,5 +1,5 @@
 ---
-title: ICM\_DRAW\_SETTIME message
+title: ICM_DRAW_SETTIME message
 description: The ICM\_DRAW\_SETTIME provides synchronization information to a rendering driver that handles the timing of drawing frames.
 ms.assetid: 211e8ecc-ef36-4598-aa1d-cb0a06e64f14
 keywords:

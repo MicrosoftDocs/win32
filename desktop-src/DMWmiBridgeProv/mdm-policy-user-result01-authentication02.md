@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Result01\_Authentication02 class
+title: MDM_Policy_User_Result01_Authentication02 class
 description: The MDM\_Policy\_User\_Result01\_Authentication02 class represents the authentication management policies available.
 ms.assetid: 57da7a17-9955-445d-998e-369b101cda3c
 keywords:

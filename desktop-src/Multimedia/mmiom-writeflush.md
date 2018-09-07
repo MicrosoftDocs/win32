@@ -1,5 +1,5 @@
 ---
-title: MMIOM\_WRITEFLUSH message
+title: MMIOM_WRITEFLUSH message
 description: The MMIOM\_WRITEFLUSH message is sent to an I/O procedure by the mmioWrite function to request that data be written to an open file and that any internal buffers used by the I/O procedure be flushed to disk.
 ms.assetid: e04acaef-9584-410c-a020-af09fb888490
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Contains battery information to be set.
 ms.assetid: 535e56cb-2bab-458a-84a8-2d9a4d96412b
-title: BATTERY\_SET\_INFORMATION structure
+title: BATTERY_SET_INFORMATION structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

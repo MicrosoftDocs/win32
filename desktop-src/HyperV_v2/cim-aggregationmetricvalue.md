@@ -1,7 +1,7 @@
 ---
 Description: Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.
 ms.assetid: 663ef18a-0238-416f-9682-8809b271b4fc
-title: CIM\_AggregationMetricValue class
+title: CIM_AggregationMetricValue class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

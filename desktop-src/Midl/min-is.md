@@ -1,5 +1,5 @@
 ---
-title: min\_is attribute
+title: min_is attribute
 description: The DCE IDL attribute min\_is is not implemented in Microsoft RPC. The value of the minimum valid array index is zero.
 ms.assetid: 993852f9-de1d-4014-8b9a-8ec74f526e00
 keywords:

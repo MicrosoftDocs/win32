@@ -1,7 +1,7 @@
 ---
 Description: Sample property flags. Bitwise combination of flags from the AM\_SAMPLE\_PROPERTY\_FLAGS enumerated type.
 ms.assetid: ad609ecf-38e2-4181-99a6-eb0dc70d69b4
-title: CMediaSample::m\_dwFlags member
+title: CMediaSample::m_dwFlags member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

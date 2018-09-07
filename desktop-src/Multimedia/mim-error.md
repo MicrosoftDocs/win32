@@ -1,5 +1,5 @@
 ---
-title: MIM\_ERROR message
+title: MIM_ERROR message
 description: The MIM\_ERROR message is sent to a MIDI input callback function when an invalid MIDI message is received.
 ms.assetid: ea720da5-1f18-4d0d-ac9d-45cd1c3219d6
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_MDType class
+title: Modify method of the MicrosoftDNS_MDType class
 description: The Modify method updates a Mail Agent for Domain (MD) Resource Record.
 ms.assetid: d14c8ada-d715-489f-9956-a940b94006e5
 keywords:

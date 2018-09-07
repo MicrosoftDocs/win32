@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_ILDATE
 ms.assetid: 3ad4400f-da26-4ec2-bace-f4852c41f0f2
-title: LOCALE\_ILDATE
+title: LOCALE_ILDATE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: ExplicitLogon method of the Win32\_TSLogonSetting class
+title: ExplicitLogon method of the Win32_TSLogonSetting class
 description: The ExplicitLogon method sets the credentials to use for authentication.
 audience: developer
 author: REDMOND\\markl

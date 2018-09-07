@@ -1,5 +1,5 @@
 ---
-title: EM\_FMTLINES message
+title: EM_FMTLINES message
 description: Sets a flag that determines whether a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of wordwrapping.
 ms.assetid: bfc08062-b0a7-4ba7-8858-00cb20895c77
 keywords:

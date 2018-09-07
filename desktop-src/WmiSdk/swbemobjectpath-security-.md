@@ -7,7 +7,7 @@ ms.assetid: 26e5e990-3b78-41b6-83c4-ba0d8b0d2f00
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObjectPath.Security\_ property
+title: SWbemObjectPath.Security_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

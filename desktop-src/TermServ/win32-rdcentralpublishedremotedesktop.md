@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDCentralPublishedRemoteDesktop class
+title: Win32_RDCentralPublishedRemoteDesktop class
 description: Desktop published on another computer, for remote use through Terminal Services.
 audience: developer
 author: REDMOND\\markl

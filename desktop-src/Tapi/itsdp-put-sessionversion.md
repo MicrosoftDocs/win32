@@ -1,7 +1,7 @@
 ---
 Description: The put\_SessionVersion method sets the session version.
 ms.assetid: 8984d608-0fad-4979-9c58-ac2fb7926796
-title: ITSdp::put\_SessionVersion method
+title: ITSdp::put_SessionVersion method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

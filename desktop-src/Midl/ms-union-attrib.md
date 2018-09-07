@@ -1,5 +1,5 @@
 ---
-title: ms\_union attribute
+title: ms_union attribute
 description: The keyword \ ms\_union\ is used to control the NDR alignment of nonencapsulated unions.
 ms.assetid: 20ac2985-4552-4224-b03b-07378a2c0cdf
 keywords:

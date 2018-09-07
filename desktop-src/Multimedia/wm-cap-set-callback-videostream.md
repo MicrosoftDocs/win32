@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_SET\_CALLBACK\_VIDEOSTREAM message
+title: WM_CAP_SET_CALLBACK_VIDEOSTREAM message
 description: The WM\_CAP\_SET\_CALLBACK\_VIDEOSTREAM message sets a callback function in the application.
 ms.assetid: 590089b8-7a8d-476b-9b81-f96bf73b0369
 keywords:

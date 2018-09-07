@@ -1,5 +1,5 @@
 ---
-title: EM\_SETHYPHENATEINFO message
+title: EM_SETHYPHENATEINFO message
 description: Sets the way a rich edit control does hyphenation.
 ms.assetid: 67126cb8-ab50-49a9-b32f-2245debf2fe3
 keywords:

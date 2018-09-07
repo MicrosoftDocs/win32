@@ -1,5 +1,5 @@
 ---
-title: store\_structured (sm5 - asm)
+title: store_structured (sm5 - asm)
 description: Random-access write of 1-4 32-bit components into a structured buffer unordered access view (UAV).
 ms.assetid: 8080B2CA-5BDA-4F01-8B2B-B85BDD58C5AF
 ms.technology: desktop

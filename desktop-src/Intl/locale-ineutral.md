@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_INEUTRAL
 ms.assetid: d6b42ba8-77e5-427c-9d01-9f2351516fd2
-title: LOCALE\_INEUTRAL
+title: LOCALE_INEUTRAL
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

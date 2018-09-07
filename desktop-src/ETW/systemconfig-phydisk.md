@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for physical disk configuration events.
 ms.assetid: 850a6b2c-69e6-47ae-95ff-585fcc70c1c8
-title: SystemConfig\_PhyDisk class
+title: SystemConfig_PhyDisk class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

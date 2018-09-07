@@ -1,5 +1,5 @@
 ---
-title: wchar\_t attribute
+title: wchar_t attribute
 description: The wchar\_t keyword designates a wide-character type.
 ms.assetid: e21b2587-909a-4e2b-8c6d-6cc570bf509f
 keywords:

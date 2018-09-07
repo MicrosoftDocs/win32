@@ -1,7 +1,7 @@
 ---
 Description: Provides additional information to be used with the CreateReferencePoint method of the Msvm\_VirtualSystemReferencePointService class.
 ms.assetid: 6b997ba5-871c-4c33-9ed5-b9a13cbfaacd
-title: Msvm\_VirtualSystemReferencePointSettingData class
+title: Msvm_VirtualSystemReferencePointSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

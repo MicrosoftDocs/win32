@@ -1,5 +1,5 @@
 ---
-title: The midl\_user\_free Function
+title: The midl_user_free Function
 description: The midl\_user\_free function must be supplied by RPC developers.
 ms.assetid: 5e940e93-bdd4-48cc-b84e-654637699719
 ms.technology: desktop

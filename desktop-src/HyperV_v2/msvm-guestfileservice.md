@@ -1,7 +1,7 @@
 ---
 Description: Msvm\_GuestFileService contains a method that can be used to copy a file to a virtual machine from the Hyper-V host.
 ms.assetid: 76667557-13B2-4286-BC6B-E32FADE62A7A
-title: Msvm\_GuestFileService class
+title: Msvm_GuestFileService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

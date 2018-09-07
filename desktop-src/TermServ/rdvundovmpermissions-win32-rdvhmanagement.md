@@ -1,5 +1,5 @@
 ---
-title: RdvUndoVMPermissions method of the Win32\_RdvhManagement class
+title: RdvUndoVMPermissions method of the Win32_RdvhManagement class
 description: Reverts permissions set by RdvSetupVMPermissions on the specified virtual machine.
 audience: developer
 author: REDMOND\\markl

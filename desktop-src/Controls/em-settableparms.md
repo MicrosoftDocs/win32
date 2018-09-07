@@ -1,5 +1,5 @@
 ---
-title: EM\_SETTABLEPARMS message
+title: EM_SETTABLEPARMS message
 description: Changes the parameters of rows in a table.
 ms.assetid: 6CE9B8D1-68C9-4692-8454-24BC81E9038F
 keywords:

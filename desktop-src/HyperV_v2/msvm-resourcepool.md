@@ -1,7 +1,7 @@
 ---
 Description: Describes a type of virtual resource available for use in virtual machines.
 ms.assetid: A93D990E-D921-4113-8D88-218D0F84EFA0
-title: Msvm\_ResourcePool class
+title: Msvm_ResourcePool class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Contains a pointer to the IMFNetCredentialManager interface.
 ms.assetid: c0826956-9df1-40ec-8ad1-9e0dca34d847
-title: MFNETSOURCE\_CREDENTIAL\_MANAGER property
+title: MFNETSOURCE_CREDENTIAL_MANAGER property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

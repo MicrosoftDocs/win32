@@ -1,7 +1,7 @@
 ---
 Description: Set of bit flags that qualify the meaning of a security descriptor or its components.
 ms.assetid: 9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2
-title: SECURITY\_DESCRIPTOR\_CONTROL
+title: SECURITY_DESCRIPTOR_CONTROL
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: DRM\_LASignaturePrivKey
+title: DRM_LASignaturePrivKey
 description: The DRM\_LASignaturePrivKey property contains the private key that is used to encrypt the DRM header.
 ms.assetid: b7083237-da11-4f31-a143-c0278a54b5a6
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Represents the configured state of the time synchronization service.
 ms.assetid: AACEDE11-3F5B-42AB-A16F-0474FA98D3FD
-title: Msvm\_TimeSyncComponentSettingData class
+title: Msvm_TimeSyncComponentSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

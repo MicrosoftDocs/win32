@@ -1,5 +1,5 @@
 ---
-title: partial\_ignore attribute
+title: partial_ignore attribute
 description: The ACF attribute \ partial\_ignore\ defines a specialized version of \ unique\ pointers that provides optional-out semantics.
 ms.assetid: 8a8f88b0-4a12-496d-bf77-ee57241b577b
 keywords:

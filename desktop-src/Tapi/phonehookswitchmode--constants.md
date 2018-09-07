@@ -1,7 +1,7 @@
 ---
 Description: The PHONEHOOKSWITCHMODE\_ bit-flag constants describe the microphone and speaker components of a hookswitch device.
 ms.assetid: 532bf089-d5ca-4a04-847d-69e48990ff5c
-title: PHONEHOOKSWITCHMODE\_ Constants
+title: PHONEHOOKSWITCHMODE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

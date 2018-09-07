@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETGROUPSTATE message
+title: LVM_GETGROUPSTATE message
 description: Gets the state for a specified group. Send this message explicitly or by using the ListView\_GetGroupState macro.
 ms.assetid: f087d17f-9066-44fb-b21b-ac7ceb56eb45
 keywords:

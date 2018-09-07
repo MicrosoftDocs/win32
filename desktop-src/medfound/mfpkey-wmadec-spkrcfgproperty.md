@@ -1,7 +1,7 @@
 ---
 Description: Specifies the speaker configuration on the client computer.
 ms.assetid: a0353e70-0741-4705-95e0-e76ebd8ba977
-title: MFPKEY\_WMADEC\_SPKRCFG Property
+title: MFPKEY_WMADEC_SPKRCFG Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

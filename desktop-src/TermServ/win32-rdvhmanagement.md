@@ -1,5 +1,5 @@
 ---
-title: Win32\_RdvhManagement class
+title: Win32_RdvhManagement class
 description: Describes a Remote Desktop Virtual Host (RDVH) management service.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSSessionSetting class
+title: Win32_TSSessionSetting class
 description: Defines configuration settings for the Win32\_Terminal class such as time-limits, and disconnection and reconnection actions.
 audience: developer
 author: REDMOND\\markl

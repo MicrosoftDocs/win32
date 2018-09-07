@@ -1,5 +1,5 @@
 ---
-title: RAS\_PORT\_STATISTICS structure
+title: RAS_PORT_STATISTICS structure
 description: The RAS\_PORT\_STATISTICS structure reports the statistics that a RAS server collects for a connected port.
 ms.assetid: c42c7059-ff92-4f49-a86e-2f47a083aa8e
 keywords:

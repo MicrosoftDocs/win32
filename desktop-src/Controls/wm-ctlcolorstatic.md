@@ -1,5 +1,5 @@
 ---
-title: WM\_CTLCOLORSTATIC message
+title: WM_CTLCOLORSTATIC message
 description: A static control, or an edit control that is read-only or disabled, sends the WM\_CTLCOLORSTATIC message to its parent window when the control is about to be drawn.
 ms.assetid: a171a1e8-6845-4a8e-8394-44cea99d2b0d
 keywords:

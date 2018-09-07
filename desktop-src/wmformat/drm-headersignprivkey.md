@@ -1,5 +1,5 @@
 ---
-title: DRM\_HeaderSignPrivKey
+title: DRM_HeaderSignPrivKey
 description: The DRM\_HeaderSignPrivKey property contains the private key used to sign the ASF header.
 ms.assetid: 0f32e63d-d416-4a1d-b10c-2534b747adf3
 keywords:

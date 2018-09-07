@@ -1,5 +1,5 @@
 ---
-title: D3DX\_INT2\_to\_R16G16\_SINT function
+title: D3DX_INT2_to_R16G16_SINT function
 description: Packs the given XMINT2 back into a DXGI\_FORMAT\_R16G16\_SINT.
 ms.assetid: dc37e8a3-31d4-4af6-9bc3-9aa5062c066a
 keywords:

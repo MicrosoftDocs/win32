@@ -1,7 +1,7 @@
 ---
 Description: The value of the &\#0034;c-playerid&\#0034; field that the network source uses for logging.
 ms.assetid: de52cc34-9b88-41ae-b8b8-ef5dff85892c
-title: MFNETSOURCE\_PLAYERID property
+title: MFNETSOURCE_PLAYERID property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

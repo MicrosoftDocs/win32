@@ -1,7 +1,7 @@
 ---
 Description: Specifies a subject to sign.
 ms.assetid: ba569443-e50f-450b-82cc-b7328f0ca25a
-title: SIGNER\_SUBJECT\_INFO structure
+title: SIGNER_SUBJECT_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

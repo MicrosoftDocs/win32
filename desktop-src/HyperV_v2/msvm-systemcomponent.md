@@ -1,7 +1,7 @@
 ---
 Description: Establishes a &\#0034;part of&\#0034; relationship between a system and any managed system element of which it is composed.
 ms.assetid: 6BF72E36-9B6C-4853-A553-DDAF65991C86
-title: Msvm\_SystemComponent class
+title: Msvm_SystemComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

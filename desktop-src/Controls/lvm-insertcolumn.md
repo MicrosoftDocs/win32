@@ -1,5 +1,5 @@
 ---
-title: LVM\_INSERTCOLUMN message
+title: LVM_INSERTCOLUMN message
 description: Inserts a new column in a list-view control. You can send this message explicitly or by using the ListView\_InsertColumn macro.
 ms.assetid: 1326e38e-bb45-4d0d-b5bc-ec684b3b92ef
 keywords:

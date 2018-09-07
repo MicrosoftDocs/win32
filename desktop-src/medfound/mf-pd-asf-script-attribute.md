@@ -1,7 +1,7 @@
 ---
 Description: Specifies a list of script commands and the parameters for an Advanced Systems Format (ASF) file. This attribute corresponds to the Script Command Object in the ASF header, defined in the ASF specification.
 ms.assetid: c85c9da4-f0b5-4055-a645-2a71cabbe4a3
-title: MF\_PD\_ASF\_SCRIPT attribute
+title: MF_PD_ASF_SCRIPT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

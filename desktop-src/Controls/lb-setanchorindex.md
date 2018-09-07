@@ -1,5 +1,5 @@
 ---
-title: LB\_SETANCHORINDEX message
+title: LB_SETANCHORINDEX message
 description: Sets the anchor item \ 8212;that is, the item from which a multiple selection starts. A multiple selection spans all items from the anchor item to the caret item.
 ms.assetid: 6acab22c-6e7a-4f31-a0fd-d9bd38d01ee4
 keywords:

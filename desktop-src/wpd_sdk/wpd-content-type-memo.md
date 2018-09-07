@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_MEMO
 ms.assetid: 6d89681c-1183-44d3-a39e-5fb343f1abbe
-title: WPD\_CONTENT\_TYPE\_MEMO
+title: WPD_CONTENT_TYPE_MEMO
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

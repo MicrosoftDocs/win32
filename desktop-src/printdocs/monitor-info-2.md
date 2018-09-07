@@ -1,7 +1,7 @@
 ---
 Description: The MONITOR\_INFO\_2 structure identifies a monitor.
 ms.assetid: 4dd1ca15-6983-403e-8159-1a6d35a88162
-title: MONITOR\_INFO\_2 structure
+title: MONITOR_INFO_2 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

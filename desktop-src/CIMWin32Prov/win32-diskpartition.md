@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Win32\_DiskPartition class
+title: Win32_DiskPartition class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: MMIOM\_READ message
+title: MMIOM_READ message
 description: The MMIOM\_READ message is sent to an I/O procedure by the mmioRead function to request that a specified number of bytes be read from an open file.
 ms.assetid: db769a68-f0ac-4a79-931e-6174e438439d
 keywords:

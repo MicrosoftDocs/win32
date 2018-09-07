@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_ROOT\_CONSTANTS structure
+title: CD3DX12_ROOT_CONSTANTS structure
 description: A helper structure to enable easy initialization of a D3D12\_ROOT\_CONSTANTS structure.
 ms.assetid: 2F517DCE-BC0C-4678-9C25-D826036F99A8
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DisconnectUser method of the Win32\_TSGatewayConnection class
+title: DisconnectUser method of the Win32_TSGatewayConnection class
 description: Disconnects all connections of the specified user from the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

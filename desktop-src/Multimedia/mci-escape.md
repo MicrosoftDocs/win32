@@ -1,5 +1,5 @@
 ---
-title: MCI\_ESCAPE command
+title: MCI_ESCAPE command
 description: The MCI\_ESCAPE command sends a string directly to the device. Videodisc devices recognize this command.
 ms.assetid: 56ebc717-f0f7-4612-8e51-57b13ff9d42b
 keywords:

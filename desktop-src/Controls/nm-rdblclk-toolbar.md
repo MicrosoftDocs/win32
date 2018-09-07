@@ -1,5 +1,5 @@
 ---
-title: NM\_RDBLCLK (toolbar) notification code
+title: NM_RDBLCLK (toolbar) notification code
 description: Notifies a control's parent window that the user has double-clicked the right mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0281a687-3f1c-4fc1-bf1d-19c7ac920cd3
 keywords:

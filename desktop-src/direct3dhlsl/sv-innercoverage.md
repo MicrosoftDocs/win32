@@ -1,5 +1,5 @@
 ---
-title: SV\_InnerCoverage
+title: SV_InnerCoverage
 description: SV\_InputCoverage represents underestimated conservative rasterization information (i.e. whether a pixel is guaranteed-to-be-fully covered).
 ms.assetid: 5BB3C3FB-E5ED-4395-B389-300DE67C984B
 keywords:

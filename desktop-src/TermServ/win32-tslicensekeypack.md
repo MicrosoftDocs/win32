@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLicenseKeyPack class
+title: Win32_TSLicenseKeyPack class
 description: Provides methods and properties for viewing and installing Remote Desktop Services license key packs.
 audience: developer
 author: REDMOND\\markl

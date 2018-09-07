@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSAccount Methods
+title: Win32_TSAccount Methods
 description: The Win32\_TSAccount class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

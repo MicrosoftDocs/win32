@@ -1,5 +1,5 @@
 ---
-title: MPVERSION\_INFO structure
+title: MPVERSION_INFO structure
 description: Version information for the malware protection manager's components.
 ms.assetid: C18EE6FE-57E1-4814-85CA-19C3ACE275D2
 keywords:

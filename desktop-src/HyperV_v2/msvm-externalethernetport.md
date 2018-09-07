@@ -1,7 +1,7 @@
 ---
 Description: Represents an external Ethernet port (network adapter).
 ms.assetid: 70901587-641D-46F5-8A35-FEA483D336DE
-title: Msvm\_ExternalEthernetPort class
+title: Msvm_ExternalEthernetPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

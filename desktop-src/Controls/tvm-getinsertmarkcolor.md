@@ -1,5 +1,5 @@
 ---
-title: TVM\_GETINSERTMARKCOLOR message
+title: TVM_GETINSERTMARKCOLOR message
 description: Retrieves the color used to draw the insertion mark for the tree view. You can send this message explicitly or by using the TreeView\_GetInsertMarkColor macro.
 ms.assetid: d1fba4bb-1bdb-44e0-8083-b564cdafc055
 keywords:

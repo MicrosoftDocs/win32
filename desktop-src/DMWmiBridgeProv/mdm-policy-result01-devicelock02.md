@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_DeviceLock02 class
+title: MDM_Policy_Result01_DeviceLock02 class
 description: The MDM\_Policy\_Result01\_DeviceLock02 class represents the device lock policies available.
 ms.assetid: 9aac25a8-8502-468f-9478-1ac4ccccaf0b
 keywords:

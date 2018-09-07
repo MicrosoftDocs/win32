@@ -1,7 +1,7 @@
 ---
 Description: Pin name.
 ms.assetid: 324cb8cc-7e57-43d0-9358-2683efc4fb1e
-title: CBasePin::m\_pName member
+title: CBasePin::m_pName member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

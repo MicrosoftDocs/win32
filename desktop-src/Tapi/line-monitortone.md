@@ -1,7 +1,7 @@
 ---
 Description: The TAPI LINE\_MONITORTONE message is sent when a tone is detected. The sending of this message is controlled with the lineMonitorTones function.
 ms.assetid: ffdca615-5341-4f02-bb38-b8133cd9477d
-title: LINE\_MONITORTONE message
+title: LINE_MONITORTONE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

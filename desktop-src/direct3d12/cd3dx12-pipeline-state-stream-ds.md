@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_DS structure
+title: CD3DX12_PIPELINE_STATE_STREAM_DS structure
 description: A helper structure used to describe a domain shader as a single object suitable for a stream description.
 ms.assetid: 42F8B7C1-B754-4B07-BF04-DBF450A942E6
 keywords:

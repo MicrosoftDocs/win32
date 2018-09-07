@@ -1,7 +1,7 @@
 ---
 Description: Specifies the type of process that is identified in the D3DAUTHENTICATEDCHANNEL\_QUERYRESTRICTEDSHAREDRESOURCEPROCESS\_OUTPUT structure.
 ms.assetid: 8878905e-f55b-4dbc-9608-da0082daf673
-title: D3DAUTHENTICATEDCHANNEL\_PROCESSIDENTIFIERTYPE enumeration
+title: D3DAUTHENTICATEDCHANNEL_PROCESSIDENTIFIERTYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

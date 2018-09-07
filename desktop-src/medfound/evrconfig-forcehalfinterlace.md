@@ -1,7 +1,7 @@
 ---
 Description: Forces the Enhanced Video Renderer (EVR) to skip the second field of every interlaced frame.
 ms.assetid: b79d9230-b127-4e9b-b73b-685ce27aefa9
-title: EVRConfig\_ForceHalfInterlace attribute
+title: EVRConfig_ForceHalfInterlace attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the callback functions to be used by the optional component manager.
 ms.assetid: 454cc07e-4a00-4c53-9759-47563a8ed62f
-title: OCM\_CLIENT\_CALLBACKS structure
+title: OCM_CLIENT_CALLBACKS structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

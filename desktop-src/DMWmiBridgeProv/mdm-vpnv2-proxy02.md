@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_Proxy02 class
+title: MDM_VPNv2_Proxy02 class
 description: The MDM\_VPNv2\_Proxy02 class defines a configuration object to enable a post-connect proxy support for VPN.
 ms.assetid: 243f0824-4951-41c4-b8b4-b5c39aefd8ff
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_ActiveXControls02 class
+title: MDM_Policy_Result01_ActiveXControls02 class
 description: The MDM\_Policy\_Result01\_ActiveXControls02 class represents the available ActiveX Controls policies.
 ms.assetid: 46778743-59d7-4d37-836c-3f263bb8a083
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: SetTimeZoneRedirection method of the Win32\_TerminalServiceSetting class
+title: SetTimeZoneRedirection method of the Win32_TerminalServiceSetting class
 description: The SetTimeZoneRedirection method sets the TimeZoneRedirection property, which allows the client computer to redirect its time zone settings to the Remote Desktop Services session.
 audience: developer
 author: REDMOND\\markl

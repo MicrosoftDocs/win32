@@ -1,7 +1,7 @@
 ---
 Description: The filter graph has changed state.
 ms.assetid: f77b4c06-46a5-4912-adb0-0fa8cb7769aa
-title: EC\_STATE\_CHANGE
+title: EC_STATE_CHANGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

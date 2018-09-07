@@ -1,5 +1,5 @@
 ---
-title: WMDM\_PROP\_CONFIG structure
+title: WMDM_PROP_CONFIG structure
 description: The WMDM\_PROP\_CONFIG structure describes a set of compatible property values across all the properties supported by the device for a particular format. This structure contains a number of property descriptions in an array of WMDM\_PROP\_DESC structures.
 ms.assetid: cf116861-e31d-4561-b262-e271888afc24
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_BIOMETRIC\_TYPE Constants
+title: WINBIO_BIOMETRIC_TYPE Constants
 description: Standard biometric types defined by National Institute of Standards and Technology Information (NISTIR) 6529-A, otherwise known as the Common Biometric Exchange Formats Framework (CBEFF) Patron Format A.
 ms.assetid: DCBDB5F9-FF81-44C1-B439-2B8C02483212
 topic_type:

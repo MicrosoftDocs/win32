@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_PTRType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_PTRType class
 description: The CreateInstanceFromPropertyData method instantiates a Pointer (PTR) Resource Record.
 ms.assetid: ff8beaca-fa0d-4294-8dab-3aa62baa3fe3
 keywords:

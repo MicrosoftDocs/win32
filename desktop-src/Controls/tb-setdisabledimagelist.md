@@ -1,5 +1,5 @@
 ---
-title: TB\_SETDISABLEDIMAGELIST message
+title: TB_SETDISABLEDIMAGELIST message
 description: Sets the image list that the toolbar control will use to display disabled buttons.
 ms.assetid: 1e76b3cf-2d06-48c8-8298-ef6caf3d85c3
 keywords:

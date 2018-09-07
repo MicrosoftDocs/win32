@@ -1,7 +1,7 @@
 ---
 Description: Represents an attribute record.
 ms.assetid: f9d9458c-b179-441c-9f62-ff0ac2f75329
-title: ATTRIBUTE\_RECORD\_HEADER structure
+title: ATTRIBUTE_RECORD_HEADER structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

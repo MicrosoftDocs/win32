@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a Media Foundation transform (MFT) supports DirectX Video Acceleration (DXVA). This attribute applies only to video MFTs.
 ms.assetid: db6a8b20-fda0-4ffe-b1b5-a77b7604d290
-title: MF\_SA\_D3D\_AWARE attribute
+title: MF_SA_D3D_AWARE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

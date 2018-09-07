@@ -1,5 +1,5 @@
 ---
-title: AddLicenseMethod method of the MDM\_EnterpriseModernAppManagement\_StoreLicenses02\_01 class
+title: AddLicenseMethod method of the MDM_EnterpriseModernAppManagement_StoreLicenses02_01 class
 description: Method for adding license. See also, AddLicense.
 ms.assetid: 325d284d-10ac-4786-8b04-8184ac43b53f
 keywords:

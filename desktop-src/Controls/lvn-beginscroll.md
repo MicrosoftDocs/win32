@@ -1,5 +1,5 @@
 ---
-title: LVN\_BEGINSCROLL notification code
+title: LVN_BEGINSCROLL notification code
 description: Notifies a list-view control's parent window when a scrolling operation starts. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 67123db1-118c-43d7-8511-12a3c4413958
 keywords:

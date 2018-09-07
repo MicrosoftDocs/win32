@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: c21be284-acb0-46e3-9629-b1d95154f58b
-title: Reset method of the Msvm\_Memory class
+title: Reset method of the Msvm_Memory class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

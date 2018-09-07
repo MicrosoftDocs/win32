@@ -1,5 +1,5 @@
 ---
-title: UDM\_GETRANGE message
+title: UDM_GETRANGE message
 description: Retrieves the minimum and maximum positions (range) for an up-down control.
 ms.assetid: fd42538a-8d96-4a9c-a1db-07c3e9afef84
 keywords:

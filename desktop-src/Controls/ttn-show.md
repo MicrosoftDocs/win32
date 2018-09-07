@@ -1,5 +1,5 @@
 ---
-title: TTN\_SHOW notification code
+title: TTN_SHOW notification code
 description: Notifies the owner window that a tooltip control is about to be displayed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ddfd18cd-0681-4e4a-b258-873f98da7479
 keywords:

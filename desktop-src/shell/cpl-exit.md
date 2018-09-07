@@ -1,7 +1,7 @@
 ---
 Description: Sent once to the CPlApplet function of a Control Panel application before the DLL containing the Control Panel application is released.
 ms.assetid: 1afcb0d3-41a7-4fd8-9561-d96e1e8f0ddb
-title: CPL\_EXIT message
+title: CPL_EXIT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

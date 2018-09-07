@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_Statistic class
+title: MicrosoftDNS_Statistic class
 description: The MicrosoftDNS\_Statistic class represents a single DNS Server statistic.
 ms.assetid: 49ee79d6-b93f-4a9b-8054-1ad290d092d6
 keywords:

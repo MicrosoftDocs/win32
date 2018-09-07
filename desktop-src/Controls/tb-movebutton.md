@@ -1,5 +1,5 @@
 ---
-title: TB\_MOVEBUTTON message
+title: TB_MOVEBUTTON message
 description: Moves a button from one index to another.
 ms.assetid: 030aedc5-2de5-4751-90b2-63794322f503
 keywords:

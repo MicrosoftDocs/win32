@@ -1,5 +1,5 @@
 ---
-title: UnregisterVMMPlugin method of the Win32\_SessionDirectoryVMMPlugin class
+title: UnregisterVMMPlugin method of the Win32_SessionDirectoryVMMPlugin class
 description: Unregisters the plug-in.
 audience: developer
 author: REDMOND\\markl

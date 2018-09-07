@@ -1,7 +1,7 @@
 ---
 Description: Stops the service.
 ms.assetid: 96f49c9c-7f1c-497e-9630-5fd9b355b75d
-title: StopService method of the Msvm\_ImageManagementService class
+title: StopService method of the Msvm_ImageManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

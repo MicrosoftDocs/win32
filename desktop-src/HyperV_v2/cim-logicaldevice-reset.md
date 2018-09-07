@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset of the LogicalDevice.
 ms.assetid: f7655825-3de5-421f-a3e9-97d2f605affd
-title: Reset method of the CIM\_LogicalDevice class
+title: Reset method of the CIM_LogicalDevice class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: HDM\_DELETEITEM message
+title: HDM_DELETEITEM message
 description: Deletes an item from a header control. You can send this message explicitly or use the Header\_DeleteItem macro.
 ms.assetid: 1dd1f233-2812-41ae-8a36-c42b9ac70ffc
 keywords:

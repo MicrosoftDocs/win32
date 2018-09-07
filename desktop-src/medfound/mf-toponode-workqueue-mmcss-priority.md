@@ -1,7 +1,7 @@
 ---
 Description: Specifies the relative thread priority for a branch of the topology.
 ms.assetid: 7BCD2EE0-94FB-4438-9B6A-7B26DBFB5978
-title: MF\_TOPONODE\_WORKQUEUE\_MMCSS\_PRIORITY attribute
+title: MF_TOPONODE_WORKQUEUE_MMCSS_PRIORITY attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

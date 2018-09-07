@@ -7,7 +7,7 @@ ms.assetid: 47daffd0-b9db-4367-b0b8-654a2da30fed
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ACE class'
+title: '__ACE class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: Operator\ \ function
+title: Operator  function
 description: Retrieves a value from the resource at the location provided at sample index 0.
 ms.assetid: 80380D3F-1E71-4C43-A17B-F94F6E5215B1
 keywords:

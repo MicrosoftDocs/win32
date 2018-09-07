@@ -1,7 +1,7 @@
 ---
 Description: Sets the maximum real-time input rate of video frames being fed to the encoder.
 ms.assetid: ACBE8799-A81C-44C3-B985-88ADFB1E51B4
-title: CODECAPI\_AVEncMaxFrameRate property
+title: CODECAPI_AVEncMaxFrameRate property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

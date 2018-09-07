@@ -1,5 +1,5 @@
 ---
-title: MDM\_PassportForWork\_PINComplexity03 class
+title: MDM_PassportForWork_PINComplexity03 class
 description: The MDM\_PassportForWork\_PINComplexity03 class defines the PIN complexity for the logon credentials for Windows Hello for Business.
 ms.assetid: 83dcf859-03da-4508-b809-bafd24dc8bd4
 keywords:

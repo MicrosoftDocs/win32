@@ -1,5 +1,5 @@
 ---
-title: D3DX11\_IMAGE\_FILE\_FORMAT enumeration
+title: D3DX11_IMAGE_FILE_FORMAT enumeration
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Image file formats supported by D3DX11Createxxx and D3DX11Savexxx functions.
 ms.assetid: 89fa9ab8-3be0-4dc5-a533-94edb01df36a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Is\_Protected
+title: Is_Protected
 description: The Is\_Protected attribute is a file-level attribute specifying whether the content in the file was protected using digital rights management (DRM).
 ms.assetid: 6fe63d9b-67ec-47a8-ba20-657434c7a15b
 keywords:

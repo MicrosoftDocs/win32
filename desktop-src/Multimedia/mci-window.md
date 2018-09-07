@@ -1,5 +1,5 @@
 ---
-title: MCI\_WINDOW command
+title: MCI_WINDOW command
 description: The MCI\_WINDOW command specifies the window and the window characteristics for graphic devices. Digital-video, and video-overlay devices recognize this command.
 ms.assetid: 8b6c4d9a-ee72-4c64-aebe-6c8153167496
 keywords:

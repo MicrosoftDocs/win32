@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETCOLUMN message
+title: LVM_GETCOLUMN message
 description: Gets the attributes of a list-view control's column. You can send this message explicitly or by using the ListView\_GetColumn macro.
 ms.assetid: 59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6
 keywords:

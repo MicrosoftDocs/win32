@@ -7,7 +7,7 @@ ms.assetid: a54fdd85-feb8-4727-9f26-fe4f213cab6b
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_SystemSecurity class'
+title: '__SystemSecurity class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

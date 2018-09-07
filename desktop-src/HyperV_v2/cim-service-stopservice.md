@@ -1,7 +1,7 @@
 ---
 Description: Paces the service in the stopped state.
 ms.assetid: d7469643-bccc-4f55-b2fc-d2bc2e392d84
-title: StopService method of the CIM\_Service class
+title: StopService method of the CIM_Service class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

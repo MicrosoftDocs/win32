@@ -1,7 +1,7 @@
 ---
 Description: A superclass for classes that represent a collection of CIM\_ManagedElement objects and the subclasses of managed elements.
 ms.assetid: be487f20-b277-47fd-b088-f9ebc349e0a3
-title: CIM\_Collection class
+title: CIM_Collection class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

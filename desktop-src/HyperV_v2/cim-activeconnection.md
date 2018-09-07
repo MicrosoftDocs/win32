@@ -1,7 +1,7 @@
 ---
 Description: Defines a connection that is currently turned on and configured to provide communication between two CIM\_ServiceAccessPoint objects.
 ms.assetid: 03f8e43f-a77b-46e2-bb7d-c29758c65aee
-title: CIM\_ActiveConnection class
+title: CIM_ActiveConnection class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

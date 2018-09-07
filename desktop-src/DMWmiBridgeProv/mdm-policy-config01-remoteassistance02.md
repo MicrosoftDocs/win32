@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_RemoteAssistance02 class
+title: MDM_Policy_Config01_RemoteAssistance02 class
 description: The MDM\_Policy\_Config01\_RemoteAssistance02 class configures the remote assistance policies.
 ms.assetid: bcc6c570-66d9-4dcd-b7f2-2d03733c0bcb
 keywords:

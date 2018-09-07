@@ -1,7 +1,7 @@
 ---
 Description: Defines the algorithms to be used in encryption and decryption.
 ms.assetid: c7aacd1c-02f6-4cf5-9305-50e2330f243c
-title: CAPICOM\_ENCRYPTION\_ALGORITHM enumeration
+title: CAPICOM_ENCRYPTION_ALGORITHM enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

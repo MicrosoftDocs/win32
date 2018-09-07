@@ -1,7 +1,7 @@
 ---
 Description: Represents the registration of a service in the Microsoft Hyper-V platform.
 ms.assetid: 706557C2-49D6-453F-9DC0-2C655888EEBE
-title: Msvm\_VirtualizationComponentRegistration class
+title: Msvm_VirtualizationComponentRegistration class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

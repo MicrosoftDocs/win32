@@ -1,5 +1,5 @@
 ---
-title: WM\_MENUDRAG message
+title: WM_MENUDRAG message
 description: Sent to the owner of a drag-and-drop menu when the user drags a menu item.
 ms.assetid: 99e8f490-ef1e-4964-a3a1-47030a88f10c
 keywords:

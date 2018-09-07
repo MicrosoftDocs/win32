@@ -1,5 +1,5 @@
 ---
-title: RegisterVMMPlugin method of the Win32\_SessionDirectoryVMMPlugin class
+title: RegisterVMMPlugin method of the Win32_SessionDirectoryVMMPlugin class
 description: Registers a new VMM plug-in.
 audience: developer
 author: REDMOND\\markl

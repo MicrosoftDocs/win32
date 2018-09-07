@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSDeploymentLicensing class
+title: Win32_TSDeploymentLicensing class
 description: Licensing Settings for the Remote Desktop Virtualization (RDV) deployment.
 audience: developer
 author: REDMOND\\markl

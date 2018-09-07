@@ -1,5 +1,5 @@
 ---
-title: SetInt32Property method of the Win32\_RDMSVirtualDesktopCollection class
+title: SetInt32Property method of the Win32_RDMSVirtualDesktopCollection class
 description: Updates an integer property of a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: BM\_GETCHECK message
+title: BM_GETCHECK message
 description: Gets the check state of a radio button or check box. You can send this message explicitly or use the Button\_GetCheck macro.
 ms.assetid: a25b2c8d-0b32-4807-bfb4-e277675924f1
 keywords:

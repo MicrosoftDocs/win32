@@ -1,5 +1,5 @@
 ---
-title: D3DX\_INT4\_to\_R8G8B8A8\_SINT function
+title: D3DX_INT4_to_R8G8B8A8_SINT function
 description: Packs the given XMINT4 back into a DXGI\_FORMAT\_R8G8B8A8\_SINT.
 ms.assetid: ab9c5454-1673-43a9-ab76-bcd7b510b9a8
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: BCN\_HOTITEMCHANGE notification code
+title: BCN_HOTITEMCHANGE notification code
 description: Notifies the button control owner that the mouse is entering or leaving the client area of the button control. The button control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 92882e21-b69d-4326-94e9-ae69a0d00a83
 keywords:

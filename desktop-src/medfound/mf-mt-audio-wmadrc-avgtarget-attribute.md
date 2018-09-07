@@ -1,7 +1,7 @@
 ---
 Description: Target average volume level of a Windows Media Audio file.
 ms.assetid: f81158c8-b341-4b39-8fa4-b510c93b89fc
-title: MF\_MT\_AUDIO\_WMADRC\_AVGTARGET attribute
+title: MF_MT_AUDIO_WMADRC_AVGTARGET attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

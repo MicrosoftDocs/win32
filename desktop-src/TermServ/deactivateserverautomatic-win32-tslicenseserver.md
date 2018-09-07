@@ -1,5 +1,5 @@
 ---
-title: DeactivateServerAutomatic method of the Win32\_TSLicenseServer class
+title: DeactivateServerAutomatic method of the Win32_TSLicenseServer class
 description: Deactivates the Remote Desktop license server over the Internet.
 audience: developer
 author: REDMOND\\markl

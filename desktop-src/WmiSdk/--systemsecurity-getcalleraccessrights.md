@@ -7,7 +7,7 @@ ms.assetid: f28391a8-2b34-4234-bf1a-4688726b0b4b
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: GetCallerAccessRights method of the \_\_SystemSecurity class
+title: GetCallerAccessRights method of the __SystemSecurity class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

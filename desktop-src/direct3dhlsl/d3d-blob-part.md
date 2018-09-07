@@ -1,5 +1,5 @@
 ---
-title: D3D\_BLOB\_PART enumeration
+title: D3D_BLOB_PART enumeration
 description: Values that identify parts of the content of an arbitrary length data buffer.
 ms.assetid: 333bc68a-0412-48e7-ac28-69ec5eea9ce8
 keywords:

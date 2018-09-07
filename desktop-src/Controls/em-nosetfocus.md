@@ -1,5 +1,5 @@
 ---
-title: EM\_NOSETFOCUS message
+title: EM_NOSETFOCUS message
 description: Prevents a single-line edit control from receiving keyboard focus. You can send this message explicitly or by using the Edit\_NoSetFocus macro.
 ms.assetid: aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c
 keywords:

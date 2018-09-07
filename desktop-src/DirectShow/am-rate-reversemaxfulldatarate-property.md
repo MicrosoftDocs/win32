@@ -1,7 +1,7 @@
 ---
 Description: Applies to Windows Vista and later.
 ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
-title: AM\_RATE\_ReverseMaxFullDataRate Property
+title: AM_RATE_ReverseMaxFullDataRate Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

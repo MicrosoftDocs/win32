@@ -1,5 +1,5 @@
 ---
-title: WM\_QUERYUISTATE message
+title: WM_QUERYUISTATE message
 description: An application sends the WM\_QUERYUISTATE message to retrieve the UI state for a window.
 ms.assetid: 3a9e3477-b5d7-4c55-b6d4-8a479451fee8
 keywords:

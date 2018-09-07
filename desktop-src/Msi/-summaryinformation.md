@@ -1,7 +1,7 @@
 ---
 Description: The \_SummaryInformation table is a special table used with the Summary Information Stream. You can get or set the Summary Information Stream of a Windows Installer database by exporting or importing a text archive file named \_SummaryInformation.idt.
 ms.assetid: 6892a8c0-c99e-4dcb-b6cb-d470ffceab69
-title: '\_SummaryInformation'
+title: '_SummaryInformation'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

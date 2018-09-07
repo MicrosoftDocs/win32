@@ -1,5 +1,5 @@
 ---
-title: STOWED\_EXCEPTION\_INFORMATION\_V2 structure
+title: STOWED_EXCEPTION_INFORMATION_V2 structure
 description: Contains stowed exception info.
 ms.assetid: 79267974-EE1B-4427-A6D6-265F6BC5D73A
 keywords:

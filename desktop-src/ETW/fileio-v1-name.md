@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: a4ee38df-af75-4aec-89ec-5a1c39302c82
-title: FileIo\_V1\_Name class
+title: FileIo_V1_Name class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

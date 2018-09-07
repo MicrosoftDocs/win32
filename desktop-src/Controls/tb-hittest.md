@@ -1,5 +1,5 @@
 ---
-title: TB\_HITTEST message
+title: TB_HITTEST message
 description: Determines where a point lies in a toolbar control.
 ms.assetid: d08f3805-2042-470e-8f5a-8a6a681d1189
 keywords:

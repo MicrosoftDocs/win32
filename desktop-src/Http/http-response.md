@@ -1,5 +1,5 @@
 ---
-title: HTTP\_RESPONSE
+title: HTTP_RESPONSE
 description: The version of the HTTP\_RESPONSE structure is dependent on the version of the request queue used as follows HTTP Server API Version 1.0 request queue This is an HTTP\_REQUEST\_V1 structure.HTTP Server API Version 2.0 request queue This is an HTTP\_REQUEST\_V2 structure.
 ms.assetid: F94646C0-7293-4543-842B-F08D8C7E2247
 keywords:

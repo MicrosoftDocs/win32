@@ -1,5 +1,5 @@
 ---
-title: SetUserAssignment method of the Win32\_RDMSVirtualDesktop class
+title: SetUserAssignment method of the Win32_RDMSVirtualDesktop class
 description: Assigns a virtual desktop to a user.
 audience: developer
 author: REDMOND\\markl

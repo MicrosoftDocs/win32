@@ -1,7 +1,7 @@
 ---
 Description: Specifies the x-coordinate of the upper-left corner of the pan/scan region.
 ms.assetid: 1aed8614-d856-4885-80fe-c3f2bf3304ad
-title: MFPKEY\_RESIZE\_PANSCANAPX Property
+title: MFPKEY_RESIZE_PANSCANAPX Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

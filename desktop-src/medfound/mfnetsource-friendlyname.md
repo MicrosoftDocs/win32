@@ -1,7 +1,7 @@
 ---
 Description: Specifies the string that identifies the UPnP ConnectionManager service.
 ms.assetid: DEB9C310-0AFF-463F-82C2-52CE1B7BB55C
-title: MFNETSOURCE\_FRIENDLYNAME property
+title: MFNETSOURCE_FRIENDLYNAME property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

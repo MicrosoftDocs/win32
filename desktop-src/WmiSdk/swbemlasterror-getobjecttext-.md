@@ -7,7 +7,7 @@ ms.assetid: efe3f3f6-c2f2-4295-bbf3-60d5b06ef98f
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemLastError.GetObjectText\_ method
+title: SWbemLastError.GetObjectText_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

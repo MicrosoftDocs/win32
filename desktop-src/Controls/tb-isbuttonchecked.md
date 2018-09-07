@@ -1,5 +1,5 @@
 ---
-title: TB\_ISBUTTONCHECKED message
+title: TB_ISBUTTONCHECKED message
 description: Determines whether the specified button in a toolbar is checked.
 ms.assetid: ce576951-8db6-4854-8457-211ece018ce8
 keywords:

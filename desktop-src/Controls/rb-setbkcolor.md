@@ -1,5 +1,5 @@
 ---
-title: RB\_SETBKCOLOR message
+title: RB_SETBKCOLOR message
 description: Sets a rebar control's default background color.
 ms.assetid: 450a1e16-24f6-4f86-8e46-14009da05efc
 keywords:

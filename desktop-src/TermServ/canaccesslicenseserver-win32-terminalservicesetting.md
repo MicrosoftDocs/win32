@@ -1,5 +1,5 @@
 ---
-title: CanAccessLicenseServer method of the Win32\_TerminalServiceSetting class
+title: CanAccessLicenseServer method of the Win32_TerminalServiceSetting class
 description: CanAccessLicenseServer is no longer available.
 audience: developer
 author: REDMOND\\markl

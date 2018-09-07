@@ -1,7 +1,7 @@
 ---
 Description: Represents the configured state of the TPM device.
 ms.assetid: 948ccb47-3626-48f1-b18f-ef1d05978b21
-title: Msvm\_TPMSettingData class
+title: Msvm_TPMSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: BM\_GETIMAGE message
+title: BM_GETIMAGE message
 description: Retrieves a handle to the image (icon or bitmap) associated with the button.
 ms.assetid: 766ea1b0-418d-41b8-b31d-0fcc58e03893
 keywords:

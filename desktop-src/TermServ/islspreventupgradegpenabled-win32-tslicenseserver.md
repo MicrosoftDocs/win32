@@ -1,5 +1,5 @@
 ---
-title: IsLSPreventUpgradeGPEnabled method of the Win32\_TSLicenseServer class
+title: IsLSPreventUpgradeGPEnabled method of the Win32_TSLicenseServer class
 description: Retrieves whether the \ 0034;prevent license upgrade \ 0034; group policy setting is enabled on the Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl

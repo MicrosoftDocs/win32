@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_StandardColors
+title: UI_PKEY_StandardColors
 description: Identifies the UI\_PKEY\_StandardColors property.
 ms.assetid: fbdce7ba-4417-4f7f-928b-fba6af6eb396
 ms.technology: desktop

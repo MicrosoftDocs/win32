@@ -1,7 +1,7 @@
 ---
 Description: Contains a signed BLOB.
 ms.assetid: c12d9007-c779-4363-8e28-6387a665a0d6
-title: SIGNER\_CONTEXT structure
+title: SIGNER_CONTEXT structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

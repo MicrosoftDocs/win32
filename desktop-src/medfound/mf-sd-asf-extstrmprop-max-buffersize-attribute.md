@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum buffer size, in bytes, needed for a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 1704a70a-a52b-4e7d-8a32-d0c4e97f8cc2
-title: MF\_SD\_ASF\_EXTSTRMPROP\_MAX\_BUFFERSIZE attribute
+title: MF_SD_ASF_EXTSTRMPROP_MAX_BUFFERSIZE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

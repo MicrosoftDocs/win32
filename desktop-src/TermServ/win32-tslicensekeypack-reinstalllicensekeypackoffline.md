@@ -1,5 +1,5 @@
 ---
-title: ReinstallLicenseKeyPackOffline method of the Win32\_TSLicenseKeyPack class
+title: ReinstallLicenseKeyPackOffline method of the Win32_TSLicenseKeyPack class
 description: Reinstalls a Remote Desktop Services license key pack that uses the license identifier that was received over the Internet or the phone.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: CDM\_SETCONTROLTEXT message
+title: CDM_SETCONTROLTEXT message
 description: Sets the text for the specified control in an Explorer-style Open or Save As dialog box.
 ms.assetid: ff0e50b7-a14d-40d1-8576-f93a612f3aa3
 keywords:

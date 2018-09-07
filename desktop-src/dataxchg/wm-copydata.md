@@ -1,5 +1,5 @@
 ---
-title: WM\_COPYDATA message
+title: WM_COPYDATA message
 description: An application sends the WM\_COPYDATA message to pass data to another application.
 ms.assetid: d937a260-9fd2-4450-a762-20120f589ab1
 keywords:

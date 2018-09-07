@@ -1,7 +1,7 @@
 ---
 Description: Specifies how far behind schedule a component is for processing samples.
 ms.assetid: 8bd202fb-3015-41a2-ad14-862f64cb252f
-title: EC\_SAMPLE\_LATENCY
+title: EC_SAMPLE_LATENCY
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

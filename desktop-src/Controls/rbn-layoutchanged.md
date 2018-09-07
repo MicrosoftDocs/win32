@@ -1,5 +1,5 @@
 ---
-title: RBN\_LAYOUTCHANGED notification code
+title: RBN_LAYOUTCHANGED notification code
 description: Sent by a rebar control when the user changes the layout of the control's bands. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e937d151-bfaa-41c0-a134-e70ff2f75d07
 keywords:

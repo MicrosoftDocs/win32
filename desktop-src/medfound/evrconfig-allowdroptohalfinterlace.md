@@ -1,7 +1,7 @@
 ---
 Description: Allows the Enhanced Video Renderer (EVR) to improve performance by skipping the second field of every interlaced frame.
 ms.assetid: de7efc6a-19ae-4f3a-8675-38fda3c979e2
-title: EVRConfig\_AllowDropToHalfInterlace attribute
+title: EVRConfig_AllowDropToHalfInterlace attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

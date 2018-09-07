@@ -1,5 +1,5 @@
 ---
-title: MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03 class
+title: MDM_AppLocker_ApplicationLaunchRestrictions01_EXE03 class
 description: The MDM\_AppLocker\_ApplicationLaunchRestrictions01\_EXE03 class allows you to specify which EXE applications are allowed to launch.
 ms.assetid: 27f10b5c-bc3b-4344-afcf-5718ea13e909
 keywords:

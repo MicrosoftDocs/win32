@@ -1,7 +1,7 @@
 ---
 Description: Associates a storage drive with the media inserted into the drive.
 ms.assetid: C0B2D604-0B55-4EA0-A46E-2450D89A5B22
-title: Msvm\_MediaPresent class
+title: Msvm_MediaPresent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

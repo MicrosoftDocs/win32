@@ -1,5 +1,5 @@
 ---
-title: SetName method of the Win32\_TSGatewayRADIUSServer class
+title: SetName method of the Win32_TSGatewayRADIUSServer class
 description: Sets the Name property for this Remote Authentication Dial-In User Service (RADIUS) server.
 audience: developer
 author: REDMOND\\markl

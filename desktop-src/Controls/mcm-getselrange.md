@@ -1,5 +1,5 @@
 ---
-title: MCM\_GETSELRANGE message
+title: MCM_GETSELRANGE message
 description: Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can send this message explicitly or by using the MonthCal\_GetSelRange macro.
 ms.assetid: a0d0a0d5-a519-4495-a87a-2438c4590e4c
 keywords:

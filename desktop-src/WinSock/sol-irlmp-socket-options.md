@@ -1,7 +1,7 @@
 ---
 Description: The following table describes SOL\_IRLMP socket options that apply to sockets created for the Infrared Data Association (IrDA) address family (AF\_IRDA) and the InfraRed Link Management Protocol (IRLMP).
 ms.assetid: 0457159d-8509-435c-8f57-752530d5df65
-title: SOL\_IRLMP Socket Options
+title: SOL_IRLMP Socket Options
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: TBM\_GETSELEND message
+title: TBM_GETSELEND message
 description: Retrieves the ending position of the current selection range in a trackbar.
 ms.assetid: e365dd4d-eb49-4107-b6d4-cdb558d27fdb
 keywords:

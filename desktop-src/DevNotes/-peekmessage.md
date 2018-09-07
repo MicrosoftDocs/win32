@@ -1,7 +1,7 @@
 ---
 Description: Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
 ms.assetid: 6b20f354-413d-4197-8b49-e6f965121865
-title: '\_PeekMessage function'
+title: '_PeekMessage function'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

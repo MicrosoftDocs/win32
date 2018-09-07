@@ -1,7 +1,7 @@
 ---
 Description: Specifies how many times the Voice Capture DSP performs acoustic echo suppression (AES) on the residual signal.
 ms.assetid: 409b40f8-38eb-49f7-be30-348ab5cdd33a
-title: MFPKEY\_WMAAECMA\_FEATR\_AES Property
+title: MFPKEY_WMAAECMA_FEATR_AES Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

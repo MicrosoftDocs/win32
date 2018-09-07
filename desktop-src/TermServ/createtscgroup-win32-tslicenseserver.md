@@ -1,5 +1,5 @@
 ---
-title: CreateTSCGroup method of the Win32\_TSLicenseServer class
+title: CreateTSCGroup method of the Win32_TSLicenseServer class
 description: CreateTSCGroup is no longer available for use as of Windows Server 2012.
 audience: developer
 author: REDMOND\\markl

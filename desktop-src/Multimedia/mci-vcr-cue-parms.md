@@ -1,5 +1,5 @@
 ---
-title: MCI\_VCR\_CUE\_PARMS structure
+title: MCI_VCR_CUE_PARMS structure
 description: The MCI\_VCR\_CUE\_PARMS structure contains parameters for the MCI\_CUE command for video-cassette recorders.
 ms.assetid: b2ac0c43-93ea-41c9-b886-542bda57b59e
 keywords:

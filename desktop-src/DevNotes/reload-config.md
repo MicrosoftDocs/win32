@@ -1,7 +1,7 @@
 ---
 Description: Reloads an IME configuration from the HKCU registry, in Japanese IME only.
 ms.assetid: 171c31ad-c925-4e18-b458-d9abf52dae9a
-title: reload\_config function
+title: reload_config function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for registry events. The following syntax is simplified from MOF code.
 ms.assetid: 8d0e9d97-3837-46da-a217-13e943580352
-title: Registry\_TypeGroup1 class
+title: Registry_TypeGroup1 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

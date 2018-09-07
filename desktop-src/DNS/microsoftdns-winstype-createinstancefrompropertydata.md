@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_WINSType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_WINSType class
 description: The CreateInstanceFromPropertyData method instantiates a Windows Internet Name Service (WINS) Resource Record.
 ms.assetid: 0b41a6a5-0bb1-467b-9089-2c721d521887
 keywords:

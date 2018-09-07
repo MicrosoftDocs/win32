@@ -1,5 +1,5 @@
 ---
-title: DRM\_Flags
+title: DRM_Flags
 description: The DRM\_Flags property is used with DRM version 1 content only to specify the rights that will be contained in the local license.
 ms.assetid: d9a776d3-da22-4111-b1ed-e3607a5576ef
 keywords:

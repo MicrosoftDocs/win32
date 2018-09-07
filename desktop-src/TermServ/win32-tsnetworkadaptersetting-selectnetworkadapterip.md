@@ -1,5 +1,5 @@
 ---
-title: SelectNetworkAdapterIP method of the Win32\_TSNetworkAdapterSetting class
+title: SelectNetworkAdapterIP method of the Win32_TSNetworkAdapterSetting class
 description: Selects a network adapter based on the adapter's IP address.
 audience: developer
 author: REDMOND\\markl

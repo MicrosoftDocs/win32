@@ -1,5 +1,5 @@
 ---
-title: GetGracePeriodDays method of the Win32\_TerminalServiceSetting class
+title: GetGracePeriodDays method of the Win32_TerminalServiceSetting class
 description: Retrieves the number of days that are remaining in the Remote Desktop Services licensing grace period for a Remote Desktop Session Host (RD Session Host) server. A zero value indicates that the grace period is over.
 audience: developer
 author: REDMOND\\markl

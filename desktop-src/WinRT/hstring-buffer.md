@@ -1,7 +1,7 @@
 ---
 Description: A handle to a mutable string buffer that you can use to create an HSTRING.
 ms.assetid: D173CE70-ABF3-4703-A229-0753F2AF6F70
-title: HSTRING\_BUFFER
+title: HSTRING_BUFFER
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

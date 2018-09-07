@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Result01\_InternetExplorer02 class
+title: MDM_Policy_User_Result01_InternetExplorer02 class
 description: The MDM\_Policy\_User\_Result01\_InternetExplorer02 class represents the available Internet Explorer policies.
 ms.assetid: efd999aa-4aa8-486d-82d4-20af7e2005fe
 keywords:

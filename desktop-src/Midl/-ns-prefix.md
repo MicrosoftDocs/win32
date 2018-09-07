@@ -1,5 +1,5 @@
 ---
-title: /ns\_prefix switch
+title: /ns_prefix switch
 description: The /ns\_prefix switch prepends the \ 0034;ABI \ 0034; prefix to all types.
 ms.assetid: 8602C849-843A-4404-842D-4B7890AF3916
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: For segment re-encoding, specifies the buffer size.
 ms.assetid: 4f8d3a29-e011-4dcb-8eed-23ccce03a66a
-title: MFPKEY\_REENCENDBUFFERSIZE Property
+title: MFPKEY_REENCENDBUFFERSIZE Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: SB\_GETTEXT message
+title: SB_GETTEXT message
 description: Retrieves the text from the specified part of a status window.
 ms.assetid: 95bef9ff-04e5-431e-bc79-06d8498fcab0
 keywords:

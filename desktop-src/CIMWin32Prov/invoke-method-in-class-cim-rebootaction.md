@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Invoke method of the CIM\_RebootAction class
+title: Invoke method of the CIM_RebootAction class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

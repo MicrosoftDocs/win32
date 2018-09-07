@@ -1,7 +1,7 @@
 ---
 Description: Represents the switch offload settings.
 ms.assetid: 4e00544e-a8db-4337-af3f-f651bfcf6b05
-title: Msvm\_EthernetSwitchHardwareOffloadSettingData class
+title: Msvm_EthernetSwitchHardwareOffloadSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

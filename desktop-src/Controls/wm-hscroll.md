@@ -1,5 +1,5 @@
 ---
-title: WM\_HSCROLL message
+title: WM_HSCROLL message
 description: The WM\_HSCROLL message is sent to a window when a scroll event occurs in the window's standard horizontal scroll bar.
 ms.assetid: 197e522f-defd-4356-8521-5b5dfda596da
 keywords:

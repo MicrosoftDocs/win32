@@ -1,5 +1,5 @@
 ---
-title: DRM\_ActionAllowed\_Playback
+title: DRM_ActionAllowed_Playback
 description: The DRM\_ActionAllowed\_Playback attribute indicates whether playback of the content is allowed.
 ms.assetid: 7c8d7631-7edc-482d-afdb-758c4a0ecc22
 keywords:

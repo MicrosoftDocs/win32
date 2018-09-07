@@ -1,7 +1,7 @@
 ---
 Description: Flag that indicates whether the filter has sent an end-of-stream notification.
 ms.assetid: 93f897de-04bb-4de4-a612-39b27c7d6f6c
-title: CTransformFilter::m\_bEOSDelivered member
+title: CTransformFilter::m_bEOSDelivered member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

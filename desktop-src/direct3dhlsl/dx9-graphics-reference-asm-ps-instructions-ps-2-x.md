@@ -1,5 +1,5 @@
 ---
-title: ps\_2\_x Instructions
+title: ps_2_x Instructions
 description: This section contains reference information for the pixel shader version 2\_x instructions.
 ms.assetid: a9b5f9dd-1139-4f80-ada6-e2fc0fb7effe
 ms.technology: desktop

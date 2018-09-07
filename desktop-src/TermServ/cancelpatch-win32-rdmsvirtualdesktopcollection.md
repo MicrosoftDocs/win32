@@ -1,5 +1,5 @@
 ---
-title: CancelPatch method of the Win32\_RDMSVirtualDesktopCollection class
+title: CancelPatch method of the Win32_RDMSVirtualDesktopCollection class
 description: Cancels a software update provisioning job for the virtual machines in a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

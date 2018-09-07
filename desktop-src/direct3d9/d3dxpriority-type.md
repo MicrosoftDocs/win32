@@ -1,7 +1,7 @@
 ---
 Description: Defines the priority type to which an animation track is assigned.
 ms.assetid: 7bd83e31-09c4-4376-a22d-ed8023b78e84
-title: D3DXPRIORITY\_TYPE enumeration
+title: D3DXPRIORITY_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

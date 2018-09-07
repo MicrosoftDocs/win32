@@ -1,5 +1,5 @@
 ---
-title: WM\_GETTITLEBARINFOEX message
+title: WM_GETTITLEBARINFOEX message
 description: Sent to request extended title bar information. A window receives this message through its WindowProc function.
 ms.assetid: 0760dbf1-5b20-471c-bfd9-b8d28b52074b
 keywords:

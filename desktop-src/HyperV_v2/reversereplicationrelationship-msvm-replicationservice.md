@@ -1,7 +1,7 @@
 ---
 Description: Replicates a failed-over virtual machine back to the primary server.
 ms.assetid: 21806a66-85b4-4d9e-8a50-52d2b1933b67
-title: ReverseReplicationRelationship method of the Msvm\_ReplicationService class
+title: ReverseReplicationRelationship method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

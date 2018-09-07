@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_BIR\_DATA structure
+title: WINBIO_BIR_DATA structure
 description: Specifies the size, in bytes, and the offset of a block of biometric information.
 ms.assetid: 2f73eb1f-f1a1-4831-a8f7-eec28aa51645
 keywords:

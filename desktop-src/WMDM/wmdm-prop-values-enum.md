@@ -1,5 +1,5 @@
 ---
-title: WMDM\_PROP\_VALUES\_ENUM structure
+title: WMDM_PROP_VALUES_ENUM structure
 description: The WMDM\_PROP\_VALUES\_ENUM structure contains an enumerated set of valid values for a particular property in a particular property configuration.
 ms.assetid: 8094f3c0-a7ed-4e63-8503-aaac3fd9c012
 keywords:

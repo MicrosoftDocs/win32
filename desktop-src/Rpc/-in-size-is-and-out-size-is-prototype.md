@@ -1,5 +1,5 @@
 ---
-title: '\ in, size\_is\ and \ out, size\_is\ Prototype'
+title: ' in, size_is and  out, size_is Prototype'
 description: The following function prototype uses two counted strings. The developer must write code on both client and server to keep track of the character array lengths and pass parameters that tell the stubs how many array elements to transmit.
 ms.assetid: 334c5e0f-b1fb-41ca-8157-d92525e78b3a
 ms.technology: desktop

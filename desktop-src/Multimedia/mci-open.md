@@ -1,5 +1,5 @@
 ---
-title: MCI\_OPEN command
+title: MCI_OPEN command
 description: The MCI\_OPEN command initializes a device or file. All devices recognize this command.
 ms.assetid: e2ee92b5-b10b-4408-950e-3002fe775b25
 keywords:

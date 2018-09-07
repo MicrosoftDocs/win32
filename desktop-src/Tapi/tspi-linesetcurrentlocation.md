@@ -1,7 +1,7 @@
 ---
 Description: This TSPI\_lineSetCurrentLocation function is obsolete. TAPI called this function when the user (using the Dialing Properties dialog box) or an application (using the lineSetCurrentLocation function) changed the address translation location.
 ms.assetid: acd9f05b-88ae-439a-95c0-d1e8779a32fe
-title: TSPI\_lineSetCurrentLocation
+title: TSPI_lineSetCurrentLocation
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

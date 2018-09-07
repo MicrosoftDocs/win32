@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Experience02 class
+title: MDM_Policy_Result01_Experience02 class
 description: The MDM\_Policy\_Result01\_Experience02 class represents the experience policies available.
 ms.assetid: c6dc2ef1-1f12-40b0-9d5f-9e886fe1e128
 keywords:

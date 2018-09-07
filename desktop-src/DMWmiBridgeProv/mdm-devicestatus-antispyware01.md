@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_Antispyware01 class
+title: MDM_DeviceStatus_Antispyware01 class
 description: The MDM\_DeviceStatus\_Antispyware01 class is used by the enterprise to query the state of antispyware compliance of devices with their enterprise policies.
 ms.assetid: 53275aa1-ff7d-4630-b6c5-aedce3f4665a
 keywords:

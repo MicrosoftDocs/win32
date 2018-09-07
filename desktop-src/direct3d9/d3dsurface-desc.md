@@ -1,7 +1,7 @@
 ---
 Description: Describes a surface.
 ms.assetid: fad8ffdb-36e5-4695-b343-e1315357c31a
-title: D3DSURFACE\_DESC structure
+title: D3DSURFACE_DESC structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

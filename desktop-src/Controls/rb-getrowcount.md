@@ -1,5 +1,5 @@
 ---
-title: RB\_GETROWCOUNT message
+title: RB_GETROWCOUNT message
 description: Retrieves the number of rows of bands in a rebar control.
 ms.assetid: 80f9614e-672d-4c2a-bb2a-382597193796
 keywords:

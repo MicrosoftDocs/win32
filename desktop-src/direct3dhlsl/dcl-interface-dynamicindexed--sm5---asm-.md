@@ -1,5 +1,5 @@
 ---
-title: dcl\_interface\_dynamicindexed (sm5 - asm)
+title: dcl_interface_dynamicindexed (sm5 - asm)
 description: Declare function table pointers (interfaces).
 ms.assetid: 5C77EBB6-7AEC-4471-AA6E-0F6D3E215156
 ms.technology: desktop

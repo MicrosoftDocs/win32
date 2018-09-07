@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_ROOT\_PARAMETER1 structure
+title: CD3DX12_ROOT_PARAMETER1 structure
 description: A helper structure to enable easy initialization of a D3D12\_ROOT\_PARAMETER1 structure.
 ms.assetid: CDE0C02E-0112-4FD9-A4A2-36E8C326715C
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The IsOwnershipAllowed method of the Win32\_Tpm class indicates whether the ability to install an owner for the device is permitted.
 ms.assetid: dfeb5afe-4169-470b-b5e4-cf1e5781271e
-title: IsOwnershipAllowed method of the Win32\_Tpm class
+title: IsOwnershipAllowed method of the Win32_Tpm class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: '\ ifdef'
+title: ' ifdef'
 description: The \ ifdef directive controls conditional compilation of the resource file by checking the specified name.
 ms.assetid: 877c6b58-d8a1-4e68-8b69-29fe106d6cbd
 ms.technology: desktop

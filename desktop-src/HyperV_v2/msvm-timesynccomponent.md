@@ -1,7 +1,7 @@
 ---
 Description: Represents the state of the time synchronization service, which is responsible for synchronizing the system time of a virtual machine with the system time of the operating system running in the management operating system.
 ms.assetid: 551A81E9-E924-4A9C-965D-02FF25EE4A49
-title: Msvm\_TimeSyncComponent class
+title: Msvm_TimeSyncComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: ProvisioningJobCancel method of the Win32\_RDMSVirtualDesktopCollection class
+title: ProvisioningJobCancel method of the Win32_RDMSVirtualDesktopCollection class
 description: Cancels a virtual desktop provisioning job.
 audience: developer
 author: REDMOND\\markl

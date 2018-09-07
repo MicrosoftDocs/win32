@@ -1,5 +1,5 @@
 ---
-title: Disconnect method of the Win32\_TSGatewayConnection class
+title: Disconnect method of the Win32_TSGatewayConnection class
 description: Disconnects the connection from the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

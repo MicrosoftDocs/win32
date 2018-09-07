@@ -1,5 +1,5 @@
 ---
-title: MENUEX\_TEMPLATE\_HEADER structure
+title: MENUEX_TEMPLATE_HEADER structure
 description: Defines the header for an extended menu template. This structure definition is for explanation only; it is not present in any standard header file.
 ms.assetid: df763349-7127-482e-8613-74e68addde5d
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Clears save state from an existing snapshot.
 ms.assetid: abb0ed4a-7f89-4d32-93d2-7491d2f2aa83
-title: ClearSnapshotState method of the Msvm\_VirtualSystemSnapshotService class
+title: ClearSnapshotState method of the Msvm_VirtualSystemSnapshotService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

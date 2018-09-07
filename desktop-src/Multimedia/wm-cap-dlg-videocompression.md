@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_DLG\_VIDEOCOMPRESSION message
+title: WM_CAP_DLG_VIDEOCOMPRESSION message
 description: The WM\_CAP\_DLG\_VIDEOCOMPRESSION message displays a dialog box in which the user can select a compressor to use during the capture process.
 ms.assetid: 526e4b5d-49a4-4bb5-92d6-cdd567636354
 keywords:

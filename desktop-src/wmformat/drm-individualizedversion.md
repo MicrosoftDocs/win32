@@ -1,5 +1,5 @@
 ---
-title: DRM\_IndividualizedVersion
+title: DRM_IndividualizedVersion
 description: The DRM\_IndividualizedVersion attribute is stored in the DRM header and contains the minimum individualized version required to access the content.
 ms.assetid: ed3e165c-c6b0-4eea-be79-a715abd4dd0a
 keywords:

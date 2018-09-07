@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSEnvironmentSetting Methods
+title: Win32_TSEnvironmentSetting Methods
 description: The Win32\_TSEnvironmentSetting class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

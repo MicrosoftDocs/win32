@@ -1,7 +1,7 @@
 ---
 Description: Represents the memory currently allocated to a virtual machine.
 ms.assetid: 4CAA64FC-5A06-409B-9E92-32DF3F47D5FD
-title: Msvm\_Memory class
+title: Msvm_Memory class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

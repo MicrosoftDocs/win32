@@ -1,5 +1,5 @@
 ---
-title: MP\_HASH\_TYPE enumeration
+title: MP_HASH_TYPE enumeration
 description: Possible hash types.
 ms.assetid: 46432C40-6DE1-4FB8-B7C1-C2712CCEB208
 keywords:

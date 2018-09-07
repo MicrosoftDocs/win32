@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGeneralSetting class
+title: Win32_TSGeneralSetting class
 description: Represents general settings of the terminal such as the encryption level and transport protocol.
 audience: developer
 author: REDMOND\\markl

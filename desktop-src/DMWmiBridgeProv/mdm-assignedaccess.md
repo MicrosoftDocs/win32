@@ -1,5 +1,5 @@
 ---
-title: MDM\_AssignedAccess class
+title: MDM_AssignedAccess class
 description: The MDM\_AssignedAccess class is used to set the device to run in kiosk mode.
 ms.assetid: b9837f91-3c13-4a80-bf6d-66d8b53dfa70
 keywords:

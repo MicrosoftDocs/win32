@@ -1,5 +1,5 @@
 ---
-title: RPC\_AUTHZ\_HANDLE
+title: RPC_AUTHZ_HANDLE
 description: The RPC\_AUTHZ\_HANDLE data type declares an authorization handle. This handle points to the privileges information for the client application that made the remote procedure call.
 ms.assetid: 35b6a3f4-1703-4244-98fd-fad7de48b262
 keywords:

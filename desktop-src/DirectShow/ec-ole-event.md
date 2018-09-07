@@ -1,7 +1,7 @@
 ---
 Description: A filter is passing a text string to the application.
 ms.assetid: 477c6456-c96c-4d3d-b877-2a426510de29
-title: EC\_OLE\_EVENT
+title: EC_OLE_EVENT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: CB\_TARGET\_INFO structure
+title: CB_TARGET_INFO structure
 description: Contains information about the target computer and IP addresses where incoming connections should be redirected.
 audience: developer
 author: REDMOND\\markl

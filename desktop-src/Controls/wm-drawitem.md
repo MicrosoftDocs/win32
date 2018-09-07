@@ -1,5 +1,5 @@
 ---
-title: WM\_DRAWITEM message
+title: WM_DRAWITEM message
 description: Sent to the parent window of an owner-drawn button, combo box, list box, or menu when a visual aspect of the button, combo box, list box, or menu has changed.
 ms.assetid: e54bae5e-10d6-43b0-a766-1b270c8873a9
 keywords:

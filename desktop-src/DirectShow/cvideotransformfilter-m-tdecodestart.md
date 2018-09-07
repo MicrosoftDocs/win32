@@ -1,7 +1,7 @@
 ---
 Description: Length of time that it took to decode the most recent sample, in milliseconds.
 ms.assetid: e9cac411-f327-4750-9129-0bc2885eedd7
-title: CVideoTransformFilter::m\_tDecodeStart member
+title: CVideoTransformFilter::m_tDecodeStart member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

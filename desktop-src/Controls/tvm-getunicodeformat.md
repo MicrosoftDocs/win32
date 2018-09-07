@@ -1,5 +1,5 @@
 ---
-title: TVM\_GETUNICODEFORMAT message
+title: TVM_GETUNICODEFORMAT message
 description: Retrieves the Unicode character format flag for the control. You can send this message explicitly or use the TreeView\_GetUnicodeFormat macro.
 ms.assetid: d95f61b6-9ec1-4471-b24b-efe141428747
 keywords:

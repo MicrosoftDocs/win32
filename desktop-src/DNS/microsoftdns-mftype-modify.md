@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_MFType class
+title: Modify method of the MicrosoftDNS_MFType class
 description: The Modify method updates a Mail Forwarding Agent for Domain (MF) Resource Record.
 ms.assetid: b4bc43a5-6f43-487d-ad6c-3e01d5b2b6b8
 keywords:

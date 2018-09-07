@@ -1,5 +1,5 @@
 ---
-title: NM\_KEYDOWN notification code
+title: NM_KEYDOWN notification code
 description: Sent by a control when the control has the keyboard focus and the user presses a key. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e3b38096-797d-4948-9595-a252cf33dcdd
 keywords:

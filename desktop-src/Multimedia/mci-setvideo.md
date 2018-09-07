@@ -1,5 +1,5 @@
 ---
-title: MCI\_SETVIDEO command
+title: MCI_SETVIDEO command
 description: The MCI\_SETVIDEO command sets values associated with video playback. Digital-video and VCR devices recognize this command.
 ms.assetid: b84956d8-01a0-49f6-a96c-2693a25e6f2a
 keywords:

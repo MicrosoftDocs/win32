@@ -1,5 +1,5 @@
 ---
-title: RB\_SETTOOLTIPS message
+title: RB_SETTOOLTIPS message
 description: Associates a tooltip control with the rebar control.
 ms.assetid: b80e6a0d-2afe-45dd-8ab0-90e7bce00bc7
 keywords:

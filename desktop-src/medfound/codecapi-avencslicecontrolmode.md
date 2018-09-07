@@ -1,7 +1,7 @@
 ---
 Description: Specifies the slice control mode. Valid values are 0, 1, and 2.
 ms.assetid: 5269DB79-639C-4F67-B885-BF1274CDB635
-title: CODECAPI\_AVEncSliceControlMode property
+title: CODECAPI_AVEncSliceControlMode property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

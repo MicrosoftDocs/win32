@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_EventLogService02 class
+title: MDM_Policy_Config01_EventLogService02 class
 description: The MDM\_Policy\_Config01\_EventLogService02 class configures the event log behavior.
 ms.assetid: 206934c4-6671-4f13-be79-22ff1fb7ce7e
 keywords:

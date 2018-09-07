@@ -1,7 +1,7 @@
 ---
 Description: Contains the category GUID for a Media Foundation transform (MFT).
 ms.assetid: 3c0948fc-42ea-4e43-a312-c98038020214
-title: MFPKEY\_CATEGORY property
+title: MFPKEY_CATEGORY property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

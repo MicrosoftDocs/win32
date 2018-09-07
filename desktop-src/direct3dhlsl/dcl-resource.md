@@ -1,5 +1,5 @@
 ---
-title: dcl\_resource (sm4 - asm)
+title: dcl_resource (sm4 - asm)
 description: dcl\_resource (sm4 - asm)
 ms.assetid: 045610f0-f7db-4bf2-bfea-501bbee94601
 ms.technology: desktop

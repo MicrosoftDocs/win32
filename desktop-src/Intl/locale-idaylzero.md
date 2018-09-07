@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_IDAYLZERO
 ms.assetid: c5cfd088-cc62-4852-9bbe-8656bacc7c4e
-title: LOCALE\_IDAYLZERO
+title: LOCALE_IDAYLZERO
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

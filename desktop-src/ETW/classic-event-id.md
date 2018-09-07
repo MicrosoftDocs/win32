@@ -1,7 +1,7 @@
 ---
 Description: Identifies the kernel event for which you want to enable call stack tracing.
 ms.assetid: cbd77002-466b-40e6-85a5-cd872aef7d51
-title: CLASSIC\_EVENT\_ID structure
+title: CLASSIC_EVENT_ID structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

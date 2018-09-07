@@ -7,7 +7,7 @@ ms.assetid: 6bdff9a8-1a7c-4860-a12e-4d3162964ee4
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ExtendedStatus class'
+title: '__ExtendedStatus class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: ORPC\_DBG\_BUFFER structure
+title: ORPC_DBG_BUFFER structure
 description: The ORPC\_DBG\_BUFFER structure is the buffer format used to marshalled RPC data to the methods of the IOrpcDebugNotify interface.
 ms.assetid: 444cd3b8-bc7b-425d-9ccc-04fd6c7393b2
 keywords:

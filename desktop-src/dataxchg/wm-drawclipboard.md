@@ -1,5 +1,5 @@
 ---
-title: WM\_DRAWCLIPBOARD message
+title: WM_DRAWCLIPBOARD message
 description: Sent to the first window in the clipboard viewer chain when the content of the clipboard changes. This enables a clipboard viewer window to display the new content of the clipboard. A window receives this message through its WindowProc function.
 ms.assetid: ffaadf6f-588b-4a29-b26c-629087e7ce73
 keywords:

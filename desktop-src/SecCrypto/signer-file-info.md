@@ -1,7 +1,7 @@
 ---
 Description: Specifies a file to sign.
 ms.assetid: 5b45d855-ede8-43eb-9253-e3fe1716686b
-title: SIGNER\_FILE\_INFO structure
+title: SIGNER_FILE_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

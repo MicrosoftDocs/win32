@@ -1,5 +1,5 @@
 ---
-title: WM\_COMPAREITEM message
+title: WM_COMPAREITEM message
 description: Sent to determine the relative position of a new item in the sorted list of an owner-drawn combo box or list box.
 ms.assetid: 22882730-9fd6-4b45-a563-d7b00ed26564
 keywords:

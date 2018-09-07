@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSSessionDirectory class
+title: Win32_TSSessionDirectory class
 description: Defines the Remote Desktop Connection Broker (RD Connection Broker) configuration settings for the Win32\_TSSessionDirectorySetting class.
 audience: developer
 author: REDMOND\\markl

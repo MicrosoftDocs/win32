@@ -1,5 +1,5 @@
 ---
-title: WMT\_STATUS Event Notification in DirectShow
+title: WMT_STATUS Event Notification in DirectShow
 description: WMT\_STATUS Event Notification in DirectShow
 ms.assetid: 6b777c7e-2777-445b-88de-a9a28be6da9c
 keywords:

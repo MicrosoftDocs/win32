@@ -1,7 +1,7 @@
 ---
 Description: Specifies how the Media Session shuts down an object in the topology.
 ms.assetid: 53b4faba-860f-4d6c-a145-09ea4ae63b8b
-title: MF\_TOPONODE\_NOSHUTDOWN\_ON\_REMOVE attribute
+title: MF_TOPONODE_NOSHUTDOWN_ON_REMOVE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

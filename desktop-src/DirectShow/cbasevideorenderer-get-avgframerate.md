@@ -1,7 +1,7 @@
 ---
 Description: The get\_AvgFrameRate method calculates and retrieves the average frame rate achieved.
 ms.assetid: f36fc020-8c1a-491f-9f55-18265fde8bf8
-title: CBaseVideoRenderer.get\_AvgFrameRate method
+title: CBaseVideoRenderer.get_AvgFrameRate method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

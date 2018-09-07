@@ -1,5 +1,5 @@
 ---
-title: LVN\_DELETEALLITEMS notification code
+title: LVN_DELETEALLITEMS notification code
 description: Notifies a list-view control's parent window that all items in the control are about to be deleted. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e4a219cf-4af9-4d02-8810-f576ba658177
 keywords:

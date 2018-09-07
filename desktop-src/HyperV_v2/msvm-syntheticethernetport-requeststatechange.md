@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 9aea3a8e-8b62-48c3-bbdb-49f24aeeca22
-title: RequestStateChange method of the Msvm\_SyntheticEthernetPort class
+title: RequestStateChange method of the Msvm_SyntheticEthernetPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

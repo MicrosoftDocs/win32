@@ -1,5 +1,5 @@
 ---
-title: ChangeZoneType method of the MicrosoftDNS\_Zone class
+title: ChangeZoneType method of the MicrosoftDNS_Zone class
 description: The ChangeZoneType method changes the type of a zone.
 ms.assetid: a0a9f495-fdbb-4258-a313-ee9551da762f
 keywords:

@@ -7,7 +7,7 @@ ms.assetid: 79f01853-c649-4cbe-b2fa-cff38fb4b733
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.Associators\_ method
+title: SWbemObject.Associators_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

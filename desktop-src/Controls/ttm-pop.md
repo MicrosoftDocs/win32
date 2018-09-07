@@ -1,5 +1,5 @@
 ---
-title: TTM\_POP message
+title: TTM_POP message
 description: Removes a displayed tooltip window from view.
 ms.assetid: 911f8e55-5b5a-46f8-9895-58b06cbf8828
 keywords:

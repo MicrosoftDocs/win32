@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetAuthor method.
 ms.assetid: fb76009e-cc01-4dec-9403-04bf6b53db80
-title: IWICComponentInfo\_GetAuthor\_Proxy function
+title: IWICComponentInfo_GetAuthor_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

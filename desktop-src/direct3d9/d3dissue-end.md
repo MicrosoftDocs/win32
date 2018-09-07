@@ -1,7 +1,7 @@
 ---
 Description: This macro creates a value used by Issue to issue a query end.
 ms.assetid: 9ced932a-5d98-4bf8-aa11-06560f53546d
-title: D3DISSUE\_END
+title: D3DISSUE_END
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

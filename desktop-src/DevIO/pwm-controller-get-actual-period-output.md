@@ -1,7 +1,7 @@
 ---
 Description: Contains the effective output signal period for a Pulse Width Modulation (PWM) controller.
 ms.assetid: 280F564F-FF7F-4121-B726-9F9AF9E98EB7
-title: PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD\_OUTPUT structure
+title: PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

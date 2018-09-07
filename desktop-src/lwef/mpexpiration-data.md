@@ -1,5 +1,5 @@
 ---
-title: MPEXPIRATION\_DATA structure
+title: MPEXPIRATION_DATA structure
 description: Product expiration status notification.
 ms.assetid: BF464FFD-16AE-4F46-83CD-E0355478180C
 keywords:

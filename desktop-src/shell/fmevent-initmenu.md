@@ -1,6 +1,6 @@
 ---
 Description: Sent to an extension DLL when the user selects the menu for the extension from the File Manager menu bar. The extension can use this notification to initialize menu items.
-title: FMEVENT\_INITMENU message
+title: FMEVENT_INITMENU message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

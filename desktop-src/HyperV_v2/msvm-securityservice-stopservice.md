@@ -1,7 +1,7 @@
 ---
 Description: Stops the service.
 ms.assetid: cf100cea-b0e1-42e9-831e-6422aded47c5
-title: StopService method of the Msvm\_SecurityService class
+title: StopService method of the Msvm_SecurityService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MCI\_RESERVE command
+title: MCI_RESERVE command
 description: The MCI\_RESERVE command allocates contiguous disk space for the workspace of the device driver instance for use with subsequent recording. Digital-video devices recognize this command.
 ms.assetid: 01f0a377-0179-4b05-a642-af152a7a12ae
 keywords:

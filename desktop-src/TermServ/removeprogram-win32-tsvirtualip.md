@@ -1,5 +1,5 @@
 ---
-title: RemoveProgram method of the Win32\_TSVirtualIP class
+title: RemoveProgram method of the Win32_TSVirtualIP class
 description: Removes a program from the list of programs that use IP virtualization.
 audience: developer
 author: REDMOND\\markl

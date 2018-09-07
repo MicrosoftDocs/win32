@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_RTType class
+title: MicrosoftDNS_RTType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Route Through (RT) record.
 ms.assetid: 986e2bbf-4f45-4611-906e-66079fda7f4c
 keywords:

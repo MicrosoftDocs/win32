@@ -1,5 +1,5 @@
 ---
-title: MPRESOLVED\_REASON enumeration
+title: MPRESOLVED_REASON enumeration
 description: Possible reasons for a remediation failure being resolved.
 ms.assetid: 29E875D7-97DA-4129-AB71-B261CD0E682A
 keywords:

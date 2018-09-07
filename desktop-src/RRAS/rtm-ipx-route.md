@@ -1,5 +1,5 @@
 ---
-title: RTM\_IPX\_ROUTE structure
+title: RTM_IPX_ROUTE structure
 description: The RTM\_IPX\_ROUTE structure contains information that describes a route for the IPX protocol family.
 ms.assetid: ffa0637c-2197-4ebd-a5ef-e174dd0ccb15
 keywords:

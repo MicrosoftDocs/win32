@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetFileExtensions method.
 ms.assetid: 1c9232c5-54f3-4186-a1c8-4531e8357d06
-title: IWICBitmapCodecInfo\_GetFileExtensions\_Proxy function
+title: IWICBitmapCodecInfo_GetFileExtensions_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

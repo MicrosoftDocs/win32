@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the encoded video bit stream contains a buffer fullness value with every key frame.
 ms.assetid: 5574ee3c-ccb3-4ff6-8280-efe5626e6dd6
-title: MFPKEY\_BUFFERFULLNESSINFIRSTBYTE Property
+title: MFPKEY_BUFFERFULLNESSINFIRSTBYTE Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

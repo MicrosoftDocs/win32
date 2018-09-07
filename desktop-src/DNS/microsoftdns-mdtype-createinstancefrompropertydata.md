@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_MDType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_MDType class
 description: The CreateInstanceFromPropertyData method instantiates a Mail Agent for Domain (MD) Resource Record.
 ms.assetid: 23155a49-e2b3-4a69-8572-5dee61019d8f
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: dcl\_usage output (sm1, sm2, sm3 - vs asm)
+title: dcl_usage output (sm1, sm2, sm3 - vs asm)
 description: The various types of output registers have been collapsed into twelve output registers (two for color, eight for texture, one for position, and one for fog and point size).
 ms.assetid: 500ca6b3-0f8a-446e-b1b9-edc51f006ad4
 ms.technology: desktop

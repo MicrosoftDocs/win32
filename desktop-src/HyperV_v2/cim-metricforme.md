@@ -1,7 +1,7 @@
 ---
 Description: Represents an association in which a metric values are collected for a managed element.
 ms.assetid: 00752751-bc27-463b-a4ac-4db8e5040077
-title: CIM\_MetricForME class
+title: CIM_MetricForME class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

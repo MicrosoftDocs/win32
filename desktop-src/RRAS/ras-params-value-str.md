@@ -1,5 +1,5 @@
 ---
-title: RAS\_PARAMS\_VALUE union
+title: RAS_PARAMS_VALUE union
 description: The RAS\_PARAMS\_VALUE union is used in the RAS\_PARAMETERS structure to store the data associated with a media-specific parameter.
 ms.assetid: 43284ee4-9bd4-4019-860f-0fb7ff3f38ee
 keywords:

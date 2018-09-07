@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Maps02 class
+title: MDM_Policy_Config01_Maps02 class
 description: The MDM\_Policy\_Config01\_Maps02 class represents the map policies available.
 ms.assetid: d2965f1f-a858-4b43-9c46-17ba718291b1
 keywords:

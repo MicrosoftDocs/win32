@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Update02 class
+title: MDM_Policy_Result01_Update02 class
 description: The MDM\_Policy\_Result01\_Update02 class represents the update policies available.
 ms.assetid: 06604da6-5298-4273-a030-529491c2823c
 keywords:

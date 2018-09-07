@@ -1,7 +1,7 @@
 ---
 Description: Offset between the presentation time and the media sources time stamps.
 ms.assetid: 450f3c39-063e-4bf3-838a-0f7c240d6647
-title: MF\_EVENT\_PRESENTATION\_TIME\_OFFSET attribute
+title: MF_EVENT_PRESENTATION_TIME_OFFSET attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

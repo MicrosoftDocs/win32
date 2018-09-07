@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_EXTENDED\_ENROLLMENT\_STATUS structure
+title: WINBIO_EXTENDED_ENROLLMENT_STATUS structure
 description: Contains additional information about the status of an enrollment that is in progress.
 ms.assetid: 2FDDF4D3-6A3E-4DF5-ACA4-423F893C6F2B
 keywords:

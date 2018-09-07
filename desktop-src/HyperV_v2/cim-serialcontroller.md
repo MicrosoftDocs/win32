@@ -1,7 +1,7 @@
 ---
 Description: Describes the capabilities and management of a serial controller.
 ms.assetid: ce3e0424-4ab8-435d-a155-1164535b3b0d
-title: CIM\_SerialController class
+title: CIM_SerialController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

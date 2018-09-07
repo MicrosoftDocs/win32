@@ -1,5 +1,5 @@
 ---
-title: MDM\_Update\_PendingRebootUpdates01\_01 class
+title: MDM_Update_PendingRebootUpdates01_01 class
 description: The MDM\_Update\_PendingRebootUpdates01\_01 class is used to manage updates that are pending on reboot.
 ms.assetid: 752cdaaa-7883-43d4-be7d-7da9ad15d041
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Represents the capabilities of a CIM\_VirtualSystemMigrationService object.
 ms.assetid: 5fe3a10b-c075-4c45-838d-0b5c2e491584
-title: CIM\_VirtualSystemMigrationCapabilities class
+title: CIM_VirtualSystemMigrationCapabilities class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

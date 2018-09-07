@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_IPOS\* Constants
 ms.assetid: 5bee509f-0392-402c-b396-0380e1dcfe2c
-title: LOCALE\_IPOS\* Constants
+title: LOCALE_IPOS* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

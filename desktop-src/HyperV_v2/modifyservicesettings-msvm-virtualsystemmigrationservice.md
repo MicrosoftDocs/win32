@@ -1,7 +1,7 @@
 ---
 Description: Modifies the setting data for the migration service.
 ms.assetid: 5162fe88-dd39-4fe0-b8e9-e9b70c2b6a5c
-title: ModifyServiceSettings method of the Msvm\_VirtualSystemMigrationService class
+title: ModifyServiceSettings method of the Msvm_VirtualSystemMigrationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Flag that indicates whether the pin supports dynamic reconnection.
 ms.assetid: c8286dda-0d39-4707-8e5b-d9d84d414408
-title: CBasePin::m\_bCanReconnectWhenActive member
+title: CBasePin::m_bCanReconnectWhenActive member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

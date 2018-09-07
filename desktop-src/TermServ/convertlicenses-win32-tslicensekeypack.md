@@ -1,5 +1,5 @@
 ---
-title: ConvertLicenses method of the Win32\_TSLicenseKeyPack class
+title: ConvertLicenses method of the Win32_TSLicenseKeyPack class
 description: Converts the licenses in the current key pack.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: dcl\_indexableTemp (sm4 - asm)
+title: dcl_indexableTemp (sm4 - asm)
 description: dcl\_indexableTemp (sm4 - asm)
 ms.assetid: 32d8e7ce-4b28-48c3-b794-56ace96394f0
 ms.technology: desktop

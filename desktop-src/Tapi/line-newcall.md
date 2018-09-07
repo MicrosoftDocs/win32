@@ -1,7 +1,7 @@
 ---
 Description: The TSPI LINE\_NEWCALL message is sent to the LINEEVENT callback function whenever a new call that TAPI has not originated arrives on a line that TAPI has open.
 ms.assetid: 36122dfb-1ed6-459d-aa2b-69c86daaddd8
-title: LINE\_NEWCALL message
+title: LINE_NEWCALL message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

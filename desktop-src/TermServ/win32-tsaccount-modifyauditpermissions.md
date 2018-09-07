@@ -1,5 +1,5 @@
 ---
-title: ModifyAuditPermissions method of the Win32\_TSAccount class
+title: ModifyAuditPermissions method of the Win32_TSAccount class
 description: Prepares to set a more granular set of audit permissions to the specified account.
 audience: developer
 author: REDMOND\\markl

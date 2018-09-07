@@ -1,7 +1,7 @@
 ---
 Description: The LINETSPIOPTION\_ constants describes the order service providers should be called.
 ms.assetid: af91f466-d87e-4767-a2c6-d882b9108f21
-title: LINETSPIOPTION\_ Constants
+title: LINETSPIOPTION_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

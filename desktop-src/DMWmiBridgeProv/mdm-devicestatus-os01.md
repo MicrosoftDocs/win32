@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_OS01 class
+title: MDM_DeviceStatus_OS01 class
 description: The MDM\_DeviceStatus\_OS01 class is used by the enterprise to query the operating system on devices with their enterprise policies.
 ms.assetid: 887dc453-f6b5-4f09-8ce1-b87f71dd8396
 keywords:

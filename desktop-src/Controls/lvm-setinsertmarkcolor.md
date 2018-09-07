@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETINSERTMARKCOLOR message
+title: LVM_SETINSERTMARKCOLOR message
 description: Sets the color of the insertion point.
 ms.assetid: dce2c266-672b-4682-ba23-51d9a8e1102b
 keywords:

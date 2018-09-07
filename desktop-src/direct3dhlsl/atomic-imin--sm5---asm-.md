@@ -1,5 +1,5 @@
 ---
-title: atomic\_imin (sm5 - asm)
+title: atomic_imin (sm5 - asm)
 description: Atomic signed integer minimum to memory.
 ms.assetid: C30C7CDE-1024-4E69-959E-2D3122BF9AA7
 ms.technology: desktop

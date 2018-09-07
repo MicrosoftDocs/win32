@@ -1,5 +1,5 @@
 ---
-title: DRV\_CONFIGURE message
+title: DRV_CONFIGURE message
 description: Directs the installable driver to display its configuration dialog box and let the user specify new settings for the given installable driver instance.
 ms.assetid: 0d99fad7-ce79-4574-9fd8-262f7e758866
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WM\_CLIPBOARDUPDATE message
+title: WM_CLIPBOARDUPDATE message
 description: Sent when the contents of the clipboard have changed.
 ms.assetid: 1508aa22-9cf0-40a2-8cb0-ce7c8671df2c
 keywords:

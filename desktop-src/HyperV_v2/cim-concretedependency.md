@@ -1,7 +1,7 @@
 ---
 Description: Represents a generic association in which a managed element depends on another. CIM\_ConcreteDependency subclasses CIM\_Dependency to provide a concrete class version of CIM\_Dependency.
 ms.assetid: c0e1527d-d350-410d-9b5f-c9d4dedf7393
-title: CIM\_ConcreteDependency class
+title: CIM_ConcreteDependency class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

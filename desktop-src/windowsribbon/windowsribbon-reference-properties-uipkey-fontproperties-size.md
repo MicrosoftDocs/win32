@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_FontProperties\_Size
+title: UI_PKEY_FontProperties_Size
 description: Identifies the UI\_PKEY\_FontProperties\_Size property.
 ms.assetid: bd426910-9852-48e1-91c8-b94be5ef7199
 ms.technology: desktop

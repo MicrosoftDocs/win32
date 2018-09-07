@@ -1,7 +1,7 @@
 ---
 Description: Specifies a window for the Media Engine to apply Output Protection Manager (OPM) protections.
 ms.assetid: E5271D72-FE16-4D28-9BBA-1440C7CE0921
-title: MF\_MEDIA\_ENGINE\_OPM\_HWND attribute
+title: MF_MEDIA_ENGINE_OPM_HWND attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

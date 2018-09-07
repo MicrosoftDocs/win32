@@ -7,7 +7,7 @@ ms.assetid: 41976479-70e3-4914-a56a-fa94a1fd31c7
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_InstanceCreationEvent class'
+title: '__InstanceCreationEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

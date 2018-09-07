@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Handwriting02 class
+title: MDM_Policy_Result01_Handwriting02 class
 description: The MDM\_Policy\_Result01\_Handwriting02 class represents the default mode for the handwriting panel.
 ms.assetid: b21d0208-210d-476f-9269-f8d8a3307f17
 keywords:

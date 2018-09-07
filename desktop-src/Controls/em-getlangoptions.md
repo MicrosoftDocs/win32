@@ -1,5 +1,5 @@
 ---
-title: EM\_GETLANGOPTIONS message
+title: EM_GETLANGOPTIONS message
 description: Gets a rich edit control's option settings for Input Method Editor (IME) and Asian language support.
 ms.assetid: 9fd9d27c-7713-454e-b49f-8ecdba848d2e
 keywords:

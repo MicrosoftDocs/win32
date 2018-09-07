@@ -1,5 +1,5 @@
 ---
-title: Update method of the Win32\_TSGatewayResourceGroup class
+title: Update method of the Win32_TSGatewayResourceGroup class
 description: Updates the resource group.
 audience: developer
 author: REDMOND\\markl

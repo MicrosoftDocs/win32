@@ -1,5 +1,5 @@
 ---
-title: CB\_SETEXTENDEDUI message
+title: CB_SETEXTENDEDUI message
 description: An application sends a CB\_SETEXTENDEDUI message to select either the default UI or the extended UI for a combo box that has the CBS\_DROPDOWN or CBS\_DROPDOWNLIST style.
 ms.assetid: c489e484-777e-4afa-996b-1ec3eb6552ab
 keywords:

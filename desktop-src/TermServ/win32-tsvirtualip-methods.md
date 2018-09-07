@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSVirtualIP Methods
+title: Win32_TSVirtualIP Methods
 description: The Win32\_TSVirtualIP class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

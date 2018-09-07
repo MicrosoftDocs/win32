@@ -1,7 +1,7 @@
 ---
 Description: Specifies the WAVEFORMATEX structure describing the input audio content.
 ms.assetid: d424f243-5ad6-46f2-b99b-9bb780715e8a
-title: MFPKEY\_WMAENC\_ORIGWAVEFORMAT Property
+title: MFPKEY_WMAENC_ORIGWAVEFORMAT Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

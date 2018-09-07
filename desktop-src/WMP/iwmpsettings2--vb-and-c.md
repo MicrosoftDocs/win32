@@ -1,5 +1,5 @@
 ---
-title: IWMPSettings2 (VB and C\ ) interface
+title: IWMPSettings2 (VB and C ) interface
 description: Provides properties and a method that supplement the IWMPSettings interface.In addition to the properties and methods inherited from IWMPSettings, the IWMPSettings2 interface exposes the following properties.
 ms.assetid: 6bd0f6dd-df49-4c21-b47c-c8c63f85c2c0
 keywords:

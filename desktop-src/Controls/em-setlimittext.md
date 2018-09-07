@@ -1,5 +1,5 @@
 ---
-title: EM\_SETLIMITTEXT message
+title: EM_SETLIMITTEXT message
 description: Sets the text limit of an edit control.
 ms.assetid: e2be7814-435b-495f-982a-32247fbc0165
 keywords:

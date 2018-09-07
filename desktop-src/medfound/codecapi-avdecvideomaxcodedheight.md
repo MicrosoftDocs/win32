@@ -1,7 +1,7 @@
 ---
 Description: Sets the maximum picture height that a video decoder will accept as an input type.
 ms.assetid: 4122B150-3415-4288-8273-AB600901808A
-title: CODECAPI\_AVDecVideoMaxCodedHeight property
+title: CODECAPI_AVDecVideoMaxCodedHeight property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

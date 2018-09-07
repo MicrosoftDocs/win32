@@ -1,5 +1,5 @@
 ---
-title: MDM\_DevDetail class
+title: MDM_DevDetail class
 description: The MDM\_DevDetail class handles the management object which provides device-specific parameters to the OMA DM server.
 ms.assetid: 1a709051-656a-4900-b354-efbd208b46fc
 keywords:

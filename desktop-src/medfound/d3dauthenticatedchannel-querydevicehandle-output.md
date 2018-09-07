@@ -1,7 +1,7 @@
 ---
 Description: Contains the response to a D3DAUTHENTICATEDQUERY\_DEVICEHANDLE query.
 ms.assetid: f2e0ae6c-dc97-46f7-933f-6c14d83adf18
-title: D3DAUTHENTICATEDCHANNEL\_QUERYDEVICEHANDLE\_OUTPUT structure
+title: D3DAUTHENTICATEDCHANNEL_QUERYDEVICEHANDLE_OUTPUT structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

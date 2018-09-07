@@ -1,6 +1,6 @@
 ---
 Description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window).
-title: FM\_GETFILESEL message
+title: FM_GETFILESEL message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

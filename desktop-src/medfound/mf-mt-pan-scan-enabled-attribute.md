@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether pan/scan mode is enabled.
 ms.assetid: 9e8746c6-13a4-4cf7-9748-82223d9529fa
-title: MF\_MT\_PAN\_SCAN\_ENABLED attribute
+title: MF_MT_PAN_SCAN_ENABLED attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

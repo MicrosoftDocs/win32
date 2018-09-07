@@ -1,5 +1,5 @@
 ---
-title: /version\_stamp switch
+title: /version_stamp switch
 description: The /version\_stamp switch suppresses the generation of macros that specify the minimum required version number of the RPC header file, Rpcndr.h.
 ms.assetid: ec03f68b-60f7-431e-9fba-4434ef082058
 keywords:

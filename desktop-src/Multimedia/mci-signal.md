@@ -1,5 +1,5 @@
 ---
-title: MCI\_SIGNAL command
+title: MCI_SIGNAL command
 description: The MCI\_SIGNAL command sets a specified position in the workspace. Digital-video devices recognize this command. MCIAVI supports only one active signal at a time.
 ms.assetid: 32ca21a0-e2df-47f1-8e13-67c9d8f149db
 keywords:

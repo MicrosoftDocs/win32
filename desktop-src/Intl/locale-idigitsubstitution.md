@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_IDIGITSUBSTITUTION
 ms.assetid: f3f7d7ac-8f1e-4bfa-84f0-dfe8cff568c3
-title: LOCALE\_IDIGITSUBSTITUTION
+title: LOCALE_IDIGITSUBSTITUTION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

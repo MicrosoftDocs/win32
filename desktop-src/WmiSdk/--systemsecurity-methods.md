@@ -7,7 +7,7 @@ ms.assetid: BD47A5CA-A18D-4480-B531-DB3280CF0365
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_SystemSecurity Methods'
+title: '__SystemSecurity Methods'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

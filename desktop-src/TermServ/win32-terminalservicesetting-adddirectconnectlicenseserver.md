@@ -1,5 +1,5 @@
 ---
-title: AddDirectConnectLicenseServer method of the Win32\_TerminalServiceSetting class
+title: AddDirectConnectLicenseServer method of the Win32_TerminalServiceSetting class
 description: AddDirectConnectLicenseServer is no longer available.
 audience: developer
 author: REDMOND\\markl

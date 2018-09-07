@@ -1,7 +1,7 @@
 ---
 Description: Specifies the pixel aspect ratio of the output media type.
 ms.assetid: cc259ab4-6371-4309-99a3-51bb1aa3d63a
-title: MFPKEY\_PIXELASPECTRATIO Property
+title: MFPKEY_PIXELASPECTRATIO Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

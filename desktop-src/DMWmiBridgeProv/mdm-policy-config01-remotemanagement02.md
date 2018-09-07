@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_RemoteManagement02 class
+title: MDM_Policy_Config01_RemoteManagement02 class
 description: The MDM\_Policy\_Config01\_RemoteManagement02 remote management policies.
 ms.assetid: 2eabbf72-00a4-4c61-9ae1-ff49067cb502
 keywords:

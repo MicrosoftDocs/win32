@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSRemoteDesktop class
+title: Win32_TSRemoteDesktop class
 description: Describes a remote desktop connection that is available through Remote Desktop Web Access (RD Web Access).
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the codec will use the noise filter when encoding.
 ms.assetid: 9e099378-bb77-4dca-9171-7fe58e0139de
-title: MFPKEY\_DENOISEOPTION Property
+title: MFPKEY_DENOISEOPTION Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

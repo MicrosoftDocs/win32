@@ -1,7 +1,7 @@
 ---
 Description: Returns handles to the cryptographic session and Direct3D device that are associated with a specified DirectX Video Acceleration 2 (DXVA-2) decoder device.
 ms.assetid: 90b3bcf3-2988-48de-8acd-62e385d4fdf0
-title: D3DAUTHENTICATEDQUERY\_CRYPTOSESSION
+title: D3DAUTHENTICATEDQUERY_CRYPTOSESSION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

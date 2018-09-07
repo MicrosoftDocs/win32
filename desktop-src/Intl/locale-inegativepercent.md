@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_INEGATIVEPERCENT
 ms.assetid: 3518bd71-631d-48f2-b17f-b2ed41d44484
-title: LOCALE\_INEGATIVEPERCENT
+title: LOCALE_INEGATIVEPERCENT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

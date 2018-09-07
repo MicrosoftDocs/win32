@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSCollectionProperties class
+title: Win32_RDMSCollectionProperties class
 description: Manages the properties of a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

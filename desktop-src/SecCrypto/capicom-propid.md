@@ -1,7 +1,7 @@
 ---
 Description: Defines the CAPICOM property identifiers.
 ms.assetid: faf10018-3ed8-4de6-9838-c553626f6dd7
-title: CAPICOM\_PROPID enumeration
+title: CAPICOM_PROPID enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

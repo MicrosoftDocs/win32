@@ -1,5 +1,5 @@
 ---
-title: MoveUp method of the Win32\_TSGatewayRADIUSServer class
+title: MoveUp method of the Win32_TSGatewayRADIUSServer class
 description: Moves this Remote Authentication Dial-In User Service (RADIUS) server one position up in the priority order.
 audience: developer
 author: REDMOND\\markl

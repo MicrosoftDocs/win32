@@ -1,5 +1,5 @@
 ---
-title: EM\_GETPUNCTUATION message
+title: EM_GETPUNCTUATION message
 description: Gets the current punctuation characters for the rich edit control.
 ms.assetid: 1c04967b-d75e-4f54-b35b-cd50bac9cdfa
 keywords:

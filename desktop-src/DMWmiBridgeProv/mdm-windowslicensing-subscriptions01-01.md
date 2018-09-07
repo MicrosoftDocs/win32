@@ -1,5 +1,5 @@
 ---
-title: MDM\_WindowsLicensing\_Subscriptions01\_01 class
+title: MDM_WindowsLicensing_Subscriptions01_01 class
 description: The MDM\_WindowsLicensing\_Subscriptions01\_01 class is designed for subscription-related licensing management scenarios.
 ms.assetid: dc3b7eae-89d3-4e66-a65f-f100e23ea9fd
 keywords:

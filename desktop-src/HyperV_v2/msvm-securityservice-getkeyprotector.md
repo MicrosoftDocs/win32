@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the key protector for a virtual system.
 ms.assetid: fd827da8-b2fc-4c57-bb7d-7da46db8e8be
-title: GetKeyProtector method of the Msvm\_SecurityService class
+title: GetKeyProtector method of the Msvm_SecurityService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

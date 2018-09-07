@@ -1,7 +1,7 @@
 ---
 Description: The LINECALLFEATURE2\_ constants list the supplemental features available for conferencing, transferring, and parking calls.
 ms.assetid: 67a3b587-dd5b-4ccf-ab69-2137604706b8
-title: LINECALLFEATURE2\_ Constants
+title: LINECALLFEATURE2_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

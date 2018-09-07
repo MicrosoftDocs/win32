@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETINSERTMARKRECT message
+title: LVM_GETINSERTMARKRECT message
 description: Retrieves the rectangle that bounds the insertion point.
 ms.assetid: 7b10229c-73ab-426c-8a8a-71258a33e248
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the ID of an encrypted sample.
 ms.assetid: 09B11406-DF7B-4541-998C-68306654BADC
-title: MFSampleExtension\_Encryption\_SampleID attribute
+title: MFSampleExtension_Encryption_SampleID attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

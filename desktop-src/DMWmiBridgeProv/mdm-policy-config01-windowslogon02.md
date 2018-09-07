@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_WindowsLogon02 class
+title: MDM_Policy_Config01_WindowsLogon02 class
 description: The MDM\_Policy\_Config01\_WindowsLogon02 class configures the lock screen and network user interface at logon.
 ms.assetid: eb155cf8-628d-4325-8b39-f193733d4c87
 keywords:

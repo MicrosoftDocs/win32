@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSSessionDirectory Methods
+title: Win32_TSSessionDirectory Methods
 description: The Win32\_TSSessionDirectory class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

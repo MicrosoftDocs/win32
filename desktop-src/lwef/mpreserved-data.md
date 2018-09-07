@@ -1,5 +1,5 @@
 ---
-title: MPRESERVED\_DATA structure
+title: MPRESERVED_DATA structure
 description: Reserved notification data.
 ms.assetid: C92206BD-6E56-4B7D-ABB1-DC1149AE141D
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: StoreInstallMethod method of the MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01 class
+title: StoreInstallMethod method of the MDM_EnterpriseModernAppManagement_AppInstallation01_01 class
 description: Method to perform an install of an app and a license from the Windows Store. See also, StoreInstall.
 ms.assetid: 4f8aff47-ad16-4fe5-85be-7ddb55ddff24
 keywords:

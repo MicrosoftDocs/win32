@@ -1,5 +1,5 @@
 ---
-title: SetAllowDwm method of the Win32\_TSClientSetting class
+title: SetAllowDwm method of the Win32_TSClientSetting class
 description: Sets the AllowDwm property.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: PSN\_WIZNEXT notification code
+title: PSN_WIZNEXT notification code
 description: Notifies a page that the user has clicked the Next button in a wizard. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ff5be154-f2d1-403d-8f22-8f6cacfb66b1
 keywords:

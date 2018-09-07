@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseAPN\_01 class
+title: MDM_EnterpriseAPN_01 class
 description: The MDM\_EnterpriseAPN\_01 class is used by the enterprise to provision an APN for the Internet.
 ms.assetid: c5fc0a86-98b7-4d0c-aae5-be836e48eee7
 keywords:

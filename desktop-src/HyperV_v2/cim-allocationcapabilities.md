@@ -1,7 +1,7 @@
 ---
 Description: Represents the resource allocation settings of a managed element for a specific resource type.
 ms.assetid: f27910c7-a88a-4694-80fe-7761945782e0
-title: CIM\_AllocationCapabilities class
+title: CIM_AllocationCapabilities class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

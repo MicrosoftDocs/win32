@@ -1,7 +1,7 @@
 ---
 Description: Describes the creation parameters for a device.
 ms.assetid: 7db5ef2b-6894-4113-b726-8b238bb4fb2f
-title: D3DDEVICE\_CREATION\_PARAMETERS structure
+title: D3DDEVICE_CREATION_PARAMETERS structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

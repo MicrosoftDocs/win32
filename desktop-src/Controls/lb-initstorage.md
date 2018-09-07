@@ -1,5 +1,5 @@
 ---
-title: LB\_INITSTORAGE message
+title: LB_INITSTORAGE message
 description: Allocates memory for storing list box items. This message is used before an application adds a large number of items to a list box.
 ms.assetid: abc49049-3424-46c6-981a-b858afe88883
 keywords:

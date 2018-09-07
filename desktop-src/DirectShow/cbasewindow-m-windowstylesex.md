@@ -1,7 +1,7 @@
 ---
 Description: Extended window styles for the window.
 ms.assetid: 53e71d4c-1620-45d9-b082-fdf2a7f3d2f7
-title: CBaseWindow::m\_WindowStylesEx member
+title: CBaseWindow::m_WindowStylesEx member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

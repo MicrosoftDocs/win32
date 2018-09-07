@@ -1,5 +1,5 @@
 ---
-title: EM\_SETBIDIOPTIONS message
+title: EM_SETBIDIOPTIONS message
 description: The EM\_SETBIDIOPTIONS message sets the current state of the bidirectional options in the rich edit control.
 ms.assetid: b518e423-317a-4654-9d9f-c501028e2a0a
 keywords:

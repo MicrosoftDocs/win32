@@ -1,5 +1,5 @@
 ---
-title: MM\_MOM\_POSITIONCB message
+title: MM_MOM_POSITIONCB message
 description: The MM\_MOM\_POSITIONCB message is sent to a window when an MEVT\_F\_CALLBACK event is reached in the MIDI output stream.
 ms.assetid: afd2ba4c-ff6a-4e47-a7e8-a0da62650963
 keywords:

@@ -1,6 +1,6 @@
 ---
 Description: Sent by a File Manager extension to cause File Manager to repaint either its active window or all of its windows.
-title: FM\_REFRESH\_WINDOWS message
+title: FM_REFRESH_WINDOWS message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

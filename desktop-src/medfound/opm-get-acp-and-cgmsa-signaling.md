@@ -1,6 +1,6 @@
 ---
 ms.assetid: d477fe3e-4498-450b-93b7-ce74ae9ed005
-title: OPM\_GET\_ACP\_AND\_CGMSA\_SIGNALING
+title: OPM_GET_ACP_AND_CGMSA_SIGNALING
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: WM\_DDE\_TERMINATE message
+title: WM_DDE_TERMINATE message
 description: A Dynamic Data Exchange (DDE) application (client or server) posts a WM\_DDE\_TERMINATE message to terminate a conversation. To post this message, call the PostMessage function with the following parameters.
 ms.assetid: 4fc162c0-ccc2-44e3-9c07-d49d7426af8b
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: IWMPSettings.isAvailable (VB and C\ )
+title: IWMPSettings.isAvailable (VB and C )
 description: The isAvailable property (the get\_isAvailable method in C\ ) gets a value that indicates whether a specified action can be performed.
 ms.assetid: 9db1fc50-5c2a-4d2d-b1ed-02b8e6571372
 keywords:

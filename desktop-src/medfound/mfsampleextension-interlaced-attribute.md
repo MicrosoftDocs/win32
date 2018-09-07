@@ -1,7 +1,7 @@
 ---
 Description: Indicates whether a video frame is interlaced or progressive.
 ms.assetid: 3cb80e75-e803-493b-a22d-e485e77b5177
-title: MFSampleExtension\_Interlaced attribute
+title: MFSampleExtension_Interlaced attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

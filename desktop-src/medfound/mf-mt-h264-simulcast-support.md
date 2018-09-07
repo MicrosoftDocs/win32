@@ -1,7 +1,7 @@
 ---
 Description: Specifies the number of streaming endpoints and the number of supported streams for a UVC H.264 encoder.
 ms.assetid: 343EC59E-30E5-4F37-8B05-60EF51717835
-title: MF\_MT\_H264\_SIMULCAST\_SUPPORT attribute
+title: MF_MT_H264_SIMULCAST_SUPPORT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

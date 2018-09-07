@@ -1,5 +1,5 @@
 ---
-title: The type\_UserUnmarshal Function
+title: The type_UserUnmarshal Function
 description: The type \_UserUnmarshal function is a helper function for the \ wire\_marshal\ and \ user\_marshal\ attributes.
 ms.assetid: ee7a0e96-11ec-4d15-9d4b-55cc175fdd55
 keywords:

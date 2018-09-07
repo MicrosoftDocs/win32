@@ -1,7 +1,7 @@
 ---
 Description: Updates the system renewability message (SRM) for High-Bandwidth Digital Content Protection (HDCP).
 ms.assetid: ea18baba-0e03-4471-af0e-a588773c98d2
-title: OPM\_SET\_HDCP\_SRM
+title: OPM_SET_HDCP_SRM
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCAvgFrameRate
+title: g_wszWMVCAvgFrameRate
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 185e2b7d-d404-4b42-a7b2-349823645d18
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: PSN\_WIZBACK notification code
+title: PSN_WIZBACK notification code
 description: Notifies a page that the user has clicked the Back button in a wizard. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 784f92e7-6f10-40fc-b513-bea022f13ae1
 keywords:

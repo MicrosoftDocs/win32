@@ -1,7 +1,7 @@
 ---
 Description: The m\_hdc member variable is a handle to the device context of the owning window.
 ms.assetid: ffe11577-d811-494e-ad7b-094c4aa970f5
-title: CDrawImage::m\_hdc member
+title: CDrawImage::m_hdc member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

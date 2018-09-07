@@ -1,5 +1,5 @@
 ---
-title: TBM\_GETTHUMBLENGTH message
+title: TBM_GETTHUMBLENGTH message
 description: Retrieves the length of the slider in a trackbar.
 ms.assetid: 290187a2-7bf7-4a4b-a4cf-132f8ad38020
 keywords:

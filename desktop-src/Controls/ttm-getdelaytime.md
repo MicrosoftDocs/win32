@@ -1,5 +1,5 @@
 ---
-title: TTM\_GETDELAYTIME message
+title: TTM_GETDELAYTIME message
 description: Retrieves the initial, pop-up, and reshow durations currently set for a tooltip control.
 ms.assetid: f89a75ed-ba80-4741-927f-c571f3b2efe7
 keywords:

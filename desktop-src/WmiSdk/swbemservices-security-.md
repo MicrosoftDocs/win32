@@ -7,7 +7,7 @@ ms.assetid: d8b1118b-b26d-4740-915e-484a83953b11
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemServices.Security\_ property
+title: SWbemServices.Security_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

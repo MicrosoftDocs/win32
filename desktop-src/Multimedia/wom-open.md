@@ -1,5 +1,5 @@
 ---
-title: WOM\_OPEN message
+title: WOM_OPEN message
 description: The WOM\_OPEN message is sent to a waveform-audio output callback function when a waveform-audio output device is opened.
 ms.assetid: 1b0366de-61cd-4203-9173-ababaefdb153
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_RemoteManagement02 class
+title: MDM_Policy_Result01_RemoteManagement02 class
 description: The MDM\_Policy\_Result01\_RemoteManagement02 class represents the remote management policies.
 ms.assetid: f6eb96ff-a40e-4602-a812-786d1a89bf12
 keywords:

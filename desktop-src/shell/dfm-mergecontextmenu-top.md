@@ -1,6 +1,6 @@
 ---
 Description: Allows the callback to add items to the top of the extended menu.
-title: DFM\_MERGECONTEXTMENU\_TOP message
+title: DFM_MERGECONTEXTMENU_TOP message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

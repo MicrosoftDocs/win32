@@ -1,5 +1,5 @@
 ---
-title: CBEM\_INSERTITEM message
+title: CBEM_INSERTITEM message
 description: Inserts a new item in a ComboBoxEx control.
 ms.assetid: c99db676-204d-44c9-aaa3-81b70fe2cf44
 keywords:

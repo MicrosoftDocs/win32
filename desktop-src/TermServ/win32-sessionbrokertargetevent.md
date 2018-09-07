@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionBrokerTargetEvent class
+title: Win32_SessionBrokerTargetEvent class
 description: Represents a change to a session broker target.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: The IsOwnerClearDisabled method of the Win32\_Tpm class indicates whether the device owner is restricted from clearing the device.
 ms.assetid: 04f98e9b-c1a0-4828-b7cb-67b32d7470ea
-title: IsOwnerClearDisabled method of the Win32\_Tpm class
+title: IsOwnerClearDisabled method of the Win32_Tpm class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: gather4\_c (sm5 - asm)
+title: gather4_c (sm5 - asm)
 description: Same as gather4, except this instrution performs comparison on texels, similar to sample\_c.
 ms.assetid: 6265151A-36CE-4D31-B7B2-233CEEBDCF87
 ms.technology: desktop

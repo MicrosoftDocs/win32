@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the network source caches content.
 ms.assetid: f9a36315-083c-4ebb-9d36-d55fc1f21621
-title: MFNETSOURCE\_CACHEENABLED property
+title: MFNETSOURCE_CACHEENABLED property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

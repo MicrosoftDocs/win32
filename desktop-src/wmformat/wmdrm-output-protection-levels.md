@@ -1,5 +1,5 @@
 ---
-title: WMDRM\_OUTPUT\_PROTECTION\_LEVELS structure
+title: WMDRM_OUTPUT_PROTECTION_LEVELS structure
 description: The WMDRM\_OUTPUT\_PROTECTION\_LEVELS structure contains the output protections levels (OPLs) required by a license to perform various actions.
 ms.assetid: 6b284180-1033-4c57-b010-6d4ab4bc593a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: ICM\_COMPRESS\_GET\_SIZE message
+title: ICM_COMPRESS_GET_SIZE message
 description: The ICM\_COMPRESS\_GET\_SIZE message requests that the video compression driver supply the maximum size of one frame of data when compressed into the specified output format. You can send this message explicitly or by using the ICCompressGetSize macro.
 ms.assetid: 6910e588-e60f-43b1-8fa6-113c2ec32a53
 keywords:

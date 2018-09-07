@@ -1,7 +1,7 @@
 ---
 Description: The put\_RGB method specifies the RGB color on which to key. This property applies only when the key type is DXTKEY\_RGB.
 ms.assetid: 7a0b794e-bea6-4061-98a0-3f70521e89a3
-title: IDxtKey::put\_RGB method
+title: IDxtKey::put_RGB method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

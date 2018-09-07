@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETTEXTCOLOR message
+title: LVM_SETTEXTCOLOR message
 description: Sets the text color of a list-view control. You can send this message explicitly or by using the ListView\_SetTextColor macro.
 ms.assetid: ff90c18b-0cd7-4331-bcd8-61044e891d1f
 keywords:

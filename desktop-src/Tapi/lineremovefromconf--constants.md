@@ -1,7 +1,7 @@
 ---
 Description: The LINEREMOVEFROMCONF\_ scalar constants describe how parties participating in a conference call can be removed from a conference call.
 ms.assetid: fa1b36de-8be3-48ae-a58b-800f30259041
-title: LINEREMOVEFROMCONF\_ Constants
+title: LINEREMOVEFROMCONF_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

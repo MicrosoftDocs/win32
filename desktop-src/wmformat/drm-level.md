@@ -1,5 +1,5 @@
 ---
-title: DRM\_Level
+title: DRM_Level
 description: DRM\_Level is a license attribute that the Windows Media Format SDK sets when it creates a local license for files protected with DRM version 1.
 ms.assetid: 05357378-4d73-48df-a3b5-bdb2c543ec66
 keywords:

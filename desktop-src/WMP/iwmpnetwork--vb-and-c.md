@@ -1,5 +1,5 @@
 ---
-title: IWMPNetwork (VB and C\ ) interface
+title: IWMPNetwork (VB and C ) interface
 description: Provides properties and methods to access statistics relating to the quality of a network connection, and to specify and retrieve the network proxy settings.The IWMPNetwork interface exposes the following properties.
 ms.assetid: d385510f-11cf-4a2a-96be-b416cddc3d80
 keywords:

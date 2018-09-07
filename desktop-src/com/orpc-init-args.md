@@ -1,5 +1,5 @@
 ---
-title: ORPC\_INIT\_ARGS structure
+title: ORPC_INIT_ARGS structure
 description: The ORPC\_INIT\_ARGS structure contains information used to initialize remote debugging using the IOrpcDebugNotify interface.
 ms.assetid: be7646c7-3394-45ae-ae8f-9cee68bbc789
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DRM\_KeyID
+title: DRM_KeyID
 description: The DRM\_KeyID attribute contains the key identifier.
 ms.assetid: 90406809-76d9-4559-afe8-6812efbc1477
 keywords:

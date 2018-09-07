@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_DataUsage02 class
+title: MDM_Policy_Result01_DataUsage02 class
 description: The MDM\_Policy\_Result01\_DataUsage02 class represents the available data usage policies.
 ms.assetid: 4efcab61-2060-44dc-bc3c-7b23802fa284
 keywords:

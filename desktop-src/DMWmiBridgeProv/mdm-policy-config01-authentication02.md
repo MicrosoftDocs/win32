@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Authentication02 class
+title: MDM_Policy_Config01_Authentication02 class
 description: The MDM\_Policy\_Config01\_Authentication02 class represents the authentication management policies available.
 ms.assetid: 928e0b60-5533-45dc-90e6-be7d70210138
 keywords:

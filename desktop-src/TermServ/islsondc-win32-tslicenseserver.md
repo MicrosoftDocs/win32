@@ -1,5 +1,5 @@
 ---
-title: IsLSonDC method of the Win32\_TSLicenseServer class
+title: IsLSonDC method of the Win32_TSLicenseServer class
 description: Retrieves whether Remote Desktop Licensing (RD Licensing) is installed on a domain controller.
 audience: developer
 author: REDMOND\\markl

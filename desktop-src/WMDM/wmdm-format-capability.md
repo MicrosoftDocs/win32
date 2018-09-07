@@ -1,5 +1,5 @@
 ---
-title: WMDM\_FORMAT\_CAPABILITY structure
+title: WMDM_FORMAT_CAPABILITY structure
 description: The WMDM\_FORMAT\_CAPABILITY structure describes the capabilities of a device for a particular format.
 ms.assetid: 9672173D-B11E-4DCB-BCAE-38B94FCC8B99
 keywords:

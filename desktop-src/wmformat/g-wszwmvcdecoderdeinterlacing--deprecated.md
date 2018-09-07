@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCDecoderDeinterlacing
+title: g_wszWMVCDecoderDeinterlacing
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: f36266dd-7040-477c-89bc-44903b2613f1
 keywords:

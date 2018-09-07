@@ -1,5 +1,5 @@
 ---
-title: TS\_IE\_\ Constants
+title: TS_IE_ Constants
 description: The TS\_IE\_\ constants describe how to insert text that can contain embedded objects used by text services.
 ms.assetid: a455d712-42d5-472e-862d-85ae3ba9149f
 topic_type:

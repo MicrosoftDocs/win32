@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_ROOT\_DESCRIPTOR\_TABLE1 structure
+title: CD3DX12_ROOT_DESCRIPTOR_TABLE1 structure
 description: A helper structure to enable easy initialization of a D3D12\_ROOT\_DESCRIPTOR\_TABLE1 structure.
 ms.assetid: 82AC1948-92AA-4A4D-B443-717E9BF3046D
 keywords:

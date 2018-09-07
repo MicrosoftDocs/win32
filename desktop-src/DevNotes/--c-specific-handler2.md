@@ -1,7 +1,7 @@
 ---
 Description: Called by the compiler to implement structured exception handling extensions.
 ms.assetid: 6EAE0B4E-35E1-48EB-A8A9-0C1DC5387B03
-title: '\_\_C\_specific\_handler function'
+title: '__C_specific_handler function'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

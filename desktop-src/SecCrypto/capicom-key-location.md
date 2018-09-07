@@ -1,7 +1,7 @@
 ---
 Description: The CAPICOM\_KEY\_LOCATION enumeration defines key location types.
 ms.assetid: d6261906-66aa-4c18-8305-b7998bbe53d5
-title: CAPICOM\_KEY\_LOCATION enumeration
+title: CAPICOM_KEY_LOCATION enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

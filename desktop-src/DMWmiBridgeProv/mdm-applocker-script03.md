@@ -1,5 +1,5 @@
 ---
-title: MDM\_AppLocker\_Script03 class
+title: MDM_AppLocker_Script03 class
 description: The MDM\_AppLocker\_Script03 class defines the policy restrictions for processing DLL files.
 ms.assetid: 61fada02-7245-4825-945c-b41e9eff8e74
 keywords:

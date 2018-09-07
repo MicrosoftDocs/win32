@@ -1,5 +1,5 @@
 ---
-title: MDM\_AppLocker\_EnterpriseDataProtection01\_StoreApps03 class
+title: MDM_AppLocker_EnterpriseDataProtection01_StoreApps03 class
 description: The MDM\_AppLocker\_EnterpriseDataProtection01\_StoreApps03 class captures the list of Windows apps that are allowed to handle enterprise data. Should be used in conjunction with the settings in ./Vendor/MSFT/Policy/ConfigSource/DataProtection .
 ms.assetid: f37fe52d-dbe1-45b7-acd5-5047c46d9bd0
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DRM\_ActionAllowed\_PlaylistBurn
+title: DRM_ActionAllowed_PlaylistBurn
 description: The DRM\_ActionAllowed\_PlaylistBurn attribute indicates whether the content is allowed to be copied to CD as part of a playlist.
 ms.assetid: 9e078c02-a2ab-484f-a695-790eebb05837
 keywords:

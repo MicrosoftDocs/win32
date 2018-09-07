@@ -1,5 +1,5 @@
 ---
-title: IWMPDVD.isAvailable (VB and C\ )
+title: IWMPDVD.isAvailable (VB and C )
 description: The isAvailable property (the get\_isAvailable method in C\ ) gets a value that indicates whether a specified type of information is available or a specified action can be performed.
 ms.assetid: 55690783-df2f-473d-a6f2-a4907b7e8a78
 keywords:

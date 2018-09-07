@@ -1,5 +1,5 @@
 ---
-title: DRM\_IsDRM
+title: DRM_IsDRM
 description: The DRM\_IsDRM property indicates whether a file is a DRM-protected file.
 ms.assetid: 1d728135-25e9-4ab8-873d-b7df3e8cae83
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TVN\_GETINFOTIP notification code
+title: TVN_GETINFOTIP notification code
 description: Sent by a tree-view control that has the TVS\_INFOTIP style. This notification code is sent when the control is requesting additional text information to be displayed in a tooltip. The notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 20576710-e279-4e61-be6b-bf1d8ea79555
 keywords:

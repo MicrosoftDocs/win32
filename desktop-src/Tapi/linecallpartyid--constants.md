@@ -1,7 +1,7 @@
 ---
 Description: The LINECALLPARTYID\_ bit-flag constants describe the nature of the information available about the parties involved in a call.
 ms.assetid: e2a89f25-15f0-4f3c-9ac8-1e6b72c0d8db
-title: LINECALLPARTYID\_ Constants
+title: LINECALLPARTYID_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

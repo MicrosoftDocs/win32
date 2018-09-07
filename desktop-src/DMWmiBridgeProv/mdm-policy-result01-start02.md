@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Start02 class
+title: MDM_Policy_Result01_Start02 class
 description: The MDM\_Policy\_Result01\_Start02 class represents the start screen policies available.
 ms.assetid: 997d64f9-b2be-47b8-8a84-97438e7fa842
 keywords:

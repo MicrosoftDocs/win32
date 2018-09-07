@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 967c1256-d44e-476f-a24e-edcca2b083d2
-title: RequestStateChange method of the Msvm\_EthernetSwitchPort class
+title: RequestStateChange method of the Msvm_EthernetSwitchPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

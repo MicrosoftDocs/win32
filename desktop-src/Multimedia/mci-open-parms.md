@@ -1,5 +1,5 @@
 ---
-title: MCI\_OPEN\_PARMS structure
+title: MCI_OPEN_PARMS structure
 description: The MCI\_OPEN\_PARMS structure contains information for the MCI\_OPEN command.
 ms.assetid: d22cefeb-3d49-47cf-a946-f73c77ae43fd
 keywords:

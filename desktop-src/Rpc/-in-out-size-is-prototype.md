@@ -1,5 +1,5 @@
 ---
-title: '\ in, out, size\_is\ Prototype'
+title: ' in, out, size_is Prototype'
 description: '\ in, out, size\_is\ prototype uses a single-counted character array that is passed from client to server and from server to client.'
 ms.assetid: bce9a36f-9f7c-4438-9b5a-15b8877f74c0
 ms.technology: desktop

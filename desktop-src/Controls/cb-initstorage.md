@@ -1,5 +1,5 @@
 ---
-title: CB\_INITSTORAGE message
+title: CB_INITSTORAGE message
 description: An application sends the CB\_INITSTORAGE message before adding a large number of items to the list box portion of a combo box. This message allocates memory for storing list box items.
 ms.assetid: fb289968-a95b-4ca0-977d-b8651166f357
 keywords:

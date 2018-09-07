@@ -1,5 +1,5 @@
 ---
-title: ICM\_DRAW\_CHANGEPALETTE message
+title: ICM_DRAW_CHANGEPALETTE message
 description: The ICM\_DRAW\_CHANGEPALETTE message notifies a rendering driver that the movie palette is changing. You can send this message explicitly or by using the ICDrawChangePalette macro.
 ms.assetid: 974fc0d8-d0c7-4a82-af84-68b53f753259
 keywords:

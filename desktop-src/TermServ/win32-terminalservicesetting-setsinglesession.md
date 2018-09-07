@@ -1,5 +1,5 @@
 ---
-title: SetSingleSession method of the Win32\_TerminalServiceSetting class
+title: SetSingleSession method of the Win32_TerminalServiceSetting class
 description: The SetSingleSession method sets the SingleSession property for the class.
 audience: developer
 author: REDMOND\\markl

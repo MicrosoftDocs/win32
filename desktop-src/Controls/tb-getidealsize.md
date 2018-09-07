@@ -1,5 +1,5 @@
 ---
-title: TB\_GETIDEALSIZE message
+title: TB_GETIDEALSIZE message
 description: Gets the ideal size of the toolbar.
 ms.assetid: d3b5ea4d-fd80-4f07-be4f-89b53a8bdf4d
 keywords:

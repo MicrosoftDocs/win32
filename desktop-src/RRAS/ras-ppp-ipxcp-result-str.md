@@ -1,5 +1,5 @@
 ---
-title: RAS\_PPP\_IPXCP\_RESULT structure
+title: RAS_PPP_IPXCP_RESULT structure
 description: The RAS\_PPP\_IPXCP\_RESULT structure is used to report the result of a PPP Internetwork Packet Exchange (IPX) projection operation for a port.
 ms.assetid: e1236e1b-f0ef-46cf-a12f-35529215752c
 keywords:

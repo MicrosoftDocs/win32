@@ -1,5 +1,5 @@
 ---
-title: MP\_FASTPATH\_TYPE enumeration
+title: MP_FASTPATH_TYPE enumeration
 description: FastPath type.
 ms.assetid: BD72228F-DCC0-435E-A408-BD7FB02E55E1
 keywords:

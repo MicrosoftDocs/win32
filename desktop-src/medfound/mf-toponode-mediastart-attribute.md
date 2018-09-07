@@ -1,7 +1,7 @@
 ---
 Description: Specifies the start time of the presentation.
 ms.assetid: a2a64cac-0dc1-41b0-b59c-a477c7304ba1
-title: MF\_TOPONODE\_MEDIASTART attribute
+title: MF_TOPONODE_MEDIASTART attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

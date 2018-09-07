@@ -1,5 +1,5 @@
 ---
-title: NSC\_Address
+title: NSC_Address
 description: The NSC\_Address attribute contains the address of the multicast station contact.
 ms.assetid: ecf43cc2-bbd2-4fba-b5b9-69335a9784d1
 keywords:

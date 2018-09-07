@@ -1,5 +1,5 @@
 ---
-title: NM\_RDBLCLK (tree view) notification code
+title: NM_RDBLCLK (tree view) notification code
 description: Notifies the parent of a tree-view control that the user has double-clicked the right mouse button within the control. This notification is sent in the form of a WM\_NOTIFY message.
 ms.assetid: eb1ae167-32cb-45d6-92e6-7bf5f7e46c2a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: D3DX11\_TECHNIQUE\_DESC structure
+title: D3DX11_TECHNIQUE_DESC structure
 description: Describes an effect technique.
 ms.assetid: 89690a68-d7e8-4f44-9f67-c55d0a400602
 keywords:

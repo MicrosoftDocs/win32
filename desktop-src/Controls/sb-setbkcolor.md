@@ -1,5 +1,5 @@
 ---
-title: SB\_SETBKCOLOR message
+title: SB_SETBKCOLOR message
 description: Sets the background color in a status bar.
 ms.assetid: 49bcd816-e3e2-45f4-8845-ef67789b8a01
 keywords:

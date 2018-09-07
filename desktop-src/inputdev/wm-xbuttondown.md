@@ -1,5 +1,5 @@
 ---
-title: WM\_XBUTTONDOWN message
+title: WM_XBUTTONDOWN message
 description: Posted when the user presses the first or second X button while the cursor is in the client area of a window.
 ms.assetid: 4d972841-1513-4925-9d59-2557233561a2
 keywords:

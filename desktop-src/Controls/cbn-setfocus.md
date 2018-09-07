@@ -1,5 +1,5 @@
 ---
-title: CBN\_SETFOCUS notification code
+title: CBN_SETFOCUS notification code
 description: Sent when a combo box receives the keyboard focus. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
 ms.assetid: 8072edc6-aedc-4daf-80df-d3acd82fcffa
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CB\_FINDSTRING message
+title: CB_FINDSTRING message
 description: Searches the list box of a combo box for an item beginning with the characters in a specified string.
 ms.assetid: 872a72d5-4d8e-41c7-ac6b-eeb571403623
 keywords:

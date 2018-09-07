@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_PARAMETER\_USAGE\_TYPES enumeration type describes how a method parameter is used in a given method.
 ms.assetid: 60cbb4fa-c5fd-4402-bfd4-8fd95c009a33
-title: WPD\_PARAMETER\_USAGE\_TYPES enumeration
+title: WPD_PARAMETER_USAGE_TYPES enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

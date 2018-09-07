@@ -1,5 +1,5 @@
 ---
-title: max\_is attribute
+title: max_is attribute
 description: The \ max\_is\ attribute designates the maximum value for a valid array index.
 ms.assetid: 8d09f610-cae6-45f6-815c-5ba916d8a5e7
 keywords:

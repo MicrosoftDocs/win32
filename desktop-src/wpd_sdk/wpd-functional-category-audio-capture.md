@@ -1,7 +1,7 @@
 ---
 Description: WPD\_FUNCTIONAL\_CATEGORY\_AUDIO\_CAPTURE
 ms.assetid: 326d4423-37f9-4c91-8201-a054ce8439f0
-title: WPD\_FUNCTIONAL\_CATEGORY\_AUDIO\_CAPTURE
+title: WPD_FUNCTIONAL_CATEGORY_AUDIO_CAPTURE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

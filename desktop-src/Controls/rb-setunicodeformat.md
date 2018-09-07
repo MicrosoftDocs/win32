@@ -1,5 +1,5 @@
 ---
-title: RB\_SETUNICODEFORMAT message
+title: RB_SETUNICODEFORMAT message
 description: Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control.
 ms.assetid: 769b74e0-c1f0-4068-80c4-075f1db2058a
 keywords:

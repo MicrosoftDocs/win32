@@ -1,7 +1,7 @@
 ---
 Description: Represents a group of controllers that control the operation and function of devices that initiate protocols.
 ms.assetid: fb6b65d4-3a1a-47b1-afc7-9b10e8eeaa32
-title: CIM\_ProtocolController class
+title: CIM_ProtocolController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_FontProperties\_ChangedProperties
+title: UI_PKEY_FontProperties_ChangedProperties
 description: Identifies the UI\_PKEY\_FontProperties\_ChangedProperties property.
 ms.assetid: d96b89b5-af30-4e76-b6ec-03fbb8d28ab3
 ms.technology: desktop

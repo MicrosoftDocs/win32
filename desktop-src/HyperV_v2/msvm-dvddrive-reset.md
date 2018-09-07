@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: 5d178eee-36fa-4315-915a-778f559f08f0
-title: Reset method of the Msvm\_DVDDrive class
+title: Reset method of the Msvm_DVDDrive class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

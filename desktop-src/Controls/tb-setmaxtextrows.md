@@ -1,5 +1,5 @@
 ---
-title: TB\_SETMAXTEXTROWS message
+title: TB_SETMAXTEXTROWS message
 description: Sets the maximum number of text rows displayed on a toolbar button.
 ms.assetid: a14d74e8-cc21-482d-9bca-38dc7c0528ec
 keywords:

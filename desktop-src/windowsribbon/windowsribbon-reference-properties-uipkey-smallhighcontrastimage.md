@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_SmallHighContrastImage
+title: UI_PKEY_SmallHighContrastImage
 description: Identifies the UI\_PKEY\_SmallHighContrastImage property.
 ms.assetid: e0dd23b9-62dd-4626-816b-aac4fb48bbbe
 ms.technology: desktop

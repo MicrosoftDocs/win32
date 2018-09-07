@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Result01\_System02 class
+title: MDM_Policy_User_Result01_System02 class
 description: The MDM\_Policy\_User\_Result01\_System02 class represents the available telemetry policies.
 ms.assetid: ed16474c-3bbb-41d8-9806-81dbd95c608d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DRM\_SAPLEVEL (deprecated)
+title: DRM_SAPLEVEL (deprecated)
 description: Specifies the secure audio path (SAP) level supported by your application.
 ms.assetid: a2648083-f9ec-43c7-96c8-4d8b5f8285d1
 keywords:

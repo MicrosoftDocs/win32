@@ -1,5 +1,5 @@
 ---
-title: WM\_ENTERMENULOOP message
+title: WM_ENTERMENULOOP message
 description: Notifies an application's main window procedure that a menu modal loop has been entered.
 ms.assetid: 0a018b6f-fe4b-4e90-bbb6-9b5719253dc1
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETTILEINFO message
+title: LVM_SETTILEINFO message
 description: Sets information for an existing tile of a list-view control.
 ms.assetid: 345e8f16-9a6c-44e3-a262-d5d3be4d33ef
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TB\_GETPRESSEDIMAGELIST message
+title: TB_GETPRESSEDIMAGELIST message
 description: Gets the image list that a toolbar control uses to display buttons in a pressed state.
 ms.assetid: 116d4212-48ea-4b00-a752-21e5e1f10e36
 keywords:

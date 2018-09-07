@@ -1,7 +1,7 @@
 ---
 Description: The LINEADDRCAPFLAGS\_ bit-flag constants are used in the dwAddrCapFlags member of the LINEADDRESSCAPS data structure to describe various Boolean address capabilities.
 ms.assetid: 530af273-82ba-4310-8aac-266d657e1bfe
-title: LINEADDRCAPFLAGS\_ Constants
+title: LINEADDRCAPFLAGS_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

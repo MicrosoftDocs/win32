@@ -1,7 +1,7 @@
 ---
 Description: Changes the parent pool resource settings for resources assigned to a child pool.
 ms.assetid: 419fca70-5f15-4593-80ac-ef2af2c3dde5
-title: ModifyPoolResources method of the Msvm\_ResourcePoolConfigurationService class
+title: ModifyPoolResources method of the Msvm_ResourcePoolConfigurationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

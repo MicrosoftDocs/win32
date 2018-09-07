@@ -1,7 +1,7 @@
 ---
 Description: Specifies how to allocate Microsoft Direct3D 11 surfaces for media samples.
 ms.assetid: E9A415FA-74BF-4822-BB0E-D8AAA7D73664
-title: MF\_SA\_D3D11\_USAGE attribute
+title: MF_SA_D3D11_USAGE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

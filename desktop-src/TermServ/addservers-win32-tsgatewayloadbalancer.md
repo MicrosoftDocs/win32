@@ -1,5 +1,5 @@
 ---
-title: AddServers method of the Win32\_TSGatewayLoadBalancer class
+title: AddServers method of the Win32_TSGatewayLoadBalancer class
 description: Adds servers to the Remote Desktop Gateway (RD Gateway) load-balancing servers in the Servers property.
 audience: developer
 author: REDMOND\\markl

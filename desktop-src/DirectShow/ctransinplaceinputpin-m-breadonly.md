@@ -1,7 +1,7 @@
 ---
 Description: Flag that specifies whether the input stream is read-only. The upstream filter specifies this information when it calls the NotifyAllocator method. By default, the value is FALSE.
 ms.assetid: d5a71c00-326c-45b4-b9c5-b67a0fe71bf5
-title: CTransInPlaceInputPin::m\_bReadOnly member
+title: CTransInPlaceInputPin::m_bReadOnly member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

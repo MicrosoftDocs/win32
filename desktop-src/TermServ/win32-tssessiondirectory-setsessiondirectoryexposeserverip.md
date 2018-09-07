@@ -1,5 +1,5 @@
 ---
-title: SetSessionDirectoryExposeServerIP method of the Win32\_TSSessionDirectory class
+title: SetSessionDirectoryExposeServerIP method of the Win32_TSSessionDirectory class
 description: Sets the SessionDirectoryExposeServerIP property.
 audience: developer
 author: REDMOND\\markl

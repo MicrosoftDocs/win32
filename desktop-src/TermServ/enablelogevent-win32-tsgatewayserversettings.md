@@ -1,5 +1,5 @@
 ---
-title: EnableLogEvent method of the Win32\_TSGatewayServerSettings class
+title: EnableLogEvent method of the Win32_TSGatewayServerSettings class
 description: Enables or disables logging of the specified event type.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM enumeration
+title: WMDM_ENUM_PROP_VALID_VALUES_FORM enumeration
 description: The WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM enumeration type describes possible forms of valid values for a property.
 ms.assetid: 49d174b4-c8a3-4c16-ad21-4b66dcf8088f
 keywords:

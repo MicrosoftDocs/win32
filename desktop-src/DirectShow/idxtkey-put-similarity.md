@@ -1,7 +1,7 @@
 ---
 Description: The put\_Similarity method specifies the range of color data that becomes transparent. At higher values, a wider range of similar colors is transparent. This property applies only when the key type is DXTKEY\_RGB or DXTKEY\_NONRED.
 ms.assetid: f033b226-f36d-4288-b17e-e173546caee1
-title: IDxtKey::put\_Similarity method
+title: IDxtKey::put_Similarity method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

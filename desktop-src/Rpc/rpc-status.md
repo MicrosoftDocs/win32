@@ -1,5 +1,5 @@
 ---
-title: RPC\_STATUS
+title: RPC_STATUS
 description: The data type RPC\_STATUS represents a platform-specific status code type.
 ms.assetid: 0f929916-f3aa-477f-9c61-742f3fbbab29
 keywords:

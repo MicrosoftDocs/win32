@@ -1,5 +1,5 @@
 ---
-title: TBN\_DRAGOVER notification code
+title: TBN_DRAGOVER notification code
 description: Ascertains whether a TB\_MARKBUTTON message should be sent for a button that is being dragged over. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 2bb5c52e-0c90-4662-8ffd-045ecc7ed7e5
 keywords:

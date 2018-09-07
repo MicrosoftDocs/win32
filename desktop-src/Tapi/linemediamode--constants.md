@@ -1,7 +1,7 @@
 ---
 Description: The LINEMEDIAMODE\_ constants describe media types (or modes)of a communications session or call.
 ms.assetid: cbb758be-3ecd-4ac4-b1b5-57136a1aad8e
-title: LINEMEDIAMODE\_ Constants
+title: LINEMEDIAMODE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

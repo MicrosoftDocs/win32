@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_DataUsage02 class
+title: MDM_Policy_Config01_DataUsage02 class
 description: The MDM\_Policy\_Config01\_DataUsage02 class configures the available data usage policies.
 ms.assetid: c5e77d82-df5e-4eed-90f5-50f2ed62e975
 keywords:

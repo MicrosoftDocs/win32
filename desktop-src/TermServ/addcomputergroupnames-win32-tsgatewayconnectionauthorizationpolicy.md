@@ -1,5 +1,5 @@
 ---
-title: AddComputerGroupNames method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: AddComputerGroupNames method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Adds the specified computer group names to the ComputerGroupNames property.
 audience: developer
 author: REDMOND\\markl

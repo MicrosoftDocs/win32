@@ -1,5 +1,5 @@
 ---
-title: SetCertificateACL method of the Win32\_TSGatewayServerSettings class
+title: SetCertificateACL method of the Win32_TSGatewayServerSettings class
 description: Sets the certificate that is required to access the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

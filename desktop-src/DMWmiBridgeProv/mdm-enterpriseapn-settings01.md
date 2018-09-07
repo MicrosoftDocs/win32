@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseAPN\_Settings01 class
+title: MDM_EnterpriseAPN_Settings01 class
 description: The MDM\_EnterpriseAPN\_Settings01 class is used by the enterprise to change APN global settings.
 ms.assetid: 3f2d3d38-c389-4945-b519-5f2d7dedb86c
 keywords:

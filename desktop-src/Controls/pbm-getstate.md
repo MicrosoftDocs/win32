@@ -1,5 +1,5 @@
 ---
-title: PBM\_GETSTATE message
+title: PBM_GETSTATE message
 description: Gets the state of the progress bar.
 ms.assetid: ff240160-7db6-4711-8d4e-25a77dfba118
 keywords:

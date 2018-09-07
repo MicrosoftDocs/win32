@@ -1,5 +1,5 @@
 ---
-title: WM\_NCXBUTTONUP message
+title: WM_NCXBUTTONUP message
 description: Posted when the user releases the first or second X button while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 07ab5d4e-9912-4867-9146-8abc5addc15d
 keywords:

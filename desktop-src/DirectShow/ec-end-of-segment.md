@@ -1,7 +1,7 @@
 ---
 Description: The end of a segment was reached.
 ms.assetid: 07f141b1-2e96-49e2-9cf7-581690e245b5
-title: EC\_END\_OF\_SEGMENT
+title: EC_END_OF_SEGMENT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

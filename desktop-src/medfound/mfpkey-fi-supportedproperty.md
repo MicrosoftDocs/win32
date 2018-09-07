@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the decoder supports frame interpolation.
 ms.assetid: cc7fb83d-8423-4e0a-a520-b58d3345ef89
-title: MFPKEY\_FI\_SUPPORTED Property
+title: MFPKEY_FI_SUPPORTED Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

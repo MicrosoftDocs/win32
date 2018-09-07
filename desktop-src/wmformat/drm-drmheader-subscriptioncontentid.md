@@ -1,5 +1,5 @@
 ---
-title: DRM\_DRMHeader\_SubscriptionContentID
+title: DRM_DRMHeader_SubscriptionContentID
 description: The DRM\_DRMHeader\_SubscriptionContentID attribute contains the subscription content ID.
 ms.assetid: e582d841-4865-40d3-889e-847d3aac0a7c
 keywords:

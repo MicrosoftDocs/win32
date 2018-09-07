@@ -1,5 +1,5 @@
 ---
-title: RAS\_PORT\_0 structure
+title: RAS_PORT_0 structure
 description: The RAS\_PORT\_0 structure contains information that describes a RAS port.
 ms.assetid: 750fc705-0770-427b-b7d6-7876b8b9118a
 keywords:

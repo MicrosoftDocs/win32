@@ -1,7 +1,7 @@
 ---
 Description: Used in the GetSummaryInformation and GetDefinitionFileSummaryInformation methods in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual machine or snapshot.
 ms.assetid: 8D188BB2-4A56-4738-94DD-64D9F9B90B73
-title: Msvm\_SummaryInformation class
+title: Msvm_SummaryInformation class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

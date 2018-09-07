@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_DLG\_VIDEODISPLAY message
+title: WM_CAP_DLG_VIDEODISPLAY message
 description: The WM\_CAP\_DLG\_VIDEODISPLAY message displays a dialog box in which the user can set or adjust the video output.
 ms.assetid: 151056f5-a9d1-4594-a8d7-32d4675ae3d6
 keywords:

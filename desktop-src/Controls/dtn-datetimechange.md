@@ -1,5 +1,5 @@
 ---
-title: DTN\_DATETIMECHANGE notification code
+title: DTN_DATETIMECHANGE notification code
 description: Sent by a date and time picker (DTP) control whenever a change occurs. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 65cdd8fb-1f07-4447-b503-d40fdfa37202
 keywords:

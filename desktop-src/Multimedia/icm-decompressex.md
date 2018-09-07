@@ -1,5 +1,5 @@
 ---
-title: ICM\_DECOMPRESSEX message
+title: ICM_DECOMPRESSEX message
 description: The ICM\_DECOMPRESSEX message notifies a video compression driver to decompress a frame of data directly to the screen, decompress to an upside-down DIB, or decompress images described with source and destination rectangles.
 ms.assetid: ed253280-c246-4e86-91f1-ad1e1132d732
 keywords:

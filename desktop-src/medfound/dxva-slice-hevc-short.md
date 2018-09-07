@@ -1,7 +1,7 @@
 ---
 Description: Specifies slice control data.
 ms.assetid: ae3399e9-b78c-473d-8ed5-e570dfb676aa
-title: DXVA\_Slice\_HEVC\_Short structure
+title: DXVA_Slice_HEVC_Short structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

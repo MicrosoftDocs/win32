@@ -1,5 +1,5 @@
 ---
-title: IDCompositionMatrixTransform SetMatrixElement(int, int, IDCompositionAnimation\ ) method
+title: IDCompositionMatrixTransform SetMatrixElement(int, int, IDCompositionAnimation ) method
 description: Animates the value of one element of the matrix of this 2D transform.
 ms.assetid: 16A9E136-5F0C-4F34-A127-BF06C4530499
 keywords:

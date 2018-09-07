@@ -1,7 +1,7 @@
 ---
 Description: Represents the configured state of the Volume Shadow Copy Service (VSS) service.
 ms.assetid: FAE8E8F7-525A-4E5A-91B3-B73343337352
-title: Msvm\_VssComponentSettingData class
+title: Msvm_VssComponentSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

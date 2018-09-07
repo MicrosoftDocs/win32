@@ -1,5 +1,5 @@
 ---
-title: LVM\_DELETEALLITEMS message
+title: LVM_DELETEALLITEMS message
 description: Removes all items from a list-view control. You can send this message explicitly or by using the ListView\_DeleteAllItems macro.
 ms.assetid: 816bf565-79e9-4f5d-b5b4-5cdecce8a61c
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: DRM\_LicenseID
+title: DRM_LicenseID
 description: The DRM\_LicenseID property contains a string retrieved from the license associated with the currently open file that uniquely identifies that license.
 ms.assetid: d5967f5b-99b6-41ea-8494-ac4a7331bbfe
 keywords:

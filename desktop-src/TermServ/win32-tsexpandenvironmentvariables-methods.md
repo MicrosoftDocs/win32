@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSExpandEnvironmentVariables Methods
+title: Win32_TSExpandEnvironmentVariables Methods
 description: The Win32\_TSExpandEnvironmentVariables class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: Registers - gs\_5\_0
+title: Registers - gs_5_0
 description: The following input and output registers are implemented in the geometry shader version 5\_0.
 ms.assetid: 9E99F584-611F-4CFC-B69A-66F2B4545D36
 ms.technology: desktop

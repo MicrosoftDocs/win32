@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Games02 class
+title: MDM_Policy_Config01_Games02 class
 description: The MDM\_Policy\_Config01\_Games02 class configures the advanced gaming services.
 ms.assetid: 567cf1b0-9795-44d5-a002-a1c03a5bf45f
 keywords:

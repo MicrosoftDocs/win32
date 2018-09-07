@@ -1,5 +1,5 @@
 ---
-title: DRM\_DRMHeader
+title: DRM_DRMHeader
 description: DRM\_DRMHeader is the base string for the DRMHeader attributes such as DRM\_HeaderKeyID.
 ms.assetid: e6d53760-aeb6-4704-82dd-945390776c5c
 keywords:

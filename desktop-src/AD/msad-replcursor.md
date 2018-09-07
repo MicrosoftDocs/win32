@@ -1,5 +1,5 @@
 ---
-title: MSAD\_ReplCursor class
+title: MSAD_ReplCursor class
 description: Provides inbound replication state information about all replicas of a given naming context (NC).
 audience: developer
 author: REDMOND\\markl

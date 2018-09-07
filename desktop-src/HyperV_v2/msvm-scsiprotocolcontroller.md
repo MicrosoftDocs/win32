@@ -1,7 +1,7 @@
 ---
 Description: Represents a synthetic SCSI controller.
 ms.assetid: 4ABAB4C8-F922-4AA3-8FEE-5F5AA969E8B4
-title: Msvm\_SCSIProtocolController class
+title: Msvm_SCSIProtocolController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

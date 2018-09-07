@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the pipeline trims samples.
 ms.assetid: 4ba66d18-3854-4994-9509-967303dc7d98
-title: MF\_TOPOLOGY\_NO\_MARKIN\_MARKOUT attribute
+title: MF_TOPOLOGY_NO_MARKIN_MARKOUT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

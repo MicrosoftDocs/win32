@@ -1,7 +1,7 @@
 ---
 Description: The get\_StartTime method gets the 32-bit NTP (Network Time Protocol) starting time value. The session is considered active from this time.
 ms.assetid: 511e4486-4c73-4610-8e64-9c70acc98eab
-title: ITTime::get\_StartTime method
+title: ITTime::get_StartTime method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

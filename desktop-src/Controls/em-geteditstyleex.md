@@ -1,5 +1,5 @@
 ---
-title: EM\_GETEDITSTYLEEX message
+title: EM_GETEDITSTYLEEX message
 description: Retrieves the current extended edit style flags.
 ms.assetid: 3E81F7BB-404D-4465-982A-3CF6FD9359DA
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Sets the level of encryption that is performed before protected content becomes accessible to the CPU or bus.
 ms.assetid: 6de6c4a3-705a-4420-b9f4-8d4d442b23bf
-title: D3DAUTHENTICATEDCONFIGURE\_ENCRYPTIONWHENACCESSIBLE
+title: D3DAUTHENTICATEDCONFIGURE_ENCRYPTIONWHENACCESSIBLE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

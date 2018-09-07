@@ -1,5 +1,5 @@
 ---
-title: SetEnabled method of the Win32\_TSGatewayResourceAuthorizationPolicy class
+title: SetEnabled method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Enables or disables the Remote Desktop resource authorization policy (RD \ 160;RAP) by setting the Enabled property.
 audience: developer
 author: REDMOND\\markl

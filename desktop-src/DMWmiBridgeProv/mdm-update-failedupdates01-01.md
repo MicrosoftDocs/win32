@@ -1,5 +1,5 @@
 ---
-title: MDM\_Update\_FailedUpdates01\_01 class
+title: MDM_Update_FailedUpdates01_01 class
 description: The MDM\_Update\_FailedUpdates01\_01 class is used to manage failed updates.
 ms.assetid: 3bb7993b-b44b-44d1-84ee-dbdda0093ca0
 keywords:

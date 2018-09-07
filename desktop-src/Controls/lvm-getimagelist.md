@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETIMAGELIST message
+title: LVM_GETIMAGELIST message
 description: Retrieves the handle to an image list used for drawing list-view items. You can send this message explicitly or by using the ListView\_GetImageList macro.
 ms.assetid: dd48d8b5-6dbd-48ab-95c3-0fcf1e8c24f0
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: atomic\_iadd (sm5 - asm)
+title: atomic_iadd (sm5 - asm)
 description: Atomic integer add to memory.
 ms.assetid: 093C7FA5-41BF-4BDD-A35D-1AACE8CB9B5C
 ms.technology: desktop

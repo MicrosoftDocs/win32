@@ -1,5 +1,5 @@
 ---
-title: IPM\_GETADDRESS message
+title: IPM_GETADDRESS message
 description: Gets the address values for all four fields in the IP address control.
 ms.assetid: 4fe68d45-7d7f-46da-a110-65f899b3c393
 keywords:

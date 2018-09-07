@@ -1,7 +1,7 @@
 ---
 Description: Contains Apphelp data information.
 ms.assetid: 31b305e9-1f38-4952-b4fd-963df79b1346
-title: APPHELP\_DATA structure
+title: APPHELP_DATA structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

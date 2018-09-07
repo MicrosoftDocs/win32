@@ -1,5 +1,5 @@
 ---
-title: '\_WAVEFORMATEX structure'
+title: '_WAVEFORMATEX structure'
 description: The \_WAVEFORMATEX structure defines the format of waveform-audio data.
 ms.assetid: 2128f07a-4858-49b7-b031-16d4a84c9d32
 keywords:

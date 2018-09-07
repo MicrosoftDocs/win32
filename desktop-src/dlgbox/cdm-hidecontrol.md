@@ -1,5 +1,5 @@
 ---
-title: CDM\_HIDECONTROL message
+title: CDM_HIDECONTROL message
 description: Hides the specified control in an Explorer-style Open or Save As dialog box.
 ms.assetid: 5bf7f861-d38c-491a-89f0-5b3dfce8abfc
 keywords:

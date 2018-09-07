@@ -1,5 +1,5 @@
 ---
-title: ncadg\_ipx attribute
+title: ncadg_ipx attribute
 description: The ncadg\_ipx keyword identifies IPX as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: 6b136eb9-4e18-43ff-993b-a2ad005273f1
 keywords:

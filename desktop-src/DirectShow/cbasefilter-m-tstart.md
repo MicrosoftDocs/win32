@@ -1,7 +1,7 @@
 ---
 Description: Reference time that corresponds to stream time 0.
 ms.assetid: 3a4aadf7-6ae4-4aaa-9d14-cad1392de88c
-title: CBaseFilter::m\_tStart member
+title: CBaseFilter::m_tStart member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

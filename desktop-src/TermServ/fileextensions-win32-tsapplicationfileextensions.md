@@ -1,5 +1,5 @@
 ---
-title: FileExtensions method of the Win32\_TSApplicationFileExtensions class
+title: FileExtensions method of the Win32_TSApplicationFileExtensions class
 description: Provides a list of the file name extensions that are handled by an application.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: /c\_ext switch
+title: /c_ext switch
 description: This switch is obsolete as of version 3.0 of the MIDL compiler. However, using the c\_ext switch will not generate a compiler error, so you do not have to remove references to /ms\_ext or /c\_ext from an existing makefile.
 ms.assetid: 3d4072ba-5563-4014-a4ed-2e3aa26bb00a
 keywords:

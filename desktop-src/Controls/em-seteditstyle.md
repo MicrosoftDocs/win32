@@ -1,5 +1,5 @@
 ---
-title: EM\_SETEDITSTYLE message
+title: EM_SETEDITSTYLE message
 description: Sets the current edit style flags for a rich edit control.
 ms.assetid: e48de6b3-0fd2-4791-9863-a6dcdafa3642
 keywords:

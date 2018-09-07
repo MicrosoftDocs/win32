@@ -1,7 +1,7 @@
 ---
 Description: Defines values that determine how to fetch the credential of a Group Managed Service Account (gMSA).
 ms.assetid: 90891448-22F6-497A-A612-3DAB8622C325
-title: CRED\_FETCH enumeration
+title: CRED_FETCH enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

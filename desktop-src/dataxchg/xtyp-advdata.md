@@ -1,5 +1,5 @@
 ---
-title: XTYP\_ADVDATA transaction
+title: XTYP_ADVDATA transaction
 description: Informs the client that the value of the data item has changed. The Dynamic Data Exchange (DDE) client callback function, DdeCallback, receives this transaction after establishing an advise loop with a server.
 ms.assetid: c6e61785-b98c-4ffa-9d23-339e1c66cb4d
 keywords:

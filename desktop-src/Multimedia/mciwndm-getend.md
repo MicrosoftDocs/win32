@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETEND message
+title: MCIWNDM_GETEND message
 description: The MCIWNDM\_GETEND message retrieves the location of the end of the content of an MCI device or file. You can send this message explicitly or by using the MCIWndGetEnd macro.
 ms.assetid: 3fa45928-af63-4f87-835d-f409011a797e
 keywords:

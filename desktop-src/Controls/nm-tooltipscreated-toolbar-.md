@@ -1,5 +1,5 @@
 ---
-title: NM\_TOOLTIPSCREATED (toolbar) notification code
+title: NM_TOOLTIPSCREATED (toolbar) notification code
 description: Notifies a toolbar's parent window that the toolbar has created a tooltip control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0e9517c1-aa3f-4b14-82b4-195a4ce99757
 keywords:

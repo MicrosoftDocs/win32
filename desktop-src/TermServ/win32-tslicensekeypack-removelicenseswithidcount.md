@@ -1,5 +1,5 @@
 ---
-title: RemoveLicensesWithIdCount method of the Win32\_TSLicenseKeyPack class
+title: RemoveLicensesWithIdCount method of the Win32_TSLicenseKeyPack class
 description: Removes the specified number of Remote Desktop Services licenses from the specified key pack.
 audience: developer
 author: REDMOND\\markl

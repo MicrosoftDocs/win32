@@ -1,5 +1,5 @@
 ---
-title: DRM\_ActionAllowed\_CopyToSDMIDevice
+title: DRM_ActionAllowed_CopyToSDMIDevice
 description: The DRM\_ActionAllowed\_CopyToSDMIDevice attribute indicates whether the content is allowed to be copied to an SDMI device.
 ms.assetid: 3ffb9c8f-5640-4ab5-9939-f9525ab960c6
 keywords:

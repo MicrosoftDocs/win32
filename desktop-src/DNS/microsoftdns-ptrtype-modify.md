@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_PTRType class
+title: Modify method of the MicrosoftDNS_PTRType class
 description: The Modify method updates a Pointer (PTR) Resource Record.
 ms.assetid: 801a6bc9-e384-4912-a73a-6b04a1655002
 keywords:

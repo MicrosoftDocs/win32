@@ -1,5 +1,5 @@
 ---
-title: DL\_BEGINDRAG notification code
+title: DL_BEGINDRAG notification code
 description: Notifies the drag list box's parent window that the user has clicked the left mouse button on an item. A drag list box sends this notification code in the form of a drag list message. For more information, see Drag List Box Messages.
 ms.assetid: ccf66818-e5f7-4165-8d0d-4d279944f70e
 keywords:

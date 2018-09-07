@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum bit rate, in bits per second, of an encoded stream.
 ms.assetid: f81f8eca-d16f-4da4-b3cf-f90c1d98053f
-title: MFPKEY\_STAT\_RMAX Property
+title: MFPKEY_STAT_RMAX Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

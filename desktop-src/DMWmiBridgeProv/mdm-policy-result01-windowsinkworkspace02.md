@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_WindowsInkWorkspace02 class
+title: MDM_Policy_Result01_WindowsInkWorkspace02 class
 description: The MDM\_Policy\_Result01\_WindowsInkWorkspace02 class represents the ink workspace policies available.
 ms.assetid: a3bb85e5-554f-4f41-8e65-e221f8adc947
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: SetIdleTimeout method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: SetIdleTimeout method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the IdleTimeout property.
 audience: developer
 author: REDMOND\\markl

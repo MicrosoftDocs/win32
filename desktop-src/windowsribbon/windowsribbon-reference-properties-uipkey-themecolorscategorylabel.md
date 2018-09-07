@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_ThemeColorsCategoryLabel
+title: UI_PKEY_ThemeColorsCategoryLabel
 description: Identifies the UI\_PKEY\_ThemeColorsCategoryLabel property.
 ms.assetid: 704f5c3f-f222-4d98-8a1b-e18a2e094a41
 ms.technology: desktop

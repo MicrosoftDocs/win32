@@ -1,5 +1,5 @@
 ---
-title: TSMF\_SUPPORT\_DATA\_IN structure
+title: TSMF_SUPPORT_DATA_IN structure
 description: Contains information about media formats.
 audience: developer
 author: REDMOND\\markl

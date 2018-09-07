@@ -1,7 +1,7 @@
 ---
 Description: The get\_NumPorts method gets the number of ports needed for the session. The session uses the specified number of ports starting from the value returned by get\_StartPort.
 ms.assetid: 9ebdcf51-e095-4173-97d6-7754560abfb5
-title: ITMedia::get\_NumPorts method
+title: ITMedia::get_NumPorts method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

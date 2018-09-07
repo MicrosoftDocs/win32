@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETICONSPACING message
+title: LVM_SETICONSPACING message
 description: Sets the spacing between icons in list-view controls that have the LVS\_ICON style. You can send this message explicitly or by using the ListView\_SetIconSpacing macro.
 ms.assetid: 2dd3d9df-5b0d-445e-9201-d766fa218f90
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: pack\_matrix pragma Directive
+title: pack_matrix pragma Directive
 description: Pragma directive that specifies packing alignment for matrices.
 ms.assetid: e77dc007-d915-4d78-9fff-d44d4999e4da
 keywords:

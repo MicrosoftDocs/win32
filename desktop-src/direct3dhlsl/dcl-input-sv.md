@@ -1,5 +1,5 @@
 ---
-title: dcl\_input\_sv (sm4 - asm)
+title: dcl_input_sv (sm4 - asm)
 description: dcl\_input\_sv (sm4 - asm)
 ms.assetid: 59270148-e2eb-4525-a888-ad7e843d62a5
 ms.technology: desktop

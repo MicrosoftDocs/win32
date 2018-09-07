@@ -1,7 +1,7 @@
 ---
 Description: Profile flags that define the stream settings for the transcode topology. The flags are defined in the MF\_TRANSCODE\_ADJUST\_PROFILE\_FLAGS enumeration.
 ms.assetid: 6782e080-284b-458d-8bc0-6e131a529e7b
-title: MF\_TRANSCODE\_ADJUST\_PROFILE attribute
+title: MF_TRANSCODE_ADJUST_PROFILE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

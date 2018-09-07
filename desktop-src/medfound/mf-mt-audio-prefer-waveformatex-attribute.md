@@ -1,7 +1,7 @@
 ---
 Description: Specifies the preferred legacy format structure to use when converting an audio media type.
 ms.assetid: 9bb045a2-be5b-468b-b30b-aedcb7849945
-title: MF\_MT\_AUDIO\_PREFER\_WAVEFORMATEX attribute
+title: MF_MT_AUDIO_PREFER_WAVEFORMATEX attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

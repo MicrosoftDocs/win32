@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_PUT\_DEST message
+title: MCIWNDM_PUT_DEST message
 description: The MCIWNDM\_PUT\_DEST message redefines the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can send this message explicitly or by using the MCIWndPutDest macro.
 ms.assetid: 0b13d473-ef93-41a2-bbb2-09fbf264493e
 keywords:

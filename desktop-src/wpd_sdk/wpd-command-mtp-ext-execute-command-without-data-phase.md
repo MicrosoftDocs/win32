@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE command sends an MTP command block. There is no subsequent data phase associated with this command.
 ms.assetid: 308550d0-1399-4b64-8f8e-dc16d5044086
-title: WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE Command
+title: WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITHOUT_DATA_PHASE Command
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

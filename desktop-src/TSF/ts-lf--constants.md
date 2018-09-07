@@ -1,5 +1,5 @@
 ---
-title: TS\_LF\_\ Constants
+title: TS_LF_ Constants
 description: The TS\_LF\_\ constants specify the type of document lock.
 ms.assetid: f0bb6ef9-a8fc-4331-9210-6c5ba1721a73
 topic_type:

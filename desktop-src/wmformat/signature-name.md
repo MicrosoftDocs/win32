@@ -1,5 +1,5 @@
 ---
-title: Signature\_Name
+title: Signature_Name
 description: The Signature\_Name attribute contains the name on the certificate used to sign the file. This attribute is valid only if the Is\_Trusted attribute is set to True.
 ms.assetid: 3f3ab10c-731b-4075-8f73-3c2e62e010b9
 keywords:

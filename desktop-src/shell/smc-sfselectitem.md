@@ -1,6 +1,6 @@
 ---
 Description: The user has selected the item specified by the accompanying SMDATA structure.
-title: SMC\_SFSELECTITEM message
+title: SMC_SFSELECTITEM message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

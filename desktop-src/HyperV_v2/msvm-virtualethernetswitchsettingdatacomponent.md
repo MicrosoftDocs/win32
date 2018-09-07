@@ -1,7 +1,7 @@
 ---
 Description: An association used to establish &\#0034;part of&\#0034; relationships between one instance of Msvm\_VirtualEthernetSwitchSettingData and one or more instances of Msvm\_EthernetSwitchFeatureSettingData.
 ms.assetid: b3adac33-056e-4f39-8022-5d9ef78370e9
-title: Msvm\_VirtualEthernetSwitchSettingDataComponent class
+title: Msvm_VirtualEthernetSwitchSettingDataComponent class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

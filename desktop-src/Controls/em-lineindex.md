@@ -1,5 +1,5 @@
 ---
-title: EM\_LINEINDEX message
+title: EM_LINEINDEX message
 description: Gets the character index of the first character of a specified line in a multiline edit control.
 ms.assetid: a4c65012-d47f-4d87-bc7f-2002d07f5eea
 keywords:

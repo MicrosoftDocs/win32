@@ -1,5 +1,5 @@
 ---
-title: DRM\_IsDRMCached
+title: DRM_IsDRMCached
 description: The DRM\_IsDRMCached property indicates whether DRM version 1 license information has been stored on the local machine.
 ms.assetid: 868e3ada-d608-41d6-93d7-0b7930cbf2f9
 keywords:

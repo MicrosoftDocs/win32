@@ -1,7 +1,7 @@
 ---
 Description: Waits for all volumes on the specified disk to be ready for use.
 ms.assetid: 6cf619bb-7ff5-485e-b533-0f7f6503c6e0
-title: IOCTL\_DISK\_ARE\_VOLUMES\_READY control code
+title: IOCTL_DISK_ARE_VOLUMES_READY control code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

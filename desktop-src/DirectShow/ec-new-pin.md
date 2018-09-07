@@ -1,7 +1,7 @@
 ---
 Description: This event is not supported.
 ms.assetid: 1a1d4db3-f80a-4dd2-9033-104627d103a5
-title: EC\_NEW\_PIN
+title: EC_NEW_PIN
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

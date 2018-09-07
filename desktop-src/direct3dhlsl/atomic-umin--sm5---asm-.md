@@ -1,5 +1,5 @@
 ---
-title: atomic\_umin (sm5 - asm)
+title: atomic_umin (sm5 - asm)
 description: Atomic unsigned integer minimum to memory.
 ms.assetid: 08822267-1A7F-4976-9402-601DD4B86E59
 ms.technology: desktop

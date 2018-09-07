@@ -1,7 +1,7 @@
 ---
 Description: Represents the common header that all MSMCAEvent classes use. This class is available only in 64-bit Windows systems.
 ms.assetid: ff20522c-f805-47dc-bef2-4176211de698
-title: MSMCAEvent\_Header class
+title: MSMCAEvent_Header class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

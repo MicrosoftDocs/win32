@@ -1,5 +1,5 @@
 ---
-title: EM\_GETHANDLE message
+title: EM_GETHANDLE message
 description: Gets a handle of the memory currently allocated for a multiline edit control's text.
 ms.assetid: 74271812-9715-4a46-96b3-0788134f8143
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Represents a service that manages virtual systems.
 ms.assetid: b2645546-3c04-4d3f-8d53-019a6db08e24
-title: CIM\_VirtualSystemManagementService class
+title: CIM_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

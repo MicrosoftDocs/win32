@@ -1,5 +1,5 @@
 ---
-title: StartService method of the Win32\_Service class
+title: StartService method of the Win32_Service class
 description: Attempts to place the referenced service into its startup state.
 audience: developer
 author: REDMOND\\markl

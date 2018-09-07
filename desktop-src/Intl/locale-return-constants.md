@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_RETURN\* Constants
 ms.assetid: c6aadf84-c597-4cbd-a715-b68325ce5117
-title: LOCALE\_RETURN\* Constants
+title: LOCALE_RETURN* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

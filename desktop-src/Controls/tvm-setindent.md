@@ -1,5 +1,5 @@
 ---
-title: TVM\_SETINDENT message
+title: TVM_SETINDENT message
 description: Sets the width of indentation for a tree-view control and redraws the control to reflect the new width. You can send this message explicitly or by using the TreeView\_SetIndent macro.
 ms.assetid: 377da8fe-c8e6-479b-a283-f1811cbc3e58
 keywords:
