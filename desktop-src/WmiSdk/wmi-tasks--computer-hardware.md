@@ -146,7 +146,7 @@ $drives | Format-Table DeviceID, Description, Name -autosize</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine how much RAM is installed in a computer?</td>
-<td><p>Use the [<strong>Win32_ComputerSystem</strong>](https://msdn.microsoft.com/library/aa394102) class and check the value of the <strong>TotalPhysicalMemory</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and check the value of the <strong>TotalPhysicalMemory</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -191,7 +191,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine if a computer has more than one processor?</td>
-<td><p>Use the [<strong>Win32_ComputerSystem</strong>](https://msdn.microsoft.com/library/aa394102) class and the property <strong>NumberOfProcessors</strong>.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and the property <strong>NumberOfProcessors</strong>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

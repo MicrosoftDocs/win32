@@ -27,7 +27,7 @@ The [**TRefPointerCollection**](/windows/desktop/api/RefPtrCo/nl-refptrco-trefpo
 -   [**EndEnum method**](/windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-endenum)
 -   [**GetNext method**](/windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-getnext)
 -   [**GetSize method**](/windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-getsize)
--   [**TRefPointerCollection method**](/windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-trefpointercollection(const trefpointercollection &))
+-   [**TRefPointerCollection method**](/windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-trefpointercollection(consttrefpointercollection_))
 
  
 

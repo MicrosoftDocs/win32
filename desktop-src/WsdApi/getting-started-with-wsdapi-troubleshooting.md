@@ -86,27 +86,27 @@ The following tables show some problems that can prevent WSDAPI clients and host
 <td>Inspection of the message shows that the <strong>Types</strong> element contains a malformed or incorrect value.</td>
 </tr>
 <tr class="odd">
-<td>A [ProbeMatches](probematches-message.md) message was not sent unicast to the UDP port from which the <a href="probe-message">Probe</a> was sent.</td>
+<td>A <a href="probematches-message">ProbeMatches</a> message was not sent unicast to the UDP port from which the <a href="probe-message">Probe</a> was sent.</td>
 <td><a href="inspecting-network-traces-for-udp-ws-discovery">Inspecting Network Traces for UDP WS-Discovery</a> or <a href="inspecting-network-traces-for-applications-using-directed-discovery">Inspecting Network Traces for Applications Using Directed Discovery</a></td>
-<td>Inspection of the output shows that no [ProbeMatches](probematches-message.md) message was sent or that the message was sent to the wrong port.
+<td>Inspection of the output shows that no <a href="probematches-message">ProbeMatches</a>) message was sent or that the message was sent to the wrong port.
 <blockquote>
 [!Note]<br />
-For applications using directed discovery, the [ProbeMatches](probematches-message.md) must be sent over HTTP or HTTPS in response to the <a href="probe-message">Probe</a> message.
+For applications using directed discovery, the <a href="probematches-message">ProbeMatches</a> must be sent over HTTP or HTTPS in response to the <a href="probe-message">Probe</a> message.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>The [ProbeMatches](probematches-message.md) message does not contain a <strong>RelatesTo</strong> element, or the <strong>RelatesTo</strong> element is empty.</td>
+<td>The <a href="probematches-message">ProbeMatches</a> message does not contain a <strong>RelatesTo</strong> element, or the <strong>RelatesTo</strong> element is empty.</td>
 <td><a href="inspecting-network-traces-for-udp-ws-discovery">Inspecting Network Traces for UDP WS-Discovery</a> or <a href="inspecting-network-traces-for-applications-using-directed-discovery">Inspecting Network Traces for Applications Using Directed Discovery</a></td>
 <td>Inspection of the message shows that the <strong>RelatesTo</strong> element is not present or empty.</td>
 </tr>
 <tr class="odd">
-<td>The value of the <strong>RelatesTo</strong> element in a [ProbeMatches](probematches-message.md) message does not match the value of the <strong>MessageId</strong> element from the corresponding <a href="probe-message">Probe</a> message.</td>
+<td>The value of the <strong>RelatesTo</strong> element in a <a href="probematches-message">ProbeMatches</a> message does not match the value of the <strong>MessageId</strong> element from the corresponding <a href="probe-message">Probe</a> message.</td>
 <td><a href="inspecting-network-traces-for-udp-ws-discovery">Inspecting Network Traces for UDP WS-Discovery</a> or <a href="inspecting-network-traces-for-applications-using-directed-discovery">Inspecting Network Traces for Applications Using Directed Discovery</a></td>
 <td>Inspection of the message shows that the <strong>RelatesTo</strong> element contains a malformed or incorrect value.</td>
 </tr>
 <tr class="even">
-<td>The <strong>XAddrs</strong> element included in a [ProbeMatches](probematches-message.md) message does not conform to the <a href="xaddr-validation-rules">XAddr Validation Rules</a>.</td>
+<td>The <strong>XAddrs</strong> element included in a <a href="probematches-message">ProbeMatches</a> message does not conform to the <a href="xaddr-validation-rules">XAddr Validation Rules</a>.</td>
 <td><a href="inspecting-network-traces-for-udp-ws-discovery">Inspecting Network Traces for UDP WS-Discovery</a> or <a href="inspecting-network-traces-for-applications-using-directed-discovery">Inspecting Network Traces for Applications Using Directed Discovery</a></td>
 <td>Inspection of the message shows that the <strong>XAddrs</strong> are invalid.</td>
 </tr>
@@ -116,9 +116,9 @@ For applications using directed discovery, the [ProbeMatches](probematches-messa
 <td>Inspection of the output shows that the <a href="resolve-message">Resolve</a> message was sent to the wrong port.</td>
 </tr>
 <tr class="even">
-<td>A [ResolveMatches](resolvematches-message.md) message was not sent unicast to the UDP port from which a <a href="resolve-message">Resolve</a> message was sent.</td>
+<td>A <a href="resolvematches-message">ResolveMatches</a> message was not sent unicast to the UDP port from which a <a href="resolve-message">Resolve</a> message was sent.</td>
 <td><a href="inspecting-network-traces-for-udp-ws-discovery">Inspecting Network Traces for UDP WS-Discovery</a> or <a href="inspecting-network-traces-for-applications-using-directed-discovery">Inspecting Network Traces for Applications Using Directed Discovery</a></td>
-<td>Inspection of the output shows that no [ResolveMatches](resolvematches-message.md) message was sent or that the message was sent to the wrong port.</td>
+<td>Inspection of the output shows that no <a href="resolvematches-message">ResolveMatches</a> message was sent or that the message was sent to the wrong port.</td>
 </tr>
 </tbody>
 </table>
@@ -147,7 +147,7 @@ For applications using directed discovery, the [ProbeMatches](probematches-messa
 <tbody>
 <tr class="odd">
 <td>The transport address advertised by the host is wrong.</td>
-<td>[Using a Generic Host and Client for HTTP Metadata Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md)</td>
+<td><a href="using-a-generic-host-and-client-for-http-metadata-exchange">Using a Generic Host and Client for HTTP Metadata Exchange</a></td>
 <td>Inspection of the XAddrs in the WSD Debug Client output shows that the transport address is wrong or malformed.</td>
 </tr>
 <tr class="even">
@@ -183,7 +183,7 @@ For applications using directed discovery, the [ProbeMatches](probematches-messa
 <tr class="odd">
 <td>The value of the <strong>To</strong> element of a WS-Transfer <a href="get--metadata-exchange--http-request-and-message">Get</a> message does not match one of the host's endpoint addresses.</td>
 <td><a href="inspecting-network-traces-for-http-metadata-exchange">Inspecting Network Traces for HTTP Metadata Exchange</a></td>
-<td>Inspection of the message shows that value of the <strong>To</strong> element does not match one of the endpoint addresses advertised in the host's [ProbeMatches](probematches-message.md) or [ResolveMatches](resolvematches-message.md) message.</td>
+<td>Inspection of the message shows that value of the <strong>To</strong> element does not match one of the endpoint addresses advertised in the host's <a href="probematches-message">ProbeMatches</a> or <a href="resolvematches-message">ResolveMatches</a> message.</td>
 </tr>
 <tr class="even">
 <td>The host did not send a valid HTTP response header.</td>

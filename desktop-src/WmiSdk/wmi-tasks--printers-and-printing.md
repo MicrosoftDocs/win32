@@ -58,7 +58,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...add a new printer connection to a remote computer?</td>
-<td>Use the [<strong>Win32_Printer</strong>](https://msdn.microsoft.com/library/aa394363) class and the <a href="https://msdn.microsoft.com/library/aa384769"><strong>AddPrinterConnection</strong></a> method.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="https://msdn.microsoft.com/library/aa394363"><strong>Win32_Printer</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa384769"><strong>AddPrinterConnection</strong></a> method.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -81,7 +81,7 @@ errReturn = objPrinter.AddPrinterConnection (&quot;\\PrintServer1\ArtDepartmentP
 </tr>
 <tr class="even">
 <td>...set the default printer?</td>
-<td><p>Use the [<strong>Win32_Printer</strong>](https://msdn.microsoft.com/library/aa394363) class and the <a href="https://msdn.microsoft.com/library/aa393291"><strong>SetDefaultPrinter</strong></a> method.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394363"><strong>Win32_Printer</strong></a> class and the <a href="https://msdn.microsoft.com/library/aa393291"><strong>SetDefaultPrinter</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -127,7 +127,7 @@ $printer = get-wmiObject -class win32_printer -Namespace $namespace | Where-Obje
 </tr>
 <tr class="odd">
 <td>...cancel print jobs using WMI?</td>
-<td><p>Use the [<strong>Win32_Printer</strong>](https://msdn.microsoft.com/library/aa394363) class, and the <a href="https://msdn.microsoft.com/library/aa384838"><strong>CancelAllJobs</strong></a> method.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394363"><strong>Win32_Printer</strong></a> class, and the <a href="https://msdn.microsoft.com/library/aa384838"><strong>CancelAllJobs</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -171,7 +171,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine the default printer for a computer?</td>
-<td><p>Use the [<strong>Win32_Printer</strong>](https://msdn.microsoft.com/library/aa394363) class, and check whether the <strong>Default</strong> property is <strong>True</strong>.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394363"><strong>Win32_Printer</strong></a> class, and check whether the <strong>Default</strong> property is <strong>True</strong>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
