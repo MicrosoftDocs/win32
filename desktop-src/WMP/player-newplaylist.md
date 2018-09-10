@@ -1,7 +1,7 @@
 ---
 title: Player.newPlaylist method
 description: The newPlaylist method creates a new Playlist object.
-ms.assetid: caee8ee5-6201-474d-a4cb-80e574f84f0b
+ms.assetid: 'a566006e-8647-4c51-ab77-762728f25a30'
 keywords:
 - newPlaylist method Windows Media Player
 - newPlaylist method Windows Media Player , Player class

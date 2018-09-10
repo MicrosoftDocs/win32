@@ -1,6 +1,6 @@
 ---
 Description: Interfaces
-ms.assetid: 9c7f56f4-92af-40c6-8124-f2715ac3f6d7
+ms.assetid: '5efd174f-2eb1-44e6-97e3-b73c7c52fef1'
 title: Interfaces
 ms.technology: desktop
 ms.prod: windows

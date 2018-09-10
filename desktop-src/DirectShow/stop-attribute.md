@@ -1,6 +1,6 @@
 ---
 Description: The stop attribute specifies the stop time of an object, relative to the parent object.
-ms.assetid: 01559d29-9c7b-4842-a1f7-16552adbda43
+ms.assetid: '1bda3472-abda-4672-9b82-311163e56fe0'
 title: stop Attribute
 ms.technology: desktop
 ms.prod: windows

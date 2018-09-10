@@ -1,6 +1,6 @@
 ---
 Description: Represents a Shell folder. This object contains properties and methods that allow you to retrieve information about the folder.
-ms.assetid: 269DFCDF-A5F7-4367-8B08-3A5015BB04FE
+ms.assetid: 'f1e82c61-205e-47c8-bc7c-6a52410a672e'
 title: Folder object
 ms.technology: desktop
 ms.prod: windows

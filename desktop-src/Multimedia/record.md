@@ -1,7 +1,7 @@
 ---
 title: record command
 description: The record command starts recording data. VCR and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not implement it.
-ms.assetid: 0f04c384-7702-43d4-9c7e-e9e74d6f2796
+ms.assetid: 'a0838153-5ac2-437f-ae1e-0c4f950fcac5'
 keywords:
 - record command Windows Multimedia
 topic_type:

@@ -1,7 +1,7 @@
 ---
 title: Composite effect
 description: Use the composite effect to combine 2 or more images. This effect has 13 different composite modes.
-ms.assetid: 6EC8CD61-5B51-4A8E-8A61-B291ABB5C5E0
+ms.assetid: '60b878e9-1bc6-40d4-ade3-4bbd5c822c55'
 keywords:
 - composite effect
 ms.technology: desktop

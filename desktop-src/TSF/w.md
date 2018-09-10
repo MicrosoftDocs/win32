@@ -2,7 +2,7 @@
 title: W
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: d842b367-a605-4ed0-887d-89dfcf6893a6
+ms.assetid: '3f208441-edb5-4507-9691-c726b62b34e9'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

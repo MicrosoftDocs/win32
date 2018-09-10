@@ -1,6 +1,6 @@
 ---
 Description: Most of the get and set operations deal with one component of information only. The phoneGetStatus function returns complete status information about a phone device to an application.
-ms.assetid: 8d747aa5-05cc-4426-9d46-24bce6b4af26
+ms.assetid: 'ca38396c-6f97-4c1c-99fb-2bd64c74c626'
 title: Status
 ms.technology: desktop
 ms.prod: windows

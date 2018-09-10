@@ -1,7 +1,7 @@
 ---
 title: MediaCollection.getAll method
 description: The getAll method retrieves a playlist containing all media items in the library.
-ms.assetid: db06194c-36e2-4494-b464-c08f6983bdc1
+ms.assetid: 'c22532ee-5714-4762-966f-7dc6543384f4'
 keywords:
 - getAll method Windows Media Player
 - getAll method Windows Media Player , MediaCollection class

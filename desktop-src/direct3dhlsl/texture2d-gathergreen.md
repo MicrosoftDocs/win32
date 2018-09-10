@@ -1,7 +1,7 @@
 ---
 title: Texture2D GatherGreen methods
 description: Samples a Texture2D and returns the green component.
-ms.assetid: 97e1fb52-75f4-4e73-93f1-98b7a5925efc
+ms.assetid: '4f4583b4-2b9c-458c-9cd4-a324f1cdb423'
 keywords:
 - GatherGreen methods HLSL
 topic_type:

@@ -1,6 +1,6 @@
 ---
 Description: The Microsoft Windows operating system provides support for a variety of hardware devices and network time protocols using the time provider architecture.
-ms.assetid: 04f523d7-7e99-4bf5-941f-ae67f4b9df0a
+ms.assetid: 'a7575373-eeda-4f2a-85e5-d1b50994e7ae'
 title: Time Provider
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: TaskDefinition.Data property
 description: For scripting, gets or sets the data that is associated with the task. This data is ignored by the Task Scheduler service, but is used by third-parties who wish to extend the task format.
-ms.assetid: b2bb9102-3192-4336-9f91-efad081124b1
+ms.assetid: 'b78de247-0ee9-4419-9530-f93e593e4a18'
 keywords:
 - Data property Task Scheduler
 - Data property Task Scheduler , TaskDefinition object

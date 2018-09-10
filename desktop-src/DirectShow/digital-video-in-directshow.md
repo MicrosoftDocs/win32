@@ -1,6 +1,6 @@
 ---
 Description: Digital Video in DirectShow
-ms.assetid: 0570bf7c-c38d-4ada-9593-27b9be117893
+ms.assetid: '22400118-2f38-4130-b50c-dcfc96bf0ae9'
 title: Digital Video in DirectShow
 ms.technology: desktop
 ms.prod: windows

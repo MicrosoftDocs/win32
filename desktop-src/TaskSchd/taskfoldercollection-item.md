@@ -1,7 +1,7 @@
 ---
 title: TaskFolderCollection.Item property
 description: For scripting, gets the specified folder from the collection.
-ms.assetid: 6caf3128-5e97-4653-88d3-3eb8131409dd
+ms.assetid: '677a1a19-7e1a-47c8-9532-c858b3550e4a'
 keywords:
 - Item property Task Scheduler
 - Item property Task Scheduler , TaskFolderCollection object

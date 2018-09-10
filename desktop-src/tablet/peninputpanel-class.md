@@ -1,6 +1,6 @@
 ---
 Description: The PenInputPanel object enables you to easily add in-place pen input to your applications.
-ms.assetid: 185dbed4-8e2c-49a5-a1c8-23a9787ae2f0
+ms.assetid: 'ad63302e-b386-4b32-95bf-be1129839c33'
 title: PenInputPanel class
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: Data Unit Extensions
 description: Data Unit Extensions
-ms.assetid: 5dc0a596-68ae-409a-9abc-15ca507d6ec7
+ms.assetid: 'f95de189-0449-4b88-aba3-7b19f385c8fe'
 keywords:
 - Windows Media Format SDK,data unit extensions
 - Advanced Systems Format (ASF),data unit extensions

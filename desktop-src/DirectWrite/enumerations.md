@@ -1,7 +1,7 @@
 ---
 title: Enumerations
 description: DirectWrite defines the following enumerations.
-ms.assetid: 3EA568B4-310D-4F70-9530-5916419282E5
+ms.assetid: '809ccacd-ff23-4d7b-a177-e7a9937c0c5a'
 keywords:
 - DirectWrite,enumerations
 ms.technology: desktop

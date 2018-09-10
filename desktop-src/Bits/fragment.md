@@ -1,7 +1,7 @@
 ---
 title: Fragment
 description: Use the Fragment packet to send a fragment of the upload file to the server.
-ms.assetid: f5466489-2d5e-4850-a39c-37bc4923a7ac
+ms.assetid: 'd6df7e47-a240-4be2-a9c4-24a13e622861'
 keywords:
 - Fragment BITS
 topic_type:

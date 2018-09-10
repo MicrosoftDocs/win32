@@ -1,6 +1,6 @@
 ---
 Description: Video Renderer Filter
-ms.assetid: ead99cb3-2be2-42c6-ac22-be0c2ddf28d5
+ms.assetid: '7719ed9d-e3b9-4c84-b587-4e120b5cabf8'
 title: Video Renderer Filter
 ms.technology: desktop
 ms.prod: windows

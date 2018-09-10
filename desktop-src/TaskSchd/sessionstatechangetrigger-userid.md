@@ -1,7 +1,7 @@
 ---
 title: SessionStateChangeTrigger.UserId property
 description: For scripting, gets or sets the user for the Terminal Server session. When a session state change is detected for this user, a task is started.
-ms.assetid: 9d0cc48f-4765-4959-bb59-ca39acde4c39
+ms.assetid: 'cdeabdb1-6dc7-462b-8919-7825ce72dc02'
 keywords:
 - UserId property Task Scheduler
 - UserId property Task Scheduler , SessionStateChangeTrigger object

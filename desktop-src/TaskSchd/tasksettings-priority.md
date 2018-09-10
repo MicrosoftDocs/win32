@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.Priority property
 description: For scripting, gets or sets the priority level of the task.
-ms.assetid: ce6ad1bc-0d19-4a5d-b29f-8df8400f8819
+ms.assetid: '2548fcb6-c649-4822-a2ea-77546aac2ec5'
 keywords:
 - Priority property Task Scheduler
 - Priority property Task Scheduler , TaskSettings object

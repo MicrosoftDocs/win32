@@ -1,7 +1,7 @@
 ---
 title: Silent License Acquisition
 description: Silent License Acquisition
-ms.assetid: 3b3fce53-9202-4e55-82d5-7c70ea833087
+ms.assetid: 'bf88f1bb-0cbb-4c30-92e0-3d342977d67f'
 keywords:
 - Windows Media Format SDK,silent license acquisition
 - Windows Media Format SDK,licenses

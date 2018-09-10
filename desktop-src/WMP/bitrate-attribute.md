@@ -1,7 +1,7 @@
 ---
 title: Bitrate Attribute
 description: The Bitrate attribute is the bit rate of the item, in bits per second.
-ms.assetid: 28272aa2-49ac-4c13-aa3e-6e733cc49514
+ms.assetid: '19117ca7-fad3-469e-8208-c0b899e13919'
 keywords:
 - Bitrate Attribute Windows Media Player
 topic_type:

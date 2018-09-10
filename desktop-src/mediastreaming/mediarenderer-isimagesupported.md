@@ -1,7 +1,7 @@
 ---
 title: MediaRenderer.IsImageSupported property
 description: Gets a value that indicates whether the DMR is capable of displaying images.
-ms.assetid: 3941789B-0FFF-4F00-B63C-2586B39B6546
+ms.assetid: '3e356ccc-1165-4eaa-9f6e-3332ea84a133'
 keywords:
 - IsImageSupported property Media Streaming API
 - IsImageSupported property Media Streaming API , MediaRenderer interface

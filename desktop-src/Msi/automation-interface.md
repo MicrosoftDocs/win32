@@ -1,6 +1,6 @@
 ---
 Description: This section is intended for developers who are writing their own setup programs and who want to learn more about the Windows Installer database tables.
-ms.assetid: 113ed443-a866-43d4-86bd-fc3b244f2edb
+ms.assetid: '72493b40-04e0-4fe0-9ec7-542c63036235'
 title: Automation Interface
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: Playlist.insertItem method
 description: The insertItem method inserts a media item into the playlist at the specified location.
-ms.assetid: 2db2d28d-4cbf-423c-824f-e1e212c46f7a
+ms.assetid: 'c186abc4-0a15-49d2-bbc4-5660e8cc0a4b'
 keywords:
 - insertItem method Windows Media Player
 - insertItem method Windows Media Player , Playlist class

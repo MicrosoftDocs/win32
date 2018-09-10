@@ -1,7 +1,7 @@
 ---
 title: RunningTask.InstanceGuid property
 description: For scripting, gets the GUID identifier for this instance of the task.
-ms.assetid: 993682d1-c77c-48d8-bec6-aab810c8bcda
+ms.assetid: '35be538f-5223-4c61-9491-677953b4135a'
 keywords:
 - InstanceGuid property Task Scheduler
 - InstanceGuid property Task Scheduler , RunningTask object

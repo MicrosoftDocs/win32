@@ -1,7 +1,7 @@
 ---
 title: Media.setItemInfo method
 description: The setItemInfo method sets the value of the specified attribute for the current media item.
-ms.assetid: 919fe92f-9519-4229-8097-4970a8f6cc25
+ms.assetid: '8c4ce954-45cb-4a67-9660-1a013ecd64c3'
 keywords:
 - setItemInfo method Windows Media Player
 - setItemInfo method Windows Media Player , Media class

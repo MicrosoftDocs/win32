@@ -1,7 +1,7 @@
 ---
 title: Structures
 description: This section contains structures for Windows Touch input.
-ms.assetid: 3735cfa1-095b-416c-a863-84fd7de4ba03
+ms.assetid: '591c7218-bd4f-40c2-98e1-6442ede28600'
 keywords:
 - Windows Touch,structures
 ms.technology: desktop

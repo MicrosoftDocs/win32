@@ -1,7 +1,7 @@
 ---
 title: Media.getAttributeName method
 description: The getAttributeName method retrieves the name of the attribute corresponding to the specified index.
-ms.assetid: cb04e464-44dd-41ba-9296-f13aca9ef54e
+ms.assetid: 'f74d81c6-49f8-4b1e-a367-acb4a0914c5a'
 keywords:
 - getAttributeName method Windows Media Player
 - getAttributeName method Windows Media Player , Media class

@@ -1,6 +1,6 @@
 ---
 Description: The KeyUsage object exposes the following properties.
-ms.assetid: 380D64EE-1551-4EBA-9C19-5F7D4D3ECF23
+ms.assetid: 'b7edba4f-8f76-4ed1-bd54-9f9dd5e7c3d0'
 title: KeyUsage Properties
 ms.technology: desktop
 ms.prod: windows

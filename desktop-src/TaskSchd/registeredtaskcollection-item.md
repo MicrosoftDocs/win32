@@ -1,7 +1,7 @@
 ---
 title: RegisteredTaskCollection.Item property
 description: For scripting, gets the specified registered task from the collection.
-ms.assetid: 4cdb4dbe-e4b4-4520-a58f-7613a980af8f
+ms.assetid: '8b396478-4cd9-426c-afe8-29539ff0b859'
 keywords:
 - Item property Task Scheduler
 - Item property Task Scheduler , RegisteredTaskCollection object

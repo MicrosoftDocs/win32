@@ -1,6 +1,6 @@
 ---
 Description: This section describes the syntax and usage of structured exception handling as implemented in the Microsoft C/C++ Optimizing Compiler. The following keywords are interpreted by the compiler as part of the structured exception-handling mechanism.
-ms.assetid: 1ea2c7f7-f920-4c72-bc62-4eb5e8d70790
+ms.assetid: '22190b75-417c-49d3-83fe-546018fb61ea'
 title: Handler Syntax
 ms.technology: desktop
 ms.prod: windows

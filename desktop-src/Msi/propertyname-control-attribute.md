@@ -1,6 +1,6 @@
 ---
 Description: This is the name of the property associated with this control.
-ms.assetid: f6834427-014b-4c6f-b6bb-d8df6189f43b
+ms.assetid: 'e04c1bb1-1538-4bf4-ad5c-aa4b6d89d136'
 title: PropertyName Control Attribute
 ms.technology: desktop
 ms.prod: windows

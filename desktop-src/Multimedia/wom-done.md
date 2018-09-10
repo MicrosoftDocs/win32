@@ -1,7 +1,7 @@
 ---
 title: WOM_DONE message
 description: The WOM\_DONE message is sent to a waveform-audio output callback function when the given output buffer is being returned to the application.
-ms.assetid: bbdebb68-82e5-4963-90bb-f93f8a91a8cf
+ms.assetid: 'cac94a44-d1b0-43de-b3ec-ae34547b1fc3'
 keywords:
 - WOM_DONE message Windows Multimedia
 topic_type:

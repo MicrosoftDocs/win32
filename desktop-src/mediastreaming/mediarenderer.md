@@ -1,7 +1,7 @@
 ---
 title: MediaRenderer class
 description: Implements the IMediaRenderer interface that represents a DLNA Digital Media Renderer (DMR) device.
-ms.assetid: FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB
+ms.assetid: 'bac7898f-1334-4e28-92c7-6de464884eaf'
 keywords:
 - MediaRenderer class Media Streaming API
 - MediaRenderer class Media Streaming API , described

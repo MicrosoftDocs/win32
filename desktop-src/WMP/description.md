@@ -1,7 +1,7 @@
 ---
 title: Description
 description: Description
-ms.assetid: 660d886d-5dd2-4f7d-b343-6d9c7c8f8389
+ms.assetid: '940ef0bf-d651-411a-b36d-99dcc01d8508'
 keywords:
 - Windows Media Player Mobile skins,Description section
 - skins,Description section

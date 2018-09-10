@@ -1,7 +1,7 @@
 ---
 title: Product Identifiers
 description: Product Identifiers
-ms.assetid: ab68ffd2-208f-445b-9f5c-37159edb4d4b
+ms.assetid: '671440bb-0ed7-44fe-873c-fcefda8380bc'
 keywords:
 - Windows multimedia,product identifiers
 - multimedia,product identifiers

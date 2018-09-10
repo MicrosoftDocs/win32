@@ -1,6 +1,6 @@
 ---
 Description: The XPS Digital Signature API enables a user to sign a document, verify the identity of the signer, and indicate whether an XPS document has changed since it was signed.
-ms.assetid: 895974df-d5e8-4974-b057-ec7e5e59d805
+ms.assetid: '8a23617e-92fe-4662-b602-47add5716358'
 title: XPS Digital Signature API
 ms.technology: desktop
 ms.prod: windows

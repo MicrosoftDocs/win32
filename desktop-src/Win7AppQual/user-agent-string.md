@@ -1,6 +1,6 @@
 ---
 Description: .
-ms.assetid: 1cb0456d-501a-4272-b89d-35e79d29d13a
+ms.assetid: 'bcf0a534-c123-40c4-91b4-645c4912f31a'
 title: User Agent String
 ms.technology: desktop
 ms.prod: windows

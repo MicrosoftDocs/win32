@@ -1,7 +1,7 @@
 ---
 title: TaskDefinition.Principal property
 description: For scripting, gets or sets the principal for the task that provides the security credentials for the task.
-ms.assetid: d1c8389b-149c-4fcb-972a-b25fa0d8d763
+ms.assetid: 'ed706616-50a1-40b2-8e02-6f548e1b714e'
 keywords:
 - Principal property Task Scheduler
 - Principal property Task Scheduler , TaskDefinition object

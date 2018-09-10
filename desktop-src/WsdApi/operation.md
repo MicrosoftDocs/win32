@@ -1,6 +1,6 @@
 ---
 Description: Specifies an operation for which code is to be generated.
-ms.assetid: 559c7fcd-9652-4dfa-b22a-45929b6aee14
+ms.assetid: 'd198197e-d146-4f1b-99df-944822e83357'
 title: operation element
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.DeleteExpiredTaskAfter property
 description: For scripting, gets or sets the amount of time that the Task Scheduler will wait before deleting the task after it expires.
-ms.assetid: c6a2a12d-a41a-4fd8-a328-bce0fe19deba
+ms.assetid: 'c57d736c-e3ce-44b8-809e-44f7c0321d70'
 keywords:
 - DeleteExpiredTaskAfter property Task Scheduler
 - DeleteExpiredTaskAfter property Task Scheduler , TaskSettings object

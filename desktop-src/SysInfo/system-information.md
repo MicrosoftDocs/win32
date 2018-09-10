@@ -1,6 +1,6 @@
 ---
 Description: The system information functions and messages describe or change the system configuration, settings, and attributes.
-ms.assetid: 869912f0-cb3b-402d-8445-3b1df6546da5
+ms.assetid: 'd00e1bb9-1c23-4552-8004-57cbac67044d'
 title: System Information
 ms.technology: desktop
 ms.prod: windows

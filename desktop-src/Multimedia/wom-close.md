@@ -1,7 +1,7 @@
 ---
 title: WOM_CLOSE message
 description: The WOM\_CLOSE message is sent to a waveform-audio output callback function when a waveform-audio output device is closed. The device handle is no longer valid after this message has been sent.
-ms.assetid: 6505b688-88a1-43b2-ad4e-2f88e496430a
+ms.assetid: 'ac20216a-6a60-4e62-8241-3ca6f33567f1'
 keywords:
 - WOM_CLOSE message Windows Multimedia
 topic_type:

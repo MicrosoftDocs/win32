@@ -1,7 +1,7 @@
 ---
 title: LogonTrigger.UserId property
 description: For scripting, gets or sets the identifier of the user.
-ms.assetid: 22d69609-1400-41eb-ae25-4ca05c4733ba
+ms.assetid: 'd28eea9b-8238-49e7-afec-5a96281b3063'
 keywords:
 - UserId property Task Scheduler
 - UserId property Task Scheduler , LogonTrigger object

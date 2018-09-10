@@ -1,6 +1,6 @@
 ---
 Description: 'The following functions are part of the Setup API:'
-ms.assetid: f857c85b-7fc6-447a-b694-c99ecdda45cc
+ms.assetid: '0a9518b7-f231-48f2-ba50-5b802f8ccaed'
 title: Functions
 ms.technology: desktop
 ms.prod: windows

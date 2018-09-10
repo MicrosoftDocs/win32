@@ -1,6 +1,6 @@
 ---
 Description: The PROTOCOLINFO structure describes a protocol.
-ms.assetid: 1ba47889-b2ed-47ba-94f9-1b781af6d01f
+ms.assetid: '7f936c93-a942-4591-9abc-59872df0964e'
 title: PROTOCOLINFO structure
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo.Documentation property
 description: For scripting, gets or sets any additional documentation for the task.
-ms.assetid: ec12b0aa-def4-4ff3-b067-62f989c890d5
+ms.assetid: '12ce9461-0cc7-49d0-8c57-7ff3ca32850a'
 keywords:
 - Documentation property Task Scheduler
 - Documentation property Task Scheduler , RegistrationInfo object

@@ -1,7 +1,7 @@
 ---
 title: HRef Attribute (Stroke)(VML)
 description: HRef Attribute (Stroke)(VML)
-ms.assetid: ee7c1710-1f8e-42c4-895f-d0f3d15ca6db
+ms.assetid: 'vs|vml|~\shape\stroke\stroke_href.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

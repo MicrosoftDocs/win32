@@ -1,7 +1,7 @@
 ---
 title: Profiles
 description: Profiles
-ms.assetid: af4a8efe-d797-4d19-961d-b917e4c7c81a
+ms.assetid: '6e70393f-3dab-4036-8d34-a672ef1795c6'
 keywords:
 - Windows Media Format SDK,profiles
 - Advanced Systems Format (ASF),profiles

@@ -1,6 +1,6 @@
 ---
 Description: The Text control displays static text, which may use a predefined style.
-ms.assetid: a49209f3-043c-4360-b1e3-9fa9538c2c9b
+ms.assetid: '7d531fd6-f0fe-4e05-a977-888f4935332a'
 title: Text Control
 ms.technology: desktop
 ms.prod: windows

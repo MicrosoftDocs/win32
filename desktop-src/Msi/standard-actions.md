@@ -1,6 +1,6 @@
 ---
 Description: An action encapsulates a typical function performed during the installation or maintenance of an application. Windows Installer has many built-in standard actions. Developers of installation packages can also author their own custom actions.
-ms.assetid: d2fd77e0-c949-4405-9fe4-41d44a76e6fb
+ms.assetid: '33651988-e371-4258-96a7-bcd7d6762161'
 title: Standard Actions
 ms.technology: desktop
 ms.prod: windows

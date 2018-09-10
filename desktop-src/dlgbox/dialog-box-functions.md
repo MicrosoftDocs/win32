@@ -1,7 +1,7 @@
 ---
 title: Dialog Box Functions
 description: .
-ms.assetid: 4a94330b-e0d5-48d7-80f3-86ba6ca1f0f9
+ms.assetid: '7ea6445a-1772-4986-b4b7-27512afa680d'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

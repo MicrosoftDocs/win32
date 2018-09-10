@@ -1,6 +1,6 @@
 ---
 Description: Create, install, start, stop, and delete services with the service control manager. Use service configuration programs to modify or query the database of installed services.
-ms.assetid: a3af8340-d367-417b-9759-7282edf1d694
+ms.assetid: '711391da-05c6-4d89-88d6-c68c2e5c2f86'
 title: Services
 ms.technology: desktop
 ms.prod: windows

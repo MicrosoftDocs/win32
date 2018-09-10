@@ -1,7 +1,7 @@
 ---
 title: Network.setProxyPort method
 description: The setProxyPort method specifies the proxy port to use.
-ms.assetid: 36b7290d-c359-45bb-b77b-46b696e9edcf
+ms.assetid: '09cfce4a-191c-4596-b678-15d9328d5c53'
 keywords:
 - setProxyPort method Windows Media Player
 - setProxyPort method Windows Media Player , Network class

@@ -1,7 +1,7 @@
 ---
 title: set command
 description: The set command establishes control settings for the device. CD audio, digital-video, MIDI sequencer, VCR, videodisc, video-overlay, and waveform-audio devices recognize this command.
-ms.assetid: 641c882e-b9c8-4945-bf8a-f3e70c5d5c64
+ms.assetid: '1ec4d84e-372a-4b6d-b694-f5afb41f90b2'
 keywords:
 - set command Windows Multimedia
 topic_type:

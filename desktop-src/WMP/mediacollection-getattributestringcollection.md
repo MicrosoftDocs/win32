@@ -1,7 +1,7 @@
 ---
 title: MediaCollection.getAttributeStringCollection method
 description: The getAttributeStringCollection method retrieves a StringCollection object representing the set of all values for a specified attribute within a specified media type.
-ms.assetid: c3699acb-58a1-4efa-a42c-c84534abca96
+ms.assetid: '75563a75-88f5-419e-983b-d105bce02511'
 keywords:
 - getAttributeStringCollection method Windows Media Player
 - getAttributeStringCollection method Windows Media Player , MediaCollection class

@@ -1,6 +1,6 @@
 ---
 Description: The following sections describe function calls to Windows Installer API.
-ms.assetid: 960d486b-bb63-4ae8-a2cc-c8b1ff023647
+ms.assetid: '0a63b8bd-fa79-495e-9db8-e4cd450ea4d8'
 title: Installer Functions
 ms.technology: desktop
 ms.prod: windows

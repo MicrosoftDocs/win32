@@ -1,7 +1,7 @@
 ---
 title: loop - ps
 description: Starts a loop...endloop - ps block.
-ms.assetid: 8d05d0b3-88d2-44e3-a22d-54d8a8ceb5f4
+ms.assetid: 'vs|directx_sdk|~\loop___ps.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

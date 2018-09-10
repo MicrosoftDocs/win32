@@ -1,6 +1,6 @@
 ---
 Description: Assigns vector component data to the current instance of XMXDEC4.
-ms.assetid: 4331ab10-427c-4174-a171-bd0bffe3a381
+ms.assetid: 'overload:microsoft.directx_sdk.reference.xmxdec4.operator = '
 title: operator = operators
 ms.technology: desktop
 ms.prod: windows

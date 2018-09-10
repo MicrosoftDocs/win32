@@ -1,6 +1,6 @@
 ---
 Description: The x property sets or retrieves the x position of the rectangle's upper-left corner.
-ms.assetid: de03f3e6-12c8-4a7c-a424-ef974d223e70
+ms.assetid: '74a2ae05-8e30-41ed-a75e-09e49ae2b331'
 title: x Property
 ms.technology: desktop
 ms.prod: windows

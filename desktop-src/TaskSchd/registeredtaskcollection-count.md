@@ -1,7 +1,7 @@
 ---
 title: RegisteredTaskCollection.Count property
 description: For scripting, gets the number of registered tasks in the collection.
-ms.assetid: 62667998-2743-488d-bea1-957a65006ad9
+ms.assetid: '0ac17870-97f8-4b86-90a3-1fb017877d7c'
 keywords:
 - Count property Task Scheduler
 - Count property Task Scheduler , RegisteredTaskCollection object

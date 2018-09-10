@@ -1,6 +1,6 @@
 ---
 Description: Assigns vector component data to the current instance of XMCOLOR.
-ms.assetid: 36001947-7303-4357-a7ff-e5e24853bff2
+ms.assetid: 'overload:microsoft.directx_sdk.reference.xmcolor.operator = '
 title: operator = operators
 ms.technology: desktop
 ms.prod: windows

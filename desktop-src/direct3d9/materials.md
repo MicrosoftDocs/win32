@@ -1,6 +1,6 @@
 ---
 Description: Materials describe how polygons reflect light or appear to emit light in a 3D scene.
-ms.assetid: 830d73be-bba6-454d-8476-341d291a5b2e
+ms.assetid: 'vs|directx_sdk|~\materials.htm'
 title: Materials (Direct3D 9)
 ms.technology: desktop
 ms.prod: windows

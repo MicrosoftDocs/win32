@@ -1,7 +1,7 @@
 ---
 title: MediaCollection.getByGenre method
 description: The getByGenre method retrieves a playlist of the media items with the specified genre.
-ms.assetid: 292189a5-06ec-4870-b279-5190c57c77c9
+ms.assetid: '022a0c52-93e1-4ab4-90a7-632bcd6fc004'
 keywords:
 - getByGenre method Windows Media Player
 - getByGenre method Windows Media Player , MediaCollection class

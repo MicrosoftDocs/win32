@@ -1,7 +1,7 @@
 ---
 title: Interfaces
 description: Interfaces
-ms.assetid: 748a8db7-159d-4043-beac-e0516327bcef
+ms.assetid: '68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd'
 keywords:
 - Windows Media Player,interfaces
 - Windows Media Player Mobile,interfaces

@@ -1,7 +1,7 @@
 ---
 title: Player Object
 description: The Player object is the root object for the Windows Media Player control. It supports the properties, methods, and events listed in the following tables.
-ms.assetid: db995e75-d4e3-4f50-a34a-cc1b2f2c5db5
+ms.assetid: '694bd6cc-c816-478a-87b9-1526e2d18869'
 keywords:
 - Player Object Windows Media Player
 topic_type:

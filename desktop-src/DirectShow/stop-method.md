@@ -1,6 +1,6 @@
 ---
 Description: The Stop method stops playback.
-ms.assetid: ede19f02-6eda-42da-a108-06d78dc2e8a9
+ms.assetid: 'e1ebfacc-4f33-4b4d-8e6c-1d1e1f0a22bd'
 title: Stop Method
 ms.technology: desktop
 ms.prod: windows

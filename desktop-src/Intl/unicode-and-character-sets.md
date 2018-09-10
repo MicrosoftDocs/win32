@@ -1,6 +1,6 @@
 ---
 Description: Unicode and Character Sets
-ms.assetid: 539ad3c7-45ef-476b-bedc-48986f184796
+ms.assetid: '8c1c6582-b58c-4008-9ce5-208acc191d9f'
 title: Unicode and Character Sets
 ms.technology: desktop
 ms.prod: windows

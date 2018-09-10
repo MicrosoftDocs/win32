@@ -1,6 +1,6 @@
 ---
 Description: The InstallExecuteSequence table lists actions that are executed when the top-level INSTALL action is executed.
-ms.assetid: 245b576b-96cc-4eab-8848-5ff78ba32873
+ms.assetid: '995d4159-bfc9-48b2-8328-3ae8251d785d'
 title: InstallExecuteSequence Table
 ms.technology: desktop
 ms.prod: windows

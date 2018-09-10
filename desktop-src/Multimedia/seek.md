@@ -1,7 +1,7 @@
 ---
 title: seek command
 description: The seek command moves to the specified position and stops. CD audio, digital-video, MIDI sequencer, VCR, videodisc, and waveform-audio devices recognize this command.
-ms.assetid: 96d42e1a-03d5-4007-95d8-0e4b8d2018d5
+ms.assetid: 'e9e8ca14-d181-4f29-b4d3-c7f5b0301164'
 keywords:
 - seek command Windows Multimedia
 topic_type:

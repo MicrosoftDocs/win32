@@ -1,7 +1,7 @@
 ---
 title: MediaCollection.remove method
 description: The remove method removes an item from the media collection.
-ms.assetid: 646d2e3c-623b-4040-af82-1cefac6fc1ae
+ms.assetid: '7d4c03ed-01c8-4112-90b6-5de52eacb199'
 keywords:
 - remove method Windows Media Player
 - remove method Windows Media Player , MediaCollection class

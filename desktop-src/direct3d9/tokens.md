@@ -1,6 +1,6 @@
 ---
 Description: Tokens are written as little-endian WORDs. The following list of token values is divided into record-bearing and stand-alone tokens.
-ms.assetid: c0df4c9f-a232-45cf-b543-e95ee84a4a8d
+ms.assetid: 'vs|directx_sdk|~\tokens.htm'
 title: Tokens
 ms.technology: desktop
 ms.prod: windows

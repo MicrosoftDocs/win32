@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.Name property
 description: For scripting, gets the name that is used to identify the folder that contains a task.
-ms.assetid: 092d1d40-e97a-44a3-aff0-41b2b6df8d6d
+ms.assetid: '43963483-7126-487f-a621-6d5556475eec'
 keywords:
 - Name property Task Scheduler
 - Name property Task Scheduler , TaskFolder object

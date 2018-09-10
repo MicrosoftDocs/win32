@@ -1,6 +1,6 @@
 ---
 Description: This section includes scenarios that use CAPICOM procedures.
-ms.assetid: 8f74ff84-6165-46a3-976b-36c7f70546be
+ms.assetid: 'f886e04a-4ea7-4d24-a05f-3e08742fe134'
 title: Using CAPICOM
 ms.technology: desktop
 ms.prod: windows

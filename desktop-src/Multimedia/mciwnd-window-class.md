@@ -1,7 +1,7 @@
 ---
 title: MCIWnd Window Class
 description: MCIWnd Window Class
-ms.assetid: 7dde7346-5853-4c8f-8788-bf74d01ece83
+ms.assetid: '473ec6dc-f3a3-430e-83bc-642f476e45af'
 keywords:
 - MCIWnd window class,about
 - MCIWnd window,window class

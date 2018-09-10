@@ -1,7 +1,7 @@
 ---
 title: Licenses
 description: Licenses
-ms.assetid: dde33d57-6c63-4e1a-8398-5db466fb22fa
+ms.assetid: '74717519-bfd5-4a64-88eb-680d4bdfe74a'
 keywords:
 - Windows Media Format SDK,digital rights management (DRM)
 - Windows Media Format SDK,DRM licenses

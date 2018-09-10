@@ -1,6 +1,6 @@
 ---
 Description: Defines a simple mesh. The first array is a list of vertices, and the second array defines the faces of the mesh by indexing into the vertex array.
-ms.assetid: 2b586ecc-db87-4b20-a4fc-c8b547bebf65
+ms.assetid: 'vs|directx_sdk|~\mesh.htm'
 title: Mesh
 ms.technology: desktop
 ms.prod: windows

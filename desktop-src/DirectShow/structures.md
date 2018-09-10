@@ -1,6 +1,6 @@
 ---
 Description: Structures
-ms.assetid: 378f6f43-5c05-4ae4-be24-956f9fc0cacf
+ms.assetid: '74f999c8-2602-42b0-97e4-2c626013fab3'
 title: Structures
 ms.technology: desktop
 ms.prod: windows

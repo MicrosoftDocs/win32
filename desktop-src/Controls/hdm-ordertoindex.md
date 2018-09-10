@@ -1,7 +1,7 @@
 ---
 title: HDM_ORDERTOINDEX message
 description: Retrieves an index value for an item based on its order in the header control. You can send this message explicitly or use the Header\_OrderToIndex macro.
-ms.assetid: 3c3289cc-0f47-4d02-b027-8848b7ec05d5
+ms.assetid: 'vs|controls|~\controls\header\messages\hdm_ordertoindex.htm'
 keywords:
 - HDM_ORDERTOINDEX message Windows Controls
 topic_type:

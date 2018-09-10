@@ -1,7 +1,7 @@
 ---
 title: status command
 description: The status command requests status information from a device. All devices recognize this command.
-ms.assetid: 5c974707-b6ca-4177-a262-6838d308fb0a
+ms.assetid: '39961bd7-866d-450d-9fbf-347a8f508481'
 keywords:
 - status command Windows Multimedia
 topic_type:

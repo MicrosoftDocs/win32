@@ -1,6 +1,6 @@
 ---
 Description: A debugger is an application that enables a developer to observe and correct programming errors. This overview describes the basic debugging functions.
-ms.assetid: 3c9e186b-6844-4126-b035-a3541880e109
+ms.assetid: '29596d47-180b-4083-837b-1ee75d6ffa2c'
 title: Basic Debugging
 ms.technology: desktop
 ms.prod: windows

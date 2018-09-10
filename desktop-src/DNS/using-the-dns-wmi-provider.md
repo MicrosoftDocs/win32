@@ -1,7 +1,7 @@
 ---
 title: Using the DNS WMI Provider
 description: The DNS WMI Provider defines WMI CIM classes that enable your application to control a DNS Server.
-ms.assetid: d9d64bda-0564-4074-9f0a-a249c7315042
+ms.assetid: '4965fc6b-7f0d-414d-a9dd-8b5b964db093'
 keywords:
 - Domain Name System, WMI provider, using
 ms.technology: desktop

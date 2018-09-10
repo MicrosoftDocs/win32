@@ -1,6 +1,6 @@
 ---
 Description: The SourceDir property is the root directory that contains the source cabinet file or the source file tree of the installation package. This value is used for directory resolution.
-ms.assetid: 79c7c5eb-b212-4dbf-943a-00ebd6037ce1
+ms.assetid: '900b26e8-80dd-4e70-8d79-37f09a0c6e86'
 title: SourceDir property
 ms.technology: desktop
 ms.prod: windows

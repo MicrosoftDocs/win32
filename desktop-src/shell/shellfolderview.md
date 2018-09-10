@@ -1,6 +1,6 @@
 ---
 Description: Represents the objects in a view and provides properties and methods used to obtain information about the contents of the view.
-ms.assetid: e3b0b35f-6707-4e37-8470-31b1d4421d07
+ms.assetid: '3b866266-fee0-42f7-a1e0-9adb6cc2e23f'
 title: ShellFolderView object
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: loop - vs
 description: Start a loop...endloop block.
-ms.assetid: fd7df120-a927-4a66-b152-6ce5247446e4
+ms.assetid: 'vs|directx_sdk|~\loop___vs.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

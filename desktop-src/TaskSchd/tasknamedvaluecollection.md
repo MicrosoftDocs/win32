@@ -1,7 +1,7 @@
 ---
 title: TaskNamedValueCollection object
 description: Scripting object that contains a collection of TaskNamedValuePair object name-value pairs.
-ms.assetid: 440dc70b-02de-4974-ad2a-462491d12775
+ms.assetid: '4cc7ce8a-a352-4092-b001-071f9c5cd864'
 keywords:
 - TaskNamedValueCollection object Task Scheduler
 - TaskNamedValueCollection object Task Scheduler , described

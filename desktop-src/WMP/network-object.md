@@ -1,7 +1,7 @@
 ---
 title: Network Object
 description: The Network object provides properties and methods used to access statistics relating to the quality of a network connection, and to specify and retrieve the network proxy settings.
-ms.assetid: 367a51d4-2db8-4c9e-82b7-85b2b631c721
+ms.assetid: '5ae6137e-22f5-4a65-8793-b6f66adb4cba'
 keywords:
 - Network Object Windows Media Player
 topic_type:

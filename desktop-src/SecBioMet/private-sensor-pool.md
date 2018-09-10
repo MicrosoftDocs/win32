@@ -1,7 +1,7 @@
 ---
 title: Private Sensor Pool
 description: A collection of biometric units reserved for exclusive use by a client application. Private pools support proprietary authentication methods and enable a client application to access a biometric unit by using vendor-specified control commands.
-ms.assetid: 79944E30-A3D4-411D-A551-3B309DEA6FEA
+ms.assetid: 'f0ccbafd-e7a8-4389-bd05-0b062dfc4dc0'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

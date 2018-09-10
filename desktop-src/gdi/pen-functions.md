@@ -1,6 +1,6 @@
 ---
 Description: The following functions are used with pens.
-ms.assetid: 55452048-aacd-4772-9345-3efcf0350ce6
+ms.assetid: 'd5cc81b5-0df4-4ec2-8941-d63819a8d5ff'
 title: Pen Functions
 ms.technology: desktop
 ms.prod: windows

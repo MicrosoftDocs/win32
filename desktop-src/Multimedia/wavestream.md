@@ -1,7 +1,7 @@
 ---
 title: Wavestream
 description: Wavestream
-ms.assetid: 282386af-506b-4be6-bb75-aa3c62f9778a
+ms.assetid: '81267149-793e-4611-848b-58085561d84b'
 keywords:
 - AVICap callback functions,wavestream
 ms.technology: desktop

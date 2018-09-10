@@ -1,6 +1,6 @@
 ---
 Description: Winlogon, the GINA, and network providers are the parts of the interactive logon model.
-ms.assetid: ea45cd5f-9cb0-41bb-99bf-f84781ae9604
+ms.assetid: 'd049d83f-b962-4c47-a79a-da556831e319'
 title: Winlogon and GINA
 ms.technology: desktop
 ms.prod: windows

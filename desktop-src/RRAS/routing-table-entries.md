@@ -1,7 +1,7 @@
 ---
 title: Routing Table Entries
 description: The routing table consists of three types of entries destinations, routes, and next hops.
-ms.assetid: 3caa019e-db40-4991-a229-166cb257bfed
+ms.assetid: '8e237e9d-4702-4d24-9bd9-4c24537ca7cc'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

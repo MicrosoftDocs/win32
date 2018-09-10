@@ -1,6 +1,6 @@
 ---
 Description: MSDV Driver
-ms.assetid: f0723da5-4f53-4f83-a657-ae42815a784e
+ms.assetid: '146ca753-fe41-49d3-8b1c-077e10a28192'
 title: MSDV Driver
 ms.technology: desktop
 ms.prod: windows

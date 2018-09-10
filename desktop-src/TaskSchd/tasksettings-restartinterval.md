@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.RestartInterval property
 description: For scripting, gets or sets a value that specifies how long the Task Scheduler will attempt to restart the task.
-ms.assetid: 6fe72035-e5f3-4c87-9dce-ba07374e7086
+ms.assetid: 'ad6f254d-55a8-478e-984e-a459f22043b5'
 keywords:
 - RestartInterval property Task Scheduler
 - RestartInterval property Task Scheduler , TaskSettings object

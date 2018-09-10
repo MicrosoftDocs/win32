@@ -1,6 +1,6 @@
 ---
 Description: The ProgressBar control displays a bar graph that changes length as it receives progress messages. This control subscribes to the SetProgress ControlEvent. It can subscribe to a ControlEvent named after the action being monitored.
-ms.assetid: cfc2d974-4f2d-4f52-9835-eab1dc091c9b
+ms.assetid: '0d366a1b-3c7e-4590-8557-c6a7d1fcd426'
 title: ProgressBar Control
 ms.technology: desktop
 ms.prod: windows

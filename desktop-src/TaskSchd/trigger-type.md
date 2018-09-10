@@ -1,7 +1,7 @@
 ---
 title: Trigger.Type property
 description: For scripting, gets the type of the trigger.
-ms.assetid: 71e3915e-28d6-46fa-8f7a-8b4a6afa31c6
+ms.assetid: '346e6b02-c89e-4644-aa19-2bbf3d0fb3c3'
 keywords:
 - Type property Task Scheduler
 - Type property Task Scheduler , Trigger object

@@ -1,6 +1,6 @@
 ---
 Description: This section describes the Windows Shell classes.
-ms.assetid: 43257507-dd5e-4622-8445-c132187fd1e5
+ms.assetid: '3b9d876c-32a9-429f-9605-efcc4a1c1570'
 title: Shell Classes
 ms.technology: desktop
 ms.prod: windows

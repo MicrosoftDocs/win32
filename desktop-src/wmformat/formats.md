@@ -1,7 +1,7 @@
 ---
 title: Formats
 description: Formats
-ms.assetid: 44c4ed7e-b35e-4ab5-9975-021f343dab6a
+ms.assetid: '7c602643-f1fc-4fbd-a739-4296dc758bc9'
 keywords:
 - Windows Media Format SDK,inputs
 - Windows Media Format SDK,streams

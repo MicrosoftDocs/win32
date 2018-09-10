@@ -1,7 +1,7 @@
 ---
 title: Texture2D Gather methods
 description: Samples a Texture2D and returns all four components.
-ms.assetid: 5d196c1c-8cc9-4add-9d33-654294314ee2
+ms.assetid: 'bb3ecda8-f167-45ce-a59f-af3e0308e250'
 keywords:
 - Gather methods HLSL
 topic_type:

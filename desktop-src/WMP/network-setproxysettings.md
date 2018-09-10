@@ -1,7 +1,7 @@
 ---
 title: Network.setProxySettings method
 description: The setProxySettings method specifies the proxy setting for a given protocol.
-ms.assetid: 3ce07bf8-8521-4240-9859-3bf790ccbf48
+ms.assetid: '473501c9-27ea-47ec-bc82-691804fbfb89'
 keywords:
 - setProxySettings method Windows Media Player
 - setProxySettings method Windows Media Player , Network class

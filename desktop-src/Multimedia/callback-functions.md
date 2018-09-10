@@ -1,7 +1,7 @@
 ---
 title: Callback Functions
 description: Callback Functions
-ms.assetid: d238a238-9702-4ba6-92bd-5ef1605b4983
+ms.assetid: 'd96e93e5-ebc9-4ad4-aaec-dcc4197a3fc5'
 keywords:
 - installable drivers,callback functions
 - installable drivers,DriverCallback function

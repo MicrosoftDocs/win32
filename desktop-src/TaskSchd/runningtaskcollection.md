@@ -1,7 +1,7 @@
 ---
 title: RunningTaskCollection object
 description: Scripting object that provides a collection that is used to control running tasks.
-ms.assetid: f95efba5-563d-49c0-81d3-143aa158ad8f
+ms.assetid: 'b137fcf3-634c-4ac6-908d-357f54da3025'
 keywords:
 - RunningTaskCollection object Task Scheduler
 - RunningTaskCollection object Task Scheduler , described

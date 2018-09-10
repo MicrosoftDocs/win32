@@ -1,7 +1,7 @@
 ---
 title: spin command
 description: The spin command starts spinning a disc or stops the disc from spinning. Videodisc devices recognize this command.
-ms.assetid: 9e491455-d06d-44c6-8aca-6360384ec266
+ms.assetid: '1fdf4d09-fafd-4245-ad92-397114d0f473'
 keywords:
 - spin command Windows Multimedia
 topic_type:

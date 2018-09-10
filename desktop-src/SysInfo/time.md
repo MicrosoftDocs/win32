@@ -1,6 +1,6 @@
 ---
 Description: The date and time functions retrieve and set the date and time for the system and individual files. This overview describes how to use these functions to examine and modify dates and times.
-ms.assetid: 74feb158-ba45-4660-970b-3eb577b1ebf8
+ms.assetid: 'ffa71fb2-e343-455b-a853-324cc66a40c6'
 title: Time
 ms.technology: desktop
 ms.prod: windows

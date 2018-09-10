@@ -1,7 +1,7 @@
 ---
 title: Button
 description: This section contains information about the programming elements used with button controls. A button is a control the user can click to provide input to an application.
-ms.assetid: 849FFD6B-8CB6-44FA-92EB-35BFA537FB75
+ms.assetid: 'vs|controls|~\controls\buttons\buttons.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

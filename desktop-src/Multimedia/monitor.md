@@ -1,7 +1,7 @@
 ---
 title: monitor command
 description: The monitor command specifies the presentation source. (The default presentation source is the workspace.) Switching the presentation source switches all audio and video streams in the source. Digital-video devices recognize this command.
-ms.assetid: b6c476ef-d1a4-477d-a104-dda10be60915
+ms.assetid: '5cacbe88-b94e-4101-badf-2bb4796b19cf'
 keywords:
 - monitor command Windows Multimedia
 topic_type:

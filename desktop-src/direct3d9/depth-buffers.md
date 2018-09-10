@@ -1,6 +1,6 @@
 ---
 Description: A depth buffer, often called a z-buffer or a w-buffer, is a property of the device that stores depth information to be used by Direct3D.
-ms.assetid: b8930211-82a1-4808-b042-1641e567cb6d
+ms.assetid: 'vs|directx_sdk|~\depth_buffers.htm'
 title: Depth Buffers (Direct3D 9)
 ms.technology: desktop
 ms.prod: windows

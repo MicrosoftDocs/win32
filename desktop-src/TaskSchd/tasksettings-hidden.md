@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.Hidden property
 description: For scripting, gets or sets a Boolean value that indicates that the task will not be visible in the UI.
-ms.assetid: 05d466e4-26f8-4fde-8c7e-9e16daadc220
+ms.assetid: '84a3d0b3-30f0-4356-b6cf-9bee3091612f'
 keywords:
 - Hidden property Task Scheduler
 - Hidden property Task Scheduler , TaskSettings object

@@ -1,7 +1,7 @@
 ---
 title: Network.setProxyName method
 description: The setProxyName method specifies the name of the proxy server to use.
-ms.assetid: 6f484f5b-195c-496d-932e-3e1fdbf873d8
+ms.assetid: 'dbcb2a00-4387-42af-8055-61d78d021ec7'
 keywords:
 - setProxyName method Windows Media Player
 - setProxyName method Windows Media Player , Network class

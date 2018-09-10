@@ -1,7 +1,7 @@
 ---
 title: RunningTask.Name property
 description: For scripting, gets the name of the task.
-ms.assetid: 26938b6c-9c83-4065-9714-6bd0d187c7f1
+ms.assetid: '6c21f845-a33f-4625-97e0-d6fc739527a3'
 keywords:
 - Name property Task Scheduler
 - Name property Task Scheduler , RunningTask object

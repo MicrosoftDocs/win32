@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.DeleteTask method
 description: For scripting, deletes a task from the folder.
-ms.assetid: 5b929abd-c40a-4f6b-9a0b-702d2f26f1fe
+ms.assetid: 'c030b2bf-fbde-4b8b-b38b-763938855d12'
 keywords:
 - DeleteTask method Task Scheduler
 - DeleteTask method Task Scheduler , TaskFolder object

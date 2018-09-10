@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.GetSecurityDescriptor method
 description: For scripting, gets the security descriptor that is used as credentials for the registered task.
-ms.assetid: 474d62a5-9ec7-40f7-b26e-54923f8ebe1e
+ms.assetid: '9b5985c5-c01a-4104-940f-1e0e79f18bb7'
 keywords:
 - GetSecurityDescriptor method Task Scheduler
 - GetSecurityDescriptor method Task Scheduler , RegisteredTask object

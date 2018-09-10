@@ -1,6 +1,6 @@
 ---
 Description: 'Windows Installer can install a package on a computer into two installation contexts: per-machine and per-user.'
-ms.assetid: 162bda20-0c62-4eac-8c1f-fd107e42c528
+ms.assetid: '20e7be9f-d9dc-4f43-86d7-b1a881126925'
 title: Installation Context
 ms.technology: desktop
 ms.prod: windows

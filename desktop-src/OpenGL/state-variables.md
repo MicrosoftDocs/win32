@@ -1,7 +1,7 @@
 ---
 title: State Variables
 description: State Variables
-ms.assetid: 783a798a-f45c-4262-99b8-badd15f52cd5
+ms.assetid: 'b5942a22-7dcc-4b43-9b21-ba58fadff6d0'
 keywords:
 - OpenGL,state variables
 ms.technology: desktop

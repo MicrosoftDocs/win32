@@ -1,7 +1,7 @@
 ---
 title: Text Metrics
 description: In order to assist your layout, custom font selection, and other metric intensive operations, starting in Windows 8, DirectWrite has a number of new APIs to express all the info about fonts that you might require to develop rich text apps.
-ms.assetid: 4524ace3-fca6-4daf-9ecb-516771e53fc9
+ms.assetid: '9df8c675-6f4d-4de7-916e-7dc51f5f04aa'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

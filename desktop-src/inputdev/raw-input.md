@@ -1,7 +1,7 @@
 ---
 title: Raw Input
 description: This section describes how the system provides raw input to your application and how an application receives and processes that input.
-ms.assetid: 013ed309-f667-47ed-ade0-5e7ca5a0997a
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\userinput\rawinput.htm'
 keywords:
 - Windows User Interface,user input
 - Windows User Interface,raw input

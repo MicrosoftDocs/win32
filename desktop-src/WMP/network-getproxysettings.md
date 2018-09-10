@@ -1,7 +1,7 @@
 ---
 title: Network.getProxySettings method
 description: The getProxySettings method retrieves the proxy setting for a given protocol.
-ms.assetid: 103e0d53-943d-4aba-9db1-20cdc1d75d52
+ms.assetid: 'a7b21eab-93e1-458b-aab0-60fd298cce44'
 keywords:
 - getProxySettings method Windows Media Player
 - getProxySettings method Windows Media Player , Network class

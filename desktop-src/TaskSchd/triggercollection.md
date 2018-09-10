@@ -1,7 +1,7 @@
 ---
 title: TriggerCollection object
 description: Scripting object that is used to add to, remove from, and retrieve the triggers of a task.
-ms.assetid: 5985ff67-3aa2-4ade-9d53-da4d640f5f6e
+ms.assetid: '25d89451-48b6-4ed9-9abd-19d7e8bc1fea'
 keywords:
 - triggers Task Scheduler , trigger collection object
 - TriggerCollection object Task Scheduler

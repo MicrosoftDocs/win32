@@ -1,7 +1,7 @@
 ---
 title: TaskDefinition.Triggers property
 description: For scripting, gets or sets a collection of triggers that are used to start a task.
-ms.assetid: 53093027-a371-49e1-a2c7-f7ca95f97a3d
+ms.assetid: 'ff5faa5d-30eb-4ecb-91bc-ae5e42fec69f'
 keywords:
 - Triggers property Task Scheduler
 - Triggers property Task Scheduler , TaskDefinition object

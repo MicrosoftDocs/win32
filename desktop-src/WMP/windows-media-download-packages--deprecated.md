@@ -1,7 +1,7 @@
 ---
 title: Windows Media Download Packages (deprecated)
 description: Windows Media Download Packages (deprecated)
-ms.assetid: d3961c5f-8cce-439d-9a13-41be2f45d92c
+ms.assetid: 'e2d55253-574e-4b18-8b69-2c7e2f6ef9c4'
 keywords:
 - Windows Media metafiles,Windows Media Download packages
 - Windows Media Player,Windows Media Download packages

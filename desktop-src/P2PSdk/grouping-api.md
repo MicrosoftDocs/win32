@@ -1,6 +1,6 @@
 ---
 Description: This section of the Peer Infrastructure documentation describes the Peer Grouping APIs.
-ms.assetid: 0a575efe-968c-48ab-a446-0d910ecb5708
+ms.assetid: 'cad66729-1e4c-4f96-98ef-51f544ad1c2e'
 title: Grouping API
 ms.technology: desktop
 ms.prod: windows

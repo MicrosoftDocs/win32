@@ -1,7 +1,7 @@
 ---
 title: SLIDER.cursor
 description: The cursor attribute specifies or retrieves a value indicating which cursor appears when the mouse is over the slider control.
-ms.assetid: 965c21ab-18a0-4459-9d5b-0a35ea2c212f
+ms.assetid: '5b96a20c-b3a6-4e08-95b2-32937bb15cc6'
 keywords:
 - SLIDER.cursor Windows Media Player
 topic_type:

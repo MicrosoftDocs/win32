@@ -1,7 +1,7 @@
 ---
 title: RunningTask.State property
 description: For scripting, gets an identifier for the state of the running task.
-ms.assetid: 50a1d81d-9762-4d1f-801a-b2c54ad9c5bc
+ms.assetid: '048863f4-b80b-42ab-bd74-ec761a8f03aa'
 keywords:
 - State property Task Scheduler
 - State property Task Scheduler , RunningTask object

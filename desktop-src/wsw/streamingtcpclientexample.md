@@ -1,7 +1,7 @@
 ---
 title: StreamingTcpClientExample
 description: This example shows a TCP client that sends one-way messages in a streaming fashion.
-ms.assetid: b0040b3d-d830-421a-bbf1-afb0cac47599
+ms.assetid: '29e9e08a-2cff-4467-b889-608a34d4b07e'
 keywords:
 - StreamingTcpClientExample Native-Web-Services
 - WWSAPI

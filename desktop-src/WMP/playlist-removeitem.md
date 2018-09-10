@@ -1,7 +1,7 @@
 ---
 title: Playlist.removeItem method
 description: The removeItem method removes the specified item from the playlist.
-ms.assetid: 7a17b0e0-2eaf-4570-a297-c2540ae4b6c5
+ms.assetid: '294ba4fb-967b-4a03-b0c5-6e9c15db3bff'
 keywords:
 - removeItem method Windows Media Player
 - removeItem method Windows Media Player , Playlist class

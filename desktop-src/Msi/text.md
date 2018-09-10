@@ -1,6 +1,6 @@
 ---
 Description: The Text data type is a text string. It is not validated.
-ms.assetid: 2c6204c7-535d-4dda-8394-723ddbf46b96
+ms.assetid: '36bedd5d-eb81-4cd5-bd81-634efec8ccf6'
 title: Text
 ms.technology: desktop
 ms.prod: windows

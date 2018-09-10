@@ -1,7 +1,7 @@
 ---
 title: VMVirtualMachineEvents enumeration
 description: Specifies the VM events.
-ms.assetid: 52901a95-0f4f-4503-97c5-1459179feeb8
+ms.assetid: '158bdada-6fd3-488c-9ff1-e04df9a79127'
 keywords:
 - VMVirtualMachineEvents enumeration Virtual PC
 topic_type:

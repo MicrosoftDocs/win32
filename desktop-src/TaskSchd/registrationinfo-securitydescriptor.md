@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo.SecurityDescriptor property
 description: For scripting, gets or sets the security descriptor of the task.
-ms.assetid: 095b8f81-412a-461d-bb6e-65c10b337d3e
+ms.assetid: 'e03607f0-c2a0-4aa1-a2b0-915b03aae968'
 keywords:
 - SecurityDescriptor property Task Scheduler
 - SecurityDescriptor property Task Scheduler , RegistrationInfo object

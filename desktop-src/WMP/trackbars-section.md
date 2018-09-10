@@ -1,7 +1,7 @@
 ---
 title: Trackbars Section
 description: Trackbars Section
-ms.assetid: b336a034-12ad-480e-8ec8-9c6d2bd9196f
+ms.assetid: 'cc6d1286-413b-4c4b-bcbd-6dd12811d24e'
 keywords:
 - Windows Media Player Mobile skins,trackbars
 - skins,trackbars

@@ -1,7 +1,7 @@
 ---
 title: Web Streams
 description: Web Streams
-ms.assetid: 1eeb6243-5095-4dba-994c-2083beda7b78
+ms.assetid: '78a2c703-a3f8-4afc-85d3-1c0a8f5a52b5'
 keywords:
 - Windows Media Format SDK,Web streams
 - Advanced Systems Format (ASF),Web streams

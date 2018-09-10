@@ -1,6 +1,6 @@
 ---
 Description: The ParserAutoInstallInfo export function identifies the parser, or parsers that are located in a DLL. ParserAutoInstallInfo should be implemented in all parser DLLs.
-ms.assetid: 1add9988-9cb2-43f9-8ae2-32acfe21b6f3
+ms.assetid: '7af3bf3c-d415-4af9-8f5c-c9a76535bd1a'
 title: ParserAutoInstallInfo callback function
 ms.technology: desktop
 ms.prod: windows

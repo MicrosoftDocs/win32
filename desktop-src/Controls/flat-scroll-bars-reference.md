@@ -1,7 +1,7 @@
 ---
 title: Flat Scroll Bar
 description: This section contains information about the programming elements used to control flat scroll bars.
-ms.assetid: c9f6bd60-c55f-49ad-b6e7-193743a1cdec
+ms.assetid: 'vs|controls|~\controls\flatsb\reflist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

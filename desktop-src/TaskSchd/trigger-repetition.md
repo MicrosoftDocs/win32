@@ -1,7 +1,7 @@
 ---
 title: Trigger.Repetition property
 description: For scripting, gets or sets a value that indicates how often the task is run and how long the repetition pattern is repeated after the task is started.
-ms.assetid: 8c3c5cc8-64aa-4706-a00a-0218fc1ae62b
+ms.assetid: 'f90b935c-8b69-4c82-ac4b-6b049e7b9703'
 keywords:
 - Repetition property Task Scheduler
 - Repetition property Task Scheduler , Trigger object

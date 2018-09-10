@@ -1,7 +1,7 @@
 ---
 title: WM_INDIVIDUALIZE_STATUS structure
 description: The WM\_INDIVIDUALIZE\_STATUS structure records the status of the individualization process.
-ms.assetid: af7e8758-489b-461f-b241-d7e40c8d61da
+ms.assetid: '3779ed6f-c133-4a9d-b60c-ef8c41fcc4af'
 keywords:
 - WM_INDIVIDUALIZE_STATUS structure windows Media Format
 topic_type:

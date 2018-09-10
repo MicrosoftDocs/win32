@@ -1,7 +1,7 @@
 ---
 title: SLIDER.min
 description: The min attribute specifies or retrieves the minimum value of the range defined by the slider control.
-ms.assetid: a152cf9f-7383-47da-a9b2-dedd13749964
+ms.assetid: 'c67ef9b1-2bd0-4b05-823b-fe7cdb90721d'
 keywords:
 - SLIDER.min Windows Media Player
 topic_type:

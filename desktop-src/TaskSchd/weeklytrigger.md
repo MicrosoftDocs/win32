@@ -1,7 +1,7 @@
 ---
 title: WeeklyTrigger object
 description: Scripting object that represents a trigger that starts a task based on a weekly schedule.
-ms.assetid: c10b050a-8319-4e21-85aa-0bceb76abaaf
+ms.assetid: 'a000d7a8-0239-440f-b49b-7f0c55b01e8e'
 keywords:
 - weekly trigger Task Scheduler , object
 - WeeklyTrigger object Task Scheduler

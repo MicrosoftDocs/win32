@@ -1,6 +1,6 @@
 ---
 Description: Two example binary template definitions and an example of a binary data object follow.
-ms.assetid: e08c7ceb-6e9c-4a3e-8bb6-5487e512a801
+ms.assetid: 'vs|directx_sdk|~\examples.htm'
 title: Examples
 ms.technology: desktop
 ms.prod: windows

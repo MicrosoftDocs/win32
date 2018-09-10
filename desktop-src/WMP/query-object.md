@@ -1,7 +1,7 @@
 ---
 title: Query Object
 description: The Query object represents a compound query.
-ms.assetid: 41488036-bdcf-4fe6-8f7e-f0897157d3d9
+ms.assetid: 'a0094897-a7f5-40ba-af49-e5a5a8fcb762'
 keywords:
 - Query Object Windows Media Player
 topic_type:

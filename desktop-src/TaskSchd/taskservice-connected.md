@@ -1,7 +1,7 @@
 ---
 title: TaskService.Connected property
 description: For scripting, gets a Boolean value that indicates if you are connected to the Task Scheduler service.
-ms.assetid: 51450195-f11a-469a-a98f-4d1e00343e41
+ms.assetid: '2b04def0-c4eb-4c81-8aa0-6a5b47944243'
 keywords:
 - Connected property Task Scheduler
 - Connected property Task Scheduler , TaskService object

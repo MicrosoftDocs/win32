@@ -1,7 +1,7 @@
 ---
 title: TaskNamedValuePair object
 description: Scripting object that is used to create a name-value pair in which the name is associated with the value.
-ms.assetid: b9d186a3-017d-409e-9d67-e74dc69a486a
+ms.assetid: 'def679b1-28d5-4c52-9dca-42a6de06a1ec'
 keywords:
 - TaskNamedValuePair object Task Scheduler
 - TaskNamedValuePair object Task Scheduler , described

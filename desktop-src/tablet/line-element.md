@@ -1,6 +1,6 @@
 ---
 Description: Contains a line within a Paragraph.
-ms.assetid: ff6a97ad-0e48-4128-8f94-24802b6ddc05
+ms.assetid: 'a88a2bf7-034f-4141-9f1c-f1123bab4a67'
 title: Line Element
 ms.technology: desktop
 ms.prod: windows

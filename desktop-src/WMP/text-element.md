@@ -1,7 +1,7 @@
 ---
 title: TEXT Element
 description: TEXT Element
-ms.assetid: 1afe1626-769a-40c8-883a-968ebd995a93
+ms.assetid: '4523fe7a-a77a-4bf2-9195-3943bff0eb21'
 keywords:
 - Windows Media Player skins,TEXT element
 - skins,TEXT element

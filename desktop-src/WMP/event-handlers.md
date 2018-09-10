@@ -1,7 +1,7 @@
 ---
 title: Event Handlers
 description: Event Handlers
-ms.assetid: ec806b92-a66d-499d-9bb3-cea7e82676bb
+ms.assetid: 'abb5f123-b838-46fb-ab11-cee70cc76a38'
 keywords:
 - Windows Media Player skins,event handlers in JScript
 - skins,event handlers in JScript

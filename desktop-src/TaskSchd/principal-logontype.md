@@ -1,7 +1,7 @@
 ---
 title: Principal.LogonType property
 description: For scripting, gets or sets the security logon method that is required to run the tasks that are associated with the principal.
-ms.assetid: cf0a8ad4-f1bb-46a2-ae92-d00e08b8d459
+ms.assetid: 'ac6fd7a1-00ef-4478-920f-de391a5a2c8c'
 keywords:
 - LogonType property Task Scheduler
 - LogonType property Task Scheduler , Principal object

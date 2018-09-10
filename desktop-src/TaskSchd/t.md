@@ -2,7 +2,7 @@
 title: T
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
-ms.assetid: 5d8ac31c-ce07-4801-a04e-e12e996b88c6
+ms.assetid: 'd4c6d7ba-7bca-420d-a4dc-4daea816f99c'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

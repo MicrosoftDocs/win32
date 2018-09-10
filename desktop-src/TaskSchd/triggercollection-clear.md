@@ -1,7 +1,7 @@
 ---
 title: TriggerCollection.Clear method
 description: For scripting, clears all triggers from the collection.
-ms.assetid: 9a15ed27-a381-4b5c-9725-3a55ce86d666
+ms.assetid: 'b740a920-d931-4f7e-91f0-8992491c6538'
 keywords:
 - Clear method Task Scheduler
 - Clear method Task Scheduler , TriggerCollection object

@@ -1,7 +1,7 @@
 ---
 title: Custom File and Stream Handlers
 description: Custom File and Stream Handlers
-ms.assetid: 6a00c8db-3ac6-4826-a373-52b6b7d1652f
+ms.assetid: 'c61e0118-d405-4c1e-9ae8-ed6a145a5d6b'
 keywords:
 - Video for Windows (VFW),custom file handlers
 - Video for Windows (VFW),custom stream handlers

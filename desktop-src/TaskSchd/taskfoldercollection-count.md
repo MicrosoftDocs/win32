@@ -1,7 +1,7 @@
 ---
 title: TaskFolderCollection.Count property
 description: For scripting, gets the number of folders in the collection.
-ms.assetid: 073a812d-209b-4e36-b94b-c24567377a84
+ms.assetid: '7e9ef126-aae4-4a28-8313-a20729f30962'
 keywords:
 - Count property Task Scheduler
 - Count property Task Scheduler , TaskFolderCollection object

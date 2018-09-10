@@ -1,6 +1,6 @@
 ---
 Description: A call center is a location with agents or operators at banks of telephones either making outgoing telephone calls or fielding incoming ones. For example, a bank or credit card company uses a call center to process account inquiries.
-ms.assetid: 6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7
+ms.assetid: '2d4e962a-809c-4d64-9549-4383b0c3b5dd'
 title: Call Center Controls
 ms.technology: desktop
 ms.prod: windows

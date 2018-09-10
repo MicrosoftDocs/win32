@@ -1,7 +1,7 @@
 ---
 title: Text Object Model
 description: This section contains information about the programming elements used with the Text Object Model (TOM).
-ms.assetid: e304ec18-ec2e-4ea7-91c6-6f6ab63b72ae
+ms.assetid: 'vs|controls|~\controls\richedit\textobjectmodel.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

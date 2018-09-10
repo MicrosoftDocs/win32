@@ -1,7 +1,7 @@
 ---
 title: The Summary Information Property Set
 description: COM defines a standard common property set for storing summary information about documents.
-ms.assetid: e1204de5-b712-4bd5-bffb-6a12ec8d7052
+ms.assetid: 'ceed6d66-7327-4781-a5dc-9058e671138a'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

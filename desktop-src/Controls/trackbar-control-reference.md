@@ -1,7 +1,7 @@
 ---
 title: Trackbar
 description: This section contains information about the programming elements used with trackbar controls.
-ms.assetid: 0940bc3a-c19e-4bfa-9635-32ac92dea24b
+ms.assetid: 'vs|controls|~\controls\trackbar\reflist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

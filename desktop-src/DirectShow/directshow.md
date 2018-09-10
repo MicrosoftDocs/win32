@@ -1,6 +1,6 @@
 ---
 Description: DirectShow
-ms.assetid: 0570bf7c-c38d-4ada-9593-27b9be117893
+ms.assetid: '75191978-d538-4140-83ed-69334624c6fb'
 title: DirectShow
 ms.technology: desktop
 ms.prod: windows

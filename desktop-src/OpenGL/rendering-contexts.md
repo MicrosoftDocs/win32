@@ -1,7 +1,7 @@
 ---
 title: Rendering Contexts
 description: An OpenGL rendering context is a port through which all OpenGL commands pass. Every thread that makes OpenGL calls must have a current rendering context. Rendering contexts link OpenGL to the Windows windowing systems.
-ms.assetid: 8655a81b-9f13-4ee5-ba0d-9aa9da1bfd09
+ms.assetid: '9fbbb0be-2db4-4bfc-9a5c-a43d71554abc'
 keywords:
 - OpenGL on Windows,rendering contexts
 - rendering contexts OpenGL

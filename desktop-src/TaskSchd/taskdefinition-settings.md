@@ -1,7 +1,7 @@
 ---
 title: TaskDefinition.Settings property
 description: For scripting, gets or sets the settings that define how the Task Scheduler service performs the task.
-ms.assetid: ecf768bd-5f07-4a9b-881c-e5306769f96e
+ms.assetid: '7ef34221-db8b-4df5-9be1-002680ec703c'
 keywords:
 - Settings property Task Scheduler
 - Settings property Task Scheduler , TaskDefinition object

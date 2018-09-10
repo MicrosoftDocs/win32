@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.DisallowStartIfOnBatteries property
 description: For scripting, gets or sets a Boolean value that indicates that the task will not be started if the computer is running on batteries.
-ms.assetid: 8f80bc2a-8b7d-4771-b773-55b8f50a4126
+ms.assetid: '5e13f168-a396-495f-a486-e64e8524c8cd'
 keywords:
 - DisallowStartIfOnBatteries property Task Scheduler
 - DisallowStartIfOnBatteries property Task Scheduler , TaskSettings object

@@ -1,7 +1,7 @@
 ---
 title: StructuredBuffer Load methods
 description: Reads buffer data from a StructuredBuffer.
-ms.assetid: 4162C550-4921-4A49-B812-886B9C9ADFF8
+ms.assetid: '4c797f36-d8e6-46ed-8ff0-248c28f82998'
 keywords:
 - Load methods HLSL
 topic_type:

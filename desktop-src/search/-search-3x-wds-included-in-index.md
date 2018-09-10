@@ -1,6 +1,6 @@
 ---
 Description: This topic describes the items that Windows Search indexes.
-ms.assetid: 3f87970b-ca5b-484f-a8bf-152841b158d3
+ms.assetid: 'vs|search|~\search\wds3x\overviews\misc_items_in_index.htm'
 title: What Is Included in the Index
 ms.technology: desktop
 ms.prod: windows

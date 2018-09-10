@@ -1,7 +1,7 @@
 ---
 title: Shader Visible Descriptor Heaps
 description: Shader visible descriptor heaps, are descriptor heaps that can be referenced by shaders through descriptor tables.
-ms.assetid: 85934873-8889-4564-A717-28A00614B38C
+ms.assetid: '37691fd1-212d-4786-ac9c-861c1a6a4918'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

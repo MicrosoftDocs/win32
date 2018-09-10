@@ -1,7 +1,7 @@
 ---
 title: Texture2D GatherCmpBlue methods
 description: Samples and compares a Texture2D and returns the blue component.
-ms.assetid: d8e03c55-18f1-4598-a700-9ba3a680d78a
+ms.assetid: '2d266105-6d15-4593-ad70-b82c06f77a76'
 keywords:
 - GatherCmpBlue methods HLSL
 topic_type:

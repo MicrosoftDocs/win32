@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.NextRunTime property
 description: For scripting, gets the time when the registered task is next scheduled to run.
-ms.assetid: ccaed6d7-4247-4299-9226-77d84d572e3b
+ms.assetid: 'f63298a8-c9fa-4fea-ad0b-2c8739aced19'
 keywords:
 - NextRunTime property Task Scheduler
 - NextRunTime property Task Scheduler , RegisteredTask object

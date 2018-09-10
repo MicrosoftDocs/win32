@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.Path property
 description: For scripting, gets the path to where the folder is stored.
-ms.assetid: d65c5f69-21dc-49d0-9a42-581947a195df
+ms.assetid: 'a0b28527-4875-4fe4-b2dd-08abbdc87ccc'
 keywords:
 - Path property Task Scheduler
 - Path property Task Scheduler , TaskFolder object

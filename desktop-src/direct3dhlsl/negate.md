@@ -1,7 +1,7 @@
 ---
 title: Negate
 description: Flips the sign of the value of a source operand used in an arithmetic operation.
-ms.assetid: fe11f7a7-81be-4237-8194-15704f6fe43c
+ms.assetid: '83ef3f61-7b0b-4033-8f7b-5345b205c441'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

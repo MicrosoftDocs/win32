@@ -1,7 +1,7 @@
 ---
 title: Transforms
 description: This topic discusses Microsoft DirectComposition support for two-dimensional (2D) affine (linear) transforms, and describes the types of transforms that DirectComposition supports.
-ms.assetid: DED74416-C85A-4220-89BD-3F9BEF786B7D
+ms.assetid: 'a0f41cc6-e848-4831-8063-609e17d9b4c6'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

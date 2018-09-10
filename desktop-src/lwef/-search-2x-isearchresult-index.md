@@ -1,7 +1,7 @@
 ---
 title: ISearchResult Index method
 description: Reserved.
-ms.assetid: f91c9684-922f-4b4d-b196-039e60cdf807
+ms.assetid: 'vs|search|~\search\wds2x\activex_control\reference\ifaces\isearchresult\index.htm'
 keywords:
 - Index method Legacy Windows Environment Features
 - Index method Legacy Windows Environment Features , ISearchResult interface

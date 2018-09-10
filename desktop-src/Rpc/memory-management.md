@@ -1,7 +1,7 @@
 ---
 title: Memory Management
 description: The following topics discuss how RPC programs allocate and deallocate memory for data passed between client and server programs.
-ms.assetid: 3474d79c-93ef-4221-b9ea-9173978e2929
+ms.assetid: 'b56ccac1-84cb-4687-bdd2-21ee716b472a'
 keywords:
 - Remote Procedure Call RPC , described, memory management
 ms.technology: desktop

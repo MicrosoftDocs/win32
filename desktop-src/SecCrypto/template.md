@@ -1,6 +1,6 @@
 ---
 Description: Represents the certificate extension template of the certificate.
-ms.assetid: 84fbf984-b932-4794-a939-de01e529d891
+ms.assetid: '1ae9220a-f6b3-47c5-bd08-a36ffd84e1f9'
 title: Template object
 ms.technology: desktop
 ms.prod: windows

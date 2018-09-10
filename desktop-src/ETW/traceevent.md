@@ -1,6 +1,6 @@
 ---
 Description: The TraceEvent function sends an event to an event tracing session.
-ms.assetid: fb507d9a-6ed2-4cb1-8cea-85c0a3832e51
+ms.assetid: '9b21f6f0-dd9b-4f9c-a879-846901a3bab7'
 title: TraceEvent function
 ms.technology: desktop
 ms.prod: windows

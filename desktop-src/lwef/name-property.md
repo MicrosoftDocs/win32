@@ -1,7 +1,7 @@
 ---
 title: Name Property
 description: Name Property
-ms.assetid: 7de3653e-9b4d-4a31-82d5-243f10e2743b
+ms.assetid: 'vs|msagent|~\pacontrol_2bxm.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

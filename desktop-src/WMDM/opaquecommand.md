@@ -1,7 +1,7 @@
 ---
 title: OPAQUECOMMAND structure
 description: The OPAQUECOMMAND structure contains data for commands that are passed through Windows Media Device Manager to a device but are not intended to be acted upon by Windows Media Device Manager.
-ms.assetid: d7b60187-84d1-4ff3-ab58-e6b8ea75ee37
+ms.assetid: '5b39cf07-2816-4615-a754-e3f0c57bf4ce'
 keywords:
 - OPAQUECOMMAND structure windows Media Device Manager
 - structure windows Media Device Manager

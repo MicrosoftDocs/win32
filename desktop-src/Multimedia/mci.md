@@ -1,7 +1,7 @@
 ---
 title: MCI
 description: MCI
-ms.assetid: e85db00a-7bcb-445b-85ea-d60dc30a36d4
+ms.assetid: 'b414dffb-3701-4dfd-aa8c-cd8e8918027d'
 keywords:
 - Media Control Interface (MCI),about
 - MCI (Media Control Interface),about

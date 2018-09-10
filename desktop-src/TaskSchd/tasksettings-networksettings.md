@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.NetworkSettings property
 description: For scripting, gets or sets the network settings object that contains a network profile identifier and name.
-ms.assetid: 9ee4f2c0-90bf-4a28-9aeb-0c04f3a197aa
+ms.assetid: '3d368f6c-4534-4e71-8fbd-84361730a3e2'
 keywords:
 - NetworkSettings property Task Scheduler
 - NetworkSettings property Task Scheduler , TaskSettings object

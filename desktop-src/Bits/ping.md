@@ -1,7 +1,7 @@
 ---
 title: Ping
 description: Use the Ping packet to establish a connection and negotiate security with the server.
-ms.assetid: 2e288564-d06f-4b45-b0c0-7aab1897da40
+ms.assetid: '10b01fe8-d1a3-4a3b-ac35-e3557d3ef4ee'
 keywords:
 - Ping BITS
 topic_type:

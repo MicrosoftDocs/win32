@@ -1,7 +1,7 @@
 ---
 title: User Overview
 description: User Overview
-ms.assetid: db6c9ab8-21ee-4018-b90a-5ab21313a335
+ms.assetid: 'a1cf4b47-1410-464d-8542-334d3eb9c200'
 keywords:
 - Windows Media Player plug-ins,visualizations
 - plug-ins,visualizations

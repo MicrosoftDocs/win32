@@ -1,7 +1,7 @@
 ---
 title: Compound Files
 description: Although you can implement your own structured storage objects and interfaces, COM provides a standard implementation called Compound Files.
-ms.assetid: 6cad074e-07a8-434f-a402-e29cb66a1a18
+ms.assetid: '23b425e6-dfe5-403b-8f43-de6843a03dcd'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

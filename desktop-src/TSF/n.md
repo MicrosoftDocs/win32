@@ -2,7 +2,7 @@
 title: N
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: f24f0155-fab6-46fb-9bff-598cd25e17ea
+ms.assetid: 'f19eb885-a854-4304-82d1-05065dd496c1'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

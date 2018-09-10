@@ -1,6 +1,6 @@
 ---
 Description: Device manufacturers and other device implementers can create devices that interoperate with Windows-based WSDAPI clients and hosts without using WSDAPI.
-ms.assetid: 96564726-ef48-4b21-9fc3-9c1d4df5074e
+ms.assetid: '932281db-23b0-4301-8f9f-8b3240b80681'
 title: WSD Device Development
 ms.technology: desktop
 ms.prod: windows

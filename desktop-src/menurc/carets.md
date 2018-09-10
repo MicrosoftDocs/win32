@@ -1,7 +1,7 @@
 ---
 title: Carets
 description: This section discusses carets which are blinking lines, blocks, or bitmaps in the client area of a window.
-ms.assetid: 4487c93c-9a0f-467c-86b1-969f664d5526
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\carets.htm'
 keywords:
 - resources,carets
 - carets,about

@@ -1,6 +1,6 @@
 ---
 Description: The SceSvcAttachmentAnalyze function is called by the Security Configuration Engine when the system is analyzed.
-ms.assetid: f8420dde-55a2-40a0-b10d-140c28c0e9e4
+ms.assetid: '8e8a39b9-c4e2-446e-8e0c-eb2113234c1a'
 title: SceSvcAttachmentAnalyze callback function
 ms.technology: desktop
 ms.prod: windows

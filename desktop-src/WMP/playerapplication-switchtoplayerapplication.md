@@ -1,7 +1,7 @@
 ---
 title: PlayerApplication.switchToPlayerApplication method
 description: The switchToPlayerApplication method switches a remoted Windows Media Player control to the full mode of the Player.
-ms.assetid: cf5a77c5-298e-48de-80cd-d7ecd9e74323
+ms.assetid: '2f028687-a62f-4df3-b8a2-2812939ad883'
 keywords:
 - switchToPlayerApplication method Windows Media Player
 - switchToPlayerApplication method Windows Media Player , PlayerApplication class

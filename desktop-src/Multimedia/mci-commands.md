@@ -1,7 +1,7 @@
 ---
 title: MCI Commands
 description: MCI Commands
-ms.assetid: e03edfab-06c9-4337-935b-9effd2996c2e
+ms.assetid: 'af1633c6-f0f5-462f-b0d3-4f071ab0c15a'
 keywords:
 - MCI commands,reference
 - MCI reference,commands

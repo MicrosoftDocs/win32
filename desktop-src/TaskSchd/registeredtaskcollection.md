@@ -1,7 +1,7 @@
 ---
 title: RegisteredTaskCollection object
 description: Scripting object that contains all the tasks that are registered.
-ms.assetid: 97403825-5762-477c-9695-3775bb5bc9e4
+ms.assetid: '0bd2010d-af25-4316-8829-62e4ec4761e2'
 keywords:
 - RegisteredTaskCollection object Task Scheduler
 - RegisteredTaskCollection object Task Scheduler , described

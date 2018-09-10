@@ -1,6 +1,6 @@
 ---
 Description: The Roles collection is always related to an object in the Applications collection. It holds an object for each role assigned to the application to which it is related.
-ms.assetid: a7395d48-0193-420f-92ca-b0427ba9d496
+ms.assetid: '87f39c2a-ad66-4390-9220-06751dcebd95'
 title: Roles collection
 ms.technology: desktop
 ms.prod: windows

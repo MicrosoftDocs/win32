@@ -1,7 +1,7 @@
 ---
 title: resume command
 description: The resume command continues playing or recording on a device that has been paused using the pause command.
-ms.assetid: 08b0dc42-edf2-485b-8b00-164157117a32
+ms.assetid: '0a2cdd23-8c1d-4d9e-9b63-3fdcbb13e3a2'
 keywords:
 - resume command Windows Multimedia
 topic_type:

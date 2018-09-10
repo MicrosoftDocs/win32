@@ -1,6 +1,6 @@
 ---
 Description: Included with the setup functions is a default callback routine, SetupDefaultQueueCallback, that you can use to process notifications returned by SetupCommitFileQueue.
-ms.assetid: 6f2b3b9f-86e5-42af-8adc-29a1c768d106
+ms.assetid: 'c6ba6398-4119-4bdd-b264-1bc645800b03'
 title: Default Queue Callback Routine
 ms.technology: desktop
 ms.prod: windows

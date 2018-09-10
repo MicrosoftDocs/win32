@@ -1,7 +1,7 @@
 ---
 title: TaskService.TargetServer property
 description: For scripting, gets the name of the computer that is running the Task Scheduler service that the user is connected to.
-ms.assetid: 2b8c55d7-72e2-4b75-8850-3f042ba83c60
+ms.assetid: '8b0edf18-2a79-46f2-9b90-2c4726db881e'
 keywords:
 - TargetServer property Task Scheduler
 - TargetServer property Task Scheduler , TaskService object

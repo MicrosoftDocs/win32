@@ -1,7 +1,7 @@
 ---
 title: where command
 description: The where command retrieves the rectangle specifying the source or destination area. This rectangle was specified using the put command. Digital-video, and video-overlay devices recognize this command.
-ms.assetid: f64a7e49-4ee1-4836-ba9a-0bbdc47626b3
+ms.assetid: '85c68ded-bd3e-4a48-9af7-58478615a7f0'
 keywords:
 - where command Windows Multimedia
 topic_type:

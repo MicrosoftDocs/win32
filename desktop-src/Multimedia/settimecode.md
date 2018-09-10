@@ -1,7 +1,7 @@
 ---
 title: settimecode command
 description: The settimecode command enables or disables timecode recording for a VCR. VCR devices recognize this command.
-ms.assetid: b014fbe0-de97-4540-a5fe-b22d157361f7
+ms.assetid: '1b4b82e8-4f13-4bc9-afb0-796339cabb51'
 keywords:
 - settimecode command Windows Multimedia
 topic_type:

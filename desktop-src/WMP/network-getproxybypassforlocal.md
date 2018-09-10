@@ -1,7 +1,7 @@
 ---
 title: Network.getProxyBypassForLocal method
 description: The getProxyBypassForLocal method retrieves a value indicating whether the proxy server is bypassed if the origin server is on a local network.
-ms.assetid: 33cc24ab-9eb4-48ef-9483-058a3af04983
+ms.assetid: 'e5217d56-da22-4424-94b0-400369410b47'
 keywords:
 - getProxyBypassForLocal method Windows Media Player
 - getProxyBypassForLocal method Windows Media Player , Network class

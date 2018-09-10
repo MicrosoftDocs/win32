@@ -1,7 +1,7 @@
 ---
 title: Media.isReadOnlyItem method
 description: The isReadOnlyItem method returns a value indicating whether the specified attribute of the media item can be edited.
-ms.assetid: d8b2dd45-3e3f-4325-b4d0-939abbc425e1
+ms.assetid: '5e398e76-f64a-45b5-9b4f-679c65e5a0d1'
 keywords:
 - isReadOnlyItem method Windows Media Player
 - isReadOnlyItem method Windows Media Player , Media class

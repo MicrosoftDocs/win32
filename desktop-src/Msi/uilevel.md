@@ -1,6 +1,6 @@
 ---
 Description: The installer sets the UILevel property to the level of the user interface.
-ms.assetid: c89545b5-aeb7-4b05-94b0-d6e2a237152e
+ms.assetid: '9fc58026-f140-4218-b44f-50fc6b0ef3e9'
 title: UILevel property
 ms.technology: desktop
 ms.prod: windows

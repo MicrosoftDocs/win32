@@ -1,7 +1,7 @@
 ---
 title: Clipboard
 description: The clipboard is a set of functions and messages that enable applications to transfer data.
-ms.assetid: 14c91730-a668-495b-9ec6-b835234821a5
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\dataexchange\clipboard.htm'
 keywords:
 - clipboard,about
 ms.technology: desktop

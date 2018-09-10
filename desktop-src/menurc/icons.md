@@ -1,7 +1,7 @@
 ---
 title: Icons
 description: This section discusses icons which are bitmap images combined with a mask to create transparent areas in the picture.
-ms.assetid: 67867460-07f6-460f-9263-05bbf3474744
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\icons.htm'
 keywords:
 - resources,icons
 - icons,about

@@ -1,7 +1,7 @@
 ---
 title: quality command
 description: The quality command defines a custom quality level for either audio, video or still image data compression. Digital-video devices recognize this command.
-ms.assetid: dd88a141-5461-4725-83f9-c2ead3a3a2b6
+ms.assetid: 'cc920ec9-362c-43db-808e-b9fb59d1df6d'
 keywords:
 - quality command Windows Multimedia
 topic_type:

@@ -1,7 +1,7 @@
 ---
 title: Using the Code Examples
 description: Using the Code Examples
-ms.assetid: 75db2663-9eb8-406d-b1a9-8f6092c95f9d
+ms.assetid: '1459a438-d42c-4d84-baa8-fc672f5d5d27'
 keywords:
 - Windows Media Format SDK,code examples
 - Windows Media Format SDK,example code

@@ -1,7 +1,7 @@
 ---
 title: Queries
 description: In Direct3D 12, queries are grouped into arrays of queries called a query heap. A query heap has a type which defines the valid types of queries that can be used with that heap.
-ms.assetid: 8BDDAFEF-57D4-4EF5-BB0C-6C96AF557A45
+ms.assetid: 'd7403b5d-7e1b-4dd2-ae45-52e1153233c6'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

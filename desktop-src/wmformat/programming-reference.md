@@ -1,7 +1,7 @@
 ---
 title: Programming Reference
 description: Programming Reference
-ms.assetid: 585e1dc4-8b79-4306-b2c7-3b04723ca24c
+ms.assetid: 'cafb8aa7-6b0a-4bcc-b618-2520a31cd7a6'
 keywords:
 - Windows Media Format SDK,programming reference
 - Windows Media Format SDK,Advanced Systems Format (ASF)

@@ -1,6 +1,6 @@
 ---
 Description: Contains encoded binary data for an image in the Journal document, if present.
-ms.assetid: 98ee234f-13b8-4da4-ac64-60943e76a3ba
+ms.assetid: 'fbb86bef-68f7-4aad-8a98-1c68e79ea2de'
 title: Image Element
 ms.technology: desktop
 ms.prod: windows

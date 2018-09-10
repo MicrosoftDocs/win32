@@ -1,7 +1,7 @@
 ---
 title: stop command
 description: The stop command stops playback or recording. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
-ms.assetid: 79b33f36-1bf9-41f2-827f-d0cfa276113e
+ms.assetid: '82b2da63-f1ac-48f3-a206-6c5cfe00f5be'
 keywords:
 - stop command Windows Multimedia
 topic_type:

@@ -1,7 +1,7 @@
 ---
 title: SETTINGS Element
 description: SETTINGS Element
-ms.assetid: 521f1c95-7904-4085-a8bc-5399d667dfb1
+ms.assetid: '27d39e69-64f0-4b9c-abc1-23d8eace8dcd'
 keywords:
 - Windows Media Player skins,SETTINGS element
 - skins,SETTINGS element

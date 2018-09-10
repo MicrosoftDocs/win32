@@ -1,6 +1,6 @@
 ---
 Description: Window Constants
-ms.assetid: E9E2FB97-D63B-419A-AC9C-C9AC9E9B5BE0
+ms.assetid: '8fde7460-bbe0-4064-ba36-ada7f5c5e37f'
 title: Window Constants
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: Network.getProxyPort method
 description: The getProxyPort method retrieves the proxy port being used.
-ms.assetid: 0d636e61-a5c1-495a-8d1d-ce2937dd3f18
+ms.assetid: '76771750-3763-4029-b194-d8567b5f365e'
 keywords:
 - getProxyPort method Windows Media Player
 - getProxyPort method Windows Media Player , Network class

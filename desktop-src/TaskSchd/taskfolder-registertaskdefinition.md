@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.RegisterTaskDefinition method
 description: For scripting, registers (creates) a task in a specified location using the TaskDefinition object to define a task.
-ms.assetid: a94db861-b24e-476a-810d-2cf3bbfc67d1
+ms.assetid: '198c8848-c89d-4883-b111-4ac0b009b7b3'
 keywords:
 - RegisterTaskDefinition method Task Scheduler
 - RegisterTaskDefinition method Task Scheduler , TaskFolder object

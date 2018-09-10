@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.DeleteFolder method
 description: For scripting, deletes a subfolder from the parent folder.
-ms.assetid: 7758afc5-73d8-456c-98a9-89e4b7ad42b9
+ms.assetid: '0d6a9a60-7909-4945-8186-3495e6fe9bc4'
 keywords:
 - DeleteFolder method Task Scheduler
 - DeleteFolder method Task Scheduler , TaskFolder object

@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.StartWhenAvailable property
 description: For scripting, gets or sets a Boolean value that indicates that the Task Scheduler can start the task at any time after its scheduled time has passed.
-ms.assetid: 93002ed0-4d85-491c-9111-6bb5d62ebac2
+ms.assetid: '911de67c-baf8-4346-9b4c-e39e5f96c0fe'
 keywords:
 - StartWhenAvailable property Task Scheduler
 - StartWhenAvailable property Task Scheduler , TaskSettings object

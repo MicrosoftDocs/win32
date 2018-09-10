@@ -1,7 +1,7 @@
 ---
 title: StringCollection.item method
 description: The item method retrieves the string at the specified index.
-ms.assetid: 05e7fd0c-1226-4680-a9aa-543111fd2bdf
+ms.assetid: '5f6afff2-3ecc-4b28-8c67-f859f5440d4f'
 keywords:
 - item method Windows Media Player
 - item method Windows Media Player , StringCollection class

@@ -1,7 +1,7 @@
 ---
 title: setaudio command
 description: The setaudio command sets values associated with audio playback and capture. Digital-video and VCR devices recognize this command.
-ms.assetid: 78624596-e465-4ef1-8988-edcfe9a46f89
+ms.assetid: '78f6e365-fb51-4b1a-8dd7-0a2d5a047750'
 keywords:
 - setaudio command Windows Multimedia
 topic_type:

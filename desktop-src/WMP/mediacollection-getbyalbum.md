@@ -1,7 +1,7 @@
 ---
 title: MediaCollection.getByAlbum method
 description: The GetByAlbum method retrieves a playlist containing the media items from the specified album.
-ms.assetid: 8db2349b-46f4-4863-a409-a85983362046
+ms.assetid: 'e7e72f0e-e0ae-4bbd-a8b7-966f0fc50059'
 keywords:
 - getByAlbum method Windows Media Player
 - getByAlbum method Windows Media Player , MediaCollection class

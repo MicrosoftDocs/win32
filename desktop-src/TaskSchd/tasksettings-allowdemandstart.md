@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.AllowDemandStart property
 description: For scripting, gets or sets a Boolean value that indicates that the task can be started by using either the Run command or the Context menu.
-ms.assetid: 267cf3c3-0e18-4a4f-bb32-d6766ceb6241
+ms.assetid: '1eae19ae-3b4d-4eb2-82d0-685ef2729f36'
 keywords:
 - AllowDemandStart property Task Scheduler
 - AllowDemandStart property Task Scheduler , TaskSettings object

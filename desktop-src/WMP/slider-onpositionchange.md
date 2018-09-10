@@ -1,7 +1,7 @@
 ---
 title: SLIDER.onPositionChange
 description: The onPositionChange event handler handles an event that occurs when the position of the slider changes as a result of the user clicking or dragging.
-ms.assetid: d8fe99a2-69ff-4e75-8d7d-506bcb2f75bf
+ms.assetid: 'c18e9a49-9576-42ae-9f30-249c44d40f41'
 keywords:
 - SLIDER.onPositionChange Windows Media Player
 topic_type:

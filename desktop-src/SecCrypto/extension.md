@@ -1,6 +1,6 @@
 ---
 Description: Represents a single certificate extension.
-ms.assetid: 489c58b6-a704-4f54-bc64-34eacafc347c
+ms.assetid: 'cca3121d-0f0f-4de2-a225-6dd3910078d7'
 title: Extension object
 ms.technology: desktop
 ms.prod: windows

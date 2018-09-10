@@ -1,7 +1,7 @@
 ---
 title: Attribute Reference
 description: Attribute Reference
-ms.assetid: 12fdeba6-14db-4689-a3cb-cb36dbc9204f
+ms.assetid: 'a333ee0d-8f74-4517-b4c7-b1d8f95df2fc'
 keywords:
 - Windows Media Player,attributes for media items
 - Windows Media Player Mobile,attributes for media items

@@ -1,7 +1,7 @@
 ---
 title: Status Property
 description: Status Property
-ms.assetid: 67618a35-05e4-4bb3-b910-c75de6e32578
+ms.assetid: 'vs|msagent|~\pacontrol_8xd6.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

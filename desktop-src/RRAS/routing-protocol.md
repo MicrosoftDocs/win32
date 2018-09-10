@@ -1,7 +1,7 @@
 ---
 title: Routing Protocol
 description: A routing protocol is a type of client that registers with the routing table manager. Routers use routing protocols to exchange information regarding routes to a destination.
-ms.assetid: 40a5c1e7-04f5-40be-8e95-3c754030a838
+ms.assetid: '957ec896-94e3-4bdb-801a-12b861460fff'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

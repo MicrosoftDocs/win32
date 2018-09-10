@@ -1,6 +1,6 @@
 ---
 Description: Verifies a single catalog file.
-ms.assetid: 1e2a18a5-506e-46a8-9309-666bec92182d
+ms.assetid: '4b2de733-ef95-4b0a-8f53-7bc73ffaa2c2'
 title: VerifyCatalogFile function
 ms.technology: desktop
 ms.prod: windows

@@ -1,6 +1,6 @@
 ---
 Description: The material in this section is intended for developers who are writing their own setup programs who want to learn more about Windows Installer database tables. For general information, see About Windows Installer.
-ms.assetid: b909955f-ddd6-4cf1-8e86-fcf89be80b41
+ms.assetid: 'c4bedc0e-cd1a-4cdc-8dd1-4a774aaf533e'
 title: Summary Information Stream
 ms.technology: desktop
 ms.prod: windows

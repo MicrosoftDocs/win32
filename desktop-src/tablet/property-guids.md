@@ -1,6 +1,6 @@
 ---
 Description: The Microsoft recognizers use the following GUIDs.
-ms.assetid: a7488c26-b61f-47d8-a19b-d630a8c00875
+ms.assetid: 'dcf6bc5a-1b61-48f7-bc7a-f74ae6e2e57e'
 title: Property GUIDs
 ms.technology: desktop
 ms.prod: windows

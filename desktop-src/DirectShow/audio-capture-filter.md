@@ -1,6 +1,6 @@
 ---
 Description: Audio Capture Filter
-ms.assetid: ff345670-5a75-40d3-a228-8bc22aa76708
+ms.assetid: 'f76d5c82-33b2-4579-9420-8f97eca53ede'
 title: Audio Capture Filter
 ms.technology: desktop
 ms.prod: windows

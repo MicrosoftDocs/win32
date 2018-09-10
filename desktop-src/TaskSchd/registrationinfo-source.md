@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo.Source property
 description: For scripting, gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
-ms.assetid: 538d48f9-671d-452b-8e78-86954342a28f
+ms.assetid: 'b5bd987f-5c9f-4af0-99e2-aec92951f2be'
 keywords:
 - Source property Task Scheduler
 - Source property Task Scheduler , RegistrationInfo object

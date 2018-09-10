@@ -1,7 +1,7 @@
 ---
 title: RegistrationTrigger.Delay property
 description: For scripting, gets or sets the amount of time between when the task is registered and when the task is started.
-ms.assetid: 9331dd84-a040-4778-baa4-b61981ec6444
+ms.assetid: '33b8f212-66eb-4396-b21f-eeb1a5175efc'
 keywords:
 - Delay property Task Scheduler
 - Delay property Task Scheduler , RegistrationTrigger object

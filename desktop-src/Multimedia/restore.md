@@ -1,7 +1,7 @@
 ---
 title: restore command
 description: The restore command copies a still image from a file to the frame buffer. This is the reverse of the capture command. Digital-video devices recognize this command.
-ms.assetid: ed309cc6-72a3-4abb-aef2-40a55381d8b6
+ms.assetid: 'e84a478a-3e0f-4767-94d7-eb3c79c31b8b'
 keywords:
 - restore command Windows Multimedia
 topic_type:

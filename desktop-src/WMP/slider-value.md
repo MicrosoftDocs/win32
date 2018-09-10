@@ -1,7 +1,7 @@
 ---
 title: SLIDER.value
 description: The value attribute specifies or retrieves the current position of the slider.
-ms.assetid: 29e17f48-1848-458d-9da4-316013b21980
+ms.assetid: '2cd2f8b2-d3f1-4897-98b0-af551d6693e6'
 keywords:
 - SLIDER.value Windows Media Player
 topic_type:

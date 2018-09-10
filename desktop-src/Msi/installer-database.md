@@ -1,6 +1,6 @@
 ---
 Description: This material is primarily for developers who want to write tools that create new installer packages and who need detailed information about the installer's relational database.
-ms.assetid: 3352dd8f-c082-4c4b-98be-5823c8b28f07
+ms.assetid: '5912fbd0-0e29-4b5a-9bcf-83223fc03276'
 title: Installer Database
 ms.technology: desktop
 ms.prod: windows

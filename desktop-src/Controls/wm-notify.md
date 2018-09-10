@@ -1,7 +1,7 @@
 ---
 title: WM_NOTIFY message
 description: Sent by a common control to its parent window when an event has occurred or the control requires some information.
-ms.assetid: 5a4c4d71-3be4-4e67-8aad-0342e8f43f2b
+ms.assetid: 'vs|controls|~\controls\common\messages\wm_notify.htm'
 keywords:
 - WM_NOTIFY message Windows Controls
 topic_type:

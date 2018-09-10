@@ -1,6 +1,6 @@
 ---
 Description: Creates shared property groups and to obtain access to existing shared property groups.
-ms.assetid: 71c0a1de-5ea5-4496-b0e9-56d0cc8129a9
+ms.assetid: '4ba05806-afda-4926-8ca4-abbf15ed8278'
 title: SharedPropertyGroupManager class
 ms.technology: desktop
 ms.prod: windows

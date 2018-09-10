@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.StopIfGoingOnBatteries property
 description: For scripting, gets or sets a Boolean value that indicates that the task will be stopped if the computer is going onto batteries.
-ms.assetid: 84647124-8cb2-47f9-a86c-80bb2a629c88
+ms.assetid: 'a133cba0-c93e-4963-83a3-7587e323fc6e'
 keywords:
 - StopIfGoingOnBatteries property Task Scheduler
 - StopIfGoingOnBatteries property Task Scheduler , TaskSettings object

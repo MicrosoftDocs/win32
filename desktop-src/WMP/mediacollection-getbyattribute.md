@@ -1,7 +1,7 @@
 ---
 title: MediaCollection.getByAttribute method
 description: The getByAttribute method retrieves a playlist of media items that contain a specified value for a specified attribute.
-ms.assetid: ab1c53dd-6145-4b2b-a665-4c8c79143284
+ms.assetid: 'a89f9c52-c655-4420-858e-c0eed661856f'
 keywords:
 - getByAttribute method Windows Media Player
 - getByAttribute method Windows Media Player , MediaCollection class

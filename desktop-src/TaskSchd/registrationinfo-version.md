@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo.Version property
 description: For scripting, gets or sets the version number of the task.
-ms.assetid: e2305dbd-bb81-4854-86bd-d0c4f3cf78a1
+ms.assetid: '5f200948-b4ff-495c-9578-2a93b34fd75b'
 keywords:
 - Version property Task Scheduler
 - Version property Task Scheduler , RegistrationInfo object

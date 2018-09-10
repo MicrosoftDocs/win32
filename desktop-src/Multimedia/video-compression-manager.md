@@ -1,7 +1,7 @@
 ---
 title: Video Compression Manager
 description: Video Compression Manager
-ms.assetid: 2a5ebc95-3ee8-4145-b2c5-512d82e49c6d
+ms.assetid: 'df876309-68d3-43a3-9d83-6fdb8f345fdc'
 keywords:
 - Video for Windows (VFW),video compression manager (VCM)
 - VFW (Video for Windows),video compression manager (VCM)

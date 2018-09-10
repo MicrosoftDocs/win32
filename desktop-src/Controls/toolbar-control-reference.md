@@ -1,7 +1,7 @@
 ---
 title: Toolbar
 description: This section contains information about the programming elements used with toolbar controls.
-ms.assetid: fdf2ede3-2f5e-45f9-979d-ff1d42baf8e7
+ms.assetid: 'vs|controls|~\controls\toolbar\reflist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

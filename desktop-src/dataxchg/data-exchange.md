@@ -1,7 +1,7 @@
 ---
 title: Data Exchange
 description: The data exchange section describes methods of exchanging data.
-ms.assetid: 0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\dataexchange.htm'
 keywords:
 - data exchange,about
 ms.technology: desktop

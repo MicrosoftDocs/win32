@@ -1,6 +1,6 @@
 ---
 Description: Contains information about the size of a device. This is returned from the IOCTL\_STORAGE\_READ\_CAPACITY control code.
-ms.assetid: c0a2c73c-fae9-40e9-8009-4dffbb03a01d
+ms.assetid: 'bd18f4b7-f87e-48f6-b7c2-68990beb8d36'
 title: STORAGE_READ_CAPACITY structure
 ms.technology: desktop
 ms.prod: windows

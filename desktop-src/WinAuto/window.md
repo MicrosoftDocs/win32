@@ -1,7 +1,7 @@
 ---
 title: Window (MSAA UI Element Reference)
 description: Microsoft Active Accessibility creates a generic window object as a container for another object. Client developers do not convey the information from window objects to end users because these objects do not contain useful information.
-ms.assetid: 297ac50f-2a58-477b-ba57-5d1416c191b3
+ms.assetid: 'cc32528f-c454-4522-91b9-06f87cff8bf5'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,6 +1,6 @@
 ---
 Description: 'Provides access to the current call's security context, which contains information about an object's callers.'
-ms.assetid: '7be988b7-b144-4b8f-b8d3-b0700b564df3'
+ms.assetid: 'e8ac05fb-6665-4e57-b64e-82d9799d29d4'
 title: SecurityCallContext class
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: Dialog Box Reference
 description: .
-ms.assetid: 0abb8407-a50d-4b01-a90f-d037d67183d8
+ms.assetid: '10657579-e560-4f67-b98b-c48483968d1f'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

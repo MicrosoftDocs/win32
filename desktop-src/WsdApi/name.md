@@ -1,6 +1,6 @@
 ---
 Description: Specifies a qualified name in the namespace.
-ms.assetid: 4e476be2-fa73-4b3e-b0cc-799c8d16b5de
+ms.assetid: 'cba708cc-1a4a-4e46-9376-065d3c879c38'
 title: name element
 ms.technology: desktop
 ms.prod: windows

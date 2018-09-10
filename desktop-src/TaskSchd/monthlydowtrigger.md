@@ -1,7 +1,7 @@
 ---
 title: MonthlyDOWTrigger object
 description: Scripting object that represents a trigger that starts a task on a monthly day-of-week schedule.
-ms.assetid: a950e4a0-1fcc-4213-bdb7-d1e1cf28fe91
+ms.assetid: '18607189-295f-4f7d-bf72-f0ac8d5067cf'
 keywords:
 - monthly DOW trigger Task Scheduler , object
 - MonthlyDOWTrigger object Task Scheduler

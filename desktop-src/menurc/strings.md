@@ -1,7 +1,7 @@
 ---
 title: Strings
 description: This section discusses the string functions.
-ms.assetid: f1799fbf-4619-4b19-998e-b1d2f4c19a35
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\strings.htm'
 keywords:
 - resources,strings
 - strings
