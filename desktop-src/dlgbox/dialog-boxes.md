@@ -1,7 +1,7 @@
 ---
 title: Dialog Boxes
 description: This section discusses dialog boxes. A dialog box is a temporary window an application creates to retrieve user input.
-ms.assetid: 51960c28-a178-4ad3-b45e-426fec42a945
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\dialogboxes.htm'
 keywords:
 - user interface,dialog boxes
 - dialog boxes,about

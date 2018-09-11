@@ -1,7 +1,7 @@
 ---
 title: Task Dialog
 description: This section contains information about the programming elements used with a task dialog. A task dialog is similar to, while much more flexible than, a basic message box.
-ms.assetid: CCEFF52F-D501-4145-9799-0A9C529017E1
+ms.assetid: 'vs|controls|~\controls\taskdialogs\taskdialogs.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

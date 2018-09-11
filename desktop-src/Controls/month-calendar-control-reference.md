@@ -1,7 +1,7 @@
 ---
 title: Month Calendar Control Reference
 description: This section contains information about programming elements used with month calendar controls.
-ms.assetid: 14f358d9-2ec4-4667-8b66-57e18942eb1b
+ms.assetid: 'vs|controls|~\controls\monthcal\reflist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

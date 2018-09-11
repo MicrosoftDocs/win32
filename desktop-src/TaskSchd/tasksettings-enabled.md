@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.Enabled property
 description: For scripting, gets or sets a Boolean value that indicates that the task is enabled. The task can be performed only when this setting is True.
-ms.assetid: 6c6e7f51-9591-4b84-b06b-124cd88a0345
+ms.assetid: 'af8aa237-3402-4a82-b6ef-b713e1757d3a'
 keywords:
 - Enabled property Task Scheduler
 - Enabled property Task Scheduler , TaskSettings object

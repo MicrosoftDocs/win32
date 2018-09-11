@@ -1,6 +1,6 @@
 ---
 Description: Roles serve two different purposes in Authorization Manager.
-ms.assetid: 02acf473-b072-4814-92e1-47a32baae4fc
+ms.assetid: '6d045ecb-432e-4ba6-b5d2-37db82ab1884'
 title: Roles
 ms.technology: desktop
 ms.prod: windows

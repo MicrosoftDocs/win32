@@ -1,7 +1,7 @@
 ---
 title: MediaRenderer.IsVideoSupported property
 description: Gets a value that indicates whether the DMR is capable of playing video content.
-ms.assetid: AE9A14D0-A7A2-4A71-9454-06A05C7D85F9
+ms.assetid: '09fee4e2-7ea4-45b6-944c-39bed030866d'
 keywords:
 - IsVideoSupported property Media Streaming API
 - IsVideoSupported property Media Streaming API , MediaRenderer interface

@@ -1,6 +1,6 @@
 ---
 Description: Pluggable terminals allow an application to create terminals during run time.
-ms.assetid: 7cee19b1-ceea-494a-b576-4deede759905
+ms.assetid: '34ba4f3c-0a14-4705-9490-817c70700746'
 title: Pluggable Terminals
 ms.technology: desktop
 ms.prod: windows

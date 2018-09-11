@@ -1,7 +1,7 @@
 ---
 title: LaunchPermission
 description: Describes the Access Control List (ACL) of the principals that can start new servers for this class. This value may be added under any AppID key to limit activation by remote clients of specific classes.
-ms.assetid: 23ca87fc-7829-46a9-9fc3-2cd7f677bbff
+ms.assetid: '7b8c1ae4-fbbd-489f-b1b5-60ae5a04f906'
 keywords:
 - LaunchPermission registry value COM
 ms.technology: desktop

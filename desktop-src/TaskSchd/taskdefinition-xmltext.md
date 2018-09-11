@@ -1,7 +1,7 @@
 ---
 title: TaskDefinition.XmlText property
 description: For scripting, gets or sets the XML-formatted definition of the task.
-ms.assetid: 1bdafec0-634f-4977-8f41-60dcacc23dec
+ms.assetid: 'b10dd3cd-51b5-4e0e-a6cb-3b6794afb4cd'
 keywords:
 - XmlText property Task Scheduler
 - XmlText property Task Scheduler , TaskDefinition object

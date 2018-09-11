@@ -1,6 +1,6 @@
 ---
 Description: Provides the ability to manage metrics.
-ms.assetid: 3DC043ED-A790-4322-BF80-55961E9946C2
+ms.assetid: '39dee432-995d-472a-84c3-eede95dccb43'
 title: Msvm_MetricService class
 ms.technology: desktop
 ms.prod: windows

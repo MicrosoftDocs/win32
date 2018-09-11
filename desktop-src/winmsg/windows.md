@@ -1,6 +1,6 @@
 ---
 Description: This section discusses windows in general.
-ms.assetid: e325f8dc-004f-44a9-9122-3be5e44764d6
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows.htm'
 title: Windows
 ms.technology: desktop
 ms.prod: windows

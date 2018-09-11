@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.Definition property
 description: For scripting, gets the definition of the task.
-ms.assetid: 673d5e11-d2a3-4dcb-ad2e-46940574ba92
+ms.assetid: '7117ccf3-e21e-41ca-baa2-4cdcaa9cda76'
 keywords:
 - Definition property Task Scheduler
 - Definition property Task Scheduler , RegisteredTask object

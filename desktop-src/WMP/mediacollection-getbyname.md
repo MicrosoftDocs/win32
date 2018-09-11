@@ -1,7 +1,7 @@
 ---
 title: MediaCollection.getByName method
 description: The getByName method retrieves a playlist of the media items with the specified name.
-ms.assetid: 114b0449-a45e-42e5-9e68-428c40a388cf
+ms.assetid: 'f9395a4f-06d6-438b-b7c5-7a063abdf59f'
 keywords:
 - getByName method Windows Media Player
 - getByName method Windows Media Player , MediaCollection class

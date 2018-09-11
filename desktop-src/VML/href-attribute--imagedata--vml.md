@@ -1,7 +1,7 @@
 ---
 title: HRef Attribute (ImageData)(VML)
 description: HRef Attribute (ImageData)(VML)
-ms.assetid: c55ede90-3d57-4f27-9940-1fe4751cef71
+ms.assetid: 'vs|vml|~\shape\image\image_href.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

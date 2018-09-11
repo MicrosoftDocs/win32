@@ -1,7 +1,7 @@
 ---
 title: LB_SETCARETINDEX message
 description: Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view.
-ms.assetid: 077c2b9b-6c52-49e2-b5be-ab91c067d5b2
+ms.assetid: 'vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_setcaretindex.htm'
 keywords:
 - LB_SETCARETINDEX message Windows Controls
 topic_type:

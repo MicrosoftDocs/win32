@@ -1,7 +1,7 @@
 ---
 title: VIEW Element
 description: VIEW Element
-ms.assetid: 741db1ed-9452-4cae-9185-15668abe06b3
+ms.assetid: 'e1dfde08-33a0-4f12-8db0-ad62e4a1d467'
 keywords:
 - Windows Media Player skins,VIEW element
 - skins,VIEW element

@@ -1,7 +1,7 @@
 ---
 title: Query.addCondition method
 description: The addCondition method adds a condition to the Query object using AND logic.
-ms.assetid: d60474ce-a785-40b1-a4fb-80dc22fddedb
+ms.assetid: '29b5d372-eddf-4b70-882b-d2dde79d9287'
 keywords:
 - addCondition method Windows Media Player
 - addCondition method Windows Media Player , Query class

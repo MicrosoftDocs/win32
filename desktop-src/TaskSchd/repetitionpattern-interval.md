@@ -1,7 +1,7 @@
 ---
 title: RepetitionPattern.Interval property
 description: For scripting, gets or sets the amount of time between each restart of the task.
-ms.assetid: 3ba8e4b8-c0f9-4b73-8351-b1c1b32a1e39
+ms.assetid: 'c48bd304-21f3-435e-99f5-3b2da0078bb8'
 keywords:
 - Interval property Task Scheduler
 - Interval property Task Scheduler , RepetitionPattern object

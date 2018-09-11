@@ -1,6 +1,6 @@
 ---
 Description: Media Foundation Attributes
-ms.assetid: 386ecdb9-dde5-470e-9ae8-d2e0acc065b1
+ms.assetid: '445fc879-3c9e-409d-8d05-ecd1ff9afc19'
 title: Media Foundation Attributes
 ms.technology: desktop
 ms.prod: windows

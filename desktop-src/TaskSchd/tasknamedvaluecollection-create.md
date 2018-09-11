@@ -1,7 +1,7 @@
 ---
 title: TaskNamedValueCollection.Create method
 description: For scripting, creates a name-value pair in the collection.
-ms.assetid: aec5ca20-b983-48e1-a5d0-761f18557fe4
+ms.assetid: 'f64e0548-fad3-4682-b50b-ff8ec685af36'
 keywords:
 - Create method Task Scheduler
 - Create method Task Scheduler , TaskNamedValueCollection object

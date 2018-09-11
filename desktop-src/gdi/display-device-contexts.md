@@ -1,6 +1,6 @@
 ---
 Description: An application obtains a display DC by calling the BeginPaint, GetDC, or GetDCEx function and identifying the window in which the corresponding output will appear.
-ms.assetid: fc76abbf-68da-47f2-8145-4fad806297b4
+ms.assetid: '8f952d68-ee52-4e63-9f09-80a14c755d31'
 title: Display Device Contexts
 ms.technology: desktop
 ms.prod: windows

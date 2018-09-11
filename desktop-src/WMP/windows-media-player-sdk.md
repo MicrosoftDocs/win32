@@ -1,7 +1,7 @@
 ---
 title: Windows Media Player SDK
 description: Windows Media Player SDK
-ms.assetid: 341db997-b50f-4bcb-9d73-180e8a0e6d7b
+ms.assetid: '10e3995f-1528-4895-a0f7-d60f2449afc0'
 keywords:
 - Windows Media Player,documentation
 - Windows Media Player,SDK documentation

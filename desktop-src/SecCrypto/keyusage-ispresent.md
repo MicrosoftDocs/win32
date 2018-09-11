@@ -1,6 +1,6 @@
 ---
 Description: Retrieves a Boolean value that indicates whether the KeyUsage extension is present.
-ms.assetid: d7568525-1054-47e1-a176-f154792f9589
+ms.assetid: 'd666049a-4b40-42b6-8c2d-c27a1bb4c48a'
 title: KeyUsage.IsPresent property
 ms.technology: desktop
 ms.prod: windows

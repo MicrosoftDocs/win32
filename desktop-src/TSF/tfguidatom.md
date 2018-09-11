@@ -1,7 +1,7 @@
 ---
 title: TfGuidAtom
 description: The TfGuidAtom data type identifies a GUID within TSF. A TfGuidAtom is obtained by calling ITfCategoryMgr RegisterGUID.
-ms.assetid: 813916f6-610f-4031-bb17-67d7f5ffed6f
+ms.assetid: '91696612-1829-4052-81d1-eddc23278d35'
 keywords:
 - TfGuidAtom
 ms.technology: desktop

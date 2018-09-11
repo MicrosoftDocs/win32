@@ -1,7 +1,7 @@
 ---
 title: RunningTask.Path property
 description: For scripting, gets the path to where the task is stored.
-ms.assetid: 8c364628-63dd-4018-9eeb-6acab265c144
+ms.assetid: 'd1ab3a4d-bf16-4795-a929-0bd396694e6f'
 keywords:
 - Path property Task Scheduler
 - Path property Task Scheduler , RunningTask object

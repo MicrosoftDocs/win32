@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.WakeToRun property
 description: For scripting, gets or sets a Boolean value that indicates that the Task Scheduler will wake the computer when it is time to run the task.
-ms.assetid: efa1c7cd-7a70-4760-909f-bb5a1ede35f4
+ms.assetid: '51f83637-5bae-48c6-b750-b4467e651cec'
 keywords:
 - WakeToRun property Task Scheduler
 - WakeToRun property Task Scheduler , TaskSettings object

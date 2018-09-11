@@ -37,27 +37,28 @@ The installer uses the following [public properties](public-properties.md) to ma
 <tbody>
 <tr class="odd">
 <td><a href="arpauthorizedcdfprefix"><strong>ARPAUTHORIZEDCDFPREFIX</strong></a></td>
-<td>URL of the update channel for the application. The value the installer writes under the [Uninstall Registry Key](uninstall-registry-key.md).</td>
+<td>URL of the update channel for the application. The value the installer writes under the Uninstall Registry Key
+.</td>
 </tr>
 <tr class="even">
 <td><a href="arpcomments"><strong>ARPCOMMENTS</strong></a></td>
-<td>Provides Comments for the Add/Remove Programs in the Control Panel. The value the installer writes under the [Uninstall Registry Key](uninstall-registry-key.md).</td>
+<td>Provides Comments for the Add/Remove Programs in the Control Panel. The value the installer writes under the <a href="uninstall-registry-key">Uninstall Registry Key</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="arpcontact"><strong>ARPCONTACT</strong></a></td>
-<td>Provides the Contact for Add/Remove Programs in the Control Panel. The value the installer writes under the [Uninstall Registry Key](uninstall-registry-key.md).</td>
+<td>Provides the Contact for Add/Remove Programs in the Control Panel. The value the installer writes under the <a href="uninstall-registry-key">Uninstall Registry Key</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="arpinstalllocation"><strong>ARPINSTALLLOCATION</strong></a></td>
-<td>Fully qualified path to the application's primary folder. The value the installer writes under the [Uninstall Registry Key](uninstall-registry-key.md).</td>
+<td>Fully qualified path to the application's primary folder. The value the installer writes under the <a href="uninstall-registry-key">Uninstall Registry Key</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="arphelplink"><strong>ARPHELPLINK</strong></a></td>
-<td>Internet address, or URL, for technical support. The value the installer writes under the [Uninstall Registry Key](uninstall-registry-key.md).</td>
+<td>Internet address, or URL, for technical support. The value the installer writes under the <a href="uninstall-registry-key">Uninstall Registry Key</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="arphelptelephone"><strong>ARPHELPTELEPHONE</strong></a></td>
-<td>Technical support phone numbers. The value the installer writes under the [Uninstall Registry Key](uninstall-registry-key.md).</td>
+<td>Technical support phone numbers. The value the installer writes under the <a href="uninstall-registry-key">Uninstall Registry Key</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="arpnomodify"><strong>ARPNOMODIFY</strong></a></td>
@@ -92,7 +93,7 @@ This only affects the display in the ARP. The Windows Installer is still capable
 </tr>
 <tr class="odd">
 <td><a href="arpreadme"><strong>ARPREADME</strong></a></td>
-<td>Provides the ReadMe for Add/Remove Programs in Control Panel. The value the installer writes under the [Uninstall Registry Key](uninstall-registry-key.md).</td>
+<td>Provides the ReadMe for Add/Remove Programs in Control Panel. The value the installer writes under the <a href="uninstall-registry-key">Uninstall Registry Key</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="arpsize"><strong>ARPSIZE</strong></a></td>
@@ -109,11 +110,11 @@ This only affects the display in the ARP. The Windows Installer is still capable
 </tr>
 <tr class="even">
 <td><a href="arpurlinfoabout"><strong>ARPURLINFOABOUT</strong></a></td>
-<td>URL for application's home page. The value the installer writes under the [Uninstall Registry Key](uninstall-registry-key.md).</td>
+<td>URL for application's home page. The value the installer writes under the <a href="uninstall-registry-key">Uninstall Registry Key</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="arpurlupdateinfo"><strong>ARPURLUPDATEINFO</strong></a></td>
-<td>URL for application update information. The value the installer writes under the [Uninstall Registry Key](uninstall-registry-key.md).</td>
+<td>URL for application update information. The value the installer writes under the <a href="uninstall-registry-key">Uninstall Registry Key</a>.</td>
 </tr>
 </tbody>
 </table>

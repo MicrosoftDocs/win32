@@ -1,6 +1,6 @@
 ---
 Description: A securable object is an object that can have a security descriptor.
-ms.assetid: 40871179-d383-43d0-810d-0805c88dbbd6
+ms.assetid: '32f2ec06-822f-4d1e-bf51-5ae1d7355e60'
 title: Securable Objects
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: play command
 description: The play command starts playing a device. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
-ms.assetid: 3feb6964-b897-4d5b-8861-7fca829e25e4
+ms.assetid: '3ee707d6-6af4-494d-a887-d91ea5666ac4'
 keywords:
 - play command Windows Multimedia
 topic_type:

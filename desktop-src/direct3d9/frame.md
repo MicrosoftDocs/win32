@@ -1,6 +1,6 @@
 ---
 Description: Defines a coordinate frame, or &\#0034;frame of reference.&\#0034; The Frame template is open and can contain any object. The D3DX mesh-loading functions recognize Mesh, FrameTransformMatrix, and Frame template instances as child objects when loading a Frame instance.
-ms.assetid: 54edb9a5-440d-4191-a58f-296e5b804e0c
+ms.assetid: 'vs|directx_sdk|~\frame.htm'
 title: Frame
 ms.technology: desktop
 ms.prod: windows

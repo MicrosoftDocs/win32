@@ -1,6 +1,6 @@
 ---
 Description: The OpenDatabase method of the Merge object opens a Windows Installer installation database, located at a specified path, that is to be merged with a module.
-ms.assetid: cafe02a0-2e86-43f6-9cde-e3dd23bdfc4c
+ms.assetid: '86f168e5-bc76-476d-9757-9b2a21bb9c4b'
 title: Merge.OpenDatabase method
 ms.technology: desktop
 ms.prod: windows

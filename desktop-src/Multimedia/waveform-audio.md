@@ -1,7 +1,7 @@
 ---
 title: Waveform Audio
 description: Waveform Audio
-ms.assetid: 2d886488-bdab-4422-b89e-15140d86fe48
+ms.assetid: '3188355c-65be-4372-8e87-e7f755982592'
 keywords:
 - Windows multimedia,waveform audio
 - multimedia,waveform audio

@@ -1,6 +1,6 @@
 ---
 Description: The Path data type is a text string containing a valid full path.
-ms.assetid: fe8a4d2a-1960-40af-a0e4-4d65accdd388
+ms.assetid: '3006f4c9-872a-4d9e-9d27-f17c64d178f1'
 title: Path
 ms.technology: desktop
 ms.prod: windows

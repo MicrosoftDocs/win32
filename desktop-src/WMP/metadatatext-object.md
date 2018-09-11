@@ -1,7 +1,7 @@
 ---
 title: MetadataText Object
 description: The MetadataText object provides a way to retrieve metadata for complex textual metadata attributes.
-ms.assetid: 91d74b16-5a34-4ff3-9099-6590b12ed1cb
+ms.assetid: 'cf8e4524-6fc5-4534-9542-6bdc7d34bca4'
 keywords:
 - MetadataText Object Windows Media Player
 topic_type:

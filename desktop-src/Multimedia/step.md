@@ -1,7 +1,7 @@
 ---
 title: step command
 description: The step command steps the play one or more frames forward or reverse. The default action is to step forward one frame. Digital-video, VCR, and CAV-format videodisc devices recognize this command.
-ms.assetid: 4490901c-a58c-465c-a7b3-230456848da3
+ms.assetid: '6017ace5-cde9-42a0-bb2f-f85d7847adc5'
 keywords:
 - step command Windows Multimedia
 topic_type:

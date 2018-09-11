@@ -1,6 +1,6 @@
 ---
 Description: Uniscribe
-ms.assetid: ad0faead-63db-4682-8db0-fa97b54217c6
+ms.assetid: 'de7a882f-ed74-4be2-b66d-59c2e50dc07a'
 title: Uniscribe
 ms.technology: desktop
 ms.prod: windows

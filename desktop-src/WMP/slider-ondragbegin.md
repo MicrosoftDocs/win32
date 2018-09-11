@@ -1,7 +1,7 @@
 ---
 title: SLIDER.onDragBegin
 description: The onDragBegin event handler handles an event that occurs when the user clicks and holds the left mouse button down and begins to drag the mouse.
-ms.assetid: 05d01b12-51fe-43cb-8ccf-174f8655af40
+ms.assetid: '42614818-f94b-48ec-8e12-69b26b446272'
 keywords:
 - SLIDER.onDragBegin Windows Media Player
 topic_type:

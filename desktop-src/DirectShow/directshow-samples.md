@@ -36,7 +36,7 @@ If there is additional documentation for a sample, the first column of this tabl
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DirectShow Base Classes](directshow-base-classes.md)</td>
+<td><a href="directshow-base-classes">DirectShow Base Classes</a></td>
 <td>Base class library</td>
 <td>C++ classes and utility functions designed for implementing DirectShow filters.</td>
 

@@ -1,7 +1,7 @@
 ---
 title: STYLE statement
 description: Defines the window style of the dialog box. The window style specifies whether the box is a pop-up or a child window.
-ms.assetid: 5dc74bab-e385-457c-80c4-5e04eed589b5
+ms.assetid: '5ede57ad-5fa5-414c-9823-e66994826027'
 keywords:
 - STYLE statement Menus and Other Resources
 topic_type:

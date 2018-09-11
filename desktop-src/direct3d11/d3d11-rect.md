@@ -1,7 +1,7 @@
 ---
 title: D3D11_RECT
 description: D3D11\_RECT is declared as follows
-ms.assetid: 737B47A3-E609-48E4-A0B6-017206E500B1
+ms.assetid: 'd1cbbbd7-1221-4706-b805-8422c5ebdadc'
 keywords:
 - D3D11_RECT Direct3D 11
 topic_type:

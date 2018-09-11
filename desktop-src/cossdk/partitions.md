@@ -1,6 +1,6 @@
 ---
 Description: Specifies the applications contained within each partition.
-ms.assetid: fd22a64c-f2d8-48af-86e1-985e21b0f8fa
+ms.assetid: '264a35fd-ba71-4ae9-908a-24a72167c26b'
 title: Partitions collection
 ms.technology: desktop
 ms.prod: windows

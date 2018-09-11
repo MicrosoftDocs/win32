@@ -1,7 +1,7 @@
 ---
 title: RunningTask.Refresh method
 description: For scripting, refreshes all of the local instance variables of the task.
-ms.assetid: f46d82ff-2f1b-477b-b043-665659ad8982
+ms.assetid: 'f2e29268-d7ef-47ed-863b-4731e0f2f495'
 keywords:
 - Refresh method Task Scheduler
 - Refresh method Task Scheduler , RunningTask object

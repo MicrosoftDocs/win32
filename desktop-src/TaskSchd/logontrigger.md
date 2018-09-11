@@ -1,7 +1,7 @@
 ---
 title: LogonTrigger object
 description: Scripting object that represents a trigger that starts a task when a user logs on.
-ms.assetid: c0206a18-53f2-4def-8f54-2b175a0579f4
+ms.assetid: '1a1c10ce-4273-490a-a732-a8d39773203b'
 keywords:
 - logon trigger Task Scheduler , object
 - LogonTrigger object Task Scheduler

@@ -1,7 +1,7 @@
 ---
 title: MediaCollection.getMediaAtom method
 description: The getMediaAtom method retrieves the index at which a specified attribute resides within the set of available attributes.
-ms.assetid: 22024108-398e-4a05-b5ed-311583c69497
+ms.assetid: '17501a95-1196-43ff-9a4e-a78cf28e7a2d'
 keywords:
 - getMediaAtom method Windows Media Player
 - getMediaAtom method Windows Media Player , MediaCollection class

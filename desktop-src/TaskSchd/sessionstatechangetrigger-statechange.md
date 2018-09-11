@@ -1,7 +1,7 @@
 ---
 title: SessionStateChangeTrigger.StateChange property
 description: For scripting, gets or sets the kind of Terminal Server session change that would trigger a task launch.
-ms.assetid: 742e623f-7794-4e2a-970f-77ab22914554
+ms.assetid: 'ae1460c7-2939-4fcb-b7fc-edc859596bc4'
 keywords:
 - StateChange property Task Scheduler
 - StateChange property Task Scheduler , SessionStateChangeTrigger object

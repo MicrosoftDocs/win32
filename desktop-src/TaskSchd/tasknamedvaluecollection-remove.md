@@ -1,7 +1,7 @@
 ---
 title: TaskNamedValueCollection.Remove method
 description: For scripting, removes a selected name-value pair from the collection.
-ms.assetid: 7c73fb37-5551-497f-86d9-b7158109ca38
+ms.assetid: '6499f85c-ab7a-474f-8277-43c045f9dbb4'
 keywords:
 - Remove method Task Scheduler
 - Remove method Task Scheduler , TaskNamedValueCollection object

@@ -1,7 +1,7 @@
 ---
 title: VolumeThumb File
 description: VolumeThumb File
-ms.assetid: 1e096a38-5688-4f62-b58f-954e910c5259
+ms.assetid: 'de6abfed-a811-44c4-8db2-f3b55ea38756'
 keywords:
 - Windows Media Player Mobile skins,art files
 - skins,art files

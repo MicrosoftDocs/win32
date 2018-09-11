@@ -2,7 +2,7 @@
 title: O
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
-ms.assetid: acd66f67-c95d-49fa-8f61-fdae3c86b432
+ms.assetid: '677c0922-0107-40d3-ab8b-8e064580fadf'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

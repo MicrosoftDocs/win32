@@ -1,7 +1,7 @@
 ---
 title: Structures
 description: Direct2D provides the following structures. Additional structures are defined in the D2D1 Namespace.
-ms.assetid: 98d06b6b-c662-4447-bce0-6ac3d30814e1
+ms.assetid: '6c34a8c8-4b0b-4a95-8f13-25ca25c370ba'
 keywords:
 - Direct2D,structures
 ms.technology: desktop

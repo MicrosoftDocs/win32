@@ -1,7 +1,7 @@
 ---
 title: PlaylistArray.item method
 description: The item method retrieves the playlist at the given index.
-ms.assetid: 2ba85800-12b9-4f14-8d68-ff6a01167308
+ms.assetid: 'cc851695-f9a2-4594-8bd3-3555c18bfa10'
 keywords:
 - item method Windows Media Player
 - item method Windows Media Player , PlaylistArray class

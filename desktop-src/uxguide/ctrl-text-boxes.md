@@ -79,7 +79,7 @@ The <a href="glossary">auto-exit</a> feature automatically advances the input fo
 <td><img src="images/ctrl-text-boxes-image5.png" alt="Screen shot of an Address text box " /><br/> A multi-line, unconstrained text box.<br/></td>
 </tr>
 <tr class="odd">
-<td><strong>Numeric input</strong><br/> A single-line, numeric-only text box used to enter or edit numbers, with an optional [spin control](ctrl-spin-controls.md) to facilitate mouse-based input. <br/></td>
+<td><strong>Numeric input</strong><br/> A single-line, numeric-only text box used to enter or edit numbers, with an optional <a href="ctrl-spin-controls">spin control</a> to facilitate mouse-based input. <br/></td>
 <td><img src="images/ctrl-text-boxes-image6.png" alt="Screen shot of a text box for entering a wait time " /><br/> A text box used for numeric input.<br/> The combination of a text box and its associated spin control is called a <a href="ctrl-spin-controls">spin box</a>.<br/></td>
 </tr>
 <tr class="even">
@@ -242,7 +242,7 @@ Because text boxes are usually not constrained to accept only valid input, you m
 
 -   If the user enters a character that isn't valid, ignore the character and display an [input problem balloon](ctrl-balloons.md) that explains the valid characters.
 
-    ![screen shot of product key text box ](images/ctrl-text-boxes-image23.png)
+    ![screen shot of product key text box](images/ctrl-text-boxes-image23.png)
 
     In this example, a balloon reports an incorrect input character.
 

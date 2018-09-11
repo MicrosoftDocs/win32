@@ -1,7 +1,7 @@
 ---
 title: XML Node
 description: An XML Node represents a single piece of XML, for example, a start element and its attributes, an end element, text, or \ 0034;typed \ 0034; text content such as an integer or byte array. The data in a node varies according to the WS\_XML\_NODE\_TYPE.
-ms.assetid: 98c40d57-ee71-40f8-9416-5b29adc30489
+ms.assetid: 'c514c542-029b-46d1-a796-1f132a41b2ad'
 keywords:
 - XML Node Web Services for Windows
 - WWSAPI

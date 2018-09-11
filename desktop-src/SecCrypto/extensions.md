@@ -1,6 +1,6 @@
 ---
 Description: Represents a collection of Extension objects.
-ms.assetid: 07793061-6f94-4467-bb01-aa65db657658
+ms.assetid: 'f2a6854d-1831-489f-adf6-31a0b26511e3'
 title: Extensions object
 ms.technology: desktop
 ms.prod: windows

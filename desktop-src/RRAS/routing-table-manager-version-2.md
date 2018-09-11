@@ -1,7 +1,7 @@
 ---
 title: Routing Table Manager Version 2
 description: Routing Table Manager Version 2
-ms.assetid: 9f84863e-45ed-49d1-8df4-3b59b1b5f3c9
+ms.assetid: '570321b2-a499-4428-892b-fbd2cc76be4f'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

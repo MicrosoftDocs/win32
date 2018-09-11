@@ -1,6 +1,6 @@
 ---
 Description: The ITTime interface is a provider-specific interface for a Session Descriptor Protocol (SDP) conference blob object.
-ms.assetid: 94883656-8a72-464d-9478-89f698c98db8
+ms.assetid: '24d33259-dcbe-47e4-9c71-fcc25f6e9a76'
 title: ITTime interface
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: TimeTrigger object
 description: Scripting object that represents a trigger that starts a task at a specific date and time.
-ms.assetid: 4ebd5470-0801-42ff-a0c2-4d1e7f7ee365
+ms.assetid: '3c277827-8e70-42e7-a849-773ecc997a93'
 keywords:
 - time trigger Task Scheduler , object
 - TimeTrigger object Task Scheduler

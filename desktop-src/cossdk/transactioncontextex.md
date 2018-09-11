@@ -1,6 +1,6 @@
 ---
 Description: Creates a generic transactional object that begins a transaction. By calling the methods of this class, you can compose the work of multiple COM objects in a single transaction and explicitly commit or abort the transaction.
-ms.assetid: cdf3a74f-cdef-4721-9c0d-90af724c24ba
+ms.assetid: '5f3f83e0-33fc-4c43-9327-59485c0d8bd3'
 title: TransactionContextEx class
 ms.technology: desktop
 ms.prod: windows

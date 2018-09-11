@@ -1,7 +1,7 @@
 ---
 title: Tool Help Functions
 description: Lists the tool help library functions.
-ms.assetid: b92f68e9-c702-4133-857b-b3f44d0fb918
+ms.assetid: '83732bd6-f4cf-409d-ad17-86503d408dc3'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

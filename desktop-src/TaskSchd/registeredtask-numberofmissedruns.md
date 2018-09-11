@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.NumberOfMissedRuns property
 description: For scripting, gets the number of times the registered task has missed a scheduled run.
-ms.assetid: 8f5b5471-edfa-45e6-b556-ba12c0721aed
+ms.assetid: 'cfccb782-eedd-47e4-a6c5-c5857f75d09d'
 keywords:
 - NumberOfMissedRuns property Task Scheduler
 - NumberOfMissedRuns property Task Scheduler , RegisteredTask object

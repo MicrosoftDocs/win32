@@ -1,6 +1,6 @@
 ---
 Description: Executes a verb on a Shell item.
-ms.assetid: 2c02985d-8877-4a02-a232-6aeb1716928c
+ms.assetid: 'aac3f338-6074-4b1f-9b2f-e6206db52419'
 title: ShellFolderItem.InvokeVerbEx method
 ms.technology: desktop
 ms.prod: windows

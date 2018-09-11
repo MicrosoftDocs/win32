@@ -1,7 +1,7 @@
 ---
 title: RenderingParametersUpdate event
 description: Occurs whenever any of a set of rendering control parameters are updated on the DMR.
-ms.assetid: 3CEED740-19EA-4CC6-B3F8-F9DE9C6DCC58
+ms.assetid: '863ca879-a420-43d6-9ac8-94f8303bb759'
 keywords:
 - RenderingParametersUpdate event Media Streaming API
 topic_type:

@@ -1,7 +1,7 @@
 ---
 title: Security
 description: With the increased use of distributed applications, the need for secure communications between the client and server portions of applications is paramount.
-ms.assetid: 5b8841c4-5b65-417f-b790-e8c2dabb44a1
+ms.assetid: '0eceefed-644c-4e4b-a873-8005137c00ef'
 keywords:
 - Remote Procedure Call RPC , described, security
 ms.technology: desktop

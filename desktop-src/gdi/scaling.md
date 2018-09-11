@@ -1,6 +1,6 @@
 ---
 Description: Most CAD and drawing applications provide features that scale output created by the user.
-ms.assetid: 34390ff9-8d5f-497e-87aa-a1019d01bba6
+ms.assetid: '819d2026-dd5c-48d3-8af1-e96364acae72'
 title: Scaling
 ms.technology: desktop
 ms.prod: windows

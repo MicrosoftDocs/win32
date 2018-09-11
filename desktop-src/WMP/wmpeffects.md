@@ -1,7 +1,7 @@
 ---
 title: WMPEFFECTS
 description: This is a predefined EFFECTS with the following default values.
-ms.assetid: 0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba
+ms.assetid: 'ebee17e3-96b0-4748-b69f-4ff41d0bc386'
 keywords:
 - WMPEFFECTS Windows Media Player
 topic_type:

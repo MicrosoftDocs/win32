@@ -1,7 +1,7 @@
 ---
 title: Text Section
 description: Text Section
-ms.assetid: 7e59ec56-dedc-46c5-8302-11a7d7c38911
+ms.assetid: '911f3641-0b87-4b55-80e9-e8d7f03251b8'
 keywords:
 - Windows Media Player Mobile skins,text
 - skins,text

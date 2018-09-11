@@ -47,7 +47,7 @@ The **CHString** class has these constructors.
 
 | Constructor                           | Description                                                 |
 |:--------------------------------------|:------------------------------------------------------------|
-| [**CHString**](/windows/desktop/api/ChString/nf-chstring-chstring-chstring(const chstring &)) | Constructs **CHString** strings in various ways.<br/> |
+| [**CHString**](/windows/desktop/api/ChString/nf-chstring-chstring-chstring(constchstring_)) | Constructs **CHString** strings in various ways.<br/> |
 
 
 
@@ -101,8 +101,8 @@ The **CHString** class has these methods.
  
 
 ### Operators
-
-The **CHString** class has these operators.
+`
+The **CHString** class has these operators.`
 
 
 
@@ -124,7 +124,7 @@ The **CHString** class has these operators.
 | [**operator > (CHString, LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385672(v=VS.85).aspx)         | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
 | [**operator >= (CHString, CHString)**](https://msdn.microsoft.com/en-us/library/Aa385652(v=VS.85).aspx) | Compares two **CHStrings**.<br/>                                                                            |
 | [**operator >= (CHString, LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385661(v=VS.85).aspx)   | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
-| [**operator LPCWSTR**](/windows/desktop/api/ChString/nf-chstring-chstring-operator lpcwstr)                                               | Directly accesses characters stored in a **CHString** string as a C-style string.<br/>                      |
+| [**operator LPCWSTR**](/windows/desktop/api/ChString/nf-chstring-chstring-operatorlpcwstr)                                               | Directly accesses characters stored in a **CHString** string as a C-style string.<br/>                      |
 
 
 

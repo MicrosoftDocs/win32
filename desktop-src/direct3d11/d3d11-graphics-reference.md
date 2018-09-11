@@ -1,7 +1,7 @@
 ---
 title: Direct3D 11 Reference
 description: The Direct3D 11 API is described in this section.
-ms.assetid: cbab1a44-3a79-4b55-94f4-48ad4761cf38
+ms.assetid: 'c6ec864b-4565-45af-a95f-d1ed1e70a316'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

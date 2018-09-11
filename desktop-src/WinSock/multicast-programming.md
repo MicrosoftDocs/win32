@@ -1,6 +1,6 @@
 ---
 Description: Multicast programming is enabled through Windows Sockets.
-ms.assetid: 71c05393-3f8c-42c0-9060-e0df9b5e2578
+ms.assetid: 'f729945b-b469-4baf-ac06-2431ee2d0e71'
 title: Multicast Programming
 ms.technology: desktop
 ms.prod: windows

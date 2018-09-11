@@ -1,7 +1,7 @@
 ---
 title: License Revocation
 description: License Revocation
-ms.assetid: 615ddddf-4f2f-400d-9c4d-ff3a2851d699
+ms.assetid: '15917bce-d89e-41eb-904d-7ee290ba545e'
 keywords:
 - Windows Media Format SDK,license revocation
 - digital rights management (DRM),license revocation

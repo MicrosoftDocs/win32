@@ -1,7 +1,7 @@
 ---
 title: AVIFile Functions and Macros
 description: AVIFile Functions and Macros
-ms.assetid: 877f6759-8271-47eb-8a7f-540393e5ae89
+ms.assetid: '573e24fa-876d-4ce9-be23-d5e448a53e20'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

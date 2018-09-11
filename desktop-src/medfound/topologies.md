@@ -1,6 +1,6 @@
 ---
 Description: Topologies
-ms.assetid: 4f69b099-0ca7-4ea6-8412-0f1ea02e1600
+ms.assetid: '6fc19244-0f42-4d23-899d-c79e97018855'
 title: Topologies
 ms.technology: desktop
 ms.prod: windows

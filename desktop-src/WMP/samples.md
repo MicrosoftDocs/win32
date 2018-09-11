@@ -1,7 +1,7 @@
 ---
 title: Samples
 description: Samples
-ms.assetid: 72eaa417-d7ce-4521-9289-17f392146ec9
+ms.assetid: '9250ab9e-241d-426f-92f7-e0e0beecc190'
 keywords:
 - Windows Media Player,samples
 - samples,about

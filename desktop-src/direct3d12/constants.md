@@ -1,7 +1,7 @@
 ---
 title: Constants
 description: The following constants are declared in d3d12.h, for use by a D3D12 title.
-ms.assetid: 2F517DCE-BC0C-4678-9C25-D826036F99A8
+ms.assetid: 'f02eaaaf-984f-4357-ab81-ac8045e2ae49'
 keywords:
 - Constants
 topic_type:

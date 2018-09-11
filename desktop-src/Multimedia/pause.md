@@ -1,7 +1,7 @@
 ---
 title: pause command
 description: The pause command pauses playing or recording.
-ms.assetid: 3c5e0209-f64b-4235-9855-e5ad4ce88032
+ms.assetid: '8fa1a40d-fdb1-4c9f-a8db-9dd6a0d83b87'
 keywords:
 - pause command Windows Multimedia
 topic_type:

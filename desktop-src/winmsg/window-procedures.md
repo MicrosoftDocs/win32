@@ -1,6 +1,6 @@
 ---
 Description: This section discusses window procedures. Each window has an associated window procedure that processes all messages sent or posted to all windows of the class.
-ms.assetid: 3a8e8f4e-910d-4863-a4a7-dd37c2dfa402
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windowprocedures.htm'
 title: Window Procedures
 ms.technology: desktop
 ms.prod: windows

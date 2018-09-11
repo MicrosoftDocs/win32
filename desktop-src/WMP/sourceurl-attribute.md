@@ -1,7 +1,7 @@
 ---
 title: SourceURL Attribute
 description: The SourceURL attribute is the address of the item.
-ms.assetid: 2be88d9b-4fd8-4e70-9a4d-114a2bf8b23c
+ms.assetid: 'fcd47515-2b42-491d-98f1-48000056089e'
 keywords:
 - SourceURL Attribute Windows Media Player
 topic_type:

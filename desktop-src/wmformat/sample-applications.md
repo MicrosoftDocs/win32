@@ -1,7 +1,7 @@
 ---
 title: Sample Applications
 description: Sample Applications
-ms.assetid: 7bbcc238-2858-4a08-a76b-9502fc453f17
+ms.assetid: '037741cb-c5fb-485f-bf62-79b5465abfe4'
 keywords:
 - Windows Media Format SDK,sample applications
 - digital rights management (DRM),sample applications

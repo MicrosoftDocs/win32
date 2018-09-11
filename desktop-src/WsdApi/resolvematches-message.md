@@ -98,7 +98,7 @@ A ResolveMatches message has the following focus points.
 <td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo>
     urn:uuid:38d1c3d9-8d73-4424-8861-6b7ee2af24d3
 </wsa:RelatesTo></code></pre></td>
-<td>The identifier of the message to which the service is responding. This header matches the MessageId in the [Resolve](resolve-message.md) message.</td>
+<td>The identifier of the message to which the service is responding. This header matches the MessageId in the <a href="resolve-message">Resolve</a> message.</td>
 </tr>
 <tr class="odd">
 <td>AppSequence</td>

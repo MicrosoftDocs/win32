@@ -1,6 +1,6 @@
 ---
 Description: The PlayPrevChapter event is sent when the PlayPrevChapter command has been enabled or disabled.
-ms.assetid: bebfe1e1-9197-4105-9b3f-edeb6f04836c
+ms.assetid: 'bf44bd7e-cfeb-456e-a2e9-3068859d0055'
 title: PlayPrevChapter
 ms.technology: desktop
 ms.prod: windows

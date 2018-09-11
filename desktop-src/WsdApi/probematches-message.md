@@ -100,7 +100,7 @@ A ProbeMatches message has the following focus points.
 <td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo>
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
 </wsa:RelatesTo></code></pre></td>
-<td>The identifier of the message to which the service is responding. This header matches the MessageId in the [Probe](probe-message.md) message.</td>
+<td>The identifier of the message to which the service is responding. This header matches the MessageId in the <a href="probe-message">Probe</a> message.</td>
 </tr>
 <tr class="odd">
 <td>AppSequence</td>
@@ -115,7 +115,7 @@ A ProbeMatches message has the following focus points.
 <td><pre class="syntax" data-space="preserve"><code><wsa:Address>
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
 </wsa:Address></code></pre></td>
-<td>Contains the endpoint address. This addressed may be referenced in a [Resolve](resolve-message.md) message.</td>
+<td>Contains the endpoint address. This addressed may be referenced in a <a href="resolve-message">Resolve</a> message.</td>
 </tr>
 <tr class="odd">
 <td>XAddrs</td>

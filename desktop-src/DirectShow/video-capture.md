@@ -1,6 +1,6 @@
 ---
 Description: Video Capture
-ms.assetid: 80739be7-fa38-409d-a827-d788d3044abe
+ms.assetid: '92051a84-5011-42ed-be68-e8841552ca1b'
 title: Video Capture
 ms.technology: desktop
 ms.prod: windows

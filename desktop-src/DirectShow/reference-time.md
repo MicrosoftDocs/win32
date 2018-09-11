@@ -1,6 +1,6 @@
 ---
 Description: The REFERENCE\_TIME data type defines the units for reference times in DirectShow. Each unit of reference time is 100 nanoseconds.
-ms.assetid: ac77ca0d-f3d1-4258-bf2e-d7e8a33eb68e
+ms.assetid: '862c95bc-2e0a-42c0-b907-45f64f27bd41'
 title: REFERENCE_TIME
 ms.technology: desktop
 ms.prod: windows

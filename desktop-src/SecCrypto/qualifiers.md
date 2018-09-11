@@ -1,6 +1,6 @@
 ---
 Description: Represents a collection of qualifiers.
-ms.assetid: aa5e2225-0a39-40bc-868c-d96f5953edaa
+ms.assetid: '2f51404d-b26e-4153-b206-ab6b413363a1'
 title: Qualifiers object
 ms.technology: desktop
 ms.prod: windows

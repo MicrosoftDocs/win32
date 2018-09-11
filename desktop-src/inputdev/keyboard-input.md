@@ -1,7 +1,7 @@
 ---
 title: Keyboard Input
 description: This section discusses how the system generates keyboard input and how an application receives and processes that input.
-ms.assetid: de34727e-e8c7-481d-982d-0e42a02704db
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\userinput\keyboardinput.htm'
 keywords:
 - user input,keyboard input
 - capturing user input,keyboard input

@@ -1,7 +1,7 @@
 ---
 title: TaskFolderCollection object
 description: Scripting object that provides information and control for a collection of folders that contain tasks.
-ms.assetid: 1889a7e3-8fa2-4b96-9d55-656850f605da
+ms.assetid: '773d1c86-a539-478d-9e71-dc5b86c098c1'
 keywords:
 - TaskFolderCollection object Task Scheduler
 - TaskFolderCollection object Task Scheduler , described

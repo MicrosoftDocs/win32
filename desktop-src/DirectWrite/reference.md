@@ -1,7 +1,7 @@
 ---
 title: API Reference
 description: The following sections describe the DirectWrite API in detail.
-ms.assetid: 3ae2150b-af56-65f5-fe38-7ecea16cf0b8
+ms.assetid: '0adb9b95-fa87-46b8-8a51-14a9cb507439'
 keywords:
 - DirectWrite,reference
 - DirectWrite, API reference

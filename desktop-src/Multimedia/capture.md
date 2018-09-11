@@ -1,7 +1,7 @@
 ---
 title: capture command
 description: The capture command copies the contents of the frame buffer and stores it in the specified file. Digital-video devices recognize this command.
-ms.assetid: 1aa5b3dc-3c12-433b-92e6-fbeea7ca9ad5
+ms.assetid: 'cdf177b9-874e-40d8-af3e-59070c55903d'
 keywords:
 - capture command Windows Multimedia
 topic_type:

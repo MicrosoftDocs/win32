@@ -1,7 +1,7 @@
 ---
 title: Multimedia Timers
 description: Multimedia Timers
-ms.assetid: 42101923-3f46-4234-bfcf-a0d06c382fa1
+ms.assetid: '25e0b313-64ff-4f30-ae0a-ac364ce3f0cf'
 keywords:
 - Windows multimedia,timers
 - multimedia,timers

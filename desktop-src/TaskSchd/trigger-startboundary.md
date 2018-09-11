@@ -1,7 +1,7 @@
 ---
 title: Trigger.StartBoundary property
 description: For scripting, gets or sets the date and time when the trigger is activated.
-ms.assetid: 749101ae-3db6-44ec-9113-95282c86c3c0
+ms.assetid: '0687cdda-e72c-47cd-ac0c-0de2f8afc3e8'
 keywords:
 - StartBoundary property Task Scheduler
 - StartBoundary property Task Scheduler , Trigger object

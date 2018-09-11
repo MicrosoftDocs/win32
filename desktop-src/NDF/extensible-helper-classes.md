@@ -1,7 +1,7 @@
 ---
 title: Extensible Helper Classes
 description: Network Diagnostics Framework (NDF) extensible helper classes.
-ms.assetid: b54f836d-4fae-4e71-bf7b-af5a6e9e615c
+ms.assetid: 'e28dd105-f568-4bee-b00b-874eecaf1056'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

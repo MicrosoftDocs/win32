@@ -1,7 +1,7 @@
 ---
 title: Value Map Annotation
 description: Value Map Annotation
-ms.assetid: 29be74c7-a7c2-41f4-8b94-5771988b74ff
+ms.assetid: 'f7c9304a-0eed-4a73-ab06-56723f3cfa5d'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

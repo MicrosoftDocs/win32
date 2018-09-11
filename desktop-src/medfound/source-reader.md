@@ -1,6 +1,6 @@
 ---
 Description: The Source Reader is an alternative to using the Media Session and the Microsoft Media Foundation pipeline to process media data.
-ms.assetid: 583f5736-f767-47c5-8fdc-b3645aed59f6
+ms.assetid: '8a17a754-53ef-4c05-9189-7978d864b17a'
 title: Source Reader
 ms.technology: desktop
 ms.prod: windows

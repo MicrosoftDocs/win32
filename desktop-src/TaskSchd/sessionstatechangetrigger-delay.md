@@ -1,7 +1,7 @@
 ---
 title: SessionStateChangeTrigger.Delay property
 description: For scripting, gets or sets a value that indicates how long of a delay takes place before a task is started after a Terminal Server session state change is detected.
-ms.assetid: 0382b3e7-018d-43e3-893e-b754fe38ed3d
+ms.assetid: '3a17884f-fd74-491a-99dc-dce300a2cc77'
 keywords:
 - Delay property Task Scheduler
 - Delay property Task Scheduler , SessionStateChangeTrigger object

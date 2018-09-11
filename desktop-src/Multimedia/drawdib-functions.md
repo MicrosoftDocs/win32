@@ -1,7 +1,7 @@
 ---
 title: DrawDib Functions
 description: DrawDib Functions
-ms.assetid: 0ae993df-8393-479e-aa11-14301384715d
+ms.assetid: '9ba47b8d-5328-477e-9272-21e897e54348'
 keywords:
 - Windows multimedia,DrawDib functions
 - multimedia,DrawDib functions

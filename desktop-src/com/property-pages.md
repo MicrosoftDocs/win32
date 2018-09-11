@@ -1,7 +1,7 @@
 ---
 title: Property Pages
 description: Property Pages
-ms.assetid: 145eba76-be21-487c-bfa8-cfe4bbf40410
+ms.assetid: 'e1288b96-c4a1-4016-96dd-1e0de51c34cd'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

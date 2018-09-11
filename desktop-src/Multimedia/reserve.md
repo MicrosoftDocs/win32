@@ -1,7 +1,7 @@
 ---
 title: reserve command
 description: The reserve command allocates contiguous disk space for the device instance's workspace. Digital-video devices recognize this command.
-ms.assetid: 01f0a377-0179-4b05-a642-af152a7a12ae
+ms.assetid: 'ac4fc75e-82d0-4817-a5cf-a77996bc69e2'
 keywords:
 - reserve command Windows Multimedia
 topic_type:

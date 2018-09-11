@@ -1,7 +1,7 @@
 ---
 title: TYPEMODE enumeration
 description: Elements of the TYPEMODE enumeration are used to specify type modes that are available for a soft keyboard.
-ms.assetid: 77294652-b82e-4b69-bb55-5ebebc3c97c7
+ms.assetid: '7db0a4dd-0ee2-455d-aeb8-11cd1249134c'
 keywords:
 - TYPEMODE enumeration Text Services Framework
 topic_type:

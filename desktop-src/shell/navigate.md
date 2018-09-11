@@ -1,6 +1,6 @@
 ---
 Description: You now have all the essential elements needed to navigate anywhere in the namespace.
-ms.assetid: b65bc979-db32-48b3-b71f-fd389957b265
+ms.assetid: 'bd9f903d-bea6-494f-af81-d90457dc2647'
 title: Navigating the Namespace
 ms.technology: desktop
 ms.prod: windows

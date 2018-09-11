@@ -1,7 +1,7 @@
 ---
 title: Monitor Configuration
 description: Monitor Configuration
-ms.assetid: 66345021-41e8-429a-bbf7-a4aa72a57337
+ms.assetid: '8439ca75-dd31-42a8-afd6-e1f7a867d17c'
 keywords:
 - monitor,about
 - monitor,DDC/CI

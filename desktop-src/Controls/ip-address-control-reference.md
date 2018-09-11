@@ -1,7 +1,7 @@
 ---
 title: IP Address Control
 description: This section contains information about the programming elements used with IP address controls.
-ms.assetid: ab89d354-9d0c-492b-af3f-a3180821f0e1
+ms.assetid: 'vs|controls|~\controls\ipaddress\reflist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

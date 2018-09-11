@@ -1,7 +1,7 @@
 ---
 title: TaskDefinition object
 description: Scripting object that defines all the components of a task, such as the task settings, triggers, actions, and registration information.
-ms.assetid: 3787ed9b-9fd0-473b-9034-ade97dc330d9
+ms.assetid: 'd5887024-21af-40cf-a97d-f695f60394d9'
 keywords:
 - TaskDefinition object Task Scheduler
 - TaskDefinition object Task Scheduler , described

@@ -1,7 +1,7 @@
 ---
 title: Playlists
 description: Playlists
-ms.assetid: 2e36e948-0762-4414-8fb9-0b37cc5f20e5
+ms.assetid: 'b1ac9208-33d1-448f-9e2e-920fad9c6add'
 keywords:
 - Windows Media Player,playlists
 - Windows Media Player object model,playlists

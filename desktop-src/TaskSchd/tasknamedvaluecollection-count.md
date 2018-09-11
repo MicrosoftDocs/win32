@@ -1,7 +1,7 @@
 ---
 title: TaskNamedValueCollection.Count property
 description: For scripting, gets the number of name-value pairs in the collection.
-ms.assetid: aedb4d3d-0f72-4224-8488-4100d2416994
+ms.assetid: '73ecaeae-2837-4f77-819c-3d34f87d0e88'
 keywords:
 - Count property Task Scheduler
 - Count property Task Scheduler , TaskNamedValueCollection object

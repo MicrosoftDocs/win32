@@ -1,6 +1,6 @@
 ---
 Description: Multilingual User Interface
-ms.assetid: 1982931c-fce9-418f-a35d-439b7b886fd9
+ms.assetid: '2980365c-5a83-4c0f-aa37-e212ec9f0408'
 title: Multilingual User Interface
 ms.technology: desktop
 ms.prod: windows

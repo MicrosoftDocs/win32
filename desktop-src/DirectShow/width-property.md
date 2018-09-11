@@ -1,6 +1,6 @@
 ---
 Description: The Width property sets or retrieves the width of the rectangle.
-ms.assetid: aff466b2-6e10-4d61-a78d-bad827a470ee
+ms.assetid: '5aca3f45-7db7-44a7-af3e-99c5bb570ceb'
 title: Width Property
 ms.technology: desktop
 ms.prod: windows

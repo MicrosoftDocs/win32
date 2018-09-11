@@ -1,7 +1,7 @@
 ---
 title: Progress Bar
 description: This section contains information about the programming elements used with progress bar controls.
-ms.assetid: 89468ecb-045a-4d30-8eb2-db33cbf0780e
+ms.assetid: 'vs|controls|~\controls\progbar\reflist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

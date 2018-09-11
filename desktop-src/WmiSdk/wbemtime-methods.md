@@ -44,7 +44,7 @@ The [**WBEMTime**](wbemtime.md) class exposes the following methods.
 -   [**operator= operators**](https://msdn.microsoft.com/en-us/library/Aa394050(v=VS.85).aspx)
 -   [**operator-= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator-=)
 -   [**SetDMTF method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-setdmtf)
--   [**WBEMTime constructors**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-wbemtime(const bstr))
+-   [**WBEMTime constructors**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-wbemtime(constbstr))
 
  
 

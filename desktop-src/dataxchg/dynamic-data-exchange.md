@@ -1,7 +1,7 @@
 ---
 title: Dynamic Data Exchange
 description: This section provides guidelines for implementing dynamic data exchange for applications that cannot use the Dynamic Data Exchange Management Library (DDEML).
-ms.assetid: 0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange.htm'
 keywords:
 - Dynamic Data Exchange (DDE),about
 - DDE (Dynamic Data Exchange),about

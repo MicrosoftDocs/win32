@@ -1,7 +1,7 @@
 ---
 title: TriggerCollection.Create method
 description: For scripting, creates a new trigger for the task.
-ms.assetid: 70780fca-ba97-42b8-bc00-867c2761953c
+ms.assetid: '3d7dc811-0d83-475f-8a6e-87e59dae0113'
 keywords:
 - triggers Task Scheduler , creating
 - Create method Task Scheduler

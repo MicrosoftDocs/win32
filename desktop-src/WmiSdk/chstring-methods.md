@@ -22,7 +22,7 @@ The [**CHString**](chstring.md) class exposes the following methods.
 ## In this section
 
 -   [**AllocSysString method**](/windows/desktop/api/ChString/nf-chstring-chstring-allocsysstring)
--   [**CHString constructors**](/windows/desktop/api/ChString/nf-chstring-chstring-chstring(const chstring &))
+-   [**CHString constructors**](/windows/desktop/api/ChString/nf-chstring-chstring-chstring(constchstring_))
 -   [**Collate method**](/windows/desktop/api/ChString/nf-chstring-chstring-collate)
 -   [**Compare method**](/windows/desktop/api/ChString/nf-chstring-chstring-compare)
 -   [**CompareNoCase method**](/windows/desktop/api/ChString/nf-chstring-chstring-comparenocase)
@@ -63,7 +63,7 @@ The [**CHString**](chstring.md) class exposes the following methods.
 -   [**operator<=(constCHString&, constLPCWSTR&) method**](https://msdn.microsoft.com/en-us/library/Aa385683(v=VS.85).aspx)
 -   [**operator!=(constCHString&, constCHString&) method**](https://msdn.microsoft.com/en-us/library/Aa385704(v=VS.85).aspx)
 -   [**operator!=(constCHString&, constLPCWSTR&) method**](https://msdn.microsoft.com/en-us/library/Aa385763(v=VS.85).aspx)
--   [**operator LPCWSTR method**](/windows/desktop/api/ChString/nf-chstring-chstring-operator lpcwstr)
+-   [**operator LPCWSTR method**](/windows/desktop/api/ChString/nf-chstring-chstring-operatorlpcwstr)
 -   [**ReleaseBuffer method**](/windows/desktop/api/ChString/nf-chstring-chstring-releasebuffer)
 -   [**ReverseFind method**](/windows/desktop/api/ChString/nf-chstring-chstring-reversefind)
 -   [**Right method**](/windows/desktop/api/ChString/nf-chstring-chstring-right)

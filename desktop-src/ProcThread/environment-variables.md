@@ -1,6 +1,6 @@
 ---
 Description: 'Every process has an environment block that contains a set of environment variables and their values. There are two types of environment variables: user environment variables (set for each user) and system environment variables (set for everyone).'
-ms.assetid: b428688c-7b16-48c7-8d89-55d066496d1c
+ms.assetid: '6732b12f-ced1-4769-b947-79da8fd2237a'
 title: Environment Variables
 ms.technology: desktop
 ms.prod: windows

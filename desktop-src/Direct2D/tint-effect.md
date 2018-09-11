@@ -1,7 +1,7 @@
 ---
 title: Tint effect
 description: This effect tints the source image by multiplying the source image by the specified color. It has a single input.
-ms.assetid: 8df72105-26ea-2dea-a4de-ef06902b7e0b
+ms.assetid: 'b0fd3598-26b6-faee-4f10-ebba96241bc8'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

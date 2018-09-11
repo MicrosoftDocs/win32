@@ -1,7 +1,7 @@
 ---
 title: Combo Box
 description: This section contains information about the programming elements used with combo boxes. A combo box is a unique type of control, defined by the COMBOBOX class, that combines much of the functionality of a list box and an edit control.
-ms.assetid: 76410a87-aa0e-4da9-9e78-c80ac485e3cd
+ms.assetid: 'vs|controls|~\controls\comboboxes\comboboxes.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

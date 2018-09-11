@@ -1,7 +1,7 @@
 ---
 title: Settings.setMode method
 description: The setMode method sets various modes to active or inactive.
-ms.assetid: 28a404a7-5bb0-41bb-a5b2-cc6138b8176e
+ms.assetid: '9ab88aeb-53f6-4798-9299-14961e373ca6'
 keywords:
 - setMode method Windows Media Player
 - setMode method Windows Media Player , Settings class

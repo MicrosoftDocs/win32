@@ -1312,7 +1312,7 @@ The options for the WIN\_CERTIFICATE **wCertificateType** member include (but ar
 
  
 
-The WIN\_CERTIFICATE structure's **bCertificate** member contains a variable-length byte array with the content type specified by **wCertificateType**. The type supported by Authenticode is WIN\_CERT\_TYPE\_PKCS\_SIGNED\_DATA, a PKCS\#7 **SignedData** structure. For details on the Authenticode digital signature format, see [Windows Authenticode Portable Executable Signature Format](http://www.microsoft.com/whdc/winlogo/drvsign/Authenticode_PE.mspx%22 xmlns:wdcml=%22http://microsoft.com/wdcml%22%3Ehttp://www.microsoft.com/whdc/winlogo/drvsign/Authenticode_PE.mspx).
+The WIN\_CERTIFICATE structure's **bCertificate** member contains a variable-length byte array with the content type specified by **wCertificateType**. The type supported by Authenticode is WIN\_CERT\_TYPE\_PKCS\_SIGNED\_DATA, a PKCS\#7 **SignedData** structure. For details on the Authenticode digital signature format, see [Windows Authenticode Portable Executable Signature Format](http://download.microsoft.com/download/9/c/5/9c5b2167-8017-4bae-9fde-d599bac8184a/Authenticode_PE.docx).
 
 If the **bCertificate** content does not end on a quadword boundary, the attribute certificate entry is padded with zeros, from the end of **bCertificate** to the next quadword boundary.
 

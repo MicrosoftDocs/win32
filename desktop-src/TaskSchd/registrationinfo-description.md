@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo.Description property
 description: For scripting, gets or sets the description of the task.
-ms.assetid: 03b0f62c-0f2b-4e0a-8518-de3b94f6a197
+ms.assetid: 'bb85fa09-155c-452b-bf6e-28ac4f60cc42'
 keywords:
 - Description property Task Scheduler
 - Description property Task Scheduler , RegistrationInfo object

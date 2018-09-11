@@ -1,7 +1,7 @@
 ---
 Description: Glossary of Network Monitor terms that begin with the letter H.
 Robots: noindex, nofollow
-ms.assetid: 214ce89c-8bb2-4e1a-872a-026743a3e3a6
+ms.assetid: 'ff31c259-15c0-4056-be36-73a77b691662'
 title: H
 ms.technology: desktop
 ms.prod: windows

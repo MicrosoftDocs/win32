@@ -40,7 +40,7 @@ Windows Search enables you to manage the Windows Search index with three main co
 <li>Getting or setting proxy information.</li>
 <li>Getting version information about the Windows Search engine.</li>
 </ul>
-For more information, see [Using the Search Manager](-search-3x-wds-mngidx-searchmanager.md).<br/></td>
+For more information, see <a href="-search-3x-wds-mngidx-searchmanager">Using the Search Manager</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Catalog?Manager</td>
@@ -52,12 +52,12 @@ For more information, see [Using the Search Manager](-search-3x-wds-mngidx-searc
 <li>Catalog status - getting information about the catalog, including status, size, and current activity state.</li>
 <li>Access to other interfaces - retrieving other search-related interfaces required by the Crawl Scope Manager, data change notifications, and the <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper"><strong>ISearchQueryHelper</strong></a> interface.</li>
 </ul>
-For more information, see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md).<br/></td>
+For more information, see <a href="-search-3x-wds-mngidx-catalog-manager">Using the Catalog Manager</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td>Crawl?Scope?Manager</td>
 <td><a href="/windows/desktop/api/Searchapi/nn-searchapi-ienumsearchroots"><strong>IEnumSearchRoots</strong></a><br/> <a href="http://msdn.microsoft.com/en-us/library/bb266499(VS.85).aspx">IEnumSearchScopeRules</a><br/> <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager"><strong>ISearchCrawlScopeManager</strong></a><br/> <a href="http://msdn.microsoft.com/en-us/library/dd797832(VS.85).aspx">ISearchCrawlScopeManager2</a><br/> <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchroot"><strong>ISearchRoot</strong></a><br/> <a href="/windows/desktop/api/Searchapi/nn-searchapi-isearchscoperule"><strong>ISearchScopeRule</strong></a><br/> <a href="http://msdn.microsoft.com/en-us/library/dd756722(VS.85).aspx">ISearchItem</a><br/></td>
-<td>Provides methods to inform the search engine about containers to crawl or watch, and items under those containers to include or exclude in the index. You can also query the Crawl Scope Manager to see if a particular URL is in the crawl scope. For more information, see [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md).<br/></td>
+<td>Provides methods to inform the search engine about containers to crawl or watch, and items under those containers to include or exclude in the index. You can also query the Crawl Scope Manager to see if a particular URL is in the crawl scope. For more information, see <a href="-search-3x-wds-extidx-csm">Using the Crawl Scope Manager</a>.<br/></td>
 </tr>
 </tbody>
 </table>

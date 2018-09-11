@@ -1,6 +1,6 @@
 ---
 Description: The TRANSFORMS property is a list of the transforms that the installer applies when installing the package.
-ms.assetid: 1edc5227-70ac-4769-ab7f-67d01031dc33
+ms.assetid: 'da20f99e-3022-4382-97bb-8f1206072347'
 title: TRANSFORMS property
 ms.technology: desktop
 ms.prod: windows
@@ -45,7 +45,7 @@ The installer requires the transforms listed in **TRANSFORMS** at every installa
 <tr class="odd">
 <td>@[<em>list of filenames</em>] Example:<br/> @transform1.mst;transform2.mst; transform3.mst<br/></td>
 <td>No effect.</td>
-<td><a href="secure-at-source-transforms">Secure-At-Source transforms</a>. The source of the transforms must be at the root of the source for the package. When the package is installed or advertised, the installer saves the transforms on the user's computer in a cache where the user does not have write access. If the local copy of the transform becomes unavailable, the installer searches for a source to restore the cache. The method is the same as searching the source list for an .msi file. See [Source Resiliency](source-resiliency.md).</td>
+<td><a href="secure-at-source-transforms">Secure-At-Source transforms</a>. The source of the transforms must be at the root of the source for the package. When the package is installed or advertised, the installer saves the transforms on the user's computer in a cache where the user does not have write access. If the local copy of the transform becomes unavailable, the installer searches for a source to restore the cache. The method is the same as searching the source list for an .msi file. See <a href="source-resiliency">Source Resiliency</a>.</td>
 </tr>
 <tr class="even">
 <td>|[<em>list of paths</em>] Example:<br/>
@@ -55,19 +55,19 @@ The installer requires the transforms listed in **TRANSFORMS** at every installa
 </tr>
 <tr class="odd">
 <td>[<em>list of filenames</em>] The first character is not @ or |.<br/> Example:<br/> transform1.mst;transform2.mst; transform3.mst<br/></td>
-<td>[TransformsSecure policy](transformssecure-policy.md) or <a href="transformssecure"><strong>TRANSFORMSSECURE</strong></a> set to 1 OR<br/> [TransformsAtSource policy](transformsatsource-policy.md) or <a href="transformsatsource"><strong>TRANSFORMSATSOURCE</strong></a> set to 1.<br/></td>
+<td><a href="transformssecure-policy">TransformsSecure policy</a> or <a href="transformssecure"><strong>TRANSFORMSSECURE</strong></a> set to 1 OR<br/> <a href="transformsatsource-policy">TransformsAtSource policy</a> or <a href="transformsatsource"><strong>TRANSFORMSATSOURCE</strong></a> set to 1.<br/></td>
 <td>If <strong>TRANSFORMS</strong> is a list of filenames, the installer treats them as <a href="secure-at-source-transforms">Secure-At-Source transforms</a>. If <strong>TRANSFORMS</strong> is a list of full paths, the installer treats them as <a href="secure-full-path-transforms">Secure-Full-Path transforms</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>[<em>list of filenames</em>] The first character is not @ or |.<br/> Example:<br/> transform1.mst;transform2.mst; transform3.mst<br/></td>
-<td>[TransformsSecure policy](transformssecure-policy.md) and <a href="transformssecure"><strong>TRANSFORMSSECURE</strong></a> are not set AND<br/> [TransformsAtSource policy](transformsatsource-policy.md) and <a href="transformsatsource"><strong>TRANSFORMSATSOURCE</strong></a> are not set.<br/></td>
-<td>[Unsecured Transforms](unsecured-transforms.md). The source of the transforms must be at the root of the source for the package. When the package is installed or advertised per-user, the installer saves the transforms in the user's profile. This enables a user to roam between computers while maintaining their customizations. For a per-machine install, the transform is saved in the %windir%\Installer folder. If the local copy of the transform becomes unavailable the installer searches for a source to restore the cache. The method is the same as searching the source list for an .msi file. See [Source Resiliency](source-resiliency.md).</td>
+<td><a href="transformssecure-policy">TransformsSecure policy</a> and <a href="transformssecure"><strong>TRANSFORMSSECURE</strong></a> are not set AND<br/> <a href="transformsatsource-policy">TransformsAtSource policy</a> and <a href="transformsatsource"><strong>TRANSFORMSATSOURCE</strong></a> are not set.<br/></td>
+<td><a href="unsecured-transforms">Unsecured Transforms</a>. The source of the transforms must be at the root of the source for the package. When the package is installed or advertised per-user, the installer saves the transforms in the user's profile. This enables a user to roam between computers while maintaining their customizations. For a per-machine install, the transform is saved in the %windir%\Installer folder. If the local copy of the transform becomes unavailable the installer searches for a source to restore the cache. The method is the same as searching the source list for an .msi file. See <a href="source-resiliency">Source Resiliency</a>.</td>
 </tr>
 <tr class="odd">
 <td>[<em>list of paths</em>] The first character is not @ or |.<br/> Example:<br/>
 <pre class="syntax" data-space="preserve"><code>\\server\share\path\transform1.mst;\\server2\share2\path2\transform2.mst.</code></pre></td>
-<td>[TransformsAtSource policy](transformsatsource-policy.md) and <a href="transformssecure"><strong>TRANSFORMSSECURE</strong></a> are not set AND<br/> [TransformsAtSource policy](transformsatsource-policy.md) and <a href="transformssecure"><strong>TRANSFORMSSECURE</strong></a> are not set..<br/></td>
-<td>[Unsecured Transforms](unsecured-transforms.md). When the package is installed or advertised per-user, the installer saves the transforms in the user's profile. This enables a user to roam between computers while maintaining their customizations. For a per-machine install, the transform is saved in the %windir%\Installer folder. If the local copy of the transform becomes unavailable, the installer searches for a source to restore the cache. The method is the same as searching the source list for an .msi file. See [Source Resiliency](source-resiliency.md).</td>
+<td><a href="transformsatsource-policy">TransformsAtSource policy</a> and <a href="transformssecure"><strong>TRANSFORMSSECURE</strong></a> are not set AND<br/> <a href="transformsatsource-policy">TransformsAtSource policy</a> and <a href="transformssecure"><strong>TRANSFORMSSECURE</strong></a> are not set..<br/></td>
+<td><a href="unsecured-transforms">Unsecured Transforms</a>. When the package is installed or advertised per-user, the installer saves the transforms in the user's profile. This enables a user to roam between computers while maintaining their customizations. For a per-machine install, the transform is saved in the %windir%\Installer folder. If the local copy of the transform becomes unavailable, the installer searches for a source to restore the cache. The method is the same as searching the source list for an .msi file. See <a href="source-resiliency">Source Resiliency</a>.</td>
 </tr>
 </tbody>
 </table>

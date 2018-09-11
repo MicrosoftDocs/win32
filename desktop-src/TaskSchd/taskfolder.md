@@ -1,7 +1,7 @@
 ---
 title: TaskFolder object
 description: Scripting object that provides the methods that are used to register (create) tasks in the folder, remove tasks from the folder, and create or remove subfolders from the folder.
-ms.assetid: da0cc808-b284-4d10-be61-d96c5e07d0a8
+ms.assetid: 'f6fd09ec-2777-4903-83b5-e3ac1aa472a0'
 keywords:
 - TaskFolder object Task Scheduler
 - TaskFolder object Task Scheduler , described

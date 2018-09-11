@@ -1,7 +1,7 @@
 ---
 title: Cancellation
 description: Most of operations in the WWSAPI can be canceled during execution.
-ms.assetid: dc371921-869f-4775-98d3-80a1006358ba
+ms.assetid: 'd73d76e1-bd78-40ce-9f92-e282b6b127ce'
 keywords:
 - Cancelation Web Services for Windows
 - WWSAPI

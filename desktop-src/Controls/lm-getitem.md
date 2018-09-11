@@ -31,7 +31,7 @@ Retrieves the states and attributes of an item.
 </dt> <dd>Must be **NULL**. </dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a [**LITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglitem) structure to be filled with information about the item. </dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglitem">LITEM</a> structure to be filled with information about the item. </dd> </dl>
 
 ## Return value
 

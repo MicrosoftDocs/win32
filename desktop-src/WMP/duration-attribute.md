@@ -1,7 +1,7 @@
 ---
 title: Duration Attribute
 description: The Duration attribute is the playing duration of the item, in seconds.
-ms.assetid: c64cb4ca-b0bc-4beb-b2ae-ddd0c5fcd35c
+ms.assetid: '0a59a7b6-4536-4197-9f4a-1877ef42f828'
 keywords:
 - Duration Attribute Windows Media Player
 topic_type:

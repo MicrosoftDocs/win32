@@ -1,7 +1,7 @@
 ---
 title: sysinfo command
 description: The sysinfo command retrieves MCI system information. The sysinfo command is an MCI system command; it is interpreted directly by MCI.
-ms.assetid: 605efd25-8849-42aa-99fd-b36b6fd2c7b7
+ms.assetid: '494e8976-aac3-4d9f-b14b-3d3fd1917b45'
 keywords:
 - sysinfo command Windows Multimedia
 topic_type:

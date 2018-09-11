@@ -1,7 +1,7 @@
 ---
 title: TaskService.NewTask method
 description: For scripting, returns an empty task definition object to be filled in with settings and properties and then registered using the TaskFolder.RegisterTaskDefinition method.
-ms.assetid: 821fc610-cf94-4548-950d-b4fd7b2f90dc
+ms.assetid: '696d57fc-100a-43e6-a8d9-9ec89be40367'
 keywords:
 - NewTask method Task Scheduler
 - NewTask method Task Scheduler , TaskService object

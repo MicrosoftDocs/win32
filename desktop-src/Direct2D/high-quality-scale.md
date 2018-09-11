@@ -85,7 +85,7 @@ m_d2dContext->EndDraw();
 </tr>
 <tr class="odd">
 <td>BorderMode<br/> D2D1_SCALE_PROP_BORDER_MODE<br/></td>
-<td>The mode used to calculate the border of the image, soft or hard. See [Border modes](#border-modes) for more info. <br/> The type is D2D1_BORDER_MODE.<br/> The default value is D2D1_BORDER_MODE_SOFT.<br/></td>
+<td>The mode used to calculate the border of the image, soft or hard. See <a href="#border-modes">Border modes</a> for more info. <br/> The type is D2D1_BORDER_MODE.<br/> The default value is D2D1_BORDER_MODE_SOFT.<br/></td>
 </tr>
 <tr class="even">
 <td>Sharpness<br/> D2D1_SCALE_PROP_SHARPNESS<br/></td>
@@ -98,7 +98,7 @@ This property affects only the high quality cubic interpolation mode.
 </tr>
 <tr class="odd">
 <td>InterpolationMode<br/> D2D1_SCALE_PROP_INTERPOLATION_MODE<br/></td>
-<td>The interpolation mode the effect uses to scale the image. There are 6 scale modes that range in quality and speed. See [Interpolation modes](#interpolation-modes) for more info. <br/> The type is D2D1_SCALE_INTERPOLATION_MODE.<br/> The default value is D2D1_SCALE_INTERPOLATION_MODE_LINEAR.<br/></td>
+<td>The interpolation mode the effect uses to scale the image. There are 6 scale modes that range in quality and speed. See <a href="#interpolation-modes">Interpolation modes</a> for more info. <br/> The type is D2D1_SCALE_INTERPOLATION_MODE.<br/> The default value is D2D1_SCALE_INTERPOLATION_MODE_LINEAR.<br/></td>
 </tr>
 </tbody>
 </table>

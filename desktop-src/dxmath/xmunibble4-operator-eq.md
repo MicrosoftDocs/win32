@@ -1,6 +1,6 @@
 ---
 Description: Assigns vector component data to the current instance of XMUNIBBLE4.
-ms.assetid: 03b4f870-696e-4719-8115-9becb307dd10
+ms.assetid: 'overload:microsoft.directx_sdk.reference.xmunibble4.operator = '
 title: operator = operators
 ms.technology: desktop
 ms.prod: windows

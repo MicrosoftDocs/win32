@@ -1,7 +1,7 @@
 ---
 title: Disabled File
 description: Disabled File
-ms.assetid: 22db4942-b1f1-46d1-b869-48c6854bfb30
+ms.assetid: '8b3339f6-a5d5-4501-826c-6ce33bfbf0cb'
 keywords:
 - Windows Media Player Mobile skins,art files
 - skins,art files

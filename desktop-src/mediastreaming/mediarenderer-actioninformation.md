@@ -1,7 +1,7 @@
 ---
 title: MediaRenderer.ActionInformation property
 description: Gets information about which methods can currently be invoked on the DMR.
-ms.assetid: 7681FF92-DD13-4BBC-B860-E2BDFDA74FB9
+ms.assetid: 'c36d45cb-c01a-4418-8f21-906c95950d6f'
 keywords:
 - ActionInformation property Media Streaming API
 - ActionInformation property Media Streaming API , MediaRenderer interface

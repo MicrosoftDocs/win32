@@ -1,6 +1,6 @@
 ---
 Description: A 3D primitive is a collection of vertices that form a single 3D entity. The simplest primitive is a collection of points in a 3D coordinate system, which is called a point list.
-ms.assetid: 474e8bee-336d-491f-afa0-f0186a8d19c7
+ms.assetid: 'vs|directx_sdk|~\primitives.htm'
 title: Primitives
 ms.technology: desktop
 ms.prod: windows

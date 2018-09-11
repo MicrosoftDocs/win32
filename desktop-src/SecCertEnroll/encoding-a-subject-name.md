@@ -18,7 +18,7 @@ DC=jdomcsc
 DC=nttest  
 DC=microsoft  
 DC=com  
-</dl>The **IX500DistinguishedName** object creates the following DER-encoded (ASN.1) sequence. Notice that the sequence is encoded in reverse order. This example is derived from the [PKCS \#7 Renewal Encoded ASN.1](pkcs--7-renewal-encoded-asn-1.md) topic.
+</dl>The **IX500DistinguishedName** object creates the following DER-encoded (ASN.1) sequence. Notice that the sequence is encoded in reverse order. This example is derived from the<a href="pkcs--7-renewal-encoded-asn-1">PKCS #7 Renewal Encoded ASN.1</a> topic.
 
 ``` syntax
 0a0d: 30 81 c4          ; SEQUENCE (c4 Bytes)
@@ -94,7 +94,7 @@ As discussed in [Subject Names](subject-names.md), every RDN in a distinguished 
       |  |           ; "Users"
 ```
 
-The DER transfer syntax of an ASN.1 object always contains a type, length, and value triplet, and each field in the triplet contains one or more bytes. When encoded, CN=Users consists of an OID and a string value. The dotted decimal notation of the CN OID is 2.5.4.3 and the string value is "Users". The string value is represented as a **PRINTABLE\_STRING** data type. The numeric type value associated with **OBJECT\_ID** is always 0x06, and the numeric type associated with **PRINTABLE\_STRING** is always 0x13. The length of the common name "Users" is 0x05 bytes. The length of the OID is 0x03 bytes, and it's value is 0x55 0x04 0x03.
+The DER transfer syntax of an ASN.1 object always contains a type, length, and value triplet, and each field in the triplet contains one or more bytes. When encoded, CN=Users consists of an OID and a string value. The dotted decimal notation of the CN OID is 2.5.4.3 and the string value is "Users". The string value is represented as a **PRINTABLE_STRING** data type. The numeric type value associated with **OBJECT_ID** is always 0x06, and the numeric type associated with **PRINTABLE_STRING** is always 0x13. The length of the common name "Users" is 0x05 bytes. The length of the OID is 0x03 bytes, and it's value is 0x55 0x04 0x03.
 
 > [!Note]  
 > To translate the first two digits of the OID 2.5.4.3 into the hexadecimal value 0x55, multiply the first digit of the OID by 40 (2 x 40) and add the second digit (5) before converting to hexadecimal.

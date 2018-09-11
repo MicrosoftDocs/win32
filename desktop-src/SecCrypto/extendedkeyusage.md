@@ -1,6 +1,6 @@
 ---
 Description: Provides read-only access to the extended key usage (EKU) properties of a certificate.
-ms.assetid: e974e9e2-1011-48b7-9ebc-e754e4990286
+ms.assetid: '636d7f65-d286-4800-a576-a23e6e9811b2'
 title: ExtendedKeyUsage object
 ms.technology: desktop
 ms.prod: windows

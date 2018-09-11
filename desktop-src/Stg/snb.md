@@ -1,7 +1,7 @@
 ---
 title: SNB
 description: A string name block (SNB) is a pointer to an array of pointers to strings, that ends in a NULL pointer.
-ms.assetid: 09a50518-2889-49ca-9d81-3035777ac2ac
+ms.assetid: '8428a820-3d8a-41e0-9955-d355440e2ebc'
 keywords:
 - SNB
 ms.technology: desktop

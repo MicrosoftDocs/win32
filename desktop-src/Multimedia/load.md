@@ -1,7 +1,7 @@
 ---
 title: load command
 description: The load command loads a file in a device-specific format. Digital-video and video-overlay devices recognize this command.
-ms.assetid: f3642d91-cea8-499d-8d2e-bf01a59a7d72
+ms.assetid: 'ae7bfe92-7957-4756-a408-e3ab60dd9aa4'
 keywords:
 - load command Windows Multimedia
 topic_type:

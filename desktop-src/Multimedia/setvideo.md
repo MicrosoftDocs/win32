@@ -1,7 +1,7 @@
 ---
 title: setvideo command
 description: The setvideo command sets values associated with video playback and capture. Digital-video and VCR devices recognize this command.
-ms.assetid: b84956d8-01a0-49f6-a96c-2693a25e6f2a
+ms.assetid: 'a6851b9b-e09a-4251-bd1c-19b1e4b6f871'
 keywords:
 - setvideo command Windows Multimedia
 topic_type:

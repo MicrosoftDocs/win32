@@ -1,7 +1,7 @@
 ---
 title: Remote Access Service Administration
 description: Remote Access Service Administration
-ms.assetid: 95c6dceb-e3a9-421e-b43f-88b18b9e64ff
+ms.assetid: '6ef82175-0d26-47c2-8669-ce19b2fa6684'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

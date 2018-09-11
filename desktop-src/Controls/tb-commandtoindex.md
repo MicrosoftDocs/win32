@@ -1,7 +1,7 @@
 ---
 title: TB_COMMANDTOINDEX message
 description: Retrieves the zero-based index for the button associated with the specified command identifier.
-ms.assetid: 079d318e-56b2-4890-ac4a-c1798fc2f62a
+ms.assetid: 'vs|controls|~\controls\toolbar\messages\tb_commandtoindex.htm'
 keywords:
 - TB_COMMANDTOINDEX message Windows Controls
 topic_type:

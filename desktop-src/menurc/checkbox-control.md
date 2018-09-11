@@ -1,7 +1,7 @@
 ---
 title: CHECKBOX control
 description: Defines a check box control.
-ms.assetid: 086f5dd3-267f-4ec6-be37-4e9402f7aede
+ms.assetid: '24ee25e5-9de2-4843-a55e-96b897f6ae8e'
 keywords:
 - CHECKBOX control Menus and Other Resources
 topic_type:

@@ -1,7 +1,7 @@
 ---
 title: TaskService.ConnectedDomain property
 description: For scripting, gets the name of the domain to which the TargetServer computer is connected.
-ms.assetid: 13a67d82-f239-450c-9490-02f07e672a64
+ms.assetid: 'c0acb326-9a93-4248-8952-acb570ef70a6'
 keywords:
 - ConnectedDomain property Task Scheduler
 - ConnectedDomain property Task Scheduler , TaskService object

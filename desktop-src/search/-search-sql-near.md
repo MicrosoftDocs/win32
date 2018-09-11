@@ -87,7 +87,7 @@ The following table describes content search term types that can be used with a 
 </tr>
 <tr class="odd">
 <td>Wildcard</td>
-<td>Words or phrases with the asterisk (*) added to the end. For more information, see [Using Wildcards in the CONTAINS Predicate](-search-sql-wildcards.md).</td>
+<td>Words or phrases with the asterisk (*) added to the end. For more information, see <a href="-search-sql-wildcards">Using Wildcards in the CONTAINS Predicate</a>.</td>
 <td><div class="code">
 <span data-codelanguage=""></span>
 <table>
@@ -105,10 +105,6 @@ The following table describes content search term types that can be used with a 
 </tr>
 </tbody>
 </table>
-
-
-
- 
 
 > [!Note]  
 > If the match words specified with the NEAR term are both found in the column being searched, but are farther apart than 50 words, the result is still returned, but has a [rank](-search-sql-understandingrelevancevalues.md) of 0.

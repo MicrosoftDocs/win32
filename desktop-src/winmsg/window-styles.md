@@ -1,6 +1,6 @@
 ---
 Description: The following are the window styles. After the window has been created, these styles cannot be modified, except as noted.
-ms.assetid: 5830B16E-CD52-4a1a-A1BD-3AFE66BA5FDD
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstyles.htm'
 title: Window Styles
 ms.technology: desktop
 ms.prod: windows

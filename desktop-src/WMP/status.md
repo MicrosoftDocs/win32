@@ -1,7 +1,7 @@
 ---
 title: Status
 description: Status
-ms.assetid: 7a1ca071-0a61-4ef5-b8c1-18336cf5b1b0
+ms.assetid: 'b8d6d026-819c-4889-a894-c82fe81ec922'
 keywords:
 - Windows Media Player Mobile skins,status display
 - skins,status display

@@ -1,7 +1,7 @@
 ---
 title: Interface
 description: An optional entry that specifies all interface IDs (IIDs) supported by the associated class.
-ms.assetid: b62a780f-8ff9-4942-839c-9b38cd2a920b
+ms.assetid: '212a6500-14ce-4a9b-9e6a-38d83a5630c8'
 keywords:
 - Interface registry key COM
 ms.technology: desktop

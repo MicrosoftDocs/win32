@@ -1,7 +1,7 @@
 ---
 title: TaskService object
 description: For scripting, provides access to the Task Scheduler service for managing registered tasks.
-ms.assetid: 2459aaae-4c3a-458a-ad2c-bfff3a0322d3
+ms.assetid: '6ddd43dc-d027-4792-a53b-07fe4d4a3576'
 keywords:
 - TaskService object Task Scheduler
 - TaskService object Task Scheduler , described

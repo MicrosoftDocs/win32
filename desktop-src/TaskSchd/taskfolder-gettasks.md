@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.GetTasks property
 description: For scripting, gets all the tasks in the folder.
-ms.assetid: 2dcef962-d4b0-4fc9-845a-e33f020dba41
+ms.assetid: '61212a65-9c1c-4769-90e9-7ea3b542e352'
 keywords:
 - GetTasks property Task Scheduler
 - GetTasks property Task Scheduler , TaskFolder object

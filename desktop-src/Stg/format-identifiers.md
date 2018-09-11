@@ -1,7 +1,7 @@
 ---
 title: Format Identifiers
 description: Property set values are stored in a section tagged with a unique FMTID.
-ms.assetid: 506c9567-62f2-40aa-a8e7-1530e8aed846
+ms.assetid: '3ffb6c5e-72ce-4769-847a-72db6f145d61'
 keywords:
 - Format Identifiers
 ms.technology: desktop

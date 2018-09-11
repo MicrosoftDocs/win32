@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.CreateFolder method
 description: For scripting, creates a folder for related tasks.
-ms.assetid: da0f2420-b1a0-4359-aa05-ddf1f2a35118
+ms.assetid: '4fdc96bc-8c85-4b36-b3ea-bad7a46c3d35'
 keywords:
 - CreateFolder method Task Scheduler
 - CreateFolder method Task Scheduler , TaskFolder object

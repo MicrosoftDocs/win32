@@ -1,6 +1,6 @@
 ---
 Description: Represents a single digital certificate.
-ms.assetid: 74154b3b-75fc-412f-835c-1a6f54e688c6
+ms.assetid: 'da95312b-cc9f-44f0-9517-0b28c5fcfb61'
 title: Certificate object
 ms.technology: desktop
 ms.prod: windows

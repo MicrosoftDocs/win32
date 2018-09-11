@@ -1,7 +1,7 @@
 ---
 title: TaskService.Connect method
 description: For scripting, connects to a remote machine and associates all subsequent calls on this interface with a remote session.
-ms.assetid: ba810bac-e587-4eb8-871c-449b4174ab46
+ms.assetid: '206087df-307c-4ba9-9e83-915f5287f281'
 keywords:
 - Connect method Task Scheduler
 - Connect method Task Scheduler , TaskService object

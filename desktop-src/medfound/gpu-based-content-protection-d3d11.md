@@ -116,12 +116,12 @@ Before attempting to apply encryption, get the content protection capabilities o
 
 1.  Get a pointer to the ID3D11Device interface.
 2.  Call [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) for the [**ID3D11VideoDevice**](/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice) interface.
-3.  Call [**ID3D11VideoDevice::GetContentProtectionCaps**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getcontentprotectioncaps). This method fills in a [**D3D11\_VIDEO\_CONTENT\_PROTECTION\_CAPS**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_content_protection_caps) structure with the driver’s content protection capabilities.
+3.  Call [**ID3D11VideoDevice::GetContentProtectionCaps**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getcontentprotectioncaps). This method fills in a [**D3D11_VIDEO_CONTENT_PROTECTION_CAPS**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_content_protection_caps) structure with the driver’s content protection capabilities.
 
 In particular, look for the following capabilities:
 
--   If the **Caps** member contains the **D3D11\_CONTENT\_PROTECTION\_CAPS\_SOFTWARE** or **D3D11\_CONTENT\_PROTECTION\_CAPS\_HARDWARE** flag, the driver can perform encryption.
--   If the **Caps** member contains the **D3D11\_CONTENT\_PROTECTION\_CAPS\_CONTENT\_KEY** flag, the driver uses a separate content key for decryption.
+-   If the **Caps** member contains the **D3D11_CONTENT_PROTECTION_CAPS_SOFTWARE** or **D3D11_CONTENT_PROTECTION_CAPS_HARDWARE** flag, the driver can perform encryption.
+-   If the **Caps** member contains the **D3D11_CONTENT_PROTECTION_CAPS_CONTENT_KEY** flag, the driver uses a separate content key for decryption.
 -   Call [**ID3D11VideoDevice::CheckCryptoKeyExchange**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-checkcryptokeyexchange) to determine which types of key exchanges the driver supports for generating the session key.
 
 Additional capabilities are indicated in the **Caps** member.
@@ -131,8 +131,8 @@ Additional capabilities are indicated in the **Caps** member.
 The next step is to configure the authenticated channel.
 
 1.  Call [**ID3D11VideoDevice::CreateAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createauthenticatedchannel) to create the authenticated channel. For the *ChannelType* parameter, specify a channel type that matches the capabilities of the driver.
-    -   The **D3D11\_AUTHENTICATED\_CHANNEL\_DRIVER\_SOFTWARE** channel type corresponds to **D3D11\_CONTENT\_PROTECTION\_CAPS\_SOFTWARE**.
-    -   The **D3D11\_AUTHENTICATED\_CHANNEL\_DRIVER\_HARDWARE** channel type corresponds to **D3D11\_CONTENT\_PROTECTION\_CAPS\_HARDWARE**.
+    -   The **D3D11_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE** channel type corresponds to **D3D11_CONTENT_PROTECTION_CAPS_SOFTWARE**.
+    -   The **D3D11_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE** channel type corresponds to **D3D11_CONTENT_PROTECTION_CAPS_HARDWARE**.
 
     The **CreateAuthenticatedChannel** method returns a pointer to the [**ID3D11AuthenticatedChannel**](/windows/desktop/api/d3d11/nn-d3d11-id3d11authenticatedchannel) interface.
 2.  Call [**ID3D11AuthenticatedChannel::GetCertificateSize**](/windows/desktop/api/d3d11/nf-d3d11-id3d11authenticatedchannel-getcertificatesize) to get the size of the driver's X.509 certificate. Allocate a buffer of the required size.
@@ -142,9 +142,9 @@ The next step is to configure the authenticated channel.
 6.  Generate a random RSA session key. This session key is used to sign data that is sent to the authenticated channel. Encrypt the session key using the driver's public key.
 7.  Call [**ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-negotiateauthenticatedchannelkeyexchange) to send the encrypted session key to the driver.
 8.  Initialize the secure channel as follows:
-    1.  Fill in a [**D3D11\_AUTHENTICATED\_CONFIGURE\_INITIALIZE\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) structure as described in the documentation.
-    2.  Send the [**D3D11\_AUTHENTICATED\_CONFIGURE\_INITIALIZE\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) command by calling [**ID3D11VideoContext::ConfigureAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel) as described in the section [Sending Authenticated Channel Commands](#sending-authenticated-channel-commands). This command contains the starting sequence numbers for the commands and queries that are sent to the authenticated channel.
-9.  Verify the channel type by sending a [**D3D11\_AUTHENTICATED\_QUERY\_CHANNEL\_TYPE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_channel_type_output) query to the authenticated channel, as described in the section [Sending Authenticated Channel Queries](#sending-authenticated-channel-queries). Check that the channel type matches what you specified in the [**CreateAuthenticatedChannel**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createauthenticatedchannel) method.
+    1.  Fill in a [**D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) structure as described in the documentation.
+    2.  Send the [**D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) command by calling [**ID3D11VideoContext::ConfigureAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel) as described in the section [Sending Authenticated Channel Commands](#sending-authenticated-channel-commands). This command contains the starting sequence numbers for the commands and queries that are sent to the authenticated channel.
+9.  Verify the channel type by sending a [**D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_channel_type_output) query to the authenticated channel, as described in the section [Sending Authenticated Channel Queries](#sending-authenticated-channel-queries). Check that the channel type matches what you specified in the [**CreateAuthenticatedChannel**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createauthenticatedchannel) method.
 
 ### 3. Configure the Cryptographic Session
 
@@ -157,24 +157,24 @@ Next, configure the cryptographic session and establish the session key.
 5.  Get the public key from the certificate.
 6.  Generate a random RSA session key. This is a separate session key from the authenticated channel session key. Encrypt the session key using the driver's public key.
 7.  Call [**ID3D11VideoContext::NegotiateCryptoSessionKeyExchange**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-negotiatecryptosessionkeyexchange) to send the encrypted session key to the driver.
-8.  If the content protection capabilities include **3D11\_CONTENT\_PROTECTION\_CAPS\_CONTENT\_KEY**, create a random RSA content key. This will be used later in the decoding process.
+8.  If the content protection capabilities include **3D11_CONTENT_PROTECTION_CAPS_CONTENT_KEY**, create a random RSA content key. This will be used later in the decoding process.
 
 ### 4. Associate the decoder with the Cryptographic Session
 
 Next, associate the decoder device with the Direct3D11 device and the cryptographic session, as follows:
 
-1.  Get a handle to the Direct3D11 device, by sending a [**D3D11\_AUTHENTICATED\_QUERY\_DEVICE\_HANDLE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_device_handle_output) query to the authenticated channel.
-2.  Fill in a [**D3D11\_AUTHENTICATED\_CONFIGURE\_CRYPTO\_SESSION\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_crypto_session_input) structure with the following information:
+1.  Get a handle to the Direct3D11 device, by sending a [**D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_device_handle_output) query to the authenticated channel.
+2.  Fill in a [**D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_crypto_session_input) structure with the following information:
     -   Set the **DecodeHandle** member to the handle returned from [**ID3D11VideoDecoder::GetDriverHandle**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videodecoder-getdriverhandle).
     -   Set the **CryptoSessionHandle** member to the handle returned from [**ID3D11CryptoSession::GetCryptoSessionHandle**](/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcryptosessionhandle).
     -   Set the **DeviceHandle** member to the Direct3D11 device handle.
-3.  Call [**ID3D11VideoContext::ConfigureAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel) to send a [**D3D11\_AUTHENTICATED\_CONFIGURE\_CRYPTO\_SESSION**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_crypto_session_input) command to the authenticated channel.
+3.  Call [**ID3D11VideoContext::ConfigureAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel) to send a [**D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_crypto_session_input) command to the authenticated channel.
 
 The following diagram illustrates the exchange of handles:
 
 ![a diagram that shows how the dxva decoder is associated with the cryptographic session.](images/d3d9video03.png)
 
-The software decoder can now use the cryptographic session key to encrypt the compressed video buffers. Each compressed buffer will have its own initialization vector (IV) specified in the **pIV** member of the [**D3D11\_VIDEO\_DECODER\_BUFFER\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_buffer_desc) structure.
+The software decoder can now use the cryptographic session key to encrypt the compressed video buffers. Each compressed buffer will have its own initialization vector (IV) specified in the **pIV** member of the [**D3D11_VIDEO_DECODER_BUFFER_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_buffer_desc) structure.
 
 ## Sending Authenticated Channel Commands
 
@@ -182,7 +182,7 @@ A set of commands are defined for configuring the authenticated channel and sett
 
 To send a command to the authenticated channel, perform the following steps.
 
-1.  Fill in the input data structure. This data structure is always a [**D3D11\_AUTHENTICATED\_CONFIGURE\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input) structure followed by additional fields. Fill in the **D3D11\_AUTHENTICATED\_CONFIGURE\_INPUT** structure as shown in the following table.
+1.  Fill in the input data structure. This data structure is always a [**D3D11_AUTHENTICATED_CONFIGURE_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input) structure followed by additional fields. Fill in the **D3D11_AUTHENTICATED_CONFIGURE_INPUT** structure as shown in the following table.
 
     <table>
     <colgroup>
@@ -202,7 +202,7 @@ To send a command to the authenticated channel, perform the following steps.
     </tr>
     <tr class="even">
     <td><strong>ConfigureType</strong></td>
-    <td>GUID that identifies the command. For a list of commands, see [Content Protection Commands](content-protection-commands.md).</td>
+    <td>GUID that identifies the command. For a list of commands, see <a href="content-protection-commands">Content Protection Commands</a>.</td>
     </tr>
     <tr class="odd">
     <td><strong>hChannel</strong></td>
@@ -226,7 +226,7 @@ To send a command to the authenticated channel, perform the following steps.
 
 2.  Calculate the OMAC tag for the block of data that appears after the **omac** member of the input structure. Then copy this tag value into the **omac** member.
 3.  Call [**ID3D11VideoContext::ConfigureAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel).
-4.  The driver places the output from the command in the [**D3D11\_AUTHENTICATED\_CONFIGURE\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_output) structure.
+4.  The driver places the output from the command in the [**D3D11_AUTHENTICATED_CONFIGURE_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_output) structure.
 5.  Calculate the OMAC tag for the block of data that appears after the **omac** member of the output structure. Compare this with the value of the **omac** member. Fail if they do not match.
 6.  Compare the values of the **ConfigureType**, **hChannel**, and **SequenceNumber** members in the output structure against your values for those members. Fail if they do not match.
 7.  Increment the sequence number for the next command.
@@ -237,7 +237,7 @@ A set of queries are defined for retrieving information about the authenticated 
 
 To send a command to the authenticated channel, perform the following steps.
 
-1.  Fill in the input data structure. This data structure is always a [**D3D11\_AUTHENTICATED\_QUERY\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_input) structure, possibly followed by additional fields. Fill in the **D3D11\_AUTHENTICATED\_QUERY\_INPUT** structure as shown in the following table.
+1.  Fill in the input data structure. This data structure is always a [**D3D11_AUTHENTICATED_QUERY_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_input) structure, possibly followed by additional fields. Fill in the **D3D11_AUTHENTICATED_QUERY_INPUT** structure as shown in the following table.
 
     <table>
     <colgroup>
@@ -253,7 +253,7 @@ To send a command to the authenticated channel, perform the following steps.
     <tbody>
     <tr class="odd">
     <td><strong>QueryType</strong></td>
-    <td>GUID that identifies the query. For a list of queries, see [Content Protection Queries](content-protection-queries.md).</td>
+    <td>GUID that identifies the query. For a list of queries, see <a href="content-protection-queries">Content Protection Queries</a>.</td>
     </tr>
     <tr class="even">
     <td><strong>hChannel</strong></td>
@@ -276,7 +276,7 @@ To send a command to the authenticated channel, perform the following steps.
      
 
 2.  Call [**ID3D11VideoContext::QueryAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-queryauthenticatedchannel).
-3.  The driver places the output from the query in a [**D3D11\_AUTHENTICATED\_QUERY\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output) structure. This structure is followed by additional fields, depending on the query type.
+3.  The driver places the output from the query in a [**D3D11_AUTHENTICATED_QUERY_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output) structure. This structure is followed by additional fields, depending on the query type.
 4.  Calculate the OMAC tag for the block of data that appears after the **omac** member of the output structure. Compare this with the value of the **omac** member. Fail if they do not match.
 5.  Compare the values of the **ConfigureType**, **hChannel**, and **SequenceNumber** members in the output structure against your values for those members. Fail if they do not match.
 6.  Increment the sequence number for the next query.

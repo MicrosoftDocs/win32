@@ -1,6 +1,6 @@
 ---
 Description: ReceiveConnection
-ms.assetid: f17e7d93-ac45-4b8a-98c6-0c76ec7117c9
+ms.assetid: '90a6a09a-95e1-4adf-8e0b-269f971aaa67'
 title: ReceiveConnection
 ms.technology: desktop
 ms.prod: windows

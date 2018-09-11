@@ -1,7 +1,7 @@
 ---
 title: ConnectionStatus enumeration
 description: Represents the state of the device in the network as last seen.
-ms.assetid: 0E4CED0A-CD56-4C59-9F94-868081EF8297
+ms.assetid: 'e1893a59-ce7d-4e9c-a013-02ac916d4ee8'
 keywords:
 - ConnectionStatus enumeration Media Streaming API
 topic_type:

@@ -1,7 +1,7 @@
 ---
 title: Registry Settings
 description: Registry Settings
-ms.assetid: ded2b492-7755-4ba5-87cf-720a79ec79de
+ms.assetid: 'aeb1f731-9d1f-4962-9101-fadf2dd23b4b'
 keywords:
 - Windows Media Player,registry
 - registry,settings for Windows Media Player

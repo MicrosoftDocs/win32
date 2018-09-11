@@ -1,7 +1,7 @@
 ---
 title: RADIOBUTTON control
 description: Defines a radio-button control.
-ms.assetid: af843084-5213-4934-b291-0787b88ef62d
+ms.assetid: 'c427080f-0408-42b4-8888-7333f3eb985d'
 keywords:
 - RADIOBUTTON control Menus and Other Resources
 topic_type:

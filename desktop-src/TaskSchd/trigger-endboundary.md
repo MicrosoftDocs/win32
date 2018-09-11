@@ -1,7 +1,7 @@
 ---
 title: Trigger.EndBoundary property
 description: For scripting, gets or sets the date and time when the trigger is deactivated. The trigger cannot start the task after it is deactivated.
-ms.assetid: 985316de-eaba-478f-a53f-1bea2a0cc9c6
+ms.assetid: 'f34e6ba8-f6ef-43a0-8e3a-76c6a5f1ac04'
 keywords:
 - EndBoundary property Task Scheduler
 - EndBoundary property Task Scheduler , Trigger object

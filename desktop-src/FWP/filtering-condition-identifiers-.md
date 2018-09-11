@@ -486,7 +486,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_TUNNEL_TYPE"></span><span id="fwpm_condition_tunnel_type"></span><dl> <dt><strong>FWPM_CONDITION_TUNNEL_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The encapsulation method used by a tunnel if the Type member is IF_TYPE_TUNNEL. The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see [http://www.iana.org/assignments/ianaiftype-mib](http://go.microsoft.com/fwlink/p/?linkid=84022). <br/> <strong>Possible values:</strong> The TUNNEL_TYPE enumeration type values listed in the Ifdef.h header file.<br/> <strong>Data type:</strong> FWP_UINT32 <br/></td>
+<td style="text-align: left;">The encapsulation method used by a tunnel if the Type member is IF_TYPE_TUNNEL. The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. <br/> <strong>Possible values:</strong> The TUNNEL_TYPE enumeration type values listed in the Ifdef.h header file.<br/> <strong>Data type:</strong> FWP_UINT32 <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_FORWARD_INTERFACE"></span><span id="fwpm_condition_ip_forward_interface"></span><dl> <dt><strong>FWPM_CONDITION_IP_FORWARD_INTERFACE</strong></dt> </dl></td>
@@ -855,14 +855,3 @@ When IP addresses are stored in FWP\_UINT32 format or when an IP port is stored 
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
-
-
-
- 
-
- 
-
-
-
-
-

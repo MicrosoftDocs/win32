@@ -1,7 +1,7 @@
 ---
 title: Features
 description: Features
-ms.assetid: 6e180f27-69ef-4fe0-b06c-b2ead7be8a05
+ms.assetid: '19ecaa51-9c68-4d28-9f83-b31c692d22a7'
 keywords:
 - Windows Media Format SDK,features
 - Windows Media Format SDK,key features

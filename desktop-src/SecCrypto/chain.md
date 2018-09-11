@@ -1,6 +1,6 @@
 ---
 Description: Represents a certificate trust chain.
-ms.assetid: fea72a3e-5a22-47c7-8f6e-0d76fc3339f8
+ms.assetid: '45ed686f-4a7f-4df9-8366-98b825c3c657'
 title: Chain object
 ms.technology: desktop
 ms.prod: windows

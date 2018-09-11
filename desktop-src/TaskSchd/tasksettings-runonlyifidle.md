@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.RunOnlyIfIdle property
 description: For scripting, gets or sets a Boolean value that indicates that the Task Scheduler will run the task only if the computer is in an idle condition.
-ms.assetid: 2ea0b2bd-793b-427f-9177-c8d124e5ae25
+ms.assetid: 'fca1d98e-0544-4301-a709-1e0dae762e07'
 keywords:
 - RunOnlyIfIdle property Task Scheduler
 - RunOnlyIfIdle property Task Scheduler , TaskSettings object

@@ -1,6 +1,6 @@
 ---
 Description: Properties are global variables that Windows Installer uses during an installation.
-ms.assetid: b7b715e7-e92c-4b84-b60d-a0ff8412749b
+ms.assetid: '471526ab-dd98-4a58-bb3f-38990db5dc09'
 title: Properties
 ms.technology: desktop
 ms.prod: windows

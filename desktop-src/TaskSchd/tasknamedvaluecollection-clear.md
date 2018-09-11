@@ -1,7 +1,7 @@
 ---
 title: TaskNamedValueCollection.Clear method
 description: For scripting, clears the entire collection of name-value pairs.
-ms.assetid: ac6ac365-5315-49d4-b67a-9c840a2caf51
+ms.assetid: '42de67f5-435a-4413-a03c-2c6405f53fa4'
 keywords:
 - Clear method Task Scheduler
 - Clear method Task Scheduler , TaskNamedValueCollection object

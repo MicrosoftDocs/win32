@@ -1,7 +1,7 @@
 ---
 title: WeeklyTrigger.WeeksInterval property
 description: For scripting, gets or sets the interval between the weeks in the schedule.
-ms.assetid: 11f2c708-a95b-4b9c-a3a6-9b37b01d2d0b
+ms.assetid: '7992dee2-1725-4325-9fe9-eaff84fa5adc'
 keywords:
 - WeeksInterval property Task Scheduler
 - WeeksInterval property Task Scheduler , WeeklyTrigger object

@@ -1,6 +1,6 @@
 ---
 Description: Applications use coordinate spaces and transformations to scale, rotate, translate, shear, and reflect graphics output.
-ms.assetid: 29a9f133-6c21-40dc-84b5-095dd5d4526b
+ms.assetid: 'cfb02788-9b73-4451-9e68-2ad310e0e527'
 title: Coordinate Spaces and Transformations
 ms.technology: desktop
 ms.prod: windows

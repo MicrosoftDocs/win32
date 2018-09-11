@@ -1,7 +1,7 @@
 ---
 title: Protected Files
 description: Protected Files
-ms.assetid: 5237e797-72ec-402e-81ec-ab379747e464
+ms.assetid: '29f70339-8350-43ed-be65-3c8f42d94e50'
 keywords:
 - Windows Media Format SDK,digital rights management (DRM)
 - Windows Media Format SDK,DRM licenses

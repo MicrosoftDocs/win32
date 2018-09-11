@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo object
 description: Scripting object that provides the administrative information that can be used to describe the task.
-ms.assetid: e04f0c47-ab89-49e4-aac6-028d2555ecf1
+ms.assetid: '3d5a5545-5adc-4361-9ce8-fffd35ff6df7'
 keywords:
 - registration information Task Scheduler , object
 - RegistrationInfo object Task Scheduler

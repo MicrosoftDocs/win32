@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo.Author property
 description: For scripting, gets or sets the author of the task.
-ms.assetid: 7a71924b-47d6-4aea-b384-09874f85976b
+ms.assetid: 'ba355a3b-cda3-4d4f-8504-f77f3d9eb21a'
 keywords:
 - Author property Task Scheduler
 - Author property Task Scheduler , RegistrationInfo object

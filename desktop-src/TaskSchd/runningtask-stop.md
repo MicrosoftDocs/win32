@@ -1,7 +1,7 @@
 ---
 title: RunningTask.Stop method
 description: For scripting, stops this instance of the task.
-ms.assetid: 2fdf325f-5652-42b0-99e3-3950dba1ef11
+ms.assetid: '2692f72c-efdc-4496-b19e-717d211a2b93'
 keywords:
 - Stop method Task Scheduler
 - Stop method Task Scheduler , RunningTask object

@@ -1,6 +1,6 @@
 ---
 Description: The system uses the configuration information to determine how to start the service.
-ms.assetid: 79aa4ad5-87ee-4f5d-9c8e-4e788f4c7182
+ms.assetid: 'fc8c631e-076c-4745-8db0-90f46a202e6a'
 title: Service Configuration
 ms.technology: desktop
 ms.prod: windows

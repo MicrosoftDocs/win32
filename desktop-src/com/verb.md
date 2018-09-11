@@ -1,7 +1,7 @@
 ---
 title: Verb
 description: Specifies the verbs to be registered for an application.
-ms.assetid: fc9b3474-6f56-4274-af7d-72e0920c0457
+ms.assetid: 'bfcad36d-a52a-4117-bf0b-6135b197a7ee'
 keywords:
 - Verb registry key COM
 ms.technology: desktop

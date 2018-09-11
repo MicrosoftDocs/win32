@@ -1,7 +1,7 @@
 ---
 title: LB_GETANCHORINDEX message
 description: Gets the index of the anchor item \ 8212;that is, the item from which a multiple selection starts. A multiple selection spans all items from the anchor item to the caret item.
-ms.assetid: 2518d4ef-6cf1-4a49-aaef-85249b0aad7b
+ms.assetid: 'vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_getanchorindex.htm'
 keywords:
 - LB_GETANCHORINDEX message Windows Controls
 topic_type:

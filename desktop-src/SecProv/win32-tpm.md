@@ -1,6 +1,6 @@
 ---
 Description: Represents the Trusted Platform Module (TPM), a hardware security chip that provides a root of trust for a computer system.
-ms.assetid: 4e44ef21-346c-4d9f-b40d-cb70118398d1
+ms.assetid: 'da4ba366-49af-420e-a2ad-80bba34b3b00'
 title: Win32_Tpm class
 ms.technology: desktop
 ms.prod: windows

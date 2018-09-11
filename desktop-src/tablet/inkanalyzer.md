@@ -1,6 +1,6 @@
 ---
 Description: Implements the IInkAnalyzer interface.
-ms.assetid: 3a19db78-df14-43c2-9e3e-8cf674aa7b9c
+ms.assetid: 'f17de375-a0fe-4024-bf2a-60f8de8b0345'
 title: InkAnalyzer class
 ms.technology: desktop
 ms.prod: windows

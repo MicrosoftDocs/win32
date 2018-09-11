@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.SetSecurityDescriptor method
 description: For scripting, sets the security descriptor that is used as credentials for the registered task.
-ms.assetid: 9c8ebfdb-3c23-4fec-9023-7a944d99a409
+ms.assetid: '2dc10df0-5827-4199-940e-865a03a694f5'
 keywords:
 - SetSecurityDescriptor method Task Scheduler
 - SetSecurityDescriptor method Task Scheduler , RegisteredTask object

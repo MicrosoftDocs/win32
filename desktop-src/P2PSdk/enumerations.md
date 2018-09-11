@@ -1,6 +1,6 @@
 ---
 Description: By using Enumerations, you can obtain a list of all the specific peer entities that match your criteria.
-ms.assetid: f72e372a-0d23-47f4-8518-1296ec81ce55
+ms.assetid: '81391e4f-aea1-4f5e-a32b-436a3856993b'
 title: Enumerations
 ms.technology: desktop
 ms.prod: windows

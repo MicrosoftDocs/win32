@@ -62,7 +62,7 @@ BITS version 5.0 is also included in Windows 10, where the version of %windir%\S
 <li>Peer caching now uses Windows BranchCache. This new peer caching model replaces the model used for BITS version 3.0. For more information, see <a href="peer-caching">Peer Caching</a>.</li>
 <li>Added a more flexible resource access model that allows applications to associate a pair of security tokens to a BITS transfer job. For more information, see <a href="helper-tokens-for-bits-transfer-jobs">Helper tokens for BITS transfer jobs</a>.</li>
 <li>Added the <a href="bits-compact-server">BITS Compact Server</a>, which is a stand-alone HTTP/HTTPS file server that provides the ability to transfer a limited number of large files asynchronously between computers.</li>
-<li>Added more granular bandwidth throttling. For more information, see [Group Policies](group-policies.md).</li>
+<li>Added more granular bandwidth throttling. For more information, see <a href="group-policies">Group Policies</a>.</li>
 </ul>
 BITS version 4.0 is included in the Windows Server 2008 R2 and Windows 7 operating systems.<br/> You can also download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see <a href="http://go.microsoft.com/fwlink/p/?linkid=151321">KB968929</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;7.5.xxxx.xxxx&quot;.<br/></td>
 </tr>

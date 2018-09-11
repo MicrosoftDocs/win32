@@ -1,7 +1,7 @@
 ---
 title: MediaRenderer.IsAudioSupported property
 description: Gets a value that indicates whether the DMR is capable of playing audio content.
-ms.assetid: D5F0C4ED-5778-4388-A7BD-E3923145D663
+ms.assetid: 'a1965cba-3e7c-4a81-ab1d-6d3af7826115'
 keywords:
 - IsAudioSupported property Media Streaming API
 - IsAudioSupported property Media Streaming API , MediaRenderer interface

@@ -1,6 +1,6 @@
 ---
 Description: The setup functions include file queue functionality.
-ms.assetid: 9ad42c37-1d6b-4f1b-8173-629e2d3678f2
+ms.assetid: '628850ab-eb66-4b60-9298-1a44a7f6a390'
 title: File Queues
 ms.technology: desktop
 ms.prod: windows

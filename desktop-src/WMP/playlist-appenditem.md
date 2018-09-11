@@ -1,7 +1,7 @@
 ---
 title: Playlist.appendItem method
 description: The appendItem method adds a media item to the end of the playlist.
-ms.assetid: e6db41d8-a4d5-4cab-9612-0562f3e92c25
+ms.assetid: 'cc956491-7936-49e7-90ca-1f71e03448cd'
 keywords:
 - appendItem method Windows Media Player
 - appendItem method Windows Media Player , Playlist class

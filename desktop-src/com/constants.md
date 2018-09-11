@@ -1,6 +1,6 @@
 ---
 title: Constants
-ms.assetid: 06c409e4-3772-45cf-8c31-c64f99aca244
+ms.assetid: 'ec12a8ae-bdd6-473c-b72b-2ba5fe5fc9c0'
 description: 
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: Network.setProxyExceptionList method
 description: The setProxyExceptionList method specifies the proxy exception list.
-ms.assetid: af9202aa-fa4e-4726-908f-3fc5370e06df
+ms.assetid: 'c9eeb058-5ffb-4405-9bf2-776f120e2db4'
 keywords:
 - setProxyExceptionList method Windows Media Player
 - setProxyExceptionList method Windows Media Player , Network class

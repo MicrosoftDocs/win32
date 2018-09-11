@@ -1,7 +1,7 @@
 ---
 title: TaskService.GetRunningTasks method
 description: For scripting, gets a collection of running tasks.
-ms.assetid: 6248cf51-acd8-4317-9837-99dcf918e816
+ms.assetid: 'bae3c035-a6b2-4ca5-970b-d4bc808068ad'
 keywords:
 - GetRunningTasks method Task Scheduler
 - GetRunningTasks method Task Scheduler , TaskService object

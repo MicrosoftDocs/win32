@@ -1,6 +1,6 @@
 ---
 Description: Windows Sockets (Winsock) Service Provider Interface (SPI).
-ms.assetid: e3d21dd8-2b58-4108-857d-a075b8be68b0
+ms.assetid: '59ac7ce6-10e7-40ac-bdce-dc01251b0bc5'
 title: Winsock SPI
 ms.technology: desktop
 ms.prod: windows

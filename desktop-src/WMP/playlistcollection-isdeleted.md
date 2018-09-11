@@ -1,7 +1,7 @@
 ---
 title: PlaylistCollection.isDeleted method
 description: The isDeleted method retrieves a value indicating whether the specified playlist is in the deleted items folder.
-ms.assetid: ac3e3401-ac7e-44d2-9680-5abe69678fc7
+ms.assetid: '5023927a-5d1a-4b61-8122-476947d537c4'
 keywords:
 - isDeleted method Windows Media Player
 - isDeleted method Windows Media Player , PlaylistCollection class

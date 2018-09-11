@@ -1,7 +1,7 @@
 ---
 title: Ranges
 description: Ranges
-ms.assetid: 68e17539-3b00-4e51-964d-0516b448f6c8
+ms.assetid: '7488e29e-3409-4db3-98b4-f3438ad7c94e'
 keywords:
 - Text Services Framework (TSF),ranges
 - TSF (Text Services Framework),ranges

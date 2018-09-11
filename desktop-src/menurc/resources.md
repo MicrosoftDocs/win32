@@ -1,7 +1,7 @@
 ---
 title: Menus and Other Resources
 description: The resources section describes window resources such as icons, cursor, and dialog boxes.
-ms.assetid: 15b1086e-e3a2-460a-828b-17db5105309f
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources.htm'
 keywords:
 - resources,about
 ms.technology: desktop

@@ -1,6 +1,6 @@
 ---
 Description: The SceSvcAttachmentConfig function is called by the Security Configuration Engine when the system is configured.
-ms.assetid: c0c1c1e4-de5b-405d-abe8-33a985ce98e5
+ms.assetid: 'ad20649a-2391-421b-a08c-a4ea6a882abc'
 title: SceSvcAttachmentConfig callback function
 ms.technology: desktop
 ms.prod: windows

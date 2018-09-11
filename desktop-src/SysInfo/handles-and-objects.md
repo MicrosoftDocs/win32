@@ -1,6 +1,6 @@
 ---
 Description: An object is a data structure that represents a system resource, such as a file, thread, or graphic image.
-ms.assetid: 122acb9e-2a1b-480b-9207-5cc6bbe6b6d4
+ms.assetid: '26aaad09-c1e1-46e8-9cd3-7d795a10d900'
 title: Handles and Objects
 ms.technology: desktop
 ms.prod: windows

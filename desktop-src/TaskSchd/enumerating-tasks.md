@@ -1,7 +1,7 @@
 ---
 title: Enumerating Tasks
 description: Task Scheduler 1.0 provides an enumeration object for enumerating the tasks in the Scheduled Tasks folder.
-ms.assetid: 3a6a2262-cc5e-469e-b9f0-981879beb4ef
+ms.assetid: 'ccd140a1-06f6-4e6b-afa6-f7ac9b9ff904'
 keywords:
 - enumerating tasks Task Scheduler
 - enumerating tasks Task Scheduler , described

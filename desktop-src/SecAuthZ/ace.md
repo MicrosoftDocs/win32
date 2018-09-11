@@ -1,6 +1,6 @@
 ---
 Description: Lists the currently defined ACE types.
-ms.assetid: 002a3fa7-02a3-4832-948e-b048f5f5818f
+ms.assetid: '980b8242-2ba2-469f-b834-da7d3fb22e14'
 title: ACE
 ms.technology: desktop
 ms.prod: windows

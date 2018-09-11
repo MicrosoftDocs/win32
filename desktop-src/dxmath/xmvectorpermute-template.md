@@ -1,6 +1,6 @@
 ---
 Description: Permutes the components of two vectors to create a new vector.
-ms.assetid: 14b4ff5a-464f-410d-957a-adfbf17bd25e
+ms.assetid: 'm:microsoft.directx_sdk.template.xmvectorpermute(xmvector,xmvector)'
 title: XMVectorPermute template
 ms.technology: desktop
 ms.prod: windows

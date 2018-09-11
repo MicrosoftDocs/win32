@@ -1,7 +1,7 @@
 ---
 title: copy command
 description: The copy command copies data to the clipboard. Digital-video devices recognize this command.
-ms.assetid: 25b16107-b2ec-4e16-a596-10708dbc639d
+ms.assetid: '4f7b5be6-12c3-43a0-bac9-19eb49384330'
 keywords:
 - copy command Windows Multimedia
 topic_type:

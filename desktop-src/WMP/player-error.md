@@ -1,7 +1,7 @@
 ---
 title: Player.error
 description: The error property retrieves the Error object.
-ms.assetid: d28c18a9-c650-4169-989b-8727b7a5a831
+ms.assetid: '04711a1d-18a0-4031-98a8-c7c5110b35ae'
 keywords:
 - Player.error Windows Media Player
 topic_type:

@@ -1,7 +1,7 @@
 ---
 title: MIDI Functions
 description: MIDI Functions
-ms.assetid: 7ea5db5e-34d7-4506-8157-c24adf5bcdda
+ms.assetid: '9aa9fd79-cd9e-4443-8715-142ea72b82c0'
 keywords:
 - multimedia audio,MIDI functions
 - audio,MIDI functions

@@ -1,7 +1,7 @@
 ---
 title: MonthlyTrigger.MonthsOfYear property
 description: For scripting, gets or sets the months of the year during which the task runs.
-ms.assetid: e587ea75-ecf9-40d0-82c2-c1325bac72fc
+ms.assetid: 'cf26a815-7f4f-4b7a-8db8-a4bd9b77cf49'
 keywords:
 - MonthsOfYear property Task Scheduler
 - MonthsOfYear property Task Scheduler , MonthlyTrigger object

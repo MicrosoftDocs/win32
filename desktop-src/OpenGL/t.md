@@ -2,7 +2,7 @@
 title: T
 description: Definitions of OpenGL terms that begin with the letter T.
 Robots: noindex, nofollow
-ms.assetid: 57ac6542-5bfb-4e3e-9ee0-aa35218e41a9
+ms.assetid: 'effb170b-fea3-4954-9f9c-3bc1aa829bc0'
 keywords:
 - tessellation
 - texel

@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.AllowHardTerminate property
 description: For scripting, gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using TerminateProcess.
-ms.assetid: fd8105cf-5ef1-4ae4-8bb7-05469758b6b4
+ms.assetid: '1dfd692e-efbe-41a2-8dbd-b14cf26bbcb7'
 keywords:
 - AllowHardTerminate property Task Scheduler
 - AllowHardTerminate property Task Scheduler , TaskSettings object

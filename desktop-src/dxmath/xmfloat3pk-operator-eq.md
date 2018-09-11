@@ -1,6 +1,6 @@
 ---
 Description: Assigns vector component data to the current instance of XMFLOAT3PK.
-ms.assetid: 9d7282a6-5ee9-4ebc-a449-3a67e5668268
+ms.assetid: 'overload:microsoft.directx_sdk.reference.xmfloat3pk.operator = '
 title: operator = operators
 ms.technology: desktop
 ms.prod: windows

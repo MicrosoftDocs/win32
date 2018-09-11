@@ -1,7 +1,7 @@
 ---
 title: Media.isMemberOf method
 description: The isMemberOf method returns a value indicating whether the media item is a member of the specified playlist.
-ms.assetid: 5ca46263-1e8e-42db-a131-e7534f79ca8e
+ms.assetid: 'e620741f-6807-4a61-ba9b-f45426d6e33e'
 keywords:
 - isMemberOf method Windows Media Player
 - isMemberOf method Windows Media Player , Media class

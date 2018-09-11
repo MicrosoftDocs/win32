@@ -271,20 +271,20 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Used to determine whether to show the <strong>Share this folder</strong> option in web view.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CharLowerWrapW</strong>](charlowerwrapw.md)<br/></td>
+<td> <a href="charlowerwrapw"><strong>CharLowerWrapW</strong></a><br/></td>
 <td>Converts a Unicode character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>CharLowerWrapW</strong>](charlowerwrapw.md) is a wrapper for the <strong>CharLowerW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx"><strong>CharLower</strong></a> page for further usage notes.
+ <a href="charlowerwrapw"><strong>CharLowerWrapW</strong></a> is a wrapper for the <strong>CharLowerW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx"><strong>CharLower</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharUpperBuffWrapW</strong>](charupperbuffwrapw.md)<br/></td>
+<td> <a href="charupperbuffwrapw"><strong>CharUpperBuffWrapW</strong></a><br/></td>
 <td>Converts lowercase characters in a buffer to uppercase characters. The function converts the characters in place. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>CharUpperBuffWrapW</strong>](charupperbuffwrapw.md) is a wrapper for the <strong>CharUpperBuffW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx"><strong>CharUpperBuff</strong></a> page for further usage notes.
+ <a href="charupperbuffwrapw"><strong>CharUpperBuffWrapW</strong></a> is a wrapper for the <strong>CharUpperBuffW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx"><strong>CharUpperBuff</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -293,11 +293,11 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-cidldata_createfromidarray"><strong>CIDLData_CreateFromIDArray</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CompareStringWrapW</strong>](comparestringwrapw.md)<br/></td>
+<td> <a href="comparestringwrapw"><strong>CompareStringWrapW</strong></a><br/></td>
 <td>Compares two Unicode character strings, using a specified locale. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>CompareStringWrapW</strong>](comparestringwrapw.md) is a wrapper for the <strong>CompareStringW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx"><strong>CompareString</strong></a> page for further usage notes.
+ <a href="comparestringwrapw"><strong>CompareStringWrapW</strong></a> is a wrapper for the <strong>CompareStringW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx"><strong>CompareString</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -366,20 +366,20 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td><a href="/windows/desktop/api/Shellapi/nf-shellapi-extractassociatediconexa"><strong>ExtractAssociatedIconEx</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>FindResourceWrapW</strong>](findresourcewrapw.md)<br/></td>
+<td><a href="findresourcewrapw"><strong>FindResourceWrapW</strong></a><br/></td>
 <td>Determines the location of a resource with the specified type and name, in the specified module. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>FindResourceWrapW</strong>](findresourcewrapw.md) is a wrapper for the <strong>FindResourceW</strong> function. See <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx"><strong>FindResource</strong></a> for further usage notes.
+<a href="findresourcewrapw"><strong>FindResourceWrapW</strong></a> is a wrapper for the <strong>FindResourceW</strong> function. See <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx"><strong>FindResource</strong></a> for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetDateFormatWrapW</strong>](getdateformatwrapw.md)<br/></td>
+<td><a href="getdateformatwrapw"><strong>GetDateFormatWrapW</strong></a><br/></td>
 <td>Formats a date as a date string for a specified locale. The function formats either a specified date or the local system date. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>GetDateFormatWrapW</strong>](getdateformatwrapw.md) is a wrapper for the <strong>GetDateFormatW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Dd318086(v=VS.85).aspx"><strong>GetDateFormat</strong></a> page for further usage notes.
+<a href="getdateformatwrapw"><strong>GetDateFormatWrapW</strong></a> is a wrapper for the <strong>GetDateFormatW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Dd318086(v=VS.85).aspx"><strong>GetDateFormat</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -392,11 +392,11 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-getmenuposfromid"><strong>GetMenuPosFromID</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetTimeFormatWrapW</strong>](gettimeformatwrapw.md)<br/></td>
+<td><a href="gettimeformatwrapw"><strong>GetTimeFormatWrapW</strong></a><br/></td>
 <td>Formats time as a time string for a specified locale. The function formats either a specified time or the local system time. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>GetTimeFormatWrapW</strong>](gettimeformatwrapw.md) is a wrapper for the <strong>GetTimeFormatW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Dd318130(v=VS.85).aspx"><strong>GetTimeFormat</strong></a> page for further usage notes.
+<a href="gettimeformatwrapw"><strong>GetTimeFormatWrapW</strong></a> is a wrapper for the <strong>GetTimeFormatW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Dd318130(v=VS.85).aspx"><strong>GetTimeFormat</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -421,11 +421,11 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>This function may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IsCharAlphaNumericWrapW</strong>](ischaralphanumericwrapw.md)<br/></td>
+<td><a href="ischaralphanumericwrapw"><strong>IsCharAlphaNumericWrapW</strong></a><br/></td>
 <td>Determines whether a character is either an alphabetical or a numeric character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IsCharAlphaNumericWrapW</strong>](ischaralphanumericwrapw.md) is a wrapper for the <strong>IsCharAlphaNumericW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx"><strong>IsCharAlphaNumeric</strong></a> page for further usage notes.
+<a href="ischaralphanumericwrapw"><strong>IsCharAlphaNumericWrapW</strong></a> is a wrapper for the <strong>IsCharAlphaNumericW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx"><strong>IsCharAlphaNumeric</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -474,11 +474,11 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-openregstream"><strong>OpenRegStream</strong></a> may be altered or unavailable. Instead, use <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstream2a"><strong>SHOpenRegStream2</strong></a> or <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstreama"><strong>SHOpenRegStream</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>OutputDebugStringWrapW</strong>](outputdebugstringwrapw.md)<br/></td>
+<td><a href="outputdebugstringwrapw"><strong>OutputDebugStringWrapW</strong></a><br/></td>
 <td>Sends a Unicode string to the debugger for display.<br/>
 <blockquote>
 [!Note]<br />
-[<strong>OutputDebugStringWrapW</strong>](outputdebugstringwrapw.md) is a wrapper for the <strong>OutputDebugStringW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Aa363362(v=VS.85).aspx"><strong>OutputDebugString</strong></a> page for further usage notes.
+<a href="outputdebugstringwrapw"><strong>OutputDebugStringWrapW</strong></a> is a wrapper for the <strong>OutputDebugStringW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Aa363362(v=VS.85).aspx"><strong>OutputDebugString</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -1026,7 +1026,7 @@ You should use <a href="taskbar-extensions">thumbnail toolbars</a> in new develo
 </tr>
 <tr class="odd">
 <td><a href="ienumuseridentity"><strong>IEnumUserIdentity</strong></a><br/></td>
-<td><a href="ienumuseridentity"><strong>IEnumUserIdentity</strong></a> is not supported and may be altered or unavailable in the future. Instead, use [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md).<br/></td>
+<td><a href="ienumuseridentity"><strong>IEnumUserIdentity</strong></a> is not supported and may be altered or unavailable in the future. Instead, use <a href="fastuserswitching">User Accounts with Fast User Switching and Remote Desktop</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-iexpdispsupport"><strong>IExpDispSupport</strong></a><br/></td>
@@ -1131,15 +1131,15 @@ This interface is deprecated as of Windows 7. The feature it supported is no lo
 </tr>
 <tr class="odd">
 <td><a href="iuseridentity"><strong>IUserIdentity</strong></a><br/></td>
-<td><a href="iuseridentity"><strong>IUserIdentity</strong></a> is not supported and may be altered or unavailable in the future. Instead, use [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md).<br/></td>
+<td><a href="iuseridentity"><strong>IUserIdentity</strong></a> is not supported and may be altered or unavailable in the future. Instead, use <a href="fastuserswitching">User Accounts with Fast User Switching and Remote Desktop</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="iuseridentity2"><strong>IUserIdentity2</strong></a><br/></td>
-<td><a href="iuseridentity2"><strong>IUserIdentity2</strong></a> is not supported and may be altered or unavailable in the future. Instead, use [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md).<br/></td>
+<td><a href="iuseridentity2"><strong>IUserIdentity2</strong></a> is not supported and may be altered or unavailable in the future. Instead, use <a href="fastuserswitching">User Accounts with Fast User Switching and Remote Desktop</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="iuseridentitymanager"><strong>IUserIdentityManager</strong></a><br/></td>
-<td><a href="iuseridentitymanager"><strong>IUserIdentityManager</strong></a> is not supported and may be altered or unavailable in the future. Instead, use [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md).<br/></td>
+<td><a href="iuseridentitymanager"><strong>IUserIdentityManager</strong></a> is not supported and may be altered or unavailable in the future. Instead, use <a href="fastuserswitching">User Accounts with Fast User Switching and Remote Desktop</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="sfvm-diddragdrop"><strong>SFVM_DIDDRAGDROP</strong></a><br/></td>

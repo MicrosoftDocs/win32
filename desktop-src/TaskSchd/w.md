@@ -2,7 +2,7 @@
 title: W
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
-ms.assetid: 1f353611-0542-4534-91bf-4a76f41c9c9d
+ms.assetid: 'dbde9ecd-4197-45b9-bd38-776818102580'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

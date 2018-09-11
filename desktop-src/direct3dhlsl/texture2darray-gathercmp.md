@@ -1,7 +1,7 @@
 ---
 title: Texture2DArray GatherCmp methods
 description: Samples and compares a Texture2DArray and returns all components.
-ms.assetid: 7bb86448-cc73-4423-9ef4-149427cffc95
+ms.assetid: '5b2892f0-be62-4fb2-978e-aabb8ae96e67'
 keywords:
 - GatherCmp methods HLSL
 topic_type:

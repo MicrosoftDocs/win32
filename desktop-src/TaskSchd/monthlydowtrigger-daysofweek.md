@@ -1,7 +1,7 @@
 ---
 title: MonthlyDOWTrigger.DaysOfWeek property
 description: For scripting, gets or sets the days of the week during which the task runs.
-ms.assetid: 553a0a51-fc2f-4ace-a69d-6aef4d9b06af
+ms.assetid: 'dd9b2463-69a1-4e77-a8f7-26b186d3d02d'
 keywords:
 - DaysOfWeek property Task Scheduler
 - DaysOfWeek property Task Scheduler , MonthlyDOWTrigger object

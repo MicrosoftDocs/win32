@@ -1,7 +1,7 @@
 ---
 title: Principal.UserId property
 description: For scripting, gets or sets the user identifier that is required to run the tasks that are associated with the principal.
-ms.assetid: b85a1f05-acb0-4b3c-bea0-393ad7c6a43d
+ms.assetid: '57a34d7b-70b2-4156-b525-befecbaf070d'
 keywords:
 - UserId property Task Scheduler
 - UserId property Task Scheduler , Principal object

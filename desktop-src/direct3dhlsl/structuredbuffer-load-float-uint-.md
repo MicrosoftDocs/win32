@@ -1,7 +1,7 @@
 ---
 title: Load(int,uint) function
 description: Reads buffer data and returns status about the operation.
-ms.assetid: 19FAA031-F31E-4B73-BC69-489CDF0CF184
+ms.assetid: 'd71c6057-6651-4b70-91cf-892fde6d0188'
 keywords:
 - Load function HLSL
 topic_type:

@@ -100,8 +100,8 @@ The [**RealTimeStylus**](realtimestylus-class.md) object receives data about sys
 <thead>
 <tr class="header">
 <th><a href="https://msdn.microsoft.com/library/ms827134(v=MSDN.10).aspx">SystemGesture</a></th>
-<th>Objects that precede the [SystemGestureData](https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx) object</th>
-<th>Objects that come after the [SystemGestureData](https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx) object</th>
+<th>Objects that precede the <a href="https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx">SystemGestureData</a> object</th>
+<th>Objects that come after the <a href="https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx">SystemGestureData</a> object</th>
 </tr>
 </thead>
 <tbody>
@@ -112,12 +112,12 @@ The [**RealTimeStylus**](realtimestylus-class.md) object receives data about sys
 </tr>
 <tr class="even">
 <td><strong>DoubleTap</strong></td>
-<td>The <a href="https://msdn.microsoft.com/library/ms824107(v=MSDN.10).aspx">StylusDownData</a> object, the [SystemGestureData](https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx) object for the <strong>Tap</strong> system gesture and the [StylusUpData](https://msdn.microsoft.com/library/ms824057(v=MSDN.10).aspx) objects.<br/></td>
+<td>The <a href="https://msdn.microsoft.com/library/ms824107(v=MSDN.10).aspx">StylusDownData</a> object, the <a href="https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx">SystemGestureData</a> object for the <strong>Tap</strong> system gesture and the [StylusUpData](https://msdn.microsoft.com/library/ms824057(v=MSDN.10).aspx) objects.<br/></td>
 <td>The second <a href="https://msdn.microsoft.com/library/ms824107(v=MSDN.10).aspx">StylusDownData</a> object.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>RightTap</strong></td>
-<td>The <a href="https://msdn.microsoft.com/library/ms824107(v=MSDN.10).aspx">StylusDownData</a> object and the [SystemGestureData](https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx) object for the <strong>HoldEnter</strong> member of the <a href="https://msdn.microsoft.com/library/ms827134(v=MSDN.10).aspx">SystemGesure</a> enumeration.<br/></td>
+<td>The <a href="https://msdn.microsoft.com/library/ms824107(v=MSDN.10).aspx">StylusDownData</a> object and the <a href="https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx">SystemGestureData</a> object for the <strong>HoldEnter</strong> member of the <a href="https://msdn.microsoft.com/library/ms827134(v=MSDN.10).aspx">SystemGesure</a> enumeration.<br/></td>
 <td>The [StylusUpData](https://msdn.microsoft.com/library/ms824057(v=MSDN.10).aspx) object.<br/></td>
 </tr>
 <tr class="even">
@@ -147,7 +147,7 @@ This system gesture isn't recognized if the user begins a <strong>Drag</strong> 
 </tr>
 <tr class="even">
 <td><strong>HoverEnter</strong></td>
-<td>Several [InAirPacketsData](https://msdn.microsoft.com/library/ms824592(v=MSDN.10).aspx) objects of low average velocity.<br/></td>
+<td>Several <a href="https://msdn.microsoft.com/library/ms824592(v=MSDN.10).aspx">InAirPacketsData</a> objects of low average velocity.<br/></td>
 <td><blockquote>
 [!Note]<br />
 There may be noticeable delay before receiving the <strong>HoverEnter</strong> system gesture. The <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.
@@ -156,7 +156,7 @@ There may be noticeable delay before receiving the <strong>HoverEnter</strong> s
 </tr>
 <tr class="odd">
 <td><strong>HoverLeave</strong></td>
-<td>The [SystemGestureData](https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx) object for the <strong>HoverEnter</strong> system gesture and several [InAirPacketsData](https://msdn.microsoft.com/library/ms824592(v=MSDN.10).aspx) objects of sufficient average velocity.<br/></td>
+<td>The <a href="https://msdn.microsoft.com/library/ms824019(v=MSDN.10).aspx">SystemGestureData</a> object for the <strong>HoverEnter</strong> system gesture and several <a href="https://msdn.microsoft.com/library/ms824592(v=MSDN.10).aspx">InAirPacketsData</a> objects of sufficient average velocity.<br/></td>
 <td><blockquote>
 [!Note]<br />
 There may be noticeable delay before receiving the <strong>HoverLeave</strong> system gesture. The <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.

@@ -1,7 +1,7 @@
 ---
 title: TaskVariables.GetContext method
 description: For scripting, used to share the context between different steps and tasks that are in the same job instance.
-ms.assetid: 090d24ac-18eb-4a76-887f-30d3b99e7ad0
+ms.assetid: 'c3f1245c-531b-43f4-a3e4-8cb5deedd375'
 keywords:
 - GetContext method Task Scheduler
 - GetContext method Task Scheduler , TaskVariables object

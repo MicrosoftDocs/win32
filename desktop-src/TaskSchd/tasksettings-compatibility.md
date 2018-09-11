@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.Compatibility property
 description: For scripting, gets or sets an integer value that indicates which version of Task Scheduler a task is compatible with.
-ms.assetid: 04f77d3c-44fa-4091-b99e-af062f067ef9
+ms.assetid: 'bbe21177-e010-4770-9068-9c5b41974ee5'
 keywords:
 - Compatibility property Task Scheduler
 - Compatibility property Task Scheduler , TaskSettings object

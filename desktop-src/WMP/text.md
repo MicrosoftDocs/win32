@@ -1,7 +1,7 @@
 ---
 title: Text
 description: Text
-ms.assetid: 00574ead-85f2-4321-9e4e-2836be058e8c
+ms.assetid: '8c10cefb-d0d0-4214-8712-d171a76de95d'
 keywords:
 - Windows Media Player Mobile skins,text
 - skins,text

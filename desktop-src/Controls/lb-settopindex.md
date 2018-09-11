@@ -1,7 +1,7 @@
 ---
 title: LB_SETTOPINDEX message
 description: Ensures that the specified item in a list box is visible.
-ms.assetid: 0e938cd1-7d6c-4b81-91b2-f388465c5d7e
+ms.assetid: 'vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_settopindex.htm'
 keywords:
 - LB_SETTOPINDEX message Windows Controls
 topic_type:

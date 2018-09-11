@@ -189,8 +189,8 @@ After creating the pipeline state objects, vertex buffers, a depth stencil, and 
 <tr class="odd">
 <td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
 <td><dl><a href="https://msdn.microsoft.com/library/windows/desktop/bb173059"><strong>DXGI_FORMAT</strong></a><br />
-[<strong>D3D12_SRV_DIMENSION</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension)<br />
-[D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING](constants.md)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
+<a href="constants">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
 </dl></td>
 </tr>
 <tr class="even">
@@ -276,9 +276,9 @@ After uploading the command buffers to the GPU, we also create an SRV of them fo
 <tr class="odd">
 <td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
 <td><dl><a href="https://msdn.microsoft.com/library/windows/desktop/bb173059"><strong>DXGI_FORMAT</strong></a><br />
-[<strong>D3D12_SRV_DIMENSION</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension)<br />
-[D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING](constants.md)<br />
-[<strong>D3D12_BUFFER_SRV_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_buffer_srv_flags)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
+<a href="constants">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_buffer_srv_flags"><strong>D3D12_BUFFER_SRV_FLAG</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
@@ -355,16 +355,16 @@ for (UINT frame = 0; frame < FrameCount; frame++)
 <tr class="odd">
 <td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
 <td><dl><a href="cd3dx12-heap-properties"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
-[<strong>D3D12_HEAP_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type"><strong>D3D12_HEAP_TYPE</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags"><strong>D3D12_HEAP_FLAG</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_unordered_access_view_desc"><strong>D3D12_UNORDERED_ACCESS_VIEW_DESC</strong></a></td>
 <td><dl><a href="https://msdn.microsoft.com/library/windows/desktop/bb173059"><strong>DXGI_FORMAT</strong></a><br />
-[<strong>D3D12_UAV_DIMENSION</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_uav_dimension)<br />
-[<strong>D3D12_BUFFER_UAV_FLAGS</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_buffer_uav_flags)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_uav_dimension"><strong>D3D12_UAV_DIMENSION</strong></a><br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_buffer_uav_flags"><strong>D3D12_BUFFER_UAV_FLAGS</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -453,7 +453,7 @@ ThrowIfFailed(m_computeCommandList->Close());
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_barrier"><strong>D3D12_RESOURCE_BARRIER</strong></a></td>
 <td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -585,7 +585,7 @@ Then we will execute the commands in either the UAV (GPU culling enabled) or the
 <tr class="even">
 <td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_resource_barrier"><strong>D3D12_RESOURCE_BARRIER</strong></a></td>
 <td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
-[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
+<a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a><br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -622,7 +622,7 @@ Then we will execute the commands in either the UAV (GPU culling enabled) or the
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
-<td>[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)</td>
+<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close"><strong>Close</strong></a></td>

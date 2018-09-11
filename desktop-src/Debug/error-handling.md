@@ -1,6 +1,6 @@
 ---
 Description: Well-written applications include error-handling code that allows them to recover gracefully from unexpected errors.
-ms.assetid: faff149b-254e-44da-a59c-1b738acb6941
+ms.assetid: 'b8d84980-6ba9-4784-8ab0-d5e9c5c95bae'
 title: Error Handling
 ms.technology: desktop
 ms.prod: windows

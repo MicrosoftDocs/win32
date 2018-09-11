@@ -1,6 +1,6 @@
 ---
 Description: Defines a mesh defined by Bézier patches. The first array is a list of vertices, and the second array defines the patches for the mesh by indexing into the vertex array.
-ms.assetid: f565ed0b-72fc-4184-b423-f68b0acfafb0
+ms.assetid: 'vs|directx_sdk|~\patchmesh.htm'
 title: PatchMesh
 ms.technology: desktop
 ms.prod: windows

@@ -28,12 +28,12 @@ The following table details the **ScriptString\*** functions and any counterpart
 <tr class="odd">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse"><strong>ScriptStringAnalyse</strong></a></td>
 <td>Analyzes plain text. This function corresponds to the following functions:<br/> <dl><a href="/windows/desktop/api/Usp10/nf-usp10-scriptitemize"><strong>ScriptItemize</strong></a><br />
-[<strong>ScriptShape</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptshape)<br />
-[<strong>ScriptPlace</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptplace)<br />
-[<strong>ScriptBreak</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptbreak)<br />
-[<strong>ScriptGetCMap</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptgetcmap)<br />
-[<strong>ScriptJustify</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptjustify)<br />
-[<strong>ScriptLayout</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptlayout)<br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptshape"><strong>ScriptShape</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptplace"><strong>ScriptPlace</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptbreak"><strong>ScriptBreak</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptgetcmap"><strong>ScriptGetCMap</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptjustify"><strong>ScriptJustify</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptlayout"><strong>ScriptLayout</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
@@ -70,7 +70,7 @@ The following table details the **ScriptString\*** functions and any counterpart
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringvalidate"><strong>ScriptStringValidate</strong></a></td>
-<td>Identifies code point sequences not valid in the given script. This function is different from [<strong>ScriptGetCMap</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptgetcmap), which identifies code points not present in a font.</td>
+<td>Identifies code point sequences not valid in the given script. This function is different from <a href="/windows/desktop/api/Usp10/nf-usp10-scriptgetcmap"><strong>ScriptGetCMap</strong></a>, which identifies code points not present in a font.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringxtocp"><strong>ScriptStringXtoCP</strong></a></td>
@@ -78,10 +78,6 @@ The following table details the **ScriptString\*** functions and any counterpart
 </tr>
 </tbody>
 </table>
-
-
-
- 
 
 To only display plain text without any modifications, an application should call [**ScriptStringAnalyse**](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse), [**ScriptStringOut**](/windows/desktop/api/Usp10/nf-usp10-scriptstringout), and then [**ScriptStringFree**](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree). The other functions are used to modify the plain text before display.
 

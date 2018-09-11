@@ -1,7 +1,7 @@
 ---
 title: TaskVariables object
 description: Scripting object that defines task variables that can be passed as parameters to task handlers and external executables that are launched by tasks.
-ms.assetid: 4f7a9dd3-0bf4-4c23-acdb-a5e0389120cc
+ms.assetid: '194babe0-16bd-4a78-af45-139c9c7eacbe'
 keywords:
 - TaskVariables object Task Scheduler
 - TaskVariables object Task Scheduler , described

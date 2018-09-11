@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo.URI property
 description: For scripting, gets or sets the URI of the task.
-ms.assetid: 347898de-7960-42b8-84ff-4734137d0683
+ms.assetid: '49085ee4-65e1-412c-ac1c-9c0f9efe5679'
 keywords:
 - URI property Task Scheduler
 - URI property Task Scheduler , RegistrationInfo object

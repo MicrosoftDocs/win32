@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo.Date property
 description: For scripting, gets or sets the date and time when the task is registered.
-ms.assetid: b9a41413-954f-447c-8fce-f99c81fec40a
+ms.assetid: 'ecff01b6-a1de-458a-9728-34169f17d42b'
 keywords:
 - Date property Task Scheduler
 - Date property Task Scheduler , RegistrationInfo object

@@ -1,6 +1,6 @@
 ---
 Description: Represents a collection of Signer objects.
-ms.assetid: 3e28f08a-c4d8-4dd7-953a-e1500eb5bee0
+ms.assetid: '72e86acd-eb87-4eff-bd4e-327630ebbfc4'
 title: Signers object
 ms.technology: desktop
 ms.prod: windows

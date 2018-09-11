@@ -1,6 +1,6 @@
 ---
 Description: Provides properties and methods that you can use to choose, manage, and use certificate stores and the certificates in those stores.
-ms.assetid: a1cb6e1e-0702-4f73-827e-3f9e9237b4b6
+ms.assetid: 'de4eecf7-c03b-4733-ac29-d5b26b873dba'
 title: Store object
 ms.technology: desktop
 ms.prod: windows

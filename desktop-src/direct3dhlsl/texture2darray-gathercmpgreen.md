@@ -1,7 +1,7 @@
 ---
 title: Texture2DArray GatherCmpGreen methods
 description: Samples and compares a Texture2DArray and returns the green component.
-ms.assetid: baf14de9-5237-42a5-bffc-848e55cbc28f
+ms.assetid: '583bdff6-4257-4418-891a-44c0e5d0def5'
 keywords:
 - GatherCmpGreen methods HLSL
 topic_type:

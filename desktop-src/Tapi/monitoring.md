@@ -1,6 +1,6 @@
 ---
 Description: Monitoring is a service-provider defined feature that detects signals that indicate other media.
-ms.assetid: 6a906027-f328-435d-98ea-919c3e3bbd67
+ms.assetid: '77735a42-049a-4f16-a502-ff6d31ef3cd0'
 title: Monitoring
 ms.technology: desktop
 ms.prod: windows

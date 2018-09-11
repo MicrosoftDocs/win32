@@ -1,6 +1,6 @@
 ---
 Description: Provides read-only access to key usage properties of a certificate.
-ms.assetid: eda6d875-df62-4f40-8734-a91666dba289
+ms.assetid: '8b8e9076-1a4f-4383-ac4b-1322d52949f0'
 title: KeyUsage object
 ms.technology: desktop
 ms.prod: windows

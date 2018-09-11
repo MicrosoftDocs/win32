@@ -1,7 +1,7 @@
 ---
 title: Texture2D GatherRed methods
 description: Samples a Texture2D and returns the red component.
-ms.assetid: 6d2d1556-d52f-4625-93ca-34da399f9a8b
+ms.assetid: '6c281823-f9d0-4e3f-9f69-67309f79c1c3'
 keywords:
 - GatherRed methods HLSL
 topic_type:

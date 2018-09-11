@@ -1,7 +1,7 @@
 ---
 title: Configuration
 description: Configuration
-ms.assetid: 677241d2-3ddd-423a-a1e7-b5fa3ce0a4eb
+ms.assetid: 'd61d6c8b-8dba-45c2-ba99-0b2111a2d624'
 keywords:
 - installable drivers,configuration
 - installable drivers,DRV_CONFIGURE message

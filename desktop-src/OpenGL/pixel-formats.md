@@ -1,7 +1,7 @@
 ---
 title: Pixel Formats
 description: Pixel Formats
-ms.assetid: 1ebeb051-2dc9-4753-a0f3-7d2737b5f7f2
+ms.assetid: '2e179340-c487-4b72-a22e-078b800af11d'
 keywords:
 - OpenGL on Windows,pixels
 ms.technology: desktop

@@ -1,6 +1,6 @@
 ---
 Description: This section contains an overview of XAudio2 voices.
-ms.assetid: 76c1c138-4846-9c4f-7875-446867436ee9
+ms.assetid: '96463b61-3d74-b64d-0fb9-bd0c6464c71b'
 title: Voices
 ms.technology: desktop
 ms.prod: windows

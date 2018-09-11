@@ -1,7 +1,7 @@
 ---
 Description: Glossary of Network Monitor terms that begin with the letter C.
 Robots: noindex, nofollow
-ms.assetid: 36ba6381-3830-4f27-937d-8808129e7d09
+ms.assetid: '9e0b9f77-8a47-4724-b08c-fac3b6e23afc'
 title: C
 ms.technology: desktop
 ms.prod: windows

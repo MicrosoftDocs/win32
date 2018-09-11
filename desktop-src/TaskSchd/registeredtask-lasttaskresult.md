@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.LastTaskResult property
 description: For scripting, gets the results that were returned the last time the registered task was run.
-ms.assetid: a16b0b01-109b-44ae-8318-dbc5d6728e17
+ms.assetid: '203cf320-6d97-48d6-a559-2419ed1e1fb9'
 keywords:
 - LastTaskResult property Task Scheduler
 - LastTaskResult property Task Scheduler , RegisteredTask object

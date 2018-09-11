@@ -1,7 +1,7 @@
 ---
 title: DNS Zones
 description: A DNS zone is a set of files or records (more precisely, a database of resource record entries) that corresponds to part of the DNS hierarchical namespace.
-ms.assetid: 12958b71-b47d-4dd7-bd08-409ecd369e4f
+ms.assetid: 'fc24bcd0-854d-4452-9c81-f344b52c7b4e'
 keywords:
 - DNS Zones DNS
 ms.technology: desktop

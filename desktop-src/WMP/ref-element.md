@@ -1,7 +1,7 @@
 ---
 title: REF Element
 description: The REF element specifies a URL for digital media content.
-ms.assetid: ba39db39-fa90-455b-b278-ca866ce0b69c
+ms.assetid: '0ba11a1e-3802-4156-83ca-f1bae1eb366c'
 keywords:
 - REF Element Windows Media Player
 topic_type:

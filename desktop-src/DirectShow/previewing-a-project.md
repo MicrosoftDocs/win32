@@ -1,6 +1,6 @@
 ---
 Description: Previewing a Project
-ms.assetid: 2385f898-e8ec-425f-8d86-eadbf96bf06d
+ms.assetid: '2efa3f25-a93f-4362-b461-b67475e5d78c'
 title: Previewing a Project
 ms.technology: desktop
 ms.prod: windows

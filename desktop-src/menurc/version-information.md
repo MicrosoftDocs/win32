@@ -1,7 +1,7 @@
 ---
 title: Version Information
 description: This section discusses the version-information resource.
-ms.assetid: 63fb6c0f-11b3-4d70-b1ba-56086cb02847
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\versioninformation.htm'
 keywords:
 - resources,version information
 - version information

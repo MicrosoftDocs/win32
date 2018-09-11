@@ -1,7 +1,7 @@
 ---
 title: Principal.GroupId property
 description: For scripting, gets or sets the identifier of the user group that is required to run the tasks that are associated with the principal.
-ms.assetid: df4bffa3-ee38-49cd-bec7-28edda48a953
+ms.assetid: 'be0b7cd1-0e17-4aa5-af8e-880c95b3e7dc'
 keywords:
 - GroupId property Task Scheduler
 - GroupId property Task Scheduler , Principal object

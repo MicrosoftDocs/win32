@@ -1,7 +1,7 @@
 ---
 title: Settings.getMode method
 description: The getMode method determines whether the loop mode or shuffle mode is active.
-ms.assetid: 5275cb99-8007-4af2-9137-694de18c5434
+ms.assetid: '41c3725f-ae8f-4b45-856a-b7245c9ad2b3'
 keywords:
 - getMode method Windows Media Player
 - getMode method Windows Media Player , Settings class

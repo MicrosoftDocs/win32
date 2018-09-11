@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.LastRunTime property
 description: For scripting, gets the time the registered task was last run.
-ms.assetid: c7ac7fea-35c7-4336-9142-6c97caa1dea0
+ms.assetid: '8fb991d1-4ecc-44cb-9719-16c4cec74782'
 keywords:
 - LastRunTime property Task Scheduler
 - LastRunTime property Task Scheduler , RegisteredTask object

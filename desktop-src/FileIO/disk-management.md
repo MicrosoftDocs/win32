@@ -1,6 +1,6 @@
 ---
 Description: A hard disk is a rigid disk inside a computer that stores and provides relatively quick access to large amounts of data. It is the type of storage most often used with Windows. The system also supports removable media.
-ms.assetid: 67e4ef00-2b2d-4287-8cb1-144d9610ccec
+ms.assetid: '5712a457-977f-438c-95b4-8b37558dcd26'
 title: Disk Management
 ms.technology: desktop
 ms.prod: windows

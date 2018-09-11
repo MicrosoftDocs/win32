@@ -1,7 +1,7 @@
 ---
 title: Metadata
 description: Metadata, for the purposes of this SDK, is information that describes an ASF file or the contents of the file.
-ms.assetid: 86132163-da56-416a-9539-874d18972932
+ms.assetid: '4ccca0c3-52c5-4291-bdab-354705db9b10'
 keywords:
 - Windows Media Format SDK,metadata overview
 - Advanced Systems Format (ASF),metadata overview

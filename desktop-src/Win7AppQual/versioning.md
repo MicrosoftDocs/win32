@@ -1,6 +1,6 @@
 ---
 Description: .
-ms.assetid: 974650d9-504a-4f19-bc71-90fbc92672d9
+ms.assetid: 'd1014801-a93a-40e8-ae96-31784c192753'
 title: Versioning
 ms.technology: desktop
 ms.prod: windows

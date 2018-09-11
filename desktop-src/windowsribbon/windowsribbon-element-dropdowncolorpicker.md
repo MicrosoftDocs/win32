@@ -68,7 +68,7 @@ Represents a [Drop-Down Color Picker](windowsribbon-controls-dropdowncolorpicker
 <td><strong>ColorTemplate</strong><br/></td>
 <td>xs:string<br/></td>
 <td>No<br/></td>
-<td>Layout templates that specify the type of [Drop-Down Color Picker](windowsribbon-controls-dropdowncolorpicker.md). <br/> Restricted to one of the following values (if no optional attributes related to a <em>ColorTemplate</em> are declared, the default view is shown):<br/> <br/>
+<td>Layout templates that specify the type of <a href="windowsribbon-controls-dropdowncolorpicker">Drop-Down Color Picker</a>. <br/> Restricted to one of the following values (if no optional attributes related to a <em>ColorTemplate</em> are declared, the default view is shown):<br/> <br/>
 <dt><span></span><span></span><strong></strong> (ThemeColors)<br/> </dt> <dd> Default. <br/> <img src="images/markup/colortemplate.themedcolors.1.png" alt="Screen shot of the DropDownColorPicker element with the ColorTemplate attribute set to &#39;ThemeColors&#39;." /><br/> Setting the <em>ColorTemplate</em> attribute to <code>ThemeColors</code> enables the following functionality:<br/>
 <ul>
 <li>SplitButton anchor.</li>

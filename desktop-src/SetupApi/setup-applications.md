@@ -1,6 +1,6 @@
 ---
 Description: Typically, you create an INF file before authoring a setup application.
-ms.assetid: 9f444564-d3a4-4b3c-8849-b56cd610356c
+ms.assetid: '78274e3f-4846-45c5-a2fd-323dcedf84bf'
 title: Setup Applications
 ms.technology: desktop
 ms.prod: windows

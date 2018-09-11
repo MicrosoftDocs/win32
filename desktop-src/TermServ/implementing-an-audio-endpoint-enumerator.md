@@ -55,7 +55,7 @@ Beginning with Windows Server 2008 R2, you can implement a custom remote audio e
     <li><a href="https://msdn.microsoft.com/library/windows/desktop/dd316591"><strong>PKEY_Device_DeviceDesc</strong></a></li>
     <li><a href="https://msdn.microsoft.com/library/windows/desktop/dd316594"><strong>PKEY_Device_FriendlyName</strong></a></li>
     </ul>
-    The property store object must implement the [IPropertyStore](http://go.microsoft.com/fwlink/p/?linkid=177452) interface.<br/></td>
+    The property store object must implement the <a href="http://go.microsoft.com/fwlink/p/?linkid=177452">IPropertyStore</a> interface.<br/></td>
     </tr>
     </tbody>
     </table>

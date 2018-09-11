@@ -1,6 +1,6 @@
 ---
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
-ms.assetid: 925e314c-85ff-4c1b-b3c9-f36aa4b55e01
+ms.assetid: 'f503b62f-02e1-4621-8799-a8b6ad12f489'
 title: PrintCapabilities
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: MonthlyTrigger object
 description: Scripting object that represents a trigger that starts a task based on a monthly schedule.
-ms.assetid: 2ed206a6-22e0-4131-92ce-29536ad65c6c
+ms.assetid: 'd73715cb-a52e-4daf-930f-e94fbe28881e'
 keywords:
 - monthly trigger Task Scheduler , object
 - MonthlyTrigger object Task Scheduler

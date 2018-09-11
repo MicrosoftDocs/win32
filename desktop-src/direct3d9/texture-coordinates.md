@@ -1,6 +1,6 @@
 ---
 Description: Most textures, like bitmaps, are a two-dimensional array of color values.
-ms.assetid: fb56f2a1-c535-467c-9df4-1012c56fd09a
+ms.assetid: 'vs|directx_sdk|~\texture_coordinates.htm'
 title: Texture Coordinates (Direct3D 9)
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: Structures
 description: Structures
-ms.assetid: 794de1b7-d60c-435e-9f77-c4df109b5372
+ms.assetid: '118ef278-ca4f-4c30-9633-a2d851f5c758'
 keywords:
 - Windows Media Format SDK,structures
 - Advanced Systems Format (ASF),structures

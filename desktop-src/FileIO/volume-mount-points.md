@@ -1,6 +1,6 @@
 ---
 Description: Using mounted folders, you can unify disparate file systems such as the NTFS file system, a 16-bit FAT file system, and an ISO-9660 file system on a CD-ROM drive into one logical file system on a single NTFS volume.
-ms.assetid: 052a363f-adfd-4f66-a8b0-5d9d37eedcb0
+ms.assetid: '6de526cd-5537-4411-b43f-3c0bdac70d64'
 title: Mounted Folders
 ms.technology: desktop
 ms.prod: windows

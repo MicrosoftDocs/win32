@@ -1,7 +1,7 @@
 ---
 title: Player.newMedia method
 description: The newMedia method creates a new Media object.
-ms.assetid: d10a517e-b4da-4f0b-9d51-9d387578d7dd
+ms.assetid: 'fccf1559-bac3-4edf-bd88-da2c72cdec21'
 keywords:
 - newMedia method Windows Media Player
 - newMedia method Windows Media Player , Player class

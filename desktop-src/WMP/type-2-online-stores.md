@@ -1,7 +1,7 @@
 ---
 title: Type 2 Online Stores
 description: Type 2 Online Stores
-ms.assetid: 8569dfa8-11e2-49b7-a075-0f670247eec0
+ms.assetid: 'b130ff6d-bd43-42df-8527-9c4558a7c414'
 keywords:
 - Windows Media Player online stores,type 2 online stores
 - online stores,type 2 online stores

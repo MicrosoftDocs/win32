@@ -1,6 +1,6 @@
 ---
 Description: Represents a PS2 mouse device.
-ms.assetid: 77CFA2E9-E422-464C-B124-6F7D3D56BA4C
+ms.assetid: '5e02ec15-95e6-4d82-833e-a48ca117a890'
 title: Msvm_Ps2Mouse class
 ms.technology: desktop
 ms.prod: windows

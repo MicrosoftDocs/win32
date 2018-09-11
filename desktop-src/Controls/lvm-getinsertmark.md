@@ -31,7 +31,7 @@ Retrieves the position of the insertion point.
 </dt> <dd>Must be zero.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a [**LVINSERTMARK**](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark) structure that receives the position of the insertion point.</dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark">LVINSERTMARK</a> structure that receives the position of the insertion point.</dd> </dl>
 
 ## Return value
 

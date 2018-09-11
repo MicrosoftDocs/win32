@@ -1,6 +1,6 @@
 ---
 Description: Windows Portable Devices supports the following object properties.
-ms.assetid: 66d9802b-ad28-47a4-8151-9df7aff07d61
+ms.assetid: '29f455d4-6753-42cb-8c18-b50dcb3e71d9'
 title: Object Properties
 ms.technology: desktop
 ms.prod: windows

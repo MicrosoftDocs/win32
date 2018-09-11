@@ -1,7 +1,7 @@
 ---
 title: Keyboard Accelerators
 description: This section discusses keyboard accelerators. A keyboard accelerator is a keystroke or combination of keystrokes that generates a command message for an application.
-ms.assetid: cbf7619d-289d-40c9-9a06-6ce47026d43f
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators.htm'
 keywords:
 - user input,keyboard accelerators
 - capturing user input,keyboard accelerators

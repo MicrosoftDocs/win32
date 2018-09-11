@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.Enabled property
 description: For scripting, gets or sets a Boolean value that indicates if the registered task is enabled.
-ms.assetid: 33486621-3984-4a07-8182-c193847a9f76
+ms.assetid: 'ec8722a0-4055-4604-b506-a3c3f6e07954'
 keywords:
 - Enabled property Task Scheduler
 - Enabled property Task Scheduler , RegisteredTask object

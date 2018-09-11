@@ -1,6 +1,6 @@
 ---
 Description: Represents a keyboard device.
-ms.assetid: 4AEB732D-274E-42BB-AA97-9E4D30B81338
+ms.assetid: '2a59fe90-12e2-471c-b49e-dfb4f4a31e0c'
 title: Msvm_Keyboard class
 ms.technology: desktop
 ms.prod: windows

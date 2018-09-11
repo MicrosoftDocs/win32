@@ -1,7 +1,7 @@
 ---
 title: TitleSortOrder Attribute
 description: The TitleSortOrder attribute is the value to use for sorting the Title column in the library.
-ms.assetid: be84b65d-c635-4ca9-86a6-32011853a5d1
+ms.assetid: '199e02f8-c0df-49cb-baba-6c6d7b18a0c0'
 keywords:
 - TitleSortOrder Attribute Windows Media Player
 topic_type:

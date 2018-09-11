@@ -1,7 +1,7 @@
 ---
 title: About Task Dialogs
 description: A task dialog is a dialog box that can be used to display information and receive simple input from the user.
-ms.assetid: a2da9e0d-fc05-4413-a691-01a2b9493cdb
+ms.assetid: 'vs|controls|~\controls\toolbar\taskdialogsoverview.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

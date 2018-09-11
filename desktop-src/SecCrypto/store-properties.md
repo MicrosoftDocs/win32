@@ -1,6 +1,6 @@
 ---
 Description: The Store object exposes the following properties.
-ms.assetid: 9fb368c9-a0d7-4c5f-9a38-7ef8f7283354
+ms.assetid: 'fd3e7481-90e0-430b-a0d5-965c197bec81'
 title: Store Properties
 ms.technology: desktop
 ms.prod: windows
