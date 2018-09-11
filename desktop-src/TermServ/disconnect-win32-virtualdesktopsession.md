@@ -1,5 +1,5 @@
 ---
-title: Disconnect method of the Win32\_VirtualDesktopSession class
+title: Disconnect method of the Win32_VirtualDesktopSession class
 description: Disconnects the virtual desktop session.
 audience: developer
 author: REDMOND\\markl

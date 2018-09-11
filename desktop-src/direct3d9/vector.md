@@ -1,6 +1,6 @@
 ---
 Description: Defines a vector.
-ms.assetid: 7091617b-935b-466e-8270-90240a1adaee
+ms.assetid: 'vs|directx_sdk|~\vector.htm'
 title: Vector
 ms.technology: desktop
 ms.prod: windows

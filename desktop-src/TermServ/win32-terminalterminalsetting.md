@@ -1,5 +1,5 @@
 ---
-title: Win32\_TerminalTerminalSetting class
+title: Win32_TerminalTerminalSetting class
 description: Represents the association between a terminal and its configuration settings.
 audience: developer
 author: REDMOND\\markl

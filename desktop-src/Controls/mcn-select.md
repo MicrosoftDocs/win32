@@ -1,5 +1,5 @@
 ---
-title: MCN\_SELECT notification code
+title: MCN_SELECT notification code
 description: Sent by a month calendar control when the user makes an explicit date selection within a month calendar control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 3cabb4b2-9422-4190-85d3-ab6593891e3d
 keywords:

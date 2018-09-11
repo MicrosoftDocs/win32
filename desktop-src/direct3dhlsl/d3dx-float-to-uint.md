@@ -1,5 +1,5 @@
 ---
-title: D3DX\_FLOAT\_to\_UINT function
+title: D3DX_FLOAT_to_UINT function
 description: Converts a FLOAT value to UINT.
 ms.assetid: 05c5de72-8915-4541-a82d-242e46bfa883
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Result01\_Education02 class
+title: MDM_Policy_User_Result01_Education02 class
 description: The MDM\_Policy\_User\_Result01\_Education02 class represents the education policies.
 ms.assetid: 34dcc478-5f39-4e1a-908b-46cbbf2ff4fd
 keywords:

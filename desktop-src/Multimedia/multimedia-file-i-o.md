@@ -1,7 +1,7 @@
 ---
 title: Multimedia File I/O
 description: Multimedia File I/O
-ms.assetid: d72ba20c-0085-4d5c-9fc6-b9024b575027
+ms.assetid: '8b41c157-c18d-4962-8709-b919a38ae9c4'
 keywords:
 - Windows multimedia,file I/O
 - multimedia,file I/O

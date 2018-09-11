@@ -1,5 +1,5 @@
 ---
-title: dcl\_temps (sm4 - asm)
+title: dcl_temps (sm4 - asm)
 description: dcl\_temps (sm4 - asm)
 ms.assetid: ecfbdd1e-0f2d-4371-91cc-ebc3e5ee8ee7
 ms.technology: desktop

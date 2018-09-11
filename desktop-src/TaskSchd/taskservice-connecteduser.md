@@ -1,7 +1,7 @@
 ---
 title: TaskService.ConnectedUser property
 description: For scripting, gets the name of the user that is connected to the Task Scheduler service.
-ms.assetid: 2fdff427-a363-4ce2-b1fe-a1ed945cae8b
+ms.assetid: '4ab7eeef-7705-4cf0-9f2b-481cf01c75e3'
 keywords:
 - ConnectedUser property Task Scheduler
 - ConnectedUser property Task Scheduler , TaskService object

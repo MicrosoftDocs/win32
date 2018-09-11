@@ -1,7 +1,7 @@
 ---
-title: MOM\_DONE message
+title: MOM_DONE message
 description: The MOM\_DONE message is sent to a MIDI output callback function when the specified system-exclusive or stream buffer has been played and is being returned to the application.
-ms.assetid: 4651d5b4-3c98-4fa7-b761-dafb30e0d31e
+ms.assetid: '0b9bd0e1-c87d-4f21-912e-5ac9f5c04192'
 keywords:
 - MOM_DONE message Windows Multimedia
 topic_type:

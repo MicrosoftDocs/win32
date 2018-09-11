@@ -1,5 +1,5 @@
 ---
-title: DRM\_ActionAllowed\_CopyToNonSDMIDevice
+title: DRM_ActionAllowed_CopyToNonSDMIDevice
 description: The DRM\_ActionAllowed\_CopyToNonSDMIDevice attribute indicates whether the content is allowed to be copied to a non-SDMI device.
 ms.assetid: 517ceeb5-4979-4667-ba54-8b9b1c6069f2
 keywords:

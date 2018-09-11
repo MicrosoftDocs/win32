@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the SetSize method.
 ms.assetid: 28b4967f-4c8a-475c-8f86-c19e5d424a26
-title: IWICBitmapFrameEncode\_SetSize\_Proxy function
+title: IWICBitmapFrameEncode_SetSize_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

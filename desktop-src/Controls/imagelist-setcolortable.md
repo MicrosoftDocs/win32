@@ -1,5 +1,5 @@
 ---
-title: ImageList\_SetColorTable function
+title: ImageList_SetColorTable function
 description: Sets the color table for an image list.
 ms.assetid: 1b62f468-cbc4-479b-b9f8-5553c2bd8c79
 keywords:

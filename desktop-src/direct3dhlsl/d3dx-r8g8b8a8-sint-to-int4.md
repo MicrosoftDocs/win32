@@ -1,5 +1,5 @@
 ---
-title: D3DX\_R8G8B8A8\_SINT\_to\_INT4 function
+title: D3DX_R8G8B8A8_SINT_to_INT4 function
 description: Unpacks DXGI\_FORMAT\_R8G8B8A8\_SINT shader data to an XMINT4.
 ms.assetid: 144bd296-02b5-4307-b785-860680db2d52
 keywords:

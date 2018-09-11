@@ -2,7 +2,7 @@
 title: V
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
-ms.assetid: f1599f24-2a6f-4887-8712-302631fee313
+ms.assetid: '27f21587-2b09-43ea-ada2-f34b2481099a'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

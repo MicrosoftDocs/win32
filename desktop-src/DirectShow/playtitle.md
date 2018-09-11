@@ -1,6 +1,6 @@
 ---
 Description: The PlayTitle event is sent when the PlayTitle command has been enabled or disabled.
-ms.assetid: 5cdea69e-7d32-470e-846b-1b2be5ca87b1
+ms.assetid: 'd9c47aa6-1401-498f-b9d9-f70dd844a51f'
 title: PlayTitle
 ms.technology: desktop
 ms.prod: windows

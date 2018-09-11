@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the supported backlight levels.
 ms.assetid: b4c1ee3f-af75-477e-b7ed-53be905374d7
-title: IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS control code
+title: IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS control code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

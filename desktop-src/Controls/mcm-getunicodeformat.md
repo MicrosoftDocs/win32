@@ -1,5 +1,5 @@
 ---
-title: MCM\_GETUNICODEFORMAT message
+title: MCM_GETUNICODEFORMAT message
 description: Retrieves the Unicode character format flag for the control. You can send this message explicitly or use the MonthCal\_GetUnicodeFormat macro.
 ms.assetid: 28261e11-0fd0-407e-9f62-446536d62460
 keywords:

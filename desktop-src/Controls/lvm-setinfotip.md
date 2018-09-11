@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETINFOTIP message
+title: LVM_SETINFOTIP message
 description: Sets tooltip text in delayed response to the LVN\_GETINFOTIP notification.
 ms.assetid: 3dbf6a9a-52ec-4619-9c70-041e75942e20
 keywords:
@@ -31,7 +31,7 @@ Sets tooltip text in delayed response to the [LVN\_GETINFOTIP](lvn-getinfotip.md
 </dt> <dd>Must be zero.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a [**LVSETINFOTIP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvsetinfotip) structure that contains the information to set.</dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvsetinfotip">LVSETINFOTIP</a> structure that contains the information to set.</dd> </dl>
 
 ## Return value
 

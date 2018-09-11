@@ -1,5 +1,5 @@
 ---
-title: TB\_INSERTBUTTON message
+title: TB_INSERTBUTTON message
 description: Inserts a button in a toolbar.
 ms.assetid: 6be27817-5d86-4649-bd63-173845197763
 keywords:

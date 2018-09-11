@@ -1,5 +1,5 @@
 ---
-title: TB\_GETRECT message
+title: TB_GETRECT message
 description: Retrieves the bounding rectangle for a specified toolbar button.
 ms.assetid: a93885eb-7eb7-4434-ad51-80fb30d3bfa1
 keywords:

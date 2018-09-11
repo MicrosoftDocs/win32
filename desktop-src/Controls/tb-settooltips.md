@@ -1,5 +1,5 @@
 ---
-title: TB\_SETTOOLTIPS message
+title: TB_SETTOOLTIPS message
 description: Associates a tooltip control with a toolbar.
 ms.assetid: a645f1f2-9333-4e25-985a-107cffb9b97f
 keywords:

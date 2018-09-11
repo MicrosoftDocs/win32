@@ -1,7 +1,7 @@
 ---
 title: TaskDefinition.RegistrationInfo property
 description: For scripting, gets or sets the registration information that is used to describe a task, such as the description of the task, the author of the task, and the date the task is registered.
-ms.assetid: 74a616fe-bc56-4d81-9a79-8f7c719b87c9
+ms.assetid: '69557c0f-ffa0-452f-88c0-266dad2c744d'
 keywords:
 - RegistrationInfo property Task Scheduler
 - RegistrationInfo property Task Scheduler , TaskDefinition object

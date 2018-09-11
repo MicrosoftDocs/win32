@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionBrokerTarget class
+title: Win32_SessionBrokerTarget class
 description: Defines the query for a session broker target.
 audience: developer
 author: REDMOND\\markl

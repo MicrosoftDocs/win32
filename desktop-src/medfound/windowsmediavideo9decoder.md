@@ -107,49 +107,49 @@ The Windows Media Video decoder supports the following properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MFPKEY_DECODER_DEINTERLACING](mfpkey-decoder-deinterlacingproperty.md)</td>
+<td><a href="mfpkey-decoder-deinterlacingproperty">MFPKEY_DECODER_DEINTERLACING</a></td>
 <td>Specifies whether the codec decodes interlaced video frames from the compressed stream as progressive frames.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[MFPKEY_DXVA_ENABLED](mfpkey-dxva-enabledproperty.md)</td>
+<td><a href="mfpkey-dxva-enabledproperty">MFPKEY_DXVA_ENABLED</a></td>
 <td>Specifies whether the decoder will use DirectX video acceleration hardware, if available.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[MFPKEY_AVDecVideoSWPowerLevel](mfpkey-avdecvideoswpowerlevelproperty.md)</td>
+<td><a href="mfpkey-avdecvideoswpowerlevelproperty">MFPKEY_AVDecVideoSWPowerLevel</a></td>
 <td>Specifies the power level for the decoder.<br/> <dl> Windows 7.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[MFPKEY_FI_ENABLED](mfpkey-fi-enabledproperty.md)</td>
+<td><a href="mfpkey-fi-enabledproperty">MFPKEY_FI_ENABLED</a></td>
 <td>Specifies whether the decoder should use frame interpolation.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[MFPKEY_FI_SUPPORTED](mfpkey-fi-supportedproperty.md)</td>
+<td><a href="mfpkey-fi-supportedproperty">MFPKEY_FI_SUPPORTED</a></td>
 <td>Specifies whether the decoder supports frame interpolation.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[MFPKEY_NUMTHREADSDEC](mfpkey-numthreadsdecproperty.md)</td>
+<td><a href="mfpkey-numthreadsdecproperty">MFPKEY_NUMTHREADSDEC</a></td>
 <td>Specifies the number of threads that the decoder will use.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[MFPKEY_POSTPROCESSMODE](mfpkey-postprocessmodeproperty.md)</td>
+<td><a href="mfpkey-postprocessmodeproperty">MFPKEY_POSTPROCESSMODE</a></td>
 <td>Specifies the post processing mode for the decoder.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
@@ -159,10 +159,10 @@ Write-only.<br />
 <td><strong>g_wszWMVCNeedsDrain</strong></td>
 <td>Specifies whether the decoder should be drained.<br/> <dl> Windows 8<br />
 Read-only.<br />
-</dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see [Basic MFT Processing Model](basic-mft-processing-model.md).<br/>
+</dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see <a href="basic-mft-processing-model">Basic MFT Processing Model</a>.<br/>
 <blockquote>
 [!Note]<br />
-To query this property, use the [<strong>IPropertyBag</strong>](https://msdn.microsoft.com/en-us/library/ms679668(v=VS.85).aspx) interface.
+To query this property, use the <a href="https://msdn.microsoft.com/en-us/library/ms679668(v=VS.85).aspx"><strong>IPropertyBag</strong></a> interface.
 </blockquote>
 <br/></td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 Description: Specifies information about the video signal, other than the protection level.
 ms.assetid: ed78b7eb-bf15-4068-ab86-ae42a5e62096
-title: OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING
+title: OPM_SET_ACP_AND_CGMSA_SIGNALING
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

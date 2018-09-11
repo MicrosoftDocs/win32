@@ -1,7 +1,7 @@
 ---
 title: unfreeze command
 description: The unfreeze command reenables video acquisition to the frame buffer after it has been disabled by the freeze command. Digital-video, VCR, and video-overlay devices recognize this command.
-ms.assetid: 79ff1be5-6e30-4ef4-ab81-fc5643e3a72d
+ms.assetid: 'ca90c299-2003-44cb-a879-4bc767480965'
 keywords:
 - unfreeze command Windows Multimedia
 topic_type:

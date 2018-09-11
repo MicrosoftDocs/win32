@@ -1,7 +1,7 @@
 ---
 Description: Creates a new planned computer system based on the specified virtual machine definition.
 ms.assetid: 885d399f-5bcf-4f34-b2f1-582cbfcd7c10
-title: ImportSystemDefinition method of the Msvm\_VirtualSystemManagementService class
+title: ImportSystemDefinition method of the Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: XTYP\_ADVSTART transaction
+title: XTYP_ADVSTART transaction
 description: A client uses the XTYP\_ADVSTART transaction to establish an advise loop with a server.
 ms.assetid: 8911e722-5656-4ca6-8b0a-6bdf8281611a
 keywords:

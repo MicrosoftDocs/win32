@@ -1,5 +1,5 @@
 ---
-title: LM\_GETIDEALHEIGHT message
+title: LM_GETIDEALHEIGHT message
 description: Retrieves the preferred height of a link for the control's current width.
 ms.assetid: bf6ef3c1-89bc-4c56-9384-085fd00234e1
 keywords:

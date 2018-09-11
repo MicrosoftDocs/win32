@@ -1,6 +1,6 @@
 ---
 Description: The X.509 version 3 certificate format identifies multiple extensions that can be added to a certificate.
-ms.assetid: ca8df7a4-caa4-4fe7-81a8-8fce372454f4
+ms.assetid: 'f2a6854d-1831-489f-adf6-31a0b26511e3'
 title: Extensions
 ms.technology: desktop
 ms.prod: windows

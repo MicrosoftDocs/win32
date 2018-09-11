@@ -1,7 +1,7 @@
 ---
 title: Windows 10
 description: This Cookbook provides info for developers about platform changes to the Windows 10 operating systems (OS).
-ms.assetid: E6240CF0-5A65-4A66-98AE-856C783EB320
+ms.assetid: 'bf8d7d10-bab6-4711-b65f-5393d906e47b'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -46,7 +46,7 @@ We invite you to check out these topics to learn how to optimize your apps and t
 
 ## Download the cookbook
 
-For a quick reference to all this information, as well as information on Windows as a service, supporting apps in Windows, and optimized strategies for testing your app, [download the Windows 10 Compatibility Cookbook](http://download.microsoft.com/download/3/D/3/3D36E358-A7E4-4DA3-9FC4-6E85C850A6C6/Windows 10 Compatibility Cookbook.docx).
+For a quick reference to all this information, as well as information on Windows as a service, supporting apps in Windows, and optimized strategies for testing your app, [download the Windows 10 Compatibility Cookbook](http://download.microsoft.com/download/3/D/3/3D36E358-A7E4-4DA3-9FC4-6E85C850A6C6/Windows%2010%20Compatibility%20Cookbook.docx).
 
 ## See Also
 

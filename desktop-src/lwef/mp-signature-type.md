@@ -1,5 +1,5 @@
 ---
-title: MP\_SIGNATURE\_TYPE enumeration
+title: MP_SIGNATURE_TYPE enumeration
 description: Possible signature types.
 ms.assetid: 44B195A8-866D-4B87-9576-54E00658F9B3
 keywords:

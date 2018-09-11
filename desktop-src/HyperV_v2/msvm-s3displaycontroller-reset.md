@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: bd28a4be-7dec-4520-a917-3fcbb566b1d8
-title: Reset method of the Msvm\_S3DisplayController class
+title: Reset method of the Msvm_S3DisplayController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

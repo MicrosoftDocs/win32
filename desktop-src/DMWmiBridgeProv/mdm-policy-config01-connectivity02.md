@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Connectivity02 class
+title: MDM_Policy_Config01_Connectivity02 class
 description: The MDM\_Policy\_Config01\_Connectivity02 class represents the connection policies available.
 ms.assetid: 670e48c2-1af1-45e9-81c6-cdf3a310240f
 keywords:

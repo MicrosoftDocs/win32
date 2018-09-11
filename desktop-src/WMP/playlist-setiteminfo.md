@@ -1,7 +1,7 @@
 ---
 title: Playlist.setItemInfo method
 description: The setItemInfo method specifies the value of a playlist attribute.
-ms.assetid: fd812af6-0bdf-4da4-a066-4411d0d9e259
+ms.assetid: 'ffecb43f-343d-4a4f-9356-0e3cfa85ce77'
 keywords:
 - setItemInfo method Windows Media Player
 - setItemInfo method Windows Media Player , Playlist class

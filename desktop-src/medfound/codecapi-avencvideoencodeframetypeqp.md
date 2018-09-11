@@ -1,7 +1,7 @@
 ---
 Description: Specifies the frame types (I, P, or B) that the quantization parameter (QP) is applied to.
 ms.assetid: 6331033F-7EEB-41B3-B166-29686D4AADB6
-title: CODECAPI\_AVEncVideoEncodeFrameTypeQP property
+title: CODECAPI_AVEncVideoEncodeFrameTypeQP property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

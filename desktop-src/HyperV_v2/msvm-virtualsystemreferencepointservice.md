@@ -1,7 +1,7 @@
 ---
 Description: Describes a virtual system reference point service.
 ms.assetid: 888ecd21-4b59-46a9-b2e1-538e30dd2d1c
-title: Msvm\_VirtualSystemReferencePointService class
+title: Msvm_VirtualSystemReferencePointService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 title: ConnectionStatusChanged event
 description: Occurs when the device’s network connection status changes.
-ms.assetid: FFAA0981-508C-4300-9CA9-24C6AFC1183D
+ms.assetid: 'd1f04fa5-895e-4e86-9643-e880388dcded'
 keywords:
 - ConnectionStatusChanged event Media Streaming API
 topic_type:

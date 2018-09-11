@@ -1,7 +1,7 @@
 ---
 title: SystemRestore class
 description: Provides methods for disabling and enabling monitoring, listing available restore points, and initiating a restore on the local system.
-ms.assetid: 30e1ff03-816c-463f-9f80-6d84149f0e0b
+ms.assetid: '87216a56-6d40-44ea-a1ab-d43590b639a4'
 keywords:
 - SystemRestore class System Restore
 - SystemRestore class System Restore , described

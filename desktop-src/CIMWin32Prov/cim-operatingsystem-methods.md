@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_OperatingSystem Methods
+title: CIM_OperatingSystem Methods
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

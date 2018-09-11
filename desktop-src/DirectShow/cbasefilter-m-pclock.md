@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the filter's reference clock.
 ms.assetid: 164ea59d-d36d-41ab-9e25-815b30e21e95
-title: CBaseFilter::m\_pClock member
+title: CBaseFilter::m_pClock member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

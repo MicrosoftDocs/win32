@@ -1,7 +1,7 @@
 ---
 title: Media.getItemInfoByAtom method
 description: The getItemInfoByAtom method retrieves the value of the attribute with the specified index number.
-ms.assetid: c2e803df-84f2-4c23-9872-a5435977d189
+ms.assetid: '6e2dea0c-c722-4737-9e8e-f5cb74156cea'
 keywords:
 - getItemInfoByAtom method Windows Media Player
 - getItemInfoByAtom method Windows Media Player , Media class

@@ -1,5 +1,5 @@
 ---
-title: TBM\_GETLINESIZE message
+title: TBM_GETLINESIZE message
 description: Retrieves the number of logical positions the trackbar's slider moves in response to keyboard input from the arrow keys, such as the or keys. The logical positions are the integer increments in the trackbar's range of minimum to maximum slider positions.
 ms.assetid: b596060a-5bac-4b31-82f3-ee4744a9779c
 keywords:

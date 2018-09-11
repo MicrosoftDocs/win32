@@ -1,5 +1,5 @@
 ---
-title: CHANGE\_LOG\_ENTRY structure
+title: CHANGE_LOG_ENTRY structure
 description: A change log entry.
 ms.assetid: adbdc6e6-895e-486d-a194-c74d2cbd0052
 keywords:

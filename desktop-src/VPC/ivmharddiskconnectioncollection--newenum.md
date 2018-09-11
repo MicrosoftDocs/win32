@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnectionCollection \_NewEnum property
+title: IVMHardDiskConnectionCollection _NewEnum property
 description: Retrieves an enumerator for the collection.
 ms.assetid: 9302f536-de25-4aac-88cf-9f4af6efcda7
 keywords:

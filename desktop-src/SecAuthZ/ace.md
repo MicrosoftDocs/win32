@@ -1,6 +1,6 @@
 ---
 Description: Lists the currently defined ACE types.
-ms.assetid: 002a3fa7-02a3-4832-948e-b048f5f5818f
+ms.assetid: '980b8242-2ba2-469f-b834-da7d3fb22e14'
 title: ACE
 ms.technology: desktop
 ms.prod: windows
@@ -35,7 +35,7 @@ The following table lists the currently defined **ACE** types.
 <td><ul>
 <li>Access allowed</li>
 </ul></td>
-<td>[<strong>ACCESS_ALLOWED_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_allowed_ace"><strong>ACCESS_ALLOWED_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="even">
@@ -43,7 +43,7 @@ The following table lists the currently defined **ACE** types.
 <li>Access allowed</li>
 <li>Allows callback during access check</li>
 </ul></td>
-<td>[<strong>ACCESS_ALLOWED_CALLBACK_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_callback_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_allowed_callback_ace"><strong>ACCESS_ALLOWED_CALLBACK_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ The following table lists the currently defined **ACE** types.
 <li>Access allowed</li>
 <li>Object specific</li>
 </ul></td>
-<td>[<strong>ACCESS_ALLOWED_OBJECT_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_object_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_allowed_object_ace"><strong>ACCESS_ALLOWED_OBJECT_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="even">
@@ -60,14 +60,14 @@ The following table lists the currently defined **ACE** types.
 <li>Object specific</li>
 <li>Allows callback during access check</li>
 </ul></td>
-<td>[<strong>ACCESS_ALLOWED_CALLBACK_OBJECT_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_access_allowed_callback_object_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_allowed_callback_object_ace"><strong>ACCESS_ALLOWED_CALLBACK_OBJECT_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="odd">
 <td><ul>
 <li>Access denied</li>
 </ul></td>
-<td>[<strong>ACCESS_DENIED_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_access_denied_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_denied_ace"><strong>ACCESS_DENIED_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="even">
@@ -75,7 +75,7 @@ The following table lists the currently defined **ACE** types.
 <li>Access denied</li>
 <li>Allows callback during access check</li>
 </ul></td>
-<td>[<strong>ACCESS_DENIED_CALLBACK_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_access_denied_callback_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_denied_callback_ace"><strong>ACCESS_DENIED_CALLBACK_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="odd">
@@ -84,7 +84,7 @@ The following table lists the currently defined **ACE** types.
 <li>Object specific</li>
 <li>Allows callback during access check</li>
 </ul></td>
-<td>[<strong>ACCESS_DENIED_CALLBACK_OBJECT_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_access_denied_callback_object_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_denied_callback_object_ace"><strong>ACCESS_DENIED_CALLBACK_OBJECT_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="even">
@@ -92,14 +92,14 @@ The following table lists the currently defined **ACE** types.
 <li>Access denied</li>
 <li>Object specific</li>
 </ul></td>
-<td>[<strong>ACCESS_DENIED_OBJECT_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_access_denied_object_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_access_denied_object_ace"><strong>ACCESS_DENIED_OBJECT_ACE</strong></a></td>
 <td>Discretionary</td>
 </tr>
 <tr class="odd">
 <td><ul>
 <li>System alarm</li>
 </ul></td>
-<td>[<strong>SYSTEM_ALARM_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_system_alarm_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_system_alarm_ace"><strong>SYSTEM_ALARM_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="even">
@@ -107,7 +107,7 @@ The following table lists the currently defined **ACE** types.
 <li>System alarm</li>
 <li>Allows callback during access check</li>
 </ul></td>
-<td>[<strong>SYSTEM_ALARM_CALLBACK_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_system_alarm_callback_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_system_alarm_callback_ace"><strong>SYSTEM_ALARM_CALLBACK_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="odd">
@@ -116,7 +116,7 @@ The following table lists the currently defined **ACE** types.
 <li>Object specific</li>
 <li>Allows callback during access check</li>
 </ul></td>
-<td>[<strong>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_system_alarm_callback_object_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_system_alarm_callback_object_ace"><strong>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="even">
@@ -124,14 +124,14 @@ The following table lists the currently defined **ACE** types.
 <li>System alarm</li>
 <li>Object specific</li>
 </ul></td>
-<td>[<strong>SYSTEM_ALARM_OBJECT_ACE</strong>](https://msdn.microsoft.com/en-us/library/Aa379615(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Aa379615(v=VS.85).aspx"><strong>SYSTEM_ALARM_OBJECT_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="odd">
 <td><ul>
 <li>System audit</li>
 </ul></td>
-<td>[<strong>SYSTEM_AUDIT_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_system_audit_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_system_audit_ace"><strong>SYSTEM_AUDIT_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="even">
@@ -139,7 +139,7 @@ The following table lists the currently defined **ACE** types.
 <li>System audit</li>
 <li>Allows callback during access check</li>
 </ul></td>
-<td>[<strong>SYSTEM_AUDIT_CALLBACK_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_system_audit_callback_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_system_audit_callback_ace"><strong>SYSTEM_AUDIT_CALLBACK_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="odd">
@@ -148,7 +148,7 @@ The following table lists the currently defined **ACE** types.
 <li>Object specific</li>
 <li>Allows callback during access check</li>
 </ul></td>
-<td>[<strong>SYSTEM_AUDIT_CALLBACK_OBJECT_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_system_audit_callback_object_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_system_audit_callback_object_ace"><strong>SYSTEM_AUDIT_CALLBACK_OBJECT_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="even">
@@ -156,7 +156,7 @@ The following table lists the currently defined **ACE** types.
 <li>System audit</li>
 <li>Object specific</li>
 </ul></td>
-<td>[<strong>SYSTEM_AUDIT_OBJECT_ACE</strong>](/windows/desktop/api/Winnt/ns-winnt-_system_alarm_object_ace)</td>
+<td><a href="/windows/desktop/api/Winnt/ns-winnt-_system_alarm_object_ace"><strong>SYSTEM_AUDIT_OBJECT_ACE</strong></a></td>
 <td>System</td>
 </tr>
 </tbody>

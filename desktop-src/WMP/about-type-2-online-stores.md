@@ -40,7 +40,7 @@ The following sections provide overview information about type 2 online stores.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Service Task Panes](service-task-panes.md)</td>
+<td><a href="service-task-panes">Service Task Panes</a></td>
 <td>Provides general information about the three service task panes that an online store can display in Windows Media Player 10.
 <blockquote>
 [!Note]<br />
@@ -49,35 +49,35 @@ In Windows Media Player 11 there is only one task pane, which is displayed when 
 <br/></td>
 </tr>
 <tr class="even">
-<td>[Purchase Integration for Type 2 Online Stores](purchase-integration-for-type-2-online-stores.md)</td>
+<td><a href="purchase-integration-for-type-2-online-stores">Purchase Integration for Type 2 Online Stores</a></td>
 <td>Describes how online stores handle requests to purchase media content.</td>
 </tr>
 <tr class="odd">
-<td>[Download Manager](download-manager.md)</td>
+<td><a href="download-manager">Download Manager</a></td>
 <td>Describes the Windows Media Player Download Manager.</td>
 </tr>
 <tr class="even">
-<td>[Album Info Integration](album-info-integration.md)</td>
+<td><a href="album-info-integration">Album Info Integration</a></td>
 <td>Describes how an online store handles requests to display album details.</td>
 </tr>
 <tr class="odd">
-<td>[BITS](bits.md)</td>
+<td><a href="bits">BITS</a></td>
 <td>Provides information about using the Windows XP Background Intelligent Transfer Service (BITS) with Windows Media Player.</td>
 </tr>
 <tr class="even">
-<td>[ServiceInfo Document for a Type 2 Online Store](serviceinfo-document-for-a-type-2-online-store.md)</td>
+<td><a href="serviceinfo-document-for-a-type-2-online-store">ServiceInfo Document for a Type 2 Online Store</a></td>
 <td>Describes the document that online stores must author to describe how to configure Windows Media Player.</td>
 </tr>
 <tr class="odd">
-<td>[Test and Production Keys for a Type 2 Online Store](test-and-production-keys-for-a-type-2-online-store.md)</td>
+<td><a href="test-and-production-keys-for-a-type-2-online-store">Test and Production Keys for a Type 2 Online Store</a></td>
 <td>Describes registry entries that an online store must create on the user's computer.</td>
 </tr>
 <tr class="even">
-<td>[Type 2 Online Store Plug-in](type-2-online-store-plug-in.md)</td>
+<td><a href="type-2-online-store-plug-in">Type 2 Online Store Plug-in</a></td>
 <td>Describes the plug-in that is provided by an online store.</td>
 </tr>
 <tr class="odd">
-<td>[Type 2 Online Store Samples](type-2-online-store-samples.md)</td>
+<td><a href="type-2-online-store-samples">Type 2 Online Store Samples</a></td>
 <td>Describes how to view two sample online stores created by Microsoft.</td>
 </tr>
 </tbody>

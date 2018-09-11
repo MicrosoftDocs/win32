@@ -1,5 +1,5 @@
 ---
-title: BM\_SETIMAGE message
+title: BM_SETIMAGE message
 description: Associates a new image (icon or bitmap) with the button.
 ms.assetid: bf05e684-63d0-4583-960b-f329edafb151
 keywords:

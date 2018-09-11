@@ -1,5 +1,5 @@
 ---
-title: LB\_SETHORIZONTALEXTENT message
+title: LB_SETHORIZONTALEXTENT message
 description: Sets the width, in pixels, by which a list box can be scrolled horizontally (the scrollable width).
 ms.assetid: 7d59b6de-2a22-4246-936b-4c669d285392
 keywords:

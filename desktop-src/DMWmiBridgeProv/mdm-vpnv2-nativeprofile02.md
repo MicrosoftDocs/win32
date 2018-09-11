@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_NativeProfile02 class
+title: MDM_VPNv2_NativeProfile02 class
 description: The MDM\_VPNv2\_NativeProfile2 class defines profile information when using a Windows Inbox VPN Protocol (IKEv2, PPTP, L2TP).
 ms.assetid: 50c4adc6-baef-437c-8223-9aeaaec813af
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: '\ define Directive'
+title: ' define Directive'
 description: Preprocessor directive that creates a function-like macro.
 ms.assetid: 73c19cf8-fbc5-444b-a51f-dc9f881f397b
 ms.technology: desktop

@@ -1,5 +1,5 @@
 ---
-title: EM\_SETBKGNDCOLOR message
+title: EM_SETBKGNDCOLOR message
 description: The EM\_SETBKGNDCOLOR message sets the background color for a rich edit control.
 ms.assetid: 0ad191cd-6370-493e-bfe2-5aa8d81ed999
 keywords:

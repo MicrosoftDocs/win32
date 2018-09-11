@@ -1,5 +1,5 @@
 ---
-title: WMDRM\_LICENSE\_FILTER structure
+title: WMDRM_LICENSE_FILTER structure
 description: The WMDRM\_LICENSE\_FILTER structure defines filtering parameters for use when creating a license enumeration.
 ms.assetid: 43bbbfdc-1ec4-44a6-8245-96853bbeea86
 keywords:

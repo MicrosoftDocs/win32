@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.RunEx method
 description: For scripting, runs the registered task immediately using specified flags and a session identifier.
-ms.assetid: d6d09ab1-026d-4ee9-b520-c7702e37504e
+ms.assetid: '427bb51b-ddb1-4e47-9313-297366ba5ab7'
 keywords:
 - RunEx method Task Scheduler
 - RunEx method Task Scheduler , RegisteredTask object

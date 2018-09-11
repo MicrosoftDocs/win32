@@ -1,7 +1,7 @@
 ---
 title: Version
 description: Specifies the version number of the control.
-ms.assetid: ff12c4b3-9548-4135-aaf4-d8b49f9aed41
+ms.assetid: '69ad4647-d39c-4bfd-b027-0a2db8fb3881'
 keywords:
 - Version registry key COM
 ms.technology: desktop

@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCCrisp
+title: g_wszWMVCCrisp
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 2a7527ac-6057-47a1-ab3b-5ccdd6fe8586
 keywords:

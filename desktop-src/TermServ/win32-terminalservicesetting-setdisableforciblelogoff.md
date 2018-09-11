@@ -1,5 +1,5 @@
 ---
-title: SetDisableForcibleLogoff method of the Win32\_TerminalServiceSetting class
+title: SetDisableForcibleLogoff method of the Win32_TerminalServiceSetting class
 description: This method is not supported.
 audience: developer
 author: REDMOND\\markl

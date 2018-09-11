@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_DeviceCompliance02 class
+title: MDM_VPNv2_DeviceCompliance02 class
 description: Reserved for Future Use.
 ms.assetid: f84f4812-3083-46c4-a60c-919ec92c844f
 keywords:

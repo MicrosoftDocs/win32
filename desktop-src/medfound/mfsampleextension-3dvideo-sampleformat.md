@@ -1,7 +1,7 @@
 ---
 Description: Specifies how a 3D video frame is stored in a media sample.
 ms.assetid: 1B996B22-C76B-47E5-8937-1E5E672E32EC
-title: MFSampleExtension\_3DVideo\_SampleFormat attribute
+title: MFSampleExtension_3DVideo_SampleFormat attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

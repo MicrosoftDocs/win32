@@ -1,7 +1,7 @@
 ---
 title: TriggerCollection.Remove method
 description: For scripting, removes the specified trigger from the collection of triggers used by the task.
-ms.assetid: af3e04e6-20ec-412b-a0d2-41d31137dfca
+ms.assetid: '30dccf16-2b4c-4776-9c19-f82ddd859d45'
 keywords:
 - triggers Task Scheduler , removing
 - Remove method Task Scheduler

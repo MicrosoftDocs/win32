@@ -1,5 +1,5 @@
 ---
-title: PauseZone method of the MicrosoftDNS\_Zone class
+title: PauseZone method of the MicrosoftDNS_Zone class
 description: The PauseZone method pauses the DNS Zone.
 ms.assetid: dcca318d-b6fc-4efa-a33f-f9dea1831395
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EM\_GETZOOM message
+title: EM_GETZOOM message
 description: Gets the current zoom ratio of a rich edit control. The zoom ration is always between 1/64 and 64.
 ms.assetid: d4a1daee-4af7-44d1-80d6-0fcaaf3672a8
 keywords:

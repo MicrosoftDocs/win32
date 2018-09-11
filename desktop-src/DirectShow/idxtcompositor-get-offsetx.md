@@ -1,7 +1,7 @@
 ---
 Description: The get\_OffsetX method retrieves the horizontal offset of the target rectangle.
 ms.assetid: a9d8c81b-f978-4b47-9c7f-12cee7c2c40d
-title: IDxtCompositor::get\_OffsetX method
+title: IDxtCompositor::get_OffsetX method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -39,7 +39,7 @@ ms.date: 05/31/2018
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>UiaAddEvent</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaaddevent)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaaddevent"><strong>UiaAddEvent</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the Microsoft UI Automation COM interfaces instead.
@@ -47,7 +47,7 @@ This function is deprecated. Client applications should use the Microsoft UI Aut
 <br/> Adds a listener for events on a node in the UI Automation tree.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaEventAddWindow</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaeventaddwindow)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaeventaddwindow"><strong>UiaEventAddWindow</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -55,7 +55,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Adds a window to the event listener.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<em>UiaEventCallback</em>](/windows/desktop/api/UIAutomationCoreApi/nc-uiautomationcoreapi-uiaeventcallback)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nc-uiautomationcoreapi-uiaeventcallback"><em>UiaEventCallback</em></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -63,7 +63,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> A client-implemented function that is called by UI Automation when an event is raised that the client has subscribed to.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaEventRemoveWindow</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaeventremovewindow)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaeventremovewindow"><strong>UiaEventRemoveWindow</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -71,7 +71,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Removes a window from the event listener.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaFind</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiafind)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiafind"><strong>UiaFind</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -79,7 +79,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Retrieves one or more UI Automation nodes that match the search criteria.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaGetErrorDescription</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiageterrordescription)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiageterrordescription"><strong>UiaGetErrorDescription</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -87,7 +87,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Gets an error string so that it can be passed to the client. This method is not used directly by clients.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaGetPatternProvider</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetpatternprovider)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetpatternprovider"><strong>UiaGetPatternProvider</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -95,7 +95,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Retrieves a <em>control pattern</em>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaGetPropertyValue</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetpropertyvalue)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetpropertyvalue"><strong>UiaGetPropertyValue</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -103,7 +103,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Retrieves the value of a UI Automation property.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaGetRootNode</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetrootnode)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetrootnode"><strong>UiaGetRootNode</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -111,7 +111,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Retrieves the root UI Automation node.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaGetRuntimeId</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetruntimeid)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetruntimeid"><strong>UiaGetRuntimeId</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -119,7 +119,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Retrieves the runtime identifier of a UI Automation node.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaGetUpdatedCache</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetupdatedcache)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetupdatedcache"><strong>UiaGetUpdatedCache</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -127,31 +127,31 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Updates the cache of property values and control patterns.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaHPatternObjectFromVariant</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiahpatternobjectfromvariant)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiahpatternobjectfromvariant"><strong>UiaHPatternObjectFromVariant</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
 </blockquote>
-<br/> Gets a control pattern object from a [<strong>VARIANT</strong>](https://msdn.microsoft.com/library/windows/desktop/ms221627) type.<br/></td>
+<br/> Gets a control pattern object from a <a href="https://msdn.microsoft.com/library/windows/desktop/ms221627"><strong>VARIANT</strong></a> type.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaHTextRangeFromVariant</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiahtextrangefromvariant)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiahtextrangefromvariant"><strong>UiaHTextRangeFromVariant</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
 </blockquote>
-<br/> Gets a text range from a [<strong>VARIANT</strong>](https://msdn.microsoft.com/library/windows/desktop/ms221627) type.<br/></td>
+<br/> Gets a text range from a <a href="https://msdn.microsoft.com/library/windows/desktop/ms221627"><strong>VARIANT</strong></a> type.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaHUiaNodeFromVariant</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiahuianodefromvariant)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiahuianodefromvariant"><strong>UiaHUiaNodeFromVariant</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
 </blockquote>
-<br/> Gets an HUIANODE from a [<strong>VARIANT</strong>](https://msdn.microsoft.com/library/windows/desktop/ms221627) type.<br/></td>
+<br/> Gets an HUIANODE from a <a href="https://msdn.microsoft.com/library/windows/desktop/ms221627"><strong>VARIANT</strong></a> type.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaLookupId</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid"><strong>UiaLookupId</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -159,7 +159,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Gets the integer identifier that can be used in methods that require a PROPERTYID, PATTERNID, CONTROLTYPEID, TEXTATTRIBUTEID, or EVENTID.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaNavigate</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianavigate)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianavigate"><strong>UiaNavigate</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -167,7 +167,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Navigates in the UI Automation tree, optionally retrieving cached information.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaNodeFromFocus</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianodefromfocus)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianodefromfocus"><strong>UiaNodeFromFocus</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -175,7 +175,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Retrieves the UI Automation node for the UI element that currently has input focus.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaNodeFromHandle</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianodefromhandle)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianodefromhandle"><strong>UiaNodeFromHandle</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -183,7 +183,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Retrieves the UI Automation node associated with a window.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaNodeFromPoint</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianodefrompoint)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianodefrompoint"><strong>UiaNodeFromPoint</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -191,7 +191,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Retrieves the UI Automation node for the element at the specified point.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaNodeFromProvider</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianodefromprovider)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianodefromprovider"><strong>UiaNodeFromProvider</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -199,7 +199,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Retrieves the UI Automation node for a raw element provider.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaNodeRelease</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianoderelease)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uianoderelease"><strong>UiaNodeRelease</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -207,7 +207,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Deletes a node from memory.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaPatternRelease</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiapatternrelease)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiapatternrelease"><strong>UiaPatternRelease</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -215,7 +215,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Deletes an allocated pattern object from memory.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<em>UiaProviderCallback</em>](/windows/desktop/api/UIAutomationCoreApi/nc-uiautomationcoreapi-uiaprovidercallback)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nc-uiautomationcoreapi-uiaprovidercallback"><em>UiaProviderCallback</em></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -223,7 +223,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> An application-defined function that is called by UI Automation to obtain a client-side provider for an element.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaRectIsEmpty</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiarectisempty)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiarectisempty"><strong>UiaRectIsEmpty</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -231,15 +231,15 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Gets a Boolean value that specifies whether a rectangle has all its coordinates set to 0.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaRectSetEmpty</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiarectsetempty)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiarectsetempty"><strong>UiaRectSetEmpty</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
 </blockquote>
-<br/> Sets the elements of a [<strong>UiaRect</strong>](/windows/desktop/api/UIAutomationCore/ns-uiautomationcore-uiarect) structure to 0.<br/></td>
+<br/> Sets the elements of a <a href="/windows/desktop/api/UIAutomationCore/ns-uiautomationcore-uiarect"><strong>UiaRect</strong></a> structure to 0.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaRegisterProviderCallback</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaregisterprovidercallback)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaregisterprovidercallback"><strong>UiaRegisterProviderCallback</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -247,7 +247,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Registers the application-defined method that is called by UI Automation to obtain a provider for an element.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaRemoveEvent</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaremoveevent)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaremoveevent"><strong>UiaRemoveEvent</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -255,7 +255,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Removes a listener for events on a node in the UI Automation tree.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaSetFocus</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiasetfocus)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiasetfocus"><strong>UiaSetFocus</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
@@ -263,7 +263,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 <br/> Sets the input focus to the specified element in the UI.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaTextRangeRelease</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiatextrangerelease)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiatextrangerelease"><strong>UiaTextRangeRelease</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.

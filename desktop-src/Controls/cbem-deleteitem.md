@@ -1,5 +1,5 @@
 ---
-title: CBEM\_DELETEITEM message
+title: CBEM_DELETEITEM message
 description: Removes an item from a ComboBoxEx control.
 ms.assetid: 688cf388-54ba-4b45-88d7-628da49d8615
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: SetStringProperty method of the Win32\_RDMSVirtualDesktopCollection class
+title: SetStringProperty method of the Win32_RDMSVirtualDesktopCollection class
 description: Updates a string property of a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

@@ -1,6 +1,6 @@
 ---
 Description: Represents a collection of Certificate objects.
-ms.assetid: 16d434fb-54df-4e67-8e69-ff635640f1b2
+ms.assetid: '82011c49-38fb-4261-8fb3-b76859da8a9e'
 title: Certificates object
 ms.technology: desktop
 ms.prod: windows

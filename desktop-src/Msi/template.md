@@ -1,6 +1,6 @@
 ---
 Description: The Template data type is a text string that may contain properties that are enclosed in brackets \[ \]. The template type allows all of the Formatted type formats, plus \[1\] where 1 is a number.
-ms.assetid: 17790b20-bee7-43ac-acc9-9fce8249b81a
+ms.assetid: '1f084596-983e-494f-8697-7b68c78a40a4'
 title: Template
 ms.technology: desktop
 ms.prod: windows

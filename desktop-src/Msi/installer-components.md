@@ -1,6 +1,6 @@
 ---
 Description: The read-only Components property returns a StringList object enumerating the set of installed components for all products.
-ms.assetid: 981a3def-1e59-4703-ad97-c8cd5431375d
+ms.assetid: 'c84e4329-428a-440a-bd65-097588a86932'
 title: Installer.Components property
 ms.technology: desktop
 ms.prod: windows

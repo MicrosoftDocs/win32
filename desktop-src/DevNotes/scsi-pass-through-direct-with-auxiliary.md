@@ -1,7 +1,7 @@
 ---
 Description: Combines a SCSI\_PASS\_THROUGH\_DIRECT structure with sense data and auxiliary information.
 ms.assetid: BA7056D1-0FD6-4769-BCFB-59335A96C503
-title: SCSI\_PASS\_THROUGH\_DIRECT\_WITH\_AUXILIARY structure
+title: SCSI_PASS_THROUGH_DIRECT_WITH_AUXILIARY structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

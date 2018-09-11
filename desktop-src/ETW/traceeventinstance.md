@@ -101,7 +101,7 @@ If the function fails, the return value is one of the [system error codes](https
 <tbody>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_INVALID_FLAGS</strong></dt> </dl></td>
-<td>The <strong>Flags</strong> member of the [<strong>EVENT_INSTANCE_HEADER</strong>](event-instance-header.md) does not contain <strong>WNODE_FLAG_TRACED_GUID</strong>.<br/></td>
+<td>The <strong>Flags</strong> member of the <a href="event-instance-header"><strong>EVENT_INSTANCE_HEADER</strong></a> does not contain <strong>WNODE_FLAG_TRACED_GUID</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_OUTOFMEMORY</strong></dt> </dl></td>
@@ -115,7 +115,7 @@ If the function fails, the return value is one of the [system error codes](https
 <li><em>pInstInfo</em> is <strong>NULL</strong>.</li>
 <li>The members of <em>pInstInfo</em> are <strong>NULL</strong>.</li>
 <li><em>SessionHandle</em> is <strong>NULL</strong>.</li>
-<li>The <strong>Size</strong> member of the [<strong>EVENT_INSTANCE_HEADER</strong>](event-instance-header.md) is incorrect.</li>
+<li>The <strong>Size</strong> member of the <a href="event-instance-header"><strong>EVENT_INSTANCE_HEADER</strong></a> is incorrect.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -124,7 +124,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_NOT_ENOUGH_MEMORY</strong></dt> </dl></td>
-<td>The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, [<strong>TraceEvent</strong>](traceevent.md) discards the event.<br/> <strong>Windows 2000 and Windows XP:</strong> Not supported.<br/></td>
+<td>The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, <a href="traceevent"><strong>TraceEvent</strong></a> discards the event.<br/> <strong>Windows 2000 and Windows XP:</strong> Not supported.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_OUTOFMEMORY</strong></dt> </dl></td>
@@ -132,7 +132,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_MORE_DATA</strong></dt> </dl></td>
-<td>Data from a single event cannot span multiple buffers. A trace event is limited to the size of the event tracing session's buffer minus the size of the [<strong>EVENT_INSTANCE_HEADER</strong>](event-instance-header.md) structure. <br/></td>
+<td>Data from a single event cannot span multiple buffers. A trace event is limited to the size of the event tracing session's buffer minus the size of the <a href="event-instance-header"><strong>EVENT_INSTANCE_HEADER</strong></a> structure. <br/></td>
 </tr>
 </tbody>
 </table>

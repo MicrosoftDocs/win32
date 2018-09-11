@@ -1,5 +1,5 @@
 ---
-title: UI\_ANIMATION\_SECONDS
+title: UI_ANIMATION_SECONDS
 description: The unit of time used for all animations.
 ms.assetid: 0745b227-61c4-462e-8529-9402c9eaa70a
 keywords:

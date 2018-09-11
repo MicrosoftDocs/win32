@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSVirtualDesktopServerSettings class
+title: Win32_TSVirtualDesktopServerSettings class
 description: Contains configuration information for a Remote Desktop Virtualization Host (RD Virtualization Host) server.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 title: info command
 description: The info command retrieves a hardware description from a device. All MCI devices recognize this command.
-ms.assetid: 10d7decf-a133-4d55-93d5-867952307819
+ms.assetid: 'cdd6628b-bff8-4a0d-9dad-a63321f584ea'
 keywords:
 - info command Windows Multimedia
 topic_type:

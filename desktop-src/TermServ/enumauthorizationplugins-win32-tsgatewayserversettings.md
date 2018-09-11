@@ -1,5 +1,5 @@
 ---
-title: EnumAuthorizationPlugins method of the Win32\_TSGatewayServerSettings class
+title: EnumAuthorizationPlugins method of the Win32_TSGatewayServerSettings class
 description: Enumerates all registered authorization plug-ins.
 audience: developer
 author: REDMOND\\markl

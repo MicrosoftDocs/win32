@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.State property
 description: For scripting, gets the operational state of the registered task.
-ms.assetid: b5ac2207-b5c0-42bd-a059-93a2c1f49f33
+ms.assetid: '1acd4946-322f-4f24-b317-92be80e19de5'
 keywords:
 - State property Task Scheduler
 - State property Task Scheduler , RegisteredTask object

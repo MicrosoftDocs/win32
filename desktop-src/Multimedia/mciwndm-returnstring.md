@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_RETURNSTRING message
+title: MCIWNDM_RETURNSTRING message
 description: The MCIWNDM\_RETURNSTRING message retrieves the reply to the most recent MCI string command sent to an MCI device.
 ms.assetid: 36a5222c-a63c-4b8c-ad0c-a00477e95b96
 keywords:

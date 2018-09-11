@@ -1,7 +1,7 @@
 ---
 title: Sinks
 description: Sinks
-ms.assetid: 1b635cd8-6bdd-4592-bfb5-bcdcf7818e18
+ms.assetid: '6781a326-a30a-4d4d-96db-332d0f681a31'
 keywords:
 - Windows Media Format SDK,sinks
 - Windows Media Format SDK,file sinks

@@ -1,7 +1,7 @@
 ---
 title: Tab
 description: This section contains information about the programming elements used with tab controls.
-ms.assetid: 3403acf7-54f6-45dd-ba5e-3b1eeccfb5b2
+ms.assetid: 'vs|controls|~\controls\tab\reflist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

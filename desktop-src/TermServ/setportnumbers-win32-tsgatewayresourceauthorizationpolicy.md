@@ -1,5 +1,5 @@
 ---
-title: SetPortNumbers method of the Win32\_TSGatewayResourceAuthorizationPolicy class
+title: SetPortNumbers method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Sets the port numbers that are allowed to connect to the resource through Remote Desktop Gateway (RD Gateway).
 audience: developer
 author: REDMOND\\markl

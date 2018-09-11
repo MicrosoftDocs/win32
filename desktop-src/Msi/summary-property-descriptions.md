@@ -30,76 +30,76 @@ Summary properties for installation packages, transforms, and patches are descri
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>Title</strong>](title-summary.md)</td>
-<td>A description of this file as an installation package. The description should include the phrase &quot;[Installation Database](about-the-installer-database.md).&quot;</td>
+<td><a href="title-summary"><strong>Title</strong></a></td>
+<td>A description of this file as an installation package. The description should include the phrase &quot;<a href="about-the-installer-database">Installation Database</a>.&quot;</td>
 </tr>
 <tr class="even">
-<td>[<strong>Subject</strong>](subject-summary.md)</td>
-<td>The name of the product installed by this package. This should be the same name as in the [<strong>ProductName</strong>](productname.md) property.</td>
+<td><a href="subject-summary"><strong>Subject</strong></a></td>
+<td>The name of the product installed by this package. This should be the same name as in the <a href="productname"><strong>ProductName</strong></a> property.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Author</strong>](author-summary.md)</td>
-<td>The name of the manufacturer of this product. This should be the same name as in the [<strong>Manufacturer</strong>](manufacturer.md) property.</td>
+<td><a href="author-summary"><strong>Author</strong></a></td>
+<td>The name of the manufacturer of this product. This should be the same name as in the <a href="manufacturer"><strong>Manufacturer</strong></a> property.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Keywords</strong>](keywords-summary.md)</td>
+<td><a href="keywords-summary"><strong>Keywords</strong></a></td>
 <td>A list of keywords that may be used by file browsers to do keyword searches for a file. The keywords should include &quot;Installer&quot; as well as product-specific keywords.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Comments</strong>](comments-summary.md)</td>
+<td><a href="comments-summary"><strong>Comments</strong></a></td>
 <td>Contains the phrase: &quot;This installer database contains the logic and data required to install <<em>product name</em>>.&quot;</td>
 </tr>
 <tr class="even">
-<td>[<strong>Template</strong>](template-summary.md) (REQUIRED)</td>
-<td>The platform and languages compatible with this installation package. See [<strong>Template</strong>](template-summary.md) for syntax.</td>
+<td><a href="template-summary"><strong>Template</strong></a> (REQUIRED)</td>
+<td>The platform and languages compatible with this installation package. See <a href="template-summary"><strong>Template</strong></a> for syntax.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Last Saved By</strong>](last-saved-by-summary.md)</td>
-<td>Developers of database editing tools may use this property during the development process to track the last person to modify the installation database. This property should be set to Null in a final shipping database. The installer sets this property to the value of the [<strong>LogonUser</strong>](logonuser.md) property during an [<strong>administrative installation</strong>](administrative-installation.md). The installer never uses this property and a user never needs to modify it.</td>
+<td><a href="last-saved-by-summary"><strong>Last Saved By</strong></a></td>
+<td>Developers of database editing tools may use this property during the development process to track the last person to modify the installation database. This property should be set to Null in a final shipping database. The installer sets this property to the value of the <a href="logonuser"><strong>LogonUser</strong></a> property during an <a href="administrative-installation"><strong>administrative installation</strong></a>. The installer never uses this property and a user never needs to modify it.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Revision Number</strong>](revision-number-summary.md) (REQUIRED)</td>
-<td>Contains the [package code](package-codes.md) for the installer package.</td>
+<td><a href="revision-number-summary"><strong>Revision Number</strong></a> (REQUIRED)</td>
+<td>Contains the <a href="package-codes">package code</a> for the installer package.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Last Printed</strong>](last-printed-summary.md)</td>
-<td>May be set to the date and time during an [administrative installation](administrative-installation.md) to record when the administrative image was created.</td>
+<td><a href="last-printed-summary"><strong>Last Printed</strong></a></td>
+<td>May be set to the date and time during an <a href="administrative-installation">administrative installation</a> to record when the administrative image was created.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Create Time/Date</strong>](create-time-date-summary.md)</td>
+<td><a href="create-time-date-summary"><strong>Create Time/Date</strong></a></td>
 <td>The time and date when this installer database was created.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Last Saved Time/Date</strong>](last-saved-time-date-summary.md)</td>
+<td><a href="last-saved-time-date-summary"><strong>Last Saved Time/Date</strong></a></td>
 <td>The current system time and date at the time the installer database was last saved. Initially null.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Page Count</strong>](page-count-summary.md) (REQUIRED)</td>
+<td><a href="page-count-summary"><strong>Page Count</strong></a> (REQUIRED)</td>
 <td>Contains a value used to identify the minimum installer version required by this installation package. For example, if the package requires at minimum the 2.0 version of the installer, this property should be set to an integer of 200.
 <blockquote>
 [!Note]<br />
-The value of this property must be 200 or greater with [64-bit Windows Installer Packages](64-bit-windows-installer-packages.md).
+The value of this property must be 200 or greater with <a href="64-bit-windows-installer-packages">64-bit Windows Installer Packages</a>.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Word Count</strong>](word-count-summary.md) (REQUIRED)</td>
-<td>The type of the source file image. Stored in place of the standard Count property. This property is a bit field. See the [<strong>Word Count</strong>](word-count-summary.md) topic for the values.<br/> Starting with Windows Installer version 4.0 on Windows Vista, this property includes bits to specify whether elevated privileges are required.<br/></td>
+<td><a href="word-count-summary"><strong>Word Count</strong></a> (REQUIRED)</td>
+<td>The type of the source file image. Stored in place of the standard Count property. This property is a bit field. See the <a href="word-count-summary"><strong>Word Count</strong></a> topic for the values.<br/> Starting with Windows Installer version 4.0 on Windows Vista, this property includes bits to specify whether elevated privileges are required.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>Character Count</strong>](character-count-summary.md)</td>
+<td><a href="character-count-summary"><strong>Character Count</strong></a></td>
 <td>Null</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Creating Application</strong>](creating-application-summary.md)</td>
+<td><a href="creating-application-summary"><strong>Creating Application</strong></a></td>
 <td>Contains the name of the software used to author this installation database.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Security</strong>](security-summary.md)</td>
+<td><a href="security-summary"><strong>Security</strong></a></td>
 <td>The value of this property should be 2 - Recommended read-only.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Codepage</strong>](codepage-summary.md)</td>
+<td><a href="codepage-summary"><strong>Codepage</strong></a></td>
 <td>The numeric value of the ANSI code page used to display the Summary Information. This property must be set before any string properties are set in the summary information.</td>
 </tr>
 </tbody>
@@ -154,76 +154,76 @@ The value of this property must be 200 or greater with [64-bit Windows Installer
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>Title</strong>](title-summary.md)</td>
-<td>A description of this file as a patch package. The description should include the phrase: &quot;[Patch](patch-packages.md).&quot;</td>
+<td><a href="title-summary"><strong>Title</strong></a></td>
+<td>A description of this file as a patch package. The description should include the phrase: &quot;<a href="patch-packages">Patch</a>.&quot;</td>
 </tr>
 <tr class="even">
-<td>[<strong>Subject</strong>](subject-summary.md)</td>
+<td><a href="subject-summary"><strong>Subject</strong></a></td>
 <td>A description of the patch that includes the name of the product.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Author</strong>](author-summary.md)</td>
+<td><a href="author-summary"><strong>Author</strong></a></td>
 <td>The name of the manufacturer of the patch package.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Keywords</strong>](keywords-summary.md)</td>
+<td><a href="keywords-summary"><strong>Keywords</strong></a></td>
 <td>A semicolon delimited list of sources of the patch.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Comments</strong>](comments-summary.md)</td>
+<td><a href="comments-summary"><strong>Comments</strong></a></td>
 <td>Contains the phrase: &quot;This patch contains the logic and data required to install <<em>product name</em>>.&quot;</td>
 </tr>
 <tr class="even">
-<td>[<strong>Template</strong>](template-summary.md) (REQUIRED)</td>
+<td><a href="template-summary"><strong>Template</strong></a> (REQUIRED)</td>
 <td>A semicolon delimited list of the product codes that can accept this patch.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Last Saved By</strong>](last-saved-by-summary.md)</td>
+<td><a href="last-saved-by-summary"><strong>Last Saved By</strong></a></td>
 <td>A semicolon delimited list of transform substorage names in the order they are applied by this patch.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Revision Number</strong>](revision-number-summary.md) (REQUIRED)</td>
+<td><a href="revision-number-summary"><strong>Revision Number</strong></a> (REQUIRED)</td>
 <td>Contains the GUID patch code for the patch. This may be followed by a list of patch code GUIDs for patches that are removed when this patch is applied. The patch codes are concatenated with no delimiters separating GUIDs in the list.
 <blockquote>
 [!Note]<br />
-If the patch package contains a [<strong>MsiPatchSequence</strong>](msipatchsequence-table.md) table, the patch does not remove patches listed after the current patch's GUID.
+If the patch package contains a <a href="msipatchsequence-table"><strong>MsiPatchSequence</strong></a> table, the patch does not remove patches listed after the current patch's GUID.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Last Printed</strong>](last-printed-summary.md)</td>
+<td><a href="last-printed-summary"><strong>Last Printed</strong></a></td>
 <td>Null</td>
 </tr>
 <tr class="even">
-<td>[<strong>Create Time/Date</strong>](create-time-date-summary.md)</td>
+<td><a href="create-time-date-summary"><strong>Create Time/Date</strong></a></td>
 <td>The time and date when patch file was created.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Last Saved Time/Date</strong>](last-saved-time-date-summary.md)</td>
+<td><a href="last-saved-time-date-summary"><strong>Last Saved Time/Date</strong></a></td>
 <td>The current system time and date at the time the patch package was saved. This value is initially null.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Page Count</strong>](page-count-summary.md) (REQUIRED)</td>
+<td><a href="page-count-summary"><strong>Page Count</strong></a> (REQUIRED)</td>
 <td>Null</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Word Count</strong>](word-count-summary.md) (REQUIRED)</td>
+<td><a href="word-count-summary"><strong>Word Count</strong></a> (REQUIRED)</td>
 <td>Contains a value that indicates the minimum Windows Installer version that is required to install the patch. A patch with a word count value of 4 requires Windows Installer version 3.0 or higher for the patch to be applied. A value of 3 indicates that Windows Installer version 2.0 or higher is required. A value of 2 indicates that Windows Installer version 1.2 or higher is required. The default value is 1.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Character Count</strong>](character-count-summary.md)</td>
+<td><a href="character-count-summary"><strong>Character Count</strong></a></td>
 <td>Null</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Creating Application</strong>](creating-application-summary.md)</td>
+<td><a href="creating-application-summary"><strong>Creating Application</strong></a></td>
 <td>The name of the software used to create the patch.</td>
 </tr>
 <tr class="even">
-<td>[<strong>Security</strong>](security-summary.md)</td>
+<td><a href="security-summary"><strong>Security</strong></a></td>
 <td>The value of this property should be 4 - Enforced read-only.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Codepage</strong>](codepage-summary.md)</td>
+<td><a href="codepage-summary"><strong>Codepage</strong></a></td>
 <td>The numeric value of the ANSI code page used to display the Summary Information. This property must be set before any string properties are set in the summary information.</td>
 </tr>
 </tbody>

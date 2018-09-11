@@ -1,5 +1,5 @@
 ---
-title: EM\_GETTEXTEX message
+title: EM_GETTEXTEX message
 description: Gets the text from a rich edit control.
 ms.assetid: 46431563-fde1-4407-ab7a-b2248c0e12b8
 keywords:

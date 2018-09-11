@@ -1,7 +1,7 @@
 ---
 Description: Specifies the optimal visual quality settings to use for the Windows Media Video 9 Advanced Profile encoder.
 ms.assetid: 9449b5fa-4f13-4c33-bfdf-611720e8dd77
-title: MFPKEY\_COMPRESSIONOPTIMIZATIONTYPE Property
+title: MFPKEY_COMPRESSIONOPTIMIZATIONTYPE Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -51,15 +51,15 @@ This property provides a quick way to configure a number of video encoding optio
 <td>1</td>
 <td>Enables the features that will produce the best visual quality.Using this value configures the codec as if you had set the following properties:<br/>
 <ul>
-<li>[MFPKEY_BDELTAQP](mfpkey-bdeltaqpproperty.md) = 1</li>
-<li>[MFPKEY_COMPLEXITYEX](mfpkey-complexityexproperty.md) = 3</li>
-<li>[MFPKEY_LOOPFILTER](mfpkey-loopfilterproperty.md) = 1</li>
-<li>[MFPKEY_MOTIONMATCHMETHOD](mfpkey-motionmatchmethodproperty.md) = -1</li>
-<li>[MFPKEY_MOTIONSEARCHLEVEL](mfpkey-motionsearchlevelproperty.md) = 1</li>
-<li>[MFPKEY_MOTIONSEARCHRANGE](mfpkey-motionsearchrangeproperty.md) = -1</li>
-<li>[MFPKEY_NUMBFRAMES](mfpkey-numbframesproperty.md) = 1</li>
+<li><a href="mfpkey-bdeltaqpproperty">MFPKEY_BDELTAQP</a> = 1</li>
+<li><a href="mfpkey-complexityexproperty">MFPKEY_COMPLEXITYEX</a> = 3</li>
+<li><a href="mfpkey-loopfilterproperty">MFPKEY_LOOPFILTER</a> = 1</li>
+<li><a href="mfpkey-motionmatchmethodproperty">MFPKEY_MOTIONMATCHMETHOD</a> = -1</li>
+<li><a href="mfpkey-motionsearchlevelproperty">MFPKEY_MOTIONSEARCHLEVEL</a> = 1</li>
+<li><a href="mfpkey-motionsearchrangeproperty">MFPKEY_MOTIONSEARCHRANGE</a> = -1</li>
+<li><a href="mfpkey-numbframesproperty">MFPKEY_NUMBFRAMES</a> = 1</li>
 </ul>
-If you set any of the properties in the previous list, the value you set overrides the values associated with this setting, except for [MFPKEY_COMPLEXITYEX](mfpkey-complexityexproperty.md).<br/></td>
+If you set any of the properties in the previous list, the value you set overrides the values associated with this setting, except for <a href="mfpkey-complexityexproperty">MFPKEY_COMPLEXITYEX</a>.<br/></td>
 </tr>
 </tbody>
 </table>

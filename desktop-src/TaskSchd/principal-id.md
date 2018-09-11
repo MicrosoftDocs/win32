@@ -1,7 +1,7 @@
 ---
 title: Principal.Id property
 description: For scripting, gets or sets the identifier of the principal.
-ms.assetid: 70c31ea8-508a-4971-b62a-b94e87a8857d
+ms.assetid: '54112977-9c30-4c52-bffd-7625eeb79f82'
 keywords:
 - Id property Task Scheduler
 - Id property Task Scheduler , Principal object

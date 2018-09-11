@@ -1,6 +1,6 @@
 ---
 Description: Notifies you that the menu is collapsing.
-title: SMC\_EXITMENU message
+title: SMC_EXITMENU message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

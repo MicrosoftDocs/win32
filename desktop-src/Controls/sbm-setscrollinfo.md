@@ -1,5 +1,5 @@
 ---
-title: SBM\_SETSCROLLINFO message
+title: SBM_SETSCROLLINFO message
 description: The SBM\_SETSCROLLINFO message is sent to set the parameters of a scroll bar.
 ms.assetid: e0e42a81-67be-4d40-88c8-77398b068617
 keywords:

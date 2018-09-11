@@ -1,7 +1,7 @@
 ---
 Description: You can use the WM\_PAINT message to carry out the drawing necessary for displaying information.
 ms.assetid: cc56745f-95d0-4607-a206-1e7ed7109bf0
-title: Using the WM\_PAINT Message
+title: Using the WM_PAINT Message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

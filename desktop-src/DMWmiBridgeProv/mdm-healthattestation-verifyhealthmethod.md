@@ -1,5 +1,5 @@
 ---
-title: VerifyHealthMethod method of the MDM\_HealthAttestation class
+title: VerifyHealthMethod method of the MDM_HealthAttestation class
 description: Method to notify the device to prepare a health certificate verification request. See also, VerifyHealth.
 ms.assetid: f5b11081-c664-4525-8f36-5f17c21e7f22
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Verifies if the replication can be enabled from the current host system to the specified recovery system.
 ms.assetid: 404855d5-9a1f-4079-b46d-b378fafff5bb
-title: TestReplicationConnection method of the Msvm\_ReplicationService class
+title: TestReplicationConnection method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

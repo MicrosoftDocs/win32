@@ -1,6 +1,6 @@
 ---
 Description: WM ASF Reader Filter
-ms.assetid: e698c0da-88b2-497a-8a25-9d3b76c85a7d
+ms.assetid: '82b9f849-b9dc-439b-8ca7-9dcd992338ab'
 title: WM ASF Reader Filter
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 Description: Sent when current Video Title Set (VTS) changes.
 ms.assetid: 7b8849c8-c71e-44d6-b33a-8e80247bdb22
-title: EC\_DVD\_TITLE\_SET\_CHANGE
+title: EC_DVD_TITLE_SET_CHANGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

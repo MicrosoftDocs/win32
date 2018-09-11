@@ -1,6 +1,6 @@
 ---
 Description: Sets the network address types that a specified network address control accepts.
-title: NCM\_SETALLOWTYPE message
+title: NCM_SETALLOWTYPE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -30,7 +30,7 @@ NCM_SETALLOWTYPE
 <dl> <dt>
 
 *addrMask* \[in\]
-</dt> <dd>Specifies the network address types as one or more of the [**NET\_STRING**](net-string.md) constants.</dd> <dt>
+</dt> <dd>Specifies the network address types as one or more of the <a href="net-string">**NET\_STRING**</a> constants.</dd> <dt>
 
 *lParam* 
 </dt> <dd>Must be zero.</dd> </dl>

@@ -1,6 +1,6 @@
 ---
 Description: Defines an effect instance.
-ms.assetid: a3408c0b-b4a6-47b1-b12e-594c13bd3a7d
+ms.assetid: 'vs|directx_sdk|~\effectinstance.htm'
 title: EffectInstance
 ms.technology: desktop
 ms.prod: windows

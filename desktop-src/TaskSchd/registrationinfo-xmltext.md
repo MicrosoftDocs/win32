@@ -1,7 +1,7 @@
 ---
 title: RegistrationInfo.XmlText property
 description: For scripting, gets or sets an XML-formatted version of the registration information for the task.
-ms.assetid: ad7de0d3-c5df-49d7-9cc9-d52e30844615
+ms.assetid: '1e73cdbb-0463-417e-b410-6ac7070de296'
 keywords:
 - XmlText property Task Scheduler
 - XmlText property Task Scheduler , RegistrationInfo object

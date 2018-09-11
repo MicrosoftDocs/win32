@@ -1,5 +1,5 @@
 ---
-title: BrokenConnection method of the Win32\_TSSessionSetting class
+title: BrokenConnection method of the Win32_TSSessionSetting class
 description: Sets the BrokenConnectionAction property, which is the action the server takes if the session time-limit is reached or if the connection is broken.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 title: open command
 description: The open command initializes a device. All MCI devices recognize this command.
-ms.assetid: a2b98e82-be7a-4e14-bc74-4926eb663ef9
+ms.assetid: '0bb97c8c-8222-4d4e-b20b-94e9f9095afe'
 keywords:
 - open command Windows Multimedia
 topic_type:

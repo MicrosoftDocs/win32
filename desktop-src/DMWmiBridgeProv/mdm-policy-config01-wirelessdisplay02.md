@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_WirelessDisplay02 class
+title: MDM_Policy_Config01_WirelessDisplay02 class
 description: The MDM\_Policy\_Config01\_WirelessDisplay02 class represents the wireless display policies available.
 ms.assetid: 24b72ed9-cc14-4318-a9d1-597976083242
 keywords:

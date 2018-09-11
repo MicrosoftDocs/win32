@@ -1,5 +1,5 @@
 ---
-title: InstallAgreementLicenseKeyPack method of the Win32\_TSLicenseKeyPack class
+title: InstallAgreementLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Installs a Remote Desktop Services license key pack that was purchased through a license agreement, and automatically connects over the Internet to validate the key pack license.
 audience: developer
 author: REDMOND\\markl

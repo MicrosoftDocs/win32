@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Defender02 class
+title: MDM_Policy_Config01_Defender02 class
 description: The MDM\_Policy\_Config01\_Defender02class represents policies related to Windows Defender.
 ms.assetid: 6d9d4edd-fcb6-45ea-bc5d-1bffb9cf8740
 keywords:

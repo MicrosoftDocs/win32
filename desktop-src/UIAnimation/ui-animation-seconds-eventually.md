@@ -1,5 +1,5 @@
 ---
-title: UI\_ANIMATION\_SECONDS\_EVENTUALLY
+title: UI_ANIMATION_SECONDS_EVENTUALLY
 description: Indicates that Windows Animation can delay the scheduled start of a storyboard for as much time as necessary to avoid scheduling conflicts.
 ms.assetid: 9971A612-69D7-49AB-8865-B8F29C4CD4C8
 topic_type:

@@ -1,6 +1,6 @@
 ---
 Description: Sent to a File Manager extension DLL procedure when File Manager wants a Help string for a menu or toolbar command item.
-title: FMEVENT\_HELPSTRING message
+title: FMEVENT_HELPSTRING message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

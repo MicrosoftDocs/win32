@@ -1,7 +1,7 @@
 ---
 Description: Represents a collection that provides computing capabilities and consists of CIM\_ManagedSystemElement objects.
 ms.assetid: 410be43f-3368-4109-8b29-7b7cc2a3ec1b
-title: CIM\_ComputerSystem class
+title: CIM_ComputerSystem class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

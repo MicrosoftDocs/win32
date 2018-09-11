@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETERROR message
+title: MCIWNDM_GETERROR message
 description: The MCIWNDM\_GETERROR message retrieves the last MCI error encountered. You can send this message explicitly or by using the MCIWndGetError macro.
 ms.assetid: f110a9b3-5b05-4bf0-85d1-b49ce7396222
 keywords:

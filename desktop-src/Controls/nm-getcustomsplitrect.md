@@ -1,5 +1,5 @@
 ---
-title: NM\_GETCUSTOMSPLITRECT notification code
+title: NM_GETCUSTOMSPLITRECT notification code
 description: Sent by a button control to its parent to get measurements for the two rectangles of the split button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ce72778d-3cca-46a4-9d05-40954a18681d
 keywords:

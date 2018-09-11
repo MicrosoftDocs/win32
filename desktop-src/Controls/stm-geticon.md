@@ -1,5 +1,5 @@
 ---
-title: STM\_GETICON message
+title: STM_GETICON message
 description: An application sends the STM\_GETICON message to retrieve a handle to the icon associated with a static control that has the SS\_ICON style.
 ms.assetid: e6b0a006-696b-401d-b894-b1db697c8939
 keywords:

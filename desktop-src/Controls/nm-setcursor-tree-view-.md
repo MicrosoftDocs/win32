@@ -1,5 +1,5 @@
 ---
-title: NM\_SETCURSOR (tree view) notification code
+title: NM_SETCURSOR (tree view) notification code
 description: Notifies a tree-view control's parent window that the control is setting the cursor in response to a WM\_SETCURSOR message. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 2b2f2e90-edef-484d-b67a-12983a1cde29
 keywords:

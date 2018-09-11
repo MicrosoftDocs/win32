@@ -36,8 +36,8 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 <tbody>
 <tr class="odd">
 <td><strong>dwSize</strong></td>
-<td>Must be set to <strong>sizeof</strong>([<strong>WSAQUERYSET</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741679)).</td>
-<td><strong>sizeof</strong>([<strong>WSAQUERYSET</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741679)) returned by system.</td>
+<td>Must be set to <strong>sizeof</strong>(<a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a>).</td>
+<td><strong>sizeof</strong>(<a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a>) returned by system.</td>
 </tr>
 <tr class="even">
 <td><strong>dwOutputFlags</strong></td>
@@ -76,7 +76,7 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 </tr>
 <tr class="odd">
 <td><strong>lpszContext</strong></td>
-<td>Required. The Bluetooth Device Address with which to establish an SDP connection and query for services. This value must be a string that was converted by using the [<strong>WSAAddressToString</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741516) function call. If the local Bluetooth device address is provided, the local SDP database is searched.</td>
+<td>Required. The Bluetooth Device Address with which to establish an SDP connection and query for services. This value must be a string that was converted by using the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741516"><strong>WSAAddressToString</strong></a> function call. If the local Bluetooth device address is provided, the local SDP database is searched.</td>
 <td>Not used.</td>
 </tr>
 <tr class="even">
@@ -97,19 +97,19 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 <tr class="odd">
 <td><strong>dwNumberOfCsAddrs</strong></td>
 <td>Not used.</td>
-<td>Indicates the number of elements in the array of [<strong>CSADDR_INFO</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737640) structures.</td>
+<td>Indicates the number of elements in the array of <a href="https://msdn.microsoft.com/library/windows/desktop/ms737640"><strong>CSADDR_INFO</strong></a> structures.</td>
 </tr>
 <tr class="even">
 <td><strong>lpcsaBuffer</strong></td>
 <td>Not used.</td>
-<td>Pointer to a [<strong>CSADDR_INFO</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737640) structure whose <strong>LocalAddr.lpSockaddr</strong> member points to a [<strong>SOCKADDR_BTH</strong>](/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth) that contains the complete connectable address of the remote service, converted from the first entry of the Bluetooth ProtocolDescriptorList SDP attribute. Returned if <strong>LUP_RETURN_ADDR</strong> is specified.</td>
+<td>Pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/ms737640"><strong>CSADDR_INFO</strong></a> structure whose <strong>LocalAddr.lpSockaddr</strong> member points to a <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth"><strong>SOCKADDR_BTH</strong></a> that contains the complete connectable address of the remote service, converted from the first entry of the Bluetooth ProtocolDescriptorList SDP attribute. Returned if <strong>LUP_RETURN_ADDR</strong> is specified.</td>
 </tr>
 <tr class="odd">
 <td><strong>lpBlob</strong></td>
-<td>Optional. Pointer to a [<strong>BTH_QUERY_SERVICE</strong>](/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service) structure that contains advanced parameters to limit the results of the search. If provided, <strong>lpServiceClassId</strong> is ignored and cached queries do not succeed.</td>
+<td>Optional. Pointer to a <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service"><strong>BTH_QUERY_SERVICE</strong></a> structure that contains advanced parameters to limit the results of the search. If provided, <strong>lpServiceClassId</strong> is ignored and cached queries do not succeed.</td>
 <td><ul>
-<li>If a service search is performed: Pointer to a [<strong>BLOB</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure that returns the service handles. (<strong>BLOB.cbSize</strong>)/<strong>sizeof</strong>(ULONG) calculates the number of handles. <strong>BLOB.pBlobData</strong> is an array of ULONG values representing the service handles.</li>
-<li>If an attribute or serviceAttribute search is performed: Pointer to a [<strong>BLOB</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure that returns the binary SDP record. <strong>BLOB.cbSize</strong> is the size of the binary SDP record. <strong>BLOB.pBlobData</strong> points to the record itself. The binary SDP record is necessary in many cases because only a limited number of SDP attributes are able to be converted to the [<strong>WSAQUERYSET</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure, and only default encoded UTF-8 strings are converted. Functions to assist in parsing the binary SDP record are provided in the [Bluetooth Reference](bluetooth-reference.md) section.</li>
+<li>If a service search is performed: Pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/ms737551"><strong>BLOB</strong></a> structure that returns the service handles. (<strong>BLOB.cbSize</strong>)/<strong>sizeof</strong>(ULONG) calculates the number of handles. <strong>BLOB.pBlobData</strong> is an array of ULONG values representing the service handles.</li>
+<li>If an attribute or serviceAttribute search is performed: Pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/ms737551"><strong>BLOB</strong></a> structure that returns the binary SDP record. <strong>BLOB.cbSize</strong> is the size of the binary SDP record. <strong>BLOB.pBlobData</strong> points to the record itself. The binary SDP record is necessary in many cases because only a limited number of SDP attributes are able to be converted to the <a href="https://msdn.microsoft.com/library/windows/desktop/ms741679"><strong>WSAQUERYSET</strong></a> structure, and only default encoded UTF-8 strings are converted. Functions to assist in parsing the binary SDP record are provided in the <a href="bluetooth-reference">Bluetooth Reference</a> section.</li>
 <li>Returned if LUP_RETURN_BLOB is specified.</li>
 </ul></td>
 </tr>

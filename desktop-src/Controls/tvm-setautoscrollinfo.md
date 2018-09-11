@@ -1,5 +1,5 @@
 ---
-title: TVM\_SETAUTOSCROLLINFO message
+title: TVM_SETAUTOSCROLLINFO message
 description: Sets information used to determine auto-scroll characteristics. You can send this message explicitly or by using the TreeView\_SetAutoScrollInfo macro.
 ms.assetid: de55933f-1caa-4193-84de-0486c41e8f1f
 keywords:

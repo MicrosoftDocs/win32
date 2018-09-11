@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetEncoderInfo method.
 ms.assetid: 759965fd-7bc6-4130-b102-b49d1f0d4bf8
-title: IWICBitmapEncoder\_GetEncoderInfo\_Proxy function
+title: IWICBitmapEncoder_GetEncoderInfo_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

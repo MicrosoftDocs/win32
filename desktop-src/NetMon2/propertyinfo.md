@@ -1,6 +1,6 @@
 ---
 Description: The PROPERTYINFO data structure defines one property of the protocol.
-ms.assetid: f65166ba-1d94-4d65-b9d7-edb84ada0826
+ms.assetid: '878777ab-141d-4cc5-b0c1-f2ac8f770bf0'
 title: PROPERTYINFO structure
 ms.technology: desktop
 ms.prod: windows

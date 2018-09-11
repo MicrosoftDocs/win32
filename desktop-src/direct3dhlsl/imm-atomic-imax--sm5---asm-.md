@@ -1,5 +1,5 @@
 ---
-title: imm\_atomic\_imax (sm5 - asm)
+title: imm_atomic_imax (sm5 - asm)
 description: Immediate atomic signed max to memory. Returns value in memory before the max operation.
 ms.assetid: 360E542C-F3F6-4103-8A22-4914A5103D17
 ms.technology: desktop

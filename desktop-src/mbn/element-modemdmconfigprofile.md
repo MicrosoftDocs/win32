@@ -67,41 +67,41 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AdminEnable](element-1-adminenable.md)</td>
+<td><a href="element-1-adminenable">AdminEnable</a></td>
 <td><p>Specifies whether the profile is enabled administratively.This is a new element for v4.</p></td>
 </tr>
 <tr class="even">
-<td>[AdminRoamControl](element-1-adminroamcontrol.md)</td>
-<td><p>Specifies whether the profile is administratively roam controlled. This element is new for v4. The value of this element is a [<strong>roamControlType</strong>](simpletype-roamcontroltype.md) value. This is an optional element; if no value is specified, then <strong>AllRoamAllowed</strong> is the default.</p></td>
+<td><a href="element-1-adminroamcontrol">AdminRoamControl</a></td>
+<td><p>Specifies whether the profile is administratively roam controlled. This element is new for v4. The value of this element is a <a href="simpletype-roamcontroltype"><strong>roamControlType</strong></a> value. This is an optional element; if no value is specified, then <strong>AllRoamAllowed</strong> is the default.</p></td>
 </tr>
 <tr class="odd">
-<td>[ApnID](element-1-apnid.md)</td>
+<td><a href="element-1-apnid">ApnID</a></td>
 <td><p>An APN ID associated with this profile.This element is new in v4, and it is optional.</p></td>
 </tr>
 <tr class="even">
-<td>[Context](element-1-context.md)</td>
+<td><a href="element-1-context">Context</a></td>
 <td><p>Specifies the parameters required to establish a data connection.</p></td>
 </tr>
 <tr class="odd">
-<td>[Name](element-1-name.md)</td>
-<td><p>The name of the profile. For more information, see the documentation for the v1 [<strong>Name</strong>](../mbn/schema_name_mbnprofile_element.md) element.</p></td>
+<td><a href="element-1-name">Name</a></td>
+<td><p>The name of the profile. For more information, see the documentation for the v1 <a href="../mbn/schema_name_mbnprofile_element"><strong>Name</strong></a> element.</p></td>
 </tr>
 <tr class="even">
-<td>[OemConnectionId](element-oemconnectionid.md)</td>
+<td><a href="element-oemconnectionid">OemConnectionId</a></td>
 <td><p>The OEM connection ID for the modem DM configuration.</p></td>
 </tr>
 <tr class="odd">
-<td>[ProfileCreationType (in ModemDMConfigProfile)](element-1-profilecreationtype.md)</td>
+<td><a href="element-1-profilecreationtype">ProfileCreationType (in ModemDMConfigProfile)</a></td>
 <td><p>Specifies how this modem DM profile was created.</p>
 <p>This value is used to decide whether a user can delete the profile. Users can only delete <strong>UserProvisioned</strong> profiles.</p></td>
 </tr>
 <tr class="even">
-<td>[RoamApplicability](element-1-roamapplicability.md)</td>
-<td><p>Specifies that this profile is active only when the current roaming condition is the one specified. Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context. The value of this element must be a valid [<strong>roamApplicabilityType</strong>](simpletype-roamapplicabilitytype.md) value.</p></td>
+<td><a href="element-1-roamapplicability">RoamApplicability</a></td>
+<td><p>Specifies that this profile is active only when the current roaming condition is the one specified. Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context. The value of this element must be a valid <a href="simpletype-roamapplicabilitytype"><strong>roamApplicabilityType</strong></a> value.</p></td>
 </tr>
 <tr class="odd">
-<td>[SimIccID](element-1-simiccid.md)</td>
-<td><p>The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 [<strong>SimIccID</strong>](../mbn/schema_simiccid_mbnprofile_element.md) element.</p></td>
+<td><a href="element-1-simiccid">SimIccID</a></td>
+<td><p>The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 <a href="../mbn/schema_simiccid_mbnprofile_element"><strong>SimIccID</strong></a> element.</p></td>
 </tr>
 </tbody>
 </table>

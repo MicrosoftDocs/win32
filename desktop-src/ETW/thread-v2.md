@@ -1,7 +1,7 @@
 ---
 Description: This class is the parent class for thread events. The following syntax is simplified from MOF code.
 ms.assetid: 63e52cba-42a5-44f0-8eb6-e1bac8414a83
-title: Thread\_V2 class
+title: Thread_V2 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -26,7 +26,7 @@ The **IPixelHistoryRequest** interface inherits from the [**IUnknown**](https://
 
 The **IPixelHistoryRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>RequestAsync</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432744)</td><td style="text-align: left;"><p>Requests a list of pixel history results in the specified pixel, render tartget /UAV, and frame.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432744"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests a list of pixel history results in the specified pixel, render tartget /UAV, and frame.</p></td></tr></tbody></table>
 
  
 

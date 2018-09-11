@@ -1,7 +1,7 @@
 ---
 Description: Defines the means by which a client can discover the methods provided by the migration service, and valid range of virtual system migration setting data.
 ms.assetid: 704fa81d-54a4-4d12-9b85-8836581d2784
-title: Msvm\_VirtualSystemMigrationCapabilities class
+title: Msvm_VirtualSystemMigrationCapabilities class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

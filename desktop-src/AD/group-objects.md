@@ -48,7 +48,7 @@ A group is represented as a [**group**](https://msdn.microsoft.com/library/ms682
 <li><strong>ADS_GROUP_TYPE_UNIVERSAL_GROUP</strong></li>
 <li><strong>ADS_GROUP_TYPE_SECURITY_ENABLED</strong></li>
 </ul>
-<br/> The first three flags specify the group scope. The <strong>ADS_GROUP_TYPE_SECURITY_ENABLED</strong> flag indicates the group type. If this flag is set, the group is a security group. If this flag is not set, the group is a distribution group. For more information, see [Group Types](#group-types).<br/></td>
+<br/> The first three flags specify the group scope. The <strong>ADS_GROUP_TYPE_SECURITY_ENABLED</strong> flag indicates the group type. If this flag is set, the group is a security group. If this flag is not set, the group is a distribution group. For more information, see <a href="#group-types">Group Types</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>memberOf</strong></td>

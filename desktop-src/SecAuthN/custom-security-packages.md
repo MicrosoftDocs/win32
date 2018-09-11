@@ -1,6 +1,6 @@
 ---
 Description: Explains how to create custom security packages by using the custom security package API.
-ms.assetid: af8b9796-77e7-43c1-8f8e-acee01a62bf9
+ms.assetid: '915ef590-c427-4ac2-a2f7-aed328776cb7'
 title: Custom Security Packages
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: Properties
 description: Text Services Framework (TSF) provides properties that associate metadata with a range of text.
-ms.assetid: 99d8564f-98bc-4f30-bff9-923a4016a5fe
+ms.assetid: 'd1d0dd99-f303-4355-9835-917de9491a0b'
 keywords:
 - Text Services Framework (TSF),properties
 - TSF (Text Services Framework),properties

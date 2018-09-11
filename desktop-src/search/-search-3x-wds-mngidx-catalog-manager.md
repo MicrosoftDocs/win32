@@ -92,15 +92,15 @@ The following table describes the methods of ISearchCatalogManager used for mana
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>URLBeingIndexed</strong>](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed)</td>
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed"><strong>URLBeingIndexed</strong></a></td>
 <td>Gets the URL that is currently being indexed. This method would be useful if you were trying to identify whether the indexer was &quot;stuck&quot; on an item.</td>
 </tr>
 <tr class="even">
-<td>[<strong>NumberOfItems</strong>](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems)</td>
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems"><strong>NumberOfItems</strong></a></td>
 <td>Gets the number of items in the catalog.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>NumberOfItemsToIndex</strong>](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex)</td>
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex"><strong>NumberOfItemsToIndex</strong></a></td>
 <td>Retrieves the following information about items to be indexed:
 <ul>
 <li>plIncrementalCount - the number of items to be indexed in the next incremental index</li>
@@ -109,7 +109,7 @@ The following table describes the methods of ISearchCatalogManager used for mana
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetCatalogStatus</strong>](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus)</td>
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus"><strong>GetCatalogStatus</strong></a></td>
 <td>Gets the status of the catalog and returns an enumeration value that gives the current status. The following are possible catalog states:
 <ul>
 <li>Idle: No indexing is needed.</li>
@@ -122,8 +122,8 @@ The following table describes the methods of ISearchCatalogManager used for mana
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[<strong>get_Name</strong>](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name)</td>
-<td>Gets the name of the current catalog that is specified in the [<strong>ISearchManager::GetCatalog</strong>](/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog) method. Currently, the only catalog supported is SystemIndex.</td>
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name"><strong>get_Name</strong></a></td>
+<td>Gets the name of the current catalog that is specified in the <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog"><strong>ISearchManager::GetCatalog</strong></a> method. Currently, the only catalog supported is SystemIndex.</td>
 </tr>
 </tbody>
 </table>

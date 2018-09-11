@@ -117,7 +117,7 @@ Required keyword.
 </table>
 
 </div>
-<p>See [<strong>OMSetDepthStencilState</strong>](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-omsetdepthstencilstate) for the argument list.</p></td>
+<p>See <a href="/windows/desktop/api/D3D10/nf-d3d10-id3d10device-omsetdepthstencilstate"><strong>OMSetDepthStencilState</strong></a> for the argument list.</p></td>
 </tr>
 <tr class="odd">
 <td>Rasterizer State</td>
@@ -183,7 +183,7 @@ Required keyword.
 </table>
 
 </div>
-<p>SetXXXShader is one of <strong>SetVertexShader</strong>, <strong>SetGeometryShader</strong>, or <strong>SetPixelShader</strong> (which are similar to the API methods [<strong>VSSetShader</strong>](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-vssetshader), [<strong>GSSetShader</strong>](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-gssetshader), and [<strong>PSSetShader</strong>](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-pssetshader)).</p></td>
+<p>SetXXXShader is one of <strong>SetVertexShader</strong>, <strong>SetGeometryShader</strong>, or <strong>SetPixelShader</strong> (which are similar to the API methods <a href="/windows/desktop/api/D3D10/nf-d3d10-id3d10device-vssetshader"><strong>VSSetShader</strong></a>, <a href="/windows/desktop/api/D3D10/nf-d3d10-id3d10device-gssetshader"><strong>GSSetShader</strong></a>, and <a href="/windows/desktop/api/D3D10/nf-d3d10-id3d10device-pssetshader"><strong>PSSetShader</strong></a>).</p></td>
 </tr>
 </tbody>
 </table>

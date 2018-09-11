@@ -1,7 +1,7 @@
 ---
-title: LVM\_GETTOPINDEX message
+title: LVM_GETTOPINDEX message
 description: Retrieves the index of the topmost visible item when in list or report view. You can send this message explicitly or by using the ListView\_GetTopIndex macro.
-ms.assetid: b5692de3-338b-422c-9dee-d3ba96f2b53d
+ms.assetid: 'vs|controls|~\controls\listview\messages\lvm_gettopindex.htm'
 keywords:
 - LVM_GETTOPINDEX message Windows Controls
 topic_type:

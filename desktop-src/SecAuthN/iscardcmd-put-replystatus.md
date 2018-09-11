@@ -1,7 +1,7 @@
 ---
 Description: Sets a new reply APDU message status word.
 ms.assetid: 17b498eb-2268-451a-9f5c-c53cb7e42019
-title: ISCardCmd::put\_ReplyStatus method
+title: ISCardCmd::put_ReplyStatus method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the REFERENCE\_TIME value.
 ms.assetid: 8004f7a2-c882-40dd-a248-cf8da06eebec
-title: CRefTime::m\_time member
+title: CRefTime::m_time member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

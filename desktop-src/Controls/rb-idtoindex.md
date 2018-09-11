@@ -1,7 +1,7 @@
 ---
-title: RB\_IDTOINDEX message
+title: RB_IDTOINDEX message
 description: Converts a band identifier to a band index in a rebar control.
-ms.assetid: f40471a3-3478-40a7-9806-cd34d27d9e41
+ms.assetid: 'vs|controls|~\controls\rebar\messages\rb_idtoindex.htm'
 keywords:
 - RB_IDTOINDEX message Windows Controls
 topic_type:

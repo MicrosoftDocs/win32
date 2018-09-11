@@ -1,5 +1,5 @@
 ---
-title: MPCALLBACK\_DATA structure
+title: MPCALLBACK_DATA structure
 description: Data passed to the callback function.
 ms.assetid: EA8E6C1E-F80B-4247-B073-C78D49A354CF
 keywords:

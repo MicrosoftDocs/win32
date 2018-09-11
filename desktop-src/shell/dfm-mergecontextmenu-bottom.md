@@ -1,6 +1,6 @@
 ---
 Description: Allows the callback to add items to the bottom of the extended menu.
-title: DFM\_MERGECONTEXTMENU\_BOTTOM message
+title: DFM_MERGECONTEXTMENU_BOTTOM message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

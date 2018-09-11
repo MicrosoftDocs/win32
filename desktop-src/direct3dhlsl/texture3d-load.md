@@ -1,7 +1,7 @@
 ---
 title: Texture3D Load methods
 description: Reads texture data.
-ms.assetid: 850A2F93-96C1-4B6F-AFEF-D245791611B4
+ms.assetid: 'eb98a31a-0535-4697-ba93-c216845dbfe8'
 keywords:
 - Load methods HLSL
 topic_type:

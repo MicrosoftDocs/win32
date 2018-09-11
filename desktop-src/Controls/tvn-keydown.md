@@ -1,5 +1,5 @@
 ---
-title: TVN\_KEYDOWN notification code
+title: TVN_KEYDOWN notification code
 description: Notifies a tree-view control's parent window that the user pressed a key and the tree-view control has the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: da0d2b62-2295-4dce-9b37-a250f3be087f
 keywords:

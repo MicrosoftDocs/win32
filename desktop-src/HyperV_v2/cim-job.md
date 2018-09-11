@@ -1,7 +1,7 @@
 ---
 Description: A logical element that represents a unit of work to execute, such as a script or a print job. A job is distinct from a process because a job can be scheduled or queued, and its execution is not limited to a single system.
 ms.assetid: 35e35c3f-617b-429b-b68f-fa0c0c330e92
-title: CIM\_Job class
+title: CIM_Job class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -99,7 +99,7 @@ The **CIM\_Job** class has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>KillJob</strong>](cim-job-killjob.md)</td>
+<td style="text-align: left;"><a href="cim-job-killjob"><strong>KillJob</strong></a></td>
 <td style="text-align: left;">This method is deprecated. Instead, use the <strong>RequestStateChange</strong> method.<br/>
 <blockquote>
 [!Note]<br />

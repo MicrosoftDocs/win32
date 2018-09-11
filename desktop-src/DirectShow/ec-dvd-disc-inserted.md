@@ -1,7 +1,7 @@
 ---
 Description: Signals that a DVD disc was inserted into the drive.
 ms.assetid: ce233c94-2eae-457c-919b-7c4d8334979a
-title: EC\_DVD\_DISC\_INSERTED
+title: EC_DVD_DISC_INSERTED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

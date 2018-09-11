@@ -1,7 +1,7 @@
 ---
 title: Enumeration Types
 description: Enumeration Types
-ms.assetid: 940f66e1-1dc1-414f-bba9-b91f4f0dfc45
+ms.assetid: 'cd28f608-25ba-44a7-868b-b1cd4dfcfa45'
 keywords:
 - Windows Media Format SDK,enumeration types
 - Advanced Systems Format (ASF),enumeration types

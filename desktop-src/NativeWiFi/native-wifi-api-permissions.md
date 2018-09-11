@@ -32,26 +32,26 @@ The following table shows the Native Wifi functions that use securable objects t
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>WlanGetFilterList</strong>](/windows/desktop/api/wlanapi/nf-wlanapi-wlangetfilterlist), [<strong>WlanSetFilterList</strong>](/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist)<br/></td>
+<td><a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetfilterlist"><strong>WlanGetFilterList</strong></a>, <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist"><strong>WlanSetFilterList</strong></a><br/></td>
 <td><ul>
 <li>wlan_secure_deny_list</li>
 <li>wlan_secure_permit_list</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>WlanIhvControl</strong>](/windows/desktop/api/wlanapi/nf-wlanapi-wlanihvcontrol)<br/></td>
+<td><a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanihvcontrol"><strong>WlanIhvControl</strong></a><br/></td>
 <td><ul>
 <li>wlan_secure_ihv_control</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[<strong>WlanQueryAutoConfigParameter</strong>](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanqueryautoconfigparameter), [<strong>WlanSetAutoConfigParameter</strong>](/windows/desktop/api/Wlanapi/nf-wlanapi-wlansetautoconfigparameter)<br/></td>
+<td><a href="/windows/desktop/api/Wlanapi/nf-wlanapi-wlanqueryautoconfigparameter"><strong>WlanQueryAutoConfigParameter</strong></a>, <a href="/windows/desktop/api/Wlanapi/nf-wlanapi-wlansetautoconfigparameter"><strong>WlanSetAutoConfigParameter</strong></a><br/></td>
 <td><ul>
 <li>wlan_secure_show_denied</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>WlanQueryInterface</strong>](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanqueryinterface), [<strong>WlanSetInterface</strong>](/windows/desktop/api/Wlanapi/nf-wlanapi-wlansetinterface)<br/></td>
+<td><a href="/windows/desktop/api/Wlanapi/nf-wlanapi-wlanqueryinterface"><strong>WlanQueryInterface</strong></a>, <a href="/windows/desktop/api/Wlanapi/nf-wlanapi-wlansetinterface"><strong>WlanSetInterface</strong></a><br/></td>
 <td><ul>
 <li>wlan_secure_ac_enabled</li>
 <li>wlan_secure_bc_scan_enabled</li>
@@ -62,14 +62,14 @@ The following table shows the Native Wifi functions that use securable objects t
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[<strong>WlanSetProfile</strong>](/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile)<br/></td>
+<td><a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile"><strong>WlanSetProfile</strong></a><br/></td>
 <td><ul>
 <li>wlan_secure_add_new_all_user_profiles</li>
 <li>wlan_secure_add_new_per_user_profiles</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>WlanSetProfileList</strong>](/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilelist), [<strong>WlanSetProfilePosition</strong>](/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileposition)<br/></td>
+<td><a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilelist"><strong>WlanSetProfileList</strong></a>, <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileposition"><strong>WlanSetProfilePosition</strong></a><br/></td>
 <td><ul>
 <li>wlan_secure_all_user_profiles_order</li>
 </ul></td>

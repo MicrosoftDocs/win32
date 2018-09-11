@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_ALL
 ms.assetid: 99f9382d-9bfe-4cf6-982f-fcd37e965cae
-title: WPD\_CONTENT\_TYPE\_ALL
+title: WPD_CONTENT_TYPE_ALL
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MDM\_WindowsLicensing class
+title: MDM_WindowsLicensing class
 description: The MDM\_WindowsLicensing class is designed for licensing related management scenarios.
 ms.assetid: 9b26d8dc-aab6-4c67-9dbc-4b53525b9354
 keywords:
@@ -70,15 +70,15 @@ The **MDM\_WindowsLicensing** class has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>ChangeProductKeyMethod</strong>](mdm-windowslicensing-changeproductkeymethod.md)</td>
+<td style="text-align: left;"><a href="mdm-windowslicensing-changeproductkeymethod"><strong>ChangeProductKeyMethod</strong></a></td>
 <td style="text-align: left;">Installs a product key for Windows 10 desktop devices. Does not reboot.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>CheckApplicabilityMethod</strong>](mdm-windowslicensing-checkapplicabilitymethod.md)</td>
+<td style="text-align: left;"><a href="mdm-windowslicensing-checkapplicabilitymethod"><strong>CheckApplicabilityMethod</strong></a></td>
 <td style="text-align: left;">Method to check if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>UpgradeEditionWithLicenseMethod</strong>](mdm-windowslicensing-upgradeeditionwithlicensemethod.md)</td>
+<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithlicensemethod"><strong>UpgradeEditionWithLicenseMethod</strong></a></td>
 <td style="text-align: left;">Provide a license for an edition upgrade of Windows 10 mobile devices.<br/>
 <blockquote>
 [!Note]<br />
@@ -87,7 +87,7 @@ This upgrade process does not require a system restart.
 <br/> <br/> The date type is XML.<br/> The supported operation is Execute.<br/>
 <blockquote>
 [!Important]<br />
-The XML license file contents must be properly escaped (that is, it should not simply be a copied XML), otherwise the edition upgrade on Windows 10 mobile devices will fail. For more information on proper escaping of the XML license file, see Section 2.4 of the [W3C XML spec](http://www.w3.org/TR/xml/). The XML license file is acquired from the Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.
+The XML license file contents must be properly escaped (that is, it should not simply be a copied XML), otherwise the edition upgrade on Windows 10 mobile devices will fail. For more information on proper escaping of the XML license file, see Section 2.4 of the <a href="http://www.w3.org/TR/xml/">W3C XML spec</a>. The XML license file is acquired from the Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.
 </blockquote>
 <br/> The following are valid edition upgrade paths when using this node through an MDM or provisioning package:
 <ul>
@@ -96,7 +96,7 @@ The XML license file contents must be properly escaped (that is, it should not s
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>UpgradeEditionWithProductKeyMethod</strong>](mdm-windowslicensing-upgradeeditionwithproductkeymethod.md)</td>
+<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithproductkeymethod"><strong>UpgradeEditionWithProductKeyMethod</strong></a></td>
 <td style="text-align: left;">Triggers the device to take the product key and upgrade the edition of the client.
 <blockquote>
 [!Note]<br />

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_AboveLock02 class
+title: MDM_Policy_Result01_AboveLock02 class
 description: The MDM\_Policy\_Result01\_AboveLock02 class represents policies that determine actions that are allowed above the Device Lock screen.
 ms.assetid: 0b6d4083-2484-450b-9261-5ef339db4707
 keywords:

@@ -1,6 +1,6 @@
 ---
 Description: Promote the item specified by the accompanying SMDATA structure.
-title: SMC\_PROMOTE message
+title: SMC_PROMOTE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

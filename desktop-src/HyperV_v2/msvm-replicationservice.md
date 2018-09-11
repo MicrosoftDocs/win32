@@ -1,7 +1,7 @@
 ---
 Description: Manages the replication for a virtual machine.
-ms.assetid: edc11c5b-b1a1-45e0-a920-2f1f1b0b8779
-title: Msvm\_ReplicationService class
+ms.assetid: '0335fb94-5f2b-43be-bfb4-bc6811c5b507'
+title: Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: Registers - vs\_1\_1
+title: Registers - vs_1_1
 description: This section contains reference information for the input and output registers implemented by vertex shader version 1\_1.
 ms.assetid: 8b19a0da-1561-450f-a36a-35ac7ea6e17a
 ms.technology: desktop

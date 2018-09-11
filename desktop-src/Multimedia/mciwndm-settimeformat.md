@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_SETTIMEFORMAT message
+title: MCIWNDM_SETTIMEFORMAT message
 description: The MCIWNDM\_SETTIMEFORMAT message sets the time format of an MCI device. You can send this message explicitly or by using the MCIWndSetTimeFormat macro.
 ms.assetid: 7de82094-6d35-44fd-88e7-ebd18a558cfd
 keywords:

@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.RestartCount property
 description: For scripting, gets or sets the number of times that the Task Scheduler will attempt to restart the task.
-ms.assetid: ec77a7bf-52d8-4f0f-ab47-f0555b666a70
+ms.assetid: '7d92c2c6-e846-4664-b22a-b2a6ca46c225'
 keywords:
 - RestartCount property Task Scheduler
 - RestartCount property Task Scheduler , TaskSettings object

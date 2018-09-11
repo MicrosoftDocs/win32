@@ -56,11 +56,11 @@ Represents a container of controls to display in a gallery, menu, or toolbar.
 <td><strong>Class</strong><br/></td>
 <td>xs:string<br/></td>
 <td>No<br/></td>
-<td>Specifies the size and layout style for elements in the menu UI.<br/> An image resource can be supplied in two sizes (large and small) and associated with the element in markup using the [<strong>Command.LargeImages</strong>](windowsribbon-element-command-largeimages.md) and [<strong>Command.SmallImages</strong>](windowsribbon-element-command-smallimages.md) property elements. If only one image is supplied, the framework resizes it as necessary.<br/> Restricted to one of the following values:<br/> <br/>
+<td>Specifies the size and layout style for elements in the menu UI.<br/> An image resource can be supplied in two sizes (large and small) and associated with the element in markup using the <a href="windowsribbon-element-command-largeimages"><strong>Command.LargeImages</strong></a> and <a href="windowsribbon-element-command-smallimages"><strong>Command.SmallImages</strong></a> property elements. If only one image is supplied, the framework resizes it as necessary.<br/> Restricted to one of the following values:<br/> <br/>
 <dt><span></span><span></span><strong></strong> (StandardItems)<br/> </dt> <dd> Default. <br/> Style: small image and de-emphasized text.<br/><img src="images/markup/menugroup-standarditems.png" alt="Screen shot of a StandardItems button." /></dd> <dt><span></span><span></span><strong></strong> (MajorItems)<br/> </dt> <dd> Style: large image and bold text.<br/>
 <blockquote>
 [!Note]<br />
-If <strong>MenuGroup</strong> is a child of [<strong>ApplicationMenu</strong>](windowsribbon-element-applicationmenu.md), the <em>Class</em> attribute is ignored and a style of <code>MajorItems</code> is enforced by the framework.
+If <strong>MenuGroup</strong> is a child of <a href="windowsribbon-element-applicationmenu"><strong>ApplicationMenu</strong></a>, the <em>Class</em> attribute is ignored and a style of <code>MajorItems</code> is enforced by the framework.
 </blockquote>
 <br/> <img src="images/markup/menugroup-majoritems.png" alt="Screen shot of a MajorItems button." /></dd> </dl></td>
 </tr>
@@ -68,7 +68,7 @@ If <strong>MenuGroup</strong> is a child of [<strong>ApplicationMenu</strong>](w
 <td><strong>CommandName</strong><br/></td>
 <td>xs:positiveInteger or xs:string<br/></td>
 <td>No<br/></td>
-<td>Associates the element with a [<strong>Command</strong>](windowsribbon-element-command.md).<br/> <br/>
+<td>Associates the element with a <a href="windowsribbon-element-command"><strong>Command</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)<br/> </dt> <dd> A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 </tbody>

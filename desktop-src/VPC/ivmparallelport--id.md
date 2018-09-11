@@ -1,5 +1,5 @@
 ---
-title: IVMParallelPort \_ID method
+title: IVMParallelPort _ID method
 description: Retrieves the internal identifier of the parallel port.
 ms.assetid: a0de74da-0e23-489e-8a89-8deba974e548
 keywords:

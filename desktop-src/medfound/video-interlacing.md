@@ -80,11 +80,11 @@ All of the interlacing attributes listed in this section have Boolean values. Ef
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MFSampleExtension_Interlaced](mfsampleextension-interlaced-attribute.md)</td>
+<td><a href="mfsampleextension-interlaced-attribute">MFSampleExtension_Interlaced</a></td>
 <td>If <strong>TRUE</strong>, the frame is interlaced. If <strong>FALSE</strong>, the frame is progressive.<br/> Set this attribute on every sample if the media type is MFVideoInterlace_MixedInterlaceOrProgressive.<br/></td>
 </tr>
 <tr class="even">
-<td>[MFSampleExtension_BottomFieldFirst](mfsampleextension-bottomfieldfirst-attribute.md)</td>
+<td><a href="mfsampleextension-bottomfieldfirst-attribute">MFSampleExtension_BottomFieldFirst</a></td>
 <td>The meaning of this flag depends on whether the samples contain interleaved fields or single fields.<br/>
 <ul>
 <li>Interleaved fields: If <strong>TRUE</strong>, the lower field is first. If <strong>FALSE</strong>, the upper field is first.<br/></li>
@@ -93,11 +93,11 @@ All of the interlacing attributes listed in this section have Boolean values. Ef
 Set this attribute on every interlace sample if the media type is MFVideoInterlace_FieldSingleUpper, MFVideoInterlace_FieldSingleLower, or MFVideoInterlace_MixedInterlaceOrProgressive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[MFSampleExtension_RepeatFirstField](mfsampleextension-repeatfirstfield-attribute.md)</td>
+<td><a href="mfsampleextension-repeatfirstfield-attribute">MFSampleExtension_RepeatFirstField</a></td>
 <td>If <strong>TRUE</strong>, the first field is repeated. If <strong>FALSE</strong> or not set, the first field is not repeated.</td>
 </tr>
 <tr class="even">
-<td>[MFSampleExtension_SingleField](mfsampleextension-singlefield-attribute.md)</td>
+<td><a href="mfsampleextension-singlefield-attribute">MFSampleExtension_SingleField</a></td>
 <td>If <strong>TRUE</strong>, the sample contains a single field. If <strong>FALSE</strong>, the sample contains interleaved fields.</td>
 </tr>
 </tbody>

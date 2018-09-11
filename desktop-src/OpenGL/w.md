@@ -2,7 +2,7 @@
 title: W
 description: Definitions of OpenGL terms that begin with the letter W.
 Robots: noindex, nofollow
-ms.assetid: 59ac0414-a845-4f40-be9c-9962fd1585f6
+ms.assetid: '7f8235a3-ea48-40eb-8957-e7a55a5778af'
 keywords:
 - windows
 - window-aligned

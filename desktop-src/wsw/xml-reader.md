@@ -1,7 +1,7 @@
 ---
 title: XML Reader
 description: XML Reader is a cursor over an input source of XML. At its core, an XML Reader reads one XML Node at a time, but there are additional helper APIs to make reading a sequence of nodes easier.
-ms.assetid: 7acbe407-e91b-435a-82bc-acbbc13cfcfd
+ms.assetid: '1f99e45c-64ba-42fb-9bf0-35e27f1c5ef2'
 keywords:
 - XML Reader Web Services for Windows
 - WWSAPI

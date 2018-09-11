@@ -1,5 +1,5 @@
 ---
-title: DRM\_SourceID
+title: DRM_SourceID
 description: The DRM\_SourceID attribute contains an identifier that associates protected content with a source.
 ms.assetid: 69a07b3f-df75-4b05-bddb-924af516a962
 keywords:

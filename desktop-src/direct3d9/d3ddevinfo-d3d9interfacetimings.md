@@ -1,7 +1,7 @@
 ---
 Description: Percent of time processing data in the driver. These statistics may help identify cases when the driver is waiting for other resources.
 ms.assetid: 2c613349-61eb-44aa-aa7b-3161dd1fc95e
-title: D3DDEVINFO\_D3D9INTERFACETIMINGS structure
+title: D3DDEVINFO_D3D9INTERFACETIMINGS structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

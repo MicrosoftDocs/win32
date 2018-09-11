@@ -26,7 +26,7 @@ The **IPipeLineStagesRequest** interface inherits from the [**IUnknown**](https:
 
 The **IPipeLineStagesRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>RequestAsync</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432732)</td><td style="text-align: left;"><p>An asynchronous request to get preview images for the graphics pipeline stages window.</p></td></tr><tr class="even"><td style="text-align: left;">[<strong>RequestSupportedStagesAsync</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432733)</td><td style="text-align: left;"><p>An asynchronous request to get a list of stages used for the specified frame and event.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432732"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get preview images for the graphics pipeline stages window.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432733"><strong>RequestSupportedStagesAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get a list of stages used for the specified frame and event.</p></td></tr></tbody></table>
 
  
 

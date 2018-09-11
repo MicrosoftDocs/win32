@@ -1,7 +1,7 @@
 ---
 title: Dialog Box Notifications
 description: .
-ms.assetid: 09b717f1-b6f8-4436-9c08-0b51767b9518
+ms.assetid: 'df51dad0-8320-4e7a-a93e-1731463f888a'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

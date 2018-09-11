@@ -1,7 +1,7 @@
 ---
-title: WIM\_DATA message
+title: WIM_DATA message
 description: The WIM\_DATA message is sent to the given waveform-audio input callback function when waveform-audio data is present in the input buffer and the buffer is being returned to the application.
-ms.assetid: 14298153-ea2f-40b7-bca7-196f4e6c1155
+ms.assetid: '94cc02b8-61c4-44b9-9f8e-041fe989c1a6'
 keywords:
 - WIM_DATA message Windows Multimedia
 topic_type:

@@ -56,7 +56,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...convert WMI dates to standard dates and times?<br/></td>
-<td>Use the [<strong>SWbemDateTime</strong>](swbemdatetime.md) object to convert these to regular dates and times.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="swbemdatetime"><strong>SWbemDateTime</strong></a> object to convert these to regular dates and times.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -107,7 +107,7 @@ End Function </code></pre></td>
 </tr>
 <tr class="even">
 <td><p>...determine the time currently configured on a computer?</p></td>
-<td><p>Use the [<strong>Win32_LocalTime</strong>](https://msdn.microsoft.com/library/aa394171) class.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394171"><strong>Win32_LocalTime</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -178,7 +178,7 @@ Foreach ($time in $times) {
 </tr>
 <tr class="odd">
 <td><p>...determine the name of the time zone in which a computer is running?</p></td>
-<td><p>Use the [<strong>Win32_TimeZone</strong>](https://msdn.microsoft.com/library/aa394498) class and check the value of the <strong>Description</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394498"><strong>Win32_TimeZone</strong></a> class and check the value of the <strong>Description</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -236,11 +236,11 @@ if ($computer -eq &quot;.&quot;) {$computer = Hostname}
 </tr>
 <tr class="even">
 <td><p>...ensure that &quot;10/02/2000&quot; is interpreted as Oct. 2, 2000, not &quot;10 Feb, 2000&quot;?</p></td>
-<td><p>Manage dates in [<em>CIM</em>](gloss-c.md) [DATETIME](datetime.md) format and use [<strong>SWbemDateTime</strong>](swbemdatetime.md) methods, such as [<strong>GetVarDate</strong>](swbemdatetime-getvardate.md) to convert to them to and from either [<strong>FILETIME</strong>](https://msdn.microsoft.com/library/windows/desktop/ms724284) or <strong>VT_Date</strong> formats. Because DATETIME format is locale-independent, you can write a script that runs on any machine. Use the <strong>SWbemDateTime</strong> object to convert these to regular dates and times. See [Date and Time Format](date-and-time-format.md) for more information on converting dates and times.</p></td>
+<td><p>Manage dates in <a href="gloss-c"><em>CIM</em></a> <a href="datetime">DATETIME</a> format and use <a href="swbemdatetime"><strong>SWbemDateTime</strong></a> methods, such as <a href="swbemdatetime-getvardate"><strong>GetVarDate</strong></a> to convert to them to and from either <a href="https://msdn.microsoft.com/library/windows/desktop/ms724284"><strong>FILETIME</strong></a> or <strong>VT_Date</strong> formats. Because DATETIME format is locale-independent, you can write a script that runs on any machine. Use the <strong>SWbemDateTime</strong> object to convert these to regular dates and times. See <a href="date-and-time-format">Date and Time Format</a> for more information on converting dates and times.</p></td>
 </tr>
 <tr class="odd">
 <td><p>...convert a WMI datetime to a .NET DateTime value?</p></td>
-<td><p>Manually parse the string, then put the retrieved values into a [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx) object.</p>
+<td><p>Manually parse the string, then put the retrieved values into a <a href="https://msdn.microsoft.com/library/system.datetime.aspx">DateTime</a> object.</p>
 <div class="code">
 <span data-codelanguage="PowerShell"></span>
 <table>

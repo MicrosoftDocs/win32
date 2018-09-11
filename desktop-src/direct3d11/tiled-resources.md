@@ -1,7 +1,7 @@
 ---
 title: Tiled resources
 description: Tiled resources can be thought of as large logical resources that use small amounts of physical memory.
-ms.assetid: A3D08564-3C7A-4578-BC38-EE202045580A
+ms.assetid: '03083460-192b-40cb-8ee1-76df6d95f72b'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,6 +1,6 @@
 ---
 Description: Contains the index of an entry and its TAG information in a shim database.
-ms.assetid: 194d2035-fc2c-445d-a730-90db2ccea8af
+ms.assetid: '2ff58e01-cc47-4612-a3bc-a87ccb343bd2'
 title: TAGID
 ms.technology: desktop
 ms.prod: windows

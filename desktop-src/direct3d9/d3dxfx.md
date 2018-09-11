@@ -29,15 +29,15 @@ The constants in the following table are defined in d3dx9effect.h.
 </tr>
 <tr class="even">
 <td>D3DXFX_DONOTSAVESTATE</td>
-<td>No state is saved when calling [<strong>Begin</strong>](id3dxeffect--begin.md) or restored when calling [<strong>End</strong>](id3dxeffect--end.md).</td>
+<td>No state is saved when calling <a href="id3dxeffect--begin"><strong>Begin</strong></a> or restored when calling <a href="id3dxeffect--end"><strong>End</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>D3DXFX_DONOTSAVESAMPLERSTATE</td>
-<td>A stateblock saves state when calling [<strong>Begin</strong>](id3dxeffect--begin.md) and restores state when calling [<strong>End</strong>](id3dxeffect--end.md).</td>
+<td>A stateblock saves state when calling <a href="id3dxeffect--begin"><strong>Begin</strong></a> and restores state when calling <a href="id3dxeffect--end"><strong>End</strong></a>.</td>
 </tr>
 <tr class="even">
 <td>D3DXFX_DONOTSAVESHADERSTATE</td>
-<td>A stateblock saves state (except shaders and shader constants) when calling [<strong>Begin</strong>](id3dxeffect--begin.md) and restores state when calling [<strong>End</strong>](id3dxeffect--end.md).</td>
+<td>A stateblock saves state (except shaders and shader constants) when calling <a href="id3dxeffect--begin"><strong>Begin</strong></a> and restores state when calling <a href="id3dxeffect--end"><strong>End</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>Effect Creation Flags</td>
@@ -45,7 +45,7 @@ The constants in the following table are defined in d3dx9effect.h.
 </tr>
 <tr class="even">
 <td>D3DXFX_NOT_CLONEABLE</td>
-<td>The effect will be non-cloneable and will not contain any shader binary data. [<strong>GetPassDesc</strong>](id3dxbaseeffect--getpassdesc.md) will not return shader function pointers. Setting this flag reduces effect memory usage by about 50% because it eliminates the need for the effect system to keep a copy of the shaders in memory. This flag is used by [<strong>D3DXCreateEffect</strong>](d3dxcreateeffect.md), [<strong>D3DXCreateEffectFromFile</strong>](d3dxcreateeffectfromfile.md), and [<strong>D3DXCreateEffectFromResource</strong>](d3dxcreateeffectfromresource.md).</td>
+<td>The effect will be non-cloneable and will not contain any shader binary data. <a href="id3dxbaseeffect--getpassdesc"><strong>GetPassDesc</strong></a> will not return shader function pointers. Setting this flag reduces effect memory usage by about 50% because it eliminates the need for the effect system to keep a copy of the shaders in memory. This flag is used by <a href="d3dxcreateeffect"><strong>D3DXCreateEffect</strong></a>, <a href="d3dxcreateeffectfromfile"><strong>D3DXCreateEffectFromFile</strong></a>, and <a href="d3dxcreateeffectfromresource"><strong>D3DXCreateEffectFromResource</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>D3DXFX_LARGEADDRESSAWARE</td>

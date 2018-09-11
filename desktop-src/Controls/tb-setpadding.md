@@ -1,5 +1,5 @@
 ---
-title: TB\_SETPADDING message
+title: TB_SETPADDING message
 description: Sets the padding for a toolbar control.
 ms.assetid: a18c4efb-1140-4149-8dce-dfc1f03bb61a
 keywords:

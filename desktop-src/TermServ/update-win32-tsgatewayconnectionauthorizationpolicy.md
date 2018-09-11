@@ -1,5 +1,5 @@
 ---
-title: Update method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: Update method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Updates the current Remote Desktop connection authorization policy (RD \ 160;CAP).
 audience: developer
 author: REDMOND\\markl

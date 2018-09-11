@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_SOAType class
+title: Modify method of the MicrosoftDNS_SOAType class
 description: The Modify method updates a Start Of Authority (SOA) Resource Record.
 ms.assetid: 531b770d-9ac9-43da-8595-fbc175b51b23
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSVirtualIPSetting class
+title: Win32_TSVirtualIPSetting class
 description: Represents the association between a Win32\_TerminalService element class and a Win32\_TSVirtualIP setting class.
 audience: developer
 author: REDMOND\\markl

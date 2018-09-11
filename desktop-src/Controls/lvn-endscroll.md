@@ -1,5 +1,5 @@
 ---
-title: LVN\_ENDSCROLL message
+title: LVN_ENDSCROLL message
 description: Notifies a list-view control's parent window when a scrolling operation ends. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 2838dcd0-ac0f-48c7-94ba-dc36febedb94
 keywords:

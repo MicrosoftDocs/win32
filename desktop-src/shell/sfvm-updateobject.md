@@ -1,6 +1,6 @@
 ---
 Description: Updates an object by passing a pointer to an array of two pointers to item identifier lists (PIDLs). Used by SHShellFolderView\_Message.
-title: SFVM\_UPDATEOBJECT message
+title: SFVM_UPDATEOBJECT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

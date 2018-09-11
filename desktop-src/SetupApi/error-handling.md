@@ -1,6 +1,6 @@
 ---
 Description: 'There are three functions that generate dialog boxes to handle errors: SetupCopyError, SetupDeleteError, and SetupRenameError.'
-ms.assetid: 0bff17a6-590d-4410-9ed1-0a655d94caad
+ms.assetid: 'fcb310e1-5db7-47f3-b3d6-d528eb17e19a'
 title: Error Handling
 ms.technology: desktop
 ms.prod: windows

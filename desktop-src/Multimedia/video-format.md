@@ -1,7 +1,7 @@
 ---
 title: Video Format
 description: Video Format
-ms.assetid: 0e6baf24-7a79-45ab-9fc7-69334419956d
+ms.assetid: 'd008bf48-302d-4533-8112-37961ecd40e1'
 keywords:
 - WM_CAP_GET_VIDEOFORMAT message
 - capGetVideoFormat macro

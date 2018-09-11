@@ -1,5 +1,5 @@
 ---
-title: TB\_SETROWS message
+title: TB_SETROWS message
 description: Sets the number of rows of buttons in a toolbar.
 ms.assetid: d8ea7b80-d23e-4593-8eb1-d23808173fc9
 keywords:

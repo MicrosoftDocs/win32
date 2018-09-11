@@ -1,7 +1,7 @@
 ---
 Description: SFVM\_GETDETAILSOF may be altered or unavailable.
 ms.assetid: 46a81a7b-527c-4d41-8d25-ce65fd87416e
-title: SFVM\_GETDETAILSOF message
+title: SFVM_GETDETAILSOF message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

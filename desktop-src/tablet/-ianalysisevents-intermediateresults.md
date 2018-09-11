@@ -1,7 +1,7 @@
 ---
 Description: Occurs when the current intermediate analysis stage is finished.
 ms.assetid: 9ade61f4-bcfe-4c49-bda1-b60aaf780935
-title: '\_IAnalysisEvents::IntermediateResults event'
+title: '_IAnalysisEvents::IntermediateResults event'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

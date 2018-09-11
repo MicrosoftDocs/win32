@@ -1,5 +1,5 @@
 ---
-title: AddLStoTSLSGroup method of the Win32\_TSLicenseServer class
+title: AddLStoTSLSGroup method of the Win32_TSLicenseServer class
 description: Adds the Remote Desktop license server to the Remote Desktop Connection Broker (RD Connection Broker) License Servers group on a domain controller in the same domain as the Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl

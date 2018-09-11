@@ -1,6 +1,6 @@
 ---
 Description: The SFPCatalog table contains the catalogs used by Windows Me.
-ms.assetid: 70c8b64a-cf15-411c-8388-4a7e3051f45c
+ms.assetid: 'e9dc65a9-4ec9-4310-b03a-a2c38720ca8c'
 title: SFPCatalog Table
 ms.technology: desktop
 ms.prod: windows

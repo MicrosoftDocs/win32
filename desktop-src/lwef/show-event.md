@@ -1,7 +1,7 @@
 ---
 title: Show Event
 description: Show Event
-ms.assetid: 8a73e883-c003-480b-8a0a-e699caffe54c
+ms.assetid: 'vs|msagent|~\pacontrol_7wrw.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

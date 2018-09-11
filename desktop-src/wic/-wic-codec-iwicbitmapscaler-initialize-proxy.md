@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the Initialize method.
 ms.assetid: 47a717d2-9aac-4230-bdb3-093212eb5448
-title: IWICBitmapScaler\_Initialize\_Proxy function
+title: IWICBitmapScaler_Initialize_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

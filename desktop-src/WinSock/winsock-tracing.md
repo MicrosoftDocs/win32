@@ -1,6 +1,6 @@
 ---
 Description: Winsock Tracing
-ms.assetid: b079bdfc-b192-451c-967d-dcefa94b7ec7
+ms.assetid: '0c430fc2-28e7-4537-a887-4c36d24fedee'
 title: Winsock Tracing
 ms.technology: desktop
 ms.prod: windows

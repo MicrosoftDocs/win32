@@ -1,6 +1,6 @@
 ---
 Description: These sections describe patching a Windows Installer installation.
-ms.assetid: c36e7d20-20fb-4b8b-8fa7-dcb7895db7db
+ms.assetid: 'e3c233bc-4344-449e-9e79-1a3b96ad2d08'
 title: Patching
 ms.technology: desktop
 ms.prod: windows

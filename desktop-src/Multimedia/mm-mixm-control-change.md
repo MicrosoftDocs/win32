@@ -1,5 +1,5 @@
 ---
-title: MM\_MIXM\_CONTROL\_CHANGE message
+title: MM_MIXM_CONTROL_CHANGE message
 description: The MM\_MIXM\_CONTROL\_CHANGE message is sent by a mixer device to notify an application that the state of a control associated with an audio line has changed. The application should refresh its display and cached values for the specified control.
 ms.assetid: 921c55a7-86c0-43d1-b817-bfbd3c4bb28b
 keywords:

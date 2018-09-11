@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_RETURN\* Constants
 ms.assetid: c6aadf84-c597-4cbd-a715-b68325ce5117
-title: LOCALE\_RETURN\* Constants
+title: LOCALE_RETURN* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -38,7 +38,7 @@ Genitive month names do not exist in all languages.
 </tr>
 <tr class="even">
 <td>LOCALE_RETURN_NUMBER</td>
-<td><strong>Windows Me/98, Windows NT 4.0 and later:</strong> Retrieve a number. This constant causes [<strong>GetLocaleInfo</strong>](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) or [<strong>GetLocaleInfoEx</strong>](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) to retrieve a value as a number instead of as a string. The buffer that receives the value must be at least the length of a DWORD value. This constant can be combined with any other constant having a name that begins with &quot;LOCALE_I&quot;.</td>
+<td><strong>Windows Me/98, Windows NT 4.0 and later:</strong> Retrieve a number. This constant causes <a href="/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa"><strong>GetLocaleInfo</strong></a> or <a href="/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex"><strong>GetLocaleInfoEx</strong></a> to retrieve a value as a number instead of as a string. The buffer that receives the value must be at least the length of a DWORD value. This constant can be combined with any other constant having a name that begins with &quot;LOCALE_I&quot;.</td>
 </tr>
 </tbody>
 </table>

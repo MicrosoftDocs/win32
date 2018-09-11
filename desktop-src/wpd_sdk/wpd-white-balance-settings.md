@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_WHITE\_BALANCE\_SETTINGS enumeration type describes how a video or image device weights color channels to achieve a proper white balance.
 ms.assetid: 7bc173dd-4fdd-4b03-994e-f0711c910618
-title: WPD\_WHITE\_BALANCE\_SETTINGS enumeration
+title: WPD_WHITE_BALANCE_SETTINGS enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

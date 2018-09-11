@@ -1,5 +1,5 @@
 ---
-title: TB\_GETBITMAP message
+title: TB_GETBITMAP message
 description: Retrieves the index of the bitmap associated with a button in a toolbar.
 ms.assetid: 64878cca-7d71-48ad-b2ed-d2bdc3067592
 keywords:

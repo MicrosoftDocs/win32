@@ -1,7 +1,7 @@
 ---
 Description: The TIMELINE\_MAJOR\_TYPE enumeration specifies the major type of an object.
 ms.assetid: 1a5fde83-2a0a-4bcf-bffe-340a9d914885
-title: TIMELINE\_MAJOR\_TYPE enumeration
+title: TIMELINE_MAJOR_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

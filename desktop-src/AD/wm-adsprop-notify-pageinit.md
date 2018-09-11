@@ -1,5 +1,5 @@
 ---
-title: WM\_ADSPROP\_NOTIFY\_PAGEINIT message
+title: WM_ADSPROP_NOTIFY_PAGEINIT message
 description: An Active Directory property sheet extension calls the ADsPropGetInitInfo to obtain data about regarding the directory object that the property sheet extension applies to.
 audience: developer
 author: REDMOND\\markl

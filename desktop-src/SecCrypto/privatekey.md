@@ -1,6 +1,6 @@
 ---
 Description: Represents the private key associated with a certificate.
-ms.assetid: 80478956-1ed7-4c25-9ae3-d7176649e6d7
+ms.assetid: '26ad1d1c-17c5-4191-ac97-b911e62b4119'
 title: PrivateKey object
 ms.technology: desktop
 ms.prod: windows

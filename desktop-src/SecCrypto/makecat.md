@@ -126,7 +126,7 @@ The \[CatalogFiles\] section defines each member of the catalog file with files 
 <li>0x00010000 Attribute is represented in plaintext. No conversion will be done.</li>
 <li>0x00020000 Attribute is represented in base-64 encoding. This is used to represent binary data.</li>
 <li>0x00000001 Attribute is a name-value pair. Use the oid option for the name. This attribute is slow; therefore, use this option sparingly.</li>
-<li>0x00000002 Attribute is referenced by an [<em>object identifier</em>](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID).</li>
+<li>0x00000002 Attribute is referenced by an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx"><em>object identifier</em></a> (OID).</li>
 </ul>
 <br/></td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 Description: The following is a list of error codes that TAPI can return when invoking operations on lines, addresses, or calls.
 ms.assetid: bdaf60d1-6ff2-4bd6-b246-8556d6cae644
-title: LINEERR\_ Constants
+title: LINEERR_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

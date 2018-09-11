@@ -1,7 +1,7 @@
 ---
 Description: Represents the settings of a virtual system to import. Used by the Dismount method of the Msvm\_AssignableDeviceService class.
 ms.assetid: 49892e21-3e8d-4644-8cde-72966927f350
-title: Msvm\_AssignableDeviceDismountSettingData class
+title: Msvm_AssignableDeviceDismountSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

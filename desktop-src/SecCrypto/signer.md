@@ -1,6 +1,6 @@
 ---
 Description: Establishes the signer of a SignedData or SignedCode object.
-ms.assetid: 380c9cf3-27a2-4354-b1c8-97cec33f4e44
+ms.assetid: 'fca6489c-56cf-472f-ac0f-73ba531fa212'
 title: Signer object
 ms.technology: desktop
 ms.prod: windows

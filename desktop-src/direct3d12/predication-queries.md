@@ -45,13 +45,13 @@ In the **LoadPipeline** method create a depth stencil descriptor heap.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>D3D12_DESCRIPTOR_HEAP_DESC</strong>](/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_heap_desc)</td>
-<td><dl>[<strong>D3D12_DESCRIPTOR_HEAP_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_heap_type)<br />
+<td><a href="/windows/desktop/api/D3D12/ns-d3d12-d3d12_descriptor_heap_desc"><strong>D3D12_DESCRIPTOR_HEAP_DESC</strong></a></td>
+<td><dl><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_heap_type"><strong>D3D12_DESCRIPTOR_HEAP_TYPE</strong></a><br />
 [<strong>D3D12_DESCRIPTOR_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_descriptor_heap_flags)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateDescriptorHeap</strong>](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createdescriptorheap)</td>
+<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createdescriptorheap"><strong>CreateDescriptorHeap</strong></a></td>
 
 </tr>
 </tbody>
@@ -110,8 +110,8 @@ This sample draws two quads and illustrates a binary occlusion query. The quad i
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CD3DX12_BLEND_DESC</strong>](cd3dx12-blend-desc.md)</td>
-<td><dl>[<strong>CD3DX12_DEFAULT</strong>](cd3dx12-default.md)<br />
+<td><a href="cd3dx12-blend-desc"><strong>CD3DX12_BLEND_DESC</strong></a></td>
+<td><dl><a href="cd3dx12-default"><strong>CD3DX12_DEFAULT</strong></a><br />
 [<strong>D3D12_BLEND</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_blend)<br />
 [<strong>D3D12_BLEND_OP</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_blend_op)<br />
 [<strong>D3D12_LOGIC_OP</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_logic_op)<br />
@@ -177,8 +177,8 @@ In the **LoadAssets** method a buffer needs to be created to store the results o
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CreateCommittedResource</strong>](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource)</td>
-<td><dl>[<strong>CD3DX12_HEAP_PROPERTIES</strong>](cd3dx12-heap-properties.md)<br />
+<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommittedresource"><strong>CreateCommittedResource</strong></a></td>
+<td><dl><a href="cd3dx12-heap-properties"><strong>CD3DX12_HEAP_PROPERTIES</strong></a><br />
 [<strong>D3D12_HEAP_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_type)<br />
 [<strong>D3D12_HEAP_FLAG</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_heap_flags)<br />
 [<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
@@ -248,74 +248,74 @@ Having done the setup, the main loop is updated in the **PopulateCommandLists** 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CD3DX12_GPU_DESCRIPTOR_HANDLE</strong>](cd3dx12-gpu-descriptor-handle.md)</td>
-<td>[<strong>GetGPUDescriptorHandleForHeapStart</strong>](/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart)</td>
+<td><a href="cd3dx12-gpu-descriptor-handle"><strong>CD3DX12_GPU_DESCRIPTOR_HANDLE</strong></a></td>
+<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart"><strong>GetGPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="even">
-<td>[<strong>IASetPrimitiveTopology</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology)</td>
-<td>[<strong>D3D_PRIMITIVE_TOPOLOGY</strong>](https://msdn.microsoft.com/library/windows/desktop/ff728726)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology"><strong>IASetPrimitiveTopology</strong></a></td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ff728726"><strong>D3D_PRIMITIVE_TOPOLOGY</strong></a></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IASetVertexBuffers</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers)</td>
-
-</tr>
-<tr class="even">
-<td>[<strong>SetGraphicsRootDescriptorTable</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable)</td>
-
-</tr>
-<tr class="odd">
-<td>[<strong>SetPredication</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication)</td>
-<td>[<strong>D3D12_PREDICATION_OP</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_predication_op)</td>
-</tr>
-<tr class="even">
-<td>[<strong>DrawInstanced</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced)</td>
-
-</tr>
-<tr class="odd">
-<td>[<strong>SetPredication</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication)</td>
-<td>[<strong>D3D12_PREDICATION_OP</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_predication_op)</td>
-</tr>
-<tr class="even">
-<td>[<strong>SetGraphicsRootDescriptorTable</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable)</td>
-
-</tr>
-<tr class="odd">
-<td>[<strong>DrawInstanced</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers"><strong>IASetVertexBuffers</strong></a></td>
 
 </tr>
 <tr class="even">
-<td>[<strong>SetGraphicsRootDescriptorTable</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable"><strong>SetGraphicsRootDescriptorTable</strong></a></td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>SetPipelineState</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication"><strong>SetPredication</strong></a></td>
+<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_predication_op"><strong>D3D12_PREDICATION_OP</strong></a></td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced"><strong>DrawInstanced</strong></a></td>
+
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication"><strong>SetPredication</strong></a></td>
+<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_predication_op"><strong>D3D12_PREDICATION_OP</strong></a></td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable"><strong>SetGraphicsRootDescriptorTable</strong></a></td>
+
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced"><strong>DrawInstanced</strong></a></td>
 
 </tr>
 <tr class="even">
-<td>[<strong>BeginQuery</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery)</td>
-<td>[<strong>D3D12_QUERY_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable"><strong>SetGraphicsRootDescriptorTable</strong></a></td>
+
 </tr>
 <tr class="odd">
-<td>[<strong>DrawInstanced</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate"><strong>SetPipelineState</strong></a></td>
 
 </tr>
 <tr class="even">
-<td>[<strong>EndQuery</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery)</td>
-<td>[<strong>D3D12_QUERY_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery"><strong>BeginQuery</strong></a></td>
+<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type"><strong>D3D12_QUERY_TYPE</strong></a></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ResourceBarrier</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)</td>
-<td><dl>[<strong>CD3DX12_RESOURCE_BARRIER</strong>](cd3dx12-resource-barrier.md)<br />
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced"><strong>DrawInstanced</strong></a></td>
+
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery"><strong>EndQuery</strong></a></td>
+<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type"><strong>D3D12_QUERY_TYPE</strong></a></td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
+<td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
 [<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>ResolveQueryData</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata)</td>
-<td>[<strong>D3D12_QUERY_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata"><strong>ResolveQueryData</strong></a></td>
+<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_query_type"><strong>D3D12_QUERY_TYPE</strong></a></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ResourceBarrier</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)</td>
-<td><dl>[<strong>CD3DX12_RESOURCE_BARRIER</strong>](cd3dx12-resource-barrier.md)<br />
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier"><strong>ResourceBarrier</strong></a></td>
+<td><dl><a href="cd3dx12-resource-barrier"><strong>CD3DX12_RESOURCE_BARRIER</strong></a><br />
 [<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)<br />
 </dl></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: SetFallbackPrintDriverType method of the Win32\_TerminalServiceSetting class
+title: SetFallbackPrintDriverType method of the Win32_TerminalServiceSetting class
 description: The SetFallbackPrintDriverType method sets the FallbackPrintDriverType property for the class.
 audience: developer
 author: REDMOND\\markl

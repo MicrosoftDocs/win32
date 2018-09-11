@@ -1,6 +1,6 @@
 ---
 Description: The USERNAME property is a user performing installation.
-ms.assetid: 6e2d18f6-e0f6-4d35-aa8d-35aebe60dcac
+ms.assetid: '13f3cf1a-e303-469c-9166-bba96046188b'
 title: USERNAME property
 ms.technology: desktop
 ms.prod: windows

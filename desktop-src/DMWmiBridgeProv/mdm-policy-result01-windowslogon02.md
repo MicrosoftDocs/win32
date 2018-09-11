@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_WindowsLogon02 class
+title: MDM_Policy_Result01_WindowsLogon02 class
 description: The MDM\_Policy\_Result01\_WindowsLogon02 class gets the settings of the lock screen and network user interface at logon.
 ms.assetid: 4c710e3d-e7d5-4e6e-ad99-b3c7d1813599
 keywords:

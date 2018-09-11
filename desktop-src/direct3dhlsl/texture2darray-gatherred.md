@@ -1,7 +1,7 @@
 ---
 title: Texture2DArray GatherRed methods
 description: Samples a Texture2DArray and returns the red component.
-ms.assetid: cb9c21ef-87f4-4c32-b41a-9fc7478713a6
+ms.assetid: '93171b98-1801-41a5-9ba2-7dd5b539ae34'
 keywords:
 - GatherRed methods HLSL
 topic_type:

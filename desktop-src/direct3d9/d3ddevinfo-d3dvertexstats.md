@@ -1,7 +1,7 @@
 ---
 Description: Reports the number of triangles that have been processed and clipped by the runtime's software vertex processing.
 ms.assetid: 280fb5c3-3048-4208-b352-0548b13ecba2
-title: D3DDEVINFO\_D3DVERTEXSTATS structure
+title: D3DDEVINFO_D3DVERTEXSTATS structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

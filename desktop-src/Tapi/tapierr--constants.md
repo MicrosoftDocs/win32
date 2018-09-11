@@ -1,7 +1,7 @@
 ---
 Description: The TAPIERR\_ constants provide information concerning function execution failures.
 ms.assetid: 6d1cf18b-efeb-4703-9b8e-fce59b61b63f
-title: TAPIERR\_ Constants
+title: TAPIERR_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

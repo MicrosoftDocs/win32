@@ -1,7 +1,7 @@
 ---
 title: Synchronous Operations
 description: When RasDial is invoked as a synchronous operation, the function does not return until the connection has been established or an error occurs.
-ms.assetid: f165b4a7-00fb-4888-8225-8fd106e113f2
+ms.assetid: '5333ca88-bcec-48bc-88d2-3c6c0701802e'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

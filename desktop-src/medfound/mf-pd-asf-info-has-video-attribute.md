@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether an Advanced Systems Format (ASF) file contains at least one video stream.
 ms.assetid: 98411c75-519f-4ace-999f-1ea22457ed4a
-title: MF\_PD\_ASF\_INFO\_HAS\_VIDEO attribute
+title: MF_PD_ASF_INFO_HAS_VIDEO attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

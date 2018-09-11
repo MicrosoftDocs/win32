@@ -2,7 +2,7 @@
 title: H
 description: Definitions of OpenGL terms that begin with the letter H.
 Robots: noindex, nofollow
-ms.assetid: 8e26ae78-edc1-4201-a0db-d5bc8ae6dc82
+ms.assetid: 'd170ff55-88de-4864-8780-b876d2b691d9'
 keywords:
 - half spaces
 - homogenous coordinates

@@ -1,5 +1,5 @@
 ---
-title: imm\_atomic\_imin (sm5 - asm)
+title: imm_atomic_imin (sm5 - asm)
 description: Immediate atomic signed min to memory. Returns value in memory before the max operation.
 ms.assetid: 8E104FFA-D086-49FD-9063-B950B6B1548B
 ms.technology: desktop

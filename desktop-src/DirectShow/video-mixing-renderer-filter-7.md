@@ -43,40 +43,40 @@ For more information, see [Using the Video Mixing Renderer](using-the-video-mixi
 <td>Filter Interfaces</td>
 <td>All modes:
 <ul>
-<li>[<strong>IAMCertifiedOutputProtection</strong>](/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection)</li>
-<li>[<strong>IAMFilterMiscFlags</strong>](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags)</li>
-<li>[<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)</li>
-<li>[<strong>IKsPropertySet</strong>](ikspropertyset.md)</li>
-<li>[<strong>IMediaPosition</strong>](/windows/desktop/api/Control/nn-control-imediaposition)</li>
-<li>[<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)</li>
-<li>[<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</li>
-<li>[<strong>IQualProp</strong>](/windows/desktop/api/Amvideo/nn-amvideo-iqualprop)</li>
-<li>[<strong>IVMRAspectRatioControl</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmraspectratiocontrol)</li>
-<li>[<strong>IVMRDeinterlaceControl</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmrdeinterlacecontrol)</li>
-<li>[<strong>IVMRFilterConfig</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmrfilterconfig)</li>
-<li>[<strong>IVMRMixerBitmap</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmrmixerbitmap)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>IAMCertifiedOutputProtection</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>IAMFilterMiscFlags</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li>
+<li><a href="ikspropertyset"><strong>IKsPropertySet</strong></a></li>
+<li><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
+<li><a href="/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmraspectratiocontrol"><strong>IVMRAspectRatioControl</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrdeinterlacecontrol"><strong>IVMRDeinterlaceControl</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrfilterconfig"><strong>IVMRFilterConfig</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrmixerbitmap"><strong>IVMRMixerBitmap</strong></a></li>
 </ul>
 Windowed mode:<br/>
 <ul>
-<li>[<strong>IBasicVideo</strong>](/windows/desktop/api/Control/nn-control-ibasicvideo)</li>
-<li>[<strong>IBasicVideo2</strong>](/windows/desktop/api/Control/nn-control-ibasicvideo2)</li>
-<li>[<strong>IVideoWindow</strong>](/windows/desktop/api/Control/nn-control-ivideowindow)</li>
-<li>[<strong>IVMRMonitorConfig</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmrmonitorconfig)</li>
+<li><a href="/windows/desktop/api/Control/nn-control-ibasicvideo"><strong>IBasicVideo</strong></a></li>
+<li><a href="/windows/desktop/api/Control/nn-control-ibasicvideo2"><strong>IBasicVideo2</strong></a></li>
+<li><a href="/windows/desktop/api/Control/nn-control-ivideowindow"><strong>IVideoWindow</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrmonitorconfig"><strong>IVMRMonitorConfig</strong></a></li>
 </ul>
 Windowless mode:<br/>
 <ul>
-<li>[<strong>IVMRWindowlessControl</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmrwindowlesscontrol)</li>
-<li>[<strong>IVMRMonitorConfig</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmrmonitorconfig)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrwindowlesscontrol"><strong>IVMRWindowlessControl</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrmonitorconfig"><strong>IVMRMonitorConfig</strong></a></li>
 </ul>
 Renderless mode:<br/>
 <ul>
-<li>[<strong>IVMRSurfaceAllocatorNotify</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmrsurfaceallocatornotify)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrsurfaceallocatornotify"><strong>IVMRSurfaceAllocatorNotify</strong></a></li>
 </ul>
 Mixer mode:<br/>
 <ul>
-<li>[<strong>IVMRMixerControl</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmrmixercontrol)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrmixercontrol"><strong>IVMRMixerControl</strong></a></li>
 </ul>
-For information about the various VMR-7 modes, see [VMR Modes of Operation](vmr-modes-of-operation.md).<br/></td>
+For information about the various VMR-7 modes, see <a href="vmr-modes-of-operation">VMR Modes of Operation</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -85,13 +85,13 @@ For information about the various VMR-7 modes, see [VMR Modes of Operation](vmr-
 <tr class="odd">
 <td>Input Pin Interfaces</td>
 <td><ul>
-<li>[<strong>IAMVideoAccelerator</strong>](/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator)</li>
-<li>[<strong>IMemInputPin</strong>](/windows/desktop/api/Strmif/nn-strmif-imeminputpin)</li>
-<li>[<strong>IOverlay</strong>](/windows/desktop/api/Strmif/nn-strmif-ioverlay) (see Remarks)</li>
-<li>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin)</li>
-<li>[<strong>IPinConnection</strong>](/windows/desktop/api/Strmif/nn-strmif-ipinconnection)</li>
-<li>[<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</li>
-<li>[<strong>IVMRVideoStreamControl</strong>](/windows/desktop/api/Strmif/nn-strmif-ivmrvideostreamcontrol)</li>
+<li><a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator"><strong>IAMVideoAccelerator</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ioverlay"><strong>IOverlay</strong></a> (see Remarks)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ipinconnection"><strong>IPinConnection</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrvideostreamcontrol"><strong>IVMRVideoStreamControl</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -107,7 +107,7 @@ For information about the various VMR-7 modes, see [VMR Modes of Operation](vmr-
 <td>There are two CLSIDs associated with this filter:
 <ul>
 <li>CLSID_VideoMixingRenderer: Creates the VMR-7. If there are not enough system resources to create the VMR-7, the call to <strong>CoCreateInstance</strong> fails.</li>
-<li>CLSID_VideoRendererDefault: Creates the VMR-7 if system resources are available, or else creates the old [Video Renderer](video-renderer-filter.md) filter.</li>
+<li>CLSID_VideoRendererDefault: Creates the VMR-7 if system resources are available, or else creates the old <a href="video-renderer-filter">Video Renderer</a> filter.</li>
 </ul>
 Use CLSID_VideoMixingRenderer if you need the specific capabilities of the VMR-7. Otherwise, use CLSID_VideoRendererDefault, which is almost certain not to fail, because it falls back to the old Video Renderer filter.<br/></td>
 </tr>
@@ -120,11 +120,11 @@ Use CLSID_VideoMixingRenderer if you need the specific capabilities of the VMR-7
 <td>Quartz.dll</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_PREFERRED + 1</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

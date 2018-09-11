@@ -1,5 +1,5 @@
 ---
-title: CBN\_EDITUPDATE notification code
+title: CBN_EDITUPDATE notification code
 description: Sent when the edit control portion of a combo box is about to display altered text.
 ms.assetid: cae9cbf5-d420-4dfb-a46f-8c1a77de6ecf
 keywords:

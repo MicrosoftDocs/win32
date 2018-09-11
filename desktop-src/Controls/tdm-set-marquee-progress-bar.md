@@ -1,5 +1,5 @@
 ---
-title: TDM\_SET\_MARQUEE\_PROGRESS\_BAR message
+title: TDM_SET_MARQUEE_PROGRESS_BAR message
 description: Indicates whether the hosted progress bar of a task dialog should be displayed in marquee mode.
 ms.assetid: 28b9b519-6b96-4130-936c-b8fe8df86d25
 keywords:

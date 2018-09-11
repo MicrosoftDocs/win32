@@ -1,5 +1,5 @@
 ---
-title: SB\_SIMPLE message
+title: SB_SIMPLE message
 description: Specifies whether a status window displays simple text or displays all window parts set by a previous SB\_SETPARTS message.
 ms.assetid: 457209cb-67d4-4a9f-8d18-75aa5eb9ca1d
 keywords:

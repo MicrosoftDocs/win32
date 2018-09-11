@@ -1,5 +1,5 @@
 ---
-title: TVM\_INSERTITEM message
+title: TVM_INSERTITEM message
 description: Inserts a new item in a tree-view control. You can send this message explicitly or by using the TreeView\_InsertItem macro.
 ms.assetid: c5e5f88f-6ec8-4b95-89ea-97f6f1fd735e
 keywords:

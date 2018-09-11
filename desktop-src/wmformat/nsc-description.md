@@ -1,5 +1,5 @@
 ---
-title: NSC\_Description
+title: NSC_Description
 description: The NSC\_Description attribute contains a description of the multicast station.
 ms.assetid: 6a3dc2ed-722b-427a-99e1-7b311e7e8408
 keywords:

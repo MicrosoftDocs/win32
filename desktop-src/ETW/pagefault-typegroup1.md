@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for page fault events. The following syntax is simplified from MOF code.
 ms.assetid: 59cb1091-af21-4fe6-87b8-17a262cc4467
-title: PageFault\_TypeGroup1 class
+title: PageFault_TypeGroup1 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

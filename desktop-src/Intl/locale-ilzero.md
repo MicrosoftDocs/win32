@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_ILZERO
 ms.assetid: 396d437f-09af-475f-8e73-de31d9a305da
-title: LOCALE\_ILZERO
+title: LOCALE_ILZERO
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

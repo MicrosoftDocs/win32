@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Obtaining an Object Identifier from Microsoft
 
-To extend the Active Directory schema successfully you can obtain a root OID from a script available at <http://go.microsoft.com/fwlink/p/?linkid=100725>. The OIDs generated from the script are unique; they are mapped from a unique GUID. Please read the best practices carefully as poorly handled OIDs can result in data loss.
+To extend the Active Directory schema successfully you can obtain a root OID from a script available at <https://go.microsoft.com/fwlink/p/?linkid=2014651>. The OIDs generated from the script are unique; they are mapped from a unique GUID. Please read the best practices carefully as poorly handled OIDs can result in data loss.
 
 > [!Note]  
 > For instructions on obtaining a link-Id from Microsoft, please visit the [Linked Attributes](linked-attributes.md) topic.

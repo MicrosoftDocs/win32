@@ -36,31 +36,31 @@ If there is additional documentation for a sample, the first column of this tabl
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DirectShow Base Classes](directshow-base-classes.md)</td>
+<td><a href="directshow-base-classes">DirectShow Base Classes</a></td>
 <td>Base class library</td>
 <td>C++ classes and utility functions designed for implementing DirectShow filters.</td>
 
 </tr>
 <tr class="even">
-<td>[AmCap Sample](amcap-sample.md)</td>
+<td><a href="amcap-sample">AmCap Sample</a></td>
 <td>Capture</td>
 <td>Video capture application.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="odd">
-<td>[DVApp Sample](dvapp-sample.md)</td>
+<td><a href="dvapp-sample">DVApp Sample</a></td>
 <td>Capture</td>
 <td>Digital Video (DV) capture application.</td>
 
 </tr>
 <tr class="even">
-<td>[PlayCap Sample](playcap-sample.md)</td>
+<td><a href="playcap-sample">PlayCap Sample</a></td>
 <td>Capture</td>
 <td>Simple capture application.</td>
 
 </tr>
 <tr class="odd">
-<td>[DMO Demo Sample](dmo-demo-sample.md)</td>
+<td><a href="dmo-demo-sample">DMO Demo Sample</a></td>
 <td>DMO</td>
 <td>Streams audio data from a WAV file through an audio effect DMO.</td>
 <td>DirectX SDK</td>
@@ -72,25 +72,25 @@ If there is additional documentation for a sample, the first column of this tabl
 
 </tr>
 <tr class="odd">
-<td>[InfTee Filter Sample](inftee-filter-sample.md)</td>
+<td><a href="inftee-filter-sample">InfTee Filter Sample</a></td>
 <td>Filters, miscellaneous</td>
-<td>Sample implementation of the [Infinite Pin Tee](infinite-pin-tee-filter.md) filter.</td>
+<td>Sample implementation of the <a href="infinite-pin-tee-filter">Infinite Pin Tee</a> filter.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="even">
-<td>[Metronome Filter Sample](metronome-filter-sample.md)</td>
+<td><a href="metronome-filter-sample">Metronome Filter Sample</a></td>
 <td>Filters, miscellaneous</td>
 <td>Shows how to implement a reference clock.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="odd">
-<td>[PSI Parser Filter Sample](psi-parser-filter-sample.md)</td>
+<td><a href="psi-parser-filter-sample">PSI Parser Filter Sample</a></td>
 <td>Filters, miscellaneous</td>
 <td>Receives Program Specific Information (PSI) tables from an MPEG-2 transport stream and extracts program information.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="even">
-<td>[Dump Filter Sample](dump-filter-sample.md)</td>
+<td><a href="dump-filter-sample">Dump Filter Sample</a></td>
 <td>Filters, renderer</td>
 <td>Writes media samples receives to a text file.</td>
 <td>strmbase.lib</td>
@@ -102,73 +102,73 @@ If there is additional documentation for a sample, the first column of this tabl
 <td>strmbase.lib</td>
 </tr>
 <tr class="even">
-<td>[Scope Filter Sample](scope-filter-sample.md)</td>
+<td><a href="scope-filter-sample">Scope Filter Sample</a></td>
 <td>Filters, renderer</td>
 <td>Displays sound data as wave forms.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="odd">
-<td>[Async Filter Sample](async-filter-sample.md)</td>
+<td><a href="async-filter-sample">Async Filter Sample</a></td>
 <td>Filters, source</td>
 <td>File reader filter that supports progressive download.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="even">
-<td>[Ball Filter Sample](ball-filter-sample.md)</td>
+<td><a href="ball-filter-sample">Ball Filter Sample</a></td>
 <td>Filters, source</td>
 <td>Video source filter that produces an image of a bouncing ball.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="odd">
-<td>[Push Source Filters Sample](push-source-filters-sample.md)</td>
+<td><a href="push-source-filters-sample">Push Source Filters Sample</a></td>
 <td>Filters, source</td>
 <td>Source filters that provide the following data as a video stream: A single bitmap, a set of bitmaps, a copy of the current desktop image.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="even">
-<td>[Synth Filter Sample](synth-filter-sample.md)</td>
+<td><a href="synth-filter-sample">Synth Filter Sample</a></td>
 <td>Filters, source</td>
 <td>Source filter that generates audio waveforms. This sample demonstrates dynamic graph building.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="odd">
-<td>[EZRGB24 Filter Sample](ezrgb24-filter-sample.md)</td>
+<td><a href="ezrgb24-filter-sample">EZRGB24 Filter Sample</a></td>
 <td>Filters, transform</td>
 <td>Image processing filter.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="even">
-<td>[Gargle Filter Sample](gargle-filter-sample.md)</td>
+<td><a href="gargle-filter-sample">Gargle Filter Sample</a></td>
 <td>Filters, transform</td>
 <td>Audio effect filter.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="odd">
-<td>[WavDest Filter Sample](wavdest-filter-sample.md)</td>
+<td><a href="wavdest-filter-sample">WavDest Filter Sample</a></td>
 <td>Filters, transform</td>
 <td>Writes an audio stream to a WAV file.</td>
 <td>strmbase.lib</td>
 </tr>
 <tr class="even">
-<td>[DMOEnum Sample](dmoenum-sample.md)</td>
+<td><a href="dmoenum-sample">DMOEnum Sample</a></td>
 <td>Miscellaneous</td>
-<td>Shows how to enumerate [DirectX Media Objects](directx-media-objects.md) (DMOs).</td>
+<td>Shows how to enumerate <a href="directx-media-objects">DirectX Media Objects</a> (DMOs).</td>
 
 </tr>
 <tr class="odd">
-<td>[Mapper Sample](mapper-sample.md)</td>
+<td><a href="mapper-sample">Mapper Sample</a></td>
 <td>Miscellaneous</td>
-<td>Shows how to use the [Filter Mapper](filter-mapper.md) to find filters in the registry.</td>
+<td>Shows how to use the <a href="filter-mapper">Filter Mapper</a> to find filters in the registry.</td>
 
 </tr>
 <tr class="even">
 <td>SysEnum Sample</td>
 <td>Miscellaneous</td>
-<td>Demonstrates using the [System Device Enumerator](system-device-enumerator.md) to enumerate devices and filters.</td>
+<td>Demonstrates using the <a href="system-device-enumerator">System Device Enumerator</a> to enumerate devices and filters.</td>
 
 </tr>
 <tr class="odd">
-<td>[CutScene Sample](cutscene-sample.md)</td>
+<td><a href="cutscene-sample">CutScene Sample</a></td>
 <td>Playback</td>
 <td>Plays a video file in full-screen mode.</td>
 
@@ -176,7 +176,7 @@ If there is additional documentation for a sample, the first column of this tabl
 <tr class="even">
 <td>DDrawXCL Sample</td>
 <td>Playback</td>
-<td>Plays video in DirectDraw exclusive full-screen mode, using the [<strong>IDDrawExclModeVideo</strong>](/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo) interface on the [Overlay Mixer](overlay-mixer-filter.md) filter.</td>
+<td>Plays video in DirectDraw exclusive full-screen mode, using the <a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>IDDrawExclModeVideo</strong></a> interface on the <a href="overlay-mixer-filter">Overlay Mixer</a> filter.</td>
 
 </tr>
 <tr class="odd">
@@ -203,7 +203,7 @@ Requires Windows Vista or later.
 <td>strmbase.lib, DirectX SDK</td>
 </tr>
 <tr class="even">
-<td>[Ticker Sample](ticker-sample.md)</td>
+<td><a href="ticker-sample">Ticker Sample</a></td>
 <td>VMR-9</td>
 <td>Uses the VMR-9 to blend video and text.</td>
 
@@ -221,7 +221,7 @@ Requires Windows Vista or later.
 
 </tr>
 <tr class="odd">
-<td>[VMRPlayer Sample](vmrplayer-sample.md)</td>
+<td><a href="vmrplayer-sample">VMRPlayer Sample</a></td>
 <td>VMR-9</td>
 <td>Uses the VMR-9 to blend one or two running videos and a static image.</td>
 
@@ -233,7 +233,7 @@ Requires Windows Vista or later.
 
 </tr>
 <tr class="odd">
-<td>[Windowless Sample](windowless-sample.md)</td>
+<td><a href="windowless-sample">Windowless Sample</a></td>
 <td>VMR-9</td>
 <td>Demonstrates windowless mode in the VMR-9.</td>
 

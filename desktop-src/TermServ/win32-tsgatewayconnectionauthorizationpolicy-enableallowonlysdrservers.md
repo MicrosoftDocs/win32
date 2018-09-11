@@ -1,5 +1,5 @@
 ---
-title: EnableAllowOnlySDRServers method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: EnableAllowOnlySDRServers method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Used to toggle the AllowOnlySDRServers property.
 audience: developer
 author: REDMOND\\markl

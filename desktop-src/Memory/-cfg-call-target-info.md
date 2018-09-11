@@ -1,7 +1,7 @@
 ---
 Description: Represents information about call targets for Control Flow Guard (CFG).
 ms.assetid: 8DEF907F-3F23-4122-95CE-F413FC7FD96B
-title: CFG\_CALL\_TARGET\_INFO structure
+title: CFG_CALL_TARGET_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

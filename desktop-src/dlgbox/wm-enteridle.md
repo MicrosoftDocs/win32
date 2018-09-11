@@ -1,5 +1,5 @@
 ---
-title: WM\_ENTERIDLE message
+title: WM_ENTERIDLE message
 description: Sent to the owner window of a modal dialog box or menu that is entering an idle state. A modal dialog box or menu enters an idle state when no messages are waiting in its queue after it has processed one or more previous messages.
 ms.assetid: 11b1f942-185f-4de4-90a2-e2934bb1394f
 keywords:

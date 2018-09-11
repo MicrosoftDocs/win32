@@ -27,7 +27,7 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 <tbody>
 <tr class="odd">
 <td>Filter interfaces</td>
-<td>[<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), IPersist, IPersistPropertyBag</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, IPersist, IPersistPropertyBag</td>
 </tr>
 <tr class="even">
 <td>Input pin media types</td>
@@ -35,7 +35,7 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 </tr>
 <tr class="odd">
 <td>Input pin interfaces</td>
-<td>[<strong>IMemInputPin</strong>](/windows/desktop/api/Strmif/nn-strmif-imeminputpin), [<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Output pin media types</td>
@@ -48,7 +48,7 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 </tr>
 <tr class="odd">
 <td>Output pin interfaces</td>
-<td>[<strong>IAMStreamConfig</strong>](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig), [<strong>IMediaPosition</strong>](/windows/desktop/api/Control/nn-control-imediaposition), [<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig"><strong>IAMStreamConfig</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -63,11 +63,11 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 <td>Quartz.dll</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_NORMAL or MERIT_DO_NOT_USE</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory or CLSID_AudioCompressorCategory</td>
 </tr>
 </tbody>

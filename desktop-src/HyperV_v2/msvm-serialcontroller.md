@@ -1,7 +1,7 @@
 ---
 Description: Represents the capabilities and management of the serial controller.
 ms.assetid: 0F4DCF98-8EE4-4005-ADD5-BA23CB4CBE82
-title: Msvm\_SerialController class
+title: Msvm_SerialController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -54,8 +54,8 @@ These technologies are not available on all operating systems. Therefore, the ex
 <td><ul>
 <li>CryptoAPI</li>
 <li>Access control lists</li>
-<li>[<strong>CryptProtectData</strong>](https://msdn.microsoft.com/library/windows/desktop/aa380261)</li>
-<li>[<strong>CryptUnprotectData</strong>](https://msdn.microsoft.com/library/windows/desktop/aa380882)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/aa380261"><strong>CryptProtectData</strong></a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/aa380882"><strong>CryptUnprotectData</strong></a></li>
 </ul></td>
 </tr>
 </tbody>

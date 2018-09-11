@@ -1,7 +1,7 @@
 ---
 Description: Returns the local address, local port, remote address, remote port, socket type, and protocol used by a socket.
 ms.assetid: 2628f47e-3e73-4e02-91b8-ba4cb0800864
-title: SO\_BSP\_STATE socket option
+title: SO_BSP_STATE socket option
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

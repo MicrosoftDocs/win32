@@ -1,5 +1,5 @@
 ---
-title: TBN\_CUSTHELP notification code
+title: TBN_CUSTHELP notification code
 description: Notifies a toolbar's parent window that the user has chosen the Help button in the Customize Toolbar dialog box. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e889764b-abbd-42a6-8c13-ace6ee052039
 keywords:

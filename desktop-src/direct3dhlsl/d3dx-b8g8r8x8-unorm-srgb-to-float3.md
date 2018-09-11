@@ -1,5 +1,5 @@
 ---
-title: D3DX\_B8G8R8X8\_UNORM\_SRGB\_to\_FLOAT3 function
+title: D3DX_B8G8R8X8_UNORM_SRGB_to_FLOAT3 function
 description: Unpacks DXGI\_FORMAT\_B8G8R8X8\_UNORM\_SRGB shader data to an XMFLOAT3.
 ms.assetid: 9b3c511c-95c2-454c-95b9-ff6ab0920466
 keywords:

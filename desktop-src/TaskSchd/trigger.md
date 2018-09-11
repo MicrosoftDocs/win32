@@ -1,7 +1,7 @@
 ---
 title: Trigger object
 description: Scripting object that provides the common properties that are inherited by all trigger objects.
-ms.assetid: 9d5a7cf6-2e1d-44ae-bb45-66424770d61b
+ms.assetid: 'dfc4cb36-8bdb-4aec-963e-5f1ec1ff85aa'
 keywords:
 - triggers Task Scheduler , trigger object
 - Trigger object Task Scheduler

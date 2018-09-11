@@ -1,7 +1,7 @@
 ---
 Description: Instructs an IME window to set the style of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 19b99228-a1fc-4cd5-8f37-5462bf767f85
-title: IMC\_SETCOMPOSITIONWINDOW command
+title: IMC_SETCOMPOSITIONWINDOW command
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

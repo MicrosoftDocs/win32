@@ -1,7 +1,7 @@
 ---
 title: Programming Guide
 description: Programming Guide
-ms.assetid: e7b179b3-ed14-4ea0-9a00-9d96557a2e2e
+ms.assetid: '9b382c88-e4a9-4aed-a250-250fabface44'
 keywords:
 - Windows Media Format SDK,Programming Guide
 - Windows Media Format SDK,Advanced Systems Format (ASF)

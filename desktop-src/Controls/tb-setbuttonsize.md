@@ -1,5 +1,5 @@
 ---
-title: TB\_SETBUTTONSIZE message
+title: TB_SETBUTTONSIZE message
 description: Sets the size of buttons on a toolbar.
 ms.assetid: ef6beed7-a3d6-4379-b9c1-c64a5e33ce78
 keywords:

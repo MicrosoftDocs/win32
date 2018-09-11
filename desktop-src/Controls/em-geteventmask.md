@@ -1,5 +1,5 @@
 ---
-title: EM\_GETEVENTMASK message
+title: EM_GETEVENTMASK message
 description: Retrieves the event mask for a rich edit control. The event mask specifies which notification codes the control sends to its parent window.
 ms.assetid: cdf99f2a-e747-4b0e-9235-2719477c3ce2
 keywords:

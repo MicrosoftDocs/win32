@@ -1,7 +1,7 @@
 ---
 Description: Segment stop time.
 ms.assetid: 8724c608-28ab-4ae9-982c-6e53c03601a1
-title: CBasePin::m\_tStop member
+title: CBasePin::m_tStop member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

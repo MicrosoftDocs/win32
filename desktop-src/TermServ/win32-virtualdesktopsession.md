@@ -1,5 +1,5 @@
 ---
-title: Win32\_VirtualDesktopSession class
+title: Win32_VirtualDesktopSession class
 description: Manages a virtual desktop session.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: The get\_Url method gets the URL.
 ms.assetid: 9ea2ddf6-b8c7-4bfa-aab3-ff2d2056837f
-title: ITSdp::get\_Url method
+title: ITSdp::get_Url method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

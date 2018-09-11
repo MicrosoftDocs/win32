@@ -1,7 +1,7 @@
 ---
 Description: The get\_ErrorLog method retrieves the current error log for this object.
 ms.assetid: 580b8a06-6bf2-49ef-a5fb-5e6df2f09793
-title: IAMSetErrorLog::get\_ErrorLog method
+title: IAMSetErrorLog::get_ErrorLog method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

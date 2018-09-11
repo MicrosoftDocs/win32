@@ -1,7 +1,7 @@
 ---
 Description: The WM\_PALETTEISCHANGING message informs applications that an application is going to realize its logical palette.
 ms.assetid: 64ec1042-0ab5-496f-9a88-2f293b412704
-title: WM\_PALETTEISCHANGING message
+title: WM_PALETTEISCHANGING message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

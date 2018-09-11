@@ -1,7 +1,7 @@
 ---
 title: Root Signatures
 description: The root signature defines what types of resources are bound to the graphics pipeline.
-ms.assetid: 493D35C9-2A90-4688-BD7E-74B9EB2B4E72
+ms.assetid: 'ee32a222-8469-4af5-b688-afa70cf77c6a'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

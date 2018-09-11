@@ -1,5 +1,5 @@
 ---
-title: RdvSetupVMPermissions method of the Win32\_RdvhManagement class
+title: RdvSetupVMPermissions method of the Win32_RdvhManagement class
 description: Sets the permissions on a virtual machine for the current user.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: LB\_INSERTSTRING message
+title: LB_INSERTSTRING message
 description: Inserts a string or item data into a list box. Unlike the LB\_ADDSTRING message, the LB\_INSERTSTRING message does not cause a list with the LBS\_SORT style to be sorted.
 ms.assetid: dfaa742d-2f42-4485-aed5-cda8ca9ba66c
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Registers - vs\_5\_0
+title: Registers - vs_5_0
 description: The following input and output registers are implemented in the vertex shader version 5\_0.
 ms.assetid: 475753C7-C055-4DB7-9DC3-6C734413A92B
 ms.technology: desktop

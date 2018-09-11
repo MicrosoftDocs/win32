@@ -58,7 +58,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...determine the domain in which a computer belongs?</td>
-<td>Use the [<strong>Win32_ComputerSystem</strong>](https://msdn.microsoft.com/library/aa394102) class and check the value of the <strong>Domain</strong> property. You can also use the <strong>DNSDomain</strong> property in [<strong>Win32_NetworkAdapterConfiguration</strong>](https://msdn.microsoft.com/library/aa394217).<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and check the value of the <strong>Domain</strong> property. You can also use the <strong>DNSDomain</strong> property in <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a>.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -128,7 +128,7 @@ foreach (CimInstance cimObj in queryInstance)
 </tr>
 <tr class="even">
 <td>...determine whether a computer is a server or a workstation?</td>
-<td><p>Use the [<strong>Win32_ComputerSystem</strong>](https://msdn.microsoft.com/library/aa394102) class and the <strong>DomainRole</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and the <strong>DomainRole</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -197,7 +197,7 @@ switch  ($computer.DomainRole) {
 </tr>
 <tr class="odd">
 <td>...determine the computer name?</td>
-<td><p>Use the [<strong>Win32_ComputerSystem</strong>](https://msdn.microsoft.com/library/aa394102) class and the <strong>Name</strong> property. You can also use the <strong>DNSHostName</strong> property in [<strong>Win32_NetworkAdapterConfiguration</strong>](https://msdn.microsoft.com/library/aa394217).</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and the <strong>Name</strong> property. You can also use the <strong>DNSHostName</strong> property in <a href="https://msdn.microsoft.com/library/aa394217"><strong>Win32_NetworkAdapterConfiguration</strong></a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -266,7 +266,7 @@ foreach (CimInstance cimObj in queryInstance)
 </tr>
 <tr class="even">
 <td>...find the name of the person currently logged on to a computer?</td>
-<td><p>Use the [<strong>Win32_ComputerSystem</strong>](https://msdn.microsoft.com/library/aa394102) class and the <strong>UserName</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class and the <strong>UserName</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -340,7 +340,7 @@ foreach (CimInstance cimObj in queryInstance)
 </tr>
 <tr class="odd">
 <td>...rename a computer?</td>
-<td><p>Use the [<strong>Win32_ComputerSystem</strong>](https://msdn.microsoft.com/library/aa394102) class, and the <strong>Rename</strong> method.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394102"><strong>Win32_ComputerSystem</strong></a> class, and the <strong>Rename</strong> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -401,7 +401,7 @@ if ($return.ReturnValue -eq 0) {
 </tr>
 <tr class="even">
 <td>...retrieve only local groups using WMI?</td>
-<td><p>Use the [<strong>Win32_Group</strong>](https://msdn.microsoft.com/library/aa394151) class and include the following <strong>WHERE</strong> clause in your [WQL](querying-with-wql.md) query.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394151"><strong>Win32_Group</strong></a> class and include the following <strong>WHERE</strong> clause in your <a href="querying-with-wql">WQL</a> query.</p>
 <p><code>Where LocalAccount = True</code></p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>

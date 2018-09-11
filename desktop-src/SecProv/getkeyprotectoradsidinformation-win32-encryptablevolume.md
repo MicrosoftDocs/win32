@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the security identifier and flags used to protect a key.
 ms.assetid: 5EF97F44-78FF-4FBF-9142-F2DD0A849057
-title: GetKeyProtectorCertificate method of the Win32\_EncryptableVolume class
+title: GetKeyProtectorCertificate method of the Win32_EncryptableVolume class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

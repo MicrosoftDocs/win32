@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the codec will use video scaling optimization.
 ms.assetid: a21d0100-e020-4e74-b8e3-bb7071194828
-title: MFPKEY\_VIDEOSCALING Property
+title: MFPKEY_VIDEOSCALING Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -100,167 +100,167 @@ The Windows Media Video 7/8 encoder supports the following properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>MFPKEY_ASFOVERHEADPERFRAME</strong>](mfpkey-asfoverheadperframeproperty.md)</td>
+<td><a href="mfpkey-asfoverheadperframeproperty"><strong>MFPKEY_ASFOVERHEADPERFRAME</strong></a></td>
 <td>Specifies the overhead, in bytes per packet, required for the container used to store the compressed content.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_AVGFRAMERATE</strong>](mfpkey-avgframerateproperty.md)</td>
+<td><a href="mfpkey-avgframerateproperty"><strong>MFPKEY_AVGFRAMERATE</strong></a></td>
 <td>Specifies the average frame rate of video content, in frames per second.<br/> <dl> Windows XP and later.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_BAVG</strong>](mfpkey-bavgproperty.md)</td>
-<td>Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its average bit rate (specified by [<strong>MFPKEY_RAVG</strong>](mfpkey-ravgproperty.md)).<br/> <dl> Windows XP and later.<br />
+<td><a href="mfpkey-bavgproperty"><strong>MFPKEY_BAVG</strong></a></td>
+<td>Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its average bit rate (specified by <a href="mfpkey-ravgproperty"><strong>MFPKEY_RAVG</strong></a>).<br/> <dl> Windows XP and later.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_BMAX</strong>](mfpkey-bmaxproperty.md)</td>
-<td>Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its peak bit rate (specified by [<strong>MFPKEY_RMAX</strong>](mfpkey-rmaxproperty.md)).<br/> <dl> Windows XP and later.<br />
+<td><a href="mfpkey-bmaxproperty"><strong>MFPKEY_BMAX</strong></a></td>
+<td>Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its peak bit rate (specified by <a href="mfpkey-rmaxproperty"><strong>MFPKEY_RMAX</strong></a>).<br/> <dl> Windows XP and later.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_BUFFERFULLNESSINFIRSTBYTE</strong>](mfpkey-bufferfullnessinfirstbyteproperty.md)</td>
+<td><a href="mfpkey-bufferfullnessinfirstbyteproperty"><strong>MFPKEY_BUFFERFULLNESSINFIRSTBYTE</strong></a></td>
 <td>Specifies whether the encoded video bit stream contains a buffer fullness value with every key frame.<br/> <dl> Windows XP and later.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_CODEDFRAMES</strong>](mfpkey-codedframesproperty.md)</td>
+<td><a href="mfpkey-codedframesproperty"><strong>MFPKEY_CODEDFRAMES</strong></a></td>
 <td>Specifies the number of video frames encoded by the codec.<br/> <dl> Windows XP and later.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_CODEDNONZEROFRAMES</strong>](mfpkey-codednonzeroframesproperty.md)</td>
+<td><a href="mfpkey-codednonzeroframesproperty"><strong>MFPKEY_CODEDNONZEROFRAMES</strong></a></td>
 <td>Specifies the number of video frames encoded by the codec that actually contain data.<br/> <dl> Windows XP and later.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_COMPLEXITY</strong>](mfpkey-complexityproperty.md)</td>
-<td>This property is superseded by [<strong>MFPKEY_COMPLEXITYEX</strong>](mfpkey-complexityexproperty.md).<br/></td>
+<td><a href="mfpkey-complexityproperty"><strong>MFPKEY_COMPLEXITY</strong></a></td>
+<td>This property is superseded by <a href="mfpkey-complexityexproperty"><strong>MFPKEY_COMPLEXITYEX</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_COMPLEXITYEX</strong>](mfpkey-complexityexproperty.md)</td>
+<td><a href="mfpkey-complexityexproperty"><strong>MFPKEY_COMPLEXITYEX</strong></a></td>
 <td>Specifies the complexity of the encoder algorithm.<br/> <dl> Windows Vista and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_CRISP</strong>](mfpkey-crispproperty.md)</td>
+<td><a href="mfpkey-crispproperty"><strong>MFPKEY_CRISP</strong></a></td>
 <td>Specifies a numeric representation of the tradeoff between motion smoothness and image quality in codec output.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_DECODERCOMPLEXITYPROFILE</strong>](mfpkey-decodercomplexityprofileproperty.md)</td>
+<td><a href="mfpkey-decodercomplexityprofileproperty"><strong>MFPKEY_DECODERCOMPLEXITYPROFILE</strong></a></td>
 <td>Specifies the device conformance template to which the encoded content conforms.<br/> <dl> Windows XP and later.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_DECODERCOMPLEXITYREQUESTED</strong>](mfpkey-decodercomplexityrequestedproperty.md)</td>
+<td><a href="mfpkey-decodercomplexityrequestedproperty"><strong>MFPKEY_DECODERCOMPLEXITYREQUESTED</strong></a></td>
 <td>Specifies the device conformance template that you want to use for video encoding.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_DROPPEDFRAMES</strong>](mfpkey-droppedframesproperty.md)</td>
+<td><a href="mfpkey-droppedframesproperty"><strong>MFPKEY_DROPPEDFRAMES</strong></a></td>
 <td>Specifies the number of video frames dropped during encoding.<br/> <dl> Windows XP and later.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_ENDOFPASS</strong>](mfpkey-endofpassproperty.md)</td>
+<td><a href="mfpkey-endofpassproperty"><strong>MFPKEY_ENDOFPASS</strong></a></td>
 <td>Specifies the end of an encoding pass.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_FOURCC</strong>](mfpkey-fourccproperty.md)</td>
+<td><a href="mfpkey-fourccproperty"><strong>MFPKEY_FOURCC</strong></a></td>
 <td>Specifies the FOURCC that identifies the encoder you want to use.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_INTERLACEDCODINGENABLED</strong>](mfpkey-interlacedcodingenabledproperty.md)</td>
+<td><a href="mfpkey-interlacedcodingenabledproperty"><strong>MFPKEY_INTERLACEDCODINGENABLED</strong></a></td>
 <td>Specifies whether the codec output will be interlaced.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_KEYDIST</strong>](mfpkey-keydistproperty.md)</td>
+<td><a href="mfpkey-keydistproperty"><strong>MFPKEY_KEYDIST</strong></a></td>
 <td>Specifies the maximum time, in milliseconds, between key frames in the codec output.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_PASSESRECOMMENDED</strong>](mfpkey-passesrecommendedproperty.md)</td>
+<td><a href="mfpkey-passesrecommendedproperty"><strong>MFPKEY_PASSESRECOMMENDED</strong></a></td>
 <td>Specifies the maximum number of passes supported by the codec.<br/> <dl> Windows XP and later.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_PASSESUSED</strong>](mfpkey-passesusedproperty.md)</td>
+<td><a href="mfpkey-passesusedproperty"><strong>MFPKEY_PASSESUSED</strong></a></td>
 <td>Specifies the number of passes that the codec will use to encode the content.<br/> <dl> Windows XP and later.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_PRODUCEDUMMYFRAMES</strong>](mfpkey-producedummyframesproperty.md)</td>
+<td><a href="mfpkey-producedummyframesproperty"><strong>MFPKEY_PRODUCEDUMMYFRAMES</strong></a></td>
 <td>Specifies whether the encoder produces dummy frame entries in the bit stream for duplicate frames.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_QPPERFRAME</strong>](mfpkey-qpperframeproperty.md)</td>
+<td><a href="mfpkey-qpperframeproperty"><strong>MFPKEY_QPPERFRAME</strong></a></td>
 <td>Specifies QP.<br/> <dl> Windows Vista and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_RAVG</strong>](mfpkey-ravgproperty.md)</td>
+<td><a href="mfpkey-ravgproperty"><strong>MFPKEY_RAVG</strong></a></td>
 <td>Specifies the average bit rate, in bits per second, used for 2-pass variable-bit-rate (VBR) encoding.<br/> <dl> Windows XP and later.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_RMAX</strong>](mfpkey-rmaxproperty.md)</td>
+<td><a href="mfpkey-rmaxproperty"><strong>MFPKEY_RMAX</strong></a></td>
 <td>Specifies the peak bit rate, in bits per second, used for constrained 2-pass variable-bit-rate (VBR).<br/> <dl> Windows XP and later.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_TOTALFRAMES</strong>](mfpkey-totalframesproperty.md)</td>
+<td><a href="mfpkey-totalframesproperty"><strong>MFPKEY_TOTALFRAMES</strong></a></td>
 <td>Specifies the number of video frames passed to the encoder during the encoding process.<br/> <dl> Windows XP and later.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_VBRENABLED</strong>](mfpkey-vbrenabledproperty.md)</td>
+<td><a href="mfpkey-vbrenabledproperty"><strong>MFPKEY_VBRENABLED</strong></a></td>
 <td>Specifies whether the codec will use variable-bit-rate (VBR) encoding.<br/> <dl> Windows XP and later.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_VBRQUALITY</strong>](mfpkey-vbrqualityproperty.md)</td>
+<td><a href="mfpkey-vbrqualityproperty"><strong>MFPKEY_VBRQUALITY</strong></a></td>
 <td>Specifies the actual quality level for quality based (1-pass) variable-bit-rate (VBR) encoding.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_VIDEOWINDOW</strong>](mfpkey-videowindowproperty.md)</td>
+<td><a href="mfpkey-videowindowproperty"><strong>MFPKEY_VIDEOWINDOW</strong></a></td>
 <td>Specifies the amount of content, in milliseconds, that can fit into the model buffer.<br/> <dl> Windows XP and later.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_ZEROBYTEFRAMES</strong>](mfpkey-zerobyteframesproperty.md)</td>
+<td><a href="mfpkey-zerobyteframesproperty"><strong>MFPKEY_ZEROBYTEFRAMES</strong></a></td>
 <td>Specifies the number of video frames that were skipped because they were duplicates of previous frames.<br/> <dl> Windows XP and later.<br />
 Read-only<br />
 </dl></td>

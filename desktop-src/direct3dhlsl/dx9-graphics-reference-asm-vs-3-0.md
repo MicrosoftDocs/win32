@@ -1,5 +1,5 @@
 ---
-title: vs\_3\_0
+title: vs_3_0
 description: A programmable vertex shader is made up of a set of instructions that operate on vertex data. Registers transfer data in and out of the ALU. Additional control can be applied to modify the instruction, the results, or what data gets written out.
 ms.assetid: 0f40f946-3525-4203-bfe2-1cd941d8e2ec
 ms.technology: desktop
@@ -120,12 +120,12 @@ If Vertex Shader 3\_0 is supported, the following caps are supported in hardware
 <tr class="odd">
 <td>VertexTextureFilterCaps</td>
 <td><ul>
-<li>[D3DPTFILTERCAPS_MINFPOINT](https://msdn.microsoft.com/library/windows/desktop/bb172593)</li>
-<li>[D3DPTFILTERCAPS_MAGFPOINT](https://msdn.microsoft.com/library/windows/desktop/bb172593)</li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/bb172593">D3DPTFILTERCAPS_MINFPOINT</a></li>
+<li><a href="https://msdn.microsoft.com/library/windows/desktop/bb172593">D3DPTFILTERCAPS_MAGFPOINT</a></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET](https://msdn.microsoft.com/library/windows/desktop/bb172537)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/bb172537">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a></td>
 <td>Vertex elements in a vertex declaration can share the same stream offset.</td>
 </tr>
 <tr class="odd">

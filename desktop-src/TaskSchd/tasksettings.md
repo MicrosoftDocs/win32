@@ -1,7 +1,7 @@
 ---
 title: TaskSettings object
 description: A scripting object that provides the settings that the Task Scheduler service uses to perform the task.
-ms.assetid: 203264d1-f67c-45ba-931b-206d7f57a2a6
+ms.assetid: 'f2ba952b-7864-467d-8709-eb6995dd5df5'
 keywords:
 - TaskSettings object Task Scheduler
 - TaskSettings object Task Scheduler , described

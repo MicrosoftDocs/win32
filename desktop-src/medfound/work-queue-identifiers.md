@@ -31,7 +31,7 @@ Applications should use MFASYNC\_CALLBACK\_QUEUE\_MULTITHREADED or use a work qu
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_STANDARD"></span><span id="mfasync_callback_queue_standard"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_STANDARD</strong></dt> <dt>0x00000001</dt> </dl></td>
-<td style="text-align: left;">In most cases, applications should use <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>.<br/> This work queue is used for synchronous operations. Using the standard work queue may run the risk of deadlocking. Applications can create a private synchronous queue on top of the multithreaded queue by using [<strong>MFAllocateSerialWorkQueue</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfallocateserialworkqueue).<br/></td>
+<td style="text-align: left;">In most cases, applications should use <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>.<br/> This work queue is used for synchronous operations. Using the standard work queue may run the risk of deadlocking. Applications can create a private synchronous queue on top of the multithreaded queue by using <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateserialworkqueue"><strong>MFAllocateSerialWorkQueue</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_RT"></span><span id="mfasync_callback_queue_rt"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_RT</strong></dt> <dt>0x00000002</dt> </dl></td>
@@ -45,9 +45,9 @@ Applications should use MFASYNC\_CALLBACK\_QUEUE\_MULTITHREADED or use a work qu
 <td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_TIMER"></span><span id="mfasync_callback_queue_timer"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_TIMER</strong></dt> <dt>0x00000004</dt> </dl></td>
 <td style="text-align: left;">Not for general application use.<br/> This work queue is used for periodic callbacks and scheduled work items. The following functions put work items in this queue:<br/>
 <ul>
-<li>[<strong>MFAddPeriodicCallback</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback)</li>
-<li>[<strong>MFScheduleWorkItem</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem)</li>
-<li>[<strong>MFScheduleWorkItemEx</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex)</li>
+<li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback"><strong>MFAddPeriodicCallback</strong></a></li>
+<li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem"><strong>MFScheduleWorkItem</strong></a></li>
+<li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex"><strong>MFScheduleWorkItemEx</strong></a></li>
 </ul></td>
 </tr>
 <tr class="odd">

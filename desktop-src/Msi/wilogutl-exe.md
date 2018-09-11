@@ -92,20 +92,20 @@ When run in UI mode, Wilogutl.exe displays the following dialog boxes.
 <li>The <strong>Request</strong> column shows the user's selection during the installation for the feature or component's state.</li>
 <li>The <strong>Action</strong> column shows the action taken by the installer for the feature or component.</li>
 </ul>
-For more information, see [<strong>MsiGetComponentState</strong>](/windows/desktop/api/Msiquery/nf-msiquery-msigetcomponentstatea) and [<strong>MsiGetFeatureState</strong>](/windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturestatea).<br/></td>
+For more information, see <a href="/windows/desktop/api/Msiquery/nf-msiquery-msigetcomponentstatea"><strong>MsiGetComponentState</strong></a> and <a href="/windows/desktop/api/Msiquery/nf-msiquery-msigetfeaturestatea"><strong>MsiGetFeatureState</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Properties</td>
-<td>The Properties dialog box shows Windows Installer [Properties](properties.md) and their values at the end of the installation. You can sort the properties by name or by value:
+<td>The Properties dialog box shows Windows Installer <a href="properties">Properties</a> and their values at the end of the installation. You can sort the properties by name or by value:
 <ul>
 <li>The <strong>Client</strong> tab shows properties and values during the client side portion of the installation.</li>
 <li>The <strong>Server</strong> tab shows properties and values during the server portion of the installation.</li>
-<li>The <strong>Nested</strong> tab shows the properties and values of any [Concurrent Installations](concurrent-installations.md).</li>
+<li>The <strong>Nested</strong> tab shows the properties and values of any <a href="concurrent-installations">Concurrent Installations</a>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Policies</td>
-<td>The Policies dialog box displays the [System Policy](system-policy.md) set after the installation:
+<td>The Policies dialog box displays the <a href="system-policy">System Policy</a> set after the installation:
 <ul>
 <li>A value of 0 (zero) set for the policy means the policy is not enabled.</li>
 <li>A value of 1 (one) means the policy is enabled.</li>

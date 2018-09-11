@@ -1,5 +1,5 @@
 ---
-title: MDM\_EnterpriseModernAppManagement\_AppManagement01 class
+title: MDM_EnterpriseModernAppManagement_AppManagement01 class
 description: The MDM\_EnterpriseModernAppManagement\_AppManagement01 class starts the Windows Update scan and reports the last scan error.
 ms.assetid: f579a7c9-2e98-4e34-b45b-db8a4d553c57
 keywords:

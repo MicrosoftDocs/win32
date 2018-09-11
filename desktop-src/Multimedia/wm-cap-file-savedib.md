@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_FILE\_SAVEDIB message
+title: WM_CAP_FILE_SAVEDIB message
 description: The WM\_CAP\_FILE\_SAVEDIB message copies the current frame to a DIB file. You can send this message explicitly or by using the capFileSaveDIB macro.
 ms.assetid: bf6d343b-9236-4e68-bbda-2ed6e197a5cb
 keywords:

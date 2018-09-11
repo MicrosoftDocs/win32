@@ -1,6 +1,6 @@
 ---
 Description: This section describes the document technologies that are supported by Microsoft Windows.
-ms.assetid: f21199e2-2220-40c4-9429-72aa2a34a5f2
+ms.assetid: '14ae2c97-8596-46db-a55c-ef706d2cd00b'
 title: XPS Documents
 ms.technology: desktop
 ms.prod: windows

@@ -1,5 +1,5 @@
 ---
-title: NM\_DBLCLK (tree view) notification code
+title: NM_DBLCLK (tree view) notification code
 description: Notifies the parent window of a tree-view control that the user has double-clicked the left mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 2ed3b3ad-a252-496a-bfcf-0cec5678f192
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The get\_StopTime method retrieves the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaPosition::get\_StopTime method.
 ms.assetid: 0ca3f047-ac43-419e-a1ed-b406f89f7af7
-title: CPosPassThru.get\_StopTime method
+title: CPosPassThru.get_StopTime method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

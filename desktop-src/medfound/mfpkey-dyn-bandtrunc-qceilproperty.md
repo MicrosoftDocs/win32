@@ -1,7 +1,7 @@
 ---
 Description: Specifies the quality at which minimum coded bandwidth is allowed.
 ms.assetid: 2f0f43a9-2424-4b73-a9aa-a06474676fb4
-title: MFPKEY\_DYN\_BANDTRUNC\_QCEIL Property
+title: MFPKEY_DYN_BANDTRUNC_QCEIL Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

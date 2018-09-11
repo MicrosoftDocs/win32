@@ -1,7 +1,7 @@
 ---
 title: Principal.DisplayName property
 description: For scripting, gets or sets the name of the principal..
-ms.assetid: 285a0e64-d796-4b0d-84b1-9ebd0728ddc0
+ms.assetid: '73caf263-f597-4bea-ae89-32f9919d7a70'
 keywords:
 - DisplayName property Task Scheduler
 - DisplayName property Task Scheduler , Principal object

@@ -1,7 +1,7 @@
 ---
 Description: WPD\_CONTENT\_TYPE\_GENERIC\_FILE
 ms.assetid: e652bebc-fb3d-48cd-af59-3ad97a79711d
-title: WPD\_CONTENT\_TYPE\_GENERIC\_FILE
+title: WPD_CONTENT_TYPE_GENERIC_FILE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

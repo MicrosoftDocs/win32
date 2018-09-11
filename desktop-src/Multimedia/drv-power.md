@@ -1,5 +1,5 @@
 ---
-title: DRV\_POWER message
+title: DRV_POWER message
 description: Notifies the driver that power to the device is being turned on or off.
 ms.assetid: b3bbd16a-5b90-4127-a1dd-f2ddfd918f0a
 keywords:

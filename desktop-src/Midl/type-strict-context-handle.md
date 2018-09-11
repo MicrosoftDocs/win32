@@ -1,5 +1,5 @@
 ---
-title: type\_strict\_context\_handle attribute
+title: type_strict_context_handle attribute
 description: Use the \ type\_strict\_context\_handle\ in an ACF file to set restrictions on context handles.
 ms.assetid: b67caad2-e87d-4eba-8555-8f347aadd515
 keywords:

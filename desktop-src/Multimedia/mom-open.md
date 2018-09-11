@@ -1,7 +1,7 @@
 ---
-title: MOM\_OPEN message
+title: MOM_OPEN message
 description: The MOM\_OPEN message is sent to a MIDI output callback function when a MIDI output device is opened.
-ms.assetid: 1374a07c-02fa-4b43-82df-cbd96302aec5
+ms.assetid: 'f3360482-7d16-419c-b5d1-0dd3a6e3c690'
 keywords:
 - MOM_OPEN message Windows Multimedia
 topic_type:

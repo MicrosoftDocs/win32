@@ -1,5 +1,5 @@
 ---
-title: Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing
+title: Unpacking and Packing DXGI_FORMAT for In-Place Image Editing
 description: The D3DX\_DXGIFormatConvert.inl file contains inline format conversion functions that you can use in the compute shader or pixel shader on Direct3D 11 hardware.
 ms.assetid: 328c4488-9758-4359-a37b-ac50f20e2940
 ms.technology: desktop

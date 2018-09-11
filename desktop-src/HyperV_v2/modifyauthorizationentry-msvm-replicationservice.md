@@ -1,7 +1,7 @@
 ---
 Description: Modifies an authorization entry for a recovery server.
 ms.assetid: fbdf3ecd-42de-49a8-85b8-51fc9c9fcf26
-title: ModifyAuthorizationEntry method of the Msvm\_ReplicationService class
+title: ModifyAuthorizationEntry method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

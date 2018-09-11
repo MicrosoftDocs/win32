@@ -1,6 +1,6 @@
 ---
 Description: The following globally unique identifiers (GUIDs) define different time formats.
-ms.assetid: 1622c5bb-94f7-4bbb-8564-d7180b37c910
+ms.assetid: '510c7146-ff3c-4812-a7ad-b4051aa82ef3'
 title: Time Format GUIDs
 ms.technology: desktop
 ms.prod: windows

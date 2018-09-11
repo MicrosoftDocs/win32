@@ -1,5 +1,5 @@
 ---
-title: TS\_AS\_\ Constants
+title: TS_AS_ Constants
 description: The following flags specify the events that call the AdviseSink methods.
 ms.assetid: 8f406b67-f846-4712-b4be-811dbcc6ad55
 topic_type:

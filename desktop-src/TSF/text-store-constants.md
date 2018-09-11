@@ -1,7 +1,7 @@
 ---
 title: Text Store Constants
 description: Text Store Constants
-ms.assetid: 6e05ed74-fff3-4bc4-a21e-9af9492af23b
+ms.assetid: '4f8eea3f-82f5-47af-8b1f-ee35c4aedd36'
 keywords:
 - Text Services Framework (TSF),text stores
 - TSF (Text Services Framework),text stores

@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.Name property
 description: For scripting, gets the name of the registered task.
-ms.assetid: 17aff717-10dd-43ac-9d14-6c07831d4c18
+ms.assetid: 'dfe11253-370e-4010-8a76-0e7a257d220a'
 keywords:
 - Name property Task Scheduler
 - Name property Task Scheduler , RegisteredTask object

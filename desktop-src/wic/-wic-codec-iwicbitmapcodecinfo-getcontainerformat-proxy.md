@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetContainerFormat method.
 ms.assetid: d8a2387a-fb75-4812-b046-51359071281d
-title: IWICBitmapCodecInfo\_GetContainerFormat\_Proxy function
+title: IWICBitmapCodecInfo_GetContainerFormat_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 title: Media.getItemInfo method
 description: The getItemInfo method retrieves the value of the specified attribute for the current media item.
-ms.assetid: ee964f68-d44c-4e66-908b-09070a96d96f
+ms.assetid: 'a1ee0d40-b979-424b-bd4e-d1acf6354d8d'
 keywords:
 - getItemInfo method Windows Media Player
 - getItemInfo method Windows Media Player , Media class

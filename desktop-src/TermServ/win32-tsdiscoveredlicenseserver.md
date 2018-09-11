@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSDiscoveredLicenseServer class
+title: Win32_TSDiscoveredLicenseServer class
 description: Provides details about the discovered Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl

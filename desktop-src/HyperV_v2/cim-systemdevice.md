@@ -1,7 +1,7 @@
 ---
 Description: Associates a system with a logical device that is a component of the system.
 ms.assetid: d5a36f71-5ebe-46e2-aaa9-5d99fa075d31
-title: CIM\_SystemDevice class
+title: CIM_SystemDevice class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

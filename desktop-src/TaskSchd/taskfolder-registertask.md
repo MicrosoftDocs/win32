@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.RegisterTask method
 description: For scripting, registers (creates) a new task in the folder using XML to define the task.
-ms.assetid: 743e5bd9-3fb6-4e09-96ed-ca2d74fa0bab
+ms.assetid: '9bf5c59b-5aa1-42b3-a307-f583cdf59a39'
 keywords:
 - RegisterTask method Task Scheduler
 - RegisterTask method Task Scheduler , TaskFolder object

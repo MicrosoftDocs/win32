@@ -44,7 +44,7 @@ The **WBEMTime** class has these constructors.
 
 | Constructor                           | Description                                                                                                   |
 |:--------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [**WBEMTime**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-wbemtime(const bstr)) | Constructor that facilitates conversions between various Windows and ANSI C run-time time formats.<br/> |
+| [**WBEMTime**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-wbemtime(constbstr)) | Constructor that facilitates conversions between various Windows and ANSI C run-time time formats.<br/> |
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask object
 description: Scripting object that provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the properties that describe the task.
-ms.assetid: 3743d012-ad7c-402f-8859-939bb01ee447
+ms.assetid: 'd280f22b-4dd1-44df-be12-286fb1c029a3'
 keywords:
 - RegisteredTask object Task Scheduler
 - RegisteredTask object Task Scheduler , described

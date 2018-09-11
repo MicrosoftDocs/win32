@@ -1,5 +1,5 @@
 ---
-title: MDM\_ActiveSync\_User\_ContentTypes04\_01 class
+title: MDM_ActiveSync_User_ContentTypes04_01 class
 description: The MDM\_ActiveSync\_User\_ContentTypes04\_01 class defines the type of content to be individually enabled/disabled for sync.
 ms.assetid: 82759cf9-ea2a-4d75-bb07-6832c3005074
 keywords:

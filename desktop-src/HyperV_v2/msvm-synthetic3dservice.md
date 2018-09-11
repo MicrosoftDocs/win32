@@ -1,7 +1,7 @@
 ---
 Description: Describes the synthetic 3-D GPU service.
-ms.assetid: 280a3c25-7b8f-4113-bf35-171d15f4aea7
-title: Msvm\_Synthetic3DService class
+ms.assetid: 'fe3d6105-3def-453a-ad81-97cd0bb4613f'
+title: Msvm_Synthetic3DService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

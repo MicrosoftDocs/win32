@@ -1,5 +1,5 @@
 ---
-title: CCM\_DPISCALE message
+title: CCM_DPISCALE message
 description: Enables automatic high dots per inch (dpi) scaling in Tree-View controls, List-View controls, ComboBoxEx controls, Header controls, Buttons, Toolbar controls, Animation controls, and Image Lists.
 ms.assetid: 3c751f10-992c-41f8-8f0b-3dc58f0591e4
 keywords:

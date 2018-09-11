@@ -1,5 +1,5 @@
 ---
-title: Instructions - vs\_3\_0
+title: Instructions - vs_3_0
 description: This section contains reference information for the vertex shader version 3\_0 instructions.
 ms.assetid: 2309a643-dec8-4f2a-a217-e7f1e90b5f43
 ms.technology: desktop

@@ -1,7 +1,7 @@
 ---
 title: TaskNamedValueCollection.Item property
 description: For scripting, gets the specified name-value pair from the collection.
-ms.assetid: a243b814-7d83-466d-bd49-3414f3240780
+ms.assetid: '89c87b22-e459-435d-8c15-69907e9b1329'
 keywords:
 - Item property Task Scheduler
 - Item property Task Scheduler , TaskNamedValueCollection object

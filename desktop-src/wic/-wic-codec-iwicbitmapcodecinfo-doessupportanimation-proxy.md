@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the DoesSupportAnimation method.
 ms.assetid: dd7ed856-14b5-4215-96da-8f5db19a7796
-title: IWICBitmapCodecInfo\_DoesSupportAnimation\_Proxy function
+title: IWICBitmapCodecInfo_DoesSupportAnimation_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

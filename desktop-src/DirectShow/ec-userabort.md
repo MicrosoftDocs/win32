@@ -1,7 +1,7 @@
 ---
 Description: The user has terminated playback.
 ms.assetid: 974a9c3e-cfc9-4608-9f98-732aeaa0a752
-title: EC\_USERABORT
+title: EC_USERABORT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

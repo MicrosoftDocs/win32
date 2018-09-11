@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_ComputerSystemMappedIO class
+title: CIM_ComputerSystemMappedIO class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

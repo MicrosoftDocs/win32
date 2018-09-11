@@ -1,7 +1,7 @@
 ---
 Description: Critical section for this lock.
 ms.assetid: 30f8b001-9a3b-4d07-9f02-5855ce793590
-title: CAutoLock::m\_pLock member
+title: CAutoLock::m_pLock member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

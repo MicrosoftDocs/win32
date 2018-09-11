@@ -1,5 +1,5 @@
 ---
-title: D3DX11\_ERR enumeration
+title: D3DX11_ERR enumeration
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Errors are represented by negative values and cannot be combined.
 ms.assetid: d042621d-a20b-4945-b6aa-714a451aa88a
 keywords:

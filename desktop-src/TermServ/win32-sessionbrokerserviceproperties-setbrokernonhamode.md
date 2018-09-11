@@ -1,5 +1,5 @@
 ---
-title: SetBrokerNonHAMode method of the Win32\_SessionBrokerServiceProperties class
+title: SetBrokerNonHAMode method of the Win32_SessionBrokerServiceProperties class
 description: Migrates data from central SQL Server to a local database. It also configures the broker server to use the local database.
 audience: developer
 author: REDMOND\\markl

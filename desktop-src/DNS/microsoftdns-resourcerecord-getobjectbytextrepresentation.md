@@ -1,5 +1,5 @@
 ---
-title: GetObjectByTextRepresentation method of the MicrosoftDNS\_ResourceRecord class
+title: GetObjectByTextRepresentation method of the MicrosoftDNS_ResourceRecord class
 description: The GetObjectByTextRepresentation method retrieves an existing instance of the MicrosoftDNS\_ResourceRecord class.
 ms.assetid: d25e10de-81fa-4220-b2b8-d9a65298b629
 keywords:

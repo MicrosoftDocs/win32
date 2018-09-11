@@ -1,5 +1,5 @@
 ---
-title: TB\_SETINSERTMARKCOLOR message
+title: TB_SETINSERTMARKCOLOR message
 description: Sets the color used to draw the insertion mark for the toolbar.
 ms.assetid: 09a04449-9a1f-4f9a-b09f-9f22f930d735
 keywords:

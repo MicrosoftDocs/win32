@@ -1,6 +1,6 @@
 ---
 Description: Represents an object identifier (OID) that is used by several CAPICOM properties.
-ms.assetid: 6c1eb2cc-84ac-4920-99ba-56ac8de4a851
+ms.assetid: 'd9dc2a9a-920b-41e1-91fb-da1628df577d'
 title: OID object
 ms.technology: desktop
 ms.prod: windows

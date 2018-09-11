@@ -1,7 +1,7 @@
 ---
 Description: Specifies the top edge of the destination rectangle, in pixels.
 ms.assetid: e3ccbb23-0be3-4316-9e5f-0094fdb9e2db
-title: MFPKEY\_COLORCONV\_DSTTOP Property
+title: MFPKEY_COLORCONV_DSTTOP Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

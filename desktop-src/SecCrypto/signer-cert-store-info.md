@@ -1,7 +1,7 @@
 ---
 Description: Specifies the certificate store used to sign a document.
 ms.assetid: aabad010-6fa3-4677-bd73-b8c52d68dbc8
-title: SIGNER\_CERT\_STORE\_INFO structure
+title: SIGNER_CERT_STORE_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

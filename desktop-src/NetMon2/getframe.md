@@ -1,6 +1,6 @@
 ---
 Description: The GetFrame function returns a handle to a given frame within a capture.
-ms.assetid: efd1cff5-a3a1-4910-b003-25b6e10dad6e
+ms.assetid: 'd40bc364-0028-4006-a6c2-6ee100366ba3'
 title: GetFrame function
 ms.technology: desktop
 ms.prod: windows

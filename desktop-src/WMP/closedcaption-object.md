@@ -1,7 +1,7 @@
 ---
 title: ClosedCaption Object
 description: The ClosedCaption object provides a way to include captions with a media clip. The captioning text is in a Synchronized Accessible Media Interchange (SAMI) file.
-ms.assetid: f536c062-fcf6-4ada-b485-6deeb4dd4d9d
+ms.assetid: '5e192aa4-0ecd-4bda-8dad-1750039c7898'
 keywords:
 - ClosedCaption Object Windows Media Player
 topic_type:

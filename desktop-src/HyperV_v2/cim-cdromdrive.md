@@ -1,7 +1,7 @@
 ---
 Description: Represents the capabilities and management of a CD ROM drive.
 ms.assetid: 937be389-11f8-4298-92c8-4bf67a36fb16
-title: CIM\_CDROMDrive class
+title: CIM_CDROMDrive class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

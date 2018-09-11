@@ -1,7 +1,7 @@
 ---
 title: PlaylistCollection.newPlaylist method
 description: The newPlaylist method creates a new playlist in the library.
-ms.assetid: 5ad51469-a150-4322-ac16-782ef0d96a57
+ms.assetid: '428b5779-4dc0-466b-9834-6b2c43324013'
 keywords:
 - newPlaylist method Windows Media Player
 - newPlaylist method Windows Media Player , PlaylistCollection class

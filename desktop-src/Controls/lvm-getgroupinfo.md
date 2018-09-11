@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETGROUPINFO message
+title: LVM_GETGROUPINFO message
 description: Gets group information.
 ms.assetid: 72d84e0b-121e-473b-a34d-874234c598b6
 keywords:
@@ -31,7 +31,7 @@ Gets group information.
 </dt> <dd>An ID that specifies the group whose information is retrieved.</dd> <dt>
 
 *lParam* 
-</dt> <dd>A pointer an [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup) structure that receives the retrieved information. Set the **cbSize** member of this structure to sizeof(LVGROUP). </dd> </dl>
+</dt> <dd>A pointer an <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup">**LVGROUP**</a> structure that receives the retrieved information. Set the **cbSize** member of this structure to sizeof(LVGROUP). </dd> </dl>
 
 ## Return value
 

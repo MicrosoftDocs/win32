@@ -7,7 +7,7 @@ ms.assetid: 93246826-8070-4e05-96f0-f773041ed1d4
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_EventConsumerProviderCacheControl class'
+title: '__EventConsumerProviderCacheControl class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

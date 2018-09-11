@@ -1,7 +1,7 @@
 ---
 Description: Represents information about a connection to a printer.
 ms.assetid: afac3f91-74eb-46f7-94b4-d37b2b8a32a4
-title: PRINTER\_CONNECTION\_INFO\_1 structure
+title: PRINTER_CONNECTION_INFO_1 structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

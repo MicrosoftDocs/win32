@@ -1,7 +1,7 @@
 ---
 title: GL Functions
 description: GL Functions
-ms.assetid: 9eb08fd4-899a-4610-9491-d7f377a19b46
+ms.assetid: '44773cd3-1cb9-4d59-9a10-6a9e7e6516cc'
 keywords:
 - OpenGL,GL functions
 - OpenGL reference,GL functions

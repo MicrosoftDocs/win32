@@ -1,5 +1,5 @@
 ---
-title: WM\_ADSPROP\_NOTIFY\_CHANGE message
+title: WM_ADSPROP_NOTIFY_CHANGE message
 description: The WM\_ADSPROP\_NOTIFY\_CHANGE message is used internally by the notification object.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: deriv\_rtx (sm4 - asm)
+title: deriv_rtx (sm4 - asm)
 description: Rate of change of contents of each float32 component of src0 (post-swizzle), with regard to RenderTarget x direction (rtx) or RenderTarget y direction.
 ms.assetid: 2438DB36-C348-4854-AE1B-EC3C890B0B42
 ms.technology: desktop

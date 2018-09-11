@@ -61,14 +61,14 @@ Represents a [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md) cont
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
 <td>No<br/></td>
-<td>Valid only if [<strong>MenuGroup</strong>](windowsribbon-element-menugroup.md) is the parent element.<br/> <br/>
+<td>Valid only if <a href="windowsribbon-element-menugroup"><strong>MenuGroup</strong></a> is the parent element.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:string)<br/> </dt> <dd> A string that contains a comma-separated list of integers between 0 and 31.<br/> White space is valid and ignored.<br/> Maximum length: 250 characters. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs:positiveInteger or xs:string<br/></td>
 <td>No<br/></td>
-<td>Associates the element with a [<strong>Command</strong>](windowsribbon-element-command.md).<br/> <br/>
+<td>Associates the element with a <a href="windowsribbon-element-command"><strong>Command</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)<br/> </dt> <dd> A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
@@ -146,19 +146,19 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ControlGroup</strong>](windowsribbon-element-controlgroup.md)<br/></td>
+<td><a href="windowsribbon-element-controlgroup"><strong>ControlGroup</strong></a><br/></td>
 
 </tr>
 <tr class="even">
-<td>[<strong>Group</strong>](windowsribbon-element-group.md)<br/></td>
+<td><a href="windowsribbon-element-group"><strong>Group</strong></a><br/></td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>MenuGroup</strong>](windowsribbon-element-menugroup.md)<br/></td>
-<td>When contained in an [<strong>ApplicationMenu</strong>](windowsribbon-element-applicationmenu.md). This element is only supported on the first level and must have no child elements.<br/> <br/></td>
+<td><a href="windowsribbon-element-menugroup"><strong>MenuGroup</strong></a><br/></td>
+<td>When contained in an <a href="windowsribbon-element-applicationmenu"><strong>ApplicationMenu</strong></a>. This element is only supported on the first level and must have no child elements.<br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>QuickAccessToolbar.ApplicationDefaults</strong>](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md)<br/></td>
+<td><a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults"><strong>QuickAccessToolbar.ApplicationDefaults</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 Windows 8 and newer.
@@ -166,7 +166,7 @@ Windows 8 and newer.
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SplitButton</strong>](windowsribbon-element-splitbutton.md)<br/></td>
+<td><a href="windowsribbon-element-splitbutton"><strong>SplitButton</strong></a><br/></td>
 
 </tr>
 </tbody>

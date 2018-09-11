@@ -1,7 +1,7 @@
 ---
 title: Reader Object
 description: Reader Object
-ms.assetid: 70696ffc-2612-460d-b445-f200ba85d3c7
+ms.assetid: 'b5edbf8b-820f-4e09-a482-8efc2283360e'
 keywords:
 - Windows Media Format SDK,reader objects
 - Advanced Systems Format (ASF),reader objects

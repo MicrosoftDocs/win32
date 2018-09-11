@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.GetFolders property
 description: For scripting, gets all the subfolders in the folder.
-ms.assetid: ee00a8be-52f5-4399-9a1f-18e06121a3da
+ms.assetid: 'eddbae57-9a25-4336-b100-78d525ad9d0b'
 keywords:
 - GetFolders property Task Scheduler
 - GetFolders property Task Scheduler , TaskFolder object

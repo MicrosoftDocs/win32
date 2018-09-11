@@ -1,7 +1,7 @@
 ---
 Description: Represents a storage operation job created by the Microsoft Hyper-V Image Management Service.
-ms.assetid: 119E7EFD-78C9-46F1-8A53-C51A7A34B32E
-title: Msvm\_StorageJob class
+ms.assetid: 'a1517c1f-7fb6-4203-a5ec-2ecdfcbc4e8c'
+title: Msvm_StorageJob class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

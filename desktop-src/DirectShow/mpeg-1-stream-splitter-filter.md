@@ -23,7 +23,7 @@ This filter splits an MPEG-1 system stream into its component audio and video st
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IAMMediaContent</strong>](/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent), [<strong>IAMStreamSelect</strong>](/windows/desktop/api/Strmif/nn-strmif-iamstreamselect), [<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)</td>
+<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamselect"><strong>IAMStreamSelect</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -34,19 +34,19 @@ This filter splits an MPEG-1 system stream into its component audio and video st
 <li>MEDIASUBTYPE_Audio</li>
 <li>MEDIASUBTYPE_Video</li>
 </ul>
-See [<strong>MPEG-1 Media Types</strong>](mpeg-1-media-types.md)<br/></td>
+See <a href="mpeg-1-media-types"><strong>MPEG-1 Media Types</strong></a><br/></td>
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IMemInputPin</strong>](/windows/desktop/api/Strmif/nn-strmif-imeminputpin), [<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
-<td>Major type: MEDIATYPE_Audio or MEDIATYPE_Video<br/> Subtype: MEDIASUBTYPE_MPEG1Payload or MEDIASUBTYPE_MPEG1Packet<br/> See [<strong>MPEG-1 Media Types</strong>](mpeg-1-media-types.md)<br/></td>
+<td>Major type: MEDIATYPE_Audio or MEDIATYPE_Video<br/> Subtype: MEDIASUBTYPE_MPEG1Payload or MEDIASUBTYPE_MPEG1Packet<br/> See <a href="mpeg-1-media-types"><strong>MPEG-1 Media Types</strong></a><br/></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin), [<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)</td>
+<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -61,11 +61,11 @@ See [<strong>MPEG-1 Media Types</strong>](mpeg-1-media-types.md)<br/></td>
 <td>quartz.dll</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td>MERIT_NORMAL</td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

@@ -1,7 +1,7 @@
 ---
 Description: To obtain a level of confidence for each recognition result, you can get either the Confidence property of the RecognitionAlternate object or the Confidence property of the Gesture object.
 ms.assetid: b2495c5b-6db4-401c-ab7a-6556c55bbe46
-title: Confidence Property \[About Recognition\]
+title: Confidence Property [About Recognition]
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

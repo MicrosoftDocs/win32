@@ -1,7 +1,7 @@
 ---
 Description: Specifies when a transform is flushed.
 ms.assetid: 1e87f58f-546f-4dd4-b218-1458ff17db53
-title: MF\_TOPONODE\_FLUSH attribute
+title: MF_TOPONODE_FLUSH attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

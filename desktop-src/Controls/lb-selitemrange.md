@@ -1,5 +1,5 @@
 ---
-title: LB\_SELITEMRANGE message
+title: LB_SELITEMRANGE message
 description: Selects or deselects one or more consecutive items in a multiple-selection list box.
 ms.assetid: 817d62df-98a3-40b3-8d62-86bf07ad797f
 keywords:

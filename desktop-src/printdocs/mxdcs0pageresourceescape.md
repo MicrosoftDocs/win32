@@ -1,7 +1,7 @@
 ---
 Description: The MXDC\_S0PAGE\_RESOURCE\_ESCAPE\_T structure is an MXDC\_ESCAPE\_HEADER\_T structure concatenated with an MXDC\_XPS\_S0PAGE\_RESOURCE\_T structure.
 ms.assetid: e5caa280-f0a5-4a89-b4f1-4f195a537dc6
-title: MXDC\_S0PAGE\_RESOURCE\_ESCAPE\_T structure
+title: MXDC_S0PAGE_RESOURCE_ESCAPE_T structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

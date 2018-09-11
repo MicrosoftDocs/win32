@@ -1,6 +1,6 @@
 ---
 Description: The Volume property sets or retrieves the speaker volume for the audio stream output.
-ms.assetid: f8d06a30-d6d5-43b9-b838-741d781f8d01
+ms.assetid: 'b6e22d07-525b-4af2-898c-ce3ed16ea9c1'
 title: Volume Property
 ms.technology: desktop
 ms.prod: windows

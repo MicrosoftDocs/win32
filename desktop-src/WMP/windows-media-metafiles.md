@@ -1,7 +1,7 @@
 ---
 title: Windows Media Metafiles
 description: Windows Media Metafiles
-ms.assetid: 93bbe433-aebd-433d-af06-85e60d65b67a
+ms.assetid: '77af7d15-52ac-496c-8037-51827adf0250'
 keywords:
 - Windows Media metafiles,about
 - Windows Media Player,metafiles

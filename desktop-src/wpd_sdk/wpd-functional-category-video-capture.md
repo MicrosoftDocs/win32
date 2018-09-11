@@ -1,7 +1,7 @@
 ---
 Description: WPD\_FUNCTIONAL\_CATEGORY\_VIDEO\_CAPTURE
 ms.assetid: 3b7f7f5f-9cb7-450a-ad4c-ae1688cb7878
-title: WPD\_FUNCTIONAL\_CATEGORY\_VIDEO\_CAPTURE
+title: WPD_FUNCTIONAL_CATEGORY_VIDEO_CAPTURE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

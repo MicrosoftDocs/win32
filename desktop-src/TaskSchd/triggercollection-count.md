@@ -1,7 +1,7 @@
 ---
 title: TriggerCollection.Count property
 description: For scripting, gets the number of triggers in the collection.
-ms.assetid: ae4ff1b8-f030-420b-b96a-b5c1246c04ce
+ms.assetid: 'c4d6555b-3d21-4dd9-ae98-baf731f0f8e9'
 keywords:
 - Count property Task Scheduler
 - Count property Task Scheduler , TriggerCollection object

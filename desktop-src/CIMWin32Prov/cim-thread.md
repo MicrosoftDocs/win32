@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CIM\_Thread class
+title: CIM_Thread class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

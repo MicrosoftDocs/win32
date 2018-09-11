@@ -7,7 +7,7 @@ ms.assetid: aa35f349-8b57-435f-bf82-76daf2b43ec9
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_InstanceModificationEvent class'
+title: '__InstanceModificationEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 464f3c85-55c7-4a43-ab78-bfe140a21fc4
-title: RequestStateChange method of the Msvm\_SCSIProtocolController class
+title: RequestStateChange method of the Msvm_SCSIProtocolController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

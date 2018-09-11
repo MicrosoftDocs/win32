@@ -54,97 +54,97 @@ The **WSMan** object has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>CreateConnectionOptions</strong>](wsman-createconnectionoptions.md)</td>
-<td style="text-align: left;">Creates a [<strong>ConnectionOptions</strong>](connectionoptions.md) object that specifies the user name and password used when creating a remote session.<br/></td>
+<td style="text-align: left;"><a href="wsman-createconnectionoptions"><strong>CreateConnectionOptions</strong></a></td>
+<td style="text-align: left;">Creates a <a href="connectionoptions"><strong>ConnectionOptions</strong></a> object that specifies the user name and password used when creating a remote session.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>CreateResourceLocator</strong>](wsman-createresourcelocator.md)</td>
-<td style="text-align: left;">Creates a [<strong>ResourceLocator</strong>](resourcelocator.md) object that can specify:<br/>
+<td style="text-align: left;"><a href="wsman-createresourcelocator"><strong>CreateResourceLocator</strong></a></td>
+<td style="text-align: left;">Creates a <a href="resourcelocator"><strong>ResourceLocator</strong></a> object that can specify:<br/>
 <ul>
-<li>The complete path to a [<em>resource</em>](windows-remote-management-glossary.md) or a single piece of data.</li>
-<li>A [<em>selector</em>](windows-remote-management-glossary.md) for a specific instance of a resource.</li>
-<li>An [<em>option</em>](windows-remote-management-glossary.md) that supplies additional data to the resource provider.</li>
+<li>The complete path to a <a href="windows-remote-management-glossary"><em>resource</em></a> or a single piece of data.</li>
+<li>A <a href="windows-remote-management-glossary"><em>selector</em></a> for a specific instance of a resource.</li>
+<li>An <a href="windows-remote-management-glossary"><em>option</em></a> that supplies additional data to the resource provider.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>CreateSession</strong>](wsman-createsession.md)</td>
-<td style="text-align: left;">Creates a [<strong>Session</strong>](session.md) object that can then be used for subsequent network operations.<br/></td>
+<td style="text-align: left;"><a href="wsman-createsession"><strong>CreateSession</strong></a></td>
+<td style="text-align: left;">Creates a <a href="session"><strong>Session</strong></a> object that can then be used for subsequent network operations.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.EnumerationFlagHierarchyDeep</strong>](wsman-enumerationflaghierarchydeep.md)</td>
-<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagHierarchyDeep</strong> for use in the <em>flags</em> parameter of [<strong>Session.Enumerate</strong>](session-enumerate.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-enumerationflaghierarchydeep"><strong>WSMan.EnumerationFlagHierarchyDeep</strong></a></td>
+<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagHierarchyDeep</strong> for use in the <em>flags</em> parameter of <a href="session-enumerate"><strong>Session.Enumerate</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WSMan.EnumerationFlagHierarchyDeepBasePropsOnly</strong>](wsman-enumerationflaghierarchydeepbasepropsonly.md)</td>
-<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagHierarchyDeepBasePropsOnly</strong> for use in the <em>flags</em> parameter of [<strong>Session.Enumerate</strong>](session-enumerate.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-enumerationflaghierarchydeepbasepropsonly"><strong>WSMan.EnumerationFlagHierarchyDeepBasePropsOnly</strong></a></td>
+<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagHierarchyDeepBasePropsOnly</strong> for use in the <em>flags</em> parameter of <a href="session-enumerate"><strong>Session.Enumerate</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.EnumerationFlagHierarchyShallow</strong>](wsman-enumerationflaghierarchyshallow.md)</td>
-<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagHierarchyShallow</strong> for use in the <em>flags</em> parameter of [<strong>Session.Enumerate</strong>](session-enumerate.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-enumerationflaghierarchyshallow"><strong>WSMan.EnumerationFlagHierarchyShallow</strong></a></td>
+<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagHierarchyShallow</strong> for use in the <em>flags</em> parameter of <a href="session-enumerate"><strong>Session.Enumerate</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WSMan.EnumerationFlagNonXmlText</strong>](wsman-enumerationflagnonxmltext.md)</td>
-<td style="text-align: left;">Returns the value of the enumeration constant <strong>WSManFlagNonXmlText</strong> for use in the <em>flags</em> parameter of the [<strong>Session.Enumerate</strong>](session-enumerate.md) method.<br/></td>
+<td style="text-align: left;"><a href="wsman-enumerationflagnonxmltext"><strong>WSMan.EnumerationFlagNonXmlText</strong></a></td>
+<td style="text-align: left;">Returns the value of the enumeration constant <strong>WSManFlagNonXmlText</strong> for use in the <em>flags</em> parameter of the <a href="session-enumerate"><strong>Session.Enumerate</strong></a> method.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.EnumerationFlagReturnEPR</strong>](wsman-enumerationflagreturnepr.md)</td>
-<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagReturnEPR</strong> for use in the <em>flags</em> parameter of [<strong>Session.Enumerate</strong>](session-enumerate.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-enumerationflagreturnepr"><strong>WSMan.EnumerationFlagReturnEPR</strong></a></td>
+<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagReturnEPR</strong> for use in the <em>flags</em> parameter of <a href="session-enumerate"><strong>Session.Enumerate</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WSMan.EnumerationFlagReturnObject</strong>](wsman-enumerationflagreturnobject.md)</td>
-<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagReturnObject</strong> for use in the <em>flags</em> parameter of [<strong>Session.Enumerate</strong>](session-enumerate.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-enumerationflagreturnobject"><strong>WSMan.EnumerationFlagReturnObject</strong></a></td>
+<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagReturnObject</strong> for use in the <em>flags</em> parameter of <a href="session-enumerate"><strong>Session.Enumerate</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.EnumerationFlagReturnObjectAndEPR</strong>](wsman-enumerationflagreturnobjectandepr.md)</td>
-<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagReturnObjectAndEPR</strong> for use in the <em>flags</em> parameter of [<strong>Session.Enumerate</strong>](session-enumerate.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-enumerationflagreturnobjectandepr"><strong>WSMan.EnumerationFlagReturnObjectAndEPR</strong></a></td>
+<td style="text-align: left;">Returns the value of the enumeration flag <strong>EnumerationFlagReturnObjectAndEPR</strong> for use in the <em>flags</em> parameter of <a href="session-enumerate"><strong>Session.Enumerate</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WSMan.GetErrorMessage</strong>](wsman-geterrormessage.md)</td>
+<td style="text-align: left;"><a href="wsman-geterrormessage"><strong>WSMan.GetErrorMessage</strong></a></td>
 <td style="text-align: left;">Returns a formatted string containing the text of an error number.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagCredUsernamePassword</strong>](wsman-sessionflagcredusernamepassword.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagCredUsernamePassword</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagcredusernamepassword"><strong>WSMan.SessionFlagCredUsernamePassword</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagCredUsernamePassword</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagEnableSPNServerPort</strong>](wsman-sessionflagenablespnserverport.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagEnableSPNServerPort</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagenablespnserverport"><strong>WSMan.SessionFlagEnableSPNServerPort</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagEnableSPNServerPort</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagNoEncryption</strong>](wsman-sessionflagnoencryption.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagNoEncryption</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagnoencryption"><strong>WSMan.SessionFlagNoEncryption</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagNoEncryption</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagSkipCACheck</strong>](wsman-sessionflagskipcacheck.md)</td>
-<td style="text-align: left;">Returns the value of the <strong>WSManFlagSkipCACheck</strong> authentication flag for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagskipcacheck"><strong>WSMan.SessionFlagSkipCACheck</strong></a></td>
+<td style="text-align: left;">Returns the value of the <strong>WSManFlagSkipCACheck</strong> authentication flag for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagSkipCNCheck</strong>](wsman-sessionflagskipcncheck.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagSkipCNCheck</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagskipcncheck"><strong>WSMan.SessionFlagSkipCNCheck</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagSkipCNCheck</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagUseBasic</strong>](wsman-sessionflagusebasic.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseBasic</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagusebasic"><strong>WSMan.SessionFlagUseBasic</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseBasic</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagUseDigest</strong>](wsman-sessionflagusedigest.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseDigest</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagusedigest"><strong>WSMan.SessionFlagUseDigest</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseDigest</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagUseKerberos</strong>](wsman-sessionflagusekerberos.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseKerberos</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagusekerberos"><strong>WSMan.SessionFlagUseKerberos</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseKerberos</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagUseNegotiate</strong>](wsman-sessionflagusenegotiate.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseNegotiate</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagusenegotiate"><strong>WSMan.SessionFlagUseNegotiate</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseNegotiate</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagUseNoAuthentication</strong>](wsman-sessionflagusenoauthentication.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseNoAuthentication</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagusenoauthentication"><strong>WSMan.SessionFlagUseNoAuthentication</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUseNoAuthentication</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>WSMan.SessionFlagUTF8</strong>](wsman-sessionflagutf8.md)</td>
-<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUTF8</strong> for use in the <em>flags</em> parameter of [<strong>WSMan.CreateSession</strong>](wsman-createsession.md).<br/></td>
+<td style="text-align: left;"><a href="wsman-sessionflagutf8"><strong>WSMan.SessionFlagUTF8</strong></a></td>
+<td style="text-align: left;">Returns the value of the authentication flag <strong>WSManFlagUTF8</strong> for use in the <em>flags</em> parameter of <a href="wsman-createsession"><strong>WSMan.CreateSession</strong></a>.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: NM\_KILLFOCUS notification code
+title: NM_KILLFOCUS notification code
 description: Notifies a control's parent window that the control has lost the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: d7538697-8b4c-4bbd-8b06-02cbc8069a22
 keywords:

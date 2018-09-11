@@ -1,7 +1,7 @@
 ---
 title: Desktops
 description: A desktop has a logical display surface and contains user interface objects such as windows, menus, and hooks; it can be used to create and manage windows.
-ms.assetid: 6264030f-36fc-4c6d-87fd-dd3de2dc5b67
+ms.assetid: 'c56cd63b-c260-40d0-9a62-1dee1eb18679'
 keywords:
 - desktop objects
 ms.technology: desktop

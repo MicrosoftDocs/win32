@@ -1,7 +1,7 @@
 ---
 title: Texture1DArray Load methods
 description: Reads texture data.
-ms.assetid: 8B7DA310-DE75-4B22-83F4-19EF3721A5E6
+ms.assetid: '0cf877fd-7e55-44f3-8965-8cff46f9f595'
 keywords:
 - Load methods HLSL
 topic_type:

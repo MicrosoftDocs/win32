@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_Compliance01 class
+title: MDM_DeviceStatus_Compliance01 class
 description: The MDM\_DeviceStatus\_Compliance01 class allows you to query whether device are in compliance with enterprise encryption policy.
 ms.assetid: 99c4cb9b-ae53-432c-b970-d61fb8496123
 keywords:

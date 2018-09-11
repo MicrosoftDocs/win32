@@ -1,7 +1,7 @@
 ---
 title: Status Bars
 description: A status bar is a horizontal window at the bottom of a parent window in which an application can display various kinds of status information.
-ms.assetid: 4ED4BFD3-904D-4198-8152-5DD13CA7C189
+ms.assetid: 'vs|controls|~\controls\status\status.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

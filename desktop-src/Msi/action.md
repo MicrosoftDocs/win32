@@ -1,6 +1,6 @@
 ---
 Description: The ACTION property can be set to the following values.
-ms.assetid: 8aa0ac17-1341-4399-987e-d26175150874
+ms.assetid: 'f2c436b6-ebd9-4ac4-8609-f54129023ca7'
 title: ACTION property
 ms.technology: desktop
 ms.prod: windows

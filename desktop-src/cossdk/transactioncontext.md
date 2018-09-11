@@ -1,6 +1,6 @@
 ---
 Description: Creates a generic transactional object that begins a transaction.
-ms.assetid: 818fe18b-04ed-4f54-aeb7-b19aafc8a51a
+ms.assetid: 'efaf1468-4973-472f-af91-85957a52b7df'
 title: TransactionContext class
 ms.technology: desktop
 ms.prod: windows

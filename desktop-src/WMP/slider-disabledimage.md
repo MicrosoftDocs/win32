@@ -1,7 +1,7 @@
 ---
 title: SLIDER.disabledImage
 description: The disabledImage attribute specifies or retrieves the image of the slider that is used when the slider control is disabled.
-ms.assetid: 91b1c2e3-6c92-4baa-b1f3-e44707157f4b
+ms.assetid: 'b6c4237d-8eb0-44ce-a23f-9bdc5c21aca8'
 keywords:
 - SLIDER.disabledImage Windows Media Player
 topic_type:

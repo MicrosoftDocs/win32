@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionDirectoryVirtualDesktopServer class
+title: Win32_SessionDirectoryVirtualDesktopServer class
 description: Represents a Remote Desktop Virtualization Host (RD Virtualization Host) server joined to a session broker.
 audience: developer
 author: REDMOND\\markl

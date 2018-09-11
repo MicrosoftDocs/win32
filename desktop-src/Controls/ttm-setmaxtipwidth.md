@@ -1,5 +1,5 @@
 ---
-title: TTM\_SETMAXTIPWIDTH message
+title: TTM_SETMAXTIPWIDTH message
 description: Sets the maximum width for a tooltip window.
 ms.assetid: 3cfb6011-d0c3-4a57-aead-d4ec09a057cc
 keywords:

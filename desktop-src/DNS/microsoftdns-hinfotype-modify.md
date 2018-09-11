@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_HINFOType class
+title: Modify method of the MicrosoftDNS_HINFOType class
 description: The Modify method updates a Host Information (HINFO) Resource Record.
 ms.assetid: 8f8148f3-804f-4f99-8e79-606cd3cea660
 keywords:

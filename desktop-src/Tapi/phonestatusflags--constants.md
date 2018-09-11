@@ -1,7 +1,7 @@
 ---
 Description: The PHONESTATUSFLAGS\_ bit-flag constants describe a variety of phone device status information.
 ms.assetid: e94da591-49ab-4932-8621-0a62b8a55dd6
-title: PHONESTATUSFLAGS\_ Constants
+title: PHONESTATUSFLAGS_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

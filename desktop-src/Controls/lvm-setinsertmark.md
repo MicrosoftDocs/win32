@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETINSERTMARK message
+title: LVM_SETINSERTMARK message
 description: Sets the insertion point to the defined position.
 ms.assetid: 32cf5a11-918a-4dc4-bf10-88b3c26f26cc
 keywords:
@@ -31,7 +31,7 @@ Sets the insertion point to the defined position.
 </dt> <dd>Must be zero.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a [**LVINSERTMARK**](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark) structure that specifies where to set the insertion point.</dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark">LVINSERTMARK</a> structure that specifies where to set the insertion point.</dd> </dl>
 
 ## Return value
 

@@ -1,7 +1,7 @@
 ---
 title: signal command
 description: The signal command identifies a specified position in the workspace by sending the application an MM\_MCISIGNAL message. Digital-video devices recognize this command. MCIAVI supports only one active signal at a time.
-ms.assetid: 32ca21a0-e2df-47f1-8e13-67c9d8f149db
+ms.assetid: '3d10eac0-fd1a-41ee-98fa-2518642c7339'
 keywords:
 - signal command Windows Multimedia
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: Embedding the Windows Media Player Control in a C\ Solution
+title: Embedding the Windows Media Player Control in a C Solution
 description: Embedding the Windows Media Player Control in a C\ Solution
 ms.assetid: 0889cfd8-ed1f-4d0c-aff8-bff2f55ffccb
 keywords:

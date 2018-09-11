@@ -1,5 +1,5 @@
 ---
-title: CreateUserDiskTemplate method of the Win32\_TSSessionDirectory class
+title: CreateUserDiskTemplate method of the Win32_TSSessionDirectory class
 description: Creates a user disk template.
 audience: developer
 author: REDMOND\\markl

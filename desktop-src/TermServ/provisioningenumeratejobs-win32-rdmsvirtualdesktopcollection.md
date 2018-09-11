@@ -1,5 +1,5 @@
 ---
-title: ProvisioningEnumerateJobs method of the Win32\_RDMSVirtualDesktopCollection class
+title: ProvisioningEnumerateJobs method of the Win32_RDMSVirtualDesktopCollection class
 description: Enumerates virtual desktop provisioning jobs for this service.
 audience: developer
 author: REDMOND\\markl

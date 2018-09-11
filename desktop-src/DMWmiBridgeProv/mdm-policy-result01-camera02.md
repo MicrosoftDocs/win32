@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Camera02 class
+title: MDM_Policy_Result01_Camera02 class
 description: The MDM\_Policy\_Result01\_Camera02 class represents the camera policies available.
 ms.assetid: 72b11a00-6a34-4939-b1d0-e457b0c80c7f
 keywords:

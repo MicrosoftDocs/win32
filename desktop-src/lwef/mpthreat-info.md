@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT\_INFO structure
+title: MPTHREAT_INFO structure
 description: Contains information about a threat.
 ms.assetid: ED2A0BDB-0E7C-479D-ADA1-95B9A259F57E
 keywords:

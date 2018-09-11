@@ -1,5 +1,5 @@
 ---
-title: EM\_GETSCROLLPOS message
+title: EM_GETSCROLLPOS message
 description: Obtains the current scroll position of the edit control.
 ms.assetid: 26e122da-f1b4-4694-978c-ff678dad5d9f
 keywords:

@@ -1,7 +1,7 @@
 ---
 title: Texture2D GatherAlpha methods
 description: Samples a Texture2D and returns the alpha component.
-ms.assetid: 4c980e06-d768-479e-bee3-1b2541c23038
+ms.assetid: 'b67727e4-a876-4ec8-b991-99ee710e4304'
 keywords:
 - GatherAlpha methods HLSL
 topic_type:

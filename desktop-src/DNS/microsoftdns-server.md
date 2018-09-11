@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_Server class
+title: MicrosoftDNS_Server class
 description: The MicrosoftDNS\_Server class describes a DNS Server. Every instance of this class may be associated with one instance of MicrosoftDNS\_Cache, one instance of MicrosoftDNS\_RootHints, and multiple instances of MicrosoftDNS\_Zone.
 ms.assetid: 768f5f96-d7a5-472f-afe6-63aa9c0e5258
 keywords:

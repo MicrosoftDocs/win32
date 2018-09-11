@@ -1,7 +1,7 @@
 ---
 title: close command
 description: The close command closes the device or file and any associated resources. MCI unloads a device when all instances of the device or all files are closed. All MCI devices recognize this command.
-ms.assetid: f756c11d-54a7-4238-8a99-4263a6c36109
+ms.assetid: '0fd7b271-b29e-4170-9a14-81b14dc8a5ee'
 keywords:
 - close command Windows Multimedia
 topic_type:

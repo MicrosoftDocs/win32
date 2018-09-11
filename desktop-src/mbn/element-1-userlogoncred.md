@@ -66,20 +66,20 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[IgnorePassword](element-1-ignorepassword.md)</td>
+<td><a href="element-1-ignorepassword">IgnorePassword</a></td>
 <td><p>Specifies how passwords are handled when upgrading profiles.</p>
 <p>If set to <strong>TRUE</strong> and a profile with the same name exists at the time of the update operation, then the password from that profile will be taken and stored in the new profile.</p>
-<p>For more details, see the documentation for the v1 [<strong>IgnorePassword</strong>](../mbn/schema_ignorepassword_userlogoncred_element.md) element.</p></td>
+<p>For more details, see the documentation for the v1 <a href="../mbn/schema_ignorepassword_userlogoncred_element"><strong>IgnorePassword</strong></a> element.</p></td>
 </tr>
 <tr class="even">
-<td>[Password](element-1-password.md)</td>
+<td><a href="element-1-password">Password</a></td>
 <td><p>Specifies the password used to authenticate a user.</p>
-<p>For more information, see the documentation for the v1 [<strong>Password</strong>](../mbn/schema_password_userlogoncred_element.md) element.</p></td>
+<p>For more information, see the documentation for the v1 <a href="../mbn/schema_password_userlogoncred_element"><strong>Password</strong></a> element.</p></td>
 </tr>
 <tr class="odd">
-<td>[UserName](element-1-username.md)</td>
+<td><a href="element-1-username">UserName</a></td>
 <td><p>The user name to use for logon.</p>
-<p>For more details, see the documentation for the v1 [<strong>UserName</strong>](../mbn/schema_username_userlogoncred_element.md) element.</p></td>
+<p>For more details, see the documentation for the v1 <a href="../mbn/schema_username_userlogoncred_element"><strong>UserName</strong></a> element.</p></td>
 </tr>
 </tbody>
 </table>
@@ -101,7 +101,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Context](element-1-context.md)</td>
+<td><a href="element-1-context">Context</a></td>
 <td><p>Specifies the parameters required to establish a data connection.</p></td>
 </tr>
 </tbody>

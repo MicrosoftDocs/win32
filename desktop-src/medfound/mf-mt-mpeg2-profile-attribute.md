@@ -1,7 +1,7 @@
 ---
 Description: Specifies the MPEG-2 or H.264 profile in a video media type.
 ms.assetid: 8c6a68cb-d976-4099-8934-064f0e8f6374
-title: MF\_MT\_MPEG2\_PROFILE attribute
+title: MF_MT_MPEG2_PROFILE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.Run method
 description: For scripting, runs the registered task immediately.
-ms.assetid: 6b237ddd-e4e8-47f7-97e7-360e79841acc
+ms.assetid: '99c8f6ea-6dcf-4f9a-bf61-5191df5958c6'
 keywords:
 - Run method Task Scheduler
 - Run method Task Scheduler , RegisteredTask object

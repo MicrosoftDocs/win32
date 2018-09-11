@@ -1,5 +1,5 @@
 ---
-title: MPENDOFLIFE\_DATA structure
+title: MPENDOFLIFE_DATA structure
 description: '\ 0034;End of life \ 0034; notification data.'
 ms.assetid: 00C2E707-9034-4BBC-99CF-3DFA4B8C08D9
 keywords:

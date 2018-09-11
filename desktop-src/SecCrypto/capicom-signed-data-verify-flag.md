@@ -1,7 +1,7 @@
 ---
 Description: Indicates what is checked when a digital signature is verified.
 ms.assetid: e6259c3f-caed-42f4-832c-250365caa0d7
-title: CAPICOM\_SIGNED\_DATA\_VERIFY\_FLAG enumeration
+title: CAPICOM_SIGNED_DATA_VERIFY_FLAG enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

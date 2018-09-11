@@ -1,7 +1,7 @@
 ---
 Description: The FileIo\_V0\_Name class is an older version of the event type class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: dcbe37f2-6df0-41a5-b85f-dcd06cbd5901
-title: FileIo\_V0\_Name class
+title: FileIo_V0_Name class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

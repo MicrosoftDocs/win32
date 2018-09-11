@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETVIEW message
+title: LVM_GETVIEW message
 description: Retrieves the current view of a list-view control.
 ms.assetid: dd63e726-3a7f-40e7-8d46-4680816c02a3
 keywords:

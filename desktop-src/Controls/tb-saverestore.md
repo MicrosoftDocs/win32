@@ -1,5 +1,5 @@
 ---
-title: TB\_SAVERESTORE message
+title: TB_SAVERESTORE message
 description: Send this message to initiate saving or restoring a toolbar state.
 ms.assetid: 59f51d07-cd08-4d6f-9d19-614064ba6f20
 keywords:

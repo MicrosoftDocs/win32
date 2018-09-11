@@ -1,7 +1,7 @@
 ---
 title: RunningTaskCollection.Count property
 description: For scripting, gets the number of running tasks in the collection.
-ms.assetid: 0365b804-6450-494d-8a5b-8fc805766611
+ms.assetid: '819aa1f8-f8de-4976-8cd7-b2f63e727172'
 keywords:
 - Count property Task Scheduler
 - Count property Task Scheduler , RunningTaskCollection object

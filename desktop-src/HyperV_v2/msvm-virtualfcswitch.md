@@ -1,7 +1,7 @@
 ---
 Description: Represents a virtual Fibre Channel switch.
 ms.assetid: 4300747b-3ffc-4caf-8f0b-76cab6d2294e
-title: Msvm\_VirtualFcSwitch class
+title: Msvm_VirtualFcSwitch class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

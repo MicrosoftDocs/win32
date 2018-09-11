@@ -1,7 +1,7 @@
 ---
 Description: Sets a window for the Microsoft Media Foundation HTTP byte stream.
 ms.assetid: 52761AC1-4974-4087-B5EE-A797F5BAD86D
-title: MFPKEY\_HTTP\_ByteStream\_Urlmon\_Window property
+title: MFPKEY_HTTP_ByteStream_Urlmon_Window property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

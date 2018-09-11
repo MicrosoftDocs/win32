@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_CIRCLE
+title: WMT_VIDEOIMAGE_TRANSITION_CIRCLE
 description: The circle transition reveals the new image in a circle.
 ms.assetid: ba3bcf46-1254-4aad-a958-0f9ddb2f40dc
 keywords:

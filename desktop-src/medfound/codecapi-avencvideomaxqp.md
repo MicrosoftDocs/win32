@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum QP supported by the encoder.
 ms.assetid: 2C02F82B-E645-4C5B-9526-5E130A6E2F67
-title: CODECAPI\_AVEncVideoMaxQP property
+title: CODECAPI_AVEncVideoMaxQP property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: SB\_SETPARTS message
+title: SB_SETPARTS message
 description: Sets the number of parts in a status window and the coordinate of the right edge of each part.
 ms.assetid: e29e8b09-c018-4ea4-8b47-6f3713113427
 keywords:

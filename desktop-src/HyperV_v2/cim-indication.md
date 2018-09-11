@@ -1,7 +1,7 @@
 ---
 Description: CIM\_Indication is the abstract base class for all notifications about changes in schema objects, and schema object data, events detected by providers and instrumentation. Subclasses of CIM\_Indication represent specific types of notifications.
 ms.assetid: 85a70425-7b32-449c-9fc0-1cfbf34d9187
-title: CIM\_Indication class
+title: CIM_Indication class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

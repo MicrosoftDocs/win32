@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the CreateNewFrame method.
 ms.assetid: b23e8689-0fdc-49a7-a004-148b50420127
-title: IWICBitmapEncoder\_CreateNewFrame\_Proxy function
+title: IWICBitmapEncoder_CreateNewFrame_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

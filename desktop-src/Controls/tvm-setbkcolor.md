@@ -1,5 +1,5 @@
 ---
-title: TVM\_SETBKCOLOR message
+title: TVM_SETBKCOLOR message
 description: Sets the background color of the control. You can send this message explicitly or by using the TreeView\_SetBkColor macro.
 ms.assetid: 087f5e0b-ac73-4db4-b82e-15c7641b681c
 keywords:

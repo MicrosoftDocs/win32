@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_RPType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_RPType class
 description: The CreateInstanceFromPropertyData method instantiates a Responsible Person (RP) Resource Record.
 ms.assetid: 6d9366c3-fc82-4c1f-8fa3-c107f6a1ff74
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: MDM\_RemoteWipe class
+title: MDM_RemoteWipe class
 description: The MDM\_RemoteWipe class allows a remote wipe of a device.
 ms.assetid: 8c7c8705-8694-4ce3-ba21-ca610fe1f547
 keywords:

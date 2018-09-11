@@ -1,7 +1,7 @@
 ---
 Description: Identifies which stream generated a capture event.
 ms.assetid: A15B334A-716A-467E-AEA5-C13710FFE109
-title: MF\_CAPTURE\_ENGINE\_EVENT\_STREAM\_INDEX attribute
+title: MF_CAPTURE_ENGINE_EVENT_STREAM_INDEX attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the WriteSource method.
 ms.assetid: d95ad80f-7a26-45a7-8103-2673989143b7
-title: IWICBitmapFrameEncode\_WriteSource\_Proxy function
+title: IWICBitmapFrameEncode_WriteSource_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

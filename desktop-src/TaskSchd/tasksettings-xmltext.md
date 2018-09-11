@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.XmlText property
 description: For scripting, gets or sets an XML-formatted definition of the task settings.
-ms.assetid: 93133a74-36a6-49e6-91b0-4ad4fd778841
+ms.assetid: 'b3613e41-6e22-49d7-8a15-92f745b3cb03'
 keywords:
 - XmlText property Task Scheduler
 - XmlText property Task Scheduler , TaskSettings object

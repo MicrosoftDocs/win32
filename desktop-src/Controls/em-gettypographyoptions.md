@@ -1,5 +1,5 @@
 ---
-title: EM\_GETTYPOGRAPHYOPTIONS message
+title: EM_GETTYPOGRAPHYOPTIONS message
 description: Returns the current state of the typography options of a rich edit control.
 ms.assetid: 6ff5980e-3201-4b0f-9a03-3de78730ce33
 keywords:

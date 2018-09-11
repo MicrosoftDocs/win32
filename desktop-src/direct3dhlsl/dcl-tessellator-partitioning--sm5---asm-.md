@@ -1,5 +1,5 @@
 ---
-title: dcl\_tessellator\_partitioning (sm5 - asm)
+title: dcl_tessellator_partitioning (sm5 - asm)
 description: Declare the tessellator partitioning in a hull shader declaration section.
 ms.assetid: 6EA00C6B-A0DE-4CE4-8B52-1337CA92CA5E
 ms.technology: desktop

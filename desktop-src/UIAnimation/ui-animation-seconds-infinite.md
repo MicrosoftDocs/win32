@@ -1,5 +1,5 @@
 ---
-title: UI\_ANIMATION\_SECONDS\_INFINITE
+title: UI_ANIMATION_SECONDS_INFINITE
 description: Indicates that there are no scheduled events.
 ms.assetid: 7DDE96A5-5639-49EC-B5C0-3FBE60B84197
 topic_type:

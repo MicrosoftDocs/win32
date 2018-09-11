@@ -1,5 +1,5 @@
 ---
-title: PSM\_SETWIZBUTTONS message
+title: PSM_SETWIZBUTTONS message
 description: Enables or disables the Back, Next, and Finish buttons in a wizard. You can also use the PropSheet\_SetWizButtons macro to post the message.
 ms.assetid: e32abdb0-12d1-471e-a309-662389e0dba4
 keywords:

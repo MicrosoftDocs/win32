@@ -1,5 +1,5 @@
 ---
-title: PSM\_SETTITLE message
+title: PSM_SETTITLE message
 description: Sets the title of a property sheet. You can send this message explicitly or by using the PropSheet\_SetTitle macro.
 ms.assetid: 53ce8e20-4554-41f4-bad9-fb24c2c93c34
 keywords:

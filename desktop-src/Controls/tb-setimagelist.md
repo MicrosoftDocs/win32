@@ -1,5 +1,5 @@
 ---
-title: TB\_SETIMAGELIST message
+title: TB_SETIMAGELIST message
 description: Sets the image list that the toolbar uses to display buttons that are in their default state.
 ms.assetid: 432ffdfc-bb63-4405-90da-9392910fdbb6
 keywords:

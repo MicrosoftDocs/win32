@@ -1,5 +1,5 @@
 ---
-title: MPHEALTH\_DATA structure
+title: MPHEALTH_DATA structure
 description: Health notification data.
 ms.assetid: 37A87F77-386A-4508-B338-ED2151518968
 keywords:

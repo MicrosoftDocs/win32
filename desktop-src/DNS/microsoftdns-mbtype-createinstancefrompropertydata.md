@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_MBType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_MBType class
 description: The CreateInstanceFromPropertyData method instantiates a Mailbox (MB) Resource Record.
 ms.assetid: ac160a4d-2af7-428e-9cbd-bdd28f7c0910
 keywords:

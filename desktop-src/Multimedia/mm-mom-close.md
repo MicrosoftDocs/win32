@@ -1,5 +1,5 @@
 ---
-title: MM\_MOM\_CLOSE message
+title: MM_MOM_CLOSE message
 description: The MM\_MOM\_CLOSE message is sent to a window when a MIDI output device is closed.
 ms.assetid: 4829bbe5-5103-4354-88a7-37def22e926e
 keywords:

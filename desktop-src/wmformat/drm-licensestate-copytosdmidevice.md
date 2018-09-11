@@ -1,5 +1,5 @@
 ---
-title: DRM\_LicenseState\_CopyToSDMIDevice
+title: DRM_LicenseState_CopyToSDMIDevice
 description: The DRM\_LicenseState\_CopyToSDMIDevice property contains a WM\_LICENSE\_STATE\_DATA structure that contains details about how this right has been applied to the content.
 ms.assetid: 16d6748f-7998-4239-925d-d9d3952aab1b
 keywords:

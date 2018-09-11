@@ -162,12 +162,12 @@ D3D12 owns the swap chain, so if we want to render to the back buffer using our 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ID2D1Factory::GetDesktopDpi</strong>](https://msdn.microsoft.com/library/windows/desktop/dd371316)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd371316"><strong>ID2D1Factory::GetDesktopDpi</strong></a></td>
 
 </tr>
 <tr class="even">
-<td>[<strong>D2D1_BITMAP_PROPERTIES1</strong>](https://msdn.microsoft.com/library/windows/desktop/hh404275)</td>
-<td><dl>[<strong>BitmapProperties1</strong>](https://msdn.microsoft.com/library/windows/desktop/hh847934)<br />
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/hh404275"><strong>D2D1_BITMAP_PROPERTIES1</strong></a></td>
+<td><dl><a href="https://msdn.microsoft.com/library/windows/desktop/hh847934"><strong>BitmapProperties1</strong></a><br />
 [<strong>D2D1_BITMAP_OPTIONS</strong>](https://msdn.microsoft.com/library/windows/desktop/hh446984)<br />
 [<strong>PixelFormat</strong>](https://msdn.microsoft.com/library/windows/desktop/dd372327)<br />
 [<strong>DXGI_FORMAT</strong>](https://msdn.microsoft.com/library/windows/desktop/bb173059)<br />
@@ -175,36 +175,36 @@ D3D12 owns the swap chain, so if we want to render to the back buffer using our 
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong>](cd3dx12-cpu-descriptor-handle.md)</td>
-<td>[<strong>GetCPUDescriptorHandleForHeapStart</strong>](/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart)</td>
+<td><a href="cd3dx12-cpu-descriptor-handle"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
+<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="even">
-<td>[<strong>IDXGISwapChain::GetBuffer</strong>](https://msdn.microsoft.com/library/windows/desktop/bb174570)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/bb174570"><strong>IDXGISwapChain::GetBuffer</strong></a></td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>CreateRenderTargetView</strong>](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createrendertargetview)</td>
+<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createrendertargetview"><strong>CreateRenderTargetView</strong></a></td>
 
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_RESOURCE_FLAGS</strong>](/windows/desktop/api/d3d11on12/ns-d3d11on12-d3d11_resource_flags)</td>
-<td>[<strong>D3D11_BIND_FLAG</strong>](https://msdn.microsoft.com/library/windows/desktop/ff476085)</td>
+<td><a href="/windows/desktop/api/d3d11on12/ns-d3d11on12-d3d11_resource_flags"><strong>D3D11_RESOURCE_FLAGS</strong></a></td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/ff476085"><strong>D3D11_BIND_FLAG</strong></a></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateWrappedResource</strong>](/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource)</td>
-<td>[<strong>D3D12_RESOURCE_STATES</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states)</td>
+<td><a href="/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource"><strong>CreateWrappedResource</strong></a></td>
+<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a></td>
 </tr>
 <tr class="even">
-<td>[<strong>IDXGISurface</strong>](https://msdn.microsoft.com/library/windows/desktop/bb174565)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/bb174565"><strong>IDXGISurface</strong></a></td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>ID2D1DeviceContext::CreateBitmapFromDxgiSurface</strong>](https://msdn.microsoft.com/library/windows/desktop/hh404482)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/hh404482"><strong>ID2D1DeviceContext::CreateBitmapFromDxgiSurface</strong></a></td>
 
 </tr>
 <tr class="even">
-<td>[<strong>CreateCommandAllocator</strong>](/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommandallocator)</td>
-<td>[<strong>D3D12_COMMAND_LIST_TYPE</strong>](/windows/desktop/api/D3D12/ne-d3d12-d3d12_command_list_type)</td>
+<td><a href="/windows/desktop/api/D3D12/nf-d3d12-id3d12device-createcommandallocator"><strong>CreateCommandAllocator</strong></a></td>
+<td><a href="/windows/desktop/api/D3D12/ne-d3d12-d3d12_command_list_type"><strong>D3D12_COMMAND_LIST_TYPE</strong></a></td>
 </tr>
 </tbody>
 </table>

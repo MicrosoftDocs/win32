@@ -1,5 +1,5 @@
 ---
-title: CBN\_DBLCLK notification code
+title: CBN_DBLCLK notification code
 description: Sent when the user double-clicks a string in the list box of a combo box. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
 ms.assetid: 79ca3fd3-4a71-4bd5-be68-efc867a4ad22
 keywords:

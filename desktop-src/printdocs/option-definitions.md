@@ -1,6 +1,6 @@
 ---
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
-ms.assetid: fafced09-97fd-44f6-a41b-e17757c85c38
+ms.assetid: 'e81068db-ab8e-420c-a0be-93bc92f3df6f'
 title: Option Definitions
 ms.technology: desktop
 ms.prod: windows

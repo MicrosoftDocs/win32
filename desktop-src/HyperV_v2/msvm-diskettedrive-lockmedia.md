@@ -1,7 +1,7 @@
 ---
 Description: Locks or releases the media.
 ms.assetid: 90f7e06c-92d0-4742-a74d-68ae6bfc00bf
-title: LockMedia method of the Msvm\_DisketteDrive class
+title: LockMedia method of the Msvm_DisketteDrive class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

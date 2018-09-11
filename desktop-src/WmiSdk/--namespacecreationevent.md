@@ -7,7 +7,7 @@ ms.assetid: 50b9860a-d6e8-4dab-a7d0-09da9dd37b6b
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_NamespaceCreationEvent class'
+title: '__NamespaceCreationEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

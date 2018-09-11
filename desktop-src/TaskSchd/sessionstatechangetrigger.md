@@ -1,7 +1,7 @@
 ---
 title: SessionStateChangeTrigger object
 description: Scripting object that triggers tasks for console connect or disconnect, remote connect or disconnect, or workstation lock or unlock notifications.
-ms.assetid: 0bf56d67-6c44-4978-93a9-7b525f2bf140
+ms.assetid: 'ea450b8a-81cc-4d24-b850-78c967dcc5b8'
 keywords:
 - SessionStateChangeTrigger object Task Scheduler
 - SessionStateChangeTrigger object Task Scheduler , described

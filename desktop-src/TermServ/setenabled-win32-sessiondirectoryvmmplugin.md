@@ -1,5 +1,5 @@
 ---
-title: SetEnabled method of the Win32\_SessionDirectoryVMMPlugin class
+title: SetEnabled method of the Win32_SessionDirectoryVMMPlugin class
 description: Enables or disables the plug-in.
 audience: developer
 author: REDMOND\\markl

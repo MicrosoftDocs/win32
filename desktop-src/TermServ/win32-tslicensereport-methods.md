@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLicenseReport Methods
+title: Win32_TSLicenseReport Methods
 description: The Win32\_TSLicenseReport class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

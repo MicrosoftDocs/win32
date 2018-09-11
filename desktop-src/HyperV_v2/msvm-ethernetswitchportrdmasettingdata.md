@@ -1,7 +1,7 @@
 ---
 Description: Represents the port RDMA feature setting data.
 ms.assetid: a9b8c98f-194e-4eec-8d4a-961b1a439e62
-title: Msvm\_EthernetSwitchPortRdmaSettingData class
+title: Msvm_EthernetSwitchPortRdmaSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

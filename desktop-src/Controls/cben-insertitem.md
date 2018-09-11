@@ -1,5 +1,5 @@
 ---
-title: CBEN\_INSERTITEM notification code
+title: CBEN_INSERTITEM notification code
 description: Sent when a new item has been inserted in the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: caf60156-10d2-4cfb-91c4-def6ee99c471
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WM\_MEASUREITEM message
+title: WM_MEASUREITEM message
 description: Sent to the owner window of a combo box, list box, list-view control, or menu item when the control or menu is created.
 ms.assetid: 6947bcd1-fd40-4238-b8f2-d4e06b90c0dc
 keywords:

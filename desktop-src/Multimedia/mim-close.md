@@ -1,5 +1,5 @@
 ---
-title: MIM\_CLOSE message
+title: MIM_CLOSE message
 description: The MIM\_CLOSE message is sent to a MIDI input callback function when a MIDI input device is closed.
 ms.assetid: c19ecd3a-c3a5-4f17-9d44-d0d71eefcb15
 keywords:

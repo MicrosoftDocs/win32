@@ -1,7 +1,7 @@
 ---
 Description: Glossary of Network Monitor terms that begin with the letter P.
 Robots: noindex, nofollow
-ms.assetid: e5f4c030-eb2b-4cc9-9032-9ad4701b6503
+ms.assetid: '321398fb-683f-4fb1-b6b7-c7826811cacd'
 title: P
 ms.technology: desktop
 ms.prod: windows

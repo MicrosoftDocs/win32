@@ -1,5 +1,5 @@
 ---
-title: TB\_ISBUTTONHIDDEN message
+title: TB_ISBUTTONHIDDEN message
 description: Determines whether the specified button in a toolbar is hidden.
 ms.assetid: 3372a64f-8209-4e3f-a6a9-8fe2e7e87ff2
 keywords:

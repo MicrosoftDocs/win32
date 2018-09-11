@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_TextInput02 class
+title: MDM_Policy_Result01_TextInput02 class
 description: The MDM\_Policy\_Result01\_TextInput02 class represents the text input policies available.
 ms.assetid: d0ab2d69-6d43-410e-936a-cb87a521d5f3
 keywords:

@@ -26,7 +26,7 @@ The **IDebugLiveShaderRequest** interface inherits from the [**IUnknown**](https
 
 The **IDebugLiveShaderRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>BeginDebugLiveShader</strong>](https://msdn.microsoft.com/library/windows/desktop/mt422655)</td><td style="text-align: left;"><p>Requests to debug a shader on the GPU (live debugging) vs CPU (trace-based debugging).</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422655"><strong>BeginDebugLiveShader</strong></a></td><td style="text-align: left;"><p>Requests to debug a shader on the GPU (live debugging) vs CPU (trace-based debugging).</p></td></tr></tbody></table>
 
  
 

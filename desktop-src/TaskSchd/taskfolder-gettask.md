@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.GetTask property
 description: For scripting, gets a task at a specified location in a folder.
-ms.assetid: 01c32103-d65a-49ed-b12e-af2e865456e1
+ms.assetid: 'c0ad4402-dd63-499f-964c-0eada5665d1b'
 keywords:
 - GetTask property Task Scheduler
 - GetTask property Task Scheduler , TaskFolder object

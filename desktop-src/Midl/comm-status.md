@@ -1,5 +1,5 @@
 ---
-title: comm\_status attribute
+title: comm_status attribute
 description: The \ comm\_status\ ACF attribute causes an error code to be returned when a communication error occurs during the execution of a function.
 ms.assetid: 3ea9ce62-8bd4-40fe-b838-bfebd52b5a15
 keywords:

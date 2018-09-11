@@ -1,5 +1,5 @@
 ---
-title: auto\_handle attribute
+title: auto_handle attribute
 description: The \ auto\_handle\ ACF attribute directs the stub to automatically establish the binding for a function that does not have an explicit binding-handle parameter.Note  This attribute is obsolete and no longer supported.
 ms.assetid: a402b933-f69b-4dfe-b0c5-b034d65d4a84
 keywords:

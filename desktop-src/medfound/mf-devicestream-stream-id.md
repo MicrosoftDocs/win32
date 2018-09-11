@@ -1,7 +1,7 @@
 ---
 Description: Specifies the kernel streaming (KS) identifier for a stream on a video capture device.
 ms.assetid: 03C48CBA-FAD0-4127-89E5-3F1874BF32DB
-title: MF\_DEVICESTREAM\_STREAM\_ID attribute
+title: MF_DEVICESTREAM_STREAM_ID attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

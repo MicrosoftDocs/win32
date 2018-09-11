@@ -43,8 +43,8 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CreateProcess</strong>](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) with command line parameters</td>
-<td>This is the simplest and most familiar means of implementing a static verb. A process is invoked through a call to the [<strong>CreateProcess</strong>](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) function with the selected files and any optional parameters passed as the command line. This opens the file or folder.<br/> This method has the following limitations:
+<td><a href="https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx"><strong>CreateProcess</strong></a> with command line parameters</td>
+<td>This is the simplest and most familiar means of implementing a static verb. A process is invoked through a call to the <a href="https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx"><strong>CreateProcess</strong></a> function with the selected files and any optional parameters passed as the command line. This opens the file or folder.<br/> This method has the following limitations:
 <ul>
 <li>The command-line length is limited to 2000 characters, which limits the number of items that the verb can handle.</li>
 <li>Can only be used with file system items.</li>
@@ -54,16 +54,16 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 <br/></td>
 </tr>
 <tr class="even">
-<td><strong>DropTarget</strong>/[<strong>IDropTarget</strong>](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx)</td>
-<td>A COM-based verb activation means that supports in-proc or out-of-proc activation. <strong>DropTarget</strong>/[<strong>IDropTarget</strong>](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) also supports re-use of an already running handler when the <strong>IDropTarget</strong> interface is implemented by a local server. It also perfectly expresses the items via the marshaled data object and provides a reference to the invoking site chain so that you can interact with the invoker through the [<strong>QueryService</strong>](https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx).</td>
+<td><strong>DropTarget</strong>/<a href="https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx"><strong>IDropTarget</strong></a></td>
+<td>A COM-based verb activation means that supports in-proc or out-of-proc activation. <strong>DropTarget</strong>/<a href="https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx"><strong>IDropTarget</strong></a> also supports re-use of an already running handler when the <strong>IDropTarget</strong> interface is implemented by a local server. It also perfectly expresses the items via the marshaled data object and provides a reference to the invoking site chain so that you can interact with the invoker through the <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx"><strong>QueryService</strong></a>.</td>
 </tr>
 <tr class="odd">
-<td>Windows 7 and later: [<strong>IExecuteCommand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand)</td>
-<td>The most direct implementation method. Because this is a COM-based invoke method (like DropTarget) this interface supports in-proc and out-of-proc activation. The verb implements [<strong>IExecuteCommand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand) and [<strong>IObjectWithSelection</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection), and optionally [<strong>IInitializeCommand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand). The items are passed directly as a Shell item array and more of the parameters from the invoker are available to the verb implementation, including the invoke point, keyboard state, and so forth.</td>
+<td>Windows 7 and later: <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a></td>
+<td>The most direct implementation method. Because this is a COM-based invoke method (like DropTarget) this interface supports in-proc and out-of-proc activation. The verb implements <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>IObjectWithSelection</strong></a>, and optionally <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>IInitializeCommand</strong></a>. The items are passed directly as a Shell item array and more of the parameters from the invoker are available to the verb implementation, including the invoke point, keyboard state, and so forth.</td>
 </tr>
 <tr class="even">
-<td>Windows 7 and later:<strong>ExplorerCommand</strong>/ [<strong>IExplorerCommand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand)</td>
-<td>Enables data sources that provide their command module commands through [<strong>IExplorerCommandProvider</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) to use those commands as verbs on a shortcut menu. Because this interface supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.</td>
+<td>Windows 7 and later:<strong>ExplorerCommand</strong>/ <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>IExplorerCommand</strong></a></td>
+<td>Enables data sources that provide their command module commands through <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>IExplorerCommandProvider</strong></a> to use those commands as verbs on a shortcut menu. Because this interface supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.</td>
 </tr>
 </tbody>
 </table>

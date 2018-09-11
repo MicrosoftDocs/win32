@@ -1,7 +1,7 @@
 ---
 title: Scroll Bar
 description: This section contains information about the programming elements used with scroll bars.
-ms.assetid: 9cb3afad-79ef-4817-950a-c8c1de39401b
+ms.assetid: 'vs|controls|~\controls\scrollbars\scrollbars.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -43,77 +43,77 @@ This section contains information about the programming elements used with scrol
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>EnableScrollBar</strong>](/windows/desktop/api/Winuser/nf-winuser-enablescrollbar)</td>
-<td>The [<strong>EnableScrollBar</strong>](/windows/desktop/api/Winuser/nf-winuser-enablescrollbar) function enables or disables one or both scroll bar arrows. <br/></td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a> function enables or disables one or both scroll bar arrows. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetScrollBarInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo)</td>
-<td>The [<strong>GetScrollBarInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo) function retrieves information about the specified scroll bar.<br/></td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a> function retrieves information about the specified scroll bar.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetScrollInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo)</td>
-<td>The [<strong>GetScrollInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo) function retrieves the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb).<br/></td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> function retrieves the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetScrollPos</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollpos)</td>
-<td>The [<strong>GetScrollPos</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollpos) function retrieves the current position of the scroll box (thumb) in the specified scroll bar. The current position is a relative value that depends on the current scrolling range. For example, if the scrolling range is 0 through 100 and the scroll box is in the middle of the bar, the current position is 50.
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> function retrieves the current position of the scroll box (thumb) in the specified scroll bar. The current position is a relative value that depends on the current scrolling range. For example, if the scrolling range is 0 through 100 and the scroll box is in the middle of the bar, the current position is 50.
 <blockquote>
 [!Note]<br />
-The [<strong>GetScrollPos</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollpos) function is provided for backward compatibility. New applications should use the [<strong>GetScrollInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo) function.
+The <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> function is provided for backward compatibility. New applications should use the <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> function.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetScrollRange</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollrange)</td>
-<td>The [<strong>GetScrollRange</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollrange) function retrieves the current minimum and maximum scroll box (thumb) positions for the specified scroll bar.
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> function retrieves the current minimum and maximum scroll box (thumb) positions for the specified scroll bar.
 <blockquote>
 [!Note]<br />
-The [<strong>GetScrollRange</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollrange) function is provided for compatibility only. New applications should use the [<strong>GetScrollInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo) function.
+The <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> function is provided for compatibility only. New applications should use the <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> function.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ScrollDC</strong>](/windows/desktop/api/Winuser/nf-winuser-scrolldc)</td>
-<td>The [<strong>ScrollDC</strong>](/windows/desktop/api/Winuser/nf-winuser-scrolldc) function scrolls a rectangle of bits horizontally and vertically. <br/></td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a> function scrolls a rectangle of bits horizontally and vertically. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ScrollWindow</strong>](/windows/desktop/api/Winuser/nf-winuser-scrollwindow)</td>
-<td>The [<strong>ScrollWindow</strong>](/windows/desktop/api/Winuser/nf-winuser-scrollwindow) function scrolls the contents of the specified window's client area.
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a> function scrolls the contents of the specified window's client area.
 <blockquote>
 [!Note]<br />
-The [<strong>ScrollWindow</strong>](/windows/desktop/api/Winuser/nf-winuser-scrollwindow) function is provided for backward compatibility. New applications should use the [<strong>ScrollWindowEx</strong>](/windows/desktop/api/Winuser/nf-winuser-scrollwindowex) function.
+The <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a> function is provided for backward compatibility. New applications should use the <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> function.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ScrollWindowEx</strong>](/windows/desktop/api/Winuser/nf-winuser-scrollwindowex)</td>
-<td>The [<strong>ScrollWindowEx</strong>](/windows/desktop/api/Winuser/nf-winuser-scrollwindowex) function scrolls the contents of the specified window's client area. <br/></td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> function scrolls the contents of the specified window's client area. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetScrollInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo)</td>
-<td>The [<strong>SetScrollInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) function sets the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb). The function also redraws the scroll bar, if requested.<br/></td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> function sets the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb). The function also redraws the scroll bar, if requested.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SetScrollPos</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollpos)</td>
-<td>The [<strong>SetScrollPos</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollpos) function sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> function sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
 <blockquote>
 [!Note]<br />
-The [<strong>SetScrollPos</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollpos) function is provided for backward compatibility. New applications should use the [<strong>SetScrollInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) function.
+The <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> function is provided for backward compatibility. New applications should use the <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> function.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetScrollRange</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollrange)</td>
-<td>The [<strong>SetScrollRange</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollrange) function sets the minimum and maximum scroll box positions for the specified scroll bar.
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> function sets the minimum and maximum scroll box positions for the specified scroll bar.
 <blockquote>
 [!Note]<br />
-The [<strong>SetScrollRange</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollrange) function is provided for backward compatibility. New applications should use the [<strong>SetScrollInfo</strong>](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) function.
+The <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> function is provided for backward compatibility. New applications should use the <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> function.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ShowScrollBar</strong>](/windows/desktop/api/Winuser/nf-winuser-showscrollbar)</td>
-<td>The [<strong>ShowScrollBar</strong>](/windows/desktop/api/Winuser/nf-winuser-showscrollbar) function shows or hides the specified scroll bar. <br/></td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a></td>
+<td>The <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a> function shows or hides the specified scroll bar. <br/></td>
 </tr>
 </tbody>
 </table>

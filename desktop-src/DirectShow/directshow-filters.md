@@ -1,6 +1,6 @@
 ---
 Description: DirectShow Filters
-ms.assetid: 57b7d32e-2073-46a2-91ec-a34072134489
+ms.assetid: 'a7cb806e-5705-483e-b7b2-39f427681ae5'
 title: DirectShow Filters
 ms.technology: desktop
 ms.prod: windows

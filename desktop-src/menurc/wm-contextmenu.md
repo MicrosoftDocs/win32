@@ -1,5 +1,5 @@
 ---
-title: WM\_CONTEXTMENU message
+title: WM_CONTEXTMENU message
 description: Notifies a window that the user clicked the right mouse button (right-clicked) in the window.
 ms.assetid: e607a61a-0f9b-4d11-b8c0-b01a2e7fb35b
 keywords:

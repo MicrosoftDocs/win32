@@ -48,8 +48,8 @@ Title bars support the following [**IAccessible**](/windows/desktop/api/oleacc/n
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>get_accChildCount</strong>](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)</td>
-<td>The <strong>ChildCount</strong> property is five. The <strong>ChildCount</strong> property includes the IME and context-sensitive Help buttons even when they are not displayed. Buttons that are not displayed have the <strong>State</strong> property [<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md).</td>
+<td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount"><strong>get_accChildCount</strong></a></td>
+<td>The <strong>ChildCount</strong> property is five. The <strong>ChildCount</strong> property includes the IME and context-sensitive Help buttons even when they are not displayed. Buttons that are not displayed have the <strong>State</strong> property <a href="object-state-constants"><strong>STATE_SYSTEM_INVISIBLE</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><strong>get_accDescription</strong></td>
@@ -76,15 +76,15 @@ Title bars support the following [**IAccessible**](/windows/desktop/api/oleacc/n
 </tr>
 <tr class="even">
 <td><strong>get_accParent</strong></td>
-<td>The <strong>Parent</strong> property of the title bar is the main application window ( [<strong>ROLE_SYSTEM_WINDOW</strong>](object-roles.md) ) that has the same application-defined window class name as the title bar.</td>
+<td>The <strong>Parent</strong> property of the title bar is the main application window ( <a href="object-roles"><strong>ROLE_SYSTEM_WINDOW</strong></a> ) that has the same application-defined window class name as the title bar.</td>
 </tr>
 <tr class="odd">
 <td><strong>get_accRole</strong></td>
-<td>The <strong>Role</strong> property is [<strong>ROLE_SYSTEM_TITLEBAR</strong>](object-roles.md). The child buttons in the title bar have the <strong>Role</strong> property [<strong>ROLE_SYSTEM_PUSHBUTTON</strong>](object-roles.md).</td>
+<td>The <strong>Role</strong> property is <a href="object-roles"><strong>ROLE_SYSTEM_TITLEBAR</strong></a>. The child buttons in the title bar have the <strong>Role</strong> property <a href="object-roles"><strong>ROLE_SYSTEM_PUSHBUTTON</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><strong>get_accState</strong></td>
-<td>The <strong>State</strong> property for the title bar and the child buttons can be a combination of one or more of the following [values](object-state-constants.md): [<strong>STATE_SYSTEM_FOCUSABLE</strong>](object-state-constants.md) | [<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md) | [<strong>STATE_SYSTEM_OFFSCREEN</strong>](object-state-constants.md) | [<strong>STATE_SYSTEM_UNAVAILABLE</strong>](object-state-constants.md) | [<strong>STATE_SYSTEM_PRESSED</strong>](object-state-constants.md)<br/></td>
+<td>The <strong>State</strong> property for the title bar and the child buttons can be a combination of one or more of the following <a href="object-state-constants">values</a>: <a href="object-state-constants"><strong>STATE_SYSTEM_FOCUSABLE</strong></a> | <a href="object-state-constants"><strong>STATE_SYSTEM_INVISIBLE</strong></a> | <a href="object-state-constants"><strong>STATE_SYSTEM_OFFSCREEN</strong></a> | <a href="object-state-constants"><strong>STATE_SYSTEM_UNAVAILABLE</strong></a> | <a href="object-state-constants"><strong>STATE_SYSTEM_PRESSED</strong></a><br/></td>
 </tr>
 <tr class="odd">
 <td><strong>get_accValue</strong></td>

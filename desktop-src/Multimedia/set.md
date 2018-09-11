@@ -1,7 +1,7 @@
 ---
 title: set command
 description: The set command establishes control settings for the device. CD audio, digital-video, MIDI sequencer, VCR, videodisc, video-overlay, and waveform-audio devices recognize this command.
-ms.assetid: 641c882e-b9c8-4945-bf8a-f3e70c5d5c64
+ms.assetid: '1ec4d84e-372a-4b6d-b694-f5afb41f90b2'
 keywords:
 - set command Windows Multimedia
 topic_type:
@@ -303,7 +303,7 @@ The following table lists the flags that can be specified in the **lpszSetting**
 </tr>
 <tr class="odd">
 <td>counter format</td>
-<td>Set the time format for the counter, as returned by [status](status.md) &quot;counter&quot;. For information about applicable types, see the <strong>set</strong> &quot;time format&quot; command.</td>
+<td>Set the time format for the counter, as returned by <a href="status">status</a> &quot;counter&quot;. For information about applicable types, see the <strong>set</strong> &quot;time format&quot; command.</td>
 </tr>
 <tr class="even">
 <td>counter <em>value</em></td>
@@ -319,7 +319,7 @@ The following table lists the flags that can be specified in the **lpszSetting**
 </tr>
 <tr class="odd">
 <td>file format <em>format</em></td>
-<td>Specifies a file format that is used for [save](save.md) or [capture](capture.md) commands. If omitted, this might default to a device driver defined format. If the specified file format conflicts with the currently selected algorithm and quality, then they are changed to the defaults for the file format. The following file formats are defined:
+<td>Specifies a file format that is used for <a href="save">save</a> or <a href="capture">capture</a> commands. If omitted, this might default to a device driver defined format. If the specified file format conflicts with the currently selected algorithm and quality, then they are changed to the defaults for the file format. The following file formats are defined:
 <ul>
 <li>avi: Specifies AVI format.</li>
 <li>avss: Specifies AVSS format.</li>
@@ -349,7 +349,7 @@ The following table lists the flags that can be specified in the **lpszSetting**
 </tr>
 <tr class="even">
 <td>length <em>duration</em></td>
-<td>Sets the user-specified length of the tape in the VCR. This length is returned by the [status](status.md) &quot;length&quot; command and is provided for compatibility with applications that require this command to return a valid length.</td>
+<td>Sets the user-specified length of the tape in the VCR. This length is returned by the <a href="status">status</a> &quot;length&quot; command and is provided for compatibility with applications that require this command to return a valid length.</td>
 </tr>
 <tr class="odd">
 <td>master midi</td>
@@ -373,11 +373,11 @@ The following table lists the flags that can be specified in the **lpszSetting**
 </tr>
 <tr class="even">
 <td>pause <em>timeout</em></td>
-<td>Sets the maximum duration, in milliseconds, of a [pause](pause.md) command. A <em>timeout</em> value of zero indicates that no time-out will occur.</td>
+<td>Sets the maximum duration, in milliseconds, of a <a href="pause">pause</a> command. A <em>timeout</em> value of zero indicates that no time-out will occur.</td>
 </tr>
 <tr class="odd">
 <td>postroll duration <em>duration</em></td>
-<td>Sets the length, in the current time format, needed to brake the VCR transport when a [stop](stop.md) or <strong>pause</strong> command is issued.</td>
+<td>Sets the length, in the current time format, needed to brake the VCR transport when a <a href="stop">stop</a> or <strong>pause</strong> command is issued.</td>
 </tr>
 <tr class="even">
 <td>port mapper</td>

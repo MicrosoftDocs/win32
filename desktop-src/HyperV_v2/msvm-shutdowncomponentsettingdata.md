@@ -1,7 +1,7 @@
 ---
 Description: Represents the configured state of the shutdown service.
 ms.assetid: 434DE26A-E78A-403A-AFAB-2F9272426A16
-title: Msvm\_ShutdownComponentSettingData class
+title: Msvm_ShutdownComponentSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

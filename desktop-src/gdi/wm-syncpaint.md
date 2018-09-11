@@ -1,7 +1,7 @@
 ---
 Description: The WM\_SYNCPAINT message is used to synchronize painting while avoiding linking independent GUI threads.
 ms.assetid: 4446be4e-e0b9-46ce-95b2-bea876348c25
-title: WM\_SYNCPAINT message
+title: WM_SYNCPAINT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

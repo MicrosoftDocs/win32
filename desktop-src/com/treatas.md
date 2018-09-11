@@ -1,7 +1,7 @@
 ---
 title: TreatAs
 description: Specifies the CLSID of a class that can emulate the current class.
-ms.assetid: 5adf7bc5-a4d6-444d-bd56-0c4e6eee5111
+ms.assetid: '1d7a1677-738a-4258-9afc-e77bd0dcf40f'
 keywords:
 - TreatAs registry key COM
 ms.technology: desktop

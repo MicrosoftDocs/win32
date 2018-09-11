@@ -1,7 +1,7 @@
 ---
 Description: Represents the extended port ACL settings.
 ms.assetid: 357dd891-6692-4ffc-b8a8-4ece40d4af28
-title: Msvm\_EthernetSwitchPortExtendedAclSettingData class
+title: Msvm_EthernetSwitchPortExtendedAclSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

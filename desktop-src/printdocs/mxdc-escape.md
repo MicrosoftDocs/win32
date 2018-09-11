@@ -1,7 +1,7 @@
 ---
 Description: The MXDC\_ESCAPE printer escape function enables applications to write documents to a file or to a printer in XML Paper Specification (XPS) format by means of the Microsoft XPS Document Converter (MXDC).
 ms.assetid: 79aeb32e-94b1-4806-8ebf-a9d0956f4667
-title: MXDC\_ESCAPE function
+title: MXDC_ESCAPE function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -62,7 +62,7 @@ The size, in bytes, of the data pointed to by the *lpszInData* parameter.
 
 A pointer to a buffer containing the input data, which is always stored in one of the following structures.
 
-<dl> <dd>[**MxdcEscapeHeader**](mxdcescapeheader.md)</dd> <dd>[**MxdcPrintTicketEscape**](mxdcprintticketescape.md)</dd> <dd>[**MxdcS0PagePassthroughEscape**](mxdcs0pagepassthroughescape.md)</dd> <dd>[**MxdcS0PageResourceEscape**](mxdcs0pageresourceescape.md)</dd> </dl>
+<dl> <dd><a href="mxdcescapeheader">**MxdcEscapeHeader**</a></dd> <dd><a href="mxdcprintticketescape">**MxdcPrintTicketEscape**</a></dd> <dd><a href="mxdcs0pagepassthroughescape">**MxdcS0PagePassthroughEscape**</a></dd> <dd><a href="mxdcs0pageresourceescape">**MxdcS0PageResourceEscape**</a></dd> </dl>
 
 Each of these structures has an opcode member that specifies what the MXDC is supposed to do. See MxdcEscapeHeader for detailed remarks about these codes.
 

@@ -1,7 +1,7 @@
 ---
 title: MediaCollection.getByAuthor method
 description: The getByAuthor method retrieves a playlist of the media items by the specified author.
-ms.assetid: 415dfbe5-c709-4674-bcdd-38742150d11f
+ms.assetid: '8f9b3ee3-a809-4d24-81ce-adad63e5347c'
 keywords:
 - getByAuthor method Windows Media Player
 - getByAuthor method Windows Media Player , MediaCollection class

@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_AType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_AType class
 description: The CreateInstanceFromPropertyData method instantiates an Address (A) Resource Record.
 ms.assetid: 81d67eba-f2c6-49c0-af29-be3f3724a973
 keywords:

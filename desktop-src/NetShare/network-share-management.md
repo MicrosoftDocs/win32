@@ -1,6 +1,6 @@
 ---
 Description: Manage and monitor communications between clients and servers using the Server Messaging Block (SMB) protocol. Use network file functions to monitor and close file, device, and pipe resources. Control network sessions and retrieve operating statistics.
-ms.assetid: 7669049d-de56-4485-be4f-939900ca6a4f
+ms.assetid: '48dd9a58-078a-4189-a64f-5e8d343aed28'
 title: Network Share Management
 ms.technology: desktop
 ms.prod: windows

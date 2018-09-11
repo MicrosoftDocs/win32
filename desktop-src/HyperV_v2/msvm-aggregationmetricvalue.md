@@ -1,7 +1,7 @@
 ---
 Description: Represents the instance value of a metric defined by an instance of the Msvm\_AggregationMetricDefinition class.
 ms.assetid: 6dfcb711-6137-492a-aff4-82facbd11949
-title: Msvm\_AggregationMetricValue class
+title: Msvm_AggregationMetricValue class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

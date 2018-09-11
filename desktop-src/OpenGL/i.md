@@ -2,7 +2,7 @@
 title: I
 description: Definitions of OpenGL terms that begin with the letter I.
 Robots: noindex, nofollow
-ms.assetid: 9c68221b-1633-435b-9ae4-abc1c52601aa
+ms.assetid: '2c78efce-9aed-4bcd-a254-7bff053b0acd'
 keywords:
 - images
 - image primitives

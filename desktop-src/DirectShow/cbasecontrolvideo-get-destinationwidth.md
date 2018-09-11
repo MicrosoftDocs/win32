@@ -1,7 +1,7 @@
 ---
 Description: The get\_DestinationWidth method retrieves the width of the current destination rectangle.
 ms.assetid: 7d466d61-1768-48b4-8460-b15d28a294f3
-title: CBaseControlVideo.get\_DestinationWidth method
+title: CBaseControlVideo.get_DestinationWidth method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

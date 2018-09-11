@@ -1,5 +1,5 @@
 ---
-title: LM\_HITTEST message
+title: LM_HITTEST message
 description: Determines whether the user clicked the specified link.
 ms.assetid: a84c0388-26e7-4eda-9c6c-c5f64142d67a
 keywords:
@@ -31,7 +31,7 @@ Determines whether the user clicked the specified link.
 </dt> <dd>Must be **NULL**.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a [**LHITTESTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglhittestinfo) structure to be filled with information about the link the user clicked, if any exists. </dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglhittestinfo">**LHITTESTINFO**</a> structure to be filled with information about the link the user clicked, if any exists. </dd> </dl>
 
 ## Return value
 

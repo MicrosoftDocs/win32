@@ -1,7 +1,7 @@
 ---
 Description: Returns the type of I/O bus used by the video output.
 ms.assetid: 1aff4c81-ffa0-4116-b7ea-60b1b83042df
-title: OPM\_GET\_ADAPTER\_BUS\_TYPE
+title: OPM_GET_ADAPTER_BUS_TYPE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

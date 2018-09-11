@@ -1,5 +1,5 @@
 ---
-title: TVN\_GETDISPINFO notification code
+title: TVN_GETDISPINFO notification code
 description: Requests that a tree-view control's parent window provide information needed to display or sort an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 2dfe41d8-1164-481b-ac07-8faba43c562a
 keywords:

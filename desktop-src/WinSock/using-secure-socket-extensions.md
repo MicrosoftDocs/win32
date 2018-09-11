@@ -1,6 +1,6 @@
 ---
 Description: Using Secure Socket Extensions
-ms.assetid: 9c429363-f9bb-4394-89be-f87507f5cbdd
+ms.assetid: 'd5e2f9d0-c61f-42d3-b62b-6c75b221ae24'
 title: Using Secure Socket Extensions
 ms.technology: desktop
 ms.prod: windows

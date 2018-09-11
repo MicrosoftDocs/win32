@@ -54,7 +54,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 <tbody>
 <tr class="odd">
 <td><strong>-a</strong> <strong></strong> <em>Algorithm</em></td>
-<td>[<em>Hash</em>](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) algorithm. Must be set to either <strong>SHA-1</strong> or <strong>MD5</strong> (default). For information about MD5, see [<em>MD5</em>](https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx).</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx"><em>Hash</em></a> algorithm. Must be set to either <strong>SHA-1</strong> or <strong>MD5</strong> (default). For information about MD5, see <a href="https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx"><em>MD5</em></a>.</td>
 </tr>
 <tr class="even">
 <td><strong>-b</strong> <strong></strong> <em>DateStart</em></td>
@@ -62,7 +62,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 </tr>
 <tr class="odd">
 <td><strong>-cy</strong> <strong></strong> <em>CertificateTypes</em></td>
-<td>Certificate type. <em>CertificateTypes</em> can be <strong>end</strong> for end-entity, or <strong>authority</strong> for [<em>certification authority</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).</td>
+<td>Certificate type. <em>CertificateTypes</em> can be <strong>end</strong> for end-entity, or <strong>authority</strong> for <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>certification authority</em></a>.</td>
 </tr>
 <tr class="even">
 <td><strong>-e</strong> <strong></strong> <em>DateEnd</em></td>
@@ -70,7 +70,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 </tr>
 <tr class="odd">
 <td><strong>-eku</strong> <strong></strong> <em>OID1</em><strong>,</strong> <em>OID2</em> …</td>
-<td>Inserts a list of one or more comma-separated, [<em>enhanced key usage</em>](https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx) [<em>object identifiers</em>](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OIDs) into the certificate. For example, <strong>-eku 1.3.6.1.5.5.7.3.2</strong> inserts the client authentication OID. For definitions of allowable OIDs, see the Wincrypt.h file in CryptoAPI 2.0.</td>
+<td>Inserts a list of one or more comma-separated, <a href="https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx"><em>enhanced key usage</em></a> <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx"><em>object identifiers</em></a> (OIDs) into the certificate. For example, <strong>-eku 1.3.6.1.5.5.7.3.2</strong> inserts the client authentication OID. For definitions of allowable OIDs, see the Wincrypt.h file in CryptoAPI 2.0.</td>
 </tr>
 <tr class="even">
 <td><strong>-h</strong> <strong></strong> <em>NumChildren</em></td>
@@ -86,7 +86,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 </tr>
 <tr class="odd">
 <td><strong>-n</strong> <strong>&quot;</strong><em>Name</em><strong>&quot;</strong></td>
-<td>Name for the publisher's certificate. This name must conform to the [<em>X.500</em>](https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx) standard. The simplest method is to use the &quot;CN=<em>MyName</em>&quot; format. For example: <strong>-n &quot;CN=Test&quot;</strong>.</td>
+<td>Name for the publisher's certificate. This name must conform to the <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx"><em>X.500</em></a> standard. The simplest method is to use the &quot;CN=<em>MyName</em>&quot; format. For example: <strong>-n &quot;CN=Test&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td><strong>-nscp</strong></td>
@@ -106,7 +106,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 </tr>
 <tr class="even">
 <td><strong>-sk</strong> <strong></strong> <em>SubjectKey</em></td>
-<td>Location of the subject's key container which holds the [<em>private key</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx). If a key container does not exist, one is created. If neither the <strong>-sk</strong> or <strong>-sv</strong> option is used, a default key container is created and used by default.</td>
+<td>Location of the subject's key container which holds the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>private key</em></a>. If a key container does not exist, one is created. If neither the <strong>-sk</strong> or <strong>-sv</strong> option is used, a default key container is created and used by default.</td>
 </tr>
 <tr class="odd">
 <td><strong>-sky</strong> <strong></strong> <em>SubjectKeySpec</em></td>
@@ -136,7 +136,7 @@ For more information, see the Note that follows this table.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>-sy</strong> <strong></strong> <em>nSubjectProviderType</em></td>
-<td>CryptoAPI provider type for subject. The default is [<em>PROV_RSA_FULL</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx). For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
+<td>CryptoAPI provider type for subject. The default is <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>PROV_RSA_FULL</em></a>. For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
 </tr>
 <tr class="odd">
 <td><strong>-#</strong> <strong></strong> <em>SerialNumber</em></td>
@@ -144,7 +144,7 @@ For more information, see the Note that follows this table.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>-$</strong> <strong></strong> <em>CertificateAuthority</em></td>
-<td>Type of [<em>certification authority</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). <em>CertificateAuthority</em> must be set to either <strong>commercial</strong> (for certificates to be used by commercial software publishers) or <strong>individual</strong> (for certificates to be used by individual software publishers).</td>
+<td>Type of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx"><em>certification authority</em></a>. <em>CertificateAuthority</em> must be set to either <strong>commercial</strong> (for certificates to be used by commercial software publishers) or <strong>individual</strong> (for certificates to be used by individual software publishers).</td>
 </tr>
 <tr class="odd">
 <td><strong>-?</strong></td>
@@ -210,7 +210,7 @@ For more information, see the Note that follows this table.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>-iy</strong> <strong></strong> <em>nIssuerProviderType</em></td>
-<td>CryptoAPI provider type for issuer. The default is [<em>PROV_RSA_FULL</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx). For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
+<td>CryptoAPI provider type for issuer. The default is <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"><em>PROV_RSA_FULL</em></a>. For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
 </tr>
 </tbody>
 </table>

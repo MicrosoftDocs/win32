@@ -1,5 +1,5 @@
 ---
-title: GetDistinguishedName method of the MicrosoftDNS\_RootHints class
+title: GetDistinguishedName method of the MicrosoftDNS_RootHints class
 description: The GetDistinguishedName method retrieves the distinguished name for the zone.
 ms.assetid: 788e1646-54b5-4fb8-af6f-e31c4f3d8231
 keywords:

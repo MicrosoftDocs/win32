@@ -1,7 +1,7 @@
 ---
 title: TaskService.GetFolder method
 description: For scripting, gets a folder of registered tasks.
-ms.assetid: 144b070f-43e9-40d6-8461-832abc7facd3
+ms.assetid: '57e5b411-1fb6-4ee1-9802-ed2adbb4fdf8'
 keywords:
 - GetFolder method Task Scheduler
 - GetFolder method Task Scheduler , TaskService object

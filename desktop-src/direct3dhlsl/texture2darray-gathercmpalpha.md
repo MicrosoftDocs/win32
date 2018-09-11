@@ -1,7 +1,7 @@
 ---
 title: Texture2DArray GatherCmpAlpha methods
 description: Samples and compares a Texture2DArray and returns the alpha component.
-ms.assetid: d5fc78eb-2378-4e63-a712-c6f4ef9fc729
+ms.assetid: '674bde18-0471-4e47-af3f-ea9e9db6b16f'
 keywords:
 - GatherCmpAlpha methods HLSL
 topic_type:

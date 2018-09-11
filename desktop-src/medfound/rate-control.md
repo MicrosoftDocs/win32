@@ -1,6 +1,6 @@
 ---
 Description: Rate Control
-ms.assetid: 509b2cc8-6017-41a9-ae80-9af21dce9367
+ms.assetid: '6529859f-cfb6-4983-a489-bcc2f04e721f'
 title: Rate Control
 ms.technology: desktop
 ms.prod: windows

@@ -1,7 +1,7 @@
 ---
 title: Rebar
 description: This section contains information about programming elements used with rebar controls.
-ms.assetid: d9136c18-6997-42c5-a6b4-d7314b7da5ac
+ms.assetid: 'vs|controls|~\controls\rebar\reflist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

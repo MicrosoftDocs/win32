@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_STAR
+title: WMT_VIDEOIMAGE_TRANSITION_STAR
 description: The star transition reveals the new image in a five-pointed star inside the frame.
 ms.assetid: d16f73ce-0fa8-47b4-8146-32f276e6d16c
 keywords:

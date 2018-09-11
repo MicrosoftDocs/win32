@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGetIcon Methods
+title: Win32_TSGetIcon Methods
 description: The Win32\_TSGetIcon class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

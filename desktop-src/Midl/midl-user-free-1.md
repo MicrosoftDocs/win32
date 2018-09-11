@@ -1,5 +1,5 @@
 ---
-title: midl\_user\_free attribute
+title: midl_user_free attribute
 description: The midl\_user\_free function is provided by client and server applications to deallocate dynamically allocated memory.
 ms.assetid: b5d8f133-ddd9-4b92-8540-611a03835be0
 keywords:

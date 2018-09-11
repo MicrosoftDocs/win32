@@ -1,5 +1,5 @@
 ---
-title: CFSTR\_DSQUERYPARAMS
+title: CFSTR_DSQUERYPARAMS
 description: The CFSTR\_DSQUERYPARAMS clipboard format provides a global memory handle (HGLOBAL) that contains a DSQUERYPARAMS structure.
 audience: developer
 author: REDMOND\\markl

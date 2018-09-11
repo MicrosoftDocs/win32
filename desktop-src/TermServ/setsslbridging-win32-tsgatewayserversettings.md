@@ -1,5 +1,5 @@
 ---
-title: SetSslBridging method of the Win32\_TSGatewayServerSettings class
+title: SetSslBridging method of the Win32_TSGatewayServerSettings class
 description: Sets the type of SSL bridging to be used by the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

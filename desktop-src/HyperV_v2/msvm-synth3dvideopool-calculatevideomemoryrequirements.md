@@ -1,7 +1,7 @@
 ---
 Description: Calculates the amount of video memory required for a RemoteFX virtual machine.
 ms.assetid: F8C30601-EDA3-47F1-A717-9FE7E9DB8F62
-title: CalculateVideoMemoryRequirements method of the Msvm\_Synth3dVideoPool class
+title: CalculateVideoMemoryRequirements method of the Msvm_Synth3dVideoPool class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

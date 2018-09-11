@@ -1,7 +1,7 @@
 ---
 title: DeviceDeparture event
 description: Occurs when a new device is removed from the list of devices returned by the CachedDevices method.
-ms.assetid: 3ABA1C74-228C-46AF-9743-CC5F4345A974
+ms.assetid: '10451878-e685-4042-9f92-ba3a408c4da0'
 keywords:
 - DeviceDeparture event Media Streaming API
 topic_type:

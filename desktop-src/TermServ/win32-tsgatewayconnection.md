@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGatewayConnection class
+title: Win32_TSGatewayConnection class
 description: Represents a connection from a client computer to a Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl

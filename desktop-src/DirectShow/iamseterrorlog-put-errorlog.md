@@ -1,7 +1,7 @@
 ---
 Description: The put\_ErrorLog method specifies an error log for the object.
 ms.assetid: 39da3fb0-57d3-452f-b2ae-6dcd84fa5c8e
-title: IAMSetErrorLog::put\_ErrorLog method
+title: IAMSetErrorLog::put_ErrorLog method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

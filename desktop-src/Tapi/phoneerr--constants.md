@@ -1,7 +1,7 @@
 ---
 Description: This is the list of error codes that the implementation can return when invoking operations on phone devices. Consult the individual function descriptions to determine which of these error codes each function can return.
 ms.assetid: 763a9dc2-3e70-4169-a66e-3aac78ef8d33
-title: PHONEERR\_ Constants
+title: PHONEERR_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

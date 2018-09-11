@@ -109,408 +109,408 @@ The Windows Media Video 9 encoder supports the following properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>MFPKEY_ASFOVERHEADPERFRAME</strong>](mfpkey-asfoverheadperframeproperty.md)</td>
+<td><a href="mfpkey-asfoverheadperframeproperty"><strong>MFPKEY_ASFOVERHEADPERFRAME</strong></a></td>
 <td>Specifies the overhead, in bytes per packet, required for the container used to store the compressed content.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_AVGFRAMERATE</strong>](mfpkey-avgframerateproperty.md)</td>
+<td><a href="mfpkey-avgframerateproperty"><strong>MFPKEY_AVGFRAMERATE</strong></a></td>
 <td>Specifies the average frame rate of video content, in frames per second.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_BAVG</strong>](mfpkey-bavgproperty.md)</td>
-<td>Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its average bit rate (specified by [<strong>MFPKEY_RAVG</strong>](mfpkey-ravgproperty.md)).<br/> <dl> Windows XP and later.<br />
+<td><a href="mfpkey-bavgproperty"><strong>MFPKEY_BAVG</strong></a></td>
+<td>Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its average bit rate (specified by <a href="mfpkey-ravgproperty"><strong>MFPKEY_RAVG</strong></a>).<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_BDELTAQP</strong>](mfpkey-bdeltaqpproperty.md)</td>
+<td><a href="mfpkey-bdeltaqpproperty"><strong>MFPKEY_BDELTAQP</strong></a></td>
 <td>Specifies the delta increase between the picture quantizer of the anchor frame and the picture quantizer of the B-frame.<br/> <dl> Windows XP and later.<br />
 Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_BMAX</strong>](mfpkey-bmaxproperty.md)</td>
-<td>Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its peak bit rate (specified by [<strong>MFPKEY_RMAX</strong>](mfpkey-rmaxproperty.md)).<br/> <dl> Windows XP and later.<br />
+<td><a href="mfpkey-bmaxproperty"><strong>MFPKEY_BMAX</strong></a></td>
+<td>Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its peak bit rate (specified by <a href="mfpkey-rmaxproperty"><strong>MFPKEY_RMAX</strong></a>).<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_BUFFERFULLNESSINFIRSTBYTE</strong>](mfpkey-bufferfullnessinfirstbyteproperty.md)</td>
+<td><a href="mfpkey-bufferfullnessinfirstbyteproperty"><strong>MFPKEY_BUFFERFULLNESSINFIRSTBYTE</strong></a></td>
 <td>Specifies whether the encoded video bit stream contains a buffer fullness value with every key frame.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_CLOSEDENTRYPOINT</strong>](mfpkey-closedentrypointproperty.md)</td>
+<td><a href="mfpkey-closedentrypointproperty"><strong>MFPKEY_CLOSEDENTRYPOINT</strong></a></td>
 <td>Specifies the encoding pattern to use at the beginning of a group of pictures.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_CODEDFRAMES</strong>](mfpkey-codedframesproperty.md)</td>
+<td><a href="mfpkey-codedframesproperty"><strong>MFPKEY_CODEDFRAMES</strong></a></td>
 <td>Specifies the number of video frames encoded by the codec.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_CODEDNONZEROFRAMES</strong>](mfpkey-codednonzeroframesproperty.md)</td>
+<td><a href="mfpkey-codednonzeroframesproperty"><strong>MFPKEY_CODEDNONZEROFRAMES</strong></a></td>
 <td>Specifies the number of video frames encoded by the codec that actually contain data.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_COMPLEXITY</strong>](mfpkey-complexityproperty.md)</td>
-<td>This property is superseded by [<strong>MFPKEY_COMPLEXITYEX</strong>](mfpkey-complexityexproperty.md).<br/></td>
+<td><a href="mfpkey-complexityproperty"><strong>MFPKEY_COMPLEXITY</strong></a></td>
+<td>This property is superseded by <a href="mfpkey-complexityexproperty"><strong>MFPKEY_COMPLEXITYEX</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_COMPLEXITYEX</strong>](mfpkey-complexityexproperty.md)</td>
+<td><a href="mfpkey-complexityexproperty"><strong>MFPKEY_COMPLEXITYEX</strong></a></td>
 <td>Specifies the complexity of the encoder algorithm.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile. Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_COMPRESSIONOPTIMIZATIONTYPE</strong>](mfpkey-compressionoptimizationtypeproperty.md)</td>
+<td><a href="mfpkey-compressionoptimizationtypeproperty"><strong>MFPKEY_COMPRESSIONOPTIMIZATIONTYPE</strong></a></td>
 <td>Specifies the type of optimization to use for the Windows Media Video 9 Advanced Profile codec.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_CRISP</strong>](mfpkey-crispproperty.md)</td>
+<td><a href="mfpkey-crispproperty"><strong>MFPKEY_CRISP</strong></a></td>
 <td>Specifies a numeric representation of the tradeoff between motion smoothness and image quality in codec output.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_DATARATE</strong>](mfpkey-datarateproperty.md)</td>
+<td><a href="mfpkey-datarateproperty"><strong>MFPKEY_DATARATE</strong></a></td>
 <td>Not used.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_DECODERCOMPLEXITYPROFILE</strong>](mfpkey-decodercomplexityprofileproperty.md)</td>
+<td><a href="mfpkey-decodercomplexityprofileproperty"><strong>MFPKEY_DECODERCOMPLEXITYPROFILE</strong></a></td>
 <td>Specifies the device conformance template to which the encoded content conforms.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_DECODERCOMPLEXITYREQUESTED</strong>](mfpkey-decodercomplexityrequestedproperty.md)</td>
+<td><a href="mfpkey-decodercomplexityrequestedproperty"><strong>MFPKEY_DECODERCOMPLEXITYREQUESTED</strong></a></td>
 <td>Specifies the device conformance template that you want to use for video encoding.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_DELTAMVRANGEINDEX</strong>](mfpkey-deltamvrangeindexproperty.md)</td>
+<td><a href="mfpkey-deltamvrangeindexproperty"><strong>MFPKEY_DELTAMVRANGEINDEX</strong></a></td>
 <td>Specifies the method used to encode the motion vector information.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_DENOISEOPTION</strong>](mfpkey-denoiseoptionproperty.md)</td>
+<td><a href="mfpkey-denoiseoptionproperty"><strong>MFPKEY_DENOISEOPTION</strong></a></td>
 <td>Specifies whether the codec will use the noise filter when encoding.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_DESIRED_VBRQUALITY</strong>](mfpkey-desired-vbrqualityproperty.md)</td>
+<td><a href="mfpkey-desired-vbrqualityproperty"><strong>MFPKEY_DESIRED_VBRQUALITY</strong></a></td>
 <td>Specifies the desired quality level for quality based (1-pass) variable-bit-rate (VBR) encoding.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_DROPPEDFRAMES</strong>](mfpkey-droppedframesproperty.md)</td>
+<td><a href="mfpkey-droppedframesproperty"><strong>MFPKEY_DROPPEDFRAMES</strong></a></td>
 <td>Specifies the number of video frames dropped during encoding.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_ENDOFPASS</strong>](mfpkey-endofpassproperty.md)</td>
+<td><a href="mfpkey-endofpassproperty"><strong>MFPKEY_ENDOFPASS</strong></a></td>
 <td>Specifies the end of an encoding pass.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_FORCEFRAMEHEIGHT</strong>](mfpkey-forceframeheightproperty.md)</td>
+<td><a href="mfpkey-forceframeheightproperty"><strong>MFPKEY_FORCEFRAMEHEIGHT</strong></a></td>
 <td>Specifies an intermediate frame height for encoded video.<br/> <dl> Windows XP and later.<br />
 Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_FORCEFRAMEWIDTH</strong>](mfpkey-forceframewidthproperty.md)</td>
+<td><a href="mfpkey-forceframewidthproperty"><strong>MFPKEY_FORCEFRAMEWIDTH</strong></a></td>
 <td>Specifies an intermediate frame width for encoded video.<br/> <dl> Windows XP and later.<br />
 Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_FORCEMEDIANSETTING</strong>](mfpkey-forcemediansettingproperty.md)</td>
+<td><a href="mfpkey-forcemediansettingproperty"><strong>MFPKEY_FORCEMEDIANSETTING</strong></a></td>
 <td>Specifies whether the codec should use median filtering during encoding.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_FOURCC</strong>](mfpkey-fourccproperty.md)</td>
+<td><a href="mfpkey-fourccproperty"><strong>MFPKEY_FOURCC</strong></a></td>
 <td>Specifies the FOURCC that identifies the encoder you want to use.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_FRAMECOUNT</strong>](mfpkey-framecountproperty.md)</td>
+<td><a href="mfpkey-framecountproperty"><strong>MFPKEY_FRAMECOUNT</strong></a></td>
 <td>Obsolete.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_FULLFRAMERATE</strong>](mfpkey-fullframerateproperty.md)</td>
+<td><a href="mfpkey-fullframerateproperty"><strong>MFPKEY_FULLFRAMERATE</strong></a></td>
 <td>Specifies whether the encoder is allowed to drop frames.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_INTERLACEDCODINGENABLED</strong>](mfpkey-interlacedcodingenabledproperty.md)</td>
+<td><a href="mfpkey-interlacedcodingenabledproperty"><strong>MFPKEY_INTERLACEDCODINGENABLED</strong></a></td>
 <td>Specifies whether the codec output will be interlaced.<br/> <dl> Windows XP and later.<br />
 Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_KEYDIST</strong>](mfpkey-keydistproperty.md)</td>
+<td><a href="mfpkey-keydistproperty"><strong>MFPKEY_KEYDIST</strong></a></td>
 <td>Specifies the maximum time, in milliseconds, between key frames in the codec output.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_LIVEENCODE</strong>](mfpkey-liveencodeproperty.md)</td>
+<td><a href="mfpkey-liveencodeproperty"><strong>MFPKEY_LIVEENCODE</strong></a></td>
 <td>Not used.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_LOOKAHEAD</strong>](mfpkey-lookaheadproperty.md)</td>
+<td><a href="mfpkey-lookaheadproperty"><strong>MFPKEY_LOOKAHEAD</strong></a></td>
 <td>Specifies the number of frames after the current frame that the codec will evaluate before encoding the current frame.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_LOOPFILTER</strong>](mfpkey-loopfilterproperty.md)</td>
+<td><a href="mfpkey-loopfilterproperty"><strong>MFPKEY_LOOPFILTER</strong></a></td>
 <td>Specifies whether the codec should use the in-loop deblocking filter during encoding.<br/> <dl> Windows XP and later.<br />
 Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_MACROBLOCKMODECOSTMETHOD</strong>](mfpkey-macroblockmodecostmethodproperty.md)</td>
+<td><a href="mfpkey-macroblockmodecostmethodproperty"><strong>MFPKEY_MACROBLOCKMODECOSTMETHOD</strong></a></td>
 <td>Specifies the cost method used by the codec to determine which macroblock mode to use.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_MOTIONMATCHMETHOD</strong>](mfpkey-motionmatchmethodproperty.md)</td>
+<td><a href="mfpkey-motionmatchmethodproperty"><strong>MFPKEY_MOTIONMATCHMETHOD</strong></a></td>
 <td>Specifies the method to use for motion matching.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_MOTIONSEARCHLEVEL</strong>](mfpkey-motionsearchlevelproperty.md)</td>
+<td><a href="mfpkey-motionsearchlevelproperty"><strong>MFPKEY_MOTIONSEARCHLEVEL</strong></a></td>
 <td>Specifies the types of video information that are used in motion search operations.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_MOTIONSEARCHRANGE</strong>](mfpkey-motionsearchrangeproperty.md)</td>
+<td><a href="mfpkey-motionsearchrangeproperty"><strong>MFPKEY_MOTIONSEARCHRANGE</strong></a></td>
 <td>Specifies the range used in motion searches.<br/> <dl> Windows XP and later.<br />
 Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_NOISEEDGEREMOVAL</strong>](mfpkey-noiseedgeremovalproperty.md)</td>
+<td><a href="mfpkey-noiseedgeremovalproperty"><strong>MFPKEY_NOISEEDGEREMOVAL</strong></a></td>
 <td>Specifies whether the codec should attempt to detect noisy frame edges and remove them.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_NUMBFRAMES</strong>](mfpkey-numbframesproperty.md)</td>
+<td><a href="mfpkey-numbframesproperty"><strong>MFPKEY_NUMBFRAMES</strong></a></td>
 <td>Specifies the number of bidirectional predictive frames (B-frames).<br/> <dl> Windows XP and later.<br />
 Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_NUMTHREADS</strong>](mfpkey-numthreadsproperty.md)</td>
+<td><a href="mfpkey-numthreadsproperty"><strong>MFPKEY_NUMTHREADS</strong></a></td>
 <td>Specifies the number of threads that the codec will use for encoding.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_PASSESRECOMMENDED</strong>](mfpkey-passesrecommendedproperty.md)</td>
+<td><a href="mfpkey-passesrecommendedproperty"><strong>MFPKEY_PASSESRECOMMENDED</strong></a></td>
 <td>Specifies the maximum number of passes supported by the codec.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_PASSESUSED</strong>](mfpkey-passesusedproperty.md)</td>
+<td><a href="mfpkey-passesusedproperty"><strong>MFPKEY_PASSESUSED</strong></a></td>
 <td>Specifies the number of passes that the codec will use to encode the content.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_PERCEPTUALOPTLEVEL</strong>](mfpkey-perceptualoptlevelproperty.md)</td>
+<td><a href="mfpkey-perceptualoptlevelproperty"><strong>MFPKEY_PERCEPTUALOPTLEVEL</strong></a></td>
 <td>Specifies whether the codec should use conservative perceptual optimization when encoding.<br/> <dl> Windows XP and later.<br />
 Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_PRODUCEDUMMYFRAMES</strong>](mfpkey-producedummyframesproperty.md)</td>
+<td><a href="mfpkey-producedummyframesproperty"><strong>MFPKEY_PRODUCEDUMMYFRAMES</strong></a></td>
 <td>Specifies whether the encoder produces dummy frame entries in the bit stream for duplicate frames.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_QPPERFRAME</strong>](mfpkey-qpperframeproperty.md)</td>
+<td><a href="mfpkey-qpperframeproperty"><strong>MFPKEY_QPPERFRAME</strong></a></td>
 <td>Specifies QP.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_RANGEREDUX</strong>](mfpkey-rangereduxproperty.md)</td>
+<td><a href="mfpkey-rangereduxproperty"><strong>MFPKEY_RANGEREDUX</strong></a></td>
 <td>Specifies the degree to which the codec should reduce the effective color range of the video.<br/> <dl> Windows XP and later.<br />
 Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_RAVG</strong>](mfpkey-ravgproperty.md)</td>
+<td><a href="mfpkey-ravgproperty"><strong>MFPKEY_RAVG</strong></a></td>
 <td>Specifies the average bit rate, in bits per second, used for 2-pass variable-bit-rate (VBR) encoding.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_RDSUBPIXELSEARCH</strong>](mfpkey-rdsubpixelsearchproperty.md)</td>
+<td><a href="mfpkey-rdsubpixelsearchproperty"><strong>MFPKEY_RDSUBPIXELSEARCH</strong></a></td>
 <td>Specifies whether the encoder uses RD-based sub-pixel MV search. <br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_REENCENDBUFFERSIZE</strong>](mfpkey-reencendbuffersizeproperty.md)</td>
+<td><a href="mfpkey-reencendbuffersizeproperty"><strong>MFPKEY_REENCENDBUFFERSIZE</strong></a></td>
 <td>For segment re-encoding, specifies the buffer size.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_REENCDURATION</strong>](mfpkey-reencdurationproperty.md)</td>
+<td><a href="mfpkey-reencdurationproperty"><strong>MFPKEY_REENCDURATION</strong></a></td>
 <td>For segment re-encoding, specifies the duration of the segment to be re-encoded.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_REENCQPREF</strong>](mfpkey-reencqprefproperty.md)</td>
+<td><a href="mfpkey-reencqprefproperty"><strong>MFPKEY_REENCQPREF</strong></a></td>
 <td>For segment re-encoding, specifies the quantizer of the frame prior to the starting segment.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_REENCSTARTBUFFERSIZE</strong>](mfpkey-reencstartbuffersizeproperty.md)</td>
+<td><a href="mfpkey-reencstartbuffersizeproperty"><strong>MFPKEY_REENCSTARTBUFFERSIZE</strong></a></td>
 <td>For segment re-encoding, specifies the starting buffer fullness.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_RMAX</strong>](mfpkey-rmaxproperty.md)</td>
+<td><a href="mfpkey-rmaxproperty"><strong>MFPKEY_RMAX</strong></a></td>
 <td>Specifies the peak bit rate, in bits per second, used for constrained 2-pass variable-bit-rate (VBR).<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_TOTALFRAMES</strong>](mfpkey-totalframesproperty.md)</td>
+<td><a href="mfpkey-totalframesproperty"><strong>MFPKEY_TOTALFRAMES</strong></a></td>
 <td>Specifies the number of video frames passed to the encoder during the encoding process.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_VBRENABLED</strong>](mfpkey-vbrenabledproperty.md)</td>
+<td><a href="mfpkey-vbrenabledproperty"><strong>MFPKEY_VBRENABLED</strong></a></td>
 <td>Specifies whether the codec will use variable-bit-rate (VBR) encoding.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_VBRQUALITY</strong>](mfpkey-vbrqualityproperty.md)</td>
+<td><a href="mfpkey-vbrqualityproperty"><strong>MFPKEY_VBRQUALITY</strong></a></td>
 <td>Specifies the actual quality level for quality based (1-pass) variable-bit-rate (VBR) encoding.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_VIDEOSCALING</strong>](mfpkey-videoscalingproperty.md)</td>
+<td><a href="mfpkey-videoscalingproperty"><strong>MFPKEY_VIDEOSCALING</strong></a></td>
 <td>Specifies whether the codec will use video scaling optimization.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_VIDEOWINDOW</strong>](mfpkey-videowindowproperty.md)</td>
+<td><a href="mfpkey-videowindowproperty"><strong>MFPKEY_VIDEOWINDOW</strong></a></td>
 <td>Specifies the amount of content, in milliseconds, that can fit into the model buffer.<br/> <dl> Windows XP and later.<br />
 Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_VOLHEADERFORREENCODE</strong>](mfpkey-volheaderforreencodeproperty.md)</td>
+<td><a href="mfpkey-volheaderforreencodeproperty"><strong>MFPKEY_VOLHEADERFORREENCODE</strong></a></td>
 <td>For segment re-encoding, specifies the codec private data of the file that is being re-encoded.<br/> <dl> Windows Vista and later.<br />
 Simple Profile, Main Profile, Advanced Profile, Image.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_VTYPE</strong>](mfpkey-vtypeproperty.md)</td>
+<td><a href="mfpkey-vtypeproperty"><strong>MFPKEY_VTYPE</strong></a></td>
 <td>Specifies the type of logic that the codec will use to detect interlaced source video.<br/> <dl> Windows XP and later.<br />
 Advanced Profile.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_ZEROBYTEFRAMES</strong>](mfpkey-zerobyteframesproperty.md)</td>
+<td><a href="mfpkey-zerobyteframesproperty"><strong>MFPKEY_ZEROBYTEFRAMES</strong></a></td>
 <td>Specifies the number of video frames that were skipped because they were duplicates of previous frames.<br/> <dl> Windows XP and later.<br />
 Simple Profile, Main Profile, Advanced Profile.<br />
 Read-only<br />

@@ -1,7 +1,7 @@
 ---
 title: Texture2DArray Gather methods
 description: Samples a Texture2DArray and returns all four components.
-ms.assetid: b0355158-01c8-45a1-bb5d-29a8c43b1685
+ms.assetid: 'eea1dd00-0061-4601-a218-979eb0ecd36d'
 keywords:
 - Gather methods HLSL
 topic_type:

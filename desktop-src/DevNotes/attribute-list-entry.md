@@ -1,7 +1,7 @@
 ---
 Description: Represents an entry in the attribute list.
 ms.assetid: daa0c97d-2ebe-4e14-b1f8-e4be3075b13e
-title: ATTRIBUTE\_LIST\_ENTRY structure
+title: ATTRIBUTE_LIST_ENTRY structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

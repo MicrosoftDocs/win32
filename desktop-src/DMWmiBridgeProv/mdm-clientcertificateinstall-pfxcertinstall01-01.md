@@ -1,5 +1,5 @@
 ---
-title: MDM\_ClientCertificateInstall\_PFXCertInstall01\_01 class
+title: MDM_ClientCertificateInstall_PFXCertInstall01_01 class
 description: The MDM\_ClientCertificateInstall\_PFXCertInstall01\_01 class enables the enterprise to use unique IDs to differentiate different certificate install requests.
 ms.assetid: 13b4d646-b49e-4a9d-b644-b52279249063
 keywords:

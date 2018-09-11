@@ -1,7 +1,7 @@
 ---
 Description: Contains a pointer to the DXGI Device Manager for the Sink Writer.
 ms.assetid: 0328FC02-2D32-480B-BB03-9C78BF317AF5
-title: MF\_SINK\_WRITER\_D3D\_MANAGER attribute
+title: MF_SINK_WRITER_D3D_MANAGER attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

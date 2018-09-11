@@ -1,7 +1,7 @@
 ---
 title: Pushed File
 description: Pushed File
-ms.assetid: 3b72171a-f235-4eb3-ae1a-3c9ece569edd
+ms.assetid: 'bea803d2-1237-4983-9673-afdcddc32748'
 keywords:
 - Windows Media Player Mobile skins,art files
 - skins,art files

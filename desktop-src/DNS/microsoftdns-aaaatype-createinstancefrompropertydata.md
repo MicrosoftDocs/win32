@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_AAAAType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_AAAAType class
 description: The CreateInstanceFromPropertyData method instantiates an IPv6 address (AAAA) Resource Record.
 ms.assetid: 3f2774d8-1eb6-4300-95e2-f918fc6612e0
 keywords:

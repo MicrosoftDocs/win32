@@ -1,5 +1,5 @@
 ---
-title: FindLicenseServers method of the Win32\_TerminalServiceSetting class
+title: FindLicenseServers method of the Win32_TerminalServiceSetting class
 description: Enumerates all of the Remote Desktop license servers, and the method of discovery.
 audience: developer
 author: REDMOND\\markl

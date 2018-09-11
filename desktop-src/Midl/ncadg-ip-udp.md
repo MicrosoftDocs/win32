@@ -1,5 +1,5 @@
 ---
-title: ncadg\_ip\_udp attribute
+title: ncadg_ip_udp attribute
 description: The ncadg\_ip\_udp keyword identifies the datagram version of TCP/IP as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: c9133fcc-6dc2-49da-9c6f-5ce3c51090d5
 keywords:

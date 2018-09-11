@@ -1,7 +1,7 @@
 ---
 title: RunningTaskCollection.Item property
 description: For scripting, gets the specified task from the collection.
-ms.assetid: e82e7e1b-a3bd-4456-85a9-e0005f954618
+ms.assetid: '8b0745da-a11f-426c-9d52-f59d188e0e86'
 keywords:
 - Item property Task Scheduler
 - Item property Task Scheduler , RunningTaskCollection object

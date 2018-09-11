@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the CreateEncoder method.
 ms.assetid: e3ffad7f-eb0e-481d-81ee-caf18e14ba59
-title: IWICImagingFactory\_CreateEncoder\_Proxy function
+title: IWICImagingFactory_CreateEncoder_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

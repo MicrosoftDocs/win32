@@ -1,5 +1,5 @@
 ---
-title: ld\_structured (sm5 - asm)
+title: ld_structured (sm5 - asm)
 description: Random-access read of 1-4 32bit components from a structured buffer.
 ms.assetid: ED572B76-FF6C-405E-9110-4B12AD5E5AE6
 ms.technology: desktop

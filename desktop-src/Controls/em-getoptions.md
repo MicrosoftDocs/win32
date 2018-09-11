@@ -1,5 +1,5 @@
 ---
-title: EM\_GETOPTIONS message
+title: EM_GETOPTIONS message
 description: Retrieves rich edit control options.
 ms.assetid: 183f0fed-8666-4ed5-ac48-362c818378d2
 keywords:

@@ -235,885 +235,885 @@ The following APIs are either deprecated or superseded by newer APIs.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>AUTO_SCROLL_DATA</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-auto_scroll_data)<br/></td>
-<td>[<strong>AUTO_SCROLL_DATA</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-auto_scroll_data) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-auto_scroll_data"><strong>AUTO_SCROLL_DATA</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-auto_scroll_data"><strong>AUTO_SCROLL_DATA</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CABINETSTATE</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-cabinetstate)<br/></td>
-<td>[<strong>CABINETSTATE</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-cabinetstate) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-cabinetstate"><strong>CABINETSTATE</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-cabinetstate"><strong>CABINETSTATE</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DESKBANDINFO</strong>](/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo)<br/></td>
-<td>Receives information about a band object. This structure is used with the deprecated [<strong>IDeskBand::GetBandInfo</strong>](https://msdn.microsoft.com/en-us/library/Bb762066(v=VS.85).aspx) method.<br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo"><strong>DESKBANDINFO</strong></a><br/></td>
+<td>Receives information about a band object. This structure is used with the deprecated <a href="https://msdn.microsoft.com/en-us/library/Bb762066(v=VS.85).aspx"><strong>IDeskBand::GetBandInfo</strong></a> method.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SECURELOCK</strong>](https://msdn.microsoft.com/en-us/library/Bb762536(v=VS.85).aspx)<br/></td>
-<td>Deprecated. This enumeration is used by the [<strong>BASEBROWSERDATA</strong>](/windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh) structure to indicate the base browser's lock icon status.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762536(v=VS.85).aspx"><strong>SECURELOCK</strong></a><br/></td>
+<td>Deprecated. This enumeration is used by the <a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh"><strong>BASEBROWSERDATA</strong></a> structure to indicate the base browser's lock icon status.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>FOLDERSETDATA</strong>](/windows/desktop/api/Shdeprecated/ns-shdeprecated-tagfoldersetdata)<br/></td>
-<td>Deprecated. Data used in [<strong>IBrowserService2::GetFolderSetData</strong>](/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-getfoldersetdata).<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-tagfoldersetdata"><strong>FOLDERSETDATA</strong></a><br/></td>
+<td>Deprecated. Data used in <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-getfoldersetdata"><strong>IBrowserService2::GetFolderSetData</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>TOOLBARITEM</strong>](/windows/desktop/api/Shdeprecated/ns-shdeprecated-stoolbaritem)<br/></td>
-<td>Deprecated. Data used in [<strong>IBrowserService2::_GetToolbarItem</strong>](/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem), [<strong>IBrowserService2::v_MayGetNextToolbarFocus</strong>](/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus), and [<strong>IBrowserService2::_SetFocus</strong>](/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus) to define a toolbar item.<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-stoolbaritem"><strong>TOOLBARITEM</strong></a><br/></td>
+<td>Deprecated. Data used in <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem"><strong>IBrowserService2::_GetToolbarItem</strong></a>, <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus"><strong>IBrowserService2::v_MayGetNextToolbarFocus</strong></a>, and <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus"><strong>IBrowserService2::_SetFocus</strong></a> to define a toolbar item.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>AddMRUStringW</strong>](addmrustring.md)<br/></td>
+<td><a href="addmrustring"><strong>AddMRUStringW</strong></a><br/></td>
 <td>Adds a string to the top of the most recently used (MRU) list.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CallCPLEntry16</strong>](https://msdn.microsoft.com/en-us/library/Bb776387(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776387(v=VS.85).aspx"><strong>CallCPLEntry16</strong></a><br/></td>
 <td>Performs no function. Provided for backward compatibility.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CanShareFolderW</strong>](cansharefolderw.md)<br/></td>
+<td><a href="cansharefolderw"><strong>CanShareFolderW</strong></a><br/></td>
 <td>Used to determine whether to show the <strong>Share this folder</strong> option in web view.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CharLowerWrapW</strong>](charlowerwrapw.md)<br/></td>
+<td> <a href="charlowerwrapw"><strong>CharLowerWrapW</strong></a><br/></td>
 <td>Converts a Unicode character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>CharLowerWrapW</strong>](charlowerwrapw.md) is a wrapper for the <strong>CharLowerW</strong> function. See the [<strong>CharLower</strong>](https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx) page for further usage notes.
+ <a href="charlowerwrapw"><strong>CharLowerWrapW</strong></a> is a wrapper for the <strong>CharLowerW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx"><strong>CharLower</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharUpperBuffWrapW</strong>](charupperbuffwrapw.md)<br/></td>
+<td> <a href="charupperbuffwrapw"><strong>CharUpperBuffWrapW</strong></a><br/></td>
 <td>Converts lowercase characters in a buffer to uppercase characters. The function converts the characters in place. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>CharUpperBuffWrapW</strong>](charupperbuffwrapw.md) is a wrapper for the <strong>CharUpperBuffW</strong> function. See the [<strong>CharUpperBuff</strong>](https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx) page for further usage notes.
+ <a href="charupperbuffwrapw"><strong>CharUpperBuffWrapW</strong></a> is a wrapper for the <strong>CharUpperBuffW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx"><strong>CharUpperBuff</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CIDLData_CreateFromIDArray</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-cidldata_createfromidarray)<br/></td>
-<td>[<strong>CIDLData_CreateFromIDArray</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-cidldata_createfromidarray) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-cidldata_createfromidarray"><strong>CIDLData_CreateFromIDArray</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-cidldata_createfromidarray"><strong>CIDLData_CreateFromIDArray</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CompareStringWrapW</strong>](comparestringwrapw.md)<br/></td>
+<td> <a href="comparestringwrapw"><strong>CompareStringWrapW</strong></a><br/></td>
 <td>Compares two Unicode character strings, using a specified locale. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>CompareStringWrapW</strong>](comparestringwrapw.md) is a wrapper for the <strong>CompareStringW</strong> function. See the [<strong>CompareString</strong>](https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx) page for further usage notes.
+ <a href="comparestringwrapw"><strong>CompareStringWrapW</strong></a> is a wrapper for the <strong>CompareStringW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx"><strong>CompareString</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ConnectToConnectionPoint</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-connecttoconnectionpoint)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-connecttoconnectionpoint"><strong>ConnectToConnectionPoint</strong></a><br/></td>
 <td>Establishes or terminates a connection between a client's sink and a connection point container.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateHardwareEventMoniker</strong>](createhardwareeventmoniker.md)<br/></td>
+<td><a href="createhardwareeventmoniker"><strong>CreateHardwareEventMoniker</strong></a><br/></td>
 <td>Creates a moniker representing a hardware component and its associated event handler. AutoPlay uses this function to allow applications to use AutoPlay events.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateUserProfileEx</strong>](createuserprofileex.md)<br/></td>
+<td><a href="createuserprofileex"><strong>CreateUserProfileEx</strong></a><br/></td>
 <td>Creates a user profile for a specified user. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CscSearchApiGetInterface</strong>](https://msdn.microsoft.com/en-us/library/Cc448310(v=VS.85).aspx)<br/></td>
-<td>Creates an instance of a [<strong>CCscSearchApiInterface</strong>](https://msdn.microsoft.com/en-us/library/Cc448312(v=VS.85).aspx) object.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Cc448310(v=VS.85).aspx"><strong>CscSearchApiGetInterface</strong></a><br/></td>
+<td>Creates an instance of a <a href="https://msdn.microsoft.com/en-us/library/Cc448312(v=VS.85).aspx"><strong>CCscSearchApiInterface</strong></a> object.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DAD_AutoScroll</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll"><strong>DAD_AutoScroll</strong></a><br/></td>
 <td>Scrolls the window while an image is being dragged.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DAD_DragEnterEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex"><strong>DAD_DragEnterEx</strong></a><br/></td>
 <td>Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DAD_DragEnterEx2</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2"><strong>DAD_DragEnterEx2</strong></a><br/></td>
 <td>Locks updates to the specified window during a drag-and-drop operation and displays the drag image at the specified position within the window.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DAD_DragLeave</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave)<br/></td>
-<td>Unlocks the window locked by the [<strong>DAD_DragEnterEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex) function. <br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave"><strong>DAD_DragLeave</strong></a><br/></td>
+<td>Unlocks the window locked by the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex"><strong>DAD_DragEnterEx</strong></a> function. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DAD_DragMove</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove"><strong>DAD_DragMove</strong></a><br/></td>
 <td>Moves the image that is being dragged during a drag-and-drop operation.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DAD_SetDragImage</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage"><strong>DAD_SetDragImage</strong></a><br/></td>
 <td>Sets the drag image.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DAD_ShowDragImage</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage"><strong>DAD_ShowDragImage</strong></a><br/></td>
 <td>Shows or hides the image being dragged.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DoEnvironmentSubst</strong>](/windows/desktop/api/Shellapi/nf-shellapi-doenvironmentsubsta)<br/></td>
+<td><a href="/windows/desktop/api/Shellapi/nf-shellapi-doenvironmentsubsta"><strong>DoEnvironmentSubst</strong></a><br/></td>
 <td>Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DriveType</strong>](https://msdn.microsoft.com/en-us/library/Bb776410(v=VS.85).aspx)<br/></td>
-<td>[<strong>DriveType</strong>](https://msdn.microsoft.com/en-us/library/Bb776410(v=VS.85).aspx) may be altered or unavailable.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776410(v=VS.85).aspx"><strong>DriveType</strong></a><br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776410(v=VS.85).aspx"><strong>DriveType</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EnumMRUListW</strong>](enummrulist.md)<br/></td>
+<td><a href="enummrulist"><strong>EnumMRUListW</strong></a><br/></td>
 <td>Enumerates the contents of the MRU list. Optionally retrieves an item from the enumeration.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>EstimateFileRiskLevel</strong>](estimatefilerisklevel.md)<br/></td>
+<td><a href="estimatefilerisklevel"><strong>EstimateFileRiskLevel</strong></a><br/></td>
 <td>Estimates the risk of executing unknown code when a handler is called on a given file. This risk is based on an understanding of the handler and the code content of the file.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ExtractAssociatedIconEx</strong>](/windows/desktop/api/Shellapi/nf-shellapi-extractassociatediconexa)<br/></td>
-<td>[<strong>ExtractAssociatedIconEx</strong>](/windows/desktop/api/Shellapi/nf-shellapi-extractassociatediconexa) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shellapi/nf-shellapi-extractassociatediconexa"><strong>ExtractAssociatedIconEx</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shellapi/nf-shellapi-extractassociatediconexa"><strong>ExtractAssociatedIconEx</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>FindResourceWrapW</strong>](findresourcewrapw.md)<br/></td>
+<td><a href="findresourcewrapw"><strong>FindResourceWrapW</strong></a><br/></td>
 <td>Determines the location of a resource with the specified type and name, in the specified module. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>FindResourceWrapW</strong>](findresourcewrapw.md) is a wrapper for the <strong>FindResourceW</strong> function. See [<strong>FindResource</strong>](https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx) for further usage notes.
+<a href="findresourcewrapw"><strong>FindResourceWrapW</strong></a> is a wrapper for the <strong>FindResourceW</strong> function. See <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx"><strong>FindResource</strong></a> for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetDateFormatWrapW</strong>](getdateformatwrapw.md)<br/></td>
+<td><a href="getdateformatwrapw"><strong>GetDateFormatWrapW</strong></a><br/></td>
 <td>Formats a date as a date string for a specified locale. The function formats either a specified date or the local system date. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>GetDateFormatWrapW</strong>](getdateformatwrapw.md) is a wrapper for the <strong>GetDateFormatW</strong> function. See the [<strong>GetDateFormat</strong>](https://msdn.microsoft.com/en-us/library/Dd318086(v=VS.85).aspx) page for further usage notes.
+<a href="getdateformatwrapw"><strong>GetDateFormatWrapW</strong></a> is a wrapper for the <strong>GetDateFormatW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Dd318086(v=VS.85).aspx"><strong>GetDateFormat</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetFileNameFromBrowse</strong>](https://msdn.microsoft.com/en-us/library/Bb776427(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776427(v=VS.85).aspx"><strong>GetFileNameFromBrowse</strong></a><br/></td>
 <td>Creates an <strong>Open</strong> dialog box so that the user can specify the drive, directory, and name of a file to open.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetMenuPosFromID</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-getmenuposfromid)<br/></td>
-<td>[<strong>GetMenuPosFromID</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-getmenuposfromid) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-getmenuposfromid"><strong>GetMenuPosFromID</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-getmenuposfromid"><strong>GetMenuPosFromID</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetTimeFormatWrapW</strong>](gettimeformatwrapw.md)<br/></td>
+<td><a href="gettimeformatwrapw"><strong>GetTimeFormatWrapW</strong></a><br/></td>
 <td>Formats time as a time string for a specified locale. The function formats either a specified time or the local system time. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>GetTimeFormatWrapW</strong>](gettimeformatwrapw.md) is a wrapper for the <strong>GetTimeFormatW</strong> function. See the [<strong>GetTimeFormat</strong>](https://msdn.microsoft.com/en-us/library/Dd318130(v=VS.85).aspx) page for further usage notes.
+<a href="gettimeformatwrapw"><strong>GetTimeFormatWrapW</strong></a> is a wrapper for the <strong>GetTimeFormatW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Dd318130(v=VS.85).aspx"><strong>GetTimeFormat</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GUIDFromString</strong>](guidfromstring.md)<br/></td>
+<td><a href="guidfromstring"><strong>GUIDFromString</strong></a><br/></td>
 <td>Converts a string to a GUID.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ILLoadFromStream</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstream)<br/></td>
-<td>Deprecated. Loads an [<strong>ITEMIDLIST</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure from a stream.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstream"><strong>ILLoadFromStream</strong></a><br/></td>
+<td>Deprecated. Loads an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure from a stream.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ILLoadFromStreamEx(IStream*, PIDLIST_ABSOLUTE*)</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstreamex)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstreamex"><strong>ILLoadFromStreamEx(IStream*, PIDLIST_ABSOLUTE*)</strong></a><br/></td>
 <td>This function may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ILLoadFromStreamEx(IStream*, PIDLIST_RELATIVE*)</strong>](https://msdn.microsoft.com/en-us/library/Bb776452(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776452(v=VS.85).aspx"><strong>ILLoadFromStreamEx(IStream*, PIDLIST_RELATIVE*)</strong></a><br/></td>
 <td>This function may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ILLoadFromStreamEx(IStream*, PITEMID_CHILD*)</strong>](https://msdn.microsoft.com/en-us/library/Bb776453(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776453(v=VS.85).aspx"><strong>ILLoadFromStreamEx(IStream*, PITEMID_CHILD*)</strong></a><br/></td>
 <td>This function may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IsCharAlphaNumericWrapW</strong>](ischaralphanumericwrapw.md)<br/></td>
+<td><a href="ischaralphanumericwrapw"><strong>IsCharAlphaNumericWrapW</strong></a><br/></td>
 <td>Determines whether a character is either an alphabetical or a numeric character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IsCharAlphaNumericWrapW</strong>](ischaralphanumericwrapw.md) is a wrapper for the <strong>IsCharAlphaNumericW</strong> function. See the [<strong>IsCharAlphaNumeric</strong>](https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx) page for further usage notes.
+<a href="ischaralphanumericwrapw"><strong>IsCharAlphaNumericWrapW</strong></a> is a wrapper for the <strong>IsCharAlphaNumericW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx"><strong>IsCharAlphaNumeric</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IsNetDrive</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-isnetdrive)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-isnetdrive"><strong>IsNetDrive</strong></a><br/></td>
 <td>Tests whether a drive is a network drive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IsUserAnAdmin</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-isuseranadmin)<br/></td>
-<td>[<strong>IsUserAnAdmin</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-isuseranadmin) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-isuseranadmin"><strong>IsUserAnAdmin</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-isuseranadmin"><strong>IsUserAnAdmin</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>LPFNDFMCALLBACK</strong>](https://msdn.microsoft.com/en-us/library/Bb776770(v=VS.85).aspx)<br/></td>
-<td>[<strong>LPFNDFMCALLBACK</strong>](https://msdn.microsoft.com/en-us/library/Bb776770(v=VS.85).aspx) may be altered or unavailable.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776770(v=VS.85).aspx"><strong>LPFNDFMCALLBACK</strong></a><br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776770(v=VS.85).aspx"><strong>LPFNDFMCALLBACK</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>LPFNVIEWCALLBACK</strong>](https://msdn.microsoft.com/en-us/library/Bb776771(v=VS.85).aspx)<br/></td>
-<td>Defines the prototype for the callback function used by the system folder view object. This function essentially duplicates the functionality of [<strong>IShellFolderViewCB</strong>](https://msdn.microsoft.com/en-us/library/Bb774967(v=VS.85).aspx).<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776771(v=VS.85).aspx"><strong>LPFNVIEWCALLBACK</strong></a><br/></td>
+<td>Defines the prototype for the callback function used by the system folder view object. This function essentially duplicates the functionality of <a href="https://msdn.microsoft.com/en-us/library/Bb774967(v=VS.85).aspx"><strong>IShellFolderViewCB</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>LinkWindow_RegisterClass</strong>](linkwindow-registerclass.md)<br/></td>
-<td>Registers a window class that allows for the [SysLink](https://msdn.microsoft.com/library/Bb760706(v=VS.85).aspx) common control to be used in a window.<br/></td>
+<td><a href="linkwindow-registerclass"><strong>LinkWindow_RegisterClass</strong></a><br/></td>
+<td>Registers a window class that allows for the <a href="https://msdn.microsoft.com/library/Bb760706(v=VS.85).aspx">SysLink</a> common control to be used in a window.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>LinkWindow_UnregisterClass</strong>](linkwindow-unregisterclass.md)<br/></td>
-<td>Unregisters a window class registered by [<strong>LinkWindow_RegisterClass</strong>](linkwindow-registerclass.md).<br/></td>
+<td><a href="linkwindow-unregisterclass"><strong>LinkWindow_UnregisterClass</strong></a><br/></td>
+<td>Unregisters a window class registered by <a href="linkwindow-registerclass"><strong>LinkWindow_RegisterClass</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MLFreeLibrary</strong>](https://msdn.microsoft.com/en-us/library/Bb773819(v=VS.85).aspx)<br/></td>
-<td>Unmaps a resource DLL loaded by the [<strong>MLLoadLibrary</strong>](https://msdn.microsoft.com/en-us/library/Bb773822(v=VS.85).aspx) function. <br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb773819(v=VS.85).aspx"><strong>MLFreeLibrary</strong></a><br/></td>
+<td>Unmaps a resource DLL loaded by the <a href="https://msdn.microsoft.com/en-us/library/Bb773822(v=VS.85).aspx"><strong>MLLoadLibrary</strong></a> function. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MLHtmlHelp</strong>](mlhtmlhelp.md)<br/></td>
+<td><a href="mlhtmlhelp"><strong>MLHtmlHelp</strong></a><br/></td>
 <td>Displays a help window that corresponds to the current UI language setting.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MLLoadLibrary</strong>](https://msdn.microsoft.com/en-us/library/Bb773822(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb773822(v=VS.85).aspx"><strong>MLLoadLibrary</strong></a><br/></td>
 <td>Maps an appropriate resource DLL into the address space of the calling function, based on the user's default UI language. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MLWinHelp</strong>](mlwinhelp.md)<br/></td>
+<td><a href="mlwinhelp"><strong>MLWinHelp</strong></a><br/></td>
 <td>Starts Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>OpenRegStream</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-openregstream)<br/></td>
-<td>[<strong>OpenRegStream</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-openregstream) may be altered or unavailable. Instead, use [<strong>SHOpenRegStream2</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstream2a) or [<strong>SHOpenRegStream</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstreama).<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-openregstream"><strong>OpenRegStream</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-openregstream"><strong>OpenRegStream</strong></a> may be altered or unavailable. Instead, use <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstream2a"><strong>SHOpenRegStream2</strong></a> or <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstreama"><strong>SHOpenRegStream</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>OutputDebugStringWrapW</strong>](outputdebugstringwrapw.md)<br/></td>
+<td><a href="outputdebugstringwrapw"><strong>OutputDebugStringWrapW</strong></a><br/></td>
 <td>Sends a Unicode string to the debugger for display.<br/>
 <blockquote>
 [!Note]<br />
-[<strong>OutputDebugStringWrapW</strong>](outputdebugstringwrapw.md) is a wrapper for the <strong>OutputDebugStringW</strong> function. See the [<strong>OutputDebugString</strong>](https://msdn.microsoft.com/en-us/library/Aa363362(v=VS.85).aspx) page for further usage notes.
+<a href="outputdebugstringwrapw"><strong>OutputDebugStringWrapW</strong></a> is a wrapper for the <strong>OutputDebugStringW</strong> function. See the <a href="https://msdn.microsoft.com/en-us/library/Aa363362(v=VS.85).aspx"><strong>OutputDebugString</strong></a> page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ParseField</strong>](parsefield.md)<br/></td>
+<td><a href="parsefield"><strong>ParseField</strong></a><br/></td>
 <td>Reads a line from Setup.inf and extracts the specified field from the string. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>PassportWizardRunDll</strong>](passportwizardrundll.md)<br/></td>
+<td><a href="passportwizardrundll"><strong>PassportWizardRunDll</strong></a><br/></td>
 <td>Launches the Passport Wizard when used with Rundll32.exe.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>PathCleanupSpec</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pathcleanupspec)<br/></td>
-<td>[<strong>PathCleanupSpec</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pathcleanupspec) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pathcleanupspec"><strong>PathCleanupSpec</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pathcleanupspec"><strong>PathCleanupSpec</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>PathGetShortPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pathgetshortpath)<br/></td>
-<td>[<strong>PathGetShortPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pathgetshortpath) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pathgetshortpath"><strong>PathGetShortPath</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pathgetshortpath"><strong>PathGetShortPath</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>PathIsExe</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pathisexe)<br/></td>
-<td>[<strong>PathIsExe</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pathisexe) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pathisexe"><strong>PathIsExe</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pathisexe"><strong>PathIsExe</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>PathIsSlow</strong>](/windows/desktop/api/Shlobj/nf-shlobj-pathisslowa)<br/></td>
-<td>[<strong>PathIsSlow</strong>](/windows/desktop/api/Shlobj/nf-shlobj-pathisslowa) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-pathisslowa"><strong>PathIsSlow</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-pathisslowa"><strong>PathIsSlow</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>PathProcessCommand</strong>](/windows/desktop/api/Shlobj/nf-shlobj-pathprocesscommand)<br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-pathprocesscommand"><strong>PathProcessCommand</strong></a><br/></td>
 <td>Deprecated. Processes a string that contains a command line and generates a suitably quoted string, with arguments attached if required.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>PathResolve</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pathresolve)<br/></td>
-<td>[<strong>PathResolve</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pathresolve) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pathresolve"><strong>PathResolve</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pathresolve"><strong>PathResolve</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>PerUserInit</strong>](/windows/desktop/api/Shlobj/nf-shlobj-peruserinit)<br/></td>
-<td>Creates [My Documents](manage.md) and other special folders, initializes them as needed, and creates the <strong>Send To</strong> shortcut menu item for My Documents. <br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-peruserinit"><strong>PerUserInit</strong></a><br/></td>
+<td>Creates <a href="manage">My Documents</a> and other special folders, initializes them as needed, and creates the <strong>Send To</strong> shortcut menu item for My Documents. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>PFNASYNCICONTASKCALLBACK</strong>](https://msdn.microsoft.com/en-us/library/Bb776773(v=VS.85).aspx)<br/></td>
-<td>Defines the prototype for the callback function used by [<strong>SHMapIDListToImageListIndexAsync</strong>](https://msdn.microsoft.com/en-us/library/Bb762218(v=VS.85).aspx). <br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776773(v=VS.85).aspx"><strong>PFNASYNCICONTASKCALLBACK</strong></a><br/></td>
+<td>Defines the prototype for the callback function used by <a href="https://msdn.microsoft.com/en-us/library/Bb762218(v=VS.85).aspx"><strong>SHMapIDListToImageListIndexAsync</strong></a>. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>PickIconDlg</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pickicondlg)<br/></td>
-<td>[<strong>PickIconDlg</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-pickicondlg) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pickicondlg"><strong>PickIconDlg</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pickicondlg"><strong>PickIconDlg</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ReadCabinetState</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-readcabinetstate)<br/></td>
-<td>[<strong>ReadCabinetState</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-readcabinetstate) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-readcabinetstate"><strong>ReadCabinetState</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-readcabinetstate"><strong>ReadCabinetState</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RealDriveType</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype)<br/></td>
-<td>[<strong>RealDriveType</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype"><strong>RealDriveType</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-realdrivetype"><strong>RealDriveType</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>RestartDialog</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-restartdialog)<br/></td>
-<td>Displays a dialog box that prompts the user to restart Windows. When the user clicks the button, the function calls [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/en-us/library/Aa376868(v=VS.85).aspx) to attempt to restart Windows.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-restartdialog"><strong>RestartDialog</strong></a><br/></td>
+<td>Displays a dialog box that prompts the user to restart Windows. When the user clicks the button, the function calls <a href="https://msdn.microsoft.com/en-us/library/Aa376868(v=VS.85).aspx"><strong>ExitWindowsEx</strong></a> to attempt to restart Windows.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>RestartDialogEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-restartdialogex)<br/></td>
-<td>Displays a dialog box that asks the user to restart Windows. When the user clicks the button, the function calls [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/en-us/library/Aa376868(v=VS.85).aspx) to attempt to restart Windows.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-restartdialogex"><strong>RestartDialogEx</strong></a><br/></td>
+<td>Displays a dialog box that asks the user to restart Windows. When the user clicks the button, the function calls <a href="https://msdn.microsoft.com/en-us/library/Aa376868(v=VS.85).aspx"><strong>ExitWindowsEx</strong></a> to attempt to restart Windows.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHAddFromPropSheetExtArray</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddfrompropsheetextarray)<br/></td>
-<td>Adds pages to a property sheet extension array created by [<strong>SHCreatePropSheetExtArray</strong>](/windows/desktop/api/Shlobj/nf-shlobj-shcreatepropsheetextarray).<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddfrompropsheetextarray"><strong>SHAddFromPropSheetExtArray</strong></a><br/></td>
+<td>Adds pages to a property sheet extension array created by <a href="/windows/desktop/api/Shlobj/nf-shlobj-shcreatepropsheetextarray"><strong>SHCreatePropSheetExtArray</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHAlloc</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc"><strong>SHAlloc</strong></a><br/></td>
 <td>Allocates memory from the Shell's heap.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHAllocShared</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shallocshared)<br/></td>
-<td>[<strong>SHAllocShared</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shallocshared) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shallocshared"><strong>SHAllocShared</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shallocshared"><strong>SHAllocShared</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHAnsiToAnsi</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shansitoansi)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shansitoansi"><strong>SHAnsiToAnsi</strong></a><br/></td>
 <td>Copies an ANSI string.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHAnsiToUnicode</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shansitounicode)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shansitounicode"><strong>SHAnsiToUnicode</strong></a><br/></td>
 <td>Converts a string from the ANSI code page to the Unicode code page.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHChangeDWORDAsIDList</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist)<br/></td>
-<td>[<strong>SHChangeDWORDAsIDList</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist"><strong>SHChangeDWORDAsIDList</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist"><strong>SHChangeDWORDAsIDList</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHChangeProductKeyAsIDList</strong>](https://msdn.microsoft.com/en-us/library/Bb759742(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb759742(v=VS.85).aspx"><strong>SHChangeProductKeyAsIDList</strong></a><br/></td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>SHChangeUpdateImageIDList</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangeupdateimageidlist)<br/></td>
-<td>[<strong>SHChangeUpdateImageIDList</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangeupdateimageidlist) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangeupdateimageidlist"><strong>SHChangeUpdateImageIDList</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangeupdateimageidlist"><strong>SHChangeUpdateImageIDList</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHCloneSpecialIDList</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shclonespecialidlist)<br/></td>
-<td>[<strong>SHCloneSpecialIDList</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shclonespecialidlist) may be altered or unavailable. Instead, use [<strong>SHGetSpecialFolderLocation</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation).<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shclonespecialidlist"><strong>SHCloneSpecialIDList</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shclonespecialidlist"><strong>SHCloneSpecialIDList</strong></a> may be altered or unavailable. Instead, use <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation"><strong>SHGetSpecialFolderLocation</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHCLSIDFromString</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shclsidfromstring)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shclsidfromstring"><strong>SHCLSIDFromString</strong></a><br/></td>
 <td>Takes the string form of a class identifier (CLSID) and creates the corresponding CLSID.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHCoCreateInstance</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcocreateinstance)<br/></td>
-<td>[<strong>SHCoCreateInstance</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcocreateinstance) may be altered or unavailable. Instead, use [<strong>CoCreateInstance</strong>](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx).<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcocreateinstance"><strong>SHCoCreateInstance</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcocreateinstance"><strong>SHCoCreateInstance</strong></a> may be altered or unavailable. Instead, use <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx"><strong>CoCreateInstance</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHCreateDirectory</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectory)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectory"><strong>SHCreateDirectory</strong></a><br/></td>
 <td>Creates a new file system folder.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHCreateDirectoryEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectoryexa)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectoryexa"><strong>SHCreateDirectoryEx</strong></a><br/></td>
 <td>Creates a new file system folder, with optional security attributes.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHCreateFileExtractIcon</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatefileextracticonw)<br/></td>
-<td>[<strong>SHCreateFileExtractIcon</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatefileextracticonw) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatefileextracticonw"><strong>SHCreateFileExtractIcon</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatefileextracticonw"><strong>SHCreateFileExtractIcon</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHCreateProcessAsUserW</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw)<br/></td>
+<td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw"><strong>SHCreateProcessAsUserW</strong></a><br/></td>
 <td>Creates a new user-mode process and its primary thread to run a specified executable file. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHCREATEPROCESSINFOW</strong>](/windows/desktop/api/Shellapi/ns-shellapi-_shcreateprocessinfow)<br/></td>
-<td>Contains the information needed by [<strong>SHCreateProcessAsUserW</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) to create a process. <br/></td>
+<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-_shcreateprocessinfow"><strong>SHCREATEPROCESSINFOW</strong></a><br/></td>
+<td>Contains the information needed by <a href="/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw"><strong>SHCreateProcessAsUserW</strong></a> to create a process. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHCreatePropSheetExtArray</strong>](/windows/desktop/api/Shlobj/nf-shlobj-shcreatepropsheetextarray)<br/></td>
-<td>[<strong>SHCreatePropSheetExtArray</strong>](/windows/desktop/api/Shlobj/nf-shlobj-shcreatepropsheetextarray) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-shcreatepropsheetextarray"><strong>SHCreatePropSheetExtArray</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-shcreatepropsheetextarray"><strong>SHCreatePropSheetExtArray</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHCreateQueryCancelAutoPlayMoniker</strong>](/windows/desktop/api/Shlobj/nf-shlobj-shcreatequerycancelautoplaymoniker)<br/></td>
-<td>Deprecated. Creates a <strong>QueryCancelAutoPlay</strong> class moniker, which can then be used to register the [<strong>IQueryCancelAutoPlay</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycancelautoplay) handler in the running object table (ROT).<br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-shcreatequerycancelautoplaymoniker"><strong>SHCreateQueryCancelAutoPlayMoniker</strong></a><br/></td>
+<td>Deprecated. Creates a <strong>QueryCancelAutoPlay</strong> class moniker, which can then be used to register the <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycancelautoplay"><strong>IQueryCancelAutoPlay</strong></a> handler in the running object table (ROT).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHCreateStdEnumFmtEtc</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatestdenumfmtetc)<br/></td>
-<td>[<strong>SHCreateStdEnumFmtEtc</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatestdenumfmtetc) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatestdenumfmtetc"><strong>SHCreateStdEnumFmtEtc</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatestdenumfmtetc"><strong>SHCreateStdEnumFmtEtc</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHCreateStreamOnFile</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatestreamonfilea)<br/></td>
-<td>[<strong>SHCreateStreamOnFile</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatestreamonfilea) may be altered or unavailable. Instead, use [<strong>SHCreateStreamOnFileEx</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatestreamonfileex).<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatestreamonfilea"><strong>SHCreateStreamOnFile</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatestreamonfilea"><strong>SHCreateStreamOnFile</strong></a> may be altered or unavailable. Instead, use <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatestreamonfileex"><strong>SHCreateStreamOnFileEx</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHDestroyPropSheetExtArray</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shdestroypropsheetextarray)<br/></td>
-<td>Frees property sheet handlers that are pointed to an array created by [<strong>SHCreatePropSheetExtArray</strong>](/windows/desktop/api/Shlobj/nf-shlobj-shcreatepropsheetextarray).<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shdestroypropsheetextarray"><strong>SHDestroyPropSheetExtArray</strong></a><br/></td>
+<td>Frees property sheet handlers that are pointed to an array created by <a href="/windows/desktop/api/Shlobj/nf-shlobj-shcreatepropsheetextarray"><strong>SHCreatePropSheetExtArray</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Shell_GetCachedImageIndex</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_getcachedimageindex)<br/></td>
-<td>[<strong>Shell_GetCachedImageIndex</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_getcachedimageindex) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_getcachedimageindex"><strong>Shell_GetCachedImageIndex</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_getcachedimageindex"><strong>Shell_GetCachedImageIndex</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>Shell_GetImageLists</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_getimagelists)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_getimagelists"><strong>Shell_GetImageLists</strong></a><br/></td>
 <td>Retrieves system image lists for large and small icons.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Shell_MergeMenus</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_mergemenus)<br/></td>
-<td>[<strong>Shell_MergeMenus</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_mergemenus) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_mergemenus"><strong>Shell_MergeMenus</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shell_mergemenus"><strong>Shell_MergeMenus</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ShellMessageBox</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellmessageboxa)<br/></td>
-<td>[<strong>ShellMessageBox</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellmessageboxa) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shellmessageboxa"><strong>ShellMessageBox</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shellmessageboxa"><strong>ShellMessageBox</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHExtractIconsW</strong>](shextracticonsw.md)<br/></td>
+<td><a href="shextracticonsw"><strong>SHExtractIconsW</strong></a><br/></td>
 <td>Creates an array of handles to icons extracted from a specified file.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHFind_InitMenuPopup</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shfind_initmenupopup)<br/></td>
-<td>[<strong>SHFind_InitMenuPopup</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shfind_initmenupopup) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shfind_initmenupopup"><strong>SHFind_InitMenuPopup</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shfind_initmenupopup"><strong>SHFind_InitMenuPopup</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHFindFiles</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shfindfiles)<br/></td>
-<td>[<strong>SHFindFiles</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shfindfiles) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shfindfiles"><strong>SHFindFiles</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shfindfiles"><strong>SHFindFiles</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHFlushClipboard</strong>](https://msdn.microsoft.com/en-us/library/Bb762167(v=VS.85).aspx)<br/></td>
-<td>Carries out the clipboard shutdown sequence. It also releases the [<strong>IDataObject</strong>](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) pointer placed on the clipboard by the [<strong>OleSetClipboard</strong>](https://msdn.microsoft.com/en-us/library/ms686623(v=VS.85).aspx) function. <br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762167(v=VS.85).aspx"><strong>SHFlushClipboard</strong></a><br/></td>
+<td>Carries out the clipboard shutdown sequence. It also releases the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx"><strong>IDataObject</strong></a> pointer placed on the clipboard by the <a href="https://msdn.microsoft.com/en-us/library/ms686623(v=VS.85).aspx"><strong>OleSetClipboard</strong></a> function. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHFlushSFCache</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shflushsfcache)<br/></td>
-<td>[<strong>SHFlushSFCache</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shflushsfcache) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shflushsfcache"><strong>SHFlushSFCache</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shflushsfcache"><strong>SHFlushSFCache</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHFormatDateTime</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shformatdatetimea)<br/></td>
-<td>[<strong>SHFormatDateTime</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shformatdatetimea) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shformatdatetimea"><strong>SHFormatDateTime</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shformatdatetimea"><strong>SHFormatDateTime</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHFormatDrive</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shformatdrive)<br/></td>
-<td>[<strong>SHFormatDrive</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shformatdrive) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shformatdrive"><strong>SHFormatDrive</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shformatdrive"><strong>SHFormatDrive</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHFree</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shfree)<br/></td>
-<td>Frees the memory allocated by [<strong>SHAlloc</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc). <br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shfree"><strong>SHFree</strong></a><br/></td>
+<td>Frees the memory allocated by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc"><strong>SHAlloc</strong></a>. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHFreeShared</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shfreeshared)<br/></td>
-<td>[<strong>SHFreeShared</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shfreeshared) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shfreeshared"><strong>SHFreeShared</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shfreeshared"><strong>SHFreeShared</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHGetAttributesFromDataObject</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetattributesfromdataobject)<br/></td>
-<td>[<strong>SHGetAttributesFromDataObject</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetattributesfromdataobject) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetattributesfromdataobject"><strong>SHGetAttributesFromDataObject</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetattributesfromdataobject"><strong>SHGetAttributesFromDataObject</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHGetFolderLocation</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation)<br/></td>
-<td>Deprecated. Retrieves the path of a folder as an [<strong>ITEMIDLIST</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation"><strong>SHGetFolderLocation</strong></a><br/></td>
+<td>Deprecated. Retrieves the path of a folder as an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHGetFolderPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha)<br/></td>
-<td>Deprecated. Gets the path of a folder identified by a [<strong>CSIDL</strong>](csidl.md) value. <br/>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha"><strong>SHGetFolderPath</strong></a><br/></td>
+<td>Deprecated. Gets the path of a folder identified by a <a href="csidl"><strong>CSIDL</strong></a> value. <br/>
 <blockquote>
 [!Note]<br />
-As of Windows Vista, this function is merely a wrapper for [<strong>SHGetKnownFolderPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath). The CSIDL value is translated to its associated [<strong>KNOWNFOLDERID</strong>](knownfolderid.md) and then <strong>SHGetKnownFolderPath</strong> is called. New applications should use the known folder system rather than the older CSIDL system, which is supported only for backward compatibility.
+As of Windows Vista, this function is merely a wrapper for <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath"><strong>SHGetKnownFolderPath</strong></a>. The CSIDL value is translated to its associated <a href="knownfolderid"><strong>KNOWNFOLDERID</strong></a> and then <strong>SHGetKnownFolderPath</strong> is called. New applications should use the known folder system rather than the older CSIDL system, which is supported only for backward compatibility.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHGetFolderPathAndSubDir</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpathandsubdira)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpathandsubdira"><strong>SHGetFolderPathAndSubDir</strong></a><br/></td>
 <td>Gets the path of a folder and appends a user-provided subfolder path.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHGetInverseCMAP</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shgetinversecmap)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shgetinversecmap"><strong>SHGetInverseCMAP</strong></a><br/></td>
 <td>Retrieves the inverse color table mapping for the halftone palette.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHGetMalloc</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetmalloc)<br/></td>
-<td>Retrieves a pointer to the Shell's [<strong>IMalloc</strong>](https://msdn.microsoft.com/en-us/library/ms678425(v=VS.85).aspx) interface. <br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetmalloc"><strong>SHGetMalloc</strong></a><br/></td>
+<td>Retrieves a pointer to the Shell's <a href="https://msdn.microsoft.com/en-us/library/ms678425(v=VS.85).aspx"><strong>IMalloc</strong></a> interface. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHGetRealIDL</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetrealidl)<br/></td>
-<td>[<strong>SHGetRealIDL</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetrealidl) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetrealidl"><strong>SHGetRealIDL</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetrealidl"><strong>SHGetRealIDL</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHGetSetFolderCustomSettings</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings)<br/></td>
-<td>[<strong>SHGetSetFolderCustomSettings</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings"><strong>SHGetSetFolderCustomSettings</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings"><strong>SHGetSetFolderCustomSettings</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHGetSetSettings</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings)<br/></td>
-<td>[<strong>SHGetSetSettings</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings"><strong>SHGetSetSettings</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings"><strong>SHGetSetSettings</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHGetShellStyleHInstance</strong>](https://msdn.microsoft.com/en-us/library/Bb762202(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762202(v=VS.85).aspx"><strong>SHGetShellStyleHInstance</strong></a><br/></td>
 <td>Deprecated. Attempts to get a handle to the Shellstyle.dll file.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHGetSpecialFolderLocation</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation)<br/></td>
-<td>[<strong>SHGetSpecialFolderLocation</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation) is not supported and may be altered or unavailable in the future. Instead, use [<strong>SHGetFolderLocation</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation).<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation"><strong>SHGetSpecialFolderLocation</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation"><strong>SHGetSpecialFolderLocation</strong></a> is not supported and may be altered or unavailable in the future. Instead, use <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation"><strong>SHGetFolderLocation</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHGetSpecialFolderPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha)<br/></td>
-<td>[<strong>SHGetSpecialFolderPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha) is not supported. Instead, use [<strong>ShGetFolderPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha).<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha"><strong>SHGetSpecialFolderPath</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha"><strong>SHGetSpecialFolderPath</strong></a> is not supported. Instead, use <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha"><strong>ShGetFolderPath</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHGetViewStatePropertyBag</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shgetviewstatepropertybag)<br/></td>
-<td>[<strong>SHGetViewStatePropertyBag</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shgetviewstatepropertybag) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shgetviewstatepropertybag"><strong>SHGetViewStatePropertyBag</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shgetviewstatepropertybag"><strong>SHGetViewStatePropertyBag</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHHandleUpdateImage</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shhandleupdateimage)<br/></td>
-<td>[<strong>SHHandleUpdateImage</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shhandleupdateimage) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shhandleupdateimage"><strong>SHHandleUpdateImage</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shhandleupdateimage"><strong>SHHandleUpdateImage</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHILCreateFromPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shilcreatefrompath)<br/></td>
-<td>[<strong>SHILCreateFromPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shilcreatefrompath) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shilcreatefrompath"><strong>SHILCreateFromPath</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shilcreatefrompath"><strong>SHILCreateFromPath</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHInvokePrinterCommand</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shinvokeprintercommanda)<br/></td>
+<td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shinvokeprintercommanda"><strong>SHInvokePrinterCommand</strong></a><br/></td>
 <td>Executes a command on a printer object. <br/>
 <blockquote>
 [!Note]<br />
-This function has been deprecated as of Windows Vista. It is recommended that, in its place, you invoke verbs on printers through [<strong>IContextMenu</strong>](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx) or [<strong>ShellExecute</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea).
+This function has been deprecated as of Windows Vista. It is recommended that, in its place, you invoke verbs on printers through <a href="https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx"><strong>IContextMenu</strong></a> or <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a>.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHIsChildOrSelf</strong>](https://msdn.microsoft.com/en-us/library/Bb773834(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb773834(v=VS.85).aspx"><strong>SHIsChildOrSelf</strong></a><br/></td>
 <td>Compares whether a window is equal to, a child of, or a descendant of, a second window.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHLimitInputEdit</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shlimitinputedit)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shlimitinputedit"><strong>SHLimitInputEdit</strong></a><br/></td>
 <td>Sets limits on valid characters for an edit control.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHLoadOLE</strong>](/windows/desktop/api/Shlobj/nf-shlobj-shloadole)<br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-shloadole"><strong>SHLoadOLE</strong></a><br/></td>
 <td>Deprecated. Provided for backward compatibility.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHLockShared</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shlockshared)<br/></td>
-<td>[<strong>SHLockShared</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shlockshared) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shlockshared"><strong>SHLockShared</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shlockshared"><strong>SHLockShared</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHMapIDListToImageListIndexAsync</strong>](https://msdn.microsoft.com/en-us/library/Bb762218(v=VS.85).aspx)<br/></td>
-<td>Retrieves an index in the system image list when given an [<strong>IShellFolder</strong>](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) and an [<strong>ITEMIDLIST</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) that is contained in it. This function also gets the final icon from the callback if necessary.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762218(v=VS.85).aspx"><strong>SHMapIDListToImageListIndexAsync</strong></a><br/></td>
+<td>Retrieves an index in the system image list when given an <a href="https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx"><strong>IShellFolder</strong></a> and an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> that is contained in it. This function also gets the final icon from the callback if necessary.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHMapPIDLToSystemImageListIndex</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shmappidltosystemimagelistindex)<br/></td>
-<td>[<strong>SHMapPIDLToSystemImageListIndex</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shmappidltosystemimagelistindex) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shmappidltosystemimagelistindex"><strong>SHMapPIDLToSystemImageListIndex</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shmappidltosystemimagelistindex"><strong>SHMapPIDLToSystemImageListIndex</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHMessageBoxCheck</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shmessageboxchecka)<br/></td>
-<td>[<strong>SHMessageBoxCheck</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shmessageboxchecka) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shmessageboxchecka"><strong>SHMessageBoxCheck</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shmessageboxchecka"><strong>SHMessageBoxCheck</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHObjectProperties</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shobjectproperties)<br/></td>
-<td>[<strong>SHObjectProperties</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shobjectproperties) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shobjectproperties"><strong>SHObjectProperties</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shobjectproperties"><strong>SHObjectProperties</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHOpenPropSheet</strong>](/windows/desktop/api/Shlobj/nf-shlobj-shopenpropsheeta)<br/></td>
-<td>[<strong>SHOpenPropSheet</strong>](/windows/desktop/api/Shlobj/nf-shlobj-shopenpropsheeta) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-shopenpropsheeta"><strong>SHOpenPropSheet</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlobj/nf-shlobj-shopenpropsheeta"><strong>SHOpenPropSheet</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHOpenRegStream</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstreama)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstreama"><strong>SHOpenRegStream</strong></a><br/></td>
 <td>Deprecated. Opens a registry value and supplies a stream that can be used to read from or write to the value. <br/>
 <blockquote>
 [!Note]<br />
-This function has been replaced by [<strong>SHOpenRegStream2</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstream2a). It is recommended that you use <strong>SHOpenRegStream2</strong> at all times.
+This function has been replaced by <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstream2a"><strong>SHOpenRegStream2</strong></a>. It is recommended that you use <strong>SHOpenRegStream2</strong> at all times.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHRegGetBoolValueFromHKCUHKLM</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shreggetboolvaluefromhkcuhklm)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shreggetboolvaluefromhkcuhklm"><strong>SHRegGetBoolValueFromHKCUHKLM</strong></a><br/></td>
 <td>Evaluates a registry key value and returns a boolean value that reflects whether the value exists and the expected state matches the actual state. This function will first check HKEY_CURRENT_USER for the requested information in the specified subkey. If the information does not exist under the HKEY_CURRENT_USER subtree it will check the HKEY_LOCAL_MACHINE subtree for the same information. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHRegGetValue</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shreggetvaluea)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shreggetvaluea"><strong>SHRegGetValue</strong></a><br/></td>
 <td>Retrieves a registry value.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHRegGetValueFromHKCUHKLM</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shreggetvaluefromhkcuhklm)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shreggetvaluefromhkcuhklm"><strong>SHRegGetValueFromHKCUHKLM</strong></a><br/></td>
 <td>Obtains specified information from the registry. This function will check HKEY_CURRENT_USER for the requested information in the specified subkey. If the information does not exist under the HKEY_CURRENT_USER subtree, the function checks the HKEY_LOCAL_MACHINE subtree for the same information. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHReplaceFromPropSheetExtArray</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shreplacefrompropsheetextarray)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shreplacefrompropsheetextarray"><strong>SHReplaceFromPropSheetExtArray</strong></a><br/></td>
 <td>Requests each property sheet in a property sheet extension array to replace pages. Each page is allowed up to one replacement.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHRestricted</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shrestricted)<br/></td>
-<td>[<strong>SHRestricted</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shrestricted) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shrestricted"><strong>SHRestricted</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shrestricted"><strong>SHRestricted</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHSetFolderPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetfolderpatha)<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetfolderpatha"><strong>SHSetFolderPath</strong></a><br/></td>
 <td>Deprecated. Assigns a new path to a system folder identified by its CSIDL.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHSendMessageBroadcast</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shsendmessagebroadcasta)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shsendmessagebroadcasta"><strong>SHSendMessageBroadcast</strong></a><br/></td>
 <td>Sends a message to all top-level windows in the system.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHShellFolderView_Message</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shshellfolderview_message)<br/></td>
-<td>[<strong>SHShellFolderView_Message</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shshellfolderview_message) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shshellfolderview_message"><strong>SHShellFolderView_Message</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shshellfolderview_message"><strong>SHShellFolderView_Message</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHSimpleIDListFromPath</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shsimpleidlistfrompath)<br/></td>
-<td>Deprecated. Returns a pointer to an [<strong>ITEMIDLIST</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure when passed a path.<br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shsimpleidlistfrompath"><strong>SHSimpleIDListFromPath</strong></a><br/></td>
+<td>Deprecated. Returns a pointer to an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure when passed a path.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHStartNetConnectionDialog</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shstartnetconnectiondialoga)<br/></td>
-<td>[<strong>SHStartNetConnectionDialog</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shstartnetconnectiondialoga) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shstartnetconnectiondialoga"><strong>SHStartNetConnectionDialog</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shstartnetconnectiondialoga"><strong>SHStartNetConnectionDialog</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHStripMneumonic</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shstripmneumonica)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shstripmneumonica"><strong>SHStripMneumonic</strong></a><br/></td>
 <td>Removes the mnemonic marker from a string.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHUnicodeToAnsi</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shunicodetoansi)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shunicodetoansi"><strong>SHUnicodeToAnsi</strong></a><br/></td>
 <td>Converts a string from the Unicode code page to the ANSI code page.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHUnicodeToUnicode</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shunicodetounicode)<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shunicodetounicode"><strong>SHUnicodeToUnicode</strong></a><br/></td>
 <td>Copies a Unicode string.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHUnlockShared</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shunlockshared)<br/></td>
-<td>[<strong>SHUnlockShared</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-shunlockshared) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shunlockshared"><strong>SHUnlockShared</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shunlockshared"><strong>SHUnlockShared</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHValidateUNC</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shvalidateunc)<br/></td>
-<td>[<strong>SHValidateUNC</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shvalidateunc) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shvalidateunc"><strong>SHValidateUNC</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shvalidateunc"><strong>SHValidateUNC</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SignalFileOpen</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-signalfileopen)<br/></td>
-<td>[<strong>SignalFileOpen</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-signalfileopen) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-signalfileopen"><strong>SignalFileOpen</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-signalfileopen"><strong>SignalFileOpen</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>StopWatchFlush</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchflush)<br/></td>
-<td>[<strong>StopWatchFlush</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchflush) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchflush"><strong>StopWatchFlush</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchflush"><strong>StopWatchFlush</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>StopWatchMode</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchmode)<br/></td>
-<td>[<strong>StopWatchMode</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchmode) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchmode"><strong>StopWatchMode</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchmode"><strong>StopWatchMode</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UpdateAllDesktopSubscriptions</strong>](/windows/desktop/api/shlobj/nf-shlobj-updatealldesktopsubscriptions)<br/></td>
+<td><a href="/windows/desktop/api/shlobj/nf-shlobj-updatealldesktopsubscriptions"><strong>UpdateAllDesktopSubscriptions</strong></a><br/></td>
 <td>Deprecated. Enumerates the URLs of all the Desktop components and then tests to see if they are subscribed to. If they are subscribed to, the subscriptions are delivered.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UrlFixupW</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-urlfixupw)<br/></td>
-<td>[<strong>UrlFixupW</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-urlfixupw) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlfixupw"><strong>UrlFixupW</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlfixupw"><strong>UrlFixupW</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>WhichPlatform</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-whichplatform)<br/></td>
-<td>[<strong>WhichPlatform</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-whichplatform) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-whichplatform"><strong>WhichPlatform</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-whichplatform"><strong>WhichPlatform</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Win32DeleteFile</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-win32deletefile)<br/></td>
-<td>[<strong>Win32DeleteFile</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-win32deletefile) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-win32deletefile"><strong>Win32DeleteFile</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-win32deletefile"><strong>Win32DeleteFile</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>WOWShellExecute</strong>](wowshellexecute.md)<br/></td>
-<td>Performs an operation on a specified file. [<strong>WOWShellExecute</strong>](wowshellexecute.md) exists only for use with the Microsoft Windows NT Virtual DOS Machine (Ntvdm.exe), which allows disk operating system (DOS) and 16-bit software to run on a Windows system, and should not be used by anyone else. Use [<strong>ShellExecute</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) instead.<br/></td>
+<td><a href="wowshellexecute"><strong>WOWShellExecute</strong></a><br/></td>
+<td>Performs an operation on a specified file. <a href="wowshellexecute"><strong>WOWShellExecute</strong></a> exists only for use with the Microsoft Windows NT Virtual DOS Machine (Ntvdm.exe), which allows disk operating system (DOS) and 16-bit software to run on a Windows system, and should not be used by anyone else. Use <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> instead.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>WriteCabinetState</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-writecabinetstate)<br/></td>
-<td>[<strong>WriteCabinetState</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-writecabinetstate) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-writecabinetstate"><strong>WriteCabinetState</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-writecabinetstate"><strong>WriteCabinetState</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHLWAPI Wrapper Functions</strong>](shlwapi-wrappers.md)<br/></td>
+<td><a href="shlwapi-wrappers"><strong>SHLWAPI Wrapper Functions</strong></a><br/></td>
 <td>The tables in this document list wrapper functions from Shlwapi.dll that provide limited Unicode functionality to Windows 95, Windows 98, and Windows Millennium Edition (Windows Me).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>FileOpen</strong>](https://msdn.microsoft.com/en-us/library/Bb787887(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb787887(v=VS.85).aspx"><strong>FileOpen</strong></a><br/></td>
 <td>Supports the <strong>File Open</strong> common dialog box.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>FileTypes</strong>](https://msdn.microsoft.com/en-us/library/Bb787886(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb787886(v=VS.85).aspx"><strong>FileTypes</strong></a><br/></td>
 <td>Creates the <strong>File Types</strong> page of the <strong>Folder Options</strong> property sheet that the user displays by clicking <strong>Folder Options</strong> on the Windows Explorer <strong>Tools</strong> menu. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>FolderItemsFDF</strong>](https://msdn.microsoft.com/en-us/library/Bb787785(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb787785(v=VS.85).aspx"><strong>FolderItemsFDF</strong></a><br/></td>
 <td>Represents a Shell folder and all its children.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ImageRecompress</strong>](https://msdn.microsoft.com/en-us/library/Bb774154(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774154(v=VS.85).aspx"><strong>ImageRecompress</strong></a><br/></td>
 <td>Used to recompress an image.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MenuBand</strong>](https://msdn.microsoft.com/en-us/library/Bb774113(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774113(v=VS.85).aspx"><strong>MenuBand</strong></a><br/></td>
 <td>Supports Shell menu bands.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MenuBandSite</strong>](https://msdn.microsoft.com/en-us/library/Bb774112(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774112(v=VS.85).aspx"><strong>MenuBandSite</strong></a><br/></td>
 <td>Gets or sets menu band site information.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>NewMenu</strong>](https://msdn.microsoft.com/en-us/library/Bb774110(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774110(v=VS.85).aspx"><strong>NewMenu</strong></a><br/></td>
 <td>Creates a <strong>New</strong> context menu for a Shell item.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ShellFldSetExt</strong>](https://msdn.microsoft.com/en-us/library/Bb774061(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774061(v=VS.85).aspx"><strong>ShellFldSetExt</strong></a><br/></td>
 <td>Creates a <strong>Folder Options</strong> dialog box. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ShellFolderBand</strong>](https://msdn.microsoft.com/en-us/library/Bb774152(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774152(v=VS.85).aspx"><strong>ShellFolderBand</strong></a><br/></td>
 <td>Manages folder bands. The Quick Launch bar is an example of a folder band.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>Shell Image Store</strong>](https://msdn.microsoft.com/en-us/library/Bb773967(v=VS.85).aspx)<br/></td>
-<td>Creates an instance of an [<strong>IShellImageStore</strong>](https://msdn.microsoft.com/en-us/library/Bb761154(v=VS.85).aspx) object.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb773967(v=VS.85).aspx"><strong>Shell Image Store</strong></a><br/></td>
+<td>Creates an instance of an <a href="https://msdn.microsoft.com/en-us/library/Bb761154(v=VS.85).aspx"><strong>IShellImageStore</strong></a> object.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IBrowserService</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice)<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice"><strong>IBrowserService</strong></a><br/></td>
 <td>Deprecated. The methods exposed by this interface are analogous to virtual protected methods in normal C++ inheritance. The objects' inheritance hierarchy spans multiple DLLs. The hierarchy is made up of a base class and several derived classes that correspond to controls, including CLSID_WebBrowser and the user's desktop. Objects not in the hierarchy should not implement this interface or use most of its methods.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IBrowserService2</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice2)<br/></td>
-<td>Deprecated. [<strong>IBrowserService2</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice2) extends [<strong>IBrowserService</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice). The methods exposed by this interface are analogous to virtual protected methods in normal C++ inheritance. The objects' inheritance hierarchy spans multiple DLLs. The hierarchy is made up of a base class and several derived classes that correspond to controls including CLSID_WebBrowser and the user's desktop. Objects not in the hierarchy should not implement this interface or use most of its methods.<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice2"><strong>IBrowserService2</strong></a><br/></td>
+<td>Deprecated. <a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice2"><strong>IBrowserService2</strong></a> extends <a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice"><strong>IBrowserService</strong></a>. The methods exposed by this interface are analogous to virtual protected methods in normal C++ inheritance. The objects' inheritance hierarchy spans multiple DLLs. The hierarchy is made up of a base class and several derived classes that correspond to controls including CLSID_WebBrowser and the user's desktop. Objects not in the hierarchy should not implement this interface or use most of its methods.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IBrowserService3</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice3)<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice3"><strong>IBrowserService3</strong></a><br/></td>
 <td>Deprecated. The methods exposed by this interface are analogous to virtual protected methods in normal C++ inheritance. The inheritance hierarchy of the objects spans multiple DLLs. The hierarchy is made up of a base class and several derived classes that correspond to controls, including CLSID_WebBrowser and the user's desktop. Objects not in the hierarchy should not implement this interface, nor use most of its methods.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IBrowserService4</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice4)<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ibrowserservice4"><strong>IBrowserService4</strong></a><br/></td>
 <td>Deprecated.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ICDBurnExt</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-icdburnext)<br/></td>
-<td>[<strong>ICDBurnExt</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-icdburnext) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icdburnext"><strong>ICDBurnExt</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icdburnext"><strong>ICDBurnExt</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IColumnProvider</strong>](https://msdn.microsoft.com/en-us/library/Bb776147(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb776147(v=VS.85).aspx"><strong>IColumnProvider</strong></a><br/></td>
 <td>Exposes methods that enable the addition of custom columns in the Windows Explorer Details view. <br/>
 <blockquote>
 [!Note]<br />
-Support for [<strong>IColumnProvider</strong>](https://msdn.microsoft.com/en-us/library/Bb776147(v=VS.85).aspx) has been removed as of Windows Vista. The Windows property system is used in its place. See [Windows Property System](https://msdn.microsoft.com/library/Ff728898(v=VS.85).aspx) for conceptual materials that explain the use of the new system.
+Support for <a href="https://msdn.microsoft.com/en-us/library/Bb776147(v=VS.85).aspx"><strong>IColumnProvider</strong></a> has been removed as of Windows Vista. The Windows property system is used in its place. See <a href="https://msdn.microsoft.com/library/Ff728898(v=VS.85).aspx">Windows Property System</a> for conceptual materials that explain the use of the new system.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IContextMenuSite</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenusite)<br/></td>
-<td>Implemented by the default folder view created using [<strong>SHCreateShellFolderView</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview). An implementation of [<strong>IContextMenuSite</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenusite) supports [<strong>IContextMenu::QueryContextMenu</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu), [<strong>IContextMenu::InvokeCommand</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand), and [<strong>TrackPopupMenu</strong>](https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx) and any message forwarding necessary for that function. <strong>IContextMenuSite</strong> typically updates the status bar as well.<br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenusite"><strong>IContextMenuSite</strong></a><br/></td>
+<td>Implemented by the default folder view created using <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>SHCreateShellFolderView</strong></a>. An implementation of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenusite"><strong>IContextMenuSite</strong></a> supports <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu"><strong>IContextMenu::QueryContextMenu</strong></a>, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand"><strong>IContextMenu::InvokeCommand</strong></a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx"><strong>TrackPopupMenu</strong></a> and any message forwarding necessary for that function. <strong>IContextMenuSite</strong> typically updates the status bar as well.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IDefViewFrame</strong>](https://msdn.microsoft.com/en-us/library/Bb762075(v=VS.85).aspx)<br/></td>
-<td>Used only for its [<strong>IUnknown</strong>](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) functionality. It has no methods of its own.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762075(v=VS.85).aspx"><strong>IDefViewFrame</strong></a><br/></td>
+<td>Used only for its <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx"><strong>IUnknown</strong></a> functionality. It has no methods of its own.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IDefViewID</strong>](https://msdn.microsoft.com/en-us/library/Bb762074(v=VS.85).aspx)<br/></td>
-<td>[<strong>IDefViewID</strong>](https://msdn.microsoft.com/en-us/library/Bb762074(v=VS.85).aspx) may be altered or unavailable.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762074(v=VS.85).aspx"><strong>IDefViewID</strong></a><br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762074(v=VS.85).aspx"><strong>IDefViewID</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IDefViewSafety</strong>](https://msdn.microsoft.com/en-us/library/Bb762072(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762072(v=VS.85).aspx"><strong>IDefViewSafety</strong></a><br/></td>
 <td>Deprecated. Exposes one method that determines a page's web content zone setting before the page is accessed.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IDeskBand</strong>](https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx"><strong>IDeskBand</strong></a><br/></td>
 <td>Used to obtain information about a band object.<br/>
 <blockquote>
 [!Important]<br />
-You should use [thumbnail toolbars](taskbar-extensions.md) in new development in place of desk bands, which are not supported as of Windows 7.
+You should use <a href="taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IDeskBand2</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2)<br/></td>
+<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2"><strong>IDeskBand2</strong></a><br/></td>
 <td>Exposes methods to enable and query translucency effects in a deskband object.<br/>
 <blockquote>
 [!Important]<br />
-You should use [thumbnail toolbars](taskbar-extensions.md) in new development in place of desk bands, which are not supported as of Windows 7.
+You should use <a href="taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IDeskBandInfo</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbandinfo)<br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbandinfo"><strong>IDeskBandInfo</strong></a><br/></td>
 <td>Exposes a method for getting the default Desk Band bandwidth.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IDeskBar</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbar)<br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbar"><strong>IDeskBar</strong></a><br/></td>
 <td>Exposes methods that enable desk bar manipulation.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IDocViewSite</strong>](https://msdn.microsoft.com/en-us/library/Bb762037(v=VS.85).aspx)<br/></td>
-<td>Used as a site object by the [<strong>IShellView</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview) interface.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762037(v=VS.85).aspx"><strong>IDocViewSite</strong></a><br/></td>
+<td>Used as a site object by the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> interface.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IDVGetEnum</strong>](https://msdn.microsoft.com/en-us/library/Bb762022(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb762022(v=VS.85).aspx"><strong>IDVGetEnum</strong></a><br/></td>
 <td>Exposes methods that allow the system folder view object to provide another object with an enumeration of items, without the second object running a redundant enumeration itself.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IEnumSyncItems</strong>](https://msdn.microsoft.com/en-us/library/Bb761957(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb761957(v=VS.85).aspx"><strong>IEnumSyncItems</strong></a><br/></td>
 <td>Exposes methods that provide enumeration of all items in a synchronization schedule.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IEnumSyncSchedules</strong>](https://msdn.microsoft.com/en-us/library/Bb761937(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb761937(v=VS.85).aspx"><strong>IEnumSyncSchedules</strong></a><br/></td>
 <td>Provides enumeration of all synchronization schedules.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IEnumUserIdentity</strong>](ienumuseridentity.md)<br/></td>
-<td>[<strong>IEnumUserIdentity</strong>](ienumuseridentity.md) is not supported and may be altered or unavailable in the future. Instead, use [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md).<br/></td>
+<td><a href="ienumuseridentity"><strong>IEnumUserIdentity</strong></a><br/></td>
+<td><a href="ienumuseridentity"><strong>IEnumUserIdentity</strong></a> is not supported and may be altered or unavailable in the future. Instead, use <a href="fastuserswitching">User Accounts with Fast User Switching and Remote Desktop</a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IExpDispSupport</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-iexpdispsupport)<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-iexpdispsupport"><strong>IExpDispSupport</strong></a><br/></td>
 <td>Deprecated. Exposes methods that allow the retrieval of properties, translation of keyboard accelerators, and determination of a connection point for certain events.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IExpDispSupportXP</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-iexpdispsupportxp)<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-iexpdispsupportxp"><strong>IExpDispSupportXP</strong></a><br/></td>
 <td>Deprecated. Exposes methods that allow the retrieval of properties, translation of keyboard accelerators, and determination of a connection point for certain events.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IFolderBandPriv</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderbandpriv)<br/></td>
-<td>[<strong>IFolderBandPriv</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderbandpriv) is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.<br/></td>
+<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderbandpriv"><strong>IFolderBandPriv</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderbandpriv"><strong>IFolderBandPriv</strong></a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IIdentityChangeNotify</strong>](iidentitychangenotify.md)<br/></td>
+<td><a href="iidentitychangenotify"><strong>IIdentityChangeNotify</strong></a><br/></td>
 <td>Deprecated. Provides notification of modifications to user identities on the system, as well as user requests to switch the current user identity.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IInsertItem</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-iinsertitem)<br/></td>
-<td>[<strong>IInsertItem</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-iinsertitem) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iinsertitem"><strong>IInsertItem</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iinsertitem"><strong>IInsertItem</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IMenuBand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenuband)<br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenuband"><strong>IMenuBand</strong></a><br/></td>
 <td>Exposes methods that allow a Component Object Model (COM) object to receive and translate appropriate messages.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IPassportClientServices</strong>](https://msdn.microsoft.com/en-us/library/Bb775354(v=VS.85).aspx)<br/></td>
-<td>The [<strong>IPassportClientServices</strong>](https://msdn.microsoft.com/en-us/library/Bb775354(v=VS.85).aspx) interface exposes a method to determine whether a Windows Live ID exists.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb775354(v=VS.85).aspx"><strong>IPassportClientServices</strong></a><br/></td>
+<td>The <a href="https://msdn.microsoft.com/en-us/library/Bb775354(v=VS.85).aspx"><strong>IPassportClientServices</strong></a> interface exposes a method to determine whether a Windows Live ID exists.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IPassportWizard</strong>](https://msdn.microsoft.com/en-us/library/Bb775350(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb775350(v=VS.85).aspx"><strong>IPassportWizard</strong></a><br/></td>
 <td>Exposes a method that invokes the Windows XP Passport Wizard. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IRegTreeItem</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iregtreeitem)<br/></td>
-<td>Exposes methods that retrieve and set the state of items in a tree-view control that have the [<strong>Tree-View Control Window Styles</strong>](https://msdn.microsoft.com/library/Bb760013(v=VS.85).aspx) flag set.<br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iregtreeitem"><strong>IRegTreeItem</strong></a><br/></td>
+<td>Exposes methods that retrieve and set the state of items in a tree-view control that have the <a href="https://msdn.microsoft.com/library/Bb760013(v=VS.85).aspx"><strong>Tree-View Control Window Styles</strong></a> flag set.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IShellExecuteHook</strong>](https://msdn.microsoft.com/en-us/library/Bb775101(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb775101(v=VS.85).aspx"><strong>IShellExecuteHook</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 Shell execute hooks are deprecated as of Windows Vista.
 </blockquote>
-<br/> Exposes a method that extends the behavior of the [<strong>ShellExecute</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) or [<strong>ShellExecuteEx</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) functions. It is typically implemented by subsystems that expose the names of objects that the user can specify in the <strong>Run</strong> dialog box after clicking the Windows <strong>Start</strong> button.<br/></td>
+<br/> Exposes a method that extends the behavior of the <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> or <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> functions. It is typically implemented by subsystems that expose the names of objects that the user can specify in the <strong>Run</strong> dialog box after clicking the Windows <strong>Start</strong> button.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IShellFolderBand</strong>](https://msdn.microsoft.com/en-us/library/Bb775039(v=VS.85).aspx)<br/></td>
-<td>[<strong>IShellFolderBand</strong>](https://msdn.microsoft.com/en-us/library/Bb775039(v=VS.85).aspx) may be altered or unavailable.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb775039(v=VS.85).aspx"><strong>IShellFolderBand</strong></a><br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb775039(v=VS.85).aspx"><strong>IShellFolderBand</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IShellFolderView</strong>](https://msdn.microsoft.com/en-us/library/Bb774989(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774989(v=VS.85).aspx"><strong>IShellFolderView</strong></a><br/></td>
 <td>Exposes methods that manipulate Shell folder views.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IShellIconOverlayManager</strong>](https://msdn.microsoft.com/en-us/library/Bb761253(v=VS.85).aspx)<br/></td>
-<td>[<strong>IShellIconOverlayManager</strong>](https://msdn.microsoft.com/en-us/library/Bb761253(v=VS.85).aspx) may be altered or unavailable.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb761253(v=VS.85).aspx"><strong>IShellIconOverlayManager</strong></a><br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb761253(v=VS.85).aspx"><strong>IShellIconOverlayManager</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IShellImageData</strong>](/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata)<br/></td>
+<td><a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata"><strong>IShellImageData</strong></a><br/></td>
 <td>Exposes methods and properties that display, manipulate, and describe image data.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IShellImageStore</strong>](https://msdn.microsoft.com/en-us/library/Bb761154(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb761154(v=VS.85).aspx"><strong>IShellImageStore</strong></a><br/></td>
 <td>Deprecated. Exposes methods that manipulate the image cache.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IShellService</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice)<br/></td>
-<td>Deprecated. [<strong>IShellService</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice) Exposes one method that declares ownership when a service component implementing a certain interface is shared among multiple clients, such as Windows Internet Explorer and Windows Explorer. <br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice"><strong>IShellService</strong></a><br/></td>
+<td>Deprecated. <a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice"><strong>IShellService</strong></a> Exposes one method that declares ownership when a service component implementing a certain interface is shared among multiple clients, such as Windows Internet Explorer and Windows Explorer. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IShellTaskScheduler</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler)<br/></td>
-<td>[<strong>IShellTaskScheduler</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler) may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler"><strong>IShellTaskScheduler</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler"><strong>IShellTaskScheduler</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IShellTaskScheduler2</strong>](https://msdn.microsoft.com/en-us/library/Bb774852(v=VS.85).aspx)<br/></td>
-<td>Extends the functionality of [<strong>IShellTaskScheduler</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler) by inheriting all of its methods, providing the ability to place a task in the queue with reference to other tasks of its priority, and adding a method to reset a task's priority.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774852(v=VS.85).aspx"><strong>IShellTaskScheduler2</strong></a><br/></td>
+<td>Extends the functionality of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler"><strong>IShellTaskScheduler</strong></a> by inheriting all of its methods, providing the ability to place a task in the queue with reference to other tasks of its priority, and adding a method to reset a task's priority.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ISyncSchedule</strong>](https://msdn.microsoft.com/en-us/library/Bb774693(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774693(v=VS.85).aspx"><strong>ISyncSchedule</strong></a><br/></td>
 <td>Exposes methods associated with an individual synchronization schedule.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ISyncScheduleMgr</strong>](https://msdn.microsoft.com/en-us/library/Bb774672(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774672(v=VS.85).aspx"><strong>ISyncScheduleMgr</strong></a><br/></td>
 <td>Exposes methods to set up and control a synchronization scheduler for synchronization management.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IThumbnailCapture</strong>](https://msdn.microsoft.com/en-us/library/Bb774622(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Bb774622(v=VS.85).aspx"><strong>IThumbnailCapture</strong></a><br/></td>
 <td>Exposes a method that obtains a thumbnail representation of an HTML wallpaper. <br/>
 <blockquote>
 [!Note]<br />
@@ -1122,52 +1122,52 @@ This interface is deprecated as of Windows 7. The feature it supported is no lo
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ITravelEntry</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-itravelentry)<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-itravelentry"><strong>ITravelEntry</strong></a><br/></td>
 <td>Deprecated. Exposes methods to identify, invoke, and update an individual item in the browser's travel history.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ITravelLog</strong>](/windows/desktop/api/Shdeprecated/nn-shdeprecated-itravellog)<br/></td>
+<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-itravellog"><strong>ITravelLog</strong></a><br/></td>
 <td>Deprecated. Exposes methods that maintain and manipulate a record of travel in the browser.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IUserIdentity</strong>](iuseridentity.md)<br/></td>
-<td>[<strong>IUserIdentity</strong>](iuseridentity.md) is not supported and may be altered or unavailable in the future. Instead, use [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md).<br/></td>
+<td><a href="iuseridentity"><strong>IUserIdentity</strong></a><br/></td>
+<td><a href="iuseridentity"><strong>IUserIdentity</strong></a> is not supported and may be altered or unavailable in the future. Instead, use <a href="fastuserswitching">User Accounts with Fast User Switching and Remote Desktop</a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IUserIdentity2</strong>](iuseridentity2.md)<br/></td>
-<td>[<strong>IUserIdentity2</strong>](iuseridentity2.md) is not supported and may be altered or unavailable in the future. Instead, use [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md).<br/></td>
+<td><a href="iuseridentity2"><strong>IUserIdentity2</strong></a><br/></td>
+<td><a href="iuseridentity2"><strong>IUserIdentity2</strong></a> is not supported and may be altered or unavailable in the future. Instead, use <a href="fastuserswitching">User Accounts with Fast User Switching and Remote Desktop</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IUserIdentityManager</strong>](iuseridentitymanager.md)<br/></td>
-<td>[<strong>IUserIdentityManager</strong>](iuseridentitymanager.md) is not supported and may be altered or unavailable in the future. Instead, use [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md).<br/></td>
+<td><a href="iuseridentitymanager"><strong>IUserIdentityManager</strong></a><br/></td>
+<td><a href="iuseridentitymanager"><strong>IUserIdentityManager</strong></a> is not supported and may be altered or unavailable in the future. Instead, use <a href="fastuserswitching">User Accounts with Fast User Switching and Remote Desktop</a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SFVM_DIDDRAGDROP</strong>](sfvm-diddragdrop.md)<br/></td>
-<td>[<strong>SFVM_DIDDRAGDROP</strong>](sfvm-diddragdrop.md) may be altered or unavailable.<br/></td>
+<td><a href="sfvm-diddragdrop"><strong>SFVM_DIDDRAGDROP</strong></a><br/></td>
+<td><a href="sfvm-diddragdrop"><strong>SFVM_DIDDRAGDROP</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SFVM_GETDETAILSOF</strong>](sfvm-getdetailsof.md)<br/></td>
-<td>[<strong>SFVM_GETDETAILSOF</strong>](sfvm-getdetailsof.md) may be altered or unavailable.<br/></td>
+<td><a href="sfvm-getdetailsof"><strong>SFVM_GETDETAILSOF</strong></a><br/></td>
+<td><a href="sfvm-getdetailsof"><strong>SFVM_GETDETAILSOF</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SFVM_GETPANE</strong>](sfvm-getpane.md)<br/></td>
-<td>[<strong>SFVM_GETPANE</strong>](sfvm-getpane.md) may be altered or unavailable.<br/></td>
+<td><a href="sfvm-getpane"><strong>SFVM_GETPANE</strong></a><br/></td>
+<td><a href="sfvm-getpane"><strong>SFVM_GETPANE</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SFVM_GETZONE</strong>](sfvm-getzone.md)<br/></td>
-<td>Allows the callback object to provide Internet zone information. Used by [<strong>IShellFolderViewCB::MessageSFVCB</strong>](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).<br/></td>
+<td><a href="sfvm-getzone"><strong>SFVM_GETZONE</strong></a><br/></td>
+<td>Allows the callback object to provide Internet zone information. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx"><strong>IShellFolderViewCB::MessageSFVCB</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SFVM_QUERYFSNOTIFY</strong>](sfvm-queryfsnotify.md)<br/></td>
-<td>[<strong>SFVM_QUERYFSNOTIFY</strong>](sfvm-queryfsnotify.md) may be altered or unavailable.<br/></td>
+<td><a href="sfvm-queryfsnotify"><strong>SFVM_QUERYFSNOTIFY</strong></a><br/></td>
+<td><a href="sfvm-queryfsnotify"><strong>SFVM_QUERYFSNOTIFY</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SFVM_SETISFV</strong>](sfvm-setisfv.md)<br/></td>
-<td>Notifies the callback object of the container site. This is used only when [<strong>IObjectWithSite::SetSite</strong>](https://msdn.microsoft.com/library/Aa768221(v=VS.85).aspx) is not supported and [<strong>SHCreateShellFolderViewEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex) is used. Used by [<strong>IShellFolderViewCB::MessageSFVCB</strong>](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).<br/></td>
+<td><a href="sfvm-setisfv"><strong>SFVM_SETISFV</strong></a><br/></td>
+<td>Notifies the callback object of the container site. This is used only when <a href="https://msdn.microsoft.com/library/Aa768221(v=VS.85).aspx"><strong>IObjectWithSite::SetSite</strong></a> is not supported and <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex"><strong>SHCreateShellFolderViewEx</strong></a> is used. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx"><strong>IShellFolderViewCB::MessageSFVCB</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SFVM_THISIDLIST</strong>](sfvm-thisidlist.md)<br/></td>
-<td>[<strong>SFVM_THISIDLIST</strong>](sfvm-thisidlist.md) may be altered or unavailable.<br/></td>
+<td><a href="sfvm-thisidlist"><strong>SFVM_THISIDLIST</strong></a><br/></td>
+<td><a href="sfvm-thisidlist"><strong>SFVM_THISIDLIST</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 </tbody>
 </table>

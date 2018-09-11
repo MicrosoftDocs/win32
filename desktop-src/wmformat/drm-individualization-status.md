@@ -1,7 +1,7 @@
 ---
-title: DRM\_INDIVIDUALIZATION\_STATUS enumeration
+title: DRM_INDIVIDUALIZATION_STATUS enumeration
 description: The DRM\_INDIVIDUALIZATION\_STATUS enumeration type defines the valid states for DRM individualization.
-ms.assetid: 4e6712e2-3297-4636-9b0c-07269bd63d52
+ms.assetid: '76748fb3-340e-47e2-969d-5e857bb4e4d8'
 keywords:
 - DRM_INDIVIDUALIZATION_STATUS enumeration windows Media Format
 - enumeration windows Media Format

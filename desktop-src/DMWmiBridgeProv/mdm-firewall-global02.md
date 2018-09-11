@@ -1,5 +1,5 @@
 ---
-title: MDM\_Firewall\_Global02 class
+title: MDM_Firewall_Global02 class
 description: The MDM\_Firewall\_Global02 class is used to configure the Windows Defender Firewall settings.
 ms.assetid: 387a60c6-6dc9-4710-a1e3-0468ac004395
 keywords:

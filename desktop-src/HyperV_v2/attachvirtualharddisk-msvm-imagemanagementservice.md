@@ -1,7 +1,7 @@
 ---
 Description: Attaches a virtual hard disk file in loopback mode.
 ms.assetid: 54bd8e67-e309-4bf3-94bd-e29bc3300a3d
-title: AttachVirtualHardDisk method of the Msvm\_ImageManagementService class
+title: AttachVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

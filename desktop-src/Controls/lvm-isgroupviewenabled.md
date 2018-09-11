@@ -1,5 +1,5 @@
 ---
-title: LVM\_ISGROUPVIEWENABLED message
+title: LVM_ISGROUPVIEWENABLED message
 description: Checks whether the list-view control has group view enabled.
 ms.assetid: 7c6ffa1f-300c-4e5e-900f-93a41e06c951
 keywords:

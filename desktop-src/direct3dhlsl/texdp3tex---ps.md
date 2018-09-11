@@ -1,7 +1,7 @@
 ---
 title: texdp3tex - ps
 description: Performs a three-component dot product and uses the result to do a 1D texture lookup.
-ms.assetid: 33f04a99-c5dc-48c1-a221-f12acb36e7f5
+ms.assetid: 'vs|directx_sdk|~\texdp3tex___ps.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

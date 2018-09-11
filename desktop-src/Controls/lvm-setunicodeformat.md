@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETUNICODEFORMAT message
+title: LVM_SETUNICODEFORMAT message
 description: Sets the UNICODE character format flag for the control.
 ms.assetid: e332ae88-821f-4341-a98d-59d8a01a126f
 keywords:

@@ -1,7 +1,7 @@
 ---
 title: Mouse Input
 description: This section describes how the system provides mouse input to your application and how the application receives and processes that input.
-ms.assetid: 1f945a31-76d5-4e23-a55a-769ca114dbe9
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\userinput\mouseinput.htm'
 keywords:
 - user input,mouse input
 - capturing user input,mouse input

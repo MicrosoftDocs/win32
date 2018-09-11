@@ -1,6 +1,6 @@
 ---
 Description: Effect
-ms.assetid: dd3ab119-328b-4782-811a-f06909c17dec
+ms.assetid: '5674901e-6646-4243-8ef9-5784ceae4bdb'
 title: Effect
 ms.technology: desktop
 ms.prod: windows

@@ -1,6 +1,6 @@
 ---
 Description: Identifies an entry in the shim database.
-ms.assetid: 3a52e2f2-9648-45fb-b487-ccfe5ed24f7f
+ms.assetid: 'c092592d-a4f4-4b2f-9b03-c07951ed214a'
 title: TAG
 ms.technology: desktop
 ms.prod: windows

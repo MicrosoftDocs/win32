@@ -40,7 +40,7 @@ ms.date: 05/31/2018
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>UiaAndOrCondition</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaandorcondition)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaandorcondition"><strong>UiaAndOrCondition</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -48,7 +48,7 @@ This structure is deprecated.
 <br/> Contains information about a complex condition.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaAsyncContentLoadedEventArgs</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaasynccontentloadedeventargs)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaasynccontentloadedeventargs"><strong>UiaAsyncContentLoadedEventArgs</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -56,7 +56,7 @@ This structure is deprecated.
 <br/> Contains information about an event raised when content is being asynchronously loaded by a UI element.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaCacheRequest</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacacherequest)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacacherequest"><strong>UiaCacheRequest</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -64,7 +64,7 @@ This structure is deprecated.
 <br/> Contains information about a request to cache data about UI Automation elements.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaCondition</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacondition)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacondition"><strong>UiaCondition</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -72,7 +72,7 @@ This structure is deprecated.
 <br/> Contains information about a condition.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaEventArgs</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaeventargs)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaeventargs"><strong>UiaEventArgs</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -80,15 +80,15 @@ This structure is deprecated.
 <br/> Contains information about a Microsoft UI Automation event.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaFindParams</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiafindparams)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiafindparams"><strong>UiaFindParams</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
 </blockquote>
-<br/> Contains parameters used in the [<strong>UiaFind</strong>](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiafind) function.<br/></td>
+<br/> Contains parameters used in the <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiafind"><strong>UiaFind</strong></a> function.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaNotCondition</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uianotcondition)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uianotcondition"><strong>UiaNotCondition</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -96,7 +96,7 @@ This structure is deprecated.
 <br/> Contains information about a negative condition.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaPropertyChangedEventArgs</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertychangedeventargs)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertychangedeventargs"><strong>UiaPropertyChangedEventArgs</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -104,7 +104,7 @@ This structure is deprecated.
 <br/> Contains information about an event that is raised when a UI Automation element property change occurs.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaPropertyCondition</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertycondition)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertycondition"><strong>UiaPropertyCondition</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -112,7 +112,7 @@ This structure is deprecated.
 <br/> Contains information about a condition used to find UI Automation elements that have a matching property.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaStructureChangedEventArgs</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiastructurechangedeventargs)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiastructurechangedeventargs"><strong>UiaStructureChangedEventArgs</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -120,7 +120,7 @@ This structure is deprecated.
 <br/> Contains information about an event that is raised when the structure of the UI Automation tree changes.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaWindowClosedEventArgs</strong>](/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiawindowclosedeventargs)<br/></td>
+<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiawindowclosedeventargs"><strong>UiaWindowClosedEventArgs</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.

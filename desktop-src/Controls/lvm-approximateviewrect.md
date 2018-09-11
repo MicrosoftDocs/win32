@@ -1,5 +1,5 @@
 ---
-title: LVM\_APPROXIMATEVIEWRECT message
+title: LVM_APPROXIMATEVIEWRECT message
 description: Calculates the approximate width and height required to display a given number of items. You can send this message explicitly or use the ListView\_ApproximateViewRect macro.
 ms.assetid: a14331a8-217d-48c6-9489-fb90c4d31b91
 keywords:

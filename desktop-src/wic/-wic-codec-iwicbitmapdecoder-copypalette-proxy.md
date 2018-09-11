@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the CopyPalette method.
 ms.assetid: 2775b389-d6e9-479c-93ea-147e4501551d
-title: IWICBitmapDecoder\_CopyPalette\_Proxy function
+title: IWICBitmapDecoder_CopyPalette_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: An operation was aborted because of an error.
 ms.assetid: b41546ce-cfac-4cc3-a9ad-413ae2d5d6d5
-title: EC\_ERRORABORT
+title: EC_ERRORABORT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

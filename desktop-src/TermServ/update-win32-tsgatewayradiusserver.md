@@ -1,5 +1,5 @@
 ---
-title: Update method of the Win32\_TSGatewayRADIUSServer class
+title: Update method of the Win32_TSGatewayRADIUSServer class
 description: Updates the current Remote Authentication Dial-In User Service (RADIUS) server.
 audience: developer
 author: REDMOND\\markl

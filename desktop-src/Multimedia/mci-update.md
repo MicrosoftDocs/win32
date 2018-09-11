@@ -1,5 +1,5 @@
 ---
-title: MCI\_UPDATE command
+title: MCI_UPDATE command
 description: The MCI\_UPDATE command updates the display rectangle. Digital-video devices recognize this command.
 ms.assetid: 90a8c10f-61b9-49a1-bbcc-e0729aa8c454
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TF\_InvalidAssemblyListCacheIfExist function
+title: TF_InvalidAssemblyListCacheIfExist function
 description: The TF\_InvalidAssemblyListCacheIfExist function invalidates the text input processor's description cache.
 ms.assetid: a0f61b25-598c-417c-8679-7523c041f9ef
 keywords:

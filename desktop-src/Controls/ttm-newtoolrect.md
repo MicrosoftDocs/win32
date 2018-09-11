@@ -1,5 +1,5 @@
 ---
-title: TTM\_NEWTOOLRECT message
+title: TTM_NEWTOOLRECT message
 description: Sets a new bounding rectangle for a tool.
 ms.assetid: 81d1b745-310e-482e-8c6e-6e98e1e67b66
 keywords:

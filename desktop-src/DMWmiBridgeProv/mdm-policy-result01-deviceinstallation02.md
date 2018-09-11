@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_DeviceInstallation02 class
+title: MDM_Policy_Result01_DeviceInstallation02 class
 description: The MDM\_Policy\_Result01\_DeviceInstallation02 class represents the available device installation policies.
 ms.assetid: a5c89661-16f1-42e7-a11d-2c3a7945dac3
 keywords:

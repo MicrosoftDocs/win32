@@ -1,5 +1,5 @@
 ---
-title: DTM\_SETSYSTEMTIME message
+title: DTM_SETSYSTEMTIME message
 description: Sets the time in a date and time picker (DTP) control. You can send this message explicitly or use the DateTime\_SetSystemtime macro.
 ms.assetid: aab023ac-22ef-485b-be2f-2aa76dfcf57f
 keywords:

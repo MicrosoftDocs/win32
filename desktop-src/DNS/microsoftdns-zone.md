@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_Zone class
+title: MicrosoftDNS_Zone class
 description: The MicrosoftDNS\_Zone class describes a DNS Zone. Every instance of the MicrosoftDNS\_Zone class must be assigned to exactly one DNS Server. Zones may be associated with multiple instances of MicrosoftDNS\_Domain or MicrosoftDNS\_ResourceRecord classes.
 ms.assetid: 9c59fa61-cca5-4718-ad40-8d2c6ed5fc2d
 keywords:

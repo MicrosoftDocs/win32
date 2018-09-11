@@ -1,7 +1,7 @@
 ---
 Description: The LINEAGENTSESSIONSTATUS\_ constants describe various agent session states.
 ms.assetid: a9101c51-2288-4055-9381-4c68564361f8
-title: LINEAGENTSESSIONSTATUS\_ Constants
+title: LINEAGENTSESSIONSTATUS_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Notifies an application when an IME is about to show an error message or other information. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: b898283a-af1a-484f-bfb8-e5d5c0ac8ee1
-title: IMN\_GUIDELINE notification code
+title: IMN_GUIDELINE notification code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Indicates a type of service status change for monitoring and reporting.
 ms.assetid: 7508526c-02ce-4ac2-8616-491390a4afad
-title: SC\_EVENT\_TYPE enumeration
+title: SC_EVENT_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

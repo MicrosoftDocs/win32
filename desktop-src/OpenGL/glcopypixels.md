@@ -91,7 +91,7 @@ Specifies whether **glCopyPixels** is to copy color values, depth values, or ste
 <tbody>
 <tr class="odd">
 <td><span id="GL_COLOR"></span><span id="gl_color"></span><dl> <dt><strong>GL_COLOR</strong></dt> </dl></td>
-<td>The <strong>glCopyPixels</strong> function reads indexes or RGBA colors from the buffer currently specified as the read source buffer (see [<strong>glReadBuffer</strong>](glreadbuffer.md)). <br/> If OpenGL is in color-index mode:<br/>
+<td>The <strong>glCopyPixels</strong> function reads indexes or RGBA colors from the buffer currently specified as the read source buffer (see <a href="glreadbuffer"><strong>glReadBuffer</strong></a>). <br/> If OpenGL is in color-index mode:<br/>
 <ol>
 <li>Each index that is read from this buffer is converted to a fixed-point format with an unspecified number of bits to the right of the binary point.</li>
 <li>Each index is shifted left by GL_INDEX_SHIFT bits, and added to GL_INDEX_OFFSET.If GL_INDEX_SHIFT is negative, the shift is to the right. In either case, zero bits fill otherwise unspecified bit locations in the result.<br/></li>

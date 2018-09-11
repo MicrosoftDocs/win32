@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Printers02 class
+title: MDM_Policy_Result01_Printers02 class
 description: The MDM\_Policy\_Result01\_Printers02 class represents the printer policies.
 ms.assetid: f64fbb03-c62c-4f8e-97ad-e08e068a31d1
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CB\_RESETCONTENT message
+title: CB_RESETCONTENT message
 description: Removes all items from the list box and edit control of a combo box.
 ms.assetid: 55203c34-87ca-46e9-a914-a480d43ccadd
 keywords:

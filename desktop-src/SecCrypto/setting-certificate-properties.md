@@ -1,6 +1,6 @@
 ---
 Description: Use the ICertServerPolicy::SetCertificateProperty method to set the subject properties of a certificate.
-ms.assetid: 4cc20a59-d8e9-4c9b-9438-21bccbbe4a64
+ms.assetid: '93e4b05d-0230-4562-8052-4e118fd92057'
 title: Setting Certificate Properties
 ms.technology: desktop
 ms.prod: windows

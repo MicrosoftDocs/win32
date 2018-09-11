@@ -1,5 +1,5 @@
 ---
-title: SetSBDbConnectionStrings method of the Win32\_SessionBrokerServiceProperties class
+title: SetSBDbConnectionStrings method of the Win32_SessionBrokerServiceProperties class
 description: Saves DB connection strings, both primary and secondary, in the registry.
 audience: developer
 author: REDMOND\\markl

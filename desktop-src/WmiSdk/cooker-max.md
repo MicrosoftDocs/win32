@@ -7,7 +7,7 @@ ms.assetid: 9e4a2b9a-cc1a-4a01-8587-9a65d7d9ec05
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: COOKER\_MAX
+title: COOKER_MAX
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

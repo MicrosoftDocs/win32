@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSLicenseServer Methods
+title: Win32_TSLicenseServer Methods
 description: The Win32\_TSLicenseServer class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

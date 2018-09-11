@@ -1,5 +1,5 @@
 ---
-title: UserControlService method of the Win32\_Service class
+title: UserControlService method of the Win32_Service class
 description: Attempts to send a user-defined control code to the referenced service.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: g\_wszWMVCZeroByteFrames
+title: g_wszWMVCZeroByteFrames
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: e9156c63-20c2-44a5-a720-0aa36a828bbb
 keywords:

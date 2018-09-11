@@ -1,5 +1,5 @@
 ---
-title: LVM\_INSERTGROUP message
+title: LVM_INSERTGROUP message
 description: Inserts a group into a list-view control.
 ms.assetid: d43e21bc-e212-42dd-af88-48813d40cd50
 keywords:
@@ -31,7 +31,7 @@ Inserts a group into a list-view control.
 </dt> <dd>Index where the group is to be added. If this is -1, the group is added at the end of the list.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup) structure that contains the group to add.</dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup">**LVGROUP**</a> structure that contains the group to add.</dd> </dl>
 
 ## Return value
 

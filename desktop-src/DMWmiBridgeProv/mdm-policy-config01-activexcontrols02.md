@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_ActiveXControls02 class
+title: MDM_Policy_Config01_ActiveXControls02 class
 description: This policy setting determines which ActiveX installation sites standard users in your organization can use to install ActiveX controls on their computers.
 ms.assetid: 242888ae-f07a-40b7-9539-29fcca9cfc40
 keywords:

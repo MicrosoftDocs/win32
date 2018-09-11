@@ -1,7 +1,7 @@
 ---
 Description: Retrieves a variety of information for the battery.
 ms.assetid: 4cc89b89-ab33-47c2-8327-9627cbd1595e
-title: IOCTL\_BATTERY\_QUERY\_INFORMATION control code
+title: IOCTL_BATTERY_QUERY_INFORMATION control code
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

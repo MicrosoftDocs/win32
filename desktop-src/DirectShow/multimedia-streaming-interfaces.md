@@ -1,6 +1,6 @@
 ---
 Description: Multimedia Streaming Interfaces
-ms.assetid: a94dbb64-dfca-4c24-8c11-761835faf8a8
+ms.assetid: '53d639e2-8717-4552-b0d3-b8c500bd38a8'
 title: Multimedia Streaming Interfaces
 ms.technology: desktop
 ms.prod: windows

@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_NXTType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_NXTType class
 description: The CreateInstanceFromPropertyData method instantiates a Next (NXT) Resource Record.
 ms.assetid: d0e4f3bf-f835-4341-a614-539975e6be11
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: EM\_GETAUTOURLDETECT message
+title: EM_GETAUTOURLDETECT message
 description: Indicates whether the auto URL detection is turned on in the rich edit control.
 ms.assetid: f723f15c-bf8f-41ab-aef0-bd8f2c0b9e5d
 keywords:

@@ -1,6 +1,6 @@
 ---
 Description: When Direct3D renders a primitive, it maps the 3D primitive onto a 2D screen.
-ms.assetid: f6c8a9e2-aab0-4f06-956e-bb86557c72e7
+ms.assetid: 'vs|directx_sdk|~\texture_filtering.htm'
 title: Texture Filtering (Direct3D 9)
 ms.technology: desktop
 ms.prod: windows

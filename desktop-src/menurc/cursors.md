@@ -1,7 +1,7 @@
 ---
 title: Cursors
 description: This section discusses cursors which are small pictures whose location on the screen is controlled by a pointing device, such as a mouse, pen, or trackball.
-ms.assetid: 0ca8e51c-1159-47e9-ba3f-5ced0667cadb
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\cursors.htm'
 keywords:
 - resources,cursors
 - cursors,about

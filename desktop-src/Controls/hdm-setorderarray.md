@@ -1,5 +1,5 @@
 ---
-title: HDM\_SETORDERARRAY message
+title: HDM_SETORDERARRAY message
 description: Sets the left-to-right order of header items. You can send this message explicitly or use the Header\_SetOrderArray macro.
 ms.assetid: 094c424f-10bd-484d-8236-937811b703a6
 keywords:

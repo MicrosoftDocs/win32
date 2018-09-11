@@ -1,7 +1,7 @@
 ---
 title: Recording
 description: Recording
-ms.assetid: 48b2d815-72cf-4c96-8d93-247d2426b8f2
+ms.assetid: '0026eb1d-5be1-4090-801b-f1c65c179f42'
 keywords:
 - MCI_RECORD command
 ms.technology: desktop

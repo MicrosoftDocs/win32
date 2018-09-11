@@ -1,7 +1,7 @@
 ---
 Description: Media start time.
 ms.assetid: 04ae3862-00b1-4c99-b535-756067cdf4c4
-title: CMediaSample::m\_MediaStart member
+title: CMediaSample::m_MediaStart member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_ApplicationManagement02 class
+title: MDM_Policy_Result01_ApplicationManagement02 class
 description: The MDM\_Policy\_Result01\_ApplicationManagement02 class represents the application management policies available.MDM\_Policy\_Result01\_ApplicationManagement02 class represents the application management policies available.
 ms.assetid: 141614e4-b2b1-49d9-879c-f6f86bee070c
 keywords:

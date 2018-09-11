@@ -1,5 +1,5 @@
 ---
-title: Create method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: Create method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Creates a Remote Desktop connection authorization policy (RD \ 160;CAP) by using the specified values. The new RD \ 160;CAP will be inserted at the top of the RD \ 160;CAP evaluation order, with an Order property value of \ 0034;1 \ 0034;.
 audience: developer
 author: REDMOND\\markl

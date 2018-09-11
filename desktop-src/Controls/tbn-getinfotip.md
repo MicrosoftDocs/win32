@@ -1,5 +1,5 @@
 ---
-title: TBN\_GETINFOTIP notification code
+title: TBN_GETINFOTIP notification code
 description: Retrieves infotip information for a toolbar item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 877de60c-f6e1-440a-81f0-d66ab443c985
 keywords:

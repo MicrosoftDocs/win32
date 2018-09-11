@@ -1,5 +1,5 @@
 ---
-title: SetResources method of the Win32\_TSGatewayResourceGroup class
+title: SetResources method of the Win32_TSGatewayResourceGroup class
 description: Sets the Resources property for this resource group.
 audience: developer
 author: REDMOND\\markl

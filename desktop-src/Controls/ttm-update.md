@@ -1,5 +1,5 @@
 ---
-title: TTM\_UPDATE message
+title: TTM_UPDATE message
 description: Forces the current tooltip to be redrawn.
 ms.assetid: b3879cca-489f-4811-92f1-a2d61e2e09aa
 keywords:

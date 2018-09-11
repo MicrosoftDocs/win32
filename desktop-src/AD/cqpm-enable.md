@@ -1,5 +1,5 @@
 ---
-title: CQPM\_ENABLE message
+title: CQPM_ENABLE message
 description: Sent to the CQPageProc callback function of a query form extension page to enable or disable the page.
 audience: developer
 author: REDMOND\\markl

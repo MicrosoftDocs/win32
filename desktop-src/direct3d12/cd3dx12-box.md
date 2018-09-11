@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_BOX structure
+title: CD3DX12_BOX structure
 description: A helper structure to enable easy initialization of a D3D12\_BOX structure.
 ms.assetid: 7E1A352C-D664-4538-BA78-91493980559D
 keywords:

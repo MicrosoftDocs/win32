@@ -1,7 +1,7 @@
 ---
 title: SLIDER Element
 description: SLIDER Element
-ms.assetid: 9cba9bdd-ea5b-4a4a-a61e-e6aff29fc3e0
+ms.assetid: 'f1da8987-5430-46ef-b7d7-ac92f34a2185'
 keywords:
 - Windows Media Player skins,SLIDER element
 - skins,SLIDER element

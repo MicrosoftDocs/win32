@@ -1,6 +1,6 @@
 ---
 Description: Defines a B&\#233;zier control patch. The array defines the control points for the patch.
-ms.assetid: d941d994-8a13-49ff-a0b1-b21a3f84ed78
+ms.assetid: 'vs|directx_sdk|~\patch.htm'
 title: Patch
 ms.technology: desktop
 ms.prod: windows

@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETTILEINFO message
+title: LVM_SETTILEINFO message
 description: Sets information for an existing tile of a list-view control.
 ms.assetid: 345e8f16-9a6c-44e3-a262-d5d3be4d33ef
 keywords:
@@ -31,7 +31,7 @@ Sets information for an existing tile of a list-view control.
 </dt> <dd>Must be zero.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to an [**LVTILEINFO**](/windows/desktop/api/Commctrl/ns-commctrl-taglvtileinfo) structure that contains the information to set.</dd> </dl>
+</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvtileinfo">**LVTILEINFO**</a> structure that contains the information to set.</dd> </dl>
 
 ## Return value
 

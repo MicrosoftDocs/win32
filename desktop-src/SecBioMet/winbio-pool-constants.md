@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_POOL Constants
+title: WINBIO_POOL Constants
 description: Specify the type of biometric unit pool to be used in the session.
 ms.assetid: e6e49b95-981a-477d-9889-ea132db5b387
 topic_type:

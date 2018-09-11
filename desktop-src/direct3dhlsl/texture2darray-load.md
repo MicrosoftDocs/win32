@@ -1,7 +1,7 @@
 ---
 title: Texture2DArray Load methods
 description: Reads Texture2DArray data.
-ms.assetid: 299A1C0E-2473-4FAB-AD0E-54AB4BABD5B7
+ms.assetid: '70b99f8c-0ca9-4961-bda9-19c39fd5eaf6'
 keywords:
 - Load methods HLSL
 topic_type:

@@ -26,7 +26,7 @@ The **IDebugShaderRequest** interface inherits from the [**IUnknown**](https://m
 
 The **IDebugShaderRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>BeginDebugShader</strong>](https://msdn.microsoft.com/library/windows/desktop/mt422664)</td><td style="text-align: left;"><p>Requests to start a shader debugging session for the specified pipeline stage, pixel/vertex if applicable, event, and frame.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt422664"><strong>BeginDebugShader</strong></a></td><td style="text-align: left;"><p>Requests to start a shader debugging session for the specified pipeline stage, pixel/vertex if applicable, event, and frame.</p></td></tr></tbody></table>
 
  
 

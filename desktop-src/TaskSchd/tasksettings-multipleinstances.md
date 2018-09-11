@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.MultipleInstances property
 description: For scripting, gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task.
-ms.assetid: 2a84b780-2378-4ee8-aaa4-3bc960e32206
+ms.assetid: 'a25be615-fbb9-47fe-805a-5b93eab95f47'
 keywords:
 - MultipleInstances property Task Scheduler
 - MultipleInstances property Task Scheduler , TaskSettings object

@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_MGType class
+title: MicrosoftDNS_MGType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mail Group (MG) record.
 ms.assetid: ce5795d1-e575-46ef-ad82-62b329e261d6
 keywords:

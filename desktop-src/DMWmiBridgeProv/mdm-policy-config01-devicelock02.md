@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_DeviceLock02 class
+title: MDM_Policy_Config01_DeviceLock02 class
 description: The MDM\_Policy\_Config01\_DeviceLock02 class represents the device lock policies available.
 ms.assetid: 222081ec-c38f-481d-ae38-941fd1317197
 keywords:

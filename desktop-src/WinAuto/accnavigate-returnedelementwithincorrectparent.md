@@ -1,5 +1,5 @@
 ---
-title: AccNavigate\_ReturnedElementWithIncorrectParent
+title: AccNavigate_ReturnedElementWithIncorrectParent
 description: AccNavigate\_ReturnedElementWithIncorrectParent
 ms.assetid: 44447E47-04D5-4784-B5E9-E8C62A9834CE
 ms.technology: desktop

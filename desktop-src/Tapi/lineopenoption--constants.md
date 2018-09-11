@@ -1,7 +1,7 @@
 ---
 Description: The LINEOPENOPTION\_ constants list the available options for opening a line.
 ms.assetid: 361ae90c-a2cf-4107-a2da-80f561a82c56
-title: LINEOPENOPTION\_ Constants
+title: LINEOPENOPTION_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

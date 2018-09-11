@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_IDIALINGCODE and LOCALE\_ICOUNTRY
 ms.assetid: fd3a85cf-7227-497d-9f52-9e4cd15d9ad6
-title: LOCALE\_IDIALINGCODE and LOCALE\_ICOUNTRY
+title: LOCALE_IDIALINGCODE and LOCALE_ICOUNTRY
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

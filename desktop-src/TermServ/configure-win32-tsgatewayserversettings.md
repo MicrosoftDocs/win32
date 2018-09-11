@@ -1,5 +1,5 @@
 ---
-title: Configure method of the Win32\_TSGatewayServerSettings class
+title: Configure method of the Win32_TSGatewayServerSettings class
 description: Configures the IIS and RPC settings required by the Remote Desktop Gateway (RD Gateway) service.
 audience: developer
 author: REDMOND\\markl

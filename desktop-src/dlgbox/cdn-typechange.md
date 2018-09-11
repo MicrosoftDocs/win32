@@ -1,5 +1,5 @@
 ---
-title: CDN\_TYPECHANGE notification code
+title: CDN_TYPECHANGE notification code
 description: Sent by an Explorer-style Open or Save As dialog box when the user selects a new file type from the file types combo box.
 ms.assetid: fb8324db-e435-4ef2-aac5-506a6b7adb2c
 keywords:

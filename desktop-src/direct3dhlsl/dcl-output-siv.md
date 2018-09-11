@@ -1,5 +1,5 @@
 ---
-title: dcl\_output\_siv (sm4 - asm)
+title: dcl_output_siv (sm4 - asm)
 description: dcl\_output\_siv (sm4 - asm)
 ms.assetid: 5a87a113-7413-48ef-9a6a-13eb185650be
 ms.technology: desktop

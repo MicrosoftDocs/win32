@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_BIOMETRIC\_SUBTYPE Constants
+title: WINBIO_BIOMETRIC_SUBTYPE Constants
 description: Provide information about a biometric measurement.
 ms.assetid: 019569A9-6184-4E75-9B82-C98F4F45F61A
 topic_type:
@@ -51,7 +51,7 @@ To find the available biometric subtypes for a particular biometric type, use th
 <tbody>
 <tr class="odd">
 <td><strong>WINBIO_TYPE_FACIAL_FEATURES</strong></td>
-<td>[<strong>WINBIO_ANSI_385_FACE Constants</strong>](winbio-ansi-385-face-constants.md)
+<td><a href="winbio-ansi-385-face-constants"><strong>WINBIO_ANSI_385_FACE Constants</strong></a>
 <blockquote>
 [!Note]<br />
 These values apply only for Windows 10 and later.
@@ -62,18 +62,18 @@ These values apply only for Windows 10 and later.
 <td><strong>WINBIO_TYPE_FINGERPRINT</strong></td>
 <td>One of the following topics:
 <ul>
-<li>[<strong>WINBIO_ANSI_381_FORMAT Constants</strong>](winbio-ansi-381-format-constants.md)</li>
-<li>[<strong>WINBIO_ANSI_381_IMG Constants</strong>](winbio-ansi-381-img-constants.md)</li>
-<li>[<strong>WINBIO_ANSI_381_IMG_ACQ Constants</strong>](winbio-ansi-381-img-acq-constants.md)</li>
-<li>[<strong>WINBIO_ANSI_381_IMP_TYPE Constants</strong>](winbio-ansi-381-imp-type-constants.md)</li>
-<li>[<strong>WINBIO_ANSI_381_PIXELS Constants</strong>](winbio-ansi-381-pixels-constants.md)</li>
-<li>[<strong>WINBIO_ANSI_381_POS Fingerprint Constants</strong>](winbio-ansi-381-pos-fingerprint-constants.md)</li>
-<li>[<strong>WINBIO_ANSI_381_POS_Palm Constants</strong>](winbio-ansi-381-pos-palm-constants.md)</li>
+<li><a href="winbio-ansi-381-format-constants"><strong>WINBIO_ANSI_381_FORMAT Constants</strong></a></li>
+<li><a href="winbio-ansi-381-img-constants"><strong>WINBIO_ANSI_381_IMG Constants</strong></a></li>
+<li><a href="winbio-ansi-381-img-acq-constants"><strong>WINBIO_ANSI_381_IMG_ACQ Constants</strong></a></li>
+<li><a href="winbio-ansi-381-imp-type-constants"><strong>WINBIO_ANSI_381_IMP_TYPE Constants</strong></a></li>
+<li><a href="winbio-ansi-381-pixels-constants"><strong>WINBIO_ANSI_381_PIXELS Constants</strong></a></li>
+<li><a href="winbio-ansi-381-pos-fingerprint-constants"><strong>WINBIO_ANSI_381_POS Fingerprint Constants</strong></a></li>
+<li><a href="winbio-ansi-381-pos-palm-constants"><strong>WINBIO_ANSI_381_POS_Palm Constants</strong></a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><strong>WINBIO_TYPE_IRIS</strong></td>
-<td>[<strong>WINBIO_IRIS Constants</strong>](winbio-iris-constants.md)
+<td><a href="winbio-iris-constants"><strong>WINBIO_IRIS Constants</strong></a>
 <blockquote>
 [!Note]<br />
 These values apply only for Windows 10 and later.
@@ -82,7 +82,7 @@ These values apply only for Windows 10 and later.
 </tr>
 <tr class="even">
 <td><strong>WINBIO_TYPE_VOICE</strong></td>
-<td>[<strong>WINBIO_VOICE Constants</strong>](https://www.bing.com/search?q=<strong>WINBIO_VOICE+Constants</strong>)
+<td><a href="https://www.bing.com/search?q=<strong>WINBIO_VOICE+Constants</strong>"><strong>WINBIO_VOICE Constants</strong></a>
 <blockquote>
 [!Note]<br />
 These values apply only for Windows 10 and later.

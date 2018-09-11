@@ -1,7 +1,7 @@
 ---
 title: PlaylistCollection.getAll method
 description: The getAll method retrieves a PlaylistArray object containing all the playlists in the library.
-ms.assetid: 5ebd966f-5fee-4a8a-909e-5adcbdebab54
+ms.assetid: 'ec3cb7d7-9c03-4dec-a0aa-ec8bf23547a5'
 keywords:
 - getAll method Windows Media Player
 - getAll method Windows Media Player , PlaylistCollection class

@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_WINSRType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_WINSRType class
 description: The CreateInstanceFromPropertyData method instantiates a WINS Reverse Lookup (WINSR) Resource Record.
 ms.assetid: e14e81be-fc5c-4a6f-b6d1-cb3ce5005e00
 keywords:

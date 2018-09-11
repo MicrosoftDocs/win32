@@ -1,7 +1,7 @@
 ---
 Description: Represents a planned virtual machine.
 ms.assetid: 4ce6d34c-66fb-4f4f-bf52-26d19bab6d4a
-title: Msvm\_PlannedComputerSystem class
+title: Msvm_PlannedComputerSystem class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

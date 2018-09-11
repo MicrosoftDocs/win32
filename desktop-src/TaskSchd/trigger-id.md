@@ -1,7 +1,7 @@
 ---
 title: Trigger.Id property
 description: For scripting, gets or sets the identifier for the trigger.
-ms.assetid: 7cf26e63-2517-44a0-9a12-06c2a903c089
+ms.assetid: '15dd3aaa-f3ee-459d-a0bd-327c7a4beb03'
 keywords:
 - Id property Task Scheduler
 - Id property Task Scheduler , Trigger object

@@ -1,7 +1,7 @@
 ---
 title: TaskService.HighestVersion property
 description: For scripting, indicates the highest version of Task Scheduler that a computer supports.
-ms.assetid: 27b08a17-fdd9-4c28-b498-e10e80ae49f0
+ms.assetid: 'b4e55e46-6f33-4224-811b-06bf218dd1ac'
 keywords:
 - HighestVersion property Task Scheduler
 - HighestVersion property Task Scheduler , TaskService object

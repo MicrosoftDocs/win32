@@ -1,7 +1,7 @@
 ---
 Description: A value that defines the units for a depth value in a video frame.
 ms.assetid: 0D7238F3-C224-48BD-8654-B3182DFB244C
-title: MF\_MT\_DEPTH\_VALUE\_UNIT attribute
+title: MF_MT_DEPTH_VALUE_UNIT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

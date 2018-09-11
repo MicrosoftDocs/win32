@@ -27,53 +27,53 @@ When you implement a custom MFT, use the following checklist to determine the re
 <tbody>
 <tr class="odd">
 <td>All MFTs</td>
-<td>All MFTs must implement [<strong>IMFTransform</strong>](/windows/desktop/api/mftransform/nn-mftransform-imftransform).<br/> The following topics give more information about implementing this interface:
+<td>All MFTs must implement <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform"><strong>IMFTransform</strong></a>.<br/> The following topics give more information about implementing this interface:
 <ul>
-<li>[Basic MFT Processing Model](basic-mft-processing-model.md)</li>
-<li>[Time Stamps and Durations](time-stamps-and-durations.md)</li>
-<li>[Handling Stream Changes](handling-stream-changes.md)</li>
+<li><a href="basic-mft-processing-model">Basic MFT Processing Model</a></li>
+<li><a href="time-stamps-and-durations">Time Stamps and Durations</a></li>
+<li><a href="handling-stream-changes">Handling Stream Changes</a></li>
 </ul>
 <br/></td>
 </tr>
 <tr class="even">
 <td>Encoders and decoders</td>
-<td>Requirements: See [Implementing a Codec MFT](implementing-a-codec-mft.md).<br/> Recommended: Implement [<strong>IMFQualityAdvise</strong>](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise) or [<strong>IMFQualityAdvise2</strong>](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2), to support quality-of-service (QoS) notifications.<br/></td>
+<td>Requirements: See <a href="implementing-a-codec-mft">Implementing a Codec MFT</a>.<br/> Recommended: Implement <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise"><strong>IMFQualityAdvise</strong></a> or <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2"><strong>IMFQualityAdvise2</strong></a>, to support quality-of-service (QoS) notifications.<br/></td>
 </tr>
 <tr class="odd">
 <td>Video decoders and video processors</td>
 <td>Optional: Support DirectX Video Acceleration.<br/>
 <ul>
-<li>[Direct3D-Aware MFTs](direct3d-aware-mfts.md)</li>
-<li>[Supporting DXVA 2.0 in Media Foundation](supporting-dxva-2-0-in-media-foundation.md)</li>
+<li><a href="direct3d-aware-mfts">Direct3D-Aware MFTs</a></li>
+<li><a href="supporting-dxva-2-0-in-media-foundation">Supporting DXVA 2.0 in Media Foundation</a></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Hardware codecs</td>
-<td>See [Hardware MFTs](hardware-mfts.md).</td>
+<td>See <a href="hardware-mfts">Hardware MFTs</a>.</td>
 </tr>
 <tr class="odd">
 <td>To make your MFT discoverable by applications...</td>
-<td>See [Registering and Enumerating MFTs](registering-and-enumerating-mfts.md).</td>
+<td>See <a href="registering-and-enumerating-mfts">Registering and Enumerating MFTs</a>.</td>
 </tr>
 <tr class="even">
 <td>Asynchronous data processing</td>
-<td>The default MFT model uses synchronous (blocking) calls to process data. For some MFTs, asynchronous processing can be more efficient. However, it is also more complex to implement.<br/> For more information, see [Asynchronous MFTs](asynchronous-mfts.md).<br/></td>
+<td>The default MFT model uses synchronous (blocking) calls to process data. For some MFTs, asynchronous processing can be more efficient. However, it is also more complex to implement.<br/> For more information, see <a href="asynchronous-mfts">Asynchronous MFTs</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td>Rate control, trick mode, or reverse playback</td>
-<td>See [Implementing Rate Control](implementing-rate-control.md).</td>
+<td>See <a href="implementing-rate-control">Implementing Rate Control</a>.</td>
 </tr>
 <tr class="even">
 <td>If your MFT creates threads...</td>
-<td>Implement the [<strong>IMFRealTimeClient</strong>](/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient) interface.</td>
+<td>Implement the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient"><strong>IMFRealTimeClient</strong></a> interface.</td>
 </tr>
 <tr class="odd">
 <td>If your MFT has licensing restrictions...</td>
-<td>Consider using the field-of-use mechanism. See [Field of Use Restrictions](field-of-use-restrictions.md).</td>
+<td>Consider using the field-of-use mechanism. See <a href="field-of-use-restrictions">Field of Use Restrictions</a>.</td>
 </tr>
 <tr class="even">
 <td>If you are porting an existing DirectX Media Object (DMO)...</td>
-<td>See [Comparison of MFTs and DMOs](comparison-of-mfts-and-dmos.md).</td>
+<td>See <a href="comparison-of-mfts-and-dmos">Comparison of MFTs and DMOs</a>.</td>
 </tr>
 </tbody>
 </table>

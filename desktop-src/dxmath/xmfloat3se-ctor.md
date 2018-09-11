@@ -44,8 +44,8 @@ Constructs instances of the [**XMFLOAT3SE**](https://msdn.microsoft.com/en-us/li
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3SE ()</strong>](https://msdn.microsoft.com/en-us/library/Ee419491(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT3SE</code>.<br/> Default constructor for [<strong>XMFLOAT3SE</strong>](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx).<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419491(v=VS.85).aspx"><strong>XMFLOAT3SE ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT3SE</code>.<br/> Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx"><strong>XMFLOAT3SE</strong></a>.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -53,8 +53,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3SE (uint32_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh437960(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from a <code>uint32_t</code> variable containing component data in a packed format.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3SE</strong>](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) from a <code>uint32_t</code> variable containing component data in a packed format.<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh437960(v=VS.85).aspx"><strong>XMFLOAT3SE (uint32_t)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from a <code>uint32_t</code> variable containing component data in a packed format.<br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx"><strong>XMFLOAT3SE</strong></a> from a <code>uint32_t</code> variable containing component data in a packed format.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -62,8 +62,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3SE (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee419499(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from a three element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMFLOAT3SE</strong>](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) from a from a three element <code>float</code> array argument. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419499(v=VS.85).aspx"><strong>XMFLOAT3SE (const float*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from a three element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx"><strong>XMFLOAT3SE</strong></a> from a from a three element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -71,8 +71,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3SE (float,float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee419494(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from three <code>float</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3SE</strong>](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) from three <code>float</code> arguments.<br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419494(v=VS.85).aspx"><strong>XMFLOAT3SE (float,float,float)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from three <code>float</code> arguments.<br/> This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx"><strong>XMFLOAT3SE</strong></a> from three <code>float</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.

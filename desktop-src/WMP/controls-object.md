@@ -1,7 +1,7 @@
 ---
 title: Controls Object
 description: The Controls object provides a way to manipulate the playback of media using the following properties and methods.
-ms.assetid: 1678c931-af47-42c9-a8a5-b6b775aebda8
+ms.assetid: 'bcc1e768-4fa6-4c82-a12f-52c9bfb4c10c'
 keywords:
 - Controls Object Windows Media Player
 topic_type:

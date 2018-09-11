@@ -1,7 +1,7 @@
 ---
 title: TfClientId
 description: The TfClientId data type is used to identify the client.
-ms.assetid: ccb06ed3-67e2-4e46-8037-ff215ba23601
+ms.assetid: '984dc390-6e15-4491-8c06-77c27c5bdd6f'
 keywords:
 - TfClientId
 ms.technology: desktop

@@ -64,7 +64,7 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 </tr>
 <tr class="odd">
 <td><span id="______________Annotations__"></span><span id="______________annotations__"></span><span id="______________ANNOTATIONS__"></span> <<em>Annotations</em> ><br/></td>
-<td>[in] Optional. One or more pieces of user-supplied information (metadata) that is ignored by the effect system. For syntax, see [Annotation Syntax (Direct3D 11)](d3d11-effect-annotation-syntax.md).<br/></td>
+<td>[in] Optional. One or more pieces of user-supplied information (metadata) that is ignored by the effect system. For syntax, see <a href="d3d11-effect-annotation-syntax">Annotation Syntax (Direct3D 11)</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="pass"></span><span id="PASS"></span>pass<br/></td>
@@ -121,7 +121,7 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 </table>
 
 </div>
-<p>See [<strong>ID3D11DeviceContext::OMSetDepthStencilState</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetdepthstencilstate) for the argument list.</p></td>
+<p>See <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetdepthstencilstate"><strong>ID3D11DeviceContext::OMSetDepthStencilState</strong></a> for the argument list.</p></td>
 </tr>
 <tr class="odd">
 <td>Rasterizer State</td>
@@ -157,7 +157,7 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 </table>
 
 </div>
-<p>SetXXXShader is one of SetVertexShader, SetDomainShader, SetHullShader, SetGeometryShader, SetPixelShader or SetComputeShader (which are similar to the API methods [<strong>ID3D11DeviceContext::VSSetShader</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-vssetshader), [<strong>ID3D11DeviceContext::DSSetShader</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dssetshader), [<strong>ID3D11DeviceContext::HSSetShader</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-hssetshader), [<strong>ID3D11DeviceContext::GSSetShader</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-gssetshader), [<strong>ID3D11DeviceContext::PSSetShader</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-pssetshader) and [<strong>ID3D11DeviceContext::CSSetShader</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-cssetshader)).</p>
+<p>SetXXXShader is one of SetVertexShader, SetDomainShader, SetHullShader, SetGeometryShader, SetPixelShader or SetComputeShader (which are similar to the API methods <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-vssetshader"><strong>ID3D11DeviceContext::VSSetShader</strong></a>, <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dssetshader"><strong>ID3D11DeviceContext::DSSetShader</strong></a>, <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-hssetshader"><strong>ID3D11DeviceContext::HSSetShader</strong></a>, <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-gssetshader"><strong>ID3D11DeviceContext::GSSetShader</strong></a>, <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-pssetshader"><strong>ID3D11DeviceContext::PSSetShader</strong></a> and <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-cssetshader"><strong>ID3D11DeviceContext::CSSetShader</strong></a>).</p>
 <p>Shader is a shader variable, which can be obtained in many ways:</p>
 <div class="code">
 <span data-codelanguage=""></span>
@@ -201,7 +201,7 @@ SetRenderTargets( RTV0, RTV1, RTV2, RTV3, RTV4, RTV5, RTV6, RTV7, DSV );</code><
 </table>
 
 </div>
-<p>Similar to [<strong>ID3D11DeviceContext::OMSetRenderTargets</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets).</p></td>
+<p>Similar to <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets"><strong>ID3D11DeviceContext::OMSetRenderTargets</strong></a>.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: MPSTATUS\_DATAEX\_UNUSED structure
+title: MPSTATUS_DATAEX_UNUSED structure
 description: Dummy structure for non-SRP.
 ms.assetid: 396744CE-2435-4591-B0CF-A4392C88640F
 keywords:

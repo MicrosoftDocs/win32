@@ -1,5 +1,5 @@
 ---
-title: IWMPMetadataPicture (VB and C\ ) interface
+title: IWMPMetadataPicture (VB and C ) interface
 description: Provides properties for getting information about the image contained in a digital media file that is represented by a WM/Picturemetadata attribute.
 ms.assetid: f8260882-dfb8-4ff0-954c-5060cb7a6995
 keywords:

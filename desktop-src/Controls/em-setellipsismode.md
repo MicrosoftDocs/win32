@@ -1,5 +1,5 @@
 ---
-title: EM\_SETELLIPSISMODE message
+title: EM_SETELLIPSISMODE message
 description: This message sets the current ellipsis mode.
 ms.assetid: C77263E8-424B-4EDE-ACBF-BA85248FC31F
 keywords:

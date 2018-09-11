@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_Pinned
+title: UI_PKEY_Pinned
 description: Identifies the UI\_PKEY\_Pinned property.
 ms.assetid: 906b2ab9-1ed7-46a6-88bc-e8f9160ab60c
 ms.technology: desktop

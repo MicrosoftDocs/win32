@@ -1,6 +1,6 @@
 ---
 Description: This section describes platform-defined constants.
-ms.assetid: ba85ccd8-5251-4e47-84da-80899fe84c39
+ms.assetid: '1396ffd6-a660-4e0b-96a8-b0ea8b7e208d'
 title: Constants
 ms.technology: desktop
 ms.prod: windows

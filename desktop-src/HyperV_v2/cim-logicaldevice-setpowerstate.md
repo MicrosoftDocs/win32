@@ -1,7 +1,7 @@
 ---
 Description: Sets the power state of the Device. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
 ms.assetid: 2f53a8bd-18a8-45aa-92ad-68a33b6a42ab
-title: SetPowerState method of the CIM\_LogicalDevice class
+title: SetPowerState method of the CIM_LogicalDevice class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

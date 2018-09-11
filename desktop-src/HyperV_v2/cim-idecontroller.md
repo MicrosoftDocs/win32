@@ -1,7 +1,7 @@
 ---
 Description: Describes the capabilities and management of an IDE controller.
 ms.assetid: c0290a91-4f2c-4759-af3b-8ba89dc723a9
-title: CIM\_IDEController class
+title: CIM_IDEController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

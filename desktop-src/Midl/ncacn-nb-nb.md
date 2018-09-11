@@ -1,5 +1,5 @@
 ---
-title: ncacn\_nb\_nb attribute
+title: ncacn_nb_nb attribute
 description: The ncacn\_nb\_nb keyword identifies NetBEUI over NetBIOS as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: 8bab2784-44ba-4356-85c1-5bd17e75d6a8
 keywords:

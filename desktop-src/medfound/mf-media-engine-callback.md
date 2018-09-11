@@ -1,7 +1,7 @@
 ---
 Description: Contains a pointer to the callback interface for the Media Engine.
 ms.assetid: 5FAEF29A-B978-410A-8F5B-EB6F7E35EE6D
-title: MF\_MEDIA\_ENGINE\_CALLBACK attribute
+title: MF_MEDIA_ENGINE_CALLBACK attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

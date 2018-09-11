@@ -1,7 +1,7 @@
 ---
 title: TaskDefinition.Actions property
 description: For scripting, gets or sets a collection of actions that are performed by the task.
-ms.assetid: 24c00a2a-9b1e-4ef2-a28d-9faf39d53a06
+ms.assetid: 'b970fbda-c0c9-4ca4-b2d8-bd17cdf23eea'
 keywords:
 - Actions property Task Scheduler
 - Actions property Task Scheduler , TaskDefinition object

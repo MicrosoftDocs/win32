@@ -7,7 +7,7 @@ ms.assetid: eb326bba-a011-4b9c-b4ee-fc08ae364f6f
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_NTLMUser9X class'
+title: '__NTLMUser9X class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

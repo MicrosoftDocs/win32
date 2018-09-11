@@ -1,7 +1,7 @@
 ---
 Description: The LINECALLFEATURE\_ constants indicate operations that can be invoked for a given address or call.
 ms.assetid: 8bb1d678-079c-4c83-b4a2-08fd7afdca9b
-title: LINECALLFEATURE\_ Constants
+title: LINECALLFEATURE_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

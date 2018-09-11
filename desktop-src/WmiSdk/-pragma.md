@@ -7,7 +7,7 @@ ms.assetid: 3cf22686-dd56-43a3-9584-3d707a20a3a0
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\#pragma'
+title: '#pragma'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

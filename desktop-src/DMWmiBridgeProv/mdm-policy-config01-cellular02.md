@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Cellular02 class
+title: MDM_Policy_Config01_Cellular02 class
 description: The MDM\_Policy\_Config01\_Cellular02 class configures the cellular policies.
 ms.assetid: e5926a21-a375-4d1c-8b37-7fe7f7532c50
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum number of Long Term Reference (LTR) frames controlled by application.
 ms.assetid: C34AD867-5F94-4414-A282-ECC392678635
-title: CODECAPI\_AVEncVideoLTRBufferControl property
+title: CODECAPI_AVEncVideoLTRBufferControl property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -51,7 +51,7 @@ The value of this control includes two fields, where each field has 16 bits.
 </tr>
 <tr class="even">
 <td><span id="The_second_field"></span><span id="the_second_field"></span><span id="THE_SECOND_FIELD"></span><dl> <dt><strong>The second field</strong></dt> <dt>Bits[16..31]</dt> </dl></td>
-<td>The trust mode of LTR control.<br/> <strong>H.264/AVC encoders:</strong><br/> 1 (Trust Until) means the encoder may use an LTR frame unless the app explicitly invalidates it through the [CODECAPI_AVEncVideoUseLTRFrame](codecapi-avencvideouseltrframe.md) control. <br/> Other values are invalid and reserved for future use.<br/></td>
+<td>The trust mode of LTR control.<br/> <strong>H.264/AVC encoders:</strong><br/> 1 (Trust Until) means the encoder may use an LTR frame unless the app explicitly invalidates it through the <a href="codecapi-avencvideouseltrframe">CODECAPI_AVEncVideoUseLTRFrame</a> control. <br/> Other values are invalid and reserved for future use.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -1,7 +1,7 @@
 ---
 title: save command
 description: The save command saves an MCI file. Video-overlay and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not support it.
-ms.assetid: 44200871-541c-4d67-ba12-61af06da8788
+ms.assetid: 'cae199b3-4ac4-49e0-9213-12d816b2f865'
 keywords:
 - save command Windows Multimedia
 topic_type:

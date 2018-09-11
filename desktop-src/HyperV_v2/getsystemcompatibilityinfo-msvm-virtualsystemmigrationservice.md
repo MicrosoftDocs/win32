@@ -1,7 +1,7 @@
 ---
 Description: Generates an opaque blob of data that contains compatibility information for the specified system.
 ms.assetid: 5cfb50c4-d695-4867-ac6a-234ce5120a6d
-title: GetSystemCompatibilityInfo method of the Msvm\_VirtualSystemMigrationService class
+title: GetSystemCompatibilityInfo method of the Msvm_VirtualSystemMigrationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

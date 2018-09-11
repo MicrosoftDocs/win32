@@ -1,5 +1,5 @@
 ---
-title: MDM\_AppLocker\_DLL03 class
+title: MDM_AppLocker_DLL03 class
 description: The MDM\_AppLocker\_DLL03 class defines the policy restrictions for processing DLL files.
 ms.assetid: 956b2ec0-f8a8-41d1-a571-01e73c4cebf9
 keywords:

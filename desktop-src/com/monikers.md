@@ -1,7 +1,7 @@
 ---
 title: Monikers
 description: A moniker in COM is not only a way to identify an object \ 8212;a moniker is also implemented as an object.
-ms.assetid: 3b52d3bd-8375-4463-a0e3-5117fa96a1c1
+ms.assetid: 'ae0cd2f3-8ac0-4388-8781-e86fc4a26b3b'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

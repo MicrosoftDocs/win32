@@ -1,5 +1,5 @@
 ---
-title: TB\_SETLISTGAP message
+title: TB_SETLISTGAP message
 description: Sets the distance between the toolbar buttons on a specific toolbar.
 ms.assetid: ca8ba6e4-cf70-41ca-ac61-cd13671d4010
 keywords:

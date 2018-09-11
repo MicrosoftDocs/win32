@@ -1,5 +1,5 @@
 ---
-title: D3DX\_FLOAT4\_to\_R8G8B8A8\_SNORM function
+title: D3DX_FLOAT4_to_R8G8B8A8_SNORM function
 description: Packs the given XMFLOAT4 back into a DXGI\_FORMAT\_R8G8B8A8\_SNORM.
 ms.assetid: 425aeabd-6249-4777-8935-827691abef24
 keywords:

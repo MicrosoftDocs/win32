@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_RouteList02\_01 class
+title: MDM_VPNv2_RouteList02_01 class
 description: The MDM\_VPNv2\_RouteList02\_01 class contains an optional list of routes to be added to the routing table for the VPN interface.
 ms.assetid: 4271b0c4-9d29-4148-b956-ac9306316c9b
 keywords:

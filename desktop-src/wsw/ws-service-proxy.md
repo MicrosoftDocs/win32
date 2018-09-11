@@ -1,5 +1,5 @@
 ---
-title: WS\_SERVICE\_PROXY
+title: WS_SERVICE_PROXY
 description: An opaque type used to reference a service proxy.
 ms.assetid: 623766ae-fe82-40f9-93c8-e78fe48bc6d1
 keywords:

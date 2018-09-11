@@ -1,7 +1,7 @@
 ---
 Description: Defines error codes that are returned by CAPICOM.
 ms.assetid: e72b8290-b482-4629-8b87-5a15677865a6
-title: CAPICOM\_ERROR\_CODE enumeration
+title: CAPICOM_ERROR_CODE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -58,42 +58,42 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_EKU_INVALID_OID</strong></td>
-<td>The [<strong>OID</strong>](eku-oid.md) property of the [<strong>EKU</strong>](eku.md) object cannot be set because the [<strong>Name</strong>](eku-name.md) property is not set to CAPICOM_EKU_OTHER.<br/> Set the [<strong>Name</strong>](eku-name.md) property to CAPICOM_EKU_OTHER before setting the [<strong>OID</strong>](eku-oid.md) property.<br/></td>
+<td>The <a href="eku-oid"><strong>OID</strong></a> property of the <a href="eku"><strong>EKU</strong></a> object cannot be set because the <a href="eku-name"><strong>Name</strong></a> property is not set to CAPICOM_EKU_OTHER.<br/> Set the <a href="eku-name"><strong>Name</strong></a> property to CAPICOM_EKU_OTHER before setting the <a href="eku-oid"><strong>OID</strong></a> property.<br/></td>
 <td>0x80880200</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_EKU_OID_NOT_INITIALIZED</strong></td>
-<td>The [<strong>OID</strong>](eku-oid.md) property of the [<strong>EKU</strong>](eku.md) object has not been initialized. <br/> Either set the [<strong>Name</strong>](eku-name.md) property to anything other than CAPICOM_EKU_OTHER, or set the <strong>Name</strong> property to CAPICOM_EKU_OTHER and the [<strong>OID</strong>](eku-oid.md) property to a value.<br/></td>
+<td>The <a href="eku-oid"><strong>OID</strong></a> property of the <a href="eku"><strong>EKU</strong></a> object has not been initialized. <br/> Either set the <a href="eku-name"><strong>Name</strong></a> property to anything other than CAPICOM_EKU_OTHER, or set the <strong>Name</strong> property to CAPICOM_EKU_OTHER and the <a href="eku-oid"><strong>OID</strong></a> property to a value.<br/></td>
 <td>0x80880201</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_CERTIFICATE_NOT_INITIALIZED</strong></td>
-<td>The [<strong>Certificate</strong>](certificate.md) object has not been initialized.<br/> Usually, this error code is returned when a [<strong>Certificate</strong>](certificate.md) object is instantiated but not associated with a digital certificate. To associate the object with a digital certificate, either assign it to an existing <strong>Certificate</strong> object or call the [<strong>Import</strong>](certificate-import.md) method.<br/></td>
+<td>The <a href="certificate"><strong>Certificate</strong></a> object has not been initialized.<br/> Usually, this error code is returned when a <a href="certificate"><strong>Certificate</strong></a> object is instantiated but not associated with a digital certificate. To associate the object with a digital certificate, either assign it to an existing <strong>Certificate</strong> object or call the <a href="certificate-import"><strong>Import</strong></a> method.<br/></td>
 <td>0x80880210</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_CERTIFICATE_NO_PRIVATE_KEY</strong></td>
-<td>The [<strong>Certificate</strong>](certificate.md) object does not have an associated private key.<br/> This error code is returned when an attempt is made to sign data using the signer's private key, but the [<strong>Certificate</strong>](certificate.md) object that is associated with the [<strong>Signer</strong>](signer.md) object cannot be used for the signing operation.<br/></td>
+<td>The <a href="certificate"><strong>Certificate</strong></a> object does not have an associated private key.<br/> This error code is returned when an attempt is made to sign data using the signer's private key, but the <a href="certificate"><strong>Certificate</strong></a> object that is associated with the <a href="signer"><strong>Signer</strong></a> object cannot be used for the signing operation.<br/></td>
 <td>0x80880211</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_CHAIN_NOT_BUILT</strong></td>
-<td>The [<strong>Chain</strong>](chain.md) object has not been initialized. <br/> To initialize the [<strong>Chain</strong>](chain.md) object, call the [<strong>Build</strong>](chain-build.md) method.<br/></td>
+<td>The <a href="chain"><strong>Chain</strong></a> object has not been initialized. <br/> To initialize the <a href="chain"><strong>Chain</strong></a> object, call the <a href="chain-build"><strong>Build</strong></a> method.<br/></td>
 <td>0x80880220</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_STORE_NOT_OPENED</strong></td>
-<td>The [<strong>Store</strong>](store.md) object has not been initialized. <br/> To initialize the [<strong>Store</strong>](store.md) object, call the [<strong>Open</strong>](store-open.md) method.<br/></td>
+<td>The <a href="store"><strong>Store</strong></a> object has not been initialized. <br/> To initialize the <a href="store"><strong>Store</strong></a> object, call the <a href="store-open"><strong>Open</strong></a> method.<br/></td>
 <td>0x80880230</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_STORE_EMPTY</strong></td>
-<td>The [<strong>Store</strong>](store.md) object does not contain any [<strong>Certificate</strong>](certificate.md) objects.<br/></td>
+<td>The <a href="store"><strong>Store</strong></a> object does not contain any <a href="certificate"><strong>Certificate</strong></a> objects.<br/></td>
 <td>0x80880231</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_STORE_INVALID_OPEN_MODE</strong></td>
-<td>The <em>OpenMode</em> parameter of the [<strong>Store.Open</strong>](store-open.md) method does not contain a valid value of CAPICOM_STORE_OPEN_MODE.<br/> The following list shows the valid values of CAPICOM_STORE_OPEN_MODE:
+<td>The <em>OpenMode</em> parameter of the <a href="store-open"><strong>Store.Open</strong></a> method does not contain a valid value of CAPICOM_STORE_OPEN_MODE.<br/> The following list shows the valid values of CAPICOM_STORE_OPEN_MODE:
 <ul>
 <li>CAPICOM_STORE_OPEN_READ_ONLY</li>
 <li>CAPICOM_STORE_OPEN_READ_WRITE</li>
@@ -106,7 +106,7 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_STORE_INVALID_SAVE_AS_TYPE</strong></td>
-<td>The <em>SaveAs</em> value passed to the [<strong>Export</strong>](store-export.md) method of the [<strong>Store</strong>](store.md) object was not valid. <br/> The following list shows the valid <em>SaveAs</em> values:
+<td>The <em>SaveAs</em> value passed to the <a href="store-export"><strong>Export</strong></a> method of the <a href="store"><strong>Store</strong></a> object was not valid. <br/> The following list shows the valid <em>SaveAs</em> values:
 <ul>
 <li>CAPICOM_STORE_SAVE_AS_SERIALIZED</li>
 <li>CAPICOM_STORE_SAVE_AS_PKCS7</li>
@@ -116,17 +116,17 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_ATTRIBUTE_NAME_NOT_INITIALIZED</strong></td>
-<td>The [<strong>Name</strong>](attribute-name.md) property of the [<strong>Attribute</strong>](attribute.md) object has not been initialized. <br/> Set the [<strong>Name</strong>](attribute-name.md) property.<br/></td>
+<td>The <a href="attribute-name"><strong>Name</strong></a> property of the <a href="attribute"><strong>Attribute</strong></a> object has not been initialized. <br/> Set the <a href="attribute-name"><strong>Name</strong></a> property.<br/></td>
 <td>0x80880240</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_ATTRIBUTE_VALUE_NOT_INITIALIZED</strong></td>
-<td>The [<strong>Value</strong>](attribute-value.md) property of the [<strong>Attribute</strong>](attribute.md) object has not been initialized. <br/> Set the [<strong>Value</strong>](attribute-value.md) property.<br/></td>
+<td>The <a href="attribute-value"><strong>Value</strong></a> property of the <a href="attribute"><strong>Attribute</strong></a> object has not been initialized. <br/> Set the <a href="attribute-value"><strong>Value</strong></a> property.<br/></td>
 <td>0x80880241</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_ATTRIBUTE_INVALID_NAME</strong></td>
-<td>The [<strong>Name</strong>](attribute-name.md) property of the [<strong>Attribute</strong>](attribute.md) object is not valid. <br/> The following list shows the valid attribute names:
+<td>The <a href="attribute-name"><strong>Name</strong></a> property of the <a href="attribute"><strong>Attribute</strong></a> object is not valid. <br/> The following list shows the valid attribute names:
 <ul>
 <li>CAPICOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME</li>
 <li>CAPICOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_NAME</li>
@@ -137,22 +137,22 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_ATTRIBUTE_INVALID_VALUE</strong></td>
-<td>The [<strong>Value</strong>](attribute-value.md) property of the [<strong>Attribute</strong>](attribute.md) object is not valid because the data type does not match the data type indicated by the <strong>Name</strong> property. <br/> For example, if the [<strong>Name</strong>](attribute-value.md) property is set to CAPICOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME, the data type must be <strong>DATE</strong>.<br/></td>
+<td>The <a href="attribute-value"><strong>Value</strong></a> property of the <a href="attribute"><strong>Attribute</strong></a> object is not valid because the data type does not match the data type indicated by the <strong>Name</strong> property. <br/> For example, if the <a href="attribute-value"><strong>Name</strong></a> property is set to CAPICOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME, the data type must be <strong>DATE</strong>.<br/></td>
 <td>0x80880243</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_SIGNER_NOT_INITIALIZED</strong></td>
-<td>The [<strong>Signer</strong>](signer.md) object has not been initialized. <br/> To initialize the [<strong>Signer</strong>](signer.md) object, set the [<strong>Certificate</strong>](signer-certificate.md) property.<br/></td>
+<td>The <a href="signer"><strong>Signer</strong></a> object has not been initialized. <br/> To initialize the <a href="signer"><strong>Signer</strong></a> object, set the <a href="signer-certificate"><strong>Certificate</strong></a> property.<br/></td>
 <td>0x80880250</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_SIGNER_NOT_FOUND</strong></td>
-<td>The signer cannot be found in the [<strong>SignedData</strong>](signeddata.md) object. <br/> Usually, this does not happen with a [<strong>SignedData</strong>](signeddata.md) object that was created by CAPICOM; however, if the <strong>SignedData</strong> object was created by a third-party product, the signer's certificate may not be included in the PKCS #7 structure.<br/></td>
+<td>The signer cannot be found in the <a href="signeddata"><strong>SignedData</strong></a> object. <br/> Usually, this does not happen with a <a href="signeddata"><strong>SignedData</strong></a> object that was created by CAPICOM; however, if the <strong>SignedData</strong> object was created by a third-party product, the signer's certificate may not be included in the PKCS #7 structure.<br/></td>
 <td>0x80880251</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_SIGNER_NO_CHAIN</strong></td>
-<td>A [<strong>Chain</strong>](chain.md) object cannot be found in the [<strong>Signer</strong>](signer.md) object.<br/></td>
+<td>A <a href="chain"><strong>Chain</strong></a> object cannot be found in the <a href="signer"><strong>Signer</strong></a> object.<br/></td>
 <td>0x80880252 // v2.0</td>
 </tr>
 <tr class="even">
@@ -162,22 +162,22 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_SIGN_NOT_INITIALIZED</strong></td>
-<td>The [<strong>SignedData</strong>](signeddata.md) object has not been initialized. <br/> To initialize the [<strong>SignedData</strong>](signeddata.md) object, set the [<strong>Content</strong>](signeddata-content.md) property or call the [<strong>Verify</strong>](signeddata-verify.md) method.<br/></td>
+<td>The <a href="signeddata"><strong>SignedData</strong></a> object has not been initialized. <br/> To initialize the <a href="signeddata"><strong>SignedData</strong></a> object, set the <a href="signeddata-content"><strong>Content</strong></a> property or call the <a href="signeddata-verify"><strong>Verify</strong></a> method.<br/></td>
 <td>0x80880260</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_SIGN_INVALID_TYPE</strong></td>
-<td>The [<strong>SignedData</strong>](signeddata.md) object contains a type that is not valid. <br/> Usually, this happens when an attempt is made to verify an enveloped message with a [<strong>SignedData</strong>](signeddata.md) object or vice versa.<br/></td>
+<td>The <a href="signeddata"><strong>SignedData</strong></a> object contains a type that is not valid. <br/> Usually, this happens when an attempt is made to verify an enveloped message with a <a href="signeddata"><strong>SignedData</strong></a> object or vice versa.<br/></td>
 <td>0x80880261</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_SIGN_NOT_SIGNED</strong></td>
-<td>The [<strong>SignedData</strong>](signeddata.md) object has not been signed. <br/> To sign the [<strong>SignedData</strong>](signeddata.md) object, call the [<strong>Sign</strong>](signeddata-sign.md) method.<br/></td>
+<td>The <a href="signeddata"><strong>SignedData</strong></a> object has not been signed. <br/> To sign the <a href="signeddata"><strong>SignedData</strong></a> object, call the <a href="signeddata-sign"><strong>Sign</strong></a> method.<br/></td>
 <td>0x80880262</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_INVALID_ALGORITHM</strong></td>
-<td>The algorithm value for the [<strong>Name</strong>](algorithm-name.md) property of the [<strong>Algorithm</strong>](algorithm.md) object is not valid. <br/> The following list shows the valid algorithm values for the [<strong>Name</strong>](algorithm-name.md) property:
+<td>The algorithm value for the <a href="algorithm-name"><strong>Name</strong></a> property of the <a href="algorithm"><strong>Algorithm</strong></a> object is not valid. <br/> The following list shows the valid algorithm values for the <a href="algorithm-name"><strong>Name</strong></a> property:
 <ul>
 <li>CAPICOM_ENCRYPTION_ALGORITHM_RC2</li>
 <li>CAPICOM_ENCRYPTION_ALGORITHM_RC4</li>
@@ -189,7 +189,7 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_INVALID_KEY_LENGTH</strong></td>
-<td>The key length value for the [<strong>KeyLength</strong>](algorithm-keylength.md) property of the [<strong>Algorithm</strong>](algorithm.md) object is not valid. <br/> The following list shows the valid key length values for the [<strong>KeyLength</strong>](algorithm-keylength.md) property:
+<td>The key length value for the <a href="algorithm-keylength"><strong>KeyLength</strong></a> property of the <a href="algorithm"><strong>Algorithm</strong></a> object is not valid. <br/> The following list shows the valid key length values for the <a href="algorithm-keylength"><strong>KeyLength</strong></a> property:
 <ul>
 <li>CAPICOM_ENCRYPTION_KEY_LENGTH_MAXIMUM</li>
 <li>CAPICOM_ENCRYPTION_KEY_LENGTH_40_BITS</li>
@@ -201,67 +201,67 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_ENVELOP_NOT_INITIALIZED</strong></td>
-<td>The [<strong>EnvelopedData</strong>](envelopeddata.md) object has not been initialized. <br/> To initialize the [<strong>EnvelopedData</strong>](envelopeddata.md) object, either set the [<strong>Content</strong>](envelopeddata-content.md) property or call the [<strong>Decrypt</strong>](envelopeddata-decrypt.md) method.<br/></td>
+<td>The <a href="envelopeddata"><strong>EnvelopedData</strong></a> object has not been initialized. <br/> To initialize the <a href="envelopeddata"><strong>EnvelopedData</strong></a> object, either set the <a href="envelopeddata-content"><strong>Content</strong></a> property or call the <a href="envelopeddata-decrypt"><strong>Decrypt</strong></a> method.<br/></td>
 <td>0x80880280</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_ENVELOP_INVALID_TYPE</strong></td>
-<td>The [<strong>EnvelopedData</strong>](envelopeddata.md) object contains a type that is not valid. <br/> Usually, this happens when an attempt is made to verify a signed message with an [<strong>EnvelopedData</strong>](envelopeddata.md) object or vice versa.<br/></td>
+<td>The <a href="envelopeddata"><strong>EnvelopedData</strong></a> object contains a type that is not valid. <br/> Usually, this happens when an attempt is made to verify a signed message with an <a href="envelopeddata"><strong>EnvelopedData</strong></a> object or vice versa.<br/></td>
 <td>0x80880281</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_ENVELOP_NO_RECIPIENT</strong></td>
-<td>There is no recipient specified in the [<strong>EnvelopedData</strong>](envelopeddata.md) object when the [<strong>Encrypt</strong>](envelopeddata-encrypt.md) method of an <strong>EnvelopedData</strong> object is called. <br/> To add a recipient, call the [<strong>Recipients.Add</strong>](recipients-add.md) method.<br/></td>
+<td>There is no recipient specified in the <a href="envelopeddata"><strong>EnvelopedData</strong></a> object when the <a href="envelopeddata-encrypt"><strong>Encrypt</strong></a> method of an <strong>EnvelopedData</strong> object is called. <br/> To add a recipient, call the <a href="recipients-add"><strong>Recipients.Add</strong></a> method.<br/></td>
 <td>0x80880282</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_ENVELOP_RECIPIENT_NOT_FOUND</strong></td>
-<td>The recipient cannot be found in the [<strong>EnvelopedData</strong>](envelopeddata.md) object. <br/> Usually, this does not happen with an [<strong>EnvelopedData</strong>](envelopeddata.md) object that was created by CAPICOM; however, if the <strong>EnvelopedData</strong> object was created by a third-party product, the recipient's certificate may not be included in the PKCS #7 structure.<br/></td>
+<td>The recipient cannot be found in the <a href="envelopeddata"><strong>EnvelopedData</strong></a> object. <br/> Usually, this does not happen with an <a href="envelopeddata"><strong>EnvelopedData</strong></a> object that was created by CAPICOM; however, if the <strong>EnvelopedData</strong> object was created by a third-party product, the recipient's certificate may not be included in the PKCS #7 structure.<br/></td>
 <td>0x80880283</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_ENCRYPT_NOT_INITIALIZED</strong></td>
-<td>The [<strong>EncryptedData</strong>](encrypteddata.md) object has not been initialized. <br/> To initialize the [<strong>EncryptedData</strong>](encrypteddata.md) object, either set the [<strong>Content</strong>](encrypteddata-content.md) property or call the [<strong>Decrypt</strong>](encrypteddata-decrypt.md) method.<br/></td>
+<td>The <a href="encrypteddata"><strong>EncryptedData</strong></a> object has not been initialized. <br/> To initialize the <a href="encrypteddata"><strong>EncryptedData</strong></a> object, either set the <a href="encrypteddata-content"><strong>Content</strong></a> property or call the <a href="encrypteddata-decrypt"><strong>Decrypt</strong></a> method.<br/></td>
 <td>0x80880290</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_ENCRYPT_INVALID_TYPE</strong></td>
-<td>The [<strong>EncryptedData</strong>](encrypteddata.md) object is not a valid type. <br/> Usually, this means the data is corrupted.<br/></td>
+<td>The <a href="encrypteddata"><strong>EncryptedData</strong></a> object is not a valid type. <br/> Usually, this means the data is corrupted.<br/></td>
 <td>0x80880291</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_ENCRYPT_NO_SECRET</strong></td>
-<td>The secret of an [<strong>EncryptedData</strong>](encrypteddata.md) object has not been initialized. <br/> To initialize the secret of an [<strong>EncryptedData</strong>](encrypteddata.md) object, call the [<strong>SetSecret</strong>](encrypteddata-setsecret.md) method.<br/></td>
+<td>The secret of an <a href="encrypteddata"><strong>EncryptedData</strong></a> object has not been initialized. <br/> To initialize the secret of an <a href="encrypteddata"><strong>EncryptedData</strong></a> object, call the <a href="encrypteddata-setsecret"><strong>SetSecret</strong></a> method.<br/></td>
 <td>0x80880292</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_PRIVATE_KEY_NOT_INITIALIZED</strong></td>
-<td>The [<strong>PrivateKey</strong>](privatekey.md) object has not been initialized.<br/></td>
+<td>The <a href="privatekey"><strong>PrivateKey</strong></a> object has not been initialized.<br/></td>
 <td>0x80880300 // v2.0</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_PRIVATE_KEY_NOT_EXPORTABLE</strong></td>
-<td>The [<strong>PrivateKey</strong>](privatekey.md) object cannot be exported.<br/></td>
+<td>The <a href="privatekey"><strong>PrivateKey</strong></a> object cannot be exported.<br/></td>
 <td>0x80880301 // v2.0</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_ENCODE_NOT_INITIALIZED</strong></td>
-<td>The [<strong>EncodedData</strong>](encodeddata.md) object has not been initialized.<br/></td>
+<td>The <a href="encodeddata"><strong>EncodedData</strong></a> object has not been initialized.<br/></td>
 <td>0x80880320 // v2.0</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_EXTENSION_NOT_INITIALIZED</strong></td>
-<td>The [<strong>Extension</strong>](extension.md) object has not been initialized.<br/></td>
+<td>The <a href="extension"><strong>Extension</strong></a> object has not been initialized.<br/></td>
 <td>0x80880330 // v2.0</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_PROPERTY_NOT_INITIALIZED</strong></td>
-<td>The [<strong>PropID</strong>](extendedproperty-propid.md) property of the [<strong>ExtendedProperty</strong>](extendedproperty.md) object has not been initialized.<br/></td>
+<td>The <a href="extendedproperty-propid"><strong>PropID</strong></a> property of the <a href="extendedproperty"><strong>ExtendedProperty</strong></a> object has not been initialized.<br/></td>
 <td>0x80880340 // v2.0</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_FIND_INVALID_TYPE</strong></td>
-<td>The <em>FindType</em> parameter of the [<strong>Certificates.Find</strong>](certificates-find.md) method is not a value of the [<strong>CAPICOM_CERTIFICATE_FIND_TYPE</strong>](capicom-certificate-find-type.md) enumeration.<br/></td>
+<td>The <em>FindType</em> parameter of the <a href="certificates-find"><strong>Certificates.Find</strong></a> method is not a value of the <a href="capicom-certificate-find-type"><strong>CAPICOM_CERTIFICATE_FIND_TYPE</strong></a> enumeration.<br/></td>
 <td>0x80880350 // v2.0</td>
 </tr>
 <tr class="odd">
@@ -271,32 +271,32 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_CODE_NOT_INITIALIZED</strong></td>
-<td>The [<strong>SignedCode</strong>](signedcode.md) object has not been initialized.<br/></td>
+<td>The <a href="signedcode"><strong>SignedCode</strong></a> object has not been initialized.<br/></td>
 <td>0x80880360 // v2.0</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_CODE_NOT_SIGNED</strong></td>
-<td>The [<strong>SignedCode</strong>](signedcode.md) object has not been signed.<br/> To sign the [<strong>SignedCode</strong>](signedcode.md) object, call the [<strong>Sign</strong>](signedcode-sign.md) method.<br/></td>
+<td>The <a href="signedcode"><strong>SignedCode</strong></a> object has not been signed.<br/> To sign the <a href="signedcode"><strong>SignedCode</strong></a> object, call the <a href="signedcode-sign"><strong>Sign</strong></a> method.<br/></td>
 <td>0x80880361 // v2.0</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_CODE_DESCRIPTION_NOT_INITIALIZED</strong></td>
-<td>The [<strong>Description</strong>](signedcode-description.md) property of the [<strong>SignedCode</strong>](signedcode.md) object has not been initialized.<br/></td>
+<td>The <a href="signedcode-description"><strong>Description</strong></a> property of the <a href="signedcode"><strong>SignedCode</strong></a> object has not been initialized.<br/></td>
 <td>0x80880362 // v2.0</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_CODE_DESCRIPTION_URL_NOT_INITIALIZED</strong></td>
-<td>The [<strong>DescriptionURL</strong>](signedcode-descriptionurl.md) property of the [<strong>SignedCode</strong>](signedcode.md) object has not been initialized.<br/></td>
+<td>The <a href="signedcode-descriptionurl"><strong>DescriptionURL</strong></a> property of the <a href="signedcode"><strong>SignedCode</strong></a> object has not been initialized.<br/></td>
 <td>0x80880363 // v2.0</td>
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_CODE_INVALID_TIMESTAMP_URL</strong></td>
-<td>The <em>URL</em> parameter of the [<strong>SignedCode.Timestamp</strong>](signedcode-timestamp.md) method is not valid.<br/></td>
+<td>The <em>URL</em> parameter of the <a href="signedcode-timestamp"><strong>SignedCode.Timestamp</strong></a> method is not valid.<br/></td>
 <td>0x80880364 // v2.0</td>
 </tr>
 <tr class="odd">
 <td><strong>CAPICOM_E_HASH_NO_DATA</strong></td>
-<td>The [<strong>HashedData</strong>](hasheddata.md) object does not contain any data.<br/></td>
+<td>The <a href="hasheddata"><strong>HashedData</strong></a> object does not contain any data.<br/></td>
 <td>0x80880370 // v2.0</td>
 </tr>
 <tr class="even">
@@ -311,7 +311,7 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_UI_DISABLED</strong></td>
-<td>When signing, the [<strong>Certificate</strong>](signer-certificate.md) property of the [<strong>Signer</strong>](signer.md) object has not been set, but the prompt for the user certificate has been disabled. <br/> Either enable the prompt by setting the [<strong>EnablePromptForCertificateUI</strong>](settings-enablepromptforcertificateui.md) property of the [<strong>Settings</strong>](settings.md) object, or set the [<strong>Certificate</strong>](signer-certificate.md) property of the [<strong>Signer</strong>](signer.md) object.<br/></td>
+<td>When signing, the <a href="signer-certificate"><strong>Certificate</strong></a> property of the <a href="signer"><strong>Signer</strong></a> object has not been set, but the prompt for the user certificate has been disabled. <br/> Either enable the prompt by setting the <a href="settings-enablepromptforcertificateui"><strong>EnablePromptForCertificateUI</strong></a> property of the <a href="settings"><strong>Settings</strong></a> object, or set the <a href="signer-certificate"><strong>Certificate</strong></a> property of the <a href="signer"><strong>Signer</strong></a> object.<br/></td>
 <td>0x80880901</td>
 </tr>
 <tr class="odd">
@@ -321,7 +321,7 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 </tr>
 <tr class="even">
 <td><strong>CAPICOM_E_NOT_ALLOWED</strong></td>
-<td>The attempted operation is not allowed.<br/> For example, changing the [<strong>PropID</strong>](extendedproperty-propid.md) property of an [<strong>ExtendedProperty</strong>](extendedproperty.md) object is not allowed if the object is attached to a certificate.<br/></td>
+<td>The attempted operation is not allowed.<br/> For example, changing the <a href="extendedproperty-propid"><strong>PropID</strong></a> property of an <a href="extendedproperty"><strong>ExtendedProperty</strong></a> object is not allowed if the object is attached to a certificate.<br/></td>
 <td>0x80880903 // v2.0</td>
 </tr>
 <tr class="odd">

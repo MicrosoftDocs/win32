@@ -1,5 +1,5 @@
 ---
-title: AddLSToSpecifiedLicenseServerList method of the Win32\_TerminalServiceSetting class
+title: AddLSToSpecifiedLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Adds the given license server to the end of the list of specified license servers.
 audience: developer
 author: REDMOND\\markl

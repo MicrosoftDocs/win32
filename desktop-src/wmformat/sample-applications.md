@@ -1,7 +1,7 @@
 ---
 title: Sample Applications
 description: Sample Applications
-ms.assetid: 7bbcc238-2858-4a08-a76b-9502fc453f17
+ms.assetid: '037741cb-c5fb-485f-bf62-79b5465abfe4'
 keywords:
 - Windows Media Format SDK,sample applications
 - digital rights management (DRM),sample applications
@@ -46,7 +46,7 @@ The DRM portions of this sample are not supported on x64-based versions of Windo
 </tr>
 <tr class="even">
 <td>DRMHeader</td>
-<td>DRMHeader is a console application that uses the metadata editor's [<strong>IWMDRMEditor</strong>](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor) interface to read DRM attributes of files without linking to the DRM static library.
+<td>DRMHeader is a console application that uses the metadata editor's <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor"><strong>IWMDRMEditor</strong></a> interface to read DRM attributes of files without linking to the DRM static library.
 <blockquote>
 [!Note]<br />
 This sample is not supported on x64-based versions of Windows.
@@ -55,7 +55,7 @@ This sample is not supported on x64-based versions of Windows.
 </tr>
 <tr class="odd">
 <td>DRMShow</td>
-<td>DRMShow is a console application that shows how to read [<em>DRM</em>](wmformat-glossary.md) properties of a Windows Media file using the <strong>IWMDRMReader::GetDRMProperty</strong> method.This sample demonstrates the use of the <strong>IWMDRMReader::GetDRMProperty</strong> method and the properties that can be retrieved from the DRM reader. It does not demonstrate how to acquire a license for DRM-protected content. This sample requires the DRM stub library WMStubDRM.lib to build.<br/>
+<td>DRMShow is a console application that shows how to read <a href="wmformat-glossary"><em>DRM</em></a> properties of a Windows Media file using the <strong>IWMDRMReader::GetDRMProperty</strong> method.This sample demonstrates the use of the <strong>IWMDRMReader::GetDRMProperty</strong> method and the properties that can be retrieved from the DRM reader. It does not demonstrate how to acquire a license for DRM-protected content. This sample requires the DRM stub library WMStubDRM.lib to build.<br/>
 <blockquote>
 [!Note]<br />
 This sample is not supported on x64-based versions of Windows.
@@ -68,7 +68,7 @@ This sample is not supported on x64-based versions of Windows.
 </tr>
 <tr class="odd">
 <td>DirectShowInterop/DSPlay</td>
-<td>This sample is an interactive audio/video media file player with [<em>DRM</em>](wmformat-glossary.md) support. It uses DirectShow's WM ASF Reader filter to play Windows Media files (ASF, WMA, WMV) without DRM protection and files which use DRM at a level of 100 or below. See readme.txt in the sample's directory for more information.</td>
+<td>This sample is an interactive audio/video media file player with <a href="wmformat-glossary"><em>DRM</em></a> support. It uses DirectShow's WM ASF Reader filter to play Windows Media files (ASF, WMA, WMV) without DRM protection and files which use DRM at a level of 100 or below. See readme.txt in the sample's directory for more information.</td>
 </tr>
 <tr class="even">
 <td>DirectShowInterop/DSSeekFm</td>

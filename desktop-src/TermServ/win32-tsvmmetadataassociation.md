@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSVmMetadataAssociation class
+title: Win32_TSVmMetadataAssociation class
 description: Represents an association between a Remote Desktop virtual machine and its metadata properties.
 audience: developer
 author: REDMOND\\markl

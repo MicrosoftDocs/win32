@@ -1,7 +1,7 @@
 ---
 Description: Creates a new virtual machine instance.
 ms.assetid: 15BC967D-F392-45A6-ACF6-5C2F2334AAE6
-title: DefineSystem method of the Msvm\_VirtualSystemManagementService class
+title: DefineSystem method of the Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

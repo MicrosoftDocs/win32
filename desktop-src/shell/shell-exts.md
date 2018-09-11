@@ -1,6 +1,6 @@
 ---
 Description: This set of topics discusses how to implement the extension handlers that allow you to modify a variety of Shell actions.
-ms.assetid: ce21ca0f-157c-4f69-bcf9-dc259c3bac80
+ms.assetid: '794b6369-665f-49a9-a263-7c736c5ce8ac'
 title: Working with Shell Extensions
 ms.technology: desktop
 ms.prod: windows

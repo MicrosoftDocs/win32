@@ -1,5 +1,5 @@
 ---
-title: RBN\_AUTOSIZE notification code
+title: RBN_AUTOSIZE notification code
 description: Sent by a rebar control created with the RBS\_AUTOSIZE style when the rebar automatically resizes itself. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: d174fe99-13cc-404c-9dc5-d5a93e9807a2
 keywords:

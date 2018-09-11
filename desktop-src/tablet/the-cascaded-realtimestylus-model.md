@@ -51,32 +51,32 @@ The following list describes the constraints associated with using the cascaded 
     </thead>
     <tbody>
     <tr class="odd">
-    <td>[GetDesiredPacketDescription](https://msdn.microsoft.com/library/ms825905(v=MSDN.10).aspx)</td>
-    <td>This method returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns the default value.<br/></td>
+    <td><a href="https://msdn.microsoft.com/library/ms825905(v=MSDN.10).aspx">GetDesiredPacketDescription</a></td>
+    <td>This method returns the information from the primary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns the default value.<br/></td>
     </tr>
     <tr class="even">
-    <td>[SetDesiredPacketDescription](https://msdn.microsoft.com/library/ms826041(v=MSDN.10).aspx)</td>
-    <td>This method raises an [InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx) exception.<br/></td>
+    <td><a href="https://msdn.microsoft.com/library/ms826041(v=MSDN.10).aspx">SetDesiredPacketDescription</a></td>
+    <td>This method raises an <a href="https://msdn.microsoft.com/library/system.invalidoperationexception.aspx">InvalidOperationException</a> exception.<br/></td>
     </tr>
     <tr class="odd">
-    <td>[GetStyluses](https://msdn.microsoft.com/library/ms825913(v=MSDN.10).aspx)</td>
-    <td>This method returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns an empty array.<br/></td>
+    <td><a href="https://msdn.microsoft.com/library/ms825913(v=MSDN.10).aspx">GetStyluses</a></td>
+    <td>This method returns the information from the primary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns an empty array.<br/></td>
     </tr>
     <tr class="even">
-    <td>[Enabled](https://msdn.microsoft.com/library/ms824832(v=MSDN.10).aspx)</td>
-    <td>Getting this property returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
+    <td><a href="https://msdn.microsoft.com/library/ms824832(v=MSDN.10).aspx">Enabled</a></td>
+    <td>Getting this property returns the information from the primary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
     <blockquote>
     [!Note]<br />
-    Setting this property raises an [InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx) exception.
+    Setting this property raises an <a href="https://msdn.microsoft.com/library/system.invalidoperationexception.aspx">InvalidOperationException</a> exception.
     </blockquote>
     <br/></td>
     </tr>
     <tr class="odd">
-    <td>[WindowInputRectangle](https://msdn.microsoft.com/library/ms824834(v=MSDN.10).aspx)</td>
-    <td>Getting this property returns the information from the primary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) object.<br/> If the secondary [<strong>RealTimeStylus</strong>](realtimestylus-class.md) is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
+    <td><a href="https://msdn.microsoft.com/library/ms824834(v=MSDN.10).aspx">WindowInputRectangle</a></td>
+    <td>Getting this property returns the information from the primary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
     <blockquote>
     [!Note]<br />
-    Setting this property raises an [InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx) exception.
+    Setting this property raises an <a href="https://msdn.microsoft.com/library/system.invalidoperationexception.aspx">InvalidOperationException</a> exception.
     </blockquote>
     <br/></td>
     </tr>

@@ -1,5 +1,5 @@
 ---
-title: TLS\_HANDLE
+title: TLS_HANDLE
 description: Represents a handle to a Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl

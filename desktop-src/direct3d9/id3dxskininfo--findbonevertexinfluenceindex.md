@@ -1,6 +1,6 @@
 ---
 Description: Retrieves the index of the bone influence affecting a single vertex.
-ms.assetid: 85fd48c1-7d3a-480f-ae34-c53010000123
+ms.assetid: 'vs|directx_sdk|~\id3dxskininfo__findbonevertexinfluenceindex.htm'
 title: ID3DXSkinInfo::FindBoneVertexInfluenceIndex method
 ms.technology: desktop
 ms.prod: windows

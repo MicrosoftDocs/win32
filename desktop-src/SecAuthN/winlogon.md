@@ -1,6 +1,6 @@
 ---
 Description: Winlogon handles interface functions that are independent of authentication policy. It creates the desktops for the window station, implements time-out operations, and provides a set of support functions for the GINA.
-ms.assetid: 70b47e29-c755-4c59-a493-d7fcbbc94b83
+ms.assetid: '232d1dcc-5388-480c-8d27-caf8ded4575d'
 title: Winlogon
 ms.technology: desktop
 ms.prod: windows

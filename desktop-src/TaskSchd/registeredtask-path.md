@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.Path property
 description: For scripting, gets the path to where the registered task is stored.
-ms.assetid: cf097dae-d92b-48c8-bc96-8169b94b0763
+ms.assetid: 'b7991e17-9dcb-4342-bac3-ab86d79de146'
 keywords:
 - Path property Task Scheduler
 - Path property Task Scheduler , RegisteredTask object

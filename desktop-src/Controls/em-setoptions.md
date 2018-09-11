@@ -1,5 +1,5 @@
 ---
-title: EM\_SETOPTIONS message
+title: EM_SETOPTIONS message
 description: Sets the options for a rich edit control.
 ms.assetid: 98ef2de9-4c34-45ba-8e8a-eaf505f97f56
 keywords:

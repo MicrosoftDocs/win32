@@ -1,7 +1,7 @@
 ---
 Description: The WPD\_EXPOSURE\_METERING\_MODES enumeration type describes the metering mode to use when estimating exposure for still image capture by a device.
 ms.assetid: 5e92013c-600d-4128-ab59-1cfa8953db67
-title: WPD\_EXPOSURE\_METERING\_MODES enumeration
+title: WPD_EXPOSURE_METERING_MODES enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

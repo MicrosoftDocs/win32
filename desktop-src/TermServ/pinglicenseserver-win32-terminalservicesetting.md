@@ -1,5 +1,5 @@
 ---
-title: PingLicenseServer method of the Win32\_TerminalServiceSetting class
+title: PingLicenseServer method of the Win32_TerminalServiceSetting class
 description: PingLicenseServer is no longer available.
 audience: developer
 author: REDMOND\\markl

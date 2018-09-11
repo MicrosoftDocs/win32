@@ -1,6 +1,6 @@
 ---
 Description: The ReplayChapter event is sent when the ReplayChapter command has been enabled or disabled.
-ms.assetid: ea1567fc-708f-4dcd-abc2-b5bdc9f6a62c
+ms.assetid: '557c6076-a57e-4424-b90c-9299387b413f'
 title: ReplayChapter
 ms.technology: desktop
 ms.prod: windows

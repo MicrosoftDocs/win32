@@ -1,5 +1,5 @@
 ---
-title: BITS\_COST\_STATE
+title: BITS_COST_STATE
 description: The BITS\_COST\_STATE enumeration defines the constant values that specify the BITS cost state.
 ms.assetid: A8C36D4E-98B3-45C4-9ECD-9B5280133176
 topic_type:

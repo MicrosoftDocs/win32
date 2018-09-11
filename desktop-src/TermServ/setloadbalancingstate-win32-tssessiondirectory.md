@@ -1,5 +1,5 @@
 ---
-title: SetLoadBalancingState method of the Win32\_TSSessionDirectory class
+title: SetLoadBalancingState method of the Win32_TSSessionDirectory class
 description: Sets the value to indicate whether the server will participate in Remote Desktop Connection Broker (RD Connection Broker) load balancing.
 audience: developer
 author: REDMOND\\markl

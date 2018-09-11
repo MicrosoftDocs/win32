@@ -1,7 +1,7 @@
 ---
 Description: Sent to an application to provide commands and request information. A window receives this message through its WindowProc function.
 ms.assetid: c5e9f256-eed2-46cb-bb33-0e640a975f1f
-title: WM\_IME\_REQUEST message
+title: WM_IME_REQUEST message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# WM\_IME\_REQUEST message
+# WM_IME_REQUEST message
 
 Sent to an application to provide commands and request information. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
@@ -41,7 +41,17 @@ A handle to window.
 
 Command. This parameter can have one of the following values:
 
-<dl> <dd>[IMR\_CANDIDATEWINDOW](imr-candidatewindow.md)</dd> <dd>[IMR\_COMPOSITIONFONT](imr-compositionfont.md)</dd> <dd>[IMR\_COMPOSITIONWINDOW](imr-compositionwindow.md)</dd> <dd>[IMR\_CONFIRMRECONVERTSTRING](imr-confirmreconvertstring.md)</dd> <dd>[IMR\_DOCUMENTFEED](imr-documentfeed.md)</dd> <dd>[IMR\_QUERYCHARPOSITION](imr-querycharposition.md)</dd> <dd>[IMR\_RECONVERTSTRING](imr-reconvertstring.md)</dd> </dl> </dd> <dt>
+<dl> 
+<dd><a href="imr-candidatewindow">IMR_CANDIDATEWINDOW</a></dd> 
+<dd><a href="imr-compositionfont">IMR_COMPOSITIONFONT</a></dd> 
+<dd><a href="imr-compositionwindow">IMR_COMPOSITIONWINDOW</a></dd> 
+<dd><a href="imr-confirmreconvertstring">IMR_CONFIRMRECONVERTSTRING</a></dd> 
+<dd><a href="imr-documentfeed">IMR_DOCUMENTFEED</a></dd> 
+<dd><a href="imr-querycharposition">IMR_QUERYCHARPOSITION</a></dd> 
+<dd><a href="imr-reconvertstring">IMR_RECONVERTSTRING</a></dd> 
+</dl> 
+</dd> 
+<dt>
 
 *lParam* 
 </dt> <dd>
@@ -76,25 +86,25 @@ Returns a command-specific value.
 [Input Method Manager Messages](input-method-manager-messages.md)
 </dt> <dt>
 
-[IMR\_CANDIDATEWINDOW](imr-candidatewindow.md)
+[IMR_CANDIDATEWINDOW](imr-candidatewindow.md)
 </dt> <dt>
 
-[IMR\_COMPOSITIONFONT](imr-compositionfont.md)
+[IMR_COMPOSITIONFONT](imr-compositionfont.md)
 </dt> <dt>
 
-[IMR\_COMPOSITIONWINDOW](imr-compositionwindow.md)
+[IMR_COMPOSITIONWINDOW](imr-compositionwindow.md)
 </dt> <dt>
 
-[IMR\_CONFIRMRECONVERTSTRING](imr-confirmreconvertstring.md)
+[IMR_CONFIRMRECONVERTSTRING](imr-confirmreconvertstring.md)
 </dt> <dt>
 
-[IMR\_DOCUMENTFEED](imr-documentfeed.md)
+[IMR_DOCUMENTFEED](imr-documentfeed.md)
 </dt> <dt>
 
-[IMR\_QUERYCHARPOSITION](imr-querycharposition.md)
+[IMR_QUERYCHARPOSITION](imr-querycharposition.md)
 </dt> <dt>
 
-[IMR\_RECONVERTSTRING](imr-reconvertstring.md)
+[IMR_RECONVERTSTRING](imr-reconvertstring.md)
 </dt> </dl>
 
  

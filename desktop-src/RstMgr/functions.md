@@ -1,7 +1,7 @@
 ---
 title: Restart Manager Functions
 description: The Restart Manager API uses the functions identified in the following table.
-ms.assetid: abb78aa5-0487-4e99-85b6-adc38b600c09
+ms.assetid: 'ed39695a-1eb6-42fe-87a0-bd690bbce028'
 keywords:
 - Restart Manager Restart Mgr , reference, functions
 ms.technology: desktop

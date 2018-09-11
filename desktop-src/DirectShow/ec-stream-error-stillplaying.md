@@ -1,7 +1,7 @@
 ---
 Description: An error occurred in a stream, but the stream is still playing.
 ms.assetid: ff155c01-22ba-46dd-85b8-05eabf956908
-title: EC\_STREAM\_ERROR\_STILLPLAYING
+title: EC_STREAM_ERROR_STILLPLAYING
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

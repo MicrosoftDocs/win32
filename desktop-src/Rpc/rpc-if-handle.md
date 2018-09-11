@@ -1,5 +1,5 @@
 ---
-title: RPC\_IF\_HANDLE
+title: RPC_IF_HANDLE
 description: The RPC\_IF\_HANDLE data type declares an interface handle.
 ms.assetid: a85f3a44-7cdf-421f-a1e4-c67a9dd0c54d
 keywords:

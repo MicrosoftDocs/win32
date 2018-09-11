@@ -1,6 +1,6 @@
 ---
 Description: This section presents information about Security Support Provider Interface (SSPI).
-ms.assetid: 21227b11-a089-49fe-83c7-69e5b2ceed34
+ms.assetid: '91d2389b-1238-49d3-9fef-f1017a8072df'
 title: SSPI
 ms.technology: desktop
 ms.prod: windows

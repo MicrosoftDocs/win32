@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_MGType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_MGType class
 description: The CreateInstanceFromPropertyData method instantiates a Mail Group (MG) Resource Record.
 ms.assetid: 98e2ecb3-bf2f-42db-8a8b-de10a29f5a5a
 keywords:

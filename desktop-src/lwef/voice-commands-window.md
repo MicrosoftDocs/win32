@@ -1,7 +1,7 @@
 ---
 title: Voice Commands Window
 description: Voice Commands Window
-ms.assetid: 4cbf1eeb-be35-46e5-87c0-08e022db621c
+ms.assetid: 'vs|msagent|~\guidlin_12gn.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

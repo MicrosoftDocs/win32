@@ -1,6 +1,6 @@
 ---
 Description: Providers manage running volumes and create the shadow copies of them on demand.
-ms.assetid: 9f40f1d1-a63a-4edc-aa8d-b3998ecb2716
+ms.assetid: '4e6b46b0-df9e-4458-b0ac-e237d7656337'
 title: Providers
 ms.technology: desktop
 ms.prod: windows

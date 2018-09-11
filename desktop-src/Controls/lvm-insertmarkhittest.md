@@ -1,5 +1,5 @@
 ---
-title: LVM\_INSERTMARKHITTEST message
+title: LVM_INSERTMARKHITTEST message
 description: Retrieves the insertion point closest to a specified point.
 ms.assetid: 901bb770-a36d-4d9f-a53b-d497b4df39e5
 keywords:
@@ -31,7 +31,7 @@ Retrieves the insertion point closest to a specified point.
 </dt> <dd>Pointer to a **POINT** structure that contains the hit test coordinates.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to an [**LVINSERTMARK**](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark) structure that specifies the insertion point closest to the coordinates defined by the *wParam* parameter.</dd> </dl>
+</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark">LVINSERTMARK</a> structure that specifies the insertion point closest to the coordinates defined by the *wParam* parameter.</dd> </dl>
 
 ## Return value
 

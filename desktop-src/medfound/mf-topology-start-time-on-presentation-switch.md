@@ -1,7 +1,7 @@
 ---
 Description: Specifies the start time for presentations that are queued after the first presentation.
 ms.assetid: 087f5d61-b3e6-4fdf-98e6-b018de7b237f
-title: MF\_TOPOLOGY\_START\_TIME\_ON\_PRESENTATION\_SWITCH attribute
+title: MF_TOPOLOGY_START_TIME_ON_PRESENTATION_SWITCH attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

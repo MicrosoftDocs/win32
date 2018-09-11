@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_NetworkIsolation02 class
+title: MDM_Policy_Result01_NetworkIsolation02 class
 description: The MDM\_Policy\_Result01\_NetworkIsolation02 class represents the browser policies available.
 ms.assetid: f44f43fb-813b-4d40-a56c-0c497e004a8a
 keywords:

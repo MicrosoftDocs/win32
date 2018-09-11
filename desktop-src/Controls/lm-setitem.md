@@ -1,5 +1,5 @@
 ---
-title: LM\_SETITEM message
+title: LM_SETITEM message
 description: Sets the states and attributes of an item.
 ms.assetid: 02a68a31-2541-480e-b768-449d40e5e9e0
 keywords:
@@ -31,7 +31,7 @@ Sets the states and attributes of an item.
 </dt> <dd>Must be **NULL**. </dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a [**LITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglitem) structure containing the new states and attributes desired for the link. </dd> </dl>
+</dt> <dd>Pointer to a <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglitem">LITEM</a> structure containing the new states and attributes desired for the link. </dd> </dl>
 
 ## Return value
 

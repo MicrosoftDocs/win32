@@ -1,7 +1,7 @@
 ---
 Description: Specifies the container type of an encoded file.
 ms.assetid: 97fd968a-6843-4695-aece-02f9acd618fd
-title: MF\_TRANSCODE\_CONTAINERTYPE attribute
+title: MF_TRANSCODE_CONTAINERTYPE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

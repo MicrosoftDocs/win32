@@ -1,5 +1,5 @@
 ---
-title: EM\_STOPGROUPTYPING message
+title: EM_STOPGROUPTYPING message
 description: Stops a rich edit control from collecting additional typing actions into the current undo action. The control stores the next typing action, if any, into a new action in the undo queue.
 ms.assetid: 3059826f-84d1-4b7b-b4a8-da17d5f41013
 keywords:

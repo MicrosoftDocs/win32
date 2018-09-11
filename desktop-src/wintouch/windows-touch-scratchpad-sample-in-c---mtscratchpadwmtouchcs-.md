@@ -1,5 +1,5 @@
 ---
-title: Windows Touch Scratchpad Sample in C\ (MTScratchpadWMTouchCS)
+title: Windows Touch Scratchpad Sample in C (MTScratchpadWMTouchCS)
 description: This section describes the Windows Touch Scratchpad sample in C\ .
 ms.assetid: 652124be-01a8-4df4-b590-e5c2ca3f012c
 keywords:

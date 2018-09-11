@@ -1,7 +1,7 @@
 ---
 title: Using BITS
 description: Using BITS
-ms.assetid: f4a09a80-2a85-4b59-b0fd-c23c128973f7
+ms.assetid: '65b69ccb-b413-4690-ac0d-774d88608bdf'
 keywords:
 - Background Intelligent Transfer Service
 - Background Intelligent Transfer Service,tasks

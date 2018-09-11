@@ -1,5 +1,5 @@
 ---
-title: MDM\_Firewall\_PrivateProfile02 class
+title: MDM_Firewall_PrivateProfile02 class
 description: The MDM\_Firewall\_PrivateProfile02 class is used to configure the Windows Defender Firewall settings.
 ms.assetid: 9d25c181-e9a8-4f63-b276-b22676842667
 keywords:

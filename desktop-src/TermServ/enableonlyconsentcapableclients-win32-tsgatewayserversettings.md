@@ -1,5 +1,5 @@
 ---
-title: EnableOnlyConsentCapableClients method of the Win32\_TSGatewayServerSettings class
+title: EnableOnlyConsentCapableClients method of the Win32_TSGatewayServerSettings class
 description: Sets the OnlyConsentCapableClients property.
 audience: developer
 author: REDMOND\\markl

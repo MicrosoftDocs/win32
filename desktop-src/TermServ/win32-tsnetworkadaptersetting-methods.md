@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSNetworkAdapterSetting Methods
+title: Win32_TSNetworkAdapterSetting Methods
 description: The Win32\_TSNetworkAdapterSetting class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

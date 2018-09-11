@@ -30,36 +30,36 @@ These topics describe the documents and printing features of Windows that enable
 </thead>
 <tbody>
 <tr class="odd">
-<td>[What's New for Printing](https://msdn.microsoft.com/en-us/library/Hh448422(v=VS.85).aspx)<br/></td>
-<td>Windows 8 supports [printing for Windows Store apps using JavaScript and HTML](https://msdn.microsoft.com/library/windows/apps/hh465225) and [printing for Windows Store apps using C#/VB/C++ and XAML](https://msdn.microsoft.com/library/windows/apps/xaml/hh465196).<br/> Windows 8 also includes a new COM-based API that provides full support for Open XPS and access to portions of the new printer drivers that Windows 8 supports. For more information about the new API, see [Print Document Package API](https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx).<br/> The Windows Print Driver Inbox Program makes sure that Windows 8 includes support for a high percentage of the popular printers.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Hh448422(v=VS.85).aspx">What's New for Printing</a><br/></td>
+<td>Windows 8 supports <a href="https://msdn.microsoft.com/library/windows/apps/hh465225">printing for Windows Store apps using JavaScript and HTML</a> and <a href="https://msdn.microsoft.com/library/windows/apps/xaml/hh465196">printing for Windows Store apps using C#/VB/C++ and XAML</a>.<br/> Windows 8 also includes a new COM-based API that provides full support for Open XPS and access to portions of the new printer drivers that Windows 8 supports. For more information about the new API, see <a href="https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx">Print Document Package API</a>.<br/> The Windows Print Driver Inbox Program makes sure that Windows 8 includes support for a high percentage of the popular printers.<br/></td>
 </tr>
 <tr class="even">
-<td>[XPS Documents](https://msdn.microsoft.com/en-us/library/ms716526(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ms716526(v=VS.85).aspx">XPS Documents</a><br/></td>
 <td>Information about the XPS Document API an XPS Digital Signatures.<br/>
 <ul>
-<li>[XPS Document API](https://msdn.microsoft.com/en-us/library/Dd316976(v=VS.85).aspx)<br/> The XPS Document API is a native Windows API that supports the XPS OM. The XPS Document API was introduced in Windows 7 and can be used in user-mode programs and XPSDrv printer drivers.<br/></li>
-<li>[XPS Digital Signature API](https://msdn.microsoft.com/en-us/library/Ff819108(v=VS.85).aspx)<br/> XPS Digital Signatures enable document signing, verification of the signer's identity, and indication of whether an XPS document has changed since it was signed.<br/></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Dd316976(v=VS.85).aspx">XPS Document API</a><br/> The XPS Document API is a native Windows API that supports the XPS OM. The XPS Document API was introduced in Windows 7 and can be used in user-mode programs and XPSDrv printer drivers.<br/></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Ff819108(v=VS.85).aspx">XPS Digital Signature API</a><br/> XPS Digital Signatures enable document signing, verification of the signer's identity, and indication of whether an XPS document has changed since it was signed.<br/></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[Printing](printdocs-printing.md)<br/></td>
+<td><a href="printdocs-printing">Printing</a><br/></td>
 <td>Information about the printing features supported by Windows. These features include:<br/>
 <ul>
-<li>[Print Document Package API](https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx)<br/> Provides apps with an interface that allows the management of the <strong>PrintDocument</strong> package.<br/></li>
-<li>[Print Spooler API](print-spooler-api.md)<br/> Provides an interface to the print spooler so that applications can manage printers and print jobs.<br/></li>
-<li>[Print Ticket API](print-ticket-api.md)<br/> Provides applications with functions to manage and convert print tickets.<br/></li>
-<li>[GDI Print API](gdi-printing.md)<br/> Provides applications with a device-independent printing interface. <br/></li>
-<li><p>[XPS Print API](xps-printing.md)<br/> Provides an interface to the print spooler that applications can use to send XPS documents to a printer.</p>
+<li><a href="https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx">Print Document Package API</a><br/> Provides apps with an interface that allows the management of the <strong>PrintDocument</strong> package.<br/></li>
+<li><a href="print-spooler-api">Print Spooler API</a><br/> Provides an interface to the print spooler so that applications can manage printers and print jobs.<br/></li>
+<li><a href="print-ticket-api">Print Ticket API</a><br/> Provides applications with functions to manage and convert print tickets.<br/></li>
+<li><a href="gdi-printing">GDI Print API</a><br/> Provides applications with a device-independent printing interface. <br/></li>
+<li><p><a href="xps-printing">XPS Print API</a><br/> Provides an interface to the print spooler that applications can use to send XPS documents to a printer.</p>
 <blockquote>
 [!Note]<br />
-The XPS Print API is not supported and may be altered or unavailable in the future. Client applications should use the [Print Document Package API](https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx) instead.
+The XPS Print API is not supported and may be altered or unavailable in the future. Client applications should use the <a href="https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx">Print Document Package API</a> instead.
 </blockquote>
 <p><br/> <br/></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx)<br/></td>
-<td>The Print Schema and related technologies describe a printer's features and specify the printing preferences of a document to printers and viewing applications. The [Print Schema Specification](http://go.microsoft.com/?linkid=7141496) is a downloadable document that contains information about the Print Schema and how to use it in documents and printing. The online information that is found in this section is provided for your information only and might not accurately reflect the current version of the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496).<br/> Refer to the [Print Schema Specification](http://go.microsoft.com/?linkid=7141496) for the most current design information.<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx">Print Schema</a><br/></td>
+<td>The Print Schema and related technologies describe a printer's features and specify the printing preferences of a document to printers and viewing applications. The <a href="http://go.microsoft.com/?linkid=7141496">Print Schema Specification</a> is a downloadable document that contains information about the Print Schema and how to use it in documents and printing. The online information that is found in this section is provided for your information only and might not accurately reflect the current version of the <a href="http://go.microsoft.com/?linkid=7141496">Print Schema Specification</a>.<br/> Refer to the <a href="http://go.microsoft.com/?linkid=7141496">Print Schema Specification</a> for the most current design information.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SetPowerState method of the CIM\_FlatPanel class
+title: SetPowerState method of the CIM_FlatPanel class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

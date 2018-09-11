@@ -1,5 +1,5 @@
 ---
-title: WM\_MOUSEMOVE message
+title: WM_MOUSEMOVE message
 description: Posted to a window when the cursor moves. If the mouse is not captured, the message is posted to the window that contains the cursor. Otherwise, the message is posted to the window that has captured the mouse.
 ms.assetid: 9b99387e-e176-4b20-a05a-bc75928a1367
 keywords:

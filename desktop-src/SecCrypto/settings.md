@@ -50,12 +50,12 @@ The **Settings** object has these properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>ActiveDirectorySearchLocation</strong>](settings-activedirectorysearchlocation.md)<br/></td>
+<td style="text-align: left;"><a href="settings-activedirectorysearchlocation"><strong>ActiveDirectorySearchLocation</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Sets or retrieves the Active Directory search location. The initial location is unspecified by default. When the location is unspecified, the global catalog is searched, then the default domain is searched. The search determines whether the user certificate attribute is published at that location.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>EnablePromptForCertificateUI</strong>](settings-enablepromptforcertificateui.md)<br/></td>
+<td style="text-align: left;"><a href="settings-enablepromptforcertificateui"><strong>EnablePromptForCertificateUI</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Sets or retrieves a Boolean value that indicates whether user interface prompts for a signer or sender's identity can be used. <br/>
 <blockquote>

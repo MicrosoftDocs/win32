@@ -1,5 +1,5 @@
 ---
-title: BSCO\_OPTION enumeration
+title: BSCO_OPTION enumeration
 description: Specifies the callback notifications that the client wants from the moniker.
 ms.assetid: 82ca0285-5a03-40ab-b244-72e853e2a14a
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: CreateZone method of the MicrosoftDNS\_Zone class
+title: CreateZone method of the MicrosoftDNS_Zone class
 description: The CreateZone method creates a DNS zone.
 ms.assetid: 55756284-20ef-4d38-a8d9-357f53a6fa4d
 keywords:

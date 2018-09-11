@@ -29,7 +29,7 @@ An output protection manager (OPM) certificate can be revoked by Microsoft. The 
 <tbody>
 <tr class="odd">
 <td>Header</td>
-<td>A [<strong>GRL_HEADER</strong>](grl-header.md) structure.</td>
+<td>A <a href="grl-header"><strong>GRL_HEADER</strong></a> structure.</td>
 </tr>
 <tr class="even">
 <td>Core</td>

@@ -1,5 +1,5 @@
 ---
-title: MCI\_WAVE\_OPEN\_PARMS structure
+title: MCI_WAVE_OPEN_PARMS structure
 description: The MCI\_WAVE\_OPEN\_PARMS structure contains information for MCI\_OPEN command for waveform-audio devices.
 ms.assetid: 2fc9383e-4610-4751-acad-b545dc6d8992
 keywords:

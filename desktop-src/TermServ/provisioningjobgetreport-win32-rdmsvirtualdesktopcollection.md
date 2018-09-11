@@ -1,5 +1,5 @@
 ---
-title: ProvisioningJobGetReport method of the Win32\_RDMSVirtualDesktopCollection class
+title: ProvisioningJobGetReport method of the Win32_RDMSVirtualDesktopCollection class
 description: Gets a report about the status of a virtual desktop provisioning job.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: WM\_DDE\_ACK message
+title: WM_DDE_ACK message
 description: The WM\_DDE\_ACK message notifies a Dynamic Data Exchange (DDE) application of the receipt and processing of the following messages WM\_DDE\_POKE, WM\_DDE\_EXECUTE, WM\_DDE\_DATA, WM\_DDE\_ADVISE, WM\_DDE\_UNADVISE, WM\_DDE\_INITIATE, or WM\_DDE\_REQUEST (in some cases). To post this message, call the PostMessage function with the following parameters.
 ms.assetid: aca47dbf-e1f2-4725-8364-0aa7fcd98bd9
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_CREDENTIAL\_STATE enumeration
+title: WINBIO_CREDENTIAL_STATE enumeration
 description: Defines values that specify whether a credential has been associated with the biometric data for an end user.
 ms.assetid: c24f1771-7a1f-403e-8100-dfb3f4cd77a1
 keywords:

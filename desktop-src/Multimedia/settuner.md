@@ -1,7 +1,7 @@
 ---
 title: settuner command
 description: The settuner command changes the current tuner or the channel setting of the current tuner. VCR devices recognize this command.
-ms.assetid: d9f4d6b8-ba73-40ec-a2f9-76adab0fd6f4
+ms.assetid: '76d05210-3c2a-4d00-b3eb-c912c1deabf7'
 keywords:
 - settuner command Windows Multimedia
 topic_type:

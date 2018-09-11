@@ -1,5 +1,5 @@
 ---
-title: WM\_NCLBUTTONDBLCLK message
+title: WM_NCLBUTTONDBLCLK message
 description: Posted when the user double-clicks the left mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: fc655631-64d0-4cc5-b85e-25d274182994
 keywords:

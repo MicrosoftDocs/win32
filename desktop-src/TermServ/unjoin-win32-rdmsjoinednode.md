@@ -1,5 +1,5 @@
 ---
-title: Unjoin method of the Win32\_RDMSJoinedNode class
+title: Unjoin method of the Win32_RDMSJoinedNode class
 description: Removes a node from Remote Desktop Management Services (RDMS).
 audience: developer
 author: REDMOND\\markl

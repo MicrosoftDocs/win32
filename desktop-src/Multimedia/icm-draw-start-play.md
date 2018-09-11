@@ -1,5 +1,5 @@
 ---
-title: ICM\_DRAW\_START\_PLAY message
+title: ICM_DRAW_START_PLAY message
 description: The ICM\_DRAW\_START\_PLAY message provides the start and end times of a play operation to a rendering driver. You can send this message explicitly or by using the ICDrawStartPlay macro.
 ms.assetid: 27c4c06e-6510-43dc-a754-fe44144796f5
 keywords:

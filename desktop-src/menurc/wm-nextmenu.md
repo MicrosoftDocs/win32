@@ -1,5 +1,5 @@
 ---
-title: WM\_NEXTMENU message
+title: WM_NEXTMENU message
 description: Sent to an application when the right or left arrow key is used to switch between the menu bar and the system menu.
 ms.assetid: 3fa50fd3-47a6-4dae-9ceb-2abb6626e0a6
 keywords:

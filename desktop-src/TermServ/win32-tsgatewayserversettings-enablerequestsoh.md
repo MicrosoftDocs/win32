@@ -1,5 +1,5 @@
 ---
-title: EnableRequestSOH method of the Win32\_TSGatewayServerSettings class
+title: EnableRequestSOH method of the Win32_TSGatewayServerSettings class
 description: EnableRequestSOH is no longer available.
 audience: developer
 author: REDMOND\\markl

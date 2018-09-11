@@ -1,7 +1,7 @@
 ---
 Description: Specifies the size of the slice in units of megabyte (MB), bits, or MB row.
 ms.assetid: 42E7DB19-9FB9-4226-B0B5-97AD6B9C0E12
-title: CODECAPI\_AVEncSliceControlSize property
+title: CODECAPI_AVEncSliceControlSize property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

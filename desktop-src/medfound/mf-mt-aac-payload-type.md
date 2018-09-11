@@ -1,7 +1,7 @@
 ---
 Description: Specifies the payload type of an Advanced Audio Coding (AAC) stream.
 ms.assetid: a032fcf4-2584-4047-adbd-d94d4fc4e841
-title: MF\_MT\_AAC\_PAYLOAD\_TYPE attribute
+title: MF_MT_AAC_PAYLOAD_TYPE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

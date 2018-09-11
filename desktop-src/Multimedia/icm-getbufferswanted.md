@@ -1,5 +1,5 @@
 ---
-title: ICM\_GETBUFFERSWANTED message
+title: ICM_GETBUFFERSWANTED message
 description: The ICM\_GETBUFFERSWANTED message queries a driver for the number of buffers to allocate. You can send this message explicitly or by using the ICGetBuffersWanted macro.
 ms.assetid: 109e8627-7ed4-4f17-bf7f-e77f42dfc8c7
 keywords:

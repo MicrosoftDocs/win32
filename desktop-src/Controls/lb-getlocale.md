@@ -1,5 +1,5 @@
 ---
-title: LB\_GETLOCALE message
+title: LB_GETLOCALE message
 description: Gets the current locale of the list box. You can use the locale to determine the correct sorting order of displayed text (for list boxes with the LBS\_SORT style) and of text added by the LB\_ADDSTRING message.
 ms.assetid: ec814b03-5ce2-4b81-a36c-ab4c115f88be
 keywords:

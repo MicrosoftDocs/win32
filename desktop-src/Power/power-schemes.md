@@ -1,6 +1,6 @@
 ---
 Description: A power scheme is a collection of settings that controls the power usage of your computer.
-ms.assetid: b79e7b64-be56-4165-af59-a8251284d029
+ms.assetid: '36052517-a85c-4512-8772-8aec31551c77'
 title: Power Schemes
 ms.technology: desktop
 ms.prod: windows

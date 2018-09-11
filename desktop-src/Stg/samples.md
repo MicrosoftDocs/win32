@@ -1,7 +1,7 @@
 ---
 title: Samples
 description: Several sample applications are included with the Structured Storage documentation.
-ms.assetid: f8e20e40-cfef-4844-8b28-5a11fdcd691a
+ms.assetid: '0c48da47-b718-48fe-8ad0-39686bb83283'
 keywords:
 - Structured Storage Strctd Stg , samples
 ms.technology: desktop

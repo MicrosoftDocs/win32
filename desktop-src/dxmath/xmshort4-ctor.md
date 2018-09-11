@@ -44,8 +44,8 @@ Constructs instances of the [**XMSHORT4**](/windows/desktop/api/DirectXPackedVec
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMSHORT4 ()</strong>](https://msdn.microsoft.com/en-us/library/Ee420203(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMSHORT4</code>. <br/> Default constructor for [<strong>XMSHORT4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4). <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420203(v=VS.85).aspx"><strong>XMSHORT4 ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMSHORT4</code>. <br/> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4"><strong>XMSHORT4</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -53,8 +53,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMSHORT4 (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee420205(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMSHORT4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4) from a four element <code>float</code> array argument. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420205(v=VS.85).aspx"><strong>XMSHORT4 (const float*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMSHORT4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4"><strong>XMSHORT4</strong></a> from a four element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -62,8 +62,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMSHORT4 (const int16_t*)</strong>](https://msdn.microsoft.com/en-us/library/Hh404693(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT4</code> from a four element <code>int16_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMSHORT4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4) from a from a four element <code>int16_t</code> array argument. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404693(v=VS.85).aspx"><strong>XMSHORT4 (const int16_t*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMSHORT4</code> from a four element <code>int16_t</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4"><strong>XMSHORT4</strong></a> from a from a four element <code>int16_t</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -71,8 +71,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMSHORT4 (float,float,float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee420204(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMSHORT4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4) from four <code>float</code> arguments. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420204(v=VS.85).aspx"><strong>XMSHORT4 (float,float,float,float)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMSHORT4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4"><strong>XMSHORT4</strong></a> from four <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -80,8 +80,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMSHORT4 (int16_t,int16_t,int16_t,int16_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404692(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT4</code> from four <code>int16_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMSHORT4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4) from four <code>int16_t</code> arguments. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404692(v=VS.85).aspx"><strong>XMSHORT4 (int16_t,int16_t,int16_t,int16_t)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMSHORT4</code> from four <code>int16_t</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort4"><strong>XMSHORT4</strong></a> from four <code>int16_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.

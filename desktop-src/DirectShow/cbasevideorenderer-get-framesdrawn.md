@@ -1,7 +1,7 @@
 ---
 Description: The get\_FramesDrawn method retrieves the m\_cFramesDrawn member variable, giving the number of frames drawn since streaming started.
 ms.assetid: 486b5541-2952-47ce-944e-4efb8e5af9dd
-title: CBaseVideoRenderer.get\_FramesDrawn method
+title: CBaseVideoRenderer.get_FramesDrawn method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

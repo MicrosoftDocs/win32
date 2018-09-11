@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_DRIVER\_GET\_VERSION message
+title: WM_CAP_DRIVER_GET_VERSION message
 description: The WM\_CAP\_DRIVER\_GET\_VERSION message returns the version information of the capture driver connected to a capture window. You can send this message explicitly or by using the capDriverGetVersion macro.
 ms.assetid: 762ebe7e-0d09-46ea-ab17-86061f0bd8f9
 keywords:

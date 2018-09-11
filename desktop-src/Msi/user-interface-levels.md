@@ -29,20 +29,20 @@ Windows Installer provides package developers the capability to author an intern
 <tbody>
 <tr class="odd">
 <td>Full UI</td>
-<td>Displays modal and modeless dialog boxes that have been authored into the internal UI. Displays authored [Error Dialog](error-dialog.md) boxes.
+<td>Displays modal and modeless dialog boxes that have been authored into the internal UI. Displays authored <a href="error-dialog">Error Dialog</a> boxes.
 <blockquote>
 [!Note]<br />
-Modal dialog boxes require user input before the installation can continue and are specified by setting the [Modal Dialog Style Bit](modal-dialog-style-bit.md) in the Attributes column of the [Dialog](dialog-table.md) table. A modeless dialog box does not require user input for the installation to continue.
+Modal dialog boxes require user input before the installation can continue and are specified by setting the <a href="modal-dialog-style-bit">Modal Dialog Style Bit</a> in the Attributes column of the <a href="dialog-table">Dialog</a> table. A modeless dialog box does not require user input for the installation to continue.
 </blockquote>
-<br/> A full UI commonly exhibits [User Interface Wizard Behavior](user-interface-wizard-behavior.md).<br/></td>
+<br/> A full UI commonly exhibits <a href="user-interface-wizard-behavior">User Interface Wizard Behavior</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Reduced UI</td>
-<td>Displays any modeless dialog boxes that have been authored into the UI. Does not display any authored modal dialog boxes. Displays authored [Error Dialog](error-dialog.md) boxes. Displays [Disk Prompt](authoring-disk-prompt-messages.md) messages. Displays [FilesInUse Dialog](filesinuse-dialog.md) boxes.</td>
+<td>Displays any modeless dialog boxes that have been authored into the UI. Does not display any authored modal dialog boxes. Displays authored <a href="error-dialog">Error Dialog</a> boxes. Displays <a href="authoring-disk-prompt-messages">Disk Prompt</a> messages. Displays <a href="filesinuse-dialog">FilesInUse Dialog</a> boxes.</td>
 </tr>
 <tr class="odd">
 <td>Basic UI</td>
-<td>Displays the built-in modeless dialog boxes that show progress messages. Displays built-in error dialog boxes. Does not display any authored dialog boxes. Prompts users to insert a disk by displaying a dialog box containing the [<strong>DiskPrompt</strong>](diskprompt.md) property value.</td>
+<td>Displays the built-in modeless dialog boxes that show progress messages. Displays built-in error dialog boxes. Does not display any authored dialog boxes. Prompts users to insert a disk by displaying a dialog box containing the <a href="diskprompt"><strong>DiskPrompt</strong></a> property value.</td>
 </tr>
 <tr class="even">
 <td>None</td>

@@ -1,7 +1,7 @@
 ---
 title: TaskNamedValuePair.Value property
 description: For scripting, gets or sets the value that is associated with a name in a name-value pair.
-ms.assetid: 15428c07-fdce-40d0-a36c-5e23b462471b
+ms.assetid: '9bbf0c44-533f-48d6-a8ce-dca48f709c3f'
 keywords:
 - Value property Task Scheduler
 - Value property Task Scheduler , TaskNamedValuePair object

@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for IPv6 TCP/IP send events. The following syntax is simplified from MOF code.
 ms.assetid: 231ef62f-e3a5-497d-b10a-79449dc73c71
-title: TcpIp\_SendIPV6 class
+title: TcpIp_SendIPV6 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

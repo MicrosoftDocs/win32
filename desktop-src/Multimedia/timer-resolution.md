@@ -1,7 +1,7 @@
 ---
 title: Timer Resolution
 description: Timer Resolution
-ms.assetid: 237a6770-89b9-4922-b9e9-0e0bf3e0c9b6
+ms.assetid: '2e5e94fe-8175-417f-8c59-9d5cf052ea89'
 keywords:
 - multimedia timers,resolution
 - timers,resolution

@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.XML property
 description: For scripting, gets the XML-formatted registration information for the registered task.
-ms.assetid: cfa85a88-99f5-4c4f-afe8-44b3f27833e5
+ms.assetid: '59a88a19-2401-42aa-aa04-1933f16a7d7b'
 keywords:
 - XML property Task Scheduler
 - XML property Task Scheduler , RegisteredTask object

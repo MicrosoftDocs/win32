@@ -1,5 +1,5 @@
 ---
-title: SB\_SETUNICODEFORMAT message
+title: SB_SETUNICODEFORMAT message
 description: Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control.
 ms.assetid: 022e7138-c12f-4c59-82da-2ac6d276fa77
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: A list of some of the possible return codes for methods and functions.
 ms.assetid: 391b56a1-d0aa-4d35-8dba-cf7de66513d8
-title: S\_PRESENT
+title: S_PRESENT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

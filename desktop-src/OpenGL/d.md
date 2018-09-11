@@ -2,7 +2,7 @@
 title: D
 description: Definitions of OpenGL terms that begin with the letter D.
 Robots: noindex, nofollow
-ms.assetid: 8cda0919-5884-4ebe-92a1-0b3e694989be
+ms.assetid: 'f97470e7-a500-47d7-84f0-b3045d04b8fc'
 keywords:
 - depth
 - depth cueing

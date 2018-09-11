@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the last node in the list.
 ms.assetid: e72e4dab-da64-472a-b7bd-6af99883f703
-title: CBaseList::m\_pLast member
+title: CBaseList::m_pLast member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -7,7 +7,7 @@ ms.assetid: ea736e44-a6bc-41e5-abc5-9e21a5504f44
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_MethodInvocationEvent class'
+title: '__MethodInvocationEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

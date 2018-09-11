@@ -1,5 +1,5 @@
 ---
-title: LVM\_SORTGROUPS message
+title: LVM_SORTGROUPS message
 description: Uses an application-defined comparison function to sort groups by ID within a list-view control.
 ms.assetid: 553e96d6-a982-4482-8fba-ef11a74fb82e
 keywords:
@@ -28,7 +28,7 @@ Uses an application-defined comparison function to sort groups by ID within a li
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Pointer to an application-defined comparison function, [**LVGroupCompare**](https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx).</dd> <dt>
+</dt> <dd>Pointer to an application-defined comparison function, <a href="https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx">LVGroupCompare</a>.</dd> <dt>
 
 *lParam* 
 </dt> <dd>Void pointer to the application-defined information.</dd> </dl>

@@ -1,7 +1,7 @@
 ---
-title: DRM\_LICENSE\_STATE\_CATEGORY enumeration
+title: DRM_LICENSE_STATE_CATEGORY enumeration
 description: The DRM\_LICENSE\_STATE\_CATEGORY enumeration type defines the categories for DRM license strings that are displayed to the user.
-ms.assetid: 51258be9-2f4d-4f25-97f7-2cac6c155ade
+ms.assetid: 'f5c5aa78-84f9-4ee4-b551-05bf864243ab'
 keywords:
 - DRM_LICENSE_STATE_CATEGORY enumeration windows Media Format
 - enumeration windows Media Format

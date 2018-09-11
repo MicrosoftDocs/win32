@@ -1,7 +1,7 @@
 ---
 title: WinSNMP Programming Tasks
 description: The following table summarizes the basic programming procedures that you must perform to code a WinSNMP application, and the topics that provide information about these tasks.
-ms.assetid: 30a2b6e3-1462-45a4-a717-02be33da07cf
+ms.assetid: '70c24042-bf44-4484-8e5e-d117e2ba28d5'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -29,41 +29,41 @@ The following table summarizes the basic programming procedures that you must pe
 <tbody>
 <tr class="odd">
 <td>Open the WinSNMP application.</td>
-<td>Use [<strong>SnmpStartup</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup). See [Opening and Closing a WinSNMP Application](opening-and-closing-a-winsnmp-application.md).<br/></td>
+<td>Use <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup"><strong>SnmpStartup</strong></a>. See <a href="opening-and-closing-a-winsnmp-application">Opening and Closing a WinSNMP Application</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Open one or more WinSNMP sessions.</td>
-<td>Use [<strong>SnmpCreateSession</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession). See [Opening and Closing a WinSNMP Session](opening-and-closing-a-winsnmp-session.md).<br/></td>
+<td>Use <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession"><strong>SnmpCreateSession</strong></a>. See <a href="opening-and-closing-a-winsnmp-session">Opening and Closing a WinSNMP Session</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td>Register to receive traps or notifications.</td>
-<td>Use [<strong>SnmpRegister</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpregister). See [Managing Traps and Notifications](managing-traps-and-notifications.md).<br/></td>
+<td>Use <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpregister"><strong>SnmpRegister</strong></a>. See <a href="managing-traps-and-notifications">Managing Traps and Notifications</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Create one or more variable binding lists for incorporation in a PDU.</td>
-<td>Use [<strong>SnmpCreateVbl</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatevbl), [<strong>SnmpDuplicateVbl</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatevbl), [<strong>SnmpSetVb</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetvb). See [Working with Variable Binding Lists](working-with-variable-binding-lists.md).<br/>
+<td>Use <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatevbl"><strong>SnmpCreateVbl</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatevbl"><strong>SnmpDuplicateVbl</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetvb"><strong>SnmpSetVb</strong></a>. See <a href="working-with-variable-binding-lists">Working with Variable Binding Lists</a>.<br/>
 <blockquote>
 [!Note]<br />
-The application may need to call other [variable binding functions](winsnmp-functions.md) to create the variable binding list.
+The application may need to call other <a href="winsnmp-functions">variable binding functions</a> to create the variable binding list.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>Create one or more PDUs for transmission and processing.</td>
-<td>Use [<strong>SnmpCreatePDU</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatepdu), [<strong>SnmpSetPduData</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetpdudata), [<strong>SnmpDuplicatePDU</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatepdu). See [Working with Protocol Data Units](working-with-protocol-data-units.md).<br/>
+<td>Use <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatepdu"><strong>SnmpCreatePDU</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetpdudata"><strong>SnmpSetPduData</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatepdu"><strong>SnmpDuplicatePDU</strong></a>. See <a href="working-with-protocol-data-units">Working with Protocol Data Units</a>.<br/>
 <blockquote>
 [!Note]<br />
-The application may need to call other [PDU functions](winsnmp-functions.md) and WinSNMP [utility functions](winsnmp-functions.md) to create the PDU.
+The application may need to call other <a href="winsnmp-functions">PDU functions</a> and WinSNMP <a href="winsnmp-functions">utility functions</a> to create the PDU.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td>Submit one or more SNMP operation requests.</td>
-<td>Use [<strong>SnmpSendMsg</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsendmsg). See [Sending SNMP Messages](sending-snmp-messages.md).<br/></td>
+<td>Use <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsendmsg"><strong>SnmpSendMsg</strong></a>. See <a href="sending-snmp-messages">Sending SNMP Messages</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td>Retrieve the response to the SNMP operation request.</td>
-<td>Use [<strong>SnmpRecvMsg</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg). See [Receiving SNMP Messages](receiving-snmp-messages.md).<br/></td>
+<td>Use <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg"><strong>SnmpRecvMsg</strong></a>. See <a href="receiving-snmp-messages">Receiving SNMP Messages</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Process the request response.</td>
@@ -71,11 +71,11 @@ The application may need to call other [PDU functions](winsnmp-functions.md) and
 </tr>
 <tr class="odd">
 <td>Close each WinSNMP session.</td>
-<td>Use [<strong>SnmpClose</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpclose). See [Opening and Closing a WinSNMP Session](opening-and-closing-a-winsnmp-session.md).<br/></td>
+<td>Use <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpclose"><strong>SnmpClose</strong></a>. See <a href="opening-and-closing-a-winsnmp-session">Opening and Closing a WinSNMP Session</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Close the WinSNMP application.</td>
-<td>Use [<strong>SnmpCleanup</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanup). See [Opening and Closing a WinSNMP Application](opening-and-closing-a-winsnmp-application.md).<br/></td>
+<td>Use <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanup"><strong>SnmpCleanup</strong></a>. See <a href="opening-and-closing-a-winsnmp-application">Opening and Closing a WinSNMP Application</a>.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: RB\_SHOWBAND message
+title: RB_SHOWBAND message
 description: Shows or hides a given band in a rebar control.
 ms.assetid: 18097aca-e1b4-4359-9d08-4e62406f3f7f
 keywords:

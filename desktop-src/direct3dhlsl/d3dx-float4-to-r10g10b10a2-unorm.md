@@ -1,5 +1,5 @@
 ---
-title: D3DX\_FLOAT4\_to\_R10G10B10A2\_UNORM function
+title: D3DX_FLOAT4_to_R10G10B10A2_UNORM function
 description: Packs the given XMFLOAT4 back into a DXGI\_FORMAT\_R10G10B10A2\_UNORM.
 ms.assetid: 20471435-bb1a-4151-a03a-c334b2a7d944
 keywords:

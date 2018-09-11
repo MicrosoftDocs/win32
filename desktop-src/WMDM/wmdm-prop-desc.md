@@ -1,5 +1,5 @@
 ---
-title: WMDM\_PROP\_DESC structure
+title: WMDM_PROP_DESC structure
 description: The WMDM\_PROP\_DESC structure describes valid values of a property in a particular property configuration.
 ms.assetid: e4766e1e-6c1b-4a2d-ad2e-c07035ca2be2
 keywords:

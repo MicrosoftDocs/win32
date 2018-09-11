@@ -1,5 +1,5 @@
 ---
-title: MDM\_Firewall\_DomainProfile02 class
+title: MDM_Firewall_DomainProfile02 class
 description: The MDM\_Firewall\_DomainProfile02 class is used to configure the Windows Defender Firewall settings.
 ms.assetid: 1d82ba2f-b61d-4976-a44b-4ae2054f9df5
 keywords:

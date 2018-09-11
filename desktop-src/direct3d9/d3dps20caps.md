@@ -1,7 +1,7 @@
 ---
 Description: Pixel shader capability flags.
 ms.assetid: 41a8939f-eba5-47ca-8628-94b606b6f43d
-title: D3DD3DPSHADERCAPS2\_0
+title: D3DD3DPSHADERCAPS2_0
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

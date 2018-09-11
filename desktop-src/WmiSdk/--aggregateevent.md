@@ -7,7 +7,7 @@ ms.assetid: 99afa390-01fe-4a13-ba21-27587470f111
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_AggregateEvent class'
+title: '__AggregateEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

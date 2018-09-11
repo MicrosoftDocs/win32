@@ -1,7 +1,7 @@
 ---
 Description: The PERFINFO\_DSHOW\_AUDIOBREAK structure contains data for a trace event of type GUID\_AUDIOBREAK.The DirectSound Renderer filter logs this event when there is a break in the audio stream.
 ms.assetid: 9e7abdca-7d4c-4006-997f-9605f8d18e1d
-title: PERFINFO\_DSHOW\_AUDIOBREAK structure
+title: PERFINFO_DSHOW_AUDIOBREAK structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

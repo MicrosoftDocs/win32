@@ -1,7 +1,7 @@
 ---
 Description: The EVENT\_TRACE\_HEADER structure contains standard event tracing information common to all events.
 ms.assetid: 33c2de6b-afc2-4323-8d81-2970e66edf5e
-title: EVENT\_TRACE\_HEADER structure
+title: EVENT_TRACE_HEADER structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

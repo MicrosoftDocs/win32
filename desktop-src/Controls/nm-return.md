@@ -1,5 +1,5 @@
 ---
-title: NM\_RETURN notification code
+title: NM_RETURN notification code
 description: Notifies a control's parent window that the control has the input focus and that the user has pressed the ENTER key. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 2c4839bc-6b23-469b-978f-cdf5f7bc0549
 keywords:

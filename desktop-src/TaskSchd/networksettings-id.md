@@ -1,7 +1,7 @@
 ---
 title: NetworkSettings.Id property
 description: For scripting, gets or sets a GUID value that identifies a network profile.
-ms.assetid: 490a8e0a-a980-4634-924a-00c571e93a59
+ms.assetid: 'd4dd2972-c4cd-434a-b5dc-02ea64fd2137'
 keywords:
 - Id property Task Scheduler
 - Id property Task Scheduler , NetworkSettings object

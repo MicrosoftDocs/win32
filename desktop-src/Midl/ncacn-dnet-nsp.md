@@ -1,5 +1,5 @@
 ---
-title: ncacn\_dnet\_nsp attribute
+title: ncacn_dnet_nsp attribute
 description: The ncacn\_dnet\_nsp keyword identifies DECnet as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: 797251c1-c5d3-416b-8bc7-5b83bb7027e6
 keywords:

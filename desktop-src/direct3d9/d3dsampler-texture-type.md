@@ -1,7 +1,7 @@
 ---
 Description: Defines the sampler texture types for vertex shaders.
 ms.assetid: 8e9923f9-6f30-45e5-a557-f26d441a534d
-title: D3DSAMPLER\_TEXTURE\_TYPE enumeration
+title: D3DSAMPLER_TEXTURE_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 title: PlaylistCollection.importPlaylist method
 description: The importPlaylist method adds a static playlist to the library.
-ms.assetid: 421a1bd3-65c1-4d8f-be75-918b1cfa06d2
+ms.assetid: '0611ba42-fd8f-4fb9-9fbb-809a82775c2a'
 keywords:
 - importPlaylist method Windows Media Player
 - importPlaylist method Windows Media Player , PlaylistCollection class

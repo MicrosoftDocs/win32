@@ -50,7 +50,7 @@ The flags in the following table specify the status of an Output Protection Mana
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED"></span><span id="opm_status_revoked_hdcp_device_attached"></span><dl> <dt><strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong></dt> <dt>0x08</dt> </dl></td>
-<td style="text-align: left;">A revoked High-Bandwidth Digital Content Protection (HDCP) device is attached to the video output.<br/> This status flag can be returned from an [OPM_GET_VIRTUAL_PROTECTION_LEVEL](opm-get-virtual-protection-level.md) or [OPM_GET_ACTUAL_PROTECTION_LEVEL](opm-get-actual-protection-level.md) query. <br/> The revoked device might be attached directly to the video output, or indirectly through an HDCP repeater. A video output is required to detect this condition while HDCP is enabled, but not otherwise.<br/> This flag is not used in <em>COPP emulation mode</em>, because the video output does not detect revoked devices in that mode.<br/></td>
+<td style="text-align: left;">A revoked High-Bandwidth Digital Content Protection (HDCP) device is attached to the video output.<br/> This status flag can be returned from an <a href="opm-get-virtual-protection-level">OPM_GET_VIRTUAL_PROTECTION_LEVEL</a> or <a href="opm-get-actual-protection-level">OPM_GET_ACTUAL_PROTECTION_LEVEL</a> query. <br/> The revoked device might be attached directly to the video output, or indirectly through an HDCP repeater. A video output is required to detect this condition while HDCP is enabled, but not otherwise.<br/> This flag is not used in <em>COPP emulation mode</em>, because the video output does not detect revoked devices in that mode.<br/></td>
 </tr>
 </tbody>
 </table>

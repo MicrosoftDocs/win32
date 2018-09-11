@@ -1,5 +1,5 @@
 ---
-title: GetRedirectableAddresses method of the Win32\_TSSessionDirectory class
+title: GetRedirectableAddresses method of the Win32_TSSessionDirectory class
 description: Obtains the entire list of DNS eligible addresses.
 audience: developer
 author: REDMOND\\markl

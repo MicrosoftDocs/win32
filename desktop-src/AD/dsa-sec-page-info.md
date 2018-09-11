@@ -1,5 +1,5 @@
 ---
-title: DSA\_SEC\_PAGE\_INFO structure
+title: DSA_SEC_PAGE_INFO structure
 description: Used with the WM\_ADSPROP\_SHEET\_CREATE and WM\_DSA\_SHEET\_CREATE\_NOTIFY messages to define a secondary property sheet in an Active Directory MMC snap-in.
 audience: developer
 author: REDMOND\\markl

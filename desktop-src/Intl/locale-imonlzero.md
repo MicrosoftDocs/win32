@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_IMONLZERO
 ms.assetid: 2d695d69-1138-45e5-9138-2d01945feb5e
-title: LOCALE\_IMONLZERO
+title: LOCALE_IMONLZERO
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

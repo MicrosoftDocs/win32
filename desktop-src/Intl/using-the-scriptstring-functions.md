@@ -26,62 +26,58 @@ The following table details the **ScriptString\*** functions and any counterpart
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>ScriptStringAnalyse</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse)</td>
-<td>Analyzes plain text. This function corresponds to the following functions:<br/> <dl>[<strong>ScriptItemize</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptitemize)<br />
-[<strong>ScriptShape</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptshape)<br />
-[<strong>ScriptPlace</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptplace)<br />
-[<strong>ScriptBreak</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptbreak)<br />
-[<strong>ScriptGetCMap</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptgetcmap)<br />
-[<strong>ScriptJustify</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptjustify)<br />
-[<strong>ScriptLayout</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptlayout)<br />
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse"><strong>ScriptStringAnalyse</strong></a></td>
+<td>Analyzes plain text. This function corresponds to the following functions:<br/> <dl><a href="/windows/desktop/api/Usp10/nf-usp10-scriptitemize"><strong>ScriptItemize</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptshape"><strong>ScriptShape</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptplace"><strong>ScriptPlace</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptbreak"><strong>ScriptBreak</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptgetcmap"><strong>ScriptGetCMap</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptjustify"><strong>ScriptJustify</strong></a><br />
+<a href="/windows/desktop/api/Usp10/nf-usp10-scriptlayout"><strong>ScriptLayout</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>ScriptStringCPtoX</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringcptox)</td>
-<td>Retrieves the x coordinate for a character position. This function corresponds to [<strong>ScriptCPtoX</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptcptox).</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringcptox"><strong>ScriptStringCPtoX</strong></a></td>
+<td>Retrieves the x coordinate for a character position. This function corresponds to <a href="/windows/desktop/api/Usp10/nf-usp10-scriptcptox"><strong>ScriptCPtoX</strong></a>.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ScriptStringFree</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree)</td>
-<td>Frees a [<strong>SCRIPT_STRING_ANALYSIS</strong>](script-string-analysis.md) structure.</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringfree"><strong>ScriptStringFree</strong></a></td>
+<td>Frees a <a href="script-string-analysis"><strong>SCRIPT_STRING_ANALYSIS</strong></a> structure.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ScriptStringGetLogicalWidths</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringgetlogicalwidths)</td>
-<td>Converts visual widths to logical widths. This function corresponds to [<strong>ScriptGetLogicalWidths</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptgetlogicalwidths).</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringgetlogicalwidths"><strong>ScriptStringGetLogicalWidths</strong></a></td>
+<td>Converts visual widths to logical widths. This function corresponds to <a href="/windows/desktop/api/Usp10/nf-usp10-scriptgetlogicalwidths"><strong>ScriptGetLogicalWidths</strong></a>.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ScriptStringGetOrder</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringgetorder)</td>
-<td>Maps character glyph positions in a similar way to [GetCharacterPlacement](https://msdn.microsoft.com/en-us/library/Dd144860(v=VS.85).aspx), for legacy use only. This function does not work well with scripts that generate more than one glyph per code point.</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringgetorder"><strong>ScriptStringGetOrder</strong></a></td>
+<td>Maps character glyph positions in a similar way to <a href="https://msdn.microsoft.com/en-us/library/Dd144860(v=VS.85).aspx">GetCharacterPlacement</a>, for legacy use only. This function does not work well with scripts that generate more than one glyph per code point.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ScriptStringOut</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringout)</td>
-<td>Displays plain text. This function corresponds to [<strong>ScriptTextOut</strong>](/windows/desktop/api/Usp10/nf-usp10-scripttextout).</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringout"><strong>ScriptStringOut</strong></a></td>
+<td>Displays plain text. This function corresponds to <a href="/windows/desktop/api/Usp10/nf-usp10-scripttextout"><strong>ScriptTextOut</strong></a>.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ScriptString_pcOutChars</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstring_pcoutchars)</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstring_pcoutchars"><strong>ScriptString_pcOutChars</strong></a></td>
 <td>Returns a pointer to the length of a clipped plain text string.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ScriptString_pLogAttr</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstring_plogattr)</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstring_plogattr"><strong>ScriptString_pLogAttr</strong></a></td>
 <td>Returns a pointer to the logical attributes buffer for an analyzed plain text string.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ScriptString_pSize</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstring_psize)</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstring_psize"><strong>ScriptString_pSize</strong></a></td>
 <td>Returns a pointer to the size (width and height) for an analyzed plain text string.</td>
 </tr>
 <tr class="even">
-<td>[<strong>ScriptStringValidate</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringvalidate)</td>
-<td>Identifies code point sequences not valid in the given script. This function is different from [<strong>ScriptGetCMap</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptgetcmap), which identifies code points not present in a font.</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringvalidate"><strong>ScriptStringValidate</strong></a></td>
+<td>Identifies code point sequences not valid in the given script. This function is different from <a href="/windows/desktop/api/Usp10/nf-usp10-scriptgetcmap"><strong>ScriptGetCMap</strong></a>, which identifies code points not present in a font.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ScriptStringXtoCP</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringxtocp)</td>
-<td>Converts an x coordinate to a character position. This function corresponds to [<strong>ScriptXtoCP</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptxtocp).</td>
+<td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringxtocp"><strong>ScriptStringXtoCP</strong></a></td>
+<td>Converts an x coordinate to a character position. This function corresponds to <a href="/windows/desktop/api/Usp10/nf-usp10-scriptxtocp"><strong>ScriptXtoCP</strong></a>.</td>
 </tr>
 </tbody>
 </table>
-
-
-
- 
 
 To only display plain text without any modifications, an application should call [**ScriptStringAnalyse**](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse), [**ScriptStringOut**](/windows/desktop/api/Usp10/nf-usp10-scriptstringout), and then [**ScriptStringFree**](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree). The other functions are used to modify the plain text before display.
 

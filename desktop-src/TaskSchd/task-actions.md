@@ -111,13 +111,13 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 <td>COM Handler Action</td>
 <td>C++:
 <ul>
-<li>[<strong>ClassId Property of IComHandlerAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_classid)</li>
-<li>[<strong>Data Property of IComHandlerAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data)</li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_classid"><strong>ClassId Property of IComHandlerAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data"><strong>Data Property of IComHandlerAction</strong></a></li>
 </ul>
 <br/> Scripting:
 <ul>
-<li>[<strong>ComHandlerAction.ClassId</strong>](comhandleraction-classid.md)</li>
-<li>[<strong>ComHandlerAction.Data</strong>](comhandleraction-data.md)</li>
+<li><a href="comhandleraction-classid"><strong>ComHandlerAction.ClassId</strong></a></li>
+<li><a href="comhandleraction-data"><strong>ComHandlerAction.Data</strong></a></li>
 </ul>
 <br/></td>
 </tr>
@@ -125,25 +125,25 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 <td>Email Action</td>
 <td>C++:
 <ul>
-<li>[<strong>Body Property of IEmailAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body)</li>
-<li>[<strong>Server Property of IEmailAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_server)</li>
-<li>[<strong>Subject Property of IEmailAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject)</li>
-<li>[<strong>To Property of IEmailAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to)</li>
-<li>[<strong>Cc Property of IEmailAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_cc)</li>
-<li>[<strong>Bcc Property of IEmailAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc)</li>
-<li>[<strong>ReplyTo Property of IEmailAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_replyto)</li>
-<li>[<strong>From Property of IEmailAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_from)</li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body"><strong>Body Property of IEmailAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_server"><strong>Server Property of IEmailAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject"><strong>Subject Property of IEmailAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to"><strong>To Property of IEmailAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_cc"><strong>Cc Property of IEmailAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc"><strong>Bcc Property of IEmailAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_replyto"><strong>ReplyTo Property of IEmailAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_from"><strong>From Property of IEmailAction</strong></a></li>
 </ul>
 <br/> Scripting:
 <ul>
-<li>[<strong>EmailAction.Body</strong>](emailaction-body.md)</li>
-<li>[<strong>EmailAction.Server</strong>](emailaction-server.md)</li>
-<li>[<strong>EmailAction.Subject</strong>](emailaction-subject.md)</li>
-<li>[<strong>EmailAction.To</strong>](emailaction-to.md)</li>
-<li>[<strong>EmailAction.Cc</strong>](emailaction-cc.md)</li>
-<li>[<strong>EmailAction.Bcc</strong>](emailaction-bcc.md)</li>
-<li>[<strong>EmailAction.ReplyTo</strong>](emailaction-replyto.md)</li>
-<li>[<strong>EmailAction.From</strong>](emailaction-from.md)</li>
+<li><a href="emailaction-body"><strong>EmailAction.Body</strong></a></li>
+<li><a href="emailaction-server"><strong>EmailAction.Server</strong></a></li>
+<li><a href="emailaction-subject"><strong>EmailAction.Subject</strong></a></li>
+<li><a href="emailaction-to"><strong>EmailAction.To</strong></a></li>
+<li><a href="emailaction-cc"><strong>EmailAction.Cc</strong></a></li>
+<li><a href="emailaction-bcc"><strong>EmailAction.Bcc</strong></a></li>
+<li><a href="emailaction-replyto"><strong>EmailAction.ReplyTo</strong></a></li>
+<li><a href="emailaction-from"><strong>EmailAction.From</strong></a></li>
 </ul>
 <br/></td>
 </tr>
@@ -151,13 +151,13 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 <td>Exec Action</td>
 <td>C++:
 <ul>
-<li>[<strong>Arguments Property of IExecAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments)</li>
-<li>[<strong>WorkingDirectory Property of IExecAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory)</li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments"><strong>Arguments Property of IExecAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory"><strong>WorkingDirectory Property of IExecAction</strong></a></li>
 </ul>
 <br/> Scripting:
 <ul>
-<li>[<strong>ExecAction.Arguments</strong>](execaction-arguments.md)</li>
-<li>[<strong>ExecAction.WorkingDirectory</strong>](execaction-workingdirectory.md)</li>
+<li><a href="execaction-arguments"><strong>ExecAction.Arguments</strong></a></li>
+<li><a href="execaction-workingdirectory"><strong>ExecAction.WorkingDirectory</strong></a></li>
 </ul>
 <br/></td>
 </tr>
@@ -165,13 +165,13 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 <td>Show Message Action</td>
 <td>C++:
 <ul>
-<li>[<strong>Title Property of IShowMessageAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_title)</li>
-<li>[<strong>MessageBody Property of IShowMessageAction</strong>](/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody)</li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_title"><strong>Title Property of IShowMessageAction</strong></a></li>
+<li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody"><strong>MessageBody Property of IShowMessageAction</strong></a></li>
 </ul>
 <br/> Scripting:
 <ul>
-<li>[<strong>ShowMessageAction.Title</strong>](showmessageaction-title.md)</li>
-<li>[<strong>ShowMessageAction.MessageBody</strong>](showmessageaction-messagebody.md)</li>
+<li><a href="showmessageaction-title"><strong>ShowMessageAction.Title</strong></a></li>
+<li><a href="showmessageaction-messagebody"><strong>ShowMessageAction.MessageBody</strong></a></li>
 </ul>
 <br/></td>
 </tr>

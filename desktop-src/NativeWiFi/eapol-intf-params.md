@@ -1,7 +1,7 @@
 ---
 Description: Contains EAPOL configuration parameters.
 ms.assetid: 4157a643-86f2-4f6f-8517-6207b11ea9a1
-title: EAPOL\_INTF\_PARAMS structure
+title: EAPOL_INTF_PARAMS structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

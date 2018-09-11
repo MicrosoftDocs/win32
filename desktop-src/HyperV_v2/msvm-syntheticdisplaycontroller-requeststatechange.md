@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: eb7f8acb-1e2d-472c-b50d-92f533c460d0
-title: RequestStateChange method of the Msvm\_SyntheticDisplayController class
+title: RequestStateChange method of the Msvm_SyntheticDisplayController class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

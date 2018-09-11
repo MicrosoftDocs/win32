@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_BIOMETRIC\_SENSOR\_SUBTYPE Constants
+title: WINBIO_BIOMETRIC_SENSOR_SUBTYPE Constants
 description: Specify a bitmask for onboard sensor capabilities.
 ms.assetid: ED2A26BC-AED4-4304-9A17-A9BA126B0AFC
 topic_type:

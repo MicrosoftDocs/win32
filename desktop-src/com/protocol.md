@@ -1,7 +1,7 @@
 ---
 title: Protocol
 description: Indicates that this OLE 2 class is insertable in OLE 1 containers.
-ms.assetid: a53a1edf-f374-4cbf-8050-7cde45284157
+ms.assetid: '320dff51-ac27-42f3-8c0f-353b29e289d9'
 keywords:
 - Protocol registry key COM
 ms.technology: desktop

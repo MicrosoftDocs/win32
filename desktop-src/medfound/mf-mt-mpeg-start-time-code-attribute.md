@@ -1,7 +1,7 @@
 ---
 Description: Group-of-pictures (GOP) start time code, for an MPEG-1 or MPEG-2 video media type.
 ms.assetid: 8313b83c-5a0a-4aaa-bdc8-58a987c329c7
-title: MF\_MT\_MPEG\_START\_TIME\_CODE attribute
+title: MF_MT_MPEG_START_TIME_CODE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

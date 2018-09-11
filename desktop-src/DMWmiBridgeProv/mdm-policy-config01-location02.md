@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_Location02 class
+title: MDM_Policy_Config01_Location02 class
 description: The MDM\_Policy\_Config01\_Location02 class configures the location service of the device.
 ms.assetid: 8a40628e-1167-45ed-89bf-f3383dfb08d4
 keywords:

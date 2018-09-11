@@ -1,7 +1,7 @@
 ---
 Description: Represents the switch bandwidth resource status.
 ms.assetid: 9aa3e57e-9452-4c60-a052-83ae35b3607c
-title: Msvm\_EthernetSwitchBandwidthData class
+title: Msvm_EthernetSwitchBandwidthData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: CQPM\_HANDLERSPECIFIC message
+title: CQPM_HANDLERSPECIFIC message
 description: Base value used for messages that are private to the query handler.
 audience: developer
 author: REDMOND\\markl

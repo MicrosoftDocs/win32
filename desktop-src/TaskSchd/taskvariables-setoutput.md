@@ -1,7 +1,7 @@
 ---
 title: TaskVariables.SetOutput method
 description: For scripting, sets the output variables for a task.
-ms.assetid: 989e61c8-f15e-42c6-ab90-c00cc90eb464
+ms.assetid: '346c8204-5e64-4932-b939-08b8b479e7e0'
 keywords:
 - SetOutput method Task Scheduler
 - SetOutput method Task Scheduler , TaskVariables object

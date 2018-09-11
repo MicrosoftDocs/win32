@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_BitLocker02 class
+title: MDM_Policy_Config01_BitLocker02 class
 description: The MDM\_Policy\_Config01\_Bitlocker02 class represents the BitLocker policies available.
 ms.assetid: 885df93f-41f5-4cf7-8bce-9b253b190e17
 keywords:

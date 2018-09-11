@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Win32\_PnPEntity Methods
+title: Win32_PnPEntity Methods
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

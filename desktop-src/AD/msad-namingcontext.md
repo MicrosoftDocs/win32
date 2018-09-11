@@ -1,5 +1,5 @@
 ---
-title: MSAD\_NamingContext class
+title: MSAD_NamingContext class
 description: Represents a particular naming context (NC) on the domain controller.
 audience: developer
 author: REDMOND\\markl

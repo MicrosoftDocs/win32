@@ -1,5 +1,5 @@
 ---
-title: LVM\_INSERTGROUPSORTED message
+title: LVM_INSERTGROUPSORTED message
 description: Inserts a group into an ordered list of groups.
 ms.assetid: 8ad1660b-8b64-4f02-ac1b-b7edeeea38ab
 keywords:
@@ -28,7 +28,7 @@ Inserts a group into an ordered list of groups.
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Pointer to an [**LVINSERTGROUPSORTED**](/windows/desktop/api/Commctrl/ns-commctrl-taglvinsertgroupsorted) structure that contains the group to insert.</dd> <dt>
+</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvinsertgroupsorted">LVINSERTGROUPSORTED</a> structure that contains the group to insert.</dd> <dt>
 
 *lParam* 
 </dt> <dd>Must be **NULL**.</dd> </dl>

@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for file information event. The following syntax is simplified from MOF code.
 ms.assetid: 41ae1f8a-a90f-43d0-a848-a2c095f046d4
-title: FileIo\_Info class
+title: FileIo_Info class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

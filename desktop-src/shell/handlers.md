@@ -1,6 +1,6 @@
 ---
 Description: The capabilities of the Shell can be extended with registry entries and .ini files.
-ms.assetid: 6c240a63-c184-4b65-9483-794f5de4d695
+ms.assetid: '74a81e4f-7357-4901-a118-ba44e8892f25'
 title: Creating Shell Extension Handlers
 ms.technology: desktop
 ms.prod: windows

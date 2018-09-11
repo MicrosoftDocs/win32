@@ -1,5 +1,5 @@
 ---
-title: LVM\_CANCELEDITLABEL message
+title: LVM_CANCELEDITLABEL message
 description: Cancels an item text editing operation.
 ms.assetid: 73e9c922-3223-4c49-a33c-df7c09443ccc
 keywords:

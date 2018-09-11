@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: e37240f2-3c54-479e-bdf5-e094e4b5094f
-title: RequestStateChange method of the Msvm\_VirtualSystemSnapshotService class
+title: RequestStateChange method of the Msvm_VirtualSystemSnapshotService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

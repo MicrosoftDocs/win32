@@ -1,5 +1,5 @@
 ---
-title: HDN\_DROPDOWN notification code
+title: HDN_DROPDOWN notification code
 description: Sent by a header control to its parent when the drop-down arrow on the header control is clicked. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: cacf5cb9-0593-42ff-868d-b098481f565f
 keywords:

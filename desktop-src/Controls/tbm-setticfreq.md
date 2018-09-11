@@ -1,5 +1,5 @@
 ---
-title: TBM\_SETTICFREQ message
+title: TBM_SETTICFREQ message
 description: Sets the interval frequency for tick marks in a trackbar.
 ms.assetid: c391260c-d6c2-4b6a-84e8-7fe5d734035b
 keywords:

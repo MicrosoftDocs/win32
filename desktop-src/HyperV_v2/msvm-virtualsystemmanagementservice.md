@@ -1,7 +1,7 @@
 ---
 Description: Represents the virtualization service present on a single host system.
-ms.assetid: f233bf2f-5201-4b02-8384-bb7e2d1e7dee
-title: Msvm\_VirtualSystemManagementService class
+ms.assetid: '7f4bd9e0-b034-4882-ad01-f7df740939ae'
+title: Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

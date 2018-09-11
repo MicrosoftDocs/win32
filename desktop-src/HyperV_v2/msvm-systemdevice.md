@@ -1,7 +1,7 @@
 ---
 Description: Associates a logical device with the parent system.
 ms.assetid: 2BEAAEC8-F8F2-4CC7-A209-EE3EE3C6FA90
-title: Msvm\_SystemDevice class
+title: Msvm_SystemDevice class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

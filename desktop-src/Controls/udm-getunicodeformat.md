@@ -1,5 +1,5 @@
 ---
-title: UDM\_GETUNICODEFORMAT message
+title: UDM_GETUNICODEFORMAT message
 description: Retrieves the Unicode character format flag for the control.
 ms.assetid: 8c09d37b-95a2-49cd-b578-919f9c39fa8b
 keywords:

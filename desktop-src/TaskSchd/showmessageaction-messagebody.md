@@ -1,7 +1,7 @@
 ---
 title: ShowMessageAction.MessageBody property
 description: For scripting, gets or sets the message text that is displayed in the body of the message box.
-ms.assetid: 7a9e4140-a010-4922-83d2-a063322640c6
+ms.assetid: '7166e379-95f0-43f1-93a0-6a3d706dd627'
 keywords:
 - MessageBody property Task Scheduler
 - MessageBody property Task Scheduler , ShowMessageAction object

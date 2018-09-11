@@ -1,6 +1,6 @@
 ---
 Description: Is the root element of an WSDAPI code generator XML script file.
-ms.assetid: 990511ca-a918-460b-91e0-c1454e242f17
+ms.assetid: '3d40172b-6ba1-4e42-9a1a-519c8e88c2b1'
 title: wsdCodeGen element
 ms.technology: desktop
 ms.prod: windows

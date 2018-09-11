@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_RECT structure
+title: CD3DX12_RECT structure
 description: A helper structure to enable easy initialization of a D3D12\_RECT structure.
 ms.assetid: FBF01294-1448-4D9A-BA6B-27D5D59C2958
 keywords:

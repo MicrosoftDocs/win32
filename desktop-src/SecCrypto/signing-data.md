@@ -1,6 +1,6 @@
 ---
 Description: Lists topics that explain how to encode and decode signed data.
-ms.assetid: 89caf4d3-727f-472b-9a09-e81b4ff4d127
+ms.assetid: '9c86f1bc-92ae-4c76-9c6b-9fafae263ad2'
 title: Signing Data
 ms.technology: desktop
 ms.prod: windows

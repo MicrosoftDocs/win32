@@ -1,7 +1,7 @@
 ---
 Description: Provides additional information to be used with the ExportSystemDefinition method of the Msvm\_VirtualSystemManagementService class.
 ms.assetid: 86396A76-83EC-476E-86A9-83861A002152
-title: Msvm\_VirtualSystemExportSettingData class
+title: Msvm_VirtualSystemExportSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

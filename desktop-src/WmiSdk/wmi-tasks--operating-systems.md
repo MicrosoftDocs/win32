@@ -58,7 +58,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...determine if a service pack has been installed on a computer?</td>
-<td>Use the [<strong>Win32_OperatingSystem</strong>](https://msdn.microsoft.com/library/aa394239) class and check the value of the <strong>ServicePackMajorVersion</strong> and <strong>ServicePackMinorVersion</strong> properties.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="https://msdn.microsoft.com/library/aa394239"><strong>Win32_OperatingSystem</strong></a> class and check the value of the <strong>ServicePackMajorVersion</strong> and <strong>ServicePackMinorVersion</strong> properties.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -100,7 +100,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine when the operating system was installed on a computer?</td>
-<td><p>Use the [<strong>Win32_OperatingSystem</strong>](https://msdn.microsoft.com/library/aa394239) class and the <strong>InstallDate</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394239"><strong>Win32_OperatingSystem</strong></a> class and the <strong>InstallDate</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -144,7 +144,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine which version of the Windows operating system is installed on a computer?</td>
-<td><p>Use the [<strong>Win32_OperatingSystem</strong>](https://msdn.microsoft.com/library/aa394239) class, and retrieve both the <strong>Name</strong> and <strong>Version</strong> properties.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394239"><strong>Win32_OperatingSystem</strong></a> class, and retrieve both the <strong>Name</strong> and <strong>Version</strong> properties.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -188,7 +188,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine which folder is the Windows folder (%Windir%) on a computer?</td>
-<td><p>Use the [<strong>Win32_OperatingSystem</strong>](https://msdn.microsoft.com/library/aa394239) class, and check the value of the <strong>WindowsDirectory</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394239"><strong>Win32_OperatingSystem</strong></a> class, and check the value of the <strong>WindowsDirectory</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -232,7 +232,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine what hotfixes have been installed on a computer?</td>
-<td><p>Use the [<strong>Win32_QuickFixEngineering</strong>](https://msdn.microsoft.com/library/aa394391) class.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394391"><strong>Win32_QuickFixEngineering</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -277,7 +277,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine if I need to activate the operating system on a computer?</td>
-<td><p>Use the [<strong>Win32_WindowsProductActivation</strong>](https://msdn.microsoft.com/library/aa394520) class and check the value of the <strong>ActivationRequired</strong> property.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa394520"><strong>Win32_WindowsProductActivation</strong></a> class and check the value of the <strong>ActivationRequired</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

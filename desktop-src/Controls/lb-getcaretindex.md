@@ -1,7 +1,7 @@
 ---
-title: LB\_GETCARETINDEX message
+title: LB_GETCARETINDEX message
 description: Retrieves the index of the item that has the focus in a multiple-selection list box. The item may or may not be selected.
-ms.assetid: 5e9e8a37-8aed-4cfd-9360-e0de6a9b2971
+ms.assetid: 'vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_getcaretindex.htm'
 keywords:
 - LB_GETCARETINDEX message Windows Controls
 topic_type:

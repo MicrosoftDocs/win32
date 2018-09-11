@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_RemoteProcedureCall02 class
+title: MDM_Policy_Config01_RemoteProcedureCall02 class
 description: The MDM\_Policy\_Config01\_RemoteProcedureCall02 class configures the remote procedure call policies.
 ms.assetid: d844c59d-c71e-4a8f-ad1e-955a918a36b8
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: GetCurrentVMMPlugin method of the Win32\_SessionDirectoryVMMPlugin class
+title: GetCurrentVMMPlugin method of the Win32_SessionDirectoryVMMPlugin class
 description: Gets the highest priority plug-in that is enabled.
 audience: developer
 author: REDMOND\\markl

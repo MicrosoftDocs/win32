@@ -1,7 +1,7 @@
 ---
 Description: Contains information about a digital signature.
 ms.assetid: 0b86fdf9-533f-4640-8c70-c3c8f4ef2c68
-title: SIGNER\_SIGNATURE\_INFO structure
+title: SIGNER_SIGNATURE_INFO structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

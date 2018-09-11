@@ -1,7 +1,7 @@
 ---
 Description: Multipoint attributes in the WSAPROTOCOL\_INFO structure include XP1\_SUPPORT\_MULTIPOINT, XP1\_MULTIPOINT\_CONTROL\_PLANE, and XP1\_MULTIPOINT\_DATA\_PLANE.
 ms.assetid: f1bd5aa1-e705-4eaf-9436-fed0ea03f113
-title: Multipoint Attributes in the WSAPROTOCOL\_INFO Structure
+title: Multipoint Attributes in the WSAPROTOCOL_INFO Structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

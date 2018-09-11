@@ -1,5 +1,5 @@
 ---
-title: MCI\_MAKE\_HMS macro
+title: MCI_MAKE_HMS macro
 description: The MCI\_MAKE\_HMS macro creates a time value in packed hours/minutes/seconds (HMS) format from the given hours, minutes, and seconds values.
 ms.assetid: 470e89eb-36e1-4b05-babd-4c986adc88dd
 keywords:

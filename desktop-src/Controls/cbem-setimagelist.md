@@ -1,5 +1,5 @@
 ---
-title: CBEM\_SETIMAGELIST message
+title: CBEM_SETIMAGELIST message
 description: Sets an image list for a ComboBoxEx control.
 ms.assetid: a4a8ed61-a532-4cf8-8291-c157ab0e7f31
 keywords:

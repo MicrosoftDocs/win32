@@ -1,6 +1,6 @@
 ---
 Description: The Component object represents a unique instance of a component that is available for enumeration.
-ms.assetid: 3d0791b1-8706-4a80-9938-07481594e408
+ms.assetid: 'cdc99bc3-9e2a-49db-8c01-b9634aefac38'
 title: Component object
 ms.technology: desktop
 ms.prod: windows

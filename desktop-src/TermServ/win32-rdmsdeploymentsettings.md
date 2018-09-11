@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSDeploymentSettings class
+title: Win32_RDMSDeploymentSettings class
 description: Manages deployment settings for a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 Description: The put\_SourceTop method sets the top coordinate of the source rectangle.
 ms.assetid: 8891771d-5a0b-4dfa-b961-9f375f13b4f7
-title: CBaseControlVideo.put\_SourceTop method
+title: CBaseControlVideo.put_SourceTop method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

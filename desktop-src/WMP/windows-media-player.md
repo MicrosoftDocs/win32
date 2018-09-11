@@ -1,7 +1,7 @@
 ---
 title: Windows Media Player
 description: Windows Media Player
-ms.assetid: c6afbd95-bcf8-438a-b854-776c543a5d51
+ms.assetid: '5a7452c4-5778-439b-b3e3-4e6311bef276'
 keywords:
 - Windows Media Player,about
 - SDK (software development kit),features

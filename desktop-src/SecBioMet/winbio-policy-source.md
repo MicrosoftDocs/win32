@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_POLICY\_SOURCE enumeration
+title: WINBIO_POLICY_SOURCE enumeration
 description: Lists the possible sources of policy information for the detection of spoofing for biometric factors.
 ms.assetid: 3DC3BB0B-1FD7-473C-8E0B-B7E0A4A44E9E
 keywords:

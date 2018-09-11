@@ -1,7 +1,7 @@
 ---
 Description: Filter name.
 ms.assetid: 50762bce-a78c-4009-8552-94b2849c2b24
-title: CBaseFilter::m\_pName member
+title: CBaseFilter::m_pName member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -2,7 +2,7 @@
 title: O
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: a0fb9a08-3f46-4d2f-8887-e80dc0bade1b
+ms.assetid: '1c4acbd4-126a-41df-a0dd-9132f697693e'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

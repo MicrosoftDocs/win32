@@ -28,18 +28,18 @@ This filter supports a range of sample rates that depends on the audio driver.
 <tr class="odd">
 <td>Filter Interfaces</td>
 <td><ul>
-<li>[<strong>IAMAudioRendererStats</strong>](/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats)</li>
-<li>[<strong>IAMClockSlave</strong>](/windows/desktop/api/Strmif/nn-strmif-iamclockslave)</li>
-<li>[<strong>IAMDirectSound</strong>](/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound)</li>
-<li>[<strong>IAMResourceControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol)</li>
-<li>[<strong>IBaseFilter</strong>](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)</li>
-<li>[<strong>IBasicAudio</strong>](/windows/desktop/api/Control/nn-control-ibasicaudio)</li>
-<li>[<strong>IMediaPosition</strong>](/windows/desktop/api/Control/nn-control-imediaposition)</li>
-<li>[<strong>IMediaSeeking</strong>](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats"><strong>IAMAudioRendererStats</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamclockslave"><strong>IAMClockSlave</strong></a></li>
+<li><a href="/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>IAMDirectSound</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol"><strong>IAMResourceControl</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li>
+<li><a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>IBasicAudio</strong></a></li>
+<li><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></li>
 <li>IPersistPropertyBag</li>
 <li>IPersistStream</li>
-<li>[<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</li>
-<li>[<strong>IReferenceClock</strong>](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>IReferenceClock</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -49,9 +49,9 @@ This filter supports a range of sample rates that depends on the audio driver.
 <tr class="odd">
 <td>Input Pin Interfaces</td>
 <td><ul>
-<li>[<strong>IMemInputPin</strong>](/windows/desktop/api/Strmif/nn-strmif-imeminputpin)</li>
-<li>[<strong>IPin</strong>](/windows/desktop/api/Strmif/nn-strmif-ipin)</li>
-<li>[<strong>IQualityControl</strong>](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a></li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -75,11 +75,11 @@ This filter supports a range of sample rates that depends on the audio driver.
 <td>quartz.dll</td>
 </tr>
 <tr class="odd">
-<td>[Merit](merit.md)</td>
+<td><a href="merit">Merit</a></td>
 <td><strong>MERIT_DO_NOT_USE</strong></td>
 </tr>
 <tr class="even">
-<td>[Filter Category](filter-categories.md)</td>
+<td><a href="filter-categories">Filter Category</a></td>
 <td><strong>CLSID_AudioRendererCategory</strong></td>
 </tr>
 </tbody>

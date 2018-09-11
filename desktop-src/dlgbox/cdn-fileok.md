@@ -1,5 +1,5 @@
 ---
-title: CDN\_FILEOK notification code
+title: CDN_FILEOK notification code
 description: Sent by an Explorer-style Open or Save As dialog box when the user specifies a file name and clicks the OK button.
 ms.assetid: 7f3de96f-68d8-4f40-b74f-304835f9def2
 keywords:

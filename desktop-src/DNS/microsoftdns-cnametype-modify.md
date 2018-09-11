@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_CNAMEType class
+title: Modify method of the MicrosoftDNS_CNAMEType class
 description: The Modify method updates a Canonical Name (CNAME) Resource Record.
 ms.assetid: 7e550026-d901-44a0-86ac-520682232ccb
 keywords:

@@ -1,6 +1,6 @@
 ---
 Description: Retrieves an InternetExplorer object that represents the Shell window.
-ms.assetid: 04157d1a-8a4d-4ffd-882d-41748408ba2b
+ms.assetid: '32390f35-f83a-45d9-a240-282da7cb2b13'
 title: ShellWindows.Item method
 ms.technology: desktop
 ms.prod: windows

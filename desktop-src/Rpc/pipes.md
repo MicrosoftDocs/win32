@@ -1,7 +1,7 @@
 ---
 title: Pipes
 description: The pipe type constructor is a highly efficient mechanism for passing large amounts of data, or any quantity of data that is not all available in memory at one time.
-ms.assetid: e5c466b8-c0b0-4fa8-8867-d0715fd614b2
+ms.assetid: '913d5e2a-00ad-4060-9274-a6db23fb2817'
 keywords:
 - Remote Procedure Call RPC , described, pipes
 ms.technology: desktop

@@ -1,5 +1,5 @@
 ---
-title: UninstallLicenseKeyPackWithId method of the Win32\_TSLicenseKeyPack class
+title: UninstallLicenseKeyPackWithId method of the Win32_TSLicenseKeyPack class
 description: Uninstalls the Remote Desktop Services license key pack with the specified key pack identifier.
 audience: developer
 author: REDMOND\\markl

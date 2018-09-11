@@ -1,5 +1,5 @@
 ---
-title: IsLSPublished method of the Win32\_TSLicenseServer class
+title: IsLSPublished method of the Win32_TSLicenseServer class
 description: Retrieves whether the Remote Desktop license server is published in Active Directory Domain Services (AD \ 160;DS).
 audience: developer
 author: REDMOND\\markl

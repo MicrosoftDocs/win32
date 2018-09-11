@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for disk I/O flush events. The following syntax is simplified from MOF code.
 ms.assetid: 7f0c9bd4-e4d3-49c1-ae72-f6bdf938099f
-title: DiskIo\_TypeGroup3 class
+title: DiskIo_TypeGroup3 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

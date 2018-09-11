@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSPermissionsSetting class
+title: Win32_TSPermissionsSetting class
 description: Includes a method to add new accounts to the terminal and a method to restore the default permissions to a terminal.
 audience: developer
 author: REDMOND\\markl

@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETINSERTMARKRECT message
+title: LVM_GETINSERTMARKRECT message
 description: Retrieves the rectangle that bounds the insertion point.
 ms.assetid: 7b10229c-73ab-426c-8a8a-71258a33e248
 keywords:
@@ -31,7 +31,7 @@ Retrieves the rectangle that bounds the insertion point.
 </dt> <dd>Not used; must be zero.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure that contains the coordinates of a rectangle that bounds the insertion point.</dd> </dl>
+</dt> <dd>Pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd162897">**RECT**</a> structure that contains the coordinates of a rectangle that bounds the insertion point.</dd> </dl>
 
 ## Return value
 

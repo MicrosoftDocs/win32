@@ -1,6 +1,6 @@
 ---
 Description: The memory manager implements virtual memory, provides a core set of services such as memory mapped files, copy-on-write memory, large memory support, and underlying support for the cache manager.
-ms.assetid: f259f3cb-81c0-4b5f-b6fa-9681a278019a
+ms.assetid: '14cff39d-2692-466b-8f2c-de2eb9384e91'
 title: Memory Management
 ms.technology: desktop
 ms.prod: windows

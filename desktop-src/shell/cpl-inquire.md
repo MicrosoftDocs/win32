@@ -1,6 +1,6 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
-title: CPL\_INQUIRE message
+title: CPL_INQUIRE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

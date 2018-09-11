@@ -50,10 +50,10 @@ The times when an app crashes or stops responding cause much user frustration. A
 
 Using Windows security best practices will help avoid creating exposure to Windows attack surfaces. Attack surfaces are the entry points that a malicious attacker could use to exploit the operating system by taking advantage of vulnerabilities in the target software. One of the worst security vulnerabilities is the elevation of privilege.
 
-<dl> 2.1 Your app must use strong and appropriate [ACLs](https://msdn.microsoft.com/library/windows/desktop/aa374872) to secure executable files  
-2.2 Your app must use strong and appropriate [ACLs](https://msdn.microsoft.com/library/windows/desktop/aa374872) to secure directories  
-2.3 Your app must use strong and appropriate [ACLs](https://msdn.microsoft.com/library/windows/desktop/aa374872) to secure registry keys  
-2.4 Your app must use strong and appropriate [ACLs](https://msdn.microsoft.com/library/windows/desktop/aa374872) to secure directories that contain objects  
+<dl> 2.1 Your app must use strong and appropriate <a href="https://msdn.microsoft.com/library/windows/desktop/aa374872">ACLs</a> to secure executable files  
+2.2 Your app must use strong and appropriate <a href="https://msdn.microsoft.com/library/windows/desktop/aa374872">ACLs</a> to secure directories  
+2.3 Your app must use strong and appropriate <a href="https://msdn.microsoft.com/library/windows/desktop/aa374872">ACLs</a> to secure registry keys  
+2.4 Your app must use strong and appropriate <a href="https://msdn.microsoft.com/library/windows/desktop/aa374872">ACLs</a> to secure directories that contain objects  
 2.5 Your app must reduce non-administrator access to services that are vulnerable to tampering  
 2.6 Your app must prevent services with fast restarts from restarting more than twice every 24 hours  
 </dl>**Note: Access should only be granted to the entities that require it.**

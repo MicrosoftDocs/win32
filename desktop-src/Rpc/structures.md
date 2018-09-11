@@ -1,7 +1,7 @@
 ---
 title: Structures
 description: Fields of pointers, arrays, and other constructed types can be modified by type or field attributes.
-ms.assetid: 8d2f31f6-21d3-402c-b84b-960a2d03ff40
+ms.assetid: '2b5d57b0-89af-4be4-ba98-72515acacaf2'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

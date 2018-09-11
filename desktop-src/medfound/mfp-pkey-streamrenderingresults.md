@@ -1,7 +1,7 @@
 ---
 Description: Specifies which streams were connected successfully to a media sink.
 ms.assetid: b5e45bfc-d91d-41b8-aaa4-72b3a23d869e
-title: MFP\_PKEY\_StreamRenderingResults property
+title: MFP_PKEY_StreamRenderingResults property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

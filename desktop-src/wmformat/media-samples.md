@@ -1,7 +1,7 @@
 ---
 title: Media Samples
 description: Media Samples
-ms.assetid: f9784c9a-c672-432d-a3ad-eb2ed73ac523
+ms.assetid: '5fe0d261-c4a8-4b8e-b5dd-668ce067723c'
 keywords:
 - Windows Media Format SDK,media samples
 - Windows Media Format SDK,samples

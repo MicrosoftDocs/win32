@@ -1,7 +1,7 @@
 ---
 title: Video Capture
 description: Video Capture
-ms.assetid: 1aa5b3dc-3c12-433b-92e6-fbeea7ca9ad5
+ms.assetid: 'c93ecc51-e2c5-4b69-8625-c8385d53fab2'
 keywords:
 - Video for Windows (VFW),video capture
 - VFW (Video for Windows),video capture

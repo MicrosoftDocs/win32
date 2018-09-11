@@ -1,7 +1,7 @@
 ---
 Description: The clock provider was disconnected.
 ms.assetid: 0a885b7a-840d-4112-85f7-ff6f2d87bb75
-title: EC\_CLOCK\_UNSET
+title: EC_CLOCK_UNSET
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

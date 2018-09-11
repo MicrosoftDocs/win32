@@ -1,5 +1,5 @@
 ---
-title: ddx\_coarse function
+title: ddx_coarse function
 description: Computes a low precision partial derivative with respect to the screen-space x-coordinate.
 ms.assetid: 5719f45d-b2ae-4916-8f31-c2797b661814
 keywords:

@@ -1,6 +1,6 @@
 ---
 Description: Functions
-ms.assetid: 991e4c69-7d30-4ecf-9ccf-4920452c21d6
+ms.assetid: '5bf62e2a-7d5f-4feb-872a-54d102759824'
 title: Functions
 ms.technology: desktop
 ms.prod: windows

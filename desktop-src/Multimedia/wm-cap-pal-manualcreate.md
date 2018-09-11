@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_PAL\_MANUALCREATE message
+title: WM_CAP_PAL_MANUALCREATE message
 description: The WM\_CAP\_PAL\_MANUALCREATE message requests that the capture driver manually sample video frames and create a new palette. You can send this message explicitly or by using the capPaletteManual macro.
 ms.assetid: 96b6b2d6-084a-411e-8495-ea27e0c4f04f
 keywords:

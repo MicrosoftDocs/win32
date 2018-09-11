@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_ApplicationManagement02 class
+title: MDM_Policy_Config01_ApplicationManagement02 class
 description: The MDM\_Policy\_Config01\_ApplicationManagement02 class represents the application management policies available.
 ms.assetid: f05c4852-e694-4e0d-94e1-07531c879613
 keywords:

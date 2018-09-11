@@ -1,5 +1,5 @@
 ---
-title: TVM\_SORTCHILDRENCB message
+title: TVM_SORTCHILDRENCB message
 description: Sorts tree-view items using an application-defined callback function that compares the items. You can send this message explicitly or by using the TreeView\_SortChildrenCB macro.
 ms.assetid: 1669e576-5e57-49f6-8097-7d6547306014
 keywords:

@@ -29,7 +29,7 @@ This version of Windows 7/Direct3D 11 ships as part of the DirectX SDK and conta
 <tbody>
 <tr class="odd">
 <td><span id="Direct2D"></span><span id="direct2d"></span><span id="DIRECT2D"></span>Direct2D<br/></td>
-<td>Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high quality rendering for 2-D geometry, bitmaps, and text. The Direct2D API is designed to interoperate well with Direct3D and GDI. This SDK allows developers to evaluate the API and write simple applications, with some of the more advanced functionality possible on properly configured machines. <br/> [Documentation](http://go.microsoft.com/fwlink/p/?linkid=141057) and [samples](http://go.microsoft.com/fwlink/p/?linkid=141058) for Direct2D are currently available on MSDN.<br/></td>
+<td>Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high quality rendering for 2-D geometry, bitmaps, and text. The Direct2D API is designed to interoperate well with Direct3D and GDI. This SDK allows developers to evaluate the API and write simple applications, with some of the more advanced functionality possible on properly configured machines. <br/> <a href="http://go.microsoft.com/fwlink/p/?linkid=141057">Documentation</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=141058">samples</a> for Direct2D are currently available on MSDN.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="DirectWrite"></span><span id="directwrite"></span><span id="DIRECTWRITE"></span>DirectWrite<br/></td>
@@ -41,26 +41,26 @@ This version of Windows 7/Direct3D 11 ships as part of the DirectX SDK and conta
 <li>Support for the advanced typography features of OpenType fonts.<br/></li>
 <li>Support for the layout and rendering of text in all languages supported by Windows.<br/></li>
 </ul>
-This SDK allows developers to evaluate the API and write basic applications for demonstration purposes only.<br/> [Documentation](http://go.microsoft.com/fwlink/p/?linkid=141059) and [samples](http://go.microsoft.com/fwlink/p/?linkid=141060) for DirectWrite are currently available on MSDN.<br/></td>
+This SDK allows developers to evaluate the API and write basic applications for demonstration purposes only.<br/> <a href="http://go.microsoft.com/fwlink/p/?linkid=141059">Documentation</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=141060">samples</a> for DirectWrite are currently available on MSDN.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="DXGI_1.1"></span><span id="dxgi_1.1"></span>DXGI 1.1<br/></td>
-<td>[DXGI 1.1](https://msdn.microsoft.com/library/windows/desktop/bb219822) builds on DXGI 1.0 and will be available on both Windows Vista and Windows 7. DXGI 1.1 adds several new features:<br/>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/bb219822">DXGI 1.1</a> builds on DXGI 1.0 and will be available on both Windows Vista and Windows 7. DXGI 1.1 adds several new features:<br/>
 <ul>
 <li>Synchronized Shared Surfaces Support. This enables efficient read and write surface sharing between multiple D3D (could be between D3D10 and D3D11) devices.<br/></li>
 <li>BGRA format support. This allows GDI to render to the same DXGI surface targeted by a Direct2D, Direct3D 10.1 or Direct3D 11 device. <br/></li>
-<li>Maximum Frame Latency. Using [<strong>IDXGIDevice1::SetMaximumFrameLatency</strong>](https://msdn.microsoft.com/library/windows/desktop/ff471334) and [<strong>IDXGIDevice1::GetMaximumFrameLatency</strong>](https://msdn.microsoft.com/library/windows/desktop/ff471332), titles can control the number of frames that are allowed to be stored in a queue, before submission for rendering. Latency is often used to control how the CPU chooses between responding to user input and frames that are in the render queue.<br/></li>
-<li>Adapter Enumeration. Using [<strong>IDXGIFactory1::EnumAdapters1</strong>](https://msdn.microsoft.com/library/windows/desktop/ff471336), titles can enumerates local adapters without any monitors or outputs attached, as well as adapters with outputs attached.<br/></li>
+<li>Maximum Frame Latency. Using <a href="https://msdn.microsoft.com/library/windows/desktop/ff471334"><strong>IDXGIDevice1::SetMaximumFrameLatency</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/ff471332"><strong>IDXGIDevice1::GetMaximumFrameLatency</strong></a>, titles can control the number of frames that are allowed to be stored in a queue, before submission for rendering. Latency is often used to control how the CPU chooses between responding to user input and frames that are in the render queue.<br/></li>
+<li>Adapter Enumeration. Using <a href="https://msdn.microsoft.com/library/windows/desktop/ff471336"><strong>IDXGIFactory1::EnumAdapters1</strong></a>, titles can enumerates local adapters without any monitors or outputs attached, as well as adapters with outputs attached.<br/></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><span id="Updated_Samples"></span><span id="updated_samples"></span><span id="UPDATED_SAMPLES"></span>Updated Samples<br/></td>
 <td>This release has several new and updated samples.<br/>
 <ul>
-<li>The new [AdaptiveTessellationCS40](https://msdn.microsoft.com/en-us/library/Ee416556(v=VS.85).aspx) is an illustration of more advanced compute shader processing techniques that can be run on a D3D10 or D3D11 GPU.</li>
-<li>The [HDRToneMappingCS11 sample](https://msdn.microsoft.com/en-us/library/Ee416569(v=VS.85).aspx) has been expanded to implement blur and bloom effects (in addition to tone mapping) using compute shader, as well as providing pixel shader implementations for comparison.</li>
-<li>The [MultithreadedRendering11 sample](https://msdn.microsoft.com/en-us/library/Ee416570(v=VS.85).aspx) has been significantly updated, with more complex art assets and more intensive per-thread processing.</li>
-<li>The [SubD11 sample](https://msdn.microsoft.com/en-us/library/Ee416576(v=VS.85).aspx) has been updated with a new facial model, and the sample now leverages the adjacency computation feature of the Samples Content Exporter.</li>
+<li>The new <a href="https://msdn.microsoft.com/en-us/library/Ee416556(v=VS.85).aspx">AdaptiveTessellationCS40</a> is an illustration of more advanced compute shader processing techniques that can be run on a D3D10 or D3D11 GPU.</li>
+<li>The <a href="https://msdn.microsoft.com/en-us/library/Ee416569(v=VS.85).aspx">HDRToneMappingCS11 sample</a> has been expanded to implement blur and bloom effects (in addition to tone mapping) using compute shader, as well as providing pixel shader implementations for comparison.</li>
+<li>The <a href="https://msdn.microsoft.com/en-us/library/Ee416570(v=VS.85).aspx">MultithreadedRendering11 sample</a> has been significantly updated, with more complex art assets and more intensive per-thread processing.</li>
+<li>The <a href="https://msdn.microsoft.com/en-us/library/Ee416576(v=VS.85).aspx">SubD11 sample</a> has been updated with a new facial model, and the sample now leverages the adjacency computation feature of the Samples Content Exporter.</li>
 </ul></td>
 </tr>
 </tbody>

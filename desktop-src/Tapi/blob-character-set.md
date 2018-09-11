@@ -1,7 +1,7 @@
 ---
 Description: The BLOB\_CHARACTER\_SET enum indicates the character set used by the current conference blob.
 ms.assetid: 79131b84-19b5-492b-a44e-9d47c365b298
-title: BLOB\_CHARACTER\_SET enumeration
+title: BLOB_CHARACTER_SET enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

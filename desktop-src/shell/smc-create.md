@@ -1,6 +1,6 @@
 ---
 Description: Notifies you that a menu band has been created.
-title: SMC\_CREATE message
+title: SMC_CREATE message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 title: put command
 description: The put command defines the area of the source image and destination window used for display. Digital-video and video-overlay devices recognize this command.
-ms.assetid: 1214fe5a-5a6a-4c6c-9b77-94eeb73f60da
+ms.assetid: '55fb7192-2083-45e7-a0bf-0d72a6320f91'
 keywords:
 - put command Windows Multimedia
 topic_type:

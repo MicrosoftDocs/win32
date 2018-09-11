@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the output pin.
 ms.assetid: 78ad7c38-8259-4005-9542-5ac375305940
-title: CTransformFilter::m\_pOutput member
+title: CTransformFilter::m_pOutput member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

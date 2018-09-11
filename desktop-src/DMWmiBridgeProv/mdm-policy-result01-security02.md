@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Security02 class
+title: MDM_Policy_Result01_Security02 class
 description: The MDM\_Policy\_Result01\_Security02 class represents the security policies available.
 ms.assetid: e4f9bbeb-b542-454d-930b-0b4ac88fe189
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: WMDM\_TAG\_DATATYPE enumeration
+title: WMDM_TAG_DATATYPE enumeration
 description: The WMDM\_TAG\_DATATYPE enumeration type defines a data type.
 ms.assetid: 9c300814-5610-4e46-b441-e7f2fc78a47b
 keywords:

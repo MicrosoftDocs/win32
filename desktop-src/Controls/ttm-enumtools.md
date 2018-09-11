@@ -1,5 +1,5 @@
 ---
-title: TTM\_ENUMTOOLS message
+title: TTM_ENUMTOOLS message
 description: Retrieves the information that a tooltip control maintains about the current tool \ 8212;that is, the tool for which the tooltip is currently displaying text.
 ms.assetid: c470db71-c24c-45f4-b497-e59811017eee
 keywords:

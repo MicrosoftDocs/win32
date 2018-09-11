@@ -1,7 +1,7 @@
 ---
 Description: Contains the merit value of a hardware codec.
 ms.assetid: 1df40a42-4c02-473f-a87f-2ae2d42e4f4e
-title: MFT\_CODEC\_MERIT\_Attribute attribute
+title: MFT_CODEC_MERIT_Attribute attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: The \ first\_is\ and \ last\_is\ Attributes
+title: The  first_is and  last_is Attributes
 description: You can determine the number of transmitted elements by specifying the first and last elements.
 ms.assetid: bd4dcf42-64a7-4b05-ac55-be77c381eb2e
 keywords:

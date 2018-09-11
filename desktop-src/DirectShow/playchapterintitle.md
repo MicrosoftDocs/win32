@@ -1,6 +1,6 @@
 ---
 Description: The PlayChapterInTitle event is sent when the PlayChapterInTitle command has been enabled or disabled.
-ms.assetid: 1ac5072b-d397-4415-b4b9-656fd59a9269
+ms.assetid: 'a18b6922-e2ea-4f5b-8bb9-8627b1c4825c'
 title: PlayChapterInTitle
 ms.technology: desktop
 ms.prod: windows

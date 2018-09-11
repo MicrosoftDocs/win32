@@ -1,7 +1,7 @@
 ---
 title: Network.getProxyName method
 description: The getProxyName method retrieves the name of the proxy server being used.
-ms.assetid: 7bf3adaa-a89d-4ffe-8233-a9c606b39350
+ms.assetid: '273b1f7d-84b7-4e50-9f80-9fd1978e7528'
 keywords:
 - getProxyName method Windows Media Player
 - getProxyName method Windows Media Player , Network class

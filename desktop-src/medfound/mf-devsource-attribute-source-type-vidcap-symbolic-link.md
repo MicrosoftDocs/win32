@@ -1,7 +1,7 @@
 ---
 Description: Contains the symbolic link for a video capture driver.
 ms.assetid: 3d256dec-ec8c-4c62-883b-e2c292fd90eb
-title: MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_SYMBOLIC\_LINK attribute
+title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MDM\_DeviceStatus\_DeviceGuard01 class
+title: MDM_DeviceStatus_DeviceGuard01 class
 description: The MDM\_DeviceStatus\_DeviceGuard01 class is used by the enterprise to keep track of device inventory and query the state of compliance of these devices with their enterprise policies.
 ms.assetid: 267129f6-ec37-43ae-bba3-e21917012f27
 keywords:

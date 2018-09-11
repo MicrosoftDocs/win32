@@ -1,7 +1,7 @@
 ---
 Description: Represents a logical element that can be enabled and disabled.
 ms.assetid: 52eed77e-f3f1-4489-8eff-a8ebebd5e1a8
-title: CIM\_EnabledLogicalElement class
+title: CIM_EnabledLogicalElement class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

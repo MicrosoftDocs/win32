@@ -2,7 +2,7 @@
 title: P
 description: Definitions of OpenGL terms that begin with the letter P.
 Robots: noindex, nofollow
-ms.assetid: 3cd8e41b-016b-4610-833a-048b5e50ae7c
+ms.assetid: 'bc7b0c93-af06-44a4-8bb8-adc0c6fedb6e'
 keywords:
 - parameters
 - perspective division

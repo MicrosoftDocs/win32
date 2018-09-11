@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETINSERTMARKCOLOR message
+title: LVM_GETINSERTMARKCOLOR message
 description: Retrieves the color of the insertion point.
 ms.assetid: 1e98023a-9d26-4b87-bee4-bee4939ccfca
 keywords:

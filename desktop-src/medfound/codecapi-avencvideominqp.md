@@ -1,7 +1,7 @@
 ---
 Description: Specifies the minimum quantization parameter (QP) for video encoding.
 ms.assetid: C9004A40-ECC9-45C3-BBDE-0A179B838AFE
-title: CODECAPI\_AVEncVideoMinQP property
+title: CODECAPI_AVEncVideoMinQP property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

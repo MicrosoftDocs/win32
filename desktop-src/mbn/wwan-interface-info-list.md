@@ -1,7 +1,7 @@
 ---
 Description: Describes an array of wide area network (WWAN) interfaces.
 ms.assetid: F8104B2E-304D-4DC4-9F2B-6FA29CD5DEA5
-title: WWAN\_INTERFACE\_INFO\_LIST structure
+title: WWAN_INTERFACE_INFO_LIST structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

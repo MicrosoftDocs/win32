@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the first node in the list.
 ms.assetid: 00a9e7c8-e536-46e2-96a0-e26eb6c34e54
-title: CBaseList::m\_pFirst member
+title: CBaseList::m_pFirst member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

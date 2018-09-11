@@ -1,5 +1,5 @@
 ---
-title: MM\_WOM\_DONE message
+title: MM_WOM_DONE message
 description: The MM\_WOM\_DONE message is sent to a window when the given output buffer is being returned to the application. Buffers are returned to the application when they have been played, or as the result of a call to the waveOutReset function.
 ms.assetid: bbdebb68-82e5-4963-90bb-f93f8a91a8cf
 keywords:

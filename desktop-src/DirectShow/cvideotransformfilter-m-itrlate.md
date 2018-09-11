@@ -1,7 +1,7 @@
 ---
 Description: Indicates how late the samples are arriving at the renderer, in reference time units. Syntax.
 ms.assetid: 7b30fbe1-5e57-4aa4-8e87-ddd584f186e4
-title: CVideoTransformFilter::m\_itrLate member
+title: CVideoTransformFilter::m_itrLate member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

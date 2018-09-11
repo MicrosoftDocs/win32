@@ -1,5 +1,5 @@
 ---
-title: v1\_enum attribute
+title: v1_enum attribute
 description: The \ v1\_enum\ attribute directs that the specified enumerated type be transmitted as a 32-bit entity, rather than the 16-bit default.
 ms.assetid: 46016131-b78e-4a7f-94c8-41ff1780b0b8
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SSHORTTIME
 ms.assetid: d7e32d00-2e2d-4ab5-aa62-708d45f5b431
-title: LOCALE\_SSHORTTIME
+title: LOCALE_SSHORTTIME
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

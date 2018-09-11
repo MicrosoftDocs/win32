@@ -1,5 +1,5 @@
 ---
-title: EM\_SETIMEOPTIONS message
+title: EM_SETIMEOPTIONS message
 description: Sets the Input Method Editor (IME) options.
 ms.assetid: 8a72ee1c-f6b8-44eb-b8df-57cd834db326
 keywords:

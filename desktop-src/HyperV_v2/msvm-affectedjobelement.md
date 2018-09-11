@@ -1,7 +1,7 @@
 ---
 Description: Represents an association between a job and the managed element that may be affected by its execution.
 ms.assetid: 125A4976-A4E3-4D7A-A43B-86045C3B00AE
-title: Msvm\_AffectedJobElement class
+title: Msvm_AffectedJobElement class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

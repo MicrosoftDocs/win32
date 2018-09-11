@@ -1,7 +1,7 @@
 ---
 Description: Begins encryption of a fully decrypted volume, or resumes encryption of a partially encrypted volume.
 ms.assetid: bba8b800-309b-4268-8278-db69827bbdf6
-title: Encrypt method of the Win32\_EncryptableVolume class
+title: Encrypt method of the Win32_EncryptableVolume class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -119,14 +119,14 @@ This method returns immediately. If the volume is already fully encrypted and no
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>FVE_E_CANNOT_ENCRYPT_NO_KEY</strong></dt> <dt>2150694958 (0x8031002E)</dt> </dl></td>
-<td>No encryption key exists for the volume. Either disable key protectors by using the [<strong>DisableKeyProtectors</strong>](disablekeyprotectors-win32-encryptablevolume.md) method or use one of the following methods to specify key protectors for the volume:<br/>
+<td>No encryption key exists for the volume. Either disable key protectors by using the <a href="disablekeyprotectors-win32-encryptablevolume"><strong>DisableKeyProtectors</strong></a> method or use one of the following methods to specify key protectors for the volume:<br/>
 <ul>
-<li>[<strong>ProtectKeyWithExternalKey</strong>](protectkeywithexternalkey-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithNumericalPassword</strong>](protectkeywithnumericalpassword-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithTPM</strong>](protectkeywithtpm-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithTPMAndPIN</strong>](protectkeywithtpmandpin-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithTPMAndPINAndStartupKey</strong>](protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md)</li>
-<li>[<strong>ProtectKeyWithTPMAndStartupKey</strong>](protectkeywithtpmandstartupkey-win32-encryptablevolume.md)</li>
+<li><a href="protectkeywithexternalkey-win32-encryptablevolume"><strong>ProtectKeyWithExternalKey</strong></a></li>
+<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
+<li><a href="protectkeywithtpm-win32-encryptablevolume"><strong>ProtectKeyWithTPM</strong></a></li>
+<li><a href="protectkeywithtpmandpin-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
+<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
+<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
 </ul>
 <strong>Windows Vista:</strong> When no encryption key exists for the volume, ERROR_INVALID_OPERATION is returned instead. The decimal value is 4317 and the hexadecimal value is 0x10DD.<br/></td>
 </tr>
@@ -144,7 +144,7 @@ This method returns immediately. If the volume is already fully encrypted and no
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>FVE_E_POLICY_PASSWORD_REQUIRED</strong></dt> <dt>2150694956 (0x8031002C)</dt> </dl></td>
-<td>No key protectors of the type &quot;Numerical Password&quot; are specified. The Group Policy requires a backup of recovery information to Active Directory Domain Services. To add at least one key protector of that type, use the [<strong>ProtectKeyWithNumericalPassword</strong>](protectkeywithnumericalpassword-win32-encryptablevolume.md) method.<br/></td>
+<td>No key protectors of the type &quot;Numerical Password&quot; are specified. The Group Policy requires a backup of recovery information to Active Directory Domain Services. To add at least one key protector of that type, use the <a href="protectkeywithnumericalpassword-win32-encryptablevolume"><strong>ProtectKeyWithNumericalPassword</strong></a> method.<br/></td>
 </tr>
 </tbody>
 </table>

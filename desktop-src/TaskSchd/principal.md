@@ -1,7 +1,7 @@
 ---
 title: Principal object
 description: Scripting object that provides the security credentials for a principal.
-ms.assetid: 7aa22af2-7f0a-41c1-89c6-d813780e89bf
+ms.assetid: '9589f3c2-2709-4e71-8986-2347be049f6b'
 keywords:
 - Principal object Task Scheduler
 - Principal object Task Scheduler , described

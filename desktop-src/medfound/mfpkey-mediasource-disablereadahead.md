@@ -1,7 +1,7 @@
 ---
 Description: Enables or disables read-ahead in a media source.
 ms.assetid: b2b8711f-ba63-4fba-bb88-8d254135eb21
-title: MFPKEY\_MediaSource\_DisableReadAhead property
+title: MFPKEY_MediaSource_DisableReadAhead property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

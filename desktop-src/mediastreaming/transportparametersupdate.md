@@ -1,7 +1,7 @@
 ---
 title: TransportParametersUpdate event
 description: Occurs whenever any of a set of transport parameters are updated on the DMR.
-ms.assetid: 34D11925-387B-414F-A176-336BBCF87821
+ms.assetid: 'df9256ca-6c59-462c-b32f-4653546db384'
 keywords:
 - TransportParametersUpdate event Media Streaming API
 topic_type:

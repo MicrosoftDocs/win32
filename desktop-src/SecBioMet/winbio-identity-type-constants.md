@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_IDENTITY\_TYPE Constants
+title: WINBIO_IDENTITY_TYPE Constants
 description: Specify the format of the identity information contained in the WINBIO\_IDENTITY structure.
 ms.assetid: 27A01538-9B26-4A29-8ADB-ED9C5D5808B3
 topic_type:

@@ -1,7 +1,7 @@
 ---
 title: System Restore Structures
 description: The following structures are used with System Restore
-ms.assetid: a85405ec-360b-4316-99b4-1b94b1eff0f6
+ms.assetid: 'e0248ee3-e167-4c8a-adbd-6ba6d94c1bd4'
 keywords:
 - System Restore, reference, structures
 ms.technology: desktop

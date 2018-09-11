@@ -1,5 +1,5 @@
 ---
-title: CB\_GETEXTENDEDUI message
+title: CB_GETEXTENDEDUI message
 description: Determines whether a combo box has the default user interface or the extended user interface.
 ms.assetid: 4f5580e0-68b1-4584-bf79-561fb8222fe0
 keywords:

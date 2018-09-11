@@ -1,5 +1,5 @@
 ---
-title: SV\_DispatchThreadID
+title: SV_DispatchThreadID
 description: Indices for which combined thread and thread group a compute shader is executing in.
 ms.assetid: bad697f6-26d9-47cd-93e5-127621a161e8
 keywords:

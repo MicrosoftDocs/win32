@@ -1,7 +1,7 @@
 ---
 title: Primitives
 description: Primitives
-ms.assetid: 9af15db6-895e-4076-8e4c-ef4fcb7e0a7e
+ms.assetid: 'a16e5090-8e33-43f4-91df-241a7dd9a860'
 keywords:
 - OpenGL,primitives
 - OpenGL processing pipeline,primitives

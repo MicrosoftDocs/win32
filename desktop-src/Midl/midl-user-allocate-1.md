@@ -1,5 +1,5 @@
 ---
-title: midl\_user\_allocate attribute
+title: midl_user_allocate attribute
 description: The midl\_user\_allocate function is a function that client and server applications provide to allocate memory.
 ms.assetid: 0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4
 keywords:

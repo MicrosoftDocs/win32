@@ -9,7 +9,7 @@ ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple
-title: CopyEx method of the CIM\_LogicalFile class
+title: CopyEx method of the CIM_LogicalFile class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

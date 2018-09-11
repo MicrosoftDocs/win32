@@ -58,7 +58,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...read registry key values using WMI?</td>
-<td>Use the [<strong>StdRegProv</strong>](https://msdn.microsoft.com/library/aa393664) class, located in root\default namespace. You cannot get any instances of this class because the [System Registry Provider](https://msdn.microsoft.com/library/aa393886) is a method and event provider only. However, you can get registry data through methods such as [<strong>EnumKey</strong>](https://msdn.microsoft.com/library/aa390387) or [<strong>EnumValue</strong>](https://msdn.microsoft.com/library/aa390388). The [<strong>Win32_Registry</strong>](https://msdn.microsoft.com/library/aa394394), located in root\cimv2 namespace, gets data about the registry as a whole, such as how large it is.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="https://msdn.microsoft.com/library/aa393664"><strong>StdRegProv</strong></a> class, located in root\default namespace. You cannot get any instances of this class because the <a href="https://msdn.microsoft.com/library/aa393886">System Registry Provider</a> is a method and event provider only. However, you can get registry data through methods such as <a href="https://msdn.microsoft.com/library/aa390387"><strong>EnumKey</strong></a> or <a href="https://msdn.microsoft.com/library/aa390388"><strong>EnumValue</strong></a>. The <a href="https://msdn.microsoft.com/library/aa394394"><strong>Win32_Registry</strong></a>, located in root\cimv2 namespace, gets data about the registry as a whole, such as how large it is.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -106,7 +106,7 @@ $results = $reg.GetDWORDValue($HKEY_CURRENT_USER, $Key, $value)
 </tr>
 <tr class="even">
 <td>...create a new registry key?</td>
-<td><p>Use the [<strong>StdRegProv</strong>](https://msdn.microsoft.com/library/aa393664) class, located in root\default namespace, and the [<strong>CreateKey</strong>](https://msdn.microsoft.com/library/aa389385) method.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa393664"><strong>StdRegProv</strong></a> class, located in root\default namespace, and the <a href="https://msdn.microsoft.com/library/aa389385"><strong>CreateKey</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -156,7 +156,7 @@ If ($results.Returnvalue -eq 0) {&quot;Key created&quot;} </code></pre></td>
 </tr>
 <tr class="odd">
 <td>...create a new registry value under a key?</td>
-<td><p>Use the [<strong>StdRegProv</strong>](https://msdn.microsoft.com/library/aa393664) class, located in the root\default namespace, and the [<strong>CreateKey</strong>](https://msdn.microsoft.com/library/aa389385) method. Then use one of the Set methods, depending on what registry datatype the value is, such as the [<strong>SetDWORDValue</strong>](https://msdn.microsoft.com/library/aa393297). The Set methods create a value if it does not already exist. For more information, see [Mapping a Registry Data Type to a WMI Data Type](mapping-a-registry-data-type-to-a-wmi-data-type.md).</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa393664"><strong>StdRegProv</strong></a> class, located in the root\default namespace, and the <a href="https://msdn.microsoft.com/library/aa389385"><strong>CreateKey</strong></a> method. Then use one of the Set methods, depending on what registry datatype the value is, such as the <a href="https://msdn.microsoft.com/library/aa393297"><strong>SetDWORDValue</strong></a>. The Set methods create a value if it does not already exist. For more information, see <a href="mapping-a-registry-data-type-to-a-wmi-data-type">Mapping a Registry Data Type to a WMI Data Type</a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -209,7 +209,7 @@ If ($results.Returnvalue -eq 0) {&quot;Value created&quot;}</code></pre></td>
 </tr>
 <tr class="even">
 <td>...avoid getting an Invalid Class error when trying to write a script to read the registry?</td>
-<td><p>Use the root\default namespace when accessing the [<strong>StdRegProv</strong>](https://msdn.microsoft.com/library/aa393664) class. <strong>StdRegProv</strong> is not part of the cimv2 namespace, which is why an &quot;Invalid Class&quot; error is generated if you try to connect to &quot;root\cimv2:StdRegProv&quot;.</p>
+<td><p>Use the root\default namespace when accessing the <a href="https://msdn.microsoft.com/library/aa393664"><strong>StdRegProv</strong></a> class. <strong>StdRegProv</strong> is not part of the cimv2 namespace, which is why an &quot;Invalid Class&quot; error is generated if you try to connect to &quot;root\cimv2:StdRegProv&quot;.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -238,11 +238,11 @@ Wscript.Echo &quot;Current History Buffer Size: &quot; & dwValue</code></pre></t
 </tr>
 <tr class="odd">
 <td>...check security on a specific registry key?</td>
-<td><p>Use the [<strong>StdRegProv</strong>](https://msdn.microsoft.com/library/aa393664) class, located in root\default namespace and the [<strong>CheckAccess</strong>](https://msdn.microsoft.com/library/aa384911) method. You can only check the access rights for the current user that is running the script or application. You cannot check the access rights for another specified user.</p></td>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa393664"><strong>StdRegProv</strong></a> class, located in root\default namespace and the <a href="https://msdn.microsoft.com/library/aa384911"><strong>CheckAccess</strong></a> method. You can only check the access rights for the current user that is running the script or application. You cannot check the access rights for another specified user.</p></td>
 </tr>
 <tr class="even">
 <td>...read and write binary registry values?</td>
-<td><p>Use the [<strong>StdRegProv</strong>](https://msdn.microsoft.com/library/aa393664) class, located in &quot;Root\Default&quot; namespace and the [<strong>GetBinaryValue</strong>](https://msdn.microsoft.com/library/aa390440) and [<strong>SetBinaryValue</strong>](https://msdn.microsoft.com/library/aa393286) methods. Registry values that appear in the RegEdt32 utility as a series of byte hexadecimal values are in the <strong>REG_BINARY</strong> data format. For more information, see [Mapping a Registry Data Type to a WMI Data Type](mapping-a-registry-data-type-to-a-wmi-data-type.md). The following VBScript code example creates a new key with a binary value. The binary value is supplied in the <em>iValues</em> byte array specified in Hex.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa393664"><strong>StdRegProv</strong></a> class, located in &quot;Root\Default&quot; namespace and the <a href="https://msdn.microsoft.com/library/aa390440"><strong>GetBinaryValue</strong></a> and <a href="https://msdn.microsoft.com/library/aa393286"><strong>SetBinaryValue</strong></a> methods. Registry values that appear in the RegEdt32 utility as a series of byte hexadecimal values are in the <strong>REG_BINARY</strong> data format. For more information, see <a href="mapping-a-registry-data-type-to-a-wmi-data-type">Mapping a Registry Data Type to a WMI Data Type</a>. The following VBScript code example creates a new key with a binary value. The binary value is supplied in the <em>iValues</em> byte array specified in Hex.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -326,7 +326,7 @@ Foreach ($byte in $results.uvalue) {&quot;{0}&quot; -f $byte.tostring(&quot;x&qu
 </tr>
 <tr class="odd">
 <td>...read and write registry values that contain multiple strings?</td>
-<td><p>Use the [<strong>StdRegProv</strong>](https://msdn.microsoft.com/library/aa393664) class, located in root\default namespace and the [<strong>GetMultiStringValue</strong>](https://msdn.microsoft.com/library/aa390458) and [<strong>SetMultiStringValue</strong>](https://msdn.microsoft.com/library/aa393465) methods. Registry keys that appear in the RegEdt32 utility as a series of strings separated by spaces are in the <strong>REG_MULTI_SZ</strong> data format. For more information, see [Mapping a Registry Data Type to a WMI Data Type](mapping-a-registry-data-type-to-a-wmi-data-type.md). The following VBScript code example creates a new key and a new multistring value.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa393664"><strong>StdRegProv</strong></a> class, located in root\default namespace and the <a href="https://msdn.microsoft.com/library/aa390458"><strong>GetMultiStringValue</strong></a> and <a href="https://msdn.microsoft.com/library/aa393465"><strong>SetMultiStringValue</strong></a> methods. Registry keys that appear in the RegEdt32 utility as a series of strings separated by spaces are in the <strong>REG_MULTI_SZ</strong> data format. For more information, see <a href="mapping-a-registry-data-type-to-a-wmi-data-type">Mapping a Registry Data Type to a WMI Data Type</a>. The following VBScript code example creates a new key and a new multistring value.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -432,7 +432,7 @@ $results.svalue</code></pre></td>
 </tr>
 <tr class="even">
 <td>...remove a registry key?</td>
-<td><p>Use the [<strong>StdRegProv</strong>](https://msdn.microsoft.com/library/aa393664) class, located in root\default namespace and the [<strong>DeleteKey</strong>](https://msdn.microsoft.com/library/aa389872) methods.</p>
+<td><p>Use the <a href="https://msdn.microsoft.com/library/aa393664"><strong>StdRegProv</strong></a> class, located in root\default namespace and the <a href="https://msdn.microsoft.com/library/aa389872"><strong>DeleteKey</strong></a> methods.</p>
 <div class="code">
 <span data-codelanguage="PowerShell"></span>
 <table>

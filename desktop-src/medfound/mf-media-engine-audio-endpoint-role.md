@@ -1,7 +1,7 @@
 ---
 Description: Specifies the device role for the audio stream.
 ms.assetid: E4B7660D-5F41-495A-B77D-94B7981F4C2C
-title: MF\_MEDIA\_ENGINE\_AUDIO\_ENDPOINT\_ROLE attribute
+title: MF_MEDIA_ENGINE_AUDIO_ENDPOINT_ROLE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

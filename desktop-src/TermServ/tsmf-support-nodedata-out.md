@@ -1,5 +1,5 @@
 ---
-title: TSMF\_SUPPORT\_NODEDATA\_OUT structure
+title: TSMF_SUPPORT_NODEDATA_OUT structure
 description: Used inside the TSMF\_SUPPORT\_DATA\_OUT structure to contain information about supported media formats.
 audience: developer
 author: REDMOND\\markl

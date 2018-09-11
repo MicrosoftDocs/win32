@@ -1,5 +1,5 @@
 ---
-title: DRM\_LASignatureLicSrvCert
+title: DRM_LASignatureLicSrvCert
 description: The DRM\_LASignatureLicSrvCert attribute contains the certificate that verifies the certificate contained in DRM\_LASignatureCert.
 ms.assetid: 1c22c010-f344-4dcf-a3d1-f852a65bd772
 keywords:

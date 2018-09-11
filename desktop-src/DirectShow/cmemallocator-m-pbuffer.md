@@ -1,7 +1,7 @@
 ---
 Description: Pointer to the memory block that contains the buffers.
 ms.assetid: b9d08f5b-8616-4f68-869a-e8ebb77ccdc1
-title: CMemAllocator::m\_pBuffer member
+title: CMemAllocator::m_pBuffer member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -72,11 +72,11 @@ If there are multiple elements, the last one is used. If no [labelInfo](https://
 <tbody>
 <tr class="odd">
 <td>label</td>
-<td>Public. Optional. The label as it is displayed in the UI (for example, the details column label or preview pane). The syntax allows for a direct display string or an indirect display string reference. Use the indirect display string because it can be localized. [<strong>IPropertyDescription::GetDisplayName</strong>](https://msdn.microsoft.com/library/Bb761534(v=VS.85).aspx>) returns the resolved display name.</td>
+<td>Public. Optional. The label as it is displayed in the UI (for example, the details column label or preview pane). The syntax allows for a direct display string or an indirect display string reference. Use the indirect display string because it can be localized. <a href="https://msdn.microsoft.com/library/Bb761534(v=VS.85).aspx>"><strong>IPropertyDescription::GetDisplayName</strong></a> returns the resolved display name.</td>
 </tr>
 <tr class="even">
 <td>sortDescription</td>
-<td>Optional. Specifies the strings offered as sort options. [<strong>IPropertyDescription::GetSortDescription</strong>](https://msdn.microsoft.com/library/Bb761551(v=VS.85).aspx>) returns this sort description. The following values provide the corresponding UI strings.
+<td>Optional. Specifies the strings offered as sort options. <a href="https://msdn.microsoft.com/library/Bb761551(v=VS.85).aspx>"><strong>IPropertyDescription::GetSortDescription</strong></a> returns this sort description. The following values provide the corresponding UI strings.
 <ul>
 <li>General: &quot;Sort going up&quot; / &quot;Sort going down&quot;</li>
 <li>AToZ: &quot;A on top&quot; / &quot;Z on top&quot;</li>
@@ -87,7 +87,7 @@ If there are multiple elements, the last one is used. If no [labelInfo](https://
 </tr>
 <tr class="odd">
 <td>invitationText</td>
-<td>Optional. The Help string text that is displayed as an instruction to the user for the control or ToolTip (for instance, &quot;Enter author name.&quot;). The syntax allows for a direct display string or an indirect display string reference. Use the indirect display string because it can be localized. [<strong>IPropertyDescription::GetEditInvitation</strong>](https://msdn.microsoft.com/library/Bb761538(v=VS.85).aspx>) returns the resolved invitation text.</td>
+<td>Optional. The Help string text that is displayed as an instruction to the user for the control or ToolTip (for instance, &quot;Enter author name.&quot;). The syntax allows for a direct display string or an indirect display string reference. Use the indirect display string because it can be localized. <a href="https://msdn.microsoft.com/library/Bb761538(v=VS.85).aspx>"><strong>IPropertyDescription::GetEditInvitation</strong></a> returns the resolved invitation text.</td>
 </tr>
 <tr class="even">
 <td>hideLabel</td>

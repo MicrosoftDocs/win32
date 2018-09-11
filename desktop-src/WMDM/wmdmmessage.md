@@ -1,7 +1,7 @@
 ---
 title: WMDMMessage enumeration
 description: The WMDMMessage enumeration type defines message types and states.
-ms.assetid: e178db6b-2493-442e-95d1-04609b7726fe
+ms.assetid: '49a77100-8890-4e40-852f-c6fd436f22c5'
 keywords:
 - WMDMMessage enumeration windows Media Device Manager
 topic_type:

@@ -1,7 +1,7 @@
 ---
 Description: The WM\_SPOOLERSTATUS message is sent from Print Manager whenever a job is added to or removed from the Print Manager queue.
 ms.assetid: 6140c9d8-0e5b-49f2-a4a6-cc1f2a0bed0a
-title: WM\_SPOOLERSTATUS message
+title: WM_SPOOLERSTATUS message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

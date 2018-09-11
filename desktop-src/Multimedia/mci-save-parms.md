@@ -1,5 +1,5 @@
 ---
-title: MCI\_SAVE\_PARMS structure
+title: MCI_SAVE_PARMS structure
 description: The MCI\_SAVE\_PARMS structure contains the filename information for the MCI\_SAVE command.
 ms.assetid: fbaff175-e521-4b93-853a-f444726932d3
 keywords:

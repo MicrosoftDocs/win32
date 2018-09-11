@@ -1,5 +1,5 @@
 ---
-title: TVM\_SETUNICODEFORMAT message
+title: TVM_SETUNICODEFORMAT message
 description: Sets the Unicode character format flag for the control.
 ms.assetid: e4b58ae5-6217-4a2e-80e5-3ba9e578859a
 keywords:

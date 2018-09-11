@@ -1,5 +1,5 @@
 ---
-title: D3DX\_R10G10B10A2\_UNORM\_to\_FLOAT4 function
+title: D3DX_R10G10B10A2_UNORM_to_FLOAT4 function
 description: Unpacks DXGI\_FORMAT\_R10G10B10A2\_UNORM shader data to an XMFLOAT4.
 ms.assetid: 36efd611-1450-421a-a34f-fd874589de2a
 keywords:

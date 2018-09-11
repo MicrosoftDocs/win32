@@ -1,5 +1,5 @@
 ---
-title: context\_handle\_noserialize attribute
+title: context_handle_noserialize attribute
 description: The \ context\_handle\_noserialize\ ACF attribute guarantees that a context handle will never be serialized, regardless of the application's default behavior.
 ms.assetid: aff2484e-639b-41d2-94a9-f34ca4f2343c
 keywords:

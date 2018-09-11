@@ -1,7 +1,7 @@
 ---
 title: TaskVariables.GetInput method
 description: For scripting, gets the input variables for a task.
-ms.assetid: 7c38a633-b3f1-4894-9152-e01a083a54fc
+ms.assetid: '6e4cb7a2-5bd9-4384-8b9e-931b70018544'
 keywords:
 - GetInput method Task Scheduler
 - GetInput method Task Scheduler , TaskVariables object

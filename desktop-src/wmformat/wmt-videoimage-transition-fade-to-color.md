@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_FADE\_TO\_COLOR
+title: WMT_VIDEOIMAGE_TRANSITION_FADE_TO_COLOR
 description: The fade-to-color transition dissolves from the image to a frame of solid color.
 ms.assetid: 4ec52682-1ca2-436d-b7ce-2a9d407ff50e
 keywords:

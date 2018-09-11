@@ -1,5 +1,5 @@
 ---
-title: GetIPAndPort method of the Win32\_TSGatewayServerSettings class
+title: GetIPAndPort method of the Win32_TSGatewayServerSettings class
 description: Obtains the listening IP address and port number for the specified transport.
 audience: developer
 author: REDMOND\\markl

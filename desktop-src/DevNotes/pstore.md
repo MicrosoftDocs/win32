@@ -1,6 +1,6 @@
 ---
 Description: Protected Storage provides applications with an interface to store user data that must be kept secure or free from modification.
-ms.assetid: 6a4200ed-c3cf-4d6c-8936-22261e670087
+ms.assetid: '85c1a009-c4f7-4b5a-ad96-6845a4e80de9'
 title: PStore
 ms.technology: desktop
 ms.prod: windows

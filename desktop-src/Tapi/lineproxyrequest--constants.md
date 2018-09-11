@@ -1,7 +1,7 @@
 ---
 Description: These constants are used in two contexts.
 ms.assetid: 5c05a567-cc65-411e-b049-919a442c5c57
-title: LINEPROXYREQUEST\_ Constants
+title: LINEPROXYREQUEST_ Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

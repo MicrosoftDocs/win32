@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_ResourceRecord class
+title: MicrosoftDNS_ResourceRecord class
 description: The MicrosoftDNS\_ResourceRecord class represents the general properties of a DNS RR.The following syntax is simplified from MOF code.
 ms.assetid: 84d6d106-fcc9-44ae-8db2-181c60489aec
 keywords:

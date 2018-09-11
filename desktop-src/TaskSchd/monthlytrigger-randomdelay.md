@@ -1,7 +1,7 @@
 ---
 title: MonthlyTrigger.RandomDelay property
 description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger.
-ms.assetid: 6b2a42dc-4002-4e51-9a8a-2982f83835d6
+ms.assetid: '5334356f-fef1-4d0e-9879-6ec996b75dff'
 keywords:
 - RandomDelay property Task Scheduler
 - RandomDelay property Task Scheduler , MonthlyTrigger object

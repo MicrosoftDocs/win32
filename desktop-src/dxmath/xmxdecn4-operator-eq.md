@@ -1,6 +1,6 @@
 ---
 Description: Assigns vector component data to the current instance of XMXDECN4.
-ms.assetid: d60f196b-281a-428c-bdae-f2d4ad1e206d
+ms.assetid: 'overload:microsoft.directx_sdk.reference.xmxdecn4.operator = '
 title: operator = operators
 ms.technology: desktop
 ms.prod: windows
@@ -39,8 +39,8 @@ Assigns vector component data to the current instance of [**XMXDECN4**](https://
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMXDECN4::operator = (const uint32_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404831(v=VS.85).aspx)</td>
-<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMXDECN4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMXDECN4</strong>](https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx). <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404831(v=VS.85).aspx"><strong>XMXDECN4::operator = (const uint32_t)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMXDECN4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx"><strong>XMXDECN4</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -48,7 +48,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMXDECN4::operator = (const XMXDECN4&)</strong>](https://msdn.microsoft.com/en-us/library/Ee421413(v=VS.85).aspx)</td>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee421413(v=VS.85).aspx"><strong>XMXDECN4::operator = (const XMXDECN4&)</strong></a></td>
 <td style="text-align: left;">Assigns the vector component data from one instance of <code>XMXDECN4</code> to the current instance of <code>XMXDECN4</code>. <br/>
 <blockquote>
 [!Note]<br />

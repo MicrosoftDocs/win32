@@ -1,5 +1,5 @@
 ---
-title: WM\_TOUCH message
+title: WM_TOUCH message
 description: Notifies the window when one or more touch points, such as a finger or pen, touches a touch-sensitive digitizer surface.
 ms.assetid: 5dee8bab-34fa-4dd9-a65b-35883757ec80
 keywords:

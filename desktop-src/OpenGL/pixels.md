@@ -1,7 +1,7 @@
 ---
 title: Pixels
 description: Fragments are converted to pixels in the framebuffer.
-ms.assetid: c4055928-7b8b-4d0f-94f3-e3b9c0503308
+ms.assetid: '1925b455-ae6e-4f95-899c-4bcac641f549'
 keywords:
 - OpenGL,pixels
 - OpenGL processing pipeline,pixels

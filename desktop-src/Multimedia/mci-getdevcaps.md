@@ -1,5 +1,5 @@
 ---
-title: MCI\_GETDEVCAPS command
+title: MCI_GETDEVCAPS command
 description: The MCI\_GETDEVCAPS command retrieves static information about a device.
 ms.assetid: a839006f-ea57-4595-9208-cfc465c95298
 keywords:

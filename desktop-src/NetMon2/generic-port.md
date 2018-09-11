@@ -1,7 +1,7 @@
 ---
 Description: Contains a port number used for IP or IPX protocols.
 ms.assetid: 730f6ee6-7b7d-4e10-91ee-a4ba87aae5aa
-title: GENERIC\_PORT union
+title: GENERIC_PORT union
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

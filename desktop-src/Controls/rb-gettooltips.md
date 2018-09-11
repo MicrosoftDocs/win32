@@ -1,5 +1,5 @@
 ---
-title: RB\_GETTOOLTIPS message
+title: RB_GETTOOLTIPS message
 description: Retrieves the handle to any tooltip control associated with the rebar control.
 ms.assetid: 87897b00-857f-4a8a-ae16-a48abf4c411d
 keywords:

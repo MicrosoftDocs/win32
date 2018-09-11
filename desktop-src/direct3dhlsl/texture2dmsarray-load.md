@@ -1,7 +1,7 @@
 ---
 title: Texture2DMSArray Load methods
 description: Reads texture data.
-ms.assetid: 955135cf-1bac-4d0c-9870-2b6d59d9dd88
+ms.assetid: '24ebf42c-3e66-471c-aca9-e3b37b40f5ee'
 keywords:
 - Load methods HLSL
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_AType class
+title: Modify method of the MicrosoftDNS_AType class
 description: The Modify method updates the TTL and IP address of a host Address (A) Resource Record.
 ms.assetid: fe01549d-7135-499d-a5a5-cd31ea106f53
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: D3DCOMPILER\_STRIP\_FLAGS enumeration
+title: D3DCOMPILER_STRIP_FLAGS enumeration
 description: Strip flag options.
 ms.assetid: 44e2af42-f5db-4206-aa00-37d070b2ca3b
 keywords:
@@ -71,7 +71,7 @@ This value is supported by the D3dcompiler_44.dll or later version of the file.
 [!Note]<br />
 This value is supported by the D3dcompiler_47.dll or later version of the file.
 </blockquote>
-<br/> Remove the root signature. Refer to [Specifying Root Signatures in HLSL](https://msdn.microsoft.com/library/windows/desktop/dn913202) for more information on using Direct3D12 with HLSL.<br/></td>
+<br/> Remove the root signature. Refer to <a href="https://msdn.microsoft.com/library/windows/desktop/dn913202">Specifying Root Signatures in HLSL</a> for more information on using Direct3D12 with HLSL.<br/></td>
 <td>0x00000010</td>
 </tr>
 <tr class="even">

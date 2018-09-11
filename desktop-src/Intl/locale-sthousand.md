@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_STHOUSAND
 ms.assetid: 20898656-d9e3-47cb-9f0f-ea997633aa88
-title: LOCALE\_STHOUSAND
+title: LOCALE_STHOUSAND
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: Modifiers for ps\_1\_X
+title: Modifiers for ps_1_X
 description: Instruction modifiers affect the result of the instruction before it is written into the destination register.
 ms.assetid: 15b892da-b6fd-4bd5-8889-bc48035e7819
 ms.technology: desktop

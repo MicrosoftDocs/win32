@@ -1,7 +1,7 @@
 ---
 title: About Rebar Controls
 description: A Rebar control acts as a container for child windows.
-ms.assetid: F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A
+ms.assetid: 'vs|controls|~\controls\rebar\rebar.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 title: Tasks
 description: A task is the scheduled work that the Task Scheduler service performs.
-ms.assetid: 3a6a2262-cc5e-469e-b9f0-981879beb4ef
+ms.assetid: '24c43834-5731-4b14-9409-7d7cf20b1a71'
 keywords:
 - tasks Task Scheduler
 ms.technology: desktop

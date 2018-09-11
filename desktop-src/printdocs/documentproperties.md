@@ -1,6 +1,6 @@
 ---
 Description: The DocumentProperties function retrieves or modifies printer initialization information or displays a printer-configuration property sheet for the specified printer.
-ms.assetid: 29e33f34-f6ec-4989-b076-e1fef8eb5bc4
+ms.assetid: 'e89a2f6f-2bac-4369-b526-f8e15028698b'
 title: DocumentProperties function
 ms.technology: desktop
 ms.prod: windows

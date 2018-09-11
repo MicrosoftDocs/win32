@@ -7,7 +7,7 @@ ms.assetid: c71e11cd-39a5-40d8-b279-f5ee9ff3ae04
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemObject.AssociatorsAsync\_ method
+title: SWbemObject.AssociatorsAsync_ method
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

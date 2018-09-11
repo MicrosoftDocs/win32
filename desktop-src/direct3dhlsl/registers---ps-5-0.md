@@ -1,5 +1,5 @@
 ---
-title: Registers - ps\_5\_0
+title: Registers - ps_5_0
 description: The following input and output registers are implemented in the pixel shader version 5\_0.
 ms.assetid: F16E5CB8-E1DB-48CD-8C20-DBF1DF971110
 ms.technology: desktop

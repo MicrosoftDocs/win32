@@ -424,7 +424,7 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <tr class="even">
 <td>57</td>
 <td>D800 - DFFF</td>
-<td>Non-Plane 0. Note that setting this bit implies that there is at least one supplementary code point beyond the Basic Multilingual Plane (BMP) that is supported by this font. See [Surrogates and Supplementary Characters](surrogates-and-supplementary-characters.md).</td>
+<td>Non-Plane 0. Note that setting this bit implies that there is at least one supplementary code point beyond the Basic Multilingual Plane (BMP) that is supported by this font. See <a href="surrogates-and-supplementary-characters">Surrogates and Supplementary Characters</a>.</td>
 </tr>
 <tr class="odd">
 <td>58</td>

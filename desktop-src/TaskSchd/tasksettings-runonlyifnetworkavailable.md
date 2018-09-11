@@ -1,7 +1,7 @@
 ---
 title: TaskSettings.RunOnlyIfNetworkAvailable property
 description: For scripting, gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available.
-ms.assetid: d0926d75-e7d9-469c-aaa0-ddee8fe22dcd
+ms.assetid: '1a2b085f-0572-47d3-ac1f-0032c8427af0'
 keywords:
 - RunOnlyIfNetworkAvailable property Task Scheduler
 - RunOnlyIfNetworkAvailable property Task Scheduler , TaskSettings object

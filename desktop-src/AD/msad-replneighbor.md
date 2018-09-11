@@ -1,5 +1,5 @@
 ---
-title: MSAD\_ReplNeighbor class
+title: MSAD_ReplNeighbor class
 description: Represents the DS\_REPL\_NEIGHBOR structure, which contains the inbound replication state information for a particular naming context (NC) and source server pair.
 audience: developer
 author: REDMOND\\markl

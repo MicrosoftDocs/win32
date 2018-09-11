@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetMetadataQueryReader method.
 ms.assetid: 2a3e0a59-3524-4da4-993a-607a3727faba
-title: IWICBitmapFrameDecode\_GetMetadataQueryReader\_Proxy function
+title: IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

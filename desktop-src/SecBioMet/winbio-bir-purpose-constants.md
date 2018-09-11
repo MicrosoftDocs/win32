@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_BIR\_PURPOSE Constants
+title: WINBIO_BIR_PURPOSE Constants
 description: Specify the purpose for which the biometric information record (BIR) is intended or for which it is suitable.
 ms.assetid: AAFD3203-4D3D-43B5-A833-1258E1E281D3
 topic_type:

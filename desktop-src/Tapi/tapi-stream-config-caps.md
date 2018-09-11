@@ -1,7 +1,7 @@
 ---
 Description: The TAPI\_STREAM\_CONFIG\_CAPS structure contains either video or audio stream configuration information.
 ms.assetid: 83b39751-b00f-4762-830b-13cafbcb1cfd
-title: TAPI\_STREAM\_CONFIG\_CAPS structure
+title: TAPI_STREAM_CONFIG_CAPS structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

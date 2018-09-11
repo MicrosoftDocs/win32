@@ -1,7 +1,7 @@
 ---
 title: Descriptor Tables
 description: A descriptor table is logically an array of descriptors.
-ms.assetid: BB0CA29C-65CB-48B1-8351-EE13CC470B54
+ms.assetid: '5faf294f-acd5-4b39-92f4-1d6b2abe3040'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

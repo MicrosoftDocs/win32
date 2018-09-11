@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_DRIVER\_DISCONNECT message
+title: WM_CAP_DRIVER_DISCONNECT message
 description: The WM\_CAP\_DRIVER\_DISCONNECT message disconnects a capture driver from a capture window. You can send this message explicitly or by using the capDriverDisconnect macro.
 ms.assetid: a420f24a-aa7d-4788-9120-2c11e5e2c14c
 keywords:

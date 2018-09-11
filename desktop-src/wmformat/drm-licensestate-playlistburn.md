@@ -1,5 +1,5 @@
 ---
-title: DRM\_LicenseState\_PlaylistBurn
+title: DRM_LicenseState_PlaylistBurn
 description: The DRM\_LicenseState\_PlaylistBurn property contains a WM\_LICENSE\_STATE\_DATA structure that contains details about how this right has been applied to the content.
 ms.assetid: 21d2a284-1f0c-499a-94fd-f66d6437bd49
 keywords:

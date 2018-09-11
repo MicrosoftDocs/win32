@@ -1,6 +1,6 @@
 ---
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
-ms.assetid: 22ebb9e7-10c6-4512-b749-d61f74bc82ed
+ms.assetid: 'fe6bd921-cbf3-4cca-afae-82d3822206ba'
 title: PrintTicket
 ms.technology: desktop
 ms.prod: windows

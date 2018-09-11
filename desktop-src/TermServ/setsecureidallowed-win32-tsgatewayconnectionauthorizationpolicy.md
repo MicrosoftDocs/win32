@@ -1,5 +1,5 @@
 ---
-title: SetSecureIdAllowed method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: SetSecureIdAllowed method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: This method is reserved for future use.
 audience: developer
 author: REDMOND\\markl

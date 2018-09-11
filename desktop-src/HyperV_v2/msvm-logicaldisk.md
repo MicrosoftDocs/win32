@@ -1,7 +1,7 @@
 ---
 Description: Represents storage drive media and is used to populate the storage drives.
 ms.assetid: 06955C09-CA56-4B4C-997B-9B65AF125375
-title: Msvm\_LogicalDisk class
+title: Msvm_LogicalDisk class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

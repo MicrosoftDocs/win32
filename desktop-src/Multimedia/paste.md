@@ -1,7 +1,7 @@
 ---
 title: paste command
 description: The paste command copies the contents of the clipboard into the workspace. Digital-video devices recognize this command.
-ms.assetid: ccdaf58d-3d06-46c5-a812-322364a7f851
+ms.assetid: 'c09418e1-2535-40d1-8912-e5ece91ee673'
 keywords:
 - paste command Windows Multimedia
 topic_type:

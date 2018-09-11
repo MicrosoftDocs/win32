@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the error objects for the job, if any exist.
 ms.assetid: 817AF83B-B601-4AE4-AB5B-CFEACB9A7F41
-title: Msvm\_CopyFileToGuestJob::GetErrorEx method
+title: Msvm_CopyFileToGuestJob::GetErrorEx method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

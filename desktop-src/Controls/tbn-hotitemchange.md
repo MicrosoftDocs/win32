@@ -1,5 +1,5 @@
 ---
-title: TBN\_HOTITEMCHANGE notification code
+title: TBN_HOTITEMCHANGE notification code
 description: Sent by a toolbar control when the hot (highlighted) item changes. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 49e68e2a-d9c0-463d-954d-34c9adfad62b
 keywords:

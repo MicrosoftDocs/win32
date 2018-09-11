@@ -1,7 +1,7 @@
 ---
 Description: Sets the font that a control is to use when drawing text.
 ms.assetid: 7db6b8af-dbec-4c29-8bf7-d7e95d9813c3
-title: WM\_SETFONT message
+title: WM_SETFONT message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

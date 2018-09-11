@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 5bba12da-fde0-40b6-869c-6e6822adba3b
-title: RequestStateChange method of the Msvm\_TerminalService class
+title: RequestStateChange method of the Msvm_TerminalService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

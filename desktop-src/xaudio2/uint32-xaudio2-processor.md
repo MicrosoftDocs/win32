@@ -1,7 +1,7 @@
 ---
 Description: Defines values to use with XAudio2Create to specify available processors.
 ms.assetid: 29E67C0A-36EB-47B2-8708-36EC733D0D37
-title: XAUDIO2\_PROCESSOR
+title: XAUDIO2_PROCESSOR
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

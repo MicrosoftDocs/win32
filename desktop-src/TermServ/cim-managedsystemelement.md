@@ -1,5 +1,5 @@
 ---
-title: CIM\_ManagedSystemElement class
+title: CIM_ManagedSystemElement class
 description: The base class for the system element hierarchy.
 audience: developer
 author: REDMOND\\markl

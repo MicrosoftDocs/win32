@@ -1,7 +1,7 @@
 ---
 Description: Creates a snapshot of a virtual machine.
 ms.assetid: 2de12fe7-5ec2-49d0-87ff-cd48c34fec46
-title: CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class
+title: CreateSnapshot method of the Msvm_VirtualSystemSnapshotService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

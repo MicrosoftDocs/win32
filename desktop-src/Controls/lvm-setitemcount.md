@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETITEMCOUNT message
+title: LVM_SETITEMCOUNT message
 description: Causes the list-view control to allocate memory for the specified number of items or sets the virtual number of items in a virtual list-view control.
 ms.assetid: 5e794c12-ddcb-44fc-b0d2-677352602503
 keywords:

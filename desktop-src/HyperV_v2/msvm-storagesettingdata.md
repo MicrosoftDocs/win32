@@ -1,7 +1,7 @@
 ---
 Description: Represents the storage-specific settings for a virtual system.
 ms.assetid: 0b3fcd78-7e9a-4a94-ad18-0ca72b3cfd73
-title: Msvm\_StorageSettingData class
+title: Msvm_StorageSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

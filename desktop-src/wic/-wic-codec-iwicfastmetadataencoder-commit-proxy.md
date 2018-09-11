@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the Commit method.
 ms.assetid: 5b3b90ad-9d67-4fbd-b01e-c7478df8dd45
-title: IWICFastMetadataEncoder\_Commit\_Proxy function
+title: IWICFastMetadataEncoder_Commit_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

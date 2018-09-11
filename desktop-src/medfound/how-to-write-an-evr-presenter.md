@@ -153,13 +153,13 @@ The following interfaces are optional:
 
  
 
-You can also provide interfaces for the application to communicate with the presenter. The standard presenter implements the [**IMFVideoDisplayControl**](/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol) interface for this purpose. You can implement this interface or define your own. The application obtains interfaces from the presenter by calling [**IMFGetService::GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) on the EVR. When the service GUID is **MR\_VIDEO\_RENDER\_SERVICE**, the EVR passes the **GetService** request to the presenter.
+You can also provide interfaces for the application to communicate with the presenter. The standard presenter implements the [**IMFVideoDisplayControl**](/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol) interface for this purpose. You can implement this interface or define your own. The application obtains interfaces from the presenter by calling [**IMFGetService::GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) on the EVR. When the service GUID is **MR_VIDEO_RENDER_SERVICE**, the EVR passes the **GetService** request to the presenter.
 
 ### Implementing IMFVideoDeviceID
 
 The [**IMFVideoDeviceID**](/windows/desktop/api/evr/nn-evr-imfvideodeviceid) interface contains one method, [**GetDeviceID**](/windows/desktop/api/evr/nf-evr-imfvideodeviceid-getdeviceid), which returns a device GUID. The device GUID ensures that the presenter and the mixer use compatible technologies. If the device GUIDs do not match, the EVR fails to initialize.
 
-The standard mixer and presenter both use Direct3D 9, with the device GUID equal to **IID\_IDirect3DDevice9**. If you intend to use your custom presenter with the standard mixer, the presenter's device GUID must be **IID\_IDirect3DDevice9**. If you replace both components, you could define a new device GUID. For the remainder of this article, it is assumed that the presenter uses Direct3D 9. Here is the standard implementation of [**GetDeviceID**](/windows/desktop/api/evr/nf-evr-imfvideodeviceid-getdeviceid):
+The standard mixer and presenter both use Direct3D 9, with the device GUID equal to **IID_IDirect3DDevice9**. If you intend to use your custom presenter with the standard mixer, the presenter's device GUID must be **IID_IDirect3DDevice9**. If you replace both components, you could define a new device GUID. For the remainder of this article, it is assumed that the presenter uses Direct3D 9. Here is the standard implementation of [**GetDeviceID**](/windows/desktop/api/evr/nf-evr-imfvideodeviceid-getdeviceid):
 
 
 ```C++
@@ -188,8 +188,8 @@ The [**IMFTopologyServiceLookupClient**](/windows/desktop/api/evr/nn-evr-imftopo
 
 The [**LookupService**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookup-lookupservice) method is similar to the [**IMFGetService::GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) method. Both methods take a service GUID and an interface identifier (IID) as input, but **LookupService** returns an array of interface pointers, while **GetService** returns a single pointer. In practice, however, you can always set the array size to 1. The object queried depends on the service GUID:
 
--   If the service GUID is **MR\_VIDEO\_RENDER\_SERVICE**, the EVR is queried.
--   If the service GUID is **MR\_VIDEO\_MIXER\_SERVICE**, the mixer is queried.
+-   If the service GUID is **MR_VIDEO_RENDER_SERVICE**, the EVR is queried.
+-   If the service GUID is **MR_VIDEO_MIXER_SERVICE**, the mixer is queried.
 
 In your implementation of [**InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers), get the following interfaces from the EVR:
 
@@ -403,14 +403,14 @@ The [**ProcessMessage**](/windows/desktop/api/evr/nf-evr-imfvideopresenter-proce
 
 | Message                                | Description                                                                                                                                                                                                                                        |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **MFVP\_MESSAGE\_INVALIDATEMEDIATYPE** | The mixer's output media type is invalid. The presenter should negotiate a new media type with the mixer. See [Negotiating Formats](#negotiating-formats).                                                                                         |
-| **MFVP\_MESSAGE\_BEGINSTREAMING**      | Streaming has started. No particular action is required by this message, but you can use it to allocate resources.                                                                                                                                 |
-| **MFVP\_MESSAGE\_ENDSTREAMING**        | Streaming has ended. Release any resources that you allocated in response to the **MFVP\_MESSAGE\_BEGINSTREAMING** message.                                                                                                                        |
-| **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY**  | The mixer has received a new input sample and might be able to generate a new output frame. The presenter should call [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) on the mixer. See [Processing Output](#processing-output). |
-| **MFVP\_MESSAGE\_ENDOFSTREAM**         | The presentation has ended. See [End of Stream](#end-of-stream).                                                                                                                                                                                   |
-| **MFVP\_MESSAGE\_FLUSH**               | The EVR is flushing the data in its rendering pipeline. The presenter should discard any video frames that are scheduled for presentation.                                                                                                         |
-| **MFVP\_MESSAGE\_STEP**                | Requests the presenter to step forward N frames. The presenter should discard the next N-1 frames and display the Nth frame. See [Frame Stepping](#frame-stepping).                                                                                |
-| **MFVP\_MESSAGE\_CANCELSTEP**          | Cancels frame stepping.                                                                                                                                                                                                                            |
+| **MFVP_MESSAGE_INVALIDATEMEDIATYPE** | The mixer's output media type is invalid. The presenter should negotiate a new media type with the mixer. See [Negotiating Formats](#negotiating-formats).                                                                                         |
+| **MFVP_MESSAGE_BEGINSTREAMING**      | Streaming has started. No particular action is required by this message, but you can use it to allocate resources.                                                                                                                                 |
+| **MFVP_MESSAGE_ENDSTREAMING**        | Streaming has ended. Release any resources that you allocated in response to the **MFVP_MESSAGE_BEGINSTREAMING** message.                                                                                                                        |
+| **MFVP_MESSAGE_PROCESSINPUTNOTIFY**  | The mixer has received a new input sample and might be able to generate a new output frame. The presenter should call [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) on the mixer. See [Processing Output](#processing-output). |
+| **MFVP_MESSAGE_ENDOFSTREAM**         | The presentation has ended. See [End of Stream](#end-of-stream).                                                                                                                                                                                   |
+| **MFVP_MESSAGE_FLUSH**               | The EVR is flushing the data in its rendering pipeline. The presenter should discard any video frames that are scheduled for presentation.                                                                                                         |
+| **MFVP_MESSAGE_STEP**                | Requests the presenter to step forward N frames. The presenter should discard the next N-1 frames and display the Nth frame. See [Frame Stepping](#frame-stepping).                                                                                |
+| **MFVP_MESSAGE_CANCELSTEP**          | Cancels frame stepping.                                                                                                                                                                                                                            |
 
 
 
@@ -431,15 +431,15 @@ Here are some guidelines for implementing the methods in this interface. All of 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>[<strong>OnClockStart</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart)</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a></td>
 <td><ol>
 <li>Set the presenter state to started.</li>
 <li>If the <em>llClockStartOffset</em> is not <strong>PRESENTATION_CURRENT_POSITION</strong>, flush the presenter's queue of samples. (This is equivalent to receiving an <strong>MFVP_MESSAGE_FLUSH</strong> message.)</li>
-<li>If a previous frame-step request is still pending, process the request (see [Frame Stepping](#frame-stepping)). Otherwise, try to process output from the mixer (see [Processing Output](#processing-output)).</li>
+<li>If a previous frame-step request is still pending, process the request (see <a href="#frame-stepping">Frame Stepping</a>). Otherwise, try to process output from the mixer (see <a href="#processing-output">Processing Output</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>[<strong>OnClockStop</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop)</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>OnClockStop</strong></a></td>
 <td><ol>
 <li>Set the presenter state to stopped.</li>
 <li>Flush the presenter's queue of samples.</li>
@@ -447,18 +447,18 @@ Here are some guidelines for implementing the methods in this interface. All of 
 </ol></td>
 </tr>
 <tr class="odd">
-<td>[<strong>OnClockPause</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause)</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a></td>
 <td>Set the presenter state to paused.</td>
 </tr>
 <tr class="even">
-<td>[<strong>OnClockRestart</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart)</td>
-<td>Treat the same as [<strong>OnClockStart</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart) but do not flush the queue of samples.</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a></td>
+<td>Treat the same as <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> but do not flush the queue of samples.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>OnClockSetRate</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate)</td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a></td>
 <td><ol>
 <li>If the rate is changing from zero to nonzero, cancel frame stepping.</li>
-<li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see [Scheduling Samples](#scheduling-samples).</li>
+<li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see <a href="#scheduling-samples">Scheduling Samples</a>.</li>
 </ol></td>
 </tr>
 </tbody>
@@ -477,8 +477,8 @@ To support playback rates other than 1× speed, the presenter must implement the
 |                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetSlowestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getslowestrate)   | Return zero to indicate no minimum playback rate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [**GetFastestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate)   | For non-thinned playback, the playback rate should not exceed the refresh rate of the monitor: *maximum rate* = *refresh rate* (Hz) / *video frame rate* (fps). The video frame rate is specified in the presenter's media type. <br/> For thinned playback, the playback rate is unbounded; return the value **FLT\_MAX**. In practice, the source and the decoder will be the limiting factors during thinned playback. <br/> For reverse playback, return the negative of the maximum rate.<br/> |
-| [**IsRateSupported**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-isratesupported) | Return **MF\_E\_UNSUPPORTED\_RATE** if the absolute value of *flRate* exceeds the presenter's maximum playback rate. Calculate the maximum playback rate as described for [**GetFastestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate).                                                                                                                                                                                                                                                                                    |
+| [**GetFastestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate)   | For non-thinned playback, the playback rate should not exceed the refresh rate of the monitor: *maximum rate* = *refresh rate* (Hz) / *video frame rate* (fps). The video frame rate is specified in the presenter's media type. <br/> For thinned playback, the playback rate is unbounded; return the value **FLT_MAX**. In practice, the source and the decoder will be the limiting factors during thinned playback. <br/> For reverse playback, return the negative of the maximum rate.<br/> |
+| [**IsRateSupported**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-isratesupported) | Return **MF_E_UNSUPPORTED_RATE** if the absolute value of *flRate* exceeds the presenter's maximum playback rate. Calculate the maximum playback rate as described for [**GetFastestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate).                                                                                                                                                                                                                                                                                    |
 
 
 
@@ -610,25 +610,25 @@ The following table lists the events that the presenter sends, along with the ev
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>EC_COMPLETE</strong>](https://msdn.microsoft.com/en-us/library/Dd319485(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319485(v=VS.85).aspx"><strong>EC_COMPLETE</strong></a></td>
 <td>The presenter has finished rendering all frames after the MFVP_MESSAGE_ENDOFSTREAM message.<br/>
 <ul>
 <li><em>Param1</em>: HRESULT indicating the status of the operation.</li>
 <li><em>Param2</em>: Not used.</li>
 </ul>
-For more information, see [End of Stream](#end-of-stream).<br/></td>
+For more information, see <a href="#end-of-stream">End of Stream</a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>EC_DISPLAY_CHANGED</strong>](https://msdn.microsoft.com/en-us/library/Dd319492(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319492(v=VS.85).aspx"><strong>EC_DISPLAY_CHANGED</strong></a></td>
 <td>The Direct3D device has changed.<br/>
 <ul>
 <li><em>Param1</em>: Not used.</li>
 <li><em>Param2</em>: Not used.</li>
 </ul>
-For more information, see [Managing the Direct3D Device](#managing-the-direct3d-device).<br/></td>
+For more information, see <a href="#managing-the-direct3d-device">Managing the Direct3D Device</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EC_ERRORABORT</strong>](https://msdn.microsoft.com/en-us/library/Dd319538(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319538(v=VS.85).aspx"><strong>EC_ERRORABORT</strong></a></td>
 <td>An error has occurred that requires streaming to stop.<br/>
 <ul>
 <li><em>Param1</em>: <strong>HRESULT</strong> indicating the error that occurred.</li>
@@ -636,16 +636,16 @@ For more information, see [Managing the Direct3D Device](#managing-the-direct3d-
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>EC_PROCESSING_LATENCY</strong>](https://msdn.microsoft.com/en-us/library/Dd319601(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319601(v=VS.85).aspx"><strong>EC_PROCESSING_LATENCY</strong></a></td>
 <td>Specifies the amount of time that the presenter is taking to render each frame. (Optional.)<br/>
 <ul>
 <li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the amount of time to process the frame, in 100-nanosecond units.</li>
 <li><em>Param2</em>: Not used.</li>
 </ul>
-For more information, see [Processing Output](#processing-output).<br/></td>
+For more information, see <a href="#processing-output">Processing Output</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EC_SAMPLE_LATENCY</strong>](https://msdn.microsoft.com/en-us/library/Dd319605(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319605(v=VS.85).aspx"><strong>EC_SAMPLE_LATENCY</strong></a></td>
 <td>Specifies the current lag time in rendering samples. If the value is positive, samples are behind schedule. If the value is negative, samples are ahead of schedule. (Optional.)<br/>
 <ul>
 <li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the lag time, in 100-nanosecond units.</li>
@@ -653,22 +653,22 @@ For more information, see [Processing Output](#processing-output).<br/></td>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>EC_SCRUB_TIME</strong>](https://msdn.microsoft.com/en-us/library/Dd319607(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319607(v=VS.85).aspx"><strong>EC_SCRUB_TIME</strong></a></td>
 <td>Sent immediately after <strong>EC_STEP_COMPLETE</strong> if the playback rate is zero. This event contains the time stamp of the frame that was displayed.<br/>
 <ul>
 <li><em>Param1</em>: Lower 32 bits of the time stamp.</li>
 <li><em>Param2</em>: Upper 32 bits of the time stamp.</li>
 </ul>
-For more information, see [Frame Stepping](#frame-stepping).<br/></td>
+For more information, see <a href="#frame-stepping">Frame Stepping</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EC_STEP_COMPLETE</strong>](https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx"><strong>EC_STEP_COMPLETE</strong></a></td>
 <td>The presenter has completed or canceled a frame step.<br/>
 <ul>
 <li><em>Param1</em>: Not used.</li>
 <li><em>Param2</em>: Not used.</li>
 </ul>
-For more information, see [Frame Stepping](#frame-stepping).<br/>
+For more information, see <a href="#frame-stepping">Frame Stepping</a>.<br/>
 <blockquote>
 [!Note]<br />
 A previous version of the documentation described <em>Param1</em> incorrectly. This parameter is not used for this event.
@@ -684,29 +684,29 @@ A previous version of the documentation described <em>Param1</em> incorrectly. T
 
 ## Negotiating Formats
 
-Whenever the presenter receives an **MFVP\_MESSAGE\_INVALIDATEMEDIATYPE** message from the EVR, it must set the output format on the mixer, as follows:
+Whenever the presenter receives an **MFVP_MESSAGE_INVALIDATEMEDIATYPE** message from the EVR, it must set the output format on the mixer, as follows:
 
 1.  Call [**IMFTransform::GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) on the mixer to get a possible output type. This type describes a format that the mixer can produce given the input streams and the video processing capabilities of the graphics device.
 2.  Check whether the presenter can use this media type as its rendering format. Here are some things to check, although your implementation might have its own requirements:
 
     -   The video must be uncompressed.
-    -   The video must have progressive frames only. Check that the [**MF\_MT\_INTERLACE\_MODE**](mf-mt-interlace-mode-attribute.md) attribute equals **MFVideoInterlace\_Progressive**.
+    -   The video must have progressive frames only. Check that the [**MF_MT_INTERLACE_MODE**](mf-mt-interlace-mode-attribute.md) attribute equals **MFVideoInterlace_Progressive**.
     -   The format must be compatible with the Direct3D device.
 
     If the type is not acceptable, return to step 1 and get the mixer's next proposed type.
 
 3.  Create a new media type that is a clone of the original type and then change the following attributes:
 
-    -   Set the [**MF\_MT\_FRAME\_SIZE**](mf-mt-frame-size-attribute.md) attribute equal to the width and height that you want for the Direct3D surfaces you will allocate.
-    -   Set the [**MF\_MT\_PAN\_SCAN\_ENABLED**](mf-mt-pan-scan-enabled-attribute.md) attribute to **FALSE**.
-    -   Set the [**MF\_MT\_PIXEL\_ASPECT\_RATIO**](mf-mt-pixel-aspect-ratio-attribute.md) attribute equal to the PAR of the display (typically 1:1).
-    -   Set the geometric aperture ([**MF\_MT\_GEOMETRIC\_APERTURE**](mf-mt-geometric-aperture-attribute.md) attribute) equal to a rectangle within the Direct3D surface. When the mixer generates an output frame, it blits the source image onto this rectangle. The geometric aperture can be as large as the surface, or it can be a subrectangle within the surface. For more information, see [Source and Destination Rectangles](#source-and-destination-rectangles).
+    -   Set the [**MF_MT_FRAME_SIZE**](mf-mt-frame-size-attribute.md) attribute equal to the width and height that you want for the Direct3D surfaces you will allocate.
+    -   Set the [**MF_MT_PAN_SCAN_ENABLED**](mf-mt-pan-scan-enabled-attribute.md) attribute to **FALSE**.
+    -   Set the [**MF_MT_PIXEL_ASPECT_RATIO**](mf-mt-pixel-aspect-ratio-attribute.md) attribute equal to the PAR of the display (typically 1:1).
+    -   Set the geometric aperture ([**MF_MT_GEOMETRIC_APERTURE**](mf-mt-geometric-aperture-attribute.md) attribute) equal to a rectangle within the Direct3D surface. When the mixer generates an output frame, it blits the source image onto this rectangle. The geometric aperture can be as large as the surface, or it can be a subrectangle within the surface. For more information, see [Source and Destination Rectangles](#source-and-destination-rectangles).
 
-4.  To test whether the mixer will accept the modified output type, call [**IMFTransform::SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype) with the **MFT\_SET\_TYPE\_TEST\_ONLY** flag. If the mixer rejects the type, go back to step 1 and get the next type.
+4.  To test whether the mixer will accept the modified output type, call [**IMFTransform::SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype) with the **MFT_SET_TYPE_TEST_ONLY** flag. If the mixer rejects the type, go back to step 1 and get the next type.
 5.  Allocate a pool of Direct3D surfaces, as described in [Allocating Direct3D Surfaces](#allocating-direct3d-surfaces). The mixer will use these surfaces when it draws the composited video frames.
 6.  Set the output type on the mixer by calling [**SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype) with no flags. If the first call to **SetOutputType** succeeded in step 4, the method should succeed again.
 
-If the mixer runs out of types, the [**GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) method returns **MF\_E\_NO\_MORE\_TYPES**. If the presenter cannot find a suitable output type for the mixer, the stream cannot be rendered. In that case, DirectShow or Media Foundation might try another stream format. Therefore, the presenter might receive several **MFVP\_MESSAGE\_INVALIDATEMEDIATYPE** messages in a row until a valid type is found.
+If the mixer runs out of types, the [**GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) method returns **MF_E_NO_MORE_TYPES**. If the presenter cannot find a suitable output type for the mixer, the stream cannot be rendered. In that case, DirectShow or Media Foundation might try another stream format. Therefore, the presenter might receive several **MFVP_MESSAGE_INVALIDATEMEDIATYPE** messages in a row until a valid type is found.
 
 The mixer automatically letterboxes the video, taking into account the pixel aspect ratio (PAR) of the source and destination. For best results, the surface width and height and the geometric aperture should be equal to the actual size that you want the video to appear on the display. The following image illustrates this process.
 
@@ -816,20 +816,20 @@ To set up the Direct3D device, perform the following steps:
 3.  Create the device manager by calling [**DXVA2CreateDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nf-dxva2api-dxva2createdirect3ddevicemanager9).
 4.  Set the device on the device manager by calling [**IDirect3DDeviceManager9::ResetDevice**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice).
 
-If another pipeline component needs the device manager, it calls [**IMFGetService::GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) on the EVR, specifying **MR\_VIDEO\_ACCELERATION\_SERVICE** for the service GUID. The EVR passes the request to the presenter. After the object gets the [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9) pointer, it can get a handle to the device by calling [**IDirect3DDeviceManager9::OpenDeviceHandle**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle). When the object needs to use the device, it passes the device handle to the [**IDirect3DDeviceManager9::LockDevice**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-lockdevice) method, which returns an **IDirect3DDevice9** pointer.
+If another pipeline component needs the device manager, it calls [**IMFGetService::GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) on the EVR, specifying **MR_VIDEO_ACCELERATION_SERVICE** for the service GUID. The EVR passes the request to the presenter. After the object gets the [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9) pointer, it can get a handle to the device by calling [**IDirect3DDeviceManager9::OpenDeviceHandle**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle). When the object needs to use the device, it passes the device handle to the [**IDirect3DDeviceManager9::LockDevice**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-lockdevice) method, which returns an **IDirect3DDevice9** pointer.
 
-After the device is created, if the presenter destroys the device and creates a new one, the presenter must call [**ResetDevice**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice) again. The **ResetDevice** method invalidates any existing device handles, which causes [**LockDevice**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-lockdevice) to return **DXVA2\_E\_NEW\_VIDEO\_DEVICE**. This error code signals to other objects using the device that they should open a new device handle. For more information about using the device manager, see [Direct3D Device Manager](direct3d-device-manager.md).
+After the device is created, if the presenter destroys the device and creates a new one, the presenter must call [**ResetDevice**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice) again. The **ResetDevice** method invalidates any existing device handles, which causes [**LockDevice**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-lockdevice) to return **DXVA2_E_NEW_VIDEO_DEVICE**. This error code signals to other objects using the device that they should open a new device handle. For more information about using the device manager, see [Direct3D Device Manager](direct3d-device-manager.md).
 
 The presenter can create the device in windowed mode or full-screen exclusive mode. For windowed mode, you should provide a way for the application to specify the video window. The standard presenter implements the [**IMFVideoDisplayControl::SetVideoWindow**](/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideowindow) method for this purpose. You must create the device when the presenter is first created. Typically, you won't know all of the device parameters at this time, such as the window or the back buffer format. You can create a temporary device and replace it later&\#;just remember to call [**ResetDevice**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice) on the device manager.
 
-If you create a new device, or if you call **IDirect3DDevice9::Reset** or **IDirect3DDevice9Ex::ResetEx** on an existing device, send an [**EC\_DISPLAY\_CHANGED**](https://msdn.microsoft.com/en-us/library/Dd319492(v=VS.85).aspx) event to the EVR. This event notifies the EVR to renegotiate the media type. The EVR ignores the event parameters for this event.
+If you create a new device, or if you call **IDirect3DDevice9::Reset** or **IDirect3DDevice9Ex::ResetEx** on an existing device, send an [**EC_DISPLAY_CHANGED**](https://msdn.microsoft.com/en-us/library/Dd319492(v=VS.85).aspx) event to the EVR. This event notifies the EVR to renegotiate the media type. The EVR ignores the event parameters for this event.
 
 ### Allocating Direct3D Surfaces
 
 After the presenter sets the media type, it can allocate the Direct3D surfaces, which the mixer will use to write the video frames. The surface must match the presenter's media type:
 
--   The surface format must match the media subtype. For example, if the subtype is **MFVideoFormat\_RGB24**, the surface format must be **D3DFMT\_X8R8G8B8**. For more information about subtypes and Direct3D formats, see [Video Subtype GUIDs](video-subtype-guids.md).
--   The surface width and height must match the dimensions given in the [**MF\_MT\_FRAME\_SIZE**](mf-mt-frame-size-attribute.md) attribute of the media type.
+-   The surface format must match the media subtype. For example, if the subtype is **MFVideoFormat_RGB24**, the surface format must be **D3DFMT_X8R8G8B8**. For more information about subtypes and Direct3D formats, see [Video Subtype GUIDs](video-subtype-guids.md).
+-   The surface width and height must match the dimensions given in the [**MF_MT_FRAME_SIZE**](mf-mt-frame-size-attribute.md) attribute of the media type.
 
 The recommended way to allocate surfaces depends on whether the presenter runs windowed or full-screen.
 
@@ -974,12 +974,12 @@ done:
 
 ## Processing Output
 
-Whenever the mixer receives a new input sample, the EVR sends an **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message to the presenter. This message indicates that the mixer might have a new video frame to deliver. In response, the presenter calls [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) on the mixer. If the method succeeds, the presenter schedules the sample for presentation.
+Whenever the mixer receives a new input sample, the EVR sends an **MFVP_MESSAGE_PROCESSINPUTNOTIFY** message to the presenter. This message indicates that the mixer might have a new video frame to deliver. In response, the presenter calls [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) on the mixer. If the method succeeds, the presenter schedules the sample for presentation.
 
 To get output from the mixer, perform the following steps:
 
-1.  Check the clock state. If the clock is paused, ignore the **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message unless this is the first video frame. If the clock is running, or if this is the first video frame, continue.
-2.  Get a sample from the queue of available samples. If the queue is empty, it means that all allocated samples are currently scheduled for presenting. In that case, ignore the **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message at this time. When the next sample becomes available, repeat the steps listed here.
+1.  Check the clock state. If the clock is paused, ignore the **MFVP_MESSAGE_PROCESSINPUTNOTIFY** message unless this is the first video frame. If the clock is running, or if this is the first video frame, continue.
+2.  Get a sample from the queue of available samples. If the queue is empty, it means that all allocated samples are currently scheduled for presenting. In that case, ignore the **MFVP_MESSAGE_PROCESSINPUTNOTIFY** message at this time. When the next sample becomes available, repeat the steps listed here.
 3.  (Optional.) If the clock is available, get the current clock time (*T1*) by calling [**IMFClock::GetCorrelatedTime**](/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime).
 4.  Call [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) on the mixer. If **ProcessOutput** succeeds, the sample contains a video frame. If the method fails, check the return code. The following error codes from **ProcessOutput** are not critical failures:
 
@@ -987,9 +987,9 @@ To get output from the mixer, perform the following steps:
 
     | Error code                              | Description                                                                                                                                                                                                                                                                                                                                                                                    |
     |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT** | The mixer needs more input before it can produce a new output frame.<br/> If you get this error code, check whether the EVR has reached the end of the stream and respond accordingly, as described in [End of Stream](#end-of-stream). Otherwise, ignore this **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT** message. The EVR will send another one when the mixer gets more input.<br/> |
-    | **MF\_E\_TRANSFORM\_STREAM\_CHANGE**    | The mixer's output type has become invalid, possibly due to a format change upstream.<br/> If you get this error code, set the presenter's media type to **NULL**. The EVR will request a new format.<br/>                                                                                                                                                                         |
-    | **MF\_E\_TRANSFORM\_TYPE\_NOT\_SET**    | The mixer requires a new media type.<br/> If you get this error code, renegotiate the mixer's output type as described in [Negotiating Formats](#negotiating-formats).<br/>                                                                                                                                                                                                        |
+    | **MF_E_TRANSFORM_NEED_MORE_INPUT** | The mixer needs more input before it can produce a new output frame.<br/> If you get this error code, check whether the EVR has reached the end of the stream and respond accordingly, as described in [End of Stream](#end-of-stream). Otherwise, ignore this **MF_E_TRANSFORM_NEED_MORE_INPUT** message. The EVR will send another one when the mixer gets more input.<br/> |
+    | **MF_E_TRANSFORM_STREAM_CHANGE**    | The mixer's output type has become invalid, possibly due to a format change upstream.<br/> If you get this error code, set the presenter's media type to **NULL**. The EVR will request a new format.<br/>                                                                                                                                                                         |
+    | **MF_E_TRANSFORM_TYPE_NOT_SET**    | The mixer requires a new media type.<br/> If you get this error code, renegotiate the mixer's output type as described in [Negotiating Formats](#negotiating-formats).<br/>                                                                                                                                                                                                        |
 
     
 
@@ -997,7 +997,7 @@ To get output from the mixer, perform the following steps:
 
     If [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) succeeds, continue.
 
-5.  (Optional.) If the clock is available, get the current clock time (*T2*). The amount of latency introduced by the mixer is (*T2* - *T1*). Send an **EC\_PROCESSING\_LATENCY** event with this value to the EVR. The EVR uses this value for quality control. If no clock is available, there is no reason to send the **EC\_PROCESSING\_LATENCY** event.
+5.  (Optional.) If the clock is available, get the current clock time (*T2*). The amount of latency introduced by the mixer is (*T2* - *T1*). Send an **EC_PROCESSING_LATENCY** event with this value to the EVR. The EVR uses this value for quality control. If no clock is available, there is no reason to send the **EC_PROCESSING_LATENCY** event.
 6.  (Optional.) Query the sample for [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) and call [**IMFTrackedSample::SetAllocator**](https://msdn.microsoft.com/en-us/library/ms704797(v=VS.85).aspx) as described in [Tracking Samples](#tracking-samples).
 7.  Schedule the sample for presentation.
 
@@ -1006,7 +1006,7 @@ This sequence of steps can terminate before the presenter gets any output from t
 -   The presenter's [**IMFClockStateSink::OnClockStart**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart) or **IMFClockStateSink::OnClockStart** method is called. This handles the case where the mixer ignores input because the clock is paused (step 1).
 -   The [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) callback is invoked. This handles the case where the mixer receives input but all of the presenter's video samples are in use (step 2).
 
-The next several code examples show these steps in more detail. The presenter calls the `ProcessInputNotify` method (shown in the following example) when it gets the **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message.
+The next several code examples show these steps in more detail. The presenter calls the `ProcessInputNotify` method (shown in the following example) when it gets the **MFVP_MESSAGE_PROCESSINPUTNOTIFY** message.
 
 
 ```C++
@@ -1080,7 +1080,7 @@ void EVRCustomPresenter::ProcessOutputLoop()
 
 
 
-The `ProcessOutput` method, shown in the next example, attempts to get a single video frame from the mixer. If no video frame is available, `ProcessSample` returns S\_FALSE or an error code, either of which interrupts the loop in `ProcessOutputLoop`. Most of the work is done inside the `ProcessOutput` method:
+The `ProcessOutput` method, shown in the next example, attempts to get a single video frame from the mixer. If no video frame is available, `ProcessSample` returns S_FALSE or an error code, either of which interrupts the loop in `ProcessOutputLoop`. Most of the work is done inside the `ProcessOutput` method:
 
 
 ```C++
@@ -1260,15 +1260,15 @@ done:
 
 Some remarks about this example:
 
--   The *m\_SamplePool* variable is assumed to be a collection object that holds the queue of available video samples. The object's `GetSample` method returns **MF\_E\_SAMPLEALLOCATOR\_EMPTY** if the queue is empty.
--   If the mixer's [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) method returns MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT, it means the mixer cannot produce any more output, so the presenter clears the *m\_fSampleNotify* flag.
+-   The *m_SamplePool* variable is assumed to be a collection object that holds the queue of available video samples. The object's `GetSample` method returns **MF_E_SAMPLEALLOCATOR_EMPTY** if the queue is empty.
+-   If the mixer's [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) method returns MF_E_TRANSFORM_NEED_MORE_INPUT, it means the mixer cannot produce any more output, so the presenter clears the *m_fSampleNotify* flag.
 -   The `TrackSample` method, which sets the [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) callback, is shown in the section [Tracking Samples](#tracking-samples).
 
 ### Repainting Frames
 
 Occasionally the presenter might need to repaint the most recent video frame. For example, the standard presenter repaints the frame in the following situations:
 
--   In windowed mode, in response to **WM\_PAINT** messages received by the application's window. See [**IMFVideoDisplayControl::RepaintVideo**](/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-repaintvideo).
+-   In windowed mode, in response to **WM_PAINT** messages received by the application's window. See [**IMFVideoDisplayControl::RepaintVideo**](/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-repaintvideo).
 -   If the destination rectangle changes when the application calls [**IMFVideoDisplayControl::SetVideoPosition**](/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideoposition).
 
 Use the following steps to request the mixer to re-create the most recent frame:
@@ -1336,7 +1336,7 @@ The following example calculates how early or late a sample is, relative to the 
 
 The presentation clock is usually driven by the system clock or the audio renderer. (The audio renderer derives the time from the rate at which the sound card consumes audio.) In general, the presentation clock is not synchronized with the refresh rate of the monitor.
 
-If your Direct3D presentation parameters specify **D3DPRESENT\_INTERVAL\_DEFAULT** or **D3DPRESENT\_INTERVAL\_ONE** for the presentation interval, the **Present** operation waits for the monitor's vertical retrace. This is an easy way to prevent tearing, but reduces the accuracy of your scheduling algorithm. Conversely, if the presentation interval is **D3DPRESENT\_INTERVAL\_IMMEDIATE**, the **Present** method executes immediately, which causes tearing unless your scheduling algorithm is accurate enough that you call **Present** only during the vertical retrace period.
+If your Direct3D presentation parameters specify **D3DPRESENT_INTERVAL_DEFAULT** or **D3DPRESENT_INTERVAL_ONE** for the presentation interval, the **Present** operation waits for the monitor's vertical retrace. This is an easy way to prevent tearing, but reduces the accuracy of your scheduling algorithm. Conversely, if the presentation interval is **D3DPRESENT_INTERVAL_IMMEDIATE**, the **Present** method executes immediately, which causes tearing unless your scheduling algorithm is accurate enough that you call **Present** only during the vertical retrace period.
 
 The following functions can help you get accurate timing information:
 
@@ -1447,7 +1447,7 @@ The *source rectangle* is the portion of the video frame to display. It is defin
 
 There are several options for applying source and destination rectangles. The first option is to let the mixer apply them:
 
--   Set the source rectangle using the [**VIDEO\_ZOOM\_RECT**](video-zoom-rect-attribute.md) attribute. The mixer will apply the source rectangle when it blits the video to the destination surface. The mixer's default source rectangle is the entire frame.
+-   Set the source rectangle using the [**VIDEO_ZOOM_RECT**](video-zoom-rect-attribute.md) attribute. The mixer will apply the source rectangle when it blits the video to the destination surface. The mixer's default source rectangle is the entire frame.
 -   Set the destination rectangle as the geometric aperture in the mixer's output type. For more information, see [Negotiating Formats](#negotiating-formats).
 
 The second option is to apply the rectangles when you **IDirect3DSwapChain9::Present** by specifying the *pSourceRect* and *pDestRect* parameters in the **Present** method. You can combine these options. For example, you could set the source rectangle on the mixer but apply the destination rectangle in the **Present** method.
@@ -1456,9 +1456,9 @@ If the application changes the destination rectangle or resizes the window, you 
 
 ### End of Stream
 
-When every input stream on the EVR has ended, the EVR sends an **MFVP\_MESSAGE\_ENDOFSTREAM** message to the presenter. At the point when you receive the message, however, there might be a few video frames remaining to be processed. Before you respond to the end-of-stream message, you must drain all of the output from the mixer and present all of the remaining frames. After the last frame is presented, send an **EC\_COMPLETE** event to the EVR.
+When every input stream on the EVR has ended, the EVR sends an **MFVP_MESSAGE_ENDOFSTREAM** message to the presenter. At the point when you receive the message, however, there might be a few video frames remaining to be processed. Before you respond to the end-of-stream message, you must drain all of the output from the mixer and present all of the remaining frames. After the last frame is presented, send an **EC_COMPLETE** event to the EVR.
 
-The next example shows a method that sends the **EC\_COMPLETE** event if various conditions are met. Otherwise, it returns S\_OK without sending the event:
+The next example shows a method that sends the **EC_COMPLETE** event if various conditions are met. Otherwise, it returns S_OK without sending the event:
 
 
 ```C++
@@ -1493,11 +1493,11 @@ HRESULT EVRCustomPresenter::CheckEndOfStream()
 
 This method checks the following states:
 
--   If the *m\_fSampleNotify* variable is **TRUE**, it means the mixer has one or more frames that have not been processed yet. (For details, see [Processing Output](#processing-output).)
--   The *m\_fEndStreaming* variable is a Boolean flag whose initial value **FALSE**. The presenter sets the flag to **TRUE** when the EVR sends the **MFVP\_MESSAGE\_ENDOFSTREAM** message.
+-   If the *m_fSampleNotify* variable is **TRUE**, it means the mixer has one or more frames that have not been processed yet. (For details, see [Processing Output](#processing-output).)
+-   The *m_fEndStreaming* variable is a Boolean flag whose initial value **FALSE**. The presenter sets the flag to **TRUE** when the EVR sends the **MFVP_MESSAGE_ENDOFSTREAM** message.
 -   The `AreSamplesPending` method is assumed to return **TRUE** as long as one or more frames are waiting in the scheduled queue.
 
-In the [**IMFVideoPresenter::ProcessMessage**](/windows/desktop/api/evr/nf-evr-imfvideopresenter-processmessage) method, set *m\_fEndStreaming* to **TRUE** and call `CheckEndOfStream` when the EVR sends the **MFVP\_MESSAGE\_ENDOFSTREAM** message:
+In the [**IMFVideoPresenter::ProcessMessage**](/windows/desktop/api/evr/nf-evr-imfvideopresenter-processmessage) method, set *m_fEndStreaming* to **TRUE** and call `CheckEndOfStream` when the EVR sends the **MFVP_MESSAGE_ENDOFSTREAM** message:
 
 
 ```C++
@@ -1574,7 +1574,7 @@ done:
 
 
 
-In addition, call `CheckEndOfStream` if the mixer's [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) method returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**. This error code indicates that the mixer has no more input samples (see [Processing Output](#processing-output)).
+In addition, call `CheckEndOfStream` if the mixer's [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) method returns **MF_E_TRANSFORM_NEED_MORE_INPUT**. This error code indicates that the mixer has no more input samples (see [Processing Output](#processing-output)).
 
 ## Frame Stepping
 
@@ -1582,34 +1582,34 @@ The EVR is designed to support frame stepping in DirectShow and scrubbing in Med
 
 Frame stepping in DirectShow works as follows:
 
--   The application calls [**IVideoFrameStep::Step**](https://msdn.microsoft.com/en-us/library/Dd377235(v=VS.85).aspx). The number of steps is given in the *dwSteps* parameter. The EVR sends an **MFVP\_MESSAGE\_STEP** message to the presenter, where the message parameter (*ulParam*) is the number of steps.
--   If the application calls [**IVideoFrameStep::CancelStep**](https://msdn.microsoft.com/en-us/library/Dd377233(v=VS.85).aspx) or changes the graph state (running, paused, or stopped), the EVR sends an **MFVP\_MESSAGE\_CANCELSTEP** message.
+-   The application calls [**IVideoFrameStep::Step**](https://msdn.microsoft.com/en-us/library/Dd377235(v=VS.85).aspx). The number of steps is given in the *dwSteps* parameter. The EVR sends an **MFVP_MESSAGE_STEP** message to the presenter, where the message parameter (*ulParam*) is the number of steps.
+-   If the application calls [**IVideoFrameStep::CancelStep**](https://msdn.microsoft.com/en-us/library/Dd377233(v=VS.85).aspx) or changes the graph state (running, paused, or stopped), the EVR sends an **MFVP_MESSAGE_CANCELSTEP** message.
 
 Scrubbing in Media Foundation works as follows:
 
 -   The application sets the playback rate to zero by calling [**IMFRateControl::SetRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratecontrol-setrate).
--   To render a new frame, the application calls [**IMFMediaSession::Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start) with the desired position. The EVR sends an **MFVP\_MESSAGE\_STEP** message with *ulParam* equal to 1.
--   To stop scrubbing, the application sets the playback rate to a nonzero value. The EVR sends the **MFVP\_MESSAGE\_CANCELSTEP** message.
+-   To render a new frame, the application calls [**IMFMediaSession::Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start) with the desired position. The EVR sends an **MFVP_MESSAGE_STEP** message with *ulParam* equal to 1.
+-   To stop scrubbing, the application sets the playback rate to a nonzero value. The EVR sends the **MFVP_MESSAGE_CANCELSTEP** message.
 
-After receiving the **MFVP\_MESSAGE\_STEP** message, the presenter waits for the target frame to arrive. If the number of steps is *N*, the presenter discards the next (*N* - 1) samples and presents the *N* th sample. When the presenter completes the frame step, it sends an [**EC\_STEP\_COMPLETE**](https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx) event to the EVR with *lParam1* set to **FALSE**. In addition, if the playback rate is zero, the presenter sends an [**EC\_SCRUB\_TIME**](https://msdn.microsoft.com/en-us/library/Dd319607(v=VS.85).aspx) event. If the EVR cancels frame stepping while a frame-step operation is still pending, the presenter sends an **EC\_STEP\_COMPLETE** event with *lParam1* set to **TRUE**.
+After receiving the **MFVP_MESSAGE_STEP** message, the presenter waits for the target frame to arrive. If the number of steps is *N*, the presenter discards the next (*N* - 1) samples and presents the *N* th sample. When the presenter completes the frame step, it sends an [**EC_STEP_COMPLETE**](https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx) event to the EVR with *lParam1* set to **FALSE**. In addition, if the playback rate is zero, the presenter sends an [**EC_SCRUB_TIME**](https://msdn.microsoft.com/en-us/library/Dd319607(v=VS.85).aspx) event. If the EVR cancels frame stepping while a frame-step operation is still pending, the presenter sends an **EC_STEP_COMPLETE** event with *lParam1* set to **TRUE**.
 
-The application can frame step or scrub multiple times, so the presenter might receive multiple **MFVP\_MESSAGE\_STEP** messages before it gets an **MFVP\_MESSAGE\_CANCELSTEP** message. Also, the presenter can receive the **MFVP\_MESSAGE\_STEP** message before the clock starts or while the clock is running.
+The application can frame step or scrub multiple times, so the presenter might receive multiple **MFVP_MESSAGE_STEP** messages before it gets an **MFVP_MESSAGE_CANCELSTEP** message. Also, the presenter can receive the **MFVP_MESSAGE_STEP** message before the clock starts or while the clock is running.
 
 ### Implementing Frame Stepping
 
 This section describes an algorithm to implement frame stepping. The frame stepping algorithm uses the following variables:
 
--   *step\_count*. An unsigned integer that specifies the number of steps in the current frame stepping operation.
--   *step\_queue*. A queue of [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) pointers.
--   *step\_state*. At any time, the presenter can be in one of the following states with respect to frame stepping: 
+-   *step_count*. An unsigned integer that specifies the number of steps in the current frame stepping operation.
+-   *step_queue*. A queue of [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) pointers.
+-   *step_state*. At any time, the presenter can be in one of the following states with respect to frame stepping: 
 
     | State         | Description                                                                                                                                                                                                     |
     |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | NOT\_STEPPING | Not frame stepping.                                                                                                                                                                                             |
-    | WAITING       | The presenter has received the **MFVP\_MESSAGE\_STEP** message, but the clock has not started.                                                                                                                  |
-    | PENDING       | The presenter has received the **MFVP\_MESSAGE\_STEP** message and the clock has started, but the presenter is waiting to receive the target frame.                                                             |
+    | NOT_STEPPING | Not frame stepping.                                                                                                                                                                                             |
+    | WAITING       | The presenter has received the **MFVP_MESSAGE_STEP** message, but the clock has not started.                                                                                                                  |
+    | PENDING       | The presenter has received the **MFVP_MESSAGE_STEP** message and the clock has started, but the presenter is waiting to receive the target frame.                                                             |
     | SCHEDULED     | The presenter has received the target frame and has scheduled it for presentation, but the frame has not been presented.                                                                                        |
-    | COMPLETE      | The presenter has presented the target frame and sent the [**EC\_STEP\_COMPLETE**](https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx) event, and is waiting for the next **MFVP\_MESSAGE\_STEP** or **MFVP\_MESSAGE\_CANCELSTEP** message. |
+    | COMPLETE      | The presenter has presented the target frame and sent the [**EC_STEP_COMPLETE**](https://msdn.microsoft.com/en-us/library/Dd319616(v=VS.85).aspx) event, and is waiting for the next **MFVP_MESSAGE_STEP** or **MFVP_MESSAGE_CANCELSTEP** message. |
 
     
 
@@ -1621,36 +1621,36 @@ The following procedures are defined for the frame-stepping algorithm:
 
 PrepareFrameStep Procedure
 
-1.  Increment *step\_count*.
-2.  Set *step\_state* to WAITING.
+1.  Increment *step_count*.
+2.  Set *step_state* to WAITING.
 3.  If the clock is running, call StartFrameStep.
 
 StartFrameStep Procedure
 
-1.  If *step\_state* equals WAITING, set *step\_state* to PENDING. For each sample in *step\_queue*, call DeliverFrameStepSample.
-2.  If *step\_state* equals NOT\_STEPPING, remove any samples from *step\_queue* and schedule them for presentation.
+1.  If *step_state* equals WAITING, set *step_state* to PENDING. For each sample in *step_queue*, call DeliverFrameStepSample.
+2.  If *step_state* equals NOT_STEPPING, remove any samples from *step_queue* and schedule them for presentation.
 
 CompleteFrameStep Procedure
 
-1.  Set *step\_state* to COMPLETE.
-2.  Send the EC\_STEP\_COMPLETE event with *lParam1* = **FALSE**.
-3.  If the clock rate is zero, send the **EC\_SCRUB\_TIME** event with the sample time.
+1.  Set *step_state* to COMPLETE.
+2.  Send the EC_STEP_COMPLETE event with *lParam1* = **FALSE**.
+3.  If the clock rate is zero, send the **EC_SCRUB_TIME** event with the sample time.
 
 DeliverFrameStepSample Procedure
 
 1.  If the clock rate is zero and *sample time* + *sample duration* < *clock time*, discard the sample. Exit.
-2.  If *step\_state* equals SCHEDULED or COMPLETE, add the sample to *step\_queue*. Exit.
-3.  Decrement *step\_count*.
-4.  If *step\_count* > 0, discard the sample. Exit.
-5.  If *step\_state* equals WAITING, add the sample to *step\_queue*. Exit.
+2.  If *step_state* equals SCHEDULED or COMPLETE, add the sample to *step_queue*. Exit.
+3.  Decrement *step_count*.
+4.  If *step_count* > 0, discard the sample. Exit.
+5.  If *step_state* equals WAITING, add the sample to *step_queue*. Exit.
 6.  Schedule the sample for presentation.
-7.  Set *step\_state* to SCHEDULED.
+7.  Set *step_state* to SCHEDULED.
 
 CancelFrameStep Procedure
 
-1.  Set *step\_state* to NOT\_STEPPING
-2.  Reset *step\_count* to zero.
-3.  If the previous value of *step\_state* was WAITING, PENDING, or SCHEDULED, send EC\_STEP\_COMPLETE with *lParam1* = **TRUE**.
+1.  Set *step_state* to NOT_STEPPING
+2.  Reset *step_count* to zero.
+3.  If the previous value of *step_state* was WAITING, PENDING, or SCHEDULED, send EC_STEP_COMPLETE with *lParam1* = **TRUE**.
 
 Call these procedures as follows:
 
@@ -1658,8 +1658,8 @@ Call these procedures as follows:
 
 | Presenter message or method                                                   | Procedure           |
 |-------------------------------------------------------------------------------|---------------------|
-| **MFVP\_MESSAGE\_STEP** message                                               | `PrepareFrameStep`  |
-| **MFVP\_MESSAGE\_STEP** message                                               | `CancelStep`        |
+| **MFVP_MESSAGE_STEP** message                                               | `PrepareFrameStep`  |
+| **MFVP_MESSAGE_STEP** message                                               | `CancelStep`        |
 | [**IMFClockStateSink::OnClockStart**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart)     | `StartFrameStep`    |
 | [**IMFClockStateSink::OnClockRestart**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart) | `StartFrameStep`    |
 | [**IMFTrackedSample**](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx) callback                         | `CompleteFrameStep` |
@@ -1682,7 +1682,7 @@ After implementing the presenter, the next step is to configure the EVR to use i
 
 In a DirectShow application, set the presenter on the EVR as follows:
 
-1.  Create the EVR filter by calling **CoCreateInstance**. The CLSID is **CLSID\_EnhancedVideoRenderer**.
+1.  Create the EVR filter by calling **CoCreateInstance**. The CLSID is **CLSID_EnhancedVideoRenderer**.
 2.  Add the EVR to the filter graph.
 3.  Create an instance of your presenter. Your presenter can support standard COM object creation through **IClassFactory**, but this is not mandatory.
 4.  Query the EVR filter for the [**IMFVideoRenderer**](/windows/desktop/api/evr/nn-evr-imfvideorenderer) interface.
@@ -1706,14 +1706,14 @@ For the EVR activation object, do the following:
 
     | Attribute                                                                                                         | Description                                                                                                                                                                                                                               |
     |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | [**MF\_ACTIVATE\_CUSTOM\_VIDEO\_PRESENTER\_ACTIVATE**](mf-activate-custom-video-presenter-activate-attribute.md) | Pointer to an activation object for the presenter.<br/> With this flag, you must provide an activation object for your presenter. The activation object must implement the [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) interface.<br/> |
-    | [**MF\_ACTIVATE\_CUSTOM\_VIDEO\_PRESENTER\_CLSID**](mf-activate-custom-video-presenter-clsid-attribute.md)       | CLSID of the presenter.<br/> With this flag, your presenter must support standard COM object creation through **IClassFactory**.<br/>                                                                                         |
+    | [**MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_ACTIVATE**](mf-activate-custom-video-presenter-activate-attribute.md) | Pointer to an activation object for the presenter.<br/> With this flag, you must provide an activation object for your presenter. The activation object must implement the [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) interface.<br/> |
+    | [**MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_CLSID**](mf-activate-custom-video-presenter-clsid-attribute.md)       | CLSID of the presenter.<br/> With this flag, your presenter must support standard COM object creation through **IClassFactory**.<br/>                                                                                         |
 
     
 
      
 
-3.  Optionally, set the [**MF\_ACTIVATE\_CUSTOM\_VIDEO\_PRESENTER\_FLAGS**](mf-activate-custom-video-presenter-flags-attribute.md) attribute on the activation object.
+3.  Optionally, set the [**MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_FLAGS**](mf-activate-custom-video-presenter-flags-attribute.md) attribute on the activation object.
 
 ## Related topics
 

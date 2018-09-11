@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_LocalPoliciesSecurityOptions02 class
+title: MDM_Policy_Result01_LocalPoliciesSecurityOptions02 class
 description: The MDM\_Policy\_Result01\_LocalPoliciesSecurityOptions02 class represents the local policies security options.
 ms.assetid: 75ac4789-781f-4722-8b0a-33e53b307296
 keywords:

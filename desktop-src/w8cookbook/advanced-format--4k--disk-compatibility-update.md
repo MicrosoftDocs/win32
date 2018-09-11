@@ -50,7 +50,7 @@ One of the problems of introducing this change in the media format is the potent
 
 <dl> **Logical sector:** The unit that is used for logical block addressing for the media. We can also think of it as the smallest unit of write that the storage can accept. This is the  emulation.   
 **Physical sector:** The unit for which read and write operations to the device are completed in a single operation. This is the unit of atomic write.  
-</dl> Most current Windows APIs, such as IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY will return the logical sector size, but the physical sector size can be retrieved through the [IOCTL\_STORAGE\_QUERY\_PROPERTY](http://msdn.microsoft.com/library/ff560590.aspx) control code, with the relevant info contained in the BytesPerPhysicalSector field in the [STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR](http://msdn.microsoft.com/library/ff800831.aspx) structure. This is discussed in more detail later in the article.
+</dl> Most current Windows APIs, such as IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY will return the logical sector size, but the physical sector size can be retrieved through the <a href="http://msdn.microsoft.com/library/ff560590.aspx">IOCTL\_STORAGE\_QUERY\_PROPERTY</a> control code, with the relevant info contained in the BytesPerPhysicalSector field in the <a href="http://msdn.microsoft.com/library/ff800831.aspx">STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR</a> structure. This is discussed in more detail later in the article.
 
 **Initial types of large sector media**
 

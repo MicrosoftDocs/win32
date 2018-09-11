@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_NEW message
+title: MCIWNDM_NEW message
 description: The MCIWNDM\_NEW message creates a new file for the current MCI device. You can send this message explicitly or by using the MCIWndNew macro.
 ms.assetid: 18b2340d-8303-415a-867f-bd346034db2a
 keywords:

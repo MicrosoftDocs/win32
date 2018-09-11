@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SNEGINFINITY
 ms.assetid: 06e4b7dc-fc31-45e5-908a-50d693b20351
-title: LOCALE\_SNEGINFINITY
+title: LOCALE_SNEGINFINITY
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

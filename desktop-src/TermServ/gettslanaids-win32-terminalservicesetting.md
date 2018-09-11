@@ -1,5 +1,5 @@
 ---
-title: GetTSLanaIds method of the Win32\_TerminalServiceSetting class
+title: GetTSLanaIds method of the Win32_TerminalServiceSetting class
 description: Gets the NetBIOS Local Area Network Adapter (LANA) IDs and descriptions of Remote Desktop Services network adapters.
 audience: developer
 author: REDMOND\\markl

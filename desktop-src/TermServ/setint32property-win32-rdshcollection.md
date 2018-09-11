@@ -1,5 +1,5 @@
 ---
-title: SetInt32Property method of the Win32\_RDSHCollection class
+title: SetInt32Property method of the Win32_RDSHCollection class
 description: Updates an integer property value of a Win32\_RDSHCollection object.
 audience: developer
 author: REDMOND\\markl

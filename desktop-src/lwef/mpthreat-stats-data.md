@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT\_STATS\_DATA structure
+title: MPTHREAT_STATS_DATA structure
 description: Additional threat statistics data.
 ms.assetid: 8C01C746-8FD8-4311-908D-D1F4E3488480
 keywords:

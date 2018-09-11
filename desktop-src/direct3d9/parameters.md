@@ -1,6 +1,6 @@
 ---
 Description: Parameters are effect variables.
-ms.assetid: 7db5ef2b-6894-4113-b726-8b238bb4fb2f
+ms.assetid: 'vs|directx_sdk|~\parameters.htm'
 title: Parameters (Direct3D 9)
 ms.technology: desktop
 ms.prod: windows

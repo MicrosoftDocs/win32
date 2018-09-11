@@ -1,5 +1,5 @@
 ---
-title: TDN\_RADIO\_BUTTON\_CLICKED notification code
+title: TDN_RADIO_BUTTON_CLICKED notification code
 description: Sent by a task dialog when the user selects a radio button or command link in the task dialog. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
 ms.assetid: d9a29874-6755-4754-bcaf-94746b218b47
 keywords:

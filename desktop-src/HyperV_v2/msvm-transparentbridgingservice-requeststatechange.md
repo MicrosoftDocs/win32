@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: d0a75ede-7f59-4464-abea-e5a84a7f16da
-title: RequestStateChange method of the Msvm\_TransparentBridgingService class
+title: RequestStateChange method of the Msvm_TransparentBridgingService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

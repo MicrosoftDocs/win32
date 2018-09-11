@@ -1,7 +1,7 @@
 ---
 title: XML Buffer
 description: An XML Buffer provides efficient in-memory storage for arbitrary XML data.
-ms.assetid: 75f1df70-4dc9-4365-9005-5eaca6688f16
+ms.assetid: 'e379628b-c6f8-48b1-8109-59fb604f2bcb'
 keywords:
 - XML Buffer Web Services for Windows
 - WWSAPI

@@ -28,9 +28,9 @@ The Filter Mapper searches the registry for registered filters. The Filter Graph
 <tr class="even">
 <td>Interfaces</td>
 <td><ul>
-<li>[<strong>IFilterMapper2</strong>](/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2)</li>
-<li>[<strong>IAMFilterData</strong>](iamfilterdata.md) (deprecated)</li>
-<li>[<strong>IFilterMapper3</strong>](/windows/desktop/api/Strmif/nn-strmif-ifiltermapper3) (deprecated)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2"><strong>IFilterMapper2</strong></a></li>
+<li><a href="iamfilterdata"><strong>IAMFilterData</strong></a> (deprecated)</li>
+<li><a href="/windows/desktop/api/Strmif/nn-strmif-ifiltermapper3"><strong>IFilterMapper3</strong></a> (deprecated)</li>
 </ul></td>
 </tr>
 </tbody>

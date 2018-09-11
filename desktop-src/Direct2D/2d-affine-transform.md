@@ -86,11 +86,11 @@ Although the input matrix is defined as a 3x2 matrix, the last column is padded 
 </tr>
 <tr class="even">
 <td>BorderMode<br/> D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE<br/></td>
-<td>The mode used to calculate the border of the image, soft or hard. See [Border modes](https://www.bing.com/search?q=Border+modes) for more info. <br/> Type is D2D1_BORDER_MODE.<br/> Default value is D2D1_BORDER_MODE_SOFT.<br/></td>
+<td>The mode used to calculate the border of the image, soft or hard. See <a href="https://www.bing.com/search?q=Border+modes">Border modes</a> for more info. <br/> Type is D2D1_BORDER_MODE.<br/> Default value is D2D1_BORDER_MODE_SOFT.<br/></td>
 </tr>
 <tr class="odd">
 <td>TransformMatrix<br/> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br/></td>
-<td>The 3x2 matrix to transform the image using the Direct2D matrix [transform](direct2d-transforms-overview.md). <br/> Type is D2D1_MATRIX_3X2_F.<br/> Default value is Matrix3x2F::Identity().<br/></td>
+<td>The 3x2 matrix to transform the image using the Direct2D matrix <a href="direct2d-transforms-overview">transform</a>. <br/> Type is D2D1_MATRIX_3X2_F.<br/> Default value is Matrix3x2F::Identity().<br/></td>
 </tr>
 <tr class="even">
 <td>Sharpness<br/> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br/></td>

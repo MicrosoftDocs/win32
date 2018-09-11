@@ -1,5 +1,5 @@
 ---
-title: EM\_CANPASTE message
+title: EM_CANPASTE message
 description: Determines whether a rich edit control can paste a specified clipboard format.
 ms.assetid: 1b858ad8-1312-407b-b12a-c63668ba9f72
 keywords:

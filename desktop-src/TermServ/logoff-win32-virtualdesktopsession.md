@@ -1,5 +1,5 @@
 ---
-title: Logoff method of the Win32\_VirtualDesktopSession class
+title: Logoff method of the Win32_VirtualDesktopSession class
 description: Logs off the user from the virtual desktop session.
 audience: developer
 author: REDMOND\\markl

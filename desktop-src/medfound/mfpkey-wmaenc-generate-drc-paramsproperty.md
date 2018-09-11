@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the encoder should generate dynamic range congrol parameters.
 ms.assetid: 4ae424f1-10be-466a-8a98-163789fc9553
-title: MFPKEY\_WMAENC\_GENERATE\_DRC\_PARAMS Property
+title: MFPKEY_WMAENC_GENERATE_DRC_PARAMS Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

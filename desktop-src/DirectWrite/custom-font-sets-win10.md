@@ -133,7 +133,7 @@ When dealing with an arbitrary set of font files in local storage, the [**IDWrit
 
 To use this method, use the following process.
 
-<dl> 1. Start by creating the [**IDWriteFactory5**](https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx) interface: 
+<dl> 1. Start by creating the <a href="https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx">IDWriteFactory5</a> interface: 
 
 
 ```C++
@@ -148,7 +148,7 @@ HRESULT hr = DWriteCreateFactory( 
 
 
    
-2. Use the factory to obtain the [**IDWriteFontSetBuilder1**](https://msdn.microsoft.com/en-us/library/Mt807690(v=VS.85).aspx) interface: 
+2. Use the factory to obtain the <a href=""></a>[**IDWriteFontSetBuilder1**](https://msdn.microsoft.com/en-us/library/Mt807690(v=VS.85).aspx) interface: 
 
 
 ```C++
@@ -184,9 +184,8 @@ if (SUCCEEDED(hr)) 
 hr = pFontSetBuilder->AddFontFile(pFontFile); 
 ```
 
+If the file path specified in the call to [**CreateFontFileReference**](https://msdn.microsoft.com/en-us/library/Dd368197(v=VS.85).aspx) referred to something other than a supported OpenType file, then the call to [**AddFontFile**](https://msdn.microsoft.com/en-us/library/Mt807691(v=VS.85).aspx) will return an error, DWRITE\_E\_FILEFORMAT.
 
-
-   If the file path specified in the call to [**CreateFontFileReference**](https://msdn.microsoft.com/en-us/library/Dd368197(v=VS.85).aspx) referred to something other than a supported OpenType file, then the call to [**AddFontFile**](https://msdn.microsoft.com/en-us/library/Mt807691(v=VS.85).aspx) will return an error, DWRITE\_E\_FILEFORMAT.  
 5. After all of the files have been added to the font set builder, the custom font set can be created: 
 
 
@@ -204,7 +203,7 @@ If the app needs to run on Windows 10 versions earlier than the Windows 10 Creat
 
 If the AddFontFile method is not available, then the [**IDWriteFontSetBuilder::AddFontFaceReference**](/windows/desktop/api/dwrite_3/nf-dwrite_3-addfontfacereference) method must be used to add individual font faces. To allow for OpenType Font Collection files that contain multiple faces, the [**IDWriteFontFile::Analyze**](https://msdn.microsoft.com/en-us/library/Dd371099(v=VS.85).aspx) method can be used to determine the number of faces contained within the file. The process is as follows.
 
-<dl> 1. Start by creating the [**IDWriteFactory3**](https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx) interface: 
+<dl> 1. Start by creating the <a href="https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx">IDWriteFactory3</a> interface: 
 
 
 ```C++
@@ -338,8 +337,8 @@ To use the remote font file loader, it must first be registered with a DirectWri
 The method for creating a custom font set using remote fonts is as follows; this requires the Windows 10 Creators Update.  
 
 <dl> 1. Create an IDWriteFactory5 interface, as shown above.   
-2. Create an [**IDWriteFontSetBuilder**](https://msdn.microsoft.com/en-us/library/Dn933236(v=VS.85).aspx) interface, as shown above.   
-3. Use the factory to obtain an [**IDWriteRemoteFontFileLoader**](https://msdn.microsoft.com/en-us/library/Mt807695(v=VS.85).aspx). 
+2. Create an <a href="https://msdn.microsoft.com/en-us/library/Dn933236(v=VS.85).aspx">IDWriteFontSetBuilder</a> interface, as shown above.   
+3. Use the factory to obtain an <a href="https://msdn.microsoft.com/en-us/library/Mt807695(v=VS.85).aspx">IDWriteRemoteFontFileLoader</a>. 
 
 
 ```C++

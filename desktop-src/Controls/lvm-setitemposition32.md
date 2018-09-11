@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETITEMPOSITION32 message
+title: LVM_SETITEMPOSITION32 message
 description: Moves an item to a specified position in a list-view control (must be in icon or small icon view).
 ms.assetid: 77db5fd0-bbc3-47ad-95ef-61ef4ac022bc
 keywords:

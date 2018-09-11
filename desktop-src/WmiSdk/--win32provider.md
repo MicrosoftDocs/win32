@@ -7,7 +7,7 @@ ms.assetid: 41e0d938-00c6-4f4c-8027-8b8512398dee
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_Win32Provider class'
+title: '__Win32Provider class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

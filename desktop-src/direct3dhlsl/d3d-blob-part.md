@@ -1,5 +1,5 @@
 ---
-title: D3D\_BLOB\_PART enumeration
+title: D3D_BLOB_PART enumeration
 description: Values that identify parts of the content of an arbitrary length data buffer.
 ms.assetid: 333bc68a-0412-48e7-ac28-69ec5eea9ce8
 keywords:
@@ -108,7 +108,7 @@ This value is supported by the D3dcompiler_44.dll or later version of the file.
 </tr>
 <tr class="even">
 <td><strong>D3D_BLOB_ROOT_SIGNATURE</strong></td>
-<td>The blob part is a root signature. Refer to [Specifying Root Signatures in HLSL](https://msdn.microsoft.com/library/windows/desktop/dn913202) for more information on using Direct3D12 with HLSL.<br/>
+<td>The blob part is a root signature. Refer to <a href="https://msdn.microsoft.com/library/windows/desktop/dn913202">Specifying Root Signatures in HLSL</a> for more information on using Direct3D12 with HLSL.<br/>
 <blockquote>
 [!Note]<br />
 This value is supported by the D3dcompiler_47.dll or later version of the file.

@@ -1,7 +1,7 @@
 ---
 title: Functions
 description: Functions
-ms.assetid: 5d726c56-d0f3-4eb8-829f-3a0c1a0e0802
+ms.assetid: '10fa8f96-8030-4727-af5d-7c06229d05d8'
 keywords:
 - Windows Media Format SDK,functions
 - Advanced Systems Format (ASF),functions

@@ -1,5 +1,5 @@
 ---
-title: AddResources method of the Win32\_TSGatewayResourceGroup class
+title: AddResources method of the Win32_TSGatewayResourceGroup class
 description: Adds resources to the resource group.
 audience: developer
 author: REDMOND\\markl

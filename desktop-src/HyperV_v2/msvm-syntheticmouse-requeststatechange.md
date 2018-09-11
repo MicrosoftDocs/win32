@@ -1,7 +1,7 @@
 ---
 Description: Requests a state change.
 ms.assetid: 6c29dc19-0e5a-48cc-ae4a-f7cf127678b2
-title: RequestStateChange method of the Msvm\_SyntheticMouse class
+title: RequestStateChange method of the Msvm_SyntheticMouse class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

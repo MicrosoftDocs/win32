@@ -1,5 +1,5 @@
 ---
-title: CFSTR\_DSPROPERTYPAGEINFO
+title: CFSTR_DSPROPERTYPAGEINFO
 description: The CFSTR\_DSPROPERTYPAGEINFO clipboard format provides an HGLOBAL that contains a DSPROPERTYPAGEINFO structure.
 audience: developer
 author: REDMOND\\markl

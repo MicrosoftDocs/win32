@@ -1,5 +1,5 @@
 ---
-title: TSGStoreAdminMsg method of the Win32\_TSGatewayServerSettings class
+title: TSGStoreAdminMsg method of the Win32_TSGatewayServerSettings class
 description: Updates the administrative message for the gateway server.
 audience: developer
 author: REDMOND\\markl

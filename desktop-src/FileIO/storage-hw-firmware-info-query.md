@@ -1,7 +1,7 @@
 ---
 Description: This structure contains information about the device firmware.
 ms.assetid: 1A2D30F3-F2DE-40CB-BFFC-8BAD19793AE1
-title: STORAGE\_HW\_FIRMWARE\_INFO\_QUERY structure
+title: STORAGE_HW_FIRMWARE_INFO_QUERY structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

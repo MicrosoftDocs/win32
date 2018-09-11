@@ -82,70 +82,70 @@ The Windows Media Audio decoder supports the following properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>MFPKEY_Decoder_MaxNumPCMSamplesWithPaddedSilence</strong>](mfpkey-decoder-maxnumpcmsampleswithpaddedsilenceproperty.md)</td>
+<td><a href="mfpkey-decoder-maxnumpcmsampleswithpaddedsilenceproperty"><strong>MFPKEY_Decoder_MaxNumPCMSamplesWithPaddedSilence</strong></a></td>
 <td>Specifies the maximum number of additional PCM samples that might be returned at the end of decoding a file.<br/> <dl> Windows Vista and later.<br />
 Standard, Professional, Lossless.<br />
 Read-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_WMADEC_DRCMODE</strong>](mfpkey-wmadec-drcmodeproperty.md)</td>
+<td><a href="mfpkey-wmadec-drcmodeproperty"><strong>MFPKEY_WMADEC_DRCMODE</strong></a></td>
 <td>Specifies the dynamic-range control mode that the audio decoder will use.<br/> <dl> Windows XP and later.<br />
 Standard, Professional, Lossless.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_WMADEC_FOLDDOWN_MATRIX</strong>](mfpkey-wmadec-folddown-matrixproperty.md)</td>
+<td><a href="mfpkey-wmadec-folddown-matrixproperty"><strong>MFPKEY_WMADEC_FOLDDOWN_MATRIX</strong></a></td>
 <td>Specifies the author-supplied fold-down coefficients for decoding multichannel audio for fewer channels than the encoded stream contains. <br/> <dl> Windows XP and later.<br />
 Professional<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_WMADEC_HIRESOUTPUT</strong>](mfpkey-wmadec-hiresoutputproperty.md)</td>
+<td><a href="mfpkey-wmadec-hiresoutputproperty"><strong>MFPKEY_WMADEC_HIRESOUTPUT</strong></a></td>
 <td>Specifies whether the audio decoder should deliver high-resolution output.<br/> <dl> Windows XP and later.<br />
 Professional, Lossless.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_WMADEC_LTRTOUTPUT</strong>](mfpkey-wmadec-ltrtoutputproperty.md)</td>
+<td><a href="mfpkey-wmadec-ltrtoutputproperty"><strong>MFPKEY_WMADEC_LTRTOUTPUT</strong></a></td>
 <td>Specifies whether the audio decoder should perform Lt-Rt fold down.<br/> <dl> Windows Vista and later.<br />
 Professional.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_WMADEC_SPKRCFG</strong>](mfpkey-wmadec-spkrcfgproperty.md)</td>
+<td><a href="mfpkey-wmadec-spkrcfgproperty"><strong>MFPKEY_WMADEC_SPKRCFG</strong></a></td>
 <td>Specifies the speaker configuration on the client computer.<br/> <dl> Windows XP and later.<br />
 Professional.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_WMADRC_AVGREF</strong>](mfpkey-wmadrc-avgrefproperty.md)</td>
+<td><a href="mfpkey-wmadrc-avgrefproperty"><strong>MFPKEY_WMADRC_AVGREF</strong></a></td>
 <td>Specifies the average volume level of audio content.<br/> <dl> Windows XP and later.<br />
 Professional, Lossless.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_WMADRC_AVGTARGET</strong>](mfpkey-wmadrc-avgtargetproperty.md)</td>
+<td><a href="mfpkey-wmadrc-avgtargetproperty"><strong>MFPKEY_WMADRC_AVGTARGET</strong></a></td>
 <td>Specifies the desired average volume level of output audio content.<br/> <dl> Windows XP and later.<br />
 Professional, Lossless.<br />
 Write-only.<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFPKEY_WMADRC_PEAKREF</strong>](mfpkey-wmadrc-peakrefproperty.md)</td>
+<td><a href="mfpkey-wmadrc-peakrefproperty"><strong>MFPKEY_WMADRC_PEAKREF</strong></a></td>
 <td>Specifies the highest volume level occurring in audio content.<br/> <dl> Windows XP and later.<br />
 Professional, Lossless.<br />
 Read/write.<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>MFPKEY_WMADRC_PEAKTARGET</strong>](mfpkey-wmadrc-peaktargetproperty.md)</td>
+<td><a href="mfpkey-wmadrc-peaktargetproperty"><strong>MFPKEY_WMADRC_PEAKTARGET</strong></a></td>
 <td>Specifies the desired maximum volume level of output audio content.<br/> <dl> Windows XP and later.<br />
 Professional, Lossless.<br />
 Write-only.<br />

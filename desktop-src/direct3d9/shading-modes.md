@@ -1,6 +1,6 @@
 ---
 Description: The shading mode used to render a polygon has a profound effect on its appearance. Shading modes determine the intensity of color and lighting at any point on a polygon face. Direct3D supports two shading modes.
-ms.assetid: efcaf3f7-b474-4719-adde-10096e296b9f
+ms.assetid: 'vs|directx_sdk|~\shading_modes.htm'
 title: Shading Modes (Direct3D 9)
 ms.technology: desktop
 ms.prod: windows

@@ -1,5 +1,5 @@
 ---
-title: first\_is attribute
+title: first_is attribute
 description: The \ first\_is\ attribute specifies the index of the first array element to be transmitted.
 ms.assetid: 1de7821c-19e7-4b2c-98fc-2fae3563831c
 keywords:

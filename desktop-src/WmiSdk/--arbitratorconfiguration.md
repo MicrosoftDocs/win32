@@ -7,7 +7,7 @@ ms.assetid: e877899d-2f5e-4468-8c47-055fd4d16f56
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ArbitratorConfiguration class'
+title: '__ArbitratorConfiguration class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

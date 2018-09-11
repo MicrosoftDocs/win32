@@ -1,7 +1,7 @@
 ---
 Description: Removes DH-CHAP (Diffie Hellman - Challenge Handshake Authentication Protocol) parameters from a synthetic Fibre Channel port in a virtual machine.
 ms.assetid: f15673e2-287d-4e87-bee4-6c0f5f9178c8
-title: RemoveFibreChannelChap method of the Msvm\_VirtualSystemManagementService class
+title: RemoveFibreChannelChap method of the Msvm_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

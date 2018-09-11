@@ -1,5 +1,5 @@
 ---
-title: NM\_KILLFOCUS (list view) notification code
+title: NM_KILLFOCUS (list view) notification code
 description: Notifies a list-view control's parent window that the control has lost the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: f60064da-21e1-4555-ae72-cda8bd76175a
 keywords:

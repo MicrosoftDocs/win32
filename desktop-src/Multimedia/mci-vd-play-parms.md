@@ -1,5 +1,5 @@
 ---
-title: MCI\_VD\_PLAY\_PARMS structure
+title: MCI_VD_PLAY_PARMS structure
 description: The MCI\_VD\_PLAY\_PARMS structure contains position and speed information for the MCI\_PLAY command for videodisc devices.
 ms.assetid: 9fa8418f-3f69-4a9c-b23e-7d2e2c75c7af
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: file\_extension Key
+title: file_extension Key
 description: Associates a file name extension with a ProgID.
 ms.assetid: 018998a8-c0da-43ea-bae2-3b184897eb9b
 ms.technology: desktop

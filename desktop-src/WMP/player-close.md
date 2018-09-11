@@ -1,7 +1,7 @@
 ---
 title: Player.close method
 description: The close method releases Windows Media Player resources.
-ms.assetid: 3e555086-c31c-42d7-b671-0fd824f66641
+ms.assetid: '15bd5a05-dbfa-4bea-90c2-afd9f69631e0'
 keywords:
 - close method Windows Media Player
 - close method Windows Media Player , Player class

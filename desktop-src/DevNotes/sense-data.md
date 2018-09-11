@@ -1,7 +1,7 @@
 ---
 Description: Used to report status or error information in response to a SCSI Request Sense command.
 ms.assetid: 43B2FE98-1468-4457-AB7D-3038C16E20B6
-title: SENSE\_DATA structure
+title: SENSE_DATA structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

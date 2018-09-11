@@ -1,5 +1,5 @@
 ---
-title: TVM\_CREATEDRAGIMAGE message
+title: TVM_CREATEDRAGIMAGE message
 description: Creates a dragging bitmap for the specified item in a tree-view control.
 ms.assetid: fbe97921-c9d3-473c-933c-d6bc0599e24d
 keywords:

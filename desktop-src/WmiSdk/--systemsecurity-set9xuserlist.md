@@ -7,7 +7,7 @@ ms.assetid: f6da65d3-86dd-4fc8-b4c0-f7ddc8536d4e
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_SystemSecurity::Set9XUserList method'
+title: '__SystemSecurity::Set9XUserList method'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

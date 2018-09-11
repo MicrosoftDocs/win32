@@ -1,7 +1,7 @@
 ---
 title: SLIDER.max
 description: The max attribute specifies or retrieves the maximum value of the range defined by the slider control.
-ms.assetid: 2b788b13-d9a8-4cf6-9397-a2fc8d5d19e1
+ms.assetid: 'c38e7868-d144-4e40-871a-e70181a6dfb5'
 keywords:
 - SLIDER.max Windows Media Player
 topic_type:

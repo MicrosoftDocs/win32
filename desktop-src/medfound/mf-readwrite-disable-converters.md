@@ -1,7 +1,7 @@
 ---
 Description: Enables or disables format conversions by the source reader or sink writer.
 ms.assetid: 282b70c3-c81c-47dd-bfa2-7e77138ccb91
-title: MF\_READWRITE\_DISABLE\_CONVERTERS attribute
+title: MF_READWRITE_DISABLE_CONVERTERS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

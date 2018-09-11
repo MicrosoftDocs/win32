@@ -1,7 +1,7 @@
 ---
 Description: Represents the configured state of an emulated Ethernet adapter.
 ms.assetid: 8BFD69D8-65B6-4C6F-9972-BD2F3C4FB5B8
-title: Msvm\_EmulatedEthernetPortSettingData class
+title: Msvm_EmulatedEthernetPortSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

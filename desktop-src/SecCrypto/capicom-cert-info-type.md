@@ -1,7 +1,7 @@
 ---
 Description: Defines what information is to be queried from a certificate.
 ms.assetid: b603c06b-e6d4-4d5d-92b2-3b4f5b93478a
-title: CAPICOM\_CERT\_INFO\_TYPE enumeration
+title: CAPICOM_CERT_INFO_TYPE enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

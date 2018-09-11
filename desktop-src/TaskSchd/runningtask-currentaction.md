@@ -1,7 +1,7 @@
 ---
 title: RunningTask.CurrentAction property
 description: For scripting, gets the name of the current action that the running task is performing.
-ms.assetid: 52b58477-e968-4c76-835d-02ed63cef641
+ms.assetid: 'bd6459af-4d91-496e-91f9-9c35cae5df22'
 keywords:
 - CurrentAction property Task Scheduler
 - CurrentAction property Task Scheduler , RunningTask object

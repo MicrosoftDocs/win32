@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_X25Type class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_X25Type class
 description: The CreateInstanceFromPropertyData method instantiates an X.25 (X25) Resource Record.
 ms.assetid: fe89f829-79b9-457e-b455-899b2706ef04
 keywords:

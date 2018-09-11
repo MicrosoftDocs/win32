@@ -1,6 +1,6 @@
 ---
 Description: The ExtractCAB method of the Merge object extracts the embedded .cab file from a module and saves it as the specified file. The installer creates this file if it does not already exist and overwritten if it does exist.
-ms.assetid: 3f794dac-6eeb-4c1e-8c23-c9d7384f650f
+ms.assetid: 'a6fe8b69-8f4a-45f7-b7e6-7620a00500bb'
 title: Merge.ExtractCAB method
 ms.technology: desktop
 ms.prod: windows

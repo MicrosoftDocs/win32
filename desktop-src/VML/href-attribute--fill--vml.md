@@ -1,7 +1,7 @@
 ---
 title: HRef Attribute (Fill)(VML)
 description: HRef Attribute (Fill)(VML)
-ms.assetid: 3f6376e3-24db-412c-b265-5916950c3824
+ms.assetid: 'vs|vml|~\shape\fill\fill_href.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

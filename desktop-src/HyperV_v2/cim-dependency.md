@@ -1,7 +1,7 @@
 ---
 Description: Represents a generic association used to establish dependency relationships between managed elements.
 ms.assetid: a81beedc-5473-49a6-8e7f-67e831d3e8bc
-title: CIM\_Dependency class
+title: CIM_Dependency class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

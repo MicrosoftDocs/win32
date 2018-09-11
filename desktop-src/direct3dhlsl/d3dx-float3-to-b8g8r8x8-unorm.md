@@ -1,5 +1,5 @@
 ---
-title: D3DX\_FLOAT3\_to\_B8G8R8X8\_UNORM function
+title: D3DX_FLOAT3_to_B8G8R8X8_UNORM function
 description: Packs the given XMFLOAT3 into a DXGI\_FORMAT\_B8G8R8X8\_UNORM UINT.
 ms.assetid: 9492578b-e3c3-4856-b6d2-49f776a21d77
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: The m\_StartSample member variable specifies the start time of the most recent sample.
 ms.assetid: 2e6d6893-d57b-4009-a6ec-40dc0878d9c4
-title: CDrawImage::m\_StartSample member
+title: CDrawImage::m_StartSample member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

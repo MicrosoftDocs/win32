@@ -34,15 +34,15 @@ Shader Model 4 is a superset of the capabilities in [Shader Model 3](dx-graphics
 <tbody>
 <tr class="odd">
 <td>Instruction Set</td>
-<td>[<strong>HLSL functions</strong>](dx-graphics-hlsl-intrinsic-functions.md)</td>
+<td><a href="dx-graphics-hlsl-intrinsic-functions"><strong>HLSL functions</strong></a></td>
 </tr>
 <tr class="even">
 <td>Register Set</td>
 <td>The register set is accessible through members in constant and texture buffers using HLSL semantics for things like component packing.
 <ul>
-<li>Pixel shader registers (see [Registers - ps_4_0](dx-graphics-hlsl-sm4-registers-ps-4-0.md) and [Registers - ps_4_1](dx-graphics-hlsl-sm4-registers-ps-4-1.md))</li>
-<li>Vertex shader registers (see [Registers - vs_4_0](dx-graphics-hlsl-sm4-registers-vs-4-0.md) and [Registers - vs_4_1](dx-graphics-hlsl-sm4-registers-vs-4-1.md))</li>
-<li>Geometry shader registers (see [Registers - gs_4_0](dx-graphics-hlsl-sm4-registers-gs-4-0.md) and [Registers - gs_4_1](dx-graphics-hlsl-sm4-registers-gs-4-1.md))</li>
+<li>Pixel shader registers (see <a href="dx-graphics-hlsl-sm4-registers-ps-4-0">Registers - ps_4_0</a> and <a href="dx-graphics-hlsl-sm4-registers-ps-4-1">Registers - ps_4_1</a>)</li>
+<li>Vertex shader registers (see <a href="dx-graphics-hlsl-sm4-registers-vs-4-0">Registers - vs_4_0</a> and <a href="dx-graphics-hlsl-sm4-registers-vs-4-1">Registers - vs_4_1</a>)</li>
+<li>Geometry shader registers (see <a href="dx-graphics-hlsl-sm4-registers-gs-4-0">Registers - gs_4_0</a> and <a href="dx-graphics-hlsl-sm4-registers-gs-4-1">Registers - gs_4_1</a>)</li>
 </ul></td>
 </tr>
 <tr class="odd">

@@ -1,7 +1,7 @@
 ---
 Description: Sets the base thread priority for the Source Reader or Sink Writer.
 ms.assetid: 9513AE28-2AF4-45EC-AC19-C0718540E26F
-title: MF\_READWRITE\_MMCSS\_PRIORITY attribute
+title: MF_READWRITE_MMCSS_PRIORITY attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_PUT\_SOURCE message
+title: MCIWNDM_PUT_SOURCE message
 description: The MCIWNDM\_PUT\_SOURCE message redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can send this message explicitly or by using the MCIWndPutSource macro.
 ms.assetid: cff95139-0302-4db3-bf2e-559e75257e85
 keywords:

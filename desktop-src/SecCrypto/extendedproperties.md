@@ -1,6 +1,6 @@
 ---
 Description: Represents a collection of ExtendedProperty objects.
-ms.assetid: e03ce9cf-a437-43e8-89d1-109245492d72
+ms.assetid: '9de25994-9f0b-47a0-b4c8-781aec782f88'
 title: ExtendedProperties object
 ms.technology: desktop
 ms.prod: windows

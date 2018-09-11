@@ -1,5 +1,5 @@
 ---
-title: MDM\_Reporting\_EnterpriseDataProtection01\_RetrieveByTimeRange02 class
+title: MDM_Reporting_EnterpriseDataProtection01_RetrieveByTimeRange02 class
 description: The MDM\_Reporting\_EnterpriseDataProtection01\_RetrieveByTimeRange02 class is used to retrieve the logs that exist within the StartTime and StopTime.
 ms.assetid: 6abec00e-901f-4f79-840d-a4ef3a4d392d
 keywords:

@@ -300,7 +300,7 @@ If there are multiple elements, the last one is used. If no [displayInfo](https:
 </tr>
 <tr class="even">
 <td>displayType</td>
-<td>Public. Optional. Default is &quot;String&quot;. Specifies the type of the display string. Once set here, the associated <strong>PROPDESC_DISPLAYTYPE</strong> values are retrieved by [<strong>IPropertyDescription::GetDisplayType</strong>](https://msdn.microsoft.com/library/Bb761535(v=VS.85).aspx>). The following are valid types. 
+<td>Public. Optional. Default is &quot;String&quot;. Specifies the type of the display string. Once set here, the associated <strong>PROPDESC_DISPLAYTYPE</strong> values are retrieved by <a href="https://msdn.microsoft.com/library/Bb761535(v=VS.85).aspx>"><strong>IPropertyDescription::GetDisplayType</strong></a>. The following are valid types. 
 <table>
 <thead>
 <tr class="header">
@@ -364,7 +364,7 @@ If there are multiple elements, the last one is used. If no [displayInfo](https:
 </tr>
 <tr class="even">
 <td>relativeDescriptionType</td>
-<td>Optional. Default is &quot;General&quot;. Specifies how two values of this property should be described when they are compared with one another. In the case of equivalency, &quot;Same&quot; is always used. [<strong>IPropertyDescription::GetRelativeDescription</strong>](https://msdn.microsoft.com/library/Bb761547(v=VS.85).aspx>) and [<strong>IPropertyDescription::GetRelativeDescriptionType</strong>](https://msdn.microsoft.com/library/Bb761549(v=VS.85).aspx>) use this value to determine what relative description display names to use. 
+<td>Optional. Default is &quot;General&quot;. Specifies how two values of this property should be described when they are compared with one another. In the case of equivalency, &quot;Same&quot; is always used. <a href="https://msdn.microsoft.com/library/Bb761547(v=VS.85).aspx>"><strong>IPropertyDescription::GetRelativeDescription</strong></a> and <a href="https://msdn.microsoft.com/library/Bb761549(v=VS.85).aspx>"><strong>IPropertyDescription::GetRelativeDescriptionType</strong></a> use this value to determine what relative description display names to use. 
 <table>
 <thead>
 <tr class="header">

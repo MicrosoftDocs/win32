@@ -78,11 +78,11 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_BUSY</strong></dt> </dl></td>
-<td>Prior to Windows Vista, you cannot close the trace until the [<strong>ProcessTrace</strong>](processtrace.md) function completes. <br/></td>
+<td>Prior to Windows Vista, you cannot close the trace until the <a href="processtrace"><strong>ProcessTrace</strong></a> function completes. <br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_CTX_CLOSE_PENDING</strong></dt> </dl></td>
-<td>The call was successful. The [<strong>ProcessTrace</strong>](processtrace.md) function will stop after it has processed all real-time events in its buffers (it will not receive any new events).<br/></td>
+<td>The call was successful. The <a href="processtrace"><strong>ProcessTrace</strong></a> function will stop after it has processed all real-time events in its buffers (it will not receive any new events).<br/></td>
 </tr>
 </tbody>
 </table>

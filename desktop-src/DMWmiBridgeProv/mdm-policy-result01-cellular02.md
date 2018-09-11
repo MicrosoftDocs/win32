@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_Cellular02 class
+title: MDM_Policy_Result01_Cellular02 class
 description: the MDM\_Policy\_Result01\_Cellular02 class represents the cellular policies.
 ms.assetid: df2b2461-5e4e-4b28-87f1-5ca348409192
 keywords:

@@ -66,7 +66,7 @@ This section gives solutions to common problems.
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>You can call [GetMessageExtraInfo](http://go.microsoft.com/fwlink/p/?linkid=153394) for the <strong>WM_LBUTTONDOWN</strong> and <strong>WM_LBUTTONUP</strong> messages to determine the source. The following code shows how this could be done. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>You can call <a href="http://go.microsoft.com/fwlink/p/?linkid=153394">GetMessageExtraInfo</a> for the <strong>WM_LBUTTONDOWN</strong> and <strong>WM_LBUTTONUP</strong> messages to determine the source. The following code shows how this could be done. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -160,7 +160,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 <tbody>
 <tr class="odd">
 <td>Issue</td>
-<td>I am including windows.h, but it still says that [<strong>WM_TOUCH</strong>](wm-touchdown.md) is not defined.</td>
+<td>I am including windows.h, but it still says that <a href="wm-touchdown"><strong>WM_TOUCH</strong></a> is not defined.</td>
 </tr>
 <tr class="even">
 <td>Cause</td>
@@ -213,7 +213,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>Make sure that you are calling [<strong>TOUCH_COORD_TO_PIXEL</strong>](/windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel) and [<strong>ScreenToClient</strong>](https://msdn.microsoft.com/library/windows/desktop/dd162952). The following code shows how to do this. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>Make sure that you are calling <a href="/windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel"><strong>TOUCH_COORD_TO_PIXEL</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd162952"><strong>ScreenToClient</strong></a>. The following code shows how to do this. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -246,7 +246,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 <div class="alert">
 <blockquote>
 [!Note]<br />
-In order to use the [<strong>ScreenToClient</strong>](https://msdn.microsoft.com/library/windows/desktop/dd162952) function, you must have high DPI support in your application. For more information on supporting high DPI, visit the [High DPI]( http://go.microsoft.com/fwlink/p/?linkid=153387) section of MSDN.
+In order to use the <a href="https://msdn.microsoft.com/library/windows/desktop/dd162952"><strong>ScreenToClient</strong></a> function, you must have high DPI support in your application. For more information on supporting high DPI, visit the <a href=" http://go.microsoft.com/fwlink/p/?linkid=153387">High DPI</a> section of MSDN.
 </blockquote>
 </div>
 <div>
@@ -328,7 +328,7 @@ In order to use the [<strong>ScreenToClient</strong>](https://msdn.microsoft.com
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>You need to call [<strong>SetGestureConfig</strong>](/windows/desktop/api/winuser/nf-winuser-setgestureconfig) when you receive a [<strong>WM_GESTURENOTIFY</strong>](wm-gesturenotify.md) message as described in the <strong>WM_GESTURENOTIFY</strong> reference, or you need to add a handler for the <strong>WM_GESTURENOTIFY</strong> message. The following code shows how a handler could be implemented to enable support for rotation. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>You need to call <a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig"><strong>SetGestureConfig</strong></a> when you receive a <a href="wm-gesturenotify"><strong>WM_GESTURENOTIFY</strong></a> message as described in the <strong>WM_GESTURENOTIFY</strong> reference, or you need to add a handler for the <strong>WM_GESTURENOTIFY</strong> message. The following code shows how a handler could be implemented to enable support for rotation. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />

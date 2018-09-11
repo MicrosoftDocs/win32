@@ -1,6 +1,6 @@
 ---
 Description: The following sections describe in detail the data types, structures, functions, and notifications of the Setup API.
-ms.assetid: 3edd7773-2f3c-4bd4-8162-8295c97bb11e
+ms.assetid: '25b162ef-c9d0-4031-b42c-4512daefa54a'
 title: Reference
 ms.technology: desktop
 ms.prod: windows

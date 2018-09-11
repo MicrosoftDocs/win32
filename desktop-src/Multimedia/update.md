@@ -1,7 +1,7 @@
 ---
 title: update command
 description: The update command repaints the current frame into the specified device context (DC). Digital-video devices recognize this command.
-ms.assetid: 049a513a-bae1-4551-8700-cef417ed5373
+ms.assetid: '51a83262-91d5-4852-ad17-bd62c14417b1'
 keywords:
 - update command Windows Multimedia
 topic_type:

@@ -1,5 +1,5 @@
 ---
-title: CB\_REQUEST\_STATUS enumeration
+title: CB_REQUEST_STATUS enumeration
 description: Specifies the status of an asynchronous request.
 audience: developer
 author: REDMOND\\markl

@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.GetSecurityDescriptor property
 description: For scripting, gets the security descriptor for the folder.
-ms.assetid: 9360746e-0f6d-40cb-9135-b12bd8b7d760
+ms.assetid: 'ebf8dc7f-32b7-45bf-9ee5-36df674a1530'
 keywords:
 - GetSecurityDescriptor property Task Scheduler
 - GetSecurityDescriptor property Task Scheduler , TaskFolder object

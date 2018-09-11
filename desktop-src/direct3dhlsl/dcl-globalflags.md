@@ -1,5 +1,5 @@
 ---
-title: dcl\_globalFlags (sm4 - asm)
+title: dcl_globalFlags (sm4 - asm)
 description: dcl\_globalFlags (sm4 - asm)
 ms.assetid: 7289db9e-f0cd-4849-854f-34aa38ec2c2d
 ms.technology: desktop

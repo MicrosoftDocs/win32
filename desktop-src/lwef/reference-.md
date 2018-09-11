@@ -1,7 +1,7 @@
 ---
 title: Reference
 description: Reference
-ms.assetid: c8d57500-ad29-4325-aec7-3f857990b28c
+ms.assetid: 'vs|msagent|~\paface_4dk5.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

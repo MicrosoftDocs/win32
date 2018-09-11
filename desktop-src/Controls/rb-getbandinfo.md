@@ -1,5 +1,5 @@
 ---
-title: RB\_GETBANDINFO message
+title: RB_GETBANDINFO message
 description: Retrieves information about a specified band in a rebar control.
 ms.assetid: c2a76c91-7d44-4278-823d-bd263520e7a8
 keywords:

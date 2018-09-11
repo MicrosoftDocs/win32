@@ -1,7 +1,7 @@
 ---
 Description: The following table describes IP\_DSCP\_TRAFFIC\_TYPE Socket Options.
 ms.assetid: 0042B53F-B84E-453A-8E18-87052280DAD5
-title: IP\_DSCP\_TRAFFIC\_TYPE
+title: IP_DSCP_TRAFFIC_TYPE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 title: undo command
 description: The undo command reverses the action taken by the most recent successful copy, cut, delete, undo, or paste command. Digital-video devices recognize this command.
-ms.assetid: 1593457a-e680-4732-a89e-00f4eff7605a
+ms.assetid: '81d696a9-5288-4efd-bc76-8416dd63e694'
 keywords:
 - undo command Windows Multimedia
 topic_type:

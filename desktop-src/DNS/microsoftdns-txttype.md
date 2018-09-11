@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_TXTType class
+title: MicrosoftDNS_TXTType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Text (TXT) record.
 ms.assetid: e4bd445f-71c4-48dc-b210-e3ad4452d2e5
 keywords:

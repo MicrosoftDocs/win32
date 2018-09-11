@@ -1,5 +1,5 @@
 ---
-title: Can\_Skip\_Forward
+title: Can_Skip_Forward
 description: The Can\_Skip\_Forward attribute is a file-level attribute indicating whether you can skip to the next item in the server-side playlist.
 ms.assetid: f84f0a6a-1a52-4189-9e65-e0103f98f7ed
 keywords:

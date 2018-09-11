@@ -1,7 +1,7 @@
 ---
 Description: The video palette has changed.
 ms.assetid: 39f36efa-fe61-4310-b7ec-1ad6ef3f29fb
-title: EC\_PALETTE\_CHANGED
+title: EC_PALETTE_CHANGED
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

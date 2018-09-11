@@ -1,5 +1,5 @@
 ---
-title: SetColorDepth method of the Win32\_TSClientSetting class
+title: SetColorDepth method of the Win32_TSClientSetting class
 description: The SetColorDepth method sets the ColorDepth property for the class.
 audience: developer
 author: REDMOND\\markl

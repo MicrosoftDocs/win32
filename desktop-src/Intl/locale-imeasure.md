@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_IMEASURE
 ms.assetid: 48e07cc7-a5bc-404f-8046-fdaf92ba70d7
-title: LOCALE\_IMEASURE
+title: LOCALE_IMEASURE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

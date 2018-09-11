@@ -1,5 +1,5 @@
 ---
-title: EM\_SETTOUCHOPTIONS message
+title: EM_SETTOUCHOPTIONS message
 description: Sets the touch options associated with a rich edit control.
 ms.assetid: C15036D6-B74F-414D-B731-F1587B616644
 keywords:

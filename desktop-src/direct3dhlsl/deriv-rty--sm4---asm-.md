@@ -1,5 +1,5 @@
 ---
-title: deriv\_rty (sm4 - asm)
+title: deriv_rty (sm4 - asm)
 description: Render-target y equivalent of deriv\_rtx.
 ms.assetid: F78F2DBD-9428-4F34-85AD-276DF54C52D1
 ms.technology: desktop

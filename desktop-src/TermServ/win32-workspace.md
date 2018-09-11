@@ -1,5 +1,5 @@
 ---
-title: Win32\_Workspace class
+title: Win32_Workspace class
 description: Specifies Remote Desktop Services workspace configuration information.
 audience: developer
 author: REDMOND\\markl

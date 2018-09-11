@@ -7,7 +7,7 @@ ms.assetid: 4cbeb820-8a65-4fab-97f1-2a973b2a4310
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_ObjectProviderCacheControl class'
+title: '__ObjectProviderCacheControl class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

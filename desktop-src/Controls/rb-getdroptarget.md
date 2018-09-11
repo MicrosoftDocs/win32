@@ -1,5 +1,5 @@
 ---
-title: RB\_GETDROPTARGET message
+title: RB_GETDROPTARGET message
 description: Retrieves a rebar control's IDropTarget interface pointer.
 ms.assetid: f429c5d1-406b-47f0-a654-47cabccc1d0e
 keywords:

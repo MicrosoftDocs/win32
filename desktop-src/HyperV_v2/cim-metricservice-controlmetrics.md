@@ -1,7 +1,7 @@
 ---
 Description: Enables and disables the collection of metrics.
 ms.assetid: afb90863-e70a-46e5-b1b7-d959dcacc306
-title: ControlMetrics method of the CIM\_MetricService class
+title: ControlMetrics method of the CIM_MetricService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

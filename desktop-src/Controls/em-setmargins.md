@@ -1,5 +1,5 @@
 ---
-title: EM\_SETMARGINS message
+title: EM_SETMARGINS message
 description: Sets the widths of the left and right margins for an edit control. The message redraws the control to reflect the new margins. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 23eb6c9e-3cf9-4c90-b33e-8da84034b49b
 keywords:

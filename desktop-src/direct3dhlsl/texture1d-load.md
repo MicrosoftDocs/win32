@@ -1,7 +1,7 @@
 ---
 title: Texture1D Load methods
 description: Reads texture data from a Texture1D.
-ms.assetid: A6160554-147D-4CE5-971B-46BCB8E4833A
+ms.assetid: 'a158d1c8-f92b-48c8-9cb2-a6be28e70f51'
 keywords:
 - Load methods HLSL
 topic_type:

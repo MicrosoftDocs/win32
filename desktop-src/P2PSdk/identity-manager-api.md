@@ -1,6 +1,6 @@
 ---
 Description: This section of the Peer Infrastructure documentation describes the Identity Manager API.
-ms.assetid: c1b2a587-71c7-4623-a318-4624dad7feba
+ms.assetid: '0a862280-e57f-4662-987c-aa8003889333'
 title: Identity Manager API
 ms.technology: desktop
 ms.prod: windows

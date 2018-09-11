@@ -1,5 +1,5 @@
 ---
-title: UI\_ALL\_COMMANDS
+title: UI_ALL_COMMANDS
 description: Specifies a constant that identifies the collection of Commands declared in the Markup resource file.
 ms.assetid: b0046d8c-bb54-4231-90f0-c0b2c8790b1a
 topic_type:

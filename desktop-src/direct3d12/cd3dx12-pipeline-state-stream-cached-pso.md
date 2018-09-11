@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO structure
+title: CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO structure
 description: A helper structure used to describe a cached PSO as a single object suitable for a stream description.
 ms.assetid: 86CDC60A-275D-4B71-BE6D-C863C72E9C05
 keywords:

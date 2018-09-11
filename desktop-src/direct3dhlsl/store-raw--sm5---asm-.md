@@ -1,5 +1,5 @@
 ---
-title: store\_raw (sm5 - asm)
+title: store_raw (sm5 - asm)
 description: Random-access write of 1-4 32bit components into typeless memory.
 ms.assetid: D166116A-CF4E-4020-9F6A-F9CEEFCDAB21
 ms.technology: desktop

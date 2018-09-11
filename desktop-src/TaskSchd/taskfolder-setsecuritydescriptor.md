@@ -1,7 +1,7 @@
 ---
 title: TaskFolder.SetSecurityDescriptor property
 description: For scripting, sets the security descriptor for the folder.
-ms.assetid: 54f8a37b-87ac-449c-8e03-aeacd27e8c97
+ms.assetid: '50649100-08f6-4c2e-b084-7cfcf9f78e09'
 keywords:
 - SetSecurityDescriptor property Task Scheduler
 - SetSecurityDescriptor property Task Scheduler , TaskFolder object

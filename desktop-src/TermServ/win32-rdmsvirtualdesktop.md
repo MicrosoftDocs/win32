@@ -1,5 +1,5 @@
 ---
-title: Win32\_RDMSVirtualDesktop class
+title: Win32_RDMSVirtualDesktop class
 description: Represents a virtual desktop.
 audience: developer
 author: REDMOND\\markl

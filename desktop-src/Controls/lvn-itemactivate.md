@@ -1,5 +1,5 @@
 ---
-title: LVN\_ITEMACTIVATE notification code
+title: LVN_ITEMACTIVATE notification code
 description: Sent by a list-view control when the user activates an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 475c8e6a-8e2e-4182-8ccc-a4bc6fc891a8
 keywords:

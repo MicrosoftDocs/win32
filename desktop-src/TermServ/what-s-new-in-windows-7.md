@@ -27,23 +27,23 @@ Windows 7 introduces the following new programming elements for Remote Desktop S
 <tbody>
 <tr class="odd">
 <td>Remote Desktop ActiveX Control Interfaces<br/></td>
-<td>The following interfaces (and their associated properties) were added to the [Remote Desktop ActiveX Control Interface](remote-desktop-web-connection-reference.md).<br/>
+<td>The following interfaces (and their associated properties) were added to the <a href="remote-desktop-web-connection-reference">Remote Desktop ActiveX Control Interface</a>.<br/>
 <ul>
-<li>[<strong>IMsRdpClientAdvancedSettings7 Interface</strong>](imsrdpclientadvancedsettings7.md)</li>
+<li><a href="imsrdpclientadvancedsettings7"><strong>IMsRdpClientAdvancedSettings7 Interface</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Remote Desktop Services Web Access Control API<br/></td>
 <td>Remote Desktop Services Web Access Control exposes interfaces that support the publishing of user-specific resources in RemoteApp and Desktop Connection.<br/>
 <ul>
-<li>[Remote Desktop Services Web Access Control API](https://msdn.microsoft.com/library/ee351720)</li>
+<li><a href="https://msdn.microsoft.com/library/ee351720">Remote Desktop Services Web Access Control API</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>RemoteApp and Desktop Connection Runtime API<br/></td>
 <td>RemoteApp and Desktop Connection Runtime API supports the development of custom clients in RemoteApp and Desktop Connection.<br/>
 <ul>
-<li>[RemoteApp and Desktop Connection Runtime API](https://msdn.microsoft.com/library/ee351719)</li>
+<li><a href="https://msdn.microsoft.com/library/ee351719">RemoteApp and Desktop Connection Runtime API</a></li>
 </ul></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: DWRITE\_RENDERING\_MODE enumerations
+title: DWRITE_RENDERING_MODE enumerations
 description: Starting in Windows 8, the DWRITE\_RENDERING\_MODE enumeration added new enumeration values and deprecated others.
 ms.assetid: 3EA568B4-310D-4F70-9530-5916419282E5
 ms.technology: desktop
@@ -47,20 +47,20 @@ The table here shows the old enumeration values and the new values they are mapp
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>DWRITE_RENDERING_MODE (Windows 8 and later)</strong>](/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode)<br/></td>
+<td><a href="/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode"><strong>DWRITE_RENDERING_MODE (Windows 8 and later)</strong></a><br/></td>
 <td>Represents a method of rendering glyphs. <br/>
 <blockquote>
 [!Note]<br />
-This topic is about [<strong>DWRITE_RENDERING_MODE</strong>](/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode) in Windows 8 and later. For info on the previous version see [<strong>this topic</strong>](https://msdn.microsoft.com/en-us/library/JJ710196(v=VS.85).aspx).
+This topic is about <a href="/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode"><strong>DWRITE_RENDERING_MODE</strong></a> in Windows 8 and later. For info on the previous version see <a href="https://msdn.microsoft.com/en-us/library/JJ710196(v=VS.85).aspx"><strong>this topic</strong></a>.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DWRITE_RENDERING_MODE</strong>](https://msdn.microsoft.com/en-us/library/Dd368118(v=VS.85).aspx)<br/></td>
+<td><a href="https://msdn.microsoft.com/en-us/library/Dd368118(v=VS.85).aspx"><strong>DWRITE_RENDERING_MODE</strong></a><br/></td>
 <td>Represents a method of rendering glyphs. <br/>
 <blockquote>
 [!Note]<br />
-This topic is about [<strong>DWRITE_RENDERING_MODE</strong>](/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode) previous to Windows 8 and later. For info on the newer version see <strong>this topic</strong>.
+This topic is about <a href="/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode"><strong>DWRITE_RENDERING_MODE</strong></a> previous to Windows 8 and later. For info on the newer version see <strong>this topic</strong>.
 </blockquote>
 <br/></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: NSC\_Phone
+title: NSC_Phone
 description: The NSC\_Phone attribute contains the phone number of the multicast station contact.
 ms.assetid: cf9fa9e1-3b7f-41b2-97fc-04da731de5f5
 keywords:

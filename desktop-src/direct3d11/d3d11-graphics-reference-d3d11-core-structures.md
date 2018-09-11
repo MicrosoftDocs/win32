@@ -34,47 +34,47 @@ This section contains information about the core structures.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>D3D11_BLEND_DESC</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_blend_desc)<br/></td>
-<td>Describes the blend state that you use in a call to [<strong>ID3D11Device::CreateBlendState</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createblendstate) to create a blend-state object. <br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_blend_desc"><strong>D3D11_BLEND_DESC</strong></a><br/></td>
+<td>Describes the blend state that you use in a call to <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createblendstate"><strong>ID3D11Device::CreateBlendState</strong></a> to create a blend-state object. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_BLEND_DESC1</strong>](/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_blend_desc1)<br/></td>
+<td><a href="/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_blend_desc1"><strong>D3D11_BLEND_DESC1</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
 </blockquote>
-<br/> Describes the blend state that you use in a call to [<strong>ID3D11Device1::CreateBlendState1</strong>](/windows/desktop/api/D3D11_1/nf-d3d11_1-id3d11device1-createblendstate1) to create a blend-state object. <br/></td>
+<br/> Describes the blend state that you use in a call to <a href="/windows/desktop/api/D3D11_1/nf-d3d11_1-id3d11device1-createblendstate1"><strong>ID3D11Device1::CreateBlendState1</strong></a> to create a blend-state object. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_BOX</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_box)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_box"><strong>D3D11_BOX</strong></a><br/></td>
 <td>Defines a 3D box.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_COUNTER_DESC</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_counter_desc)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_counter_desc"><strong>D3D11_COUNTER_DESC</strong></a><br/></td>
 <td>Describes a counter.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_COUNTER_INFO</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_counter_info)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_counter_info"><strong>D3D11_COUNTER_INFO</strong></a><br/></td>
 <td>Information about the video card's performance counter capabilities.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_DEPTH_STENCIL_DESC</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencil_desc)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencil_desc"><strong>D3D11_DEPTH_STENCIL_DESC</strong></a><br/></td>
 <td>Describes depth-stencil state.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_DEPTH_STENCILOP_DESC</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencilop_desc)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencilop_desc"><strong>D3D11_DEPTH_STENCILOP_DESC</strong></a><br/></td>
 <td>Stencil operations that can be performed based on the results of stencil test.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS</strong>](/windows/desktop/api/d3d11/ns-d3d11-d3d11_draw_indexed_instanced_indirect_args)<br/></td>
+<td><a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_draw_indexed_instanced_indirect_args"><strong>D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS</strong></a><br/></td>
 <td>Arguments for draw indexed instanced indirect. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_DRAW_INSTANCED_INDIRECT_ARGS</strong>](/windows/desktop/api/d3d11/ns-d3d11-d3d11_draw_instanced_indirect_args)<br/></td>
+<td><a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_draw_instanced_indirect_args"><strong>D3D11_DRAW_INSTANCED_INDIRECT_ARGS</strong></a><br/></td>
 <td>Arguments for draw instanced indirect. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_ARCHITECTURE_INFO</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_architecture_info)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_architecture_info"><strong>D3D11_FEATURE_DATA_ARCHITECTURE_INFO</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
@@ -82,7 +82,7 @@ This structure is supported by the Direct3D 11.1 runtime, which is available on 
 <br/> Describes information about Direct3D 11.1 adapter architecture.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_FEATURE_DATA_D3D9_OPTIONS</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_options)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_options"><strong>D3D11_FEATURE_DATA_D3D9_OPTIONS</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
@@ -90,11 +90,11 @@ This structure is supported by the Direct3D 11.1 runtime, which is available on 
 <br/> Describes Direct3D 9 feature options in the current graphics driver.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_D3D9_OPTIONS1</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_options1)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_options1"><strong>D3D11_FEATURE_DATA_D3D9_OPTIONS1</strong></a><br/></td>
 <td>Describes Direct3D 9 feature options in the current graphics driver.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_shadow_support)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_shadow_support"><strong>D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
@@ -102,15 +102,15 @@ This structure is supported by the Direct3D 11.1 runtime, which is available on 
 <br/> Describes Direct3D 9 shadow support in the current graphics driver. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_simple_instancing_support)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_simple_instancing_support"><strong>D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</strong></a><br/></td>
 <td>Describes whether simple instancing is supported.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d10_x_hardware_options)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d10_x_hardware_options"><strong>D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS</strong></a><br/></td>
 <td>Describes compute shader and raw and structured buffer support in the current graphics driver.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_D3D11_OPTIONS</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options"><strong>D3D11_FEATURE_DATA_D3D11_OPTIONS</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
@@ -118,47 +118,47 @@ This structure is supported by the Direct3D 11.1 runtime, which is available on 
 <br/> Describes Direct3D 11.1 feature options in the current graphics driver.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_FEATURE_DATA_D3D11_OPTIONS1</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options1)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options1"><strong>D3D11_FEATURE_DATA_D3D11_OPTIONS1</strong></a><br/></td>
 <td>Describes Direct3D 11.2 feature options in the current graphics driver.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_D3D11_OPTIONS2</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options2)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options2"><strong>D3D11_FEATURE_DATA_D3D11_OPTIONS2</strong></a><br/></td>
 <td>Describes Direct3D 11.3 feature options in the current graphics driver.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_FEATURE_DATA_D3D11_OPTIONS3</strong>](/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options3)<br/></td>
+<td><a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options3"><strong>D3D11_FEATURE_DATA_D3D11_OPTIONS3</strong></a><br/></td>
 <td>Describes Direct3D 11.3 feature options in the current graphics driver.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_D3D11_OPTIONS4</strong>](/windows/desktop/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4)<br/></td>
+<td><a href="/windows/desktop/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4"><strong>D3D11_FEATURE_DATA_D3D11_OPTIONS4</strong></a><br/></td>
 <td>Describes Direct3D 11.4 feature options in the current graphics driver.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_FEATURE_DATA_DOUBLES</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles"><strong>D3D11_FEATURE_DATA_DOUBLES</strong></a><br/></td>
 <td>Describes double data type support in the current graphics driver.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support"><strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT</strong></a><br/></td>
 <td>Describes which resources are supported by the current graphics driver for a given format.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2"><strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong></a><br/></td>
 <td>Describes which unordered resource options are supported by the current graphics driver for a given format.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT</strong>](/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_gpu_virtual_address_support)<br/></td>
+<td><a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_gpu_virtual_address_support"><strong>D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT</strong></a><br/></td>
 <td>Describes feature data GPU virtual address support, including maximum address bits per resource and per process. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_FEATURE_DATA_MARKER_SUPPORT</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_marker_support)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_marker_support"><strong>D3D11_FEATURE_DATA_MARKER_SUPPORT</strong></a><br/></td>
 <td>Describes whether a GPU profiling technique is supported.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_SHADER_CACHE</strong>](/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_shader_cache)<br/></td>
+<td><a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_shader_cache"><strong>D3D11_FEATURE_DATA_SHADER_CACHE</strong></a><br/></td>
 <td>Describes the level of shader caching supported in the current graphics driver.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_shader_min_precision_support)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_shader_min_precision_support"><strong>D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
@@ -166,39 +166,39 @@ This structure is supported by the Direct3D 11.1 runtime, which is available on 
 <br/> Describes precision support options for shaders in the current graphics driver.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_FEATURE_DATA_THREADING</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_threading)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_threading"><strong>D3D11_FEATURE_DATA_THREADING</strong></a><br/></td>
 <td>Describes the multi-threading features that are supported by the current graphics driver.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_INPUT_ELEMENT_DESC</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_input_element_desc)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_input_element_desc"><strong>D3D11_INPUT_ELEMENT_DESC</strong></a><br/></td>
 <td>A description of a single element for the input-assembler stage.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_QUERY_DATA_PIPELINE_STATISTICS</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_query_data_pipeline_statistics)<br/></td>
-<td>Query information about graphics-pipeline activity in between calls to [<strong>ID3D11DeviceContext::Begin</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-begin) and [<strong>ID3D11DeviceContext::End</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-end).<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_query_data_pipeline_statistics"><strong>D3D11_QUERY_DATA_PIPELINE_STATISTICS</strong></a><br/></td>
+<td>Query information about graphics-pipeline activity in between calls to <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-begin"><strong>ID3D11DeviceContext::Begin</strong></a> and <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-end"><strong>ID3D11DeviceContext::End</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_QUERY_DATA_SO_STATISTICS</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_query_data_so_statistics)<br/></td>
-<td>Query information about the amount of data streamed out to the stream-output buffers in between [<strong>ID3D11DeviceContext::Begin</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-begin) and [<strong>ID3D11DeviceContext::End</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-end).<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_query_data_so_statistics"><strong>D3D11_QUERY_DATA_SO_STATISTICS</strong></a><br/></td>
+<td>Query information about the amount of data streamed out to the stream-output buffers in between <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-begin"><strong>ID3D11DeviceContext::Begin</strong></a> and <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-end"><strong>ID3D11DeviceContext::End</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_QUERY_DATA_TIMESTAMP_DISJOINT</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_query_data_timestamp_disjoint)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_query_data_timestamp_disjoint"><strong>D3D11_QUERY_DATA_TIMESTAMP_DISJOINT</strong></a><br/></td>
 <td>Query information about the reliability of a timestamp query.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_QUERY_DESC</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_query_desc)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_query_desc"><strong>D3D11_QUERY_DESC</strong></a><br/></td>
 <td>Describes a query.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_QUERY_DESC1</strong>](/windows/desktop/api/D3D11_3/ns-d3d11_3-cd3d11_query_desc1)<br/></td>
+<td><a href="/windows/desktop/api/D3D11_3/ns-d3d11_3-cd3d11_query_desc1"><strong>D3D11_QUERY_DESC1</strong></a><br/></td>
 <td>Describes a query.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_RASTERIZER_DESC</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_rasterizer_desc)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_rasterizer_desc"><strong>D3D11_RASTERIZER_DESC</strong></a><br/></td>
 <td>Describes rasterizer state.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_RASTERIZER_DESC1</strong>](/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1)<br/></td>
+<td><a href="/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1"><strong>D3D11_RASTERIZER_DESC1</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
@@ -206,19 +206,19 @@ This structure is supported by the Direct3D 11.1 runtime, which is available on 
 <br/> Describes rasterizer state.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_RASTERIZER_DESC2</strong>](/windows/desktop/api/D3D11_3/ns-d3d11_3-cd3d11_rasterizer_desc2)<br/></td>
+<td><a href="/windows/desktop/api/D3D11_3/ns-d3d11_3-cd3d11_rasterizer_desc2"><strong>D3D11_RASTERIZER_DESC2</strong></a><br/></td>
 <td>Describes rasterizer state.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_RECT</strong>](d3d11-rect.md)<br/></td>
+<td><a href="d3d11-rect"><strong>D3D11_RECT</strong></a><br/></td>
 <td>D3D11_RECT is declared as follows:<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_RENDER_TARGET_BLEND_DESC</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_render_target_blend_desc)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_render_target_blend_desc"><strong>D3D11_RENDER_TARGET_BLEND_DESC</strong></a><br/></td>
 <td>Describes the blend state for a render target.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_RENDER_TARGET_BLEND_DESC1</strong>](/windows/desktop/api/D3D11_1/ns-d3d11_1-d3d11_render_target_blend_desc1)<br/></td>
+<td><a href="/windows/desktop/api/D3D11_1/ns-d3d11_1-d3d11_render_target_blend_desc1"><strong>D3D11_RENDER_TARGET_BLEND_DESC1</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
@@ -226,15 +226,15 @@ This structure is supported by the Direct3D 11.1 runtime, which is available on 
 <br/> Describes the blend state for a render target.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_SAMPLER_DESC</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_sampler_desc)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_sampler_desc"><strong>D3D11_SAMPLER_DESC</strong></a><br/></td>
 <td>Describes a sampler state.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_SO_DECLARATION_ENTRY</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_so_declaration_entry)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_so_declaration_entry"><strong>D3D11_SO_DECLARATION_ENTRY</strong></a><br/></td>
 <td>Description of a vertex element in a vertex buffer in an output slot.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D11_VIEWPORT</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_viewport)<br/></td>
+<td><a href="/windows/desktop/api/D3D11/ns-d3d11-d3d11_viewport"><strong>D3D11_VIEWPORT</strong></a><br/></td>
 <td>Defines the dimensions of a viewport.<br/></td>
 </tr>
 </tbody>

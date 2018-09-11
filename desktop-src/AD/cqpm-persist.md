@@ -1,5 +1,5 @@
 ---
-title: CQPM\_PERSIST message
+title: CQPM_PERSIST message
 description: Sent to the CQPageProc callback function of a query form extension page to allow the page to read or write query data from persistent memory.
 audience: developer
 author: REDMOND\\markl

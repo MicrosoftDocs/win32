@@ -1,7 +1,7 @@
 ---
-title: LVM\_GETGROUPINFOBYINDEX message
+title: LVM_GETGROUPINFOBYINDEX message
 description: Gets information on a specified group. Send this message explicitly or by using the ListView\_GetGroupInfoByIndex macro.
-ms.assetid: c40cb2c5-47c4-46ca-84fa-c017a9b1be15
+ms.assetid: 'vs|controls|~\controls\listview\messages\lvm_getgroupinfobyindex.htm'
 keywords:
 - LVM_GETGROUPINFOBYINDEX message Windows Controls
 topic_type:

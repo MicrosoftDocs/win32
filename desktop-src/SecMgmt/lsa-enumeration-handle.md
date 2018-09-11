@@ -1,7 +1,7 @@
 ---
 Description: 'The LSA\_ENUMERATION\_HANDLE data type is used by the LSA function that enumerates TrustedDomain objects: LsaEnumerateTrustedDomainsEx.'
 ms.assetid: 99dad3aa-cb92-4b7e-8a18-2c977cb2737c
-title: LSA\_ENUMERATION\_HANDLE
+title: LSA_ENUMERATION_HANDLE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

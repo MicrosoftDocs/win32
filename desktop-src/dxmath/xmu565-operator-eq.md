@@ -1,6 +1,6 @@
 ---
 Description: Assigns vector component data to the current instance of XMU565.
-ms.assetid: 05e80a7b-107a-4355-a057-3315cdf46844
+ms.assetid: 'overload:microsoft.directx_sdk.reference.xmu565.operator = '
 title: operator = operators
 ms.technology: desktop
 ms.prod: windows
@@ -39,12 +39,12 @@ Assigns vector component data to the current instance of [**XMU565**](https://ms
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMU565::operator = (const XMU565&)</strong>](https://msdn.microsoft.com/en-us/library/Ee420420(v=VS.85).aspx)</td>
-<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMU565</code> to the current instance of <code>XMU565</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMU565</strong>](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx) to the current instance of <code>XMU565</code>. <br/></td>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee420420(v=VS.85).aspx"><strong>XMU565::operator = (const XMU565&)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMU565</code> to the current instance of <code>XMU565</code>. <br/> This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx"><strong>XMU565</strong></a> to the current instance of <code>XMU565</code>. <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMU565::operator = (const uint16_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404717(v=VS.85).aspx)</td>
-<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMU565</code>. <br/> Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of [<strong>XMU565</strong>](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx). <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh404717(v=VS.85).aspx"><strong>XMU565::operator = (const uint16_t)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMU565</code>. <br/> Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx"><strong>XMU565</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.

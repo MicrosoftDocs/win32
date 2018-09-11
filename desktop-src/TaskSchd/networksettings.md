@@ -1,7 +1,7 @@
 ---
 title: NetworkSettings object
 description: For scripting, provides the settings that the Task Scheduler service uses to obtain a network profile.
-ms.assetid: 831e1259-df2b-4b03-8336-706727fd7b14
+ms.assetid: '86ac26c3-c868-4886-8f0b-3a6f6efe3e9d'
 keywords:
 - NetworkSettings object Task Scheduler
 - NetworkSettings object Task Scheduler , described

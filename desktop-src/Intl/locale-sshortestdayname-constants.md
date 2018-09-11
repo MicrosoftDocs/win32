@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SSHORTESTDAYNAME\* Constants
 ms.assetid: 70c42d1c-b152-477e-bf50-2666cff4b31a
-title: LOCALE\_SSHORTESTDAYNAME\* Constants
+title: LOCALE_SSHORTESTDAYNAME* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

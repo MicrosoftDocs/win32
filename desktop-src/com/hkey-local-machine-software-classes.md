@@ -1,5 +1,5 @@
 ---
-title: HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes
+title: HKEY_LOCAL_MACHINESOFTWAREClasses
 description: The subkeys and registry values associated with the HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes key contain information about an application that is needed to support COM functionality.
 ms.assetid: a5b271d6-f445-45df-a8e4-f6e0194ac824
 ms.technology: desktop

@@ -1,7 +1,7 @@
 ---
 Description: Specifies the maximum number of dynamic audio objects that can be rendered by the audio endpoint simulataneously.
 ms.assetid: 6B6D73C1-C2E6-4C23-BBAD-7B51E8441C71
-title: MF\_MT\_SPATIAL\_AUDIO\_MAX\_DYNAMIC\_OBJECTS attribute
+title: MF_MT_SPATIAL_AUDIO_MAX_DYNAMIC_OBJECTS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

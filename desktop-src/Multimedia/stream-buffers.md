@@ -1,7 +1,7 @@
 ---
 title: Stream Buffers
 description: Stream Buffers
-ms.assetid: f9e77637-098c-4ee8-bca9-a05ecce0c569
+ms.assetid: 'd73209a3-4b9d-4405-9e62-8ecfb94c0bd5'
 keywords:
 - Windows multimedia,stream buffers
 - multimedia,stream buffers

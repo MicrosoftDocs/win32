@@ -53,7 +53,7 @@ This table lists the most common error codes.
 <tr class="odd">
 <td><strong>ERROR_BAD_FORMAT</strong></td>
 <td>0x800700B</td>
-<td>The package isn't correctly formatted and needs to be re-built or re-signed.<br/> You may get this error if there is a mismatch between the signing certificate subject name and the AppxManifest.xml publisher name.<br/> See [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md).<br/></td>
+<td>The package isn't correctly formatted and needs to be re-built or re-signed.<br/> You may get this error if there is a mismatch between the signing certificate subject name and the AppxManifest.xml publisher name.<br/> See <a href="how-to-sign-a-package-using-signtool">How to sign an app package using SignTool</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_OPEN_</strong><br/> <strong>PACKAGE_FAILED</strong><br/></td>
@@ -120,7 +120,7 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <tr class="even">
 <td><strong>ERROR_REMOVE_FAILED</strong></td>
 <td>0x80073CFA</td>
-<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more info, see [<strong>RemovePackageAsync</strong>](https://msdn.microsoft.com/library/windows/apps/dn278489).<br/></td>
+<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more info, see <a href="https://msdn.microsoft.com/library/windows/apps/dn278489"><strong>RemovePackageAsync</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_PACKAGE_</strong><br/> <strong>ALREADY_EXISTS</strong><br/></td>
@@ -165,7 +165,7 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <li>Package deployment is blocked by Application Control Policies.</li>
 <li>Package deployment is blocked by the &quot;Allow deployment operations in special profiles&quot; policy.</li>
 </ul>
-One of the possible reasons is a need for a roaming profile. See [Deploy Roaming User Profiles](https://msdn.microsoft.com/en-us/library/JJ649079(v=WS.11).aspx) to set up Roaming User Profiles on user accounts. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
+One of the possible reasons is a need for a roaming profile. See <a href="https://msdn.microsoft.com/en-us/library/JJ649079(v=WS.11).aspx">Deploy Roaming User Profiles</a> to set up Roaming User Profiles on user accounts. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_PACKAGES_IN_USE</strong></td>
@@ -185,7 +185,7 @@ One of the possible reasons is a need for a roaming profile. See [Deploy Roaming
 <tr class="odd">
 <td><strong>ERROR_DELETING_EXISTING_</strong><br/> <strong>APPLICATIONDATA_STORE_FAILED</strong><br/></td>
 <td>0x80073D05</td>
-<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the [simulator](https://msdn.microsoft.com/en-us/library/Hh441475(v=VS.110).aspx) is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
+<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the <a href="https://msdn.microsoft.com/en-us/library/Hh441475(v=VS.110).aspx">simulator</a> is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_</strong><br/> <strong>PACKAGE_DOWNGRADE</strong><br/></td>
@@ -270,17 +270,17 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="odd">
 <td><strong>CERT_E_UNTRUSTEDROOT</strong></td>
 <td>0x800B0109</td>
-<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See [Signing a package](https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx).<br/></td>
+<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See <a href="https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx">Signing a package</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>CERT_E_CHAINING</strong></td>
 <td>0x800B010A</td>
-<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See [Signing a package](https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx).<br/></td>
+<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See <a href="https://msdn.microsoft.com/en-us/library/BR230260(v=VS.110).aspx">Signing a package</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>SIP_CLIENT_DATA</strong> <br/></td>
 <td>0x80080209</td>
-<td>The [<strong>SIP_SUBJECTINFO</strong>](https://msdn.microsoft.com/library/windows/desktop/bb736434)structure used to sign the package didn't contain the required data<br/></td>
+<td>The <a href="https://msdn.microsoft.com/library/windows/desktop/bb736434"><strong>SIP_SUBJECTINFO</strong></a>structure used to sign the package didn't contain the required data<br/></td>
 </tr>
 <tr class="even">
 <td><strong>E_INVALIDARG</strong></td>

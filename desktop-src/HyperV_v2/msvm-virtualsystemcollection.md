@@ -1,7 +1,7 @@
 ---
 Description: Represents a collection of virtual systems.
 ms.assetid: acf51beb-1103-43a4-8dc5-1a7f2a0482be
-title: Msvm\_VirtualSystemCollection class
+title: Msvm_VirtualSystemCollection class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

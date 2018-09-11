@@ -1,7 +1,7 @@
 ---
 title: MiscStatus
 description: Specifies how to create and display an object.
-ms.assetid: de279d46-057e-4c3a-8af3-14f7b65147fd
+ms.assetid: '585b2d1e-3edb-494e-a61e-bbfa6eae2ba1'
 keywords:
 - MiscStatus registry key COM
 ms.technology: desktop

@@ -1,5 +1,5 @@
 ---
-title: WM\_NCRBUTTONUP message
+title: WM_NCRBUTTONUP message
 description: Posted when the user releases the right mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: dc77c235-9e57-4051-b197-bd7ee7535a6f
 keywords:

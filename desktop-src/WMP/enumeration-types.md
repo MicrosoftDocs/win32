@@ -1,7 +1,7 @@
 ---
 title: Enumeration Types
 description: Enumeration Types
-ms.assetid: 7b1b74e6-19de-450a-be89-41277c1cb823
+ms.assetid: '90689fb7-656d-4c06-a0a9-02bbe0e5b5dd'
 keywords:
 - Windows Media Player,enumeration types
 - Windows Media Player object model,enumeration types

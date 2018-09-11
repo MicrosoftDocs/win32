@@ -1,7 +1,7 @@
 ---
 Description: Associates an instance of an allocated resource with the resource pool from which it was allocated.
 ms.assetid: BA3168C7-E4F1-414B-827B-1A811069F223
-title: Msvm\_ElementAllocatedFromPool class
+title: Msvm_ElementAllocatedFromPool class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

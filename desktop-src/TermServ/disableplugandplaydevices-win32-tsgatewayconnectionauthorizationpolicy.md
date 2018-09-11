@@ -1,5 +1,5 @@
 ---
-title: DisablePlugAndPlayDevices method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
+title: DisablePlugAndPlayDevices method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the PlugAndPlayDevicesDisabled property.
 audience: developer
 author: REDMOND\\markl

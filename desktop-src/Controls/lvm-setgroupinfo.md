@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETGROUPINFO message
+title: LVM_SETGROUPINFO message
 description: Sets group information.
 ms.assetid: f79bd235-e2de-4055-be3e-76eb2744e1ee
 keywords:
@@ -31,7 +31,7 @@ Sets group information.
 </dt> <dd>ID that specifies the group whose information is to be set.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to an [**LVGROUP**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup) structure that contains the information to set.</dd> </dl>
+</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvgroup">**LVGROUP**</a> structure that contains the information to set.</dd> </dl>
 
 ## Return value
 

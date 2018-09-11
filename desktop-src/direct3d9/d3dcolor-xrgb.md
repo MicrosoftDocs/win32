@@ -1,7 +1,7 @@
 ---
 Description: Initializes a color with the supplied red, green, and blue values.
 ms.assetid: 832a4a78-c166-4e45-a907-57730da1c2c8
-title: D3DCOLOR\_XRGB macro
+title: D3DCOLOR_XRGB macro
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

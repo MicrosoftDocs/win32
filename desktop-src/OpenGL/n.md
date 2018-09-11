@@ -2,7 +2,7 @@
 title: N
 description: Definitions of OpenGL terms that begin with the letter N.
 Robots: noindex, nofollow
-ms.assetid: ad4c9321-a9e3-40c5-af80-0ad6a8b9f380
+ms.assetid: '48f4f44d-c1b5-4312-b024-5a0097b0c032'
 keywords:
 - networks
 - nonconvex

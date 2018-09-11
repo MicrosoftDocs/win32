@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_User\_Result01\_AttachmentManager02 class
+title: MDM_Policy_User_Result01_AttachmentManager02 class
 description: The MDM\_Policy\_User\_Result01\_AttachmentManager02 class represents the available attachment manager policies.
 ms.assetid: c6cfec0d-24f8-4356-a12b-d9b9944776a7
 keywords:

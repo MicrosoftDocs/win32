@@ -1,6 +1,6 @@
 ---
 Description: The SET structure defines a set of values.
-ms.assetid: 8922d7d0-1a23-47ac-886b-fcc0bcaa6ba7
+ms.assetid: '88e0ffa1-71a2-4a3f-bdf1-964de0adea62'
 title: SET structure
 ms.technology: desktop
 ms.prod: windows

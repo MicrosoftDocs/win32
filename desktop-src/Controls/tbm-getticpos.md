@@ -1,5 +1,5 @@
 ---
-title: TBM\_GETTICPOS message
+title: TBM_GETTICPOS message
 description: Retrieves the current physical position of a tick mark in a trackbar.
 ms.assetid: a4b0ec32-ef4e-4607-ade1-5e2be02bebe4
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: A structure identifying the host and source file to be evaluated.
 ms.assetid: 547EF59E-7DE5-45E4-948F-109547FAAEE7
-title: WLDP\_HOST\_INFORMATION structure
+title: WLDP_HOST_INFORMATION structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

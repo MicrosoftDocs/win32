@@ -1,7 +1,7 @@
 ---
 Description: Specifies the supported usage modes for an H.264 video stream.
 ms.assetid: EEAE0B57-9731-4032-80A3-6A1AD11214EC
-title: MF\_MT\_H264\_SUPPORTED\_USAGES attribute
+title: MF_MT_H264_SUPPORTED_USAGES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

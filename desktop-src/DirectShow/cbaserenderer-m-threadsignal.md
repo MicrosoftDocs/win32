@@ -1,7 +1,7 @@
 ---
 Description: Event used to release the streaming thread.
 ms.assetid: 612082ec-a5c9-4b20-abda-61432e839094
-title: CBaseRenderer::m\_ThreadSignal member
+title: CBaseRenderer::m_ThreadSignal member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

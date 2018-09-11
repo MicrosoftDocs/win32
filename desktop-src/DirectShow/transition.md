@@ -1,6 +1,6 @@
 ---
 Description: Transition
-ms.assetid: 7903ecd7-88fb-4277-82ee-a7f71cae0412
+ms.assetid: '05bdf19a-644e-4592-9601-5bc430bdc763'
 title: Transition
 ms.technology: desktop
 ms.prod: windows

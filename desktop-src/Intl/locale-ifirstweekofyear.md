@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_IFIRSTWEEKOFYEAR
 ms.assetid: 866a28b7-e0b8-4b99-96df-345791a24833
-title: LOCALE\_IFIRSTWEEKOFYEAR
+title: LOCALE_IFIRSTWEEKOFYEAR
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

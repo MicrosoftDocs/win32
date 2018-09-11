@@ -1,7 +1,7 @@
 ---
 Description: Prefix of each buffer, in bytes.
 ms.assetid: 471b73bf-f959-41aa-84ba-324a2738dd0e
-title: CBaseAllocator::m\_lPrefix member
+title: CBaseAllocator::m_lPrefix member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

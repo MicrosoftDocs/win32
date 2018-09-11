@@ -1,5 +1,5 @@
 ---
-title: MDM\_RemoteFind class
+title: MDM_RemoteFind class
 description: The MDM\_RemoteFind class retrieves the location information for a particular device.
 ms.assetid: 8dfbe951-b4ca-4709-bec9-0821571f9b0e
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Evaluates an expression in debug and retail builds. In debug builds, displays a diagnostic message if the expression is FALSE.
 ms.assetid: 259a3d30-0b20-4430-8b74-83ec619576ae
-title: EXECUTE\_ASSERT macro
+title: EXECUTE_ASSERT macro
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

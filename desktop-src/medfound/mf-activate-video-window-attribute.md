@@ -1,7 +1,7 @@
 ---
 Description: Handle to the video clipping window.
 ms.assetid: 883bc7cf-f52f-4cb5-a942-b42b429b17a9
-title: MF\_ACTIVATE\_VIDEO\_WINDOW attribute
+title: MF_ACTIVATE_VIDEO_WINDOW attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

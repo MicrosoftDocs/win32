@@ -1,5 +1,5 @@
 ---
-title: DTM\_SETMCSTYLE message
+title: DTM_SETMCSTYLE message
 description: Sets the style of a date and time picker (DTP) control. Send this message explicitly or by using the DateTime\_SetMonthCalStyle macro.
 ms.assetid: 6b480a1e-c76e-4026-ab2a-5ec53df6fa28
 keywords:
@@ -35,7 +35,7 @@ Must be zero.
 </dd> <dt>
 
 *lParam* \[in\]
-</dt> <dd>A style value. For more information see [Month Calendar Control Styles](month-calendar-control-styles.md).</dd> </dl>
+</dt> <dd>A style value. For more information see <a href="month-calendar-control-styles">Month Calendar Control Styles</a>.</dd> </dl>
 
 ## Return value
 

@@ -1,5 +1,5 @@
 ---
-title: ICM\_COMPRESS\_QUERY message
+title: ICM_COMPRESS_QUERY message
 description: The ICM\_COMPRESS\_QUERY message queries a video compression driver to determine if it supports a specific input format or if it can compress a specific input format to a specific output format.
 ms.assetid: 6d0e735e-8252-4507-b8be-1ba87774f637
 keywords:

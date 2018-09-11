@@ -1,5 +1,5 @@
 ---
-title: /syntax\_check switch
+title: /syntax_check switch
 description: The /syntax\_check switch indicates that the compiler checks only syntax and does not generate output files.
 ms.assetid: 8d9139d3-6018-48a7-bea5-0c843b6273d3
 keywords:

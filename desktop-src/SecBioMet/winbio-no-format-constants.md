@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_NO\_FORMAT Constants
+title: WINBIO_NO_FORMAT Constants
 description: Check for errors.
 ms.assetid: 0EDE7415-0CB5-449B-AC0B-2B7EAC7EBF86
 topic_type:

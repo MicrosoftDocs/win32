@@ -1,7 +1,7 @@
 ---
 Description: Specifies if an application is allowed access to uncompressed video frames.
 ms.assetid: 7D2A9003-B36E-4082-877E-8AC7F5645E89
-title: MFPROTECTION\_VIDEO\_FRAMES attribute
+title: MFPROTECTION_VIDEO_FRAMES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

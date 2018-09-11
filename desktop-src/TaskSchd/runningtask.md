@@ -1,7 +1,7 @@
 ---
 title: RunningTask object
 description: Scripting object that provides the methods to get information from and control a running task.
-ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4
+ms.assetid: '335e69d8-affa-4845-a067-641184e0f7df'
 keywords:
 - RunningTask object Task Scheduler
 - RunningTask object Task Scheduler , described

@@ -1,5 +1,5 @@
 ---
-title: SetVirtualIPMode method of the Win32\_TSVirtualIP class
+title: SetVirtualIPMode method of the Win32_TSVirtualIP class
 description: Sets the VirtualIPMode property value.
 audience: developer
 author: REDMOND\\markl

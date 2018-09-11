@@ -1,7 +1,7 @@
 ---
 Description: A superclass for classes that represent display devices.
 ms.assetid: 6e3b4b40-dacb-4b89-b636-0c1b18872a51
-title: CIM\_Display class
+title: CIM_Display class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

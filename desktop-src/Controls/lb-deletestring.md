@@ -1,5 +1,5 @@
 ---
-title: LB\_DELETESTRING message
+title: LB_DELETESTRING message
 description: Deletes a string in a list box.
 ms.assetid: 3f360e07-b70d-4bfc-89d4-18d3b18b0fcf
 keywords:

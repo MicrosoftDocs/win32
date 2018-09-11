@@ -1,7 +1,7 @@
 ---
 Description: Represents the stream category.
 ms.assetid: 673FB138-574C-4A98-A88C-496F17B4E095
-title: MF\_DEVICESTREAM\_STREAM\_CATEGORY attribute
+title: MF_DEVICESTREAM_STREAM_CATEGORY attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

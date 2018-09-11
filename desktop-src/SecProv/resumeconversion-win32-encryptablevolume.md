@@ -1,7 +1,7 @@
 ---
 Description: Resumes the encryption or decryption of a volume.
 ms.assetid: e37f3e32-5510-431e-9782-11908e65300d
-title: ResumeConversion method of the Win32\_EncryptableVolume class
+title: ResumeConversion method of the Win32_EncryptableVolume class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

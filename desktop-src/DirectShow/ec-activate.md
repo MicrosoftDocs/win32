@@ -1,7 +1,7 @@
 ---
 Description: A video window is being activated or deactivated.
 ms.assetid: 2e004899-bb2b-4127-b606-e2a979275836
-title: EC\_ACTIVATE
+title: EC_ACTIVATE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

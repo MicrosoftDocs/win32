@@ -1,5 +1,5 @@
 ---
-title: DeleteDirectConnectLicenseServer method of the Win32\_TerminalServiceSetting class
+title: DeleteDirectConnectLicenseServer method of the Win32_TerminalServiceSetting class
 description: DeleteDirectConnectLicenseServer is no longer available.
 audience: developer
 author: REDMOND\\markl

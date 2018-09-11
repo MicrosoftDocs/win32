@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether the complexity of the audio encoding algorithm is constrained.
 ms.assetid: a50b840f-9fe8-4291-b93f-f09c241fe802
-title: MFPKEY\_CONSTRAINENCOMPLEXITY Property
+title: MFPKEY_CONSTRAINENCOMPLEXITY Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

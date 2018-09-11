@@ -1,5 +1,5 @@
 ---
-title: DRM\_LASignatureRootCert
+title: DRM_LASignatureRootCert
 description: The DRM\_LASignatureRootCert attribute contains the root certificate in the certification chain that is used to authenticate the certificate contained in DRM\_LASignatureLicSrvCert.
 ms.assetid: b1e44a80-5fff-4a6a-bacd-6384546673c6
 keywords:

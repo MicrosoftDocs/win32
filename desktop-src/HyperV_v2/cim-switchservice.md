@@ -1,7 +1,7 @@
 ---
 Description: Represents a switch service.
 ms.assetid: cf6319fa-7d69-4820-b0e0-775aad8b190c
-title: CIM\_SwitchService class
+title: CIM_SwitchService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

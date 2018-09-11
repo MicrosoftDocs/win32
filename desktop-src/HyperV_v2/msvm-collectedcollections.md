@@ -1,7 +1,7 @@
 ---
 Description: Associates the Msvm\_VirtualSystemCollection to the contained Msvm\_ComputerSystem objects.
 ms.assetid: bbf7713a-b331-4b40-bcb4-3545c26c6f3a
-title: Msvm\_CollectedCollections class
+title: Msvm_CollectedCollections class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

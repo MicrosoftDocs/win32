@@ -55,7 +55,7 @@ Represents a custom layout template of Ribbon controls.
 <td><strong>Name</strong><br/></td>
 <td>xs:positiveInteger or xs:string or xs:token<br/></td>
 <td>Yes<br/></td>
-<td>When [<strong>Ribbon.SizeDefinitions</strong>](windowsribbon-element-ribbon-sizedefinitions.md) is the parent, otherwise optional.<br/> <br/>
+<td>When <a href="windowsribbon-element-ribbon-sizedefinitions"><strong>Ribbon.SizeDefinitions</strong></a> is the parent, otherwise optional.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string or xs:token)<br/> </dt> <dd> A string or an integer value between 2 and 59999, inclusive, or 0x2 and 0xea5f in hexadecimal, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 </tbody>

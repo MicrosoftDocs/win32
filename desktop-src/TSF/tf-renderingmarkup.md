@@ -1,5 +1,5 @@
 ---
-title: TF\_RENDERINGMARKUP structure
+title: TF_RENDERINGMARKUP structure
 description: The TF\_RENDERINGMARKUP structure structure contains a range and the display attribute information.
 ms.assetid: 206e679b-f2eb-4f28-ac2a-58f3c222a020
 keywords:

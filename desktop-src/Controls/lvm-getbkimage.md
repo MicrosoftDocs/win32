@@ -1,5 +1,5 @@
 ---
-title: LVM\_GETBKIMAGE message
+title: LVM_GETBKIMAGE message
 description: Gets the background image in a list-view control. You can send this message explicitly or by using the ListView\_GetBkImage macro.
 ms.assetid: db0e8f31-746a-4a16-b689-68da696e3657
 keywords:

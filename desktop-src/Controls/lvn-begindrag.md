@@ -1,5 +1,5 @@
 ---
-title: LVN\_BEGINDRAG notification code
+title: LVN_BEGINDRAG notification code
 description: Notifies a list-view control's parent window that a drag-and-drop operation involving the left mouse button is being initiated. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 2b9bbff8-f5f7-47ac-b662-a327ff49caf7
 keywords:

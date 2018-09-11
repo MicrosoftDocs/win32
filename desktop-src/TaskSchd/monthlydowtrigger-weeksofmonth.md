@@ -1,7 +1,7 @@
 ---
 title: MonthlyDOWTrigger.WeeksOfMonth property
 description: For scripting, gets or sets the weeks of the month during which the task runs.
-ms.assetid: 55bbf8d6-6ff6-46a3-82e2-b5986ee3927e
+ms.assetid: '62c3b654-622e-4a71-b77e-1b3fd5fb46b8'
 keywords:
 - WeeksOfMonth property Task Scheduler
 - WeeksOfMonth property Task Scheduler , MonthlyDOWTrigger object

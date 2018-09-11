@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_LockDown02 class
+title: MDM_Policy_Result01_LockDown02 class
 description: The MDM\_Policy\_Result01\_Lockdown02 class represents the lockdown policies available.
 ms.assetid: 78eab50e-b1a7-4b96-a848-b8a86a3b82c3
 keywords:

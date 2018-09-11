@@ -1,5 +1,5 @@
 ---
-title: TBM\_GETCHANNELRECT message
+title: TBM_GETCHANNELRECT message
 description: Retrieves the size and position of the bounding rectangle for a trackbar's channel.
 ms.assetid: 353edae3-1a26-4e85-8a32-ba8b5a976d24
 keywords:

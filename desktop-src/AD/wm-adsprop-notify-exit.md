@@ -1,5 +1,5 @@
 ---
-title: WM\_ADSPROP\_NOTIFY\_EXIT message
+title: WM_ADSPROP_NOTIFY_EXIT message
 description: An Active Directory property sheet extension sends the WM\_ADSPROP\_NOTIFY\_EXIT message to the notification object when the notification object is no longer required.
 audience: developer
 author: REDMOND\\markl

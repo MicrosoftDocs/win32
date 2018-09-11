@@ -123,11 +123,11 @@ This section describes sample applications that demonstrate how to use Media Fou
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MFPlayer2](mfplayer2-sample.md)</td>
-<td>Demonstrates some advanced playback features of the [MFPlay](using-mfplay-for-audio-video-playback.md) API.</td>
+<td><a href="mfplayer2-sample">MFPlayer2</a></td>
+<td>Demonstrates some advanced playback features of the <a href="using-mfplay-for-audio-video-playback">MFPlay</a> API.</td>
 </tr>
 <tr class="even">
-<td>[PlaybackFX](https://msdn.microsoft.com/library/Bb970336(v=VS.85).aspx)</td>
+<td><a href="https://msdn.microsoft.com/library/Bb970336(v=VS.85).aspx">PlaybackFX</a></td>
 <td>Applies a grayscale effect to video. Shows how to insert MFTs into a playback topology.<br/>
 <blockquote>
 [!Note]<br />
@@ -136,7 +136,7 @@ This sample is no longer included in the SDK.
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[Playlist](playlist-sample.md)</td>
+<td><a href="playlist-sample">Playlist</a></td>
 <td>Plays a sequence of audio files using the sequencer source.<br/>
 <blockquote>
 [!Note]<br />
@@ -145,11 +145,11 @@ This sample is no longer included in the SDK.
 <br/></td>
 </tr>
 <tr class="even">
-<td>[SimpleCapture](simplecapture-sample.md)</td>
+<td><a href="simplecapture-sample">SimpleCapture</a></td>
 <td>Shows how to preview video from a video capture device, using the MFPlay API.</td>
 </tr>
 <tr class="odd">
-<td>[SimplePlay](simpleplay-sample.md)</td>
+<td><a href="simpleplay-sample">SimplePlay</a></td>
 <td>Shows how to play a media file using the MFPlay API.</td>
 </tr>
 </tbody>

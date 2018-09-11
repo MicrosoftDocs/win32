@@ -1,7 +1,7 @@
 ---
 title: Windows Media DRM Client Extended APIs
 description: Windows Media DRM Client Extended APIs
-ms.assetid: 8a410929-bf47-45f0-9a7b-a161efd353f3
+ms.assetid: 'c0397aa8-1f5a-48f5-a96b-555079e9a292'
 keywords:
 - Windows Media Format SDK,DRM Client Extended APIs
 - Windows Media Format SDK,Client Extended APIs

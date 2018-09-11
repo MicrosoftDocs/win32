@@ -1,7 +1,7 @@
 ---
 Description: Provides for active management of resource pools.
-ms.assetid: 30a70231-f1b7-4f0e-ac47-cf5a79ddb8ab
-title: Msvm\_ResourcePoolConfigurationService class
+ms.assetid: '34ee3189-cb89-4d36-b12f-333449103968'
+title: Msvm_ResourcePoolConfigurationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

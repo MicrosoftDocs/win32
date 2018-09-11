@@ -1,7 +1,7 @@
 ---
 title: Network.getProxyExceptionList method
 description: The getProxyExceptionList method retrieves the proxy exception list.
-ms.assetid: ddd3a6b2-3637-4da1-b3ce-f01364e8b818
+ms.assetid: 'f81d8c0f-cc75-470c-9c24-ceaf8a4b6f97'
 keywords:
 - getProxyExceptionList method Windows Media Player
 - getProxyExceptionList method Windows Media Player , Network class

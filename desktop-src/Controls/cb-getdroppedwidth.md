@@ -1,5 +1,5 @@
 ---
-title: CB\_GETDROPPEDWIDTH message
+title: CB_GETDROPPEDWIDTH message
 description: Gets the minimum allowable width, in pixels, of the list box of a combo box with the CBS\_DROPDOWN or CBS\_DROPDOWNLIST style.
 ms.assetid: d7f37a6c-a623-4b15-8ef7-4b64d85c15fa
 keywords:

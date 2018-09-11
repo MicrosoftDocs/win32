@@ -1,7 +1,7 @@
 ---
 title: LogonTrigger.Delay property
 description: For scripting, gets or sets a value that indicates the amount of time between when the user logs on and when the task is started.
-ms.assetid: 643b25fb-b328-48d7-9eb6-aa3e6fabdd70
+ms.assetid: '42198357-18e9-4fff-a8bf-f2da36148dc8'
 keywords:
 - Delay property Task Scheduler
 - Delay property Task Scheduler , LogonTrigger object

@@ -72,23 +72,23 @@ How you install components into an application can affect how you can configure 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Transactions](configuring-transactions.md)<br/></td>
+<td><a href="configuring-transactions">Transactions</a><br/></td>
 <td>Sets automatic transaction requirements Disabled, Not Supported, Supported, Required, or Requires New.<br/></td>
 </tr>
 <tr class="even">
-<td>[Synchronization](setting-the-synchronization-attribute.md)<br/></td>
+<td><a href="setting-the-synchronization-attribute">Synchronization</a><br/></td>
 <td>Sets synchronization requirements Disabled, Not Supported, Supported, Required, or Requires New.<br/></td>
 </tr>
 <tr class="odd">
-<td>[JIT Activation](enabling-jit-activation-for-a-component.md)<br/></td>
+<td><a href="enabling-jit-activation-for-a-component">JIT Activation</a><br/></td>
 <td>Enables just-in-time activation.<br/></td>
 </tr>
 <tr class="even">
-<td>[Object pooling](configuring-a-component-to-be-pooled.md)<br/></td>
+<td><a href="configuring-a-component-to-be-pooled">Object pooling</a><br/></td>
 <td>Enables object pooling. Minimum and maximum pool size and object time-out values are configurable.<br/></td>
 </tr>
 <tr class="odd">
-<td>[Object construction](specifying-an-object-constructor-string-for-a-component.md)<br/></td>
+<td><a href="specifying-an-object-constructor-string-for-a-component">Object construction</a><br/></td>
 <td>Enables parameterized object construction with an administratively specified constructor string. <br/>
 <blockquote>
 [!Note]<br />
@@ -97,27 +97,27 @@ The constructor string should not be used to store security-sensitive informatio
 <br/></td>
 </tr>
 <tr class="even">
-<td>[Component-level access checks](enabling-access-checks-at-the-component-level.md)<br/></td>
+<td><a href="enabling-access-checks-at-the-component-level">Component-level access checks</a><br/></td>
 <td>Turns on or off component-level role-based security checking.<br/></td>
 </tr>
 <tr class="odd">
-<td>[Declarative role assignment](assigning-roles-to-components--interfaces--or-methods.md)<br/></td>
+<td><a href="assigning-roles-to-components--interfaces--or-methods">Declarative role assignment</a><br/></td>
 <td>Enables explicit assignment of roles to the component.<br/></td>
 </tr>
 <tr class="even">
-<td>[Queuing exception class](persistent-client-side-failures.md)<br/></td>
+<td><a href="persistent-client-side-failures">Queuing exception class</a><br/></td>
 <td>Indicates an exception class for handling client-side failures.<br/></td>
 </tr>
 <tr class="odd">
-<td>[Instrumentation events and statistics](com--instrumentation-concepts.md)<br/></td>
+<td><a href="com--instrumentation-concepts">Instrumentation events and statistics</a><br/></td>
 <td>Enables detailed system event and object statistics reporting.<br/></td>
 </tr>
 <tr class="even">
-<td>[Activation context](context-activation.md)<br/></td>
+<td><a href="context-activation">Activation context</a><br/></td>
 <td>Enables forced activation of an object in the caller's context or default context.<br/></td>
 </tr>
 <tr class="odd">
-<td>[Creating private components](what-s-new-in-com--1-5.md)<br/></td>
+<td><a href="what-s-new-in-com--1-5">Creating private components</a><br/></td>
 <td>Marks component as private to the application. A private component can be seen and activated only by other components in the same application.<br/></td>
 </tr>
 </tbody>

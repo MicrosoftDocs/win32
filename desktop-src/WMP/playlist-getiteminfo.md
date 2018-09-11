@@ -1,7 +1,7 @@
 ---
 title: Playlist.getItemInfo method
 description: The getItemInfo method retrieves the value of a playlist attribute.
-ms.assetid: c6763274-01e4-4a2f-9467-150e1964193a
+ms.assetid: '888c0ab7-c225-4246-b1a1-94da7e19fa1a'
 keywords:
 - getItemInfo method Windows Media Player
 - getItemInfo method Windows Media Player , Playlist class

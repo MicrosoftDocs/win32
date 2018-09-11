@@ -1,5 +1,5 @@
 ---
-title: WM\_DSA\_SHEET\_CLOSE\_NOTIFY message
+title: WM_DSA_SHEET_CLOSE_NOTIFY message
 description: Posted to the Active Directory MMC snap-in when a secondary property sheet is destroyed.
 audience: developer
 author: REDMOND\\markl

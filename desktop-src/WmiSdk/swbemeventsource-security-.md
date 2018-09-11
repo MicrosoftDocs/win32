@@ -7,7 +7,7 @@ ms.assetid: 9c906b80-ae54-4bc1-a587-43580d6b26e7
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: SWbemEventSource.Security\_ property
+title: SWbemEventSource.Security_ property
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

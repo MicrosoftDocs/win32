@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSPublishedApplicationList class
+title: Win32_TSPublishedApplicationList class
 description: Represents the list of programs that are in the RemoteApp Programs list on a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl

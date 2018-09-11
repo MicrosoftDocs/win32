@@ -1,7 +1,7 @@
 ---
 Description: Represents the logical connection point for a network adapter. When the LAN endpoint is connected to a switch port, the network adapter connected to the LAN endpoint has network connectivity.
 ms.assetid: 68aad05e-64b5-44dc-ab5b-8f3051fa77ca
-title: Msvm\_LANEndpoint class
+title: Msvm_LANEndpoint class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

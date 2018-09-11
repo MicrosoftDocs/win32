@@ -1,7 +1,7 @@
 ---
 title: Interfaces
 description: Interfaces
-ms.assetid: 27bbc33f-8102-4db2-bbc6-1a1da92bac80
+ms.assetid: 'c61a0739-09f2-497f-a2cd-d3f2472738e3'
 keywords:
 - Windows Media Format SDK,interfaces
 - Advanced Systems Format (ASF),interfaces

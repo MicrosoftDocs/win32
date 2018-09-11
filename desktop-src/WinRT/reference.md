@@ -1,6 +1,6 @@
 ---
 Description: Windows Runtime C++ reference
-ms.assetid: 51787A45-BCDE-4028-A338-1C16F2DE79AD
+ms.assetid: '0f8e8dc8-aafa-4f4f-a81a-42af5867fc5a'
 title: Windows Runtime C++ reference
 ms.technology: desktop
 ms.prod: windows

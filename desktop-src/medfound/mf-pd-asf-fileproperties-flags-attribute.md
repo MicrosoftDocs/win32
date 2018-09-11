@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether an Advanced Systems Format (ASF) file is broadcast or seekable. This value corresponds to the Flags field of the File Properties Object, defined in the ASF specification.
 ms.assetid: 427f0dca-f945-4c89-a87a-a7c86291b1c5
-title: MF\_PD\_ASF\_FILEPROPERTIES\_FLAGS attribute
+title: MF_PD_ASF_FILEPROPERTIES_FLAGS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

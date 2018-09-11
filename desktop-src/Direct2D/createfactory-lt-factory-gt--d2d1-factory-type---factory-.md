@@ -1,5 +1,5 @@
 ---
-title: D2D1CreateFactory Factory (D2D1\_FACTORY\_TYPE,Factory\ \ ) Function
+title: D2D1CreateFactory Factory (D2D1_FACTORY_TYPE,Factory  ) Function
 description: Creates a factory object that can be used to create Direct2D resources.
 ms.assetid: c1c25d51-15ea-4075-a896-bd6501bf68c1
 keywords:

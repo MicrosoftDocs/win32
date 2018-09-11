@@ -1,5 +1,5 @@
 ---
-title: IsLogEventEnabled method of the Win32\_TSGatewayServerSettings class
+title: IsLogEventEnabled method of the Win32_TSGatewayServerSettings class
 description: Indicates whether the specified event log type is enabled.
 audience: developer
 author: REDMOND\\markl

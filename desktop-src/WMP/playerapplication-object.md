@@ -1,7 +1,7 @@
 ---
 title: PlayerApplication Object
 description: The PlayerApplication object provides a way to coordinate switching between a remoted Windows Media Player control and the full mode of Windows Media Player.
-ms.assetid: 4b77bf16-d7e1-4119-91c2-46136db13e81
+ms.assetid: '904bb30c-939d-4aeb-ba4b-c27afee471ea'
 keywords:
 - PlayerApplication Object Windows Media Player
 topic_type:

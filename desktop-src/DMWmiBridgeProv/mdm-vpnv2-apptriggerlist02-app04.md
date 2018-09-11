@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_AppTriggerList02\_App04 class
+title: MDM_VPNv2_AppTriggerList02_App04 class
 description: The MDM\_VPNv2AppTriggerList02\_App04 class describes a list of applications set to trigger the VPN.
 ms.assetid: d17ec7b9-8a66-47da-8373-81b56168b495
 keywords:

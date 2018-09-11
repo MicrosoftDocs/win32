@@ -1,5 +1,5 @@
 ---
-title: DRM\_V1LicenseAcqURL
+title: DRM_V1LicenseAcqURL
 description: The DRM\_V1LicenseAcqURL attribute contains the address of a Web site where a user can obtain a DRM version 1 license.
 ms.assetid: 7bfc3a6a-6d22-447b-9dc2-fc3563f23f7d
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: dcl\_output oMask (sm5 - asm)
+title: dcl_output oMask (sm5 - asm)
 description: Declare an output register to be written by the shader.
 ms.assetid: 23FC5FA3-F550-4CD1-9AA9-86738818686F
 ms.technology: desktop

@@ -1,5 +1,5 @@
 ---
-title: RB\_GETBANDBORDERS message
+title: RB_GETBANDBORDERS message
 description: Retrieves the borders of a band. The result of this message can be used to calculate the usable area in a band.
 ms.assetid: 45f2ae7e-636e-474b-a0d0-5235c6401e6a
 keywords:

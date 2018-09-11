@@ -1,7 +1,7 @@
 ---
 Description: Starts the service.
 ms.assetid: 59918c15-7216-4cf7-9215-b27532febc72
-title: StartService method of the Msvm\_SecurityService class
+title: StartService method of the Msvm_SecurityService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,6 +1,6 @@
 ---
 Description: Sent to an application that has initiated a training card with Windows Help.
-title: WM\_TCARD message
+title: WM_TCARD message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

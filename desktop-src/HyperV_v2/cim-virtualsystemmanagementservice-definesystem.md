@@ -1,7 +1,7 @@
 ---
 Description: Defines a virtual system.
 ms.assetid: c3964e99-9227-4b98-af87-7caa59296306
-title: DefineSystem method of the CIM\_VirtualSystemManagementService class
+title: DefineSystem method of the CIM_VirtualSystemManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

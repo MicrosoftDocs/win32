@@ -1,7 +1,7 @@
 ---
 Description: Specifies a list of unicode strings representing the device capabilities required by the sensor transform.
 ms.assetid: 4A129FEB-E650-47C9-ABC0-9A512EE4121D
-title: MF\_DEVICESTREAM\_REQUIRED\_CAPABILITIES attribute
+title: MF_DEVICESTREAM_REQUIRED_CAPABILITIES attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MDM\_Firewall\_FirewallRules02\_01 class
+title: MDM_Firewall_FirewallRules02_01 class
 description: The MDM\_Firewall\_FirewallRules02\_01 class is used to configure the Windows Defender Firewall settings.
 ms.assetid: b09cbd98-152e-486c-acb5-4e1d83e5f8e2
 keywords:

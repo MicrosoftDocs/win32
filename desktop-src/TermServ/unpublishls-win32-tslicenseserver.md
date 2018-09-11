@@ -1,5 +1,5 @@
 ---
-title: UnpublishLS method of the Win32\_TSLicenseServer class
+title: UnpublishLS method of the Win32_TSLicenseServer class
 description: Unpublishes a Remote Desktop license server from Active Directory Domain Services.
 audience: developer
 author: REDMOND\\markl

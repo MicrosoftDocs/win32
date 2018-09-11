@@ -1,5 +1,5 @@
 ---
-title: InitialProgram method of the Win32\_TSEnvironmentSetting class
+title: InitialProgram method of the Win32_TSEnvironmentSetting class
 description: The InitialProgram method sets startup program properties such as the name, working directory, and path of the program to start immediately after logon to the Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl

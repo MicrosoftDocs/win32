@@ -1,6 +1,6 @@
 ---
 Description: Notifies you that a change has taken place.
-title: SMC\_SHCHANGENOTIFY message
+title: SMC_SHCHANGENOTIFY message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

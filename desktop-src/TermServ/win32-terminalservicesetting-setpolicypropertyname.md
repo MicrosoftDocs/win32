@@ -1,5 +1,5 @@
 ---
-title: SetPolicyPropertyName method of the Win32\_TerminalServiceSetting class
+title: SetPolicyPropertyName method of the Win32_TerminalServiceSetting class
 description: The SetPolicyPropertyName method sets the DeleteTempFolders, UseTempFolders or Help property for the class.
 audience: developer
 author: REDMOND\\markl

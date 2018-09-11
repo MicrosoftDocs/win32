@@ -1,5 +1,5 @@
 ---
-title: HDM\_SETIMAGELIST message
+title: HDM_SETIMAGELIST message
 description: Assigns an image list to an existing header control. You can send this message explicitly or use the Header\_SetImageList or Header\_SetStateImageList macro.
 ms.assetid: 1d7f07fa-f6f4-422a-949c-97d0388343e3
 keywords:

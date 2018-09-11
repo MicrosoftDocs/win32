@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for UDP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: c0ef6679-3852-4992-9fc2-114620eae14e
-title: UdpIp\_V1\_TypeGroup1 class
+title: UdpIp_V1_TypeGroup1 class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

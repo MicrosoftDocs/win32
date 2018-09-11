@@ -1,5 +1,5 @@
 ---
-title: MDM\_DevDetail\_Microsoft02 class
+title: MDM_DevDetail_Microsoft02 class
 description: The MDM\_DevDetail\_Microsoft02 class handles the management object which provides device-specific parameters to the OMA DM server.
 ms.assetid: 22a8ba26-d215-4bc5-a51b-6933d5473da3
 keywords:

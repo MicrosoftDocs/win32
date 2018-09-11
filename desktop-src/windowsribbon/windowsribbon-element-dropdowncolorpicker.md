@@ -68,7 +68,7 @@ Represents a [Drop-Down Color Picker](windowsribbon-controls-dropdowncolorpicker
 <td><strong>ColorTemplate</strong><br/></td>
 <td>xs:string<br/></td>
 <td>No<br/></td>
-<td>Layout templates that specify the type of [Drop-Down Color Picker](windowsribbon-controls-dropdowncolorpicker.md). <br/> Restricted to one of the following values (if no optional attributes related to a <em>ColorTemplate</em> are declared, the default view is shown):<br/> <br/>
+<td>Layout templates that specify the type of <a href="windowsribbon-controls-dropdowncolorpicker">Drop-Down Color Picker</a>. <br/> Restricted to one of the following values (if no optional attributes related to a <em>ColorTemplate</em> are declared, the default view is shown):<br/> <br/>
 <dt><span></span><span></span><strong></strong> (ThemeColors)<br/> </dt> <dd> Default. <br/> <img src="images/markup/colortemplate.themedcolors.1.png" alt="Screen shot of the DropDownColorPicker element with the ColorTemplate attribute set to &#39;ThemeColors&#39;." /><br/> Setting the <em>ColorTemplate</em> attribute to <code>ThemeColors</code> enables the following functionality:<br/>
 <ul>
 <li>SplitButton anchor.</li>
@@ -106,7 +106,7 @@ Represents a [Drop-Down Color Picker](windowsribbon-controls-dropdowncolorpicker
 <td><strong>CommandName</strong><br/></td>
 <td>xs:positiveInteger or xs:string<br/></td>
 <td>No<br/></td>
-<td>Associates the element with a [<strong>Command</strong>](windowsribbon-element-command.md).<br/> <br/>
+<td>Associates the element with a <a href="windowsribbon-element-command"><strong>Command</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)<br/> </dt> <dd> A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">

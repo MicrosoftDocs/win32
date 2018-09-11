@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM\_GETFILENAME message
+title: MCIWNDM_GETFILENAME message
 description: The MCIWNDM\_GETFILENAME message retrieves the filename currently used by an MCI device. You can send this message explicitly or by using the MCIWndGetFileName macro.
 ms.assetid: d61b1b6d-0fae-4732-993c-41e08a4e05be
 keywords:

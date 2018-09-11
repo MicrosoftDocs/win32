@@ -90,8 +90,8 @@ Next</code></pre></td>
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span id="Creating_a_client_with_C___Microsoft.Management.Infrastructure_"></span><span id="creating_a_client_with_c___microsoft.management.infrastructure_"></span><span id="CREATING_A_CLIENT_WITH_C___MICROSOFT.MANAGEMENT.INFRASTRUCTURE_"></span>Creating a client with C# ([Microsoft.Management.Infrastructure](https://msdn.microsoft.com/library/microsoft.management.infrastructure.aspx))</p></td>
-<td><p>This namespace contains the current solution for accessing WMI with managed code, and is known as the Windows Management Infrastructure (MI, or WMIv2). Currently, MI is the supported technology for creating managed management clients. For more information, see [How to Implement a Managed MI Client](https://msdn.microsoft.com/library/dn313202) and [How to Implement a Native MI Client](https://msdn.microsoft.com/library/dn314432).</p>
+<td><p><span id="Creating_a_client_with_C___Microsoft.Management.Infrastructure_"></span><span id="creating_a_client_with_c___microsoft.management.infrastructure_"></span><span id="CREATING_A_CLIENT_WITH_C___MICROSOFT.MANAGEMENT.INFRASTRUCTURE_"></span>Creating a client with C# (<a href="https://msdn.microsoft.com/library/microsoft.management.infrastructure.aspx">Microsoft.Management.Infrastructure</a>)</p></td>
+<td><p>This namespace contains the current solution for accessing WMI with managed code, and is known as the Windows Management Infrastructure (MI, or WMIv2). Currently, MI is the supported technology for creating managed management clients. For more information, see <a href="https://msdn.microsoft.com/library/dn313202">How to Implement a Managed MI Client</a> and <a href="https://msdn.microsoft.com/library/dn314432">How to Implement a Native MI Client</a>.</p>
 <div class="code">
 <span data-codelanguage="CSharp"></span>
 <table>
@@ -121,8 +121,8 @@ foreach (CimInstance cimObj in queryInstance)
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span id="Creating_a_client_with_C___System.Management_"></span><span id="creating_a_client_with_c___system.management_"></span><span id="CREATING_A_CLIENT_WITH_C___SYSTEM.MANAGEMENT_"></span>Creating a client with C# ([System.Management](https://msdn.microsoft.com/library/system.management.aspx))</p></td>
-<td><p>This namespace contains the original solution for accessing WMI with managed code. While the [System.Management](https://msdn.microsoft.com/library/system.management.aspx) classes are still available, the [Microsoft.Management.Infrastructure](https://msdn.microsoft.com/library/microsoft.management.infrastructure.aspx) classes are generally more efficient and scale better. As such, it is recommended that you use the MI classes, rather than the original WMI classes.</p>
+<td><p><span id="Creating_a_client_with_C___System.Management_"></span><span id="creating_a_client_with_c___system.management_"></span><span id="CREATING_A_CLIENT_WITH_C___SYSTEM.MANAGEMENT_"></span>Creating a client with C# (<a href="https://msdn.microsoft.com/library/system.management.aspx">System.Management</a>)</p></td>
+<td><p>This namespace contains the original solution for accessing WMI with managed code. While the <a href="https://msdn.microsoft.com/library/system.management.aspx">System.Management</a> classes are still available, the <a href="https://msdn.microsoft.com/library/microsoft.management.infrastructure.aspx">Microsoft.Management.Infrastructure</a> classes are generally more efficient and scale better. As such, it is recommended that you use the MI classes, rather than the original WMI classes.</p>
 <div class="code">
 <span data-codelanguage="CSharp"></span>
 <table>

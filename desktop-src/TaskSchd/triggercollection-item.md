@@ -1,7 +1,7 @@
 ---
 title: TriggerCollection.Item property
 description: For scripting, gets the specified trigger from the collection.
-ms.assetid: 007e5792-bb91-435f-abe9-27366e6ec58a
+ms.assetid: '517976df-b3fc-4f2e-8d37-262195c65182'
 keywords:
 - Item property Task Scheduler
 - Item property Task Scheduler , TriggerCollection object

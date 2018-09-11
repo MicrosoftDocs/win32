@@ -1,5 +1,5 @@
 ---
-title: SV\_GroupThreadID
+title: SV_GroupThreadID
 description: Indices for which an individual thread within a thread group a compute shader is executing in.
 ms.assetid: be944592-c4ea-43c9-88bc-98a9a190a437
 keywords:

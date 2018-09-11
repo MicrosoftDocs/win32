@@ -1,7 +1,7 @@
 ---
 Description: Posted to the installing thread's message queue when a timer expires. The message is posted by the GetMessage or PeekMessage function.
 ms.assetid: 419e3f05-35ec-4e48-b24d-ab98df687b20
-title: WM\_TIMER message
+title: WM_TIMER message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

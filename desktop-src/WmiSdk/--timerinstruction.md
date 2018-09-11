@@ -7,7 +7,7 @@ ms.assetid: b08edb25-bedf-4014-a835-4050f5749479
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_TimerInstruction class'
+title: '__TimerInstruction class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

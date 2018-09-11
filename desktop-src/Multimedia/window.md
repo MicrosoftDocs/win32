@@ -1,7 +1,7 @@
 ---
 title: window command
 description: The window command controls the display window.
-ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
+ms.assetid: '613dfedb-5ca8-45da-a4ba-ce465b933451'
 keywords:
 - window command Windows Multimedia
 topic_type:

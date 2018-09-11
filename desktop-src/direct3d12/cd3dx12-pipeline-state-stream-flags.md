@@ -1,5 +1,5 @@
 ---
-title: CD3DX12\_PIPELINE\_STATE\_STREAM\_FLAGS structure
+title: CD3DX12_PIPELINE_STATE_STREAM_FLAGS structure
 description: A helper structure used to describe pipeline state flags as a single object suitable for a stream description.
 ms.assetid: EF67936B-315A-4B3F-9E07-7CF4C5EE47CF
 keywords:

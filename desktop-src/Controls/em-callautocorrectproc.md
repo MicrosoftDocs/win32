@@ -1,5 +1,5 @@
 ---
-title: EM\_CALLAUTOCORRECTPROC message
+title: EM_CALLAUTOCORRECTPROC message
 description: Calls the autocorrect callback function that is stored by the EM\_SETAUTOCORRECTPROC message, provided that the text preceding the insertion point is a candidate for autocorrection.
 ms.assetid: 93116467-B345-4FD9-9162-3E01CF3C6F20
 keywords:

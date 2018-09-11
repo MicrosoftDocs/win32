@@ -1,6 +1,6 @@
 ---
 Description: Sent by the default context menu implementation to get the verb for the given command ID in the context menu.
-title: DFM\_GETVERB message
+title: DFM_GETVERB message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

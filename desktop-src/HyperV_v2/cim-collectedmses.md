@@ -1,7 +1,7 @@
 ---
 Description: Represents a generic association between a collection of managed system elements and the members of the collection.
 ms.assetid: c9e2bbca-67be-41f2-a94c-cf4eaf5f4694
-title: CIM\_CollectedMSEs class
+title: CIM_CollectedMSEs class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

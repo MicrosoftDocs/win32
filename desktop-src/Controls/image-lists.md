@@ -1,7 +1,7 @@
 ---
 title: About Image Lists
 description: An image list is a collection of images of the same size, each of which can be referred to by its index.
-ms.assetid: 3C282FBC-5E37-4D8E-A2C4-B2876874E9A7
+ms.assetid: 'vs|controls|~\controls\imagelist\imagelist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

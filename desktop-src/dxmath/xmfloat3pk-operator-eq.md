@@ -1,6 +1,6 @@
 ---
 Description: Assigns vector component data to the current instance of XMFLOAT3PK.
-ms.assetid: 9d7282a6-5ee9-4ebc-a449-3a67e5668268
+ms.assetid: 'overload:microsoft.directx_sdk.reference.xmfloat3pk.operator = '
 title: operator = operators
 ms.technology: desktop
 ms.prod: windows
@@ -39,8 +39,8 @@ Assigns vector component data to the current instance of [**XMFLOAT3PK**](https:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3PK::operator = (const uint32_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh437952(v=VS.85).aspx)</td>
-<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMFLOAT3PK</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint64_t</code> to the current instance of [<strong>XMFLOAT3PK</strong>](https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx). <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Hh437952(v=VS.85).aspx"><strong>XMFLOAT3PK::operator = (const uint32_t)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMFLOAT3PK</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint64_t</code> to the current instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx"><strong>XMFLOAT3PK</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -48,8 +48,8 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3PK::operator = (const XMFLOAT3PK&)</strong>](https://msdn.microsoft.com/en-us/library/Ee419483(v=VS.85).aspx)</td>
-<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMFLOAT3PK</code> to the current instance of <code>XMFLOAT3PK</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMFLOAT3PK</strong>](https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx) to the current instance of <code>XMFLOAT3PK</code>. <br/>
+<td style="text-align: left;"><a href="https://msdn.microsoft.com/en-us/library/Ee419483(v=VS.85).aspx"><strong>XMFLOAT3PK::operator = (const XMFLOAT3PK&)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMFLOAT3PK</code> to the current instance of <code>XMFLOAT3PK</code>. <br/> This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx"><strong>XMFLOAT3PK</strong></a> to the current instance of <code>XMFLOAT3PK</code>. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.

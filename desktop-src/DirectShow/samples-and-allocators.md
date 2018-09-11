@@ -1,6 +1,6 @@
 ---
 Description: Samples and Allocators
-ms.assetid: d6283bf0-0460-4519-9a56-fd4c78cfaabc
+ms.assetid: '1fbea741-f29a-4815-9885-94ca9cf4bb95'
 title: Samples and Allocators
 ms.technology: desktop
 ms.prod: windows

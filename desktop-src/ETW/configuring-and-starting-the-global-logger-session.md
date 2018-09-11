@@ -65,12 +65,12 @@ The following table describes the values that you can define for the **GlobalLog
 <li>2 = System timer</li>
 <li>3 = CPU cycle counter</li>
 </ul>
-For a description of each clock type, see the <strong>ClientContext</strong> member of [<strong>WNODE_HEADER</strong>](wnode-header.md).<br/> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br/></td>
+For a description of each clock type, see the <strong>ClientContext</strong> member of <a href="wnode-header"><strong>WNODE_HEADER</strong></a>.<br/> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>EnableKernelFlags</strong></td>
 <td><strong>REG_BINARY</strong></td>
-<td>Use this value to enable one or more kernel providers. If you enable kernel providers, the Global Logger session will rename itself to NT Kernel Logger when it starts. For possible values, see the <strong>EnableFlags</strong> member of [<strong>EVENT_TRACE_PROPERTIES</strong>](event-trace-properties.md).<br/></td>
+<td>Use this value to enable one or more kernel providers. If you enable kernel providers, the Global Logger session will rename itself to NT Kernel Logger when it starts. For possible values, see the <strong>EnableFlags</strong> member of <a href="event-trace-properties"><strong>EVENT_TRACE_PROPERTIES</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>FileCounter</strong></td>
@@ -95,7 +95,7 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 <tr class="odd">
 <td><strong>LogFileMode</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Specifies log session options. For values, see [Logging Mode Constants](logging-mode-constants.md). This values is supported on Windows Vista and later. <br/></td>
+<td>Specifies log session options. For values, see <a href="logging-mode-constants">Logging Mode Constants</a>. This values is supported on Windows Vista and later. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>MaximumBuffers</strong></td>

@@ -1,7 +1,7 @@
 ---
 title: Metafile Playlists
 description: Metafile Playlists
-ms.assetid: 0afe3aaa-bcd1-4060-8772-add50f3b6bac
+ms.assetid: 'a3370f90-fb83-4062-abf4-f2c32a1b559c'
 keywords:
 - Windows Media metafile playlists,about
 - playlists,about

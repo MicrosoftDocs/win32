@@ -1,7 +1,7 @@
 ---
 Description: Specifies an image that represents a photo of the individual referred to in the contact object.
 ms.assetid: e26487d8-cd21-4d4a-ba68-ae915eff1304
-title: WPD\_RESOURCE\_CONTACT\_PHOTO
+title: WPD_RESOURCE_CONTACT_PHOTO
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

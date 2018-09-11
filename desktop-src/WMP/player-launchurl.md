@@ -1,7 +1,7 @@
 ---
 title: Player.launchURL method
 description: The launchURL method sends a URL to the user's default browser to be rendered.
-ms.assetid: 3e8dfdbb-b5ad-44ea-97a6-e860386b7fb4
+ms.assetid: '2b445e59-f884-4519-9acb-f349319429d2'
 keywords:
 - launchURL method Windows Media Player
 - launchURL method Windows Media Player , Player class

@@ -21,12 +21,12 @@ The [**WBEMTimeSpan**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan) c
 
 ## In this section
 
--   [**WbemTimeSpan constructors**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-wbemtimespan(const bstr))
+-   [**WbemTimeSpan constructors**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr))
 -   [**Clear method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-clear)
 -   [**GetBSTR method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-getbstr)
 -   [**GetTime method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-gettime)
 -   [**IsOk method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-isok)
--   [**operator= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator=(const filetime &))
+-   [**operator= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator=(constfiletime_))
 -   [**operator+ method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator+)
 -   [**operator+= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator+=)
 -   [**operator- method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator-)

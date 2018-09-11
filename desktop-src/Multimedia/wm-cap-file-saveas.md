@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_FILE\_SAVEAS message
+title: WM_CAP_FILE_SAVEAS message
 description: The WM\_CAP\_FILE\_SAVEAS message copies the contents of the capture file to another file. You can send this message explicitly or by using the capFileSaveAs macro.
 ms.assetid: fab37bee-3160-4ebc-b58f-46021ed49b55
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Commits the recovery snapshot that the InitiateFailover method has used for a failover.
 ms.assetid: 05c27211-adc7-400a-83e2-81792ae7577f
-title: CommitFailover method of the Msvm\_ReplicationService class
+title: CommitFailover method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

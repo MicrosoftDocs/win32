@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_MXType class
+title: Modify method of the MicrosoftDNS_MXType class
 description: The Modify method updates a Mail Exchanger (MR) Resource Record.
 ms.assetid: 40267ac9-0392-4e08-a5d2-145ee9639c39
 keywords:

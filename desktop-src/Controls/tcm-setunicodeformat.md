@@ -1,5 +1,5 @@
 ---
-title: TCM\_SETUNICODEFORMAT message
+title: TCM_SETUNICODEFORMAT message
 description: Sets the Unicode character format flag for the control.
 ms.assetid: 4a9bacfc-d1b7-432a-9b61-b0fe18576679
 keywords:

@@ -1,6 +1,6 @@
 ---
 Description: The window background is the color or pattern used to fill the client area before a window begins drawing.
-ms.assetid: 72a342dc-2766-4ec9-b4c6-5ac3c550ea25
+ms.assetid: 'd0613f9b-e65b-4de2-887d-2b642d36b22d'
 title: Window Background
 ms.technology: desktop
 ms.prod: windows

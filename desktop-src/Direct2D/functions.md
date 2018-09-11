@@ -1,7 +1,7 @@
 ---
 title: Functions
 description: Direct2D provides the following functions.
-ms.assetid: 8a7c1e7e-9783-4b95-ac4c-4e7cc961f928
+ms.assetid: '1a7ae962-9b70-442c-a676-f172a2d9bfd3'
 keywords:
 - Direct2D,functions
 ms.technology: desktop

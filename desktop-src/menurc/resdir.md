@@ -1,7 +1,7 @@
 ---
 title: RESDIR structure
 description: Contains information about an individual icon or cursor component in a resource group. There is one RESDIR structure for each group component. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: 4c727369-2e90-40ad-85af-96d7e060b97a
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\resdir.htm'
 keywords:
 - RESDIR structure Menus and Other Resources
 topic_type:

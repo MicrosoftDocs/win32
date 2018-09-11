@@ -1,5 +1,5 @@
 ---
-title: D3DCOMPILE\_EFFECT Constants
+title: D3DCOMPILE_EFFECT Constants
 description: These constants direct how the compiler compiles an effect file or how the runtime processes the effect file.
 ms.assetid: AA46E5ED-92DD-4327-B852-8DD23A878562
 topic_type:

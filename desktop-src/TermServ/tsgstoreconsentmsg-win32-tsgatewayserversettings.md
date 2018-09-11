@@ -1,5 +1,5 @@
 ---
-title: TSGStoreConsentMsg method of the Win32\_TSGatewayServerSettings class
+title: TSGStoreConsentMsg method of the Win32_TSGatewayServerSettings class
 description: Updates the consent message for the gateway server.
 audience: developer
 author: REDMOND\\markl

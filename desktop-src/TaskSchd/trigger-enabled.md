@@ -1,7 +1,7 @@
 ---
 title: Trigger.Enabled property
 description: For scripting, gets or sets a Boolean value that indicates whether the trigger is enabled.
-ms.assetid: 20300470-e434-4296-b3e2-98c65b16e9f2
+ms.assetid: '8fb5a0cc-ddd4-430d-9593-95a4cb311f18'
 keywords:
 - Enabled property Task Scheduler
 - Enabled property Task Scheduler , Trigger object

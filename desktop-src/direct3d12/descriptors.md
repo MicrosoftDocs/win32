@@ -1,7 +1,7 @@
 ---
 title: Descriptors
 description: Descriptors are the primary unit of binding for a single resource in D3D12.
-ms.assetid: 65AE4D96-6221-46B5-BF55-F86479FCF97C
+ms.assetid: 'f35b5776-46b0-4659-9e61-c6ebfdb55f87'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

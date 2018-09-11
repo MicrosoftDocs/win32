@@ -1,7 +1,7 @@
 ---
 Description: WPD\_FUNCTIONAL\_CATEGORY\_DEVICE
 ms.assetid: 64b34490-1cb5-4915-ae1c-77bd4ab79ad7
-title: WPD\_FUNCTIONAL\_CATEGORY\_DEVICE
+title: WPD_FUNCTIONAL_CATEGORY_DEVICE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

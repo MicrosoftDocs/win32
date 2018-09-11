@@ -1,5 +1,5 @@
 ---
-title: EN\_OBJECTPOSITIONS notification code
+title: EN_OBJECTPOSITIONS notification code
 description: Notifies a rich edit control's parent window when the control reads in objects. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 1965185f-8a13-4989-8574-af8b9b30f6b0
 keywords:

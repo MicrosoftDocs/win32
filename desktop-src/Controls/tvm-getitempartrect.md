@@ -1,5 +1,5 @@
 ---
-title: TVM\_GETITEMPARTRECT message
+title: TVM_GETITEMPARTRECT message
 description: TVM\_GETITEMPARTRECT message
 ms.assetid: 4fa5d167-9649-4346-89c2-8a48e8d4d2f6
 keywords:

@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.GetRunTimes method
 description: For scripting, gets the times that the registered task is scheduled to run during a specified time.
-ms.assetid: 3ab41687-085a-414d-8054-9c6fe7439e4e
+ms.assetid: 'fc3d93eb-3186-419f-9f6f-7d54f8ade1ad'
 keywords:
 - GetRunTimes method Task Scheduler
 - GetRunTimes method Task Scheduler , RegisteredTask object

@@ -1,7 +1,7 @@
 ---
 title: Texture2D Load methods
 description: Reads texture data from a Texture2D.
-ms.assetid: DFD9D5C4-C02E-47BC-B5C2-3DEA99034B0D
+ms.assetid: 'b65672c8-e8ac-4863-b7f9-33033366fe62'
 keywords:
 - Load methods HLSL
 topic_type:

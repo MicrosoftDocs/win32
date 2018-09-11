@@ -7,7 +7,7 @@ ms.assetid: 57912f6f-45ca-491c-8a6c-77e2a6937ccc
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: Supporting the Win32\_PerfFormattedData Class
+title: Supporting the Win32_PerfFormattedData Class
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

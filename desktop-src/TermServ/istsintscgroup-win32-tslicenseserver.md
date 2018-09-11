@@ -1,5 +1,5 @@
 ---
-title: IsTSinTSCGroup method of the Win32\_TSLicenseServer class
+title: IsTSinTSCGroup method of the Win32_TSLicenseServer class
 description: Retrieves whether a Remote Desktop Session Host (RD Session Host) server is a member of the Terminal Server Computers local group on the Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl

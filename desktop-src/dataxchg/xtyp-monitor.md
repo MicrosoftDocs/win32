@@ -1,5 +1,5 @@
 ---
-title: XTYP\_MONITOR transaction
+title: XTYP_MONITOR transaction
 description: A Dynamic Data Exchange (DDE) debugger's DDE callback function, DdeCallback, receives the XTYP\_MONITOR transaction whenever a DDE event occurs in the system.
 ms.assetid: a27791b1-c1b4-4516-b050-71da164fa80a
 keywords:

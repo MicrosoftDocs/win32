@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Config01\_System02 class
+title: MDM_Policy_Config01_System02 class
 description: The MDM\_Policy\_Config01\_System02 class represents the System policies available.
 ms.assetid: 0C3E21DF-309C-4AF3-8682-E921BF45BDEF
 keywords:

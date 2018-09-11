@@ -1,7 +1,7 @@
 ---
 title: Strings
 description: This section discusses the string functions.
-ms.assetid: f1799fbf-4619-4b19-998e-b1d2f4c19a35
+ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\strings.htm'
 keywords:
 - resources,strings
 - strings
@@ -48,132 +48,132 @@ This section describes the string functions and explains how to use them in your
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CharLower</strong>](/windows/desktop/api/Winuser/nf-winuser-charlowera)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-charlowera"><strong>CharLower</strong></a></td>
 <td>Converts a character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CharLowerBuff</strong>](/windows/desktop/api/Winuser/nf-winuser-charlowerbuffa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-charlowerbuffa"><strong>CharLowerBuff</strong></a></td>
 <td>Converts uppercase characters in a buffer to lowercase characters. The function converts the characters in place. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharNext</strong>](/windows/desktop/api/Winuser/nf-winuser-charnexta)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-charnexta"><strong>CharNext</strong></a></td>
 <td>Retrieves a pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CharNextExA</strong>](/windows/desktop/api/Winuser/nf-winuser-charnextexa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-charnextexa"><strong>CharNextExA</strong></a></td>
 <td>Retrieves the pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharPrev</strong>](/windows/desktop/api/Winuser/nf-winuser-charpreva)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-charpreva"><strong>CharPrev</strong></a></td>
 <td>Retrieves a pointer to the preceding character in a string. This function can handle strings consisting of either single- or multi-byte characters.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CharPrevExA</strong>](/windows/desktop/api/Winuser/nf-winuser-charprevexa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-charprevexa"><strong>CharPrevExA</strong></a></td>
 <td>Retrieves the pointer to the preceding character in a string. This function can handle strings consisting of either single- or multi-byte characters.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharToOem</strong>](/windows/desktop/api/Winuser/nf-winuser-chartooema)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-chartooema"><strong>CharToOem</strong></a></td>
 <td>Translates a string into the OEM-defined character set.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CharToOemBuff</strong>](/windows/desktop/api/Winuser/nf-winuser-chartooembuffa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-chartooembuffa"><strong>CharToOemBuff</strong></a></td>
 <td>Translates a specified number of characters in a string into the OEM-defined character set.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CharUpper</strong>](/windows/desktop/api/Winuser/nf-winuser-charuppera)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-charuppera"><strong>CharUpper</strong></a></td>
 <td>Converts a character string or a single character to uppercase. If the operand is a character string, the function converts the characters in place. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CharUpperBuff</strong>](/windows/desktop/api/Winuser/nf-winuser-charupperbuffa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-charupperbuffa"><strong>CharUpperBuff</strong></a></td>
 <td>Converts lowercase characters in a buffer to uppercase characters. The function converts the characters in place. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CompareString</strong>](https://msdn.microsoft.com/library/windows/desktop/dd317759)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd317759"><strong>CompareString</strong></a></td>
 <td>Compares two character strings, using the specified locale.
 <blockquote>
 [!Note]<br />
-For compatibility with Unicode, use [<strong>CompareStringEx</strong>](https://msdn.microsoft.com/library/windows/desktop/dd317761) or the Unicode version of [<strong>CompareString</strong>](https://msdn.microsoft.com/library/windows/desktop/dd317759).
+For compatibility with Unicode, use <a href="https://msdn.microsoft.com/library/windows/desktop/dd317761"><strong>CompareStringEx</strong></a> or the Unicode version of <a href="https://msdn.microsoft.com/library/windows/desktop/dd317759"><strong>CompareString</strong></a>.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CompareStringEx</strong>](https://msdn.microsoft.com/library/windows/desktop/dd317761)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd317761"><strong>CompareStringEx</strong></a></td>
 <td>Compares two Unicode (wide character) strings, using the specified locale.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>FoldString</strong>](https://msdn.microsoft.com/library/windows/desktop/dd318063)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd318063"><strong>FoldString</strong></a></td>
 <td>Maps one string to another, performing a specified transformation option. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetStringTypeA</strong>](https://msdn.microsoft.com/library/windows/desktop/dd318117)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd318117"><strong>GetStringTypeA</strong></a></td>
 <td>Retrieves character-type information for the characters in the specified source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, such as whether the character is a letter, a digit, or neither.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetStringTypeEx</strong>](https://msdn.microsoft.com/library/windows/desktop/dd318118)</td>
-<td>Retrieves character-type information for the characters in the specified source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, such as whether the character is a letter, a digit, or neither. <br/> Unlike its close relatives [<strong>GetStringTypeA</strong>](https://msdn.microsoft.com/library/windows/desktop/dd318117) and [<strong>GetStringTypeW</strong>](https://msdn.microsoft.com/library/windows/desktop/dd318119), [<strong>GetStringTypeEx</strong>](https://msdn.microsoft.com/library/windows/desktop/dd318118) exhibits standard behavior through the use of the <strong>#define UNICODE</strong> switch. It is the recommended function.<br/></td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd318118"><strong>GetStringTypeEx</strong></a></td>
+<td>Retrieves character-type information for the characters in the specified source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, such as whether the character is a letter, a digit, or neither. <br/> Unlike its close relatives <a href="https://msdn.microsoft.com/library/windows/desktop/dd318117"><strong>GetStringTypeA</strong></a> and <a href="https://msdn.microsoft.com/library/windows/desktop/dd318119"><strong>GetStringTypeW</strong></a>, <a href="https://msdn.microsoft.com/library/windows/desktop/dd318118"><strong>GetStringTypeEx</strong></a> exhibits standard behavior through the use of the <strong>#define UNICODE</strong> switch. It is the recommended function.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetStringTypeW</strong>](https://msdn.microsoft.com/library/windows/desktop/dd318119)</td>
+<td><a href="https://msdn.microsoft.com/library/windows/desktop/dd318119"><strong>GetStringTypeW</strong></a></td>
 <td>Retrieves character-type information for the characters in the specified source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, such as whether the character is a letter, a digit, or neither.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IsCharAlpha</strong>](/windows/desktop/api/Winuser/nf-winuser-ischaralphaa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-ischaralphaa"><strong>IsCharAlpha</strong></a></td>
 <td>Determines whether a character is an alphabetical character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IsCharAlphaNumeric</strong>](/windows/desktop/api/Winuser/nf-winuser-ischaralphanumerica)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-ischaralphanumerica"><strong>IsCharAlphaNumeric</strong></a></td>
 <td>Determines whether a character is either an alphabetical or a numeric character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IsCharLower</strong>](/windows/desktop/api/Winuser/nf-winuser-ischarlowera)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-ischarlowera"><strong>IsCharLower</strong></a></td>
 <td>Determines whether a character is lowercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IsCharUpper</strong>](/windows/desktop/api/Winuser/nf-winuser-ischaruppera)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-ischaruppera"><strong>IsCharUpper</strong></a></td>
 <td>Determines whether a character is uppercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>LoadString</strong>](/windows/desktop/api/Winuser/nf-winuser-loadstringa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-loadstringa"><strong>LoadString</strong></a></td>
 <td>Loads a string resource from the executable file associated with a specified module, copies the string into a buffer, and appends a terminating NULL character.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>lstrcat</strong>](/windows/desktop/api/Winbase/nf-winbase-lstrcata)</td>
+<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcata"><strong>lstrcat</strong></a></td>
 <td>Appends one string to another.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>lstrcmp</strong>](/windows/desktop/api/Winbase/nf-winbase-lstrcmpa)</td>
+<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcmpa"><strong>lstrcmp</strong></a></td>
 <td>Compares two character strings. The comparison is case-sensitive.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>lstrcmpi</strong>](/windows/desktop/api/Winbase/nf-winbase-lstrcmpia)</td>
+<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcmpia"><strong>lstrcmpi</strong></a></td>
 <td>Compares two character strings. The comparison is not case-sensitive.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>lstrcpy</strong>](/windows/desktop/api/Winbase/nf-winbase-lstrcpya)</td>
+<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcpya"><strong>lstrcpy</strong></a></td>
 <td>Copies a string to a buffer.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>lstrcpyn</strong>](/windows/desktop/api/Winbase/nf-winbase-lstrcpyna)</td>
+<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcpyna"><strong>lstrcpyn</strong></a></td>
 <td>Copies a specified number of characters from a source string into a buffer. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>lstrlen</strong>](/windows/desktop/api/Winbase/nf-winbase-lstrlena)</td>
+<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrlena"><strong>lstrlen</strong></a></td>
 <td>Determines the length of the specified string (not including the terminating null character).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>OemToChar</strong>](/windows/desktop/api/Winuser/nf-winuser-oemtochara)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-oemtochara"><strong>OemToChar</strong></a></td>
 <td>Translates a string from the OEM-defined character set into either an ANSI or a wide-character string.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>OemToCharBuff</strong>](/windows/desktop/api/Winuser/nf-winuser-oemtocharbuffa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-oemtocharbuffa"><strong>OemToCharBuff</strong></a></td>
 <td>Translates a specified number of characters in a string from the OEM-defined character set into either an ANSI or a wide-character string.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>wsprintf</strong>](/windows/desktop/api/Winuser/nf-winuser-wsprintfa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-wsprintfa"><strong>wsprintf</strong></a></td>
 <td>Writes formatted data to the specified buffer.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>wvsprintf</strong>](/windows/desktop/api/Winuser/nf-winuser-wvsprintfa)</td>
+<td><a href="/windows/desktop/api/Winuser/nf-winuser-wvsprintfa"><strong>wvsprintf</strong></a></td>
 <td>Writes formatted data to the specified buffer using a pointer to a list of arguments.<br/></td>
 </tr>
 </tbody>

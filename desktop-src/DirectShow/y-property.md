@@ -1,6 +1,6 @@
 ---
 Description: The y property sets or retrieves the y position of the rectangle's upper-left corner.
-ms.assetid: a000a2d4-afcf-4b88-9bbc-f42758744de2
+ms.assetid: '7865d6c8-8375-44b3-b4e1-197a592dcf83'
 title: y Property
 ms.technology: desktop
 ms.prod: windows

@@ -1,5 +1,5 @@
 ---
-title: WS\_XML\_WRITER
+title: WS_XML_WRITER
 description: The opaque type used for a reference to an XML writer.
 ms.assetid: 8f413e60-8a30-492c-8f2d-80be511fee11
 keywords:

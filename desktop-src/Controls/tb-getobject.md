@@ -1,5 +1,5 @@
 ---
-title: TB\_GETOBJECT message
+title: TB_GETOBJECT message
 description: Retrieves the IDropTarget for a toolbar control.
 ms.assetid: b26394ea-6f0f-4084-956d-f9166cc54b76
 keywords:

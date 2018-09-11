@@ -1,7 +1,7 @@
 ---
 Description: Associates a managed element with its configuration data.
 ms.assetid: 4DB78E43-E387-478E-999C-770B35925721
-title: Msvm\_ElementSettingData class
+title: Msvm_ElementSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

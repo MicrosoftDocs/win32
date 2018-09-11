@@ -153,7 +153,7 @@ When you implement an effect, sampler state is one of several types of state tha
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Differences between Direct3D 9 and Direct3D 10:<br/> Here is a partial example of a Direct3D 9 sampler from [BasicHLSL Sample](https://msdn.microsoft.com/en-us/library/Ee416223(v=VS.85).aspx).<br/> <span data-codelanguage=""></span>
+<td>Differences between Direct3D 9 and Direct3D 10:<br/> Here is a partial example of a Direct3D 9 sampler from <a href="https://msdn.microsoft.com/en-us/library/Ee416223(v=VS.85).aspx">BasicHLSL Sample</a>.<br/> <span data-codelanguage=""></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -172,7 +172,7 @@ sampler_state
 </tbody>
 </table>
 
-<p>Here is a partial example of a Direct3D 10 sampler from [BasicHLSL10 Sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx).</p>
+<p>Here is a partial example of a Direct3D 10 sampler from <a href="https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx">BasicHLSL10 Sample</a>.</p>
 <div class="code">
 <span data-codelanguage=""></span>
 <table>

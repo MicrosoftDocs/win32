@@ -56,7 +56,7 @@ Windows Portable Devices supports the following event properties.
 <tr class="odd">
 <td><strong>WPD_EVENT_PARAMETER_OBJECT_CREATION_COOKIE</strong></td>
 <td><strong>VT_LPWSTR</strong></td>
-<td>The cookie handed back to a client when it requests an object creation by calling the [<strong>IPortableDeviceContent::CreateObjectWithPropertiesAndData</strong>](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata) method.This parameter is added as a convenience to help the caller tie an object-added event to the request it sent to create the object. The driver hands this cookie back as the <strong>WPD_PROPERTY_OBJECT_MANAGEMENT_CONTEXT</strong> return value when processing the <strong>WPD_COMMAND_OBJECT_MANAGEMENT_CREATE_OBJECT_WITH_PROPERTIES_AND_DATA</strong> command.<br/></td>
+<td>The cookie handed back to a client when it requests an object creation by calling the <a href="/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata"><strong>IPortableDeviceContent::CreateObjectWithPropertiesAndData</strong></a> method.This parameter is added as a convenience to help the caller tie an object-added event to the request it sent to create the object. The driver hands this cookie back as the <strong>WPD_PROPERTY_OBJECT_MANAGEMENT_CONTEXT</strong> return value when processing the <strong>WPD_COMMAND_OBJECT_MANAGEMENT_CREATE_OBJECT_WITH_PROPERTIES_AND_DATA</strong> command.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>WPD_EVENT_PARAMETER_OBJECT_PARENT_PERSISTENT_UNIQUE_ID</strong></td>
@@ -83,7 +83,7 @@ Windows Portable Devices supports the following event properties.
 <tr class="odd">
 <td><strong>WPD_EVENT_PARAMETER_PNP_DEVICE_ID</strong></td>
 <td><strong>VT_LPWSTR</strong></td>
-<td>A value that specifies the device that originated the event.This is the device or service identifier given by the Plug-and-Play (PnP) system, and is the same string used in the <strong>IPortableDevice::Open</strong>or [<strong>IPortableDeviceService::Open</strong>](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open) methods.<br/></td>
+<td>A value that specifies the device that originated the event.This is the device or service identifier given by the Plug-and-Play (PnP) system, and is the same string used in the <strong>IPortableDevice::Open</strong>or <a href="/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open"><strong>IPortableDeviceService::Open</strong></a> methods.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>WPD_EVENT_PARAMETER_SERVICE_METHOD_CONTEXT</strong></td>

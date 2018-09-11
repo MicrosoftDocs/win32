@@ -41,17 +41,17 @@ Driver capability flags.
 <tr class="odd">
 <td>D3DCAPS3_COPY_TO_VIDMEM</td>
 <td>0x00000100L</td>
-<td>Device can accelerate a memory copy from system memory to local video memory. This cap guarantees that [<strong>UpdateSurface</strong>](/windows/desktop/api) and [<strong>UpdateTexture</strong>](/windows/desktop/api) calls will be hardware accelerated. If this cap is absent, these calls will succeed but will be slower.</td>
+<td>Device can accelerate a memory copy from system memory to local video memory. This cap guarantees that <a href="/windows/desktop/api"><strong>UpdateSurface</strong></a> and <a href="/windows/desktop/api"><strong>UpdateTexture</strong></a> calls will be hardware accelerated. If this cap is absent, these calls will succeed but will be slower.</td>
 </tr>
 <tr class="even">
 <td>D3DCAPS3_COPY_TO_SYSTEMMEM</td>
 <td>0x00000200L</td>
-<td>Device can accelerate a memory copy from local video memory to system memory. This cap guarantees that [<strong>GetRenderTargetData</strong>](/windows/desktop/api) calls will be hardware accelerated. If this cap is absent, this call will succeed but will be slower.</td>
+<td>Device can accelerate a memory copy from local video memory to system memory. This cap guarantees that <a href="/windows/desktop/api"><strong>GetRenderTargetData</strong></a> calls will be hardware accelerated. If this cap is absent, this call will succeed but will be slower.</td>
 </tr>
 <tr class="odd">
 <td>D3DCAPS3_DXVAHD</td>
 <td>0x00000400L</td>
-<td>The display driver supports the DXVA-HD DDI. For more information about DXVA-HD DDI, see [Processing High-Definition Video](http://go.microsoft.com/fwlink/p/?linkid=186797).<br/> 
+<td>The display driver supports the DXVA-HD DDI. For more information about DXVA-HD DDI, see <a href="http://go.microsoft.com/fwlink/p/?linkid=186797">Processing High-Definition Video</a>.<br/> 
 <table>
 <tbody>
 <tr class="odd">

@@ -1,5 +1,5 @@
 ---
-title: EM\_HIDEBALLOONTIP message
+title: EM_HIDEBALLOONTIP message
 description: Hides any balloon tip associated with an edit control.
 ms.assetid: 820b98d6-c2bd-4821-ba44-9d58e23eac81
 keywords:

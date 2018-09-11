@@ -1,5 +1,5 @@
 ---
-title: TBM\_SETTOOLTIPS message
+title: TBM_SETTOOLTIPS message
 description: Assigns a tooltip control to a trackbar control.
 ms.assetid: 9bba1084-d04e-4631-a5cc-408849a14eb1
 keywords:

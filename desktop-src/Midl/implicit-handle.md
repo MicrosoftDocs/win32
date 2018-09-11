@@ -1,5 +1,5 @@
 ---
-title: implicit\_handle attribute
+title: implicit_handle attribute
 description: The \ implicit\_handle\ ACF attribute specifies the handle used for functions that do not include an explicit handle as a procedure parameter.
 ms.assetid: 09c17473-87b5-4fd6-beb9-3d9b7bc82d8c
 keywords:

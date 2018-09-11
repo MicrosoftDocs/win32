@@ -1,5 +1,5 @@
 ---
-title: IBasicDevice add\_ConnectionStatusChanged method
+title: IBasicDevice add_ConnectionStatusChanged method
 description: Registers an event handler for the ConnectionStatusChanged event.
 ms.assetid: 1A4CCEFE-B6B6-4AFD-9296-EE923B9EF399
 keywords:

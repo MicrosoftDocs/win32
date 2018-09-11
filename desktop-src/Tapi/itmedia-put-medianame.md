@@ -1,7 +1,7 @@
 ---
 Description: The put\_MediaName method sets the media name. Defined media are audio, video, whiteboard, text, and data.
 ms.assetid: 0dd18add-6c7e-40a8-8b39-10c65bdfb2e0
-title: ITMedia::put\_MediaName method
+title: ITMedia::put_MediaName method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: UI\_PKEY\_FontProperties\_Family
+title: UI_PKEY_FontProperties_Family
 description: Identifies the UI\_PKEY\_FontProperties\_Family property.
 ms.assetid: 95064588-9c14-401f-a86e-7b11e86faaf9
 ms.technology: desktop

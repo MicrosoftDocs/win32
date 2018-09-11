@@ -1,5 +1,5 @@
 ---
-title: AddAccount method of the Win32\_TSPermissionsSetting class
+title: AddAccount method of the Win32_TSPermissionsSetting class
 description: The AddAccount method prepares to add an account to the terminal with the specified permission set. You can add users, groups, or computers.
 audience: developer
 author: REDMOND\\markl

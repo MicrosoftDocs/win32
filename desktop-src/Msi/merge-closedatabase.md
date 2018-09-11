@@ -1,6 +1,6 @@
 ---
 Description: The CloseDatabase method of the Merge object closes the currently open Windows Installer database.
-ms.assetid: efbb6238-e9e3-4603-896a-75fcff2bb362
+ms.assetid: 'a89fe77a-0099-4c49-b484-c05ee351a66a'
 title: Merge.CloseDatabase method
 ms.technology: desktop
 ms.prod: windows

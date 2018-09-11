@@ -1,7 +1,7 @@
 ---
 Description: Indicates which output is the primary output on a tee node.
 ms.assetid: f7d98837-75da-48cc-8307-091be2d95392
-title: MF\_TOPONODE\_PRIMARYOUTPUT attribute
+title: MF_TOPONODE_PRIMARYOUTPUT attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

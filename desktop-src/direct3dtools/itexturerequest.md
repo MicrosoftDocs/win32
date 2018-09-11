@@ -26,7 +26,7 @@ The **ITextureRequest** interface inherits from the [**IUnknown**](https://msdn.
 
 The **ITextureRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;">[<strong>RequestAsync</strong>](https://msdn.microsoft.com/library/windows/desktop/mt432818)</td><td style="text-align: left;"><p>Requests to get the contents of a texture as a .DDS (DirectDraw Surface) file.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://msdn.microsoft.com/library/windows/desktop/mt432818"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to get the contents of a texture as a .DDS (DirectDraw Surface) file.</p></td></tr></tbody></table>
 
  
 

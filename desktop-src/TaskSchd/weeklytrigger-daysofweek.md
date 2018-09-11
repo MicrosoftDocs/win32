@@ -1,7 +1,7 @@
 ---
 title: WeeklyTrigger.DaysOfWeek property
 description: For scripting, gets or sets the days of the week on which the task runs.
-ms.assetid: 3d4bb891-8620-401e-b1ce-39d593c1038a
+ms.assetid: '79f279d4-d6d2-428b-bbed-226e4eaaefb6'
 keywords:
 - DaysOfWeek property Task Scheduler
 - DaysOfWeek property Task Scheduler , WeeklyTrigger object

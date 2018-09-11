@@ -1,5 +1,5 @@
 ---
-title: SetProvider method of the Win32\_SessionDirectoryVMMPlugin class
+title: SetProvider method of the Win32_SessionDirectoryVMMPlugin class
 description: Sets the name of the plug-in provider.
 audience: developer
 author: REDMOND\\markl

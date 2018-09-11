@@ -1,5 +1,5 @@
 ---
-title: GetCurrentRedirectableAddresses method of the Win32\_TSSessionDirectory class
+title: GetCurrentRedirectableAddresses method of the Win32_TSSessionDirectory class
 description: Obtains the currently configured list of DNS eligible addresses that can be used for redirection.
 audience: developer
 author: REDMOND\\markl

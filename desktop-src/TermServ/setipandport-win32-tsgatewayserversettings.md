@@ -1,5 +1,5 @@
 ---
-title: SetIPAndPort method of the Win32\_TSGatewayServerSettings class
+title: SetIPAndPort method of the Win32_TSGatewayServerSettings class
 description: Sets the listening IP address and port number for the specified transport.
 audience: developer
 author: REDMOND\\markl

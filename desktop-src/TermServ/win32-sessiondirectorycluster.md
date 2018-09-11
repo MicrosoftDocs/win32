@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionDirectoryCluster class
+title: Win32_SessionDirectoryCluster class
 description: Provides properties for viewing the properties of a farm in Remote Desktop Connection Broker (RD Connection Broker).
 audience: developer
 author: REDMOND\\markl

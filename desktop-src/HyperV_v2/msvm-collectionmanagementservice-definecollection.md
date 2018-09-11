@@ -1,7 +1,7 @@
 ---
 Description: Creates a new CIM\_CollectionOfMSEs object.
 ms.assetid: cd2a0cde-d4c6-4ba8-8140-fcc7546c1006
-title: DefineCollection method of the Msvm\_CollectionManagementService class
+title: DefineCollection method of the Msvm_CollectionManagementService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MM\_MOM\_DONE message
+title: MM_MOM_DONE message
 description: The MM\_MOM\_DONE message is sent to a window when the specified MIDI system-exclusive or stream buffer has been played and is being returned to the application.
 ms.assetid: 4651d5b4-3c98-4fa7-b761-dafb30e0d31e
 keywords:

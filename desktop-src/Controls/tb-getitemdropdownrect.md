@@ -1,5 +1,5 @@
 ---
-title: TB\_GETITEMDROPDOWNRECT message
+title: TB_GETITEMDROPDOWNRECT message
 description: Gets the bounding rectangle of the dropdown window for a toolbar item with style BTNS\_DROPDOWN.
 ms.assetid: 4b59c96b-8d75-44c1-b771-c1d62502a2c2
 keywords:
@@ -35,7 +35,7 @@ The zero-based index of the toolbar control item for which to retrieve the bound
 </dd> <dt>
 
 *lParam* \[in, out\]
-</dt> <dd>A pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897) structure to receive the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the **RECT** structure are expressed as client coordinates.</dd> </dl>
+</dt> <dd>A pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/dd162897">**RECT**</a> structure to receive the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the **RECT** structure are expressed as client coordinates.</dd> </dl>
 
 ## Return value
 

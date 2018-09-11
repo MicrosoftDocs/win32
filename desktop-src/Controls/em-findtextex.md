@@ -1,5 +1,5 @@
 ---
-title: EM\_FINDTEXTEX message
+title: EM_FINDTEXTEX message
 description: Finds text within a rich edit control.
 ms.assetid: f1bf925b-2776-40b8-9d05-8484daf8d989
 keywords:

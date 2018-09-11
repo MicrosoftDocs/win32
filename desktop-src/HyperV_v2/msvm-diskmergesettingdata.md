@@ -1,7 +1,7 @@
 ---
 Description: Represents the configuration state of the disk merge settings for a virtual machine.
 ms.assetid: b4c0afeb-ce37-4eec-8aba-0d74115c463f
-title: Msvm\_DiskMergeSettingData class
+title: Msvm_DiskMergeSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

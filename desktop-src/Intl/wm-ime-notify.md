@@ -1,7 +1,7 @@
 ---
 Description: Sent to an application to notify it of changes to the IME window. A window receives this message through its WindowProc function.
 ms.assetid: 20e064b8-2baf-4b4c-8341-36c3e4643eff
-title: WM\_IME\_NOTIFY message
+title: WM_IME_NOTIFY message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# WM\_IME\_NOTIFY message
+# WM_IME_NOTIFY message
 
 Sent to an application to notify it of changes to the IME window. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
@@ -41,7 +41,23 @@ A handle to window.
 
 The command. This parameter can have one of the following values.
 
-<dl> <dd>[IMN\_CHANGECANDIDATE](imn-changecandidate.md)</dd> <dd>[IMN\_CLOSECANDIDATE](imn-closecandidate.md)</dd> <dd>[IMN\_CLOSESTATUSWINDOW](imn-closestatuswindow.md)</dd> <dd>[IMN\_GUIDELINE](imn-guideline.md)</dd> <dd>[IMN\_OPENCANDIDATE](imn-opencandidate.md)</dd> <dd>[IMN\_OPENSTATUSWINDOW](imn-openstatuswindow.md)</dd> <dd>[IMN\_SETCANDIDATEPOS](imn-setcandidatepos.md)</dd> <dd>[IMN\_SETCOMPOSITIONFONT](imn-setcompositionfont.md)</dd> <dd>[IMN\_SETCOMPOSITIONWINDOW](imn-setcompositionwindow.md)</dd> <dd>[IMN\_SETCONVERSIONMODE](imn-setconversionmode.md)</dd> <dd>[IMN\_SETOPENSTATUS](imn-setopenstatus.md)</dd> <dd>[IMN\_SETSENTENCEMODE](imn-setsentencemode.md)</dd> <dd>[IMN\_SETSTATUSWINDOWPOS](imn-setstatuswindowpos.md)</dd> </dl> </dd> <dt>
+<dl>
+<dd><a href="imn-changecandidate">IMN_CHANGECANDIDATE</a></dd> 
+<dd><a href="imn-closecandidate">IMN_CLOSECANDIDATE</a></dd> 
+<dd><a href="imn-closestatuswindow">IMN_CLOSESTATUSWINDOW</a></dd> 
+<dd><a href="imn-guideline">IMN_GUIDELINE</a></dd> 
+<dd><a href="imn-opencandidate">IMN_OPENCANDIDATE</a></dd> 
+<dd><a href="imn-openstatuswindow">IMN_OPENSTATUSWINDOW</a></dd> 
+<dd><a href="imn-setcandidatepos">IMN_SETCANDIDATEPOS</a></dd> 
+<dd><a href="imn-setcompositionfont">IMN_SETCOMPOSITIONFONT</a></dd> 
+<dd><a href="imn-setcompositionwindow">IMN_SETCOMPOSITIONWINDOW</a></dd> 
+<dd><a href="imn-setconversionmode">IMN_SETCONVERSIONMODE</a></dd> 
+<dd><a href="imn-setopenstatus">IMN_SETOPENSTATUS</a></dd> 
+<dd><a href="imn-setsentencemode">IMN_SETSENTENCEMODE</a></dd> 
+<dd><a href="imn-setstatuswindowpos">IMN_SETSTATUSWINDOWPOS</a></dd> 
+</dl> 
+</dd> 
+<dt>
 
 *lParam* 
 </dt> <dd>
@@ -80,43 +96,43 @@ An application processes this message if it is responsible for managing the IME 
 [Input Method Manager Messages](input-method-manager-messages.md)
 </dt> <dt>
 
-[IMN\_CHANGECANDIDATE](imn-changecandidate.md)
+[IMN_CHANGECANDIDATE](imn-changecandidate.md)
 </dt> <dt>
 
-[IMN\_CLOSECANDIDATE](imn-closecandidate.md)
+[IMN_CLOSECANDIDATE](imn-closecandidate.md)
 </dt> <dt>
 
-[IMN\_CLOSESTATUSWINDOW](imn-closestatuswindow.md)
+[IMN_CLOSESTATUSWINDOW](imn-closestatuswindow.md)
 </dt> <dt>
 
-[IMN\_GUIDELINE](imn-guideline.md)
+[IMN_GUIDELINE](imn-guideline.md)
 </dt> <dt>
 
-[IMN\_OPENCANDIDATE](imn-opencandidate.md)
+[IMN_OPENCANDIDATE](imn-opencandidate.md)
 </dt> <dt>
 
-[IMN\_OPENSTATUSWINDOW](imn-openstatuswindow.md)
+[IMN_OPENSTATUSWINDOW](imn-openstatuswindow.md)
 </dt> <dt>
 
-[IMN\_SETCANDIDATEPOS](imn-setcandidatepos.md)
+[IMN_SETCANDIDATEPOS](imn-setcandidatepos.md)
 </dt> <dt>
 
-[IMN\_SETCOMPOSITIONFONT](imn-setcompositionfont.md)
+[IMN_SETCOMPOSITIONFONT](imn-setcompositionfont.md)
 </dt> <dt>
 
-[IMN\_SETCOMPOSITIONWINDOW](imn-setcompositionwindow.md)
+[IMN_SETCOMPOSITIONWINDOW](imn-setcompositionwindow.md)
 </dt> <dt>
 
-[IMN\_SETCONVERSIONMODE](imn-setconversionmode.md)
+[IMN_SETCONVERSIONMODE](imn-setconversionmode.md)
 </dt> <dt>
 
-[IMN\_SETOPENSTATUS](imn-setopenstatus.md)
+[IMN_SETOPENSTATUS](imn-setopenstatus.md)
 </dt> <dt>
 
-[IMN\_SETSENTENCEMODE](imn-setsentencemode.md)
+[IMN_SETSENTENCEMODE](imn-setsentencemode.md)
 </dt> <dt>
 
-[IMN\_SETSTATUSWINDOWPOS](imn-setstatuswindowpos.md)
+[IMN_SETSTATUSWINDOWPOS](imn-setstatuswindowpos.md)
 </dt> </dl>
 
  

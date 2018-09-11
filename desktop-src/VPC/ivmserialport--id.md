@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPort \_ID method
+title: IVMSerialPort _ID method
 description: Internal identifier of the serial port.
 ms.assetid: c26c18dc-5491-4edf-9338-e4f3bf431084
 keywords:

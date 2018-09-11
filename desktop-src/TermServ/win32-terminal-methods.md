@@ -1,5 +1,5 @@
 ---
-title: Win32\_Terminal Methods
+title: Win32_Terminal Methods
 description: The Win32\_Terminal class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

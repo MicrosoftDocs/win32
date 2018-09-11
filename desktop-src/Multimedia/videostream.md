@@ -1,7 +1,7 @@
 ---
 title: Videostream
 description: Videostream
-ms.assetid: c2e783a5-829b-4fa2-995a-c0cb4e63645b
+ms.assetid: '76b27360-f69b-4682-be61-05aca8cd1d3b'
 keywords:
 - AVICap callback functions,videostream
 ms.technology: desktop

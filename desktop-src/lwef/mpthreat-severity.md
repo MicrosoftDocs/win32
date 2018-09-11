@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT\_SEVERITY enumeration
+title: MPTHREAT_SEVERITY enumeration
 description: Possible threat severities.
 ms.assetid: 7C50AC74-16CB-4198-ABB2-D6999429F2EA
 keywords:

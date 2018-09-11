@@ -1,7 +1,7 @@
 ---
 title: RepetitionPattern object
 description: Scripting object that defines how often the task is run and how long the repetition pattern is repeated after the task is started.
-ms.assetid: 7eea143b-d2f8-44d2-a3ec-8328a0bc69ef
+ms.assetid: 'a4e63da7-78ab-46a9-9b55-8460355753cf'
 keywords:
 - triggers Task Scheduler , repetition pattern object
 - repetition pattern Task Scheduler , object

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSIssuedLicense Methods
+title: Win32_TSIssuedLicense Methods
 description: The Win32\_TSIssuedLicense class exposes the following methods.
 audience: developer
 author: REDMOND\\markl

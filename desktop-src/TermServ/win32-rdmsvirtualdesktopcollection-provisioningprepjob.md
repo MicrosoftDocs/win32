@@ -1,5 +1,5 @@
 ---
-title: ProvisioningPrepJob method of the Win32\_RDMSVirtualDesktopCollection class
+title: ProvisioningPrepJob method of the Win32_RDMSVirtualDesktopCollection class
 description: Creates a virtual desktop provisioning job.
 audience: developer
 author: REDMOND\\markl

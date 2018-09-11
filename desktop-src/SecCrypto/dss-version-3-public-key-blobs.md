@@ -54,34 +54,34 @@ The following table describes each component of the key BLOB.
 <tbody>
 <tr class="odd">
 <td>Blobheader</td>
-<td>A [<strong>BLOBHEADER</strong>](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure. The <strong>bType</strong> member must have a value of PUBLICKEYBLOB.</td>
+<td>A <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc"><strong>BLOBHEADER</strong></a> structure. The <strong>bType</strong> member must have a value of PUBLICKEYBLOB.</td>
 </tr>
 <tr class="even">
 <td>Dsspubkeyver3</td>
-<td>A [<strong>DSSPUBKEY_VER3</strong>](https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx) structure. The <strong>magic</strong> member should be set to &quot;DSS3&quot; (0x33535344) for public keys. Notice that the hexadecimal value is just an [<em>ASCII</em>](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) encoding of &quot;DSS3.&quot;<br/></td>
+<td>A <a href="https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx"><strong>DSSPUBKEY_VER3</strong></a> structure. The <strong>magic</strong> member should be set to &quot;DSS3&quot; (0x33535344) for public keys. Notice that the hexadecimal value is just an <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx"><em>ASCII</em></a> encoding of &quot;DSS3.&quot;<br/></td>
 </tr>
 <tr class="odd">
 <td>P</td>
-<td>The P value is located directly after the [<strong>DSSPUBKEY_VER3</strong>](https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx) structure, and should always be the length, in bytes, of the DSSPUBKEY_VER3 <strong>bitlenP</strong> field (bit length of P) divided by eight ([<em>little-endian</em>](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) format).</td>
+<td>The P value is located directly after the <a href="https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx"><strong>DSSPUBKEY_VER3</strong></a> structure, and should always be the length, in bytes, of the DSSPUBKEY_VER3 <strong>bitlenP</strong> field (bit length of P) divided by eight (<a href="https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx"><em>little-endian</em></a> format).</td>
 </tr>
 <tr class="even">
 <td>Q</td>
-<td>The Q value is located directly after the P value and should always be the length in bytes of the [<strong>DSSPUBKEY_VER3</strong>](https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx)<strong>bitlenQ</strong> member divided by eight ([<em>little-endian</em>](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) format).</td>
+<td>The Q value is located directly after the P value and should always be the length in bytes of the <a href="https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenQ</strong> member divided by eight (<a href="https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx"><em>little-endian</em></a> format).</td>
 </tr>
 <tr class="odd">
 <td>G</td>
-<td>The G value is located directly after the Q value and should always be the length, in bytes, of the [<strong>DSSPUBKEY_VER3</strong>](https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx)<strong>bitlenP</strong> member (bit length of P) divided by eight. If the length of the data is one or more bytes shorter than P divided by 8, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([<em>little-endian</em>](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) format).</td>
+<td>The G value is located directly after the Q value and should always be the length, in bytes, of the <a href="https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenP</strong> member (bit length of P) divided by eight. If the length of the data is one or more bytes shorter than P divided by 8, the data must be padded with the necessary bytes (of zero value) to make the data the desired length (<a href="https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx"><em>little-endian</em></a> format).</td>
 </tr>
 <tr class="even">
 <td>J</td>
-<td>The J value is located directly after the G value and should always be the length in bytes of the [<strong>DSSPUBKEY_VER3</strong>](https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx)<strong>bitlenJ</strong> member divided by eight ([<em>little-endian</em>](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) format). If the bitlenQ value is 0, then the value is absent from the BLOB.</td>
+<td>The J value is located directly after the G value and should always be the length in bytes of the <a href="https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenJ</strong> member divided by eight (<a href="https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx"><em>little-endian</em></a> format). If the bitlenQ value is 0, then the value is absent from the BLOB.</td>
 </tr>
 <tr class="odd">
 <td>Y</td>
-<td>The Y value, (G^X) mod P, is located directly after the J value, and should always be the length, in bytes, of the [<strong>DSSPUBKEY_VER3</strong>](https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx)<strong>bitlenP</strong> member (bit length of P) divided by eight. If the length of the data that results from the calculation of (G^X) mod P is one or more bytes shorter than P divided by 8, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([<em>little-endian</em>](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) format).
+<td>The Y value, (G^X) mod P, is located directly after the J value, and should always be the length, in bytes, of the <a href="https://msdn.microsoft.com/en-us/library/Aa381983(v=VS.85).aspx"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenP</strong> member (bit length of P) divided by eight. If the length of the data that results from the calculation of (G^X) mod P is one or more bytes shorter than P divided by 8, the data must be padded with the necessary bytes (of zero value) to make the data the desired length (<a href="https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx"><em>little-endian</em></a> format).
 <blockquote>
 [!Note]<br />
-When this structure is used with [<strong>CryptSetKeyParam</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) with the <em>dwParam</em> value KP_PUB_PARAMS, then this value is not included in the BLOB.
+When this structure is used with <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam"><strong>CryptSetKeyParam</strong></a> with the <em>dwParam</em> value KP_PUB_PARAMS, then this value is not included in the BLOB.
 </blockquote>
 <br/> <br/></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: MCI\_SPIN command
+title: MCI_SPIN command
 description: The MCI\_SPIN command starts the device spinning up or down. Videodisc devices recognize this command.
 ms.assetid: 9e491455-d06d-44c6-8aca-6360384ec266
 keywords:

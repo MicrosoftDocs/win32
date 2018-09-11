@@ -1,7 +1,7 @@
 ---
 Description: Specifies whether a buffer contains the start of an Advanced Systems Format (ASF) packet.
 ms.assetid: eca3f9b7-6051-4654-8016-a9c679519bc7
-title: MFASFSPLITTER\_PACKET\_BOUNDARY attribute
+title: MFASFSPLITTER_PACKET_BOUNDARY attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSDeploymentSettings class
+title: Win32_TSDeploymentSettings class
 description: Defines the default settings that the RemoteApp Manager uses when creating Remote Desktop Protocol (RDP) files.
 audience: developer
 author: REDMOND\\markl

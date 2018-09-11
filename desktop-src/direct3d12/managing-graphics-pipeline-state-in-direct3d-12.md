@@ -59,7 +59,7 @@ Most graphics pipeline states are set using PSOs. However, there are a set of pi
 <tbody>
 <tr class="odd">
 <td>Resource bindings</td>
-<td><dl>[<strong>IASetIndexBuffer</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer)<br />
+<td><dl><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer"><strong>IASetIndexBuffer</strong></a><br />
 [<strong>IASetVertexBuffers</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers)<br />
 [<strong>SOSetTargets</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-sosettargets)<br />
 [<strong>OMSetRenderTargets</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets)<br />
@@ -70,23 +70,23 @@ All <strong>SetComputeRoot...</strong> methods<br />
 </tr>
 <tr class="even">
 <td>Viewports</td>
-<td>[<strong>RSSetViewports</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports"><strong>RSSetViewports</strong></a></td>
 </tr>
 <tr class="odd">
 <td>Scissor rects</td>
-<td>[<strong>RSSetScissorRects</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetscissorrects)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetscissorrects"><strong>RSSetScissorRects</strong></a></td>
 </tr>
 <tr class="even">
 <td>Blend factor</td>
-<td>[<strong>OMSetBlendFactor</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetblendfactor)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetblendfactor"><strong>OMSetBlendFactor</strong></a></td>
 </tr>
 <tr class="odd">
 <td>The depth stencil reference value</td>
-<td>[<strong>OMSetStencilRef</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref"><strong>OMSetStencilRef</strong></a></td>
 </tr>
 <tr class="even">
 <td>The input-assembler primitive topology order and adjacency type.</td>
-<td>[<strong>IASetPrimitiveTopology</strong>](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology)</td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology"><strong>IASetPrimitiveTopology</strong></a></td>
 </tr>
 </tbody>
 </table>

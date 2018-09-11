@@ -1,5 +1,5 @@
 ---
-title: WM\_SYSCOMMAND message
+title: WM_SYSCOMMAND message
 description: A window receives this message when the user chooses a command from the Window menu (formerly known as the system or control menu) or when the user chooses the maximize button, minimize button, restore button, or close button.
 ms.assetid: 82c7cc95-82d5-4f0f-8c78-ab325561b04e
 keywords:
@@ -59,7 +59,7 @@ The type of system command requested. This parameter can be one of the following
 </tr>
 <tr class="even">
 <td><span id="SC_CONTEXTHELP"></span><span id="sc_contexthelp"></span><dl> <dt><strong>SC_CONTEXTHELP</strong></dt> <dt>0xF180</dt> </dl></td>
-<td>Changes the cursor to a question mark with a pointer. If the user then clicks a control in the dialog box, the control receives a [<strong>WM_HELP</strong>](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx) message.<br/></td>
+<td>Changes the cursor to a question mark with a pointer. If the user then clicks a control in the dialog box, the control receives a <a href="https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx"><strong>WM_HELP</strong></a> message.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="SC_DEFAULT"></span><span id="sc_default"></span><dl> <dt><strong>SC_DEFAULT</strong></dt> <dt>0xF160</dt> </dl></td>

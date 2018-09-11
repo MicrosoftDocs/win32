@@ -1,5 +1,5 @@
 ---
-title: LVM\_SETGROUPMETRICS message
+title: LVM_SETGROUPMETRICS message
 description: Sets information about the display of groups.
 ms.assetid: 268b478d-da1f-4efe-9ee9-af3f12e089ee
 keywords:
@@ -31,7 +31,7 @@ Sets information about the display of groups.
 </dt> <dd>Must be **NULL**.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to an [**LVGROUPMETRICS**](/windows/desktop/api/Commctrl/ns-commctrl-taglvgroupmetrics) structure that contains the metrics to set.</dd> </dl>
+</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvgroupmetrics">**LVGROUPMETRICS**</a> structure that contains the metrics to set.</dd> </dl>
 
 ## Return value
 

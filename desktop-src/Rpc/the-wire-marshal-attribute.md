@@ -1,5 +1,5 @@
 ---
-title: The wire\_marshal Attribute
+title: The wire_marshal Attribute
 description: The \ wire\_marshal\ attribute is an IDL-type attribute similar in syntax to \ transmit\_as\ , but providing a more efficient way to marshal data across a network.
 ms.assetid: b764ca2b-7bbc-4266-836c-0d70033e9c62
 keywords:

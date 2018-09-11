@@ -1,5 +1,5 @@
 ---
-title: EM\_SETEVENTMASK message
+title: EM_SETEVENTMASK message
 description: Sets the event mask for a rich edit control. The event mask specifies which notification codes the control sends to its parent window.
 ms.assetid: 139f6e44-fc54-40f2-a3f6-2b7efc819cae
 keywords:

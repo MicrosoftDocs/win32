@@ -1,5 +1,5 @@
 ---
-title: '\ pragma Directive'
+title: ' pragma Directive'
 description: Preprocessor directive that provides machine-specific or operating system-specific features while retaining overall compatibility with the C and C++ languages.
 ms.assetid: 806ddb9b-ae4b-4dd3-a2c4-39c9cb7f3820
 keywords:

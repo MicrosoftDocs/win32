@@ -1,7 +1,7 @@
 ---
 Description: Specifies the original device timestamp on the sample.
 ms.assetid: 93BB6E41-308E-4527-A04B-C685C818FEC4
-title: MFSampleExtension\_DeviceReferenceSystemTime attribute
+title: MFSampleExtension_DeviceReferenceSystemTime attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

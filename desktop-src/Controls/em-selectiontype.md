@@ -1,5 +1,5 @@
 ---
-title: EM\_SELECTIONTYPE message
+title: EM_SELECTIONTYPE message
 description: Determines the selection type for a rich edit control.
 ms.assetid: a4200e32-1056-47bd-be47-5fabaf99c058
 keywords:

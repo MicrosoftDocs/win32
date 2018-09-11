@@ -1,7 +1,7 @@
 ---
 title: StringCollection Object
 description: The StringCollection object provides a way to manipulate a collection of strings.
-ms.assetid: 7d1210fa-9ea5-45cc-89f7-46731413f806
+ms.assetid: 'bd4f82e7-1a6a-47c5-b019-7aff520e621a'
 keywords:
 - StringCollection Object Windows Media Player
 topic_type:

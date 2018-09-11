@@ -1,7 +1,7 @@
 ---
 Description: Specifies how the Media Session shuts down an object in the topology.
 ms.assetid: 53b4faba-860f-4d6c-a145-09ea4ae63b8b
-title: MF\_TOPONODE\_NOSHUTDOWN\_ON\_REMOVE attribute
+title: MF_TOPONODE_NOSHUTDOWN_ON_REMOVE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -50,8 +50,8 @@ The attribute can have the following values:
 <td><strong>FALSE</strong></td>
 <td>When the Media Session switches to a new topology or clears the current topology, it shuts down the node object, as follows:
 <ul>
-<li>Output nodes: The session calls [<strong>IMFMediaSink::Shutdown</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown) on the media sink.</li>
-<li>Transform nodes: The session calls [<strong>IMFShutdown::Shutdown</strong>](/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown) on the MFT.</li>
+<li>Output nodes: The session calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown"><strong>IMFMediaSink::Shutdown</strong></a> on the media sink.</li>
+<li>Transform nodes: The session calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown"><strong>IMFShutdown::Shutdown</strong></a> on the MFT.</li>
 </ul></td>
 </tr>
 </tbody>

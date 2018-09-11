@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_WINSType class
+title: MicrosoftDNS_WINSType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Windows Internet Name Service (WINS) record.
 ms.assetid: 8f891d80-ee4d-4641-8a6c-159c78e5cf86
 keywords:

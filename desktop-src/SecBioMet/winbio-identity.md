@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_IDENTITY structure
+title: WINBIO_IDENTITY structure
 description: Contains an identifying value associated with a biometric template.
 ms.assetid: 58a5f4ba-2f58-466c-90fd-9480c3c095db
 keywords:

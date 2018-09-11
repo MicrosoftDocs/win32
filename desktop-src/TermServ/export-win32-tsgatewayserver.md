@@ -1,5 +1,5 @@
 ---
-title: Export method of the Win32\_TSGatewayServer class
+title: Export method of the Win32_TSGatewayServer class
 description: Returns the Remote Desktop Gateway (RD Gateway) server configuration as an XML string.
 audience: developer
 author: REDMOND\\markl

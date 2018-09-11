@@ -1,5 +1,5 @@
 ---
-title: Win32\_SessionDirectoryVMMPlugin class
+title: Win32_SessionDirectoryVMMPlugin class
 description: Represents a virtual machine manager (VMM) plug-in registered with a session broker.
 audience: developer
 author: REDMOND\\markl

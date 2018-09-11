@@ -1,7 +1,7 @@
 ---
 Description: Specifies for a media type whether the media data is compressed.
 ms.assetid: b44fb757-4390-4392-b1cb-37772b4ae3fb
-title: MF\_MT\_COMPRESSED attribute
+title: MF_MT_COMPRESSED attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

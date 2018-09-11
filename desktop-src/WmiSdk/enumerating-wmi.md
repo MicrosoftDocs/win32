@@ -314,25 +314,25 @@ In addition to performing basic enumeration, you can set several flags and prope
     <tbody>
     <tr class="odd">
     <td>Class</td>
-    <td><dl>[<strong>IWbemServices::CreateClassEnum</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createclassenum)<br />
+    <td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createclassenum"><strong>IWbemServices::CreateClassEnum</strong></a><br />
     [<strong>IWbemServices::CreateClassEnumAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createclassenumasync)<br />
     </dl></td>
     </tr>
     <tr class="even">
     <td>Instance</td>
-    <td><dl>[<strong>IWbemServices::CreateInstanceEnum</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum)<br />
+    <td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum"><strong>IWbemServices::CreateInstanceEnum</strong></a><br />
     [<strong>IWbemServices::CreateInstanceEnumAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync)<br />
     </dl></td>
     </tr>
     <tr class="odd">
     <td>Query result</td>
-    <td><dl>[<strong>IWbemServices::ExecQuery</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execquery)<br />
+    <td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execquery"><strong>IWbemServices::ExecQuery</strong></a><br />
     [<strong>IWbemServices::ExecQueryAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync)<br />
     </dl></td>
     </tr>
     <tr class="even">
     <td>Event notification</td>
-    <td><dl>[<strong>IWbemServices::ExecNotificationQuery</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery)<br />
+    <td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery"><strong>IWbemServices::ExecNotificationQuery</strong></a><br />
     [<strong>IWbemServices::ExecNotificationQueryAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync)<br />
     </dl></td>
     </tr>

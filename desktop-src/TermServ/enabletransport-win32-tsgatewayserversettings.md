@@ -1,5 +1,5 @@
 ---
-title: EnableTransport method of the Win32\_TSGatewayServerSettings class
+title: EnableTransport method of the Win32_TSGatewayServerSettings class
 description: Enables or disables the specified transport.
 audience: developer
 author: REDMOND\\markl

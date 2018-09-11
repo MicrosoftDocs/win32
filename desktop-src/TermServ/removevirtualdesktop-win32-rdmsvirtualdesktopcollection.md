@@ -1,5 +1,5 @@
 ---
-title: RemoveVirtualDesktop method of the Win32\_RDMSVirtualDesktopCollection class
+title: RemoveVirtualDesktop method of the Win32_RDMSVirtualDesktopCollection class
 description: Removes a virtual desktop from the virtual desktop collection.
 audience: developer
 author: REDMOND\\markl

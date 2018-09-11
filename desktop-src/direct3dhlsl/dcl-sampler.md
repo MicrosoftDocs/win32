@@ -1,5 +1,5 @@
 ---
-title: dcl\_sampler (sm4 - asm)
+title: dcl_sampler (sm4 - asm)
 description: dcl\_sampler (sm4 - asm)
 ms.assetid: 285a47fa-2d47-4ba9-90b9-3f4c61d5dce1
 ms.technology: desktop
@@ -47,7 +47,7 @@ Declares a sampler register.
 </tr>
 <tr class="even">
 <td><span id="mode"></span><span id="MODE"></span><em>mode</em><br/></td>
-<td>[in] A sampler mode, which constrains which sampler states (listed in the members of [<strong>D3D10_SAMPLER_DESC</strong>](https://msdn.microsoft.com/library/windows/desktop/bb172415)) are honored. The modes and states are listed in the following table.<br/> 
+<td>[in] A sampler mode, which constrains which sampler states (listed in the members of <a href="https://msdn.microsoft.com/library/windows/desktop/bb172415"><strong>D3D10_SAMPLER_DESC</strong></a>) are honored. The modes and states are listed in the following table.<br/> 
 <table>
 <thead>
 <tr class="header">

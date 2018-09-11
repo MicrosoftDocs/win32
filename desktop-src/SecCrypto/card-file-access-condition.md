@@ -1,7 +1,7 @@
 ---
 Description: Specifies access control permissions for a file on a smart card.
 ms.assetid: 995d959f-30dc-4e5c-be2d-6b447499415a
-title: CARD\_FILE\_ACCESS\_CONDITION enumeration
+title: CARD_FILE_ACCESS_CONDITION enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

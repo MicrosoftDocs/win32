@@ -1,5 +1,5 @@
 ---
-title: TB\_SETHOTITEM2 message
+title: TB_SETHOTITEM2 message
 description: Sets the hot item in a toolbar.
 ms.assetid: 43666b1d-1197-452f-aa79-eb0a1a23e5b7
 keywords:
@@ -35,7 +35,7 @@ Index of the item that will be made hot. If this value is -1, none of the items 
 </dd> <dt>
 
 *lParam* 
-</dt> <dd>A combination of HICF\_xxx flags. See [**NMTBHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbhotitem).</dd> </dl>
+</dt> <dd>A combination of HICF\_xxx flags. See <a href="/windows/desktop/api/Commctrl/ns-commctrl-tagnmtbhotitem">**NMTBHOTITEM**</a>.</dd> </dl>
 
 ## Return value
 

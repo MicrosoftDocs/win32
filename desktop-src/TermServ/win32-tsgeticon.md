@@ -1,5 +1,5 @@
 ---
-title: Win32\_TSGetIcon class
+title: Win32_TSGetIcon class
 description: Returns the contents of the icon specified by file path and index.
 audience: developer
 author: REDMOND\\markl

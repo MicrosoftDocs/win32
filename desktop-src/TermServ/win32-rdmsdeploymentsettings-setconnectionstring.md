@@ -1,5 +1,5 @@
 ---
-title: SetConnectionString method of the Win32\_RDMSDeploymentSettings class
+title: SetConnectionString method of the Win32_RDMSDeploymentSettings class
 description: Sets the deployment-level database connection string.
 audience: developer
 author: REDMOND\\markl

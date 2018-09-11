@@ -1,5 +1,5 @@
 ---
-title: MDM\_Policy\_Result01\_RemoteShell02 class
+title: MDM_Policy_Result01_RemoteShell02 class
 description: The MDM\_Policy\_Result01\_RemoteShell02 class represents the remote shell policies.
 ms.assetid: d005b2e6-e838-4bda-9ba4-bd49c092f951
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: Defines the association between an installed Ethernet switch extension and an Ethernet switch extension.
 ms.assetid: 306658ed-03a4-49fa-8704-f4b83a4bdd4f
-title: Msvm\_ConcreteDependency class
+title: Msvm_ConcreteDependency class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

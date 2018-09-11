@@ -1,7 +1,7 @@
 ---
 title: ProgID
 description: Associates a ProgID with a CLSID.
-ms.assetid: 89fb20af-65bf-4ed4-9f71-eb707ee8eb09
+ms.assetid: '89060943-7007-418b-a544-effbad548e87'
 keywords:
 - ProgID registry key COM
 ms.technology: desktop

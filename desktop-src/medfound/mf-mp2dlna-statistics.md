@@ -1,7 +1,7 @@
 ---
 Description: Gets statistics from the Digital Living Network Alliance (DLNA) media sink.
 ms.assetid: 1fa6ea9f-fd30-4fa2-a0e6-1647273bcc35
-title: MF\_MP2DLNA\_STATISTICS attribute
+title: MF_MP2DLNA_STATISTICS attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

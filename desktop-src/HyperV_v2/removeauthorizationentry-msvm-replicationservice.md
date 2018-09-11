@@ -1,7 +1,7 @@
 ---
 Description: Removes an authorization entry from a recovery server.
 ms.assetid: 1647b35d-1c2f-4fb5-84c0-10b357326abf
-title: RemoveAuthorizationEntry method of the Msvm\_ReplicationService class
+title: RemoveAuthorizationEntry method of the Msvm_ReplicationService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -2,7 +2,7 @@
 title: K
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: 33bfb6c3-4809-4972-b370-5e9b3bf60074
+ms.assetid: '3cd9dd9b-bfc8-4968-9243-16da4ed8938f'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

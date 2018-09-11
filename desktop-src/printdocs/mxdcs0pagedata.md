@@ -1,7 +1,7 @@
 ---
 Description: The MXDC\_S0PAGE\_DATA\_T structure holds an XPS document page to be passed to the Microsoft XPS Document Converter (MXDC) output file without any processing.
 ms.assetid: 3dc8e0b9-cf63-4345-93d2-3b60dac42546
-title: MXDC\_S0PAGE\_DATA\_T structure
+title: MXDC_S0PAGE_DATA_T structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: LB\_RESETCONTENT message
+title: LB_RESETCONTENT message
 description: Removes all items from a list box.
 ms.assetid: 3865e45e-62da-457a-801c-2f9a61687022
 keywords:

@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.GetInstances method
 description: For scripting, returns all currently running instances of the registered task.
-ms.assetid: 4634851e-e868-4915-a7da-32a39f405974
+ms.assetid: '01fea94e-fdec-4edf-886a-f6d9b566f201'
 keywords:
 - GetInstances method Task Scheduler
 - GetInstances method Task Scheduler , RegisteredTask object

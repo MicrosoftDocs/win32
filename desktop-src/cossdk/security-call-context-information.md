@@ -1,6 +1,6 @@
 ---
 Description: Security Call Context Information
-ms.assetid: 9fc0a9e5-934c-4510-8fbb-1fb2817aa0ea
+ms.assetid: '8b170c17-f095-4c25-9ee2-480681b7e5f6'
 title: Security Call Context Information
 ms.technology: desktop
 ms.prod: windows

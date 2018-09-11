@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 You can launch the Microsoft Windows Desktop Search (WDS) user interface with a specific filter, store, and query from another application or a webpage that uses the Browser Helper Object (BHO) by using the windowssearch.exe command line syntax. When calling WDS from the command line, no information about the user's actions or selection in the WDS window is returned to the calling application or webpage.
 
-The WDS installation path is specified in the InstallDir registry setting under HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows Desktop Search. The default path that windowssearch.exe is installed to is Program Files\\Windows Desktop Search.
+The WDS installation path is specified in the InstallDir registry setting under HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows Desktop Search. The default path that windowssearch.exe is installed to is Program Files\\Windows Desktop Search.
 
 ## Command Line Syntax
 
@@ -68,13 +68,13 @@ The following syntax applies to the Windows Desktop Search 2.x command-line inte
 While Advanced Query Syntax supports referencing Microsoft Outlook as 'oe', the store parameter on the command line must be 'outlookexpress'.
 </blockquote>
 <p><br/></p></li>
-<li><p>show - Specifies which perceived type of results to return. See [Perceived Types](-search-2x-wds-perceivedtype.md) for a complete list of types. If not specified, all types will be returned. <br/></p>
+<li><p>show - Specifies which perceived type of results to return. See <a href="-search-2x-wds-perceivedtype">Perceived Types</a> for a complete list of types. If not specified, all types will be returned. <br/></p>
 <blockquote>
 [!Note]<br />
 There are three differences between the perceived type values and the values for show. For <code>show</code>, use 'documents' instead of 'doc', 'pictures' instead of 'pics', and 'textdocuments' instead of 'text'.
 </blockquote>
 <p><br/></p></li>
-<li>query - Specifies the search criteria. This value supports [Advanced Query Syntax](-search-2x-wds-aqsreference.md) parameters to refine the results. The query parameter must be the last parameter in the URL.</li>
+<li>query - Specifies the search criteria. This value supports <a href="-search-2x-wds-aqsreference">Advanced Query Syntax</a> parameters to refine the results. The query parameter must be the last parameter in the URL.</li>
 </ul></td>
 </tr>
 </tbody>

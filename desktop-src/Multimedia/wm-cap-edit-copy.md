@@ -1,5 +1,5 @@
 ---
-title: WM\_CAP\_EDIT\_COPY message
+title: WM_CAP_EDIT_COPY message
 description: The WM\_CAP\_EDIT\_COPY message copies the contents of the video frame buffer and associated palette to the clipboard. You can send this message explicitly or by using the capEditCopy macro.
 ms.assetid: 16f1dd7d-af4d-4096-add8-eec5f0a0607f
 keywords:

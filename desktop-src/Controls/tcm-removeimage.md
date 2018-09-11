@@ -1,5 +1,5 @@
 ---
-title: TCM\_REMOVEIMAGE message
+title: TCM_REMOVEIMAGE message
 description: Removes an image from a tab control's image list. You can send this message explicitly or by using the TabCtrl\_RemoveImage macro.
 ms.assetid: f2761338-0afa-47d8-9d9c-1d5a4a7f7bcf
 keywords:

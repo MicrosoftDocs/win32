@@ -1,7 +1,7 @@
 ---
 Description: Indicates to the video sample allocator to create textures as shareable using keyed-mutex.
 ms.assetid: 798CA474-3B1A-4795-81B7-563749197104
-title: MF\_SA\_D3D11\_SHARED attribute
+title: MF_SA_D3D11_SHARED attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

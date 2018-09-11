@@ -7,7 +7,7 @@ ms.assetid: f7160a90-562d-40d9-9189-32aaabcd81d0
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_NamespaceDeletionEvent class'
+title: '__NamespaceDeletionEvent class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: WM\_ADSPROP\_NOTIFY\_ERROR message
+title: WM_ADSPROP_NOTIFY_ERROR message
 description: The WM\_ADSPROP\_NOTIFY\_ERROR message adds an error message to a list of error messages that are displayed by calling the ADsPropShowErrorDialog function.
 audience: developer
 author: REDMOND\\markl

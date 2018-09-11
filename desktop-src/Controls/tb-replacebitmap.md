@@ -1,5 +1,5 @@
 ---
-title: TB\_REPLACEBITMAP message
+title: TB_REPLACEBITMAP message
 description: Replaces an existing bitmap with a new bitmap.
 ms.assetid: abad5c7a-ebdd-46b5-a465-fe64ff8eb127
 keywords:

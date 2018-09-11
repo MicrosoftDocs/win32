@@ -1,5 +1,5 @@
 ---
-title: PGM\_SETBORDER message
+title: PGM_SETBORDER message
 description: Sets the current border size for the pager control. You can send this message explicitly or use the Pager\_SetBorder macro.
 ms.assetid: 073a1f9e-f05b-4203-9035-8106e87e55cd
 keywords:

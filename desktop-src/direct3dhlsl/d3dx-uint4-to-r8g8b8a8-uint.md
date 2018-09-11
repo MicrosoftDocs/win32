@@ -1,5 +1,5 @@
 ---
-title: D3DX\_UINT4\_to\_R8G8B8A8\_UINT function
+title: D3DX_UINT4_to_R8G8B8A8_UINT function
 description: Packs the given XMUINT4 back into a DXGI\_FORMAT\_R8G8B8A8\_UINT.
 ms.assetid: d4770dfc-1387-40c3-a4f8-365a1421fa3c
 keywords:

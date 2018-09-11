@@ -1,5 +1,5 @@
 ---
-title: D3DX\_SaturateSigned\_FLOAT function
+title: D3DX_SaturateSigned_FLOAT function
 description: Retrieves a signed saturated value from the given FLOAT.
 ms.assetid: 2737ea61-5dbf-4451-bb4f-436e6ea95db6
 keywords:

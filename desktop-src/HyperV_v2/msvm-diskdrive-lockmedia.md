@@ -1,7 +1,7 @@
 ---
 Description: Locks or unlocks the media.
 ms.assetid: 805efb2d-71a7-4c74-821f-942644928ff9
-title: LockMedia method of the Msvm\_DiskDrive class
+title: LockMedia method of the Msvm_DiskDrive class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

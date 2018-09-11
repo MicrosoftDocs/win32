@@ -37,7 +37,7 @@ The following table lists the object types that can be manipulated through the v
 <td><ul>
 <li>Array of conditions</li>
 <li>Action (Permit, Block, Callout)</li>
-<li>[Weight](filter-weight-assignment.md)</li>
+<li><a href="filter-weight-assignment">Weight</a></li>
 <li>Context</li>
 </ul></td>
 <td>&quot;Block traffic with a TCP port greater than 1024.&quot; <br/> &quot;Callout to IDS for all traffic that is not secured.&quot;<br/></td>
@@ -61,7 +61,7 @@ The following table lists the object types that can be manipulated through the v
 </tr>
 <tr class="even">
 <td>Sub-layer</td>
-<td>A sub-component of a layer, used in [filter arbitration](filter-arbitration.md).<br/></td>
+<td>A sub-component of a layer, used in <a href="filter-arbitration">filter arbitration</a>.<br/></td>
 <td><ul>
 <li>Weight</li>
 </ul></td>

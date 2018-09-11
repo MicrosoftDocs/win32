@@ -1,5 +1,5 @@
 ---
-title: ImportLicenseKeyPackOffline method of the Win32\_TSLicenseKeyPack class
+title: ImportLicenseKeyPackOffline method of the Win32_TSLicenseKeyPack class
 description: Imports, from another Remote Desktop license server, a Remote Desktop Services license key pack that uses a license identifier that was received over the Internet or the phone.
 audience: developer
 author: REDMOND\\markl

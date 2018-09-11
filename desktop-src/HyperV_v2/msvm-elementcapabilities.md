@@ -1,7 +1,7 @@
 ---
 Description: Represents the association between managed elements and their capabilities.
 ms.assetid: F083E6D2-CC74-4DAD-8FF7-3FE3CA4EEFFF
-title: Msvm\_ElementCapabilities class
+title: Msvm_ElementCapabilities class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,6 +1,6 @@
 ---
 Description: Video Media Types
-ms.assetid: 50bf2947-27ee-4092-9d3a-a1c13ee80e95
+ms.assetid: 'b8cfe0d1-013d-4706-bb76-6d426836ab6a'
 title: Video Media Types
 ms.technology: desktop
 ms.prod: windows

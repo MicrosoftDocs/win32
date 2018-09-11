@@ -1,7 +1,7 @@
 ---
 title: Load(int) function
 description: Reads buffer data.
-ms.assetid: 9CB40579-6BF8-468C-81B8-936D9940458E
+ms.assetid: 'ef08d360-0494-49f7-9481-cb802e14aeee'
 keywords:
 - Load function HLSL
 topic_type:

@@ -1,7 +1,7 @@
 ---
 Description: Maximum values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
 ms.assetid: 190d582d-651f-3174-19e6-375dc63f0540
-title: XAUDIO2FX\_REVERB\_MAX
+title: XAUDIO2FX_REVERB_MAX
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

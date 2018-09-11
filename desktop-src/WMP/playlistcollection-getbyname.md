@@ -1,7 +1,7 @@
 ---
 title: PlaylistCollection.getByName method
 description: The getByName method retrieves a PlaylistArray object containing playlists with the specified name, if any exist.
-ms.assetid: 9d837c57-8612-47ef-a0fa-a3ffa77ac704
+ms.assetid: '0308a98d-1149-4367-b602-33fa54c1760f'
 keywords:
 - getByName method Windows Media Player
 - getByName method Windows Media Player , PlaylistCollection class

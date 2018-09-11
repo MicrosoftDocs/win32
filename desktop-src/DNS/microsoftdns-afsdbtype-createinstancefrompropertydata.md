@@ -1,5 +1,5 @@
 ---
-title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_AFSDBType class
+title: CreateInstanceFromPropertyData method of the MicrosoftDNS_AFSDBType class
 description: The CreateInstanceFromPropertyData method instantiates an Andrew File System Database Server (AFSDB) Resource Record.
 ms.assetid: 2cd0434d-0c18-468f-95f3-7a77375596a3
 keywords:

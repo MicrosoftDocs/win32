@@ -1,7 +1,7 @@
 ---
 Description: The starting time for the presentation, in 100-nanosecond units, as measured by the presentation clock.
 ms.assetid: d19d851c-ab4a-4a9d-bcc4-8dd4e993fa2c
-title: MF\_EVENT\_START\_PRESENTATION\_TIME attribute
+title: MF_EVENT_START_PRESENTATION_TIME attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

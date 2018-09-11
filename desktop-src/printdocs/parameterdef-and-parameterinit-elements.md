@@ -102,7 +102,7 @@ Specifies the value to use if the relevant parameter element is missing from the
 <tr class="even">
 <td>Multiple <br/></td>
 <td>integer if DataType Property specifies integer.<br/> decimal if DataType Property specifies decimal.<br/> DefaultValue: 1<br/></td>
-<td>For integer- or decimal-valued parameters, the value of the parameter should be a multiple of this number. For more information, see [Notes on Multiple](#notes-on-multiple) following this table.<br/></td>
+<td>For integer- or decimal-valued parameters, the value of the parameter should be a multiple of this number. For more information, see <a href="#notes-on-multiple">Notes on Multiple</a> following this table.<br/></td>
 <td>No<br/></td>
 </tr>
 <tr class="odd">

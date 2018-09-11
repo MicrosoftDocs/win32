@@ -1,5 +1,5 @@
 ---
-title: MCI\_RECORD command
+title: MCI_RECORD command
 description: The MCI\_RECORD command starts recording from the current position or from one specified location to another specified location.
 ms.assetid: d3c4e8a3-7d81-428e-91d8-d8d63fc0aa02
 keywords:

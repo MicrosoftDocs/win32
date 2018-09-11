@@ -1,5 +1,5 @@
 ---
-title: WMT\_VIDEOIMAGE\_TRANSITION\_SLIDE
+title: WMT_VIDEOIMAGE_TRANSITION_SLIDE
 description: The slide transition reveals the new image by sliding the old image out of the frame.
 ms.assetid: 925bcf92-5608-48ca-9bdc-dd08bcd8b8d5
 keywords:

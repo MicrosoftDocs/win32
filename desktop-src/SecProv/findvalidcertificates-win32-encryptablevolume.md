@@ -1,7 +1,7 @@
 ---
 Description: Enumerates all certificates on the system that match the indicated criteria and returns a list of thumbprints.
 ms.assetid: 69522afe-9870-4ae9-8c69-cf8787913615
-title: FindValidCertificates method of the Win32\_EncryptableVolume class
+title: FindValidCertificates method of the Win32_EncryptableVolume class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,6 +1,6 @@
 ---
 Description: A single phone may be able to ring with different ring modes.
-ms.assetid: 6a906027-f328-435d-98ea-919c3e3bbd67
+ms.assetid: 'c5ddcb3c-183c-4f97-9429-977d5cc32668'
 title: Ring
 ms.technology: desktop
 ms.prod: windows

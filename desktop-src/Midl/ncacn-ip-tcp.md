@@ -1,5 +1,5 @@
 ---
-title: ncacn\_ip\_tcp attribute
+title: ncacn_ip_tcp attribute
 description: The ncacn\_ip\_tcp keyword identifies TCP/IP as the protocol family for the endpoint.
 ms.assetid: 8142c667-9a5f-4066-a36d-1bb5ce551d21
 keywords:

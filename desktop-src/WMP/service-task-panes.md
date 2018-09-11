@@ -1,7 +1,7 @@
 ---
 title: Service Task Panes
 description: Service Task Panes
-ms.assetid: cb26a26d-a80d-4af5-9c5f-fab01129d83c
+ms.assetid: 'f626fa85-7590-4e87-bd5c-7ffdcb14be8b'
 keywords:
 - Windows Media Player online stores,service task panes
 - online stores,service task panes

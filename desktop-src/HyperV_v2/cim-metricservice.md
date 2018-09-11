@@ -1,7 +1,7 @@
 ---
 Description: Manages metrics for managed elements.
 ms.assetid: df249d0c-960b-47d6-9590-f0fd08ddec18
-title: CIM\_MetricService class
+title: CIM_MetricService class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

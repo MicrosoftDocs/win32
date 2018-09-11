@@ -1,7 +1,7 @@
 ---
 title: ShowMessageAction object
 description: For scripting, represents an action that shows a message box when a task is activated.
-ms.assetid: 329232de-6068-4757-b567-3ce4d2c5ba4a
+ms.assetid: 'fdd22eef-965c-4a81-954c-66011c435ab9'
 keywords:
 - ShowMessageAction object Task Scheduler
 - ShowMessageAction object Task Scheduler , described

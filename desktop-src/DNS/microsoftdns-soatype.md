@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_SOAType class
+title: MicrosoftDNS_SOAType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Start Of Authority (SOA) record.
 ms.assetid: a5e6b6d3-7f5d-42e2-b3ed-2786f7aafb14
 keywords:

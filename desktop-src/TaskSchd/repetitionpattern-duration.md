@@ -1,7 +1,7 @@
 ---
 title: RepetitionPattern.Duration property
 description: For scripting, gets or sets how long the pattern is repeated.
-ms.assetid: 86deb09e-d6ad-4a8d-9fdf-e3bc5ee73b1f
+ms.assetid: '41a56414-981b-440a-b51a-228125baf303'
 keywords:
 - Duration property Task Scheduler
 - Duration property Task Scheduler , RepetitionPattern object

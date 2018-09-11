@@ -1,5 +1,5 @@
 ---
-title: MDM\_VPNv2\_Certificate04 class
+title: MDM_VPNv2_Certificate04 class
 description: Reserved for future Use.
 ms.assetid: 0fa831e0-918a-472f-88bf-7e40c4081417
 keywords:

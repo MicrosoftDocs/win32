@@ -108,7 +108,7 @@ Item galleries and combo boxes include the selected item index but do not includ
 </tr>
 <tr class="even">
 <td>Application mode switched</td>
-<td>Event verb<br/> Mode ID (value set through [<strong>SetModes</strong>](https://msdn.microsoft.com/library/windows/desktop/dd371476))<br/>
+<td>Event verb<br/> Mode ID (value set through <a href="https://msdn.microsoft.com/library/windows/desktop/dd371476"><strong>SetModes</strong></a>)<br/>
 <blockquote>
 [!Note]<br />
 The application is responsible for unpacking this integer to determine which modes were set.

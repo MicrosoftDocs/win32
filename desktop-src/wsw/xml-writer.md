@@ -1,7 +1,7 @@
 ---
 title: XML Writer
 description: XML Writer is an API for emitting XML. At its core, an XML Writer writes one XML Node at a time, but there are additional helper APIs to make writing a sequence of nodes easier.
-ms.assetid: 8f413e60-8a30-492c-8f2d-80be511fee11
+ms.assetid: '69d50793-1d5b-4fc7-bf69-128f8e23a98d'
 keywords:
 - XML Writer Web Services for Windows
 - WWSAPI

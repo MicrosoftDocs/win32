@@ -1,7 +1,7 @@
 ---
 Description: Width and height of a video frame, in pixels.
 ms.assetid: 9f10a972-406f-47ef-b71c-86ed771c9a9a
-title: MF\_MT\_FRAME\_SIZE attribute
+title: MF_MT_FRAME_SIZE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

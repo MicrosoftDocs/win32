@@ -1,7 +1,7 @@
 ---
 title: Joysticks
 description: Joysticks
-ms.assetid: 0cfff45b-48d4-4e0c-addf-e131d3a31187
+ms.assetid: '29fe25c8-51ea-4dc1-9f98-1c10d23b7b2a'
 keywords:
 - Windows multimedia,joysticks
 - multimedia,joysticks

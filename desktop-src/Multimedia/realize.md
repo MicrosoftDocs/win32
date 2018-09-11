@@ -1,7 +1,7 @@
 ---
 title: realize command
 description: The realize command instructs a device to select and realize its palette into the display context of the displayed window. Digital-video devices recognize this command.
-ms.assetid: 4723c8a4-36af-4543-b6df-d51f68a3e94d
+ms.assetid: 'ad3a52dc-5c8d-47fc-95bd-437b700fc029'
 keywords:
 - realize command Windows Multimedia
 topic_type:

@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the SetMetadataByName method.
 ms.assetid: 467d7735-152a-4e7c-93b1-fd031cc57c19
-title: IWICMetadataQueryWriter\_SetMetadataByName\_Proxy function
+title: IWICMetadataQueryWriter_SetMetadataByName_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

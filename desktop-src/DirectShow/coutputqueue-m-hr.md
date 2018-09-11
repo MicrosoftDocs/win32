@@ -1,7 +1,7 @@
 ---
 Description: HRESULT value that indicates whether the object will accept samples. If the value is S\_OK, the object will accept samples. Otherwise, it rejects samples.
 ms.assetid: e05d4d2e-cc3e-4b83-8531-bc4bd6d665ac
-title: COutputQueue::m\_hr member
+title: COutputQueue::m_hr member
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,7 +1,7 @@
 ---
 Description: Proxy function for the GetVersion method.
 ms.assetid: b064b065-bc02-4943-b208-ce5e40c12aa2
-title: IWICComponentInfo\_GetVersion\_Proxy function
+title: IWICComponentInfo_GetVersion_Proxy function
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

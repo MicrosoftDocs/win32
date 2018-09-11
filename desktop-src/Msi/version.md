@@ -1,6 +1,6 @@
 ---
 Description: The Version data type is a text string containing a valid version string.
-ms.assetid: c4c8a23b-e1c2-4c96-b708-7cbcbcab4cd4
+ms.assetid: '0b19a7fb-7390-47a7-83ca-6b86ab871197'
 title: Version
 ms.technology: desktop
 ms.prod: windows

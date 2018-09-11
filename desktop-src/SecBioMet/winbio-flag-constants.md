@@ -1,5 +1,5 @@
 ---
-title: WINBIO\_FLAG Constants
+title: WINBIO_FLAG Constants
 description: Specify biometric unit configuration and access characteristics for the new session.
 ms.assetid: 82b57023-6c27-433d-bf13-f136f501fc60
 topic_type:

@@ -138,7 +138,7 @@ A GetResponse message has the following focus points.
 <td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo>
     urn:uuid:027bec45-c37c-466c-936c-68f648abe2bb
 </wsa:RelatesTo></code></pre></td>
-<td>The identifier of the message to which the device is responding. This header matches the MessageID in the [Get](get--metadata-exchange--http-request-and-message.md) message.</td>
+<td>The identifier of the message to which the device is responding. This header matches the MessageID in the <a href="get--metadata-exchange--http-request-and-message">Get</a> message.</td>
 </tr>
 <tr class="odd">
 <td>Address</td>

@@ -1,7 +1,7 @@
 ---
 Description: LOCALE\_SPOSITIVESIGN
 ms.assetid: 65227e63-f7e7-4f1c-8fc8-f457c8444be5
-title: LOCALE\_SPOSITIVESIGN
+title: LOCALE_SPOSITIVESIGN
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

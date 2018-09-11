@@ -1,5 +1,5 @@
 ---
-title: UDM\_SETPOS message
+title: UDM_SETPOS message
 description: Sets the current position for an up-down control with 16-bit precision.
 ms.assetid: e7c8b55f-3a4f-47e7-8c7d-e47509f27f1d
 keywords:

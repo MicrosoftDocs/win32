@@ -1,5 +1,5 @@
 ---
-title: MDM\_PassportForWork\_Device\_Policies02 class
+title: MDM_PassportForWork_Device_Policies02 class
 description: The MDM\_PassportForWork\_Device\_Policies02 class defines the Windows Hello for Business policy settings.
 ms.assetid: 7581ea7e-0360-4695-a4ad-566df24a8841
 keywords:

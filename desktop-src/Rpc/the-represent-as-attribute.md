@@ -1,5 +1,5 @@
 ---
-title: The represent\_as Attribute
+title: The represent_as Attribute
 description: The \ represent\_as\ attribute lets you specify how a particular transmittable data type is represented to the application.
 ms.assetid: 6f07ab90-b5bb-48ae-870c-5abaf80ce0e5
 keywords:

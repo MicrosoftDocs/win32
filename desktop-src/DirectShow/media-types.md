@@ -1,6 +1,6 @@
 ---
 Description: Media Types
-ms.assetid: 9984ba36-4e43-4886-a073-34b330274c9c
+ms.assetid: 'c8efe9e6-7d1d-4ec2-ab1b-70ee0798a6a3'
 title: Media Types
 ms.technology: desktop
 ms.prod: windows

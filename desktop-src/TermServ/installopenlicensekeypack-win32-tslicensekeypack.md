@@ -1,5 +1,5 @@
 ---
-title: InstallOpenLicenseKeyPack method of the Win32\_TSLicenseKeyPack class
+title: InstallOpenLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Installs an Open License Remote Desktop Services license key pack.
 audience: developer
 author: REDMOND\\markl

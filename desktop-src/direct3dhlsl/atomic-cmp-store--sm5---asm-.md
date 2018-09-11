@@ -1,5 +1,5 @@
 ---
-title: atomic\_cmp\_store (sm5 - asm)
+title: atomic_cmp_store (sm5 - asm)
 description: Atomic compare and write to memory.
 ms.assetid: 1B97E983-11A9-47E4-B274-E94083837C6E
 ms.technology: desktop

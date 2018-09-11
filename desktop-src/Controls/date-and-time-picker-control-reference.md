@@ -1,7 +1,7 @@
 ---
 title: Date and Time Picker
 description: This section contains information about the API elements used with date and time picker controls.
-ms.assetid: 2b1a4a0e-84e6-4b65-9bf7-0384f4313aff
+ms.assetid: 'vs|controls|~\controls\datetime\reflist.htm'
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

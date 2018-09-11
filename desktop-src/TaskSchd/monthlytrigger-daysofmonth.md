@@ -1,7 +1,7 @@
 ---
 title: MonthlyTrigger.DaysOfMonth property
 description: For scripting, gets or sets the days of the month during which the task runs.
-ms.assetid: 851668bf-1ee7-47e0-add6-95eb0387a56c
+ms.assetid: '4da80d0f-ae0c-4e56-b51b-6ee6ab309d7c'
 keywords:
 - DaysOfMonth property Task Scheduler
 - DaysOfMonth property Task Scheduler , MonthlyTrigger object

@@ -1,6 +1,6 @@
 ---
 Description: The NAME macro generates a debug-only string.
-ms.assetid: 50762bce-a78c-4009-8552-94b2849c2b24
+ms.assetid: '5cb9f803-dd2b-4055-bdcc-e754ef5fa505'
 title: NAME
 ms.technology: desktop
 ms.prod: windows

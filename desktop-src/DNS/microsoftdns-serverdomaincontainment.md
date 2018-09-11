@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_ServerDomainContainment class
+title: MicrosoftDNS_ServerDomainContainment class
 description: Every instance of the MicrosoftDNS\_Server association WMI class may contain multiple instances of the MicrosoftDNS\_Domain class.
 ms.assetid: a16a11fb-65fc-4f12-903c-b3a61f6a4720
 keywords:

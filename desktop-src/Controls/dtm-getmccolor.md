@@ -1,5 +1,5 @@
 ---
-title: DTM\_GETMCCOLOR message
+title: DTM_GETMCCOLOR message
 description: Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can send this message explicitly or use the DateTime\_GetMonthCalColor macro.
 ms.assetid: 892e8c23-f0d0-4fd6-98ed-39592c4d316f
 keywords:

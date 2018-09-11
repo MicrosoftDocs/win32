@@ -1,5 +1,5 @@
 ---
-title: TTM\_GETTIPBKCOLOR message
+title: TTM_GETTIPBKCOLOR message
 description: Retrieves the background color in a tooltip window.
 ms.assetid: 0dbd5172-cb4f-4dc0-b523-cdc46c05dbb3
 keywords:

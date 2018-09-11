@@ -7,7 +7,7 @@ ms.assetid: e6a06161-0f1c-4754-ac34-263ccf7bf10d
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_FilterToConsumerBinding class'
+title: '__FilterToConsumerBinding class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

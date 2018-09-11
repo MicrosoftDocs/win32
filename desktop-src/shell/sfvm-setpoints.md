@@ -1,6 +1,6 @@
 ---
 Description: Sets the points of the currently selected objects to the data object on Copy and Cut commands. Used by SHShellFolderView\_Message.
-title: SFVM\_SETPOINTS message
+title: SFVM_SETPOINTS message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -28,7 +28,7 @@ SFVM_SETPOINTS
 <dl> <dt>
 
 *pdtobj* \[in\]
-</dt> <dd>A pointer to an [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) of the **Copy** and **Cut** commands.</dd> </dl>
+</dt> <dd>A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">**IDataObject**</a> of the **Copy** and **Cut** commands.</dd> </dl>
 
 ## Return value
 

@@ -1,7 +1,7 @@
 ---
 Description: Contains the Synchronized Accessible Media Interchange (SAMI) language name that is defined for the stream.
 ms.assetid: 3151c369-9d2b-4f03-9a4a-9b9267314dc1
-title: MF\_SD\_SAMI\_LANGUAGE attribute
+title: MF_SD_SAMI_LANGUAGE attribute
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

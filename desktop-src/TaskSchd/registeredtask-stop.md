@@ -1,7 +1,7 @@
 ---
 title: RegisteredTask.Stop method
 description: For scripting, stops the registered task immediately.
-ms.assetid: c58d7b15-1044-4d35-a501-b936503ee0fc
+ms.assetid: 'e4a533d8-5cf0-46ba-a603-f7a9c59ab0fd'
 keywords:
 - Stop method Task Scheduler
 - Stop method Task Scheduler , RegisteredTask object

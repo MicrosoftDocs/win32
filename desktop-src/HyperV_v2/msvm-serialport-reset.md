@@ -1,7 +1,7 @@
 ---
 Description: Requests a reset.
 ms.assetid: 4f22c81e-323a-45ad-b81f-9fb3980e91f9
-title: Reset method of the Msvm\_SerialPort class
+title: Reset method of the Msvm_SerialPort class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

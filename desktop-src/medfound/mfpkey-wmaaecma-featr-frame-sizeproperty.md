@@ -1,7 +1,7 @@
 ---
 Description: Specifies the audio frame size used by the Voice Capture DSP.
 ms.assetid: b414ac34-c60a-4f43-924f-43431d6ba25f
-title: MFPKEY\_WMAAECMA\_FEATR\_FRAME\_SIZE Property
+title: MFPKEY_WMAAECMA_FEATR_FRAME_SIZE Property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

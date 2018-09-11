@@ -1,6 +1,6 @@
 ---
 Description: The DIBDATA structure contains information about a GDI device-independent bitmap (DIB).
-ms.assetid: ec337336-69ec-47ff-a522-42c0388f9bc0
+ms.assetid: 'abbfa5b4-8789-4a44-a467-5812d3cc8238'
 title: DIBDATA structure
 ms.technology: desktop
 ms.prod: windows

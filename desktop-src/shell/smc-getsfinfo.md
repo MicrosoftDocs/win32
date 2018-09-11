@@ -1,6 +1,6 @@
 ---
 Description: Requests information about a Shell folder menu item.
-title: SMC\_GETSFINFO message
+title: SMC_GETSFINFO message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

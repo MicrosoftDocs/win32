@@ -1,7 +1,7 @@
 ---
 Description: This class is the event type class for image load in page file events. The following syntax is simplified from MOF code.
 ms.assetid: 7d2f08e8-ec1f-4630-922a-548b55eadfda
-title: PageFault\_ImageLoadBacked class
+title: PageFault_ImageLoadBacked class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

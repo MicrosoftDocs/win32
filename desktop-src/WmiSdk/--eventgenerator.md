@@ -7,7 +7,7 @@ ms.assetid: 381b06e7-2857-4932-9f52-f1d62efa8b79
 ms.prod: windows-server-dev
 ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_EventGenerator class'
+title: '__EventGenerator class'
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

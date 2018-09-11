@@ -1,7 +1,7 @@
 ---
-title: MOM\_CLOSE message
+title: MOM_CLOSE message
 description: The MOM\_CLOSE message is sent to a MIDI output callback function when a MIDI output device is closed.
-ms.assetid: 4829bbe5-5103-4354-88a7-37def22e926e
+ms.assetid: '229b3701-16f1-4ec8-920e-cd8231561541'
 keywords:
 - MOM_CLOSE message Windows Multimedia
 topic_type:

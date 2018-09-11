@@ -1,7 +1,7 @@
 ---
 title: RepetitionPattern.StopAtDurationEnd property
 description: For scripting, gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.
-ms.assetid: a43b5b32-a496-4f59-89f2-4b8566332e03
+ms.assetid: '421f2d6f-7c35-44b4-97f2-45f46ca5e40e'
 keywords:
 - StopAtDurationEnd property Task Scheduler
 - StopAtDurationEnd property Task Scheduler , RepetitionPattern object

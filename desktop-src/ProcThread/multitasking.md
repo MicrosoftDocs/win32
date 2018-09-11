@@ -1,6 +1,6 @@
 ---
 Description: A multitasking operating system divides the available processor time among the processes or threads that need it.
-ms.assetid: 163291ce-78bd-43ee-98ca-564ce91c520c
+ms.assetid: 'ac45bef6-f078-40ac-95f4-06bd61ff46c4'
 title: Multitasking
 ms.technology: desktop
 ms.prod: windows

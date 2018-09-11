@@ -4,7 +4,7 @@ MS-HAID: vspixengine.REGISTER\_FORMAT
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: REGISTER\_FORMAT enumeration
+title: REGISTER_FORMAT enumeration
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

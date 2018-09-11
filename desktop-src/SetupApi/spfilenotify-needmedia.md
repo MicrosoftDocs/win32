@@ -1,7 +1,7 @@
 ---
 Description: The SPFILENOTIFY\_NEEDMEDIA notification is sent to the callback routine when new media or a new cabinet file is required.
 ms.assetid: 6a7947de-1bb3-46e0-9334-405684e58e98
-title: SPFILENOTIFY\_NEEDMEDIA message
+title: SPFILENOTIFY_NEEDMEDIA message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: MicrosoftDNS\_Domain class
+title: MicrosoftDNS_Domain class
 description: The MicrosoftDNS\_Domain class represents a Domain in a DNS hierarchy.
 ms.assetid: 4b3124d6-aa5c-4950-b461-c6dd7bc96945
 keywords:

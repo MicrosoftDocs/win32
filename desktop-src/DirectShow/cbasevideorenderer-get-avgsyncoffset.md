@@ -1,7 +1,7 @@
 ---
 Description: The get\_AvgSyncOffset method retrieves the average of the time in milliseconds between when each frame was due and when it was actually rendered for all frames since streaming started.
 ms.assetid: b41741e9-e0b5-4c49-93ef-cb8c0cf2ddeb
-title: CBaseVideoRenderer.get\_AvgSyncOffset method
+title: CBaseVideoRenderer.get_AvgSyncOffset method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

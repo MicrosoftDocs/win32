@@ -1,5 +1,5 @@
 ---
-title: call\_as attribute
+title: call_as attribute
 description: The \ call\_as\ attribute enables you to map a function that cannot be called remotely to a remote function.
 ms.assetid: 4078f37a-9bd7-4316-b228-afbffc4caeab
 keywords:

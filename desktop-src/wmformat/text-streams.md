@@ -1,7 +1,7 @@
 ---
 title: Text Streams
 description: Text Streams
-ms.assetid: d99baac5-69e5-4e0a-9cd6-35b288d8181a
+ms.assetid: '31435698-302f-4f9b-9765-7c480217ebba'
 keywords:
 - Windows Media Format SDK,text streams
 - Advanced Systems Format (ASF),text streams

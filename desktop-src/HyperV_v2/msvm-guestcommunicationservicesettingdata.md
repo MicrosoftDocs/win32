@@ -1,7 +1,7 @@
 ---
 Description: Represents the settings of the guest communication service.
 ms.assetid: c36d3002-d43e-4284-b765-2795c941f023
-title: Msvm\_GuestCommunicationServiceSettingData class
+title: Msvm_GuestCommunicationServiceSettingData class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

@@ -1,5 +1,5 @@
 ---
-title: Modify method of the MicrosoftDNS\_TXTType class
+title: Modify method of the MicrosoftDNS_TXTType class
 description: The Modify method updates a Text (TXT) Resource Record.
 ms.assetid: af61057e-95be-4290-83da-a63f01ead476
 keywords:

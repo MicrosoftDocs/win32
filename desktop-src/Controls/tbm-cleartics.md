@@ -1,5 +1,5 @@
 ---
-title: TBM\_CLEARTICS message
+title: TBM_CLEARTICS message
 description: Removes the current tick marks from a trackbar. This message does not remove the first and last tick marks, which are created automatically by the trackbar.
 ms.assetid: 2830497c-2cf0-4068-810c-c05d4e0abb8b
 keywords:

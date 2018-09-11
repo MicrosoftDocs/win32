@@ -1,7 +1,7 @@
 ---
 Description: Returns the USBDevice descriptor as specified by the input parameters.
 ms.assetid: 89bb8a49-6fca-422c-808d-70ae77aae4c3
-title: GetDescriptor method of the CIM\_USBDevice class
+title: GetDescriptor method of the CIM_USBDevice class
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev

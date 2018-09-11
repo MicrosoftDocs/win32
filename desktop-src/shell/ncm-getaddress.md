@@ -1,6 +1,6 @@
 ---
 Description: Indicates whether a network address conforms to a specified type and format.
-title: NCM\_GETADDRESS message
+title: NCM_GETADDRESS message
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -33,7 +33,7 @@ NCM_GETADDRESS
 </dt> <dd>Must be zero.</dd> <dt>
 
 *pv* \[in, out\]
-</dt> <dd>A pointer to an [**NC\_ADDRESS**](/windows/desktop/api/Shellapi/ns-shellapi-tagnc_address) structure to receive network address information in parsed form, if the address format and type in the control specified by *hwnd* are validated. The calling application is responsible for allocating the memory for this structure.</dd> </dl>
+</dt> <dd>A pointer to an <a href="/windows/desktop/api/Shellapi/ns-shellapi-tagnc_address">NC_ADDRESS</a> structure to receive network address information in parsed form, if the address format and type in the control specified by *hwnd* are validated. The calling application is responsible for allocating the memory for this structure.</dd> </dl>
 
 ## Return value
 
