@@ -94,6 +94,9 @@ The type of process information to be retrieved. This parameter can be one of th
 This value can be used starting in Windows XP with SP3. Starting in Windows 8.1, <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical"><strong>IsProcessCritical</strong></a> should be used instead.
 </blockquote>
 <br/></td>
+</tr><tr class="even">
+<td><span id="ProcessProtectionInformation"></span><span id="processprotectioninformation"></span><span id="PROCESSPROTECTIONINFORMATION"></span><dl> <dt><strong>ProcessProtectionInformation</strong></dt> <dt>61</dt> </dl></td>
+<td>Retrieves a BYTE value indicating the type of protected process and the protected process signer.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -149,6 +152,53 @@ It is best to use the [**IsWow64Process**](https://msdn.microsoft.com/en-us/libr
 When the *ProcessInformationClass* parameter is **ProcessImageFileName**, the buffer pointed to by the *ProcessInformation* parameter should be large enough to hold a **UNICODE\_STRING** structure as well as the string itself. The string stored in the **Buffer** member is the name of the image file.
 
 If the buffer is too small, the function fails with the STATUS\_INFO\_LENGTH\_MISMATCH error code and the *ReturnLength* parameter is set to the required buffer size.
+
+</dd> <dt>
+
+<span id="PS_PROTECTION"></span><span id="ps_protection"></span>PS_PROTECTION
+</dt> <dd>
+
+When the *ProcessInformationClass* parameter is **ProcessProtectionInformation**, the buffer pointed to by the *ProcessInformation* parameter should be large enough to hold a single **PS_PROTECTION** structure having the following layout:
+
+``` syntax
+typedef struct _PS_PROTECTION {
+    union {
+        UCHAR Level;
+        struct {
+            UCHAR Type   : 3;
+            UCHAR Audit  : 1;                  // Reserved
+            UCHAR Signer : 4;
+        };
+    };
+} PS_PROTECTION, *PPS_PROTECTION;
+```
+
+The first 3 bits contain the type of protected process:
+
+``` syntax
+typedef enum _PS_PROTECTED_TYPE {
+    PsProtectedTypeNone = 0,
+    PsProtectedTypeProtectedLight = 1,
+    PsProtectedTypeProtected = 2
+} PS_PROTECTED_TYPE, *PPS_PROTECTED_TYPE;
+```
+
+The top 4 bits contain the protected process signer:
+
+``` syntax
+typedef enum _PS_PROTECTED_SIGNER {
+    PsProtectedSignerNone = 0,
+    PsProtectedSignerAuthenticode,
+    PsProtectedSignerCodeGen,
+    PsProtectedSignerAntimalware,
+    PsProtectedSignerLsa,
+    PsProtectedSignerWindows,
+    PsProtectedSignerWinTcb,
+    PsProtectedSignerWinSystem,
+    PsProtectedSignerApp,
+    PsProtectedSignerMax
+} PS_PROTECTED_SIGNER, *PPS_PROTECTED_SIGNER;
+```
 
 </dd> </dl> </dd> <dt>
 
