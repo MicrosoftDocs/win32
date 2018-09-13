@@ -14,6 +14,9 @@ The UWP platform is being made available as a set of "building blocks" that you 
 
 This guide describes UWP platform features that you can use in your desktop applications right now.
 
+<!-- categorize everything by: features available to any desktop application, features for .NET and Win32, and features for UWP targeted at desktop
+-->
+
 ## MSIX packages
 
 MSIX is a new containerization package format that applies to all Windows applications including Win32, Windows Forms, WPF, and UWP. This new format inherits great features from UWP and provides robust installation and updating, managed security model with a flexible capability system, and support for the Microsoft Store, enterprise management, and many custom distribution models.
