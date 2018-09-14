@@ -10,6 +10,20 @@ ms.date: 09/11/2018
 
 # Desktop guide to the modern platform
 
+<!--
+
+# Modernize your desktop applications
+
+The Windows 10 October 2018 Update introduces many new features that enable you to deliver a modern experience in your desktop applications. This includes:
+
+* **MSIX packages**. This is a modern application package format that is available for any desktop application.
+* **XAML Islands**. Certain UWP controls are now available as a set of building blocks that you can adopt in WPF, Windows Forms, and C/C++ Win32 applications.
+* UWP controls that are optimized for desktop applications.
+
+-- categorize everything by: features available to any desktop application, features for .NET and Win32, and features for UWP targeted at desktop
+
+-->
+
 The UWP platform is being made available as a set of "building blocks" that you can adopt in your desktop applications without having to rewrite your application for UWP. There's no need to learn a whole new stack to modernize. You can enhance existing investments in-place by choosing which parts of the platform to adopt.
 
 This guide describes UWP platform features that you can use in your desktop applications right now.
@@ -19,7 +33,9 @@ This guide describes UWP platform features that you can use in your desktop appl
 
 ## MSIX packages
 
-MSIX is a new containerization package format that applies to all Windows applications including Win32, Windows Forms, WPF, and UWP. This new format inherits great features from UWP and provides robust installation and updating, managed security model with a flexible capability system, and support for the Microsoft Store, enterprise management, and many custom distribution models.
+MSIX is a modern Windows app package format that provides a universal packaging experience for all Windows applications, including UWP, WPF, Windows Forms and Win32 applications. MSIX brings together the best aspects of MSI, .appx, App-V and ClickOnce installation technologies and is built to be safe, secure, and reliable.
+
+Packaging your desktop Windows applications in MSIX packages gets you access to a robust installation and updating experience, a managed security model with a flexible capability system, support for the Microsoft Store, enterprise management, and many custom distribution models.
 
 To learn more, see [MSIX](https://docs.microsoft.com/windows/msix).
 
