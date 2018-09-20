@@ -1,0 +1,67 @@
+---
+title: JET_LOGTIME.IsUtc property  (Microsoft.Isam.Esent.Interop)
+TOCTitle: 'IsUtc property '
+ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LOGTIME.IsUtc
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_logtime.isutc(v=EXCHG.10)
+ms:contentKeyID: 39512506
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.JET_LOGTIME.IsUtc
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name: 
+- Microsoft.Isam.Esent.Interop.JET_LOGTIME.get_IsUtc
+- Microsoft.Isam.Esent.Interop.JET_LOGTIME.IsUtc
+topic_type: 
+- apiref
+- kbSyntax
+api_type: 
+- Managed
+api_location: 
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# JET\_LOGTIME.IsUtc property
+
+Gets a value indicating whether the JET\_LOGTIME is in UTC.
+
+**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public ReadOnly Property IsUtc As Boolean
+    Get
+'Usage
+Dim instance As JET_LOGTIME
+Dim value As Boolean
+
+value = instance.IsUtc
+```
+
+``` csharp
+public bool IsUtc { get; }
+```
+
+#### Property value
+
+Type: [System.Boolean](http://msdn2.microsoft.com/en-us/library/a28wyd50)  
+
+## See also
+
+#### Reference
+
+[JET\_LOGTIME structure](hh557188\(v=exchg.10\).md)
+
+[JET\_LOGTIME members](hh579151\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

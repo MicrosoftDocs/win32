@@ -1,0 +1,52 @@
+﻿---
+title: JET_DBID operators (Microsoft.Isam.Esent.Interop)
+TOCTitle: JET_DBID operators
+ms:assetid: 3ea69a68-c166-c943-97ba-19a80faa9b4f
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578167(v=EXCHG.10)
+ms:contentKeyID: 39511438
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+---
+
+# JET\_DBID operators
+
+Include protected members  
+Include inherited members  
+
+The [JET\_DBID](hh596176\(v=exchg.10\).md) type exposes the following members.
+
+## Operators
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><a href="hh564853(v=exchg.10).md">Equality</a></td>
+<td>Determines whether two specified instances of JET_DBID are equal.</td>
+</tr>
+<tr class="even">
+<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><a href="hh577940(v=exchg.10).md">Inequality</a></td>
+<td>Determines whether two specified instances of JET_DBID are not equal.</td>
+</tr>
+</tbody>
+</table>
+
+
+Top
+
+## See also
+
+#### Reference
+
+[JET\_DBID structure](hh596176\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

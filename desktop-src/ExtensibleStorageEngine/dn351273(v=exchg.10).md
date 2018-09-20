@@ -1,0 +1,62 @@
+﻿---
+title: VistaColtyp fields (Microsoft.Isam.Esent.Interop.Vista)
+TOCTitle: VistaColtyp fields
+ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistacoltyp_fields(v=EXCHG.10)
+ms:contentKeyID: 55104201
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+---
+
+# VistaColtyp fields
+
+Include protected members  
+Include inherited members  
+
+The [VistaColtyp](dn351274\(v=exchg.10\).md) type exposes the following members.
+
+## Fields
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><a href="dn335347(v=exchg.10).md">GUID</a></td>
+<td>16-byte GUID.</td>
+</tr>
+<tr class="even">
+<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><a href="dn351276(v=exchg.10).md">LongLong</a></td>
+<td>Signed 64-bit number.</td>
+</tr>
+<tr class="odd">
+<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><a href="dn335348(v=exchg.10).md">UnsignedLong</a></td>
+<td>Unsigned 32-bit number.</td>
+</tr>
+<tr class="even">
+<td><img src="images/Hh596466.pubfield(EXCHG.10).gif" title="Public field" alt="Public field" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><a href="dn351278(v=exchg.10).md">UnsignedShort</a></td>
+<td>Unsigned 16-bit number.</td>
+</tr>
+</tbody>
+</table>
+
+
+Top
+
+## See also
+
+#### Reference
+
+[VistaColtyp class](dn351274\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+

@@ -1,0 +1,59 @@
+---
+title: EsentInvalidCodePageException constructor  (Microsoft.Isam.Esent.Interop)
+TOCTitle: 'EsentInvalidCodePageException constructor '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException.#ctor
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcodepageexception.esentinvalidcodepageexception(v=EXCHG.10)
+ms:contentKeyID: 55101884
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException.EsentInvalidCodePageException
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name: 
+- Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException..ctor
+topic_type: 
+- apiref
+- kbSyntax
+api_type: 
+- Managed
+api_location: 
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# EsentInvalidCodePageException constructor
+
+Initializes a new instance of the EsentInvalidCodePageException class.
+
+**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Sub New
+'Usage
+
+Dim instance As New EsentInvalidCodePageException()
+```
+
+``` csharp
+public EsentInvalidCodePageException()
+```
+
+## See also
+
+#### Reference
+
+[EsentInvalidCodePageException class](dn319443\(v=exchg.10\).md)
+
+[EsentInvalidCodePageException members](dn319483\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

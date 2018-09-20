@@ -1,0 +1,218 @@
+---
+title: JET_COLUMNLIST Structure
+TOCTitle: JET_COLUMNLIST Structure
+ms:assetid: 3899676f-c96e-4f15-9089-4faea6808bc2
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269228(v=EXCHG.10)
+ms:contentKeyID: 32765530
+ms.date: 04/11/2016
+mtps_version: v=EXCHG.10
+api_name: 
+topic_type: 
+- apiref
+- kbArticle
+api_type: 
+- COM
+api_location: 
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# JET\_COLUMNLIST Structure
+
+
+_**Applies to:** Windows | Windows Server_
+
+## JET\_COLUMNLIST Structure
+
+The **JET\_COLUMNLIST** structure contains the information necessary to traverse the temporary table that is created by the [JetGetColumnInfo](gg269215\(v=exchg.10\).md) and [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md) functions. Each row in the temporary table describes a column in the table given in the API call. This structure is used with only with [JetGetColumnInfo](gg269215\(v=exchg.10\).md) and [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md).
+
+    typedef struct {
+      unsigned long cbStruct;
+      JET_TABLEID tableid;
+      unsigned long cRecord;
+      JET_COLUMNID columnidPresentationOrder;
+      JET_COLUMNID columnidcolumnname;
+      JET_COLUMNID columnidcolumnid;
+      JET_COLUMNID columnidcoltyp;
+      JET_COLUMNID columnidCountry;
+      JET_COLUMNID columnidLangid;
+      JET_COLUMNID columnidCp;
+      JET_COLUMNID columnidCollate;
+      JET_COLUMNID columnidcbMax;
+      JET_COLUMNID columnidgrbit;
+      JET_COLUMNID columnidDefault;
+      JET_COLUMNID columnidBaseTableName;
+      JET_COLUMNID columnidBaseColumnName;
+      JET_COLUMNID columnidDefinitionName;
+    } JET_COLUMNLIST;
+
+### Members
+
+**cbStruct**
+
+The size of the structure in bytes. The API call will update this field, so the caller should ensure that this value matches sizeof( JET\_COLUMNLIST ).
+
+**tableid**
+
+The table identifier of the temporary table that was created. It is the responsibility of the caller to close the table.
+
+**cRecord**
+
+The number of records in the temporary table that was created by the API call.
+
+**columnidPresentationOrder**
+
+The column identifier of the presentation order.
+
+The presentation order is used to sort the rows of the temporary table. The presentation order is a fixed [JET\_coltypLong](gg269213\(v=exchg.10\).md). If the information level that was specified was not a compact level, then it is also marked as JET\_bitColumnTTKey.
+
+**columnidcolumnname**
+
+The column identifier of the name of the column.
+
+If the information level specified was not compact, then it is also marked as JET\_bitColumnTTKey.
+
+**columnidcolumnid**
+
+The column identifier of the column identifier.
+
+The column identifier is a fixed [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+
+**columnidcoltyp**
+
+The column identifier of the column type.
+
+The column type is a fixed [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+
+**columnidCountry**
+
+The column identifier of the country code.
+
+The country code is a fixed [JET\_coltypShort](gg269213\(v=exchg.10\).md).
+
+**columnidLangid**
+
+The column identifier of the language identifier.
+
+The language identifier is a fixed [JET\_coltypShort](gg269213\(v=exchg.10\).md).
+
+**columnidCp**
+
+The column identifier of the code page.
+
+The code page is a fixed [JET\_coltypShort](gg269213\(v=exchg.10\).md).
+
+**columnidCollate**
+
+The column identifier of the collation sequence.
+
+The collation sequence is a fixed [JET\_coltypShort](gg269213\(v=exchg.10\).md).
+
+**columnidcbMax**
+
+The column identifier of the **cbMax** field.
+
+The **cbMax** is a fixed [JET\_coltypLong](gg269213\(v=exchg.10\).md).
+
+**columnidgrbit**
+
+The column identifier of the *grbits* of the column. The *grbit* field is a fixed [JET\_coltypLong](gg269213\(v=exchg.10\).md). For more information about these bits, see [JET\_COLUMNDEF](gg294130\(v=exchg.10\).md).
+
+The following are possible values for **columnidgrbit**:
+
+JET\_bitColumnTagged
+
+JET\_bitColumnFixed
+
+JET\_bitColumnUpdatable
+
+JET\_bitColumnNotNULL
+
+JET\_bitColumnAutoincrement
+
+JET\_bitColumnVersion
+
+JET\_bitColumnMultiValued
+
+JET\_bitColumnEscrowUpdate
+
+JET\_bitColumnFinalize
+
+JET\_bitColumnDeleteOnZero
+
+JET\_bitColumnUserDefinedDefault
+
+**columnidDefault**
+
+The column identifier of the default value of the column.
+
+The default value is a [JET\_coltypLongBinary](gg269213\(v=exchg.10\).md).
+
+**columnidBaseTableName**
+
+The column identifier of the name of the table from which the table was derived.
+
+The table name is a [JET\_coltypText](gg269213\(v=exchg.10\).md).
+
+**columnidBaseColumnName**
+
+The column identifier of the name of the column from which the column was derived.
+
+The column name is a [JET\_coltypText](gg269213\(v=exchg.10\).md).
+
+**columnidDefinitionName**
+
+The column identifier of the name of the column definition.
+
+The column definition name is a [JET\_coltypText](gg269213\(v=exchg.10\).md).
+
+### Remarks
+
+By default, the order of the rows in the temporary table is sorted by the name of the column. It can also be sorted by column identifier. For more information about how to sort by column identifier, see [JetGetColumnInfo](gg269215\(v=exchg.10\).md) and [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md).
+
+The call to [JetGetColumnInfo](gg269215\(v=exchg.10\).md) or [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md) might specify a compact form of results. If any columns have been inherited from a template table, the compact results will not store them.
+
+### Requirements
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Client</strong></p></td>
+<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Server</strong></p></td>
+<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>Header</strong></p></td>
+<td><p>Declared in Esent.h.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+### See Also
+
+[JET\_COLTYP](gg269213\(v=exchg.10\).md)
+
+[JET\_COLUMNDEF](gg294130\(v=exchg.10\).md)
+
+[JET\_COLUMNID](gg294104\(v=exchg.10\).md)
+
+[JET\_ERR](gg294092\(v=exchg.10\).md)
+
+[JET\_GRBIT](gg294066\(v=exchg.10\).md)
+
+[JET\_SESID](gg269253\(v=exchg.10\).md)
+
+[JET\_TABLEID](gg269182\(v=exchg.10\).md)
+
+[JetGetColumnInfo](gg269215\(v=exchg.10\).md)
+
+[JetGetTableColumnInfo](gg294061\(v=exchg.10\).md)
+

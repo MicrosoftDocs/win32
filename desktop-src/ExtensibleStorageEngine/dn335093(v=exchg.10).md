@@ -1,0 +1,71 @@
+---
+title: JET_ENUMCOLUMNID.rgtagSequence property  (Microsoft.Isam.Esent.Interop)
+TOCTitle: 'rgtagSequence property '
+ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.rgtagSequence
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumnid.rgtagsequence(v=EXCHG.10)
+ms:contentKeyID: 55103529
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.rgtagSequence
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name: 
+- Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.set_rgtagSequence
+- Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.get_rgtagSequence
+- Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.rgtagSequence
+topic_type: 
+- kbSyntax
+- apiref
+api_type: 
+- Managed
+api_location: 
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# JET\_ENUMCOLUMNID.rgtagSequence property
+
+Gets or sets the array of one-based indices into the array of column values for a given column. A single element is an itagSequence which is defined in JET\_RETRIEVECOLUMN. An itagSequence of 0 (zero) means "skip". An itagSequence of 1 means return the first column value of the column, 2 means the second, and so on.
+
+**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Property rgtagSequence As Integer()
+    Get
+    Set
+'Usage
+Dim instance As JET_ENUMCOLUMNID
+Dim value As Integer()
+
+value = instance.rgtagSequence
+
+instance.rgtagSequence = value
+```
+
+``` csharp
+public int[] rgtagSequence { get; set; }
+```
+
+#### Property value
+
+Type: \[\]  
+
+## See also
+
+#### Reference
+
+[JET\_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
+
+[JET\_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

@@ -1,0 +1,71 @@
+---
+title: JET_TABLECREATE.ulPages property  (Microsoft.Isam.Esent.Interop)
+TOCTitle: 'ulPages property '
+ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.ulPages
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate.ulpages(v=EXCHG.10)
+ms:contentKeyID: 55103971
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.JET_TABLECREATE.ulPages
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name: 
+- Microsoft.Isam.Esent.Interop.JET_TABLECREATE.ulPages
+- Microsoft.Isam.Esent.Interop.JET_TABLECREATE.set_ulPages
+- Microsoft.Isam.Esent.Interop.JET_TABLECREATE.get_ulPages
+topic_type: 
+- kbSyntax
+- apiref
+api_type: 
+- Managed
+api_location: 
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# JET\_TABLECREATE.ulPages property
+
+Gets or sets the initial pages to allocate for table.
+
+**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Property ulPages As Integer
+    Get
+    Set
+'Usage
+Dim instance As JET_TABLECREATE
+Dim value As Integer
+
+value = instance.ulPages
+
+instance.ulPages = value
+```
+
+``` csharp
+public int ulPages { get; set; }
+```
+
+#### Property value
+
+Type: [System.Int32](http://msdn2.microsoft.com/en-us/library/td2s409d)  
+
+## See also
+
+#### Reference
+
+[JET\_TABLECREATE class](dn351072\(v=exchg.10\).md)
+
+[JET\_TABLECREATE members](dn351073\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

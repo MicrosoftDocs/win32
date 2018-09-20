@@ -1,0 +1,66 @@
+---
+title: JET_LOGTIME.ToString method  (Microsoft.Isam.Esent.Interop)
+TOCTitle: 'ToString method '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LOGTIME.ToString
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_logtime.tostring(v=EXCHG.10)
+ms:contentKeyID: 39516456
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.JET_LOGTIME.ToString
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name: 
+- Microsoft.Isam.Esent.Interop.JET_LOGTIME.ToString
+topic_type: 
+- apiref
+- kbSyntax
+api_type: 
+- Managed
+api_location: 
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# JET\_LOGTIME.ToString method
+
+Generate a string representation of the structure.
+
+**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Overrides Function ToString As String
+'Usage
+Dim instance As JET_LOGTIME
+Dim returnValue As String
+
+returnValue = instance.ToString()
+```
+
+``` csharp
+public override string ToString()
+```
+
+#### Return value
+
+Type: [System.String](http://msdn2.microsoft.com/en-us/library/s1wwdcbf)  
+The structure as a string.  
+
+## See also
+
+#### Reference
+
+[JET\_LOGTIME structure](hh557188\(v=exchg.10\).md)
+
+[JET\_LOGTIME members](hh579151\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+
