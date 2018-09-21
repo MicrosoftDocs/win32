@@ -6,7 +6,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 08/02/2018
+ms.date: 09/24/2018
 ---
 
 # Windows Desktop Application Program
@@ -106,6 +106,8 @@ You can filter the data in a number of ways, allowing you to:
 -   View health data in aggregate or by region, allowing you to isolate issues that are specific to a region
 -   Compare performance of your desktop applications across Windows versions, or on a specific version, such as the latest Windows 10 release
 -   View health info for one particular executable file included in your application
+
+Select **Upload symbols** in the top of the **Failures** table to upload a .zip file containing your application's [symbol files](http:/docs.microsoft.com/windows-hardware/drivers/debugger/symbols-and-symbol-files). These symbol files will be indexed and used to produce more accurate stack traces. Symbol file types within the .zip should be .pdb, .dll, or .exe. After you successfully upload your .zip file, you should see fewer **!Unknown** values for new failures in your application's failure list in approximately 5 days.
 
 ### Installs report
 
