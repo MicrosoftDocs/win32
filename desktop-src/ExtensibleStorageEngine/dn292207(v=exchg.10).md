@@ -1,0 +1,90 @@
+---
+title: Api.JetGotoPosition method  (Microsoft.Isam.Esent.Interop)
+TOCTitle: 'JetGotoPosition method '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGotoPosition(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_RECPOS)
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgotoposition(v=EXCHG.10)
+ms:contentKeyID: 55100756
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.Api.JetGotoPosition
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name: 
+- Microsoft.Isam.Esent.Interop.Api.JetGotoPosition
+topic_type: 
+- kbSyntax
+- apiref
+api_type: 
+- Managed
+api_location: 
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# Api.JetGotoPosition method
+
+Moves a cursor to a new location that is a fraction of the way through the current index. Also see [JetGetRecordPosition(JET\_SESID, JET\_TABLEID, JET\_RECPOS)](dn292181\(v=exchg.10\).md).
+
+**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Shared Sub JetGotoPosition ( _
+    sesid As JET_SESID, _
+    tableid As JET_TABLEID, _
+    recpos As JET_RECPOS _
+)
+'Usage
+Dim sesid As JET_SESID
+Dim tableid As JET_TABLEID
+Dim recpos As JET_RECPOSApi.JetGotoPosition(sesid, tableid, _
+    recpos)
+```
+
+``` csharp
+public static void JetGotoPosition(
+    JET_SESID sesid,
+    JET_TABLEID tableid,
+    JET_RECPOS recpos
+)
+```
+
+#### Parameters
+
+  - sesid  
+    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    
+    The session to use.
+
+<!-- end list -->
+
+  - tableid  
+    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    
+    The cursor to position.
+
+<!-- end list -->
+
+  - recpos  
+    Type: [Microsoft.Isam.Esent.Interop.JET\_RECPOS](dn335256\(v=exchg.10\).md)  
+    
+    The approximate position to move to.
+
+## See also
+
+#### Reference
+
+[Api class](dn292211\(v=exchg.10\).md)
+
+[Api members](dn292213\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

@@ -1,0 +1,47 @@
+﻿---
+title: Table type conversions (Microsoft.Isam.Esent.Interop)
+TOCTitle: Table type conversions
+ms:assetid: 24cee894-5c11-d5d5-7929-fd1eb7ab19ea
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn351169(v=EXCHG.10)
+ms:contentKeyID: 55104061
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+---
+
+# Table type conversions
+
+Include protected members  
+Include inherited members  
+
+The [Table](dn351163\(v=exchg.10\).md) type exposes the following members.
+
+## Operators
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="images/Dn350944.puboperator(EXCHG.10).gif" title="Public operator" alt="Public operator" /><img src="images/Dn292146.static(EXCHG.10).gif" title="Static member" alt="Static member" /></td>
+<td><a href="dn351239(v=exchg.10).md">Implicit(Table to JET_TABLEID)</a></td>
+<td>Implicit conversion operator from a Table to a JET_TABLEID. This allows a Table to be used with APIs which expect a JET_TABLEID.</td>
+</tr>
+</tbody>
+</table>
+
+
+Top
+
+## See also
+
+#### Reference
+
+[Table class](dn351163\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

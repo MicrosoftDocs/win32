@@ -1,0 +1,64 @@
+﻿---
+title: EsentException constructor  (Microsoft.Isam.Esent)
+TOCTitle: 'EsentException constructor '
+ms:assetid: Overload:Microsoft.Isam.Esent.EsentException.#ctor
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.esentexception.esentexception(v=EXCHG.10)
+ms:contentKeyID: 55107212
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.EsentException.EsentException
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+---
+
+# EsentException constructor
+
+Include protected members  
+Include inherited members  
+
+## Overload list
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><a href="dn292117(v=exchg.10).md">EsentException()</a></td>
+<td>Initializes a new instance of the EsentException class.</td>
+</tr>
+<tr class="even">
+<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><a href="dn292119(v=exchg.10).md">EsentException(String)</a></td>
+<td>Initializes a new instance of the EsentException class with a specified error message.</td>
+</tr>
+<tr class="odd">
+<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><a href="dn292125(v=exchg.10).md">EsentException(SerializationInfo, StreamingContext)</a></td>
+<td>Initializes a new instance of the EsentException class. This constructor is used to deserialize a serialized exception.</td>
+</tr>
+</tbody>
+</table>
+
+
+Top
+
+## See also
+
+#### Reference
+
+[EsentException class](dn292088\(v=exchg.10\).md)
+
+[EsentException members](dn292086\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent namespace](dn292085\(v=exchg.10\).md)
+

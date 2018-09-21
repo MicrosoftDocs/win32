@@ -1,0 +1,133 @@
+﻿---
+title: JET_SETINFO members (Microsoft.Isam.Esent.Interop)
+TOCTitle: JET_SETINFO members
+ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SETINFO
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setinfo_members(v=EXCHG.10)
+ms:contentKeyID: 55103871
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+---
+
+# JET\_SETINFO members
+
+Include protected members  
+Include inherited members  
+
+Settings for JetSetColumn.
+
+The [JET\_SETINFO](dn351059\(v=exchg.10\).md) type exposes the following members.
+
+## Constructors
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="dn351031(v=exchg.10).md">JET_SETINFO</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+Top
+
+## Properties
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><a href="dn351064(v=exchg.10).md">ibLongValue</a></td>
+<td>Gets or sets offset to the first byte to be set in a column of type <a href="hh577895(v=exchg.10).md">LongBinary</a> or <a href="hh577895(v=exchg.10).md">LongText</a>.</td>
+</tr>
+<tr class="even">
+<td><img src="images/Dn292128.pubproperty(EXCHG.10).gif" title="Public property" alt="Public property" /></td>
+<td><a href="dn351037(v=exchg.10).md">itagSequence</a></td>
+<td>Gets or sets the sequence number of value in a multi-valued column to be set. The array of values is one-based. The first value is sequence 1, not 0 (zero). If the record column has only one value then 1 should be passed as the itagSequence if that value is being replaced. A value of 0 (zero) means to add a new column value instance to the end of the sequence of column values.</td>
+</tr>
+</tbody>
+</table>
+
+
+Top
+
+## Methods
+
+<table>
+<thead>
+<tr class="header">
+<th> </th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="dn351060(v=exchg.10).md">ContentEquals</a></td>
+<td>Returns a value indicating whether this instance is equal to another instance.</td>
+</tr>
+<tr class="even">
+<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="dn351032(v=exchg.10).md">DeepClone</a></td>
+<td>Returns a deep copy of the object.</td>
+</tr>
+<tr class="odd">
+<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47">Equals</a></td>
+<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+</tr>
+<tr class="even">
+<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7">Finalize</a></td>
+<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+</tr>
+<tr class="odd">
+<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y">GetHashCode</a></td>
+<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+</tr>
+<tr class="even">
+<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9">GetType</a></td>
+<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+</tr>
+<tr class="odd">
+<td><img src="images/Dn292116.protmethod(EXCHG.10).gif" title="Protected method" alt="Protected method" /></td>
+<td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a">MemberwiseClone</a></td>
+<td>(Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+</tr>
+<tr class="even">
+<td><img src="images/Dn292146.pubmethod(EXCHG.10).gif" title="Public method" alt="Public method" /></td>
+<td><a href="dn351062(v=exchg.10).md">ToString</a></td>
+<td>Returns a <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf">String</a> that represents the current <a href="dn351059(v=exchg.10).md">JET_SETINFO</a>. (Overrides <a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2">Object.ToString()</a>.)</td>
+</tr>
+</tbody>
+</table>
+
+
+Top
+
+## See also
+
+#### Reference
+
+[JET\_SETINFO class](dn351059\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

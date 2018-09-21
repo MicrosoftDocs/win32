@@ -1,0 +1,70 @@
+---
+title: JET_ERR
+TOCTitle: JET_ERR
+ms:assetid: cd9cb876-251c-458d-a015-8e9045e77fc9
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294092(v=EXCHG.10)
+ms:contentKeyID: 32765707
+ms.date: 04/11/2016
+mtps_version: v=EXCHG.10
+api_name: 
+topic_type: 
+- kbArticle
+- apiref
+api_type: 
+- COM
+api_location: 
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# JET\_ERR
+
+
+_**Applies to:** Windows | Windows Server_
+
+## JET\_ERR
+
+The **JET\_ERR** data type contains an [Extensible Storage Engine error code](gg269297\(v=exchg.10\).md).
+
+    typedef long JET_ERR;
+
+### Data Types
+
+JET\_ERR
+
+A zero value (corresponding to JET\_errSuccess) indicates that the call succeeded. A positive value warns of a non-fatal condition that occurred during an otherwise successful call. A negative value indicates that the call failed.
+
+### Remarks
+
+For information about returning errors as HRESULTs, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md). For information about flags for configuring the database to handle errors, see [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+
+### Requirements
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Client</strong></p></td>
+<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Server</strong></p></td>
+<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>Header</strong></p></td>
+<td><p>Declared in Esent.h.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+### See Also
+
+[Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
+[Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md)  
+[Error Handling Parameters](gg269173\(v=exchg.10\).md)
+

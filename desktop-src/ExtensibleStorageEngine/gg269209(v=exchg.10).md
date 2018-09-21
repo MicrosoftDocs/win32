@@ -1,0 +1,79 @@
+---
+title: JET_API_PTR
+TOCTitle: JET_API_PTR
+ms:assetid: 27b1eeec-1707-4edb-a4b2-2619190c21e7
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269209(v=EXCHG.10)
+ms:contentKeyID: 32765512
+ms.date: 04/11/2016
+mtps_version: v=EXCHG.10
+api_name: 
+topic_type: 
+- apiref
+- kbArticle
+api_type: 
+- COM
+api_location: 
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# JET\_API\_PTR
+
+
+_**Applies to:** Windows | Windows Server_
+
+## JET\_API\_PTR
+
+The **JET\_API\_PTR** data type holds an integer or a pointer value.
+
+    #if defined(_WIN64)
+        typedef unsigned __int64 JET_API_PTR;
+    #elif !defined(__midl) && (defined(_X86_) || defined(_M_IX86)) && _MSC_VER >= 1300
+        typedef __w64 unsigned long JET_API_PTR;
+    #else
+        typedef unsigned long JET_API_PTR;
+    #endif
+
+### Data Types
+
+JET\_API\_PTR
+
+Like a **DWORD\_PTR** data type, the **JET\_API\_PTR** data type is defined as 4 bytes on a 32-bit machine and 8 bytes on a 64-bit machine.
+
+### Remarks
+
+The **JET\_API\_PTR** data type is used to define the following data types:
+
+  - [JET\_HANDLE](gg269217\(v=exchg.10\).md)
+
+  - [JET\_INSTANCE](gg294048\(v=exchg.10\).md)
+
+  - [JET\_SESID](gg269253\(v=exchg.10\).md)
+
+  - [JET\_TABLEID](gg269182\(v=exchg.10\).md)
+
+  - [JET\_LS](gg269336\(v=exchg.10\).md)
+
+### Requirements
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Client</strong></p></td>
+<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Server</strong></p></td>
+<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>Header</strong></p></td>
+<td><p>Declared in Esent.h.</p></td>
+</tr>
+</tbody>
+</table>
+
