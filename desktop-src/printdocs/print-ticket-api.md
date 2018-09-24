@@ -41,10 +41,10 @@ The following diagram shows the relationship of the Print Ticket API to the othe
 [GDI Print API](gdi-printing.md)
 </dt> <dt>
 
-[Print Schema Specification](http://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://go.microsoft.com/fwlink/?linkid=2022117)
 </dt> <dt>
 
-[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://go.microsoft.com/fwlink/?linkid=2022122)
 </dt> </dl>
 
  

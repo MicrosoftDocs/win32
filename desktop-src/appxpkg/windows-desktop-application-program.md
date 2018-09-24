@@ -6,31 +6,31 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 08/02/2018
+ms.date: 09/24/2018
 ---
 
 # Windows Desktop Application Program
 
 You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program.
 
-There s no charge to access this data all you need to do is [sign up](https://go.microsoft.com/fwlink/p/?linkid=858940) and accept the [Windows Desktop Application Program Agreement](https://go.microsoft.com/fwlink/?linkid=853677), then upload a signed file using the same certificate you used to sign your application executable files.
+There's no charge to access this data all you need to do is [sign up](https://go.microsoft.com/fwlink/p/?linkid=858940) and accept the [Windows Desktop Application Program Agreement](https://go.microsoft.com/fwlink/?linkid=853677), then upload a signed file using the same certificate you used to sign your application executable files.
 
 ## Join the Windows Desktop Application Program
 
-**If your company already has a Windows Dev Center account**: Sign into your Dev Center account (using the Microsoft account associated with the account owner) and navigate to the **Programs** page (either in **Account settings** or by selecting **All** in the left navigation menu). Under **Windows Desktop Application Program**, click **Get Started** to join the program at no additional cost. If you have an Azure AD tenant associated with your Dev Center account, users you ve added will be able to access the Windows Desktop Application Program. Coming soon, we ll allow you to set more granular access for this program.
+**If your company already has a Windows Dev Center account**: Sign into your Dev Center account (using the Microsoft account associated with the account owner) and navigate to the **Programs** page (either in **Account settings** or by selecting **All** in the left navigation menu). Under **Windows Desktop Application Program**, click **Get Started** to join the program at no additional cost. If you have an Azure AD tenant associated with your Dev Center account, users you've added will be able to access the Windows Desktop Application Program. Coming soon, we ll allow you to set more granular access for this program.
 
 > [!Tip]  
-> If your company has a Dev Center account but you don t have access, ask your administrator to [add you as a user](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications). Note that only the account owner can join the Windows Desktop Application Program.
+> If your company has a Dev Center account but you don't have access, ask your administrator to [add you as a user](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications). Note that only the account owner can join the Windows Desktop Application Program.
 
  
 
-**If your company doesn t have a Dev Center account**: You can [sign up for the Windows Desktop Application Program directly](https://go.microsoft.com/fwlink/p/?linkid=858940) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
+**If your company doesn't have a Dev Center account**: You can [sign up for the Windows Desktop Application Program directly](https://go.microsoft.com/fwlink/p/?linkid=858940) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
 
 ## Add your desktop applications
 
 Once you've joined the program, you'll need to add your Windows desktop applications to your dashboard so that we can start showing you your analytics reports.
 
-We use [code signing](https://msdn.microsoft.com/library/ms53736.aspx) to establish your company s identity and retrieve analytics for apps you publish.
+We use code signing to establish your company's identity and retrieve analytics for apps you publish.
 
 We'll provide you a file and ask you to sign it with the same valid, non-expired, non-revoked code signing certificates that you use to sign your desktop applications. After that, you'll upload that signed file to your dashboard. This lets us know that any desktop applications signed with the same certificate belong to your account. We do not use your certificate information for any other purpose.
 
@@ -88,7 +88,7 @@ After your signed files have been uploaded and we've identified your desktop app
 Our telemetry data will show health information such as crashes for each application associated with your certificate. Your dashboard will show an overview of your applications along with key metrics. You can select any application to view its [Health report](#health-report), [Installs report](#installs-report), and [Blocks report](#blocks-report) in the dashboard. You can also [retrieve analytic data programmatically by using the Microsoft Store analytics API](#retrieve-analytic-data-using-the-microsoft-store-analytics-api).
 
 > [!Note]  
-> If we detect that an application s metadata has been updated to use a new name, we ll begin to report new data under the new name. Historical data associated with the old name will be preserved for 30 days.
+> If we detect that an application's metadata has been updated to use a new name, we ll begin to report new data under the new name. Historical data associated with the old name will be preserved for 30 days.
 
  
 
@@ -106,6 +106,8 @@ You can filter the data in a number of ways, allowing you to:
 -   View health data in aggregate or by region, allowing you to isolate issues that are specific to a region
 -   Compare performance of your desktop applications across Windows versions, or on a specific version, such as the latest Windows 10 release
 -   View health info for one particular executable file included in your application
+
+Select **Upload symbols** in the top of the **Failures** table to upload a .zip file containing your application's [symbol files](http:/docs.microsoft.com/windows-hardware/drivers/debugger/symbols-and-symbol-files). These symbol files will be indexed and used to produce more accurate stack traces. Symbol file types within the .zip should be .pdb, .dll, or .exe. After you successfully upload your .zip file, you should see fewer **!Unknown** values for new failures in your application's failure list in approximately 5 days.
 
 ### Installs report
 
@@ -210,7 +212,7 @@ See [Associate Azure Active Directory with your Dev Center account](https://docs
 
 ### Add users, groups, and Azure AD applications to your account
 
-Once you ve set up the Azure AD association, you can add users by going to the Users section under Account settings. Each user is assigned a role that defines their access to the account. You can also add groups of users and Azure AD applications to grant them access to your Dev Center account. For more info about adding users, see [Add users, groups, and Azure AD applications](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications).
+Once you've set up the Azure AD association, you can add users by going to the Users section under Account settings. Each user is assigned a role that defines their access to the account. You can also add groups of users and Azure AD applications to grant them access to your Dev Center account. For more info about adding users, see [Add users, groups, and Azure AD applications](https://docs.microsoft.com/windows/uwp/publish/add-users-groups-and-azure-ad-applications).
 
 Each user, group, or Azure AD application that you add to your account must be assigned a role. This process is described at [Set roles or custom permissions for account users](https://docs.microsoft.com/windows/uwp/publish/set-custom-permissions-for-account-users). However, note that for the Windows Desktop Application Program, there is no ability to assign custom permissions or to restrict access by product. Instead, each user must be assigned one of the following standard roles.
 
@@ -218,8 +220,8 @@ Each user, group, or Azure AD application that you add to your account must be a
 
 | Role      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Manager   | Can upload and remove certificates and can view all analytic data. Has complete access to the account, except for changing financial info. This includes managing users, but note that the ability to create and delete users in the Azure AD tenant is dependent on the account's permission in Azure AD. That is, if a user is assigned the Manager role, but does not have global administrator permissions in the organization's Azure AD, they will not be able to create new users or delete users from the directory (though they can change a user's account role).<br/> Note that if your account is associated with more than one Azure AD tenant, a Manager can t see complete details for a user (including first name, last name, password recovery email, and whether they are an Azure AD global administrator) unless they are signed in to the same tenant as that user with an account that has global administrator permissions for that tenant. However, they can add and remove users in any tenant that is associated with the account. <br/> |
-| Developer | Can view applications and certificate details associated with the account, and can view the **Health** and **Installs** report. Can t view financial info or account settings.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Manager   | Can upload and remove certificates and can view all analytic data. Has complete access to the account, except for changing financial info. This includes managing users, but note that the ability to create and delete users in the Azure AD tenant is dependent on the account's permission in Azure AD. That is, if a user is assigned the Manager role, but does not have global administrator permissions in the organization's Azure AD, they will not be able to create new users or delete users from the directory (though they can change a user's account role).<br/> Note that if your account is associated with more than one Azure AD tenant, a Manager can't see complete details for a user (including first name, last name, password recovery email, and whether they are an Azure AD global administrator) unless they are signed in to the same tenant as that user with an account that has global administrator permissions for that tenant. However, they can add and remove users in any tenant that is associated with the account. <br/> |
+| Developer | Can view applications and certificate details associated with the account, and can view the **Health** and **Installs** report. Can't view financial info or account settings.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 
 
@@ -230,7 +232,7 @@ Each user, group, or Azure AD application that you add to your account must be a
 -   **Why don't I see any data for an application?** We won't show data until we detect enough users to gather meaningful information. If you've just released your application, it may take some time to reach this minimum adoption threshold. Another reason why you might not see data is if you haven't signed a file with the certificate for a certain application. Make sure you upload files signed with every certificate that you use to sign your applications.
 -   **Can I access this data through an API?** Yes, the data will be made available through a public API when the program is available to all developers.
 -   **What about applications with older certificates?** Unfortunately, we do not support submitting certificates that are expired or revoked, even if you renew them with the same key.
--   **Why do I see an application I don t recognize?** If the certificate you use to sign files in your application is also used by someone else in your company to sign another application, you will see telemetry for that application too. In the future, we'll provide an option to hide applications from your dashboard. If your company account is attached to an Azure AD tenant, you can request your admin to modify user permissions so that only specific applications are visible to you.
+-   **Why do I see an application I don't recognize?** If the certificate you use to sign files in your application is also used by someone else in your company to sign another application, you will see telemetry for that application too. In the future, we'll provide an option to hide applications from your dashboard. If your company account is attached to an Azure AD tenant, you can request your admin to modify user permissions so that only specific applications are visible to you.
 -   **How can I provide feedback on the experience or get support?** If you need assistance, you can create a support request [here](http://aka.ms/storesupport). To share your feedback, use the **Feedback** link (under **Account settings**) and select the **Analytics** area to let us know what you think. 
  
 

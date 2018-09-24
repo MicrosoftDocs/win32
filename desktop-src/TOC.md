@@ -65,6 +65,7 @@
 ######[Volume Shadow Copy Service](vss/volume-shadow-copy-service-portal.md)
 #####[Cloud Filter API](cfapi/cloud-files-api-portal.md)
 #####[Distributed File System](dfs/distributed-file-system.md)
+#####[Extensible Storage Engine](extensiblestorageengine/gg269259(v=exchg.10).md)
 #####[Image Mastering API](imapi/portal.md)
 #####[Imaging API](https://msdn.microsoft.com/en-us/library/windows/desktop/dd851933.aspx)
 #####[Local File Systems](fileio/file-systems.md)

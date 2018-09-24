@@ -1,0 +1,100 @@
+---
+title: Api.JetGetLS method  (Microsoft.Isam.Esent.Interop)
+TOCTitle: 'JetGetLS method '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetLS(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_LS@,Microsoft.Isam.Esent.Interop.LsGrbit)
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgetls(v=EXCHG.10)
+ms:contentKeyID: 55100734
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.Api.JetGetLS
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name: 
+- Microsoft.Isam.Esent.Interop.Api.JetGetLS
+topic_type: 
+- apiref
+- kbSyntax
+api_type: 
+- Managed
+api_location: 
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# Api.JetGetLS method
+
+Enables the application to retrieve the context handle known as Local Storage that is associated with a cursor or the table associated with that cursor. This context handle must have been previously set using [JetSetLS(JET\_SESID, JET\_TABLEID, JET\_LS, LsGrbit)](dn334015\(v=exchg.10\).md). JetGetLS can also be used to simultaneously fetch the current context handle for a cursor or table and reset that context handle.
+
+**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Shared Sub JetGetLS ( _
+    sesid As JET_SESID, _
+    tableid As JET_TABLEID, _
+    <OutAttribute> ByRef ls As JET_LS, _
+    grbit As LsGrbit _
+)
+'Usage
+Dim sesid As JET_SESID
+Dim tableid As JET_TABLEID
+Dim ls As JET_LS
+Dim grbit As LsGrbitApi.JetGetLS(sesid, tableid, ls, _
+    grbit)
+```
+
+``` csharp
+public static void JetGetLS(
+    JET_SESID sesid,
+    JET_TABLEID tableid,
+    out JET_LS ls,
+    LsGrbit grbit
+)
+```
+
+#### Parameters
+
+  - sesid  
+    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    
+    The session to use.
+
+<!-- end list -->
+
+  - tableid  
+    Type: [Microsoft.Isam.Esent.Interop.JET\_TABLEID](hh566310\(v=exchg.10\).md)  
+    
+    The cursor to use.
+
+<!-- end list -->
+
+  - ls  
+    Type: [Microsoft.Isam.Esent.Interop.JET\_LS](hh557499\(v=exchg.10\).md)  
+    
+    Returns the retrieved context handle.
+
+<!-- end list -->
+
+  - grbit  
+    Type: [Microsoft.Isam.Esent.Interop.LsGrbit](hh579487\(v=exchg.10\).md)  
+    
+    Retrieve options.
+
+## See also
+
+#### Reference
+
+[Api class](dn292211\(v=exchg.10\).md)
+
+[Api members](dn292213\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

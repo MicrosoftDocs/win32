@@ -1,0 +1,59 @@
+---
+title: EsentFixedInheritedDDLException constructor  (Microsoft.Isam.Esent.Interop)
+TOCTitle: 'EsentFixedInheritedDDLException constructor '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFixedInheritedDDLException.#ctor
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfixedinheritedddlexception.esentfixedinheritedddlexception(v=EXCHG.10)
+ms:contentKeyID: 55101725
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.EsentFixedInheritedDDLException.EsentFixedInheritedDDLException
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name: 
+- Microsoft.Isam.Esent.Interop.EsentFixedInheritedDDLException..ctor
+topic_type: 
+- apiref
+- kbSyntax
+api_type: 
+- Managed
+api_location: 
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# EsentFixedInheritedDDLException constructor
+
+Initializes a new instance of the EsentFixedInheritedDDLException class.
+
+**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Sub New
+'Usage
+
+Dim instance As New EsentFixedInheritedDDLException()
+```
+
+``` csharp
+public EsentFixedInheritedDDLException()
+```
+
+## See also
+
+#### Reference
+
+[EsentFixedInheritedDDLException class](dn350413\(v=exchg.10\).md)
+
+[EsentFixedInheritedDDLException members](dn350460\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+

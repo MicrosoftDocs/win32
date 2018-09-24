@@ -1,0 +1,94 @@
+---
+title: Windows8Api.JetBeginTransaction3 method  (Microsoft.Isam.Esent.Interop.Windows8)
+TOCTitle: 'JetBeginTransaction3 method '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetBeginTransaction3(Microsoft.Isam.Esent.Interop.JET_SESID,System.Int64,Microsoft.Isam.Esent.Interop.BeginTransactionGrbit)
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8api.jetbegintransaction3(v=EXCHG.10)
+ms:contentKeyID: 55107825
+ms.date: 07/30/2014
+mtps_version: v=EXCHG.10
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetBeginTransaction3
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name: 
+- Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetBeginTransaction3
+topic_type: 
+- kbSyntax
+- apiref
+api_type: 
+- Managed
+api_location: 
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+
+---
+
+# Windows8Api.JetBeginTransaction3 method
+
+Causes a session to enter a transaction or create a new save point in an existing transaction.
+
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+Public Shared Sub JetBeginTransaction3 ( _
+    sesid As JET_SESID, _
+    userTransactionId As Long, _
+    grbit As BeginTransactionGrbit _
+)
+'Usage
+Dim sesid As JET_SESID
+Dim userTransactionId As Long
+Dim grbit As BeginTransactionGrbitWindows8Api.JetBeginTransaction3(sesid, _
+    userTransactionId, grbit)
+```
+
+``` csharp
+public static void JetBeginTransaction3(
+    JET_SESID sesid,
+    long userTransactionId,
+    BeginTransactionGrbit grbit
+)
+```
+
+#### Parameters
+
+  - sesid  
+    Type: [Microsoft.Isam.Esent.Interop.JET\_SESID](hh596745\(v=exchg.10\).md)  
+    
+    The session to begin the transaction for.
+
+<!-- end list -->
+
+  - userTransactionId  
+    Type: [System.Int64](http://msdn2.microsoft.com/en-us/library/6yy583ek)  
+    
+    An optional identifier supplied by the user for identifying the transaction.
+
+<!-- end list -->
+
+  - grbit  
+    Type: [Microsoft.Isam.Esent.Interop.BeginTransactionGrbit](hh558568\(v=exchg.10\).md)  
+    
+    Transaction options.
+
+## Remarks
+
+Introduced in Windows 8.
+
+## See also
+
+#### Reference
+
+[Windows8Api class](dn335490\(v=exchg.10\).md)
+
+[Windows8Api members](dn335373\(v=exchg.10\).md)
+
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+
