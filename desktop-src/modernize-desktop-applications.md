@@ -37,73 +37,45 @@ MSIX is a modern Windows app package format that provides a universal packaging 
 
 Packaging your desktop Windows applications in MSIX packages gets you access to a robust installation and updating experience, a managed security model with a flexible capability system, support for the Microsoft Store, enterprise management, and many custom distribution models.
 
-To learn more, see [MSIX](https://docs.microsoft.com/windows/msix).
+To learn more, see the [MSIX documentation](https://docs.microsoft.com/windows/msix).
 
-## XAML Islands (Preview)
+## UWP controls in desktop applications (developer preview)
 
-You can add [UWP XAML controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function) to the user interfaces of your desktop application by using XAML Islands.
+Starting with the Windows 10 October 2018 Update, you can add [UWP XAML controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function) to the user interfaces of non-UWP desktop applications. This means that you can use the latest UWP features such as the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index) and [Windows Ink](https://docs.microsoft.com/windows/uwp/design/input/pen-and-stylus-interactions) in your existing WPF, Windows Forms, and C++ Win32 applications. This developer scenario is sometimes called *XAML islands*.
 
-A XAML island acts as a wrapper for UWP XAML controls. If you have a Windows Forms or WPF application, You can drag a special control, called a XAML Island host control, to the surface of your designer. This control abstracts away the complexities of a XAML island so that all you have to do is assign that control to your favorite UWP XAML control.
+> [!NOTE]
+> The APIs and controls that enable XAML islands are currently available as a developer preview. Although we encourage you to try them out in your own prototype code now, we do not recommend that you use them in production code at this time. These APIs and controls will continue to mature and stabilize in future Windows releases. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-There are several UWP XAML controls that you can add directly to your design surfaces without even having to first use a host control. These are called **Wrapped Controls**. They go one step further by abstracting away the host control.
+We provide several ways to use XAML islands in your desktop applications, depending on the technology or framework you are using. For complete details, see [UWP controls in desktop applications](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls)
 
-If you have a C++ Win32 application, you can add a XAML island by using the XAML Islands API.
+### Wrapped controls (WPF and Windows Forms only)
 
-This table summarizes the options.
+WPF and Windows Forms applications can use a selection of wrapped UWP controls in the [Windows Community Toolkit](https://docs.microsoft.com/windows/uwpcommunitytoolkit/). You can add these controls directly to the design surface of your WPF or Windows Forms project and then use like any other WPF or Windows Forms control in your designer. We refer to these controls as *wrapped controls* because they wrap the interface and functionality of a specific UWP control.
 
-| XAML Island Technology            |  Windows Forms | WPF | C++ Win32 |
-|------------------------------|----------------|-----|-------|
-| XAML Island Host Control    |  ✔             |  ✔ |       |
-| XAML Island Wrapped controls|  ✔             |  ✔ |       |
-| XAML Island API             |  ✔             |  ✔ |  ✔    |
+For more information, see [Wrapped controls](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls#wrapped-controls).
 
-To learn more about XAML Islands, see [Host UWP controls in WPF and Windows Forms applications](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls).
+### Host controls (WPF and Windows Forms only)
 
-### XAML Island Host Control (Preview)
+For scenarios beyond those covered by the available wrapped controls, WPF and Windows Forms applications can also use the [WindowsXamlHost](https://docs.microsoft.com/windows/communitytoolkit/controls/wpf-winforms/windowsxamlhost) control in the [Windows Community Toolkit](https://docs.microsoft.com/windows/uwpcommunitytoolkit/). This control can host any UWP control that derives from [**Windows.UI.Xaml.UIElement**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement), including any [UWP controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function) provided by the Windows SDK as well as custom user controls.
 
->[!NOTE]
->This feature is in preview only.
+### UWP XAML hosting API
 
-You can drag a XAML Island Host control directly to the design surface of your Windows Forms or WPF application. Then, you can set that host control to any UWP XAML control that you want. See  [WindowsXAMLHostControl](https://docs.microsoft.com/windows/communitytoolkit/controls/WindowsXAMLHost).
+If you have a C++ Win32 application, you can use the *UWP XAML hosting API* to host any UWP control that derives from [**Windows.UI.Xaml.UIElement**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement) in any UI element in your application that has an associated window handle (HWND). For more information about using this API, see [Using the XAML hosting API in a desktop application](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/using-the-xaml-hosting-api).
 
-To look at the complete list of UWP XAML controls, see [Controls by function](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function).
-
-### XAML Island Wrapped Controls (Preview)
-
-Add wrapped controls directly to the design surface of your desktop application. Here's what's available today:
-
-| Control |  Description |
-|------ |--------------|
-| [WebView](https://docs.microsoft.com/windows/communitytoolkit/controls/webview) |   Shows richly formatted HTML content from a remote web server, dynamically generated files, or content files by using the Microsoft Edge rendering engine. |
-| [InkCanvas]() | Renders pen input as either an ink stroke (using default settings for color and thickness) or an erase stroke.  |
-| [InkToolbar]() | Contains a customizable and extensible collection of buttons that activate ink-related features in an associated InkCanvas. |
-| [MediaPlayerElement]() | Used to view and listen to video and audio. |
-| [WebViewCompatible]() | Need to find out what this is.  |
-
-We'll update this guide with new controls as they are released.
-
-### XAML Island API (Preview)
-
->[!NOTE]
->This feature is in preview only.
-
-For C++ win32 apps, use the XAML Island API to incorporate UWP XAML controls into your desktop application UIs.
-
-See [Using the UWP XAML hosting API in a desktop application](https://review.docs.microsoft.com/windows/uwp/xaml-platform/using-the-xaml-hosting-api?branch=mcleans-xamlhosting).
-
-To look at the complete list of UWP XAML controls, see [Controls by function](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function).
+> [!NOTE]
+> C++ Win32 desktop applications must use the UWP XAML hosting API to host UWP controls. Wrapped controls and host controls are not available for these types of applications. For WPF and Windows Forms applications, we recommend that you use the wrapped controls and host controls in the Windows Community Toolkit instead of the UWP XAML hosting API. These controls use the UWP XAML hosting API internally and provide a simpler development experience. However, you can use the UWP XAML hosting API directly in WPF and Windows Forms applications if you choose.
 
 <a id="desktop-uwp-controls"/>
 
-## UWP XAML controls optimized for desktop applications
+## UWP controls optimized for desktop applications
 
-Here's some new UWP XAML controls that you can use to create desktop-optimized experiences with a modern Fluent design.
+Here's some new UWP controls that you can use to create desktop-optimized experiences with the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index).
 
 | Control |  Description |
 |------ |--------------|
-| [MenuBar](https://review.docs.microsoft.com/windows/uwp/design/controls-and-patterns/menus?branch=jimwalk%2Frs5-menu-bar) | provides a quick and simple way to expose a set of commands for apps that might need more organization or grouping then a CommandBar allows. |
+| [MenuBar](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus#create-a-menu-bar) | Provides a quick and simple way to expose a set of commands for apps that might need more organization or grouping then a **CommandBar** allows. |
 | [DropDownButton](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button) | Shows a chevron as a visual indicator that it has an attached flyout that contains more options.  |
-| [SplitButton](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | A [SplitButton](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) has two parts that can be invoked separately. One part behaves like a standard button and invokes an immediate action. The other part invokes a flyout that contains additional options that the user can choose from.|
+| [SplitButton](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | Provides a button has two parts that can be invoked separately. One part behaves like a standard button and invokes an immediate action. The other part invokes a flyout that contains additional options that the user can choose from.|
 | [CommandBarFlyout](https://review.docs.microsoft.com/windows/uwp/design/controls-and-patterns/command-bar-flyout?branch=jimwalk%2Frs5-command-bar-flyout) |  Has **PrimaryCommands** and **SecondaryCommands** properties you can use to add commands. You can place commands in either collection, or both. When and how the primary and secondary commands are displayed depends on the display mode. |
 | [EditableComboBox](https://review.docs.microsoft.com/windows/uwp/design/controls-and-patterns/combo-box?branch=rs5#make-a-combo-box-editable) | Need description. |
 | [DataGridView](https://docs.microsoft.com/windows/communitytoolkit/controls/datagrid) |   Provides a flexible way to display a collection of data in rows and columns.  |
