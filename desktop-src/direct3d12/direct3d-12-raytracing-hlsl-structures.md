@@ -1,6 +1,6 @@
 ---
-title: Direct3D 12 Raytracing HLSL Enumerations
-description: The following HLSL enumerations support the Direct3D 12 raytracing pipeline.
+title: Direct3D 12 Raytracing HLSL Structures
+description: The following HLSL structures support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
 ms.technology: desktop
 ms.prod: windows
@@ -9,9 +9,9 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Raytracing HLSL Enumerations
+# Raytracing HLSL Structures
 
-The following HLSL enumerations support the Direct3D 12 raytracing pipeline.
+The following HLSL structures support the Direct3D 12 raytracing pipeline.
 
 ## In this section
 
@@ -19,7 +19,7 @@ The following HLSL enumerations support the Direct3D 12 raytracing pipeline.
 
 | Topic                                                                                                       | Description                                                                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RAY\_FLAG**](/ray_flag.md)<br/>                              | Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.<br/>                                                                                                                                                                                                                                              |
+| [**RayDesc**](/raydesc.md)<br/>                              | Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.<br/>                                                                                                                                                                                                                                              |
 
 
 

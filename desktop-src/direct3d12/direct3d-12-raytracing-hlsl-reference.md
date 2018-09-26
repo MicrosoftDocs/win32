@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Core Reference
+# Raytracing HLSL Reference
 
 This section provides information on the HLSL constructs that support the Direct3D 12 raytracing pipeline.
 

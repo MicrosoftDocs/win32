@@ -13,9 +13,7 @@ topic_type:
 api_name: 
 - RAY_FLAG
 api_type: 
-- HeaderDef
-api_location: 
-- d3dx9anim.h
+- NA
 ---
 
 # RAY\_FLAG enumeration
