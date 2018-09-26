@@ -489,6 +489,8 @@
 ##### [D3D12_VIEW_INSTANCING_TIER](/windows/desktop/api/d3d12/ne-d3d12-d3d12_view_instancing_tier)
 ##### [D3D12_WRITEBUFFERIMMEDIATE_MODE](/windows/desktop/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode)
 #### [Core Constants](constants.md)
+#### [Core Data Types](direct3d12-data-types.md)
+##### [D3D12_GPU_VIRTUAL_ADDRESS](d3d12_gpu_virtual_address.md)
 ### [Debug Layer Reference](direct3d-12-sdklayers-reference.md)
 #### [Debug Layer Interfaces](direct3d-12-sdklayers-interfaces.md)
 ##### [ID3D12Debug](/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug)
@@ -762,5 +764,8 @@
 ##### [Updatesubresources (heap-allocating)](updatesubresources2.md)
 ##### [Updatesubresources (stack-allocating)](updatesubresources3.md)
 ### [Direct3D 12 Return Codes](d3d12-graphics-reference-returnvalues.md)
+### [Direct3D 12 Raytracing HLSL Reference](direct3d-12-raytracing-hlsl-reference.md)
+#### [Direct3D 12 Raytracing HLSL Enumerations](direct3d-12-raytracing-hlsl-enumerations.md)
+##### [RAY_FLAG](ray_flag.md)
 ## [Direct3D 12 Glossary](directx-12-glossary.md)
 
