@@ -47,33 +47,22 @@ Starting with the Windows 10 October 2018 Update, you can add [UWP XAML controls
 
 We provide several ways to use XAML islands in your desktop applications, depending on the technology or framework you are using. For complete details, see [UWP controls in desktop applications](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls)
 
-#### Wrapped controls (WPF and Windows Forms only)
+|        |        |
+|--------|--------|
+| **Wrapped controls (WPF and Windows Forms only)**    | WPF and Windows Forms applications can use a selection of wrapped UWP controls in the [Windows Community Toolkit](https://docs.microsoft.com/windows/uwpcommunitytoolkit/). You can add these controls directly to the design surface of your WPF or Windows Forms project and then use like any other WPF or Windows Forms control in your designer. We refer to these controls as *wrapped controls* because they wrap the interface and functionality of a specific UWP control.<br/><br/>For more information, see [Wrapped controls](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls#wrapped-controls). |
+| **Host controls (WPF and Windows Forms only)**      | For scenarios beyond those covered by the available wrapped controls, WPF and Windows Forms applications can also use the [WindowsXamlHost](https://docs.microsoft.com/windows/communitytoolkit/controls/wpf-winforms/windowsxamlhost) control in the [Windows Community Toolkit](https://docs.microsoft.com/windows/uwpcommunitytoolkit/). This control can host any UWP control that derives from [**Windows.UI.Xaml.UIElement**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement), including any [UWP controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function) provided by the Windows SDK as well as custom user controls.<br/><br/>For more information, see [Host controls](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls#host-controls). |
+| **UWP XAML hosting API** | If you have a C++ Win32 application, you can use the *UWP XAML hosting API* to host any UWP control that derives from [**Windows.UI.Xaml.UIElement**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement) in any UI element in your application that has an associated window handle (HWND).<br/><br/>For more information, see [Using the XAML hosting API in a desktop application](https://docs.microsoft.com/windows/uwp/xaml-platform/using-the-xaml-hosting-api). |    
 
-WPF and Windows Forms applications can use a selection of wrapped UWP controls in the [Windows Community Toolkit](https://docs.microsoft.com/windows/uwpcommunitytoolkit/). You can add these controls directly to the design surface of your WPF or Windows Forms project and then use like any other WPF or Windows Forms control in your designer. We refer to these controls as *wrapped controls* because they wrap the interface and functionality of a specific UWP control.
-
-For more information, see [Wrapped controls](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls#wrapped-controls).
-
-#### Host controls (WPF and Windows Forms only)
-
-For scenarios beyond those covered by the available wrapped controls, WPF and Windows Forms applications can also use the [WindowsXamlHost](https://docs.microsoft.com/windows/communitytoolkit/controls/wpf-winforms/windowsxamlhost) control in the [Windows Community Toolkit](https://docs.microsoft.com/windows/uwpcommunitytoolkit/). This control can host any UWP control that derives from [**Windows.UI.Xaml.UIElement**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement), including any [UWP controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function) provided by the Windows SDK as well as custom user controls.
-
-For more information, see [Host controls](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls#host-controls).
-
-#### UWP XAML hosting API
-
-If you have a C++ Win32 application, you can use the *UWP XAML hosting API* to host any UWP control that derives from [**Windows.UI.Xaml.UIElement**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement) in any UI element in your application that has an associated window handle (HWND).
-
-For more information, see [Using the XAML hosting API in a desktop application](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/using-the-xaml-hosting-api).
 
 <a id="desktop-uwp-controls"/>
 
 ## UWP controls optimized for desktop applications
 
-Here's some new and updated UWP controls that you can use to create desktop-optimized experiences with the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index).
+Whether you're building a UWP application that targets the desktop device family or you want to use UWP controls in a WPF, Windows Forms, or C++ Win32 desktop application, Windows 10 build 17763 (also known as the October 2018 Update or version 1809) introduces new and updated UWP controls that are designed to offer desktop-optimized experiences with the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index).
 
 | Control |  Description |
 |------ |--------------|
-| [MenuBar](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus#create-a-menu-bar) | Provides a quick and simple way to expose a set of commands for apps that might need more organization or grouping then a **CommandBar** allows. |
+| [MenuBar](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/menus#create-a-menu-bar) | Provides a quick and simple way to expose a set of commands for apps that might need more organization or grouping then a **CommandBar** allows. |
 | [DropDownButton](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/buttons#create-a-drop-down-button) | Shows a chevron as a visual indicator that it has an attached flyout that contains more options.  |
 | [SplitButton](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/buttons#create-a-split-button) | Provides a button has two parts that can be invoked separately. One part behaves like a standard button and invokes an immediate action. The other part invokes a flyout that contains additional options that the user can choose from.|
 | [ToggleSplitButton](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/buttons#create-a-toggle-split-button) | Provides a button has two parts that can be invoked separately. One part behaves like a toggle button that can be on or off. The other part invokes a flyout that contains additional options that the user can choose from. |
@@ -87,7 +76,6 @@ Here's some new and updated UWP controls that you can use to create desktop-opti
 The Windows UI Library is a set of NuGet packages that provide new controls and other user interface elements for UWP apps. Windows UI Library APIs work on earlier versions of Windows 10, so your app works even if users aren't running the latest version of Windows 10. This lets you adopt new controls as they are released in the Windows UI Library without having to worry about including version checks or conditional XAML.
 
 See [Windows UI Library (Preview version)](https://docs.microsoft.com/uwp/toolkits/winui/)
-
 
 ## Other current and future technologies for desktop applications
 

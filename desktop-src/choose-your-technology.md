@@ -18,20 +18,20 @@ Here are a few of the major differences between these technologies and when they
 
 |        |        |        |
 |--------|--------|--------|
-| **UWP**      | Languages: C\#, C++, VB, JavaScript<br/> Best if you are exclusively targeting Windows 10 and you want unencumbered access to the latest Windows 10 APIs and features. <br/><br/>UWP also provides many other benefits of a modern application platform. These include a XAML-based UI model with built-in support for adapting to DPI and screen size changes, a security model in which users explicitly grants apps access to device capabilities, and a clean packaging model that supports clean installations and the ability to publish directly to the Microsoft Store.  <br/> |   <br/> |
+| **UWP**      | Languages: C\#, C++, VB, JavaScript<br/> Best if you are exclusively targeting Windows 10 and you want unencumbered access to the latest Windows 10 APIs and features. UWP also provides many other benefits of a modern application platform. These include a XAML-based UI model with built-in support for adapting to DPI and screen size changes, a security model in which users explicitly grants apps access to device capabilities, and a clean packaging model that supports clean installations and the ability to publish directly to the Microsoft Store.  <br/> |   <br/> |
 | **.NET (Windows Forms and WPF)**      | Languages: C\#, C++, F\#, VB<br/> Best if you need to target OS versions before Windows 10 and you want to have a higher level of coding productivity than C++ and Win32. You can also share some .NET Framework code and libraries with other Microsoft platforms by using portable class libraries.<br/> |   <br/> |
-| **C++ and Win32** | Languages: C++ with COM<br/> Best if you need to achieve the highest levels of performance or efficiency, access native OS features, or want to target DirectX technologies. <br/><br/> C++ and Win32 gets you "closer to the metal," and lets you achieve the best performance for your app by taking direct control over memory allocation and performance-oriented CPU features like SSE or AVX instructions. It is the best way to target DirectX technologies for low-level, high-performance graphics access. You can share C++ code between all types of Windows applications as well as with non-Windows platforms. <br/> |    <br/> |
+| **C++ and Win32** | Languages: C++ with COM<br/> Best if you need to achieve the highest levels of performance or efficiency, access native OS features, or want to target DirectX technologies. C++ and Win32 gets you "closer to the metal," and lets you achieve the best performance for your app by taking direct control over memory allocation and performance-oriented CPU features like SSE or AVX instructions. It is the best way to target DirectX technologies for low-level, high-performance graphics access. You can share C++ code between all types of Windows applications as well as with non-Windows platforms. <br/> |    <br/> |
 
 ## Choose UWP
 
-Windows 10 introduced the Universal Windows Platform (UWP), which provides a common app platform on every device that runs Windows 10, including desktop PCs. A UWP app is:
+Windows 10 introduced the Universal Windows Platform (UWP), which provides a common app platform on every device that runs Windows 10, including PCs. A UWP app is:
 
 * Secure: UWP apps declare which device resources and data they access. The user must authorize that access.
-* Able to use a common API on all devices that run Windows 10.
+* Able to use a common API on all devices that run Windows 10, including PCs.
 * Able to use device specific capabilities and adapt the UI to different device screen sizes, resolutions, and DPI.
-* Available from the Microsoft Store on all devices (or only those that you specify) that run on Windows 10. The Microsoft Store provides multiple ways to make money on your app.
+* Available from the Microsoft Store on PCs that run Windows 10.
 * Able to be installed and uninstalled without risk to the machine or incurring "machine rot".
-* Engaging: use live tiles, push notifications, and user activities that interact with Windows Timeline and Cortana's Pick Up Where I Left Off, to engage users.
+* Engaging: use live tiles, push notifications, and user activities to engage users.
 * Programmable in C#, C++, Visual Basic, and Javascript. For UI, use XAML, HTML, or DirectX.
 
 For more information, see [Get started with Windows 10 apps](https://docs.microsoft.com/windows/uwp/get-started/).
