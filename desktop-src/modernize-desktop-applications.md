@@ -22,25 +22,25 @@ Packaging your desktop Windows applications in MSIX packages gets you access to 
 
 To learn more, see the [MSIX documentation](https://docs.microsoft.com/windows/msix).
 
-## Enhance your desktop application with UWP experiences
+## Integrate Windows 10 experiences into your desktop application with UWP APIs
 
-You can call some UWP APIs directly in your WPF, Windows Forms, or C++ Win32 desktop  application to integrate modern experiences that light up for Windows 10 users. For example, you can call UWP APIs to add toast notifications to your desktop application.
+You can call some UWP APIs directly in your WPF, Windows Forms, or C++ Win32 desktop application to integrate modern experiences that light up for Windows 10 users. For example, you can call UWP APIs to add toast notifications to your desktop application.
 
 For more information, see [Enhance your desktop application for Windows 10](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-enhance).
 
 ## Extend your desktop application with UWP XAML UI components
 
-You can extend your WPF, Windows Forms, or C++ Win32 application by adding UWP XAML UI components to the application. There are several ways to do this.
+You can introduce modern UI elements into your WPF, Windows Forms, or C++ Win32 application by adding UWP XAML UI components. There are several ways to do this.
 
 ### Add a UWP project to your desktop solution
 
-One way to display UWP XAML UI components in your desktop application is by adding a UWP project to your solution. This is a good option if the UWP XAML UI is separate from the other UI in your desktop application (for example, all of the UWP XAML UI is contained in a window that is opened by your application).
+You can add UWP XAML UI components to your desktop application by adding a UWP project to your solution and launching that component from your desktop application. This is a good option if you want the UWP XAML UI to be compartmentalized from the other UI in your desktop application (for example, if all of the UWP XAML UI is contained in a window that is opened by your application).
 
 For more information, see [Extend your desktop application with modern UWP components](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-extend).
 
 ### Host UWP controls in desktop applications (developer preview)
 
-Starting with the Windows 10 October 2018 Update, you can add [UWP XAML controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function) directly to any UI element in a WPF, Windows Forms, or C++ Win32 application that is associated with a window handle (HWND). This means that you can fully integrate the latest UWP features such as [Windows Ink](https://docs.microsoft.com/windows/uwp/design/input/pen-and-stylus-interactions) and controls that support the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index) into your desktop applications. This developer scenario is sometimes called *XAML islands*.
+Starting with the Windows 10 October 2018 Update, you can add [UWP XAML controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function) directly to any UI element in a WPF, Windows Forms, or C++ Win32 application that is associated with a window handle (HWND). This means that you can fully integrate the latest UWP features such as [Windows Ink](https://docs.microsoft.com/windows/uwp/design/input/pen-and-stylus-interactions) and controls that support the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index) into windows and other display surfaces in your desktop applications. This developer scenario is sometimes called *XAML islands*.
 
 > [!NOTE]
 > The APIs and controls that enable XAML islands are currently available as a developer preview. Although we encourage you to try them out in your own prototype code now, we do not recommend that you use them in production code at this time. These APIs and controls will continue to mature and stabilize in future Windows releases. Microsoft makes no warranties, express or implied, with respect to the information provided here.
