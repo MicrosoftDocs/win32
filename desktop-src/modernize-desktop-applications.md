@@ -10,26 +10,9 @@ ms.date: 09/11/2018
 
 # Modernize Your Desktop Applications for Windows 10
 
-<!--
+Windows 10 and the Universal Windows Platform (UWP) offer many features you can use to deliver a modern experience in your desktop applications. Most of these features are available as modular components that you can adopt in your desktop applications at your own pace without having to rewrite your application for a different platform. You can enhance your existing desktop applications by choosing which parts of Windows 10 and UWP to adopt.
 
-
-
-Windows 10 build 17763 (also known as the October 2018 Update or version 1809) introduces many new features that enable you to deliver a modern experience in your desktop applications. This includes:
-
-* **MSIX packages**. This is a modern application package format that is available for any desktop application.
-* **XAML Islands**. Certain UWP controls are now available as a set of building blocks that you can adopt in WPF, Windows Forms, and C/C++ Win32 applications.
-* UWP controls that are optimized for desktop applications.
-
--- categorize everything by: features available to any desktop application, features for .NET and Win32, and features for UWP targeted at desktop
-
--->
-
-The UWP platform is being made available as a set of "building blocks" that you can adopt in your desktop applications without having to rewrite your application for UWP. There's no need to learn a whole new stack to modernize. You can enhance existing investments in-place by choosing which parts of the platform to adopt.
-
-This guide describes UWP platform features that you can use in your desktop applications right now.
-
-<!-- categorize everything by: features available to any desktop application, features for .NET and Win32, and features for UWP targeted at desktop
--->
+This article describes the Windows 10 and UWP features that you can use in your desktop applications today.
 
 ## MSIX packages
 
