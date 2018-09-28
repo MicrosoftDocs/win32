@@ -38,7 +38,7 @@ This page is provided as a guide to the documentation. You should refer to the R
 
 [Summary Information Properties](summary-information-stream-reference.md)
 
--   The [**Template Summary**](template-summary.md) has a new value to indicate the database is compatible with Windows RT.
+-   The [**Template Summary**](template-summary.md) has new values to indicate the database is compatible with Windows RT or the Arm64 platform.
 
 [Database Tables](database-tables.md)
 
@@ -103,7 +103,7 @@ Windows Installer 5.0 can enumerate all components installed on the computer and
 
 Windows Installer 5.0 running on Windows Server 2012 or Windows 8 supports the installation of approved apps on Windows RT. A Windows Installer package, patch, or transform that has not been signed by Microsoft cannot be installed on Windows RT. The [**Template Summary**](template-summary.md) property indicates the platform that is compatible with the installation database and should include the value for Windows RT.
 
- 
+Windows Installer 5.0 running on Windows 10 on Arm64 processors supports the installation of applications compiled specifically for the Arm64 platform.  The [**Template Summary**](template-summary.md) property of these packages needs to include the value Arm64. 
 
  
 
