@@ -38,7 +38,7 @@ This page is provided as a guide to the documentation. You should refer to the R
 
 [Summary Information Properties](summary-information-stream-reference.md)
 
--   The [**Template Summary**](template-summary.md) has a new value to indicate the database is compatible with Windows RT.
+-   The [**Template Summary**](template-summary.md) has new values to indicate the database is compatible with Windows RT or the ARM64 platform.
 
 [Database Tables](database-tables.md)
 
