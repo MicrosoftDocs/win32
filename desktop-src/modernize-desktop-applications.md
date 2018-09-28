@@ -40,7 +40,7 @@ For more information, see [Extend your desktop application with modern UWP compo
 
 ### Host UWP controls in desktop applications (developer preview)
 
-Starting with the Windows 10 October 2018 Update, you can add [UWP XAML controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function) directly to any UI element in a WPF, Windows Forms, or C++ Win32 application that is associated with a window handle (HWND). This means that you can fully integrate the latest UWP features such as [Windows Ink](https://docs.microsoft.com/windows/uwp/design/input/pen-and-stylus-interactions) and controls that support the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index) into windows and other display surfaces in your desktop applications. This developer scenario is sometimes called *XAML islands*.
+Starting with the Windows 10 October 2018 Update (version 10.0.17763), you can add [UWP XAML controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/controls-by-function) directly to any UI element in a WPF, Windows Forms, or C++ Win32 application that is associated with a window handle (HWND). This means that you can fully integrate the latest UWP features such as [Windows Ink](https://docs.microsoft.com/windows/uwp/design/input/pen-and-stylus-interactions) and controls that support the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index) into windows and other display surfaces in your desktop applications. This developer scenario is sometimes called *XAML islands*.
 
 > [!NOTE]
 > The APIs and controls that enable XAML islands are currently available as a developer preview. Although we encourage you to try them out in your own prototype code now, we do not recommend that you use them in production code at this time. These APIs and controls will continue to mature and stabilize in future Windows releases. Microsoft makes no warranties, express or implied, with respect to the information provided here.
@@ -58,7 +58,7 @@ We provide several ways to use XAML islands in your desktop applications, depend
 
 ## UWP controls optimized for desktop applications
 
-Whether you're building a UWP application that targets the desktop device family or you want to use UWP controls in a WPF, Windows Forms, or C++ Win32 desktop application, Windows 10 build 17763 (also known as the October 2018 Update or version 1809) introduces new and updated UWP controls that are designed to offer desktop-optimized experiences with the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index).
+Whether you're building a UWP application that exclusively targets the desktop device family or you want to use UWP controls in a WPF, Windows Forms, or C++ Win32 desktop application, the Windows 10 October 2018 Update (version 10.0.17763) introduces new and updated UWP controls that are designed to offer desktop-optimized experiences with the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index).
 
 | Control |  Description |
 |------ |--------------|
@@ -77,9 +77,26 @@ The Windows UI Library is a set of NuGet packages that provide new controls and 
 
 See [Windows UI Library (Preview version)](https://docs.microsoft.com/uwp/toolkits/winui/)
 
-## Other current and future technologies for desktop applications
+## Other technologies for desktop applications
 
-* [.NET Core 3](https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/)
-* [Microsoft Graph](https://developer.microsoft.com/graph)
-* [Adaptive Cards](https://adaptivecards.io/)
-* [High DPI support in Windows Forms](https://docs.microsoft.com/dotnet/framework/winforms/high-dpi-support-in-windows-forms)
+### .NET Core 3
+
+.NET Core 3 is the next major release of .NET Core. The highlight of this upcoming release is support for Windows desktop applications, specifically Windows Forms, Windows Presentation Framework (WPF), and UWP. You will be able to run new and existing Windows desktop applications on .NET Core 3 and enjoy all the benefits that .NET Core has to offer.
+
+For more information, see the [announcement blog](https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/).
+
+### Microsoft Graph
+
+Microsoft Graph is a collection of APIs you can use to build apps for organizations and consumers that interact with the data of millions of users. Microsoft Graph exposes REST APIs and client libraries to access data on the following:
+* Azure Active Directory
+* Office 365 services: SharePoint, OneDrive, Outlook/Exchange, Microsoft Teams, OneNote, Planner, and Excel
+* Enterprise Mobility and Security services: Identity Manager, Intune, Advanced Threat Analytics, and Advanced Threat Protection.
+* Windows 10 services: activities and devices
+
+For more information, see [the Microsoft Graph docs](https://developer.microsoft.com/graph/docs/concepts/overview).
+
+### Adaptive Cards
+
+Adaptive Cards is an open, cross-platform framework that you can use to exchange card-based UI content in a common and consistent way across devices and platforms.
+
+For more information, see [the Adaptive Cards docs](https://docs.microsoft.com/adaptive-cards/).
