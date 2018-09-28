@@ -18,7 +18,7 @@ api_type:
 
 # DispatchRaysDimensions
 
-The width, height and depth values from the **D3D12\_DISPATCH\_RAYS\_DESC structure specified in the originating **DispatchRays** call.
+The width, height and depth values from the **D3D12\_DISPATCH\_RAYS\_DESC** structure specified in the originating **DispatchRays** call.
 
 ## Syntax
 

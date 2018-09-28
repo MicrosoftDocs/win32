@@ -1,5 +1,5 @@
 ---
-Description: A float representing the current parametric ending point for the ray. 
+Description: A float representing the current parametric starting point for the ray. 
 ms.assetid: 
 title: RayTMin
 ms.technology: desktop
@@ -18,12 +18,12 @@ api_type:
 
 # RayTMin
 
-A float representing the current parametric ending point for the ray. 
+A float representing the current parametric starting point for the ray. 
 
 ## Syntax
 
 ```
-float RayTCurrent();
+float RayTMin();
 
 ```
 

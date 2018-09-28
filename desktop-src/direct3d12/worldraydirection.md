@@ -1,7 +1,7 @@
 ---
-Description: Called from an any hit shader to reject the hit and end the shader.
+Description: The world-space direction for the current ray.
 ms.assetid: 
-title: IgnoreHit function
+title: WorldRayDirection
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,26 +11,23 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- IgnoreHit
+- WorldRayDirection
 api_type: 
 - NA
 ---
 
-# IgnoreHit function
+# WorldRayDirection
 
-Called from an any hit shader to reject the hit and end the shader. The hit search continues on without committing the distance and attributes for the current hit.  The **ReportHit** call in the intersection shader, if there is one, will return false.  Any modifications made to the ray payload up to this point in the any hit shader are preserved.
+The world-space direction for the current ray.
 
 ## Syntax
 
 ```
-void IgnoreHit();
+float3 WorldRayDirection();
 
 ```
 
 
-## Return Value
-
-**void**
 
 ## Remarks
 
