@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **Page Count Summary** property contains the minimum installer version required by the installation package. For a minimum of Windows Installer 2.0, this property must be set to the integer 200. For a minimum of Windows Installer 3.0, this property must be set to the integer 300. For a minimum of Windows Installer 3.1, this property must be set to 301. For a minimum of Windows Installer 4.5, this property must be set to 405. For a minimum of Windows Installer 5.0, this property must be set to 500.
 
-For [64-bit Windows Installer Packages](64-bit-windows-installer-packages.md), this property must be set to the integer 200 or greater. For 64-bit Windows Installer Packages on the ARM64 platform, this property must be set to the integer 500 or greater.
+For [64-bit Windows Installer Packages](64-bit-windows-installer-packages.md), this property must be set to the integer 200 or greater. For 64-bit Windows Installer Packages on the Arm64 platform, this property must be set to the integer 500 or greater.
 
 For a transform package, the **Page Count Summary** property contains the minimum installer version required to process the transform. Set to the greater of the two **Page Count Summary** property values that belong to the databases used to generate the transform.
 
