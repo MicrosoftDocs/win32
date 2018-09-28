@@ -26,6 +26,8 @@ The following examples are valid values for the **Template Summary** property:
 -   Intel;0
 -   Arm;1033,2046
 -   Arm;0
+-   Arm64;1033,2046
+-   Arm64;0
 
 The **Template Summary** property of a transform indicates the platform and language versions compatible with the transform. In a transform file, only one language may be specified. The specified platform and language determine whether a transform can be applied to a particular database. The platform property and the language property can be left blank if no transform restriction relies on them to validate the transform.
 
@@ -39,9 +41,11 @@ If the current platform does not match one of the platforms specified in the **T
 
 If the platform specification is missing in the **Template Summary** property value, the installer assumes the Intel architecture.
 
-If this is a 64-bit Windows Installer package being run on a Intel64 platform, enter Intel64 in the **Template Summary** property.
+If this is a 64-bit Windows Installer package being run on an Intel64 (Itanium) platform, enter Intel64 in the **Template Summary** property.
 
 If this is a 64-bit Windows Installer package being run on a x64 platform, enter x64 in the **Template Summary** property.
+
+If this is a 64-bit Windows Installer package being run on an ARM64 platform, enter Arm64 in the **Template Summary** property.
 
 A Windows Installer package cannot be marked as supporting both Intel64 and x64; for example, the **Template Summary** property value of Intel64,x64 is invalid.
 
