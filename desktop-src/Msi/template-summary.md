@@ -45,7 +45,7 @@ If this is a 64-bit Windows Installer package being run on an Intel64 (Itanium) 
 
 If this is a 64-bit Windows Installer package being run on a x64 platform, enter x64 in the **Template Summary** property.
 
-If this is a 64-bit Windows Installer package being run on an ARM64 platform, enter Arm64 in the **Template Summary** property.
+If this is a 64-bit Windows Installer package being run on an Arm64 platform, enter Arm64 in the **Template Summary** property.
 
 A Windows Installer package cannot be marked as supporting both Intel64 and x64; for example, the **Template Summary** property value of Intel64,x64 is invalid.
 
