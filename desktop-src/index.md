@@ -25,7 +25,7 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h2>Get started</h2>
+                        <h3>Get started</h3>
                         <p>
                             <a href="choose-your-technology">Choose your technology</a>
                         </p>
@@ -62,7 +62,7 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h2>Design</h2>
+                        <h3>Design</h3>
                         <p>
                             <a href="uxguide/designprinciples">Design basics</a>
                         </p>
@@ -90,12 +90,15 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h2>User Interfaces and the desktop environment</h2>
+                        <h3>User Interface programming</h3>
                         <p>
-                            <a href="winmsg/windowing">Windows and messages</a>
+                            <a href="windows-application-ui-development">Desktop User Interface</a>
                         </p>
                         <p>
-                            <a href="dlgbox/dialog-boxes">Dialog boxes</a>
+                            <a href="user-interface">Desktop environment</a>
+                        </p>
+                        <p>
+                            <a href="winmsg/windowing">Windows and messages</a>
                         </p>
                         <p>
                             <a href="menurc/resources">Menus and other resources</a>
@@ -105,9 +108,6 @@ Create Windows desktop applications that your customers can use at work and play
                         </p>
                         <p>
                             <a href="controls/window-controls">Windows controls</a>
-                        </p>
-                        <p>
-                            <a href="dataxchg/data-exchange">Data exchange</a>
                         </p>
                         <p>
                             <a href="shell/shell-entry">Windows shell</a>
@@ -127,7 +127,7 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h2>Fundamentals and hardware</h2>
+                        <h3>Fundamentals and hardware</h3>
                         <p>
                             <a href="system-services">System services</a>
                         </p>
@@ -154,28 +154,26 @@ Create Windows desktop applications that your customers can use at work and play
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_dashboard.svg?branch=master" alt="Graphics, audio, and video icon" />
+                            <img src="/media/common/i_dashboard.svg?branch=master" alt="Audio and video icon" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h2>Graphics, audio, and video</h2>
+                        <h3>Audio and video</h3>
                         <p>
-                            <a href="gdi/windows-gdi">Windows GDI</a>
+                            <a href="audio-and-video">Audio and video technologies</a>
                         </p>
-                        <p>
-                            <a href="gdiplus/-gdiplus-gdi-start">GDI+</a>
-                        </p>
-                        <p>
-                            <a href="directcomp/directcomposition-portal">DirectComposition</a>
-                        </p>
-                        <p>
-                            <a href="opengl/opengl">OpenGL</a>
-                        </p>
+
                         <p>
                             <a href="coreaudio/core-audio-apis-in-windows-vista">Core Audio APIs</a>
                         </p>
                         <p>
                             <a href="directshow/directshow">DirectShow</a>
+                        </p>
+                        <p>
+                            <a href="medfound/microsoft-media-foundation-sdk">Microsoft Media Foundation</a>
+                        </p>
+                        <p>
+                            <a href="multimedia/windows-multimedia-start-page">Windows Multimedia</a>
                         </p>
                     </div>
                 </div>
@@ -188,13 +186,16 @@ Create Windows desktop applications that your customers can use at work and play
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_deploy.svg?branch=master" alt="DirectX and gaming icon" />
+                            <img src="/media/common/i_deploy.svg?branch=master" alt="Graphics, DirectX, and gaming icon" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h2>DirectX and gaming</h2>
+                        <h3>Graphics, DirectX, and gaming</h3>
                         <p>
-                            <a href="getting-started-with-directx-graphics">Get started</a>
+                            <a href="graphics-and-multimedia">Graphics and gaming technologies</a>
+                        </p>
+                        <p>
+                            <a href="getting-started-with-directx-graphics">Get started with DirectX</a>
                         </p>
                         <p>
                             <a href="direct2d/direct2d-portal">Direct2D</a>
@@ -206,7 +207,10 @@ Create Windows desktop applications that your customers can use at work and play
                             <a href="xaudio2/xaudio2-apis-portal">XAudio2 APIs</a>
                         </p>
                         <p>
-                            <a href="xinput/xinput-game-controller-apis-portal">Xinput Game Controller APIs</a>
+                            <a href="gdi/windows-gdi">Windows GDI</a>
+                        </p>
+                        <p>
+                            <a href="gdiplus/-gdiplus-gdi-start">GDI+</a>
                         </p>
                     </div>
                 </div>
@@ -223,7 +227,7 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h2>Diagnostics and testing</h2>
+                        <h3>Diagnostics and testing</h3>
                         <p>
                             <a href="diagnostics">Diagnostics</a>
                         </p>
@@ -257,7 +261,7 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h2>Installation and servicing</h2>
+                        <h3>Packaging and installation</h3>
                         <p>
                             <a href="//docs.microsoft.com/windows/msix">MSIX</a>
                         </p>
@@ -285,9 +289,12 @@ Create Windows desktop applications that your customers can use at work and play
                         </div>
                     </div>
                     <div class="cardText">
-                        <h2>API reference</h2>
+                        <h3>API reference</h3>
                         <p>
                             <a href="api">Windows API reference</a>
+                        </p>
+                        <p>
+                            <a href="apiindex/api-index-portal">Windows API index</a>
                         </p>
                         <p>
                             <a href="winrt/reference">Windows Runtime C++ reference</a>
