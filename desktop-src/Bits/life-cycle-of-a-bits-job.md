@@ -15,11 +15,7 @@ The life cycle of a BITS job begins when you create a job. A job is a container 
 
 After you create the job, add one or more files (upload jobs can contain only one file) to the job and change any of the property values as appropriate for your application. When you add a file to the job, specify both the local (client) and remote (server) name of the file. The remote file name must use the HTTP, HTTPS, or SMB protocol. Files within a job are processed sequentially (first in, first out).
 
-**BITS 1.5 and earlier:** Supports only the HTTP and HTTPS protocols.
-
 BITS automatically suspends jobs when they are created. You must resume the job to activate it in the transfer queue. You can suspend or resume a job at any time. Resuming the job moves the job from the suspended state to the queued state. The job stays in the queued state until the scheduler determines it is the job's turn to transfer files. All foreground jobs run concurrently with one background job. BITS processes the files within foreground jobs serially.
-
-**BITS 1.5 and earlier:** BITS processes one job at a time. Foreground jobs have the highest priority and run before background jobs.
 
 When it is a job's turn to transfer files, the job moves to the connecting state while BITS connects to the remote server (specified in the remote file name). If BITS is able to connect to the remote server, the job moves to the transferring state where it stays until its time slice ends, the transfer is complete, an error occurs, or the application suspends the job.
 
