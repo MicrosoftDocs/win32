@@ -26,9 +26,6 @@ However, if the service does not impersonate the user, the following behaviors a
 - System accounts should not use mapped network drive letters because the drive letters are specific to a session and the mapping may be lost after a computer restart.
 - In the absence of a [Helper Token](helper-tokens-for-bits-transfer-jobs.md), network authentication uses computer credentials for LocalSystem and NetworkService accounts and anonymous credentials for the LocalService account. BITS returns "access denied" if the access control list (ACL) for the source file limits access to a user account.
 - For details on how authentication works in the presence of a [Helper Token](helper-tokens-for-bits-transfer-jobs.md), see [Authentication](authentication.md).
-
-**BITS 1.2 and earlier:** BITS does not support proxy credentials.
-
 - Microsoft Internet Explorer proxy settings are stored per-user and are not set for system accounts. Consider configuring a helper token on your BITS jobs, or explicitly setting the correct proxy settings by calling [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) with **BG\_JOB\_PROXY\_USAGE\_OVERRIDE**. Alternatively, you can use the **/Util /SetIEProxy** switches of BitsAdmin.exe to set Internet Explorer proxy settings for the LocalSystem, LocalService, or NetworkService system account. For details, see [BitsAdmin Tool](bitsadmin-tool.md).
 
 Note that BITS does not recognize the proxy settings that are set using the Proxycfg.exe file.
