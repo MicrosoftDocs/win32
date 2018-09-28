@@ -15,6 +15,8 @@ The installer sets the **VersionNT64** property to the version number for the op
 
 The value is an integer: MajorVersion \* 100 + MinorVersion.
 
+For compatibility reasons, the property is also undefined if the [**Template Summary**](template-summary.md) property indicates the package is for 32-bit Intel systems and the operating system is a 64-bit architecture that is not Intel64 or x64 (such as ARM64).
+
 ## Remarks
 
 Conditional expressions test for 64-bit Windows simply by using the property name, or by verifying the version using a comparison operator.
