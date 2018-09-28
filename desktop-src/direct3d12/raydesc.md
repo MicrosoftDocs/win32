@@ -5,7 +5,7 @@ title: RayDesc structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
-ms.topic: enumeration
+ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_type:
 - NA
 ---
 
-# RAY\_FLAG enumeration
+# RayDesc structure
 
 Passed to the **TraceRay** function to define the origin, direction, and extents of the ray.
 
@@ -36,7 +36,7 @@ struct RayDesc
 
 
 
-## Constants
+## Fields
 
 <dl> <dt>
 
