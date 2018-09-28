@@ -77,7 +77,7 @@ The Windows UI Library is a set of NuGet packages that provide new controls and 
 
 See [Windows UI Library (Preview version)](https://docs.microsoft.com/uwp/toolkits/winui/)
 
-## Other technologies for desktop applications
+## Other technologies for modern desktop applications
 
 ### .NET Core 3
 
@@ -93,10 +93,10 @@ Microsoft Graph is a collection of APIs you can use to build apps for organizati
 * Enterprise Mobility and Security services: Identity Manager, Intune, Advanced Threat Analytics, and Advanced Threat Protection.
 * Windows 10 services: activities and devices
 
-For more information, see [the Microsoft Graph docs](https://developer.microsoft.com/graph/docs/concepts/overview).
+For more information, see the [Microsoft Graph docs](https://developer.microsoft.com/graph/docs/concepts/overview).
 
 ### Adaptive Cards
 
 Adaptive Cards is an open, cross-platform framework that you can use to exchange card-based UI content in a common and consistent way across devices and platforms.
 
-For more information, see [the Adaptive Cards docs](https://docs.microsoft.com/adaptive-cards/).
+For more information, see the [Adaptive Cards docs](https://docs.microsoft.com/adaptive-cards/).
