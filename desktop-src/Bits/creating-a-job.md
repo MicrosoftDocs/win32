@@ -20,8 +20,6 @@ The [**CreateJob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-cre
 
 BITS limits the number of jobs in the queue to 300 jobs and the number of jobs that a user can create to 60 job. These limits do not apply to administrators or services. To change these default limits, see [Group Policies](group-policies.md).
 
-**Prior to Windows Vista:** There are no limits to the number of jobs in the queue or the number of jobs that a user can create.
-
 The following example shows how to create a download job. The example assumes the g\_pbcm variable is a valid [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface pointer. For details on how to create the **IBackgroundCopyManager** interface pointer, see [Connecting to the BITS Service](connecting-to-the-bits-service.md).
 
 
