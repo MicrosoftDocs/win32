@@ -77,6 +77,7 @@ BITS version 4.0 is included in the Windows Server 2008 R2 and Windows 7 operati
 <li>Added more <a href="group-policies">group policies</a> to control peer caching and limit download times.</li>
 <li>Added diagnostic and troubleshooting events to the system event log.</li>
 <li>Added support for <a href="user-account-control-and-bits">User Account Control</a> (UAC).</li>
+<li>On Windows Vista and higher, the default BITS startup type is delayed auto-start.</li>
 </ul>
 <blockquote>
 [!Note]<br />
@@ -90,11 +91,11 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </tr>
 <tr class="even">
 <td>Version 2.0</td>
-<td>Added support for performing concurrent foreground downloads, using Server Message Block (SMB) paths for remote names, downloading ranges of a file, changing the prefix or complete name of a remote name, and limiting client bandwidth usage.<br/> BITS version 2.0 is included in Windows XP with SP2 and Windows Server 2003 with SP1. You can also download BITS 2.0 for Windows Server 2003, and Windows XP. To download BITS 2.0, go to the <a href="http://go.microsoft.com/fwlink/p/?linkid=84094">Microsoft Download Center</a> and install KB842773.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.6.xxxx.xxxx&quot;.<br/></td>
+<td>Added support for performing concurrent foreground downloads, using Server Message Block (SMB) paths for remote names, downloading ranges of a file, changing the prefix or complete name of a remote name, and limiting client bandwidth usage. The JobInactivityTimeout policy is no longer located under Computer Configuration, Administrative Templates, Network.<br/> BITS version 2.0 is included in Windows XP with SP2 and Windows Server 2003 with SP1. You can also download BITS 2.0 for Windows Server 2003, and Windows XP. To download BITS 2.0, go to the <a href="http://go.microsoft.com/fwlink/p/?linkid=84094">Microsoft Download Center</a> and install KB842773.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.6.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="odd">
 <td>Version 1.5</td>
-<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="http://go.microsoft.com/fwlink/p/?linkid=83468">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
+<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials and proxy credentials.<br/> Starting with BITS 1.5, users with a <a href="http://go.microsoft.com/fwlink/p/?linkid=166157">restricted token</a> cannot create or modify jobs.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="http://go.microsoft.com/fwlink/p/?linkid=83468">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>Version 1.2</td>
