@@ -41,19 +41,13 @@ if (SUCCEEDED(hr))
 
 
 
-To test for a specific version of BITS, use one of the following symbolic class identifiers:
-
--   For BITS 3.0, use CLSID\_BackgroundCopyManager3\_0.
--   For BITS 2.5, use CLSID\_BackgroundCopyManager2\_5.
--   For BITS 2.0, use CLSID\_BackgroundCopyManager2\_0.
--   For BITS 1.5, use CLSID\_BackgroundCopyManager1\_5.
--   For BITS 1.0, use CLSID\_BackgroundCopyManager.
+To test for a specific version of BITS, use a symbolic class identifier for the BackgroundCopyManager based on the version you want to check. For example, to test for BITS 10.2, use CLSID\_BackgroundCopyManager10\_2.
 
 The following example shows how to use one of the symbolic class identifiers.
 
 
 ```C++
-  hr = CoCreateInstance(CLSID_BackgroundCopyManager2_0, NULL,
+  hr = CoCreateInstance(CLSID_BackgroundCopyManager5_0, NULL,
                         CLSCTX_LOCAL_SERVER,
                         IID_IBackgroundCopyManager,
                         (void**) &g_pbcm);
