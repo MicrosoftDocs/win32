@@ -1,7 +1,7 @@
 ---
 Description: A shader that is invoked from another shader with the CallShader intrinsic.    
 ms.assetid: 
-title: Miss Shader
+title: Callable Shader
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,12 +11,12 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- RAY_FLAG
+- Callable Shader
 api_type: 
 - NA
 ---
 
-# Miss Shader
+# Callable Shader
 
 A shader that is invoked from another shader with the **CallShader** intrinsic.
 
