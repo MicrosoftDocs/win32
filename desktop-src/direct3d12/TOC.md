@@ -856,6 +856,5 @@
 ###### [Intersection Attributes Structure](intersection-attributes.md)
 ###### [Ray Payload Structure](ray-payload.md)
 ###### [RayDesc Structure](raydesc.md)
-###### [RaytracingAccelerationStructure Structure](raytracingaccelerationstructure.md)
 ## [Direct3D 12 Glossary](directx-12-glossary.md)
 
