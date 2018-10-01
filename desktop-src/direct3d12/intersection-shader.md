@@ -20,7 +20,7 @@ api_type:
 
 A shader that is used to implement custom intersection primitives for rays intersecting an associated bounding volume (bounding box). 
 
-The intersection shader does not have access to the ray payload, but defines the intersection attributes for each hit through a call to **ReportHit**.  The handling of **ReportHit** may stop the intersection shader early, if the ray flag **RAY\_FLAG\_ACCEPT\_FIRST\_HIT_\AND\_\END\_SEARCH** is set, or **AcceptHitAndEndSearch** is called from an any hit shader.  Otherwise, it returns true if the hit was accepted or false if the hit was rejected.  This means that an any hit shader, if present, must execute before control conditionally returns to the intersection shader.
+The intersection shader does not have access to the ray payload, but defines the intersection attributes for each hit through a call to [**ReportHit**](reporthit-function.md).  The handling of **ReportHit** may stop the intersection shader early, if the ray flag **RAY\_FLAG\_ACCEPT\_FIRST\_HIT_\AND\_\END\_SEARCH** is set, or [**AcceptHitAndEndSearch**](accepthitandendsearch-function.md) is called from an any hit shader.  Otherwise, it returns true if the hit was accepted or false if the hit was rejected.  This means that an any hit shader, if present, must execute before control conditionally returns to the intersection shader.
 
 ## Shader Type attribute
 

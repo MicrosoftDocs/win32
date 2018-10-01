@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # RaytracingAccelerationStructure
 
-A resource type that can be declared in HLSL and passed into **TraceRay** to indicate the top-level acceleration resource built using **BuildRaytracingAccelerationStructure**. It is bound as a raw buffer SRV in a descriptor table or root descriptor SRV.  The declaration in HLSL is as follows:
+A resource type that can be declared in HLSL and passed into [**TraceRay**](traceray-function.md) to indicate the top-level acceleration resource built using **BuildRaytracingAccelerationStructure**. It is bound as a raw buffer SRV in a descriptor table or root descriptor SRV.  The declaration in HLSL is as follows:
 
 
 ```

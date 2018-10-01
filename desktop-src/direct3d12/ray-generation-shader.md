@@ -18,9 +18,9 @@ api_type:
 
 # Ray Generation Shader
 
-A shader that calls **TraceRay** to generate rays. The initial user-defined ray payload for each ray is provided to the **TraceRay** call site.  **CallShader** may also be used in ray generation shaders to invoke callable shaders.
+A shader that calls [**TraceRay**](traceray-function.md) to generate rays. The initial user-defined ray payload for each ray is provided to the **TraceRay** call site.  [**CallShader**](callshader-function.md) may also be used in ray generation shaders to invoke [callable shaders](callable-shader.md).
 
-**DispatchRays** invokes a grid of ray generation shader invocations.  Each invocation (thread) of a ray generation shader knows its location in the overall grid, can generate arbitrary rays via **TraceRay**, and operates independently of other invocations. There is no defined order of execution of threads with respect to each other.
+**DispatchRays** invokes a grid of ray generation shader invocations.  Each invocation (thread) of a ray generation shader knows its location in the overall grid, can generate arbitrary rays via [**TraceRay**](traceray-function.md), and operates independently of other invocations. There is no defined order of execution of threads with respect to each other.
 
 ## Shader Type attribute
 

@@ -18,7 +18,7 @@ api_type:
 
 # RayDesc structure
 
-Passed to the **TraceRay** function to define the origin, direction, and extents of the ray.
+Passed to the [**TraceRay**](traceray-function.md) function to define the origin, direction, and extents of the ray.
 
 ## Syntax
 

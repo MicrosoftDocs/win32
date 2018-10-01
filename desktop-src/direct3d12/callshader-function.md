@@ -34,7 +34,7 @@ void CallShader(uint ShaderIndex, inout param_t Parameter);
 
 `ShaderIndex`
 
-An unsigned integer representing the index into the callable shader table specified in the call to **DispatchRays**.
+An unsigned integer representing the index into the [callable shader](callable-shader.md) table specified in the call to [**DispatchRays**](http://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-dispatchrays.
 
 `Parameter`
 

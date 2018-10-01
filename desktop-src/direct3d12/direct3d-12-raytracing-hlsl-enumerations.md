@@ -19,7 +19,7 @@ The following HLSL enumerations support the Direct3D 12 raytracing pipeline.
 
 | Topic                                                                                                       | Description                                                                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RAY\_FLAG**](/ray_flag.md)<br/>                              | Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.<br/>                                                                                                                                                                                                                                              |
+| [**RAY\_FLAG**](/ray_flag.md)<br/>                              | Flags passed to the [**TraceRay**](traceray-function.md) function to override transparency, culling, and early-out behavior.<br/>                                                                                                                                                                                                                                              |
 
 
 

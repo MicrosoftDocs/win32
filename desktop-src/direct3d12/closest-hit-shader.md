@@ -18,7 +18,7 @@ api_type:
 
 # Closest Hit Shader
 
-A shader that is invoked when it is enabled and the closest hit has been determined or ray intersection search ended. This shader is where surface shading and additional ray generation will typically occur.  Closest hit shaders must declare a payload parameter, followed by an attributes parameter.  Each must be a user-defined structure type matching types used for **TraceRay** and **ReportHit** respectively, or the [**Intersection Attributes Structure**](intersection-attributes) when fixed-function triangle intersection is used.
+A shader that is invoked when it is enabled and the closest hit has been determined or ray intersection search ended. This shader is where surface shading and additional ray generation will typically occur.  Closest hit shaders must declare a payload parameter, followed by an attributes parameter.  Each must be a user-defined structure type matching types used for [**TraceRay**](traceray-function.md) and [**ReportHit**](reporthit-function.md) respectively, or the [**Intersection Attributes Structure**](intersection-attributes) when fixed-function triangle intersection is used.
 
 ## Shader Type attribute
 

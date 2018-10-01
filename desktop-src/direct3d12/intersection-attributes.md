@@ -25,10 +25,10 @@ struct BuiltInTriangleIntersectionAttributes
 };
 ```
 
-Any hit and closest hit shaders invoked using fixed-function triangle intersection must use this structure for hit attributes. Given attributes a0, a1 and a2 for the 3 vertices of a triangle, barycentrics.x is the weight for a1 and barycentrics.y is the weight for a2.  For example, the app can interpolate by doing:  a = a0 + barycentrics.x * (a1-a0) + barycentrics.y* (a2 – a0).
+[Any hit](any-hit-shader.md) and [closest hit](closest-hit-shader.md) shaders invoked using fixed-function triangle intersection must use this structure for hit attributes. Given attributes a0, a1 and a2 for the 3 vertices of a triangle, barycentrics.x is the weight for a1 and barycentrics.y is the weight for a2.  For example, the app can interpolate by doing:  a = a0 + barycentrics.x * (a1-a0) + barycentrics.y* (a2 – a0).
 
 ## Axis-aligned bounding box for procedural primitive intersection
 
-When axis-aligned bounding boxes are used for intersection with procedural primitives, an intersection shader is triggered.  That shader provides a user-defined intersection attribute structure to the **ReportHit** call.  The any hit and closest hit shaders bound in the same hit group with this intersection shader must use the same structure for hit attributes, even if the attributes are not referenced.  The maximum attribute structure size is 32 bytes, defined as **D3D12\_RAYTRACING\_MAX\_ATTRIBUTE\_SIZE\_IN\_BYTES**.
+When axis-aligned bounding boxes are used for intersection with procedural primitives, an intersection shader is triggered.  That shader provides a user-defined intersection attribute structure to the [**ReportHit**](reporthit-function.md) call.  The any hit and closest hit shaders bound in the same hit group with this intersection shader must use the same structure for hit attributes, even if the attributes are not referenced.  The maximum attribute structure size is 32 bytes, defined as **D3D12\_RAYTRACING\_MAX\_ATTRIBUTE\_SIZE\_IN\_BYTES**.
 
 

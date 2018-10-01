@@ -31,7 +31,7 @@ float RayTMin();
 
 **RayTMin** defines the starting point of the ray according to the following formula: Origin + (Direction * RayTMin).  *Origin* and *Direction* may be in either world or object space, which results in either a world or an object space starting point.
 
-**RayTMin** is specified in the call to **TraceRay**, and is constant for the duration of that call.
+**RayTMin** is specified in the call to [**TraceRay**](traceray-function.md), and is constant for the duration of that call.
 
 
 

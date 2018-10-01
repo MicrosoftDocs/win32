@@ -18,7 +18,7 @@ api_type:
 
 # HitKind
 
-Returns the value passed as the **HitKind** parameter to **ReportHit**.
+Returns the value passed as the **HitKind** parameter to [**ReportHit**](reporthit-function.md).
 
 ## Syntax
 

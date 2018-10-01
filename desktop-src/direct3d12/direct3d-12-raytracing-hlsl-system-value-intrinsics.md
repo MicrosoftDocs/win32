@@ -49,7 +49,7 @@ System values are retrieved by using special intrinsic functions, rather than in
 
 | Topic                                                                                                       | Description                                                                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**HitKind**](hitkind.md)<br/>                              | Returns the value passed as the **HitKind** parameter to **ReportHit**.<br/>                                                                                                                                                                                                                                              |
+| [**HitKind**](hitkind.md)<br/>                              | Returns the value passed as the **HitKind** parameter to [**ReportHit**](reporthit-function.md).<br/>                                                                                                                                                                                                                                              |
 
 ## Related topics
 

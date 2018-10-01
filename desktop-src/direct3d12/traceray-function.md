@@ -69,7 +69,7 @@ A [**RayDesc**](raydesk.md) representing the ray to be traced.
 
 `Payload`
 
-A user defined ray payload accessed both for both input and output by shaders invoked during raytracing.  After **TraceRay** completes, the caller can access the payload as well.
+A user defined ray payload accessed both for both input and output by shaders invoked during raytracing.  After [**TraceRay**](traceray-function.md) completes, the caller can access the payload as well.
 
 ## Return Value
 

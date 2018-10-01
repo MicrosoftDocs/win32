@@ -18,7 +18,7 @@ api_type:
 
 # RAY\_FLAG enumeration
 
-Flags passed to the **TraceRay** function to override transparency, culling, and early-out behavior.
+Flags passed to the [**TraceRay**](traceray-function.md) function to override transparency, culling, and early-out behavior.
 
 ## Syntax
 

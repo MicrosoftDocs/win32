@@ -18,9 +18,9 @@ api_type:
 
 # Miss Shader
 
-A shader that is invoked when no ray intersections are found or accepted. This is useful for background or sky shading.  The miss shader may use **CallShader** and **TraceRay** to schedule more work.
+A shader that is invoked when no ray intersections are found or accepted. This is useful for background or sky shading.  The miss shader may use [**CallShader**](callshader-function.md) and **TraceRay** to schedule more work.
 
-The miss shader must include a user-defined structure typed payload parameter matching the one supplied to **TraceRay**.
+The miss shader must include a user-defined structure typed payload parameter matching the one supplied to [**TraceRay**](traceray-function.md).
 
 
 ## Shader Type attribute

@@ -18,7 +18,7 @@ api_type:
 
 # RayFlags
 
-An unsigned integer containing the current **ray_flag** flags. 
+An unsigned integer containing the current [**ray_flag**](ray_flag.md) flags. 
 
 ## Syntax
 

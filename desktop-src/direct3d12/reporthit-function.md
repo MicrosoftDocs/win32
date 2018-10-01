@@ -18,7 +18,7 @@ api_type:
 
 # ReportHit function
 
-Called by an intersection shader to report a ray intersection.
+Called by an [intersection shader](intersection-shader.md) to report a ray intersection.
 
 ## Syntax
 This intrinsic function definition is equivalent to the following function template:
@@ -38,7 +38,7 @@ A float value specifying the parametric distance of the intersection..
 
 `HitKind`
 
-An unsigned integer that identifies the type of hit that occurred.  This is a user-specified value in the range of 0-127.  The value can be read by any hit or closest hit shaders with the **HitKind** intrinsic.
+An unsigned integer that identifies the type of hit that occurred.  This is a user-specified value in the range of 0-127.  The value can be read by [any hit](any-hit-shader.md) or [closest hit](closest-hit-shader.md) shaders with the **HitKind** intrinsic.
 
 `Attributes`
 
@@ -46,7 +46,7 @@ The user-defined [**IntersectionAttributeStructure**](intersectionattributestruc
 
 ## Return Value
 
-**bool** True if the hit was accepted.  A hit is rejected if *THit* is outside the current ray interval, or the any hit shader calls *IgnoreHit*.  The current ray interval is defined by **RayTMin** and **RayTCurrent**.
+**bool** True if the hit was accepted.  A hit is rejected if *THit* is outside the current ray interval, or the any hit shader calls [**IgnoreHit**](ignorehit-function.md).  The current ray interval is defined by **RayTMin** and **RayTCurrent**.
 
 ## Remarks
 
