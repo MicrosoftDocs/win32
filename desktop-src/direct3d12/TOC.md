@@ -843,7 +843,6 @@
 ###### [ReportHit function](reporthit-function.md)
 ###### [TraceRay function](traceray-function.md)
 ##### [Direct3D 12 Raytracing HLSL Resource Types](direct3d-12-raytracing-resource-types.md)
-###### [RaytracingAccelerationStructure](raytracingaccelerationstructure.md)
 ##### [Direct3D 12 Raytracing HLSL Shaders](direct3d-12-raytracing-hlsl-shaders.md)
 ###### [Any Hit Shader](any-hit-shader.md)
 ###### [Callable Shader](callable-shader.md)
