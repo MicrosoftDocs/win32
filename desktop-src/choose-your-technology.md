@@ -42,21 +42,21 @@ For more information, see [Get started with Windows 10 apps](https://docs.micros
 
 In addition to features you expect such as files/streams and network communication, here are a few highlights of what .NET offers to make building applications very productive:
 
--   Runtime productivity and safety such as automatic memory management, type safety, exception handling, and thread management
--   GUI technologies   see below
--   Rich collection data types
--   Data modeling (ADO, LINQ, WCF data services)
--   Language Integrated Query (LINQ)
--   Date and time library
--   Serialization
--   Web services
--   Security and cryptography
--   Parallel programming library
+-   Runtime productivity and safety such as automatic memory management, type safety, exception handling, and thread management.
+-   Two UI stacks: WPF and Windows Forms (see below).
+-   Rich collection data types.
+-   Data modeling (ADO, LINQ, WCF data services).
+-   Language Integrated Query (LINQ).
+-   Date and time library.
+-   Serialization.
+-   Web services.
+-   Security and cryptography.
+-   Parallel programming library.
 
 **Choose a UI stack:** Desktop applications can choose between two UI stacks. Data-centric applications benefit from data binding features in both for displaying data. The following provides guidance on choosing between the two UI stacks:
 
--   **WPF:** This is the preferred technology for Windows-based desktop applications that require UI complexity, styles customization, and graphics-intensive scenarios for the desktop. WPF also takes advantage of XAML views. You can leverage the new simplified asynchronous capabilities (async/await) in .NET 4.5. WPF development skills are similar to Windows Store development skills, so migration from WPF to UWP apps is easier than migration from Windows Forms.
--   **Windows Forms:** .This was the first UI technology in the .NET Framework for building desktop applications. It is still a good fit for many business desktop applications. Windows Forms is easier to use and lighter weight than WPF for simple scenarios. Windows Forms does not use XAML, so deciding later to extend your application to UWP entails a complete re-write of your UI.
+-   **WPF:** This is the preferred technology for Windows-based desktop applications that require UI complexity, styles customization, and graphics-intensive scenarios for the desktop. WPF also takes advantage of XAML views and simplified asynchronous capabilities (async/await). WPF development skills are similar to UWP development skills, so migration from WPF to UWP apps is easier than migration from Windows Forms.
+-   **Windows Forms:** This was the first UI technology in the .NET Framework for building desktop applications. It is still a good fit for many business desktop applications. Windows Forms is easier to use and lighter weight than WPF for simple scenarios. Windows Forms does not use XAML, so deciding later to extend your application to UWP entails a complete re-write of your UI.
 
 **Other capabilities** .NET provides multiple innovations to you to extend your app to new platforms without changes in the architecture. You can often re-use code, and the following .NET features make that easier:
 
@@ -78,8 +78,8 @@ Here are a few highlights of what C++ offers to enable you to build high-perform
 -   Access to performance-oriented instruction sets like SSE and AVX through intrinsic functions.
 -   Efficient, type-safe generic programming by using templates.
 -   Efficient and safe containers and algorithms.
--   DirectX in particular Direct3D and DirectCompute.
--   C++ AMP
+-   DirectX, in particular Direct3D and DirectCompute.
+-   C++ AMP.
 
 ### C++ for games and graphics-rich applications
 
