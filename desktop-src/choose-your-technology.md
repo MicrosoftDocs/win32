@@ -26,16 +26,15 @@ Here are a few of the major differences between these technologies and when they
 
 Windows 10 introduced the Universal Windows Platform (UWP), which provides a common app platform for PCs and every other device that runs Windows 10. A UWP app is:
 
-* Secure: UWP apps declare which device resources and data they access. The user must authorize that access.
-* Able to use a common API on all devices that run Windows 10, including PCs.
+* Engaging: UWP apps use modern features such as controls that support the Fluent Design System, live tiles, push notifications, and user activities to engage users.
+* Secure: UWP apps declare which device resources and data they access. Users must authorize the access.
+* Able to use a common API on PCs and all other devices that run Windows 10.
 * Able to use device specific capabilities and adapt the UI to different device screen sizes, resolutions, and DPI.
 * Available from the Microsoft Store on PCs that run Windows 10.
 * Able to be installed and uninstalled without risk to the machine or incurring "machine rot".
-* Engaging: use live tiles, push notifications, and user activities to engage users.
 * Programmable in C#, C++, Visual Basic, and Javascript. For UI, use XAML, HTML, or DirectX.
 
 For more information, see [Get started with Windows 10 apps](https://docs.microsoft.com/windows/uwp/get-started/).
-
 
 ## Choose .NET
 
