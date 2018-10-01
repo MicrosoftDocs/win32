@@ -320,6 +320,15 @@ The following constants are declared in d3d12.h, for use by a D3D12 title.
 | D3D12\_PS\_OUTPUT\_REGISTER\_COUNT                                               | 8                |
 | D3D12\_PS\_PIXEL\_CENTER\_FRACTIONAL\_COMPONENT                                  | 0.5f             |
 | D3D12\_RAW\_UAV\_SRV\_BYTE\_ALIGNMENT                                            | 16               |
+| D3D12\_RAYTRACING\_AABB\_BYTE\_ALIGNMENT                                         | 8                |
+| D3D12\_RAYTRACING\_ACCELERATION\_STRUCTURE\_BYTE\_ALIGNMENT                      | 256              |
+| D3D12\_RAYTRACING\_INSTANCE\_DESC\_BYTE\_ALIGNMENT                               | 16               |
+| D3D12\_RAYTRACING\_MAX\_ATTRIBUTE\_SIZE\_IN\_BYTES                               | 32               |
+| D3D12\_RAYTRACING\_MAX\_DECLARABLE\_TRACE\_RECURSION\_DEPTH                      | 31               |
+| D3D12\_RAYTRACING\_SHADER\_IDENTIFIER\_SIZE\_IN\_BYTES                           | 32               |
+| D3D12\_RAYTRACING\_SHADER\_RECORD\_BYTE\_ALIGNMENT                               | 32               |
+| D3D12\_RAYTRACING\_SHADER\_TABLE\_BYTE\_ALIGNMENT                                | 64               |
+| D3D12\_RAYTRACING\_TRANSFORM3X4\_BYTE\_ALIGNMENT                                 | 16               |
 | D3D12\_REQ\_BLEND\_OBJECT\_COUNT\_PER\_DEVICE                                    | 4096             |
 | D3D12\_REQ\_BUFFER\_RESOURCE\_TEXEL\_COUNT\_2\_TO\_EXP                           | 27               |
 | D3D12\_REQ\_CONSTANT\_BUFFER\_ELEMENT\_COUNT                                     | 4096             |
