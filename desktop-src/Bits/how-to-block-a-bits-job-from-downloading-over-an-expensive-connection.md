@@ -9,7 +9,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/01/2018
 ---
 
 # How to control whether a BITS job is allowed to download over an expensive connection
@@ -132,10 +132,13 @@ The following code example shows how to set a BITS job's transfer policy so that
 //
 //*********************************************************
 
-#include "stdafx.h"
+#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
+#include <windows.h>
+#include <bits.h>
+#include <stdio.h> // define wprintf
 
 
-int _tmain()
+int main()
 {
  HRESULT hr = S_OK;
  GUID guidJob;
