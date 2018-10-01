@@ -95,7 +95,10 @@ Create Windows desktop applications that your customers can use at work and play
                             <a href="windows-application-ui-development">Desktop User Interface</a>
                         </p>
                         <p>
-                            <a href="user-interface">Desktop environment</a>
+                            <a href="user-interface">Desktop environment and shell</a>
+                        </p>
+                        <p>
+                            <a href="//docs.microsoft.com/windows/uwp/xaml-platform/xaml-host-controls">Host UWP controls in desktop applications</a>
                         </p>
                         <p>
                             <a href="winmsg/windowing">Windows and messages</a>
@@ -108,9 +111,6 @@ Create Windows desktop applications that your customers can use at work and play
                         </p>
                         <p>
                             <a href="controls/window-controls">Windows controls</a>
-                        </p>
-                        <p>
-                            <a href="shell/shell-entry">Windows shell</a>
                         </p>
                     </div>
                 </div>
