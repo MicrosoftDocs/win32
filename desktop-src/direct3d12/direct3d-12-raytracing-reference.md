@@ -15,6 +15,7 @@ This article provides a listing of the API reference content for Direct3D raytra
 
 ## C++ raytracing reference
 
+This section links to the C++ APIs used to implement Direct3D 12 raytracing.
 
 ### C++ raytracing interfaces
 
@@ -79,6 +80,10 @@ This article provides a listing of the API reference content for Direct3D raytra
 * [D3D12_RAYTRACING_GEOMETRY_TYPE]("http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_raytracing_geometry_type)
 * [D3D12_RAYTRACING_INSTANCE_FLAGS]("http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_raytracing_instance_flags)
 * [D3D12_RAYTRACING_TIER]("http://docs.microsoft.com/windows/desktop/d3d12/ne-d3d12-d3d12_raytracing_tier)
+
+## HLSL raytracing reference
+
+For information on the HLSL constructs used to implement Direct3D 12 raytracing, see [Direct3D 12 Raytracing HLSL Reference](direct3d-12-raytracing-hlsl-reference.md).
 
 ## Related topics
 
