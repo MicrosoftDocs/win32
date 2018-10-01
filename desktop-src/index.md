@@ -162,7 +162,6 @@ Create Windows desktop applications that your customers can use at work and play
                         <p>
                             <a href="audio-and-video">Audio and video technologies</a>
                         </p>
-
                         <p>
                             <a href="coreaudio/core-audio-apis-in-windows-vista">Core Audio APIs</a>
                         </p>
