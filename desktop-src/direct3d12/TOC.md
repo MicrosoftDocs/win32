@@ -832,7 +832,7 @@
 ##### [Updatesubresources (heap-allocating)](updatesubresources2.md)
 ##### [Updatesubresources (stack-allocating)](updatesubresources3.md)
 ### [Direct3D 12 Return Codes](d3d12-graphics-reference-returnvalues.md)
-### [Direct3D 12 Raytracing Reference](direct3d-12-raytracing-reference.md)
+### [Direct3D 12 Raytracing](direct3d-12-raytracing.md)
 #### [Direct3D 12 Raytracing HLSL Reference](direct3d-12-raytracing-hlsl-reference.md)
 ##### [Direct3D 12 Raytracing HLSL Enumerations](direct3d-12-raytracing-hlsl-enumerations.md)
 ###### [RAY_FLAG](ray_flag.md)
