@@ -1,6 +1,6 @@
 ---
-title: Direct3D 12 Raytracing Reference
-description: This article provides a listing of the API reference content for Direct3D raytracing.
+title: Direct3D 12 Raytracing
+description: This article provides a listing of the documentation that is available for Direct3D raytracing.
 ms.assetid: 
 ms.technology: desktop
 ms.prod: windows
@@ -9,9 +9,9 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Direct3D 12 Raytracing Reference
+# Direct3D 12 Raytracing
 
-This article provides a listing of the API reference content for Direct3D raytracing.
+This article provides a listing of the documentation that is available for Direct3D raytracing.
 
 ## C++ raytracing reference
 
