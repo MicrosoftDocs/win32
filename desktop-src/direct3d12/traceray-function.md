@@ -42,7 +42,11 @@ void TraceRay(RaytracingAccelerationStructure AccelerationStructure,
 
 `AccelerationStructure`
 
-The top-level acceleration structure to use.
+The top-level acceleration structure to use. Specifying a NULL acceleration structure forces a miss.
+
+`RayFlags`
+
+Valid combination of [ray_flag](ray_flag.md) values. Only defined ray flags are propagated by the system, i.e. are visible to the [RayFlags](rayflags.md) shader intrinsic.
 
 `InstanceInclusionMask`
 
