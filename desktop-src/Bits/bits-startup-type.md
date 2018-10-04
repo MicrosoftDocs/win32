@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BITS Startup Type
 
-The **Startup Type** for BITS is delayed auto-start.
+The **Startup Type** for BITS is delayed auto-start (if there are active BITS jobs) or demand start (if there are no active jobs). Version of Windows prior to the November Update used only the delayed auto-start startup up; version prior to Vista, the startup type was manual.
 
 You should not set the **Startup Type** to Disabled. Disabling BITS may break applications that rely on BITS to transfer files.
 
