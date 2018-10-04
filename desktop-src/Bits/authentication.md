@@ -74,12 +74,12 @@ If you are using BITS in an environment that requires proxy authentication while
 
 The proxy detection logic used in BITS does the following when a network helper token (BG\_TOKEN\_NETWORK) is set:
 
--   If [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) was called with **BG\_JOB\_PROXY\_USAGE\_PRECONFIG**, then read local IE proxy settings using job owner token context impersonation via [**WinHttpGetIEProxyConfigForCurrentUser**](https://msdn.microsoft.com/library/windows/desktop/aa384096). Starting in Windows 10, version 1809 (10.0; Build XXXXX), the helper token identity is used for this step.
+-   If [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) was called with **BG\_JOB\_PROXY\_USAGE\_PRECONFIG**, then read local IE proxy settings using job owner token context impersonation via [**WinHttpGetIEProxyConfigForCurrentUser**](https://msdn.microsoft.com/library/windows/desktop/aa384096). Starting in Windows 10, version 1809 (10.0; Build 17763), the helper token identity is used for this step.
 -   If [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) was called with **BG\_PROXY\_USAGE\_AUTODETECT** or if the IE settings from the **BG\_JOB\_PROXY\_USAGE\_PRECONFIG** case specify auto-detect or an auto-config URL, then conduct auto-proxy detection, or Web Proxy Autodiscovery Protocol (WPAD), using helper token impersonation via [**WinHttpGetProxyForUrl**](https://msdn.microsoft.com/library/windows/desktop/aa384097).
 
 After that, helper token impersonation is used for proxy or server authentication throughout.
 
-Starting in Windows 10, version 1809 (10.0; Build XXXXX), the authenticated proxy scenario with user-specific credentials is simplified.
+Starting in Windows 10, version 1809 (10.0; Build 17763), the authenticated proxy scenario with user-specific credentials is simplified.
 
 1.  Call the BITS job's [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method with **BG\_AUTH\_SCHEME\_NEGOTIATE**, *UserName* set to **NULL**, *Password* set to **NULL**, and *Target* set to **BG\_AUTH\_TARGET\_PROXY**. This causes the user account's implicit credentials to be used for NTLM and Kerberos authentication with the proxy and server.
 2.  Call [**IBackgroundCopyJob::SetProxySettings**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) with **BG\_JOB\_PROXY\_USAGE\_PRECONFIG**.
@@ -91,7 +91,7 @@ Starting in Windows 10, version 1809 (10.0; Build XXXXX), the authenticated prox
 8. Continue job setup.
 9. Call [**Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume) on the job.
 
-Before Windows 10, version 1809 (10.0; Build XXXXX), the correct user identity (the helper token's identity) is used for network-based proxy detection (WPAD) and for proxy authentication, but the actual detection of local (IE) proxy settings is always done using the job owner's token, even when a helper token is configured. To work around this shortcoming, you can follow these steps.
+Before Windows 10, version 1809 (10.0; Build 17763), the correct user identity (the helper token's identity) is used for network-based proxy detection (WPAD) and for proxy authentication, but the actual detection of local (IE) proxy settings is always done using the job owner's token, even when a helper token is configured. To work around this shortcoming, you can follow these steps.
 
 1.  Impersonate the user account you're using for NTLM/Kerberos credentials.
 2.  Retrieve the user account's IE proxy settings by calling [**WinHttpGetIEProxyConfigForCurrentUser**](https://msdn.microsoft.com/library/windows/desktop/aa384096).
