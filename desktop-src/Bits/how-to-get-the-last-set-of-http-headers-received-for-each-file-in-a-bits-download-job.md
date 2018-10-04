@@ -8,7 +8,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 10/03/2018
+ms.date: 10/04/2018
 ---
 
 # How to get the last set of HTTP headers received for each file in a BITS download job
