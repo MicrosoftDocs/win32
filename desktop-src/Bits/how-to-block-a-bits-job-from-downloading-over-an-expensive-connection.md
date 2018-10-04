@@ -9,7 +9,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ---
 
 # How to control whether a BITS job is allowed to download over an expensive connection
