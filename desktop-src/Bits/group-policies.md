@@ -6,7 +6,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 08/16/2018
+ms.date: 10/04/2018
 ---
 
 # Group Policies
@@ -85,7 +85,7 @@ Changing the system clock does not affect the bandwidth limitation time interval
 </tbody>
 </table>
 
-BITS uses the following Group Policies to enable and configure the peer caching.
+BITS uses the following Group Policies to enable and configure how BITS intereacts with BranchCache.
 
 <table>
 <colgroup>
