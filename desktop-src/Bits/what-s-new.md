@@ -91,7 +91,7 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </tr>
 <tr class="even">
 <td>Version 2.0</td>
-<td>Added support for performing concurrent foreground downloads, using Server Message Block (SMB) paths for remote names, downloading ranges of a file, changing the prefix or complete name of a remote name, and limiting client bandwidth usage. The JobInactivityTimeout policy is no longer located under Computer Configuration, Administrative Templates, Network.<br/> BITS version 2.0 is included in Windows XP with SP2 and Windows Server 2003 with SP1. You can also download BITS 2.0 for Windows Server 2003, and Windows XP. To download BITS 2.0, go to the <a href="http://go.microsoft.com/fwlink/p/?linkid=84094">Microsoft Download Center</a> and install KB842773.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.6.xxxx.xxxx&quot;.<br/></td>
+<td>Added support for performing concurrent foreground downloads, using Server Message Block (SMB) paths for remote names, downloading ranges of a file, changing the prefix or complete name of a remote name, and limiting client bandwidth usage. The JobInactivityTimeout policy is now located under Computer Configuration, Administrative Templates, Network, Background Intelligent Transfer Service (BITS).<br/> BITS version 2.0 is included in Windows XP with SP2 and Windows Server 2003 with SP1. You can also download BITS 2.0 for Windows Server 2003, and Windows XP. To download BITS 2.0, go to the <a href="http://go.microsoft.com/fwlink/p/?linkid=84094">Microsoft Download Center</a> and install KB842773.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.6.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="odd">
 <td>Version 1.5</td>
