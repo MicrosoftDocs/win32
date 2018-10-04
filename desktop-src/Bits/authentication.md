@@ -6,7 +6,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 08/16/2018
+ms.date: 10/04/2018
 ---
 
 # Authentication
