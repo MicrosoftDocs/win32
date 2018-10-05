@@ -163,16 +163,17 @@ HRESULT MonitorJobProgress(__in IBackgroundCopyJob* Job)
     break;
 
     case BG_JOB_STATE_ERROR:
-     printf("ERROR: BITS has encountered a nonrecoverable error (error code %08X).\n", 
-            GetLastError());
-     printf("       Exiting job.\n");
+     wprintf(L"ERROR: BITS has encountered a non-recoverable error.\n");
+     DisplayError(Job);
+     wprintf(L"       Exiting job.\n");
      Exit = true;
-    break;
+     break;
+
     case BG_JOB_STATE_TRANSIENT_ERROR:
-     printf("ERROR: BITS has encountered a recoverable error.\n");
-     // Display job error here.
-     printf("       Continuing to retry.\n");
-    break;
+     wprintf(L"ERROR: BITS has encountered a recoverable error.\n");
+     DisplayError(Job);
+     wprintf(L"       Continuing to retry.\n");
+     break;
 
     case BG_JOB_STATE_TRANSFERRED:
      DisplayProgress(Job);
@@ -180,6 +181,7 @@ HRESULT MonitorJobProgress(__in IBackgroundCopyJob* Job)
      printf("Finalizing local files.\n");
      Job->Complete();
     break;
+
     case BG_JOB_STATE_ACKNOWLEDGED:
      printf("Finalization complete.\n");
      Exit = true;
@@ -320,7 +322,7 @@ The following code example is a fully working console application that shows how
 #include <windows.h>
 #include <bits.h>
 #include <stdio.h> // needed for wprintf
-
+#include <strsafe.h>
 
 #define ARRAY_LENGTH(x) (sizeof(x) / sizeof( *(x) ))
 
@@ -500,15 +502,15 @@ HRESULT MonitorJobProgress(__in IBackgroundCopyJob *Job)
     break;
 
    case BG_JOB_STATE_ERROR:
-    wprintf(L"ERROR: BITS has encountered a nonrecoverable error (error code %08X).\n",
-     GetLastError());
+    wprintf(L"ERROR: BITS has encountered a non-recoverable error.\n");
+    DisplayError(Job);
     wprintf(L"       Exiting job.\n");
     Exit = true;
     break;
 
    case BG_JOB_STATE_TRANSIENT_ERROR:
     wprintf(L"ERROR: BITS has encountered a recoverable error.\n");
-    // Display job error here.
+    DisplayError(Job);
     wprintf(L"       Continuing to retry.\n");
     break;
 
@@ -653,6 +655,7 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
  return S_OK;
 }
 
+
 /**
  * Displays the current progress of the job in terms of the amount of data
  * and number of files transferred.
@@ -693,15 +696,29 @@ VOID DisplayError(__in IBackgroundCopyJob *Job)
  hr = Job->GetError(&Error);
  if (FAILED(hr))
  {
-  wprintf(L"WARNING: Error details are not available.\n");
+  wprintf(L"WARNING: Unable to get job error information (code %08X)\n", hr);
  }
  else
  {
-  hr = Error->GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &ErrorDescription);
-  if (SUCCEEDED(hr))
+  BG_ERROR_CONTEXT ErrorContext;
+  HRESULT ErrorResult;
+  hr = Error->GetError(&ErrorContext, &ErrorResult);
+  if (FAILED(hr))
   {
-   wprintf(L"   Error details: %ws\n", ErrorDescription);
-   CoTaskMemFree(ErrorDescription);
+   wprintf(L"WARNING: Unable to get job error code information (code %08X)\n", hr);
+  }
+  else
+  {
+   hr = Error->GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &ErrorDescription);
+   if (FAILED(hr))
+   {
+    wprintf(L"WARNING: Unable to get job error description (code %08X) for %08X\n", hr, ErrorResult);
+   }
+   else
+   {
+    wprintf(L"   Error details: code %08X %ws\n", ErrorResult, ErrorDescription);
+    CoTaskMemFree(ErrorDescription);
+   }
   }
 
   Error->Release();
