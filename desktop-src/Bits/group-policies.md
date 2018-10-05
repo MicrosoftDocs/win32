@@ -85,7 +85,7 @@ Changing the system clock does not affect the bandwidth limitation time interval
 </tbody>
 </table>
 
-BITS uses the following Group Policies to enable and configure how BITS intereacts with BranchCache.
+BITS uses the following Group Policies to enable and configure how BITS interacts with BranchCache.
 
 <table>
 <colgroup>
