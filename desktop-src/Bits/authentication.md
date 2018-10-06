@@ -6,14 +6,12 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 08/16/2018
+ms.date: 10/04/2018
 ---
 
 # Authentication
 
 BITS supports Basic authentication, Passport authentication, and several challenge/response authentication schemes. If the server or proxy requires user authentication, use the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) function to specify the user's credentials. BITS uses the [CryptoAPI](https://msdn.microsoft.com/library/windows/desktop/aa380255) to protect the credentials.
-
-**BITS 1.2 and earlier:** The [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method is not available.
 
 Basic authentication requires the user name and password to be embedded in the URL, for example, HTTP://username:password@server/path/file. Because the user name and password are clear text, an administrator can enumerate the jobs in the transfer queue and see the user name and password. The user name and password can also be seen by a network monitor program that is on the same physical network link as the client and server (unless you use HTTPS).
 
@@ -42,31 +40,16 @@ If setting the **LMCompatibilityLevel** registry value is an issue, you can crea
 |Value|Description|
 |-|-|
 | 0     | BITS will send implicit credentials whenever the server prompts for NTLM or Kerberos credentials.                                                                                           |
-| 1     | BITS will send implicit credentials only if the client computer's **LMCompatibilityLevel** registry value is greater than or equal to 2.**Prior to BITS 1.5:** Not supported<br/>     |
-| 2     | BITS will send implicit credentials only if the application called the [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method. **Prior to BITS 2.0:** Not supported<br/> |
+| 1     | BITS will send implicit credentials only if the client computer's **LMCompatibilityLevel** registry value is greater than or equal to 2.<br/>     |
+| 2     | BITS will send implicit credentials only if the application called the [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method.<br/> |
 
-BITS will use the following default values for the **UseLMCompat** registry value if the registry value does not exist:
-
-| Operating system                     | Value |
-|--------------------------------------|-------|
-| Windows XP                           | 0     |
-| Windows XP with Service Pack 1 (SP1) | 0     |
-| Windows XP with Service Pack 2 (SP2) | 1     |
-| Windows XP with Service Pack 3 (SP3) | 1     |
-| Windows Server 2003                  | 1     |
-| Windows Server 2003 R2               | 1     |
-| Windows Vista                        | 2     |
-| Windows Server 2008                  | 2     |
-
-**BITS 1.2 and earlier:** BITS uses implicit credentials for NTLM or Kerberos authentication. If you wrote an application based on BITS 1.0 or 1.2, the same application may not run using later versions of BITS if the **LMCompatibilityLevel** value is less than two. Note that the default **LMCompatibilityLevel** value for Windows XP is zero.
+BITS will use a default value of "2" for the **UseLMCompat** registry value if the registry value does not exist.
 
 ## Using certificates for client/server authentication
 
 In secure client/server communication, clients and servers can use digital certificates to mutually authenticate each other. BITS automatically supports certificate-based server authentication for secure HTTP transports. To provide BITS the client certificate needed for mutual authentication, call either the [**IBackgroundCopyJobHttpOptions::SetClientCertificateByID**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid) or [**IBackgroundCopyJobHttpOptions::SetClientCertificateByName**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname) method.
 
 When a website accepts but does not require an SSL client certificate, and the BITS job does not specify a client certificate, the job will fail with **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED** (0x80072f0c).
-
-**Prior to Windows Vista:** BITS supports certificate-based server authentication for secure HTTP transports, but certificate-based client authentication is not supported.
 
 ## How to handle authenticated proxy scenarios that require user-specific settings
 
@@ -107,14 +90,3 @@ Before Windows 10, version 1809 (10.0; Build 17763), the correct user identity (
 12. Continue job setup.
 13. Call [**Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume) on the job.
 
-## Authentication scenarios not supported
-
-The following table shows the authentication requests that BITS does not support.
-
-|Scenario not supported|Windows XP|Windows Server 2003|
-|-|-|-|
-| Passport authentication on the server when the proxy requires authentication (using the HTTPS protocol). | Not supported | Not supported       |
-| Passport authentication when the auto-detect proxy setting is set.                                       | Not supported | Not supported       |
-| Any authentication scheme on the server when the proxy requires Digest authentication.                   | Not supported | Not supported       |
-| Negotiate authentication on the server when the proxy requires Basic authentication.                     | Not supported | |
-| Using HTTPS when the proxy requires Digest authentication.                                               | Not supported | |

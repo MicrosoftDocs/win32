@@ -6,7 +6,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/04/2018
 ---
 
 # Connecting to the BITS Service
@@ -15,10 +15,9 @@ To connect to the BITS service, create an instance of the BackgroundCopyManager 
 
 
 ```C++
-#define UNICODE
-#define _WIN32_WINNT  0x0500
+#define WIN32_LEAN_AND_MEAN // Exclude rarely-used stuff from Windows headers
 #include <windows.h>
-#include "bits.h"
+#include <bits.h>
 
 //Global variable that several of the code examples in this document reference.
 IBackgroundCopyManager* g_pbcm = NULL;  
@@ -41,48 +40,25 @@ if (SUCCEEDED(hr))
 
 
 
-To test for a specific version of BITS, use one of the following symbolic class identifiers:
-
--   For BITS 3.0, use CLSID\_BackgroundCopyManager3\_0.
--   For BITS 2.5, use CLSID\_BackgroundCopyManager2\_5.
--   For BITS 2.0, use CLSID\_BackgroundCopyManager2\_0.
--   For BITS 1.5, use CLSID\_BackgroundCopyManager1\_5.
--   For BITS 1.0, use CLSID\_BackgroundCopyManager.
+To test for a specific version of BITS, use a symbolic class identifier for the BackgroundCopyManager based on the version you want to check. For example, to test for BITS 10.2, use CLSID\_BackgroundCopyManager10\_2.
 
 The following example shows how to use one of the symbolic class identifiers.
 
 
 ```C++
-  hr = CoCreateInstance(CLSID_BackgroundCopyManager2_0, NULL,
+  hr = CoCreateInstance(CLSID_BackgroundCopyManager5_0, NULL,
                         CLSCTX_LOCAL_SERVER,
                         IID_IBackgroundCopyManager,
                         (void**) &g_pbcm);
   if (SUCCEEDED(hr))
   {
-    //BITS 2.0 is installed.
+    //BITS 5.0 is installed.
   }
 ```
 
 
 
 Use the methods of the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface to [create transfer jobs](creating-a-job.md), [enumerate jobs](enumerating-jobs-in-the-transfer-queue.md) in the queue, and [retrieve jobs](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-getjob).
-
-To retrieve a pointer to the [**IBitsPeerCacheAdministration**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibitspeercacheadministration) interface, call the **IBackgroundCopyManager::QueryInterface** method. The following example shows how to get the **IBitsPeerCacheAdministration** interface.
-
-
-```C++
-  HRESULT hr = S_OK;
-  IBackgroundCopyManager* pbcm = NULL;
-  IBitsPeerCacheAdministration* pCacheAdmin = NULL;
-
-  hr = pbcm>QueryInterface(__uuidof(IBitsPeerCacheAdministration), (void**)&pCacheAdmin);
-  pbcm->Release();
-  if (FAILED(hr))
-  {
-    wprintf(L"pbcm->QueryInterface failed with 0x%x.\n", hr);
-    goto cleanup;
-  }
-```
 
 
 

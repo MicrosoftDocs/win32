@@ -9,7 +9,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/04/2018
 ---
 
 # Registering to Execute a Program
@@ -47,7 +47,7 @@ int rc;
 hr = pJob->GetId(&JobId);
 if (SUCCEEDED(hr)
 {
-  rc = StringFromGUID2(JobId, szJobId, sizeof(szJobId));
+  rc = StringFromGUID2(JobId, szJobId, ARRAYSIZE(szJobId));
   if (rc)
   {
     StringCchPrintf(szParameters, MAX_PARAMETER_LEN+1, L"%s %s", pProgram, szJobId);
@@ -72,69 +72,60 @@ When the state of the job becomes BG\_JOB\_STATE\_TRANSFERRED, BITS executes the
 
 
 ```C++
-#define UNICODE
-#define _WIN32_WINNT  0x0500
-
+#define WIN32_LEAN_AND_MEAN // Exclude rarely-used stuff from Windows headers
 #include <windows.h>
-#include <comdef.h>
-#include <wchar.h>
-#include <stdio.h>
+#include <bits.h>
 #include <strsafe.h>
-#include "bits.h"
 
-HRESULT wmain(int argc, wchar_t *argv[])
+int wmain(int argc, wchar_t *argv[])
 {
-    HRESULT hr;
-    IBackgroundCopyManager *pManager = NULL;
-    IBackgroundCopyJob *pJob = NULL;
-    GUID JobId;
-    WCHAR *pDisplayName = NULL;
-    WCHAR *pSuccessString = L" completed successfully.";
-    WCHAR *pMessage;
+ HRESULT hr;
+ IBackgroundCopyManager *pManager = NULL;
+ IBackgroundCopyJob *pJob = NULL;
+ GUID JobId;
+ LPWSTR pDisplayName = NULL;
+ LPCWSTR pSuccessString = L" completed successfully.";
+ LPWSTR pMessage;
 
-    hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
-    hr = CoInitializeSecurity(NULL, -1, NULL, NULL,
-        RPC_C_AUTHN_LEVEL_CONNECT,
-        RPC_C_IMP_LEVEL_DELEGATE,
-        NULL, EOAC_NONE, 0);
-    hr = CoCreateInstance(__uuidof(BackgroundCopyManager), 
-            NULL, CLSCTX_ANY,
-            __uuidof( IBackgroundCopyManager ), (void**) &pManager);
+ hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
+ hr = CoCreateInstance(__uuidof(BackgroundCopyManager),
+  NULL, CLSCTX_LOCAL_SERVER,
+  __uuidof(IBackgroundCopyManager), (void**)&pManager);
 
-    if (pManager)
+ if (pManager)
+ {
+  hr = CLSIDFromString(argv[1], &JobId);
+  if (SUCCEEDED(hr))
+  {
+   hr = pManager->GetJob(JobId, &pJob);
+   if (SUCCEEDED(hr))
+   {
+    hr = pJob->GetDisplayName(&pDisplayName);
+    if (SUCCEEDED(hr))
     {
-        hr = CLSIDFromString(argv[1], &JobId);
-        if (SUCCEEDED(hr))
-        {
-            hr = pManager->GetJob(JobId, &pJob);
-            if (SUCCEEDED(hr))
-            {
-                hr = pJob->GetDisplayName(&pDisplayName);
-                if (SUCCEEDED(hr))
-                {
-                    pMessage = (WCHAR*)malloc((wcslen(pDisplayName) + 
-                         wcslen(pSuccessString) + 1)* sizeof(WCHAR));
-                    if (pMessage)
-                    {
-                        StringCchPrintf(pMessage, wcslen(pDisplayName) + wcslen(pSuccessString) + 1, 
-                            L"%s%s", pDisplayName, pString);
-                        MessageBox(HWND_DESKTOP, pMessage, L"MyProgram - Transferred", MB_OK);
-                        free(pMessage);
-                    }
-                    else
-                    {
-                        hr = E_OUTOFMEMORY;
-                    }
-                    CoTaskMemFree(pDisplayName);
-                }
-                pJob->Release();
-            }
-        }
-        pManager->Release();
+     int messageLen = wcslen(pDisplayName) + wcslen(pSuccessString) + 1;
+     pMessage = (WCHAR*)malloc(messageLen * sizeof(WCHAR));
+     if (pMessage)
+     {
+      StringCchPrintf(pMessage, messageLen,
+       L"%s%s", pDisplayName, pSuccessString);
+      MessageBox(HWND_DESKTOP, pMessage, L"MyProgram - Transferred", MB_OK);
+      free(pMessage);
+     }
+     else
+     {
+      hr = E_OUTOFMEMORY;
+     }
+     CoTaskMemFree(pDisplayName);
     }
+    pJob->Release();
+   }
+  }
+  pManager->Release();
+ }
 
-    CoUninitialize();
-    return(hr);
+ CoUninitialize();
+ return(hr);
 }
 ```
 

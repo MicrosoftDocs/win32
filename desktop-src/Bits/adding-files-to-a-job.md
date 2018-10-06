@@ -9,7 +9,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/04/2018
 ---
 
 # Adding Files to a Job
@@ -44,8 +44,6 @@ When you add a file to a job, you specify the remote name and the local name of 
 An upload job can contain only one file. The [**IBackgroundCopyJob::AddFile**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-addfile) and [**IBackgroundCopyJob::AddFileSet**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-addfileset) methods return BG\_E\_TOO\_MANY\_FILES if you try to add more than one file to an upload job. If you need to upload more than one file, consider using a CAB or ZIP file.
 
 For download jobs, BITS limits the number of files that a user can add to a job to 200 files and the number of ranges for a file to 500 ranges. These limits do not apply to administrators or services. To change these default limits, see [Group Policies](group-policies.md).
-
-**Prior to Windows Vista:** There are no limits to the number of files or ranges that you can add to a job.
 
 The owner of the job or a user with administrator privileges can add files to the job anytime prior to calling the [**IBackgroundCopyJob::Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete) method or the [**IBackgroundCopyJob::Cancel**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-cancel) method.
 

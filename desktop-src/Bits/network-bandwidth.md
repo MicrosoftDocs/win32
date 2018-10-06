@@ -6,7 +6,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/04/2018
 ---
 
 # Network Bandwidth
@@ -14,8 +14,6 @@ ms.date: 05/31/2018
 Background transfers use only idle network bandwidth in an effort to preserve the user's interactive experience with other network applications, such as Internet Explorer. BITS adjusts its use of the bandwidth as the user increases or decreases their use of the bandwidth. Note that BITS still transfers a small amount of data during high network use to ensure that BITS jobs make progress.
 
 BITS monitors the network traffic at the Internet gateway device (IGD) or the client's network interface card (NIC) and uses only the idle portion of the network bandwidth.
-
-**BITS 2.0 and earlier:** BITS uses only the network interface card to measure network traffic; BITS is not aware of network conditions beyond the client.
 
 If BITS uses the network interface card to measure traffic and there are no network applications running on the client, BITS will consume most of the available bandwidth. This does not mean the network beyond the client is idle; the network might be at full capacity.
 
