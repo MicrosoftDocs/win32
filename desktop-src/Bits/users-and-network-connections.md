@@ -10,7 +10,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/04/2018
 ---
 
 # Users and Network Connections
@@ -35,11 +35,6 @@ The LocalSystem, LocalService, and NetworkService system accounts are always log
 Job owners can provide a helper token to be used in situations where multiple tokens are needed to complete a transfer, such as for authentication with a remote host. See [Helper Tokens for BITS Transfer Jobs](helper-tokens-for-bits-transfer-jobs.md) for details. In earlier versions of Windows, the job owner effectively had to have administrator privileges to start a job that used a helper token. In Windows 10, version 1607, it is now possible for a BITS job owner to set helper tokens without being an administrator, as long as the helper token does not have administrator capabilities. This reduces the vulnerability footprint of background download or update tools by enabling them to run under the lower-privileged NetworkService account rather than under an account with administrative privileges.
 
 Users with a [restricted token](http://go.microsoft.com/fwlink/p/?linkid=166157) (a token that contains restricting SIDs) cannot create or modify jobs.
-
-**BITS 1.2 and earlier:** Users with a [restricted token](http://go.microsoft.com/fwlink/p/?linkid=166157) can create or modify jobs.
-
-For details on how User Account Control (UAC) affects BITS, see [User Account Control and BITS](user-account-control-and-bits.md).
-
  
 
  

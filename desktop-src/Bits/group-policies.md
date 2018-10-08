@@ -6,7 +6,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 08/16/2018
+ms.date: 10/04/2018
 ---
 
 # Group Policies
@@ -25,8 +25,6 @@ Background Intelligent Transfer Service (BITS) uses the following Group Policies
 2.  BITS policies are located under **Computer Configuration**, **Administrative Templates**, **Network**, **Background Intelligent Transfer Service**.
 3.  Right-click the policy and select **Properties**.
 4.  Follow the directions for enabling and setting the policy.
-
-**BITS 1.5 and earlier:** The **JobInactivityTimeout** policy is located under **Computer Configuration**, **Administrative Templates**, **Network**.
 
 The group policies for BITS are located in the registry at **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Policies**\\**Microsoft**\\**Windows**\\**BITS**. Note that only those policies that are configured are listed in the registry.
 
@@ -87,9 +85,7 @@ Changing the system clock does not affect the bandwidth limitation time interval
 </tbody>
 </table>
 
-BITS uses the following Group Policies to enable and configure the peer caching.
-
-**BITS 4.0:** The BITS 3.0 Group Policies are deprecated. Setting any of these policies will have no effect.
+BITS uses the following Group Policies to enable and configure how BITS interacts with BranchCache.
 
 <table>
 <colgroup>
@@ -105,36 +101,6 @@ BITS uses the following Group Policies to enable and configure the peer caching.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>EnablePeerCaching</td>
-<td>BITS 3.0</td>
-<td>By default, peer caching is disabled. To enable peer caching, set this policy. Enabling peer caching allows BITS to download content from peers and to serve the content to peers. <br/> To prevent BITS from downloading content from peers, set the DisablePeerCachingClient policy. To prevent BITS from serving content to peers, set the DisablePeerCachingServer.<br/> A job controls if it can download content from a peer or serve content to peers. For details, see the <a href="/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags"><strong>IBackgroundCopyJob4::SetPeerCachingFlags</strong></a> method.<br/> If this policy is not set, you can use the <a href="/windows/desktop/api/Bits3_0/nf-bits3_0-ibitspeercacheadministration-setconfigurationflags"><strong>IBitsPeerCacheAdministration::SetConfigurationFlags</strong></a> method to enable peer caching; however, if the policy is set later, the policy will override the preference set by the <strong>SetConfigurationFlags</strong> method.<br/></td>
-</tr>
-<tr class="even">
-<td>DisablePeerCachingClient</td>
-<td>BITS 3.0</td>
-<td>Set this policy to prevent BITS from downloading content from peers.<br/></td>
-</tr>
-<tr class="odd">
-<td>DisablePeerCachingServer</td>
-<td>BITS 3.0</td>
-<td>Set this policy to prevent BITS from serving content to peers.<br/></td>
-</tr>
-<tr class="even">
-<td>MaxContentAge</td>
-<td>BITS 3.0</td>
-<td>Specifies the maximum length of time that a file can remain in the peer cache without being accessed. The default is 90 days.<br/> If this policy is not set, you can use the <a href="/windows/desktop/api/Bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage"><strong>IBitsPeerCacheAdministration::SetMaximumContentAge</strong></a> method to limit the time that a file can remain in the peer cache without being accessed; however, if the policy is set later, the policy will override the preference set by the method.<br/></td>
-</tr>
-<tr class="odd">
-<td>MaxCacheSize</td>
-<td>BITS 3.0</td>
-<td>Specifies the maximum amount of disk space to use for the peer cache. The default is 1% of the disk.<br/> If this policy is not set, you can use the <a href="/windows/desktop/api/Bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcachesize"><strong>IBitsPeerCacheAdministration::SetMaximumCacheSize</strong></a> method to set the size of the peer cache; however, if the policy is set later, the policy will override the preference set by the method.<br/></td>
-</tr>
-<tr class="even">
-<td>MaxBandwidthServed</td>
-<td>BITS 3.0</td>
-<td>Limits the amount of network bandwidth to use when serving content to peers. The default is 1 Mbps.<br/></td>
-</tr>
 <tr class="odd">
 <td>DisableBranchCache</td>
 <td>BITS 4.0</td>

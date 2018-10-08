@@ -11,22 +11,18 @@ ms.date: 05/31/2018
 
 # Language Identifier Constants and Strings
 
-Each [language identifier](language-identifiers.md) is composed of a primary language identifier indicating the language and a sublanguage identifier indicating the country/region. The language identifier corresponds to a particular locale, for example, English (United States), represented as "en-US". The language identifier is used as part of the [locale identifier](locale-identifiers.md).
+Each [language identifier](language-identifiers.md) is composed of a primary language identifier indicating the language, and a sublanguage identifier indicating the country/region. The language identifier corresponds to a particular locale, for example, English (United States), represented as "en-US". The language identifier is used as part of the [locale identifier](locale-identifiers.md).
 
-A primary or sublanguage identifier can be user-defined or predefined. The table included in this topic defines the predefined primary language identifiers with their valid sublanguage identifiers and shows the locale identifiers in which they are used.
+A primary or sublanguage identifier can be user-defined or predefined. The table included in this topic defines the predefined primary language identifiers with their valid sublanguage identifiers.
 
 > [!Note]  
 > If there is no sublanguage identifier to use with a primary language identifier, your application should use **SUBLANG\_DEFAULT**. It should use **SUBLANG\_NEUTRAL** for resources that are the same for all sublanguages of a primary language.
-
- 
 
 A user-defined primary language identifier has a value in the range 0x0200 to 0x03ff. All other values are reserved for operating system use.
 
 A user-defined sublanguage identifier has a value in the range 0x20 to 0x3f. All other values are reserved for operating system use.
 
-
-
-| Locale identifier | Primary language                                        | Prim. lang. identifier | Prim. lang. symbol             | Sublanguage                                               | Sublang. identifier | Sublang. symbol                                     |
+| Language identifier | Primary language                                        | Prim. lang. identifier | Prim. lang. symbol             | Sublanguage                                               | Sublang. identifier | Sublang. symbol                                     |
 |-------------------|---------------------------------------------------------|------------------------|--------------------------------|-----------------------------------------------------------|---------------------|-----------------------------------------------------|
 | 0x0C00            | Default custom locale language                          | 0x00                   | **LANG\_NEUTRAL**              | Default custom sublanguage                                | 0x03                | **SUBLANG\_CUSTOM\_DEFAULT**                        |
 | 0x1400            | Default custom MUI locale language                      | 0x00                   | **LANG\_NEUTRAL**              | Default custom MUI sublanguage                            | 0x05                | **SUBLANG\_UI\_CUSTOM\_DEFAULT**                    |
