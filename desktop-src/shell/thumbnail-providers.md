@@ -5,7 +5,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/02/2018
 ---
 
 # Thumbnail Handlers
@@ -83,17 +83,15 @@ The following table gives some examples of the relationship between requested si
 
  
 
-You can declare a cutoff point as part of the file association entry in the registry. Below this size, thumbnails are not used.
+You can declare a cutoff point as part of the program ID entry of the associated app in the registry. Below this size, thumbnails are not used.
 
 ```
 HKEY_CLASSES_ROOT
-   .fileextension
+   .{ProgId}
       ThumbnailCutoff
 ```
 
 The ThumbnailCutoff entry is one of these REG\_DWORD values.
-
-
 
 | Value | Cutoff | HighDPI Sensitive |
 |-------|--------|-------------------|
@@ -103,26 +101,23 @@ The ThumbnailCutoff entry is one of these REG\_DWORD values.
 | 3     | 16x16  | Yes               |
 
 
-
- 
-
 High dots per inch (dpi) sensitivity means that the pixel dimensions of the thumbnail automatically adjust for the greater dpi. For instance, a 32x32 image at 96 dpi would be a 40x40 image at 120 dpi.
 
 If the ThumbnailCutoff entry is not specified, the default cutoff is 20x20 (not dpi-sensitive).
 
 ## Thumbnail Overlays
 
-Thumbnail overlays, a small image displayed over the lower right corner of the thumbnail, provide an opportunity for developers to apply brand identification to their thumbnails. Overlays are declared in the registry as part of the file association entry as shown here:
+Thumbnail overlays, a small image displayed over the lower right corner of the thumbnail, provide an opportunity for developers to apply brand identification to their thumbnails. Overlays are declared in the registry as part of the program ID entry of the associated app, as shown here:
 
 ```
 HKEY_CLASSES_ROOT
-   .fileextension
+   .{ProgId}
       TypeOverlay
 ```
 
 The TypeOverlay entry contains a REG\_SZ value interpreted as follows:
 
--   If the value is a resource reference, such as `ISVComponent.dll@,-155`, that image is used as the overlay for files with that file name extension.
+-   If the value is a resource reference (a **.ico** file embedded in the DLL) such as `ISVComponent.dll,-155`, that image is used as the overlay for files with that file name extension. Note that in this example, **155** is the resouce ID, and if the DLL is not present in a standard path (such as **C:/Windows/System32**), the full path is required instead of just the DLL name.
 -   If the value is an empty string, no overlay is applied to the image.
 -   If the value is not present, the default icon of the associated application is used.
 
@@ -130,13 +125,13 @@ Overlays for your thumbnails should only be provided through this mechanism and 
 
 ## Thumbnail Adornments
 
-Adornments such as drop shadows are applied to thumbnails based on the user's currently selected theme. Adornments are provided by Windows; do not create them yourself. Windows could change the look of particular adornments at any time, so if you provided you own you would risk falling out of synch with the system. Your thumbnails could wind up looking dated or out of place.
+Adornments such as drop shadows are applied to thumbnails based on the user's currently selected theme. Adornments are provided by Windows; do not create them yourself. Windows could change the look of particular adornments at any time, so if you provided you own you would risk falling out of sync with the system. Your thumbnails could wind up looking dated or out of place.
 
-Potential adornments are declared in the registry as part of the file association entry as shown here:
+Potential adornments are declared in the registry as part of the program ID entry of the associated app, as shown here:
 
 ```
 HKEY_CLASSES_ROOT
-   .fileextension
+   .{ProgId}
       Treatment
 ```
 
@@ -151,9 +146,6 @@ The Treatment entry contains one of these REG\_DWORD values:
 | 2     | Photo Border    |
 | 3     | Video Sprockets |
 
-
-
- 
 
 A drop shadow is applied to images by default.
 
