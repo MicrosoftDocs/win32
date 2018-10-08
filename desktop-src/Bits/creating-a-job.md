@@ -9,7 +9,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/04/2018
 ---
 
 # Creating a Job
@@ -19,8 +19,6 @@ To create a transfer job, call the [**IBackgroundCopyManager::CreateJob**](/wind
 The [**CreateJob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob) method creates a GUID that uniquely identifies the job. You use the GUID to [retrieve the job from the transfer queue](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-getjob). The display name that you provide when you create the job is not unique; more than one job can use the same name.
 
 BITS limits the number of jobs in the queue to 300 jobs and the number of jobs that a user can create to 60 job. These limits do not apply to administrators or services. To change these default limits, see [Group Policies](group-policies.md).
-
-**Prior to Windows Vista:** There are no limits to the number of jobs in the queue or the number of jobs that a user can create.
 
 The following example shows how to create a download job. The example assumes the g\_pbcm variable is a valid [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface pointer. For details on how to create the **IBackgroundCopyManager** interface pointer, see [Connecting to the BITS Service](connecting-to-the-bits-service.md).
 

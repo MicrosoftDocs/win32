@@ -10,14 +10,12 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/04/2018
 ---
 
 # About BITS
 
 Use Background Intelligent Transfer Service (BITS) to transfer files asynchronously between a client and a server. There are three types of [**transfer jobs**](/windows/desktop/api/Bits/ne-bits-__midl_ibackgroundcopyjob_0003). A download job downloads files to the client, an upload job uploads a file to the server, and an upload-reply job uploads a file to the server and receives a reply file from the server application.
-
-**BITS 1.2 and earlier:** Upload and upload-reply jobs are not supported.
 
 BITS continues to transfer files after an application exits if the user who initiated the transfer remains logged on and a network connection is maintained. BITS will not force a connection.
 
@@ -30,8 +28,6 @@ BITS provides one foreground and three background [priority levels](/windows/des
 Background transfers are optimal in that BITS uses idle [network bandwidth](network-bandwidth.md) to transfer the files and will increase or decrease the rate at which files are transferred based on the amount of idle network bandwidth available. If a network application begins to consume more bandwidth, BITS decreases its transfer rate to preserve the user's interactive experience.
 
 BITS uses the Windows BranchCache for peer caching. For more information, see the [BranchCache Overview](http://go.microsoft.com/fwlink/p/?linkid=150953).
-
-**BITS 3.0:  ** Starting with Windows 7, the BITS 3.0 peer caching model is deprecated. If BITS 4.0 is installed, the BITS 3.0 peer caching model is unavailable. For more information, see [Peer Caching](peer-caching.md).
 
 The following topics provide more detailed information about BITS:
 
