@@ -61,7 +61,7 @@
 #### [DevicePowerOpen](/windows/desktop/api/PowrProf/nf-powrprof-devicepoweropen)
 #### [DevicePowerSetDeviceState](/windows/desktop/api/PowrProf/nf-powrprof-devicepowersetdevicestate)
 #### [EnumPwrSchemes](/windows/desktop/api/PowrProf/nf-powrprof-enumpwrschemes)
-#### [EFFECTIVE_POWER_MODE_CALLBACK](/windows/desktop/api/PowrProf/nf-powrprof-devicepowersetdevicestate)
+#### [EFFECTIVE_POWER_MODE_CALLBACK](/windows/desktop/api/powersetting/nf-powersetting-effective_power_mode_callback)
 #### [GetActivePwrScheme](/windows/desktop/api/PowrProf/nf-powrprof-getactivepwrscheme)
 #### [GetCurrentPowerPolicies](/windows/desktop/api/PowrProf/nf-powrprof-getcurrentpowerpolicies)
 #### [GetDevicePowerState](/windows/desktop/api/Winbase/nf-winbase-getdevicepowerstate)
