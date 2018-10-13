@@ -42,53 +42,34 @@ EtwEventWriteFull(
 ## Parameters
 
 <dl> <dt>
-
 *RegHandle*
 </dt> <dd>
-
 RegHandle for the provider.
-
 </dd> <dt>
-
 *EventDescriptor* 
 </dt> <dd>
-
 Event Descriptor of the event to log.
-
 </dd> <dt>
-
 *EventProperty*
 </dt> <dd>
-
 Flag given by the user.
-
 </dd> <dt>
-
 *ActivityId*
 </dt> <dd>
-
 Activity Id.
-
 </dd> <dt>
-
 *RelatedActivityId*
 </dt> <dd>
-
 Related activity Id.
-
 </dd> <dt>
-
 *UserDataCount*
 </dt> <dd>
-
 The number of user data items.
-
 </dd> <dt>
-
 *UserData*
 </dt> <dd>
-
 Pointer to an array of user data items.
+
 
 ## Return value
 

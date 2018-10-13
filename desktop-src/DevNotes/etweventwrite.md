@@ -38,7 +38,6 @@ EtwEventWrite(
 
 ## Parameters
 
-
 <dl> <dt>
 
 *RegHandle*
@@ -67,10 +66,11 @@ Number of user data items.
 
 Pointer to an array of user data items.
 
+
 ## Return value
+
 A Win32 error code.
 
-This function returns **TRUE** if it succeeds; otherwise, it returns **FALSE**.
 
 ## Remarks
 
