@@ -66,6 +66,7 @@ Number of user data items.
 
 Pointer to an array of user data items.
 
+</dd> </dl>
 
 ## Return value
 
