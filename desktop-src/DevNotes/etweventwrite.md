@@ -21,7 +21,7 @@ api_location:
 
 [The EtwEventWrite function and the structures that it returns are internal to the operating system and subject to change from one release of Windows to another.]
 
-Writes a basic event to session.
+Writes a basic event to a session.
 
 ## Syntax
 
