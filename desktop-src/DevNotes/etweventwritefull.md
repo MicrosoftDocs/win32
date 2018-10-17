@@ -106,3 +106,13 @@ The EtwEventWriteFull function and the structures that it returns are internal t
 | ---- |:---- |
 | **Target Platform** | Windows |
 | **Header** | ntetw.h |
+
+## See also
+
+<dl> <dt>
+
+[EventWrite](https://docs.microsoft.com/en-us/windows/desktop/api/evntprov/nf-evntprov-eventwrite)
+</dt> <dt>
+
+[EventWriteEx](https://docs.microsoft.com/en-us/windows/desktop/api/evntprov/nf-evntprov-eventwriteex)
+</dt></dl>

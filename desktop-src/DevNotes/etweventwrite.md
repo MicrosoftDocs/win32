@@ -82,3 +82,13 @@ The EtwEventWrite function and the structures that it returns are internal to th
 | ---- |:---- |
 | **Target Platform** | Windows |
 | **Header** | ntetw.h |
+
+## See also
+
+<dl> <dt>
+
+[EventWrite](https://docs.microsoft.com/en-us/windows/desktop/api/evntprov/nf-evntprov-eventwrite)
+</dt> <dt>
+
+[EventWriteEx](https://docs.microsoft.com/en-us/windows/desktop/api/evntprov/nf-evntprov-eventwriteex)
+</dt></dl>
