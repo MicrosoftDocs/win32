@@ -110,6 +110,7 @@ ProjFS sends the notifications in the following list before the associated file 
 ProjFS sends the notifications in the following list after the associated file system operation has completed.
 
 * PRJ_NOTIFICATION_FILE_OPENED - An existing file has been opened.
+  * Even though this notification is sent after the file has been opened, the provider can return a failure code.  In response, ProjFS will cancel the open and return the failure to the caller.
 * PRJ_NOTIFICATION_NEW_FILE_CREATED - A new file has been created.
 * PRJ_NOTIFICATION_FILE_OVERWRITTEN - An existing file has been overwritten, for example by calling [CreateFileW](https://docs.microsoft.com/en-us/windows/desktop/api/fileapi/nf-fileapi-createfilew) with the **CREATE_ALWAYS** _dwCreationDisposition_ flag.
 * PRJ_NOTIFICATION_FILE_RENAMED - A file has been renamed.
