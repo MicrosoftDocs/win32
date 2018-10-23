@@ -1,5 +1,4 @@
-# [Projected File System](projected-filesystem.md)
-## [Windows Projected File System Overview](index.md)
+# [Windows Projected File System](index.md)
 ## [Enabling Windows Projected File System](enabling-windows-projected-file-system.md)
 ## [Virtualization Instance Lifecycle](virtualization-instance-lifecycle.md)
 ## [Enumerating Files and Directories](enumerating-files-and-directories.md)

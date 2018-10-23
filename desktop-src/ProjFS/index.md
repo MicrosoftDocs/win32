@@ -85,12 +85,13 @@ To illustrate the above states, consider the following sequence, given a ProjFS 
 
 ## In this section
 
-This guide includes the following sections:
-
-* [Enabling Windows Projected File System](enabling-windows-projected-file-system.md)
-* [Virtualization Instance Lifecycle](virtualization-instance-lifecycle.md)
-* [Enumerating Files and Directories](enumerating-files-and-directories.md)
-* [Providing File Data](providing-file-data.md)
-* [File System Operation Notifications](file-system-operation-notifications.md)
-* [Handling View Changes](handling-view-changes.md)
-* [Asynchronous Callback Handling](asynchronous-callback-handling.md)
+| Topic                                                                                                       | Description |
+|-------------------------------------------------------------------------------------------------------------|-------------|
+| [Enabling Windows Projected File System](enabling-windows-projected-file-system.md)                         | Describes how to enable the ProjFS optional component.
+| [Virtualization Instance Lifecycle](virtualization-instance-lifecycle.md)                                   | Overview of the lifecycle of a ProjFS virtualization instance.
+| [Enumerating Files and Directories](enumerating-files-and-directories.md)                                   | Describes how a ProjFS provider participates in directory enumeration.
+| [Providing File Data](providing-file-data.md)                                                               | Describes how a provider supplies placeholder info and file data.
+| [File System Operation Notifications](file-system-operation-notifications.md)                               | Describes how a provider can receive notifications of file system operations.
+| [Handling View Changes](handling-view-changes.md)                                                           | Describes how to update the client view of a provider's backing store.
+| [Asynchronous Callback Handling](asynchronous-callback-handling.md)                                         | Describes how the provider can asynchronously service callbacks.
+| [Windows Projected File System API Reference](https://docs.microsoft.com/en-us/windows/desktop/api/_projfs) | Reference information for the ProjFS programming interface.
