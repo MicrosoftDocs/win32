@@ -70,7 +70,7 @@
 #####[Image Mastering API](imapi/portal.md)
 #####[Imaging API](https://msdn.microsoft.com/en-us/library/windows/desktop/dd851933.aspx)
 #####[Local File Systems](fileio/file-systems.md)
-#####[Projected File System](projfs/index.md)
+#####[Projected File System](projfs/projected-file-system.md)
 #####[Virtual Storage](https://msdn.microsoft.com/en-us/library/windows/desktop/dd323653(v=vs.85).aspx)
 #####[Virtual Disk Service](https://msdn.microsoft.com/en-us/library/bb986750(v=vs.85).aspx)
 ####[Devices](devices.md)
