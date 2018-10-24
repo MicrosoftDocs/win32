@@ -2,8 +2,6 @@
 Description: AAUX Source Control (ASC) Pack
 ms.assetid: 3df80895-81e1-42a4-a095-913e77b199e5
 title: AAUX Source Control (ASC) Pack
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

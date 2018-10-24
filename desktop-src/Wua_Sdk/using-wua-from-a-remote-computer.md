@@ -2,8 +2,6 @@
 Description: The Windows Update Agent (WUA) API can be used by a user on a remote computer or by an application that is running on a remote computer. However, the remote user or application must have administrator privileges.
 ms.assetid: 15f86590-bed8-4506-916d-43b0bac5db2a
 title: Using WUA From a Remote Computer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

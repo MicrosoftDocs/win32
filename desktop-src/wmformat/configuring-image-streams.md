@@ -6,8 +6,6 @@ keywords:
 - streams,configuring image streams
 - codecs,configuring image streams
 - image streams,configuring
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

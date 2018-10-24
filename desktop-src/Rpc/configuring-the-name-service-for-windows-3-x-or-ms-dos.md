@@ -2,8 +2,6 @@
 title: Configuring the Name Service for Windows 3.x or MS-DOS
 description: Remote Procedure Call (RPC) and configuring the name service for Windows 3.x or MS-DOS.
 ms.assetid: 7b22a12e-43d0-4e32-a191-d63a56559143
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

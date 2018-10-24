@@ -2,8 +2,6 @@
 Description: How to read from a mailslot. The process that creates a mailslot can read messages from it by using the mailslot handle in a call to the ReadFile function.
 ms.assetid: e193dca9-3b77-4e41-be6d-90992e1a8fe3
 title: Reading from a Mailslot
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

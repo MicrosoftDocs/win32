@@ -2,8 +2,6 @@
 Description: The CCHeapSize function returns the size of the memory allocated by the CCHeapAlloc function.
 ms.assetid: 45d0fd89-bcd1-4298-8cc3-834d86301f93
 title: CCHeapSize function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

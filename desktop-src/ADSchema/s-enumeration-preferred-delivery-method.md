@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: fab085bc-8314-4cfb-acc8-5f3ef7fd5467
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - Enumeration(Preferred-Delivery-Method) syntax AD Schema

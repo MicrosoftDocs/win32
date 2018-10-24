@@ -5,8 +5,6 @@ ms.assetid: D64ECA7B-62AC-4C14-BE4B-84DA2E20C16B
 keywords:
 - LUN
 - LBA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

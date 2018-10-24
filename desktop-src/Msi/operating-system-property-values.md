@@ -2,8 +2,6 @@
 Description: The table in this topic displays values for selected Windows Installer Operating System Properties.
 ms.assetid: 4f516cf0-d5b3-4df6-b171-54bbafc0ef93
 title: Operating System Property Values
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

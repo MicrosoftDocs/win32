@@ -2,8 +2,6 @@
 title: Using the Editor with a Different Speech Engine
 description: Using the Editor with a Different Speech Engine
 ms.assetid: a102bda8-5824-4dbc-bf50-6338c40fc9e5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

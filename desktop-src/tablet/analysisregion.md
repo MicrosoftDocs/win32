@@ -2,8 +2,6 @@
 Description: Implements the IAnalysisRegion interface.
 ms.assetid: b881c15d-be2b-4b6a-a50e-bdd42a7cd9bb
 title: AnalysisRegion class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

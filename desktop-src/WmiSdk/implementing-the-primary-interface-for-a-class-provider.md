@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2c6d3f73-e219-409b-9347-492035c1eb9f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for a Class Provider
 ms.author: windowssdkdev

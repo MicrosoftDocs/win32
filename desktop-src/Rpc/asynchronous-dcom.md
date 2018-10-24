@@ -4,8 +4,6 @@ description: To take advantage of asynchronous RPC transparently, COM programmer
 ms.assetid: 64a78e96-c174-4006-847e-852b3cce4f67
 keywords:
 - Remote Procedure Call RPC , described, asynchronous DCOM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

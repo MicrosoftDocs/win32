@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: db2dc750-bfdd-4f6c-859b-e104814f0800
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting the Authentication Service Using VBScript
 ms.author: windowssdkdev

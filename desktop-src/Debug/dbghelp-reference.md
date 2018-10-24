@@ -2,8 +2,6 @@
 Description: 'The following elements are part of DbgHelp:'
 ms.assetid: e261f81d-ac99-43fe-a684-0ac5eba4f675
 title: DbgHelp Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

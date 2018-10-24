@@ -2,8 +2,6 @@
 title: Animation Sound Effects
 description: Animation Sound Effects
 ms.assetid: 8d35f67d-67b2-45d7-aa58-3075224dd39a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

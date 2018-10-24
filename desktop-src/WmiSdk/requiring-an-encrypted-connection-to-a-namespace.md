@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 07b225a2-3834-4879-beae-f5b9180d112f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Requiring an Encrypted Connection to a Namespace
 ms.author: windowssdkdev

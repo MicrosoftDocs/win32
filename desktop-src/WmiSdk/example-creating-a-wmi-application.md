@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d80bcf9f-e57c-499f-b7b8-cf25678c5a82
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'Example: Creating a WMI Application'
 ms.author: windowssdkdev

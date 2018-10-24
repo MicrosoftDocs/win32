@@ -9,8 +9,6 @@ keywords:
 - conversion plug-ins,about
 - Advanced Systems Format (ASF)
 - ASF (Advanced Systems Format)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

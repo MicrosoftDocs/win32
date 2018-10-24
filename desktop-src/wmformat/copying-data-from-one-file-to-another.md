@@ -7,8 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),copying data
 - ASF (Advanced Systems Format),copying data
 - streams,copying data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

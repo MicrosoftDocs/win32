@@ -2,8 +2,6 @@
 Description: 'Returns the Cryptography API: Next Generation (CNG) Algorithm Identifier of the hashing algorithm that is used for the Transport Layer Security protocol (TLS) pseudo-random function (PRF) for the input protocol, cipher suite, and key type.'
 ms.assetid: 8d20b2da-390e-458e-b122-f5ef3722ad87
 title: SslGetCipherSuitePRFHashAlgorithm function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

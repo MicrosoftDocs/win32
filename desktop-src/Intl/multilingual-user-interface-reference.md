@@ -2,8 +2,6 @@
 Description: Multilingual User Interface Reference
 ms.assetid: b3fd76fd-dfc7-4983-b6f5-3ef566f8c14c
 title: Multilingual User Interface Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

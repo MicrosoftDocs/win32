@@ -2,8 +2,6 @@
 Description: You can use a gradient brush to fill a shape with a gradually changing color.
 ms.assetid: e37b4c3a-b753-483a-990f-da3bcc70acf5
 title: Filling Shapes with a Gradient Brush
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

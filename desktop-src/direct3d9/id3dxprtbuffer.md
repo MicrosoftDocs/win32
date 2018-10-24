@@ -2,8 +2,6 @@
 Description: The ID3DXPRTBuffer interface is used as a data buffer to store vertex and pixel data for use with precomputed radiance transfer (PRT) methods and functions.
 ms.assetid: 36c1fd13-0949-4991-93cb-41ace458802d
 title: ID3DXPRTBuffer interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

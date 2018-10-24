@@ -2,8 +2,6 @@
 Description: The GetRenderEvent method retrieves the event that schedules rendering.
 ms.assetid: da0272f6-6a1d-4c07-a907-822227b56305
 title: CBaseRenderer.GetRenderEvent method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

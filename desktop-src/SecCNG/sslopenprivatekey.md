@@ -2,8 +2,6 @@
 Description: Opens a handle to a private key.
 ms.assetid: 2406be2c-121c-4475-b193-d370a88641da
 title: SslOpenPrivateKey function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

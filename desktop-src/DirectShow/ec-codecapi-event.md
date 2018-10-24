@@ -2,8 +2,6 @@
 Description: The EC\_CODECAPI\_EVENT event is sent by an encoder to signal an encoding event. The client registers for encoder event by calling the ICodecAPI::RegisterForEvent method.
 ms.assetid: 88924ba9-707b-41a7-9bca-c630b4a9c4c8
 title: EC_CODECAPI_EVENT
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

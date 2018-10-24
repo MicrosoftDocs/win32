@@ -2,8 +2,6 @@
 Description: The count of instances the user has selected the item.
 ms.assetid: 42020071-b536-46b5-be82-d89b0653c008
 title: System.History.SelectionCount
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

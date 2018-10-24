@@ -8,8 +8,6 @@ keywords:
 - video images,writing samples
 - streams,writing video image samples
 - codecs,writing video image samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

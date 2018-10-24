@@ -2,8 +2,6 @@
 Description: Identifies the topology node for a stream sink.
 ms.assetid: 9aa6ca66-5122-4d05-94b9-32be194e9eb3
 title: MF_EVENT_OUTPUT_NODE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

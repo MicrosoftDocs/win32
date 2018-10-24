@@ -2,8 +2,6 @@
 Description: Fills an array with translational key data used for key frame animation.
 ms.assetid: ecb791ad-e586-4057-9239-facd37a47637
 title: ID3DXKeyframedAnimationSet::GetTranslationKeys method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

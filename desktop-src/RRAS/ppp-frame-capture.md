@@ -2,8 +2,6 @@
 title: Writing a Driver to Capture PPP Frames
 description: This document explains how to develop a driver that can capture PPP frames in Windows Vista before they are compressed/encrypted in the send path or after they are decompressed/decrypted in the receive path.
 ms.assetid: 1b3fe1b8-2b11-4aed-98e1-464b8c0821ec
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

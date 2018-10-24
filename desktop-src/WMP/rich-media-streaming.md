@@ -20,8 +20,6 @@ keywords:
 - Web-based presentations,rich media streaming
 - creating Web-based presentations,rich media streaming
 - rich media streaming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

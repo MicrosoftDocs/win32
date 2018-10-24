@@ -2,8 +2,6 @@
 Description: 'The following examples demonstrate configuring and monitoring a communications resource:'
 ms.assetid: daaa017f-98e3-49d4-94ae-eb6d43f8019b
 title: Using Communications Resources
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Bluetooth device product version.
 ms.assetid: 30f3bfe5-a78c-41c0-a579-5c0f6bfd2388
 title: System.DeviceInterface.Bluetooth.ProductVersion
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

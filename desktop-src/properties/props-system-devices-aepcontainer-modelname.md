@@ -2,8 +2,6 @@
 Description: Model Name of the device.
 ms.assetid: 41248816-a55a-4c41-bcf9-f2f6d6c1d04a
 title: System.Devices.AepContainer.ModelName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

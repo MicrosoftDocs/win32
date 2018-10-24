@@ -2,8 +2,6 @@
 title: AccScope
 description: The AccScope tool enables developers and testers to evaluate the accessibility of their app during the app's development and design, rather than in the late testing phases of an app's development cycle.
 ms.assetid: 7C4D78CD-CDDA-8369-B747-6224C152A997
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

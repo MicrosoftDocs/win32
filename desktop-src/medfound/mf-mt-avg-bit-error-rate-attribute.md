@@ -2,8 +2,6 @@
 Description: Data error rate, in bit errors per second, for a video media type.
 ms.assetid: 90433ff4-a563-4751-86d9-caac0cc58194
 title: MF_MT_AVG_BIT_ERROR_RATE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

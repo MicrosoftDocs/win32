@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f28391a8-2b34-4234-bf1a-4688726b0b4b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetCallerAccessRights method of the __SystemSecurity class
 ms.author: windowssdkdev

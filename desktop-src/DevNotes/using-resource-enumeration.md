@@ -2,8 +2,6 @@
 Description: The following example shows how to use the VerifierEnumerateResource function and related programming elements to abstract and categorize process-specific resource information.
 ms.assetid: e0c2c795-2960-44f9-8b63-2329f5b42e15
 title: Using Resource Enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

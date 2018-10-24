@@ -4,8 +4,6 @@ description: The registry redirector provides remote access to the registry on 6
 ms.assetid: 7873c1e2-53fb-4c93-bf4c-251a13cd8db7
 keywords:
 - remote registry access 64-bit Windows Programming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

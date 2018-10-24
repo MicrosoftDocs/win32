@@ -2,8 +2,6 @@
 Description: Spherical environment maps, or sphere maps, are special textures that contain an image of the scene surrounding an object, or the lighting effects around the object.
 ms.assetid: b4a8defc-876f-4a23-a12e-e7423a1e8f89
 title: Spherical Environment Mapping (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

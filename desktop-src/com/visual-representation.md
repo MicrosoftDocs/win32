@@ -2,8 +2,6 @@
 title: Visual Representation
 description: A control supports positioning and displaying itself within its container through compound document technology and OLE drag and drop technology that involves both the control and its container.
 ms.assetid: a7940560-360c-4c0d-9ac1-d051adb0b83e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

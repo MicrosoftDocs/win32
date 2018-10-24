@@ -2,8 +2,6 @@
 Description: Applications use the DrawPrimitive family of methods to render a 3D scene.
 ms.assetid: d4050920-1dfe-4137-939a-6ec8f269778b
 title: Direct3D Rendering (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

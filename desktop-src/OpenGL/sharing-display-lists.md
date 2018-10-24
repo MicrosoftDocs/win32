@@ -5,8 +5,6 @@ ms.assetid: 8ace5684-a27b-4d6e-a80b-58a0b7064879
 keywords:
 - OpenGL on Windows,sharing display lists
 - sharing display lists OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

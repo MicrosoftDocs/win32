@@ -2,8 +2,6 @@
 Description: A Graphics object provides methods such as DrawLine, DrawImage, and DrawString for displaying vector images, raster images, and text.
 ms.assetid: 721d0c1c-d105-4d9f-b5e9-6ca407b28c4e
 title: Using Graphics Containers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

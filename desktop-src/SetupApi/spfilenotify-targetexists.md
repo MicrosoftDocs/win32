@@ -2,8 +2,6 @@
 Description: The SPFILENOTIFY\_TARGETEXISTS notification is sent to the callback routine if the file to be copied was queued with the SP\_COPY\_NOOVERWRITE flag and that file already exists in the target directory.
 ms.assetid: 5c6e0c59-0340-4aa6-94db-8d9a5d202758
 title: SPFILENOTIFY_TARGETEXISTS message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

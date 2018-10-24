@@ -5,8 +5,6 @@ ms.assetid: 2b48baad-a6cb-4ebb-948a-d1066c171783
 keywords:
 - Resource Information for the DNS WMI Provider DNS
 - Domain Name System DNS , WMI provider, resources
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -9,8 +9,6 @@ keywords:
 - writing code for skins,Trackbars section
 - trackbars in skins,Trackbars section
 - skin definition files,Trackbars section
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

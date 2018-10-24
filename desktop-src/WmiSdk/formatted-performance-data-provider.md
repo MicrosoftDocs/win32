@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 59823f7c-3046-4608-99df-1f43e2934e7e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Formatted Performance Data Provider
 ms.author: windowssdkdev

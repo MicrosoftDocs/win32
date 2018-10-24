@@ -2,8 +2,6 @@
 Description: About Uniscribe
 ms.assetid: ad0faead-63db-4682-8db0-fa97b54217c6
 title: About Uniscribe
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

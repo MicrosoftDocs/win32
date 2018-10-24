@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: abfe0b70-1890-4b42-a0b3-83a14462510e
 title: System.Link.FeedItemLocalId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

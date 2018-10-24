@@ -2,8 +2,6 @@
 Description: The video renderer is switching out of full-screen mode.
 ms.assetid: f720a9b6-930a-4ed7-9798-1c72fa7a11ff
 title: EC_FULLSCREEN_LOST
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

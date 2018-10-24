@@ -2,8 +2,6 @@
 Description: The RemoveValue method removes an item from the collection.
 ms.assetid: 864c23ee-5a4e-4e06-add0-f6aef5562430
 title: IPortableDeviceValues::RemoveValue method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

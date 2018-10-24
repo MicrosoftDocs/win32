@@ -2,8 +2,6 @@
 Description: Lists the enumerations used by the LSA policy management functions.
 ms.assetid: f4fd2a61-61bc-44d2-b01f-3ca07699bcb8
 title: Security Management Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

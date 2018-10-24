@@ -2,8 +2,6 @@
 Description: Specifies the complexity of the encoding algorithm.
 ms.assetid: 5dd34818-f282-4859-b423-97e9c4944aec
 title: MFPKEY_ENCCOMPLEXITY Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

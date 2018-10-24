@@ -2,8 +2,6 @@
 Description: The IX509ExtensionTemplate interface exposes the following methods.
 ms.assetid: D49AAA7E-082D-4B73-BD69-C4B58255181F
 title: IX509ExtensionTemplate Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

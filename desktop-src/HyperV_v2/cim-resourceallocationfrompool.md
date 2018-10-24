@@ -2,8 +2,6 @@
 Description: Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.
 ms.assetid: ca9060e5-4434-4302-a840-a7d9cf5db714
 title: CIM_ResourceAllocationFromPool class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

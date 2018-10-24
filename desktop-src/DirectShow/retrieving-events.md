@@ -2,8 +2,6 @@
 Description: Retrieving Events
 ms.assetid: 18c5892d-7e33-497c-ab7d-d17fea5df17e
 title: Retrieving Events
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

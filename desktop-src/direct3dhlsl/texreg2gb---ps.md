@@ -2,8 +2,6 @@
 title: texreg2gb - ps
 description: Interprets the green and blue color components of the source register as texture address data to sample the texture at the stage corresponding to the destination register number.
 ms.assetid: 81d3fb3e-ef53-4d25-b65d-c4c9fea0c74c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

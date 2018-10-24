@@ -2,8 +2,6 @@
 title: How to Customize Toolbars
 description: Most Windows-based applications use toolbar controls to provide users with convenient access to the program functionality.
 ms.assetid: 0CE2988E-D887-433B-BFB2-5F3442E8E1B7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The UnregisterComPlus action removes COM+ applications from the registry.
 ms.assetid: bcedc436-a048-487e-9a84-e766da57a0b3
 title: UnregisterComPlus Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The EndFlush method ends a flush operation.
 ms.assetid: ebb6beec-84e2-49a7-9771-bbd191faada7
 title: CTransformFilter.EndFlush method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

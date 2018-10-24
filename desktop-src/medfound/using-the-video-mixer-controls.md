@@ -2,8 +2,6 @@
 Description: Using the Video Mixer Controls
 ms.assetid: 475996c6-a205-4133-8882-f55beaf9f8fd
 title: Using the Video Mixer Controls
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

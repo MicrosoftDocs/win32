@@ -2,8 +2,6 @@
 Description: The GetDllVersion function retrieves the version number of Cabinet.dll.
 ms.assetid: b324d5cd-1ede-473e-a10f-249c95eda057
 title: GetDllVersion function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

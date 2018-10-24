@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: cb477224-3117-45e4-9271-613b58e48b6e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting the Default Process Security Level Using VBScript
 ms.author: windowssdkdev

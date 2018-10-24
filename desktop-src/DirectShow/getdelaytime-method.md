@@ -2,8 +2,6 @@
 Description: The GetDelayTime method retrieves the delay time for the ToolTip associated with the MSWebDVD object.
 ms.assetid: 19ec9002-4e9a-41ae-af1a-93b2baefb7be
 title: GetDelayTime Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

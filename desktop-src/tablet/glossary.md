@@ -3,8 +3,6 @@ Description: This topic provides the definitions of terms that are used by the T
 Robots: noindex, nofollow
 ms.assetid: c55e4881-ca98-4393-a72e-f3ced687b7ca
 title: Tablet PC API Glossary
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

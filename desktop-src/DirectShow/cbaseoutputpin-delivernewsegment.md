@@ -2,8 +2,6 @@
 Description: The DeliverNewSegment method delivers a new-segment notification to the connected input pin.
 ms.assetid: 304f0267-88e0-4642-98a2-68ce973bdeab
 title: CBaseOutputPin.DeliverNewSegment method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Creates an ISCardVerify interface.
 ms.assetid: 6338e672-83cd-46fe-8f94-f4ba6e2581ea
 title: ISCardManage::CreateCHVerification method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

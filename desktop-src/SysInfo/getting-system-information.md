@@ -2,8 +2,6 @@
 Description: The following example uses the GetComputerName, GetUserName, GetSystemDirectory, GetWindowsDirectory, and ExpandEnvironmentStrings functions to get information that describes the system configuration.
 ms.assetid: 965bd14b-be93-4084-bce8-642f5704cef1
 title: Getting System Information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

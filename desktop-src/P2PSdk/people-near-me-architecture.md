@@ -2,8 +2,6 @@
 Description: People Near Me Architecture
 ms.assetid: f8ef613a-74d1-4bc3-8f13-36679856ce4c
 title: People Near Me Architecture
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

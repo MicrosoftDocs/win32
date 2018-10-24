@@ -2,8 +2,6 @@
 Description: Requests civic address report events.
 ms.assetid: cb02f611-7cda-405f-aeee-833b7385a4be
 title: LocationDisp.CivicAddressReportFactory.ListenForReports method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: abef2e61-6cbe-46cc-ba2a-a0bb42164c8c
 title: System.Message.AttachmentContents
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

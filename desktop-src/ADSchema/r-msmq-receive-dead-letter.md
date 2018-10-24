@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: e7e37e6b-8f2a-4ca6-bfeb-0e74d7a80785
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - msmq-Receive-Dead-Letter extended right AD Schema

@@ -2,8 +2,6 @@
 Description: Retrieves the data object that has the specified name.
 ms.assetid: ed53d871-24e8-4c51-8897-1055ef8a9af1
 title: ID3DXFileEnumObject::GetDataObjectByName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

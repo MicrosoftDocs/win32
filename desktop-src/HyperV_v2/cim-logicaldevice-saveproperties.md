@@ -2,8 +2,6 @@
 Description: Requests that the Device capture its current configuration, setup and/or state information in a backing store.
 ms.assetid: e47aea90-06f9-441c-bb30-aa742b49ce72
 title: SaveProperties method of the CIM_LogicalDevice class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

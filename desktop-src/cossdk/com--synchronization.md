@@ -2,8 +2,6 @@
 Description: COM+ Synchronization
 ms.assetid: a348959a-fa23-495c-ba1c-85bc3ae92396
 title: COM+ Synchronization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

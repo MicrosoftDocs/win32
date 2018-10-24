@@ -2,8 +2,6 @@
 Description: Raised by the stream sinks of the enhanced video renderer (EVR) if the video device changes.
 ms.assetid: 5b663d6b-5df8-4321-a6a5-a21b9810065a
 title: MEStreamSinkDeviceChanged event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: General Character Interaction Guidelines
 description: General Character Interaction Guidelines
 ms.assetid: 3d317156-f085-4f1b-aafb-a89cb8bd3a65
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

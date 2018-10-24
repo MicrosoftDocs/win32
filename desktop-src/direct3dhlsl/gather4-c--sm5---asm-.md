@@ -2,8 +2,6 @@
 title: gather4_c (sm5 - asm)
 description: Same as gather4, except this instrution performs comparison on texels, similar to sample\_c.
 ms.assetid: 6265151A-36CE-4D31-B7B2-233CEEBDCF87
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

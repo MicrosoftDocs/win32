@@ -2,8 +2,6 @@
 title: String Binding
 description: The string binding is an unsigned character string composed of strings that represent the binding object UUID, the RPC protocol sequence, the network address, and the endpoint and endpoint options.
 ms.assetid: 5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

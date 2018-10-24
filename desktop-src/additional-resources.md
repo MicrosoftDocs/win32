@@ -2,8 +2,6 @@
 Description: This section of the Library contains archived articles. Some articles cover deprecated or superseded technologies, and some cover niche subject areas that you may still find interesting.
 ms.assetid: FEDA4A1A-31F9-4B1E-9083-FB047281CCC7
 title: Archived articles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

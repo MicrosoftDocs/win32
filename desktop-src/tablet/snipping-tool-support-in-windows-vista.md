@@ -2,8 +2,6 @@
 Description: This topic describes how your application can specify what URL the Tablet PC Snipping Tool should obtain when capturing your application.
 ms.assetid: e31e63e8-8f6b-41f7-8bd6-afc5ca32456b
 title: Snipping Tool Support in Windows Vista
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

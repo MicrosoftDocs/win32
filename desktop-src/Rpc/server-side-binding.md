@@ -2,8 +2,6 @@
 title: Server-side Binding
 description: This section presents a discussion of a server program's role in providing binding information to its clients.
 ms.assetid: 3c9e69e8-9745-4e62-9ddc-1bc04b4bef59
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

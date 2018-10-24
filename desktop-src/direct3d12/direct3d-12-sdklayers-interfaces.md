@@ -2,8 +2,6 @@
 title: Debug Layer Interfaces
 description: The following interfaces are declared in d3d12sdklayers.h.
 ms.assetid: 9BD5910A-8FF2-4540-BB8E-8EA5C10528CE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

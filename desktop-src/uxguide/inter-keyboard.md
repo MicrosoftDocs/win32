@@ -2,8 +2,6 @@
 title: Keyboard
 description: The keyboard is the primary input device used for text input in Microsoft Windows. For accessibility and efficiency, most actions can be performed using the keyboard as well.
 ms.assetid: 27185c98-1233-4e26-a156-0ff080fd4db3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -6,8 +6,6 @@ keywords:
 - Windows Media Player,detecting from applications
 - detecting Windows Media Player from applications
 - registry,detecting Windows Media Player from applications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

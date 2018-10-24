@@ -2,8 +2,6 @@
 Description: Layout analysis operates on a Strokes collection and classifies the strokes into handwriting and drawing elements. The Divider object provides access to the Tablet PC layout analysis features.
 ms.assetid: ac30d5c2-13a1-4f9e-a519-2bf428e21c75
 title: Layout Analysis
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Windows Portable Devices supports the following section data properties.
 ms.assetid: 8760d963-fc07-4b54-aa24-5725f4b95ed2
 title: Section Attribute Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

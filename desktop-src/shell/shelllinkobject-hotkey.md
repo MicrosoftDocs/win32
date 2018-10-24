@@ -2,8 +2,6 @@
 Description: Gets or sets the keyboard shortcut for the link.
 ms.assetid: edc65fe8-c7f3-46d0-86ca-1c0c93e7ca64
 title: ShellLinkObject.Hotkey property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Creates a child IContextNode object that contains only information about type, identifier, and location.
 ms.assetid: 181028fb-f67c-4c90-bb09-94b68a887bd1
 title: IContextNode::CreatePartiallyPopulatedSubNode method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

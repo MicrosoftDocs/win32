@@ -2,8 +2,6 @@
 Description: Queries the system for the trace processing handle.
 ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8
 title: QueryTraceProcessingHandle function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

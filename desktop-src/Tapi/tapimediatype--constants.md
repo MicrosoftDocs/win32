@@ -2,8 +2,6 @@
 Description: The media type constants are defined below.
 ms.assetid: 3e418c9a-a008-4b94-b5d2-7c2eccb3bf87
 title: TAPIMEDIATYPE_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -8,8 +8,6 @@ keywords:
 - creating skins,writing code
 - writing code for skins,Windows Media Player Mobile
 - writing code for skins,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

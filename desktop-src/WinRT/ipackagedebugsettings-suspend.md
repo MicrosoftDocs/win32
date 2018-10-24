@@ -2,8 +2,6 @@
 Description: Suspends the processes of the package if they are currently running.
 ms.assetid: 83f44285-46ed-4968-b0af-7964dfacf602
 title: IPackageDebugSettings::Suspend method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

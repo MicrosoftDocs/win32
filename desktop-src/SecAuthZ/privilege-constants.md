@@ -2,8 +2,6 @@
 Description: Privileges determine the type of system operations that a user account can perform. An administrator assigns privileges to user and group accounts. Each users privileges include those granted to the user and to the groups to which the user belongs.
 ms.assetid: 973796a6-bc2e-4e64-92db-5e17b9c25460
 title: Privilege Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -11,8 +11,6 @@ keywords:
 - Windows Media Player ActiveX control,reference
 - Windows Media Player Mobile ActiveX control,reference
 - reference for object model,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

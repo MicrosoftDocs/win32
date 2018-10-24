@@ -8,8 +8,6 @@ keywords:
 - registry,file name extensions
 - registry,settings for Windows Media Player
 - file name extension registry settings
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

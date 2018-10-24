@@ -2,8 +2,6 @@
 Description: The CBaseWindow class is a base class for managing windows.
 ms.assetid: 212d179e-5b5e-49fb-bf0a-a12e0317c96a
 title: CBaseWindow class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Proxy
 description: A proxy resides in the address space of the calling process and acts as a surrogate for the remote object.
 ms.assetid: '6c82f655-ac46-4ed9-992b-0387b324a8f9'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

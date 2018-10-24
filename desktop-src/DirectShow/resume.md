@@ -2,8 +2,6 @@
 Description: The Resume event is sent when the Resume command has been enabled or disabled.
 ms.assetid: '283f5956-9e44-4474-afb9-bbd1453ec419'
 title: Resume
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

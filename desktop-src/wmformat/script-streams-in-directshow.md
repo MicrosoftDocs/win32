@@ -12,8 +12,6 @@ keywords:
 - DirectShow,script streams
 - script streams,DirectShow
 - streams,script streams in DirectShow
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

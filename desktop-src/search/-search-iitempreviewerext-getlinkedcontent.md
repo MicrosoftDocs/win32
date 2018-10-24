@@ -2,8 +2,6 @@
 Description: Permits the extension to rich content for a property.
 ms.assetid: d1b09ea0-7263-4b7c-8c59-25251bb6b285
 title: IItemPreviewerExt::GetLinkedContent method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

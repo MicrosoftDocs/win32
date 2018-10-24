@@ -2,8 +2,6 @@
 Description: The enhanced video renderer (EVR) is a component that displays video on the users monitor.
 ms.assetid: 1c985558-d25d-4f51-978a-58c05943dab9
 title: Enhanced Video Renderer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

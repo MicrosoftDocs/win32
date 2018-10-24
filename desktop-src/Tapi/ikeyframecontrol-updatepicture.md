@@ -2,8 +2,6 @@
 Description: The UpdatePicture method is called by an application to ask the video sender to update the picture. Every time this method is called, one request is sent to the video sender. The stream must be active.
 ms.assetid: 1fa529cd-e95f-4997-8916-4212ebc6f676
 title: IKeyFrameControl::UpdatePicture method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

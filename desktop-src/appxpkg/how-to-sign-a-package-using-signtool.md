@@ -2,8 +2,6 @@
 title: How to sign an app package using SignTool
 description: Learn how to use SignTool to sign your Windows Store app packages so they can be deployed.
 ms.assetid: 93541EB4-3419-45D1-AA63-563E6C6D3055
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

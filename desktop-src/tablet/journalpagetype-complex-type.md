@@ -2,8 +2,6 @@
 Description: Defines the type that contains an individual page in a Journal note.
 ms.assetid: 4de57b5f-51a5-4250-85b3-16f7ca435c62
 title: JournalPageType Complex Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Returns the highest volume level that was present in the audio content.
 ms.assetid: 1d9a6a22-bb82-45e1-80d2-88627c90340c
 title: AVEncStatAudioPeakPCMValue property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

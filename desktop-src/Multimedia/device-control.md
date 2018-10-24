@@ -2,8 +2,6 @@
 title: Device Control
 description: Device Control
 ms.assetid: b4479803-f1da-4646-909e-c4ef412ebdcd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

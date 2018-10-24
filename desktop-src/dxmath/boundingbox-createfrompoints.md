@@ -2,8 +2,6 @@
 Description: Creates a BoundingBox from points.
 ms.assetid: 3963b11a-2ade-4174-a5ff-fa57eb4d2f50
 title: BoundingBox.CreateFromPoints methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

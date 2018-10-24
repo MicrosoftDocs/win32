@@ -2,8 +2,6 @@
 Description: Identifying Valid DVD Operations
 ms.assetid: d368b552-7ed3-4334-b97b-ff49d6c331c3
 title: Identifying Valid DVD Operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

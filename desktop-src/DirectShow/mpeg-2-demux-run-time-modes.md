@@ -2,8 +2,6 @@
 Description: MPEG-2 Demux Run-Time Modes
 ms.assetid: b0d0c725-9220-43a5-af1c-d3c5c72e1ef3
 title: MPEG-2 Demux Run-Time Modes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

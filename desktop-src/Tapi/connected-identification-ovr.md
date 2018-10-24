@@ -2,8 +2,6 @@
 Description: The connected identification identifies the party that was actually connected to. This may be different from the called identification if the call was diverted.
 ms.assetid: 3f9ba728-8e78-4f1f-a0c1-76799fd62c9d
 title: Connected Identification
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

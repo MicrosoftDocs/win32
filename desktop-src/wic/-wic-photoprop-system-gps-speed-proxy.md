@@ -2,8 +2,6 @@
 Description: The property proxy for the System.GPS.Speed photo metadata policy.
 ms.assetid: ef89dca4-9ac7-49fd-b3e2-ef3804faf046
 title: System.GPS.Speed Proxy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

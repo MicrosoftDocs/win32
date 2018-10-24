@@ -2,8 +2,6 @@
 Description: Retrieving Supported Service Formats
 ms.assetid: b54dfeda-c2a3-42ec-895f-9abbbd4dd2ec
 title: Retrieving Supported Service Formats
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Compares two enumerated lists of scripts.
 ms.assetid: 3500ce36-75e4-4d61-8449-a65c99532326
 title: DownlevelVerifyScripts function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

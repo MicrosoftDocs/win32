@@ -2,8 +2,6 @@
 title: ID Attribute (Skew)(VML)
 description: ID Attribute (Skew)(VML)
 ms.assetid: b418bf0b-341c-40e2-8077-e2746ccb3a06
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

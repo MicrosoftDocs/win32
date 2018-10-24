@@ -2,8 +2,6 @@
 title: OLE Moniker Implementations
 description: OLE Moniker Implementations
 ms.assetid: c4ddcbd2-0e5b-4311-908f-23ef6c50ded4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

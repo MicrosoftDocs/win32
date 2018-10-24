@@ -4,8 +4,6 @@ description: DirectWrite defines the following structures.
 ms.assetid: 348dd001-bad9-4f1a-a5f5-84b118a5e2d4
 keywords:
 - DirectWrite,structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

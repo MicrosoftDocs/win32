@@ -2,8 +2,6 @@
 Description: Sets a transposed matrix.
 ms.assetid: d340b058-6ba5-43ec-b398-111064965730
 title: ID3DXBaseEffect::SetMatrixTranspose method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

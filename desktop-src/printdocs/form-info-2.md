@@ -2,8 +2,6 @@
 Description: Contains information about a localizable print form.
 ms.assetid: 5cc11a77-2b9d-44a4-88de-6ed0b7460bc8
 title: FORM_INFO_2 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

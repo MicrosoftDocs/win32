@@ -2,8 +2,6 @@
 Description: The CreateAdvertiseScript method of the Installer object generates an advertise script.
 ms.assetid: 32a331e5-d291-49cd-ab0e-7d0e4d72a95b
 title: Installer::CreateAdvertiseScript method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

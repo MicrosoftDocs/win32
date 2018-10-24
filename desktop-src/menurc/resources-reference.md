@@ -2,8 +2,6 @@
 title: Resource Reference
 description: .
 ms.assetid: 977021bf-fd1a-44d9-bfa1-6a727661fde7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

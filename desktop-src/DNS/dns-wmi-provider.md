@@ -4,8 +4,6 @@ description: The DNS WMI Provider enables administrators and programmers to conf
 ms.assetid: '5388d589-b2d3-47e6-be53-f738188e3552'
 keywords:
 - Domain Name System, WMI provider
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

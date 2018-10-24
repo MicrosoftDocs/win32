@@ -2,8 +2,6 @@
 Description: End-of-Stream Notifications
 ms.assetid: cf2b13bc-5b54-4ac7-8a33-7434126fdf31
 title: End-of-Stream Notifications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

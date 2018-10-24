@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ED6EF216-7FF7-45F2-9FDD-3A73D5F65F9B
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Managed WMI Client
 ms.author: windowssdkdev

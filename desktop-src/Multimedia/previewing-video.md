@@ -5,8 +5,6 @@ ms.assetid: 33ae7d07-5fea-47d7-b60d-4ee412e91dec
 keywords:
 - capPreview macro
 - capPreviewRate macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

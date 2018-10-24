@@ -2,8 +2,6 @@
 Description: Determines the dot product of two 4D vectors.
 ms.assetid: 565dede8-6cc8-4313-9480-2f252cac94f2
 title: D3DXVec4Dot function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Use a Client-Specific Route List
 description: The following procedures outlines the steps to use the client-specific route lists. The sample code that follows shows how to implement the procedure.
 ms.assetid: aa9b7b2a-259f-4ce1-afb6-c04875e8ffe3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

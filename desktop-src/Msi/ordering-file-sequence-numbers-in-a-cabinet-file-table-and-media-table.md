@@ -2,8 +2,6 @@
 Description: The File table contains a complete list of all the source files for the installation.
 ms.assetid: 481fdc45-82db-4128-93de-388562f636e9
 title: Ordering File Sequence Numbers in a Cabinet, File Table and Media Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

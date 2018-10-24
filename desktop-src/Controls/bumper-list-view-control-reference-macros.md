@@ -2,8 +2,6 @@
 title: List View Macros
 description: .
 ms.assetid: b0fd0c7c-3902-4b8a-9f22-74b44ac3dea7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

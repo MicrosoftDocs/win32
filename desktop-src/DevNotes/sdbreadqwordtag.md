@@ -2,8 +2,6 @@
 Description: Retrieves the QWORD value for the specified TAGID.
 ms.assetid: 5fa94a95-c7f3-477b-ab7c-931e8d62d501
 title: SdbReadQWORDTag function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

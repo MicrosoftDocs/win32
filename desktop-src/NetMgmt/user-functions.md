@@ -2,8 +2,6 @@
 title: User Functions
 description: The network management user functions control a user's account in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory. The user functions are listed following.
 ms.assetid: cf0e5102-3924-46c0-8124-0aa04e95f48d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

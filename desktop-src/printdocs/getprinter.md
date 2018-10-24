@@ -2,8 +2,6 @@
 Description: The GetPrinter function retrieves information about a specified printer.
 ms.assetid: f162edbb-83ee-40c3-8710-9c867301d652
 title: GetPrinter function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

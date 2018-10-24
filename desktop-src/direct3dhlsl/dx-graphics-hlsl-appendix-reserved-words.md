@@ -2,8 +2,6 @@
 title: Reserved Words
 description: The following words are reserved for use by the HLSL language. Do not use them to name variables or functions in your HLSL code.
 ms.assetid: acffd9e0-fa59-4690-954c-309084699425
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

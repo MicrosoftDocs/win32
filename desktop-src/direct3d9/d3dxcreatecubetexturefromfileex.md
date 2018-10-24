@@ -2,8 +2,6 @@
 Description: Creates a cube texture from a file. This is a more advanced function than D3DXCreateCubeTextureFromFile.
 ms.assetid: 77e64b33-9282-42fa-978c-a93fa9ba11fc
 title: D3DXCreateCubeTextureFromFileEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

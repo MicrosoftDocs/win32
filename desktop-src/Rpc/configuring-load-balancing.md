@@ -2,8 +2,6 @@
 title: Configuring Load Balancing
 description: Configuring Load Balancing
 ms.assetid: c78ffde1-1811-4065-941f-c24692eb144c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This section contains the reference material on using the Mobile Broadband client programming interface.
 ms.assetid: fae22b08-a63d-4a28-9cdd-ab9135d6e07a
 title: Mobile Broadband API Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

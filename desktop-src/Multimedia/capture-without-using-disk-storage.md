@@ -5,8 +5,6 @@ ms.assetid: 2e2f1b67-69be-424c-8a6f-d9db5eeb6088
 keywords:
 - WM_CAP_SEQUENCE_NOFILE message
 - capCaptureSequenceNoFile macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

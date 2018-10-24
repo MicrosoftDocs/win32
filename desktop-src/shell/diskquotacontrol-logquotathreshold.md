@@ -2,8 +2,6 @@
 Description: Sets or gets a Boolean value that indicates whether a system event log entry will be made when a user exceeds his or her assigned quota threshold.
 ms.assetid: 93bf5a4b-a887-4403-8c61-9ca8ba430c47
 title: DiskQuotaControl.LogQuotaThreshold property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

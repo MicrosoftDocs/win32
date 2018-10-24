@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b51d0c51-3b72-4358-8fc3-d1dbc298b4d9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CInstance::GetWBEMINT64 methods
 ms.author: windowssdkdev

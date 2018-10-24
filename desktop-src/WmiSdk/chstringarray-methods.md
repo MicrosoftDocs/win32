@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: AFE4306E-6BB1-4F1D-A301-CD5F05385466
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CHStringArray Methods
 ms.author: windowssdkdev

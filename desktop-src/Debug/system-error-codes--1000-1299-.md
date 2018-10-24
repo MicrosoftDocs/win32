@@ -2,8 +2,6 @@
 Description: The System Error Codes are very broad.
 ms.assetid: 0061feb6-e1a0-4fcd-8f80-954087c799d7
 title: System Error Codes (1000-1299)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Implementing IMFNetCredentialManager
 ms.assetid: 3eb2afec-195c-4d8d-8e08-7e6ec7c572f8
 title: Implementing IMFNetCredentialManager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

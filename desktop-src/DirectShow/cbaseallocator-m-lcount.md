@@ -2,8 +2,6 @@
 Description: Number of buffers to provide.
 ms.assetid: 73f87b14-4346-4909-bd1e-c4981cde403d
 title: CBaseAllocator::m_lCount member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

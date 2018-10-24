@@ -2,8 +2,6 @@
 Description: Sets the control sample times.
 ms.assetid: 17ffa106-8b6b-4077-895c-03400505c2a0
 title: ControlSampleTimes method of the Msvm_MetricService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Debugging DirectX apps remotely
 description: You can use Visual Studio and the Windows 8 SDK to debug DirectX apps remotely.
 ms.assetid: CA471465-47C2-4706-B391-C9E6C2CD69D9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

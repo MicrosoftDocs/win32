@@ -2,8 +2,6 @@
 Description: Specifies the name of the certification authority (CA).
 ms.assetid: 224c2a51-8a25-4b66-b86b-c87531475145
 title: ISCrdEnr::setCAName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

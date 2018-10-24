@@ -2,8 +2,6 @@
 Description: Gets a texture.
 ms.assetid: e009ccc2-4491-4976-9460-7478b2bd34c2
 title: ID3DXBaseEffect::GetTexture method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

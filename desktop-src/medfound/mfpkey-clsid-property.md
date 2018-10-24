@@ -2,8 +2,6 @@
 Description: Contains the CLSID for a Media Foundation transform (MFT).
 ms.assetid: adb10fe8-760b-4aff-a582-254e11bb76af
 title: MFPKEY_CLSID property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

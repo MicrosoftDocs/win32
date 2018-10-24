@@ -14,8 +14,6 @@ keywords:
 - device conformance templates,video
 - audio device conformance templates
 - templates,audio device conformance templates
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

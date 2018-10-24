@@ -2,8 +2,6 @@
 Description: XTL Elements
 ms.assetid: d7131299-ad4c-4f0a-8898-d6f53abee521
 title: XTL Elements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

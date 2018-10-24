@@ -2,8 +2,6 @@
 Description: Generating New ASF Data Packets
 ms.assetid: 7afa9694-c965-40e2-8549-e32ff48def2a
 title: Generating New ASF Data Packets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Set rotation information for a specific key frame in the animation set.
 ms.assetid: b31edc88-0d77-49f3-b4c4-39cd866e1379
 title: ID3DXKeyframedAnimationSet::SetRotationKey method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

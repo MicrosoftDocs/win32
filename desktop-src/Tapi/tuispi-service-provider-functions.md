@@ -2,8 +2,6 @@
 Description: This section contains an alphabetic list of the Telephony User Interface Service Provider functions.
 ms.assetid: d028d808-0530-43cc-8a5f-2e29f52e0399
 title: TUISPI Service Provider Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: 982bcea1-77b0-4a38-893d-1f506ffb18f5
 keywords:
 - initAVI function
 - termAVI function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

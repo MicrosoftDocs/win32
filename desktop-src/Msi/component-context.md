@@ -2,8 +2,6 @@
 Description: The context that was determined to be applicable to the component in question.
 ms.assetid: 3a6ee9fa-84c3-4a42-9185-849a09d56bf1
 title: Component.Context property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

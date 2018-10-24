@@ -2,8 +2,6 @@
 Description: Constructors exposed by XMU565.
 ms.assetid: d482dbf5-081c-4a1b-a81f-63d21d46a489
 title: XMU565 constructors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

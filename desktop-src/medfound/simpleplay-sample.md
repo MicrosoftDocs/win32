@@ -2,8 +2,6 @@
 Description: Shows how to play a media file using the MFPlay API.
 ms.assetid: 1acd6f98-af59-47fd-9a3e-38a668fb6acf
 title: SimplePlay Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

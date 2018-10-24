@@ -2,8 +2,6 @@
 Description: Why does the audio encoder report no supported input types?
 ms.assetid: b3ff56bb-0ce3-422c-8b20-5c80ec710585
 title: Why does the audio encoder report no supported input types?
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

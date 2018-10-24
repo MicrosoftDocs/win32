@@ -2,8 +2,6 @@
 Description: Requests that the replication state of the replication relationship of the virtual machine be changed to the specified value.
 ms.assetid: 8EC78CCC-2997-4239-A20C-BA56F848ECB6
 title: Msvm_ComputerSystem::RequestReplicationStateChangeEx method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

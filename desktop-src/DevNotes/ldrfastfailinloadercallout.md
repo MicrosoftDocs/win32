@@ -2,8 +2,6 @@
 Description: This function forcefully terminates the calling program if it is invoked inside a loader callout. Otherwise, it has no effect.
 ms.assetid: 5C10BF04-B7C7-4481-A184-FDD418FE5F52
 title: LdrFastFailInLoaderCallout function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

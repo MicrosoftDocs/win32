@@ -2,8 +2,6 @@
 Description: DV Splitter Filter
 ms.assetid: 099d1cc7-f0c5-4c50-a1d5-f2defde7e104
 title: DV Splitter Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

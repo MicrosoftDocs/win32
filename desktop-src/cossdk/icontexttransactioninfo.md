@@ -2,8 +2,6 @@
 Description: Provides access to context object properties that relate to transactions.
 ms.assetid: 3b309153-be7d-444e-be23-777887f1ee95
 title: IContextTransactionInfo interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The ISystemInformation interface defines the following properties.
 ms.assetid: 924ae169-b65e-4cd7-84a4-d206222233c8
 title: ISystemInformation Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

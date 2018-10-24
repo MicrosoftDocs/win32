@@ -2,8 +2,6 @@
 Description: The GetProtocolStartOffsetHandle function returns the frame offset of a given protocol.
 ms.assetid: b1e3a03b-f211-4c2c-8810-9e220c40136b
 title: GetProtocolStartOffsetHandle function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

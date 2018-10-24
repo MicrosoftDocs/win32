@@ -2,8 +2,6 @@
 title: Control Spy v2.0
 description: Control Spy is a tool that helps developers understand common controls how to apply styles to them, and how they respond to messages and notifications.
 ms.assetid: 27483100-debb-4d82-ac24-b97f933a6942
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

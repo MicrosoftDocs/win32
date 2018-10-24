@@ -2,8 +2,6 @@
 Description: How to create a mounted folder.
 ms.assetid: c97bfd10-66ff-41e1-ba3b-f98a019948d5
 title: Creating a Mounted Folder
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

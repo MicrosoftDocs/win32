@@ -2,8 +2,6 @@
 Description: Contains the display name for a hardware-based Media Foundation transform (MFT).
 ms.assetid: 8f2634e8-6bdd-463a-893a-6dc616c8333d
 title: MFT_FRIENDLY_NAME_Attribute attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The SetControlWindowPin method sets the pin with which to synchronize.
 ms.assetid: 6373c046-5448-4159-88b9-9b2babdb938b
 title: CBaseControlWindow.SetControlWindowPin method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

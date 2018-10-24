@@ -2,8 +2,6 @@
 Description: Call this after ID3DX10Sprite::Flush. If D3DX10\_SPRITE\_SAVE\_STATE was specified when ID3DX10Sprite::Begin was called, this API will restore the device state to how it was before ID3DX10Sprite::Begin was called.
 ms.assetid: 71645edb-be4a-4d87-9fb0-557cf5cf10e5
 title: ID3DX10Sprite::End method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: How to animate the bitmap of a layered child window
 description: This topic describes how to create and animate a visual that uses the bitmap of a layered child window as the visual's content.
 ms.assetid: 8912CCF9-C343-45CB-AB31-55D26C118AF2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

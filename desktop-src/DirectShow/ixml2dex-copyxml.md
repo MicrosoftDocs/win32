@@ -2,8 +2,6 @@
 Description: Not implemented.
 ms.assetid: be412d17-6210-4b50-a2b9-9b51c722cb7c
 title: IXml2Dex::CopyXML method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: OriginalWidth Property
 description: OriginalWidth Property
 ms.assetid: bec2c0cd-bad4-4187-9535-3fd35f0daf22
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

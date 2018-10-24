@@ -2,8 +2,6 @@
 Description: Implementing IWICBitmapSource
 ms.assetid: d092e9e5-c041-42f5-84c8-0af52bb5c810
 title: Implementing IWICBitmapSource
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

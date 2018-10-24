@@ -2,8 +2,6 @@
 Description: Associates a service with its hosting computer system.
 ms.assetid: 888ABA71-6D67-4933-89E6-40F731AA7153
 title: Msvm_HostedService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

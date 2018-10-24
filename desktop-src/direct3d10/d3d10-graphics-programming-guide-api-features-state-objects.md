@@ -2,8 +2,6 @@
 Description: In Direct3D 10, device state is grouped into state objects which greatly reduce the cost of state changes.
 ms.assetid: b2839da9-60ed-4f6c-9cc7-eac53647cca7
 title: State Objects (Direct3D 10)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

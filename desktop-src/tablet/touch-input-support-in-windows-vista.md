@@ -2,8 +2,6 @@
 Description: Starting with Windows Vista, Tablet PC Technology has support for touch input on Tablet PC's with touch capable digitizers. This support includes an enhanced user interface to aid in targeting and commanding Windows when using a finger for input.
 ms.assetid: 63f1d71f-03d8-4d83-a174-e3dc7c57bad0
 title: Touch Input Support in Windows Vista
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

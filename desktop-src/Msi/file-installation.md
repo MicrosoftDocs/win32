@@ -2,8 +2,6 @@
 Description: 'Once file costing has been completed, the installer has all the information required to process the two file manipulation actions: DuplicateFiles and MoveFiles.'
 ms.assetid: 2e6d6eb3-1e71-46e6-a946-d9cc0b209325
 title: File Installation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

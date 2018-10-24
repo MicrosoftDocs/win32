@@ -2,8 +2,6 @@
 Description: Provides an instance of IMFMuxStreamSampleManager which is used to access the collection of samples from the substreams of a multiplexed media source.
 ms.assetid: 4FD8169D-FDDF-4C69-AD46-05B02B35028C
 title: MFSampleExtension_MULTIPLEXED_MANAGER attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

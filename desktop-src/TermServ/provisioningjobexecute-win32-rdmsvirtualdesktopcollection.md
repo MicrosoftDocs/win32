@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 69f0cc6a-7eef-4cd9-94ac-f0c7e52d02d8
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - ProvisioningJobExecute method Remote Desktop Services

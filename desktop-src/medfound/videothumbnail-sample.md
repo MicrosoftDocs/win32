@@ -2,8 +2,6 @@
 Description: Shows how to use Microsoft Media Foundation to extract thumbnail images from a video file. The following image shows an example of these thumbnail images.
 ms.assetid: 2c941f57-cd22-4462-bc47-347c383705fd
 title: VideoThumbnail Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

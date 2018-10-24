@@ -2,8 +2,6 @@
 Description: Specifies the rectangle used to enclose glyphs on a monochrome surface.
 ms.assetid: ce5d492f-38d1-4e7b-a9c2-68c791c84d0c
 title: D3DCOMPOSERECTDESC structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

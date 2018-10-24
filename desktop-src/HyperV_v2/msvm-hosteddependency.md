@@ -2,8 +2,6 @@
 Description: Associates a virtual machine instance with the computer system object that represents the physical, hosting system.
 ms.assetid: 755624D7-04D0-47EA-8623-DEDE6B1D5CBC
 title: Msvm_HostedDependency class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

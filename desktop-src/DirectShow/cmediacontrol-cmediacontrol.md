@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 00549dfe-5dd4-445e-bad3-eb6bcfea8f5f
 title: CMediaControl.CMediaControl constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

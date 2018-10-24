@@ -2,8 +2,6 @@
 Description: This attribute returns the mean absolute difference (MAD) across all macro-blocks in the Y plane.
 ms.assetid: 7F0358F1-794A-4E75-8D97-3B91955E19EE
 title: MFSampleExtension_MeanAbsoluteDifference attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

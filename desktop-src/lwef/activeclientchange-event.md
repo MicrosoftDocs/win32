@@ -2,8 +2,6 @@
 title: ActiveClientChange Event
 description: ActiveClientChange Event
 ms.assetid: 617b40e6-cafb-463e-8b36-2a12c468d3ae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

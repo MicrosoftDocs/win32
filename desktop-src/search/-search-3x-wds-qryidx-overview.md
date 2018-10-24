@@ -2,8 +2,6 @@
 Description: There are several ways to use Windows Search to query the index.
 ms.assetid: 2c161b7f-4e28-4e8a-add6-3c1cda00a622
 title: Querying the Index Programmatically
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

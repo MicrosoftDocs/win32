@@ -2,8 +2,6 @@
 Description: The following tables list formats that are available for each factoid factoid used in traditional Chinese.
 ms.assetid: 3d74adf3-d322-4e74-887b-aa500586242d
 title: Chinese (Traditional) Factoids
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

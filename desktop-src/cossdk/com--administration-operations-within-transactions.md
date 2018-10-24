@@ -2,8 +2,6 @@
 Description: COM+ Administration Operations Within Transactions
 ms.assetid: 832f2e6d-26ff-416e-a92e-ebaa33d4e7e5
 title: COM+ Administration Operations Within Transactions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

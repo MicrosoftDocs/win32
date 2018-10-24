@@ -6,8 +6,6 @@ keywords:
 - installable drivers,instances
 - installable drivers,multiple instances
 - multiple driver instances
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

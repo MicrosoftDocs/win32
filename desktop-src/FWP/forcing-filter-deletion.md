@@ -2,8 +2,6 @@
 title: Forcing Filter Deletion
 description: Following sample code demonstrates how to make a user with the TakeOwnership privilege capable of deleting a filter.
 ms.assetid: f0a3de8e-6d3f-45d3-af42-b8ae62278667
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This class is the event type class for CPU configuration events.
 ms.assetid: 5a24be04-9e5e-4ba9-baaf-b58b79ad947b
 title: SystemConfig_CPU class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Let you track cards within readers. These routines typically use the SCARD\_READERSTATE structure within an array.
 ms.assetid: b26b26bf-85ff-435f-a679-7529f19b1c1b
 title: Smart Card Tracking Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

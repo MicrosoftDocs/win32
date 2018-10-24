@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b34567f5-9349-4580-97d5-723759805d88
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Refreshing WMI Data in Scripts
 ms.author: windowssdkdev

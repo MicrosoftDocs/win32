@@ -2,8 +2,6 @@
 Description: Generates a new mesh with reordered faces and vertices to optimize drawing performance.
 ms.assetid: c03e112a-7c9b-4082-9afe-42e1c20b5f4d
 title: ID3DX10Mesh::Optimize method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Draws a subset of a mesh.
 ms.assetid: 99eaa185-b681-47f2-aed8-5ca1697ff73c
 title: ID3DXBaseMesh::DrawSubset method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

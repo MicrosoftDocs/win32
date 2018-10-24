@@ -4,8 +4,6 @@ description: How to use the Windows Biometric Framework API to create client app
 ms.assetid: 7bef37ee-7685-4aaa-8dad-3c5a9c335eca
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , client applications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Direct3D 12 Raytracing HLSL Intrinsics
 description: The following HLSL shaders support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

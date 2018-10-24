@@ -2,8 +2,6 @@
 Description: This section describes the individual properties within the Windows Property System that can be set on Windows files.
 ms.assetid: 7532E58F-BBF2-4e36-9D81-C8E04B92CB7C
 title: Windows Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

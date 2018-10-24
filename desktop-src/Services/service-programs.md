@@ -2,8 +2,6 @@
 Description: A service program contains executable code for one or more services.
 ms.assetid: 697db543-6149-46ac-add3-c8c6ca3aadbe
 title: Service Programs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

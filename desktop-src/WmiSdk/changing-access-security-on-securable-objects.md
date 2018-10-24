@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: da660e7e-f32d-4b7d-b979-f7b482a73fa2
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Changing Access Security on Securable Objects
 ms.author: windowssdkdev

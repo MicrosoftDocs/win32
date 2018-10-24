@@ -2,8 +2,6 @@
 Description: Retrieves the total size of the data in the buffer.
 ms.assetid: f26792bc-381b-4ee1-b7d2-2007790fc046
 title: ID3DXBuffer::GetBufferSize method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

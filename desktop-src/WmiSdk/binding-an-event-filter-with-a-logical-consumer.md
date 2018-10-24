@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2fc3d781-2b93-4e9e-90a1-1b975ab40a01
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Binding an Event Filter with a Logical Consumer
 ms.author: windowssdkdev

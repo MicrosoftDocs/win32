@@ -2,8 +2,6 @@
 Description: A description of a constant in a constant table.
 ms.assetid: d1970536-7195-4270-a1b9-b082ebe4f17f
 title: D3DXCONSTANT_DESC structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

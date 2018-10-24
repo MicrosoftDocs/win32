@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 35dc97aa-dcef-48c1-af8b-ce43e3cf1d3e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'Example: Getting WMI Data from the Local Computer'
 ms.author: windowssdkdev

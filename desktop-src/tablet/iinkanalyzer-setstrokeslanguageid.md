@@ -2,8 +2,6 @@
 Description: Changes the locale identifier for the specified strokes.
 ms.assetid: 39dd24d5-4381-4b51-8d95-7d936fd69d47
 title: IInkAnalyzer::SetStrokesLanguageId method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

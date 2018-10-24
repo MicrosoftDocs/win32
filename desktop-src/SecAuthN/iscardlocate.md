@@ -2,8 +2,6 @@
 Description: The ISCardLocate interface provides services for locating a smart card by its name.
 ms.assetid: add00705-69d5-4562-a74f-94c6864f6bd8
 title: ISCardLocate interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

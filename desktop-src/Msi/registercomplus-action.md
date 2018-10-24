@@ -2,8 +2,6 @@
 Description: The RegisterComPlus action registers COM+ applications.
 ms.assetid: e42bb993-7079-4d5b-bb2e-c958e99e705e
 title: RegisterComPlus Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

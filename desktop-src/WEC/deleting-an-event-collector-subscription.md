@@ -3,8 +3,6 @@ title: Deleting an Event Collector Subscription
 description: You can delete an Event Collector subscription from a local computer.
 audience: developer
 ms.assetid: d3102149-906d-4286-85c8-e5b1eb6dd382
-ms.prod: windows-server-dev
-ms.technology: windows-event-collector
 ms.tgt_platform: multiple
 ms.author: windowssdkdev
 ms.topic: article

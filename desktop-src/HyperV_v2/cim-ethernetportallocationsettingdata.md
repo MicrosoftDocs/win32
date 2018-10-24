@@ -2,8 +2,6 @@
 Description: Represents settings for the allocation of the ethernet port, in addition to the settings provided by the CIM\_EthernetPort class. These settings are used to provide information specific to the resource itself.
 ms.assetid: f59ebaf1-60dd-49bd-b48e-d7a6c2650909
 title: CIM_EthernetPortAllocationSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

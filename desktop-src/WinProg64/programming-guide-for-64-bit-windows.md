@@ -6,8 +6,6 @@ keywords:
 - 64-bit Windows programming guide 64-bit Windows Programming
 - 64-bit Windows programming guide 64-bit Windows Programming , home page
 - programming guide for 64-bit Windows 64-bit Windows Programming See 64-bit Windows programming guide
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Ctx Tag
 description: Ctx Tag
 ms.assetid: 96ceaa98-869d-4c51-a419-882cc9d40ae2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d86bd2e3-f5cb-488f-9cd6-5105d82a1842
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WQL-Supported Time Formats
 ms.author: windowssdkdev

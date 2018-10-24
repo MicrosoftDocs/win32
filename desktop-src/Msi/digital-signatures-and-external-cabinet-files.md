@@ -2,8 +2,6 @@
 Description: Windows Installer can use digital signatures to detect corrupted resources.
 ms.assetid: 49f1c1f9-d342-47e0-8888-2eadc5dbd000
 title: Digital Signatures and External Cabinet Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

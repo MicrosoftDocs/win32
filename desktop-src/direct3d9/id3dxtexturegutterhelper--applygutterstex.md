@@ -2,8 +2,6 @@
 Description: Applies gutters to an IDirect3DTexture9 texture object.
 ms.assetid: e8f4a4cf-4d3b-419b-9486-08aa3bd3d8a4
 title: ID3DXTextureGutterHelper::ApplyGuttersTex method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The EndOfStream method notifies the filter that the input pin received an end-of-stream notification.
 ms.assetid: bdfd03f9-81e0-4d52-959e-82fd1a67e1c3
 title: CBaseRenderer.EndOfStream method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

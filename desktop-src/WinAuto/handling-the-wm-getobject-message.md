@@ -2,8 +2,6 @@
 title: Handling the WM_GETOBJECT Message
 description: Both Microsoft Active Accessibility and Microsoft UI Automation send the WM\_GETOBJECT message to a server or provider application to retrieve information about an accessible object supported by the server or provider.
 ms.assetid: 4b8e551f-aba7-4a89-8874-ba690175f525
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

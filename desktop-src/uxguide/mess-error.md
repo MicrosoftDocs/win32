@@ -2,8 +2,6 @@
 title: Error Messages
 description: An error message alerts users of a problem that has already occurred.
 ms.assetid: b02110e9-985d-4448-9c95-eb958b0059b1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

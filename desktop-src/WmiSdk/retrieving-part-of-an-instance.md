@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 6cc26b26-adc9-4a8a-b51e-9db94eb4295f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving Part of a WMI Instance
 ms.author: windowssdkdev

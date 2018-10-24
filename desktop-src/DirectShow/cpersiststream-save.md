@@ -2,8 +2,6 @@
 Description: Saves the filter's data to the given stream.
 ms.assetid: f45c8c6e-f0bb-4358-805a-da2669706d34
 title: CPersistStream.Save method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

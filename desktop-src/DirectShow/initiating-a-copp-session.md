@@ -2,8 +2,6 @@
 Description: Initiating a COPP Session
 ms.assetid: c84a83b4-51b2-4b46-860f-d740b42323fa
 title: Initiating a COPP Session
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

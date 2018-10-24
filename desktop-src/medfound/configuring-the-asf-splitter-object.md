@@ -2,8 +2,6 @@
 Description: Configuring the ASF Splitter Object
 ms.assetid: 8e2ba659-e1f6-42be-afd6-21fc841dc8d3
 title: Configuring the ASF Splitter Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

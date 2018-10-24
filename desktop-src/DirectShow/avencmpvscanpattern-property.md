@@ -2,8 +2,6 @@
 Description: Specifies the macroblock scan pattern. This property applies to MPEG video encoders.
 ms.assetid: 34d7a2c8-8ac3-4900-9dd9-a7bb7e19b911
 title: AVEncMPVScanPattern property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

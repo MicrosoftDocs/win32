@@ -2,8 +2,6 @@
 Description: Represents any collection in the COM+ catalog. Use it to enumerate, add, remove, and retrieve items in a collection and to access related collections.
 ms.assetid: 2530e44f-c428-4baa-88e1-8d01eaf234cc
 title: COMAdminCatalogCollection class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

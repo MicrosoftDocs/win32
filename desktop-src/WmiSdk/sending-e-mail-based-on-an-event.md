@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ed10e6f7-8e18-4cde-bd46-a7791547c7da
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Sending Email Based on an Event
 ms.author: windowssdkdev

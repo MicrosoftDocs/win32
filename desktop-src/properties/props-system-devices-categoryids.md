@@ -2,8 +2,6 @@
 Description: Indicates the actual raw category.
 ms.assetid: d2835eb7-c1e5-43e7-8b7f-fd70d29dd528
 title: System.Devices.CategoryIds
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

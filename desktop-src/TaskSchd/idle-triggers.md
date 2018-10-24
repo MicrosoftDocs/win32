@@ -2,8 +2,6 @@
 title: Idle Triggers for Task Scheduler 1.0
 description: An idle trigger is an event-based trigger that is fired a specific number of times after the computer becomes idle. There are multiple conditions that define when a computer becomes idle, such as when no keyboard or mouse input occurs.
 ms.assetid: f2e0b120-dadc-470f-8349-42843149bb60
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: c6d4e2bc-f7f6-429d-aa91-432d833c69d1
 keywords:
 - DocumentSummaryInformation
 - UserDefined Property Sets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

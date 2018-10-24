@@ -2,8 +2,6 @@
 Description: The system is not the only source of WM\_PAINT messages. The InvalidateRect or InvalidateRgn function can indirectly generate WM\_PAINT messages for your windows. These functions mark all or part of a client area as invalid (that must be redrawn).
 ms.assetid: 41c2bc07-768b-4d27-a869-69b072f3e033
 title: Invalidating the Client Area
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

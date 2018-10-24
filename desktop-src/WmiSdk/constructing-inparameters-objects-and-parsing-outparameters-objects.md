@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: be9332b5-8094-44a2-8632-af9957ecf36b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Constructing InParameters Objects and Parsing OutParameters Objects
 ms.author: windowssdkdev

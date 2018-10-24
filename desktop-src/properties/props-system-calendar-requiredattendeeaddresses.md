@@ -2,8 +2,6 @@
 Description: Addresses of the all the required attendees.
 ms.assetid: 2fbed651-2fa0-441b-b174-6be6d49430bf
 title: System.Calendar.RequiredAttendeeAddresses
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

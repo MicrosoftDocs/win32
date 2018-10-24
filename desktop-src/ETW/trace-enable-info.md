@@ -2,8 +2,6 @@
 Description: Defines the session and the information that the session used to enable the provider.
 ms.assetid: 999dd102-5937-4b1e-b841-623dddaa0df9
 title: TRACE_ENABLE_INFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

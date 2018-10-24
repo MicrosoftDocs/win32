@@ -2,8 +2,6 @@
 Description: Table of Contents Parser Reference
 ms.assetid: 90a8d690-e9be-4657-aa02-1a78400e3f83
 title: Table of Contents Parser Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

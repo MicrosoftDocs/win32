@@ -2,8 +2,6 @@
 Description: Requests a state change.
 ms.assetid: 27a8ab6e-afbd-4d87-afd6-8da0cc5e3fba
 title: RequestStateChange method of the Msvm_VssComponent class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

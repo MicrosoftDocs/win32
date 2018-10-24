@@ -2,8 +2,6 @@
 Description: Unicable Frequency Table
 ms.assetid: 817d5b66-620d-417a-b3ea-25162ec8f0f5
 title: Unicable Frequency Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

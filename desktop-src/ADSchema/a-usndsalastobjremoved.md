@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: af0afd80-fe4a-4bc6-84e3-14c2900bec93
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - USN-DSA-Last-Obj-Removed attribute AD Schema

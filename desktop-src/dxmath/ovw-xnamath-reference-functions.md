@@ -2,8 +2,6 @@
 Description: This section contains information about the DirectXMath functions.
 ms.assetid: aa285d9c-09b2-a408-ca6d-7aa79670e1e6
 title: DirectXMath Library Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

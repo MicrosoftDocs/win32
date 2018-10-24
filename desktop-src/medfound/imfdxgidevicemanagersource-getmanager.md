@@ -2,8 +2,6 @@
 Description: Gets the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
 ms.assetid: 809e89e4-3ed5-4dba-82dc-4ec217b8ef38
 title: IMFDXGIDeviceManagerSource::GetManager method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

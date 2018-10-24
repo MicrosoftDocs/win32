@@ -2,8 +2,6 @@
 Description: COM+ Compensating Resource Manager Tasks
 ms.assetid: ce2d4a8e-5323-458f-8354-1a8c0a227752
 title: COM+ Compensating Resource Manager Tasks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

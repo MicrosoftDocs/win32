@@ -2,8 +2,6 @@
 Description: Calculates the natural logarithm.
 ms.assetid: 576cf676-bb42-45ec-8e45-4612a7cdb167
 title: D3DXQuaternionLn function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

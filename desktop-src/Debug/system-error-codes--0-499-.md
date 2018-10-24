@@ -2,8 +2,6 @@
 Description: The System Error Codes are very broad.
 ms.assetid: cacb0aec-d438-4875-a96e-4e0239fdc6ba
 title: System Error Codes (0-499)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

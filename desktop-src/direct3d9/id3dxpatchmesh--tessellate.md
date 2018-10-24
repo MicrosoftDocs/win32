@@ -2,8 +2,6 @@
 Description: Performs uniform tessellation based on the tessellation level.
 ms.assetid: 0fc701b4-0636-450e-b8e0-e7a490871316
 title: ID3DXPatchMesh::Tessellate method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

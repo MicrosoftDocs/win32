@@ -2,8 +2,6 @@
 Description: The IIdentityProvider interface exposes the following methods.
 ms.assetid: 9F99FFCE-9797-43CF-A593-E40A4AB81E61
 title: IIdentityProvider Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

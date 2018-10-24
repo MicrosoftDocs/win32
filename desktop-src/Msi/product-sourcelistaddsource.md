@@ -2,8 +2,6 @@
 Description: The SourceListAddSource method adds a network or URL source. Accepts SourcePath,Type, and Index as parameters. This method calls MsiSourceListAddSourceEx.
 ms.assetid: 61a8873f-c4ad-43d7-8bbb-5a2534ef2de7
 title: Product.SourceListAddSource method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

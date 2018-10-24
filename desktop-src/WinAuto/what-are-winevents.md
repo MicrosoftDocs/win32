@@ -2,8 +2,6 @@
 title: What Are WinEvents
 description: Server applications and the operating system use WinEvents to notify clients when a change occurs in the system or in the user interface.
 ms.assetid: 43723706-a173-4ddc-b135-824a7a8e8b40
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

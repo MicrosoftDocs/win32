@@ -2,8 +2,6 @@
 Description: Creates a kernel-mode surface object that represents the user-mode surface object referenced by puSurfaceLocal.
 ms.assetid: 1b2886a8-279b-4bec-9fb8-b88a68ded25b
 title: NtGdiDdCreateSurfaceObject function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Using the Smart Tee Filter
 ms.assetid: d2828269-6841-41a8-8d45-f864c7e85857
 title: Using the Smart Tee Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

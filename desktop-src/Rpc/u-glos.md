@@ -3,8 +3,6 @@ title: U
 description: Words starting with U in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: b74acb87-030a-4263-9399-5fab6f239d02
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

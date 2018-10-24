@@ -2,8 +2,6 @@
 Description: This topic shows you how you can set groups of voices to send their output to the same submix voice. This enables a single change to a submix voice to affect a whole group of voices.
 ms.assetid: 76c1c138-4846-9c4f-7875-446867436ee9
 title: 'How to: Use Submix Voices'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

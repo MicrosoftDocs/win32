@@ -4,8 +4,6 @@ description: Specifies the version number of the control.
 ms.assetid: '69ad4647-d39c-4bfd-b027-0a2db8fb3881'
 keywords:
 - Version registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

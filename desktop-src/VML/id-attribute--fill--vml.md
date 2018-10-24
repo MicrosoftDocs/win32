@@ -2,8 +2,6 @@
 title: ID Attribute (Fill)(VML)
 description: ID Attribute (Fill)(VML)
 ms.assetid: 56865772-51bd-4729-8e56-6b00e3c6bed0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

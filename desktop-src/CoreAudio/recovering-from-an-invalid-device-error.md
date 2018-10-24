@@ -2,8 +2,6 @@
 Description: Recovering from an Invalid-Device Error
 ms.assetid: 1f5c3458-70ca-45ba-ac33-5c7b9f092320
 title: Recovering from an Invalid-Device Error
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

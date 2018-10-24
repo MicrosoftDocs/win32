@@ -4,8 +4,6 @@ description: The Windows Filtering Platform (WFP) management functions for the f
 ms.assetid: 983eb1bb-af6b-42cf-8148-ed3a0e3102a9
 keywords:
 - Windows Filtering Platform API Management Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

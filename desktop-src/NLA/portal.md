@@ -2,8 +2,6 @@
 title: Network List Manager
 description: .
 ms.assetid: a30741ff-5d9a-4ebb-8373-97e9116fc64b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

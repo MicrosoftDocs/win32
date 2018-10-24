@@ -4,8 +4,6 @@ description: The following techniques can be used for communication between 32-b
 ms.assetid: 9a60ccfe-4ccf-44d7-9522-42609d95217b
 keywords:
 - interprocess communication 64-bit Windows Programming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

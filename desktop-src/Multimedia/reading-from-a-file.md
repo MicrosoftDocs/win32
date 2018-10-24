@@ -4,8 +4,6 @@ description: Reading from a File
 ms.assetid: 7c728304-7d05-4e28-a9bd-83b5b1af39be
 keywords:
 - AVIFileInfo function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

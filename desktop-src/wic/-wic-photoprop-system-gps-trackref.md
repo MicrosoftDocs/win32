@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.GPS.TrackRef property.
 ms.assetid: e6912177-8add-4520-b396-c28060b359c7
 title: System.GPS.TrackRef Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

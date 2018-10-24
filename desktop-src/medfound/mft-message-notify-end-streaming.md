@@ -2,8 +2,6 @@
 Description: Requests a Media Foundation transform (MFT) to that streaming is about to end.
 ms.assetid: df313a66-e80f-499c-a9f2-a7cbaaf0a7d4
 title: MFT_MESSAGE_NOTIFY_END_STREAMING
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

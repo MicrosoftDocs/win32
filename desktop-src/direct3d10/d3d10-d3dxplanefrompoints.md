@@ -2,8 +2,6 @@
 Description: Constructs a plane from three points.
 ms.assetid: 0e77af1b-cedf-482c-8398-10becb398a2c
 title: D3DXPlaneFromPoints function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

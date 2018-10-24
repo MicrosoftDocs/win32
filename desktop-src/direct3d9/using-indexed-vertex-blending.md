@@ -2,8 +2,6 @@
 Description: Transform states 256-511 are reserved to store up to 256 matrices that can be indexed using 8-bit indices.
 ms.assetid: 4c15cfc5-afdf-48d4-8fd1-b10cbe596a1c
 title: Using Indexed Vertex Blending (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

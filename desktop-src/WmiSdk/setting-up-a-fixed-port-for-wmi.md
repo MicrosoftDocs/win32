@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 62908445-2a43-4a20-a998-e497c6ecf48e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Up a Fixed Port for WMI
 ms.author: windowssdkdev

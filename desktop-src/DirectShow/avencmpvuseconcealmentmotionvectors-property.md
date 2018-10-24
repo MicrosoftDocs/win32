@@ -2,8 +2,6 @@
 Description: Specifies whether the encoder uses concealment motion vectors. This property applies to MPEG video encoders.
 ms.assetid: 8b47a007-525c-4d02-8723-d6217600041e
 title: AVEncMPVUseConcealmentMotionVectors property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

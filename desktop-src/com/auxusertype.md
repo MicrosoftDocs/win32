@@ -4,8 +4,6 @@ description: Specifies an application's short display name and application names
 ms.assetid: 3367eb68-01f4-4cb9-b1d0-27554c28b68d
 keywords:
 - AuxUserType registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

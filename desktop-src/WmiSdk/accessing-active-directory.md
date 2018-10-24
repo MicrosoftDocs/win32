@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e7569754-87c3-4a18-bfed-a03a32a2ee22
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing Active Directory
 ms.author: windowssdkdev

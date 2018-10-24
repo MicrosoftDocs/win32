@@ -2,8 +2,6 @@
 Description: The BeginFlush method begins a flush operation.
 ms.assetid: dc652394-c24e-4cea-ac28-30a1e6de205f
 title: CBaseRenderer.BeginFlush method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Looking Up a User's Full Name
 description: Computers can be organized into a domain, which is a collection of computers network. The domain administrator maintains centralized user and group account information.
 ms.assetid: 296ecfd0-1b65-482c-bee1-eff2130cc14e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

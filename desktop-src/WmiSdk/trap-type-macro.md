@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ed3536b8-5846-4207-aa9d-6814b1f4a35f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TRAP-TYPE Macro
 ms.author: windowssdkdev

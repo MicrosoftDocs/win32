@@ -2,8 +2,6 @@
 title: outputtopology
 description: Defines the output primitive type for the tessellator.
 ms.assetid: 4aba65e5-b005-43fd-a844-c7fbb1b7406c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The UpgradedImages table contains information about the upgraded images of the product.
 ms.assetid: f4ee2cc8-8a49-4e4a-b8cf-b4ae2bc7e753
 title: UpgradedImages Table (Patchwiz.dll)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

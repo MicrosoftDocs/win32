@@ -2,8 +2,6 @@
 Description: Determines if the current user can start and stop the named service.
 ms.assetid: 1428F529-61F6-4113-A553-2C0D617FD859
 title: Shell.CanStartStopService method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

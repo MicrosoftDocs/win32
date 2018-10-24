@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: b4c65279-e94e-48d2-bd6c-60980cacc154
 title: System.Media.ContentDistributor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

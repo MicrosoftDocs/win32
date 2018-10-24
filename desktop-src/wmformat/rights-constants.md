@@ -8,8 +8,6 @@ keywords:
 - DRM (digital rights management),constants
 - DRM Client Extended APIs,constants
 - Client Extended APIs,constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: vSwitch Management
 description: vSwitch Management
 ms.assetid: 8CBD0104-986D-4594-9E16-D03A4F9CCC3F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

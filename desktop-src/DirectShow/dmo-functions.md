@@ -2,8 +2,6 @@
 Description: DMO Functions
 ms.assetid: 0a380dc0-23f0-4ef0-898a-3b5afddf5eaa
 title: DMO Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

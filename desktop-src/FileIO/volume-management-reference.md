@@ -2,8 +2,6 @@
 Description: Elements used in volume management.
 ms.assetid: 9b805586-5c4a-4562-8571-345e8fe0c62b
 title: Volume Management Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Forwarding is the deflection of an incoming session to a different destination address.
 ms.assetid: c70bf596-b2a4-46ec-9b1a-c9d948768b51
 title: Forward
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

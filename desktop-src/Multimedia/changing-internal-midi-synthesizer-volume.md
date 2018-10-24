@@ -11,8 +11,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),changing volume
 - playing MIDI files,changing volume
 - changing MIDI volume
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

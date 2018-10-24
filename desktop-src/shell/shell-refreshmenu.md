@@ -2,8 +2,6 @@
 Description: Refreshes the contents of the Start menu. Used only with systems preceding Windows XP.
 ms.assetid: 1269c66d-61df-432d-9220-5ac975e3ad58
 title: Shell.RefreshMenu method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

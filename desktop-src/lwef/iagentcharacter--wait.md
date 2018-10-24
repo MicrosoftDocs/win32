@@ -2,8 +2,6 @@
 title: IAgentCharacter Wait
 description: IAgentCharacter Wait
 ms.assetid: 4edb9a47-9385-49da-83ff-144780853ae7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

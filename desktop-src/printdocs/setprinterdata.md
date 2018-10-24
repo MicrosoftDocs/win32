@@ -2,8 +2,6 @@
 Description: The SetPrinterData function sets the configuration data for a printer or print server.
 ms.assetid: 16072de9-98fb-4ada-8216-180b64cf44c8
 title: SetPrinterData function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

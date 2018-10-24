@@ -2,8 +2,6 @@
 Description: Destructor method.
 ms.assetid: b3256b3f-20c5-4611-abbe-d0c5ee470922
 title: CBaseDispatch.~CBaseDispatch destructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

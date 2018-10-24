@@ -2,8 +2,6 @@
 Description: ICE91 posts a warning if a file, .ini file, or shortcut file is installed into a per-user only directory.
 ms.assetid: 1834d841-b1d9-4646-8057-a41dd88310b6
 title: ICE91
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

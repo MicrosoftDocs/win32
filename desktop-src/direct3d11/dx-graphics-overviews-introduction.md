@@ -2,8 +2,6 @@
 title: What's new in Direct3D 11
 description: This section describes features added in Direct3D 11, Direct3D 11.1, and Direct3D 11.2.
 ms.assetid: 08ad078f-9bc6-4f23-8faa-ccf168e79c2c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

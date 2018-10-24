@@ -2,8 +2,6 @@
 Description: D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
 ms.assetid: 84815851-ca96-47ab-9f84-56ecaeb4a6d9
 title: Texture Support in D3DX (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: The client program of a distributed application needs to create a b
 ms.assetid: 52c5d0bd-f9b4-4d3f-ac7f-f9b4fb919846
 keywords:
 - Remote Procedure Call RPC , tasks, creating a binding handle
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Dynamic Annotation API
 description: The Dynamic Annotation API is an extension to Microsoft Active Accessibility that allows developers to customize existing IAccessible support without having to use error-prone subclassing or wrapping techniques.
 ms.assetid: 2daf0e76-b300-47e7-994b-d1d00d0dca4d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

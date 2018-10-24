@@ -2,8 +2,6 @@
 Description: Clones a mesh using a declarator.
 ms.assetid: 47e0329a-ea85-478d-af8b-cf85d2a779f6
 title: ID3DXBaseMesh::CloneMesh method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The RESUME property is set when resuming a suspended installation.
 ms.assetid: 79eeadfd-6079-401b-a360-1ce09786e647
 title: RESUME property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

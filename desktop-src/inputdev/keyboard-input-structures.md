@@ -2,8 +2,6 @@
 title: Keyboard Input Structures
 description: .
 ms.assetid: 77cfccd8-7e47-4cdf-99a0-c1992a257fef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic describes how to retrieve data from a sensor, synchronously and asynchronously.
 ms.assetid: 4ae80816-5e53-4ed1-9300-4b38c22d65e2
 title: Retrieving Sensor Data Values
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

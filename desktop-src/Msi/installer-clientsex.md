@@ -2,8 +2,6 @@
 Description: Returns a RecordList object that lists products that use a specified installed component.
 ms.assetid: c9756526-68d7-4d04-97e2-56a5eaf816be
 title: Installer.ClientsEx property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

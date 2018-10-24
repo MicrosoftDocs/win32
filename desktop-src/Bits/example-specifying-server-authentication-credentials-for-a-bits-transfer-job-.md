@@ -2,8 +2,6 @@
 title: Example Specifying Server Authentication Credentials for a BITS Transfer Job
 description: You can specify different authentication schemes for a Background Intelligent Transfer Service (BITS) transfer job.
 ms.assetid: 31db38f6-3639-4042-97f2-4f9d78942e15
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

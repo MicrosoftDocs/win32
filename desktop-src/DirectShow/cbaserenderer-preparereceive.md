@@ -2,8 +2,6 @@
 Description: The PrepareReceive method prepares the filter to render a sample.
 ms.assetid: 873b6b3b-623e-4cec-91ea-fa628618348d
 title: CBaseRenderer.PrepareReceive method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

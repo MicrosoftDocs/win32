@@ -2,8 +2,6 @@
 title: Rasterizer Stage
 description: The rasterization stage converts vector information (composed of shapes or primitives) into a raster image (composed of pixels) for the purpose of displaying real-time 3D graphics.
 ms.assetid: efd3f819-7c63-4e1a-9923-8e7198354ec6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

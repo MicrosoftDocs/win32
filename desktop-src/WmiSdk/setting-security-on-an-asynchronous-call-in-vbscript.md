@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f665fc60-68bd-495d-a441-e3a9473f9d89
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Security on an Asynchronous Call in VBScript
 ms.author: windowssdkdev

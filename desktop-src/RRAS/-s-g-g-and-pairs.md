@@ -2,8 +2,6 @@
 title: (s, g), ( , g), and ( ,  ) Pairs
 description: The notation (s, g) represents a specific source and group. Only data from the source, s, and the group, g, is requested.
 ms.assetid: 49eab2c5-bf5f-4dc7-b942-20b1794e74e4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

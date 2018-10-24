@@ -2,8 +2,6 @@
 Description: Removes a piece of application-specific data.
 ms.assetid: 41077c2f-39e3-4069-ac05-97f1785e37b7
 title: IContextNode::RemovePropertyData method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

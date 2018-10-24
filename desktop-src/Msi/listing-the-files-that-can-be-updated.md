@@ -2,8 +2,6 @@
 Description: The MsiGetPatchFileList function and PatchFiles property of the Installer Object take a list of Windows Installer patches (.msp files) and return a list of files that can be updated by the patches.
 ms.assetid: cc2eb506-c1fc-4125-b98c-12221b918e23
 title: Listing the Files that can be Updated
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

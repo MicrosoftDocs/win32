@@ -2,8 +2,6 @@
 Description: The Null Renderer filter is a renderer that discards every sample it receives, without displaying or rendering the sample data.
 ms.assetid: 2954762d-2ae6-4e38-ac88-5390a081897e
 title: Null Renderer Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

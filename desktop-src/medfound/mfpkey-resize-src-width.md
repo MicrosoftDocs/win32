@@ -2,8 +2,6 @@
 Description: Specifies the width of the source rectangle, in pixels.
 ms.assetid: 1c527040-6673-4753-905b-8c74c1ae0d59
 title: MFPKEY_RESIZE_SRC_WIDTH Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

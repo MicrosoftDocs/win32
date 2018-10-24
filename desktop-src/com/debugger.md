@@ -2,8 +2,6 @@
 title: Debugger
 description: Stores the name of the preferred debugger to use with remote COM debugging over RPC.
 ms.assetid: c180f995-ec25-4239-ad61-7dde0080482e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

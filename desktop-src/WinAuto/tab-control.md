@@ -2,8 +2,6 @@
 title: Tab Control (MSAA UI Element Reference)
 description: A tab control defines multiple pages for the same area of a window or dialog box.
 ms.assetid: 664dd109-3c4a-4106-9b92-e10ec5a33463
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

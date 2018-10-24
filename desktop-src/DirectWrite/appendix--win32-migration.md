@@ -5,8 +5,6 @@ ms.assetid: c679e31a-3825-4f59-9c5e-9cf770e1f237
 keywords:
 - DirectWrite,Win32 Text APIs
 - Win32 Text APIs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

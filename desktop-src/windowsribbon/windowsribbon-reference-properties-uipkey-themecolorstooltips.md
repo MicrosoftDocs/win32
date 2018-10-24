@@ -2,8 +2,6 @@
 title: UI_PKEY_ThemeColorsTooltips
 description: Identifies the UI\_PKEY\_ThemeColorsTooltips property.
 ms.assetid: 69b23ea7-fdce-4894-94a8-d77d087872a3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

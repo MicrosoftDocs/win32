@@ -2,8 +2,6 @@
 title: How to Implement Tracking Tooltips
 description: Tracking tooltips remain visible until they are explicitly closed by the application, and can change position on the screen dynamically. They are supported by version 4.70 and later of the common controls.
 ms.assetid: 4BE1F9E6-92B6-4CA7-B89A-F2162BC86366
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

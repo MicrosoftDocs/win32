@@ -4,8 +4,6 @@ description: Starting with Windows 2000, a utility in the Windows Resource Kit 
 ms.assetid: a33b51e7-2ded-46bd-aadb-27cbd99e1029
 keywords:
 - Remote Procedure Call RPC , tasks, configuring registry for port allocations and selective binding
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

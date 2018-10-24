@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: d0c75091-0052-4ec0-a6cb-3bc0721a7b14
 title: System.Contact.BusinessAddress3Country
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Removes the specified OID object from the collection.
 ms.assetid: c5eb6831-b195-4dc1-a6bd-d4245f9b0213
 title: OIDs.Remove method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

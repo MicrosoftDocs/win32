@@ -2,8 +2,6 @@
 title: Inter-Object Communication
 description: COM is designed to allow clients to communicate transparently with objects, regardless of where those objects are runningâ€”in the same process, on the same computer, or on a different computer.
 ms.assetid: dd4adafb-a7e4-44ba-ae4a-80585875ecb6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

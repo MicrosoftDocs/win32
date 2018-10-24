@@ -2,8 +2,6 @@
 Description: TopoEdit Modules
 ms.assetid: f3da2d13-a8ad-4db0-9d18-e94857f0abc7
 title: TopoEdit Modules
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

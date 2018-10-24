@@ -2,8 +2,6 @@
 Description: The Peer Infrastructure uses the following common functions.
 ms.assetid: 04550e2d-f1b1-4a65-b17f-0569e66ca86a
 title: Common Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

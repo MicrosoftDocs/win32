@@ -24,8 +24,6 @@ keywords:
 - text services,TSF manager
 - TSF-enabled applications,TSF manager
 - TSF manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

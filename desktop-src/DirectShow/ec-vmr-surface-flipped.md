@@ -2,8 +2,6 @@
 Description: Sent when the VMR-7's allocator presenter has called the DirectDraw Flip method on the surface being presented. This allows the VMR to keep its DirectXVA table of surfaces synchronized with DirectDraw's flipping chain.
 ms.assetid: e298857b-0579-48b4-add0-72320bc52d63
 title: EC_VMR_SURFACE_FLIPPED
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

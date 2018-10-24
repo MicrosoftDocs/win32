@@ -2,8 +2,6 @@
 Description: Sets the contents of the buffer to the constant table.
 ms.assetid: 6058795c-fa32-42aa-9a36-af0b7f6eed1d
 title: ID3DXConstantTable::SetValue method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

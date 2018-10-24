@@ -2,8 +2,6 @@
 Description: This association indicates that a subclass of logical device (for example a storage volume) is connected through a specific protocol controller.
 ms.assetid: 93025450-BE6C-48DC-913C-2050674DF81A
 title: Msvm_ProtocolControllerForUnit class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

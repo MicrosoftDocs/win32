@@ -2,8 +2,6 @@
 Description: Specifies whether a topology nodes underlying object is a decoder.
 ms.assetid: b6d576dc-b12f-49bf-b938-db2c629df400
 title: MF_TOPONODE_DECODER attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

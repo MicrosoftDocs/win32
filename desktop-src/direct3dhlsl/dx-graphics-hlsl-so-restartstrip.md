@@ -2,8 +2,6 @@
 title: RestartStrip (DirectX HLSL Stream-Output Object)
 description: Ends the current primitive strip and starts a new strip. If the current strip does not have enough vertices emitted to fill the primitive topology, the incomplete primitive at the end will be discarded.
 ms.assetid: ca8eb7cf-1b4a-4082-b768-01390c5f8b47
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

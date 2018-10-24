@@ -2,8 +2,6 @@
 Description: Direct3D 10.1 Features
 ms.assetid: e60c6116-e2f9-46b7-aed8-13e3e5ae2b90
 title: Direct3D 10.1 Features
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

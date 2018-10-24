@@ -2,8 +2,6 @@
 title: VML Image Element
 description: VML Image Element
 ms.assetid: 9e8e71d3-6d18-4183-ac7a-d2a8d43db449
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

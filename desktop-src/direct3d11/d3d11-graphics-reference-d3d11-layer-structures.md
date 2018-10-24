@@ -4,8 +4,6 @@ description: This section contains information about the layer structures.
 ms.assetid: 65f0830f-f009-47fb-b04e-24790e677338
 keywords:
 - structures, Direct3D 11 Layer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

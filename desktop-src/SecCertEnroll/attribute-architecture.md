@@ -2,8 +2,6 @@
 Description: Used to add attributes to a certificate request.
 ms.assetid: 7007c751-f1a4-4ddc-a66e-d3edefc6ed97
 title: Attribute Architecture
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

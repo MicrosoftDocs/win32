@@ -2,8 +2,6 @@
 Description: Indicates if the stylus is upside down.
 ms.assetid: 04b05287-000d-455f-88e5-821c7fdb8119
 title: ITabletCursor::IsInverted method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

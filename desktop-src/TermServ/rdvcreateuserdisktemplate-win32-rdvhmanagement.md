@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b8ca8b8c-58fd-44fc-9a88-5d7d41ef96a2
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - RdvCreateUserDiskTemplate method Remote Desktop Services

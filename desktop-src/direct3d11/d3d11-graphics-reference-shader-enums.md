@@ -4,8 +4,6 @@ description: Enumerations are used to specify information about shaders.
 ms.assetid: 068ce652-8596-4492-992c-658d1fcf8a2c
 keywords:
 - enumerations, Direct3D 11 Shader
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

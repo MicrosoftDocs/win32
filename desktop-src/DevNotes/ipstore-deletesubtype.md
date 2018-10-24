@@ -2,8 +2,6 @@
 Description: Deletes a specified subtype from within the specified type.
 ms.assetid: 1c44a609-80af-4e28-b1b5-2b4faea143bd
 title: IPStore::DeleteSubtype method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

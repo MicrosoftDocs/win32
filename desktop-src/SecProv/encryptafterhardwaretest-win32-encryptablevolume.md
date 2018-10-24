@@ -2,8 +2,6 @@
 Description: Begins encryption of a fully decrypted operating system volume after a hardware test.
 ms.assetid: 216c96bb-7737-4421-8b16-1ce295342266
 title: EncryptAfterHardwareTest method of the Win32_EncryptableVolume class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

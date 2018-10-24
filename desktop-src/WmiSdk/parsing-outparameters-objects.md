@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: fc06d6a1-770a-4f34-affd-f5035dad9360
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Parsing OutParameters Objects
 ms.author: windowssdkdev

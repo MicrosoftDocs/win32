@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 436aec48-518b-4759-b06a-d23b8e422ca8
 title: System.Sync.ConflictSecondLocation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

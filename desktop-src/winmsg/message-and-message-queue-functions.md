@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 753d1c5b-e824-4fc3-b731-ae9cb16c0e16
 title: Message Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

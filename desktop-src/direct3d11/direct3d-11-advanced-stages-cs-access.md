@@ -2,8 +2,6 @@
 title: Accessing Resources
 description: There are several ways to access resources.
 ms.assetid: 83950c4d-5df2-4ed1-9d8f-222a62791c18
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

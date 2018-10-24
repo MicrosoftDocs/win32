@@ -2,8 +2,6 @@
 Description: In a client/server application protocol, a server binds to a communication port such as a socket or an RPC interface.
 ms.assetid: 176d4ca5-83dd-42ef-b116-227d4badc0dd
 title: Establishing a Secure Connection with Authentication
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

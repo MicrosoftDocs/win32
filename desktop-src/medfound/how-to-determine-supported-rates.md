@@ -2,8 +2,6 @@
 Description: How to Determine Supported Rates
 ms.assetid: 7f2b64e1-1062-4f77-b8e0-62b6d962ae8b
 title: How to Determine Supported Rates
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

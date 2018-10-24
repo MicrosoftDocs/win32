@@ -2,8 +2,6 @@
 Description: Package authors can reduce the size of their installation packages by compressing the source files and including them in cabinet files. The source file image can be compressed, uncompressed, or a mixture of both types.
 ms.assetid: e84c52ca-a1c4-4c81-9c24-31ea435054db
 title: Compressed and Uncompressed Sources
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

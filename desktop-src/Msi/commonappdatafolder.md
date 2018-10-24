@@ -2,8 +2,6 @@
 Description: The CommonAppDataFolder property is the full path to the file directory containing application data for all users.
 ms.assetid: 4fc6e56a-20e7-4dd6-827b-ebb66c04a2b4
 title: CommonAppDataFolder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

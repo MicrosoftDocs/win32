@@ -2,8 +2,6 @@
 Description: The Network Share Management structures can be grouped as follows.
 ms.assetid: 15b004de-1e8a-4bea-8e3d-28885f321126
 title: Network Share Management Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

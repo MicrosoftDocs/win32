@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 30e77956-8428-4259-9218-b93f143fd987
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Managed Reference for WMI Windows PowerShell Command Classes
 ms.author: windowssdkdev

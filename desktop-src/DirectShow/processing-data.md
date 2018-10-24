@@ -2,8 +2,6 @@
 Description: Processing Data
 ms.assetid: 823615df-ce50-4e20-957a-f83d3be66658
 title: Processing Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

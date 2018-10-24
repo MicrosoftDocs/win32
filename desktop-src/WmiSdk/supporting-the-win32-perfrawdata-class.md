@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 04abb2f9-800f-497a-ac8f-8ef210746273
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Supporting the Win32_PerfRawData Class
 ms.author: windowssdkdev

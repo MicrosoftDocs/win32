@@ -2,8 +2,6 @@
 title: Structures
 description: This section contains information about the following Direct3D HLSL compiler structures
 ms.assetid: 1439305e-5620-40f9-a6cb-17eed6689b29
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

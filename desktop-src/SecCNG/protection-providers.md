@@ -2,8 +2,6 @@
 Description: Beginning with Windows 8, Microsoft began distributing the providers that enable you to securely share encrypted secrets and messages across computers.
 ms.assetid: C2E62DD2-8316-407B-B879-2617873F8409
 title: Protection Providers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d11e00e0-a163-49ea-b8ef-e3909a7dc83f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PreviousSettingData class
 ms.author: windowssdkdev

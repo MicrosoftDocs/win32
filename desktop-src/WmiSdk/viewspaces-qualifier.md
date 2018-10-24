@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 15d71bb6-842d-4f5a-b2e3-e9f60f0aea3b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ViewSpaces Qualifier
 ms.author: windowssdkdev

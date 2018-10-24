@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a7d9d1c0-9386-4c90-9788-993b35ed12db
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing a Qualifier with a Qualifier Flavor
 ms.author: windowssdkdev

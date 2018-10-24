@@ -2,8 +2,6 @@
 Description: ICE19 validates that advertised components reference a file in the KeyPath column of the Component table and that an advertised shortcut references a directory in this column.
 ms.assetid: 438153c1-bc4b-4ecf-ab85-d66ad69c987c
 title: ICE19
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

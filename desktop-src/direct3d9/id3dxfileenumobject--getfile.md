@@ -2,8 +2,6 @@
 Description: Retrieves the ID3DXFile object.
 ms.assetid: 832878c6-73a4-400a-af30-57112b172977
 title: ID3DXFileEnumObject::GetFile method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

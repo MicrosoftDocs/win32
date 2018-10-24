@@ -2,8 +2,6 @@
 Description: IUserIdentityManager::Logon is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: ba146ee1-6c9c-4f97-ae90-431aa084ea16
 title: IUserIdentityManager::Logon method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

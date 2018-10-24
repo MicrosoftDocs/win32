@@ -2,8 +2,6 @@
 Description: The Installer sets the MsiUISourceResOnly property to 1 when the internal install level has been set to include INSTALLUILEVEL\_SOURCERESONLY with the MsiSetInternalUI function or the UILevel property of the Installer object.
 ms.assetid: 2b7ea11c-ade5-40f6-9ada-cd13296844ac
 title: MsiUISourceResOnly property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

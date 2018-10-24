@@ -12,8 +12,6 @@ keywords:
 - ACM (audio compression manager),selecting format for saving
 - ACM examples,selecting format for saving
 - selecting format for saving
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

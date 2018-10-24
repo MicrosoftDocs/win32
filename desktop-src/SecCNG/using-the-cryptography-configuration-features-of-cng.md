@@ -2,8 +2,6 @@
 Description: Provides functions to enumerate and obtain information about registered providers.
 ms.assetid: 5b07060e-0c66-4bf2-b697-05231cb38375
 title: Using the Cryptography Configuration Features of CNG
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A job object allows groups of processes to be managed as a unit. Job objects are namable, securable, sharable objects that control attributes of the processes associated with them.
 ms.assetid: 59296384-5e78-44dd-8019-f1df6668928b
 title: Job Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

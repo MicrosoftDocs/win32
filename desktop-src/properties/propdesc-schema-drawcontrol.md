@@ -2,8 +2,6 @@
 Description: Specifies what control to use when simply displaying the property.
 ms.assetid: 0fb8afc4-d16b-4c2e-80b3-da9935b11bb5
 title: drawControl
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

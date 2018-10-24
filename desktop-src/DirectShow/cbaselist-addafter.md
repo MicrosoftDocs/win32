@@ -2,8 +2,6 @@
 Description: The AddAfter method inserts a list after the specified position.
 ms.assetid: c2a2e599-0a83-4eb0-aceb-c483f153ba7e
 title: CBaseList.AddAfter method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

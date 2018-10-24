@@ -2,8 +2,6 @@
 title: How to Create Rebar Controls
 description: An application creates a rebar control by calling the CreateWindowEx function, specifying REBARCLASSNAME as the window class.
 ms.assetid: F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

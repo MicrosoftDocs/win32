@@ -8,8 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),ID3 support
 - metadata,ID3
 - ID3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

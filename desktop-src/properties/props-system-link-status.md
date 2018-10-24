@@ -2,8 +2,6 @@
 Description: Specifies whether the link path in System.Link.TargetParsingPath is verified.
 ms.assetid: 38c73501-6376-41bb-8ad0-8f94ad42dfc9
 title: System.Link.Status
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

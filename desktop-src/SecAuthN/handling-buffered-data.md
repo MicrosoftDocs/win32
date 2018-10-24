@@ -2,8 +2,6 @@
 Description: Several of the network provider functions take the address and size of a buffer into which the function places a variable-sized data structure.
 ms.assetid: 0029a04d-6cf2-40e1-ae1d-4c349a379ad7
 title: Handling Buffered Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

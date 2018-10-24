@@ -2,8 +2,6 @@
 title: Top Tools and Techniques for Making More Robust Windows Games
 description: This articles describes tools and techniques that you can use to help reduce the number of support calls you receive.
 ms.assetid: ad3d100c-4f87-f1e4-3242-8b2052ba171d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

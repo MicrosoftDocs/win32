@@ -2,8 +2,6 @@
 Description: The following code is the Simplec.c file, which is an IPv4-only Windows Sockets client (an IPv6 enabled version of the Simplec.c file can be found in Appendix B).
 ms.assetid: 32a11b37-c2e9-455b-8359-92186d3801d1
 title: IPv4-only Client Code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

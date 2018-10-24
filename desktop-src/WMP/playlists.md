@@ -14,8 +14,6 @@ keywords:
 - Windows Media metafile playlists,migration
 - metafile playlists,migration
 - migration guide,playlists
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

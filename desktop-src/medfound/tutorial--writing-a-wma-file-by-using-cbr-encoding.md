@@ -2,8 +2,6 @@
 Description: This tutorial demonstrates writing a new audio file (.wma) by extracting media content from an uncompressed audio file (.wav) and then compressing it in ASF format.
 ms.assetid: f310c6ed-52e7-4828-9d4c-2f7ced9080c5
 title: 'Tutorial: Writing a WMA File by Using WMContainer Objects'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

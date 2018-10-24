@@ -2,8 +2,6 @@
 Description: Names of the all the optional attendees.
 ms.assetid: ffbf3f0c-52eb-49ab-89b2-cedf1eaa14e2
 title: System.Calendar.OptionalAttendeeNames
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

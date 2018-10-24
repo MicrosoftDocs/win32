@@ -2,8 +2,6 @@
 Description: 'With Direct3D 10, effect state for certain pipeline stages is organized by the following structures:'
 ms.assetid: 674ed278-102c-43da-a6bf-58e084df151e
 title: Organizing State in an Effect (Direct3D 10)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

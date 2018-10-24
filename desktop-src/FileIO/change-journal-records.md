@@ -2,8 +2,6 @@
 Description: As files, directories, and other NTFS file system objects are added, deleted, and modified, the NTFS file system enters change journal records in streams, one for each volume on the computer.
 ms.assetid: c41aa3a8-c8d8-4bf2-9bbb-d6a6a556c5e4
 title: Change Journal Records
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

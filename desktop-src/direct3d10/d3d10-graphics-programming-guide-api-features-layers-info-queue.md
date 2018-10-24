@@ -2,8 +2,6 @@
 Description: Customize Debug Output with ID3D10InfoQueue (Direct3D 10)
 ms.assetid: 082c7783-c53a-4b73-b8f2-3f60e2c2689a
 title: Customize Debug Output with ID3D10InfoQueue (Direct3D 10)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

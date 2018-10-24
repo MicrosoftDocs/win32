@@ -2,8 +2,6 @@
 title: Use Natural Variation
 description: Use Natural Variation
 ms.assetid: 5d5750e4-cf30-43dc-9419-7e6bbdb9aa5a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

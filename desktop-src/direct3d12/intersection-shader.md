@@ -2,8 +2,6 @@
 Description: A shader that is used to implement custom intersection primitives for rays intersecting an associated bounding volume (bounding box).    
 ms.assetid: 
 title: Intersection Shader
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

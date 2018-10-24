@@ -1,8 +1,6 @@
 ---
 Description: Creates a dialog box that enables the user to select a folder and then returns the selected folder's Folder object.
 title: Shell.BrowseForFolder method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

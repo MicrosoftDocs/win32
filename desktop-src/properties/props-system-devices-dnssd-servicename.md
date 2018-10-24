@@ -2,8 +2,6 @@
 Description: Service type portion of DNS-SD service instance name. (e.g. &\#0034;\_http.\_tcp&\#0034; in &\#0034;myservice.\_http.\_tcp.local&\#0034;).
 ms.assetid: bf866768-c393-44dd-8d9d-04b6777d56f1
 title: System.Devices.Dnssd.ServiceName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

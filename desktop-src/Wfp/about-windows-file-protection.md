@@ -2,8 +2,6 @@
 Description: Windows Resource Protection (WRP) prevents the replacement of essential system files, folders, and registry keys that are installed as part of the operating system.
 ms.assetid: 39069f57-d9f6-4890-ba87-37175184d7a2
 title: About Windows Resource Protection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

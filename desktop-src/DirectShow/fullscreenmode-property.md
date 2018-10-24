@@ -2,8 +2,6 @@
 Description: The FullScreenMode property sets or retrieves a value indicating whether the display is in full-screen mode.
 ms.assetid: e4682f50-080c-4f38-b2ca-ce4ca6b746d7
 title: FullScreenMode Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

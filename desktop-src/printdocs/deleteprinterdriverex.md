@@ -2,8 +2,6 @@
 Description: The DeletePrinterDriverEx function removes the specified printer-driver name from the list of names of supported drivers on a server and deletes the files associated with the driver. This function can also delete specific versions of the driver.
 ms.assetid: 1a3d7c7f-1d45-4877-a8f7-a77f40e3c319
 title: DeletePrinterDriverEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

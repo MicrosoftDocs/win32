@@ -2,8 +2,6 @@
 Description: 'Feature Completeness: Recommended Interfaces'
 ms.assetid: 759bf253-7450-4895-a550-9f81f3498f79
 title: 'Feature Completeness: Recommended Interfaces'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

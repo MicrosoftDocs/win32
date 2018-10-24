@@ -1,8 +1,6 @@
 ---
 Description: Configuration information that can be retained for each user is saved in user profiles.
 title: User Profiles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

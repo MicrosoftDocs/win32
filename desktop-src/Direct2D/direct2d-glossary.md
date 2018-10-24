@@ -3,8 +3,6 @@ title: Direct2D Glossary
 description: Describes terms commonly used by the Direct2D documentation.
 Robots: noindex, nofollow
 ms.assetid: 2e884390-56e4-45ae-b1c9-c58503d6f2dd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

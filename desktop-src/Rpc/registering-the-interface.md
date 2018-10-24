@@ -4,8 +4,6 @@ description: Registering the interface that a server program supports enables re
 ms.assetid: 953185a7-00e6-442d-b474-a983f4a91c38
 keywords:
 - Remote Procedure Call RPC , tasks, registering the interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

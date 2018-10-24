@@ -2,8 +2,6 @@
 Description: The IAzApplication3 interface exposes the following methods.
 ms.assetid: ACC5625A-4312-4C2A-9014-D4A4DA5B0547
 title: IAzApplication3 Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

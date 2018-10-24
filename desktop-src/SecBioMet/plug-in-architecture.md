@@ -2,8 +2,6 @@
 title: Plug-in architecture
 description: Biometric units expose the capabilities of a device to the framework through a standard interface that consists of sensor, engine, and storage adapters.
 ms.assetid: d2835413-70a3-45fa-93e2-3fe78097554f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

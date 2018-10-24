@@ -2,8 +2,6 @@
 Description: Initializes IME Share.
 ms.assetid: 7f58564e-d660-4936-b74c-af4eb93e2442
 title: FInitIMEShare function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

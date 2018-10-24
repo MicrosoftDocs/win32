@@ -2,8 +2,6 @@
 Description: This section contains Structures belonging to the InkEdit Control.
 ms.assetid: 96a4d77a-ad9c-40bb-a4c0-eb4ca77cac4e
 title: InkEdit Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

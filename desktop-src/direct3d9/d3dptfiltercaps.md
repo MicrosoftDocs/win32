@@ -2,8 +2,6 @@
 Description: Texture filtering constants.
 ms.assetid: 4434e456-670e-46a9-ba78-affdc195fe1c
 title: D3DPTFILTERCAPS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

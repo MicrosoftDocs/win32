@@ -2,8 +2,6 @@
 Description: Not implemented.
 ms.assetid: 014dd9b8-bcfc-4fe0-b0a4-580a253ae6db
 title: IRenderEngine::Decommit method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

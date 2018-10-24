@@ -2,8 +2,6 @@
 Description: The CPullPin class provides support for input pins that pull data through the IAsyncReader interface.
 ms.assetid: 33a6c342-3896-41f8-b32d-01db3eed003e
 title: CPullPin class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

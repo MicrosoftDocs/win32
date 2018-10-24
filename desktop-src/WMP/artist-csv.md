@@ -7,8 +7,6 @@ keywords:
 - online stores,artist.csv
 - type 1 online stores,artist.csv
 - artist.csv
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

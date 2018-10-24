@@ -2,8 +2,6 @@
 title: Transmit_as and Represent_as
 description: Transmit\_as and represent\_as share the same layout except for the leading token; the token reads FC\_TRANSMIT\_AS or FC\_REPRESENT\_AS, but the underlying code is common.
 ms.assetid: 70fbb4bf-0892-4c26-9790-9fc21ff8c0dd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

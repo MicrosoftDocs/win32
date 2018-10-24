@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: c55647d8-0e6e-4da5-a822-3a91fba179ea
 title: System.Media.SubscriptionContentId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

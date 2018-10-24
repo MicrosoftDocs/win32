@@ -2,8 +2,6 @@
 title: Rotation Attribute (Lock)(VML)
 description: Rotation Attribute (Lock)(VML)
 ms.assetid: eed5388e-9e05-473c-9213-af63473deaaa
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

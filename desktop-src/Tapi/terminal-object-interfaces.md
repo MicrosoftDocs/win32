@@ -2,8 +2,6 @@
 Description: The Terminal Object interfaces give an application access to manipulate devices used to create or receive media streams.
 ms.assetid: 08320d1c-1400-4746-b526-74b0789c5fc0
 title: Terminal Object Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

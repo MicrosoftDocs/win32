@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.GPS.DestBearing property.
 ms.assetid: ccc31b3d-27fd-4a8c-a304-852cf6114ec5
 title: System.GPS.DestBearing Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

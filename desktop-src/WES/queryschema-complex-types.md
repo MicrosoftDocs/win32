@@ -2,8 +2,6 @@
 title: Query Schema Complex Types
 description: The following are the complex types that the Query schema defines.
 ms.assetid: c18f5293-5945-4ebf-a1b2-ea99f0503f6d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

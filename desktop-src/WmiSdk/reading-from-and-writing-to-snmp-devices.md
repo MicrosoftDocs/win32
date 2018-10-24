@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: af5e1321-b552-447e-a217-eecbebe1f203
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Reading from and Writing to SNMP Devices
 ms.author: windowssdkdev

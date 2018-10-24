@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4ae0a734-39b0-4418-b55c-6d8f093806a8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Choosing Between SNMP Event Providers
 ms.author: windowssdkdev

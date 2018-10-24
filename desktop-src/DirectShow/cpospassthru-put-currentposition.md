@@ -2,8 +2,6 @@
 Description: The put\_CurrentPosition method sets the current position, relative to the total duration of the stream. This method implements the IMediaPosition::put\_CurrentPosition method.
 ms.assetid: 22d7e9e4-47da-45b5-9be0-3c5128f90353
 title: CPosPassThru.put_CurrentPosition method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

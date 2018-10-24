@@ -2,8 +2,6 @@
 Description: The code sample later in this topic shows how to send printer control data directly to printers that use GDI-based printer drivers.
 ms.assetid: 321f2333-d88e-4042-b9b1-0d918b3209d4
 title: 'How To: Send Data Directly to a GDI Printer'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

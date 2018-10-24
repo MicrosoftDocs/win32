@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 8800ba76-f24c-4aa7-ba31-97eaf884130c
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Windows Sockets Registration and Resolution AD , Example Code, Implementing a Winsock Service with an RnR Publication

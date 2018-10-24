@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 63f4f6c5-7803-425d-912f-bb1dd716e617
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Class Instance Support for 64-Bit Values
 ms.author: windowssdkdev

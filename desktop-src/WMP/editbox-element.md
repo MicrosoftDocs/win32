@@ -8,8 +8,6 @@ keywords:
 - EDITBOX element
 - reference for skins,EDITBOX element
 - elements,EDITBOX
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

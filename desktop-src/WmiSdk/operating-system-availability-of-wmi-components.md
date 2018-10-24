@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f92bdea1-4226-4b80-b723-fba984570aa7
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Operating System Availability of WMI Components
 ms.author: windowssdkdev

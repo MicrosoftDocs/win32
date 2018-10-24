@@ -2,8 +2,6 @@
 Description: The System Error Codes are very broad.
 ms.assetid: bb3c658d-96db-495a-a0dc-e93949c3835d
 title: System Error Codes (12000-15999)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

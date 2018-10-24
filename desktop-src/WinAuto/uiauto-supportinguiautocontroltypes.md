@@ -8,8 +8,6 @@ keywords:
 - support for control type
 - control types,support
 - control types,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

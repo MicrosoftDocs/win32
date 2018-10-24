@@ -2,8 +2,6 @@
 Description: Specifies whether denied networks appear in the Connect to a Network wizard.
 ms.assetid: d0a13a80-2532-4383-8946-2536cc1f5e12
 title: showDeniedNetwork (globalFlags) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

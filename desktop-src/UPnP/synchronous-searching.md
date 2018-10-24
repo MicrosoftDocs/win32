@@ -2,8 +2,6 @@
 title: Synchronous Searching
 description: The Device Finder object enables both synchronous and asynchronous searches. Synchronous searches are completed and return control to the calling application only after all available devices are found.
 ms.assetid: 'fa22cd53-6468-4958-b4e3-b1a41b3cb2f6'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

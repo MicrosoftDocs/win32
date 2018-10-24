@@ -2,8 +2,6 @@
 title: Contrast Effect
 description: Increases or decreases the contrast of an image.
 ms.assetid: c0cc0f86-f6d4-e951-0cdd-dbad488e0793
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

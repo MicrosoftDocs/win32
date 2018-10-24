@@ -2,8 +2,6 @@
 Description: Turns off automatic subclassing.
 ms.assetid: 85e5689f-6805-4aad-b97c-aa496e315900
 title: Ctl3dUnAutoSubclass function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

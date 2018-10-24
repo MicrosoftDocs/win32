@@ -2,8 +2,6 @@
 Description: Gets a list of uncompressed pixel formats that can be rendered using a specified DirectX Video Acceleration (DXVA) profile.
 ms.assetid: 7c69ea5f-6054-4430-95b5-820db6854fc0
 title: IDirect3DVideoDevice9::GetUncompressedDXVAFormats method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

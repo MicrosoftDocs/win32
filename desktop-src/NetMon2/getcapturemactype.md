@@ -2,8 +2,6 @@
 Description: The GetCaptureMacType function returns the MAC type of a given capture.
 ms.assetid: de0dfb36-df3a-4f6e-b266-09c81dfdc88b
 title: GetCaptureMacType function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

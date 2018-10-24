@@ -2,8 +2,6 @@
 Description: The following example shows an encrypted message being received and decrypted.
 ms.assetid: 4858a43b-3084-4a03-8b6f-4a788cdb3dd5
 title: Decrypting a Message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

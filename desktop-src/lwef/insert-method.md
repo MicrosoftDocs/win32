@@ -2,8 +2,6 @@
 title: Insert Method
 description: Insert Method
 ms.assetid: d58cfe50-ace7-4b0f-8539-c2e13a180c96
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

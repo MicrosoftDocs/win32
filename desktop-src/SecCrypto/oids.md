@@ -2,8 +2,6 @@
 Description: Represents a collection of OID objects.
 ms.assetid: 2c4ff87a-58e1-46aa-9680-29062b05308c
 title: OIDs object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

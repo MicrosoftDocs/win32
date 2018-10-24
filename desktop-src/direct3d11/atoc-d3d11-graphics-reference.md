@@ -2,8 +2,6 @@
 title: Direct3D 11 Reference
 description: This section contains the reference pages for Direct3D 11-based graphics programming.
 ms.assetid: cbab1a44-3a79-4b55-94f4-48ad4761cf38
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

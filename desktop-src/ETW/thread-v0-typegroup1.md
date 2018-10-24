@@ -2,8 +2,6 @@
 Description: This class is the event type class for thread events. The following syntax is simplified from MOF code.
 ms.assetid: cc668fef-48fe-4948-8fe5-4351f7a033d1
 title: Thread_V0_TypeGroup1 class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

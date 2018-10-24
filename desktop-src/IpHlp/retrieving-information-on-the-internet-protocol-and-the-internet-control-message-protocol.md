@@ -2,8 +2,6 @@
 Description: IP Helper provides information retrieval capabilities that are useful for the network administration of the local computer.
 ms.assetid: b50b3927-6c74-4282-b79b-c86d72d93ae3
 title: Retrieving Information on the Internet Protocol and the Internet Control Message Protocol
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

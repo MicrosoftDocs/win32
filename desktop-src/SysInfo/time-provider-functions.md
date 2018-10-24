@@ -2,8 +2,6 @@
 Description: The following functions are used by time providers.
 ms.assetid: 05687a67-4e0b-4a44-9c2d-7e097be9008c
 title: Time Provider Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

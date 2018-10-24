@@ -2,8 +2,6 @@
 title: Schannel
 description: The Secure Channel (Schannel) security package, whose authentication service identifier is RPC\_C\_AUTHN\_GSS\_SCHANNEL, supports the following public-keyâ€“based protocols SSL (Secure Sockets Layer) versions 2.0 and 3.0, Transport Layer Security (TLS) 1.0, and Private Communication Technology (PCT) 1.0. TLS 1.0 is a standardized, slightly modified version of SSL 3.0 that was issued by the Internet Engineering Task Force (IETF) in January 1999, in document RFC 2246. Because TLS has been standardized, developers are encouraged to use TLS rather than SSL. PCT is included for backward compatibility only and should not be used for new development. When the Schannel security package is used, DCOM automatically negotiates the best protocol, depending on the client and server capabilities.
 ms.assetid: 03a5f987-f668-4f19-9b58-d62711f58734
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

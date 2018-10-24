@@ -2,8 +2,6 @@
 Description: Retrieve font characteristics.
 ms.assetid: ef7e0d18-492b-476b-945a-bfc0232a939a
 title: ID3DX10Font::GetTextMetrics method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

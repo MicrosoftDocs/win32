@@ -2,8 +2,6 @@
 title: Constructing a function-linking-graph and linking it to compiled code
 description: Here we show you how to construct function-linking-graphs (FLGs) for shaders and how to link those shaders with a shader library to produce shader blobs that the Direct3D runtime can use.
 ms.assetid: 82C3109E-8571-49D2-A8BF-298E30E1281B
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

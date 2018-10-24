@@ -2,8 +2,6 @@
 title: Appendix C IAccessible DISPIDs
 description: A DISPID allows the implementation of the IDispatch to look up the various methods and properties of a dual interface.
 ms.assetid: 3d19b37a-1ce4-4f34-96b3-ff39b320e8db
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

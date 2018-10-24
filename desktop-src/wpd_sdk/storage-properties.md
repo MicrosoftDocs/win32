@@ -2,8 +2,6 @@
 Description: Windows Portable Devices supports the following storage properties.
 ms.assetid: 234078c3-e703-41f3-9b18-ae61d8a36784
 title: Storage Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

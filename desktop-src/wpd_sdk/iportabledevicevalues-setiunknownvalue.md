@@ -2,8 +2,6 @@
 Description: The SetIUnknownValue method adds a new IUnknown value (type VT\_UNKNOWN) or overwrites an existing one.
 ms.assetid: 292adf45-439c-4aae-9b17-e4d9ed701eda
 title: IPortableDeviceValues::SetIUnknownValue method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

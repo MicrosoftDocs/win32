@@ -2,8 +2,6 @@
 title: uge (sm4 - asm)
 description: Component-wise vector unsigned integer greater-than-or-equal comparison.
 ms.assetid: CA8E19EC-619F-4C19-B6FD-91650B5DAF9F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

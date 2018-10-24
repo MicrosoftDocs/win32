@@ -2,8 +2,6 @@
 title: How to Process ComboBoxEx Notifications
 description: This topic demonstrates how to process ComboBoxEx notification messages.
 ms.assetid: 375634BC-CDD6-4D72-A41E-FCBFCBFE7F03
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The DefaultSubpictureLanguageExt property retrieves the default DVD subpicture language extension.
 ms.assetid: bd437844-6e5c-4237-a968-700a53e18635
 title: DefaultSubpictureLanguageExt Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

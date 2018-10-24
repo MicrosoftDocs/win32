@@ -2,8 +2,6 @@
 title: Making Error Information Available to the User
 description: When a caller receives an error and needs to notify the user of the error, the presence of extended error information should be checked, and if found, the caller should make the resulting information available to the user.
 ms.assetid: 18689280-7124-46e4-9341-ad8d0c1705db
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

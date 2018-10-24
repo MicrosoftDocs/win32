@@ -2,8 +2,6 @@
 Description: Indicates whether or not WsdCodeGen should try to automatically flag certain generated fields as static.
 ms.assetid: 0c858567-e17a-46a0-b3ff-a0dc8089b0cd
 title: autoStatic element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

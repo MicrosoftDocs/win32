@@ -2,8 +2,6 @@
 Description: The GetDisplayFormat method retrieves a video format that describes the current display mode.
 ms.assetid: 98134704-0453-4090-94de-d92cdf324538
 title: CImageDisplay.GetDisplayFormat method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

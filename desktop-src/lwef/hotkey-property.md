@@ -2,8 +2,6 @@
 title: HotKey Property
 description: HotKey Property
 ms.assetid: 76d1fe57-f74c-4bfe-b5e5-1e60ac7ef63c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

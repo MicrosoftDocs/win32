@@ -10,8 +10,6 @@ keywords:
 - Advanced Systems Format (ASF),priority order for streams
 - ASF (Advanced Systems Format),priority order for streams
 - streams,prioritization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

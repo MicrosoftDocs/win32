@@ -2,8 +2,6 @@
 Description: The DRIVER\_INFO\_2 structure identifies a printer driver, the driver version number, the environment for which the driver was written, the name of the file in which the driver is stored, and so on.
 ms.assetid: cca1227d-69b9-44df-8dac-384c2f8843ae
 title: DRIVER_INFO_2 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

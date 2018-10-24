@@ -2,8 +2,6 @@
 Description: Beginning in Windows 10, CNG provides pre-defined algorithm handles for many algorithms. You can use these handles in any situation that requires an algorithm handle.
 ms.assetid: AF58F393-895C-4241-B423-BBADA9B1AE41
 title: CNG Algorithm Pseudo-handles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

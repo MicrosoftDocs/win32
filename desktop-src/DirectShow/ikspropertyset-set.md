@@ -2,8 +2,6 @@
 Description: The Set method sets a property identified by a property set GUID and a property ID.
 ms.assetid: 78f506dc-7fb4-446d-863e-cffee9da5280
 title: IKsPropertySet::Set method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

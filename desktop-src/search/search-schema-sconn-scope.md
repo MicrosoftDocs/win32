@@ -2,8 +2,6 @@
 Description: The optional <scope> element specifies a collection of <scopeItem> elements that define the scope inclusions and exclusions for this particular search connector.
 ms.assetid: 9e92e3db-3d5e-4f86-8d67-90eb5469b04b
 title: scope Element (Search Connector Schema)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

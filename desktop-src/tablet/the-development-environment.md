@@ -2,8 +2,6 @@
 Description: You do not need a Tablet PC to develop Tablet PC applications, but you do need a personal computer capable of running the software listed later in this topic.
 ms.assetid: 82034950-78a7-4bab-b449-1b8ea7d90676
 title: The Development Environment
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

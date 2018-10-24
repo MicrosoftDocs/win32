@@ -9,8 +9,6 @@ keywords:
 - Windows Touch,zoom support
 - Windows Touch,legacy support
 - Windows Touch,RealTimeStylus plug-in
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

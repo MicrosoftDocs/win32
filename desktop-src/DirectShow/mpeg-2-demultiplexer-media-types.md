@@ -2,8 +2,6 @@
 Description: MPEG-2 Demultiplexer Media Types
 ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: MPEG-2 Demultiplexer Media Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Glyph Icon Path.
 ms.assetid: 114dbfa2-7a83-4666-b4ad-6563fb8efaaa
 title: System.Devices.GlyphIcon
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

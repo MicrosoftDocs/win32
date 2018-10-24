@@ -2,8 +2,6 @@
 Description: The following operators are exposed by the XMVECTORI32 structure.
 ms.assetid: cab788bf-6c2e-49bb-9a6d-92cbad2f7a64
 title: XMVECTORI32 Operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

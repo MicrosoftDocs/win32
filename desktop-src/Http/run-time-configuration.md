@@ -2,8 +2,6 @@
 title: Run-Time Configuration
 description: The HTTP API enables applications to perform dynamic configuration at run time.
 ms.assetid: 5118b48b-b44c-4cf5-9754-ce23c5a0b87e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

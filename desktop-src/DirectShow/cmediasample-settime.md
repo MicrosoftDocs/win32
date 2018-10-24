@@ -2,8 +2,6 @@
 Description: The SetTime method sets the stream times when this sample should begin and finish. This method implements the IMediaSample::SetTime method.
 ms.assetid: cab4907f-eb6f-4444-9b41-1f95a6ecffed
 title: CMediaSample.SetTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

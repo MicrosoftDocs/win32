@@ -2,8 +2,6 @@
 Description: Instantiating Codec DMOs
 ms.assetid: e031d0d4-dd70-409e-8a2e-5a1433fe909e
 title: Instantiating Codec DMOs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

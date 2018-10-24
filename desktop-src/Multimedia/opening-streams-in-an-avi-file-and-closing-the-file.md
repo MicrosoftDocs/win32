@@ -4,8 +4,6 @@ description: Opening Streams in an AVI File and Closing the File
 ms.assetid: 3c6afa04-3d95-48cd-b468-7167bac07d46
 keywords:
 - AVIFileGetStream function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

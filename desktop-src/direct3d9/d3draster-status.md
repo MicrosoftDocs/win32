@@ -2,8 +2,6 @@
 Description: Describes the raster status.
 ms.assetid: f7b5b714-8fc8-47b8-adec-1089b8d07081
 title: D3DRASTER_STATUS structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

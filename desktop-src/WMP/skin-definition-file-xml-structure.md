@@ -9,8 +9,6 @@ keywords:
 - files for skins,skin definition
 - skin definition files,XML structure
 - XML structure for skin definition files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

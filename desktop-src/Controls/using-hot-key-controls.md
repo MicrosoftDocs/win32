@@ -2,8 +2,6 @@
 title: Using Hot Key Controls
 description: This section contains example code and information about how to use hot key controls.
 ms.assetid: B241D032-FDC6-4410-9AB1-9D50AE96F1D0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

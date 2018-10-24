@@ -2,8 +2,6 @@
 Description: Extracts the per-sample cluster IDs from an ID3DXPRTCompBuffer compressed data buffer.
 ms.assetid: d78d82ab-58bc-4b73-9ca0-8b7f06867618
 title: ID3DXPRTCompBuffer::ExtractClusterIDs method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.Photo.LensManufacturer property.
 ms.assetid: ee25da96-982f-475e-8957-e24ef7721b78
 title: System.Photo.LensManufacturer Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

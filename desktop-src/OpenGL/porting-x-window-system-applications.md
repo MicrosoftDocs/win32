@@ -6,8 +6,6 @@ keywords:
 - OpenGL on Windows,porting
 - porting to OpenGL,X Window System
 - OpenGL porting,X Window System
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

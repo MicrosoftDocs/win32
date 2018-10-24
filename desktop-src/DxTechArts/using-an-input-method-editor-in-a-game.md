@@ -2,8 +2,6 @@
 title: Using an Input Method Editor in a Game
 description: This article explains how you can implement a basic IME edit control in a full-screen Microsoft DirectX application.
 ms.assetid: 760ed960-08a3-e967-282e-7fbdbaeb7a4d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

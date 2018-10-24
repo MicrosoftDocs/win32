@@ -2,8 +2,6 @@
 Description: Represents the port bandwidth feature status data.
 ms.assetid: 1f7be0dd-3d2f-49ef-aff0-cb162389194a
 title: Msvm_EthernetSwitchPortBandwidthData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

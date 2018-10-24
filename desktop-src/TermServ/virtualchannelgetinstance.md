@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: B81BD61E-1F43-42C9-8839-30F4F4C3973C
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - VirtualChannelGetInstance entry point Remote Desktop Services

@@ -2,8 +2,6 @@
 Description: The Language property of the Session object is a read-only property that represents the numeric language ID used by the current install session.
 ms.assetid: 46e74998-bcbe-440d-9278-d9ed8eb475e7
 title: Session.Language property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

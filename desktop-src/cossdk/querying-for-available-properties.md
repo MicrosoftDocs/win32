@@ -2,8 +2,6 @@
 Description: Querying for Available Properties
 ms.assetid: 9acf10cd-19a8-4542-8078-3e4ee275d4d5
 title: Querying for Available Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

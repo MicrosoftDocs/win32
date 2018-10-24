@@ -2,8 +2,6 @@
 Description: Use CertMgr to view certificates, CRLs, and CTLs from a file or a certificate store, to copy certificates into a certificate store, to delete certificates from a certificate store, and to save certificates to files.
 ms.assetid: cc2424bf-e7ea-4484-9934-3aba02b63492
 title: Using CertMgr
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

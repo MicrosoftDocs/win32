@@ -2,8 +2,6 @@
 Description: Determines if a locale specified by name is installed or supported on the operating system.
 ms.assetid: 6df92e4d-d78e-48b5-9515-18f0497de95b
 title: RtlIsValidLocaleName function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

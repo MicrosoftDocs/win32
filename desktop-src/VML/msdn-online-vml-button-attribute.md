@@ -2,8 +2,6 @@
 title: VML Button Attribute
 description: VML Button Attribute
 ms.assetid: 273024ac-683f-48d2-b6a0-574824f4c05d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

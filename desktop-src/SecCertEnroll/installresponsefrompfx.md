@@ -2,8 +2,6 @@
 Description: Installs an enrolled certificate from a Personal Information Exchange (PFX) file to the certificate store.
 ms.assetid: f42379d0-b80e-4d95-ab34-9bb35fde06fd
 title: installResponseFromPFX
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

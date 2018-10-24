@@ -2,8 +2,6 @@
 Description: The MXDC\_PRINTTICKET\_DATA\_T structure holds an XPS document print ticket, which contains printer and print job settings, to pass to the Microsoft XPS Document Converter (MXDC) output file without any processing.
 ms.assetid: d30ba8bb-f429-49d5-963c-b770c3086e97
 title: MXDC_PRINTTICKET_DATA_T structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

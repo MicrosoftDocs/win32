@@ -2,8 +2,6 @@
 title: Connection Manager
 description: Customers who intend to develop custom dialers using the Remote Access Service API may want to investigate Microsoft Connection Manager and the Connection Manager Administration Kit.
 ms.assetid: c3227aea-ba36-44f6-b69d-2c6aa4be360e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

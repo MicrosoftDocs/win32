@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 20ef6b88-2aaa-4e86-bc4a-bebc34069672
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Designing Managed Object Format (MOF) Classes
 ms.author: windowssdkdev

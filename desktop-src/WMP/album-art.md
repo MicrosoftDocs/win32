@@ -8,8 +8,6 @@ keywords:
 - reference for skins,album art
 - art files for skins,album art
 - album art in skins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Starts the service.
 ms.assetid: 8ac863bc-d8a0-40dc-a4b6-1067045887d8
 title: StartService method of the Msvm_MetricService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: ld_uav_typed (sm5 - asm)
 description: Random-access read of an element from a typed unordered access view (UAV).
 ms.assetid: E5E03311-3596-4497-9271-FE6445DBFC62
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

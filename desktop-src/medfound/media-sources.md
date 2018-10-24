@@ -2,8 +2,6 @@
 Description: Media Sources
 ms.assetid: 65132e7d-22f6-4209-bc58-f5ea86ebd514
 title: Media Sources
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

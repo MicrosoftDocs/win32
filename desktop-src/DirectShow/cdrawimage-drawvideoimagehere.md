@@ -2,8 +2,6 @@
 Description: The DrawVideoImageHere method draws an image from a media sample to a specified device context.
 ms.assetid: b11e1c6b-5a29-444f-a0a9-049cd9d49b13
 title: CDrawImage.DrawVideoImageHere method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 1AF924EA-D827-4563-BD20-4F8C81438E20
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CFrameworkQuery Methods
 ms.author: windowssdkdev

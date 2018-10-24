@@ -2,8 +2,6 @@
 Description: The PHONEHOOKSWITCHDEV\_ bit-flag constants describe various audio I/O devices each with its own hookswitch controllable from the computer.
 ms.assetid: b3272a75-87b0-4afc-b2e2-2d65e4b49300
 title: PHONEHOOKSWITCHDEV_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

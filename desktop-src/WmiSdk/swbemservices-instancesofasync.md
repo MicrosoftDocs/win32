@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 631cd749-9a39-4606-9a38-0b4bb5b4b2cd
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemServices.InstancesOfAsync method
 ms.author: windowssdkdev

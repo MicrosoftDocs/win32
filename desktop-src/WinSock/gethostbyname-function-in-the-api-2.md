@@ -2,8 +2,6 @@
 Description: Gethostbyname function in the Winsock API.
 ms.assetid: 015637ed-7a3e-49eb-96ef-8fe82d2902f5
 title: gethostbyname Function in the API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

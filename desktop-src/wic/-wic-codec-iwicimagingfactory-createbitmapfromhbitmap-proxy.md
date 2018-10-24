@@ -2,8 +2,6 @@
 Description: Proxy function for the CreateBitmapFromHBITMAP method.
 ms.assetid: e4e9a6b4-00d9-4f87-aeec-f2c02c3f44ab
 title: IWICImagingFactory_CreateBitmapFromHBITMAP_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

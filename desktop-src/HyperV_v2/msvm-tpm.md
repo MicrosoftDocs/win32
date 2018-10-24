@@ -2,8 +2,6 @@
 Description: Represents the state of the TPM device.
 ms.assetid: 74f43334-a578-4288-b5d7-83423d8af15f
 title: Msvm_TPM class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

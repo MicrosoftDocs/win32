@@ -2,8 +2,6 @@
 Description: The userdata attribute specifies application-defined persistent data for an object.
 ms.assetid: 7f1390be-93d4-440f-8b46-57a6a3e0e2a1
 title: userdata Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

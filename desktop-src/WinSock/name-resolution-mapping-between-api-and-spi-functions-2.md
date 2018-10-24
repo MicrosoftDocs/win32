@@ -2,8 +2,6 @@
 Description: The installation of service classes, registration of service instances and basic query operations all map fairly directly from the API to the SPI.
 ms.assetid: 2ae937f6-e0a6-4a02-9838-0a42575bae66
 title: Name Resolution Mapping Between API and SPI Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

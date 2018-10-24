@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 020a78cc-7f6c-4940-a528-b159f1f34dd3
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: PerfDetail Qualifier
 ms.author: windowssdkdev

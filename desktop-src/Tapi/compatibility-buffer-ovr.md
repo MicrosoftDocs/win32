@@ -2,8 +2,6 @@
 Description: 'The compatibility buffer is specific to the ISDN Q.931 standard. Please refer to your service provider's documentation on the meaning and use of this data.'
 ms.assetid: 'c4c87ca8-fbae-4275-9b69-7b32daf4c18f'
 title: Compatibility Buffer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

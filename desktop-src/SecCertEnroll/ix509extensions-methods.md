@@ -2,8 +2,6 @@
 Description: The IX509Extensions interface exposes the following methods.
 ms.assetid: E2EC33BF-FEA0-4F10-A635-B04B32D2C1AD
 title: IX509Extensions Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

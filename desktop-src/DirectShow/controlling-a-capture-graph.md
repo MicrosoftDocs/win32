@@ -2,8 +2,6 @@
 Description: Controlling a Capture Graph
 ms.assetid: e7afafca-e993-4096-bad4-399ee6c67fe9
 title: Controlling a Capture Graph
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

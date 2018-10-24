@@ -2,8 +2,6 @@
 title: Justification, Kerning, and Spacing
 description: Starting with Windows 8, DirectWrite provides a number of features that allow you to control basic typographic, layout, and spacing features, such as character spacing, pair kerning, and justification.
 ms.assetid: A5397132-0806-4842-8B82-E17925FBBBA9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

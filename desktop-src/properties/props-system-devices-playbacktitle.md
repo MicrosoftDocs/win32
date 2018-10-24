@@ -2,8 +2,6 @@
 Description: The current playback title on the device.
 ms.assetid: 85CCD8E3-BF3C-44D7-91C0-829F0314E7FE
 title: System.Devices.PlaybackTitle
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

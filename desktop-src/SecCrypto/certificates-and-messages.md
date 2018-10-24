@@ -2,8 +2,6 @@
 Description: The base cryptographic functions use certificates, and low-level message functions and simplified message functions also use them. To send or receive messages that incorporate certificates, use low-level message functions.
 ms.assetid: c1fe8783-d687-4843-b79f-6649fab14731
 title: Certificates and Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

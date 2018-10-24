@@ -2,8 +2,6 @@
 Description: Lists the constants used with the CryptEncodeObject and CryptDecodeObject functions.
 ms.assetid: f969f2a5-fcbb-4711-8523-ba22952ae952
 title: Constants for CryptEncodeObject and CryptDecodeObject
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -13,8 +13,6 @@ keywords:
 - type 2 online stores,Info Center View
 - integrating Info Center View
 - Info Center View
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

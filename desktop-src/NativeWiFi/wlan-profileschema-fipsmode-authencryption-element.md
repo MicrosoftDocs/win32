@@ -2,8 +2,6 @@
 Description: Indicates whether Federal Information Processing Standards (FIPS) mode is enabled.
 ms.assetid: 4c62c96c-82e7-4174-b833-95ee10b29344
 title: FIPSMode (authEncryption) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

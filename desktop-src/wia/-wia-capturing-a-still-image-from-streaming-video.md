@@ -2,8 +2,6 @@
 Description: The following example uses the IWiaVideo interface to create a streaming video preview and get a still image from that streaming video. The example assumes that you have a valid handle to a window (HWND).
 ms.assetid: bca00825-32a7-40b2-9ca9-23475e3218a8
 title: Capturing a Still Image from Streaming Video
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

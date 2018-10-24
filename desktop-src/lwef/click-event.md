@@ -2,8 +2,6 @@
 title: Click Event
 description: Click Event
 ms.assetid: 772029d5-97b6-49d8-a989-04f0fc429aca
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

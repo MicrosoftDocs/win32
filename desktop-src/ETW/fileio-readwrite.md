@@ -2,8 +2,6 @@
 Description: This class is the event type class for file read and write events. The following syntax is simplified from MOF code.
 ms.assetid: 88c380fb-e043-40ab-aa74-550bce43c52b
 title: FileIo_ReadWrite class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

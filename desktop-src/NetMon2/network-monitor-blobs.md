@@ -2,8 +2,6 @@
 Description: The Network Monitor binary large object (BLOB) is a generic data structure that contains configuration and location information of network interface cards (NICs).
 ms.assetid: 910bf929-aa89-434d-83c3-07c80c627405
 title: Network Monitor BLOBs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

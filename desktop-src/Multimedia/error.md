@@ -4,8 +4,6 @@ description: Error
 ms.assetid: 'd3a087e4-7b57-4070-aa82-3673bc18a54f'
 keywords:
 - AVICap callback functions,error notification messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

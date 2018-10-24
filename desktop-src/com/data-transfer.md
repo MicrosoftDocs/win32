@@ -2,8 +2,6 @@
 title: Data Transfer
 description: Data Transfer
 ms.assetid: 26b16438-f940-4086-869e-74021ed00b1e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

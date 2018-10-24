@@ -2,8 +2,6 @@
 Description: The following globally unique identifiers (GUIDs) define node types for kernel-mode filters. To find the node type, query the filter for the IKsTopologyInfo interface.
 ms.assetid: 0e133ce3-8815-47d1-a5c3-577a98963912
 title: KS Node Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

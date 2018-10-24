@@ -2,8 +2,6 @@
 Description: Retrieves the location of the certificate store that this object represents.
 ms.assetid: '756ee7cb-5f9f-4fb2-bf10-79b543895189'
 title: Store.Location property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

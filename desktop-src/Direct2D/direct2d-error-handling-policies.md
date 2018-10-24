@@ -4,8 +4,6 @@ description: This topic describes the Direct2D error handling policies. It conta
 ms.assetid: b5fa327a-a315-46fa-aa78-8a5733faae01
 keywords:
 - Direct2D,error handling
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

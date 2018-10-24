@@ -2,8 +2,6 @@
 Description: Represents a collection of EKU objects.
 ms.assetid: 04b9f0bf-e1d4-4a2c-be5d-bae7c1090bdb
 title: EKUs object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

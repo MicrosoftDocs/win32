@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 9b21ae53-f095-4507-a5fe-947aa2035f40
 title: System.Document.ByteCount
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

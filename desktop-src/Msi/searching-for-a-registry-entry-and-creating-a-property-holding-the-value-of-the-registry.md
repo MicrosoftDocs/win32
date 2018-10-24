@@ -2,8 +2,6 @@
 Description: During a Windows Installer installation, the installer can search for a registry entry and create a property holding the value of the registry.
 ms.assetid: 3a663fc7-cdcf-4ac3-8251-836ba0d3cc11
 title: Searching for a Registry Entry and Creating a Property Holding the Value of the Registry
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A combination of zero or more locking options that describe the type of lock to perform.
 ms.assetid: 46a611bd-a1ec-4967-b68d-72661d1b5cad
 title: D3DLOCK
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

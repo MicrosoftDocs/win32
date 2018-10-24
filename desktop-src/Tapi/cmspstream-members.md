@@ -2,8 +2,6 @@
 Description: The following list contains the CMSPStream members.
 ms.assetid: 792a29ac-ebbb-4bb2-bebf-fbf870b18e84
 title: CMSPStream Members
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

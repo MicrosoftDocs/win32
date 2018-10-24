@@ -2,8 +2,6 @@
 Description: Audio Capabilities
 ms.assetid: de96f6ee-b526-4ac2-93ac-a731f86ef5d5
 title: Audio Capabilities
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

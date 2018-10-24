@@ -2,8 +2,6 @@
 Description: Represents replication status for a replication relationship.
 ms.assetid: F11EFF86-5CC9-4310-8254-B310C54B561D
 title: Msvm_ReplicationRelationship class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Identifies the name of Home provider for the given SIM/Device.
 ms.assetid: 05d65091-5a1d-427a-8f51-1e1b9d189571
 title: HomeProviderName (MBNProfile) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

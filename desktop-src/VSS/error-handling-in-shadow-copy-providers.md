@@ -2,8 +2,6 @@
 Description: VSS allows many shadow copies to exist at once, but it only allows one shadow copy set creation to be in-progress between the call to IVssBackupComponents::StartSnapshotSet and the return from the call to IVssBackupComponents::DoSnapshotSet.
 ms.assetid: 26657fc2-180f-4ebb-820c-2159e7fe7584
 title: Error Handling in Shadow Copy Providers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

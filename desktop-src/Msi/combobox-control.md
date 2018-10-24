@@ -2,8 +2,6 @@
 Description: The ComboBox control displays a drop-down list of predefined values and an edit field into which the user can enter a value.
 ms.assetid: 81fbc039-3c86-4086-a565-57a4ea2c12fb
 title: ComboBox Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

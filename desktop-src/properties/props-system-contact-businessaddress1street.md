@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 2f40e9b0-5f56-4bf7-8328-f529a07fbe46
 title: System.Contact.BusinessAddress1Street
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

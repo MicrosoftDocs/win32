@@ -2,8 +2,6 @@
 Description: Defines a WLAN profile used by the Native Wifi AutoConfig service.
 ms.assetid: 8312d213-1d01-4bd0-a8d9-65ca23560888
 title: WLAN_profile Schema
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

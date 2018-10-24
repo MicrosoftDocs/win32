@@ -2,8 +2,6 @@
 Description: File system recognition is the ability to recognize storage media that contain a valid file system/volume layout that has not been defined yet, but the media is able to identify itself through the presence of the recognition structure defined internally by Windows.
 ms.assetid: 23ed6de0-25ff-4841-91f6-94b487dee613
 title: Obtaining File System Recognition Information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

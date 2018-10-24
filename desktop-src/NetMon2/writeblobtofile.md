@@ -2,8 +2,6 @@
 Description: The WriteBlobToFile function writes a BLOB to a file.
 ms.assetid: 0793dced-82c2-4553-90b2-acf594c6749e
 title: WriteBlobToFile function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

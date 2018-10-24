@@ -2,8 +2,6 @@
 title: Managing Application State
 description: A window procedure is just a function that gets invoked for every message, so it is inherently stateless. Therefore, you need a way to track the state of your application from one function call to the next.
 ms.assetid: 2f03961e-a886-4947-8f5d-62543c6b8815
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

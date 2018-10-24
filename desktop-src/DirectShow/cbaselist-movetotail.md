@@ -2,8 +2,6 @@
 Description: The MoveToTail method splits the list and appends the head portion to the tail of another list.
 ms.assetid: f5cefe7c-075c-433b-9ece-aa10217344fa
 title: CBaseList.MoveToTail method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

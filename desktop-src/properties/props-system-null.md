@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: c7068673-bbff-4785-a78a-90e22f52b250
 title: System.Null
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

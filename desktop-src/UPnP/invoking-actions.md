@@ -2,8 +2,6 @@
 title: Invoking Actions
 description: The IUPnPService InvokeAction method allows actions to be invoked on Service objects.
 ms.assetid: 671e9280-5ead-43f2-bb6b-12792a6a4487
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

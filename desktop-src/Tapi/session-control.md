@@ -2,8 +2,6 @@
 Description: A session or call represents a connection between two or more addresses.
 ms.assetid: f598c1cd-2b50-4ac6-a05e-4fd8eeb5e3e1
 title: Session Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Describes a vertex buffer.
 ms.assetid: 0ae8f976-d0ca-4d55-b6db-5be85fa3c799
 title: D3DVERTEXBUFFER_DESC structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

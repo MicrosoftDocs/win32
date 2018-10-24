@@ -2,8 +2,6 @@
 Description: Overview of considerations for designing an application that uses the StylusInput application programming interfaces (APIs).
 ms.assetid: cb68a6bb-dd38-4dfb-bbbb-b5d846e5aa0a
 title: Design Considerations for the StylusInput API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

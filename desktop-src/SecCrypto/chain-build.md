@@ -2,8 +2,6 @@
 Description: Builds a certificate verification chain from an end certificate to the trusted root certificate and returns a Boolean value that indicates the overall validity of the chain.
 ms.assetid: 878f09ba-d79b-4f14-b4f6-ecb54771f56f
 title: IChain2::Build method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -11,8 +11,6 @@ keywords:
 - variable bit rate (VBR),configuring unconstrained
 - VBR (variable bit rate),configuring unconstrained
 - profiles,configuring unconstrained VBR
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

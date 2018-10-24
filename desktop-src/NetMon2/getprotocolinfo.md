@@ -2,8 +2,6 @@
 Description: The GetProtocolInfo function returns a pointer to a protocol information value.
 ms.assetid: 1ba47889-b2ed-47ba-94f9-1b781af6d01f
 title: GetProtocolInfo function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Proxy function for the SetResolution method.
 ms.assetid: c4e3927c-6f9d-401d-acd7-711674cdbb53
 title: IWICBitmap_SetResolution_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

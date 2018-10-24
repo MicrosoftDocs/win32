@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ea8ca4e4-9969-48fc-9b9f-5a5c8442006d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM System Properties for MIB Objects
 ms.author: windowssdkdev

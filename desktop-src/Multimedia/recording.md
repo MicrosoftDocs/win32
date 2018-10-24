@@ -4,8 +4,6 @@ description: Recording
 ms.assetid: '0026eb1d-5be1-4090-801b-f1c65c179f42'
 keywords:
 - MCI_RECORD command
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

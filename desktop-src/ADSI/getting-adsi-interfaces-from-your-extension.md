@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 2d2e6dc6-1eed-491b-9d6a-7f35c24a7ba8
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI ,getting ADSI interfaces from your extension

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e748b623-5ff3-464d-ba09-96cf226de7b6
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Cross-Namespace Association Traversal
 ms.author: windowssdkdev

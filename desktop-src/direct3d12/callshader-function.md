@@ -2,8 +2,6 @@
 Description: Invokes another shader from within a shader.
 ms.assetid: 
 title: CallShader function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018

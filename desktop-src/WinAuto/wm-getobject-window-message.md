@@ -2,8 +2,6 @@
 title: WM_GETOBJECT Window Message
 description: WM\_GETOBJECT Window Message
 ms.assetid: 56ab7e6b-a469-49f9-ab56-82e11e374b25
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

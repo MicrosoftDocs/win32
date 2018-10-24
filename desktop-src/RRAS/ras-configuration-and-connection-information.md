@@ -4,8 +4,6 @@ description: Applications running on Windows NT 4.0 and later versions, and Wi
 ms.assetid: b738ed87-1ff5-4366-9e83-08ac08ec261c
 keywords:
 - Configuration and Connection, RAS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

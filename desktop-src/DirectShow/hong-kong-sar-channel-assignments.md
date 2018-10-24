@@ -2,8 +2,6 @@
 Description: This topic lists the frequency tables used for analog TV tuning for Hong Kong SAR.
 ms.assetid: 6c74cc08-ae6a-4ef4-809f-9374e0ac5e91
 title: Hong Kong SAR Channel Assignments
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

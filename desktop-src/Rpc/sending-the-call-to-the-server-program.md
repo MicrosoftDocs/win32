@@ -4,8 +4,6 @@ description: Once the client side RPC run time has connected to the server endpo
 ms.assetid: 170316b1-4185-45b1-845e-ca6f0285b7f9
 keywords:
 - Remote Procedure Call RPC , tasks, sending the call to the server
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

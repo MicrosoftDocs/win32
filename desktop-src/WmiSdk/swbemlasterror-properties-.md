@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 46ffadd0-82e3-4ace-85a6-a7cb4bc2f982
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemLastError.Properties_ property
 ms.author: windowssdkdev

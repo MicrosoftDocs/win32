@@ -2,8 +2,6 @@
 Description: Represents an authorization entry for a recovery server.
 ms.assetid: 8c057b39-7102-4fbf-b4be-f18627a88834
 title: Msvm_ReplicationAuthorizationSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

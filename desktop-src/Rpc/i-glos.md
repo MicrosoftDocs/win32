@@ -3,8 +3,6 @@ title: I
 description: Words starting with I in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: 9494758a-af8c-4056-991e-31e152c181f0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

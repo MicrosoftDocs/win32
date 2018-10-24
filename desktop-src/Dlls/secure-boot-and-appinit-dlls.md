@@ -2,8 +2,6 @@
 Description: Starting in Windows 8, the AppInit\_DLLs infrastructure is disabled when secure boot is enabled.
 ms.assetid: 3ADE71C7-7113-4D26-8D6D-5609CAF13397
 title: AppInit DLLs and Secure Boot
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

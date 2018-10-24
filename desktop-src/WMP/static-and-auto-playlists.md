@@ -18,8 +18,6 @@ keywords:
 - playlists,auto
 - metafile playlists,auto
 - Windows Media metafile playlists,auto
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

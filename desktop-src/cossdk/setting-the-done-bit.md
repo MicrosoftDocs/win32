@@ -2,8 +2,6 @@
 Description: Setting the Done Bit
 ms.assetid: badd3b5a-ce6f-4be7-9dd8-a3b17344b185
 title: Setting the Done Bit
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

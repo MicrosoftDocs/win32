@@ -2,8 +2,6 @@
 Description: Retrieves all of the IContextNode objects of the specified type that contain the specified strokes.
 ms.assetid: c674a03b-841c-4a9c-8268-302bc4038934
 title: IInkAnalyzer::FindNodesOfTypeForStrokes method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

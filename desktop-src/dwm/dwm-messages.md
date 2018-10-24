@@ -7,8 +7,6 @@ keywords:
 - DWM (Desktop Window Manager),reference
 - Desktop Window Manager (DWM),messages
 - DWM (Desktop Window Manager),messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

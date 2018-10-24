@@ -2,8 +2,6 @@
 title: DirectDraw Interfaces
 description: This section contains reference information about the interfaces used with the DirectDraw component.
 ms.assetid: ADAB73BC-CC4B-47B8-A72D-DC0886B9BA89
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

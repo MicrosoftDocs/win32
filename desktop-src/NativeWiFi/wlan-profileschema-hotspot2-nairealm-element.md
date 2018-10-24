@@ -2,8 +2,6 @@
 Description: A list of Network Access Identifier (NAI) Realm identifiers.
 ms.assetid: e77802ee-4017-4f04-ae71-5d6d0de8fcf3
 title: NAIRealm (Hotspot2) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

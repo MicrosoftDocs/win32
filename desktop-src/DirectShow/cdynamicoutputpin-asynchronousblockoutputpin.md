@@ -2,8 +2,6 @@
 Description: The AsynchronousBlockOutputPin method blocks the pin. The method might return before the pin is blocked.
 ms.assetid: 14cdc973-f0d3-4d1b-8491-67c1421f630b
 title: CDynamicOutputPin.AsynchronousBlockOutputPin method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

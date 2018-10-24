@@ -2,8 +2,6 @@
 Description: The Directory table specifies the directory layout for the product. Each row of the table indicates a directory both at the source and the target.
 ms.assetid: eaca30cb-fec1-49ca-8b23-5e54c583e3e2
 title: Directory Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The \_MSIExecute Mutex is set only while processing the InstallExecuteSequence table, AdminExecuteSequence table, or AdvtExecuteSequence table.
 ms.assetid: 2186422d-ccb2-4f7e-8c6d-326c00e0d9a9
 title: '_MSIExecute Mutex'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

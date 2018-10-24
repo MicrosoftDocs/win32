@@ -2,8 +2,6 @@
 Description: Retrieves all of the IContextNode objects that match the specified criteria and are descendants of the specified IContextNode object.
 ms.assetid: 48d0ae97-c4a5-458d-b4c0-fa82f5aed4e5
 title: IInkAnalyzer::FindNodesWithCallBackInSubTree method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

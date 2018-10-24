@@ -2,8 +2,6 @@
 Description: LOCALE\_NOUSEROVERRIDE
 ms.assetid: ab68d16b-5e1e-4af3-b048-43975cded00a
 title: LOCALE_NOUSEROVERRIDE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

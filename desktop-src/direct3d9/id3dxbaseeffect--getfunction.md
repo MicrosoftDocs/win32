@@ -2,8 +2,6 @@
 Description: Gets the handle of a function.
 ms.assetid: 97c82c28-4402-4605-8247-44d6f38bfa20
 title: ID3DXBaseEffect::GetFunction method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

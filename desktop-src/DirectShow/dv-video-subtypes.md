@@ -2,8 +2,6 @@
 Description: A number of subtypes are defined for DV video. Each has a FOURCC code and a corresponding GUID value. Not all of these formats are supported; see the Remarks section for more information.
 ms.assetid: d8390bd4-0339-4955-992c-92b8c9f6bf88
 title: DV Video Subtypes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

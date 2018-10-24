@@ -2,8 +2,6 @@
 Description: The SIOCGIFCONF command provided by most UNIX implementations is supported in the form of WSAIoctl and WSPIoctl functions with the command SIO\_GET\_INTERFACE\_LIST. This command returns the list of configured interfaces and their parameters.
 ms.assetid: c5028dae-052a-444c-837c-cd8d6d901b6c
 title: Using UNIX Ioctls in Winsock
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

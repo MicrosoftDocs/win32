@@ -2,8 +2,6 @@
 Description: The current civic address report.
 ms.assetid: a58dd612-bc54-42d1-9960-8c3de1c4fa83
 title: LocationDisp.CivicAddressReportFactory.CivicAddressReport property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

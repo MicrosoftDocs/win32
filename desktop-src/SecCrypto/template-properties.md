@@ -2,8 +2,6 @@
 Description: The Template object exposes the following properties.
 ms.assetid: 96E9BBF9-2447-45CE-89A8-1A2B3FBD3FAE
 title: Template Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 787e31df-df6a-4fb0-a1c0-18bd60867e2f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: HAVING Clause
 ms.author: windowssdkdev

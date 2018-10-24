@@ -2,8 +2,6 @@
 Description: The SetPointer method sets the pointer to the memory buffer.
 ms.assetid: 60627600-c982-462e-b540-327a58e57615
 title: CMediaSample.SetPointer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

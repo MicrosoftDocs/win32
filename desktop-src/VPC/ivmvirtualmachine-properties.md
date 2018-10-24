@@ -2,8 +2,6 @@
 title: IVMVirtualMachine Properties
 description: The IVMVirtualMachine interface exposes the following properties.
 ms.assetid: 9915F534-7615-4102-A4EB-00B2B826D870
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

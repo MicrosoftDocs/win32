@@ -2,8 +2,6 @@
 Description: The GetCaptureTimeStamp function returns the time and date when the capture started recording frames.
 ms.assetid: a7120a7c-5031-4c71-a177-f08c41037b3c
 title: GetCaptureTimeStamp function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

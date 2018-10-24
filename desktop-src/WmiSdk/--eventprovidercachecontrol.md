@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7f11e521-d0f6-4c3c-8bfe-ceed2d106ed3
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__EventProviderCacheControl class'
 ms.author: windowssdkdev

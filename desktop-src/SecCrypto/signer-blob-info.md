@@ -2,8 +2,6 @@
 Description: Specifies a BLOB to sign.
 ms.assetid: 214c9c05-5c95-4803-8993-23a87266f991
 title: SIGNER_BLOB_INFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

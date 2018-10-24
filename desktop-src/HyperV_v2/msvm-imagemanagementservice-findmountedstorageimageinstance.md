@@ -2,8 +2,6 @@
 Description: Finds an Msvm\_MountedStorageImage object for a given disk image path.
 ms.assetid: 498ed285-2b5b-472b-b0ee-649c97b61274
 title: FindMountedStorageImageInstance method of the Msvm_ImageManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

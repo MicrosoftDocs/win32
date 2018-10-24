@@ -2,8 +2,6 @@
 Description: The VBScript file WiLstPrd.vbs is provided in the Windows SDK Components for Windows Installer Developers. The sample script connects to an Installer object and enumerates registered products and product information.
 ms.assetid: 13615dc2-ebc7-4536-9dd8-9bb1dbf3cfaf
 title: List Products, Properties, Features, and Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

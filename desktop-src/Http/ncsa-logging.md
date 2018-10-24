@@ -2,8 +2,6 @@
 title: NCSA Logging
 description: NCSA extended logging is one type of server side logging that can be enabled on a URL group.
 ms.assetid: 14a2492a-3bcf-46f3-a3a5-1ea578516865
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

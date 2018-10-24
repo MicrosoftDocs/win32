@@ -2,8 +2,6 @@
 Description: The Microsoft Enhanced Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, but supports stronger security through longer keys and additional algorithms.
 ms.assetid: 87d0c865-8b29-439c-81aa-a40dc0034e3b
 title: Microsoft Enhanced Cryptographic Provider
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

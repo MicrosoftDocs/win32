@@ -2,8 +2,6 @@
 Description: Contains the name of a wireless LAN policy.
 ms.assetid: 8b63c11d-3ae4-47e4-9255-a10fa175c55b
 title: name (WLANPolicy) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This section introduces the basic concepts of the view transform and provides details on how to set up a view transform matrix in a Direct3D application.
 ms.assetid: a9885a77-f04e-4ca5-9202-67c4779d03de
 title: View Transform (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

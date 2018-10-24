@@ -2,8 +2,6 @@
 Description: Converts a file URL to a Microsoft MS-DOS path.
 ms.assetid: c35988ad-6cf8-41ec-bee9-e3bb982310ee
 title: MFCreatePathFromURL function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

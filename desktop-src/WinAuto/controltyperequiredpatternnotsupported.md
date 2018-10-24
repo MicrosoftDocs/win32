@@ -2,8 +2,6 @@
 title: ControlTypeRequiredPatternNotSupported
 description: ControlTypeRequiredPatternNotSupported
 ms.assetid: D3DFB577-0F46-4598-A90F-C91A6A360AAC
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

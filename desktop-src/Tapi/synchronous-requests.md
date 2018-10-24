@@ -2,8 +2,6 @@
 Description: Service provider designers should try to keep the execution time of synchronous operations short.
 ms.assetid: eb264ab7-15bb-4cd5-8af8-f979f02a7a39
 title: Synchronous Requests
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

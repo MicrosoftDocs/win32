@@ -2,8 +2,6 @@
 Description: Retrieves the number of IContextNode objects contained in this collection.
 ms.assetid: 7cc60bea-9a4c-4ac8-ad1a-0fca5e941c5e
 title: IContextNodes::GetCount method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

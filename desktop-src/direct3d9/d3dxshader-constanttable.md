@@ -2,8 +2,6 @@
 Description: Helper structure for managing a shader constant table. This can also be done using ID3DXConstantTable.
 ms.assetid: cc6d66e4-c600-420b-b7b5-1bd10ecb22f9
 title: D3DXSHADER_CONSTANTTABLE structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

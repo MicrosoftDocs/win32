@@ -2,8 +2,6 @@
 Description: Assume for the purposes of an example that the application calls the TAPI lineConfigDialog function, which is designed to open a dialog box to allow configuration of service provider options related to the specified line device.
 ms.assetid: a388d192-a327-4e67-968b-344d80c19fb1
 title: Functions Designed to Generate UI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

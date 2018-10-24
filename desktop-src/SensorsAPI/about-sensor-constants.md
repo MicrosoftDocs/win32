@@ -2,8 +2,6 @@
 Description: About Sensor Constants
 ms.assetid: ba85ccd8-5251-4e47-84da-80899fe84c39
 title: About Sensor Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

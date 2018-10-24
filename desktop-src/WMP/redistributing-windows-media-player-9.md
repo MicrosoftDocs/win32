@@ -2,8 +2,6 @@
 title: Redistributing Windows Media Player 9 Series
 description: Redistributing Windows Media Player 9 Series
 ms.assetid: 812e3fc7-e23d-489c-a486-62c7602cf46e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

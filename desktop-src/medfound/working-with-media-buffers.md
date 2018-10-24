@@ -2,8 +2,6 @@
 Description: Working with Media Buffers
 ms.assetid: c7e079e0-99f3-4bff-9163-1c5a022c14ae
 title: Working with Media Buffers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

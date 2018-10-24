@@ -2,8 +2,6 @@
 Description: Describes the functions and structures to use when working with the PNRP Namespace Provider API.
 ms.assetid: 510a43fc-8972-4638-8bea-13c1b9b05a70
 title: PNRP Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Color Fonts
 description: This topic describes color fonts, their support in DirectWrite and Direct2D, and how to use them in your app.
 ms.assetid: 74e096c4-9d1c-8854-e9ee-f8b11ac1c71a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

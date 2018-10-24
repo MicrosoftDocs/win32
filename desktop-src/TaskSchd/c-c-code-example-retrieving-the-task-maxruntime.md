@@ -5,8 +5,6 @@ ms.assetid: 33873fef-1b67-4010-8bda-b75e1dfa80d5
 keywords:
 - retrieving task MaxRunTime Task Scheduler
 - retrieving task properties Task Scheduler , MaxRunTime
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

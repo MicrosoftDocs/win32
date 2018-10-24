@@ -2,8 +2,6 @@
 Description: Defines an instance of the provider GUID.
 ms.assetid: 49c11cd5-2cb1-474a-8b51-2d86b4501da1
 title: TRACE_PROVIDER_INSTANCE_INFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

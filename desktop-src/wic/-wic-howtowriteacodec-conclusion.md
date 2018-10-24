@@ -2,8 +2,6 @@
 Description: Building your codec on the Windows Imaging Component (WIC) platform makes it possible for all applications built on WIC to get the same platform support for your image format that they get for the common image formats shipped with the platform.
 ms.assetid: 4f25f0f4-246c-4cbd-bd11-d061dbc7de45
 title: Conclusion (How to Write a WIC-Enabled Codec)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

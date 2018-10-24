@@ -2,8 +2,6 @@
 Description: The ThreadProc method is the thread procedure.
 ms.assetid: 2d991f15-afea-4843-bc68-aeb5ca69d28b
 title: CAMThread.ThreadProc method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Contains an object for each partition user.
 ms.assetid: baec56ae-be8a-42a7-90bc-1db7c5cd7fe2
 title: PartitionUsers collection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

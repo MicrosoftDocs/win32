@@ -2,8 +2,6 @@
 title: Value Map Annotation Sample
 description: Value Map Annotation Sample
 ms.assetid: f95233ee-c825-482e-880b-63212014b505
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

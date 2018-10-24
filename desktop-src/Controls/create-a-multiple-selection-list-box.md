@@ -2,8 +2,6 @@
 title: How to Create a Multiple-Selection List Box
 description: This topic demonstrates how to display and access the contents of a directory in a multiple-selection list box.
 ms.assetid: 5192E171-8CEF-4921-9378-A7C3A52A9024
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: ba038bc1-fb5c-4576-be80-7eae7339ba05
 keywords:
 - Common Dialog Box Library,tasks
 - common dialog boxes,using
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

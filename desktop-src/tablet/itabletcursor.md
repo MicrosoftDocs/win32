@@ -2,8 +2,6 @@
 Description: Represents a stylus object.
 ms.assetid: c55945b7-59df-49b5-b25f-fa96056889fc
 title: ITabletCursor interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

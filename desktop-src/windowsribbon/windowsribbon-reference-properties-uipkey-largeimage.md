@@ -2,8 +2,6 @@
 title: UI_PKEY_LargeImage
 description: Identifies the UI\_PKEY\_LargeImage property.
 ms.assetid: 0e09ad71-d8b3-4321-8765-7fccf02288f0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

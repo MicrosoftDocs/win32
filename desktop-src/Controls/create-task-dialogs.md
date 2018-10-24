@@ -2,8 +2,6 @@
 title: How to Create Task Dialogs
 description: A task dialog is created and shown by using either the TaskDialog function or the TaskDialogIndirect function.
 ms.assetid: CCEFF52F-D501-4145-9799-0A9C529017E1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

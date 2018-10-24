@@ -2,8 +2,6 @@
 title: outputcontrolpoints
 description: Defines the number of output control points (per thread) that will be created in the hull shader.
 ms.assetid: 0bd7e5af-29b0-4814-ab96-06e15cc390ff
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

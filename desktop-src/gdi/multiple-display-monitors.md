@@ -2,8 +2,6 @@
 Description: Multiple Display Monitors is a set of related features that allow applications to make use of multiple display devices at the same time.
 ms.assetid: '901c8fbe-a29c-4382-80d4-5e3667a031da'
 title: Multiple Display Monitors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

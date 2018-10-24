@@ -2,8 +2,6 @@
 Description: Sets a VMs initial machine configuration data.
 ms.assetid: 0f174d29-ddb2-4a8c-b664-926245573778
 title: SetInitialMachineConfigurationData method of the Msvm_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

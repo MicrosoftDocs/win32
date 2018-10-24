@@ -2,8 +2,6 @@
 Description: Network Monitors calls the RecognizeFrame function of a parser to determine that the parser recognizes the unclaimed data of a frame.
 ms.assetid: 6d0574da-f0ec-4ed9-bfb0-023dff2ac6fe
 title: Implementing RecognizeFrame
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

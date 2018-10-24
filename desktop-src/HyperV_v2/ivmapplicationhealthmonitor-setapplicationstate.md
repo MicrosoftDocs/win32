@@ -2,8 +2,6 @@
 Description: Sets the health state of an application that is running in a virtual machine.
 ms.assetid: 012190CA-9CBF-47B6-9C5D-F75D73B0499B
 title: IVmApplicationHealthMonitor::SetApplicationState method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

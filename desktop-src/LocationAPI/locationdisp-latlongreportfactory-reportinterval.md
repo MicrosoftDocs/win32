@@ -2,8 +2,6 @@
 Description: The current latitude/longitude report event interval in milliseconds.
 ms.assetid: bb33c4c1-805d-4519-8363-b0221d420b36
 title: LocationDisp.LatLongReportFactory.ReportInterval property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

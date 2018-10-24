@@ -2,8 +2,6 @@
 title: Windows Assessment Toolkit
 description: Windows Assessment Toolkit
 ms.assetid: 9D0A4F42-F027-4032-8297-045937BD2B6E
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

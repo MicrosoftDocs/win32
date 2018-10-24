@@ -2,8 +2,6 @@
 Description: The Property property of the SummaryInfo object sets or gets the value for the specified property in the summary information stream.
 ms.assetid: 8e8f0987-c92b-43f3-a61a-35099188c629
 title: SummaryInfo.Property property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

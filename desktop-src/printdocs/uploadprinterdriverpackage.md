@@ -2,8 +2,6 @@
 Description: 'Uploads a printer driver to the print server's driver store so that it can be installed by calling InstallPrinterDriverFromPackage.'
 ms.assetid: 'dd3b3a3b-8ded-44ae-85dd-e630bc62e898'
 title: UploadPrinterDriverPackage function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

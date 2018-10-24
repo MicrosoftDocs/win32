@@ -2,8 +2,6 @@
 Description: As with any feature, the driver that your application uses might not support all types of depth buffering.
 ms.assetid: 8bf022f6-fd97-43f5-ac19-6a75ddb45f5e
 title: Querying for Depth Buffer Support (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

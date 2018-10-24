@@ -2,8 +2,6 @@
 Description: AAUX Source (AS) Pack
 ms.assetid: 0e173fe5-0b9d-48e8-bcbd-403614d51558
 title: AAUX Source (AS) Pack
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

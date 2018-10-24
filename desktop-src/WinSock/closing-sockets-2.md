@@ -2,8 +2,6 @@
 Description: WSPCloseSocket releases the socket descriptor so that any pending operations in any threads of the same process will be aborted, and any further reference to it will fail.
 ms.assetid: 658d0c35-05d4-4b51-a4d3-a3b441a2c735
 title: Closing Sockets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

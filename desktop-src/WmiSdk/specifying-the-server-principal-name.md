@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3d58db28-2e69-4e27-9f27-61529abbf750
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Specifying the Server Principal Name
 ms.author: windowssdkdev

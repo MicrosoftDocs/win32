@@ -2,8 +2,6 @@
 Description: Gets a pixel shader.
 ms.assetid: 173a20a5-dda0-493f-a161-2dc2881e71f2
 title: ID3DXBaseEffect::GetPixelShader method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

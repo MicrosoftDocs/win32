@@ -2,8 +2,6 @@
 Description: Sent by the DVD Navigator when it needs to skip frames.
 ms.assetid: 252ffbcc-e81a-499d-9dd2-170be01f7ce1
 title: EC_SKIP_FRAMES
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The SetLocked method sets the object's editing state to locked or unlocked.
 ms.assetid: 801b8bf0-5c7a-4122-9038-6b0d8bdc5da3
 title: IAMTimelineObj::SetLocked method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

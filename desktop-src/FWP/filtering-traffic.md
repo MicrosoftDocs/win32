@@ -2,8 +2,6 @@
 title: Filtering Traffic
 description: Filtering Traffic
 ms.assetid: 7F69A1CC-33B3-4749-AC70-0A400EB4F778
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

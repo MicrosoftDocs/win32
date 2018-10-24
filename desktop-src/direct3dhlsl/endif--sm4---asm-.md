@@ -2,8 +2,6 @@
 title: endif (sm4 - asm)
 description: Ends an if statement.
 ms.assetid: 9F4CF9E0-4D9D-4300-B432-432C560F34BB
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

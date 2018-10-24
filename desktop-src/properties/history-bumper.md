@@ -2,8 +2,6 @@
 Description: History
 ms.assetid: bffbcde9-9e51-4458-af38-db46834aaee5
 title: History
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

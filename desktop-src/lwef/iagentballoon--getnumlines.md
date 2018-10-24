@@ -2,8 +2,6 @@
 title: IAgentBalloon GetNumLines
 description: IAgentBalloon GetNumLines
 ms.assetid: 82deeed0-d4a7-46e4-9077-edd933dcf4e2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

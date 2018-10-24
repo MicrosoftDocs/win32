@@ -2,8 +2,6 @@
 title: Notification Handlers
 description: An asynchronous RasDial call must specify a notification handler.
 ms.assetid: 6d23d6ac-08ad-4fe2-a4af-021e4d384079
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

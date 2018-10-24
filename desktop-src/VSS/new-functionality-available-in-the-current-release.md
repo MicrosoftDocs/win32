@@ -2,8 +2,6 @@
 Description: 'The Windows Server 2003 release of the Volume Shadow Copy Service contains the following new functionality:'
 ms.assetid: 3dcfcc01-3e3c-43e9-a933-5c72f331da9a
 title: New Functionality Available in Windows Server 2003
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

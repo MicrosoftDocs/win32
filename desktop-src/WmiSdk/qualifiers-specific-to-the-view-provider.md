@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 31a6af2d-33da-44f2-86d7-c467dd2f3e00
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the View Provider
 ms.author: windowssdkdev

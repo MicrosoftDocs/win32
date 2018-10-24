@@ -2,8 +2,6 @@
 title: Shader Model 5 Assembly
 description: This section describes the instructions supported by Shader Model 5.
 ms.assetid: BF26DADA-50A6-42BE-8BED-D0F20E04D584
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

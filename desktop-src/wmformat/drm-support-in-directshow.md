@@ -15,8 +15,6 @@ keywords:
 - DirectShow,DRM support
 - digital rights management (DRM),DirectShow
 - DRM (digital rights management),DirectShow
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

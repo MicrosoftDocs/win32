@@ -4,8 +4,6 @@ description: Reading from a Stream
 ms.assetid: be961f06-cf5f-4093-9b31-7d1d69e62fec
 keywords:
 - AVIStreamInfo function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

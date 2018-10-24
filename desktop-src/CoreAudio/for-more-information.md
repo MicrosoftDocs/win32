@@ -2,8 +2,6 @@
 Description: For More Information
 ms.assetid: b4e0cad3-f74b-4db1-905b-6748e55cbccd
 title: For More Information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

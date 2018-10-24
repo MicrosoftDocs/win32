@@ -2,8 +2,6 @@
 Description: Increasingly, applications employ special effects that are commonly used in movies and video, such as dissolves, swipes, and fades.
 ms.assetid: 6203922f-9594-4e5c-9baa-8b27ac30978f
 title: Dissolves, Fades, and Swipes (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

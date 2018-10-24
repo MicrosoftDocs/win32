@@ -2,8 +2,6 @@
 Description: The CheckRequest method checks if there is a request, without blocking.
 ms.assetid: 46d0840e-a304-41e3-9016-9f35e404cd30
 title: CAMThread.CheckRequest method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

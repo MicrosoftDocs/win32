@@ -2,8 +2,6 @@
 Description: Properties defined by the ICertSrvSetupKeyInformationCollection interface.
 ms.assetid: 2df4731b-8ffb-4e82-942f-49e2ce516d07
 title: Properties of ICertSrvSetupKeyInformationCollection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

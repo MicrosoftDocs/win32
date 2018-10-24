@@ -6,8 +6,6 @@ keywords:
 - Windows Internet WinINet
 - WinINet WinINet , portal
 - Windows Internet WinINet , start page
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

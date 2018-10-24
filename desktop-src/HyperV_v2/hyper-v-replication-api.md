@@ -2,8 +2,6 @@
 Description: The Hyper-V replication API is used to control virtual machine replication and failover recovery.
 ms.assetid: 2CCD9A38-EABA-45DB-82A5-0DDA7824B0F3
 title: Hyper-V replication API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

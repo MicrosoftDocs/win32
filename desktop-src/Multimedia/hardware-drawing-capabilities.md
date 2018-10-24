@@ -6,8 +6,6 @@ keywords:
 - video compression manager (VCM),drawing
 - VCM (video compression manager),drawing
 - ICGetInfo function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following table defines the available code page identifiers.
 ms.assetid: 5d6fc86a-f205-4d14-bb7c-ecd71682e0fe
 title: Code Page Identifiers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Starts a job to remove resources from a resource pool.
 ms.assetid: 1689ccbf-a524-45b7-bf95-6341a3b28f6c
 title: RemoveResourcesFromResourcePool method of the CIM_ResourcePoolConfigurationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

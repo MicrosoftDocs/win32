@@ -2,8 +2,6 @@
 Description: The GetCount method retrieves the number of keys in this collection.
 ms.assetid: 963f514e-3e0f-4334-ac29-6de7cc8aa336
 title: IPortableDeviceKeyCollection::GetCount method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Extended Telephony functions are listed by category in the following tables.
 ms.assetid: f16aabf1-c034-4f91-87b2-c98cdf6d67ea
 title: Extended Telephony Services Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

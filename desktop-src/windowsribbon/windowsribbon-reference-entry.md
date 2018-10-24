@@ -2,8 +2,6 @@
 title: Windows Ribbon Framework Reference
 description: The topics contained in this section provide the Reference specifications for the Windows Ribbon framework.
 ms.assetid: d14e7140-47c2-4573-a56d-94766013bc72
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

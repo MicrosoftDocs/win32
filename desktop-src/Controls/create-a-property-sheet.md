@@ -2,8 +2,6 @@
 title: How to Create a Property Sheet
 description: The example in this section creates a property sheet that contains two pages \ 8212;one for setting the font properties of a cell in a spreadsheet, and another for setting the border properties of the cell.
 ms.assetid: 61ACF87A-938C-4487-ACEB-484FCB677C6A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Describes a quaternion.
 ms.assetid: 3d88ed17-5b0a-46d5-8fe6-d66e1fa26c13
 title: D3DXQUATERNION structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

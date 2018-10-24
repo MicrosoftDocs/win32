@@ -4,8 +4,6 @@ description: Playing a Compact Disc Track
 ms.assetid: 05f68361-7fec-4c45-b434-a8b654f2d0c3
 keywords:
 - mciSendCommand function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

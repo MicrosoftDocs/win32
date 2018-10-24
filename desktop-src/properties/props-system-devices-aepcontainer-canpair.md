@@ -2,8 +2,6 @@
 Description: Whether one of the child Device Association Endpoints can be paired with the system or not.
 ms.assetid: 48ce03d9-2b16-44d1-8dd1-c3dbddc2139c
 title: System.Devices.AepContainer.CanPair
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

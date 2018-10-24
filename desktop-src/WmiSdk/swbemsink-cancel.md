@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: dbe1eb24-5d9d-407a-b7c6-c58ec6891d7a
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ISWbemSink::Cancel method
 ms.author: windowssdkdev

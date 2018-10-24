@@ -2,8 +2,6 @@
 title: IVMNetworkAdapterCollection Properties
 description: The IVMNetworkAdapterCollection interface exposes the following properties.
 ms.assetid: 4C42F046-930A-4AC6-8FD3-361ACB92346F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Describes an effect object.
 ms.assetid: 161d3e7a-213a-4a83-a1b5-837b0aab96bf
 title: D3DXEFFECT_DESC structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

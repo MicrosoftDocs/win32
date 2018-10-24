@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 85bda855-1488-4d7a-99ed-798e9859fef7
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PrivilegesStatus class
 ms.author: windowssdkdev

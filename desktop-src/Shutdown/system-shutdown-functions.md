@@ -2,8 +2,6 @@
 Description: The following functions are used with system shutdown.
 ms.assetid: 6a08a769-1acf-49eb-ba95-beaf56a374bf
 title: System Shutdown Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

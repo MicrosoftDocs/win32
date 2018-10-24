@@ -2,8 +2,6 @@
 Description: XMUDEC4describes a 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.
 ms.assetid: 9861c484-b80d-41a6-a938-322fd8cafdad
 title: XMUDEC4 Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following table describes the major media types.
 ms.assetid: 718a07f6-e2e4-4670-b9cf-982b53abffd2
 title: Major Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

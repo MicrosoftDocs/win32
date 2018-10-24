@@ -2,8 +2,6 @@
 Description: This section of the document describes those changes in the operating system that you should pay special attention to due to the potential impacts on existing applications and how new applications should be designed.
 ms.assetid: 8e7b9d29-f608-492b-bfd4-d3208d2c60f6
 title: Compatibility
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

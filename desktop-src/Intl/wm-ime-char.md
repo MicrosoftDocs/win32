@@ -2,8 +2,6 @@
 Description: Sent to an application when the IME gets a character of the conversion result. A window receives this message through its WindowProc function.
 ms.assetid: 1e1353c3-5215-4829-a00a-2fee47a430eb
 title: WM_IME_CHAR message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

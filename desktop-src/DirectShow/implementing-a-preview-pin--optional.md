@@ -2,8 +2,6 @@
 Description: This topic describes how to implement a preview pin on a DirectShow capture filter.
 ms.assetid: 60306702-97d4-4627-8fbe-e7c8750f3902
 title: Implementing a Preview Pin (Optional)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

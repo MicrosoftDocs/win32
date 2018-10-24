@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d217e058-3529-4173-b896-ebff3d7b05c6
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ScriptingStandardConsumerSetting class
 ms.author: windowssdkdev

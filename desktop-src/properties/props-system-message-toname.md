@@ -2,8 +2,6 @@
 Description: 'The names of people in the To: field.'
 ms.assetid: 22b62f60-c087-45ec-b0e2-8e94aa6bafe0
 title: System.Message.ToName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

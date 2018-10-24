@@ -2,8 +2,6 @@
 Description: WPD\_FUNCTIONAL\_CATEGORY\_STILL\_IMAGE\_CAPTURE
 ms.assetid: fb434927-1548-4c6e-bfb7-3a99eef62a4a
 title: WPD_FUNCTIONAL_CATEGORY_STILL_IMAGE_CAPTURE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

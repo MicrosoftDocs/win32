@@ -2,8 +2,6 @@
 Description: Retrieves the Signer object that represents the indexed signer.
 ms.assetid: a95f4e33-ab92-44e1-91ab-2c5335a04f05
 title: Signers.Item property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

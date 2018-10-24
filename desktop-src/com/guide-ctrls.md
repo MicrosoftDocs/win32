@@ -2,8 +2,6 @@
 title: Guide
 description: This guide describes ActiveX controls, property pages, and property sheets.
 ms.assetid: bd3c4b38-5329-4e1d-bdd2-ad955e1667d5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

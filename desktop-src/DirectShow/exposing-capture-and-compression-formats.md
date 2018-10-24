@@ -2,8 +2,6 @@
 Description: Exposing Capture and Compression Formats
 ms.assetid: f7466cfe-b13e-4ee9-82f9-0528ed97bf99
 title: Exposing Capture and Compression Formats
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Adj Attribute
 description: Adj Attribute
 ms.assetid: f0f31e6c-9dde-4082-88a2-da2d0012b9ae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

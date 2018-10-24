@@ -2,8 +2,6 @@
 Description: The following functions are used in creating and maintaining placeholder files and directories.
 ms.assetid: 68B667E2-E8C6-41F9-A0E2-C8CDF60D6472
 title: Cloud Filter Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

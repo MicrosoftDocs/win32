@@ -2,8 +2,6 @@
 Description: Delivering Samples
 ms.assetid: 31aabb6d-dec6-41fa-b24d-35a77b67bc4a
 title: Delivering Samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

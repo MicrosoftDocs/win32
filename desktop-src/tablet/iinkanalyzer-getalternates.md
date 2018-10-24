@@ -2,8 +2,6 @@
 Description: Retrieves 10 analysis alternates for all ink associated with the IInkAnalyzer.
 ms.assetid: 42b702cf-54a3-413b-9f3a-dcdae7c2e89b
 title: IInkAnalyzer::GetAlternates method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

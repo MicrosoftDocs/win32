@@ -2,8 +2,6 @@
 Description: Creates the specified interface.
 ms.assetid: f4cfc407-b006-46a2-9751-834b532309ec
 title: ISCardManage::CreateInterface method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

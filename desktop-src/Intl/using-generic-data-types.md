@@ -2,8 +2,6 @@
 Description: If you use generic data types in your code, it can be compiled for Unicode simply by using a preprocessor directive to define &\#0034;UNICODE&\#0034; before the \#include statements for the header files.
 ms.assetid: 1c9cbb18-9295-4847-86c1-d596668cbe57
 title: Using Generic Data Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

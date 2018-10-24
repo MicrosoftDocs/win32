@@ -5,8 +5,6 @@ ms.assetid: 0d1ea309-e86b-4aff-87ac-9d9d5909c2ce
 keywords:
 - OpenGL processing pipeline,logical operations
 - logical operations OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

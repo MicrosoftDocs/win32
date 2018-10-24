@@ -2,8 +2,6 @@
 title: Centralized Binary Logging
 description: Centralized binary logging is a type of server side logging that can be enabled on the server session.
 ms.assetid: 957a7bc4-9db3-4153-b0a9-e53b3cc514c6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Proxy function for the Initialize method.
 ms.assetid: 26112d52-95e2-4c67-83fc-cf5e28712730
 title: IWICFormatConverter_Initialize_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

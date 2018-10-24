@@ -2,8 +2,6 @@
 Description: For configured components running within COM+ applications, contexts are the foundation on which COM+ services are provided.
 ms.assetid: 62a0bef2-c3c2-4a60-a5d1-6c038958e13e
 title: COM+ Contexts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Dependency object returns a module that the current module is dependent upon and which has not yet been merged into the current installation database.
 ms.assetid: 3157f07d-99de-4628-9b03-eb86eb4896a4
 title: Dependency object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

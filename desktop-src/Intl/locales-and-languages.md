@@ -2,8 +2,6 @@
 Description: The term &\#0034;language&\#0034; indicates a collection of properties used in spoken and written communication.
 ms.assetid: 8214c00d-4ec6-4597-8088-7819a160f0dc
 title: Locales and Languages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

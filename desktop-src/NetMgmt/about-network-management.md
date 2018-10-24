@@ -2,8 +2,6 @@
 title: About Network Management
 description: The network management functions allow you to manage network shares as Windows Explorer and the Net command do. You can also manage user accounts as User Manager does.
 ms.assetid: c1c5fba2-95f5-4d47-81ce-0701009d86d3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

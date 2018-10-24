@@ -2,8 +2,6 @@
 Description: This section contains info about the interfaces provided by DXGI.
 ms.assetid: b561b26b-961c-4d5e-8483-56b51b989bf7
 title: DXGI Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Adding Transform Nodes with TopoEdit
 ms.assetid: e1725c37-3f04-4208-9c09-56ce9a854138
 title: Adding Transform Nodes with TopoEdit
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Defines device types.
 ms.assetid: 2bcdc476-7c42-4152-b107-58366faf2abd
 title: D3DDEVTYPE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

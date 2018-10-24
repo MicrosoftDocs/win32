@@ -2,8 +2,6 @@
 Description: The following describes operations incident to shutting down an established socket connection.
 ms.assetid: 052e04a4-5290-4dca-af7a-cd590ebfbe15
 title: Connection Shutdown
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

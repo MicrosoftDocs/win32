@@ -2,8 +2,6 @@
 Description: Converts a DEVMODE structure to a print ticket.
 ms.assetid: c03371f8-a978-4fb7-82cc-f76a65f3904c
 title: ConvertDevModeToPrintTicketThunk2 function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

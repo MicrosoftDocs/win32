@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 6f96d14a-16ab-4e83-a75f-5dbf162d1692
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: pragma deleteclass
 ms.author: windowssdkdev

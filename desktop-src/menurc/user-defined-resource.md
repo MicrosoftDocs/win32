@@ -4,8 +4,6 @@ description: A user-defined resource-definition statement defines a resource tha
 ms.assetid: b1cfec71-5733-4900-97f6-c1cbb350c728
 keywords:
 - user-defined resource
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

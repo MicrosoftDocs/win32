@@ -2,8 +2,6 @@
 Description: Contains information that should uniquely identify the individual making the request.
 ms.assetid: f0cc0e1b-370e-4548-97fe-8f6a4005540b
 title: Distinguished Name Fields
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

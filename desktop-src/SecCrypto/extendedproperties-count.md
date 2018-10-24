@@ -2,8 +2,6 @@
 Description: Retrieves the number of ExtendedProperty objects in the collection.
 ms.assetid: 50bc8485-7285-4704-80db-c2e0d68e8cb0
 title: ExtendedProperties.Count property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

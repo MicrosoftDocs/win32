@@ -2,8 +2,6 @@
 title: Archive Certification requirements for Windows Desktop Apps v3.1
 description: Document version 3.1Document date June 18, 2013This document contains the technical requirements and eligibility qualifications that a desktop app must meet in order to participate in the Windows 8.1 Desktop App Certification Program.
 ms.assetid: C39571D9-54E3-42DF-9BA1-D92ADE8D8A11
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

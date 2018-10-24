@@ -2,8 +2,6 @@
 Description: Represents the collected strokes of ink within an ink space.
 ms.assetid: 7c064ff9-e0d9-4be4-be83-c10bbfd71134
 title: InkClass Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

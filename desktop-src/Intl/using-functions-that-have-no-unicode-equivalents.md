@@ -2,8 +2,6 @@
 Description: Functions that have not been implemented with a Unicode version have typically been replaced by more powerful or extended functions that do support Unicode.
 ms.assetid: 9e02c8fe-4fed-4b77-9b09-35850350859a
 title: Using Functions That Have No Unicode Equivalents
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

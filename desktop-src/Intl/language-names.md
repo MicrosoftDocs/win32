@@ -2,8 +2,6 @@
 Description: A language name uses essentially the same formatting as a locale name. For example, the language name for the English (Belize) locale is &\#0034;en-BZ&\#0034;. Each language name corresponds to a language identifier.
 ms.assetid: e8c54168-22b3-435e-b19a-9b34adcdb018
 title: Language Names
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

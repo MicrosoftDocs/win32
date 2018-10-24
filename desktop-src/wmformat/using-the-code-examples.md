@@ -5,8 +5,6 @@ ms.assetid: '1459a438-d42c-4d84-baa8-fc672f5d5d27'
 keywords:
 - Windows Media Format SDK,code examples
 - Windows Media Format SDK,example code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

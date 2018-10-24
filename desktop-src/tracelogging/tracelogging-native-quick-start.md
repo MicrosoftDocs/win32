@@ -2,8 +2,6 @@
 title: TraceLogging C/C++ Quick Start
 description: The following section describes the basic steps required to add TraceLogging to native user-mode code.
 ms.assetid: 444DA34B-7949-457D-A3EC-2F0CFBEDD1E2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

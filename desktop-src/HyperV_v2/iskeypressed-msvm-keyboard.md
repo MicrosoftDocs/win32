@@ -2,8 +2,6 @@
 Description: Retrieves the key state of a key.
 ms.assetid: 4AEB732D-274E-42BB-AA97-9E4D30B81338
 title: IsKeyPressed method of the Msvm_Keyboard class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

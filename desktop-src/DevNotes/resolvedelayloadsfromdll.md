@@ -2,8 +2,6 @@
 Description: Forwards the work in resolving delay-loaded imports from the parent binary to a target binary.
 ms.assetid: 65629d7b-36b0-426b-a20d-ec736b8461dc
 title: ResolveDelayLoadsFromDll function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

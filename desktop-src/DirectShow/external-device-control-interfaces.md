@@ -2,8 +2,6 @@
 Description: External Device Control Interfaces
 ms.assetid: edc10466-7852-4530-9ce7-b9dd36726745
 title: External Device Control Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

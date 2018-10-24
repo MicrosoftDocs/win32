@@ -2,8 +2,6 @@
 Description: Draws a line strip in screen space with a specified input transformation matrix.
 ms.assetid: 869dc705-8162-4cd9-ac6a-c0ce32f430c3
 title: ID3DXLine::DrawTransform method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

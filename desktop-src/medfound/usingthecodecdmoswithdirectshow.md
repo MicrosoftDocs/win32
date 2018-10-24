@@ -2,8 +2,6 @@
 Description: Using the Window Media Codecs in DirectShow
 ms.assetid: 5b930447-6bf2-4bb3-8dfb-05f4c1e7cd64
 title: Using the Window Media Codecs in DirectShow
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

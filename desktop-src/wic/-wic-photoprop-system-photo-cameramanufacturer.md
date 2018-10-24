@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.Photo.CameraManufacturer property.
 ms.assetid: 6710161c-4835-4385-9d4c-566acc000925
 title: System.Photo.CameraManufacturer Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

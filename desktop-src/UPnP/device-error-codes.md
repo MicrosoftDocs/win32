@@ -2,8 +2,6 @@
 title: Device Error Codes
 description: The InvokeAction and QueryStateVariable methods return HRESULT values that might indicate a device error (that is, an error that is received from a UPnP-certified device).
 ms.assetid: 4b18a5d4-f6e8-4670-93dd-ecd012940000
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

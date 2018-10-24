@@ -2,8 +2,6 @@
 Description: Sets or retrieves the HCERTSTORE handle of a certificate store.
 ms.assetid: 3ff8b4c7-4a9a-4cc1-b0ea-da442ebce157
 title: ICertStore::StoreHandle property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

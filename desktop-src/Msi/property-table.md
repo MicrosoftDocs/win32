@@ -2,8 +2,6 @@
 Description: The Property table contains the property names and values for all defined properties in the installation. Properties with Null values are not present in the table.
 ms.assetid: '1f4215b2-dc71-4e6e-bc2e-3b43316806b9'
 title: Property Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

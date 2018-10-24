@@ -2,8 +2,6 @@
 Description: Defines the manufacturer and model metadata for the device to be implemented. This element is used for device implementations (hosts) only.
 ms.assetid: 2ebd3092-39aa-469c-a8c9-23f373ba0e66
 title: thisModelMetadata element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

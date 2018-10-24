@@ -2,8 +2,6 @@
 title: Edge UI is suppressed in “in-out-in” and “inertia” scenarios
 description: Edge UI is suppressed in “in-out-in” and “inertia” scenarios
 ms.assetid: 005B6D03-52A6-4780-8D3E-4A5CDA5EED8C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

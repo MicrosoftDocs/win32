@@ -2,8 +2,6 @@
 title: VML IVgAdjustments Data Type
 description: VML IVgAdjustments Data Type
 ms.assetid: d605632b-3ee2-44fd-8122-f38b1f91e965
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

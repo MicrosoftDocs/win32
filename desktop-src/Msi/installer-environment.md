@@ -2,8 +2,6 @@
 Description: The Environment property of the Installer object is a read-write property that is the string value for an environment variable of the current process.
 ms.assetid: f59a270f-9bd8-4d17-96e2-cb3c62a31cad
 title: Installer.Environment property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

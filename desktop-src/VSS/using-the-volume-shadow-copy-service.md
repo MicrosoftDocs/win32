@@ -2,8 +2,6 @@
 Description: VSS backup and restore operations each use a protocol for the interaction of the systems that use mass storage (writers) and those that back it up (requesters).
 ms.assetid: c4dae5ce-0dfa-46ec-909f-8ae79d50a9cb
 title: Using the Volume Shadow Copy Service
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

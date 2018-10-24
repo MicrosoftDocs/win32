@@ -2,8 +2,6 @@
 Description: The Type method retrieves the major type.
 ms.assetid: 9c3badb2-2d9f-44d8-a376-0918104ee431
 title: CMediaType.Type method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

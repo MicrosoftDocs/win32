@@ -2,8 +2,6 @@
 title: IP Address Notifications
 description: .
 ms.assetid: 529195cd-5ba6-4f43-a490-838b43560254
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The CMsgThread class provides support for a worker thread to which requests can be posted asynchronously instead of sent directly.
 ms.assetid: 1cf159c9-80d0-4e3b-88d8-2ba4cd18e768
 title: CMsg class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

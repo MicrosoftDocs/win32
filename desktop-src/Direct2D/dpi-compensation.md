@@ -2,8 +2,6 @@
 title: DPI compensation effect
 description: Use the DPI compensation effect to automatically adjust an input bitmap to match the DPI of the context. This is useful for situations where a bitmap is created or loaded at a different DPI than the screen.
 ms.assetid: EA8AD89B-A710-468F-A6F3-474DA29586F1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

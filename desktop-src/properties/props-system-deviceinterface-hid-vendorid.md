@@ -2,8 +2,6 @@
 Description: HID device Vendor Id.
 ms.assetid: d9aaf5ea-4c74-45af-84a5-7fbf542cae1d
 title: System.DeviceInterface.Hid.VendorId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

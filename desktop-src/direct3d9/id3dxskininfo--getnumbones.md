@@ -2,8 +2,6 @@
 Description: Gets the number of bones.
 ms.assetid: 1079dfa2-7b95-4f80-a622-87fa74348ddc
 title: ID3DXSkinInfo::GetNumBones method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

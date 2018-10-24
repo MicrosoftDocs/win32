@@ -2,8 +2,6 @@
 title: Example Using SSPI Authentication Encoding with BITS
 description: You can use Security Support Provider Interface (SSPI) Authentication and Background Intelligent Transfer Service (BITS) methods to get the credentials from a user, encode the credentials, and set the encoded credentials on a BITS transfer job.
 ms.assetid: 5c8a6df7-0056-463e-8d73-1695dc75e023
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

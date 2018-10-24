@@ -2,8 +2,6 @@
 Description: The Peer Infrastructure uses the following common structures.
 ms.assetid: b8f290fb-ae0b-44de-87cc-d25f7e0e3ae6
 title: Common Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

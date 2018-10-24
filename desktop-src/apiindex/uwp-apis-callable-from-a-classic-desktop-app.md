@@ -2,8 +2,6 @@
 Description: With some notable exceptions, the general rule is that a Universal Windows Platform (UWP)&\#160;API can be called from a classic desktop app.
 ms.assetid: F3808C28-72DE-49B5-A389-EB085EFC02CC
 title: UWP APIs callable from a classic desktop app
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The GetRate method retrieves the playback rate. This method implements the IMediaSeeking::GetRate method.
 ms.assetid: 19de3ea3-280e-4320-9cce-2c29801bd84b
 title: CPosPassThru.GetRate method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

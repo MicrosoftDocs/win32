@@ -2,8 +2,6 @@
 Description: Windows Installer sets the System16Folder property to the full path to folder for 16-bit system DLLs. Note that the System16Folder property is not defined for 64-bit Windows because this system does not support 16-bit applications or components.
 ms.assetid: c4aa3c6e-0168-4103-921b-7ae2ecb7e455
 title: System16Folder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The AdminUISequence table lists actions that the installer calls when it executes the top-level ADMIN action and the internal user interface level is set to full UI or reduced UI.
 ms.assetid: f23bd5c2-1d7f-485f-a22b-99436dfab6bf
 title: Importing the AdminUISequence
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

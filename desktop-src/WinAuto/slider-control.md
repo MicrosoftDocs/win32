@@ -2,8 +2,6 @@
 title: Slider Control (MSAA UI Element Reference)
 description: A slider control, also called a trackbar control, lets a user select from a range of values by moving a slider. The volume controls in the Windows operating system are slider controls.
 ms.assetid: 8df4ed1d-d63c-49d7-94f1-df2113643484
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

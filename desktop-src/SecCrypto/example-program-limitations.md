@@ -2,8 +2,6 @@
 Description: Example Program Limitations
 ms.assetid: 2f428872-10ba-4059-ab42-f69dce940bed
 title: Example Program Limitations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

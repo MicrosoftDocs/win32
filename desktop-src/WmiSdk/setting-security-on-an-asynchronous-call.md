@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2b839ea9-e1e6-4123-a98a-04ebee907b3b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Security on an Asynchronous Call
 ms.author: windowssdkdev

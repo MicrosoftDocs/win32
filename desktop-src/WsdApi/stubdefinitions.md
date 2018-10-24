@@ -2,8 +2,6 @@
 Description: Generates implementations for stub functions for port-type operations.
 ms.assetid: 69899302-db54-493b-90de-596750be566f
 title: stubDefinitions element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

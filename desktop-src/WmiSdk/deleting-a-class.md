@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: bc0ee1e8-7515-4f35-ace3-6344c2ef0ab8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Deleting a Class
 ms.author: windowssdkdev

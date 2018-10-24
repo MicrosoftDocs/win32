@@ -2,8 +2,6 @@
 Description: SID Components
 ms.assetid: 528412e7-c2b6-4ddd-86de-999252972421
 title: SID Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

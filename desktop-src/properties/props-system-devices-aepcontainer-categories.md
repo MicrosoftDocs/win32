@@ -2,8 +2,6 @@
 Description: Categories the device is part of. e.g. Printer, Camera, etc.
 ms.assetid: c435770e-57c5-4527-9bcb-c44d8c84b4f8
 title: System.Devices.AepContainer.Categories
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

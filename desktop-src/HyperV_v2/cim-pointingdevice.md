@@ -2,8 +2,6 @@
 Description: Represents a device used to point to regions of a display.
 ms.assetid: ffc675c3-29bd-4c54-8e54-8b6212daf66d
 title: CIM_PointingDevice class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

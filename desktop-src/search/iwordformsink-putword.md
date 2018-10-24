@@ -2,8 +2,6 @@
 Description: Puts the original word form in the IWordFormSink object.
 ms.assetid: 333A3109-6C0A-42AE-9E10-87F53C7F737C
 title: IWordFormSink::PutWord method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

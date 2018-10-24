@@ -2,8 +2,6 @@
 Description: Applies a stipple pattern to the line.
 ms.assetid: 53548a9f-cf09-4ab9-9327-d5053645fc1b
 title: ID3DXLine::SetPattern method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

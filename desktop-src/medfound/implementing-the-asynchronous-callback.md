@@ -2,8 +2,6 @@
 Description: Implementing the Asynchronous Callback
 ms.assetid: c2c9d0f7-038b-4f23-985c-b812908d71a7
 title: Implementing the Asynchronous Callback
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

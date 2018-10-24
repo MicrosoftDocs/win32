@@ -4,8 +4,6 @@ description: The BITS server provides the following ADSI extension interfaces to
 ms.assetid: 7937a86d-886b-4764-bfc1-2ffd64dbcbc1
 keywords:
 - BITS ADSI Extension BITS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Indicates whether recognized string of this IContextNode came from the system dictionary, user dictionary, or word list.
 ms.assetid: 9eaee549-ae78-4a67-a39e-2096c7d5d9cd
 title: IContextNode::IsStringSupported method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

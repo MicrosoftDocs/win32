@@ -2,8 +2,6 @@
 Description: The ConfigurableItem object represents a single row from the ModuleConfiguration table.
 ms.assetid: bbd0d9bc-a463-4cd8-93ee-963dcee8efa6
 title: ConfigurableItem object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

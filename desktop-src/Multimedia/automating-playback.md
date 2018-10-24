@@ -5,8 +5,6 @@ ms.assetid: 3aa05a54-58d7-4d14-93ee-459aa860b20e
 keywords:
 - MCIWndCreate macro
 - MCIWndPlay macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

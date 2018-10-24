@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 8ad62fea-7b65-4948-9256-f48bdb792e39
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon attribute AD Schema

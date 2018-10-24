@@ -2,8 +2,6 @@
 Description: D3DXMath is a math helper library for Direct3D applications.
 ms.assetid: 3067d47f-9b1d-2051-fa24-2094418ea272
 title: Working with D3DXMath
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

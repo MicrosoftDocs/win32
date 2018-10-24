@@ -1,8 +1,6 @@
 ---
 Description: Called when a window is registered as a Shell window.
 title: DShellWindowsEvents.WindowRegistered method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

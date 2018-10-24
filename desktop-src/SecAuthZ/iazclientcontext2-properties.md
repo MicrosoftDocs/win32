@@ -2,8 +2,6 @@
 Description: The IAzClientContext2 interface exposes the following properties.
 ms.assetid: 7B0085BD-34E0-4AEA-B7D3-FFEE66F51D3F
 title: IAzClientContext2 Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

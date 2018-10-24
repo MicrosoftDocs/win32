@@ -2,8 +2,6 @@
 Description: Region Operations
 ms.assetid: 347ed2ca-b842-44bd-9ea6-f00a6e5d7941
 title: Region Operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

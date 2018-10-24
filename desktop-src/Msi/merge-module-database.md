@@ -2,8 +2,6 @@
 Description: The database of a merge module contains all the installation properties and setup logic for the module.
 ms.assetid: 72e42392-54e6-4be8-9a43-04158552be3d
 title: Merge Module Database
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

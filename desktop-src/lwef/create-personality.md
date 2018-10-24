@@ -2,8 +2,6 @@
 title: Create Personality
 description: Create Personality
 ms.assetid: ee8b2b8d-82e6-47c9-9ba1-8eb18f82683f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

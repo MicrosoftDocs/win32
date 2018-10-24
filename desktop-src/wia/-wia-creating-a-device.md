@@ -2,8 +2,6 @@
 Description: Once an application has the device ID of a given device, it can call the IWiaDevMgr::CreateDevice or IWiaDevMgr2::CreateDevicemethod, which creates a hierarchical tree of IWiaItem or IWiaItem2 objects that represent an imaging device and the image scanning beds, and folders contained on that device.
 ms.assetid: 807695c2-4c42-4318-9a5d-d34ac9014f0f
 title: Creating a Device
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

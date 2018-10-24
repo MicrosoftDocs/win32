@@ -2,8 +2,6 @@
 Description: Creates a mesh containing the specified text, using the font associated with the device context.
 ms.assetid: 1c8b0dc6-51b8-45bf-b4c0-b67e3d128097
 title: D3DXCreateText function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

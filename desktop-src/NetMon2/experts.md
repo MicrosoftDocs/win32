@@ -2,8 +2,6 @@
 Description: An expert is a Microsoft Win32 dynamic-link library (DLL) that analyzes network traffic collected by a network packet provider (NPP), and placed in a capture file.
 ms.assetid: '57d8164e-f587-4bb9-a0b1-6094037e584c'
 title: Expert
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

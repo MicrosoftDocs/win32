@@ -2,8 +2,6 @@
 Description: The IX509ExtensionCertificatePolicies interface exposes the following properties.
 ms.assetid: 61B2D600-DB6E-4050-B8FE-92418855582F
 title: IX509ExtensionCertificatePolicies Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

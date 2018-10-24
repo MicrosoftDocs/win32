@@ -2,8 +2,6 @@
 title: BITS Interfaces
 description: Use the following Background Intelligent Transfer Service (BITS) interfaces to transfer files and monitor jobs within the transfer queue.
 ms.assetid: 72668c9b-e6f3-4f3f-9d4b-50d930d1889d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.
 ms.assetid: 
 title: RAY_FLAG enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

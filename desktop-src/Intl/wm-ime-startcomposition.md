@@ -2,8 +2,6 @@
 Description: Sent immediately before the IME generates the composition string as a result of a keystroke. A window receives this message through its WindowProc function.
 ms.assetid: 2740d009-8685-4f70-9b01-67b71f4ddcbd
 title: WM_IME_STARTCOMPOSITION message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

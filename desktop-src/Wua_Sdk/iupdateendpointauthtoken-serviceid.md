@@ -2,8 +2,6 @@
 Description: Gets the identifier of the service to be authenticated with the endpoint token.
 ms.assetid: FE110B8E-F8FB-4CC8-BDD8-6427BA8B7920
 title: IUpdateEndpointAuthToken::ServiceID method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies how an audio decoder should transform multichannel audio to stereo output. This process is also called fold-down.
 ms.assetid: 6dfe2b97-1ebc-4954-b478-85b3bbba89e3
 title: MF_MT_AUDIO_FOLDDOWN_MATRIX attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

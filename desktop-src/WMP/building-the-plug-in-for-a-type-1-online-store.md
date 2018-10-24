@@ -24,8 +24,6 @@ keywords:
 - Windows Media Player plug-ins,building
 - IWMPContentPartner
 - building plug-ins,type 1 online stores
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

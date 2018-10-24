@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 02fb24e1-b5e4-4d8e-a1c2-a9bd62a69bed
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - overallConnectionTimeout property Remote Desktop Services

@@ -2,8 +2,6 @@
 title: Animation Control (MSAA UI Element Reference)
 description: Animation controls silently display an audio video interleaved (AVI) clip. Animation controls are usually displayed when files are being copied or when some other time-consuming task is being performed.
 ms.assetid: 2a31d4ba-a1bd-478b-86a9-726fa93ab714
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

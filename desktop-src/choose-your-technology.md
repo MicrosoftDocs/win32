@@ -2,8 +2,6 @@
 Description: When you want to create a new desktop app, the first decision you make is whether to use the Win32 and COM API or .NET.
 ms.assetid: 82705644-F1F0-40F3-99B1-7A97BFB32831
 title: Choose Your Technology
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

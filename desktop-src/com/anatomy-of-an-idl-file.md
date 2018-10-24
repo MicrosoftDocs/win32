@@ -2,8 +2,6 @@
 title: Anatomy of an IDL File
 description: These example IDL files demonstrate the fundamental constructs of interface definition.
 ms.assetid: 9c276b8a-5342-4c09-91a7-c9a9f0f83c73
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

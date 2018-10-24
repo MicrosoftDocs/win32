@@ -2,8 +2,6 @@
 Description: The HANDOFFTABLE structure defines the protocols of a handoff table.
 ms.assetid: '6bb7465b-c1ba-4ffe-aecf-8125993c309a'
 title: HANDOFFTABLE structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

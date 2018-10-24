@@ -2,8 +2,6 @@
 Description: Some applications translate (or shift) objects drawn in the client area.
 ms.assetid: e319a5c6-a045-42b1-a83e-3a978172b52c
 title: Translation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

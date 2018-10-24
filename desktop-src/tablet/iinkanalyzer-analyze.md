@@ -2,8 +2,6 @@
 Description: Performs synchronous ink analysis.
 ms.assetid: 957845f3-96b4-4184-aaec-e266cbe47e46
 title: IInkAnalyzer::Analyze method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

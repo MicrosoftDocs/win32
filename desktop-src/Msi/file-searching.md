@@ -2,8 +2,6 @@
 Description: During installation, there is often the need to search for a specific file.
 ms.assetid: cfcd7cdb-7547-45f4-bf11-c9f0edc4f7bf
 title: File Searching
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

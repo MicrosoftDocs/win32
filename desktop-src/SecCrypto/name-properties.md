@@ -2,8 +2,6 @@
 Description: Name properties are properties of certificates and certificate requests that represent data about the subject, that is, the owner of the certificate or the individual for whom a certificate is requested.
 ms.assetid: c32756f7-4431-410e-ab3a-c7b748a43829
 title: Name Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

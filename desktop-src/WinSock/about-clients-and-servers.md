@@ -2,8 +2,6 @@
 Description: 'There are two distinct types of socket network applications: Server and Client.'
 ms.assetid: 05e42384-1746-462d-82c7-8df848b4525e
 title: About Servers and Clients
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

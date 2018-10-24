@@ -2,8 +2,6 @@
 title: Backup Functions
 description: The following functions are used with tape backup.
 ms.assetid: 8c5f92f7-4918-475c-bc86-2b02291488d5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

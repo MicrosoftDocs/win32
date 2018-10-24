@@ -2,8 +2,6 @@
 Description: Seeking the Filter Graph
 ms.assetid: 525605c8-cffa-4b2c-bd2f-eb02d3ff3e95
 title: Seeking the Filter Graph
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: When an application performs an IPropertyStorage::WriteMultiple operation on any writeable Windows Image Acquisition (WIA) property, the WIA driver performs a validation on the new property value.
 ms.assetid: 61ab2b8b-4c0a-40f4-87f0-2dd3ceea70ab
 title: WIA Property Validation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following example uses a semaphore object to limit the number of threads that can perform a particular task.
 ms.assetid: 24a5c13c-573a-4fc2-ac19-98188c9eb68a
 title: Using Semaphore Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

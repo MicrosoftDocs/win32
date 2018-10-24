@@ -2,8 +2,6 @@
 Description: Generates C constant declarations for XML schema tables for known types.
 ms.assetid: e55a140c-3b2b-4f90-99e3-f62c892a8bae
 title: typeTableDeclarations element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

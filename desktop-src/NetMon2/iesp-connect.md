@@ -2,8 +2,6 @@
 Description: The Connect method connects the NPP to the network by using a specified NIC and provides configuration information about the connection.
 ms.assetid: 48189b2b-9889-4bd8-8972-26005fb7c341
 title: IESP::Connect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

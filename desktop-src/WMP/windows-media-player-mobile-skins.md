@@ -6,8 +6,6 @@ keywords:
 - Windows Media Player Mobile,skins
 - Windows Media Player Mobile skins,about
 - skins,Windows Media Player Mobile
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Typically, a provider provides data on behalf of an application.
 ms.assetid: 65ea6099-79df-4baa-9752-7df032ccc9a0
 title: Communicating With Your Application
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

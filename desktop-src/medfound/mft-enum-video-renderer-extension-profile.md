@@ -2,8 +2,6 @@
 Description: Contains a list of all VideoRendererExtensionProfile entries in the VideoRendererExtensionProfiles tag of a UWP app manifest file.
 ms.assetid: 2EFFA81C-5609-43FA-8151-D06C28A0FCC4
 title: MFT_ENUM_VIDEO_RENDERER_EXTENSION_PROFILE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

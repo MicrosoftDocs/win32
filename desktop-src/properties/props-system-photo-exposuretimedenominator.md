@@ -2,8 +2,6 @@
 Description: The denominator of PKEY\_Photo\_ExposureTime.
 ms.assetid: 144677e0-b6dc-405c-95a7-b5403a548477
 title: System.Photo.ExposureTimeDenominator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

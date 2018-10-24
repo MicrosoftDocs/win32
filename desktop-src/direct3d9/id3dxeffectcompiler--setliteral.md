@@ -2,8 +2,6 @@
 Description: Toggles the literal status of a parameter. A literal parameter has a value that doesn't change during the lifetime of an effect.
 ms.assetid: 09ebf666-8a50-4604-abef-aed0d92a6d49
 title: ID3DXEffectCompiler::SetLiteral method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

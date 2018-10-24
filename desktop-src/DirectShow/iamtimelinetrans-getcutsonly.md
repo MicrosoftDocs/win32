@@ -2,8 +2,6 @@
 Description: The GetCutsOnly method determines whether the transition is rendered as a cut. If so, the transition occurs instantaneously at the cut point.
 ms.assetid: d7959816-1152-4bc4-b3f8-bed69b450530
 title: IAMTimelineTrans::GetCutsOnly method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

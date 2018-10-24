@@ -7,8 +7,6 @@ keywords:
 - MBR (multiple bit rate),mutual exclusion
 - mutual exclusion,multiple bit rate (MBR)
 - profiles,multiple bit rate (MBR)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

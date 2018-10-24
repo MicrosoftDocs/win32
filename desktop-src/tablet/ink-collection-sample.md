@@ -2,8 +2,6 @@
 Description: This application is based on the InkCollector object and demonstrates the collection of ink.
 ms.assetid: e799fb16-5a1e-4d57-a033-554f72e2e685
 title: Ink Collection Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

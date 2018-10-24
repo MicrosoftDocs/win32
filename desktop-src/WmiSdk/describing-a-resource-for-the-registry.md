@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e66f1db8-a5f3-41d3-9835-34b81b9da5ed
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing a Resource for the Registry
 ms.author: windowssdkdev

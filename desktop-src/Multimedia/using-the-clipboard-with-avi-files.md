@@ -5,8 +5,6 @@ ms.assetid: 76ef7cc9-9afd-462a-b9fe-2b62f8113a9a
 keywords:
 - AVIPutFileOnClipboard function
 - AVIGetFromClipboard function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: e8e9138a-6c39-41de-a7f8-d9e9c4fe5ab6
 title: CCritSec.CCritSec constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

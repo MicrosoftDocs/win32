@@ -2,8 +2,6 @@
 Description: Analog Television Tuning
 ms.assetid: f4ae76e3-0f61-4a33-8ea4-ef14a117df6a
 title: Analog Television Tuning
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following are the Mergemod interfaces.
 ms.assetid: 5bf62763-bee7-4459-a75c-65ff7730e0a5
 title: Mergemod Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Constructor method. The constuctor provides the mapping between old-style multimedia format DWORD types and GUID subtypes.
 ms.assetid: 35344aae-ed87-4e5e-8824-84f5482b332e
 title: FOURCCMap::FOURCCMap constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

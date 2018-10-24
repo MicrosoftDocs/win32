@@ -2,8 +2,6 @@
 Description: The numerator of PKEY\_GPS\_DOP.
 ms.assetid: 168ed17a-6c45-4c63-97cc-ca7beeaeb7d0
 title: System.GPS.DOPNumerator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

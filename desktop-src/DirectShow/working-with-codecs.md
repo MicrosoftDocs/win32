@@ -2,8 +2,6 @@
 Description: Working with Codecs
 ms.assetid: c69e0ecf-5f72-4d77-90e6-0f493325c0f4
 title: Working with Codecs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

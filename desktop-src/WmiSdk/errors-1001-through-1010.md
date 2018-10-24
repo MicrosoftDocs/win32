@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: dbc0e062-6b2f-41b1-8d6a-ab2c37d2dd1f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 1001 through 1010
 ms.author: windowssdkdev

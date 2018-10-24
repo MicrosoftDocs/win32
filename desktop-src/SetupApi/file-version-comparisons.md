@@ -2,8 +2,6 @@
 Description: If the SP\_COPY\_NEWER flag is specified during a file copy operation, the setup functions check for an existing copy of the file in the target directory.
 ms.assetid: fd493b5d-7bab-4450-a749-745c536902dc
 title: File Version Comparisons
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

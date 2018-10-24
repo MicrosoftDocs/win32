@@ -2,8 +2,6 @@
 title: Overview of the User Interface Development Process
 description: This section outlines the three phases of user interface design and introduces the tasks that are typically associated with each phase.
 ms.assetid: ab544cb9-eed3-4575-a8dd-2f5d7b5c575f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

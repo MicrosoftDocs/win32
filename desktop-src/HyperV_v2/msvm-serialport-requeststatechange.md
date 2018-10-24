@@ -2,8 +2,6 @@
 Description: Requests a state change.
 ms.assetid: 8047c12d-f420-4406-885a-25342789dbb9
 title: RequestStateChange method of the Msvm_SerialPort class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: IAgentBalloon GetFontStrikethru
 description: IAgentBalloon GetFontStrikethru
 ms.assetid: b5c253e8-dca7-44a6-b63b-a33e6e793a40
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

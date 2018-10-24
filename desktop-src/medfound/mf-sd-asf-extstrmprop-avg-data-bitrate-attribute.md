@@ -2,8 +2,6 @@
 Description: Specifies the average data bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 3a0b39ab-e9a9-49df-a321-a88559aec16f
 title: MF_SD_ASF_EXTSTRMPROP_AVG_DATA_BITRATE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: hashes and encodes a text message, and then decodes and verifies the message.
 ms.assetid: effe4080-63c1-4f35-a5e3-e7e60754b28f
 title: 'Example C Program: Encoding and Decoding a Hashed Message'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

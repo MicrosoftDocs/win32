@@ -2,8 +2,6 @@
 title: Freeing WinSNMP Descriptors
 description: The WinSNMP programming environment assigns the deallocation of descriptor resources to the WinSNMP implementation or the WinSNMP application, depending on which component allocates the memory for the descriptor.
 ms.assetid: 3e4cbbc5-18bc-4731-971c-6e533d904f56
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

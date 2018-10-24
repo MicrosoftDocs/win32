@@ -2,8 +2,6 @@
 Description: Creates a sprite object which is associated with a particular device. Sprite objects are used to draw 2D images to the screen.
 ms.assetid: 1611073f-0590-415a-8ea5-dc1d224f20b9
 title: D3DXCreateSprite function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

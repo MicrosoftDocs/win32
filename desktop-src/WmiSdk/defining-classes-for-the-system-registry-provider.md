@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e8707a3d-a393-4be0-9e86-297f0af15d99
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Defining Classes for the System Registry Provider
 ms.author: windowssdkdev

@@ -7,8 +7,6 @@ keywords:
 - OpenGL on Windows,pixmaps
 - porting to OpenGL,pixmaps
 - OpenGL porting,pixmaps
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

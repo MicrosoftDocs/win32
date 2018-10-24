@@ -2,8 +2,6 @@
 Description: An application-defined function that frees memory allocated by the AuthzComputeGroupsCallback function. AuthzFreeGroupsCallback is a placeholder for the application-defined function name.
 ms.assetid: 5563311c-2bd1-4e96-ba0a-5a4225050f77
 title: AuthzFreeGroupsCallback callback function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

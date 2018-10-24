@@ -2,8 +2,6 @@
 title: How to Initialize a Texture From a File
 description: This topic shows how to use Windows Imaging Component (WIC) to create the texture and the view separately.
 ms.assetid: ea3c6003-191d-47d1-8931-f43598728ad4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

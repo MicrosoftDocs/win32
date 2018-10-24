@@ -2,8 +2,6 @@
 Description: 'A line is a set of highlighted pixels on a raster display (or a set of dots on a printed page) identified by two points: a starting point and an ending point.'
 ms.assetid: 538aa3c3-e13a-40dc-b977-3e353a7e9893
 title: Lines
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

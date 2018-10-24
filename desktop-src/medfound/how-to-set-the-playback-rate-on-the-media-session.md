@@ -2,8 +2,6 @@
 Description: How to Set the Playback Rate on the Media Session
 ms.assetid: 3663b63f-127c-49fc-923a-d05521fe3d35
 title: How to Set the Playback Rate on the Media Session
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

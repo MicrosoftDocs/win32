@@ -2,8 +2,6 @@
 title: Toolbar Control Structures
 description: .
 ms.assetid: 0db291f3-b558-434f-8dde-eddff5b82ba6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

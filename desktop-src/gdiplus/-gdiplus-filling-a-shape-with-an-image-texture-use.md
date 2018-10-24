@@ -2,8 +2,6 @@
 Description: You can fill a closed shape with a texture by using the Image class and the TextureBrush class.
 ms.assetid: 12e1e132-a93f-4438-8a1d-9036a43a8fd8
 title: Filling a Shape with an Image Texture
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

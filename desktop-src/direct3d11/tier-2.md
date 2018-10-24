@@ -2,8 +2,6 @@
 title: Tier 2
 description: This section describes tier 2 support.
 ms.assetid: 4A4AEF13-2F0F-482E-9262-256C257ED85A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

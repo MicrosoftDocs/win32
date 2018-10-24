@@ -2,8 +2,6 @@
 Description: The functions CertAddCertificateLinkToStore, CertAddCRLLinkToStore, and CertAddCTLLinkToStore add links to existing contexts into certificate stores rather than adding copies of those contexts.
 ms.assetid: 482fb11e-eb59-4de2-a2ad-c1960617e64b
 title: Certificate Links
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

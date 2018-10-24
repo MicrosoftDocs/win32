@@ -2,8 +2,6 @@
 title: Registers - ps_5_0
 description: The following input and output registers are implemented in the pixel shader version 5\_0.
 ms.assetid: F16E5CB8-E1DB-48CD-8C20-DBF1DF971110
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

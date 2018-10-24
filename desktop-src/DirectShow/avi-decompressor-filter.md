@@ -2,8 +2,6 @@
 Description: AVI Decompressor Filter
 ms.assetid: 6a9914db-483a-429c-9b26-9451578951c9
 title: AVI Decompressor Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

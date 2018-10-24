@@ -2,8 +2,6 @@
 title: UI_PKEY_Minimized
 description: Identifies the UI\_PKEY\_Minimized property.
 ms.assetid: 52f3558b-f8a0-45d7-9eb4-b63993ae8cac
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

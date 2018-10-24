@@ -2,8 +2,6 @@
 Description: This section contains reference information for the component object model (COM) interfaces provided by the D3DX utility library. The following interfaces are used with the D3DX utility library.
 ms.assetid: c57d9c39-3f30-4205-9b0a-665fe53f2b14
 title: D3DX Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

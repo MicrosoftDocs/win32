@@ -2,8 +2,6 @@
 Description: The first step in using Windows Image Acquisition (WIA) services is to obtain an IWiaDevMgr interface pointer (if you are programming for Windows XP or earlier) or an IWiaDevMgr2 interface pointer (if you are programming for Windows Vista or later).
 ms.assetid: 8f20c64a-db79-4c3c-a544-685ed82143bb
 title: Creating a WIA Device Manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

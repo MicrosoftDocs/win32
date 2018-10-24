@@ -5,8 +5,6 @@ ms.assetid: e86740e5-633e-465d-94ef-8065a8c05b31
 keywords:
 - MCI structures
 - MCI reference,structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

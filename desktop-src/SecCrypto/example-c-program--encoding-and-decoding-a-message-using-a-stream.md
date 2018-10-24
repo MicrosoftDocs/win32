@@ -2,8 +2,6 @@
 Description: Demonstrates how to use the CryptMsgOpenToEncode, CryptMsgOpenToDecode, and CryptMsgUpdate functions with the CMSG\_STREAM\_INFO structure to encode and decode a message using the streaming features of these functions.
 ms.assetid: 6c9c0509-1ad9-42cd-9589-e77752df6739
 title: 'Example C Program: Encoding and Decoding a Message Using a Stream'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

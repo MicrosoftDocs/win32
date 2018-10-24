@@ -2,8 +2,6 @@
 Description: Capturing a Stream
 ms.assetid: 1d9072dc-4f9b-4111-a747-5eb33ad3ae5b
 title: Capturing a Stream
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

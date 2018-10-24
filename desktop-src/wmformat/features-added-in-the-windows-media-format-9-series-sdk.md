@@ -53,8 +53,6 @@ keywords:
 - two-pass encoding,about
 - 2-pass encoding,about
 - WMStub.lib
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

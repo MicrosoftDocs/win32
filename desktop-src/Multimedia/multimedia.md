@@ -3,8 +3,6 @@ title: Multimedia
 description: This glossary contains definitions for terms used in the Windows Multimedia documentation.
 Robots: noindex, nofollow
 ms.assetid: 0c35d8cd-0226-4161-bbb9-cb754785274c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

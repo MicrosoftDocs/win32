@@ -2,8 +2,6 @@
 Description: The following steps are taken to perform simple stream recording.
 ms.assetid: fde8a6cf-1080-4575-a923-ea1590d1e2a1
 title: Simple Record
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

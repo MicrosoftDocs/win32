@@ -2,8 +2,6 @@
 title: Registering a Running EXE Server
 description: Registering a Running EXE Server
 ms.assetid: 277f44bb-72b7-4409-955d-2cd53bc99467
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

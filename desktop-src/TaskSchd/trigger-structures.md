@@ -2,8 +2,6 @@
 title: Trigger Structures for Task Scheduler 1.0
 description: Task Scheduler 1.0 uses several structures to define the criteria of a trigger.
 ms.assetid: dd2ae4f6-fb2d-41f8-9400-7426b7ca4546
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

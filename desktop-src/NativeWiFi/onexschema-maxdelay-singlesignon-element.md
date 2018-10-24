@@ -2,8 +2,6 @@
 Description: Specifies, in seconds, the maximum delay before the single sign on connection attempt fails.
 ms.assetid: ba8c137e-dd05-4ebc-9a83-cd612f65d4dc
 title: maxDelay (singleSignOn) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

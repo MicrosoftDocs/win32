@@ -2,8 +2,6 @@
 Description: Defines a valid C/C++ symbol name.
 ms.assetid: 75f74a16-0be4-466b-a88d-247c8c94f4ce
 title: CSymbolType Simple Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

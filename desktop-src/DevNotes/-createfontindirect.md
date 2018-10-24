@@ -2,8 +2,6 @@
 Description: Creates a logical font.
 ms.assetid: 1713d8ab-99f5-42d1-afb3-de2d66c033b6
 title: '_CreateFontIndirect function'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

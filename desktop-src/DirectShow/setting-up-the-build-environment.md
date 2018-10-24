@@ -2,8 +2,6 @@
 Description: Building DirectShow Applications
 ms.assetid: 2fbdbe49-0d4d-4dce-afc3-7049c793ace0
 title: Building DirectShow Applications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

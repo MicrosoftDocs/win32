@@ -10,8 +10,6 @@ api_name:
 - I have an AVI file containing a Windows Media Video stream. How can I convert it to a WMV file
 api_type:
 - NA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

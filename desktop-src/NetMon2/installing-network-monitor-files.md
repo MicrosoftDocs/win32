@@ -2,8 +2,6 @@
 Description: To install and run the Network Monitor portion of the Platform Software Development Kit (SDK), follow this procedure.
 ms.assetid: da0578f1-0672-41f3-91ea-500a66d6ffc5
 title: Installing Network Monitor Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

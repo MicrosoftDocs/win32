@@ -2,8 +2,6 @@
 title: Visuals
 description: Visuals include the visual elements other than the controls. These guidelines help you make decisions about layout, fonts, color, icons, and so on in your app.
 ms.assetid: 01A66C6C-4F2B-4148-A571-43CFF7752F2B
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The PdhVbIsGoodStatus function tests a status value to determine if it is a success or failure code. If the status value is a successful one, then the return value will be nonzero. If it is a failure status code, the return value will be zero.
 ms.assetid: bdca8f64-5dcd-4ecb-ba95-72f7a56c0439
 title: PdhVbIsGoodStatus function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

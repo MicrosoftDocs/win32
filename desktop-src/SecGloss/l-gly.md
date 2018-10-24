@@ -3,8 +3,6 @@ Description: Contains definitions of security terms that begin with the letter L
 Robots: noindex, nofollow
 ms.assetid: 65dd9a04-fc7c-4179-95ff-dac7dad4668f
 title: L
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

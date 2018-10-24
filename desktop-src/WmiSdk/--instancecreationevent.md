@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 41976479-70e3-4914-a56a-fa94a1fd31c7
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__InstanceCreationEvent class'
 ms.author: windowssdkdev

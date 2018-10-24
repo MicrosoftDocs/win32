@@ -2,8 +2,6 @@
 Description: ICEM02 verifies that all the module dependencies and exclusions are related to the current module.
 ms.assetid: c7d77cb6-0ee6-4857-a749-7908e1c5fcda
 title: ICEM02
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

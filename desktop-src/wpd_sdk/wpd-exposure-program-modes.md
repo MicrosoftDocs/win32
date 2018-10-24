@@ -2,8 +2,6 @@
 Description: The WPD\_EXPOSURE\_PROGRAM\_MODES enumeration type describes an exposure mode to use when capturing images with a device.
 ms.assetid: 68b76294-6ad3-4f4a-bf02-bc31c9e8ac62
 title: WPD_EXPOSURE_PROGRAM_MODES enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

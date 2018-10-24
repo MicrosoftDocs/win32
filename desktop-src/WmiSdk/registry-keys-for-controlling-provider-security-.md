@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f93ac155-512c-4efa-8168-ca2d56fe6f01
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registry Keys and Values for Controlling Provider Security
 ms.author: windowssdkdev

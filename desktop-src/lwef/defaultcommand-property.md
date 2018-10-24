@@ -2,8 +2,6 @@
 title: DefaultCommand Property
 description: DefaultCommand Property
 ms.assetid: ba4d51fc-7178-4dbb-9ae5-f1991f40aad6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 0A4EAD6C-5DA9-4ED3-BA79-92AE5AE81C9F
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - OnKeyCombinationPressed method Remote Desktop Services

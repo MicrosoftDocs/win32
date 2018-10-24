@@ -2,8 +2,6 @@
 Description: If you plan to associate one or more file types with a new application, you must define a ProgID for each file type that you want to associate with the application.
 ms.assetid: 997600C9-5264-44EC-BAEC-CB5CEEA0BD14
 title: How to Register a File Type for a New Application
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

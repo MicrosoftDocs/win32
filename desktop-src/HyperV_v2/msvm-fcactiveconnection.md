@@ -2,8 +2,6 @@
 Description: Connects a switch port to the Fibre Channel endpoint to which the port is connected.
 ms.assetid: e2762e0c-2f78-4159-a67c-31213e311072
 title: Msvm_FcActiveConnection class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

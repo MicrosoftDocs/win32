@@ -2,8 +2,6 @@
 Description: The IAMTimelineComp interface inserts or retrieves virtual tracks on a composition in DirectShow Editing Services (DES).A composition is a collection of layers that acts as a single, composited track.
 ms.assetid: b0a47303-9e3c-4b78-ac90-c5d8fce2b727
 title: IAMTimelineComp interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

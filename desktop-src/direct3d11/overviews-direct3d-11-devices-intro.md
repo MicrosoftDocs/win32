@@ -2,8 +2,6 @@
 title: Introduction to a Device in Direct3D 11
 description: The Direct3D 11 object model separates resource creation and rendering functionality into a device and one or more contexts; this separation is designed to facilitate multithreading.
 ms.assetid: b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

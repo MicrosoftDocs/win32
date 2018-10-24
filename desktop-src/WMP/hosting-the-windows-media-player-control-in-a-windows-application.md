@@ -19,8 +19,6 @@ keywords:
 - ActiveX control,Windows-based programs
 - Windows-based program embedding
 - embedding,Windows-based programs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

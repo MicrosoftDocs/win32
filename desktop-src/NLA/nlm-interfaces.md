@@ -2,8 +2,6 @@
 title: NLM Interfaces
 description: NLM Interfaces
 ms.assetid: 57cc2a07-4551-428c-a303-9b1a4510f225
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

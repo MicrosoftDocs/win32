@@ -2,8 +2,6 @@
 title: Using WinSAT
 description: You can use the Windows System Assessment Tool (WinSAT) API to initiate formal and ad hoc assessments of the computer's hardware configuration, retrieve the base score for the computer and scores for each subcomponent of the assessment, and retrieve details of the assessment, such as the details of the processor that was assessed.
 ms.assetid: b0860c4a-cec3-440c-b31a-7e7ad1b393d2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

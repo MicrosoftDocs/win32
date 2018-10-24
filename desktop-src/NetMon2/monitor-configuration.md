@@ -2,8 +2,6 @@
 Description: Monitors can be configured using the Network Monitor UI. End-users can pass configuration criteria to your monitor using an HTML form stored as an HTM file in the following sub folder of your installed Network Monitor SDK.
 ms.assetid: 7add5984-5bef-431c-a026-06575514397c
 title: Monitor Configuration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

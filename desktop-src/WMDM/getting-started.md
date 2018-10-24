@@ -11,8 +11,6 @@ keywords:
 - Windows Media Device Manager,service providers
 - Device Manager,service providers
 - service providers,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Mixed-Mode DPI Scaling and DPI-aware APIs
 description: .
 ms.assetid: 44AC0B29-3283-4801-90F5-3E78CCD87B9F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

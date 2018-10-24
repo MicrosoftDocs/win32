@@ -2,8 +2,6 @@
 title: 3D Lookup Table effect
 description: A 3D look-up table is a general-purpose effect that is used to encapsulate any 1 1 imaging effect by pre-computing how the effect maps inputs to outputs for a subset of all input values.
 ms.assetid: 2f0b4b6d-f371-101c-918a-bf564778e593
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

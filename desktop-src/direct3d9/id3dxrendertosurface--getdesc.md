@@ -2,8 +2,6 @@
 Description: Retrieves the parameters of the render surface.
 ms.assetid: 4f46a4c6-7c50-479c-b2f5-24edff590c57
 title: ID3DXRenderToSurface::GetDesc method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

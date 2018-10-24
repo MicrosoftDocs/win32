@@ -2,8 +2,6 @@
 Description: When a device is successfully reset (IDirect3DDevice9::Reset) or created (IDirect3D9::CreateDevice) in full-screen operations, the Direct3D object that created the device is marked as owning all adapters on that system.
 ms.assetid: df3b6ed7-830b-4635-9295-fff05cc35891
 title: Multiple-Monitor Operations (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

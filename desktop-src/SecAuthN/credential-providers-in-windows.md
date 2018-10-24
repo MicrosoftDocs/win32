@@ -2,8 +2,6 @@
 Description: Credential Providers in Windows 10
 ms.assetid: BCF69196-D4E4-41D0-B372-5000FD50164B
 title: Credential Providers in Windows 10
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

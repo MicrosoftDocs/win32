@@ -2,8 +2,6 @@
 Description: Step 2.
 ms.assetid: 74fbfc16-541f-4f80-a72f-26b67dc09a93
 title: Step 2. Declare the Filter Class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

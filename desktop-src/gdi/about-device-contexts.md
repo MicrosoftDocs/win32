@@ -2,8 +2,6 @@
 Description: Device independence is one of the chief features of Microsoft Windows.
 ms.assetid: f2a4c4cf-55e9-4129-8067-256552af49d2
 title: About Device Contexts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

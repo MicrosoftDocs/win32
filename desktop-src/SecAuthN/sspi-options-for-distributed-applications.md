@@ -2,8 +2,6 @@
 Description: SSPI Options for Distributed Applications
 ms.assetid: e67cc054-7e48-43e7-a4b0-d1d90e9511f2
 title: SSPI Options for Distributed Applications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

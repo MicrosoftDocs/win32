@@ -2,8 +2,6 @@
 Description: Returns the conjugate of a quaternion.
 ms.assetid: f690fdd8-7805-4fc1-9064-4f249d5f7c4f
 title: D3DXQuaternionConjugate function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

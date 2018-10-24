@@ -2,8 +2,6 @@
 Description: Machine system policies used with the Windows Installer.
 ms.assetid: af47dc84-2190-4e73-9d87-d5ddb0584ce7
 title: Machine Policies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

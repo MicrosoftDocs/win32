@@ -5,8 +5,6 @@ ms.assetid: fefa668e-803f-4e05-8097-b75231ee8f72
 keywords:
 - retrieving task parameters Task Scheduler
 - retrieving task properties Task Scheduler , parameters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

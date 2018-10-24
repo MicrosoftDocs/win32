@@ -13,8 +13,6 @@ keywords:
 - Client Extended APIs,verification
 - DRM Client Extended APIs,initialization
 - Client Extended APIs,initialization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

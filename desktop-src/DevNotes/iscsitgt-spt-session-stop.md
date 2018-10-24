@@ -2,8 +2,6 @@
 Description: Used with the IOCTL\_SCSI\_MINIPORT IOCTL and the CTLCODE\_ISCSITGT\_SPT\_SESSION\_END (0x101) control code to stop a session.
 ms.assetid: 74DAA560-A5BA-475C-AA36-7E6F0EA82EFE
 title: ISCSITGT_SPT_SESSION_STOP structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

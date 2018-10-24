@@ -2,8 +2,6 @@
 Description: Creates a render environment map.
 ms.assetid: 5ca10602-5ab1-4766-a350-706c46c55df2
 title: D3DXCreateRenderToEnvMap function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

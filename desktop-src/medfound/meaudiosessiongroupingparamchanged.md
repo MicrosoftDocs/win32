@@ -2,8 +2,6 @@
 Description: Raised by the audio renderer when the grouping parameters change for the audio session.
 ms.assetid: d6f7757c-fd91-40bd-b2b5-a3e808445250
 title: MEAudioSessionGroupingParamChanged event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

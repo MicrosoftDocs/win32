@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.Photo.EXIFVersion property.
 ms.assetid: 0f9c5ea8-918f-4101-8492-3f408145a73e
 title: System.Photo.EXIFVersion Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

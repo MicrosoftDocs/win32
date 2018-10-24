@@ -12,8 +12,6 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

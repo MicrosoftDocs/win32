@@ -4,8 +4,6 @@ description: The topics in this section provide examples that show how to accomp
 ms.assetid: b0756896-40b7-47a3-be8e-8ab100b022a5
 keywords:
 - Direct2D,how to use
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic describes improvements in Windows 8 for work queues and threading in the Microsoft Media Foundation platform.
 ms.assetid: 9E2A1D94-BF82-488E-8297-D524683ABE17
 title: Work Queue and Threading Improvements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Traditional textures are considered to be single-element textures.
 ms.assetid: 8fe8da80-0879-413a-a7db-617d2f558b28
 title: Multiple-element Textures (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: The interface proxy file (U\_p.c) is a C file that contains routine
 ms.assetid: f85f7384-a590-4146-9705-2e87f1a0a87a
 keywords:
 - MIDL and COM MIDL , interfaces, proxy files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

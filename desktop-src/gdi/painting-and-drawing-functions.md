@@ -2,8 +2,6 @@
 Description: The following functions are used with painting and drawing.
 ms.assetid: ec18323e-c13b-4328-83bf-9e4ed4a712b8
 title: Painting and Drawing Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A service control program can create or modify the DACL associated with a service to control access.
 ms.assetid: 24bfb2b5-34be-4d38-a690-90d29f5d4f9c
 title: Modifying the DACL for a Service
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

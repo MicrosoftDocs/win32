@@ -2,8 +2,6 @@
 title: Windows App Certification Kit
 description: Windows App Certification Kit
 ms.assetid: 576A7200-99ED-43FC-8B0C-72F63D2C7000
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

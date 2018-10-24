@@ -1,8 +1,6 @@
 ---
 ms.assetid: 4AD5DE71-7BE1-4A8A-83E6-A9BB6A9520B3
 title: Service Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

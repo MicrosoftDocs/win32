@@ -2,8 +2,6 @@
 Description: Sets the Picture Parameter Set (PPS) identifier.
 ms.assetid: 624381A7-50F4-4481-8A02-3D377F0A713D
 title: CODECAPI_AVEncH264PPSID property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

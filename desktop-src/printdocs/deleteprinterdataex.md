@@ -2,8 +2,6 @@
 Description: The DeletePrinterDataEx function deletes a specified value from the configuration data for a printer.
 ms.assetid: bcc9cdb3-0fbf-40b6-9de2-1479c3c0ff55
 title: DeletePrinterDataEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

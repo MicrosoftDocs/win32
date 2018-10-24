@@ -2,8 +2,6 @@
 title: Transaction Flags
 description: An object can be opened in either direct or transacted mode.
 ms.assetid: f3be52b9-957c-4ab9-8fc1-e765faae2489
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

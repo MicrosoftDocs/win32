@@ -2,8 +2,6 @@
 Description: Collaboration API Enumerations
 ms.assetid: f72e372a-0d23-47f4-8518-1296ec81ce55
 title: Collaboration API Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

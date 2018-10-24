@@ -2,8 +2,6 @@
 Description: Contains the methods used for negotiating which type of token is used for authenticating the endpoint of a service.
 ms.assetid: F6177B24-C166-4BEC-83D6-3AD5B5B3CF08
 title: IUpdateEndpointAuthProvider interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

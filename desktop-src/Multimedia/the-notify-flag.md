@@ -4,8 +4,6 @@ description: The Notify Flag
 ms.assetid: ed5dbb0b-ce4d-4bda-8daa-c62cfda717d1
 keywords:
 - MCI_NOTIFY flag
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

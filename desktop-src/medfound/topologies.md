@@ -2,8 +2,6 @@
 Description: Topologies
 ms.assetid: '6fc19244-0f42-4d23-899d-c79e97018855'
 title: Topologies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

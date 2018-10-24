@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 628e9a31-7b0d-4099-bfa5-56330bb4eb6b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Invoking a Synchronous Query
 ms.author: windowssdkdev

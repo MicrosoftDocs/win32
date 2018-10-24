@@ -2,8 +2,6 @@
 Description: Async Filter Sample
 ms.assetid: ad1f2386-6d23-4a6d-8542-bbca53df4825
 title: Async Filter Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

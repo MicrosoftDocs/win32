@@ -5,8 +5,6 @@ ms.assetid: c0187b65-3cb2-4ab0-8d5f-ca37e8bc0ad7
 keywords:
 - Routing and Remote Access Service RRAS , Routing Table Manager Version 2, tasks
 - Routing Table Manager Version 2 RRAS , tasks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

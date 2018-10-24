@@ -2,8 +2,6 @@
 Description: Represents a hardware accelerator for DirectX Video Acceleration (DXVA) 1.0.
 ms.assetid: 63f77cf9-4c04-4ddb-9582-cfcf86f66a2a
 title: IDirect3DDXVADevice9 interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

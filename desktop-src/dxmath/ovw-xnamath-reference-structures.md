@@ -2,8 +2,6 @@
 Description: Describes the DirectXMath Library types and structures.
 ms.assetid: 58acb05d-e79b-8f42-4cf4-76ae57929739
 title: DirectXMath Library Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

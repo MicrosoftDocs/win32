@@ -5,8 +5,6 @@ ms.assetid: 7dde7346-5853-4c8f-8788-bf74d01ece83
 keywords:
 - MCIWnd window class,about
 - MCIWndCreate function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

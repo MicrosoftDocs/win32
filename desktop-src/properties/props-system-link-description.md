@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a28c687a-7c5c-4c93-a597-5584c5222b19
 title: System.Link.Description
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: fe3bb95c-7f69-47b5-9c3d-771cdc3ed9ca
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ServerFeature class
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 title: IAgentNotifySink Bookmark
 description: IAgentNotifySink Bookmark
 ms.assetid: 172042af-a524-4ea4-955d-4e3dee079344
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

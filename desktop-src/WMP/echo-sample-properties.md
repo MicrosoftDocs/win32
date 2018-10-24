@@ -8,8 +8,6 @@ keywords:
 - digital signal processing plug-ins,Echo sample properties
 - DSP plug-ins,Echo sample properties
 - Echo DSP plug-in sample,properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

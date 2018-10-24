@@ -2,8 +2,6 @@
 Description: Building DirectShow Filters
 ms.assetid: fb907263-e7f3-42d6-80f9-a9f16fc21033
 title: Building DirectShow Filters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

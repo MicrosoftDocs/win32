@@ -2,8 +2,6 @@
 title: Windows Sockets Support for Bluetooth
 description: This section describes how to use the Windows Sockets interface with Bluetooth functionality introduced in Windows Vista.
 ms.assetid: 5f6f21d7-3e09-453f-a5fa-f88ad231de62
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

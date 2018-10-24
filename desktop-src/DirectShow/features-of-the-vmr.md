@@ -2,8 +2,6 @@
 Description: Features of the VMR
 ms.assetid: a809045b-b60d-4092-bc4d-0e70e17d2913
 title: Features of the VMR
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

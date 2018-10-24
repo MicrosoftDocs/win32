@@ -2,8 +2,6 @@
 Description: The TimerCallback method is a callback method for the end-of-stream timer event.
 ms.assetid: ed43d07a-1ece-43ab-8753-ab14fa388946
 title: CBaseRenderer.TimerCallback method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

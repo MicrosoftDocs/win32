@@ -2,8 +2,6 @@
 Description: This section describes best practices for porting an IPv6 broadcast application to the multicast capabilities available with Windows Sockets.
 ms.assetid: 12e491fd-650f-43b4-afa1-9f37b1c30240
 title: Porting Broadcast Applications to IPv6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

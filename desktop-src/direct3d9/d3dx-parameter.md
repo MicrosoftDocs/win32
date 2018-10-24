@@ -2,8 +2,6 @@
 Description: These flags provide additional information about effect parameters.
 ms.assetid: 7e1e4c64-56b8-4fdb-8178-50f7d61b917b
 title: D3DX_PARAMETER
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

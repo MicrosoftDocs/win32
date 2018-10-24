@@ -2,8 +2,6 @@
 Description: Retrieves the identifier of the protocol currently in use on the smart card.
 ms.assetid: 68c75e98-da5c-4e3e-9836-369941751fb0
 title: ISCard::get_Protocol method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

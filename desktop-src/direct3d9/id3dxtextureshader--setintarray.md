@@ -2,8 +2,6 @@
 Description: Sets an array of integers.
 ms.assetid: 1ceb8bb0-d168-49cf-8964-8ae582b5ec2e
 title: ID3DXTextureShader::SetIntArray method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

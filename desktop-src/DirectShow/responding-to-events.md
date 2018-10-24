@@ -2,8 +2,6 @@
 Description: This article describes how to respond to events that occur in a filter graph.
 ms.assetid: 1c09149b-7f34-4296-bd32-dbbae5e1d62b
 title: Responding to Events
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 6f613183-eb70-4b7e-bbea-2ebdeba96f65
 title: System.TransferPosition
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

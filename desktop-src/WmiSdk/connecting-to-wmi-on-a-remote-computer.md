@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 16b00ee3-f721-4912-9e8e-2fdbc897a813
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Connecting to WMI on a Remote Computer
 ms.author: windowssdkdev

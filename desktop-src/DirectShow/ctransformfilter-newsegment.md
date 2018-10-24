@@ -2,8 +2,6 @@
 Description: The NewSegment method notifies the filter that media samples received after this call are grouped as a segment.
 ms.assetid: 78ddaac7-9c1f-47b6-835d-dd16b1f5b01f
 title: CTransformFilter.NewSegment method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

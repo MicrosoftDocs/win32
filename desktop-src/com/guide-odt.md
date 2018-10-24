@@ -2,8 +2,6 @@
 title: Guide
 description: This guide describes compound documents and the COM data transfer mechanism.
 ms.assetid: df23df8f-08be-4b70-9c73-a5e0c2203af6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A standard use of a signature is to sign a text and save that signed text to a file. The signed text could also be sent over the Internet. The signed message is in PKCS \#7 format.
 ms.assetid: '67a36123-4fce-4d40-83c3-b9668221276b'
 title: Signing a Document
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: d3d12shader.h declares the following enumerations, which specify in
 ms.assetid: 68ce6520-8596-4492-992c-58d1fcf8a2c6
 keywords:
 - enumerations, Direct3D 12 Shader
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

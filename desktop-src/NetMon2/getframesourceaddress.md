@@ -2,8 +2,6 @@
 Description: Retrieves the source address of a frame.
 ms.assetid: 414f9e64-f1b2-46f1-822e-0fffacfad843
 title: GetFrameSourceAddress function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

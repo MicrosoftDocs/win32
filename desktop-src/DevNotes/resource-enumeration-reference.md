@@ -2,8 +2,6 @@
 Description: 'The following elements are used in resource enumeration:'
 ms.assetid: 2490127b-b39b-4694-b3c6-e4222f2dc5f9
 title: Resource Enumeration Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

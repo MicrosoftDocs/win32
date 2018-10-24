@@ -10,8 +10,6 @@ keywords:
 - programming guide,DSP plug-ins
 - samples,DSP plug-ins
 - Echo DSP plug-in sample,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

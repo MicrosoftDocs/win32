@@ -2,8 +2,6 @@
 Description: Generates C declarations for values of all enumerated types.
 ms.assetid: 2808edf6-662d-41ee-8e76-f0ee13fe720b
 title: enumerationValueDeclarations element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

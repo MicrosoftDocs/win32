@@ -2,8 +2,6 @@
 Description: The WPD\_COMMAND\_MTP\_EXT\_READ\_DATA command retrieves data from the device after the WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ command is run.
 ms.assetid: d7acb2cc-28b0-4314-99fd-4e7eded22122
 title: WPD_COMMAND_MTP_EXT_READ_DATA Command
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

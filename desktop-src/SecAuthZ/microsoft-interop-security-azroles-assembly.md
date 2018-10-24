@@ -2,8 +2,6 @@
 Description: Authorization interoperability wrapper methods and objects.
 ms.assetid: b262b5d5-250b-43ce-8ac9-6072f1712eb0
 title: Microsoft.Interop.Security.AzRoles Assembly
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

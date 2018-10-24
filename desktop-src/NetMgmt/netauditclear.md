@@ -4,8 +4,6 @@ description: The NetAuditClear function is obsolete. It is included for compatib
 ms.assetid: e767ba9a-3df8-49db-80b3-9f0875cdeaaa
 keywords:
 - NetAuditClear
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

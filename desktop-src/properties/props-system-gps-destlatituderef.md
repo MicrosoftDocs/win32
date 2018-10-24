@@ -2,8 +2,6 @@
 Description: Indicates whether the latitude destination point is north or south latitude.
 ms.assetid: 1c5e760a-11be-44ea-8b5b-3621f3747085
 title: System.GPS.DestLatitudeRef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

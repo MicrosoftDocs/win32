@@ -14,8 +14,6 @@ keywords:
 - DDE (Dynamic Data Exchange),data links
 - Dynamic Data Exchange (DDE),items
 - DDE (Dynamic Data Exchange),items
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

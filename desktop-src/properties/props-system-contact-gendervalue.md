@@ -2,8 +2,6 @@
 Description: Identifies the gender of the contact.
 ms.assetid: 911b6f61-c97c-46ab-9f0b-122a0b97d3dd
 title: System.Contact.GenderValue
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

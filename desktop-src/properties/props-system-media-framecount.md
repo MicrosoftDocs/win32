@@ -2,8 +2,6 @@
 Description: Indicates the frame count for the image.
 ms.assetid: c24d397a-69c3-4a2c-a9b8-967a03a89e58
 title: System.Media.FrameCount
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

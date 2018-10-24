@@ -2,8 +2,6 @@
 title: TraceLogging Macros
 description: TraceLogging defines the following macros that you can use to define a provider, log events, and create activities
 ms.assetid: 412881F2-329E-4537-8CBF-0DF79DA181C5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Converts an array of 16-bit floats to 32-bit floats.
 ms.assetid: cabb2888-76e4-403b-99ab-f7d62478bf43
 title: D3DXFloat16To32Array function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: How to create, manage, and use pipes. A pipe is a section of shared memory that processes use for communication. The process that creates a pipe is the pipe server. A process that connects to a pipe is a pipe client.
 ms.assetid: '7cb8cbe4-eec8-4dda-9cb7-8d37abcee6f4'
 title: Pipes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Strsafe Functions
 description: .
 ms.assetid: 3590dd8d-3a88-4dde-a5fe-f10e12354919
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

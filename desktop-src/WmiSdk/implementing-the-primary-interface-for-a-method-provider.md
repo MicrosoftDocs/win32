@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 39466513-48f3-4bf6-a3ab-e9d2c387480c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for a Method Provider
 ms.author: windowssdkdev

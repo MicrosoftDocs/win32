@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4af4fe1b-2b19-472e-8261-798b374ae57e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Associating Instances Between Namespaces
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: Obsolete. Use AMovieDllRegisterServer2 instead.
 ms.assetid: 80f52109-6239-4e3d-a395-eb69f5278cd2
 title: AMovieDllUnregisterServer function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

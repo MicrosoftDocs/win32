@@ -2,8 +2,6 @@
 Description: Events are a crucial part of call handling under TAPI 3. Event handling includes four stages.
 ms.assetid: 'db43f4e0-f2f5-49b1-a03d-3df3de0e5611'
 title: Events
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

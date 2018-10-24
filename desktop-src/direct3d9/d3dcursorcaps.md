@@ -2,8 +2,6 @@
 Description: Driver cursor capability flags.
 ms.assetid: b763b994-6488-40c0-9c14-e00b19e818b0
 title: D3DCURSORCAPS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: SVG Support
 description: Beginning in Windows 10 Anniversary Update, Direct2D supports rendering color fonts that contain SVG glyph outlines, as described in the OpenType specification (see the ‘SVG ’ table).
 ms.assetid: 5cb4cb7c-9b96-e110-bff9-d75ad1980010
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

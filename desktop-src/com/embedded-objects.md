@@ -2,8 +2,6 @@
 title: Embedded Objects
 description: Embedded Objects
 ms.assetid: 1f863fd4-fead-4dd3-b855-8820e015b52a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

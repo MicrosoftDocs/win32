@@ -2,8 +2,6 @@
 Description: About MMDevice API
 ms.assetid: 3a8fd734-0761-4b5b-ba04-677c7c040988
 title: About MMDevice API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

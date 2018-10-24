@@ -4,8 +4,6 @@ description: Describes the basics of Direct2D layers.
 ms.assetid: 22d161fb-8470-49cc-a523-309f90643ea9
 keywords:
 - Direct2D,layers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

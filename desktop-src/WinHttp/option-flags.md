@@ -2,8 +2,6 @@
 Description: The following option flags are supported by WinHttpQueryOption and WinHttpSetOption.
 ms.assetid: 2d0441f4-ddba-4f2a-8861-8803cad6f1ac
 title: Option Flags
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

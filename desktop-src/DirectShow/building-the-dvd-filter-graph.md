@@ -2,8 +2,6 @@
 Description: Building the DVD Filter Graph
 ms.assetid: 1d2f8284-2deb-4207-b067-24a54d6b286c
 title: Building the DVD Filter Graph
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

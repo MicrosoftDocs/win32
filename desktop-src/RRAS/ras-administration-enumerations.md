@@ -2,8 +2,6 @@
 title: RAS Administration Enumerations
 description: The RAS Administration Functions use the following enumerated types
 ms.assetid: 6d044d35-5c50-4c30-89b4-8963d3b85673
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

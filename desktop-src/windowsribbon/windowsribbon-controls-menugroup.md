@@ -2,8 +2,6 @@
 title: Menu Group
 description: The Menu Group organizes related Commands and controls within a menu or toolbar.
 ms.assetid: 5454f2a3-275b-47f4-ae97-d10dd12da5ff
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

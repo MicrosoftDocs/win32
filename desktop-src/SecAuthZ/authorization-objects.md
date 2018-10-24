@@ -2,8 +2,6 @@
 Description: Lists the objects available in authorization APIs.
 ms.assetid: 448c50f9-1138-4774-97e3-1ed94576fd2a
 title: Authorization Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

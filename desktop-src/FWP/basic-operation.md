@@ -2,8 +2,6 @@
 title: WFP Operation
 description: Windows Filtering Platform (WFP) performs its tasks by integrating the following basic entities Layers, Filters, Shims, and Callouts.
 ms.assetid: bf88ace7-1160-434b-9be0-3f9db6aa2e87
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

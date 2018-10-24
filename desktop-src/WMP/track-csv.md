@@ -7,8 +7,6 @@ keywords:
 - online stores,track.csv
 - type 1 online stores,track.csv
 - track.csv
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

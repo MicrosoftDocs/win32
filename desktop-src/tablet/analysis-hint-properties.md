@@ -2,8 +2,6 @@
 Description: Defines globally unique identifiers (GUIDs) for properties of an analysis hint node (see IContextNode::GetType).
 ms.assetid: 8300c792-a741-49de-a03b-f4840ea5d647
 title: Analysis Hint Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

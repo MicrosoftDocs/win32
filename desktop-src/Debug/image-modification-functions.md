@@ -2,8 +2,6 @@
 Description: The image modification functions allow you to change the executable image.
 ms.assetid: 195959cb-e1ab-4c76-b7f9-f20522feac8c
 title: ImageHlp Image Modification Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This operator adds two reference times.
 ms.assetid: 4dfc087a-ec4f-4a8a-8bd4-4da9e1699bcd
 title: COARefTime.operator+ method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

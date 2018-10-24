@@ -2,8 +2,6 @@
 Description: This tutorial shows how to write a DirectShow application that plays a media file.
 ms.assetid: 88f4762a-e6e6-4b1e-9951-a409d9d80da9
 title: Audio/Video Playback in DirectShow
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

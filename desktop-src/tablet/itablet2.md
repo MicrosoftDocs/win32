@@ -2,8 +2,6 @@
 Description: Extends the ITablet Interface.
 ms.assetid: dd4f3b2e-7f63-4d5b-b50e-64458719c17a
 title: ITablet2 interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

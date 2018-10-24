@@ -2,8 +2,6 @@
 title: VML H Element
 description: VML H Element
 ms.assetid: 2b9aec29-61d8-45dd-b7c6-e4dfd596845f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

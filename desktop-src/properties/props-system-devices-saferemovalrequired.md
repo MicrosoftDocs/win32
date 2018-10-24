@@ -2,8 +2,6 @@
 Description: Indicates whether a device requires safe removal.
 ms.assetid: 584ec98a-b60f-426d-befe-fafcea983f42
 title: System.Devices.SafeRemovalRequired
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Lists structures used in authentication APIs.
 ms.assetid: 576f5dec-8bd5-4686-be68-30746de1d511
 title: Authentication Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

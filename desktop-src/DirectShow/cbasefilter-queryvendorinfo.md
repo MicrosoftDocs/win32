@@ -2,8 +2,6 @@
 Description: The QueryVendorInfo method retrieves a string containing vendor information. This method implements the IBaseFilter::QueryVendorInfo method.
 ms.assetid: 083c0556-d516-4daf-8621-e158ea78b5a3
 title: CBaseFilter.QueryVendorInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

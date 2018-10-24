@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d2414a72-3435-4035-bcd9-b3ec87f5709c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Provider Framework Utility Classes
 ms.author: windowssdkdev

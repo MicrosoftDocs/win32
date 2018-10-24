@@ -2,8 +2,6 @@
 Description: In Authorization Manager, a task is a high-level action that users of an application need to complete.
 ms.assetid: a266dde7-86f8-4537-99a5-be7142e765c6
 title: Grouping Operations into Tasks in Script
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Inductive User Interface
 description: This topic describes the user interface model known as inductive user interface (IUI).
 ms.assetid: d99dc30a-68e5-4b7a-8cbd-0ac77a90a354
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Device Context Operations
 ms.assetid: dd95ffa0-fa9b-403e-9a3a-bfbed6fe3bc5
 title: Device Context Operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

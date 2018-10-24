@@ -12,8 +12,6 @@ keywords:
 - synchronous readers,IWMReaderCallback interface
 - IWMReaderCallback,synchronous readers
 - synchronous readers,reading files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

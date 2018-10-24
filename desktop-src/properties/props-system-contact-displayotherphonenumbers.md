@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 987ab3ff-6b8b-4774-92d7-c3486746d3ca
 title: System.Contact.DisplayOtherPhoneNumbers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

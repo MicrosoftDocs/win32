@@ -3,8 +3,6 @@ title: Z
 description: Domain Name System (DNS) glossary entries that start with Z.
 Robots: noindex, nofollow
 ms.assetid: d1704296-3b89-42d2-9451-dc79357a635e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

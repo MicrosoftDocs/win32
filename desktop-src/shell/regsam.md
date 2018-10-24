@@ -1,8 +1,6 @@
 ---
 Description: A data type used for specifying the security access attributes in the registry.
 title: REGSAM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

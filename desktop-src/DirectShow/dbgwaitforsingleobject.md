@@ -2,8 +2,6 @@
 Description: Waits for an object to become signaled.
 ms.assetid: 5fbcccd9-9db7-4834-852a-86f28218e92e
 title: DbgWaitForSingleObject function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

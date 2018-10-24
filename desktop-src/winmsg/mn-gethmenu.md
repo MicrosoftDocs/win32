@@ -2,8 +2,6 @@
 Description: Retrieves the menu handle for the current window.
 ms.assetid: a2f6e917-39ff-42a3-8ff4-ce01db3ef9ea
 title: MN_GETHMENU message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

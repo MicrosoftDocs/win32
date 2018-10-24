@@ -2,8 +2,6 @@
 Description: DMO Media Types
 ms.assetid: 40958e12-09c7-4ce5-aa4d-5ed8b1f40aa3
 title: DMO Media Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

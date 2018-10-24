@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.GPS.ProcessingMethod property.
 ms.assetid: 840021a8-ec1d-4916-93b2-7cc1803e2d8c
 title: System.GPS.ProcessingMethod Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: If you choose to implement erasing in your application other than by using the InkOverlay object, you can do so by using one of the following two methods.
 ms.assetid: c05c7dbf-c3e0-42a7-a97e-bb9d9764209d
 title: Erasing by Using the Pen
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

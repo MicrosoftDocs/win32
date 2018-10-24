@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 87331C1D-F468-4CA4-92BD-D4E5D4E930BC
 title: Security
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

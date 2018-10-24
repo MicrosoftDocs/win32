@@ -4,8 +4,6 @@ description: The syntax of the Microsoft Interface Definition Language (MIDL) is
 ms.assetid: f99f5934-750d-4c30-9970-803a891cacb7
 keywords:
 - Remote Procedure Call RPC , described, IDL and ACF files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

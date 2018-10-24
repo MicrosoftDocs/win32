@@ -1,8 +1,6 @@
 ---
 Description: Demonstrates how to control the taskbar grouping behavior of an application's windows through the System.AppUserModel.ID property.
 title: Application User Model ID (AppID) Window Property Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

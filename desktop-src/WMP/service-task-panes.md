@@ -12,8 +12,6 @@ keywords:
 - Windows Media Player,service task panes
 - Windows Media Player,task panes
 - service task panes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

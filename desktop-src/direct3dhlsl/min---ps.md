@@ -2,8 +2,6 @@
 title: min - ps
 description: Calculates the minimum of the sources.
 ms.assetid: 2ee6208d-a353-4747-8037-c21dd1a05016
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

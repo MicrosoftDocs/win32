@@ -2,8 +2,6 @@
 Description: The NotifyAllocator method specifies an allocator for the connection. This method implements the IMemInputPin::NotifyAllocator method.
 ms.assetid: 16167bd5-2d33-4329-87ec-6a6c578e0060
 title: CBaseInputPin.NotifyAllocator method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

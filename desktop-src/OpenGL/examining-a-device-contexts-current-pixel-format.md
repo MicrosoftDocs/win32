@@ -4,8 +4,6 @@ description: Use the GetPixelFormat and DescribePixelFormat functions to examine
 ms.assetid: 1da8c8e0-9444-421a-9c2e-c196b5a9db36
 keywords:
 - OpenGL on Windows,pixels
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The WmiRevertToPolicyBrightness method is used to revert the brightness to the policy setting. This method has no effect on the ALS brightness settings.
 ms.assetid: 9a520c3f-3563-4ef4-b397-14e487c8e8bb
 title: WmiRevertToPolicyBrightness method of the WmiMonitorBrightnessMethods class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

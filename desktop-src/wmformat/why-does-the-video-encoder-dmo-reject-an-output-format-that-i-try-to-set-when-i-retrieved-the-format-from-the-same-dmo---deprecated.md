@@ -10,8 +10,6 @@ api_name:
 - Why does the video encoder DMO reject an output format that I try to set, when I retrieved the format from the same DMO
 api_type:
 - NA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

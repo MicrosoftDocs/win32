@@ -2,8 +2,6 @@
 title: User Account Control
 description: A well designed User Account Control experience helps prevent unwanted system-wide changes in a way that is predictable and requires minimal effort.
 ms.assetid: c4b83537-c600-4b24-bda6-df7a82719ab1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

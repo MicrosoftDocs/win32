@@ -2,8 +2,6 @@
 Description: The RegLocator table holds the information needed to search for a file or directory using the registry, or to search for a particular registry entry itself. This table has the following columns.
 ms.assetid: dc88b083-cc1d-46d7-9be8-29ebbf3767a0
 title: RegLocator Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

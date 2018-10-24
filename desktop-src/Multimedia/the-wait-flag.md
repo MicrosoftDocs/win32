@@ -4,8 +4,6 @@ description: The Wait Flag
 ms.assetid: b971ccd4-0507-4f05-adb3-d4930496034d
 keywords:
 - MCI_WAIT flag
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

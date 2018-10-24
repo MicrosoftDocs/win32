@@ -2,8 +2,6 @@
 Description: Sets or retrieves the name of the cryptographic service provider (CSP).
 ms.assetid: 34fde7b0-747d-4592-a89a-207f82369f52
 title: ISCrdEnr::CSPName property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

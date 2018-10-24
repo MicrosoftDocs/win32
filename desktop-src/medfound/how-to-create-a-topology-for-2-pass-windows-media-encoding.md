@@ -2,8 +2,6 @@
 Description: Two-pass encoding modes are supported by certain Windows Media encoders and Media Foundation at the pipeline layer.
 ms.assetid: 3fd5baff-142f-453e-bb97-b355ee6678fc
 title: How to Create a Topology for Two-Pass Windows Media Encoding
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

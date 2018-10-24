@@ -2,8 +2,6 @@
 title: Clarify and Limit Choices
 description: Clarify and Limit Choices
 ms.assetid: 4ec3ca01-231b-4a45-aae1-fba5b2ba0033
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

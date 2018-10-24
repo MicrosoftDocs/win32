@@ -2,8 +2,6 @@
 title: Multicast Group Manager Callbacks
 description: The multicast group manager uses the following callbacks to notify clients (typically, routing protocols) of events and state changes
 ms.assetid: ebabdfaf-8f5f-45be-9f01-f1dbc01a376c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

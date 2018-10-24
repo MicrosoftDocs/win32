@@ -2,8 +2,6 @@
 Description: Contains flags that indicate which capabilities have changed in the Media Session, based on the current presentation.
 ms.assetid: aa01d17f-f2ac-4504-b278-3edd90ab8a23
 title: MF_EVENT_SESSIONCAPS_DELTA attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

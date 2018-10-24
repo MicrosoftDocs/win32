@@ -2,8 +2,6 @@
 Description: Represents a virtual Ethernet switch. Each switch has many different ports to which network adapters can be attached. The switch itself is not highly configurable and acts mostly as a placeholder.
 ms.assetid: 9415477a-9423-40fa-a887-3a93da1374af
 title: Msvm_VirtualEthernetSwitch class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

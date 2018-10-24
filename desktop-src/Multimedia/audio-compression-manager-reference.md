@@ -11,8 +11,6 @@ keywords:
 - ACM (audio compression manager),reference
 - ACM reference,about
 - reference for ACM,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

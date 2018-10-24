@@ -2,8 +2,6 @@
 Description: The GetPropById method of the DeviceInfo object uses a device property's ID to return its value.
 ms.assetid: 9c68e6af-446c-4750-89e6-70862b23b296
 title: DeviceInfo.GetPropById method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a502f0dd-9add-4ebd-bc25-743a55eb78ac
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Incorporating a Provider in an Application
 ms.author: windowssdkdev

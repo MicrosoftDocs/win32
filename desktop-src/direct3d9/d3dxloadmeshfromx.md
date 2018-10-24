@@ -2,8 +2,6 @@
 Description: Loads a mesh from a DirectX .x file.
 ms.assetid: cc43d2c4-3547-4431-b506-010cced26754
 title: D3DXLoadMeshFromX function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

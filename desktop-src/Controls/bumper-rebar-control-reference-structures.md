@@ -2,8 +2,6 @@
 title: Rebar Control Structures
 description: .
 ms.assetid: bc95d164-ce7b-48d8-ac81-55c8a1b497da
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

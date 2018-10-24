@@ -11,8 +11,6 @@ keywords:
 - DRM (digital rights management),playlist burning
 - Windows Media DRM 10
 - playlist burning
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

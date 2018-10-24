@@ -2,8 +2,6 @@
 title: Checking Drive Support
 description: The following example examines disc device characteristics that are independent of media inserted in the device.
 ms.assetid: 2d7e5ff9-7f1b-4bc1-bbc8-5e7eab45cdb0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

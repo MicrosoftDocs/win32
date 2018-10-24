@@ -2,8 +2,6 @@
 Description: The MSIINSTALLPERUSER and the ALLUSERS properties can be set by the user at installation time, through the user interface or on a command line, to request that the Windows Installer install a dual-purpose package for the current user or all users of the computer.
 ms.assetid: 17eb24e4-8464-4724-9768-4b58446ee4bc
 title: MSIINSTALLPERUSER property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

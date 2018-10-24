@@ -2,8 +2,6 @@
 Description: Session keys are keys that are generated to be used in a single communication session.
 ms.assetid: 18bf2023-084d-400d-b60d-1ba51ce6a2bc
 title: Session Keys
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

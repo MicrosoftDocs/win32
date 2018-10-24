@@ -2,8 +2,6 @@
 title: Route Tables and Route Table Entries
 description: The routing table manager maintains distinct route tables for each protocol family.
 ms.assetid: 3848d93d-cc54-4a08-bd36-a9700cde6ce0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

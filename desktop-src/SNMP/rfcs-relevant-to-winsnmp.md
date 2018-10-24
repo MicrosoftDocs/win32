@@ -2,8 +2,6 @@
 title: RFCs Relevant to WinSNMP
 description: TCP/IP standards are defined in Requests for Comments (RFCs), which are published by the Internet Engineering Task Force (IETF). The RFCs that are relevant to WinSNMP features are listed in the following table.
 ms.assetid: d02edf40-d5e0-4f58-a440-a13c160d6735
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

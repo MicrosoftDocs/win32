@@ -2,8 +2,6 @@
 Description: A literal is a string of characters that represents a value in a query statement. You use literals to compare column values or to specify search terms. Windows Search supports the following types of literals.
 ms.assetid: cc526174-3c91-402d-b7d0-69fc9a61c3f9
 title: Literals
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

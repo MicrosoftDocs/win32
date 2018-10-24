@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: fc2747f5-cfbc-4d61-894d-4585a03dda3f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__NotifyStatus class'
 ms.author: windowssdkdev

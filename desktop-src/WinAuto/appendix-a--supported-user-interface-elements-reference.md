@@ -2,8 +2,6 @@
 title: Appendix A Supported User Interface Elements Reference
 description: This appendix contains information about the system-provided UI elements exposed by Microsoft Active Accessibility in Windows 95, Windows 98, Microsoft Windows NT, Windows 2000, Windows XP, and Windows 2000 Server.
 ms.assetid: 5d0a81d8-5d36-4c33-bb8c-abcb8b00166e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

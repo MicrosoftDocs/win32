@@ -8,8 +8,6 @@ keywords:
 - digital signal processing plug-ins,registry entries
 - DSP plug-ins,registry entries
 - registry,DSP plug-ins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

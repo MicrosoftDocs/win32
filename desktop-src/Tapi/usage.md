@@ -2,8 +2,6 @@
 Description: There are two general cases of usage of the TSP UI DLL interface.
 ms.assetid: 7f623efa-a900-4cb0-b9c6-d4a523c2794e
 title: Usage
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

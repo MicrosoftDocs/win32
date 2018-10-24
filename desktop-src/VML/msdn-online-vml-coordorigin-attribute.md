@@ -2,8 +2,6 @@
 title: VML CoordOrigin Attribute
 description: VML CoordOrigin Attribute
 ms.assetid: 0630e670-6ebe-424e-a5e0-545597454283
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

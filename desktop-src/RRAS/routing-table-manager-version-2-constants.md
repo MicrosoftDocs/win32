@@ -5,8 +5,6 @@ ms.assetid: 524f8f24-3980-4728-bbf2-d1cf27dbcb1a
 keywords:
 - Routing and Remote Access Service RRAS ,Routing Table Manager Version 2,constants
 - Routing Table Manager Version 2 RRAS ,constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Dynamic Access Control (DAC) scenario enables centralized access control administration for enterprise file server scenarios.
 ms.assetid: 5A06B8D8-F14B-4D9E-9ED6-4246A26BF945
 title: Centralized Authorization Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

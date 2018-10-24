@@ -2,8 +2,6 @@
 title: Mouse Input
 description: Mouse Input
 ms.assetid: EB074CB6-2BB3-4593-A843-8EE25CA028BE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

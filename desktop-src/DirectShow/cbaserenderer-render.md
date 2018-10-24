@@ -2,8 +2,6 @@
 Description: The Render method renders a sample.
 ms.assetid: 82b47777-2900-4821-ab79-1856da432832
 title: CBaseRenderer.Render method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

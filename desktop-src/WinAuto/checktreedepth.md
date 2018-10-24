@@ -2,8 +2,6 @@
 title: CheckTreeDepth
 description: CheckTreeDepth
 ms.assetid: 6387D1E1-63AF-442C-A049-DEAB09A0A949
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

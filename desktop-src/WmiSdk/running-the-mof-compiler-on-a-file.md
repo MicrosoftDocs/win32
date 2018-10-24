@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 1760f1bd-7027-4201-97a2-ca902f945b52
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Running the MOF Compiler on a File
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: Although the terms width and pitch are often used informally, they have very important, and distinctly different, meanings. As a result, you should understand the meanings for each, and how to interpret the values that Direct3D uses to describe them.
 ms.assetid: 2f99881b-f95d-470f-b14d-8300ad930e2a
 title: Width vs. Pitch (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following samples use the file management functions.
 ms.assetid: 0879898b-b661-48b3-af94-9ba24811503f
 title: Using File Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

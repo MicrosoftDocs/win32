@@ -2,8 +2,6 @@
 Description: An encoder writes image data to a stream. Encoders can compress, encrypt, and alter the image pixels in a number of ways prior to writing them to the stream.
 ms.assetid: e1e3a9d9-209b-46a6-92da-5570476507cf
 title: Encoding Overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

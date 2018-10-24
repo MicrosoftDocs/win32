@@ -2,8 +2,6 @@
 Description: Specifies the MPEG-2 or H.264 level in a video media type. This is an alias of MF\_MT\_MPEG2\_LEVEL.
 ms.assetid: 23786FC8-ACA4-4F6A-98BA-57A8C76BD4C6
 title: MF_MT_VIDEO_LEVEL attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

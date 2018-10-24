@@ -2,8 +2,6 @@
 Description: Retrieves the height of the texture, in pixels.
 ms.assetid: 60bcdfc5-bb82-4a28-8d38-0adb450357c7
 title: ID3DXPRTCompBuffer::GetHeight method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

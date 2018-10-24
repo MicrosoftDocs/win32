@@ -2,8 +2,6 @@
 title: In-Process Server Threading Issues
 description: In-Process Server Threading Issues
 ms.assetid: 7bd6f62f-8c91-44bd-9a7f-d47988180eed
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

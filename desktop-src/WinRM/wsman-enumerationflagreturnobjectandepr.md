@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 052b93df-8a83-4b5e-8325-1ad500b43a88
-ms.prod: windows-server-dev
-ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 keywords:
 - EnumerationFlagReturnObjectAndEPR method Windows Remote Management

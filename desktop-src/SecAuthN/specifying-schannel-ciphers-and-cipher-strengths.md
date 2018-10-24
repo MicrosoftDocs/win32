@@ -2,8 +2,6 @@
 Description: Specifying Schannel Ciphers and Cipher Strengths
 ms.assetid: b87d3e72-df7b-4a00-854e-c3706565ed7d
 title: Specifying Schannel Ciphers and Cipher Strengths
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

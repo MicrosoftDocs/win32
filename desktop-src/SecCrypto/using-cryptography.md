@@ -2,8 +2,6 @@
 Description: The following topics provide information about using cryptography.
 ms.assetid: 2e8637e2-2ff3-404a-a56c-fe99adeeba50
 title: Using Cryptography
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

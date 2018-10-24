@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 0badb5dd-6342-4110-b7a9-0b291dfe8578
 title: System.OfflineStatus
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

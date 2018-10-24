@@ -2,8 +2,6 @@
 title: Multiple Trap Registrations
 description: Several options are available when a WinSNMP application registers a WinSNMP session for traps or notifications.
 ms.assetid: 76a4095f-ab5c-4f7a-9b60-a383a632fd65
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

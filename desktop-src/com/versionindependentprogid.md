@@ -4,8 +4,6 @@ description: Associates a ProgID with a CLSID. This value is used to determine t
 ms.assetid: 5d188db9-ea4f-47fe-882f-a6caa7e86a25
 keywords:
 - VersionIndependentProgID registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Microsoft.Windows.ActCtx object references manifests and provides a way for scripting engines to access side-by-side assemblies. The Microsoft.Windows.ActCtx object can be used to create an instance of a side-by-side assembly with COM components.
 ms.assetid: 818e175e-2c58-4c44-87ce-4e97352fc3f3
 title: Microsoft.Windows.ActCtx object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

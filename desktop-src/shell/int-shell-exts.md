@@ -2,8 +2,6 @@
 Description: Much of the implementation of a Shell extension handler object is dictated by its type. There are, however, some common elements. This topic discusses those aspects of implementation that are shared by all Shell extension handlers.
 ms.assetid: ce21ca0f-157c-4f69-bcf9-dc259c3bac80
 title: Initializing Shell Extension Handlers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

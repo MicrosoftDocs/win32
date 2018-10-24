@@ -2,8 +2,6 @@
 title: Microsoft Agent Animations for Merlin Character
 description: Microsoft Agent Animations for Merlin Character
 ms.assetid: 4563a464-2c1a-4928-a471-e3f0fdfe85c0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

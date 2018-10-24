@@ -2,8 +2,6 @@
 title: Cfgmgr32.h
 description: This section contains reference topics for the Cfgmgr32.h header.
 ms.assetid: 73b4b2ec-ce3d-47c1-9b0e-1052f390ae94
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

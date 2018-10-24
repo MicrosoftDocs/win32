@@ -11,8 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),compressed media subtypes
 - media types,compressed media subtypes
 - compressed media subtypes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

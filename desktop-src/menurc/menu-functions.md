@@ -2,8 +2,6 @@
 title: Menu Functions
 description: .
 ms.assetid: c40719aa-3735-4f46-88f7-6cc20b088ad4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

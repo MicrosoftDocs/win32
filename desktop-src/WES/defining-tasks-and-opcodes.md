@@ -2,8 +2,6 @@
 title: Defining Tasks and Opcodes
 description: Providers use tasks and opcodes to logically group events. Grouping events helps consumers query for only those events that contain specific task and opcode combinations.
 ms.assetid: 6a872517-14de-423e-a7ff-7edb9a29b22d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

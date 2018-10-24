@@ -1,8 +1,6 @@
 ---
 Description: Creates and returns a new ShellWindows object that is a copy of this ShellWindows object.
 title: ShellWindows._NewEnum method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

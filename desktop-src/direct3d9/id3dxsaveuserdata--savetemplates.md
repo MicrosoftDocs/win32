@@ -2,8 +2,6 @@
 Description: A callback for the user to save a .x file template.
 ms.assetid: c2e29495-5eeb-42b8-826e-1a60c1c6bda2
 title: ID3DXSaveUserData::SaveTemplates method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

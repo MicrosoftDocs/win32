@@ -2,8 +2,6 @@
 Description: About the Media Session
 ms.assetid: 09f50b11-0e0a-42b6-a7bf-bb0135343351
 title: About the Media Session
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

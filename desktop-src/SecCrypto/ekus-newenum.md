@@ -2,8 +2,6 @@
 Description: The \_NewEnum property of EKUs retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: c7d038c0-416f-47f7-94ba-74ca877da7ba
 title: EKUs._NewEnum property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

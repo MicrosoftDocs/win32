@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: aeac1e7b-fcb8-4880-afd1-4950da37602b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetSD method of the __SystemSecurity class
 ms.author: windowssdkdev

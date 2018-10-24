@@ -2,8 +2,6 @@
 Description: The GetNPPEtypeSapFilter function retrieves the Etype/Sap filter from a given BLOB.
 ms.assetid: c4891eff-ab2d-43ff-8d2b-3aa299570c0a
 title: GetNPPEtypeSapFilter function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

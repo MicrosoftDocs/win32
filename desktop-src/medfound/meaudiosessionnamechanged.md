@@ -2,8 +2,6 @@
 Description: Raised by the audio renderer when the audio session display name changes.
 ms.assetid: d180b145-88e1-4f85-b001-b76140ca39d8
 title: MEAudioSessionNameChanged event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

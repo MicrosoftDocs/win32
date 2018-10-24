@@ -2,8 +2,6 @@
 Description: The file name, including its extension.
 ms.assetid: 40940026-6c67-4196-aff6-5f846dc94f27
 title: System.FileName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

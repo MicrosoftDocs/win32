@@ -2,8 +2,6 @@
 Description: The DecideAllocator method negotiates an allocator with the output pin.
 ms.assetid: 5c04f440-b177-4caa-989f-3aa783c4b348
 title: CPullPin.DecideAllocator method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

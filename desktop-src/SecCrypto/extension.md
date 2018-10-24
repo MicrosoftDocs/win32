@@ -2,8 +2,6 @@
 Description: Represents a single certificate extension.
 ms.assetid: 'cca3121d-0f0f-4de2-a225-6dd3910078d7'
 title: Extension object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

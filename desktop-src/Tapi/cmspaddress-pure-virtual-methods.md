@@ -2,8 +2,6 @@
 Description: These methods must be overridden by derived classes.
 ms.assetid: 68402cff-effd-4a2b-b9f9-f13f233b1555
 title: CMSPAddress Pure Virtual Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

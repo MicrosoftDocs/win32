@@ -2,8 +2,6 @@
 Description: GUIDs are used to specify the type of property for packet properties and recognizer properties.
 ms.assetid: 04452eeb-0282-4c4b-afc8-34be7c750f82
 title: Recognizer GUIDs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

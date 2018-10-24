@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c0ce26a4-5ff2-44b4-8550-c7d8ad0ba0f0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating an Event Filter
 ms.author: windowssdkdev

@@ -3,8 +3,6 @@ Description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 8e9b45de-c81b-4324-b00b-b11ee6749920
 title: Windows Search Glossary
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

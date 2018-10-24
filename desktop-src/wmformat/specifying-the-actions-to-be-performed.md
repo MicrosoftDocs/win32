@@ -7,8 +7,6 @@ keywords:
 - ASF (Advanced Systems Format),specifying actions
 - digital rights management (DRM),specifying actions
 - DRM (digital rights management),specifying actions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

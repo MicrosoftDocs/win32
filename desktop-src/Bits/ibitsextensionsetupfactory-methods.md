@@ -2,8 +2,6 @@
 title: IBITSExtensionSetupFactory Methods
 description: The IBITSExtensionSetupFactory interface exposes the following methods.
 ms.assetid: AE85EC5B-E092-47AE-82C2-D4B1A20318AE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

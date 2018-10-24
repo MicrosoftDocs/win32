@@ -2,8 +2,6 @@
 title: VML Handles Element
 description: VML Handles Element
 ms.assetid: 0ac32929-fa1c-4774-afb6-a797b5a570a3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The conditions that determine whether a document is included in the results returned by the query are specified by the WHERE clause.
 ms.assetid: e3b5ee92-e817-49b8-aa8b-5d68254bb819
 title: WHERE Clause
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

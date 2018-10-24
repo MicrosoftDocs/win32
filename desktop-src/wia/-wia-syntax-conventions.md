@@ -2,8 +2,6 @@
 Description: The following table lists the terms used in syntax statements for the Windows Image Acquisition (WIA) scripting model reference.
 ms.assetid: 97c84691-947e-4143-a367-fcc576f1e5cc
 title: Syntax Conventions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

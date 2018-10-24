@@ -2,8 +2,6 @@
 title: How to Support Control Patterns in a UI Automation Provider
 description: This topic shows how a Microsoft UI Automation provider implements control patterns for a control. Control patterns enable client applications to manipulate the control and get information about it.
 ms.assetid: 504d0ed8-32c1-43ed-9f71-328a013ab350
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

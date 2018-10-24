@@ -2,8 +2,6 @@
 Description: Gets mesh geometry displacement parameters.
 ms.assetid: 155724ba-71be-4e9f-8c84-bb04f8eec578
 title: ID3DXPatchMesh::GetDisplaceParam method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

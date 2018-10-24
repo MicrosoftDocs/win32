@@ -2,8 +2,6 @@
 Description: Indicates whether the TPM is ready for use.
 ms.assetid: 70E9EB90-DC13-4431-97E5-D77B4E345373
 title: Win32_Tpm::IsReady method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

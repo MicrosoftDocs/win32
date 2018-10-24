@@ -2,8 +2,6 @@
 title: Origin Attribute (Shadow)(VML)
 description: Origin Attribute (Shadow)(VML)
 ms.assetid: acef5134-dad6-4ba6-9d70-a9f56cd8c5ef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

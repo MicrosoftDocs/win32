@@ -2,8 +2,6 @@
 Description: The protocol parameter in socket and WSASocket is an identifier that establishes a network type and a method for identifying the various transport protocols that run on the network.
 ms.assetid: cb4d99d5-3ae0-4bfc-b521-122dd9d4f1c2
 title: IPX Family of Protocol Identifiers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The GetSourceRect method retrieves the current source rectangle.
 ms.assetid: e9ca091f-3fd7-4e42-90e9-b7831dd488a9
 title: CDrawImage.GetSourceRect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

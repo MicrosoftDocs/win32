@@ -6,8 +6,6 @@ keywords:
 - constant buffer, what is
 - vertex buffer, what is
 - index buffer, what is
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

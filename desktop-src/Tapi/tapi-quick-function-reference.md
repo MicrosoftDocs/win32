@@ -2,8 +2,6 @@
 Description: The following hyperlinked summary of TAPI functions is organized by category of operation. For additional information, see the overviews for Assisted Telephony and Service Levels.
 ms.assetid: 7a817997-bfa8-41f9-8a07-c3884b9a48b0
 title: TAPI Quick Function Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

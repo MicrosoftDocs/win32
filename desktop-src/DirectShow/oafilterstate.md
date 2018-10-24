@@ -2,8 +2,6 @@
 Description: The OAFilterState data type defines the state of the filter graph. The value is a member of the FILTER\_STATE enumeration. This data type is defined for OLE Automation clients, such as Microsoft Visual Basic 6.0.
 ms.assetid: c0e5d581-a15a-4dd2-b38c-72285cfc2617
 title: OAFilterState
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

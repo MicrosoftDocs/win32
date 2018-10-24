@@ -2,8 +2,6 @@
 Description: Specifies a network type.
 ms.assetid: fe3044ab-6e93-48f8-b8cb-fdf984987232
 title: networkType (networkItemType) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

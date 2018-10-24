@@ -2,8 +2,6 @@
 Description: User Account Control (UAC) patching enables the authors of Windows Installer installations to identify digitally-signed patches that can be applied in the future by non-administrator users.
 ms.assetid: f7d64f61-24c8-4037-a10b-d68d0e9e3c42
 title: User Account Control (UAC) Patching
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

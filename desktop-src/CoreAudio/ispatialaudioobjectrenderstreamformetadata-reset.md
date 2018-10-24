@@ -2,8 +2,6 @@
 Description: Reset a stopped audio stream.
 ms.assetid: 3C2DFBFA-E5A3-43BC-B9EF-19CCDAA6BD0D
 title: ISpatialAudioObjectRenderStreamForMetadata::Reset method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

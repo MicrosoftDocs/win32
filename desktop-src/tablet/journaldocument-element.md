@@ -2,8 +2,6 @@
 Description: The top-level element in a Journal note XML file.
 ms.assetid: 3887667c-67a7-416a-b94d-c30bb02a7985
 title: JournalDocument Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

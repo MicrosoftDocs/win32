@@ -2,8 +2,6 @@
 Description: The Title property is a read-only property that returns the title of the feature in the Title column of the Feature table.
 ms.assetid: 8369b1bb-eaf6-4ba6-98b9-424e24efdf96
 title: FeatureInfo.Title property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

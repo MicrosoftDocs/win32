@@ -5,8 +5,6 @@ ms.assetid: 1dd5eef4-5ea4-4958-8f53-9a95c0ccbf3e
 keywords:
 - MIDL compiler MIDL , C-preprocessor, requirements
 - C-preprocessor MIDL , requirements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

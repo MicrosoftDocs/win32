@@ -2,8 +2,6 @@
 Description: Destroys a previously created kernel-mode Microsoft DirectDraw device object.
 ms.assetid: 0b2e1bae-8291-4fe4-9528-980680906e0a
 title: NtGdiDdDeleteDirectDrawObject function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

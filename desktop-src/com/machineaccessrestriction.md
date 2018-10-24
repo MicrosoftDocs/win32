@@ -4,8 +4,6 @@ description: Sets the computer-wide restriction policy for component access.
 ms.assetid: aeb37e49-6425-4058-968e-f9d00acf4fc2
 keywords:
 - MachineAccessRestriction registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

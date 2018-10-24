@@ -2,8 +2,6 @@
 Description: The Security Templates is a standalone snap-in tool that users can use to define computer-independent security configurations. These configurations are saved as text-based .inf files.
 ms.assetid: 116ad2c9-7c60-418a-9083-41e9c33d5029
 title: Security Templates
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

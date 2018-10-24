@@ -2,8 +2,6 @@
 Description: The SetGPRM method sets the specified general parameter register to the specified value.
 ms.assetid: ded28f2a-5e40-4f76-9ed4-de10296529e1
 title: SetGPRM Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

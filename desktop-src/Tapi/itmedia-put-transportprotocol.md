@@ -2,8 +2,6 @@
 Description: The put\_TransportProtocol method sets the transport protocol.
 ms.assetid: d2f74d4a-a65d-4829-ad17-7548ef06cfeb
 title: ITMedia::put_TransportProtocol method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

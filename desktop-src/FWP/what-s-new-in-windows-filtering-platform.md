@@ -2,8 +2,6 @@
 title: What's New in Windows Filtering Platform
 description: Windows 8 and Windows Server 2012 introduce new Windows Filtering Platform programming elements.
 ms.assetid: 7529F155-3DBC-4C22-A780-B6311C455E85
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

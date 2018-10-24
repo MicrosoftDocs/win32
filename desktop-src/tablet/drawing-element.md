@@ -2,8 +2,6 @@
 Description: Contains content that has been classified by the analyzer or the user as a drawing.
 ms.assetid: 566542f3-b824-442d-9d8b-0064ebcf9b68
 title: Drawing Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

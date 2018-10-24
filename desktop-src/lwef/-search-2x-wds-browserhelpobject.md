@@ -2,8 +2,6 @@
 title: Calling WDS from Web Pages
 description: You can call Microsoft Windows Desktop Search (WDS) from any webpage you create or maintain using the Browser Helper Object (BHO) and Windows Internet Explorer.
 ms.assetid: 8d9fa541-530e-4917-a6d9-4e04549ce32e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

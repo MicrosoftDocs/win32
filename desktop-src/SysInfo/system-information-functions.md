@@ -2,8 +2,6 @@
 Description: The following functions are used to retrieve or set system information.
 ms.assetid: aa7deebf-7dce-4147-8a15-1d7411aea0fa
 title: System Information Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

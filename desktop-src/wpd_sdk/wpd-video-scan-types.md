@@ -2,8 +2,6 @@
 Description: The WPD\_VIDEO\_SCAN\_TYPES enumeration type describes how the fields in a video file are encoded.
 ms.assetid: ea0dab57-6783-4d02-a43c-414e313f1e80
 title: WPD_VIDEO_SCAN_TYPES enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

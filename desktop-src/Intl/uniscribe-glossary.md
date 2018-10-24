@@ -2,8 +2,6 @@
 Description: An ABC width is a composite value defined by a GDI ABC structure. The structure contains members abcA, abcB, and abcC, corresponding to the &\#0034;A&\#0034;, &\#0034;B&\#0034;, and &\#0034;C&\#0034; widths of a glyph or run.
 ms.assetid: 48c766e5-a69d-47d2-a885-f24b80e910d8
 title: Uniscribe Glossary
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

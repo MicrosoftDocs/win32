@@ -2,8 +2,6 @@
 Description: 'The following are the ImageHlp data structures:'
 ms.assetid: b88c7a21-933f-450c-97e8-04cf3c5f9b11
 title: ImageHlp Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

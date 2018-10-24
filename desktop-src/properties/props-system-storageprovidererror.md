@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a764a13a-cd7e-488c-b353-ff0f3c4b64b1
 title: System.StorageProviderError
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

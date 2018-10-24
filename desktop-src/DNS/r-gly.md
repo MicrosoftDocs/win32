@@ -3,8 +3,6 @@ title: R
 description: Domain Name System (DNS) glossary entries that start with R.
 Robots: noindex, nofollow
 ms.assetid: 675287c2-9394-4d32-8ef4-9bb64794d326
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

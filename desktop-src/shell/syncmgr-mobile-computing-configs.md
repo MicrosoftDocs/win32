@@ -1,8 +1,6 @@
 ---
 Description: Applications can use Sychronization Manager to keep files and resources cached locally and synchronized on mobile and desktop computers.
 title: Mobile Computing Configurations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

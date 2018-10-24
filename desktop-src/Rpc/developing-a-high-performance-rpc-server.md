@@ -4,8 +4,6 @@ description: The information in this section applies to remote protocol sequence
 ms.assetid: 7b4239af-951b-4d1b-8ac3-224279f6929e
 keywords:
 - Remote Procedure Call RPC , best practices, developing a high performance server
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

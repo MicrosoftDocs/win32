@@ -2,8 +2,6 @@
 Description: An association between a service access point (SAP) and how it is implemented.
 ms.assetid: d1d99299-f2d9-4025-a48d-cf8180f2f7af
 title: Msvm_WiFiDeviceSAPImplementation class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

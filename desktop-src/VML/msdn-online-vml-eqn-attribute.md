@@ -2,8 +2,6 @@
 title: VML Eqn Attribute
 description: VML Eqn Attribute
 ms.assetid: b2c41bad-2f83-4280-9441-33206d8dc1b7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

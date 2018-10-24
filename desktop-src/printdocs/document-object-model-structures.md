@@ -2,8 +2,6 @@
 Description: XPS Document Structures
 ms.assetid: c3680155-fdfb-4ef6-be15-af0587a4816a
 title: XPS Document Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

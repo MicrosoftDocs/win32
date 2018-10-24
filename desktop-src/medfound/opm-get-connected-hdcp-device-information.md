@@ -1,8 +1,6 @@
 ---
 ms.assetid: 71fa9a99-83e4-4b27-9fd1-5a9dc3070820
 title: OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

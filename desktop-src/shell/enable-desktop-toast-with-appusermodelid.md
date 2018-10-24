@@ -1,8 +1,6 @@
 ---
 Description: This topic shows you how to create a shortcut for your app, assign it an AppUserModelID, and install it in the Start screen.
 title: How to enable desktop toast notifications through an AppUserModelID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

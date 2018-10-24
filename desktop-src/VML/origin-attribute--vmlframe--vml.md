@@ -2,8 +2,6 @@
 title: Origin Attribute (VMLFrame)(VML)
 description: Origin Attribute (VMLFrame)(VML)
 ms.assetid: 317c027e-5054-4543-ad98-2c21d1cf7154
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

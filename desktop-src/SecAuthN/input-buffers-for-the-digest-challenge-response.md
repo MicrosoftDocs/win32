@@ -2,8 +2,6 @@
 Description: HTTP authentication using Microsoft Digest requires three input buffers to generate a challenge response. The following table summarizes these buffers.
 ms.assetid: 0df02be2-f42e-46d0-a206-765adf3d7a72
 title: Input Buffers for the Digest Challenge Response
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

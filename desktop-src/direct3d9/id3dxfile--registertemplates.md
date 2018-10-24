@@ -2,8 +2,6 @@
 Description: Registers custom templates.
 ms.assetid: e142a0f2-d0ef-4479-82cd-ba8d5059d1d2
 title: ID3DXFile::RegisterTemplates method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

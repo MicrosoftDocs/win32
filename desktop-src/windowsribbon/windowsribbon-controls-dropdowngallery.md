@@ -2,8 +2,6 @@
 title: Drop-Down Gallery
 description: The Drop-Down Gallery consists of a button that when clicked displays a drop-down list containing a collection of mutually exclusive items or Commands.
 ms.assetid: 10644e10-f903-49f6-aecd-1a63d97fe447
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

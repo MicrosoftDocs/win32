@@ -2,8 +2,6 @@
 title: Input Services
 description: Input Services
 ms.assetid: 6a0fb005-2acc-4d7c-babb-bb814faf746d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

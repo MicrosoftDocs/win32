@@ -2,8 +2,6 @@
 title: dmax (sm5 - asm)
 description: Component-wise double-precision maximum.
 ms.assetid: 34ED8B34-2592-4BBB-BCF0-F2222E4D51D9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

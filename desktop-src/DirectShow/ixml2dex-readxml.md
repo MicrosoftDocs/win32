@@ -2,8 +2,6 @@
 Description: Not implemented.
 ms.assetid: f75ee69d-2778-4c3c-a810-6708b1669541
 title: IXml2Dex::ReadXML method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

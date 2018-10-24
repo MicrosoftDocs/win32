@@ -4,8 +4,6 @@ description: To compile an IDL file that contains a library statement, the OLE a
 ms.assetid: 12100f5c-d83a-4096-81b0-4e16a7c51d00
 keywords:
 - type library MIDL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

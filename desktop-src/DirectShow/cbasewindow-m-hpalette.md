@@ -2,8 +2,6 @@
 Description: Handle to the window's palette.
 ms.assetid: 0ab7d6b6-fe19-41d1-8a51-fee722148d1c
 title: CBaseWindow::m_hPalette member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

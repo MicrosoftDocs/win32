@@ -2,8 +2,6 @@
 title: Legacy System Restore Reference
 description: This documentation describes implementation details of the repository used by a legacy version of System Restore. It does not apply to the implementation of System Restore on Windows Vista.
 ms.assetid: d221e83d-beb0-405c-b332-a3ab8aaef688
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

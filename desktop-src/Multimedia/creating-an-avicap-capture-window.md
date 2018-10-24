@@ -4,8 +4,6 @@ description: Creating an AVICap Capture Window
 ms.assetid: a1418e98-f16d-401a-94a7-64fb272a39e2
 keywords:
 - capCreateCaptureWindow function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

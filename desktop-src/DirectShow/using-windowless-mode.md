@@ -2,8 +2,6 @@
 Description: Using Windowless Mode
 ms.assetid: f53cecaa-dee7-4b02-a4ac-ffbd917f73aa
 title: Using Windowless Mode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

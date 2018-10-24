@@ -2,8 +2,6 @@
 Description: The HideCursor method hides or displays the cursor.
 ms.assetid: 80175d1b-9874-4295-9ebc-b0d78961a263
 title: CBaseControlWindow.HideCursor method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

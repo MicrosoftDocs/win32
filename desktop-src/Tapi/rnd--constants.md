@@ -2,8 +2,6 @@
 Description: The following constants may be returned as errors.
 ms.assetid: 185bd906-c276-4075-9c23-eb112da2a7ca
 title: RND_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

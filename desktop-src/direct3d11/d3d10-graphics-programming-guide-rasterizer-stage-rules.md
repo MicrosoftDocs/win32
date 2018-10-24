@@ -2,8 +2,6 @@
 title: Rasterization Rules
 description: Rasterization rules define how vector data is mapped into raster data.
 ms.assetid: 2b3894eb-dff3-401f-8b14-4af98db86e39
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

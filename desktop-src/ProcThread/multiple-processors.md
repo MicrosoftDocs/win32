@@ -2,8 +2,6 @@
 Description: 'Computers with multiple processors are typically designed for one of two architectures: non-uniform memory access (NUMA) or symmetric multiprocessing (SMP).'
 ms.assetid: 3c9186c8-a54d-4536-8237-bfff78cc7d11
 title: Multiple Processors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

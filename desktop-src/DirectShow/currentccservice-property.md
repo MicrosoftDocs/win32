@@ -2,8 +2,6 @@
 Description: The CurrentCCService property sets or retrieves the current closed captioning service.
 ms.assetid: 094cf812-3122-4d5f-af8a-afd1c2264a2b
 title: CurrentCCService Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

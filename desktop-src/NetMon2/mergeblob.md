@@ -2,8 +2,6 @@
 Description: The MergeBlob function copies all of the entries from the source BLOB into a destination BLOB.
 ms.assetid: 7521ce0c-fd02-4002-bdae-0d74a2e4a646
 title: MergeBlob function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

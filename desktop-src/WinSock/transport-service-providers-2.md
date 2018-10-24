@@ -2,8 +2,6 @@
 Description: Transport service providers and Windows Sockets (Winsock).
 ms.assetid: 4ded519d-d9c2-4ef3-80f5-e6ec40adf938
 title: Transport Service Providers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

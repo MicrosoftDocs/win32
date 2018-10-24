@@ -2,8 +2,6 @@
 title: Translating to C++ from Java
 description: Translating to C++ from Java
 ms.assetid: 6eab4eec-4b9b-4738-b101-30c173a6fea1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

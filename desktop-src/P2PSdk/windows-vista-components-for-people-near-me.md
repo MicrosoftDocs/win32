@@ -2,8 +2,6 @@
 Description: Windows Vista Components for People Near Me
 ms.assetid: 87d0cc0d-fbbb-4a22-9946-7296d53df773
 title: Windows Vista Components for People Near Me
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

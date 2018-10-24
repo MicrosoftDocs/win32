@@ -2,8 +2,6 @@
 Description: The RANGE structure defines a range of valid property values.
 ms.assetid: 7bd14410-f5c1-487b-8776-405567991e5a
 title: RANGE structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: System Device Enumerator
 ms.assetid: ea98be7f-580d-4986-bd6b-d254a2c075e8
 title: System Device Enumerator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

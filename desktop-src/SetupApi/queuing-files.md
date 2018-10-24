@@ -2,8 +2,6 @@
 Description: After you have obtained a handle to a file queue by calling the SetupOpenFileQueue function, you can add file operations to the queue, either file-by-file, or by queuing all the files in an INF section.
 ms.assetid: ba2f40cd-b0df-4768-8080-4fd80c50f2c2
 title: Queuing Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

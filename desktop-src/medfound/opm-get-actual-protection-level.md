@@ -2,8 +2,6 @@
 Description: Returns the global protection level for a specified protection mechanism.
 ms.assetid: 3dd4f6f0-2305-4470-bbd4-7737fa2d8eae
 title: OPM_GET_ACTUAL_PROTECTION_LEVEL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

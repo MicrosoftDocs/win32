@@ -2,8 +2,6 @@
 title: New Releases
 description: Describes the most significant new documentation available with the latest SDK release.
 ms.assetid: 38F41E05-FECB-41DE-8D30-09733FBEAC48
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

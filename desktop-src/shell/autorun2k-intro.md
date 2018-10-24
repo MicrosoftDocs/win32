@@ -1,8 +1,6 @@
 ---
 Description: AutoPlay is a new feature introducted in Windows XP that detects content such as pictures, music, or video files on removable media and removable devices.
 title: Using Hardware AutoPlay
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

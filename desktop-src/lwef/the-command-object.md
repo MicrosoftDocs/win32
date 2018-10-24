@@ -2,8 +2,6 @@
 title: The Command Object
 description: The Command Object
 ms.assetid: a757846a-c2d0-4239-9533-babf5dc8399f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

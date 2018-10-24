@@ -2,8 +2,6 @@
 Description: The first step in mapping a file is to open the file by calling the CreateFile function.
 ms.assetid: e00d8742-b717-419c-902c-9a286d75d8aa
 title: Creating a File Mapping Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

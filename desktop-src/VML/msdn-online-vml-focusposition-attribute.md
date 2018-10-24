@@ -2,8 +2,6 @@
 title: VML FocusPosition Attribute
 description: VML FocusPosition Attribute
 ms.assetid: 1aebf79d-c887-4a61-b50c-01a4ebfd68a3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

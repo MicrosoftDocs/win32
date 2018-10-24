@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a54f8cd9-fe6d-4ddc-bf00-261681cb6366
 title: System.Sync.ConflictDescription
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

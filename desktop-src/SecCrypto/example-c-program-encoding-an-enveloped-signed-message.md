@@ -2,8 +2,6 @@
 Description: Creates, signs, and envelopes a message.
 ms.assetid: 1d9d8a7a-0088-41a7-98fe-4f0e9cb21f31
 title: 'Example C Program: Encoding an Enveloped, Signed Message'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

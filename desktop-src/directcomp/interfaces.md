@@ -2,8 +2,6 @@
 title: Interfaces
 description: This section describes the interfaces provided by the Microsoft DirectComposition \ 32;API.
 ms.assetid: AE51F47F-4315-4DA2-959E-B256957BE6DA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

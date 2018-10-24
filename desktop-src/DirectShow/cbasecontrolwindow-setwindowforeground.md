@@ -2,8 +2,6 @@
 Description: The SetWindowForeground method moves the video window to the foreground and optionally gives it focus.
 ms.assetid: 41c26bff-0023-41ad-bca8-8f0c43c94814
 title: CBaseControlWindow.SetWindowForeground method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

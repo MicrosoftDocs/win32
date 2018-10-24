@@ -5,8 +5,6 @@ ms.assetid: 1aa5b3dc-3c12-433b-92e6-fbeea7ca9ad5
 keywords:
 - Video for Windows (VFW),video capture
 - VFW (Video for Windows),video capture
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

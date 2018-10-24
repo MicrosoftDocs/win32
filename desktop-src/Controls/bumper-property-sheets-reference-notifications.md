@@ -2,8 +2,6 @@
 title: Property Sheet Notifications
 description: .
 ms.assetid: f26973f0-edf7-4b17-a65f-db9025d1a3c2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

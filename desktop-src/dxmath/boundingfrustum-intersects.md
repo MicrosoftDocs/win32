@@ -2,8 +2,6 @@
 Description: Tests the BoundingFrustum for intersection with another object.
 ms.assetid: b087761c-b298-4b64-86e7-60cd73543144
 title: BoundingFrustum.Intersects methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

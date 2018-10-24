@@ -2,8 +2,6 @@
 Description: Identifies the name and provider ID for a cellular network.
 ms.assetid: 007ecad9-23a3-4352-b3e2-c22d0f3f449d
 title: Provider (DataRoamingPartners) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Keyboard Handling in Controls
 description: Keyboard Handling in Controls
 ms.assetid: 33affb3f-5d52-4ada-9751-0775b31a375e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

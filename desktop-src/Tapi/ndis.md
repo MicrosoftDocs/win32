@@ -2,8 +2,6 @@
 Description: The ndis device class consists of devices that can be associated with network driver interface specification (NDIS) media access control (MAC) drivers to support network communications. You access these devices by using functions.
 ms.assetid: 98cdd929-0bd7-4509-b2f5-4edd8d6a8080
 title: ndis
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

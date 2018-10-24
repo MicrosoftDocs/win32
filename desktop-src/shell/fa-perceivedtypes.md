@@ -1,8 +1,6 @@
 ---
 Description: A perceived type is a category of file types that lets you identify your file type to Windows (and applications) as being an image, audio, document, or other type.
 title: Perceived Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

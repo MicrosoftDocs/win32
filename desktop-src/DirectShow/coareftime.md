@@ -2,8 +2,6 @@
 Description: The COARefTime class converts reference times between seconds and 100-nanosecond units.
 ms.assetid: 724420fc-9252-468f-9516-174be0a82999
 title: COARefTime class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies the unique identifier for a video adapter. Use this attribute when calling MFTEnum2 to enumerate MFTs associated with a specific adapter.
 ms.assetid: 00E87398-2584-48B0-9618-87B057A12D0C
 title: MFT_ENUM_ADAPTER_LUID attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

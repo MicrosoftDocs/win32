@@ -2,8 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_PLAYLIST
 ms.assetid: 4223970d-8c37-4326-a2df-bec558f8ac5e
 title: WPD_CONTENT_TYPE_PLAYLIST
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

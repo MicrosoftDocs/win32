@@ -2,8 +2,6 @@
 title: Glossary
 description: Glossary
 ms.assetid: 4EC80A0B-D816-452C-93C0-D48A5220EEF6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

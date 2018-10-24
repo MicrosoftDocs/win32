@@ -2,8 +2,6 @@
 Description: Properties defined by the ICertSrvSetup interface.
 ms.assetid: ffe81266-1787-4883-a99e-5f1a537396b8
 title: Properties of ICertSrvSetup
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

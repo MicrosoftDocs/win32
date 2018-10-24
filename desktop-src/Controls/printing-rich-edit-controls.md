@@ -2,8 +2,6 @@
 title: How to Print the Contents of Rich Edit Controls
 description: This section contains information about how to print the contents of rich edit controls.
 ms.assetid: d61e2e11-d848-43fc-9622-b3b2032bda48
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

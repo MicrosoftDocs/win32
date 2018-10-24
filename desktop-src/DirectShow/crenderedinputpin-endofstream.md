@@ -2,8 +2,6 @@
 Description: The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter. This method implements the IPin::EndOfStream method.
 ms.assetid: 915beab4-2fc3-4acd-bb30-c0851df058db
 title: CRenderedInputPin.EndOfStream method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

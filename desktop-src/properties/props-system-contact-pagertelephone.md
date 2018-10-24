@@ -2,8 +2,6 @@
 Description: Pager telephone number of the contact.
 ms.assetid: c3d62f1b-8455-414c-b4a6-261cf7db787e
 title: System.Contact.PagerTelephone
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

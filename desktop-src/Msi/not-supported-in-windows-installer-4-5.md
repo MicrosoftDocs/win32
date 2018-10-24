@@ -2,8 +2,6 @@
 Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;4.5 and earlier versions.
 ms.assetid: 89662e62-53fb-4b50-8583-80518c6fda6d
 title: Not Supported in Windows Installer 4.5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

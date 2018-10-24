@@ -2,8 +2,6 @@
 Description: Table of Contents Parser Enumerations
 ms.assetid: d414c0d7-e3f1-4697-8ab1-f38815eaf889
 title: Table of Contents Parser Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

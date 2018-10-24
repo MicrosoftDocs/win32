@@ -2,8 +2,6 @@
 Description: Specifies the name of the host-side server class.
 ms.assetid: b0d9a126-0f69-4d07-ae18-07aa49ee2666
 title: serverClass element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

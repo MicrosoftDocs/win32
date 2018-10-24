@@ -2,8 +2,6 @@
 Description: Waits for any (or all) of the specified objects to be signaled.
 ms.assetid: e60c98b6-a4d2-40de-8297-727404e3c387
 title: DbgWaitForMultipleObjects function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

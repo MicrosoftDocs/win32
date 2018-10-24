@@ -2,8 +2,6 @@
 Description: Removes the specified strokes from the IInkAnalyzer.
 ms.assetid: ea7c8a9f-a427-4781-b5ba-97ffd983dbe5
 title: IInkAnalyzer::RemoveStrokes method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

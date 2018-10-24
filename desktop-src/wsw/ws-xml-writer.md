@@ -4,8 +4,6 @@ description: The opaque type used for a reference to an XML writer.
 ms.assetid: 8f413e60-8a30-492c-8f2d-80be511fee11
 keywords:
 - WS_XML_WRITER
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

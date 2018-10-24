@@ -2,8 +2,6 @@
 Description: Adds a Certificate object to an open certificate store.
 ms.assetid: 787b8a41-dcdb-4b5b-a1fd-f5424300361b
 title: Store.Add method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

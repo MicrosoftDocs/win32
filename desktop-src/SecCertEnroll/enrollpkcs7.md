@@ -2,8 +2,6 @@
 Description: Creates a PKCS \#7 request from an existing certificate by inheriting the public and private keys and the certificate template.
 ms.assetid: e7df1a2e-5674-4cc6-874b-45bcc7e25127
 title: enrollPKCS7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: The IDL Interface Header
 description: The IDL interface header specifies information about the interface as a whole. Unlike the ACF, the interface header contains attributes that are platform-independent.
 ms.assetid: 667e5228-3ea7-4910-90b9-999e6fd705e9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

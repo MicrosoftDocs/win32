@@ -2,8 +2,6 @@
 title: Translating to JScript
 description: Translating to JScript
 ms.assetid: cf40a261-967a-47cc-970a-27e3178120c2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ce4b7c9e-2c16-40d4-8839-76e69ddb2d8c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Security Descriptor Objects
 ms.author: windowssdkdev

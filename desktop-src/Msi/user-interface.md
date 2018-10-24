@@ -2,8 +2,6 @@
 Description: Windows Installer provides a complete user interface (UI) for installing an application or product.
 ms.assetid: '43f4445e-7bfa-4242-b3ef-4a4fe113f8a4'
 title: User Interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

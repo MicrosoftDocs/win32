@@ -2,8 +2,6 @@
 title: Functions
 description: The following functions are used to implement compound documents and perform data transfer between applications.
 ms.assetid: cab450bb-13d8-4a5f-b8f3-ad68a483afbb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: 822CACCE-4A45-4104-91BD-4968A657662E
 keywords:
 - Helper structures
 - d3dx12.h
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

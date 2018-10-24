@@ -2,8 +2,6 @@
 Description: The TAPI 3 Rendezvous controls enable a programmer to create applications that can create and discover multimedia multicast IP conferences.
 ms.assetid: '4da2046c-00fd-46a8-805f-503729cfa531'
 title: Rendezvous IP Telephony Conferencing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

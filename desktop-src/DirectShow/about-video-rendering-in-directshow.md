@@ -2,8 +2,6 @@
 Description: About Video Rendering in DirectShow
 ms.assetid: 3b064758-2ae5-4441-801c-5400e4ef3790
 title: About Video Rendering in DirectShow
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Retrieves the area that has changed since the last analysis operation.
 ms.assetid: 0cd62775-59c6-41f5-957e-709a53a8c257
 title: IInkAnalyzer::GetDirtyRegion method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

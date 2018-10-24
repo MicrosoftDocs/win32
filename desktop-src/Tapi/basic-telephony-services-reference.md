@@ -2,8 +2,6 @@
 Description: The Basic Telephony functions are listed by category in the following tables.
 ms.assetid: 09d10789-bc36-47c7-b77d-8698ae75541a
 title: Basic Telephony Services Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

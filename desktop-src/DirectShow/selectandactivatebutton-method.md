@@ -2,8 +2,6 @@
 Description: The SelectAndActivateButton method selects and activates the specified button.
 ms.assetid: fa6239ea-0478-41f1-9515-d67a7fad11db
 title: SelectAndActivateButton Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Performs a DirectX Video Acceleration (DXVA) decoding operation.
 ms.assetid: cb87a087-ca53-470e-ab46-f4022cfd7869
 title: IDirect3DDXVADevice9::Execute method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

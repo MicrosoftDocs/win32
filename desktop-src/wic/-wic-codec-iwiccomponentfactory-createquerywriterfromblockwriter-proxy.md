@@ -2,8 +2,6 @@
 Description: Proxy function for the CreateQueryWriterFromBlockWriter method.
 ms.assetid: f941e3b1-1645-4ed6-b2c5-180cb4c43fca
 title: IWICComponentFactory_CreateQueryWriterFromBlockWriter_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

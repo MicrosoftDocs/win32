@@ -12,8 +12,6 @@ keywords:
 - ASF (Advanced Systems Format),features
 - Advanced Systems Format (ASF),multiple objects
 - ASF (Advanced Systems Format),multiple objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

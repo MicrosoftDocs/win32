@@ -2,8 +2,6 @@
 Description: Gets the information required to read or save the properties in the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 ms.assetid: 1667b67d-9dd2-48a6-81dd-c8b06834cef0
 title: IItemPropertyBag::GetPropertyInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

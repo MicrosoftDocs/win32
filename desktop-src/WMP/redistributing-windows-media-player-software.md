@@ -7,8 +7,6 @@ keywords:
 - Windows Media Player,software redistribution
 - redistributing software
 - software redistribution
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

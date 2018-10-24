@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: cdef2900-8d1a-4f0b-8318-7463d90e4152
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Proper WHERE Clause for the Registry Provider
 ms.author: windowssdkdev

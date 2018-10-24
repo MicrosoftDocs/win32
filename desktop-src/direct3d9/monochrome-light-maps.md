@@ -2,8 +2,6 @@
 Description: Some older 3D accelerator boards do not support texture blending using the alpha value of the destination pixel.
 ms.assetid: 77d3b9fd-3232-4955-9df2-d4763d3eed6f
 title: Monochrome Light Maps (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

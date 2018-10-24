@@ -2,8 +2,6 @@
 Description: Isolation is the primary goal of an AppContainer execution environment.
 ms.assetid: 13C579F9-7F9F-4602-9B03-08CD820C3BBA
 title: AppContainer Isolation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

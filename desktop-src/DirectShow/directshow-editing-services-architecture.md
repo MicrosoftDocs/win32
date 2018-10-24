@@ -2,8 +2,6 @@
 Description: DirectShow Editing Services Architecture
 ms.assetid: ba6cc3f1-9130-4197-8501-c2d0a088e847
 title: DirectShow Editing Services Architecture
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

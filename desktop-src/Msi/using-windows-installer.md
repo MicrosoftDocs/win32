@@ -2,8 +2,6 @@
 Description: 'This section describes how to use Windows Installer to organize applications into components and download an application from an Internet location:'
 ms.assetid: 71fbf409-fe19-48c1-b777-18e0459235c1
 title: Using Windows Installer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

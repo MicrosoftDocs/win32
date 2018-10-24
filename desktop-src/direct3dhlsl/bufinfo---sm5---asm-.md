@@ -2,8 +2,6 @@
 title: bufinfo (sm5 - asm)
 description: Query the element count on a buffer (but not the constant buffer).
 ms.assetid: 3A5C28F3-FE59-4C67-92AC-66B10E1D9692
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

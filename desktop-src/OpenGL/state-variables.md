@@ -4,8 +4,6 @@ description: State Variables
 ms.assetid: 'b5942a22-7dcc-4b43-9b21-ba58fadff6d0'
 keywords:
 - OpenGL,state variables
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The sockaddr structure varies depending on the protocol selected.
 ms.assetid: d1392e1c-2b20-425a-8adf-38e665fb6275
 title: sockaddr
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

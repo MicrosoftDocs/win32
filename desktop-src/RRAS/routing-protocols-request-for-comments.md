@@ -5,8 +5,6 @@ ms.assetid: d972ae22-177d-4320-8939-47eae8675aa2
 keywords:
 - RFCs, Routing Protocols
 - Request for Comments, Routing Protocols
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

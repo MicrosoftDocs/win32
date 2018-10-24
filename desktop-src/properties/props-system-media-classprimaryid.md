@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: f7662562-6036-4b3c-9c24-b12afb9255a0
 title: System.Media.ClassPrimaryID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,6 @@
 ---
 Description: A set of string keys that are used with the IBindCtx::RegisterObjectParam method to specify a bind context.
 title: Bind Context String Keys
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

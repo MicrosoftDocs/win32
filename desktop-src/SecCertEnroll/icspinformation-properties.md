@@ -2,8 +2,6 @@
 Description: The ICspInformation interface exposes the following properties.
 ms.assetid: 884989F2-134F-4AF8-90E3-BACFEF3F1411
 title: ICspInformation Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Glossary
 description: A glossary of terms used in the UX guidelines for Windows desktop apps.
 ms.assetid: 9f35f9be-6165-4d98-a2e6-26fb4fc91eae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

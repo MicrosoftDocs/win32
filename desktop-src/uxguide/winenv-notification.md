@@ -2,8 +2,6 @@
 title: Notification Area
 description: The notification area provides notifications and status. Well-designed programs use the notification area appropriately, without being annoying or distracting.
 ms.assetid: d30e293f-b424-4fe3-8191-1692c081245d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

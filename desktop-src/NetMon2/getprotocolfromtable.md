@@ -2,8 +2,6 @@
 Description: The GetProtocolFromTable function returns a handle to a protocol&\#8212;based on a given handoff table and value.
 ms.assetid: 34b07079-0b20-40d8-a529-4179ecc68ebf
 title: GetProtocolFromTable function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

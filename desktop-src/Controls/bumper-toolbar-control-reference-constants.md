@@ -2,8 +2,6 @@
 title: Toolbar Control Constants
 description: .
 ms.assetid: 8c38a806-d9fd-4050-be34-9c0daa7180dd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

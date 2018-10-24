@@ -2,8 +2,6 @@
 Description: The INDESPolicy interface supports the following methods.
 ms.assetid: 9F254D08-9B92-4E6F-91CF-CC105AFE6373
 title: INDESPolicy Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Image List Reference
 description: .
 ms.assetid: efe091cc-d34d-4de3-be1c-6f72136f07a8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

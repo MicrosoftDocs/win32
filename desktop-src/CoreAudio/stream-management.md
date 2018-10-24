@@ -2,8 +2,6 @@
 Description: Stream Management
 ms.assetid: 936d8d69-e86c-418b-b5b0-c4fbbfa1dd49
 title: Stream Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

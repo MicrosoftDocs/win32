@@ -2,8 +2,6 @@
 Description: Sequencer Source
 ms.assetid: '788ede68-2fd7-45f6-90cb-2426c40f7d4c'
 title: Sequencer Source
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

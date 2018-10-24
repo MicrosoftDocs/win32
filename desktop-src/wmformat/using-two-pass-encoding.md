@@ -11,8 +11,6 @@ keywords:
 - two-pass encoding,IWMWriterPreprocess interface
 - 2-pass encoding,IWMWriterPreprocess interface
 - IWMWriterPreprocess
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

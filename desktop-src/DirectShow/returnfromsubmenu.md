@@ -2,8 +2,6 @@
 Description: The ReturnFromSubmenu event is sent when the ReturnFromSubmenu command has been enabled or disabled.
 ms.assetid: '3bfb5d96-c37e-4113-9074-9f99658a8ce6'
 title: ReturnFromSubmenu
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

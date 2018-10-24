@@ -4,8 +4,6 @@ description: DirectWrite defines the following enumerations.
 ms.assetid: '809ccacd-ff23-4d7b-a177-e7a9937c0c5a'
 keywords:
 - DirectWrite,enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Transform method transforms an input sample to produce an output sample.
 ms.assetid: 30ef8c0c-e834-481a-93ff-d06e6fa1ddeb
 title: CTransformFilter.Transform method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

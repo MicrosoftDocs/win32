@@ -2,8 +2,6 @@
 Description: LOCALE\_INVARIANT
 ms.assetid: d37df17d-8cd5-4481-bee2-062cf9d78e9b
 title: LOCALE_INVARIANT
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

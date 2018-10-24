@@ -2,8 +2,6 @@
 Description: About the Render Engines
 ms.assetid: 80299b1a-09bf-4660-95d3-41a2b0074745
 title: About the Render Engines
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

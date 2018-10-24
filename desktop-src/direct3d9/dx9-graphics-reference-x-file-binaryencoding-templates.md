@@ -2,8 +2,6 @@
 Description: A template has the following syntax definition.
 ms.assetid: 77eb739d-8da3-4481-8dd1-f9f2f0eda136
 title: Templates
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

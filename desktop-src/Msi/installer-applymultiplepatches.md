@@ -2,8 +2,6 @@
 Description: The ApplyMultiplePatches method applies one or more patches to products that are eligible to receive the patch. The method sets the PATCH property.
 ms.assetid: 40c40e2c-60ef-4492-a4ab-0bb6b874fe80
 title: Installer.ApplyMultiplePatches method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

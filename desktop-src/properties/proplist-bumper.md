@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: b6696577-b67f-4cfb-a140-34ac3fb68eb7
 title: PropList
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

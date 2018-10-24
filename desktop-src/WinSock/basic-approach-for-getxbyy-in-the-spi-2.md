@@ -2,8 +2,6 @@
 Description: Most GetXbyY functions are translated by Ws2\_32.dll to a WSALookupServiceBegin, WSALookupServiceNext, WSALookupServiceEnd sequence that uses one of a set of special GUIDs as the service class.
 ms.assetid: 5028df47-1689-470f-90e0-2859173a7111
 title: Basic Approach for GetXbyY in the SPI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: 'D3DX supplies the following UVAtlas functions:'
 ms.assetid: 9c5c400e-0f00-4715-9e96-ce01a400c64d
 title: UVAtlas Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

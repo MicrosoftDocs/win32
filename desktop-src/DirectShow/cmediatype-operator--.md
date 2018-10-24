@@ -2,8 +2,6 @@
 Description: This operator tests for equality between CMediaType objects.
 ms.assetid: d50f3a72-c5e8-44a5-aa0e-b1c40a19fee3
 title: CMediaType.CMediaType::operator== method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

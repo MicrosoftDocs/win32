@@ -2,8 +2,6 @@
 Description: Some applications are designed in a way that prevents multiple instances of the application from being installed on a computer.
 ms.assetid: 951d20c8-7908-40d8-a9d5-d321340c97f3
 title: Application Design Restrictions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

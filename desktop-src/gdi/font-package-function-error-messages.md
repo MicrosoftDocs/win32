@@ -2,8 +2,6 @@
 Description: Font Package Function Error Messages
 ms.assetid: 3cf7a8a1-66b2-45ca-b53d-29c80f95ff70
 title: Font Package Function Error Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

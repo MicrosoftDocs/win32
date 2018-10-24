@@ -2,8 +2,6 @@
 Description: A provider is a performance DLL that provides counter data to consumers.
 ms.assetid: bbb777fe-b97e-4777-b797-ec8525065610
 title: Creating a Performance Extension DLL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,6 @@
 ---
 Description: Contains information about a button that a File Manager extension DLL is adding to the toolbar of File Manager.
 title: EXT_BUTTON structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

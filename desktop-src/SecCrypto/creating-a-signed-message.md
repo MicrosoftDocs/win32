@@ -2,8 +2,6 @@
 Description: Depicts the tasks that must be accomplished to create a signed message.
 ms.assetid: 61896022-28c2-4f70-977a-c990b4b23c55
 title: Creating a Signed Message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

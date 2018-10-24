@@ -2,8 +2,6 @@
 title: IAgentNotifySinkEx ListeningState
 description: IAgentNotifySinkEx ListeningState
 ms.assetid: e303b299-0dd0-419a-87a9-1490fe6cf54a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

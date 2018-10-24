@@ -2,8 +2,6 @@
 Description: Pin Property Set
 ms.assetid: 0c01bd51-353d-4f48-b33c-796f740915e2
 title: Pin Property Set
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

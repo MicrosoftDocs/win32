@@ -2,8 +2,6 @@
 Description: Asynchronous Transfer Mode (ATM) networking is emerging into the mainstream of computing, and support for ATM has been added to many parts of the operating system.
 ms.assetid: 0ca0ecf3-2b67-4925-a6fc-3edfaad2c0e2
 title: Quality of Service
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

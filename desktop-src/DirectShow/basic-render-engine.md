@@ -2,8 +2,6 @@
 Description: Basic Render Engine
 ms.assetid: 0a4fcf2a-dbad-4211-9a85-7741c8dfc95e
 title: Basic Render Engine
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

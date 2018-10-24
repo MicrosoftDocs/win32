@@ -19,8 +19,6 @@ keywords:
 - Advanced Systems Format (ASF),digital rights management (DRM)
 - ASF (Advanced Systems Format),digital rights management (DRM)
 - licenses,DRM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

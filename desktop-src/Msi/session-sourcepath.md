@@ -2,8 +2,6 @@
 Description: The SourcePath property of the Session object is a read-only property that provides the full path to the designated folder on the source media or server image.
 ms.assetid: ed8eea4f-e15e-4d56-ac0c-e18f9cb46d07
 title: Session.SourcePath property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: How symbolic links affect standard file functions that use path names to specify one or more files.
 ms.assetid: afda53eb-d0db-4844-9dd0-8a7d93ca341f
 title: Symbolic Link Effects on File Systems Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

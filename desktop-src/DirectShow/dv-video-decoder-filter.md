@@ -2,8 +2,6 @@
 Description: DV Video Decoder Filter
 ms.assetid: aa47010e-8510-475d-836a-cb63deeb3a7b
 title: DV Video Decoder Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

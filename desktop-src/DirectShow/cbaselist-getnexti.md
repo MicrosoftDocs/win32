@@ -2,8 +2,6 @@
 Description: The GetNextI method retrieves the item at the specified position, and advances the position.
 ms.assetid: 3ec217ec-b0f9-4ff4-bdb7-ac204df99010
 title: CBaseList.GetNextI method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

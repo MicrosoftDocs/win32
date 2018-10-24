@@ -2,8 +2,6 @@
 Description: These topics describe the messages that the IMM processes for the IME.
 ms.assetid: 9bf07804-247b-46e2-86da-c9eaf841d556
 title: Input Method Manager Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

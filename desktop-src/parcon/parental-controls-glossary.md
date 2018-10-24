@@ -2,8 +2,6 @@
 Description: Parental Controls Glossary
 ms.assetid: a5454357-bc55-4669-ae38-599bcf9f3686
 title: Parental Controls Glossary
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

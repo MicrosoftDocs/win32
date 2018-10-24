@@ -2,8 +2,6 @@
 Description: Provides initialization on a thread.
 ms.assetid: a9c330bb-0a2b-45bf-9b24-d03dd61d7dbf
 title: CMsgThread.OnThreadInit method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

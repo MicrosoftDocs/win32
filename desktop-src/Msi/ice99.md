@@ -2,8 +2,6 @@
 Description: ICE99 verifies that no property name entered in the Directory table duplicates a name reserved for the public or private use of the Windows Installer.
 ms.assetid: a7657c14-6542-4a7b-a8f7-727b109cfc39
 title: ICE99
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

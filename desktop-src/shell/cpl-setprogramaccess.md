@@ -2,8 +2,6 @@
 Description: This topic discusses the Set Program Access and Computer Defaults (SPAD) feature found in Control Panel.
 ms.assetid: 0d706857-5a84-4d68-99dc-bb9aab4197b9
 title: Set Program Access and Computer Defaults (SPAD)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

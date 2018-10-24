@@ -2,8 +2,6 @@
 title: Property Pages and Property Sheets
 description: Property Pages and Property Sheets
 ms.assetid: 02de6119-e880-4b15-8af8-7935418b12b8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

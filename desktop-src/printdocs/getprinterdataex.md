@@ -2,8 +2,6 @@
 Description: The GetPrinterDataEx function retrieves configuration data for the specified printer or print server.
 ms.assetid: 5d9183a7-97cc-46de-848e-e37ce51396eb
 title: GetPrinterDataEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

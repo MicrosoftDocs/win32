@@ -2,8 +2,6 @@
 title: Atom Functions
 description: .
 ms.assetid: 691f9a82-1263-4fb5-ad11-f79a3e697981
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

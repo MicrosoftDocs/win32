@@ -2,8 +2,6 @@
 Description: When WUA detects that a caller does not have permission to access an interface, method, or property, the HRESULT E\_ACCESSDENIED is returned.
 ms.assetid: 4535ce8d-c329-4335-8b0a-8f63c22f111d
 title: Securing Interfaces, Methods, and Properties in the WUA API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

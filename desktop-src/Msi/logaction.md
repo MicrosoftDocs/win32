@@ -2,8 +2,6 @@
 Description: The LOGACTION property is a list of action names separated only by semicolons and with no spaces. The action names in this property are case-insensitive and the list can end with a semicolon.
 ms.assetid: a16b7cb4-33e9-4fa5-8021-783fac90c330
 title: LOGACTION property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

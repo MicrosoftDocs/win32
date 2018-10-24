@@ -2,8 +2,6 @@
 Description: The longevity of IPv4 resulted in hard coding many well-known IPv4 addresses, such as loopback addresses (127.x.x.x), integer constants such as INADDR\_LOOPBACK, among others.
 ms.assetid: adb39f27-c219-43cd-9e86-b2d3b663c79c
 title: Use of Hardcoded IPv4 Addresses
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Adhere to the following guidelines when authoring a 64-bit Windows Installer package.
 ms.assetid: e7dfd188-fd4d-49d6-8cf5-c17182b697ca
 title: Using 64-Bit Windows Installer Packages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

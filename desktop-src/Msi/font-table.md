@@ -2,8 +2,6 @@
 Description: The Font table contains the information for registering font files with the system.
 ms.assetid: 5ddff430-a6f8-473b-8006-ac0124469a99
 title: Font Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

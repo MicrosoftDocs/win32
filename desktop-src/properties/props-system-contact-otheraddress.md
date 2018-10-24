@@ -2,8 +2,6 @@
 Description: Other address of the contact.
 ms.assetid: 30dc069c-b640-4482-b9ce-6c0c2701f29d
 title: System.Contact.OtherAddress
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

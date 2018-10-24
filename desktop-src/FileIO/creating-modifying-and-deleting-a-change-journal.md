@@ -2,8 +2,6 @@
 Description: Administrators can create, delete, and re-create change journals.
 ms.assetid: 26cbacc2-d26b-434b-91b5-31aedc96da13
 title: Creating, Modifying, and Deleting a Change Journal
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

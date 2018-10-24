@@ -2,8 +2,6 @@
 Description: Endpoint Volume Controls
 ms.assetid: 667c3659-69ae-469d-9ae0-e32a189cbc71
 title: Endpoint Volume Controls
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -10,8 +10,6 @@ keywords:
 - reference for Windows Media Device Manager,application interfaces
 - plug-ins,interfaces
 - application interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

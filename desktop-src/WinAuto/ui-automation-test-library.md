@@ -2,8 +2,6 @@
 title: UI Automation Test Library
 description: The UI Automation Test Library (UIA Test Library) is an API that is called by the driver application in an automated testing scenario.
 ms.assetid: A11341E5-71FC-442C-8F78-C40E717BF798
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

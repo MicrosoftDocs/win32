@@ -2,8 +2,6 @@
 title: What's New in the August 2009 Windows 7/Direct3D 11 SDK
 description: This version of Windows 7/Direct3D 11 ships as part of the DirectX SDK and contains new features, tools, and documentation.
 ms.assetid: c2dc3726-70a0-49ff-bbad-8ef774bc4868
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: VML LightPosition Attribute
 description: VML LightPosition Attribute
 ms.assetid: 2ac3825d-319e-4761-905d-eb8127c4d4cc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

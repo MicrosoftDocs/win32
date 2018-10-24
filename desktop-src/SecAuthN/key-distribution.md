@@ -2,8 +2,6 @@
 Description: The secret key authentication technique does not explain how the client and server get the secret session key to use in sessions with each other.
 ms.assetid: 90ab0359-5079-49e9-809c-0c0005cc61bf
 title: Key Distribution
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

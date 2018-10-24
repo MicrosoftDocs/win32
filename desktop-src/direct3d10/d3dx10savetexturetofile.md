@@ -2,8 +2,6 @@
 Description: Save a texture to a file.
 ms.assetid: c1718903-039a-4132-b128-82e03078ef62
 title: D3DX10SaveTextureToFile function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

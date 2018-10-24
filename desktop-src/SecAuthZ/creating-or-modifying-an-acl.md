@@ -2,8 +2,6 @@
 Description: Windows supports a set of functions that create an access control list (ACL) or modify the access control entries (ACEs) in an existing ACL.
 ms.assetid: 71301aab-1040-4f61-855f-2b891c8b6077
 title: Creating or Modifying an ACL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

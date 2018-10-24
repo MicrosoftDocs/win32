@@ -2,8 +2,6 @@
 Description: Setting the TransformsSecure policy to 1 informs the installer that transforms are to be cached locally on the user's computer in a location where the user does not have write access.
 ms.assetid: 4fe992ed-1e8c-4ee2-a325-138bdc039e44
 title: TransformsSecure Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

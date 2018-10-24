@@ -2,8 +2,6 @@
 title: Header Control Reference
 description: .
 ms.assetid: 8ed22835-84c3-488f-bdea-409040a758f5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

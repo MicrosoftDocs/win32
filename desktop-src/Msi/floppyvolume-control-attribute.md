@@ -2,8 +2,6 @@
 Description: If the FloppyVolume Control bit is set, the control shows all the volumes involved in the current installation plus all the floppy volumes.
 ms.assetid: 65e17920-bb2c-4b98-a2dd-ebaee752ed0a
 title: FloppyVolume Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

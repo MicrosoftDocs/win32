@@ -2,8 +2,6 @@
 title: Connecting to the BITS Service
 description: To connect to the BITS service, create an instance of the BackgroundCopyManager object as shown in the following example.
 ms.assetid: 2fa88277-c7a1-4f1c-a63c-e2d27a163249
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018

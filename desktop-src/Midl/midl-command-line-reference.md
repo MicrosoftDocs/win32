@@ -5,8 +5,6 @@ ms.assetid: a0e5efb0-a704-4dc5-bd7e-6c98466a2874
 keywords:
 - Microsoft Interface Definition Language MIDL , reference
 - command-line reference MIDL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

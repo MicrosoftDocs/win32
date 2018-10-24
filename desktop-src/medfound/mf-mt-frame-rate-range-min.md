@@ -2,8 +2,6 @@
 Description: The minimum frame rate that is supported by a video capture device, in frames per second.
 ms.assetid: d3725796-f683-4ca1-a37f-22c40fff0b76
 title: MF_MT_FRAME_RATE_RANGE_MIN attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

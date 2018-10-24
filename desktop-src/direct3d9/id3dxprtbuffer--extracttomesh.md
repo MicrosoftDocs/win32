@@ -2,8 +2,6 @@
 Description: Extracts coefficient data from a single-channel buffer and adds the data to an ID3DXMesh object.
 ms.assetid: 4fada987-ddd7-4c02-a177-dd81f3790588
 title: ID3DXPRTBuffer::ExtractToMesh method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

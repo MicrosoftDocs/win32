@@ -2,8 +2,6 @@
 Description: The following table lists conflicts of this type that have been identified for Latin characters and symbols.
 ms.assetid: 21d5f206-dc83-458b-912d-befa15160450
 title: Conflicts with Latin characters and symbols
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The notification area is a portion of the taskbar that provides a temporary source for notifications and status.
 ms.assetid: D37E2BF7-1887-4780-81AD-85B2117321E4
 title: Notifications and the Notification Area
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

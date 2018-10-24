@@ -2,8 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_VIDEO
 ms.assetid: d4a6bd98-c28e-487b-95cc-2c73cd44e3b5
 title: WPD_CONTENT_TYPE_VIDEO
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

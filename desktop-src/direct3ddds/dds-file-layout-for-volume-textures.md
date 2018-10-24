@@ -2,8 +2,6 @@
 title: DDS Volume Texture Example
 description: For a volume texture, use the DDSCAPS\_COMPLEX, DDSCAPS2\_VOLUME, DDSD\_DEPTH, flags and set and dwDepth. A volume texture is an extension of a standard texture for Direct3D 9; a volume texture is can be defined with or without mipmaps.
 ms.assetid: c1675a6d-129a-4e95-993f-e1be905781cc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

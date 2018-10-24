@@ -2,8 +2,6 @@
 Description: Shows the relationship between those function parameters that point to structures or arrays and their initialized data.
 ms.assetid: b1ad0f13-fb4d-421f-b054-a99c8ad9c83a
 title: 'Example C Program: Using CryptEncryptMessage and CryptDecryptMessage'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

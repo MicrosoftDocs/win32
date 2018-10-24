@@ -2,8 +2,6 @@
 Description: Contains the response to a D3DAUTHENTICATEDQUERY\_OUTPUTIDCOUNT query.
 ms.assetid: 8b9fa0dc-bbe5-4382-8acc-59aeadfca825
 title: D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTIDCOUNT_OUTPUT structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

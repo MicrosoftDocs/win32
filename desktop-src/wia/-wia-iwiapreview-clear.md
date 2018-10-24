@@ -2,8 +2,6 @@
 Description: Releases the unfiltered image cached by the IWiaPreview::GetNewPreview method. It also releases the image processing filter.
 ms.assetid: af94d27f-9d93-40e1-8d1a-e5546531a176
 title: IWiaPreview::Clear method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

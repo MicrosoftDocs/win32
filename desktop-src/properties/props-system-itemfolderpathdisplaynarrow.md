@@ -2,8 +2,6 @@
 Description: The user-friendly display path of an item's parent folder.
 ms.assetid: f60b7465-bca4-4c7b-9caf-9cda1bf6eeeb
 title: System.ItemFolderPathDisplayNarrow
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

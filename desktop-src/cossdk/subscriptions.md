@@ -2,8 +2,6 @@
 Description: Subscription data resides in the subscription COM+ catalog. A subscription can be created either by using the Component Services administrative tool or programmatically by using the ICOMAdminCatalog::InstallComponent interface.
 ms.assetid: '190e88f3-1d87-4c27-9451-0a633cbae829'
 title: Subscriptions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

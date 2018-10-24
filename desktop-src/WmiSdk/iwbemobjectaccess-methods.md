@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: F3DC2775-F704-41D8-93C5-11D80C4F31CA
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemObjectAccess Methods
 ms.author: windowssdkdev

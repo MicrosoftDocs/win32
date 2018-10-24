@@ -2,8 +2,6 @@
 Description: Destructor method.
 ms.assetid: cade850c-391c-41dc-adfe-56de8b2bbfff
 title: CCritSec.~CCritSec destructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

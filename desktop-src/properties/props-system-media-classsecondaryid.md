@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 79c197b5-a551-4e17-ab92-6eac99da4647
 title: System.Media.ClassSecondaryID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The DestroyProtocol function destroys the protocol that the CreateProtocol function creates.
 ms.assetid: f7621c2a-1905-4748-b8e3-7b49f3f2bf03
 title: DestroyProtocol function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

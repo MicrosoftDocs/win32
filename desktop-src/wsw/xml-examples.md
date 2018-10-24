@@ -2,8 +2,6 @@
 title: XML Examples
 ms.assetid: c07f3577-954e-400f-9e93-8e40c0a0945e
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

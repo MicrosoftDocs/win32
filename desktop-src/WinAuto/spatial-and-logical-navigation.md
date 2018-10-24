@@ -2,8 +2,6 @@
 title: Spatial and Logical Navigation
 description: Clients retrieve information about an object that is spatially or logically near another object within the same container by calling IAccessible accNavigate and specifying one of the navigation constants.
 ms.assetid: a1ebb50e-76cf-472d-bb0f-3f5bf5ed30d5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

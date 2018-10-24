@@ -2,8 +2,6 @@
 title: DLL Surrogates
 description: DLL Surrogates
 ms.assetid: fe30c0ae-1d19-4a5f-8ee3-8a5337c79c44
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

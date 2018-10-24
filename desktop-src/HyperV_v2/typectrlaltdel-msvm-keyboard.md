@@ -2,8 +2,6 @@
 Description: Simulates a Ctrl+Alt+Del key sequence.
 ms.assetid: C24C9C42-844F-4560-B8C1-0054F5E913D6
 title: TypeCtrlAltDel method of the Msvm_Keyboard class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

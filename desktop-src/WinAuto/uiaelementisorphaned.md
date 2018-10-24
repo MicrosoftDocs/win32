@@ -2,8 +2,6 @@
 title: UiaElementIsOrphaned
 description: UiaElementIsOrphaned
 ms.assetid: F85F08E7-5A9C-4F08-B680-8B251D51168A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

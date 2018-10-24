@@ -2,8 +2,6 @@
 title: Explicit Binding Handles
 description: For maximum control over the binding process, client/server applications may use explicit binding handles.
 ms.assetid: e711ce37-92f0-4e60-a126-148c27662c26
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

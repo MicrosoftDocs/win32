@@ -2,8 +2,6 @@
 Description: Every file delivered by the merge module must be stored inside of a cabinet file that is embedded as a stream in the merge module's structured storage.
 ms.assetid: df5e9c0d-04d0-4161-909e-2d6d89fa5a0e
 title: MergeModule.CABinet
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

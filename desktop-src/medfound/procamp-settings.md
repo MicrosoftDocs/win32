@@ -2,8 +2,6 @@
 Description: These flags define video processor (ProcAmp) settings.
 ms.assetid: 60d97b9e-d77c-4e53-94ea-ebd59c2601df
 title: ProcAmp Settings
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

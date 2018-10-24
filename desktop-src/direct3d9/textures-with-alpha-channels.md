@@ -2,8 +2,6 @@
 Description: There are two ways to encode texture maps that exhibit more complex transparency.
 ms.assetid: cae788f6-60f1-4987-8f06-bf4256bccd9b
 title: Textures with Alpha Channels (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

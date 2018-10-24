@@ -2,8 +2,6 @@
 title: SampleLevel (DirectX HLSL Texture Object)
 description: Samples a texture using a mipmap-level offset.
 ms.assetid: d61426c8-e09f-4e88-99f6-fa96c4a2b58d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

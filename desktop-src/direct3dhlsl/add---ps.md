@@ -2,8 +2,6 @@
 title: add - ps
 description: Adds two vectors.
 ms.assetid: f7d29a66-879b-4160-82fd-0a1b2076559a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

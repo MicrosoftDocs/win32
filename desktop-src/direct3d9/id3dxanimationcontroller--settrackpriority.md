@@ -2,8 +2,6 @@
 Description: Sets the priority blending weight for the specified animation track.
 ms.assetid: 8d40b0f6-d79a-42c1-99fb-3f76bd46f30c
 title: ID3DXAnimationController::SetTrackPriority method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Represents the execution context when GetPrintExecutionData is called.
 ms.assetid: b6c026b2-8519-45d3-9614-b502eec23cde
 title: PRINT_EXECUTION_CONTEXT enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

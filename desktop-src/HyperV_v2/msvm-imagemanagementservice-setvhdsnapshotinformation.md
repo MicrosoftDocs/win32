@@ -2,8 +2,6 @@
 Description: Edits a VHD Snapshot entry within a VHD Set file. If the Snapshot Id in question already exists, the existing Snapshot entry will be overwritten with the new entry. Otherwise, the new entry will be added to the VHD Set file.
 ms.assetid: dd14960d-3fb8-4d47-986f-fbbbb08eb37d
 title: SetVHDSnapshotInformation method of the Msvm_ImageManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

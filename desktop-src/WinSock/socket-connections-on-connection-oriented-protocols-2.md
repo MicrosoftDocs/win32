@@ -2,8 +2,6 @@
 Description: 'The following paragraphs describe the semantics applicable to socket connections over connection-oriented protocols:Binding to a Local AddressProtocol Basics: Listen, Connect, AcceptDetermining Local and Remote NamesEnhanced Functionality at Connect TimeConnection Shutdown'
 ms.assetid: 923fc0f5-fc0c-4923-a16f-5d50a185b30c
 title: Socket Connections on Connection-Oriented Protocols
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

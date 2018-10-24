@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 3354af97-df38-42ed-bd0c-3fc70f296882
 title: System.Link.TargetUrl
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

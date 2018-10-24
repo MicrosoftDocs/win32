@@ -2,8 +2,6 @@
 title: Router Information Structures
 description: The following reference pages describe the router information structures for the IP and IPX transports
 ms.assetid: cd01f06c-7026-4ba4-aa62-e4b33c4918ff
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

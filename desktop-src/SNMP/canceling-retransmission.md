@@ -2,8 +2,6 @@
 title: Canceling Retransmission
 description: If there is no response to a communication request within the time-out period specified for a destination entity, and if retransmissions are specified for the entity, the Microsoft WinSNMP implementation retransmits the request.
 ms.assetid: 3fd39425-7d57-4bbb-9dcb-f43b6211228c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Registers the specified database.
 ms.assetid: 65eceb1a-9ce1-4b97-98d7-731932797794
 title: SdbRegisterDatabaseEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

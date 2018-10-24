@@ -2,8 +2,6 @@
 Description: Returns the average bits per second of the encoded audio.
 ms.assetid: c90c9247-825f-4602-bb16-809969703a98
 title: AVEncStatAudioAverageBPS property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

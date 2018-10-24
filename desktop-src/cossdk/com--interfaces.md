@@ -2,8 +2,6 @@
 Description: The following are the COM+ interfaces.
 ms.assetid: 5b289e57-bfb9-4e93-82c6-a59e1d1ec0fe
 title: COM+ Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

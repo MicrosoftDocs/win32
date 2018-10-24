@@ -2,8 +2,6 @@
 title: MSMQ Security Services
 description: Synchronous RPC messages can use any of the security features available from the RPC run time. See Security for more details.
 ms.assetid: 0f4d45c4-7457-4449-8736-e141a95f6930
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

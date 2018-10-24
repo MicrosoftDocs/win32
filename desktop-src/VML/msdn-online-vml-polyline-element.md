@@ -2,8 +2,6 @@
 title: VML Polyline Element
 description: VML Polyline Element
 ms.assetid: 29ccbf78-af1b-475c-b2a4-e1f646db19e9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

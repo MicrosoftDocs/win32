@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 30e65b9e-9372-46d1-843a-bda0d6ec1c69
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'Example: Getting WMI Data from a Remote Computer'
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 title: An Overview of the Name Service Entry
 description: The name service entry consists of three distinct sections.
 ms.assetid: 3059a9a9-174d-4d04-8565-e4558f17f465
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

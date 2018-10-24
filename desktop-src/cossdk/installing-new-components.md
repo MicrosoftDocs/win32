@@ -2,8 +2,6 @@
 Description: To add components to the Components folder of a COM+ application, you can either use the COM+ Component Install Wizard or drag .dll files that contain the components from the Windows Explorer and drop them in the application.
 ms.assetid: 3cb0c24d-cd52-42ac-8b07-d8774698b90c
 title: Installing New Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

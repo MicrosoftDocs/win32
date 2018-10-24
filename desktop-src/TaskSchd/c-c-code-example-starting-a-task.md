@@ -2,8 +2,6 @@
 title: C/C++ Code Example Starting a Task
 description: This example attempts to run an existing task. This example assumes that the task and the test task already exist on the local computer.
 ms.assetid: e4f38f8a-3488-4802-913b-f627ecca8bb2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

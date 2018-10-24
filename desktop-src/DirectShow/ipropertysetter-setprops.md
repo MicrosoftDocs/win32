@@ -2,8 +2,6 @@
 Description: The SetProps method sets the properties of the target object to the appropriate state for the specified time.
 ms.assetid: 65e701c9-d3a1-4396-9cba-a7830757701f
 title: IPropertySetter::SetProps method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

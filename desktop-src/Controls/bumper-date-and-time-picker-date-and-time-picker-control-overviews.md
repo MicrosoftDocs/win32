@@ -2,8 +2,6 @@
 title: Date and Time Picker Control Overviews
 description: .
 ms.assetid: 8f4d9671-601e-42a6-a17e-ea2f2012b83c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

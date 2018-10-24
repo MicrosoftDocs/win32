@@ -2,8 +2,6 @@
 Description: This topic describes the 10- and 16-bit YUV formats that are recommended for capturing, processing, and displaying video in the Microsoft Windows operating system.
 ms.assetid: fcaaaa6f-f886-4f6e-9c3c-e513ccc90d37
 title: 10-bit and 16-bit YUV Video Formats
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

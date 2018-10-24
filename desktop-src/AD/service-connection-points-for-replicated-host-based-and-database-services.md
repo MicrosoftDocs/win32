@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 944e8ecd-f8ea-4506-992c-bbbfc82d11f3
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Service Connection Points for Replicated, Host-based, and Database Services AD

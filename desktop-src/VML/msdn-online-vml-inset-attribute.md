@@ -2,8 +2,6 @@
 title: VML Inset Attribute
 description: VML Inset Attribute
 ms.assetid: b50f900a-b0dc-4042-af9e-050011307765
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The order of action execution is determined by the sequence of actions that have been authored into the sequence tables and by the order in which the installer runs the sequence tables.
 ms.assetid: f4666f49-4ea1-42fb-b32d-ce77de79b212
 title: Action Execution Order
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

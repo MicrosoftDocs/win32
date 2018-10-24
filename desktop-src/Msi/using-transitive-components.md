@@ -2,8 +2,6 @@
 Description: A typical use for transitive components is to prepare a product to reinstall during a system upgrade.
 ms.assetid: 73677573-945f-4646-89d8-93e28f7856fe
 title: Using Transitive Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

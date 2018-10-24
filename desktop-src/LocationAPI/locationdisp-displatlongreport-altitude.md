@@ -2,8 +2,6 @@
 Description: Current altitude, in meters. Altitude is relative to the reference ellipsoid.
 ms.assetid: fbe9984c-aa9d-4ce0-9f8b-d79ca06764d4
 title: LocationDisp.DispLatLongReport.Altitude property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

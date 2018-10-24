@@ -2,8 +2,6 @@
 Description: XAudio2 is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8.
 ms.assetid: 875b44c4-30d6-8a6e-0cfc-9beb8c46f1b4
 title: XAudio2 Versions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

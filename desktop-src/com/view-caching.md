@@ -2,8 +2,6 @@
 title: View Caching
 description: View Caching
 ms.assetid: d19c111c-1367-43a2-97a9-35dc0ff5dcc8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

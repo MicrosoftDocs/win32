@@ -2,8 +2,6 @@
 title: The Character Window
 description: The Character Window
 ms.assetid: 92b6111f-b52d-4720-8bd9-59585d826bf5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

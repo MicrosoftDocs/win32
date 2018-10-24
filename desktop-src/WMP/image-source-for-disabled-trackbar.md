@@ -8,8 +8,6 @@ keywords:
 - reference for skins,trackbars
 - trackbars in skins,image source
 - image source for skins,trackbars
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

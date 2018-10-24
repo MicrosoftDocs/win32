@@ -2,8 +2,6 @@
 Description: When a module is merged into an database that has a different default language, the merge tool may need to apply a language transform to the module to provide the final language. For more information, see Multiple Language Merge Modules.
 ms.assetid: 51e8774e-f358-423f-a283-ad7beeabbbdb
 title: Authoring a Language Transform for a Multiple Language Merge Module
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Contains security settings for wired networks.
 ms.assetid: 08470cf4-3722-4cb9-9877-13eca2f7d04e
 title: security (MSM) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

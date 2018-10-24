@@ -2,8 +2,6 @@
 title: CommandsWindow Properties
 description: CommandsWindow Properties
 ms.assetid: e5e7b991-1635-4867-bef7-dc8cc0df3d92
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

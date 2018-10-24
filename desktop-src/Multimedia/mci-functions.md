@@ -4,8 +4,6 @@ description: MCI Functions
 ms.assetid: cb320d90-e25c-4ac2-bc07-feff3691cdd6
 keywords:
 - MCI reference,functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

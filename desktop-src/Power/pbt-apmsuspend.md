@@ -2,8 +2,6 @@
 Description: Notifies applications that the computer is about to enter a suspended state.
 ms.assetid: 61b177a0-4cff-4740-bed8-a46c06c43be8
 title: PBT_APMSUSPEND event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

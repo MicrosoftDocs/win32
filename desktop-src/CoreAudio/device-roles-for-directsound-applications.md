@@ -2,8 +2,6 @@
 Description: Device Roles for DirectSound Applications
 ms.assetid: 7d82d67f-aad8-4e5b-ac65-87d75774e613
 title: Device Roles for DirectSound Applications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

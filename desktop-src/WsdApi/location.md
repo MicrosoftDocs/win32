@@ -2,8 +2,6 @@
 Description: Specifies the URL provided as an import hint for a WSDL or XSD referenced inside another WSDL.
 ms.assetid: ba489fd7-2304-426e-83a0-d174bb394065
 title: location element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

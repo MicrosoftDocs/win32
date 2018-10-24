@@ -2,8 +2,6 @@
 Description: Implements an allocator that supports the IMemAllocator interface.
 ms.assetid: c40eccef-d915-4bf3-81b2-b20e000718fb
 title: CMemAllocator class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Rebar Control Notifications
 description: .
 ms.assetid: d4ecba3c-4829-4e9a-8178-64be64cc1271
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

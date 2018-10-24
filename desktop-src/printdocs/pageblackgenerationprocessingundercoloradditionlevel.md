@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: da957aca-1655-4e8d-9e7b-4da0f253293b
 title: PageBlackGenerationProcessingUnderColorAdditionLevel
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

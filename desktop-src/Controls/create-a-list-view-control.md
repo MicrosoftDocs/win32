@@ -2,8 +2,6 @@
 title: How to Create a List-View Control
 description: This topic demonstrates how to create a list-view control. To create a list-view control, you use the CreateWindow or CreateWindowEx function and specify the WC\_LISTVIEW window class.
 ms.assetid: FEAA0ACA-A086-46DF-9DD2-A3E32F2CCDA3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

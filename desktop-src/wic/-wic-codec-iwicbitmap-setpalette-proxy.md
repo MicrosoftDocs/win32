@@ -2,8 +2,6 @@
 Description: Proxy function for the SetPalette method.
 ms.assetid: 3fd60833-7f21-4654-883a-2dd88c403bc8
 title: IWICBitmap_SetPalette_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

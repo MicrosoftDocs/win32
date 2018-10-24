@@ -2,8 +2,6 @@
 title: Message and Message Queue Properties
 description: A message has properties, which specify a label, a message body, and a number of options.
 ms.assetid: d0c9126e-a2c6-4d70-b87a-154a570899fc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

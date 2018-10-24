@@ -2,8 +2,6 @@
 Description: Core
 ms.assetid: f37e7c10-b2b9-4344-8bf3-0206582e26dd
 title: Core
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

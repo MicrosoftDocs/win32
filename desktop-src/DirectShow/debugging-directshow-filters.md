@@ -2,8 +2,6 @@
 Description: Many of the debugging facilities described in this topic are implemented in the DirectShow base class library. For more information, see DirectShow Base Classes.
 ms.assetid: 40b4f2ab-e629-41a0-b979-d74ac5fe83a2
 title: Debugging DirectShow Filters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

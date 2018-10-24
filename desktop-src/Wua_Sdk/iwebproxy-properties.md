@@ -2,8 +2,6 @@
 Description: The IWebProxy interface defines the following properties.
 ms.assetid: 449b19ec-dc95-40f7-87af-84fb7dacb328
 title: IWebProxy Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

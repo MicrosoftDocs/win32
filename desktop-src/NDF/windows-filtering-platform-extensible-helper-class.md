@@ -2,8 +2,6 @@
 title: Windows Filtering Platform Extensible Helper Class
 description: The Windows Filtering Platform (WFP) includes a Network Diagnostics Framework (NDF) helper class, called the Filtering Platform helper class (FPHC).
 ms.assetid: 006ea30c-8682-4a3d-803a-73dba5162696
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: IAgentCommandEx
 description: IAgentCommandEx
 ms.assetid: 7849ddbe-e81f-4088-ba66-67676279789b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

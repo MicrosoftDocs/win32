@@ -2,8 +2,6 @@
 Description: The acquisition date of the file or media.
 ms.assetid: 7c673d21-5243-4e41-91df-c5d84aaf620a
 title: System.DateAcquired
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

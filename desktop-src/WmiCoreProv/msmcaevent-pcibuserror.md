@@ -2,8 +2,6 @@
 Description: Represents a Machine Check Architecture (MCA) PCI bus error. This class is available only for computers running on a 64-bit Windows operating system.
 ms.assetid: d8995909-a91b-4fcc-a37f-011d8df95ce8
 title: MSMCAEvent_PCIBusError class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

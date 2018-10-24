@@ -2,8 +2,6 @@
 Description: The Shortcut data type is usually used in the Target column of the Shortcut table.
 ms.assetid: a63fe4e7-7f4c-49af-84fd-876601997db4
 title: Shortcut
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

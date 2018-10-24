@@ -2,8 +2,6 @@
 Description: DACL for a New Object
 ms.assetid: ff1146d7-5229-4c75-9768-28c3fab5fcea
 title: DACL for a New Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

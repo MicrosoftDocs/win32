@@ -8,8 +8,6 @@ keywords:
 - type 1 online stores,HTMLView
 - type 2 online stores,HTMLView
 - HTMLView,online stores
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

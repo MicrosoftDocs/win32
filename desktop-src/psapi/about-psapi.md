@@ -2,8 +2,6 @@
 title: About PSAPI
 description: Lists the type of information the process status API (PSAPI) retrieve.
 ms.assetid: 27a92f9d-6a3b-472a-8acd-930772af5f76
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

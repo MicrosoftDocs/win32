@@ -2,8 +2,6 @@
 Description: Indicates whether stream state notifications should be enabled.
 ms.assetid: 97CCEBB6-9634-4BA6-966A-621F9023B59F
 title: MF_CAPTURE_ENGINE_ENABLE_CAMERA_STREAMSTATE_NOTIFICATION attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

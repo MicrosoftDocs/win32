@@ -2,8 +2,6 @@
 Description: Intelligent Connect
 ms.assetid: 938ba1b0-822e-4871-8786-b7eeee243867
 title: Intelligent Connect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

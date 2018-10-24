@@ -2,8 +2,6 @@
 Description: This section contains info about classes provided by DirectXMath.
 ms.assetid: e50e24ab-24f2-d59e-22a4-aaf7015d0255
 title: DirectXMath Library Classes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The VBScript file WiMerge.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script merges one Windows Installer database into another database. For more information, see Merges and Transforms.
 ms.assetid: 31867082-7c1d-4530-a066-236d8ee5f023
 title: Merge Two Databases
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

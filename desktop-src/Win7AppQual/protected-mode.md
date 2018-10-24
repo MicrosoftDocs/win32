@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 88810916-A85E-4EC7-A6AE-1CA2A2205DBC
 title: Protected Mode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

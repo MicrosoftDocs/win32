@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 9F2942BD-9F5C-4E02-A330-42C30C6C8F87
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - HotKeyFocusReleaseLeft property Remote Desktop Services

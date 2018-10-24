@@ -2,8 +2,6 @@
 Description: In COM+, every COM object is created with an associated context.
 ms.assetid: e5602af2-5852-4c34-a792-6742e90b7d41
 title: Context Activation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: aa4b1e57-a97c-410b-9b9d-423a1c77de70
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - RdvMigrateVmToDifferentHost method Remote Desktop Services

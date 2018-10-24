@@ -2,8 +2,6 @@
 Description: Adds a matrix to the stack.
 ms.assetid: 8660047f-64bc-4b34-8270-3087412db942
 title: ID3DXMATRIXStack::Push method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Network Share Management functions can be grouped as follows.
 ms.assetid: 07251c93-b397-470d-a3e4-55288ece1fc9
 title: Network Share Management Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

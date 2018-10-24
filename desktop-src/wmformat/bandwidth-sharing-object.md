@@ -8,8 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),bandwidth sharing objects
 - objects,bandwidth sharing objects
 - bandwidth sharing,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

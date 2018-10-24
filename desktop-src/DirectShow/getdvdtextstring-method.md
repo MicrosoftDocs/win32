@@ -2,8 +2,6 @@
 Description: The GetDVDTextString method retrieves the specified text string.
 ms.assetid: 2b8cea1e-b0b7-4ef7-90a5-aef2978e8098
 title: GetDVDTextString Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

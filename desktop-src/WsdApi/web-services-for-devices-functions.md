@@ -2,8 +2,6 @@
 Description: 'The Web Services on Devices programming interface defines and uses the following functions:'
 ms.assetid: d45c714a-4ac4-4a62-92a6-9460a2fffe6e
 title: Web Services on Devices Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

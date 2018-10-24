@@ -2,8 +2,6 @@
 Description: Device Association Endpoint's Manufacturer.
 ms.assetid: 65f1191a-b841-4041-8643-945d26a605f0
 title: System.Devices.Aep.Manufacturer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

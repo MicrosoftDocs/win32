@@ -2,8 +2,6 @@
 title: Configuring Properties
 description: Configuring Properties
 ms.assetid: 9d659887-a696-4344-9c71-a2cc6131d8b1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

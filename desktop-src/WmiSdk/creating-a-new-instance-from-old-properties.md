@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4d35474d-0b80-4b00-9724-47a193bfd0fc
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a New Instance from Old Properties
 ms.author: windowssdkdev

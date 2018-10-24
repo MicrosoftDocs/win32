@@ -2,8 +2,6 @@
 Description: The owner of the file, as known by the file system.
 ms.assetid: 3d07eba9-7d80-4b37-9836-6637da57a724
 title: System.FileOwner
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

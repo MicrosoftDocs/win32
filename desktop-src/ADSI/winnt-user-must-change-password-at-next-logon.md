@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 97dd4232-dcd3-44bd-8a2a-1dcb0f85d53c
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - User Must Change Password at Next Logon (WinNT Provider) ADSI

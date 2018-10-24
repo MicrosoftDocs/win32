@@ -2,8 +2,6 @@
 title: Bluetooth Callbacks
 description: The Bluetooth callback functions in this section are used in combination with functions that make it possible to manage Bluetooth devices and services.
 ms.assetid: a66f88e2-46f7-4e23-9b61-7ee35abec207
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

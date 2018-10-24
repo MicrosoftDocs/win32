@@ -2,8 +2,6 @@
 Description: The CBaseOutputPin class is an abstract base class that implements an output pin.
 ms.assetid: 5279c8aa-6ec0-4a89-a1b3-6904d7b69a93
 title: CBaseOutputPin class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

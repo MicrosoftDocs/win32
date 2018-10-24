@@ -9,8 +9,6 @@ keywords:
 - OpenGL porting from IRIS GL,current graphics position
 - current graphics position
 - raster positions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

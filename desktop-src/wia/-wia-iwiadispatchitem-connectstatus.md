@@ -2,8 +2,6 @@
 Description: Retrieves the connection status of the device. This property applies only to items of type device (root items). Possible values are &\#0034;connected&\#0034;, &\#0034;disconnected&\#0034;, or NULL (if this property does not apply to the item). Read-only.
 ms.assetid: 44b1713a-5859-4973-8495-e8a67f2344b2
 title: Item.ConnectStatus property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

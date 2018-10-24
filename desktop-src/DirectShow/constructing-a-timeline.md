@@ -2,8 +2,6 @@
 Description: Constructing a Timeline
 ms.assetid: 4909f797-d296-4c9f-83fb-543e48bbe75d
 title: Constructing a Timeline
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

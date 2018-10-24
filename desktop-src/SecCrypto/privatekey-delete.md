@@ -2,8 +2,6 @@
 Description: Deletes the private key container referenced by the PrivateKey object.
 ms.assetid: 80bbe46b-1ec5-4d47-82b0-5a3177f86389
 title: PrivateKey.Delete method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

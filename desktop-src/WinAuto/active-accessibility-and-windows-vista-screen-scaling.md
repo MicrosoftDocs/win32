@@ -2,8 +2,6 @@
 title: Active Accessibility and Windows Vista Screen Scaling
 description: Windows Vista enables users to change the dots-per-inch (dpi) setting so that most UI elements on the screen appear larger.
 ms.assetid: c781fefd-09f0-4340-b3d3-f4e57308f392
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

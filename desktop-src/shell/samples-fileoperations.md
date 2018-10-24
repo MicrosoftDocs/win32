@@ -1,8 +1,6 @@
 ---
 Description: Demonstrates how to copy, move, delete, and rename file system objects.
 title: File Operations Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

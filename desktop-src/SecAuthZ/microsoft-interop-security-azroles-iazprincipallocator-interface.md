@@ -2,8 +2,6 @@
 Description: Links to documentation for the IAzPrincipalLocator interoperability wrapper methods and properties.
 ms.assetid: 429d3be5-d4f2-46b1-8e80-05b4d3b8c1e3
 title: Microsoft.Interop.Security.AzRoles.IAzPrincipalLocator interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

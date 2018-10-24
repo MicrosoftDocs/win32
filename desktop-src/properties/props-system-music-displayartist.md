@@ -2,8 +2,6 @@
 Description: This property returns the best representation of the album artist for a specific music file based upon System.Music.AlbumArtist, System.Music.Artist, and System.Music.IsCompilation information.
 ms.assetid: E31B5734-1A15-42f3-BD4A-80B58E94BAD3
 title: System.Music.DisplayArtist
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

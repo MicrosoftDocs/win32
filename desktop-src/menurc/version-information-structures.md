@@ -2,8 +2,6 @@
 title: Version Information Structures
 description: .
 ms.assetid: 44252d74-abb6-4ff3-9d4c-969bbc25439e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

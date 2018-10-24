@@ -2,8 +2,6 @@
 Description: Removes an existing snapshot, and all its children, of a virtual machine.
 ms.assetid: d7a6442a-41a5-4e82-8ec8-dbc8e14d9a89
 title: DestroySnapshotTree method of the Msvm_VirtualSystemSnapshotService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

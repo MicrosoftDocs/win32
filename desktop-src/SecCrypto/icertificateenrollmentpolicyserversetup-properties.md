@@ -2,8 +2,6 @@
 Description: The ICertificateEnrollmentPolicyServerSetup interface exposes the following properties.
 ms.assetid: 29109C03-9502-4063-A589-6E59CB2254A8
 title: ICertificateEnrollmentPolicyServerSetup Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

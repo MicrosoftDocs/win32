@@ -2,8 +2,6 @@
 Description: Contains a list of the protocols to be used by DCOM. It contains an object for each protocol.
 ms.assetid: f553ce01-39b6-4dc3-9696-978b390a5c7d
 title: DCOMProtocols collection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

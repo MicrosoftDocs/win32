@@ -2,8 +2,6 @@
 Description: Allocate space for more bones.
 ms.assetid: f2acd338-f2c2-4340-a673-f36940cf31d9
 title: ID3DX10SkinInfo::AddBones method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

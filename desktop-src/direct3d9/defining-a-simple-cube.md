@@ -2,8 +2,6 @@
 Description: The following file defines a simple cube that has four red sides and two green sides. In this file, optional information is used to add information to the data object defined by the Mesh template.
 ms.assetid: 310981bf-3536-43dd-ad7c-40ab6c8ef6c4
 title: Defining a Simple Cube (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

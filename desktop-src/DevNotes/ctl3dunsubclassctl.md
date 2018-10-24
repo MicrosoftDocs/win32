@@ -2,8 +2,6 @@
 Description: Turns off subclassing for the specified control.
 ms.assetid: d4d34624-7d85-4c53-8318-b3e5d6f95f7a
 title: Ctl3dUnsubclassCtl function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

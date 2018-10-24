@@ -2,8 +2,6 @@
 Description: Gets the type of patch.
 ms.assetid: 1e35a6db-7045-451d-a2d8-847d4935ccc8
 title: ID3DXPatchMesh::GetOptions method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

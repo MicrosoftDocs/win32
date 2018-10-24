@@ -2,8 +2,6 @@
 Description: Using the System Device Enumerator
 ms.assetid: 70db139c-2c5b-4574-bec3-dfe758b16715
 title: Using the System Device Enumerator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

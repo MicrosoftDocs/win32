@@ -2,8 +2,6 @@
 Description: All pointers that the Peer Infrastructure functions return must be freed by using PeerGraphFreeData or PeerFreeData.
 ms.assetid: c7669404-2550-4f0d-908e-540d9a34008f
 title: Freeing Peer Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

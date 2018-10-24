@@ -8,8 +8,6 @@ keywords:
 - plug-ins,conversion
 - conversion plug-ins,registering
 - registry,conversion plug-ins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

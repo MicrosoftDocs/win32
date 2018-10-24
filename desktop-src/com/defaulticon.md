@@ -4,8 +4,6 @@ description: Provides default icon information for iconic presentations of objec
 ms.assetid: 45a3289b-d9c4-4857-bf48-1fd664ce4430
 keywords:
 - DefaultIcon registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

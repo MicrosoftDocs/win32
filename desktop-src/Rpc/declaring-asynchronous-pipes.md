@@ -2,8 +2,6 @@
 title: Declaring Asynchronous Pipes
 description: The following example IDL file defines a typical pipe structure, and an asynchronous RPC function with pipes.
 ms.assetid: ddd20212-18f5-41f6-9f6e-0edbe5e517a2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

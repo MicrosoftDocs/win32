@@ -2,8 +2,6 @@
 Description: Describes the primary drawing surface on a display controller.
 ms.assetid: 280ABAD0-D91B-4683-9F12-32563D7FE6BF
 title: Msvm_VideoHead class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

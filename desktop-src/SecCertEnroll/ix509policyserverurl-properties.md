@@ -2,8 +2,6 @@
 Description: The IX509PolicyServerUrl interface exposes the following properties.
 ms.assetid: 28E07887-FF97-4862-B682-018863687916
 title: IX509PolicyServerUrl Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

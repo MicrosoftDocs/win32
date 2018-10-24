@@ -2,8 +2,6 @@
 Description: The InstallExecuteAgain action runs a script containing all operations in the action sequence since either the start of the installation or the last InstallExecuteAgain action or the last InstallExecute action.
 ms.assetid: 60ff844f-f8bf-4a55-9523-ba526dac9e29
 title: InstallExecuteAgain Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

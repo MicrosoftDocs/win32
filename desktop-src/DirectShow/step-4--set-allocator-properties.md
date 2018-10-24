@@ -2,8 +2,6 @@
 Description: Step 4.
 ms.assetid: c2fd6d8b-b239-45e4-9c02-41edafa58762
 title: Step 4. Set Allocator Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

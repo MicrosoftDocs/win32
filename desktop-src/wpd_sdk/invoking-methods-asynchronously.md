@@ -2,8 +2,6 @@
 Description: Invoking Service Methods Asynchronously
 ms.assetid: d3072e34-65f2-4eeb-bcfa-e2db2d34e680
 title: Invoking Service Methods Asynchronously
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

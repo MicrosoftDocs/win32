@@ -2,8 +2,6 @@
 Description: The QueryDirection method retrieves the direction of the pin (input or output). This method implements the IPin::QueryDirection method.
 ms.assetid: c28332dc-5ac4-4c89-98b4-281424f36ba9
 title: CBasePin.QueryDirection method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

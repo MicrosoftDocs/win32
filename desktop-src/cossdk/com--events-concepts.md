@@ -2,8 +2,6 @@
 Description: COM+ Events Concepts
 ms.assetid: 6bfe4852-4029-4dd4-92ad-3061618b1b23
 title: COM+ Events Concepts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

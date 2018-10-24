@@ -2,8 +2,6 @@
 Description: Display VFW Capture Dialog Boxes
 ms.assetid: 708212ca-d148-4079-8052-3bf6696a33ab
 title: Display VFW Capture Dialog Boxes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: You can retrieve the trigger strings of a known trigger using the I
 ms.assetid: adfa95b1-54f0-4bcd-a260-ca76fd77d43e
 keywords:
 - retrieving trigger strings Task Scheduler
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

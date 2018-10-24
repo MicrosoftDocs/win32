@@ -2,8 +2,6 @@
 Description: The following functions are used with Output Protection Manager (OPM).
 ms.assetid: 7ecde6ae-56fd-451b-bebb-224c6801be05
 title: OPM Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

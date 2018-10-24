@@ -2,8 +2,6 @@
 Description: DMO Wrapper Filter
 ms.assetid: ffa6234d-9040-4838-8f51-0cf87df40a5c
 title: DMO Wrapper Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

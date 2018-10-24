@@ -2,8 +2,6 @@
 title: HTTP Server API Version 1.0 Reference
 description: The following functions, structures, and enumerations are used to implement applications that use the HTTP version 1.0 API.
 ms.assetid: 20ef4628-47af-46d1-ad15-566a719f8f1c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

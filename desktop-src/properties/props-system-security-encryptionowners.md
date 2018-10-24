@@ -2,8 +2,6 @@
 Description: File ownership.
 ms.assetid: d29d70d7-8a0b-4fa5-afb7-ba115028e115
 title: System.Security.EncryptionOwners
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

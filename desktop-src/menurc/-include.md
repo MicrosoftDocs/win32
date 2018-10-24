@@ -2,8 +2,6 @@
 title: ' include'
 description: The \ include directive causes the resource compiler to process the file specified in the filename parameter.
 ms.assetid: 9a3505c6-c19f-4c4f-85a4-94fbcfc0f9c6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following set of topics provide guidance on how to implement camera RAW image formats that will function within the Windows Imaging Component (WIC) framework.
 ms.assetid: 145459fe-8ef4-41ba-b062-00f435c982e5
 title: WIC Guidelines for Camera RAW Image Formats
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: While it is often possible to use the \ include directive to includ
 ms.assetid: ff524965-424d-416d-97cd-c2780ebf69ef
 keywords:
 - importing MIDL , system header files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

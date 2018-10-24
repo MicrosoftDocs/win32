@@ -2,8 +2,6 @@
 title: hs_fork_phase (sm5 - asm)
 description: Start the fork phase in a hull shader.
 ms.assetid: 13D6A06C-F001-45BE-8AB4-D7ACA73BF535
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

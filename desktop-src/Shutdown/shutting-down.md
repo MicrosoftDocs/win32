@@ -2,8 +2,6 @@
 Description: There are three ways for an application to shut down local or remote computers:shut down the systemshut down the system and restart itshut down the application, shut down and restart the system, and restart any applications that have been registered for restart
 ms.assetid: acadf58f-3f68-4fa1-bdcf-8f85c8479263
 title: Shutting Down
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

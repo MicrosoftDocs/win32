@@ -2,8 +2,6 @@
 Description: Subobjects
 ms.assetid: 03cbd590-b573-4a98-9ab7-fe548800cfcb
 title: Subobjects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

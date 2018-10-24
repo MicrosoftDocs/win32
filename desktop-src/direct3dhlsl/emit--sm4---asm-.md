@@ -2,8 +2,6 @@
 title: emit (sm4 - asm)
 description: Emit a vertex.
 ms.assetid: FDD18CCD-8088-46BD-897C-434B77FF81E6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

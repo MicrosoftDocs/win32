@@ -2,8 +2,6 @@
 title: Controlling Precision and Numerical Clipping in Effect Graphs
 description: Applications that render effects using Direct2D must take care to achieve the desired level of quality and predictability with respect to numerical precision.
 ms.assetid: 6fd1d77f-e613-534f-3205-bad11fa24c30
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

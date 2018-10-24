@@ -2,8 +2,6 @@
 Description: This class is the event type class for stack tracing events.
 ms.assetid: 05117bd6-a39c-42f3-8aed-c6f758f946c6
 title: StackWalk_Event class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

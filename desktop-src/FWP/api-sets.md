@@ -2,8 +2,6 @@
 title: WFP API
 description: The Windows Filtering Platform (WFP) API is divided into the following components.
 ms.assetid: ff3f0d74-7e0b-4a3e-b66d-eaa61b89038a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

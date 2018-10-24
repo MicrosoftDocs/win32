@@ -2,8 +2,6 @@
 Description: The get\_BitErrorRate method retrieves an approximate bit error rate for the video.
 ms.assetid: 4078611c-6e09-47c8-8e1c-f33bc6ddca79
 title: CBaseControlVideo.get_BitErrorRate method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

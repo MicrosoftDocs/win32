@@ -2,8 +2,6 @@
 Description: Specifies a property's display information.
 ms.assetid: 27c03ced-a5fa-4ab4-b88e-5b78701da878
 title: displayInfo
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

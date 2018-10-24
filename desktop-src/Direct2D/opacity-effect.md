@@ -2,8 +2,6 @@
 title: Opacity effect
 description: This effect adjusts the opacity of an image by multiplying the alpha channel of the input by the specified opacity value. It has a single input.
 ms.assetid: a4995228-e08f-b543-0af1-e0eedfe8ecb2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

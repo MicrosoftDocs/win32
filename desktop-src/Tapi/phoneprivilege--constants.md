@@ -2,8 +2,6 @@
 Description: The PHONEPRIVILEGE\_ bit-flag constants describe the various ways in which a phone device can be opened.
 ms.assetid: 1dc2fab9-b044-4ae3-8c16-fa450f9ef714
 title: PHONEPRIVILEGE_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

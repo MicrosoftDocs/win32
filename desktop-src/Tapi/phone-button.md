@@ -2,8 +2,6 @@
 Description: The TAPI PHONE\_BUTTON message is sent to notify the application that button press monitoring is enabled if it has detected a button press on the local phone.
 ms.assetid: fe47eed7-89d1-488b-b945-9e1aedc1f63c
 title: PHONE_BUTTON message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

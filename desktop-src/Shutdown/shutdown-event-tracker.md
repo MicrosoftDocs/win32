@@ -2,8 +2,6 @@
 Description: The Shutdown Event Tracker enables the user or application to document the reason for shutting down or restarting the system.
 ms.assetid: 860c014e-1fde-45d1-b366-c279bfcf4079
 title: Shutdown Event Tracker
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Translating Message Requests
 description: This topic describes the process of translating SNMPv1 requests into SNMPv2 requests.
 ms.assetid: 7671ae36-99b1-47b1-930a-f376021d56a2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

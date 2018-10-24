@@ -4,8 +4,6 @@ description: Using a Multiple Document Interface
 ms.assetid: bc59f19c-1064-4df8-8864-38e6d188f92f
 keywords:
 - MCIWndRegisterClass function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

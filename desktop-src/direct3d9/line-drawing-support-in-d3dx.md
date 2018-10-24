@@ -2,8 +2,6 @@
 Description: D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
 ms.assetid: 34ad82f2-542c-4342-af02-a767d6d4c96c
 title: Line Drawing Support in D3DX (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

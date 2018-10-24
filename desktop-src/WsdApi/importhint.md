@@ -2,8 +2,6 @@
 Description: Specifies the download location for a <wsdl:import> directive that does not explicitly specify a location.
 ms.assetid: 81d0a30b-8f15-4518-b833-de57e0dae978
 title: importHint element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

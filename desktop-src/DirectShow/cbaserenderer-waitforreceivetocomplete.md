@@ -2,8 +2,6 @@
 Description: The WaitForReceiveToComplete method waits for the CBaseRenderer::Receive method to complete.
 ms.assetid: 3c722680-e54b-4ba1-8e98-36647cd027bc
 title: CBaseRenderer.WaitForReceiveToComplete method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The STATIONQUERY structure provides information about a specific computer using Network Monitor.
 ms.assetid: b7202c6b-e2b9-4a6f-8b87-3d11879f1d69
 title: STATIONQUERY structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

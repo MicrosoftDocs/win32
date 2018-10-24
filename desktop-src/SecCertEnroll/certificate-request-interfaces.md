@@ -2,8 +2,6 @@
 Description: The following interfaces can be used to create certificate requests.
 ms.assetid: 6021db79-ac90-4e0c-afbd-0f926abcab78
 title: Certificate Request Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: vs
 description: This instruction specifies the shader version number. This instruction works on all shader versions.
 ms.assetid: edcbaff3-eb32-49e6-80de-621b67d4df75
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

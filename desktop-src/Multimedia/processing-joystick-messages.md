@@ -7,8 +7,6 @@ keywords:
 - MM_JOY1MOVE message
 - MM_JOY1BUTTONDOWN message
 - MM_JOY1BUTTONUP message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

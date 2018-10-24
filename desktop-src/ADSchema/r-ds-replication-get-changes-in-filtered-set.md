@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 600552c3-6a3a-40ea-8702-3d6a763cfde3
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - DS-Replication-Get-Changes-In-Filtered-Set extended right AD Schema

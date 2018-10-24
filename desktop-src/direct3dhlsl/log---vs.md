@@ -2,8 +2,6 @@
 title: log - vs
 description: Full precision log₂(x).
 ms.assetid: 53c91825-ec54-4b04-bf08-52d4b1c5122d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

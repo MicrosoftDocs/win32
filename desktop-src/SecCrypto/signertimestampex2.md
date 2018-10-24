@@ -2,8 +2,6 @@
 Description: Time stamps the specified subject and optionally returns a pointer to a SIGNER\_CONTEXT structure that contains a pointer to a BLOB. This function can be used to perform X.509 Public Key Infrastructure, RFC 3161&\#8211;compliant, time stamps.
 ms.assetid: fb82545b-c00f-44eb-96f4-aa27a125c8d9
 title: SignerTimeStampEx2 function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Size of each buffer.
 ms.assetid: 2f3b6409-6858-4975-98b8-c0c29cb14b90
 title: CBaseAllocator::m_lSize member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

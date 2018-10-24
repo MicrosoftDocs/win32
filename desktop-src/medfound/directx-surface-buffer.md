@@ -2,8 +2,6 @@
 Description: DirectX Surface Buffer
 ms.assetid: 2c82c023-4436-4f8a-b896-7f4765f989b3
 title: DirectX Surface Buffer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

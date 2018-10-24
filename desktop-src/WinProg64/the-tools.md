@@ -5,8 +5,6 @@ ms.assetid: 457b7cc1-8517-4a36-9a0c-cf191ff3b374
 keywords:
 - 64-bit Windows programming guide 64-bit Windows Programming , tools
 - tools 64-bit Windows Programming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

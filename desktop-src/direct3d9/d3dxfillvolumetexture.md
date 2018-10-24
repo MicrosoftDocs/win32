@@ -2,8 +2,6 @@
 Description: Uses a user-provided function to fill each texel of each mip level of a given volume texture.
 ms.assetid: cc9eb051-8a62-4e35-87df-c255f10e94d8
 title: D3DXFillVolumeTexture function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

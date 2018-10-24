@@ -2,8 +2,6 @@
 Description: The Store object exposes the following methods.
 ms.assetid: '55fcec37-b527-4339-8612-1a89bd755fd3'
 title: Store Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

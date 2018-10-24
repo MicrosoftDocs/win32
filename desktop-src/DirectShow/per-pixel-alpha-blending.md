@@ -2,8 +2,6 @@
 Description: Per-Pixel Alpha Blending
 ms.assetid: 68661dc5-1423-47b2-a0df-858e5eb7f02b
 title: Per-Pixel Alpha Blending
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

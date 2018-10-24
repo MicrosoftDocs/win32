@@ -2,8 +2,6 @@
 Description: ICE49 checks for default registry entries that are not a REG\_SZ type.
 ms.assetid: 53d976fe-07d2-4b68-ae21-1dbd00d76942
 title: ICE49
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

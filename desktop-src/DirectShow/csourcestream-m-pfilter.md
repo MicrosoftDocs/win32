@@ -2,8 +2,6 @@
 Description: Pointer to the filter that contains this pin.
 ms.assetid: 3f085f21-f692-44f0-813d-6889700849db
 title: CSourceStream::m_pFilter member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

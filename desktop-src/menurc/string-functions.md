@@ -2,8 +2,6 @@
 title: String Functions
 description: .
 ms.assetid: 0249ea7a-84f1-4e25-9e80-0be5eb6c04ed
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

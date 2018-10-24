@@ -2,8 +2,6 @@
 Description: Indicates if the event will recur.
 ms.assetid: be1551e6-861d-49cf-9050-9b98b7f79725
 title: System.Calendar.IsRecurring
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

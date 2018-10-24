@@ -2,8 +2,6 @@
 Description: The PRIMARYFOLDER is a global property that allows the author to designate a primary folder for the installation.
 ms.assetid: 7ba776de-53e5-491a-917b-37778fe0c438
 title: PRIMARYFOLDER property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

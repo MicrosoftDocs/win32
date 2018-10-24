@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 29696a6f-cd2c-40c4-a7a6-ca32ac80beae
 title: System.Music.PartOfSet
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

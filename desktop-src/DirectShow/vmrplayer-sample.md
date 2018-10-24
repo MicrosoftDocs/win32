@@ -2,8 +2,6 @@
 Description: VMRPlayer Sample
 ms.assetid: 7fc893a6-afa5-4ada-9295-29122b43b21e
 title: VMRPlayer Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

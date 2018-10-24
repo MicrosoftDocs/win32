@@ -2,8 +2,6 @@
 Description: 'The following elements are used with Windows Resource Protection:'
 ms.assetid: 16f6a716-9d83-4d40-b4e9-794410df364f
 title: Windows Resource Protection Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

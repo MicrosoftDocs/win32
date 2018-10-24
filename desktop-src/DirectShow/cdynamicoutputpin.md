@@ -2,8 +2,6 @@
 Description: The CDynamicOutputPin class implements an output pin that supports dynamic reconnections and format changes.
 ms.assetid: d2488fba-a653-4b6e-b786-ce95f9e20daa
 title: CDynamicOutputPin class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

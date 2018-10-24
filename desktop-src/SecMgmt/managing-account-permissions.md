@@ -2,8 +2,6 @@
 Description: The LSA provides several functions that applications can call to enumerate or set privileges for user, group, and local group accounts.
 ms.assetid: c28c03f0-4638-42ed-8dad-1e934cf99273
 title: Managing Account Permissions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

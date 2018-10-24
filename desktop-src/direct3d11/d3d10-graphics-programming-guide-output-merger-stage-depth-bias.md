@@ -2,8 +2,6 @@
 title: Depth Bias
 description: Polygons that are coplanar in 3D space can be made to appear as if they are not coplanar by adding a z-bias (or depth bias) to each one.
 ms.assetid: ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following constants are used to specify information about how resources are created and accessed during rendering.
 ms.assetid: 3b5fa75c-17b2-42b6-9209-767de285ba8e
 title: Resource Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Balloons
 description: A balloon is a small pop-up window that informs users of a non-critical problem or special condition in a control.
 ms.assetid: 67092831-e573-4ad6-b1fc-baa1836031cb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

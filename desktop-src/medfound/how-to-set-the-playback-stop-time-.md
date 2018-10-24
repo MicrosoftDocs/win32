@@ -2,8 +2,6 @@
 Description: This topic describes how to set a stop time for playback when using the Media Session.
 ms.assetid: B8BA2154-2824-4573-AE71-853EB8AB911D
 title: How to Set the Playback Stop Time
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

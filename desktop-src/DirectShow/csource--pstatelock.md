@@ -2,8 +2,6 @@
 Description: The pStateLock method retrieves a pointer to the filter's critical section object.
 ms.assetid: 10a2e74b-a5aa-4d68-958e-d86f4b78037e
 title: CSource.pStateLock method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Atlas effect
 description: You can use this effect to output a portion of an image but retain the region outside of the portion for use in subsequent operations.
 ms.assetid: D35E32CB-4DF7-408F-A717-1E421DDC8763
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

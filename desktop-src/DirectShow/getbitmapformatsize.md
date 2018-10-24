@@ -2,8 +2,6 @@
 Description: The GetBitmapFormatSize function calculates the size needed for a VIDEOINFO structure that can hold a specified BITMAPINFOHEADER structure.
 ms.assetid: a559415a-070f-4674-be12-a65a46025809
 title: GetBitmapFormatSize function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

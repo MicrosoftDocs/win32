@@ -2,8 +2,6 @@
 Description: The user begins logging on to the network by typing a logon name and password. The Kerberos client on the user's workstation converts the password to an encryption key and saves the result in a program variable.
 ms.assetid: fcb3b601-9953-474c-9a08-1fa25706f3d7
 title: Authentication Service Exchange
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

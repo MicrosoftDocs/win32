@@ -2,8 +2,6 @@
 title: How to Create a Texture
 description: This topic shows how to create a texture.
 ms.assetid: dfe88635-b2c2-48f8-a21e-cce845b518fc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies the copyright flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 0fe02acb-cdac-4b6c-8835-6e338727973f
 title: AVEncDDCopyright property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

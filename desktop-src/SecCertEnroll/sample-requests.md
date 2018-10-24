@@ -2,8 +2,6 @@
 Description: The following topics contain sample certificate requests.
 ms.assetid: 53d25d53-2f4f-47e1-ad66-4e3ab6d06f24
 title: Sample Requests
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

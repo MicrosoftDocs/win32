@@ -2,8 +2,6 @@
 Description: 'The following macros are used with color:'
 ms.assetid: f5bded0f-5f55-4512-9c00-9a9eb08c39f0
 title: Color Macros
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

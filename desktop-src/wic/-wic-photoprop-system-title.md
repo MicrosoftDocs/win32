@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.Title property.
 ms.assetid: 84da345e-ec03-48fe-8fda-043b706e4e1c
 title: System.Title Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

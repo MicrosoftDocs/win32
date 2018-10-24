@@ -2,8 +2,6 @@
 Description: The following sample code demonstrates the use of the NUMA functions GetNumaHighestNodeNumber, GetNumaProcessorNode, and VirtualAllocExNuma.
 ms.assetid: df025b35-fb6b-4987-806e-9c76e6b130a1
 title: Allocating Memory from a NUMA Node
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

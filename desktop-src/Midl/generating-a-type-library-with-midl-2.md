@@ -4,8 +4,6 @@ description: The top-level element of the ODL syntax is the library statement (l
 ms.assetid: e21a9e6e-4e10-4280-af8f-24534cb2ab90
 keywords:
 - Microsoft Interface Definition Language MIDL , tasks, generating a type library
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

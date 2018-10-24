@@ -2,8 +2,6 @@
 Description: The Multiple Provider Router (MPR) handles communication between the Windows operating system and the installed network providers. It enables Windows to present an integrated network to the user.
 ms.assetid: 3f473273-f696-45f7-afbf-fd55f974ba48
 title: Multiple Provider Router
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

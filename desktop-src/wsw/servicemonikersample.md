@@ -6,8 +6,6 @@ keywords:
 - ServiceMonikerSample Windows Web Services API
 - WWSAPI
 - WWS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

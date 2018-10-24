@@ -2,8 +2,6 @@
 Description: The read-only DatabaseTable property of the Error object returns the name of the table in the database that caused the error.
 ms.assetid: 38ff45ca-4bd6-43f3-88ad-db4077daeb77
 title: Error.DatabaseTable property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

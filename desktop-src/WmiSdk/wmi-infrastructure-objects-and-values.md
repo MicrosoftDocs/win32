@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7f0e3ebb-ba10-4cf0-86a9-5fdec5ffc383
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Infrastructure Objects and Values
 ms.author: windowssdkdev

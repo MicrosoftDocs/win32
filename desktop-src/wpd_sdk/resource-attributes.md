@@ -2,8 +2,6 @@
 Description: Windows Portable Devices supports the following resource attributes.
 ms.assetid: 0cbf8777-5cea-4839-a4c3-366bb9e18488
 title: Resource Attributes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

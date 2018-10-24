@@ -2,8 +2,6 @@
 Description: Demonstrates the use of wireless Hosted Network functions.
 ms.assetid: 3da903c2-bdfa-4c1f-92e7-962551f0e08e
 title: Wireless Hosted Network Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

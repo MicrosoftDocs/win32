@@ -2,8 +2,6 @@
 Description: The HTAPICALL datatype represents the TAPI opaque handle for a call data structure.
 ms.assetid: a2a17b03-5779-411e-8959-6e2de5e53c5a
 title: HTAPICALL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

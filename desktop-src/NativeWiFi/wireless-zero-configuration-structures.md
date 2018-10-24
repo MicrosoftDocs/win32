@@ -2,8 +2,6 @@
 Description: The following structures enable software developers to use the functionality provided by the Wireless Zero Configuration module.
 ms.assetid: d9b8042e-5e06-43d1-9738-34d31f36f6db
 title: Wireless Zero Configuration Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Using Color in Direct2D
 description: Using Color in Direct2D
 ms.assetid: 74b1f12c-b1de-4df1-85ba-0cf7a0009499
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

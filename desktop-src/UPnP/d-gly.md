@@ -3,8 +3,6 @@ title: D
 description: Contains UPnP-related terms that begin with the letter D.
 Robots: noindex, nofollow
 ms.assetid: 9acec267-3f8b-4906-bb0e-a1411d218043
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

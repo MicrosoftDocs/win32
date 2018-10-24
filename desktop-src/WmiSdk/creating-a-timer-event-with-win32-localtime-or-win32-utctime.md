@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 89ba41e2-c9b5-4914-b8cb-13d21ff03402
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Timer Event with Win32_LocalTime or Win32_UTCTime
 ms.author: windowssdkdev

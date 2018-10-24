@@ -2,8 +2,6 @@
 Description: Lists the DLL exports that must be implemented to create a credential manager.
 ms.assetid: 8b176dd6-0e0b-4330-8889-f87384977ceb
 title: Implementing a Credential Manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: OpenGL
 description: As a software interface for graphics hardware, OpenGL renders multidimensional objects into a framebuffer.
 ms.assetid: 'ddd7c8d0-f1d1-4d16-bd0c-99cee3d733c5'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

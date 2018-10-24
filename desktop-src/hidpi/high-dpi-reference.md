@@ -2,8 +2,6 @@
 title: High DPI Reference
 description: .
 ms.assetid: 07A2D45E-721C-4DA8-82A5-38B2FB94BC6D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

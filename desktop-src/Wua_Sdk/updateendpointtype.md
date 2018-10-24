@@ -2,8 +2,6 @@
 Description: Defines the type of endpoints that can be used to connect to a service.
 ms.assetid: 50397D25-7C71-4AA2-89BF-F90CBDCFFA91
 title: UpdateEndpointType enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

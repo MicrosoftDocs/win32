@@ -2,8 +2,6 @@
 title: Implementing IAccessibleEx for Providers
 description: This section explains how to add Microsoft UI Automation provider capabilities to a Microsoft Active Accessibility server by implementing the IAccessibleEx interface.
 ms.assetid: c03dc552-7919-4a35-8ff2-4cdd822bc0b7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

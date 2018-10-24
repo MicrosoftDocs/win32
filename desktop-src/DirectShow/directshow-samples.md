@@ -2,8 +2,6 @@
 Description: DirectShow Samples
 ms.assetid: 4166d5ca-5e02-49f6-bcb1-d448f8175a0c
 title: DirectShow Samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

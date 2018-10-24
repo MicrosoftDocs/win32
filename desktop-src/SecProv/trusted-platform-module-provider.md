@@ -2,8 +2,6 @@
 Description: The Trusted Platform Module provider is used to manage a Trusted Platform Module (TPM).
 ms.assetid: ed230fee-03d4-4430-bba8-454d5da050dd
 title: Trusted Platform Module Provider
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

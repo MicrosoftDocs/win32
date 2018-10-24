@@ -2,8 +2,6 @@
 Description: Represents the low-level software that is loaded into RAM to configure and start the system.
 ms.assetid: D123601A-DEE6-43EA-BD95-1F7F0F2C2B43
 title: Msvm_BIOSElement class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

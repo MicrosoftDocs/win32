@@ -2,8 +2,6 @@
 title: VML HR Attribute
 description: VML HR Attribute
 ms.assetid: acef4867-3fbd-49a5-b5cc-a0eaf737579a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

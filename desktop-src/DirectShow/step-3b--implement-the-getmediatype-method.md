@@ -2,8 +2,6 @@
 Description: Step 3B.
 ms.assetid: 0ec57083-b192-404a-938f-bc6bb1cf0ddb
 title: Step 3B. Implement the GetMediaType Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

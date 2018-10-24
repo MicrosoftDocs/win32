@@ -2,8 +2,6 @@
 title: Designing NDF Helper Class Extensions
 description: This topic is intended to provide generic guidance through the helper class extension development process.
 ms.assetid: f5dbd198-7d22-4e7e-830e-6753e9f4d6c8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

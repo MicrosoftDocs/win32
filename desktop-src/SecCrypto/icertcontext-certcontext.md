@@ -2,8 +2,6 @@
 Description: Sets or retrieves the PCCERT\_CONTEXT of a certificate.
 ms.assetid: aedd219d-43fa-4722-9af4-36172d2c18b0
 title: ICertContext::CertContext property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

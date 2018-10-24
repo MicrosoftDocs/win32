@@ -2,8 +2,6 @@
 title: Texture3D subresource tiling
 description: This table shows how Texture3D subresources are tiled.
 ms.assetid: D0CDD652-AE8E-40A4-BA05-E743B0757AFA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

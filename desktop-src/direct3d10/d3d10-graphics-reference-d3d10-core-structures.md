@@ -2,8 +2,6 @@
 Description: 'This section contains information about the following core structures:'
 ms.assetid: 84769515-3f3b-4464-9620-7b806bf905b3
 title: Core Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

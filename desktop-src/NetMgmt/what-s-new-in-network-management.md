@@ -2,8 +2,6 @@
 title: What's New in Network Management
 description: What's New in Network Management
 ms.assetid: f805b662-1807-4703-b27e-4721895fe450
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

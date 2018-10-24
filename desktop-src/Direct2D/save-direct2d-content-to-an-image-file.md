@@ -2,8 +2,6 @@
 title: How to save Direct2D content to an image file
 description: This topic shows how to use IWICImageEncoder to save content in the form of an ID2D1Image to an encoded image file such as JPEG.
 ms.assetid: F0D8BFC7-723A-4577-B2DF-4D656A18E2FC
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

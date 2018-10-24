@@ -2,8 +2,6 @@
 Description: Media Property Bag
 ms.assetid: 06678d57-c00b-4575-84e7-3d09f65f19ba
 title: Media Property Bag
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

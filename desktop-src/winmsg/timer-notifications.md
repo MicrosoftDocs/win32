@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: eb4ab22b-a8f8-41d4-96f9-fac3aaa5fe44
 title: Timer Notifications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

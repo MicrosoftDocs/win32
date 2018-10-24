@@ -2,8 +2,6 @@
 title: Supporting High Contrast Themes
 description: This topic compares the support for high contrast themes in Windows 8 to that of previous versions of Windows, and explains how to support high contrast themes in a Windows 8 application.
 ms.assetid: 6E4F1198-E69C-4C60-B3B0-2702AECAA203
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

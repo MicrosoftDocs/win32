@@ -3,8 +3,6 @@ title: W
 description: Words starting with W in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: eddf0abc-61b4-4ab7-87e8-e455d8e3e003
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

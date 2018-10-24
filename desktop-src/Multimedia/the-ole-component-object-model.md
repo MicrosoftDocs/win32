@@ -2,8 +2,6 @@
 title: The OLE Component Object Model
 description: The OLE Component Object Model
 ms.assetid: f3200d81-c2fa-4cc7-bf85-54f6c753a529
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

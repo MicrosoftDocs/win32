@@ -2,8 +2,6 @@
 Description: Generating a new patch may require significant time.
 ms.assetid: 8be9a83a-8c36-43f5-8dda-05fc2f3ce0d2
 title: Patch Information Caching (Patchwiz.dll)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

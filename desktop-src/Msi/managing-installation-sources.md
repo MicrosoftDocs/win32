@@ -2,8 +2,6 @@
 Description: Users and applications with administrative privileges can retrieve and modify network, URL, and media source list information for Windows Installer applications and patches on the system.
 ms.assetid: e8c66bad-f594-4926-b3b4-c8b245dcfa83
 title: Managing Installation Sources
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The hold operation allows a single address to handle multiple communications sessions.
 ms.assetid: 65e22e4e-e346-41c2-929a-ba0d1f7f1732
 title: Hold
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

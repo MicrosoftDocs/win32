@@ -5,8 +5,6 @@ ms.assetid: 216af1d5-39e7-49ba-8673-41d78f89169e
 keywords:
 - MCI command messages,about
 - MCI command messages,examples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

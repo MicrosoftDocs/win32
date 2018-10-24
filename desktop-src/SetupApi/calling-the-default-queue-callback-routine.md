@@ -2,8 +2,6 @@
 Description: If the default queue callback routine is initialized and specified when SetupCommitFileQueue is called, the queue calls the default queue callback routine internally and you need do nothing more.
 ms.assetid: a976c275-f128-490d-a544-efbfc6fd87f4
 title: Calling the Default Queue Callback Routine
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

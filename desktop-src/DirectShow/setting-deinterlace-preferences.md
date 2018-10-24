@@ -2,8 +2,6 @@
 Description: Setting Deinterlace Preferences
 ms.assetid: 31d59f17-552b-46d1-89e4-751216f54280
 title: Setting Deinterlace Preferences
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

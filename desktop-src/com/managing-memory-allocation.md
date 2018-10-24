@@ -2,8 +2,6 @@
 title: Managing Memory Allocation
 description: Managing Memory Allocation
 ms.assetid: 8a189fe8-5555-44bb-968b-04408fa7fce4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

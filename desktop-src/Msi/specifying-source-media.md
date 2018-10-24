@@ -2,8 +2,6 @@
 Description: The Media table describes the set of disks that make up the source media for the installation. See the File Tables Group. In this section, you add information about the source media for the Notepad sample.
 ms.assetid: 883b3e8d-0a35-40e7-8bf1-704c5b4f0da1
 title: Specifying Source Media
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Shape Element (VML)
 description: Shape Element (VML)
 ms.assetid: bc0db691-f0f0-4a99-adbb-8a5f5cfd9c00
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

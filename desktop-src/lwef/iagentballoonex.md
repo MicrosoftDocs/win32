@@ -2,8 +2,6 @@
 title: IAgentBalloonEx
 description: IAgentBalloonEx
 ms.assetid: 97e605c4-da7c-4a61-b668-71431fcb47ee
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

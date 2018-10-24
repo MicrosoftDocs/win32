@@ -5,8 +5,6 @@ ms.assetid: 016b9221-092d-4c25-a396-4f41dcdfb3cf
 keywords:
 - backward compatibility 64-bit Windows Programming
 - compatibility problems 64-bit Windows Programming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

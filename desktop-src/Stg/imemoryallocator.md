@@ -14,8 +14,6 @@ api_location:
 - Ole32.dll
 api_type:
 - COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

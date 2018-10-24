@@ -2,8 +2,6 @@
 title: Media Platform
 description: Media Foundation and DirectShow provide the basis for media support in Windows.
 ms.assetid: 020f009c-7432-432b-a39b-9295dd784d2e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -7,8 +7,6 @@ keywords:
 - registry,settings for Windows Media Player
 - SDK (software development kit),registry
 - software development kit (SDK),registry
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

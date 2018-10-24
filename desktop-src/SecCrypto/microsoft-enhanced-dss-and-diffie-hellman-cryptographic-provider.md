@@ -2,8 +2,6 @@
 Description: The Microsoft enhanced DSS and Diffie-Hellman Cryptographic Provider supports Diffie-Hellman key exchange, SHA hashing, DSA data signing and verification (FIPS 186-2), and RC4 symmetric encryption algorithms.
 ms.assetid: 90eca1e0-960f-4355-aef7-6e923100a6d8
 title: Microsoft Enhanced DSS and Diffie-Hellman Cryptographic Provider
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

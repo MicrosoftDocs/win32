@@ -2,8 +2,6 @@
 Description: Running the complete TCP/IP client and server application sample code.
 ms.assetid: 617dfdf6-f7a7-4e72-8c77-8cfa3ab232e7
 title: Running the Winsock Client and Server Code Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

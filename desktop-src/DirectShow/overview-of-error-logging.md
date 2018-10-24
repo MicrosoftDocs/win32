@@ -2,8 +2,6 @@
 Description: Overview of Error Logging
 ms.assetid: 1037f354-0415-4a5c-a96c-20ae714981af
 title: Overview of Error Logging
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

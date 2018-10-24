@@ -2,8 +2,6 @@
 Description: Some applications, such as Microsoft Active Directory, Microsoft Exchange, and Microsoft Access, maintain a sortable database of locale and language strings indexed by name (UTF-16 string), and their associated sorting weights.
 ms.assetid: c8fc32bd-02bd-4a40-a836-d9ad9f69c209
 title: Handling Sorting in Your Applications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

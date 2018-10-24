@@ -2,8 +2,6 @@
 Description: The composite element defines a composition, a container object for tracks and other nested compositions.
 ms.assetid: 7551da3a-1da6-426a-ba9d-f715df53718f
 title: composite Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Returns TRUE if the current thread is the owner of the specified critical section.
 ms.assetid: 96158f08-07a0-42a9-b173-0a05456a5f3a
 title: CritCheckIn function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

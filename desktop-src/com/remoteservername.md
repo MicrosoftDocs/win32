@@ -4,8 +4,6 @@ description: Configures the client to request the object be run at a particular 
 ms.assetid: 0413564e-e8ba-4e6e-ad29-62997c63aab3
 keywords:
 - RemoteServerName registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

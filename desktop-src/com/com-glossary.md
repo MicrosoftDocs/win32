@@ -3,8 +3,6 @@ title: COM Glossary
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 9e2c56a2-0572-48b6-a2ef-650f1cf1b62e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

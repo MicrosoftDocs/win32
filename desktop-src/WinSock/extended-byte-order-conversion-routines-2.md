@@ -2,8 +2,6 @@
 Description: Windows Sockets 2 does not assume that the network byte order for all protocols is the same.
 ms.assetid: 517c21b5-4b56-49f8-88ae-103fdfce6441
 title: Extended Byte-Order Conversion Routines
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: The functions in this section are used for managing Bluetooth devic
 ms.assetid: 5cd4a050-51f3-40f4-b434-be639e109f0f
 keywords:
 - Bluetooth, reference, functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

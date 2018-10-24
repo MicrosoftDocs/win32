@@ -2,8 +2,6 @@
 Description: Gets a technique description.
 ms.assetid: 12122858-1e54-446c-8f12-20cc62499d74
 title: ID3DXBaseEffect::GetTechniqueDesc method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

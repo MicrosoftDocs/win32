@@ -2,8 +2,6 @@
 Description: Indicates if the storage media is system critical.
 ms.assetid: 596e4750-9fd6-4de5-b2af-40de39d6a602
 title: System.Storage.SystemCritical
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

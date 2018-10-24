@@ -3,8 +3,6 @@ title: B
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 2ed7c463-e2f1-49ad-b957-041af54ff56f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

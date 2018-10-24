@@ -2,8 +2,6 @@
 title: Rst Tag
 description: Rst Tag
 ms.assetid: f812c412-2fa4-4f9f-b6a5-32fa0cc0f638
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

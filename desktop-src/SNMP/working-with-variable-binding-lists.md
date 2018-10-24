@@ -5,8 +5,6 @@ ms.assetid: e6353ae7-1d32-4de4-8518-49864fcbfc57
 keywords:
 - Working with Variable Binding Lists SNMP
 - Variable Binding Lists SNMP , SNMP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

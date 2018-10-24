@@ -2,8 +2,6 @@
 title: First Experience
 description: In the ideal first experience, users install your program and use it productively immediately, without answering a bunch of questions or learning a bunch of things.
 ms.assetid: d925f71c-fc5a-4ff2-8f5d-9434c162b4b4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

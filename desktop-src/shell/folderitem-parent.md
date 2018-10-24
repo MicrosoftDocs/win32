@@ -2,8 +2,6 @@
 Description: Gets an object that represents the parent of the item.
 ms.assetid: 612e76d8-d8bc-419c-b319-75b1f324840a
 title: FolderItem.Parent property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

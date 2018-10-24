@@ -9,8 +9,6 @@ keywords:
 - PlaySound function,about
 - sndPlaySound function
 - PlaySound function,compared to sndPlaySound function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: DDE Functions
 description: .
 ms.assetid: d109ac50-e464-4928-9d6b-bc65f257f826
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

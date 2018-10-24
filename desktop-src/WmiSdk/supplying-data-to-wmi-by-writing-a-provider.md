@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 919dfa7c-4a36-4e59-8377-72cf9735eaec
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Supplying Data to WMI by Writing a Provider
 ms.author: windowssdkdev

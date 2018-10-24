@@ -2,8 +2,6 @@
 Description: The denominator of System.Photo.Aperture.
 ms.assetid: 35fed5e4-2338-4b5e-a138-b5cf587a8db8
 title: System.Photo.ApertureDenominator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

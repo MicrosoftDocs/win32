@@ -2,8 +2,6 @@
 title: VML LengthSpecified Attribute
 description: VML LengthSpecified Attribute
 ms.assetid: bc8287a8-e14b-4829-a5c9-8aac37d7e058
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

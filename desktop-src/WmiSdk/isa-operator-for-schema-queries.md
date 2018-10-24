@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 0520470c-ebfc-4c45-8a1f-47fd66bf8414
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ISA Operator for Schema Queries
 ms.author: windowssdkdev

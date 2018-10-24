@@ -2,8 +2,6 @@
 Description: The get\_SourceLeft method retrieves the left coordinate of the current source rectangle.
 ms.assetid: dbfb1850-6e49-481c-b26a-22ccb9e4455a
 title: CBaseControlVideo.get_SourceLeft method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

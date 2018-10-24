@@ -2,8 +2,6 @@
 Description: Network Monitor includes the following BLOB functions.
 ms.assetid: 90514067-59e9-4bd9-8612-2263bd414574
 title: BLOB Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

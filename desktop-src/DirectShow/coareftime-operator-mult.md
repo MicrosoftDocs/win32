@@ -2,8 +2,6 @@
 Description: This operator multiplies a reference time by a value.
 ms.assetid: f575fd41-1d3e-43a6-abf8-8e64093e408e
 title: COARefTime.operator* method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

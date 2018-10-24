@@ -2,8 +2,6 @@
 Description: Interfaces used with disk quotas.
 ms.assetid: 422d93d9-f4aa-428d-94c1-fdf2dcf4c974
 title: Disk Quota Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Microsoft Windows HTTP Services (WinHTTP) provides developers with a server-supported, high-level interface to the HTTP/1.1 Internet protocol.
 ms.assetid: 8337f699-3ec0-4397-acc2-6dc813f7542d
 title: About WinHTTP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

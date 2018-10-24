@@ -2,8 +2,6 @@
 Description: The user-friendly form of System.Photo.GainControl. Not intended to be parsed programmatically.
 ms.assetid: 18fd47dc-b428-4ada-aee5-e696e23c1f26
 title: System.Photo.GainControlText
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

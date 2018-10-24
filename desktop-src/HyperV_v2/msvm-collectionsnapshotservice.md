@@ -2,8 +2,6 @@
 Description: Service to create, destroy and export snapshot collection of virtual systems.
 ms.assetid: 55a6c7b4-5352-4766-b5b7-6699b1f40b78
 title: Msvm_CollectionSnapshotService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

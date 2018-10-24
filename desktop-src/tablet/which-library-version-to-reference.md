@@ -2,8 +2,6 @@
 Description: This topic describes the differences between the Tablet PC library binary versions.
 ms.assetid: 708567b8-33bd-43cd-b56f-8ee9c96fb315
 title: Which Library Version to Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

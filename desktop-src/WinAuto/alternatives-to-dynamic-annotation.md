@@ -2,8 +2,6 @@
 title: Alternatives to Dynamic Annotation
 description: Alternatives to Dynamic Annotation
 ms.assetid: d8019c65-620b-4aa2-a631-cc32f34e5510
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

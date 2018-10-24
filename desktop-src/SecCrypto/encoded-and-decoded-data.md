@@ -2,8 +2,6 @@
 Description: To send data over a communication medium such as a phone line, the data must be serialized&\#8212; that is, converted into a string of ones and zeros that are transmitted serially over the line.
 ms.assetid: ef8982dc-bbbc-466a-9afe-dd0425c23f1d
 title: Encoded and Decoded Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

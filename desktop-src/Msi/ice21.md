@@ -2,8 +2,6 @@
 Description: ICE21 validates that every component in the Component table belongs to a feature. It uses the FeatureComponents table to check for this mapping.
 ms.assetid: 68983d6a-b807-4730-a645-378001e558ec
 title: ICE21
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

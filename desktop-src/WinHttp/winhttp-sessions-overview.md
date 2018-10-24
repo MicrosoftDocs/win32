@@ -2,8 +2,6 @@
 Description: The Microsoft Windows HTTP Services (WinHTTP) exposes a set of C/C++ functions that enable your application to access HTTP resources on the Web. This topic provides an overview of how these functions are used to interact with an HTTP server.
 ms.assetid: 66a1616b-0cf3-45c7-880b-e36728b5a9c4
 title: WinHTTP Sessions Overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

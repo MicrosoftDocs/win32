@@ -3,8 +3,6 @@ Description: The following terms are useful in understanding the TAPI technology
 Robots: noindex, nofollow
 ms.assetid: c4421b36-6d8c-4643-b139-3b207d551ca0
 title: K
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

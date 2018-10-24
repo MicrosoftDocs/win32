@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 38b4d129-f98f-43da-9bd9-1ae23c090657
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - security descriptors AD ,modifying the defaultSecurityDescriptor for an object class

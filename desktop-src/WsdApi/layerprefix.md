@@ -2,8 +2,6 @@
 Description: Defines the prefix to use in the generated code to assure uniqueness of generated symbols.
 ms.assetid: 50cb443a-15ae-4f8f-b5f7-b8708810a6c3
 title: layerPrefix element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

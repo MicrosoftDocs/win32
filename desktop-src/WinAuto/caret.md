@@ -2,8 +2,6 @@
 title: Caret (MSAA UI Element Reference)
 description: The caret is a flashing line, block, or bitmap in the client area of a window or in a control that accepts keyboard input.
 ms.assetid: f2c48c36-1859-4e0a-8833-3ca90b4da323
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

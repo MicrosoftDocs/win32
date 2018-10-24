@@ -2,8 +2,6 @@
 Description: This topic contains resource definitions for the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: 6eeee05d-0f19-4417-a7b9-34ec2243e366
 title: resource.h
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

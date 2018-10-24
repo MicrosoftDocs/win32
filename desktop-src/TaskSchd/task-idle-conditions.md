@@ -7,8 +7,6 @@ keywords:
 - idle conditions Task Scheduler , discussion
 - creating idle triggers Task Scheduler
 - idle triggers Task Scheduler
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

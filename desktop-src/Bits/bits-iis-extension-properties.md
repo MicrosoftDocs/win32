@@ -4,8 +4,6 @@ description: Background Intelligent Transfer Service (BITS) uses an ISAPI to ext
 ms.assetid: 08a40cc1-ec6d-4b65-971a-15c7b06df148
 keywords:
 - BITS IIS Extension Properties BITS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

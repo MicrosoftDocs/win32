@@ -2,8 +2,6 @@
 title: Managing a Variable Binding List
 description: The SnmpGetVb function retrieves variable binding information from a variable binding list. The function retrieves the variable name and the variable's associated value from the variable binding entry specified by the WinSNMP application.
 ms.assetid: 357aebd6-171a-4221-b12a-712702f9d9c6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

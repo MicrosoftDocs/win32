@@ -2,8 +2,6 @@
 title: Caption Property
 description: Caption Property
 ms.assetid: 7182c21e-1ff0-4dce-9571-534b7576c082
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

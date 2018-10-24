@@ -2,8 +2,6 @@
 Description: Used in the QueryGuestClusterInformation method in the Msvm\_VssService class to retrieve information about the guest cluster the VM is part of.
 ms.assetid: c484b38d-9137-44da-a368-a2a673b94ef8
 title: Msvm_GuestClusterInformation class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

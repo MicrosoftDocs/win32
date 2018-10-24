@@ -2,8 +2,6 @@
 Description: Understanding Internationalization
 ms.assetid: 9147cd20-eeae-4ad4-8d51-ac1d68a4b2c5
 title: Understanding Internationalization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: 12daffca-b403-4f06-8037-206f90e33252
 keywords:
 - HTTP Server API Version 2.0 Functions
 - Functions HTTP , HTTP Server API Version 2.0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

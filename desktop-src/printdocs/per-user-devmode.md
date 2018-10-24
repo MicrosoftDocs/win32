@@ -2,8 +2,6 @@
 Description: A user can specify the default document settings for a printer. This is called the per-user DEVMODE because it only affects the defaults for a particular user, and the information for each printer is defined in a separate DEVMODE structure.
 ms.assetid: f791f847-c31e-4a06-93cb-49117d8f0cb8
 title: Per-User DEVMODE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

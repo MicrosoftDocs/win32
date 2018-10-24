@@ -2,8 +2,6 @@
 title: Dictionary
 description: IPropertyStorage WritePropertyNames is implemented using the Property ID 0 dictionary. Property ID 0 is not accessible through IPropertyStorage ReadMultiple or IPropertyStorage WriteMultiple.
 ms.assetid: 53dcb007-46b2-446c-ab63-b2d8010f1e4a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

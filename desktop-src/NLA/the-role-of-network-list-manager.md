@@ -2,8 +2,6 @@
 title: The Role of Network List Manager
 description: The Role of Network List Manager
 ms.assetid: 056d7b0f-5ff7-4b87-8bfe-d4e2018ee638
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

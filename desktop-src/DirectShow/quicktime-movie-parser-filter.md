@@ -2,8 +2,6 @@
 Description: QuickTime Movie Parser Filter
 ms.assetid: 9537dd7b-9aeb-4e73-a31d-86053874ef13
 title: QuickTime Movie Parser Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

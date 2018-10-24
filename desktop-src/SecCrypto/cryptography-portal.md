@@ -2,8 +2,6 @@
 Description: Use cryptographic technologies for public key encryption, encryption algorithms, RSA encryption, and digital certificates.
 ms.assetid: c53af815-ee3f-417a-8e62-3a3689715bc6
 title: Cryptography
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

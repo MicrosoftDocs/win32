@@ -13,8 +13,6 @@ api_name:
 - IUIAutomationElement5.get_CurrentLocalizedLandmarkType
 api_type:
 - COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

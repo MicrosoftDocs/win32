@@ -2,8 +2,6 @@
 Description: The ReOrderCapabilities method sets a new order for format capabilities.
 ms.assetid: 05785d64-a22f-411f-9fae-318828d30c52
 title: ITFormatControl::ReOrderCapabilities method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

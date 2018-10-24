@@ -2,8 +2,6 @@
 title: VML ImageAspect Attribute
 description: VML ImageAspect Attribute
 ms.assetid: 9ae58a76-f097-4feb-9008-ab6212bae8fb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

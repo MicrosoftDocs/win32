@@ -2,8 +2,6 @@
 Description: Contains the current state of the battery.
 ms.assetid: 514906a1-9d7a-40cb-9798-84f6b93d7bfe
 title: BATTERY_STATUS structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

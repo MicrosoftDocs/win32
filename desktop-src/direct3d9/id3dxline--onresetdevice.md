@@ -2,8 +2,6 @@
 Description: Use this method to re-acquire resources and save initial state.
 ms.assetid: beca7a51-e799-4e03-81a3-218552231428
 title: ID3DXLine::OnResetDevice method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

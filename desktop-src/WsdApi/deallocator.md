@@ -2,8 +2,6 @@
 Description: Specifies the type of deallocator to be used by a stub function.
 ms.assetid: 58228dfd-1d4b-41e5-b423-a54525021c22
 title: deallocator element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

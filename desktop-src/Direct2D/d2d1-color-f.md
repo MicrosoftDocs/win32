@@ -4,8 +4,6 @@ description: Describes the red, green, blue, and alpha components of a color.
 ms.assetid: 564d4f41-2da7-49ed-b85a-d1070d662b40
 keywords:
 - D2D1_COLOR_F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

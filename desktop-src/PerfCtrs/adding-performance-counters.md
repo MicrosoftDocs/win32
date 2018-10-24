@@ -2,8 +2,6 @@
 Description: Performance counters specific to your application can help you tune performance while you develop and debug the application.
 ms.assetid: 016386f6-4675-409e-8446-599e4ff96109
 title: Adding Performance Counters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

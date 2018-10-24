@@ -2,8 +2,6 @@
 Description: Removes the translation data at the specified key frame.
 ms.assetid: 58cadf5d-f687-4644-83b0-e124ef2bcb5a
 title: ID3DXKeyframedAnimationSet::UnregisterTranslationKey method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

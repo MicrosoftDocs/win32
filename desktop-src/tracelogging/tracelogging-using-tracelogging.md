@@ -2,8 +2,6 @@
 title: Using TraceLogging
 description: The following topics provide a TraceLogging quick start for native and managed code, with examples.
 ms.assetid: CEC57517-7A0E-45AA-85F7-F358AE51EF4A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

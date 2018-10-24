@@ -2,8 +2,6 @@
 title: Tracking modified ranges of a file
 description: Tracking modified ranges of a file
 ms.assetid: 756881E9-EFD0-42FE-9B1C-4A2EF1998D71
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

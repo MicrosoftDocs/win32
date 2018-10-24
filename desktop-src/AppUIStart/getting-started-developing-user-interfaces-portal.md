@@ -2,8 +2,6 @@
 title: Getting Started Developing User Interfaces for Windows Applications
 description: .
 ms.assetid: 29d6f67b-46fa-4f39-a319-306c832eff9a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

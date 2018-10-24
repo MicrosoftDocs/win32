@@ -2,8 +2,6 @@
 Description: To conserve time and memory when working with many symbol files, use the SymSetOptions function to set the deferred symbol loading (SYMOPT\_DEFERRED\_LOADS) option.
 ms.assetid: 40c9384f-00ed-40cd-9687-b76b69e74f87
 title: Deferred Symbol Loading
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

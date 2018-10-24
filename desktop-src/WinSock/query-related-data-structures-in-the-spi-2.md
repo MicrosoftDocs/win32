@@ -2,8 +2,6 @@
 Description: The WSAQUERYSET structure is used to form queries for the NSPLookupServiceBegin function, and used to deliver query results for the NSPLookupServiceNext function.
 ms.assetid: 017b5828-bc6e-42b7-aba7-21648b2dd707
 title: Query-Related Data Structures in the SPI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: db0d1125-e39f-445b-bd65-373633cad578
 keywords:
 - joysticks,position
 - joysticks,buttons
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

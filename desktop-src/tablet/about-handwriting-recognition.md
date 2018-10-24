@@ -2,8 +2,6 @@
 Description: Tablet PC includes technology for recognizing ink input that is most commonly in the form of handwriting.
 ms.assetid: 614971a8-2b56-40d4-abb6-aba5ded01883
 title: About Handwriting Recognition
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

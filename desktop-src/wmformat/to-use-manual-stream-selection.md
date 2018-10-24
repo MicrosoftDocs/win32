@@ -17,8 +17,6 @@ keywords:
 - mutual exclusion,manual stream selection
 - streams,asynchronous readers
 - mutual exclusion,asynchronous readers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

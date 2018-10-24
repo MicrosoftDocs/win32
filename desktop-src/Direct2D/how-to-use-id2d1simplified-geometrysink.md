@@ -2,8 +2,6 @@
 title: How to Retrieve Geometry Data by Extending ID2D1SimplifiedGeometrySink
 description: Shows how to retrieve geometry data by extending ID2D1SimplifiedGeometrySink interface.
 ms.assetid: c6777b11-6d4e-409e-9c30-da1e060c9aca
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

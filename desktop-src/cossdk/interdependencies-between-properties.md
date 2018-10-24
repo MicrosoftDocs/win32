@@ -2,8 +2,6 @@
 Description: Interdependencies Between Properties
 ms.assetid: 1c7c7c76-ec27-4ee4-a860-24244843a1e5
 title: Interdependencies Between Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

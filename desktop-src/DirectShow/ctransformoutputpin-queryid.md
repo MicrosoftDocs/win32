@@ -2,8 +2,6 @@
 Description: The QueryId method retrieves an identifier for the pin. This method implements the IPin::QueryId method.
 ms.assetid: 3d83db3a-b919-454d-a91a-91f33a952a22
 title: CTransformOutputPin.QueryId method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

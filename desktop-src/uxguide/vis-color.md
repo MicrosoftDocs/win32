@@ -2,8 +2,6 @@
 title: Color
 description: Color is an important visual element of most user interfaces.
 ms.assetid: 30a60e9e-ebb4-40f2-8535-a9b58dc668a8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

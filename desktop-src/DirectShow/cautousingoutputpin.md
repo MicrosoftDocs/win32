@@ -2,8 +2,6 @@
 Description: The CAutoUsingOutputPin class obtains and releases access to a CDynamicOutputPin object.
 ms.assetid: 4ded5d18-4b14-4574-ad1f-73b886a51fac
 title: CAutoUsingOutputPin class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

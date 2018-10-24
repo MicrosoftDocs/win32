@@ -1,8 +1,6 @@
 ---
 Description: Sets or gets the state of the volume's disk quotas.
 title: DiskQuotaControl.QuotaState property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The MsiNetAssemblySupport property indicates whether the computer supports common language run-time assemblies.
 ms.assetid: 32f4f971-8e42-46b0-96e4-b3505abd2314
 title: MsiNetAssemblySupport property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

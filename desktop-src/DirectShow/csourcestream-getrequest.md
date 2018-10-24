@@ -2,8 +2,6 @@
 Description: The GetRequest method waits for the next thread request.
 ms.assetid: 2938374b-174f-4276-98a2-20a084bd9bbd
 title: CSourceStream.GetRequest method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

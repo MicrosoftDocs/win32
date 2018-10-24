@@ -2,8 +2,6 @@
 Description: Occurs when a new stylus is added to the system.
 ms.assetid: bd0f0d2a-c0d9-48fc-bc90-f63f038639f3
 title: ITabletEventSink::CursorNew method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

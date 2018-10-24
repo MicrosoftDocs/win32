@@ -5,8 +5,6 @@ ms.assetid: aaa7f971-9c23-4738-a386-9b7db859f6be
 keywords:
 - RASIPV4ADDR
 - RASIPV6ADDR
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

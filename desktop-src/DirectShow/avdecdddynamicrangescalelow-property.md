@@ -2,8 +2,6 @@
 Description: Specifies the low-level boost when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
 ms.assetid: d723c825-f2f1-4ba0-a667-8285009764fd
 title: AVDecDDDynamicRangeScaleLow property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

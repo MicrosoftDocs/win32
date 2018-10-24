@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 9ed4685e-c726-480f-aa08-394fbaf5c730
 title: System.Communication.Suffix
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

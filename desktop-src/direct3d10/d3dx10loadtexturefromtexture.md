@@ -2,8 +2,6 @@
 Description: Load a texture from a texture.
 ms.assetid: 126e71e1-a3b2-418b-be35-434a2e9472ca
 title: D3DX10LoadTextureFromTexture function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: 20f78dcd-3259-43c2-8da3-8cfc299252e6
 keywords:
 - MCIWndGetStart macro
 - MCIWndGetEnd macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

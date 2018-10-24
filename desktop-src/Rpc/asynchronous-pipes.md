@@ -2,8 +2,6 @@
 title: Asynchronous Pipes
 description: Using pipe parameters with asynchronous RPC allows you to transmit data incrementally, as it becomes available, without tying up the client and server.
 ms.assetid: e5c466b8-c0b0-4fa8-8867-d0715fd614b2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

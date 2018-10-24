@@ -2,8 +2,6 @@
 Description: Sets an event key that changes the rate of play of an animation track.
 ms.assetid: 217d3a2d-0fb7-4995-86ec-7a4e8420e338
 title: ID3DXAnimationController::KeyTrackSpeed method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

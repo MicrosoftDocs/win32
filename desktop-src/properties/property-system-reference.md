@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 8f2df462-c22d-4059-8599-4eefd24560f1
 title: Property System Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

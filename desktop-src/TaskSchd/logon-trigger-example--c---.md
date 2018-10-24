@@ -2,8 +2,6 @@
 title: Logon Trigger Example (C++)
 description: This C++ example shows how to create a task that is scheduled to execute Notepad when a user logs on.
 ms.assetid: 15647234-8d1f-4d75-b215-92927b300c1f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

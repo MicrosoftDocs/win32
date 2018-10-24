@@ -2,8 +2,6 @@
 Description: This class is the parent class for process events. The following syntax is simplified from MOF code.
 ms.assetid: 29ecf04c-4be1-451e-b140-4ffed337cfed
 title: Process_V0 class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

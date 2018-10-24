@@ -2,8 +2,6 @@
 Description: Like the client, the server also acquires a credentials handle to be ready to respond to an incoming authentication request from the client.
 ms.assetid: 2a0aeadf-e099-4264-8522-e498f437bf75
 title: Server Context Initialization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

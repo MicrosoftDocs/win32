@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 00198aec-d05d-4aaf-b63e-1625d8befe06
 title: Contact
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: StopAll Method
 description: StopAll Method
 ms.assetid: 2ce32ff8-4908-45b1-9b83-4d558f67417c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

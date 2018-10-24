@@ -2,8 +2,6 @@
 Description: Default values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
 ms.assetid: a7e579ae-5390-ebac-27e4-bbdd71a82181
 title: XAUDIO2FX_REVERB_DEFAULT
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

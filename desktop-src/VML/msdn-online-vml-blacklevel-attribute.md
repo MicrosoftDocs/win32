@@ -2,8 +2,6 @@
 title: VML BlackLevel Attribute
 description: VML BlackLevel Attribute
 ms.assetid: b30446c2-f4f3-49f5-aa60-4119f211add2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

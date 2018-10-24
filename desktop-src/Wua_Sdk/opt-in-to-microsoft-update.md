@@ -2,8 +2,6 @@
 Description: You can opt a computer in to the Microsoft Update service and then register that service with Automatic Updates.
 ms.assetid: d6f3d8ca-3b7e-409c-87b6-db247b7b68e4
 title: Opt-In to Microsoft Update
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

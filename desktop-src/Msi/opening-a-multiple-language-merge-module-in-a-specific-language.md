@@ -2,8 +2,6 @@
 Description: When merging a module into an installation database, there are two important languages.
 ms.assetid: e815854f-a379-497a-ae37-b13de39dd516
 title: Opening a Multiple-Language Merge Module in a Specific Language
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

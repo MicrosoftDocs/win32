@@ -2,8 +2,6 @@
 title: Scroll Bar Functions
 description: .
 ms.assetid: ed40b2c7-da99-4fff-bdb9-df682b3cc860
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

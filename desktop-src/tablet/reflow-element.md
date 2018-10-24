@@ -2,8 +2,6 @@
 Description: Indicates the group has been reflowed.
 ms.assetid: bf4b9916-737c-4efe-8e93-da85df5f0567
 title: Reflow Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

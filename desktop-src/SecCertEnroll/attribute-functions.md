@@ -2,8 +2,6 @@
 Description: Attributes can be added to a certificate request to provide a certification authority (CA) with additional information that it can use when creating and issuing a certificate.
 ms.assetid: 3eba5a2f-eeac-4e38-8705-b12bc183b7eb
 title: Attribute Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

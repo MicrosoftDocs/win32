@@ -2,8 +2,6 @@
 Description: The following subtypes are used by decoders that are using DirectX Video Acceleration (DXVA).
 ms.assetid: 031b076b-cdfa-407f-8efa-391bce3075ef
 title: DirectX Video Acceleration Video Subtypes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

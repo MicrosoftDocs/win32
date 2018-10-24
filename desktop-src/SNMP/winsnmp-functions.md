@@ -2,8 +2,6 @@
 title: WinSNMP Functions
 description: The functions used with WinSNMP fall into the following functional groupings. An alphabetic list follows.
 ms.assetid: ae95ac47-81ff-4715-b3e9-e19c07223712
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

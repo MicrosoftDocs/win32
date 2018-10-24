@@ -2,8 +2,6 @@
 title: Controls
 description: Controls
 ms.assetid: '73947c81-6727-4112-9da0-efa60360f458'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

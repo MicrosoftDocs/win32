@@ -4,8 +4,6 @@ ms.assetid: d3aac8fc-de7d-4d8e-82d7-0d89417c4404
 description: 
 keywords:
 - WebDAV WebDAV , reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: When you create a process with the CreateProcess function, you can specify that the process inherit handles to mutex, event, semaphore, or timer objects using the SECURITY\_ATTRIBUTES structure.
 ms.assetid: 36491a5c-7599-4f69-ab76-d3a62261a151
 title: Object Inheritance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

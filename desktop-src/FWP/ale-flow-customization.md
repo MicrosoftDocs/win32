@@ -2,8 +2,6 @@
 title: ALE Flow Customization
 description: Network filtering at the Application Layer Enforcement (ALE) layers of the Windows Filtering Platform (WFP) can be customized by adding filters with specific classify options.
 ms.assetid: 123af237-cf42-410b-8a2f-c011cb5f4f19
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

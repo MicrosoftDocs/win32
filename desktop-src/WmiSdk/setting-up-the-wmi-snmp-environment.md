@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8074175a-af66-49b2-9723-dfb38a08fb63
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting up the WMI SNMP Environment
 ms.author: windowssdkdev

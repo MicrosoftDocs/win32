@@ -2,8 +2,6 @@
 Description: The transition element defines a transition object. A transition is a two-input transform that results in a transition from one stream (such as a composite or track) to another.
 ms.assetid: d344a29f-5b6d-44a3-b1d7-759442e229f5
 title: transition Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

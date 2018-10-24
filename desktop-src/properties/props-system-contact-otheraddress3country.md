@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: f26e9e34-f55b-4862-89b9-6aa122a85046
 title: System.Contact.OtherAddress3Country
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

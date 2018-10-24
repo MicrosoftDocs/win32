@@ -2,8 +2,6 @@
 title: IAgentCommandsEx
 description: IAgentCommandsEx
 ms.assetid: 6c354677-4cdb-4a74-9c41-2d0bf6f8dd55
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

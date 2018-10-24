@@ -2,8 +2,6 @@
 Description: The key to good design is planning. If you are unfamiliar with designing a three-tier application, see the section entitled Designing the COM+ Application Using UML.
 ms.assetid: 463f4154-92f6-46c3-95ff-8513963dcadd
 title: General Design Tips for Using COM+
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

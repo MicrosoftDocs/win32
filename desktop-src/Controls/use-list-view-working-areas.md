@@ -2,8 +2,6 @@
 title: How to Use List-View Working Areas
 description: This topic demonstrates how to work with list-view working areas. Working areas are rectangular virtual areas that can be used to arrange items in a list-vew control.
 ms.assetid: 7A803B66-7827-49A3-8D87-6A037C09A19A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

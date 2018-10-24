@@ -2,8 +2,6 @@
 Description: Creates an instance of a DirectXFile object. Deprecated.
 ms.assetid: c920d480-2557-491d-87ea-7eea1f470498
 title: DirectXFileCreate function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

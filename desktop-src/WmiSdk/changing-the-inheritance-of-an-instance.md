@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 6d0fd456-81ab-4665-bb88-f9fb29fbbd39
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Changing the Inheritance of an Instance
 ms.author: windowssdkdev

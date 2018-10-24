@@ -2,8 +2,6 @@
 Description: Validate a technique.
 ms.assetid: d69eaafa-da4d-4599-86fb-83d72e1664cc
 title: ID3DXEffect::ValidateTechnique method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

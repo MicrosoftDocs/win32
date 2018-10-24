@@ -2,8 +2,6 @@
 Description: The RemoveExistingProducts action goes through the product codes listed in the ActionProperty column of the Upgrade table and removes the products in sequence by invoking concurrent installations.
 ms.assetid: 3e96283b-1085-4ace-b004-2fd94310eeb2
 title: RemoveExistingProducts Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

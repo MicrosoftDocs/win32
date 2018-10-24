@@ -2,8 +2,6 @@
 Description: To debug a process that is already running, the debugger should use DebugActiveProcess with the process identifier. To retrieve a list of process identifiers, use either the EnumProcesses or Process32First function.
 ms.assetid: 2662411f-a69a-442b-a177-a27ea025bb01
 title: Debugging a Running Process
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

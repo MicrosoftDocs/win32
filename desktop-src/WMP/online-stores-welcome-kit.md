@@ -2,8 +2,6 @@
 title: Online Stores Welcome Kit
 description: Online Stores Welcome Kit
 ms.assetid: '0684f705-62c4-4b90-bd0e-b33ab8fec6ef'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

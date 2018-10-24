@@ -2,8 +2,6 @@
 Description: If this property is true, the device is the default device.
 ms.assetid: b290fa2d-d67d-4073-9268-dcab22b876c9
 title: System.Devices.IsDefault
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

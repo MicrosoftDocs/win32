@@ -2,8 +2,6 @@
 Description: A given encoder supports certain parameter categories, and for each of those categories, that encoder allows certain values.
 ms.assetid: cb9552e9-e807-4b07-b315-4550762e7026
 title: Using the EncoderValue Enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

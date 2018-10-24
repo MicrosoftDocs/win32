@@ -2,8 +2,6 @@
 title: Core Enumerations
 description: The following enumerations are declared in d3d12.h.
 ms.assetid: 76E76C85-128E-4F0E-9711-C72C4CF6C835
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

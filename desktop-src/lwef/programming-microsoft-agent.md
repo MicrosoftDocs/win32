@@ -4,8 +4,6 @@ description: Programming Microsoft Agent
 ms.assetid: 045a3e38-34a4-4d51-a05f-ce6934a1ed8c
 keywords:
 - Microsoft Agent, programming guide
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

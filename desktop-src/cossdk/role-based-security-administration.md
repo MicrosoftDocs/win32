@@ -2,8 +2,6 @@
 Description: Role-Based Security Administration
 ms.assetid: 7247758e-f486-4ce2-afca-f0d10fffe626
 title: Role-Based Security Administration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

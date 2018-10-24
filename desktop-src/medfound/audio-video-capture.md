@@ -2,8 +2,6 @@
 Description: This section describes how to use Microsoft Media Foundation to perform audio and video capture.
 ms.assetid: 3d8de05b-3cf3-4f9f-98b9-65873592152a
 title: Audio/Video Capture
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

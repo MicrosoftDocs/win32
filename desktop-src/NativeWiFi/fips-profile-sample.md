@@ -2,8 +2,6 @@
 Description: Used to connect to a network that requires security settings that comply with Federal Information Processing Standards (FIPS) 140-2 standard.
 ms.assetid: 169df4a3-e8b9-4f05-874f-a7eef6658d01
 title: FIPS Profile Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

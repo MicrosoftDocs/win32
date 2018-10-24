@@ -2,8 +2,6 @@
 Description: The following interfaces enumerate TAPI 3 elements according to COM standards. These interfaces constitute stand-alone objects, and are also summarized with their related objects.
 ms.assetid: 5281aaf8-9774-4332-8861-1f97cf378f42
 title: Enumerator Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Work Submission in Direct3D 12
 description: To improve the CPU efficiency of Direct3D apps, Direct3D 12 no longer supports an immediate context associated with a device.
 ms.assetid: BE2F46EA-D4A9-47F7-A2D1-6A486DD4DC1A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The ModifyStopTime method sets the stop time, relative to the timeline.
 ms.assetid: 0d9b6cf7-d029-4c35-9045-82cbeff1e3ae
 title: IAMTimelineSrc::ModifyStopTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: In addition to performing a backup or restore, and supervising shadow copies, a requester must manage information about the components of the writers it interacts with.
 ms.assetid: 641abfbe-fc72-4468-9ef6-69c452adb1b3
 title: Use of Components by the Requester
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

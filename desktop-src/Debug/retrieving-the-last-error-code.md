@@ -2,8 +2,6 @@
 Description: When many system functions fail, they set the last-error code.
 ms.assetid: 4cc626ac-7574-44ce-8377-e0bdd8e74b7e
 title: Retrieving the Last-Error Code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

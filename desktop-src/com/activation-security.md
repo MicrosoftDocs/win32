@@ -2,8 +2,6 @@
 title: Activation Security
 description: Activation Security
 ms.assetid: 0c13d473-a9f9-40b5-951b-731eab736fe6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

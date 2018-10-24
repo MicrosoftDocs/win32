@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 575f7f94-5f55-4834-bdb6-0db877187388
 title: CBaseControlWindow.CBaseControlWindow constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

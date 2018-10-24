@@ -2,8 +2,6 @@
 Description: Multimedia Streaming Object and Interface Hierarchy
 ms.assetid: dbb6dc3b-b55e-4f6c-918f-068308e2dba9
 title: Multimedia Streaming Object and Interface Hierarchy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

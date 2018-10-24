@@ -2,8 +2,6 @@
 title: Constants and Enumerations
 description: Reference documentation for the Windows Ribbon framework constants and enumerations.
 ms.assetid: 8499a096-aac3-4af3-a4c9-eebf53698744
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

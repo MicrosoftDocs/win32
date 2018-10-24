@@ -2,8 +2,6 @@
 title: Network List Manager Architecture
 description: Network List Manager Architecture
 ms.assetid: d3d03891-7c61-4f7e-a2e2-ef13353e8688
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

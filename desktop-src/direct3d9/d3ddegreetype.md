@@ -2,8 +2,6 @@
 Description: Defines the degree of the variables in the equation that describes a curve.
 ms.assetid: 52a9c57e-a48d-4d8a-a208-97a3d09e7abf
 title: D3DDEGREETYPE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

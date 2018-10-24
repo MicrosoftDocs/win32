@@ -2,8 +2,6 @@
 Description: The Privileged property indicates whether the installation is performed in the context of elevated privileges.
 ms.assetid: 483ab73a-3ff7-4111-a6b5-eac990d85bd7
 title: Privileged property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

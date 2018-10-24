@@ -2,8 +2,6 @@
 Description: Sink Writer Attributes
 ms.assetid: f27b9beb-f35f-400e-a337-50d9de21e91e
 title: Sink Writer Attributes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

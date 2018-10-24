@@ -2,8 +2,6 @@
 title: MCI Implementations for Specific Devices
 description: MCI Implementations for Specific Devices
 ms.assetid: 3f6281a6-ab90-423a-a7dd-79da2c9bed95
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

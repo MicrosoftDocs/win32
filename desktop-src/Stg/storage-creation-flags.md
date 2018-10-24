@@ -2,8 +2,6 @@
 title: Storage Creation Flags
 description: Storage creation flags specify what COM should do if an existing storage, stream, or lockbytes object has the same name as a new storage or stream object that you are creating.
 ms.assetid: 5e079716-9f68-4f1d-9c76-9199e32d78ec
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

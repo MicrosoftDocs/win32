@@ -2,8 +2,6 @@
 title: Assigning Request Identifiers
 description: A WinSNMP application can call the SnmpCreatePdu function or the SnmpSetPduData function to assign an application-generated request identifier to a PDU. The application must pass the value in the request\_id parameter.
 ms.assetid: 72559054-982f-4c2b-83d2-268f130f6ea2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

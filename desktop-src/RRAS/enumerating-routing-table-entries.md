@@ -2,8 +2,6 @@
 title: Enumerating Routing Table Entries
 description: The enumeration functions allow a client to retrieve information about a specific type of routing table object (routes, destinations, and next hops). Both routing protocols and administration programs can use these functions to locate specific data.
 ms.assetid: 3caa019e-db40-4991-a229-166cb257bfed
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

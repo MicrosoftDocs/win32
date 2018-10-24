@@ -2,8 +2,6 @@
 Description: Describes a parameter used for an effect object.
 ms.assetid: 60d19b52-67ef-4903-bbde-922a8fac1ad8
 title: D3DXPARAMETER_DESC structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

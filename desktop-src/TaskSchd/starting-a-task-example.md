@@ -2,8 +2,6 @@
 title: Starting a Task Example
 description: To start a task, call the Run method of the ITask interface. Run is an asynchronous method that attempts to execute the task and returns as soon as the task has started. The Task Scheduler service must be running for this method to succeed.
 ms.assetid: 90f197de-7a32-4e4b-b4c0-d3f706e47de1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: GuidNames is a global array in the DirectShow base class library that contains strings representing the GUIDs defined in Uuids.h. This array is useful for generating debug output.
 ms.assetid: 6d72ad1e-588a-4a82-a1c1-e1e7b49df572
 title: GuidNames
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

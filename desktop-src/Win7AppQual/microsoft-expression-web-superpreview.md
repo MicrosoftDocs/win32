@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: A087CE3C-C14E-4483-850D-E140FEC589BF
 title: Microsoft Expression Web SuperPreview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Windows Sockets 2 is a set of functions that standardizes the way applications access and use the various network naming services.
 ms.assetid: e245475c-26cc-491f-b335-b1b6a816dc3c
 title: Registration and Name Resolution
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

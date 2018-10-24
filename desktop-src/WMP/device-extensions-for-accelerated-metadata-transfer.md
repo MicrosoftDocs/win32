@@ -11,8 +11,6 @@ keywords:
 - metadata,accelerated transfer
 - device extensions,accelerated metadata transfer
 - extensions,accelerated metadata transfer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

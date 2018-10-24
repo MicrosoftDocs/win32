@@ -4,8 +4,6 @@ description: The topics contained in this section provide details about the code
 ms.assetid: 33b1770a-5acb-4ab5-999c-9663f4c075f0
 keywords:
 - Windows Animation Windows Animation ,samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

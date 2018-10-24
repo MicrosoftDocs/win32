@@ -2,8 +2,6 @@
 Description: The SelectNPPBlobFromTable function selects a NIC from a supplied NPP BLOB table.
 ms.assetid: 7f8010ed-472a-49b2-8d97-92851b6c14cd
 title: SelectNPPBlobFromTable function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

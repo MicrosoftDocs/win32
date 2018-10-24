@@ -2,8 +2,6 @@
 title: Vertex Shader Source Register Modifiers
 description: Source modifiers can be applied to modify the data read from a source register before the data is used by the instruction.
 ms.assetid: 516ff7ca-0071-44ac-a246-612a9faa7e7b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

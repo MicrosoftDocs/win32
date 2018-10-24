@@ -2,8 +2,6 @@
 title: Fonts
 description: Users interact with text more than with any other element in Microsoft Windows. Segoe UI (pronounced \ 0034;SEE-go \ 0034;) is the Windows system font. The standard font size has been increased to 9 point.
 ms.assetid: 6d4f669d-d28c-4585-9bc3-ecda44de6df5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

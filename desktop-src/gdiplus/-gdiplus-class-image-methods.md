@@ -2,8 +2,6 @@
 Description: This topic lists the methods of the Image class. For a complete class listing, see Image Class.
 ms.assetid: 70dbe346-790c-47e3-8e85-6154fc340982
 title: Image Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

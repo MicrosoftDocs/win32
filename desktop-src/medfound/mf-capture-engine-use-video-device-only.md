@@ -2,8 +2,6 @@
 Description: Specifies whether the capture engine captures video but not audio.
 ms.assetid: B0B7A7F2-02F9-46A6-954F-D6E9C3B73A29
 title: MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

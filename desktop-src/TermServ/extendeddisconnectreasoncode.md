@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: E73E73B4-6C6B-4270-A1BD-947FA6D7B31B
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - ExtendedDisconnectReasonCode enumeration Remote Desktop Services

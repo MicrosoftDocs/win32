@@ -2,8 +2,6 @@
 Description: The GetSubObjectGUID method retrieves the GUID of the subobject associated with this timeline object.
 ms.assetid: c2787e6b-ed72-4a6c-9e1e-c79c00020585
 title: IAMTimelineObj::GetSubObjectGUID method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

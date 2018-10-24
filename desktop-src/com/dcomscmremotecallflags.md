@@ -4,8 +4,6 @@ description: Controls the behavior of calls from the local DCOM Service Control 
 ms.assetid: fb306da7-4b9a-4386-8525-7f78bd6bf728
 keywords:
 - DCOMSCMRemoteCallFlags registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

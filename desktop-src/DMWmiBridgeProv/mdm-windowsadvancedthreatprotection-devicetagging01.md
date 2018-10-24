@@ -5,8 +5,6 @@ ms.assetid: b56d5d46-e994-404a-865a-c59bb948f2b3
 keywords:
 - MDM_WindowsAdvancedThreatProtection_DeviceTagging01 class
 - MDM_WindowsAdvancedThreatProtection_DeviceTagging01 class, described
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

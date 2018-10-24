@@ -2,8 +2,6 @@
 Description: Describes level 1, level 2, batch, and filter opportunistic locks.
 ms.assetid: 06136348-0c08-4e9c-9c96-fd3af33cbdc0
 title: Types of Opportunistic Locks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A 4x4 matrix that contains methods and operator overloads.
 ms.assetid: c354d28b-bb08-41c5-bb59-90a912181f0f
 title: D3DXMATRIX structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

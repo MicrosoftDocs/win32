@@ -2,8 +2,6 @@
 Description: The Peer Identity Manager API uses the following functions.
 ms.assetid: 7621d26b-92e3-40c9-b0ce-94647d67f2c4
 title: Identity Manager Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

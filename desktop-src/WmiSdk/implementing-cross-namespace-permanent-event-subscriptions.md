@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 6d4ccc86-f29f-4ca5-bea5-c77ee07d7789
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Implementing Cross-Namespace Permanent Event Subscriptions
 ms.author: windowssdkdev

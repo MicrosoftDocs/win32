@@ -2,8 +2,6 @@
 Description: A valuable feature of telephony is the small set of functions called Assisted Telephony.
 ms.assetid: 1c41f52b-f8bf-410e-a966-9323a690a4d5
 title: Assisted Telephony Overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

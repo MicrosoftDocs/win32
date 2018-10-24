@@ -2,8 +2,6 @@
 Description: The playback state of the device.
 ms.assetid: 7F77459B-5900-4967-A2A3-AAEE78DF84E1
 title: System.Devices.PlaybackState
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Retrieves the number of GUIDs the driver supports.
 ms.assetid: ed6b81bc-3f83-4983-97b6-32fdeb1c901e
 title: NtGdiDdGetMoCompGuids function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

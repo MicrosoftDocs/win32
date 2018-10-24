@@ -2,8 +2,6 @@
 Description: Defines a string type for the ICONFilePath element in the Mobile Broadband profile.
 ms.assetid: 053bc5b8-fab2-4abe-97f8-ed98aea880b1
 title: iconFileType Simple Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

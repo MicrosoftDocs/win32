@@ -2,8 +2,6 @@
 title: if bool - ps
 description: Start of an if block.
 ms.assetid: cff53072-1c73-4cf8-9ecd-11032a9c4bbb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

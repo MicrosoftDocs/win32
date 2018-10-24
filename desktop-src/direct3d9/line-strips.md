@@ -2,8 +2,6 @@
 Description: A line strip is a primitive that is composed of connected line segments.
 ms.assetid: 73905718-a4c6-4f73-beef-4cccac7eea8c
 title: Line Strips
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

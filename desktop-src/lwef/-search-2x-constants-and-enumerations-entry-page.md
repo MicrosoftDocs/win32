@@ -2,8 +2,6 @@
 title: WDS 2.x Constants and Enumerations
 description: .
 ms.assetid: f100a3f4-4880-409b-8ced-f22a457a0e0c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

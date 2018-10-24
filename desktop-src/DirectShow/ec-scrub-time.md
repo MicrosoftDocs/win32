@@ -2,8 +2,6 @@
 Description: Specifies the time stamp for the most recent frame step.
 ms.assetid: 2c2ef8b8-7bee-4cd8-ad87-b48d6a48aa0e
 title: EC_SCRUB_TIME
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

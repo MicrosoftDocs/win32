@@ -2,8 +2,6 @@
 Description: Device Mode
 ms.assetid: d56021be-616b-41cd-8cf0-9e0d314f62cd
 title: Device Mode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

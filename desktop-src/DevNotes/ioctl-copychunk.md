@@ -2,8 +2,6 @@
 Description: The IOCTL\_COPYCHUNK control code initiates a server-side copy of a range of data, also called a chunk.
 ms.assetid: 36f68840-bd5c-4cfc-a8ad-0cfbbdc5a2a9
 title: IOCTL_COPYCHUNK control code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

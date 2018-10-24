@@ -2,8 +2,6 @@
 Description: The following notifications are used with the SetupInstallFile, SetupInstallFileEx, and SetupInstallFromInfSection functions. For more information about the format and use of notifications, see Notifications.
 ms.assetid: 095cf4c9-3cb9-4b95-a8a2-9312c134e721
 title: INF File Notifications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

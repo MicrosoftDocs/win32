@@ -2,8 +2,6 @@
 Description: Wi-Fi Interface Guid.
 ms.assetid: 21f3710e-5248-4e58-b8b8-6acfddb6a931
 title: System.Devices.WiFi.InterfaceGuid
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

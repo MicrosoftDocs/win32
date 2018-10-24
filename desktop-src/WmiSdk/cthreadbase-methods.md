@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 94759702-D267-4BC4-80C5-13ABD2D1EFF2
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CThreadBase Methods
 ms.author: windowssdkdev

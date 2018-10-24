@@ -2,8 +2,6 @@
 Description: Used to connect to a network that uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) certificates stored on the local machine for 802.1X authentication.
 ms.assetid: 4cc4cbb7-963f-4771-8a3d-2a37058c9011
 title: Machine Certificate Profile Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

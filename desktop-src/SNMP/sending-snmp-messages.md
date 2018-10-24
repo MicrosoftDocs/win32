@@ -2,8 +2,6 @@
 title: Sending SNMP Messages
 description: A WinSNMP application initiates a transmission request by sending an SNMP message. SNMP messages include an SNMP protocol data unit. For more information, see Working with Protocol Data Units.
 ms.assetid: a7439cd2-af13-4e2b-a0a6-5cc271a011e1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

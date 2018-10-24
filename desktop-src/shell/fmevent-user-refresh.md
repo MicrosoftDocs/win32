@@ -1,8 +1,6 @@
 ---
 Description: Sent to an extension DLL when the user chooses the Refresh command from the View menu in File Manager. The extension can use this notification to update its menu.
 title: FMEVENT_USER_REFRESH message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The ScrapIt method discards the render engine's filter graph and all associated objects.
 ms.assetid: b7470947-a661-4c08-8786-9298e5322e58
 title: IRenderEngine::ScrapIt method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

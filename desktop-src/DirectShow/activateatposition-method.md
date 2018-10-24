@@ -2,8 +2,6 @@
 Description: The ActivateAtPosition method activates the menu button at the specified position.
 ms.assetid: eddc4880-dd78-4d96-8bff-c5c883a19927
 title: ActivateAtPosition Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

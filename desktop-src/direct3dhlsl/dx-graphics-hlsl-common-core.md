@@ -2,8 +2,6 @@
 title: Common-Shader Core
 description: Common-Shader Core
 ms.assetid: f3cf2969-83a4-461f-8177-d336536194ba
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

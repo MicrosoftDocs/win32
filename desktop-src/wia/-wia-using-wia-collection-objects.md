@@ -2,8 +2,6 @@
 Description: A collection is an object that contains one or more objects. Collections provide an efficient way of grouping similar objects. Windows Image Acquisition (WIA) provides collections for the DeviceInfo and Item objects.
 ms.assetid: 26918f15-4ef9-425b-8565-e64fc2c72063
 title: Using WIA Collection Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

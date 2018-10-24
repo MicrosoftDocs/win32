@@ -2,8 +2,6 @@
 Description: The installer sets the System64Folder property to the full path to the predefined System64 folder. The existing System64Folder property is set to the corresponding 32-bit folder.
 ms.assetid: ce25c95e-cff5-44ec-81cb-b3104fb9b987
 title: System64Folder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This event notifies the DirectoryList control that the user wants to select the parent of the present directory. For related information, see Browse Dialog.
 ms.assetid: 83fdb160-ce3b-42e1-8688-42d3ba39d6dd
 title: DirectoryListUp ControlEvent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

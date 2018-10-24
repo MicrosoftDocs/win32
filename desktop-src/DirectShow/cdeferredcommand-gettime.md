@@ -2,8 +2,6 @@
 Description: The GetTime method retrieves the time at which the method will be run.
 ms.assetid: 40f00f21-6c35-4de6-b75a-ee6b14b0439f
 title: CDeferredCommand.GetTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies the starting second number in the group of pictures (GOP) header.
 ms.assetid: 599964bd-a7d8-4cdd-82ce-d229b4b7ac72
 title: AVEncVideoHeaderSeconds property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

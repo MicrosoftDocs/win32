@@ -2,8 +2,6 @@
 title: Text Object Model Interfaces
 description: .
 ms.assetid: 477b90fb-d544-4529-8495-87eb88fc2573
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

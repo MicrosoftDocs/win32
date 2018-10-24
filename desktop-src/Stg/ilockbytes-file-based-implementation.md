@@ -4,8 +4,6 @@ description: Implemented on a byte array object underlying a COM compound file s
 ms.assetid: 700b6a3c-1046-4c21-8887-16f344c23510
 keywords:
 - ILockBytes Strctd Stg , implementations,file-based
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

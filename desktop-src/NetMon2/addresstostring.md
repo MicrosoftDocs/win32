@@ -2,8 +2,6 @@
 Description: The AddressToString function converts an address into a string.
 ms.assetid: 999a6142-1423-4006-a489-63895dd19ce3
 title: AddressToString function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

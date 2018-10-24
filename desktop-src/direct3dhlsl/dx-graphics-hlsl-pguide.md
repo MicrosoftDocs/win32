@@ -2,8 +2,6 @@
 title: Programming Guide for HLSL
 description: Data enters the graphics pipeline as a stream of primitives and is processed by the shader stages.
 ms.assetid: 4894e085-30e7-4cc5-8ae6-a84b601e4ce3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

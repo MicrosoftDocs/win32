@@ -2,8 +2,6 @@
 Description: The PatchPackage table describes all patch packages that have been applied to this product. For each patch package, the unique identifier for the patch is provided along with information about the media image the on which the patch is located.
 ms.assetid: 212d99dd-c80c-42ca-9dfa-819ae1813006
 title: PatchPackage Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

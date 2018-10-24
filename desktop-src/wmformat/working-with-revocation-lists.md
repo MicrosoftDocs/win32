@@ -9,8 +9,6 @@ keywords:
 - revocation lists
 - digital rights management (DRM),revocation lists
 - DRM (digital rights management),revocation lists
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

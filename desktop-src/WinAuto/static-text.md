@@ -2,8 +2,6 @@
 title: Static Text (MSAA UI Element Reference)
 description: Static text controls provide a convenient way to display text on dialog boxes and other windows. Static text controls often serve as labels for other controls.
 ms.assetid: 2c4b29bc-54e6-4c96-93a3-1fcb96d68269
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

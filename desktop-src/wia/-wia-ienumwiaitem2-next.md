@@ -2,8 +2,6 @@
 Description: Fills an array of pointers to IWiaItem2 interfaces.
 ms.assetid: 35fd5bdf-7e6c-431f-a9c6-62a86ee05f95
 title: IEnumWiaItem2::Next method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

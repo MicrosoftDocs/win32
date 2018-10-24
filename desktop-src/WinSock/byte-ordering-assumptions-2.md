@@ -2,8 +2,6 @@
 Description: Sockaddr structures and byte ordering assumptions in Winsock.
 ms.assetid: 792353eb-dc51-4c6d-b137-2d81083dc192
 title: Byte Ordering Assumptions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

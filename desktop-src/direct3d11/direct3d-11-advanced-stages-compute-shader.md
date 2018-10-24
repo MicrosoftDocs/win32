@@ -2,8 +2,6 @@
 title: Compute Shader Overview
 description: A compute shader is a programmable shader stage that expands Microsoft Direct3D 11 beyond graphics programming. The compute shader technology is also known as the DirectCompute technology.
 ms.assetid: 02c1f98e-fdd6-49b0-b8b2-efbd472ab599
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

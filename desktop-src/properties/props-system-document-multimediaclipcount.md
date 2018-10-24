@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: bc9af024-19b0-4bd2-827a-a4ac9c05dc05
 title: System.Document.MultimediaClipCount
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -8,8 +8,6 @@ keywords:
 - Windows Touch,complex manipulations
 - manipulations,advanced
 - manipulations,complex
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

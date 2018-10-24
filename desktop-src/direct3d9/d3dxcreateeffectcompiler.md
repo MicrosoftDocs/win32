@@ -2,8 +2,6 @@
 Description: Creates an effect compiler from an ASCII effect description.
 ms.assetid: 96e883f4-4055-4b8b-940a-164bbf893af4
 title: D3DXCreateEffectCompiler function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

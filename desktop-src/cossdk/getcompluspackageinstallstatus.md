@@ -2,8 +2,6 @@
 Description: Indicates whether the 64-bit Common Language Runtime (CLR) is installed.
 ms.assetid: c68af270-6a40-4026-9725-5fe657123fd5
 title: GetComPlusPackageInstallStatus function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: As with all important operations under VSS, incremental and differential backups require close cooperation between requesters and writers.
 ms.assetid: e9529aad-cf93-4b4c-811c-0ff0b708de6c
 title: Incremental and Differential Backups
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

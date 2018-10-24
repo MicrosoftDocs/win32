@@ -2,8 +2,6 @@
 Description: Handle to the object's window.
 ms.assetid: f1797d24-c17c-41fb-a7bf-ad5c7fbfa01e
 title: CBaseWindow::m_hwnd member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

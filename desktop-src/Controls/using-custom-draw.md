@@ -2,8 +2,6 @@
 title: Using Custom Draw
 description: This section contains examples that demonstrate how to implement custom draw.
 ms.assetid: ab2a8930-1ee1-4b9f-bd3e-4b34df84957b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Sprite flags that tell the sprite drawing API how to behave. These are passed into ID3DX10Sprite::Begin.
 ms.assetid: 734096e6-1482-479c-b287-a77a4695487c
 title: D3DX10_SPRITE_FLAG enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

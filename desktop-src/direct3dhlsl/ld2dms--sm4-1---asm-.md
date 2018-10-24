@@ -2,8 +2,6 @@
 title: ld2dms (sm4.1 - asm)
 description: Reads individual samples out of 2-dimensional multi-sample textures.
 ms.assetid: 8D92BFA8-4B22-46F3-876D-8D84BB3A96E7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

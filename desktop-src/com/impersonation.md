@@ -2,8 +2,6 @@
 title: Impersonation
 description: Impersonation is the ability of a thread to execute in a security context that is different from the context of the process that owns the thread.
 ms.assetid: 'b33ca3b0-0423-4338-b3d6-4bb3db3d3e1b'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

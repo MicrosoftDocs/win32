@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: f0da34f2-852d-4647-8150-979439fc0f4d
 title: System.Journal.Contacts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

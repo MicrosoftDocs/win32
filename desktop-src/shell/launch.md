@@ -2,8 +2,6 @@
 Description: Once your application has located a file object, the next step is often to act on it in some way.
 ms.assetid: d774c3b2-4caf-460a-ac32-0ed603491d5f
 title: Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

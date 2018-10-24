@@ -2,8 +2,6 @@
 Description: The installer supplies functions that manipulate the records in an installation database. These functions can be used in conjunction with the functions described in Working with Queries to make actual changes in a database.
 ms.assetid: 5ea3fb1d-ddcb-4013-84dc-dd6f90c5751a
 title: Working with Records
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

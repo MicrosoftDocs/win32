@@ -2,8 +2,6 @@
 Description: Retrieves the names of all network DDE shares that are trusted in the context of the calling process.
 ms.assetid: 8e2323a4-0c27-44e6-9598-08a3c1a88bd3
 title: NDdeTrustedShareEnum function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

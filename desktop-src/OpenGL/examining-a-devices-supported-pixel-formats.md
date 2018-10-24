@@ -4,8 +4,6 @@ description: The DescribePixelFormat function obtains pixel format data for a de
 ms.assetid: 1ebeb051-2dc9-4753-a0f3-7d2737b5f7f2
 keywords:
 - OpenGL on Windows,pixels
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

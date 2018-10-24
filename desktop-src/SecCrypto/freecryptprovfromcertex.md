@@ -2,8 +2,6 @@
 Description: 'Releases the handle either to a cryptographic service provider (CSP) or to a Cryptography API: Next Generation (CNG) key.'
 ms.assetid: 76cbf8ae-c4ab-43d9-b06d-ea0b2a66368a
 title: FreeCryptProvFromCertEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

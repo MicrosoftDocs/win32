@@ -2,8 +2,6 @@
 Description: The IUpdateSearcher3 interface defines the following method
 ms.assetid: 213aaf24-f94a-46cc-8fba-ce47bfca3199
 title: IUpdateSearcher3 Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

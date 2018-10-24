@@ -2,8 +2,6 @@
 Description: Implementing Property Sheet Extensions
 ms.assetid: 5d1f9d91-e8a1-4cbb-b1de-4262a61e3cb7
 title: Implementing Property Sheet Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Pointer to a list of available (free) media samples.
 ms.assetid: 7736cf0a-48cf-4f33-8d03-c34a3d7cbddc
 title: CBaseAllocator::m_lFree member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

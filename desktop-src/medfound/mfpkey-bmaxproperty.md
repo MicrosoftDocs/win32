@@ -2,8 +2,6 @@
 Description: Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its peak bit rate (specified by MFPKEY\_RMAX).
 ms.assetid: ef27b179-4d9b-4ce7-867a-f62b0f9b735d
 title: MFPKEY_BMAX Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

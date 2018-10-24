@@ -2,8 +2,6 @@
 Description: When a Handler function is called by the dispatcher thread, it handles the control code passed in the Opcode parameter and then calls the ReportSvcStatus function to update the service status.
 ms.assetid: bf1932bd-496b-46a1-95f4-1581da98299f
 title: Writing a Control Handler Function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

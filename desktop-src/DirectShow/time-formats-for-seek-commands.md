@@ -2,8 +2,6 @@
 Description: Time Formats For Seek Commands
 ms.assetid: d9c1b860-f75f-4886-95d6-c62e9e5b69eb
 title: Time Formats For Seek Commands
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

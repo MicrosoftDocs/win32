@@ -1,8 +1,6 @@
 ---
 Description: Demonstrates how to define, register, enumerate and find the path for all known folders on the current system.
 title: Known Folders Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

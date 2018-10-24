@@ -2,8 +2,6 @@
 Description: The object-space origin for the current ray.  
 ms.assetid: 
 title: ObjectRayOrigin
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018

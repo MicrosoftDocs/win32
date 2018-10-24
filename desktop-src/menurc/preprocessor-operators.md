@@ -4,8 +4,6 @@ description: RC supports using the standard C preprocessing operators in macro d
 ms.assetid: dc5e25ae-66ae-4338-9150-cd0055aafc53
 keywords:
 - resource compiler,preprocessor operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

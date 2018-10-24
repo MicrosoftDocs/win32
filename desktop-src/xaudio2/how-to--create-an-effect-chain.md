@@ -2,8 +2,6 @@
 Description: This topic shows you how you can apply an effect chain to a voice to allow custom processing of the audio data for that voice. This topic describes how to use the reverb effect, which is one of the built-in XAudio2 effects.
 ms.assetid: 4c33bd83-2654-cd6f-ea6c-bbc0d5872638
 title: 'How to: Create an Effect Chain'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

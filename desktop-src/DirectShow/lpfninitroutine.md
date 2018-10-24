@@ -2,8 +2,6 @@
 Description: Pointer to a function that gets called from the DLL entry point.
 ms.assetid: 30196657-38ab-42ca-b673-b0894999e566
 title: LPFNInitRoutine function pointer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic provides an overview of the metadata query language queries for reading and writing metadata supported by GIF, PNG, TIFF and JPEG images.
 ms.assetid: a6ab1708-dd82-4960-b908-f1daef7374ef
 title: Native Image Format Metadata Queries
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

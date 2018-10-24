@@ -2,8 +2,6 @@
 title: Constant Integer Register
 description: Constant integer registers are used only by loop - ps and rep - ps.
 ms.assetid: 85720ec0-b6aa-4a24-910c-3ad0468300dc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

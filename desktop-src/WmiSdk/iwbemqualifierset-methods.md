@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: D4D9C330-BEBE-4856-BEBB-64255FFC3FF0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemQualifierSet Methods
 ms.author: windowssdkdev

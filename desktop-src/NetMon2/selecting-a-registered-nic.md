@@ -2,8 +2,6 @@
 Description: To select one of the NICs registered on the local computer, call the GetNPPBlobFromUI function.
 ms.assetid: ca1fb07f-7eee-419f-b25d-49718d02fc7d
 title: Selecting a Registered NIC
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

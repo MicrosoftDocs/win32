@@ -2,8 +2,6 @@
 Description: Each process on 32-bit Microsoft Windows has its own virtual address space that enables addressing up to 4 gigabytes of memory.
 ms.assetid: f259f3cb-81c0-4b5f-b6fa-9681a278019a
 title: About Memory Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Learn how to work with high-speed NVMe devices from your Windows application.
 ms.assetid: 037AF841-C2C9-4551-9CCB-F2A2F199083A
 title: Working with NVMe drives
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Authorization reference pages contain detailed descriptions of the Microsoft authorization functions, interfaces, objects, structures, and other programming elements.
 ms.assetid: edfc2012-d948-4b01-a7c8-387a7d5caa86
 title: Authorization Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

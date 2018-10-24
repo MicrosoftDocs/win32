@@ -2,8 +2,6 @@
 Description: 'The following topics describe VSS implementation details: Implementation Details for VSS BackupsImplementation Details for VSS RestoresNon-Default Backup and Restore LocationsImplementation Details for Creating Shadow CopiesImplementation Details for Using Shadow Copies'
 ms.assetid: 7e4ba198-c5ba-4b80-81d3-4ab2fcd1fcc0
 title: VSS Implementation Details
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

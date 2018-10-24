@@ -1,8 +1,6 @@
 ---
 Description: Contains information that defines a new most recently used (MRU) list. Used by CreateMRUListW.
 title: MRUINFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

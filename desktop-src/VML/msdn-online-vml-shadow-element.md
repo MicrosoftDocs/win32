@@ -2,8 +2,6 @@
 title: VML Shadow Element
 description: VML Shadow Element
 ms.assetid: 3e7d3e8c-45f8-4db3-95f3-7d993b7c2ef7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

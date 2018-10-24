@@ -2,8 +2,6 @@
 Description: The System Error Codes are very broad.
 ms.assetid: 27fe3fee-4ae3-43f1-a1f2-91c935e9851b
 title: System Error Codes (9000-11999)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

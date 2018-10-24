@@ -2,8 +2,6 @@
 Description: The EffectSwapPriorities method switches the priority levels of two effects.
 ms.assetid: ff5ab294-3963-4df7-9299-ee7c7165e72f
 title: IAMTimelineEffectable::EffectSwapPriorities method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

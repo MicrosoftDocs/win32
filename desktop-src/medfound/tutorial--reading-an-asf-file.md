@@ -2,8 +2,6 @@
 Description: This tutorial shows how to get data packets from an Advanced Systems Format (ASF) file using the ASF Splitter.
 ms.assetid: e3a55275-e8f0-4ab7-98db-a2f2c54d5a51
 title: 'Tutorial: Reading an ASF File by Using WMContainer Objects'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

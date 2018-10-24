@@ -2,8 +2,6 @@
 Description: The LoadDWORD function is called by the monitor to set a DWORD variable with a value taken from an HTML configuration string variable.
 ms.assetid: 18a7beba-01f4-4f92-99bf-067f79f25db0
 title: LoadDWORD function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

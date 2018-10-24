@@ -2,8 +2,6 @@
 Description: Each item in a collection exposes properties.
 ms.assetid: d9af57ea-c5b3-4017-bdc2-e43b86b3ddcd
 title: Setting Properties and Saving Changes to the COM+ Catalog
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

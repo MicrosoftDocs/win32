@@ -2,8 +2,6 @@
 Description: Transforms animations in an animation set into a compressed format and returns a pointer to the buffer that stores the compressed data.
 ms.assetid: b70b6dfb-545f-4309-ab72-9543c3c48fc4
 title: ID3DXKeyframedAnimationSet::Compress method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

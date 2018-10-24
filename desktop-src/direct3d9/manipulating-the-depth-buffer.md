@@ -2,8 +2,6 @@
 Description: Depth buffers are associated with the device.
 ms.assetid: c4faab8d-17cf-4202-9a39-c609fc975558
 title: Manipulating the Depth Buffer (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

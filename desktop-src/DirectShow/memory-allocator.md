@@ -2,8 +2,6 @@
 Description: Memory Allocator
 ms.assetid: 2dc055a2-b77a-443d-b602-d9636cbe4db3
 title: Memory Allocator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

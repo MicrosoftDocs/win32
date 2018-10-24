@@ -2,8 +2,6 @@
 Description: Critical Section Debugging Functions
 ms.assetid: 2e58ff06-d9b2-45fe-bd40-d637aa434339
 title: Critical Section Debugging Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

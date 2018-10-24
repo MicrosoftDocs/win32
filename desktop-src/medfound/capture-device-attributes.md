@@ -2,8 +2,6 @@
 Description: Capture Device Attributes
 ms.assetid: dd24671a-0689-4490-8d18-2a33ed461e9d
 title: Capture Device Attributes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

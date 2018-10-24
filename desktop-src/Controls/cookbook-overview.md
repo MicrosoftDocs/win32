@@ -2,8 +2,6 @@
 title: Enabling Visual Styles
 description: This topic explains how to configure your application to ensure that common controls are displayed in the user's preferred visual style.
 ms.assetid: eb6c2469-25b9-43c4-a6ca-391a7b2859b3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

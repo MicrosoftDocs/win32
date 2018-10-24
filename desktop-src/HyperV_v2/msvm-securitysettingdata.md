@@ -2,8 +2,6 @@
 Description: Represents the configured state of the security settings for.
 ms.assetid: c57ab966-591e-4dd9-87be-0d2b81611d5d
 title: Msvm_SecuritySettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The CSourceStream class provides an output pin for the CSource filter class.
 ms.assetid: 5ccfb129-93e2-4773-9398-5f59f2914ba7
 title: CSourceStream class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

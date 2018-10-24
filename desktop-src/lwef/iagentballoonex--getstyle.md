@@ -2,8 +2,6 @@
 title: IAgentBalloonEx GetStyle
 description: IAgentBalloonEx GetStyle
 ms.assetid: 7c6a7260-073b-4535-b8e7-a8cae9aae9ef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

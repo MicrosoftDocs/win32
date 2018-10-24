@@ -2,8 +2,6 @@
 Description: Retrieves the number of PolicyInformation objects in the collection.
 ms.assetid: d4fb6bd8-4e92-4de8-9430-dd3b6262a806
 title: CertificatePolicies.Count property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

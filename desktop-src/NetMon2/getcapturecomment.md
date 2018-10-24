@@ -2,8 +2,6 @@
 Description: Returns a pointer to the comment of a capture.
 ms.assetid: 3ef5c5b3-5586-469f-8975-049713715403
 title: GetCaptureComment function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

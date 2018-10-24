@@ -2,8 +2,6 @@
 Description: Sets an array of integers.
 ms.assetid: 15add9df-966d-45aa-b29c-d4bed2a125f4
 title: ID3DXConstantTable::SetIntArray method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: DVD Drive Spin Down Timeout
 ms.assetid: 2295253d-0199-41b4-95a8-cda049ca93c7
 title: DVD Drive Spin Down Timeout
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

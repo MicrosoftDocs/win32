@@ -2,8 +2,6 @@
 Description: Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 ms.assetid: 90837762-9bfe-4065-94b3-1ca61184a78e
 title: ID3DXMATRIXStack::RotateAxisLocal method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

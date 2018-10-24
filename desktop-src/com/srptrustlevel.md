@@ -4,8 +4,6 @@ description: Sets the software restriction policy (SRP) trust level for applicat
 ms.assetid: 2ec10eb5-f83a-4ce7-8e03-36cdafadf169
 keywords:
 - SRPTrustLevel registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

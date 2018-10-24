@@ -2,8 +2,6 @@
 Description: The GetMinIdealImageSize method retrieves the minimum ideal image size.
 ms.assetid: f2f2d10e-ee2c-4f8a-91ce-576319038e0d
 title: CBaseControlWindow.GetMinIdealImageSize method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

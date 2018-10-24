@@ -2,8 +2,6 @@
 Description: A general broadcast through the Internet is achieved by setting the sa\_netnum and sa\_nodenum fields to binary ones (1).
 ms.assetid: a56f3059-d6e5-42eb-8ba2-16071fffafa5
 title: All Routes Broadcast
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

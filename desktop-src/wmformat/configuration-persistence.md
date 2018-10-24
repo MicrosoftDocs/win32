@@ -11,8 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),configuration persistence
 - configuration persistence
 - persistence
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

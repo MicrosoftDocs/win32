@@ -15,8 +15,6 @@ keywords:
 - transcryptor objects
 - digital rights management (DRM),transcryptor objects
 - DRM (digital rights management),transcryptor objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

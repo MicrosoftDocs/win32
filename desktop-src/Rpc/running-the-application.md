@@ -2,8 +2,6 @@
 title: Running the Application
 description: To run the application on a single computer, open two console windows.
 ms.assetid: c4bdd9eb-f024-4a0f-afc2-3588262cbedf
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

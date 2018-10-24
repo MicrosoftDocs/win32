@@ -2,8 +2,6 @@
 Description: Describes a render surface.
 ms.assetid: cffa1555-1fa2-427d-8bcb-da0e61d82152
 title: D3DXRTS_DESC structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

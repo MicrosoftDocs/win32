@@ -2,8 +2,6 @@
 Description: Programming Direct3D applications requires a working familiarity with 3D geometric principles. This section introduces the most important geometric concepts for creating 3D scenes. The following topics are covered.
 ms.assetid: d351c20c-fc86-4736-915c-4dc12094bda4
 title: Coordinate Systems and Geometry (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

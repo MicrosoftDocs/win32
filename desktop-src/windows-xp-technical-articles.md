@@ -1,8 +1,6 @@
 ---
 ms.assetid: AB0F80CF-389D-4A2E-9926-1745E86B6EC2
 title: Windows XP Technical Articles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

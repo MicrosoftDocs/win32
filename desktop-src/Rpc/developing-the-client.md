@@ -4,8 +4,6 @@ description: Developing an RPC client program is similar to developing the serve
 ms.assetid: 92276326-d478-479e-8fa4-02a2fce58eb6
 keywords:
 - Remote Procedure Call RPC , tasks, developing the client
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Use the following procedure in legacy applications to save .x file templates and data to a .x file.
 ms.assetid: 5401b381-3599-465a-b41b-e63b7372fc0e
 title: Saving to an X File (Legacy) (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

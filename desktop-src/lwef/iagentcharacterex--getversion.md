@@ -2,8 +2,6 @@
 title: IAgentCharacterEx GetVersion
 description: IAgentCharacterEx GetVersion
 ms.assetid: 78f6d7b6-f72d-4af8-a014-3acd185926f0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

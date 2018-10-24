@@ -2,8 +2,6 @@
 Description: Gets a description of the constant table.
 ms.assetid: 3a7396c6-3a3e-44c2-96b7-60339015b376
 title: ID3DXConstantTable::GetDesc method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

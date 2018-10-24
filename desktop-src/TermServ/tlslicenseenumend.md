@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b9cba03c-0f5a-41e8-ae13-bcdd0ac6dd99
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - TLSLicenseEnumEnd function Remote Desktop Services

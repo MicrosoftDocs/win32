@@ -2,8 +2,6 @@
 Description: The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPin::EndOfStream method.
 ms.assetid: db9896eb-3db2-4d58-a787-4d80ce8f0d0e
 title: CTransformInputPin.EndOfStream method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

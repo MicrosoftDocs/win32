@@ -2,8 +2,6 @@
 title: Obtaining Service Objects
 description: Device objects expose a property called Services that returns a collection of Service objects that contains one service object for each service exported by the device.
 ms.assetid: 8ef12b6e-cb9b-4406-95be-002117b8fc3f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

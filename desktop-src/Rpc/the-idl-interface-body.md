@@ -2,8 +2,6 @@
 title: The IDL Interface Body
 description: The IDL interface body contains data types used in remote procedure calls and the function prototypes for the remote procedures.
 ms.assetid: b07524a7-b27e-4ea2-ae34-068c07d9a444
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

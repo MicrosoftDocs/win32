@@ -2,8 +2,6 @@
 Description: Implementing IWICBitmapFrameEncode
 ms.assetid: 509fa49c-c90d-4270-a338-6ce638ccd89a
 title: Implementing IWICBitmapFrameEncode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

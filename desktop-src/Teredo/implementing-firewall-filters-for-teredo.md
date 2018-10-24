@@ -2,8 +2,6 @@
 title: Implementing Firewall Filters for Teredo
 description: Windows allows applications to set a socket option that allows applications to indicate an explicit intent to receive Teredo traffic sent to the host firewall via the Windows Filtering Platform.
 ms.assetid: 9e53e28c-e0e5-438d-b624-27d7bd65e4a3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

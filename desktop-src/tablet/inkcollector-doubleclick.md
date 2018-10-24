@@ -2,8 +2,6 @@
 Description: Occurs when the InkCollector or InkOverlay object is double-clicked.
 ms.assetid: 48c3a695-0ec4-46ea-b1ea-a846e39d53ec
 title: InkCollector.DoubleClick event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

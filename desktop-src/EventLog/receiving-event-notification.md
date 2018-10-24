@@ -2,8 +2,6 @@
 Description: Receiving Event Notification
 ms.assetid: 3200d666-d927-4198-b1f6-1636971f5f07
 title: Receiving Event Notification
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

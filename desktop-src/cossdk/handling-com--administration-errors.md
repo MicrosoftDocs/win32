@@ -2,8 +2,6 @@
 Description: Handling COM+ Administration Errors
 ms.assetid: 03f00c19-ff81-478b-b545-048f3dbe5eda
 title: Handling COM+ Administration Errors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

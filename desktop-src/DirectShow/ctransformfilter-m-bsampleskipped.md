@@ -2,8 +2,6 @@
 Description: Flag that indicates whether the most recent sample was dropped. If the Receive method drops a sample, it sets the value to TRUE.
 ms.assetid: 6143f948-75b0-47c6-9951-4c18c0773857
 title: CTransformFilter::m_bSampleSkipped member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

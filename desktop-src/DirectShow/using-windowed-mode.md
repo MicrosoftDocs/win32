@@ -2,8 +2,6 @@
 Description: Using Windowed Mode
 ms.assetid: 09ee4568-348b-4cf9-bb38-dada291cdef9
 title: Using Windowed Mode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

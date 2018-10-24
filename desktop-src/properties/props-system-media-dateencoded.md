@@ -2,8 +2,6 @@
 Description: Represents the date and time the file was encoded. The DateTime is in UTC (in the doc, not file system).
 ms.assetid: 22d7aee7-6f52-48cd-80d3-746a6ca7ba86
 title: System.Media.DateEncoded
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

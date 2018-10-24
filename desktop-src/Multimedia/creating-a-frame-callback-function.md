@@ -4,8 +4,6 @@ description: Creating a Frame Callback Function
 ms.assetid: 37002ee0-9907-4aab-93cc-50fe9cd21cff
 keywords:
 - capSetCallbackOnFrame macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

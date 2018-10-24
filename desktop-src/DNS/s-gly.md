@@ -3,8 +3,6 @@ title: S
 description: Domain Name System (DNS) glossary entries that start with S.
 Robots: noindex, nofollow
 ms.assetid: 62a7b5c4-a30a-4939-b9c1-a5445e83453a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

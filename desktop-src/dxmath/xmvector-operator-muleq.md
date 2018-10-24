@@ -2,8 +2,6 @@
 Description: Multiplication assignment operators.
 ms.assetid: 4d25cef1-8b39-42db-80df-c749940feb0b
 title: operator *= operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

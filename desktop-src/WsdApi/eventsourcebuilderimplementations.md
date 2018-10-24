@@ -2,8 +2,6 @@
 Description: Generates functions that create event source classes.
 ms.assetid: 002e5b2c-8853-4500-bf53-71f839da97f3
 title: eventSourceBuilderImplementations element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

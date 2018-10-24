@@ -2,8 +2,6 @@
 Description: Gets the number of IContextLink objects in this collection.
 ms.assetid: c3becacd-2df0-401c-88c8-5fad3e9f8c02
 title: IContextLinks::GetCount method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

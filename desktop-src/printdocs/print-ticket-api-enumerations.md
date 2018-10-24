@@ -2,8 +2,6 @@
 Description: The following enumerations are used by the Print Ticket API.
 ms.assetid: 4121c0e6-0144-4e0f-b6e7-08d686ac354b
 title: Print Ticket API Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies whether the encoder is constrained by a peak bit rate.
 ms.assetid: e5ca19e1-5ebd-4b76-bcd2-2198c356dafc
 title: MFPKEY_PEAKCONSTRAINED Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

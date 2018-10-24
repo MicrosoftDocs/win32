@@ -2,8 +2,6 @@
 Description: 'This section contains information about the following shader structures:'
 ms.assetid: b36309e0-1c44-42d9-adcf-33acd753438c
 title: Shader Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

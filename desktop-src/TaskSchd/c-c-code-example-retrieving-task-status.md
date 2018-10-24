@@ -5,8 +5,6 @@ ms.assetid: 7ad40ac7-2363-481a-87fa-18dcf2d749b3
 keywords:
 - retrieving task status Task Scheduler
 - retrieving work item properties Task Scheduler , task status
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: When multiple monitors are part of the desktop, objects can travel seamlessly between monitors.
 ms.assetid: eb7576c6-322c-48d0-abbb-bdc3b34976c3
 title: About Multiple Display Monitors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

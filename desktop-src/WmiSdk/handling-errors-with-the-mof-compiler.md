@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 13adc666-6588-4cfd-a5eb-17da93434468
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Handling Errors with the MOF Compiler
 ms.author: windowssdkdev

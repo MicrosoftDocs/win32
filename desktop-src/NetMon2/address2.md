@@ -2,8 +2,6 @@
 Description: Contains a single address of any type of supported addresses.
 ms.assetid: 3f840842-8992-4fab-8820-cbbfc63242b8
 title: ADDRESS2 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

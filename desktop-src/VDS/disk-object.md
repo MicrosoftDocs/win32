@@ -2,8 +2,6 @@
 Description: Disk Object
 ms.assetid: 65e14273-8127-4667-b5c8-362ad54b4782
 title: Disk Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

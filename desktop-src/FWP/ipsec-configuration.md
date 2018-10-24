@@ -2,8 +2,6 @@
 title: IPsec Configuration
 description: Windows Filtering Platform (WFP) is the underlying platform for Windows Firewall with Advanced Security.
 ms.assetid: d54b5caa-daea-4231-9909-7a8d388df661
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

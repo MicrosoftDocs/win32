@@ -2,8 +2,6 @@
 title: Accessing Speech Services
 description: Accessing Speech Services
 ms.assetid: c6c10f2a-a433-4a8e-a069-48e3c2032fb8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

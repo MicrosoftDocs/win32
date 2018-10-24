@@ -2,8 +2,6 @@
 Description: The Render method initializes the DVD filter graph.
 ms.assetid: 910f1e3f-b3bb-498b-93da-3a974a3117e8
 title: Render Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

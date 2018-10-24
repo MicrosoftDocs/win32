@@ -2,8 +2,6 @@
 title: How to Provide Windowless Rich Edit Controls with Window Functionality
 description: Window functionality includes the ability to receive messages and the ownership of a device context into which to draw. Windowless rich edit controls receive this functionality by way of a pair of interfaces ITextServices and ITextHost.
 ms.assetid: 085CBC61-50AE-4F74-8C6A-436176DE0031
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

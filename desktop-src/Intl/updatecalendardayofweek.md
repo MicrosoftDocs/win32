@@ -2,8 +2,6 @@
 Description: Deprecated. Gets the day of the week that corresponds to a specified day and populates the DayOfWeek member in the specified CALDATETIME structure with that value.
 ms.assetid: b9ae250a-73bb-4ec2-bb0d-e1f8b25c173c
 title: UpdateCalendarDayOfWeek function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

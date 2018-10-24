@@ -2,8 +2,6 @@
 Description: The GetDuration method retrieves the duration of the timeline.
 ms.assetid: d60269b8-597a-4ba4-932a-54b4a36e9a7a
 title: IAMTimeline::GetDuration method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

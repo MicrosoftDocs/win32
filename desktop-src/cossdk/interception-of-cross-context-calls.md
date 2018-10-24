@@ -2,8 +2,6 @@
 Description: When an object is activated in a given context, subsequent calls to or from it, within the context, are handled differently than calls across the context boundary.
 ms.assetid: 9e234b41-f269-4674-adc4-12018277a14b
 title: Interception of Cross-Context Calls
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

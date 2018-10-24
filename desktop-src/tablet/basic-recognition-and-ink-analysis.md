@@ -2,8 +2,6 @@
 Description: This topic introduces the Ink Analysis APIs.
 ms.assetid: a3126930-2802-43c7-9e98-3a73498ac3f5
 title: Basic Recognition and Ink Analysis
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

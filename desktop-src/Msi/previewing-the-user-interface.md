@@ -2,8 +2,6 @@
 Description: The installer stores all information about the user interface in the tables of the installation database.
 ms.assetid: 56d8ecb4-6c95-46c6-98dc-3118d2061101
 title: Previewing the User Interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The name of the organization whose rating system is used for System.ParentalRating.
 ms.assetid: a8aac7cb-ec9c-41cb-a802-50a4008568af
 title: System.ParentalRatingsOrganization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

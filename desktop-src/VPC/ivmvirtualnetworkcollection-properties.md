@@ -2,8 +2,6 @@
 title: IVMVirtualNetworkCollection Properties
 description: The IVMVirtualNetworkCollection interface exposes the following properties.
 ms.assetid: 4458D3E4-D239-4B79-BF11-D5C8E3E8815C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

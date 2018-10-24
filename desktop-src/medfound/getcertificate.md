@@ -2,8 +2,6 @@
 Description: Gets a certificate for a display driver.
 ms.assetid: eceaf151-1dae-4ff0-9139-7f1789f6c682
 title: GetCertificate function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

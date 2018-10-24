@@ -2,8 +2,6 @@
 Description: The LINECALLHUBTRACKING\_ bit-flag constants describe the type of call hub tracking provided.
 ms.assetid: ad3c8d2e-f074-4db0-bb72-fb2181cbf687
 title: LINECALLHUBTRACKING_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

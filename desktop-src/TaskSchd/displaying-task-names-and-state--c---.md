@@ -2,8 +2,6 @@
 title: Displaying Task Names and States (C++)
 description: These two C++ examples show how to enumerate tasks. One example shows how to display information for tasks in a task folder, and the other examples shows how to display information for all running tasks.
 ms.assetid: 32037133-d3f3-4186-b035-ab01d37ed58d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

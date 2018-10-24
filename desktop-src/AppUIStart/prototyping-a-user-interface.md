@@ -2,8 +2,6 @@
 title: Prototyping a User Interface
 description: This topic explores how prototyping a user interface can help minimize design flaws and ensure a successful user experience.
 ms.assetid: 16e3fabb-9cd1-4517-8f19-b1d80c956ee0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

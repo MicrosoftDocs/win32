@@ -2,8 +2,6 @@
 Description: Calculating Parameter Values
 ms.assetid: cc3c26ed-a007-4350-99be-0ebd94953689
 title: Calculating Parameter Values
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

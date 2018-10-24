@@ -2,8 +2,6 @@
 title: What Are Proxy Objects
 description: A proxy object acts as an intermediary between the client and an accessible object. The purpose of the proxy object is to monitor the life span of the accessible object and to forward calls to the accessible object only if it is not destroyed.
 ms.assetid: fdd5d44a-1797-47e6-8044-37dde926c18a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

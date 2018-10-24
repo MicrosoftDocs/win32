@@ -3,8 +3,6 @@ title: E
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: bd7dfe40-bf8b-4745-b08d-8e0fb95d71d1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

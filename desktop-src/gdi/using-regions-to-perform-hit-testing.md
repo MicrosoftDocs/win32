@@ -2,8 +2,6 @@
 Description: The example in Brushes uses regions to simulate a &\#0034;zoomed&\#0034; view of an 8- by 8-pixel monochrome bitmap.
 ms.assetid: a8e0cbfe-f05b-46ae-b420-ae34a5efbff3
 title: Using Regions to Perform Hit Testing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Using Static Controls
 description: This section contains a topic that demonstrates how to create a Static Control.
 ms.assetid: 2884d5e4-88fd-4f20-a1ff-ec345399adcc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

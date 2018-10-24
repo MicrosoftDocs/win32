@@ -7,8 +7,6 @@ keywords:
 - mutual exclusion,IWMMutualExclusion interface
 - mutual exclusion,custom types
 - profiles,custom mutual exclusion types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

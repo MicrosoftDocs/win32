@@ -2,8 +2,6 @@
 Description: Discusses methods of opening a Control Panel item for Windows Vista and later systems as well as covering legacy Control Panel commands.
 ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: Executing Control Panel Items
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

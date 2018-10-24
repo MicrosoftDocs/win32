@@ -2,8 +2,6 @@
 Description: The SrcAdd method adds a source to the track.
 ms.assetid: 71c62e92-02d6-4c6f-8121-2052d6cc832c
 title: IAMTimelineTrack::SrcAdd method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

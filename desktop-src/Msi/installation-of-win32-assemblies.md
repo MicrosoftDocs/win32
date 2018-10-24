@@ -2,8 +2,6 @@
 Description: Install Win32 assemblies by making them a component of Microsoft Windows Installer package that installs or updates your application.
 ms.assetid: 09aecb55-ed45-45b3-b27a-d0946223392a
 title: Installation of Win32 Assemblies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

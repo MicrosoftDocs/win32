@@ -2,8 +2,6 @@
 Description: COM+ SOAP Service Tasks
 ms.assetid: 12ed7cb5-19b0-4f64-81cd-601420bc9e5d
 title: COM+ SOAP Service Tasks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

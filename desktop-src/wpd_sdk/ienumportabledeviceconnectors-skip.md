@@ -2,8 +2,6 @@
 Description: Skips the specified number of devices in the enumeration sequence.
 ms.assetid: 38b72b80-93f5-433e-977c-e3ee503daae5
 title: IEnumPortableDeviceConnectors::Skip method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The IX509EnrollmentHelper interface exposes the following methods.
 ms.assetid: CBF148DE-B727-4BED-A625-8CB677261BF3
 title: IX509EnrollmentHelper Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

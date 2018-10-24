@@ -2,8 +2,6 @@
 Description: Lock to protect the creation of objects inside the filter.
 ms.assetid: ad1d2584-0d9e-42a8-83ea-0c1907ddcf33
 title: CBaseRenderer::m_ObjectCreationLock member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

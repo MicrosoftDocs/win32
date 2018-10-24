@@ -2,8 +2,6 @@
 Description: Evaluates a light that is a cone of constant intensity and returns spectral spherical harmonic (SH) data.
 ms.assetid: ad2b9c86-cf1a-426e-88e6-4c543519e002
 title: D3DXSHEvalConeLight function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Mrk Tag
 description: Mrk Tag
 ms.assetid: 1bc04853-f919-4f6f-90c2-21ac836bb1e4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

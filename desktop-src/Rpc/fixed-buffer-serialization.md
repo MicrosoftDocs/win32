@@ -2,8 +2,6 @@
 title: Fixed Buffer Serialization
 description: Fixed buffer serialization.
 ms.assetid: 3432f468-89f2-48e2-8d86-15ba549f0fc7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

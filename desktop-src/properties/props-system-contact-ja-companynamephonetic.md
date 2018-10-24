@@ -2,8 +2,6 @@
 Description: Pronounciation of the contact's company name.
 ms.assetid: 8a00e312-1c5b-4adc-9970-6d16fb5dd437
 title: System.Contact.JA.CompanyNamePhonetic
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: How to Translate an Object
 description: Shows how to translate an object.
 ms.assetid: 0fc48801-de14-4398-816d-6e7ddf4ffdd7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

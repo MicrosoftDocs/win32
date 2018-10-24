@@ -2,8 +2,6 @@
 Description: Primary address postal code of the contact.
 ms.assetid: 156bda03-d31f-45d8-9457-5687370e4c09
 title: System.Contact.PrimaryAddressPostalCode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: HTTP Channel Layer Examples
 ms.assetid: 2a49dfc9-8cb0-457b-9726-eb9c13ee773e
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

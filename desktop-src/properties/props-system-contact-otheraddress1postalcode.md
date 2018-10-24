@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: d4127564-174a-4598-a88c-67526c7698e0
 title: System.Contact.OtherAddress1PostalCode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -12,8 +12,6 @@ keywords:
 - skins,Close buttons
 - Close buttons
 - reference for skins,Close buttons
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

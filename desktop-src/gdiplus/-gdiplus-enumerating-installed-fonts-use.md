@@ -2,8 +2,6 @@
 Description: The InstalledFontCollection class inherits from the FontCollection abstract base class.
 ms.assetid: 59598f66-4241-4766-a2f0-5de736de959e
 title: Enumerating Installed Fonts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

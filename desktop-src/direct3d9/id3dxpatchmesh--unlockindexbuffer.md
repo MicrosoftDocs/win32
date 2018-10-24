@@ -2,8 +2,6 @@
 Description: Unlock the index buffer.
 ms.assetid: de3d0893-1596-42df-b049-6574c58ffa8d
 title: ID3DXPatchMesh::UnlockIndexBuffer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

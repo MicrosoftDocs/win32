@@ -7,8 +7,6 @@ keywords:
 - Windows Media Player plug-ins,conversion
 - plug-ins,conversion
 - conversion plug-ins,process
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: There are two WSDAPI samples included with the Windows SDK for Windows Server 2008.
 ms.assetid: 156b79ef-1f05-4ef1-9df9-81fe81c73ca7
 title: WSDAPI Samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

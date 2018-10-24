@@ -2,8 +2,6 @@
 Description: This section describes the Media Foundation components that support MPEG-4 formats, including H.264 video, AAC audio, and the MP4 and 3GP file formats.
 ms.assetid: a8fa05c6-74b4-408e-8390-9dcbafa012f1
 title: MPEG-4 Support in Media Foundation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

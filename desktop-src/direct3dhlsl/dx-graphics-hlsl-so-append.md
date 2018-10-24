@@ -2,8 +2,6 @@
 title: Append (DirectX HLSL Stream-Output Object)
 description: Append geometry-shader-output data to an existing stream.
 ms.assetid: 7df51383-7fc7-4a6f-aaa2-6c929f0443a3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

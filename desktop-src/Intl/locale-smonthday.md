@@ -2,8 +2,6 @@
 Description: LOCALE\_SMONTHDAY
 ms.assetid: 24f548fd-20b6-4428-a840-900803399a5a
 title: LOCALE_SMONTHDAY
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

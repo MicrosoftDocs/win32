@@ -2,8 +2,6 @@
 Description: Applications that use CAPICOM objects must be created by using CAPICOM.dll. CAPICOM.dll must also be present and registered at run time to use CAPICOM objects.
 ms.assetid: 69de5232-e2f9-4aed-935d-5fbcd7998cc9
 title: Getting Ready to Use CAPICOM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.
 ms.assetid: e5c0f2bf-34da-4555-9556-4c79ee9a73ab
 title: GetTraceEnableFlags function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

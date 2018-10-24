@@ -2,8 +2,6 @@
 title: BC7 Format Mode Reference
 description: This documentation contains a list of the 8 block modes and bit allocations for BC7 texture compression format blocks.
 ms.assetid: B1CEB729-6694-49BF-ACB9-FD1EFAB0B0D1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

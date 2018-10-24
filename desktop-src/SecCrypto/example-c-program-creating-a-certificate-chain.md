@@ -2,8 +2,6 @@
 Description: The following example creates and installs a nondefault certificate chain engine. The engine is used to build certificate chains for each of the certificates in a certificate store.
 ms.assetid: 960f2bb9-130f-494f-9af0-0ab8ae3eb6e2
 title: 'Example C Program: Creating a Certificate Chain'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

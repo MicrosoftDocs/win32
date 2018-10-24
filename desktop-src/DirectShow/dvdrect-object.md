@@ -2,8 +2,6 @@
 Description: DVDRect Object
 ms.assetid: 8f540ac6-1c1e-43d8-a0dd-bba3b5983b02
 title: DVDRect Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Propagating Error Information
 description: Propagating extended error information allows servers that receive an RPC\_S\_\ error, or any other error code for that matter, to allow the RPC run time to propagate the information it received to its callers.
 ms.assetid: f0395f19-ceb1-4249-892e-9b688464d0d2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

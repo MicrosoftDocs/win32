@@ -2,8 +2,6 @@
 Description: The GetCutPoint2 method retrieves the cut point. This method is equivalent to IAMTimelineTrans::GetCutPoint, but takes a REFTIME value.
 ms.assetid: bf2b7cac-6740-44d8-a889-8c745a23db19
 title: IAMTimelineTrans::GetCutPoint2 method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

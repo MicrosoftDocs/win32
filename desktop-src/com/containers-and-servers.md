@@ -2,8 +2,6 @@
 title: Containers and Servers
 description: Containers and Servers
 ms.assetid: 4918fa52-3598-4f4d-b2e7-7a47a37b216d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This section provides an overview of XAudio2 operation sets.
 ms.assetid: eec13a06-7364-dc0a-03e1-4aa6bd2aeb09
 title: Operation Sets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

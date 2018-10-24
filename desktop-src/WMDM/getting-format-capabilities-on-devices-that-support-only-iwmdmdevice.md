@@ -16,8 +16,6 @@ keywords:
 - desktop applications,IWMDMDevice method
 - creating Windows Media Device Manager applications,IWMDMDevice method
 - writing files to devices,IWMDMDevice method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

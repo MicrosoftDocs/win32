@@ -2,8 +2,6 @@
 Description: The following are the event tracing enumeration types.
 ms.assetid: 381610e7-0de9-439d-aeb7-59b2f9f41ec2
 title: Event Tracing Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

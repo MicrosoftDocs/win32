@@ -2,8 +2,6 @@
 Description: The Shell namespace name of an item relative to a parent folder.
 ms.assetid: 8d17d99f-a4c2-489e-97b3-74586b191cf2
 title: System.ParsingName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

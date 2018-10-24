@@ -2,8 +2,6 @@
 Description: The Media Service Provider Interface (MSPI) is a set of interfaces and methods implemented by an MSP to allow a TAPI 3 application control over media transport during a communications session.
 ms.assetid: 53b7bcbd-571a-44da-a6db-10d4c3e5d30a
 title: Media Service Provider Interface (MSPI)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

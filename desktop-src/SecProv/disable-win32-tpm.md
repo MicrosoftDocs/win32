@@ -2,8 +2,6 @@
 Description: Allows the TPM owner to disable or suspend the TPM.
 ms.assetid: d910334d-6da6-423d-ae8d-6e86f300dd52
 title: Disable method of the Win32_Tpm class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

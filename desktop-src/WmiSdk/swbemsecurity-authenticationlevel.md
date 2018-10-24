@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 96c2e6a5-a91f-469d-bdd1-eaa20b176158
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemSecurity.AuthenticationLevel property
 ms.author: windowssdkdev

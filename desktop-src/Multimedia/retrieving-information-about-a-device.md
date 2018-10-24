@@ -6,8 +6,6 @@ keywords:
 - MCI_GETDEVCAPS command
 - MCI_STATUS command
 - MCI_INFO command
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

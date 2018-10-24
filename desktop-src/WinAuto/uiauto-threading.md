@@ -14,8 +14,6 @@ keywords:
 - UI Automation,affinity
 - threading issues
 - event handler threading model
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

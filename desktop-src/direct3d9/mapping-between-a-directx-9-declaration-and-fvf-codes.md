@@ -2,8 +2,6 @@
 Description: This table maps members of a D3DVERTEXELEMENT9 declaration to a FVF code.
 ms.assetid: be4357b5-5b92-44ca-9100-ec9473930446
 title: Mapping between a Direct3D Declaration and FVF Codes (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

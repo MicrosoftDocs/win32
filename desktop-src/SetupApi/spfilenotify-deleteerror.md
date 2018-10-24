@@ -2,8 +2,6 @@
 Description: The SPFILENOTIFY\_DELETEERROR notification is sent to the callback routine if an error occurs during a file delete operation.
 ms.assetid: b98b62f0-0b59-430e-966d-c1447026b696
 title: SPFILENOTIFY_DELETEERROR message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Retrieving HTTP Headers
 description: This tutorial describes how to retrieve header information from HTTP requests.
 ms.assetid: 347e4fb3-5f96-488a-bef8-4df0b8d1ade1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

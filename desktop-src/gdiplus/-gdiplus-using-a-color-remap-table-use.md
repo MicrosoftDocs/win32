@@ -2,8 +2,6 @@
 Description: Remapping is the process of converting the colors in an image according to a color remap table. The color remap table is an array of ColorMap structures. Each ColorMap structure in the array has an oldColor member and a newColor member.
 ms.assetid: 2b56ccd5-b9f3-4c5e-8a0b-4b3d1f2b7122
 title: Using a Color Remap Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

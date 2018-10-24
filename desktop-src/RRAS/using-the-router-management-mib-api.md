@@ -5,8 +5,6 @@ ms.assetid: cbd826c0-4d5c-4661-b1b2-886fe0f8e680
 keywords:
 - Routing, Management Information Base, tasks
 - Management Information Base RRAS , tasks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

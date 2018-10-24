@@ -2,8 +2,6 @@
 Description: 'A B&\#233;zier spline is a curve specified by four points: two end points (p1 and p2) and two control points (c1 and c2).'
 ms.assetid: 3ee279ea-20cc-4089-b1a5-13bf1c7c4942
 title: Bezier Splines
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

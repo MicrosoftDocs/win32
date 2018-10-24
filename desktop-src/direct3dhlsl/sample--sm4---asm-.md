@@ -2,8 +2,6 @@
 title: sample (sm4 - asm)
 description: Samples data from the specified Element/texture using the specified address and the filtering mode identified by the given sampler.
 ms.assetid: 9055D3EE-FD4A-418C-A743-D12E8BDF69FF
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Establishing a Connection
 ms.assetid: 16286da5-5979-413b-a4db-ca157b10a571
 title: Establishing a Connection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Binary table holds the binary data for items such as bitmaps, animations, and icons. The binary table is also used to store data for custom actions. See OLE Limitations on Streams.
 ms.assetid: 44c56407-df2e-4cbe-b7a3-b22e8d97eb03
 title: Binary Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

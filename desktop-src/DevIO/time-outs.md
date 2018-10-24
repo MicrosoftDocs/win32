@@ -2,8 +2,6 @@
 Description: A handle to a communications resource has an associated set of time-out parameters that affect the behavior of read and write operations.
 ms.assetid: 271d4c68-1f6d-4483-a9a1-703220de761f
 title: Time-Outs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The InitializeEmbeddedUI function prototype defines a user-defined initialization function exported by the embedded user interface DLL that is defined in the MsiEmbeddedUI table.
 ms.assetid: 1bc2fb8e-cbdc-4f2d-aca5-bbc59a07c93e
 title: InitializeEmbeddedUI callback function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

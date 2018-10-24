@@ -2,8 +2,6 @@
 Description: Dump Filter Sample
 ms.assetid: 2ce52e6c-a02f-4737-822a-87b2cf2d933d
 title: Dump Filter Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

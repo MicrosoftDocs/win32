@@ -19,8 +19,6 @@ keywords:
 - matching Windows Media Player colors
 - Windows Media Player,matching colors
 - Windows Media Player,color matching
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

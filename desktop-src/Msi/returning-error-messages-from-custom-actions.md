@@ -2,8 +2,6 @@
 Description: This section describes how to send messages from custom actions that actually perform a part of the installation by calling a dynamic link library or script.
 ms.assetid: 637efccf-920d-421d-9183-528cc3515bf8
 title: Returning Error Messages from Custom Actions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

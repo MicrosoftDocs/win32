@@ -2,8 +2,6 @@
 title: Up-Down Constants
 description: .
 ms.assetid: e6fc73f6-47ea-4be8-9478-a8174faf6e45
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: How to Create a Month Calendar Control
 description: This topic demonstrates how to dynamically create a month calendar control by using the CreateWindowEx function.
 ms.assetid: 35ADDA85-5D7D-46F4-A637-99FEE4592B3B
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The StartTrace function registers and starts an event tracing session.
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
 title: StartTrace function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

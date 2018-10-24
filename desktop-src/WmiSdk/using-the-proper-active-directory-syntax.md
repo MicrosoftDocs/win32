@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 55733fba-2170-4400-a516-896f6bf9525a
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Using the Proper Active Directory Syntax
 ms.author: windowssdkdev

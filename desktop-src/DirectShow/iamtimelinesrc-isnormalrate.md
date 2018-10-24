@@ -2,8 +2,6 @@
 Description: The IsNormalRate method indicates whether the clip will play at the normal playback rate; that is, the playback rate of the original file.
 ms.assetid: 4a8fe415-f9eb-450d-9a75-e528577050d9
 title: IAMTimelineSrc::IsNormalRate method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

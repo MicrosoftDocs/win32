@@ -2,8 +2,6 @@
 Description: Notifies the Windows Installer to use the Restart Manager to shutdown all applications that have files in use and to restart them at the end of the installation.
 ms.assetid: bfa19cc8-4cf7-42ed-9e94-acaeca8d707a
 title: RmShutdownAndRestart ControlEvent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

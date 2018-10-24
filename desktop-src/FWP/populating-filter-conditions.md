@@ -2,8 +2,6 @@
 title: Populating Filter Conditions
 description: Following sample code demonstrates how to populate filter conditions used by a server application to find filters and events that affect it.
 ms.assetid: 6c7c8d55-2cd4-45fe-ad6b-e568941d6765
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

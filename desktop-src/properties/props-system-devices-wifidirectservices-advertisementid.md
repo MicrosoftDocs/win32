@@ -2,8 +2,6 @@
 Description: Wi-Fi Direct Services Advertisement Id.
 ms.assetid: 7c2d2f9a-9dde-4d37-ad05-d69e8073b290
 title: System.Devices.WiFiDirectServices.AdvertisementId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

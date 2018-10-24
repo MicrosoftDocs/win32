@@ -2,8 +2,6 @@
 Description: When working with the Mobile Broadband API the following set of best practices should be used in order to achieve the best possible performance.
 ms.assetid: 523e3ea4-1d4e-45d1-bc24-93aa2fb14390
 title: Mobile Broadband API Best Practices
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following are the ImageHlp functions.
 ms.assetid: 926f412e-25ba-4f9c-a118-b5a1bc723379
 title: ImageHlp Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

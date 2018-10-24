@@ -2,8 +2,6 @@
 Description: This type of custom action sets a property or an install directory from a formatted text string.
 ms.assetid: 9ef552b3-6e81-4ace-9ecb-885e339f7083
 title: Formatted Text Custom Actions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

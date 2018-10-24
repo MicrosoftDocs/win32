@@ -2,8 +2,6 @@
 Description: Shadow Copy Creation for Providers
 ms.assetid: d5042945-ba81-40d0-b204-1f08d153a788
 title: Shadow Copy Creation for Providers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

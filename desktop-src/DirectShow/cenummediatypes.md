@@ -2,8 +2,6 @@
 Description: The CEnumMediaTypes class implements an enumerator for preferred media types.
 ms.assetid: 50a90926-0bc7-4204-8000-81894bd154ac
 title: CEnumMediaTypes class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

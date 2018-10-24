@@ -2,8 +2,6 @@
 Description: BoundingBox Methods
 ms.assetid: 68db5936-f0f8-4dbd-a183-b6c3089af0f0
 title: BoundingBox Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

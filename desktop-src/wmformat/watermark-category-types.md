@@ -12,8 +12,6 @@ keywords:
 - watermarking,category types
 - DirectX Media Object (DMO),watermark category types
 - DMO (DirectX Media Object),watermark category types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

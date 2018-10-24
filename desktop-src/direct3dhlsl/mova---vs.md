@@ -2,8 +2,6 @@
 title: mova - vs
 description: Move data from a floating point register to the Address Register, a0.
 ms.assetid: 929a0670-f337-4d6d-a7e7-d285e7dc8ae1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

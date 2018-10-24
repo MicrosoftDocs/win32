@@ -5,8 +5,6 @@ ms.assetid: ed86e1bc-0625-4367-a1f7-fdb23412828f
 keywords:
 - Windows Defender
 - Windows Defender APIs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

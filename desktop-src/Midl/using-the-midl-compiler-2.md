@@ -5,8 +5,6 @@ ms.assetid: 6c001b06-01f3-42bd-85db-5d53aab54903
 keywords:
 - Microsoft Interface Definition Language MIDL , tasks
 - MIDL compiler MIDL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

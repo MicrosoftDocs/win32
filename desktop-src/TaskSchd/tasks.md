@@ -4,8 +4,6 @@ description: A task is the scheduled work that the Task Scheduler service perfor
 ms.assetid: '24c43834-5731-4b14-9409-7d7cf20b1a71'
 keywords:
 - tasks Task Scheduler
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

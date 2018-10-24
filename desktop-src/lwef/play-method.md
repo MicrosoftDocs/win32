@@ -2,8 +2,6 @@
 title: Play Method
 description: Play Method
 ms.assetid: 7e89341a-b4d3-4bea-8e7f-31c649ff06b3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Represents a rectangle defined by the coordinates of the upper-left
 ms.assetid: a961c0e3-fb76-4c07-b76e-47d8c09ada08
 keywords:
 - D2D1_RECT_F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

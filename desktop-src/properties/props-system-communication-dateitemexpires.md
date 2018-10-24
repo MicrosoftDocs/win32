@@ -2,8 +2,6 @@
 Description: The date the item expires due to the retention policy.
 ms.assetid: 5ad30d5f-2c5b-4fc8-bb7d-ed2a310f422f
 title: System.Communication.DateItemExpires
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: In Windows Vista, Tablet PC Input Panel integrates new Autocomplete capabilities that enable an application's Autocomplete list to update in real time as a user's ink is recognized in Input Panel.
 ms.assetid: 0f01f546-f76b-4c61-a204-2a06079a374a
 title: Using Input Panel AutoComplete
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

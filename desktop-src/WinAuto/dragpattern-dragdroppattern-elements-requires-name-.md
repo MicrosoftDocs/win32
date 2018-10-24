@@ -2,8 +2,6 @@
 title: DragPattern/DragDropPattern elements requires Name
 description: DragPattern/DragDropPattern elements requires Name
 ms.assetid: DEF58FB2-5830-4162-87D0-40DEC1237529
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

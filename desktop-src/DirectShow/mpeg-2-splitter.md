@@ -2,8 +2,6 @@
 Description: MPEG-2 Splitter
 ms.assetid: 06704a5a-e7ae-4187-ae36-32512d951aaf
 title: MPEG-2 Splitter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

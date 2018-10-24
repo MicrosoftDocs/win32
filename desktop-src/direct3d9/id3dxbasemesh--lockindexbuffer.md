@@ -2,8 +2,6 @@
 Description: Locks an index buffer and obtains a pointer to the index buffer memory.
 ms.assetid: c8941164-1f2a-4aed-b0bd-8130aac61da4
 title: ID3DXBaseMesh::LockIndexBuffer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

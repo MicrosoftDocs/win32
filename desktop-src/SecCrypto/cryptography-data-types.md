@@ -2,8 +2,6 @@
 Description: The following data types are used by cryptography functions, interfaces, and objects.
 ms.assetid: 9d6a065d-c765-4d17-9f4c-38a984439278
 title: Cryptography Data Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

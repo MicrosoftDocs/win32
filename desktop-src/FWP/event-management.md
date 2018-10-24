@@ -2,8 +2,6 @@
 title: Event Management
 description: Event Management
 ms.assetid: DA6B76B8-E436-44D0-890D-12EE17960EBB
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: The COM implementation of the Structured Storage architecture is ca
 ms.assetid: c4b4f313-de58-44f2-8ce1-a07cc187d8ca
 keywords:
 - IPropertyStorage Strctd Stg , implementations, compound file
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

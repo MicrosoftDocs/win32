@@ -2,8 +2,6 @@
 Description: The IAzScopes interface exposes the following properties.
 ms.assetid: 2A15C2EE-1AB4-42A7-AEAA-B61717F67A54
 title: IAzScopes Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

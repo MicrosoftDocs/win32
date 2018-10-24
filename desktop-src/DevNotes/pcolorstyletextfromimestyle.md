@@ -2,8 +2,6 @@
 Description: Retrieves the text color style of the specified style.
 ms.assetid: 242c37af-5b39-4b18-9c8f-4e692f41c497
 title: PColorStyleTextFromIMEStyle function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

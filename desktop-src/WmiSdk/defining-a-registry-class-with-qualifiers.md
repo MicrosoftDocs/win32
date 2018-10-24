@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d4786880-6c50-4e36-9a16-47de430e77a9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Defining a Registry Class With Qualifiers
 ms.author: windowssdkdev

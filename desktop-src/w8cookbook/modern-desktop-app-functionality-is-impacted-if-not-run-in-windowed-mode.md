@@ -2,8 +2,6 @@
 title: Desktop App functionality is impacted if not run in Windowed Mode
 description: In Windows 10, Windows apps are no longer full-screen by default – instead, they are windowed and operations like minimizing, restoring, maximizing, resizing (and any other operation that you’ve always been able to do to any other Classic Windows application window) is now possible.
 ms.assetid: 435E85DA-008B-437E-92CB-AC105855760A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

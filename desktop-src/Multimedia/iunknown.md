@@ -11,8 +11,6 @@ keywords:
 - IUnknown interface
 - multimedia reference,IUnknown interface
 - reference for multimedia,IUnknown interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

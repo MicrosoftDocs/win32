@@ -2,8 +2,6 @@
 Description: Advanced C++ Development
 ms.assetid: 41F758F2-5206-4D64-BE45-0E525CF7E305
 title: Advanced C++ Development
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

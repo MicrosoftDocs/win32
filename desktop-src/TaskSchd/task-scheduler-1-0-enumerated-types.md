@@ -2,8 +2,6 @@
 title: Task Scheduler 1.0 Enumerated Types
 description: Describes the enumerated types that define the constants that are used by the Task Scheduler 1.0 APIs.
 ms.assetid: 7c85dd3c-d901-4ca6-957e-2f5e4a159b80
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

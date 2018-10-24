@@ -7,8 +7,6 @@ keywords:
 - hardware layer planes OpenGL
 - overlay planes OpenGL
 - underlay planes OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

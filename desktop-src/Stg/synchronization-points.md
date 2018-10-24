@@ -2,8 +2,6 @@
 title: Synchronization Points
 description: When property sets are supported on the same object as IStorage, it is important to be aware of synchronization points between the base storage and the property storage.
 ms.assetid: 34cc4338-b29f-43f9-946d-14b2b235ccec
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

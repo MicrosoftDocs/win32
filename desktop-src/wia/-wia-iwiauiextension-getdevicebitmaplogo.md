@@ -2,8 +2,6 @@
 Description: Gets a custom bitmap logo for the device.
 ms.assetid: 56b3c7c9-64f4-4853-9eb7-d876d02a851f
 title: IWiaUIExtension::GetDeviceBitmapLogo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

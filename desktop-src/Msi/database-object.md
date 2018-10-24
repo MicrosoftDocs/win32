@@ -2,8 +2,6 @@
 Description: The Database object accesses an installer database.
 ms.assetid: 97765884-3e1c-486a-932c-6430b113fac8
 title: Database object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

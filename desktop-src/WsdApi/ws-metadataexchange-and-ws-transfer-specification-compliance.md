@@ -2,8 +2,6 @@
 Description: Before August 2006, WS-MetadataExchange defined its own Get metadata exchange method, which was used by Devices Profile for Web Services (DPWS).
 ms.assetid: 2441beac-ee40-405a-8e98-8b8d65477911
 title: WS-MetadataExchange and WS-Transfer Specification Compliance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

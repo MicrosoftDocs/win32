@@ -1,8 +1,6 @@
 ---
 Description: Demonstrates how to register a verb that extends the &\#0034;Sync&\#0034; and &\#0034;Share&\#0034; verbs in the Windows Explorer Command Bar.
 title: Sync and Share Verbs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

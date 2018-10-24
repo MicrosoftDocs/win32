@@ -2,8 +2,6 @@
 Description: Specifies whether the application requires real-time encoding performance.
 ms.assetid: 7e98a9f4-113b-45d0-ae55-7dc3f2af099e
 title: AVEncCommonRealTime property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

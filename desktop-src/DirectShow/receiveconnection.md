@@ -2,8 +2,6 @@
 Description: ReceiveConnection
 ms.assetid: '90a6a09a-95e1-4adf-8e0b-269f971aaa67'
 title: ReceiveConnection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

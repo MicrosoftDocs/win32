@@ -2,8 +2,6 @@
 Description: 'The following functions are used when working with enclaves that are used to create trusted execution environments:'
 ms.assetid: DF6CDEE1-CAAA-429C-9939-DDC844302027
 title: Trusted Execution Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

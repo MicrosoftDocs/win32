@@ -2,8 +2,6 @@
 Description: The Native Wifi interface defines and uses the following structures.
 ms.assetid: b94ff899-2350-4f8b-b096-9d1c73e2b492
 title: Native Wifi Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

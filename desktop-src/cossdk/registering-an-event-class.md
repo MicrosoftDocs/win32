@@ -2,8 +2,6 @@
 Description: So that subscribers can find an event class and subscribe to it, event classes must be registered in the COM+ catalog.
 ms.assetid: b9d59b9d-52ba-4c71-9226-9cb5b93ec3d4
 title: Registering an Event Class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

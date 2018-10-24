@@ -2,8 +2,6 @@
 Description: The denominator of PKEY\_Photo\_ExposureBias.
 ms.assetid: fafeb942-1eba-4209-a1eb-00c3f00bbace
 title: System.Photo.ExposureBiasDenominator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

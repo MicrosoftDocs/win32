@@ -2,8 +2,6 @@
 title: Effects 11 Structures
 description: This section contains information about the Effects 11 structures.
 ms.assetid: 73e34792-eb46-4402-9424-b8e4e4819efd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

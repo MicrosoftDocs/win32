@@ -2,8 +2,6 @@
 title: Managing Traps and Notifications
 description: The WinSNMP application must register to receive traps and notifications by calling the SnmpRegister function with SNMPAPI\_ON. The application can unregister and disable traps and notifications by calling the function with SNMPAPI\_OFF.
 ms.assetid: 2bccba35-bf5c-4e5c-94e4-59980f2b9776
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

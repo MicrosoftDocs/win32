@@ -2,8 +2,6 @@
 Description: A line device can represent a pool of homogeneous resources (channels) that are used to establish calls. In a client computer, a TSP typically provides access to one or more line devices.
 ms.assetid: cb599a4d-80dd-40fe-b448-f9ea58f01124
 title: Line Configurations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

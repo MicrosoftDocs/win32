@@ -2,8 +2,6 @@
 Description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: 551e0ddc-7ebf-4fc2-a155-0c9ee2f406d4
 title: IEnumParticipant::Clone method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

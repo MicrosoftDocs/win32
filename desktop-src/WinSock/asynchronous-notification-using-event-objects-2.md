@@ -2,8 +2,6 @@
 Description: The WSAEventSelect and WSAEnumNetworkEvents functions are provided to accommodate applications such as daemons and services that have no user interface (and hence do not use Windows handles).
 ms.assetid: 4254937c-7ee6-49a3-9f30-09aebaf2265b
 title: Asynchronous Notification Using Event Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

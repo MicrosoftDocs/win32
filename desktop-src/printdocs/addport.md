@@ -2,8 +2,6 @@
 Description: The AddPort function adds the name of a port to the list of supported ports. The AddPort function is exported by the port monitor.
 ms.assetid: 9191d507-9167-4488-a4b4-286590a8a62a
 title: AddPort function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

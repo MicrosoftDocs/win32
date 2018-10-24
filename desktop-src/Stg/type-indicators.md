@@ -2,8 +2,6 @@
 title: Type Indicators
 description: The actual properties follow the table of Property Identifiers/Offset Pairs property set values. Each property is stored as a DWORD, followed by the data type value.
 ms.assetid: 8523458b-8b1b-4e9f-8f96-d7601e57675c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

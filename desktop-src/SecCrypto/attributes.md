@@ -2,8 +2,6 @@
 Description: Represents a collection of Attribute objects.
 ms.assetid: 6116e61e-3ec5-4992-90ab-e3c7ced291b6
 title: Attributes object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

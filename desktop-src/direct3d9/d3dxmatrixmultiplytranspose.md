@@ -2,8 +2,6 @@
 Description: Calculates the transposed product of two matrices.
 ms.assetid: 43927500-9413-41a4-a6ee-974d85dd1054
 title: D3DXMatrixMultiplyTranspose function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

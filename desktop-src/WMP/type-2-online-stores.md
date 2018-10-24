@@ -7,8 +7,6 @@ keywords:
 - online stores,type 2 online stores
 - type 2 online stores,about
 - Windows Media Player,type 2 online stores
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a5b6d0b9-8df1-47e3-bb3b-cc69db6d9c0e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a New Permanent Event Consumer Class
 ms.author: windowssdkdev

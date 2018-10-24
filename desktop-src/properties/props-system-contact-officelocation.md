@@ -2,8 +2,6 @@
 Description: Office location of the contact.
 ms.assetid: 2141d58a-30e8-4364-9d48-f9b2c11d5ed7
 title: System.Contact.OfficeLocation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

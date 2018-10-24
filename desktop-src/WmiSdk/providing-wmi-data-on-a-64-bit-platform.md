@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b437b9ed-b9e4-4fc5-9b86-0eb77bb41b8e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Providing WMI Data on a 64-bit Platform
 ms.author: windowssdkdev

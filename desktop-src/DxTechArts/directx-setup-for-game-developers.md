@@ -2,8 +2,6 @@
 title: DirectX Installation for Game Developers
 description: This article is intended to address some of the common questions about the DirectX runtime, and using DirectSetup to install DirectX.
 ms.assetid: 2ab439be-8d99-bcf8-89af-d4274e044c88
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

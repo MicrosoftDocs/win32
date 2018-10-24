@@ -11,8 +11,6 @@ api_name:
 - READERMODEINFO
 api_type:
 - NA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

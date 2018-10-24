@@ -2,8 +2,6 @@
 Description: Gets the default quota threshold as a text string.
 ms.assetid: 48b1cbd5-12dd-4c31-a14c-7904d29f6eb9
 title: DiskQuotaControl.DefaultQuotaThresholdText property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

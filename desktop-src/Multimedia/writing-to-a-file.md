@@ -4,8 +4,6 @@ description: Writing to a File
 ms.assetid: a01f93e9-e0fe-4e81-aa9f-62cdca7bce4a
 keywords:
 - AVIFileWriteData function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

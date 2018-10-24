@@ -2,8 +2,6 @@
 Description: The Icon Type of semantic type is one of the Key Format Types. This type consists of a key into the Icon table provided by the user.
 ms.assetid: 8e155846-cc29-43f4-b1f7-9880320edbec
 title: Icon Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

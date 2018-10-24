@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: ec53b8e9-6ec0-491c-9a40-250bb5aaa271
 title: System.Contact.JobInfo1YomiCompanyName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The InstallUISequence table lists actions that are executed when the top-level INSTALL action is executed and the internal user interface level is set to full UI or reduced UI.
 ms.assetid: 076d7c14-e302-4465-aed5-27a4b1f70ac8
 title: InstallUISequence Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

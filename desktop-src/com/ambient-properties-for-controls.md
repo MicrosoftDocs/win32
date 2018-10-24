@@ -2,8 +2,6 @@
 title: Ambient Properties for Controls
 description: Ambient Properties for Controls
 ms.assetid: 19aa3bc2-1605-43e1-acf4-ab782d012539
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

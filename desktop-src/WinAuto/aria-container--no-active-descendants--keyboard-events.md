@@ -4,8 +4,6 @@ description: ARIA Container Role (without active descendant) Keyboard Accessibil
 ms.assetid: 15EDD3CC-FC2A-42FC-95DD-B04D9AF3515E
 keywords:
 - AriaContainerWithoutActiveDescendantKeyboardAccessiblityId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

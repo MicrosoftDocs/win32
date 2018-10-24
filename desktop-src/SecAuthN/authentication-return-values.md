@@ -2,8 +2,6 @@
 Description: Lists the values returned by functions in authentication APIs.
 ms.assetid: ea519e5c-98b0-4a01-b2cc-e5ff736a5396
 title: Authentication Return Values
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

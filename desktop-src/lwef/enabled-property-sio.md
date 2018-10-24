@@ -2,8 +2,6 @@
 title: Enabled Property
 description: Enabled Property
 ms.assetid: d48f02f1-7d93-4780-88a7-61597672bb58
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Distributed (client/server) applications use security packages to obtain authenticated connections and to exchange messages.
 ms.assetid: 8f28177f-335a-4fa2-bf66-2ec1698bebec
 title: User Mode Initialization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

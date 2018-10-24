@@ -2,8 +2,6 @@
 title: Writing a Custom Surrogate
 description: Writing a Custom Surrogate
 ms.assetid: 510e38e5-1965-46f4-b09c-6fa585cff993
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

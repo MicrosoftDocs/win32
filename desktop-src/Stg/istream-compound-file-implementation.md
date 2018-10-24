@@ -4,8 +4,6 @@ description: The IStream interface supports reading and writing data to stream o
 ms.assetid: 52474e37-0e14-4dcc-8e04-4442cfd26eb3
 keywords:
 - IStream Strctd Stg , compound file implementation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

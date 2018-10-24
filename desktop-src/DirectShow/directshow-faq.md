@@ -2,8 +2,6 @@
 Description: DirectShow FAQ
 ms.assetid: 198758b9-025a-44af-958c-9ddea8cbb12d
 title: DirectShow FAQ
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

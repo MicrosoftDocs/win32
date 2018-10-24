@@ -2,8 +2,6 @@
 Description: Registers an application as a client of CTL3D.
 ms.assetid: 38a4a04a-6322-4eb8-b272-ae9b90f84e0f
 title: Ctl3dRegister function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

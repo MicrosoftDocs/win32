@@ -2,8 +2,6 @@
 Description: Creates and accesses the shared properties in a shared property group.
 ms.assetid: '20fd32f0-b2b2-4bed-8c59-1d1fdc8a399e'
 title: SharedPropertyGroup class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

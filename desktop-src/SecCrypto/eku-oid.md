@@ -2,8 +2,6 @@
 Description: Sets or retrieves a string that contains an EKU OID string value as defined in Wincrypt.h.
 ms.assetid: 2fdaeddc-5ed6-46a6-a4f7-827a605e890a
 title: IEKU::OID property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

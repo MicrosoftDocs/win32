@@ -2,8 +2,6 @@
 Description: Retrieves the current discretionary access control list (DACL) that controls access to the interactive session of a virtual machine.
 ms.assetid: 9b81f6d5-20fa-4277-b943-756d85359fd2
 title: GetInteractiveSessionACL method of the Msvm_TerminalService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

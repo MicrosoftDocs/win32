@@ -2,8 +2,6 @@
 title: About Windows Filtering Platform
 description: Windows Filtering Platform (WFP) is a network traffic processing platform designed to replace the Windows XP and Windows Server 2003 network traffic filtering interfaces.
 ms.assetid: 6faad008-b2f6-4f45-89c7-ae98c2f58ce1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

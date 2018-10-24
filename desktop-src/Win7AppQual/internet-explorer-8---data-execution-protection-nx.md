@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 56a4889c-5dcf-416f-b46e-5c48277d5636
 title: Internet Explorer 8 - Data Execution Protection/NX
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

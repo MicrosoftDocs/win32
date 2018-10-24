@@ -2,8 +2,6 @@
 Description: A file marked encrypted is encrypted by the NTFS file system by using the current encryption driver.
 ms.assetid: 166bfb8c-b97d-4cc7-bf6b-399837cb8ad0
 title: Handling Encrypted Files and Directories
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

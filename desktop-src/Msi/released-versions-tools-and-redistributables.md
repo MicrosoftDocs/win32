@@ -2,8 +2,6 @@
 Description: The following topics provide more information about released versions, tools, and redistributables of Windows Installer.
 ms.assetid: 6e644502-4e0f-4bf2-9ef7-7883211c4f4a
 title: Released Versions, Tools, and Redistributables
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

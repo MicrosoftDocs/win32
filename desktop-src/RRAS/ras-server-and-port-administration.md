@@ -4,8 +4,6 @@ description: The RAS server administration functions get information about a spe
 ms.assetid: eedac23e-d716-451e-b08b-594398656bb5
 keywords:
 - RAS Administration RRAS , server and port administration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

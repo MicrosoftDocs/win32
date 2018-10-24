@@ -2,8 +2,6 @@
 Description: Implementing DllRegisterServer
 ms.assetid: aaa4069e-0b6a-4a76-b950-1a85a9ed969d
 title: Implementing DllRegisterServer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

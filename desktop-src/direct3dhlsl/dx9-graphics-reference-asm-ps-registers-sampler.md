@@ -4,8 +4,6 @@ description: A sampler is a input pseudo-register for a pixel shader, which is u
 ms.assetid: 37cc28ae-fbd0-4f81-9e8e-f9609980d84e
 keywords:
 - Sampler, Type (Direct3D 9 asm-ps)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

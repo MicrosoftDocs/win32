@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 0d2ac139-3e2b-4089-ae9c-289d376e27a2
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Running a Script Based on an Event
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: The KaraokeAudioPresentationMode property sets or retrieves the right-left speaker mix for the auxiliary karaoke channels.
 ms.assetid: f32706eb-7f97-433d-854a-17d57cc60190
 title: KaraokeAudioPresentationMode Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

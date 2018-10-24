@@ -2,8 +2,6 @@
 Description: Each record of the IsolatedComponent table associates the component specified in the Component\_Application column (commonly an .exe) with the component specified in the Component\_Shared column (commonly a shared DLL).
 ms.assetid: dc30e4c7-a938-4060-be4f-744de9c20fd9
 title: IsolatedComponent Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

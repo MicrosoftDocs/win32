@@ -2,8 +2,6 @@
 Description: If your network provider needs to support browsing of its network resources, it should implement the following functions. MPR calls these functions to enumerate the resources.
 ms.assetid: 9f7c0e5b-1358-43f8-84e4-26e84a2275ba
 title: Enumeration Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

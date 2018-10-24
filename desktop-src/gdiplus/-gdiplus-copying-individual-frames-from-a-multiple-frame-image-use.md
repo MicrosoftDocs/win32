@@ -2,8 +2,6 @@
 Description: The following example retrieves the individual frames from a multiple-frame TIFF file.
 ms.assetid: dfed0b61-2230-4911-a642-0a6e4beb08d6
 title: Copying Individual Frames from a Multiple-Frame Image
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Address space available for tiled resources
 description: This section specifies the virtual address space that is available for tiled resources.
 ms.assetid: A3D08564-3C7A-4578-BC38-EE202045580A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

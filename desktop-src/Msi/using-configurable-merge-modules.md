@@ -2,8 +2,6 @@
 Description: These sections describe how merge module authors, module consumers, and merge tool developers can use configurable merge modules.
 ms.assetid: 38d453e2-ca23-45a5-8177-d7d122eaa9b5
 title: Using Configurable Merge Modules
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

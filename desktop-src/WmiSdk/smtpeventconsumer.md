@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 42178360-9e22-4cd1-9b72-5f6b0d7e6c9c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SMTPEventConsumer class
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 title: Unload Method
 description: Unload Method
 ms.assetid: 2ffaeea6-ff24-48b2-bc99-eba429434a30
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

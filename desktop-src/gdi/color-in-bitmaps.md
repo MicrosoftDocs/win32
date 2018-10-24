@@ -2,8 +2,6 @@
 Description: The system handles colors in bitmaps differently than colors in pens, brushes, and text.
 ms.assetid: c315dd6e-87ee-4905-b193-186ea580ac0a
 title: Color in Bitmaps
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

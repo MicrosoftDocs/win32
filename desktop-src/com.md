@@ -2,8 +2,6 @@
 Description: COM
 ms.assetid: 16657770-dba1-442b-8e10-594edff5bcdd
 title: COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

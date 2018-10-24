@@ -2,8 +2,6 @@
 Description: Device instance ids of children of this device.
 ms.assetid: 172f23db-d298-42a6-8061-c8482b85120c
 title: System.Devices.Children
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

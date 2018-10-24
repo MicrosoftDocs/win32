@@ -2,8 +2,6 @@
 title: Requirements for Network Management Functions on Active Directory Domain Controllers
 description: If you call one of the network management functions listed in this topic on a domain controller running Active Directory, access to a securable object is allowed or denied based on the access-control list (ACL) for the object.
 ms.assetid: 4dfb3180-3ca5-4e22-b7a1-4e6b132431fb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies the rotation of a video frame in the counter-clockwise direction.
 ms.assetid: 7C0911A6-6D7C-4510-891F-A6F56CE1EC2B
 title: MF_MT_VIDEO_ROTATION attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

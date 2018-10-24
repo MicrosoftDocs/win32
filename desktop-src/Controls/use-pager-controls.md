@@ -2,8 +2,6 @@
 title: How to Use Pager Controls
 description: This section describes how to implement the pager control in your application.
 ms.assetid: 5703FE4B-987E-49DA-9741-F8B45AD26467
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

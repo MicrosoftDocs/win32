@@ -2,8 +2,6 @@
 Description: The IPortableDeviceValues interface holds a collection of PROPERTYKEY/PROPVARIANT pairs.
 ms.assetid: a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f
 title: IPortableDeviceValues interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

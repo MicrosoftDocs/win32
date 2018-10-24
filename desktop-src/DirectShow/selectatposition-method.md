@@ -2,8 +2,6 @@
 Description: The SelectAtPosition method selects the menu button at the specified mouse pointer coordinates.
 ms.assetid: 005ec550-e04c-4dae-aa5d-d79afefe48ed
 title: SelectAtPosition Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

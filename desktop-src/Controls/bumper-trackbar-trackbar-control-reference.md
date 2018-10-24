@@ -2,8 +2,6 @@
 title: Trackbar Control Reference
 description: .
 ms.assetid: 0940bc3a-c19e-4bfa-9635-32ac92dea24b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

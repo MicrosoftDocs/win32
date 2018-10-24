@@ -2,8 +2,6 @@
 Description: Important  This API is deprecated.
 ms.assetid: 4e6eb2df-a917-4533-b9f1-8da39598d0b8
 title: Cryptographic Service Providers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

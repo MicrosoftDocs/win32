@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 422d84dc-6b5e-43bf-ac4f-3b99cb59f9df
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - DSA_SEC_PAGE_INFO structure Active Directory

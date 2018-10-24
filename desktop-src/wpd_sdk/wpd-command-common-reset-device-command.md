@@ -2,8 +2,6 @@
 Description: The WPD\_COMMAND\_COMMON\_RESET\_DEVICE command resets the device. This does not mean reformatting; it is equivalent to turning the device off and on again.
 ms.assetid: 7a630cc9-02ea-46be-9645-8a0306606139
 title: WPD_COMMAND_COMMON_RESET_DEVICE Command
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

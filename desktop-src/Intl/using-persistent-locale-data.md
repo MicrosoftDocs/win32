@@ -2,8 +2,6 @@
 Description: Using Persistent Locale Data
 ms.assetid: f62402d6-31de-4ff7-9538-7925a007a089
 title: Using Persistent Locale Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

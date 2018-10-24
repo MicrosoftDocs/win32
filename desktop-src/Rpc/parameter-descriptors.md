@@ -2,8 +2,6 @@
 title: Parameter Descriptors
 description: As mentioned previously, \ 8211;Oi and \ 8211;Oif style parameter descriptors exist.
 ms.assetid: c2dad284-abe5-4b38-b3a6-3c7373fc5b84
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: The topics contained in this section provide the reference specific
 ms.assetid: 69cb5aac-5a3b-4a76-aa91-493353e3694c
 keywords:
 - Windows Animation Windows Animation ,reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

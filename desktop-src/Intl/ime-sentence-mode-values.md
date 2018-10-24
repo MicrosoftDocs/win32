@@ -2,8 +2,6 @@
 Description: These values are used with the ImmGetConversionStatus and ImmSetConversionStatus functions.
 ms.assetid: 24b12936-7dfc-4c8d-970c-d8354ad46d1d
 title: IME Sentence Mode Values
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The sample application described in this topic demonstrates some of the NLS &\#0034;locale name&\#0034; functions. Your applications should use locale names instead of locale identifiers when possible.
 ms.assetid: 0502dba0-a26f-4238-b68e-bb41ef17ff08
 title: 'NLS: Name-based APIs Sample'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

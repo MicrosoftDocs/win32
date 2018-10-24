@@ -2,8 +2,6 @@
 Description: Occurs when the InkRecognizerContext has generated results from the BackgroundRecognize method.
 ms.assetid: 0cc319af-cd0b-4089-928b-cae6c86f6f61
 title: InkRecognizerContext.Recognition event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

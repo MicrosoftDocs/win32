@@ -2,8 +2,6 @@
 Description: The Start method starts a capture.
 ms.assetid: 92b25afc-d5d8-47e4-a155-4ed2a3571038
 title: IDelaydC::Start method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

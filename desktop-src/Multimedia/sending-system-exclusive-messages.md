@@ -11,8 +11,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),system-exclusive messages
 - playing MIDI files,system-exclusive messages
 - system-exclusive MIDI messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

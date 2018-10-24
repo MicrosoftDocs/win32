@@ -2,8 +2,6 @@
 title: Speak Method
 description: Speak Method
 ms.assetid: 6267e04c-feb5-4f48-8a88-4e6ca3388bf3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

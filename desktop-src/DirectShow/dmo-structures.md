@@ -2,8 +2,6 @@
 Description: DMO Structures
 ms.assetid: 82c8ea74-1c5e-4370-9075-6db2ed6b2c91
 title: DMO Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

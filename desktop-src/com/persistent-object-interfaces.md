@@ -2,8 +2,6 @@
 title: Persistent Object Interfaces
 description: A persistent object implements one or more persistent object interfaces.
 ms.assetid: 8c8e44e4-f564-4af5-9a8a-ac6883862cae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

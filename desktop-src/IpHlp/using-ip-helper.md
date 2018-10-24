@@ -2,8 +2,6 @@
 Description: Link to navigation page topic on using IP Helper.
 ms.assetid: f852626d-1977-4a6a-8ef5-851b9effe6c6
 title: Using IP Helper
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

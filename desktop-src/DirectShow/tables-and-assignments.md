@@ -2,8 +2,6 @@
 Description: Tables and Assignments
 ms.assetid: 46dcf242-0182-4039-b761-1c93472b6270
 title: Tables and Assignments
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

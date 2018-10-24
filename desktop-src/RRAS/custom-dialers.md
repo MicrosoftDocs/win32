@@ -4,8 +4,6 @@ description: Windows 2000 and later operating systems enable developers to prov
 ms.assetid: ad94f38d-812f-4329-8055-6274a21a3242
 keywords:
 - Custom Dialers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Microsoft ClearType antialiasing is a smoothing method that improves font display resolution over traditional antialiasing.
 ms.assetid: b9896934-1e4f-4ae1-922a-ef30e0edf94f
 title: ClearType Antialiasing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Restricts the area of this IAnalysisRegion to the area created by its intersection with the specified rectangle.
 ms.assetid: de6b565f-34c1-4551-ab92-db6bacb8608d
 title: IAnalysisRegion::IntersectRectangle method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

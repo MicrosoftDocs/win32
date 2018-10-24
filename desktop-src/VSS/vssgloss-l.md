@@ -3,8 +3,6 @@ Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
 ms.assetid: 3e8b9c48-9d2d-4055-b78d-c4a22d780764
 title: L
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

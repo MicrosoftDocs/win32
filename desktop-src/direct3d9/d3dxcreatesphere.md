@@ -2,8 +2,6 @@
 Description: Uses a left-handed coordinate system to create a mesh containing a sphere.
 ms.assetid: d3198805-9435-4849-892d-ec98dc2221d2
 title: D3DXCreateSphere function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

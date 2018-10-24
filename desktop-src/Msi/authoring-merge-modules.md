@@ -2,8 +2,6 @@
 Description: The following procedure describes the general steps to authoring merge modules.
 ms.assetid: 4b3871c0-f452-4935-9ee3-78b0ac847e67
 title: Authoring Merge Modules
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

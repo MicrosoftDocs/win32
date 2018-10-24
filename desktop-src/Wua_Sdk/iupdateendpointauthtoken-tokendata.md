@@ -2,8 +2,6 @@
 Description: Gets the XML data (sent over the wire) that represents the token.
 ms.assetid: 52EC991A-0499-4182-AC4F-512BAFB4F896
 title: IUpdateEndpointAuthToken::TokenData method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

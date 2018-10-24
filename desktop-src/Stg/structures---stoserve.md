@@ -2,8 +2,6 @@
 title: Structures - StoServe
 description: COPaper packages the pen color, width, and coordinates into INKDATA structures and stores them in a dynamically allocated array that it manages in memory.
 ms.assetid: 25e68c39-5306-4ad6-85dd-a8a5e256abf0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Collecting Memory Usage Information For a Process
 description: To determine the efficiency of your application, you may want to examine its memory usage. The following sample code uses the GetProcessMemoryInfo function to obtain information about the memory usage of a process.
 ms.assetid: 23641bf8-3653-4cb9-8008-cd99137ca268
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

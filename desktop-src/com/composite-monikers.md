@@ -2,8 +2,6 @@
 title: Composite Monikers
 description: One of the most useful features of monikers is that you can concatenate or compose monikers together.
 ms.assetid: ea2453f3-7a64-4ce0-87c2-de6224ca71df
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

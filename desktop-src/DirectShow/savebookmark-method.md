@@ -2,8 +2,6 @@
 Description: The SaveBookmark method saves the current disc position and state of the MSWebDVD object so the user can return to the same place later.
 ms.assetid: 975687c5-f93e-4473-b23b-63e0ae6bbb5d
 title: SaveBookmark Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: f50a03e8-1c23-4eb0-a1ff-471c28d6b611
 keywords:
 - processor affinity 64-bit Windows Programming
 - WOW64 64-bit Windows Programming , processor affinity
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

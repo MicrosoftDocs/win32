@@ -2,8 +2,6 @@
 Description: The device-space to physical-device transformation is unique in several respects.
 ms.assetid: d827eb54-c1c4-42b3-9478-cf52a578df24
 title: Device-Space to Physical-Device Transformation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

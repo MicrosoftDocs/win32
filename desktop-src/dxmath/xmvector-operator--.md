@@ -2,8 +2,6 @@
 Description: Subtraction and negation operators.
 ms.assetid: b3a3da02-4fba-4f76-90d8-15f605c73f16
 title: operator - operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

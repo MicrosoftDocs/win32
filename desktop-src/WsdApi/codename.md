@@ -2,8 +2,6 @@
 Description: Defines the name to be used to identify the namespace in generated code.
 ms.assetid: 4e476be2-fa73-4b3e-b0cc-799c8d16b5de
 title: codeName element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

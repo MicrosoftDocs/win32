@@ -2,8 +2,6 @@
 Description: The Bitmap control displays a bitmap or JPEG static picture file. The Windows Installer will automatically determine the format of the binary data and display the picture. The control does not support animation.
 ms.assetid: 4b511d8a-1819-4a9b-a942-dc32fade75c6
 title: Bitmap Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

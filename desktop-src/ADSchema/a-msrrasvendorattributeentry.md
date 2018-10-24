@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 07bc4d9b-eba9-456b-be21-cd7bb8a5b0b6
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-RRAS-Vendor-Attribute-Entry attribute AD Schema

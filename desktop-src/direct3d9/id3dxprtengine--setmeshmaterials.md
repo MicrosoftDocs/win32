@@ -2,8 +2,6 @@
 Description: Sets mesh material properties in the 3D scene. Use this method to specify subsurface scattering parameters.
 ms.assetid: 830d73be-bba6-454d-8476-341d291a5b2e
 title: ID3DXPRTEngine::SetMeshMaterials method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

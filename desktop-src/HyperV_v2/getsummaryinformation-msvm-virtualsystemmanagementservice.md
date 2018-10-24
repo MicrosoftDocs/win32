@@ -2,8 +2,6 @@
 Description: Returns virtual machine summary information.
 ms.assetid: CDDC2B5A-8172-4E6D-A206-CEAB9E54C69A
 title: GetSummaryInformation method of the Msvm_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

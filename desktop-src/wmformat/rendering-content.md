@@ -8,8 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),rendering content
 - Advanced Systems Format (ASF),content rendering
 - ASF (Advanced Systems Format),content rendering
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The GetTotalStatistics method retrieves the total statistics for the current capture.
 ms.assetid: 904c7496-5603-41b9-8481-06fa31f6f112
 title: IDelaydC::GetTotalStatistics method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -13,8 +13,6 @@ keywords:
 - Windows Media metafiles,syntax
 - metafiles,syntax
 - metafile playlists,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: TAPI supports the tapiGetLocationInfo, tapiRequestDrop, tapiRequestMakeCall, and tapiRequestMediaCall assisted telephony functions.
 ms.assetid: 3e235f9e-e91a-4f4b-b564-a13e46b435fc
 title: Assisted Telephony Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The GetPositions method retrieves the current position and the stop position, relative to the total duration of the stream. This method implements the IMediaSeeking::GetPositions method.
 ms.assetid: 51e45bc3-ae30-4b05-b9d9-684c1b028f51
 title: CPosPassThru.GetPositions method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

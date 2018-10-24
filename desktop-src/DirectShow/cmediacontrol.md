@@ -2,8 +2,6 @@
 Description: The CMediaControl class provides base class handling of the IDispatch methods of the dual-interface IMediaControl. It leaves as pure virtual the properties and methods of the IMediaControl interface.
 ms.assetid: 033a2de6-8046-408c-995f-ec2de6654c41
 title: CMediaControl class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

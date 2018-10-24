@@ -2,8 +2,6 @@
 Description: Finding Audio Encoder Output Types
 ms.assetid: cd47d45b-ea47-4dec-867e-d51145d7f084
 title: Finding Audio Encoder Output Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

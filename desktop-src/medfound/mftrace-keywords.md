@@ -2,8 +2,6 @@
 Description: Using MFTrace, you can filter the trace results by specifying a list of keywords.
 ms.assetid: e7c382cb-94ac-4f90-a3dd-32f94c538396
 title: MFTrace Keywords
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

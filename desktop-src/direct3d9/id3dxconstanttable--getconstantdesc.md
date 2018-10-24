@@ -2,8 +2,6 @@
 Description: Gets a pointer to an array of constant descriptions in the constant table.
 ms.assetid: bd407fd6-b1cc-4197-ae98-1c2ca74d2ad0
 title: ID3DXConstantTable::GetConstantDesc method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

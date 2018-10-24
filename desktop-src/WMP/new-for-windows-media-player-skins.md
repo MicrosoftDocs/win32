@@ -13,8 +13,6 @@ keywords:
 - new features,skins
 - versions of Windows Media Player,new features in skins
 - compatibility,skins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

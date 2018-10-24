@@ -2,8 +2,6 @@
 Description: Lists the enumerations used in authentication APIs.
 ms.assetid: e27888e5-d01a-4fdd-8c7d-9849c0f90eb5
 title: Authentication Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

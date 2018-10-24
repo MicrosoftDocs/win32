@@ -2,8 +2,6 @@
 title: Tree View Control (MSAA UI Element Reference)
 description: A tree view control displays a hierarchical list of items using lines to connect related items in a hierarchy. Each item consists of a label and an optional bitmap. Windows Explorer uses a tree view control to display directories.
 ms.assetid: 5b104a77-71e5-4555-acde-1e63ac7ea5c1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

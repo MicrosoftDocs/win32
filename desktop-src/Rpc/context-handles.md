@@ -4,8 +4,6 @@ description: It is sometimes the case that distributed applications require the 
 ms.assetid: '91732a75-0a3a-44bd-9db9-c11be6fd2d70'
 keywords:
 - Remote Procedure Call RPC , described, context handles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

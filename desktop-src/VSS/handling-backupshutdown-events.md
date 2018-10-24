@@ -2,8 +2,6 @@
 Description: It is possible for a backup application (requester) to terminate and not generate a BackupComplete event.
 ms.assetid: 8e6a1f4f-ba62-46ea-965e-b0c6526ece89
 title: Handling BackupShutdown Events
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

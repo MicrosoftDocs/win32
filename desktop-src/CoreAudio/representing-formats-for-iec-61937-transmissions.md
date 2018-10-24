@@ -2,8 +2,6 @@
 Description: With the increase in media storage devices that require compressed audio formats, applications must identify, describe, and use a variety of new encoded audio content for transmitting content from PCs to devices such as HDMI or DisplayPort receiver.
 ms.assetid: 86f3396c-b32a-4d70-9f21-e38a745f78bf
 title: Representing Formats for IEC 61937 Transmissions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

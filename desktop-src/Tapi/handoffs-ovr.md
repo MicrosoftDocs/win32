@@ -2,8 +2,6 @@
 Description: When an application has owner privilege for a communications session, the application may choose to hand off ownership to another application.
 ms.assetid: d6d188c9-9cbd-45af-93f0-b78850374919
 title: Handoffs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

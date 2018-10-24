@@ -2,8 +2,6 @@
 Description: Birthday of the contact.
 ms.assetid: a4bde9d0-5460-4f27-8ca0-7500b735f9d4
 title: System.Contact.Birthday
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c6c7f3c3-7174-4278-bf40-d99ed8bd0c8d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Mapping Active Directory Instances
 ms.author: windowssdkdev

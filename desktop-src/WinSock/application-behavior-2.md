@@ -2,8 +2,6 @@
 Description: Another aspect of application development to consider is the difference in behavior between local, or intracomputer operations, and behavior when operations take place between two networked computers.
 ms.assetid: e6f48446-948c-458c-8ecf-04ffb249c8a4
 title: Application Behavior
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

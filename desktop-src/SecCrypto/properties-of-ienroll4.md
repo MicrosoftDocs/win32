@@ -2,8 +2,6 @@
 Description: The following properties are defined by the IEnroll4 interface or are properties the IEnroll4 interface inherits from IEnroll and IEnroll2.
 ms.assetid: e981b1c7-4dd4-4e37-ac80-3d0d0fe5f8cb
 title: Properties of IEnroll4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

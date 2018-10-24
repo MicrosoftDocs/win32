@@ -2,8 +2,6 @@
 title: Standard DISPIDS
 description: A number of standard dispids have been defined for the controls specification.
 ms.assetid: f938b64f-5d45-40e7-ad02-665ce9c86a70
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

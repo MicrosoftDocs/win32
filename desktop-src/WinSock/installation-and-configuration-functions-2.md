@@ -2,8 +2,6 @@
 Description: The following functions are implemented in the Ws2\_32.dll, and are intended to be used by applications that install Windows Sockets transport and namespace service providers on a computer.
 ms.assetid: 3289737a-77b6-45d1-9c0a-3ed05b3475c2
 title: Installation and Configuration Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

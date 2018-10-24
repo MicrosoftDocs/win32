@@ -2,8 +2,6 @@
 title: Position Attribute (Fill)(VML)
 description: Position Attribute (Fill)(VML)
 ms.assetid: 0d532d4c-0c96-4f41-b54f-55b6aade0c03
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Generates C structure definitions for known types.
 ms.assetid: 38ba2e8a-d5b1-47b2-b410-ae161f5039bf
 title: structDefinitions element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: DirectShow implements IUnknown in a base class called CUnknown.
 ms.assetid: 1fc74db6-c23a-464f-b9fa-b19d7e8672b7
 title: Using CUnknown
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

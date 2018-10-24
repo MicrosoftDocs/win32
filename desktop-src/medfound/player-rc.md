@@ -2,8 +2,6 @@
 Description: This topic contains the resource file for the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: 5454c92b-5f71-4be3-ac98-b2195c482ea4
 title: player.rc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

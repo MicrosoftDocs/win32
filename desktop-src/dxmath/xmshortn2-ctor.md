@@ -2,8 +2,6 @@
 Description: Constructors exposed by XMSHORTN2.
 ms.assetid: 60f5c369-be36-420c-b57d-f80cc6e664ef
 title: XMSHORTN2 constructors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

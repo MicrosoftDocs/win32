@@ -2,8 +2,6 @@
 Description: Retrieves the analysis hint that caused this warning.
 ms.assetid: 715aa4b2-6c45-414b-96f2-44c73a073213
 title: IAnalysisWarning::GetHint method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

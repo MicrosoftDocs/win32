@@ -4,8 +4,6 @@ description: When these operations are successful, the obtained IStorage interfa
 ms.assetid: 40f79adb-87f3-4b0e-9cfe-927a4bc9ada5
 keywords:
 - Load Method - CPapFile
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

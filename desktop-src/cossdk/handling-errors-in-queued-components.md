@@ -2,8 +2,6 @@
 Description: Occasionally, a situation occurs in which a message cannot be successfully delivered to its intended destination, usually due to a problem with the system or configuration.
 ms.assetid: 8015682c-d84d-44e2-995d-dca68053c4fa
 title: Handling Errors in Queued Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

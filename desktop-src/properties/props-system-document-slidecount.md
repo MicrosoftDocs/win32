@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 77ad2da3-7927-40d5-8a62-213f88cb724e
 title: System.Document.SlideCount
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

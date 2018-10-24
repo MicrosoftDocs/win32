@@ -2,8 +2,6 @@
 Description: The address of the event organizer. This is a mailing or street address.
 ms.assetid: be00b019-6922-44e5-a837-7068956cd155
 title: System.Calendar.OrganizerAddress
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The interactive nature of telephony requires TAPI to be a real-time operating environment.
 ms.assetid: b8512588-ec28-4fbe-b47f-b900e2dba1f2
 title: Synchronous/Asynchronous Model
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

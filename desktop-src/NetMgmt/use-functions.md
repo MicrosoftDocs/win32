@@ -2,8 +2,6 @@
 title: Use Functions
 description: The network management use functions examine and manage connections (uses) between workstations and servers. The use functions are listed following.
 ms.assetid: ddf1b8dc-f13b-402a-9e4e-e4944a29ac31
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

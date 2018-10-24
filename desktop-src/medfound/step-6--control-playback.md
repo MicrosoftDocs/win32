@@ -2,8 +2,6 @@
 Description: This topic is step 6 of the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: e2e3e95b-41b2-45fb-b495-0e700220e5f5
 title: 'Step 6: Control Playback'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

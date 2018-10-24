@@ -2,8 +2,6 @@
 Description: Specifies a semicolon-delimited list of media servers that can accept connections from client applications without using a proxy server.
 ms.assetid: 218883c5-9a26-4733-8308-1827cf1f2cd7
 title: MFNETSOURCE_PROXYEXCEPTIONLIST property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

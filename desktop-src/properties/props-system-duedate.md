@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 4a3d9b46-ae87-446f-9a47-4c1410a9d333
 title: System.DueDate
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

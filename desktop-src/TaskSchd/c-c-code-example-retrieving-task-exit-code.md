@@ -5,8 +5,6 @@ ms.assetid: e7bfe645-7f4c-4700-9adf-c581e6895aec
 keywords:
 - retrieving task comment Task Scheduler
 - retrieving work item properties Task Scheduler , task comment
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

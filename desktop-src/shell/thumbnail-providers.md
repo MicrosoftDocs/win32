@@ -1,8 +1,6 @@
 ---
 Description: Windows Vista makes greater use of file-specific thumbnail images than earlier versions of Windows.
 title: Thumbnail Handlers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 07/02/2018

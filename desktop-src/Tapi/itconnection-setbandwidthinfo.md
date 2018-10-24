@@ -2,8 +2,6 @@
 Description: The SetBandwidthInfo method sets the bandwidth information.
 ms.assetid: bf5db456-ea67-4a65-a681-df0741f73fc9
 title: ITConnection::SetBandwidthInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

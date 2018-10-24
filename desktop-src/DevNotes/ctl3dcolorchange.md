@@ -2,8 +2,6 @@
 Description: Handles system color changes for applications that use CTL3D.
 ms.assetid: b1eadb7d-39a5-47e9-9ae5-62bd33557f6b
 title: Ctl3dColorChange function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

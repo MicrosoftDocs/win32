@@ -8,8 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),retrieving metadata attributes
 - metadata,retrieving attributes
 - streams,retrieving metadata attributes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

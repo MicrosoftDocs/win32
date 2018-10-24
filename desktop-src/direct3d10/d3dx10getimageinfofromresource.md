@@ -2,8 +2,6 @@
 Description: Retrieves information about a given image in a resource.
 ms.assetid: d413d887-77e0-43cc-a30e-67c3c40772f0
 title: D3DX10GetImageInfoFromResource function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

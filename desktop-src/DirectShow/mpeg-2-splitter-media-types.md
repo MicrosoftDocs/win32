@@ -2,8 +2,6 @@
 Description: MPEG-2 Splitter Media Types
 ms.assetid: d0ff2011-4ee3-4f5e-8bd0-af9f4c6346e8
 title: MPEG-2 Splitter Media Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

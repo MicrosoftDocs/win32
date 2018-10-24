@@ -2,8 +2,6 @@
 Description: Loads a surface from a file.
 ms.assetid: cbd360b6-6cee-418b-8c45-506e190eb2f6
 title: D3DXLoadSurfaceFromFile function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

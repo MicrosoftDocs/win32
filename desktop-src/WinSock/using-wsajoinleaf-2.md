@@ -2,8 +2,6 @@
 Description: As mentioned previously, the function WSAJoinLeaf is used to join a leaf node into a multipoint session.
 ms.assetid: eaa1593a-36eb-4d92-a3d9-91566fc0216b
 title: Using WSAJoinLeaf
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

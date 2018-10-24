@@ -2,8 +2,6 @@
 title: IKE/AuthIP Structures
 description: IKE/AuthIP Structures
 ms.assetid: 3267EA3C-FD1F-4ED1-9794-92551222EFE1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

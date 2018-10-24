@@ -2,8 +2,6 @@
 Description: This topic introduces the imaging metadata support provided by the Windows Imaging Component (WIC).
 ms.assetid: 35727810-3c4c-4c11-a4a2-3ae2cf3b8142
 title: WIC Metadata Overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

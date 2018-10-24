@@ -2,8 +2,6 @@
 Description: Specifies a certificate used to sign a document. The certificate can be stored in a Software Publisher Certificate (SPC) file or in a certificate store.
 ms.assetid: 9a99ce98-237d-4223-ab3d-0576041038e3
 title: SIGNER_CERT structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

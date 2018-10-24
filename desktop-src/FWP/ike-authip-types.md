@@ -2,8 +2,6 @@
 title: IKE/AuthIP Types
 description: IKE/AuthIP Types
 ms.assetid: DB86E625-E6C0-4999-A3BD-58F76216E9AC
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

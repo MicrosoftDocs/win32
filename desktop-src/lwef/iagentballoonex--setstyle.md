@@ -2,8 +2,6 @@
 title: IAgentBalloonEx SetStyle
 description: IAgentBalloonEx SetStyle
 ms.assetid: 5be569b7-8a2d-437b-b5db-401af343bc78
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

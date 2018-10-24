@@ -5,8 +5,6 @@ ms.assetid: ad720387-55b9-44a0-8ff0-521b9ed24ab4
 keywords:
 - Windows Touch SDK,code samples
 - Windows Touch SDK,sample code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

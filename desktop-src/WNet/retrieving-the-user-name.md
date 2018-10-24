@@ -2,8 +2,6 @@
 title: Retrieving the User Name
 description: To retrieve the name of the user associated either with a local device connected to a network resource or with the name of a network, an application can call the WNetGetUser function.
 ms.assetid: aed410af-d5f0-4389-882b-5b4338b5f900
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

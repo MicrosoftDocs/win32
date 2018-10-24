@@ -2,8 +2,6 @@
 Description: The ClosePrinter function closes the specified printer object.
 ms.assetid: 95cc3eca-e65c-4fa6-8975-479e8e728dca
 title: ClosePrinter function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

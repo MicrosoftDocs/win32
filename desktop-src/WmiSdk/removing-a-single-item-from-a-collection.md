@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4a71029c-9fe1-4348-9f78-daa345728e8d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Removing a Single Item from a WMI Collection
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: Adds, changes, or deletes an HTTP request header.
 ms.assetid: 8cb4891d-0bdb-4dea-8ebe-d6ed26a50e41
 title: IWinHttpRequest::SetRequestHeader method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

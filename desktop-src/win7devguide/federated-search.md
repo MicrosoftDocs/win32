@@ -2,8 +2,6 @@
 title: Federated Search
 description: Windows 7 supports searching for documents beyond the user's own PC.
 ms.assetid: 2c682585-2c9c-4694-b743-f83a6ff5c143
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Supplies the following operator overloads and type casts for D3DXCOLOR structures.
 ms.assetid: 89780c6f-c78b-4ebe-876a-6dbc37b598ef
 title: D3DXCOLOR Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

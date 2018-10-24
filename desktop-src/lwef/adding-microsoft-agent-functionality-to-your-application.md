@@ -2,8 +2,6 @@
 title: Adding Microsoft Agent Functionality to Your Application
 description: Adding Microsoft Agent Functionality to Your Application
 ms.assetid: 2b4816dd-11bf-4c17-873e-4bdbb7fa1ccf
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

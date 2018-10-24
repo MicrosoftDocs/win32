@@ -2,8 +2,6 @@
 Description: The Filename data type is a text string containing a file name or folder.
 ms.assetid: af59e1b8-0699-4031-895f-415752611e21
 title: Filename
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: WDS Transport Client Functions
 description: This module defines the structures and functions that compose the interface between the content receiver and the transport client.
 ms.assetid: 20c3116b-3a0d-4048-b6f2-81c03e0a80ef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

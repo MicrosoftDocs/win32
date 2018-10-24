@@ -2,8 +2,6 @@
 Description: SRV record Time-To-Live field. Not usually used.
 ms.assetid: a90565ce-0c33-498b-99af-6b58eb42b23d
 title: System.Devices.Dnssd.Ttl
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

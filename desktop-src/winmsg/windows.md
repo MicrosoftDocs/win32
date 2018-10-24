@@ -2,8 +2,6 @@
 Description: This section discusses windows in general.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows.htm'
 title: Windows
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

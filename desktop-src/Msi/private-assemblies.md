@@ -2,8 +2,6 @@
 Description: A Win32 assembly can be installed as a private assembly and be exclusively available for use by one application. Private assemblies should be installed by a Windows Installer package used to install or update an application.
 ms.assetid: 4c6dac5f-fdd3-4125-b54a-74941ee6b3b4
 title: Private Assemblies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

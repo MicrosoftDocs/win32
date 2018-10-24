@@ -2,8 +2,6 @@
 Description: This topic shows how to integrate X3DAudio with XAudio2.
 ms.assetid: a8f41f0d-b284-aefa-923b-471b13b4a3ec
 title: 'How to: Integrate X3DAudio with XAudio2'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

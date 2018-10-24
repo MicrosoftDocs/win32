@@ -2,8 +2,6 @@
 Description: This topic describes how to adjust pictures using the System.Windows.Forms.PictureBox.SizeMode property, and how to display pictures in Microsoft Visual Studio .NET.
 ms.assetid: 9f4f0f96-68a3-447d-a239-599c9fd3e343
 title: Working with Pictures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

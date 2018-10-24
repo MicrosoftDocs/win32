@@ -2,8 +2,6 @@
 Description: 'The Direct3D API defines several API elements to help you create and manage resources:'
 ms.assetid: 51294ee0-6cf7-4978-b601-b947f2cd19d3
 title: Resource Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

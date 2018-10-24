@@ -2,8 +2,6 @@
 Description: Describes swapchain statistics relating to PresentEx calls.
 ms.assetid: aa100b83-6fbf-442d-9891-7fc034a5b1d5
 title: D3DPRESENTSTATS structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

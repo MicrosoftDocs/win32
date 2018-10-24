@@ -2,8 +2,6 @@
 Description: The SetSignedIntegerValue method adds a new LONG value (type VT\_I4) or overwrites an existing one.
 ms.assetid: b0bb2992-2906-446c-be9a-20bff13f8e1d
 title: IPortableDeviceValues::SetSignedIntegerValue method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

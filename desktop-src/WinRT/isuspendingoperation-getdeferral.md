@@ -2,8 +2,6 @@
 Description: Requests that the app suspending operation be delayed.
 ms.assetid: 5AB84652-165D-4173-A047-541B05848871
 title: ISuspendingOperation::GetDeferral method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

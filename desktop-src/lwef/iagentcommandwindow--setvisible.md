@@ -2,8 +2,6 @@
 title: IAgentCommandWindow SetVisible
 description: IAgentCommandWindow SetVisible
 ms.assetid: 44f3fc2d-937a-4890-8dad-e0f29da4c6b5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

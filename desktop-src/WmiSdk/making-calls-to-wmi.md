@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5bfd9d9b-ffe5-4def-a97d-85c4c01223f0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Making Calls to WMI
 ms.author: windowssdkdev

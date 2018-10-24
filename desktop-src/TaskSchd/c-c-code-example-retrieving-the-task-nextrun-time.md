@@ -5,8 +5,6 @@ ms.assetid: 2134a188-2fd4-4b55-bd9e-3363772080c0
 keywords:
 - retrieving task next run time Task Scheduler
 - retrieving work item properties Task Scheduler , task next run time
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

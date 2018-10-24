@@ -2,8 +2,6 @@
 Description: The following example shows you how to use events to calculate the CPU usage for a set of instructions. This example assumes the provider wraps the instruction set with a start event type and an end event type.
 ms.assetid: 7bc15ed3-d299-40dd-9838-520f896921e3
 title: Using Events to Calculate CPU Usage
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

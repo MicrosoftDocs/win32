@@ -2,8 +2,6 @@
 title: defi - vs
 description: Defines an integer constant value, which should be loaded anytime a shader is set to a device.
 ms.assetid: d6067a7d-58fb-4553-a42f-192c29bf78b7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

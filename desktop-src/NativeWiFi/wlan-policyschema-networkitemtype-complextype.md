@@ -2,8 +2,6 @@
 Description: Specifies the name and type of a wireless network.
 ms.assetid: 839afae0-b8e1-489f-8811-19a82c173627
 title: networkItemType Complex Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

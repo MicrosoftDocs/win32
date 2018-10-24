@@ -2,8 +2,6 @@
 title: Task Dialog Structures
 description: .
 ms.assetid: 997d843a-9c4d-45bf-a876-761e3c69156d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: The IScheduledWorkItem interface provides methods for retrieving an
 ms.assetid: 8aedf96d-e43d-4aac-ad8c-860379209f95
 keywords:
 - work items Task Scheduler , managing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

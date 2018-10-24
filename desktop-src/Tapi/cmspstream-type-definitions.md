@@ -2,8 +2,6 @@
 Description: The following definitions provide a set of stream states that may be useful to the derived class, although their use is not required. Derived classes can conveniently extend the set of available states simply by defining additional values.
 ms.assetid: 2c719828-904f-4469-ab3b-a331f009b9c3
 title: CMSPStream Type Definitions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

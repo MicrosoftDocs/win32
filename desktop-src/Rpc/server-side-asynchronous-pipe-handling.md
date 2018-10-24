@@ -2,8 +2,6 @@
 title: Server-side Asynchronous Pipe Handling
 description: The manager routine of an asynchronous function always receives the asynchronous handle as the first parameter.
 ms.assetid: ddf9c319-6c4d-4de1-ab29-0ef9b76531ba
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

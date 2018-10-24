@@ -2,8 +2,6 @@
 Description: The following methods are defined by the IOCSPPropertyCollection interface. The property access methods are not shown here. To see the properties for IOCSPPropertyCollection, see Properties of IOCSPPropertyCollection.
 ms.assetid: 7273a8ed-cf0e-40d8-8cac-4effbdf41ae8
 title: Methods of IOCSPPropertyCollection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -15,8 +15,6 @@ keywords:
 - DDE (Dynamic Data Exchange),multiple conversations
 - Dynamic Data Exchange Management Library (DDEML),multiple conversations
 - DDEML (Dynamic Data Exchange Management Library),multiple conversations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

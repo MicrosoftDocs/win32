@@ -2,8 +2,6 @@
 Description: Remotable version of the IMFMediaSource::CreatePresentationDescriptor method.
 ms.assetid: 9ad6793e-32ca-471b-8639-41098b3e8216
 title: RemoteCreatePresentationDescriptor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

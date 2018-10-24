@@ -2,8 +2,6 @@
 title: How to Create a Tree-View Control
 description: To create a tree-view control, use the CreateWindowEx function, specifying the WC\_TREEVIEW value for the window class.
 ms.assetid: FEC3BF62-3085-47D4-B82E-7BD7B34B397D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

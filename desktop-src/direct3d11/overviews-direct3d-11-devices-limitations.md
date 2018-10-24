@@ -2,8 +2,6 @@
 title: Limitations Creating WARP and Reference Devices
 description: Some limitations exist for creating WARP and Reference devices in Direct3D 10.1 and Direct3D 11.0. This topic discusses those limitations.
 ms.assetid: 7e022e5d-daa3-48fa-b9fe-4b569220e55e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

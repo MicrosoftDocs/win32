@@ -2,8 +2,6 @@
 Description: Retrieves a FolderItems object that represents the collection of items in the folder.
 ms.assetid: ef2965ec-c8ab-4108-8e5e-b4fd5370521a
 title: Folder.Items method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

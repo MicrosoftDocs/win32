@@ -2,8 +2,6 @@
 Description: Retrieves the IInkAnalysisRecognizer at the specified index.
 ms.assetid: e4db56c6-7c15-4336-bc0a-f50222c3520e
 title: IInkAnalysisRecognizers::GetInkAnalysisRecognizer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

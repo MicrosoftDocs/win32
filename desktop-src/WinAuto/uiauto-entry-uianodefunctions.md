@@ -2,8 +2,6 @@
 title: Deprecated Node Functions
 description: Deprecated Node Functions
 ms.assetid: 72833757-a356-4727-8fc8-77a60e26aa99
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

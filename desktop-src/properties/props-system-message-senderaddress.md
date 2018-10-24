@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 14291b2a-87d1-4acf-9f31-d4014e941cbb
 title: System.Message.SenderAddress
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

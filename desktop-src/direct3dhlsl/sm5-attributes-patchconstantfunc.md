@@ -2,8 +2,6 @@
 title: patchconstantfunc
 description: Defines the function for computing patch constant data.
 ms.assetid: aee99055-7258-458f-8677-bb79e305dd79
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

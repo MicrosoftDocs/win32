@@ -2,8 +2,6 @@
 Description: Reference time that corresponds to stream time 0.
 ms.assetid: e80d2fe0-48fb-494e-9450-b5cae2ec9c9f
 title: CBaseMediaFilter::m_tStart member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -11,8 +11,6 @@ keywords:
 - Windows Media Player skins,examples
 - skins,examples
 - skin definition files,examples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

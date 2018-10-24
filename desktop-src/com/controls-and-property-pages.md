@@ -2,8 +2,6 @@
 title: Controls and Property Pages
 ms.assetid: 145eba76-be21-487c-bfa8-cfe4bbf40410
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

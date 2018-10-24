@@ -2,8 +2,6 @@
 title: VML EndArrowWidth Attribute
 description: VML EndArrowWidth Attribute
 ms.assetid: a68854d2-33f8-44fb-a0be-830d2be3040f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

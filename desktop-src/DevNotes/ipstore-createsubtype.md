@@ -2,8 +2,6 @@
 Description: Creates the specified subtype within the specified type.
 ms.assetid: afd5c0c6-5779-4a78-83aa-cae36f5de564
 title: IPStore::CreateSubtype method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

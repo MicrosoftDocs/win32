@@ -2,8 +2,6 @@
 Description: Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer.
 ms.assetid: 149098c2-35ca-46e9-a13a-94906c95cfd9
 title: ID3DXPRTCompBuffer::ExtractPCA method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

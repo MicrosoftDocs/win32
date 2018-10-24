@@ -2,8 +2,6 @@
 Description: Peer names are used by Peer Name Resolution Protocol (PNRP), the Peer Identity Manager, and the Peer Grouping Infrastructure.
 ms.assetid: b0d78b17-6f48-4294-b8a2-8fcc1a7f8ef1
 title: Peer Names
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Every file that is delivered to the target installation package by the merge module must be stored inside of a cabinet file embedded as a stream inside the .msm file. The name of this cabinet is always MergeModule.CABinet.
 ms.assetid: 884df249-977e-4e8e-8978-15331a7c1d8a
 title: Generating MergeModule.CABinet Cabinet Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

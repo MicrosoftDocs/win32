@@ -2,8 +2,6 @@
 Description: The Microsoft Windows security model enables you to control access to job objects. For more information about security, see Access-Control Model.
 ms.assetid: 8d212292-f087-41e4-884e-cec4423dac49
 title: Job Object Security and Access Rights
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

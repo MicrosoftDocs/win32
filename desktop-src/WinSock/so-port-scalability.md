@@ -2,8 +2,6 @@
 Description: Enables local port scalability for a socket.
 ms.assetid: c5142baf-9e2d-4c06-8719-9090fd2d9487
 title: SO_PORT_SCALABILITY
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

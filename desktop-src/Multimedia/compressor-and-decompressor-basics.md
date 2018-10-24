@@ -5,8 +5,6 @@ ms.assetid: 49a958c1-1798-4c6c-913c-5bf5869f926b
 keywords:
 - video compression manager (VCM),opening compressors
 - VCM (video compression manager),opening compressors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: An actual frame from the driver.
 ms.assetid: '867082c1-196a-4580-ba24-187b0752f6f8'
 title: FRAME structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

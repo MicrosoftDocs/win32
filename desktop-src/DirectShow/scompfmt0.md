@@ -2,8 +2,6 @@
 Description: Contains format information for smart recompression.
 ms.assetid: 471a7b4a-e639-443b-a30e-870b747e072c
 title: SCompFmt0 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

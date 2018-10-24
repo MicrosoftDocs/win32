@@ -8,8 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),mutual exclusion objects
 - objects,mutual exclusion objects
 - mutual exclusion,objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

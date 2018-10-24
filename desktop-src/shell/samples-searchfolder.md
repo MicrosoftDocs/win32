@@ -1,8 +1,6 @@
 ---
 Description: Demonstrates how to create a search with query constraints using the Shell programming model.
 title: Search Folder Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

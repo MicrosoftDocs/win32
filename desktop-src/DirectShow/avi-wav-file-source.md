@@ -2,8 +2,6 @@
 Description: AVI/WAV File Source
 ms.assetid: b8abf5d8-ba7f-441d-beef-9f85859318d5
 title: AVI/WAV File Source
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -3,8 +3,6 @@ title: Creating a Source Initiated Subscription
 description: Source-initiated subscriptions allow you to define a subscription on an event collector computer without defining the event source computers, and then multiple remote event source computers can be set up (using a group policy setting) to forward events to the event collector computer. Before a local computer can subscribe to events and a remote computer can forward events, both computers must be set up for event collecting and event forwarding. For more information about how to configure the computers, see Setting up a Source Initiated Subscription.
 audience: developer
 ms.assetid: 489d3613-177f-4045-a055-2c1577ef2191
-ms.prod: windows-server-dev
-ms.technology: windows-event-collector
 ms.tgt_platform: multiple
 ms.author: windowssdkdev
 ms.topic: article

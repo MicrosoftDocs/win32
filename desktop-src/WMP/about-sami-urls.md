@@ -14,8 +14,6 @@ keywords:
 - SAMI (Synchronized Accessible Media Interchange),files
 - Synchronized Accessible Media Interchange (SAMI),URLs
 - SAMI (Synchronized Accessible Media Interchange),URLs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

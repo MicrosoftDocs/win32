@@ -2,8 +2,6 @@
 Description: Changes the number of samples contained in the buffer.
 ms.assetid: c3cceba8-0bbc-46e5-95d9-cdf58d8a2510
 title: ID3DXPRTBuffer::Resize method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

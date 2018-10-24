@@ -2,8 +2,6 @@
 Description: Processing Data in the Encoder
 ms.assetid: 7be4c5e7-db2c-4063-8e5c-af6ffb861aa5
 title: Processing Data in the Encoder
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

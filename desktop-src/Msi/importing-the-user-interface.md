@@ -2,8 +2,6 @@
 Description: In addition to information discussed in previous sections, uisample.msi also contains data for a sample user interface.
 ms.assetid: 7e4ae4b8-e7b2-49b3-97b7-374b69006a2f
 title: Importing the User Interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

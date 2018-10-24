@@ -2,8 +2,6 @@
 Description: Signs the specified file and returns a pointer to the signed data.
 ms.assetid: 9921ffae-2299-4bf2-b76d-77f7f6afb663
 title: SignerSignEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

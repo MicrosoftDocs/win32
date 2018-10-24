@@ -2,8 +2,6 @@
 title: How to Use Groups in a List-View
 description: This topic describes how to create an instance of a group and add it to a list-view control.
 ms.assetid: 8486B9A2-C519-4912-9E88-3BAFCC4D51CF
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

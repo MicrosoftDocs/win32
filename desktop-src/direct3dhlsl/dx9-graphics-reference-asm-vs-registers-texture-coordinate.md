@@ -2,8 +2,6 @@
 title: Texture Coordinate Register
 description: This vertex shader output register contains per-vertex texture coordinates.
 ms.assetid: d42c8e4c-8227-4fe8-9432-90c592011024
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: ElementFromPointReturnedNull
 description: ElementFromPointReturnedNull
 ms.assetid: DBCA6705-BDFD-4024-A505-4539F72A9421
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

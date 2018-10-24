@@ -2,8 +2,6 @@
 Description: The read-only Patches property of the Installer object returns a StringList object that contains all the patches applied to the product.
 ms.assetid: a8d46073-399b-480e-b4b0-a7a2f832e160
 title: Installer.Patches property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

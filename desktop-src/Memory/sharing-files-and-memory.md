@@ -2,8 +2,6 @@
 Description: File mapping can be used to share a file or memory between two or more processes. To share a file or memory, all of the processes must use the name or the handle of the same file mapping object.
 ms.assetid: 942cb50d-df07-444f-bba5-58194556ae66
 title: Sharing Files and Memory
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

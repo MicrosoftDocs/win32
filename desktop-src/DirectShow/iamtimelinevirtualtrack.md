@@ -2,8 +2,6 @@
 Description: The IAMTimelineVirtualTrack interface provides methods for working with virtual tracks in DirectShow Editing Services (DES). Compositions and tracks support this interface.
 ms.assetid: 69d1d2ea-d33f-406d-a9ca-ddfb890bed34
 title: IAMTimelineVirtualTrack interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

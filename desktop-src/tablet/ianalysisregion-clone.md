@@ -2,8 +2,6 @@
 Description: Creates a copy of the IAnalysisRegion.
 ms.assetid: eb94e1ce-7801-409d-9ae6-e7db0a9b861f
 title: IAnalysisRegion::Clone method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

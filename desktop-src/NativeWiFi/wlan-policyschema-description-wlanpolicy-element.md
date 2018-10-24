@@ -2,8 +2,6 @@
 Description: Contains the description of a wireless LAN policy.
 ms.assetid: eaee5ff7-cef3-4bd2-bd60-2713d25894f5
 title: description (WLANPolicy) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

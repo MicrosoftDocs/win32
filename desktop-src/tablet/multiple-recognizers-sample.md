@@ -2,8 +2,6 @@
 Description: This sample demonstrates advanced features of the MicrosoftTablet PC Automation application programming interface (API) used for handwriting recognition.
 ms.assetid: c9e6613c-5797-44c3-8ce1-92d4d1459ecf
 title: Multiple Recognizers Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Client-side Asynchronous Pipe Handling
 description: Before making an asynchronous remote call, the client must first initialize the asynchronous handle.
 ms.assetid: 3d54b233-d8b0-45d1-b759-0d2d24c1e247
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

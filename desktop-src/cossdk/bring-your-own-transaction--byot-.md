@@ -2,8 +2,6 @@
 Description: Bring Your Own Transaction (BYOT)
 ms.assetid: 492875cb-52a7-484f-810e-bd838373b603
 title: Bring Your Own Transaction (BYOT)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

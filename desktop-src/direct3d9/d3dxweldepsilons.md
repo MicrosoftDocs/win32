@@ -2,8 +2,6 @@
 Description: Specifies tolerance values for each vertex component when comparing vertices to determine if they are similar enough to be welded together.
 ms.assetid: 534903da-ff65-4629-9be9-66c9daed6ef5
 title: D3DXWELDEPSILONS structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

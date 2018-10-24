@@ -15,8 +15,6 @@ keywords:
 - subscribing to UI Automation events
 - events,UI Automation subscription
 - Samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 907b65b2-a853-40f4-8b36-5a05a2b1cf85
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__CIMOMIdentification class'
 ms.author: windowssdkdev

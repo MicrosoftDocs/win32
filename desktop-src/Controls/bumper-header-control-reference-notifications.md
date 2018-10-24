@@ -2,8 +2,6 @@
 title: Header Control Notifications
 description: .
 ms.assetid: 29b91766-fed5-43c3-8341-be3ae14f6777
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Represents the state of the emulated S3 controller that is present in each virtual machine configuration.
 ms.assetid: 194E0195-1AFF-4298-8000-2249495818C2
 title: Msvm_S3DisplayController class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

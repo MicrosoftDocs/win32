@@ -8,8 +8,6 @@ keywords:
 - DRM (digital rights management),revocation type identifiers
 - DRM Client Extended APIs,revocation type identifiers
 - Client Extended APIs,revocation type identifiers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

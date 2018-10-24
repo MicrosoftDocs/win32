@@ -4,8 +4,6 @@ description: Storage and stream objects are named according to a set of conventi
 ms.assetid: 72e87c6a-cce5-4456-8336-c657e65c0a34
 keywords:
 - Structured Storage Strctd Stg ,fundamentals,storage object naming conventions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

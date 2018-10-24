@@ -2,8 +2,6 @@
 Description: Indicates whether PMK caching will be used.
 ms.assetid: 5650c893-6047-4e99-a2be-22722d6a809a
 title: PMKCacheMode (security) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

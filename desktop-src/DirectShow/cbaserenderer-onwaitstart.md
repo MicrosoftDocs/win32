@@ -2,8 +2,6 @@
 Description: The OnWaitStart method is called when the filter starts waiting for a sample's presentation time.
 ms.assetid: 598cd676-3afe-4ec9-ae38-83971412e6a7
 title: CBaseRenderer.OnWaitStart method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

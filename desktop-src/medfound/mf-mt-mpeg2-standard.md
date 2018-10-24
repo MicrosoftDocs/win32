@@ -2,8 +2,6 @@
 Description: For a media type that describes an MPEG-2 program stream (PS) or transport stream (TS), specifies the standard that is used to multiplex the stream.
 ms.assetid: 3D4C1A81-A9BA-427F-93DB-F522A0616EAB
 title: MF_MT_MPEG2_STANDARD attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 1922A598-47B5-4162-A0F2-130E75DAD5EA
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemProviderInitSink Methods
 ms.author: windowssdkdev

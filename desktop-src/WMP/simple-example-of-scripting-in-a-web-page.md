@@ -19,8 +19,6 @@ keywords:
 - embedding,Web pages
 - Web page embedding,scripting example
 - scripting example for webpage embedding
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

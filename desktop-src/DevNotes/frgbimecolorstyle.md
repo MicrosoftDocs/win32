@@ -2,8 +2,6 @@
 Description: Specifies whether the specified color is an RGB color.
 ms.assetid: 16b48644-c2d5-4383-836a-122f44504638
 title: FRGBIMEColorStyle function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

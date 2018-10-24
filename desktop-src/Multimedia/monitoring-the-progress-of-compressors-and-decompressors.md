@@ -6,8 +6,6 @@ keywords:
 - video compression manager (VCM),monitoring
 - VCM (video compression manager),monitoring
 - ICSetStatusProc function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,6 @@
 ---
 ms.assetid: B9E4F9DB-C92E-49B9-999C-AB0AC5841F3B
 title: Print Document Package API Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

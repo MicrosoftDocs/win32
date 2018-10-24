@@ -2,8 +2,6 @@
 Description: A small update can be applied to an application by completely or partially reinstalling the application from the command line or from a program.
 ms.assetid: 6f8b68da-7748-436d-bc95-96e39cf42143
 title: Applying Small Updates by Reinstalling the Product
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

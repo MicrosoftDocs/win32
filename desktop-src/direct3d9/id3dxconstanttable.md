@@ -2,8 +2,6 @@
 Description: The ID3DXConstantTable interface is used to access the constant table. This table contains the variables that are used by high-level language shaders and effects.
 ms.assetid: 5d412c77-3d35-4913-86e5-8efa0549a2bb
 title: ID3DXConstantTable interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

@@ -6,8 +6,6 @@ keywords:
 - folder view object
 - IShellView
 - IShellBrowser,folder view objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

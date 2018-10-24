@@ -2,8 +2,6 @@
 Description: Suggested alternatives to using CAPICOM.
 ms.assetid: 8f74ff84-6165-46a3-976b-36c7f70546be
 title: Alternatives to Using CAPICOM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

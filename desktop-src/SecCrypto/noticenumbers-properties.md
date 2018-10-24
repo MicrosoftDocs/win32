@@ -2,8 +2,6 @@
 Description: The NoticeNumbers object exposes the following properties.
 ms.assetid: 92FC1BCE-81E1-4828-8C6B-66527276196A
 title: NoticeNumbers Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

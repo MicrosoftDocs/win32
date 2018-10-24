@@ -2,8 +2,6 @@
 Description: 'This topic discusses three interrelated topics: protected environment, media interoperability gateway, and revocation and renewal.'
 ms.assetid: e88806ae-0041-4b4a-a8df-69718a651e82
 title: Protected Media Path
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

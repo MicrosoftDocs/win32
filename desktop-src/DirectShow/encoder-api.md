@@ -2,8 +2,6 @@
 Description: Encoder API
 ms.assetid: 3d19152f-17a3-4576-a2a2-5b827d9ca8d1
 title: Encoder API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

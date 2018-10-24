@@ -2,8 +2,6 @@
 Description: Gets a pointer to the buffer that contains the constant table.
 ms.assetid: 71dda064-15f8-415c-aba7-60255886c6b4
 title: ID3DXConstantTable::GetBufferPointer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

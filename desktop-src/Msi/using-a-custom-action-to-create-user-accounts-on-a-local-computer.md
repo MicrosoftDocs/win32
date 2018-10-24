@@ -2,8 +2,6 @@
 Description: This sample demonstrates how to use custom actions to create user accounts on a local computer when installing a component.
 ms.assetid: fc06dd7b-46d7-45a0-85b3-26f808c64f89
 title: Using a Custom Action to Create User Accounts on a Local Computer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 72b1241b-163b-474f-be8d-3fd8923aaa27
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Provider Framework C++ Classes
 ms.author: windowssdkdev

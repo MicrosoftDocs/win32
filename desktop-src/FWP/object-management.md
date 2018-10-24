@@ -2,8 +2,6 @@
 title: Object Management
 description: This section covers the correct use of Windows Filtering Platform (WFP) API object types.
 ms.assetid: '2625ef9a-0e62-4e21-ba93-047965d0d782'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

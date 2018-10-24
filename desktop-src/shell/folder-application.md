@@ -2,8 +2,6 @@
 Description: Contains the folder's Application object.
 ms.assetid: 1dba83eb-1af6-42d9-b2c9-ab7767888efe
 title: Folder.Application property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

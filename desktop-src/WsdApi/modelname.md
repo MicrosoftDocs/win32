@@ -2,8 +2,6 @@
 Description: Specifies the name of the device.
 ms.assetid: 398737bb-6694-42f8-9e9f-5c7f203e54e0
 title: modelName element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

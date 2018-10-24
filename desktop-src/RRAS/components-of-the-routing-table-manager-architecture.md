@@ -5,8 +5,6 @@ ms.assetid: afe496b6-7add-4d6d-bafb-7701c5bdeb83
 keywords:
 - RTM components
 - Routing Table Manager components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

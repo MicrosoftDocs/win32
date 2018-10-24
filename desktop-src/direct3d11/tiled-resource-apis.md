@@ -2,8 +2,6 @@
 title: Tiled Resource APIs
 description: The APIs described in this section work with tiled resources and tile pool.
 ms.assetid: 02DCF9BA-F9EA-4176-AD6F-AA620CE968BA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Use the Active Voice
 description: Use the Active Voice
 ms.assetid: 7a89ea83-1cf0-4bfb-8f69-63081f8adf48
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

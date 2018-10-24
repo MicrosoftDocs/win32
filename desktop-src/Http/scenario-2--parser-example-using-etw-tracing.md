@@ -2,8 +2,6 @@
 title: Scenario 2 Parser Example Using ETW Tracing
 description: To generate an ETW trace report for the HTTP Server API component, run the steps as shown in the \ 0034;Generating an ETW Trace Report \ 0034; section of Scenario 1 HTTP Timeout Example Using ETW Tracing and Netsh Commands, but reproduce the error specific to this scenario.
 ms.assetid: 2ccd2927-8a64-40a8-a29b-4b680a942f7f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

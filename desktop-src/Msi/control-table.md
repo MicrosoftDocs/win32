@@ -2,8 +2,6 @@
 Description: The Control table defines the controls that appear on each dialog box.
 ms.assetid: 'cbe7acd6-b916-45f3-b694-d2345c5a892a'
 title: Control Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

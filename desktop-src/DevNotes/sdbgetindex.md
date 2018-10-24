@@ -2,8 +2,6 @@
 Description: Retrieves the index for the specified tag and key type from the specified database.
 ms.assetid: 5fa44252-ba26-43ed-9de0-5917e4ec797c
 title: SdbGetIndex function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

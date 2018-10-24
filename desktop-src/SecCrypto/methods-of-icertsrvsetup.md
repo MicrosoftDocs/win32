@@ -2,8 +2,6 @@
 Description: The following methods are defined by the ICertSrvSetup interface. The property access methods are not shown here. To see the properties for ICertSrvSetup, see Properties of ICertSrvSetup.
 ms.assetid: cb7f288b-30a0-4c3b-b7bc-3055166d2302
 title: Methods of ICertSrvSetup
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

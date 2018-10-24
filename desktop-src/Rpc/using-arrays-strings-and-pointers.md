@@ -2,8 +2,6 @@
 title: Using Arrays, Strings, and Pointers
 description: The Doctor program (see \\samples\\rpc\\doctor in the Platform Software Development Kit (SDK)) is a good example of an application that demonstrates the design trade-offs involved with array and string attributes.
 ms.assetid: 9aea94a1-ae1f-4bd6-9dd3-146edf0b5fec
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: ftod (sm5 - asm)
 description: Component-wise conversion from single-precision floating-point data to double-precision floating-point data.
 ms.assetid: 95297556-41ED-4ED0-8F9A-16B7A440AF25
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

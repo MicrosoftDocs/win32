@@ -1,8 +1,6 @@
 ---
 ms.assetid: c233e25b-bec6-4e67-8fbf-2bf9b70c7522
 title: How the Windows Imaging Component Works
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

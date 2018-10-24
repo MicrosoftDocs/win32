@@ -2,8 +2,6 @@
 Description: This topic lists structures that are used with processes, threads, processors, job objects, and user-mode scheduling (UMS).
 ms.assetid: dbb50193-4c67-494e-9c46-2ac3106fac9a
 title: Process and Thread Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

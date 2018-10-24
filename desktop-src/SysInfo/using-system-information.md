@@ -2,8 +2,6 @@
 Description: Navigation page for using system information.
 ms.assetid: a20977f8-6c02-40c8-8335-d3400b1bcdb8
 title: Using System Information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

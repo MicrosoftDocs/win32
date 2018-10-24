@@ -2,8 +2,6 @@
 Description: The PreparePerformanceData method sets the m\_trLate and m\_trFrame values of the current frame.
 ms.assetid: c4c5701b-eccd-4259-a1d1-7c5000f6b2df
 title: CBaseVideoRenderer.PreparePerformanceData method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

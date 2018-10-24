@@ -2,8 +2,6 @@
 title: Reference for DDS
 description: The DDS reference documentation contains the API elements that define the layout of a DDS file.
 ms.assetid: 71914e64-7de9-4c97-8341-68e4d2c68927
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

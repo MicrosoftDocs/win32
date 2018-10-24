@@ -4,8 +4,6 @@ description: With the increased use of distributed applications, the need for se
 ms.assetid: '0eceefed-644c-4e4b-a873-8005137c00ef'
 keywords:
 - Remote Procedure Call RPC , described, security
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

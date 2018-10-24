@@ -2,8 +2,6 @@
 Description: Loads a volume from a file.
 ms.assetid: ea0fc588-094e-4488-bd82-54507ee0fc91
 title: D3DXLoadVolumeFromFile function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

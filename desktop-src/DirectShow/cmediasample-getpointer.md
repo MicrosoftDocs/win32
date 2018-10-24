@@ -2,8 +2,6 @@
 Description: The GetPointer method retrieves a read/write pointer to the buffer. This method implements the IMediaSample::GetPointer method.
 ms.assetid: dd797ad5-6066-4366-a56f-621132f2e6ea
 title: CMediaSample.GetPointer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

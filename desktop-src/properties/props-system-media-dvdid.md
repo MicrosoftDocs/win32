@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 2de30c3a-f982-4a65-bb25-a76b99d9ee13
 title: System.Media.DVDID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

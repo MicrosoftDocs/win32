@@ -2,8 +2,6 @@
 Description: The LINEOFFERINGMODE\_ bit-flag constants (TAPI versions 1.4 and later) describe different substates of an offering call.
 ms.assetid: a6c6d30f-fdc4-4ba5-b1a2-3c709445aedc
 title: LINEOFFERINGMODE_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

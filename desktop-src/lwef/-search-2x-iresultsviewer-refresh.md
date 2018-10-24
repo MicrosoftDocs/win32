@@ -6,8 +6,6 @@ keywords:
 - Refresh method Legacy Windows Environment Features
 - Refresh method Legacy Windows Environment Features , IResultsViewer interface
 - IResultsViewer interface Legacy Windows Environment Features , Refresh method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Cyclic redundancy checking (CRC) is available with Windows Installer version 2.0 and later. The installer does a CRC on files only if the MSICHECKCRCS property is set. For more information, see CRC Checking During an Installation.
 ms.assetid: 83ae3ff1-a62f-4dfb-bbcc-71df4a9779f2
 title: MSICHECKCRCS property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

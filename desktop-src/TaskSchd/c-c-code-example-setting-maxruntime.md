@@ -4,8 +4,6 @@ description: This example sets the maximum run time (set in milliseconds) of a k
 ms.assetid: ccfa3c01-870b-4b44-a493-9934ca1e51e4
 keywords:
 - setting task properties Task Scheduler , maximum run time
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

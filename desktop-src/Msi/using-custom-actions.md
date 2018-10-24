@@ -2,8 +2,6 @@
 Description: The following sections describe using custom actions.
 ms.assetid: dd2a0681-f50d-4232-bdcc-8aee6bb121a1
 title: Using Custom Actions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

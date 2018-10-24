@@ -2,8 +2,6 @@
 Description: Deprecated. Represents an instant in time, typically expressed as a date and time of day and a corresponding calendar.
 ms.assetid: a714ff32-2b1f-4256-931e-324d64daf2ac
 title: CALDATETIME structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

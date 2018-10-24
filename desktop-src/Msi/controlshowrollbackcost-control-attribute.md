@@ -2,8 +2,6 @@
 Description: This attribute specifies whether or not the rollback backup files are included in the costs displayed by the VolumeCostList control.
 ms.assetid: a3ed4d8a-170b-4708-afc2-03d2a5b665a3
 title: ControlShowRollbackCost Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Retrieving and Setting Locale Information
 ms.assetid: 7675f826-76be-4361-a82c-9573040a7e72
 title: Retrieving and Setting Locale Information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

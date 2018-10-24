@@ -2,8 +2,6 @@
 Description: This IXpsOMPrintTicketResource interface of the XPS Document API provides access to an existing print ticket and also the ability to create a print ticket in an XPS OM.
 ms.assetid: 53c95da0-1601-4945-83a1-e3266d251aee
 title: XPS OM Print Ticket Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

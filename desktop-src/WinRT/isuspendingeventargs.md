@@ -2,8 +2,6 @@
 Description: Provides data for an app suspending event.
 ms.assetid: 2590AFAA-679C-49F1-804F-D429BB971727
 title: ISuspendingEventArgs interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

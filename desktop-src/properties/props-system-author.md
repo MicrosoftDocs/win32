@@ -2,8 +2,6 @@
 Description: Represents the author or authors of the document.
 ms.assetid: 07a411c2-9e88-4d14-b9f7-e3a5d8d1630e
 title: System.Author
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

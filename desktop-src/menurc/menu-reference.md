@@ -2,8 +2,6 @@
 title: Menu Reference
 description: .
 ms.assetid: 4b613ab7-ea82-43d0-9f63-6c8e78055400
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

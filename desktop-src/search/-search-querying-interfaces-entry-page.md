@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 904e5325-4bcb-42cf-8e7f-eb9641c94633
 title: Querying Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Texture stage states define multi-blender texture operations.
 ms.assetid: 87a5a1bb-e748-4c72-8320-ea82250dcc0e
 title: D3DTEXTURESTAGESTATETYPE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

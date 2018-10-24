@@ -2,8 +2,6 @@
 Description: The Windows as a Service (WaaS) Update Assessment Platform provides information on a devices Windows updates.
 ms.assetid: 'e4547d6e-4cb2-417f-a4c4-a6bfcd03c858'
 title: WaaS Assessment Platform
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

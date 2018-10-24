@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a7e32ef2-fad1-449c-beee-07db4b93e3fe
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Statistical Counter Types
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: Updates the settings for a virtual hard disk.
 ms.assetid: 10f80313-bc78-447e-bdf2-5635d7354e3c
 title: SetVirtualHardDiskSettingData method of the Msvm_ImageManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

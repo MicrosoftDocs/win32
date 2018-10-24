@@ -2,8 +2,6 @@
 Description: Retrieves information associated with a subtype.
 ms.assetid: 3daf5f37-9e7f-4ce1-bd35-d7e3c2ef5c28
 title: IPStore::GetSubtypeInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

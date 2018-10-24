@@ -2,8 +2,6 @@
 Description: Enables or disables the specified event trace provider.
 ms.assetid: 3aceffb6-614f-4cad-bbec-f181f0cbdbff
 title: EnableTraceEx2 function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

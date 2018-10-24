@@ -2,8 +2,6 @@
 Description: The following classes are declared and associated with class identifiers (CLSIDs) in wmcodecdsp.h.
 ms.assetid: f82d92dc-fbce-4274-a10f-72fa8dd776cc
 title: Class Identifiers for Table of Contents Parser
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

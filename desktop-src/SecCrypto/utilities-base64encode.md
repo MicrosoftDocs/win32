@@ -2,8 +2,6 @@
 Description: Encodes a string as base64.
 ms.assetid: 73a279e3-40b0-4db8-89d3-95627f0878dd
 title: Utilities.Base64Encode method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

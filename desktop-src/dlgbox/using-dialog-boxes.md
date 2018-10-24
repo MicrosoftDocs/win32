@@ -15,8 +15,6 @@ keywords:
 - dialog boxes,initializing
 - dialog box templates
 - dialog boxes,templates
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

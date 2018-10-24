@@ -2,8 +2,6 @@
 title: Windows 8.1 and Windows Server 2012 R2 client and server compatibility
 description: Windows 8.1 and Windows Server 2012 R2 client and server compatibility
 ms.assetid: 45C37E2D-3513-4708-A562-1426D2B832F0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Disc Formats
 description: IMAPI supports three file system formats ISO 9660, Joliet, and UDF.
 ms.assetid: 9cd782c0-203b-452c-9d04-3464d39453b1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

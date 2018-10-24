@@ -2,8 +2,6 @@
 title: Using Image Lists
 description: This section contains example code and information about how to create and use image lists.
 ms.assetid: C87C5047-CD46-430A-85FD-86122C97BD19
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

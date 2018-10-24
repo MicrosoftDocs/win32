@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c92bf8f9-9cac-4cf0-a45d-f60aee5a9ec2
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Updating Part of an Instance
 ms.author: windowssdkdev

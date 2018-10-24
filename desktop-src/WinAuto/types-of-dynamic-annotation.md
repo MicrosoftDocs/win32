@@ -2,8 +2,6 @@
 title: Types of Dynamic Annotation
 description: There are three types of Dynamic Annotation supported in Microsoft Active Accessibility direct annotation, value-mapped annotation, and server annotation. Each type offers specific advantages, so it is important to understand the differences.
 ms.assetid: 113fea65-982e-4291-9d60-bbb57282f3f4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

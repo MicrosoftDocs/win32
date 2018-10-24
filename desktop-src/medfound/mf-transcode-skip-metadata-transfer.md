@@ -2,8 +2,6 @@
 Description: Specifies whether metadata is written to the transcoded file.
 ms.assetid: 0fbfc035-c9d1-4014-a28a-93d7e6adc718
 title: MF_TRANSCODE_SKIP_METADATA_TRANSFER attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

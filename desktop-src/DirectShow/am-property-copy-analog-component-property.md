@@ -2,8 +2,6 @@
 Description: Queries whether the video output is standard-definition, analog component video.
 ms.assetid: bd4fc5bc-c45d-4228-9759-6300fdfff6a0
 title: AM_PROPERTY_COPY_ANALOG_COMPONENT Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

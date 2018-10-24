@@ -2,8 +2,6 @@
 Description: The user-provided identifier for the instance on the bottom-level acceleration structure instance within the top-level structure.
 ms.assetid: 
 title: InstanceId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018

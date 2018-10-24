@@ -2,8 +2,6 @@
 Description: After a security context is established, the application can use the message support functions to transmit tamper-resistant messages.
 ms.assetid: 43d7b940-1816-429f-be6e-40978efed278
 title: Ensuring Communication Integrity During Message Exchange
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

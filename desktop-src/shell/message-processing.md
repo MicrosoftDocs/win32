@@ -2,8 +2,6 @@
 Description: The CPlApplet callback function processes all messages sent to a Control Panel item by Windows. Messages sent to the function are in a specific order. By the same token, the .cpl item requires the messages to be processed in a specific way.
 ms.assetid: 70302698-f9d5-4de4-a662-4815002eea52
 title: Control Panel Message Processing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: What's New in IP Helper
 ms.assetid: fa9d72d0-2f9c-433d-b05a-8423664b2e3e
 title: What's New in IP Helper
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

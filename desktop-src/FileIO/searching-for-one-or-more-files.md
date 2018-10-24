@@ -2,8 +2,6 @@
 Description: An application can search the current directory for all file names that match a given pattern by using the FindFirstFile, FindFirstFileEx, FindNextFile, and FindClose functions.
 ms.assetid: 7edd6c6e-7e8a-415c-866b-2283e5596a62
 title: Searching for One or More Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

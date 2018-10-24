@@ -2,8 +2,6 @@
 Description: The XMINT4 structure exposes the following operators.
 ms.assetid: efb42dbb-30ea-426a-a281-b5b732085805
 title: XMINT4 Operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

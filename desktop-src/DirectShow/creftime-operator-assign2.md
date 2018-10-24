@@ -2,8 +2,6 @@
 Description: The = operator assigns a new reference time.
 ms.assetid: 556c2e8a-4726-42ab-949d-9a028ebb1b95
 title: CRefTime.operator= method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

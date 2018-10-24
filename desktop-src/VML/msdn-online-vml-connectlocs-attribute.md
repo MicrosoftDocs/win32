@@ -2,8 +2,6 @@
 title: VML ConnectLocs Attribute
 description: VML ConnectLocs Attribute
 ms.assetid: d9295fa9-ac5e-4063-9709-f7ba6076a769
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

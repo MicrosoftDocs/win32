@@ -2,8 +2,6 @@
 title: Install-on-Demand for Games
 description: This technical article discusses two techniques, install-on-demand and background install, using Windows Installer.
 ms.assetid: abaaa7bf-8ed8-0425-6845-3671a56fe7fc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The FOURCCMap class provides conversion between GUID media subtypes and old-style FOURCC 32-bit media tags.
 ms.assetid: f77f1da9-34f6-44a0-9f1a-7db2e5a26268
 title: FOURCCMap class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

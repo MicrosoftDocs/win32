@@ -2,8 +2,6 @@
 title: IAgentCommand GetConfidenceText
 description: IAgentCommand GetConfidenceText
 ms.assetid: d98339eb-0986-497c-b43c-4e4a952328e5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

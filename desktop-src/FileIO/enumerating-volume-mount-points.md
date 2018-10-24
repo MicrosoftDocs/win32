@@ -2,8 +2,6 @@
 Description: Functions to use to enumerate mounted folders on a volume.
 ms.assetid: 052a363f-adfd-4f66-a8b0-5d9d37eedcb0
 title: Enumerating Mounted Folders
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

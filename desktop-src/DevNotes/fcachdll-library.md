@@ -2,8 +2,6 @@
 Description: FCachDLL Library
 ms.assetid: 367E9BFC-0B3D-4AAF-A298-D2E8819A0395
 title: FCachDLL Library
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

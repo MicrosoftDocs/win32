@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: ccedce99-f7b4-473e-805c-62ad13b2fe0d
 title: System.Contact.HomeAddress1PostalCode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: 'Example C Program: Certificate Store Operations'
 ms.assetid: cf87791c-b98c-4dd7-b346-336c4b1a88ca
 title: 'Example C Program: Certificate Store Operations'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

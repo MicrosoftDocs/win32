@@ -2,8 +2,6 @@
 title: How to design a great user experience for desktop applications
 description: A great desktop application is powerful and, at the same time, simple. Through carefully balanced feature selection and presentation, you can achieve both power and simplicity.
 ms.assetid: 0039a3ee-95bc-457f-a1a8-6a036ce22fd2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

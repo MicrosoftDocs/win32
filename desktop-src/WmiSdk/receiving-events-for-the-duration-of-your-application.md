@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 380ac556-ba0a-4fae-8b76-0645d99e8583
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Events for the Duration of Your Application
 ms.author: windowssdkdev

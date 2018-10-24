@@ -2,8 +2,6 @@
 Description: Instructs an IME window to set the position of the status window. To send this command, the application uses the WM\_IME\_CONTROL message with parameter settings as shown below.
 ms.assetid: d77de7ab-1fbc-42f4-829e-e9fb51668d21
 title: IMC_SETSTATUSWINDOWPOS command
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

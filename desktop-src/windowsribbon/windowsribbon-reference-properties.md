@@ -2,8 +2,6 @@
 title: Property Keys
 description: Reference documentation for the Windows Ribbon framework property keys, a collection of PROPERTYKEY and PROPVARIANT key-value pairs used to describe the state of a Ribbon framework Command.
 ms.assetid: 12bc7fda-ff69-4316-8baf-cc97e19a231c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

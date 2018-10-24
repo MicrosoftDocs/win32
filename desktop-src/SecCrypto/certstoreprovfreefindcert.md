@@ -2,8 +2,6 @@
 Description: Called when the certificate returned by the CertStoreProvFindCert callback was not used, and thus released, in a subsequent call to CertStoreProvFindCert.
 ms.assetid: be882b56-027c-4540-9426-27d3c2b262e9
 title: CertStoreProvFreeFindCert callback function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

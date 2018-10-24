@@ -2,8 +2,6 @@
 Description: Contains input data for a D3DAUTHENTICATEDQUERY\_CRYPTOSESSION query.
 ms.assetid: 3a4dead8-fe23-41b4-a167-e0430d09248a
 title: D3DAUTHENTICATEDCHANNEL_QUERYCRYPTOSESSION_INPUT structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

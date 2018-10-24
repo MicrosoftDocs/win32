@@ -2,8 +2,6 @@
 Description: Signs the specified file.
 ms.assetid: 5a59e663-057b-4380-aa14-536030e4051d
 title: SignerSign function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

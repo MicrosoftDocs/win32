@@ -2,8 +2,6 @@
 Description: Contains configuration properties for the Source Reader.
 ms.assetid: f7e5ef6a-5fc3-4f39-acc0-61ce79030211
 title: MF_SOURCE_READER_MEDIASOURCE_CONFIG attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

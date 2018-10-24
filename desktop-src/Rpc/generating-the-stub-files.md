@@ -4,8 +4,6 @@ description: After defining the client/server interface, you usually develop you
 ms.assetid: e4d08bee-ab9a-4426-a1af-72a7d763797f
 keywords:
 - Remote Procedure Call RPC , tasks, generating stub files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

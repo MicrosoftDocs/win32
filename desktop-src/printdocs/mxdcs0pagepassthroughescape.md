@@ -2,8 +2,6 @@
 Description: The MXDC\_S0PAGE\_PASSTHROUGH\_ESCAPE\_T structure is an MXDC\_ESCAPE\_HEADER\_T structure concatenated with an MXDC\_S0PAGE\_DATA\_T structure.
 ms.assetid: 949c1ed4-92d5-4c11-a7da-f9d94bafe3f8
 title: MXDC_S0PAGE_PASSTHROUGH_ESCAPE_T structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

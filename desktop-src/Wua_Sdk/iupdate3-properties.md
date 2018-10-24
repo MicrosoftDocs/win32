@@ -2,8 +2,6 @@
 Description: The IUpdate3 interface defines the following property.
 ms.assetid: 747d4c93-be29-48c4-a9b0-daef9c19d1fd
 title: IUpdate3 Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

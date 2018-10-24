@@ -2,8 +2,6 @@
 Description: Embedding a Table of Contents in a Video File
 ms.assetid: 1546388a-7868-4411-be20-34d28becbe76
 title: Embedding a Table of Contents in a Video File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

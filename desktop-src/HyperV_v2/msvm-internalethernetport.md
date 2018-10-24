@@ -2,8 +2,6 @@
 Description: Represents an internal Ethernet port (network adapter).
 ms.assetid: 43277FA7-E040-49F2-A086-AF19B29D4F75
 title: Msvm_InternalEthernetPort class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

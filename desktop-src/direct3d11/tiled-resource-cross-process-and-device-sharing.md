@@ -2,8 +2,6 @@
 title: Tiled resource cross process and device sharing
 description: Tile pools can be shared with other processes just like traditional resources.
 ms.assetid: CADE009E-A71E-4ACA-A549-EFCE81F8EAD1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

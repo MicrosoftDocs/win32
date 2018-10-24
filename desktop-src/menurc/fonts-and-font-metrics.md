@@ -2,8 +2,6 @@
 title: Fonts and text metrics
 description: This topic discusses the outline fonts provided by Windows, font metric values that may change between versions of Windows, and guidance for how to use font metrics in your desktop apps.
 ms.assetid: B195154D-0168-4C5E-9CFB-AE7EF63D5F42
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

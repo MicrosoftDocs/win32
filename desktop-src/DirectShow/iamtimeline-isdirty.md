@@ -2,8 +2,6 @@
 Description: Not supported.
 ms.assetid: ed6fd633-23b8-4b80-901c-d7b50fa4c15e
 title: IAMTimeline::IsDirty method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

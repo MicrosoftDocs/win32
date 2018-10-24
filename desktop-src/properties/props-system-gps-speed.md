@@ -2,8 +2,6 @@
 Description: Indicates the speed of the GPS receiver movement.
 ms.assetid: 87598de7-51ab-47a1-970f-bb55e2f70df6
 title: System.GPS.Speed
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

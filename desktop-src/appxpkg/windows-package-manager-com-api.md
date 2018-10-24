@@ -2,8 +2,6 @@
 title: Windows Package Manager COM API
 description: Applies to Windows 10, and implemented in the mobile device family. For more information about Windows Package Manager, please work with your Microsoft Account Team representative.
 ms.assetid: 4863EC42-413D-46E3-AE61-E29006708E39
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

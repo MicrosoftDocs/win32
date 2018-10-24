@@ -2,8 +2,6 @@
 Description: Flexible Vertex Format Constants, or FVF codes, are used to describe the contents of vertices interleaved in a single data stream that will be processed by the fixed-function pipeline.
 ms.assetid: 85d9f5b2-8e4a-4f92-a587-eae5b293778c
 title: D3DFVF
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

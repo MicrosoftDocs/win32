@@ -2,8 +2,6 @@
 Description: Returns the value passed as the HitKind parameter to ReportHit.
 ms.assetid: 
 title: HitKind
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018

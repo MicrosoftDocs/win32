@@ -2,8 +2,6 @@
 Description: An application can retrieve font metrics for a physical font only after the font has been selected into a device context.
 ms.assetid: 3eaabc8b-e244-4b65-918b-a20043afa535
 title: Device vs. Design Units
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

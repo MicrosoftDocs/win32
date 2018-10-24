@@ -2,8 +2,6 @@
 title: How to Use Buddy Windows
 description: By setting other controls as buddy windows for a trackbar, you can automatically position those controls at the ends of the trackbar as labels.
 ms.assetid: 5797AA55-BD8D-407A-8896-08EE0DDC7E30
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

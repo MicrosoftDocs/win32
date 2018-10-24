@@ -2,8 +2,6 @@
 title: Split Button Gallery
 description: The Split Button Gallery is a composite control that contains a primary button which exposes a single default item or Command, and a secondary button which when clicked displays the rest of the item or Command collection in a mutually exclusive drop-down list.
 ms.assetid: c0fcfe72-d2e9-465d-941a-b3832b36b8c2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

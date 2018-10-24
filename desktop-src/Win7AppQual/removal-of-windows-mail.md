@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 356f0d79-12dd-49f0-b756-a46f20177efa
 title: Removal of Windows Mail
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

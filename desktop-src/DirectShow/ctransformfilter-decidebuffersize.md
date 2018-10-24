@@ -2,8 +2,6 @@
 Description: The DecideBufferSize method sets the output pin's buffer requirements.
 ms.assetid: 33e41668-b4f6-4142-b22e-2ddfb96332df
 title: CTransformFilter.DecideBufferSize method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

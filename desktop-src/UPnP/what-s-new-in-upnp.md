@@ -2,8 +2,6 @@
 title: What's New in the UPnP APIs
 description: The UPnP™ APIs have new features and updated documentation for Windows XP SP2. The following table identifies the new documentation.
 ms.assetid: ad72d9b8-6db4-4b9b-9b10-ae3980521d7e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

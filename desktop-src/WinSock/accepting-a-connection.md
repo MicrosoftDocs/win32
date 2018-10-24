@@ -2,8 +2,6 @@
 Description: Once the socket is listening for a connection, the program must handle connection requests on that socket.
 ms.assetid: d01f3d90-4d83-442e-aada-e7b082ef7699
 title: Accepting a Connection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

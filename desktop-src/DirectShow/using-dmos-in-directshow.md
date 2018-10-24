@@ -2,8 +2,6 @@
 Description: Using DMOs in DirectShow
 ms.assetid: 47d75b9c-8b0d-4235-8ac1-02ae1502c0e7
 title: Using DMOs in DirectShow
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

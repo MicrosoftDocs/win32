@@ -2,8 +2,6 @@
 Description: The DuplicateHandle function creates a duplicate handle that can be used by another specified process.
 ms.assetid: b79d2b8f-931e-4cab-9bbe-9ead1b102132
 title: Object Duplication
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

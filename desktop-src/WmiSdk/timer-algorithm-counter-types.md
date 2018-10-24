@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4ec49efc-2b0f-4205-8b58-fb121da32b4e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Timer Algorithm Counter Types
 ms.author: windowssdkdev

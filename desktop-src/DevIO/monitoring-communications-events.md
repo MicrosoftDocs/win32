@@ -2,8 +2,6 @@
 Description: The following example code opens the serial port for overlapped I/O, creates an event mask to monitor CTS and DSR signals, and then waits for an event to occur.
 ms.assetid: 23ebcb04-1571-4e93-a549-46ad6b9d4272
 title: Monitoring Communications Events
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

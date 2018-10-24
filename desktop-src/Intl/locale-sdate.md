@@ -2,8 +2,6 @@
 Description: LOCALE\_SDATE
 ms.assetid: 18b62bee-b167-4499-aae4-21e215cb6377
 title: LOCALE_SDATE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

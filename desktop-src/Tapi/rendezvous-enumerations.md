@@ -2,8 +2,6 @@
 Description: Rendezvous methods use the following enums to set and report on events and states.
 ms.assetid: 3daada54-5007-4042-b5ba-94c7083f051f
 title: Rendezvous Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

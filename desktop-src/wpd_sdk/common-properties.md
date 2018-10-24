@@ -2,8 +2,6 @@
 Description: Windows Portable Devices (WPD) supports the following properties of command parameters.
 ms.assetid: 03eff101-5c36-48ea-9dcd-2c4ee29a2ac6
 title: Command Parameters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

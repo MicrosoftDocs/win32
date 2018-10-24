@@ -2,8 +2,6 @@
 Description: Capturing Video to a Windows Media File
 ms.assetid: cc23bfce-34b9-4976-8602-e0602c7da2af
 title: Capturing Video to a Windows Media File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

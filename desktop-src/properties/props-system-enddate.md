@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: bc2e0d1a-e6b5-4529-9787-6493dbcbf964
 title: System.EndDate
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

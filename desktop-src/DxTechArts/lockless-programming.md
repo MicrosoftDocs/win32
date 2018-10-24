@@ -2,8 +2,6 @@
 title: Lockless Programming Considerations for Xbox 360 and Microsoft Windows
 description: This article gives an overview of some of the issues to consider when trying to use lockless programming techniques.
 ms.assetid: 44700352-a791-7ef7-0858-146214b0e3da
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

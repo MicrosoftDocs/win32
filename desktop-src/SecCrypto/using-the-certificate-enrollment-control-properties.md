@@ -2,8 +2,6 @@
 Description: Each Certificate Enrollment Control property is read/write and has an initialized default as well as a set of acceptable values.
 ms.assetid: e31dd6df-bc2a-401f-9343-a7dbb0f374bb
 title: Using the Certificate Enrollment Control Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

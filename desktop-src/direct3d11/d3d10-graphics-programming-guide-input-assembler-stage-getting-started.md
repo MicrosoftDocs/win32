@@ -2,8 +2,6 @@
 title: Getting Started with the Input-Assembler Stage
 description: There are a few steps necessary to initialize the input-assembler (IA) stage.
 ms.assetid: 84c0ca29-2356-4b7f-98ee-ff1758edc540
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

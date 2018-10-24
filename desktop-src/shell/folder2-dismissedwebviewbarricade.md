@@ -2,8 +2,6 @@
 Description: Called in response to the web view barricade being dismissed by the user.
 ms.assetid: 170893b6-c947-45b1-b717-a93a0b083bda
 title: Folder2.DismissedWebViewBarricade method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

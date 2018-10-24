@@ -2,8 +2,6 @@
 Description: An opaque, portable type to support the use of C/C++ initializer syntax to load uint8\_t values into an instance of XMVECTOR type.
 ms.assetid: ab73ac2c-f178-1bb9-910d-9eef5fc6f5df
 title: XMVECTORU8 Data Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

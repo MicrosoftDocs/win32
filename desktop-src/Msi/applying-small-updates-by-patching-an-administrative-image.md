@@ -2,8 +2,6 @@
 Description: An administrative installation creates a source image of an application or product on a network.
 ms.assetid: 40755461-317f-4764-aaa2-6b8471d52f55
 title: Applying Small Updates by Patching an Administrative Image
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

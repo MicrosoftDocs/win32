@@ -2,8 +2,6 @@
 Description: The Hyper-V migration API is used to control storage and live migration in Hyper-V.
 ms.assetid: 3CCD6406-C524-4CE2-89C2-CA97378F04BE
 title: Hyper-V migration API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

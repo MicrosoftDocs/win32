@@ -2,8 +2,6 @@
 title: Active Accessibility Text Services
 description: The following Active Accessibility Text Services interfaces are available in msaatext.dll. For more information about these interfaces, see Active Accessibility Text Services.
 ms.assetid: 2e007f26-9d4a-440f-a564-f785c914f236
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

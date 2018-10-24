@@ -4,8 +4,6 @@ description: Used to declare a window event hook function.
 ms.assetid: fa193e8e-46a8-46d4-83e1-e6274276b218
 keywords:
 - HWINEVENTHOOK
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

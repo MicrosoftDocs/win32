@@ -2,8 +2,6 @@
 Description: Notifies applications that the system, typically a battery-powered personal computer, is about to enter a suspended mode.
 ms.assetid: ceaa5ca4-799e-4801-96cd-aeea3dfd7d52
 title: WM_POWER message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

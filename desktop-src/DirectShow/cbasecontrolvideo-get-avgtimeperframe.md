@@ -2,8 +2,6 @@
 Description: The get\_AvgTimePerFrame method retrieves the average time per frame.
 ms.assetid: bcfdb241-9ec1-49f4-b2b5-0869c27da953
 title: CBaseControlVideo.get_AvgTimePerFrame method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

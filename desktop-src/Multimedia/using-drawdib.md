@@ -6,8 +6,6 @@ keywords:
 - Video for Windows (VFW),DrawDib
 - VFW (Video for Windows),DrawDib
 - DrawDib,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

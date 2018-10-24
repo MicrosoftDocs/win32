@@ -2,8 +2,6 @@
 Description: Retrieves DDE share information. This is usually done for editing.
 ms.assetid: a2e48a4d-2b72-40a3-b827-474da1db0910
 title: NDdeShareGetInfo function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

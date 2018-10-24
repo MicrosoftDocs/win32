@@ -2,8 +2,6 @@
 Description: Enables or disables dynamic range control in an AAC decoder.
 ms.assetid: b7cf092a-6bb8-454c-a78c-fb2334ac4820
 title: AVDecHEAACDynamicRangeControl property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

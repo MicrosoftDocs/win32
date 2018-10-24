@@ -2,8 +2,6 @@
 Description: LOCALE\_IFIRSTDAYOFWEEK
 ms.assetid: d6498afd-e9fa-46c0-be74-fcf6f074b895
 title: LOCALE_IFIRSTDAYOFWEEK
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

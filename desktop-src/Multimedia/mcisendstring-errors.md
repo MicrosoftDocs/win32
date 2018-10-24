@@ -16,8 +16,6 @@ keywords:
 - MCI reference,errors
 - mciSendString errors
 - mciSendString function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

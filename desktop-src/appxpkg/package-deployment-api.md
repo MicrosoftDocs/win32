@@ -2,8 +2,6 @@
 title: Package deployment API
 description: Learn about the package deployment API, which you can use to install, update, and uninstall app packages on the system. Each app package contains the files that constitute a Windows Store app, and a manifest file that describes the software to Windows.
 ms.assetid: E2D408E1-6048-4D15-8BF4-69FF6ACF7BD2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

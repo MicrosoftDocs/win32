@@ -2,8 +2,6 @@
 Description: Defines position, texture, and color information about a sprite.
 ms.assetid: 4b8d1ed1-75d5-418c-b809-410c6a44d425
 title: D3DX10_SPRITE structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

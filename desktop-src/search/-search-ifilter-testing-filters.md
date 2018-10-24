@@ -2,8 +2,6 @@
 Description: The IFilter test suite validates your filter handlers.
 ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: Testing Filter Handlers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

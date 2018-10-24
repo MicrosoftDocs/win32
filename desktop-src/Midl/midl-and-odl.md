@@ -6,8 +6,6 @@ keywords:
 - MIDL compiler MIDL , MIDL and ODL MIDL
 - compilers MIDL , MIDL and ODL
 - ODL MIDL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

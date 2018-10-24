@@ -2,8 +2,6 @@
 Description: This section contains information about programming with Microsoft Direct3D 9.
 ms.assetid: 90a6b8ed-e1ed-4066-9590-1055380ff8e3
 title: Direct3D 9 Graphics
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

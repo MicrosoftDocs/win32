@@ -2,8 +2,6 @@
 title: .NET Framework 4.5 is default and .NET Framework 3.5 is optional
 description: .NET Framework 4.5 is default and .NET Framework 3.5 is optional
 ms.assetid: 19B53C82-812A-49AC-87C6-C08E7C199208
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

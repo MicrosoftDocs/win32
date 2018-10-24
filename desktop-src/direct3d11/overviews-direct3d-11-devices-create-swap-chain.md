@@ -2,8 +2,6 @@
 title: How To Create a Swap Chain
 description: This topic show how to create a swap chain that encapsulates two or more buffers that are used for rendering and display.
 ms.assetid: 0e290b37-0807-42c7-9e50-fd2db6affb14
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

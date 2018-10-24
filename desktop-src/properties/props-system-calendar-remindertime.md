@@ -2,8 +2,6 @@
 Description: Stores the time the user chooses to be reminded of the event.
 ms.assetid: 62d6ee4c-959c-44a1-a340-b858d1c7a953
 title: System.Calendar.ReminderTime
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: <GUID-GOES-HERE>
 ms.author: TBD
 ms.date: 09/17/2018
 ms.topic: article
-ms.prod: TBD
-ms.technology: TBD
 ---
 
 # Virtualization Instance Lifecycle

@@ -2,8 +2,6 @@
 Description: The GetMediaLength method retrieves the media length of this source object.
 ms.assetid: 70298d8f-67e7-4774-a7ae-f0b48e4afda7
 title: IAMTimelineSrc::GetMediaLength method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

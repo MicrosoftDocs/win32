@@ -2,8 +2,6 @@
 Description: Winsock Annexes provide implementation information for common Winsock protocol suites, and discuss how to use each protocol with Winsock.
 ms.assetid: 3d9cba77-ef84-4835-b914-c43b3629166b
 title: Winsock Annexes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

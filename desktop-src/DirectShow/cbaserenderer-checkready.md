@@ -2,8 +2,6 @@
 Description: The CheckReady method queries whether a state transition is complete.
 ms.assetid: dfa669ed-a5ab-498e-9fc2-ff15d6ddbc13
 title: CBaseRenderer.CheckReady method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

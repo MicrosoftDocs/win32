@@ -2,8 +2,6 @@
 Description: The number of points defining the BoundingOrientedBox.
 ms.assetid: f5a23732-728b-415b-942b-2c7014ea3c2e
 title: BoundingOrientedBox.CORNER_COUNT
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

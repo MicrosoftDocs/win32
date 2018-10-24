@@ -2,8 +2,6 @@
 Description: Defines an 802.11 PHY and media type.
 ms.assetid: f3804e57-c633-4288-9749-2b267b1353ae
 title: DOT11_PHY_TYPE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

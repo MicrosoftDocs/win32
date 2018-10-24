@@ -2,8 +2,6 @@
 Description: For an explanation of the following tables, see Tables and Assignments.
 ms.assetid: be60ca37-9f3a-44cd-8646-28fcbda5e79e
 title: Ireland
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: If the Transparent Control bit is set on a text control, the control is displayed transparently with the background showing through the control where there are no characters. If this bit is not set the text control is opaque.
 ms.assetid: 1938f6c5-d5a4-41ca-b272-1166a7688be2
 title: Transparent Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

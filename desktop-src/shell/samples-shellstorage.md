@@ -1,8 +1,6 @@
 ---
 Description: Demonstrates how to create files and folders in Shell containers. Also shows how to save to the Shell item that is returned from the file dialog.
 title: Shell Storage Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Overview of text services framework for the Tablet PC.
 ms.assetid: f77fe77a-8625-47c5-bfc7-b473c8e8a8c6
 title: Text Services Framework
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Default Partitions
 ms.assetid: ce6ad7c1-d4a1-4573-860e-f7859c588773
 title: Default Partitions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

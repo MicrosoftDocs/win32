@@ -2,8 +2,6 @@
 Description: ASF Multiplexer
 ms.assetid: 007a6da5-47cf-476a-b0f7-566a68ad19ce
 title: ASF Multiplexer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

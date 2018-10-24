@@ -2,8 +2,6 @@
 Description: The GetClipVideoRect method retrieves the clipping rectangle currently defined for the video display.
 ms.assetid: ea24649f-206e-4557-bff3-9f289710d1b4
 title: GetClipVideoRect Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

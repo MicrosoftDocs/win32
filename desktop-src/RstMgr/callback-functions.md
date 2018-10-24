@@ -4,8 +4,6 @@ description: The Restart Manager API uses the callback functions in the followin
 ms.assetid: abb78aa5-0487-4e99-85b6-adc38b600c09
 keywords:
 - Restart Manager Restart Mgr , reference, callback functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

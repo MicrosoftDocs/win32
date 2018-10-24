@@ -2,8 +2,6 @@
 Description: The Comments Summary property conveys the general purpose of the installation package, transform, or patch package.
 ms.assetid: e9034bfb-1b32-4851-ac23-4c3223760a04
 title: Comments Summary property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d4a9feca-80a2-4ce5-b4d7-4e83ef951c08
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Performance Counter Types
 ms.author: windowssdkdev

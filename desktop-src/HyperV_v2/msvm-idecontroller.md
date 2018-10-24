@@ -2,8 +2,6 @@
 Description: Represents an IDE controller.
 ms.assetid: DFD4D90E-CA91-42B3-AC88-9E9D26089C36
 title: Msvm_IDEController class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

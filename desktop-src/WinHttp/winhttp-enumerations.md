@@ -2,8 +2,6 @@
 Description: This topic identifies the enumerations that WinHTTP uses.
 ms.assetid: 1527bea2-ec72-4532-9725-0310db68b876
 title: WinHTTP Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

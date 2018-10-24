@@ -2,8 +2,6 @@
 Description: Array of device status strings.
 ms.assetid: bdba41b5-63e6-4534-83ac-90a799365419
 title: System.Devices.Status
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

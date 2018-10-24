@@ -2,8 +2,6 @@
 Description: Specifies the stop time of the presentation.
 ms.assetid: c1022538-ea9f-41e9-9075-c106e8b16b7b
 title: MF_TOPONODE_MEDIASTOP attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

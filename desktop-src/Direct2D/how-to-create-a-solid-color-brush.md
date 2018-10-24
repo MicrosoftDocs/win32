@@ -2,8 +2,6 @@
 title: How to Create a Solid Color Brush
 description: Shows how to create a solid color brush using Direct2D.
 ms.assetid: 70700b82-2294-46be-b1c0-fc89def441e2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

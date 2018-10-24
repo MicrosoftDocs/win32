@@ -2,8 +2,6 @@
 Description: Always set the code page of a database prior to adding any localization information.
 ms.assetid: 0d8aee30-989a-4093-8718-1bb90029c0fb
 title: Setting the Code Page of a Database
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

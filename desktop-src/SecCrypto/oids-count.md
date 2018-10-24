@@ -2,8 +2,6 @@
 Description: Retrieves the number of OIDs in the collection.
 ms.assetid: 074ab4a2-b48e-4f43-8ea2-9d28477b2b33
 title: OIDs.Count property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

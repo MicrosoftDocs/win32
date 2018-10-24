@@ -4,8 +4,6 @@ description: Incorporate these attributes in the interface header to convey info
 ms.assetid: 5e30c902-1a55-4afd-afba-93fcc9e75033
 keywords:
 - IDL MIDL , attributes, interface header
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

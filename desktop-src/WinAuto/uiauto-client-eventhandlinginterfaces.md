@@ -2,8 +2,6 @@
 title: Event Handling Interfaces for Clients
 description: This section describes the event handling interfaces for unmanaged UI Automation client applications.
 ms.assetid: ce9c4044-f46b-42b7-af44-05aee728a0e8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

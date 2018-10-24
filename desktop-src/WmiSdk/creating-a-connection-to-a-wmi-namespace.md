@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f0b33ff0-47b0-4aea-ab0f-9220ae367f67
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Connection to a WMI Namespace
 ms.author: windowssdkdev

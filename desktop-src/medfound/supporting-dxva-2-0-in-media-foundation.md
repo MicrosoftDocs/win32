@@ -2,8 +2,6 @@
 Description: Supporting DXVA 2.0 in Media Foundation
 ms.assetid: d7330370-adb3-4c6a-962a-7b46c344500c
 title: Supporting DXVA 2.0 in Media Foundation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

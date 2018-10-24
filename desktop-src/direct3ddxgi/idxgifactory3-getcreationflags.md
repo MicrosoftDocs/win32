@@ -2,8 +2,6 @@
 Description: Gets the flags that were used when a Microsoft DirectX Graphics Infrastructure (DXGI) object was created.
 ms.assetid: 1B4A5DC9-6853-4047-B64D-BD251352AC89
 title: IDXGIFactory3::GetCreationFlags method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

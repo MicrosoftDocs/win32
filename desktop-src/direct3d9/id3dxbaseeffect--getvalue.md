@@ -2,8 +2,6 @@
 Description: Get the value of an arbitrary parameter or annotation, including simple types, structs, arrays, strings, shaders and textures. This method can be used in place of nearly all the Getxxx calls in ID3DXBaseEffect.
 ms.assetid: 41343922-99a7-486f-b4b0-1aa07f339664
 title: ID3DXBaseEffect::GetValue method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

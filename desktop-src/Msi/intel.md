@@ -2,8 +2,6 @@
 Description: The Intel property is set by the Windows Installer to the numeric processor level when running on an Intel processor.
 ms.assetid: c1190df2-0440-4dd1-bce5-61d899f71437
 title: Intel property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

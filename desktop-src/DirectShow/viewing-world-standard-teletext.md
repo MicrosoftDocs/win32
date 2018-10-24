@@ -2,8 +2,6 @@
 Description: Viewing World Standard Teletext
 ms.assetid: 99b3395b-8775-4fe8-b173-187fa359978f
 title: Viewing World Standard Teletext
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

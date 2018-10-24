@@ -2,8 +2,6 @@
 Description: The installer sets the SendToFolder property to the full path of the SendTo folder for the current user.
 ms.assetid: 403e868a-b844-4860-bb9f-744ca931a3a8
 title: SendToFolder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

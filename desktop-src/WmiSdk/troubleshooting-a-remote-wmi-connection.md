@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 328e420b-a859-4ce9-8a31-67150eb0a78f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Troubleshooting a Remote WMI Connection
 ms.author: windowssdkdev

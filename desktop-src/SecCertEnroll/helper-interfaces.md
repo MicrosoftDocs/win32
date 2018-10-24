@@ -2,8 +2,6 @@
 Description: The following general use interfaces are supported by the Certificate Enrollment API.
 ms.assetid: 6b9d9761-6131-4408-8177-5418abd5e406
 title: Helper Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

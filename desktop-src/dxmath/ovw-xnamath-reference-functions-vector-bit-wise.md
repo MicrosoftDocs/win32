@@ -2,8 +2,6 @@
 Description: Lists the bit-wise vector functions.
 ms.assetid: c28ade14-3cf8-3d8e-260b-58751caea8d0
 title: Bit-Wise Vector Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

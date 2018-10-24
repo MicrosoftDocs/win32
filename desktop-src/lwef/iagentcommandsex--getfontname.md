@@ -2,8 +2,6 @@
 title: IAgentCommandsEx GetFontName
 description: IAgentCommandsEx GetFontName
 ms.assetid: cd0d0d93-839e-471c-9cfa-9f47dcce841b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

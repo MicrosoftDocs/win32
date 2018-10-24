@@ -2,8 +2,6 @@
 title: Using Tooltip Controls
 description: This section contains examples that demonstrate how to create different types of tooltips.
 ms.assetid: 4486b406-a069-4250-b7ab-671d895b79f9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -3,8 +3,6 @@ title: F
 description: Domain Name System (DNS) glossary entries that start with F.
 Robots: noindex, nofollow
 ms.assetid: 127b68fe-f9b2-45f3-b016-da99ebdda7c2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Set method sets the media type from another media type.
 ms.assetid: 71c19d0f-93b6-41db-8659-c64411b83e7c
 title: CMediaType.Set method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

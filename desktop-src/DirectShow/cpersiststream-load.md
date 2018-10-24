@@ -2,8 +2,6 @@
 Description: Loads the filter's data from a given stream.
 ms.assetid: c2bfd379-2916-4698-bc41-653161723706
 title: CPersistStream.Load method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

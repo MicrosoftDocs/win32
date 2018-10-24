@@ -2,8 +2,6 @@
 Description: WST Codec Filter
 ms.assetid: 0a06acbf-b842-4ab6-bcf9-d2d006301d83
 title: WST Codec Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

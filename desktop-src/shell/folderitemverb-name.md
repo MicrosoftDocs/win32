@@ -2,8 +2,6 @@
 Description: Contains the verb's name.
 ms.assetid: d18fddac-eb51-4031-a572-1bfef2f757a9
 title: FolderItemVerb.Name property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

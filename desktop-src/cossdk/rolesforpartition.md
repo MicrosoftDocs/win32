@@ -2,8 +2,6 @@
 Description: The RolesForPartition collection is always related to an object in the Partitions collection. It holds an object for each role assigned to the partition to which it is related.
 ms.assetid: 56985f55-d6e8-4066-b6d5-21c62d4278ce
 title: RolesForPartition collection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

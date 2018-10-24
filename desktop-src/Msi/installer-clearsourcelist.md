@@ -2,8 +2,6 @@
 Description: The ClearSourceList method of the Installer object removes all network sources from the source list.
 ms.assetid: a4e4beb2-a4d7-48e7-9c8d-dd1ae19fe92a
 title: Installer.ClearSourceList method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

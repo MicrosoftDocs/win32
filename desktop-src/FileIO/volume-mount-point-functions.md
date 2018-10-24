@@ -2,8 +2,6 @@
 Description: Functions used to manage mounted folders.
 ms.assetid: 2624500b-11d6-4892-97d7-22efa450f681
 title: Mounted Folder Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

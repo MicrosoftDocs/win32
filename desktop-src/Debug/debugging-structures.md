@@ -2,8 +2,6 @@
 Description: 'The following structures are used with debugging:'
 ms.assetid: bf1294cd-1836-49d3-9cc4-4532429a301f
 title: Debugging Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

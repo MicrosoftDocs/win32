@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 8b93bf4f-c9da-4edf-8bd8-cf9f39a0b79a
 title: Window Macros
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

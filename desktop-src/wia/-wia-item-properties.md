@@ -2,8 +2,6 @@
 Description: 'Item properties are properties that control the function of a Windows Image Acquisition (WIA) item. These properties are accessed through any item on a tree that represents a device. There are three types of item properties: common, scanner, and camera.'
 ms.assetid: ace18486-1873-49e5-a699-c25807dee363
 title: Item Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

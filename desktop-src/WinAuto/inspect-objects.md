@@ -5,8 +5,6 @@ ms.assetid: 38edacbc-cf24-4818-b029-561b21e3704c
 keywords:
 - Inspect Tool
 - Accessibility
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

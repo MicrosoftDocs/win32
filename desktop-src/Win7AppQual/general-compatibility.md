@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 2072bd3f-a6cf-43d5-bc55-9b86d819aea1
 title: General Compatibility
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

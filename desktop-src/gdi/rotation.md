@@ -2,8 +2,6 @@
 Description: Many CAD applications provide features that rotate objects drawn in the client area.
 ms.assetid: '85d8fe2c-5ad9-4e98-b6ff-ca0a78abeee5'
 title: Rotation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

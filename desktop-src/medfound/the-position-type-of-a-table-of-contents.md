@@ -2,8 +2,6 @@
 Description: The Position Type of a Table of Contents
 ms.assetid: cc2fbadc-43f7-470c-873b-de2dc9d84e5d
 title: The Position Type of a Table of Contents
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

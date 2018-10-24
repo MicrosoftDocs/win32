@@ -2,8 +2,6 @@
 Description: Retrieves information about other collections related to the collection from which it is called.
 ms.assetid: daea5b23-6a13-46f4-89c8-0d93b614311e
 title: RelatedCollectionInfo collection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

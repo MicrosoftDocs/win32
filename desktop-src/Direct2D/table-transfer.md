@@ -4,8 +4,6 @@ description: Use the table transfer effect to map the color intensities of an im
 ms.assetid: FB426909-3C91-4709-9E3A-E45C7AE345A3
 keywords:
 - table transfer effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

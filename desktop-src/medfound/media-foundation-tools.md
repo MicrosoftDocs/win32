@@ -2,8 +2,6 @@
 Description: This section lists the tools and utilities provided for Microsoft Media Foundation.
 ms.assetid: 2d3d7f80-7a94-4527-b0f2-b587cb977455
 title: Media Foundation Tools
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

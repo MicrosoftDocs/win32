@@ -2,8 +2,6 @@
 Description: The following sections describe the functions, data structures, and enumerated constants that comprise the Distributed Routing Table (DRT) API.
 ms.assetid: 8d85e794-08a9-42c0-9bd4-8f3ad421f386
 title: Distributed Routing Table API Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

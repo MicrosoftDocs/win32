@@ -2,8 +2,6 @@
 Description: The installer sets the DesktopFolder property to the full path of the current user's Desktop folder. If an &\#0034;All Users&\#0034; profile exists and the ALLUSERS property is set, then this property is set to the folder in the &\#0034;All Users&\#0034; profile.
 ms.assetid: c729b917-4724-43bb-8533-d27ae91d20e0
 title: DesktopFolder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

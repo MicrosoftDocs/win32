@@ -2,8 +2,6 @@
 Description: Moves an MDIForm, form, or control.
 ms.assetid: 963e6533-f571-4043-bdd8-2596df6b5b35
 title: IExtender::Move method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

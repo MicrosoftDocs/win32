@@ -12,8 +12,6 @@ keywords:
 - ActiveX control,Web-based presentations
 - Web-based presentations,creating
 - creating Web-based presentations,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Gets the app suspending operation.
 ms.assetid: 33FCAED5-7568-4483-A643-A536B53F7003
 title: ISuspendingEventArgs::SuspendingOperation property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

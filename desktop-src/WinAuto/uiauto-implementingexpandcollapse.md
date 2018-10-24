@@ -13,8 +13,6 @@ keywords:
 - control patterns,implementing UI Automation ExpandCollapse
 - control patterns,ExpandCollapse
 - interfaces,IExpandCollapseProvider
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

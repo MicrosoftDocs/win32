@@ -1,8 +1,6 @@
 ---
 ms.assetid: c6e7de1e-6006-41e9-aa25-4cb8faf6f0d1
 title: Cabinet API Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

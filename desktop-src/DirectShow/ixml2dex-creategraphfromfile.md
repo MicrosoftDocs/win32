@@ -2,8 +2,6 @@
 Description: Not implemented.
 ms.assetid: b476e0c9-1432-4644-8002-154797a2a594
 title: IXml2Dex::CreateGraphFromFile method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

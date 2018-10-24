@@ -2,8 +2,6 @@
 Description: Sets the debugging time-out value. Ignored in retail builds.
 ms.assetid: d0f60d8b-34f2-44b2-bdd6-5e8e6f7806d8
 title: DbgSetWaitTimeout function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

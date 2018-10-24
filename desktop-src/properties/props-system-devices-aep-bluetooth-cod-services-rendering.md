@@ -2,8 +2,6 @@
 Description: Bluetooth class of device service rendering.
 ms.assetid: 1df0a4c3-d11e-42da-b636-6ba1f2cbfb4f
 title: System.Devices.Aep.Bluetooth.Cod.Services.Rendering
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

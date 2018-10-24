@@ -2,8 +2,6 @@
 Description: Transforms the BoundingSphere.
 ms.assetid: 545904d4-f6c4-4341-a043-70b1a4d81f1c
 title: BoundingSphere.Transform methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

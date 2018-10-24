@@ -2,8 +2,6 @@
 Description: This section of the Peer Infrastructure documentation describes the Peer Graphing API.
 ms.assetid: 'd590f31a-d036-40cf-a1be-00396b2d6740'
 title: Graphing API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

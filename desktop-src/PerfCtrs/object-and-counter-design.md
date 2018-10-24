@@ -2,8 +2,6 @@
 Description: A performance object is an entity for which performance data is available.
 ms.assetid: 97b9c9ec-e758-4928-b3fa-90d220bca5fb
 title: Object and Counter Design
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: IVMHostInfo Properties
 description: The IVMHostInfo interface exposes the following properties.
 ms.assetid: 198166B3-5D98-4A34-A232-FE0A29877409
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

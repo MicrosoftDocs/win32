@@ -2,8 +2,6 @@
 Description: Contains the content for a Journal page.
 ms.assetid: 1df78a17-1cd4-4e98-aed1-b09d2b357703
 title: Content Element [Journal Reader]
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

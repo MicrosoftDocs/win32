@@ -2,8 +2,6 @@
 title: Recent Items
 description: The Recent Items list is a pane in the Application Menu that displays the most recently used (MRU) items for an application.
 ms.assetid: fdead358-d303-46de-9f8e-6fc2832d8e94
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

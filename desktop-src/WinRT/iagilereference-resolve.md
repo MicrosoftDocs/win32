@@ -2,8 +2,6 @@
 Description: Gets the interface ID of an agile reference to an object.
 ms.assetid: 627A7EE4-CFEF-47F6-BA99-51BEB78C5D55
 title: IAgileReference::Resolve method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: 'Cryptography API: Next Generation (CNG) defines the following functions that are used for performing cryptographic operations.'
 ms.assetid: 7200efb5-2893-476c-9ad0-ba49bce92387
 title: CNG Cryptographic Primitive Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

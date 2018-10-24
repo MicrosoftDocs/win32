@@ -4,8 +4,6 @@ description: Specifies the CLSID of a class that can emulate the current class.
 ms.assetid: '1d7a1677-738a-4258-9afc-e77bd0dcf40f'
 keywords:
 - TreatAs registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The suggested action sequences for a basic AdminUISequence table in a Windows Installer database.
 ms.assetid: a5371133-7d55-4041-8e1f-ecc8245c8d3a
 title: Suggested AdminUISequence
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

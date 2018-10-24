@@ -2,8 +2,6 @@
 Description: The following example shows how to consume event data using the TdhFormatProperty function.
 ms.assetid: 5ebd500c-420e-4979-a03a-49b687464b0e
 title: Using TdhFormatProperty to Consume Event Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

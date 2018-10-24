@@ -2,8 +2,6 @@
 Description: Extended line services (or device-specific line services) include all service-provider defined extensions to TSPI.
 ms.assetid: 23519d23-27bd-422e-b3c4-00e0d0d93f9e
 title: Extended Line Services
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

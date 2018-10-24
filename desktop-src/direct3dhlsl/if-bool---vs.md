@@ -2,8 +2,6 @@
 title: if bool - vs
 description: Starts an if...else...endif - vs block.
 ms.assetid: d77e2f81-400c-4997-9c34-426b6e6f47be
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

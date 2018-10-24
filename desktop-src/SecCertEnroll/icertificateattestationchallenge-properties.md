@@ -2,8 +2,6 @@
 Description: The ICertificateAttestationChallenge interface supports the following properties.
 ms.assetid: 33FDB96F-F483-4AEB-BD94-2F5D17775DF5
 title: ICertificateAttestationChallenge Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

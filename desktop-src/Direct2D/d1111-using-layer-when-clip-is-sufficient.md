@@ -10,8 +10,6 @@ api_name:
 - D1111 Using Layer When Clip Is Sufficient
 api_type:
 - NA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

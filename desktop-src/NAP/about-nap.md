@@ -2,8 +2,6 @@
 title: About NAP
 description: About NAP
 ms.assetid: c5dc4956-dcb7-4fcf-b4cc-2fac016427dd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

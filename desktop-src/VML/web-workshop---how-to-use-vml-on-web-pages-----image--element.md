@@ -44,8 +44,6 @@ keywords:
 - vector graphics,gamma property attribute
 - VML shapes,gamma property attribute
 - gamma property attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

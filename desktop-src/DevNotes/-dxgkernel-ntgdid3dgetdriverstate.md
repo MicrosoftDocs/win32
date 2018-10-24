@@ -2,8 +2,6 @@
 Description: Used by both the Microsoft DirectDraw and Microsoft Direct3D runtimes to obtain information from the driver about its current state.
 ms.assetid: a7697e0c-9485-4a9c-b211-67ce07dc3604
 title: NtGdiD3DGetDriverState function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

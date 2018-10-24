@@ -2,8 +2,6 @@
 title: How to Process Notification Messages
 description: A property sheet sends WM\_NOTIFY messages to retrieve information from the pages and to notify the pages of user actions.
 ms.assetid: 82768E43-97BA-451A-9373-D5B8FD06ABED
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

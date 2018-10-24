@@ -5,8 +5,6 @@ ms.assetid: 17deae88-573f-48ec-887e-521549b39c32
 keywords:
 - Route
 - Route Flags
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: System Requirements for RPC-Message Queuing Applications
 description: To use the message-queuing transport in an RPC client/server application, the server and client computers must have the appropriate operating system platform and Message Queuing software installed.
 ms.assetid: f90318a6-0be6-4e1a-a1a5-1709808b5d3b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

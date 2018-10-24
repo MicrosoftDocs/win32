@@ -2,8 +2,6 @@
 Description: Device Association Endpoint's Model Id.
 ms.assetid: b6f2dd19-2425-44fe-b976-c531736793bf
 title: System.Devices.Aep.ModelId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -19,8 +19,6 @@ keywords:
 - skin definition files,about
 - art files for skins,about
 - JScript files for skins,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

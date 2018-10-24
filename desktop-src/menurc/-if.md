@@ -2,8 +2,6 @@
 title: ' if'
 description: The \ if directive controls conditional compilation of the resource file by checking the specified constant expression.
 ms.assetid: 4d0f26a0-1a2d-4fad-b5ce-b9441397d2c3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Computes the bounding sphere of all the meshes in the frame hierarchy.
 ms.assetid: 8c3f5a9e-73ff-4d83-8f85-a3fc2a9a53f7
 title: D3DXFrameCalculateBoundingSphere function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

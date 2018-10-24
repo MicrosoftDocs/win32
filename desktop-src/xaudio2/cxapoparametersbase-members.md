@@ -2,8 +2,6 @@
 Description: Shows the members of the CXAPOParametersBase class.
 ms.assetid: C2113358-07DE-426E-AF26-BD8ED9902192
 title: CXAPOParametersBase Members
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

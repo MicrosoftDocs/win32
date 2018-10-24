@@ -2,8 +2,6 @@
 Description: Video Quality Management
 ms.assetid: 3617adf2-ed7b-4788-abce-58bc22a14511
 title: Video Quality Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

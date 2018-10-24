@@ -2,8 +2,6 @@
 Description: 'Monitoring and control of ACD agent status on stations is supported through these functions: lineGetAgentCaps, lineGetAgentStatus, lineGetAgentGroupList, lineGetAgentActivityList, lineSetAgentGroup, lineSetAgentState, and lineSetAgentActivity.'
 ms.assetid: 2851fe54-f807-4cef-b6ca-2dcc7e1ae6fb
 title: ACD Agent Monitoring and Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

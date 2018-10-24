@@ -2,8 +2,6 @@
 Description: Proxy function for the CreateBitmapFromMemory method.
 ms.assetid: 5aa455d5-23e3-4738-b028-b84da0fb0c50
 title: IWICImagingFactory_CreateBitmapFromMemory_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

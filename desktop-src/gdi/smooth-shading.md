@@ -2,8 +2,6 @@
 Description: Smooth shading is a method of shading a region with a color gradient.
 ms.assetid: 94f26d15-fb76-47ec-b805-f04975d41b43
 title: Smooth Shading
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The property group separator used in property lists to separate contacts from other types. Do not use this property for getting or setting values. This property is intended only as a marker.
 ms.assetid: fbeef429-e5e0-4fa4-9402-72e421ef4cbc
 title: System.PropGroup.Contact
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

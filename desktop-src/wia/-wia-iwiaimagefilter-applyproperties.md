@@ -2,8 +2,6 @@
 Description: Enables the image processing filter to write properties back to the driver (and device).
 ms.assetid: b9bb8d81-2945-46ba-a0a2-7009000574aa
 title: IWiaImageFilter::ApplyProperties method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Intro to Win32 programming in C++
 description: This section describes some of the basic terminology and coding conventions used in Windows programming.
 ms.assetid: 95e9fe47-1a68-45a1-b841-1b1acef2ec92
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

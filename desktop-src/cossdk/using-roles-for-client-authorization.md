@@ -2,8 +2,6 @@
 Description: You use role-based security to establish an authorization policy, determining which client or clients to let in and with what authority. You are deciding who should be able to perform which actions and access which resources.
 ms.assetid: 8fc27fe1-e50a-44ba-a595-70b1fe463e24
 title: Using Roles for Client Authorization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

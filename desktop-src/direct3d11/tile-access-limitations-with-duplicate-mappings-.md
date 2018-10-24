@@ -2,8 +2,6 @@
 title: Tile access limitations with duplicate mappings
 description: This section describes tile access limitations with duplicate mappings.
 ms.assetid: 7A498E0D-9151-4A89-B7C3-C4F476457D17
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

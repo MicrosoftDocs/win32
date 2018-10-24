@@ -2,8 +2,6 @@
 Description: Represents the association between a job and the managed elements that may be affected by its execution.
 ms.assetid: 81849DE4-9039-426F-B7B1-45BB31A9132C
 title: Msvm_AffectedStorageJobElement class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

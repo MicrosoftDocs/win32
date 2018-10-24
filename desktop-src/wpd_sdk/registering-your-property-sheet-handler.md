@@ -2,8 +2,6 @@
 Description: Registering Your Property Sheet Handler
 ms.assetid: 6621529c-717b-4f36-8d9e-769d6b720b8a
 title: Registering Your Property Sheet Handler
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic describes how to create, identify, set, and delete timers.
 ms.assetid: 509a6fc4-ddee-4ff4-88a2-25dad4c48c2f
 title: About Timers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

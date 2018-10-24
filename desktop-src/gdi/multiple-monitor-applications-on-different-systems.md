@@ -2,8 +2,6 @@
 Description: To have your multiple monitoraware application work both on systems with and without multiple monitor support, link your application with Multimon.h.
 ms.assetid: 8667305e-ca76-49cb-878e-07814431e6db
 title: Multiple Monitor Applications on Different Systems
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

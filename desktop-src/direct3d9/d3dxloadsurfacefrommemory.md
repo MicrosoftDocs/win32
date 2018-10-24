@@ -2,8 +2,6 @@
 Description: Loads a surface from memory.
 ms.assetid: 9a36e395-fd00-47fe-8df1-cda8c80182ef
 title: D3DXLoadSurfaceFromMemory function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

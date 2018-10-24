@@ -5,8 +5,6 @@ ms.assetid: 9cc2c7d4-a2aa-4abc-9c63-b091e044804f
 keywords:
 - Photo Printing Wizard
 - IDropTarget,Photo Printing Wizard
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

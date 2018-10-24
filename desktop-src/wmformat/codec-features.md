@@ -6,8 +6,6 @@ keywords:
 - Windows Media Format SDK,codec features
 - Windows Media Format SDK,features
 - codecs,features
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

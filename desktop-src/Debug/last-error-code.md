@@ -2,8 +2,6 @@
 Description: When an error occurs, most system functions return an error code, usually 0, NULL, or &\#8211;1.
 ms.assetid: fd5b0d6e-78cf-4f51-b61d-d32576cd485a
 title: Last-Error Code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

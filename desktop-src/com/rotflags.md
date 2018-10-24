@@ -4,8 +4,6 @@ description: Controls the registration of a COM server in the running object tab
 ms.assetid: a27c04e5-b1d3-4cb5-9b2c-9ae45663cf56
 keywords:
 - ROTFlags registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

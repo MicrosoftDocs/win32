@@ -2,8 +2,6 @@
 Description: A mesh buffer is a buffer that contains data about a mesh.
 ms.assetid: a9fdfa22-531d-4da0-89f0-8766c2635e20
 title: ID3DX10MeshBuffer interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

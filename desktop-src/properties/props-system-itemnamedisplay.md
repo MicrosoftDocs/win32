@@ -2,8 +2,6 @@
 Description: The display name in &\#0034;most complete&\#0034; form.
 ms.assetid: fdb6b0fa-0741-4edc-8902-763a461313b9
 title: System.ItemNameDisplay
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

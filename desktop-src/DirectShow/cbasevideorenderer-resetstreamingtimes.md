@@ -2,8 +2,6 @@
 Description: The ResetStreamingTimes method resets all times that control the streaming.
 ms.assetid: 8a596760-a45a-4486-bb91-aab10bbf927f
 title: CBaseVideoRenderer.ResetStreamingTimes method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

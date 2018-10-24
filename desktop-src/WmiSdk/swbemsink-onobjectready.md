@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 14110ee7-a808-4786-b695-2ce54189d826
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnObjectReady event
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: The VBScript file WiExport.vbs is provided in the Windows SDK Components for Windows Installer Developers.
 ms.assetid: 3ff7bd48-cb22-4d5b-a607-39eaeb67c55b
 title: Export Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

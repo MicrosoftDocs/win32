@@ -2,8 +2,6 @@
 Description: Beginning in Windows 10, CNG provides support for the following named elliptic curves (ANSI X9.62, X9.63, FIPS 186-2).
 ms.assetid: 0607E8C3-6372-47E1-B16F-EF156D5EBA7D
 title: CNG Named Elliptic Curves
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

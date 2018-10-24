@@ -2,8 +2,6 @@
 Description: The Resume method restarts a paused capture.
 ms.assetid: 047ea5f8-de3d-40db-ada3-fc0ef4deccef
 title: IESP::Resume method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

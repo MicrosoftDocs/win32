@@ -2,8 +2,6 @@
 Description: Creates a font object for a device and font.Note  Instead of using this function, we recommend that you use DirectWrite and the DirectXTK library, SpriteFont class.
 ms.assetid: a0dd02f1-c512-46d3-9e83-a785ac3ad7ee
 title: D3DX10CreateFont function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

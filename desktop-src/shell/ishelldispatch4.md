@@ -1,8 +1,6 @@
 ---
 Description: Extends the IShellDispatch3 object.
 title: IShellDispatch4 object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

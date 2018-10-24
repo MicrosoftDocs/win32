@@ -2,8 +2,6 @@
 Description: The WriteEnvironmentStrings action modifies the values of environment variables.
 ms.assetid: a91c1ffe-1bdd-49bb-aa6a-71667a1ed812
 title: WriteEnvironmentStrings Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Module Information
 description: A module is an executable file or DLL.
 ms.assetid: e15b5e15-ca06-4733-bd0a-705058ba2db8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Configuration APIs
 description: Provide functionality for system administrators to set, query and delete configuration parameters. The configuration APIs control the settings for all applications using the HTTP Server API on the system.
 ms.assetid: 95a07d41-75c7-43a0-a2cb-707d37de148f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

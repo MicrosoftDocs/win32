@@ -2,8 +2,6 @@
 Description: Instead of sending the encrypted session keys to both of the principals, the KDC sends both the client's and the server's copies of the session key to the client.
 ms.assetid: 6b20ab30-2cd9-4f2e-a26b-316980c4bc78
 title: Session Tickets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

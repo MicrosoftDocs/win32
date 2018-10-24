@@ -2,8 +2,6 @@
 Description: The IWindowsDriverUpdate interface defines the following properties.
 ms.assetid: 2177c5e0-47db-44ae-a0ce-2544ff2d0855
 title: IWindowsDriverUpdate Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Both indexed and nonindexed drawing methods are supported by Direct3D.
 ms.assetid: 9b94ab86-2a6a-4abd-ab56-95315f473226
 title: Rendering from Vertex and Index Buffers (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

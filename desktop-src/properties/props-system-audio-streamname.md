@@ -2,8 +2,6 @@
 Description: Identifies the name of the stream for the audio file.
 ms.assetid: 35d8c97c-4bdf-4b4c-89ed-1881ea5d09af
 title: System.Audio.StreamName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Device Properties
 ms.assetid: ad8753ba-ad20-4122-b0f2-eb165f98db67
 title: Device Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

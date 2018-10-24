@@ -2,8 +2,6 @@
 title: Server apps must be able to run without the Server Graphical Shell
 description: Server apps must be able to run without the Server Graphical Shell
 ms.assetid: 8F531497-B64D-4E79-AD7A-790EFDC6ADFE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: New for Windows 7. Container element for relatedProperty elements.
 ms.assetid: F8BAAE5C-A7EA-487a-B829-91A27E24B58D
 title: relatedPropertyInfo
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

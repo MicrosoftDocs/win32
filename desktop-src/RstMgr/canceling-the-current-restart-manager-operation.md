@@ -2,8 +2,6 @@
 title: Canceling the Current Restart Manager Operation
 description: When a user action directs the installer to perform a different action, the following method can be used to cancel the current Restart Manager operation.
 ms.assetid: 87c8cf27-cd77-46fb-8298-cccbf4b1071a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

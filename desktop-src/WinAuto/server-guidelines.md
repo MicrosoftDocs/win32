@@ -2,8 +2,6 @@
 title: Server Guidelines
 description: For Microsoft Active Accessibility to work as designed, servers must provide accessibility information to clients.
 ms.assetid: 88be4bae-fdeb-467c-b5b1-19f2adc0575d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

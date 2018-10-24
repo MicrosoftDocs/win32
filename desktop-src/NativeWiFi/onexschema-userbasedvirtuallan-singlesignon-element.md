@@ -2,8 +2,6 @@
 Description: Specifies if the virtual LAN (VLAN) used by the device changes based on the user's credentials.
 ms.assetid: 4ac92954-adb2-4b0c-9c4e-81f772ea03ed
 title: userBasedVirtualLan (singleSignOn) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

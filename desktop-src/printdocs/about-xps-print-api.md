@@ -2,8 +2,6 @@
 Description: The XPS&\#160;Print&\#160;API provides an interface to the print spooler that applications can use to print jobs that send XPS documents to a printer.
 ms.assetid: d3bf7b1d-df21-4e7b-803b-45b65d46b2ca
 title: About the XPS Print API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

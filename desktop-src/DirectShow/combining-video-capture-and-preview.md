@@ -2,8 +2,6 @@
 Description: Combining Video Capture and Preview
 ms.assetid: bffc1900-be05-4d7e-ab8d-3177365aeb7a
 title: Combining Video Capture and Preview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

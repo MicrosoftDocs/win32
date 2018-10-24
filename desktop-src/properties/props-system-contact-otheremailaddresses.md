@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a905a42a-7dd5-4292-bf69-e87eb40d8086
 title: System.Contact.OtherEmailAddresses
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

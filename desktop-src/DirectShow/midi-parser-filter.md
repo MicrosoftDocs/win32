@@ -2,8 +2,6 @@
 Description: MIDI Parser Filter
 ms.assetid: a56576ad-f949-48fa-85e0-3e9898d2970d
 title: MIDI Parser Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

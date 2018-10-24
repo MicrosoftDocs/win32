@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b7c6ec2b-640b-4373-a1e3-ff6c130b07d0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: NOTIFICATION-TYPE Macro
 ms.author: windowssdkdev

@@ -4,8 +4,6 @@ description: TBS provides the following functions.
 ms.assetid: df2d3e36-0a27-4cc0-bcb2-709eb6bedeac
 keywords:
 - TPM Base Services TBS , functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

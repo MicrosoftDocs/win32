@@ -2,8 +2,6 @@
 Description: ICE31 validates any predefined font styles used in controls that display text. It also validates that the DefaultUIFont property refers to a valid font style.
 ms.assetid: 07e60774-0e26-4a50-b818-a8f074512e3e
 title: ICE31
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

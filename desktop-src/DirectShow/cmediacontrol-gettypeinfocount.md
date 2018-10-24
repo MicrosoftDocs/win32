@@ -2,8 +2,6 @@
 Description: Retrieves the number of type-information interfaces provided by an object.
 ms.assetid: 29575325-8f97-4f39-8272-86a917d9144f
 title: CMediaControl.GetTypeInfoCount method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

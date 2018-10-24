@@ -2,8 +2,6 @@
 Description: The PatchFiles action queries the Patch table to determine which patches are to be applied. The PatchFiles action also performs the byte-wise patching of the files.
 ms.assetid: 4026755e-a006-40c0-8816-de5358f4582e
 title: PatchFiles Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

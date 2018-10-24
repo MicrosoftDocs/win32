@@ -2,8 +2,6 @@
 Description: Internally, a metafile is an array of variable-length structures called metafile records.
 ms.assetid: 222f9b8b-d759-49f9-a3ea-ac59f85263b8
 title: About Metafiles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

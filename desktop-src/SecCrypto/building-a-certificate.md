@@ -2,8 +2,6 @@
 Description: Explains the calls required to build a certificate.
 ms.assetid: 74154b3b-75fc-412f-835c-1a6f54e688c6
 title: Building a Certificate
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

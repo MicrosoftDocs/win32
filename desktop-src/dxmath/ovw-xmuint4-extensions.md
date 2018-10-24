@@ -2,8 +2,6 @@
 Description: XMUINT4 describes a structure containing a 4D vector consisting of four unsigned integer values.
 ms.assetid: 6e566251-3454-4c8d-aaa0-121112491114
 title: XMUINT4 Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

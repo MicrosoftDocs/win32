@@ -2,8 +2,6 @@
 Description: Whether you choose to convert your MTS packages to COM+ applications manually or let the Microsoft Windows setup process do it for you automatically, you should be aware of the results of conversion as well as the issues.
 ms.assetid: 5b85aa5c-0409-4802-9335-04217ef5ddb9
 title: COM+ Conversion Results and Issues
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

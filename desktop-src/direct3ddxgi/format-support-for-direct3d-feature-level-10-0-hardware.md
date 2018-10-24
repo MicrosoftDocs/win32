@@ -2,8 +2,6 @@
 Description: This section specifies the formats (DXGI\_FORMAT values) that are supported in Direct3D 10.0 hardware.
 ms.assetid: 3C1CCA7D-9F2F-4B1B-8424-BA9C6DED4974
 title: Format Support for Direct3D Feature Level 10.0 Hardware
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The WiaTransferParams is transmitted to an application during a data transfer by the Windows Image Acquisition (WIA) run-time system to the IWiaTransferCallback::TransferCallback method.
 ms.assetid: 4f1bbacf-e9fd-4129-ab05-3edaeecfaf43
 title: WiaTransferParams structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

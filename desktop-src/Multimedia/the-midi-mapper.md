@@ -12,8 +12,6 @@ keywords:
 - MIDI Mapper,about
 - MIDI Mapper,source
 - MIDI Mapper,destination
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

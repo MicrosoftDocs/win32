@@ -2,8 +2,6 @@
 title: Packaging and deployment tools and PowerShell cmdlets
 description: Use these tools and cmdlets to create, deploy, and inventory app packages for Windows Store apps.
 ms.assetid: 8D1750C3-0816-4C59-8145-98AA1DCFE050
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

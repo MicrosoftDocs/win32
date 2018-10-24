@@ -2,8 +2,6 @@
 Description: Effect states are used to initialize pipeline states in preparation for vertex and pixel processing.
 ms.assetid: b62a6ccc-a1ea-455c-9659-544d4bcaf6a2
 title: Effect States (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

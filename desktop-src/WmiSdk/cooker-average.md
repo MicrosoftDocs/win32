@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5121cd02-b122-48fd-995a-cf6c77948fd8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: COOKER_AVERAGE
 ms.author: windowssdkdev

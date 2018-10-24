@@ -2,8 +2,6 @@
 Description: Assemble a shader.
 ms.assetid: 24c3dcae-9397-4856-b072-0ae340157bf9
 title: D3DXAssembleShader function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

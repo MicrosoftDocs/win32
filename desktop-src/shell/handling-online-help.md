@@ -1,8 +1,6 @@
 ---
 Description: Online help can come in a variety of forms, from detailed conceptual information to quick definitions. This topic contains the following sections.
 title: Handling Online Help
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

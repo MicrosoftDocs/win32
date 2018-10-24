@@ -2,8 +2,6 @@
 title: Time Trigger Example (Scripting)
 description: This scripting example shows how to create a task that runs Notepad at a specific time.
 ms.assetid: 8511ffcd-166f-4c63-9cd2-ead53dde9ed8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

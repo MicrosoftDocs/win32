@@ -2,8 +2,6 @@
 Description: This example illustrates how to create a patch package that applies a small update to the sample installation package discussed in An Installation Example.
 ms.assetid: 17dadd64-6e81-444a-985e-1b340e4f2ee5
 title: A Small Update Patching Example
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The AMovieSetupRegisterFilter2 function registers a filter's merit, pins, and media types in the registry using the IFilterMapper2 interface.
 ms.assetid: 8e0f3485-9e5d-4b22-853d-4ad9b1fb71d2
 title: AMovieSetupRegisterFilter2 function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -11,8 +11,6 @@ keywords:
 - Direct3D,Direct2D interoperation
 - Direct2D,DXGI
 - DXGI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies the browser compatibility mode.
 ms.assetid: 9F850CDE-D862-4E72-8B55-5FAFDA43E399
 title: MF_MEDIA_ENGINE_BROWSER_COMPATIBILITY_MODE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic describes the types of window classes, how the system locates them, and the elements that define the default behavior of windows that belong to them.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\window_89windowclasse.htm'
 title: Window Classes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

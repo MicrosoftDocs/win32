@@ -11,8 +11,6 @@ keywords:
 - DSP plug-ins,programming reference
 - reference for plug-ins
 - reference for DSP plug-ins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

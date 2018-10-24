@@ -2,8 +2,6 @@
 Description: Specifies AES DXVA encryption for DXVA decoders.
 ms.assetid: 8E270C97-E073-40D3-8D33-7BBFE1833940
 title: MFPROTECTION_GRAPHICS_TRANSFER_AES_ENCRYPTION attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

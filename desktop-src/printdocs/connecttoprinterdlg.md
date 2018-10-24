@@ -2,8 +2,6 @@
 Description: The ConnectToPrinterDlg function displays a dialog box that lets users browse and connect to printers on a network.
 ms.assetid: 7cb9108b-8b65-4af3-88c8-a69771ed8e3f
 title: ConnectToPrinterDlg function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

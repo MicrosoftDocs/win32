@@ -2,8 +2,6 @@
 title: VML Alt Attribute
 description: VML Alt Attribute
 ms.assetid: 6b7e778c-d8e2-432e-b69a-5d80fa62d105
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

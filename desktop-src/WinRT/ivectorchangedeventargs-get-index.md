@@ -2,8 +2,6 @@
 Description: Gets the position in the vector where the change occurred.
 ms.assetid: 00756d77-aae0-45f0-8bd4-cf68af9bdc7c
 title: IVectorChangedEventArgs::get_Index method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Traversing the Thread List
 description: The following example function lists running threads for a specified process.
 ms.assetid: 67194627-8239-46d2-93e7-eb8e5f6c56e6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

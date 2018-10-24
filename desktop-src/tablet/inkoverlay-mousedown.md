@@ -2,8 +2,6 @@
 Description: Occurs when the mouse pointer is over the InkCollector or InkOverlay object and a mouse button is pressed.
 ms.assetid: 95c3b1ae-0e77-4ca2-ab73-a0e97ab115b5
 title: InkOverlay.MouseDown event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

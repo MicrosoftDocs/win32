@@ -2,8 +2,6 @@
 Description: A polygon is a filled shape with straight sides.
 ms.assetid: 2259855f-4bad-4513-a021-b48c73eb7841
 title: About Polygons
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

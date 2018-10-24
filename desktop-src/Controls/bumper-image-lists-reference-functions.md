@@ -2,8 +2,6 @@
 title: Image List Functions
 description: .
 ms.assetid: b5754633-f673-414e-9e0b-3f6f211ecd2a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

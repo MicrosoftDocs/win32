@@ -2,8 +2,6 @@
 Description: TAPI Call Center supports functions to create a line agent and and agent groups.
 ms.assetid: 81bd0e7b-2bf1-4a05-83f4-ef641641cf2b
 title: Call Center Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

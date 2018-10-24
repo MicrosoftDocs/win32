@@ -2,8 +2,6 @@
 Description: Retrieves the globally unique identifier (GUID) of the recognizer.
 ms.assetid: 9b98993b-eaf3-4207-9d56-33efeceb75cf
 title: IInkAnalysisRecognizer::GetGuid method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

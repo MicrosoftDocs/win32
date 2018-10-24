@@ -2,8 +2,6 @@
 Description: XMUSHORTN4 describes a 4D vector for storing unsigned, normalized values as signed 16-bit integers, (type uint16\_t).
 ms.assetid: 207f2855-5158-4e33-80fb-bad2e2b173c6
 title: XMUSHORTN4 Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

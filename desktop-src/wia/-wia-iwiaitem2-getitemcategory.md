@@ -2,8 +2,6 @@
 Description: Gets an item's category information.
 ms.assetid: 4d6f7a6a-280d-4b36-8e1d-8d9fcaa8a1de
 title: IWiaItem2::GetItemCategory method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Signals that the parental level of the authored DVD content is about to change.
 ms.assetid: c6817e1a-f860-4ba2-9e0f-e195624230c5
 title: EC_DVD_PARENTAL_LEVEL_CHANGE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

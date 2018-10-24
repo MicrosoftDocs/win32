@@ -2,8 +2,6 @@
 Description: The ProductCode property of the Patch object returns the ProductCode GUID of the product.
 ms.assetid: 11d81bc0-dac6-4135-9b60-31d39c3455da
 title: Patch.ProductCode property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

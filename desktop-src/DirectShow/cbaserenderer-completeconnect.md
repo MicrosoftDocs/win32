@@ -2,8 +2,6 @@
 Description: The CompleteConnect method completes the input pin's connection to another pin.
 ms.assetid: 8dfc1a50-bc73-436a-a471-d8d3218410d3
 title: CBaseRenderer.CompleteConnect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -12,8 +12,6 @@ keywords:
 - ActiveX control,library for object model
 - Windows Media Player library,access
 - library,accessing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

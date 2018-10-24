@@ -2,8 +2,6 @@
 Description: Retrieves a type-information object, which can retrieve the type information for an interface.
 ms.assetid: d54042d5-e9d3-415c-b90d-1fe7d38164f5
 title: CMediaEvent.GetTypeInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

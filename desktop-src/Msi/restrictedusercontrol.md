@@ -2,8 +2,6 @@
 Description: The RestrictedUserControl property should be set to 1 if restricting which public properties can be sent to the server side.
 ms.assetid: 55b4545c-c9ab-49c6-b22f-6cd93b5fb8c1
 title: RestrictedUserControl property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The ZeroBetween method removes everything from the track between the specified times. This method splits any objects that span the specified time range and removes the pieces that fall within the range.
 ms.assetid: df173a3c-147b-4f2d-9bcb-a8c2873f5420
 title: IAMTimelineTrack::ZeroBetween method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

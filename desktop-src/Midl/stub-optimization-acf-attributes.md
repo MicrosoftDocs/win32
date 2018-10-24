@@ -4,8 +4,6 @@ description: These attributes enable you to optimize the size and speed of your 
 ms.assetid: 8c98b9ff-d91c-4a17-90c9-298f588e46c5
 keywords:
 - ACF MIDL , attributes, stub-optimization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

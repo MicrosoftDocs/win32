@@ -2,8 +2,6 @@
 title: How Child IDs Are Used in Parameters
 description: This topic describes input parameters, output parameters, and special cases for interpreting child IDs returned from IAccessible methods.
 ms.assetid: 051ec5ba-540c-4ae1-b917-4c229557ca2f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

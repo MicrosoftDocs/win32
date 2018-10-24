@@ -2,8 +2,6 @@
 Description: Obtains a reference to a TCP v6 driver object.
 ms.assetid: 9f57ea0b-0ab4-4ef9-9bf1-1f41f72dfbe9
 title: ReferenceTcpDriverV6 function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

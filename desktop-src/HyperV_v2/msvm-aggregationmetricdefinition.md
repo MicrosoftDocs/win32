@@ -2,8 +2,6 @@
 Description: Represents the definition aspects of a metric that is derived from another metric value.
 ms.assetid: 642f53fe-e51c-4c73-babf-19adb2cf55f4
 title: Msvm_AggregationMetricDefinition class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

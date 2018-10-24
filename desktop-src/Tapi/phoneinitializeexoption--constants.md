@@ -2,8 +2,6 @@
 Description: The PHONEINITIALIZEEXOPTION\_ constants specify which event notification mechanism to use when initializing a session.
 ms.assetid: 7d8b122d-bebe-4904-abc8-d680b0899e25
 title: PHONEINITIALIZEEXOPTION_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

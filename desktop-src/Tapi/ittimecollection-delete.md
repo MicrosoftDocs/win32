@@ -2,8 +2,6 @@
 Description: The Delete method deletes an ITTime component.
 ms.assetid: 0445d659-7b83-4462-b199-511fd8270f32
 title: ITTimeCollection::Delete method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

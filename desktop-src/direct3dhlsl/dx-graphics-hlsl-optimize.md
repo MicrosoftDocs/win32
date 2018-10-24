@@ -5,8 +5,6 @@ ms.assetid: 014b9cb3-a489-48d7-8174-b97de168bf3a
 keywords:
 - high-level shader language
 - HLSL, performance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

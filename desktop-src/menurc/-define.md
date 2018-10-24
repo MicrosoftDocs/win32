@@ -2,8 +2,6 @@
 title: ' define'
 description: The \ define directive assigns the given value to the specified name. All subsequent occurrences of the name are replaced by the value.
 ms.assetid: 2699d2dc-caf8-47d6-8b2e-526357962532
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

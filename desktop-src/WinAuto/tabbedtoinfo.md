@@ -2,8 +2,6 @@
 title: TabbedToInfo
 description: TabbedToInfo
 ms.assetid: 8C8A4B5D-8070-4406-A726-6D24D5A712CE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies the audio service contained in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 454021c7-f574-443c-bd23-411be44162b5
 title: AVEncDDService property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

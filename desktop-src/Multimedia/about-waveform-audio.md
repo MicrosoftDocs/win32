@@ -12,8 +12,6 @@ keywords:
 - audio,PlaySound function
 - waveform audio,PlaySound function
 - PlaySound function,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

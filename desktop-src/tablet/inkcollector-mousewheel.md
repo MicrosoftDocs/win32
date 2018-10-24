@@ -2,8 +2,6 @@
 Description: Occurs when the mouse wheel moves while the InkCollector or InkOverlay object has focus.
 ms.assetid: 418cf67c-0ec0-49e3-a17f-9eaeb40bb602
 title: InkCollector.MouseWheel event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

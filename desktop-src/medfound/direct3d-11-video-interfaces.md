@@ -2,8 +2,6 @@
 Description: This section contains reference information for the Microsoft Direct3D 11 video interfaces.
 ms.assetid: 2AE97FFE-0FA4-4CC0-8433-7BA46BCACE30
 title: Direct3D 11 Video Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

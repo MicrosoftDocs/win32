@@ -461,6 +461,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/ProjFS/index.md",
+      "redirect_url": "/windows/desktop/projfs/projected-file-system",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/properties/index.md",
       "redirect_url": "/windows/desktop/properties/windows-properties-system",
       "redirect_document_id": false

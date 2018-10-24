@@ -2,8 +2,6 @@
 Description: Contains the response to a D3DAUTHENTICATEDQUERY\_CHANNELTYPE query.
 ms.assetid: 547f7f26-2b9d-48b1-97cc-84a2202c3900
 title: D3DAUTHENTICATEDCHANNEL_QUERYCHANNELTYPE_OUTPUT structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Metadata Support
 ms.assetid: f3b4a3d9-a353-4af8-9998-cb7da7a062b7
 title: Metadata Support
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: LOCALE\_IDATE
 ms.assetid: ac919b9b-2532-49f6-ba7f-a8eb16a178e5
 title: LOCALE_IDATE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

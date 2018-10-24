@@ -2,8 +2,6 @@
 Description: Decoding
 ms.assetid: ff7e5e66-e1ea-49fc-909f-de361214afc3
 title: Decoding
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

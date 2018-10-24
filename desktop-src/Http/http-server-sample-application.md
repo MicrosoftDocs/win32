@@ -2,8 +2,6 @@
 title: HTTP Server Sample Application
 description: This topic contains a sample application that shows how to use the HTTP Server API to perform server-side tasks.
 ms.assetid: 49952ff5-ac8b-4192-a446-5a117f9a8e52
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

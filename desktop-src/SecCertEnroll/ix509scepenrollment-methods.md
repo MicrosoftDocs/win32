@@ -2,8 +2,6 @@
 Description: The IX509SCEPEnrollment interface exposes the following methods.
 ms.assetid: B45B68D2-A14D-4D14-AF5F-1A1BB9921A0D
 title: IX509SCEPEnrollment Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

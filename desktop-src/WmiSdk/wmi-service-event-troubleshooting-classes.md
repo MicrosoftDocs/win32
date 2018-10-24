@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 1a1251c8-a2f7-47ac-9db1-d780d7d272f0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Service Event Troubleshooting Classes
 ms.author: windowssdkdev

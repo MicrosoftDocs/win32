@@ -2,8 +2,6 @@
 Description: Returns a RecordList object that lists installed components.
 ms.assetid: a91656de-2ebc-45b5-86f8-b13f35c6a762
 title: Installer.ComponentsEx property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

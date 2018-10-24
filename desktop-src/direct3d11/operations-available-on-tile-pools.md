@@ -2,8 +2,6 @@
 title: Operations available on tile pools
 description: This section lists operations that you can perform on tile pools.
 ms.assetid: 69CF182B-9161-43B7-89A5-0468E1BBD6B7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

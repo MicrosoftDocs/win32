@@ -2,8 +2,6 @@
 title: Service Table Management Functions
 description: Use the following functions for routing protocols that register for service handling.
 ms.assetid: eb31f1ad-5761-4112-8c05-51a627b9e0b7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: IAgentCharacterEx SetHelpModeOn
 description: IAgentCharacterEx SetHelpModeOn
 ms.assetid: d4d42122-3d27-40c4-8770-0de105e5d933
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

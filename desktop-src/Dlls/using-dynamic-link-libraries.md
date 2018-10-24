@@ -2,8 +2,6 @@
 Description: The following examples demonstrate how to create and use a DLL.
 ms.assetid: 4202e033-77a1-4db6-acee-224f4e1e8d78
 title: Using Dynamic-Link Libraries
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

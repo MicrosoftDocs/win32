@@ -2,8 +2,6 @@
 Description: The DisplayType function sends information about a media type to the debug output location. Ignored in retail builds.
 ms.assetid: '63a88508-dff8-4869-97e5-0f75f4a9dca0'
 title: DisplayType function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

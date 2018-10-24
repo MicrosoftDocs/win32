@@ -2,8 +2,6 @@
 title: Criteria for Name Service Entries
 description: Criteria for Name Service Entries with Remote Procedure Call (RPC).
 ms.assetid: f9a7b935-7104-489c-93a8-0c3793d17348
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

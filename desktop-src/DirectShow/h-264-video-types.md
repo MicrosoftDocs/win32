@@ -2,8 +2,6 @@
 Description: H.264 Video Types
 ms.assetid: aa3166b2-6b04-44fa-bc9d-c8ff46f99201
 title: H.264 Video Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

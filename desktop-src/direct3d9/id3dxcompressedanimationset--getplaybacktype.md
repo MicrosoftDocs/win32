@@ -2,8 +2,6 @@
 Description: Gets the type of the animation set playback loop.
 ms.assetid: aa18b572-5fd9-4a2b-b4c6-c5895ee65c62
 title: ID3DXCompressedAnimationSet::GetPlaybackType method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

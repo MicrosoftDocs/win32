@@ -4,8 +4,6 @@ description: The D2D1 namespace defines the following functions.
 ms.assetid: 8a7c1e7e-9783-4b95-ac4c-4e7cc961f928
 keywords:
 - D2D1 namespace,functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

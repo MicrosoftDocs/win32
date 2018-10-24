@@ -2,8 +2,6 @@
 title: What Support for an Interface Means
 description: What Support for an Interface Means
 ms.assetid: fa5eae0f-2252-43bc-b504-de00b213cb2a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

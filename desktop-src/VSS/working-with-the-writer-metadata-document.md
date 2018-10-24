@@ -2,8 +2,6 @@
 Description: Each writer produces a Writer Metadata Document.
 ms.assetid: e23a6d79-1014-4023-a59f-dce01cf2889e
 title: Working with the Writer Metadata Document
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

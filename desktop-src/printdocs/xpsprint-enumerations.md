@@ -2,8 +2,6 @@
 Description: XPS Print API Enumerations
 ms.assetid: 1cb26594-6a15-4f36-b83a-f1c4418619d3
 title: XPS Print API Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

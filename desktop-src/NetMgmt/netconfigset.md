@@ -4,8 +4,6 @@ description: The NetConfigSet function is obsolete. It is included for compatibi
 ms.assetid: a3615699-a84b-4be1-85a0-497bf73223e6
 keywords:
 - NetConfigSet
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

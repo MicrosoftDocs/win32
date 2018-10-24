@@ -2,8 +2,6 @@
 Description: Sets the sub-sample mapping for the sample indicating the clear and encrypted bytes in the sample data.
 ms.assetid: E672F53D-2083-430B-90D2-A1DA482EF9E1
 title: MFSampleExtension_Encryption_SubSampleMappingSplit attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

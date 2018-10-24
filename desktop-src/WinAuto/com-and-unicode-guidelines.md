@@ -2,8 +2,6 @@
 title: COM and Unicode Guidelines
 description: Because Microsoft Active Accessibility is based on Component Object Model (COM), developers need a moderate level of understanding about COM objects and interfaces and must know how to perform basic tasks (for example, how to initialize the COM library).
 ms.assetid: ed4bbef9-676a-4f4e-926a-044f71399c56
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

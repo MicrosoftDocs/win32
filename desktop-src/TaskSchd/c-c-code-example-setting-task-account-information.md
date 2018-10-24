@@ -5,8 +5,6 @@ ms.assetid: ab865f70-f8d1-411e-b637-b1b1028ccf62
 keywords:
 - setting account information Task Scheduler
 - setting work item properties Task Scheduler , account information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

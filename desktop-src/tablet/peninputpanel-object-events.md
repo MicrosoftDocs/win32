@@ -2,8 +2,6 @@
 Description: The following table describes which threads the PenInputPanel object events can fire on.EventThreadsInputFailedFires on the thread in which the PenInputPanel is created.PanelChangedFires on the thread in which the PenInputPanel is created.PanelMovingFires on the thread in which the PenInputPanel is created.VisibleChangedFires on the thread in which the PenInputPanel is created. 
 ms.assetid: 7fc65ab2-822d-4511-84e0-d91c7247e888
 title: PenInputPanel Object Events
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

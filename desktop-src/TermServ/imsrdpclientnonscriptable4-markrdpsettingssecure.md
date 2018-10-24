@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 04b419ed-821e-43e0-ac76-b8d6f6dfcc30
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - MarkRdpSettingsSecure property Remote Desktop Services

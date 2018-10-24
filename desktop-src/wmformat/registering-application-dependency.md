@@ -5,8 +5,6 @@ ms.assetid: 09f63519-5c65-4784-9ea4-4fbecfa6d4aa
 keywords:
 - Windows Media Format SDK,registering application dependencies
 - registering application dependencies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Information about file management.
 ms.assetid: cf4e69b9-86dd-43a4-9011-6209fc65f550
 title: About File Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

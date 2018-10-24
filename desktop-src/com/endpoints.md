@@ -4,8 +4,6 @@ description: Configures a COM application to use a specified TCP port number for
 ms.assetid: 2a286a13-24b8-418a-b29b-5543a1c56c45
 keywords:
 - Endpoints registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

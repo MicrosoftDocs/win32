@@ -2,8 +2,6 @@
 Description: The AdvancedDocumentProperties function displays a printer-configuration dialog box for the specified printer, allowing the user to configure that printer.
 ms.assetid: 29e33f34-f6ec-4989-b076-e1fef8eb5bc4
 title: AdvancedDocumentProperties function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

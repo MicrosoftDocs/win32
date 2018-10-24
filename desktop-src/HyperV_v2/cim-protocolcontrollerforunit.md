@@ -2,8 +2,6 @@
 Description: Represents an association between a protocol controller and an exposed logical unit.
 ms.assetid: e8bf2b32-b4a6-4963-8a50-2b06776965e8
 title: CIM_ProtocolControllerForUnit class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

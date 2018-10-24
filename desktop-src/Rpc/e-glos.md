@@ -3,8 +3,6 @@ title: E
 description: Words starting with E in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: 76e35c3c-91dd-42e3-9699-6767e37b2699
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

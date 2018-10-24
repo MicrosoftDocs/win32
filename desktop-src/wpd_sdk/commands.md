@@ -2,8 +2,6 @@
 Description: Commands
 ms.assetid: f579745a-5327-4c8b-bfa7-fe81d9657a3b
 title: Commands
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

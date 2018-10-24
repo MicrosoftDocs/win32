@@ -2,8 +2,6 @@
 Description: The Exit dialog box is displayed at the end of a successful installation.
 ms.assetid: 06cf7f0b-b509-4865-ad8f-321ad2a2ce27
 title: Exit Dialog
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

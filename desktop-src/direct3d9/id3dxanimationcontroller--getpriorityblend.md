@@ -2,8 +2,6 @@
 Description: Gets the current priority blending weight used by the animation controller.
 ms.assetid: ceaf611e-e85b-4958-b8ac-7e60b98b1aad
 title: ID3DXAnimationController::GetPriorityBlend method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

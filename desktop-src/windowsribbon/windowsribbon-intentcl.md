@@ -12,8 +12,6 @@ keywords:
 - UI Command Compiler (UICC.exe)
 - UICC.exe (UI Command Compiler)
 - compiling Windows Ribbon markup
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

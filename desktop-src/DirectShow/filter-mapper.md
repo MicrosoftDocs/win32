@@ -2,8 +2,6 @@
 Description: Filter Mapper
 ms.assetid: cb8f25b3-a0f0-48fa-843f-88a5a5d17019
 title: Filter Mapper
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

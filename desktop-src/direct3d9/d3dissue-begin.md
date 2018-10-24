@@ -2,8 +2,6 @@
 Description: This macro creates a value used by Issue to issue a query begin.
 ms.assetid: 21b8a2b0-d18f-4412-b655-3a913b7312ee
 title: D3DISSUE_BEGIN
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

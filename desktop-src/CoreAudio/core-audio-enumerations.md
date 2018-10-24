@@ -2,8 +2,6 @@
 Description: Core Audio Enumerations
 ms.assetid: 7d25be71-ffbe-4e8c-9a45-cdeb35d10292
 title: Core Audio Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Adds the specified OID object to the collection.
 ms.assetid: 0ae087d6-768a-4538-b834-0f936680de05
 title: OIDs.Add method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

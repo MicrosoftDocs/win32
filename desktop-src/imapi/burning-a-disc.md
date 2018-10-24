@@ -2,8 +2,6 @@
 title: Burning a Disc Image
 description: Mastering (burning a disc) using IMAPI consists of the following steps Construct a file system image that contains the directories and files to write disc.Set up a disc recorder to communicate with the optical device.Create a data writer and burn the image to disc.
 ms.assetid: f2eee14e-695d-4678-b3c1-b521ab4d4a7e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

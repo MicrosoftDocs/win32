@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d4fbd5af-69e2-4c60-907a-cb2a1506b7c9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Establishing Inheritance of Namespace Security
 ms.author: windowssdkdev

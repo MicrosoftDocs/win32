@@ -2,8 +2,6 @@
 Description: An assembly manifest is an XML file that describes a side-by-side assembly.
 ms.assetid: f7973019-0a80-498e-adf1-c66267c813f4
 title: Assembly Manifests
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

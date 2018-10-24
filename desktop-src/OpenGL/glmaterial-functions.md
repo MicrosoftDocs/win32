@@ -15,8 +15,6 @@ keywords:
 - OpenGL,light functions
 - OpenGL reference,light functions
 - reference for OpenGL,light functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

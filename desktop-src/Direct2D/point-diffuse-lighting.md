@@ -4,8 +4,6 @@ description: Use the point-diffuse lighting effect to create an image that appea
 ms.assetid: C98A4962-B9EB-4095-9AC4-F1C32C574892
 keywords:
 - point diffuse lighting effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

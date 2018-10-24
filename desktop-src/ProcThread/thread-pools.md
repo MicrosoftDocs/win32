@@ -2,8 +2,6 @@
 Description: A thread pool is a collection of worker threads that efficiently execute asynchronous callbacks on behalf of the application.
 ms.assetid: abe0798a-0b60-4bdb-a61e-45393f1e958d
 title: Thread Pools
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

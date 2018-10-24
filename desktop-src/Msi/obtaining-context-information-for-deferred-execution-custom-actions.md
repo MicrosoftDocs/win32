@@ -2,8 +2,6 @@
 Description: Because installation script can be executed outside of the installation session in which it was written, the session may no longer exist during execution of the installation script.
 ms.assetid: 13174c5d-c810-4b5d-9d1e-60ed30b8c44d
 title: Obtaining Context Information for Deferred Execution Custom Actions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

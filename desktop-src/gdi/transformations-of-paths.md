@@ -2,8 +2,6 @@
 Description: Paths are defined using logical units and current transformations.
 ms.assetid: a5a426ec-25e8-4fe1-985c-d078227e8aba
 title: Transformations of Paths
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

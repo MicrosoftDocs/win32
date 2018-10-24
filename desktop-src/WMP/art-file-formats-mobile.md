@@ -10,8 +10,6 @@ keywords:
 - Windows Media Player Mobile skins,file formats for art
 - skins,file formats for art
 - file formats for skin art
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

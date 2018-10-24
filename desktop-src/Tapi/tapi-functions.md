@@ -2,8 +2,6 @@
 Description: The following sections contain an alphabetic list of functions grouped by area. The information for each function includes a list of the valid call states on entry of the function and typical call state transitions when the request is complete.
 ms.assetid: 555d6af2-b440-4636-b90e-da297a369753
 title: TAPI Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

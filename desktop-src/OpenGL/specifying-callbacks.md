@@ -5,8 +5,6 @@ ms.assetid: b49a8400-8111-450d-a2d7-c313a898a213
 keywords:
 - OpenGL Utility (GLU),specifying callback functions
 - GLU (OpenGL Utility),specifying callback functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

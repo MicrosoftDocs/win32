@@ -2,8 +2,6 @@
 Description: A user-friendly description of the file.
 ms.assetid: 061299cd-ed41-46cd-bae3-eeb98bab3142
 title: System.FileDescription
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

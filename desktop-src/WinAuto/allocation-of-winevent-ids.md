@@ -2,8 +2,6 @@
 title: Allocation of WinEvent IDs
 description: Each WinEvent is intended to be used only for a specific purpose. Using a WinEvent for an unintended purpose can cause collisions with other applications or the operating system, which can cause the applications or operating system to become unstable.
 ms.assetid: 956d6db4-f342-4b11-bfd9-92725284223f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

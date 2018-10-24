@@ -2,8 +2,6 @@
 Description: Specifies the precision of the DC coefficients, in bits. This property applies to MPEG video encoders.
 ms.assetid: 2b4d11c1-767c-4466-8291-7959d841ae65
 title: AVEncMPVIntraDCPrecision property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

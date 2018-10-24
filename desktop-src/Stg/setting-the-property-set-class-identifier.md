@@ -4,8 +4,6 @@ description: The IPropertyStorage SetClass method sets both the CLSID of the sto
 ms.assetid: 3f542a66-5e04-43c1-a386-7d709c615972
 keywords:
 - Setting the Property Set Class Identifier
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

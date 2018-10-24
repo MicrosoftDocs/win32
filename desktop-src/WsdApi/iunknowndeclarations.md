@@ -2,8 +2,6 @@
 Description: Generates declarations for the QueryInterface, AddRef and Release functions.
 ms.assetid: 347978e3-87f2-4a8b-969d-c196d1815881
 title: IUnknownDeclarations element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

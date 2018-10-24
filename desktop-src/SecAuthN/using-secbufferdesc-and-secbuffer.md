@@ -2,8 +2,6 @@
 Description: Communication often involves potentially large amounts of data or data of unknown length.
 ms.assetid: e7b12b9e-8caa-4dad-b81f-b609ccb92c9f
 title: Using SecBufferDesc and SecBuffer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

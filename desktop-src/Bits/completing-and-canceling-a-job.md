@@ -7,8 +7,6 @@ keywords:
 - canceling a job BITS
 - transfer job BITS , completing
 - completing a job BITS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

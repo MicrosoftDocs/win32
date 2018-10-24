@@ -2,8 +2,6 @@
 Description: Defines values for use with the FXECHO\_PARAMETERS structure.
 ms.assetid: bd8af2fc-7ae6-398a-0062-82090705e383
 title: FXECHO Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

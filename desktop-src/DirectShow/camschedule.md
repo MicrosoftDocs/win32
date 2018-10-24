@@ -2,8 +2,6 @@
 Description: The CAMSchedule class implements a scheduler for reference clocks.
 ms.assetid: 67aacffb-b781-4323-8973-355a76821401
 title: CAMSchedule class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

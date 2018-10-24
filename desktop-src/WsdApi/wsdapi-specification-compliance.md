@@ -2,8 +2,6 @@
 Description: Web Services on Devices API (WSDAPI) provides support for the Devices Profile for Web Services (DPWS) on Windows Vista, which enables Web Services (WS) communication between Windows-based PCs and network connected devices.
 ms.assetid: 61fceca3-a33e-40f7-9370-97605a81eb06
 title: WSDAPI Specification Compliance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

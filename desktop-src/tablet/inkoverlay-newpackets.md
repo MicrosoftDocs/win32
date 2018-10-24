@@ -2,8 +2,6 @@
 Description: Occurs when the ink collecto rreceives a packet.
 ms.assetid: 26d5a3eb-430a-4e21-8a3f-fdec5005cd6e
 title: InkOverlay.NewPackets event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

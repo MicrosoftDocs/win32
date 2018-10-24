@@ -8,8 +8,6 @@ keywords:
 - Multimedia PC Marketing Council,Level 2
 - MPC Level 2,system resources
 - MPC Level 2,minimum configuration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

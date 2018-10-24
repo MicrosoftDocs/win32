@@ -2,8 +2,6 @@
 title: Licensing and IClassFactory2
 description: Licensing and IClassFactory2
 ms.assetid: 2bead555-8c62-4f48-a4c6-6f0942ec75f8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Changes a partial lock to an exclusive lock.
 ms.assetid: 4999b539-620e-4fb3-b8d4-92767da1225f
 title: CShareLockNH::FirstPartialToExclusive method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

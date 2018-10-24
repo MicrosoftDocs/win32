@@ -2,8 +2,6 @@
 title: IAgentNotifySink ActivateInputState
 description: IAgentNotifySink ActivateInputState
 ms.assetid: 2476e475-d80c-47e9-bb60-e0fca41becc9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

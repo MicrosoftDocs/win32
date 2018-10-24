@@ -2,8 +2,6 @@
 Description: Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
 ms.assetid: 73d3c248-1254-444e-9fd8-4f144424ddb7
 title: D3DXMatrixDecompose function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

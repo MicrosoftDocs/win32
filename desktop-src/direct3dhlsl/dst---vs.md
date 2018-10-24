@@ -2,8 +2,6 @@
 title: dst - vs
 description: Calculates a distance vector.
 ms.assetid: 4315a29f-58e7-427f-aaa0-1fe1a81eb392
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

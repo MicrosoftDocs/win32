@@ -2,8 +2,6 @@
 title: How to Add Client Drawing Effects to a Text Layout
 description: Provides a short tutorial on adding client drawing effects to a DirectWrite application that displays text using the IDWriteTextLayout interface and a custom text renderer.
 ms.assetid: b66ff814-2113-48b0-8913-3d30a5d20077
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

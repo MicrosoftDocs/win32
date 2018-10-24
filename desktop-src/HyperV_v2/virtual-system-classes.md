@@ -2,8 +2,6 @@
 Description: Virtualization WMI classes related to the virtual machine.
 ms.assetid: 1BD64741-C316-4E74-B0AB-4E595C77FD91
 title: Virtual system classes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

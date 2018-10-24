@@ -2,8 +2,6 @@
 Description: Sets the data field in the application protocol data unit (APDU).
 ms.assetid: 4508e00c-2b1d-4be5-b3a7-083b367a2158
 title: ISCardCmd::put_Data method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

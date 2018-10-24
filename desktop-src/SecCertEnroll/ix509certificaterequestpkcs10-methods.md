@@ -2,8 +2,6 @@
 Description: The IX509CertificateRequestPkcs10 interface exposes the following methods.
 ms.assetid: 85D24693-72CC-43B0-9F29-50C4536E5D3B
 title: IX509CertificateRequestPkcs10 Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

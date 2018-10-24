@@ -4,8 +4,6 @@ description: The type \_UserSize function is a helper function for the \ wire\_m
 ms.assetid: 74a46418-1a02-47ed-a3ab-35f3364cc38f
 keywords:
 - type_UserSize
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Use of the IMM functionality in your IME-aware application relieves users of the need to remember all possible character values.
 ms.assetid: 43b3e561-b844-4688-ab3d-d99f92ed140e
 title: About Input Method Manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

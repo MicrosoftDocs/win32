@@ -2,8 +2,6 @@
 Description: Generates a simplified mesh using the provided weights that come as close as possible to the given MinValue.
 ms.assetid: 589356a9-f272-4851-92ae-54dbecc0b234
 title: D3DXSimplifyMesh function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

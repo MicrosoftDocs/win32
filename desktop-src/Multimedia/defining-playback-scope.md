@@ -5,8 +5,6 @@ ms.assetid: f2563226-7af1-4cb3-b468-c59738feeda2
 keywords:
 - MCIWndPlayFrom macro
 - MCIWndPlayTo macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

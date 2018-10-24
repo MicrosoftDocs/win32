@@ -2,8 +2,6 @@
 title: Creating Status Callback Functions
 description: This tutorial describes how to create a status callback function used to monitor the status of an Internet request.
 ms.assetid: 518d0800-5ea6-4327-8459-901e6d9a8a5a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

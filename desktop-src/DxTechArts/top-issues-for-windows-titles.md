@@ -2,8 +2,6 @@
 title: Top Issues for Windows Titles
 description: This article highlights many of the common issues we've seen in current-generation PC games.
 ms.assetid: 89b83473-1aa9-9a2d-8778-15cfb91cdea4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

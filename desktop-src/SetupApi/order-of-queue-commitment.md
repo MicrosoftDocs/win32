@@ -2,8 +2,6 @@
 Description: 'When the SetupCommitFileQueue function commits the file queue, it processes the file operations in the following order: file deletion operations, then file renaming operations, and finally, file copying operations.'
 ms.assetid: 23aae815-ff1a-435d-b14d-3c62a3355a1b
 title: Order of Queue Commitment
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

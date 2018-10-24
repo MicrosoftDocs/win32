@@ -4,8 +4,6 @@ description: The following functions are used in Windows Error Reporting.
 ms.assetid: 4e28f379-5793-4d76-898e-d87a0291c034
 keywords:
 - Windows error reporting Windows Error Reporting , functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

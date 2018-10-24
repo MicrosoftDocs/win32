@@ -2,8 +2,6 @@
 Description: The TAPI Object is the main object for TAPI 3.
 ms.assetid: 046f2646-6043-4d68-a42a-8750c016b3c8
 title: TAPI Object Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

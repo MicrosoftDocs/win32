@@ -2,8 +2,6 @@
 title: Defining COM Interfaces
 description: Microsoft defines many COM interfaces. In most cases, you can reuse these generic interfaces. However, some applications have specific requirements that make it desirable or necessary to define your own object interfaces.
 ms.assetid: 8a94bd7d-d101-411c-97de-9e9a46bf9591
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,6 @@
 ---
 ms.assetid: 4670b09f-2586-4325-aaa7-c6c7d9966987
 title: COM+ Developers Overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

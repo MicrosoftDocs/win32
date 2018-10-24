@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: e31253fc-b365-4414-9dee-906d4c41d16e
 title: CSeekingPassThru.CSeekingPassThru constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

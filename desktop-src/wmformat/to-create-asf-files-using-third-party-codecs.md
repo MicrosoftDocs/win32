@@ -12,8 +12,6 @@ keywords:
 - third-party codecs
 - codecs,third-party
 - codecs,creating ASF files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

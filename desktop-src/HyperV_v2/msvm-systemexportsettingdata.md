@@ -2,8 +2,6 @@
 Description: Associates a virtual machine and its export setting data.
 ms.assetid: FAAE7F74-07C0-4638-ABF9-5DEDBF2B9DD6
 title: Msvm_SystemExportSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

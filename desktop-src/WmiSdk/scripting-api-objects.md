@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 91bc0fad-1a4b-4b48-b5a0-1a6502d2ab26
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Scripting API Objects
 ms.author: windowssdkdev

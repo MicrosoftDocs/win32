@@ -2,8 +2,6 @@
 title: dcl_uav_raw (sm5 - asm)
 description: Declare an unordered access view (UAV) for use by a shader.
 ms.assetid: D0F43FF8-FF1C-4E42-AF42-F528C98FD680
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

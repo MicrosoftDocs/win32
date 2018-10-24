@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 81c89caf-843e-4a87-ac41-099de9174ea6
 title: System.FileCount
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

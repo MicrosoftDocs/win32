@@ -2,8 +2,6 @@
 Description: Changes made to the installation database are not written to the database until you call MsiDatabaseCommit.
 ms.assetid: 65271631-457c-4d3e-9384-126d2c9d63d7
 title: Committing Databases
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Adds a file to the most recently used (MRU) list.
 ms.assetid: 26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7
 title: Shell.AddToRecent method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

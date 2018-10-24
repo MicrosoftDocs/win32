@@ -2,8 +2,6 @@
 Description: This section contains an alphabetical listing of the enumerations that are used by the Print Spooler API.
 ms.assetid: '0a0f7fa8-99bf-482e-a26c-9fc208b4c687'
 title: Print Spooler API Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

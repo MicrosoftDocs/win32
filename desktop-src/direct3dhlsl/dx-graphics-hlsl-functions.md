@@ -2,8 +2,6 @@
 title: Functions
 description: Functions encapsulate HLSL statements.
 ms.assetid: b6f934e5-eac7-4859-b1d0-698632011e1d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Sent to a window when the SetWindowLong function is about to change one or more of the window's styles.
 ms.assetid: 71034362-3f67-49ae-bbbf-d38853ababb3
 title: WM_STYLECHANGING message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

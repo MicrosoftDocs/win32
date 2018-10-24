@@ -2,8 +2,6 @@
 title: How to Drag a Tree-View Item
 description: This topic demonstrates code for handling dragging and dropping of tree-view items.
 ms.assetid: 989BBC27-C025-4C54-9972-4725F04A5E95
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The IncremementPinVersion method increments the version number on the set of pins.
 ms.assetid: e1b3ec33-104d-4a12-9b11-f8bea09690a7
 title: CBaseFilter.IncrementPinVersion method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

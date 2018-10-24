@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: abc91ea8-0f3c-4b7c-9091-3c8193e610da
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - EnableOnlyConsentCapableClients method Remote Desktop Services

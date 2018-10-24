@@ -2,8 +2,6 @@
 Description: File restoration on a running system can be problematic. It is important that running applications (writers) indicate what to do when difficulties arise during restores, for instance, if the file being restored is currently in use.
 ms.assetid: 2cb963a8-7077-4419-96d8-cba0fd011e4f
 title: VSS Restore Configurations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

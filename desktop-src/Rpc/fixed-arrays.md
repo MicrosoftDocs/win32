@@ -2,8 +2,6 @@
 title: Fixed Arrays
 description: If your interface specifies an array with a specific number of elements as a parameter, it is using a fixed array. When using MIDL, you define fixed arrays in the same way you define them in C. You specify the array's type, name, and size.
 ms.assetid: b9a2fa0b-1386-43e1-ab55-0a57cd8d1f18
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

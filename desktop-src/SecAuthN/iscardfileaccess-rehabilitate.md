@@ -2,8 +2,6 @@
 Description: Makes a file (EF or DF) that was previously made not valid by using the Invalidate method, accessible by the application.
 ms.assetid: 1906fcc5-ae76-4950-b2eb-e5ce1882637f
 title: ISCardFileAccess::Rehabilitate method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

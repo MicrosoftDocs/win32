@@ -2,8 +2,6 @@
 Description: Elements provided by Transactional NTFS (TxF).
 ms.assetid: 7a610ba4-88d5-4274-b068-8cbde9a67a95
 title: Transactional NTFS Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

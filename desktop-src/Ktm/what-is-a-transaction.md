@@ -2,8 +2,6 @@
 Description: 'A transaction is a group of operations that have the following properties: atomic, consistent, isolated, and durable (ACID).'
 ms.assetid: b3da52a3-1c52-4577-a997-7e72ebc03fa8
 title: What is a Transaction?
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

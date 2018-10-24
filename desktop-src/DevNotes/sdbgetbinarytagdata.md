@@ -2,8 +2,6 @@
 Description: Retrieves the binary data for the specified TAGID.
 ms.assetid: 18992406-67b4-4c48-9629-04d6bf1c5824
 title: SdbGetBinaryTagData function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

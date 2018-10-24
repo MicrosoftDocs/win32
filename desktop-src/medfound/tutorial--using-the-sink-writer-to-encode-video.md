@@ -2,8 +2,6 @@
 Description: This tutorial uses the Sink Writer to encode a video file.
 ms.assetid: 3E297366-0863-4E89-A0D5-438CD1FC5AF9
 title: 'Tutorial: Using the Sink Writer to Encode Video'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

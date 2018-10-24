@@ -2,8 +2,6 @@
 Description: An association between an instance of Msvm\_VirtualSystemSettingData and the Msvm\_VirtualSystemSettingData instance that represents the most recent snapshot upon which this object is based.
 ms.assetid: F779775B-9AB3-4495-B6FF-9985FCDF63E4
 title: Msvm_ParentChildSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Creates a communication channel with the secure audio path driver.
 ms.assetid: D75F2C7F-AFE6-42AF-A8A2-ED7959B14123
 title: SapCreateInstance Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

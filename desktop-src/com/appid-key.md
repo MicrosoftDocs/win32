@@ -4,8 +4,6 @@ description: Groups the configuration options for one or more DCOM objects into 
 ms.assetid: 4e3d8c87-e6d7-4b4d-8f72-7180be1e51cf
 keywords:
 - AppID registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

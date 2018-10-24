@@ -2,8 +2,6 @@
 Description: Contains a list of basic service set (BSS) identifiers.
 ms.assetid: 22907f94-1ae8-4938-a816-b406656256c0
 title: DOT11_BSSID_LIST structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

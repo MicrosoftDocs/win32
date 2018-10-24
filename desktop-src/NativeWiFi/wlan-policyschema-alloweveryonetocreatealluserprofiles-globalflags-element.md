@@ -2,8 +2,6 @@
 Description: Specifies whether any user can create an all-user profile.
 ms.assetid: b9bdfe85-b9d5-4dcc-a7f8-05cce9702ec3
 title: allowEveryoneToCreateAllUserProfiles (globalFlags) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

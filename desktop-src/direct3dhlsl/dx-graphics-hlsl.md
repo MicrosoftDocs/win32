@@ -2,8 +2,6 @@
 title: HLSL
 description: HLSL is the High Level Shading Language for DirectX. Using HLSL, you can create C like programmable shaders for the Direct3D pipeline.
 ms.assetid: 09cdd8d6-0cf5-4f7e-b480-f748d2fa9ca9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

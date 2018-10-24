@@ -2,8 +2,6 @@
 Description: Imports the initial replication for a virtual machine.
 ms.assetid: 151211fe-e58e-4fd4-87cd-cdb2ad55c0b1
 title: ImportInitialReplica method of the Msvm_ReplicationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

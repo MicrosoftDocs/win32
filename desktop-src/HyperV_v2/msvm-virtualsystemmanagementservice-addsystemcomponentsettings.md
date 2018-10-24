@@ -2,8 +2,6 @@
 Description: Adds generic settings to a virtual system configuration.
 ms.assetid: ae04be39-0401-43e9-b19b-3539ca1786ec
 title: AddSystemComponentSettings method of the Msvm_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Microsoft distributed programming model consists of several technologies, including MSMQ, IIS, DCOM, and COM+. All of these services were designed for use by distributed applications.
 ms.assetid: c72bbd47-0219-40ba-a7d5-2a6b725972d0
 title: COM+ Design Assumptions and Principles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

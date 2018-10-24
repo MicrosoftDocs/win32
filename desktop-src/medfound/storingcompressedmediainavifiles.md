@@ -2,8 +2,6 @@
 Description: Describes how to store Windows Media data in an AVI file.
 ms.assetid: f2a9d9ff-4876-4f24-b96a-5d89e42fa3d5
 title: Storing Compressed Media in AVI Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

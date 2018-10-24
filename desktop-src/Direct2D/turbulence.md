@@ -4,8 +4,6 @@ description: Use the turbulence effect to generate a bitmap based on the Perlin 
 ms.assetid: 86C1990E-958C-46D7-840A-E4A17F1D1740
 keywords:
 - turbulence effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

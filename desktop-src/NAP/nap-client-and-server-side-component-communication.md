@@ -2,8 +2,6 @@
 title: NAP Client and Server-side Component Communication
 description: NAP Client and Server-side Component Communication
 ms.assetid: 7658cf0c-607b-44ba-b579-72082d0d1f51
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

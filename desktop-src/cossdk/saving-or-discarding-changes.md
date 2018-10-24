@@ -2,8 +2,6 @@
 Description: Saving or Discarding Changes
 ms.assetid: eba4e794-0929-450c-a172-6de6c2f2f2c4
 title: Saving or Discarding Changes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

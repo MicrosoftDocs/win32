@@ -2,8 +2,6 @@
 title: Certification requirements for Windows Desktop Apps
 description: Document version 10Document date July 29, 2015This document contains the technical requirements and eligibility qualifications that a desktop app must meet in order to participate in the Windows 10 Desktop App Certification Program.
 ms.assetid: 0F19774E-5258-4152-BBD7-9C37A05C7F69
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

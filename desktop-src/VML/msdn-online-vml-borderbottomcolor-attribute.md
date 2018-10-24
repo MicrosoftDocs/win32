@@ -2,8 +2,6 @@
 title: VML BorderBottomColor Attribute
 description: VML BorderBottomColor Attribute
 ms.assetid: cfafb92c-24d9-402f-860a-23cf3c98201a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

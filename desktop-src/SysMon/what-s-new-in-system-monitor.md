@@ -2,8 +2,6 @@
 title: What's New in System Monitor
 description: The following table identifies what is new for each release of System Monitor (SYSMON).
 ms.assetid: 9cb0e0db-0933-4993-a995-74a36a24eccb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The SetTargetPath event notifies the installer to check and set the selected path. If the path is not valid to be written to, then the installer blocks further ControlEvents associated with the control.
 ms.assetid: 5649da99-1541-47ab-9d2e-b33a705998ec
 title: SetTargetPath ControlEvent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

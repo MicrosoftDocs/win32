@@ -2,8 +2,6 @@
 title: TTSModeID Property
 description: TTSModeID Property
 ms.assetid: 9205c37e-e006-466a-9b33-b98408c01ed7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Hide Method
 description: Hide Method
 ms.assetid: c30eda78-0951-43b4-8ae1-daccbd41170d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

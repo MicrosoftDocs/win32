@@ -2,8 +2,6 @@
 Description: Video auxiliary (VAUX) source control pack in a digital video (DV) media type.
 ms.assetid: 14098435-5033-489c-908f-cbb814a0349c
 title: MF_MT_DV_VAUX_CTRL_PACK attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

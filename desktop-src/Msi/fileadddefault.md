@@ -2,8 +2,6 @@
 Description: The value of the FILEADDDEFAULT property is a list of file keys delimited by commas that are installed in their default configuration.
 ms.assetid: 089b8dd9-1841-4b6d-8da8-d5aa5de85a68
 title: FILEADDDEFAULT property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

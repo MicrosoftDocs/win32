@@ -2,8 +2,6 @@
 title: Fragment Cache
 description: The HTTP Server API provides functionality for users to store data fragments in a cache for use in rapidly forming HTTP responses.
 ms.assetid: 0f9a768e-723c-4c7b-a746-6b817441409c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

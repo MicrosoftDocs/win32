@@ -2,8 +2,6 @@
 Description: Creates a BitLocker volume with the specified file system type of the discovery volume.
 ms.assetid: 088e7224-a336-4742-a12f-86755defe16c
 title: PrepareVolume method of the Win32_EncryptableVolume class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

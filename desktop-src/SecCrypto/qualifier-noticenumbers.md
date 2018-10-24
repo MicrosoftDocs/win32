@@ -2,8 +2,6 @@
 Description: Retrieves the collection of user notice numbers.
 ms.assetid: 5db38a53-e71b-4e80-9374-69b0c044fbc5
 title: Qualifier.NoticeNumbers property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

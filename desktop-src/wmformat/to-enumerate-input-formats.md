@@ -11,8 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),input format enumerations
 - profiles,input format enumerations
 - codecs,input format enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

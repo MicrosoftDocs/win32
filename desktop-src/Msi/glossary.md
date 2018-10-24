@@ -2,8 +2,6 @@
 Description: A B C D E F G I M P Q R S T U V
 ms.assetid: 58045ea3-032b-4ca0-8c0a-b1587b19bb25
 title: Glossary
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

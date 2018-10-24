@@ -2,8 +2,6 @@
 Description: The AllocateRegistrySpace action ensures that the amount of free registry space specified by the AVAILABLEFREEREG property exists in the registry.
 ms.assetid: bb6ac685-5ad8-48e6-9c03-9ca42268d727
 title: AllocateRegistrySpace Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Contains a pointer to the applications IMFSourceOpenMonitor interface.
 ms.assetid: 5b94ae87-91fc-49d6-9355-83327cfdb3f3
 title: MFPKEY_SourceOpenMonitor property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

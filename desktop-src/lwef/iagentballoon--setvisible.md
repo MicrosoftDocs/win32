@@ -2,8 +2,6 @@
 title: IAgentBalloon SetVisible
 description: IAgentBalloon SetVisible
 ms.assetid: 682ebc6a-522d-4a39-bfa4-30a7c4d84d25
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

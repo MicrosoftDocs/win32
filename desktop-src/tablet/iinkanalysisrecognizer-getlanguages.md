@@ -2,8 +2,6 @@
 Description: Retrieves the identifiers for the locales that this IInkAnalysisRecognizer supports.
 ms.assetid: 14c91ad0-f49e-43e7-848c-abc96b0dffa8
 title: IInkAnalysisRecognizer::GetLanguages method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

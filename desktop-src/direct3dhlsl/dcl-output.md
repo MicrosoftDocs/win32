@@ -2,8 +2,6 @@
 title: dcl_output (sm4 - asm)
 description: dcl\_output (sm4 - asm)
 ms.assetid: 47e707ad-3ca4-477e-9eb8-3ec462abe864
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

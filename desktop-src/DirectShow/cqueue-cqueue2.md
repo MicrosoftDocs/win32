@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 5ad31d31-7c1c-4877-bc39-218859e4137c
 title: CQueue.CQueue constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

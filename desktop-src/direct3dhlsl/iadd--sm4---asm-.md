@@ -2,8 +2,6 @@
 title: iadd (sm4 - asm)
 description: Integer addition.
 ms.assetid: EF78EA65-DC16-469A-9E45-52844FF4BD93
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

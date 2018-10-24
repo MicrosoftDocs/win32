@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e09fcadc-282f-4f07-b69c-b15bfdb07a7d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Executing Privileged Operations Using C++
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: Sets an array of pointers to transposed matrices.
 ms.assetid: f2db10cb-a146-412d-8de8-f093253470fd
 title: ID3DXConstantTable::SetMatrixTransposePointerArray method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

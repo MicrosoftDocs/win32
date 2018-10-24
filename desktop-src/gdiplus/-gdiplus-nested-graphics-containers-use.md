@@ -2,8 +2,6 @@
 Description: Windows GDI+ provides containers that you can use to temporarily replace or augment part of the state in a Graphics object.
 ms.assetid: f3fce8ef-903a-4b9d-b76c-562739d02eb3
 title: Nested Graphics Containers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

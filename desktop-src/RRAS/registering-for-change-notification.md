@@ -2,8 +2,6 @@
 title: Registering for Change Notification
 description: A client can register to receive notification of changes to routing information that is stored in the routing table manager. This request can only be made after a client has registered with the routing table manager.
 ms.assetid: 90dc98eb-0d0b-4450-848b-c7cedab75a52
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Modifies guest service settings.
 ms.assetid: a308aa59-bd43-4dd5-a690-c435102e8043
 title: ModifyGuestServiceSettings method of the Msvm_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A block clone operation instructs the file system to copy a range of file bytes on behalf of an application.
 ms.assetid: E18E8D79-3985-40B8-A4C5-A73A21E5C527
 title: Block Cloning
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

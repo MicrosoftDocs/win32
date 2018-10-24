@@ -4,8 +4,6 @@ description: This tutorial takes you through the steps required to create a simp
 ms.assetid: afdfa037-58c0-4dcf-aa27-6839db0515e6
 keywords:
 - Remote Procedure Call RPC , tutorial
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

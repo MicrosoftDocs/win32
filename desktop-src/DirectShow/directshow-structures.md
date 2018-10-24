@@ -2,8 +2,6 @@
 Description: DirectShow Structures
 ms.assetid: 378f6f43-5c05-4ae4-be24-956f9fc0cacf
 title: DirectShow Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: ICE18 validates that any empty directories used as a key path for a component are listed in the CreateFolder table.
 ms.assetid: de31b893-831b-4a6d-809a-c4a3056b8a66
 title: ICE18
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

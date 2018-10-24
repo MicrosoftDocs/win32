@@ -2,8 +2,6 @@
 Description: Gets a unique session id created for this session.
 ms.assetid: 779ebea9-69ff-469a-8ee0-06d570ede6cb
 title: IMFMediaKeySession::get_SessionId method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

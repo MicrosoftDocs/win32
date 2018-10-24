@@ -2,8 +2,6 @@
 Description: Thread identifier of the owning thread.
 ms.assetid: 495598db-a0c9-473b-8184-121a1939b55a
 title: CCritSec::m_currentOwner member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

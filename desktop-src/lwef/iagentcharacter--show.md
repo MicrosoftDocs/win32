@@ -2,8 +2,6 @@
 title: IAgentCharacter Show
 description: IAgentCharacter Show
 ms.assetid: 5f13dcef-3777-41eb-827f-6162bad71a2e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

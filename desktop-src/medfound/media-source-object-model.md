@@ -2,8 +2,6 @@
 Description: Media Source Object Model
 ms.assetid: 88373028-8a34-4bf1-8300-d1a7e4c7dd75
 title: Media Source Object Model
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

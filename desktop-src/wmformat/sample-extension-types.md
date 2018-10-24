@@ -15,8 +15,6 @@ keywords:
 - sample extensions,types
 - data unit extensions,types
 - buffer properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

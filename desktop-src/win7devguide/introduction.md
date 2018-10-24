@@ -2,8 +2,6 @@
 title: Introduction
 ms.assetid: ce331fe5-b28a-49b7-9854-4312dc18bba4
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

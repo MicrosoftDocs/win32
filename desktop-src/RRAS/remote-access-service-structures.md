@@ -2,8 +2,6 @@
 title: Remote Access Service Structures
 description: Use the following structures to implement RAS functionality.
 ms.assetid: c20e8892-7c5e-48cc-939a-9b747fefe09d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

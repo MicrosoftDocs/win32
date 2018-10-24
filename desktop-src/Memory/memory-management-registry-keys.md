@@ -2,8 +2,6 @@
 Description: System virtual address (VA) space on 32-bit systems can become exhausted due to fragmentation. Several registry keys can be used to configure memory limits on 32-bit systems that experience this issue.
 ms.assetid: ec2a8c6b-cd8e-4085-b337-02f78a210bb5
 title: Memory Management Registry Keys
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

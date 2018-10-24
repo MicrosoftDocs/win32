@@ -2,8 +2,6 @@
 Description: National Language Support Reference
 ms.assetid: 84947601-f92e-4141-8ff5-0ddb8346d407
 title: National Language Support Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

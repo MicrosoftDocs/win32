@@ -1,8 +1,6 @@
 ---
 Description: Retrieves an enumerator that will return one pointer to an item identifier list (PIDL) for every extended view.
 title: IShellFolderViewType::EnumViews method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

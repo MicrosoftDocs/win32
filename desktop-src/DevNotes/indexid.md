@@ -2,8 +2,6 @@
 Description: The identifier of the index to be accessed in a database.
 ms.assetid: 559e73bf-91c2-4dbf-a667-e5c0431aaffa
 title: INDEXID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

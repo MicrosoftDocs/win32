@@ -2,8 +2,6 @@
 title: The Best of Windows and the Web
 description: With Windows 7, it's easy to get connected and stay connected.
 ms.assetid: fd37fbc4-7253-48fc-b8d3-ad58b0c8091b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

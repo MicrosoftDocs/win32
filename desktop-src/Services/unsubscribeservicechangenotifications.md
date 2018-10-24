@@ -2,8 +2,6 @@
 Description: Unsubscribes from service status change notifications.
 ms.assetid: 8c04ebf7-4d61-4617-b120-dbe26b2f9ad2
 title: UnsubscribeServiceChangeNotifications function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

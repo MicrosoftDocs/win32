@@ -2,8 +2,6 @@
 Description: Indicates the location of the event.
 ms.assetid: 014d4c90-f029-479a-bdc9-c1ef5c9e3529
 title: System.Calendar.Location
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

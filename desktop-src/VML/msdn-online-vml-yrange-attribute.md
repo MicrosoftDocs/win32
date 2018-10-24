@@ -2,8 +2,6 @@
 title: VML YRange Attribute
 description: VML YRange Attribute
 ms.assetid: 9386fc06-cf00-45ce-95fe-13a2ca40cb69
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

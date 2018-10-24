@@ -2,8 +2,6 @@
 title: In-Context Hook Function Precautions
 description: For performance reasons, client developers register in-context hook functions.
 ms.assetid: 14b48920-a291-4519-b005-e559263a0e83
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

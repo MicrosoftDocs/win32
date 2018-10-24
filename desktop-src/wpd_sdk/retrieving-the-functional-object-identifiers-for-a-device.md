@@ -2,8 +2,6 @@
 Description: Retrieving the Functional Object Identifiers for a Device
 ms.assetid: 9a13071a-95a1-4330-92d5-11fa72a8f211
 title: Retrieving the Functional Object Identifiers for a Device
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

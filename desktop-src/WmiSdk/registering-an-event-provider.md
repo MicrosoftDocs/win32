@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 81f2ba3b-a1cb-42f5-b1a7-b1ca65963902
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering an Event Provider
 ms.author: windowssdkdev

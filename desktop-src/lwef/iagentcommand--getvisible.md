@@ -2,8 +2,6 @@
 title: IAgentCommand GetVisible
 description: IAgentCommand GetVisible
 ms.assetid: cac07737-6a0b-4587-ae16-2137ce0d412c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

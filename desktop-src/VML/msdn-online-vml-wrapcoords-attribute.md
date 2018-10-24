@@ -2,8 +2,6 @@
 title: VML WrapCoords Attribute
 description: VML WrapCoords Attribute
 ms.assetid: 14a67ca9-3d36-4523-bdb1-5b7c36cd3d39
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

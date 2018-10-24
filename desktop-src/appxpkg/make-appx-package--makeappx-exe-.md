@@ -2,8 +2,6 @@
 title: App packager (MakeAppx.exe)
 description: App packager (MakeAppx.exe) creates an app package from files on disk or extracts the files from an app package to disk.
 ms.assetid: 9B7BF420-8E19-4BFD-B378-D09E61F68A39
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

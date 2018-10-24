@@ -2,8 +2,6 @@
 Description: The user SID for the enumerated component.
 ms.assetid: 52dd8514-bb06-4c67-ba07-950e5e21b85a
 title: Component.UserSID property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

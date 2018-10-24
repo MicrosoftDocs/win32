@@ -2,8 +2,6 @@
 title: Accessing Remote Computers
 description: You can use the Windows Event Log API to access data on the local computer or on a remote computer.
 ms.assetid: df789981-0e1c-4d68-9bd5-5d054f1724d4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

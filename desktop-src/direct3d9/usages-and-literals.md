@@ -2,8 +2,6 @@
 Description: Usage is similar to a parameter's scope, because it defines the scope in which the parameter is valid.
 ms.assetid: 9ba10dba-626f-4cb8-8dc2-1419329b199e
 title: Usages and Literals (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

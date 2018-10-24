@@ -2,8 +2,6 @@
 Description: Creates a texture from a file in memory. This is a more advanced function than D3DXCreateTextureFromFileInMemory.
 ms.assetid: e515697c-0e24-4d96-b58a-dc4f27683021
 title: D3DXCreateTextureFromFileInMemoryEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

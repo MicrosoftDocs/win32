@@ -2,8 +2,6 @@
 Description: The following interfaces are used by an app to manage the print document package.
 ms.assetid: 576B4527-A753-4A73-899B-896DCB8B8945
 title: Print Document Package API Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

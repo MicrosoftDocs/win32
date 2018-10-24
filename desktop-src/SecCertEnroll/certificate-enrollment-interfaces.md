@@ -2,8 +2,6 @@
 Description: The following interfaces can be used to enroll a user or a computer in a certificate hierarchy.
 ms.assetid: 653bc971-8bda-4e23-a56a-dbeb36eeaf6d
 title: Certificate Enrollment Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

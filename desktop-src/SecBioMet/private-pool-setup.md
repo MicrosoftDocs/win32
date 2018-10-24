@@ -2,8 +2,6 @@
 title: Private Pool Setup
 description: Contains the setup console project.
 ms.assetid: 0B00690C-9B13-4D8B-8AB6-F8BD2E35858C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

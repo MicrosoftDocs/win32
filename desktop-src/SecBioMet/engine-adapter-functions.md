@@ -2,8 +2,6 @@
 title: Engine Adapter Functions
 description: An engine adapter generates biometric templates from captured samples, matches samples to existing templates, and indexes templates.
 ms.assetid: d5f4683c-0613-493b-830f-0616ffa0694c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

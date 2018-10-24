@@ -2,8 +2,6 @@
 Description: WavSource Sample
 ms.assetid: 905fbba5-0a04-4048-80bd-f8707c4879da
 title: WavSource Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

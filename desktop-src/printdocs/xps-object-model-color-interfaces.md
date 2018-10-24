@@ -2,8 +2,6 @@
 Description: This topic lists the color management interfaces of the XPS Document API in an XPS OM.
 ms.assetid: a4fb5714-2806-4925-a6d1-63ecfe50e10a
 title: XPS OM Color Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

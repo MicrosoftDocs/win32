@@ -2,8 +2,6 @@
 title: Categorizing DCOM Proxies and Stubs
 description: Categorizing DCOM Proxies and Stubs
 ms.assetid: f5d117d6-6c2c-4beb-8869-1581a5b1846f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

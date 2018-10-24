@@ -2,8 +2,6 @@
 Description: The m\_pRenderer member variable is a pointer to the filter.
 ms.assetid: 1375baa2-554e-4027-a060-8959db491f83
 title: CRendererInputPin::m_pRenderer member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

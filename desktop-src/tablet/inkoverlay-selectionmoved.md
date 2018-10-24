@@ -2,8 +2,6 @@
 Description: Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 78b5ab11-01c0-4bdb-ae1f-ec55774abdce
 title: InkOverlay.SelectionMoved event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Describes how to use the Microsoft UI Automation \ 32;API to ensure
 ms.assetid: D584E90D-6537-4F48-8553-0DCA061FAF2A
 keywords:
 - Windowless ActiveX Control, Accessibility
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

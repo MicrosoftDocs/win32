@@ -27,8 +27,6 @@ keywords:
 - TSF (Text Services Framework),LoadLibrary calls
 - text services,LoadLibrary calls
 - TSF-enabled applications,LoadLibrary calls
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

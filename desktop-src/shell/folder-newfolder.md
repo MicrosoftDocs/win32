@@ -2,8 +2,6 @@
 Description: Creates a new folder.
 ms.assetid: 7a552e5a-e9a3-4fcf-bc6b-17e8bc39af87
 title: Folder.NewFolder method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

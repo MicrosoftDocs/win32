@@ -2,8 +2,6 @@
 Description: This topic describes how to use the File Type Verifier that is provided in the Windows 7 SDK.
 ms.assetid: 96FCA74B-DEB2-49D1-B670-EBD8BE0783F1
 title: How to Use the File Type Verifier
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

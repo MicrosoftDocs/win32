@@ -2,8 +2,6 @@
 Description: The GetPropertySetter method retrieves the object's property setter. When the object is rendered, the property information contained in the property setter is applied to the object.
 ms.assetid: 7a9c5ee4-2df6-4eaa-a583-5efea0cf7bde
 title: IAMTimelineObj::GetPropertySetter method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

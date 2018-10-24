@@ -2,8 +2,6 @@
 Description: External Device Transport Property Set
 ms.assetid: 9c80cf59-054f-49b6-9456-ed5e091cbfaf
 title: External Device Transport Property Set
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

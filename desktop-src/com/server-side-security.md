@@ -2,8 +2,6 @@
 title: Server-Side Security
 description: Server-Side Security
 ms.assetid: 6c1d210e-daf0-490a-a6b9-65d99b9e1d7d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

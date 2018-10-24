@@ -2,8 +2,6 @@
 Description: Device Characteristics.
 ms.assetid: c059a14d-e698-433f-a483-d29d30ab703f
 title: System.Devices.DeviceCharacteristics
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

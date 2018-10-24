@@ -2,8 +2,6 @@
 title: Playback Controls
 description: Playback Controls
 ms.assetid: eba750e1-ee3d-490c-8ebf-c53d8dbae0f0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

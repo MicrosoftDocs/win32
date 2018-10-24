@@ -2,8 +2,6 @@
 title: Playback Enhancements
 description: Playback Enhancements
 ms.assetid: 9be86f37-d8e5-4506-8e49-4f7ed449b099
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

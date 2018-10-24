@@ -2,8 +2,6 @@
 title: IAgentNotifySink DragComplete
 description: IAgentNotifySink DragComplete
 ms.assetid: b2d9b9c2-709e-4988-aa92-f129e3836fc7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

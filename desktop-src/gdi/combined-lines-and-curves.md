@@ -2,8 +2,6 @@
 Description: In addition to drawing lines or curves, applications can draw combinations of line and curve output by calling a single function. For example, an application can draw the outline of a pie chart by calling the AngleArc function.
 ms.assetid: 0abcc20c-ba89-4eb4-bbd1-7ea27d367fb8
 title: Combined Lines and Curves
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

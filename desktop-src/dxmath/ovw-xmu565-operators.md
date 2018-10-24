@@ -2,8 +2,6 @@
 Description: The XMU565 structure exposes the following operators.
 ms.assetid: 38869bb0-5b02-4e5c-ba66-d842a39fe417
 title: XMU565 Operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Represents an association in which an entry of a forwarding database applies to a switch port.
 ms.assetid: e63ac61d-ed0c-49e9-b056-4fcb6d1d5455
 title: CIM_SwitchPortDynamicForwarding class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

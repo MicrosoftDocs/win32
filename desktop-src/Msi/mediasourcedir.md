@@ -2,8 +2,6 @@
 Description: The installer sets the MediaSourceDir property to 1 when the installation uses a source located on media, such as a CD-ROM.
 ms.assetid: 79c7c5eb-b212-4dbf-943a-00ebd6037ce1
 title: MediaSourceDir property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

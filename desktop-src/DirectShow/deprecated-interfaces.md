@@ -2,8 +2,6 @@
 Description: Deprecated Interfaces
 ms.assetid: 5b798477-9b36-4f59-b9cc-2938b5e4009f
 title: Deprecated Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

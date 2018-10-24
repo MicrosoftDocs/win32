@@ -2,8 +2,6 @@
 Description: Wi-Fi Direct Interface Address.
 ms.assetid: bc4245f4-2452-479c-8e93-df8b3a517920
 title: System.Devices.WiFiDirect.InterfaceAddress
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

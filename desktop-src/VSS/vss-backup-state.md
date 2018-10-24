@@ -2,8 +2,6 @@
 Description: During a backup operation, the requester uses IVssBackupComponents::SetBackupState to define the type of operation in progress.
 ms.assetid: 43dcdac7-ed8e-4150-83eb-585e0e92f13c
 title: VSS Backup State
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

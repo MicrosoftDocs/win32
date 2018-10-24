@@ -2,8 +2,6 @@
 Description: Creates the second constant (in register src3) for the sincos - ps pixel shader instruction.
 ms.assetid: 267afcb4-660f-4ef8-b77f-d9cbb91e81e3
 title: D3DSINCOSCONST2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

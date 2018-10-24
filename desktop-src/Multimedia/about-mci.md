@@ -7,8 +7,6 @@ keywords:
 - multimedia,Media Control Interface (MCI)
 - Media Control Interface (MCI),about
 - MCI (Media Control Interface),about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

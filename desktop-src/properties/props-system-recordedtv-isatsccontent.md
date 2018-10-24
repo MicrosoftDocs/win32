@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: c90a3efc-0d90-4eae-8651-a0dac04db862
 title: System.RecordedTV.IsATSCContent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

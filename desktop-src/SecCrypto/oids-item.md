@@ -2,8 +2,6 @@
 Description: Retrieves an OID object from the collection. This is the default property.
 ms.assetid: af0de567-e520-411d-850d-fbdbcb2ace69
 title: OIDs.Item property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

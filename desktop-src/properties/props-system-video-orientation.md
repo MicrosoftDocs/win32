@@ -2,8 +2,6 @@
 Description: This is the video orientation in degrees.
 ms.assetid: 9534be9e-ab57-4c36-b1ae-ff12d632574c
 title: System.Video.Orientation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

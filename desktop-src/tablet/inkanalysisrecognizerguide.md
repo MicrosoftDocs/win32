@@ -2,8 +2,6 @@
 Description: Specifies the guide, or area where ink is drawn and recognized.
 ms.assetid: 5bd874ff-003b-4471-b4ef-50731007dc5a
 title: InkAnalysisRecognizerGuide structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

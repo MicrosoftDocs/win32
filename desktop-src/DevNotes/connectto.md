@@ -2,8 +2,6 @@
 Description: HKLM\\SOFTWARE\\Microsoft\\MSSQLServer\\Client.
 ms.assetid: d6eb774b-d7ae-4f51-9947-90fb176e9acf
 title: ConnectTo
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

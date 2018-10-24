@@ -2,8 +2,6 @@
 Description: The name of the computer where the item or file is located.
 ms.assetid: 8a126f68-40f9-433a-9697-ff5089b2da9e
 title: System.ComputerName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

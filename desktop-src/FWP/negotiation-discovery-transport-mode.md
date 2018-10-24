@@ -2,8 +2,6 @@
 title: Negotiation Discovery Transport Mode
 description: The Negotiation Discovery Transport Mode IPsec policy scenario requires IPsec transport mode protection for all matching inbound traffic, and requests IPsec protection for matching outbound traffic.
 ms.assetid: c08d9d03-7d77-43c2-8468-964b498b45f8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Self-Registration
 description: Self-registration is the standard means through which a server module can package its own registry operations, both registration and unregistration, into the module itself.
 ms.assetid: fb5dcb2b-b0e3-4f37-a8e7-b84b9a265227
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: An access token is an object that describes the security context of a process or thread.
 ms.assetid: 350159c9-2399-427a-ba44-c897a9664299
 title: Access Tokens
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

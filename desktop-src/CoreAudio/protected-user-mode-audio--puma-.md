@@ -2,8 +2,6 @@
 Description: Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering.
 ms.assetid: 27a50026-9e48-48b1-9249-7528a97333c9
 title: Protected User Mode Audio (PUMA)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

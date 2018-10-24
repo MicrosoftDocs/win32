@@ -2,8 +2,6 @@
 title: IP Address Control Reference
 description: .
 ms.assetid: ab89d354-9d0c-492b-af3f-a3180821f0e1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

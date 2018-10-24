@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 780f2564-73f8-46a7-99fe-9ea78b00dedb
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WmiPerfInst Provider
 ms.author: windowssdkdev

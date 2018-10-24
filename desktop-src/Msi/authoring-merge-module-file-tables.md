@@ -2,8 +2,6 @@
 Description: A File Table is required in every merge module, and should have a record for each file that is being delivered to the target installation package by the merge module.
 ms.assetid: 436933c7-6e5d-4b4e-9147-c60a26871dbe
 title: Authoring Merge Module File Tables
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

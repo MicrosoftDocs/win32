@@ -10,8 +10,6 @@ api_name:
 - BSCO_OPTION
 api_type:
 - NA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

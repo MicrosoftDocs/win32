@@ -2,8 +2,6 @@
 Description: DVD Playback Enhancements in Windows Vista
 ms.assetid: b3cf043f-c974-4240-8291-5c717bd8afaa
 title: DVD Playback Enhancements in Windows Vista
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

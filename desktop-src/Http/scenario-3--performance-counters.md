@@ -2,8 +2,6 @@
 title: Scenario 3 Performance Counters
 description: Performance counters measure quantities of information or data, according to the number, size, duration, and rate of data being requested or received.
 ms.assetid: 1b264144-7600-402e-86f8-674a2d02f9f9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Color Attribute (Shadow)(VML)
 description: Color Attribute (Shadow)(VML)
 ms.assetid: 677615b7-b4a4-411f-b04e-3ed0399f4c05
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Multithreaded Apartments
 description: Multithreaded Apartments
 ms.assetid: d3e6acd9-cd5c-4a2c-8526-4f43db3b606b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

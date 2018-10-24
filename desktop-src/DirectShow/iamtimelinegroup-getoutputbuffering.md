@@ -2,8 +2,6 @@
 Description: The GetOutputBuffering method retrieves the number of frames rendered in advance during preview.
 ms.assetid: 93cb8d18-f1b7-48f9-af41-97f010304b05
 title: IAMTimelineGroup::GetOutputBuffering method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

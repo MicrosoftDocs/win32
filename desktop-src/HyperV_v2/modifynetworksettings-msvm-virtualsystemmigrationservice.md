@@ -2,8 +2,6 @@
 Description: Modifies migration network subnets of the virtual system migration service.
 ms.assetid: 54ea230a-cda9-4fff-8f79-88f2922b2b15
 title: ModifyNetworkSettings method of the Msvm_VirtualSystemMigrationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

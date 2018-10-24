@@ -2,8 +2,6 @@
 Description: Occurs when the position of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 310003a1-f282-4efa-9a75-c575a9193a77
 title: InkPicture.SelectionMoving event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

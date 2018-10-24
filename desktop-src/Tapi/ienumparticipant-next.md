@@ -2,8 +2,6 @@
 Description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: bd94f592-ac6f-48b7-8190-352a5e18f224
 title: IEnumParticipant::Next method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

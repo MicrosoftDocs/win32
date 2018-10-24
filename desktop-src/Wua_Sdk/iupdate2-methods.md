@@ -2,8 +2,6 @@
 Description: The IUpdate2 interface defines the following method.
 ms.assetid: 1859a70c-9ed1-400a-8e3f-412432862ace
 title: IUpdate2 Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

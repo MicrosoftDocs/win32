@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7609d6cd-217d-4fdc-993a-f0e907ec8f4f
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - IWTSVirtualChannelCallback2 interface Remote Desktop Services

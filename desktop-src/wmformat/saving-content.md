@@ -11,8 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),Fast Cache streaming
 - streams,saving content
 - Fast Cache streaming,saving content
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

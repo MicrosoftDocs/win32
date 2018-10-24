@@ -2,8 +2,6 @@
 Description: Represents access to a rectangle.
 ms.assetid: 78e6c29c-0f43-46a5-9d30-948de5f369c8
 title: InkRectangle class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

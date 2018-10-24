@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 92F628E4-6106-42F7-B868-A3101C7A3F0A
 title: DEP/NX Protection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

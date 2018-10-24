@@ -2,8 +2,6 @@
 title: endloop - vs
 description: End of a loop...endloop block.
 ms.assetid: fd7df120-a927-4a66-b152-6ce5247446e4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

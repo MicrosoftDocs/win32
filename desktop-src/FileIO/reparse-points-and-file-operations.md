@@ -2,8 +2,6 @@
 Description: Describes how reparse points enable file system behavior that departs from behavior most Windows developers expect.
 ms.assetid: 1aaebda9-0013-4282-9ae1-7c829e171942
 title: Reparse Points and File Operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

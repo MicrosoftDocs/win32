@@ -2,8 +2,6 @@
 title: Connectable Object Interfaces
 description: Connectable Object Interfaces
 ms.assetid: 136fb7bd-7a38-4051-b47b-3d08f1dbee79
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

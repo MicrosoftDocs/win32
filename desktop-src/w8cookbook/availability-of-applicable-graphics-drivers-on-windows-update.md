@@ -2,8 +2,6 @@
 title: Availability of applicable graphics drivers on Windows Update
 description: The availability of these drivers on Windows Update (WU) will determine whether a user is automatically offered an upgrade from Windows 7, Windows 8 or Windows 8.1 to Windows 10.
 ms.assetid: 166C0FE3-CB9D-4895-91AC-6E57EC1D8B21
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

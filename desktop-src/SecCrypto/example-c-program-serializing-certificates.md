@@ -2,8 +2,6 @@
 Description: The following example demonstrates serializing a certificate context and its properties into a form that can be stored in a file, sent with an email message, or otherwise transmitted to another user.
 ms.assetid: cda7fa68-debe-40e6-8c4a-536dacccc2d1
 title: 'Example C Program: Serializing Certificates'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

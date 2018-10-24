@@ -2,8 +2,6 @@
 Description: A WORD value indicating the port.
 ms.assetid: 535d644d-4045-4ff1-9c12-a3d5f665453d
 title: INTERNET_PORT
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

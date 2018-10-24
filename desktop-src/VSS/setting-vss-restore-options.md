@@ -2,8 +2,6 @@
 Description: Restore options allow requesters to communicate customized restore options to writers.
 ms.assetid: 364550a1-070a-4f7e-bd62-84672959dc21
 title: Setting VSS Restore Options
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

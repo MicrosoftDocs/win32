@@ -4,8 +4,6 @@ description: A name service is a service that maps names to objects, and usually
 ms.assetid: 9ced2307-cf30-45d5-bcd2-c1e4aae8c63b
 keywords:
 - Remote Procedure Call RPC , described, name service database
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

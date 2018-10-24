@@ -8,8 +8,6 @@ keywords:
 - porting to OpenGL from IRIS GL,accumulation buffers
 - OpenGL porting from IRIS GL,accumulation buffers
 - accumulation buffers OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

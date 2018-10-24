@@ -2,8 +2,6 @@
 Description: Emissive lighting is described by a single term.
 ms.assetid: b6ccf274-a6c5-4b26-8c43-c857c2c24e0f
 title: Emissive Lighting (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

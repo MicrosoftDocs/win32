@@ -2,8 +2,6 @@
 title: Use Praise
 description: Use Praise
 ms.assetid: 813c0f39-177a-4788-8d60-71c97e930ba7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

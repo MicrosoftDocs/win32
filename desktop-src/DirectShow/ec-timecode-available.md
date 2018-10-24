@@ -2,8 +2,6 @@
 Description: Not supported.
 ms.assetid: 90b205f4-0fe3-4a19-bb8a-198d8f3d445c
 title: EC_TIMECODE_AVAILABLE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

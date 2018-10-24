@@ -2,8 +2,6 @@
 title: mov (sm4 - asm)
 description: Component-wise move.
 ms.assetid: A8865237-59D3-4332-9F09-157E10C4FFC6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

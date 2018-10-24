@@ -2,8 +2,6 @@
 Description: Applications that use Windows Installer 4.0 for installation and servicing on Windows Vista automatically use the Restart Manager to reduce system restarts.
 ms.assetid: 821739ff-f7a7-4192-ad34-254aa7d74d13
 title: Using Windows Installer with Restart Manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

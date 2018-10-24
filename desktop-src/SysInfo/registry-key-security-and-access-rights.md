@@ -2,8 +2,6 @@
 Description: The Windows security model enables you to control access to registry keys. For more information about security, see Access-Control Model.
 ms.assetid: 266d5c8e-1bcd-48e5-bc06-2fbc956d8658
 title: Registry Key Security and Access Rights
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

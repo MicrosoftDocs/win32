@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: af55e570-0f24-4376-905a-3b879d5f3a1c
 title: Removal of Windows Movie Maker
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

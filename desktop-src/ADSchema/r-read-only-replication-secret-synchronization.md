@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: fd20326f-2276-42e7-8d54-f71c6dee1e6e
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - Read-Only-Replication-Secret-Synchronization extended right AD Schema

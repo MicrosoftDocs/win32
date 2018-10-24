@@ -5,8 +5,6 @@ ms.assetid: 539f62a0-4255-43cd-9069-e243bba55c97
 keywords:
 - OpenGL on Windows,pixels
 - device-context pixel format OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

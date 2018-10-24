@@ -2,8 +2,6 @@
 Description: The TranslateAccelerator method instructs the property page to process a keystroke. This method implements the IPropertyPage::TranslateAccelerator method.
 ms.assetid: 2da214c9-35dc-470c-9b7f-2f4ef6bcd40a
 title: CBasePropertyPage.TranslateAccelerator method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

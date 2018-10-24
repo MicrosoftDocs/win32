@@ -2,8 +2,6 @@
 title: Taking Advantage of High-Definition Mouse Movement
 description: This article focuses on the best way to optimize the performance of high-definition mouse input in a game like a first-person shooter.
 ms.assetid: 0138a248-e8e0-a392-564e-7a9229b94b56
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

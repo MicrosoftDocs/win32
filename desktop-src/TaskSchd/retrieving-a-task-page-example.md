@@ -4,8 +4,6 @@ description: To retrieve a task page you must call ITask QueryInterface to retri
 ms.assetid: 97525419-c480-465a-97c6-e701043c0af2
 keywords:
 - retrieving task page Task Scheduler
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

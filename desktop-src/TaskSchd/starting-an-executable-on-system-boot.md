@@ -4,8 +4,6 @@ description: Writing a task that starts an executable when a system is booted is
 ms.assetid: 9e2359df-a223-4a0c-9051-01b73a83c1f7
 keywords:
 - Task Scheduler examples Task Scheduler , boot trigger
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

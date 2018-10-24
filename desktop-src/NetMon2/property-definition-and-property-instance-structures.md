@@ -2,8 +2,6 @@
 Description: Network Monitor provides a PROPERTYINFO structure to define the properties of a protocol, and a PROPERTYINST, and PROPERTYINSTEX structure to define an instance of a property.
 ms.assetid: d1e29bd6-c04a-48f1-9727-96b9450e256f
 title: Property Definition and Property Instance Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

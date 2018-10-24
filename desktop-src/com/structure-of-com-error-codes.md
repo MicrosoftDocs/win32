@@ -2,8 +2,6 @@
 title: Structure of COM Error Codes
 description: Structure of COM Error Codes
 ms.assetid: 97e68708-eb62-4481-af03-cf8b80304103
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

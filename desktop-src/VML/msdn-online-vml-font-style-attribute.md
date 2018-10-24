@@ -2,8 +2,6 @@
 title: VML Font-Style Attribute
 description: VML Font-Style Attribute
 ms.assetid: 3dfea8d0-d03b-46c0-b972-a529bc12b62c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

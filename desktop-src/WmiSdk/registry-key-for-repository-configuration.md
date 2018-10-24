@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 6c93fc40-b5d8-42da-9d02-7fa04fce3f65
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registry Key for Repository Configuration
 ms.author: windowssdkdev

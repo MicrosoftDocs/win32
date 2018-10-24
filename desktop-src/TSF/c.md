@@ -3,8 +3,6 @@ title: C
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 9f3c58f5-7c04-43e6-b7bc-dc6875a7fefb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

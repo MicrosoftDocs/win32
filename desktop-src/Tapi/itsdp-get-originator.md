@@ -2,8 +2,6 @@
 Description: The get\_Originator method gets the conference originator.
 ms.assetid: a324098d-ae22-42e9-901e-b277433af199
 title: ITSdp::get_Originator method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

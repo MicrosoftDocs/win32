@@ -2,8 +2,6 @@
 Description: The LINEGROUPSTATUS\_ constants specify the ACD group status.
 ms.assetid: 18afe11d-24cc-4897-ad59-a47598fe507f
 title: LINEGROUPSTATUS_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

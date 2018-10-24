@@ -2,8 +2,6 @@
 Description: Proxy function for the DoesSupportMultiframe method.
 ms.assetid: ceee0090-ff23-4eb4-b0ea-de1d12bceef8
 title: IWICBitmapCodecInfo_DoesSupportMultiframe_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

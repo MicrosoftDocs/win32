@@ -2,8 +2,6 @@
 Description: Stores tablet context information.
 ms.assetid: a9eadc83-c3dc-42ba-bd4c-24a4a95563ff
 title: ITabletContext interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

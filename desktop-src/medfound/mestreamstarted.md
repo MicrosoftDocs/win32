@@ -2,8 +2,6 @@
 Description: Raised by a media stream when the source starts without seeking. A media stream raises this event when the media source raises the MESourceStarted event.
 ms.assetid: 6652e440-5de9-4767-b7a6-9d919ceece38
 title: MEStreamStarted event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: 'GDI+ supports several types of curves: ellipses, arcs, cardinal splines, and B&\#233;zier splines.'
 ms.assetid: 97a1342c-4edb-4671-b36d-b6992efad498
 title: Constructing and Drawing Curves
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

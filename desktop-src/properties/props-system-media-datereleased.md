@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 7a947320-ae05-4b17-82bc-f6100a0450da
 title: System.Media.DateReleased
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

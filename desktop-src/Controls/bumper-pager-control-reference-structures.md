@@ -2,8 +2,6 @@
 title: Pager Control Structures
 description: .
 ms.assetid: 1dea25e9-2ec7-4e2a-a64f-029888898448
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

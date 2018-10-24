@@ -2,8 +2,6 @@
 Description: Specifies whether all download protocols are enabled.
 ms.assetid: c178693f-44ea-481e-b7f2-2ec94eea1994
 title: MFNETSOURCE_ENABLE_DOWNLOAD property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: LOCALE\_SMON\* Constants
 ms.assetid: df7f026b-2f2d-420f-8a14-656734409835
 title: LOCALE_SMON* Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

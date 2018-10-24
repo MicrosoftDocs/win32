@@ -2,8 +2,6 @@
 Description: Retrieves the data object that has the specified GUID.
 ms.assetid: c3d598bd-0646-4f99-8517-4475ef7cd8c9
 title: ID3DXFileEnumObject::GetDataObjectById method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

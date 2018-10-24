@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: dd24166c-d5e2-420e-8a8c-e1a25728ab2f
 title: JobDuplexAllDocumentsContiguously
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following topics provide information about Security Support Provider Interface (SSPI) tasks, procedures, and samples.
 ms.assetid: 099baaa2-f5e4-4a3f-864f-e7d80bd2d358
 title: Using SSPI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

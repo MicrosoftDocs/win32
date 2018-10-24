@@ -2,8 +2,6 @@
 Description: The following section describes structures for typography and complex script processing.
 ms.assetid: 243438fd-5bb2-4b2a-8b33-803029085adb
 title: Uniscribe Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

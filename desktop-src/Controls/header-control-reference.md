@@ -2,8 +2,6 @@
 title: Header Control
 description: This section contains information about the programming elements used with header controls.
 ms.assetid: 'vs|controls|~\controls\header\header_header.htm'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

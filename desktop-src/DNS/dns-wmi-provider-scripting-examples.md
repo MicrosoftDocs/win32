@@ -4,8 +4,6 @@ description: This section provides scripting examples that demonstrate how to sc
 ms.assetid: 55485b95-7092-468a-b090-9f880ce61a89
 keywords:
 - Domain Name System, examples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

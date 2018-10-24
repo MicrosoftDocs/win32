@@ -2,8 +2,6 @@
 Description: Winlogon implements two time-out operations, one for secure dialog boxes and the other for screen saver activation and termination.
 ms.assetid: b1dfd7dc-cc00-4f1a-a157-c60b5d0f0b13
 title: Supported Dialog Box Service Time-out Operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

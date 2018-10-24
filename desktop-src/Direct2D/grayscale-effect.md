@@ -2,8 +2,6 @@
 title: Grayscale effect
 description: Converts an image to monochromatic gray.
 ms.assetid: 4e0b26ed-ba71-5f8f-db1e-f1b4e28fbd11
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

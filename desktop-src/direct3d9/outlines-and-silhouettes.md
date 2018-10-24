@@ -2,8 +2,6 @@
 Description: You can use the stencil buffer for more abstract effects, such as outlining and silhouetting.
 ms.assetid: 8b9cd2b3-c1bf-4ac9-aae5-7fc0c9e049ff
 title: Outlines and Silhouettes (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

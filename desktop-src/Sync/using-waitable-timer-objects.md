@@ -2,8 +2,6 @@
 Description: The following example creates a timer that will be signaled after a 10 second delay.
 ms.assetid: 3c84c2ad-6bac-4f14-a633-51d4529314af
 title: Using Waitable Timer Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

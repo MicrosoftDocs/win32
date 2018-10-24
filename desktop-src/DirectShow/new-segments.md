@@ -2,8 +2,6 @@
 Description: New Segments
 ms.assetid: 6c470b38-481f-4e52-93b8-eb6b343dcefc
 title: New Segments
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

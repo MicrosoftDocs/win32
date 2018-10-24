@@ -2,8 +2,6 @@
 Description: Raised when a media source starts without seeking.
 ms.assetid: a52d8ee1-cb46-487d-a744-fca6db7c2353
 title: MESourceStarted event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

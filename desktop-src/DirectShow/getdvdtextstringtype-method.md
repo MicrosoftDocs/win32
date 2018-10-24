@@ -2,8 +2,6 @@
 Description: The GetDVDTextStringType method retrieves a value that indicates the type of information contained in the specified DVD text string.
 ms.assetid: 8e22fa2e-e7eb-4dd8-b365-631986bad03e
 title: GetDVDTextStringType Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

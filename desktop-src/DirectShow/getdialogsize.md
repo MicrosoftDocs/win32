@@ -2,8 +2,6 @@
 Description: The GetDialogSize function retrieves the size of a resource dialog box.
 ms.assetid: b6c42f96-0381-493a-9503-f3bd4c6a8e1e
 title: GetDialogSize function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: COM+ applications consist of one or more COM components.
 ms.assetid: e7ed2844-276e-4726-952d-e4d3be2eb6e8
 title: Parts of a COM+ Application
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

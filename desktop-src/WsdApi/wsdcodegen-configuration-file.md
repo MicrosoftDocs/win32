@@ -2,8 +2,6 @@
 Description: Describes the WsdCodeGen configuration file.
 ms.assetid: 6dc340db-221e-4389-ba76-9f189f91866b
 title: WsdCodeGen Configuration File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

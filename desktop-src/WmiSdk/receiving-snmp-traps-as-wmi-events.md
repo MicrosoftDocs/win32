@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 549f58a9-9d3b-41b9-a374-ab83877f63a7
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving SNMP Traps as WMI Events
 ms.author: windowssdkdev

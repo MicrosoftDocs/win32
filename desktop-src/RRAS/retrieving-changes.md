@@ -2,8 +2,6 @@
 title: Retrieving Changes
 description: Once a client has registered for notification of certain changes and one or more of these changes occurs, the client receives a notification from the routing table manager.
 ms.assetid: 5ddebf2d-e3cb-451c-b082-708d2c7d0f79
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

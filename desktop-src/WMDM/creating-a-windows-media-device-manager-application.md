@@ -19,8 +19,6 @@ keywords:
 - plug-ins,programming guide
 - desktop applications,creating
 - creating Windows Media Device Manager applications,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

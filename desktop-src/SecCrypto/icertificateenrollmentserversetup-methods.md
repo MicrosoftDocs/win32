@@ -2,8 +2,6 @@
 Description: The ICertificateEnrollmentServerSetup interface exposes the following methods.
 ms.assetid: 626E8ADB-0DCD-4469-BC27-05091DD42078
 title: ICertificateEnrollmentServerSetup Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

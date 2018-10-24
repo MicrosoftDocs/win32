@@ -2,8 +2,6 @@
 Description: Requests a TPM operation that requires physical presence.
 ms.assetid: e71eb6ab-b6ab-4586-8999-0a464f11047a
 title: SetPhysicalPresenceRequest method of the Win32_Tpm class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

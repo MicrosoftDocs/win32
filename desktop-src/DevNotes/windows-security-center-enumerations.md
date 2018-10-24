@@ -2,8 +2,6 @@
 Description: The following enumerations are used with Windows Security Center.
 ms.assetid: C5559B22-517B-4FF6-B586-003C1586049D
 title: Windows Security Center Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

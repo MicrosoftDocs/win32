@@ -2,8 +2,6 @@
 Description: Wait Debugging Functions
 ms.assetid: 784ef76e-3c17-45e0-9a0b-656c11c71322
 title: Wait Debugging Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 0e7bd69f-41ac-45d2-8190-ebe52d6bcf03
 title: System.Contact.OtherAddress3Locality
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

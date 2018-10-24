@@ -2,8 +2,6 @@
 Description: Windows Explorer controls the creation of a search connector for a protocol handler through registry key entries. Through the registry both implementers and third parties can enable new and legacy protocol handlers to participate in Windows 7 Search.
 ms.assetid: 79abdcbc-ba60-43bd-9895-18ee8b6c5829
 title: Creating a Search Connector for a Protocol Handler
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

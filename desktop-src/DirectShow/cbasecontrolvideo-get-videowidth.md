@@ -2,8 +2,6 @@
 Description: The get\_VideoWidth method retrieves the width of the native video.
 ms.assetid: dfd897f0-f580-44c0-9445-ba61ae267187
 title: CBaseControlVideo.get_VideoWidth method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

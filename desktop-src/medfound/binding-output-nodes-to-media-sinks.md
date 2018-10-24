@@ -2,8 +2,6 @@
 Description: Binding Output Nodes to Media Sinks
 ms.assetid: d4f93f34-0af1-431f-9333-70ea09691b64
 title: Binding Output Nodes to Media Sinks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

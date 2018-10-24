@@ -2,8 +2,6 @@
 Description: Increments the reference count to a Secure Sockets Layer protocol (SSL) provider instance.
 ms.assetid: 67e7b8b4-b073-4936-b1e0-3fc7c1c011a2
 title: SslIncrementProviderReferenceCount function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

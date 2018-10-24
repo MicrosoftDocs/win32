@@ -2,8 +2,6 @@
 Description: The SetNetworkInfoInBlob function fills in the NETWORKINFO structure in the BLOB.
 ms.assetid: 1a511c26-2fa7-4fe4-a5a9-23188c59bc34
 title: SetNetworkInfoInBlob function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

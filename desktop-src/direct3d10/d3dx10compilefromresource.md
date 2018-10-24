@@ -2,8 +2,6 @@
 Description: Note  Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the D3DCompile API. Compile a shader or an effect from a resource.
 ms.assetid: d291e47d-e04f-4e2d-9d05-9aef8e4fcf7e
 title: D3DX10CompileFromResource function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: UnexpectedTestError
 description: UnexpectedTestError
 ms.assetid: 9D94A0CD-B171-4FFF-AB6C-272D5E885F98
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following functionality has been added to Microsoft DirectX Graphics Infrastructure (DXGI) 1.5, to support more flexible specifying and duplication of output formats.
 ms.assetid: DD7401E1-9991-48D8-AD23-4D34238EA4AF
 title: DXGI 1.5 Improvements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

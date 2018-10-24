@@ -2,8 +2,6 @@
 Description: Provides additional information to be used with the CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class.
 ms.assetid: d4a025c4-6a3c-4ae0-8f2c-421c1aa1eb23
 title: Msvm_VirtualSystemSnapshotSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

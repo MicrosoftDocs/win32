@@ -2,8 +2,6 @@
 Description: When the installer processes the installation script, it simultaneously generates a rollback script.
 ms.assetid: 5b9bfc5a-6a78-4b0e-aed8-f25aba089af1
 title: Rollback Custom Actions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Phone-Book Files and Connection Information
 description: A RasDial call must specify the information that the Remote Access Connection Manager needs to establish the connection.
 ms.assetid: bc3885a4-3c1e-47bc-b622-072b33ac3b51
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

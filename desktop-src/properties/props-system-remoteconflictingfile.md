@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: fc656149-15b7-4460-a572-a83cccf7d14f
 title: System.RemoteConflictingFile
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

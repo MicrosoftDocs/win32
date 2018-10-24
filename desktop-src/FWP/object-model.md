@@ -2,8 +2,6 @@
 title: Object Model
 description: The following table lists the object types that can be manipulated through the various API sets supplied by the Windows Filtering Platform (WFP).
 ms.assetid: 6931583f-785c-4e27-b5e4-d185d23a54ee
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

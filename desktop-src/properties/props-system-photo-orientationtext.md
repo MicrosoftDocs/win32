@@ -2,8 +2,6 @@
 Description: The user-friendly form of System.Photo.Orientation. Not intended to be parsed programmatically.
 ms.assetid: 9c9631b2-4c0e-44ee-9df7-5eefcc2c6b95
 title: System.Photo.OrientationText
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

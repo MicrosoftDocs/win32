@@ -2,8 +2,6 @@
 Description: The Virtual Disk Service (VDS) manages a wide range of storage configurations, from single-disk desktops to external storage arrays. The service exposes an application programming interface (API).
 ms.assetid: 536aafd2-cc04-48cc-8ee7-920efbba2a5f
 title: Virtual Disk Service
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

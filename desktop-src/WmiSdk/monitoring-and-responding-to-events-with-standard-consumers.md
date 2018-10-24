@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 1979dc55-a440-4c31-832b-36fa84def4c9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Monitoring and Responding to Events with Standard Consumers
 ms.author: windowssdkdev

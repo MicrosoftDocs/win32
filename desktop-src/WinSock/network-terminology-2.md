@@ -2,8 +2,6 @@
 Description: Metrics are used to measure aspects of network and protocol performance.
 ms.assetid: ee5faaf6-e230-4084-9829-e8cae8759587
 title: Network Terminology
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

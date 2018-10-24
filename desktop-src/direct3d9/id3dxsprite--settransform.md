@@ -2,8 +2,6 @@
 Description: Sets the sprite transform.
 ms.assetid: 87dfc169-b647-4a96-897d-abbe765ea9e2
 title: ID3DXSprite::SetTransform method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

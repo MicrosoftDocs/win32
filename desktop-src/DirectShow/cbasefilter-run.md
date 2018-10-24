@@ -2,8 +2,6 @@
 Description: The Run method runs the filter. This method implements the IMediaFilter::Run method.
 ms.assetid: fab2cef7-cad1-4933-92a4-5f41cd947c2f
 title: CBaseFilter.Run method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

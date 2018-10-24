@@ -5,8 +5,6 @@ ms.assetid: 'e6f560a6-e677-47dc-b99c-e14bd60e4007'
 keywords:
 - Windows Media Format SDK,getting started
 - Windows Media Format SDK,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

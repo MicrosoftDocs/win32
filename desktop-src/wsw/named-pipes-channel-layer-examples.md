@@ -2,8 +2,6 @@
 title: Named Pipes Channel Layer Examples
 ms.assetid: 6222BEA5-C746-4301-8186-110669A0BFDC
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

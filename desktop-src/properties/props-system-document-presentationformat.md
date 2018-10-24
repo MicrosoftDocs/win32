@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: e5f91abd-6a3e-4492-9342-63518aa1ca6f
 title: System.Document.PresentationFormat
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

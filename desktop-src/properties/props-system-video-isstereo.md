@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 900407d6-f01b-44f4-9d60-3e2f785723ca
 title: System.Video.IsStereo
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

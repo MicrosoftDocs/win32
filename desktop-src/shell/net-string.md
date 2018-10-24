@@ -1,8 +1,6 @@
 ---
 Description: Represent network address types. Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro NetAddr\_SetAllowType.
 title: NET_STRING
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

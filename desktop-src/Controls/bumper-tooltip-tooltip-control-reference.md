@@ -2,8 +2,6 @@
 title: Tooltip Control Reference
 description: .
 ms.assetid: a6e5dc44-7878-462f-b2cb-4c3213f6b924
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

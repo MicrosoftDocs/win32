@@ -2,8 +2,6 @@
 Description: Deprecated. See D3DX10CompileFromResource.
 ms.assetid: 3e4011dc-e657-4da5-b977-f229bcf86eaf
 title: D3DX10CompileShaderFromResource
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

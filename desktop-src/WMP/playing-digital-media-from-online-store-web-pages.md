@@ -18,8 +18,6 @@ keywords:
 - Web page digital media playing
 - playing digital media
 - digital media playing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

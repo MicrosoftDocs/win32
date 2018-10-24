@@ -2,8 +2,6 @@
 Description: Indicates the number of library locations.
 ms.assetid: 35D49432-E734-4EE7-AE17-1FE92764D19F
 title: System.LibraryLocationsCount
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

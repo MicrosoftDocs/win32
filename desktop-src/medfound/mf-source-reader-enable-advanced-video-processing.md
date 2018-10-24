@@ -2,8 +2,6 @@
 Description: Enables advanced video processing by the Source Reader, including color space conversion, deinterlacing, video resizing, and frame-rate conversion.
 ms.assetid: 1055CD55-4B25-4EEC-AF1B-C84C52287F8F
 title: MF_SOURCE_READER_ENABLE_ADVANCED_VIDEO_PROCESSING attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

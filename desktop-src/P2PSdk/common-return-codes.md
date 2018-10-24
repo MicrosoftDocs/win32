@@ -1,8 +1,6 @@
 ---
 ms.assetid: 88bf94b0-b8fe-4293-aa22-8a04aa0de48a
 title: Common Return Codes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

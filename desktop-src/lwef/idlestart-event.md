@@ -2,8 +2,6 @@
 title: IdleStart Event
 description: IdleStart Event
 ms.assetid: 3d97c26b-b88a-42e3-9072-0bc65510efc2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

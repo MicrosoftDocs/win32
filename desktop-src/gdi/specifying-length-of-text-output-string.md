@@ -2,8 +2,6 @@
 Description: Several of the font and text-output functions have a parameter that specifies the length of the text-output string. A typical example is the cchText parameter of DrawTextEx.
 ms.assetid: 695fd0f9-abd4-4666-acad-2c409624ddc6
 title: Specifying length of text-output string
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

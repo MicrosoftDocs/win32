@@ -2,8 +2,6 @@
 Description: This topic describes how a Media Foundation transform (MFT) should handle format changes during streaming.
 ms.assetid: b0a94760-b4dd-4e50-a5ce-a1f674dde156
 title: Handling Stream Changes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

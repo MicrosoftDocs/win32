@@ -2,8 +2,6 @@
 Description: The following functions are used with the disk-space list.
 ms.assetid: 18693b2d-6b0f-4f9c-b3cf-e50c36e2f2e1
 title: Disk-Space List Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

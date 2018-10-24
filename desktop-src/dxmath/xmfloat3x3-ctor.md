@@ -2,8 +2,6 @@
 Description: Constructors exposed by XMFLOAT3X3.
 ms.assetid: 1cfad894-60d4-4258-b3ca-178a2dafafc5
 title: XMFLOAT3X3 constructors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

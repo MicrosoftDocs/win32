@@ -2,8 +2,6 @@
 Description: Serial device USB Vendor Id.
 ms.assetid: 6236e236-eeeb-435a-a758-2a7f7f818e6d
 title: System.DeviceInterface.Serial.UsbVendorId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

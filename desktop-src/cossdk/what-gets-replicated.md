@@ -2,8 +2,6 @@
 Description: What Gets Replicated
 ms.assetid: d1f0bc92-37bc-4de2-876a-e6b8b09da58d
 title: What Gets Replicated
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

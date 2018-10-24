@@ -2,8 +2,6 @@
 Description: The get\_Count method gets the number of attributes.
 ms.assetid: dc607f09-4cca-4ef0-8b86-dbc5e6edcfdd
 title: ITAttributeList::get_Count method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

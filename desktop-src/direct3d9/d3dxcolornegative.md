@@ -2,8 +2,6 @@
 Description: Creates the negative color value of a color value.
 ms.assetid: 74143126-93f8-49fa-abe3-fd730b644d87
 title: D3DXColorNegative function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

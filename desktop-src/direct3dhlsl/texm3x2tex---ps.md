@@ -2,8 +2,6 @@
 title: texm3x2tex - ps
 description: Performs the final row of a 3x2 matrix multiply and uses the result to do a texture lookup. texm3x2tex must be used in conjunction with the texm3x2pad - ps instruction.
 ms.assetid: c6cfbf75-4a63-4c82-9fb6-286b51b7f883
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

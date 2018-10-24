@@ -2,8 +2,6 @@
 Description: Include the MergeModuleSequence tables in the .msm file if the merge module must modify the action sequence tables of the target .msi file. Merging does not add these tables to the .msi file. These tables only occur in merge modules.
 ms.assetid: 9efb75d2-43f9-404c-8e7f-918d056190cf
 title: Authoring Merge Module Sequence Tables
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

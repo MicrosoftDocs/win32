@@ -2,8 +2,6 @@
 Description: Completes a catalog migration on the destination computer.
 ms.assetid: 868634ee-98b4-4f08-90b9-9af26fef44bc
 title: ComPlusCompleteCbbSetup function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Describes the Microsoft Direct3D 9 video interfaces.
 ms.assetid: adddf378-f71c-4f81-bcf1-5d729a03eb58
 title: Direct3D 9 Video Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The FileSignatureInfo method of the Installer object takes the path to a file and returns a SAFEARRAY of bytes that represent the hash or the encoded certificate.
 ms.assetid: ab34bc46-8a8f-4b48-a1d1-d824ff36a9cc
 title: Installer.FileSignatureInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

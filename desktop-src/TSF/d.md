@@ -3,8 +3,6 @@ title: D
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 9d8cc0b3-7af5-4f5b-bc27-0f1e47efeeb1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

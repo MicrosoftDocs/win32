@@ -2,8 +2,6 @@
 Description: The serial number of the camera that produced the photo.
 ms.assetid: 0d1b651a-fd48-4bc4-92fd-f0eb6c72e264
 title: System.Photo.CameraSerialNumber
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

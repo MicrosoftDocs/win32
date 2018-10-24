@@ -1,8 +1,6 @@
 ---
 ms.assetid: 7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e
 title: Distributed Routing Table Return Values
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Sets a non-transposed matrix.
 ms.assetid: 891441ea-09d5-43b6-a080-578d7f8e4586
 title: ID3DXTextureShader::SetMatrix method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

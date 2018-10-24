@@ -2,8 +2,6 @@
 Description: VDS Notifications
 ms.assetid: a0841215-3eb0-4769-b320-4da25b535362
 title: VDS Notifications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

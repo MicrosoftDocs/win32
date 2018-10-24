@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c5a0d0ec-99af-4815-9ad2-e59db70e04ce
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing an Event Consumer Provider
 ms.author: windowssdkdev

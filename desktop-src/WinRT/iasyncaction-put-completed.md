@@ -2,8 +2,6 @@
 Description: Sets the method that is called when the asynchronous action completes.
 ms.assetid: 632800E4-D02B-4D45-8A9B-B373AC938558
 title: IAsyncAction::put_Completed method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

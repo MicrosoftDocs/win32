@@ -2,8 +2,6 @@
 Description: Native Wifi API Permissions
 ms.assetid: cfea9f7d-a069-497b-8138-b3949002fa5d
 title: Native Wifi API Permissions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

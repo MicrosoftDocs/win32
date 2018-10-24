@@ -2,8 +2,6 @@
 Description: For convenience, an umbrella library named OneCore.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for the subset of Win32 APIs that are common to all Windows 10 devices.
 ms.assetid: a1c0f4b5-1099-4ec6-b357-95f8c2f2e2d7
 title: OneCore.lib umbrella library (alphabetical)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Enumerating Installed Capture Drivers
 ms.assetid: 3a70bf5b-1e0a-48d3-aa6b-be66692f0400
 keywords:
 - capGetDriverDescription function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

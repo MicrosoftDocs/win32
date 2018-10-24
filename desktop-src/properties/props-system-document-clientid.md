@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 67a70bbc-3f4f-43ac-b886-88fc312b1aa1
 title: System.Document.ClientID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

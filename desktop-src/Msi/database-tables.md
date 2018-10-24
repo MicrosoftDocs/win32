@@ -2,8 +2,6 @@
 Description: The following table identifies the Windows Installer database tables.
 ms.assetid: 58271b4b-c7c7-454d-b6dd-9c01a51900ce
 title: Database Tables
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

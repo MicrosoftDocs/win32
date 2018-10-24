@@ -2,8 +2,6 @@
 Description: The IEnumCERTVIEWEXTENSION interface exposes the following methods.
 ms.assetid: 0BC5CD23-35B3-4E6A-85D3-39CFEF3A6C05
 title: IEnumCERTVIEWEXTENSION Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

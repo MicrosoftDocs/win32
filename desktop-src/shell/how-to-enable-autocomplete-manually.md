@@ -2,8 +2,6 @@
 Description: To gain more detailed control over the autocomplete behavior, or to add a custom source of autocomplete strings, you must manage the autocomplete object yourself.
 ms.assetid: E1A7B1B0-2879-452E-9EBB-73F02B932200
 title: How to Enable Autocomplete Manually
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

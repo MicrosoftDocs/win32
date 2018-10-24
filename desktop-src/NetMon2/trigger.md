@@ -2,8 +2,6 @@
 Description: The TRIGGER structure indicates an action to be taken by the driver at a specified time.
 ms.assetid: 63541796-b0d8-456c-8544-697fedbe05f7
 title: TRIGGER structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

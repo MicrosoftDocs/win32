@@ -2,8 +2,6 @@
 Description: Specifies whether the audio decoder should deliver high-resolution output.
 ms.assetid: a96bd78f-982c-43fa-b2d3-8caba4aa84b6
 title: MFPKEY_WMADEC_HIRESOUTPUT Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

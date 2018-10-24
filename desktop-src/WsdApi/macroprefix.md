@@ -2,8 +2,6 @@
 Description: Defines the prefix to be used in the generated code for names of macros in the namespace.
 ms.assetid: ead82070-5546-4036-bff2-8da2714d4264
 title: macroPrefix element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

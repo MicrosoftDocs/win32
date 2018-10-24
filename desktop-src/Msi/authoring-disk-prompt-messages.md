@@ -2,8 +2,6 @@
 Description: Use the following guidelines to author a Windows Installer installation that displays a message box prompting the user to insert a disk.
 ms.assetid: 8b53a490-921f-4d89-83b7-dbc62231ef92
 title: Authoring Disk Prompt Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

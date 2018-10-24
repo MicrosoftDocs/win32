@@ -2,8 +2,6 @@
 Description: Pointer to the owning filter.
 ms.assetid: 209b1d64-27ae-4f40-83a1-5485a470aef9
 title: CTransformInputPin::m_pTransformFilter member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

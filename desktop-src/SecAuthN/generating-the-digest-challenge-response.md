@@ -2,8 +2,6 @@
 Description: After receiving a challenge from the server, the client creates the Digest challenge response by calling the InitializeSecurityContext (Digest) function.
 ms.assetid: b26b5676-a614-4017-a4e5-a5395292a667
 title: Generating the Digest Challenge Response
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

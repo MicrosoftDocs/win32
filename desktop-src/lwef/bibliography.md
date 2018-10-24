@@ -4,8 +4,6 @@ description: Bibliography
 ms.assetid: e658f00f-6c26-426e-88c7-624b6cb6c65f
 keywords:
 - Microsoft Agent, bibliography
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

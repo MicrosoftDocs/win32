@@ -2,8 +2,6 @@
 Description: An enterprise certification authority (CA) publishes issued certificates to the Active Directory; a stand-alone certification authority may also publish issued certificates to the Active Directory.
 ms.assetid: 6449e116-1671-4120-a012-278ab9ae9925
 title: Retrieving an Issued Certificate from the Active Directory
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

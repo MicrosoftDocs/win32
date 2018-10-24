@@ -2,8 +2,6 @@
 title: Games for Windows Technical Requirements Best Practices for Games on Windows XP, Windows Vista, Windows 7, and Windows 8
 description: This article provides technical requirements and best practices for games that run on Windows.
 ms.assetid: 8b816e9f-de68-cf84-1501-a9c36c6b75d8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

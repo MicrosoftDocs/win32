@@ -2,8 +2,6 @@
 Description: COM+ Tracking
 ms.assetid: ad3bdeb5-f303-411a-abfb-ccde3f9a86b9
 title: COM+ Tracking
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

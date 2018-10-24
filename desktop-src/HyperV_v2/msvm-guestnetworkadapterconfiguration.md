@@ -2,8 +2,6 @@
 Description: Represents the configuration of a network adapter within the guest operating system.
 ms.assetid: 154d4a0f-0c57-496a-a351-6caa74011544
 title: Msvm_GuestNetworkAdapterConfiguration class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

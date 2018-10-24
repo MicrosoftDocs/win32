@@ -2,8 +2,6 @@
 Description: Signs a hash by using the specified private key.
 ms.assetid: 25e8ebc5-278d-4d1f-977a-c2fab07b790a
 title: SslSignHash function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Used to indicate that the source buffer is updating.
 ms.assetid: 3c41f50f-7f0b-4676-9522-3866aedab047
 title: IMFSourceBufferNotify::OnUpdate method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

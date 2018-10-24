@@ -5,8 +5,6 @@ ms.assetid: 48d83e06-9e6e-498b-ad9b-0b66f235db25
 keywords:
 - MCI_PLAY command
 - MCIAVI playback window
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

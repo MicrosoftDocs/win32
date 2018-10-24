@@ -4,8 +4,6 @@ description: This glossary contains definitions for terms used in the documentat
 ms.assetid: f01310bb-dd74-41de-8a55-ca91b805dfd2
 keywords:
 - RRAS, glossary
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

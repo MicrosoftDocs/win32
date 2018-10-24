@@ -5,8 +5,6 @@ ms.assetid: AAF97BD2-D532-469D-9242-CC94C06727C3
 keywords:
 - pipeline state
 - pipeline state object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

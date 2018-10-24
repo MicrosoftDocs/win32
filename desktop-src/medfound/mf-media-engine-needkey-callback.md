@@ -2,8 +2,6 @@
 Description: Attribute which is passed in the IMFMediaEngineNeedKeyNotify to the media engine on creation.
 ms.assetid: B9625B3C-00AC-4F46-BD76-5C77822F5829
 title: MF_MEDIA_ENGINE_NEEDKEY_CALLBACK attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

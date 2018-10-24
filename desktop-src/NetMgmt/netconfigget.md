@@ -4,8 +4,6 @@ description: The NetConfigGet function is obsolete. It is included for compatibi
 ms.assetid: f0992922-9d08-47c1-a089-5927fd370c22
 keywords:
 - NetConfigGet
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

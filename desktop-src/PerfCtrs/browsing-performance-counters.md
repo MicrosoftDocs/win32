@@ -2,8 +2,6 @@
 Description: Example code that shows how to browse performance counters.
 ms.assetid: 44c5cfa8-6449-45d8-ac30-979b99c086de
 title: Browsing Performance Counters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

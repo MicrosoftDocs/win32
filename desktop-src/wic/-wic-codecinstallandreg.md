@@ -2,8 +2,6 @@
 Description: When you install a codec, you must register it in the registry. You must also make sure the thumbnail cache gets updated in case any images in your format already exist on the computer.
 ms.assetid: 7aec54cb-40ac-495c-99d9-9c397b740b21
 title: Codec Installation and Registration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

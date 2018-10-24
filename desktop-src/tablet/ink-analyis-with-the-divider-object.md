@@ -2,8 +2,6 @@
 Description: The Divider object provides layout analysis features that classify and group strokes into different structural elements.
 ms.assetid: 9e4ed24f-4451-431c-9f0f-2f1c4f5e5084
 title: Ink Analysis with the Divider Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: To select a NIC from an NPP BLOB table returned by Network Monitor, call the GetNPPBlobTable function. This function returns an NPP BLOB table, which can then be enumerated by your application to select the NIC you are interested in.
 ms.assetid: 51428cc9-0b48-4da6-bbf6-b22798e01263
 title: Selecting a NIC from a Returned NPP BLOB table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

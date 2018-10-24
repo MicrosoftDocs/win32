@@ -26,8 +26,6 @@ keywords:
 - vector graphics,picture fill
 - VML shapes,picture fill
 - picture-filled shapes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: div (sm4 - asm)
 description: Component-wise divide.
 ms.assetid: B086F069-8F43-4746-A6A5-8F4462212648
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Links to documentation for the IAzObjectPicker interoperability wrapper methods and properties.
 ms.assetid: 8b3db64c-0772-4810-96bf-6c9334c9bc4c
 title: Microsoft.Interop.Security.AzRoles.IAzObjectPicker interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

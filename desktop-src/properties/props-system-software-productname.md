@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 6a2647c6-5996-4e83-b7b3-f727b9445dbc
 title: System.Software.ProductName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

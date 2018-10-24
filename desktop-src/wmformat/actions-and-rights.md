@@ -13,8 +13,6 @@ keywords:
 - digital rights management (DRM),licenses
 - DRM (digital rights management),licenses
 - licenses,DRM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Controlling an External Device
 ms.assetid: 5347cd55-a27e-40b9-857c-09e3665a1817
 title: Controlling an External Device
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

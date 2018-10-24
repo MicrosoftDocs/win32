@@ -2,8 +2,6 @@
 Description: Retrieves the specified system information.
 ms.assetid: c91b9a35-ca2b-4d81-973d-fe709144df90
 title: ZwQuerySystemInformation function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

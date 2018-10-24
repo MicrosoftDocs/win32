@@ -2,8 +2,6 @@
 title: nrm - vs
 description: Normalize a 3D vector.
 ms.assetid: 735e9971-c0c3-4648-8362-58bda6fac46a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

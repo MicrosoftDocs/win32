@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 295d3233-5729-4eb0-9fa3-1cf64fef2909
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Mapping Active Directory Classes
 ms.author: windowssdkdev

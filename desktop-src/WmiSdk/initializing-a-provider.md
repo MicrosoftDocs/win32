@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3dc145b8-1ce4-4caa-b2ac-31a3681e76f1
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Initializing a Provider
 ms.author: windowssdkdev

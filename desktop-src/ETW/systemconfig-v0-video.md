@@ -2,8 +2,6 @@
 Description: This class is the event type class for video configuration events.
 ms.assetid: 06aab3a3-a55e-4eb8-897a-2ad8349e5900
 title: SystemConfig_V0_Video class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

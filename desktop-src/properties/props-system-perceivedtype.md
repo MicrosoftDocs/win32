@@ -2,8 +2,6 @@
 Description: The perceived file type based on its canonical type.
 ms.assetid: dc5122a1-43b3-4c91-a44f-315fec5b4862
 title: System.PerceivedType
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

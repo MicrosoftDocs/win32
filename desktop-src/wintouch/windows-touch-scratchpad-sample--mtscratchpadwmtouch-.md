@@ -7,8 +7,6 @@ keywords:
 - Windows Touch,sample code
 - Windows Touch,Scratchpad samples
 - Scratchpad samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

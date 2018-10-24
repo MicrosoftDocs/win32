@@ -2,8 +2,6 @@
 title: Varying Arrays
 description: In MIDL, varying arrays are fixed in size. They allow clients to pass different portions of arrays from clients to servers. The size of the array portion can vary from invocation to invocation. However, the size of the overall array is fixed.
 ms.assetid: 31c4bc63-de55-4937-832e-8dde9bcc47b9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

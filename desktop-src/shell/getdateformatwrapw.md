@@ -2,8 +2,6 @@
 Description: Formats a date as a date string for a specified locale.
 ms.assetid: e45f6d1c-2890-44f6-8406-022c99c59e02
 title: GetDateFormatWrapW function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

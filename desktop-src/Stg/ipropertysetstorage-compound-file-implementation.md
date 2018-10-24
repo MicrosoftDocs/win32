@@ -4,8 +4,6 @@ description: The COM compound file storage object implementation includes an imp
 ms.assetid: de2cb778-c6eb-4487-996b-87405674f603
 keywords:
 - IPropertySetStorage Strctd Stg , implementations, compound file
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

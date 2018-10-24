@@ -2,8 +2,6 @@
 Description: Dictate the application package authority.
 ms.assetid: 047439EA-789B-41CF-87C2-66CFB3F20908
 title: App Container SID Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

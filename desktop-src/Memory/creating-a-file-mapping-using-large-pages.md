@@ -2,8 +2,6 @@
 Description: The following example uses the CreateFileMapping function with the SEC\_LARGE\_PAGES flag to use large pages. It requires Windows Server 2003 with Service Pack 1 (SP1) or later.
 ms.assetid: be2cdcbc-03e8-407d-8ae2-569f8fd8cba8
 title: Creating a File Mapping Using Large Pages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

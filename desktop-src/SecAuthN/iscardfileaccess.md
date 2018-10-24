@@ -2,8 +2,6 @@
 Description: The following interface definition is provided as a standard that can be followed when developing a smart card service provider.
 ms.assetid: 68cc0bbe-ce8e-4da1-b907-596caa95a39c
 title: ISCardFileAccess interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

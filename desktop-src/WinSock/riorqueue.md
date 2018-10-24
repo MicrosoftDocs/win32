@@ -2,8 +2,6 @@
 Description: Specifies a socket descriptor used by send and receive requests with the Winsock registered I/O extensions.
 ms.assetid: 50E9516C-6078-4466-A593-3F29E4783740
 title: RIO_RQ
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

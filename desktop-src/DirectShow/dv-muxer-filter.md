@@ -2,8 +2,6 @@
 Description: DV Muxer Filter
 ms.assetid: 4dd57202-f4de-40d9-b720-efaba8a60a7c
 title: DV Muxer Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

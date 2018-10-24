@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ae33c9f5-61f7-4488-a281-01d7f9c62c46
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for an Event Provider
 ms.author: windowssdkdev

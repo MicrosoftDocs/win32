@@ -2,8 +2,6 @@
 Description: The SPFILENOTIFY\_RENAMEERROR notification is sent to the callback routine if an error occurs during a file rename operation.
 ms.assetid: b7016cbe-2987-477f-958b-52b7a31c54c2
 title: SPFILENOTIFY_RENAMEERROR message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

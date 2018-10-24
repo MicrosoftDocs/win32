@@ -2,8 +2,6 @@
 title: Writing HLSL Shaders in Direct3D 9
 description: Writing HLSL Shaders in Direct3D 9
 ms.assetid: 7db6b264-c96c-4298-9b8a-d0c488390e4e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

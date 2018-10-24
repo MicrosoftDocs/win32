@@ -2,8 +2,6 @@
 Description: Working with DVD Text Strings
 ms.assetid: 6d415ebb-5cd0-4631-9404-f2ebabef2476
 title: Working with DVD Text Strings
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Edit Control Macros
 description: .
 ms.assetid: 7c2bb80e-57ca-4d95-a499-b65eefe0352c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Scales a 2D vector.
 ms.assetid: 1887bc48-3766-42d7-840b-1e29d78db4ce
 title: D3DXVec2Scale function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

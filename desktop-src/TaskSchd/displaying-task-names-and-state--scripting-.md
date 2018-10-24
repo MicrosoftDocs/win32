@@ -2,8 +2,6 @@
 title: Displaying Task Names and States (Scripting)
 description: This scripting example shows how to enumerate tasks in a task folder and display property values from each task.
 ms.assetid: 2a84a752-fbf3-4041-8b0a-304f89a49354
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

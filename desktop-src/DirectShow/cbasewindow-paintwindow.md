@@ -2,8 +2,6 @@
 Description: The PaintWindow method causes the window to be repainted.
 ms.assetid: dce3d782-00e5-4176-9365-378d59d48ebc
 title: CBaseWindow.PaintWindow method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

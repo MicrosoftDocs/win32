@@ -2,8 +2,6 @@
 Description: Pointer to the pin that is connected to this pin.
 ms.assetid: 358f17d4-fc27-4fb2-b18a-f384fbca40a0
 title: CBasePin::m_Connected member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

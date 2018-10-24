@@ -2,8 +2,6 @@
 Description: You can define and assign custom input scopes using the handwriting regular expression syntax that is understood by some of the Microsoft handwriting recognizers.
 ms.assetid: e3afe735-eca8-4fda-bd5b-cc0ab0b6a872
 title: Regular Expression Syntax Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -14,8 +14,6 @@ keywords:
 - SDK (software development kit),Windows Media Player ActiveX control object model
 - documentation,Windows Media Player ActiveX control object model
 - Player object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

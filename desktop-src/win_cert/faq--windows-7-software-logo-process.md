@@ -2,8 +2,6 @@
 title: FAQ Windows 7 software logo process
 description: FAQ Windows 7 software logo process
 ms.assetid: BD152E61-EF56-4525-9F6A-117936D2E46A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

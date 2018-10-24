@@ -2,8 +2,6 @@
 Description: The network management session functions control network sessions established between workstations and servers. The functions require that the server service be started on the server.
 ms.assetid: 931455e3-1301-4a68-93c3-2674b3d4c491
 title: Session Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

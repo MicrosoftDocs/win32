@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2e905078-d510-4417-8acb-a6ff535d9d0b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Namespace Access Rights Constants
 ms.author: windowssdkdev

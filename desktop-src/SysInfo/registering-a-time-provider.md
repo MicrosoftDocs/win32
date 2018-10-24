@@ -2,8 +2,6 @@
 Description: The system loads a time provider based on its configuration information stored in the registry.
 ms.assetid: 67f79c31-9dd7-4e3f-bfe1-701b10611f91
 title: Registering a Time Provider
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

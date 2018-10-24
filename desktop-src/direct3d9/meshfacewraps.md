@@ -2,8 +2,6 @@
 Description: Used to define the texture topology of each face in a wrap. The value of the nFaceWrapValues member should be equal to the number of faces in a mesh.
 ms.assetid: f4aa356c-8f91-462f-9fc7-869b186b6c27
 title: MeshFaceWraps
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

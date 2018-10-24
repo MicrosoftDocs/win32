@@ -2,8 +2,6 @@
 Description: Shows the members of the CXAPOBase class.
 ms.assetid: 0791888B-7215-475B-95C8-B558A1E57783
 title: CXAPOBase Members
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

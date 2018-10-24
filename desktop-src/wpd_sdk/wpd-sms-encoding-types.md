@@ -2,8 +2,6 @@
 Description: The WPD\_SMS\_ENCODING\_TYPES enumeration type describes the encoding type of a short message service (SMS) message.
 ms.assetid: 5a9752e5-4e09-42a4-8fed-b4ea551fa36f
 title: WPD_SMS_ENCODING_TYPES enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

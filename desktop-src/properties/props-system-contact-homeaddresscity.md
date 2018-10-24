@@ -2,8 +2,6 @@
 Description: Home address city name of the contact.
 ms.assetid: 00ed6b0d-0b59-43b4-a9ce-f5964f9268a3
 title: System.Contact.HomeAddressCity
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

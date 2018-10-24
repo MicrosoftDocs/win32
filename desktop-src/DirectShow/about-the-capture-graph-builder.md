@@ -2,8 +2,6 @@
 Description: About the Capture Graph Builder
 ms.assetid: 9399a06e-7305-41e8-aefe-3d158052a8ed
 title: About the Capture Graph Builder
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

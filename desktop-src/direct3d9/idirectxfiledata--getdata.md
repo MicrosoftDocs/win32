@@ -2,8 +2,6 @@
 Description: Retrieves the data for one of the object's members or the data for all members. Deprecated.
 ms.assetid: 2a227705-371e-41f1-af5d-20e652cd07f6
 title: IDirectXFileData::GetData method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

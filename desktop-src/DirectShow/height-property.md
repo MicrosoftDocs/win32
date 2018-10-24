@@ -2,8 +2,6 @@
 Description: The Height property sets or retrieves the height of the rectangle.
 ms.assetid: b66324bd-730c-4a16-87b0-18baef0a2a9c
 title: Height Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

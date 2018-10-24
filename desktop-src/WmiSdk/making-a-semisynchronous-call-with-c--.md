@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3d5ddd77-19f7-42d0-b8ca-a0a11f6b3f0f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Making a Semisynchronous Call with C++
 ms.author: windowssdkdev

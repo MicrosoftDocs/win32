@@ -2,8 +2,6 @@
 Description: Credential Management API
 ms.assetid: e393041b-f10c-4053-bc6c-65a89f40e74f
 title: Credential Management API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

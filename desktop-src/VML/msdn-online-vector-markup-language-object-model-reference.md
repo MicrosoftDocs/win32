@@ -2,8 +2,6 @@
 title: VML Object Model Reference
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 ms.assetid: 68a84c68-3aac-4971-9611-45f52e057708
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

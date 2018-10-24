@@ -2,8 +2,6 @@
 Description: To create a bitmap, use the CreateBitmap, CreateBitmapIndirect, or CreateCompatibleBitmap function, CreateDIBitmap, and CreateDiscardableBitmap.
 ms.assetid: 313072fc-68c9-4ece-95bb-2748ccbd7f57
 title: Bitmap Creation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

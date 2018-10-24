@@ -2,8 +2,6 @@
 Description: Web Services on Devices API (WSDAPI) is used to develop client applications that find and access devices, and to develop device hosts and associated services that run on Windows Vista and Windows Server 2008.
 ms.assetid: 2b23d7d3-3b06-48c8-993e-49c72b139624
 title: Overview of the WSDAPI Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

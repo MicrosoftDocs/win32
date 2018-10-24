@@ -2,8 +2,6 @@
 Description: The get\_MediaName method gets the media name. Defined media are audio, video, whiteboard, text, and data.
 ms.assetid: 4afb24f9-582e-420d-8bda-772a3dc4d96c
 title: ITMedia::get_MediaName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

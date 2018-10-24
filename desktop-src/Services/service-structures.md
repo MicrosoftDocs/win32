@@ -2,8 +2,6 @@
 Description: 'The following structures are used with services:'
 ms.assetid: 775ecbeb-3a2a-40dd-b262-b66dea04713d
 title: Service Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

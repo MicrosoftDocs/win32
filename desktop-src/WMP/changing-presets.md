@@ -11,8 +11,6 @@ keywords:
 - visualizations,presets
 - custom visualizations,presets
 - presets in visualizations,Glow sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

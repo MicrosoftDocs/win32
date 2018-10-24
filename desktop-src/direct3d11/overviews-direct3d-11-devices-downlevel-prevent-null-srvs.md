@@ -2,8 +2,6 @@
 title: Preventing Unwanted NULL Pixel Shader SRVs
 description: This topic discusses how to work around the driver receiving NULL shader-resource views (SRVs) even when non-NULL SRVs are bound to the pixel shader stage.
 ms.assetid: c832c199-59b8-4079-a159-45490a2f6a94
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

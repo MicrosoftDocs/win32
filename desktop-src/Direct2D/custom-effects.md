@@ -2,8 +2,6 @@
 title: Custom effects
 description: Shows you how to write your own custom effects using standard HLSL.
 ms.assetid: 5D22CA84-6465-4882-863D-81A632ACDD9C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

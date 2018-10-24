@@ -2,8 +2,6 @@
 Description: The WMI provider for Hyper-V enable developers, and scripters, to quickly build custom tools, utilities, and enhancements for the virtualization platform. The WMI interfaces can manage all aspects of the Hyper-V services.
 ms.assetid: 773BB141-7B9C-4015-81A0-BD17B8233CCD
 title: About the Hyper-V WMI provider
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

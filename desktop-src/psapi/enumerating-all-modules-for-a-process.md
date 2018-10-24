@@ -2,8 +2,6 @@
 title: Enumerating All Modules For a Process
 description: To determine which processes have loaded a particular DLL, you must enumerate the modules for each process. The following sample code uses the EnumProcessModules function to enumerate the modules of current processes in the system.
 ms.assetid: 2e411eba-ba60-4678-bf6f-bc15b6e8b478
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

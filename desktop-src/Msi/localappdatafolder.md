@@ -2,8 +2,6 @@
 Description: The LocalAppDataFolder property is the full path to the file system directory that serves as the data repository for local (non-roaming) applications.
 ms.assetid: 7862581a-1805-4bb9-8de5-d42d809f3fc7
 title: LocalAppDataFolder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

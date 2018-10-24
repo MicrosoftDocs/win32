@@ -2,8 +2,6 @@
 title: Pager Control Reference
 description: .
 ms.assetid: 0da466c6-129e-4092-9d26-579b98f38795
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

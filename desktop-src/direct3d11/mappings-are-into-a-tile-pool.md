@@ -2,8 +2,6 @@
 title: Mappings are into a tile pool
 description: When a resource is created with the D3D11\_RESOURCE\_MISC\_TILED flag, the tiles that make up the resource come from pointing at locations in a tile pool.
 ms.assetid: 1DBE23B2-A1E6-4491-9B74-4E92508A68FC
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

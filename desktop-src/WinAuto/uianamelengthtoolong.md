@@ -4,8 +4,6 @@ description: UiaNameLengthTooLong
 ms.assetid: 01AF3F1E-9A3F-48B4-8219-6E80BAFC82EE
 keywords:
 - UIA_NamePropertyId identifier AutomationElement.NameProperty
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

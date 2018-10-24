@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2a6bb3a3-0aec-437a-881a-c4e14fcff6da
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Noncomputational Counter Types
 ms.author: windowssdkdev

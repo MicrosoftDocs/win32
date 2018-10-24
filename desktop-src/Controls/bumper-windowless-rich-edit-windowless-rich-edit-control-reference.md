@@ -2,8 +2,6 @@
 title: Windowless Rich Edit Control Reference
 description: .
 ms.assetid: 37b10dfe-8d6b-43fc-b632-4c87657f79ea
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

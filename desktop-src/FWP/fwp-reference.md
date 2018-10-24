@@ -4,8 +4,6 @@ description: Windows Filtering Platform API Reference
 ms.assetid: e63db9e6-af26-4511-99fa-7d0b13d409d8
 keywords:
 - Windows Filtering Platform API Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

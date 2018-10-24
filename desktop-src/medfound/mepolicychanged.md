@@ -2,8 +2,6 @@
 Description: Raised by a pipeline component when the output policy for the stream changes. This event applies only to protected content.
 ms.assetid: 9dc78dc6-3fc2-4a81-ad41-45ff3fdbdade
 title: MEPolicyChanged event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

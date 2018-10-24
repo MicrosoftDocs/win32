@@ -2,8 +2,6 @@
 title: Authentication
 description: Starting with version 2.0, the HTTP Server API performs server side authentication for the application.
 ms.assetid: e8e41e8e-1b10-4747-b18e-763e0752ade4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

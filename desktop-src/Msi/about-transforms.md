@@ -2,8 +2,6 @@
 Description: A transform is a collection of changes applied to an installation. By applying a transform to a base installation package, the installer can add or replace data in the installation database. The installer can only apply transforms during an installation.
 ms.assetid: 1edc5227-70ac-4769-ab7f-67d01031dc33
 title: About Transforms
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

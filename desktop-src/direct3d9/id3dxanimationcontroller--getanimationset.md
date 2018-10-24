@@ -2,8 +2,6 @@
 Description: Gets an animation set.
 ms.assetid: 61785f60-82c1-4ddc-b4cd-2e7f665cfe8c
 title: ID3DXAnimationController::GetAnimationSet method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

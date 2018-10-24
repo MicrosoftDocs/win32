@@ -2,8 +2,6 @@
 Description: Transports
 ms.assetid: 63c5ff5b-293d-4a80-92e8-3ece41321095
 title: Transports
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

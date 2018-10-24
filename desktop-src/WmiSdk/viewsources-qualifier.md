@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: aefa8cda-962f-4f6c-92a0-a8825d48db60
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ViewSources Qualifier
 ms.author: windowssdkdev

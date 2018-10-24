@@ -2,8 +2,6 @@
 Description: You can fill a path by passing the address of a GraphicsPath object to the Graphics::FillPath method.
 ms.assetid: 4cf293cf-5155-4ce2-afeb-cc9ca9395764
 title: Filling Open Figures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

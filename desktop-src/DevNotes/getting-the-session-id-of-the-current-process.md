@@ -2,8 +2,6 @@
 Description: The following example x86 assembly code gets the Terminal Services session ID associated with the current process.
 ms.assetid: 9fcb35cb-6813-46a5-aa38-e102f1b6b7dc
 title: Getting the Session ID of the Current Process
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

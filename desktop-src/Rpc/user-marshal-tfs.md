@@ -2,8 +2,6 @@
 title: User-marshal
 description: User-marshal in Remote Procedure Call (RPC).
 ms.assetid: 5119e959-d8b8-4fca-8910-568bb9063a9d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

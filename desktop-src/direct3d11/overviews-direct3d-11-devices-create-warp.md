@@ -2,8 +2,6 @@
 title: How To Create a WARP Device
 description: This topic shows how to create a WARP device that implements a high speed software rasterizer.
 ms.assetid: 6daf661e-bc24-4b90-83a7-031acb57cf87
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

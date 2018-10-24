@@ -2,8 +2,6 @@
 title: About Resource Files
 description: Describes how to include resources in your Windows-based application with RC.
 ms.assetid: af7c7aed-5d28-40ac-ad00-da0986fd89c1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

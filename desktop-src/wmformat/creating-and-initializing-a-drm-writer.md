@@ -10,8 +10,6 @@ keywords:
 - DRM (digital rights management),initializing DRM writers
 - DRM Client Extended APIs,DRM writers
 - Client Extended APIs,DRM writers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

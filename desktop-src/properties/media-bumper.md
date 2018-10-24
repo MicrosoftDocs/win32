@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: cd71978d-09d9-43f1-ab1b-4b213e3a193b
 title: Media
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

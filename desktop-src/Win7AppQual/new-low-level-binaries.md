@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 8c883462-29d8-46c4-b1c6-3ae8b8d3b397
 title: New Low-Level Binaries
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

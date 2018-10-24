@@ -2,8 +2,6 @@
 title: Queued present model is being deprecated
 description: Queued present model is being deprecated
 ms.assetid: 271CD4F7-0992-47DB-AF5A-B77570EF681A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

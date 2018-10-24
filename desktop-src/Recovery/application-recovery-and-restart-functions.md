@@ -2,8 +2,6 @@
 title: Application Recovery and Restart Functions
 description: Application Recovery and Restart defines the following functions
 ms.assetid: 17de24d1-32fe-4b2d-a224-3730af73c892
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

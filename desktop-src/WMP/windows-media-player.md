@@ -6,8 +6,6 @@ keywords:
 - Windows Media Player,about
 - SDK (software development kit),features
 - software development kit (SDK),features
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

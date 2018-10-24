@@ -2,8 +2,6 @@
 title: Using Shaders in Direct3D 10
 description: Using Shaders in Direct3D 10
 ms.assetid: cff6f901-cb9b-44d5-a75b-9a4029a37215
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

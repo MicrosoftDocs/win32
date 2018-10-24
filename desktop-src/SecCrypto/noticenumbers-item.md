@@ -2,8 +2,6 @@
 Description: The Item property retrieves the Long that represents the indexed notice number of the collection. This is the default property.
 ms.assetid: d1f8103f-5d8d-4590-ab35-fd697a39cd45
 title: NoticeNumbers.Item property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

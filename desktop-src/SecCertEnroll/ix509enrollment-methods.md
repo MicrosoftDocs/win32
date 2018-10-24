@@ -2,8 +2,6 @@
 Description: The IX509Enrollment interface exposes the following methods.
 ms.assetid: 10BE79D8-A99B-469F-BB91-C31571E80D5C
 title: IX509Enrollment Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

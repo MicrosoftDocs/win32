@@ -1,8 +1,6 @@
 ---
 ms.assetid: DB87CDA5-E536-4884-BF60-3E7DB8C67A19
 title: PWM Enumeration Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Modifies virtual resource settings.
 ms.assetid: 3fb2a65f-9f40-4eb9-99e8-8fe1451427d9
 title: ModifyResourceSettings method of the Msvm_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

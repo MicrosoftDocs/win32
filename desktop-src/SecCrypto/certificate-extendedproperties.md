@@ -2,8 +2,6 @@
 Description: Returns a collection of the extended properties of the certificate.
 ms.assetid: e03ce9cf-a437-43e8-89d1-109245492d72
 title: ICertificate2::ExtendedProperties method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

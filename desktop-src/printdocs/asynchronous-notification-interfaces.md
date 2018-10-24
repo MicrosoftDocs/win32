@@ -2,8 +2,6 @@
 Description: The following interfaces are used in asynchronous communication between applications and components that are hosted by the print spooler, such as printer drivers and port monitors.
 ms.assetid: e96c957f-3972-4afc-9d76-a4725b8688f8
 title: Asynchronous Printing Notification Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

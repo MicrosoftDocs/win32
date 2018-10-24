@@ -2,8 +2,6 @@
 Description: Creating BYOT Objects
 ms.assetid: 16b68ce2-46b2-4e35-bf92-f132dcb354e3
 title: Creating BYOT Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

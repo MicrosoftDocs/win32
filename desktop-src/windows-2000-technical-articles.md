@@ -1,8 +1,6 @@
 ---
 ms.assetid: 9531DACF-BB7A-483C-909C-06C6F4C9D551
 title: Windows 2000 Technical Articles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

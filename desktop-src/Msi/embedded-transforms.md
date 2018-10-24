@@ -2,8 +2,6 @@
 Description: Embedded transforms are stored inside the .msi file of the package. This guarantees to users that the transform is always available when the installation package is available. Alternatively, transforms may be provided to users as standalone .mst files.
 ms.assetid: f7b265df-4b34-44ea-85ab-8dbca4797517
 title: Embedded Transforms
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

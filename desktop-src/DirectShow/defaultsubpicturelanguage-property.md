@@ -2,8 +2,6 @@
 Description: The DefaultSubpictureLanguage property retrieves the default subpicture language.
 ms.assetid: 75451c01-2cd3-484a-b864-6681896b9796
 title: DefaultSubpictureLanguage Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

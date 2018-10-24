@@ -2,8 +2,6 @@
 title: Configuring System Restore
 description: System Restore uses Windows Management Instrumentation (WMI) to provide a scriptable way of configuring and using its functionality. It exposes two classes, SystemRestore and SystemRestoreConfig, in the root\\default namespace.
 ms.assetid: b510c5b7-71ec-47f9-b567-45fde8c79f57
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

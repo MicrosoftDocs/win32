@@ -2,8 +2,6 @@
 Description: The following example demonstrates how a typical client would obtain Schannel credentials.
 ms.assetid: 8f912af8-fd64-467a-b154-28c60cb14929
 title: Getting Schannel Credentials
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

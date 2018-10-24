@@ -2,8 +2,6 @@
 title: Be Wary of Other RPC Endpoints Running in the Same Process
 description: When an application resides in a process with other RPC servers, all applications listen on all protocols.
 ms.assetid: edb20108-e0c3-4b9b-b57d-45a96d9472ba
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

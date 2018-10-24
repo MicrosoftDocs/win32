@@ -2,8 +2,6 @@
 title: Clipboard Messages
 description: .
 ms.assetid: d6c9d2b2-ee77-4c15-a859-989efbf89a31
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

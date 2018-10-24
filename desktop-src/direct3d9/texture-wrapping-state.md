@@ -2,8 +2,6 @@
 Description: The D3DRS\_WRAP0 through D3DRS\_WRAP7 render states enable and disable u- and v-wrapping for various textures in the device's multitexture cascade.
 ms.assetid: c584eee6-1187-4741-b3af-4bd79d93be77
 title: Texture Wrapping State (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

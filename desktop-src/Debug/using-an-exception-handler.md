@@ -2,8 +2,6 @@
 Description: The following examples demonstrate the use of an exception handler.
 ms.assetid: c3b4e696-9f45-4616-ac6b-07ba29750bb2
 title: Using an Exception Handler
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

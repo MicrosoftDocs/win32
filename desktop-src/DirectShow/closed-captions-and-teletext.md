@@ -2,8 +2,6 @@
 Description: Closed Captions and Teletext
 ms.assetid: faa34cdc-bee0-44c4-bd1c-84a688a27b9e
 title: Closed Captions and Teletext
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

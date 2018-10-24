@@ -2,8 +2,6 @@
 Description: Defines the type that contains the binary information for an image in a Journal note.
 ms.assetid: '03bfb45b-4f8c-480e-85db-59e1608a09fa'
 title: ImageType Complex Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

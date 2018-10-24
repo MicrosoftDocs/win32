@@ -5,8 +5,6 @@ ms.assetid: fb9c5720-9906-4827-9daf-d7caa453e818
 keywords:
 - application installation 64-bit Windows Programming
 - installation 64-bit Windows Programming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies whether the alpha mode for color media video types is premultiplied or straight.
 ms.assetid: A263C3F7-357B-426D-B38C-533F9F6A1262
 title: MF_MT_ALPHA_MODE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

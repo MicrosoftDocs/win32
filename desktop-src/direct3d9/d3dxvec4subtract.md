@@ -2,8 +2,6 @@
 Description: Subtracts two 4D vectors.
 ms.assetid: 3bc55b38-818e-40eb-859e-495ee28fc4ae
 title: D3DXVec4Subtract function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

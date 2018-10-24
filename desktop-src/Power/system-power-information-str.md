@@ -2,8 +2,6 @@
 Description: Contains information about the idleness of the system.
 ms.assetid: f6349b7c-1835-4492-95e3-9ce142628804
 title: SYSTEM_POWER_INFORMATION structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

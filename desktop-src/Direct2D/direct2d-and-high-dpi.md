@@ -5,8 +5,6 @@ ms.assetid: 1809ab0e-853f-4dac-be97-563c92b9caee
 keywords:
 - Direct2D,high-DPI
 - high-DPI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The get\_SourceTop method retrieves the top coordinate of the current source rectangle.
 ms.assetid: 78dbd1e6-f591-487e-b9fe-fcbda55f5338
 title: CBaseControlVideo.get_SourceTop method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

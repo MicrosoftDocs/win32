@@ -2,8 +2,6 @@
 Description: Whether the Bluetooth LE device is currently advertising a connectable advertisement.
 ms.assetid: 52e587c1-4925-4184-9a3e-f29795b72883
 title: System.Devices.Aep.Bluetooth.Le.IsConnectable
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

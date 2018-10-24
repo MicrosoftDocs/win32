@@ -2,8 +2,6 @@
 Description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string.
 ms.assetid: 49ba57b8-3e08-425f-98b2-52ed2c41a488
 title: enumeratedList
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

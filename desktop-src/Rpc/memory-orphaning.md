@@ -2,8 +2,6 @@
 title: Memory Orphaning
 description: If your distributed application uses an \ in, out, unique\ or \ in, out, ptr\ pointer parameter, the server side of the application can change the value of the pointer parameter to null.
 ms.assetid: 65588b4d-6bf4-44f7-994c-29a5b185c6b9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

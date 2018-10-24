@@ -2,8 +2,6 @@
 Description: Unassociates an attached ID3DXTextureGutterHelper object with the ID3DXPRTBuffer object.
 ms.assetid: 0bd8322a-8af1-4173-bbe3-9134c831cf3a
 title: ID3DXPRTBuffer::ReleaseGH method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

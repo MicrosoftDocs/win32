@@ -2,8 +2,6 @@
 Description: The Boolean <isSearchOnlyItem> element specifies whether the search provider supports browse mode in addition to search mode. This element is optional and has no child elements and no attributes.
 ms.assetid: eec1b735-ae78-48ef-8ebf-05b9fd038963
 title: isSearchOnlyItem Element (Search Connector Schema)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

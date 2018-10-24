@@ -2,8 +2,6 @@
 Description: Represents a relationship between a controller and a logical device that is managed by the controller.
 ms.assetid: 5a938fa4-3b91-42ad-beee-12ed0ce6df9a
 title: CIM_ControlledBy class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

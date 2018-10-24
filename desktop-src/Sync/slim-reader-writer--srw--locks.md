@@ -2,8 +2,6 @@
 Description: Slim reader/writer (SRW) locks enable the threads of a single process to access shared resources; they are optimized for speed and occupy very little memory.
 ms.assetid: 2d439b21-291f-4ff0-910a-c1c27e800019
 title: Slim Reader/Writer (SRW) Locks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Executes a verb on the FolderItem associated with the verb.
 ms.assetid: 92400fe9-e4d1-4bc9-b4ee-d2adaf38154f
 title: FolderItemVerb.DoIt method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

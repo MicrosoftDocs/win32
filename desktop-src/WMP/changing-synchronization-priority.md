@@ -15,8 +15,6 @@ keywords:
 - Windows Media metafile playlists,synchronization
 - portable devices,changing synchronization playlist priorities
 - synchronization playlists,priorities
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

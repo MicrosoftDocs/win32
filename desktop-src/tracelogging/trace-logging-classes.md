@@ -2,8 +2,6 @@
 title: TraceLogging Classes
 description: TraceLogging provides the following classes that provide support for logging Event Tracing for Windows (ETW) events during an activity
 ms.assetid: 345898F5-20D1-4E3A-9827-8D7999BA77E2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Effect
 ms.assetid: '5674901e-6646-4243-8ef9-5784ceae4bdb'
 title: Effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

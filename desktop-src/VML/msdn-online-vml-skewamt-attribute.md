@@ -2,8 +2,6 @@
 title: VML SkewAmt Attribute
 description: VML SkewAmt Attribute
 ms.assetid: ea685ea7-0853-4bcf-8ff2-39b714091429
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

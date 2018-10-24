@@ -2,8 +2,6 @@
 Description: Declares a new index in the specified database.
 ms.assetid: 21a09201-8f84-4263-b258-77716826a3cd
 title: SdbDeclareIndex function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

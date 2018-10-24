@@ -2,8 +2,6 @@
 Description: The IAzRoles interface exposes the following properties.
 ms.assetid: 1B137D03-7325-483F-ACE5-DF40DF61C20C
 title: IAzRoles Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

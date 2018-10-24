@@ -14,8 +14,6 @@ keywords:
 - monitor configuration,high-level functions
 - monitor configuration,low-level functions
 - monitor configuration,enumeration functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

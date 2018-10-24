@@ -5,8 +5,6 @@ ms.assetid: 6a6a710e-4d19-4fbf-9f25-abf22635c806
 keywords:
 - OpenGL processing pipeline,reading pixels
 - OpenGL processing pipeline,copying pixels
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

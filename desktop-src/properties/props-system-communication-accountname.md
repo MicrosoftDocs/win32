@@ -2,8 +2,6 @@
 Description: The account name.
 ms.assetid: 1699c269-d653-4f62-8cef-e1f7d9250e0c
 title: System.Communication.AccountName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

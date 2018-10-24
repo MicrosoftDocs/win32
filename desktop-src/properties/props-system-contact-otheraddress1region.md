@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: fc930816-0ca9-4b6e-82c6-2df7b3adbeb0
 title: System.Contact.OtherAddress1Region
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Pixel Shader Register Modifiers
 description: Source Register Modifiers
 ms.assetid: c713df80-061b-4b0b-b8c9-8ef94b8d3db5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

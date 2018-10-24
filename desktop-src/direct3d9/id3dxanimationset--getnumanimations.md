@@ -2,8 +2,6 @@
 Description: Gets the number of animations in the animation set.
 ms.assetid: 8d64c50b-2ec0-4fb4-a9d2-4d889b42502d
 title: ID3DXAnimationSet::GetNumAnimations method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

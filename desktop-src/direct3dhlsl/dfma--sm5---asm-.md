@@ -2,8 +2,6 @@
 title: dfma (sm5 - asm)
 description: Performs a fused-multiply add.
 ms.assetid: 5BE96CDB-1756-4EBE-B4CC-69EFF098A4F1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

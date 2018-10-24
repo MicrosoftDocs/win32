@@ -2,8 +2,6 @@
 title: Core Data Types
 description: The following data types are declared in d3d12.h.
 ms.assetid: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

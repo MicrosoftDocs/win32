@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: B94DB2BC-4D77-4EC9-84A4-6D3C231FCC5D
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IEnumWbemClassObject Methods
 ms.author: windowssdkdev

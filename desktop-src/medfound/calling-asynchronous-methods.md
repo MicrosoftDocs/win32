@@ -2,8 +2,6 @@
 Description: Calling Asynchronous Methods
 ms.assetid: 1d8688a5-d476-457d-a0ad-e4f106ac3484
 title: Calling Asynchronous Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

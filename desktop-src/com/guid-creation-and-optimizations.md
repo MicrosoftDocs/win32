@@ -2,8 +2,6 @@
 title: GUID Creation and Optimizations
 description: GUID Creation and Optimizations
 ms.assetid: 698322f2-db89-4553-90c6-4278e96716dc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

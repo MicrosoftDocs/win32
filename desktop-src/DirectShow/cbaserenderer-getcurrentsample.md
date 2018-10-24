@@ -2,8 +2,6 @@
 Description: The GetCurrentSample method retrieves the current sample.
 ms.assetid: cfdc66e3-7d32-47b7-87f6-99dd9513c93b
 title: CBaseRenderer.GetCurrentSample method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

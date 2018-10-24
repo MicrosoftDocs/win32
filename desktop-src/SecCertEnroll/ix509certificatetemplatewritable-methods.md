@@ -2,8 +2,6 @@
 Description: The IX509CertificateTemplateWritable interface exposes the following methods.
 ms.assetid: D6F8E0BC-B5D1-40A3-949E-80E34FE74423
 title: IX509CertificateTemplateWritable Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

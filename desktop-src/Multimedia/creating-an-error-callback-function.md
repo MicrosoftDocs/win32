@@ -4,8 +4,6 @@ description: Creating an Error Callback Function
 ms.assetid: a489ec94-c566-44b1-aa93-9b43f23de744
 keywords:
 - capSetCallbackOnError macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

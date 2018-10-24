@@ -2,8 +2,6 @@
 Description: Callbacks from hosted components are what make hosting possible. However, it is possible that the component you are hosting has activated another activation context that it uses to access plug-ins or components of its own.
 ms.assetid: 794a2e2f-ba1f-48ad-a435-244fc7936097
 title: Using Callbacks From Hosted Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

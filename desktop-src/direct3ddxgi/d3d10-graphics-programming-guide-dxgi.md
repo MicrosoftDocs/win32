@@ -2,8 +2,6 @@
 Description: This topic contains the following sections.
 ms.assetid: 0522ccbf-e754-470a-8199-004fcbaa927d
 title: DXGI Overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

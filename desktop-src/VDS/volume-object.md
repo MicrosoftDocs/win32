@@ -2,8 +2,6 @@
 Description: Volume Object
 ms.assetid: 92013015-b0f5-4b92-937b-c2637f65810c
 title: Volume Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

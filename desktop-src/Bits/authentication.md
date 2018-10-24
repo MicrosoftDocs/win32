@@ -2,8 +2,6 @@
 title: Authentication
 description: BITS supports Basic authentication, Passport authentication, and several challenge/response authentication schemes.
 ms.assetid: cfd4aec3-79d0-4971-93f8-df797e5c0f75
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018

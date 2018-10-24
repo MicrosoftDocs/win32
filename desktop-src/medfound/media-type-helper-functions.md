@@ -2,8 +2,6 @@
 Description: The following functions pertain to media type objects.
 ms.assetid: 7d4f3581-8cb9-4d31-b2f7-c8fbde24cf2a
 title: Media Type Helper Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -9,8 +9,6 @@ keywords:
 - writing code for skins,Bitmaps section
 - bitmaps in skins,Bitmaps section
 - skin definition files,Bitmaps section
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

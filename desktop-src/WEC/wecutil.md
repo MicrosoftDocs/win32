@@ -3,8 +3,6 @@ title: Wecutil.exe
 description: Wecutil.exe is a Windows Event Collector utility that enables an administrator to create and manage subscriptions to events forwarded from remote event sources that support the WS-Management protocol.
 audience: developer
 ms.assetid: 93ce25df-f829-43b9-96f2-7f2f291d100e
-ms.prod: windows-server-dev
-ms.technology: windows-event-collector
 ms.tgt_platform: multiple
 keywords:
 - Wecutil.exe

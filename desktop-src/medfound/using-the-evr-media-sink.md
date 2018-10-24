@@ -2,8 +2,6 @@
 Description: Using the EVR Media Sink
 ms.assetid: cd98266a-bc62-43da-b4d7-3561447d634f
 title: Using the EVR Media Sink
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

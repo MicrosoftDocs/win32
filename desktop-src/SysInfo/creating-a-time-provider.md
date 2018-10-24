@@ -2,8 +2,6 @@
 Description: A time provider is implemented as a DLL. Each DLL can support multiple time providers. Each provider is responsible for its own configuration and synchronization.
 ms.assetid: 04f523d7-7e99-4bf5-941f-ae67f4b9df0a
 title: Creating a Time Provider
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

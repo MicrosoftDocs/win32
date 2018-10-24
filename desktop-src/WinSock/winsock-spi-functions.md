@@ -2,8 +2,6 @@
 Description: The following list provides concise descriptions of each Winsock SPI function.
 ms.assetid: e7b1c702-1726-404b-9116-dd3c2e3dc4dd
 title: Winsock SPI Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Control Functions
 description: .
 ms.assetid: 9774a320-1d00-48a4-ba13-fb1cd683a635
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

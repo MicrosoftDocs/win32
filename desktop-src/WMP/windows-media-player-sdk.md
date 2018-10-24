@@ -16,8 +16,6 @@ keywords:
 - SDK (software development kit),about Windows Media Player Mobile
 - documentation,about Windows Media Player Mobile
 - versions of Windows Media Player,SDK for version 12
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

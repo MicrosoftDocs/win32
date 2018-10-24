@@ -2,8 +2,6 @@
 Description: The Digest Access Protocol
 ms.assetid: 7b2fd75e-dd0d-4a63-a84b-a64f08f883f2
 title: The Digest Access Protocol
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

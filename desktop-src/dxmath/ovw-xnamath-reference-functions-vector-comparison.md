@@ -2,8 +2,6 @@
 Description: Lists the vector comparison functions.
 ms.assetid: 8caad40f-ab8e-db2f-da11-18f3d3ccf6ef
 title: Vector Comparison Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

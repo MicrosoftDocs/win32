@@ -2,8 +2,6 @@
 Description: Client-Side Errors
 ms.assetid: 95fb2ef1-eec2-4c74-891a-617450098160
 title: Client-Side Errors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

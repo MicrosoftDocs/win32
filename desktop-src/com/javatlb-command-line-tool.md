@@ -2,8 +2,6 @@
 title: JavaTLB Command-Line Tool
 description: JavaTLB Command-Line Tool
 ms.assetid: b46d7bcc-ccd9-4242-9b19-f398d2cb8f91
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

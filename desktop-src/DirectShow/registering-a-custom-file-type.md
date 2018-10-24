@@ -2,8 +2,6 @@
 Description: This article describes how the Filter Graph Manager locates a source filter, given a file name.
 ms.assetid: bc0d5719-6325-40fe-8261-ad00b91f272c
 title: Registering a Custom File Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

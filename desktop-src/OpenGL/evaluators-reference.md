@@ -5,8 +5,6 @@ ms.assetid: f98c272b-3d6c-40ac-93cc-5206765e697b
 keywords:
 - OpenGL,evaluators reference
 - evaluators reference OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Gets the animation set for the given track.
 ms.assetid: d40669ac-c391-4912-82d6-28c366a0f1dc
 title: ID3DXAnimationController::GetTrackAnimationSet method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

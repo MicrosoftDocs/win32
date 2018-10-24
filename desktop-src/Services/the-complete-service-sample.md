@@ -1,8 +1,6 @@
 ---
 ms.assetid: a3aeea9b-09c0-4834-892a-c378b67402f4
 title: The Complete Service Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Tape Location Search
 ms.assetid: 17fb4eba-4b2c-41c2-94e2-e58586f92e53
 title: Tape Location Search
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

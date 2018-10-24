@@ -2,8 +2,6 @@
 title: Network Tracing in Windows 7
 description: Windows 7 expands on the Network Diagnostic Framework (NDF) to provide a quick method for troubleshooting network connectivity issues by enabling collection of all the needed information in one step, and by leveraging Event Tracing for Windows (ETW) to log network events packets in a single file.
 ms.assetid: 7d331362-ff26-4ca0-aa45-07cc97304c7c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

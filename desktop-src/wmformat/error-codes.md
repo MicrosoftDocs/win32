@@ -22,8 +22,6 @@ keywords:
 - DRM (digital rights management),error codes
 - digital rights management (DRM),success codes
 - DRM (digital rights management),success codes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

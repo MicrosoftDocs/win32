@@ -2,8 +2,6 @@
 Description: API Sets available in Windows 8.1 and Windows Server 2012 R2.
 ms.assetid: a34cb6d4-18bc-44b3-a283-16fa17e26868
 title: Windows 8.1 API Sets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

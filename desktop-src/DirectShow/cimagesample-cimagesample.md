@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: d7550c38-d728-41b2-80a6-20728abf6012
 title: CImageSample.CImageSample constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

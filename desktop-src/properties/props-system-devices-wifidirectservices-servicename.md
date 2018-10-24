@@ -2,8 +2,6 @@
 Description: Wi-Fi Direct Services Service Name.
 ms.assetid: e367b682-f2b9-4341-aac7-165ab055bd1e
 title: System.Devices.WiFiDirectServices.ServiceName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Finds the child frame of a root frame.
 ms.assetid: 211e117a-9707-459a-a6a1-b3e78bdad6e2
 title: D3DXFrameFind function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

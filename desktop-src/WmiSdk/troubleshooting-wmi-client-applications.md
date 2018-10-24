@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f69b360a-2c24-4776-bcda-b51edde0dcde
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Troubleshooting WMI Client Applications
 ms.author: windowssdkdev

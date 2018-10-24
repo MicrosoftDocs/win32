@@ -2,8 +2,6 @@
 Description: Use this method to release all references to video memory resources and delete all stateblocks. This method should be called whenever a device is lost, or before resetting a device.
 ms.assetid: 1abc4e01-65c6-4034-8cbb-891a2234ad33
 title: ID3DXFont::OnLostDevice method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

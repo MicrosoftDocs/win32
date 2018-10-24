@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 926a7262-ea6b-4a5a-8aa7-6ec0ae389031
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: PostJoinFilter Qualifier
 ms.author: windowssdkdev

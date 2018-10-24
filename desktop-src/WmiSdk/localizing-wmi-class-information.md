@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 01e1cee5-d882-45b6-ac93-68533c2c6c9d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Localizing WMI Class Information
 ms.author: windowssdkdev

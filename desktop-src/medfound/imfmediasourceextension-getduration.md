@@ -2,8 +2,6 @@
 Description: Gets the duration of the media source in 100-nanosecond units.
 ms.assetid: d0c644a0-9784-40b0-9d1f-7d9e8334d705
 title: IMFMediaSourceExtension::GetDuration method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

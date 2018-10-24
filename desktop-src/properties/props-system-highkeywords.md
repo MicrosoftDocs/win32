@@ -2,8 +2,6 @@
 Description: The high confidence keywords for the item.
 ms.assetid: 37a07997-d073-4cd2-91e0-42125678bc11
 title: System.HighKeywords
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

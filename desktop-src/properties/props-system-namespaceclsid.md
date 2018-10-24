@@ -2,8 +2,6 @@
 Description: The CLSID of the name space extension for an item, the object that implements IShellFolder for this item.
 ms.assetid: 8937f625-d649-40fb-bc8a-5d1103095efa
 title: System.NamespaceCLSID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

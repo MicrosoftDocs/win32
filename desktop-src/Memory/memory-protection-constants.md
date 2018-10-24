@@ -2,8 +2,6 @@
 Description: The following are the memory-protection options; you must specify one of the following values when allocating or protecting a page in memory. Protection attributes cannot be assigned to a portion of a page; they can only be assigned to a whole page.
 ms.assetid: 09839db7-2118-4a7d-a707-a08c92bd600c
 title: Memory Protection Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

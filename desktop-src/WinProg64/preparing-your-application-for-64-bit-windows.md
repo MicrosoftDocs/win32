@@ -4,8 +4,6 @@ description: There are several features that make it easier for you to develop a
 ms.assetid: 6559b0ab-17cf-4bec-bf2d-3a0da0a344d3
 keywords:
 - 64-bit toolkit 64-bit Windows Programming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: How you write events to a trace session is determined by the type of your provider.
 ms.assetid: 346f9c96-9ea8-41ea-8953-a1dc23732215
 title: Writing Events
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

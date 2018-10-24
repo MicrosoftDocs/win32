@@ -2,8 +2,6 @@
 Description: The transaction attribute is a declarative property that automatically manages transactions for the component developer. By setting this attribute, you eliminate the need to use explicit transaction controls in your component.
 ms.assetid: ea0e4d7e-2598-4a42-993c-58815f2fa138
 title: Configuring Transactions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Tablet PC includes technology for interacting with tablet pen data as it is being gathered.
 ms.assetid: e026f860-be4d-40a5-b951-15b8be3cd626
 title: Accessing and Manipulating Stylus Input
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

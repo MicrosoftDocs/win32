@@ -2,8 +2,6 @@
 Description: Starts the spatial audio stream.
 ms.assetid: 554F1C09-4DA4-4F60-8940-4C3170314A9F
 title: ISpatialAudioObjectRenderStreamForMetadata::Start method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

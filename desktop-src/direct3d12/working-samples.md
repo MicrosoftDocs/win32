@@ -2,8 +2,6 @@
 title: Working Samples
 description: Working samples are available for download, showing the usage of a number of features of Direct3D 12.
 ms.assetid: 4C4475D4-534F-484F-8D60-9ACEA09AC109
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

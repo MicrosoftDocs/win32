@@ -4,8 +4,6 @@ description: The advantages of using SIS and the SIS backup architecture are the
 ms.assetid: c72a14a1-92ae-4875-ae73-e277ed2b0c0d
 keywords:
 - single-instance store (SIS) Backup , advantages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

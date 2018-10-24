@@ -2,8 +2,6 @@
 Description: Exports the reference point of the virtual system.
 ms.assetid: e4d80404-6b1b-4153-9ab2-aebab18c331a
 title: ExportReferencePoint method of the Msvm_VirtualSystemReferencePointService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

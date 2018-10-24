@@ -2,8 +2,6 @@
 Description: The CreateNPPInterface function uses the BLOB returned from the finder to create an NPP that the application can use.
 ms.assetid: 41f48c72-3284-4ebc-baff-63553c8971e6
 title: CreateNPPInterface function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

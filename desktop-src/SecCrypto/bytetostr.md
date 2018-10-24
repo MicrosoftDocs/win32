@@ -2,8 +2,6 @@
 Description: The ByteToStr function converts an array of BYTE values to a hexadecimal character string.
 ms.assetid: b1320e0f-fb67-4ed8-af3c-8ca7f0145468
 title: ByteToStr
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Gets or sets the path to the link object.
 ms.assetid: ddb5be91-7c21-46c8-949e-bdd973e11b6c
 title: ShellLinkObject.Path property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Used to associate a virtual machine with its BIOS.
 ms.assetid: 494E9D9F-64D5-49D5-A6C7-ABE469ABA4CA
 title: Msvm_SystemBIOS class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

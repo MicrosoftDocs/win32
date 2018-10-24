@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7667e87f-b997-4fd9-81ea-b27c9d2a9335
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ValueMap and Value Qualifiers
 ms.author: windowssdkdev

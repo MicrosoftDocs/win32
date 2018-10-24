@@ -2,8 +2,6 @@
 title: Consuming Events
 description: You can consume events from channels or from log files.
 ms.assetid: 17204d3f-0875-42c5-9af4-caca6349a67d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

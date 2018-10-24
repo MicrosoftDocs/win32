@@ -2,8 +2,6 @@
 Description: Whether one of the Device Association Endpoints is currently present or not.
 ms.assetid: 3eb0f4a9-5053-4e98-9b7c-90e9b840b8ff
 title: System.Devices.AepContainer.IsPresent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Compares two Unicode strings.
 ms.assetid: D2703180-946C-4762-AFBA-1E882B01B944
 title: RtlCompareUnicodeString function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

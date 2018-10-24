@@ -2,8 +2,6 @@
 title: Overview of the Windows Graphics Architecture
 description: Describes the C++/COM graphics APIs in Windows.
 ms.assetid: 9654b18b-d615-455d-a92a-6fc2ccda469e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: VML MSO-Wrap-Distance-Right Attribute
 description: VML MSO-Wrap-Distance-Right Attribute
 ms.assetid: 2f0ec7a3-036e-4f45-a330-f8ddccb75791
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

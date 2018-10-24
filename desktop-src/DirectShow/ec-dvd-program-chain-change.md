@@ -2,8 +2,6 @@
 Description: Sent when current program chain (PGC) changes.
 ms.assetid: 80fcd059-6ab4-4116-ac3a-012c451237b3
 title: EC_DVD_PROGRAM_CHAIN_CHANGE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

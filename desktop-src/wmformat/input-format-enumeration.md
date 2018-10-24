@@ -10,8 +10,6 @@ keywords:
 - Advanced Systems Format (ASF),enumerating input formats
 - ASF (Advanced Systems Format),enumerating input formats
 - input format enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

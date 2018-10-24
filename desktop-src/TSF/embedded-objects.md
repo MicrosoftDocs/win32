@@ -7,8 +7,6 @@ keywords:
 - TSF (Text Services Framework),embedded objects
 - TSF-enabled applications,embedded objects
 - embedded objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

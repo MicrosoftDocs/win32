@@ -2,8 +2,6 @@
 Description: A set of cryptographic algorithms. Schannel protocols use algorithms from a cipher suite to create keys and encrypt information.
 ms.assetid: 380452e2-a9c8-4380-a3bf-9c7942a0c0c2
 title: TLS Cipher Suites in Windows Vista
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

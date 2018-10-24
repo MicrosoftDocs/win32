@@ -2,8 +2,6 @@
 Description: An access right is a bit flag that corresponds to a particular set of operations that a thread can perform on a securable object.
 ms.assetid: da67c486-d2e7-4632-ac7a-c18aabc3f21d
 title: Access Rights and Access Masks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

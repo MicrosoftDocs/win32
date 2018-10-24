@@ -22,8 +22,6 @@ keywords:
 - Windows Media Player online stores,new features in version 11
 - samples,new features in Windows Media Player 11
 - versions of Windows Media Player,new features in version 11
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The list of properties to display in the preview pane. Register under the regvalue of &\#0034;PreviewDetails&\#0034;.
 ms.assetid: 357b3ad9-d451-44f1-abd1-67008e66f419
 title: System.PropList.PreviewDetails
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

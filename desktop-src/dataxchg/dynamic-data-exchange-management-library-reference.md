@@ -2,8 +2,6 @@
 title: Dynamic Data Exchange Management Library Reference
 description: .
 ms.assetid: bc9fc6ba-cf10-435b-ac0c-6253342f99fe
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

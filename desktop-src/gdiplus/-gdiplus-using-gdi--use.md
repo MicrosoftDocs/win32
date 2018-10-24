@@ -2,8 +2,6 @@
 Description: 'The following topics describe how to use the GDI+ API with the C++ programming language:'
 ms.assetid: 659881f3-ada3-4731-95b9-2ef7a8a445a9
 title: Using GDI+
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

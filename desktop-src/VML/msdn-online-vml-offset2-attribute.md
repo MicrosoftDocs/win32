@@ -2,8 +2,6 @@
 title: VML Offset2 Attribute
 description: VML Offset2 Attribute
 ms.assetid: a2792992-71a1-4932-8180-82ca38bd6dd2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

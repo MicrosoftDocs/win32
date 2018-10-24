@@ -2,8 +2,6 @@
 title: Informational Notifications
 description: For the connection states known as running states, no action is required of the notification handler unless an error occurs.
 ms.assetid: 3f5ea9e0-f75a-4b02-a0dc-86cb5012c242
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

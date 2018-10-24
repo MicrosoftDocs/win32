@@ -6,8 +6,6 @@ keywords:
 - animation manager objects Windows Animation ,creating
 - animation timer objects Windows Animation ,creating
 - transition library objects Windows Animation ,creating
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

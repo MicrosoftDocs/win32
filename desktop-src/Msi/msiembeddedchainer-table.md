@@ -2,8 +2,6 @@
 Description: Use this table to author a multiple-package installation.
 ms.assetid: ac1e9c7b-bb83-4e1e-9108-211374c7d878
 title: MsiEmbeddedChainer Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

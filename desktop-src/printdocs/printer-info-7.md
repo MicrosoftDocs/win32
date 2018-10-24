@@ -2,8 +2,6 @@
 Description: The PRINTER\_INFO\_7 structure specifies directory services printer information.
 ms.assetid: 9443855e-df7d-41a1-a0df-5649a97b2915
 title: PRINTER_INFO_7 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

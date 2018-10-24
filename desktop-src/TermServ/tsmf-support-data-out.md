@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 987ede31-ad15-489f-90e5-fb707c6b38a9
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - TSMF_SUPPORT_DATA_OUT structure Remote Desktop Services

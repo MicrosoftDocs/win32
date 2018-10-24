@@ -4,8 +4,6 @@ description: Starting with IE7 and above, WinINet supports IPv6 literals in the 
 ms.assetid: cbbb9f93-15b0-4017-ac39-8a396203532e
 keywords:
 - IP Version 6 Support
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

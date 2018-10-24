@@ -2,8 +2,6 @@
 Description: The side-by-side assembly API uses the following interfaces.
 ms.assetid: e807da7e-ba7d-4c54-957a-7cff7b9f399b
 title: Side-by-Side Assembly Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

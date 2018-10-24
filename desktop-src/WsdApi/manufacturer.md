@@ -2,8 +2,6 @@
 Description: Specifies the name of the manufacturer.
 ms.assetid: 7d73a4fe-6fd1-4d99-80fb-9aa5ddcdca12
 title: manufacturer element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -10,8 +10,6 @@ keywords:
 - ASF (Advanced Systems Format),output numbers and formats
 - output numbers and formats,assigning
 - codecs,output numbers and formats
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

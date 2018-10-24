@@ -2,8 +2,6 @@
 Description: Contains the start time at which a media source restarts from its current position.
 ms.assetid: b598b4d1-40e1-4282-b312-5aa6ca3a6733
 title: MF_EVENT_SOURCE_ACTUAL_START attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

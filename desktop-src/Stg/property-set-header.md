@@ -4,8 +4,6 @@ description: At the beginning of the property set stream is a header. It consist
 ms.assetid: 6f4531d5-99d8-43ff-b6c1-5975b7527fc0
 keywords:
 - Property Set Header Structured Storage
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

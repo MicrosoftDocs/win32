@@ -2,8 +2,6 @@
 Description: Defines operations to perform on vertices in preparation for mesh cleaning.
 ms.assetid: f222acaa-fa82-4591-b7c2-b520cb648ed5
 title: D3DXCLEANTYPE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

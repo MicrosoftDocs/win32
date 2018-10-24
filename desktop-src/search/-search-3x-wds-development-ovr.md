@@ -2,8 +2,6 @@
 Description: To index the contents and properties of new file formats and data stores, Microsoft Windows Search must be extended with add-ins.
 ms.assetid: 04ddcd97-c358-44d2-9092-a035436c50c9
 title: Windows Search as a Development Platform
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

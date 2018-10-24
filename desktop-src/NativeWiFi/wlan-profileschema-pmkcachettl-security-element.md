@@ -2,8 +2,6 @@
 Description: Indicates the length of time, in minutes, that a PMK cache will be kept.
 ms.assetid: d9e3b839-48f6-490c-ab83-067368cdcca2
 title: PMKCacheTTL (security) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

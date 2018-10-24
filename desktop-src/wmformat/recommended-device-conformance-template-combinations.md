@@ -10,8 +10,6 @@ keywords:
 - Advanced Systems Format (ASF),recommended device conformance template combinations
 - ASF (Advanced Systems Format),recommended device conformance template combinations
 - device conformance templates,recommended combinations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

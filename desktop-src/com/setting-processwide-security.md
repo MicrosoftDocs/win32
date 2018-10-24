@@ -2,8 +2,6 @@
 title: Setting Process-Wide Security
 description: There are several ways to set process-wide security.
 ms.assetid: 596ba257-cbde-4243-aa29-78749304867a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

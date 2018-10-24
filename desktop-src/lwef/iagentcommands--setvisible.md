@@ -2,8 +2,6 @@
 title: IAgentCommands SetVisible
 description: IAgentCommands SetVisible
 ms.assetid: 4b99989a-29bb-4e0e-8155-cf734cc667fd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

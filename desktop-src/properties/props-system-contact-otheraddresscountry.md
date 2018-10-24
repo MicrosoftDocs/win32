@@ -2,8 +2,6 @@
 Description: Other address country name of the contact.
 ms.assetid: 4126e00c-aefb-4b47-8ec9-dc4a281e1af1
 title: System.Contact.OtherAddressCountry
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

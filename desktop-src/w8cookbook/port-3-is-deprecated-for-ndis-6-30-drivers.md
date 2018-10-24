@@ -2,8 +2,6 @@
 title: Port 3 is deprecated for NDIS 6.30 drivers
 description: Port 3 is deprecated for NDIS 6.30 drivers
 ms.assetid: 900BD08D-3EAF-43F3-A74A-359815474FAD
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

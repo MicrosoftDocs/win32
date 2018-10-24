@@ -2,8 +2,6 @@
 Description: The following example creates and duplicates a hash of some text. It then adds additional text to the original hash and different text to the duplicate.
 ms.assetid: 7aa7c9a1-471b-4b40-9967-b1da946c83a5
 title: 'Example C Program: Duplicating a Hash'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

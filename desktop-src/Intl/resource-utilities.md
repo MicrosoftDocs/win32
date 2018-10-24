@@ -2,8 +2,6 @@
 Description: This topic describes two utilities used to build MUI applications.
 ms.assetid: 8ba94001-fc46-41e0-a071-0dc500a20753
 title: Resource Utilities
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

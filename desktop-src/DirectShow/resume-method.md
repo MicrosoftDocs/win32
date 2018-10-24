@@ -2,8 +2,6 @@
 Description: The Resume method resumes playback after a menu has been displayed.
 ms.assetid: e16d0c05-34ca-4841-b7a2-e7878c795a40
 title: Resume Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

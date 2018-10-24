@@ -2,8 +2,6 @@
 Description: In TAPI 3.1, the terminal object is expanded to include a file terminal. File terminals provide a simple means to perform common operations, for example, recording an audio stream or streams to a file or subsequent playback of recorded audio to a stream.
 ms.assetid: 397b9b69-edd2-482e-b078-0cc61b489a37
 title: File Terminals
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

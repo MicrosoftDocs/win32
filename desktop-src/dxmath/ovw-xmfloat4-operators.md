@@ -2,8 +2,6 @@
 Description: The XMFLOAT4 structure exposes the following operators.
 ms.assetid: edbc8450-b5a2-476a-bbe8-b66676552607
 title: XMFLOAT4 Operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

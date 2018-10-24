@@ -2,8 +2,6 @@
 title: DCOM Security Enhancements in Windows XP Service Pack 2 and Windows Server 2003 Service Pack 1
 description: Windows Server XP Service Pack 2 (SP2) and Windows Server 2003 Service Pack 1 (SP1) introduce enhanced default security settings for the Distributed Component Object Model (DCOM).
 ms.assetid: 1917834c-5216-4ef3-a0c2-d8ca63cef53d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

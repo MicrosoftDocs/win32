@@ -2,8 +2,6 @@
 Description: The GetPageInfo method retrieves information about the property page. This method implements the IPropertyPage::GetPageInfo method.
 ms.assetid: f2e04652-7c71-48b2-b964-4e07ac98d367
 title: CBasePropertyPage.GetPageInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

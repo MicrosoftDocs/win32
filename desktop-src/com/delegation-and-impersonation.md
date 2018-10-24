@@ -2,8 +2,6 @@
 title: Delegation and Impersonation
 description: In client/server scenarios, it is common for one server to call another server to accomplish some task on a client's behalf. The situation where a server is given the authority to act on a client's behalf is called delegation.
 ms.assetid: 245bff1a-31d3-49ce-847e-c37d0c96f9d1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

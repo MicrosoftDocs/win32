@@ -2,8 +2,6 @@
 title: Generic User Control Point Application
 description: The generic user control point (UCP) application allows you to discover devices, control those discovered devices, and view the related eventing information, all using a graphical interface.
 ms.assetid: 18ac23df-9d69-4a28-91e5-991eb4f3e6ed
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

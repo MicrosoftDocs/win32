@@ -2,8 +2,6 @@
 Description: An abstract class that represents settings for a given instance of an Ethernet switch feature.
 ms.assetid: c1720649-585f-45a9-8329-06787bd8b600
 title: Msvm_EthernetSwitchFeatureSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

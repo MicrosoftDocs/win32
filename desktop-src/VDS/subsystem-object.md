@@ -2,8 +2,6 @@
 Description: Subsystem Object
 ms.assetid: f605a5de-9256-4b43-8e12-3d78fd6cd9f1
 title: Subsystem Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Links to documentation for the IAzClientContext3 interoperability wrapper methods and properties.
 ms.assetid: e06eff99-55d6-41d1-9430-d783815ee01a
 title: Microsoft.Interop.Security.AzRoles.IAzClientContext3 interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

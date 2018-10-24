@@ -2,8 +2,6 @@
 Description: The ButtonsAvailable property retrieves the total number of buttons on the current menu.
 ms.assetid: 4df3a7e7-1be4-4cc7-ad61-567f7f45811e
 title: ButtonsAvailable Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

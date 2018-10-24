@@ -2,8 +2,6 @@
 title: Mipmap packing
 description: Depending on the tier of tiled resources support, mipmaps with certain dimensions don't follow the standard tile shapes and are considered to all be packed together with one another in a manner that is opaque to the application.
 ms.assetid: 3B416324-7656-495F-9BA9-8F5BE475ABC1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The reference clock has changed.
 ms.assetid: f6de9e74-85fa-4f36-9d7d-3d95f2dbf873
 title: EC_CLOCK_CHANGED
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

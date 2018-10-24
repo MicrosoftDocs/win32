@@ -2,8 +2,6 @@
 Description: Common language runtime assemblies that are installed to the global assembly cache must have identical files in all occurrences of the assembly.
 ms.assetid: 02b4ad60-d28d-44b8-955f-b367197e69c3
 title: Reinstallation Modes of Common Language Runtime Assemblies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

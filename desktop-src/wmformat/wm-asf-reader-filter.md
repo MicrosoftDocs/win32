@@ -9,8 +9,6 @@ keywords:
 - WM ASF Reader
 - Advanced Systems Format (ASF),WM ASF Reader
 - ASF (Advanced Systems Format),WM ASF Reader
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

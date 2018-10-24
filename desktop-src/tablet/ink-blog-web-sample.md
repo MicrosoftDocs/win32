@@ -2,8 +2,6 @@
 Description: The Ink Blog sample application demonstrates how to create a managed UserControl class that has inking capability and host that control in Microsoft Internet Explorer.
 ms.assetid: b6c3ad92-3ab1-4311-b318-13939e1a1a5a
 title: Ink Blog Web Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

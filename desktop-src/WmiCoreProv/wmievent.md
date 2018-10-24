@@ -2,8 +2,6 @@
 Description: The WMIEvent class is a base class from which all WMI event classes are derived.
 ms.assetid: 0393d3fc-7566-4eda-940e-248d622a903a
 title: WMIEvent class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
