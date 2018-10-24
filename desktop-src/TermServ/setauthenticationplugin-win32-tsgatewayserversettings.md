@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b79a5e7c-bf55-48f6-a6c0-5338e7eee2a1
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - SetAuthenticationPlugin method Remote Desktop Services

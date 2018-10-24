@@ -2,8 +2,6 @@
 Description: The GetSwapInputs method retrieves a value that indicates whether the transition inputs are swapped.
 ms.assetid: 84cb5c3d-7c3a-4c35-aac7-97d812d99a38
 title: IAMTimelineTrans::GetSwapInputs method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

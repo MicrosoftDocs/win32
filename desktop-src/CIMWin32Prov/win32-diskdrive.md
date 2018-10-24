@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c1fc6a1e-e725-484b-aacf-279f777e9b19
-ms.prod: windows-server-dev
-ms.technology:
 - cimwin32
 - windows-management-instrumentation
 ms.tgt_platform: multiple

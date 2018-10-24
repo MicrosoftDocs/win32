@@ -2,8 +2,6 @@
 Description: The IX509CertificateRequestCmc2 interface exposes the following methods.
 ms.assetid: ADBAEBA1-571C-44CF-9C98-B21FC7529D3C
 title: IX509CertificateRequestCmc2 Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

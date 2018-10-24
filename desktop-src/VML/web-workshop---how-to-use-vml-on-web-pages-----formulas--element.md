@@ -16,8 +16,6 @@ keywords:
 - vector graphics,defining paths for shapes
 - VML shapes,defining paths
 - defining paths for shapes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Releases a protected output object.
 ms.assetid: e9b09fd7-9db2-4189-b347-55f5fede2f80
 title: DestroyOPMProtectedOutput function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

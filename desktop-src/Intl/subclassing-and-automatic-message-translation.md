@@ -2,8 +2,6 @@
 Description: Subclassing is a technique that allows an application to intercept and process messages sent or posted to a particular window before a window procedure has a chance to process them.
 ms.assetid: 6f7ee9ff-479d-4cb0-8de1-1c3b671551f9
 title: Subclassing and Automatic Message Translation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

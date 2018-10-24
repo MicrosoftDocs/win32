@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 6024de35-9ab5-4e03-97dc-0ebf830e5754
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - Text-Country attribute AD Schema

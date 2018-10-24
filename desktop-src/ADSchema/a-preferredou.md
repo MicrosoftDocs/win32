@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: e6f0d6df-0353-4626-8b1b-fa5f99f5ef58
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - Preferred-OU attribute AD Schema

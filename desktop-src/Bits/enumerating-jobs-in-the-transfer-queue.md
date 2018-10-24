@@ -8,8 +8,6 @@ keywords:
 - transfer queue BITS , enumerating
 - enumerating BITS
 - enumerating BITS , jobs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

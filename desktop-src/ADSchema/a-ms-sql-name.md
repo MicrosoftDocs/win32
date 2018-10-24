@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 334ab8fd-2890-40a0-9970-8c36d2de3dc7
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - MS-SQL-Name attribute AD Schema

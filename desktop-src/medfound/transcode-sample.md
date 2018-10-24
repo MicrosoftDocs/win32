@@ -2,8 +2,6 @@
 Description: Shows how to reencode a media file to Windows Media format.
 ms.assetid: 1e958f26-3ac1-4b20-abf5-d8a65ba38112
 title: Transcode Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

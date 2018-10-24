@@ -2,8 +2,6 @@
 Description: The AgreeMediaType method searches for a media type to make a pin connection.
 ms.assetid: 545186d2-b5e8-4833-b0ff-11160c1dd53b
 title: CBasePin.AgreeMediaType method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

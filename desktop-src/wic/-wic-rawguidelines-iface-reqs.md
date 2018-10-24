@@ -2,8 +2,6 @@
 Description: Interface Method Requirements
 ms.assetid: 8c2afeb3-3e0b-4f8a-a2f4-df7c9ce4b098
 title: Interface Method Requirements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

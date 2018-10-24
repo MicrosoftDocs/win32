@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 58FD2D10-7134-4B8C-8034-2331F58D297F
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet Methods
 ms.author: windowssdkdev

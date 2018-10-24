@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 14d73b40-d106-4c52-89f2-0e0fd3ae4cd5
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-DNS-NSEC3-Hash-Algorithm attribute AD Schema

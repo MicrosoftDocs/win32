@@ -2,8 +2,6 @@
 Description: Determines the length (in bytes) of the application protocol data unit (APDU).
 ms.assetid: 25011db1-a037-4764-b700-8ad2200419da
 title: ISCardCmd::get_ApduReplyLength method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

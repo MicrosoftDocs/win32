@@ -2,8 +2,6 @@
 Description: Gets a literal status of a parameter. A literal parameter has a value that doesn't change during the lifetime of an effect.
 ms.assetid: 417abbee-5193-462e-b0d1-b4928ad0a041
 title: ID3DXEffectCompiler::GetLiteral method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -3,8 +3,6 @@ Description: Contains definitions of security terms that begin with the letter W
 Robots: noindex, nofollow
 ms.assetid: 031c898b-3b4d-4b29-811a-112da37b5e3d
 title: W
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

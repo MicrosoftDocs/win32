@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b031af45-9237-434d-91db-69222306c615
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetSecurityDescriptor method of the __SystemSecurity class
 ms.author: windowssdkdev

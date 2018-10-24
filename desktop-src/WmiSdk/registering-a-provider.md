@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b0a1a11c-a8e8-4bc1-b286-fb9243667976
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering a Provider
 ms.author: windowssdkdev

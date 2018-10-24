@@ -2,8 +2,6 @@
 Description: The following example demonstrates how to re-encode an image and its metadata to a new file of the same format.
 ms.assetid: a7cfaa6d-e17d-458a-ae63-72963615bef8
 title: 'How-to: Re-encode a JPEG Image with Metadata'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

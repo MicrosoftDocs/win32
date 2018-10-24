@@ -2,8 +2,6 @@
 Description: The extents of the BoundingOrientedBox.
 ms.assetid: ee7d7b7f-9c9c-4da9-8a88-b69dc7e8a004
 title: BoundingOrientedBox.Extents
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

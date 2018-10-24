@@ -2,8 +2,6 @@
 Description: Negotiation of Authentication Level
 ms.assetid: 31353d02-bfe2-48ac-81a1-0e38895a8a75
 title: Negotiation of Authentication Level
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

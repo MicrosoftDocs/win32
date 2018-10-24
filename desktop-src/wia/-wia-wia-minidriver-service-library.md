@@ -2,8 +2,6 @@
 Description: To simplify driver implementation as much as possible, Windows Image Acquisition (WIA) provides a Minidriver Service Library that performs many of the administrative tasks required by the WIA architecture.
 ms.assetid: 074a53a3-20b0-4b25-991d-5d48f75c5d75
 title: WIA Minidriver Service Library
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

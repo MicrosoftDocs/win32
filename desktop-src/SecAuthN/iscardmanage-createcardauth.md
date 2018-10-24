@@ -2,8 +2,6 @@
 Description: Creates an ISCardAuth interface.
 ms.assetid: a091e361-416e-45c9-8077-617b16db654c
 title: ISCardManage::CreateCardAuth method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

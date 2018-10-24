@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7f59a2ea-3513-4a14-ac1a-62ed833d7192
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CInstance::SetCharSplat methods
 ms.author: windowssdkdev

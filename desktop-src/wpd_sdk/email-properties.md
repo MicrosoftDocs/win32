@@ -2,8 +2,6 @@
 Description: Windows Portable Devices supports the following email properties.
 ms.assetid: c886622e-57e7-4bd1-b645-0e979ee7b66a
 title: Email Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

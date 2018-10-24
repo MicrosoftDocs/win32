@@ -2,8 +2,6 @@
 title: Using Restart Manager with a Primary Installer
 description: The following procedure describes how to use the Restart Manager to shutdown and restart applications and services. When using the Restart Manager with a single installer, this installer is also the primary installer that controls the user interface.
 ms.assetid: 8d2b4129-c595-4b11-9771-6dc953f4db40
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: setp_comp - vs
 description: Set the predicate register.
 ms.assetid: bfead3f8-f7fe-4fc1-939f-8e5fbc3e0adf
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

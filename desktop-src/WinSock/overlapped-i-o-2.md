@@ -2,8 +2,6 @@
 Description: Windows Sockets 2 introduces overlapped I/O and requires that all transport providers support this capability.
 ms.assetid: 90d49171-e211-4426-aa56-88aaeac7c578
 title: Overlapped Input/Output
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

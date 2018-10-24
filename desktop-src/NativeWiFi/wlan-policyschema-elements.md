@@ -2,8 +2,6 @@
 Description: A Native Wifi wireless LAN (WLAN) policy profile is composed of the following schema elements.
 ms.assetid: e3f45b02-6aea-4df3-938e-c13e7c52ca04
 title: WLAN_policy Schema Elements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

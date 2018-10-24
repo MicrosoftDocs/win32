@@ -10,8 +10,6 @@ api_name:
 - How do I decompress streams from an AVI file or other file about which I have no format information
 api_type:
 - NA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

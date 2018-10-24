@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 66627927-2eee-4d56-a74b-f86147ad7711
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SNMP Events
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: The GetGroupCount method retrieves the number of groups that are contained in the timeline.
 ms.assetid: 24351e03-3132-4363-8171-eae517fb770a
 title: IAMTimeline::GetGroupCount method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

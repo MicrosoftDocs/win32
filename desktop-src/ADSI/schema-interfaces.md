@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: b3427202-352b-4b35-877e-d28fb3d3906a
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - schema interfaces ADSI

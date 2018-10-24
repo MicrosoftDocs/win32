@@ -2,8 +2,6 @@
 title: Icons
 description: Icons are pictorial representations of objects, important not only for aesthetic reasons as part of the visual identity of a program, but also for utilitarian reasons as shorthand for conveying meaning that users perceive almost instantaneously.
 ms.assetid: 6f88cb32-ecfe-4e6e-a41b-31891cf510cf
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

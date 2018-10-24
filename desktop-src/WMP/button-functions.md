@@ -11,8 +11,6 @@ keywords:
 - Windows Media Player Mobile skins,Prev buttons
 - skins,button functions
 - buttons in skins,functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

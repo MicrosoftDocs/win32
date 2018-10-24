@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 4723d89e-06e6-4954-8798-feebb3d3140b
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-DS-Operations-For-Az-Role-BL attribute AD Schema

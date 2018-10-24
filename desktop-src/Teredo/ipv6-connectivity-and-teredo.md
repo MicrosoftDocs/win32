@@ -2,8 +2,6 @@
 title: IPv6 Connectivity and Teredo
 description: IPv6 Connectivity and Teredo
 ms.assetid: f5c55a2b-ab87-490b-8143-59c6aedc5c9b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

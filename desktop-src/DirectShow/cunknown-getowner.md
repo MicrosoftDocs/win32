@@ -2,8 +2,6 @@
 Description: The GetOwner method retrieves a pointer to the IUnknown interface of the owning component. For an aggregated component, the owner is the outer component. Otherwise, the component owns itself.
 ms.assetid: 7d8af9d1-52c0-4f2b-9d05-6ddff85ab508
 title: CUnknown.GetOwner method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

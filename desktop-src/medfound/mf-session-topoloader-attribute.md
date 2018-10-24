@@ -2,8 +2,6 @@
 Description: Contains the CLSID of a topology loader for the Media Session.
 ms.assetid: 672274fb-71fc-49ca-bab6-1fc4de21d17c
 title: MF_SESSION_TOPOLOADER attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

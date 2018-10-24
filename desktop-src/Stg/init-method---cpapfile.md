@@ -4,8 +4,6 @@ description: The following code example shows how CPapFile is initialized.
 ms.assetid: 8312a6b2-6f3f-4a24-8aeb-9461f3b1a905
 keywords:
 - Init Method - CPapFile
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

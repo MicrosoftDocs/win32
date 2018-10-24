@@ -2,8 +2,6 @@
 Description: The IP conferencing MSP implements several provider-specific interfaces for participant control. These interfaces are exposed on the call object, if this MSP is associated with the call.
 ms.assetid: 01af2452-de2d-42ce-970d-82a83ae0b428
 title: IPConf MSP Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

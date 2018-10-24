@@ -2,8 +2,6 @@
 Description: The LINESPECIALINFO\_ bit-flag constants describes special information signals that the network can use to report various reporting and network observation operations.
 ms.assetid: b94f8a6f-b84d-4976-b4d4-10dee5a1a4d8
 title: LINESPECIALINFO_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

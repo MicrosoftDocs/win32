@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 9ebdf966-db9c-4a14-8469-f8b153c6ea78
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - RemoteProgramMode property Remote Desktop Services

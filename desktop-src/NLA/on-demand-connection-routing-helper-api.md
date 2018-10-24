@@ -2,8 +2,6 @@
 title: On Demand Connection Routing Helper API reference
 description: The following topics provide details for the On Demand Connection Routing Helper.
 ms.assetid: 39AFFD16-488E-4CA3-9161-9424F0D15948
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

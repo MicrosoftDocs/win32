@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: c20dec14-50ad-4f63-bd5c-222c2f2c83e4
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Detecting the Operation Mode of a Domain AD

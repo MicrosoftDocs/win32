@@ -2,8 +2,6 @@
 Description: The following list contains the CMSP address members.
 ms.assetid: ef15adef-1f4d-4bfc-8362-97fe1d118204
 title: CMSPAddress Members
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

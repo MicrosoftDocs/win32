@@ -5,8 +5,6 @@ ms.assetid: f5a7ef22-993c-4aab-bab0-2700289da7a7
 keywords:
 - MCIWndPause macro
 - MCIWndResume macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

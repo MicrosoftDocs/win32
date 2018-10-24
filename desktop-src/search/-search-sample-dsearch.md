@@ -2,8 +2,6 @@
 Description: The DSearch code sample demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for ISearchQueryHelper.
 ms.assetid: 9c09b1fe-c63e-4c6e-9c8b-f5e29cf0fe9e
 title: DSearch
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

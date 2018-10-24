@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 168637b1-217e-4b6d-bd07-25127b9e9f6c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__NamespaceOperationEvent class'
 ms.author: windowssdkdev

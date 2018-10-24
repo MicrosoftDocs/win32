@@ -2,8 +2,6 @@
 title: Windows Accessibility Features
 description: The Win32 API provides a set of accessibility features that make it easier for persons with disabilities to use computers. This overview describes the provided accessibility features and the Win32 functions and structures for controlling these features.
 ms.assetid: 'e6b618ce-fdac-4c04-88d5-12810212b96e'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

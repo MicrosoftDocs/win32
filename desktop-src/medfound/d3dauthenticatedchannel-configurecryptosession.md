@@ -2,8 +2,6 @@
 Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_CRYPTOSESSION command.
 ms.assetid: eed5591d-20b0-495c-8c05-b9cb3b91deab
 title: D3DAUTHENTICATEDCHANNEL_CONFIGURECRYPTOSESSION structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

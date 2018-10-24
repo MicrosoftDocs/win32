@@ -2,8 +2,6 @@
 Description: Associates the Msvm\_ReferencePointCollection to the contained Msvm\_VirtualSystemReferencePoint objects.
 ms.assetid: 826125c3-0a89-4573-ac28-88588eac248d
 title: Msvm_CollectedReferencePoints class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

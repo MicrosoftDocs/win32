@@ -2,8 +2,6 @@
 title: How to Create a Date and Time Picker Control
 description: This topic demonstrates how to dynamically create a date and time picker (DTP) control.
 ms.assetid: D4ACA939-3004-48D3-ADD9-FC5E53128BA2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

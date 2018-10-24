@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2614eb7a-df57-42a6-ad34-0a3211a6b8c3
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - TLSKeyPackEnumNext function Remote Desktop Services

@@ -2,8 +2,6 @@
 Description: If you are unable to find the Internal Consistency Evaluators you need among the existing ICE custom actions listed in the ICE Reference, you will need to prepare your own ICE to validate your package.
 ms.assetid: d9ff43ee-8e7a-4132-ac2f-232dc24606d8
 title: Building An ICE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

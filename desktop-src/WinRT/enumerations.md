@@ -2,8 +2,6 @@
 Description: Enumerations
 ms.assetid: D66780B7-8B9E-48F8-B66E-F9D7B2EAD0EA
 title: Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

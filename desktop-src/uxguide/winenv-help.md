@@ -2,8 +2,6 @@
 title: Help
 description: Use Help as a secondary mechanism to help users complete and better understand tasks \ 8212;the primary mechanism being the UI itself. Apply these guidelines to make the content truly helpful and easy to find.
 ms.assetid: 82ce076e-062b-4793-a1c0-ed96c0f2b284
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

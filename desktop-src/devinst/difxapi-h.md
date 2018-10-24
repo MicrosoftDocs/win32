@@ -2,8 +2,6 @@
 title: Difxapi.h
 description: This section contains reference topics for the Difxapi.h header.
 ms.assetid: 84da7e54-0677-495e-9dc5-aca4ac12c0b3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

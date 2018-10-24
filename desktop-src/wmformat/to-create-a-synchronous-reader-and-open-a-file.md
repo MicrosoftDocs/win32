@@ -9,8 +9,6 @@ keywords:
 - ASF (Advanced Systems Format),opening files
 - synchronous readers,creating
 - synchronous readers,opening files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies whether the decoder decodes interlaced video frames from the compressed stream as progressive frames.
 ms.assetid: c17d0dda-6141-46da-8921-f83ba40158e2
 title: MFPKEY_DECODER_DEINTERLACING Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

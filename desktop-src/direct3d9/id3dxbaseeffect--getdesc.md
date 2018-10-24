@@ -2,8 +2,6 @@
 Description: Gets the effect description.
 ms.assetid: 96b53b8a-0c20-4bfd-af45-626f6e0305d2
 title: ID3DXBaseEffect::GetDesc method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

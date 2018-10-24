@@ -2,8 +2,6 @@
 Description: Details the procedure for encoding a general message.
 ms.assetid: 554cab0d-cfa2-46a7-80d9-f41430eb4b47
 title: Procedure for Encoding and Decoding Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

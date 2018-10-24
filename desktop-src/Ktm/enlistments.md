@@ -2,8 +2,6 @@
 Description: A resource manager enlists in a transaction when it begins participation in that particular transaction.
 ms.assetid: 9c201699-c00b-4efe-9f30-8d4e182de785
 title: Enlistments
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

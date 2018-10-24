@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 6ab1e72f-22e8-499a-916e-c2ba8e2c2aff
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Creating a Service Connection Point AD

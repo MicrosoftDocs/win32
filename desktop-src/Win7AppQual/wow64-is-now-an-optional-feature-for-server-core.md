@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 9a918cd3-60a0-4231-975a-bee12de5c812
 title: WoW64 Is Now an Optional Feature for Server Core
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

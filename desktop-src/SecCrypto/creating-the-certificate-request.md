@@ -2,8 +2,6 @@
 Description: The process of creating a certificate request involves collecting certain information from the requester.
 ms.assetid: b03efa83-e255-4427-a796-63d5841664a9
 title: Creating the Certificate Request
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

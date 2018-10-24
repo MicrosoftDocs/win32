@@ -2,8 +2,6 @@
 Description: The XMCOLOR structure exposes the following operators.
 ms.assetid: 1ffa02ad-4a7e-474e-9e7f-d2148ca42d57
 title: XMCOLOR Operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

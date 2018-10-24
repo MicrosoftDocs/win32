@@ -2,8 +2,6 @@
 Description: The Network Location Awareness (NLA) service provider is vital for computers or devices that might move between different networks, and for selecting optimal configurations when more than one is available.
 ms.assetid: 307f384d-e59a-4fc5-8f6a-ed81a102df60
 title: The Role of NLA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

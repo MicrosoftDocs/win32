@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 0c8e1207-daeb-4dc8-b83a-a54cd59a46a7
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Publishing with the RPC Name Service AD

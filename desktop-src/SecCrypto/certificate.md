@@ -2,8 +2,6 @@
 Description: Represents a single digital certificate.
 ms.assetid: 'da95312b-cc9f-44f0-9517-0b28c5fcfb61'
 title: Certificate object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

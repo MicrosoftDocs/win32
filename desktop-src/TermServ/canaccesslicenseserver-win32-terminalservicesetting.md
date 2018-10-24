@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b09fa901-8ae1-431e-8d97-27ee84a84779
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - CanAccessLicenseServer method Remote Desktop Services

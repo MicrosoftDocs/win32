@@ -2,8 +2,6 @@
 title: ContextPopup Sample
 description: This code sample demonstrates the markup and code required to implement a Windows Ribbon application with ContextPopups.
 ms.assetid: f334dbfc-710a-4652-b914-a668ae36aecd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: VMR Filter Components
 ms.assetid: 86fd8d6f-a742-457d-bb30-d04542431a0a
 title: VMR Filter Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

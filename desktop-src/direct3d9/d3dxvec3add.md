@@ -2,8 +2,6 @@
 Description: Adds two 3D vectors.
 ms.assetid: 2979e291-786b-4bc9-b584-421f08db949a
 title: D3DXVec3Add function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

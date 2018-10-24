@@ -2,8 +2,6 @@
 title: AccessibleObjectFromPointReturnedNot_S_OK
 description: AccessibleObjectFromPointReturnedNot\_S\_OK
 ms.assetid: F5DA071A-EBB8-454C-9BC0-BC798835B7D0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

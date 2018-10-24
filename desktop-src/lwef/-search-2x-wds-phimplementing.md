@@ -2,8 +2,6 @@
 title: Implementing a Protocol Handler for WDS
 description: Creating a protocol handler involves implementing ISearchProtocol to manage UrlAccessor objects, IUrlAccessor to generate metadata about and to identify appropriate filters for items in the data store, IProtocolHandlerSite to instantiate a SearchProtocol object and identify appropriate filters, and IFilterto filter proprietary files or to enumerate and filter hierarchically stored files.
 ms.assetid: d4bcf370-4152-4cfd-a92e-eb9196d23ab4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

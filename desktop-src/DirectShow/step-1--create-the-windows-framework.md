@@ -2,8 +2,6 @@
 Description: 'Step 1: Create the Windows Framework'
 ms.assetid: 678c6261-cbd0-4865-a1dd-03de55eca996
 title: 'Step 1: Create the Windows Framework'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

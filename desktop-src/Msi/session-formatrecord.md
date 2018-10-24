@@ -2,8 +2,6 @@
 Description: The FormatRecord method of the Session object returns a formatted string from a template and record data.
 ms.assetid: 2018ac75-ea18-4256-8d56-0527069ce24b
 title: Session.FormatRecord method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

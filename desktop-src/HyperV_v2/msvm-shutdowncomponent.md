@@ -2,8 +2,6 @@
 Description: Represents the state of the shutdown service, which provides a mechanism to shut down the operating system of the virtual machine from the management interfaces on the host system.
 ms.assetid: E9BBB08C-A3FE-4226-A2CF-458706E759D6
 title: Msvm_ShutdownComponent class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

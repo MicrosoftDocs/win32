@@ -2,8 +2,6 @@
 Description: Loads the monitor DLL.
 ms.assetid: 6de2750f-3f12-4c0a-af8d-3ebd227fa123
 title: OnLoadingDLL function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

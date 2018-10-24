@@ -2,8 +2,6 @@
 Description: 'Cryptography API: Next Generation (CNG) defines the following functions which are used to perform CNG key storage operations.'
 ms.assetid: b0fb174b-75d7-4203-88ab-8469fa85f208
 title: CNG Key Storage Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

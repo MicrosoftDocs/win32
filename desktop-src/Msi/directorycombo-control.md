@@ -2,8 +2,6 @@
 Description: A DirectoryCombo\_control displays a part of the path that is currently displayed in the PathEdit control. This control does not show the last segment of the path, that segment is displayed by the DirectoryList control.
 ms.assetid: c2dd494b-b51d-4d3a-ab8f-f6d64a62feb3
 title: DirectoryCombo Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

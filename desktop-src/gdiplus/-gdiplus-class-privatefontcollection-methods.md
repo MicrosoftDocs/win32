@@ -2,8 +2,6 @@
 Description: This topic lists the methods of the PrivateFontCollection class. For a complete class listing, see PrivateFontCollection Class.
 ms.assetid: e7c0ab5c-aefa-4f22-9313-a375ec7ec8c1
 title: PrivateFontCollection Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

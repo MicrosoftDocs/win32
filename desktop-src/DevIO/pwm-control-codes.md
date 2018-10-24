@@ -2,8 +2,6 @@
 Description: This topic lists the IOCTLs for Pulse Width Modulation.
 ms.assetid: 2ED7A06A-A7EC-4C44-AB22-4A52CF2DF2C5
 title: PWM Control Codes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

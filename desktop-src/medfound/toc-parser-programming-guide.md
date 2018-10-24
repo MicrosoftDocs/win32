@@ -2,8 +2,6 @@
 Description: Table of Contents Parser Programming Guide
 ms.assetid: f706b196-beaa-4229-b842-78b271539ed8
 title: Table of Contents Parser Programming Guide
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

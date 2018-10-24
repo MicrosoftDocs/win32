@@ -2,8 +2,6 @@
 Description: TopoEdit Toolbar
 ms.assetid: d1bb1e07-5f9f-4161-ae0d-5a61990eaccd
 title: TopoEdit Toolbar
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

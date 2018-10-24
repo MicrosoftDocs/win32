@@ -2,8 +2,6 @@
 Description: Occurs when the mouse pointer is over the InkPicture control and a mouse button is pressed.
 ms.assetid: ff776b2b-7dd8-4d3d-b0f6-714b186d447e
 title: InkPicture.MouseDown event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

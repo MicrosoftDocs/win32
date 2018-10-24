@@ -2,8 +2,6 @@
 Description: Specifies whether digital de-emphasis is enabled in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 5d2d9f1d-fdc3-448f-8d9f-f75a73a63cd3
 title: AVEncDDDigitalDeemphasis property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

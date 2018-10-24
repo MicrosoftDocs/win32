@@ -2,8 +2,6 @@
 Description: This section lists the topics about XAudio2 debugging facilities.
 ms.assetid: 1d9c49a2-1f6b-9972-24c1-8534f31709e9
 title: Debugging Facilities
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

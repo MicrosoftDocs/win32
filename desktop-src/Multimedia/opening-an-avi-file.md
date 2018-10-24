@@ -5,8 +5,6 @@ ms.assetid: 322eb45f-7dd3-40f4-b6bf-381021c50397
 keywords:
 - AVIFileInit function
 - AVIFileOpen function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

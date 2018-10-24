@@ -2,8 +2,6 @@
 Description: As of Windows Vista, the Control Panel category view provides task links beneath each Control Panel item's icon as shown here.
 ms.assetid: 54a03536-6fe6-4304-a555-58e5bca128b9
 title: Creating Searchable Task Links for a Control Panel Item
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Installs an ActiveX object.
 ms.assetid: 0eb725a9-ceb8-40e5-808d-ac2b286a48b6
 title: IeAxiSystemInstaller interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

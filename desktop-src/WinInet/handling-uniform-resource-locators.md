@@ -2,8 +2,6 @@
 title: Handling Uniform Resource Locators
 description: A Uniform Resource Locator (URL) is a compact representation of the location and access method for a resource located on the Internet.
 ms.assetid: bb59ada6-f49f-412c-a32c-4fb9495b1222
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

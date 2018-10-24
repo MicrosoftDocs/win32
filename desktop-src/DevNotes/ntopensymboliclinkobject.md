@@ -2,8 +2,6 @@
 Description: Opens an existing symbolic link.
 ms.assetid: 37684707-4f65-4904-8bfc-d0679ebbd924
 title: NtOpenSymbolicLinkObject function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

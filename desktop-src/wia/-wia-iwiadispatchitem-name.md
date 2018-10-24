@@ -2,8 +2,6 @@
 Description: The name of the item as it appears in the UI. Read-only.
 ms.assetid: fc469a6e-39d9-4b92-87a4-2f41cacb070d
 title: Item.Name property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

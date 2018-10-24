@@ -1,8 +1,6 @@
 ---
 ms.assetid: 01edc17e-e71c-4772-a03c-09c9a2b8400f
 title: Using Output Protection Manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2046dd03-ac2c-49fa-b1ad-a458967709e5
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnObjectPut event
 ms.author: windowssdkdev

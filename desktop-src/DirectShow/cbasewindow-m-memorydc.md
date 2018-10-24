@@ -2,8 +2,6 @@
 Description: Handle to the memory device context.
 ms.assetid: e6edf3fb-67d6-425e-94fe-18e91c56fabb
 title: CBaseWindow::m_MemoryDC member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

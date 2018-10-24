@@ -2,8 +2,6 @@
 Description: Before the setup functions can access information in the INF, you must open it with a call to the SetupOpenInfFile function. This function returns a handle to the INF file.
 ms.assetid: d838c05c-51e4-49a8-b773-af4924bff7e2
 title: Opening and Closing an INF file
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

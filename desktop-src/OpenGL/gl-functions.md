@@ -6,8 +6,6 @@ keywords:
 - OpenGL,GL functions
 - OpenGL reference,GL functions
 - GL functions OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Export method of the Database object copies the structure and data from a specified table to a text archive file.
 ms.assetid: b724595f-ef28-456e-bf0b-5df65c659d17
 title: Database.Export method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

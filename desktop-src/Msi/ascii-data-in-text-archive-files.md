@@ -2,8 +2,6 @@
 Description: When a table that contains only ASCII characters is exported to a text archive file, the .idt file adheres to the basic archive file format.
 ms.assetid: 105d2b85-c6e1-4719-83b4-1693c14ef4f4
 title: ASCII Data in Text Archive Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

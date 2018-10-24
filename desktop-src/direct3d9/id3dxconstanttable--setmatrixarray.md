@@ -2,8 +2,6 @@
 Description: Sets an array of nontransposed matrices.
 ms.assetid: f36b8e8a-c22f-41e6-acb1-6298291b002f
 title: ID3DXConstantTable::SetMatrixArray method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

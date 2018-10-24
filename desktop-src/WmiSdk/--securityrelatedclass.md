@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 00e726b6-970a-4aa9-addb-1c52ad977728
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__SecurityRelatedClass class'
 ms.author: windowssdkdev

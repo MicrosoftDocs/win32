@@ -2,8 +2,6 @@
 Description: Indicates the latitude of the destination point.
 ms.assetid: 72a3fb10-4554-4a4d-bb73-ee515341b9c1
 title: System.GPS.DestLongitude
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

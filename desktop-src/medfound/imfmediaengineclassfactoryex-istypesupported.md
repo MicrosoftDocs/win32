@@ -2,8 +2,6 @@
 Description: Gets a value that indicates if the specified key system supports the specified media type.
 ms.assetid: 6f4f50db-e491-46c2-a8b2-1b8e51033b5b
 title: IMFMediaEngineClassFactoryEx::IsTypeSupported method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

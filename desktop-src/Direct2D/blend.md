@@ -4,8 +4,6 @@ description: Use the blend effect to combine 2 images. This effect has 26 blend 
 ms.assetid: 39D8BAA3-8FF3-4F10-99A0-B26FCA3018AE
 keywords:
 - blend effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

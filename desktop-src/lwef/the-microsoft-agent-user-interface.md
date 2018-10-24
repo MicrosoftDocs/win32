@@ -4,8 +4,6 @@ description: The Microsoft Agent User Interface
 ms.assetid: 64f2543b-0bae-496d-8432-b8fa7b809677
 keywords:
 - Microsoft Agent, user interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

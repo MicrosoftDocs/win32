@@ -2,8 +2,6 @@
 title: Window Frames
 description: Most programs should use standard window frames. Immersive applications can have a full screen mode that hides the window frame. Consider using glass strategically for a simpler, lighter, more cohesive look.
 ms.assetid: 6613e07a-2466-4283-88a9-02f2a3fea079
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

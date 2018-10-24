@@ -2,8 +2,6 @@
 Description: ELS supports the functions defined in the following table.
 ms.assetid: d62ab664-a75a-4d06-aefb-a3311ea7d4a7
 title: Extended Linguistic Services Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

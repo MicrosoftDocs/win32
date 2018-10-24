@@ -2,8 +2,6 @@
 Description: MPEG-1 Video Decoder Filter
 ms.assetid: 272d2f31-6e57-4ce5-ac86-b4d47f661fea
 title: MPEG-1 Video Decoder Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

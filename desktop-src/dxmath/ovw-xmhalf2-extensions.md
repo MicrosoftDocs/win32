@@ -2,8 +2,6 @@
 Description: XMHALF2 describes 2D vector consisting of two half-precision (16bit) floating-point values.
 ms.assetid: 3e2995bf-e755-4665-bf97-6b9190e78ab5
 title: XMHALF2 Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

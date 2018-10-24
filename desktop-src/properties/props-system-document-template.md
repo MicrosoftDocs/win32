@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 68a68689-e65c-4080-849f-e8a9ef457931
 title: System.Document.Template
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

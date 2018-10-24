@@ -2,8 +2,6 @@
 Description: Represents a collection of other collections.
 ms.assetid: 1f7f5517-55d9-44a3-b0ca-444a9d7d5941
 title: Msvm_ManagementCollection class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

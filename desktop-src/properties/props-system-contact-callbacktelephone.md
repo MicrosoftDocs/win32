@@ -2,8 +2,6 @@
 Description: Call back number of the contact.
 ms.assetid: bcfd0f2b-317b-41de-88ab-acfde822e6fb
 title: System.Contact.CallbackTelephone
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: 0928981c-4d60-4583-9eef-8127e05b1ba8
 keywords:
 - Working with Protocol Data Units SNMP
 - Protocol Data Units SNMP , working with
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

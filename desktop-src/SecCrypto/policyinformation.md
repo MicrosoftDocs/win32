@@ -2,8 +2,6 @@
 Description: Provides access to the policy information of an extension.
 ms.assetid: 03d627b3-2d44-4637-97a4-85cdcaf3e4d3
 title: PolicyInformation object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

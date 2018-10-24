@@ -4,8 +4,6 @@ description: Use the following attributes for error handling.
 ms.assetid: fb00df67-4645-4ef0-9216-618d0af1d9d4
 keywords:
 - ACF MIDL , attributes, error and exception-handling
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

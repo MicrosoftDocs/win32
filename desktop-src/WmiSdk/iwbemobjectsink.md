@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 987aea1d-912a-4691-987f-181c1ef1a8a9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemObjectSink interface
 ms.author: windowssdkdev

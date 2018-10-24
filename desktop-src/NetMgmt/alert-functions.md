@@ -2,8 +2,6 @@
 title: Alert Functions
 description: The network management alert functions notify network service programs and applications of network events.
 ms.assetid: e131191b-7413-45ff-84cd-b3a873d33ca1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

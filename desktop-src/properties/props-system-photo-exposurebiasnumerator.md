@@ -2,8 +2,6 @@
 Description: The numerator of PKEY\_Photo\_ExposureBias.
 ms.assetid: 717808cb-7f73-4543-bc07-2ab252792b91
 title: System.Photo.ExposureBiasNumerator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

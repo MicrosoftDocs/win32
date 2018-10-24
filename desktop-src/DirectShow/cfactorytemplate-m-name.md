@@ -2,8 +2,6 @@
 Description: Wide-character string containing the name of the filter.
 ms.assetid: 7d41990f-aba2-4ea9-9d83-50a99cd0a648
 title: CFactoryTemplate::m_Name member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

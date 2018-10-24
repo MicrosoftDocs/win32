@@ -2,8 +2,6 @@
 Description: The WriteBitmapBits method retrieves a video frame at the specified media time and writes it to a file. The video frame is always in 24-bit RGB format.
 ms.assetid: 8b21f37b-553d-4de2-8725-c94c29fa3a1a
 title: IMediaDet::WriteBitmapBits method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

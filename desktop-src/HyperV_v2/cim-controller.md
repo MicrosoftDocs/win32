@@ -2,8 +2,6 @@
 Description: A superclass for miscellaneous control-related devices that provide a classic bus master interface.
 ms.assetid: eaa8711b-11e9-4f69-b81e-49a3c8a99fa7
 title: CIM_Controller class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: ID Attribute (VMLFrame)(VML)
 description: ID Attribute (VMLFrame)(VML)
 ms.assetid: 3580fad7-b49e-44d7-b266-90fbfc2a02c9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

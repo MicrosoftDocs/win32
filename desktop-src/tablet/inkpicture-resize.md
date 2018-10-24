@@ -2,8 +2,6 @@
 Description: Occurs when the InkPicture control is resized (when the Width and/or Height property values change).
 ms.assetid: 436db420-f9ea-46f1-b922-c8663371edd5
 title: InkPicture.Resize event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

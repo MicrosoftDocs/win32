@@ -2,8 +2,6 @@
 Description: Represents the smart card enrollment control.
 ms.assetid: ae872206-81e7-4627-b807-4222f75f8ab6
 title: ISCrdEnr interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

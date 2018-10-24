@@ -5,8 +5,6 @@ ms.assetid: 0f62d2a4-cfc3-42a7-b3a6-4e5c67c7c849
 keywords:
 - MIDL compiler MIDL , C-preprocessor
 - C-preprocessor MIDL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

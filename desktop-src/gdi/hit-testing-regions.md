@@ -2,8 +2,6 @@
 Description: An application performs hit testing on regions to determine the coordinates of the current cursor position.
 ms.assetid: 861a2558-0967-43f6-be3f-580992da05ff
 title: Hit Testing Regions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

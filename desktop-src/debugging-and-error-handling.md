@@ -2,8 +2,6 @@
 Description: Debugging and Error Handling
 ms.assetid: 99745b87-68d9-4190-b81f-06e7107925fa
 title: Debugging and Error Handling
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

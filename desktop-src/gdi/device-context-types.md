@@ -2,8 +2,6 @@
 Description: 'There are four types of DCs: display, printer, memory (or compatible), and information. Each type serves a specific purpose, as described in the following table.'
 ms.assetid: eb06925c-db26-4292-858c-eab38a3adc55
 title: Device Context Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

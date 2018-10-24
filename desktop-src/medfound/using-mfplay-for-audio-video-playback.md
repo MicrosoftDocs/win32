@@ -2,8 +2,6 @@
 Description: The MFPlay API is deprecated.
 ms.assetid: 6f143c51-ec46-46d4-9a1e-b04fcc0d8bea
 title: MFPlay
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

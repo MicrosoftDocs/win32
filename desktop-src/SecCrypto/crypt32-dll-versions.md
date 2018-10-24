@@ -2,8 +2,6 @@
 Description: Crypt32.dll is the module that implements many of the CryptoAPI functions.
 ms.assetid: b6063c92-5831-4b78-b2cd-812e55194bc9
 title: Crypt32.dll Versions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

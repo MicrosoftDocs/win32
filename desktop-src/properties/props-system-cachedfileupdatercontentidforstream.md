@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: c558c038-83e3-4b37-b5df-610f9afea7ac
 title: System.CachedFileUpdaterContentIdForStream
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

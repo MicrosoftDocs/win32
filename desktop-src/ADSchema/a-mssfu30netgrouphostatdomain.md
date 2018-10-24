@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 14578c46-ca3e-428c-bc63-9d8a2c6251c3
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - msSFU-30-Netgroup-Host-At-Domain attribute AD Schema

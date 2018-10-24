@@ -2,8 +2,6 @@
 Description: Resets the internal count of retrieved interfaces in the enumeration.
 ms.assetid: fd79b4be-cc0c-49b3-9874-384858e21ecf
 title: IEnumUserIdentity::Reset method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

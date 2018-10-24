@@ -2,8 +2,6 @@
 title: Sensor Adapter Wrappers
 description: Functions that you can use to call functions on your sensor adapter. These functions are defined in Winbio\_adapter.h.
 ms.assetid: 302a831c-38f7-4d32-8d9f-5ff58931224b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

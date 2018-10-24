@@ -2,8 +2,6 @@
 Description: Retrieves a rectangle that represents maximum input area of the tablet.
 ms.assetid: 98facd24-b019-40d1-afe1-28c9a78cae80
 title: ITablet::GetMaxInputRect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

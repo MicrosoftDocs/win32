@@ -2,8 +2,6 @@
 Description: Device LocationPaths.
 ms.assetid: 454ee045-3abb-4ca0-bf01-b5d21ec85725
 title: System.Devices.LocationPaths
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

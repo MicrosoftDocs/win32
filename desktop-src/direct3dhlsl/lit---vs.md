@@ -2,8 +2,6 @@
 title: lit - vs
 description: Provides partial support for lighting by calculating lighting coefficients from two dot products and an exponent.
 ms.assetid: e0ed1a75-6682-4d05-b0e5-dc65e201de98
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

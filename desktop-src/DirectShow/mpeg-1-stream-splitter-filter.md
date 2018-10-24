@@ -2,8 +2,6 @@
 Description: MPEG-1 Stream Splitter Filter
 ms.assetid: abadf37f-2876-496d-90e7-77c3475a0064
 title: MPEG-1 Stream Splitter Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The FindI method retrieves the first position that holds the specified item.
 ms.assetid: a95fac19-0f93-4bb4-8e76-0da82745a1d2
 title: CBaseList.FindI method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

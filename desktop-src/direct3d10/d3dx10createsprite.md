@@ -2,8 +2,6 @@
 Description: Create a sprite for drawing a 2D texture.Note  Instead of using this function, we recommend that you use Direct2D and the DirectXTK library, SpriteBatch class.
 ms.assetid: 64efb8e4-da0b-4e67-874a-e0bb0083961c
 title: D3DX10CreateSprite function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

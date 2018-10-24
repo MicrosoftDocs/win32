@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: eb82ac12-d570-4edc-bbfa-2de63d8f5088
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ACS-Minimum-Delay-Variation attribute AD Schema

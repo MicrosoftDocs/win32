@@ -2,8 +2,6 @@
 Description: Windows Vista.
 ms.assetid: 3b16744d-b9c2-4462-a409-de94d9103c39
 title: What's New in VSS in Windows Vista
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

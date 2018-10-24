@@ -2,8 +2,6 @@
 Description: Defines an unsigned integer type.
 ms.assetid: 48df484d-d663-42fa-aaec-51c463bb5350
 title: UInt32Type Simple Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

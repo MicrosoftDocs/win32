@@ -2,8 +2,6 @@
 Description: The COM+ catalog stores COM+ application attributes, class attributes, and computer-level attributes. It guarantees consistency among these attributes and provides common operations on top of these attributes.
 ms.assetid: '1838757c-aa8e-4678-8042-207498fb0bbc'
 title: The COM+ Catalog
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

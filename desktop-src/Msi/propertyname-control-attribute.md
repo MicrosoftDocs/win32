@@ -2,8 +2,6 @@
 Description: This is the name of the property associated with this control.
 ms.assetid: 'e04c1bb1-1538-4bf4-ad5c-aa4b6d89d136'
 title: PropertyName Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

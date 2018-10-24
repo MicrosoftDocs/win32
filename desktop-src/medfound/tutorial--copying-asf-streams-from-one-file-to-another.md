@@ -2,8 +2,6 @@
 Description: One way to create an ASF file is to copy ASF streams from an existing file.
 ms.assetid: 158fe3a1-42e6-461d-b56b-5419cd961fca
 title: 'Tutorial: Copying ASF Streams by Using WMContainer Objects'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

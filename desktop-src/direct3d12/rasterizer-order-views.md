@@ -2,8 +2,6 @@
 title: Rasterizer Ordered Views
 description: Rasterizer ordered views (ROVs) allow pixel shader code to mark UAV bindings with a declaration that alters the normal requirements for the order of graphics pipeline results for UAVs.
 ms.assetid: D308BF3E-8CBE-4DF0-B020-4D202E858D99
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

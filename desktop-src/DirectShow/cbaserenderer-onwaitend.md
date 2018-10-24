@@ -2,8 +2,6 @@
 Description: The OnWaitEnd method is called when the filter is done waiting for a sample's presentation time.
 ms.assetid: 47ff8f79-da69-4dcf-8cbb-02c1b56e382e
 title: CBaseRenderer.OnWaitEnd method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

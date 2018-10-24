@@ -2,8 +2,6 @@
 Description: Contains one or more Animation objects. Each animation within an animation set has the same time at any given point. Increasing the animation set's time increases the time for all the animations it contains.
 ms.assetid: a0c559f9-f74f-4ac2-96bf-4cd7d5ae4c55
 title: AnimationSet
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

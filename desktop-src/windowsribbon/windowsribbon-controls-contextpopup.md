@@ -2,8 +2,6 @@
 title: Context Popup
 description: A Context Popup is the principal control in the ContextPopup View of the Windows Ribbon framework.
 ms.assetid: c41b888a-15aa-4c47-ad73-5dc30b5fa6f9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

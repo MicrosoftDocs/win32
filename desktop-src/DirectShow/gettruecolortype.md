@@ -2,8 +2,6 @@
 Description: The GetTrueColorType function retrieves the human-readable name of a video subtype.
 ms.assetid: 479a020c-b55c-44ec-9096-5528113a4b74
 title: GetTrueColorType function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Not supported.
 ms.assetid: 3fd88af0-2565-4498-a239-5d181af6eb3b
 title: IAMTimelineVirtualTrack::SetTrackDirty method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

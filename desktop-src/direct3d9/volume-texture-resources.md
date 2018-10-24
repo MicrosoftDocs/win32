@@ -2,8 +2,6 @@
 Description: Volume textures are three-dimensional collections of pixels (texels) that can be used to paint a two-dimensional primitive such as a triangle or a line.
 ms.assetid: 1d692501-a524-4ad4-8779-d71f1bda7bc9
 title: Volume Texture Resources (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

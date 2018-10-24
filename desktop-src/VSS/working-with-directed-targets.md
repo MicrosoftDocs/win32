@@ -2,8 +2,6 @@
 Description: The directed target mechanism allows writers to remap files at restore time.
 ms.assetid: c0b4ab26-2bb6-4b0f-b837-01057983b49b
 title: Working with Directed Targets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

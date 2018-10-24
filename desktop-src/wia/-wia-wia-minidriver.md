@@ -2,8 +2,6 @@
 Description: Applications see Windows Image Acquisition (WIA) devices as a hierarchical tree of IWiaItem or IWiaItem2 objects with the root item representing the device itself.
 ms.assetid: ae4ded93-09be-4caa-ad6e-1a9071fdb4b6
 title: WIA Minidriver
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A service is responsible for reporting changes in its state to the service control manager (SCM).
 ms.assetid: 74a85730-6667-46fe-ae12-26561ccedb73
 title: Service State Transitions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

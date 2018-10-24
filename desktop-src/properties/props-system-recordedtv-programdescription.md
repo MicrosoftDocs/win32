@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 19b0eba6-63af-482d-8ca6-18cb8db67169
 title: System.RecordedTV.ProgramDescription
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Sensor Pools
 description: Describes three possible sensor pools system, private, and unassigned.
 ms.assetid: d7fd3c39-d719-4cfd-9af0-a87837f3f328
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Retrieves an interface pointer and increments the reference count. This method implements the INonDelegatingUnknown::NonDelegatingQueryInterface method.
 ms.assetid: 451ca350-f40b-4cbf-ac39-e86dadb48a24
 title: CUnknown.NonDelegatingQueryInterface method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: VML LightLevel Attribute
 description: VML LightLevel Attribute
 ms.assetid: f0894565-2b22-4290-8add-af20a8898219
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

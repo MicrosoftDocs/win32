@@ -2,8 +2,6 @@
 Description: Adds two spherical harmonic (SH) vectors; in other words, pOut\[i\] = pA\[i\] + pB\[i\].
 ms.assetid: dbfea12b-c110-42a7-84b6-0dff3d958032
 title: D3DXSHAdd function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

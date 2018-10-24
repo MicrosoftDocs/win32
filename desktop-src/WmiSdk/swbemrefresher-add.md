@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 92d11a18-1eed-4958-b74a-2f9de4907dd0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemRefresher.Add method
 ms.author: windowssdkdev

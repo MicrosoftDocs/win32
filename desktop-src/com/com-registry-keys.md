@@ -2,8 +2,6 @@
 title: COM Registry Keys
 description: COM Registry Keys
 ms.assetid: 08406092-eb77-4001-a4fa-659ce945e4d1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

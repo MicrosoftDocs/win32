@@ -2,8 +2,6 @@
 Description: The call center interfaces provide methods that queue and distribute calls within a call center.
 ms.assetid: 0b9a455d-a614-4698-90ab-e81f020fad3e
 title: Call Center Controls Quick Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

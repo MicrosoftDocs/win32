@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: add08566-6408-43e4-9d0d-4c0851540602
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating Active Server Pages for WMI
 ms.author: windowssdkdev

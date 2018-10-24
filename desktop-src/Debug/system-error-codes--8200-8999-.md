@@ -2,8 +2,6 @@
 Description: The System Error Codes are very broad.
 ms.assetid: f16fdfa3-b080-47ee-a7dd-241fe2d24278
 title: System Error Codes (8200-8999)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

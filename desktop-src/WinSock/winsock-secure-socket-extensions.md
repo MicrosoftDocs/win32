@@ -2,8 +2,6 @@
 Description: The secure socket extensions to Winsock allow a socket application to control the security of their traffic over a network.
 ms.assetid: 023a9f96-814f-40c3-a186-ae0a0c9baef2
 title: Winsock Secure Socket Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

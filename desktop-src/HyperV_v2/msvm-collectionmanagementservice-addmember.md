@@ -2,8 +2,6 @@
 Description: Adds the specified managed element as a member of the given CIM\_CollectionOfMSEs object.
 ms.assetid: 6f23eecc-b445-4495-ae96-76b89652a1cb
 title: AddMember method of the Msvm_CollectionManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: cc2c10a1-0ecc-48a0-9632-cc0afa3dcfa6
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - netboot-Allow-New-Clients attribute AD Schema

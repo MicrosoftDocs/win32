@@ -2,8 +2,6 @@
 title: UI_PKEY_Color
 description: Identifies the UI\_PKEY\_Color property.
 ms.assetid: cf0d1bea-0d31-4136-b077-27f4e40ed301
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

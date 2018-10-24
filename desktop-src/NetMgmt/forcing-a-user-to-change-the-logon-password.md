@@ -2,8 +2,6 @@
 title: Forcing a User to Change the Logon Password
 description: This code sample demonstrates how to force a user to change the logon password on the next logon using the NetUserGetInfo and NetUserSetInfo functions and the USER\_INFO\_3 structure.
 ms.assetid: 828f5d72-3e19-4b65-a1db-ac702fd4cfde
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

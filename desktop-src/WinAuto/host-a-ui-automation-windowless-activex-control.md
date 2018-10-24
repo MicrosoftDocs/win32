@@ -5,8 +5,6 @@ ms.assetid: A0F82968-F434-4F5E-8052-CF7CE65DB120
 keywords:
 - UI Automation, Windowless ActiveX control
 - Windowless ActiveX control, UI Automation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

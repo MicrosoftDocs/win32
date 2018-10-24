@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 11fea8b1-7d05-4f44-9103-ea804a1d4b38
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating Processes Remotely using WMI
 ms.author: windowssdkdev

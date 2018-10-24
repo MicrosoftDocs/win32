@@ -5,8 +5,6 @@ ms.assetid: 5469a183-1dc0-4ec2-bd7e-54060b5a2876
 keywords:
 - OpenGL processing pipeline,framebuffer operations
 - framebuffers,operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

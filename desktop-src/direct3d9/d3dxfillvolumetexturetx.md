@@ -2,8 +2,6 @@
 Description: Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.
 ms.assetid: f082e1d2-c433-482c-9288-58e5c558cdc5
 title: D3DXFillVolumeTextureTX function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

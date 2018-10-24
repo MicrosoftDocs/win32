@@ -2,8 +2,6 @@
 Description: The FixMediaTimes2 method rounds the specified time values to the nearest frame boundary, as defined by the output frame rate. This method is equivalent to IAMTimelineSrc::FixMediaTimes, but takes REFTIME values.
 ms.assetid: c51172ea-b5d7-4a2e-ace2-85e6e671c1e9
 title: IAMTimelineSrc::FixMediaTimes2 method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

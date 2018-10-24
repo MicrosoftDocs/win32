@@ -2,8 +2,6 @@
 Description: The VBScript code sample file WiTextIn.vbs is provided in the Windows SDK Components for Windows Installer Developers.
 ms.assetid: ba6c6367-ebb1-4981-ae3a-bcff68aacdbf
 title: Copy ANSI File Into a Database Field
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

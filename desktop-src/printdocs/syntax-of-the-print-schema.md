@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: d67518e3-c379-4a50-aeda-31afaa7f05dd
 title: Syntax of the Print Schema
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

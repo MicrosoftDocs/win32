@@ -2,8 +2,6 @@
 title: Accessibility
 description: Designing software for accessibility means ensuring that programs and functionality are easily available to the widest range of users, including those who have disabilities and impairments.
 ms.assetid: df6947ec-6a1d-4645-ae3e-863839c32588
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

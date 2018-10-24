@@ -2,8 +2,6 @@
 Description: Provisions are made for extending constants and structures both in a device-independent way and in a device-specific (vendor-specific) way.
 ms.assetid: d30f80c3-3535-4d78-b0a1-c9a7389f8fd4
 title: Structure Extensibility
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

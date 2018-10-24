@@ -2,8 +2,6 @@
 title: Quick Access Toolbar
 description: The Quick Access Toolbar (QAT) is a small, customizable toolbar that exposes a set of Commands that are specified by the application or selected by the user.
 ms.assetid: b2adf4e9-0de1-4c4d-9293-693d0f7cf6fe
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

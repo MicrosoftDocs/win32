@@ -2,8 +2,6 @@
 Description: The Move method positions and resizes the dialog box. This method implements the IPropertyPage::Move method.
 ms.assetid: b6cabb5c-196d-489b-9dd4-194d26f4de83
 title: CBasePropertyPage.Move method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

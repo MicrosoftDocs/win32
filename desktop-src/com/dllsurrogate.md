@@ -4,8 +4,6 @@ description: Enables DLL servers to run in a surrogate process. If an empty stri
 ms.assetid: ae02d828-9cdb-4faa-8fa9-971da97e27b1
 keywords:
 - DllSurrogate registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

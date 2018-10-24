@@ -2,8 +2,6 @@
 Description: Resource statistics gathered by the D3DDEVINFO\_ResourceManager when using the asynchronous query mechanism.
 ms.assetid: f4d9c6db-4002-439c-9a88-485763badc82
 title: D3DRESOURCESTATS structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

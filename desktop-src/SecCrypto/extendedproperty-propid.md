@@ -2,8 +2,6 @@
 Description: Sets or retrieves the type of extended property. This is the default property.
 ms.assetid: c2917126-929b-4b60-bcde-0ad919cb03d4
 title: ExtendedProperty.PropID property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

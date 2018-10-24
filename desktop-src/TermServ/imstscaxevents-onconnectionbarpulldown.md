@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: D0B66AF8-5AEA-4341-89DF-0C836938F886
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - OnConnectionBarPullDown method Remote Desktop Services

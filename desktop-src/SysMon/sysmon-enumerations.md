@@ -2,8 +2,6 @@
 title: SYSMON Enumerations
 description: The System Monitor (SYSMON) classes use the following enumerations.
 ms.assetid: fe5bac68-4513-4dc3-bbcb-4c48d05ac14b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

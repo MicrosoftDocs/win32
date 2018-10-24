@@ -2,8 +2,6 @@
 Description: The CollectUserInfo method of the Installer object invokes a user interface wizard sequence which collects and stores both user information and the product code.
 ms.assetid: 2faacf38-1af1-4e8a-a3f6-87733104614e
 title: Installer.CollectUserInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The AddAdvisePacket method adds an advise request to the list of pending requests.
 ms.assetid: 138d8404-7d28-47cc-91b4-4733a113ac7a
 title: CAMSchedule.AddAdvisePacket method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

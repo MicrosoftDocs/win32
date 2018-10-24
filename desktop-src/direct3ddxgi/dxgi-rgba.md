@@ -2,8 +2,6 @@
 Description: Represents a color value with alpha, which is used for transparency.
 ms.assetid: 5F9DDDC1-644E-4DA2-8E3D-F157789809E7
 title: DXGI_RGBA structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Reference information about how to interact with Parental Controls APIs.
 ms.assetid: d968dddc-2f61-4da1-9a66-e8f520a0b920
 title: Parental Controls Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

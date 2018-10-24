@@ -2,8 +2,6 @@
 Description: The m\_SourceRect member variable specifies the source rectangle for drawing. The initial value is an empty rectangle, indicating the entire image should be drawn.
 ms.assetid: 6a13823b-18e0-43fe-80d5-97357fa87fa5
 title: CDrawImage::m_SourceRect member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

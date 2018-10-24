@@ -2,8 +2,6 @@
 Description: The GetPropertyInfo function returns a pointer to the property information of a given protocol.
 ms.assetid: f65166ba-1d94-4d65-b9d7-edb84ada0826
 title: GetPropertyInfo function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

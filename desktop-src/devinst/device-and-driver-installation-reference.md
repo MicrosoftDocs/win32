@@ -2,8 +2,6 @@
 title: Device and Driver Installation Reference
 description: Device and Driver Installation Reference
 ms.assetid: 9abeb5b9-9f45-459d-a787-dd633ff2e0f3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,6 @@
 ---
 Description: Specifies an application-defined callback function called by File Manager to communicate with a File Manager extension.
 title: FMExtensionProc callback function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

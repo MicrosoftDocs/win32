@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: a51d90c9-4046-42dc-b7cf-51b904c5f57a
 title: CSourceSeeking.CSourceSeeking constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

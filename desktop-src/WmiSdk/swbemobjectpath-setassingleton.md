@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7ec53954-2aac-494c-87c7-6a14592d8bd5
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObjectPath.SetAsSingleton method
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: The PRINTER\_NOTIFY\_OPTIONS structure specifies options for a change notification object that monitors a printer or print server.
 ms.assetid: 712c546d-dbb3-4f78-b14e-fbb8619b57f9
 title: PRINTER_NOTIFY_OPTIONS structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

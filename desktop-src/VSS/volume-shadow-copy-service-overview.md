@@ -2,8 +2,6 @@
 Description: The Volume Shadow Copy Service (VSS) is a set of COM APIs that implements a framework to allow volume backups to be performed while applications on a system continue to write to the volumes.
 ms.assetid: 263b0200-4869-4fb0-ad50-240166d2d32f
 title: Volume Shadow Copy Service Overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

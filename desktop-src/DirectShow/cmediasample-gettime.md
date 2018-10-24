@@ -2,8 +2,6 @@
 Description: The GetTime method retrieves the stream times at which this sample should begin and finish. This method implements the IMediaSample::GetTime method.
 ms.assetid: ddb0df1c-707d-405d-9e73-0d5a59f487b6
 title: CMediaSample.GetTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

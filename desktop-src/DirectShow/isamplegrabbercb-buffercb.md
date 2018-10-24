@@ -2,8 +2,6 @@
 Description: The BufferCB method is a callback method that receives a pointer to the sample buffer.
 ms.assetid: 9ee16dd6-8d05-4a9a-84c3-1b3bb95eaa04
 title: ISampleGrabberCB::BufferCB method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

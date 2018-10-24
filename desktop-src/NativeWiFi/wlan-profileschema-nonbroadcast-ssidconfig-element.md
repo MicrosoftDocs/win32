@@ -2,8 +2,6 @@
 Description: Indicates whether to connect to a hidden network.
 ms.assetid: 31b859e9-adc7-49e2-91d9-4fb63a35addb
 title: nonBroadcast (SSIDConfig) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

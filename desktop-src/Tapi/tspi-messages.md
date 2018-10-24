@@ -2,8 +2,6 @@
 Description: This section contains a list of the messages in the Telephony Service Provider Interface (TSPI).
 ms.assetid: 3d8bf980-81d6-49db-954f-af72458365dc
 title: TSPI Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -11,8 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,embedding
 - Windows Media Player Mobile,embedding ActiveX control
 - embedding,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

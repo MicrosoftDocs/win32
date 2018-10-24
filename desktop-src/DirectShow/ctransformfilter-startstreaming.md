@@ -2,8 +2,6 @@
 Description: The StartStreaming method is called when the filter switches to the paused state.
 ms.assetid: 1e3bbca7-b5b1-41fd-8f70-b7ef39c9491b
 title: CTransformFilter.StartStreaming method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

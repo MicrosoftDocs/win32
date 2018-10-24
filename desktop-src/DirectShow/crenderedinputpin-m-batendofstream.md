@@ -2,8 +2,6 @@
 Description: The m\_bAtEndOfStream member variable is a Boolean flag indicating whether the end of the stream was reached.
 ms.assetid: 96cad18e-6a3e-409a-9949-5e050683e384
 title: CRenderedInputPin::m_bAtEndOfStream member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

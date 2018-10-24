@@ -2,8 +2,6 @@
 Description: Returns an event handle to the next event scheduled to occur after a specified event on an animation track.
 ms.assetid: 616b2de1-6107-4d18-ad2e-de2ef4560aee
 title: ID3DXAnimationController::GetUpcomingTrackEvent method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

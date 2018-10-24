@@ -2,8 +2,6 @@
 Description: The following list contains the internal CMSP address methods.
 ms.assetid: 2016a776-1464-46b5-96b9-b045834f9e38
 title: CMSPAddress Internal Helper Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -7,8 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),retrieving metadata
 - ASF (Advanced Systems Format),retrieving metadata
 - metadata,retrieving all
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

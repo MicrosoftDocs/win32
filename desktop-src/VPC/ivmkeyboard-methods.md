@@ -2,8 +2,6 @@
 title: IVMKeyboard Methods
 description: The IVMKeyboard interface exposes the following methods.
 ms.assetid: 01FC4767-4493-4561-8277-B0F57803238D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

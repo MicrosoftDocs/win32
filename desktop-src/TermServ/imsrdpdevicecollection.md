@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 9731b16b-12e0-457e-a4e5-a55d8a6db582
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - IMsRdpDeviceCollection interface Remote Desktop Services

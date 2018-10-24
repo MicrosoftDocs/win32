@@ -2,8 +2,6 @@
 Description: The Peer Infrastructure uses the following common constants.ConstantDescriptionPEER\_CONNECTION\_FLAGSSpecifies the types of connections that a peer can have.PEER\_CONNECTION\_STATUSSpecifies the status of a peer direct or neighbor connection.PEER\_RECORD\_CHANGE\_TYPESpecifies the changes that can occur to a record.PEER\_RECORD\_FLAGSSpecifies a set of flags for peer record behaviors. 
 ms.assetid: 457db259-b1f0-4711-a8f0-201ff314cb1e
 title: Common Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

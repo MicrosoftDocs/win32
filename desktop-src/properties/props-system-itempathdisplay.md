@@ -2,8 +2,6 @@
 Description: The user-friendly display path to the item.
 ms.assetid: 27e4490b-7914-4b38-9799-e9d5dc407f13
 title: System.ItemPathDisplay
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

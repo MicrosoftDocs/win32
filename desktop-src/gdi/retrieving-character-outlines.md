@@ -2,8 +2,6 @@
 Description: You can use the GetGlyphOutline function to retrieve the outline of a glyph from a TrueType font.
 ms.assetid: 9b255dfa-3c1d-4707-927d-a2d5f4117f6a
 title: Retrieving Character Outlines
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

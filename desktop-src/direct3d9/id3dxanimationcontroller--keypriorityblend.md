@@ -2,8 +2,6 @@
 Description: Sets blending event keys for the specified animation track.
 ms.assetid: 2023d566-1de5-465a-ad6f-04a78ac01c33
 title: ID3DXAnimationController::KeyPriorityBlend method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

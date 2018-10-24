@@ -2,8 +2,6 @@
 Description: Retrieves the parent node of this IContextNode in the context node tree.
 ms.assetid: 782fd973-f8f3-4902-b8e0-cc5e70a66d28
 title: IContextNode::GetParentNode method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

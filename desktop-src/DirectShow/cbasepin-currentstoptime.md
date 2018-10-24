@@ -2,8 +2,6 @@
 Description: The CurrentStopTime method retrieves the segment stop time, set by the CBasePin::NewSegment method.
 ms.assetid: 2066c4a5-2d39-4a2e-b2d6-48c615862aec
 title: CBasePin.CurrentStopTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

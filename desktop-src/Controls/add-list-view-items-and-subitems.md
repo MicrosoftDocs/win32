@@ -2,8 +2,6 @@
 title: How to Add List-View Items and Subitems
 description: This topic demonstrates how to add items and subitems to a list-view control.
 ms.assetid: B7E204DC-FD08-4639-985D-1459A1AC0ED6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

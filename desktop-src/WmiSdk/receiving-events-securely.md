@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: cd02e5db-f9e2-438b-9632-0a1387a6d4e3
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Events Securely
 ms.author: windowssdkdev

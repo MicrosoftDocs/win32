@@ -2,8 +2,6 @@
 Description: The OnError method is called if an error occurs during streaming. The derived class must implement this method.
 ms.assetid: 0f135cab-611c-4464-9605-360a30de7eb3
 title: CPullPin.OnError method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

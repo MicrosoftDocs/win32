@@ -2,8 +2,6 @@
 title: HTMLEditRibbon Sample
 description: This code sample shows markup and code required to migrate an existing Microsoft Foundation Classes (MFC) application to use the Windows Ribbon.
 ms.assetid: 1505aaea-76d2-47bc-bdc9-12e761da93f9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

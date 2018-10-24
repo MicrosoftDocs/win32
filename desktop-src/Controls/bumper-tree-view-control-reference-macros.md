@@ -2,8 +2,6 @@
 title: Tree View Macros
 description: .
 ms.assetid: ee569a0e-21f3-4d46-ac7d-e152f8b35391
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

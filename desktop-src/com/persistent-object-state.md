@@ -2,8 +2,6 @@
 title: Persistent Object State
 description: Persistent Object State
 ms.assetid: 731fef03-d204-48e7-b33a-801e97a9d2c2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

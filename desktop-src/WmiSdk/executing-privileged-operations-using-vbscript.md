@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 65b923d5-5244-498d-9644-d4978fb84f85
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Executing Privileged Operations Using VBScript
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: Retrieves the target of a symbolic link.
 ms.assetid: 10a6676c-96f7-4758-8868-bbccd37b5019
 title: NtQuerySymbolicLinkObject function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -6,8 +6,6 @@ keywords:
 - backup applications Backup
 - creating backup applications Backup
 - backup Backup , creating applications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

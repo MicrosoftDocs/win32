@@ -2,8 +2,6 @@
 Description: Overview of general threading considerations.
 ms.assetid: cf35724f-5f80-4b3e-992a-a9d5ea99aae9
 title: General Threading Considerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: 'The following topics provide information about custom backups and restores:'
 ms.assetid: 6aaa9220-8aa4-4ddc-9ae0-d7aa05a96fa7
 title: Custom Backups and Restores
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

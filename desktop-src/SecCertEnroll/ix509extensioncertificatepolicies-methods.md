@@ -2,8 +2,6 @@
 Description: The IX509ExtensionCertificatePolicies interface exposes the following methods.
 ms.assetid: 2E9D7EE4-4D17-441E-8F74-FAFE6605D738
 title: IX509ExtensionCertificatePolicies Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

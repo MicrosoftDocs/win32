@@ -2,8 +2,6 @@
 title: Tree-View Controls Overview
 description: .
 ms.assetid: da126acb-d75b-4857-a11b-749ab17e7e4a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

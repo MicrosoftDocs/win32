@@ -9,8 +9,6 @@ keywords:
 - selection mode OpenGL
 - feedback mode OpenGL
 - rendering mode OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

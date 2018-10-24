@@ -19,8 +19,6 @@ keywords:
 - DRM Client Extended APIs,key material
 - Client Extended APIs,key material
 - licenses,importing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

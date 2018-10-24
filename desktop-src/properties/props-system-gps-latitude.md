@@ -2,8 +2,6 @@
 Description: Indicates latitude.
 ms.assetid: f36f81b3-4e3d-4e06-a039-c243fd69c937
 title: System.GPS.Latitude
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

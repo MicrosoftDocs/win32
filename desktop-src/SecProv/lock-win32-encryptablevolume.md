@@ -2,8 +2,6 @@
 Description: Dismounts the volume and removes the volume's encryption key from system memory.
 ms.assetid: '8d6e42a0-7b43-46d2-aa5e-941567ef2842'
 title: Lock method of the Win32_EncryptableVolume class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

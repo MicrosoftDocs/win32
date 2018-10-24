@@ -2,8 +2,6 @@
 title: Authenticode Signing for Game Developers
 description: This article discusses how to get started with authenticating your game and how to integrate authentication into a daily build process.
 ms.assetid: 0b3138ea-e4ea-57fb-756b-62fdc20cf813
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

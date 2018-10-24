@@ -2,8 +2,6 @@
 Description: Cancels the current transfer operation.
 ms.assetid: 42c6b2c3-7b6a-45d2-a7ce-844e95fe277b
 title: IWiaTransfer::Cancel method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

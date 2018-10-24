@@ -2,8 +2,6 @@
 title: Function Arguments
 description: A function takes one or more input arguments; use the following syntax to declare each argument.
 ms.assetid: 80e0dbc8-26b7-4250-bb01-6856fc70f6b8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

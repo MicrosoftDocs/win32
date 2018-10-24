@@ -2,8 +2,6 @@
 title: WDS Transport Provider Functions
 description: User-defined content providers can expose the following callback functions to the multicast server.
 ms.assetid: 30ec1969-4e90-458e-8a9f-39a7bbf4cd79
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

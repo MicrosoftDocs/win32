@@ -2,8 +2,6 @@
 title: Command Buttons
 description: With a command button, users initiate an immediate action.
 ms.assetid: 0e2ff31a-657b-4e4c-afee-2a6bd742f46c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Determines whether attempts to connect to running objects are scree
 ms.assetid: ab5e74f0-d167-4fb2-af1b-03704039e87c
 keywords:
 - SRPRunningObjectChecks registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

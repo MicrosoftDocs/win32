@@ -2,8 +2,6 @@
 Description: Indicates whether connection to a wireless LAN should be automatic or initiated by user.
 ms.assetid: 0fad8392-3053-494b-9b30-1db85408a437
 title: connectionMode (WLANProfile) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

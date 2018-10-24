@@ -2,8 +2,6 @@
 Description: The Icon control displays a static picture of an icon. The background of the image is transparent.
 ms.assetid: a2d19093-73d0-4e1f-bf82-21e7334a3f34
 title: Icon Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

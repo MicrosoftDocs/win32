@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3669a5fe-8305-4fa3-aa75-fafefcd8b33d
-ms.prod: windows-server-dev
-ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 keywords:
 - CreateConnectionOptions method Windows Remote Management

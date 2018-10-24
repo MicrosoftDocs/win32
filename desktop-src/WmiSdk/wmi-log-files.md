@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 315b8355-03b9-40f9-a6c1-29a49f5a2cd8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Log Files
 ms.author: windowssdkdev

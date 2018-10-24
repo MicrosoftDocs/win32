@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8bf6d218-9a31-4efd-a809-222aca364138
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Performance Libraries and WMI
 ms.author: windowssdkdev

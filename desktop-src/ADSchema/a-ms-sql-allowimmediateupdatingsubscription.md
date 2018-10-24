@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 7efa4b8f-77ad-4f68-9852-7dac9f922d95
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - MS-SQL-AllowImmediateUpdatingSubscription attribute AD Schema

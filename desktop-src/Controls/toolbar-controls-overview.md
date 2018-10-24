@@ -2,8 +2,6 @@
 title: About Toolbar Controls
 description: A toolbar is a control that contains one or more buttons.
 ms.assetid: b5a00a81-8d23-4844-8b0a-776e7cceced8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

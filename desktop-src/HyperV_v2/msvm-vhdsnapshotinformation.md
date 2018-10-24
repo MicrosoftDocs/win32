@@ -2,8 +2,6 @@
 Description: Provides information about a snapshot within a VHD Set file.
 ms.assetid: 922bf0b8-523d-488e-9a41-1a27594e2e44
 title: Msvm_VHDSnapshotInformation class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

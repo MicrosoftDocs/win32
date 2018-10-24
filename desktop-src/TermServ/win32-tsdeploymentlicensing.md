@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 78e95629-6580-4aa1-bcbd-a79af44ddb54
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - Win32_TSDeploymentLicensing class Remote Desktop Services

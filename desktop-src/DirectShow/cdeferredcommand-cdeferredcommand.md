@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 0b372fa2-78a9-4e38-813c-f18123716c6d
 title: CDeferredCommand.CDeferredCommand constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

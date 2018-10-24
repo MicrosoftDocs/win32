@@ -2,8 +2,6 @@
 Description: The VBScript file WiDialog.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how script is used to preview dialogs in a Windows Installer database.
 ms.assetid: b3d72ba1-1d19-4460-8b9b-94f72214e8b1
 title: Preview User Interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: In COM+, shared transient state for objects is managed by using the shared property manager (SPM). The SPM is a resource dispenser that you can use to share state among multiple objects within a server process.
 ms.assetid: 31b50c2a-68b5-4816-9a56-8cd9475e7beb
 title: COM+ Shared Property Manager Concepts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

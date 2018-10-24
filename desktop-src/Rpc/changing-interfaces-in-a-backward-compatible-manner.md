@@ -2,8 +2,6 @@
 title: Changing Interfaces in a Backward Compatible Manner
 description: The methods explained in The Versioning Theory for RPC and COM may be unacceptable for many reasons.
 ms.assetid: 7dec4b67-3d50-453f-b0ef-290d091186fd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The EC\_BUILT event is sent by the Video Control when a graph has been completely built. This event is not forwarded to applications.
 ms.assetid: 011d81a1-005a-4afc-971a-38a09fd132e3
 title: EC_BUILT
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

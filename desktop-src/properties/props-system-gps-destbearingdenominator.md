@@ -2,8 +2,6 @@
 Description: The denominator of PKEY\_GPS\_DestBearing.
 ms.assetid: 12b504c0-3320-4653-885f-164bbc1df370
 title: System.GPS.DestBearingDenominator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

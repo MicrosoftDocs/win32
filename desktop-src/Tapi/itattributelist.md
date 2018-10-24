@@ -2,8 +2,6 @@
 Description: The ITAttributeList interface supplies methods for getting and setting of uninterpreted attributes.
 ms.assetid: 12806c2e-615c-4d78-a4bb-5cc35ea21175
 title: ITAttributeList interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

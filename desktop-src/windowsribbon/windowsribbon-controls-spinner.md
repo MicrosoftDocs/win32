@@ -2,8 +2,6 @@
 title: Spinner
 description: The Spinner is a composite control that consists of an increment button, a decrement button, and an edit control, all of which are used to provide decimal values to the application.
 ms.assetid: 63689ed3-7326-4f7a-b700-d89e9b501ef1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

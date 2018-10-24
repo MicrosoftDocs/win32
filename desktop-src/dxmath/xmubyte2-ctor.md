@@ -2,8 +2,6 @@
 Description: Constructors exposed by XMUBYTE2.
 ms.assetid: 01763d6a-296d-43f9-b147-e67f1ee588b5
 title: XMUBYTE2 constructors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

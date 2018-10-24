@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: e173b9b8-3f27-4c8f-aea0-d7c84d00a17f
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-DFSR-MinDurationCacheInMin attribute AD Schema

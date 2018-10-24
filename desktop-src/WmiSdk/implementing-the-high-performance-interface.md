@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c37e3652-8c76-4125-ba62-ae860858797e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Implementing the High-Performance Interface
 ms.author: windowssdkdev

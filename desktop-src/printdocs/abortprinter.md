@@ -2,8 +2,6 @@
 Description: 'The AbortPrinter function deletes a printer's spool file if the printer is configured for spooling.'
 ms.assetid: 'b361fba5-e4e7-4c9e-ab32-b8ab88dcb1dc'
 title: AbortPrinter function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

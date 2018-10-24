@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 1e11ca27-e67d-486c-8fc5-a10382edfff3
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'Example: Getting WMI Data from the Local Computer Asynchronously'
 ms.author: windowssdkdev

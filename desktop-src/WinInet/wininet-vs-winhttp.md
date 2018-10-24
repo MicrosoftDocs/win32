@@ -4,8 +4,6 @@ description: With a few exceptions, WinINet is a superset of WinHTTP. When selec
 ms.assetid: 77386b54-2c86-4a30-8c4c-88d5f15313d7
 keywords:
 - WinINet vs. WinHTTP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

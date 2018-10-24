@@ -2,8 +2,6 @@
 Description: Poolable objects must meet certain requirements to enable a single object instance to be used by multiple clients.
 ms.assetid: 2cd4211e-be12-4197-8b43-5cb9f2321016
 title: Requirements for Poolable Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

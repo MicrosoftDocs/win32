@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 56aa8043-08cc-42c9-82b0-f1328cd52ff8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Printers and Printing'
 ms.author: windowssdkdev

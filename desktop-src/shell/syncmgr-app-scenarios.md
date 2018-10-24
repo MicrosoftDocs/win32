@@ -1,8 +1,6 @@
 ---
 Description: Applications and services that can use Synchronization Manager.
 title: Application Scenarios
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

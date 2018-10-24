@@ -2,8 +2,6 @@
 Description: Projects a function represented on a cube map into spherical harmonics (SH).
 ms.assetid: da5a3195-801e-4f1c-b52c-9eafc6e2e7b4
 title: D3DXSHProjectCubeMap function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

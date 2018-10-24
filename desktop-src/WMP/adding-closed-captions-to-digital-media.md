@@ -22,8 +22,6 @@ keywords:
 - Synchronized Accessible Media Interchange (SAMI),adding closed captions
 - SAMI (Synchronized Accessible Media Interchange),adding closed captions
 - adding closed captions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

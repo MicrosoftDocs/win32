@@ -2,8 +2,6 @@
 Description: BoundingOrientedBox Fields
 ms.assetid: 8d69080d-bbe7-4c62-a334-bb1e543a3c0b
 title: BoundingOrientedBox Fields
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

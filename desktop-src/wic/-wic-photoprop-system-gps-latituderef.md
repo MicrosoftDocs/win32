@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.GPS.LatitudeRef property.
 ms.assetid: 057015fd-38b7-4053-b611-72565975cc58
 title: System.GPS.LatitudeRef Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: The RAS Administration DLL exports functions that the RAS server ca
 ms.assetid: c15c6e2d-3bb6-4583-9ac3-19528feb863f
 keywords:
 - RAS Administration RRAS , RAS administration DLL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

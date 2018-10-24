@@ -2,8 +2,6 @@
 Description: Creates and adds a data reference object as a child object. Deprecated.
 ms.assetid: 71a770a2-1502-4b93-b368-990c3318bd33
 title: IDirectXFileData::AddDataReference method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

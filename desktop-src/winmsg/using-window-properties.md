@@ -2,8 +2,6 @@
 Description: This section explains how to perform the following tasks associated with window properties.
 ms.assetid: cdf196ec-300c-4c7b-8a4f-68088c4a2507
 title: Using Window Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

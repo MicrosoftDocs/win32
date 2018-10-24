@@ -2,8 +2,6 @@
 Description: This topic explains the use of the Microsoft Windows HTTP Services (WinHTTP) proxy configuration tool, &\#0034;ProxyCfg.exe&\#0034;.
 ms.assetid: f96adf59-59be-414e-ad6f-9eac05f4b975
 title: Netsh.exe and ProxyCfg.exe Proxy Configuration Tools
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

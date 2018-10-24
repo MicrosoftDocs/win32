@@ -2,8 +2,6 @@
 Description: Computes the source radiance resulting from a single bounce of interreflected light, using adaptive sampling.
 ms.assetid: 61f8cecd-d95a-4f02-929e-02f2bce5bde9
 title: ID3DXPRTEngine::ComputeBounceAdaptive method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

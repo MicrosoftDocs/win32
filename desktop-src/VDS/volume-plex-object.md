@@ -2,8 +2,6 @@
 Description: Volume Plex Object
 ms.assetid: 9e770bfc-2bcb-45f0-a7fc-ba526349839e
 title: Volume Plex Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

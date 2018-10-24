@@ -2,8 +2,6 @@
 Description: A DirectoryList control displays a part of the path that is currently displayed in the PathEdit control. The DirectoryList control displays the folders below the directory currently displayed by the DirectoryCombo control.
 ms.assetid: 05e70381-28c0-4568-808e-ff2dee8ff790
 title: DirectoryList Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

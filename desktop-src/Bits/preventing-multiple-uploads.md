@@ -2,8 +2,6 @@
 title: Preventing Multiple Uploads
 description: When you upload a file, BITS creates a session ID that identifies the upload session to both the BITS client and BITS server.
 ms.assetid: 97283f8e-d2fa-4383-9b92-a05f46680443
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

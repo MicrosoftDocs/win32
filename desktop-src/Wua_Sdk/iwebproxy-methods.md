@@ -2,8 +2,6 @@
 Description: The IWebProxy interface defines the following methods.
 ms.assetid: 670f3aa4-1531-473c-93ea-fd333b174e32
 title: IWebProxy Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

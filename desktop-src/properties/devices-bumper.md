@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 9e744e0c-a59d-47db-a785-026698d54ee0
 title: Devices
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

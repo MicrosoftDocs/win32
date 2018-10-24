@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: fda2042a-8fca-4cd8-bb55-fd1c3591921e
-ms.prod: windows-server-dev
-ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 keywords:
 - Scripting in Windows Remote Management

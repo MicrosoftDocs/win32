@@ -2,8 +2,6 @@
 Description: Contains the registered output types for a Media Foundation transform (MFT).
 ms.assetid: 925267a2-4421-4874-a8a2-437876c729f1
 title: MFT_OUTPUT_TYPES_Attributes attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

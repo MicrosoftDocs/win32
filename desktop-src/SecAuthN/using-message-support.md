@@ -2,8 +2,6 @@
 Description: Explains how to use SSPI message support.
 ms.assetid: 14d4813e-413e-4ef9-85f0-96986c3c1eca
 title: Using Message Support
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

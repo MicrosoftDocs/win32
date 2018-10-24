@@ -2,8 +2,6 @@
 Description: The ReceiveMultiple method receives an array of samples. This method implements the IMemInputPin::ReceiveMultiple method.
 ms.assetid: 21e757c7-f623-4ccb-8e37-512ee4dd7aa7
 title: CBaseInputPin.ReceiveMultiple method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

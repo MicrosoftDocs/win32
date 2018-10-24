@@ -2,8 +2,6 @@
 title: Legacy System Restore Structures
 ms.assetid: a85405ec-360b-4316-99b4-1b94b1eff0f6
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

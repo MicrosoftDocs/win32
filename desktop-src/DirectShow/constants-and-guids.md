@@ -2,8 +2,6 @@
 Description: Constants and GUIDs
 ms.assetid: 2468107e-826c-4185-8562-c1001413b08e
 title: Constants and GUIDs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

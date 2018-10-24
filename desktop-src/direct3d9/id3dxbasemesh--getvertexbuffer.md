@@ -2,8 +2,6 @@
 Description: Retrieves the vertex buffer associated with the mesh.
 ms.assetid: 5caa6ce1-feab-4919-944e-f92fad3ad443
 title: ID3DXBaseMesh::GetVertexBuffer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

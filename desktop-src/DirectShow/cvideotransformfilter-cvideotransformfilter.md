@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 4dad635f-4637-4f40-9f02-a91b59d05278
 title: CVideoTransformFilter.CVideoTransformFilter constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

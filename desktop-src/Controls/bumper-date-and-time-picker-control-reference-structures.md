@@ -2,8 +2,6 @@
 title: Date and Time Picker Structures
 description: .
 ms.assetid: 4768d506-0dc2-4c05-8ff4-d2d09d8c9496
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

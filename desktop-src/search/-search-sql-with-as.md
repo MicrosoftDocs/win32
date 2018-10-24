@@ -2,8 +2,6 @@
 Description: Column group aliases provide a way to use shorter names in place of the name of a column or a group of columns. The optional group alias predicate is part of the WHERE clause.
 ms.assetid: 7782ac24-ea6c-4a97-b1b6-982f276fcefc
 title: WITH -- AS Group Alias Predicate
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

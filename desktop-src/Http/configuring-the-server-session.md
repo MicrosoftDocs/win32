@@ -2,8 +2,6 @@
 title: Configuring the Server Session
 description: .
 ms.assetid: 1e4e9440-8d70-44df-90a7-2d5e25b2f680
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

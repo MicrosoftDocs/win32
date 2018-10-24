@@ -2,8 +2,6 @@
 title: How to Query a Virtualized Item in Items View
 description: This topic describes how to use Microsoft UI Automation to retrieve UI information about virtualized items in the Windows 7 Items View.
 ms.assetid: a0bff8a1-47b1-4750-8086-e2e65a79099e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: You can use the installer to add the information in one database into another database by performing a merge.
 ms.assetid: c53ef3d2-b3dc-4cd1-bd98-a856a223917f
 title: Merging Databases
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

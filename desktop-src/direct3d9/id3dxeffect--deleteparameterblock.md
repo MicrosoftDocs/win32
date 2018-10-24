@@ -2,8 +2,6 @@
 Description: Delete a parameter block.
 ms.assetid: 5502dabc-1703-481b-a69d-f6bd8fd01d20
 title: ID3DXEffect::DeleteParameterBlock method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A float representing the current parametric ending point for the ray.  
 ms.assetid: 
 title: RayTCurrent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when input focus changes before the PenInputPanel object was able to insert user input into the attached control.
 ms.assetid: a5928f78-29d6-40e8-8f87-17c188e51ba9
 title: PenInputPanel.InputFailed event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

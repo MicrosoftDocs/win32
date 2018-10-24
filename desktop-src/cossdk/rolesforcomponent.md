@@ -2,8 +2,6 @@
 Description: Contains an object for each role assigned to the component to which the collection is related. The roles must already be assigned at the application level.
 ms.assetid: c253c72f-908e-4990-ac1a-27e32c99283c
 title: RolesForComponent collection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This section contains the core functions for Tablet PC.
 ms.assetid: 8f94a82c-de93-4649-a9b5-0adcbe01333d
 title: Core Tablet PC Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

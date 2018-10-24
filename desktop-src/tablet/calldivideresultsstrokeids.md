@@ -2,8 +2,6 @@
 Description: Retrieves the Id properties for the IInkStrokeDisp objects of the coresponding word, line, paragraph, or drawing determined by ink analysis.
 ms.assetid: f05ffa3b-2a47-46fe-bb8f-e682aa094b69
 title: CallDivideResultsStrokeIds function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

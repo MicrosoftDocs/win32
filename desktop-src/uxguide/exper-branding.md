@@ -2,8 +2,6 @@
 title: Software Branding
 description: Branding is the emotional positioning of a product as perceived by its customers. Successful branding requires skillful crafting of a product image, and is not achieved just through product logos and color schemes.
 ms.assetid: 49c10879-2f3a-4dff-b628-8d70e389fae6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

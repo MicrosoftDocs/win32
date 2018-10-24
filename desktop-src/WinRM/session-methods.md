@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: B904E30D-5066-4C8C-BEE1-49FB9EC44AAF
-ms.prod: windows-server-dev
-ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 ms.author: windowssdkdev
 ms.topic: article

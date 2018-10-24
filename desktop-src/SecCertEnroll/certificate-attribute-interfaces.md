@@ -2,8 +2,6 @@
 Description: The following interfaces can be used to create certificate attributes.
 ms.assetid: 3701f9b2-0857-45f0-b3ed-4f1b3db4d6d8
 title: Certificate Attribute Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

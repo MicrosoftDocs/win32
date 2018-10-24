@@ -2,8 +2,6 @@
 Description: The interpolation mode of a Graphics object influences the way Windows GDI+ scales (stretches and shrinks) images.
 ms.assetid: 3aeead47-78da-4ab3-9126-2fbe9e341e48
 title: Using Interpolation Mode to Control Image Quality During Scaling
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

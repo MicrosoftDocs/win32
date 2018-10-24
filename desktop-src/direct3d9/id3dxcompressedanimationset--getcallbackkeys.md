@@ -2,8 +2,6 @@
 Description: Fills an array with callback key data used for key frame animation.
 ms.assetid: 0dc30c1f-9ffb-42ec-8074-84293f16c344
 title: ID3DXCompressedAnimationSet::GetCallbackKeys method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,6 @@
 ---
 ms.assetid: b6d636e6-2af0-427c-a529-56c80b349b58
 title: Cabinet API Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

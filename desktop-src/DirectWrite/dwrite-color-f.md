@@ -4,8 +4,6 @@ description: Describes the red, green, blue, and alpha components of a color.
 ms.assetid: cf51fa2f-234b-44bd-779f-564d63753dbe
 keywords:
 - DWRITE_COLOR_F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

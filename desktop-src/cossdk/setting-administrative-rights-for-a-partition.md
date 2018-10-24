@@ -2,8 +2,6 @@
 Description: Setting Administrative Rights for a Partition
 ms.assetid: d38e4a63-9ff9-4acb-bb7e-d6c96644bd32
 title: Setting Administrative Rights for a Partition
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

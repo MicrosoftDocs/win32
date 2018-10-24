@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: dd1ff72d-ed19-4e8c-a401-a5b1b3d577e8
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Application Directory Partitions in a Forest AD

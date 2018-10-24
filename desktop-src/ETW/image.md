@@ -2,8 +2,6 @@
 Description: This class is the parent class for image events. The following syntax is simplified from MOF code.
 ms.assetid: a719a34c-7e32-4758-9031-6ca2b2873e3e
 title: Image class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

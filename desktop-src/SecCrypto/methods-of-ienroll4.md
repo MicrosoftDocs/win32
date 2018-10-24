@@ -2,8 +2,6 @@
 Description: The following methods are defined by the IEnroll4 interface or are methods the IEnroll4 interface inherits from IEnroll and IEnroll2.
 ms.assetid: e4107c7b-3ec6-4a4b-bf18-13a082221f67
 title: Methods of IEnroll4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

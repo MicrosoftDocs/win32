@@ -2,8 +2,6 @@
 title: Retrieving Error Information
 description: Retrieving Error Information
 ms.assetid: 51a0e401-43f2-4738-9799-a96e2580a29f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

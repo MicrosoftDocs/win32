@@ -4,8 +4,6 @@ description: The Direct3D 10 and higher API separates functional areas of the pi
 ms.assetid: 71141a5e-2d79-4b02-8370-c0cbc8618908
 keywords:
 - input assembler stage (Direct3D 10)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

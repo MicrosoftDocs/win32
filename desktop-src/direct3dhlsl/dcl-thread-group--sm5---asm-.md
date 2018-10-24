@@ -2,8 +2,6 @@
 title: dcl_thread_group (sm5 - asm)
 description: Declare thread group size.
 ms.assetid: CB8192C4-100D-49B6-94E7-6CD3AEC28149
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

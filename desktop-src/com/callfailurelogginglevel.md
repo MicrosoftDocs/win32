@@ -4,8 +4,6 @@ description: Sets the verbosity of event log entries about failed calls to compo
 ms.assetid: 68a7210c-f2a0-4db6-9759-08ff9132a563
 keywords:
 - CallFailureLoggingLevel registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

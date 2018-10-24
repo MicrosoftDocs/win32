@@ -2,8 +2,6 @@
 Description: The IAMTimeline interface provides methods for manipulating the timeline, the central object in Microsoft DirectShow Editing Services (DES).
 ms.assetid: 6750efa0-946c-4ad3-b0df-de55872b94c3
 title: IAMTimeline interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

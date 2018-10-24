@@ -2,8 +2,6 @@
 title: UI_PKEY_ItemImage
 description: Identifies the UI\_PKEY\_ItemImage property.
 ms.assetid: 71bc7917-eb15-4cde-b11d-7d449f95cd50
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

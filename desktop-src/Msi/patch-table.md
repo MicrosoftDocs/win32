@@ -2,8 +2,6 @@
 Description: The Patch table specifies the file that is to receive a particular patch and the physical location of the patch files on the media images.
 ms.assetid: 1b624702-de25-4b1a-9dac-21f359ee97f7
 title: Patch Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

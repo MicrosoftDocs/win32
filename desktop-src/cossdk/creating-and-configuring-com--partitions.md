@@ -2,8 +2,6 @@
 Description: Administrators can use COM+ to programmatically create and configure COM+ partitions.
 ms.assetid: 15f0cd9a-cd40-49df-85b8-15c4e626f8ee
 title: Creating and Configuring COM+ Partitions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

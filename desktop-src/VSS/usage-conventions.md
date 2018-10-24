@@ -2,8 +2,6 @@
 Description: When developing your own VSS application, you should observe the following guidelines and restrictions.
 ms.assetid: d4edc16c-f768-4095-9b2a-b706f19f9e61
 title: VSS Application Compatibility
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: VML RotationCenter Attribute
 description: VML RotationCenter Attribute
 ms.assetid: 3391ec4d-ab4a-47c5-9a36-d524d7efe8f7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

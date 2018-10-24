@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ae7774f7-8a53-44e4-a110-2aef9ae4037f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemMethod.OutParameters property
 ms.author: windowssdkdev

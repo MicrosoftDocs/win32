@@ -2,8 +2,6 @@
 Description: A component with at least one queuable interface is a queuable component.
 ms.assetid: 8183f640-4bf3-4555-8837-90a26130c618
 title: Creating Queuable Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

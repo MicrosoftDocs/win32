@@ -2,8 +2,6 @@
 Description: Indicates the direction of the GPS receiver movement.
 ms.assetid: d63d0129-7c47-417c-bec1-965f58fcf090
 title: System.GPS.Track
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

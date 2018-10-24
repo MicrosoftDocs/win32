@@ -2,8 +2,6 @@
 Description: Multimedia Streaming
 ms.assetid: '50e6d1c5-2a3f-4e96-8b2c-57e2259d69e9'
 title: Multimedia Streaming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: How to Create a Keyboard Interface for Standard Scroll Bars
 description: Although a scroll bar control provides a built-in keyboard interface, a standard scroll bar does not.
 ms.assetid: 249D0077-6E61-479A-91D5-A4BD9752B82E
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

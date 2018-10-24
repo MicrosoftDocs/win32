@@ -2,8 +2,6 @@
 title: Creating Proxy Objects
 description: In addition to designing classes that implement IAccessible properties and methods, server developers may also need to design proxy objects that monitor the life span of accessible objects.
 ms.assetid: d140206a-9918-438b-96bd-df141da2f04b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Troubleshooting
 ms.assetid: e3576161-fc04-47e0-b6b8-75af33fe87ff
 title: Troubleshooting
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

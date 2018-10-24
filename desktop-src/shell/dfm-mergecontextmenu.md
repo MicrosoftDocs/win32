@@ -1,8 +1,6 @@
 ---
 Description: Allows the callback to add items to the menu.
 title: DFM_MERGECONTEXTMENU message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

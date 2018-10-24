@@ -4,8 +4,6 @@ description: You can specify the valid bounds of the index numbers of an array u
 ms.assetid: b629e3cf-544d-47ee-8f8f-b049f693897c
 keywords:
 - max_is
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

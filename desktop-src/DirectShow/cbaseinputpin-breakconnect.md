@@ -2,8 +2,6 @@
 Description: The BreakConnect method releases the pin from a connection.
 ms.assetid: 73b228a9-0a59-4647-b400-c33fa06c7e34
 title: CBaseInputPin.BreakConnect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

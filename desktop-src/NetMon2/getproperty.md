@@ -2,8 +2,6 @@
 Description: The GetProperty function returns a handle to a given property.
 ms.assetid: e77ca20a-55df-4d31-aa6d-2c00695f1d6e
 title: GetProperty function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

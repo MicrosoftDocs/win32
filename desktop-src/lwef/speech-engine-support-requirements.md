@@ -2,8 +2,6 @@
 title: Speech Engine Support Requirements
 description: Speech Engine Support Requirements
 ms.assetid: 3f37cf87-e45c-4a75-aae0-1db3b3e0206e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

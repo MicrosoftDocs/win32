@@ -2,8 +2,6 @@
 title: Keyboard Accelerator Notifications
 description: .
 ms.assetid: d3fc9c39-44bf-4619-870d-e3f0f40ebc54
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

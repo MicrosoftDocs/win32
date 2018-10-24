@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3434ee4e-283e-4147-a73b-c131e8af6c57
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - Win32_RemoteAppChangeEvent class Remote Desktop Services

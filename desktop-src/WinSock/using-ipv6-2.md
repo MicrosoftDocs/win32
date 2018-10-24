@@ -2,8 +2,6 @@
 Description: On Windows XP a later, a new command-line tool is provided for configuring and managing IPv4. This tool uses the &\#0034;netsh interface ip&\#0034; command for configuring and managing IPv4.
 ms.assetid: d27eb0c2-4ae0-42d1-b92e-055a1c232e1c
 title: Using IPv6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

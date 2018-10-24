@@ -2,8 +2,6 @@
 title: How to Draw Text
 description: Shows how to render text with Direct2D.
 ms.assetid: 914dd9d0-78c8-44a3-8504-837faf3201d2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

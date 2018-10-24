@@ -2,8 +2,6 @@
 Description: To enable the transfer of application files, COMREPL automatically manages sets of file system folders on the source and target. These COMREPL folders are all rooted in %systemdir%\\com\\replication.
 ms.assetid: 8c59577b-34ea-4675-aaea-a2732fd5ce14
 title: File Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

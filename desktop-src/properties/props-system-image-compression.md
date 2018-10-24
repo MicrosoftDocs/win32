@@ -2,8 +2,6 @@
 Description: The algorithm used to compress the image.
 ms.assetid: b355351d-b0b4-4f5d-a440-fc408a29e700
 title: System.Image.Compression
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

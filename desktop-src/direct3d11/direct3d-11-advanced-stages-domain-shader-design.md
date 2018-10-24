@@ -2,8 +2,6 @@
 title: How To Design a Domain Shader
 description: This topics shows how to design a domain shader.
 ms.assetid: 329d4eb9-8886-401d-8fb4-39e06886998f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Grabbing a Poster Frame
 ms.assetid: 0727a1ed-1bc7-49fc-a288-00283e637a71
 title: Grabbing a Poster Frame
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

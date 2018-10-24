@@ -14,8 +14,6 @@ keywords:
 - Advanced Systems Format (ASF),QASF
 - ASF (Advanced Systems Format),QASF
 - DirectShow,QASF
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

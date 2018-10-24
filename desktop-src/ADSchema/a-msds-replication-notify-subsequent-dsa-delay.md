@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 6bd9fed7-2003-4156-b1a0-da8622dc2ca8
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-DS-Replication-Notify-Subsequent-DSA-Delay attribute AD Schema

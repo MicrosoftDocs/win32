@@ -2,8 +2,6 @@
 Description: Set the MSINODISABLEMEDIA property to prevent the installer from setting the DISABLEMEDIA property. Setting the DISABLEMEDIA property prevents the installer from registering any media source, such as a CD-ROM, as a valid source for the product.
 ms.assetid: 4e1450aa-bf89-4d44-b463-4016660f5508
 title: MSINODISABLEMEDIA property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObject.Delete_ method
 ms.author: windowssdkdev

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c5a8ccd3-487e-42a3-bb31-d27da9a711c4
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__MethodProviderRegistration class'
 ms.author: windowssdkdev

@@ -5,8 +5,6 @@ ms.assetid: ca9ca153-f2bf-45ed-84e6-44e86e8efaed
 keywords:
 - MCI command strings,about
 - MCI command strings,syntax
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

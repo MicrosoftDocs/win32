@@ -2,8 +2,6 @@
 title: IAgentCharacter HasOtherClients
 description: IAgentCharacter HasOtherClients
 ms.assetid: ee74fa9b-2842-43ac-8493-bc69b480581e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

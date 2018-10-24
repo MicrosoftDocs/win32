@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 227e1438-db8d-4e8f-b2dd-ffc6ef50e0d1
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - MS-SQL-AllowSnapshotFilesFTPDownloading attribute AD Schema

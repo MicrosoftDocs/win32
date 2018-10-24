@@ -2,8 +2,6 @@
 Description: The following sections describe the functions, data structures, and enumerated constants that comprise the specific Peer Distribution API elements.
 ms.assetid: 173bd2cf-00a0-41d7-881a-c8c54f9887cc
 title: Peer Distribution API Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

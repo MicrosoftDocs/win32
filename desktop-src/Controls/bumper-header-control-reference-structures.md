@@ -2,8 +2,6 @@
 title: Header Control Structures
 description: .
 ms.assetid: f5fe232f-7620-4437-8a58-49fe160ac208
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

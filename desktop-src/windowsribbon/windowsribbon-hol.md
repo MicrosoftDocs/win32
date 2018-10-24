@@ -2,8 +2,6 @@
 title: Ribbon Development Introductory Tutorial
 description: This tutorial and accompanying code samples are intended for C++ developers who develop desktop applications and want to take advantage of the Windows Ribbon framework.
 ms.assetid: f814883f-df5c-4b61-842f-eaa176f9bde6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

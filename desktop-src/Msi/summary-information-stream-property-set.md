@@ -2,8 +2,6 @@
 Description: The following table shows the summary information stream property set, which includes the properties, their corresponding property IDs, PIDs, and types.
 ms.assetid: a5dd014f-21af-41f9-be75-1b139946179d
 title: Summary Information Stream Property Set
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

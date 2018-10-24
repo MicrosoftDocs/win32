@@ -2,8 +2,6 @@
 Description: File History API
 ms.assetid: 7488BA36-DEBE-42F1-8A12-A2DB1DE8B827
 title: File History API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

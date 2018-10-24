@@ -5,8 +5,6 @@ ms.assetid: a571f7c2-0490-463c-813e-de4a9fd12a2d
 keywords:
 - About Structured Storage
 - Structured Storage Strctd Stg , about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

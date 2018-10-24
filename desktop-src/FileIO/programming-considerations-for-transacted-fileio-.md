@@ -2,8 +2,6 @@
 Description: Describes various programming considerations for Transactional NTFS.
 ms.assetid: a1ef1ce1-42f6-4627-ab64-e7f41fa23e94
 title: Programming Considerations for Transactional NTFS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

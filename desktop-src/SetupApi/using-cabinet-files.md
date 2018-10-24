@@ -2,8 +2,6 @@
 Description: The setup functions handle cabinets internally. To explicitly enumerate and extract files from a cabinet, you can call the SetupIterateCabinet function.
 ms.assetid: 14bd925a-e7fe-48a3-9ed6-4e42ce796290
 title: Using Cabinet Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

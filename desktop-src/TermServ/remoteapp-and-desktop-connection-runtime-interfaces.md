@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4580df05-5e44-40d0-8765-5d9b4e1d339e
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , RemoteApp and Desktop Connection Runtime API reference

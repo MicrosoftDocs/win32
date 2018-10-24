@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: aa7e7b77-7233-4c6a-8f41-cc332fa509d5
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - Win32_TSGatewayLoadBalancer class Remote Desktop Services

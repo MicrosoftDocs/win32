@@ -2,8 +2,6 @@
 Description: The system broadcasts the DBT\_QUERYCHANGECONFIG device event to request permission to change the current configuration (dock or undock). Any application can deny this request and cancel the change.
 ms.assetid: 2e452ea7-e2bf-4500-952a-ee7d891533a0
 title: DBT_QUERYCHANGECONFIG event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

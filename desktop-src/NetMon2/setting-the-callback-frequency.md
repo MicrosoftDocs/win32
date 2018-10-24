@@ -2,8 +2,6 @@
 Description: Use the following code to set the callback frequency.
 ms.assetid: fdcad3c2-7e36-4194-83c7-dccbd50762d5
 title: Setting the Callback Frequency
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -8,8 +8,6 @@ keywords:
 - DRM (digital rights management),enumeration types
 - DRM Client Extended APIs,enumeration types
 - Client Extended APIs,enumeration types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

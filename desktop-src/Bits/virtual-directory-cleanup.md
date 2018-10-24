@@ -2,8 +2,6 @@
 title: Virtual Directory Cleanup
 description: BITS extends IIS virtual directories to support uploads.
 ms.assetid: 8214904e-8a95-4c4b-a1c5-91e84031587f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

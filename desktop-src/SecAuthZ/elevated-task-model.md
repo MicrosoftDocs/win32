@@ -2,8 +2,6 @@
 Description: An application running as a standard user performs operations that require administrator privilege by starting a scheduled task.
 ms.assetid: cd7485b3-6be5-4163-9a86-7892dbc59181
 title: Elevated Task Model
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

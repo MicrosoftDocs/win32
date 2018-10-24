@@ -2,8 +2,6 @@
 Description: Contains a collection of objects that implement the IInkAnalysisRecognizer interface and that represent the ability to recognize handwriting, objects, or gestures.
 ms.assetid: d9264c9f-bf75-493e-8e41-57ea69955e6b
 title: IInkAnalysisRecognizers interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

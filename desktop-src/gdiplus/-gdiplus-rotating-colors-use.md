@@ -2,8 +2,6 @@
 Description: Rotation in a four-dimensional color space is difficult to visualize.
 ms.assetid: 099f76a3-2da3-4f2b-8f8d-557d144451dc
 title: Rotating Colors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

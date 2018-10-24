@@ -2,8 +2,6 @@
 Description: This section discusses Windows messages and message queues.
 ms.assetid: 21a4d40b-52da-49e4-a374-afc4927e96e8
 title: About Messages and Message Queues
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

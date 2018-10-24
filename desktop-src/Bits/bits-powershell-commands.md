@@ -2,8 +2,6 @@
 title: Managed Reference for BITS PowerShell Commands
 description: Background Intelligent Transfer Service (BITS) 4.0 can use Windows PowerShell cmdlets to manage transfer jobs.
 ms.assetid: 2c151dfe-4f89-41ea-a533-21ffcf0aa39e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

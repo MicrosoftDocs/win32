@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: f2021d11-f713-497e-b503-51c674b8828f
 title: System.FileVersion
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: 1cbacd7f-c9b9-4fb4-b505-a4b1d1b6f632
 keywords:
 - Host Support, RAS
 - Security Host Support, RAS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

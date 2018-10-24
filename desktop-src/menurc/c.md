@@ -3,8 +3,6 @@ title: C
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
 ms.assetid: 2323bc5f-ace6-475f-8059-95392f8b61a4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

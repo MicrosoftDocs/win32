@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ea6195b3-1a20-4d5b-b9a3-796976818b4f
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - KeyValueCompareAndSet method Remote Desktop Services

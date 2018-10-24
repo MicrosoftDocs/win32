@@ -2,8 +2,6 @@
 title: Multipath I/O now supports extended storage request blocks
 description: Multipath I/O now supports extended storage request blocks
 ms.assetid: 5373D9ED-34AF-4D66-8888-49F1EBF768F4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

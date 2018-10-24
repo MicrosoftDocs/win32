@@ -2,8 +2,6 @@
 Description: The MPEG-4 file source parses MP4 and 3GPP files.
 ms.assetid: e64c1554-9702-4cc0-98ad-8a33e04ed09d
 title: MPEG-4 File Source
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

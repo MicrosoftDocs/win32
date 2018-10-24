@@ -16,8 +16,6 @@ keywords:
 - DXVA (DirectX Video Acceleration),enabling
 - DirectX Video Acceleration (DXVA),order of operations
 - DXVA (DirectX Video Acceleration),order of operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

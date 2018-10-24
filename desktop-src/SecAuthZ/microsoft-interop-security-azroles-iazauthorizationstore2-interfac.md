@@ -2,8 +2,6 @@
 Description: Links to documentation for the IAzAuthorizationStore2 interoperability wrapper methods and properties.
 ms.assetid: e29fb253-d954-4219-abd4-270891a52dd8
 title: Microsoft.Interop.Security.AzRoles.IAzAuthorizationStore2 interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

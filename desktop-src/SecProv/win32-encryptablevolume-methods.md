@@ -2,8 +2,6 @@
 Description: The Win32\_EncryptableVolume class exposes the following methods.
 ms.assetid: C78E73E9-961D-45D5-A580-B8FDD001505D
 title: Win32_EncryptableVolume Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f78585b8-a50c-402b-ab20-f405eba0c079
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - IsLSPreventUpgradeGPEnabled method Remote Desktop Services

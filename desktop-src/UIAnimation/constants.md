@@ -2,8 +2,6 @@
 title: Constants
 description: Reference documentation for constants and enumerations defined by the Windows Animation Manager.
 ms.assetid: c590cf68-28ce-4d7d-949d-2683ece3c12d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

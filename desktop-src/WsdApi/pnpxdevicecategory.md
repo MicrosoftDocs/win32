@@ -2,8 +2,6 @@
 Description: Specifies the PnP-X category to which the device belongs. More than one category can be specified.
 ms.assetid: 1ca46000-4700-4326-8f49-1b9a22d45bfa
 title: PnPXDeviceCategory element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

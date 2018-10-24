@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 2898b7a6-f2b1-4e08-aba6-9e1ac655a4db
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ACS-Max-Token-Rate-Per-Flow attribute AD Schema

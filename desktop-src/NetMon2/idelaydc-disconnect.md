@@ -2,8 +2,6 @@
 Description: The Disconnect method disconnects the NPP from the network.
 ms.assetid: 476bbce4-2e3c-448f-b85e-6adac424fb0d
 title: IDelaydC::Disconnect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

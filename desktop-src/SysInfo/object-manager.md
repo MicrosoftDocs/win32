@@ -2,8 +2,6 @@
 Description: An object consists of a standard header and object-specific attributes. Because all objects have the same structure, there is a single object manager in Windows that maintains all objects.
 ms.assetid: 104113f3-bfd1-4ff7-b92f-2f753c0f5185
 title: Object Manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

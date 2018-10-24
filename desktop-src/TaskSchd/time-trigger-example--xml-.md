@@ -2,8 +2,6 @@
 title: Time Trigger Example (XML)
 description: The XML in this example defines a task that starts Notepad at a specific time.
 ms.assetid: dde3627b-e268-45ef-9c26-08877bfe484f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

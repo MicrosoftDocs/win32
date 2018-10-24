@@ -2,8 +2,6 @@
 title: What's new in Direct2D
 description: Here are some of the new additions to Direct2D.
 ms.assetid: BA459FF0-9457-4652-A97C-BD4EC57EC8E2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

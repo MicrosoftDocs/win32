@@ -2,8 +2,6 @@
 Description: The expert must implement the Register expert function. Network Monitor calls the Register expert function to obtain information about the expert.
 ms.assetid: 58cfe525-99b1-40ce-b8d8-fa1c62a20c40
 title: Register Expert callback function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

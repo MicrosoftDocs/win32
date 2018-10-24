@@ -2,8 +2,6 @@
 Description: Defines constants that describe the fog mode.
 ms.assetid: cd83c914-bc1d-4f66-b5a6-7984b7ec52cd
 title: D3DFOGMODE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

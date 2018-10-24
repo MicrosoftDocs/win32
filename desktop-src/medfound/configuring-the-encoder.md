@@ -2,8 +2,6 @@
 Description: Encoding Properties
 ms.assetid: 6845c3fb-38a8-4b0d-aea2-e10f7e518653
 title: Encoding Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

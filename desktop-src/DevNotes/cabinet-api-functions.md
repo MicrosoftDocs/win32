@@ -1,8 +1,6 @@
 ---
 ms.assetid: 43afef50-8fd2-49ec-9fb4-dafd8ebc009e
 title: Cabinet API Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

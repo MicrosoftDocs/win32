@@ -2,8 +2,6 @@
 Description: Bluetooth LE device address type.
 ms.assetid: c227d438-72ec-4499-8828-2b86c4ddc64a
 title: System.Devices.Aep.Bluetooth.Le.AddressType
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

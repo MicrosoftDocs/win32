@@ -2,8 +2,6 @@
 Description: The State property returns the installation state of this instance of the patch.
 ms.assetid: b01b2839-d867-4353-99d0-8c612cd1eb0c
 title: Patch.State property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

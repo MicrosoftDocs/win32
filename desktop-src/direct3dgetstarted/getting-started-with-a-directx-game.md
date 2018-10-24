@@ -2,8 +2,6 @@
 title: Get started with DirectX for Windows
 description: Creating a Microsoft DirectX game for Windows is a challenge for a new developer. Here we quickly review the concepts involved and the steps you must take to begin developing a game using DirectX and C++.
 ms.assetid: fd460c52-9854-4ffe-b89e-5219be2e11f0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

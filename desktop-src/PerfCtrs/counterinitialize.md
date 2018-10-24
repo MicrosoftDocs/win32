@@ -2,8 +2,6 @@
 Description: Registers the provider and initializes the counter sets.
 ms.assetid: edcf8df3-0f6d-4849-b41d-270509499b8e
 title: CounterInitialize function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

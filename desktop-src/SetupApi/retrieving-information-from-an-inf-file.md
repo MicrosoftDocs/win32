@@ -2,8 +2,6 @@
 Description: After you have a handle to an INF file, you can retrieve information from it in a variety of ways. Functions such as SetupGetInfInformation, SetupQueryInfFileInformation, and SetupQueryInfVersionInformation retrieve information about the INF file itself.
 ms.assetid: e64c9576-ad62-4ebd-8d30-4e4e0da3b8c5
 title: Retrieving Information From an INF File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This sample demonstrates how to serialize and de-serialize ink in various formats.
 ms.assetid: 468d9c2a-0b3c-4a44-a049-3f3b78e952ba
 title: Ink Serialization Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

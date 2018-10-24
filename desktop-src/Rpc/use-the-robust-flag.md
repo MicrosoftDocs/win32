@@ -2,8 +2,6 @@
 title: Use the /robust Flag
 description: Always compile .idl files using the /robust switch.
 ms.assetid: bb2fd026-3ad8-4bb5-b05e-4835b874882f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The COM+ instrumentation service enables you to build your own COM+ event management and logging programs when you want to display various performance metrics for your COM+ components.
 ms.assetid: 07f68734-a382-4fe5-86af-90805f61c68d
 title: COM+ Instrumentation Concepts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

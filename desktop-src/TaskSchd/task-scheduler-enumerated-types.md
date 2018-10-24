@@ -4,8 +4,6 @@ description: Lists the enumerations used by the Task Scheduler APIs.
 ms.assetid: 9779d32b-0142-41bb-88e2-df79a3b0c1b2
 keywords:
 - Task Scheduler Task Scheduler , reference, enumerated types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

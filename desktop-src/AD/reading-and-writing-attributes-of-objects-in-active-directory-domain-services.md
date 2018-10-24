@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: d11b32c5-5bda-45af-846d-f35b839cf10d
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services Active Directory , using reading and writing attributes of Active Directory objects

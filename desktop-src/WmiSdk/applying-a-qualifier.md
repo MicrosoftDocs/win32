@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: aaa5c921-bdcd-40e6-ab4b-9441a1957e5b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Applying a Qualifier
 ms.author: windowssdkdev

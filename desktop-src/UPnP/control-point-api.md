@@ -2,8 +2,6 @@
 title: Control Point API
 description: This section contains information about the Control Point API with UPnP technology.
 ms.assetid: f915c3af-4124-4d67-a739-dc7f39688c9c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

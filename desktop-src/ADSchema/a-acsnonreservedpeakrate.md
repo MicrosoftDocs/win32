@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 4080839c-d99e-4527-8c81-6d23ab0d3d70
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ACS-Non-Reserved-Peak-Rate attribute AD Schema

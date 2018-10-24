@@ -2,8 +2,6 @@
 Description: Uniscribe saves Unicode-to-glyph (cmap) mappings, glyph widths, and OpenType script shaping tables.
 ms.assetid: c06c0eaf-41cb-4fd1-9750-a78355217f12
 title: Caching
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

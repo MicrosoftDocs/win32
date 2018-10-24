@@ -2,8 +2,6 @@
 Description: Specifies whether the codec should attempt to detect noisy frame edges and remove them.
 ms.assetid: fdb4f3a8-1447-4e1e-a208-0f9b717f7626
 title: MFPKEY_NOISEEDGEREMOVAL Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

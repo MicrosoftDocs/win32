@@ -4,8 +4,6 @@ description: The pipe type constructor is a highly efficient mechanism for passi
 ms.assetid: '913d5e2a-00ad-4060-9274-a6db23fb2817'
 keywords:
 - Remote Procedure Call RPC , described, pipes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

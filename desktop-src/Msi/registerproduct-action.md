@@ -2,8 +2,6 @@
 Description: The RegisterProduct action registers the product information with the installer and with Add/Remove Programs. Additionally, this action stores the Windows Installer database package on the local computer.
 ms.assetid: 689b09c7-9c17-42f5-ba31-cf9c6252e453
 title: RegisterProduct Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.
 ms.assetid: 86536d73-18c0-4acc-81ec-72f1dfe400c5
 title: IMFSourceBuffer::Remove method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

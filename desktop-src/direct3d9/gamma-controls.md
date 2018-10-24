@@ -2,8 +2,6 @@
 Description: Gamma controls allow you to change how the system displays the contents of the surface, without affecting the contents of the surface itself.
 ms.assetid: 74f106be-8f47-4875-9908-32ff35912968
 title: Gamma Controls (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

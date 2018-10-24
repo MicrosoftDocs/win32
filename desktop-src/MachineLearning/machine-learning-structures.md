@@ -2,8 +2,6 @@
 Description: The following topics describe the COM structures for the Windows Machine Learning SDK.
 ms.assetid: 5FFE3D52-2643-4FB4-B7BC-B6C5661D675F
 title: Windows Machine Learning Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

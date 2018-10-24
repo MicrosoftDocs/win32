@@ -2,8 +2,6 @@
 Description: Specifies the maximum number of Long Term Reference (LTR) frames controlled by application.
 ms.assetid: C34AD867-5F94-4414-A282-ECC392678635
 title: CODECAPI_AVEncVideoLTRBufferControl property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

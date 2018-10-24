@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 0c31b02b-9fd3-4547-9ebc-d511a10d7106
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 ms.author: windowssdkdev
 ms.topic: article

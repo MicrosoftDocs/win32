@@ -2,8 +2,6 @@
 Description: This topic describes what libraries are and how they can benefit users and developers.
 ms.assetid: D5F5FE96-11D2-4fc5-A68B-6E594C09BE20
 title: About Libraries
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

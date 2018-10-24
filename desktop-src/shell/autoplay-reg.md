@@ -2,8 +2,6 @@
 Description: There are many situations where AutoRun may need to be temporarily or persistently disabled.
 ms.assetid: 5e65a3d8-04b9-46ba-b4e5-a976e1923bfd
 title: Enabling and Disabling AutoRun
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: 'The Graphing API uses the following constants:'
 ms.assetid: 84345690-37f2-4072-be3e-b0a610133408
 title: Graphing API Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

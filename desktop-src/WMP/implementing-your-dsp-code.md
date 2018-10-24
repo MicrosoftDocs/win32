@@ -11,8 +11,6 @@ keywords:
 - DSP plug-ins,modifying sample code
 - audio DSP plug-ins,implementing code
 - video DSP plug-ins,implementing code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

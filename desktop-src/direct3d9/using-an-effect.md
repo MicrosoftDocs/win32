@@ -2,8 +2,6 @@
 Description: This page will show you how to generate and use an effect.
 ms.assetid: d9fdafed-5958-4995-a1b5-8881feca1291
 title: Using an Effect (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

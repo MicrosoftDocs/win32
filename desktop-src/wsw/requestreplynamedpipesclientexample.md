@@ -2,8 +2,6 @@
 title: RequestReplyNamedPipesClientExample
 description: This example shows a named pipe client that sends request-reply messages.
 ms.assetid: 38FC4A47-349B-406D-A6AA-8072AA24E3AA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

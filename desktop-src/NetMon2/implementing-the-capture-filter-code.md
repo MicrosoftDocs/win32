@@ -2,8 +2,6 @@
 Description: After you determine how to organize your filter through a CAPTUREFILTER structure, you must allocate and fill in the structure, which is then passed to the Network Monitor driver through a configuration BLOB.
 ms.assetid: c2709da6-4d70-4abe-bab5-941053217e57
 title: Implementing the Capture Filter Code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

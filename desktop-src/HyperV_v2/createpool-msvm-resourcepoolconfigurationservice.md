@@ -2,8 +2,6 @@
 Description: Creates a child resource pool.
 ms.assetid: 30a70231-f1b7-4f0e-ac47-cf5a79ddb8ab
 title: CreatePool method of the Msvm_ResourcePoolConfigurationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

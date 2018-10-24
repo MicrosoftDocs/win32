@@ -2,8 +2,6 @@
 title: Building and Registering a Proxy DLL
 description: If you chose proxy/stub marshaling for your application, the .c and .h files that MIDL generated must be compiled and linked to create a proxy DLL, and that DLL must be entered into the system registry so that clients can locate your interfaces.
 ms.assetid: 939e6eed-2a2d-4d90-8fbb-c07142e7ba70
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

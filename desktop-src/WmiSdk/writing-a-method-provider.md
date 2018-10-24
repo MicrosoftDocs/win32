@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: bce87e65-5cba-4eef-91da-a3e13c80b8a6
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing a Method Provider
 ms.author: windowssdkdev

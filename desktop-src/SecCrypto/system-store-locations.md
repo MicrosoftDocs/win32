@@ -2,8 +2,6 @@
 Description: A system store is a collection that consists of one or more physical sibling stores.
 ms.assetid: 41fe9366-4c17-43bb-91d6-934c7aa87a2d
 title: System Store Locations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

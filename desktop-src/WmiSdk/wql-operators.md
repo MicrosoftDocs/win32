@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a62de66d-d5ba-49a1-8262-bfa10ac2db75
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WQL Operators
 ms.author: windowssdkdev

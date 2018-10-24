@@ -2,8 +2,6 @@
 Description: The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
 ms.assetid: 19ef96a8-3d5b-4da1-8cff-d6a271ad4915
 title: IMpeg2PsiParser::GetCountOfElementaryStreams method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

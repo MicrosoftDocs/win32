@@ -12,8 +12,6 @@ keywords:
 - online stores,BITS job convention
 - type 2 online stores,BITS job convention
 - BITS job convention
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Packaging a shader library
 description: Here we show you how to compile your shader code, load the compiled code into a shader library, and bind resources from source slots to destination slots.
 ms.assetid: ED2EB1DE-3C25-4633-BFA7-C535ABBBAD28
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

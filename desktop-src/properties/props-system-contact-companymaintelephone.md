@@ -2,8 +2,6 @@
 Description: Indicates the main telephone number of the contact's company.
 ms.assetid: 13eef5c1-45d5-4bf4-960d-acb9ddc80943
 title: System.Contact.CompanyMainTelephone
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

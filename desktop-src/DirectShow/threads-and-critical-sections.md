@@ -2,8 +2,6 @@
 Description: Threads and Critical Sections
 ms.assetid: e55acb06-03f4-4191-bffe-3196f41ef2c7
 title: Threads and Critical Sections
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

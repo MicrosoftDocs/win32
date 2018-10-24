@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 71a21162-e291-440c-9b7d-8d67abf4b608
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - Enable-Per-User-Reversibly-Encrypted-Password extended right AD Schema

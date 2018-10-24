@@ -2,8 +2,6 @@
 Description: Navigation page for Windows Sockets (Winsock) socket IOCTLs.
 ms.assetid: 6a63c2c9-4e09-4a62-b39f-3ccb26287da8
 title: Winsock IOCTLs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

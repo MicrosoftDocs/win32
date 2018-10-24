@@ -4,8 +4,6 @@ description: The MIDL compiler generates the C-language stub and header files ne
 ms.assetid: 1088c2e0-f3b2-49f4-9fda-1d71409344fd
 keywords:
 - MIDL compiler MIDL , MIDL and RPC MIDL , files generated for RPC
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

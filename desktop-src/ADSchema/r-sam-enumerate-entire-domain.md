@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: d29e94f3-efaf-4a86-909c-88bd34abcf6c
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - SAM-Enumerate-Entire-Domain extended right AD Schema

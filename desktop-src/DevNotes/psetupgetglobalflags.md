@@ -2,8 +2,6 @@
 Description: The pSetupGetGlobalFlags function is an unsupported utility.
 ms.assetid: c993ef5d-9f4e-4643-aa9b-017c90796c8d
 title: pSetupGetGlobalFlags function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

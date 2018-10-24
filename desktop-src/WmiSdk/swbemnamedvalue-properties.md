@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: B28DCF3B-D96D-44DF-A6D1-55156BEB15AB
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemNamedValue Properties
 ms.author: windowssdkdev

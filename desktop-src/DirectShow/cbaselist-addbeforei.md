@@ -2,8 +2,6 @@
 Description: The AddBeforeI method inserts an item before the specified position.
 ms.assetid: d310e303-889a-43a6-bda5-2e7b805b25d1
 title: CBaseList.AddBeforeI method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

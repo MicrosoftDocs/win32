@@ -2,8 +2,6 @@
 Description: Raised when a media source seeks to a new position. A media source raises this event if the source is running or paused and the application calls IMFMediaSource::Start with a start time that does not equal the current position.
 ms.assetid: 51ce770e-ddc7-41c1-8e31-59481cafe2b0
 title: MESourceSeeked event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

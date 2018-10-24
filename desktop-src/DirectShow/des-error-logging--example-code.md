@@ -2,8 +2,6 @@
 Description: 'DES Error Logging: Example Code'
 ms.assetid: e734daed-9230-4376-839f-7e09da7bc275
 title: 'DES Error Logging: Example Code'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

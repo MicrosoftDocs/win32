@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 44c4c16a-fd79-483a-81ef-a0f74a2cdf45
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Updating a Provider
 ms.author: windowssdkdev

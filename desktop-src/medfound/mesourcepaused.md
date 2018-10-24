@@ -2,8 +2,6 @@
 Description: Raised by a media source when the IMFMediaSource::Pause method completes asynchronously.
 ms.assetid: cca03d60-47ae-4a11-b29d-81d749e24df9
 title: MESourcePaused event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

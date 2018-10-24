@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: d78dd319-6ed1-47e5-8ac9-f0e93cca7144
 title: System.Contact.BusinessAddress3PostalCode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

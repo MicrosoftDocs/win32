@@ -8,8 +8,6 @@ keywords:
 - Windows Touch,about
 - Windows Touch,new features
 - Windows Touch,what's new
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

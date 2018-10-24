@@ -2,8 +2,6 @@
 Description: Determines whether a character is either an alphabetical or a numeric character.
 ms.assetid: d4b01ba5-e42a-4040-a763-ecef0c73977f
 title: IsCharAlphaNumericWrapW function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

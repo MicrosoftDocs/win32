@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ae65d4c7-2150-489b-a368-fb38c0d1b3be
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIMType Qualifier
 ms.author: windowssdkdev

@@ -15,8 +15,6 @@ keywords:
 - playlists,attributes
 - metafile playlists,attributes
 - Windows Media metafile playlists,attributes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

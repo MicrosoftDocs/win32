@@ -2,8 +2,6 @@
 Description: SDK Samples That Use the Core Audio APIs
 ms.assetid: 4460df28-a77d-4bf5-9dee-5fb69ba2ded6
 title: SDK Samples That Use the Core Audio APIs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

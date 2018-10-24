@@ -2,8 +2,6 @@
 Description: Method to move, migrate or relocate a virtual system to a target system.
 ms.assetid: 210d31f1-093f-4fd5-afd7-5f028b4cb343
 title: MigrateVirtualSystemToSystem method of the CIM_VirtualSystemMigrationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

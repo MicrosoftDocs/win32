@@ -2,8 +2,6 @@
 Description: Msitool.mak is a makefile that you can use to build tools and custom actions.
 ms.assetid: c05da933-7e0e-4fbb-a936-517902a363c4
 title: Msitool.mak
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

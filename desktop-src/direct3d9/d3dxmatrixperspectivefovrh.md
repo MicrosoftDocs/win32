@@ -2,8 +2,6 @@
 Description: Builds a right-handed perspective projection matrix based on a field of view.
 ms.assetid: 3f4bc5d8-90af-4fdc-bc0c-931407cd7a9b
 title: D3DXMatrixPerspectiveFovRH function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

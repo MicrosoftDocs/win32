@@ -2,8 +2,6 @@
 title: Working with Strings
 description: .
 ms.assetid: 876ff8bb-67c3-4dcc-aa94-7fbd915c67dc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Router Management
 description: Router Management
 ms.assetid: '17a88eaf-6bb2-4c9d-9fce-5e2d86a36fc7'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

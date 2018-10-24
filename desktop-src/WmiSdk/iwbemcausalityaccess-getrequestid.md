@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c8df15cf-ab48-491f-ac18-1dad567bbc0b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess::GetRequestId method
 ms.author: windowssdkdev

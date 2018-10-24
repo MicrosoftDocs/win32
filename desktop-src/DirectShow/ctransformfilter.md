@@ -2,8 +2,6 @@
 Description: The CTransformFilter class is a base class for implementing transform filters.
 ms.assetid: 99db8252-a8db-4995-b4be-a6cf944be869
 title: CTransformFilter class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

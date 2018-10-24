@@ -2,8 +2,6 @@
 Description: Use the Authorization Manager API to control access to application resources.
 ms.assetid: 2485056c-b860-4247-9e7b-0157ca85d05d
 title: Using Authorization in C++
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

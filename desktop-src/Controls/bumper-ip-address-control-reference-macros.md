@@ -2,8 +2,6 @@
 title: IP Address Macros
 description: .
 ms.assetid: 3990a86b-3446-4a1b-bece-8d9d76b802d6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

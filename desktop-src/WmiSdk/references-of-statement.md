@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 674be546-e7fd-4150-9d7c-2888d24bf1b3
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: REFERENCES OF Statement
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 title: NAP Enumerated Types
 description: The following enumerated types support the NAP API FailureCategoryFixupStateHealthClassValueIsolationStateExtendedIsolationStateNapNotifyTypeRemoteConfigurationTypeSoHAttributeType
 ms.assetid: 93ea8c4c-ae94-416c-8c7b-870c78eb55c3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

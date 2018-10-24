@@ -2,8 +2,6 @@
 Description: 'Cryptography API: Next Generation (CNG) defines the following enumeration types.'
 ms.assetid: 15A24304-FC77-4512-AC74-79CB9B90A87D
 title: CNG Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

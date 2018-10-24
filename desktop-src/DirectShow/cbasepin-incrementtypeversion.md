@@ -2,8 +2,6 @@
 Description: The IncrementTypeVersion method increments the version number on the set of preferred media types.
 ms.assetid: 30cad0ae-58e7-47f6-94ee-75e24ce0a7e9
 title: CBasePin.IncrementTypeVersion method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

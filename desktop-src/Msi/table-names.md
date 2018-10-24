@@ -2,8 +2,6 @@
 Description: Table names are limited to 31 characters.
 ms.assetid: 7177124b-c566-40f7-948c-88b4853f7d74
 title: Table Names
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

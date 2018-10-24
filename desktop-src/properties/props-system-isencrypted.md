@@ -2,8 +2,6 @@
 Description: Identifies whether the item is encrypted.
 ms.assetid: fd93f915-6af3-4bde-982e-6774a1ca83af
 title: System.IsEncrypted
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

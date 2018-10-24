@@ -2,8 +2,6 @@
 Description: Defines a single object of a display filter.
 ms.assetid: 865b55f3-9294-43c5-b4dc-eb5128ce3a38
 title: FILTEROBJECT structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

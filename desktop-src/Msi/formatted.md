@@ -2,8 +2,6 @@
 Description: The Formatted data type is a text string that is processed to resolve embedded property names, table keys, environment variable references, and other special substrings.
 ms.assetid: 7a1bc160-a06c-4d57-b429-e39167893a45
 title: Formatted
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

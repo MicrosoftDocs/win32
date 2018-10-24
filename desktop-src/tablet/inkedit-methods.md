@@ -2,8 +2,6 @@
 Description: This section contains Methods belonging to the InkEdit Control.
 ms.assetid: f16785e5-fd4c-442e-b5ae-8b62f3b503b4
 title: InkEdit Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

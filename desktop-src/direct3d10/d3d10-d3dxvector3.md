@@ -2,8 +2,6 @@
 Description: Describes a three-component vector including operator overloads and type casts.
 ms.assetid: d170cd26-d705-4a31-82b3-f9ea070b6ca4
 title: D3DXVECTOR3 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

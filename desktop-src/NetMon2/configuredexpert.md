@@ -2,8 +2,6 @@
 Description: The CONFIGUREDEXPERT structure associates an expert with its configuration data.
 ms.assetid: 96a6650b-6d6f-495e-83bb-385d44ff015d
 title: CONFIGUREDEXPERT structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

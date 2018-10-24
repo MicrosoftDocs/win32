@@ -2,8 +2,6 @@
 Description: Persistent memory (PM) technology provides byte-level access to non-volatile media while also reducing the latency of storing or retrieving data significantly.
 ms.assetid: 68BF6074-09CB-4D6E-8BFD-FBA297391286
 title: Persistent Memory Programming in Windows - NVML Integration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

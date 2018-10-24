@@ -2,8 +2,6 @@
 Description: Specifies whether a video sample contains a single field or two interleaved fields. This attribute applies to media samples.
 ms.assetid: 550619be-2042-4a2c-9ad2-728474835255
 title: MFSampleExtension_SingleField attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

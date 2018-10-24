@@ -2,8 +2,6 @@
 Description: The BeginFlush method begins a flush operation.
 ms.assetid: d37b611e-742f-4bdf-bd72-a91cd1c473b3
 title: COutputQueue.BeginFlush method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

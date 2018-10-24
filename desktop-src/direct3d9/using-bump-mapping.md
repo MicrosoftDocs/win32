@@ -2,8 +2,6 @@
 Description: Using Bump Mapping (Direct3D 9)
 ms.assetid: ded07764-1a11-42df-9a16-e4c3a328fb23
 title: Using Bump Mapping (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: 09b28fd3-a0a3-44d9-b664-7421290abf02
 keywords:
 - streams,configuring custom arbitrary streams
 - codecs,configuring custom arbitrary streams
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a8b9bf2f-300d-4570-8b30-7532f3421d39
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Requesting Class Instance Data
 ms.author: windowssdkdev

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f6ce74cb-a4a4-4e05-a0a7-bac0b7f52c45
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - QueryOfflineInformation method Remote Desktop Services

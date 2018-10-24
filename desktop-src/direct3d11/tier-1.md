@@ -2,8 +2,6 @@
 title: Tier 1
 description: This section describes tier 1 support.
 ms.assetid: 8E2907D2-EFCB-4F97-9B40-6835A65D3DE5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

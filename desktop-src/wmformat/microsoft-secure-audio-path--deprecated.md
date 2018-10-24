@@ -12,8 +12,6 @@ keywords:
 - Microsoft Secure Audio Path (SAP),about
 - Secure Audio Path (SAP),about
 - SAP (Secure Audio Path),about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

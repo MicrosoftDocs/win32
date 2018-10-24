@@ -2,8 +2,6 @@
 Description: The EndRun method switches to the stopped or paused mode.
 ms.assetid: 2c41262c-a809-4f3b-898c-02c0891dc6f8
 title: CCmdQueue.EndRun method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

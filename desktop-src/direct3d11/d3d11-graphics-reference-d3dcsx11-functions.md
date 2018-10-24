@@ -2,8 +2,6 @@
 title: D3DCSX 11 Functions
 description: This section contains information about the D3DCSX 11 functions.
 ms.assetid: 426A132F-E398-473E-BD4E-3D1B4EC92E3F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: COMREPL does its work in three phases.
 ms.assetid: e9ba8db6-ff6f-4e49-b91b-465e3fa77f27
 title: Replication Phases
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

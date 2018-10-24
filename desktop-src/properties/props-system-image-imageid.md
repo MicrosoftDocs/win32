@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: d664906d-534c-4fbe-9c73-f9153fd60efd
 title: System.Image.ImageID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: 'HTTP Authentication: Basic and Digest Access Authentication (RFC 2617) is available at http://www.ietf.org/rfc/rfc2617.txt.'
 ms.assetid: 84fe09dd-9fed-4dfe-8429-9d6f0e010244
 title: IETF Specifications for Microsoft Digest SSP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

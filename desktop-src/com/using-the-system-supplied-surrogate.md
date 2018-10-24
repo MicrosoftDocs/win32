@@ -2,8 +2,6 @@
 title: Using the System-Supplied Surrogate
 description: Using the System-Supplied Surrogate
 ms.assetid: 6709e5e2-50e0-470f-b618-3d3043f6e180
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

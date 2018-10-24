@@ -2,8 +2,6 @@
 Description: Stream Control
 ms.assetid: b529b38c-a25c-42dd-aee1-5d263c94202d
 title: Stream Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

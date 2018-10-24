@@ -2,8 +2,6 @@
 Description: To create custom extensions or to encode a complex extension, you can write your own extension handlers that export custom interfaces.
 ms.assetid: a33ac417-b5f9-4ad7-a26e-13cdb1e4ac1b
 title: Writing Custom Extension Handlers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The UnblockOutputPin method unblocks the pin. When the pin is unblocked, it can deliver samples, change its output format, and reconnect itself.
 ms.assetid: ea6e6312-8c7f-44db-ac7f-165dc45dec23
 title: CDynamicOutputPin.UnblockOutputPin method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

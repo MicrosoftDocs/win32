@@ -2,8 +2,6 @@
 title: Windows Web Services Structures
 ms.assetid: 7e40a287-c983-4fb0-9c98-293af12c5dd0
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

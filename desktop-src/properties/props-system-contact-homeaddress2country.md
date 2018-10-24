@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: bc37f754-053e-4d98-991e-d8caf1bb9ad6
 title: System.Contact.HomeAddress2Country
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: UI Automation Structures
 description: This section describes the structures used by UI Automation client applications and UI Automation provider for Microsoft Win32.
 ms.assetid: 37d6a7c0-6925-443b-aa21-da2a14a9ddad
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

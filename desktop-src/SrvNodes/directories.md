@@ -2,8 +2,6 @@
 Description: Directories
 ms.assetid: 012e8f51-755c-4f5a-a3a9-45c6d77e0a09
 title: Directories
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

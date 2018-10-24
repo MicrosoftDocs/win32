@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ee0a2ead-f53a-4651-a287-04a62eba3f84
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing Performance Data in C++
 ms.author: windowssdkdev

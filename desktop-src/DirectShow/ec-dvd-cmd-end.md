@@ -2,8 +2,6 @@
 Description: Signals that a particular DVD Navigator command has completed.
 ms.assetid: f460db8e-b966-41fa-bfa1-4ad3fa65c3e3
 title: EC_DVD_CMD_END
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

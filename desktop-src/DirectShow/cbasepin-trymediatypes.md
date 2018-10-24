@@ -2,8 +2,6 @@
 Description: Given a list of media types, the TryMediaTypes method tries to complete a connection using one of those types.
 ms.assetid: cc437e44-bc59-494e-8669-7f539353a794
 title: CBasePin.TryMediaTypes method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A FilesInUse dialog box alerts the user of processes currently running files that must be overwritten or deleted by the installation.
 ms.assetid: 4246b099-3b70-4983-a68e-eddac801a8c3
 title: FilesInUse Dialog
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

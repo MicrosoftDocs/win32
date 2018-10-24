@@ -2,8 +2,6 @@
 Description: Expresses the SFGAO flags of a link as string values, and is used as a query optimization.
 ms.assetid: 1a8f220c-0d2a-4f1f-b7f0-ee6381d0c6a9
 title: System.Link.TargetSFGAOFlagsStrings
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

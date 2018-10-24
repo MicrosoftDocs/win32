@@ -2,8 +2,6 @@
 Description: Destructor method.
 ms.assetid: 17f4dacb-a262-44de-9bef-55da87e07a63
 title: CTransformFilter.~CTransformFilter destructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

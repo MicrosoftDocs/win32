@@ -2,8 +2,6 @@
 Description: Because the upgrade updates the files used by the application, you must modify the File table of the database.
 ms.assetid: 65a7ae86-b426-4dd4-8cf5-f905dc2a1727
 title: Updating Files and File Attributes for an Upgrade
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

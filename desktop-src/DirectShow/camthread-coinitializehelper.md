@@ -2,8 +2,6 @@
 Description: The CoInitializeHelper method calls the CoInitializeEx function at the start of the thread.
 ms.assetid: 1a981e1e-c059-4e51-81d8-33bcb39ee580
 title: CAMThread.CoInitializeHelper method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

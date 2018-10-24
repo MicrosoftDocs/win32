@@ -2,8 +2,6 @@
 Description: DNS names consist of one or more components separated by a period (for example, msdn.microsoft.com).
 ms.assetid: 7e083cb5-cf0a-4284-8b54-dac856910c44
 title: Computer Names
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

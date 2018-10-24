@@ -2,8 +2,6 @@
 Description: An object that encapsulates several DSPs related to voice capture.
 ms.assetid: 6c77c8f6-289e-4130-b56a-e1f0bcc40f3e
 title: Voice Capture DSP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

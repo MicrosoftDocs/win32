@@ -2,8 +2,6 @@
 Description: The read-only Language property returns the LANGID of the required module.
 ms.assetid: 9b0608d1-b6e8-4cf9-8119-3c2909156516
 title: Dependency.Language property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

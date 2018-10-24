@@ -2,8 +2,6 @@
 Description: The GetLocked method retrieves the object's editing state (locked or unlocked).
 ms.assetid: ecd258db-36bf-41b6-9bdf-537efcf0a46a
 title: IAMTimelineObj::GetLocked method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

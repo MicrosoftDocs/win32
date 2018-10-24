@@ -2,8 +2,6 @@
 Description: The application must inventory the communications resources available to it, then notify TAPI about which resources it will use and how it will use them.
 ms.assetid: 2246c4d2-f8ca-4950-adc6-af9a6e214fe9
 title: Resource Inventory
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

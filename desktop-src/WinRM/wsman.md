@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 45895a4e-b7de-4469-ae78-6d1d3f9d6145
-ms.prod: windows-server-dev
-ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 keywords:
 - WSMan object Windows Remote Management

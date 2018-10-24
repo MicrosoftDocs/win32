@@ -2,8 +2,6 @@
 Description: Constants used by D3DPRESENT\_PARAMETERS.
 ms.assetid: 1294171e-b3f6-4264-8411-b69427cefe7b
 title: D3DPRESENTFLAG
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

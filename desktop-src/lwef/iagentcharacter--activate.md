@@ -2,8 +2,6 @@
 title: IAgentCharacter Activate
 description: IAgentCharacter Activate
 ms.assetid: a81eb62d-709b-46b4-9ff2-c9017f7f853e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

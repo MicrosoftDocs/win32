@@ -2,8 +2,6 @@
 Description: Adds two 4D vectors.
 ms.assetid: da807dc0-6a31-4315-a32d-a42062c22199
 title: D3DXVec4Add function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

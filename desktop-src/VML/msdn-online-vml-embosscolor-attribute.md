@@ -2,8 +2,6 @@
 title: VML EmbossColor Attribute
 description: VML EmbossColor Attribute
 ms.assetid: f6da392b-31d9-4d92-a827-9bfdc01bf74b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Define the set of actions for the IOCTL\_STORAGE\_MANAGE\_DATA\_SET\_ATTRIBUTES control code.
 ms.assetid: ff688c9a-8669-4699-aab9-1e2e3a5c7fca
 title: DEVICE_DATA_MANAGEMENT_SET_ACTION
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

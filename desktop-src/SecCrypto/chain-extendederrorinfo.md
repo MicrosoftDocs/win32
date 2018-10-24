@@ -2,8 +2,6 @@
 Description: Returns a string that contains additional error information about the indexed entry.
 ms.assetid: 4f0d5289-c414-4e2b-b612-be8ce1d98b12
 title: IChain2::ExtendedErrorInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

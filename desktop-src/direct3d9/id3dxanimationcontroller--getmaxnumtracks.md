@@ -2,8 +2,6 @@
 Description: Gets the maximum number of tracks in the animation controller.
 ms.assetid: 55d8a0f4-b382-4cc8-925c-d2136225aaae
 title: ID3DXAnimationController::GetMaxNumTracks method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

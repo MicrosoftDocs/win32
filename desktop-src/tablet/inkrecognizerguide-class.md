@@ -2,8 +2,6 @@
 Description: Represents the area that the recognizer uses in which ink can be drawn. The area is known as the recognition guide.
 ms.assetid: c4990aa5-8c8b-4206-8376-b5c0d0c8e0a7
 title: InkRecognizerGuide class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

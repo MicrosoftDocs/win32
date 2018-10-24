@@ -2,8 +2,6 @@
 title: How to Initialize a Texture Programmatically
 description: This topic has several examples showing how to initialize textures that are created with different types of usages.
 ms.assetid: 65e8ae82-50aa-4303-853e-3457da18f44f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

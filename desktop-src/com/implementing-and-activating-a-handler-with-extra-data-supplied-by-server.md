@@ -2,8 +2,6 @@
 title: Implementing and Activating a Handler with Extra Data Supplied by Server
 description: Implementing and Activating a Handler with Extra Data Supplied by Server
 ms.assetid: 5bbf81bd-430d-4008-b1cc-9ea91bb3b1e7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Pause method pauses the filter.
 ms.assetid: 9dfd23d1-bf07-424b-9952-13719358d0a5
 title: CBaseRenderer.Pause method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

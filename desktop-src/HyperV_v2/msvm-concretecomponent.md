@@ -2,8 +2,6 @@
 Description: A generic association used to establish part of relationships between managed elements.
 ms.assetid: 4D237D68-0A63-4A19-B6AD-E3C781090994
 title: Msvm_ConcreteComponent class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

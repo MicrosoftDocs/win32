@@ -2,8 +2,6 @@
 title: Calling WDS Programmatically
 description: Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the ExecuteQuery and ExecuteSQLQuery methods in the ISearchDesktop interface.
 ms.assetid: 38426f63-2039-410e-8c70-ebd9fc269d74
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

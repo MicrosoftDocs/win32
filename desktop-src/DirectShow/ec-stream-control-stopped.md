@@ -2,8 +2,6 @@
 Description: A stream-control stop command has taken effect.
 ms.assetid: a2f7a959-fafd-47ff-9b3d-1a898fdb1f81
 title: EC_STREAM_CONTROL_STOPPED
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

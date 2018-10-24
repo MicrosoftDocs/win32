@@ -2,8 +2,6 @@
 Description: Representing Functionality
 ms.assetid: 34a4a015-614d-4fac-98d8-29ae43165798
 title: Representing Functionality
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

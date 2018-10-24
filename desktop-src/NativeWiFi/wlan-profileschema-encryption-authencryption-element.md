@@ -2,8 +2,6 @@
 Description: Specifies the type of data encryption to use to connect to a wireless LAN.
 ms.assetid: 0ba24106-bd6f-465a-af80-ce85501756b9
 title: encryption (authEncryption) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

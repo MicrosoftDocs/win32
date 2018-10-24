@@ -2,8 +2,6 @@
 Description: Developers of Windows Installer packages may choose to use a custom action type 35 when the standard actions are insufficient to execute the installation.
 ms.assetid: b88b5f48-5353-4876-9dda-2eeda288fa4b
 title: Custom Action Type 35
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

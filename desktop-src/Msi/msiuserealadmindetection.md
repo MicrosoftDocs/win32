@@ -2,8 +2,6 @@
 Description: Set the MSIUSEREALADMINDETECTION property to 1 to request that the installer use actual user information when setting the AdminUser property.
 ms.assetid: eb0ed6e3-377b-40f4-afee-346a83e310cf
 title: MSIUSEREALADMINDETECTION property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

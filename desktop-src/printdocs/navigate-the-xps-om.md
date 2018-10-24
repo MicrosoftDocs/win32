@@ -2,8 +2,6 @@
 Description: This topic describes how to navigate an XPS OM and to access different parts of the in-memory document.
 ms.assetid: 90b726aa-29da-4cfb-9c69-f471c2acb678
 title: Navigate the XPS OM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

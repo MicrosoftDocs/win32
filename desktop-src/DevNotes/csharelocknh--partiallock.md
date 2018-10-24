@@ -2,8 +2,6 @@
 Description: Prevents more than one thread from completing acquiring a lock.
 ms.assetid: 9cdcc6d5-b2f1-4c88-b859-1c15a80e70a9
 title: CShareLockNH::PartialLock method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

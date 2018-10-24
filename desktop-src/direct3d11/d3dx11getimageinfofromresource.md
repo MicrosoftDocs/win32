@@ -13,8 +13,6 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

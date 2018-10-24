@@ -2,8 +2,6 @@
 Description: The Clear method frees, and then removes, all items from the collection. The collection is considered empty after calling this method.
 ms.assetid: f4b46713-8224-443a-99cc-13fa75e59e5d
 title: IPortableDevicePropVariantCollection::Clear method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

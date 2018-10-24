@@ -2,8 +2,6 @@
 Description: Shows how to register as a sync root provider and integrate a cloud storage provider into the root level of the Navigation Pane.
 ms.assetid: BB177EDC-8C88-4540-B2F8-994C1C8BA91C
 title: Integrate a Cloud Storage Provider
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

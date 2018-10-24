@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e877899d-2f5e-4468-8c47-055fd4d16f56
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__ArbitratorConfiguration class'
 ms.author: windowssdkdev

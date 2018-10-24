@@ -2,8 +2,6 @@
 title: Performance Characteristics
 description: A call to the COM compound file implementation of the IPropertySetStorage interface to create a property set causes either a stream or storage to be created through a call to IStorage CreateStream or IStorage CreateStorage.
 ms.assetid: 7773e649-19a4-4df2-84ed-027d73283140
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

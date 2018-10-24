@@ -2,8 +2,6 @@
 Description: The SelectLowerButton method selects the lower directional button from the displayed menu.
 ms.assetid: d815f7f1-9e11-40a5-99e5-23eb478c33a1
 title: SelectLowerButton Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

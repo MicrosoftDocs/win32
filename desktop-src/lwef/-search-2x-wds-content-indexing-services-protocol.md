@@ -2,8 +2,6 @@
 title: Content Indexing Services Protocol
 description: This document is a specification of the Content Indexing Service Protocol.
 ms.assetid: b91c8038-5ace-441d-8523-60f849ff1458
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

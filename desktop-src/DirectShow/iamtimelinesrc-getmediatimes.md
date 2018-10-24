@@ -2,8 +2,6 @@
 Description: The GetMediaTimes method retrieves the media start and stop times.
 ms.assetid: c6a7d992-ceb5-4378-aee2-f2d778b41516
 title: IAMTimelineSrc::GetMediaTimes method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Handling MCI Errors
 ms.assetid: 01a2ff95-34a2-434f-9c7e-d0cdac826c02
 keywords:
 - mciSendCommand function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

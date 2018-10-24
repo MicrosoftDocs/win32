@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 35c9ac07-8756-42b1-beeb-5f0e79466742
 title: CAMEvent.CAMEvent constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

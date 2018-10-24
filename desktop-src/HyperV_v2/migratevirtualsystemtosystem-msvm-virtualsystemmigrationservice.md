@@ -2,8 +2,6 @@
 Description: Moves, migrates, or relocates a virtual system to a target system.
 ms.assetid: 3a0be791-4514-4ce2-b4e8-3735bd6ea1d7
 title: MigrateVirtualSystemToSystem method of the Msvm_VirtualSystemMigrationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

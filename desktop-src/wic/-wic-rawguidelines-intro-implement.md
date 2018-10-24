@@ -2,8 +2,6 @@
 Description: General Guidelines for Implementing RAW Codecs
 ms.assetid: 47b3b226-4642-41d2-b05c-bc12583047aa
 title: General Guidelines for Implementing RAW Codecs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

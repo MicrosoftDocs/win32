@@ -2,8 +2,6 @@
 Description: Selects a register NIC.
 ms.assetid: 27814a40-6933-498b-a0d2-535698b1e402
 title: GetNPPBlobFromUI function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

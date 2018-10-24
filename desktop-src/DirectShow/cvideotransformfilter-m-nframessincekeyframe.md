@@ -2,8 +2,6 @@
 Description: The number of frames that the filter has received since the last key frame.
 ms.assetid: 6320e8fe-606b-4ca3-aeb7-c583145c0b77
 title: CVideoTransformFilter::m_nFramesSinceKeyFrame member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: If this per-machine system policy is set to a value greater than 0, Windows Installer saves older versions of files in a cache when a patch is applied to an application.
 ms.assetid: 986cd521-6907-420d-a2e9-5e0da0069834
 title: MaxPatchCacheSize
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

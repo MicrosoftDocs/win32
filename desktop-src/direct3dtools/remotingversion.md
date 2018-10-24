@@ -5,8 +5,6 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: REMOTINGVERSION enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

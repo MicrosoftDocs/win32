@@ -2,8 +2,6 @@
 title: RAS Server Administration Union
 description: For Windows NT 4.0, use the following union to implement RAS server administration functionality.
 ms.assetid: d29569d4-4c25-4da3-bf51-b79ead775130
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

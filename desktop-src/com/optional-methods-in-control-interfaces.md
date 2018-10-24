@@ -2,8 +2,6 @@
 title: Optional Methods in Control Interfaces
 description: Optional Methods in Control Interfaces
 ms.assetid: a26f7078-9286-4b21-b924-4b03d3849909
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

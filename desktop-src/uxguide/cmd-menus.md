@@ -2,8 +2,6 @@
 title: Menus
 description: Menus are hierarchical lists of commands or options available to users in the current context.
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

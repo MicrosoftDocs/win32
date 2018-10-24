@@ -2,8 +2,6 @@
 Description: Transmit from Type-1 File
 ms.assetid: 5be2248b-7917-4c1b-9ae7-29e06779eac6
 title: Transmit from Type-1 File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

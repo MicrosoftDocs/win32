@@ -2,8 +2,6 @@
 Description: The GetClassID method retrieves the class identifier of the filter. This method implements the IPersist::GetClassID method.
 ms.assetid: c3a8b6ab-b36f-493e-9436-6784e25e2511
 title: CBaseFilter.GetClassID method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies the y-coordinate of the upper-left corner of the geometric aperture.
 ms.assetid: 5015e864-fd34-449f-b3fc-1ddcb507dfdf
 title: MFPKEY_RESIZE_GEOMAPY Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

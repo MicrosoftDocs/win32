@@ -2,8 +2,6 @@
 Description: WIA provides several interfaces for enumerating various capabilities, properties, and information.
 ms.assetid: d46d4c18-79cc-4f3c-9745-522ab2635068
 title: Using WIA Enumerators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

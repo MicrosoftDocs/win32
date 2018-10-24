@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 7506a90f-d968-4b69-a8fe-a1515418a1d4
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ACS-Max-Peak-Bandwidth-Per-Flow attribute AD Schema

@@ -7,8 +7,6 @@ keywords:
 - Device Manager,software development kit (SDK)
 - Windows Media Device Manager SDK
 - Device Manager SDK
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

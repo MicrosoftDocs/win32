@@ -2,8 +2,6 @@
 title: Auto
 description: Determines if the debugger is automatically launched when a COM RPC notification is sent.
 ms.assetid: e05ae7cb-79d1-4543-aef3-9397548c2030
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

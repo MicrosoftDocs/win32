@@ -2,8 +2,6 @@
 Description: 'All resources used by the Direct3D pipeline derive from two basic resource types: buffers and textures. A buffer is a collection of raw data (elements); a texture is a collection of texels (texture elements).'
 ms.assetid: c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69
 title: Resource Types (Direct3D 10)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

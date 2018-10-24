@@ -2,8 +2,6 @@
 title: Compile an Effect (Direct3D 11)
 description: After an effect has been authored, the next step is to compile the code to check for syntax problems.
 ms.assetid: 7624d55e-6466-4156-8f31-30f0d25a2883
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Text Object Model Enumeration Types
 description: Text Object Model Enumeration Types
 ms.assetid: 1F3034E2-CDB3-437A-BCB4-B4481055A143
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

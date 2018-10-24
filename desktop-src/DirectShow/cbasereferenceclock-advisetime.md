@@ -2,8 +2,6 @@
 Description: The AdviseTime method creates a one-shot advise request. This method implements the IReferenceClock::AdviseTime method.
 ms.assetid: 4849a04d-35f2-4a24-bf5d-f20e541f5e99
 title: CBaseReferenceClock.AdviseTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

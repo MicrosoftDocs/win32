@@ -2,8 +2,6 @@
 title: atomic_and (sm5 - asm)
 description: Atomic bitwise AND to memory.
 ms.assetid: 5FA731E0-7D18-4416-9579-FCA01FF5FC38
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

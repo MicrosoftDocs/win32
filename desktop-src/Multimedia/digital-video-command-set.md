@@ -2,8 +2,6 @@
 title: Digital-Video Command Set
 description: Digital-Video Command Set
 ms.assetid: 408587b1-3ead-4720-a063-5fb749273043
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

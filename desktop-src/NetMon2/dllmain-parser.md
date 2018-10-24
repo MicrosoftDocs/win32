@@ -2,8 +2,6 @@
 Description: The DllMain export function for the parser identifies the existence of the parser, and releases resources that Network Monitor uses for the parser. DllMain must be implemented in all parser DLLs.
 ms.assetid: 2ce79d49-3aad-461f-99cf-cf632680efcc
 title: DllMain Parser callback function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

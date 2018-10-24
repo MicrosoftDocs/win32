@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 63bdbafc-51f3-4714-8b7e-9d5a61cef45e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Standard WMI Qualifiers
 ms.author: windowssdkdev

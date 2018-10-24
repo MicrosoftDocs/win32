@@ -2,8 +2,6 @@
 Description: The OutputPin method retrieves a pointer to the filter's output pin.
 ms.assetid: 8c8c125e-553d-43c5-bc63-a0c7d5b01260
 title: CTransInPlaceFilter.OutputPin method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

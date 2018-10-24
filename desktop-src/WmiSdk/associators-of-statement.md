@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d6bd9643-523d-4d81-8bf1-da52ccc7524d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ASSOCIATORS OF Statement
 ms.author: windowssdkdev

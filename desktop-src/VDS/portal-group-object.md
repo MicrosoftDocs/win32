@@ -2,8 +2,6 @@
 Description: Portal Group Object
 ms.assetid: e5892e96-b6ad-447a-9627-b44fc6f1b27a
 title: Portal Group Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

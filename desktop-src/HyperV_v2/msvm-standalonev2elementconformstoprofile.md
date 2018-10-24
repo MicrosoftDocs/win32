@@ -2,8 +2,6 @@
 Description: Defines the registered profiles to which the referenced standalone system conforms.
 ms.assetid: d9ede8d0-c6f3-48bd-84a9-7f2c31637819
 title: Msvm_StandaloneV2ElementConformsToProfile class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

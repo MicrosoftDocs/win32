@@ -2,8 +2,6 @@
 Description: Adds a sprite to the list of batched sprites.
 ms.assetid: 8f5c43a2-68dd-44a9-be2f-f76d9fa2d900
 title: ID3DXSprite::Draw method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

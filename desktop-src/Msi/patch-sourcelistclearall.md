@@ -2,8 +2,6 @@
 Description: The SourceListClearAll method of the Patch object clears the complete source list of all sources of the specified type for a patch. Accepts Type as a parameter. This method calls MsiSourceListClearAllEx.
 ms.assetid: 9458a3db-8eaa-4067-875f-8fac68bdf1f8
 title: Patch.SourceListClearAll method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

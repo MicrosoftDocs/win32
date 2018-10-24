@@ -2,8 +2,6 @@
 Description: In Windows 8.1 and Windows 10, the GetVersion and GetVersionEx functions have been deprecated.
 ms.assetid: E7A1A16A-95B3-4B45-81AD-A19E33F15AE4
 title: Targeting your application for Windows
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

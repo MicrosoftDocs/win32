@@ -2,8 +2,6 @@
 Description: When the system starts a program that uses load-time dynamic linking, it uses the information the linker placed in the file to locate the names of the DLLs that are used by the process.
 ms.assetid: 29a17116-bb08-4fdd-857c-b7a7f8d2278c
 title: Load-Time Dynamic Linking
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

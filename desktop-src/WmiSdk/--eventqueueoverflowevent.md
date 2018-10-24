@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7cb1ef3b-3b0a-4f72-96de-862022fd6db8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__EventQueueOverflowEvent class'
 ms.author: windowssdkdev

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b98f9b9b-a3e7-4a3c-a7e3-e388ce53c5c9
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - ConnectToAdministerServer property Remote Desktop Services

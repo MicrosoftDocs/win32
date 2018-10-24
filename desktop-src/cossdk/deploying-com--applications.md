@@ -2,8 +2,6 @@
 Description: Deploying COM+ Applications
 ms.assetid: e6b2df9e-a536-4629-916e-4e12a0d13771
 title: Deploying COM+ Applications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

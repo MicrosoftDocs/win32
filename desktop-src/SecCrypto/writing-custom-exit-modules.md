@@ -2,8 +2,6 @@
 Description: Custom exit modules must implement the ICertExit interface, which is called by the server engine.
 ms.assetid: 509e7945-b656-4c4c-b5eb-45fbe80377c7
 title: Writing Custom Exit Modules
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 74558c6e-28b6-479f-9de6-2fbad793ae26
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Providing Data to WMI
 ms.author: windowssdkdev

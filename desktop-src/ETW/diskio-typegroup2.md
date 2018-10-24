@@ -2,8 +2,6 @@
 Description: This class is the event type class that marks the beginning of the disk I/O read, write, and flush events. The following syntax is simplified from MOF code.
 ms.assetid: 96543ef9-cc2b-4d9a-86a8-f2458439e4d8
 title: DiskIo_TypeGroup2 class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

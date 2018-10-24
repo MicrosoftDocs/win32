@@ -4,8 +4,6 @@ description: DNS Reference
 ms.assetid: 4dfb4310-f326-4318-918c-fe596ae0d561
 keywords:
 - Domain Name System, reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

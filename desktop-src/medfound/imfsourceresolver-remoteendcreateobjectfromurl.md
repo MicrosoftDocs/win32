@@ -2,8 +2,6 @@
 Description: Remotable version of the IMFSourceResolver::EndCreateObjectFromURL method.
 ms.assetid: 42764869-9cbc-4f41-a3af-f2d869db9f99
 title: RemoteEndCreateObjectFromURL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

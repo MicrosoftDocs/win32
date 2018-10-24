@@ -2,8 +2,6 @@
 Description: The DestroyBlob function frees all memory associated with the BLOB and then destroys the BLOB.
 ms.assetid: 46cde0b7-1b59-426e-b19b-3c73af3d461a
 title: DestroyBlob function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

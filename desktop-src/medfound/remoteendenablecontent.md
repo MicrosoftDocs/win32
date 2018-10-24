@@ -2,8 +2,6 @@
 Description: Remotable version of the IMFContentProtectionManager::EndEnableContent method.
 ms.assetid: aa7a2b3a-5982-4fd8-b5de-7439fc374dfa
 title: RemoteEndEnableContent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: For each product listed by the patch package as eligible to receive the patch, the ApplyPatch method of the Installer object invokes an installation and sets the PATCH property to the path of the patch package.
 ms.assetid: eee93b6d-f45b-40ae-8e17-cfe6f46b66f4
 title: Installer.ApplyPatch method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

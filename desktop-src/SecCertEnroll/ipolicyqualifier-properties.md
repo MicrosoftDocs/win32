@@ -2,8 +2,6 @@
 Description: The IPolicyQualifier interface exposes the following properties.
 ms.assetid: 872F5E66-8FF0-4307-B398-565FFF5D3DEB
 title: IPolicyQualifier Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

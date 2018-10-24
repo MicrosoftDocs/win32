@@ -2,8 +2,6 @@
 title: IAgentCharacterEx GetActive
 description: IAgentCharacterEx GetActive
 ms.assetid: b14ae69a-a50e-4488-b5a7-33702e6555eb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

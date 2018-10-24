@@ -2,8 +2,6 @@
 title: Command Reference
 description: Command Reference
 ms.assetid: c8d57500-ad29-4325-aec7-3f857990b28c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This class is the event type class for TCP/IP failure events. The following syntax is simplified from MOF code.
 ms.assetid: 552e63ef-70e4-4bc4-be33-bd77bd5acd61
 title: UdpIp_Fail class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: About Date and Time Picker Controls
 description: A date and time picker (DTP) control provides a simple and intuitive interface through which to exchange date and time information with a user.
 ms.assetid: 6749c3ae-2c52-4183-ac4e-68ca7ebf1e13
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

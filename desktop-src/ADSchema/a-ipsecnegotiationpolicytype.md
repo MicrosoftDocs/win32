@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 7f0a9d9e-42ab-4f5f-89fc-b0c385bc9d42
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - IPSEC-Negotiation-Policy-Type attribute AD Schema

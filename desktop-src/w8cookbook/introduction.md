@@ -2,8 +2,6 @@
 title: Introduction
 description: Introduction
 ms.assetid: FB806D96-EFE6-4D96-857B-C6DD92482BAB
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

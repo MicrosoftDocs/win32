@@ -2,8 +2,6 @@
 Description: This topic contains code for the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 8cf0f281-3680-4329-80d0-8282d1051c1a
 title: playback.h
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

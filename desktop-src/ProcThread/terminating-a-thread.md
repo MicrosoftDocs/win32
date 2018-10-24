@@ -2,8 +2,6 @@
 Description: Terminating a thread has the following results:Any resources owned by the thread, such as windows and hooks, are freed.The thread exit code is set.The thread object is signaled.If the thread is the only active thread in the process, the process is terminated. For more information, see Terminating a Process.
 ms.assetid: 633e5d0c-e9d8-4f9a-9411-17cbe9e2e6e4
 title: Terminating a Thread
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

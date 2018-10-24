@@ -2,8 +2,6 @@
 Description: The installer sets the StartMenuFolder property to the full path of the Start Menu folder.
 ms.assetid: 617dfcac-7530-4867-8dde-49297c85cd68
 title: StartMenuFolder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

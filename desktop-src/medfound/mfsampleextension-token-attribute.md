@@ -2,8 +2,6 @@
 Description: Contains a pointer to the token that was provided to the IMFMediaStream::RequestSample method.
 ms.assetid: 9403bb15-e912-4aa3-9af1-fef4a4f9b242
 title: MFSampleExtension_Token attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

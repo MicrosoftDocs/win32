@@ -2,8 +2,6 @@
 title: 10Level9 Reference
 description: This section specifies the differences between each 10Level9 feature level and the D3D\_FEATURE\_LEVEL\_11\_0 and higher feature level for the ID3D11Device and ID3D11DeviceContext methods.
 ms.assetid: 9e51bda1-84f8-4144-b678-73c821c5b5a8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

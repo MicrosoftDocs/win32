@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a0627f2e-9a4f-40d4-9698-281a1cf56673
 title: System.FlagColor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

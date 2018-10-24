@@ -2,8 +2,6 @@
 Description: Defines font attributes.
 ms.assetid: 66e8a320-2b83-4766-a9a7-5571ee6c9f2a
 title: D3DX10_FONT_DESC structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

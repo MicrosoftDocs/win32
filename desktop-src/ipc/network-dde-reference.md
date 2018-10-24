@@ -2,8 +2,6 @@
 Description: 'This following elements are used with network DDE:'
 ms.assetid: 4b512100-54cb-4e32-9f56-6571a71dfa86
 title: Network DDE Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

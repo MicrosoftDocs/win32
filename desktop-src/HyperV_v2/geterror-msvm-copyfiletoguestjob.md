@@ -2,8 +2,6 @@
 Description: Retrieves the error object for the job, if one exists.
 ms.assetid: 478E9170-A523-4CE1-BD97-57D713FAF71B
 title: Msvm_CopyFileToGuestJob::GetError method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

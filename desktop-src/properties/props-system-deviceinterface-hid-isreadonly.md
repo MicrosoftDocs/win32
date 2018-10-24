@@ -2,8 +2,6 @@
 Description: Indicates if a HID device is a Read-Only device.
 ms.assetid: cfac4094-94ee-47db-ba0d-cfb51a6d91a1
 title: System.DeviceInterface.Hid.IsReadOnly
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Installs device drivers from programs with a set up script and inf files. Write a setup program for device set up and driver installation. This api is no longer recommended for the purpose of installing software applications.
 ms.assetid: 96a9e472-9b92-4976-9379-dc0c96524963
 title: Setup API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

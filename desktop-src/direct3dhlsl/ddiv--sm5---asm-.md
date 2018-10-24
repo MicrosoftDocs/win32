@@ -2,8 +2,6 @@
 title: ddiv (sm5 - asm)
 description: Computes a component-wise double-precision division.
 ms.assetid: 0A67FC35-7F2F-4258-83CE-1CA398E57952
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

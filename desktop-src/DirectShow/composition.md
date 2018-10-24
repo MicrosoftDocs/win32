@@ -2,8 +2,6 @@
 Description: Composition
 ms.assetid: b5f607b2-9cca-4eef-9c63-d2015bd10469
 title: Composition
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

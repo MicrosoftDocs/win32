@@ -2,8 +2,6 @@
 Description: Example of a Microsoft SMB Protocol packet exchange between a client and a server.
 ms.assetid: f831d0de-0e38-4141-811c-892a1b5c4037
 title: Microsoft SMB Protocol Packet Exchange Scenario
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

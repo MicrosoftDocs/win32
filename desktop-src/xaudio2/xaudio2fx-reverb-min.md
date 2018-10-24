@@ -2,8 +2,6 @@
 Description: Minimum values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
 ms.assetid: e3072c3a-a539-303b-0cd9-4c2ae7f528ba
 title: XAUDIO2FX_REVERB_MIN
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

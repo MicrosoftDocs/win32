@@ -2,8 +2,6 @@
 Description: The ResetEndOfStream method resets the end-of-stream flags.
 ms.assetid: 80f6d49b-a825-4c3c-b693-7b1d9298f541
 title: CBaseRenderer.ResetEndOfStream method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

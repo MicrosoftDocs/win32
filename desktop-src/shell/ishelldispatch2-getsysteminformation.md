@@ -2,8 +2,6 @@
 Description: Retrieves system information.
 ms.assetid: 57c066e3-080f-4ecc-b56e-877f0569e901
 title: IShellDispatch2.GetSystemInformation method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

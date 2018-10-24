@@ -2,8 +2,6 @@
 Description: Contain detailed descriptions.
 ms.assetid: c8850bc8-b3a8-4b63-b0a4-d8af61a4f761
 title: Security WMI Providers Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 1a6ff76a-0818-464a-bf75-534dc7ea383f
 title: PageDestinationColorProfile
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

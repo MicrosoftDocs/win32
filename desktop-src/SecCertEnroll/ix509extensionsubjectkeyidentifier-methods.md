@@ -2,8 +2,6 @@
 Description: The IX509ExtensionSubjectKeyIdentifier interface exposes the following methods.
 ms.assetid: 1F6CF928-1FE7-4B9D-A34A-C906DA0BCA23
 title: IX509ExtensionSubjectKeyIdentifier Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

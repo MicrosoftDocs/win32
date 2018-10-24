@@ -2,8 +2,6 @@
 Description: Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).
 ms.assetid: e0ac72a2-9970-433e-9026-aa79edc8261c
 title: ID3DXMATRIXStack::Translate method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 91e98ec9-0e8d-4950-a62c-9b6901ec4d97
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-PKI-Certificate-Application-Policy attribute AD Schema

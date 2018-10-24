@@ -2,8 +2,6 @@
 Description: The installer sets the ProgramFilesFolder property to the full path of the Program Files folder.
 ms.assetid: 3ce700f1-ef35-4226-b78d-eeba97f4dbde
 title: ProgramFilesFolder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

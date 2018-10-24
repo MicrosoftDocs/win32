@@ -2,8 +2,6 @@
 Description: The SelectionTree control uses the SelectionNoItems event to delete obsolete item description text or to disable buttons that have become useless. This event should be authored in the EventMapping table.
 ms.assetid: a79abd77-a6e5-4a1f-8a63-51644151404a
 title: SelectionNoItems ControlEvent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

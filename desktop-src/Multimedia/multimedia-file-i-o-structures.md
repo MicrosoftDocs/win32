@@ -13,8 +13,6 @@ keywords:
 - reference for multimedia file I/O,structures
 - multimedia file I/O reference,structures
 - file I/O reference,structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

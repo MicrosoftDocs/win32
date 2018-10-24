@@ -19,8 +19,6 @@ keywords:
 - TSF (Text Services Framework),predefined UI elements
 - TSF-enabled applications,predefined UI elements
 - predefined UI elements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

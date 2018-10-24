@@ -2,8 +2,6 @@
 title: Synchronization and Multi-Engine
 description: Most modern GPUs contain multiple independent engines that provide specialized functionality.
 ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

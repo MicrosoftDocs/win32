@@ -2,8 +2,6 @@
 Description: The following code is the IP-agnostic Server.c file, which is an IPv6-enabled version of the Simples.c file.
 ms.assetid: 5e27c731-c9c7-4c49-91bd-6f4dee60460b
 title: IPv6-Enabled Server Code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Retrieves the height of the texture, in pixels.
 ms.assetid: 45e63091-4f26-40ad-8c3a-d3f211a759c4
 title: ID3DXTextureGutterHelper::GetHeight method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

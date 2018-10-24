@@ -2,8 +2,6 @@
 Description: The Configure method submits configuration information used for a capture.
 ms.assetid: 6418c465-c339-44b6-84eb-36c7b89231f8
 title: IDelaydCConfigure method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

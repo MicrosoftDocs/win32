@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 473c5a75-d0d9-4d12-b855-63683e8cdf3f
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - WM_ADSPROP_NOTIFY_PAGEINIT message Active Directory

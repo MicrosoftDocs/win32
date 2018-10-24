@@ -2,8 +2,6 @@
 Description: Lists the diagnostic procedures to use when troubleshooting the Network Explorer.
 ms.assetid: 56052a82-d3a6-4749-9010-6796558dcb17
 title: Troubleshooting the Network Explorer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

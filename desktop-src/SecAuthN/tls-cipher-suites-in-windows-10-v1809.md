@@ -1,8 +1,6 @@
 ---
 Description: Cipher suites can only be negotiated for TLS versions which support them. The highest supported TLS version is always preferred in the TLS handshake.
 title: TLS Cipher Suites in Windows 10 v1809
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/09/2018

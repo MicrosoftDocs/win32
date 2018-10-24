@@ -2,8 +2,6 @@
 Description: The following example shows typical Diffie-Hellman/Schannel client-side code for creating a master key.
 ms.assetid: 37b35cd6-b3c9-4a75-83a9-129bcf7a84a3
 title: Diffie-Hellman Client Code for Creating the Master Key
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

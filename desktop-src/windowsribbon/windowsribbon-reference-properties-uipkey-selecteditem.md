@@ -2,8 +2,6 @@
 title: UI_PKEY_SelectedItem
 description: Identifies the UI\_PKEY\_SelectedItem property.
 ms.assetid: 2cff2868-d6c4-444c-a96f-a27e04034991
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

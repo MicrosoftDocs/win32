@@ -2,8 +2,6 @@
 Description: The WIA\_RAW\_HEADER structure defines an image in the RAW data format of a device and enables applications to use RAW format in Windows Image Acquisition (WIA) transfers.
 ms.assetid: c7b50816-d596-4c62-a00e-cd8d6e303e42
 title: WIA_RAW_HEADER structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

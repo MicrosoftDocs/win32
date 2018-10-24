@@ -4,8 +4,6 @@ description: Programs can use these attributes on individual functions within th
 ms.assetid: c54dbcd9-46c9-4755-b4a8-0f78068920b7
 keywords:
 - IDL MIDL , attributes, function call
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

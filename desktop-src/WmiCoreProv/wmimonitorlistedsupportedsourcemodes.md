@@ -2,8 +2,6 @@
 Description: Lists the supported source modes for a video monitor in its monitor descriptor, if any exist.
 ms.assetid: cca59d28-bd93-4df2-989e-0516dd8eae83
 title: WmiMonitorListedSupportedSourceModes class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

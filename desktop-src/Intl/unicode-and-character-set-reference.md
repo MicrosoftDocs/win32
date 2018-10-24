@@ -2,8 +2,6 @@
 Description: Unicode and Character Set Reference
 ms.assetid: 6f66840a-1c65-4235-b9ae-76dadbe15ed0
 title: Unicode and Character Set Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

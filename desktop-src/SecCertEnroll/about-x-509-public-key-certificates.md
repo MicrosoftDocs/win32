@@ -2,8 +2,6 @@
 Description: Public key cryptography relies on a public and private key pair to encrypt and decrypt content.
 ms.assetid: a85ec2bc-a413-41a6-b3d2-5fa81a9e7bb6
 title: X.509 Public Key Certificates
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

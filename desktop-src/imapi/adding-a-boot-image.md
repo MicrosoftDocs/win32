@@ -2,8 +2,6 @@
 title: Adding a Boot Image
 description: This example builds on the Burning a Disc Image example by adding code to include a bootable image in the boot section of the disc.
 ms.assetid: b23cdbb9-ae0d-4261-965b-56abe865f323
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

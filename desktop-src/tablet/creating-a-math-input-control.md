@@ -2,8 +2,6 @@
 Description: Explains how to create a math input control.
 ms.assetid: 59976b01-9032-4226-a160-e9b2d4b8b23b
 title: Creating a Math Input Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

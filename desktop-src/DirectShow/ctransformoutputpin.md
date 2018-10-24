@@ -2,8 +2,6 @@
 Description: The CTransformOutputPin class implements an output pin that is used by the CTransformFilter class.
 ms.assetid: 76f9a981-8f0d-45d4-b901-c5ec5b5ac9ee
 title: CTransformOutputPin class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

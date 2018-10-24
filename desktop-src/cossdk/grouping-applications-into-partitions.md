@@ -2,8 +2,6 @@
 Description: Grouping Applications into Partitions
 ms.assetid: bdfe2428-9769-4bcb-b74e-a141ba67a67e
 title: Grouping Applications into Partitions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

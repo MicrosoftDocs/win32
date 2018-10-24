@@ -2,8 +2,6 @@
 title: Deploying Load Balancing
 description: Deploying Load Balancing
 ms.assetid: d80b8999-16c9-4fc8-a1cb-35a65f434884
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

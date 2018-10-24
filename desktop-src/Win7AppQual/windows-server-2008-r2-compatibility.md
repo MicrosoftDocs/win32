@@ -2,8 +2,6 @@
 Description: This section contains topics specific to Windows Server 2008 R2.
 ms.assetid: 1b6969b2-595e-40c5-8b4b-f305ccbfb058
 title: Windows Server 2008 R2 Compatibility
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

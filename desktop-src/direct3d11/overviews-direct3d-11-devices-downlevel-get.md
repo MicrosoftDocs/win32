@@ -2,8 +2,6 @@
 title: How To Get the Device Feature Level
 description: This topics shows how to get the highest feature level supported by a device.
 ms.assetid: 5eb7dd5b-3be3-4b7f-bcc7-20027fdfe6b5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

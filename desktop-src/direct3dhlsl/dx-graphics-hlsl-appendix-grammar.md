@@ -2,8 +2,6 @@
 title: Grammar
 description: HLSL statements are constructed using the following rules for grammar.
 ms.assetid: 683248e9-6fc7-451a-906b-6e0aab1b0c8c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

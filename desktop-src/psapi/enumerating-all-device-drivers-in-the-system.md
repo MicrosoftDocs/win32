@@ -2,8 +2,6 @@
 title: Enumerating All Device Drivers in the System
 description: The following sample code uses the EnumDeviceDrivers function to enumerate the current device drivers in the system.
 ms.assetid: 047d8541-e17e-4738-8453-674db69365df
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

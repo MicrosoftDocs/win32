@@ -2,8 +2,6 @@
 Description: Second line of the device status.
 ms.assetid: edc21875-fc7b-43b6-bdc0-961c125f01a1
 title: System.Devices.Status2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Codec API Properties
 ms.assetid: 5d527af7-07cf-42e2-99bb-d56c856cc1bc
 title: Codec API Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

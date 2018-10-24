@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 306b5070-f637-4ab3-a007-c08ed6adb7d8
-ms.prod: windows-server-dev
-ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
 ms.author: windowssdkdev
 ms.topic: article

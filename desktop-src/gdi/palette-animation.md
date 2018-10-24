@@ -2,8 +2,6 @@
 Description: Palette animation is a technique to simulate motion by rapidly changing the colors of selected entries in a color palette.
 ms.assetid: fc5b8061-fd4f-4751-883d-877fa32cdfcc
 title: Palette Animation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

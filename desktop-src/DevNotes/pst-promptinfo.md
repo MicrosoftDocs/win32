@@ -2,8 +2,6 @@
 Description: Defines the prompting behavior of the Protected Store whenever it displays a user interface.
 ms.assetid: 413bcb33-5fe9-4ba1-b65f-3e53a7cbf70c
 title: PST_PROMPTINFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

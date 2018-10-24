@@ -2,8 +2,6 @@
 Description: The following error codes are specific to the Setup API.
 ms.assetid: C4EB130F-2A83-4A14-BBA8-DB10225D0C0A
 title: Error Codes (Setup API)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

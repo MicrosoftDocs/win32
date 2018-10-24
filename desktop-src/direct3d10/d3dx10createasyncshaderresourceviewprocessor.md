@@ -2,8 +2,6 @@
 Description: Create a data processor that will load a resource and then create a shader-resource view for it. Data processors are a component of the asynchronous data loading feature in D3DX10 that uses thread pumps.
 ms.assetid: 6e5a6138-c218-4200-a24e-d906d34933b8
 title: D3DX10CreateAsyncShaderResourceViewProcessor function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

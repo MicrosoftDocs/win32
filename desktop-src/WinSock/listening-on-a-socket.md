@@ -2,8 +2,6 @@
 Description: After the socket is bound to an IP address and port on the system, the server must then listen on that IP address and port for incoming connection requests.
 ms.assetid: 83c9f0e7-2e6d-449b-8d97-3d13154112cd
 title: Listening on a Socket
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

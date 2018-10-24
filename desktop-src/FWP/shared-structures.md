@@ -2,8 +2,6 @@
 title: Shared Structures
 description: Shared Structures
 ms.assetid: 17D6C193-EF87-4FC5-8CAA-A1098D129577
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

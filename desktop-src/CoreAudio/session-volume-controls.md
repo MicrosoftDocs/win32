@@ -2,8 +2,6 @@
 Description: Session Volume Controls
 ms.assetid: e6d112f9-08c9-4d95-b37b-267beebd0d7f
 title: Session Volume Controls
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

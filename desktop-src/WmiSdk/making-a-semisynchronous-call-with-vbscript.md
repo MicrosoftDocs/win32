@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3eae38e8-6a63-45c0-99b0-94e25ddbc5a8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Making a Semisynchronous Call with VBScript
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: The MyPicturesFolder property is the full path to the MyPictures folder.
 ms.assetid: bf85bc14-9469-436e-97c4-4aaf882e912d
 title: MyPicturesFolder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The SetCCInstPtr function captures a context instance pointer.
 ms.assetid: 31924608-4aa1-4801-a5de-d8de054e12d9
 title: SetCCInstPtr function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

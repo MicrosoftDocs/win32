@@ -2,8 +2,6 @@
 title: To Attribute (Curve)(VML)
 description: To Attribute (Curve)(VML)
 ms.assetid: 61469921-5095-4cb6-b032-f3e250874958
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

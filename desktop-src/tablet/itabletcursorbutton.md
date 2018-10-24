@@ -2,8 +2,6 @@
 Description: Represents general information about a button on a stylus device.
 ms.assetid: 20c9f8bb-8f8d-4469-baff-b9001c8adb3b
 title: ITabletCursorButton interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

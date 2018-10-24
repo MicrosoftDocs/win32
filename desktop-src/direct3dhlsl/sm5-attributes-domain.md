@@ -2,8 +2,6 @@
 title: domain
 description: Defines the patch type used in the HS.
 ms.assetid: 89a44348-1f20-454f-9c85-ec3d744c32a4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Gets a Boolean value that indicates whether the quota file for the volume is complete.
 ms.assetid: 25eb7df4-ba6c-4c6c-b611-e32b673a4d18
 title: DiskQuotaControl.QuotaFileIncomplete property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

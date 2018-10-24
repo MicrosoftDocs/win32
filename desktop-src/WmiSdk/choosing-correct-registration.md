@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: cce3faf5-7bfe-46fe-9205-57398ab9dae9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Choosing Correct Registration
 ms.author: windowssdkdev

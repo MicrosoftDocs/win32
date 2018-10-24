@@ -2,8 +2,6 @@
 Description: Semantics map a parameter to vertex or pixel shader registers. They can also be optional descriptive strings attached to non-register parameters.
 ms.assetid: 547a6ff3-be24-4299-9119-6719ad09b4ef
 title: D3DXSEMANTIC structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

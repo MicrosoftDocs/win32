@@ -2,8 +2,6 @@
 title: Radio Buttons
 description: With a radio button, users make a choice among a set of mutually exclusive, related options.
 ms.assetid: f9af0a8a-d4a1-464c-a967-bab88ae0726b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Subentries and Multilink Connections
 description: Windows NT Server 4.0 provides support for phone-book subentries, which enable multilink connections. A multilink connection combines the bandwidth of multiple connections to provide a single connection with higher bandwidth.
 ms.assetid: 19cf6e1a-cdba-47e4-8d8f-d6030ed6f9e3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

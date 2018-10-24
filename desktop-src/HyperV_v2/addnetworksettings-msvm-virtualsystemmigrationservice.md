@@ -2,8 +2,6 @@
 Description: Adds migration network subnets for the virtual system migration service.
 ms.assetid: b0e0f187-beeb-4fdf-a91c-f6c5500f0f6d
 title: AddNetworkSettings method of the Msvm_VirtualSystemMigrationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

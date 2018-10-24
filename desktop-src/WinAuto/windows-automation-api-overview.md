@@ -2,8 +2,6 @@
 title: Windows Automation API Overview
 description: This section provides a high-level overview of Microsoft Windows Automation API 3.0, which includes the legacy Microsoft Active Accessibility, and the Windows implementation of the Microsoft UI Automation specification.
 ms.assetid: 11c99444-eb5a-4656-ae9d-e4d4bdbcabfc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

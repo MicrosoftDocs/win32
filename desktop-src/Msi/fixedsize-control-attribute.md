@@ -2,8 +2,6 @@
 Description: If the FixedSize Control bit is set, the picture is cropped or centered in the control without changing its shape or size.
 ms.assetid: fb1ef0ba-5183-4708-a47d-26c83584df6c
 title: FixedSize Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

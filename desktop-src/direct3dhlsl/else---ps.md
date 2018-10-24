@@ -2,8 +2,6 @@
 title: else - ps
 description: Start of an else block.
 ms.assetid: 81c21ce0-0a43-43d3-a2e3-84b6828545d3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

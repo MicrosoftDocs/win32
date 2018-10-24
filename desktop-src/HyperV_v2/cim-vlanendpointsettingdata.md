@@ -2,8 +2,6 @@
 Description: Represents configuration data for a VLAN endpoint.
 ms.assetid: 5ef3cc55-cf27-40b4-9e94-2e2b42ca41c5
 title: CIM_VLANEndpointSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

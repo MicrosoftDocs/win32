@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: f0d82a95-6bb9-4704-ab8f-96d1f3c6aedf
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - Validated-MS-DS-Behavior-Version validated writes AD Schema

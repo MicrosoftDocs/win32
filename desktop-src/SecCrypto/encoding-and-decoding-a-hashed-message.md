@@ -2,8 +2,6 @@
 Description: Depicts the tasks required to encode a hashed message.
 ms.assetid: c1a65452-c634-4cc6-9afe-d6bf11d999d1
 title: Encoding and Decoding a Hashed Message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

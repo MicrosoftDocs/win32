@@ -6,8 +6,6 @@ keywords:
 - profiles,system
 - system profiles,versions
 - system profiles,changing versions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

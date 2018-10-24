@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 32bc7dd8-cb05-4354-bf46-f4359ac1f0d8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Cleaning up and Shutting Down a WMI Application
 ms.author: windowssdkdev

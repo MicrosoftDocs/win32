@@ -2,8 +2,6 @@
 Description: If the FixedVolume Control bit is set, the control shows all the volumes involved in the current installation plus all the fixed internal hard drives.
 ms.assetid: e0917a8c-f43a-412d-9b91-9d5f80779f41
 title: FixedVolume Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

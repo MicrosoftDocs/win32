@@ -2,8 +2,6 @@
 Description: Indicates the degree of overall image gain adjustment. Calculated from PKEY\_Photo\_GainControlNumerator and PKEY\_Photo\_GainControlDenominator.
 ms.assetid: 5076e03b-2c8a-4ef4-93d6-271a4bd697a6
 title: System.Photo.GainControl
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Bluetooth device manufacturer.
 ms.assetid: bf2dbd9c-e372-423e-8fe5-2ebefe3c541d
 title: System.DeviceInterface.Bluetooth.Manufacturer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

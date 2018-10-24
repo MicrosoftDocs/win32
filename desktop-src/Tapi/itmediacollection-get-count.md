@@ -2,8 +2,6 @@
 Description: The get\_Count method gets the number of media in the session.
 ms.assetid: 9d085a34-9a49-4447-8d11-56d71a2a3592
 title: ITMediaCollection::get_Count method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

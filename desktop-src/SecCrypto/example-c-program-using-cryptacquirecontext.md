@@ -2,8 +2,6 @@
 Description: Demonstrates several different ways to use the CryptAcquireContext and related CryptoAPI functions to work with a cryptographic service provider (CSP) and a key container.
 ms.assetid: e8d2503c-a38f-44f6-a653-ae9c7bf903bd
 title: 'Example C Program: Using CryptAcquireContext'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

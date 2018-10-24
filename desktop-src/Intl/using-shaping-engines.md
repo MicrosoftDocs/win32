@@ -2,8 +2,6 @@
 Description: Uniscribe uses multiple shaping engines that contain the layout knowledge for particular scripts.
 ms.assetid: 3cdd18f3-51d3-4d1c-be31-f5709074cbe7
 title: Using Shaping Engines
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

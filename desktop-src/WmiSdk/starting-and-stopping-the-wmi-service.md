@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8dff43bf-71d0-4d5a-91bc-6f474186d4ba
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Starting and Stopping the WMI Service
 ms.author: windowssdkdev

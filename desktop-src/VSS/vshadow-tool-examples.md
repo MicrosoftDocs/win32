@@ -1,8 +1,6 @@
 ---
 ms.assetid: 6a69b75b-ee4a-4613-ba05-d2deb42759b7
 title: VShadow Tool Examples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The DVDAdm.GetParentalLevel method retrieves the parental level that was last saved to the registry.
 ms.assetid: 2aadcf41-2c65-4f3a-8ce8-0fc9aa580ad9
 title: GetParentalLevel Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

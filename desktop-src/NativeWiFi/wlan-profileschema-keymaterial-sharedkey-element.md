@@ -2,8 +2,6 @@
 Description: Contains a network key or passphrase.
 ms.assetid: d2ed407e-5eaa-477b-8c4d-a47795048e0b
 title: keyMaterial (sharedKey) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

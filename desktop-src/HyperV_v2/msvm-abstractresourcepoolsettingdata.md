@@ -2,8 +2,6 @@
 Description: Represents the settings of a Msvm\_ResourcePool instance that are not allocation related.
 ms.assetid: c5954a92-8942-4b45-aae2-6936328dab1a
 title: Msvm_AbstractResourcePoolSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

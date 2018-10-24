@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 4720f812-a71a-458f-85fa-7885cca0dbbb
 title: PageOutputQuality
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

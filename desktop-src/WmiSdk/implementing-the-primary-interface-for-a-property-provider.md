@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d08c2ca4-9f8a-4a27-80fc-688d7c56f5eb
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for a Property Provider
 ms.author: windowssdkdev

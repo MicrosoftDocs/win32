@@ -2,8 +2,6 @@
 Description: By default, the system has all FP exceptions turned off.
 ms.assetid: efbea036-de9c-4f92-865a-494161da375e
 title: Floating-Point Exceptions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ ms.assetid: a9800f9f-d91f-48be-bbb9-f736132c2fd7
 description: 
 keywords:
 - Windows Virtual PC Virtual PC , enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

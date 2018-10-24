@@ -2,8 +2,6 @@
 Description: The SetControlVideoPin method sets the pin used by the filter.
 ms.assetid: 4346f828-4380-4150-9ecb-74eb690bdcdf
 title: CBaseControlVideo.SetControlVideoPin method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

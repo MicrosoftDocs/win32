@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 6de13ed8-bf15-4e2c-b42a-ea8178a6b5f9
 title: JobErrorSheetSource
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

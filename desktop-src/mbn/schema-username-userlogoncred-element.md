@@ -2,8 +2,6 @@
 Description: Specifies the user name for logon.
 ms.assetid: a312de24-2a81-4fac-9c23-4e67e171e692
 title: UserName (UserLogonCred) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

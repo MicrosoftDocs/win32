@@ -2,8 +2,6 @@
 Description: Specifies an image that represents the album artwork for the object.
 ms.assetid: 7a31ebb6-c4ab-4899-9c2e-c960aac4f0f9
 title: WPD_RESOURCE_ALBUM_ART
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

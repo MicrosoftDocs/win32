@@ -2,8 +2,6 @@
 Description: Contains an object for each role assigned to the interface to which the collection is related. The roles must already be assigned at the application level.
 ms.assetid: f5c1dc9a-13da-4504-a244-4ce8058240b8
 title: RolesForInterface collection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

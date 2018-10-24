@@ -5,8 +5,6 @@ ms.assetid: 6170fcf2-26d5-4418-bddb-2afd99510520
 keywords:
 - Routing and Remote Access Service RRAS ,RAS Administration,reference
 - RAS Administration RRAS ,reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

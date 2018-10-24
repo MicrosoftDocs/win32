@@ -5,8 +5,6 @@ ms.assetid: 0c159c44-f96c-4c08-bd3f-9e65b413026c
 keywords:
 - MCIWndSave macro
 - MCIWndSaveDialog macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

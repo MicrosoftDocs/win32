@@ -2,8 +2,6 @@
 title: MethodExceptionOccured
 description: MethodExceptionOccured
 ms.assetid: 5FC7936D-FC1D-44DB-98C1-29E6A2D15428
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

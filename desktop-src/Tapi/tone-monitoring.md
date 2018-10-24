@@ -2,8 +2,6 @@
 Description: Tone monitoring monitors the media stream of a call for specified tones.
 ms.assetid: c3218013-b71f-41cd-9397-ba717c0cf556
 title: Tone Monitoring
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

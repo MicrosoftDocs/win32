@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: afac0a08-7bd0-42f1-b5a7-8664f9db8615
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemDateTime.YearSpecified property
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: The following table shows the various methods that the application can use to handle the caret, justification, and clusters.
 ms.assetid: 950a24b4-62ab-4eaf-ac15-87434d3c28c0
 title: Working with Relationships Among Caret Positions, Justification Points, and Clusters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

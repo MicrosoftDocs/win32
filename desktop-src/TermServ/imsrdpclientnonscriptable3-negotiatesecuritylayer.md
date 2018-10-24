@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7fc9e3c7-0723-48c4-8d29-5f68a24a522c
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - NegotiateSecurityLayer property Remote Desktop Services

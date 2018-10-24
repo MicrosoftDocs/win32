@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 055e502d-631f-49d2-8577-65396373d478
 title: Representing Attributes as Feature/Option Constructs or as Parameters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

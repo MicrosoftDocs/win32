@@ -4,8 +4,6 @@ description: The NetAuditWrite function is obsolete. It is included for compatib
 ms.assetid: 3bdbccab-bc75-446b-9c11-4a3c078589e5
 keywords:
 - NetAuditWrite
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

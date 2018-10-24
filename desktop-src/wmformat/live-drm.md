@@ -7,8 +7,6 @@ keywords:
 - digital rights management (DRM),Live DRM
 - DRM (digital rights management),Live DRM
 - Live DRM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies whether the Topology Loader will change the media types on a Media Foundation transform (MFT). Applications typically do not use this attribute.
 ms.assetid: 96a99f35-f9db-407e-a4e3-7adc3caccb19
 title: MF_ACTIVATE_MFT_LOCKED attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

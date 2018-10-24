@@ -2,8 +2,6 @@
 title: Persistent Storage on the Server
 description: You can optimize your application so the server stub does not free memory on the server at the conclusion of a remote procedure call.
 ms.assetid: 340334e2-94ac-4be2-a16d-38bc4c64e7db
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

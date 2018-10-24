@@ -2,8 +2,6 @@
 Description: The GetPreviewMode method retrieves the preview mode for the group.
 ms.assetid: 635354e5-5cb2-4045-8a7f-21d31005c5f3
 title: IAMTimelineGroup::GetPreviewMode method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f6da65d3-86dd-4fc8-b4c0-f7ddc8536d4e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__SystemSecurity::Set9XUserList method'
 ms.author: windowssdkdev

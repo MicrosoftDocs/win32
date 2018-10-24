@@ -2,8 +2,6 @@
 Description: When working with peer graphs, functions must be called in a specific order. The flow of calls depends on whether you are creating or opening a peer graph. This topic identifies the flow of function calls in a simple peer graph application.
 ms.assetid: cb4f48d0-d1e2-4a4b-bd5a-6e8f66d03806
 title: Working with Graphs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

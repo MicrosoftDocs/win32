@@ -2,8 +2,6 @@
 Description: DirectShow
 ms.assetid: '75191978-d538-4140-83ed-69334624c6fb'
 title: DirectShow
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

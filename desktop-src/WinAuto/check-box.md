@@ -2,8 +2,6 @@
 title: Check Box (MSAA UI Element Reference)
 description: Check boxes are used to enable or disable one or more features or options from a set, usually within a dialog box. Typically, a check box contains a small box with adjoining text. When an option is selected, a check mark appears in the box.
 ms.assetid: cdbaa152-82c2-4a5b-82a8-fed9b8ed63b4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

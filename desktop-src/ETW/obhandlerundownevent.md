@@ -2,8 +2,6 @@
 Description: Represents the event type class for object handle events related to the beginning and end of data collection.
 ms.assetid: 96231819-f4ca-4c5c-bc19-4a76add5d3cf
 title: ObHandleRundownEvent class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

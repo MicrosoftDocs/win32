@@ -2,8 +2,6 @@
 Description: Defines a basic material color that can be applied to either a complete mesh or a mesh's individual faces. The power is the specular exponent of the material.
 ms.assetid: 'vs|directx_sdk|~\material.htm'
 title: Material
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

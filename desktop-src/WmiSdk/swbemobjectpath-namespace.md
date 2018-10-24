@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: be88670d-6f0d-4b9d-886f-3e70bf4758ed
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Namespace property
 ms.author: windowssdkdev

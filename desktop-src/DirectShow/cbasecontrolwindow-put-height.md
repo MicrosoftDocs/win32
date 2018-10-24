@@ -2,8 +2,6 @@
 Description: The put\_Height method sets the window height.
 ms.assetid: 11026ee5-e83a-4d82-9069-a302d55a2d46
 title: CBaseControlWindow.put_Height method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

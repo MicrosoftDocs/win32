@@ -6,8 +6,6 @@ keywords:
 - MCI_STOP command
 - MCI_PAUSE command
 - MCI_RESUME command
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

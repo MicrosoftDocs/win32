@@ -4,8 +4,6 @@ description: Opening a Simple Device by Using the Device Name
 ms.assetid: 9e116499-2094-40e1-b2bc-3e3b8281a472
 keywords:
 - mciSendCommand function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

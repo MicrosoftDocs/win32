@@ -2,8 +2,6 @@
 Description: Gets a vector.
 ms.assetid: 55f5512f-42f2-4588-abd4-1cdea530b9bf
 title: ID3DXBaseEffect::GetVector method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

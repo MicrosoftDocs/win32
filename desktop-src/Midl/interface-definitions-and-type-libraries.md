@@ -6,8 +6,6 @@ keywords:
 - Microsoft Interface Definition Language MIDL , described, interface definitions and type libraries
 - interfaces MIDL , definitions
 - type libraries MIDL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

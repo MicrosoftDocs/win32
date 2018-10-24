@@ -2,8 +2,6 @@
 Description: The DefaultDir data type is a text string containing either a valid Filename or a valid Identifier.
 ms.assetid: c7c5eac1-3283-4878-9d0d-887f93fc7a35
 title: DefaultDir
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

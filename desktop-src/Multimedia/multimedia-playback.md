@@ -4,8 +4,6 @@ description: Multimedia Playback
 ms.assetid: a06a11a0-5d4d-4b87-9c91-0fe687b08f8d
 keywords:
 - MCIWndCreate function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

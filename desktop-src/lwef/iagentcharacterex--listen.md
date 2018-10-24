@@ -2,8 +2,6 @@
 title: IAgentCharacterEx Listen
 description: IAgentCharacterEx Listen
 ms.assetid: 8d4cdb6c-04e1-498c-867f-fddbe6e2791a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

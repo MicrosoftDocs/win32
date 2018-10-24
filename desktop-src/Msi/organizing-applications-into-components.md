@@ -2,8 +2,6 @@
 Description: Windows Installer installs and removes an application or product in parts referred to as components.
 ms.assetid: 949d8b8c-8f1a-4fde-9a7d-824d33436e62
 title: Organizing Applications into Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

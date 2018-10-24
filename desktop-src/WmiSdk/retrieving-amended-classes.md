@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f0c42052-a761-4a89-ac97-d3e22db836be
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving Amended Classes
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: This topic lists common categories of problems that you might encounter when writing Direct3D applications, and how to prevent them.
 ms.assetid: 27b87f0f-7118-4252-b6e8-6ea18a9399e4
 title: Troubleshooting (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

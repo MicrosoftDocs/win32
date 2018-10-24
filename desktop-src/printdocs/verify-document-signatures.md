@@ -2,8 +2,6 @@
 Description: This topic describes how to verify the signatures in an XPS document and how to verify the certificates that are related to those signatures.
 ms.assetid: fd12abaf-dc0f-4db1-837d-c116627bcc7e
 title: Verify Document Signatures and Certificates
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

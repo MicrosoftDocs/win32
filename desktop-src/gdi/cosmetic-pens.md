@@ -2,8 +2,6 @@
 Description: The dimensions of a cosmetic pen are specified in device units.
 ms.assetid: d4386681-3523-4872-b048-2a5cfbf7d039
 title: Cosmetic Pens
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

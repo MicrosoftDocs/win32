@@ -2,8 +2,6 @@
 Description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT4X4.
 ms.assetid: de367692-6974-4e54-9f1e-d8c56b3aa752
 title: operator () operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

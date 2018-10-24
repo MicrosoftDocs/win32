@@ -2,8 +2,6 @@
 Description: The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
 ms.assetid: 50113d6b-4e10-4dc9-aaef-f67c6918a2de
 title: IMpeg2PsiParser::GetPmtVersionNumber method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

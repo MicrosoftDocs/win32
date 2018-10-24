@@ -2,8 +2,6 @@
 title: sgn - vs
 description: Computes the sign of the input.
 ms.assetid: b03530d1-c621-483e-bd94-31abafeb2e6e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

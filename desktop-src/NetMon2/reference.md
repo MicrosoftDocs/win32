@@ -2,8 +2,6 @@
 Description: This section provides complete reference information for the following COM interfaces, functions, and structures used to develop expert, parser, and NPP applications.
 ms.assetid: f2c37c55-7994-4436-a653-6a4e221a29a2
 title: Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

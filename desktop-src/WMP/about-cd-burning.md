@@ -12,8 +12,6 @@ keywords:
 - Windows Media Player Mobile,CD burning
 - CD burning,about
 - burning CDs,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

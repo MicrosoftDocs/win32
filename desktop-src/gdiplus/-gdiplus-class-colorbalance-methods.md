@@ -2,8 +2,6 @@
 Description: This topic lists the methods of the ColorBalance class. For a complete class listing, see ColorBalance.
 ms.assetid: 073d101e-259d-4ee3-b458-0af412c3cebb
 title: ColorBalance Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

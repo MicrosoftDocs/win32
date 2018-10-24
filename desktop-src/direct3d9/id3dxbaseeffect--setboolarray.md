@@ -2,8 +2,6 @@
 Description: Sets an array of Boolean values.
 ms.assetid: 920b3482-cc30-4ab2-bfce-59f03afe11da
 title: ID3DXBaseEffect::SetBoolArray method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

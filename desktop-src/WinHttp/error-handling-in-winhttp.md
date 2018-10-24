@@ -2,8 +2,6 @@
 Description: Error Handling in WinHTTP
 ms.assetid: 96bceda2-ca96-4f88-ab38-35021889c2dd
 title: Error Handling in WinHTTP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

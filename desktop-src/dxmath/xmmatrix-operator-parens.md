@@ -2,8 +2,6 @@
 Description: Accesses specific matrix elements referenced by row and column from the current instance of XMMATRIX.
 ms.assetid: 917d44b0-4625-412f-b3ad-5955856689d5
 title: operator () operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The suggested action sequences for a basic AdvtExecuteSequence table in a Windows Installer database.
 ms.assetid: 42a55f8f-582a-499b-8a6b-c893da62a4d4
 title: Suggested AdvtExecuteSequence
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

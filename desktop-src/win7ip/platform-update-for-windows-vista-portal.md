@@ -2,8 +2,6 @@
 title: Platform Update for Windows Vista
 description: .
 ms.assetid: 661f88f9-e5ba-412d-8cb4-f3f186568b74
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

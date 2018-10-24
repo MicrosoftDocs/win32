@@ -2,8 +2,6 @@
 Description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: 991f20bb-cfcb-4546-af56-cff61737a205
 title: IEnumParticipant::Reset method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

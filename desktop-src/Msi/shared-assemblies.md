@@ -2,8 +2,6 @@
 Description: A Win32 assembly can be installed as a shared assembly and be available for use by multiple applications on the computer. Shared assemblies should be installed by a Windows Installer package used to install or update an application.
 ms.assetid: d408b0a9-8dc5-4cd0-93b3-429de7d12b17
 title: Shared Assemblies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

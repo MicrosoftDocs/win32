@@ -4,8 +4,6 @@ description: The following examples demonstrate how to create and cancel restore
 ms.assetid: 98c79305-3659-4d1a-8165-bb6e451e2d1e
 keywords:
 - System Restore, using
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

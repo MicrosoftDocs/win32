@@ -2,8 +2,6 @@
 title: Using MCI Command Strings
 description: Using MCI Command Strings
 ms.assetid: 17017857-71fd-401b-b0dc-4779fddd8d32
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

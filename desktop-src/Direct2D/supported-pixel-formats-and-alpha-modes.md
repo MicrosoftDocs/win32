@@ -5,8 +5,6 @@ ms.assetid: 09b1f9c6-1780-4733-ac22-9e8c21466b67
 keywords:
 - Direct2D,pixel formats
 - Direct2D,alpha modes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

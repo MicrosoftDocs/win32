@@ -2,8 +2,6 @@
 Description: The AddPrinterDriverEx function installs a local or remote printer driver and links the configuration, data, and driver files.
 ms.assetid: 472adb7d-39cc-4c76-b96c-610ff9d276ad
 title: AddPrinterDriverEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -11,8 +11,6 @@ keywords:
 - customizing Save As dialog box
 - dialog boxes,Open
 - dialog boxes,Save As
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

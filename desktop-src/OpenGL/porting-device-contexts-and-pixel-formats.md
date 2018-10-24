@@ -5,8 +5,6 @@ ms.assetid: b60cac27-1e2e-4da5-81c4-69446b92f820
 keywords:
 - porting to OpenGL,pixels
 - OpenGL porting,pixels
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

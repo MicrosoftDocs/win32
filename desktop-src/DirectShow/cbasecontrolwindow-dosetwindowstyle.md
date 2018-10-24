@@ -2,8 +2,6 @@
 Description: The DoSetWindowStyle method changes the typical or extended window styles.
 ms.assetid: 4a9a97fb-b527-44ce-af8c-e5ea832ed4c4
 title: CBaseControlWindow.DoSetWindowStyle method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies 802.1X configuration information for a wired or wireless LAN profile.
 ms.assetid: 4528fcb5-ee8e-4824-a69e-8d67622c4b4d
 title: OneX Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Use the 3D transform effect to apply an arbitrary 4x4 transform mat
 ms.assetid: BC2F2837-40F0-4293-A190-8B5F81BB01B6
 keywords:
 - 3d transform effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Input Method Manager
 ms.assetid: '3e23e004-514a-4021-bd20-5ac55547258f'
 title: Input Method Manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

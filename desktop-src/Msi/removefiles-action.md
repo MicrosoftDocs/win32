@@ -2,8 +2,6 @@
 Description: The RemoveFiles action removes files previously installed by the InstallFiles action.
 ms.assetid: 1079be89-515c-443e-8927-46ddf7891a59
 title: RemoveFiles Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

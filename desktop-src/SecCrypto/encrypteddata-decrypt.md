@@ -2,8 +2,6 @@
 Description: Decrypts an encrypted and encoded data string.
 ms.assetid: 7601083d-0adb-48e1-98a7-804a49f71206
 title: EncryptedData.Decrypt method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

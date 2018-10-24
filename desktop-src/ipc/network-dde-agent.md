@@ -2,8 +2,6 @@
 Description: The network DDE agent starts network DDE if it detects local network DDE activity.
 ms.assetid: bc1e6a06-be07-4ae8-94da-9603a885b3a5
 title: Network DDE Agent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

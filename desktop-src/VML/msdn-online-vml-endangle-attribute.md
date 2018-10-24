@@ -2,8 +2,6 @@
 title: VML EndAngle Attribute
 description: VML EndAngle Attribute
 ms.assetid: fc8276dc-8f61-42f4-b405-e92ca31e4637
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

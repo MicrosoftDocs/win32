@@ -2,8 +2,6 @@
 Description: Describes hard links and junctions.
 ms.assetid: f9e40a86-a4a6-4524-8045-312da72dc655
 title: Hard Links and Junctions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

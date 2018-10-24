@@ -2,8 +2,6 @@
 title: Procedure Serialization
 description: When you use procedure serialization, a procedure is labeled with the \ encode\ or \ decode\ attribute. Instead of generating the usual remote stub, the compiler generates a serialization stub for the routine.
 ms.assetid: 98367b00-696b-44c4-a747-92ecac34ba1e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

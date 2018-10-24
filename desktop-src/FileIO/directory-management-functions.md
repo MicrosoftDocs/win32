@@ -2,8 +2,6 @@
 Description: Functions used in directory management.
 ms.assetid: 5517b0e7-2264-4173-8e10-ff7626458bfa
 title: Directory Management Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

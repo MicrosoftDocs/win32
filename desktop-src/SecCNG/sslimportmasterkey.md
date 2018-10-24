@@ -2,8 +2,6 @@
 Description: Performs a server-side Secure Sockets Layer protocol (SSL) key exchange operation.
 ms.assetid: 052e38ee-658c-47dc-8098-c9a1fd359e1c
 title: SslImportMasterKey function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

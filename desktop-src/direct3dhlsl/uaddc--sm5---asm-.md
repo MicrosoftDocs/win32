@@ -2,8 +2,6 @@
 title: uaddc (sm5 - asm)
 description: Unsigned integer add with carry.
 ms.assetid: 1007253C-F920-4003-B266-D124A255F731
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

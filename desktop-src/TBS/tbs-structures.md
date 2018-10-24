@@ -4,8 +4,6 @@ description: TBS supports the following structures.
 ms.assetid: f150cb4f-8333-417c-a3b3-b040eefd3893
 keywords:
 - TPM Base Services TBS , structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

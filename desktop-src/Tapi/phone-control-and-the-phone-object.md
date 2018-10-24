@@ -2,8 +2,6 @@
 Description: TAPI 3.1 introduces COM-based phone controls. Familiarity with COM, OLE Automation, and scripting is assumed, as is knowledge of the TAPI 3 object model. Knowledge of the TAPI 2 phone control functions is also helpful.
 ms.assetid: e56aef54-e358-429b-9f0f-c8776507d95f
 title: Phone Control and the Phone Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

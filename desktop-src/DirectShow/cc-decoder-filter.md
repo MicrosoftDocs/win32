@@ -2,8 +2,6 @@
 Description: CC Decoder Filter
 ms.assetid: 57ef75f6-411c-4b1f-b0dc-ac293ebc0b9c
 title: CC Decoder Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The IDelaydC interface provides the methods used to connect to the network, capture network traffic to a capture file, retrieve statistics, and disconnect from the network.
 ms.assetid: ab275653-2377-4af6-a810-48515962c88c
 title: IDelaydC interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

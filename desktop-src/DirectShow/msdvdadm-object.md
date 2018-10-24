@@ -2,8 +2,6 @@
 Description: MSDVDAdm Object
 ms.assetid: 753d2820-4d47-4e07-9f54-9b996e55f0b6
 title: MSDVDAdm Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This section contains the archived technical articles related to collaboration features.
 ms.assetid: 9687286F-ED00-41D3-9B76-DFEAC182F202
 title: Collaboration Archive
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

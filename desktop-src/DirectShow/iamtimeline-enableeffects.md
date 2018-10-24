@@ -2,8 +2,6 @@
 Description: The EnableEffects method enables or disables all effects in the timeline. If effects are disabled, they remain in the timeline but are not rendered.
 ms.assetid: 5344cd49-6515-4211-9637-ca58219b3b56
 title: IAMTimeline::EnableEffects method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

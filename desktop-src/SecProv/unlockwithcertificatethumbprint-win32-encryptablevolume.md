@@ -2,8 +2,6 @@
 Description: Uses the provided certificate thumbprint to obtain the derived key and unlock the encrypted volume.
 ms.assetid: 41c25d17-db1b-427e-907b-a547483927e0
 title: UnlockWithCertificateThumbprint method of the Win32_EncryptableVolume class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

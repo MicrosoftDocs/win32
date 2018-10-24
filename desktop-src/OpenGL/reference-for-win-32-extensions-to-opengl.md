@@ -5,8 +5,6 @@ ms.assetid: 770959d2-80ea-4221-9907-2d893634d9f6
 keywords:
 - OpenGL,Windows extensions reference
 - WGL reference OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

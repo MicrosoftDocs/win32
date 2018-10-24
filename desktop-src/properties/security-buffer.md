@@ -2,8 +2,6 @@
 Description: Security
 ms.assetid: 3754BBDB-3CBE-4C79-897D-15359B90AC82
 title: Security
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

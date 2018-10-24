@@ -2,8 +2,6 @@
 Description: Direct3D applications can achieve numerous special effects by applying various textures to a primitive over the course of multiple rendering passes.
 ms.assetid: 884cc928-305e-46b9-acbf-ca58dfbc05e6
 title: Multipass Texture Blending (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Using StoServe
 description: StoServe is a DLL that is intended primarily as a COM server.
 ms.assetid: 32cb284a-de78-4953-9d8e-5bb87d6d5a97
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

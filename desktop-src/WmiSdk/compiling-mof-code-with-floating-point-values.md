@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5cf7d8e1-c29d-4b9f-8557-e656c5e83370
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Compiling MOF Code with Floating-Point Values
 ms.author: windowssdkdev

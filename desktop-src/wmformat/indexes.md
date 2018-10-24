@@ -19,8 +19,6 @@ keywords:
 - temporal indexes
 - frame-based indexes
 - SMPTE time codes,indexes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

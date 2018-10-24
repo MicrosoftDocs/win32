@@ -2,8 +2,6 @@
 Description: COM+ Services Without Components
 ms.assetid: 5ef67411-334b-476e-b9b7-3677b24ab7df
 title: COM+ Services Without Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

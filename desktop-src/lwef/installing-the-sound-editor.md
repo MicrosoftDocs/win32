@@ -2,8 +2,6 @@
 title: Installing the Sound Editor
 description: Installing the Sound Editor
 ms.assetid: 0ce35b29-1cf3-4068-91b8-04231cb02a9d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

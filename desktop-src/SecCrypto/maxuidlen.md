@@ -2,8 +2,6 @@
 Description: A numeric constant that specifies the maximum number of characters that some of the Microsoft cryptographic providers will use when obtaining the user ID.
 ms.assetid: cc15a166-9a0c-41ce-9cb1-ecdc922565c0
 title: MAXUIDLEN
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Implementing a Hosted Device
 description: The device host with UPnP technology implements the core UPnP protocols discovery, description, control, and eventing.
 ms.assetid: ab113d76-5fc9-4be2-a814-8772dd1e9600
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

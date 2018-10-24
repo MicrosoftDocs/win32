@@ -2,8 +2,6 @@
 Description: The CreatePosPassThru function creates a CPosPassThru object or CRendererPosPassThru object.
 ms.assetid: d6fccfb4-b256-40aa-b927-84c7a886f631
 title: CreatePosPassThru function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Implementing Output Pipes on the Server
 description: To begin receiving data from a server, a client calls one of the server's remote procedures.
 ms.assetid: 5d791f4f-1d95-4bc0-b68f-db4fccc75ff8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

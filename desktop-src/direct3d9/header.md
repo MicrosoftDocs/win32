@@ -2,8 +2,6 @@
 Description: The following definitions should be used when directly reading and writing the binary header.
 ms.assetid: 19c36f94-8088-417d-867d-3a02912087dc
 title: Header
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

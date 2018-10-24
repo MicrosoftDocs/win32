@@ -8,8 +8,6 @@ keywords:
 - MCIWnd window,functions
 - MCIWnd reference,functions
 - MCIWnd functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

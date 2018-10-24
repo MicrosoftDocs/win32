@@ -2,8 +2,6 @@
 Description: These constants used when creating an effect to define either compilation behavior or runtime effect behavior.
 ms.assetid: cff99200-8bdc-416c-b1a5-3ae515a17a17
 title: D3D10_EFFECT Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

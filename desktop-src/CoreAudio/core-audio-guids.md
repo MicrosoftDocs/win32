@@ -2,8 +2,6 @@
 Description: This section describes the GUIDs that are used by the Core Audio APIs.
 ms.assetid: 617FB991-D73C-452F-9FBB-2480C1CEE2B5
 title: Core Audio GUIDs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

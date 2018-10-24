@@ -2,8 +2,6 @@
 Description: The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.
 ms.assetid: c5c76cf8-1ca1-4fef-8776-7f4dcca32939
 title: CBaseOutputPin.EndFlush method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

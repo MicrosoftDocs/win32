@@ -2,8 +2,6 @@
 Description: Step 6.
 ms.assetid: 53e4f5b7-c85d-4b44-9a0c-0ad05ca872cc
 title: Step 6. Add Support for COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

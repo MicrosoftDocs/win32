@@ -2,8 +2,6 @@
 Description: This section describes how to create the attachment components required to support a service-specific configuration in the Security Configuration snap-ins.
 ms.assetid: 6b652730-23f0-4295-b6e0-907508dee352
 title: Using Service Security Attachments
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

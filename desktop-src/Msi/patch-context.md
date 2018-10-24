@@ -2,8 +2,6 @@
 Description: The Context property returns the context of this patch.
 ms.assetid: 09c92b0b-44f3-4355-8171-03da8ba32757
 title: Patch.Context property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

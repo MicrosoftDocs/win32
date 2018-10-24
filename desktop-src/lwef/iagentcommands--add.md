@@ -2,8 +2,6 @@
 title: IAgentCommands Add
 description: IAgentCommands Add
 ms.assetid: f6be7773-77fa-4c59-8feb-c2ebf54fd2e0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

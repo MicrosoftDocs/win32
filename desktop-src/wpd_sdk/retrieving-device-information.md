@@ -2,8 +2,6 @@
 Description: Retrieving Device Information
 ms.assetid: 5c35da1c-f55c-4b92-8ac6-8c71466707f1
 title: Retrieving Device Information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

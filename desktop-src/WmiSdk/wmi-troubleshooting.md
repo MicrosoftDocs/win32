@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b0aecdf6-ec30-49be-af4e-7eac5d124057
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Troubleshooting
 ms.author: windowssdkdev

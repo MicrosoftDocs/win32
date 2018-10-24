@@ -8,8 +8,6 @@ keywords:
 - digital signal processing plug-ins,video processing
 - DSP plug-ins,video processing
 - video DSP plug-ins,processing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

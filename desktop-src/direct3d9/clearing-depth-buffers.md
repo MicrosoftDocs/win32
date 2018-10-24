@@ -2,8 +2,6 @@
 Description: Many C++ applications clear the depth buffer before rendering each new frame.
 ms.assetid: b8930211-82a1-4808-b042-1641e567cb6d
 title: Clearing Depth Buffers (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

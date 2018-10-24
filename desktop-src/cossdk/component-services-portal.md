@@ -2,8 +2,6 @@
 Description: Extends applications written using COM-based technologies.
 ms.assetid: b21a6b08-c17c-4fcc-bc60-39037bc9902f
 title: COM+ (Component Services)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

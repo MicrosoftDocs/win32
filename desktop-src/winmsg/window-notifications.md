@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: f99a572e-110d-4971-a660-e861dbe32cfe
 title: Window Notifications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

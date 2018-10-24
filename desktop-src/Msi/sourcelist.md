@@ -2,8 +2,6 @@
 Description: The SOURCELIST property is a semicolon-delimited list of network or URL source paths to the application's installation package.
 ms.assetid: '9dc1e195-a108-4f8f-b008-e08fc7658fc0'
 title: SOURCELIST property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

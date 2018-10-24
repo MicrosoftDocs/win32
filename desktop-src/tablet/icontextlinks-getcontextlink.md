@@ -2,8 +2,6 @@
 Description: Retrieves the IContextLink at the specified index.
 ms.assetid: 46bb71b9-5ef3-4756-97f6-40e0aaa82826
 title: IContextLinks::GetContextLink method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

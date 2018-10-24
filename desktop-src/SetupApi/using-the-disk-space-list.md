@@ -2,8 +2,6 @@
 Description: Before you can add or remove file operations from the disk-space list, you must create it by using the SetupCreateDiskSpaceList function.
 ms.assetid: 287fd84a-dc8c-4a5c-b998-db5f2fbee5f1
 title: Using the Disk-Space List
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

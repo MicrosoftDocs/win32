@@ -2,8 +2,6 @@
 title: Status Bars
 description: A status bar is an area at the bottom of a primary window that displays information about the current window's state (such as what is being viewed and how), background tasks (such as printing, scanning, and formatting), or other contextual information (such as selection and keyboard state).
 ms.assetid: 09dc03d9-d730-4f03-86a8-7b39d9a55369
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

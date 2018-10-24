@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: cf986812-f09a-4f32-ba76-db76a23e2e4c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: NTEventLogEventConsumer class
 ms.author: windowssdkdev

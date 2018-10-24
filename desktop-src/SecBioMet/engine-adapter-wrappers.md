@@ -2,8 +2,6 @@
 title: Engine Adapter Wrappers
 description: Functions that you can use to call functions on your engine adapter. These functions are defined in Winbio\_adapter.h.
 ms.assetid: b3d6d617-e423-4ed5-9d29-be72c5dd8b49
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

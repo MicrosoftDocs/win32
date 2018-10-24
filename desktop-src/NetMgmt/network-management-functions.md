@@ -2,8 +2,6 @@
 title: Network Management Functions
 description: The network management functions can be grouped as follows.
 ms.assetid: 'dd159e2e-f37e-46b2-b980-008b73d40b39'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 666b4aa7-c7b0-4fb2-a22f-2f548b14ba05
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - Validated-DNS-Host-Name validated writes AD Schema

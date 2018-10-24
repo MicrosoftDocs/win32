@@ -2,8 +2,6 @@
 Description: In Windows Vista, Performance Counters implemented a new architecture (version 2.0) for providing counter data.
 ms.assetid: c17eda2f-3cf8-40d6-8be6-c1ce190d1a26
 title: Providing Counter Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

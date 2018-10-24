@@ -2,8 +2,6 @@
 Description: Application components use the COM+ resource dispenser to access and manage shared, nondurable state information, such as connections between components and a given resource manager.
 ms.assetid: 252c7180-61b1-485d-883d-36bf77357a29
 title: COM+ Resource Dispenser Concepts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

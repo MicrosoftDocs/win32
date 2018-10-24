@@ -2,8 +2,6 @@
 Description: The Reverse method reverses the order of the list.
 ms.assetid: f6f72f06-d219-4e18-a4fa-a816f9b50462
 title: CBaseList.Reverse method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

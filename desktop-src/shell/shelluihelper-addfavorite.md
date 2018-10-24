@@ -1,8 +1,6 @@
 ---
 Description: Displays the default user interface for creating a favorite item. The user interface is initialized to the specified parameters.
 title: ShellUIHelper.AddFavorite method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: resinfo (sm4 - asm)
 description: Query the dimensions of a given input resource.
 ms.assetid: 5D549AC6-E0CB-4395-953C-5E5ECEEE234D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

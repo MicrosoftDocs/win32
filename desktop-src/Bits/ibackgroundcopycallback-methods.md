@@ -2,8 +2,6 @@
 title: IBackgroundCopyCallback Methods
 description: The IBackgroundCopyCallback interface exposes the following methods.
 ms.assetid: 44DF3117-AF7F-4248-B15E-0DA5F4091BA8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

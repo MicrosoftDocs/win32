@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 31a3aa28-6e5d-4f8a-81ff-ab011f568b6a
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - AddVirtualDesktop method Remote Desktop Services

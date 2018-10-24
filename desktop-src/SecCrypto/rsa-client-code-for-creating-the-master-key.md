@@ -2,8 +2,6 @@
 Description: The following example shows typical RSA/Schannel client-side code for creating a master key.
 ms.assetid: 9ce4877f-e6e6-4b94-9503-092d2702b31f
 title: RSA Client Code for Creating the Master Key
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

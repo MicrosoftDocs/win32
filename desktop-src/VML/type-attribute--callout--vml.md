@@ -2,8 +2,6 @@
 title: Type Attribute (Callout)(VML)
 description: Type Attribute (Callout)(VML)
 ms.assetid: 8c5c6ef9-dee0-41a5-bc8c-6abfaf337e9c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

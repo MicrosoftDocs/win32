@@ -2,8 +2,6 @@
 Description: The value of the MsiLogFileLocation property is set to the full path of the log file, when logging is enabled.
 ms.assetid: 2d4c72ec-05d7-4a03-b58a-3c1a567b16c1
 title: MsiLogFileLocation property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

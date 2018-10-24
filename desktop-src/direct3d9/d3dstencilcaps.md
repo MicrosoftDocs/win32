@@ -2,8 +2,6 @@
 Description: Driver stencil capability flags.
 ms.assetid: 187c758c-5e7f-48ee-97cb-b1f30b709723
 title: D3DSTENCILCAPS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

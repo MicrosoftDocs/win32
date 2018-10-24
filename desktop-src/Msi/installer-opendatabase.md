@@ -2,8 +2,6 @@
 Description: The OpenDatabase method of the Installer object opens an existing database or creates a new one, returning a Database object. It generates an error if the Database object cannot be successfully created and opened.
 ms.assetid: a77b3954-db27-41a0-8f8b-2654766bde6a
 title: Installer.OpenDatabase method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

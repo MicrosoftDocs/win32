@@ -2,8 +2,6 @@
 Description: Although a&\#160;recognizer context&\#160;cannot be accessed on two threads simultaneously by the Tablet PC platform, the AdviseInkChange function can be called at any time on any thread.
 ms.assetid: 2cd19819-08d0-418d-830b-2288a66ca0d0
 title: Recognizer Threading Considerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

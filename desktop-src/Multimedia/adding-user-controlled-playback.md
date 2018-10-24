@@ -4,8 +4,6 @@ description: Adding User-Controlled Playback
 ms.assetid: c865bbc1-f78a-4d88-ab60-fba76818d175
 keywords:
 - MCIWndCreate function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Developer licensing
 description: .
 ms.assetid: ca2cca08-5af3-4a96-8963-0d118a137652
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

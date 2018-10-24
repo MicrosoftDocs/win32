@@ -2,8 +2,6 @@
 Description: This topic describes how to implement a Direct3D-aware Media Foundation transform (MFT) for video.
 ms.assetid: 8ec7e678-8477-41fa-9726-54df5ed187cd
 title: Direct3D-Aware MFTs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

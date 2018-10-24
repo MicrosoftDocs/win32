@@ -2,8 +2,6 @@
 Description: Right-clicking an object normally causes the display of a shortcut menu. This menu contains a list of commands that the user can select to perform various actions on the object. This section is an introduction to shortcut menus for file system objects.
 ms.assetid: d951d1e8-0f88-49c4-8373-e6db0e18cd72
 title: Extending Shortcut Menus
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

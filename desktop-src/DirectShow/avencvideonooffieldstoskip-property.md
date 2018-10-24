@@ -2,8 +2,6 @@
 Description: Specifies the number of fields to skip during encoding.
 ms.assetid: 82f2a2c1-52ff-410d-b5da-b2419c0adfe3
 title: AVEncVideoNoOfFieldsToSkip property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

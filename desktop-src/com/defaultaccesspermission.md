@@ -4,8 +4,6 @@ description: Sets the Access Control List (ACL) of the principals that can acces
 ms.assetid: 02675d0e-a96c-476e-820e-e6ff3c2d1be1
 keywords:
 - DefaultAccessPermission registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

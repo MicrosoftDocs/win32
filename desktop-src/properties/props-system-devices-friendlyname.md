@@ -2,8 +2,6 @@
 Description: Friendly name of the device.
 ms.assetid: 4d4d309f-edfb-439b-b2cc-3401f1118931
 title: System.Devices.FriendlyName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

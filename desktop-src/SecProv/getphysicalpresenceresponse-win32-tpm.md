@@ -2,8 +2,6 @@
 Description: Returns the results from a TPM physical presence operation that was performed.
 ms.assetid: 28d76149-3905-45db-a41e-32fac1603582
 title: GetPhysicalPresenceResponse method of the Win32_Tpm class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

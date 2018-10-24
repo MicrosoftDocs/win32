@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a4fdcd06-59ae-407f-9ac6-dfe4b52fb5d7
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - GatewayEncryptedOtpCookieSize property Remote Desktop Services

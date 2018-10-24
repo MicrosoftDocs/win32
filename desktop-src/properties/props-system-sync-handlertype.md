@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: ba99bf9c-e559-4b0d-bcf4-40d11d0a9cf0
 title: System.Sync.HandlerType
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

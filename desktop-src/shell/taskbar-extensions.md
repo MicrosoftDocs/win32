@@ -2,8 +2,6 @@
 Description: Discusses new taskbar functionality, including consolidation of launching and switching, enhanced capabilities of taskbar buttons such as single-click access to documents and application-specific tasks, transport controls and status notifications, thumbnail representations and switch targets based on individual tabs in a tabbed application, and the ability to reorder taskbar buttons through a drag-and-drop operation.
 ms.assetid: cbf2b07d-d67c-4755-888c-d40692d13cae
 title: Taskbar Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

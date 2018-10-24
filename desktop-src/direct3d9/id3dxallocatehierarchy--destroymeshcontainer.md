@@ -2,8 +2,6 @@
 Description: Requests deallocation of a mesh container object.
 ms.assetid: 7a976ba8-6972-4857-b0a9-4ea7a88dc8ac
 title: ID3DXAllocateHierarchy::DestroyMeshContainer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

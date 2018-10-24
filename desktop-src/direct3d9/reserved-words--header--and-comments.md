@@ -2,8 +2,6 @@
 Description: The table below shows which words are reserved and must not be used.
 ms.assetid: 680211de-3f81-4ea7-b03e-741096b5dde0
 title: Reserved Words, Header, and Comments
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

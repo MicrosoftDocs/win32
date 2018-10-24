@@ -2,8 +2,6 @@
 Description: Precomputed Radiance Transfer (Direct3D 9)
 ms.assetid: 2a233d23-9a9e-4774-9be0-f3bfe0369b21
 title: Precomputed Radiance Transfer (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

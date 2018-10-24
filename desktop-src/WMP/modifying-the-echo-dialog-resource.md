@@ -9,8 +9,6 @@ keywords:
 - DSP plug-ins,Echo sample property pages
 - Echo DSP plug-in sample,property pages
 - Echo DSP plug-in sample,dialog resource
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

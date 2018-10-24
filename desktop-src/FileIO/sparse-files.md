@@ -2,8 +2,6 @@
 Description: File compression of files that contain mostly zeros makes efficient use of disk space.
 ms.assetid: 7326041d-f11e-4b80-ac4e-07173e418ce7
 title: Sparse Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

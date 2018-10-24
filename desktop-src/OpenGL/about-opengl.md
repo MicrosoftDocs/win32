@@ -4,8 +4,6 @@ description: Appendix
 ms.assetid: d50c8a94-6a81-44c7-81e0-8c5956f4538e
 keywords:
 - OpenGL,appendix
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

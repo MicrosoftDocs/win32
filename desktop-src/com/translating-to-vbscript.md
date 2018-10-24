@@ -2,8 +2,6 @@
 title: Translating to VBScript
 description: Translating to VBScript
 ms.assetid: 12eac4bd-06d9-45db-81c2-0591200cbacc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

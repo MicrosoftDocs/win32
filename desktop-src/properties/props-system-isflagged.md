@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 4ce196c0-fa05-43b3-97d8-f58d31a9368d
 title: System.IsFlagged
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: You draw text in a double-buffered OpenGL window by creating displa
 ms.assetid: 59ac0414-a845-4f40-be9c-9962fd1585f6
 keywords:
 - OpenGL on Windows,text
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The IPropertySetter interface sets properties on an effect or transition in DirectShow Editing Services (DES).To use this interface, create an instance of a property setter object (CLSID\_PropertySetter), and associate it with an effect or transition by calling the IAMTimelineObj::SetPropertySetter method. For more information, see Working with Effects and Transitions.Usually an application needs to call only the IPropertySetter::ClearProps method to clear existing properties, and the IPropertySetter::AddProp method to add new properties. The other methods on this interface are called by other DES components.
 ms.assetid: bee2abf2-0abc-4890-b1f2-7d0011444fbd
 title: IPropertySetter interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

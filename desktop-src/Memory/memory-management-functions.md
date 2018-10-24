@@ -2,8 +2,6 @@
 Description: 'This topic describes the memory management functions:'
 ms.assetid: 5a2a7a62-0bda-4a0d-93d2-25b4898871fd
 title: Memory Management Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

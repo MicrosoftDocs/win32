@@ -2,8 +2,6 @@
 Description: Gets a constant by looking up its name.
 ms.assetid: 0c57f6ce-ea81-4b34-9251-c385bfe6ebe7
 title: ID3DXTextureShader::GetConstantByName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

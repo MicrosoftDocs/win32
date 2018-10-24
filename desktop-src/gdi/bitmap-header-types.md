@@ -2,8 +2,6 @@
 Description: Bitmap Header Types
 ms.assetid: 6df4655a-f707-4893-b6e6-f7e4d7f67b4e
 title: Bitmap Header Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The UnregisterClassInfo action manages the removal of COM class information from the system registry. It uses the AppId table.
 ms.assetid: 579a69ee-92cd-4d4c-a007-998ec042f9fc
 title: UnregisterClassInfo Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

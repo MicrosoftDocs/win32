@@ -2,8 +2,6 @@
 Description: There are several important data structures that are used extensively throughout the name resolution functions.
 ms.assetid: 2a6b47de-f0f7-46dc-9831-2186b1778de5
 title: Name Resolution Data Structures in the SPI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

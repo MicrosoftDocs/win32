@@ -2,8 +2,6 @@
 title: Ext Attribute (Lock)(VML)
 description: Ext Attribute (Lock)(VML)
 ms.assetid: 80e28319-abca-47d7-a092-610e13dafa63
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

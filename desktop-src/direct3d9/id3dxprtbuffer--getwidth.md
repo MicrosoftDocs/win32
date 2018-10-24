@@ -2,8 +2,6 @@
 Description: Retrieves the width of the texture, in pixels.
 ms.assetid: 0180e6e0-aef2-425d-b9d3-d3f7a64f8d5b
 title: ID3DXPRTBuffer::GetWidth method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

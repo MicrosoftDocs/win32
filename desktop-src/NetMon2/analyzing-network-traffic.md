@@ -2,8 +2,6 @@
 Description: With Network Monitor, and capture network data; experts help you analyze the data that is captured.
 ms.assetid: 36ba6381-3830-4f27-937d-8808129e7d09
 title: Analyzing Network Traffic
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

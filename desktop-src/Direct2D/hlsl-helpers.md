@@ -2,8 +2,6 @@
 title: HLSL Helpers
 description: To assist effect authors in writing linkable pixel shaders, d2d1effecthelpers.hlsli defines a set of HLSL language extensions in the form of helper methods and macros.
 ms.assetid: 5D0BB99E-7C77-4D45-82E6-F038E4B752A4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

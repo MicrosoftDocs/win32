@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: bf5ea477-2d5e-4c40-917e-3ef8057efc25
 title: System.Sync.ItemID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

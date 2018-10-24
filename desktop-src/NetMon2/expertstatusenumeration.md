@@ -2,8 +2,6 @@
 Description: The EXPERTSTATUSENUMERATION enumeration contains status values. It is used by the Status member of EXPERTSTATUS structure and the Status parameter in ExpertIndicateStatus.
 ms.assetid: 217dce5a-3698-45a9-bb13-8379bcbdd762
 title: EXPERTSTATUSENUMERATION enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

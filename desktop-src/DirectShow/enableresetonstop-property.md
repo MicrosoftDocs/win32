@@ -2,8 +2,6 @@
 Description: The EnableResetOnStop property sets or retrieves a value that determines how play will resume when the filter graph makes a transition from a stopped state.
 ms.assetid: ff2e2756-e3f3-4ddb-b99d-5fa65ec67f6b
 title: EnableResetOnStop Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

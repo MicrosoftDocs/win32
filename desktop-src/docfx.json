@@ -43,7 +43,8 @@
       "searchScope": [
         "Windows", 
         "Desktop"
-      ]
+      ],
+      "ms.prod": "desktop"
     },
     "fileMetadata": {
       "feedback_system": {

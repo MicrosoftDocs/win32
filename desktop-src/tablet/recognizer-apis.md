@@ -2,8 +2,6 @@
 Description: 'The recognizer handles:'
 ms.assetid: d7c694a2-0da6-4172-b434-2b0f94e1b649
 title: Recognizer Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

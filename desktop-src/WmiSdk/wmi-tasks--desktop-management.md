@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: bb8356bf-de38-4925-a501-6ad47d23ea8f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Desktop Management'
 ms.author: windowssdkdev

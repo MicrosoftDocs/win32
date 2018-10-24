@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 1aacc523-2a2f-43f5-96a3-aa0387cbae3e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Constructing a Moniker String
 ms.author: windowssdkdev

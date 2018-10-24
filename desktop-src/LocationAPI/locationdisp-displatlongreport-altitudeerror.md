@@ -2,8 +2,6 @@
 Description: Altitude error, in meters.
 ms.assetid: 36ebb079-26e6-4b3f-ad73-547a47bd23d7
 title: LocationDisp.DispLatLongReport.AltitudeError property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

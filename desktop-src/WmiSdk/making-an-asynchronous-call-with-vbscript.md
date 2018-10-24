@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 61f401d9-c874-472d-8dd3-7cf9d7f20a12
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Making an Asynchronous Call with VBScript
 ms.author: windowssdkdev

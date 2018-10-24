@@ -2,8 +2,6 @@
 Description: This constant is the maximum number of vertex declarators for a mesh.
 ms.assetid: 234e99a2-1907-4065-b03b-fb9e8d6812ab
 title: MAX_FVF_DECL_SIZE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Multithreaded Clients and Context Handles
 description: When you have a multithreaded client where multiple threads are using the same context handle instance, access to the context handle instance is serialized at the server by default.
 ms.assetid: 192be467-b1e0-422b-878a-738cb7d72b5b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

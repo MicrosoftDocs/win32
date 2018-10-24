@@ -2,8 +2,6 @@
 title: IMAPI Multisession Layout
 description: IMAPI provides application developers with the ability to create ISO 9660 and UDF file system images and burn them onto CD, DVD and Blu-Ray \ 8482; optical media.
 ms.assetid: 691fdc3a-e762-4d6d-9980-e2d9227100a5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

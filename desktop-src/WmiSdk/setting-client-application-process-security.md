@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 790b4e40-9b92-464a-a774-dec0b75cedee
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Client Application Process Security
 ms.author: windowssdkdev

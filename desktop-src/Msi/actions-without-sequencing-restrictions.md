@@ -2,8 +2,6 @@
 Description: The sequencing of the following actions is unrestricted. These actions can be placed anywhere in the action sequence.
 ms.assetid: 35ccfad2-b022-4446-8275-a3b26f4e4db2
 title: Actions without Sequencing Restrictions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

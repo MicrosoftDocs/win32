@@ -2,8 +2,6 @@
 title: Exposing Owner-Drawn Menu Items
 description: Exposing Owner-Drawn Menu Items
 ms.assetid: 93b51cbb-b7b4-4a38-ba69-d6345a269944
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

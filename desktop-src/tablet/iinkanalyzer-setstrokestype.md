@@ -2,8 +2,6 @@
 Description: Changes the type of the specified strokes.
 ms.assetid: 8d954a7d-c987-41cf-9933-b2e6bacc9489
 title: IInkAnalyzer::SetStrokesType method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following user-defined structure can be used for vertices that will be blended between two matrices.
 ms.assetid: 6bcabcf9-d14e-446a-8dd2-e741211cc704
 title: Using Geometry Blending (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

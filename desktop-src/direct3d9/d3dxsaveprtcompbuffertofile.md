@@ -2,8 +2,6 @@
 Description: Saves a compressed precomputed radiance transfer (PRT) buffer to disk.
 ms.assetid: cc94a83e-f755-411d-a993-4529c5d53cd5
 title: D3DXSavePRTCompBufferToFile function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4bd2b03f-ba8c-483e-af09-270424f9b1ed
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - ProvisioningEnumerateJobs method Remote Desktop Services

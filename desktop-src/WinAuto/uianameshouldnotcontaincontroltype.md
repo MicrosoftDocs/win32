@@ -2,8 +2,6 @@
 title: UiaNameShouldNotContainControlType
 description: UiaNameShouldNotContainControlType
 ms.assetid: 96F7A5FC-1879-4706-9E67-5B43D57F7281
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

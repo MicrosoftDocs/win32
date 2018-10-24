@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7EE0A09D-F8C5-40B8-B32A-AADFB1BD9C27
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObjectPath Properties
 ms.author: windowssdkdev

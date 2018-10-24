@@ -2,8 +2,6 @@
 Description: Flags used to specify creation options for a mesh.
 ms.assetid: c94e19ab-8024-4a28-9d1a-6d57707c3a52
 title: D3DXMESH enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

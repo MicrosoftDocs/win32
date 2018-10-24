@@ -2,8 +2,6 @@
 Description: The TAPI 3 Terminal Manager is created by Tapi3.dll at the request of an MSP, and is used by the MSP for tasks such as the creation and deletion of dynamic terminals.
 ms.assetid: 4fecbdc3-490d-44dc-bdbc-61a8e2b82d3d
 title: TAPI 3 Terminal Manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

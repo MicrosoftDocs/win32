@@ -2,8 +2,6 @@
 Description: This CheckBox\_control is a two-state check box.
 ms.assetid: 939cc08f-7efd-4ff4-a846-6419e512a18f
 title: CheckBox Control
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

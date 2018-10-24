@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4cac5fdd-c842-4d7e-a56e-2e1312df68b4
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering for System Registry Events
 ms.author: windowssdkdev

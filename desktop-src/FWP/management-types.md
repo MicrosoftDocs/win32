@@ -2,8 +2,6 @@
 title: Management Types
 description: Management Types
 ms.assetid: 9C392913-C1CA-4988-978C-8AC030FD0A26
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

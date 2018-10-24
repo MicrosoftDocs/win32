@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 68819bea-a48d-4de1-a50d-f03ae04775f5
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Getting and Providing Data on a 64-bit Computer
 ms.author: windowssdkdev

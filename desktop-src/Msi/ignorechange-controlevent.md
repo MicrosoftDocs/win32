@@ -2,8 +2,6 @@
 Description: The IgnoreChange ControlEvent is published by the DirectoryList control when the selected folder is changed from one directory to another directory in the control. This event should be authored in the EventMapping table.
 ms.assetid: 4d3128a1-cbe3-457c-83b5-8f6ec1a7ba29
 title: IgnoreChange ControlEvent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

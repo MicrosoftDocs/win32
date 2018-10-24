@@ -2,8 +2,6 @@
 Description: Proxy function for the CreateQueryWriter method.
 ms.assetid: 7f925117-6244-4be6-bcef-fa852672ac64
 title: IWICImagingFactory_CreateQueryWriter_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

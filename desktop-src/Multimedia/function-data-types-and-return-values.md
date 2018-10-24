@@ -2,8 +2,6 @@
 title: Function Data Types and Return Values
 description: Function Data Types and Return Values
 ms.assetid: a17ec8bb-4369-463f-8c67-11457a18595b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

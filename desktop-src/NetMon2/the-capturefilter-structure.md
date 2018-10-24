@@ -2,8 +2,6 @@
 Description: In Network Monitor, the capture filter is defined by the CAPTUREFILTER structure.
 ms.assetid: 03cd35f2-4da5-4ef6-b73f-0bf6e0e33135
 title: The CAPTUREFILTER Structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A web page customizes the user interface (UI) with the title, icon, and header color by using metadata tags defined on the web page.
 ms.assetid: 6F1E0B2E-E013-4C5B-86A4-0AF8606D0C12
 title: How to customize the UI elements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

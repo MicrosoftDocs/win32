@@ -2,8 +2,6 @@
 title: TabbedToUnknownElement
 description: TabbedToUnknownElement
 ms.assetid: B0447B19-E281-4D30-8ED8-FC0EE13571C8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

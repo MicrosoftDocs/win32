@@ -2,8 +2,6 @@
 title: IBitsPeerCacheRecord Methods
 description: The IBitsPeerCacheRecord interface exposes the following methods.
 ms.assetid: 504ED699-35FC-4893-B25E-6ADA246193F8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Indicates whether 802.1X authentication is used.
 ms.assetid: dbddaf5a-7574-4282-ab4d-f6f697ed94ab
 title: useOneX (authEncryption) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

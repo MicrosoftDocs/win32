@@ -2,8 +2,6 @@
 title: Calling SRSetRestorePoint
 description: An application can create a restore point before it causes a significant system change, such as an install, uninstall, or feature update.
 ms.assetid: 77981e75-8c3f-4ecc-82f4-e88d68df661a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

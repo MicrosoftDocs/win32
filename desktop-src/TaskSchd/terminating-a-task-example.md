@@ -2,8 +2,6 @@
 title: Terminating a Task Example
 description: You can terminate a task while it is running by calling IScheduledWorkItem Terminate.
 ms.assetid: f8401650-e196-4959-8f23-3d649a55f73d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

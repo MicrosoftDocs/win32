@@ -2,8 +2,6 @@
 Description: Like all processes, a protected server has a primary access token that describes its security context.
 ms.assetid: '4e6393b2-4a71-49e4-b1e7-f34bf317d60d'
 title: The Client Security Context
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

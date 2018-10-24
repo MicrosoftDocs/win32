@@ -2,8 +2,6 @@
 Description: Infinite Pin Tee Filter
 ms.assetid: 5f3e06ec-adee-4bc7-8ea8-cce3030d3baa
 title: Infinite Pin Tee Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

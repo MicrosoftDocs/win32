@@ -5,8 +5,6 @@ ms.assetid: 2f930380-fc6e-4a39-98c6-a03b64f1bba5
 keywords:
 - Windows networking WNet ,reference
 - WNet WNet ,reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

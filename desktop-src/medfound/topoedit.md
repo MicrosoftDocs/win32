@@ -2,8 +2,6 @@
 Description: TopoEdit
 ms.assetid: '464bd562-e49f-4099-b66e-48b7caf230bb'
 title: TopoEdit
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

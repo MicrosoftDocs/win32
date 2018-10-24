@@ -2,8 +2,6 @@
 Description: The Pause method pauses the filter. This method implements the IMediaFilter::Pause method.
 ms.assetid: 3e3afd14-1c92-4f2b-a367-e10caaeb3b63
 title: CTransformFilter.Pause method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

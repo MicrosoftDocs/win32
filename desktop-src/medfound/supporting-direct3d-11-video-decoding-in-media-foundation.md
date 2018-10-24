@@ -2,8 +2,6 @@
 Description: This topic describes how to support Microsoft Direct3D 11 in a Microsoft Media Foundation decoder.
 ms.assetid: 656556AA-0266-4318-9D3C-AED75BD728F6
 title: Supporting Direct3D 11 Video Decoding in Media Foundation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

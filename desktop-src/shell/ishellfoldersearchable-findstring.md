@@ -2,8 +2,6 @@
 Description: Begins a search for a specified search string.
 ms.assetid: 6ecad03c-e8e0-45ba-8def-b55a029992f2
 title: IShellFolderSearchable::FindString method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

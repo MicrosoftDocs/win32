@@ -11,8 +11,6 @@ keywords:
 - mapping control patterns
 - control patterns,mapping
 - control patterns,list of
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

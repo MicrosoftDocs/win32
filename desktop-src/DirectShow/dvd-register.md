@@ -2,8 +2,6 @@
 Description: The DVD\_REGISTER data type contains a value for a DVD general parameter register (GPRM) or system parameter register (SPRM).
 ms.assetid: cd1aaeff-241c-4e54-9d05-da5cf61b58df
 title: DVD_REGISTER
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

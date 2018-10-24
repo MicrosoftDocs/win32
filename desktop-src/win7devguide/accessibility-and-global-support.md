@@ -2,8 +2,6 @@
 title: Accessibility and Global Support
 description: The Windows 7 platform makes it easier to build solutions that are accessible to more users and that meet or exceed accessibility compliance standards.
 ms.assetid: bcad2f00-7885-461c-a2dc-0a0a176962b4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

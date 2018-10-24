@@ -7,8 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),editing metadata attributes
 - ASF (Advanced Systems Format),editing metadata attributes
 - metadata,editing attributes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

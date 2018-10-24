@@ -2,8 +2,6 @@
 Description: Creates a user profile for a specified user.
 ms.assetid: e4ea4032-d8d3-45c1-b2e5-7fef52a8a869
 title: CreateUserProfileEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

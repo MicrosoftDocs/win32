@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7b8b7f00-95d8-4c1e-8638-157d0f4c7c32
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Class Qualifiers for Performance Counter Classes
 ms.author: windowssdkdev

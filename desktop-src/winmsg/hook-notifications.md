@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 98c88153-e7ed-40fd-978e-e7a7ef8cc49c
 title: Hook Notifications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following enumeration is used by an application to monitor and report on the print operation.
 ms.assetid: 8B182A65-BC71-412D-92E8-07CDB019C819
 title: Print Document Package API Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

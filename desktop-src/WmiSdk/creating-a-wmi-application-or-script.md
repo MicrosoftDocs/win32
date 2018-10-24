@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c0d18827-6b36-4817-8cd9-06cd0f267b28
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a WMI Application or Script
 ms.author: windowssdkdev

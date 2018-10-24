@@ -2,8 +2,6 @@
 Description: The ADDRESSPAIR structure constructs a capture filter.
 ms.assetid: 0dd2bcaa-5e0f-448f-969e-14b923a01a2f
 title: ADDRESSPAIR structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

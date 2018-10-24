@@ -2,8 +2,6 @@
 title: Finding Endpoints
 description: Server programs listen to endpoints for client requests. The syntax of the endpoint string depends on the protocol sequence you use. For example, the endpoint for TCP/IP is a port number, and the endpoint syntax for named pipes is a valid pipe name.
 ms.assetid: 330bbe9f-b7e9-4a5b-86d8-824edec960d2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Initializing the ContentInfo Object of a New ASF File
 ms.assetid: a4f6c90e-1b38-4c70-8bc5-e2e16af3d87a
 title: Initializing the ContentInfo Object of a New ASF File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

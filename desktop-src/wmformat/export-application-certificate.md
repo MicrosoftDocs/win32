@@ -12,8 +12,6 @@ keywords:
 - DRM Client Extended APIs,Export Application Certificate
 - Client Extended APIs,Export Application Certificate
 - Export Application Certificate
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

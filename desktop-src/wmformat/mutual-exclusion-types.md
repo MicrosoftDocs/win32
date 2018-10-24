@@ -7,8 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),mutual exclusion
 - ASF (Advanced Systems Format),mutual exclusion
 - mutual exclusion,types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Reference count.
 ms.assetid: 57b8498d-2aa4-414f-9e0a-3ddcb748fb38
 title: CMediaSample::m_cRef member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

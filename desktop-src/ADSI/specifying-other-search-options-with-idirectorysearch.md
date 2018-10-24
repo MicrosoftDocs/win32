@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 91b7ba90-99b3-4137-8e4e-8d0ccfb0ec13
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Specifying Other Search Options with IDirectorySearch ADSI

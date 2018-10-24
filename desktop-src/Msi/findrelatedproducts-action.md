@@ -2,8 +2,6 @@
 Description: The FindRelatedProducts action runs through each record of the Upgrade table in sequence and compares the upgrade code, product version, and language in each row to products installed on the system.
 ms.assetid: 7efcb767-9bdf-43a4-83b8-61b6fc84adf6
 title: FindRelatedProducts Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

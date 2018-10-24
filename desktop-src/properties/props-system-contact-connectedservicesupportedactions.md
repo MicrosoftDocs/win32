@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 93c10b75-2071-46fa-9ff0-57b317f53af8
 title: System.Contact.ConnectedServiceSupportedActions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

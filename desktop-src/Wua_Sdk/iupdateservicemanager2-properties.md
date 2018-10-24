@@ -2,8 +2,6 @@
 Description: The IUpdateServiceManager2 interface defines the following property.
 ms.assetid: af23ca81-d6c3-4adf-9a66-b4cfe9bf8538
 title: IUpdateServiceManager2 Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

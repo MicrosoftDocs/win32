@@ -2,8 +2,6 @@
 Description: A multitrack terminal can be thought of as a terminal that is a collection of other terminals. Each child terminal (a &\#0034;track&\#0034;) can be a multitrack terminal or a single-track terminal.
 ms.assetid: bf23bc26-5763-45a3-a63d-e43ce2480956
 title: About Multitrack Terminals
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

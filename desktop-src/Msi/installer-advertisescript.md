@@ -2,8 +2,6 @@
 Description: The AdvertiseScript method of the Installer object advertises an installation package.
 ms.assetid: 45e5268f-7a5f-412f-b9f6-0abb75b79361
 title: Installer::AdvertiseScript method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

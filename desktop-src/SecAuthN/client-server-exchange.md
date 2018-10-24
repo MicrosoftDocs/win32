@@ -2,8 +2,6 @@
 Description: Client/Server Exchange
 ms.assetid: 2449c4b3-720d-4b84-b3cf-fcc4abd05d33
 title: Client/Server Exchange
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

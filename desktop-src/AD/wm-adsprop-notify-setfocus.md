@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 536b2f64-a918-478e-b7f4-f383642daafa
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - WM_ADSPROP_NOTIFY_SETFOCUS message Active Directory

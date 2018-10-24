@@ -2,8 +2,6 @@
 Description: The GetNextAdviseTime method retrieves the time of the next advise request.
 ms.assetid: 2a376250-fb39-46d7-a5a8-e3a3143cd209
 title: CAMSchedule.GetNextAdviseTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

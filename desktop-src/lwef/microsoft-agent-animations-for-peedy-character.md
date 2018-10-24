@@ -2,8 +2,6 @@
 title: Microsoft Agent Animations for Peedy Character
 description: Microsoft Agent Animations for Peedy Character
 ms.assetid: 335d915c-9cae-4850-a6bf-66ad78d533ff
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

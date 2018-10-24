@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 6b951418-9076-42ca-9ed5-4e260e8c19bc
 title: System.Music.AlbumArtist
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

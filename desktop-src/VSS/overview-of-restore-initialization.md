@@ -2,8 +2,6 @@
 Description: In initializing a VSS restore operation, a requester needs to retrieve the Backup Component Document and each relevant Writer Metadata Document created and saved during the backup operation.
 ms.assetid: 0a087125-c9d4-460a-8153-3e2e26633ac2
 title: Overview of Restore Initialization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

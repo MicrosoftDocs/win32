@@ -3,8 +3,6 @@ Description: Contains definitions of security terms that begin with the letter T
 Robots: noindex, nofollow
 ms.assetid: 11f2e098-1d1e-473b-90ff-7b86eb923e9f
 title: T
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

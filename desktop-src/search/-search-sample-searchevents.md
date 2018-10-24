@@ -2,8 +2,6 @@
 Description: The SearchEvents code sample demonstrates how to prioritize indexing events.
 ms.assetid: a352c3e2-5860-4b9c-a3c7-a806f69b4f7d
 title: SearchEvents
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

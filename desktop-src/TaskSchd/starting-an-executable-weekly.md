@@ -4,8 +4,6 @@ description: Writing a task that starts an executable on a weekly basis is done 
 ms.assetid: baa56811-8c4b-44bb-b920-308b3d10f046
 keywords:
 - Task Scheduler examples Task Scheduler , weekly trigger
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

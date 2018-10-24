@@ -2,8 +2,6 @@
 Description: Identifies the layout pattern that the content view mode should apply for this item in the context of searching.
 ms.assetid: 1a059c44-a0ae-4041-8878-e1be40dd6612
 title: System.LayoutPattern.ContentViewModeForSearch
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

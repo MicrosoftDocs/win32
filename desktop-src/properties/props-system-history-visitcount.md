@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 71043fd9-d128-4d2e-82b0-5d76107c2592
 title: System.History.VisitCount
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

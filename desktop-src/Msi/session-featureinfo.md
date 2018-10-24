@@ -2,8 +2,6 @@
 Description: The FeatureInfo method of the Session object returns a FeatureInfo object containing descriptive information for the specified feature.
 ms.assetid: f5391fd4-984e-44cc-8b6c-fd97834e0674
 title: Session.FeatureInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

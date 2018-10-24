@@ -2,8 +2,6 @@
 Description: In Windows Vista and Windows Server 2008, the default locations for user data and system data have changed.
 ms.assetid: 78679851-91f5-447f-8580-12cbf0323fb8
 title: Junction Points
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

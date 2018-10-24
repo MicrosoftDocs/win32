@@ -2,8 +2,6 @@
 title: Reference Tracking
 description: Reference Tracking
 ms.assetid: 1e2cf555-3b96-42d5-a0bb-abb720c93520
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

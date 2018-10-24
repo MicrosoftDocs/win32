@@ -2,8 +2,6 @@
 Description: The EffectInsBefore method inserts an effect into the object at the specified priority level.
 ms.assetid: 6c98e24a-5bac-4273-ae3c-2ab3c9d9465b
 title: IAMTimelineEffectable::EffectInsBefore method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

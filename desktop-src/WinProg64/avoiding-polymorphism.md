@@ -4,8 +4,6 @@ description: The new data types include two polymorphic types, INT\_PTR and LONG
 ms.assetid: 3d18016d-772c-45bc-8057-7281e71a8707
 keywords:
 - polymorphism 64-bit Windows Programming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 72a7ec04-9af3-41ae-9189-6e1d46803fa9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WQL (SQL for WMI)
 ms.author: windowssdkdev

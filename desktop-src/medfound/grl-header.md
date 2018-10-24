@@ -2,8 +2,6 @@
 Description: Contains the global revocation list (GRL) header.
 ms.assetid: 806ae550-5106-47ec-8466-f967598d3e61
 title: GRL_HEADER structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

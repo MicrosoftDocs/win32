@@ -2,8 +2,6 @@
 title: SRStatus Property
 description: SRStatus Property
 ms.assetid: 67618a35-05e4-4bb3-b910-c75de6e32578
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

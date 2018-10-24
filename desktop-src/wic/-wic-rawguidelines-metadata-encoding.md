@@ -2,8 +2,6 @@
 Description: Encoding
 ms.assetid: 501e63bf-26ef-42fb-b181-f1a8b26c122c
 title: Encoding
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

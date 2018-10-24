@@ -2,8 +2,6 @@
 Description: Retrieves the current matrix at the top of the stack.
 ms.assetid: cf379742-3e7d-4309-a7af-b97348428682
 title: ID3DXMATRIXStack::GetTop method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

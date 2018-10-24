@@ -2,8 +2,6 @@
 Description: On Windows 2000, it is common for an installation utility to check the current and maximum size of the registry to determine whether there is enough available space for the new data it will be adding.
 ms.assetid: 87e7b9de-d571-41e4-817e-29023546e9bd
 title: Determining the Registry Size
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

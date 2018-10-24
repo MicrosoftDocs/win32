@@ -2,8 +2,6 @@
 Description: Welds together replicated vertices that have equal attributes. This method uses specified epsilon values for equality comparisons.
 ms.assetid: bddf6e0c-55a1-40d2-8681-e7f0f9002bfa
 title: D3DXWeldVertices function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

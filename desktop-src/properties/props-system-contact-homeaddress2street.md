@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 550499ba-8775-4186-a99f-4e3c8855e55e
 title: System.Contact.HomeAddress2Street
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

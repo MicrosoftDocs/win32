@@ -2,8 +2,6 @@
 Description: Adds feature settings to the configuration of an Ethernet switch port.
 ms.assetid: 628a6546-cc78-4fde-be0c-533a2c3f9483
 title: AddFeatureSettings method of the Msvm_VirtualEthernetSwitchManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

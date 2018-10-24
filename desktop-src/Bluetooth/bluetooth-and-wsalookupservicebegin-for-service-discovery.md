@@ -4,8 +4,6 @@ description: To discover the existence of a particular service on a Bluetooth se
 ms.assetid: d9961600-cdca-42ec-92eb-118b8186ed2e
 keywords:
 - Bluetooth and WSALookupServiceBegin for Service Discovery Bluetooth
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

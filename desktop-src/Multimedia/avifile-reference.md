@@ -2,8 +2,6 @@
 title: AVIFile Reference
 description: AVIFile Reference
 ms.assetid: 73532d83-89c2-4911-8558-ce110e9f0f95
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: AutoDial Connection Operations
 description: When an attempt to connect to a network address fails because the host cannot be reached, the system searches the AutoDial mapping database for the address.
 ms.assetid: 343ee69e-1ff5-4107-9ddb-4245c3b4a54d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

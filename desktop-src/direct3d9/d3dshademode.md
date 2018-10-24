@@ -2,8 +2,6 @@
 Description: Defines constants that describe the supported shading modes.
 ms.assetid: ba4e0c62-b496-427b-a324-2fb560d153ba
 title: D3DSHADEMODE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a653c29b-6c6c-4e26-9f7d-94a2dbb48113
 title: System.Media.MCDI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

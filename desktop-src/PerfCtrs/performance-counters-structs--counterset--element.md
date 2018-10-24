@@ -2,8 +2,6 @@
 Description: A list of structures that contain the values of the counters in the parent counter set.
 ms.assetid: e6fb5cc1-08c9-4f8f-9072-ad21908ab3cb
 title: structs (counterSet) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

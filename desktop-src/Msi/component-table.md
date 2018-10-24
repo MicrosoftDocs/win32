@@ -2,8 +2,6 @@
 Description: The Component table lists components and it has the following columns.
 ms.assetid: 069d64e9-106a-42b7-8dea-a44fc0c6e0cd
 title: Component Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

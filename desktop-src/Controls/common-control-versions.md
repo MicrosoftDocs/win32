@@ -2,8 +2,6 @@
 title: Common Control Versions
 description: This topic lists the available versions of the Common Control library (ComCtl32.dll), describes how to identify the version that your application is using, and explains how to target your application for a specific version.
 ms.assetid: 1B524A91-B433-4968-9546-8A6AFB67E89C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A language identifier is a standard international numeric abbreviation for the language in a country or geographical region.
 ms.assetid: 076e2a43-256a-4646-a5c8-1d48ab08ce1a
 title: Language Identifiers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

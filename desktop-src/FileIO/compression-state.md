@@ -2,8 +2,6 @@
 Description: Each file and directory on a volume that supports compression for individual files and directories has a compression state.
 ms.assetid: 9db1b2e2-864e-45b5-8227-400cad75222e
 title: Compression State
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

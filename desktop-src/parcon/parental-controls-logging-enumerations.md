@@ -2,8 +2,6 @@
 Description: Parental Controls provides the following logging enumerations.
 ms.assetid: 617e103c-a24f-4576-acde-1ddec0dc7062
 title: Parental Controls Logging Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

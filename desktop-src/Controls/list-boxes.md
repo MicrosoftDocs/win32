@@ -2,8 +2,6 @@
 title: List Box
 description: This section contains information about the programming elements used with list boxes. A list box is a control window that contains a simple list of items from which the user can choose.
 ms.assetid: 'vs|controls|~\controls\listboxes\listboxes.htm'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: System Reference Clock
 ms.assetid: 0247dcb9-64ee-4562-944a-44bcfae80f2d
 title: System Reference Clock
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

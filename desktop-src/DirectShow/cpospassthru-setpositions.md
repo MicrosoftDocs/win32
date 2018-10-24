@@ -2,8 +2,6 @@
 Description: The SetPositions method sets the current position and the stop position. This method implements the IMediaSeeking::SetPositions method.
 ms.assetid: d4425221-e20f-4e51-8a33-a74fa21f9117
 title: CPosPassThru.SetPositions method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

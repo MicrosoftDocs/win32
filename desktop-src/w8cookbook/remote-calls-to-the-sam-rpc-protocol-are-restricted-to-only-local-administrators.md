@@ -2,8 +2,6 @@
 title: Remote calls to the SAM RPC protocol are restricted to only local administrators
 description: The SAM RPC protocol is being restricted. This means that only members of the local Administrator group can make remote calls against methods in this protocol. Active Directory domain controller behavior is unaffected.
 ms.assetid: 816BFB8C-A8EE-44F4-864D-748AF8BCF1F8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

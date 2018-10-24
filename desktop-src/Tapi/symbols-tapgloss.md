@@ -2,8 +2,6 @@
 Description: Symbols topic in the TAPI glossary.
 ms.assetid: 28b5ff76-bae0-4221-bef9-4271a2075a5e
 title: Symbols
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

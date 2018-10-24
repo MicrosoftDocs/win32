@@ -2,8 +2,6 @@
 Description: Implements the IX509PrivateKey and IX509PublicKey interfaces.
 ms.assetid: 1358053e-ed4e-4482-b160-5b9b1024c771
 title: Private and Public Key Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

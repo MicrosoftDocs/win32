@@ -2,8 +2,6 @@
 Description: Video Mixing Renderer Filter 9
 ms.assetid: 3885cca2-74b1-4066-8ecb-84c9841f9e66
 title: Video Mixing Renderer Filter 9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

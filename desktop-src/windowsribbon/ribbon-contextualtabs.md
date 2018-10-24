@@ -6,8 +6,6 @@ keywords:
 - Windows Ribbon,contextual tabs
 - Ribbon,contextual tabs
 - displaying Windows Ribbon contextual tabs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

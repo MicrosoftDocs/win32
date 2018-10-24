@@ -2,8 +2,6 @@
 Description: When illuminated by a light source, shiny objects - those that use highly reflective materials - receive specular highlights.
 ms.assetid: cea53131-1e2e-4389-80fd-ef5a0d068703
 title: Specular Light Maps (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

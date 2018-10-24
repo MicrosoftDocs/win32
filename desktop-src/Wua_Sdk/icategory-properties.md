@@ -2,8 +2,6 @@
 Description: The ICategory interface defines the following properties.
 ms.assetid: aa9c4dbb-5e33-47b7-ae6c-8d83010e205b
 title: ICategory Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

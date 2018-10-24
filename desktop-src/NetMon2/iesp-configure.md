@@ -2,8 +2,6 @@
 Description: The Configure method submits configuration information for a capture.
 ms.assetid: b8cbbae1-3c07-489f-8e8f-77c95ec03209
 title: IESP::Configure method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

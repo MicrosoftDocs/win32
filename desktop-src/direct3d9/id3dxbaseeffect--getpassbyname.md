@@ -2,8 +2,6 @@
 Description: Gets the handle of a pass by looking up its name.
 ms.assetid: 24d043a2-5c87-4a59-80d4-0c81bd7a0b3e
 title: ID3DXBaseEffect::GetPassByName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

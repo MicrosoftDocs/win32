@@ -2,8 +2,6 @@
 title: Samples
 description: This section provides details about the code samples that support the Microsoft Active Accessibility documentation.
 ms.assetid: a9f6d2f5-8d8d-4894-b234-8bd6ccbf677e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

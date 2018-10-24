@@ -2,8 +2,6 @@
 Description: The FORMSOF term performs matches using other linguistic forms of the word.
 ms.assetid: b705b8bc-dc2c-4cee-8306-f494b0f96cbf
 title: FORMSOF Term
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

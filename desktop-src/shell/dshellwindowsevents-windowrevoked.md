@@ -1,8 +1,6 @@
 ---
 Description: Called when a Shell window's registration is revoked.
 title: DShellWindowsEvents.WindowRevoked method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: It is not possible to eliminate all circumstances under which the application of a patch may require access to the original installation source.
 ms.assetid: f7028c55-e4a5-4596-af7a-728c9f4f367e
 title: Preventing a Patch from Requiring Access to the Original Installation Source
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

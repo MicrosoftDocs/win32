@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 604a86d2-9a8e-4266-93b8-13676f768b29
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Whats New in Windows Vista
 ms.author: windowssdkdev

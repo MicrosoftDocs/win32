@@ -2,8 +2,6 @@
 Description: For an application to run properly, the host computer must have the appropriate DLLs installed. These DLLs may be provided by either the operating system, or the applications' redistributable package.
 ms.assetid: fa5405e9-116f-4b7f-8f8e-791a79942570
 title: Linking Static and Dynamic Libraries (Direct3D 10)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

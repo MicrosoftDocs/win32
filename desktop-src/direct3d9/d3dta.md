@@ -2,8 +2,6 @@
 Description: 'Texture argument constants are used as values for the following members of the D3DTEXTURESTAGESTATETYPE enumerated type:'
 ms.assetid: 36b2b715-5ced-4246-840e-8ea343521ef4
 title: D3DTA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

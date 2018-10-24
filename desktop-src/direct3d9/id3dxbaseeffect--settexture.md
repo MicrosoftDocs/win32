@@ -2,8 +2,6 @@
 Description: Sets a texture.
 ms.assetid: edf5bf61-508a-4417-bdf8-c36e6ba7ab30
 title: ID3DXBaseEffect::SetTexture method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

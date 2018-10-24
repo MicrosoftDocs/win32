@@ -2,8 +2,6 @@
 Description: Filter States
 ms.assetid: 97418307-eb50-4c8e-b03b-a2cd08139bdc
 title: Filter States
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Interpolates between two quaternions, using spherical linear interpolation.
 ms.assetid: 487e1df1-bf20-49cb-ad14-61fcf1300904
 title: D3DXQuaternionSlerp function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

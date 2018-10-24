@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: ff15eb50-01ab-4b45-bcfd-1df01172f274
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Accessing the Property Cache Directly with the IADsProperty Interfaces ADSI

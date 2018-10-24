@@ -2,8 +2,6 @@
 Description: Windows Sonic is Microsoft’s platform-level solution for spatial sound support on Xbox and Windows, enabling both surround and elevation (above or below the listener) audio cues.
 ms.assetid: 4F962F1A-CA4A-4018-BA97-516EA3519650
 title: Spatial Sound
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

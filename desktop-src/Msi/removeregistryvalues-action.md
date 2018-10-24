@@ -2,8 +2,6 @@
 Description: The RemoveRegistryValues action can only remove values from the system registry that have been authored into the Registry table or the RemoveRegistry table.
 ms.assetid: aa05eb75-15f2-4e2a-a8e2-a770ad078b41
 title: RemoveRegistryValues Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Setting the Graph Clock
 ms.assetid: 23deab26-6c9a-4f94-b750-11c9b1a14ce3
 title: Setting the Graph Clock
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

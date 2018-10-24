@@ -2,8 +2,6 @@
 title: IAgentSpeechInputProperties GetEnabled
 description: IAgentSpeechInputProperties GetEnabled
 ms.assetid: 5731f9ad-eb2e-4a79-a724-b3c263235c8c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

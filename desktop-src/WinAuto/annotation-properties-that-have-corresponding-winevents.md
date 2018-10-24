@@ -2,8 +2,6 @@
 title: Annotation Properties That Have Corresponding WinEvents
 description: Be careful when overriding properties that change frequently, particularly those that are examined by clients as a result of a WinEvent (such as State, Value, and, for some controls, the Name properties).
 ms.assetid: 2505d015-9381-4e1c-a10f-6db3fbb25ca3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

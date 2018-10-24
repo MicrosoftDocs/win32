@@ -2,8 +2,6 @@
 Description: Sets a pointer to an optional callback function that computes the percentage of spherical harmonic (SH) computations completed and gives the caller the option of aborting the simulator.
 ms.assetid: 0a47610d-fa4e-4094-9adb-4fd9306b8a12
 title: ID3DXPRTEngine::SetCallBack method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

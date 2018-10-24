@@ -9,8 +9,6 @@ keywords:
 - plug-ins,user overview
 - digital signal processing plug-ins,user overview
 - DSP plug-ins,user overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

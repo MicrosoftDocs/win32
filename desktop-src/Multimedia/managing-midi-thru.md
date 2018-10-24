@@ -7,8 +7,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),thru driver
 - recording MIDI audio,thru driver
 - MIDI thru driver
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Defines a Mobile Broadband Profile.
 ms.assetid: bfec0a1d-de17-4ebd-b9fb-570e230da317
 title: Mobile Broadband Profile Schema Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

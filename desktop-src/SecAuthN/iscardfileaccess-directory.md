@@ -2,8 +2,6 @@
 Description: The Directory method retrieves a list of files of the specified type from the current directory.
 ms.assetid: 0ae89811-7534-497b-af9f-ae37a48bc3e5
 title: ISCardFileAccess::Directory method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Requests a reset.
 ms.assetid: 544bd327-572d-4f0e-bc73-a68113222af0
 title: Reset method of the Msvm_LogicalDisk class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: DefaultAction Property
 description: An object's DefaultAction property describes the object's primary method of manipulation from the user's viewpoint. An object's DefaultAction property should be a verb or a short verb phrase.
 ms.assetid: 8242c0af-b42e-44a4-8807-d6740fa1a24a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

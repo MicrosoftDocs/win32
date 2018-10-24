@@ -2,8 +2,6 @@
 Description: Protocol value from the USB device's first USB Interface Descriptor.
 ms.assetid: c697893a-e289-4c41-8cda-9e9d697a6272
 title: System.DeviceInterface.WinUsb.UsbProtocol
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

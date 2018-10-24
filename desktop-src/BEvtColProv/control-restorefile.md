@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b59b04a5-d2b3-4299-8347-5026b982dc02
-ms.prod: windows-server-dev
-ms.technology:
 - boot-event-collector
 - windows-management-instrumentation
 ms.tgt_platform: multiple

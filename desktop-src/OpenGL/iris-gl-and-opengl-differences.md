@@ -8,8 +8,6 @@ keywords:
 - porting from IRIS GL,OpenGL differences
 - porting to OpenGL from IRIS GL,IRIS GL differences
 - OpenGL porting from IRIS GL,IRIS GL differences
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

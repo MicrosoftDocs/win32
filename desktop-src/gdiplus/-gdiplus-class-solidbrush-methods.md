@@ -2,8 +2,6 @@
 Description: This topic lists the methods of the SolidBrush class. For a complete class listing, see SolidBrush Class.
 ms.assetid: 330b367f-f39c-4854-ba9b-35117fb4cfdc
 title: SolidBrush Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

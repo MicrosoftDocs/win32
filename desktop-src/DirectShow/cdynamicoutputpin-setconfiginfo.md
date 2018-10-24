@@ -2,8 +2,6 @@
 Description: The SetConfigInfo method specifies the IGraphConfig pointer and the stop event.
 ms.assetid: 938fe8be-5622-4954-9ba3-31fc68fbfa31
 title: CDynamicOutputPin.SetConfigInfo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

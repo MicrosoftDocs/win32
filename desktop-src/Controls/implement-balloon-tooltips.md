@@ -2,8 +2,6 @@
 title: How to Implement Balloon Tooltips
 description: Balloon tooltips are similar to standard tooltips, but are displayed in a cartoon-style \ 0034;balloon \ 0034; with a stem pointing to the tool.
 ms.assetid: 59FEA8B6-772D-4BEF-A18C-945EC6A56FA2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

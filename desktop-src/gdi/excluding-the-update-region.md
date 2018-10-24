@@ -2,8 +2,6 @@
 Description: The ExcludeUpdateRgn function excludes the update region from the clipping region for the display device context.
 ms.assetid: e652122b-a3b7-4d1b-8afd-9648d5ee3d42
 title: Excluding the Update Region
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

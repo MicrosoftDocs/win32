@@ -2,8 +2,6 @@
 Description: Adds two 2D vectors.
 ms.assetid: 82b2fdf6-1b1f-4768-8c0b-ac8faa77d7ed
 title: D3DXVec2Add function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

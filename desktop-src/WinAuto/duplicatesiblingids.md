@@ -2,8 +2,6 @@
 title: DuplicateSiblingIDs
 description: DuplicateSiblingIDs
 ms.assetid: 942385A4-BD14-4046-9ABC-110B32D96BB6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

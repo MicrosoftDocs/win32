@@ -2,8 +2,6 @@
 title: AccNameShouldNotContainRole
 description: AccNameShouldNotContainRole
 ms.assetid: 271461FF-5123-482F-B66D-A323CB3361DD
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: e697e377-6407-4316-9f04-fe3bdb814175
 title: CBaseAllocator.CBaseAllocator constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

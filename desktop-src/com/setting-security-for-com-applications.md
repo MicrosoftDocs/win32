@@ -2,8 +2,6 @@
 title: Setting Security for COM Applications
 description: Setting Security for COM Applications
 ms.assetid: 5b615007-e04b-41be-872c-20e0ea818ff1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

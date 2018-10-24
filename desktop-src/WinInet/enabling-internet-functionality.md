@@ -2,8 +2,6 @@
 title: Enabling Internet Functionality
 description: Before using the WinINet functions, the application should attempt to make a connection to the Internet by using the InternetAttemptConnect function.
 ms.assetid: 80747c0d-5a09-4ffa-a0ca-b051b82acbf8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

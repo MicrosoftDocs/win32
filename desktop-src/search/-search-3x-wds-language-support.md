@@ -2,8 +2,6 @@
 Description: This topic describes how Windows Search supports multiple languages.
 ms.assetid: a800d2ac-3aee-4e74-a29a-a70355138ebc
 title: Languages Supported by Windows Search
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

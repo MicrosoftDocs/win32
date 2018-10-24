@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 78a194f0-cd21-4622-9242-be7e430b96c0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing an Instance Object Path
 ms.author: windowssdkdev

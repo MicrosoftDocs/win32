@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5ac8e964-606f-4010-84a8-7c0ae6ca2133
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering an Instance Provider
 ms.author: windowssdkdev

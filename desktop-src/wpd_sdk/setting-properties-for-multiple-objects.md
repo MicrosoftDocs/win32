@@ -2,8 +2,6 @@
 Description: Setting Properties for Multiple Objects
 ms.assetid: 0686ba54-4782-42a4-8fdb-2325fc8d8bc2
 title: Setting Properties for Multiple Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

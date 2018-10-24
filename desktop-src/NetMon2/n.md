@@ -3,8 +3,6 @@ Description: Glossary of Network Monitor terms that begin with the letter N.
 Robots: noindex, nofollow
 ms.assetid: 'a9b0e907-45c0-4301-9e83-398dd1c1c39a'
 title: N
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

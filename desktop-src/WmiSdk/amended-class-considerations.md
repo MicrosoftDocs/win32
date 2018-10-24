@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a0583153-f5d2-4f4c-ab2e-6ec468e665c7
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Amended Class Considerations
 ms.author: windowssdkdev

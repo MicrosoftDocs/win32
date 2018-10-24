@@ -2,8 +2,6 @@
 Description: This is a list of advanced topics that are implemented by vertex processing.
 ms.assetid: d0a559ff-4470-42a5-878b-125e1cdc1b9a
 title: Vertex Pipeline (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

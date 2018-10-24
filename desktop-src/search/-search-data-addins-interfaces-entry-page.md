@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 2e9748be-7d76-4424-8daf-c94a327d85ac
 title: Data Add-in Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

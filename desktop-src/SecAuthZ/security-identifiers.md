@@ -2,8 +2,6 @@
 Description: A security identifier (SID) is a unique value of variable length used to identify a trustee.
 ms.assetid: 7cb07bcd-70f4-43dd-8382-320fcff151c7
 title: Security Identifiers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

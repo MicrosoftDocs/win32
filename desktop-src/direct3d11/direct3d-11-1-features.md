@@ -2,8 +2,6 @@
 title: Direct3D 11.1 Features
 description: The following functionality has been added in Direct3D 11.1, which is included with Windows 8, Windows RT, and Windows Server 2012.
 ms.assetid: 2203D2D2-ECF6-4753-90FA-12A52678DFBB
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

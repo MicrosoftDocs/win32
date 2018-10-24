@@ -2,8 +2,6 @@
 Description: Gets the handle of a top-level parameter or a structure member parameter.
 ms.assetid: 940f1bfd-ce62-4c86-88cc-787e62cf6a93
 title: ID3DXBaseEffect::GetParameter method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

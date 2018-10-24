@@ -2,8 +2,6 @@
 title: IMAPI Reference
 description: IMAPI includes the following programming elements
 ms.assetid: 027fb7a1-48e0-425d-a960-e17f1cfc15a1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

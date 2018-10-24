@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: cfe4bcca-692e-45cd-a840-93ebfe4ae267
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving a WMI Class
 ms.author: windowssdkdev

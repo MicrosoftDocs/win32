@@ -2,8 +2,6 @@
 Description: If a Windows Installer package installs or advertises assemblies, the installer stores information about those assemblies in the local system registry.
 ms.assetid: 1a6b0530-b5ad-49db-bc08-5b20d32420ef
 title: Assembly Registry Keys Written by Windows Installer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

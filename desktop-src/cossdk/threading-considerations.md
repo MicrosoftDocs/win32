@@ -2,8 +2,6 @@
 Description: Threading Considerations
 ms.assetid: 4d27f0b3-3e30-4e88-b2b2-d57218da4ffa
 title: Threading Considerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

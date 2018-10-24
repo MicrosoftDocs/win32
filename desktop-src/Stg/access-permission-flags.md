@@ -2,8 +2,6 @@
 title: Access Permission Flags
 description: Access permission flags specify the type of access a client application has to an open object read, write, or read/write.
 ms.assetid: 54100f8d-6b99-47b7-adbf-4647c4d758fd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

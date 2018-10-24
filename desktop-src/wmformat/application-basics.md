@@ -9,8 +9,6 @@ keywords:
 - digital rights management (DRM),WMDRMStartup function
 - DRM (digital rights management),WMDRMStartup function
 - WMDRMStartup
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

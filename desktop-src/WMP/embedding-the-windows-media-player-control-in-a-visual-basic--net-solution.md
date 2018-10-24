@@ -19,8 +19,6 @@ keywords:
 - ActiveX control,Visual Basic .NET
 - embedding,Visual Basic .NET programs
 - Visual Basic .NET program embedding
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

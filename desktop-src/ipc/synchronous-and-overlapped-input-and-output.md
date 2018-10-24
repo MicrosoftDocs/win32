@@ -2,8 +2,6 @@
 Description: Synchronous pipe I/O and asynchronous pipe I/O. The ReadFile, WriteFile, TransactNamedPipe, and ConnectNamedPipe functions can perform input and output operations on a pipe either synchronously or asynchronously.
 ms.assetid: 5ab9bb7f-1f99-4041-bba8-2863f34dbcaf
 title: Synchronous and Overlapped Pipe I/O
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

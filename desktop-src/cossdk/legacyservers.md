@@ -2,8 +2,6 @@
 Description: Identical to the InprocServers collection except that this collection also includes local servers.
 ms.assetid: b185f568-ec97-4710-b744-5d69e71d6f60
 title: LegacyServers collection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

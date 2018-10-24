@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 358ebb76-5e19-47e9-83dc-0ba84170ddb1
 title: System.Contact.DisplayHomePhoneNumbers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

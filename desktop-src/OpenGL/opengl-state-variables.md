@@ -5,8 +5,6 @@ ms.assetid: f4bc4ec1-a529-4b9e-84af-94caa0ef7131
 keywords:
 - OpenGL state variables
 - state variables, OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

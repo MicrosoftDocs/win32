@@ -2,8 +2,6 @@
 title: Managing the Retransmission Policy
 description: The WinSNMP application can request that the Microsoft WinSNMP implementation execute the application's retransmission policy. When the implementation manages retransmission, it uses the time-out period and the retry count values in its database.
 ms.assetid: 1f1a9589-3566-4d90-ac4d-7acf69f34676
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

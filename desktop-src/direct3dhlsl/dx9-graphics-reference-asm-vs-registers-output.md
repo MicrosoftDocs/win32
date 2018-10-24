@@ -2,8 +2,6 @@
 title: Output Registers
 description: Output Registers
 ms.assetid: 44148185-1051-44b9-afde-a2ecd76c829f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The SelfReg table contains information about modules that need to be self registered.
 ms.assetid: 7fe5c96e-16a4-49c9-9a93-616608aa55b2
 title: SelfReg Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

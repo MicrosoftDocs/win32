@@ -2,8 +2,6 @@
 Description: Specifies the target format for an encoder.
 ms.assetid: 3d316561-352f-44f9-9978-01301a68e7b6
 title: AVEncCommonFormatConstraint property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

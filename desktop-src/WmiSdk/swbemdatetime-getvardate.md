@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e63e7acc-89d4-458a-a1ab-4d4a65cf7f8b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemDateTime.GetVarDate method
 ms.author: windowssdkdev

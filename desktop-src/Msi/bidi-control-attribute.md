@@ -2,8 +2,6 @@
 Description: This is a combination of the right-to-left reading order RTLRO, the RightAligned, and LeftScroll attributes.
 ms.assetid: 4eaec16f-ee1c-437b-8b76-7ebbdc4e2f71
 title: BiDi Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

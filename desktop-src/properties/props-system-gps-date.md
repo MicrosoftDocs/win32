@@ -2,8 +2,6 @@
 Description: The date and time of the GPS record.
 ms.assetid: 77824392-1249-479a-a379-1917140d65db
 title: System.GPS.Date
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

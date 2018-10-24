@@ -2,8 +2,6 @@
 Description: Specifies the original bit stream flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.\\ This property is read/write.
 ms.assetid: 247bdd95-c432-462f-a57a-b5ab8a2e3c70
 title: AVEncDDOriginalBitstream property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

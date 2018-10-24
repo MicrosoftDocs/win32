@@ -2,8 +2,6 @@
 Description: Embedding a font is the technique of bundling a document and the fonts it contains into a file for transmission to another computer.
 ms.assetid: ded409f1-5bd9-411b-b905-fc49c484786a
 title: Embedded Fonts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

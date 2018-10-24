@@ -2,8 +2,6 @@
 title: Split Button
 description: The Split Button is a composite control with which the user can select a default value bound to a primary button, or select from a list of mutually exclusive values displayed in a drop-down list bound to a secondary button.
 ms.assetid: 0939b3be-fa88-4864-8096-a664ab2e97b5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

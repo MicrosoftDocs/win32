@@ -2,8 +2,6 @@
 title: How a tiled resource's area is tiled
 description: When you create a tiled resource, the dimensions, format element size, and number of mipmaps and/or array slices (if applicable) determine the number of tiles that are required to back the entire surface area.
 ms.assetid: 834E317F-CFFD-460C-9F89-793081BA1853
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Exposes a method to evaluate whether an IContextNode object meets or fails a specified criteria.
 ms.assetid: 8b094882-e739-4088-87de-6ef4719b0b5b
 title: IMatchesCriteriaCallBack interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

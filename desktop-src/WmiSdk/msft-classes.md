@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8173ba8f-81f2-4fb9-8c14-b021425d8ea0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: MSFT Classes
 ms.author: windowssdkdev

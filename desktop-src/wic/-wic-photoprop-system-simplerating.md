@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.SimpleRating property.
 ms.assetid: d932a251-f238-4582-a1c4-cf4855f26fb3
 title: System.SimpleRating Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

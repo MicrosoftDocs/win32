@@ -7,8 +7,6 @@ keywords:
 - Windows Touch,interface properties
 - manipulations,IManipulationProcessor interface
 - IManipulationProcessor interface,properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

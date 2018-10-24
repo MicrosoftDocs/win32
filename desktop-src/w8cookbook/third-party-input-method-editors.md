@@ -2,8 +2,6 @@
 title: Third-party input method editors
 description: Third-party input method editors
 ms.assetid: 7FFD7210-2335-4499-A36A-ACFAECEB01F9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: An HRECOWORDLIST handle is used to manage a word list you attach to a recognizer context. You use a word list to improve recognition results.
 ms.assetid: 7333307b-1857-48a7-bb9f-bdbd8530f093
 title: HRECOWORDLIST Handle
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

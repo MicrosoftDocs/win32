@@ -2,8 +2,6 @@
 Description: Converts a Microsoft MS-DOS path to a canonicalized URL.
 ms.assetid: 1186b970-9ae1-4020-b999-55157cff1741
 title: MFCreateURLFromPath function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

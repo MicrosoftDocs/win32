@@ -2,8 +2,6 @@
 Description: The GetVideoFormat method retrieves a video sample that represents the current video format.
 ms.assetid: f7457c5b-037c-4a63-963e-0fc6086609a4
 title: CBaseControlVideo.GetVideoFormat method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

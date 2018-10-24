@@ -2,8 +2,6 @@
 Description: This section contains the core classes and interfaces in the Tablet PC COM Library.
 ms.assetid: 8bdd9674-9ace-457d-a3bd-167c7710bafc
 title: Core Tablet PC Classes and Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

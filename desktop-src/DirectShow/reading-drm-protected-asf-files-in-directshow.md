@@ -2,8 +2,6 @@
 Description: This topic describes how to use DirectShow to play media files that are protected with Windows Media Digital Rights Management (DRM).
 ms.assetid: a014942a-01e5-49d4-8a25-4604cd40f374
 title: Reading DRM-Protected ASF Files in DirectShow
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

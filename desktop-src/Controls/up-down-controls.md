@@ -2,8 +2,6 @@
 title: About Up-Down Controls
 description: An up-down control is a pair of arrow buttons that the user can click to increment or decrement a value, such as a scroll position or a number displayed in a companion control (called a buddy window).
 ms.assetid: ae2c0283-9cad-40d1-b8a6-a90484a95f56
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

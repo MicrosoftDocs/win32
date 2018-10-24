@@ -2,8 +2,6 @@
 Description: Loads a signing certificate from a specified .pfx file.
 ms.assetid: 98963354-c237-40d0-9235-8318728e2c8e
 title: Signer.Load method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

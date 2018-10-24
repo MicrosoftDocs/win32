@@ -2,8 +2,6 @@
 Description: Viewing Topology Information
 ms.assetid: d687ecd3-9ad6-46d5-b927-d9b99af2002f
 title: Viewing Topology Information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

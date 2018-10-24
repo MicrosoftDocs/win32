@@ -2,8 +2,6 @@
 title: Dialog Box Structures
 description: .
 ms.assetid: 'b6acae79-673f-453b-954f-9073712085ce'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

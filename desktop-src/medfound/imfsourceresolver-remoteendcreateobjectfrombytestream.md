@@ -2,8 +2,6 @@
 Description: Remotable version of the IMFSourceResolver::EndCreateObjectFromByteStream method.
 ms.assetid: 6e4e9ace-e18a-45df-b20c-28e352fcdee7
 title: RemoteEndCreateObjectFromByteStream
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

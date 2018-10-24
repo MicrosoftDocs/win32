@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 14d4a609-3aa4-49bd-bea4-6a71bc24d9dd
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObject.SubclassesAsync_ method
 ms.author: windowssdkdev

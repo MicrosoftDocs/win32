@@ -2,8 +2,6 @@
 Description: The EnumJobs function retrieves information about a specified set of print jobs for a specified printer.
 ms.assetid: 1cf429ea-b40e-4063-b6de-c43b7b87f3d3
 title: EnumJobs function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

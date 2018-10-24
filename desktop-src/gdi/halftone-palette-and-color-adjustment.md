@@ -2,8 +2,6 @@
 Description: Halftone palettes are intended to be used whenever the stretching mode of a device context is set to HALFTONE.
 ms.assetid: ee171379-2ab3-4c38-8e86-ff80fa63a357
 title: Halftone Palette and Color Adjustment
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

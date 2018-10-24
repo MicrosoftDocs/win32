@@ -2,8 +2,6 @@
 Description: The MP3 file source parses MP3 files.
 ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: MP3 File Source
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

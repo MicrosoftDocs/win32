@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 07fee6f8-810e-4dec-8f0f-787756ee3beb
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Object Path Requirements
 ms.author: windowssdkdev

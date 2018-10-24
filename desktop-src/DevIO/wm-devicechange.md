@@ -2,8 +2,6 @@
 Description: Notifies an application of a change to the hardware configuration of a device or the computer.
 ms.assetid: b64a3983-ee75-4199-9778-1e5b7cec59e4
 title: WM_DEVICECHANGE message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

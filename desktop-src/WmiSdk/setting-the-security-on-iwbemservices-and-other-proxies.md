@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 83c04a96-3829-4c07-91a7-06e5b75b2c12
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting the Security on IWbemServices and Other Proxies
 ms.author: windowssdkdev

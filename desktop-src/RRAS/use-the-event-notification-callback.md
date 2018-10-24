@@ -2,8 +2,6 @@
 title: Use the Event Notification Callback
 description: The following procedure outlines the steps the client should use to receive change notification messages from the RTM\_EVENT\_CALLBACK. The sample code that follows shows how to implement the procedure.
 ms.assetid: e079c585-6457-4c2c-82bd-e95d233c4aa6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

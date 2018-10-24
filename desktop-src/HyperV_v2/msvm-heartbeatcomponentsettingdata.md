@@ -2,8 +2,6 @@
 Description: Represents the configured state of the heartbeat service.
 ms.assetid: 2946FA02-A751-4576-BB8A-004C80E21E5B
 title: Msvm_HeartbeatComponentSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Proxy function for the CreateBitmapScaler method.
 ms.assetid: 27fcb17e-bdcd-44cc-9fe6-f93816589b50
 title: IWICImagingFactory_CreateBitmapScaler_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

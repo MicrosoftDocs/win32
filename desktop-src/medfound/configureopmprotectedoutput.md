@@ -2,8 +2,6 @@
 Description: Configures a protected output object.
 ms.assetid: d22a378e-2d4e-4ff4-a18e-136932c24d2b
 title: ConfigureOPMProtectedOutput function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

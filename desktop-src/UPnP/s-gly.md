@@ -3,8 +3,6 @@ title: S
 description: Contains UPnP-related terms that begin with the letter S.
 Robots: noindex, nofollow
 ms.assetid: 94be0f7f-8263-40ad-9d48-35540eaa3a3d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The IX509SCEPEnrollment interface exposes the following properties.
 ms.assetid: 53BE8DE9-87AC-41D1-B1B5-2FEC72F5FCEA
 title: IX509SCEPEnrollment Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

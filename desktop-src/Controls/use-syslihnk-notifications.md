@@ -2,8 +2,6 @@
 title: How to Use SysLink Notifications
 description: There are two notification messages associated with the SysLink control \ 8212;one for the mouse (NM\_CLICK (syslink)), and one for the keyboard (NM\_RETURN).
 ms.assetid: 77E80EB2-180B-4EDD-9FB5-9930E8886CA6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

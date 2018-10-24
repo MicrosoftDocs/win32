@@ -2,8 +2,6 @@
 Description: Availability is the ability of an application to tolerate failures in server resources.
 ms.assetid: 5d9a8216-a568-4443-b94f-1b2f2827a4be
 title: Designing for Availability
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

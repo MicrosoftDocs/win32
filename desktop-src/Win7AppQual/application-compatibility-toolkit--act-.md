@@ -2,8 +2,6 @@
 Description: Application Compatibility Toolkit (ACT)
 ms.assetid: 9e288a0e-3978-4fd6-b3a7-b36c1bb2b18b
 title: Application Compatibility Toolkit (ACT)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

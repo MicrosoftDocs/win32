@@ -2,8 +2,6 @@
 Description: 'The Web Services on Devices programming interface defines and uses the following structures:'
 ms.assetid: daaa7d18-7af9-4f03-bbbd-378f4af79eec
 title: Web Services on Devices Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

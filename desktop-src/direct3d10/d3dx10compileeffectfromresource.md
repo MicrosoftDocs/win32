@@ -2,8 +2,6 @@
 Description: Deprecated. See D3DX10CompileFromResource.
 ms.assetid: 0acc0f4b-a9f6-4ac5-9ccc-7b9805269c02
 title: D3DX10CompileEffectFromResource
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

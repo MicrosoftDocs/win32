@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: cb4cb590-527b-406c-9706-1e85a2b8076b
 title: COARefTime.COARefTime constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

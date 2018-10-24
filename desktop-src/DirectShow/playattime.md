@@ -2,8 +2,6 @@
 Description: The PlayAtTime event is sent when the PlayAtTime command has been enabled or disabled.
 ms.assetid: '61197baa-1500-4581-8d09-fd299724d046'
 title: PlayAtTime
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

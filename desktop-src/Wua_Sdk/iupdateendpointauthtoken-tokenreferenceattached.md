@@ -2,8 +2,6 @@
 Description: Gets the XML format of an attached reference to the token.
 ms.assetid: F4329A2E-61FD-40E0-9E24-87C9A4585E55
 title: IUpdateEndpointAuthToken::TokenReferenceAttached method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

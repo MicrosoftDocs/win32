@@ -2,8 +2,6 @@
 Description: Sets the value of the secret used to derive the cryptographic session key used to encrypt and decrypt data.
 ms.assetid: d940ae0b-a697-4529-b494-0051b9a6db5e
 title: EncryptedData.SetSecret method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

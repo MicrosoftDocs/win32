@@ -2,8 +2,6 @@
 title: Data-Pull Model and Data-Push Model
 description: Data-Pull Model and Data-Push Model
 ms.assetid: ba0e8532-9c7b-4e15-9c27-8205d738fc4b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

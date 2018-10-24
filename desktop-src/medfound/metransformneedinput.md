@@ -2,8 +2,6 @@
 Description: Sent by an asynchronous Media Foundation transform (MFT) to request a new input sample.
 ms.assetid: 5d5c50d9-fe4e-47ff-ae09-980911ebfb22
 title: METransformNeedInput event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

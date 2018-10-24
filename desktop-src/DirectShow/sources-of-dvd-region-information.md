@@ -2,8 +2,6 @@
 Description: Sources of DVD Region Information
 ms.assetid: f4874aa7-c58a-49a3-9474-c621cc19156b
 title: Sources of DVD Region Information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

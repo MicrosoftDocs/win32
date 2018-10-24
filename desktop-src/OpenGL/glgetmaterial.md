@@ -2,8 +2,6 @@
 title: glGetMaterial Functions
 description: These functions return material parameters.
 ms.assetid: 79409f4e-1e39-4fca-adc8-d48253853ce3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

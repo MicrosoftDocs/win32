@@ -2,8 +2,6 @@
 Description: Retrieves information about the properties that a specified collection supports.
 ms.assetid: 5e3963c0-6769-4b5b-8636-2d8c98a8776b
 title: PropertyInfo collection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

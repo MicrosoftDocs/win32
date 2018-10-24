@@ -2,8 +2,6 @@
 Description: QT Decompressor Filter
 ms.assetid: d013075f-deab-40ef-8438-4fb09820da3e
 title: QT Decompressor Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

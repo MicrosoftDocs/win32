@@ -2,8 +2,6 @@
 Description: The NewSegment method notifies the pin that media samples received after this call are grouped as a segment. This method implements the IPin::NewSegment method.
 ms.assetid: 8925b8b5-13dd-4127-82d8-96525bd4d6fc
 title: CTransformInputPin.NewSegment method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

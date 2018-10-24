@@ -2,8 +2,6 @@
 Description: A WS-Discovery message used by a client to search for services on the network by service type.
 ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: Probe Message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

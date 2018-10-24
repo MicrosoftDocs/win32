@@ -2,8 +2,6 @@
 title: Interfaces
 description: Reference documentation for interfaces defined by the Windows Animation Manager.
 ms.assetid: b54e319c-e140-4fd9-8045-5eb6f4a31326
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

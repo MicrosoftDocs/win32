@@ -2,8 +2,6 @@
 Description: The CheckTargetRect method determines if a target rectangle is valid.
 ms.assetid: a16e7faf-6421-4f78-bbb1-40d38f1a5525
 title: CBaseControlVideo.CheckTargetRect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

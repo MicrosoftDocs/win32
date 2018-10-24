@@ -2,8 +2,6 @@
 Description: 'Direct3D 10 defines a number of interfaces for the two basic types of resources: buffers and textures.'
 ms.assetid: e53ca7ab-6ca5-4774-8a52-825b10c1a2ce
 title: Resource Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

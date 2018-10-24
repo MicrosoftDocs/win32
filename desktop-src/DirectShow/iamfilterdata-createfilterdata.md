@@ -2,8 +2,6 @@
 Description: Note  This interface has been deprecated.
 ms.assetid: ab6972ef-7c28-4cd1-b007-eb70f9aeb2cb
 title: IAMFilterData::CreateFilterData method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

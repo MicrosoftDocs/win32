@@ -2,8 +2,6 @@
 Description: A list of possible reasons why a Windows Installer uninstallation was unable to remove all the files of an application.
 ms.assetid: 0a856f0f-a829-478e-a83b-dade7b05b4f2
 title: Removing Stranded Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

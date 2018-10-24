@@ -2,8 +2,6 @@
 title: mul - ps
 description: Multiplies sources into the destination.
 ms.assetid: 03823c10-9631-4468-8488-4bd17224d16c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

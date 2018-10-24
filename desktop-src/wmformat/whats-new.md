@@ -13,8 +13,6 @@ keywords:
 - digital rights management (DRM),new features
 - DRM (digital rights management),new features
 - thumbnail images
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

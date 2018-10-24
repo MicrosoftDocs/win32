@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: b8891bae-31da-48f6-b4e6-18799a199c9a
 title: System.Media.AuthorUrl
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The NotifyEndDraw method is not supported.
 ms.assetid: a71d0686-fee8-4adf-8a3b-da3854710ffd
 title: CDrawImage.NotifyEndDraw method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

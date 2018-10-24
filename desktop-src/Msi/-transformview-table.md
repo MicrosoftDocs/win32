@@ -2,8 +2,6 @@
 Description: This is a read-only temporary table used to view transforms with the transform view mode. This table is never persisted by the installer.
 ms.assetid: 4763ac0e-900f-45f1-bee5-34d413c5e401
 title: '_TransformView Table'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The display mode has changed.
 ms.assetid: 1f5b066b-6d5d-44bb-851a-424b2bd389c0
 title: EC_DISPLAY_CHANGED
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

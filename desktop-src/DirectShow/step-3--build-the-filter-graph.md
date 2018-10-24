@@ -2,8 +2,6 @@
 Description: This topic is step 3 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 45679c14-2671-420d-9766-61f2b2bb713a
 title: 'Step 3: Build the Filter Graph'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

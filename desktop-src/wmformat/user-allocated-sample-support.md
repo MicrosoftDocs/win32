@@ -7,8 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),user allocated sample support
 - ASF (Advanced Systems Format),user allocated sample support
 - user allocated sample support
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

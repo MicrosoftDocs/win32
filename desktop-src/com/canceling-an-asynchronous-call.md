@@ -2,8 +2,6 @@
 title: Canceling an Asynchronous Call
 description: A client can cancel an asynchronous call that is in progress if the call object implements the ICancelMethodCalls interface.
 ms.assetid: 30a162f2-ce16-4ee6-8002-59216ac0e59a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

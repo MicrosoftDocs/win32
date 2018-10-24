@@ -2,8 +2,6 @@
 Description: This section contains reference information about the interfaces used with the Windows Image Acquisition (WIA)API.
 ms.assetid: 0b496d6b-486a-42d3-a0e5-8e9e52e27608
 title: Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

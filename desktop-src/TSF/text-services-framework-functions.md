@@ -9,8 +9,6 @@ keywords:
 - TSF-enabled applications,functions
 - TSF reference,functions
 - reference for TSF,functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

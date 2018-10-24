@@ -4,8 +4,6 @@ description: A persistent property set contains related data as properties.
 ms.assetid: 19ff2751-87f3-43d8-9307-ce2dd399f694
 keywords:
 - Managing Property Sets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

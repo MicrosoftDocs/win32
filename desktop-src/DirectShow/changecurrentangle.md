@@ -2,8 +2,6 @@
 Description: The ChangeCurrentAngle event is sent when the disc enables or disables changing the angle.
 ms.assetid: 432e532f-a7af-4134-b01d-46d617c76974
 title: ChangeCurrentAngle
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

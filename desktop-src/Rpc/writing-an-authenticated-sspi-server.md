@@ -4,8 +4,6 @@ description: Before authenticated communication can take place between the clien
 ms.assetid: 723ae1ee-d729-4748-9ef1-062a0c6f60d0
 keywords:
 - Remote Procedure Call RPC , tasks, writing an authenticated SSPI server
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

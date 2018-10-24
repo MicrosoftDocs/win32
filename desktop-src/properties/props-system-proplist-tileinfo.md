@@ -2,8 +2,6 @@
 Description: The list of properties to show in the listview on tiles. Register under the regvalue of &\#0034;TileInfo&\#0034;.
 ms.assetid: f9e7213d-5607-4f85-bb56-34ecf546380e
 title: System.PropList.TileInfo
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

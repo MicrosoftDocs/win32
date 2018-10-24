@@ -4,8 +4,6 @@ description: You can use the directives described in the following table as need
 ms.assetid: 162f946e-54d8-4e23-9aa7-8e91eda4ee68
 keywords:
 - resource compiler,preprocessor directives
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

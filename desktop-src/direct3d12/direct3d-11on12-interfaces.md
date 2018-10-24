@@ -2,8 +2,6 @@
 title: 11on12 Interfaces
 description: The following interfaces are declared in d3d11on12.h.
 ms.assetid: 861D89C4-59D1-43BF-9791-375DD1577716
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

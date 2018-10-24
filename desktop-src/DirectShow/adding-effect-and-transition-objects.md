@@ -2,8 +2,6 @@
 Description: Adding Effect and Transition Objects
 ms.assetid: fe82392f-33e2-432a-a6e3-710e475547b3
 title: Adding Effect and Transition Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

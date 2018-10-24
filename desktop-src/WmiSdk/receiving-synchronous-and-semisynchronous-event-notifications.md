@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: bc99719a-7e33-4e2d-8355-f8fc97c66f71
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Synchronous and Semisynchronous Event Notifications
 ms.author: windowssdkdev

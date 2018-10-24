@@ -2,8 +2,6 @@
 Description: Initializes the optional component manager.
 ms.assetid: 9a7ddca6-a6c8-4d96-81bb-66158b83ab68
 title: OcInitialize function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

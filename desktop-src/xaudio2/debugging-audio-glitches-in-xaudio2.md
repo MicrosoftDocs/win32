@@ -2,8 +2,6 @@
 Description: Glitches can occur in XAudio2, this topic covers how they are reported and some approaches to fixing them.
 ms.assetid: 360d1c5a-82e7-c982-82ea-5b5c7d69bc25
 title: Debugging Audio Glitches in XAudio2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

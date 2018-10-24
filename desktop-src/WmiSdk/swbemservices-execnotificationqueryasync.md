@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 0b0e8313-4ffd-4d4a-8965-d2c6743e7573
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemServices.ExecNotificationQueryAsync method
 ms.author: windowssdkdev

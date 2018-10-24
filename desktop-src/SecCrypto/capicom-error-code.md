@@ -2,8 +2,6 @@
 Description: Defines error codes that are returned by CAPICOM.
 ms.assetid: e72b8290-b482-4629-8b87-5a15677865a6
 title: CAPICOM_ERROR_CODE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

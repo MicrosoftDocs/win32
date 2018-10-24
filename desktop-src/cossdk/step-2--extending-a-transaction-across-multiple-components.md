@@ -2,8 +2,6 @@
 Description: 'Step 2: Extending a Transaction Across Multiple Components'
 ms.assetid: 20a30e87-e209-45ae-bf1b-722568758c47
 title: 'Step 2: Extending a Transaction Across Multiple Components'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

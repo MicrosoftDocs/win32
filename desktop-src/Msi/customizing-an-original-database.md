@@ -2,8 +2,6 @@
 Description: Make a copy of the sample Windows Installer installation package MNP2000.msi and rename this copy MNP2000t.msi.
 ms.assetid: 1251d377-7143-4a6b-81d0-0915f952be10
 title: Customizing an Original Database
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

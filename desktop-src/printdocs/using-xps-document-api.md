@@ -2,8 +2,6 @@
 Description: This section describes how to use the XPS Document API to perform programming tasks.
 ms.assetid: 05b3d7b6-7628-4a5f-87b7-9d51ead51c79
 title: Using XPS Document API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

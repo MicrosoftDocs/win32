@@ -2,8 +2,6 @@
 Description: How to delete a mounted folder by using the DeleteVolumeMountPoint function.
 ms.assetid: 33049110-acf8-4db5-a9c4-bd4a884c8590
 title: Deleting a Mounted Folder
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

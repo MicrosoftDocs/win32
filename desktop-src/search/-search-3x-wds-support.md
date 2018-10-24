@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 378e346b-2067-484f-85e9-76673a35550b
 title: Notifications Process in Windows Search
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Processing Requests
 description: Processing requests includes four steps.
 ms.assetid: fb170d73-c26d-4bec-abed-b614b7dad322
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

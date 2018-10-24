@@ -2,8 +2,6 @@
 title: Predefined Macros
 description: RC does not support the ANSI C predefined macros (\_\_DATE\_\_, \_\_FILE\_\_, \_\_LINE\_\_, \_\_STDC\_\_, \_\_TIME\_\_, \_\_TIMESTAMP\_\_). Therefore, you cannot include these macros in header files that you will include in your resource script.
 ms.assetid: 2098d4a4-7c6f-4cdc-9c02-3d55907f8888
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

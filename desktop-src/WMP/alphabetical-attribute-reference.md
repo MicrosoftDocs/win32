@@ -17,8 +17,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,attributes for media items
 - ActiveX control,attributes for media items
 - attributes,reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Kerberos ticket policy is defined at the domain level and implemented by the domain's Key Distribution Center (KDC).
 ms.assetid: 4774218b-7cbd-4e8d-a064-44ebdc37e534
 title: Kerberos Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

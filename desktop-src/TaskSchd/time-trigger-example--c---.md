@@ -2,8 +2,6 @@
 title: Time Trigger Example (C++)
 description: This C++ example shows how to create a task that is scheduled to execute Notepad at a specified time.
 ms.assetid: e45b18b0-5a7f-4283-b42f-15e9ffcfaff7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies the location and filename of a WSDL file. The path may be an absolute or relative path to the file, but must not be an URL.
 ms.assetid: '0664dcc6-1e71-46cf-9084-1adc84861b52'
 title: path element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

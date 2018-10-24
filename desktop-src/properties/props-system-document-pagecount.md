@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a812f2b2-fde8-432a-bd1b-1c13d7cbb573
 title: System.Document.PageCount
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

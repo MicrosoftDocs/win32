@@ -2,8 +2,6 @@
 title: Licensing
 description: Licensing
 ms.assetid: a77c0141-62b4-4032-a734-5a55da6a50e0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

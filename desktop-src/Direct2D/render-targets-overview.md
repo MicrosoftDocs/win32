@@ -4,8 +4,6 @@ description: Describes the different types of Direct2D render targets and how to
 ms.assetid: 8a67babd-20c7-47f4-8dd3-8c0320d89ad6
 keywords:
 - Direct2D,render targets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

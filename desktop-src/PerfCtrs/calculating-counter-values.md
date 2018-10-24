@@ -2,8 +2,6 @@
 Description: Most counter types use a formula for calculating a displayable value for the counter.
 ms.assetid: b65a6874-fffb-41af-8620-27d4036cc7b2
 title: Calculating Counter Values
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The DeleteServices action stops a service and removes its registration from the system. This action queries the ServiceControl table.
 ms.assetid: c7976de9-65f4-4552-8f8c-e7a32ef4821d
 title: DeleteServices Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

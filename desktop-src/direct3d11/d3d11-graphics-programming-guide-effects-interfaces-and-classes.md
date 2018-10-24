@@ -2,8 +2,6 @@
 title: Interfaces and Classes in Effects
 description: There are many ways to use classes and interfaces in Effects 11.
 ms.assetid: 526d477b-fc1f-4bd0-a620-ce9b78147f68
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

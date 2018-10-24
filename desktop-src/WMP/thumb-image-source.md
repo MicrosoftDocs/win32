@@ -10,8 +10,6 @@ keywords:
 - trackbars in skins,thumb image source
 - image source for skins,trackbars
 - thumb,image source
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

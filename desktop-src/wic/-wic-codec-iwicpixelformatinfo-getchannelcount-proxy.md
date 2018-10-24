@@ -2,8 +2,6 @@
 Description: Proxy function for the GetChannelCount method.
 ms.assetid: f74916d9-d4b5-4b1b-adba-489d46c8d81c
 title: IWICPixelFormatInfo_GetChannelCount_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

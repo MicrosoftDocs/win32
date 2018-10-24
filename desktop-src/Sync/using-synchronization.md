@@ -2,8 +2,6 @@
 Description: 'The following examples demonstrate how to use the synchronization objects:'
 ms.assetid: 19e33f9f-a9c0-44db-becf-9af3895eb182
 title: Using Synchronization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

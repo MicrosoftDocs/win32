@@ -2,8 +2,6 @@
 Description: Destroys a virtual system.
 ms.assetid: 8d2504dc-ce23-4257-9dfd-6a35dfd84b2d
 title: DestroySystem method of the CIM_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: How to Create Static Controls
 description: The example in this section demonstrates how to create an animated static control.
 ms.assetid: D2DA38CB-360C-49EC-90BC-9AFA88C4B751
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

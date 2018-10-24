@@ -2,8 +2,6 @@
 Description: Retrieves a group's restriction setting from the registry.
 ms.assetid: C4B3B5C0-7445-483a-885F-5283BD4D4B39
 title: Shell.IsRestricted method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

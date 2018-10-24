@@ -4,8 +4,6 @@ description: Programming Tips
 ms.assetid: 2cf3abf2-de9e-4825-8c21-b8af3db04ea0
 keywords:
 - OpenGL,programming tips
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

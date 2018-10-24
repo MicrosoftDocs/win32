@@ -2,8 +2,6 @@
 Description: Handling DVD Event Notifications
 ms.assetid: 7a12aa36-f709-4ee2-aac6-45ab273ad3f9
 title: Handling DVD Event Notifications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Miscellaneous Mouse Operations
 description: The previous sections have discussed mouse clicks and mouse movement. Here are some other operations that can be performed with the mouse.
 ms.assetid: 6A5B953F-7032-4AA6-8B64-2E9CBB8F59F1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

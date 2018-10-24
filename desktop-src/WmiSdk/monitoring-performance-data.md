@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a0ed14e9-d2ec-43eb-8c8e-eac3c134ea1d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Monitoring Performance Data
 ms.author: windowssdkdev

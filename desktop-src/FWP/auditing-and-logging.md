@@ -2,8 +2,6 @@
 title: Auditing
 description: Windows Filtering Platform (WFP) provides auditing of firewall and IPsec related events.
 ms.assetid: 30ff9cf7-bf93-4979-bacd-d76e5dadbef6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

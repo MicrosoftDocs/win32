@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 0c12ddf6-52c2-40a2-af2b-effd4e8bbdb6
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - GatewayUserSelectedCredsSource property Remote Desktop Services

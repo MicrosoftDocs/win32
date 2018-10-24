@@ -9,8 +9,6 @@ keywords:
 - desktop applications,privacy statements
 - creating Windows Media Device Manager applications,privacy statements
 - privacy statements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

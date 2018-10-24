@@ -2,8 +2,6 @@
 Description: Lines and curves are used to draw graphics output on raster devices.
 ms.assetid: '8c65c185-8346-459e-bdf7-1cf3f7419736'
 title: Lines and Curves
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

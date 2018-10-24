@@ -2,8 +2,6 @@
 Description: This section contains reference information for the Media Foundation APIs.
 ms.assetid: f16f1461-89bc-474d-a57e-5ef9efd0d5a6
 title: Media Foundation Programming Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

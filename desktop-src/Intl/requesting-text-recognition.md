@@ -2,8 +2,6 @@
 Description: Requesting Text Recognition
 ms.assetid: 9db9045d-b289-4c6c-9b17-ddbc2c1d3089
 title: Requesting Text Recognition
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

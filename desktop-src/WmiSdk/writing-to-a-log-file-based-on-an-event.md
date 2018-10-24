@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c337e9f7-f40c-4d7d-a180-c053e24c882b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing to a Log File Based on an Event
 ms.author: windowssdkdev

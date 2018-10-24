@@ -2,8 +2,6 @@
 Description: The GetPinVersion method retrieves a version number for the set of pins on this filter.
 ms.assetid: 6cc186b2-4d9f-4d1c-a8b3-975e9c248df7
 title: CBaseFilter.GetPinVersion method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

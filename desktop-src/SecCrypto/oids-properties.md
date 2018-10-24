@@ -2,8 +2,6 @@
 Description: The OIDs object exposes the following properties.
 ms.assetid: F7AD72CD-31D3-4CB1-B7AF-906CF8F0D63C
 title: OIDs Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

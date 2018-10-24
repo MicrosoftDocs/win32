@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: dfe19c2c-b07e-4752-94c5-b770a14250e0
 title: System.Music.DiscNumber
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

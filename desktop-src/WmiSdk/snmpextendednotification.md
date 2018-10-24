@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 207966c1-14cf-4a47-8176-0f58838cfa1e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SnmpExtendedNotification class
 ms.author: windowssdkdev

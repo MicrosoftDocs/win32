@@ -2,8 +2,6 @@
 title: Service Model Examples
 ms.assetid: 019918e1-fff5-40d7-b466-866de8e2e5e5
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

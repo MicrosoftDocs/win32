@@ -10,8 +10,6 @@ api_name:
 - RasAdminReleaseIpAddress
 api_type:
 - UserDefined
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: This section contains information about the core structures.
 ms.assetid: 2a45182a-7114-4075-b8b8-147f52fe7aa9
 keywords:
 - structures, Direct3D 11 Core
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

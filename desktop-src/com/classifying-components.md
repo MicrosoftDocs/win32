@@ -2,8 +2,6 @@
 title: Classifying Components
 description: Classifying Components
 ms.assetid: 4d805532-96c9-400d-b78a-f8d0d9bdbf83
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

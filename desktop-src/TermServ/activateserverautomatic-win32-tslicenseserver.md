@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a33ba72f-3403-4bd2-94a9-0c5ef1cbb03e
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - ActivateServerAutomatic method Remote Desktop Services

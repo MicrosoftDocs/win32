@@ -2,8 +2,6 @@
 Description: 'The following elements are associated with device contexts:'
 ms.assetid: ccec6fb6-7332-4426-a373-70d69f8d127c
 title: Device Context Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

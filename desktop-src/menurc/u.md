@@ -3,8 +3,6 @@ title: U
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
 ms.assetid: 'fb8826ef-4fb8-4fd2-af3e-89544ffadbea'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

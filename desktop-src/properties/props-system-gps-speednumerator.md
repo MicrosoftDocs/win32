@@ -2,8 +2,6 @@
 Description: The numerator of PKEY\_GPS\_Speed.
 ms.assetid: decae1d2-d3f8-495a-9fb9-70e48a9ca2cc
 title: System.GPS.SpeedNumerator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

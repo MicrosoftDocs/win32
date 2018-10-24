@@ -2,8 +2,6 @@
 Description: Microsoft Windows HTTP Services (WinHTTP) is targeted at middle-tier and back-end server applications that require access to an HTTP client stack.
 ms.assetid: 5b0cf321-8f69-4526-a628-e6ca0f9d4a58
 title: Porting WinINet Applications to WinHTTP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

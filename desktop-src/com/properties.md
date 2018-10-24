@@ -2,8 +2,6 @@
 title: Exposing Properties through IDispatch
 description: Exposing Properties through IDispatch
 ms.assetid: 'b44cbbf6-296b-422b-ab8f-3d6f033ca941'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

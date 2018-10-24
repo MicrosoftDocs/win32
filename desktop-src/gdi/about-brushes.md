@@ -2,8 +2,6 @@
 Description: 'There are two types of brushes: logical and physical.'
 ms.assetid: 2e15376d-6b4c-41c5-aef8-0dbb91b81505
 title: About Brushes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

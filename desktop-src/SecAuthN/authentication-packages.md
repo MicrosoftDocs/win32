@@ -2,8 +2,6 @@
 Description: Authentication packages are contained in dynamic-link libraries.
 ms.assetid: b0d7bca1-b4bb-4b3f-822e-04a6a500cd9a
 title: Authentication Packages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

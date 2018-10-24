@@ -2,8 +2,6 @@
 Description: Step 8.
 ms.assetid: c54745ef-beeb-40b6-9db6-6e3b5da860f8
 title: Step 8. Apply Property Changes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

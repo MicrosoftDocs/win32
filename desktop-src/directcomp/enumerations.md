@@ -2,8 +2,6 @@
 title: Enumerations
 description: This section describes the enumerations provided by the Microsoft DirectComposition \ 32;API.
 ms.assetid: 9E415188-6B50-40D7-A208-D1E3708CAC9A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

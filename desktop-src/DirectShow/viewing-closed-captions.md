@@ -2,8 +2,6 @@
 Description: Viewing Closed Captions
 ms.assetid: 86c0c553-af35-4ad1-8918-63d9e4577c73
 title: Viewing Closed Captions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

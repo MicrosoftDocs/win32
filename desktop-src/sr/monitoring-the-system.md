@@ -2,8 +2,6 @@
 title: Monitoring the System
 description: Monitoring the System
 ms.assetid: e0318aca-4e3e-4272-ba31-c770d6b05272
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

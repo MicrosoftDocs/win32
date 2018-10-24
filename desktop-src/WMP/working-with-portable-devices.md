@@ -11,8 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,portable devices
 - Windows Media Player Mobile,portable devices
 - portable devices,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

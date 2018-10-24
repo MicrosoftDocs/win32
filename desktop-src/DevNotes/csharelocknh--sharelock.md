@@ -2,8 +2,6 @@
 Description: Obtains a shared lock.
 ms.assetid: dff9a842-573a-4530-820d-6fd9001e502a
 title: CShareLockNH::ShareLock method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

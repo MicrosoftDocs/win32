@@ -2,8 +2,6 @@
 Description: Uses a left-handed coordinate system to create a line.
 ms.assetid: 0d2ef331-9edf-4b0a-ace4-ecb8bb2f7352
 title: D3DXCreateLine function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

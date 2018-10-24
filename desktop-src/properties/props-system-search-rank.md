@@ -2,8 +2,6 @@
 Description: Relevance rank of row, with a range from 0-1000.
 ms.assetid: e0c03f6f-4539-4a6b-b58d-161bd985ee0f
 title: System.Search.Rank
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

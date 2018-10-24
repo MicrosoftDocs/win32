@@ -2,8 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_WIRELESS\_PROFILE
 ms.assetid: 229f6b65-4904-41b1-bb35-8873477a272b
 title: WPD_CONTENT_TYPE_WIRELESS_PROFILE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

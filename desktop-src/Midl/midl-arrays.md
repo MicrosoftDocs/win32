@@ -4,8 +4,6 @@ description: MIDL arrays.
 ms.assetid: dee30788-0575-4b49-a6b8-5208ad295183
 keywords:
 - data types MIDL , arrays
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: The following keywords specify type library information within the 
 ms.assetid: 3dc689fe-5ef6-4919-893a-c0ff0df99d4b
 keywords:
 - IDL MIDL , attributes, type library
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

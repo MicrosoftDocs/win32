@@ -2,8 +2,6 @@
 Description: The BeginFlush method begins a flush operation. This method overrides the CBaseInputPin::BeginFlush method.
 ms.assetid: c41260d3-04b2-47dd-96e6-675f000c4e3b
 title: CRendererInputPin.BeginFlush method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

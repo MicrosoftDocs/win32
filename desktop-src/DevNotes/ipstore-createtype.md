@@ -2,8 +2,6 @@
 Description: Creates the specified type with the specified name.
 ms.assetid: eb85477c-d750-46d2-8b32-450f672e7601
 title: IPStore::CreateType method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Legacy Graphics
 ms.assetid: A0AD9A16-FA09-46AE-A0AC-5B37D5EBEDD8
 title: Legacy Graphics
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

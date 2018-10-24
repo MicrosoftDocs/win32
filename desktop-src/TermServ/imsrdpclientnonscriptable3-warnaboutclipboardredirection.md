@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2f3ca58b-3c89-4251-ae15-2c0aaf308893
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - WarnAboutClipboardRedirection property Remote Desktop Services

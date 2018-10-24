@@ -2,8 +2,6 @@
 Description: The Features property is a read-only property that returns a StringList object enumerating the set of published features for the specified product.
 ms.assetid: feb8f09a-fa97-4fee-9082-8f04288af22f
 title: Installer.Features property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

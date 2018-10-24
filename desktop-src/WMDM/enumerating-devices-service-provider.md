@@ -9,8 +9,6 @@ keywords:
 - service providers,enumerating devices
 - creating service providers,enumerating devices
 - enumerating devices
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

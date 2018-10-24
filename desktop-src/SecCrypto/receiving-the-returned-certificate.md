@@ -2,8 +2,6 @@
 Description: Explains how an application receives a certificate.
 ms.assetid: 7f87dcf5-b434-4f63-abcd-6873831d22bc
 title: Receiving the Returned Certificate
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

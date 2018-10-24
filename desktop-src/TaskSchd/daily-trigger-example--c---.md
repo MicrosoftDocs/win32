@@ -2,8 +2,6 @@
 title: Daily Trigger Example (C++)
 description: This C++ example shows how to create a task that is scheduled to execute Notepad on a daily basis.
 ms.assetid: f1038142-b83e-4159-9a7b-db2ae4ed3bd2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

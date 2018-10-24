@@ -2,8 +2,6 @@
 Description: The EncryptedData object exposes the following properties.
 ms.assetid: C57D2230-A55E-4DBD-9A2A-B829F985DEA5
 title: EncryptedData Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

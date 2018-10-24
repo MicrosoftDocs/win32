@@ -2,8 +2,6 @@
 Description: Merges two print tickets and returns a valid, viable print ticket.
 ms.assetid: 4aa7b9de-abf2-4781-942e-0b992a6bffed
 title: MergeAndValidatePrintTicketThunk2 function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

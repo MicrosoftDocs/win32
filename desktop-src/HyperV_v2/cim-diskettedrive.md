@@ -2,8 +2,6 @@
 Description: Represents a diskette drive.
 ms.assetid: 8f382f91-9cff-4dcd-bf04-314a2986acbe
 title: CIM_DisketteDrive class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

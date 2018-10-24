@@ -2,8 +2,6 @@
 title: Buffers
 description: Buffers contain data that is used for describing geometry, indexing geometry information, and shader constants. This section describes buffers that are used in Direct3D 11 and links to task-based documentation for common scenarios.
 ms.assetid: 4ab4c9e5-9155-4bfd-b69b-40b3e8cdd4ba
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

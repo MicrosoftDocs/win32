@@ -2,8 +2,6 @@
 Description: Converts a universal buffer of bytes (IStream object) into a typical C/C++ byte array.
 ms.assetid: f5b14096-d848-4de9-a5c3-bb60af9044a2
 title: ISCardTypeConv::ConvertByteBufferToByteArray method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

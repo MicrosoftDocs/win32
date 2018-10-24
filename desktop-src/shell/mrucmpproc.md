@@ -1,8 +1,6 @@
 ---
 Description: Used to determine whether an item is present in a most recently used (MRU) list.
 title: MRUCMPPROC callback function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

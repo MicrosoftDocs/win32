@@ -2,8 +2,6 @@
 Description: The information in this topic applies to Windows Server 2003 and Windows XP.
 ms.assetid: 45536902-af80-4dca-b3ce-207086844763
 title: Secure Sockets Layer Protocol
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

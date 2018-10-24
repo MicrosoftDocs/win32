@@ -2,8 +2,6 @@
 Description: A callback function that must be implemented by a user to set a sampler.
 ms.assetid: 1e19e8cd-341d-4372-9182-8b3c82155407
 title: ID3DXEffectStateManager::SetSamplerState method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

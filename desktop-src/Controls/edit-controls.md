@@ -2,8 +2,6 @@
 title: Edit Control
 description: This section contains information about the programming elements used with edit controls. An edit control is a rectangular control window typically used in a dialog box to permit the user to enter and edit text by typing on the keyboard.
 ms.assetid: 'vs|controls|~\controls\editcontrols\editcontrols.htm'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

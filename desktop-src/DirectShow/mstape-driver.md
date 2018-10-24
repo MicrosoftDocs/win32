@@ -2,8 +2,6 @@
 Description: MSTape Driver
 ms.assetid: aa59f322-09b1-4b0a-be6f-d865c20f76e5
 title: MSTape Driver
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

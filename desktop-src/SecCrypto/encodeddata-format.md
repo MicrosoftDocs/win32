@@ -2,8 +2,6 @@
 Description: Returns a string representation of the encoded data.
 ms.assetid: d1231e6d-57d7-4b5a-ab37-d4ee1b29cf25
 title: EncodedData.Format method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

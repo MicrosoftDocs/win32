@@ -2,8 +2,6 @@
 Description: The get\_Width method retrieves the current window width.
 ms.assetid: 8c5fbb0b-da80-4cfe-9c52-8ed4d9e52888
 title: CBaseControlWindow.get_Width method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

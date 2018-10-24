@@ -2,8 +2,6 @@
 Description: Implements the IRealTimeStylus COM interface.
 ms.assetid: 'fd686a78-b0a8-41d2-a37b-90544f531270'
 title: RealTimeStylus class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

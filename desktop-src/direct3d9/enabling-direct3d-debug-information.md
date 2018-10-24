@@ -2,8 +2,6 @@
 Description: Are you trying to find out more information about Direct3D objects during debug? For instance, the following screen shot shows what you typically see when you look at a Direct3D interface in the watch window.
 ms.assetid: 365451f8-e93e-4cc4-b688-2e668518c245
 title: Enabling Direct3D Debug Information (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

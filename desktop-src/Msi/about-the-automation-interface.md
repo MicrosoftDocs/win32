@@ -2,8 +2,6 @@
 Description: An Installer object must be created initially to load the automation support required to access the installer components through COM.
 ms.assetid: 113ed443-a866-43d4-86bd-fc3b244f2edb
 title: About the Automation Interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

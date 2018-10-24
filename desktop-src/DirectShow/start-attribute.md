@@ -2,8 +2,6 @@
 Description: The start attribute specifies the start time of an object, relative to the parent object.
 ms.assetid: '971de88e-c1ee-4e07-bf8e-3153e4fd11f3'
 title: start Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

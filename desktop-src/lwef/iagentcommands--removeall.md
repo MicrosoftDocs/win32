@@ -2,8 +2,6 @@
 title: IAgentCommands RemoveAll
 description: IAgentCommands RemoveAll
 ms.assetid: fab43363-6325-4566-b7bb-599591f67321
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

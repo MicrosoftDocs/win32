@@ -2,8 +2,6 @@
 Description: SRV record priority field. Not usually used.
 ms.assetid: 5e231cfe-acd4-46b1-b288-391e1173ce58
 title: System.Devices.Dnssd.Priority
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

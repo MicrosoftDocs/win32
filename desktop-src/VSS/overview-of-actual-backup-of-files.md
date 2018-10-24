@@ -2,8 +2,6 @@
 Description: VSS enables a requester to access the shadow copy of volumes containing data for backup and to copy data to backup media.
 ms.assetid: 187f26f2-f191-4703-9bde-3357f1ceef0c
 title: Overview of Actual Backup Of Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

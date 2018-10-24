@@ -8,8 +8,6 @@ keywords:
 - digital signal processing plug-ins,Echo sample DoProcessOutput method
 - DSP plug-ins,Echo sample DoProcessOutput method
 - Echo DSP plug-in sample,DoProcessOutput method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

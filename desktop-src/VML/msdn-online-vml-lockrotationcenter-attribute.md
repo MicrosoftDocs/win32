@@ -2,8 +2,6 @@
 title: VML LockRotationCenter Attribute
 description: VML LockRotationCenter Attribute
 ms.assetid: 80b822d3-9122-475b-88ca-7019daa5de77
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

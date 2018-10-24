@@ -2,8 +2,6 @@
 Description: Gamma correction, or gamma for short, is the name of a nonlinear operation that systems use to code and decode pixel values in images.
 ms.assetid: 97ACDAE3-514E-4AAF-A27D-E5FFC162DB2A
 title: Using gamma correction
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

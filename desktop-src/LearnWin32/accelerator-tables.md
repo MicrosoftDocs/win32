@@ -2,8 +2,6 @@
 title: Accelerator Tables
 description: .
 ms.assetid: 4F2CFD7C-90D3-4C3F-9A42-05B915914EF6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

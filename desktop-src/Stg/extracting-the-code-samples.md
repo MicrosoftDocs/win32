@@ -2,8 +2,6 @@
 title: Extracting the Code Samples
 description: Though the code samples are divided into a series of tutorial lessons, the appropriate sample groupings can easily be extracted from the collection.
 ms.assetid: f8e20e40-cfef-4844-8b28-5a11fdcd691a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

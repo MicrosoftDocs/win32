@@ -2,8 +2,6 @@
 Description: Indicates whether a shared key is encrypted.
 ms.assetid: 9206ef74-cd3e-4374-bea9-0c10505d10bf
 title: protected (sharedKey) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

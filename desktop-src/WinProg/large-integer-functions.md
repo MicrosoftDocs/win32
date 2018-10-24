@@ -2,8 +2,6 @@
 title: Large Integer Functions
 description: The following functions are used with large integers.
 ms.assetid: f34932f4-b126-4d6c-a2f0-3ad706fd5629
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Bitfield Format Types of configurable data may be used in integer database fields.
 ms.assetid: 3b05392e-4276-4970-ae43-9ee00bc9f476
 title: Bitfield Format Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

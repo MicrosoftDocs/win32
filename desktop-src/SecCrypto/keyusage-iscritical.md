@@ -2,8 +2,6 @@
 Description: Retrieves a Boolean value that indicates whether the KeyUsage extension is marked critical.
 ms.assetid: 'f7d53570-2b89-40a9-ab56-fcae4e4cb70c'
 title: KeyUsage.IsCritical property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

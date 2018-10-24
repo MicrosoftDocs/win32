@@ -2,8 +2,6 @@
 Description: Invoking Service Methods
 ms.assetid: 3a2796c8-1a39-49eb-98e1-c9e06c61f397
 title: Invoking Service Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

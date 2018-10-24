@@ -2,8 +2,6 @@
 title: Windows Deployment Services Enumerations
 description: Windows Deployment Services uses the following enumerations.
 ms.assetid: 6d7028ed-0fab-4671-9bbf-9150e2a6fcf7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Creates a cube texture from a resource specified by a string. This is a more advanced function than D3DXCreateCubeTextureFromResource.
 ms.assetid: 4d263386-8270-4967-8ef5-e9ac69e502a5
 title: D3DXCreateCubeTextureFromResourceEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

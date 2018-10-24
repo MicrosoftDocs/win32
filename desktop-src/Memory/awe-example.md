@@ -2,8 +2,6 @@
 Description: The following sample program illustrates the Address Windowing Extensions.
 ms.assetid: 1a67bd2f-afc0-48f4-91f2-34fd2b94910d
 title: AWE Example
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic lists the methods of the FontFamily class. For a complete class listing, see FontFamilyClass.
 ms.assetid: 170a2bac-843f-451b-b2fa-6710bf828710
 title: FontFamily Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

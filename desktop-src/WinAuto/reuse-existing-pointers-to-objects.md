@@ -2,8 +2,6 @@
 title: Reuse Existing Pointers to Objects
 description: Reuse Existing Pointers to Objects
 ms.assetid: 7e1610c6-89b2-4e7e-aee5-94a6cab87a22
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

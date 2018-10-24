@@ -2,8 +2,6 @@
 title: IAgentCharacter GetMoveCause
 description: IAgentCharacter GetMoveCause
 ms.assetid: 36cdd3bc-65b6-469f-9344-93403c1d24e0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

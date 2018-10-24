@@ -10,8 +10,6 @@ keywords:
 - DrawDib,reference
 - DrawDib reference,about
 - reference for DrawDib,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

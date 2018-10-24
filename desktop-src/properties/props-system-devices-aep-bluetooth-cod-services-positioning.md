@@ -2,8 +2,6 @@
 Description: Bluetooth class of device service positioning.
 ms.assetid: 4183501e-d5a8-4b78-a419-98b7fa8e4fd6
 title: System.Devices.Aep.Bluetooth.Cod.Services.Positioning
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

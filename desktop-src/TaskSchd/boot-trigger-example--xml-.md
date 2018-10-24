@@ -2,8 +2,6 @@
 title: Boot Trigger Example (XML)
 description: The XML in this example defines a task that starts Notepad when the system is booted.
 ms.assetid: 6dd7155c-6163-4408-9cef-c313134beeb0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

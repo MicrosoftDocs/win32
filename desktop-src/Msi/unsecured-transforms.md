@@ -2,8 +2,6 @@
 Description: Transforms that have not been secured as described in Secured Transforms are unsecured transforms by default.
 ms.assetid: feace6c3-7828-44d0-8d2b-482a02e8e0c0
 title: Unsecured Transforms
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

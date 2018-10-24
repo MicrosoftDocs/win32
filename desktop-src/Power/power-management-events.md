@@ -2,8 +2,6 @@
 Description: 'The following are the power management events:'
 ms.assetid: 2315e17f-f0c1-409c-b1c0-b3735c25c4c1
 title: Power Management Events
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

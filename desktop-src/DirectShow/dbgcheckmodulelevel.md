@@ -2,8 +2,6 @@
 Description: The DbgCheckModuleLevel function checks whether logging is enabled for the given message types and level. Ignored in retail builds.
 ms.assetid: f4b12df7-9001-4bfb-9d84-84a0e8295a8b
 title: DbgCheckModuleLevel function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

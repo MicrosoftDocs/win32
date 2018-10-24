@@ -5,8 +5,6 @@ ms.assetid: 609f1e95-9868-4e34-8758-71306ac4e51f
 keywords:
 - TPM Base Services TBS , examples
 - TPM Base Services TBS , using
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

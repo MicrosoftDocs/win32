@@ -2,8 +2,6 @@
 title: IAgentCharacterEx GetTTSModeID
 description: IAgentCharacterEx GetTTSModeID
 ms.assetid: e7b3c576-dc3c-40de-8d09-8e7f4b79250b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

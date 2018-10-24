@@ -2,8 +2,6 @@
 Description: Retrieves the device associated with the sprite object.
 ms.assetid: 9ce18623-893e-4395-bdf7-8d16a641a557
 title: ID3DXSprite::GetDevice method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

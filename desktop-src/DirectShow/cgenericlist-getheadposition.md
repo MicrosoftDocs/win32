@@ -2,8 +2,6 @@
 Description: The GetHeadPosition method retrieves the position of the first item in the list.
 ms.assetid: 3f376b0b-5551-4baf-943a-224a7cb9bb1a
 title: CGenericList.GetHeadPosition method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -7,8 +7,6 @@ keywords:
 - enumerating files BITS
 - enumerating BITS , files
 - file transfer BITS , enumerating
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

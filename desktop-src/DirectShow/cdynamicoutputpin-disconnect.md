@@ -2,8 +2,6 @@
 Description: The Disconnect method breaks the current pin connection. This method implements the IPin::Disconnect method.
 ms.assetid: 8d92a504-98ad-4f8f-89a4-f0c80763db44
 title: CDynamicOutputPin.Disconnect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

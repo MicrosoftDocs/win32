@@ -2,8 +2,6 @@
 Description: Overlay Mixer 2 Filter
 ms.assetid: 3d3871ac-518c-45a1-9e64-031f344f4527
 title: Overlay Mixer 2 Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

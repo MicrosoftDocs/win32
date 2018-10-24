@@ -2,8 +2,6 @@
 Description: IP Helper enumeration navigation page.
 ms.assetid: 1c73fe50-8a0d-4462-bf8a-fc53d8153eda
 title: IP Helper Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

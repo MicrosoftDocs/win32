@@ -2,8 +2,6 @@
 Description: Represents a wireless communication endpoint, which can send and receive data frames when its associated interface device is connected with an IEEE 802.11 wireless LAN.
 ms.assetid: 61743402-f333-4501-ba17-e676d85f72f3
 title: CIM_WiFiEndpoint class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

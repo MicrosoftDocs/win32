@@ -2,8 +2,6 @@
 Description: The system uses messages to notify applications of device changes and power changes.
 ms.assetid: 07cfde25-6e46-47fa-a810-0f6b482981fd
 title: About Device Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

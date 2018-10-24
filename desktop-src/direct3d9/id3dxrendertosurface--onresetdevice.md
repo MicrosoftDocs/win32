@@ -2,8 +2,6 @@
 Description: Use this method to re-acquire resources and save initial state.
 ms.assetid: a326a465-ee90-466d-8e46-22e082e9533c
 title: ID3DXRenderToSurface::OnResetDevice method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

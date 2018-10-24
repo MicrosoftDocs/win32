@@ -2,8 +2,6 @@
 Description: Bluetooth device address.
 ms.assetid: 41588629-d1cd-4274-989b-0e81cbdc1e87
 title: System.DeviceInterface.Bluetooth.DeviceAddress
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

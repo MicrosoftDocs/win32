@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 379d934e-e010-4a03-8dc1-121be43e4c6f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Requesting WMI Data on a 64-bit Platform
 ms.author: windowssdkdev

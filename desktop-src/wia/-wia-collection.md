@@ -2,8 +2,6 @@
 Description: Collection Class
 ms.assetid: 2b2a70ff-2b49-44b2-b506-b0b2cc953ec4
 title: Collection object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

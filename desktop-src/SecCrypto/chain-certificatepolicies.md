@@ -2,8 +2,6 @@
 Description: Returns an OIDs collection that represents the certificate policy OIDs valid for the chain.
 ms.assetid: 18200003-f4f1-4cf3-af9a-bc223151ff68
 title: IChain2::CertificatePolicies method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

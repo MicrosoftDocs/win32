@@ -2,8 +2,6 @@
 Description: The JOB\_INFO\_3 structure is used to link together a set of print jobs.
 ms.assetid: a110f555-dc33-450c-ae77-ea26f0f69448
 title: JOB_INFO_3 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

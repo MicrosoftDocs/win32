@@ -2,8 +2,6 @@
 Description: Signals that a rate change in DVD playback has been initiated.
 ms.assetid: 2a1e3c21-1623-4e43-8c7b-1a34514442c9
 title: EC_DVD_PLAYBACK_RATE_CHANGE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Primary address city name of the contact.
 ms.assetid: 366e05d3-1d74-4ba2-a2b6-e3779320f4b0
 title: System.Contact.PrimaryAddressCity
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

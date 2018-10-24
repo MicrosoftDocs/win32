@@ -2,8 +2,6 @@
 Description: There are nine asynchronous operations related to phones.
 ms.assetid: b255bdde-1677-401f-b02d-4850e0e98dc4
 title: Asynchronous Phone Operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

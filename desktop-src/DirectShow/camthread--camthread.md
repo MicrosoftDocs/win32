@@ -2,8 +2,6 @@
 Description: Destructor method.
 ms.assetid: eed6c566-8a03-4a97-9d99-8e500ce2954c
 title: CAMThread.~CAMThread destructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: eb4c2c38-4853-4486-b889-93a843d88edb
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Computer Hardware'
 ms.author: windowssdkdev

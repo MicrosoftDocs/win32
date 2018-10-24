@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: bd09691d-e285-40e0-8686-edd5a132a06e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Namespace ACE Flag Constants
 ms.author: windowssdkdev

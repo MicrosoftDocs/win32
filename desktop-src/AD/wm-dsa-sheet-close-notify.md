@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 74271550-e1f7-4576-a04f-52d5b7c619cb
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - WM_DSA_SHEET_CLOSE_NOTIFY message Active Directory

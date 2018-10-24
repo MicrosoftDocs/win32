@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: beaa644d-51b3-4a57-8853-0b37f69f615a
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 211 through 220
 ms.author: windowssdkdev

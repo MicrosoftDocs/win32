@@ -5,8 +5,6 @@ ms.assetid: 0eb7d339-6d23-4313-b1ed-7ab403a5a81d
 keywords:
 - Managing Bluetooth Devices and Services
 - Bluetooth Devices and Services, managing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

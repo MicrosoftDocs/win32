@@ -2,8 +2,6 @@
 Description: Formats the property instance data using the generic formatter that Network Monitor provides.
 ms.assetid: 36206601-7519-45c8-a14e-707b318c539d
 title: FormatPropertyInstance function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

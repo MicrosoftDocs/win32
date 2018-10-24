@@ -2,8 +2,6 @@
 Description: XAudio2 is a low-level audio API. It provides a signal processing and mixing foundation for games that is similar to its predecessors, DirectSound and XAudio.
 ms.assetid: c87be63a-58b5-9cd1-1f03-f32b5a858b2e
 title: XAudio2 Introduction
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

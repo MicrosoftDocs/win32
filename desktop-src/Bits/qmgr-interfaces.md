@@ -2,8 +2,6 @@
 title: QMGR Interfaces
 description: Use the following Queue Manager (QMGR) interfaces to download files and monitor jobs within the download queue.
 ms.assetid: b5b59d4f-fa18-4225-8b6f-5d4033c61650
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

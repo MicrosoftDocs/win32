@@ -5,8 +5,6 @@ ms.assetid: f562f5f1-c05a-4e4e-bcd9-a302c61f2a5e
 keywords:
 - Network Access Protection
 - Network Access Protection,start page
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

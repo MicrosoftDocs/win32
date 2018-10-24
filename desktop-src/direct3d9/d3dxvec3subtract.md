@@ -2,8 +2,6 @@
 Description: Subtracts two 3D vectors.
 ms.assetid: 09e2cede-a0a3-4a5e-a7e1-e7a98cdc433b
 title: D3DXVec3Subtract function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

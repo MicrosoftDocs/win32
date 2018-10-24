@@ -2,8 +2,6 @@
 Description: Supports both digital signatures and data encryption. It is considered a general purpose CSP.
 ms.assetid: 44b13a96-aba2-4b77-8e66-416aa0bcb8ad
 title: PROV_RSA_FULL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -14,8 +14,6 @@ keywords:
 - profiles,getting information at playback
 - mutual exclusion,getting profile information at playback
 - bandwidth sharing,getting profile information at playback
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

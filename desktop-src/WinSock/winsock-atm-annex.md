@@ -2,8 +2,6 @@
 Description: ATM is applicable to both LAN and WAN environments.
 ms.assetid: 532a876c-9b31-410e-9331-5e8aa98ccaee
 title: Winsock ATM Annex
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

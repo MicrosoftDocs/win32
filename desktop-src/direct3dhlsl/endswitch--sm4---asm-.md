@@ -2,8 +2,6 @@
 title: endswitch (sm4 - asm)
 description: Ends a switch statement.
 ms.assetid: ECAEECFD-B955-4356-B5C9-1D6A04C71D8F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

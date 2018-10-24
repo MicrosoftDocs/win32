@@ -4,8 +4,6 @@ description: The stubs call the named\_type\_free\_inst function to free memory 
 ms.assetid: 4b9e10cb-25bb-4f00-86a0-5436e5ac71d9
 keywords:
 - named_type_free_inst
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

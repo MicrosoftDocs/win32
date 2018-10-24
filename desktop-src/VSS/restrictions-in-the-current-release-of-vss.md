@@ -2,8 +2,6 @@
 Description: 'Certain functionality planned for the Windows Server 2003 release of VSS is not fully supported:'
 ms.assetid: 10e05d0d-3fce-4f19-bf83-f72f52f4098e
 title: Restrictions in Windows Server 2003
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

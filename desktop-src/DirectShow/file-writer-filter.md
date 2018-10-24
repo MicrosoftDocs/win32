@@ -2,8 +2,6 @@
 Description: File Writer Filter
 ms.assetid: 2bfbea8a-679f-4656-9ff3-fdf34aa0eb26
 title: File Writer Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

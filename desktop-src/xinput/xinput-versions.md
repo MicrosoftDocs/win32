@@ -2,8 +2,6 @@
 title: XInput Versions
 description: XInput is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8.
 ms.assetid: e89a6c81-f170-4385-f942-3606f9747244
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A major upgrade can be applied by installing the new installation package for the upgraded product.
 ms.assetid: f4fb28be-5ec0-4eac-9d4d-eccf5bd61ac4
 title: Applying Major Upgrades by Installing the Product
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

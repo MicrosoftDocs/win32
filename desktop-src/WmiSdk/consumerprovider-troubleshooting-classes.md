@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: dd685a41-8eae-4977-ab94-902dd8dddcc9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ConsumerProvider Troubleshooting Classes
 ms.author: windowssdkdev

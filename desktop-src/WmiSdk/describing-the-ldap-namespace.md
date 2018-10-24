@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f1478b9d-4a92-4340-8721-1f443eb6ace2
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing the LDAP Namespace
 ms.author: windowssdkdev

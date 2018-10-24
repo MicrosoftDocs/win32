@@ -12,8 +12,6 @@ keywords:
 - DropDownGallery control
 - SplitButtonGallery control
 - galleries for Windows Ribbon
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

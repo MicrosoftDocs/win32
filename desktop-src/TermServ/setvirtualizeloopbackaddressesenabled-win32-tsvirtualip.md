@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 84A4FF36-82B3-462A-9D2E-C15DD99524E4
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - SetVirtualizeLoopbackAddressesEnabled method Remote Desktop Services

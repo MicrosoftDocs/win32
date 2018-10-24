@@ -4,8 +4,6 @@ description: Error Messages and Notifications
 ms.assetid: 7f804364-d8be-4e52-ab0e-fba05bcf76ce
 keywords:
 - MCIWndGetError macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

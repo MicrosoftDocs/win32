@@ -2,8 +2,6 @@
 Description: Builds a matrix using the specified offsets.
 ms.assetid: 1cb713d5-b994-4496-a506-89451be09fb2
 title: D3DXMatrixTranslation function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

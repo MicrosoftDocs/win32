@@ -2,8 +2,6 @@
 title: IVMNetworkAdapter Methods
 description: The IVMNetworkAdapter interface exposes the following methods.
 ms.assetid: 666E52A5-8312-41C2-9087-C324E2C93F37
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

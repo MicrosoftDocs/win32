@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 'd1014801-a93a-40e8-ae96-31784c192753'
 title: Versioning
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

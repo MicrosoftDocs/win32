@@ -2,8 +2,6 @@
 Description: Describes a single unique canonical property.
 ms.assetid: 1a36ec83-5d8a-4fc5-be3d-a8c2f0983057
 title: propertyDescription
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

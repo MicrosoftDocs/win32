@@ -2,8 +2,6 @@
 Description: Deletes a resource pool.
 ms.assetid: bc3111a4-9687-49ec-890e-190358230c53
 title: DeletePool method of the Msvm_ResourcePoolConfigurationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

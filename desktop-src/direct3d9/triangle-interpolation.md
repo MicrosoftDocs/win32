@@ -2,8 +2,6 @@
 Description: During rendering, the pipeline interpolates vertex data across each triangle.
 ms.assetid: 6fa05e56-c4cd-4623-abe9-2b1c8bbc644b
 title: Triangle Interpolation (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

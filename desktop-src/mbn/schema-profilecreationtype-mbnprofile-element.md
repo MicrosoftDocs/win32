@@ -2,8 +2,6 @@
 Description: Contains information about the creator of the profile.
 ms.assetid: a3adb323-d1de-4026-976e-a106007f4cc2
 title: ProfileCreationType (MBNProfile) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

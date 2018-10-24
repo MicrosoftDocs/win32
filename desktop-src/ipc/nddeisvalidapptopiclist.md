@@ -2,8 +2,6 @@
 Description: Determines whether an application and topic string (&\#0034;AppName\|TopicName&\#0034;) uses the proper syntax.
 ms.assetid: bcf5442b-452e-4b42-95e9-f09bf885be40
 title: NDdeIsValidAppTopicList function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

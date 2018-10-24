@@ -2,8 +2,6 @@
 Description: Displaying a Filter's Property Pages
 ms.assetid: 4a5f6938-7b33-4350-b8fa-cf78c5c44bcd
 title: Displaying a Filter's Property Pages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

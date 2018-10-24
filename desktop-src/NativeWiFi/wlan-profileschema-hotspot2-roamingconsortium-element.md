@@ -2,8 +2,6 @@
 Description: A list of Organizationally Unique Identifiers (OUI) assigned by IEEE.
 ms.assetid: 4a9885b6-2e57-4a16-8e1d-b5b0797e09db
 title: RoamingConsortium (Hotspot2) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

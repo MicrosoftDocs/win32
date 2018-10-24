@@ -2,8 +2,6 @@
 Description: Specifies whether a hardware-based Media Foundation transform (MFT) is connected to another hardware-based MFT.
 ms.assetid: 9166c43f-d2ae-4dc7-84e9-02146b67efe2
 title: MFT_CONNECTED_TO_HW_STREAM attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

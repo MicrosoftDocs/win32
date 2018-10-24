@@ -2,8 +2,6 @@
 Description: Provides a brief introduction to a few types of buffer overrun situations and offers some ideas and resources to help you avoid creating new risks and mitigate existing ones.
 ms.assetid: 713fd6de-16af-49d2-8940-763c4a6e414b
 title: Avoiding Buffer Overruns
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

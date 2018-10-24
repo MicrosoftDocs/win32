@@ -7,8 +7,6 @@ keywords:
 - transfer job BITS , ownership, service account
 - proxy BITS , service accounts
 - credentials to transfer job BITS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018

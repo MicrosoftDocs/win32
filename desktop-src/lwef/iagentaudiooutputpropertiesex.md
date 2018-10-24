@@ -2,8 +2,6 @@
 title: IAgentAudioOutputPropertiesEx
 description: IAgentAudioOutputPropertiesEx
 ms.assetid: 84d2a1b8-c6a5-49ef-99b4-28b0e5b9810d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

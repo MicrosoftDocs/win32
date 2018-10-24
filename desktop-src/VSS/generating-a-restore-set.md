@@ -2,8 +2,6 @@
 Description: A restore set is a list of all files to be restored and the locations to which they will be restored.
 ms.assetid: 3196c26c-3407-4c00-a800-c3497df583e5
 title: Generating A Restore Set
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

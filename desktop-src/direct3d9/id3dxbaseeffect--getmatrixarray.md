@@ -2,8 +2,6 @@
 Description: Gets an array of nontransposed matrices.
 ms.assetid: 37b08f55-22f1-4b60-8cd4-566a77e7dbd6
 title: ID3DXBaseEffect::GetMatrixArray method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

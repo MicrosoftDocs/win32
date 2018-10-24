@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 1a3f8772-3b49-4db3-adca-68626d6f80c2
 title: System.LastSyncError
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

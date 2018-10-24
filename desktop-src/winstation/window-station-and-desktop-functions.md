@@ -2,8 +2,6 @@
 title: Window Station and Desktop Functions
 description: Applications can use the following functions with window station objects.
 ms.assetid: 6214c28f-1035-446c-8c79-5d1dd638af2a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

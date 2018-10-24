@@ -2,8 +2,6 @@
 Description: The CABINETDLLVERSIONINFO contains the version information for Cabinet.dll.
 ms.assetid: 1dc6962c-3087-4f56-8b65-fbf55e17eeb6
 title: CABINETDLLVERSIONINFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The CImageSample class implements a media sample that manages a GDI device-independent bitmap (DIB).
 ms.assetid: 620ea791-458e-441e-8f0c-2184c44c742e
 title: CImageSample class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

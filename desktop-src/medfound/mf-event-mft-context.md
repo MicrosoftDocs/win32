@@ -2,8 +2,6 @@
 Description: Contains a caller-defined value for an METransformMarker event.
 ms.assetid: c6ab20d9-c2bc-43ba-a018-2c6682bf0485
 title: MF_EVENT_MFT_CONTEXT attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

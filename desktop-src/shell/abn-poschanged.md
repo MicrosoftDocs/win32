@@ -2,8 +2,6 @@
 Description: Notifies an appbar when an event has occurred that may affect the appbar's size and position.
 ms.assetid: 1016a362-4d2b-410e-aec9-c1cc8f497778
 title: ABN_POSCHANGED message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

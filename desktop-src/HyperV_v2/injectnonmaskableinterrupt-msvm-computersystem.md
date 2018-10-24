@@ -2,8 +2,6 @@
 Description: Injects a non-maskable interrupt into the virtual machine.
 ms.assetid: 897AD1B9-0EDD-4DCE-963D-D5DE03AF55A9
 title: Msvm_ComputerSystem::InjectNonMaskableInterrupt method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

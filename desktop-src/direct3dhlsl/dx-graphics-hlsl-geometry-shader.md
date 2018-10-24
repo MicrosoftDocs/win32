@@ -4,8 +4,6 @@ description: A geometry-shader object processes entire primitives. Use the follo
 ms.assetid: d5c1c22b-6fa6-40a8-900f-6d74f74468c1
 keywords:
 - maxvertexcount (DirectX HLSL)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

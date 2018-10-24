@@ -2,8 +2,6 @@
 Description: The Hyper-V application health monitoring API defines the following COM interfaces.
 ms.assetid: 20765882-C82D-4CBE-AF53-B9F590B15E68
 title: Hyper-V application health monitoring interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

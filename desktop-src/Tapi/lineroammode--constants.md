@@ -2,8 +2,6 @@
 Description: The LINEROAMMODE\_ bit-flag constants describe the roaming status of a line device.
 ms.assetid: af0eb263-8deb-44ab-8acb-00e4ff7930ab
 title: LINEROAMMODE_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

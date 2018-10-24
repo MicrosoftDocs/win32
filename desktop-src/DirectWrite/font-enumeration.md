@@ -2,8 +2,6 @@
 title: How to Enumerate Fonts
 description: This overview will show how to enumerate the fonts in the system font collection, by family name.
 ms.assetid: c1ec7721-2a30-4de3-b986-932f098228a6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The SENSOR\_CATEGORY\_LIGHT category contains sensors that provide information about characteristics of light.
 ms.assetid: 0327bda5-f1d7-476d-9f0f-f4d60a6a106f
 title: SENSOR_CATEGORY_LIGHT
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

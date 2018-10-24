@@ -2,8 +2,6 @@
 Description: Retrieves the list of available DDE shares.
 ms.assetid: ce5aeddd-d9d1-40a2-a807-1a9c9f98f171
 title: NDdeShareEnum function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

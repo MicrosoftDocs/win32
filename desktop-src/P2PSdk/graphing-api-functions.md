@@ -2,8 +2,6 @@
 Description: 'The Peer Graphing API uses the following functions:'
 ms.assetid: cd05d4da-ca65-471b-bb97-82885f22e6f9
 title: Graphing API Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

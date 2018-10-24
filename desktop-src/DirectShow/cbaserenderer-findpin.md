@@ -2,8 +2,6 @@
 Description: The FindPin method retrieves the pin with the specified identifier.
 ms.assetid: d07a298f-ddb0-44eb-85ca-81735875cdf3
 title: CBaseRenderer.FindPin method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

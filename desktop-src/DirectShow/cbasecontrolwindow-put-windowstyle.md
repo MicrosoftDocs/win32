@@ -2,8 +2,6 @@
 Description: The put\_WindowStyle method sets the standard window styles.
 ms.assetid: 3b3aa035-6aa1-4f11-80d8-03268fcf98e1
 title: CBaseControlWindow.put_WindowStyle method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Writing Object Properties
 ms.assetid: f762a571-83ea-4999-ad49-a51044bc790d
 title: Writing Object Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

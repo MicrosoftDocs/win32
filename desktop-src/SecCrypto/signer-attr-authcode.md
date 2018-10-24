@@ -2,8 +2,6 @@
 Description: Specifies attributes for an Authenticode signature.
 ms.assetid: 1c1052c3-c5c5-48ae-8266-0b367800a84a
 title: SIGNER_ATTR_AUTHCODE structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

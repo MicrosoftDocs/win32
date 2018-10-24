@@ -2,8 +2,6 @@
 Description: Defines methods that handle the ITablet Interface events.
 ms.assetid: 9acf32fa-b33f-4b9a-be73-804b7d5434e8
 title: ITabletEventSink interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

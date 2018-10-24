@@ -2,8 +2,6 @@
 Description: The ISearchCompletedCallback interface defines the following method.
 ms.assetid: cb65a106-2cf7-4544-96cb-47481dc81111
 title: ISearchCompletedCallback Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

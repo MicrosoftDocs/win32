@@ -6,8 +6,6 @@ keywords:
 - rules for using pointers 64-bit Windows Programming
 - pointer manipulation 64-bit Windows Programming
 - casting pointers 64-bit Windows Programming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

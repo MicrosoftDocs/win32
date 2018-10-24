@@ -2,8 +2,6 @@
 Description: Retrieves the collection of certificates in the signed executable file.
 ms.assetid: ecc05117-8b98-4e49-9671-71829df24597
 title: SignedCode.Certificates property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

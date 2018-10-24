@@ -5,8 +5,6 @@ ms.assetid: 5095dbd2-7cd4-48b6-bbb4-1f0bddfcfd06
 keywords:
 - capGetStatus macro
 - CAPSTATUS structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

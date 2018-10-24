@@ -2,8 +2,6 @@
 Description: Flag that indicates whether the filter is processing a Receive call.
 ms.assetid: 4b0d34c4-551a-4674-bda9-be67ed22d09b
 title: CBaseRenderer::m_bInReceive member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

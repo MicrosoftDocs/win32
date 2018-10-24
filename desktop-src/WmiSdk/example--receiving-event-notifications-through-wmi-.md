@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4d581965-e22a-4205-908c-661eeeec88cf
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'Example: Receiving Event Notifications Through WMI'
 ms.author: windowssdkdev

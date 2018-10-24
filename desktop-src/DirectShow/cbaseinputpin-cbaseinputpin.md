@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: a853813d-cdf6-4cb4-8288-62685a883b56
 title: CBaseInputPin.CBaseInputPin constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

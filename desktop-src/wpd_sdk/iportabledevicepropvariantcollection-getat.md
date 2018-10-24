@@ -2,8 +2,6 @@
 Description: The GetAt method retrieves an item from the collection by a zero-based index.
 ms.assetid: c7119ba6-e6fc-4cb6-a8ab-3bf7b6bfe850
 title: IPortableDevicePropVariantCollection::GetAt method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

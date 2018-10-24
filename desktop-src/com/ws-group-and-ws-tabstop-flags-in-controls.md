@@ -2,8 +2,6 @@
 title: WS_GROUP and WS_TABSTOP Flags in Controls
 description: WS\_GROUP and WS\_TABSTOP Flags in Controls
 ms.assetid: dd4952c2-0abd-4dfe-bde7-24a5a2792453
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

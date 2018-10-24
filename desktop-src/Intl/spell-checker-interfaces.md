@@ -1,8 +1,6 @@
 ---
 ms.assetid: 42738598-FF25-4E75-9B42-353EC991DDBC
 title: Spell Checking Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

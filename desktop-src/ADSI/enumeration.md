@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 1db19b00-8e43-4fc0-9099-1a1135219600
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,example code Visual Basic ,using IADsContainer to enumerate objects

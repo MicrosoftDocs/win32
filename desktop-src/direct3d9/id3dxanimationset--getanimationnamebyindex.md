@@ -2,8 +2,6 @@
 Description: Gets the name of an animation, given its index.
 ms.assetid: 'vs|directx_sdk|~\id3dxanimationset__getanimationnamebyindex.htm'
 title: ID3DXAnimationSet::GetAnimationNameByIndex method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

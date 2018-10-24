@@ -1,8 +1,6 @@
 ---
 ms.assetid: f0ca9e41-a9f7-435f-a601-f0959adcb514
 title: Using Hooks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

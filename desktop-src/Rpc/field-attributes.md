@@ -2,8 +2,6 @@
 title: Field Attributes
 description: Field attributes (attributes applied to fields of an array, structure, union, or character array) and Remote Procedure Call (RPC).
 ms.assetid: 4508479d-ff0a-4698-94aa-588837032067
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Examples of Light-Aware User Interfaces
 ms.assetid: 13bcc087-bbe7-4352-b242-5a849cfe423d
 title: Examples of Light-Aware User Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

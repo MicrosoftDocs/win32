@@ -2,8 +2,6 @@
 title: Example Common Classes
 description: You can use the code examples in this topic as a starting point for many Background Intelligent Transfer Service (BITS) applications that perform COM initialization, need error handling, and receive callback notifications.
 ms.assetid: 8fe722a3-fbab-4843-b298-1ea11f54d7a5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

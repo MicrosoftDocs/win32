@@ -2,8 +2,6 @@
 Description: Registering and Activating Components in Partitions
 ms.assetid: 2cca71da-c7f7-4997-b63a-74ba266e9e95
 title: Registering and Activating Components in Partitions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 9d5c2d6a-9997-4d0c-b896-bf1b578e64ac
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Modifying User Cannot Change Password (LDAP Provider) ADSI

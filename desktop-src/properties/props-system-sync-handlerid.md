@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 5a007335-9366-4333-a3d2-39ca70c11eaa
 title: System.Sync.HandlerID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

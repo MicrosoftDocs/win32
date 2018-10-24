@@ -2,8 +2,6 @@
 title: Managing Object Lifetimes Through Reference Counting
 description: Managing Object Lifetimes Through Reference Counting
 ms.assetid: 7f9da5a9-0435-431c-8f90-56e2e489c431
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

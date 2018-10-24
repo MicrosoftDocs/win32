@@ -2,8 +2,6 @@
 Description: An m&\#215;n matrix is a set of numbers arranged in m rows and n columns. The following illustration shows several matrices.
 ms.assetid: 62215ae0-b095-42b2-911c-aa7607a8b61a
 title: Matrix Representation of Transformations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

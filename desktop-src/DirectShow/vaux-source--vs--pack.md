@@ -2,8 +2,6 @@
 Description: VAUX Source (VS) Pack
 ms.assetid: 5ffd2883-0e56-459f-b229-cc014b894237
 title: VAUX Source (VS) Pack
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

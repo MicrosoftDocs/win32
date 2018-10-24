@@ -6,8 +6,6 @@ keywords:
 - development environment 64-bit Windows Programming
 - environment 64-bit Windows Programming
 - 64-bit Windows programming guide 64-bit Windows Programming , development environment
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

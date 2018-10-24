@@ -2,8 +2,6 @@
 Description: Adding Foreign Disks to a Pack
 ms.assetid: 4018c742-1d23-47b9-a787-69bf8847b54a
 title: Adding Foreign Disks to a Pack
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

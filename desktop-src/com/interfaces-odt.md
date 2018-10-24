@@ -2,8 +2,6 @@
 title: Interfaces
 description: The following interfaces are used to implement compound documents and perform data transfer between applications.
 ms.assetid: cfc2c9e9-ddb4-4422-80f8-26e20add6f6e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

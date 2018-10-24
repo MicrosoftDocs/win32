@@ -2,8 +2,6 @@
 Description: The read-only DatabaseKeys property of the Error object returns a string collection that contains the primary keys of the database row causing the error. There is one key per entry in the collection.
 ms.assetid: 416a6cef-4c70-4c06-a8d2-801c9440e25a
 title: Error.DatabaseKeys property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

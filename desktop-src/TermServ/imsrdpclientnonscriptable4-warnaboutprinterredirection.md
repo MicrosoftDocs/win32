@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 12c5bc8d-7bc1-4a94-a9b8-6b852772c936
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - WarnAboutPrinterRedirection property Remote Desktop Services

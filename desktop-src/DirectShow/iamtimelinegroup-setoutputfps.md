@@ -2,8 +2,6 @@
 Description: The SetOutputFPS method sets the uncompressed output frame rate for this group.
 ms.assetid: 335ea106-d5db-43a1-b771-b027e25164a6
 title: IAMTimelineGroup::SetOutputFPS method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Messages are used to notify the application of asynchronous events.
 ms.assetid: 52169acc-4096-4418-93b6-a43a1de866ad
 title: Call Center Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

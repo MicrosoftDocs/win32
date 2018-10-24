@@ -2,8 +2,6 @@
 Description: Event that occurs when a new Windows Image Acquisition (WIA) hardware device is disconnected.
 ms.assetid: 9c3ccdba-288c-4bdd-b257-b03999bc6fd9
 title: Wia.OnDeviceDisconnected event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The DVDUniqueID property retrieves a system-generated number that uniquely identifies the current disc.
 ms.assetid: 8ea6dd4d-6998-4212-8874-9c6cd93a1db3
 title: DVDUniqueID Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

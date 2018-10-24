@@ -2,8 +2,6 @@
 Description: The city name.
 ms.assetid: f072d5a5-4403-4a6f-9fa3-2e3549656972
 title: LocationDisp.DispCivicAddressReport.City property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

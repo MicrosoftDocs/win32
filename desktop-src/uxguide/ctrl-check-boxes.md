@@ -2,8 +2,6 @@
 title: Check Boxes
 description: With a check box, users make a decision between two clearly opposite choices.
 ms.assetid: 7c39987d-807b-41c1-9788-65c3d468b976
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

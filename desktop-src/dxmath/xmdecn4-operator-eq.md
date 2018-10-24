@@ -2,8 +2,6 @@
 Description: Assigns vector component data to the current instance of XMDECN4.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmdecn4.operator = '
 title: operator = operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

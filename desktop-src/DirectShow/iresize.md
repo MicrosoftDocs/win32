@@ -2,8 +2,6 @@
 Description: The IResize interface must be supported by any custom video resizer filter for DirectShow Editing Services (DES). To set a custom resizer filter, call the IRenderEngine2::SetResizerGUID method on the render engine.
 ms.assetid: 4740dbff-0881-45e8-b382-98ed9d055403
 title: IResize interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

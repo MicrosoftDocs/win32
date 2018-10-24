@@ -2,8 +2,6 @@
 Description: Used with encode and decode operations.
 ms.assetid: 713c95ae-e5d0-416c-ba0c-4b5399aa8a33
 title: Constants for Netscape Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

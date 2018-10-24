@@ -2,8 +2,6 @@
 title: Lst Tag
 description: Lst Tag
 ms.assetid: 82246675-9aa1-4603-a8f7-a5fd7b3f6be2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The OnDeactivate method is called when the dialog box window is destroyed.
 ms.assetid: 47320e61-324f-4f64-abe1-38fe70e82787
 title: CBasePropertyPage.OnDeactivate method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

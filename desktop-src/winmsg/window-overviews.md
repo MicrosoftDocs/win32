@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: cae5b994-a01f-47a9-8a4c-5d276a76e708
 title: Window Overviews
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

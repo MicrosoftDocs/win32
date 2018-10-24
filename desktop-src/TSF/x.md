@@ -3,8 +3,6 @@ title: X
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 'a93ad5d1-0470-40a8-a452-e78637c1a134'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Contains information about a given ink word in the Journal note, including position, alternates, and the actual ink data.
 ms.assetid: 1e197716-bf6c-4a28-ae66-38aa59d7371d
 title: InkWord Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

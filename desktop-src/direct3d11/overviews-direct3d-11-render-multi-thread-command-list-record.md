@@ -2,8 +2,6 @@
 title: How to Record a Command List
 description: This topic shows how to create and record a command list.
 ms.assetid: f5b90dfb-0b07-432e-813b-1541efbe3de5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

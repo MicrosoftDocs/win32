@@ -2,8 +2,6 @@
 Description: ICE65 checks that the Environment table does not have invalid prefix or append values.
 ms.assetid: 95d4e618-9a19-40db-910a-daab105559ae
 title: ICE65
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

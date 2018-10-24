@@ -2,8 +2,6 @@
 Description: The AddTail method appends an item to the end of the list.
 ms.assetid: e365a23e-7447-42ec-b836-21dd68962db1
 title: CGenericList.AddTail method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

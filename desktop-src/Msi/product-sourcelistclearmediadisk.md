@@ -2,8 +2,6 @@
 Description: The SourceListClearMediaDisk method of the Product object removes a specified disk from the set of registered disks for a product. Accepts Diskid as a parameter. This method calls MsiSourceListClearMediaDisk.
 ms.assetid: 7eec644e-5127-4c17-a8bd-6b0eb091c8aa
 title: Product.SourceListClearMediaDisk method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

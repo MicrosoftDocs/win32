@@ -2,8 +2,6 @@
 Description: Sent to the parent window of an owner-drawn control or menu when a visual aspect of the control or menu has changed.
 ms.assetid: 2515bbab-025f-4f00-8564-a732d68edea3
 title: DFM_WM_DRAWITEM message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

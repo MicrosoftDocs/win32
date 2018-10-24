@@ -2,8 +2,6 @@
 Description: The Quality of Service (QoS) implementation details are provided in a separate, dedicated QoS section in the Microsoft Windows Software Development Kit (SDK).
 ms.assetid: 58cb384d-a830-4e9f-a8d0-f4b64a64328f
 title: QoS Templates in the SPI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

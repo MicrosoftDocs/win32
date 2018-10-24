@@ -2,8 +2,6 @@
 Description: The TakePicture method of the Item object causes a digital camera device to take a picture and returns an Item object that represents the resulting image. This method applies only to digital camera devices.
 ms.assetid: d181048e-21ef-4fcc-a50a-5ba44bbde72e
 title: Item.TakePicture method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

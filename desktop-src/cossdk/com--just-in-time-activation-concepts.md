@@ -2,8 +2,6 @@
 Description: The just-in-time (JIT) activation service enables COM+ to deactivate an object while a client still holds an active reference to that object.
 ms.assetid: dbc7b257-8506-42c8-8a78-3474c6d4f4b6
 title: COM+ Just-in-Time Activation Concepts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

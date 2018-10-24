@@ -2,8 +2,6 @@
 Description: An event object is a synchronization object whose state can be explicitly set to signaled by use of the SetEvent function. Following are the two types of event object.
 ms.assetid: 63dc2991-e070-4981-9e2d-90b4fdaaee7a
 title: Event Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

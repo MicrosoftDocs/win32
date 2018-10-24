@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 71cbecde-33c4-4bf1-9793-bef6d823dcac
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a WMI Method
 ms.author: windowssdkdev

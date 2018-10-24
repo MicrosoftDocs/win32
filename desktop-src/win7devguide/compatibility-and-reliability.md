@@ -2,8 +2,6 @@
 title: Compatibility and Reliability
 description: Windows 7 is designed to run on the same hardware as Windows Vista, and to be compatible with applications and device drivers that work with Windows Vista.
 ms.assetid: d7a0c335-93d1-49d3-ae40-c59ff9163f88
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

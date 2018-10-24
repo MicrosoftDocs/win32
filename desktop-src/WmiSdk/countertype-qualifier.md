@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: aa79fcdb-503f-4928-b2b7-f07baeaf9fb5
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CounterType Qualifier
 ms.author: windowssdkdev

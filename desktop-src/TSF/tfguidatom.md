@@ -4,8 +4,6 @@ description: The TfGuidAtom data type identifies a GUID within TSF. A TfGuidAtom
 ms.assetid: '91696612-1829-4052-81d1-eddc23278d35'
 keywords:
 - TfGuidAtom
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

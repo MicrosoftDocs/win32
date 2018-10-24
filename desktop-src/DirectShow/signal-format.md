@@ -2,8 +2,6 @@
 Description: Signal Format
 ms.assetid: 8684972c-3233-49bf-8c34-ca644aca432a
 title: Signal Format
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

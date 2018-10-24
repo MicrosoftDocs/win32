@@ -4,8 +4,6 @@ description: Identifies the module name and resource ID for a 16 x 16 bitmap to 
 ms.assetid: 87b3d8e1-4d54-465c-9e5e-5e4f7391f313
 keywords:
 - ToolBoxBitmap32 registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

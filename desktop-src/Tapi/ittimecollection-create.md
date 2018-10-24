@@ -2,8 +2,6 @@
 Description: The Create method creates a new ITTime component.
 ms.assetid: dee50454-8358-4898-b098-2de51505b658
 title: ITTimeCollection::Create method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

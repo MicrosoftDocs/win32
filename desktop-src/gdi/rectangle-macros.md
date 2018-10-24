@@ -2,8 +2,6 @@
 Description: Rectangle Macros
 ms.assetid: ef123b97-6dec-4f9b-b831-cc8451a94a74
 title: Rectangle Macros
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

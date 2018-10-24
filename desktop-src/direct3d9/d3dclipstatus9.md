@@ -2,8 +2,6 @@
 Description: Describes the current clip status.
 ms.assetid: 3ea8631c-a967-4d24-a49a-1751b3ee6077
 title: D3DCLIPSTATUS9 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

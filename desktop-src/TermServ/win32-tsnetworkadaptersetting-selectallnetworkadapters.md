@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e0bd60c3-55c3-4be9-be2d-3b97db3047d9
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - SelectAllNetworkAdapters method Remote Desktop Services

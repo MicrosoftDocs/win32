@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f7160a90-562d-40d9-9189-32aaabcd81d0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__NamespaceDeletionEvent class'
 ms.author: windowssdkdev

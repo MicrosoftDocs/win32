@@ -2,8 +2,6 @@
 Description: Represents a file name attribute. A file has one file name attribute for every directory it is entered into.
 ms.assetid: 54458eee-b786-446c-80bd-213c13bdeb4a
 title: FILE_NAME structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

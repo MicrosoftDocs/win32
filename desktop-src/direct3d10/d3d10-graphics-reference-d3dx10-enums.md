@@ -2,8 +2,6 @@
 Description: 'This section contains information about the following enumerated types and flags used with D3DX.:'
 ms.assetid: 8836f350-9edd-4521-b7a3-3aa827394c57
 title: D3DX Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

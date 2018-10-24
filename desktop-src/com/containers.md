@@ -2,8 +2,6 @@
 title: Containers
 description: Containers
 ms.assetid: 732bc4b5-2e6f-4cff-8dae-073a49aa5285
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

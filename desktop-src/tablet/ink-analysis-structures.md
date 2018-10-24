@@ -2,8 +2,6 @@
 Description: This section contains information about the structures used in ink analysis.
 ms.assetid: 25d0e01e-6f6b-4bf5-8a40-9f4ac8491373
 title: Ink Analysis Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

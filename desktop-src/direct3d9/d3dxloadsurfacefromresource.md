@@ -2,8 +2,6 @@
 Description: Loads a surface from a resource.
 ms.assetid: 16d49f61-8c84-4e15-aacc-1d26099e65e0
 title: D3DXLoadSurfaceFromResource function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

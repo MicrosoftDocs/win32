@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 18a7785c-30c6-43b8-9a41-542a8424522c
 title: CMediaPosition.CMediaPosition constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Using Light Sensor Data
 ms.assetid: 98272df5-08c0-4392-a74b-2919bbdcb022
 title: Using Light Sensor Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

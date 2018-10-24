@@ -2,8 +2,6 @@
 Description: To retrieve a list of providers that have installed their manifest or MOF classes on the computer, call the TdhEnumerateProviders function.
 ms.assetid: 79a29a55-e211-4921-ac78-a21ef8ef238f
 title: Enumerating Providers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

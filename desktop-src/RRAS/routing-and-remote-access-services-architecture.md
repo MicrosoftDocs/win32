@@ -4,8 +4,6 @@ description: The following illustration presents a general architectural view of
 ms.assetid: 599435e2-e2f3-4632-8a79-441172aacf13
 keywords:
 - Routing and Remote Access Service RRAS , Routing and Remote Access Services Architecture RRAS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

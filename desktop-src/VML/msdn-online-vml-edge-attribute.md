@@ -2,8 +2,6 @@
 title: VML Edge Attribute
 description: VML Edge Attribute
 ms.assetid: d3aa4a1a-6f07-45c0-810e-491d5a207910
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

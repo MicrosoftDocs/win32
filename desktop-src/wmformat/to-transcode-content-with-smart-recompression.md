@@ -20,8 +20,6 @@ keywords:
 - recompression
 - Windows Media Audio codecs,transcoding content
 - codecs,Windows Media Audio codecs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The TAPI PHONE\_REPLY message is sent to an application to report the results of function call that completed asynchronously.
 ms.assetid: 434f37d6-f385-4cc9-9658-2b683cab532c
 title: PHONE_REPLY message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Media Foundation Interfaces
 ms.assetid: 3e367190-4c88-430e-adbf-9837e1bf0d2b
 title: Media Foundation Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

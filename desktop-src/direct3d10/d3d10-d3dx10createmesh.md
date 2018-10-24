@@ -2,8 +2,6 @@
 Description: Creates a mesh object using a declarator.
 ms.assetid: 50e09378-2935-4b18-8fc9-5e58eaadae44
 title: D3DX10CreateMesh function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

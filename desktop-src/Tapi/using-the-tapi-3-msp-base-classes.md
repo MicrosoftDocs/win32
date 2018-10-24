@@ -2,8 +2,6 @@
 Description: The following procedure describes how to implement an MSP using ATL version 2.1 or ATL version 3.0 and the MSP base classes.
 ms.assetid: 7485c34a-3c8a-412f-9cb9-8eb895084292
 title: Using The TAPI 3 MSP Base Classes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

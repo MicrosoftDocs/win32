@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a1ff74b4-c015-4a82-a1fe-f4af1eaee705
 title: Hook Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

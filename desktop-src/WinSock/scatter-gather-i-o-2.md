@@ -2,8 +2,6 @@
 Description: The WSARecv, WSARecvFrom, WSARecvMsg, WSASend, WSASendMsg, and WSASendTo functions all take an array of application buffers as input parameters and can be used for scatter/gather (or vectored) I/O.
 ms.assetid: c42e6cea-3b40-44ad-8715-09ce57e82217
 title: Scatter/Gather I/O
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

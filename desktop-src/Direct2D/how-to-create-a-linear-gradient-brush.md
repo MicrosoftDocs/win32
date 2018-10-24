@@ -2,8 +2,6 @@
 title: How to Create a Linear Gradient Brush
 description: Shows how to create a linear gradient brush using Direct2D.
 ms.assetid: 3cf5acc6-2f17-49d4-aca5-a84a846d1749
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

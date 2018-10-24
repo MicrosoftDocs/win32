@@ -2,8 +2,6 @@
 Description: Retrieves the FOURCC&\#160;DWORD from the FOURCCMap object.
 ms.assetid: bb382a57-8499-44c0-b287-2d31f5f5d1d0
 title: FOURCCMap::GetFOURCC method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

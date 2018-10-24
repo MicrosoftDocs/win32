@@ -2,8 +2,6 @@
 Description: 'The answer operation is an application's typical response to an offered communications session. If successful, this operation causes a session to transition into the connected state.'
 ms.assetid: '34ac0b34-1d1b-4657-a737-27a4ed9326af'
 title: Answer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

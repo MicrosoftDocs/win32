@@ -2,8 +2,6 @@
 Description: This event notifies the installer, while keeping the present dialog running, that a feature or all features are to be run locally.
 ms.assetid: 074f347e-37d3-4365-a25d-caa0392a0dbc
 title: AddLocal ControlEvent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

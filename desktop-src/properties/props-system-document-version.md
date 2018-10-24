@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 7f25c823-61f2-4f26-91d5-580c21beec31
 title: System.Document.Version
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

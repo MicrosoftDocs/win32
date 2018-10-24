@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a4508a1e-d68b-4c55-bce4-c8b462134fa1
 title: Creating DXVA-HD Video Surfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

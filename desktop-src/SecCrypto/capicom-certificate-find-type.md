@@ -2,8 +2,6 @@
 Description: The CAPICOM\_CERTIFICATE\_FIND\_TYPE enumeration type defines the type of search criteria used to find specific certificates. This enumeration type was introduced in CAPICOM 2.0.
 ms.assetid: d71436e5-d921-4b84-8028-301d8fc4aedb
 title: CAPICOM_CERTIFICATE_FIND_TYPE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

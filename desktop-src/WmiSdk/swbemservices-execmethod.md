@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2637efdc-fde5-4a44-a41f-67e0fb0df19d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemServices.ExecMethod method
 ms.author: windowssdkdev

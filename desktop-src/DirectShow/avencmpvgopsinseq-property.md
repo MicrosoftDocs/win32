@@ -2,8 +2,6 @@
 Description: Specifies the number of groups of pictures (GOPs) between sequence headers. This property applies to MPEG video encoders.
 ms.assetid: 439be951-0185-4578-8b79-a5dfce254a68
 title: AVEncMPVGOPSInSeq property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

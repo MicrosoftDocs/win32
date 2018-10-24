@@ -2,8 +2,6 @@
 Description: The RegPath data type is a text string containing a Registry path.
 ms.assetid: b3b31c37-f478-4b67-ad1f-99faecc7aaba
 title: RegPath
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

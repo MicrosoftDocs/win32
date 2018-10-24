@@ -2,8 +2,6 @@
 Description: Applications can control the location from which a DLL is loaded by specifying a full path or using another mechanism such as a manifest. If these methods are not used, the system searches for the DLL at load time as described in this topic.
 ms.assetid: 44228cf2-6306-466c-8f16-f513cd3ba8b5
 title: Dynamic-Link Library Search Order
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

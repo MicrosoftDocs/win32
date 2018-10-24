@@ -4,8 +4,6 @@ description: Specifies the command-line parameters to be passed to an object ins
 ms.assetid: da11e422-c0f2-4e44-9728-740ea6b61421
 keywords:
 - ServiceParameters registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

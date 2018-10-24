@@ -2,8 +2,6 @@
 title: Inline Format Conversion Reference
 description: This section contains the following sections.
 ms.assetid: 75e7ff03-0946-406d-a769-73f3da8d1dc1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

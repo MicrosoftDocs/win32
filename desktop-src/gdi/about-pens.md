@@ -2,8 +2,6 @@
 Description: 'There are two types of pen: cosmetic and geometric.'
 ms.assetid: e1e49ee8-07f1-4f1a-95bb-f6757a72da99
 title: About Pens
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -10,8 +10,6 @@ keywords:
 - Windows Media Player skins,primary images
 - skins,primary images
 - primary images in skins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

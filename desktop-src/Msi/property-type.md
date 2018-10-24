@@ -2,8 +2,6 @@
 Description: The Property Type of semantic type is one of the Key Format Types. This type consists of a foreign key into the Property table provided by the user.
 ms.assetid: 819e4e90-0bc3-41ba-851d-1d4c52b6eeea
 title: Property Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

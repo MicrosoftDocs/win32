@@ -2,8 +2,6 @@
 title: IBackgroundCopyGroup Methods
 description: The IBackgroundCopyGroup interface exposes the following methods.
 ms.assetid: F107750A-7A37-4654-AF0E-77D9D2DFD8C7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

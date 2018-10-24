@@ -7,8 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),metadata overview
 - ASF (Advanced Systems Format),metadata overview
 - metadata,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

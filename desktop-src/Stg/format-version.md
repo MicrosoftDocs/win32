@@ -2,8 +2,6 @@
 title: Format Version
 description: The Format Version value is a WORD data type that is used to indicate the format version of this stream.
 ms.assetid: 38362a45-4f49-4a85-aabe-452ff32c2812
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

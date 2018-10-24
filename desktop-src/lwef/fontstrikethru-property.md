@@ -2,8 +2,6 @@
 title: FontStrikeThru Property
 description: FontStrikeThru Property
 ms.assetid: 2d87fded-2f3e-44cd-b2a5-5f9c76ca1cf5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

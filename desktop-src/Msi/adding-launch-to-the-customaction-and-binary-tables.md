@@ -2,8 +2,6 @@
 Description: Add a record to the CustomAction table for the Launch custom action.
 ms.assetid: 010ce7cd-010b-4fac-90ad-5745c6a38630
 title: Adding Launch to the CustomAction and Binary Tables
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

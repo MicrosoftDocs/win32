@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 4d7f1c03-5c67-4f4c-b381-034a142251fe
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - CQPM_SETDEFAULTPARAMETERS message Active Directory

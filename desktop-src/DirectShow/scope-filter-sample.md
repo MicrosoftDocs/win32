@@ -2,8 +2,6 @@
 Description: Scope Filter Sample
 ms.assetid: f967d4c7-94d2-440b-9e52-423feefec66d
 title: Scope Filter Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

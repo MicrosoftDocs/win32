@@ -2,8 +2,6 @@
 Description: Addition operators.
 ms.assetid: 60489ebb-2809-42ff-9bcc-9b802dd810f0
 title: operator + operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

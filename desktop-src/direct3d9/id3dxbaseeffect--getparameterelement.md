@@ -2,8 +2,6 @@
 Description: Get the handle of an array element parameter.
 ms.assetid: fe8edbc5-dc1d-4386-8149-489541d55bde
 title: ID3DXBaseEffect::GetParameterElement method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The general requirements for pluggable terminal implementation are listed below.
 ms.assetid: 7cee19b1-ceea-494a-b576-4deede759905
 title: Implementing Pluggable Terminals
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

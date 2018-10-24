@@ -2,8 +2,6 @@
 title: IAgentCharacterEx GetHelpFileName
 description: IAgentCharacterEx GetHelpFileName
 ms.assetid: 52d5a874-ad3e-4833-9e3e-ff485414c54c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

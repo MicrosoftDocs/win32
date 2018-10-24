@@ -4,8 +4,6 @@ description: This section contains structures for Windows Touch input.
 ms.assetid: '591c7218-bd4f-40c2-98e1-6442ede28600'
 keywords:
 - Windows Touch,structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

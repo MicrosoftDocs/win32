@@ -2,8 +2,6 @@
 Description: The ICC\_Auth method allows an application to authenticate the smart card.
 ms.assetid: 98aea241-6bdc-4f47-b56c-a90f69fcd9a4
 title: ISCardAuth::ICC_Auth method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

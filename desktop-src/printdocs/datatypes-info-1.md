@@ -2,8 +2,6 @@
 Description: The DATATYPES\_INFO\_1 structure contains information about the data type used to record a print job.
 ms.assetid: 6169006c-12d4-4608-865c-732f04107f9f
 title: DATATYPES_INFO_1 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

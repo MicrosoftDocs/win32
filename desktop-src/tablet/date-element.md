@@ -2,8 +2,6 @@
 Description: Contains the date the Journal note was created.
 ms.assetid: dd9fab39-b346-43bf-8141-8a1874940d88
 title: Date Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

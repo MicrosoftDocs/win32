@@ -2,8 +2,6 @@
 Description: Retrieves the current status of the battery.
 ms.assetid: 7a7bf429-9b2c-4faf-9f27-fb5fd8dd18df
 title: IOCTL_BATTERY_QUERY_STATUS control code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

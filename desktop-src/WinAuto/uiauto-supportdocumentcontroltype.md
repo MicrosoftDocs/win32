@@ -19,8 +19,6 @@ keywords:
 - control types,control patterns for Document control type
 - control types,support for Document
 - control types,Document
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

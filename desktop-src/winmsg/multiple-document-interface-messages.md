@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 75504cf2-e656-440d-a2dc-16e9ca801565
 title: MDI Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This section contains an alphabetic list of the phone device functions in the Telephony SPI.
 ms.assetid: 6210a205-0ab6-4695-b4f4-62f8e018bf0e
 title: TSPI Phone Device Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

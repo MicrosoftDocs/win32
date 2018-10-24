@@ -2,8 +2,6 @@
 Description: This class is the event type class for driver major function call return events. The following syntax is simplified from MOF code.
 ms.assetid: b3358935-d6fb-49eb-bdf7-4366b4fd14c5
 title: DriverMajorFunctionReturn class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: To establish a connection between a client and a server using Microsoft SMB Protocol, you must first determine the dialect with the highest level of functionality that both the client and server support.
 ms.assetid: ad48391b-fcc7-4e58-83bb-6084503c8d61
 title: Microsoft SMB Protocol Dialects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

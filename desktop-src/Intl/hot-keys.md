@@ -2,8 +2,6 @@
 Description: Hot keys give the user a way to quickly change the input mode of an IME or to switch to another IME.
 ms.assetid: e3bfeefd-82aa-423c-9248-b6f54f095b1c
 title: Hot Keys
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

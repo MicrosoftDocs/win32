@@ -2,8 +2,6 @@
 Description: Insert the ScheduleReboot action into the action sequence to prompt the user for a restart of the system at the end of the installation. Use the ForceReboot action to prompt for a restart during installation.
 ms.assetid: 36f24f57-f1f0-4eca-9b6d-1b25fb73fa96
 title: ScheduleReboot Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

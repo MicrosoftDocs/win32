@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 7ccb5a38-0f9b-4317-9a5e-fcafd75e2e1a
 title: Window Property Overviews
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

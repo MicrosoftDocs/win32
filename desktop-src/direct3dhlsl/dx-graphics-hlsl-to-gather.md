@@ -2,8 +2,6 @@
 title: Gather (DirectX HLSL Texture Object)
 description: Gets the four samples (red component only) that would be used for bilinear interpolation when sampling a texture.
 ms.assetid: a394d8c2-99cc-4a38-9ac9-34afc666ebe0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

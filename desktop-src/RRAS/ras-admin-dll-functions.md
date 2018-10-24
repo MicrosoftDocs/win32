@@ -2,8 +2,6 @@
 title: RAS Administration DLL Functions
 description: A RAS administration DLL must implement and export all of the following functions
 ms.assetid: bf2bd4d4-6da2-471e-843c-c0f0563d3795
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

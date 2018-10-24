@@ -2,8 +2,6 @@
 Description: A filter is requesting that the graph be restarted.
 ms.assetid: 58f17338-dd60-4b77-80d3-b6b6a76af9b2
 title: EC_NEED_RESTART
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

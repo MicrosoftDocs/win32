@@ -2,8 +2,6 @@
 title: Custom Font Collections (Windows 7/8)
 description: DirectWrite provides access to the system font collection by using the IDWriteFactory GetSystemFontCollection method.
 ms.assetid: ec892904-6778-4fbd-93b4-62d0db5b82ea
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

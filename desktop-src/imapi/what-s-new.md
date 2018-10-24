@@ -2,8 +2,6 @@
 title: What's New
 description: The following table identifies what is new for each release of the Image Mastering API.
 ms.assetid: a90daec2-5916-4c24-b2ad-94199641a2ab
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

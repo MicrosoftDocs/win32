@@ -2,8 +2,6 @@
 Description: The SignalTimerFired method clears the timer identifier used to schedule rendering.
 ms.assetid: b8ae362e-fcda-4888-be32-8fb910d0f0db
 title: CBaseRenderer.SignalTimerFired method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

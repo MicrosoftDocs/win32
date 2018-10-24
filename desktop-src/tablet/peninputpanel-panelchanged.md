@@ -2,8 +2,6 @@
 Description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object changes between layouts.
 ms.assetid: 21d38406-7ed9-4741-a092-ed3a369dc0dc
 title: PenInputPanel.PanelChanged event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 95ba3e9c-1397-41fe-a080-c03a98aafd42
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Deleting an Instance
 ms.author: windowssdkdev

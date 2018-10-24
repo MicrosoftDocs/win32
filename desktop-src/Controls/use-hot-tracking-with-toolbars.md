@@ -2,8 +2,6 @@
 title: How to Use Hot-Tracking with Toolbars
 description: When a mouse pointer hovers over an item, the item becomes hot. If hot-tracking is enabled, the hot item is highlighted. A toolbar that is created with the TBSTYLE\_FLAT style, or one that uses Visual Styles, supports hot-tracking by default.
 ms.assetid: E77B15D7-F0C9-41F7-8BE9-30260FA4BB0C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

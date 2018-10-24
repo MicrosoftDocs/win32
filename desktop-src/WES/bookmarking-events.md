@@ -2,8 +2,6 @@
 title: Bookmarking Events
 description: A bookmark identifies an event in a channel or log file.
 ms.assetid: e7eeafc3-deb9-4cdc-9763-f784db7333be
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

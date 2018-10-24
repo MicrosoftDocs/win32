@@ -2,8 +2,6 @@
 title: VML GradientShapeOK Attribute
 description: VML GradientShapeOK Attribute
 ms.assetid: c26ac4cb-f7f0-4666-b32f-d9fcaf9044a2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

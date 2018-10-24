@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 039459a3-7a83-444c-a0b4-46ef0dc5ddd0
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - GatewayCredSourceCookie property Remote Desktop Services

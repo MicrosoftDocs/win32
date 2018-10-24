@@ -2,8 +2,6 @@
 Description: Installs the system components specified.
 ms.assetid: f4b7b8e5-b392-4208-9f56-b343974e05ff
 title: IcfgInstallInetComponents function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

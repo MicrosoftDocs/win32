@@ -2,8 +2,6 @@
 Description: Specifies the list of wireless LAN networks to which any machine must be allowed to connect.
 ms.assetid: e24557d8-dedf-4381-bba0-cdb7ea26083b
 title: allowList (networkFilter) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

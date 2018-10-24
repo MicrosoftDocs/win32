@@ -2,8 +2,6 @@
 Description: Proper shutdown of communications sessions and of an entire application is required to prevent resources from remaining tied up in calls or applications that no longer need them.
 ms.assetid: '40694b7f-474b-41aa-be3f-48e4ca517a6f'
 title: TAPI Shutdown
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

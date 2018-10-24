@@ -2,8 +2,6 @@
 Description: Windows Installer developers can author tools that enable end users to use configurable merge modules.
 ms.assetid: 5857b788-f1dd-41d0-b0ee-0872494e3c2c
 title: Adding Module Configuration Capability to a Merge Tool
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

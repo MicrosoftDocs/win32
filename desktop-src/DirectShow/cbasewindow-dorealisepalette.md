@@ -2,8 +2,6 @@
 Description: The DoRealisePalette method realizes the window's current palette.
 ms.assetid: dd023c81-0cd0-48c6-bc63-5891f2a4acf7
 title: CBaseWindow.DoRealisePalette method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

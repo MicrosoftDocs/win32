@@ -10,8 +10,6 @@ keywords:
 - timers,structures
 - reference for timers,structures
 - timer reference,structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

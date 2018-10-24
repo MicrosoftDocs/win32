@@ -2,8 +2,6 @@
 Description: D3DX supplies the following texture functions.
 ms.assetid: 6a4945ee-bd82-4c29-9e75-c0e2e5fc1524
 title: Texture Functions in D3DX 10
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

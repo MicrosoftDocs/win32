@@ -2,8 +2,6 @@
 title: How Servers Implement Child IDs
 description: Server developers can assign child IDs to both simple elements and accessible objects. However, the recommended approach is to support the standard Component Object Model (COM) interface IEnumVARIANT in every accessible object that has children.
 ms.assetid: 236de46e-8fe0-4f53-b989-267c9ee87545
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

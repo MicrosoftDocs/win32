@@ -2,8 +2,6 @@
 Description: Raised by a media source when it restarts or seeks a stream that is already active.
 ms.assetid: 2d91a267-e109-45f5-886b-11b883cc5509
 title: MEUpdatedStream event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic describes the internal details of how the source resolver creates a media source.
 ms.assetid: b0113527-f22c-4519-b1cf-fea54bff4090
 title: Scheme Handlers and Byte-Stream Handlers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

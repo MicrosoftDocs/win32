@@ -2,8 +2,6 @@
 Description: If this style bit is set the text in the control is displayed in a right-to-left reading order.
 ms.assetid: 68394498-98ca-4bcd-86c0-3f692a26a258
 title: RTLRO Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Network Source Authentication
 ms.assetid: bffc33ec-0fb0-4bbe-9bac-583b9d4e1153
 title: Network Source Authentication
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

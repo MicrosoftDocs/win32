@@ -2,8 +2,6 @@
 Description: Indicates the number of pixels per resolution unit in the image width.
 ms.assetid: 6d5ac7df-94a5-404f-a692-c472faabef1f
 title: System.Image.HorizontalResolution
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

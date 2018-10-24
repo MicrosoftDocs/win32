@@ -2,8 +2,6 @@
 Description: PNRP uses the WSAQUERYSET structure in conjunction with various functions to facilitate resolving names and enumerating names and clouds.
 ms.assetid: 0ccf20c1-4c95-4caf-a8f3-82a9e0a9907b
 title: PNRP and WSAQUERYSET
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

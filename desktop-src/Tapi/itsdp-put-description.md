@@ -2,8 +2,6 @@
 Description: The put\_Description method sets the session description.
 ms.assetid: 535957e7-effe-4b1b-8cba-38a7a3fe9a9a
 title: ITSdp::put_Description method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

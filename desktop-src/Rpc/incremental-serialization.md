@@ -2,8 +2,6 @@
 title: Incremental Serialization
 description: When using the incremental style serialization, you supply three routines to manipulate the buffer.
 ms.assetid: c7383b4d-94d1-4edd-ac29-c11fb5343156
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

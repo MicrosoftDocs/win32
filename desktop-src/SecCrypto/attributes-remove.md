@@ -2,8 +2,6 @@
 Description: Removes an indexed Attribute object from the collection.
 ms.assetid: 6d9423e3-ab24-4973-b0aa-32e38abd607a
 title: Attributes.Remove method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

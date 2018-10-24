@@ -8,8 +8,6 @@ keywords:
 - Online Print Ordering Wizard,about
 - publishing wizards,Web Publishing Wizard
 - publishing wizards,Online Print Ordering Wizard
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

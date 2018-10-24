@@ -2,8 +2,6 @@
 Description: Uses sequential calls to retrieve all of the strings within specified ranges.
 ms.assetid: 4e819975-84a5-4b73-9a19-792d3607da9c
 title: GetStringsFromBlob function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

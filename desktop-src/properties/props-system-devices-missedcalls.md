@@ -2,8 +2,6 @@
 Description: Number of missed calls on the device.
 ms.assetid: 05ad02b8-5d25-48ff-9fea-d6d5f9e2c2d7
 title: System.Devices.MissedCalls
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

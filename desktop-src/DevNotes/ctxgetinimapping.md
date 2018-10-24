@@ -2,8 +2,6 @@
 Description: Determines whether the Terminal Server is in INSTALL mode (only on Windows Terminal Server 4.0).
 ms.assetid: f6cb7971-d4f5-49ca-938a-9c280028764a
 title: CtxGetIniMapping function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

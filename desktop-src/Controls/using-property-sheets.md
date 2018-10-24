@@ -2,8 +2,6 @@
 title: Using Property Sheets
 description: This section contains topics that demonstrate how to create and use property sheets.
 ms.assetid: VS|Controls|~\controls\propsheet\usingpropsheet.htm
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

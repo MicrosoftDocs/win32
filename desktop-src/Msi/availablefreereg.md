@@ -2,8 +2,6 @@
 Description: The AVAILABLEFREEREG property specifies in kilobytes the total free space available in the registry after calling the AllocateRegistrySpace action.The maximum value of the AVAILABLEFREEREG property is 2000000 kilobytes.This property is set only on Windows 2000.
 ms.assetid: 95afc397-2f28-4ab9-8d95-d071c2f1f498
 title: AVAILABLEFREEREG property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

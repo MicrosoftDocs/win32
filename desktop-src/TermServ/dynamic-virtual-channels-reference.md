@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 00cb7813-1d86-4faa-8b46-081959e4acfa
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , dynamic virtual channels reference

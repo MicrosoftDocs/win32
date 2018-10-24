@@ -2,8 +2,6 @@
 title: VML ImageSize Attribute
 description: VML ImageSize Attribute
 ms.assetid: 6b021ac1-e447-46ad-9153-91f936fca0d8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

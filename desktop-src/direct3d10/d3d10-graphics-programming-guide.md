@@ -2,8 +2,6 @@
 Description: The programming guide contains information about how to use the Direct3D 10 programmable pipeline to create realtime 3D graphics for games as well as scientific and desktop applications.
 ms.assetid: a6b5ce92-1cd9-4d51-af16-8c0c403c1964
 title: Programming Guide for Direct3D 10
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

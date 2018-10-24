@@ -2,8 +2,6 @@
 Description: The put\_DestinationWidth method sets the width of the destination rectangle.
 ms.assetid: 1e7a4d38-1453-4dfd-8a2f-0f76b352fc64
 title: CBaseControlVideo.put_DestinationWidth method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

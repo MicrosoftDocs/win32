@@ -2,8 +2,6 @@
 title: Shader Model 5 System Values
 description: Shader Model 5 implements the system values from Shader Model 4 and earlier, as well as the following new system values
 ms.assetid: 30fc6dec-9f68-4435-b611-50ceb18c74d2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

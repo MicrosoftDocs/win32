@@ -2,8 +2,6 @@
 title: Unknown User Types
 description: Unknown User Types
 ms.assetid: c2a4bd83-6eaf-4130-8f86-e99f1e18b63d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

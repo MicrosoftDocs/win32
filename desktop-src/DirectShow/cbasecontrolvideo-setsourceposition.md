@@ -2,8 +2,6 @@
 Description: The SetSourcePosition method sets a new source position for the video.
 ms.assetid: e3c9ce31-9c24-4ef5-9526-ef6b890f5109
 title: CBaseControlVideo.SetSourcePosition method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

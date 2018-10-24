@@ -2,8 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_UNSPECIFIED
 ms.assetid: 0175940e-2de2-4e2b-a98e-8dcc59e7020f
 title: WPD_CONTENT_TYPE_UNSPECIFIED
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

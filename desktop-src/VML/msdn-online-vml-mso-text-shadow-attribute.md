@@ -2,8 +2,6 @@
 title: VML MSO-Text-Shadow Attribute
 description: VML MSO-Text-Shadow Attribute
 ms.assetid: 0d759ccc-0a0d-47aa-ab12-fb393b0ab435
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

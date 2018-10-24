@@ -2,8 +2,6 @@
 Description: The amount of exposure bias used in the photo, as read from the camera.
 ms.assetid: 0b819984-c048-4512-962a-e2320e1585b2
 title: System.Photo.ExposureBias
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

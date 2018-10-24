@@ -2,8 +2,6 @@
 title: Handling Authentication
 description: Some proxies and servers require authentication before granting access to resources on the Internet.
 ms.assetid: f3752031-30d3-4e35-8eae-1d4971b66bc2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

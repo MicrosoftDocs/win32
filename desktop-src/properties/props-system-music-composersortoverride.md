@@ -2,8 +2,6 @@
 Description: This optional string value allows for overriding the standard sort order of System.Music.Composer.This is very important for proper sorting of music files in Japanese which cannot becorrectly sorted phonetically (the user-expected ordering) without this field.It can also be used for customizing sorting in non-East Asian scenarios,such as allowing the user to remove articles for sorting purposes.
 ms.assetid: f087cbd3-7d0e-48c8-8e59-383d6b47cb12
 title: System.Music.ComposerSortOverride
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Working with Video Frames
 ms.assetid: a5ad74dd-abfd-4810-a512-42e4b98a6c59
 title: Working with Video Frames
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

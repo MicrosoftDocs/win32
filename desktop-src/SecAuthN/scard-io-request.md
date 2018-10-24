@@ -2,8 +2,6 @@
 Description: The SCARD\_IO\_REQUEST structure begins a protocol control information structure.
 ms.assetid: 80fd7c6e-e768-42db-8302-29e92c9552f0
 title: SCARD_IO_REQUEST structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

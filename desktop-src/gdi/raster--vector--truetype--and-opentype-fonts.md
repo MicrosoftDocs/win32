@@ -2,8 +2,6 @@
 Description: Raster, Vector, TrueType, and OpenType Fonts
 ms.assetid: 4fe98f04-3fb0-4a03-86c3-d0ea6f07f8f0
 title: Raster, Vector, TrueType, and OpenType Fonts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

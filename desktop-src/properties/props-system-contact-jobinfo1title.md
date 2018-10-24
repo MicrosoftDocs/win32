@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 6653d85c-6455-481c-928b-ea5a953bb165
 title: System.Contact.JobInfo1Title
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

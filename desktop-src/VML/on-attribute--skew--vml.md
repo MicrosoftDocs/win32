@@ -2,8 +2,6 @@
 title: On Attribute (Skew)(VML)
 description: On Attribute (Skew)(VML)
 ms.assetid: fe5516a0-c7f7-4e35-a04e-006afe84ba69
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

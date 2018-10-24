@@ -2,8 +2,6 @@
 Description: The GetPrivateTime method retrieves the real time from the clock.
 ms.assetid: ce9832cb-4b5a-49a1-9a69-d2fb90b3ed2e
 title: CBaseReferenceClock.GetPrivateTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

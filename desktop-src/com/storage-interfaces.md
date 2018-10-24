@@ -2,8 +2,6 @@
 title: Storage Interfaces
 description: Storage Interfaces
 ms.assetid: bce0fd46-eeba-4a14-be1f-63d16885c28d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

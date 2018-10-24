@@ -2,8 +2,6 @@
 Description: 'The following elements provide support for multiple monitors:'
 ms.assetid: 713f3ec9-fce3-42f3-ba08-0b2430aef8a4
 title: Multiple Display Monitors Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

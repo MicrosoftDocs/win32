@@ -2,8 +2,6 @@
 Description: The Connect method connects the NPP to the network by using a specified NIC and provides configuration information for the connection.
 ms.assetid: d017c2a3-a832-4084-b21b-0cca428c5360
 title: IRTC::Connect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

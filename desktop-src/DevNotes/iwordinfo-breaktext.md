@@ -2,8 +2,6 @@
 Description: Parses text to identify words and provides the results to the WordSink object.
 ms.assetid: 42bfc961-c095-4380-9b55-b58a0d9f2c00
 title: IWordInfo::BreakText method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

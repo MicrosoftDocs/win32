@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.Photo.DateTaken property.
 ms.assetid: 800aa01b-6064-45df-a40e-6537819df4d7
 title: System.Photo.DateTaken Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

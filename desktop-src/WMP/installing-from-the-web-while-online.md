@@ -13,8 +13,6 @@ keywords:
 - type 2 online stores,online installs from Web
 - installing online stores from Web while online
 - online installs of online stores
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

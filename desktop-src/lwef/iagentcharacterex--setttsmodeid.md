@@ -2,8 +2,6 @@
 title: IAgentCharacterEx SetTTSModeID
 description: IAgentCharacterEx SetTTSModeID
 ms.assetid: 66ed792a-1693-45dc-b9a8-eebe772c5af9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -11,8 +11,6 @@ keywords:
 - type 1 online stores,media content downloading
 - media content,downloading
 - downloading media content
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

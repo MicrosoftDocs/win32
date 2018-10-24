@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3d3111ac-7d83-48d6-94e4-36cb46a506fa
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Lowering the Security for a Sink in a Separate Process
 ms.author: windowssdkdev

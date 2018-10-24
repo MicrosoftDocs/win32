@@ -4,8 +4,6 @@ description: Specify how the client connects to the server for remote procedure 
 ms.assetid: 2a9fdd2f-c646-4ccd-bfa8-66fe973ef911
 keywords:
 - ACF MIDL , attributes, binding
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

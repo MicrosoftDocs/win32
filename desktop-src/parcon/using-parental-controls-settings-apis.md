@@ -2,8 +2,6 @@
 Description: Using Parental Controls Settings APIs
 ms.assetid: 77a239e9-1cec-4710-b673-7d0cebd502e9
 title: Using Parental Controls Settings APIs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

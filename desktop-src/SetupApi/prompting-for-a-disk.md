@@ -2,8 +2,6 @@
 Description: To generate a dialog box that prompts the user to insert the next disk or specify a new source path, call SetupPromptForDisk.
 ms.assetid: a780e7ab-bd96-43e4-9425-e15a758391f4
 title: Prompting For a Disk
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

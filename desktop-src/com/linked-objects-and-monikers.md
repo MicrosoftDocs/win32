@@ -2,8 +2,6 @@
 title: Linked Objects and Monikers
 description: Linked objects, like embedded objects, rely on an object handler to communicate with server applications.
 ms.assetid: f72557b9-cd24-4d96-8144-94a5344ec2ae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

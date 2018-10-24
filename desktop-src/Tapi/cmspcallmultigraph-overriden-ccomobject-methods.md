@@ -2,8 +2,6 @@
 Description: The following list contains the CMSPCallMultiGraph overriden CComObject methods.
 ms.assetid: 317e3fba-3af5-4fd6-8e4d-276643960930
 title: CMSPCallMultiGraph Overriden CComObject Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

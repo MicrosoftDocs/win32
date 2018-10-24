@@ -2,8 +2,6 @@
 title: Translating to C++
 description: Translating to C++
 ms.assetid: b430c7ea-440a-460b-b06f-9a1a4219ff39
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

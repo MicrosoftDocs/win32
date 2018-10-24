@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 6b184a36-7d22-41ab-98e7-b185d1063bcb
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: COOKER_VARIANCE
 ms.author: windowssdkdev

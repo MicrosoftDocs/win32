@@ -2,8 +2,6 @@
 Description: The information DC is used to retrieve default device data.
 ms.assetid: 8fd05c17-e8c9-4747-9a66-ce7d958edeb9
 title: Information Device Contexts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

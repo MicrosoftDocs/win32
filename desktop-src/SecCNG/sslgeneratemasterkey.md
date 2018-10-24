@@ -2,8 +2,6 @@
 Description: Computes the Secure Sockets Layer protocol (SSL) master secret key.
 ms.assetid: c9408eb3-711d-42c3-a4ba-e388689da34e
 title: SslGenerateMasterKey function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

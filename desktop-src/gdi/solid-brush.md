@@ -2,8 +2,6 @@
 Description: A solid brush is a logical brush that contains 64 pixels of the same color.
 ms.assetid: 920014c7-d1ef-4b98-8c92-c4169be52cb9
 title: Solid Brush
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

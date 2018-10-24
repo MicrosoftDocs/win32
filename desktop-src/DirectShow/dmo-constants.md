@@ -2,8 +2,6 @@
 Description: DMO Constants
 ms.assetid: 1018ab27-f1e9-483f-963e-c5bc844f4127
 title: DMO Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

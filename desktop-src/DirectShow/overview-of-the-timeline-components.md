@@ -2,8 +2,6 @@
 Description: Overview of the Timeline Components
 ms.assetid: 0c67fc5f-2f80-481d-8cf4-989855050196
 title: Overview of the Timeline Components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

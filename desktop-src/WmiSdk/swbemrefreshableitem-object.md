@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 91a693c0-cde4-4cf6-b85a-662cfd0333e9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem.Object property
 ms.author: windowssdkdev

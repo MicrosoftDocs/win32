@@ -2,8 +2,6 @@
 title: Server Annotation Sample
 description: Server Annotation Sample
 ms.assetid: 8e87a2ca-236c-4082-acf5-dc3807dde6bc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

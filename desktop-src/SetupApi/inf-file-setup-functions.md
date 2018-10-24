@@ -2,8 +2,6 @@
 Description: The following Setup API functions are used with INF Files.
 ms.assetid: fb4263fc-5f59-460a-a7d9-93f10729c02a
 title: INF File Setup Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

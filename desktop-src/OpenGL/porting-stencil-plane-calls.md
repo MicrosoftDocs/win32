@@ -8,8 +8,6 @@ keywords:
 - porting to OpenGL from IRIS GL,stencil planes
 - OpenGL porting from IRIS GL,stencil planes
 - stencil planes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

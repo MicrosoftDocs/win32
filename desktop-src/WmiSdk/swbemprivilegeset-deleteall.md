@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 368caa14-1c53-4090-8569-97ea743905de
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.DeleteAll method
 ms.author: windowssdkdev

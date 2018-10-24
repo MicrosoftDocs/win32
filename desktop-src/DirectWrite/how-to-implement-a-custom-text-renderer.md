@@ -2,8 +2,6 @@
 title: Render Using a Custom Text Renderer
 description: A DirectWrite \ 160;text layout can be drawn by a custom text renderer derived from IDWriteTextRenderer.
 ms.assetid: a5b09733-24b2-408e-a1f9-cf7ad20c5c63
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Smart Card Authentication
 ms.assetid: cb5c80ea-c15e-4f68-a94b-b458d69ff474
 title: Smart Card Authentication
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

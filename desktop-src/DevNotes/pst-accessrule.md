@@ -2,8 +2,6 @@
 Description: Describes a rule for access to items stored in protected storage.
 ms.assetid: 22aebac3-46e9-4c66-bfaf-e82cf9d494cb
 title: PST_ACCESSRULE structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

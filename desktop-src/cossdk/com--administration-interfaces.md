@@ -2,8 +2,6 @@
 Description: The following are the COM+ administration interfaces.
 ms.assetid: 0e04cd6f-1f8b-4bdf-92b0-5baddeb361b5
 title: COM+ Administration Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

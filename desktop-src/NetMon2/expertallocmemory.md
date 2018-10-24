@@ -2,8 +2,6 @@
 Description: The ExpertAllocMemory function allocates memory for the expert.
 ms.assetid: 9ada5d3f-5f1d-4d3a-b79a-d51e021240f6
 title: ExpertAllocMemory function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

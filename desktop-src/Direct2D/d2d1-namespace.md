@@ -4,8 +4,6 @@ description: The D2D1 namespace provides helper classes, functions, and structur
 ms.assetid: 8c3e2848-5923-4019-926a-c76eef7e2491
 keywords:
 - D2D1 namespace,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

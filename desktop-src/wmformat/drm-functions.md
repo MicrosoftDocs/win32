@@ -8,8 +8,6 @@ keywords:
 - DRM (digital rights management),functions
 - DRM Client Extended APIs,functions
 - Client Extended APIs,functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

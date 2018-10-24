@@ -2,8 +2,6 @@
 Description: The GetSampleTimes method retrieves the time stamps from a sample.
 ms.assetid: a8fead22-a12c-489d-9c42-d5b61f480c25
 title: CBaseRenderer.GetSampleTimes method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

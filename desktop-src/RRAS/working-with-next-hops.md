@@ -2,8 +2,6 @@
 title: Working with Next Hops
 description: The RTMv2 API allows clients to work with the list of next hops that are associated with routes and destinations.
 ms.assetid: ef474091-48fe-48e5-b476-73d77dbcbec5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

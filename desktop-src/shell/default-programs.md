@@ -2,8 +2,6 @@
 Description: Use Default Programs to set the default user experience.
 ms.assetid: 78cd05a4-df33-42b5-91b9-826ebce04a1d
 title: Default Programs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

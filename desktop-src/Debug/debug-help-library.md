@@ -2,8 +2,6 @@
 Description: This overview describes the function set provided by the debug help library, DbgHelp. It contains a set of debugging support routines that allow you to work with executable images in the portable executable (PE) format.
 ms.assetid: 71a5513d-bb89-4556-9266-57e7f92acf09
 title: Debug Help Library
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

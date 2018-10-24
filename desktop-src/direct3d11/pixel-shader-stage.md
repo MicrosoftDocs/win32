@@ -2,8 +2,6 @@
 title: Pixel Shader Stage
 description: The pixel-shader stage (PS) enables rich shading techniques such as per-pixel lighting and post-processing.
 ms.assetid: 09831B10-4FD1-41E7-8D81-5AA63DC90020
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

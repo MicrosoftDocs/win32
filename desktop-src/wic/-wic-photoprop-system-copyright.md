@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.Copyright property.
 ms.assetid: 84d2f55b-5ca4-4912-b038-c18a72e6fc34
 title: System.Copyright Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

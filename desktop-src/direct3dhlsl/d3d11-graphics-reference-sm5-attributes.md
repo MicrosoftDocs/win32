@@ -2,8 +2,6 @@
 title: Shader Model 5 Attributes
 description: Shader Model 5 implements the attributes from Shader Model 4 and below (see the DirectX SDK), as well as the following new attributes
 ms.assetid: b50d517e-9f27-4e27-a2a4-38e86f8fa095
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

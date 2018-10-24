@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 626dc9ca-d6a1-48ab-84ec-cfccb8e720c2
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - TSGRemoveConsentMsg method Remote Desktop Services

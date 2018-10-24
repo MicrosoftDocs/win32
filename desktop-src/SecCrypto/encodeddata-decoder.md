@@ -2,8 +2,6 @@
 Description: Obtains a decoder object, if one exists.
 ms.assetid: b8a1c7c9-e7ac-4b0e-a342-5b923ab83df3
 title: EncodedData.Decoder method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The INSTALLLEVEL property is the initial level at which features are selected &\#0034;ON&\#0034; for installation by default.
 ms.assetid: 5051cc46-837a-4446-a54c-4bd4081a424c
 title: INSTALLLEVEL property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

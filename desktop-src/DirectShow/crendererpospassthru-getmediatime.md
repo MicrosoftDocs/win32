@@ -2,8 +2,6 @@
 Description: The GetMediaTime method retrieves the time stamps on the current sample.
 ms.assetid: 13710373-04fd-4c1d-ba97-78be5cf27e7d
 title: CRendererPosPassThru.GetMediaTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

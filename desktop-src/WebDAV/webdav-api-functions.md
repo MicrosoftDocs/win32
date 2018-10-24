@@ -2,8 +2,6 @@
 title: WebDAV API Functions
 description: The following functions are used in the WebDAV API.
 ms.assetid: 489cdc17-aca8-4621-bc61-f0f3b9ac22b0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

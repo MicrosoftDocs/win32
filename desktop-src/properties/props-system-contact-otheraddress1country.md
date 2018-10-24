@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 903e4d64-cabe-40ff-9464-8c6388691c7f
 title: System.Contact.OtherAddress1Country
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

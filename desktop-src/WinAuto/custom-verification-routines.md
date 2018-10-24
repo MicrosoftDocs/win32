@@ -2,8 +2,6 @@
 title: Custom Verification Routines
 description: This section describes how to create a custom verification routine for the UI Accessibility Checker (AccChecker) tool.
 ms.assetid: 56F3EA1F-39C3-4DD9-8F2B-0C3608DD8737
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

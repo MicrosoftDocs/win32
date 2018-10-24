@@ -2,8 +2,6 @@
 title: Direct2D Debug Layer
 description: A runtime extension for Direct2D which offers descriptive error messages, object leak detection, performance notices, and other cues to help you create Direct2D apps.
 ms.assetid: 23b522d4-0733-4892-b93d-28f899fa0f17
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

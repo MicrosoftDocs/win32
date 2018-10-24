@@ -2,8 +2,6 @@
 Description: The m\_pDrawImage member variable is a pointer to the CDrawImage object that draws the video image.
 ms.assetid: a3e65a50-eff7-4bbc-9692-70f7fb0966be
 title: CImagePalette::m_pDrawImage member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

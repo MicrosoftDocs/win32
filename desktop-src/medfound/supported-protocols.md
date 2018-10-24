@@ -2,8 +2,6 @@
 Description: Supported Protocols
 ms.assetid: 3c026426-c2b7-4909-9524-9cc0bd45347e
 title: Supported Protocols
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

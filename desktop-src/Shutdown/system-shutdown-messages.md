@@ -2,8 +2,6 @@
 Description: 'The following messages are used with system shutdown:'
 ms.assetid: 2b9c4038-3beb-49d6-ab24-65a703934d43
 title: System Shutdown Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

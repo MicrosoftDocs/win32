@@ -2,8 +2,6 @@
 title: Vertex Shader Register Modifiers
 description: Vertex Shader Register Modifiers
 ms.assetid: 06994cac-1940-4f97-a460-52419fcd1b12
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

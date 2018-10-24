@@ -2,8 +2,6 @@
 Description: The installer records errors and events in its own error log.
 ms.assetid: 244e9afa-2052-469e-aa57-424e03ce5673
 title: Normal Logging
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

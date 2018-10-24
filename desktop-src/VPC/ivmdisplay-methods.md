@@ -2,8 +2,6 @@
 title: IVMDisplay Methods
 description: The IVMDisplay interface exposes the following methods.
 ms.assetid: C1604FA0-D9FA-4071-B236-70ACE0AF7FEA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Changing Interface-Specific and Global Information for Clients
 description: To change the interface information for a specific client, for example NAT, first use the appropriate \ 0034;GetInfo \ 0034; function to retrieve the current information.
 ms.assetid: 208e356b-328e-416d-881c-732fed460ebf
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

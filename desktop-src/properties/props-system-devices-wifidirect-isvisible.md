@@ -2,8 +2,6 @@
 Description: Indicates Wi-Fi Direct Device's Current Visibility.
 ms.assetid: b3a01302-c9ae-4409-b660-25b7a707878f
 title: System.Devices.WiFiDirect.IsVisible
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

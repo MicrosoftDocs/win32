@@ -2,8 +2,6 @@
 title: DirectX Frequently Asked Questions
 description: This article contains a collection of Frequently Asked Questions (FAQ) about Microsoft DirectX.
 ms.assetid: 58d9fe45-a2c7-8280-2826-e2e14ecea983
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

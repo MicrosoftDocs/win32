@@ -2,8 +2,6 @@
 Description: Initialize the last vertex element in a vertex declaration array.
 ms.assetid: 04cf7624-2e4a-4720-9ca0-894bf963e9f9
 title: D3DDECL_END macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

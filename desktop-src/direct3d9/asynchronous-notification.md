@@ -2,8 +2,6 @@
 Description: There are number of interesting queries on a driver that an application can make if there is no performance cost.
 ms.assetid: 81e1c5c5-03bc-4598-814e-14e56513e221
 title: Asynchronous Notification (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

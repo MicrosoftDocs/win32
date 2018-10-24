@@ -2,8 +2,6 @@
 title: Microsoft Agent Animations for Robby Character
 description: Microsoft Agent Animations for Robby Character
 ms.assetid: 05baf1ab-3217-4da4-9562-6719c58cd744
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

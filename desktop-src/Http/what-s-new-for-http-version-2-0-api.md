@@ -5,8 +5,6 @@ ms.assetid: 236fdbb0-dead-4b73-9ef6-be2d502b5243
 keywords:
 - What's New for HTTP Server version 2.0 API
 - HTTP Server version 2.0 API, What's New
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

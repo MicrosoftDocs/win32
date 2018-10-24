@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 767a16bb-44b6-4c56-b79b-23241fcc216e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Improving the Efficiency of an Instance Provider
 ms.author: windowssdkdev

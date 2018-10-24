@@ -2,8 +2,6 @@
 Description: The <folderType> element specifies GUID for the folder type. This element is required if the <templateInfo> element exists. It has no attributes and no child elements.
 ms.assetid: 2361bbf5-adeb-4189-a8ff-5fdd1c9b0ec6
 title: folderType Element (Search Connector Schema)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

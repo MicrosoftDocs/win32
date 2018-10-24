@@ -2,8 +2,6 @@
 Description: Explains how Certificate Services processes certificate requests.
 ms.assetid: 40641167-12de-4008-80e4-2fb758146421
 title: Processing Certificate Requests
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

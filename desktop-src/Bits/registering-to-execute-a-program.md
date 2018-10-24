@@ -5,8 +5,6 @@ ms.assetid: f1996d08-0e35-403b-9cdb-dae9e1c42e05
 keywords:
 - event notification BITS , command line
 - registering for command line notification BITS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018

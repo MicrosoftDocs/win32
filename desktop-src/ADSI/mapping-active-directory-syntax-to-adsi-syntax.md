@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: ffb40eff-e137-4d6a-81e7-24d2cbbdbfbf
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - attributes ADSI ,mapping Active Directory syntax to ADSI syntax

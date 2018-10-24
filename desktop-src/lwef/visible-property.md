@@ -2,8 +2,6 @@
 title: Visible Property
 description: Visible Property
 ms.assetid: 8a58cd45-0391-4897-b3a2-d4f5d7297ea8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A combination of one or more flags that control the device create behavior.
 ms.assetid: 2d3e548f-8559-4a36-b814-6d598bead1d0
 title: D3DVTXPCAPS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

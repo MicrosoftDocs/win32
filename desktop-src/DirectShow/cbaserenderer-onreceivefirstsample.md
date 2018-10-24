@@ -2,8 +2,6 @@
 Description: The OnReceiveFirstSample method is called when the filter receives a sample while paused.
 ms.assetid: 5bd481bf-a62d-4d3c-b875-b94298d12730
 title: CBaseRenderer.OnReceiveFirstSample method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

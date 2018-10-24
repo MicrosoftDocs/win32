@@ -2,8 +2,6 @@
 Description: Portal Object
 ms.assetid: 6655bbae-07d3-416b-9e45-ddcbe3433f40
 title: Portal Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

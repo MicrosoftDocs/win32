@@ -2,8 +2,6 @@
 Description: Specifies whether asynchronous operations are included in the generated proxy functions.
 ms.assetid: 7b57d5c6-589b-4e03-bfcf-1faa671ebd77
 title: async element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

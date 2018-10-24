@@ -2,8 +2,6 @@
 Description: The GetMediaPositionInterface method retrieves the filter's IMediaPosition and IMediaSeeking interface pointers.
 ms.assetid: aeca4484-cecc-4d07-aa77-56221ff75699
 title: CBaseRenderer.GetMediaPositionInterface method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

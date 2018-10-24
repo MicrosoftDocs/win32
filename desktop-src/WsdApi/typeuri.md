@@ -2,8 +2,6 @@
 Description: Specifies a type to include from an XSD file.
 ms.assetid: dd3894a8-1848-4ae0-ba6c-42ac4fe36ff3
 title: typeUri element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

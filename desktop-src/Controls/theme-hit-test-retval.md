@@ -2,8 +2,6 @@
 title: Hit Test Return Values
 description: This section lists the hit test code values that are returned in the pwHitTestCode parameter of the HitTestThemeBackground function.
 ms.assetid: 95b4fc1a-2f9b-4464-b672-552d36b60c42
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

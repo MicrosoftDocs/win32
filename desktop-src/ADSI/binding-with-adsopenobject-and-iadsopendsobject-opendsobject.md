@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 7b8ded11-e04f-40f5-a82a-5972c4df9dea
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Binding With ADsOpenObject and IADsOpenDSObject OpenDSObject ADSI

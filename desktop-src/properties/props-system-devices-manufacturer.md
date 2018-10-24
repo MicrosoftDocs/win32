@@ -2,8 +2,6 @@
 Description: Device manufacturer.
 ms.assetid: ddd9a6e4-dc14-4ffc-aef0-6aab9e7c9442
 title: System.Devices.Manufacturer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

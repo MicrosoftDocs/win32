@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8934b60e-3763-4b85-89fd-58fe6136dff6
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: LogFileEventConsumer class
 ms.author: windowssdkdev

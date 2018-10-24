@@ -2,8 +2,6 @@
 Description: COM+ Events Tasks
 ms.assetid: 2eda6b4a-dc73-4999-9070-29cf78e13cde
 title: COM+ Events Tasks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

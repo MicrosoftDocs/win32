@@ -2,8 +2,6 @@
 Description: The possible reasons for an incoming session, such as that it was transferred, are listed in the LINECALLREASON\_ Constants.
 ms.assetid: 94cc1a79-7ce4-47ec-bdd8-ee7f0d9f48ed
 title: Reason
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

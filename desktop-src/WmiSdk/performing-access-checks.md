@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d0259bb1-fd74-4440-ac2a-d6aa84a48d9b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Performing Access Checks
 ms.author: windowssdkdev

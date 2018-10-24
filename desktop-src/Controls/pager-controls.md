@@ -2,8 +2,6 @@
 title: About Pager Controls
 description: A pager control is a window container that is used with a window that does not have enough display area to show all of its content.
 ms.assetid: VS|Controls|~\controls\pager\pager.htm
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

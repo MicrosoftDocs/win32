@@ -2,8 +2,6 @@
 Description: Retrieves a specified property of a certificate.
 ms.assetid: 827e0331-1f87-4891-8cc1-de1bcbad2963
 title: CertStoreProvGetCertProperty callback function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

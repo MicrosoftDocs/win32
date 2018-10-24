@@ -14,8 +14,6 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),data blocks
 - MIDI (Musical Instrument Digital Interface),data blocks
 - MIDI services,data blocks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

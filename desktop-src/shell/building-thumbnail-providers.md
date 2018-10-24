@@ -1,8 +1,6 @@
 ---
 Description: As of Windows Vista, greater use is made of file-specific thumbnail images than in earlier versions of Windows.
 title: Building Thumbnail Handlers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

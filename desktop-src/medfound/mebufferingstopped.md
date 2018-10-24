@@ -2,8 +2,6 @@
 Description: Signals that a media source has stopped buffering data.
 ms.assetid: 11b1290d-d462-4aa0-a358-b3f6447c99d8
 title: MEBufferingStopped event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

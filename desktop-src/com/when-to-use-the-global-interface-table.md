@@ -2,8 +2,6 @@
 title: When to Use the Global Interface Table
 description: When to Use the Global Interface Table
 ms.assetid: def8f7f8-9d0d-49a4-9d5c-40233903eea5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

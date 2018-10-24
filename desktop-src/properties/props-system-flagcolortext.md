@@ -2,8 +2,6 @@
 Description: The user-friendly form of System.FlagColor. This value is not intended to be parsed programmatically.
 ms.assetid: 3cddccf7-5724-415e-9c1d-cd824535f028
 title: System.FlagColorText
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

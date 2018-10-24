@@ -13,8 +13,6 @@ keywords:
 - DSP plug-ins,video implementation
 - video DSP plug-ins,implementing code
 - video DSP plug-ins,modifying sample code
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

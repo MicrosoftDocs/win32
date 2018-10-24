@@ -2,8 +2,6 @@
 Description: Contains the identifiers of the albums that the item is a member of. Can be used in conjunction with the Album item in the Content Indexer APIs to notify other apps about picture albums either the user created or apps have already created.
 ms.assetid: c0b1bcf0-a2ea-4ec1-9ed8-892bfceec262
 title: System.Supplemental.AlbumID
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

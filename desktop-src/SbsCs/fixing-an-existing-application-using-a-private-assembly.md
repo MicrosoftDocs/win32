@@ -2,8 +2,6 @@
 Description: Beginning with Windows XP, you can create a private assembly and make it available to a specific application.
 ms.assetid: 08cebffc-6856-4dac-8600-5e7fecb5c69b
 title: Fixing an Existing Application Using a Private Assembly
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

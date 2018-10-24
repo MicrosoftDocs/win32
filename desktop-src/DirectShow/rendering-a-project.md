@@ -2,8 +2,6 @@
 Description: Rendering a Project
 ms.assetid: e4751329-3533-47a4-8390-766512021923
 title: Rendering a Project
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

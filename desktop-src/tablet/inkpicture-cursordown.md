@@ -2,8 +2,6 @@
 Description: Occurs when the cursor tip contacts the digitizing tablet surface.
 ms.assetid: 6d524400-1341-45da-86b2-098e34ed5a1c
 title: InkPicture.CursorDown event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: In this C\# sample, a paper form has been scanned as a Portable Network Graphics (PNG) file and specified as the background image at run time for a InkPicture control. The sample uses a message box to display handwriting recognition results.
 ms.assetid: fc9a39c2-9e4b-4d22-a118-3d24544897dd
 title: Scanned Paper Form Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: For extensible scalar data constants, a service-provider vendor can define new values in a specified range.
 ms.assetid: 62280b71-9bec-4a9d-abd2-d3e1c2cee43f
 title: Scalar Data Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

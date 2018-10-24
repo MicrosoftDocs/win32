@@ -1,8 +1,6 @@
 ---
 Description: Implemented by the browser. Exposes methods that manage which monitor contains the Windows taskbar on a multiple monitor system.
 title: IMultiMonitorDockingSite interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

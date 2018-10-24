@@ -2,8 +2,6 @@
 Description: OPM Status Requests
 ms.assetid: 428d08c6-e9f0-49fb-9ef9-d0f95416669d
 title: OPM Status Requests
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

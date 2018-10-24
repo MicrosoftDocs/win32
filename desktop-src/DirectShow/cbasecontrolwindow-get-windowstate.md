@@ -2,8 +2,6 @@
 Description: The get\_WindowState method retrieves the current window state.
 ms.assetid: 118b6710-b041-4a7d-8cdb-b96ae3dcbb09
 title: CBaseControlWindow.get_WindowState method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

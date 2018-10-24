@@ -2,8 +2,6 @@
 Description: The following sections provide information about certificate property names and Distinguished Name (DN) fields.
 ms.assetid: 2e581f77-2e69-4d02-9e36-d5c66a8723a0
 title: Certificate Request Guidelines
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

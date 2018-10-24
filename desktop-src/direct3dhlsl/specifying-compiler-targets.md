@@ -2,8 +2,6 @@
 title: Specifying Compiler Targets
 description: Here we list the targets for various profiles that the D3DCompile\ functions and the HLSL compiler support.
 ms.assetid: 594E1C14-C1D4-4207-91A1-28892CE6D821
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

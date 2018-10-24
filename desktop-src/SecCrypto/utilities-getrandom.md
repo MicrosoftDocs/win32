@@ -2,8 +2,6 @@
 Description: Generates a secure random number using the default cryptographic service provider (CSP).
 ms.assetid: 52c49f73-58b8-455f-9368-54f38de55776
 title: Utilities.GetRandom method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

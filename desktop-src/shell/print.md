@@ -2,8 +2,6 @@
 Description: The Shell API provides functions that you can use to manage networked printers. If a file has the print verb associated with it, you can use the ShellExecuteEx command to print it.
 ms.assetid: b94fca60-237a-43b1-a75a-faccf9dc63fb
 title: Managing Printers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

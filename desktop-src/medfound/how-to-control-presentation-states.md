@@ -2,8 +2,6 @@
 Description: How to Control Presentation States
 ms.assetid: 978373ef-b2a4-4035-b889-e28a037c0ab5
 title: How to Control Presentation States
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Defines a vector.
 ms.assetid: 7091617b-935b-466e-8270-90240a1adaee
 title: D3DVECTOR structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

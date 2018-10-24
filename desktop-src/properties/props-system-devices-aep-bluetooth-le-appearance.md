@@ -2,8 +2,6 @@
 Description: Bluetooth LE device appearance.
 ms.assetid: 03c10b03-5821-476c-a1f3-3387ee4d6318
 title: System.Devices.Aep.Bluetooth.Le.Appearance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

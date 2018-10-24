@@ -2,8 +2,6 @@
 title: dp3 - vs
 description: Computes the three-component dot product of the source registers.
 ms.assetid: a5263a18-ed53-41eb-85ca-2cff872e03d8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

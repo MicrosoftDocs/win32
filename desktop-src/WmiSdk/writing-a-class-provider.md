@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 755f1fde-a0bf-43f6-a01d-2da7d4e6c10d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing a Class Provider
 ms.author: windowssdkdev

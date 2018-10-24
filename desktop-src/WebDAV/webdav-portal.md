@@ -6,8 +6,6 @@ keywords:
 - WebDAV WebDAV
 - WebDAV WebDAV , home page
 - Web Distributed Authoring and Versioning WebDAV See WebDAV
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Completes a decoded frame.
 ms.assetid: 476f8bcc-2a93-430e-bda5-33102e36a35a
 title: NtGdiDdEndMoCompFrame function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

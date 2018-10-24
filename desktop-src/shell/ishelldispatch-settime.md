@@ -2,8 +2,6 @@
 Description: Displays the Date and Time dialog box. This method has the same effect as right-clicking the clock in the taskbar status area and selecting Adjust date/time.
 ms.assetid: D4B949F6-5508-4624-9706-491184703DC6
 title: IShellDispatch.SetTime method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

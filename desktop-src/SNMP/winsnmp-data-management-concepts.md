@@ -5,8 +5,6 @@ ms.assetid: 52e911f3-9b28-4ac3-a080-44fb18f5633e
 keywords:
 - WinSNMP Data Management Concepts SNMP
 - Data Management Concepts SNMP , SNMP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

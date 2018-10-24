@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: baebefd5-7ac6-4d36-a5a4-0796d790abee
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Using Ranging to Retrieve Members of a Group ADSI

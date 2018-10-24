@@ -2,8 +2,6 @@
 Description: Concurrent Installations, also called Nested Installations, is a deprecated feature of the Windows Installer.
 ms.assetid: 579ae4ee-47a0-440e-81ca-ea8bf60c5349
 title: Concurrent Installations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The MsiPatchOldAssemblyName table specifies the old name for an assembly.
 ms.assetid: e9f22ba1-6be4-4382-abe5-5cfdc68c0855
 title: MsiPatchOldAssemblyName Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 587a13ee-8547-435f-84bb-07f2491f85cc
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SNMP Compiler Error Messages
 ms.author: windowssdkdev

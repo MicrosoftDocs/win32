@@ -2,8 +2,6 @@
 title: Top Property
 description: Top Property
 ms.assetid: d5758a77-2d9a-44b8-bbbb-57ddf96c7fe4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

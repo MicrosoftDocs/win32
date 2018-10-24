@@ -2,8 +2,6 @@
 Description: Security Limitations in Workgroup Mode
 ms.assetid: 05c0aba7-b94b-49d4-a0fc-1ff0a23550b3
 title: Security Limitations in Workgroup Mode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

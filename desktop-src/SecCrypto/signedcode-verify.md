@@ -2,8 +2,6 @@
 Description: Verifies the Authenticode signature on the signed code.
 ms.assetid: eecd692d-6b20-4644-a3d9-fba07ee667d7
 title: SignedCode.Verify method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

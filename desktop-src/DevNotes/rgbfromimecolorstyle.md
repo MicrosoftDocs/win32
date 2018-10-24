@@ -2,8 +2,6 @@
 Description: Converts an IMECOLORSTY structure to a COLORREF structure.
 ms.assetid: f7a3eab0-16ca-4c4e-9eda-bead8d1a91b8
 title: RGBFromIMEColorStyle function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

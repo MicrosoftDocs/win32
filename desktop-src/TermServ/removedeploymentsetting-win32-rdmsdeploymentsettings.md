@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 68e102a3-8f3f-4997-bdf0-c2ae3640ed42
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - RemoveDeploymentSetting method Remote Desktop Services

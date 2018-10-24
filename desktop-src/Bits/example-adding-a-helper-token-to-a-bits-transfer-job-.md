@@ -2,8 +2,6 @@
 title: Example Adding a Helper Token to a BITS Transfer Job
 description: You can configure a Background Intelligent Transfer Service (BITS) transfer job with an additional security token. The BITS transfer job uses this helper token for authentication and to access resources.
 ms.assetid: 08670c6d-e589-41be-842d-597f460d9c97
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

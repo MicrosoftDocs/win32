@@ -2,8 +2,6 @@
 title: Process Information
 description: The system maintains a list of running processes. You can retrieve the identifiers for these processes by calling the EnumProcesses function. This function fills an array of DWORD values with the identifiers of all processes in the system.
 ms.assetid: 229c661e-9c33-47a3-9441-558cfe2a800d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

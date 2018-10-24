@@ -2,8 +2,6 @@
 title: VML Drop Attribute
 description: VML Drop Attribute
 ms.assetid: 6bd38f85-5ad9-4f8a-8a32-13a5c4b4f031
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

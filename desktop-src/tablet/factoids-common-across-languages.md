@@ -2,8 +2,6 @@
 Description: A number of factoids describe input that is common to all language recognizers and need not have different formats for different languages. The following table lists factoids that are common across all languages.
 ms.assetid: dae4a28d-0332-4bb2-b040-13a959c7945e
 title: Factoids Common Across Languages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

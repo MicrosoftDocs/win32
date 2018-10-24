@@ -1,8 +1,6 @@
 ---
 Description: This section describes the individual Shell samples included in the Windows Software Development Kit (SDK) and, in most cases, downloadable from the MSDN Code Gallery.
 title: Shell SDK Samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

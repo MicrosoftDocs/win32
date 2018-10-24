@@ -2,8 +2,6 @@
 Description: Raised by a media source when a presentation ends. This event signals that all streams in the presentation are complete. The Media Session forwards this event to the application.
 ms.assetid: 259b00ae-a91b-461b-a12f-f7291ecc04ff
 title: MEEndOfPresentation event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

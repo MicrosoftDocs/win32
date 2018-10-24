@@ -2,8 +2,6 @@
 Description: Multiple-language merge modules, language transforms, and cabinet files must be authored such that the order of the files matches the order specified in the File table.
 ms.assetid: c6ddf5fc-a7c5-49c1-899b-ff9fdff9c028
 title: Ordering the File Sequence in the CAB of a Multiple Language Merge Module
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

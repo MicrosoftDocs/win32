@@ -2,8 +2,6 @@
 Description: These methods must be overridden by derived classes.
 ms.assetid: 2ea9d35a-c87e-44f4-8dc6-618251c81fe4
 title: CMSPCallBase Pure Virtual Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

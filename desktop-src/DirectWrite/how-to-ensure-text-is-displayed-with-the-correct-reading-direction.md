@@ -2,8 +2,6 @@
 title: How to Ensure Text is Displayed with the Correct Reading Direction
 description: Some languages, such as Arabic and Hebrew, require a right-to-left reading direction.
 ms.assetid: fa9a3dd6-575a-4877-a488-22845c6726c8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

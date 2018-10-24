@@ -2,8 +2,6 @@
 Description: When an exception occurs in a process that is being debugged, the system notifies the debugger by passing the exception to it. This is known as first-chance notification. The system then suspends all threads in the process being debugged.
 ms.assetid: 6fdc02ac-9c33-49a8-8614-8b0cc2bf811b
 title: Exception Handling Functions for Debugging
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

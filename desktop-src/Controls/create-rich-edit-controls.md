@@ -2,8 +2,6 @@
 title: How to Create Rich Edit Controls
 description: To create a rich edit control, call the CreateWindowEx function, specifying the rich edit window class.
 ms.assetid: E0F3E458-7907-42BD-841A-CB3D12628AA8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

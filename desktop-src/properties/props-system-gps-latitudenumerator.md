@@ -2,8 +2,6 @@
 Description: The numerator of PKEY\_GPS\_Latitude.
 ms.assetid: 2f70a640-7093-49c2-9f2c-99af870ecaf7
 title: System.GPS.LatitudeNumerator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

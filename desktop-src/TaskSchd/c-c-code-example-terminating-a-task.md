@@ -2,8 +2,6 @@
 title: C/C++ Code Example Terminating a Task
 description: This example verifies the status of a known task and terminates the task if it is running.
 ms.assetid: 2131b966-6179-4a80-a3f1-ebb8967a7a90
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

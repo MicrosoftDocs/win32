@@ -2,8 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_TASK
 ms.assetid: 503d0b11-2113-4df4-8b6b-250f24d09b1f
 title: WPD_CONTENT_TYPE_TASK
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

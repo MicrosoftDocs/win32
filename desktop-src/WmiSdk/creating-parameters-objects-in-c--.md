@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 17b72ceb-e730-4176-aa4d-189d0b6acc8b
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating Parameters Objects in C++
 ms.author: windowssdkdev

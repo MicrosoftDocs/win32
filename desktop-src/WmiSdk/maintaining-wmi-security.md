@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 88a2538a-ae30-4a1a-9d16-f0cd9419b2ed
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Maintaining WMI Security
 ms.author: windowssdkdev

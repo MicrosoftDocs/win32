@@ -2,8 +2,6 @@
 title: Characters Object Methods
 description: Characters Object Methods
 ms.assetid: 4489116b-5ac8-46ef-8a17-3b4e998092f9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

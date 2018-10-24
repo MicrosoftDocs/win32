@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3df2a75a-5231-40d7-ae9d-a7a735fbf316
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Timer Event with __TimerInstruction
 ms.author: windowssdkdev

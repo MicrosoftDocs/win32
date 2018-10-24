@@ -2,8 +2,6 @@
 Description: Indicates whether differential correction was applied to the GPS receiver.
 ms.assetid: 9e88e861-b5cd-4f13-9765-b63306bbaa29
 title: System.GPS.Differential
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

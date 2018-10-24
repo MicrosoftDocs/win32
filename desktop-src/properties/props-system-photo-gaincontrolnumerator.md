@@ -2,8 +2,6 @@
 Description: The numerator of PKEY\_Photo\_GainControl.
 ms.assetid: 5b94f7b8-ced8-4f49-bba2-30d15bafba4e
 title: System.Photo.GainControlNumerator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b74c2fef-0f3a-46b9-9dd8-11016a8f7b57
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - CIM_ElementSetting class Remote Desktop Services

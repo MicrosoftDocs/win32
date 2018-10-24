@@ -5,8 +5,6 @@ ms.assetid: <GUID-GOES-HERE>
 ms.author: TBD
 ms.date: 10/09/2018
 ms.topic: article
-ms.prod: TBD
-ms.technology: TBD
 ---
 
 # Handling View Changes

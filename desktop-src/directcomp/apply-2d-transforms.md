@@ -5,8 +5,6 @@ ms.assetid: DED74416-C85A-4220-89BD-3F9BEF786B7D
 keywords:
 - how to apply DirectComposition 2D transforms
 - DirectComposition 2D transforms
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

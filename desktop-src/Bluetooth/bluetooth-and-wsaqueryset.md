@@ -2,8 +2,6 @@
 title: Bluetooth and WSAQUERYSET
 description: The WSAQUERYSET structure is used in operations including device inquiry, service inquiry, and setting the service.
 ms.assetid: 6c9913a6-4429-4c50-be4a-17555f67e855
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

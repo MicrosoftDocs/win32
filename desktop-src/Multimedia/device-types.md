@@ -2,8 +2,6 @@
 title: Device Types
 description: Device Types
 ms.assetid: 6556fa6a-5906-4afb-ab7d-ef41a0e22d13
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

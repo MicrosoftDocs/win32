@@ -2,8 +2,6 @@
 Description: Provides the methods needed to construct and manage a smart card application protocol data unit (APDU).
 ms.assetid: fd84bb2e-27da-4670-b8e8-56c7948b78bb
 title: ISCardCmd interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

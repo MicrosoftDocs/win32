@@ -9,8 +9,6 @@ keywords:
 - desktop applications,metering content usage
 - creating Windows Media Device Manager applications,metering content usage
 - metering content usage
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

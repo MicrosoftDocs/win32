@@ -2,8 +2,6 @@
 Description: Retrieves the number of child objects in this file data object.
 ms.assetid: 4409819f-a346-40b1-8e12-86e8128ece47
 title: ID3DXFileEnumObject::GetChildren method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

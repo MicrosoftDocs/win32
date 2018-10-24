@@ -2,8 +2,6 @@
 Description: Manipulates a textual conference description.
 ms.assetid: b9ce61d1-3fc5-4963-8d2f-586a4b6a159d
 title: ITConferenceBlob interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

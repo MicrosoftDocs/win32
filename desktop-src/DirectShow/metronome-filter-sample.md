@@ -2,8 +2,6 @@
 Description: Metronome Filter Sample
 ms.assetid: bb279898-875a-4ce4-ac69-6c58f640fbbd
 title: Metronome Filter Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

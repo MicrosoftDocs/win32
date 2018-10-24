@@ -2,8 +2,6 @@
 Description: Occurs before the IInkAnalyzer moves an IContextNode object by changing its parent node.
 ms.assetid: 91261270-aa7c-4f0a-a790-1b2bf322a3ad
 title: '_IAnalysisProxyEvents::ContextNodeReparenting event'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: An application can change the current directory by calling the SetCurrentDirectory function.
 ms.assetid: b08e7739-55d4-4690-9ce5-2a8cb29214e9
 title: Changing the Current Directory
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: 'Several options are available for receiving completion indications, thus providing applications with appropriate levels of flexibility. These include: waiting (or blocking) on event objects, polling event objects, and socket I/O completion routines.'
 ms.assetid: 071cf198-6b4c-445e-9bd9-044f57f994a3
 title: Receiving Completion Indications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

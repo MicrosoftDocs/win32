@@ -2,8 +2,6 @@
 Description: The wave/in device class consists of audio devices for low-level wave audio input.
 ms.assetid: b2f32019-088f-4805-af7e-559a8179b1e6
 title: wave/in
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

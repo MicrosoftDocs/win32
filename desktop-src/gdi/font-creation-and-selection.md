@@ -2,8 +2,6 @@
 Description: The Font common dialog box simplifies the process of creating and selecting fonts.
 ms.assetid: 7183be25-a8e4-47a0-a34a-63eadf6ca10d
 title: Font Creation and Selection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

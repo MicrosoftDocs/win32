@@ -2,8 +2,6 @@
 title: MONTHDAYSTATE
 description: The MONTHDAYSTATE data type is a bitfield that holds the state of each day in a month.
 ms.assetid: eb3dd6cb-738e-424b-945b-1485798a444c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Signs and time stamps the specified file, allowing multiple nested signatures.
 ms.assetid: 216EFFCF-CD23-484A-ADBF-94B5AD52289F
 title: SignerSignEx2 function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

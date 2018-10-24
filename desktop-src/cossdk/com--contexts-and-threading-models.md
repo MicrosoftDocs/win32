@@ -2,8 +2,6 @@
 Description: COM+ Contexts and Threading Models
 ms.assetid: 50ccf75e-2652-4254-a771-af83cc9248b3
 title: COM+ Contexts and Threading Models
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

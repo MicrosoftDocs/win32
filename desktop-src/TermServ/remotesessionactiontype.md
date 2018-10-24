@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: C0DA0FA2-6FE0-4B40-B169-4592A1BE2AD6
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - RemoteSessionActionType enumeration Remote Desktop Services

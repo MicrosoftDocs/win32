@@ -2,8 +2,6 @@
 Description: The AddAfterI method inserts an item after the specified position.
 ms.assetid: 6da6c1ed-5f22-4364-b636-64b5a0ce1560
 title: CBaseList.AddAfterI method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

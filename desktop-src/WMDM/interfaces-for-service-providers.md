@@ -9,8 +9,6 @@ keywords:
 - programming reference,service provider interfaces
 - reference for Windows Media Device Manager,service provider interfaces
 - service provider interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

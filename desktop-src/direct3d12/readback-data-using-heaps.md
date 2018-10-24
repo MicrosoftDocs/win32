@@ -2,8 +2,6 @@
 title: Readback Data Through Buffers
 description: Reading back data from the GPU, such as capturing a screen shot, involves the use of the Readback heap.
 ms.assetid: 2F515B2C-3317-4AA8-81E1-7762ED895F77
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

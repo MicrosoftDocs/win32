@@ -2,8 +2,6 @@
 Description: The PF\_PARSERDLLINFO structure defines the parsers located in the parser DLL.
 ms.assetid: a7473b58-7767-4224-be3b-e96132d98adf
 title: PF_PARSERDLLINFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

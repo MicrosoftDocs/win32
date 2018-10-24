@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 452a396b-c7da-4ccd-873e-f381ee7c289a
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Using the WMI Command-Line Tools
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 title: Features Introduced In Previous Releases
 ms.assetid: c70a7f7d-1833-478f-bd71-7462d860b5f4
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

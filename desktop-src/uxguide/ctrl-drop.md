@@ -2,8 +2,6 @@
 title: Drop-down Lists Combo Boxes
 description: With a drop-down list or combo box, users make a choice among a list of mutually exclusive values.
 ms.assetid: dbe88cf1-7946-4343-bc16-ce12be7ce205
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: DA940EDC-5E30-4B59-BBF4-5FA806AD9579
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemLocator Methods
 ms.author: windowssdkdev

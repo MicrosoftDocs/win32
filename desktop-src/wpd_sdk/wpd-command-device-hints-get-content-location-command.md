@@ -2,8 +2,6 @@
 Description: The WPD\_COMMAND\_DEVICE\_HINTS\_GET\_CONTENT\_LOCATION command retrieves the object IDs of folders that can hold an object of a specified type.
 ms.assetid: 85de64cc-44ee-4536-b658-49d5936351e4
 title: WPD_COMMAND_DEVICE_HINTS_GET_CONTENT_LOCATION Command
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

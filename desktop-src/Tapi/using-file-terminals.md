@@ -2,8 +2,6 @@
 Description: The file terminals can be used in two ways.
 ms.assetid: 5a7d6aa7-0eb8-4652-af0b-74fbdb5a2c2f
 title: Using File Terminals
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: SampleCmp (DirectX HLSL Texture Object)
 description: Samples a texture and compares a single component against the specified comparison value.
 ms.assetid: e21894c4-e8c5-4c3d-92c1-727964f8fd94
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Sets an array of vectors.
 ms.assetid: 7a9c61b4-7bfc-4879-abd2-a42d40e9b2a7
 title: ID3DXBaseEffect::SetVectorArray method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

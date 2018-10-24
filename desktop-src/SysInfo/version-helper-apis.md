@@ -2,8 +2,6 @@
 Description: The following functions can be used to determine the current operating system version or identify whether it is a Windows or Windows Server release.
 ms.assetid: 2FAF67CD-CEEA-4096-B482-F5E2DF8D6C34
 title: Version Helper functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 18F74BA7-2729-4EB3-8E6F-4E5A8C17C317
 title: Compatibility
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

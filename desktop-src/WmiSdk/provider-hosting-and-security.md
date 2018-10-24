@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 1e5c778d-cd29-449b-88e2-fe0c90d0edcd
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Provider Hosting and Security
 ms.author: windowssdkdev

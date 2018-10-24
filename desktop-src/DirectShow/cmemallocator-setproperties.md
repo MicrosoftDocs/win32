@@ -2,8 +2,6 @@
 Description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer.
 ms.assetid: 01f63379-1d66-4a72-b87c-de55504b0bb4
 title: CMemAllocator.SetProperties method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

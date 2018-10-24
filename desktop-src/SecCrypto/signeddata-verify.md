@@ -2,8 +2,6 @@
 Description: Determines whether the signatures on signed data in the SignedData object are valid.
 ms.assetid: 920ac235-0c1a-4b15-9cdd-c7e0c3ea6107
 title: SignedData.Verify method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

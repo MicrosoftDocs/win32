@@ -4,8 +4,6 @@ description: Describes the basics of Direct2D geometries, objects that you can u
 ms.assetid: f5870d4b-dd30-4034-884e-1c398a6865c6
 keywords:
 - Direct2D,geometries overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

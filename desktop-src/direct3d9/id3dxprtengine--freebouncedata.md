@@ -2,8 +2,6 @@
 Description: Frees memory used for temporary bounced-light simulation data.
 ms.assetid: a28442ed-f281-4236-8995-366d43c97c43
 title: ID3DXPRTEngine::FreeBounceData method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

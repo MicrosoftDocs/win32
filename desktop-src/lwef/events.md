@@ -2,8 +2,6 @@
 title: IAgentNotifySink
 description: IAgentNotifySink
 ms.assetid: 'vs|msagent|~\paface_2xet.htm'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

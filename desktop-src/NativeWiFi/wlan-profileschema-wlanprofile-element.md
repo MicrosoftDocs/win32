@@ -2,8 +2,6 @@
 Description: Contains a wireless LAN profile.
 ms.assetid: bc97cb49-3891-4a4a-aab4-895cd9ce6908
 title: WLANProfile Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

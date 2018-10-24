@@ -2,8 +2,6 @@
 title: BITS Response Packets
 description: BITS Response Packets
 ms.assetid: 30755476-daa9-42ea-8fb3-5b505fc9dd75
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

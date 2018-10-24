@@ -2,8 +2,6 @@
 Description: Displays a Select User interface, allowing a user name to be selected.
 ms.assetid: 0a02d9e5-b2cf-4818-a2e1-89e6019e53d4
 title: ISCrdEnr::selectUserName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Network Latency and Throughput
 description: Network latency and throughput with Remote Procedure Call (RPC).
 ms.assetid: 8285fd73-eb54-4c06-b01a-1bffafb7e675
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

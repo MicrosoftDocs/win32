@@ -2,8 +2,6 @@
 Description: Not implemented.
 ms.assetid: f51972fe-e095-4ce2-93b6-841ed24c6ce7
 title: IXml2Dex::Reset method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

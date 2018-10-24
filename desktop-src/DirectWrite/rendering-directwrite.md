@@ -2,8 +2,6 @@
 title: Rendering DirectWrite
 description: Rendering DirectWrite
 ms.assetid: e8099fac-b5d7-4fb1-b06d-a6e85da0d1dc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

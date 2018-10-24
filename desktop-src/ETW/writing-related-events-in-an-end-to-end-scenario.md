@@ -2,8 +2,6 @@
 Description: ETW provides a way to group related events from more than one component.
 ms.assetid: 2a85e4af-a1fe-4c28-8ce2-14d15deaa820
 title: Writing Related Events in an End-to-End Scenario
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

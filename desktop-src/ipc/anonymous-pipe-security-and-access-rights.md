@@ -2,8 +2,6 @@
 Description: You can specify a security descriptor for an anonymous pipe when you call the CreatePipe function. The security descriptor controls access to both the read and write ends of the pipe.
 ms.assetid: 17813ce1-b3f6-408f-9c55-5caa7eda6738
 title: Anonymous Pipe Security and Access Rights
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

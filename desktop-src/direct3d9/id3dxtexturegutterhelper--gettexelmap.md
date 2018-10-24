@@ -2,8 +2,6 @@
 Description: Retrieves the (u, v) texture coordinates of each texel.
 ms.assetid: 7d8eecf8-6344-4a48-8338-b92ebb0ab2ef
 title: ID3DXTextureGutterHelper::GetTexelMap method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

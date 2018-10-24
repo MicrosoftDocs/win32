@@ -2,8 +2,6 @@
 Description: Mark of the Web zone, as URLZONE enumeration value.
 ms.assetid: 9d13d739-3d94-4fe2-9f63-21ed2fe5d44f
 title: System.ZoneIdentifier
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

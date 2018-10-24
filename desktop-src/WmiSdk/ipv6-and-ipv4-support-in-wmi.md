@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8ab6287d-be3f-4fa2-a9f5-fa5e1aba66c8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IPv6 and IPv4 Support in WMI
 ms.author: windowssdkdev

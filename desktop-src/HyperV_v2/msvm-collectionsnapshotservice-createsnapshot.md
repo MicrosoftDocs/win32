@@ -2,8 +2,6 @@
 Description: Creates a snapshot of a virtual system collection.
 ms.assetid: 2512d82f-06b9-4613-b920-d3a9be884a75
 title: CreateSnapshot method of the Msvm_CollectionSnapshotService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The package code is a GUID identifying a particular Windows Installer package.
 ms.assetid: dcb6a0d4-e28d-453d-9bda-bfe74f74579b
 title: Package Codes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

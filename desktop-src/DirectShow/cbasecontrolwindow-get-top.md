@@ -2,8 +2,6 @@
 Description: The get\_Top method retrieves the top window coordinate.
 ms.assetid: 1e7910bd-e38e-4586-9dd6-701f69c0f6e7
 title: CBaseControlWindow.get_Top method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

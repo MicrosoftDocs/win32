@@ -2,8 +2,6 @@
 Description: Sent by a byte stream when the characteristics of the byte stream have changed.
 ms.assetid: EC34A7A3-BF01-4F9E-BA79-131B76D4C58F
 title: MEByteStreamCharacteristicsChanged event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

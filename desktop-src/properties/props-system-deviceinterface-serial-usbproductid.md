@@ -2,8 +2,6 @@
 Description: Serial device USB Product Id.
 ms.assetid: 5ac2e3cb-a314-414b-9ed3-9709965202cf
 title: System.DeviceInterface.Serial.UsbProductId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

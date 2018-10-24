@@ -2,8 +2,6 @@
 Description: Pointer to the memory allocator.
 ms.assetid: c6ba89ee-a645-4337-b4f3-c170a33e89e9
 title: CBaseInputPin::m_pAllocator member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

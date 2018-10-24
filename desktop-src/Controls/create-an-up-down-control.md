@@ -2,8 +2,6 @@
 title: How to Create Up-Down Controls
 description: You create up-down controls by calling the CreateWindowEx function and passing the value UPDOWN\_CLASS for the Windows class parameter lpClassName.
 ms.assetid: 9B7A5F8B-4EE5-413B-A60C-800758DD1120
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

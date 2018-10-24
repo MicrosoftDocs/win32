@@ -2,8 +2,6 @@
 Description: The Network Monitor architecture can be separated into two sets of programming concepts, those related to expert and parser development and those related to monitor development.
 ms.assetid: a775a46d-6f0f-4f21-8774-a061ccd55491
 title: Network Monitor Architecture
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

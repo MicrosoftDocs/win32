@@ -2,8 +2,6 @@
 Description: There is a limitation in the code that receives encapsulated (tunneled) packets and demultiplexes them to a specific interface.
 ms.assetid: 6148fca7-adf4-460d-afd6-79c43285af6c
 title: IPv6 Forwarding Tunneled Packets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

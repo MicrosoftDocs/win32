@@ -4,8 +4,6 @@ description: After a storyboard is created, it is scheduled by the animation man
 ms.assetid: f3c8fe34-8bca-4421-a390-9e0ba9af27b4
 keywords:
 - storyboards Windows Animation ,scheduling
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

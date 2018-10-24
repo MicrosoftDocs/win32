@@ -4,8 +4,6 @@ description: Mechanisms for controlling simultaneous access to an object, by mul
 ms.assetid: 2d524c2b-f2b4-49f2-9be8-2037846eb9e9
 keywords:
 - Structured Storage Strctd Stg , fundamentals, API functions, flags for access
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A requester needs to have a well-defined understanding about the status of the writer that participates with it during shadow copy creation, and during backup and restore operations.
 ms.assetid: 676d5cff-bd28-43f0-a402-d184c96f0061
 title: Determining Writer Status
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

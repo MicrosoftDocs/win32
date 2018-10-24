@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: eeda3351-11ec-4064-90dd-f67ccf5c8cb6
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Namespace Security When the Namespace is Created
 ms.author: windowssdkdev

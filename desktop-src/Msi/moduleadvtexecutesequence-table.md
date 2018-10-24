@@ -2,8 +2,6 @@
 Description: A merge tool evaluates the ModuleAdvtExecuteSequence table and then inserts the calculated actions into the AdvtExecuteSequence table with a correct sequence number.
 ms.assetid: ed2d1159-da78-4dc5-98a2-2cc876380c43
 title: ModuleAdvtExecuteSequence Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

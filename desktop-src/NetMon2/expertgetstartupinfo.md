@@ -2,8 +2,6 @@
 Description: The ExpertGetStartupInfo function retrieves the startup configuration information for the expert.
 ms.assetid: 15f080ed-50b7-40c6-b283-dbe416a2b0e9
 title: ExpertGetStartupInfo function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Creating and Binding to a Request Queue
 description: A request queue is a service queue that holds pending requests for a specific application.
 ms.assetid: 93f8b230-af0a-4582-b35b-d65f6841e525
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

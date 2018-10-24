@@ -2,8 +2,6 @@
 Description: Introduction to the Filter Base Classes
 ms.assetid: db6324d7-1914-44a8-a202-dff752b61c1a
 title: Introduction to the Filter Base Classes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

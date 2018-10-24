@@ -4,8 +4,6 @@ description: To build a COM sample, the computer environment must be set up to b
 ms.assetid: c62b8b4d-a9d2-4587-8bb6-7b2c30d1c00d
 keywords:
 - How to Build Samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

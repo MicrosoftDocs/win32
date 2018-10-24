@@ -2,8 +2,6 @@
 Description: Gets the IContextNode objects that are associated with this alternate.
 ms.assetid: 6dfae9cc-d9d2-44de-b6cf-80bbcd296390
 title: IAnalysisAlternate::GetAlternateNodes method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

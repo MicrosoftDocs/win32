@@ -2,8 +2,6 @@
 Description: The EUDC registry key contains one or more subkeys containing values defining the fonts associated with end-user-defined characters (EUDCs) for a given code page.
 ms.assetid: d78a1d8f-a239-4388-aa21-c162953fe355
 title: EUDC
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

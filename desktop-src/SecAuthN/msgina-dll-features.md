@@ -2,8 +2,6 @@
 Description: If you are writing a GINA to replace the Microsoft standard GINA DLL (MSGina.dll), you may want to provide some or all of the standard GINA functionality.
 ms.assetid: cd2ce7b7-6167-4451-9f6e-881676a2145c
 title: MSGina.dll Features
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

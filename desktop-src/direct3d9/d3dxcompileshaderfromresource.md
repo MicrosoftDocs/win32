@@ -2,8 +2,6 @@
 Description: Compile a shader file.
 ms.assetid: e944ae61-0c27-4795-8381-0ec9b3d8c3f4
 title: D3DXCompileShaderFromResource function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

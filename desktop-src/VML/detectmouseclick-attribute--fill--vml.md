@@ -2,8 +2,6 @@
 title: DetectMouseClick Attribute (Fill)(VML)
 description: DetectMouseClick Attribute (Fill)(VML)
 ms.assetid: 36f1ee9c-7da7-498d-b4c5-d8ec3da83f63
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

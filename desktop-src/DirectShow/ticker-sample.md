@@ -2,8 +2,6 @@
 Description: Ticker Sample
 ms.assetid: 1a3de957-70ea-4b9d-94a0-9b0a74f15d78
 title: Ticker Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

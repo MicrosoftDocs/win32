@@ -2,8 +2,6 @@
 title: IAgentNotifySink Size
 description: IAgentNotifySink Size
 ms.assetid: ef192234-bee6-4158-a5d8-4326b784e6cb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Applications can expose some of the state data of their documents s
 ms.assetid: 2e0b5f6c-da1d-47f2-a50d-1ac7f2f0c45d
 keywords:
 - Storing Property Sets Structured Storage
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

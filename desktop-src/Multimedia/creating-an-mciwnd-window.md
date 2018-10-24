@@ -5,8 +5,6 @@ ms.assetid: bd45e813-5807-43cd-bef1-03285df9a018
 keywords:
 - MCIWnd window,creating
 - MCIWndCreate function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

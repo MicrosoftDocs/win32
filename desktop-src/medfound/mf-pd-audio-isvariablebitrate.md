@@ -2,8 +2,6 @@
 Description: Specifies whether the audio streams in a presentation have a variable bit rate.
 ms.assetid: 2bd7eee1-5a93-4bde-8b58-80b6395a094e
 title: MF_PD_AUDIO_ISVARIABLEBITRATE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

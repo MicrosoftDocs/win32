@@ -2,8 +2,6 @@
 Description: Specifies the maximum number of passes supported by the encoder.
 ms.assetid: 7e21cd0f-f13f-4321-b246-f1adaa5c6094
 title: MFPKEY_PASSESRECOMMENDED Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

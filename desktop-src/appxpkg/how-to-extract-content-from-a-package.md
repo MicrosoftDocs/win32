@@ -2,8 +2,6 @@
 title: Extract app package contents (C++)
 description: Learn how to extract files from the app package for a Windows Store app using the packaging API.
 ms.assetid: 72C368F9-2EBA-4930-81CF-9B85717CC0AA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

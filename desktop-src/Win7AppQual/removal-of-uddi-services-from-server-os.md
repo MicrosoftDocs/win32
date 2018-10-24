@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 5ebc8c4c-acee-4658-8d36-30fbb17b1ef1
 title: Removal of UDDI Services from Server Operating System
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

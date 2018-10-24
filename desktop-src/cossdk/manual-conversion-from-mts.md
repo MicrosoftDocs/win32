@@ -2,8 +2,6 @@
 Description: Manual Conversion from MTS
 ms.assetid: 7ecc64a8-783d-4238-8b63-8e9c76382723
 title: Manual Conversion from MTS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

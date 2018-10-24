@@ -2,8 +2,6 @@
 Description: For information about using text in an XPS OM, see Write Text to an XPS OM.
 ms.assetid: ac347964-cd97-4077-afad-8cab9b57a33d
 title: Working with XPS OM Text, Graphics, and Image Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

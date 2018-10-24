@@ -2,8 +2,6 @@
 Description: Before a socket can be used to set up a connection or receive a connection request, it needs to be bound to a local address.
 ms.assetid: 8767a209-e293-47cd-b503-ff4cffbf6fb4
 title: Binding to a Local Address
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Provides a callback interface for the application to receive a content enabler object from the protected media path (PMP) session.
 ms.assetid: 66482541-63d4-439b-862f-7507605af5d8
 title: MF_SESSION_CONTENT_PROTECTION_MANAGER attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

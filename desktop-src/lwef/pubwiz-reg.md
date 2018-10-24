@@ -8,8 +8,6 @@ keywords:
 - Online Print Ordering Wizard,registering
 - register,Web Publishing Wizard
 - register,Online Print Ordering Wizard
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

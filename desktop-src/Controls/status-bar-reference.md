@@ -2,8 +2,6 @@
 title: Status Bar
 description: This section contains information about the programming elements used with status bar controls.
 ms.assetid: 77923055-9d00-4528-bda7-b602a26b577f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

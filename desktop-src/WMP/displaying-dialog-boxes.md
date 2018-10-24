@@ -10,8 +10,6 @@ keywords:
 - online stores,dialog boxes
 - type 1 online stores,dialog boxes
 - displaying dialog boxes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

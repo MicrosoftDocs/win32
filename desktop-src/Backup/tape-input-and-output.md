@@ -4,8 +4,6 @@ description: There are several functions that applications can use to perform in
 ms.assetid: 1862c267-0070-4fe8-bb77-40167913978a
 keywords:
 - tape input and output Backup
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

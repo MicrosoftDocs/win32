@@ -2,8 +2,6 @@
 Description: Removes the specified virtual machine replication relationship.
 ms.assetid: 0D5013CE-7BAE-4A99-ABF2-F1ECC644A1B2
 title: Msvm_ReplicationService::RemoveReplicationRelationshipEx method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

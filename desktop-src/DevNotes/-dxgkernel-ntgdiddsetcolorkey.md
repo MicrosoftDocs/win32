@@ -2,8 +2,6 @@
 Description: Sets the color key value for the specified surface.
 ms.assetid: 052dba97-c047-4ef7-a908-2a66ade3af10
 title: NtGdiDdSetColorKey function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

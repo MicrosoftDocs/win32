@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5cf414f0-b3a8-4623-9aaa-08e2a28b40c0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Optimizing an Event Provider
 ms.author: windowssdkdev

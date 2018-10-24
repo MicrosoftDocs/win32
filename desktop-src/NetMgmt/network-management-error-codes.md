@@ -2,8 +2,6 @@
 title: Network Management Error Codes
 description: The following table provides a list of error codes for the network management functions.
 ms.assetid: 8ef49677-b81d-42f2-8de1-40193a3afcde
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

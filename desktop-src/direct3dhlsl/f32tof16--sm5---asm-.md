@@ -2,8 +2,6 @@
 title: f32tof16 (sm5 - asm)
 description: Component-wise float16 to float32 conversion.
 ms.assetid: 36BCCFC5-722A-45EB-8A66-7544833BBBA5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

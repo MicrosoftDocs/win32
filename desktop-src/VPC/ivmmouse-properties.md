@@ -2,8 +2,6 @@
 title: IVMMouse Properties
 description: The IVMMouse interface exposes the following properties.
 ms.assetid: 3E18C099-325A-47D1-9BA4-503C09EBD046
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

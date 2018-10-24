@@ -2,8 +2,6 @@
 title: WFP Version-Independent Names and Targeting Specific Versions of Windows
 description: In many cases, the Windows Filtering Platform (WFP) API provides more than one version of a function or structure.
 ms.assetid: FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

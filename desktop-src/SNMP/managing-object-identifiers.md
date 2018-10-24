@@ -2,8 +2,6 @@
 title: Managing Object Identifiers
 description: The WinSNMP API provides several WinSNMP utility functions that simplify the manipulation of object identifiers for WinSNMP applications.
 ms.assetid: 6ca5f5bc-aa49-4826-97a7-2ea4a882dc2d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

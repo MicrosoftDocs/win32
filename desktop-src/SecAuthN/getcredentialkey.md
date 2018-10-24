@@ -2,8 +2,6 @@
 Description: Gets the credential key of the user logon credential.
 ms.assetid: 4C65CBC2-E086-4C87-85C5-73BFF376FD3A
 title: GetCredentialKey function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This section contains the references for the TAPI constants.
 ms.assetid: 844a69f8-fe8d-43c8-984f-e73e37dfdda5
 title: TAPI Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

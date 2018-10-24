@@ -4,8 +4,6 @@ description: The client specifies how the server impersonates the client when th
 ms.assetid: 0d02b7f2-4dcb-41e8-829c-6942dfdcd4c6
 keywords:
 - Remote Procedure Call RPC , tasks, using transport-level security on the client
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

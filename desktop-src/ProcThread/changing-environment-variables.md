@@ -2,8 +2,6 @@
 Description: Each process has an environment block associated with it.
 ms.assetid: b428688c-7b16-48c7-8d89-55d066496d1c
 title: Changing Environment Variables
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

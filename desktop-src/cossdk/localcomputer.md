@@ -2,8 +2,6 @@
 Description: Contains a single object that corresponds to the computer whose catalog you are accessing. This object holds computer level settings information.
 ms.assetid: 75f14cad-9cd5-44a6-9afa-2c8ad1e87027
 title: LocalComputer collection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

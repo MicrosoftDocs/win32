@@ -4,8 +4,6 @@ description: Parser Enhancements
 ms.assetid: b520aebe-9182-4e60-9111-49af09cdbd79
 keywords:
 - Parser Enhancements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

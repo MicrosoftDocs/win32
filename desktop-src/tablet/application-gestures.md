@@ -2,8 +2,6 @@
 Description: Application gestures are gestures that you choose to have your application support.
 ms.assetid: 5752ea0e-f4c0-4952-bc82-a3396e1b9e1a
 title: Application Gestures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

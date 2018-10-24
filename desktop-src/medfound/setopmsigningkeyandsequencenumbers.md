@@ -2,8 +2,6 @@
 Description: Sets the signing key and two sequence numbers on a protected output object.
 ms.assetid: 278a80f5-198d-4311-aa43-10b6dc33b3a4
 title: SetOPMSigningKeyAndSequenceNumbers function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

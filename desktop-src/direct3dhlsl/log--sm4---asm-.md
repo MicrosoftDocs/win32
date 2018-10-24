@@ -2,8 +2,6 @@
 title: log (sm4 - asm)
 description: Component-wise log base 2.
 ms.assetid: 6D28864A-C2BA-44AF-9E78-7C2B34F5E462
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Supports both digital signatures and data encryption. It is considered a general purpose cryptographic service provider (CSP).
 ms.assetid: da0b50ec-25a6-40dd-af83-73500b4a4c08
 title: PROV_RSA_AES
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Indicates whether the protection fails over to this if the best effort fails. This attribute can be used with IMFOutputSchema objects.
 ms.assetid: 8F541BDB-6801-49BC-A825-03FDE2409099
 title: MFPROTECTIONATTRIBUTE_FAIL_OVER attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

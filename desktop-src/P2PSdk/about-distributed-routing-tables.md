@@ -2,8 +2,6 @@
 Description: A Distributed Routing Table (DRT) exists as a mesh of cooperating nodes, where each node is an instance of an application using the DRT API.
 ms.assetid: 257ad7ea-636b-45f2-b514-4a213939d107
 title: About Distributed Routing Tables
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

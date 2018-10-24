@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: BC3C966B-E6CE-45E2-BC1D-2439B75D4C3C
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - ReinstallAgreementLicenseKeyPack method Remote Desktop Services

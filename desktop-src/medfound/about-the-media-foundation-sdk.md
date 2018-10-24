@@ -2,8 +2,6 @@
 Description: Microsoft Media Foundation is the next generation multimedia platform for Windows that enables developers, consumers, and content providers to embrace the new wave of premium content with enhanced robustness, unparalleled quality, and seamless interoperability.
 ms.assetid: 3f933e39-8f9b-4c62-b528-4f1bba4b45d1
 title: About Media Foundation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

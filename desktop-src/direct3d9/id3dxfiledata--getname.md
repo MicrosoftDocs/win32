@@ -2,8 +2,6 @@
 Description: Retrieves the name of this file data object.
 ms.assetid: 182529cb-144c-4ed8-94bf-6688598e9ea7
 title: ID3DXFileData::GetName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

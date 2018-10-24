@@ -13,8 +13,6 @@ keywords:
 - CD burning,retrieving IWMPCdromCollection interface
 - burning CDs,retrieving IWMPCdromCollection interface
 - IWMPCdromCollection interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

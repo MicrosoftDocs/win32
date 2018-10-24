@@ -2,8 +2,6 @@
 Description: Track
 ms.assetid: '086b1dbe-43d5-427f-a9dc-36203b4435c9'
 title: Track
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

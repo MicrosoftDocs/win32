@@ -2,8 +2,6 @@
 Description: 'Cryptography API: Next Generation (CNG) provides functions that query, add, remove, and prioritize the cipher suites that a provider supports. Changes made by using these functions take effect immediately and do not require restarting an active server.'
 ms.assetid: e919be5c-ac2c-446c-a422-971805b1f672
 title: Prioritizing Schannel Cipher Suites
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

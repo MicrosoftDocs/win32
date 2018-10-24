@@ -2,8 +2,6 @@
 Description: Occurs when the mouse pointer is moved over the InkPicture control.
 ms.assetid: b4c703da-0e4a-4d4c-9a6c-0e002344fb2f
 title: InkPicture.MouseMove event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

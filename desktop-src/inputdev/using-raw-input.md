@@ -12,8 +12,6 @@ keywords:
 - reading raw input
 - joystick raw input
 - game pad raw input
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

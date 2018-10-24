@@ -2,8 +2,6 @@
 Description: The first line of a street address.
 ms.assetid: 93a105ca-66be-4f4f-bb81-945b061c5d7d
 title: LocationDisp.DispCivicAddressReport.AddressLine1 property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

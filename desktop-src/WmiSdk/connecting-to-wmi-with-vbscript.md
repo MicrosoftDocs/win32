@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 77168079-7253-4DB1-8252-7016F5A58DBA
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Connecting to WMI with VBScript
 ms.author: windowssdkdev

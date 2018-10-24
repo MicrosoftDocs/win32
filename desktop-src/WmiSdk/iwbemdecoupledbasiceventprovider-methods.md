@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 659752BD-B795-451B-B542-B5E362F93364
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemDecoupledBasicEventProvider Methods
 ms.author: windowssdkdev

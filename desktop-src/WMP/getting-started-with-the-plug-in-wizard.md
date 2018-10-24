@@ -9,8 +9,6 @@ keywords:
 - Windows Media Player Plug-in Wizard,installing
 - installing plug-in wizard
 - plug-in wizard
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

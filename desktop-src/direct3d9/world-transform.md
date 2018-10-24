@@ -2,8 +2,6 @@
 Description: The discussion of the world transformation introduces basic concepts and provides details on how to set up a world transform.
 ms.assetid: c3d3b247-e482-4750-a6fb-724f81ee2b19
 title: World Transform (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

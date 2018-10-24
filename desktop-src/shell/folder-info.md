@@ -2,8 +2,6 @@
 Description: The Getting a Folder's ID section discussed two approaches to getting a namespace object's pointer to an item identifier list (PIDL).
 ms.assetid: c99a2f6c-3144-41ec-ad97-59a30bfec9ab
 title: Getting Information About the Contents of a Folder
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

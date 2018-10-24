@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 69ec8ead-9073-4689-bc66-5134728ab147
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Asynchronous Event Notifications
 ms.author: windowssdkdev

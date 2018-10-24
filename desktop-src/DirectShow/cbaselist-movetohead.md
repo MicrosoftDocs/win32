@@ -2,8 +2,6 @@
 Description: The MoveToHead method splits the list and inserts the tail portion at the head of another list.
 ms.assetid: 46e4f8fe-6707-44c6-9d49-0168b35d2364
 title: CBaseList.MoveToHead method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

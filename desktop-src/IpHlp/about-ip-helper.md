@@ -2,8 +2,6 @@
 Description: Internet Protocol Helper (IP Helper) assists network administration of the local computer by enabling applications to retrieve information about the network configuration of the local computer, and to modify that configuration.
 ms.assetid: 9eb8af78-612f-406c-ab92-4623b10a510e
 title: About IP Helper
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

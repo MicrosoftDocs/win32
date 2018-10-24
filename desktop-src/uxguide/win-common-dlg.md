@@ -2,8 +2,6 @@
 title: Common Dialogs
 description: The Microsoft Windows common dialogs consist of the Open File, Save File, Open Folder, Find and Replace, Print, Page Setup, Font, and Color dialog boxes.
 ms.assetid: 3f9fb0c9-bc1a-48c4-b021-99f155f8ea9e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

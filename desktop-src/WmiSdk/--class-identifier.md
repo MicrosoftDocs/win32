@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a1d0e934-c5b5-4554-9d6e-3881064419ca
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__CLASS Identifier'
 ms.author: windowssdkdev

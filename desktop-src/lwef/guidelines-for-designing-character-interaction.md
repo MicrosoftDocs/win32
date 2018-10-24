@@ -2,8 +2,6 @@
 title: Guidelines for Designing Character Interaction
 description: Guidelines for Designing Character Interaction
 ms.assetid: cda967a3-8fc1-443c-99e6-92f814f097c9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

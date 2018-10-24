@@ -2,8 +2,6 @@
 title: Screening Out Unnecessary Objects
 description: If you use Inspect to examine a simple control such as an OK push button in the Microsoft WordPad accessory, you can see that these parent window objects also contain several invisible child objects.
 ms.assetid: 30884e11-cc73-4bb8-9d9e-b9f1b53c4193
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

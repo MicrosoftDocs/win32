@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 01cdf99b-1c63-424b-b160-ee1ac5557ae7
 title: System.RecordedTV.DateContentExpires
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

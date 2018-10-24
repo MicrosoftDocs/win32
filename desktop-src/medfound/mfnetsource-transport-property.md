@@ -2,8 +2,6 @@
 Description: Specifies the transport protocol used by the network source.
 ms.assetid: 7c8598ff-f408-42d0-9eee-3ef1e82f0466
 title: MFNETSOURCE_TRANSPORT property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

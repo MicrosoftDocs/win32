@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 0d0533be-89fe-4ab6-bafa-2da6195ff02c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObjectPath.IsSingleton property
 ms.author: windowssdkdev

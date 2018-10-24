@@ -15,8 +15,6 @@ keywords:
 - Windows Media Player,HTMLView to display webpages
 - HTMLView,displaying webpages
 - HTMLView,Web pages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

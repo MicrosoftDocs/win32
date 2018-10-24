@@ -2,8 +2,6 @@
 Description: Mapper Sample
 ms.assetid: f795993f-43d7-4b29-905c-12ec3d43a059
 title: Mapper Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

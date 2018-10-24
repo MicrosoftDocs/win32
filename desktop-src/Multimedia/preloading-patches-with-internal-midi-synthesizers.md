@@ -11,8 +11,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),preloading patches
 - playing MIDI files,preloading patches
 - preloading MIDI patches
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

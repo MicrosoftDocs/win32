@@ -2,8 +2,6 @@
 title: How to Dynamically Label Toolbar Buttons
 description: You can assign text to an existing button by using the TB\_SETBUTTONINFO message.
 ms.assetid: 571C7FB9-2806-47AF-8933-0D3541AE6ACF
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

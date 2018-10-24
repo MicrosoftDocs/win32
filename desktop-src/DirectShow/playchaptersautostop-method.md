@@ -2,8 +2,6 @@
 Description: The PlayChaptersAutoStop method starts playback at the specified chapter in the specified title and for the number of chapters specified.
 ms.assetid: ede19f02-6eda-42da-a108-06d78dc2e8a9
 title: PlayChaptersAutoStop Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

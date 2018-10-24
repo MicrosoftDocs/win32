@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 79e47173-c8b6-452d-9400-93e2bd6e9da5
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing Performance Data in Script
 ms.author: windowssdkdev

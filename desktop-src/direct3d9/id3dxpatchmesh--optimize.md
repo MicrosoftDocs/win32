@@ -2,8 +2,6 @@
 Description: Optimizes the patch mesh for efficient tessellation.
 ms.assetid: 0049e649-5fe5-45b4-9b09-14b7f99b4988
 title: ID3DXPatchMesh::Optimize method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: BoundingFrustum Fields
 ms.assetid: 4c42f638-e909-4e40-bd35-572910294e4d
 title: BoundingFrustum Fields
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

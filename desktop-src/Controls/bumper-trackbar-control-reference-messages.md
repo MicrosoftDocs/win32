@@ -2,8 +2,6 @@
 title: Trackbar Control Messages
 description: .
 ms.assetid: 1640fc7c-5fe5-4b11-9517-2608b837eedf
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Advanced format (4K) disk compatibility update
 description: Advanced format (4K) disk compatibility update
 ms.assetid: 2C9EB0CF-D27B-457A-8FE6-24824BCC084C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

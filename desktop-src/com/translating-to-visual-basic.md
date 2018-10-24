@@ -2,8 +2,6 @@
 title: Translating to Visual Basic
 description: Translating to Visual Basic
 ms.assetid: 48672d0c-b0d7-4820-91d4-d985030396f6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

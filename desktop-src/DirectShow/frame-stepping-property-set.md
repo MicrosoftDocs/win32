@@ -2,8 +2,6 @@
 Description: Frame Stepping Property Set
 ms.assetid: 01abe1fe-fc2f-44cb-9546-45a8d682a179
 title: Frame Stepping Property Set
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

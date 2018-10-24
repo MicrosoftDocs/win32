@@ -2,8 +2,6 @@
 Description: Multicast Programming Sample
 ms.assetid: 87a6d3bb-3827-4a84-ba2d-c7bd2dd73eb2
 title: Multicast Programming Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The IWpdSerializer interface is used by the device driver to serialize IPortableDeviceValues interfaces to and from the raw data buffers used to communicate with the application.Applications do not need to use this interface, because the data is serialized and deserialized automatically when calling IPortableDevice::SendCommand.To get this interface, call CoCreateInstance and pass in IID\_IWpdSerializer.
 ms.assetid: 837bd850-6e27-4f8e-a612-d16f61b92b1d
 title: IWpdSerializer interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

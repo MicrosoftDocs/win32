@@ -2,8 +2,6 @@
 title: Asynchronous Operations
 description: When RasDial is invoked as an asynchronous operation, the function returns immediately.
 ms.assetid: f165b4a7-00fb-4888-8225-8fd106e113f2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

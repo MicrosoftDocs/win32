@@ -2,8 +2,6 @@
 Description: The TrustedDomain object stores information about a trust relationship with a domain.
 ms.assetid: fab69367-2143-49ef-a1b9-9c1d846fd4e1
 title: TrustedDomain Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

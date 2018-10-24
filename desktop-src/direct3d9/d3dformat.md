@@ -2,8 +2,6 @@
 Description: Defines the various types of surface formats.
 ms.assetid: a222e3bb-310c-4019-93ee-6a2da2a46ded
 title: D3DFORMAT
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

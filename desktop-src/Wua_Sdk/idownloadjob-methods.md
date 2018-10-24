@@ -2,8 +2,6 @@
 Description: The IDownloadJob interface defines the following methods.
 ms.assetid: b9a6b722-2e32-4177-bcef-514412e132ec
 title: IDownloadJob Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: 97c60b8f-96b1-4ee1-9033-f4d7ee48b58d
 keywords:
 - OpenGL processing pipeline,scissor test
 - scissor test OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

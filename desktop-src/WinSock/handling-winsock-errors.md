@@ -2,8 +2,6 @@
 Description: Error Handling in Winsock.
 ms.assetid: 81ed3328-4b15-43dc-88f1-573a4a97d672
 title: Handling Winsock Errors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

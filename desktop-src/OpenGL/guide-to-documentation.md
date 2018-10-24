@@ -6,8 +6,6 @@ keywords:
 - OpenGL on Windows,documentation
 - OpenGL Reference Manual
 - OpenGL Programming Guide
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

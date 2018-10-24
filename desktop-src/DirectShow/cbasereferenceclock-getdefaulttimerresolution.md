@@ -2,8 +2,6 @@
 Description: The GetDefaultTimerResolution method returns the current resolution of the reference clock's timer.
 ms.assetid: 14176f9c-7fa1-47f6-a261-9c66e271a3f2
 title: CBaseReferenceClock.GetDefaultTimerResolution method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

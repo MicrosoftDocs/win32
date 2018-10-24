@@ -1,8 +1,6 @@
 ---
 Description: Indicates whether a network address conforms to a specified type and format.
 title: NCM_GETADDRESS message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

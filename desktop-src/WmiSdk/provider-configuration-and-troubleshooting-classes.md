@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5eaf7026-87bf-416b-9a6d-7f92f85b0882
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Provider Configuration and Troubleshooting Classes
 ms.author: windowssdkdev

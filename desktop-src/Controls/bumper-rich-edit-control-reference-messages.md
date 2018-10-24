@@ -2,8 +2,6 @@
 title: Rich Edit Messages
 description: .
 ms.assetid: 3a20f28f-de78-4a41-8a8d-8fd896c8ae30
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

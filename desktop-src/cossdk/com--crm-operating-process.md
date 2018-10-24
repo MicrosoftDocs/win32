@@ -2,8 +2,6 @@
 Description: COM+ CRM Operating Process
 ms.assetid: be50912e-b9fd-4ef7-b81a-e37617a96955
 title: COM+ CRM Operating Process
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

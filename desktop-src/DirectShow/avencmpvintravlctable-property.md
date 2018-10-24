@@ -2,8 +2,6 @@
 Description: Specifies which variable-length coding (VLC) table to use for entropy coding. This property applies to MPEG video encoders.
 ms.assetid: caa17027-8f11-47d3-83da-7ca83b27c978
 title: AVEncMPVIntraVLCTable property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

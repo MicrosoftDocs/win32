@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: FB0AC4CF-18F5-4CDD-A75C-59A7CF716688
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - ControlReconnectStatus enumeration Remote Desktop Services

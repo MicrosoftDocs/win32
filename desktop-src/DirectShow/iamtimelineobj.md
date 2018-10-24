@@ -2,8 +2,6 @@
 Description: The IAMTimelineObj interface provides methods for manipulating timeline objects in DirectShow Editing Services (DES).
 ms.assetid: ae8a778d-00b3-4b88-98dd-16e0a8645127
 title: IAMTimelineObj interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

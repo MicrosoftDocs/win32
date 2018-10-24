@@ -2,8 +2,6 @@
 Description: The Formatted Type of semantic type is one of the Text Format Types.
 ms.assetid: 44af5b5c-bbf9-4043-8076-0881680a36c1
 title: Formatted Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

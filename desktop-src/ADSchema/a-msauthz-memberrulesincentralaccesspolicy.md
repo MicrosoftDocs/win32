@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 4abd3f44-14d8-4dae-b978-fbe817cc8e4c
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-Authz-Member-Rules-In-Central-Access-Policy attribute AD Schema

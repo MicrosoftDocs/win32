@@ -2,8 +2,6 @@
 Description: Imports a certificate from a file.
 ms.assetid: 62c3bf8e-2f52-4342-b3ee-744b032578bf
 title: ICertificate2::Load method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Capture method captures a still image from the video frame when the MSWebDVD object is in windowless mode.
 ms.assetid: 704e64ef-3593-403c-8ecf-625fb4983882
 title: Capture Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

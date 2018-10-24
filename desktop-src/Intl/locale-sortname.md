@@ -2,8 +2,6 @@
 Description: LOCALE\_SORTNAME
 ms.assetid: 985260e1-a5f5-4654-9551-f1e17231a539
 title: LOCALE_SORTNAME
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

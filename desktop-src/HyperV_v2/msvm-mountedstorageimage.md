@@ -2,8 +2,6 @@
 Description: Provides detailed information about a manually mounted storage image.
 ms.assetid: '40b94c5f-c277-40c8-a55d-ebc64cb231ca'
 title: Msvm_MountedStorageImage class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

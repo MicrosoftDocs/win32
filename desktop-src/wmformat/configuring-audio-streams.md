@@ -22,8 +22,6 @@ keywords:
 - codecs,variable bit rate (VBR)
 - variable bit rate (VBR),configuring
 - VBR (variable bit rate),configuring
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

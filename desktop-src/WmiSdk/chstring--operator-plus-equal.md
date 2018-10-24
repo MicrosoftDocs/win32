@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 026ff9af-4cda-4261-aa27-e215d49b80ce
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CHString::operator+=
 ms.author: windowssdkdev

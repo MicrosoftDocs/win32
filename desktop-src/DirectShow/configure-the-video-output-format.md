@@ -2,8 +2,6 @@
 Description: Configure the Video Output Format
 ms.assetid: 1969072e-575e-49b4-88db-4c7e7a5a1c37
 title: Configure the Video Output Format
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

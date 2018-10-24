@@ -2,8 +2,6 @@
 Description: To manage records, you can work with information that is stored in PEER\_RECORD structures.
 ms.assetid: d38ea2d3-5cfb-4c4a-a63f-b274aa0dfe71
 title: Record Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

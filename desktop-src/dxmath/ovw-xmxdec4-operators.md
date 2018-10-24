@@ -2,8 +2,6 @@
 Description: The XMXDEC4 structure exposes the following operators.
 ms.assetid: ef7caab2-0e73-46a9-82ec-5ed025256a8f
 title: XMXDEC4 Operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

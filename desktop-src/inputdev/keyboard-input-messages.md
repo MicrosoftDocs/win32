@@ -2,8 +2,6 @@
 title: Keyboard Input Messages
 description: .
 ms.assetid: 46ce35e1-c126-4f2d-9b32-3b70341101f1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

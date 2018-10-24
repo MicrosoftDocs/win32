@@ -2,8 +2,6 @@
 Description: Audio Subtype GUIDs
 ms.assetid: c38a1194-e2d8-42ca-8581-4054171f6f44
 title: Audio Subtype GUIDs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

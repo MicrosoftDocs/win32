@@ -2,8 +2,6 @@
 Description: Represents a switch service, which switches frames between switch ports.
 ms.assetid: ee2d4831-df00-408c-b350-26d2d1d3e8aa
 title: CIM_SwitchesAmong class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

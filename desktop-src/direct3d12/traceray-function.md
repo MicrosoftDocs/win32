@@ -2,8 +2,6 @@
 Description: Sends a ray into a search for hits in an acceleration structure.
 ms.assetid: 
 title: TraceRay function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018

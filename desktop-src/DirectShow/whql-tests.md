@@ -2,8 +2,6 @@
 Description: WHQL tests
 ms.assetid: ca24fe89-d2fe-4aa9-8643-319ed16ba1a3
 title: WHQL tests
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

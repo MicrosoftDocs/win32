@@ -2,8 +2,6 @@
 Description: You can extract files from a cabinet in two ways. The first and simplest way is to take advantage of the automatic cabinet processing built into the setup functions.
 ms.assetid: 113333c8-28d1-4b0e-8da4-0c94389d8038
 title: Extracting Files from Cabinets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

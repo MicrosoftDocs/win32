@@ -2,8 +2,6 @@
 Description: Sets the BLOB pattern match filter.
 ms.assetid: 44e7c67a-f430-4d68-bc7f-f6bbd5b9e5a9
 title: SetNPPPatternFilterInBlob function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

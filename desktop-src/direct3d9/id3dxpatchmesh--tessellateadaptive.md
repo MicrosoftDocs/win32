@@ -2,8 +2,6 @@
 Description: Performs adaptive tessellation based on the z-based adaptive tessellation criterion.
 ms.assetid: 9f8f5c18-e866-4893-ba07-2a3c0d26c028
 title: ID3DXPatchMesh::TessellateAdaptive method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

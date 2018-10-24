@@ -2,8 +2,6 @@
 Description: Specifies the URL address for the manufacturer.
 ms.assetid: 36c5ce63-4e46-4196-827b-9e26d26ff244
 title: manufacturerURL element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The IX509Enrollment interface exposes the following properties.
 ms.assetid: 07921E0D-D550-4153-BCC8-27BA4574DFD0
 title: IX509Enrollment Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

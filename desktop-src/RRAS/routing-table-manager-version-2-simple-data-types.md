@@ -5,8 +5,6 @@ ms.assetid: e935518e-b8d8-47fb-b2b2-c9750c2b540e
 keywords:
 - Routing and Remote Access Service RRAS ,Routing Table Manager Version 2,simple data types
 - Routing Table Manager Version 2 RRAS ,simple data types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

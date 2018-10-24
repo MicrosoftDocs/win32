@@ -1,8 +1,6 @@
 ---
 ms.assetid: dc5dd33c-a2ed-4c0c-9f54-aca3df57d4fb
 title: Performance Counters Elements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

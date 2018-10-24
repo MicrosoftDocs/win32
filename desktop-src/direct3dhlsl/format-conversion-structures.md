@@ -2,8 +2,6 @@
 title: Structures
 ms.assetid: b7af5595-ec09-49b4-8458-57dd8fb8a9cc
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

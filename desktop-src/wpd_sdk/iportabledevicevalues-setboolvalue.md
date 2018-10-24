@@ -2,8 +2,6 @@
 Description: The SetBoolValue method adds a new Boolean value (type VT\_BOOL) or overwrites an existing one.
 ms.assetid: add30665-78f7-4037-801e-af51a4ab2f60
 title: IPortableDeviceValues::SetBoolValue method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

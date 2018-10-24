@@ -2,8 +2,6 @@
 Description: Windows Server is a group of operating systems designed by Microsoft that supports enterprise-level management, data storage, applications, and communications.
 ms.assetid: 7657078c-f845-49b1-b13b-dfa28f09a8ff
 title: Windows Server
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

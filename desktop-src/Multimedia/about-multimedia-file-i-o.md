@@ -14,8 +14,6 @@ keywords:
 - resource interchange file format (RIFF)
 - RIFF (resource interchange file format)
 - RIFF I/O
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

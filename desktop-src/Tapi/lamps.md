@@ -2,8 +2,6 @@
 Description: The lamps on a phone device can be lit in a variety of different lighting modes.
 ms.assetid: d8e8ef57-9faa-4122-b99a-3956362cd9d8
 title: Lamps
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

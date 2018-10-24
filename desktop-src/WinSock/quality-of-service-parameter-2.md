@@ -2,8 +2,6 @@
 Description: This section lists the parameters used for quality of service (QoS).
 ms.assetid: befbcf01-ecd2-4316-8e5e-889e918272cc
 title: Quality of Service Parameter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

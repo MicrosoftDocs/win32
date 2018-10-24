@@ -2,8 +2,6 @@
 Description: Converts an existing virtual hard disk to a different type or format.
 ms.assetid: D4F3A030-D860-4569-B6CD-31661BD40D54
 title: ConvertVirtualHardDisk method of the Msvm_ImageManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

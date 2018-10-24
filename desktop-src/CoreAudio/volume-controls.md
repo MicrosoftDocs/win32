@@ -2,8 +2,6 @@
 Description: Volume Controls
 ms.assetid: 'b1799372-8d2c-4774-995d-e7926a159d0a'
 title: Volume Controls
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

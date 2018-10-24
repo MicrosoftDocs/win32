@@ -2,8 +2,6 @@
 Description: Loads formatted text into video memory to improve the efficiency of rendering to the device. This method supports ANSI and Unicode strings.
 ms.assetid: f2a4e9f5-87c5-46c0-965d-ce1535a6921d
 title: ID3DXFont::PreloadText method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

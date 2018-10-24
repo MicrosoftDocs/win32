@@ -2,8 +2,6 @@
 Description: Calls the AttachProperties function to map the properties that exist in a piece of recognized data.
 ms.assetid: f1949904-ceb2-4650-847f-01f597ff3620
 title: Implementing AttachProperties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

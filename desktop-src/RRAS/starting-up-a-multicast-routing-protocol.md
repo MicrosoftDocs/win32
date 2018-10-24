@@ -2,8 +2,6 @@
 title: Starting Up a Multicast Routing Protocol
 description: The following table summarizes a series of steps in a startup interaction between a routing protocol and the multicast group manager.
 ms.assetid: 14524745-5cf9-442c-a5b4-b1ef313151cf
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

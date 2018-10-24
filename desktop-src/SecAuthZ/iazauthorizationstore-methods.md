@@ -2,8 +2,6 @@
 Description: The IAzAuthorizationStore interface exposes the following methods.
 ms.assetid: ECBCD34B-4AF0-4FED-8E1D-BFD544390804
 title: IAzAuthorizationStore Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

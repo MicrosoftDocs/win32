@@ -2,8 +2,6 @@
 Description: Client Interfaces
 ms.assetid: fbe53f17-940a-485e-82b2-c11ae39b3300
 title: Client Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Lists the structures used with security management APIs.
 ms.assetid: 8df25095-a215-464a-abac-39a6ea05f6a3
 title: Security Management Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

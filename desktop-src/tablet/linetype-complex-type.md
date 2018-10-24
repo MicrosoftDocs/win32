@@ -2,8 +2,6 @@
 Description: Defines the type that contains a line of paragraph.
 ms.assetid: '0c864ca9-7f09-4fea-9490-4e07d82bcf6e'
 title: LineType Complex Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

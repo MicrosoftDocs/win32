@@ -2,8 +2,6 @@
 Description: Lists the interfaces provided by authorization APIs.
 ms.assetid: ede464a2-0be5-445a-aff7-d707dfccee13
 title: Authorization Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

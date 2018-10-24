@@ -2,8 +2,6 @@
 title: The transmit_as and represent_as Attributes
 description: This section discusses the implementation of programmer data type conversion using the MIDL \ transmit\_as\ and \ represent\_as\ attributes.
 ms.assetid: 2e1af786-f507-453f-bb10-74805ef6b1a9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

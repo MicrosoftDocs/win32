@@ -2,8 +2,6 @@
 Description: Logging Topology Node Activities
 ms.assetid: 853b3900-1214-43b9-bf0e-e45c1159c5f1
 title: Logging Topology Node Activities
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

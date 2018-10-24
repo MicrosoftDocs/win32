@@ -2,8 +2,6 @@
 Description: The ProductInfoFromScript property of the Installer object returns the value of the specified attribute that is stored in an advertise script.
 ms.assetid: 92aa479b-2b4c-482c-a186-a290461bc6d8
 title: Installer::ProductInfoFromScript property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

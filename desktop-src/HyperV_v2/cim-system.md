@@ -2,8 +2,6 @@
 Description: Represents a set of components that function as a single high-level entity.
 ms.assetid: 784cee32-e0ae-4632-8dac-e5110513f5c9
 title: CIM_System class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

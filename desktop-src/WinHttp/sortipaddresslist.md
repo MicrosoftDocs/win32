@@ -2,8 +2,6 @@
 Description: Sorts a list of IP addresses.
 ms.assetid: 1266d6f3-e9f5-4e6b-9431-7329df156f0a
 title: sortIpAddressList function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

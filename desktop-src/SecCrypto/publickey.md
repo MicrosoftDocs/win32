@@ -1,8 +1,6 @@
 ---
 Description: The PublicKey object represents a public key in a Certificate object.
 title: PublicKey object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

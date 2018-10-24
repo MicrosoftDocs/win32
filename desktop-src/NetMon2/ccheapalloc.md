@@ -2,8 +2,6 @@
 Description: The CCHeapAlloc function allocates memory on a capture-by-capture basis.
 ms.assetid: 6403c35f-d78f-48dc-90cc-0b76260bbab7
 title: CCHeapAlloc function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

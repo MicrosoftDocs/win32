@@ -2,8 +2,6 @@
 Description: Tests whether the BoundingSphere contains a specified object.
 ms.assetid: e5e42d29-f39f-44cd-8be1-06afd5eec7d9
 title: BoundingSphere.Contains methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

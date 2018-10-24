@@ -2,8 +2,6 @@
 Description: The examples in this section deal with different aspects of using Multiple Display Monitors.
 ms.assetid: dbb1dcae-9e8e-47e5-936f-fcd035d5f098
 title: Using Multiple Display Monitors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

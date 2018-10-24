@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 565b867f-0aab-4fa4-b797-7feb3852e1fd
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Qualifiers Specific to WMI Performance Classes
 ms.author: windowssdkdev

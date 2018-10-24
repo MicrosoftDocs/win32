@@ -2,8 +2,6 @@
 Description: The IUpdateIdentity interface defines the following properties.
 ms.assetid: c2005fa8-aa87-4650-b35c-a07c46187fc4
 title: IUpdateIdentity Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

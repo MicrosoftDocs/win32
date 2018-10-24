@@ -2,8 +2,6 @@
 Description: Quality Messages
 ms.assetid: ff98cb51-6300-470d-b696-5e27591c6b3f
 title: Quality Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

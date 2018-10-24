@@ -2,8 +2,6 @@
 Description: Describes of instantiating the Pen Input Panel.
 ms.assetid: 185dbed4-8e2c-49a5-a1c8-23a9787ae2f0
 title: Instantiating the PenInputPanel Class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

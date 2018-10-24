@@ -2,8 +2,6 @@
 Description: The following interfaces can be used to programmatically access, modify, and save certificate request templates.
 ms.assetid: a6d76317-10ea-45ce-b7bd-cbf9e20bf9d3
 title: Certificate Template Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

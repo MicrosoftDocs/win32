@@ -1,8 +1,6 @@
 ---
 Description: The procedure for implementing a namespace extension is similar to that for any other in-process Component Object Model (COM) object.
 title: Implementing the Basic Folder Object Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

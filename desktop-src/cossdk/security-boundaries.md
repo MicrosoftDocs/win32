@@ -2,8 +2,6 @@
 Description: Security is checked only at application boundaries.
 ms.assetid: 32a05150-a68a-4302-9983-b9c1269b368c
 title: Security Boundaries
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

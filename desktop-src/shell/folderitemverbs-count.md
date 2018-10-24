@@ -2,8 +2,6 @@
 Description: Contains the number of items in the collection.
 ms.assetid: a676593b-ea78-433d-a622-221028245c3a
 title: FolderItemVerbs.Count property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

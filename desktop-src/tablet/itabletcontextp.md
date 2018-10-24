@@ -2,8 +2,6 @@
 Description: Represents the tablet context.
 ms.assetid: d518c42d-c2f6-4776-bea5-fecdfe48e260
 title: ITabletContextP interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

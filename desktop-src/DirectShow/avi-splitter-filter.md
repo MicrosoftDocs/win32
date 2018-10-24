@@ -2,8 +2,6 @@
 Description: AVI Splitter Filter
 ms.assetid: df3c7d11-7ecc-499a-af36-b74437e21999
 title: AVI Splitter Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

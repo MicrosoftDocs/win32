@@ -2,8 +2,6 @@
 title: Geometries
 description: Describes how to use Direct2D geometries to represent, manipulate, and analyze shapes.
 ms.assetid: aaf16fa7-23fd-4020-ae4c-b7832040732d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

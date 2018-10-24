@@ -2,8 +2,6 @@
 Description: The \_\_MsiPromptForCD Mutex exists when the installer prompts the user to insert a CD-ROM.
 ms.assetid: f6319cda-48ac-4351-8eb5-f326490e3aff
 title: '__MsiPromptForCD Mutex'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

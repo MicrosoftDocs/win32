@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 6a22d6f7-d9e2-45fa-876d-921a4bc4f574
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Making an Instance Provider into a High-Performance Provider
 ms.author: windowssdkdev

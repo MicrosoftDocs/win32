@@ -2,8 +2,6 @@
 Description: Previewing TV Audio
 ms.assetid: 25da8bcc-51c1-49f0-b4b5-885ff4f254d8
 title: Previewing TV Audio
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

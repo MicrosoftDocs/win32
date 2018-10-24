@@ -2,8 +2,6 @@
 Description: The followings constants are used by Rendezvous methods.
 ms.assetid: e1df4f2c-816f-45bf-83d9-5ac13f03d808
 title: Rendezvous Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

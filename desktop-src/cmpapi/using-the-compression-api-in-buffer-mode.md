@@ -2,8 +2,6 @@
 Description: The following samples demonstrate using the Compression API in buffer mode.
 ms.assetid: 0A062E5D-E5FA-4098-B76E-E136FC74D853
 title: Using the Compression API in buffer mode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

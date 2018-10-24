@@ -2,8 +2,6 @@
 title: D3DCSX 11 Enumerations
 description: This section contains information about D3DCSX 11 enumerations.
 ms.assetid: 7DDF9561-2773-4EA9-A451-EE60C4F9FF9D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

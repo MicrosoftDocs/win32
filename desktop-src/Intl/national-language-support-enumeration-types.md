@@ -2,8 +2,6 @@
 Description: 'NLS supports the following enumeration types:'
 ms.assetid: 93911b65-e2ba-432d-9c65-53dd57687077
 title: National Language Support Enumeration Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

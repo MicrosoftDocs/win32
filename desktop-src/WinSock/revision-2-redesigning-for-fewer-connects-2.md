@@ -2,8 +2,6 @@
 Description: In this revision, the sample application is redesigned to eliminate unnecessary connects.
 ms.assetid: 0db6ded4-0a59-454e-824e-8cd7f0dc9fec
 title: 'Revision Two: Redesigning for Fewer Connects'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

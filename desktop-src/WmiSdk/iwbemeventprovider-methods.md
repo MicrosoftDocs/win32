@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 6FF7B452-86A3-4F73-BA2A-9A04AF26DAB1
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemEventProvider Methods
 ms.author: windowssdkdev

@@ -4,8 +4,6 @@ description: Use the 3D perspective transform effect to rotate the image in 3 di
 ms.assetid: 0E1A940E-2DCA-4772-BB68-7E5EF5CEF833
 keywords:
 - 3d perspective transform effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

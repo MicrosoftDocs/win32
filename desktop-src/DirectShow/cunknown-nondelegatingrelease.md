@@ -2,8 +2,6 @@
 Description: Decrements the reference count on the object. This method implements the INonDelegatingUnknown::NonDelegatingRelease method.
 ms.assetid: 58610f7d-5524-450f-a0f8-b299944abc78
 title: CUnknown.NonDelegatingRelease method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

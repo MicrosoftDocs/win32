@@ -2,8 +2,6 @@
 Description: Defines a legacy effect DWORD. This template has been replaced by the EffectParamDWord template.
 ms.assetid: ef174f2d-0dc3-4c40-a3ae-6d1b2cc03f64
 title: EffectDWord
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

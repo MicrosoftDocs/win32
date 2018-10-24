@@ -10,8 +10,6 @@ api_name:
 - When using peak-constrained VBR, the average bit rate retrieved from the DMO is larger than the peak bit rate. How is that possible
 api_type:
 - NA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

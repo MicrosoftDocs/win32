@@ -5,8 +5,6 @@ ms.assetid: c5c4af39-727e-46e1-821e-8342c555bf4c
 keywords:
 - 64-bit Windows programming guide 64-bit Windows Programming , virtual address space
 - virtual address space 64-bit Windows Programming
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

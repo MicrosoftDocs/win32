@@ -2,8 +2,6 @@
 Description: The release of Windows Vista includes a new programmability object for the Tablet PC Input Panel that provides a new range of possibility for how an application can use and interact with Input Panel.
 ms.assetid: 539f41d3-5fb8-4e20-99ba-0d5af1f0cc54
 title: TextInputPanel for Users of PenInputPanel
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

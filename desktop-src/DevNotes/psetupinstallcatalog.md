@@ -2,8 +2,6 @@
 Description: Installs a catalog file.
 ms.assetid: bea74e91-1a87-4785-b983-5fec87e03499
 title: pSetupInstallCatalog function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

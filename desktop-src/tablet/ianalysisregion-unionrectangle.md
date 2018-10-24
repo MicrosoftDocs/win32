@@ -2,8 +2,6 @@
 Description: Expands the area of this IAnalysisRegion to the area created by its union with the specified rectangle.
 ms.assetid: 9b12f509-4f6a-43b0-9639-bef060fd6d50
 title: IAnalysisRegion::UnionRectangle method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

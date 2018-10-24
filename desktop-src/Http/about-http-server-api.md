@@ -4,8 +4,6 @@ description: The HTTP Server API provides developers with a low-level interface 
 ms.assetid: 74ad3a1d-cde2-4849-a412-d9d4101eaf12
 keywords:
 - HTTP Server API, overview
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

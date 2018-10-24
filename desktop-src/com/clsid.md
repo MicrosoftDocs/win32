@@ -4,8 +4,6 @@ description: Associates a ProgID with a CLSID.
 ms.assetid: '8f2be90c-360a-410c-81aa-bae9ae2c1a21'
 keywords:
 - CLSID registry key (ProgID) COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

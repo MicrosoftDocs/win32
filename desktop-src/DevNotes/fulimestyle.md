@@ -2,8 +2,6 @@
 Description: Specifies whether a non-color style has an underline style.
 ms.assetid: 452dda6e-b12b-457c-9a01-c5363359c9f5
 title: FUlIMEStyle function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Explains how to validate Schannel credentials manually.
 ms.assetid: 0229486a-5812-4a7e-98ad-446292997ee3
 title: Manually Validating Schannel Credentials
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

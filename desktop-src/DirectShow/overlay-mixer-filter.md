@@ -2,8 +2,6 @@
 Description: Overlay Mixer Filter
 ms.assetid: e80938b7-31f0-467b-a3fa-c4511d14758d
 title: Overlay Mixer Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

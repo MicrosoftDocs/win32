@@ -2,8 +2,6 @@
 Description: The results from a query include both the rows returned by the query and a rank value for each row if the rank column is included in the SELECT clause.
 ms.assetid: 8655eec4-5151-4f82-b485-4dbef947df0d
 title: RANK BY Clause
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

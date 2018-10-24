@@ -2,8 +2,6 @@
 Description: Determines whether an input device supports multitouch.
 ms.assetid: 4fef7060-2235-4bee-a37b-40d827732b30
 title: ITablet3::IsMultiTouch method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

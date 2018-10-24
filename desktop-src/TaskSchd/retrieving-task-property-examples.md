@@ -4,8 +4,6 @@ description: To retrieve the properties of a task, call ITaskScheduler Activate 
 ms.assetid: 9ec9d836-c735-4a32-96b1-3dbd0a31b22a
 keywords:
 - retrieving task properties Task Scheduler
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

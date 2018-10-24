@@ -2,8 +2,6 @@
 Description: Although you can specify any color for a pen when creating it, the system uses only colors that are available on the device.
 ms.assetid: 2ea32786-f769-4096-8f60-f924c83ca9c8
 title: Creating Colored Pens and Brushes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies an input stream on a Media Foundation transform (MFT).
 ms.assetid: 2922af62-3fcc-4153-a26a-aba3c4121a0b
 title: MF_EVENT_MFT_INPUT_STREAM_ID attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

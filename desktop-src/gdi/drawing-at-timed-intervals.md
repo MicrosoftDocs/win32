@@ -2,8 +2,6 @@
 Description: You can draw at timed intervals by creating a timer with the SetTimer function.
 ms.assetid: 82f9aa5e-8e42-49cf-bcd0-785bc78fe159
 title: Drawing at Timed Intervals
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: D3DX supplies the following mesh functions.
 ms.assetid: 751f5ba8-be12-4ed7-9d26-638a01cf6c45
 title: Mesh Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

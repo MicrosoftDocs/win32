@@ -2,8 +2,6 @@
 title: Classes and Servers
 description: Classes and Servers
 ms.assetid: cc88be56-0d96-47d2-b23b-6a6ad376bdae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

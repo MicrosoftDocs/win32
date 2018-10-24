@@ -2,8 +2,6 @@
 title: Text-to-Speech Engines Text Normalization
 description: Text-to-Speech Engines Text Normalization
 ms.assetid: 1974d47b-4877-47e3-89d8-fd70967e7605
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

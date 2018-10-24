@@ -2,8 +2,6 @@
 Description: State of the system synch.
 ms.assetid: e7659752-ba8c-4b3b-bd1e-2f5044a3ab47
 title: System.Sync.State
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

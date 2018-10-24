@@ -2,8 +2,6 @@
 Description: The first CryptoAPI function called by an application that uses any cryptographic APIs is the CryptAcquireContext function.
 ms.assetid: ad1ff45c-7d02-431b-a287-e9db765476ce
 title: Cryptographic Service Provider Contexts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

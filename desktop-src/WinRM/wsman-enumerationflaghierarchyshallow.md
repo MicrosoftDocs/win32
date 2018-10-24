@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 18b564e6-dda1-44b9-b445-26c6183b6af9
-ms.prod: windows-server-dev
-ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 keywords:
 - EnumerationFlagHierarchyShallow method Windows Remote Management

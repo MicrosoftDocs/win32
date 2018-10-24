@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: ce79131c-0abc-4b18-834b-5c94103fd3dc
 title: System.Contact.BusinessAddress2Locality
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

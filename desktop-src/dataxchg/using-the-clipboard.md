@@ -10,8 +10,6 @@ keywords:
 - clipboard,Edit menu commands
 - clipboard,viewers
 - clipboard,viewer windows
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

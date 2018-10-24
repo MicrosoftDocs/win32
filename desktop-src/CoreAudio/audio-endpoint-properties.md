@@ -2,8 +2,6 @@
 Description: Audio Endpoint Properties
 ms.assetid: db85ff3b-dbb1-4ed0-b663-21ca9eb66352
 title: Audio Endpoint Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

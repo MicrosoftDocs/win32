@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 0dcae783-1722-45a4-b5d4-3fcf455dacf8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CommandLineEventConsumer class
 ms.author: windowssdkdev

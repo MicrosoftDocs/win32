@@ -2,8 +2,6 @@
 Description: Gets the value for a specified Windows Internet Explorer policy.
 ms.assetid: 47E17F6A-ED43-44cd-AF77-A6E49865E1B5
 title: Shell.ExplorerPolicy method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

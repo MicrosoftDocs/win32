@@ -2,8 +2,6 @@
 title: Using String Buffers
 description: Functions that return strings contain an input parameter, lpszBuffer, and a size parameter, lpdwBufferLength. Although lpszBuffer can be NULL, lpdwBufferLength must be a valid pointer to a DWORD variable.
 ms.assetid: ae7f84ba-15d4-483b-bdda-0042854f9e1b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

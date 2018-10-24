@@ -2,8 +2,6 @@
 Description: FCachDLL Functions
 ms.assetid: 5394ED53-2DC2-40DB-8C62-EDFE47F7B9F6
 title: FCachDLL Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 05818f0a-7e15-4ddd-a6a7-9d16ae82cd3c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemDateTime.Month property
 ms.author: windowssdkdev

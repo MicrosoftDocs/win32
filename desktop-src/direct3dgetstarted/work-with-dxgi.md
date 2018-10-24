@@ -2,8 +2,6 @@
 title: Work with DirectX device resources
 description: Understand the role of the Microsoft DirectX Graphics Infrastructure (DXGI) in your Windows Store DirectX game.
 ms.assetid: 24c0c81d-6b55-4116-868a-154addf0f04c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Each process provides the resources needed to execute a program.
 ms.assetid: 055458cf-9fc7-4a16-be14-1122b3cf0251
 title: About Processes and Threads
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

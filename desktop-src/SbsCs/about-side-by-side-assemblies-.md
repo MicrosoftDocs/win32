@@ -2,8 +2,6 @@
 Description: A Windows side-by-side assembly is described by manifests.
 ms.assetid: 501BBFFE-5927-4656-8EEE-1F6ECFAFEF5E
 title: About Side-by-Side Assemblies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

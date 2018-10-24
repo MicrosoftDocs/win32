@@ -2,8 +2,6 @@
 Description: Contains the object's Application object.
 ms.assetid: 305766b1-a19f-4743-a9e3-6837b3f8ffe0
 title: ShellFolderView.Application property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

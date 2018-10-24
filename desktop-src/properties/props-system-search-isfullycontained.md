@@ -2,8 +2,6 @@
 Description: Emitted as TRUE by all child items of a container (such as an e-mail or a compressed file with a .zip name extension) that emits System.Search.IsClosedDirectory as TRUE. This ensures that the child items are included in the search index.
 ms.assetid: 6da60e89-6956-41f6-8624-063c4d46464d
 title: System.Search.IsFullyContained
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

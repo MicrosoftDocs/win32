@@ -2,8 +2,6 @@
 Description: Indicates whether a sample is a random access point.
 ms.assetid: 03d4bfd8-1148-4551-8e71-05cfba2e15fa
 title: MFSampleExtension_CleanPoint attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

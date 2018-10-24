@@ -14,8 +14,6 @@ keywords:
 - digital rights management (DRM),proximity detection
 - DRM (digital rights management),proximity detection
 - proximity detection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

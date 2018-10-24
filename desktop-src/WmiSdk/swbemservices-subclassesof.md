@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: cfe08956-7215-4e2e-a279-6e86f14e5c27
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemServices.SubclassesOf method
 ms.author: windowssdkdev

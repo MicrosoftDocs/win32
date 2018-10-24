@@ -2,8 +2,6 @@
 Description: An example of using script-driven database queries is provided in the Windows Installer Software Development Kit (SDK) as the utility WiRunSQL.vbs.
 ms.assetid: aa38dbe5-411d-432e-b3fe-09994fc59c75
 title: Examples of Database Queries Using SQL and Script
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

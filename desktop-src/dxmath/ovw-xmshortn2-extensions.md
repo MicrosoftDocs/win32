@@ -2,8 +2,6 @@
 Description: XMSHORTN2 describes a 2D vector for storing signed, normalized values as signed 16-bit integers, (type int16\_t).
 ms.assetid: 78e718b4-8107-47e1-a7ed-529b3c7aa935
 title: XMSHORTN2 Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

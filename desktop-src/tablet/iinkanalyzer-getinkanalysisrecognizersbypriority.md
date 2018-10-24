@@ -2,8 +2,6 @@
 Description: Retrieves an ordered collection of IInkAnalysisRecognizer objects.
 ms.assetid: 67399237-38e2-4905-a97c-10ca72c7799b
 title: IInkAnalyzer::GetInkAnalysisRecognizersByPriority method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

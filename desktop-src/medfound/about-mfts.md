@@ -2,8 +2,6 @@
 Description: About MFTs
 ms.assetid: ca9cef70-b897-4fd5-9a13-8bf1c2b84b00
 title: About MFTs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

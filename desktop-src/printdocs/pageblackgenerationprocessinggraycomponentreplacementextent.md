@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: ba62f902-9bc9-4492-ab53-4a4ddbc23530
 title: PageBlackGenerationProcessingGrayComponentReplacementExtent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

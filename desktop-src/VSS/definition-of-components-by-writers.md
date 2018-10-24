@@ -2,8 +2,6 @@
 Description: Components are defined by and instantiated by writers in their Writer Metadata Document in response to an Identify event at the start of a backup operation (see Overview of Backup Initialization) when the Writer Metadata Document is populated.
 ms.assetid: 5e1c3f9b-ca83-4e70-963b-0a237c6f4b0d
 title: Definition of Components by Writers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

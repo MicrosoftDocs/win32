@@ -2,8 +2,6 @@
 Description: Returns the determinant of a matrix.
 ms.assetid: 711ba616-4c90-41d1-b9d5-0893b3e47284
 title: D3DXMatrixDeterminant function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

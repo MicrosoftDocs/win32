@@ -2,8 +2,6 @@
 Description: XMDECN4 describes a 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z- components and a 2 bit signed w-component.
 ms.assetid: 7144ae8f-8c9d-41e6-8f75-6d388c3f297c
 title: XMDECN4 Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

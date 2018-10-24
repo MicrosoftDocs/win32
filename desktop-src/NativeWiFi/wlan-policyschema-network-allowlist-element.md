@@ -2,8 +2,6 @@
 Description: Defines an allowed network.
 ms.assetid: 6dd90924-ded4-427d-a6cd-7742acf89c21
 title: network (allowList) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

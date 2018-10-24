@@ -4,8 +4,6 @@ description: The following syntax shows an example registry layout for the route
 ms.assetid: 5464c2f7-6bb8-4838-939d-d58508715505
 keywords:
 - Routing and Remote Access Service RRAS , Routing and Remote Access Registry Layout
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

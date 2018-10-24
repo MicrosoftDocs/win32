@@ -2,8 +2,6 @@
 title: Specializing Interfaces (Direct3D 11)
 description: ID3DX11EffectVariable has a number of methods for casting the interface into the particular type of interface you need.
 ms.assetid: 20892af0-7d4a-4a89-b8d7-4ef225400697
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

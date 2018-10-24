@@ -2,8 +2,6 @@
 Description: The m\_bInit member variable indicates whether the CImageSample object has been initialized. If so, the value if TRUE. Otherwise, it is FALSE.
 ms.assetid: bd508622-356e-46fe-98aa-c001c7742383
 title: CImageSample::m_bInit member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

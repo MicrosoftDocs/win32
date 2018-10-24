@@ -19,8 +19,6 @@ keywords:
 - control types,control patterns for TitleBar control type
 - control types,support for TitleBar
 - control types,TitleBar
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

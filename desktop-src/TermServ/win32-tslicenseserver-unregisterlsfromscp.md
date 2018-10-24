@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3EE6F272-A99F-49EF-BDED-D8C2C641D45B
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - UnRegisterLSFromSCP method Remote Desktop Services

@@ -2,8 +2,6 @@
 Description: Current longitude, in degrees.
 ms.assetid: f4fa1cbb-d682-42ab-9dd8-dff636ea4c8a
 title: LocationDisp.DispLatLongReport.Longitude property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

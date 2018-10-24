@@ -2,8 +2,6 @@
 title: Updating Routes In Place Using RtmUpdateAndUnlockRoute
 description: Updating in place is generally more efficient than updating the routing table with an indirect method such as that used by the RtmAddRouteToDest function.
 ms.assetid: d4b0b14e-957a-43d5-bacc-8eee4512e2ab
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

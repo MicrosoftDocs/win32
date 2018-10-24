@@ -2,8 +2,6 @@
 Description: Retrieves the number of principal component analysis (PCA) basis vectors to use in each cluster.
 ms.assetid: c8d53880-990c-4c0d-bb4c-354cf808886c
 title: ID3DXPRTCompBuffer::GetNumPCA method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The StillOff method resumes playback, canceling still mode.
 ms.assetid: 62091aad-8a78-4543-a844-a4227aed81df
 title: StillOff Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

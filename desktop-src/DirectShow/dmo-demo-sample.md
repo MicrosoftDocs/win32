@@ -2,8 +2,6 @@
 Description: DMO Demo Sample
 ms.assetid: b19f0ca0-65ca-4a3b-97e3-dbd1aafe77d9
 title: DMO Demo Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

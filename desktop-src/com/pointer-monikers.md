@@ -2,8 +2,6 @@
 title: Pointer Monikers
 description: A pointer moniker identifies an object that can exist only in the active or running state. This differs from other classes of monikers, which identify objects that can exist in either the passive or the active state.
 ms.assetid: 9895f03d-7110-41c1-a934-87010f9ad380
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

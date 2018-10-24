@@ -2,8 +2,6 @@
 title: Tooltip
 description: This section contains information about the programming elements used with tooltip controls.
 ms.assetid: 'vs|controls|~\controls\tooltip\reflist.htm'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

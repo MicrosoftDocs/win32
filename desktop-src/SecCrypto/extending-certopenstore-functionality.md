@@ -2,8 +2,6 @@
 Description: The certificate store is central to all certificate management operations.
 ms.assetid: e5c7c882-cbfc-4343-952c-b13c67326756
 title: Extending CertOpenStore Functionality
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

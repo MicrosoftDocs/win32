@@ -6,8 +6,6 @@ keywords:
 - MIDL and RPC MIDL , interfaces, client stub
 - interfaces MIDL
 - interfaces MIDL , MIDL and RPC
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Ensuring that UI Elements are Correctly Named
 description: This topic describes the correct way to specify the names of the UI elements in your Microsoft Win32 applications so that Microsoft Active Accessibility can accurately expose the names to client applications through the IAccessible \ 32;Name property.
 ms.assetid: 5b8f23cb-9906-4cc4-83d4-73fdf96ed681
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

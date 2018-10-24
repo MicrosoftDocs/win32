@@ -2,8 +2,6 @@
 Description: Video Encoding with Temporal Compression
 ms.assetid: df363017-97c5-45b0-b8a5-44ac73b7a0e7
 title: Video Encoding with Temporal Compression
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

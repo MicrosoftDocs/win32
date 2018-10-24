@@ -2,8 +2,6 @@
 Description: This section lists the media types used for MPEG-1 data.
 ms.assetid: 4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8
 title: MPEG-1 Media Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

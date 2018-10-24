@@ -2,8 +2,6 @@
 Description: Provides (x, y) information for the starting and ending points of the baseline of a paragraph in the Journal document. The coordinate space used for these values is HIMETRIC.
 ms.assetid: ff6a97ad-0e48-4128-8f94-24802b6ddc05
 title: Baseline Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

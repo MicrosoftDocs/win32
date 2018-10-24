@@ -2,8 +2,6 @@
 Description: Contains methods that manage monitor brightness.
 ms.assetid: e7e4139e-b985-4163-9c95-03008a2cc8cb
 title: WmiMonitorBrightnessMethods class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

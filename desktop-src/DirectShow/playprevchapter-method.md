@@ -2,8 +2,6 @@
 Description: The PlayPrevChapter method starts playback from the previous chapter in the current title.
 ms.assetid: 2f27831e-92d3-4ae5-ba29-0b06cdedaa79
 title: PlayPrevChapter Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 90ec82c5-08c4-44e3-90d8-a0a7a6d5f7b8
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - Text-Encoded-OR-Address attribute AD Schema

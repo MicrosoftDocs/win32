@@ -2,8 +2,6 @@
 Description: Example code that shows how to use the CreateFile function to create a new file or open an existing file.
 ms.assetid: 04e089a7-c559-4a35-a38b-e1acdf3438d1
 title: Opening a File for Reading or Writing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

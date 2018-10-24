@@ -4,8 +4,6 @@ description: Pixel Formats
 ms.assetid: '2e179340-c487-4b72-a22e-078b800af11d'
 keywords:
 - OpenGL on Windows,pixels
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

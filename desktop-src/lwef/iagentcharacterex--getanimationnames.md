@@ -2,8 +2,6 @@
 title: IAgentCharacterEx GetAnimationNames
 description: IAgentCharacterEx GetAnimationNames
 ms.assetid: d565b258-dc12-422b-a13d-aeec56057f64
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

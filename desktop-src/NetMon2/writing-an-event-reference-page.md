@@ -2,8 +2,6 @@
 Description: Use event reference pages (ERPs) to describe how to solve a problem that is detected by the expert. Because ERPs consist of HTML text, you can use any HTML editor or text editor to create one.
 ms.assetid: cd969fa1-6d2f-4101-b8e6-c5c4e2c75b7d
 title: Writing an Event Reference Page
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

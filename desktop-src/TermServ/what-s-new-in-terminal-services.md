@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 10c5d9e3-d2b5-4372-95ba-ab5edcacdade
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , what's new

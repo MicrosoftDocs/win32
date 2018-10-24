@@ -6,8 +6,6 @@ keywords:
 - video compression manager (VCM),image-data decompression
 - VCM (video compression manager),image-data decompression
 - ICDecompressEx functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

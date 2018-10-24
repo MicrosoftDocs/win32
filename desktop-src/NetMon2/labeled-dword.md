@@ -2,8 +2,6 @@
 Description: The LABELED\_DWORD structure defines a label that is displayed when a specific DWORD property value is detected.
 ms.assetid: 1aed3226-6d69-41b0-860b-4ffb5b905f1a
 title: LABELED_DWORD structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

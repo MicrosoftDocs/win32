@@ -2,8 +2,6 @@
 Description: The ModuleSubstitution table specifies the configurable fields of a module database and provides a template for the configuration of each field.
 ms.assetid: 8e94c31f-b3a7-4f3a-aec4-32b0e1dd5400
 title: ModuleSubstitution Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Writes a QWORD value to the specified database.
 ms.assetid: 8ce566ea-a941-45fa-b031-26c3144ca02c
 title: SdbWriteQWORDTag function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The IsPhysicalClearDisabled method of the Win32\_Tpm class indicates whether only the device owner may be able to clear the device.
 ms.assetid: b87f1c4f-8735-45c5-9256-53dbb9579f95
 title: IsPhysicalClearDisabled method of the Win32_Tpm class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

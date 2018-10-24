@@ -2,8 +2,6 @@
 title: Reading from One Stream and Writing to Another
 description: Reading from One Stream and Writing to Another
 ms.assetid: 035a8862-9a0f-49d2-a060-5131ff2b7887
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

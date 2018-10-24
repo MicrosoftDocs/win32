@@ -2,8 +2,6 @@
 Description: Last name of the contact.
 ms.assetid: a111c084-7736-4003-b326-72182ae57f76
 title: System.Contact.LastName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

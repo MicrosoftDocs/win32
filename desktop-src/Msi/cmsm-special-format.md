@@ -2,8 +2,6 @@
 Description: Certain values used with configurable merge modules require special text handling.
 ms.assetid: b9d41400-f3b5-4f85-8728-56f9b90a50ca
 title: CMSM Special Format
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

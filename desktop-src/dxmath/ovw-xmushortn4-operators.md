@@ -2,8 +2,6 @@
 Description: The XMUSHORTN4 structure exposes the following operators.
 ms.assetid: ed6ebfb8-d988-4fdf-917d-08e29214c117
 title: XMUSHORTN4 Operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

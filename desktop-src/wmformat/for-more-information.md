@@ -9,8 +9,6 @@ keywords:
 - Windows Media Format SDK,resources
 - digital rights management (DRM),resources
 - DRM (digital rights management),resources
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

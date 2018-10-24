@@ -2,8 +2,6 @@
 Description: Creates a key from a string.
 ms.assetid: 107138b9-96f0-4144-a4bc-7115b6deab60
 title: SdbMakeIndexKeyFromString function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

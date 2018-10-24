@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 5a07ec21-dc7c-46d5-b1c2-de06f53fe6bf
 title: Objects and Names Defined in the Print Schema Keywords
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

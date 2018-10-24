@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 18f6cc70-9df1-4d43-a2e0-af03e2f9e2c5
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Automation Interfaces
 ms.author: windowssdkdev

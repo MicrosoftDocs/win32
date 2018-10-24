@@ -2,8 +2,6 @@
 Description: Creates an enumerator object and passes back a pointer to its IEnumWiaItem2 interface for folders with items in the IWiaItem2 tree of a Windows Image Acquisition (WIA) 2.0 device.
 ms.assetid: 0862bb6f-0464-491a-8cad-60b92d9609f1
 title: IWiaItem2::EnumChildItems method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

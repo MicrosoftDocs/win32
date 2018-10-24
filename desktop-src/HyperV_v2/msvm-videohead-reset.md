@@ -2,8 +2,6 @@
 Description: Requests a reset.
 ms.assetid: 257199d1-639c-4b8a-8dbb-d1c2073eaca0
 title: Reset method of the Msvm_VideoHead class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 0b6e0dba-e23b-4c8d-8021-93d802501359
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - UpdateDirectConnectLicenseServer method Remote Desktop Services

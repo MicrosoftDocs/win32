@@ -2,8 +2,6 @@
 Description: This topic provides information about security considerations related to GDI. This topic does not provide all you need to know about security issues. Instead, use it as a starting point and reference for this technology area.
 ms.assetid: 374e3ac7-f635-47f1-a72a-14e1be85c795
 title: 'Security Considerations: GDI'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

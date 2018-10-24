@@ -2,8 +2,6 @@
 Description: The Signer object exposes the following properties.
 ms.assetid: 6CAC3769-E295-41ED-86D6-9C2BE54581DC
 title: Signer Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: HTTP Server API Overview
 description: This topic identifies a typical sequence of operations that use the HTTP Server API.
 ms.assetid: 1245fd98-8370-4f1b-8c86-de9be5e678bd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

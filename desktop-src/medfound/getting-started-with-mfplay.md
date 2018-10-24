@@ -2,8 +2,6 @@
 Description: MFPlay is an API for creating media playback applications in C++.
 ms.assetid: 55612f49-5995-4bdf-aa12-8a853e5a2b24
 title: Getting Started with MFPlay
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

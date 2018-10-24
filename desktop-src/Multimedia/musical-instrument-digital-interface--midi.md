@@ -9,8 +9,6 @@ keywords:
 - audio,Musical Instrument Digital Interface (MIDI)
 - Musical Instrument Digital Interface (MIDI),about
 - MIDI (Musical Instrument Digital Interface),about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

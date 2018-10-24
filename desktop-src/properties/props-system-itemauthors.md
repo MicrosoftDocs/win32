@@ -2,8 +2,6 @@
 Description: Generic list of authors associated with an item. For example, the artist name for a music track is the item author.
 ms.assetid: 62645718-5bb8-4692-9e7a-7b448ace61fa
 title: System.ItemAuthors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Base Multimedia Streaming Interfaces
 ms.assetid: a94dbb64-dfca-4c24-8c11-761835faf8a8
 title: Base Multimedia Streaming Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: CE8AEA5F-B15A-4262-81BA-BA49E2BC9002
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemBackupRestore Methods
 ms.author: windowssdkdev

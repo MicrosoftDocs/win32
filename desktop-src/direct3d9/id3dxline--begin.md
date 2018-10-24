@@ -2,8 +2,6 @@
 Description: Prepares a device for drawing lines.
 ms.assetid: c597703d-6466-4b55-b1a6-a4e7c667e50c
 title: ID3DXLine::Begin method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: For each application that uses an authorization policy store, you must create an IAzApplication object and then save it to a policy store.
 ms.assetid: 5df964de-e5b6-427e-b859-efb5866f1578
 title: Creating an Application Object in Script
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

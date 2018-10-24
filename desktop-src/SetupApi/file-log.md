@@ -2,8 +2,6 @@
 Description: The file log is resident on the users system and stores information about the files copied during an installation.
 ms.assetid: '4d9fa6fd-e163-4fb2-9ff0-84a012398db7'
 title: File Log
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

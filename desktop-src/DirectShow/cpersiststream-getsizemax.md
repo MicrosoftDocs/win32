@@ -2,8 +2,6 @@
 Description: Retrieves the maximum byte size needed for the current stream, including the version number.
 ms.assetid: 55ea4568-5ca4-4139-8def-bef20071835d
 title: CPersistStream.GetSizeMax method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

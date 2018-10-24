@@ -2,8 +2,6 @@
 Description: All data from a particular stream has been rendered.
 ms.assetid: 46037d53-085d-4fd0-91a0-408702cbfce5
 title: EC_COMPLETE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Returns a Boolean value that indicates whether the private key is stored in a hardware device.
 ms.assetid: 9a06f598-55cd-441b-a85f-8bec299f8245
 title: PrivateKey.IsHardwareDevice method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Contains the Application object of the folder items collection.
 ms.assetid: 2cd4243e-a5a6-4de4-b310-f74558ac0fbe
 title: FolderItems.Application property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

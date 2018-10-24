@@ -2,8 +2,6 @@
 Description: Contains the zero-based index of a media stream for an MFPlay event.
 ms.assetid: 086fcb1e-f75a-4f38-9fe1-77d30f64bc89
 title: MFP_PKEY_StreamIndex property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

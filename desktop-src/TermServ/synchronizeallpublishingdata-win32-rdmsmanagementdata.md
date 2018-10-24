@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 3a2135c3-26d6-4b6e-9680-f2d07f33ec05
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - SynchronizeAllPublishingData method Remote Desktop Services

@@ -2,8 +2,6 @@
 Description: Developers who write for Windows can use the Credentials Management API including Credentials Management User Interface (UI) functions to obtain and manage credential information such as user names and passwords.
 ms.assetid: 0c44a360-d9c3-448c-a0d5-e33f3c27c58c
 title: Credentials Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

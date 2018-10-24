@@ -2,8 +2,6 @@
 Description: This section of the Peer Infrastructure documentation describes the Peer Name Resolution Protocol (PNRP) Namespace Provider API.
 ms.assetid: 6bf2cb09-c03a-4f6b-ba6c-670cf7219cc8
 title: PNRP Namespace Provider API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

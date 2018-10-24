@@ -2,8 +2,6 @@
 Description: Sets an integer.
 ms.assetid: 1090d4a6-b4f5-4e15-a49f-e2724f1c3f95
 title: ID3DXBaseEffect::SetInt method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

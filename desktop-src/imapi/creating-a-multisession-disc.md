@@ -2,8 +2,6 @@
 title: Creating a Multisession Disc
 ms.assetid: 327304c4-fdb9-47c6-9b19-49100b933590
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Effect states are name value pairs in the form of an expression.
 ms.assetid: 4612c6bd-bc1f-42ad-8465-c0d4b577d1db
 title: Effect State Groups (Direct3D 10)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

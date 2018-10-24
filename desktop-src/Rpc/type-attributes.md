@@ -2,8 +2,6 @@
 title: Type Attributes
 description: Remote Procedure Call (RPC) and the MIDL type attributes that can be applied to type declarations.
 ms.assetid: cd7fd582-6162-4154-9dff-6c86c344b9ae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

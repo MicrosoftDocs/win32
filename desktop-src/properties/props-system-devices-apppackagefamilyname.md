@@ -2,8 +2,6 @@
 Description: The package family name registered as the app for this device.
 ms.assetid: 7fac1acb-2e9d-4d74-b5ed-7ea98e209637
 title: System.Devices.AppPackageFamilyName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

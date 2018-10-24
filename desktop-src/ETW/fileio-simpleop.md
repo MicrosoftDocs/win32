@@ -2,8 +2,6 @@
 Description: This class is the event type class for simple file operation events. The following syntax is simplified from MOF code.
 ms.assetid: 5b6374e0-b39a-4d5a-acbd-25b410f1ba52
 title: FileIo_SimpleOp class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

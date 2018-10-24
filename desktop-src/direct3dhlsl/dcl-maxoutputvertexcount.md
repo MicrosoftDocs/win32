@@ -2,8 +2,6 @@
 title: dcl_maxOutputVertexCount (sm4 - asm)
 description: dcl\_maxOutputVertexCount (sm4 - asm)
 ms.assetid: 91eb2dfc-f4ff-4f23-9cb4-ec5fdb676157
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

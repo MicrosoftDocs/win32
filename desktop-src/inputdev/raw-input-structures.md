@@ -2,8 +2,6 @@
 title: Raw Input Structures
 description: .
 ms.assetid: e6ea3fde-98a0-4eab-888d-647a6b0eb1e2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

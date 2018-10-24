@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.GPS.DestDistanceRef property.
 ms.assetid: eb671f34-7366-4182-b72e-0dd7830751e0
 title: System.GPS.DestDistanceRef Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Messages are defined in a message text file. The message compiler assigns numbers to each message, and generates a C/C++ include file which the application can use to access a message using a symbolic constant.
 ms.assetid: 99fbb3d6-6fde-4162-b0b9-99a1cdf0b8f8
 title: Message Text Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

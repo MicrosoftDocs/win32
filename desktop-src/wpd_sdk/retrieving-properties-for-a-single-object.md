@@ -2,8 +2,6 @@
 Description: Retrieving Properties for a Single Object
 ms.assetid: e4e3b286-6330-4147-a367-57accf5beae6
 title: Retrieving Properties for a Single Object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The advanced security property sheet enables the user to perform editing operations that are not available on the basic security property page of an access control editor.
 ms.assetid: 99911751-d4ac-4325-89f5-23d237bfd428
 title: Advanced Security Property Sheet
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

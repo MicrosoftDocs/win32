@@ -2,8 +2,6 @@
 Description: Using an Editing Decision List for Encoding Voice
 ms.assetid: a3d88483-acc9-47cf-8735-f17bd3b4ad57
 title: Using an Editing Decision List for Encoding Voice
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

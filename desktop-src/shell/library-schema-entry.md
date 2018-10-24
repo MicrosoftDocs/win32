@@ -2,8 +2,6 @@
 Description: Library description files are XML files that define libraries.
 ms.assetid: 12F6E6AE-2776-408c-B9AC-E885BE93C27F
 title: Library Description Schema
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

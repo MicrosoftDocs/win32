@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7d386858-efd1-42e6-9176-9cb4bcfc77d0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemQualifierSet.Remove method
 ms.author: windowssdkdev

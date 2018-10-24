@@ -2,8 +2,6 @@
 Description: A few types defined by TSPI are opaque handles.
 ms.assetid: e52ed691-0479-48da-9e06-c6a0d7a20e10
 title: Opaque Handles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Building the Filter Graph
 ms.assetid: 7e8ad125-4f1c-46dc-8de2-7de499edab24
 title: Building the Filter Graph
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

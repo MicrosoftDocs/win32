@@ -2,8 +2,6 @@
 Description: Overview of the Managed Library and notes on using the Tablet PC platform Managed Library.
 ms.assetid: d283ea1c-faf3-4222-a9a7-c67087636b86
 title: Using the Managed Library
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

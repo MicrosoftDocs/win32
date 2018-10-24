@@ -2,8 +2,6 @@
 Description: This section lists the methods for the System Event Notification Service (SENS.).
 ms.assetid: 6a2f1261-dc8d-4bcb-af8a-59ac1a20266c
 title: SENS Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: If you provide counters on a 64-bit computer, you must install both the 32-bit and 64-bit version of your provider on the computer if you want to support both 32-bit and 64-bit consumers.
 ms.assetid: 2dba2c46-0185-4ce6-a7cc-27cdd9b19b70
 title: 64-bit Support
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

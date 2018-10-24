@@ -8,8 +8,6 @@ keywords:
 - interoperability
 - Graphics Device Interface (GDI)
 - GDI (Graphics Device Interface)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

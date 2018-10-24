@@ -2,8 +2,6 @@
 Description: Processing Data in a DMO
 ms.assetid: 715482d9-23f4-40d0-9c09-7a81e148c543
 title: Processing Data in a DMO
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

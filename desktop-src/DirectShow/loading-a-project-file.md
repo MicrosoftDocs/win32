@@ -2,8 +2,6 @@
 Description: Loading a Project File
 ms.assetid: f8d142bd-e51d-4714-893b-8e3d02506891
 title: Loading a Project File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

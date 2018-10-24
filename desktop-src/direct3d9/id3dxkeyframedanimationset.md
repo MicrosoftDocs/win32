@@ -2,8 +2,6 @@
 Description: An application uses the methods of this interface to implement a key frame animation set.
 ms.assetid: eeb7acd8-1017-4aca-9813-188fc6703837
 title: ID3DXKeyframedAnimationSet interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

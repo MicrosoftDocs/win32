@@ -7,8 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),protocol rollover
 - ASF (Advanced Systems Format),protocol rollover
 - protocol rollover
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

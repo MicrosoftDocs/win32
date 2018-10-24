@@ -2,8 +2,6 @@
 Description: An application sends the WM\_MDINEXT message to a multiple-document interface (MDI) client window to activate the next or previous child window.
 ms.assetid: a4822b99-330a-4094-bad9-b9a5923e02a8
 title: WM_MDINEXT message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

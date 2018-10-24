@@ -2,8 +2,6 @@
 Description: National Language Support
 ms.assetid: '7a548074-0782-45e1-8051-80c3b9d81885'
 title: National Language Support
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

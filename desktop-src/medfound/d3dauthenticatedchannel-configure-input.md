@@ -2,8 +2,6 @@
 Description: Contains input data for the IDirect3DAuthenticatedChannel9::Configure method.
 ms.assetid: 7646100e-f768-4935-9e71-1d9db0d69c52
 title: D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

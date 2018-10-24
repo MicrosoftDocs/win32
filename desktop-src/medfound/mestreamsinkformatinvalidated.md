@@ -2,8 +2,6 @@
 Description: Sent by a stream sink when the downstream format has become invalidated and it needs to be renegotiated.
 ms.assetid: 732B3BDD-F394-430F-B895-AF18ED61114D
 title: MEStreamSinkFormatInvalidated event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

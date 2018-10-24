@@ -2,8 +2,6 @@
 Description: Enables the use of an asynchronous Media Foundation transform (MFT).
 ms.assetid: e12ab57e-ebc2-46af-afdf-d78d4db16fcf
 title: MF_TRANSFORM_ASYNC_UNLOCK attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -6,8 +6,6 @@ keywords:
 - MIDL language reference MIDL , mixed mode serialization of context handles
 - context handles MIDL
 - mixed mode serialization MIDL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

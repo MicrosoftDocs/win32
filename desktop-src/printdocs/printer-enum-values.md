@@ -2,8 +2,6 @@
 Description: The PRINTER\_ENUM\_VALUES structure specifies the value name, type, and data for a printer configuration value returned by the EnumPrinterDataEx function.
 ms.assetid: 87eb1452-0d9d-46bd-8af8-0542a11a929b
 title: PRINTER_ENUM_VALUES structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

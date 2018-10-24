@@ -15,8 +15,6 @@ keywords:
 - custom visualizations,RenderWindow function
 - Render function,visualization program flow
 - RenderWindow function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

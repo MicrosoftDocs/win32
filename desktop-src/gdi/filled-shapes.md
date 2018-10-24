@@ -2,8 +2,6 @@
 Description: Filled shapes are geometric forms that are outlined by using the current pen and filled by using the current brush.
 ms.assetid: '78439288-a769-4aab-aee7-7a03396ccebc'
 title: Filled Shapes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

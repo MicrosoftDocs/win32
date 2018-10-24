@@ -4,8 +4,6 @@ description: Compilers that use different defaults for signed and unsigned types
 ms.assetid: a4c2d811-6cf4-4c0b-af12-bf8247152984
 keywords:
 - data types MIDL , signed and unsigned
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

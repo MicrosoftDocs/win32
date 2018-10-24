@@ -2,8 +2,6 @@
 title: WinEvents and Active Accessibility
 description: Microsoft Active Accessibility servers raise WinEvents to notify clients when an accessible object changes.
 ms.assetid: 'a2d486ee-84ef-4c44-a832-dbc0dae81542'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

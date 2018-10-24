@@ -2,8 +2,6 @@
 Description: There are two ways to determine the diagnostic procedure to use.
 ms.assetid: d6877063-6cf9-48dc-8208-0f3fc85b6d6b
 title: Getting Started with WSDAPI Troubleshooting
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

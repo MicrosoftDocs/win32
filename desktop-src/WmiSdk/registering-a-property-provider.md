@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e7e30acc-ea41-41e2-9bb3-cd931e8d799e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering a Property Provider
 ms.author: windowssdkdev

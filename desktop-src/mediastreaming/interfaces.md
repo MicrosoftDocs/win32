@@ -2,8 +2,6 @@
 title: Interfaces
 description: The Media Streaming API provides the following interfaces.
 ms.assetid: 1E25B452-D23C-4A1D-BC39-A5B719DF2C5D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

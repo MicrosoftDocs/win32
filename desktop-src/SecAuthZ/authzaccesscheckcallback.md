@@ -2,8 +2,6 @@
 Description: An application-defined function that handles callback access control entries (ACEs) during an access check.
 ms.assetid: e8a510e6-0739-4765-ad07-3bcb1b9c905c
 title: AuthzAccessCheckCallback callback function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

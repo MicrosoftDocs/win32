@@ -4,8 +4,6 @@ description: An opaque type used to reference a security context object.
 ms.assetid: 8d23357b-bff8-45fe-80ef-df3f3b0edde1
 keywords:
 - WS_SECURITY_CONTEXT
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

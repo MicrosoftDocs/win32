@@ -2,8 +2,6 @@
 Description: The automatic logon password should be protected by using the LsaStorePrivateData function.
 ms.assetid: 7bd4d725-de17-4801-bd06-8d47a777409d
 title: Protecting the Automatic Logon Password
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

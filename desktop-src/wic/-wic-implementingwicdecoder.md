@@ -1,8 +1,6 @@
 ---
 ms.assetid: a26a592d-42ef-4690-95b4-48a5324be75a
 title: Implementing a WIC-Enabled Decoder
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

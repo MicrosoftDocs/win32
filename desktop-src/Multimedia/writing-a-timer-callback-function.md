@@ -8,8 +8,6 @@ keywords:
 - writing timer callback functions
 - multimedia timers,writing callback functions
 - timers,writing callback functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Default Behavior of Drivers
 description: Default Behavior of Drivers
 ms.assetid: ed6905eb-67ad-421d-be00-4a5585dff7fb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

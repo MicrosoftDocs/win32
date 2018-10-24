@@ -2,8 +2,6 @@
 Description: Your application manipulates resources in order to render a scene.
 ms.assetid: 4f0eea7d-b1e4-4d53-a136-f40df7a0fbb1
 title: Manipulating Resources (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

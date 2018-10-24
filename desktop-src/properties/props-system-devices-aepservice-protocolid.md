@@ -2,8 +2,6 @@
 Description: Identity of the protocol this Device Association Endpoint Service was discovered over.
 ms.assetid: 5bf421d9-f60e-40c9-b4ee-087e18608f06
 title: System.Devices.AepService.ProtocolId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

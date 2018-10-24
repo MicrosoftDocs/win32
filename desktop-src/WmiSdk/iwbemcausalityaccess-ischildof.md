@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7be52496-7dcf-41c0-853a-859810a57d21
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess::IsChildOf method
 ms.author: windowssdkdev

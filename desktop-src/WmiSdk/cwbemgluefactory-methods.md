@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 537F9287-D167-4BDA-B1D7-5C803DDB1E4C
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CWbemGlueFactory Methods
 ms.author: windowssdkdev

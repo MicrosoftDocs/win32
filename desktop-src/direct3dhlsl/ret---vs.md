@@ -2,8 +2,6 @@
 title: ret - vs
 description: Return from a subroutine or a main function.
 ms.assetid: ee3a6a7a-c068-442f-9f86-c637b5707224
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

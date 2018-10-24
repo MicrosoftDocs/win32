@@ -2,8 +2,6 @@
 Description: Creates an additional enumerator that contains the same enumeration state as the current one.
 ms.assetid: b4027520-62cc-40d4-b9fd-01fa9c652a54
 title: IEnumPStoreTypes::Clone method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

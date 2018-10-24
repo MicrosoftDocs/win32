@@ -2,8 +2,6 @@
 Description: Describes how to read an existing XPS document from a file into an XPS OM.
 ms.assetid: 92a8d19f-1c9e-4e02-a3d4-f2869ec871df
 title: Read an XPS Document into an XPS OM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This table maps members of a D3DVERTEXELEMENT9 declaration to a Direct3D 8 declaration.
 ms.assetid: da02b2cd-5221-4d37-97d5-840df91e39a6
 title: Mapping between a Direct3D 9 Declaration and a Direct3D 8 Declaration (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

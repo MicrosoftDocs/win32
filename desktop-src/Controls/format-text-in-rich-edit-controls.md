@@ -2,8 +2,6 @@
 title: How to Format Text in Rich Edit Controls
 description: An application can send messages to a rich edit control in order to format characters and paragraphs and retrieve formatting information.
 ms.assetid: 19A4F0D1-88C5-407D-A70F-CB486DAD352E
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A blending stage is a set of texture operations and their arguments that define how textures are blended.
 ms.assetid: 7f9e3041-a270-44a9-a8e1-bca5ea25a71e
 title: Creating Blending Stages (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies whether the pipeline applies mark-out at this node. Mark-out is the point where a presentation ends. If pipeline components generate data past the mark-out point, the data is not rendered.
 ms.assetid: adf2361a-90c7-4650-a486-5c450a41ab54
 title: MF_TOPONODE_MARKOUT_HERE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

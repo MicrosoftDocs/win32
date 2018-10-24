@@ -2,8 +2,6 @@
 Description: The CSourceSeeking class is an abstract class for implementing seeking in source filters with one output pin.
 ms.assetid: 46e711e1-78d4-4e83-9df1-06032edeba6a
 title: CSourceSeeking class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

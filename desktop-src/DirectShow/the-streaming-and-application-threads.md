@@ -2,8 +2,6 @@
 Description: The Streaming and Application Threads
 ms.assetid: 954f7abd-fe06-430a-b6f7-d60852826bc9
 title: The Streaming and Application Threads
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

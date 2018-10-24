@@ -5,8 +5,6 @@ ms.assetid: 2c2d7501-85e0-44ec-aa42-01372b29266e
 keywords:
 - Versioning in HTTP Server Version 2.0 API
 - HTTP Server Version 2.0 API, versioning
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

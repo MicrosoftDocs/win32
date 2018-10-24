@@ -2,8 +2,6 @@
 Description: The following sections describe using the built-in installer properties and additional properties defined by the package author.
 ms.assetid: 5a2f1cd4-2bbd-414a-a814-8b9fdab434b4
 title: Using Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

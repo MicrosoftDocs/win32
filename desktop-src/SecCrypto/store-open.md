@@ -2,8 +2,6 @@
 Description: Opens a specified certificate store.
 ms.assetid: d6f398b4-dba6-4d84-b5eb-3c7737d17a6e
 title: Store.Open method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

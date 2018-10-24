@@ -2,8 +2,6 @@
 Description: Your application incorporates optimal design and usage of the tablet pen by sending both Microsoft Windows mouse messages and system events.
 ms.assetid: ccd45b68-f037-43da-a7d0-1df9439afd11
 title: System Events and Mouse Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Generates a set of World Wide Port Names (WWPNs).
 ms.assetid: 36f393eb-6f34-4ae3-a976-c5da60211f3e
 title: GenerateWwpn method of the Msvm_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

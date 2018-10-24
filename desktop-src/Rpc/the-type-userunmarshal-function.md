@@ -4,8 +4,6 @@ description: The type \_UserUnmarshal function is a helper function for the \ wi
 ms.assetid: ee7a0e96-11ec-4d15-9d4b-55cc175fdd55
 keywords:
 - type_UserMarshal
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

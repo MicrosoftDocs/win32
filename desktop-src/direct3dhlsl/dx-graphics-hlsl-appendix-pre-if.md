@@ -10,8 +10,6 @@ api_name:
 - if, elif, else, and endif Directives
 api_type:
 - NA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: In an installation package, the Last Printed Summary property can be set to the date and time during an administrative installation to record when the administrative image was created.
 ms.assetid: decbc92a-af56-4a3f-9e2f-c66f6cdd8880
 title: Last Printed Summary property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

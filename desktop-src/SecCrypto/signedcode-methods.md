@@ -2,8 +2,6 @@
 Description: The SignedCode object exposes the following methods.
 ms.assetid: FC721B46-0128-4D52-9351-6E69BA64A8CF
 title: SignedCode Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

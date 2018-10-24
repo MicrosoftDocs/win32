@@ -2,8 +2,6 @@
 Description: Represents an association in which protocol endpoints depend on a forwarding service to forward data.
 ms.assetid: b63dbd2c-2842-498a-a352-b7ab7f7c841a
 title: CIM_ForwardsAmong class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Version Property
 description: Version Property
 ms.assetid: 11e95abb-a4a2-483c-870e-475705209e90
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

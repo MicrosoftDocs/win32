@@ -2,8 +2,6 @@
 Description: Lists the interfaces provided by CryptoAPI.
 ms.assetid: f94f0264-78b8-4a28-9d3a-dda55db29897
 title: Cryptography Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

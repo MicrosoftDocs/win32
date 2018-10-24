@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 49bdfdfa-c77e-4a57-8079-bf4ff6b5010b
 title: Microsoft Message Queuing (MSMQ) - Improved Queue Handling
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

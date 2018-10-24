@@ -2,8 +2,6 @@
 Description: Beginning with Windows Installer version 3.0, patch authors can use the product baseline cached by the installer to more easily service applications with smaller delta patches.
 ms.assetid: ab5b193d-79ce-4ed4-af53-89a4197197c1
 title: Reducing Patch Size
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

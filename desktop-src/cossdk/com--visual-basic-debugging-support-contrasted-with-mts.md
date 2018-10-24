@@ -2,8 +2,6 @@
 Description: COM+ Visual Basic Debugging Support Contrasted with MTS
 ms.assetid: aa012f88-1f88-4c7f-b774-82b9e29da5e9
 title: COM+ Visual Basic Debugging Support Contrasted with MTS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -6,8 +6,6 @@ keywords:
 - Windows Media metafiles,reference element
 - metafiles,reference element
 - reference element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

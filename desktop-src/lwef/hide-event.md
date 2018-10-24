@@ -2,8 +2,6 @@
 title: Hide Event
 description: Hide Event
 ms.assetid: 'vs|msagent|~\pacontrol_9yuk.htm'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Demux Clock Behavior
 ms.assetid: c8a067f7-4e4c-4f25-b26c-f6bb048060b0
 title: Demux Clock Behavior
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

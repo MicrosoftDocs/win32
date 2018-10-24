@@ -2,8 +2,6 @@
 Description: Defines a list that contains up to five counter attributes.
 ms.assetid: d710c3d2-2886-4f1a-bd27-f11451d2f3c6
 title: counterAttributes Complex Type
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

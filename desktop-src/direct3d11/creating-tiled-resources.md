@@ -2,8 +2,6 @@
 title: Creating tiled resources
 description: Tiled resources are created by specifying the D3D11\_RESOURCE\_MISC\_TILED flag when you create a resource.
 ms.assetid: DED2B70C-1E95-4A85-A818-FD32165FBF6C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

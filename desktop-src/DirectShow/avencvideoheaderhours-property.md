@@ -2,8 +2,6 @@
 Description: Specifies the starting hour number in the group of pictures (GOP) header.
 ms.assetid: 94830520-910a-4254-933c-6d95a3f0b6a4
 title: AVEncVideoHeaderHours property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

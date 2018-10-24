@@ -2,8 +2,6 @@
 Description: Moves stroke data from this IContextNode to the specified IContextNode.
 ms.assetid: 583f2de9-d32e-4177-83d1-4abbd0f9f960
 title: IContextNode::ReparentStrokeByIdToNode method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

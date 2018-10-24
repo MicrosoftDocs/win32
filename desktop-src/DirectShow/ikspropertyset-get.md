@@ -2,8 +2,6 @@
 Description: The Get method retrieves a property identified by a property set GUID and a property ID.
 ms.assetid: f39862db-0659-4533-8cee-aee2f778e085
 title: IKsPropertySet::Get method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

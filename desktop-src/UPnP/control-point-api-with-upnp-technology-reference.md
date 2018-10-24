@@ -2,8 +2,6 @@
 title: Control Point API Reference
 description: The following interfaces are part of the Control Point API with UPnP technology. The Control Point API supports Microsoft Visual Basic Scripting Edition (VBScript), Microsoft Visual Basic, and C++.
 ms.assetid: 6f73bf8c-0423-430f-a654-58d076712aae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

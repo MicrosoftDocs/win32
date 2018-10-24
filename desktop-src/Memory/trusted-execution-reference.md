@@ -2,8 +2,6 @@
 Description: 'The following elements are used when working with enclaves that are used to create trusted execution environments:'
 ms.assetid: 7AD4D05D-922F-4611-9709-CDB9872B433E
 title: Trusted Execution Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

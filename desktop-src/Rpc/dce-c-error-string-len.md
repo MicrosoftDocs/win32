@@ -4,8 +4,6 @@ description: The constant DCE\_C\_ERROR\_STRING\_LEN defines the maximum number 
 ms.assetid: 9ba0b7cd-cd99-4efc-8a53-bce09af90fbc
 keywords:
 - DCE_C_ERROR_STRING_LEN
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.
 ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4
 title: ControlTrace function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

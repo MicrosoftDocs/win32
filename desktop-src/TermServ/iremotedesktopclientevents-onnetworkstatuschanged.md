@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: B68D1AA0-6403-40CA-95C5-BBBF39CEFFD8
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - OnNetworkStatusChanged method Remote Desktop Services

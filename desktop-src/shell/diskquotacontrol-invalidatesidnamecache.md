@@ -2,8 +2,6 @@
 Description: Invalidates the security ID user name cache.
 ms.assetid: 52f4a051-0caf-43c1-b190-c83c20e9fcf8
 title: DiskQuotaControl.InvalidateSidNameCache method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

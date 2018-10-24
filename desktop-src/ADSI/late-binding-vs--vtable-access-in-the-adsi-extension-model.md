@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 6ecc0821-7cf0-4075-81c0-8bebaedab2a4
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - late binding vs. vtable access in the ADSI Extension Model ADSI

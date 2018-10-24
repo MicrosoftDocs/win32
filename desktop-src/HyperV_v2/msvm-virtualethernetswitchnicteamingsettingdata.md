@@ -2,8 +2,6 @@
 Description: Represents the switch nic teaming settings.
 ms.assetid: 7a48bdae-1953-4011-aaa8-1e3ca73494ff
 title: Msvm_VirtualEthernetSwitchNicTeamingSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

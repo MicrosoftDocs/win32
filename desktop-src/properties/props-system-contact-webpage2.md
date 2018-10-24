@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: d9b39661-5dcf-479f-94c7-6b1ddc00464b
 title: System.Contact.Webpage2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

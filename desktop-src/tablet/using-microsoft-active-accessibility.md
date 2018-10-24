@@ -2,8 +2,6 @@
 Description: Introduction to using Microsoft Active Accessibility for the Tablet PC.
 ms.assetid: 5266239a-4c5c-4865-9bc2-dec5251197a3
 title: Using Microsoft Active Accessibility
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

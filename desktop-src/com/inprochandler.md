@@ -4,8 +4,6 @@ description: Specifies whether an application uses a custom handler.
 ms.assetid: b371b331-148b-46f2-a21e-b88b285bcfc9
 keywords:
 - InprocHandler registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

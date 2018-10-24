@@ -4,8 +4,6 @@ description: An opaque type used to reference a listener.
 ms.assetid: 2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa
 keywords:
 - WS_LISTENER
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

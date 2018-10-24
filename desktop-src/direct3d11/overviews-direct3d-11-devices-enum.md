@@ -2,8 +2,6 @@
 title: How To Enumerate Adapters
 description: This topic shows how to use Microsoft DirectX Graphics Infrastructure (DXGI) to enumerate the available graphics adapters on a computer.
 ms.assetid: f8ef981c-363e-4ac8-8734-69c68f346950
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

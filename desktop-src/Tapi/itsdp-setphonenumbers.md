@@ -2,8 +2,6 @@
 Description: The SetPhoneNumbers method sets an array of phone numbers associated with a conference blob.
 ms.assetid: 674c08df-7e91-4f19-9d65-4bc6e7af117b
 title: ITSdp::SetPhoneNumbers method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

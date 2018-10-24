@@ -2,8 +2,6 @@
 title: Task Scheduler 1.0 Interfaces
 description: The interfaces that are described in the following topics provide programmatic access to the functionality that is available within the Task Scheduler that is used in the Windows 2000, Windows XP, and Windows Server 2003 operating systems.
 ms.assetid: 25f9c1ad-1859-4788-a876-6f4faa6e556e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

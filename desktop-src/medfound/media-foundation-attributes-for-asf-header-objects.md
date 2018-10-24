@@ -2,8 +2,6 @@
 Description: Media Foundation Attributes for ASF Header Objects
 ms.assetid: 82d2bdeb-4ccf-4713-980e-59bddc7d9b6a
 title: Media Foundation Attributes for ASF Header Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

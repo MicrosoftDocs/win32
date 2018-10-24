@@ -2,8 +2,6 @@
 title: Querying State Variables
 description: The IUPnPService interface provides the QueryStateVariable method, that returns the value of a specified state variable.
 ms.assetid: 9e8b98b0-488a-4f9c-9ad7-039dbd470486
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

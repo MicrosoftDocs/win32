@@ -2,8 +2,6 @@
 Description: The TrackGetPriority method retrieves the object's priority level.
 ms.assetid: f9a138e8-e9ad-4703-bdcc-c64aea4fbad0
 title: IAMTimelineVirtualTrack::TrackGetPriority method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

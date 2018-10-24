@@ -2,8 +2,6 @@
 Description: The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed pen gestures is detected.
 ms.assetid: 434DC272-DC1C-4091-BB38-DDCB1A635D8D
 title: Pen Visualization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

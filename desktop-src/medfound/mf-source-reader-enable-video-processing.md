@@ -2,8 +2,6 @@
 Description: Enables video processing by the Source Reader.
 ms.assetid: b1ec1c0e-8042-4486-822f-eb106577c0b1
 title: MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

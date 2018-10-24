@@ -2,8 +2,6 @@
 title: RAS User Account Administration
 description: A Windows NT 4.0 RAS server uses a user account database that contains information about a set of user accounts.
 ms.assetid: 653307f8-3b14-474a-9094-03a2d4c89092
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: On an NTFS file system volume, each file and directory has a compression attribute.
 ms.assetid: 8aca120c-22a7-4dc8-a921-dfcec1277452
 title: Compression Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

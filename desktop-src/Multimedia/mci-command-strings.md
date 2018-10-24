@@ -5,8 +5,6 @@ ms.assetid: 8677aed7-ee7d-4fc7-bc83-f42498f07902
 keywords:
 - MCI command strings,reference
 - MCI reference,command strings
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

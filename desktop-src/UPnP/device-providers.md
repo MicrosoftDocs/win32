@@ -2,8 +2,6 @@
 title: Device Providers
 description: Device providers are registered objects that the computer starts on every system startup.
 ms.assetid: 80c08993-0a8b-4ee9-93cd-bcc3c00e843b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

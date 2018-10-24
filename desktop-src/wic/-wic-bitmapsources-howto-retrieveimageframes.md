@@ -2,8 +2,6 @@
 Description: This topic demonstrates how to decode a multi-frame image and retrieve each frame for processing.
 ms.assetid: e4f69608-7bf1-4d54-b586-b749526700c9
 title: How to Retrieve the Frames from an Image
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

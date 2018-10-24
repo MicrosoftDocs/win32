@@ -2,8 +2,6 @@
 title: How to Create an Owner-Drawn Combo Box
 description: This topic demonstrates how to use an owner-drawn combo box.
 ms.assetid: D866DE82-9734-4E8A-A366-5870C25B7C7B
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

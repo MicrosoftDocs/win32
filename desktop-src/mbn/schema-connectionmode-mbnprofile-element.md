@@ -2,8 +2,6 @@
 Description: Specifies the auto connection setting to be used for a Mobile Broadband device.
 ms.assetid: 789016d5-47f1-4506-bcb9-1a4019d236fd
 title: ConnectionMode (MBNProfile) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

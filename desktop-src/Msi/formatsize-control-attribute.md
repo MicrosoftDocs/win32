@@ -2,8 +2,6 @@
 Description: If this bit is set for a static text control, the control automatically attempts to format the displayed text as a number that represents a count of bytes.
 ms.assetid: acf76fff-b7a4-456b-91b9-eb3087879d7b
 title: FormatSize Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

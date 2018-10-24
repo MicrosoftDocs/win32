@@ -2,8 +2,6 @@
 Description: Registers the Shell Dynamic Data Exchange (DDE) services in the current process, notifying the system that the current process wishes to host DDE objects.
 ms.assetid: d7f65d6a-a697-475b-a739-c7950b7f4d5d
 title: ShellDDEInit function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

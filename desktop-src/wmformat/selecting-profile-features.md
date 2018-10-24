@@ -5,8 +5,6 @@ ms.assetid: 5e09000d-1417-43aa-9e9c-0aff536d52b7
 keywords:
 - profiles,feature selection
 - profiles,selecting features
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

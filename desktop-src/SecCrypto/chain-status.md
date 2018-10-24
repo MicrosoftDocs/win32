@@ -1,8 +1,6 @@
 ---
 Description: Retrieves the validity status of the chain or a specific certificate in the chain.
 title: IChain2::Status property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

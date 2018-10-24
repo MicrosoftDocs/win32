@@ -2,8 +2,6 @@
 Description: Indicates whether the object has changed since it was last saved to its current stream.
 ms.assetid: 69840be6-062e-4505-8381-ea04e822c660
 title: CPersistStream.IsDirty method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

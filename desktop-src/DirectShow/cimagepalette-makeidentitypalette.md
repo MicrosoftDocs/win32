@@ -2,8 +2,6 @@
 Description: The MakeIdentityPalette method attempts to make an &\#0034;identity palette,&\#0034; defined as one that maps directly to the palette selected in the display device.
 ms.assetid: 08a0cf67-f43f-44c0-bfb3-6527fd434ea4
 title: CImagePalette.MakeIdentityPalette method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

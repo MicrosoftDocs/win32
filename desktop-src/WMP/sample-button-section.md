@@ -8,8 +8,6 @@ keywords:
 - reference for skins,Button section
 - buttons in skins,Button section
 - skin definition files,Button section
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

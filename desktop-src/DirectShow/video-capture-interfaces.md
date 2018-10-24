@@ -2,8 +2,6 @@
 Description: Video Capture Interfaces
 ms.assetid: a7ec6607-d6fe-4cf4-b3f2-8636c4d15982
 title: Video Capture Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

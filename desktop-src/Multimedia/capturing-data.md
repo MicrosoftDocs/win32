@@ -5,8 +5,6 @@ ms.assetid: de029673-9929-40f9-b29b-2598e1e5c988
 keywords:
 - capCaptureSequence macro
 - capFileSaveAs macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

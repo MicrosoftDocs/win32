@@ -2,8 +2,6 @@
 Description: The Receive method receives the next media sample in the stream. This method implements the IMemInputPin::Receive method.
 ms.assetid: 65e4f8f5-2aa2-435b-84b4-e65af3f51afc
 title: CTransformInputPin.Receive method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

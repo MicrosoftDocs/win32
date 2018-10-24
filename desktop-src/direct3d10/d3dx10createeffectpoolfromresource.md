@@ -2,8 +2,6 @@
 Description: Create an effect pool from a resource.
 ms.assetid: 594ab788-fd96-4ea9-ad93-ef02fefa5d61
 title: D3DX10CreateEffectPoolFromResource function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

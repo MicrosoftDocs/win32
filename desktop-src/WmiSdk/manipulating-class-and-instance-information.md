@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 682cbe12-1487-4681-8d2f-4caf21cb068a
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Manipulating Class and Instance Information
 ms.author: windowssdkdev

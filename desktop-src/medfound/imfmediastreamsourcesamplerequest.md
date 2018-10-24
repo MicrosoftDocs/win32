@@ -2,8 +2,6 @@
 Description: Represents a request for a sample from a MediaStreamSource.
 ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
 title: IMFMediaStreamSourceSampleRequest interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

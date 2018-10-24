@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 87E6B110-2CA0-45FF-BBF2-E7B3D51E95A0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemPathKeyList Methods
 ms.author: windowssdkdev

@@ -12,8 +12,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,other item attributes
 - reference for object model,other item attributes
 - attributes,other items
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

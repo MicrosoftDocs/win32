@@ -2,8 +2,6 @@
 Description: Device paired state. If true, indicates that the device is not paired with the computer.
 ms.assetid: 8c9a8921-cc8d-4763-b4a7-c4d65960419a
 title: System.Devices.Paired
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

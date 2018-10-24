@@ -2,8 +2,6 @@
 title: Function Comparison Windows 2000 vs. RRAS Redistributable
 description: The RAS API is distributed as a feature of Windows 2000 and later operating systems and is available as a redistributable for Windows NT 4.0 with Service Pack 3 (SP3) and earlier.
 ms.assetid: fd6c76b9-52e2-405e-b62e-055cfbdb5ad6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

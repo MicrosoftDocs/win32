@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 4db98754-a2d1-43a4-b9cb-0e3fcbbf3ed9
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - MS-DS-Per-User-Trust-Tombstones-Quota attribute AD Schema

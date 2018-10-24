@@ -2,8 +2,6 @@
 title: sub - ps
 description: Subtracts sources.
 ms.assetid: e130724f-63bf-4d7f-bc9f-6a4441a788b8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

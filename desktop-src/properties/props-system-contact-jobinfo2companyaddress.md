@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: d0863304-0f10-47fa-8b86-d552e004f4dd
 title: System.Contact.JobInfo2CompanyAddress
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

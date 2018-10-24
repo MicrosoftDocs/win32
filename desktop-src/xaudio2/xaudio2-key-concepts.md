@@ -2,8 +2,6 @@
 Description: This overview introduces some key concepts for using XAudio2.
 ms.assetid: 103e939f-7815-51c5-159a-c607da1e99ba
 title: XAudio2 Key Concepts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

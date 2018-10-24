@@ -2,8 +2,6 @@
 Description: Contains a pointer to the IMFMediaEngineExtension interface.
 ms.assetid: D2F3F41D-086A-4DEB-99D0-07574BC8F0D7
 title: MF_MEDIA_ENGINE_EXTENSION attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

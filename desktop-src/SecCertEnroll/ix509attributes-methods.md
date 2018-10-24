@@ -2,8 +2,6 @@
 Description: The IX509Attributes interface exposes the following methods.
 ms.assetid: E8D84A55-5EF3-4FF4-9AC3-79E5FFA6211F
 title: IX509Attributes Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

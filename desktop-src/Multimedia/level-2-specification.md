@@ -7,8 +7,6 @@ keywords:
 - MPC (Multimedia PC),Level 2
 - Multimedia PC Marketing Council,Level 2
 - MPC Level 2,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

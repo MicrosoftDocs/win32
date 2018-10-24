@@ -2,8 +2,6 @@
 Description: An &\#0034;input context&\#0034; is an internal structure maintained by the IMM.
 ms.assetid: 2b639e30-5368-45bb-943d-db1ab6b62582
 title: Input Context
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

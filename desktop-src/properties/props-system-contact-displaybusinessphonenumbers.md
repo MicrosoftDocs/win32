@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: e8b1ce0a-a6af-4035-b8f5-4b16cc0b47ae
 title: System.Contact.DisplayBusinessPhoneNumbers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

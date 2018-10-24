@@ -2,8 +2,6 @@
 Description: MPEG Decoder Preprocessing Transformations
 ms.assetid: c7ae0137-0d02-46da-9532-738d805e327d
 title: MPEG Decoder Preprocessing Transformations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

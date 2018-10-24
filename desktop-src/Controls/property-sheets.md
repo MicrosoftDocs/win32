@@ -2,8 +2,6 @@
 title: About Property Sheets
 description: A property sheet is a window that allows the user to view and edit the properties of an item.
 ms.assetid: 93676a64-7980-48cd-8615-23b14a118e1c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

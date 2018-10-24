@@ -2,8 +2,6 @@
 Description: Per-application configuration redirects the dependence of a particular application from one version of a side-by-side assembly to another version of the assembly.
 ms.assetid: b7988385-c87e-443c-8ec3-84ab3c172eab
 title: Per-application Configuration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

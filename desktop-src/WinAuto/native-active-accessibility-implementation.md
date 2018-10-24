@@ -2,8 +2,6 @@
 title: Native Active Accessibility Implementation
 description: User interface elements that implement the IAccessible interface are said to provide a native implementation.
 ms.assetid: 36a5c0cd-53f0-433e-8932-da7d1de177dd
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

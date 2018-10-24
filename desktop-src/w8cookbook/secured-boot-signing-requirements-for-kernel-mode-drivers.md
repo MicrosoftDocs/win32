@@ -2,8 +2,6 @@
 title: Secure boot feature signing requirements for kernel-mode drivers
 description: Secure boot feature signing requirements for kernel-mode drivers
 ms.assetid: 7FF64BA2-89E3-4E6F-B542-7BC7BF7F4FB2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

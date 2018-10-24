@@ -2,8 +2,6 @@
 Description: Represents a collection of Certificate objects.
 ms.assetid: '11d294b5-0a8a-4970-be10-a3b22389d96e'
 title: Recipients object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

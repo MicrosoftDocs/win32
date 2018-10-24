@@ -2,8 +2,6 @@
 Description: Number of samples currently batched and awaiting processing.
 ms.assetid: 1a2d2144-b32c-49e8-8d6e-9d81e7f7be81
 title: COutputQueue::m_nBatched member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following functions are provided only in a generic version without an &\#0034;A&\#0034; or &\#0034;W&\#0034; suffix.
 ms.assetid: 0e51b7a6-53a0-4e92-9bed-f8e4f8ffd5a1
 title: Functions without Unicode Versions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

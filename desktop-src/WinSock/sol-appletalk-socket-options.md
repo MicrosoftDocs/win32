@@ -2,8 +2,6 @@
 Description: The following table describes SOL\_APPLETALK socket options that apply to sockets created for the AppleTalk address family (AF\_APPLETALK).
 ms.assetid: 1a6b18e3-1fea-4ba2-8076-c38e7f679e9e
 title: SOL_APPLETALK Socket Options
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

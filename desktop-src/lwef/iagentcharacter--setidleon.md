@@ -2,8 +2,6 @@
 title: IAgentCharacter SetIdleOn
 description: IAgentCharacter SetIdleOn
 ms.assetid: 397d223a-0970-4535-ad46-2923df6b9975
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

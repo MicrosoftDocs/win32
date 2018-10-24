@@ -2,8 +2,6 @@
 title: Enabling a Built-in Accessibility Feature
 ms.assetid: f97a445d-f93d-4462-bce5-d853f5076b9c
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

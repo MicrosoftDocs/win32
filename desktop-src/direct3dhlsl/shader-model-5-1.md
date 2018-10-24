@@ -2,8 +2,6 @@
 title: Shader Model 5.1
 description: This section contains the reference pages for HLSL Shader Model 5.1, introduced with D3D12 and D3D11.3.
 ms.assetid: 814FAC95-7FD5-450F-964B-18E687DBCC56
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

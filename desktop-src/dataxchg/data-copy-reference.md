@@ -2,8 +2,6 @@
 title: Data Copy Reference
 description: .
 ms.assetid: 1858f3d4-931a-4fe8-a387-bf4860cbec3a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

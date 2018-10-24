@@ -4,8 +4,6 @@ description: Once the client program of distributed applications that uses expli
 ms.assetid: f424bb01-e562-49eb-abaf-cc2d76a6ad8f
 keywords:
 - Remote Procedure Call RPC , tasks, making a call
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The PRINTER\_INFO\_5 structure specifies detailed printer information.
 ms.assetid: c8599f2e-3b7c-4fde-a340-ca7d3ddaa106
 title: PRINTER_INFO_5 structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

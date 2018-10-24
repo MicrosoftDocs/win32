@@ -2,8 +2,6 @@
 Description: The ISCardFileAccess interface exposes the following methods.
 ms.assetid: 47A7308E-4E87-4052-A615-E28F7110761B
 title: ISCardFileAccess Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

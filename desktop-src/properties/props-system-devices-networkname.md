@@ -2,8 +2,6 @@
 Description: Name of the device's network.
 ms.assetid: c5b6f196-d84b-4ccb-a18a-6f78aae4035a
 title: System.Devices.NetworkName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

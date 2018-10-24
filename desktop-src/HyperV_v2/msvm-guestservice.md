@@ -2,8 +2,6 @@
 Description: Msvm\_GuestService is the abstract base class for services in the guest that can be accessed from the host.
 ms.assetid: F9E6FFE6-B8C5-4F06-BF22-A4BDB20F813A
 title: Msvm_GuestService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

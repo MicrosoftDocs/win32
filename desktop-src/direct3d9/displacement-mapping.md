@@ -2,8 +2,6 @@
 Description: Displacement maps are similar to texture maps but are accessed by the vertex engine.
 ms.assetid: d6f16ff2-5a66-48a3-82c4-523faaafa6ae
 title: Displacement Mapping (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

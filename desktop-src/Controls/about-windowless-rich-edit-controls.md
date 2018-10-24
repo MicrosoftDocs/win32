@@ -2,8 +2,6 @@
 title: About Windowless Rich Edit Controls
 description: A windowless rich edit control, also known as a text services object, is an object that provides the functionality of a rich edit control without providing the window.
 ms.assetid: 880a704d-776a-49d3-be31-0328af408e3b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

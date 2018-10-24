@@ -13,8 +13,6 @@ keywords:
 - Client Extended APIs,non-silent license acquisition
 - non-silent license acquisition
 - licenses,non-silent license acquisition
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

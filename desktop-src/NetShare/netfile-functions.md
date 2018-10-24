@@ -2,8 +2,6 @@
 Description: The network file functions provide a way to monitor and close the file, device, and pipe resources open on a server. The file functions are listed following.
 ms.assetid: cbcdad6e-80dd-49f0-9d69-a82a7010f10b
 title: NetFile Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

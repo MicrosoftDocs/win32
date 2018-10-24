@@ -2,8 +2,6 @@
 title: Impersonation and Asynchronous Calls
 description: Impersonation and Asynchronous Calls
 ms.assetid: 7eaa0a66-7a80-4831-b0b6-b8eff4abd036
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

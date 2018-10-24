@@ -8,8 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),DRM network operations
 - digital rights management (DRM),network operations
 - DRM (digital rights management),network operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

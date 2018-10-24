@@ -2,8 +2,6 @@
 Description: Updates the area of this IContextNode.
 ms.assetid: e7001411-17e4-4f33-af04-dd3220275895
 title: IContextNode::SetLocation method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

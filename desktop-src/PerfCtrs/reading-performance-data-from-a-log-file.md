@@ -2,8 +2,6 @@
 Description: The following example reads data written to a log file in the Writing Performance Data to a Log File example.
 ms.assetid: acec1506-473a-43c9-9b57-ad8c00e8f250
 title: Reading Performance Data from a Log File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Help Button
 description: The Help Button is a control that the user can click to display the application help system.
 ms.assetid: 5f08a8b2-bc83-4256-bcc4-aecfbd07ea51
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

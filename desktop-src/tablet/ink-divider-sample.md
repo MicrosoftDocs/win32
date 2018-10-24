@@ -2,8 +2,6 @@
 Description: This sample is based on the Ink Collection Sample. It shows how to use the Divider object to analyze ink input.
 ms.assetid: 3350b643-11b3-4474-8dd0-bc3eb1b7121e
 title: Ink Divider Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

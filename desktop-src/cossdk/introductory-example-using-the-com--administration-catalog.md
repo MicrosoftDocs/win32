@@ -2,8 +2,6 @@
 Description: Introductory Example Using the COM+ Administration Catalog
 ms.assetid: e9ce25aa-4fb1-4357-9f4e-5bf649e29447
 title: Introductory Example Using the COM+ Administration Catalog
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

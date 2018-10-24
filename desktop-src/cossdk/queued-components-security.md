@@ -2,8 +2,6 @@
 Description: Queued Components Security
 ms.assetid: 3fbeb81a-e3e4-495b-b891-896877fab92f
 title: Queued Components Security
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

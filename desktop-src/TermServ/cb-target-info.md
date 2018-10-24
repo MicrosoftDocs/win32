@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 60612E10-9D82-4F38-87F7-B24F51E6EBDA
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - CB_TARGET_INFO structure Remote Desktop Services

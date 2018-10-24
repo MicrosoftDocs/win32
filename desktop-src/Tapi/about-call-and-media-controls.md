@@ -2,8 +2,6 @@
 Description: TAPI 3 call and media controls are a generic set of COM objects, interfaces, and methods for making calls between two or more machines.
 ms.assetid: e345df2f-1b68-41be-ac2d-b771136ee831
 title: About Call And Media Controls
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

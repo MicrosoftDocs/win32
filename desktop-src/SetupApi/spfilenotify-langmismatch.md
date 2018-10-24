@@ -2,8 +2,6 @@
 Description: The SPFILENOTIFY\_LANGMISMATCH notification is sent to the callback routine if the language of the file to be copied does not match the language of an existing target file.
 ms.assetid: dff3969e-5847-4ad5-b7d4-237144bbe8e6
 title: SPFILENOTIFY_LANGMISMATCH message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

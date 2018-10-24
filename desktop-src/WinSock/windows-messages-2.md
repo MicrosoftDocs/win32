@@ -2,8 +2,6 @@
 Description: Windows Sockets 1.1 introduced the async-select mechanism to provide network event indications that did not involve either polling or blocking.
 ms.assetid: d536f796-c532-4b57-8dc7-3415661b736b
 title: Windows Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Pause method pauses the current capture.
 ms.assetid: 8c7b310e-de04-4bd8-9c96-3c5948e610be
 title: IRTC::Pause method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The XMUBYTEN2 structure exposes the following operators.
 ms.assetid: 287521e0-ade4-4abd-aec6-dde9a734cdf2
 title: XMUBYTEN2 Operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

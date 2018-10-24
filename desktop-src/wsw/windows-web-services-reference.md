@@ -2,8 +2,6 @@
 title: Windows Web Services Reference
 ms.assetid: 8df6aa6c-0733-4601-aaa0-1b201ce5baa6
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

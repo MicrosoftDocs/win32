@@ -2,8 +2,6 @@
 title: glEvalPoint Functions
 description: Generates and evaluates a single point in a mesh.
 ms.assetid: 0cc70e14-eb22-4d04-a6c1-3943933a558e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

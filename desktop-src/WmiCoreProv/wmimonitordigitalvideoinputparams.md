@@ -2,8 +2,6 @@
 Description: Represents input parameters for digital video.
 ms.assetid: aa459612-db79-477b-891f-28c9d0b1b497
 title: WmiMonitorDigitalVideoInputParams class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

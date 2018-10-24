@@ -2,8 +2,6 @@
 Description: This topic provides information about using the WinHTTP WinHttpRequest COM object with scripting languages.
 ms.assetid: 0bbbf3dc-84b8-41d8-8627-e3d80ddcb783
 title: WinHttpRequest object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

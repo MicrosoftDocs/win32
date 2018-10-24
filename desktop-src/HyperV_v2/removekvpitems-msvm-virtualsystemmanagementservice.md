@@ -2,8 +2,6 @@
 Description: Removes existing key-value pairs from a virtual machine.
 ms.assetid: B2ECF609-89BB-4117-982B-EF56D51E1321
 title: RemoveKvpItems method of the Msvm_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

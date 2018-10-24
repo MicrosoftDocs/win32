@@ -2,8 +2,6 @@
 Description: This appendix illustrates a rewritten version of the Simplec.c and Simples.c sample applications that gracefully handles either IPv4 or IPv6.IPv6-Enabled Client CodeIPv6-Enabled Server Code
 ms.assetid: ffcbd59e-63ea-4df3-9db9-e7d4634eefeb
 title: 'Appendix B: IP-version Agnostic Source Code'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Resource Functions
 description: .
 ms.assetid: dfeaaf01-f947-453e-946e-65ad9ec40958
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Client Logging
 ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Client Logging
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

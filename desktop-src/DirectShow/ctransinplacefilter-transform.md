@@ -2,8 +2,6 @@
 Description: The Transform method transforms a sample in place.
 ms.assetid: 2268041b-70d4-48a9-9bb8-4ab921cce649
 title: CTransInPlaceFilter.Transform method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

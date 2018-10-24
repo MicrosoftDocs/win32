@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 21fd6e39-5dd3-41b8-a2f5-0135a6637ce8
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Declaring an Association Class
 ms.author: windowssdkdev

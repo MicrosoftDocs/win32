@@ -2,8 +2,6 @@
 Description: When overridden in a derived class, evaluates whether a specified IContextNode object meets the criteria.
 ms.assetid: ade8e59c-6aeb-4a87-a95d-229f8f0b2223
 title: IMatchesCriteriaCallBack::EvaluateContextNode method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

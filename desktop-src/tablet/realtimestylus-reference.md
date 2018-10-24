@@ -2,8 +2,6 @@
 Description: Provides access to the stylus events coming from pen or touch digitizers.
 ms.assetid: a239b53c-7fc9-4211-962a-6cfbe0be4e4c
 title: RealTimeStylus Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

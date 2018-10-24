@@ -2,8 +2,6 @@
 Description: Updates the tablet digitizer to window location mapping coordinates.
 ms.assetid: 2984b87b-620e-4e5d-a3cc-4c3f4c89bae3
 title: ITabletContextP::TrackInputRect method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

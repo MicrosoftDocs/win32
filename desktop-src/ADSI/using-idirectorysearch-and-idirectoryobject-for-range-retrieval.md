@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 4d9d2a98-51d5-4326-b43e-a2ac3bc54a75
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - IDirectorySearch ADSI , Using for ranging to retrieve members of a group

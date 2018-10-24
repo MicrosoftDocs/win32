@@ -10,8 +10,6 @@ keywords:
 - Device Manager,desktop application sample
 - samples,desktop applications
 - samples,compiling using Visual Studio
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

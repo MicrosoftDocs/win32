@@ -2,8 +2,6 @@
 Description: When the operating system, or even an application, is set to use a particular language and locale, many settings are affected.
 ms.assetid: cec164d1-125f-483c-9d74-0e24b8215157
 title: Document and System Locale Settings
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Controlling Client Authentication
 description: The best method for authenticating a client is installing a security callback function using the RpcServerRegisterIf2 or RpcServerRegisterIfEx function; either accepts a security callback function as an argument.
 ms.assetid: 3e858a71-9190-44a3-bc63-08cfbd02d443
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

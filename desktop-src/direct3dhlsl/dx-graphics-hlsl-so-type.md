@@ -2,8 +2,6 @@
 title: Stream-Output Object
 description: A stream-output object is a templated object that streams data out of the geometry-shader stage. Use the following syntax to declare a stream-output object.
 ms.assetid: 07a5489c-c238-4466-9282-5b168448aff7
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

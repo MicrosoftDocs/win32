@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e1d98eae-6fc1-489b-aa8b-2e86bac5c65a
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess interface
 ms.author: windowssdkdev

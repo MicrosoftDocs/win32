@@ -2,8 +2,6 @@
 Description: Performs a Catmull-Rom interpolation, using the specified 3D vectors.
 ms.assetid: 324bd4b5-b0df-4dd3-b370-3c365c9f2db1
 title: D3DXVec3CatmullRom function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

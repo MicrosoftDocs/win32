@@ -2,8 +2,6 @@
 Description: Retrieves the handle to the thread in the CMsgThread object.
 ms.assetid: dacbdc68-91a0-46d4-805f-fe51cb047e19
 title: CMsgThread.GetThreadHandle method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

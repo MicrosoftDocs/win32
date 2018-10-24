@@ -1,8 +1,6 @@
 ---
 ms.assetid: f20207cb-f583-47c5-9f24-f719b68b260a
 title: COM+ Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

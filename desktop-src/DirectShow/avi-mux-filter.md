@@ -2,8 +2,6 @@
 Description: AVI Mux Filter
 ms.assetid: 31d30c91-fc6a-45ec-a2e0-34e6a1e902a4
 title: AVI Mux Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

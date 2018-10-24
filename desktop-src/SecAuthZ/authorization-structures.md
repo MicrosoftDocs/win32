@@ -2,8 +2,6 @@
 Description: Lists the structures used by authorization APIs.
 ms.assetid: abf5c51d-c000-45f4-b341-ec4a027e89ec
 title: Authorization Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

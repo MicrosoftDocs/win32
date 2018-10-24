@@ -4,8 +4,6 @@ description: Enumerations in Structured Storage are data types that consist of a
 ms.assetid: 222e1a0f-8834-45d0-b623-d4e3cd70a449
 keywords:
 - Structured Storage Strctd Stg , reference, enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

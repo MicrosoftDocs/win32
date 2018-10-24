@@ -2,8 +2,6 @@
 Description: Verifies whether controls can use 3D effects.
 ms.assetid: fb7b892f-2580-41ac-b2ef-938da3cc1dc2
 title: Ctl3dEnabled function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

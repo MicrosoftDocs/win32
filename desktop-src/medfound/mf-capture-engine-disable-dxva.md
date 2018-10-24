@@ -2,8 +2,6 @@
 Description: Specifies whether the capture engine uses DirectX Video Acceleration (DXVA) for video decoding.
 ms.assetid: 9F677E6E-0DCD-456F-8A00-1C11011BAA13
 title: MF_CAPTURE_ENGINE_DISABLE_DXVA attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

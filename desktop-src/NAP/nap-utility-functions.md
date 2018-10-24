@@ -2,8 +2,6 @@
 title: NAP Utility Functions
 description: The following utility functions support the NAP API.
 ms.assetid: 0819067c-cca5-4140-8b4d-f3b996826152
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

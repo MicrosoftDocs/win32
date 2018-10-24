@@ -2,8 +2,6 @@
 Description: The installer sets the value of the MsiRunningElevated property to 1 when the installer is running with elevated privileges.
 ms.assetid: 0ef79516-53fa-4162-b89a-6d8eedc8df19
 title: MsiRunningElevated property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

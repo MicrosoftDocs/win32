@@ -4,8 +4,6 @@ description: Describes the Access Control List (ACL) of the principals that can 
 ms.assetid: '7b8c1ae4-fbbd-489f-b1b5-60ae5a04f906'
 keywords:
 - LaunchPermission registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

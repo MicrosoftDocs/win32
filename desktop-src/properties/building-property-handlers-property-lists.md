@@ -2,8 +2,6 @@
 Description: After you assess your property strategy, you must determine what properties to show in the Windows Explorer UI, and where.
 ms.assetid: b7af0491-2ece-42b5-8eea-32643854632f
 title: Using Property Lists
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

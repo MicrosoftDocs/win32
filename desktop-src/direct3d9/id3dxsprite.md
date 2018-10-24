@@ -2,8 +2,6 @@
 Description: The ID3DXSprite interface provides a set of methods that simplify the process of drawing sprites using Microsoft Direct3D.
 ms.assetid: ccf34fac-91a7-4734-bc62-aedaf4d66522
 title: ID3DXSprite interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

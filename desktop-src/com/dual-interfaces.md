@@ -2,8 +2,6 @@
 title: Dual Interfaces
 description: Dual Interfaces
 ms.assetid: 6e4dc529-8a25-4ae5-b868-28cb17e0db52
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

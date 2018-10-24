@@ -4,8 +4,6 @@ description: CGuiPaper also keeps an m\_bInking flag. InkStart sets it to TRUE t
 ms.assetid: 0fe9d029-1522-4caf-8efb-0a4eb2b59958
 keywords:
 - InkDraw
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

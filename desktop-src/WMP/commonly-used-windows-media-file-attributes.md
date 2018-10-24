@@ -14,8 +14,6 @@ keywords:
 - attributes,files
 - file attributes
 - Windows Media files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

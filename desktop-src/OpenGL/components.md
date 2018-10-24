@@ -4,8 +4,6 @@ description: Components
 ms.assetid: 9fbd957d-ee6b-475f-8a04-51effa206ad5
 keywords:
 - OpenGL on Windows,components
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

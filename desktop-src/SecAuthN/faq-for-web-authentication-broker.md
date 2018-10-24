@@ -2,8 +2,6 @@
 Description: Frequently asked questions for Web Authentication Broker.
 ms.assetid: 49ACB2E3-CF57-4D8E-9670-E7C18A06F76A
 title: FAQ for Web Authentication Broker
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Package authors can monitor internal Windows Installer messages through the creation of an executable application that contains both a record-based callback handler to receive the messages and functionality to initiate an installation.
 ms.assetid: 5d9e51dd-7918-491f-aea9-01a6e0317c57
 title: Monitoring an Installation Using MsiSetExternalUIRecord
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The IByteBuffer interface exposes the following methods.
 ms.assetid: 1FB8CBD5-973D-466E-B44D-D1E2B97E3B93
 title: IByteBuffer Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Making an Asynchronous Call
 description: The procedure for making a synchronous call is straightforward The client obtains an interface pointer on the server object and calls methods through that pointer. Asynchronous calling involves a call object, so it involves a few more steps.
 ms.assetid: ab65d38d-836a-48d4-87c1-8812cbc8ff92
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

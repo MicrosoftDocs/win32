@@ -2,8 +2,6 @@
 Description: This section contains information about the native imaging codecs available in Windows Imaging Component (WIC).
 ms.assetid: 8D3E4B3A-FA39-475C-B177-61FC81E5FFCC
 title: Native WIC Codecs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

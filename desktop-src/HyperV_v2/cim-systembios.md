@@ -2,8 +2,6 @@
 Description: Associates a BIOS with a computer system.
 ms.assetid: a06af789-75c8-4d58-8a25-572dcf1091e2
 title: CIM_SystemBIOS class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

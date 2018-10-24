@@ -4,8 +4,6 @@ description: Automating Playback for MCIWnd
 ms.assetid: 7e38e8b1-f56d-4008-83a7-4fba8333e328
 keywords:
 - MCIWndCreate macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

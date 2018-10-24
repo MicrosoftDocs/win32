@@ -2,8 +2,6 @@
 title: DirectComposition reference
 description: This section provides detailed reference information for the elements that make up the Microsoft DirectComposition \ 32;API.
 ms.assetid: A220189D-8546-4352-8F6F-AC5D2192940D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

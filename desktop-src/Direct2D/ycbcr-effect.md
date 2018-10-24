@@ -2,8 +2,6 @@
 title: YCbCr Effect
 description: Converts planar and chroma subsampled JPEG YCbCr data to RGB.
 ms.assetid: E4492996-54DA-4C5F-B44C-8FBE97C8DD7D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

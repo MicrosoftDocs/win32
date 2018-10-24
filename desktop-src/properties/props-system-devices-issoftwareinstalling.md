@@ -2,8 +2,6 @@
 Description: If VARIANT\_TRUE, the device installer is currently installing software.
 ms.assetid: 7C62C1E3-D3F3-49ce-A19D-B3A1C14E24D6
 title: System.Devices.IsSoftwareInstalling
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

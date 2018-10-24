@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 0fbfdc68-e1df-449f-a7d1-739504db8a2f
 title: CBaseReferenceClock.CBaseReferenceClock constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

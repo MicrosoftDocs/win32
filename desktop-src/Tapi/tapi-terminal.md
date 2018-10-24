@@ -2,8 +2,6 @@
 Description: The tapi/terminal device class consists of the phone devices associated with each terminal on a line or the terminal on each line associated with a phone device. You access these devices by using the TAPI line device or phone device functions.
 ms.assetid: 466ed2cd-f737-4df4-8633-4fb5c95b4b6c
 title: tapi/terminal
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

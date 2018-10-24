@@ -2,8 +2,6 @@
 Description: Scale the plane with the given scaling factor.
 ms.assetid: 3a0454ef-2821-472f-b7a4-5e49bb5f556e
 title: D3DXPlaneScale function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Specifies whether the specified color is a special window color.
 ms.assetid: 41f7d4fb-9718-42a8-89df-c29bd8c0665b
 title: FSpecialWindowIMEColorStyle function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

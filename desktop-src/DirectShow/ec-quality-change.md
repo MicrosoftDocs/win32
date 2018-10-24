@@ -2,8 +2,6 @@
 Description: The graph is dropping samples, for quality control.
 ms.assetid: a21fe766-58a5-4851-a282-883374287e18
 title: EC_QUALITY_CHANGE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Get the effect state manager.
 ms.assetid: 4a09eb2a-2393-40b0-81b9-3c27998c2b77
 title: ID3DXEffect::GetStateManager method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

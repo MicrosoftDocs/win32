@@ -2,8 +2,6 @@
 Description: Creating the Base Language Resource File
 ms.assetid: 770e1f4b-5258-4b6b-afa4-5c19743daaaa
 title: Creating the Base Language Resource File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

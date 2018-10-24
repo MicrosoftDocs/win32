@@ -2,8 +2,6 @@
 Description: 'The Web Services on Devices programming interface defines and uses the following enumerations:'
 ms.assetid: a2e74f18-1d6b-4e84-ac79-fb683c461e7f
 title: Web Services on Devices Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

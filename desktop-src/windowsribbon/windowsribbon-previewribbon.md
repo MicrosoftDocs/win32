@@ -2,8 +2,6 @@
 title: Preview Ribbon Sample
 description: Preview Ribbon is an open-source prototyping application for the Windows Ribbon framework that generates a functional preview of the ribbon command bar from a Ribbon framework markup file \ 8212;without the need to implement any underlying command code.
 ms.assetid: aec52d8d-d9e1-4a12-a4a9-cf25b9ca7cce
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

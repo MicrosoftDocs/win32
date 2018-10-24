@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 492dabef-f417-4b1e-bc3a-8d39d8f7ee35
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemMethodSet.Count property
 ms.author: windowssdkdev

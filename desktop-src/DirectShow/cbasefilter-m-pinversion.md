@@ -2,8 +2,6 @@
 Description: Current version of the set of pins on this filter.
 ms.assetid: c748d62a-a725-43a0-b5f4-b14ae9e6ef2c
 title: CBaseFilter::m_PinVersion member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

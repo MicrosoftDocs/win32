@@ -2,8 +2,6 @@
 Description: The following functionality has been added in Microsoft DirectX Graphics Infrastructure (DXGI) 1.3, which is included starting in Windows 8.1.
 ms.assetid: 56816212-2B6A-41EC-B57D-29DEBBF440E7
 title: DXGI 1.3 Improvements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Total free storage space on the device, as a percentage.
 ms.assetid: ede845c6-abd8-4bb1-b0d8-c1f3facffa41
 title: System.Devices.StorageFreeSpacePercent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

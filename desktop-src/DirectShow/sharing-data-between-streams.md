@@ -2,8 +2,6 @@
 Description: Sharing Data Between Streams
 ms.assetid: e18eecf8-9475-420a-9a60-4b1b5f8fd43a
 title: Sharing Data Between Streams
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

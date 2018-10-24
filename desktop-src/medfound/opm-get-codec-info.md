@@ -2,8 +2,6 @@
 Description: Gets the merit value of a hardware codec.
 ms.assetid: 51987a79-78bf-41b2-8349-8c2725dd89d6
 title: OPM_GET_CODEC_INFO
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

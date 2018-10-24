@@ -2,8 +2,6 @@
 Description: Describes the format of an exported DSS version 3 private key.
 ms.assetid: 650532fd-919b-495a-9fb9-981790447d3d
 title: DSS Version 3 Private Key BLOBs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

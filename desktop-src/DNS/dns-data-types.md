@@ -4,8 +4,6 @@ ms.assetid: 652012a5-e45d-4ea6-896a-17e8b1ed4a05
 description: 
 keywords:
 - IP4_ADDRESS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

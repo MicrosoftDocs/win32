@@ -2,8 +2,6 @@
 title: Invert effect
 description: Inverts the colors of an image.
 ms.assetid: aa859cd4-0fb0-9902-3add-748d0cca63ce
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

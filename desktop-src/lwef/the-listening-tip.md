@@ -2,8 +2,6 @@
 title: The Listening Tip
 description: The Listening Tip
 ms.assetid: d363c1ac-53fc-4b93-b056-63eeee923380
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

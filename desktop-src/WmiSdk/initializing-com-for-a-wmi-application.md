@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c9291aa7-702c-4752-8bd0-97d7a6e6dd54
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Initializing COM for a WMI Application
 ms.author: windowssdkdev

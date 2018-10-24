@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8beb9804-088e-4dd1-adc8-a29ca450a220
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'Example: Monitoring Multiple Event Queries Simultaneously'
 ms.author: windowssdkdev

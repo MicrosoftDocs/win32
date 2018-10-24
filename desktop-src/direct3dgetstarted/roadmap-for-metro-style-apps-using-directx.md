@@ -2,8 +2,6 @@
 title: Roadmap for Desktop DirectX apps
 description: Here are key resources to help you get started with using DirectX and C++ to develop graphics-intensive Desktop apps, like games.
 ms.assetid: d7921f38-e384-4a83-b458-ee71f7044468
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

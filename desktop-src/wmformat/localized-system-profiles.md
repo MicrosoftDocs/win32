@@ -11,8 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),localized system profiles
 - system profiles,localized
 - localized system profiles,list of
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

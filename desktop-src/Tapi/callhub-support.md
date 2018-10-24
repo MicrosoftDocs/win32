@@ -2,8 +2,6 @@
 Description: CallHub tracking is a new feature in TAPI version 3.0.
 ms.assetid: 29b6e585-6da8-46a2-a612-f42d0f65f68e
 title: CallHub Support
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

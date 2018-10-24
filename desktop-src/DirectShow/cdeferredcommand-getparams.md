@@ -2,8 +2,6 @@
 Description: The GetParams method retrieves the DISPPARAMS argument list to the method.
 ms.assetid: e32645ad-938b-4142-acc6-94ef573776c4
 title: CDeferredCommand.GetParams method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

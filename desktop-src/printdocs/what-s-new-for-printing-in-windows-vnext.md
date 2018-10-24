@@ -2,8 +2,6 @@
 Description: 'Windows 8 supports printing for Windows Store apps using JavaScript and HTML and printing for Windows Store apps using C#/VB/C++ and XAML.Windows 8 also includes a new COM-based API that provides full support for OpenXPS printing and access to portions of the new printer drivers that Windows 8 supports. For more information about the new API, see Print Document Package API.The Windows Print Driver Inbox Program makes sure that Windows 8 includes support for a high percentage of the popular printers.'
 ms.assetid: 'C4DAE414-8A9D-41EC-8ABC-9ABAF0A431C3'
 title: 'What's New for Printing'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

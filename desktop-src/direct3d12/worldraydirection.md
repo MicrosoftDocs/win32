@@ -2,8 +2,6 @@
 Description: The world-space direction for the current ray.
 ms.assetid: 
 title: WorldRayDirection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Rotates the spherical harmonic (SH) vector by the given matrix.
 ms.assetid: 9e319725-6cbb-441e-b996-ec2c6f66e5df
 title: D3DXSHRotate function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

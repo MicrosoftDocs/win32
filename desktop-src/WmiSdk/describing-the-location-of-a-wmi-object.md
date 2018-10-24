@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 7a390541-609d-4b97-b91c-1a41d21ec17d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing the Location of a WMI Object
 ms.author: windowssdkdev

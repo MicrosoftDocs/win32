@@ -2,8 +2,6 @@
 Description: Alpha Setter Effect
 ms.assetid: dd3ab119-328b-4782-811a-f06909c17dec
 title: Alpha Setter Effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

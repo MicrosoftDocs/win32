@@ -2,8 +2,6 @@
 Description: The following properties are defined by the IOCSPAdmin interface.
 ms.assetid: a0be9b8a-3df7-4223-947b-dc3e7f608818
 title: Properties of IOCSPAdmin
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

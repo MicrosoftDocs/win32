@@ -2,8 +2,6 @@
 title: add (sm4 - asm)
 description: Component-wise add of 2 vectors.
 ms.assetid: 405A513C-B2DD-43B9-A86D-1D173B084C51
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

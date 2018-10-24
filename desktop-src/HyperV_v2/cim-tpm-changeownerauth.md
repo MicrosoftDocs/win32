@@ -2,8 +2,6 @@
 Description: Changes the owner authorization credential of the TPM device. The old and new owner authorization passwords are required.
 ms.assetid: 5b7f1aec-5181-4330-982c-d80a1d5ae9e8
 title: ChangeOwnerAuth method of the CIM_TPM class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

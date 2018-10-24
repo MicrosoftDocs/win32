@@ -2,8 +2,6 @@
 Description: The Item property is a read-only property that returns a string in the StringList Object collection.
 ms.assetid: 5c654927-41cf-4e47-9d4f-76524f8bbc97
 title: StringList.Item property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

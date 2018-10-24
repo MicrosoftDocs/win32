@@ -2,8 +2,6 @@
 Description: In some environments, a user is not automatically alerted to an offering call, such as by ringing or by a message on their computer screen.
 ms.assetid: 50684e2a-0799-458b-9402-0958e35026d7
 title: Accept
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A Direct3D device is the rendering component of Direct3D. It encapsulates and stores the rendering state. In addition, a Direct3D device performs transformations and lighting operations and rasterizes an image to a surface.
 ms.assetid: b592edb8-351a-4a82-9ff7-8a69d82723bc
 title: Direct3D Devices (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

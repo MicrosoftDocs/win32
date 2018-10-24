@@ -2,8 +2,6 @@
 Description: Provides access to the context of a CAPICOM Chain object. This context allows the CAPICOM certificate trust chain to be used in other derivations of CryptoAPI.
 ms.assetid: ee258586-028e-486e-8129-07f43b6cc468
 title: IChainContext interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

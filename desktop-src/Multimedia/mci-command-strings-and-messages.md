@@ -5,8 +5,6 @@ ms.assetid: eb60c96b-e89e-4673-a8e0-98fabe4af7ca
 keywords:
 - MCI command strings,about
 - MCI command messages,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

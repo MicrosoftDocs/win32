@@ -2,8 +2,6 @@
 Description: Establishes that a CIM\_ResourceAllocationSettingData instance representing a resource allocation depends on another resource allocation.
 ms.assetid: 567ee36a-d47b-444d-8d2f-425873f95bef
 title: Msvm_ResourceDependentOnResource class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

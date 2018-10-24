@@ -2,8 +2,6 @@
 Description: Removes virtual resource settings from a virtual system configuration.
 ms.assetid: 7934a5e4-f54c-43fd-9ec3-d1fc1aad0acd
 title: RemoveResourceSettings method of the CIM_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

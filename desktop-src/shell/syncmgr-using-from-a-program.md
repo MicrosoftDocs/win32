@@ -1,8 +1,6 @@
 ---
 Description: To enable your application to work with the Synchronization Manager you must implement a Component Object Model (COM) object to handle synchronization notifications that you receive from SyncMgr.
 title: Using Synchronization Manager from a Program
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

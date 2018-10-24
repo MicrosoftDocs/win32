@@ -2,8 +2,6 @@
 Description: Explains how to generate, exchange, import, and export Diffie-Hellman keys.
 ms.assetid: 623a8c9e-3f6a-470b-be30-dec13342bb90
 title: Diffie-Hellman Keys
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

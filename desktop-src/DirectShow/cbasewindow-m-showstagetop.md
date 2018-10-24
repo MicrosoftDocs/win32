@@ -2,8 +2,6 @@
 Description: Private message that sets the window style to WS\_EX\_TOPMOST.
 ms.assetid: 4934400e-4ca5-4ace-b9b9-3889f4cf610e
 title: CBaseWindow::m_ShowStageTop member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

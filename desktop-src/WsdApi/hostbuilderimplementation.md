@@ -2,8 +2,6 @@
 Description: Generates a function that creates a typed host.
 ms.assetid: 2b4a4016-cc5d-4912-8e08-ce3a11ab0a06
 title: hostBuilderImplementation element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

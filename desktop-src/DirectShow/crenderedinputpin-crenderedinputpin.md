@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: bf335750-b776-47bc-978d-e84e8b5259f7
 title: CRenderedInputPin.CRenderedInputPin constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

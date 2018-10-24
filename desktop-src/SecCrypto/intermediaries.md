@@ -2,8 +2,6 @@
 Description: Intermediaries communicate with client applications to allow them to submit certificate requests, and (assuming that the request results in an issued certificate) to download the issued certificate to the client.
 ms.assetid: c696f09e-98d3-4cea-8ea1-cd8f40b74f12
 title: Intermediaries
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

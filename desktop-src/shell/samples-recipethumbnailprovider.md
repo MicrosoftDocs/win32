@@ -1,8 +1,6 @@
 ---
 Description: Demonstrates how to create a thumbnail handler by file type and extends Windows Explorer.
 title: Recipe Thumbnail Provider Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

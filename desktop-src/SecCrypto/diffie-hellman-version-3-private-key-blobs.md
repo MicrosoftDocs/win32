@@ -2,8 +2,6 @@
 Description: Describes the format of an exported Diffie-Hellman version 3 private key BLOB.
 ms.assetid: c759e6e1-f7af-4cd6-a67e-ff0da1e91eb1
 title: Diffie-Hellman Version 3 Private Key BLOBs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Device voicemail notification.
 ms.assetid: 91993898-a342-4009-b0eb-8d8286079e91
 title: System.Devices.Notifications.NewVoicemail
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Sends an OPM status request to a protected output object.
 ms.assetid: 4b691b20-25de-4b9e-a725-674a57697b56
 title: GetOPMInformation function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Status Callback Functions
 ms.assetid: fe89fb97-0b56-4956-a1a6-f4ad2d06befa
 keywords:
 - AVICap callback functions,status
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

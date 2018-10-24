@@ -2,8 +2,6 @@
 Description: DeviceTopology API
 ms.assetid: 051311ef-dd29-4014-bb9c-4cdccf7ce7de
 title: DeviceTopology API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

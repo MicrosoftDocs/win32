@@ -2,8 +2,6 @@
 Description: Defines the fundamental Direct3D color type.
 ms.assetid: a4425774-fd4b-4f5c-9e10-7679bc2795f6
 title: D3DCOLOR
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

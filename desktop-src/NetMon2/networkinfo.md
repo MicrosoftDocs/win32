@@ -2,8 +2,6 @@
 Description: The NETWORKINFO structure describes a NIC.
 ms.assetid: 40169409-7de5-44d1-8dff-dfa9f647edc9
 title: NETWORKINFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

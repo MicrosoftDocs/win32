@@ -2,8 +2,6 @@
 title: Button
 description: The Button is a control the user can click to provide input to an application.
 ms.assetid: 6d4aa571-dbea-4139-a6b7-45a85595dd04
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

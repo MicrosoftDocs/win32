@@ -2,8 +2,6 @@
 Description: The IsOwned method of the Win32\_Tpm class indicates whether the device has an owner. This value is changed by the TakeOwnership method.
 ms.assetid: 04a9394f-98de-43e3-8a19-7a8f409823b8
 title: IsOwned method of the Win32_Tpm class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

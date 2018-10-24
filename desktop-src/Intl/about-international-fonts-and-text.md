@@ -2,8 +2,6 @@
 Description: The topics in this section address the basic functionality of International Fonts.
 ms.assetid: a47303b5-f49b-4d6c-b061-9d6475530e83
 title: International Font Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

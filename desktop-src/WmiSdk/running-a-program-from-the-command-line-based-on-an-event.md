@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b912a4a1-7b1c-43a9-b098-fcfd62a2c2db
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Running a Program from the Command Line Based on an Event
 ms.author: windowssdkdev

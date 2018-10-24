@@ -2,8 +2,6 @@
 title: Typed Unordered Access View Loads
 description: Unordered Access View (UAV) Typed Load is the ability for a shader to read from a UAV with a specific DXGI\_FORMAT.
 ms.assetid: BA72BF21-8621-461D-8677-9DFB7D5BC6AA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

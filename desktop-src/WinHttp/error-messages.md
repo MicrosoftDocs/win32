@@ -2,8 +2,6 @@
 Description: The error values identified in this topic are returned by GetLastError when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails.
 ms.assetid: c8a863cd-d36c-4ec8-ac49-0b714a5e4cc2
 title: Error Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8901c04e-f8c1-45b0-b69d-e2ebc948f088
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: pragma autorecover
 ms.author: windowssdkdev

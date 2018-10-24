@@ -2,8 +2,6 @@
 title: Group Box (MSAA UI Element Reference)
 description: A group box is a rectangle that surrounds a set of controls, such as check boxes or radio buttons, and contains an application-defined text (label).
 ms.assetid: c6cd81a1-76c0-41c5-bb7f-4796ea7e3114
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The following tables describe IPPROTO\_IP socket options that apply to sockets created for the IPv4 address family (AF\_INET). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
 ms.assetid: 6b06a29e-59cd-4446-bd2f-131dc25bf571
 title: IPPROTO_IP Socket Options
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

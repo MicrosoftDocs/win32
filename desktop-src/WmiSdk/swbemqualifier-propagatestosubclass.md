@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d0c272fa-314c-4555-9fcf-6b7caf980f07
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemQualifier.PropagatesToSubClass property
 ms.author: windowssdkdev

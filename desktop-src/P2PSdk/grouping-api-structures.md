@@ -2,8 +2,6 @@
 Description: The Grouping API uses the following structures.
 ms.assetid: ac65f558-a97b-46c5-984f-d1bb5d1f1078
 title: Grouping API Structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

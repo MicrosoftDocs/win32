@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e094aecc-e940-43aa-87c2-ea8cc86d1051
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Implementing Cloaking
 ms.author: windowssdkdev

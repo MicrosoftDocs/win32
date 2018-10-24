@@ -2,8 +2,6 @@
 Description: Determines if a ray intersects with a mesh.
 ms.assetid: 325f5b40-80ba-4400-a143-bae41146ab07
 title: D3DXIntersect function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

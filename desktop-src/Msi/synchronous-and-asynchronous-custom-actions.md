@@ -2,8 +2,6 @@
 Description: The Windows Installer processes custom actions as a separate thread from the main installation.
 ms.assetid: 6451029c-87f4-44ee-aa2b-cc9a1c25bcc0
 title: Synchronous and Asynchronous Custom Actions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

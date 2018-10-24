@@ -2,8 +2,6 @@
 Description: The ScheduleSample method overrides the base class that does the main work to keep a count of samples drawn and dropped (which are used by the IQualProp implementation).
 ms.assetid: 66e4e318-a7ff-4ba0-9ac5-24ba39ac86f1
 title: CBaseVideoRenderer.ScheduleSample method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

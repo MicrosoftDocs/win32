@@ -55,8 +55,6 @@ keywords:
 - SV_TessFactor, semantics (DirectX HLSL)
 - SV_InsideTessFactor, semantics (DirectX HLSL)
 - SV_DomainLocation, semantics (DirectX HLSL)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

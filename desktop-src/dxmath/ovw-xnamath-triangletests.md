@@ -2,8 +2,6 @@
 Description: Lists the triangle test functions provided by the DirectXMath TriangleTests namespace.
 ms.assetid: 97c5fa38-e88c-debb-f3ed-76c5878778c4
 title: DirectXMath Triangle Test Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

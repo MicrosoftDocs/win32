@@ -2,8 +2,6 @@
 Description: The following list contains the media service provider types.
 ms.assetid: dbbe037e-04d0-492f-b6c7-c13948027873
 title: Media Service Provider Types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

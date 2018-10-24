@@ -2,8 +2,6 @@
 Description: The GetPaletteVersion method retrieves the current palette version.
 ms.assetid: 9f97a810-04a4-4ea3-8918-416e9cd8e5e4
 title: CDrawImage.GetPaletteVersion method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

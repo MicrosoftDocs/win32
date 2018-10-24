@@ -9,8 +9,6 @@ keywords:
 - WM ASF Writer,about
 - Advanced Systems Format (ASF),WM ASF Writer
 - ASF (Advanced Systems Format),WM ASF Writer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

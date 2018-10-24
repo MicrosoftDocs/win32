@@ -4,8 +4,6 @@ description: Installs an object as a service application.
 ms.assetid: e8086118-f956-4cc2-a0fb-3cebd2e66799
 keywords:
 - LocalService registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

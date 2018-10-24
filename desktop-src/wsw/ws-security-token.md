@@ -4,8 +4,6 @@ description: The opaque handle representing a security token.
 ms.assetid: 050a2ce5-279e-48fb-85da-1d0b11cd8229
 keywords:
 - WS_SECURITY_TOKEN
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

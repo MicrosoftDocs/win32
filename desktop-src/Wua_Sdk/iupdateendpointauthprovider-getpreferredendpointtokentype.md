@@ -2,8 +2,6 @@
 Description: Returns the preferred type of authentication token for the endpoint of the service.
 ms.assetid: DF60C49A-89FE-4EEB-8E82-C2C43F2D2F2A
 title: IUpdateEndpointAuthProvider::GetPreferredEndpointTokenType method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

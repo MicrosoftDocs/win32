@@ -4,8 +4,6 @@ description: The server stub provides surrogate entry points on the server for e
 ms.assetid: e3263543-e78b-40a8-aafa-4315850112a8
 keywords:
 - MIDL compiler MIDL , MIDL and RPC MIDL , interfaces, server stub
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

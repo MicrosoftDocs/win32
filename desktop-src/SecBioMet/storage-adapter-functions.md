@@ -2,8 +2,6 @@
 title: Storage Adapter Functions
 description: A storage adapter manages template databases.
 ms.assetid: bfb0c9e5-a95e-4054-bc83-98ff682994a0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

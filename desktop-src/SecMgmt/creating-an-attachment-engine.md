@@ -2,8 +2,6 @@
 Description: An attachment engine is a DLL that processes service-specific configuration and analysis requests. In other words, it handles the processing that cannot be handled by the standard Security Configuration tool set.
 ms.assetid: c04779f4-f1e9-40b0-9f00-0176afb1b839
 title: Creating an Attachment Engine
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

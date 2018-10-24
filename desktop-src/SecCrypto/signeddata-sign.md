@@ -2,8 +2,6 @@
 Description: Creates a digital signature on the content to be signed. A digital signature consists of a hash of the content to be signed that is encrypted by using the private key of the signer.
 ms.assetid: ee98a36c-f9a9-4247-ae48-7b1a10b92be4
 title: SignedData.Sign method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

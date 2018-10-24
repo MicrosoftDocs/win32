@@ -2,8 +2,6 @@
 title: Volume Tiled Resources
 description: Volume (3D) textures can be used as tiled resources, noting that tile resolution is three-dimensional.
 ms.assetid: B6BF22A2-EDA3-4765-B545-BF825043D4C4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

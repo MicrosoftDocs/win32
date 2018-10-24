@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a00f26e6-bb81-45bc-a530-9346a074bb3c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating Hierarchies Within WMI
 ms.author: windowssdkdev

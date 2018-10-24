@@ -2,8 +2,6 @@
 Description: Pull Model
 ms.assetid: b5246dfe-e6ee-4b91-bfe3-2ec8b8723938
 title: Pull Model
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

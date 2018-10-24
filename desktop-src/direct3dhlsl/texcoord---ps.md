@@ -2,8 +2,6 @@
 title: texcoord - ps
 description: Interprets texture coordinate data (UVW1) as color data (RGBA).
 ms.assetid: 0f79a62c-1142-4dcd-aa2f-a5bd1c369ffc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Architecture
 description: The server session, request queue, and URL group configuration objects enable applications to configure the HTTP service.
 ms.assetid: 05a2d689-fd10-4065-85fc-2057bee42fbc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

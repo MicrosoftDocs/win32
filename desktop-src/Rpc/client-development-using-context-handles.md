@@ -2,8 +2,6 @@
 title: Client Development Using Context Handles
 description: The only use a client program has for a context handle is to pass it to the server each time the client makes a remote procedure call.
 ms.assetid: fcbdfb1e-4f1e-4d22-9a3e-cf5a29d300d0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

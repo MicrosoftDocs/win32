@@ -2,8 +2,6 @@
 title: Setting Process-Wide Security Using DCOMCNFG
 description: You might want to enable security for a particular application if an application has security needs that are different from those required by other applications on the computer.
 ms.assetid: 04a7f688-78a3-490a-bcfa-862824a05422
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

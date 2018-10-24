@@ -2,8 +2,6 @@
 Description: Creates a buffer object.
 ms.assetid: 6f44fe84-3e0b-4fb8-821a-c997944fed37
 title: D3DXCreateBuffer function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

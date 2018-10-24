@@ -2,8 +2,6 @@
 Description: The pattern attribute specifies the pattern of a geometric pen.
 ms.assetid: 5a330416-3b83-4f0f-825c-80e47903966e
 title: Pen Pattern
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

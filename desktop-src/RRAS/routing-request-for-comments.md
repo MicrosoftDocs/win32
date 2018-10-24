@@ -5,8 +5,6 @@ ms.assetid: 08d020f6-87b2-487e-8232-84d080c1037b
 keywords:
 - RFCs, Routing
 - Request for Comments, Routing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

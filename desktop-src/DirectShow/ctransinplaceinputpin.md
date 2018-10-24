@@ -2,8 +2,6 @@
 Description: The CTransInPlaceInputPin class implements an input pin that is used by the CTransInPlaceFilter class.
 ms.assetid: 8cd2f17d-64b4-4ee6-b31a-e841ada03ce6
 title: CTransInPlaceInputPin class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

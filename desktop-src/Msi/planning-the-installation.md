@@ -2,8 +2,6 @@
 Description: When the installation of an existing application is moved to Windows Installer from another setup technology, the setup developer may start authoring a Windows Installer package using the source and target file images of the existing installation.
 ms.assetid: 8b0fb473-e19f-4427-b2a1-d0721cde9d38
 title: Planning the Installation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

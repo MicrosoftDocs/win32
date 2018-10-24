@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 6ef4e210-0733-4f2a-89c1-1a7aca5a19d9
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Using the WMI Scripting Type Library
 ms.author: windowssdkdev

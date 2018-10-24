@@ -2,8 +2,6 @@
 Description: Describes a triangular high-order patch.
 ms.assetid: 3f97120b-3b32-4f95-8614-7b263ff330db
 title: D3DTRIPATCH_INFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

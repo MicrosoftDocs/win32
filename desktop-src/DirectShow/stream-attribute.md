@@ -2,8 +2,6 @@
 Description: The stream attribute specifies which stream to use in a multi-stream source file.
 ms.assetid: fd0ec0c7-97eb-422f-866f-04a2e749a3f3
 title: stream Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

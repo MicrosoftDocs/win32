@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 87bc5d10-a5d7-444b-b823-4e1a2d63efb3
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating WMI Providers
 ms.author: windowssdkdev

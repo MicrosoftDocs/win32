@@ -2,8 +2,6 @@
 Description: Associates settings data with a managed element.
 ms.assetid: 3fdf111b-3ec1-4559-94ce-27d6a8cd0080
 title: CIM_SettingsDefineState class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

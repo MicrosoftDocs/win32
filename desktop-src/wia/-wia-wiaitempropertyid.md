@@ -2,8 +2,6 @@
 Description: Most of the Windows Image Acquisition (WIA) property constants are grouped in one enumerated data type, WiaItemPropertyId for scripting authors.
 ms.assetid: d0fd6bd1-c646-4ed8-a6b2-43b424af8288
 title: WiaItemPropertyId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

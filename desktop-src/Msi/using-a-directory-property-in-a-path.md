@@ -2,8 +2,6 @@
 Description: The directories in the Directory table specify the layout of an installation.
 ms.assetid: 59f6ae09-d013-46d7-a1a7-0543f31ac487
 title: Using a Directory Property in a Path
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

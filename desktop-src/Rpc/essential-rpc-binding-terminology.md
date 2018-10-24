@@ -4,8 +4,6 @@ description: To better aid in a discussion of the client/server connection proce
 ms.assetid: 05aca325-87ee-4581-9152-a8a2ff7fb490
 keywords:
 - Remote Procedure Call RPC , described, binding
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

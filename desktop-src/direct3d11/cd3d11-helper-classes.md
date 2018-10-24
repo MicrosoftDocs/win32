@@ -2,8 +2,6 @@
 title: CD3D11 Helper Structures
 description: Direct3D 11 defines several helper structures that you can use to create Direct3D structures. These helper structures behave like C++ classes.
 ms.assetid: E44951D9-7830-4825-B7FA-CF98CC0D024C
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

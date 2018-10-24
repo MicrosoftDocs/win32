@@ -2,8 +2,6 @@
 title: Swap Chains
 description: Swap chains control the back buffer rotation, forming the basis of graphics animation.
 ms.assetid: AABF5FDE-DB49-4B29-BC0E-032E0C7DF9EB
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

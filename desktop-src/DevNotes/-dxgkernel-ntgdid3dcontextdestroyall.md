@@ -2,8 +2,6 @@
 Description: Queries the amount of free memory in the driver-managed memory heap.
 ms.assetid: d7f8792b-a515-4e70-9474-6a3474b6612b
 title: NtGdiD3DContextDestroyAll function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

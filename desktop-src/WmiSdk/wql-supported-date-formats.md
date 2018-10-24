@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 24d70b7f-681b-4a36-bb67-beaf69f4919f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WQL-Supported Date Formats
 ms.author: windowssdkdev

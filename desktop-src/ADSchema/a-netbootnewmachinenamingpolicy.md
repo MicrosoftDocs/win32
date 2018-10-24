@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: e8ffc9b1-b2a2-4216-8498-85cb6c8cc7ae
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - netboot-New-Machine-Naming-Policy attribute AD Schema

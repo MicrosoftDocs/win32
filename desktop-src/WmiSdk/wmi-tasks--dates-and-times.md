@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: dd01a732-5c88-4c24-a551-4d5452e712cc
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Dates and Times'
 ms.author: windowssdkdev

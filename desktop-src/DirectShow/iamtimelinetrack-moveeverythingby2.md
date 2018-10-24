@@ -2,8 +2,6 @@
 Description: This method is not supported.
 ms.assetid: 082922fc-dda9-4970-979c-301178152502
 title: IAMTimelineTrack::MoveEverythingBy2 method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 9020b337-d44f-4247-b623-68a1bcf35abb
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: File and Directory Access Rights Constants
 ms.author: windowssdkdev

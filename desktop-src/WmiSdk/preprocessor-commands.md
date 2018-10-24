@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 48edf4d6-c939-4fe9-9a02-761a6b7b3bd6
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Preprocessor Commands
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: The following GUIDs define the types for the mutual exclusion object for Advanced Systems Format (ASF) streams.
 ms.assetid: 3db8eebd-2e26-4c77-8f66-7d08436c9e42
 title: ASF Mutual Exclusion Type GUIDs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

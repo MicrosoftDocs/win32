@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ff2d54d4-b8ee-4bb8-b6f7-081a1ca20489
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemEventSource.NextEvent method
 ms.author: windowssdkdev

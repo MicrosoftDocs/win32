@@ -2,8 +2,6 @@
 title: Enumerate All Destinations
 description: The following sample code shows how to enumerate all destinations in the routing table.
 ms.assetid: 0dced1f8-5dc3-4233-aeb9-35c81c34b345
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

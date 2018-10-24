@@ -2,8 +2,6 @@
 Description: The put\_KeyType method specifies the type of key.
 ms.assetid: 4a6201e6-1939-4da6-8c9f-1c34b9713ecb
 title: IDxtKey::put_KeyType method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Raised by a stream sink to request a new media sample from the pipeline.
 ms.assetid: 35020a15-942f-4dd0-9ca4-815affdacecf
 title: MEStreamSinkRequestSample event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A callback function that must be implemented by a user to set a texture.
 ms.assetid: 971802f4-ea7a-4906-83b8-0cd83111716e
 title: ID3DXEffectStateManager::SetTexture method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

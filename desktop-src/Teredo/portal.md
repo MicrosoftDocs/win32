@@ -2,8 +2,6 @@
 title: Teredo
 description: .
 ms.assetid: fc213675-dbdb-42a1-a09f-dda598b95b94
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

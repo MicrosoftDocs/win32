@@ -7,8 +7,6 @@ keywords:
 - online stores,programming guide
 - type 2 online stores,programming guide
 - programming guide,type 2 online stores
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The SetErrorValue method adds a new HRESULT value (type VT\_ERROR) or overwrites an existing one.
 ms.assetid: 87369791-42bd-4523-b15a-acf0ea1e5af8
 title: IPortableDeviceValues::SetErrorValue method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

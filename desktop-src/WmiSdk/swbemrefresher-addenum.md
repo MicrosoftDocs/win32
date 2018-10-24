@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 0fa22a47-4050-43ae-aad3-3a8ebbf5e9b2
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemRefresher.AddEnum method
 ms.author: windowssdkdev

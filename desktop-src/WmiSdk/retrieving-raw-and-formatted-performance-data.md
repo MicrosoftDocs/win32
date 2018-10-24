@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: B3CD7E2C-9FCF-42FB-8713-01A696E905B0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving Documentation for Raw and Formatted Performance Data Objects
 ms.author: windowssdkdev

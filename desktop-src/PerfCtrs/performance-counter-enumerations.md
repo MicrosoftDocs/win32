@@ -2,8 +2,6 @@
 Description: You use the following enumerations when working with performance data.
 ms.assetid: EF4B540A-E9F7-44F8-B5DC-027705C939FA
 title: Performance Counter Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

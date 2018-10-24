@@ -2,8 +2,6 @@
 Description: A child process can inherit several properties and resources from its parent process.
 ms.assetid: c530e723-2d40-4022-a259-dfc650604e44
 title: Inheritance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

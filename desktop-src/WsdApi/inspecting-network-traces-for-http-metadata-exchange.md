@@ -2,8 +2,6 @@
 Description: Any network packet analyzer that can display raw packets can be used to inspect HTTP metadata exchange requests. Microsoft Network Monitor 3 (Netmon) is recommended. For more information about Netmon, see Downloading Netmon and Sample DPWS Filters.
 ms.assetid: b3b6c4d1-5fa3-41fb-ae1d-067638e385b0
 title: Inspecting Network Traces for HTTP Metadata Exchange
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

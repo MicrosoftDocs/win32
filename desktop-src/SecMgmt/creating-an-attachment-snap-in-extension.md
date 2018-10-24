@@ -2,8 +2,6 @@
 Description: An attachment snap-in extension provides an interface that users can use to change service-specific configuration settings.
 ms.assetid: 6f2dc372-dee4-4793-b943-395c0587ed5e
 title: Creating an Attachment Snap-in Extension
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

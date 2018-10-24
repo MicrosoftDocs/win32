@@ -2,8 +2,6 @@
 Description: DirectDraw Exclusive Mode
 ms.assetid: 3ef4f267-4dc2-421b-ade4-6b1efa364733
 title: DirectDraw Exclusive Mode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

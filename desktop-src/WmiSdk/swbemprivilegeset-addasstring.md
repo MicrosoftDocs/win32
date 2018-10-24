@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 729ed4e3-2c5c-4bb4-acc6-cf9ad0d5eaf1
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.AddAsString method
 ms.author: windowssdkdev

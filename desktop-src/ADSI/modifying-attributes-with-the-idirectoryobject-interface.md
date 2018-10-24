@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 1d3fe8f6-34be-4bcb-8ba5-2d92ddc0852a
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - Modifying Attributes with the IDirectoryObject Interface ADSI

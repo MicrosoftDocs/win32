@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5fc519ac-ae05-4daf-a681-7935190f1d46
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 1031 through 1040
 ms.author: windowssdkdev

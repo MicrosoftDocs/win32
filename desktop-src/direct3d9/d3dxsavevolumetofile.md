@@ -2,8 +2,6 @@
 Description: Saves a volume to a file on disk.
 ms.assetid: 4d33fba5-e003-4385-b683-aff6723af2a5
 title: D3DXSaveVolumeToFile function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Loads a mesh from memory.
 ms.assetid: bbaecc00-97ab-433c-b0c7-ac7837bfc3be
 title: D3DXLoadMeshFromXInMemory function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

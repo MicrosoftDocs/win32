@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 86eaeb5c-c27e-4794-88e2-e0ffbb885290
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Securing WMI Events
 ms.author: windowssdkdev

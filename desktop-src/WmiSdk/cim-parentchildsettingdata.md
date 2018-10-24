@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f6e93c22-077b-4604-8d0d-9584b1f4dce1
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ParentChildSettingData class
 ms.author: windowssdkdev

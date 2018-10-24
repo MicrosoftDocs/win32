@@ -2,8 +2,6 @@
 Description: The Client object represents a relationship between a component and client product.
 ms.assetid: ac1fbd74-fbc4-4f76-8e14-af48443a8528
 title: Client object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

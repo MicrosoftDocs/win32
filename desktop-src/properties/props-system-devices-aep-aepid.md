@@ -2,8 +2,6 @@
 Description: Identity of the Device Association Endpoint.
 ms.assetid: ff9a1588-2dde-4c43-a808-3368877a44a7
 title: System.Devices.Aep.AepId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

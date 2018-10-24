@@ -2,8 +2,6 @@
 Description: Sent by the IMFMediaSource that encapsulates the device to indicate that the device has been removed.
 ms.assetid: 107AFF19-B444-4B62-9217-46A99AC3632C
 title: MEVideoCaptureDeviceRemoved event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

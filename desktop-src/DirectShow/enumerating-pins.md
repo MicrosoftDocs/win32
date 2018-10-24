@@ -2,8 +2,6 @@
 Description: Enumerating Pins
 ms.assetid: 231f10c1-46b4-4b66-b0ce-06a191237dfb
 title: Enumerating Pins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 2f6c51a3-003c-4d68-9e4d-9be5d325a477
 title: Connecting PrintCapabilities with the Print Schema
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

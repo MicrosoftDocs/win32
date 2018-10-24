@@ -2,8 +2,6 @@
 Description: Country/Region Assignments
 ms.assetid: a71784eb-e6b4-4dab-91fc-103c39dd1591
 title: Country/Region Assignments
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

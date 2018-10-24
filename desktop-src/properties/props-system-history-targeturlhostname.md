@@ -2,8 +2,6 @@
 Description: Mark of the Web zone, as URLZONE enumeration value.
 ms.assetid: d6e81804-80c5-4b05-a256-6355ae109970
 title: System.History.TargetUrlHostName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

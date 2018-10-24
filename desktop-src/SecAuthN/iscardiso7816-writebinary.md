@@ -2,8 +2,6 @@
 Description: The WriteBinary method constructs an application protocol data unit (APDU) command that writes binary values into an elementary file.
 ms.assetid: e38273d5-4eb0-4c0b-829a-c78e511a38bc
 title: ISCardISO7816::WriteBinary method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

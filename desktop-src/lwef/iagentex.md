@@ -2,8 +2,6 @@
 title: IAgentEx
 description: IAgentEx
 ms.assetid: 6d9d67c6-26f6-435a-9ddf-f1f0a667f963
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

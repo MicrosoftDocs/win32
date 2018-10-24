@@ -2,8 +2,6 @@
 Description: The TAPI\_REPLY message is obsolete and should not be used.
 ms.assetid: d9b501aa-ab08-474a-a31f-69632f6a1ab5
 title: TAPI_REPLY
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

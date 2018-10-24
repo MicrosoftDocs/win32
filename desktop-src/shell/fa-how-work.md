@@ -2,8 +2,6 @@
 Description: File associations define how the Shell treats a file type on the system.
 ms.assetid: A1C05857-26F8-4d4a-977B-4782E8AFA317
 title: How File Associations Work
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

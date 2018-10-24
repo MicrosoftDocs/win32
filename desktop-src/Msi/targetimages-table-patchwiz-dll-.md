@@ -2,8 +2,6 @@
 Description: The TargetImages table contains information about the target images of the product. A Windows Installer patch package updates a target image into an upgraded image.
 ms.assetid: 4681715e-9918-4d7b-8f33-1cca2bb34eb7
 title: TargetImages Table (Patchwiz.dll)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

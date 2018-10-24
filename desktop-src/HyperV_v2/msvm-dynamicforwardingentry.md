@@ -2,8 +2,6 @@
 Description: Represents an entry in the forwarding (filtering) database that is associated with the transparent bridging service.
 ms.assetid: 3C9FAE99-9543-4A6A-B578-3F4626598DB3
 title: Msvm_DynamicForwardingEntry class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

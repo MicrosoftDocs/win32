@@ -2,8 +2,6 @@
 Description: Pre-backup tasks under VSS are focused on creating a shadow copy of the volumes containing data for backup.
 ms.assetid: e6b082af-719b-4426-8217-0fc940f5884d
 title: Overview of Pre-Backup Tasks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

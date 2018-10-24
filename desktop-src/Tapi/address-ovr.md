@@ -2,8 +2,6 @@
 Description: The concept of an address is core to most communications operations.
 ms.assetid: 32fbd06b-f6f2-4024-b8d5-3d6eef16bca2
 title: Address
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

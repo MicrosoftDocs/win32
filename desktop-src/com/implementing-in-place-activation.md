@@ -2,8 +2,6 @@
 title: Implementing In-Place Activation
 description: Implementing In-Place Activation
 ms.assetid: 5fd67d1c-1dc5-4d83-a41e-b64d84cbf212
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

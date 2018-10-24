@@ -2,8 +2,6 @@
 Description: The get\_OutputStreams method retrieves the number of audio and video streams contained in the media source. Any other stream types, such as data streams, are ignored.
 ms.assetid: 9acd0a1e-c968-4c3b-a71a-b6aa2219a8cd
 title: IMediaDet::get_OutputStreams method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

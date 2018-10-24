@@ -2,8 +2,6 @@
 Description: Western Europe
 ms.assetid: 3af46a07-027f-4b31-9958-4a16971c81f8
 title: Western Europe
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

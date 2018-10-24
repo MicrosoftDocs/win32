@@ -2,8 +2,6 @@
 Description: Represents a service access point (SAP), which is able to utilize or invoke a service. SAPs indicate that a service is available for other entities to use.
 ms.assetid: 09349c95-3f7e-46c5-bea1-c3d14ee16a2a
 title: CIM_ServiceAccessPoint class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

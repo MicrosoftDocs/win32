@@ -2,8 +2,6 @@
 title: The Programming Model
 description: In the early days of computer programming, each program was written as a large monolithic chunk, filled with goto statements.
 ms.assetid: b64d5338-a06a-4a27-bedb-c9011fa5a5a3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

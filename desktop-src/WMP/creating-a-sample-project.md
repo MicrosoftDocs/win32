@@ -17,8 +17,6 @@ keywords:
 - creating sample projects
 - samples,type 2 online stores
 - project wizard
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

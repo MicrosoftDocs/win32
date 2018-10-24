@@ -2,8 +2,6 @@
 Description: Removes a child IContextNode.
 ms.assetid: ed1d7b35-f6ba-4eff-888d-5cc492f02832
 title: IContextNode::DeleteSubNode method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

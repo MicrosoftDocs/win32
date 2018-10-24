@@ -2,8 +2,6 @@
 Description: A service provider can indicate externally generated phone numbers by setting members of the LINECALLINFO structure when processing the TSPI\_lineGetCallInfo function.
 ms.assetid: 10c83199-de7d-4a9b-84c4-ef8f5ea5055a
 title: Externally Generated Phone Numbers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

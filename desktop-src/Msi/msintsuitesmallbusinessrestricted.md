@@ -2,8 +2,6 @@
 Description: On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteSmallBusinessRestricted property to 1 if Microsoft Small Business Server is installed with the restrictive client license in force.
 ms.assetid: a7100df4-6fe4-4159-ba94-9b5bd1803107
 title: MsiNTSuiteSmallBusinessRestricted property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

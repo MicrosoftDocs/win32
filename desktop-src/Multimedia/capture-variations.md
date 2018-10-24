@@ -4,8 +4,6 @@ description: Capture Variations
 ms.assetid: 8c9e51a8-4f1a-4c9e-922a-a2d5277ec298
 keywords:
 - AVICap,capture types
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

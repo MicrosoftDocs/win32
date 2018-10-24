@@ -2,8 +2,6 @@
 Description: A DLL can optionally specify an entry-point function.
 ms.assetid: ec035fc6-0a6f-4e52-a4cc-8d7a25a94366
 title: Dynamic-Link Library Entry-Point Function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

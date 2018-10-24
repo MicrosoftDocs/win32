@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: EE12F21C-20C1-4B86-A44D-0802B35DF762
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemConfigureRefresher Methods
 ms.author: windowssdkdev

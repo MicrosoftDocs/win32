@@ -2,8 +2,6 @@
 Description: The ProgId table contains information for program IDs and version independent program IDs that must be generated as a part of the product advertisement.
 ms.assetid: 66a7e170-6f70-4db7-98f4-8a074471b9f2
 title: ProgId Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

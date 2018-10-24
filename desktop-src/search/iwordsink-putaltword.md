@@ -2,8 +2,6 @@
 Description: Puts an alternative word and its position in the IWordSink object.
 ms.assetid: 5C8A9B30-F9B5-42E9-ADAC-A11230F0C2FA
 title: IWordSink::PutAltWord method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

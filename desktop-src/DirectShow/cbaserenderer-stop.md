@@ -2,8 +2,6 @@
 Description: The Stop method stops the filter.
 ms.assetid: 80eac207-5db3-4b06-bbae-eca72e37d09d
 title: CBaseRenderer.Stop method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

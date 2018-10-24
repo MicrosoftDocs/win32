@@ -2,8 +2,6 @@
 title: ComboBoxEx Control Reference
 description: This section contains information about the programming elements used with ComboBoxEx controls.
 ms.assetid: 'vs|controls|~\controls\comboex\reflist.htm'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

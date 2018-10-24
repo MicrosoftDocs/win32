@@ -2,8 +2,6 @@
 Description: The GetMediaType method retrieves a preferred media type, by index value.
 ms.assetid: d106e6d1-66ff-4460-9ea2-c93f16116cf4
 title: CTransformOutputPin.GetMediaType method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

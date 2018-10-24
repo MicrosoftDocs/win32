@@ -2,8 +2,6 @@
 Description: TAPI methods and functions may return a TAPI\_E\_ constant. These constants indicate the outcome of an API call.
 ms.assetid: d242e0e8-99ae-4f5b-9f2d-e7e25953f7c8
 title: TAPI_E_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

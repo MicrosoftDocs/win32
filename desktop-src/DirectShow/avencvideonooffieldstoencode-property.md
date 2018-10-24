@@ -2,8 +2,6 @@
 Description: Specifies the number of fields to encode.
 ms.assetid: 5848493c-1f8e-4fe2-8261-dfdc8f61b265
 title: AVEncVideoNoOfFieldsToEncode property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

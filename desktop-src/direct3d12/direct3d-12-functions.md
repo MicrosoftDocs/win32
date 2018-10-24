@@ -2,8 +2,6 @@
 title: Core Functions
 description: The following functions are declared in d3d12.h.
 ms.assetid: C0F9A52C-483D-40B2-9E1F-CB92ADDC2856
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

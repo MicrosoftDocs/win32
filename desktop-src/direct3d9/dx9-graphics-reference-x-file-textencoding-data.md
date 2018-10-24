@@ -2,8 +2,6 @@
 Description: Data objects contain the actual data or a reference to that data. Each data object has a corresponding template that specifies the data type. The following sections discuss the form and parts of data objects.
 ms.assetid: 61dbe241-2658-4dd0-af89-3db204b56fad
 title: Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

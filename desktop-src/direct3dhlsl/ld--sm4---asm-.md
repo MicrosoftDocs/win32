@@ -2,8 +2,6 @@
 title: ld (sm4 - asm)
 description: Fetches data from the specified buffer or texture without any filtering (e.g. point sampling) using the provided integer address. The source data may come from any resource type, other than TextureCube.
 ms.assetid: DEE9A55F-EDFE-478E-8169-5BF9C43E98AF
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

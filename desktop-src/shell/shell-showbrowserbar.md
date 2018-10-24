@@ -2,8 +2,6 @@
 Description: Displays a browser bar.
 ms.assetid: 203636D2-54D3-4163-B9AC-39213D6F4203
 title: Shell.ShowBrowserBar method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

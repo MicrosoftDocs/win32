@@ -2,8 +2,6 @@
 title: CalculateLevelOfDetailUnclamped (DirectX HLSL Texture Object)
 description: Calculates the LOD without clamping the result.
 ms.assetid: 1ae8512d-ac33-4a12-88da-69482771e872
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

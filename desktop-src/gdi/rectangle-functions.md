@@ -2,8 +2,6 @@
 Description: The following functions are used with rectangles.
 ms.assetid: b03da8c9-ee6d-4045-8d90-8beceb09ead5
 title: Rectangle Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

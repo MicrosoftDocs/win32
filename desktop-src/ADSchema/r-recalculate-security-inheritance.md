@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 2d6b8a7b-a2ca-4ca6-9b6d-e8c040e8b704
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - Recalculate-Security-Inheritance extended right AD Schema

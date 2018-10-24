@@ -1,8 +1,6 @@
 ---
 Description: Retrieves an array of pointers to item identifier lists (PIDLs) for all selected objects. Used by SHShellFolderView\_Message.
 title: SFVM_GETSELECTEDOBJECTS message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

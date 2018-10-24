@@ -12,8 +12,6 @@ keywords:
 - scripts,commands
 - scripts,Windows Media Player
 - Windows Media Player
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

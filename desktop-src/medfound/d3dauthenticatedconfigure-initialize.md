@@ -2,8 +2,6 @@
 Description: Initializes the authenticated channel.
 ms.assetid: a74edbaa-af57-4f8e-9974-f6053f59377f
 title: D3DAUTHENTICATEDCONFIGURE_INITIALIZE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

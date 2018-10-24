@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 369bf2d7-8350-4089-8e11-28e2b641f792
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving a Timed or Repeating Event
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 title: VML OrientationAngle Attribute
 description: VML OrientationAngle Attribute
 ms.assetid: 9fb355e0-d73c-4e16-8f24-772c8ce1533b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

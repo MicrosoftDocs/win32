@@ -11,8 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),profile IDs
 - system profiles,list of
 - profile IDs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

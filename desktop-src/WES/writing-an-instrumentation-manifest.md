@@ -2,8 +2,6 @@
 title: Writing an Instrumentation Manifest
 description: Applications and DLLs use an instrumentation manifest to identify their instrumentation providers and the events that the providers write.
 ms.assetid: eec9d129-acde-4302-9121-634b3fad8455
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

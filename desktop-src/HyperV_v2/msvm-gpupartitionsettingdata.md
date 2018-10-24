@@ -2,8 +2,6 @@
 Description: Represents the configured state of a GPU partition device.
 ms.assetid: 33ec4ea2-4e79-4c84-8abe-da8308ad6702
 title: Msvm_GpuPartitionSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

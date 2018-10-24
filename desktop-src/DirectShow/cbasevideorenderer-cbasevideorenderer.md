@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 9b69632b-7932-4a9b-bd68-69b06dd8a5ec
 title: CBaseVideoRenderer.CBaseVideoRenderer constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

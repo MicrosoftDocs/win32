@@ -2,8 +2,6 @@
 Description: The numerator of PKEY\_Image\_CompressedBitsPerPixel.
 ms.assetid: 934f045a-0e41-42df-b588-770851718890
 title: System.Image.CompressedBitsPerPixelNumerator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2c16723c-1755-4ec1-a6db-55d769f8b6fd
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - FetchReportFailedPerUserEntries method Remote Desktop Services

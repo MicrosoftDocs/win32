@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 70d12df4-f0ac-499a-8b2f-6ba83b77869e
-ms.prod: windows-server-dev
-ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 keywords:
 - SessionFlagCredUsernamePassword method Windows Remote Management

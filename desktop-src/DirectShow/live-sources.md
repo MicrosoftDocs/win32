@@ -2,8 +2,6 @@
 Description: Live Sources
 ms.assetid: 571fe5e5-9616-463b-837c-f8dbb8adf1be
 title: Live Sources
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

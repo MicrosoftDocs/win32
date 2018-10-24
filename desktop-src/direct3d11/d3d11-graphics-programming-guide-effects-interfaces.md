@@ -2,8 +2,6 @@
 title: Effect System Interfaces (Direct3D 11)
 description: The effect system defines several interfaces for managing effect state.
 ms.assetid: 5cba6055-d153-4837-9a08-96efbde5f48f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Creates a volume texture from a file.
 ms.assetid: fa11706a-83cc-4795-957d-6d0e1faf2a8f
 title: D3DXCreateVolumeTextureFromFileEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

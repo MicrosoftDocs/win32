@@ -2,8 +2,6 @@
 Description: The Peer Graphing and Peer Grouping Infrastructures allow applications to connect directly to one node (Graphing) or member (Grouping), and then exchange data directly with the node. This connection is called a direct connection.
 ms.assetid: 65f3d3a5-c015-4724-b9ed-45af7fde7a45
 title: Direct Connections
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Initializes an IWICColorTransform with a IWICBitmapSource and transforms it from one IWICColorContext to another.
 ms.assetid: 68C8EF36-DFFF-4FF3-BD9A-583508F9C2B1
 title: IWICColorTransform_Initialize_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

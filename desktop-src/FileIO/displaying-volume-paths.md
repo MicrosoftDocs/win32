@@ -2,8 +2,6 @@
 Description: C++ example shows how to display all paths for each volume and device. For each volume in the system, the example locates the volume, obtains the device name, obtains all paths for that volume, and displays the paths.
 ms.assetid: a9ee8cc8-fa62-4fc9-aa69-35ee98afe417
 title: Displaying Volume Paths
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

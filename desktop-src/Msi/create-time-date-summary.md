@@ -2,8 +2,6 @@
 Description: The Create Time/Date Summary property conveys the time and date when an author created the installation package, transform, or patch package.
 ms.assetid: b0d1e51e-b1d7-4637-97cb-5cfd457a0792
 title: Create Time/Date Summary property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

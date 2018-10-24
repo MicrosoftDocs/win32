@@ -2,8 +2,6 @@
 Description: Creates a texture from a file.
 ms.assetid: 247b0ee2-ee31-4090-b94c-41951b46675f
 title: D3DXCreateTextureFromFile function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

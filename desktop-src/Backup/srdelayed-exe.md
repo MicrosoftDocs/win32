@@ -5,8 +5,6 @@ ms.assetid: cedeb48e-bc1d-48d1-9bee-0b8b0132c3e5
 keywords:
 - Srdelayed.exe Backup
 - system state recovery Backup
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

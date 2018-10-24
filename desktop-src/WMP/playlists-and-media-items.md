@@ -13,8 +13,6 @@ keywords:
 - playlists,media items
 - metafile playlists,media items
 - Windows Media metafile playlists,media items
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

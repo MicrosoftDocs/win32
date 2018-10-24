@@ -2,8 +2,6 @@
 Description: Scales a color value.
 ms.assetid: 35e8adee-7ce5-4db5-8276-f0e408748e78
 title: D3DXColorScale function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

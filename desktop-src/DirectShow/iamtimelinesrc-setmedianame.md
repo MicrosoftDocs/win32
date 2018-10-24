@@ -2,8 +2,6 @@
 Description: The SetMediaName method specifies the name of the source file represented by this source object.
 ms.assetid: 60307c87-9dce-4e60-b14b-07d2c8604dd8
 title: IAMTimelineSrc::SetMediaName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

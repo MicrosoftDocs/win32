@@ -10,8 +10,6 @@ keywords:
 - Windows Media Player Mobile skins,button placement
 - skins,button placement
 - button placement in skins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

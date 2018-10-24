@@ -2,8 +2,6 @@
 Description: This topic lists the main programming elements used with shortcut (context) menus, and shortcut menu handlers. Shortcut menu handlers, which also known as context menu handlers or verb handlers, are a type of file type handler.
 ms.assetid: efd96a52-6455-40bc-9c21-65f89728e771
 title: Shortcut Menu Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

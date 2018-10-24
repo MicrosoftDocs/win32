@@ -2,8 +2,6 @@
 Description: The WwanFreeMemory function frees a block of memory.
 ms.assetid: 4CF45F7F-3FEC-4AB9-9A4E-FE1151837B79
 title: WwanFreeMemory function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

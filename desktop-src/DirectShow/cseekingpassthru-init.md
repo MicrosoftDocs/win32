@@ -2,8 +2,6 @@
 Description: The Init method initializes the object.
 ms.assetid: a919adfa-0ffb-4241-b709-ad0e8d55476a
 title: CSeekingPassThru.Init method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

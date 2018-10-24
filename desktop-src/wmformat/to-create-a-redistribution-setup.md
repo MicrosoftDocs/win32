@@ -14,8 +14,6 @@ keywords:
 - redistribution,creating
 - redistribution,WMFDist.exe
 - WMFDist.exe
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

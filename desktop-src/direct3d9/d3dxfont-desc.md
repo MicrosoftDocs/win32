@@ -2,8 +2,6 @@
 Description: Defines the attributes of a font.
 ms.assetid: 6f456f26-3410-4205-a013-e3c12bf0feb1
 title: D3DXFONT_DESC structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

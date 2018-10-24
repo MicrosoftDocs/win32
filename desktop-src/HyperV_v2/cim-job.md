@@ -2,8 +2,6 @@
 Description: A logical element that represents a unit of work to execute, such as a script or a print job. A job is distinct from a process because a job can be scheduled or queued, and its execution is not limited to a single system.
 ms.assetid: 35e35c3f-617b-429b-b68f-fa0c0c330e92
 title: CIM_Job class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

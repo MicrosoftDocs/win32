@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 872c2a33-327e-41a8-81db-905c46673f13
 title: Best Practices for On/Off Performance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

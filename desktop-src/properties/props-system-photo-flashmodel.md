@@ -2,8 +2,6 @@
 Description: String indicating the model of the flash used to take the picture. Can be blank or not present.
 ms.assetid: adecb337-02a3-449c-b797-560f9241d133
 title: System.Photo.FlashModel
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Stop event is sent when the Stop command has been enabled or disabled.
 ms.assetid: 'b631dcb6-1117-4ba2-84e3-f4a60b94a4bc'
 title: Stop
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

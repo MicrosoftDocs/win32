@@ -2,8 +2,6 @@
 Description: Translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.
 ms.assetid: ecd63eee-bf86-42b5-93d8-3c7871aa6324
 title: RtlUnicodeToUTF8N function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

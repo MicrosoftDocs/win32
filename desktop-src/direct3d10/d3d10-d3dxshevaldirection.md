@@ -2,8 +2,6 @@
 Description: Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
 ms.assetid: c86973cc-c5b0-4358-b7eb-5c31f38b5b5a
 title: D3DXSHEvalDirection function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

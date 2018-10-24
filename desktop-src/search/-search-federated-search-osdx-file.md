@@ -2,8 +2,6 @@
 Description: Describes how to create an OpenSearch Description (.osdx) file to connect external data stores to the Windows Client via the OpenSearch protocol.
 ms.assetid: 62cd88cd-e6ff-4e46-887d-e62f7018c065
 title: Creating an OpenSearch Description File in Windows Federated Search
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

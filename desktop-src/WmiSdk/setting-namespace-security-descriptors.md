@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d3e56b30-d5a8-446a-89aa-645b44a75af6
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Namespace Security Descriptors
 ms.author: windowssdkdev

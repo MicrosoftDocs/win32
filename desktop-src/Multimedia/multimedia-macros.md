@@ -8,8 +8,6 @@ keywords:
 - multimedia reference,macros
 - reference for multimedia,macros
 - multimedia macros
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

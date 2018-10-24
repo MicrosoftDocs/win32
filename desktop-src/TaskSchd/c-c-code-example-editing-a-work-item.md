@@ -2,8 +2,6 @@
 title: C/C++ Code Example Editing a Work Item
 description: This example displays the property pages for a known task and allows a user to edit the properties of the work item. This example assumes that the task and the test task already exist on the local computer.
 ms.assetid: 526bc354-3585-43aa-a727-03c04e607a64
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

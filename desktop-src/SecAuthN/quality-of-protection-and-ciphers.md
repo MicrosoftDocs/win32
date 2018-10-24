@@ -2,8 +2,6 @@
 Description: The quality of protection determines the level of security that is used when sending and receiving messages. Microsoft Digest selects a level based on the requirements of the client and server.
 ms.assetid: d3788465-3e9f-4346-9e67-9626b48249b7
 title: Quality of Protection and Ciphers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

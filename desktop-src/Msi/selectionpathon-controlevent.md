@@ -2,8 +2,6 @@
 Description: The SelectionTree control uses the SelectionPathOn event to publish a Boolean value indicating whether there is a selection path associated with the currently selected feature. This event should be authored in the EventMapping table.
 ms.assetid: 441b9416-066a-429b-92d2-555584a20fa2
 title: SelectionPathOn ControlEvent
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

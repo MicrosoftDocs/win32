@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 18d9a5c5-e44c-49e9-a8f0-9386a7b1ff97
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ACS-Allocable-RSVP-Bandwidth attribute AD Schema

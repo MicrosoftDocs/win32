@@ -2,8 +2,6 @@
 title: User Account Control and BITS
 description: In Windows Vista, when an administrator user logs onto the computer, two access tokens are created a filtered standard user access token, and a full administrator access token.
 ms.assetid: 02439ab3-b885-4a2f-b507-0c48d2b30b76
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

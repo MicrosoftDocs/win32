@@ -2,8 +2,6 @@
 Description: The scheduler maintains a queue of executable threads for each priority level.
 ms.assetid: 82463d71-9cef-4608-b997-25dc9c1e1c0a
 title: Context Switches
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

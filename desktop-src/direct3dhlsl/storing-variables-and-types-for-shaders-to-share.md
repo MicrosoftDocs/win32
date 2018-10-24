@@ -2,8 +2,6 @@
 title: Storing Variables and Types for Shaders to Share
 description: The class linkage object is a namespace for variables and types that multiple shaders can share.
 ms.assetid: 8b61677b-a466-4646-b0b2-19097669f8c3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

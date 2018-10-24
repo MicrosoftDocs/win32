@@ -2,8 +2,6 @@
 Description: Specifies a compression filter to use when rendering the specified group.
 ms.assetid: ba717cac-c5a8-4821-a5f0-dd9d5fe4834e
 title: ISmartRenderEngine::SetGroupCompressor method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

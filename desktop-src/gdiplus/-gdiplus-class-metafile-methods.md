@@ -2,8 +2,6 @@
 Description: This topic lists the methods of the Metafile class. For a complete class listing, see Metafile Class.
 ms.assetid: 80a57b90-fa62-4cce-a658-f12dcbfd9d24
 title: Metafile Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

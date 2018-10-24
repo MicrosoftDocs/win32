@@ -2,8 +2,6 @@
 Description: Set the mesh's adjacency data.
 ms.assetid: 67d51ce0-7fe2-484d-9874-f1fa59632d59
 title: ID3DX10Mesh::SetAdjacencyData method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

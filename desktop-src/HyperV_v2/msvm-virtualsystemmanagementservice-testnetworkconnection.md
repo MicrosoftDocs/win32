@@ -2,8 +2,6 @@
 Description: Tests the network connectivity of a VM in a Windows network virtualization environment.
 ms.assetid: 37d4c34d-406e-4c52-afce-b0eef754eeb3
 title: TestNetworkConnection method of the Msvm_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

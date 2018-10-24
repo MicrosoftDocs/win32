@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b2ad262b-148d-47cc-8be7-6df99245aa7f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Connecting to WMI Remotely with VBScript
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: The Crawl Scope Manager (CSM) is a set of interfaces that provides methods to inform the Windows Search engine about containers to crawl and items under those containers to include or exclude in the catalog.
 ms.assetid: 7d65d00a-7294-4718-b593-89394b2e416f
 title: Using the Crawl Scope Manager
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

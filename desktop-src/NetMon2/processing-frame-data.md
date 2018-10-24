@@ -2,8 +2,6 @@
 Description: In the following example code, the monitor sets a capture filter that specifies IP only and requested protocol data.
 ms.assetid: 0945bceb-b5fe-4f07-866b-4e0468227610
 title: Processing Frame Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

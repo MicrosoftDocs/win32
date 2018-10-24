@@ -2,8 +2,6 @@
 title: Alpha mask effect
 description: This effect applies an alpha mask to an image. It has two inputs, named Destination and Mask. Color values in the Destination image are multiplied by the alpha channel of the Mask image.
 ms.assetid: fddad107-ec70-3a24-f4ae-9dc4f3716536
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

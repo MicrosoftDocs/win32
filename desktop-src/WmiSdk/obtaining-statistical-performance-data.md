@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5552d5fc-df8c-4353-8593-c106ee19dc84
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Obtaining Statistical Performance Data
 ms.author: windowssdkdev

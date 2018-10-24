@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: dbb29bc8-a675-4538-99f4-00613c83eeaa
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Scripting Access to WMI
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 title: State Property
 description: The State property describes an object's status at a moment in time. All objects support the State property.
 ms.assetid: 6a56070f-7913-45b2-b693-3c0a8b7fa2f4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

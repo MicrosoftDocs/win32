@@ -2,8 +2,6 @@
 Description: Populating COM+ Collections
 ms.assetid: df86cbab-dcb8-46ac-aebf-8516276b6e81
 title: Populating COM+ Collections
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

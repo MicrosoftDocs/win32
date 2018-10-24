@@ -2,8 +2,6 @@
 title: UI_PKEY_StandardColorsTooltips
 description: Identifies the UI\_PKEY\_StandardColorsTooltips property.
 ms.assetid: 78786f72-69d3-44f6-bef4-51d0f4497dfb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

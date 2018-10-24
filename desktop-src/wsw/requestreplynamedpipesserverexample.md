@@ -2,8 +2,6 @@
 title: RequestReplyNamedPipesServerExample
 description: This example shows a named pipes server that accepts a channel and receives and replies to messages.
 ms.assetid: 19375B2A-7650-4587-B600-B6A43571A8EF
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

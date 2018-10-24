@@ -7,8 +7,6 @@ keywords:
 - skins,text editors
 - skin definition files,text editors
 - text editors in skin definition files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

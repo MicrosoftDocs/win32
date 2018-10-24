@@ -2,8 +2,6 @@
 Description: The automatic logon (auto-logon) policy determines when it is acceptable for WinHTTP to include the default credentials in a request to the server.
 ms.assetid: 4ED8B6BC-E52D-4DE9-A9AE-1FDF61A978A9
 title: WinHttpAutoLogonLevel
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

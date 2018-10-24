@@ -2,8 +2,6 @@
 Description: Specifies the maximum buffer window, in milliseconds, of an encoded stream.
 ms.assetid: d4cb80fe-cf44-4260-a132-9d264c3efb22
 title: MFPKEY_STAT_BMAX Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

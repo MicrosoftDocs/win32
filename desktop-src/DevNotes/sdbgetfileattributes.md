@@ -2,8 +2,6 @@
 Description: Retrieves the attribute data for the specified file.
 ms.assetid: 899b4af3-8185-4ce5-8e81-05ec3a446e42
 title: SdbGetFileAttributes function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

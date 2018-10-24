@@ -2,8 +2,6 @@
 Description: Receives a texel class value that indicates texel class according to each texel's location.
 ms.assetid: 450739a8-e30c-4e56-9560-8cb705a75672
 title: ID3DXTextureGutterHelper::GetGutterMap method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Capability Querying
 description: Applications can discover the level of support for resource binding, and many other features, via the ID3D12Device CheckFeatureSupport call.
 ms.assetid: ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

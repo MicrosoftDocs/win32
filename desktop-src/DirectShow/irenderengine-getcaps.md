@@ -2,8 +2,6 @@
 Description: Not implemented.
 ms.assetid: ad48a817-a69a-419c-9186-25f45b02d8f5
 title: IRenderEngine::GetCaps method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Creates a cube texture from a file in memory.
 ms.assetid: f7e99d5a-5479-4f0b-b040-bb07e7e37666
 title: D3DXCreateCubeTextureFromFileInMemory function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

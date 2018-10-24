@@ -2,8 +2,6 @@
 Description: DevQuery Device Object Type.
 ms.assetid: 765ef06c-957e-48fa-be5f-9cedc7823564
 title: System.Devices.DevObjectType
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

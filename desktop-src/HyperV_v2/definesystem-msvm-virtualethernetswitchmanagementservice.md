@@ -2,8 +2,6 @@
 Description: Creates a new virtual switch.
 ms.assetid: de7495e9-48c5-427a-b9bb-0821b53a9b09
 title: DefineSystem method of the Msvm_VirtualEthernetSwitchManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

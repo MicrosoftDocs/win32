@@ -2,8 +2,6 @@
 title: Using Tab Controls
 description: This topic contains two examples that use tab controls.
 ms.assetid: 29cc2f47-5667-4b03-8af8-51995a90a3dc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

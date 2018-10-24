@@ -2,8 +2,6 @@
 Description: Reverses the order of the interlaced fields in the source video.
 ms.assetid: e7b45fe4-fde3-49ed-a4c7-2706c420edb3
 title: AVEncVideoFieldSwap property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

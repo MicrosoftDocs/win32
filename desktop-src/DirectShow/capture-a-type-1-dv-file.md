@@ -2,8 +2,6 @@
 Description: Capture a Type-1 DV File
 ms.assetid: fba11e9b-4900-4b29-a0c9-702272cd7387
 title: Capture a Type-1 DV File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

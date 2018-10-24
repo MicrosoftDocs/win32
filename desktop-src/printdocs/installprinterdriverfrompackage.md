@@ -2,8 +2,6 @@
 Description: 'Installs a printer driver from a driver package that is in the print server's driver store.'
 ms.assetid: '5906d9c6-9fbf-4ec6-81ce-112a9ef6d7c0'
 title: InstallPrinterDriverFromPackage function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Volume Shadow Copy Service (VSS) provides the system infrastructure for running VSS applications on Windows-based systems.
 ms.assetid: '237b2729-1e9b-4d0e-9c59-990e047a0360'
 title: The Volume Shadow Copy Service
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

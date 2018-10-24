@@ -2,8 +2,6 @@
 Description: The following sample demonstrates how to code a simple callback handler to receive Windows Installer progress messages during an installation.
 ms.assetid: ae1589ae-0ad7-4314-8bf1-c8ad51eac5a2
 title: Handling Progress Messages Using MsiSetExternalUI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This class is the event type class for ready thread events. The following syntax is simplified from MOF code.
 ms.assetid: 861ab070-5536-4897-b523-9b09a7d59b3e
 title: ReadyThread class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

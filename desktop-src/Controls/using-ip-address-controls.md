@@ -2,8 +2,6 @@
 title: Using IP Address Controls
 description: The code examples in this section demonstrate how to perform tasks associated with IP address controls.
 ms.assetid: 864B09F6-6F62-418B-AEDB-127FA6C5961D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

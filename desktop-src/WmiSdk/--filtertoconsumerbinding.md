@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e6a06161-0f1c-4754-ac34-263ccf7bf10d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__FilterToConsumerBinding class'
 ms.author: windowssdkdev

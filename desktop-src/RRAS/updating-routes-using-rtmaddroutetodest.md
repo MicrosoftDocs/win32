@@ -2,8 +2,6 @@
 title: Updating Routes Using RtmAddRouteToDest
 description: If the client does not require efficiency when adding a route, it should use the following method of updating routes.
 ms.assetid: bfa914ea-5d54-4ce9-a97c-903c497d135b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

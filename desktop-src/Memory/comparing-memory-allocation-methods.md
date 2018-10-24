@@ -2,8 +2,6 @@
 Description: The following is a brief comparison of the various memory allocation methods.
 ms.assetid: b6101014-02d2-4b19-aec6-8772a2793d38
 title: Comparing Memory Allocation Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

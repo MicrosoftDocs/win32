@@ -1,8 +1,6 @@
 ---
 ms.assetid: 16ff280d-818b-4a4e-b5a6-16e81f5b35c6
 title: Connecting to a Device
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

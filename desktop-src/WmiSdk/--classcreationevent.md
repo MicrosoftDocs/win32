@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a946a8eb-498c-4104-b80f-e520b0e62e36
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '__ClassCreationEvent class'
 ms.author: windowssdkdev

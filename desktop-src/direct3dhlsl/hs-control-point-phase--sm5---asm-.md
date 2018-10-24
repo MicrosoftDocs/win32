@@ -2,8 +2,6 @@
 title: hs_control_point_phase (sm5 - asm)
 description: Start the control point phase in a hull shader.
 ms.assetid: 9CF26691-C04F-4728-8418-40F313ABBE4A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

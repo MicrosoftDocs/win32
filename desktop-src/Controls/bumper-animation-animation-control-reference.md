@@ -2,8 +2,6 @@
 title: Animation Control Reference
 description: .
 ms.assetid: 7b624de9-d60d-4254-abe0-02d52b5d0121
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

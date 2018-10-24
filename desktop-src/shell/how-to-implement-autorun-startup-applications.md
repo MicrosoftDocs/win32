@@ -2,8 +2,6 @@
 Description: There are essentially no constraints on how to write an AutoRun startup application.
 ms.assetid: 6D95E5F0-8D93-47A8-9D8C-49CBDCA150A7
 title: How to Implement AutoRun Startup Applications
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

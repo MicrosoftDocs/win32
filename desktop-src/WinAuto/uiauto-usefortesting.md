@@ -14,8 +14,6 @@ keywords:
 - UI Automation,tools for automated testing
 - automated testing
 - tools for automated testing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

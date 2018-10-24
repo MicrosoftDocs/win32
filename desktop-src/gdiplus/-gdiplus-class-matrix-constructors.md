@@ -2,8 +2,6 @@
 Description: This topic lists the constructors of the Matrix class. For a complete class listing, see Matrix Class.
 ms.assetid: a1411b9c-69e9-441e-a476-b0eb6ec30bf2
 title: Matrix.Matrix constructors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Retrieves the name of the tablet stylus.
 ms.assetid: 94955c04-f699-428b-b4bf-53919b61b1ab
 title: ITabletCursor::GetName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

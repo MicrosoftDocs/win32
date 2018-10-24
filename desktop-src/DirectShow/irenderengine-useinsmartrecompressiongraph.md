@@ -2,8 +2,6 @@
 Description: Not supported.
 ms.assetid: 77c51c19-c67b-472d-87d7-9adc274b20ca
 title: IRenderEngine::UseInSmartRecompressionGraph method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

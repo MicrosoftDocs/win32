@@ -2,8 +2,6 @@
 Description: Lists the frequency ranges supported by the monitor.
 ms.assetid: e4713650-5f8c-4808-8b4f-1d29c54ab4e3
 title: WmiMonitorListedFrequencyRanges class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

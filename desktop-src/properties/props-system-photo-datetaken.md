@@ -2,8 +2,6 @@
 Description: The date when the photo was taken, as read from the camera in the file's Exchangeable Image File (EXIF) tag.
 ms.assetid: 197fb739-7fe6-47e8-908f-54e75cb47ec4
 title: System.Photo.DateTaken
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

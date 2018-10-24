@@ -2,8 +2,6 @@
 Description: Proxy function for the CreateFastMetadataEncoderFromDecoder method.
 ms.assetid: eae7ed9c-9205-4e41-91b2-461fd1f5d093
 title: IWICImagingFactory_CreateFastMetadataEncoderFromDecoder_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: This section contains conceptual programming topics that describe h
 ms.assetid: 428cc2f2-524a-4330-8916-7fa3c8c7c9b7
 keywords:
 - Direct2D,programming guide
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

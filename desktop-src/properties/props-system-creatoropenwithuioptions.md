@@ -2,8 +2,6 @@
 Description: Provides options that influence the behavior of UI controls that launch the file with the app specified in System.CreatorAppId.
 ms.assetid: 30351257-fa39-433d-9823-8be971d79071
 title: System.CreatorOpenWithUIOptions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

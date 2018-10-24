@@ -2,8 +2,6 @@
 Description: A device context (DC) contains attributes that affect line and curve output. The line and curve attributes include the current position, brush style, brush color, pen style, pen color, transformation, and so on.
 ms.assetid: 9529b389-85f6-421f-8429-9b61cee56ef1
 title: Line and Curve Attributes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

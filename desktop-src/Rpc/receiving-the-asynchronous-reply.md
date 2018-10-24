@@ -2,8 +2,6 @@
 title: Receiving the Asynchronous Reply
 description: After it is notified that the server has sent a reply, the client calls RpcAsyncCompleteCall with the asynchronous handle so that it can receive the reply.
 ms.assetid: 48fb3777-d90a-474b-a1fa-9d034b5791e5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

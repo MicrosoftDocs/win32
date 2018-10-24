@@ -5,8 +5,6 @@ ms.assetid: f7bc8c17-57f6-45b5-8191-4cb2152ef782
 keywords:
 - SNMP Reference SNMP
 - Reference SNMP , SNMP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

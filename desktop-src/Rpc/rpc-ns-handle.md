@@ -4,8 +4,6 @@ description: The data type RPC\_NS\_HANDLE defines a name-service handle.
 ms.assetid: d9c2a376-4972-4f16-aa8d-f0e43d5ddb8d
 keywords:
 - RPC_NS_HANDLE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

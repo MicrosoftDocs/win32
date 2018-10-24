@@ -9,8 +9,6 @@ keywords:
 - ASF (Advanced Systems Format),image streams
 - image streams,writing
 - streams,writing image streams
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

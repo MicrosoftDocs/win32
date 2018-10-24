@@ -2,8 +2,6 @@
 Description: The OnStop method must be implemented by the monitor. The MSCVC calls this method to notify the monitor that the capture will be stopped.
 ms.assetid: 5988bfb8-2068-42a1-a774-6f6be9828568
 title: IMonitor::OnStop method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

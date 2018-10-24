@@ -2,8 +2,6 @@
 Description: Occurs when the InkPicture control is double-clicked.
 ms.assetid: 5b2a6413-d415-4bf1-a291-35f4c3c5a0dc
 title: InkPicture.DblClick event
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

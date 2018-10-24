@@ -2,8 +2,6 @@
 Description: This attribute is the name of an indirect property associated with the control.
 ms.assetid: f6834427-014b-4c6f-b6bb-d8df6189f43b
 title: IndirectPropertyName Control Attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

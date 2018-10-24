@@ -2,8 +2,6 @@
 Description: The SynchronousBlockOutputPin method blocks the pin; does not return until the pin is blocked.
 ms.assetid: 10fdb788-bc72-4eda-b60b-af83f954d689
 title: CDynamicOutputPin.SynchronousBlockOutputPin method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

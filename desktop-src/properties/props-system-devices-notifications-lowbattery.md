@@ -2,8 +2,6 @@
 Description: Device low battery notification.
 ms.assetid: d708eb0c-c64e-4d65-8c2b-959ee5194a08
 title: System.Devices.Notifications.LowBattery
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

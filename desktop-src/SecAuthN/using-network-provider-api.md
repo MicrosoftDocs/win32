@@ -2,8 +2,6 @@
 Description: Lists tasks necessary for creating a network provider.
 ms.assetid: 2383ee2a-182b-4190-989d-be923fcf812b
 title: Using Network Provider API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: After your attachment snap-in extension has added itself to the Services node, it should establish communication with the Security Configuration snap-in.
 ms.assetid: 68a0e5a7-938f-45b7-90a3-8f35e5e6bbfb
 title: Establishing Communication with Configuration Snap-ins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

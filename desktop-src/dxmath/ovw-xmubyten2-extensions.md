@@ -2,8 +2,6 @@
 Description: XMUBYTEN2 describes a 2D vector for storing unsigned, normalized values as unsigned 8-bits (1 byte) integers.
 ms.assetid: 138f5158-eb63-4af8-ac9e-d20f3092c111
 title: XMUBYTEN2 Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

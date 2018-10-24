@@ -2,8 +2,6 @@
 Description: You can determine whether a specific column is a primary key or external key of the table by consulting the reference page of the table.
 ms.assetid: 47ed59f7-914a-40a6-b982-59779a003a1c
 title: Determining Whether a Column is a Primary or External Key
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

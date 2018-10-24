@@ -2,8 +2,6 @@
 Description: Proxy function for the InitializePredefined method.
 ms.assetid: 78137d43-c32f-4d60-b289-2e2154cf4d1e
 title: IWICPalette_InitializePredefined_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

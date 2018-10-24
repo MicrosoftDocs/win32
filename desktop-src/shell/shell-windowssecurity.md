@@ -1,8 +1,6 @@
 ---
 Description: Displays the Windows Security dialog box.
 title: Shell.WindowsSecurity method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

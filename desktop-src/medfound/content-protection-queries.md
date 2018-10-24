@@ -2,8 +2,6 @@
 Description: Lists the queries for the IDirect3DAuthenticatedChannel9::Query method.
 ms.assetid: 75e246c6-bf23-44d9-8fb3-46a6dc5324a5
 title: Content Protection Queries
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

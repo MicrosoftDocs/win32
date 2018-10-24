@@ -2,8 +2,6 @@
 Description: COM+ Application Recycling Tasks
 ms.assetid: 4af5470d-6ce2-469f-aa29-55f805527cc5
 title: COM+ Application Recycling Tasks
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

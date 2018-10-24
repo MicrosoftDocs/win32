@@ -2,8 +2,6 @@
 Description: The starting page of the property sheet displayed by the EditSecurity function. You can also use the CreateSecurityPage function to create a basic security property page to insert in your own property sheet.
 ms.assetid: 6623fe7e-e91d-49c7-9ad0-7791c178d12b
 title: Basic Security Property Page
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

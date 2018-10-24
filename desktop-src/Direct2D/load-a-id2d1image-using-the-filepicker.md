@@ -5,8 +5,6 @@ ms.assetid: 42158EF0-2FC8-45F3-8C92-E12318D4724F
 keywords:
 - FileOpenPicker
 - FilePicker
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

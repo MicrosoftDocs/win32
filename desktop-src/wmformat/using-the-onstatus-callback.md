@@ -7,8 +7,6 @@ keywords:
 - Windows Media Format SDK,IWMStatusCallback interface
 - OnStatus callback method,about
 - IWMStatusCallback
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

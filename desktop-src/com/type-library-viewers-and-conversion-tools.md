@@ -2,8 +2,6 @@
 title: Type Library Viewers and Conversion Tools
 description: Type Library Viewers and Conversion Tools
 ms.assetid: 35c29e2c-3ee3-4e73-b925-6aa0ccb50a00
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

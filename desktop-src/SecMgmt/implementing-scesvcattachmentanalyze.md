@@ -2,8 +2,6 @@
 Description: Must retrieve configuration information from the security database and the service, compare the two sets of information, and then update the analysis section of the security database with any differences.
 ms.assetid: f8420dde-55a2-40a0-b10d-140c28c0e9e4
 title: Implementing SceSvcAttachmentAnalyze
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

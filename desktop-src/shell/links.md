@@ -2,8 +2,6 @@
 Description: A Shell link is a data object that contains information used to access another object in the Shell's namespace&\#8212;that is, any object visible through Windows Explorer.
 ms.assetid: '32ad306d-54bd-4130-ad30-08db50ef106e'
 title: Shell Links
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

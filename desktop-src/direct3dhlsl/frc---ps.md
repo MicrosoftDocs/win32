@@ -2,8 +2,6 @@
 title: frc - ps
 description: Returns the fractional portion of each input component.
 ms.assetid: 378bc516-c81e-4538-8d6f-987536b19467
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

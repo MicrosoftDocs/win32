@@ -4,8 +4,6 @@ description: A server application can stop listening for clients by calling RpcM
 ms.assetid: 9d310cfb-72ad-448f-a66a-db6ac2478824
 keywords:
 - Remote Procedure Call RPC , tasks, stopping the server application
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

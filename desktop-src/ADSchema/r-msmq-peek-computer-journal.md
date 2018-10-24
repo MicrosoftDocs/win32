@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 76b5eeb2-01a9-45c1-aa8c-4092a7bf8d05
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - msmq-Peek-computer-Journal extended right AD Schema

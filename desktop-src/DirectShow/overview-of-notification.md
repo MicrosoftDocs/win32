@@ -2,8 +2,6 @@
 Description: Overview of Event Notification
 ms.assetid: c8b960db-fb8b-4c32-99c3-9d83432574cc
 title: Overview of Event Notification
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

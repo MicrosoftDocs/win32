@@ -2,8 +2,6 @@
 title: IAgentCharacterEx SetAutoPopupMenu
 description: IAgentCharacterEx SetAutoPopupMenu
 ms.assetid: f2402b1f-a39b-4fd5-a046-c0a3245d2af9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

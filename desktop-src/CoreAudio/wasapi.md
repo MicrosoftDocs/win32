@@ -2,8 +2,6 @@
 Description: About WASAPI
 ms.assetid: 452b9725-b0b9-4888-bbb5-a23e0067e840
 title: About WASAPI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

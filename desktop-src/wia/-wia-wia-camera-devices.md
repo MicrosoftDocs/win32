@@ -2,8 +2,6 @@
 Description: WIA represents a camera device as a hierarchical tree of IWiaItem objects.
 ms.assetid: fbb2821c-7f13-4fdd-a2ea-582be303855a
 title: WIA Camera Devices
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

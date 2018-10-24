@@ -2,8 +2,6 @@
 Description: Specialized communications hardware such as cable modems or telephony cards typically arrive with one or more TSPs and MSPs specific to the device. Documentation for the device should indicate capabilities and give programming guidelines.
 ms.assetid: 9033b651-c8f4-47f1-b953-557b519ea3bc
 title: Third-Party TSP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

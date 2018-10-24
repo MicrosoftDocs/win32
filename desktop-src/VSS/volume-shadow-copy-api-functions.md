@@ -2,8 +2,6 @@
 Description: The following are the VSS functions defined in Vssapi.dll and declared in VsBackup.h.
 ms.assetid: 023a18bf-4a4c-441d-b6e2-e7cf3b7d7c52
 title: Volume Shadow Copy API Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

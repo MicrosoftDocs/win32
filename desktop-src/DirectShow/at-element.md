@@ -2,8 +2,6 @@
 Description: The at element defines the value of a param element at a particular time, relative to the start of the transition or effect that contains the parameter.
 ms.assetid: 523aa25c-790b-4532-9c69-76544235bdfe
 title: at Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

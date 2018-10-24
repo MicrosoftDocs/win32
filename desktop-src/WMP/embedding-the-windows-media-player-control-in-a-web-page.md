@@ -12,8 +12,6 @@ keywords:
 - Windows Media Player Mobile,embedding ActiveX control
 - embedding,Web pages
 - Web page embedding,basic vs. elaborate approach
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

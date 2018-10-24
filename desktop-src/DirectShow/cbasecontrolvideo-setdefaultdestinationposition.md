@@ -2,8 +2,6 @@
 Description: The SetDefaultDestinationPosition method sets the renderer back to using the default destination position (typically the entire window client area).
 ms.assetid: 228259d7-2f1f-4528-8c8a-d20d7542523c
 title: CBaseControlVideo.SetDefaultDestinationPosition method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

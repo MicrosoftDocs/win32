@@ -2,8 +2,6 @@
 title: ActiveX Controls Interfaces
 description: ActiveX Controls Interfaces
 ms.assetid: c4ca5696-c461-4d65-b2a8-c689c056dac8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

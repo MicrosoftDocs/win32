@@ -2,8 +2,6 @@
 Description: The IWPCProviderSupport interface exposes the following methods.
 ms.assetid: A7282350-721C-4B12-ADC8-61E4E1F08D49
 title: IWPCProviderSupport Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

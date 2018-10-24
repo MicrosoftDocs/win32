@@ -2,8 +2,6 @@
 Description: The COM+ queued components service fully supports the concept of partitions. That is, when a queued component within a partition is executed, the message is queued and the component is eventually executed within the components partition.
 ms.assetid: 08b0f7b5-6c45-4471-9634-1f42fbbf500c
 title: COM+ Queued Components and Partitions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

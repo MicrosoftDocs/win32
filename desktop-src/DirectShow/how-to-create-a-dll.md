@@ -2,8 +2,6 @@
 Description: How to Create a DirectShow Filter DLL
 ms.assetid: 142bc8a2-240d-418f-9374-62d34a76ec38
 title: How to Create a DirectShow Filter DLL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

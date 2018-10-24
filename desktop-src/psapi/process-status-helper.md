@@ -6,8 +6,6 @@ keywords:
 - process status API
 - process status helper
 - PSAPI
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

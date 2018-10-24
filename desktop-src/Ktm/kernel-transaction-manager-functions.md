@@ -2,8 +2,6 @@
 Description: The following functions are used with transactions.
 ms.assetid: e9704ea8-e67d-4278-b77e-1d4787224d52
 title: Kernel Transaction Manager Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: ITTSCentralW
 description: ITTSCentralW
 ms.assetid: 09799cc3-bf92-4307-b3a0-0188ebafa9a6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

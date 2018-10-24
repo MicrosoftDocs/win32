@@ -2,8 +2,6 @@
 Description: After the conceptual and logical models are complete, you can make decisions on the physical implementation of the application.
 ms.assetid: 18c440f0-88c8-4738-9f29-c82772439b51
 title: 'The Physical Model: Application Architecture'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

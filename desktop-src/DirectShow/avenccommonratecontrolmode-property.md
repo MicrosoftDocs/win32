@@ -2,8 +2,6 @@
 Description: Specifies the rate control mode.
 ms.assetid: 4a0d49b1-30da-4ebe-abff-3fceef6dd94a
 title: AVEncCommonRateControlMode property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

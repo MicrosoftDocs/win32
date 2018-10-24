@@ -2,8 +2,6 @@
 Description: Contains the original WAVE format tag for an audio stream.
 ms.assetid: 2b30a1c2-4a42-4b09-acb6-b76267cc7ed0
 title: MF_MT_ORIGINAL_WAVE_FORMAT_TAG attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

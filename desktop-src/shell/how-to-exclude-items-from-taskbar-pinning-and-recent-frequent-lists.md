@@ -1,8 +1,6 @@
 ---
 Description: Applications, processes, and windows can opt to make themselves unavailable for pinning to the taskbar or for inclusion in the Start menu's Most Frequently Used (MFU) list.
 title: How to Exclude Items from Taskbar Pinning and Recent/Frequent Lists
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Lists the diagnostic procedures to use when troubleshooting the Add Printer Wizard.
 ms.assetid: 3ffee09b-e980-4a14-97ad-270444457dd7
 title: Troubleshooting the Add Printer Wizard
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

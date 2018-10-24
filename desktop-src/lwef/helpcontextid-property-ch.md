@@ -2,8 +2,6 @@
 title: HelpContextID Property
 description: HelpContextID Property
 ms.assetid: 7ef190ba-c194-4386-a8d6-d32d902a1c03
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

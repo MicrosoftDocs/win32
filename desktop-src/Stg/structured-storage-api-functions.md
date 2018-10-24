@@ -4,8 +4,6 @@ description: Some of the API functions for structured storage are helper functio
 ms.assetid: 99ac66bc-db73-4811-9a39-fc49bb90ada8
 keywords:
 - Structured Storage Strctd Stg ,fundamentals,API functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

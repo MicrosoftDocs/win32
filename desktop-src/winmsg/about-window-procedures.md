@@ -2,8 +2,6 @@
 Description: Each window is a member of a particular window class. The window class determines the default window procedure that an individual window uses to process its messages.
 ms.assetid: 3a8e8f4e-910d-4863-a4a7-dd37c2dfa402
 title: About Window Procedures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

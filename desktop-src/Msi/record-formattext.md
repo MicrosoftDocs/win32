@@ -2,8 +2,6 @@
 Description: The FormatText method of the Record object formats fields according to the template in field 0.
 ms.assetid: 89a98b88-bb74-458c-a2df-727a8084145b
 title: Record.FormatText method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

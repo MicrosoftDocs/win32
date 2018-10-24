@@ -4,8 +4,6 @@ description: Specifies the default and main data formats supported by an applica
 ms.assetid: 0c9387f9-d7e0-40e7-8d86-96a79a844161
 keywords:
 - DataFormats registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e6aab944-4ed8-4678-ad35-426f7b4f9a35
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing an Association Provider for Interop
 ms.author: windowssdkdev

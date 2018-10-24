@@ -2,8 +2,6 @@
 Description: Bluetooth class of device service capturing.
 ms.assetid: 56cb3cc0-0186-4230-8c1f-564ad0034c46
 title: System.Devices.Aep.Bluetooth.Cod.Services.Capturing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

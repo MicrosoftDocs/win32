@@ -2,8 +2,6 @@
 Description: Represents a portion of a relationship between a CIM\_VirtualSystemSettingData instance and a set of CIM\_ResourceAllocationSettingData instances.
 ms.assetid: 4f167517-079e-4b5f-885a-741ac1d1dc71
 title: CIM_VirtualSystemSettingDataComponent class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

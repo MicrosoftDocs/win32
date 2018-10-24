@@ -4,8 +4,6 @@ description: D3d12shader.h declares the following interfaces.
 ms.assetid: 791d2c91-3791-47fe-b887-8117ecc798ba
 keywords:
 - interfaces, Direct3D 12 Shader
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

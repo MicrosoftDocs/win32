@@ -5,8 +5,6 @@ ms.assetid: 9453b9d3-ae9c-4f57-8dd6-f84b9a76618e
 keywords:
 - MCIWndCreate function
 - MCIWndNew macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

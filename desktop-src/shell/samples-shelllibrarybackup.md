@@ -1,8 +1,6 @@
 ---
 Description: Demonstrates how to enumerate libraries as containers.
 title: Shell Library Backup Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

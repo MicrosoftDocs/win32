@@ -2,8 +2,6 @@
 title: Menu Item (MSAA UI Element Reference)
 description: A menu item represents a particular item in a menu bar or pop-up menu.
 ms.assetid: 330782d6-4293-4e65-ab49-a616d133d273
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

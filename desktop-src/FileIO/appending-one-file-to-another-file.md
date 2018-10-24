@@ -2,8 +2,6 @@
 Description: Example code that shows how an application can append one file to the end of another file, including how to open and close files, read and write to files, and lock and unlock files.
 ms.assetid: e4d1f842-16a1-47e4-84b4-9bb44aaa1dc5
 title: Appending One File to Another File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

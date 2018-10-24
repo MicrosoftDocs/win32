@@ -2,8 +2,6 @@
 title: IAgentCharacterEx SetHelpFileName
 description: IAgentCharacterEx SetHelpFileName
 ms.assetid: 1f8d2bd7-5821-46c0-b371-7ecbc526df72
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

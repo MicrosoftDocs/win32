@@ -2,8 +2,6 @@
 title: Adding Callback Functions to an Application
 description: Adding Callback Functions to an Application
 ms.assetid: b7bde1be-b229-4e00-8906-22d7dcf9ea04
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

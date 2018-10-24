@@ -2,8 +2,6 @@
 Description: Flag that specifies whether the window posts or sends its destruction message.
 ms.assetid: 553a372e-1abe-4661-bfa5-b8a63be63c72
 title: CBaseWindow::m_bDoPostToDestroy member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Pager Control Notifications
 description: .
 ms.assetid: fa99d4b3-1d9d-4bda-bcca-84f9d01ce79e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

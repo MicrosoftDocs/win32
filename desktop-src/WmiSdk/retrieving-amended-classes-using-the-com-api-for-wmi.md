@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 940a7bd9-c2ea-4deb-b5d8-207a0ce7a616
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving Amended Classes Using the COM API for WMI
 ms.author: windowssdkdev

@@ -16,8 +16,6 @@ keywords:
 - vector graphics,customizing backgrounds
 - VML shapes,customizing backgrounds
 - customizing backgrounds
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

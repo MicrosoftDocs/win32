@@ -2,8 +2,6 @@
 Description: Removes an extended property from the collection.
 ms.assetid: 0329a158-758d-4e73-95a5-bab7307e7d70
 title: ExtendedProperties.Remove method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

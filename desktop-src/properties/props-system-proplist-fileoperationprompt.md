@@ -2,8 +2,6 @@
 Description: The list of properties to show in the file operation confirmation dialog.
 ms.assetid: 0280d798-c76a-4de6-9b83-ce5c0fe98fdb
 title: System.PropList.FileOperationPrompt
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

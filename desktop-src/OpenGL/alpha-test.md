@@ -5,8 +5,6 @@ ms.assetid: 57ac6542-5bfb-4e3e-9ee0-aa35218e41a9
 keywords:
 - OpenGL processing pipeline,alpha test
 - alpha test OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: This topic lists the methods of the Matrix class. For a complete class listing, see Matrix Class.
 ms.assetid: d43a7956-9822-4093-9722-91f0d2edf50c
 title: Matrix Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

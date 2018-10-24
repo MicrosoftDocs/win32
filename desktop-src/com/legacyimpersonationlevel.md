@@ -4,8 +4,6 @@ description: Sets the default level of impersonation for applications that do no
 ms.assetid: 3f42c6d7-729d-4406-9391-4bfe28f7a59d
 keywords:
 - LegacyImpersonationLevel registry value COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

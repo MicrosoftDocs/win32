@@ -2,8 +2,6 @@
 Description: Certificate example. Create applications for api certification, install SSL certificate, server certificate, create certificate over media, such as the Internet or an intranet, that are not inherently secure.
 ms.assetid: 8d4add69-53f7-4e78-b9ea-e5915411f42f
 title: Certificate Enrollment API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Position Attribute (Lock)(VML)
 description: Position Attribute (Lock)(VML)
 ms.assetid: 98079909-d48e-4da3-a7a9-d3db541b9910
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

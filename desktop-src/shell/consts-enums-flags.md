@@ -1,8 +1,6 @@
 ---
 Description: This section describes the Windows Shell constants, enumerations, and flags.
 title: Shell Constants, Enumerations, and Flags
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

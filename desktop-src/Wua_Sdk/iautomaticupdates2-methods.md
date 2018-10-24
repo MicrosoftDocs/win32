@@ -2,8 +2,6 @@
 Description: The IAutomaticUpdates2 interface defines the following method.
 ms.assetid: ee80ad84-c74e-4998-a893-20ea86ed5b63
 title: IAutomaticUpdates2 Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

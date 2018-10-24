@@ -2,8 +2,6 @@
 title: Image List Constants
 description: Image List Constants
 ms.assetid: ED9009D7-4DC5-4800-A4D1-7D9C12FDEDE2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

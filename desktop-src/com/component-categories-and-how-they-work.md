@@ -2,8 +2,6 @@
 title: Component Categories and How they Work
 description: Component Categories and How they Work
 ms.assetid: efbf4a25-3c73-4d09-a172-6676c6d6501b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: Compatibility Administrator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

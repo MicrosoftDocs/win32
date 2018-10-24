@@ -2,8 +2,6 @@
 Description: An application can set a comment during the initiation of a session. Comments are often used for logging purposes.
 ms.assetid: 46201166-de07-47b8-8d9a-c8edb7fb6926
 title: Comment
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: 'To obtain a handle to a volume for use with update sequence number (USN) change journal operations, call the CreateFile function with the lpFileName parameter set to a string of the following form: \\\\.\\X.'
 ms.assetid: a4f4dac5-76fd-4e9e-a71e-665684840d74
 title: Obtaining a Volume Handle for Change Journal Operations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

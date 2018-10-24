@@ -2,8 +2,6 @@
 title: Chr Tag
 description: Chr Tag
 ms.assetid: da0cb038-24fb-453e-8687-c81e11a9d8e0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

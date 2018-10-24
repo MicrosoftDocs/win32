@@ -2,8 +2,6 @@
 Description: There are many ways to handle dispatching received SOAP messages to the appropriate service. The two simplest mechanisms are transport level dispatch, and address and action dispatch.
 ms.assetid: 988dc505-5d1f-46df-9340-107483bb9581
 title: Dispatching SOAP Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

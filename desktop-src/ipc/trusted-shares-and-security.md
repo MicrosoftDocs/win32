@@ -2,8 +2,6 @@
 Description: Network DDE uses trusted shares and security descriptors to control access to shares.
 ms.assetid: a22d9fc6-a0c9-442f-b278-1271cfbc636b
 title: Trusted Shares and Security
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

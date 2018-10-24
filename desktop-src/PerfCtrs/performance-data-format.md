@@ -2,8 +2,6 @@
 Description: The format of the data retrieved by the RegQueryValueEx function begins with a fixed-length header structure, PERF\_DATA\_BLOCK.
 ms.assetid: a68fa617-834c-4ad9-b922-fac3a648ad75
 title: Performance Data Format
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

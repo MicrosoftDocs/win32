@@ -2,8 +2,6 @@
 Description: The Identity Manager API allows you to create a peer identity to use in a peer network.
 ms.assetid: 44b85bbc-9594-4f68-b930-51a28422b571
 title: Creating a Peer Identity
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

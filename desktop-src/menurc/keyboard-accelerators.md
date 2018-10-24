@@ -9,8 +9,6 @@ keywords:
 - accelerators
 - WM_COMMAND message
 - WM_SYS COMMAND message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

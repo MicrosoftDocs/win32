@@ -2,8 +2,6 @@
 Description: Step 5.
 ms.assetid: b7d878ab-523f-4b52-b98d-c9d4fa18ce8a
 title: Step 5. Transform the Image
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

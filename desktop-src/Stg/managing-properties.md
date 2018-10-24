@@ -4,8 +4,6 @@ description: Every property consists of a property identifier (unique within its
 ms.assetid: d220ecb4-b014-4ac9-a636-9a493187cc87
 keywords:
 - Structured Storage Strctd Stg ,using,managing properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

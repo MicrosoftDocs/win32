@@ -2,8 +2,6 @@
 title: Direct3D Video Interfaces
 description: This topic lists the Direct3D video interfaces that are available in Direct3D 9Ex and that are supported on Windows 7 and later versions of Windows client operating systems and on Windows Server 2008 R2 and later versions of Windows server operating systems.
 ms.assetid: 922AC983-B9C0-494C-BADD-CEF20931FC26
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

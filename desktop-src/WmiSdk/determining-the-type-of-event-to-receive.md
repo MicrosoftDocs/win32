@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 46cdfcfa-42c6-4169-bc4d-725867224889
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Determining the Type of Event to Receive
 ms.author: windowssdkdev

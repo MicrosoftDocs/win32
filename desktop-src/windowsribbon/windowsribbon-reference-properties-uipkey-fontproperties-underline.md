@@ -2,8 +2,6 @@
 title: UI_PKEY_FontProperties_Underline
 description: Identifies the UI\_PKEY\_FontProperties\_Underline property.
 ms.assetid: 88492558-ab19-4606-8fe0-5f100677b88a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

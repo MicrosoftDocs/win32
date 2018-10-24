@@ -2,8 +2,6 @@
 title: Server and Workstation Transport Functions
 description: The network management server and workstation transport functions handle binding and unbinding of transport protocols to and from the server and redirector.
 ms.assetid: 64342e21-98f1-42d3-b541-46b826391fad
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Retrieves the value of the path length constraint.
 ms.assetid: 77a12fdf-e9ed-4c79-aa2c-bd476ab3ff90
 title: BasicConstraints.PathLenConstraint property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

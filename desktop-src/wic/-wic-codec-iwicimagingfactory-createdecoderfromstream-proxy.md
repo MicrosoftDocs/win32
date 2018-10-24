@@ -2,8 +2,6 @@
 Description: Proxy function for the CreateDecoderFromStream method.
 ms.assetid: 8395d647-c8c9-4715-b15d-a30755ae0a98
 title: IWICImagingFactory_CreateDecoderFromStream_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: In two cases it was necessary to rename functions that are used in Berkeley Sockets in order to avoid clashes with other Microsoft Windows API functions.
 ms.assetid: b53b1622-cba4-47e3-a371-b3186de6d61b
 title: Renamed Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

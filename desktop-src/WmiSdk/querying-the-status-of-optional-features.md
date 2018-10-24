@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d756b0c0-b9f4-4b71-9f07-963a0dd5e585
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Querying the Status of Optional Features
 ms.author: windowssdkdev

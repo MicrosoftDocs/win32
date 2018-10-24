@@ -2,8 +2,6 @@
 Description: Determines whether components marked in the options are installed on the system.
 ms.assetid: 5fda917a-9c4b-42a3-8f79-9c609f56eb9f
 title: IcfgNeedInetComponents function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

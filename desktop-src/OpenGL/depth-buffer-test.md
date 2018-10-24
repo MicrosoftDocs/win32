@@ -5,8 +5,6 @@ ms.assetid: 7c52b01d-399e-46fa-a16e-12bbd584f8ab
 keywords:
 - OpenGL processing pipeline,depth-buffer test
 - depth-buffer test OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The ProductName property contains the name of the application being installed. This is used only for display purposes. Advertised as a product property. This property is REQUIRED.This property can be changed by a transform.
 ms.assetid: 0a9f5be1-9da2-47a7-859b-fc6d1ec326b3
 title: ProductName property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

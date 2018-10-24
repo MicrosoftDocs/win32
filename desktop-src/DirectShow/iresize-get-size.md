@@ -2,8 +2,6 @@
 Description: The get\_Size method returns the current output size and stretch mode.
 ms.assetid: 61c0e439-26ce-45fc-986a-0ffc17056a55
 title: IResize::get_Size method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

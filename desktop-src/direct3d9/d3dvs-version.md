@@ -2,8 +2,6 @@
 Description: Create a vertex shader version number token.
 ms.assetid: c3aa6b01-7949-4171-a8b5-2f453fd7a422
 title: D3DVS_VERSION macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

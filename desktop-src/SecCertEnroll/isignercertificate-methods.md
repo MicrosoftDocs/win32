@@ -2,8 +2,6 @@
 Description: The ISignerCertificate interface exposes the following methods.
 ms.assetid: 04ECEC20-6AF9-4856-9187-F8FD2DBD12E2
 title: ISignerCertificate Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

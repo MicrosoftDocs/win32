@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: e0cd52c5-40d7-4a48-9d10-fdbcea46a5a0
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , programming guidelines

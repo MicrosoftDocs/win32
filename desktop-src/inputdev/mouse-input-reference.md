@@ -2,8 +2,6 @@
 title: Mouse Input Reference
 description: The topics contained in this section provide the reference specifications for mouse input.
 ms.assetid: be9a1ce8-4d82-4d8e-8a87-a260cefafab6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

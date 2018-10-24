@@ -2,8 +2,6 @@
 Description: A synchronization barrier enables multiple threads to wait until all threads have all reached a particular point of execution before any thread continues.
 ms.assetid: 3A76E6F7-C38B-4843-9496-36F3C78B700C
 title: Synchronization Barriers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

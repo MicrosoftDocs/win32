@@ -2,8 +2,6 @@
 Description: Capturing to Multiple Files
 ms.assetid: 6073a891-e9f5-442d-a2d9-3a7b97f7f735
 title: Capturing to Multiple Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

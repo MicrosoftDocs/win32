@@ -2,8 +2,6 @@
 title: Property Sample
 ms.assetid: 44642d32-2cbc-4dd9-bccc-15924f310539
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

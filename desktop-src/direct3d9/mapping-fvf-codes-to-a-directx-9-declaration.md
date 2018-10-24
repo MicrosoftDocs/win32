@@ -2,8 +2,6 @@
 Description: This table maps FVF codes to a D3DVERTEXELEMENT9 structure.
 ms.assetid: de865481-2a08-4d25-967c-8e68b7affe8d
 title: Mapping FVF Codes to a Direct3D 9 Declaration (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: LOCALE\_SCURRENCY
 ms.assetid: ecc32da1-8d87-43de-bee3-fe8750d4224c
 title: LOCALE_SCURRENCY
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

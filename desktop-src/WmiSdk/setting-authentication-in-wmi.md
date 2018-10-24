@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 261b4f18-5de5-4e06-a887-f5afd9c45511
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Authentication in WMI
 ms.author: windowssdkdev

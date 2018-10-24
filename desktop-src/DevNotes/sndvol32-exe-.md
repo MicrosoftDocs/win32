@@ -2,8 +2,6 @@
 Description: The SndVol32.exe program controls the volume settings for your system. To display this volume control, go to the Control Panel and start Sounds and Audio Devices. Go to Device volume and click Advanced.
 ms.assetid: 20e7fb8a-d0a5-46fa-9813-567fa4f57e8f
 title: SndVol32.exe
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: PNRP uses the WSALookupServiceBegin function to start the process that allows an application to do the following.
 ms.assetid: 71cca892-89e7-44d1-920d-987587eeed50
 title: PNRP and WSALookupServiceBegin
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

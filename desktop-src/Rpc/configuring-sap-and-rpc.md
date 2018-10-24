@@ -2,8 +2,6 @@
 title: Configuring SAP and RPC
 description: Novell NetWare network servers use the Service Advertising Protocol (SAP) to broadcast information about available services on the network to other networked devices.
 ms.assetid: 6d6ef481-fc09-4795-8954-33329912ff4f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

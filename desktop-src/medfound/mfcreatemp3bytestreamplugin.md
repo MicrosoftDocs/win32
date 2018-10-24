@@ -2,8 +2,6 @@
 Description: Creates a byte-stream handler for the MP3 media source.
 ms.assetid: A213BAEF-D98F-485B-8840-BE131E9B26C0
 title: MFCreateMP3ByteStreamPlugin function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Contracts and Licenses for Online Music Stores
 ms.assetid: fcc4601f-34e1-4373-bd4f-c18742a78da8
 keywords:
 - Windows Media Player Online Stores
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

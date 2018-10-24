@@ -2,8 +2,6 @@
 Description: Sets the specified parameter information.
 ms.assetid: fe3fe5cf-e8b8-40ca-9e12-9d92489982a7
 title: IPStore::SetProvParam method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

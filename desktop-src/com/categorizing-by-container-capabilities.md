@@ -2,8 +2,6 @@
 title: Categorizing by Container Capabilities
 description: Components often require certain functionality from the container and will not work with a container that does not provide the support.
 ms.assetid: 11002f3e-17de-4e05-a2df-0c9e6326846d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

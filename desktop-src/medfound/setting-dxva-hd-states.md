@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 7f339ee8-01e6-4bbb-8563-020ff0e02499
 title: Setting DXVA-HD States
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

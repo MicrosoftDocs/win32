@@ -13,8 +13,6 @@ keywords:
 - Windows Media Player,creating HTMLView presentations
 - Windows Media Player,HTMLView presentations
 - HTMLView,creating presentations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

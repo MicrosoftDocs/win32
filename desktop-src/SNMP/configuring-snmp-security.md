@@ -2,8 +2,6 @@
 title: Configuring SNMP Security
 description: SNMP's security features allow you to specify the communities and hosts from which a computer accepts requests, as well as the type of operations to accept from the computers belonging to a community.
 ms.assetid: 5e9729d4-1003-4c2c-96a3-8b2a63918207
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

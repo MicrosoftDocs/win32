@@ -11,8 +11,6 @@ keywords:
 - codecs,Sony/Philips Digital Interconnect Format (S/PDIF)
 - Sony/Philips Digital Interconnect Format (S/PDIF),audio output
 - S/PDIF (Sony/Philips Digital Interconnect Format),audio output
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

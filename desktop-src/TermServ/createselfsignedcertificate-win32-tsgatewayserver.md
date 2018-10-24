@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2a5b8dee-50b8-44b7-9e29-25aff1c40f5d
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - CreateSelfSignedCertificate method Remote Desktop Services

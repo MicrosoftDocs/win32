@@ -4,8 +4,6 @@ description: BITS maintains progress information for each job. Use the progress 
 ms.assetid: 8bac62b3-cb7e-45ba-85f0-95f3a7e8bffd
 keywords:
 - transfer job BITS , progress
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 6BB5AABC-6281-4575-8189-477C57DF4F4F
 title: Introduction
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

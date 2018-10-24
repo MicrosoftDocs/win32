@@ -2,8 +2,6 @@
 title: Hot Key
 description: This section contains information about the programming elements used with hot key controls.
 ms.assetid: 'vs|controls|~\controls\hotkey\reflist.htm'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

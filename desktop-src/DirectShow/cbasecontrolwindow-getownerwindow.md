@@ -2,8 +2,6 @@
 Description: The GetOwnerWindow method retrieves the owning window handle, m\_hwndOwner.
 ms.assetid: fa576b42-b4a7-4374-8ba4-7d21e86d9d61
 title: CBaseControlWindow.GetOwnerWindow method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

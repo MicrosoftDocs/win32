@@ -4,8 +4,6 @@ description: Structures for client application development by the Windows Biomet
 ms.assetid: 64fb908c-72c2-4639-a2f6-77ede080512c
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , plug-in structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

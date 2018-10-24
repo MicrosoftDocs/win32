@@ -2,8 +2,6 @@
 Description: The ForceSourceListResolution method of the Installer object forces the Windows Installer to search the source list for a valid product source.
 ms.assetid: d5097331-8cf5-494f-9e88-bcffcad3fe5d
 title: Installer.ForceSourceListResolution method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

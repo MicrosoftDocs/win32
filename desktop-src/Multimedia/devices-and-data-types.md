@@ -26,8 +26,6 @@ keywords:
 - waveform audio,closing output devices
 - waveform-audio interface,closing output devices
 - closing waveform-audio output devices
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

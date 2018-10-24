@@ -2,8 +2,6 @@
 Description: Specifies the dialog normalization level, in decibels (dB), in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: c347f8b2-5132-45d6-af66-43d3c409b0d7
 title: AVEncDDDialogNormalization property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

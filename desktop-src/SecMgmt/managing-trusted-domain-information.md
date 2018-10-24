@@ -2,8 +2,6 @@
 Description: LSA Policy provides several functions that you can use to create, enumerate, and delete trusted domains and to set and retrieve trusted domain information.
 ms.assetid: 0c7534d7-3372-49c4-992c-9b519279982d
 title: Managing Trusted Domain Information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

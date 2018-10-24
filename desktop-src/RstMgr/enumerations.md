@@ -4,8 +4,6 @@ description: The Restart Manager API contains the following enumerations
 ms.assetid: cc8029b2-3733-42cb-a469-73def8816c5c
 keywords:
 - Restart Manager Restart Mgr , reference, enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

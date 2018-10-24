@@ -2,8 +2,6 @@
 Description: Handle to the window's device context.
 ms.assetid: a9fa4340-f20f-44a4-b553-052fe5c3e0e6
 title: CBaseWindow::m_hdc member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

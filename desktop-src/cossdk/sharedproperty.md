@@ -2,8 +2,6 @@
 Description: Sets or retrieves the value of a shared property.
 ms.assetid: '19ed8d50-3ac1-408e-9f25-09f284d025f1'
 title: SharedProperty class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

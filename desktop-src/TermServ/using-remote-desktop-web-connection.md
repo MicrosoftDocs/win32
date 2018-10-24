@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ea80a99a-7bf6-48e2-8bd0-c9a158bcf475
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , using Remote Desktop ActiveX control

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 15c76f0e-85ae-4ee3-bf9f-ba32195d9adc
-ms.prod: windows-server-dev
-ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 keywords:
 - SessionFlagNoEncryption method Windows Remote Management

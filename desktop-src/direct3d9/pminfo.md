@@ -2,8 +2,6 @@
 Description: Not supported. Used internally by DirectX.
 ms.assetid: 8a07357f-d4e8-4104-9d21-51c3e8b8d6d2
 title: PMInfo
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

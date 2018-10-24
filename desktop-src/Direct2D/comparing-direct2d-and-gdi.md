@@ -2,8 +2,6 @@
 title: Comparing Direct2D and GDI Hardware Acceleration
 description: Direct2D and GDI are both immediate mode 2D rendering APIs and both offer some degree of hardware acceleration.
 ms.assetid: 0028a0c3-445d-46b7-b55b-46dff3bce9ae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: The ACF File
 description: The ACF file enables you to customize your client and/or server applications' RPC interface without affecting the network characteristics of the interface.
 ms.assetid: 7d3fef5c-b645-4e10-b08d-b339025718b4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

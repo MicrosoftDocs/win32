@@ -4,8 +4,6 @@ description: Use this effect to convert an image from unpremultiplied alpha to p
 ms.assetid: 8A5F55C6-3AC7-48B4-87D8-C19D8B4EA0DD
 keywords:
 - premultiply effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

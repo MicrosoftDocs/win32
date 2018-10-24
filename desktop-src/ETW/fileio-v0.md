@@ -2,8 +2,6 @@
 Description: This class is the parent class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: c88242ec-de74-4b5b-8fdd-ec99e0d4a59e
 title: FileIo_V0 class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

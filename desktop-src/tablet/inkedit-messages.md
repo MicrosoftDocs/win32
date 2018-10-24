@@ -2,8 +2,6 @@
 Description: This section contains Messages belonging to the InkEdit Control.
 ms.assetid: eb1f912a-8aae-4774-b699-ca3f448760c6
 title: InkEdit Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The GetNetworkInfoFromBlob function retrieves network information from a given BLOB.
 ms.assetid: 217c33f4-e548-4072-9edd-ded61e6cd743
 title: GetNetworkInfoFromBlob function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

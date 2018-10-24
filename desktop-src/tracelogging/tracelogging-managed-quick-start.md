@@ -2,8 +2,6 @@
 title: TraceLogging Managed Quick Start
 description: The following section describes the basic steps required to add TraceLogging to managed code.
 ms.assetid: E144214D-8DCC-4263-8232-9F468C1A3CC0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

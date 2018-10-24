@@ -2,8 +2,6 @@
 title: GUID Property
 description: GUID Property
 ms.assetid: d57e1d7c-df65-40ff-9068-64b3506835c6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

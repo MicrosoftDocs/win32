@@ -2,8 +2,6 @@
 title: ine (sm4 - asm)
 description: Component-wise vector integer not-equal comparison.
 ms.assetid: 5BED97D3-8FF6-4F1C-819B-DC8B4A4F2CCA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

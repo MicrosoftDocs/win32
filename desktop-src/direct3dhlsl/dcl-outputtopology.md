@@ -2,8 +2,6 @@
 title: dcl_outputTopology (sm4 - asm)
 description: dcl\_outputTopology (sm4 - asm)
 ms.assetid: a03a6feb-ec34-4655-a68c-a91e31e7140b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

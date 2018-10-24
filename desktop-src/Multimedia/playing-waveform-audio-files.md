@@ -6,8 +6,6 @@ keywords:
 - waveform audio,playing files
 - waveform-audio interface,playing files
 - playing waveform-audio files,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

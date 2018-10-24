@@ -2,8 +2,6 @@
 Description: Checking Role Membership
 ms.assetid: 690cab3f-4476-4fce-b842-d63a4d0d5c6f
 title: Checking Role Membership
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A 1 based monotonically incremented number that corresponds to the episode of the show.
 ms.assetid: b782a90c-34ae-4e76-b1b8-ba13f17885bd
 title: System.Media.EpisodeNumber
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

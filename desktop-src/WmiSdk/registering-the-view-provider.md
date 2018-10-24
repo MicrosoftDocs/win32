@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 62db8cdc-0bbf-4784-bfc4-6fd5cb53368a
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering the View Provider
 ms.author: windowssdkdev

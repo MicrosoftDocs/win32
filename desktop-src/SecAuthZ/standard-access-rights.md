@@ -2,8 +2,6 @@
 Description: Each type of securable object has a set of access rights that correspond to operations specific to that type of object.
 ms.assetid: f43bccce-0f8c-4732-b678-5fd3218a9f84
 title: Standard Access Rights
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

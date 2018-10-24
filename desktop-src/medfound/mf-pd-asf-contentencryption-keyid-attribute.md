@@ -2,8 +2,6 @@
 Description: Specifies the key identifier for an encrypted Advanced Systems Format (ASF) file. This attribute corresponds to the Key ID field of the Content Encryption Header, defined in the ASF specification.
 ms.assetid: ebadd156-28f4-499c-a182-f48a35ecbefb
 title: MF_PD_ASF_CONTENTENCRYPTION_KEYID attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

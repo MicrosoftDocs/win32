@@ -9,8 +9,6 @@ keywords:
 - OpenGL porting from IRIS GL,afunction test functions
 - afunction test functions
 - alpha test functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

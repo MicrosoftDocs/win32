@@ -2,8 +2,6 @@
 Description: Cleans a mesh, preparing it for simplification.
 ms.assetid: 2b586ecc-db87-4b20-a4fc-c8b547bebf65
 title: D3DXCleanMesh function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

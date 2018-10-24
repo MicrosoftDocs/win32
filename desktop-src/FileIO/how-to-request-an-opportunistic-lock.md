@@ -2,8 +2,6 @@
 Description: Opportunistic locks are requested by first opening a file with permissions and flags appropriate to the application opening the file. All files for which opportunistic locks will be requested must be opened for overlapped (asynchronous) operation.
 ms.assetid: a55d38c6-46e3-48e6-9b5b-d4f4234d8c07
 title: How to Request an Opportunistic Lock
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

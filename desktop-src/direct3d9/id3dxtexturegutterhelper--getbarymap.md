@@ -2,8 +2,6 @@
 Description: Retrieves texel barycentric coordinates.
 ms.assetid: f380a37f-b9c1-4433-b1d6-e9feeca79b30
 title: ID3DXTextureGutterHelper::GetBaryMap method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

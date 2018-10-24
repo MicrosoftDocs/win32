@@ -4,8 +4,6 @@ description: A provider is an architectural element of Windows Management Instru
 ms.assetid: e6ada7b5-dd46-4c47-8db8-55f910429e31
 keywords:
 - Domain Name System, WMI provider, architecture
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

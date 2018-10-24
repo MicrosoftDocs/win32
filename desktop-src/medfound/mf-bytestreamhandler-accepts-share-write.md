@@ -2,8 +2,6 @@
 Description: Specifies whether a byte-stream handler can use a byte stream that is opened for writing by another thread.
 ms.assetid: d9d97880-a563-420c-b598-c3ebd1ae8b74
 title: MF_BYTESTREAMHANDLER_ACCEPTS_SHARE_WRITE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

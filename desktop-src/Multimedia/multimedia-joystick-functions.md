@@ -9,8 +9,6 @@ keywords:
 - joysticks,functions
 - reference for joysticks,functions
 - joystick reference,functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

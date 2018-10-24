@@ -2,8 +2,6 @@
 Description: Winlogon and the GINA must communicate initialization information, handle secure attention sequence (SAS) monitoring and notification, and permit logoff and shutdown activities.
 ms.assetid: ea45cd5f-9cb0-41bb-99bf-f84781ae9604
 title: Interaction Between Winlogon and GINA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

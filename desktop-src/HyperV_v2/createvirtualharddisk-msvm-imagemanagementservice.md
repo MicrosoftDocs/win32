@@ -2,8 +2,6 @@
 Description: Creates a virtual hard disk file.
 ms.assetid: 6c136000-1df2-4456-833c-094671408338
 title: CreateVirtualHardDisk method of the Msvm_ImageManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

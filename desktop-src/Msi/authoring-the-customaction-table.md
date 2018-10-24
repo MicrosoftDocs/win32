@@ -2,8 +2,6 @@
 Description: Enter records for the five sample custom actions created in the previous section to the CustomAction Table. For more information on how to populate the CustomAction table for this type of custom action see Custom Action Type 1.
 ms.assetid: 56828105-bd72-426d-833f-f756c577c77f
 title: Authoring the CustomAction Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

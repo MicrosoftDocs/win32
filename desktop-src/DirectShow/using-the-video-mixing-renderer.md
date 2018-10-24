@@ -2,8 +2,6 @@
 Description: Using the Video Mixing Renderer
 ms.assetid: 3d0fdfac-ec7e-4e02-886b-2039c607dac7
 title: Using the Video Mixing Renderer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

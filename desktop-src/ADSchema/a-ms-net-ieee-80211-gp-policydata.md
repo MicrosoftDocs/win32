@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 556e0b4f-49cf-4493-a731-8b12c1d5ad71
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-net-ieee-80211-GP-PolicyData attribute AD Schema

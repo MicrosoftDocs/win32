@@ -2,8 +2,6 @@
 Description: 'An application draws in a window at a variety of times: when first creating a window, when changing the size of the window, when moving the window from behind another window, when minimizing or maximizing the window, when displaying data from an opened file, and when scrolling, changing, or selecting a portion of the displayed data.'
 ms.assetid: 4b5d6842-5707-4884-a55a-e09e342cea46
 title: When to Draw in a Window
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

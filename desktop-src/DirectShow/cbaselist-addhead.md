@@ -2,8 +2,6 @@
 Description: The AddHead method inserts another list at the front of this list.
 ms.assetid: 10999d93-2eb0-481f-8909-6f1184137786
 title: CBaseList.AddHead method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

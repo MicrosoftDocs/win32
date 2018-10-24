@@ -2,8 +2,6 @@
 Description: It is usually desirable to copy a more complicated set of information than can be contained in ink serialized format (ISF).
 ms.assetid: 1cef7f91-118c-4a16-802d-bd2ec5d15416
 title: Storing Ink in HTML
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

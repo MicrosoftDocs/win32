@@ -2,8 +2,6 @@
 Description: An Installer object must be initially created to load the automation support that is required for COM to access the installer functions. This object provides wrappers to create the top-level objects and access their methods.
 ms.assetid: fefc3e39-073e-4869-86b7-27d20a3b337b
 title: Installer object
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

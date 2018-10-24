@@ -2,8 +2,6 @@
 Description: Represents the configured state of a synthetic Fibre Channel port.
 ms.assetid: 5d47dd80-de34-4ae4-a300-c16da1cd4974
 title: Msvm_SyntheticFcPortSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

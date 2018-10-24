@@ -2,8 +2,6 @@
 Description: Direct3D applications use decaling to control which pixels from a particular primitive image are drawn to the rendering target surface. Applications apply decals to the images of primitives to enable coplanar polygons to render correctly.
 ms.assetid: 0d57983c-c8f3-4095-9495-a3ec5d280bda
 title: Decaling (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

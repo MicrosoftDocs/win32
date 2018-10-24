@@ -2,8 +2,6 @@
 Description: Support for point sprites in Direct3D 9 enables the high-performance rendering of points (particle systems). Point sprites are generalizations of generic points that enable arbitrary shapes to be rendered as defined by textures.
 ms.assetid: a9046c7e-779c-4f33-b8ff-f189da3dcfc5
 title: Point Sprites (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

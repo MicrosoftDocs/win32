@@ -2,8 +2,6 @@
 Description: The Clear method deletes all items from the collection.
 ms.assetid: 4350ae43-16be-4cf2-816d-719349b12654
 title: IPortableDeviceValues::Clear method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 4.
 ms.assetid: 05427a18-447e-45d7-a851-e580298c9a1f
 title: D3DXSHMultiply4 function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

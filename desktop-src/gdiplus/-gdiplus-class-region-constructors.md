@@ -2,8 +2,6 @@
 Description: This topic lists the constructors of the Region class. For a complete class listing, see Region Class.
 ms.assetid: 94f4971c-defa-43e0-a0c0-4000557b0a5c
 title: Region.Region constructors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

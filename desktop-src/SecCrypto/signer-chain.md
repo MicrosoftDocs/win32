@@ -2,8 +2,6 @@
 Description: Retrieves the signer's chain.
 ms.assetid: 02845542-507d-4f9f-b172-7bd3b5af4094
 title: Signer.Chain property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

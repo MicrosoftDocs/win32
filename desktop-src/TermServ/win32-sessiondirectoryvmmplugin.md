@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b5c5deb1-6c1b-4547-a24a-db3ce6654144
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - Win32_SessionDirectoryVMMPlugin class Remote Desktop Services

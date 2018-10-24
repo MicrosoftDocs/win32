@@ -2,8 +2,6 @@
 title: Menu Bar (MSAA UI Element Reference)
 description: A menu bar is the area of a window immediately beneath the title bar that contains menu items such as File, Edit, Window, and Help.
 ms.assetid: 63b496c7-ae3b-49b5-8c22-41fc9a8f3981
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

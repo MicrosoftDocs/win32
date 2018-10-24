@@ -2,8 +2,6 @@
 Description: A pie is a region bounded by the intersection of an ellipse curve and two radials. The following illustration shows a pie drawn by using the Pie function.
 ms.assetid: 9ba7834e-02d2-4335-94c3-ab2f5c355619
 title: About Pies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

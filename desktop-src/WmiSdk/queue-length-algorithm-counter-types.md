@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 514b1a79-ed9d-4ec6-a6ea-b3490291ce18
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Queue-length Algorithm Counter Types
 ms.author: windowssdkdev

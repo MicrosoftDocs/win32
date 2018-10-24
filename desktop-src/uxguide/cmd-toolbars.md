@@ -2,8 +2,6 @@
 title: Toolbars
 description: Toolbars are a way to group commands for efficient access.
 ms.assetid: 8f36307c-54fc-493d-a2ff-57db29e3508d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: A list of the functions that create dialog boxes for basic disk prompting and error handling.
 ms.assetid: f058cd73-45bf-45db-9234-268e9060d46f
 title: Disk Prompting and Error Handling Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

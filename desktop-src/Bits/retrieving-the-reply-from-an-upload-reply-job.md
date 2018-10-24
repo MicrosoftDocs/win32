@@ -2,8 +2,6 @@
 title: Retrieving the Reply from an Upload-Reply Job
 description: To upload data to a server application and have it return data to the client, specify the job as a BG\_JOB\_TYPE\_UPLOAD\_REPLY job.
 ms.assetid: bab28a2c-1e2f-4b76-9dc6-57df26f7efec
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

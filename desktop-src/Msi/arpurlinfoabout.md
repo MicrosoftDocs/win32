@@ -2,8 +2,6 @@
 Description: The ARPURLINFOABOUT property is the URL for the link to the publishers home page or the application's home page.
 ms.assetid: 5afee7b4-f92d-47ce-adae-31434627d0b7
 title: ARPURLINFOABOUT property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

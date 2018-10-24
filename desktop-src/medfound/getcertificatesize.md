@@ -2,8 +2,6 @@
 Description: Gets the size of a certificate for a display driver.
 ms.assetid: fd52e939-127a-4493-8406-31f7767921cd
 title: GetCertificateSize function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

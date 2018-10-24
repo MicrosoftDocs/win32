@@ -2,8 +2,6 @@
 Description: Initiates a data download to the caller.
 ms.assetid: e639fabb-2c13-4009-affa-1c2b06c0d4c8
 title: IWiaTransfer::Download method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

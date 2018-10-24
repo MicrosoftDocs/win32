@@ -2,8 +2,6 @@
 Description: Prevents a Start menu entry for a newly installed application shortcut from receiving a highlight.
 ms.assetid: ff85da6f-a506-4225-8ac9-4a8a7be8d599
 title: System.AppUserModel.ExcludeFromShowInNewInstall
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

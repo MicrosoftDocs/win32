@@ -2,8 +2,6 @@
 Description: 'NLS: Internationalized Domain Name (IDN) Conversion Sample'
 ms.assetid: 9739efa5-8b88-4f9c-983d-806968caf9d5
 title: 'NLS: Internationalized Domain Name (IDN) Conversion Sample'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

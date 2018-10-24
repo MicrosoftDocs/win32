@@ -10,8 +10,6 @@ keywords:
 - audio mixers,structures
 - mixers,structures
 - reference for audio mixers,structures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

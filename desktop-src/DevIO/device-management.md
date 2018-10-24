@@ -2,8 +2,6 @@
 Description: Device management notifies all applications and system features of changes that may affect their operation or access to resources.
 ms.assetid: '7d5c0933-c543-41ef-9418-4a288748f841'
 title: Device Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

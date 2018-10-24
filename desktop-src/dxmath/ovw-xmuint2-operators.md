@@ -2,8 +2,6 @@
 Description: The XMUINT2 structure exposes the following operators.
 ms.assetid: 2d3596f0-9c01-4b81-b1b1-95c43f0749e1
 title: XMUINT2 Operators
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

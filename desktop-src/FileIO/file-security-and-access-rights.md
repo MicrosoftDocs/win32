@@ -2,8 +2,6 @@
 Description: Because files are securable objects, access to them is regulated by the access-control model that governs access to all other securable objects in Windows.
 ms.assetid: 991d7d94-fae7-406f-b2e3-dee811279366
 title: File Security and Access Rights
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

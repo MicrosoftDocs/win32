@@ -4,8 +4,6 @@ description: The following samples demonstrate the Direct2D API.
 ms.assetid: 4e972beb-5c69-4617-a5fe-0e0e4759240a
 keywords:
 - Direct2D,samples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

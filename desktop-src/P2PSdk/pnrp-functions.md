@@ -2,8 +2,6 @@
 Description: The PNRP Namespace Provider API uses the following functions.
 ms.assetid: 7c9f2dd7-8dbc-4bbe-b53c-8036c79faa8a
 title: PNRP Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

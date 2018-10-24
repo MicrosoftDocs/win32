@@ -18,8 +18,6 @@ keywords:
 - DRM (digital rights management),attributes of protected files
 - digital rights management (DRM),protected files
 - DRM (digital rights management),protected files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

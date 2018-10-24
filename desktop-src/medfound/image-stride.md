@@ -2,8 +2,6 @@
 Description: Image Stride
 ms.assetid: 13cd1106-48b3-4522-ac09-8efbaab5c31d
 title: Image Stride
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

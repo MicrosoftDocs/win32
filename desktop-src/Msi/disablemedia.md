@@ -2,8 +2,6 @@
 Description: If this per-user system policy is set to &\#0034;1&\#0034;, users and administrators running a maintenance installation of one product are prevented from using the Browse Dialog to browse media sources, such as CD-ROM, for the sources of other installable products.
 ms.assetid: 275a6d43-ecf8-4146-82eb-3b42b25b9a80
 title: DisableMedia
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: The following table identifies what is new for each release of Back
 ms.assetid: ef05f2e1-88be-4adb-aca7-a7b1451cfd04
 keywords:
 - what's new BITS
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018

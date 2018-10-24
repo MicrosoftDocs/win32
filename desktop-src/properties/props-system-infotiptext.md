@@ -2,8 +2,6 @@
 Description: The text (with formatted property values) to show in the infotip.
 ms.assetid: a7017908-f116-4f0e-b705-d180d0517cdd
 title: System.InfoTipText
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

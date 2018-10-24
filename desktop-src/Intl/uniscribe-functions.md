@@ -2,8 +2,6 @@
 Description: This section describes functions for typography and for complex script processing.
 ms.assetid: 876e36f5-a91c-490b-87bd-b7cb4993f8c4
 title: Uniscribe Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

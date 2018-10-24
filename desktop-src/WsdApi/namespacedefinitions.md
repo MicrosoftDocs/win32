@@ -2,8 +2,6 @@
 Description: Generates C definitions for namespace tables.
 ms.assetid: 0de06ee1-1291-4f18-9514-cca443a3e300
 title: namespaceDefinitions element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

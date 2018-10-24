@@ -2,8 +2,6 @@
 Description: 'The following topics describe Network Share Management:'
 ms.assetid: 7669049d-de56-4485-be4f-939900ca6a4f
 title: About Network Share Management
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

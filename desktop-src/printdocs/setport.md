@@ -2,8 +2,6 @@
 Description: The SetPort function sets the status associated with a printer port.
 ms.assetid: 1b80ad93-aaa1-41ed-a668-a944fa62c3eb
 title: SetPort function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

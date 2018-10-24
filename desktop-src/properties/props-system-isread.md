@@ -2,8 +2,6 @@
 Description: Identifies whether the item has been read.
 ms.assetid: 2efa6dd9-8521-48c9-9aff-e2e8f0e2296d
 title: System.IsRead
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

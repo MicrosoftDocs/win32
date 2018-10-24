@@ -2,8 +2,6 @@
 Description: The GetRange method gets the range of valid values for a given call quality property.
 ms.assetid: 974033cf-59ce-4593-93d7-290094c20a7c
 title: ITCallQualityControl::GetRange method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

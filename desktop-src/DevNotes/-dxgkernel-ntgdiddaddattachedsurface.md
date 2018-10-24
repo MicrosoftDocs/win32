@@ -2,8 +2,6 @@
 Description: Attaches a surface to another surface.
 ms.assetid: c4ef9e96-c498-4175-a2cd-22e0f88fd86e
 title: NtGdiDdAddAttachedSurface function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

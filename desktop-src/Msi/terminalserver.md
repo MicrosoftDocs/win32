@@ -2,8 +2,6 @@
 Description: The installer sets the TerminalServer property when the system is a server with Terminal Services.
 ms.assetid: 65bc1f73-8b52-4ebb-b408-96123db2176d
 title: TerminalServer property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

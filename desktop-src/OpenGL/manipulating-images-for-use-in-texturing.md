@@ -10,8 +10,6 @@ keywords:
 - OpenGL Utility (GLU),texture images
 - GLU (OpenGL Utility),texture images
 - GLU library,texture images
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

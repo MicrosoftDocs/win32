@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: F9907D49-F9FE-406A-BF5F-17C61706ADC1
 title: AJAX
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

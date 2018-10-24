@@ -2,8 +2,6 @@
 Description: The Divider object uses a RecognizerContext to improve its analysis of recognition segments and to generate recognition text for handwriting elements.
 ms.assetid: 33d9abc4-151e-47b4-b66f-ff6adfe21222
 title: Working with a Recognizer Context
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

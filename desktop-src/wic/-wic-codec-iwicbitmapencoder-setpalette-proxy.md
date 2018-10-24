@@ -2,8 +2,6 @@
 Description: Proxy function for the SetPalette method.
 ms.assetid: d8e2c36e-6886-4959-b2a2-469bebfe1cdc
 title: IWICBitmapEncoder_SetPalette_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: texm3x2pad - ps
 description: Performs the first row multiplication of a two-row matrix multiply. This instruction must be combined with either texm3x2tex - ps or texm3x2depth - ps. Refer to either of these instructions for details on using texmpad.
 ms.assetid: 26eb3237-6e48-4880-b40d-37de8d65daa6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

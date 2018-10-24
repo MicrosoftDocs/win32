@@ -9,8 +9,6 @@ keywords:
 - desktop applications,writing files to devices
 - creating Windows Media Device Manager applications,writing files to devices
 - writing files to devices,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

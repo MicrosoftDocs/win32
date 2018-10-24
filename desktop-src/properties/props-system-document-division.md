@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: b1cc598d-d861-4526-b2ed-ab10db805ccb
 title: System.Document.Division
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Starts the first encoding pass.
 ms.assetid: a062be3f-7806-4f1c-b98e-2c9ed31f010c
 title: AVEncCommonPassStart property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

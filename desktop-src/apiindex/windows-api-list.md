@@ -2,8 +2,6 @@
 Description: A list of the reference content for the Windows API.
 ms.assetid: 9CA123F9-92F1-4761-9468-266DA422F70E
 title: Windows API Index
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

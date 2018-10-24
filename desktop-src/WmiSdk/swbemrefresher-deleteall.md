@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: c6e462d3-52b3-40c0-9a9c-fa268415a5f0
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemRefresher.DeleteAll method
 ms.author: windowssdkdev

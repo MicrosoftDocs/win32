@@ -2,8 +2,6 @@
 title: Unions
 description: Unions require special MIDL keywords to support their use with Remote Procedure Call (RPC).
 ms.assetid: e7c8296c-893d-4df7-913a-f969733e1917
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

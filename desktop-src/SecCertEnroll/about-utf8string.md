@@ -2,8 +2,6 @@
 Description: The ASN.1 UTF8String data type is encoded into a TLV triplet that begins with a Tag byte of 0x0C.
 ms.assetid: e30737d3-8294-48d8-9e42-f21918acc73c
 title: UTF8String
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: An IME implements a feature called &\#0034;reconversion&\#0034;.
 ms.assetid: 32b20872-7e5c-487e-99bb-9447ac3aebd4
 title: Using Reconversion with an IME
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

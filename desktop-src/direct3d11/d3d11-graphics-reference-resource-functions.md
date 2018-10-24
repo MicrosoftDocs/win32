@@ -4,8 +4,6 @@ description: This section contains information about the resource functions.
 ms.assetid: 865354c5-90cc-4392-a0dc-2d66182f6d05
 keywords:
 - functions, Direct3D 11 Resource
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

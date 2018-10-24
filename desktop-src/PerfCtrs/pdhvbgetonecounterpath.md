@@ -2,8 +2,6 @@
 Description: The PdhVbGetOneCounterPath function displays a dialog box that lets the user browse the available performance counters and select one counter.
 ms.assetid: a42406ef-70e0-464d-90f8-fef9e1c3471d
 title: PdhVbGetOneCounterPath function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

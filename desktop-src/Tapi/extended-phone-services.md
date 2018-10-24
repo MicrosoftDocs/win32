@@ -2,8 +2,6 @@
 Description: The Extended Phone Services (or device-specific phone services) include all extensions to TSPI defined by the service-provider.
 ms.assetid: 309d77e6-7517-4547-9c56-a471657b64bd
 title: Extended Phone Services
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

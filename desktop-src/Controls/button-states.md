@@ -2,8 +2,6 @@
 title: Button States
 description: This section discusses how selecting a button changes its state and how the application should respond.
 ms.assetid: 7302f0f3-f29d-43d7-8e25-4f36d5ef6a86
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

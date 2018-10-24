@@ -2,8 +2,6 @@
 Description: The ServiceInstall table is used to install a service and has the following columns.
 ms.assetid: 81688d31-e560-4dd0-8d84-efb50206c76e
 title: ServiceInstall Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

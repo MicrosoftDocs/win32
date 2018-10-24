@@ -2,8 +2,6 @@
 Description: Contains the class identifier (CLSID) of a Media Foundation transform (MFT).
 ms.assetid: 99ee6f50-1de7-41ea-be5b-135730138d5d
 title: MFT_TRANSFORM_CLSID_Attribute attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

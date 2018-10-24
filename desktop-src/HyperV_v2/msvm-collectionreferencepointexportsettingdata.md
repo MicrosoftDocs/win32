@@ -2,8 +2,6 @@
 Description: Export setting data to be passed in to the ExportReferencePoint method of the Msvm\_CollectionReferencePointService class.
 ms.assetid: 38299050-a53a-496c-8792-9199c394591d
 title: Msvm_CollectionReferencePointExportSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

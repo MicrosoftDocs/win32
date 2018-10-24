@@ -2,8 +2,6 @@
 title: C++ and OLE Programming Concepts
 description: C++ and OLE Programming Concepts
 ms.assetid: 2c6c3f29-aa5d-4e55-8c4d-16c5fb223fb9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Lists and explains the responsibilities of the GINA.
 ms.assetid: 5cffe4a6-6475-441e-bf81-f3cbcf1fee3f
 title: Responsibilities of the GINA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

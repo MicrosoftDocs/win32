@@ -2,8 +2,6 @@
 Description: The SetValue method adds a new PROPVARIANT value or overwrites an existing one.
 ms.assetid: 69630a21-79e9-4c96-8ed7-9a41ebb991cd
 title: IPortableDeviceValues::SetValue method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

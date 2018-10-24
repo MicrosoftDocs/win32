@@ -2,8 +2,6 @@
 Description: Capture a Type-2 DV File
 ms.assetid: c7d49c86-1b5d-43bf-98a5-78b297682375
 title: Capture a Type-2 DV File
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

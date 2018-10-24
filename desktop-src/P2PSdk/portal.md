@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a85fe46c-ce5f-4978-aa37-a3666560426b
 title: Peer-to-Peer
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

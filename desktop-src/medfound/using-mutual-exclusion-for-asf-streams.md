@@ -2,8 +2,6 @@
 Description: Using Mutual Exclusion for ASF Streams
 ms.assetid: fdd31eac-1dd6-45f0-90fb-d5a74c85db2e
 title: Using Mutual Exclusion for ASF Streams
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

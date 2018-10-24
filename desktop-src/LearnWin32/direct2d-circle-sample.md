@@ -2,8 +2,6 @@
 title: Direct2D Circle Sample
 description: This sample application shows how to draw a circle using Direct2D.
 ms.assetid: C4413C3D-FE7E-4DA1-83CF-EDD23E2DB3F8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

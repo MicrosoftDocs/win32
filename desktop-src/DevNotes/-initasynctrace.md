@@ -2,8 +2,6 @@
 Description: Initializes the trace.
 ms.assetid: d2708e29-920d-4b13-8917-a6f2065ba58c
 title: InitAsyncTrace function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

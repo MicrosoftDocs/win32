@@ -2,8 +2,6 @@
 Description: The following example creates a timer routine that will be executed by a thread from a timer queue after a 10 second delay.
 ms.assetid: 779156fe-f825-452b-acbe-e2cb189e24d2
 title: Using Timer Queues
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

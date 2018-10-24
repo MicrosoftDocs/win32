@@ -2,8 +2,6 @@
 Description: Using Event Logging
 ms.assetid: 23faa271-ef25-43cd-b6c9-b65e6a12dd9a
 title: Using Event Logging
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

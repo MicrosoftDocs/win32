@@ -2,8 +2,6 @@
 Description: To aid the support of ink in applications, there are two objects, both of which can be embedded and are supported by any OLE container.
 ms.assetid: fbd7bdf0-63b4-48d1-be91-eabbbb3f1618
 title: sInk and tInk Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

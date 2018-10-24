@@ -2,8 +2,6 @@
 Description: Specifies how the IInkAnalyzer performs ink analysis.
 ms.assetid: bc526445-0c9c-4c53-8b02-32cf758266e6
 title: AnalysisModes enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

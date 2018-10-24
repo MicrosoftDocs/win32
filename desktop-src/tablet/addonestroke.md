@@ -2,8 +2,6 @@
 Description: Adds a new IInkStrokeDisp object to the InkDivider object that was passed in.
 ms.assetid: d5b82244-68d5-4137-aaf4-d3232f7c0779
 title: AddOneStroke function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

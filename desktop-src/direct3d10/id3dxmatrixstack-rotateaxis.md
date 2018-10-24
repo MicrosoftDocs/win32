@@ -2,8 +2,6 @@
 Description: Rotates (relative to world coordinate space) around an arbitrary axis.
 ms.assetid: 7c842bf6-2d13-422e-8136-0506a76ce9fe
 title: ID3DXMATRIXStack::RotateAxis method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

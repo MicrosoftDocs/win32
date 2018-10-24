@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: f2ac107c-e201-4670-96d1-883419787377
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the SNMP Provider
 ms.author: windowssdkdev

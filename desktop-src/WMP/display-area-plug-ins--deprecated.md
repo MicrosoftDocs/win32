@@ -8,8 +8,6 @@ keywords:
 - user interface plug-ins,display area
 - UI plug-ins,display area
 - display area plug-ins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

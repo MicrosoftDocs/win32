@@ -2,8 +2,6 @@
 title: IAgentUserInput GetItemConfidence
 description: IAgentUserInput GetItemConfidence
 ms.assetid: 7d1ca2f0-416c-43c3-99a8-9f287cb88de1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

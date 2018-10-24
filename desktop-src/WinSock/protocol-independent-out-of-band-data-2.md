@@ -2,8 +2,6 @@
 Description: The stream socket abstraction includes the notion of out of band (OOB) data.
 ms.assetid: 1a517885-2688-421f-9389-2d329e5c3d56
 title: Protocol-Independent Out-of-Band Data
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

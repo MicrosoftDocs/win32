@@ -2,8 +2,6 @@
 Description: Implementing a Seek Bar
 ms.assetid: 384f0732-e0c5-4b1f-b590-195e0acf90e1
 title: Implementing a Seek Bar
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

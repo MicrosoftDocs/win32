@@ -4,8 +4,6 @@ description: Represents a 5-by-4 matrix.
 ms.assetid: c6f57691-1530-e57a-c1b4-b68b4d8967e3
 keywords:
 - D2D1_MATRIX_5X4_F
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

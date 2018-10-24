@@ -5,8 +5,6 @@ ms.assetid: 8913caa9-6b2c-424c-a778-bd54d6584dac
 keywords:
 - SNMP Functions SNMP
 - Functions SNMP , SNMP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

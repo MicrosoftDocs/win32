@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8dd483b8-8bc2-4a5c-b981-6c2ffaccdb95
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a WMI Derived Class
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: The BERGetInteger function decodes a BER-encoded integer.
 ms.assetid: 1ab0dcec-05cf-4322-a44e-28aa9131495a
 title: BERGetInteger function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Property Sheet Macros
 description: .
 ms.assetid: d1cb44ec-b130-413a-8763-5997a2362b21
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The get\_AddressType method gets the address type.
 ms.assetid: b2ff6303-6beb-429c-ad1a-2f729749e5db
 title: ITConnection::get_AddressType method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The ADDRESSTABLE structure contains a table of address pairs.
 ms.assetid: 84577b6c-9d43-4e53-9f8d-33685329b11d
 title: ADDRESSTABLE structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

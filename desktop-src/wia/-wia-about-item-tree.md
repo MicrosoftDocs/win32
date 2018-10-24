@@ -2,8 +2,6 @@
 Description: With Windows Vista, the Windows Image Acquisition (WIA) item tree has changed significantly.
 ms.assetid: dda87bcc-2315-4f0d-87a0-d5a33d5d929a
 title: About the IWiaItem2 Item Tree
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

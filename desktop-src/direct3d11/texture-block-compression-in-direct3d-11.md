@@ -2,8 +2,6 @@
 title: Texture Block Compression in Direct3D 11
 description: Block Compression (BC) support for textures has been extended in Direct3D 11 to include the BC6H and BC7 algorithms.
 ms.assetid: E0735D4E-9C0F-45DC-854A-C27EB8367D86
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

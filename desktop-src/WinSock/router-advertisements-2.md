@@ -2,8 +2,6 @@
 Description: The content of IPv6 router advertisements is automatically derived from the published routes in the routing table. Nonpublished routes are used for routing but are ignored when constructing router advertisements.
 ms.assetid: 27b735db-4e87-497b-b39c-e464cf44f09e
 title: IPv6 Router Advertisements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

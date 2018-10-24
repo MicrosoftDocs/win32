@@ -2,8 +2,6 @@
 Description: Sends a Certified Output Protection Protocol (COPP) status request to a protected output object.
 ms.assetid: 24300591-c0c0-48a2-99d3-be98c0c1492a
 title: GetCOPPCompatibleOPMInformation function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

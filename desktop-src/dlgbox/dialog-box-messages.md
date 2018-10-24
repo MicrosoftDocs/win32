@@ -2,8 +2,6 @@
 title: Dialog Box Messages
 description: .
 ms.assetid: 'd1e9c2d5-b66c-4523-b9f0-314f0a2f7040'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Data structures for iSCSI Target pass-through devices.
 ms.assetid: 5ADD3595-4582-4D49-9F77-F863370A225C
 title: iSCSI Target Pass-Through
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

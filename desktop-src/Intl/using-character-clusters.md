@@ -2,8 +2,6 @@
 Description: Character clusters are glyph sequences that cannot be split between lines.
 ms.assetid: ab852feb-9e26-429e-a02a-11fe0abdfafc
 title: Using Character Clusters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

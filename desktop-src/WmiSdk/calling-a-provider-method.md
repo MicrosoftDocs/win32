@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 9c692bc7-246b-4619-a371-cc9e0e2d5a6e
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Calling a Provider Method
 ms.author: windowssdkdev

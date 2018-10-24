@@ -2,8 +2,6 @@
 title: WDS Transport Management Enumerations
 ms.assetid: dad1b0a0-2db8-4af8-a149-04c9e7788487
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

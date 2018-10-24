@@ -2,8 +2,6 @@
 title: IAgentCommands GetCaption
 description: IAgentCommands GetCaption
 ms.assetid: bbaaaa20-c8c2-41af-a6fc-cf8849daa399
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

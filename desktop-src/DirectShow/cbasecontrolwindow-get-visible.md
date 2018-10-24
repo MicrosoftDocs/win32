@@ -2,8 +2,6 @@
 Description: The get\_Visible method retrieves the current window visibility.
 ms.assetid: 7e643569-1116-4562-be33-babd12a7e899
 title: CBaseControlWindow.get_Visible method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

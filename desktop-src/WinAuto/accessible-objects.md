@@ -2,8 +2,6 @@
 title: Accessible Objects
 description: With Microsoft Active Accessibility, UI elements are exposed to clients as Component Object Model (COM) objects.
 ms.assetid: ab5669c3-33ce-4d56-a028-e36db25c0b28
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

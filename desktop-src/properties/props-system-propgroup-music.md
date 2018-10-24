@@ -2,8 +2,6 @@
 Description: The property group separator used in property lists to separate music files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: 49d889b3-4827-4c00-9b0b-2082e895281a
 title: System.PropGroup.Music
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

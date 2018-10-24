@@ -2,8 +2,6 @@
 Description: The LINEPARKMODE\_ bit-flag constants describe different ways of parking calls.
 ms.assetid: 4b182c16-9d58-4244-bc5a-05c393800948
 title: LINEPARKMODE_ Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

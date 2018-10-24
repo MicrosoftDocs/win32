@@ -2,8 +2,6 @@
 title: How To Create a Reference Device
 description: This topic shows how to create a reference device that implements a highly accurate, software implementation of the runtime.
 ms.assetid: 00d3f5f2-02c6-4ff4-82a9-0726ad4a8cb3
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

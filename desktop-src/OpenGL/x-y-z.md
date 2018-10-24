@@ -5,8 +5,6 @@ Robots: noindex, nofollow
 ms.assetid: 52e17d1e-1bd4-496c-9059-1235f980cecf
 keywords:
 - X Window System
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

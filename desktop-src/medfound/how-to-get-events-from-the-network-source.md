@@ -2,8 +2,6 @@
 Description: How to Get Events from the Network Source
 ms.assetid: 46869f52-323c-41ec-95f7-e7e5d177b782
 title: How to Get Events from the Network Source
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

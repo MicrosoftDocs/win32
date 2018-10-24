@@ -2,8 +2,6 @@
 Description: The SPI functions for Windows Sockets 2 are summarized in the following tables.Generic Data Transport FunctionsUpcalls Exposed by Windows Sockets 2 DLLInstallation and Configuration Functions
 ms.assetid: 82c14a8b-fbb5-46a4-aaae-19ea6e44a84a
 title: Summary of SPI Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

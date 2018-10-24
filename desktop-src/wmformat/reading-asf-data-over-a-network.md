@@ -9,8 +9,6 @@ keywords:
 - ASF (Advanced Systems Format),reading data
 - Advanced Systems Format (ASF),playing files from network sources
 - ASF (Advanced Systems Format),playing files from network sources
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

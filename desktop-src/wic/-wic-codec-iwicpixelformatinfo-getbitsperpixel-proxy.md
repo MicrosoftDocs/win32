@@ -2,8 +2,6 @@
 Description: Proxy function for the GetBitsPerPixel method.
 ms.assetid: bb98daeb-3886-473b-9c8e-5c606602249a
 title: IWICPixelFormatInfo_GetBitsPerPixel_Proxy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

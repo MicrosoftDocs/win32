@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 458167dc-562e-47b8-8760-797ae13f9459
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM Class Qualifiers for MIB Objects
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 title: WinINet Functions
 description: The following list includes all WinINet functions
 ms.assetid: 2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 0d4e819b-3702-4aac-833f-e65c76b6fb68
-ms.prod: windows-server-dev
-ms.technology: active-directory-schema
 ms.tgt_platform: multiple
 keywords:
 - ms-RADIUS-SavedFramedIpv6Prefix attribute AD Schema

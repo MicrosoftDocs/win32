@@ -2,8 +2,6 @@
 Description: Cleans up the state for the session being opened, or the currently open session.
 ms.assetid: 8247AFA9-F471-4CCD-972D-D0C827E86880
 title: WFDDisplaySinkCloseSession function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The UserSid property returns the user security identifier (SID) under which this patch instance is available.
 ms.assetid: 841d17d2-5962-41b9-b103-ce22c5555e3b
 title: Patch.UserSid property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

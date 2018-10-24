@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 7C91BEB9-53D2-4799-98F8-2B92128E37C3
 title: Direct3D 11 Video APIs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Provides services for setting CHV (card holder verification) code and for verifying the user.
 ms.assetid: fa40c21c-1584-475e-89f6-f81f67e3b942
 title: ISCardVerify interface
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

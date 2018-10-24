@@ -2,8 +2,6 @@
 Description: The SetSubObjectGUID method specifies the GUID of the subobject associated with this object.
 ms.assetid: 1f21e242-306e-4b28-8655-511b7db495ab
 title: IAMTimelineObj::SetSubObjectGUID method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

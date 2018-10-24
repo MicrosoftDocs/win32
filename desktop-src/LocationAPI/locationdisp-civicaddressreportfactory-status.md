@@ -2,8 +2,6 @@
 Description: The current report status.
 ms.assetid: 3aae0b61-cdaa-4131-b6e1-406813bb1848
 title: LocationDisp.CivicAddressReportFactory.Status property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

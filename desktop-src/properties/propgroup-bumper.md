@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 2caad1ee-5944-46ec-904a-32631b8afd0f
 title: PropGroup
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

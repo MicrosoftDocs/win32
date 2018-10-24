@@ -2,8 +2,6 @@
 Description: Opens an instance of a print ticket provider.
 ms.assetid: 815cc360-8dcd-4c58-a64d-5d77436a8623
 title: BindPTProviderThunk function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

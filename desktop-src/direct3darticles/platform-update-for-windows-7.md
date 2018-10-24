@@ -2,8 +2,6 @@
 title: Platform Update for Windows 7
 description: This topic describes improvements to components of the Windows 7 graphics stack that become available through the Platform Update for Windows 7.
 ms.assetid: C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

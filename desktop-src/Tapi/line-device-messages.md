@@ -2,8 +2,6 @@
 Description: This section contains the references for the TAPI line device messages.
 ms.assetid: dc11134e-6c20-426e-834e-508bf855e5da
 title: Line Device Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: MFT\_AudioDelay Sample
 ms.assetid: 08f119f9-cacd-4000-96b6-60c8c0055e9c
 title: MFT_AudioDelay Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

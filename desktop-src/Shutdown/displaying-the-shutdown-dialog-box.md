@@ -2,8 +2,6 @@
 Description: The following example reboots the local system using the InitiateSystemShutdown function.
 ms.assetid: 928c2d48-daa5-4c27-816b-766adedba7eb
 title: Displaying the Shutdown Dialog Box
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

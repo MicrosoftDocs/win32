@@ -2,8 +2,6 @@
 Description: Contains a set of cryptographic protocols and algorithms owned by the National Institute of Standards and Technology (NIST).
 ms.assetid: 220cb6f5-28a6-4ea8-b7ed-3a9f77752b7d
 title: PROV_FORTEZZA
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Used with the IOCTL\_SCSI\_MINIPORT IOCTL and the CTLCODE\_ISCSITGT\_SPT\_SESSION\_START (0x100) control code to start a session.
 ms.assetid: 2DB99F57-A721-4A63-BA3D-8BDAE40BFE25
 title: ISCSITGT_SPT_SESSION_START structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

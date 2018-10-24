@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 1bb9a0b7-b62c-403b-923d-59869ef2bf1c
 title: System.Message.ConversationIndex
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

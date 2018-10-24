@@ -7,8 +7,6 @@ keywords:
 - Windows Media Player Mobile skins,actions available
 - Windows Media Player Mobile skins,functions available
 - skins,Windows Media Player Mobile
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

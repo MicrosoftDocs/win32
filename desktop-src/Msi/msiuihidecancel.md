@@ -2,8 +2,6 @@
 Description: This Windows Installer property indicates when the internal user interface level has been set to hide the cancel button.
 ms.assetid: 0e842bee-32c2-41ae-97f3-bc8b34960a44
 title: MsiUIHideCancel property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

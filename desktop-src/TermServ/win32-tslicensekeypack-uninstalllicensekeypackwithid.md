@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: ECB622AB-FAB4-4C5D-A007-E3ABA8E1D3E7
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - UninstallLicenseKeyPackWithId method Remote Desktop Services

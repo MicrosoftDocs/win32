@@ -2,8 +2,6 @@
 Description: The user-friendly type name of the item.
 ms.assetid: 5d4c86da-6317-4a34-88d6-caf794aaa165
 title: System.ItemTypeText
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

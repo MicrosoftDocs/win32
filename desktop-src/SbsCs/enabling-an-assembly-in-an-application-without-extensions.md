@@ -2,8 +2,6 @@
 Description: If your application does not host a DLL, extension, plug-in, or control panel, you can use the method described in this section to enable an assembly for your application.
 ms.assetid: d043ec1b-ac31-45fb-9232-eec42aef4ac3
 title: Enabling an Assembly in an Application Without Extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

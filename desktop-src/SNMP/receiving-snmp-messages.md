@@ -2,8 +2,6 @@
 title: Receiving SNMP Messages
 description: The WinSNMP application must call the SnmpRecvMsg function to retrieve the response to an SnmpSendMsg request.
 ms.assetid: 323a5565-a8a5-4efd-aa4e-e4623b581d09
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

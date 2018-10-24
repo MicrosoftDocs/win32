@@ -2,8 +2,6 @@
 Description: Explains how to use CryptoAPI to manage and verify certificates.
 ms.assetid: 1c26509d-5bb6-42dc-aeb0-525d7eaecf7d
 title: 'Example C Program: Certificate Verification Operations'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

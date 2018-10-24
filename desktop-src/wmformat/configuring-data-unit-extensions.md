@@ -7,8 +7,6 @@ keywords:
 - streams,data unit extensions
 - data unit extensions,configuring
 - profiles,data unit extensions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

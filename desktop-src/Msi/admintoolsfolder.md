@@ -2,8 +2,6 @@
 Description: The AdminToolsFolder property contains the full path to the file system directory that stores administrative tools.
 ms.assetid: b5a0008d-8ebf-4e08-829e-0138fdca1f34
 title: AdminToolsFolder property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

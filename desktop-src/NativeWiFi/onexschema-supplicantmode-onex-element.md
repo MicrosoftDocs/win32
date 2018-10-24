@@ -2,8 +2,6 @@
 Description: Specifies the method of transmission used for EAPOL-Start messages.
 ms.assetid: 8d49d19a-8122-4191-bb46-92a2016bcfee
 title: supplicantMode (OneX) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

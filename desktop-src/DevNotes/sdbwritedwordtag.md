@@ -2,8 +2,6 @@
 Description: Writes a DWORD value to the specified database.
 ms.assetid: 2ecbfcac-5bb1-4129-9501-79210672aa1b
 title: SdbWriteDWORDTag function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

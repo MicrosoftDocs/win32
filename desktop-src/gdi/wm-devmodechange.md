@@ -2,8 +2,6 @@
 Description: The WM\_DEVMODECHANGE message is sent to all top-level windows whenever the user changes device-mode settings.
 ms.assetid: 06b625a8-7584-4a98-b8e7-f1de668c274e
 title: WM_DEVMODECHANGE message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

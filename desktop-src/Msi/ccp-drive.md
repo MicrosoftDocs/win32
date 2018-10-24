@@ -2,8 +2,6 @@
 Description: The CCP\_DRIVE property is set to the root path of the removable volume that is to be searched by RMCCPSearch.
 ms.assetid: 567b7d11-6d80-4ec5-810d-f32b9ebf5809
 title: CCP_DRIVE property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

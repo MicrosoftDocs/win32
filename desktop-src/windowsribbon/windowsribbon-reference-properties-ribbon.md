@@ -2,8 +2,6 @@
 title: Ribbon Properties
 description: Reference documentation on property keys for the Ribbon view of the Ribbon framework.
 ms.assetid: 1cd690a5-d283-4fb4-ac76-48b014ac2394
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The VBScript file WiMakCab.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how script is used to generate file cabinets from a Windows Installer database.
 ms.assetid: 26671cb9-a200-4520-8b52-4cff3f71a2f2
 title: Generate File Cabinet
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 14c34909-2419-41a1-a1ed-3b647a3c5e75
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: BitMap and BitValue Qualifiers
 ms.author: windowssdkdev

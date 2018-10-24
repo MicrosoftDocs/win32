@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 9E03A8D0-01AB-4B7E-99B6-FEEF9C1CAE17
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Connecting to WMI Remotely with C#
 ms.author: windowssdkdev

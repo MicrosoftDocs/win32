@@ -4,8 +4,6 @@ description: Use the point-specular lighting effect to create an image that appe
 ms.assetid: 89E22FD0-BB7F-465F-A79C-056CA9F14F5D
 keywords:
 - point specular lighting effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

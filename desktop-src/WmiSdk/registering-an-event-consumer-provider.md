@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: d1aa035c-f9ee-46b5-9fa5-8af77156f904
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering an Event Consumer Provider
 ms.author: windowssdkdev

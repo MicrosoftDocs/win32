@@ -2,8 +2,6 @@
 title: The FORMATETC Structure
 description: The FORMATETC structure is a generalized clipboard format, enhanced to encompass a target device, an aspect or view of the data, and a storage medium.
 ms.assetid: 46d8988a-4b97-4c86-8b1b-db87044a7e01
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

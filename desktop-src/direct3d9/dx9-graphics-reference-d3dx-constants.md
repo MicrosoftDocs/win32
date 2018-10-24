@@ -2,8 +2,6 @@
 Description: This section contains reference information for the constants defined in D3DX.
 ms.assetid: 255162c5-ad12-4236-81df-7ed43d75854d
 title: D3DX Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

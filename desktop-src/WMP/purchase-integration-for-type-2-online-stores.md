@@ -13,8 +13,6 @@ keywords:
 - Windows Media Player,integrating purchases
 - purchase integration
 - integrating purchases
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

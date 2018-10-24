@@ -2,8 +2,6 @@
 title: HTTP Server API Version 2.0 Structures
 description: The HTTP Server API version 2.0 provides the following structures for writing applications
 ms.assetid: 5a8e28e9-f85b-4550-929e-53f38eca6a8c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

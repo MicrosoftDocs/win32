@@ -2,8 +2,6 @@
 Description: The default language for a merge module is the language that is listed in the ModuleSignature Table of the module before language transforms are applied. This is also the first language that is listed in the Template Summary Property.
 ms.assetid: 4d795727-684c-4dc1-8b46-d72b69c455c3
 title: Choosing the Default Language of a Multiple Language Merge Module
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

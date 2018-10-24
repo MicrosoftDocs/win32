@@ -2,8 +2,6 @@
 Description: The Microsoft Windows HTTP Services (WinHTTP) trace configuration tool, WinHttpTraceCfg.exe, is used to configure trace capabilities for debugging and packet-sniffing purposes.
 ms.assetid: 744cae92-9c64-459e-96eb-eb609e62183c
 title: WinHttpTraceCfg.exe, a Trace Configuration Tool
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

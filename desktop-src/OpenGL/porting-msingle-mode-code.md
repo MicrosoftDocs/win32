@@ -14,8 +14,6 @@ keywords:
 - OpenGL porting from IRIS GL,single-matrix mode
 - single-matrix mode
 - double-matrix mode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

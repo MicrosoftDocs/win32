@@ -4,8 +4,6 @@ description: Functions supported for client application development by the Windo
 ms.assetid: 57c9378d-b170-4ba8-8eee-8078531540d5
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , client application functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

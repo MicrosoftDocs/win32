@@ -2,8 +2,6 @@
 title: Creating a Notification Sink
 description: Creating a Notification Sink
 ms.assetid: 6a3cc771-1fef-4b79-baa1-c8d050e36d92
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

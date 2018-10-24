@@ -2,8 +2,6 @@
 Description: Choosing a Compression Filter
 ms.assetid: 9a2c3c48-771e-44db-a042-3db0fd9a6c76
 title: Choosing a Compression Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

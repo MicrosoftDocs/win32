@@ -2,8 +2,6 @@
 Description: This topic is step 5 of the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: db9b896f-6f56-47b1-b129-331c984e0b16
 title: 'Step 5: Handle Media Session Events'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: How to Implement Multiline Tooltips
 description: Multiline tooltips allow text to be displayed on more than one line.
 ms.assetid: 62B10B44-C1C2-4C86-8648-AE6B606BACBB
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

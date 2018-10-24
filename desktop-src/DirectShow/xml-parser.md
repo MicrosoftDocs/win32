@@ -2,8 +2,6 @@
 Description: XML Parser
 ms.assetid: 2c1c6f21-e313-46e5-9b74-a59c2ddb90e1
 title: XML Parser
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

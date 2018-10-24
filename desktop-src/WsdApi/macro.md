@@ -2,8 +2,6 @@
 Description: Defines text or CDATA to be reused by the include element.
 ms.assetid: bf5cc1e2-b08e-45b6-8e07-5c69865b695b
 title: macro element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

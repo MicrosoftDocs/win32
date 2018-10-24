@@ -2,8 +2,6 @@
 Description: The OnStartStreaming method is called when the filter begins streaming.
 ms.assetid: 02a5b334-f6c4-4cba-8882-c6b36d97feb3
 title: CBaseRenderer.OnStartStreaming method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

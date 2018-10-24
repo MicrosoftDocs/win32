@@ -2,8 +2,6 @@
 Description: Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 3cf9fba7-6895-4dfb-9aef-571c512b7955
 title: AVEncDDPreferredStereoDownMixMode property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Reference
 ms.assetid: cad0242e-844d-4504-b633-3143a88e1514
 description: 
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

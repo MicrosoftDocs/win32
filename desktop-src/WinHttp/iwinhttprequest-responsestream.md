@@ -2,8 +2,6 @@
 Description: Retrieves the response entity body as an IStream.
 ms.assetid: e12a9338-5e0c-4672-bbc6-31375b872e94
 title: IWinHttpRequest::ResponseStream property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

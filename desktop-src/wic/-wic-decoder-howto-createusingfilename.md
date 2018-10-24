@@ -2,8 +2,6 @@
 Description: This topic describes how to create a bitmap decoder by using an image filename.
 ms.assetid: b384861d-4e71-4e07-8b44-5c1cbcb3a70f
 title: How to Create a Decoder Using an Image Filename
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

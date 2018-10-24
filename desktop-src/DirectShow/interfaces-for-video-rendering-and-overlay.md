@@ -2,8 +2,6 @@
 Description: Interfaces for Video Rendering and Overlay
 ms.assetid: e4d4e456-61fb-492b-b817-30629681e270
 title: Interfaces for Video Rendering and Overlay
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

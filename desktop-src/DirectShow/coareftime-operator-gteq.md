@@ -2,8 +2,6 @@
 Description: This operator tests if one reference time is less than or equal to another.
 ms.assetid: ae7449b7-d319-4e76-892f-0f9ae63ddf94
 title: COARefTime.operator>= method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Property Setter
 ms.assetid: 625f3774-4f8a-4208-ab30-43559b1fd6ce
 title: Property Setter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

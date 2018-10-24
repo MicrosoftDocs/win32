@@ -2,8 +2,6 @@
 Description: Contains a global revocation list (GRL) signature.
 ms.assetid: 388a901c-6202-41cf-9c3d-f29d8ccca76b
 title: MF_SIGNATURE structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

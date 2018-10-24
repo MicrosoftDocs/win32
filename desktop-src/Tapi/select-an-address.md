@@ -2,8 +2,6 @@
 Description: The following code example demonstrates use of the TAPI object to examine available telephony resources for an address that can handle a specified set of media type requirements. In this example, audio and video are the required media.
 ms.assetid: 8be40a87-931d-4cda-9ef7-f9c0489e0b7b
 title: Select an Address
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

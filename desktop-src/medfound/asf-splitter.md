@@ -2,8 +2,6 @@
 Description: ASF Splitter
 ms.assetid: 383b1cc6-4a77-4e0e-a766-6213c64b025c
 title: ASF Splitter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

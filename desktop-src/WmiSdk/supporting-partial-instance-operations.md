@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: bc498655-ad6d-44f5-912d-9b7ee95825ec
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Supporting Partial-Instance Operations
 ms.author: windowssdkdev

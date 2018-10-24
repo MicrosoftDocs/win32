@@ -2,8 +2,6 @@
 Description: The AMOVIESETUP\_FILTER structure contains information for registering a filter.
 ms.assetid: 72e58f33-e480-4b32-b3d5-8f6c8eb2d5a3
 title: AMOVIESETUP_FILTER structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

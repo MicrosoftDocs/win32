@@ -2,8 +2,6 @@
 Description: Working with DMO Media Buffers
 ms.assetid: 6d0c51b8-0d79-4f04-8e90-0cea4f3b1427
 title: Working with DMO Media Buffers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

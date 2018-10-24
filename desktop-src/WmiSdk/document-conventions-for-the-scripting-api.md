@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 889e6322-96f6-4a24-a084-e3b7bfa94a40
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Document Conventions for the Scripting API
 ms.author: windowssdkdev

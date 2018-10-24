@@ -2,8 +2,6 @@
 title: Count Property
 description: Count Property
 ms.assetid: a0375aa9-495d-47be-a3f7-4d5987688555
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

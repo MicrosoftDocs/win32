@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: CF3A427D-31D2-45FF-BE87-F192B758204E
 title: PMP Media Session
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

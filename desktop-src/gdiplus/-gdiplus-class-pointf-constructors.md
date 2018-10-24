@@ -2,8 +2,6 @@
 Description: This topic lists the constructors of the PointF class. For a complete class listing, see PointF Class.
 ms.assetid: 693ff9c6-d201-4f37-8797-f6dfb50feabe
 title: PointF.PointF constructors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

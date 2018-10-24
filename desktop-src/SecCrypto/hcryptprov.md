@@ -2,8 +2,6 @@
 Description: The HCRYPTPROV data type is used to represent handles to CSPs. These handles are used to indicate which CSP module performs specific operations.
 ms.assetid: 8ec6b392-06bc-4717-8657-7ea9a43d03fb
 title: HCRYPTPROV
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

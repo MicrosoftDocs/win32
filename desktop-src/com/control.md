@@ -4,8 +4,6 @@ description: Identifies an object as an ActiveX Control.
 ms.assetid: 2487e642-1d21-4811-87dd-b280be98a44b
 keywords:
 - Control registry key COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

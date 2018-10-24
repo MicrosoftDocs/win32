@@ -2,8 +2,6 @@
 Description: File Source (URL) Filter
 ms.assetid: 405fd6ea-aa17-4d11-8f07-067468cb090b
 title: File Source (URL) Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

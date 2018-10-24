@@ -2,8 +2,6 @@
 Description: Explains the interactions between Winlogon and network providers.
 ms.assetid: 09d0b5ce-e2ac-40d7-bc35-272c5f831788
 title: Interaction with Network Providers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

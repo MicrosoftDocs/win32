@@ -2,8 +2,6 @@
 Description: Your Direct3D application can assign texture coordinates to any vertex of any primitive.
 ms.assetid: 2e23bcb3-9eba-49d9-93ce-0a4fbb15f746
 title: Texture Addressing Modes (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

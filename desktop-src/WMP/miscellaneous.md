@@ -6,8 +6,6 @@ keywords:
 - Windows Media Player skins,specialized attributes
 - skins,specialized attributes
 - reference for skins,specialized attributes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

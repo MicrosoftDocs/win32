@@ -2,8 +2,6 @@
 Description: Enumerates the certificate template names.
 ms.assetid: 4741eb0d-b8e0-468c-8a00-9ccacb52a9a7
 title: ISCrdEnr::enumCertTemplateName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

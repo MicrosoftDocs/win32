@@ -2,8 +2,6 @@
 Description: Specifies, on IMFTransform, the maximum macroblock processing rate, in macroblocks per second, that is supported by the hardware encoder.
 ms.assetid: 1AA41DE3-C37C-41BA-9549-5F12373DDB3B
 title: MF_VIDEO_MAX_MB_PER_SEC attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

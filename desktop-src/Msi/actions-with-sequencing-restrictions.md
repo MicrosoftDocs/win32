@@ -2,8 +2,6 @@
 Description: The sequencing of many actions in the actions tables is restricted. See Standard Actions Reference for a complete list of actions with links to detailed sequencing information.
 ms.assetid: 659b1dd2-7510-4962-a991-f5febcfbf26e
 title: Actions with Sequencing Restrictions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

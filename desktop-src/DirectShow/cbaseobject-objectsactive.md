@@ -2,8 +2,6 @@
 Description: The ObjectsActive method retrieves a process-wide count of active objects.
 ms.assetid: adbc023a-22b7-44e9-b078-a26831f961cc
 title: CBaseObject.ObjectsActive method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

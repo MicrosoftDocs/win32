@@ -2,8 +2,6 @@
 title: Required Windows Filtering Platform Exceptions for Teredo
 description: Exceptions that allow applications to receive unsolicited traffic over Teredo through a firewall must be created using Windows Filtering Platform APIs.
 ms.assetid: 8e562757-cd31-4c83-bf4a-92c2e0d3f2ed
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

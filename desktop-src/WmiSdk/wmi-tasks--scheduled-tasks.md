@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 62151fe8-8880-43f2-b456-628bd9c7cc1c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Scheduled Tasks'
 ms.author: windowssdkdev

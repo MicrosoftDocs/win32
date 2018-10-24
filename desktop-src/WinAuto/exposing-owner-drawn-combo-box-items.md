@@ -2,8 +2,6 @@
 title: Exposing Owner-Drawn Combo Box Items
 description: Application developers do not need to implement IAccessible to expose the items in an owner-drawn combo box that has the style CBS\_HASSTRINGS because Microsoft Active Accessibility exposes the items in combo boxes with this style.
 ms.assetid: 9ff14b2f-ae09-4839-b281-fba46addaf5f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

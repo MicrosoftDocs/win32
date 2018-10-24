@@ -2,8 +2,6 @@
 Description: The PossiblyEatMessage method forwards keyboard and mouse messages to the message-drain window.
 ms.assetid: 8e344c5d-2f94-454f-89b7-45c539b6e833
 title: CBaseControlWindow.PossiblyEatMessage method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

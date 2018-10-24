@@ -2,8 +2,6 @@
 Description: The exposure time for the photo, in seconds, as read from the Exchangeable Image File (EXIF) information.
 ms.assetid: 44f7e6d5-c4d9-4b41-b6c6-15145abb7983
 title: System.Photo.ExposureTime
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

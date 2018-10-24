@@ -2,8 +2,6 @@
 title: Generating Error Information
 description: If a server or application encounters a fatal error while being called through RPC, it should indicate to the RPC run time that it has encountered a failure, and ideally, should add information about the failure to facilitate troubleshooting.
 ms.assetid: 6658c387-94df-4d85-9749-53858f9e0f5f
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

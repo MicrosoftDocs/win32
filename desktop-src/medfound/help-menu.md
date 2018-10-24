@@ -2,8 +2,6 @@
 Description: Help Menu
 ms.assetid: 2aa61e3d-4385-4ec2-ac71-a2a4a43af079
 title: Help Menu
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

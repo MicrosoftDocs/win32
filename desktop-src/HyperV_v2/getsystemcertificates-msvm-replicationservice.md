@@ -2,8 +2,6 @@
 Description: Retrieves the system certificates on a host system.
 ms.assetid: d470a57d-85b9-4d31-bb2c-9b6f21e2860d
 title: GetSystemCertificates method of the Msvm_ReplicationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

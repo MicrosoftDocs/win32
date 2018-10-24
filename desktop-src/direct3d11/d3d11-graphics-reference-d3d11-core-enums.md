@@ -4,8 +4,6 @@ description: This section contains information about the core enumerations.
 ms.assetid: 1641713a-5ac8-4597-900b-1bba54f9f522
 keywords:
 - enumerations, Direct3D 11 Core
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

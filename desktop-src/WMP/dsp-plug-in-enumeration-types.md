@@ -10,8 +10,6 @@ keywords:
 - digital signal processing plug-ins,enumeration types
 - DSP plug-ins,enumeration types
 - enumerations,DSP plug-ins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

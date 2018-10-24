@@ -5,8 +5,6 @@ ms.assetid: 560863a7-1432-4d53-af2e-06ade5caed80
 keywords:
 - user input,about
 - capturing user input,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

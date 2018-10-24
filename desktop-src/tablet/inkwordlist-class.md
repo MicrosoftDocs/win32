@@ -2,8 +2,6 @@
 Description: Represents a list of words that can be used to improve the recognition result.
 ms.assetid: d189fd13-ec69-45dc-8be4-fea48f337636
 title: InkWordList class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

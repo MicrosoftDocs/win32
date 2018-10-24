@@ -2,8 +2,6 @@
 title: else (sm4 - asm)
 description: Starts an else block.
 ms.assetid: CFF25E78-D986-4EC5-B542-B3396EFF88E1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

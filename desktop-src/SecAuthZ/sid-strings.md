@@ -2,8 +2,6 @@
 Description: Explains the strings used by SDDLs.
 ms.assetid: a531532f-afba-46a1-8576-90d4ff881b94
 title: SID Strings
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

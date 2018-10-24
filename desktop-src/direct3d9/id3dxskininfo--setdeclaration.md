@@ -2,8 +2,6 @@
 Description: Sets the vertex declaration.
 ms.assetid: cbb802ac-f0ba-41e6-8c67-a787982f975f
 title: ID3DXSkinInfo::SetDeclaration method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

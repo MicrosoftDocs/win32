@@ -2,8 +2,6 @@
 title: Multiple-Pass Rendering
 description: Multiple-pass rendering is a process in which an application traverses its scene graph multiple times in order to produce an output to render to the display.
 ms.assetid: 9a11686a-fd99-4d40-8b02-6f8ec18346e8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

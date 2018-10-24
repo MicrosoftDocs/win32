@@ -2,8 +2,6 @@
 Description: The TRACE\_LOGFILE\_HEADER structure contains information about an event tracing session and its events.
 ms.assetid: 13fdabe6-c904-4546-b876-c145f6a6c345
 title: TRACE_LOGFILE_HEADER structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

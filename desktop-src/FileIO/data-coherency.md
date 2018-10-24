@@ -2,8 +2,6 @@
 Description: If data is coherent, data on the server and all the clients is synchronized. One type of software system that provides data coherency is a revision control system (RCS).
 ms.assetid: cd33d20e-bf25-4a50-9b20-344495554434
 title: Data Coherency
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

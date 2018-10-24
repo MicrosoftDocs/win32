@@ -2,8 +2,6 @@
 Description: Provides access to information about individual callers in a collection of callers. The collection represents the chain of calls ending with the current call, and each caller in the collection represents the identity of one caller.
 ms.assetid: 164fe12d-eeb3-402f-8aa3-e3545904d9c4
 title: SecurityCallers class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

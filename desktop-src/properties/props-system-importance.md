@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 2a159e29-c501-4721-9478-aa201454a415
 title: System.Importance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

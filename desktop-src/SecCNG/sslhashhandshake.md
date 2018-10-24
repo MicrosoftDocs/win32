@@ -2,8 +2,6 @@
 Description: Returns a handle to the handshake hash.
 ms.assetid: c0f20084-c863-42cf-afdf-298c5a96eed9
 title: SslHashHandshake function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

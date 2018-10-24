@@ -2,8 +2,6 @@
 Description: This topic describes how a client uses a Media Foundation transform (MFT) to process data. The client is anything that directly calls methods on the MFT. This might be the application or the Media Foundation pipeline.
 ms.assetid: be977d75-999e-4e57-9672-00a89246a2c1
 title: Basic MFT Processing Model
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

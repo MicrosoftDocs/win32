@@ -2,8 +2,6 @@
 Description: Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.
 ms.assetid: ed9053c0-b1df-4f74-bdee-627c0f60d942
 title: D3DXComputeNormalMap function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

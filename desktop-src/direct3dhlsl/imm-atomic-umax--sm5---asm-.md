@@ -2,8 +2,6 @@
 title: imm_atomic_umax (sm5 - asm)
 description: Immediate atomic unsigned max to memory. Returns value in memory before the max operation.
 ms.assetid: 6C9D2CA3-1502-41E1-8535-C94DF31201E1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

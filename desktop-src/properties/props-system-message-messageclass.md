@@ -2,8 +2,6 @@
 Description: The type of Microsoft Outlook message (meeting, task, mail, and so on).
 ms.assetid: 421d1b44-588c-4fe6-ac0e-14fbac1330e3
 title: System.Message.MessageClass
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

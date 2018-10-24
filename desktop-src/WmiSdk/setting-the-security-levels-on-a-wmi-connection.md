@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: dd453e0e-aa1f-4ef1-ab21-613630b2758c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting the Security Levels on a WMI Connection
 ms.author: windowssdkdev

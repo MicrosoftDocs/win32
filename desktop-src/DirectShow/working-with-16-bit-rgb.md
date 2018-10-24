@@ -2,8 +2,6 @@
 Description: Working with 16-bit RGB
 ms.assetid: 0a245187-4120-4003-9a8f-6b1e8fa40d38
 title: Working with 16-bit RGB
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

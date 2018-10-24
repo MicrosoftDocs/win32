@@ -2,8 +2,6 @@
 Description: Specifies the start time for a topology, relative to the start of the first topology in the sequence.
 ms.assetid: 1ca3709e-88ea-40ca-8da4-c2259365122b
 title: MF_TOPOLOGY_PROJECTSTOP attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

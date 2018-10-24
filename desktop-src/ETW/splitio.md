@@ -2,8 +2,6 @@
 Description: This class is the parent class for split IO events. The following syntax is simplified from MOF code.
 ms.assetid: d65c5180-6f1a-45cc-bca8-eac13857d383
 title: SplitIo class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

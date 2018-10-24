@@ -2,8 +2,6 @@
 Description: A phone device can have multiple hookswitch devices.
 ms.assetid: 39e3f24d-55d8-4830-8599-383954c8a107
 title: Hookswitch Devices
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

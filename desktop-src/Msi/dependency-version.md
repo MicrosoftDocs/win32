@@ -2,8 +2,6 @@
 Description: The read-only Version property returns the version of the module required by the current merge.
 ms.assetid: 784fb75c-2ed2-411a-b441-9c81297b487d
 title: Dependency.Version property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

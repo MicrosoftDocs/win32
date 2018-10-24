@@ -2,8 +2,6 @@
 title: Command Event
 description: Command Event
 ms.assetid: 3e180286-dfa0-4b34-90ee-3267ed6f48af
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

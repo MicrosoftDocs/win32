@@ -7,8 +7,6 @@ keywords:
 - TSF (Text Services Framework),common elements
 - text services,common elements
 - TSF-enabled applications,common elements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

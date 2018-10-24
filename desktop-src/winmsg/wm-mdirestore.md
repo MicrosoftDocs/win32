@@ -2,8 +2,6 @@
 Description: An application sends the WM\_MDIRESTORE message to a multiple-document interface (MDI) client window to restore an MDI child window from maximized or minimized size.
 ms.assetid: bb99fda1-9eb5-4307-9326-9a417a046c22
 title: WM_MDIRESTORE message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

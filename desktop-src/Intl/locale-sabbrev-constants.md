@@ -2,8 +2,6 @@
 Description: LOCALE\_SABBREV\* Constants
 ms.assetid: f4986fdd-996f-4791-aa41-375decf1524f
 title: LOCALE_SABBREV* Constants
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

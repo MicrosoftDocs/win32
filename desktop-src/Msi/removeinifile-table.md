@@ -2,8 +2,6 @@
 Description: The RemoveIniFile table contains the information an application needs to delete from a .ini file.
 ms.assetid: 702cf86e-02f4-4ea7-8573-b500ac550aae
 title: RemoveIniFile Table
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

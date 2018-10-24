@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 9c1a164e-4728-4fbe-8a49-b571005a46ec
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SELECT Statement for Data Queries
 ms.author: windowssdkdev

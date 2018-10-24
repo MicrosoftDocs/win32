@@ -11,8 +11,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),about
 - Musical Instrument Digital Interface (MIDI),examples
 - MIDI (Musical Instrument Digital Interface),examples
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

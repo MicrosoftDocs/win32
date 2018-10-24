@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: a78c72f7-0bc0-4bda-9012-4abe45342d8d
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Namespace ACE Type Constants
 ms.author: windowssdkdev

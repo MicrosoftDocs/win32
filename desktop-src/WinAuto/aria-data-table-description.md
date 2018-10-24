@@ -4,8 +4,6 @@ description: ARIA Data Table Warning
 ms.assetid: 3CFCF248-6A66-4140-B3E7-133E3809B287
 keywords:
 - AriaDataTableWarningId
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

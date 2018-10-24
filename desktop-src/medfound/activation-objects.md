@@ -2,8 +2,6 @@
 Description: Activation Objects
 ms.assetid: 767d5f1c-2b8d-43b6-916b-035129e93204
 title: Activation Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

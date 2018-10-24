@@ -2,8 +2,6 @@
 title: Tree Views
 description: With a tree view, users can view and interact with a hierarchically arranged collection of objects, using either single selection or multiple selection.
 ms.assetid: f0206485-e028-41d8-9be2-5d59f0a0b677
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

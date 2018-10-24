@@ -2,8 +2,6 @@
 title: How to Use Tree-View Infotips
 description: When you apply the TVS\_INFOTIP style to a tree-view control, it generates TVN\_GETINFOTIP notifications when the cursor is over an item in the tree view. By responding to this notification, you can set the text that appears in the infotip.
 ms.assetid: 779BEAC1-877E-43DD-AE1C-6D71C3013384
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

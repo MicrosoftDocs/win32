@@ -2,8 +2,6 @@
 Description: Defines swap effects.
 ms.assetid: 522a5f71-3ad9-4cfc-a899-e25b9b721b1b
 title: D3DSWAPEFFECT enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

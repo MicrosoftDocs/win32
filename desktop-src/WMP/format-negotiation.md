@@ -7,8 +7,6 @@ keywords:
 - plug-ins,format negotiation
 - digital signal processing plug-ins,format negotiation
 - DSP plug-ins,format negotiation
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

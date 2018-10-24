@@ -2,8 +2,6 @@
 title: Property Sheet Functions
 description: .
 ms.assetid: e7f63c55-a443-4c59-be75-8c214de98d97
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

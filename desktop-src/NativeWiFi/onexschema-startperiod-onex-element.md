@@ -2,8 +2,6 @@
 Description: Specifies the length of time, in seconds, to wait before an EAPOL-Start is sent.
 ms.assetid: 6163eeb9-23a8-4e34-ad3f-016946e241e2
 title: startPeriod (OneX) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

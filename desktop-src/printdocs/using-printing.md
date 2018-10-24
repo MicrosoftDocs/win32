@@ -2,8 +2,6 @@
 Description: This section describes how to print from a native Windows desktop program.
 ms.assetid: C1EDBE38-9D18-41BB-961C-12CF2283C639
 title: Desktop App Printing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Decrypts enveloped content.
 ms.assetid: 717d0595-e8bb-4725-bd53-fc1281cbc8ee
 title: EnvelopedData.Decrypt method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

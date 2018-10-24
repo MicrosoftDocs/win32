@@ -2,8 +2,6 @@
 title: ToolTip Control (MSAA UI Element Reference)
 description: A tooltip control displays a small pop-up window that contains a line of text that describes the purpose of a tool, represented as a graphical object, in an application.
 ms.assetid: d3a65d7b-b882-4a1a-bac2-6995b64cf4af
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

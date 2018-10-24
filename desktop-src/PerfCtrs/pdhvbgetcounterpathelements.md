@@ -2,8 +2,6 @@
 Description: The PdhVbGetCounterPathElements function parses a fully qualified performance counter path string into its individual elements.
 ms.assetid: 5459c7dd-e8b6-48cd-a33f-cafdc64dd9ee
 title: PdhVbGetCounterPathElements function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

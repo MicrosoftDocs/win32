@@ -2,8 +2,6 @@
 Description: Applications determine whether to grant access to securable objects by calling the AuthzAccessCheck function.
 ms.assetid: dad0a102-08ed-4cd2-bef5-87bc48fc7fc2
 title: Checking Access with Authz API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

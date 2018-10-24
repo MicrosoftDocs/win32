@@ -2,8 +2,6 @@
 Description: This topic describes how to retrieve and set values for sensor properties. The ISensor interface provides the methods to set and retrieve values for sensor properties.
 ms.assetid: 7d10e5b4-bae7-4564-84eb-75c6a2eeef8f
 title: Retrieving and Setting Sensor Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

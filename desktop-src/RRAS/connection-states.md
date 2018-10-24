@@ -2,8 +2,6 @@
 title: Connection States
 description: During the process of connecting to a remote server, the Remote Access Connection Manager and the RAS server on the remote computer perform several steps to establish the connection.
 ms.assetid: 7a8b0086-308b-47d2-888e-69ff473c6015
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The clamp texture address mode, identified by the D3DTADDRESS\_CLAMP member of the D3DTEXTUREADDRESS enumerated type, causes Direct3D to clamp your texture coordinates to the \[0.0, 1.0\] range.
 ms.assetid: 8efed38d-4c9f-4a8d-9d1b-af1c8df9292a
 title: Clamp Texture Address Mode (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

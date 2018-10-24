@@ -4,8 +4,6 @@ description: Opening a Simple Device by Using the Device-Type Constant
 ms.assetid: 6ed5fd4b-534a-4e03-8130-07f831403a8e
 keywords:
 - mciSendCommand function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

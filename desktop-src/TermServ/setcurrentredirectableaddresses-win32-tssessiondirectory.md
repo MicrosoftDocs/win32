@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: cad6a8a8-fdf1-406e-abeb-37acb396ac16
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - SetCurrentRedirectableAddresses method Remote Desktop Services

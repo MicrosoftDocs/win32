@@ -2,8 +2,6 @@
 Description: With a connection-oriented context, the function's caller is responsible for formatting messages. The caller relies on the security package to authenticate connections and to ensure the integrity of specific parts of the message.
 ms.assetid: 82c6b1aa-304c-47f9-8e0f-ad70a89772aa
 title: Connection-Oriented Contexts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

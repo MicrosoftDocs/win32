@@ -2,8 +2,6 @@
 title: Appendix F Object Identifier Values for OBJID_QUERYCLASSNAMEIDX
 description: When OLEACC sends a WM\_GETOBJECT message with the lParam parameter set to OBJIDQUERYCLASSNAMEIDX, many standard USER or common controls (COMCTL) return one of the following values.
 ms.assetid: 2a54973c-7dfa-49af-8fd0-925fafa256ad
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

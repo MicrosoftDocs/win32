@@ -2,8 +2,6 @@
 title: Daily Trigger Example (Scripting)
 description: This scripting example shows how to create a task that runs Notepad at 8 00 AM every day.
 ms.assetid: a13bd54d-b45a-46e5-8281-d080f50f6bef
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

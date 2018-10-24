@@ -2,8 +2,6 @@
 Description: After calling IVssBackupComponents::GatherWriterMetadata, a requester uses the instance of the IVssAsync interface returned from this call to determine when all writers on the system have finished constructing their Writer Metadata Documents.
 ms.assetid: 04658d50-04f0-4189-8b88-ff152f1bf482
 title: Overview of the Backup Discovery Phase
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

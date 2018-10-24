@@ -4,8 +4,6 @@ description: The Microsoft Interface Definition Language supports a superset of 
 ms.assetid: 34d01a57-4d65-4d9c-8a2f-21db1c1d8b37
 keywords:
 - data types MIDL , unions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

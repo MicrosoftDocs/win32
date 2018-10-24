@@ -8,8 +8,6 @@ keywords:
 - MCIWnd window class,examples
 - MCIWnd window,examples
 - MCIWnd window,window class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

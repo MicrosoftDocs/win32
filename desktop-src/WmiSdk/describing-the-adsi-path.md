@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: bc04359c-4eda-4574-a9c2-f005a1d92dea
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing the ADSI Path
 ms.author: windowssdkdev

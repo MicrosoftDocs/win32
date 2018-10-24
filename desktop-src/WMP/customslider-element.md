@@ -8,8 +8,6 @@ keywords:
 - CUSTOMSLIDER element
 - reference for skins,CUSTOMSLIDER element
 - elements,CUSTOMSLIDER
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

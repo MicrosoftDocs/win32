@@ -2,8 +2,6 @@
 title: Cursor (MSAA UI Element Reference)
 description: A cursor is a small picture whose location on the screen is controlled by a pointing device, such as a mouse, pen, or trackball. When the user moves the pointing device, the Windows operating system moves the cursor.
 ms.assetid: ff97d474-7c96-4f89-bc34-2cf320381ce0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

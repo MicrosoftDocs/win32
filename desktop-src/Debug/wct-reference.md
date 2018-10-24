@@ -1,8 +1,6 @@
 ---
 ms.assetid: 479ca55a-d570-44bc-9f52-88432804df6f
 title: WCT Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

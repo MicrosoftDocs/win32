@@ -2,8 +2,6 @@
 Description: Applications can depend on a specific version of a shared DLL and start to fail if another application is installed with a newer or older version of the same DLL.
 ms.assetid: 3b426b6c-1ad5-43b9-81ea-5e6d3c6588c8
 title: Dynamic-Link Library Redirection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

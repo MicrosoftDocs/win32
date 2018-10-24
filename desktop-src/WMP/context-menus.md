@@ -11,8 +11,6 @@ keywords:
 - type 1 online stores,custom context menus
 - context menus
 - custom context menus
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

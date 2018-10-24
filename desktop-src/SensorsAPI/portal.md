@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: a6ea76e6-9721-453a-a657-96f53660e09d
 title: Sensor API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

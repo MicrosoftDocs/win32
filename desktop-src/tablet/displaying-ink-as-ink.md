@@ -2,8 +2,6 @@
 Description: The default behavior for the InkEdit control is to recognize and convert ink into text after a brief timeout has expired.
 ms.assetid: d141bcec-e9a8-48b8-86cf-9476a2cc6f9f
 title: Displaying Ink as Ink
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

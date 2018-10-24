@@ -2,8 +2,6 @@
 Description: Indicates if the Device Association Endpoint Container Supports SupportsNetworking.
 ms.assetid: 83d18f28-fa2b-496c-b9e4-ceacd268724b
 title: System.Devices.AepContainer.SupportsNetworking
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

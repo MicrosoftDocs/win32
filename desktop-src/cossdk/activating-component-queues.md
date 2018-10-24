@@ -2,8 +2,6 @@
 Description: Activating Component Queues
 ms.assetid: cfbf7c73-2521-40cf-8c6e-436f64c07e31
 title: Activating Component Queues
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

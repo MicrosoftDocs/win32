@@ -2,8 +2,6 @@
 title: Authorization Functions
 description: Each time a server program receives a client request for access to one of the management remote procedures, the RPC run-time library invokes a default authorization function.
 ms.assetid: e3edbf6f-2876-49ac-a93e-14fd0b5adf53
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

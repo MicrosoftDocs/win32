@@ -2,8 +2,6 @@
 Description: This topic describes how to seek during playback using MFPlay.
 ms.assetid: 8ccca882-5543-4913-8eb9-8adaed2c57aa
 title: How to Seek During Playback
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

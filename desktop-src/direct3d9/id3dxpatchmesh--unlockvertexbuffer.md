@@ -2,8 +2,6 @@
 Description: Unlock the vertex buffer.
 ms.assetid: 98b82fd1-56e8-45f3-bf26-a1e3b54c2979
 title: ID3DXPatchMesh::UnlockVertexBuffer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

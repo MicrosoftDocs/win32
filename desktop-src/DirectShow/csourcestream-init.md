@@ -2,8 +2,6 @@
 Description: The Init method initializes the streaming thread.
 ms.assetid: c746e595-de97-478c-8b22-5c4dd5594a8f
 title: CSourceStream.Init method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

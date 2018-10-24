@@ -2,8 +2,6 @@
 Description: You can use a mutex object to protect a shared resource from simultaneous access by multiple threads or processes.
 ms.assetid: 0f69ba50-69ce-467a-b068-8fd8f07c6c78
 title: Using Mutex Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

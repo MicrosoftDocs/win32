@@ -15,8 +15,6 @@ keywords:
 - glEvalMesh functions
 - one-dimensional grid of points or lines
 - two-dimensional grid of points or lines
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

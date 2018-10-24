@@ -2,8 +2,6 @@
 Description: Set as an attribute for an IMFOutputSchema object.
 ms.assetid: 0CCCAB27-DEB0-41D8-A70C-D6CCEFE0601F
 title: MFPROTECTIONATTRIBUTE_BEST_EFFORT attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

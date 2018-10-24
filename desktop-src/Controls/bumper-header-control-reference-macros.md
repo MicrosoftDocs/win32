@@ -2,8 +2,6 @@
 title: Header Control Macros
 description: .
 ms.assetid: 5ef52add-f796-48e5-83a8-e7d2c07e202d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

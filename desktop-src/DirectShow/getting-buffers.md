@@ -2,8 +2,6 @@
 Description: Getting Buffers
 ms.assetid: be61aee9-41d5-42bc-b905-d0216d301faf
 title: Getting Buffers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

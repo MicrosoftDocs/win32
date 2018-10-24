@@ -2,8 +2,6 @@
 Description: The EnvelopedData object exposes the following methods.
 ms.assetid: A3A0317E-D880-41A8-BB70-D08E72E5D956
 title: EnvelopedData Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

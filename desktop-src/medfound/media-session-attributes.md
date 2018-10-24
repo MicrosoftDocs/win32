@@ -2,8 +2,6 @@
 Description: Media Session Attributes
 ms.assetid: 7f9cef1c-b419-485f-ac01-afb9f42e5bd6
 title: Media Session Attributes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

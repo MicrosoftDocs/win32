@@ -2,8 +2,6 @@
 Description: When the computer system is started, the Local Security Authority (LSA) automatically loads all registered security support provider/authentication package (SSP/AP) DLLs into its process space. The following illustrations show the initialization process.
 ms.assetid: 2d52cbbf-9e28-4c6f-8b4c-448b73c6dbf8
 title: LSA Mode Initialization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

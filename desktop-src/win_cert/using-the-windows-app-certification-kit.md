@@ -2,8 +2,6 @@
 title: Using the Windows App Certification Kit
 description: To give your desktop app the best chance of getting certified, validate and test it on your computer before you submit it for certification and listing in the Windows Store.
 ms.assetid: 8B460B84-0997-4987-9B66-90F9C6D88D83
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

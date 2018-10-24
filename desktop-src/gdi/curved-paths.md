@@ -2,8 +2,6 @@
 Description: Curved Paths
 ms.assetid: 1ee9e6c6-5f8d-4727-b5f9-4b179c5371f1
 title: Curved Paths
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

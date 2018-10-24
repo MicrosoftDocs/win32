@@ -3,8 +3,6 @@ title: V
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: a0f43bec-d653-4e85-aaa7-c6a84490c14b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

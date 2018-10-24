@@ -2,8 +2,6 @@
 title: RAS Common Dialog Boxes
 description: Windows provides a set of functions that display the RAS dialog boxes provided by the system.
 ms.assetid: 8231511a-7339-4fbb-8a39-f643ac575856
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

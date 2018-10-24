@@ -2,8 +2,6 @@
 Description: Provides services that enable application developers to add security based on cryptography to applications.
 ms.assetid: 9a2add82-53f9-49ed-b20c-019f95e7d260
 title: CAPICOM Reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

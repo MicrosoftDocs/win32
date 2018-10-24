@@ -2,8 +2,6 @@
 title: IMAPIv1 Interfaces
 description: The following are the IMAPI interfaces.
 ms.assetid: 7840a349-91ef-44c5-8100-5a54d6cd862a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

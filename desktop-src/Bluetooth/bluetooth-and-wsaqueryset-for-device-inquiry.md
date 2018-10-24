@@ -5,8 +5,6 @@ ms.assetid: 0c0d26f7-b6c3-42a9-8c01-118278c381cc
 keywords:
 - Bluetooth and WSAQUERYSET for Device Inquiry Bluetooth
 - WSAQUERYSET Bluetooth , for device inquiry
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

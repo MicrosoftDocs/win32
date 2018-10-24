@@ -9,8 +9,6 @@ keywords:
 - Windows Media metafile playlists,about
 - metafile playlists,about
 - playlists,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

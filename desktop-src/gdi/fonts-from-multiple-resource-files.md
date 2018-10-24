@@ -2,8 +2,6 @@
 Description: Fonts from Multiple Resource Files
 ms.assetid: 4625fe62-d55d-4828-9174-975a731a8f62
 title: Fonts from Multiple Resource Files
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

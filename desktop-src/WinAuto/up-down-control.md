@@ -2,8 +2,6 @@
 title: Up-Down Control (MSAA UI Element Reference)
 description: An up-down control, also known as a spin control, combines a pair of buttons displayed as arrows with a buddy edit control. Clicking the arrows increments or decrements the value in the edit control.
 ms.assetid: 45e56c0f-4ac6-4731-b9a6-be4613bf40ae
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: How to Add an Item to a Header Control
 description: This topic demonstrates how to add an item to a header control.
 ms.assetid: DF71EF92-1726-46E1-A10F-57D3B07FB936
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

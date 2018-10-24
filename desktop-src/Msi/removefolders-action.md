@@ -2,8 +2,6 @@
 Description: The RemoveFolders action removes any folders linked to components set to be removed or run from source. These folders are removed only if they are empty. If a folder is removed, it is unregistered with the appropriate component identifier.
 ms.assetid: 0f68458e-ae9a-4ca5-bc60-06d4de91e2e9
 title: RemoveFolders Action
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

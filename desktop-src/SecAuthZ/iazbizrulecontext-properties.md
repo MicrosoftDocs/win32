@@ -2,8 +2,6 @@
 Description: The IAzBizRuleContext interface exposes the following properties.
 ms.assetid: F6E223F8-4511-494A-B7FF-968A28300896
 title: IAzBizRuleContext Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

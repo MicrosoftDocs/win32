@@ -2,8 +2,6 @@
 Description: The Set method sets the value of a given audio settings property.
 ms.assetid: 3132e004-5543-4b21-878d-35197f7077d6
 title: ITAudioSettings::Set method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Transport Security
 description: Although this is not the preferred method, you can use the security settings that the named-pipe transport offers to add security features to your distributed application.
 ms.assetid: faf48049-807c-4155-aa01-1947a0311a71
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

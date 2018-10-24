@@ -2,8 +2,6 @@
 Description: Convert an existing collection snapshot to a reference point collection. The snapshot collection gets deleted as a side effect. Only recovery snapshots can be converted to reference points.
 ms.assetid: 6b304782-9e5e-43b1-af7d-08617d65850c
 title: ConvertToReferencePoint method of the Msvm_CollectionSnapshotService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

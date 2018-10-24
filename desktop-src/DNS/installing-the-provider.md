@@ -4,8 +4,6 @@ description: The procedure for installing the DNS WMI Provider differs based on 
 ms.assetid: 5f2bd11a-bc1d-4a43-92d4-26392d2504e7
 keywords:
 - Domain Name System, WMI provider, installing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

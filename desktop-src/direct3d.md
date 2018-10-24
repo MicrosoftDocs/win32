@@ -2,8 +2,6 @@
 Description: You can use Direct3D to draw 3-D graphics.
 ms.assetid: 193640FE-7E88-4BC4-B4CD-867169375F2B
 title: Direct3D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

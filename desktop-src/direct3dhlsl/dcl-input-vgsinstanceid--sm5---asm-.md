@@ -2,8 +2,6 @@
 title: dcl_input vGSInstanceID (sm5 - asm)
 description: Enable geometry shader instancing.
 ms.assetid: 47B9BAD5-0FFF-4DB7-B34A-7811B8A4F792
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

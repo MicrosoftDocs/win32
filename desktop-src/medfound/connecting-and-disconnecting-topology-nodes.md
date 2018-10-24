@@ -2,8 +2,6 @@
 Description: Connecting and Disconnecting Topology Nodes
 ms.assetid: b2f70989-f0a8-4a11-baeb-18f026afaeab
 title: Connecting and Disconnecting Topology Nodes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

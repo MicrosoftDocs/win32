@@ -8,8 +8,6 @@ keywords:
 - porting to OpenGL from IRIS GL,clipping planes
 - OpenGL porting from IRIS GL,clipping planes
 - clipping planes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

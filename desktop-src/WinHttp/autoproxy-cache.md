@@ -2,8 +2,6 @@
 Description: AutoProxy Cache
 ms.assetid: 087104e8-ab38-4ba4-be70-23a5ea2bb130
 title: AutoProxy Cache
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

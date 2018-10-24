@@ -2,8 +2,6 @@
 title: List Box Macros
 description: .
 ms.assetid: 33d2864d-3ae8-4cd7-a6d0-700d5cbb0916
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

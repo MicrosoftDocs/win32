@@ -2,8 +2,6 @@
 Description: Specifies whether the specified color is a Windows color.
 ms.assetid: 0d2b2039-938c-4f9d-8ddc-9eb711f55009
 title: FWinIMEColorStyle function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

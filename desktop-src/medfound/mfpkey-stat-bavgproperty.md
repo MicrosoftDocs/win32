@@ -2,8 +2,6 @@
 Description: Specifies the average buffer window, in milliseconds, of an encoded stream.
 ms.assetid: 96bf43c3-5a62-4157-a7bc-2302fd69c522
 title: MFPKEY_STAT_BAVG Property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

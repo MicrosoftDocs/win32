@@ -2,8 +2,6 @@
 Description: Kernel object handles are process specific.
 ms.assetid: 3e3288dd-155a-41d0-9d43-5f49ed4c4a9d
 title: Kernel Objects
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

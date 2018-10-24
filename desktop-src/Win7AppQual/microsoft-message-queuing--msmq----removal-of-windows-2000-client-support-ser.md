@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: e29b477e-f7e9-413c-8eb9-2e764b7dd910
 title: Microsoft Message Queuing (MSMQ) - Removal of Windows 2000 Client Support Service
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

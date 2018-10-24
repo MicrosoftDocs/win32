@@ -2,8 +2,6 @@
 Description: Specifies whether to load hardware-based Microsoft Media Foundation transforms (MFTs) in the topology.
 ms.assetid: f7ac3c9b-c163-412f-84c0-27bf551091d8
 title: MF_TOPOLOGY_HARDWARE_MODE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

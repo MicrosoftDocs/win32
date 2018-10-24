@@ -2,8 +2,6 @@
 Description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: 88873d45-2f9b-477b-87d4-ea269afb42ae
 title: System.PropGroup.Calendar
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

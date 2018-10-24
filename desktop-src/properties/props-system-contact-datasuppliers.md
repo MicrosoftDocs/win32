@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 2b231ea2-d3c9-47ac-be51-4de3c736b369
 title: System.Contact.DataSuppliers
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

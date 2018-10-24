@@ -15,8 +15,6 @@ keywords:
 - catcomp.exe
 - diagnostic information on catalogs
 - retrieving catalog information
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

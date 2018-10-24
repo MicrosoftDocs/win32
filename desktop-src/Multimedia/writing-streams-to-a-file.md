@@ -4,8 +4,6 @@ description: Writing Streams to a File
 ms.assetid: a3766f8c-aaa6-4fc5-a306-54aee71018f1
 keywords:
 - AVIFileCreateStream function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

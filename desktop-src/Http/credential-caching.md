@@ -2,8 +2,6 @@
 title: Credential Caching
 description: Credential Caching
 ms.assetid: 6e411333-56fa-455b-a90a-f2b54f3c9545
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

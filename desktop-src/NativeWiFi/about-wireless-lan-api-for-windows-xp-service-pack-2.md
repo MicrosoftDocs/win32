@@ -2,8 +2,6 @@
 Description: A subset of the Native Wifi API functionality is supported on Windows XP with Service Pack 2 (SP2) and Windows XP with Service Pack 3 (SP3).
 ms.assetid: d32c4a03-59e8-4fdd-9d5a-e7ef0eb25e84
 title: Native Wifi API Support on Windows XP
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

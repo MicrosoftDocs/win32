@@ -2,8 +2,6 @@
 title: IAgentNotifySink Move
 description: IAgentNotifySink Move
 ms.assetid: d1809fdb-df4b-4884-b9e8-2877a814dc9a
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

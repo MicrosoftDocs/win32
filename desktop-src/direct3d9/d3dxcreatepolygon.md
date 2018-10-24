@@ -2,8 +2,6 @@
 Description: Uses a left-handed coordinate system to create a mesh containing an n-sided polygon.
 ms.assetid: f3313f55-3e60-4440-8bea-d2886b636c9a
 title: D3DXCreatePolygon function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

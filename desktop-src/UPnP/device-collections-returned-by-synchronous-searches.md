@@ -2,8 +2,6 @@
 title: Device Collections Returned By Synchronous Searches
 description: Device collections are objects that contain one or more Device objects. A Device collection exposes the IUPnPDevices interface that provides methods and properties for traversing the collection and extracting individual device objects.
 ms.assetid: 45455c3f-7281-4f96-a609-2efd2cf36aa2
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

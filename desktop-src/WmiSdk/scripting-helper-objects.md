@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 832660b7-2992-4d1f-af16-7b8f0477b187
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Scripting Helper Objects
 ms.author: windowssdkdev

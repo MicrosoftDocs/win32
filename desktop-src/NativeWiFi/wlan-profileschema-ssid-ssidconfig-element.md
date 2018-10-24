@@ -2,8 +2,6 @@
 Description: Contains an SSID for a wireless LAN.
 ms.assetid: fb3466c4-a586-424b-96e2-ba287c99a1d9
 title: SSID (SSIDConfig) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

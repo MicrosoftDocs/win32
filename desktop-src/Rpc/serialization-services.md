@@ -4,8 +4,6 @@ description: Microsoft RPC supports two methods for encoding and decoding data, 
 ms.assetid: 36d6ea16-7d01-436e-ac32-610c3ddb8b8d
 keywords:
 - Remote Procedure Call RPC , described, serialization
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

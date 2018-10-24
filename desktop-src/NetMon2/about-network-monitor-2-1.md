@@ -2,8 +2,6 @@
 Description: Network Monitor is a component of Microsoft Systems Management Server (SMS) used to detect and troubleshoot problems on LANs, WANs, and serial links running Microsoft Remote Access Server (RAS).
 ms.assetid: bd273439-daa2-4263-8f12-28ec988beea0
 title: About Network Monitor 2.1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ ms.assetid: 519c87cc-b442-4187-af2a-124a1e4e8b49
 description: 
 keywords:
 - COM Technical Overview COM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

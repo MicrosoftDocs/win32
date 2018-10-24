@@ -2,8 +2,6 @@
 Description: Flag indicating whether the release callback is enabled. This flag is set in the constructor method. If the value is FALSE, calling the CBaseAllocator::SetNotify method causes an assertion to fire (in debug builds).
 ms.assetid: cc9adc7c-ec44-41e7-875a-b3e553120804
 title: CBaseAllocator::m_fEnableReleaseCallback member
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

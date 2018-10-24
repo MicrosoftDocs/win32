@@ -2,8 +2,6 @@
 title: Finding Server Host Systems
 description: Finding server host systems by using string bindings and by querying a name service database for the location of a server program.
 ms.assetid: 4aadda88-2109-481f-aa4b-b1983d81dec5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

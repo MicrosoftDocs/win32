@@ -2,8 +2,6 @@
 Description: A single Matrix object can store a single transformation or a sequence of transformations.
 ms.assetid: 1dc68ff8-6b17-4934-82da-ab2fc612aafa
 title: Why Transformation Order Is Significant
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Windows Portable Devices supports the following task properties.
 ms.assetid: 9bd6c2e1-740a-453d-b390-120700af7c93
 title: Task Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

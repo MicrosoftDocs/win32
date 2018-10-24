@@ -2,8 +2,6 @@
 Description: The SPFILENOTIFY\_FILEINCABINET notification is sent to a callback routine by SetupIterateCabinet for each file found in the cabinet. The callback routine must return a value indicating whether to extract the file.
 ms.assetid: c6d89759-c0d4-4741-b992-43eaa0dc4f01
 title: SPFILENOTIFY_FILEINCABINET message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

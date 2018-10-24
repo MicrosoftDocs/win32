@@ -2,8 +2,6 @@
 title: texm3x3spec - ps
 description: Performs a 3x3 matrix multiply and uses the result to perform a texture lookup. This can be used for specular reflection and environment mapping. texm3x3spec must be used in conjunction with two texm3x3pad - ps instructions.
 ms.assetid: 74269bcf-de1d-48b4-a4d0-aa08fd54b8e6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

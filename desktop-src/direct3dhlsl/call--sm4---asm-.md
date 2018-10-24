@@ -2,8 +2,6 @@
 title: call (sm4 - asm)
 description: Calls a subroutine marked by where the label l\ appears in the program.
 ms.assetid: D6B7C52D-2CF7-44DB-81E3-2945477EF94A
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

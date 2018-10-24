@@ -19,8 +19,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,C++
 - ActiveX control,C++
 - C++ object model reference
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

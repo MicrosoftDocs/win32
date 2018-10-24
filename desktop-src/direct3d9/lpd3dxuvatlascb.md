@@ -2,8 +2,6 @@
 Description: Callback function for UVAtlas.
 ms.assetid: a605ae27-10c9-49b4-98fe-8c788c2c0752
 title: LPD3DXUVATLASCB
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

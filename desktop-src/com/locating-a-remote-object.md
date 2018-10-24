@@ -2,8 +2,6 @@
 title: Locating a Remote Object
 description: Locating a Remote Object
 ms.assetid: b329de53-646b-42a2-afa3-06473c3483d6
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Multi-Engine and Multi-Adapter Synchronization
 description: Provides an overview and lists APIs relevant to multi-engine (the 3D, compute, and copy engines), and multi-adapter.
 ms.assetid: D81BE0E6-D7A4-4EB4-8267-2C97E4216A9D
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

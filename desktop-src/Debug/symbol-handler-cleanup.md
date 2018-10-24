@@ -2,8 +2,6 @@
 Description: To free all the memory used by the symbol handler for a process, use the SymCleanup function.
 ms.assetid: d442b2f2-9225-43fd-bd25-274322857834
 title: Symbol Handler Cleanup
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

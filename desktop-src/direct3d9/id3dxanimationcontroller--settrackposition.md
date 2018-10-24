@@ -2,8 +2,6 @@
 Description: Sets the track to the specified local animation time.
 ms.assetid: 2ce87b06-1196-415f-958c-7bd407d6c69c
 title: ID3DXAnimationController::SetTrackPosition method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

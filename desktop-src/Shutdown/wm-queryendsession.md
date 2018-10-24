@@ -2,8 +2,6 @@
 Description: The WM\_QUERYENDSESSION message is sent when the user chooses to end the session or when an application calls one of the system shutdown functions.
 ms.assetid: 7ad73444-f1f6-4b73-8450-0580b146a5a6
 title: WM_QUERYENDSESSION message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Enables or disables CABAC (context-adaptive binary arithmetic coding) for H.264 entropy coding.
 ms.assetid: E09DD142-A685-425E-94CD-A8E2EA73E869
 title: CODECAPI_AVEncH264CABACEnable property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

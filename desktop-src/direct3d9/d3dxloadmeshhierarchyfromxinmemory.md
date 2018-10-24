@@ -2,8 +2,6 @@
 Description: Loads the first frame hierarchy from a .x file.
 ms.assetid: 428e5cfb-d6a5-4a7f-b082-2d8898e65490
 title: D3DXLoadMeshHierarchyFromXInMemory function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

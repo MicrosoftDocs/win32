@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 4A8794F7-1DB4-4415-8538-6B2A365B22D3
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - GetRemoteMonitorsBoundingBox property Remote Desktop Services

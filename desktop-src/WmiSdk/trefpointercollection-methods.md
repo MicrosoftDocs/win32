@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 453646B6-9F65-4308-AF5F-E818EBF68CAA
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TRefPointerCollection Methods
 ms.author: windowssdkdev

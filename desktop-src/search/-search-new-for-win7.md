@@ -2,8 +2,6 @@
 Description: This section outlines new Windows Search features and documentation introduced for Windows 7.
 ms.assetid: fdfae5e8-76d2-4d2b-b46e-c6ac9040cb1f
 title: Windows 7 Search
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

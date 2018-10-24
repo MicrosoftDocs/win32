@@ -2,8 +2,6 @@
 Description: Indicates the version of CTL3D that is currently running.
 ms.assetid: 38c0842c-417f-4ca1-acc2-3bbadf45c804
 title: Ctl3dGetVer function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

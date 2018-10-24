@@ -2,8 +2,6 @@
 Description: Present code fragments and example C programs for certificate store operations.
 ms.assetid: ba07e9dc-e20d-4024-85bf-64327ae896ad
 title: Working with Certificate Stores
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ ms.assetid: 5c9ce163-6107-46a3-8c8d-fc87d2f8cf9a
 keywords:
 - OpenGL processing pipeline,texture coordinates
 - texture coordinates OpenGL
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

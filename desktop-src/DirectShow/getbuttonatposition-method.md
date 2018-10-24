@@ -2,8 +2,6 @@
 Description: The GetButtonAtPosition method retrieves the number of the button at the specified coordinates without selecting or activating it.
 ms.assetid: ac933d0d-db2e-488f-b661-2fdc9f5acb39
 title: GetButtonAtPosition Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

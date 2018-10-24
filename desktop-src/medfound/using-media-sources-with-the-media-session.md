@@ -2,8 +2,6 @@
 Description: Using Media Sources with the Media Session
 ms.assetid: b50d3d6e-728b-4ba5-9b79-413d2108ade1
 title: Using Media Sources with the Media Session
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

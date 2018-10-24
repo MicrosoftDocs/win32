@@ -2,8 +2,6 @@
 title: Temperature and Tint Effect
 description: .
 ms.assetid: 8df72105-26ea-2dea-a4de-ef06902b7e0b
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

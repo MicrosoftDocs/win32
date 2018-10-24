@@ -2,8 +2,6 @@
 title: Using Value Map Annotation
 description: For sample code, see Value Map Annotation Sample.
 ms.assetid: 29be74c7-a7c2-41f4-8b94-5771988b74ff
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

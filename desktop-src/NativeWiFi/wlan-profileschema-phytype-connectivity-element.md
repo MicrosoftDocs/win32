@@ -2,8 +2,6 @@
 Description: Specifies the 802.11 wireless LAN standard used on a wireless LAN.
 ms.assetid: 19582ff0-59bd-4c93-8c92-0135e6e025d2
 title: phyType (connectivity) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

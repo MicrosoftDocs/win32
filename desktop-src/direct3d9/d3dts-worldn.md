@@ -2,8 +2,6 @@
 Description: Identifies subsequent transformation matrices that can be used to blend vertices by using the corresponding matrix and a blending (beta) weight value specified in the vertex format.
 ms.assetid: cab444c2-b245-4d1a-a90c-745c92a2ea89
 title: D3DTS_WORLDn
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

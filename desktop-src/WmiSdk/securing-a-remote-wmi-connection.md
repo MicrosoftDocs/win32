@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 96ebaa9b-a062-4300-a637-8eb71cb80d1c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Securing a Remote WMI Connection
 ms.author: windowssdkdev

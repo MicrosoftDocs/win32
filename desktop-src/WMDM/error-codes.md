@@ -7,8 +7,6 @@ keywords:
 - Device Manager,error codes
 - programming reference,error codes
 - reference for Windows Media Device Manager,error codes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

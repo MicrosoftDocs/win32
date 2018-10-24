@@ -2,8 +2,6 @@
 Description: The title of the item.
 ms.assetid: 8fb948d6-2677-4e5d-b283-8757c3df574d
 title: System.Title
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

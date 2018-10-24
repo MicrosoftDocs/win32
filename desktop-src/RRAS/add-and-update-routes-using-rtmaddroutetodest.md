@@ -2,8 +2,6 @@
 title: Add and Update Routes Using RtmAddRouteToDest
 description: The function RtmAddRouteToDest is used to add new routes and update existing routes for a destination. The following procedures explain both cases. The sample code that follows shows how to implement the first procedure.
 ms.assetid: 17a04511-69f8-4e50-993c-0e558ee72184
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

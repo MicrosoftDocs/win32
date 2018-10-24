@@ -2,8 +2,6 @@
 Description: Enables auto provisioning of the TPM if it is currently disabled.
 ms.assetid: 70F56A4C-F936-4CB6-83F6-F3B691F43B98
 title: Win32_Tpm::EnableAutoProvisioning method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

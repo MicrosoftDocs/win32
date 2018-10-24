@@ -2,8 +2,6 @@
 title: Choosing Which Properties to Support
 description: The IAccessible properties provide a way for server developers to describe a wide variety of user interface elements.
 ms.assetid: c51fd8a1-dc23-4d64-8921-e0a795c3ffb8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

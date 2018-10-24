@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 613268ab-386b-421d-a5b5-aab6a065999c
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Basic Algorithm Counter Types
 ms.author: windowssdkdev

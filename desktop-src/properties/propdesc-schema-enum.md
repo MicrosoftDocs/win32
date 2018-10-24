@@ -2,8 +2,6 @@
 Description: Used to assign enumerated text to discrete values.
 ms.assetid: c8cc040e-fcce-43a0-98c1-db2b2c616ac3
 title: enum
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Using Rich Edit Controls
 description: This section contains topics that demonstrate how to create and use rich edit controls.
 ms.assetid: 2c4717c9-3257-42d5-9c36-89b7e524e788
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

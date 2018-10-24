@@ -2,8 +2,6 @@
 Description: The ComponentCurrentState property of the Session object is a read-only property that returns the current installed state of the designated component. For state values, see the ComponentRequestState property.
 ms.assetid: c8343e90-8867-462d-9844-e547341a590c
 title: Session.ComponentCurrentState property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

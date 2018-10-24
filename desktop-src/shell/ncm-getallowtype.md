@@ -1,8 +1,6 @@
 ---
 Description: Retrieves the network address types that a specified network address control accepts.
 title: NCM_GETALLOWTYPE message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

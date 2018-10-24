@@ -2,8 +2,6 @@
 title: Service Object Error Handling
 description: When an error occurs in a service object, the return value for the call IDispatch Invoke should be DISP\_E\_EXCEPTION, and the pExceptInfo parameter pointer to an EXCEPTINFO structure in the should be filled in.
 ms.assetid: 1b08c404-69f2-4b0d-9231-c2bd242e124d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

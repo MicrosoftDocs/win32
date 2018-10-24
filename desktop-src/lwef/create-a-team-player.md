@@ -2,8 +2,6 @@
 title: Create a Team Player
 description: Create a Team Player
 ms.assetid: a252dd9d-69bf-4348-bf59-1ac97faaa3eb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

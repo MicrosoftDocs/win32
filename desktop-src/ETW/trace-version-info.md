@@ -2,8 +2,6 @@
 Description: Determines the version information of the TraceLogging session.
 ms.assetid: E2B291DB-928F-4170-8684-4B26A7E067BD
 title: TRACE_VERSION_INFO enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

@@ -3,8 +3,6 @@ Description: Terminology used to describe Transactional NTFS (TxF).
 Robots: noindex, nofollow
 ms.assetid: 44cb060c-e6a6-48d6-bbcf-d8dc1ae8ceb2
 title: TxF Glossary
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

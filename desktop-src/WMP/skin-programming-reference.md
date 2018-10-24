@@ -7,8 +7,6 @@ keywords:
 - Windows Media Player skins,programming reference
 - skins,programming reference
 - reference for skins,about
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

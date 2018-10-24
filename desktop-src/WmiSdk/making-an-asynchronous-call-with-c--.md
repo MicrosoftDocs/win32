@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5179969f-bc7d-4408-84ef-7b003950a59f
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Making an Asynchronous Call with C++
 ms.author: windowssdkdev

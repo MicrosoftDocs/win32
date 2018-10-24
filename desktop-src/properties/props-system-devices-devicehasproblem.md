@@ -2,8 +2,6 @@
 Description: Device has a problem.
 ms.assetid: 0eeb586b-4d54-409f-8f73-55b5977f6277
 title: System.Devices.DeviceHasProblem
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

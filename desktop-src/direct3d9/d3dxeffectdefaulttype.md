@@ -2,8 +2,6 @@
 Description: Effect data types. The data is contained in the pValue member of D3DXEFFECTDEFAULT.
 ms.assetid: d698ad6e-2ce2-48d6-90be-49bc08f172a9
 title: D3DXEFFECTDEFAULTTYPE enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

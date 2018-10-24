@@ -2,8 +2,6 @@
 title: What's New in the November 2008 Direct3D 11 Technical Preview
 description: This version of Direct3D 11 contains new features, tools, and documentation.
 ms.assetid: 7d259764-b826-4609-b415-2093cc6df874
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

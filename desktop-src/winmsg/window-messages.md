@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 5e9bdfff-d91c-4e21-ae2d-7920103bdb5c
 title: Window Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

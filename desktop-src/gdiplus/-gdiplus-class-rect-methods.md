@@ -2,8 +2,6 @@
 Description: This topic lists the methods of the Rect class. For a complete class listing, see Rect Class.
 ms.assetid: fe6960fa-db73-4806-a2c2-675782eed41d
 title: Rect Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

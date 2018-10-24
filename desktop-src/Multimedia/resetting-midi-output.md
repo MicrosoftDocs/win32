@@ -13,8 +13,6 @@ keywords:
 - MIDI output devices
 - EOX (end-of-exclusive)
 - end-of-exclusive (EOX)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

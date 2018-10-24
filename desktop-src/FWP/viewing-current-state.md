@@ -2,8 +2,6 @@
 title: Viewing Current State
 description: Following sample code demonstrates how to find all filters that might affect a server application.
 ms.assetid: fd6ca153-cd9a-4def-b017-9eff298b3343
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

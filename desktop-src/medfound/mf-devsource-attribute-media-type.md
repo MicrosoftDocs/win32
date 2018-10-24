@@ -2,8 +2,6 @@
 Description: Specifies the output format of a device.
 ms.assetid: 33a1b546-ece2-44ef-a1c0-5579c32be0bc
 title: MF_DEVSOURCE_ATTRIBUTE_MEDIA_TYPE attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

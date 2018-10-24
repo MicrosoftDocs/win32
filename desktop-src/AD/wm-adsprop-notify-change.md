@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
 ms.assetid: 3dc36176-eebc-4b7d-9ee9-19d2f8c543b6
-ms.prod: windows-server-dev
-ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 keywords:
 - WM_ADSPROP_NOTIFY_CHANGE message Active Directory

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 9f23d599-ac37-4bfb-a3dc-0cef67e68b05
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Linking Classes Together
 ms.author: windowssdkdev

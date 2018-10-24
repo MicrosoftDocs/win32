@@ -2,8 +2,6 @@
 Description: SFVM\_DIDDRAGDROP may be altered or unavailable.
 ms.assetid: 5d37cf61-d8a7-4afa-9159-fea13d2b1d59
 title: SFVM_DIDDRAGDROP message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

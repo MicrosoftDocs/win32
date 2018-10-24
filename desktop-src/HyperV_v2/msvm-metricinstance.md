@@ -2,8 +2,6 @@
 Description: Represents an association of metric value objects with their metrics definitions.
 ms.assetid: 98ad9390-78b4-4c18-b068-d05efa2f1866
 title: Msvm_MetricInstance class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

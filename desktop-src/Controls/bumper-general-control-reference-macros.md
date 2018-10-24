@@ -2,8 +2,6 @@
 title: Control Macros
 description: .
 ms.assetid: 3e118c47-deef-4f5e-aa6d-e4b50d849655
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

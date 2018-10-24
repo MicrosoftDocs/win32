@@ -2,8 +2,6 @@
 title: Validating a PDU
 description: When the WinSNMP application calls the SnmpSendMsg function or the SnmpEncodeMsg function, the Microsoft WinSNMP implementation verifies the validity of the PDU and the other function parameters.
 ms.assetid: 0f5754ff-3688-465b-a1ad-bf7d89d7dbd8
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

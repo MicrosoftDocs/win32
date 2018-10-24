@@ -4,8 +4,6 @@ ms.assetid: f47cb502-fe20-4810-b499-73e9a2cc1458
 description: 
 keywords:
 - HttpCfg.exe
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

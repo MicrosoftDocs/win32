@@ -2,8 +2,6 @@
 title: Return Values
 description: This topic describes the most common return values, and other return values that you might see less frequently.
 ms.assetid: 'e6deca92-42da-41ab-bfdb-75cbce3022bb'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

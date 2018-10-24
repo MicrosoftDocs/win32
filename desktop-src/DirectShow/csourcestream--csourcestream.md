@@ -2,8 +2,6 @@
 Description: Destructor method.
 ms.assetid: 678085c2-5999-4e62-8749-99b783787cc6
 title: CSourceStream.~CSourceStream destructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

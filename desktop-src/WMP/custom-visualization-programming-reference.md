@@ -9,8 +9,6 @@ keywords:
 - visualizations,programming reference
 - custom visualizations,programming reference
 - reference for visualizations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The put\_DestinationTop method sets the top coordinate of the destination rectangle.
 ms.assetid: d18996ac-85f2-4778-b0aa-1bc0c4d5f7d9
 title: CBaseControlVideo.put_DestinationTop method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

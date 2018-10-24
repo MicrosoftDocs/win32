@@ -2,8 +2,6 @@
 Description: The IX509EndorsementKey interface exposes the following properties.
 ms.assetid: 9E93622B-56E9-4F2F-9EFA-4F63D45EDCB6
 title: IX509EndorsementKey Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

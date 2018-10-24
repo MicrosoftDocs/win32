@@ -2,8 +2,6 @@
 Description: Version token that creates a procedural texture filler in effects. This macro is used by the D3DXFillxxxTX functions.
 ms.assetid: b11b6229-27a3-4813-9642-9e33bcd0da7a
 title: D3DXTX_VERSION
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

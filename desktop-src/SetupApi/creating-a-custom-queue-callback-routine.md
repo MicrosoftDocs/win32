@@ -2,8 +2,6 @@
 Description: In addition to using the default queue callback, you can write a custom callback routine.
 ms.assetid: 68781565-71a2-43bf-ad01-7c1cdc514f7b
 title: Creating a Custom Queue Callback Routine
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

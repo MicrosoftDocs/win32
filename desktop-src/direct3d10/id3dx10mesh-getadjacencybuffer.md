@@ -2,8 +2,6 @@
 Description: Access the mesh's adjacency buffer.
 ms.assetid: 42b13f14-4edf-4b56-9198-60a548855542
 title: ID3DX10Mesh::GetAdjacencyBuffer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

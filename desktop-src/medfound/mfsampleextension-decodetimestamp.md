@@ -2,8 +2,6 @@
 Description: Contains the decode time stamp (DTS) for the sample.
 ms.assetid: 4E0B8266-FF48-49A1-AB7B-A47C4F96AECD
 title: MFSampleExtension_DecodeTimestamp attribute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

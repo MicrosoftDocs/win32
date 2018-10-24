@@ -2,8 +2,6 @@
 Description: The Windows Installer can advertise the availability of an application to users or other applications without actually installing the application.
 ms.assetid: 67170daa-448a-4a20-b38a-2dd36c95440f
 title: Advertisement
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

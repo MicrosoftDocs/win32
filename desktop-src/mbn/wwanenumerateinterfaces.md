@@ -2,8 +2,6 @@
 Description: The WwanEnumerateInterfaces function enumerates all of the mobile broadband interfaces currently enabled on the local computer.
 ms.assetid: C51F2837-9654-4231-AD96-2EF20E090BD3
 title: WwanEnumerateInterfaces function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

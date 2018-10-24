@@ -2,8 +2,6 @@
 Description: Identifies whether the message was completely received. This value is used with some error conditions.
 ms.assetid: 23cbbd16-fc32-40f2-bdea-25dac2f78191
 title: System.IsIncomplete
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

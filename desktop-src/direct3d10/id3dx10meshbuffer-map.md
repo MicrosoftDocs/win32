@@ -2,8 +2,6 @@
 Description: Get a pointer to the mesh buffer memory to modify its contents.
 ms.assetid: d15ed47a-450e-404a-bcc2-a641abc2d02e
 title: ID3DX10MeshBuffer::Map method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

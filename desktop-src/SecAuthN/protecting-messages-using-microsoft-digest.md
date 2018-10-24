@@ -2,8 +2,6 @@
 Description: Explains how to protect messages using Microsoft Digest.
 ms.assetid: 15509d51-80c0-4d5c-aa24-4dc17de3f12c
 title: Protecting Messages Using Microsoft Digest
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

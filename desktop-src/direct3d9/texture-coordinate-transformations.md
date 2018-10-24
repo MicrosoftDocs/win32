@@ -2,8 +2,6 @@
 Description: Direct3D devices can transform the texture coordinates for vertices by applying a 4x4 matrix.
 ms.assetid: f36439de-e37a-457c-9485-a435847eb01e
 title: Texture Coordinate Transformations (Direct3D 9)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

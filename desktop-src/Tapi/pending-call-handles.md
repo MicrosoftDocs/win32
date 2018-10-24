@@ -2,8 +2,6 @@
 Description: A service provider is required to create one or more call handles (variables of type HDRVCALL) whenever TAPI calls one of the following functions.
 ms.assetid: 0a9d9afd-9786-4d9e-b0a2-12c9a1e13887
 title: Pending Call Handles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

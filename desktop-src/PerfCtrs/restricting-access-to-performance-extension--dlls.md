@@ -2,8 +2,6 @@
 Description: Beginning with Windows Server 2003, the Performance Monitor Users group and the Performance Log Users group were made available to developers and users of performance DLLs and the Performance Data Helper (PDH) API functions.
 ms.assetid: 423359be-9d41-4a5f-91cd-f6d7a6a91d9d
 title: Restricting Access to Performance Extension DLLs
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

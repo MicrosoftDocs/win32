@@ -2,8 +2,6 @@
 Description: Windows GDI+ provides the Image class for working with raster images (bitmaps) and vector images (metafiles).
 ms.assetid: ddde257c-41a6-4f6e-8d81-10d66c60085c
 title: Images, Bitmaps, and Metafiles
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

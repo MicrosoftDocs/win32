@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: abb43916-f952-41fe-a5ba-0428864c0685
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnProgress event
 ms.author: windowssdkdev

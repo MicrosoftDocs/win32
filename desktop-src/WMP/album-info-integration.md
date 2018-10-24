@@ -13,8 +13,6 @@ keywords:
 - Windows Media Player,album info integration
 - album info integration
 - integrating album info
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: VMR System Requirements
 ms.assetid: fd50b312-73f0-4c68-a8b1-3497d958bc8f
 title: VMR System Requirements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

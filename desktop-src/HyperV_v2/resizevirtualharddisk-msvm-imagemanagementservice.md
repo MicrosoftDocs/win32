@@ -2,8 +2,6 @@
 Description: Resizes an existing virtual hard disk.
 ms.assetid: 54FDCA3B-E12B-4E68-B7EE-893C9CD97E1A
 title: ResizeVirtualHardDisk method of the Msvm_ImageManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

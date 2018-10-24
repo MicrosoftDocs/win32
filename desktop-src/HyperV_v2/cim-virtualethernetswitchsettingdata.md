@@ -2,8 +2,6 @@
 Description: Describes settings data for a virtual ethernet switch.
 ms.assetid: 462cff06-5ba6-410a-b091-5c6abab13f03
 title: CIM_VirtualEthernetSwitchSettingData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ description: Reading Streams from an AVI File
 ms.assetid: fa17cac4-bc6f-48ef-8960-286386b43c82
 keywords:
 - AVIStreamInfo function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The pipe server controls whether its handles can be inherited in the following ways.
 ms.assetid: 72302f8b-f3a2-4efc-aab1-e596b8323984
 title: Pipe Handle Inheritance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

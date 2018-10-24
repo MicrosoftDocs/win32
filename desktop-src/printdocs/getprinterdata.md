@@ -2,8 +2,6 @@
 Description: The GetPrinterData function retrieves configuration data for the specified printer or print server.
 ms.assetid: b5a44b27-a4aa-4e58-9a64-05be87d12ab5
 title: GetPrinterData function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

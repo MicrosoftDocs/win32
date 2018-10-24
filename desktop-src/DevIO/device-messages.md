@@ -2,8 +2,6 @@
 Description: Device messages are system messages that notify applications and other features of device change events.
 ms.assetid: 4d1ace87-2d02-4ba4-9bcc-da86cf3481db
 title: Device Messages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Direct3D 11 on Downlevel Hardware
 description: This section discusses how Direct3D 11 is designed to support both new and existing hardware, from DirectX 9 to DirectX 11.
 ms.assetid: 9a1ca4ff-df3d-46e5-8895-37199523343e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The RenderOutputPins method creates the previewing portion of the filter graph.
 ms.assetid: 66bcb698-cd85-4c22-bfef-2e51973958f1
 title: IRenderEngine::RenderOutputPins method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

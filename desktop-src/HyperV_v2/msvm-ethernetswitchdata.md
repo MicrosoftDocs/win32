@@ -2,8 +2,6 @@
 Description: Abstract class that represents a resource for a given instance of an Ethernet switch.
 ms.assetid: 5ae1be2a-8d59-4efe-a4ae-7cac1727cfa2
 title: Msvm_EthernetSwitchData class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

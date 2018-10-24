@@ -2,8 +2,6 @@
 Description: Specifies the list of wireless LAN networks to which a machine must not connect.
 ms.assetid: 01db3f7e-1e27-4378-9c42-bc38192f9507
 title: blockList (networkFilter) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

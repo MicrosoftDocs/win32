@@ -2,8 +2,6 @@
 Description: The WPD\_DEVICE\_TYPES enumeration type describes the different Windows Portable Device (WPD) types commonly used to determine the basic classification and visual appearance of a portable device.
 ms.assetid: 51714e0f-e9b7-4474-a8bb-da3875ef5399
 title: WPD_DEVICE_TYPES enumeration
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018

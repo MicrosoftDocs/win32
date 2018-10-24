@@ -2,8 +2,6 @@
 Description: The file group of tables contains all of the Windows Installer tables that are related to files.
 ms.assetid: 8f56328e-ed58-41a1-94b6-266e9c117246
 title: File Tables Group
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

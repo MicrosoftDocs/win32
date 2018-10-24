@@ -17,8 +17,6 @@ keywords:
 - ACM (audio compression manager),hook procedures
 - audio compression manager (ACM),driver procedures
 - ACM (audio compression manager),driver procedures
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

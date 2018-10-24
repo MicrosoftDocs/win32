@@ -2,8 +2,6 @@
 title: MultiThreading
 description: Direct3D 11 implements support for object creation and rendering using multiple threads.
 ms.assetid: 1bf50927-268b-4471-b059-819adf2189a9
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

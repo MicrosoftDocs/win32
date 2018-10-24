@@ -2,8 +2,6 @@
 title: Text Boxes
 description: With a text box, users can display, enter, or edit a text or numeric value.
 ms.assetid: fb8ed262-1451-496d-a3f4-a29af39763bb
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

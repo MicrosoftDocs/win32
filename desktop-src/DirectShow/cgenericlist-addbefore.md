@@ -2,8 +2,6 @@
 Description: The AddBefore method inserts an item before the specified position.
 ms.assetid: ec10fd08-6bb9-4357-830c-78b3d3a32e03
 title: CGenericList.AddBefore method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

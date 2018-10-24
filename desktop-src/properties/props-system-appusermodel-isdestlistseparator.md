@@ -2,8 +2,6 @@
 Description: Inserts a separator in the Tasks section of a Jump List.
 ms.assetid: 6cee1c20-865c-4d53-98c5-5402855a0004
 title: System.AppUserModel.IsDestListSeparator
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

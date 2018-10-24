@@ -2,8 +2,6 @@
 Description: The Clone method creates a new object with its own seek pointer that references the same bytes as the original IByteBuffer object.
 ms.assetid: 41530f1d-81e5-4bea-a254-d7d741976904
 title: IByteBuffer::Clone method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

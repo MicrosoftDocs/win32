@@ -2,8 +2,6 @@
 Description: The get\_Filter method retrieves a pointer to the source filter currently used by the media detector.
 ms.assetid: 23d603c1-445d-425a-973e-7bfe0a2d19f2
 title: IMediaDet::get_Filter method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

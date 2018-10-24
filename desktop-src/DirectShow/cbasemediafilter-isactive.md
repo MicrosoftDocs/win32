@@ -2,8 +2,6 @@
 Description: The IsActive method determines whether the object is active (running or paused).
 ms.assetid: 6531cf1f-e057-4094-9354-d5a32371c83c
 title: CBaseMediaFilter.IsActive method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

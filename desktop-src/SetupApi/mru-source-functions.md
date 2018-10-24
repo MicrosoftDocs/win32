@@ -2,8 +2,6 @@
 Description: The following functions are used with MRU source file lists.
 ms.assetid: bd9f3b3a-b5df-4398-a52e-519f925d6dae
 title: MRU Source Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

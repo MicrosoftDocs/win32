@@ -2,8 +2,6 @@
 Description: Evaluates an expression, and causes a breakpoint exception if the expression is FALSE. The text of the expression, the name of the source file, and the line number are logged using the DbgLog macro. Ignored in retail builds.
 ms.assetid: fd116403-df23-490f-b3a8-b2a8bf2b4a5f
 title: KASSERT macro
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

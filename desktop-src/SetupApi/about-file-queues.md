@@ -2,8 +2,6 @@
 Description: A file queue is a list of file operations that are processed at one time. The file operations in the queue may be copy, rename, or delete operations. The file queue organizes file operations by type, creating copy, rename, and delete subqueues.
 ms.assetid: 9ad42c37-1d6b-4f1b-8173-629e2d3678f2
 title: About File Queues
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: RaiseRequestErrors Property
 description: RaiseRequestErrors Property
 ms.assetid: 60eb4478-526e-492a-8fb3-d1e54eff9868
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

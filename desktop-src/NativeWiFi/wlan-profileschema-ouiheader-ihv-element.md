@@ -2,8 +2,6 @@
 Description: Identifies the IHV.
 ms.assetid: a99c231c-afd7-44e6-81af-3d49ffef8714
 title: OUIHeader (IHV) Element
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

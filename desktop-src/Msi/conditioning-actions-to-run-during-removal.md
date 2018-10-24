@@ -2,8 +2,6 @@
 Description: There are two ways to author the Windows Installer installation database such that an action is only called when the package is uninstalled.
 ms.assetid: 67b205bb-11d8-454f-b5d5-93330219f6cc
 title: Conditioning Actions to Run During Removal
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

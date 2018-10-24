@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.ApplicationName property.
 ms.assetid: bf4b310a-7e63-45c5-a327-2638fb31d676
 title: System.ApplicationName Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

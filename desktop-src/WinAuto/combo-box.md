@@ -2,8 +2,6 @@
 title: Combo Box (MSAA UI Element Reference)
 description: A combo box is a list box combined with a static control or an edit control that displays the currently selected item in the list box portion of the combo box.
 ms.assetid: 3fb2c0b0-507f-4520-845b-b3fbfd9e7b60
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

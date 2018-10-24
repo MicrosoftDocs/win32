@@ -2,8 +2,6 @@
 Description: Registry keys can be written to the system registry once all selected components and their related files have been installed.
 ms.assetid: b3b39471-85b1-4361-94fd-19d0f0ee2b78
 title: Modifying the Registry
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

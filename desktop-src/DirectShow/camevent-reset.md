@@ -2,8 +2,6 @@
 Description: The Reset method sets the state of the event to nonsignaled.
 ms.assetid: de7f2c33-118a-4531-a9f7-9b43f89e6fc0
 title: CAMEvent.Reset method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

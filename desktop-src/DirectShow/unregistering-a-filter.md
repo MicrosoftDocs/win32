@@ -2,8 +2,6 @@
 Description: Unregistering a Filter
 ms.assetid: 5459d172-7dfe-4786-bcf2-031e441e30a2
 title: Unregistering a Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

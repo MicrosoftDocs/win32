@@ -2,8 +2,6 @@
 title: Snego
 description: Snego, whose authentication service identifier is RPC\_C\_AUTHN\_GSS\_NEGOTIATE, does not actually provide authentication services itself.
 ms.assetid: 2087a84c-d302-4511-9f02-2d20ee9e0d8e
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

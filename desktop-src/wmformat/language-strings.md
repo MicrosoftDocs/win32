@@ -7,8 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),language strings
 - ASF (Advanced Systems Format),language strings
 - language strings
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The GetPrinterDriver2 function retrieves driver data for the specified printer. If the driver is not installed on the local computer, GetPrinterDriver2 installs it and displays any user interface to the specified window.
 ms.assetid: 0d482d28-7668-4734-ba71-5b355c18ddec
 title: GetPrinterDriver2 function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

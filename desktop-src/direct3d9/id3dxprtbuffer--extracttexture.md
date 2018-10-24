@@ -2,8 +2,6 @@
 Description: Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an IDirect3DTexture9 object.
 ms.assetid: 75854676-706a-4675-857e-4f2f8fc8365b
 title: ID3DXPRTBuffer::ExtractTexture method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

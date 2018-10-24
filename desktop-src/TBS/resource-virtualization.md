@@ -2,8 +2,6 @@
 title: Resource Virtualization
 description: Resource Virtualization
 ms.assetid: ead0e99a-94da-4e80-bb68-d8f4b199173d
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

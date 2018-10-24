@@ -2,8 +2,6 @@
 Description: Use the following option flag to specify that the installer run the custom action only when a patch is being uninstalled. To set the option, add the value in this table to the value in the ExtendedType field of the CustomAction table.
 ms.assetid: aa4d9e21-5316-42b5-a22e-c7a5becd3cae
 title: Custom Action Patch Uninstall Option
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

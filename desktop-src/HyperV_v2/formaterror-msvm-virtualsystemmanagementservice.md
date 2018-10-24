@@ -2,8 +2,6 @@
 Description: Returns a formatted error message string for the specified array of embedded Msvm\_Error instances.
 ms.assetid: 477EF4AE-00A8-4F2D-A335-E41A2EF620BB
 title: FormatError method of the Msvm_VirtualSystemManagementService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

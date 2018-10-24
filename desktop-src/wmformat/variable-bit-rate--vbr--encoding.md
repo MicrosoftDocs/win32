@@ -18,8 +18,6 @@ keywords:
 - quality-based VBR encoding,about
 - unconstrained VBR encoding,about
 - constrained VBR encoding
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

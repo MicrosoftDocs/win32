@@ -17,8 +17,6 @@ keywords:
 - online stores,parameters
 - type 1 online stores,parameters
 - type 2 online stores,parameters
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

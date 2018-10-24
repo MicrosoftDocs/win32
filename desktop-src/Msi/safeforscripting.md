@@ -2,8 +2,6 @@
 Description: If this per-machine system policy is set to &\#0034;1&\#0034;, the installer does not prompt users when scripts within a Web page use the installer's automation interface.
 ms.assetid: 1365996d-30a2-43f9-8e1b-7704d46a11c9
 title: SafeForScripting
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Special consideration must be given to multihomed PGM senders or receivers. This page describes the considerations, and provides guidelines for best programming practices.
 ms.assetid: 10fb56dd-3c96-4944-9b53-aee76c269528
 title: Multihoming and PGM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

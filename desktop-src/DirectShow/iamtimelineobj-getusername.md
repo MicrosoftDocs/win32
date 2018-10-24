@@ -2,8 +2,6 @@
 Description: The GetUserName method retrieves the object's application-defined name.
 ms.assetid: 7d172ec5-9cb7-4418-a628-a109944077a6
 title: IAMTimelineObj::GetUserName method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

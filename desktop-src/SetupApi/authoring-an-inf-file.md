@@ -2,8 +2,6 @@
 Description: When authoring an INF file for a Setup application you should also refer to the INF file format documented in General Guidelines for INF Files and INF File Sections and Directives of the Microsoft Windows 2000 Driver Development Kit.
 ms.assetid: f9df95bb-345d-4a70-a27e-0b1bc2a27ada
 title: Authoring an INF file
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

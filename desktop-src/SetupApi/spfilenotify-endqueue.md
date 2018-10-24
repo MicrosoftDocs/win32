@@ -2,8 +2,6 @@
 Description: The SPFILENOTIFY\_ENDQUEUE notification is sent to the callback routine when all of the queued operations have been completed.
 ms.assetid: f4540ab6-edea-4f84-b7eb-4ab3f774068b
 title: SPFILENOTIFY_ENDQUEUE message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

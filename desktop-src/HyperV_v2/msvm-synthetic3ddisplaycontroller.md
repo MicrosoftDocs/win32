@@ -2,8 +2,6 @@
 Description: Represents the synthetic 3-D display controller that is assigned to a virtual machine.
 ms.assetid: 5679668B-7D0B-421C-92B6-8A320090DFF7
 title: Msvm_Synthetic3DDisplayController class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

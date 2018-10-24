@@ -1,8 +1,6 @@
 ---
 Description: Adds a string to the top of the most recently used (MRU) list.
 title: AddMRUStringW function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

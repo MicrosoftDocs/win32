@@ -2,8 +2,6 @@
 title: VML Colors Attribute
 description: VML Colors Attribute
 ms.assetid: 466ed1d7-8861-44db-bd96-a2fd119b12f4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

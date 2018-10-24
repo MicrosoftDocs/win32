@@ -18,8 +18,6 @@ keywords:
 - DRM (digital rights management),restoring licenses
 - digital rights management (DRM),license backup and restore
 - DRM (digital rights management),license backup and restore
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

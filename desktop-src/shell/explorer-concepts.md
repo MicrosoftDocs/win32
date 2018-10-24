@@ -1,8 +1,6 @@
 ---
 Description: The Shell namespace organizes the file system and other objects managed by the Shell into a single tree-structured hierarchy. Conceptually, it is a larger and more inclusive version of the file system.
 title: Common Explorer Concepts
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

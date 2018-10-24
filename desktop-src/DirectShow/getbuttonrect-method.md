@@ -2,8 +2,6 @@
 Description: The GetButtonRect method retrieves the rectangle for the specified button, in window coordinates.
 ms.assetid: 359e9483-d7ba-45b0-882b-5a4c56dc0350
 title: GetButtonRect Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Performance
 ms.assetid: a0d5c4ae-e0a3-466b-bf43-6bf7cda7aa21
 title: Performance
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

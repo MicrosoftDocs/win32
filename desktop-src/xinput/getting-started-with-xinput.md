@@ -2,8 +2,6 @@
 title: Getting Started With XInput
 description: XInput is an API that allows applications to receive input from the Xbox 360 Controller for Windows. Controller rumble effects and voice input and output are supported.
 ms.assetid: 7b5eec3e-b3da-de5c-c926-8258c1418ef0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

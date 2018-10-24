@@ -2,8 +2,6 @@
 Description: Specifies which bytes are encrypted in a protected video surface.
 ms.assetid: 076f4f00-e86b-47e2-80dd-4d7434200138
 title: D3DENCRYPTED_BLOCK_INFO structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

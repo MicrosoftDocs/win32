@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 11169540-555A-48A9-A4CD-535D5765C005
 title: Internet Explorer Compatibility Test Tool (IECTT)
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

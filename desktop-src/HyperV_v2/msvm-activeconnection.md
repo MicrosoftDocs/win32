@@ -2,8 +2,6 @@
 Description: Connects a switch port to the LAN endpoint to which the port is connected.
 ms.assetid: 963EC004-6A67-4F75-BD93-1BCD17F32490
 title: Msvm_ActiveConnection class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 1a3f8569-e725-4158-9a2b-b440b9247925
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Sibling Namespace with MOF Code
 ms.author: windowssdkdev

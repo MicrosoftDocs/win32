@@ -2,8 +2,6 @@
 Description: This section contains information specific to using the WinHTTP C/C++ interface.
 ms.assetid: b5897594-ef6c-4526-87b7-8ed6b7e03c13
 title: Using the WinHTTP C/C++ API
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

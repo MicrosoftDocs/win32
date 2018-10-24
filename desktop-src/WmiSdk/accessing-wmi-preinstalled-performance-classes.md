@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 2158385f-d0dc-4102-84db-ce02d2b0ee53
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing WMI Preinstalled Performance Classes
 ms.author: windowssdkdev

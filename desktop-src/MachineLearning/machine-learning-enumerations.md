@@ -2,8 +2,6 @@
 Description: The following topics describe the COM enumerations for the Windows Machine Learning SDK.
 ms.assetid: 7B98720D-89CF-4336-AEEA-80399999E47F
 title: Windows Machine Learning Enumerations
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

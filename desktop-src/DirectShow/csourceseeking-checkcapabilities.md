@@ -2,8 +2,6 @@
 Description: The CheckCapabilities method queries whether the stream has specified seeking capabilities. This method implements the IMediaSeeking::CheckCapabilities method.
 ms.assetid: 5d37e179-9e04-44e1-acbc-dfd2682830c0
 title: CSourceSeeking.CheckCapabilities method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

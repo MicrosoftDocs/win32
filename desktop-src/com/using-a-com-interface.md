@@ -2,8 +2,6 @@
 title: Using a COM Interface
 description: Using a COM Interface
 ms.assetid: 44e1aeac-585c-4856-8c4d-1adb5b307b74
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

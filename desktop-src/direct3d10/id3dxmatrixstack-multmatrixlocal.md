@@ -2,8 +2,6 @@
 Description: Determines the product of the given matrix and the current matrix.
 ms.assetid: 4d374a7b-99e0-4313-970d-b0e7cf3e97ce
 title: ID3DXMATRIXStack::MultMatrixLocal method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

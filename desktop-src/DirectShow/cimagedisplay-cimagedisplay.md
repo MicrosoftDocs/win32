@@ -2,8 +2,6 @@
 Description: Constructor method.
 ms.assetid: 171a4f1e-a85d-4da8-9372-054aaa0e0a40
 title: CImageDisplay.CImageDisplay constructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

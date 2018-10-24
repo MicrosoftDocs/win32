@@ -2,8 +2,6 @@
 Description: Retrieves albedo values of the mesh vertices.
 ms.assetid: 12b8d6d1-c806-4dcd-80ac-f3963215dcf4
 title: ID3DXPRTEngine::GetVertexAlbedo method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

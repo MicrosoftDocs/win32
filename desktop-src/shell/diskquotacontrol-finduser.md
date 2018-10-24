@@ -1,8 +1,6 @@
 ---
 Description: Finds a user's entry, by name, in the volume's quota file.
 title: DiskQuotaControl.FindUser method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

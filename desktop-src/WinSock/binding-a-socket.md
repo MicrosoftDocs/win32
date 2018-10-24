@@ -2,8 +2,6 @@
 Description: For a server to accept client connections, it must be bound to a network address within the system.
 ms.assetid: d08fb1a5-af17-4116-8757-ba0a513fb323
 title: Binding a Socket
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

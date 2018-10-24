@@ -2,8 +2,6 @@
 Description: The SetDefaultFPS method sets the default output frame rate, in frames per second. Groups use this value as their default frame rate. To set a group's frame rate, call the IAMTimelineGroup::SetOutputFPS method on the group.
 ms.assetid: a164f4b9-fbed-45ea-9156-cc64f0b21423
 title: IAMTimeline::SetDefaultFPS method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

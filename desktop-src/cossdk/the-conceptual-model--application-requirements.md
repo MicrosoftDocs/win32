@@ -2,8 +2,6 @@
 Description: 'The Conceptual Model: Application Requirements'
 ms.assetid: 124b329b-f745-45b4-b266-7c177c76a5cd
 title: 'The Conceptual Model: Application Requirements'
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

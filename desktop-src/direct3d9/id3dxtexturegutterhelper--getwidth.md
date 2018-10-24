@@ -2,8 +2,6 @@
 Description: Retrieves the width of the texture, in pixels.
 ms.assetid: 497195fc-3cfc-457c-b195-8a5fc5ca7d06
 title: ID3DXTextureGutterHelper::GetWidth method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

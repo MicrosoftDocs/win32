@@ -2,8 +2,6 @@
 Description: Step 3C.
 ms.assetid: e780df46-bf47-4334-b788-05ad8179f051
 title: Step 3C. Implement the CheckTransform Method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

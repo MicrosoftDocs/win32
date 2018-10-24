@@ -2,8 +2,6 @@
 title: VML ArcSize Attribute
 description: VML ArcSize Attribute
 ms.assetid: e67d1bae-2f54-4c43-8445-1f5109e4afde
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

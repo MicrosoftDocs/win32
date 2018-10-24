@@ -2,8 +2,6 @@
 Description: DMO Minimum Requirements
 ms.assetid: cd342f0f-a3dc-4623-a18f-c45071795ef4
 title: DMO Minimum Requirements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 title: Remote Identity Authorization
 description: The Remote Identity Authorization IPsec policy scenario requires that inbound connections come from a specific set of remote security principals which are specified in a Windows security descriptor (SD) access control list (ACL).
 ms.assetid: 4d9f83d6-6f56-4416-8c35-d0260f9e888c
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

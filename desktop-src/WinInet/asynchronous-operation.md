@@ -2,8 +2,6 @@
 title: Asynchronous Operation
 description: In asynchronous mode, an application can execute any function that includes a context value as one of its parameters and can continue to execute other commands or functions while the application waits for the function to complete its task.
 ms.assetid: 4b8ade00-deb3-4d9f-9ceb-5ba3296c8c68
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

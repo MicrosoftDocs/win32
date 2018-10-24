@@ -2,8 +2,6 @@
 Description: Destructor method.
 ms.assetid: 7da81391-aaac-4cc7-9e64-856e1d13b61d
 title: CEnumMediaTypes.~CEnumMediaTypes destructor
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

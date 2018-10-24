@@ -4,8 +4,6 @@ description: Use the distant-diffuse lighting effect to create an image that app
 ms.assetid: 981FD58B-0565-4D0E-957C-3ED81BA8A6EB
 keywords:
 - distant diffuse lighting effect
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

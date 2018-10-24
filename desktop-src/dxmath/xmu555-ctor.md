@@ -2,8 +2,6 @@
 Description: Constructors exposed by XMU555.
 ms.assetid: afde874c-b4e2-4edb-92bf-895224793e91
 title: XMU555 constructors
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

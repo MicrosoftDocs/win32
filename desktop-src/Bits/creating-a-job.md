@@ -5,8 +5,6 @@ ms.assetid: a7d9feef-4beb-4ae5-9453-9157ee3ec0e8
 keywords:
 - transfer job BITS
 - transfer job BITS , creating
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018

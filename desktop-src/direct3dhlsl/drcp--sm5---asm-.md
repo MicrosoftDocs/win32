@@ -2,8 +2,6 @@
 title: drcp (sm5 - asm)
 description: Computes a component-wise double-precision reciprocal.
 ms.assetid: 499A14D6-36DB-4860-94D1-887D931E60D4
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

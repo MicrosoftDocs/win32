@@ -2,8 +2,6 @@
 title: Media-Type Negotiation
 description: Many application-layer Internet protocols are based on the exchange of messages in a simple, flexible format called Multipurpose Internet Mail Extensions (MIME).
 ms.assetid: 7a2c9d8f-639a-4865-a62b-63330175f5f0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

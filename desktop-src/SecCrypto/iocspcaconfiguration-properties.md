@@ -2,8 +2,6 @@
 Description: The IOCSPCAConfiguration interface exposes the following properties.
 ms.assetid: 55F0245D-FC56-449E-A4D8-0DB9F1930393
 title: IOCSPCAConfiguration Properties
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

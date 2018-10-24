@@ -4,8 +4,6 @@ description: Converting Strings
 ms.assetid: 40621c71-4264-40bc-b6c3-6b639d2f28fa
 keywords:
 - mciSendString function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

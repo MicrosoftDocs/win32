@@ -2,8 +2,6 @@
 Description: This is the parent class for events lost in a real-time session. The following syntax is simplified from MOF code.
 ms.assetid: 09ffcc4d-916f-458d-91c6-a261776092d2
 title: Lost_Event class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

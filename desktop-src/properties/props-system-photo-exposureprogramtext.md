@@ -2,8 +2,6 @@
 Description: The user-friendly form of System.Photo.ExposureProgram. Not intended to be parsed programmatically.
 ms.assetid: ea9c9a56-595b-4fdc-a2ea-f06b915b1754
 title: System.Photo.ExposureProgramText
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

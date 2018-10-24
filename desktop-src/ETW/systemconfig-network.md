@@ -2,8 +2,6 @@
 Description: This class is the event type class for network events. The following syntax is simplified from MOF code.
 ms.assetid: afa994ef-dd1c-4909-a6cd-7021be4fff40
 title: SystemConfig_Network class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

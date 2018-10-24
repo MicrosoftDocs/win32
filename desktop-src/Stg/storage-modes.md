@@ -2,8 +2,6 @@
 title: Storage Modes
 description: Asynchronous storage supports two storage modes blocking and nonblocking, which a client (either a browser or the object itself) can specify by returning BINDF\_ASYNCSTORAGE from the moniker's call to IBindStatusCallback GetBindInfo.
 ms.assetid: df8f9e2c-40d2-4997-b5f9-bdbc524437cf
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

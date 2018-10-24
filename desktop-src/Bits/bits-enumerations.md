@@ -2,8 +2,6 @@
 title: BITS Enumerations
 description: The Background Intelligent Transfer Service (BITS) interfaces use the following enumerations.
 ms.assetid: e43337c8-0c41-41e9-88fd-f2a46f666157
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

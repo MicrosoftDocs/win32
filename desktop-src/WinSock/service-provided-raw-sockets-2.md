@@ -2,8 +2,6 @@
 Description: A raw socket is a type of socket that allows access to the underlying transport provider. The use of raw sockets when porting applications to Winsock is not recommended for several reasons.
 ms.assetid: b78c75b7-255c-4e85-9a88-0efb3b5f0e51
 title: Raw Sockets
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,6 @@
 ---
 ms.assetid: 3457cfb6-3891-4e15-a4e0-53ad43adcc2d
 title: Functions with Unicode (W) Versions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

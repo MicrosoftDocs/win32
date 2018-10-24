@@ -2,8 +2,6 @@
 Description: Typically, the latency between tiers of a distributed application differs greatly.
 ms.assetid: 4780a9fd-5940-4b10-a596-22214b17c033
 title: Optimizing Interactions Between the COM+ Business Logic Tier and the Presentation Tier
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

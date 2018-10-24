@@ -2,8 +2,6 @@
 Description: IP Helper provides features to manage network routing. Use the following functions to manage the IP routing table, and to obtain other routing information.
 ms.assetid: 879b90e3-aecc-492e-9b22-9ebbf505a610
 title: Managing Routing
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

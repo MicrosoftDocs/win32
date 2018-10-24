@@ -2,8 +2,6 @@
 Description: Deletes a string table.
 ms.assetid: a3ac1672-f898-44a0-bb7b-64ac24bdb9bf
 title: pSetupStringTableDestroy function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

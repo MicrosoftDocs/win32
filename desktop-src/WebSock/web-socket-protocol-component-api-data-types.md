@@ -4,8 +4,6 @@ description: The WebSocket Protocol Component API defines these data types.
 ms.assetid: D5D42785-CFAC-4324-9194-1BA8056FBAA1
 keywords:
 - WEB_SOCKET_HANDLE
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

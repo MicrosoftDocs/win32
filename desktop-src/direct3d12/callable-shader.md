@@ -2,8 +2,6 @@
 Description: A shader that is invoked from another shader with the CallShader intrinsic.    
 ms.assetid: 
 title: Callable Shader
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

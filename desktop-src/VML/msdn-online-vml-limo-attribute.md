@@ -2,8 +2,6 @@
 title: VML Limo Attribute
 description: VML Limo Attribute
 ms.assetid: 61919d48-0cc8-4693-a8bb-a8a4498ef840
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

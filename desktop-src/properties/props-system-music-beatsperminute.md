@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: ebf92204-d615-4bcc-a181-f98a9396abf5
 title: System.Music.BeatsPerMinute
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -7,8 +7,6 @@ keywords:
 - online stores,DownloadCollection object
 - type 2 online stores,DownloadCollection object
 - DownloadCollection
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

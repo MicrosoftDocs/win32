@@ -2,8 +2,6 @@
 Description: The primary reference for session operations and information is in the main overview for this SDK, under Session Control.
 ms.assetid: ecadea9f-750e-4dc1-95c4-898d34866627
 title: Session Access
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Policy modules are programs that receive requests from the Certificate Services, evaluate those requests, and specify optional properties of the certificates that are built to fill these requests.
 ms.assetid: 23d920ea-af62-42ce-ad48-c7a03ab55fc9
 title: Policy Modules
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

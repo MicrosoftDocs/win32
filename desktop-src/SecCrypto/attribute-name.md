@@ -2,8 +2,6 @@
 Description: Sets or retrieves the CAPICOM name of the attribute. This is the default property.
 ms.assetid: 082f286e-f2ac-4e45-94b9-abdaa3f4c926
 title: Attribute.Name property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

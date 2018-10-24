@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 5acfc8f4-9b3b-4ff4-a8ed-7378334a8ddb
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Provider Event Troubleshooting Classes
 ms.author: windowssdkdev

@@ -2,8 +2,6 @@
 Description: Setting the Etype or SAP portion of the capture filter is the first step in the capture filter creation process.
 ms.assetid: 0a22f74b-5bb1-43df-a70a-9f30195177ea
 title: Setting the Etype or SAP Filter
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The purpose of this guide is to help users troubleshoot failures encountered when using WSDAPI discovery APIs, when creating a WSDAPI host or device proxy, or when using operating system functions (such as Function Discovery or the Network Explorer) that rely on WSDAPI.
 ms.assetid: fc01fc66-627a-497f-98dd-613f5d85f6cb
 title: WSDAPI Troubleshooting Guide
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

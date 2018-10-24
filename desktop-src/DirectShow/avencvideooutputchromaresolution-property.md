@@ -2,8 +2,6 @@
 Description: Specifies the chroma resolution of the encoded video.
 ms.assetid: b0614cdb-1eef-486d-85c1-d5644853fa94
 title: AVEncVideoOutputChromaResolution property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

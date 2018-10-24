@@ -2,8 +2,6 @@
 Description: Schannel supports the following cipher suites for TLS 1.0 in Windows Server 2003 and Windows XP.
 ms.assetid: af9a749d-9ed4-48d0-a5f0-497be0435e34
 title: TLS Cipher Suites
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

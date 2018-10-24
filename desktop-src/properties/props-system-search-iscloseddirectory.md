@@ -2,8 +2,6 @@
 Description: Emitted as TRUE by a container item to indicate that its child items do not need to be enumerated by an indexer if the container item has not changed since the last incremental index verification crawl.
 ms.assetid: 8bb487b9-4a51-4a6b-939e-946a8aad85de
 title: System.Search.IsClosedDirectory
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

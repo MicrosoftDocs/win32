@@ -2,8 +2,6 @@
 title: Static Control Overview
 description: .
 ms.assetid: 5910de48-2627-406f-abd8-36ab9159aa33
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

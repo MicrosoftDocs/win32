@@ -2,8 +2,6 @@
 title: m4x4 - ps
 description: Multiplies a 4-component vector by a 4x4 matrix.
 ms.assetid: 2a9915a3-f396-4108-97f7-d70c5262ff59
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

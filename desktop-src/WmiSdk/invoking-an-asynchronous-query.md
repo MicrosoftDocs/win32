@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: b382610a-dac9-4d31-b756-aa84d16f0234
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Invoking an Asynchronous Query
 ms.author: windowssdkdev

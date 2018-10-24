@@ -2,8 +2,6 @@
 Description: The following functions enable software developers to use the functionality provided by Native Wifi.
 ms.assetid: c1816d68-48b2-4d3d-a8c8-4a243a4b3f3b
 title: Native Wifi Functions
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

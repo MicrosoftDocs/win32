@@ -2,8 +2,6 @@
 title: Logon Trigger Example (Scripting)
 description: This scripting example shows how to create a task that is scheduled to execute Notepad when a user logs on.
 ms.assetid: f25e105f-9439-4646-bdfd-609ee99a5d55
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

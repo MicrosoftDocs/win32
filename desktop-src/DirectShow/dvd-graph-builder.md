@@ -2,8 +2,6 @@
 Description: DVD Graph Builder
 ms.assetid: c74cf1d8-2560-4302-ba68-8a1693f7ca6f
 title: DVD Graph Builder
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

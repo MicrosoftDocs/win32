@@ -2,8 +2,6 @@
 Description: Describes how to initialize an XPS OM, which allows a program to create an XPS document.
 ms.assetid: 920d940f-5ae2-4376-8c7b-0cef04f21df7
 title: Initialize an XPS OM
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

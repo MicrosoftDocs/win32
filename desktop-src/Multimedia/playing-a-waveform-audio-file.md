@@ -2,8 +2,6 @@
 title: Playing a Waveform-Audio File
 description: Playing a Waveform-Audio File
 ms.assetid: b28ee3e8-1633-4eb8-af1c-d1441ef752e1
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,6 @@
 ---
 Description: Gets the user's current quota limit as a text string.
 title: DIDiskQuotaUser.QuotaLimitText property
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

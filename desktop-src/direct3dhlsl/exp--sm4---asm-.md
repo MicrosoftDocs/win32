@@ -2,8 +2,6 @@
 title: exp (sm4 - asm)
 description: Component-wise 2exponent.
 ms.assetid: 12EB865A-BF71-4B4B-854F-9DA056B18AE0
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

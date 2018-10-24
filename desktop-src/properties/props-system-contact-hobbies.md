@@ -2,8 +2,6 @@
 Description: Indicates the hobbies of the contact.
 ms.assetid: 5af7cb4c-d79e-4a07-be9c-c4742f15443e
 title: System.Contact.Hobbies
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

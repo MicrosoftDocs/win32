@@ -2,8 +2,6 @@
 Description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: ac3a5951-d3eb-4862-be1b-de9f12bc887b
 title: System.PropGroup.Media
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

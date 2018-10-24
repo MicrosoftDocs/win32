@@ -2,8 +2,6 @@
 Description: Table of Contents Parser Interfaces
 ms.assetid: 25039e6c-dd2a-4516-bf27-8e9d6ca0f00e
 title: Table of Contents Parser Interfaces
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

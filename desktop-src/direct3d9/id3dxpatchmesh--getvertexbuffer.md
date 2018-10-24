@@ -2,8 +2,6 @@
 Description: Gets the mesh vertex buffer.
 ms.assetid: 4ea4e99b-5c2c-467b-8b5d-8174c446680a
 title: ID3DXPatchMesh::GetVertexBuffer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

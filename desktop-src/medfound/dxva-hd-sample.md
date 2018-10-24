@@ -2,8 +2,6 @@
 Description: Shows how to use Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 ms.assetid: dfd5cf5c-7d6e-4894-8d9b-41ef0293b3d3
 title: DXVA-HD Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

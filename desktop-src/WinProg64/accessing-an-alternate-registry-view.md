@@ -5,8 +5,6 @@ ms.assetid: 2c5fd3de-998c-44ab-863e-8e0e90d56e5d
 keywords:
 - registry views 64-bit Windows Programming
 - WOW64 64-bit Windows Programming , registry views
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: bb6401e8-caf7-4f39-ab64-b7532723ce9a
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Tracing WMI Activity
 ms.author: windowssdkdev

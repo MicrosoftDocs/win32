@@ -2,8 +2,6 @@
 Description: SignTool is a Windows command-line tool for code signing, date stamping files, creating Windows digital signatures, and for verifying digital signatures.
 ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 title: SignTool
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

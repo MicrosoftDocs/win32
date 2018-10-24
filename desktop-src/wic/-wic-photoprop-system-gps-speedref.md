@@ -2,8 +2,6 @@
 Description: The photo metadata policy for the System.GPS.SpeedRef property.
 ms.assetid: 45fea6be-1e63-4244-a93d-d446e315ddd4
 title: System.GPS.SpeedRef Photo Metadata Policy
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

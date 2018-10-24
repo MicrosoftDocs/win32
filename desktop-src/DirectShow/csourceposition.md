@@ -2,8 +2,6 @@
 Description: CSourcePosition is an abstract class for implementing the IMediaPosition interface on a source filter.
 ms.assetid: 838d2efd-6870-4412-98e2-fb2628e14bf3
 title: CSourcePosition class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018

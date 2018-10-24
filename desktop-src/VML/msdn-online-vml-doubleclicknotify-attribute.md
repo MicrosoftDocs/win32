@@ -2,8 +2,6 @@
 title: VML DoubleClickNotify Attribute
 description: VML DoubleClickNotify Attribute
 ms.assetid: 003a87f5-29c1-484e-ac15-2e4cb8e854ad
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

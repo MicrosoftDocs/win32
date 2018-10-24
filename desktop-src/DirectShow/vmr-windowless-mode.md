@@ -2,8 +2,6 @@
 Description: VMR Windowless Mode
 ms.assetid: 0dc871d2-79c4-4bf8-96ef-13c4d1ab4497
 title: VMR Windowless Mode
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

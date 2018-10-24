@@ -2,8 +2,6 @@
 Description: Platform Path Override
 ms.assetid: f430fd9a-f865-4cdb-b0ea-4e6d79913308
 title: Platform Path Override
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

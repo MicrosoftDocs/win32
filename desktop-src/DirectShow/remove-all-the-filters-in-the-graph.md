@@ -2,8 +2,6 @@
 Description: Remove All the Filters in the Graph
 ms.assetid: a11af581-c331-4607-be8b-5f65961bd422
 title: Remove All the Filters in the Graph
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

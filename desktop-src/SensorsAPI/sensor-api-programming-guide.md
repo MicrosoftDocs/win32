@@ -2,8 +2,6 @@
 Description: This section provides information, including example code, about how to use the Sensor API features. For background information about the various programming interfaces, see About the Sensor API.
 ms.assetid: 4c2ffd22-49ee-4318-bfa0-e0ce4d8c67bb
 title: Sensor API Programming Guide
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

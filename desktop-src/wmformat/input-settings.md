@@ -15,8 +15,6 @@ keywords:
 - Advanced Systems Format (ASF),input settings
 - ASF (Advanced Systems Format),input settings
 - input settings
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

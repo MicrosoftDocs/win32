@@ -2,8 +2,6 @@
 Description: Creates a thread.
 ms.assetid: 40785522-dc6e-41af-8b27-9e8875a0dd84
 title: CMsgThread.CreateThread method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

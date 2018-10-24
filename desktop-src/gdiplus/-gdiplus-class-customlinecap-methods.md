@@ -2,8 +2,6 @@
 Description: This topic lists the methods of the CustomLineCap class. For a complete class listing, see CustomLineCap Class.
 ms.assetid: f0fc73f2-375b-4d7f-a0ac-1606ba6afeef
 title: CustomLineCap Methods
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

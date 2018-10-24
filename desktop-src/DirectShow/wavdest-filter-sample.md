@@ -2,8 +2,6 @@
 Description: WavDest Filter Sample
 ms.assetid: b7102e39-b3c7-42fb-a89b-f05f3ee75df7
 title: WavDest Filter Sample
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

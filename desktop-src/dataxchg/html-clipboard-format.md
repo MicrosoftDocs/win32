@@ -13,8 +13,6 @@ keywords:
 - clipboard,pasting HTML text
 - CF_HTML clipboard format
 - clipboard,CF_HTML format
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

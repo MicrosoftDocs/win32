@@ -10,8 +10,6 @@ keywords:
 - user interface plug-ins,programming guide
 - UI plug-ins,programming guide
 - programming guide,user interface plug-ins
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

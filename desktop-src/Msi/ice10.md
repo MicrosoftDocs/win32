@@ -2,8 +2,6 @@
 Description: ICE10 validates that the advertise state of child features matches that of its parent feature.
 ms.assetid: b0e0d837-245e-4c38-a7c4-06dda0eea25c
 title: ICE10
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: The Windows operating system supports authentication using security packages that function as both security support providers and as authentication packages.
 ms.assetid: f40060be-fad2-4008-b981-727199d71581
 title: Security Support Provider/Authentication Packages
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

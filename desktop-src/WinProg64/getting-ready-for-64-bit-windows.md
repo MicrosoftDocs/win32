@@ -4,8 +4,6 @@ description: A key goal of the 64-bit version of Windows is to make it easy for 
 ms.assetid: 62101e20-13bb-46d5-9542-2afd414ad224
 keywords:
 - 64-bit Windows programming guide 64-bit Windows Programming , getting ready
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

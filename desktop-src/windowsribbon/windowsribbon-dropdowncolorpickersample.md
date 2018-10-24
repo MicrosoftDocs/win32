@@ -2,8 +2,6 @@
 title: DropDownColorPicker Sample
 description: This code sample demonstrates the markup and code required to use a Windows Ribbon DropDownColorPicker control.
 ms.assetid: cc8e18a6-9ed5-47ca-a807-f50838821f14
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

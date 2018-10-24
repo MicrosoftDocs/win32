@@ -2,8 +2,6 @@
 Description: This sample application uses the Core Audio APIs to render audio data to an output device specified by the user.
 ms.assetid: eae7d896-77ef-4340-bd77-1f3333166987
 title: RenderSharedTimerDriven
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

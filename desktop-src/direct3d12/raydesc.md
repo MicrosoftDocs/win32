@@ -2,8 +2,6 @@
 Description: Passed to the TraceRay function to define the origin, direction, and extents of the ray.
 ms.assetid: 
 title: RayDesc structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

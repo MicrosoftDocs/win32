@@ -2,8 +2,6 @@
 Description: Creates a Microsoft Direct3D surface from a Microsoft DirectDraw surface and associates a requested handle value to it.
 ms.assetid: 7b1ce714-a56e-4508-8160-af8c1748c5f7
 title: NtGdiDdCreateSurfaceEx function
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,6 @@
 ---
 Description: Demote the item specified by the accompanying SMDATA structure.
 title: SMC_DEMOTE message
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

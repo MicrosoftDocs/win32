@@ -2,8 +2,6 @@
 Description: Removes the specified source buffer from the collection of source buffers managed by the IMFMediaSourceExtension object.
 ms.assetid: 2f29cbac-4261-41ee-84c8-cb73686aeee5
 title: IMFMediaSourceExtension::RemoveSourceBuffer method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -5,8 +5,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: DD607D54-CAEA-43EE-94EB-F983AEA0CC1E
-ms.prod: windows-server-dev
-ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 keywords:
 - ClientProtocolSpec property Remote Desktop Services

@@ -2,8 +2,6 @@
 title: VML Style Attribute
 description: VML Style Attribute
 ms.assetid: 1695d2b2-cf60-48f1-b47e-f0f43696b5b5
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

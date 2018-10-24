@@ -2,8 +2,6 @@
 Description: Contains the execution context of the printer driver that calls GetPrintExecutionData.
 ms.assetid: 1fd25ed9-6f28-48f9-8132-d48fffc956ec
 title: PRINT_EXECUTION_DATA structure
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018

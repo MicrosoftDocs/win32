@@ -4,8 +4,6 @@ audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
 ms.assetid: 8cb353fb-c6d7-41d9-a2d0-ff1ad37264e4
-ms.prod: windows-server-dev
-ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.Remove method
 ms.author: windowssdkdev

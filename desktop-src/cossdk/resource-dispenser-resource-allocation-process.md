@@ -2,8 +2,6 @@
 Description: Resource Dispenser Resource Allocation Process
 ms.assetid: 695d08f4-ba5c-4a5f-a2ad-481a8ede49ab
 title: Resource Dispenser Resource Allocation Process
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

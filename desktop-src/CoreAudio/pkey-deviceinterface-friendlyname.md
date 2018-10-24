@@ -2,8 +2,6 @@
 Description: The PKEY\_DeviceInterface\_FriendlyName property.
 ms.assetid: beef2153-489f-4ff5-a161-b4e2cd4ac1fa
 title: PKEY_DeviceInterface_FriendlyName
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

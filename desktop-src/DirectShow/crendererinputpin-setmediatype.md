@@ -2,8 +2,6 @@
 Description: The SetMediaType method sets the media type for the connection. This method overrides the CBasePin::SetMediaType method.
 ms.assetid: b2668bb1-0739-413c-bea8-ec5541acfb3e
 title: CRendererInputPin.SetMediaType method
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

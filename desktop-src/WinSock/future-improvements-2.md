@@ -2,8 +2,6 @@
 Description: Future improvements to example Winsock application code.
 ms.assetid: 317baa53-6bc8-42bd-8f56-480cab29ae6b
 title: Future Improvements
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

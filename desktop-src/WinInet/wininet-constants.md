@@ -2,8 +2,6 @@
 title: WinINet Constants
 description: The following are the WinINet Constants.
 ms.assetid: 37506cb2-f45d-4a2b-8afb-548f62e863bc
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

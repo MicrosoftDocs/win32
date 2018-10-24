@@ -2,8 +2,6 @@
 Description: Each window class has an associated window procedure shared by all windows of the same class. The window procedure processes messages for all windows of that class and therefore controls their behavior and appearance.
 ms.assetid: db79fd4b-6a15-4bf9-a0d9-5f6415f6c75f
 title: About Window Classes
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

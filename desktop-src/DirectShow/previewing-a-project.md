@@ -2,8 +2,6 @@
 Description: Previewing a Project
 ms.assetid: '2efa3f25-a93f-4362-b461-b67475e5d78c'
 title: Previewing a Project
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

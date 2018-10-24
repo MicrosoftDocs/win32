@@ -2,8 +2,6 @@
 title: IAgentCharacter GetTTSPitch
 description: IAgentCharacter GetTTSPitch
 ms.assetid: b21ae1f1-daf6-42e5-9c52-f28722180021
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

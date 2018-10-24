@@ -9,8 +9,6 @@ keywords:
 - WDS Windows Deployment Services See Windows Deployment Services
 - Remote Installation Services Windows Deployment Services See Windows Deployment Services
 - RIS Windows Deployment Services See Windows Deployment Services
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

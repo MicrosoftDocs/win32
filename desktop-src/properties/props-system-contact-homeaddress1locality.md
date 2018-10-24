@@ -2,8 +2,6 @@
 Description: .
 ms.assetid: 3a2b382c-c7af-48cb-8cad-a9da0546cb17
 title: System.Contact.HomeAddress1Locality
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018

@@ -2,8 +2,6 @@
 Description: Method to perform a pre-check to determine whether a virtual system is likely to be successfully migrated to a target host specified by a network name or IP address.
 ms.assetid: bfcd4063-30fe-4d18-9df9-7b84a680814c
 title: CheckVirtualSystemIsMigratableToHost method of the CIM_VirtualSystemMigrationService class
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
