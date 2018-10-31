@@ -46,7 +46,7 @@ HRESULT Append(
 
 To the end of the collection, this method appends an object that is passed in the parameter list, as shown in the following diagram.
 
-![a figure that shows how append adds an entry to the collection](../images/generic-append.png)
+![a figure that shows how append adds an entry to the collection](images/generic-append.png)
 
 ## GetAt Method
 
@@ -68,7 +68,7 @@ HRESULT GetAt(
 
 Writes the object that is stored at the collection's location specified by *index* to the variable referenced by *object*. This action does not change the collection's contents. The following diagram illustrates this process.
 
-![a figure that shows how getat retrieves an entry from the collection](../images/generic-getat.png)
+![a figure that shows how getat retrieves an entry from the collection](images/generic-getat.png)
 
 ## GetCount Method
 
@@ -89,7 +89,7 @@ HRESULT GetCount(
 
 Writes the number of objects that are currently stored in the collection into the variable referenced by *count*. This action does not change the collection's contents. The following diagram illustrates this process.
 
-![a figure that shows how getcount gets the number of entries in the collection](../images/generic-getcount.png)
+![a figure that shows how getcount gets the number of entries in the collection](images/generic-getcount.png)
 
 ## InsertAt Method
 
@@ -111,7 +111,7 @@ HRESULT InsertAt(
 
 The object that is passed in *object* is inserted into the collection at the location specified by *index*. Before inserting the new *object*, this method moves by 1 the object that has previously occupied the location at *index* and moves all interface pointers subsequent to *index*. The following diagram illustrates this process.
 
-![a figure that shows how insertat adds an entry to the collection](../images/generic-insertat.png)
+![a figure that shows how insertat adds an entry to the collection](images/generic-insertat.png)
 
 ## RemoveAt Method
 
@@ -132,7 +132,7 @@ HRESULT RemoveAt(
 
 This method releases the object from the location specified by *index*, then compacts the collection by reducing by 1 the index of each pointer subsequent to *index*. The following diagram illustrates this process.
 
-![a figure that shows how removeat removes an entry from the collection](../images/generic-removeat.png)
+![a figure that shows how removeat removes an entry from the collection](images/generic-removeat.png)
 
 ## SetAt Method
 
@@ -154,7 +154,7 @@ HRESULT SetAt(
 
 This method first releases the object at the location referenced by *index*, then replaces that object with the one that is passed in *object*. The following diagram illustrates this process.
 
-![a figure that shows how setat replaces an entry in the collection](../images/generic-setat.png)
+![a figure that shows how setat replaces an entry in the collection](images/generic-setat.png)
 
 ## See Also
 

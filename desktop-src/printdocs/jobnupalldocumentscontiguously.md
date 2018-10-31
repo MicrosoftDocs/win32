@@ -15,7 +15,7 @@ Describes the output of multiple logical pages to a single physical sheet. All d
 
 The following diagram illustrates an example with Document 1 containing 3 pages, and Document 2 containing 2 pages. Each document in the job is duplexed contiguously. The presentation directions shown in the example is the RightBottom option.
 
-![a diagram that shows how document pages are laid out on a single sheet based on the documentnup setting](../images/local-1242234459-jobduplexpics.gif)
+![a diagram that shows how document pages are laid out on a single sheet based on the documentnup setting](images/local-1242234459-jobduplexpics.gif)
 
 -   [Element Information](#element-information)
 -   [Structural Content](#structural-content)

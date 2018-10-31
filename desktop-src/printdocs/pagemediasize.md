@@ -15,7 +15,7 @@ Describes the physical media dimensions used for the output.
 
 The following diagram illustrates the PageMediaSize variable usage (option ISOA4 is used as an example).
 
-![a diagram that shows the page dimensions](../images/local-1594393517-pagemediasizepic.gif)
+![a diagram that shows the page dimensions](images/local-1594393517-pagemediasizepic.gif)
 
 -   [Element Information](#element-information)
 -   [Structural Content](#structural-content)

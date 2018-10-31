@@ -82,7 +82,7 @@ PageDeviceColorSpaceUsage is an XPS specific user configurable element that is s
 
 The following diagram illustrates flow for the most likely scenarios for using Color Management and the Print Schema. For simplicity and readability, only the following user configurable Print Schema keywords were used to demonstrate their usage: PageColorManagement, JobOptimalDestinaionColorProfile, PageSourceColorProfile, and PageDestinationColorProfile. A solid line represents an action that SHOULD occur and a dashed line represents an action that MAY occur. The following scenario is not the guaranteed interaction that will result between the application, driver, and system, however, it represents the most common usage case that will occur.
 
-![a diagram that shows how color management settings are processed](../images/local-1992284846-colormanagementtest3.png)
+![a diagram that shows how color management settings are processed](images/local-1992284846-colormanagementtest3.png)
 
 ## Related topics
 
