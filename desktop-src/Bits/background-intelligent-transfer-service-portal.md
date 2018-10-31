@@ -11,41 +11,37 @@ keywords:
 - uploading files BITS
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/09/2018
 ---
 
 # Background Intelligent Transfer Service
 
 ## Purpose
 
-Background Intelligent Transfer Service (BITS) transfers files (downloads or uploads) between a client and server and provides progress information related to the transfers. You can also download files from a peer.
+Background Intelligent Transfer Service (BITS) is used by programmers and system administrators to download files from or upload files to HTTP web servers and SMB file shares. BITS will take the cost of the transfer into consideration, as well as the network usage so that the user's foreground work has as little impact as possible. BITS also handles network interuptions, pausing and automatically resuming transfers, even after a reboot. BITS includes PowerShell cmdlets for creating and managing transfers as well as the BitsAdmin command-line utility.
 
 > [!Note]  
-> BITS is most commonly used by Windows to download updates to your local system. If you are an end-user searching for ways to troubleshoot your BITS installation, see the knowledge base (KB) article link at the bottom of this page. If you are seeking to download or re-install BITS 4.0, see [KB968929](http://go.microsoft.com/fwlink/p/?linkid=151321).
-
+> BITS can be used by Windows to download updates to your local system. If you are an end-user searching for ways to troubleshoot your BITS installation, see the knowledge base (KB) article link at the bottom of this page. 
  
 
 ## Where applicable
 
 Use BITS for applications that need to:
 
--   Asynchronously transfer files in the foreground or background.
--   Preserve the responsiveness of other network applications.
+-   Download from or upload files to an HTTP or REST web server or SMB file server.
 -   Automatically resume file transfers after network disconnects and computer restarts.
+-   Preserve the responsiveness of other network applications.
+-   Be mindful of the network cost on e.g. roaming networks
+-   Optionally work with [BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/branchcache) to optimize wide area network (WAN) traffic
 
 ## Developer audience
 
-BITS is designed for C and C++ developers.
+BITS is a COM interface designed for C and C++ developers that can also be used by .NET developers. UWP developers should use the [Windows.Networking.BackgroundTransfer](https://docs.microsoft.com/en-us/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
 
-## Run-time requirements
+## BITS versions
 
-BITS version 4.0 is included in the Windows 7 and Windows Server 2008 R2 operating systems.
+For complete version history and information on earlier operating system, see [What's New](what-s-new.md).
 
-You can also download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see [KB968929](http://go.microsoft.com/fwlink/p/?linkid=151321).
-
-For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
-
-For complete version history, see [What's New](what-s-new.md).
 
 ## In this section
 
@@ -65,7 +61,6 @@ For complete version history, see [What's New](what-s-new.md).
 ## Additional resources
 
 The following are additional resources.
-
 
 
 |             |                                                                                                                                                 |

@@ -9,7 +9,13 @@ ms.date: 05/31/2018
 
 # Managed Reference for BITS PowerShell Commands
 
-Background Intelligent Transfer Service (BITS) 4.0 can use Windows PowerShell cmdlets to manage transfer jobs.
+Background Intelligent Transfer Service (BITS) 4.0 can use Windows PowerShell cmdlets to create and manage file download and upload transfer jobs.
+
+```PowerShell
+Import-Module BitsTransfer
+mkdir -force c:\temp\BITSFILES
+Start-BitsTransfer -Source https://aka.ms/WinServ16/StndPDF -Destination c:\temp\BITSFILES\WindowsServer2016.pdf
+```
 
 Windows PowerShell cmdlets for BITS provide much of the same functionality as the bitsadmin command-line utility. However, Windows PowerShell also does the following:
 
@@ -17,7 +23,7 @@ Windows PowerShell cmdlets for BITS provide much of the same functionality as th
 -   Provides a single tool for all job-related tasks.
 
 > [!Note]  
-> To use these commands, you must first import the BITS PowerShell module, using the `Import-Module Bits Transfer` command. For more information, see the following [TechNet article](http://technet.microsoft.com/magazine/ff382721.aspx).
+> To use these commands, you must first import the BITS PowerShell module, using the `Import-Module BitsTransfer` command. For more information, see the following [TechNet article](http://technet.microsoft.com/magazine/ff382721.aspx).
 
  
 
