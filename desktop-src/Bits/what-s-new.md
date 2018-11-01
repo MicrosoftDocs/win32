@@ -6,10 +6,12 @@ keywords:
 - what's new BITS
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 10/04/2018
+ms.date: 10/09/2018
 ---
 
 # What's New
+
+Since its first release as part of Windows XP, the Background Intelligent Transfer Service (BITS) has been constantly improved, adding more powerful controls for the developer and admin to control and manage downloads. A rich set of PowerShell cmdlets has been added; it can connect to more types of HTTP servers; it's more careful of the user's network bandwidth and costs than ever before. 
 
 The following table identifies what is new for each release of Background Intelligent Transfer Service (BITS).
 
@@ -31,7 +33,7 @@ The following table identifies what is new for each release of Background Intell
 <td>Version 10.1</td>
 <td>New features:<br/>
 <ul>
-<li>BITS version 10.1 is included in Windows 10 Creator s Update and later.</li>
+<li>BITS version 10.1 is included in Windows 10 Creator's Update and later.</li>
 <li>Added <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6"><strong>BackgroundCopyFile6</strong></a> and <a href="/windows/desktop/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3"><strong>IBackgroundCopyCallback3</strong></a> to enable  random access  scenarios for HTTP downloads.</li>
 <li>Added <strong>BITS_JOB_PROPERTY_ON_DEMAND_MODE</strong> and <strong>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</strong> to the <a href="/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0002"><strong>BITS_JOB_PROPERTY_ID</strong></a> enumeration to tweak download and notification behaviors, respectively.</li>
 </ul></td>
@@ -107,8 +109,17 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </table>
 
 
+## Version 10.1
 
- 
+The following interfaces were added for this version
+-   [**BackgroundCopyFile6**](/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6)
+-   [**IBackgroundCopyCallback3**](/windows/desktop/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3)
+
+The following constants were added to use with the [**BITS\_JOB\_PROPERTY\_ID**](/windows/desktop/api/Bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0002) enumeration:
+
+-   **BITS\_JOB\_PROPERTY\_ON\_DEMAND\_MODE**
+-   **BITS\_JOB\_PROPERTY\_MINIMUM\_NOTIFICATION\_INTERVAL\_MS**
+
 
 ## Version 5.0
 
@@ -176,9 +187,9 @@ The following interfaces and topics were added for version 1.5:
 -   [Using BITS Notification Request/Response Headers](using-bits-notification-request-response-headers.md)
 
  
-
+## Updating BITS versions
  
-
+You can download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see [KB968929](http://go.microsoft.com/fwlink/p/?linkid=151321).
 
 
 

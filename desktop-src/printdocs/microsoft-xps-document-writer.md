@@ -31,7 +31,7 @@ When installed, the MXDW appears as an available print queue in the Print dialog
 
 The following image shows the MXDW being selected as the printer in the Windows Vista common print dialog box.
 
-![an image of the print dialog box that shows the selection of the microsoft xps document writer (mxdw)](../images/choosingmxdwinvista.gif)
+![an image of the print dialog box that shows the selection of the microsoft xps document writer (mxdw)](images/choosingmxdwinvista.gif)
 
 Application developers can customize the output of MXDW using the [MXDW configuration settings](mxdw-configuration-settings.md).
 

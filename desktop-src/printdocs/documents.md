@@ -22,7 +22,7 @@ The content in this section is intended for programmers. If you are not interest
 
 Microsoft provides several different document technologies to support a variety of document applications. The following table can help you select the best Microsoft document technology for your application.
 
-![a diagram that shows the various microsoft document technologies](../images/ostable.png)
+![a diagram that shows the various microsoft document technologies](images/ostable.png)
 
 -   **XPS and OpenXPS**
 

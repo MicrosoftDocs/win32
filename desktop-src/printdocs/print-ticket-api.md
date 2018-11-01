@@ -24,7 +24,7 @@ This topic contains information about the following API elements:
 
 The following diagram shows the relationship of the Print Ticket API to the other Print APIs that a native Windows application can use.
 
-![a diagram that shows the relationship of the print ticket api to the other print apis that a native windows application can use](../images/print-apis-pt.png)
+![a diagram that shows the relationship of the print ticket api to the other print apis that a native windows application can use](images/print-apis-pt.png)
 
 ## Related topics
 

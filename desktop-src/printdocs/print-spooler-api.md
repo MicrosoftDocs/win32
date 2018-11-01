@@ -29,7 +29,7 @@ This section contains information about the following topics.
 
 The following diagram shows the relationship of the Print Spooler API to the other Print APIs that a native Windows application can use.
 
-![a diagram that shows the relationship of the print spooler api to the other print apis that a native windows application can use](../images/print-apis-ps.png)
+![a diagram that shows the relationship of the print spooler api to the other print apis that a native windows application can use](images/print-apis-ps.png)
 
 ## Related topics
 

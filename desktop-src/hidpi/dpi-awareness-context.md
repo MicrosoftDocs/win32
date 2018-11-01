@@ -4,7 +4,7 @@ description: Identifies the awareness context for a window.
 ms.assetid: BFD54A9F-642B-4A3A-BBB9-F3A80779251D
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/04/2018
 ---
 
 # DPI\_AWARENESS\_CONTEXT handle
@@ -18,6 +18,7 @@ Identifies the awareness context for a window.
 #define DPI_AWARENESS_CONTEXT_SYSTEM_AWARE         ((DPI_AWARENESS_CONTEXT)-2)
 #define DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE    ((DPI_AWARENESS_CONTEXT)-3)
 #define DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 ((DPI_AWARENESS_CONTEXT)-4)
+#define DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED    ((DPI_AWARENESS_CONTEXT)-5)
 ```
 
 ## Constants
@@ -45,10 +46,46 @@ The additional behaviors introduced are as follows:
   
 </dl>
 
- 
+**DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED**
 
- 
+DPI unaware with improved quality of GDI-based content. This mode behaves similarly to DPI_AWARENESS_CONTEXT_UNAWARE, but also enables the system to automatically improve the rendering quality of text and other GDI-based primitives when the window is displayed on a high-DPI monitor.
+
+For more details, see [Improving the high-DPI experience in GDI-based Desktop apps](https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/#Uwv9gY1SvpbgQ4dK.97).
+
+DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED was introduced in the October 2018 update of Windows 10 (also known as version 1809).
 
 
+## Requirements
 
+|  | |
+|----|-----------|
+| Minimum supported client<br/> | Windows 10, version 1607 \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | None supported <br/>  |
+| Header<br/>                   | <dl> <dt>windef.h</dt> </dl> |
 
+## See also
+
+<dl> <dt>
+
+[**AreDpiAwarenessContextsEqual**](/windows/desktop/api/winuser/nf-winuser-aredpiawarenesscontextsequal)
+</dt> <dt>
+
+[**GetAwarenessFromDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getawarenessfromdpiawarenesscontext)
+</dt> </dl>
+
+[**GetDpiFRomDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getdpifromdpiawarenesscontext)
+</dt> </dl>
+
+[**GetThreadDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext)
+</dt> </dl>
+
+[**GetWindowDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext)
+</dt> </dl>
+
+[**IsValidDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-isvaliddpiawarenesscontext)
+</dt> </dl>
+
+[**SetProcessDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiawarenesscontext)
+</dt> </dl>
+
+[**SetThreadDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext)

@@ -15,7 +15,7 @@ Describes the output and format of multiple logical pages to a single physical s
 
 The following diagram illustrates an example with Document 1 containing 3 pages, and Document 2 containing 2 pages. Each document is duplexed separately. The presentation direction shown below is the RightBottom option.
 
-![a diagram that shows how document pages are laid out on a single sheet based on the documentnup setting](../images/local-1663869164-docduplex1.gif)
+![a diagram that shows how document pages are laid out on a single sheet based on the documentnup setting](images/local-1663869164-docduplex1.gif)
 
 -   [Element Information](#element-information)
 -   [Structural Content](#structural-content)

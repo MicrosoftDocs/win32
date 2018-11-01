@@ -26,7 +26,7 @@ Native Windows applications that create XPS documents, such as by using the [XPS
 
 The following diagram shows the relationship of the XPS Print API to the other Print APIs that a native Windows application can use.
 
-![a diagram that shows the relationship of the xps print api to the other print apis that a native windows application can use](../images/print-apis-xps.png)
+![a diagram that shows the relationship of the xps print api to the other print apis that a native windows application can use](images/print-apis-xps.png)
 
 ## Related topics
 

@@ -4,16 +4,16 @@ description: BITS supports Basic authentication, Passport authentication, and se
 ms.assetid: cfd4aec3-79d0-4971-93f8-df797e5c0f75
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 10/04/2018
+ms.date: 10/09/2018
 ---
 
 # Authentication
 
 BITS supports Basic authentication, Passport authentication, and several challenge/response authentication schemes. If the server or proxy requires user authentication, use the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) function to specify the user's credentials. BITS uses the [CryptoAPI](https://msdn.microsoft.com/library/windows/desktop/aa380255) to protect the credentials.
 
-Basic authentication requires the user name and password to be embedded in the URL, for example, HTTP://username:password@server/path/file. Because the user name and password are clear text, an administrator can enumerate the jobs in the transfer queue and see the user name and password. The user name and password can also be seen by a network monitor program that is on the same physical network link as the client and server (unless you use HTTPS).
+To set credentials for Basic authentication use the [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) function to specify the user name and password. You should only use Basic authentication with https:// protected secure websites; otherwise the username and password will be visible to users. 
 
-Instead of embedding the user name and password in the URL, you should use the [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) function to specify the user name and password for Basic authentication. This prevents others from viewing the credentials. If you specify credentials in both places, BITS uses the user name and password from the URL.
+It's possible to embed the user name and password in the URL. This is not considered a good security practice, and is deprecated in RFC 3986 (section 3.2.1).
 
 For [Passport](https://msdn.microsoft.com/library/windows/desktop/aa384067) authentication, BITS supports explicit credentials only, not implicit credentials tied to the account.
 

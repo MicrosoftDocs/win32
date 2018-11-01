@@ -31,7 +31,7 @@ This section provides information about the following topics.
 
 The following diagram shows the relationship of the GDI Print API to the other print APIs that an application can use.
 
-![a diagram that shows the relationship of the gdi print api to the other print apis that a win32 application can use](../images/print-apis-gdi.png)
+![a diagram that shows the relationship of the gdi print api to the other print apis that a win32 application can use](images/print-apis-gdi.png)
 
 ## Related topics
 

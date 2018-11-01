@@ -15,7 +15,7 @@ Describes the imaged canvas for layout and rendering. This will be reported base
 
 The following diagrams illustrate the PageImageableSize variables usage based on PageOrientation.
 
-![a diagram that shows page measurements](../images/local-1641910626-image.png)
+![a diagram that shows page measurements](images/local-1641910626-image.png)
 
 -   [Element Information](#element-information)
 -   [Structural Content](#structural-content)

@@ -59,7 +59,7 @@ Developers who are writing applications for Windows Vista and later versions of 
 
 The following illustration provides a high-level view of how the different printing APIs are related.
 
-![a diagram that shows how a native windows application can use the print apis](../images/print-apis.png)
+![a diagram that shows how a native windows application can use the print apis](images/print-apis.png)
 
  
 
