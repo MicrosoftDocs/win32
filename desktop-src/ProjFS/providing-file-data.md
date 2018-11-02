@@ -107,11 +107,10 @@ See the topic [File Buffering](https://docs.microsoft.com/en-us/windows/desktop/
 //  BlockAlignTruncate(): Aligns P on the previous V boundary (V must be != 0).
 #define BlockAlignTruncate(P,V) ((P) & (0-((UINT64)(V))))
 
-// Note that this sample illustrates returning the entire requested range in a
-// single call to PrjWriteFileData(), but this is not required.  The provider
-// may decide to split the data up into smaller units, so long as it does return
-// all the requested data before completing the PRJ_GET_FILE_DATA_CB callback
-// with S_OK.
+// This sample illustrates both returning the entire requested range in a
+// single call to PrjWriteFileData(), and splitting it up into smaller 
+// units.  Note that the provider must return all the requested data before
+// completing the PRJ_GET_FILE_DATA_CB callback with S_OK.
 HRESULT
 MyGetFileDataCallback(
     _In_ const PRJ_CALLBACK_DATA* callbackData,
