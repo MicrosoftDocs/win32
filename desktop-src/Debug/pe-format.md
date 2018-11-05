@@ -4,7 +4,7 @@ ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/05/2018
 ---
 
 # PE Format
@@ -640,6 +640,7 @@ The following relocation type indicators are defined for ARM processors.
 | IMAGE\_REL\_ARM\_ADDR32NB <br/>   | 0x0002 <br/> | The 32-bit RVA of the target. <br/>                                                                                                                                                                                                                              |
 | IMAGE\_REL\_ARM\_BRANCH24 <br/>   | 0x0003 <br/> | The 24-bit relative displacement to the target. <br/>                                                                                                                                                                                                            |
 | IMAGE\_REL\_ARM\_BRANCH11 <br/>   | 0x0004 <br/> | The reference to a subroutine call. The reference consists of two 16-bit instructions with 11-bit offsets. <br/>                                                                                                                                                 |
+| IMAGE\_REL\_ARM\_REL32 <br/>      | 0x000A <br/> | The 32-bit relative address from the byte following the relocation. <br/>                                                                                                                                                                                        |
 | IMAGE\_REL\_ARM\_SECTION <br/>    | 0x000E <br/> | The 16-bit section index of the section that contains the target. This is used to support debugging information. <br/>                                                                                                                                           |
 | IMAGE\_REL\_ARM\_SECREL <br/>     | 0x000F <br/> | The 32-bit offset of the target from the beginning of its section. This is used to support debugging information and static thread local storage. <br/>                                                                                                          |
 | IMAGE\_REL\_ARM\_MOV32 <br/>      | 0x0010 <br/> | The 32-bit VA of the target. This relocation is applied using a MOVW instruction for the low 16 bits followed by a MOVT for the high 16 bits. <br/>                                                                                                              |
@@ -679,9 +680,7 @@ The following relocation type indicators are defined for ARM64 processors.
 | IMAGE\_REL\_ARM64\_ADDR64 <br/>          | 0x000E <br/> | The 64-bit VA of the relocation target. <br/>                                                                                                           |
 | IMAGE\_REL\_ARM64\_BRANCH19 <br/>        | 0x000F <br/> | The 19-bit offset to the relocation target, for conditional B instruction. <br/>                                                                        |
 | IMAGE\_REL\_ARM64\_BRANCH14 <br/>        | 0x0010 <br/> | The 14-bit offset to the relocation target, for instructions TBZ and TBNZ. <br/>                                                                        |
-
-
-
+| IMAGE\_REL\_ARM64\_REL32 <br/>           | 0x0011 <br/> | The 32-bit relative address from the byte following the relocation. <br/>                                                                               |
  
 
 ### Hitachi SuperH Processors
