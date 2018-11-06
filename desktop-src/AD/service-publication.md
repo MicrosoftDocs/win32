@@ -1,15 +1,11 @@
 ---
 title: Service Publication
 description: Services advertise themselves using objects stored in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 69e9256f-40ee-4aed-8213-1bbda0e508af
 ms.tgt_platform: multiple
 keywords:
 - Service Publication AD
 - Active Directory, using, service publication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

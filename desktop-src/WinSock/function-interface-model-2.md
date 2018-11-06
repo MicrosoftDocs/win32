@@ -2,7 +2,6 @@
 Description: Windows Sockets transport and namespace&\#8211;service providers are DLLs with a single exported procedure entry point for the service provider initialization function WSPStartup or NSPStartup, respectively.
 ms.assetid: a3422513-92e2-4011-a756-04ed853e9d56
 title: Function Interface Model
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

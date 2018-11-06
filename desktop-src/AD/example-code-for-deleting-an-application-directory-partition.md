@@ -1,15 +1,11 @@
 ---
 title: Example Code for Deleting an Application Directory Partition
 description: This topic includes code examples used to delete an application directory partition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 74eb46a1-9300-452a-86b6-a19aff58a4f0
 ms.tgt_platform: multiple
 keywords:
 - example code for deleting an application directory partition Active Directory
 - application directory partitions Active Directory , example code for deleting
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

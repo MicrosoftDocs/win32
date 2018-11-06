@@ -2,7 +2,6 @@
 Description: COM+ CRM Security Considerations
 ms.assetid: e212c847-b43b-43be-b089-82336551b89a
 title: COM+ CRM Security Considerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: IVMTask Methods
 description: The IVMTask interface exposes the following methods.
 ms.assetid: 4F07C38A-7E8D-40C0-90C3-46BEBD1B0D61
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

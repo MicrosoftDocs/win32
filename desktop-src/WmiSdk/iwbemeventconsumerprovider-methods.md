@@ -1,12 +1,8 @@
 ---
 Description: The IWbemEventConsumerProvider interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 03E8E844-9A81-4252-9182-1B723E126F0D
 ms.tgt_platform: multiple
 title: IWbemEventConsumerProvider Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

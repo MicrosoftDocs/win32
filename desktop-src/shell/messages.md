@@ -1,7 +1,6 @@
 ---
 Description: This section describes the Windows Shell messages and notifications.
 title: Shell Messages and Notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

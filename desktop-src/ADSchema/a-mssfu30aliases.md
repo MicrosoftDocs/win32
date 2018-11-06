@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Aliases attribute
 description: Contains part of the NIS mail map.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8562d872-3447-45cb-bb8a-250ac57d7add
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Aliases
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

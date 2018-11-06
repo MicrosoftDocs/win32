@@ -2,7 +2,6 @@
 title: Mouse and Pointers
 description: The mouse is the primary input device used to interact with objects in Windows.
 ms.assetid: 4d99287d-e908-4c8b-b4f6-6e8c91c6c93e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

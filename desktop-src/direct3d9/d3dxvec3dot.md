@@ -2,7 +2,6 @@
 Description: Determines the dot product of two 3D vectors.
 ms.assetid: 61aa7751-cc06-4673-929b-d7c1e691e395
 title: D3DXVec3Dot function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

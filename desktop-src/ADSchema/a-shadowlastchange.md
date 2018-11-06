@@ -1,9 +1,6 @@
 ---
 title: shadowLastChange attribute
 description: Contains the last change of the shadow information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 397b32f4-9657-40ab-9525-a27474c978cf
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - shadowLastChange
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

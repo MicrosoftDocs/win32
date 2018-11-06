@@ -1,14 +1,8 @@
 ---
 Description: Represents data about a group account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a53d1276-3dc9-419a-bbb8-5dd07794a971
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Group class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

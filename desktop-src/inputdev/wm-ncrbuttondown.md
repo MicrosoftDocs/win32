@@ -12,7 +12,6 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -64,7 +63,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
  

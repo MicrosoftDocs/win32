@@ -12,7 +12,6 @@ keywords:
 - ActiveX control,Synchronized Accessible Media Interchange (SAMI)
 - Synchronized Accessible Media Interchange (SAMI),files
 - SAMI (Synchronized Accessible Media Interchange),files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 30be0468-1b4e-4650-a5d2-aa467d800ef7
 title: RecordedTV
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

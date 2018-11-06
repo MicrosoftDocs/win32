@@ -1,12 +1,8 @@
 ---
 title: Adding a Client
 description: Adding a Client
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7e9e25af-e3b9-40ba-a89d-50b3874e3e68
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

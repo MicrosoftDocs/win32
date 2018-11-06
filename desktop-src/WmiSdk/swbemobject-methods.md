@@ -1,12 +1,8 @@
 ---
 Description: The SWbemObject object exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F1534655-488C-4C78-BFE3-B7477149458B
 ms.tgt_platform: multiple
 title: SWbemObject Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

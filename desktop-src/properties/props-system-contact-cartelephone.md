@@ -2,7 +2,6 @@
 Description: Car telephone number of the contact.
 ms.assetid: ef7d6ac7-ef7e-463c-8408-60948802e9c5
 title: System.Contact.CarTelephone
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

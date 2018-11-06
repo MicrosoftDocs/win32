@@ -2,7 +2,6 @@
 title: VML BWMode Attribute
 description: VML BWMode Attribute
 ms.assetid: 929daebb-c402-46a0-9abc-b91c4ebda7fa
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

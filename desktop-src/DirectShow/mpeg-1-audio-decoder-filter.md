@@ -2,7 +2,6 @@
 Description: MPEG-1 Audio Decoder Filter
 ms.assetid: 2f695ac6-7d4b-41a8-b4c5-83fb9d20ab9d
 title: MPEG-1 Audio Decoder Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

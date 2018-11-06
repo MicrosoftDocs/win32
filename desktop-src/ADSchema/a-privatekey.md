@@ -1,9 +1,6 @@
 ---
 title: Private-Key attribute
 description: An encrypted private key.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 24837506-b15e-4476-9bf3-de3d5d388f15
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Private-Key
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

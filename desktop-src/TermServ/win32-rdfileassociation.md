@@ -1,9 +1,6 @@
 ---
 title: Win32_RDFileAssociation class
 description: Represents a file type association for a RemoteApp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9ecf6fa5-36f0-4b37-9d59-781b41c1d90c
 ms.tgt_platform: multiple
 keywords:
@@ -23,7 +20,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

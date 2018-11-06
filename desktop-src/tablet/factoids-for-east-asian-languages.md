@@ -2,7 +2,6 @@
 Description: East Asian languages are defined as Japanese, Chinese (Simplified), Chinese (Traditional), and Korean.
 ms.assetid: 780ffb2f-3233-46d0-aff5-d0e8acd4ef75
 title: Factoids for East Asian Languages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

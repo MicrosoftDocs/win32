@@ -1,9 +1,6 @@
 ---
 title: bootParameter attribute
 description: Provides data that is needed to start a diskless client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b6e90890-ad27-4d2a-aa71-bb433fe7eb75
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - bootParameter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: The interfaces that are described in the following topics provide p
 ms.assetid: 04d23e14-574b-4c50-880b-69cf0f40e782
 keywords:
 - Task Scheduler Task Scheduler , reference, interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -71,7 +70,7 @@ The following interfaces are introduced in Task Scheduler 2.0, which is used in 
 
 ## 
 
-> \[!Warning\]  
+> [!WARNING]
 > The Task Scheduler 1.0 interfaces are available only in Windows 2000, Windows XP, and Windows Server 2003 operating systems. They are deprecated as of Windows Vista and may be removed completely in the future. Please use the Task Scheduler 2.0 interfaces listed above instead.
 
  

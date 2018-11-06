@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Transactional attribute
 description: Indicates whether the queue is transactional.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8ec5d505-4e48-4313-a0d8-26c04acec66e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Transactional
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

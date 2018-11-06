@@ -1,9 +1,6 @@
 ---
 title: Dns-Node class
 description: Holds the DNS resource records for a single host.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9ac9b61c-10f2-4d82-b9c6-0ceec7bd3cc8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Dns-Node
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

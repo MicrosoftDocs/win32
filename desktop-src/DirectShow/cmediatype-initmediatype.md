@@ -2,7 +2,6 @@
 Description: The InitMediaType method initializes the media type.
 ms.assetid: 141ced68-11ed-4567-b2e1-82c040d3b4a4
 title: CMediaType.InitMediaType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

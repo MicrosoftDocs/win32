@@ -1,12 +1,8 @@
 ---
 title: WinRM Scripting API
 description: Windows Remote Management scripting objects are implemented as a layer above the WS-Management Protocol.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bd642669-554f-40ab-bd40-235013afa077
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

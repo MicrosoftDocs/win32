@@ -2,7 +2,6 @@
 title: Implementing Input Pipes on the Server
 description: To begin sending data to a server, a client calls one of the server's remote procedures.
 ms.assetid: 6abaa851-41bf-4a03-8d12-cd595d74c8c9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

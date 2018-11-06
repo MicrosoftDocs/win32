@@ -1,9 +1,6 @@
 ---
 title: Telex-Primary attribute
 description: The primary telex number.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4a7b3098-39f7-464a-b5de-39b748b19ecd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Telex-Primary
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: COM-ProgID attribute
 description: This attribute stores the list of COM object program IDs that are implemented in this application package.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d2945e4-f236-48f6-bed3-145d445ff653
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - COM-ProgID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

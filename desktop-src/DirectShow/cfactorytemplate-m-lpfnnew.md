@@ -2,7 +2,6 @@
 Description: Pointer to a function that creates an instance of the object.
 ms.assetid: 86859bf9-e16a-4494-bf1b-1d8ddbc1c805
 title: CFactoryTemplate::m_lpfnNew member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

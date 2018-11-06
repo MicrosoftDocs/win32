@@ -2,7 +2,6 @@
 Description: Windows Security Center
 ms.assetid: FF0D7B81-AFDC-4DB2-B2B0-0D2536B2757B
 title: Windows Security Center
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: EmptySpecifiedLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Removes all license servers from the list of specified license servers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: de1633ca-3f0b-4540-8b45-44303a4e72fe
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

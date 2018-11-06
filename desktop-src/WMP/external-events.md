@@ -8,7 +8,6 @@ keywords:
 - events,external
 - writing code for skins,external events
 - external events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

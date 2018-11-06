@@ -2,7 +2,6 @@
 Description: Because of the footprint of statically linked DLLs, you should avoid using Microsoft Foundation Classes (MFCs) to write an expert.
 ms.assetid: 634852fd-d0e0-42a7-90af-e93cc0e4ac84
 title: Using Microsoft Foundation Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

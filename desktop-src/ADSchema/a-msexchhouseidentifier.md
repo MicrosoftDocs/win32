@@ -1,9 +1,6 @@
 ---
 title: ms-Exch-House-Identifier attribute
 description: This attribute contains an address for a contact in an Exchange server address book.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 99a393c7-f36c-4ade-9b14-f339f42225ba
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Exch-House-Identifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

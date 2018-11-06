@@ -2,7 +2,6 @@
 Description: Begins the task completion.
 ms.assetid: 75C84DD9-D815-45C2-A28E-EAE437EAFF89
 title: TaskCompletionClient::ApplyTaskCompletion method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

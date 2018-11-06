@@ -1,9 +1,6 @@
 ---
 title: ms-net-ieee-80211-GP-PolicyReserved attribute
 description: Reserved for future use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 28381eaf-9f78-43b6-97e7-bdae5322cf39
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ms-net-ieee-80211-GP-PolicyReserved
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

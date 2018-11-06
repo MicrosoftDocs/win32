@@ -7,7 +7,6 @@ keywords:
 - audio,mixer device queries
 - audio mixers,device queries
 - mixers,device queries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

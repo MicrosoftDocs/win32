@@ -2,7 +2,6 @@
 Description: Audio Streaming Interfaces
 ms.assetid: eaf510ef-a6a3-45e0-8f0a-281a44b0ff6f
 title: Audio Streaming Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

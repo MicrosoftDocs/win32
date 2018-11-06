@@ -1,9 +1,6 @@
 ---
 title: Sam-Server class
 description: Holds a revision level and a security descriptor that specifies who can make RPC calls through the SAM interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c7de65ae-89b6-4297-b9f4-cec6070151ce
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Sam-Server
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

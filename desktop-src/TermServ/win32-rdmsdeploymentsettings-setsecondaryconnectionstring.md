@@ -1,9 +1,6 @@
 ---
 title: SetSecondaryConnectionString method of the Win32_RDMSDeploymentSettings class
 description: Sets the deployment level database secondary connection string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 154c495e-564e-4d90-a4ff-de683d41aa73
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

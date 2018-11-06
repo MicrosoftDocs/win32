@@ -2,7 +2,6 @@
 Description: Constructors exposed by XMBYTE2.
 ms.assetid: 157ce586-aa49-49b8-9fcd-03815f4ed67b
 title: XMBYTE2 constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

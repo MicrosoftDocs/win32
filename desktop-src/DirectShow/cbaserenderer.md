@@ -2,7 +2,6 @@
 Description: The CBaseRenderer class is a base class for implementing renderer filters.
 ms.assetid: 8d39d3bd-6162-402e-a4b3-0f35d3e29b96
 title: CBaseRenderer class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

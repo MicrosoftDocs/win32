@@ -2,7 +2,6 @@
 Description: Removes a single Certificate object from the collection.
 ms.assetid: dff82825-1a7d-4c1a-94e2-7f9d1281ecf2
 title: ICertificates2::Remove method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

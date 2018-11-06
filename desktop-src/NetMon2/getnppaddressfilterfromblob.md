@@ -2,7 +2,6 @@
 Description: The GetNPPAddressFilterFromBlob function fills in the given address filter with information stored in the BLOB.
 ms.assetid: b34e0e52-1b2a-4d61-b60c-f1b19ff8ff38
 title: GetNPPAddressFilterFromBlob function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

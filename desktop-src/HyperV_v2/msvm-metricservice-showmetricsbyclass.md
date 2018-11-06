@@ -2,7 +2,6 @@
 Description: Shows metrics by class.
 ms.assetid: a08c0749-b60b-4b8a-996f-b3bbaf1fb2d3
 title: ShowMetricsByClass method of the Msvm_MetricService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

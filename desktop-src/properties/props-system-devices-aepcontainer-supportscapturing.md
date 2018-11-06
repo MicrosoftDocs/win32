@@ -2,7 +2,6 @@
 Description: Indicates if the Device Association Endpoint Container Supports Capturing.
 ms.assetid: 7613f1e1-d30a-4bf2-b125-c334ac836be9
 title: System.Devices.AepContainer.SupportsCapturing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

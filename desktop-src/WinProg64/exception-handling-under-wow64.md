@@ -2,7 +2,6 @@
 title: Exception Handling under WOW64
 description: WOW64 uses native x64, ia64, or ARM64 exceptions as a transport for x86 exceptions. Therefore, in a 32-bit application running under WOW64, uncaught exceptions behave like native 64-bit exceptions.
 ms.assetid: 2EE1A1F3-A691-4ee6-9587-7FF7C4F9DD98
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 07af228c-c1d6-48f0-929c-9adc67829ace
 title: System.Contact.HomeAddress3Region
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

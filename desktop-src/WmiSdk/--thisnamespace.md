@@ -1,12 +1,8 @@
 ---
 Description: Holds the security rights for the namespace in the form of a security descriptor.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 84e514f5-b114-4bfc-ab0b-9745f249168b
 ms.tgt_platform: multiple
 title: '__thisNAMESPACE class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

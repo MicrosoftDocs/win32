@@ -1,9 +1,6 @@
 ---
 title: ms-DS-SCP-Container attribute
 description: ms-DS-SCP-container attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d48b757-0ae9-4c96-819a-f135e3e5c35a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-SCP-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

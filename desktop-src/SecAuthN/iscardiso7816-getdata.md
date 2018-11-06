@@ -2,7 +2,6 @@
 Description: The GetData method constructs an application protocol data unit (APDU) command that retrieves either a single primitive data object or a set of data objects (contained in a constructed data object), depending on the type of file selected.
 ms.assetid: d764a765-f451-4bf7-9d06-f5901062dcac
 title: ISCardISO7816::GetData method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

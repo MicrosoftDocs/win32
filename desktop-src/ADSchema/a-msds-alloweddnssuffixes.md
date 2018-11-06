@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Allowed-DNS-Suffixes attribute
 description: The list of allowed suffixes for the dNSHostName attribute in computer objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: acd57af8-a021-4704-8a56-304126cd3d4b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Allowed-DNS-Suffixes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

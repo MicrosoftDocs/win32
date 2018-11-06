@@ -2,7 +2,6 @@
 title: Using Buttons
 description: This section gives implementation details and example code for button controls. The following topics are discussed.
 ms.assetid: 0c56f6ee-984d-47b8-9066-e14f13396eb9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

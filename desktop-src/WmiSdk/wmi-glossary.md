@@ -1,13 +1,9 @@
 ---
 Description: Windows Management Instrumentation (WMI) uses its own collection of terms. Many of these terms are familiar to developers, but have new or altered definitions in the WMI environment.
 Robots: noindex, nofollow
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 880d35b7-3347-41e1-b057-49cd69407c21
 ms.tgt_platform: multiple
 title: WMI Glossary
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

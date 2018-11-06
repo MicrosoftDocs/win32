@@ -2,7 +2,6 @@
 title: User Input Extended Example
 description: .
 ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

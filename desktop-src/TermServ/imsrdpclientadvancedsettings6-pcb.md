@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings6 PCB property
 description: Specifies the preconnection BLOB (PCB) setting to use prior to connecting for transmission to the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3f3e6f09-2c26-44ab-9bcc-2636b71b57e2
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Caching control in Transactional NTFS.
 ms.assetid: 0fd272ee-cf5f-4ba9-b8aa-ff0016f51d4b
 title: Deploying Transactional NTFS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

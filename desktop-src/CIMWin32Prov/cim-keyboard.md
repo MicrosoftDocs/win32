@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Keyboard class represents the capabilities and management of the keyboard logical device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c465a731-03dd-4418-8b16-96dc2c8b60b5
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Keyboard class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -49,7 +43,7 @@ api_location:
 
 The **CIM\_Keyboard** class represents the capabilities and management of the keyboard logical device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

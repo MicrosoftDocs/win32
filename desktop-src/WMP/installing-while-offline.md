@@ -12,7 +12,6 @@ keywords:
 - type 1 online stores,offline installs
 - type 2 online stores,offline installs
 - installing online stores while offline
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

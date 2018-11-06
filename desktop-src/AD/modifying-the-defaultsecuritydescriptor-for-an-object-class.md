@@ -1,16 +1,12 @@
 ---
 title: Modifying the defaultSecurityDescriptor for an Object Class
 description: The following code example retrieves the default security descriptor for an object class, adds an ACE to the DACL, and then sets the modified security descriptor on the object class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 38b4d129-f98f-43da-9bd9-1ae23c090657
 ms.tgt_platform: multiple
 keywords:
 - security descriptors AD ,modifying the defaultSecurityDescriptor for an object class
 - objects AD ,modifying the defaultSecurityDescriptor for an object class
 - class AD ,modifying the defaultSecurityDescriptor for an object class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

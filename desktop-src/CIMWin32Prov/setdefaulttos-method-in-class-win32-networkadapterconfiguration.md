@@ -1,14 +1,8 @@
 ---
 Description: This method is obsolete. Applications should use the Quality of Service (QoS) API to manipulate Type of Service (TOS) bits.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 18860c13-7324-4a37-b83c-f3d15c425acb
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetDefaultTOS method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: COM+ version 1.5 adds new features that are designed to increase the overall scalability, availability, and manageability of COM+ applications both for developers and for system administrators.
 ms.assetid: e7073ba5-6b19-4d94-8cc0-b4e16bb44afd
 title: Whats New in COM+ 1.5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

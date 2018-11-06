@@ -1,12 +1,8 @@
 ---
 title: NP-Authentication-Type
 description: Authentication types permitted for a connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fbe05142-2a1b-49a0-94d2-d72cdba9cf09
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

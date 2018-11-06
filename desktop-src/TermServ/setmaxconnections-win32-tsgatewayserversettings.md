@@ -1,9 +1,6 @@
 ---
 title: SetMaxConnections method of the Win32_TSGatewayServerSettings class
 description: Sets the MaxConnections and UnlimitedConnections properties, which control the maximum number of allowed connections to the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cfdbacb7-4969-4ec5-8301-e8020f3af0cd
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

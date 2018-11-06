@@ -1,9 +1,6 @@
 ---
 title: Option-Description attribute
 description: This attribute contains a description of an option that is set on the DHCP server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 93ea5950-0fb1-48f8-abee-d1fdf9b97ec6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Option-Description
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

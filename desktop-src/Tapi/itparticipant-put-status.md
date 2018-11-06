@@ -2,7 +2,6 @@
 Description: The put\_Status method sets the status of a participant.
 ms.assetid: 8478fcf4-00b3-4b77-9859-e5a80ce24be1
 title: ITParticipant::put_Status method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

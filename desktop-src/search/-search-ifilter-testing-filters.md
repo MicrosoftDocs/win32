@@ -2,7 +2,6 @@
 Description: The IFilter test suite validates your filter handlers.
 ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: Testing Filter Handlers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -38,7 +37,7 @@ This topic is organized as follows:
 
 The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) test suite consists of three command-line applications - [ifilttst.exe](#ifilttstexe), [filtdump.exe](#filtdumpexe), and [filtreg.exe](#filtregexe) and an initialization file, [ifilttst.ini](#ifilttstini).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > In Windows 7 and later, filters written in managed code are explicitly blocked. Filters MUST be written in native code due to potential common language runtime (CLR) versioning issues with the process that multiple add-ins run in.
 
  

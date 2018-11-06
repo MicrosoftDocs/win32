@@ -2,7 +2,6 @@
 title: Using D3D12 Debug Layer GPU-Based Validation
 description: GPU-Based Validation (GBV) Preview enables new validation scenarios on the GPU timeline that is not possible to do during API calls on the CPU. GBV is available starting with the Graphics Tools for Windows 10 Anniversary Update.
 ms.assetid: 01D1F94F-4DD4-4781-86EF-6C639E8B1069
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

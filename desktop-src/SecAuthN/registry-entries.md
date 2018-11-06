@@ -2,7 +2,6 @@
 Description: Explains the registry entries for Winlogon events.
 ms.assetid: dbebe23f-84ff-4a3e-8b8c-fa3bda10fa57
 title: Registry Entries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

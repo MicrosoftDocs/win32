@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Service-Account attribute
 description: The FPO that represents the ADAM service account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9f93ed27-fb3f-4b37-b2a5-cf2e85b9d507
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Service-Account
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

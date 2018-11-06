@@ -2,7 +2,6 @@
 Description: The Stop method stops the current capture.
 ms.assetid: 1b627137-e72d-4425-98d9-e296fb07e509
 title: IDelaydC::Stop method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: SetEnforceChannelBinding method of the Win32_TSGatewayServerSettings class
 description: Sets the EnforceChannelBinding property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8bd64fe7-bad5-44e6-a309-10802d9a8bd4
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

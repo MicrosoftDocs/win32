@@ -2,7 +2,6 @@
 Description: The installer keeps information about the installation directory structure in the Directory Table.
 ms.assetid: 31390138-b1d0-4f0b-9304-6e7c69e6a736
 title: Specifying Directory Structure
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

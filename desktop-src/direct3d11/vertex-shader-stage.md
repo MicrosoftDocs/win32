@@ -2,7 +2,6 @@
 title: Vertex Shader Stage
 description: The vertex-shader (VS) stage processes vertices from the input assembler, performing per-vertex operations such as transformations, skinning, morphing, and per-vertex lighting.
 ms.assetid: C6A39F48-A243-4049-8AED-0B521BEDFA76
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

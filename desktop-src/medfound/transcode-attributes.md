@@ -2,7 +2,6 @@
 Description: The following attributes are used with the transcode API.
 ms.assetid: 6cddb5b9-75da-4640-9810-35a8203fc4bc
 title: Transcode Attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

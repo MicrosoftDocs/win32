@@ -1,9 +1,6 @@
 ---
 title: meetingDescription attribute
 description: The description of the meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 669795cf-cb33-47c1-95a9-05e201533fb8
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingDescription
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

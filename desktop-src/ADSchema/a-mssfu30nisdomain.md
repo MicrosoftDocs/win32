@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Nis-Domain attribute
 description: Contains the NIS domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 14a754d3-597c-48e6-9bf6-bb31d97d2198
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Nis-Domain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Traversing the Module List
 description: The following example obtains a list of modules for the specified process.
 ms.assetid: 8efe1e13-6222-496a-bff3-90f53b03c750
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

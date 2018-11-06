@@ -2,7 +2,6 @@
 title: IAgentCharacter Play
 description: IAgentCharacter Play
 ms.assetid: a0158693-ff62-4da4-8b68-402e8d5b1c2a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Creating a Client
 description: Creating a client for Web services is greatly simplified in WWSAPI by the Service Model API and the WsUtil.exe tool.
 ms.assetid: 09f489e8-958d-4bc5-a232-aa59bd75333a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic describes the memory limits for supported Windows and Windows Server releases.
 ms.assetid: de09c8af-0ed8-4fd4-b8e8-2c921aafe6f2
 title: Memory Limits for Windows and Windows Server Releases
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

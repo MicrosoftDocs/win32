@@ -2,7 +2,6 @@
 Description: The GetState method retrieves the filters's state (running, stopped, or paused). This method implements the IMediaFilter::GetState method.
 ms.assetid: e32e3a1d-857f-4db3-b52c-5b6b802ded42
 title: CBaseFilter.GetState method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

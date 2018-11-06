@@ -2,7 +2,6 @@
 Description: Files
 ms.assetid: '0d87072a-e6c9-47af-9bcb-17ddca550282'
 title: Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

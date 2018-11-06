@@ -1,9 +1,6 @@
 ---
 title: Group-Membership-SAM attribute
 description: Windows NT Security. Down level Windows NT support.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 14e2f7c1-4d2b-4c0d-bf13-9abb576cd931
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Group-Membership-SAM
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

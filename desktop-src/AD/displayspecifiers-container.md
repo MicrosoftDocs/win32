@@ -1,15 +1,11 @@
 ---
 title: DisplaySpecifiers Container
 description: Display specifiers are stored, by locale, in the DisplaySpecifiers container of the Configuration container. Because the Configuration container is replicated across the entire forest, display specifiers are propagated across all domains in a forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d7647c50-f95c-41ef-8d67-dc72542cae5a
 ms.tgt_platform: multiple
 keywords:
 - DisplaySpecifiers Container
 - Container, Display Specifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

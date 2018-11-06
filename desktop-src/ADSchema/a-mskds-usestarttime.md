@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-UseStartTime attribute
 description: The time after which this root key may be used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef6e1f4b-1c2c-4473-bce3-2d54a80b0493
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-UseStartTime
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

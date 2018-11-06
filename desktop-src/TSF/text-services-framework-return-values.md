@@ -10,7 +10,6 @@ keywords:
 - text services,return values
 - TSF-enabled applications,return values
 - return values
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Windows Deployment Services Transport Management API
 ms.assetid: c62e77b0-c3d7-41c1-88be-1c45543f243a
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

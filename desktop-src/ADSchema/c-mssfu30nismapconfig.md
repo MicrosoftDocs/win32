@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-NIS-Map-Config class
 description: Represents an internal data structure used by the server for NIS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 155e8aa0-8a24-40b6-90cc-fd8fb81856a4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-NIS-Map-Config
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

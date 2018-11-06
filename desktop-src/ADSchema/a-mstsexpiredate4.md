@@ -1,9 +1,6 @@
 ---
 title: MS-TS-ExpireDate4 attribute
 description: Expiration date of the fourth TS per user CAL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 568e9f40-893f-4b74-8a9f-232e62dcf426
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-ExpireDate4
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

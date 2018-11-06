@@ -44,7 +44,9 @@
         "Windows", 
         "Desktop"
       ],
-      "ms.prod": "desktop"
+      "ms.prod": "desktop",
+      "ms.author": "windowssdkdev",
+      "author": "windows-sdk-content"
     },
     "fileMetadata": {
       "feedback_system": {

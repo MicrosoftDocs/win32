@@ -2,7 +2,6 @@
 Description: Shows how the Certificate Services backup functions can be used to restore and recover a Certificate Services database and its associated files.
 ms.assetid: f4914f45-629d-4f24-8328-d7f27e8a0062
 title: Restoring Certificate Services from Backup
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

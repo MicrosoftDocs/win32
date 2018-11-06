@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable4 TrustedZoneSite property
 description: Specifies whether the website from which the user launched the connection is in the trusted sites list of the user's client computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cb7efacc-b13b-494c-ab02-35c4f914744c
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

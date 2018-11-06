@@ -1,10 +1,8 @@
 ---
-author: misatran
 layout: LandingPage
 description:
 title: Develop Windows desktop applications
 ms.topic: landing-page
-ms.author: windowssdkdev
 ms.date: 05/22/2018
 keywords: windows win32, desktop development
 ms.localizationpriority: medium

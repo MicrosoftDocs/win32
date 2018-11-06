@@ -1,9 +1,6 @@
 ---
 title: ms-DS-NC-Type attribute
 description: A bitfield that maintains information about aspects of an NC replica that is relevant to replication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8e838e7b-b19f-4c9e-8fb9-cf9f1076af56
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-NC-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

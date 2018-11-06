@@ -1,12 +1,8 @@
 ---
 Description: Schema queries are WQL statements that request class definitions and information about schema associations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cb65e99f-9046-4c63-ab56-60dedc45bcef
 ms.tgt_platform: multiple
 title: Retrieving Class Definitions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Contains a description of the profile.
 ms.assetid: 8251ed29-d5b9-4ab9-861e-9b265766303f
 title: Description (MBNProfile) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

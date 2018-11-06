@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Sign-Certificates attribute
 description: This attribute contains a number of certificates. A user can generate a certificate per computer. For each certificate we also keep a digest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 70e182c7-3544-43d7-b27a-6e8d03bd2d47
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Sign-Certificates
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

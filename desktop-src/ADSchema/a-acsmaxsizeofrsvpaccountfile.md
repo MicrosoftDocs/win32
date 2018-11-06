@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-Size-Of-RSVP-Account-File attribute
 description: The maximum size, in bytes, of an RSVP account file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1b9bbd76-b13d-4496-a943-68ba272e8d49
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-Size-Of-RSVP-Account-File
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

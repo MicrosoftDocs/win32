@@ -1,9 +1,6 @@
 ---
 title: Domain-Component attribute
 description: The naming attribute for Domain and DNS objects. Usually displayed as dc DomainName.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1d674af1-ed2f-4266-9704-8c6ed5a9bdd8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-Component
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Destructor method.
 ms.assetid: 92375e95-adfb-414b-abbb-e827db2186ac
 title: CMediaType.~CMediaType destructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

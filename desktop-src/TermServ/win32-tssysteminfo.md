@@ -1,9 +1,6 @@
 ---
 title: Win32_TSSystemInfo class
 description: Represents the Centralized Publishing Server Information Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fd8155dc-63bf-4001-ab93-dc87a6c91284
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

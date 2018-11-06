@@ -1,12 +1,8 @@
 ---
 title: ITSGAuthenticationEngine Methods
 description: The ITSGAuthenticationEngine interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5F0396FF-8C62-4FC6-8CD3-06B28D5BC328
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -12,7 +12,6 @@ keywords:
 - MM_WOM_CLOSE message
 - MM_WOM_DONE message
 - MM_WOM_OPEN message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

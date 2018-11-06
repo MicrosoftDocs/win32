@@ -8,7 +8,6 @@ keywords:
 - Windows Media,Windows Media Playlists (WPL)
 - playlists,Windows Media Playlists (WPL)
 - reference for Windows Media Playlists
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

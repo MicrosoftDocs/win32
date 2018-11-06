@@ -9,7 +9,6 @@ keywords:
 - Ribbon,roadmap
 - Windows Ribbon,markup
 - Ribbon,markup
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -46,7 +45,7 @@ The following sections describe this process in more detail.
 
 After the Ribbon UI has been designed, the first task for an application developer is to describe the UI with Ribbon markup.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The Ribbon framework markup schema file, UICC.xsd, is installed with the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0. Using the standard installation path, the file is located in the %ProgramFiles%\\Microsoft SDKs\\Windows\\\[version number\]\\Bin folder where it can be referenced by many XML editors to provide hinting and auto-completion.
 
  
@@ -83,7 +82,7 @@ The following code example illustrates how to declare a Button control, labeled 
 
 
 
-> \[!Tip\]  
+> [!TIP]
 > While it is possible to use any file name extension for the Ribbon markup file, .xml is the recommended extension that is used throughout the documentation.
 
  
@@ -110,7 +109,7 @@ For more detail on compiling Ribbon framework markup, see [Compiling Ribbon Mark
 
 Once the preliminary UI for a Ribbon application has been designed and implemented in markup, application code must be written that initializes the framework, consumes the markup, and binds the Commands declared in the markup to the appropriate Command handlers in the application.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > Since the Ribbon framework is COM-based, it is recommended that Ribbon projects use the \_\_uuidof() operator to reference the GUIDs for Ribbon framework interfaces (IIDs). In those cases where it is not possible to use the \_\_uuidof() operator, such as when a non-Microsoft compiler is used or the host application is C-based, the IIDs must be defined by the application since they are not contained in uuid.lib.
 >

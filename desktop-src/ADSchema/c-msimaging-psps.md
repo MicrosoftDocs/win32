@@ -1,9 +1,6 @@
 ---
 title: ms-Imaging-PSPs class
 description: Container for all Enterprise Scan Post Scan Process objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aa0315e1-973b-4066-a5e3-834149c1ab7f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Imaging-PSPs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

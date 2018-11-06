@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings3 ConnectionBarShowRestoreButton property
 description: Specifies whether to display the Restore button on the connection bar.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a56c3c05-d253-404a-bf49-9c1d804802e0
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

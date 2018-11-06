@@ -2,7 +2,6 @@
 Description: If after running an installation, you need to verify that a particular feature, component, or file has been installed, turn on the verbose logging option during the installation. See Windows Installer Logging and Command Line Options.
 ms.assetid: c4547e5d-ea71-494f-9d92-c7fef23bcc0f
 title: Checking the Installation of Features, Components, Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ACS-Policy-Name attribute
 description: String name of an ACS policy that applies to this user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bfba5d58-5928-439d-896c-6d0f34b6d551
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Policy-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

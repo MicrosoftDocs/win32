@@ -2,7 +2,6 @@
 Description: Provides a mechanism for controlling access to securable objects.
 ms.assetid: 5923cb4c-f663-40d2-989a-07d71ac475db
 title: Mandatory Integrity Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

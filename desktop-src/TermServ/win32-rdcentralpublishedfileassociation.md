@@ -1,9 +1,6 @@
 ---
 title: Win32_RDCentralPublishedFileAssociation class
 description: Info for a file extension associated with an application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ba12d933-572c-48d3-bf0f-1c99de61457d
 ms.tgt_platform: multiple
 keywords:
@@ -23,7 +20,6 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

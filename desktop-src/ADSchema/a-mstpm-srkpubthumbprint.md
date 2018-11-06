@@ -1,9 +1,6 @@
 ---
 title: ms-TPM-Srk-Pub-Thumbprint attribute
 description: This attribute contains the thumbprint of the SrkPub corresponding to a particular TPM. This helps to index the TPM devices in the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 64cb0341-ae49-4992-87d7-6863719fa13f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TPM-Srk-Pub-Thumbprint
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

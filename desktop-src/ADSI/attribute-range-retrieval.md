@@ -1,14 +1,10 @@
 ---
 title: Attribute Range Retrieval
 description: A multi-valued attribute can have almost any number of values. In many cases, it may be advantageous, or even necessary, to limit the range of values that are retrieved by a query.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3a0eb764-fca9-4ca6-9991-b85f293961af
 ms.tgt_platform: multiple
 keywords:
 - Attribute Range Retrieval ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The following list provides concise descriptions of each Winsock function. For additional information on any function, click the function name.
 ms.assetid: edafb5f9-09fe-4f8e-9651-4002b6f622f4
 title: Winsock Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

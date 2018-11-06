@@ -2,7 +2,6 @@
 Description: MsiViewGetColumnInfo and the ColumnInfo Property of the View object use the following format to describe database column definitions.
 ms.assetid: 77379664-26f2-4c1d-8c44-d9be2376efa9
 title: Column Definition Format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

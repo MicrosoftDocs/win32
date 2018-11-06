@@ -4,7 +4,6 @@ description: An opaque type used to reference a service host.
 ms.assetid: 1186e3ae-87d0-4d0b-a7cc-cce63dc091e2
 keywords:
 - WS_SERVICE_HOST
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Use this effect to convert an image from premultiplied alpha to unp
 ms.assetid: A4FAF899-81DA-4BDA-98B4-DE63EC1664F5
 keywords:
 - unpremultiply effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

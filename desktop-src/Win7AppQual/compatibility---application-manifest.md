@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: f022374d-ea3f-477f-9b59-3188b775ed64
 title: Application Manifest
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

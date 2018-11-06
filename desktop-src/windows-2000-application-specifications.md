@@ -2,7 +2,6 @@
 Description: Windows 2000 Application Specifications
 ms.assetid: D1C077FC-9421-4043-AB33-BAE6D360B448
 title: Windows 2000 Application Specifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

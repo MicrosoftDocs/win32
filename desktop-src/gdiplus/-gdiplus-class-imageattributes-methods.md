@@ -2,7 +2,6 @@
 Description: This topic lists the methods of the ImageAttributes class. For a complete class listing, see ImageAttributes Class.
 ms.assetid: 4fb29be9-0e3b-442a-b39e-89d2191b43e9
 title: ImageAttributes Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

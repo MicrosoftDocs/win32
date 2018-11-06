@@ -2,7 +2,6 @@
 Description: Device missed call notification.
 ms.assetid: 4d583dea-edcf-4f1b-81e2-f2a57ce3d503
 title: System.Devices.Notifications.MissedCall
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

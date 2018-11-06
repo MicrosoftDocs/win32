@@ -1,12 +1,8 @@
 ---
 Description: WMI has several command line tools used by administrators and WMI provider writers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4766ca5b-81da-4167-b4f1-a215178a828a
 ms.tgt_platform: multiple
 title: WMI Command-line Tools
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Occurs when the current selection of text in the InkEdit control has changed or the insertion point has moved.
 ms.assetid: 14ddffe7-bdfe-4a35-82c7-b3401b5b720c
 title: InkEdit.SelChange event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

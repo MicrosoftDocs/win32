@@ -1,12 +1,8 @@
 ---
 Description: Describes how to include WMI COM provider as a component within an application rather than in-process to WMI. Called a decoupled provider, this is the recommended type of WMI COM provider to create for Windows 2000 and later operating systems.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a502f0dd-9add-4ebd-bc25-743a55eb78ac
 ms.tgt_platform: multiple
 title: Incorporating a Provider in an Application
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

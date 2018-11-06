@@ -2,7 +2,6 @@
 Description: Specifies the minimum coded bandwidth allowed by band truncation in the encoder.
 ms.assetid: dce530cf-26f6-49bf-bca2-8de5cd8e395a
 title: MFPKEY_DYN_BANDTRUNC_BWFLOOR Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The IX509ExtensionKeyUsage interface exposes the following properties.
 ms.assetid: 22805707-03E9-4620-BBDD-1182C155C8CF
 title: IX509ExtensionKeyUsage Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

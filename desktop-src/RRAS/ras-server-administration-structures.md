@@ -2,7 +2,6 @@
 title: RAS Server Administration Structures
 description: For Windows NT 4.0, use the following structures to implement RAS server administration functionality.
 ms.assetid: b04bef8c-a83e-4c6e-849e-feeca99699e8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

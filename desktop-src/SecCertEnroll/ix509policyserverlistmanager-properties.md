@@ -2,7 +2,6 @@
 Description: The IX509PolicyServerListManager interface exposes the following properties.
 ms.assetid: AAD75768-CAA6-4146-80B6-D25301348EEC
 title: IX509PolicyServerListManager Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

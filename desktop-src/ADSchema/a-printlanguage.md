@@ -1,9 +1,6 @@
 ---
 title: Print-Language attribute
 description: The supported page description language (for example, PostScript, PCL).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 454f2425-012f-4a2d-b383-7e1e626b0871
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Language
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

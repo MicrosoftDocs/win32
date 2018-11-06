@@ -1,12 +1,8 @@
 ---
 title: Run-Time linking to Wtsapi32.dll
 description: Your application can use the Remote Desktop Services API to dynamically link to the Wtsapi32.dll at run time. To do this, your application should call the LoadLibrary function to load Wtsapi32.dll.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b8227e65-be08-4045-a74e-dd3f398a7b9f
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

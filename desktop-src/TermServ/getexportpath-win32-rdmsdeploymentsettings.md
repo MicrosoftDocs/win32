@@ -1,9 +1,6 @@
 ---
 title: GetExportPath method of the Win32_RDMSDeploymentSettings class
 description: Retrieves the directory path to which virtual machines are deployed for a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8df79e31-b960-46ae-b49c-8052b356e1a8
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

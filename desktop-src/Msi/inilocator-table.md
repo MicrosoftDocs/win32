@@ -2,7 +2,6 @@
 Description: The IniLocator table holds the information needed to search for a file or directory using an .ini file or to search for a particular .ini entry itself. The .ini file must be present in the default Microsoft Windows directory.
 ms.assetid: 5a3c6077-34ef-48c8-b4e6-ecb1deb40f96
 title: IniLocator Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

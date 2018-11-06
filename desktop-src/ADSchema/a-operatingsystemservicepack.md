@@ -1,9 +1,6 @@
 ---
 title: Operating-System-Service-Pack attribute
 description: The operating system service pack ID string (for example, SP3).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1fe0971f-d060-4f9e-a308-f86334891bea
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Operating-System-Service-Pack
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

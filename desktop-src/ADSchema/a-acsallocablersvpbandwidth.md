@@ -1,9 +1,6 @@
 ---
 title: ACS-Allocable-RSVP-Bandwidth attribute
 description: The maximum bandwidth that can be reserved.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 18d9a5c5-e44c-49e9-a8f0-9386a7b1ff97
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Allocable-RSVP-Bandwidth
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

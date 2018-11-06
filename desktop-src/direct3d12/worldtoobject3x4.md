@@ -2,7 +2,6 @@
 Description: A matrix for transforming from world-space to object-space.
 ms.assetid: 
 title: WorldToObject3x4
-ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 

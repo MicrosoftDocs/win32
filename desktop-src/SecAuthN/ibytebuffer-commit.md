@@ -2,7 +2,6 @@
 Description: The Commit method ensures that any changes made to an object open in transacted mode are reflected in the parent storage.
 ms.assetid: 00986e48-c5b9-4ac9-a204-a0774cb5e03e
 title: IByteBuffer::Commit method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: TestAndSetState method of the Win32_RDSHServer class
 description: Compares the current state to the specified comparand; if the two match, the state is set to a new value. Regardless of the match, the current state is also returned.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f1bb0076-251b-4c0d-92f9-1c460e1b26bb
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

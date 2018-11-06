@@ -2,7 +2,6 @@
 Description: The timeline element defines the timeline. This element is the root node in the XML file.
 ms.assetid: db1da09f-d9b2-43fa-8dec-e3dc11cbfafa
 title: timeline Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

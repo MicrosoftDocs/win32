@@ -4,7 +4,6 @@ description: Getting an Online Music Store On Board
 ms.assetid: f7eff687-9832-41bc-8f3d-a2ab11917eb0
 keywords:
 - Windows Media Player Online Stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

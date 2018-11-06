@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnEnterFullScreenMode method
 description: Called when the client enters full-screen mode. For example, this event is called when the user presses the full-screen mode shortcut key combination (CTRL+ALT+BREAK).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dc772492-59a2-4403-8b9a-0aff1801aa6f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

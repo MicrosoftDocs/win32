@@ -2,7 +2,6 @@
 title: IVMVirtualMachineCollection Properties
 description: The IVMVirtualMachineCollection interface exposes the following properties.
 ms.assetid: 5658AA88-8F02-46EC-AC9A-60A9A6F935EE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

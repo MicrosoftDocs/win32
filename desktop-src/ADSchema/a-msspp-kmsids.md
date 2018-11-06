@@ -1,9 +1,6 @@
 ---
 title: ms-SPP-KMS-Ids attribute
 description: KMS IDs enabled by the Activation Object
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b5e11081-202e-4b9a-bf23-8552475f01f0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-SPP-KMS-Ids
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: To back up and restore hard links, use the CreateFile, CreateHardLi
 ms.assetid: 129e9cf4-8ab1-45d2-8e1a-4bc85b9de668
 keywords:
 - hard links Backup
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

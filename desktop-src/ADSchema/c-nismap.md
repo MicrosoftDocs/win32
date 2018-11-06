@@ -1,9 +1,6 @@
 ---
 title: nisMap class
 description: Contains the generic abstraction of an NIS map.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dd1be13b-b753-4808-8258-3986d9ab32b4
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - nisMap
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

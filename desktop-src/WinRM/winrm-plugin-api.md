@@ -1,12 +1,8 @@
 ---
 title: WinRM Plug-in API
 description: The WinRM Plug-in application programming interface (API) provides functionality that enables a user to write plug-ins by implementing certain APIs for supported resource URIs and operations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d3e103c1-221b-441b-8bcb-883e3f2a4c1a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

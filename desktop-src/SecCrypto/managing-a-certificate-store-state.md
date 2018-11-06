@@ -2,7 +2,6 @@
 Description: Several functions provide services for managing a certificate store state.
 ms.assetid: bae3d693-31b3-4c1d-9a8f-0dafa8bb6897
 title: Managing a Certificate Store State
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

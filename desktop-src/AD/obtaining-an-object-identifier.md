@@ -1,12 +1,8 @@
 ---
 title: Obtaining an Object Identifier
 description: Two of the most common ways to get an Object Identifier (OID) are discussed in the following topics.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0c505790-ba20-432a-8786-de4e1ad03f0a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

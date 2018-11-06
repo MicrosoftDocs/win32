@@ -1,9 +1,6 @@
 ---
 title: Group-Type attribute
 description: Contains a set of flags that define the type and scope of a group object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cd37ed2f-8503-4227-b0d2-c8135605cb84
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Group-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

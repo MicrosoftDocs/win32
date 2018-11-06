@@ -1,9 +1,6 @@
 ---
 title: domainRelatedObject class
 description: The domainRelatedObject object class is used to define an entry that represents a series of documents.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 358470d8-7799-4609-b8a1-01646d6ce09e
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - domainRelatedObject
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

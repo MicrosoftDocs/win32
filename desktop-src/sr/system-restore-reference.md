@@ -4,7 +4,6 @@ description: The following elements are used with System Restore
 ms.assetid: '41c87f14-e324-411f-b55d-008c46e3d156'
 keywords:
 - System Restore, reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

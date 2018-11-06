@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: bcc632ab-277a-492c-86d2-1450dc97b4c5
 title: System.Contact.OtherAddress3Street
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

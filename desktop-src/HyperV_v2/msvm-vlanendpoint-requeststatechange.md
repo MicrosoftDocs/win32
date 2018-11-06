@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: ef4f7180-8d94-4716-85d4-e133defbb32e
 title: RequestStateChange method of the Msvm_VLANEndpoint class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

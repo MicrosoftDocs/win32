@@ -2,7 +2,6 @@
 Description: Enumerates the name of the available cryptographic service providers (CSPs).
 ms.assetid: d0dc8a8a-afff-4ccc-96e0-2c52913c3322
 title: ISCrdEnr::enumCSPName method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

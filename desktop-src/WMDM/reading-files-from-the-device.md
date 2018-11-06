@@ -9,7 +9,6 @@ keywords:
 - desktop applications,reading files from devices
 - creating Windows Media Device Manager applications,reading files from devices
 - reading files from devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

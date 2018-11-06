@@ -2,7 +2,6 @@
 title: ps
 description: This instruction specifies the shader version number and works on all shader versions.
 ms.assetid: 953b1d66-09c1-4ad5-96d4-acb49a1f244c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The following list contains the TAPI MSP design goals.
 ms.assetid: 286b96c1-047b-4cb9-a189-af2818cfec58
 title: General Design Goals
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

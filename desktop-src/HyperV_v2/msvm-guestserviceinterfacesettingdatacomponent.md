@@ -2,7 +2,6 @@
 Description: Association class between a guest service interface component and the guest service resource.
 ms.assetid: 4c16c3ab-4137-40ab-be2e-f385d8e36a41
 title: Msvm_GuestServiceInterfaceSettingDataComponent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

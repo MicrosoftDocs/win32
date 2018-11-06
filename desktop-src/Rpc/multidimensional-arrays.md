@@ -2,7 +2,6 @@
 title: Multidimensional Arrays
 description: Array attributes can also be used with multidimensional arrays.
 ms.assetid: a01b904c-fbe8-4af4-8393-6864f7ef7364
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

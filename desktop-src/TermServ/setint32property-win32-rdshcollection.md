@@ -1,9 +1,6 @@
 ---
 title: SetInt32Property method of the Win32_RDSHCollection class
 description: Updates an integer property value of a Win32\_RDSHCollection object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2a9a5d83-d147-43b3-b57c-6c744da0923d
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

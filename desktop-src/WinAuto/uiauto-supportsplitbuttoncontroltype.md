@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for SplitButton control type
 - control types,support for SplitButton
 - control types,SplitButton
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

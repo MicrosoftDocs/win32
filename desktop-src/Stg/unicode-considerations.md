@@ -2,7 +2,6 @@
 title: Unicode Considerations
 description: The WriteFmtUserTypeStg service function, used in the IPaper Save method, requires Unicode string parameters.
 ms.assetid: 34a1d30e-4401-474e-999e-832b963064bb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

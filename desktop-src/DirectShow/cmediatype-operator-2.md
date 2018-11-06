@@ -2,7 +2,6 @@
 Description: This operator overloads the assignment operator to copy a media type.
 ms.assetid: 5b94191d-b5e4-42b2-b0c5-8c2da2483c54
 title: CMediaType.CMediaType::operator= method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

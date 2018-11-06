@@ -5,7 +5,6 @@ ms.assetid: 1639d0c5-db1e-4fd0-8a19-c32aa991eecf
 keywords:
 - Video for Windows (VFW),VCM messages
 - VFW (Video for Windows),VCM messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: A value map is an array linked to a property with the Value and ValueMap qualifiers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7667e87f-b997-4fd9-81ea-b27c9d2a9335
 ms.tgt_platform: multiple
 title: ValueMap and Value Qualifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

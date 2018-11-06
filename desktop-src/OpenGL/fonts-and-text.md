@@ -5,7 +5,6 @@ ms.assetid: 25a45e1a-6c1e-416b-8993-daeefc1100f3
 keywords:
 - OpenGL on Windows,fonts
 - OpenGL on Windows,text
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

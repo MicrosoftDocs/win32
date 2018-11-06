@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 719954bf-0d7d-f647-2d3f-a77d87df204e
 title: DirectXMath
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

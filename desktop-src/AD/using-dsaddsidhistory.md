@@ -1,16 +1,12 @@
 ---
 title: Using DsAddSidHistory
 description: This topic describes how to use the DsAddSidHistory function.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cbf4983c-551d-4771-870e-a192ed898eb7
 ms.tgt_platform: multiple
 keywords:
 - Using DsAddSidHistory Active Directory
 - Active Directory Active Directory , using, Using DsAddSidHistory
 - DsAddSidHistory Active Directory , using
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

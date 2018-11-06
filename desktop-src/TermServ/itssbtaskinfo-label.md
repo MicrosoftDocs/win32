@@ -1,9 +1,6 @@
 ---
 title: ITsSbTaskInfo Label property
 description: Retrieves the label that describes the purpose of the task.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 075de6a4-53b0-43b0-9bca-03bf312fff6e
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

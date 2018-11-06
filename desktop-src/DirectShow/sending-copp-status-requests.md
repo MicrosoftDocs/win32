@@ -2,7 +2,6 @@
 Description: Sending COPP Status Requests
 ms.assetid: 9f9950ff-469f-4cea-924e-3f9471eb4838
 title: Sending COPP Status Requests
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

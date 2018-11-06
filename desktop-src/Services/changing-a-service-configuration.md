@@ -2,7 +2,6 @@
 Description: A service configuration program uses the ChangeServiceConfig and ChangeServiceConfig2 functions to change the configuration parameters of an installed service.
 ms.assetid: 79aa4ad5-87ee-4f5d-9c8e-4e788f4c7182
 title: Changing a Services Configuration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The amount of free space in a volume, in bytes.
 ms.assetid: 84c85468-d3c2-49bf-b52b-bbd3d9ecb914
 title: System.FreeSpace
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

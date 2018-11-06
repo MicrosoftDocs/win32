@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Central-Access-Rules class
 description: A container of this class can contain Central Access Policy Entry objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e290790a-231b-4d51-8ffa-126d9f489af1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Central-Access-Rules
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

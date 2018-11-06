@@ -1,9 +1,6 @@
 ---
 title: msmq-Peek extended right
 description: Allows peeking at messages in the queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bcf23dbe-79bf-441d-a795-f1a57451bba3
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msmq-Peek
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

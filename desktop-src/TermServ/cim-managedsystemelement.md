@@ -1,9 +1,6 @@
 ---
 title: CIM_ManagedSystemElement class
 description: The base class for the system element hierarchy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c71c0441-381f-4a46-864c-9206c43a27d0
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

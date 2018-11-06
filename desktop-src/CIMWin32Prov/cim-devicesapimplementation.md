@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_DeviceSAPImplementation class represents an association between a service access point (SAP) and how it is implemented.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6c059507-bfc0-4630-9b39-9c4bae2bf138
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_DeviceSAPImplementation class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_DeviceSAPImplementation** class represents an association between a service access point (SAP) and how it is implemented. When many logical devices are associated with one SAP, the elements operate in conjunction to provide the access point. If different implementations of a SAP exist, each implementation results in individual instantiations of the SAP object.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

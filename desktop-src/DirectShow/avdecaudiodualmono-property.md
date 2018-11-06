@@ -2,7 +2,6 @@
 Description: Specifies whether 2-channel audio is encoded as stereo or dual mono.
 ms.assetid: 96cb9e17-588c-4a1a-a7ba-7f8439d5b79a
 title: AVDecAudioDualMono property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

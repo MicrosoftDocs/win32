@@ -2,7 +2,6 @@
 Description: Describes the resolution of the shadow z-buffer that will be used in Precomputed Radiance Transfer (PRT) direct lighting simulation on the GPU.
 ms.assetid: 05354328-9b6f-45f5-a913-47ede170b03f
 title: D3DXSHGPUSIMOPT enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

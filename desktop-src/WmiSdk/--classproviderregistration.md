@@ -1,12 +1,8 @@
 ---
 Description: Registers class providers in WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1af7d9ed-c5e4-47e4-839d-53d579ef7cea
 ms.tgt_platform: multiple
 title: '__ClassProviderRegistration class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

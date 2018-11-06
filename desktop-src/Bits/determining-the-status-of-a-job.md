@@ -5,7 +5,6 @@ ms.assetid: 7c6cdf86-196d-41b3-ae45-9728b8092c30
 keywords:
 - transfer job BITS , status
 - transfer job BITS , state
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

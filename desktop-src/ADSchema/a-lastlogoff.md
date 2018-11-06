@@ -1,9 +1,6 @@
 ---
 title: Last-Logoff attribute
 description: This attribute is not used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b7c6c68d-45c2-4317-975b-67e41bf80709
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Last-Logoff
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

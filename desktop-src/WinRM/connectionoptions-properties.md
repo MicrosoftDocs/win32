@@ -1,12 +1,8 @@
 ---
 title: ConnectionOptions Properties
 description: The ConnectionOptions object exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 87406003-9B71-42C7-A8C2-5F658A82D3D8
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

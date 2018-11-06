@@ -5,7 +5,6 @@ ms.assetid: 66C20B32-1348-44D9-81F3-43CCED0CEA34
 keywords:
 - downloading BITS , how to
 - downloads BITS , avoiding expensive
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018
 ---

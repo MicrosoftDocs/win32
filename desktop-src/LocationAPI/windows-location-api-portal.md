@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 0182461a-df06-46ea-a9c2-7aedbde5033b
 title: Location API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

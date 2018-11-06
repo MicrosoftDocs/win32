@@ -1,12 +1,8 @@
 ---
 Description: The WMI Reference contains the following topics that discuss the core features of WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ebc2e4aa-a77d-44a3-b649-3b3748bb267e
 ms.tgt_platform: multiple
 title: WMI Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

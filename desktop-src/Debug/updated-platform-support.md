@@ -2,7 +2,6 @@
 Description: Where necessary, the DbgHelp library has been widened to support both 32- and 64-bit Windows.
 ms.assetid: 34ec8cd3-3260-441d-b55f-4ea21c736eb1
 title: Updated Platform Support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

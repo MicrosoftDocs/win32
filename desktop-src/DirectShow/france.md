@@ -2,7 +2,6 @@
 Description: For an explanation of the following tables, see Tables and Assignments.
 ms.assetid: 852ead0e-3539-483d-943d-1779f7358ba5
 title: France
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

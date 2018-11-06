@@ -2,7 +2,6 @@
 Description: This Expert Functions, Structures, and Enumerations section contains information about the functions, structures, and enumerations that only experts can use.
 ms.assetid: d4078937-2899-43c8-81bf-9ee97ef7070b
 title: Expert Functions, Structures, and Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

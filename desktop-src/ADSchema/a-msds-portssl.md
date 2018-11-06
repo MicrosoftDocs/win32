@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Port-SSL attribute
 description: Specifies which port is used by the directory service for SSL requests.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bb28863c-e882-401a-90d5-08da3f3f30ae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Port-SSL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

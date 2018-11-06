@@ -2,7 +2,6 @@
 Description: The IInstallationJob interface defines the following methods.
 ms.assetid: 4990ef7c-b6cd-46fc-9e7d-8d1d78edc9f2
 title: IInstallationJob Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

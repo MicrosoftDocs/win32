@@ -1,9 +1,6 @@
 ---
 title: Max-Storage attribute
 description: The maximum amount of disk space the user can use. Use the value specified in USER\_MAXSTORAGE\_UNLIMITED to use all available disk space.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 69302641-ecfc-4b0f-81f8-f69b48c6faa7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Max-Storage
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

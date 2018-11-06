@@ -2,7 +2,6 @@
 title: RequestStart Event
 description: RequestStart Event
 ms.assetid: ecfb9691-cbc4-48f5-8e26-a99389e85eed
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

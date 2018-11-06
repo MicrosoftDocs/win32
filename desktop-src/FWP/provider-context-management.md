@@ -2,7 +2,6 @@
 title: Provider Context Management
 description: Provider Context Management
 ms.assetid: A73A6171-C81B-48EF-A689-3219E0B6B7C3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The ShutdownEmbeddedUI function prototype defines a user-defined shutdown function exported by the embedded UI DLL that is defined in the MsiEmbeddedUI table.
 ms.assetid: aee925f7-ea3e-4f5c-94dd-85985548d17b
 title: ShutdownEmbeddedUI callback function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

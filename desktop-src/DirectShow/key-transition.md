@@ -2,7 +2,6 @@
 Description: Key Transition
 ms.assetid: 5d1ed2e4-82c2-4364-b8f0-22bba974bc22
 title: Key Transition
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

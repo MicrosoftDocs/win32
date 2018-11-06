@@ -8,7 +8,6 @@ keywords:
 - creating skins,writing code
 - writing code for skins,skin file version number
 - skin definition files,initial lines
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

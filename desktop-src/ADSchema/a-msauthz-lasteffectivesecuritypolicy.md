@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Last-Effective-Security-Policy attribute
 description: For a central access rule, this attribute defines the permission that was last applied to the objects the Central Access Rule is applied to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bf3aed36-61ff-426d-848e-8993e784bd9f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Last-Effective-Security-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Explains the strings used in an access control entry.
 ms.assetid: 82c99170-784b-4724-a25b-2f2e8a2e0225
 title: ACE Strings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

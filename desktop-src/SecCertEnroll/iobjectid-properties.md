@@ -2,7 +2,6 @@
 Description: The IObjectId interface exposes the following properties.
 ms.assetid: 5C57B555-D224-469A-A972-536942EAB327
 title: IObjectId Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

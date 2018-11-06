@@ -2,7 +2,6 @@
 Description: Sent by the pipeline to encoder MFTs serially with media samples via IMFTransform::ProcessEvent.
 ms.assetid: D5D4544B-CD8D-4C94-B050-7BA1944800CC
 title: MEEncodingParameters event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

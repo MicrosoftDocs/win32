@@ -2,7 +2,6 @@
 title: D3DCSX 11 Interfaces
 description: This section contains reference information about the COM interfaces provided by the D3DCSX utility library.
 ms.assetid: A4F5E487-AA6C-4C64-90CF-88587F2E8B8B
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

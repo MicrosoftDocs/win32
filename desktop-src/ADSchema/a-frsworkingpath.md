@@ -1,9 +1,6 @@
 ---
 title: FRS-Working-Path attribute
 description: The path to the file replication database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 43db1214-17a3-4458-b082-1cf69d06384c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Working-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

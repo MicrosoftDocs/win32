@@ -13,7 +13,6 @@ keywords:
 - Windows Media Player,opening HTMLView content
 - Windows Media Player,HTMLView content
 - HTMLView,opening content
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

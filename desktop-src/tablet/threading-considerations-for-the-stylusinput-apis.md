@@ -2,7 +2,6 @@
 Description: Overview of threading considerations when using the StylusInput application programming interface (API).
 ms.assetid: 5d98768a-c60b-4bb0-8640-9bf38254d41f
 title: Threading Considerations for the StylusInput API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

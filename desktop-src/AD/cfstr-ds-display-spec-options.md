@@ -1,9 +1,6 @@
 ---
 title: CFSTR_DS_DISPLAY_SPEC_OPTIONS
 description: The CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS clipboard format provides an HGLOBAL that contains a DSDISPLAYSPECOPTIONS structure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 98e033e4-14fe-44ed-83d5-a97e00ecce4c
 ms.tgt_platform: multiple
 topic_type:
@@ -15,7 +12,6 @@ api_location:
 - DSClient.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

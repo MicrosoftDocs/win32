@@ -13,7 +13,6 @@ keywords:
 - reference for object model,audio item attributes
 - attributes,audio items
 - audio item attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Constants
 description: The topics in this section provide the reference specifications for Windows Touch Gestures constants.
 ms.assetid: 98FAD1C5-284A-4DE2-B3D2-B2B3153088DC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

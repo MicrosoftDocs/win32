@@ -1,9 +1,6 @@
 ---
 title: Service-DNS-Name-Type attribute
 description: Type of DNS Record to look up for this service. For example, A or SRV.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9a1ab2ae-b63f-4c70-b0df-de97c482bc5a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-DNS-Name-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_NumericSensor class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: DF50F3B7-1C12-4929-B9A7-82921CBD543B
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_NumericSensor Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -17,7 +11,7 @@ ms.date: 05/31/2018
 
 The [**CIM\_NumericSensor**](cim-numericsensor.md) class exposes the following methods.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

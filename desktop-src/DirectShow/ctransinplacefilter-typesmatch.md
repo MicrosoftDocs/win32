@@ -2,7 +2,6 @@
 Description: The TypesMatch method determines whether the input media type matches the output media type.
 ms.assetid: e814d532-70ce-4f9b-9ce3-172daea0dad5
 title: CTransInPlaceFilter.TypesMatch method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

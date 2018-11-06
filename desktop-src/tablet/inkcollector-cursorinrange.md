@@ -2,7 +2,6 @@
 Description: Occurs when a cursor enters the physical detection range (proximity) of the tablet context.
 ms.assetid: d05b240c-ba64-4008-b25d-e06c052eb5b0
 title: InkCollector.CursorInRange event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-AuthenticatedAt-DC attribute
 description: Forward link for ms-DS-AuthenticatedTo-Accountlist. Identifies which DC a user has authenticated to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 91d6f022-e48b-4e2a-9294-cbac3590760f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-AuthenticatedAt-DC
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

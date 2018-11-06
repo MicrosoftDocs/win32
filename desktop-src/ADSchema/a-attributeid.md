@@ -1,9 +1,6 @@
 ---
 title: Attribute-ID attribute
 description: The unique X.500 OID for identifying an attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e1cdf94b-9bb6-4cff-8555-da4cc9600174
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Attribute-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

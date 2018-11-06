@@ -2,7 +2,6 @@
 Description: Declaring Filter Information
 ms.assetid: ed3c1d44-ccef-4dde-819b-f5d4d3be6d1e
 title: Declaring Filter Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

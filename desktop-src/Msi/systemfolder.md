@@ -2,7 +2,6 @@
 Description: The installer sets the SystemFolder property to the full path of the System folder.
 ms.assetid: 23883638-8d3d-4c2a-8ebf-0c306cf01e05
 title: SystemFolder property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

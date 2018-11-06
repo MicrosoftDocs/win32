@@ -2,7 +2,6 @@
 Description: The GetType method retrieves the data type of the items in the collection.
 ms.assetid: 2e389090-74ef-47af-9490-a4820d925246
 title: IPortableDevicePropVariantCollection::GetType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

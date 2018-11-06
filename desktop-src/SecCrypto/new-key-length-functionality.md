@@ -2,7 +2,6 @@
 Description: The Base Provider used only 40-bit symmetric keys.
 ms.assetid: 7cfa6c7e-e30c-4829-9989-9567b42ad92f
 title: New Key-length Functionality
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

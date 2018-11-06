@@ -2,7 +2,6 @@
 Description: General Requirements for Application Development
 ms.assetid: 8ac88d6f-fc4b-4253-932d-aaa3c801b18f
 title: General Requirements for Application Development
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

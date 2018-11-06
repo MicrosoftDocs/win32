@@ -24,7 +24,6 @@ keywords:
 - metafile playlists,synchronization
 - Windows Media metafile playlists,synchronization
 - synchronization playlists,managing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

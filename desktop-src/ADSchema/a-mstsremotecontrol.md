@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Remote-Control attribute
 description: Terminal Services Remote Control specifies whether to allow remote observation or remote control of the user's Terminal Services session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 151e9327-c29e-413b-9485-4c408a67560f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Remote-Control
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

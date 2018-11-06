@@ -2,7 +2,6 @@
 Description: The ProductState property is a read-only property that returns the install state information for a product.
 ms.assetid: 9ae3bc86-aa13-41b3-b058-4037607f7dd5
 title: Installer.ProductState Property method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

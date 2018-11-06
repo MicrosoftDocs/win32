@@ -2,7 +2,6 @@
 Description: Default Printing Interface
 ms.assetid: 15096db9-a163-4278-beb2-8b7558d9e49b
 title: Default Printing Interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

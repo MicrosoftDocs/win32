@@ -2,7 +2,6 @@
 Description: An alternate is a potential word match for a recognition segment. A recognizer generates alternates and bases them on acceptable matches of the ink or audio input against a dictionary or factoid.
 ms.assetid: 69327f1d-f240-4b8a-8bee-0a96a0c425c2
 title: Alternates
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

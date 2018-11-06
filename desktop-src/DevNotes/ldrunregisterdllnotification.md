@@ -2,7 +2,6 @@
 Description: Cancels DLL load notification previously registered by calling the LdrRegisterDllNotification function.
 ms.assetid: 18c3a027-e3cb-4083-afdc-00f416a70d8c
 title: LdrUnregisterDllNotification function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

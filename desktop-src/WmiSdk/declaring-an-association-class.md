@@ -1,12 +1,8 @@
 ---
 Description: An association class is a special type of class that defines a relationship between two other classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 21fd6e39-5dd3-41b8-a2f5-0135a6637ce8
 ms.tgt_platform: multiple
 title: Declaring an Association Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

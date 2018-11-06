@@ -2,7 +2,6 @@
 title: Using WMI Windows PowerShell Cmdlets to Manage the BITS Compact Server
 description: Windows PowerShell provides a simple mechanism to connect to Windows Management Instrumentation (WMI) on a remote computer and manage the Background Intelligent Transfer Service (BITS) Compact Server.
 ms.assetid: fe174d2f-4ca0-431e-b1b8-1893ec54147a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

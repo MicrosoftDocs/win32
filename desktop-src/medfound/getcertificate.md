@@ -2,7 +2,6 @@
 Description: Gets a certificate for a display driver.
 ms.assetid: eceaf151-1dae-4ff0-9139-7f1789f6c682
 title: GetCertificate function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # GetCertificate function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This function is used by [Output Protection Manager](output-protection-manager.md) (OPM) to access functionality in the display driver. Applications should not call this function.
 
  

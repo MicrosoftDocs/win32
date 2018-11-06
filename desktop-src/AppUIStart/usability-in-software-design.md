@@ -2,7 +2,6 @@
 title: Usability in Software Design
 description: This topic introduces the concept of usability and why it should be an important part of any software design project.
 ms.assetid: 912b3224-e36d-44d6-98fa-a7f28e68a2d0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ACS-Minimum-Policed-Size attribute
 description: The ACS-Minimum-Policed-Size attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 27b4273a-a625-430b-baa0-a6037e2aac1e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Minimum-Policed-Size
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

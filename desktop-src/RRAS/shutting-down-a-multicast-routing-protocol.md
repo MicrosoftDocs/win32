@@ -2,7 +2,6 @@
 title: Shutting Down a Multicast Routing Protocol
 description: The following table summarizes a series of steps in a shutdown interaction between the multicast group manager and the routing protocol when the routing protocol is shutting down.
 ms.assetid: d868218d-7939-45d1-9e2f-3415c40f1a62
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

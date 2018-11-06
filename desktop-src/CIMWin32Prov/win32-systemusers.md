@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemUsers association WMI class relates a computer system and a user account on that system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0f6cba69-86f7-4795-a47d-6fb8ed0a00b8
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemUsers class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: This section illustrates how to use filled shape functions. The example uses the main window procedure from an application that enables the user to draw ellipses, rectangles, and rectangles with rounded corners.
 ms.assetid: c5fc3346-e5d7-49c0-979b-10d91ab965c5
 title: Using Filled Shapes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

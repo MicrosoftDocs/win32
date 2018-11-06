@@ -1,15 +1,11 @@
 ---
 title: Security Contexts and Active Directory Domain Services
 description: When an application binds to an Active Directory Domain Controller (DC), it does so in the security context of a security principal, which can be a user or an entity such as a computer or a system service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7ad0acbe-f81b-46d6-be87-3526b0bfbd1b
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Active Directory ,security contexts
 - security contexts Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

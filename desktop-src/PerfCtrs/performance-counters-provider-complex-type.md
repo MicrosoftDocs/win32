@@ -2,7 +2,6 @@
 Description: Defines a provider and the counters that it provides.
 ms.assetid: 85299b01-5679-40f8-8aec-5c2ff8d7cfc8
 title: provider Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

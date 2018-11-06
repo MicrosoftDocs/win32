@@ -2,7 +2,6 @@
 title: Codes in FACILITY_ITF
 description: Codes in FACILITY\_ITF
 ms.assetid: 1f9f7b2c-a4e4-41c0-9ba5-b8bbf722e077
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Class-Display-Name attribute
 description: The object name to be displayed in dialog boxes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8170f39d-2c27-4d20-904a-75bbcdbcb313
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Class-Display-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Microsoft Locator is the default name service. The RPC run-time lib
 ms.assetid: 8481de50-4e72-432d-aef7-524f18f5c9c4
 keywords:
 - Remote Procedure Call RPC , tasks, using Microsoft Locator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

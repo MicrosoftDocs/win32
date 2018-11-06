@@ -2,7 +2,6 @@
 Description: Render states define set-up states for all kinds of vertex and pixel processing.
 ms.assetid: 2fd56388-f3bd-409f-876c-ae893840b623
 title: D3DRENDERSTATETYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type:

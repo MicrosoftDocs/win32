@@ -2,7 +2,6 @@
 title: ExtraData Property
 description: ExtraData Property
 ms.assetid: 504fb615-5b99-4023-af26-b5b051a276d8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

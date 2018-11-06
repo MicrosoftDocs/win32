@@ -1,9 +1,6 @@
 ---
 title: DSA-Signature attribute
 description: The DSA-Signature of an object is the Invocation-ID of the last directory to modify the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7ae65f15-b0c9-4d73-8a65-92c23d0a239b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DSA-Signature
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

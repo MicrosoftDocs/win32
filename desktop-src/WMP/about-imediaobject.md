@@ -13,7 +13,6 @@ keywords:
 - digital signal processing plug-ins,IMediaObject interface
 - DSP plug-ins,IMediaObject interface
 - IMediaObject interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

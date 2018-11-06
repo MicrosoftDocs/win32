@@ -2,7 +2,6 @@
 Description: Sends the specified message to a window or windows.
 ms.assetid: aed898b3-bb48-4da2-aee7-834ae65a2d51
 title: '_SendMessage function'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

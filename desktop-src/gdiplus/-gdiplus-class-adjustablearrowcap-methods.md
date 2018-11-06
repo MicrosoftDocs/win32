@@ -2,7 +2,6 @@
 Description: This topic lists the methods of the AdjustableArrowCap class. For a complete class listing, see AdjustableArrowCap.
 ms.assetid: 9d5bf8a5-2de0-4dfc-9d8d-a8e1de64a346
 title: AdjustableArrowCap Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Gets the remote access rights for a list of individual users on computers running obsolete versions of Windows , where access control through Windows security descriptors is not available.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 79a596db-5f85-4664-8989-f309286eca0d
 ms.tgt_platform: multiple
 title: '__SystemSecurity::Get9XUserList method'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

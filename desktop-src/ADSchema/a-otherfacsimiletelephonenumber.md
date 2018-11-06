@@ -1,9 +1,6 @@
 ---
 title: Phone-Fax-Other attribute
 description: A list of alternate facsimile numbers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b5e4ef38-ce91-4943-bad5-c299f83387d3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Phone-Fax-Other
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

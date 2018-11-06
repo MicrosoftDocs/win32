@@ -2,7 +2,6 @@
 Description: This section contains reference information for the DirectX (.x) file format.
 ms.assetid: 2d386b0b-279d-477e-9824-637500557c2e
 title: X File Format Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

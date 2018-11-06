@@ -2,7 +2,6 @@
 Description: The GetChallenge method returns a challenge from the smart card.
 ms.assetid: a114ebfd-831f-4c6b-8156-ce631a732c9b
 title: ISCardAuth::GetChallenge method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

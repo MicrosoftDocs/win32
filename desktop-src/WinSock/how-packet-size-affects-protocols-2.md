@@ -2,7 +2,6 @@
 Description: Media packet size issues discussed in the topic, About Media Packet Size, affect the various PF\_IPX protocols differently.
 ms.assetid: 7f0643b8-6bb2-4dbb-b306-d9b2e0d0e03c
 title: How Packet Size Affects Protocols
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

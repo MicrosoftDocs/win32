@@ -1,12 +1,8 @@
 ---
 title: About NPS Extensions
 description: This section describes how to implement DLLs to extend the functionality of NPS. It describes the interaction between NPS and the DLLs, and presents some design considerations regarding the DLLs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

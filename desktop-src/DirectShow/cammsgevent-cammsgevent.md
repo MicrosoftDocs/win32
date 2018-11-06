@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: 7871a624-70c0-4f21-b62a-2c4c2eaa762b
 title: CAMMsgEvent.CAMMsgEvent constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

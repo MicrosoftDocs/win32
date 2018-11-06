@@ -2,7 +2,6 @@
 Description: All users have read access to the list of processes in the system and there are a number of different functions that enumerate the active processes. The function you should use will depend on factors such as desired platform support.
 ms.assetid: 4c73fb10-7ee8-4d8a-9cdb-a2ae59aef5bd
 title: Process Enumeration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

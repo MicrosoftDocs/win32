@@ -1,12 +1,8 @@
 ---
 title: ITSRemoteProgram3 properties
 description: The ITSRemoteProgram3 interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8A023C91-8A8E-4B49-A199-132E6A542662
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

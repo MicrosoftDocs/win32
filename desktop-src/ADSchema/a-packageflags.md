@@ -1,9 +1,6 @@
 ---
 title: Package-Flags attribute
 description: A bitfield that contains the deployment state flags for an application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5b6cfed5-db04-438e-912b-60dce7a16409
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Package-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The event type class for the log file header event. This class contains information about the event tracing session.
 ms.assetid: 3d0c4044-da06-4850-95c4-99b4ea28fcd9
 title: EventTrace_Header class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

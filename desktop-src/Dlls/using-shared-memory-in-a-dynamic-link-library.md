@@ -2,7 +2,6 @@
 Description: The following example demonstrates how the DLL entry-point function can use a file-mapping object to set up memory that can be shared by processes that load the DLL.
 ms.assetid: ab751ab1-3b40-4111-b724-9f8676b722a3
 title: Using Shared Memory in a Dynamic-Link Library
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

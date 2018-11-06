@@ -2,7 +2,6 @@
 Description: Overview of exposing the contents of a window for the Tablet PC.
 ms.assetid: fb8319ee-28f4-483a-bfca-1cded4594d9a
 title: Exposing the Contents of a Window
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - plug-ins,conversion
 - conversion plug-ins,programming reference
 - reference for conversion plug-ins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

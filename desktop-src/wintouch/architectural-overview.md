@@ -12,7 +12,6 @@ keywords:
 - manipulations,about
 - inertia,about
 - manipulation processor,architectural overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

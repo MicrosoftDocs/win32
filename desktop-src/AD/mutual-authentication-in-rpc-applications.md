@@ -1,15 +1,11 @@
 ---
 title: Mutual Authentication in RPC Applications
 description: RPC services can use service connection points to publish themselves, or they can use the RPC name service (RpcNs) APIs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9f575aef-0a4b-4e1b-8ea9-5f40e6c3d9c7
 ms.tgt_platform: multiple
 keywords:
 - Mutual Authentication in RPC Applications AD
 - Active Directory, Using, Mutual Authentication, RPC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

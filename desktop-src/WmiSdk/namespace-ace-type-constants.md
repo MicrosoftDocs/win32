@@ -1,12 +1,8 @@
 ---
 Description: The Type field in an access control entry (ACE) that determines whether the ACE is an ACE that allows access or denies access.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a78c72f7-0bc0-4bda-9012-4abe45342d8d
 ms.tgt_platform: multiple
 title: Namespace ACE Type Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

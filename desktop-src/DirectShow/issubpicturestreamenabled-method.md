@@ -2,7 +2,6 @@
 Description: The IsSubpictureStreamEnabled method retrieves a value indicating whether the specified subpicture stream is enabled in the current title.
 ms.assetid: c6436f77-ca94-464f-9336-f485f5d5d199
 title: IsSubpictureStreamEnabled Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

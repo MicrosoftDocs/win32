@@ -1,15 +1,11 @@
 ---
 title: Querying for Groups in a Domain
 description: Groups can be placed in any container or organizational unit in a domain as well as the root of the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 338a93dd-445d-4f74-a6d6-e5c8ba2e765e
 ms.tgt_platform: multiple
 keywords:
 - Querying for Groups in a Domain AD
 - Groups AD , Querying for Groups in a Domain
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

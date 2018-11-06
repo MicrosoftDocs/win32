@@ -1,9 +1,6 @@
 ---
 title: ITSRemoteProgram RemoteProgramMode property
 description: The Windows Server 2008 R2 RemoteApp mode.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9ebdf966-db9c-4a14-8469-f8b153c6ea78
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

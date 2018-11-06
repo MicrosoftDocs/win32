@@ -2,7 +2,6 @@
 Description: The SetRect function creates a rectangle, the CopyRect function makes a copy of a given rectangle, and the SetRectEmpty function creates an empty rectangle.
 ms.assetid: 982d6283-673b-41a1-abc7-10ef87ff3c6f
 title: Rectangle Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

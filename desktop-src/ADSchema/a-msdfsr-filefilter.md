@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-FileFilter attribute
 description: Contains the filter string that is used to filter files.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e9c57328-e7c0-4149-aa1d-64603844e001
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-FileFilter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

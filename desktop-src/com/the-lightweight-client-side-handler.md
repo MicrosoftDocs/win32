@@ -2,7 +2,6 @@
 title: The Lightweight Client-Side Handler
 description: Lightweight client-side handlers allow you to create general client-side handlers of any size, to help you do any kind of standard task.
 ms.assetid: b712237c-55d7-4f52-9cf6-19c6e5fb3182
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

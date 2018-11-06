@@ -2,7 +2,6 @@
 title: Commands and Resources
 description: Reference documentation for Command and resource markup elements in the Windows Ribbon framework.
 ms.assetid: b98ed90e-d2a6-4fdb-bcf9-962f8b41c313
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

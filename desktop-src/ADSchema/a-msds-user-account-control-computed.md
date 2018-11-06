@@ -1,9 +1,6 @@
 ---
 title: ms-DS-User-Account-Control-Computed attribute
 description: msDS-User-Account-Control-Computed is much like userAccountControl, but the attribute's value can contain additional bits that are not persisted.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4c635c04-8d2e-41b4-809c-58ce64271a02
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-User-Account-Control-Computed
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

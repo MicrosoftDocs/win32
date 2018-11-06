@@ -2,7 +2,6 @@
 title: The IAccessibleEx Interface
 description: Controls that do not have a Microsoft UI Automation provider, but that implement IAccessible, can easily be upgraded to provide some UI Automation functionality by implementing the IAccessibleEx interface.
 ms.assetid: 5523156e-c9b8-4aad-b568-f3b3c402d33e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

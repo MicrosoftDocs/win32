@@ -2,7 +2,6 @@
 Description: Providers of shared components should consider making their component available as a side-by-side assembly if one or more of the following cases are true.
 ms.assetid: 543451cd-0608-4302-a85b-ddce79a5cfd6
 title: Should you provide a shared component as a side-by-side assembly?
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

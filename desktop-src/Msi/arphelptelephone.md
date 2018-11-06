@@ -2,7 +2,6 @@
 Description: The ARPHELPTELEPHONE property is technical support phone numbers. Product maintenance applets display this value.
 ms.assetid: 4547a419-3bcc-4274-9eb3-96c7987a4ebf
 title: ARPHELPTELEPHONE property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

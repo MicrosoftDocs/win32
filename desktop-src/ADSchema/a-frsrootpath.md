@@ -1,9 +1,6 @@
 ---
 title: FRS-Root-Path attribute
 description: Path to root of replicated file system tree.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: df4c2928-9bb7-4228-a3d3-057e593167d1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Root-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

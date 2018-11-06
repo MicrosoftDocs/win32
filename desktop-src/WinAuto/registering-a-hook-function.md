@@ -2,7 +2,6 @@
 title: Registering a Hook Function
 description: Client applications receive WinEvents in a WinEventProc callback function. The actions performed by the callback function are defined by the application, but the syntax must be as specified in the prototype.
 ms.assetid: 7e999335-6a41-4d22-82ef-1a8dd6cb656e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

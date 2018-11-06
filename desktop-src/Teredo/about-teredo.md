@@ -2,7 +2,6 @@
 title: About Teredo
 description: About Teredo
 ms.assetid: 86dfc138-765f-4908-9c21-30eb1d9a16ec
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

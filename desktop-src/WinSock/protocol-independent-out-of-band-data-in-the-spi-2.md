@@ -2,7 +2,6 @@
 Description: Out-of-Band (OOB) data is a logically independent transmission channel associated with a pair of connected stream sockets.
 ms.assetid: 30f667cd-5be9-45f2-9d55-bff04834078f
 title: Protocol IndependentOut-of-Band Data in the SPI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

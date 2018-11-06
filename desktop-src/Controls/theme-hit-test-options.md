@@ -2,7 +2,6 @@
 title: Hit Test Options
 description: This section lists the option values that are used with the dwOptions parameter of the HitTestThemeBackground function. For a list of the values returned when you specify one of these options, see Hit Test Return Values.
 ms.assetid: a0d5c6c8-bb50-46e1-98ae-2374842344c6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

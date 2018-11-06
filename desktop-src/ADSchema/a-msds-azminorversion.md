@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Minor-Version attribute
 description: Minor version number for AzRoles.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 90e12e89-62cf-4e69-b497-d283d21ccb2c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Minor-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

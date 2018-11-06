@@ -11,7 +11,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),closing devices
 - MIDI services,closing devices
 - closing MIDI devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

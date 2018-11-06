@@ -2,7 +2,6 @@
 Description: The SelfUnregModules action unregisters all modules listed in the SelfReg table that are scheduled to be uninstalled. The installer does not self-register .EXE files.
 ms.assetid: fa5a5abb-ecd4-434c-b176-83cdca280a13
 title: SelfUnregModules Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

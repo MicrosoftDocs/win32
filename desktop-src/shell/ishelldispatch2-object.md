@@ -2,7 +2,6 @@
 Description: Extends the IShellDispatch object with a variety of new functionality.
 ms.assetid: 74687929-0777-479b-9853-2b0cf4b6adc9
 title: IShellDispatch2 object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: meetingType attribute
 description: The type of meeting being held.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d0095be1-0b02-4be4-8324-694ffe26094b
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingType
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

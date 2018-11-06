@@ -1,9 +1,6 @@
 ---
 title: ITsSbResourcePluginStoreEx ReleaseTargetLock method
 description: Releases a lock on a target.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ab2ae9f3-2d38-4b31-9889-58297c574bd4
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - SbTsV.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

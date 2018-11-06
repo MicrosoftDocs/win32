@@ -1,12 +1,8 @@
 ---
 Description: Semisynchronous calls are the recommended means to call WMI methods, such as IWbemServices::ExecMethod and provider methods, such as the Chkdsk Method of the Win32\_LogicalDisk Class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3d5ddd77-19f7-42d0-b8ca-a0a11f6b3f0f
 ms.tgt_platform: multiple
 title: Making a Semisynchronous Call with C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

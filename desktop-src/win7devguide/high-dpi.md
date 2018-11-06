@@ -2,7 +2,6 @@
 title: High DPI
 description: .
 ms.assetid: 476fe65c-2acd-4a7a-8a76-72d9f010b772
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -11,7 +11,6 @@ keywords:
 - reference for OpenGL,rectangle functions
 - glRect functions
 - rectangle functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Returns the name of the file that contains the external key.
 ms.assetid: c02d8dca-f30b-4ab5-a770-1ec6ac0b81c6
 title: GetExternalKeyFileName method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

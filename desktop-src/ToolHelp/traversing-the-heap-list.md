@@ -2,7 +2,6 @@
 title: Traversing the Heap List
 description: The following example obtains a list of heaps for the current process.
 ms.assetid: cfa1d2a4-fec0-4089-9351-e0a26f9ecfe3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

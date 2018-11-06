@@ -18,7 +18,6 @@ keywords:
 - Windows Media Player plug-ins,Windows Media Player online stores
 - Windows Media Player plug-ins,building
 - building plug-ins,type 2 online stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

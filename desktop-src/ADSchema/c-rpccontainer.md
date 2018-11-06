@@ -1,9 +1,6 @@
 ---
 title: Rpc-Container class
 description: The default container for RPC endpoints.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 23cbe050-8812-4bba-85de-249ccd594780
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Rpc-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

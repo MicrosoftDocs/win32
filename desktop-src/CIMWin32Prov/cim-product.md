@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Product class is a concrete class that represents a collection of physical elements, software features and, other products, acquired as a unit.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: beb20f61-de39-4221-8d29-4727104518d5
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Product class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -33,7 +27,7 @@ api_location:
 
 The **CIM\_Product** class is a concrete class that represents a collection of physical elements, software features and, other products, acquired as a unit. Acquisition implies an agreement between the supplier and consumer, which can have implications on product licensing, support, and warranty.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

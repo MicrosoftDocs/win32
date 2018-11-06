@@ -2,7 +2,6 @@
 Description: Identifies whether a location or a library is search only.
 ms.assetid: a731ff53-65c2-4d31-adae-861e1fde26a2
 title: System.IsSearchOnlyItem
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

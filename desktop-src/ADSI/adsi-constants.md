@@ -1,9 +1,6 @@
 ---
 title: ADSI Constants
 description: The following table lists constants defined and used in Active Directory Service Interfaces (ADSI).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: facc00e8-2ecd-4428-bddd-cfa1ff1b8538
 ms.tgt_platform: multiple
 keywords:
@@ -13,7 +10,6 @@ keywords:
 - ADS_EXT_MINEXTDISPID
 - ADS_VLV_RESPONSE
 - DBPROPFLAGS_ADSISEARCH
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

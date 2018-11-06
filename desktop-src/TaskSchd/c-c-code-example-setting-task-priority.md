@@ -4,7 +4,6 @@ description: This example sets the priority of a test task and then saves the ta
 ms.assetid: 498dc438-3703-4d5c-a8b1-609d5776942d
 keywords:
 - setting task properties Task Scheduler , priority
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

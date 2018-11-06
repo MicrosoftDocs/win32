@@ -1,9 +1,6 @@
 ---
 title: Trust-Type attribute
 description: The type of trust, for example, Windows NT or MIT.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ad3640cd-d634-4ec1-8be8-1fb8272e4b23
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Trust-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

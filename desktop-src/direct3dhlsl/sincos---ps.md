@@ -2,7 +2,6 @@
 title: sincos - ps
 description: Computes sine and cosine, in radians.
 ms.assetid: 639237ea-1b7a-4959-9093-78f134c11863
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Video and Image Functions
 ms.assetid: 02401edc-362b-4f6c-b10b-c46b30b3ebe7
 title: Video and Image Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

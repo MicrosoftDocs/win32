@@ -1,12 +1,8 @@
 ---
 Description: The SWbemSink object is implemented by client applications to receive the results of asynchronous operations and event notifications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a90777ef-fa26-4bfb-b196-c083a0c92a29
 ms.tgt_platform: multiple
 title: SWbemSink object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

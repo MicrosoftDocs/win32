@@ -13,7 +13,6 @@ keywords:
 - profiles,creating ASF files
 - profiles,writing ASF files
 - profiles,ASF file creation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

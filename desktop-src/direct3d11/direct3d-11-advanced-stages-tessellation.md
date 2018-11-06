@@ -2,7 +2,6 @@
 title: Tessellation Stages
 description: The Direct3D 11 runtime supports three new stages that implement tessellation, which converts low-detail subdivision surfaces into higher-detail primitives on the GPU.
 ms.assetid: 4ad2fd3e-6e1a-4326-8469-3198acf931dc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

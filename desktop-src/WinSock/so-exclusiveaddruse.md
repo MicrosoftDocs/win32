@@ -2,7 +2,6 @@
 Description: The SO\_EXCLUSIVEADDRUSE socket option prevents other sockets from being forcibly bound to the same address and port.
 ms.assetid: ce0d8188-54be-46e8-8753-d0680f690b84
 title: SO_EXCLUSIVEADDRUSE socket option
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

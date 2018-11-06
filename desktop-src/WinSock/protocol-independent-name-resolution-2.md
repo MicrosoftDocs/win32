@@ -2,7 +2,6 @@
 Description: Protocol-independent name resolution and Windows Sockets (Winsock).
 ms.assetid: f55219b9-1518-4b49-a0da-6a3fa025cca3
 title: Protocol-Independent Name Resolution
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

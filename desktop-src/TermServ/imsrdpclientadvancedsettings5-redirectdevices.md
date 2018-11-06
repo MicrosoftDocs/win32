@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings5 RedirectDevices property
 description: Sets or retrieves the configuration for device redirection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bf989ca0-5c79-4a73-a32b-51ef97ca0dff
 ms.tgt_platform: multiple
 keywords:
@@ -35,7 +32,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

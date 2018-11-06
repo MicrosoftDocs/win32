@@ -2,7 +2,6 @@
 title: Property Set Serialization
 description: There are two versions of the property set serialization format.
 ms.assetid: 10544118-5e80-47e2-b75b-c1a43be15b2e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

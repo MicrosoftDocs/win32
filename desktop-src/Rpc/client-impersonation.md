@@ -2,7 +2,6 @@
 title: Client Impersonation
 description: Impersonation is useful in a distributed computing environment when servers must pass client requests to other server processes or to the operating system.
 ms.assetid: 49d833d8-c61c-4746-91cf-c0753847cd3d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

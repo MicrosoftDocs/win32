@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property of type Win32\_SecurityDescriptor.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 05D94627-0B1F-443E-A5C0-D7FC95318250
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySecurityDescriptor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

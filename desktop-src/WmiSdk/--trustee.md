@@ -1,12 +1,8 @@
 ---
 Description: The \_\_Trustee abstract system class represents a trustee. Either a name or an SID (byte array) can be used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 92d17c7c-ebca-4dd0-80d8-6edd999ca394
 ms.tgt_platform: multiple
 title: '__Trustee class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

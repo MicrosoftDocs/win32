@@ -10,7 +10,6 @@ keywords:
 - audio mixers,controls
 - mixers,controls
 - mixers,audio lines
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

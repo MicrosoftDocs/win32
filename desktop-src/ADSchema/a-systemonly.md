@@ -1,9 +1,6 @@
 ---
 title: System-Only attribute
 description: A Boolean value that specifies whether only Active Directory can modify the class. System-only classes can only be created or deleted by the Directory System Agent.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 78d2da1f-bdf1-452b-bc64-78088f3630dd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - System-Only
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

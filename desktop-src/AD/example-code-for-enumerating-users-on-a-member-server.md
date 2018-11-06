@@ -1,14 +1,10 @@
 ---
 title: Example Code for Enumerating Users on a Member Server
 description: This topic includes code examples that enumerate users on a member server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a856281a-7f84-44d0-9123-b27fda56e0ea
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , enumerating users on a member server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

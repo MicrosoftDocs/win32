@@ -2,7 +2,6 @@
 Description: Using the DirectShow EVR Filter
 ms.assetid: 4d85aed0-4b11-4c5f-bfc0-cad0a7d2f490
 title: Using the DirectShow EVR Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

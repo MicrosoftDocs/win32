@@ -2,7 +2,6 @@
 Description: Migrates a virtual system or the storage of a virtual system to a destination host specified by a hostname.
 ms.assetid: 796b043c-5ac9-4c69-9838-0f415be5a63e
 title: MigrateVirtualSystemToHost method of the Msvm_VirtualSystemMigrationService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

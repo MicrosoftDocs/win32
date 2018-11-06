@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable3 PromptForCredentials property
 description: Specifies or retrieves whether the prompt for credentials dialog is enabled for the connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 252ec5bd-bd52-40d4-ae48-b2c00c0720c0
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

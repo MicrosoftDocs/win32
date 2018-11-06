@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemDesktop association WMI class relates a computer system and its desktop configuration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2b024660-d707-4463-8207-73df74bfa7d6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemDesktop class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

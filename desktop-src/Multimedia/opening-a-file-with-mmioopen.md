@@ -13,7 +13,6 @@ keywords:
 - I/O (input and output),mmioOpen function
 - mmioOpen function
 - opening I/O files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

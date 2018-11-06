@@ -2,7 +2,6 @@
 Description: Modifies virtual switch settings.
 ms.assetid: 8d323578-990f-483c-8515-8a21479767b1
 title: ModifySystemSettings method of the Msvm_VirtualEthernetSwitchManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 201 through 210.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a0e27936-d7b3-4999-a709-85138f4cacaa
 ms.tgt_platform: multiple
 title: Errors 201 through 210
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Active Directory Service Interfaces Architecture
 description: Many directory services are hierarchical and thus lend themselves to a hierarchical object model. This section uses COM object representations to illustrate various ADSI features.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef545aea-a7a5-4f65-9133-e68b94a86311
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Service Interfaces Architecture ADSI
 - ADSI ADSI , about, architecture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

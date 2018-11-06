@@ -5,7 +5,6 @@ ms.assetid: 28c1656e-93a2-441b-8946-18017e0b2b29
 keywords:
 - porting 32-bit applications to 64-bit Windows 64-bit Windows Programming
 - 64-bit Windows programming guide 64-bit Windows Programming , porting guidelines
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

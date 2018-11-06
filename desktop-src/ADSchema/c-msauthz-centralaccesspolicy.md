@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Central-Access-Policy class
 description: A class that defines Central Access Policy objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea0c9f84-cb61-49ec-8128-eddc61749d7d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Central-Access-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

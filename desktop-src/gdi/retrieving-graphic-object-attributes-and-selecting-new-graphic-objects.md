@@ -2,7 +2,6 @@
 Description: An application can retrieve the attributes for a pen, brush, palette, font, or bitmap by calling the GetCurrentObject and GetObject functions.
 ms.assetid: 09d8412f-a67d-48d5-9c04-9233dee43cf9
 title: Retrieving Graphic-Object Attributes and Selecting New Graphic Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

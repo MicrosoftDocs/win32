@@ -2,7 +2,6 @@
 title: C-Style Strings
 description: A WinSNMP application can use NULL-terminated C-style strings to convert entity and object identifier (OID) objects to and from their string representations.
 ms.assetid: df04071c-df46-410b-ad92-6adecbfcd454
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

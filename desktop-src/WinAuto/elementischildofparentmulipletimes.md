@@ -2,7 +2,6 @@
 title: ElementIsChildOfParentMulipleTimes
 description: ElementIsChildOfParentMulipleTimes
 ms.assetid: B966ABE0-5109-4DAD-8125-EB4A3B3A5F61
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

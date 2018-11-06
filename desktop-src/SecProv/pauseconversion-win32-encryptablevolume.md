@@ -2,7 +2,6 @@
 Description: Pauses the encryption or decryption of a volume.
 ms.assetid: 3c365299-f0e1-480e-ad96-c91bb4108bb2
 title: PauseConversion method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

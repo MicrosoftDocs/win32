@@ -2,7 +2,6 @@
 Description: In Windows Installer versions 1.0 and 1.1 the Path property is always the empty string. Future versions may use this value to return the path to the file or directory that could not be created.
 ms.assetid: b79dd347-acda-47d7-aa3b-c0f9a6ca1d3b
 title: Error.Path property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

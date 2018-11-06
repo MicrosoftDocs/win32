@@ -2,7 +2,6 @@
 Description: Usage options that identify how resources are to be used.
 ms.assetid: c8823c39-8f17-441c-a42b-de3d7ec02f75
 title: D3DUSAGE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

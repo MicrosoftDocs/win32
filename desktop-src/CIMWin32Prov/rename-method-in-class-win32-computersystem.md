@@ -1,14 +1,8 @@
 ---
 Description: Renames a computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9d338ebe-caf0-42c4-995f-fd750e5664df
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Rename method of the Win32_ComputerSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

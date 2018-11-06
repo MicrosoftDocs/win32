@@ -2,7 +2,6 @@
 title: NDF Helper Class Extension Examples
 description: These examples apply only when developers believe it is necessary to extend the functionality of a Microsoft NDF Helper Class that is declared to be extensible.
 ms.assetid: 048e42f5-66d8-41c6-9e97-8da68c9ad151
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

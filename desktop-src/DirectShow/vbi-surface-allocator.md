@@ -2,7 +2,6 @@
 Description: VBI Surface Allocator
 ms.assetid: 51c73a25-1112-4fb4-a45f-967c6a1b5c55
 title: VBI Surface Allocator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

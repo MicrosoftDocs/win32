@@ -2,7 +2,6 @@
 Description: Moves an existing file or directory, including its children.
 ms.assetid: 1c533b02-6674-4390-bc49-6420403778a8
 title: '_MoveFile function'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

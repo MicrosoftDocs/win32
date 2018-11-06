@@ -2,7 +2,6 @@
 Description: The BIT STRING data type is encoded into a TLV triplet that begins with a Tag byte of 0x03.
 ms.assetid: 7464dd20-5e79-4ca1-a6ae-9b706e9cb925
 title: BIT STRING
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

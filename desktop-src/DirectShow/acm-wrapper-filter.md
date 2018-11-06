@@ -2,7 +2,6 @@
 Description: ACM Wrapper Filter
 ms.assetid: f3cd8e90-8949-482a-8ada-47711f6c935f
 title: ACM Wrapper Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

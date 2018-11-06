@@ -2,7 +2,6 @@
 Description: DVD Region Change Support in Windows
 ms.assetid: db3e5a03-ca92-48c6-a4fe-575975996cd4
 title: DVD Region Change Support in Windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Dynamic Authentication Configuration
 description: Applications can change authentication configurations on a URL Group or server session at any time.
 ms.assetid: 8a5cc119-0427-487d-a155-74c14e2104d4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

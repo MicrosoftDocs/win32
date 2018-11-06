@@ -1,9 +1,6 @@
 ---
 title: SetSessionTimeout method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the SessionTimeout and SessionTimeoutAction properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 11491c97-3ef8-46c1-9504-696c613e374e
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

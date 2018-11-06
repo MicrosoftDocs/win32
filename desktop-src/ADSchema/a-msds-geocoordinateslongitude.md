@@ -1,9 +1,6 @@
 ---
 title: ms-DS-GeoCoordinates-Longitude attribute
 description: Geo-coordinates for location services, specifically, longitude (in microdegrees) of the office or conference room.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e2ac1833-9a5f-42fb-b338-e26937419f69
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-GeoCoordinates-Longitude
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

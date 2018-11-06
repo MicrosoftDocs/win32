@@ -2,7 +2,6 @@
 Description: Constructor method. The constructor locks the specified critical section object.
 ms.assetid: 5a0d74f9-bb99-4922-9a92-2e7c1863421f
 title: CAutoLock.CAutoLock constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

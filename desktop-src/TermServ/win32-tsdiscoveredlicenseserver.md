@@ -1,9 +1,6 @@
 ---
 title: Win32_TSDiscoveredLicenseServer class
 description: Provides details about the discovered Remote Desktop license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 88523f30-26ad-4f78-a214-f54b7bc1c676
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

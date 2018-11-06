@@ -2,7 +2,6 @@
 title: Creating a Service
 description: Creating a Web service is greatly simplified in WWSAPI by the Service Model API and the WsUtil.exe tool.
 ms.assetid: 3536d1c6-6179-4f69-9cc8-27fe6ae30826
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

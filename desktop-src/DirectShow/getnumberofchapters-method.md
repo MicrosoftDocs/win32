@@ -2,7 +2,6 @@
 Description: The GetNumberOfChapters method retrieves the number of chapters in the specified title.
 ms.assetid: d1291f6d-9296-486f-adad-d8819a4e54d6
 title: GetNumberOfChapters Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: An abstract class for subclasses that describes the abilities of an associated managed element, and the potential of the abilities.
 ms.assetid: f0ffddf5-99d4-49be-ac0a-c2cfd4a92d96
 title: CIM_Capabilities class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -75,7 +74,7 @@ Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157), [**Override*
 
 Uniquely and opaquely identifies an instance of this class within the scope of the containing namespace.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > In order to ensure uniqueness within the namespace, the value of the **InstanceID** property should be constructed in the following pattern: *OrgID*:*LocalID*
 >

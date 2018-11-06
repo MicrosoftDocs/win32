@@ -2,7 +2,6 @@
 Description: The Windows Installer installs and removes blocks of resources referred to as Windows Installer Components. For more information, see Core Tables Group and Components and Features.
 ms.assetid: e51dffed-d1cb-4a12-8615-0c0f612f993b
 title: Specifying Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

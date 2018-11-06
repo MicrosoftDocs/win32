@@ -1,12 +1,8 @@
 ---
 Description: Serves as the parent class for classes that are used to register class and instance providers in WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f7c569be-8927-42a4-b96a-abe4b7e3e23c
 ms.tgt_platform: multiple
 title: '__ObjectProviderRegistration class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Uses a provided external key to access the contents of a data volume.
 ms.assetid: e383767e-8557-469c-bc44-f67591c46f23
 title: UnlockWithExternalKey method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

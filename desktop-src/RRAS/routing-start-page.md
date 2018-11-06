@@ -7,7 +7,6 @@ keywords:
 - Routing RAS , start page
 - RRAS RAS
 - RRAS RAS , See Routing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Refresh-Group-Cache extended right
 description: This is for no GC logon. No GC logon relies on caching group memberships, and this control access right is used to grant administrators and operators permission rights to cause an immediate refresh of the cache, contacting an available GC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1db49a92-ccf8-4087-ac79-f4c1bcea6aa4
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Refresh-Group-Cache
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

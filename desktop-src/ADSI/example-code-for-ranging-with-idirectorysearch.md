@@ -1,15 +1,11 @@
 ---
 title: Example Code for Ranging with IDirectorySearch
 description: The following code example uses ranging to retrieve the members of a group using the IDirectorySearch interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 13aba22f-c649-4dda-804f-01ba493cd6d7
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Ranging with IDirectorySearch ADSI
 - Range Retrieval ADSI , Example code, Using IDirectorySearch
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

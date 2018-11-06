@@ -1,12 +1,8 @@
 ---
 Description: The CThreadBase class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 94759702-D267-4BC4-80C5-13ABD2D1EFF2
 ms.tgt_platform: multiple
 title: CThreadBase Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

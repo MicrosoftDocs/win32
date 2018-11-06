@@ -1,12 +1,8 @@
 ---
 Description: Represents a system event.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 84099483-03e4-4c21-b680-f0975b18c1f6
 ms.tgt_platform: multiple
 title: '__SystemEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

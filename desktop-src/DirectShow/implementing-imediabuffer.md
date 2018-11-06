@@ -2,7 +2,6 @@
 Description: Implementing IMediaBuffer
 ms.assetid: bde7cef8-f43e-4a11-8b77-fed5585d390a
 title: Implementing IMediaBuffer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

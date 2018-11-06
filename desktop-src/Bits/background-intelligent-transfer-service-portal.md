@@ -9,7 +9,6 @@ keywords:
 - downloading files BITS
 - background file transfer BITS
 - uploading files BITS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/09/2018
 ---

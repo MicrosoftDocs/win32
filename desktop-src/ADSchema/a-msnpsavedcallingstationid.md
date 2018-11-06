@@ -1,9 +1,6 @@
 ---
 title: msNPSavedCallingStationID attribute
 description: The msNPSavedCallingStationID attribute is used internally.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aa967146-d736-421d-9d03-0be5ebde88e5
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msNPSavedCallingStationID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

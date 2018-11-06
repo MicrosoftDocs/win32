@@ -1,14 +1,8 @@
 ---
 Description: The Invoke method of the CIM\_SettingCheck class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context is described by the non-abstract CIM\_Check subclasses. This method is inherited from CIM\_Check.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b2a9baea-cc5c-43d9-a93c-e3a77823d705
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_SettingCheck class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Invoke** method of the [**CIM\_SettingCheck**](cim-settingcheck.md) class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context is described by the non-abstract [**CIM\_Check**](cim-check.md) subclasses. This method is inherited from **CIM\_Check**.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

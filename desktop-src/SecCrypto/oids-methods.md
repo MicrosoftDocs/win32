@@ -2,7 +2,6 @@
 Description: The OIDs object exposes the following methods.
 ms.assetid: ED5FB02A-6052-4292-B9C0-489BEBE36E8C
 title: OIDs Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -9,7 +9,6 @@ keywords:
 - desktop applications,notifications
 - creating Windows Media Device Manager applications,notifications
 - notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

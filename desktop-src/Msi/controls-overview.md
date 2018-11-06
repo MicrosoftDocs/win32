@@ -2,7 +2,6 @@
 Description: Windows Installer implements a number of standard controls that package authors can place onto dialog boxes. However, not all standard Microsoft Windows controls are available, and custom controls cannot be created for use with the installer UI.
 ms.assetid: 28416905-ce9a-4bb7-97b7-646c01f370ab
 title: Controls Overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

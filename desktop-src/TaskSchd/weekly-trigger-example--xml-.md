@@ -2,7 +2,6 @@
 title: Weekly Trigger Example (XML)
 description: The XML in this example defines a task that starts Notepad on a bi-weekly basis.
 ms.assetid: 1911e8b1-2583-440c-a6ed-d71080b60987
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

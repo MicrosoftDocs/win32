@@ -2,7 +2,6 @@
 Description: Constants
 ms.assetid: 9c800d17-1bca-4fcb-940b-3477dc700ce3
 title: Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

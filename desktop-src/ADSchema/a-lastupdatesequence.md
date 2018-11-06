@@ -1,9 +1,6 @@
 ---
 title: Last-Update-Sequence attribute
 description: This attribute contains the update sequence number for the last item in the class store that was changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fd434b8d-31b4-45f7-8d8f-048f61cabb92
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Last-Update-Sequence
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

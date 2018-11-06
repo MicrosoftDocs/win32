@@ -1,14 +1,10 @@
 ---
 title: Example Code for Searching for Users
 description: The following code examples search for users in the domain of the user account under which the calling process is running.C++ ExampleVisual Basic Example
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 53bbd57b-0bd2-4acb-a69f-89764b85e257
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , searching for users
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

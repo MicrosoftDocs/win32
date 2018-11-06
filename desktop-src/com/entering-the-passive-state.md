@@ -2,7 +2,6 @@
 title: Entering the Passive State
 description: Entering the Passive State
 ms.assetid: 544760e6-1706-4384-8e17-8971f0e0c5f1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

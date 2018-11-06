@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property of type Sint8.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D7EA2F77-47F5-47E9-9696-C8D013815D5B
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySint8 class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

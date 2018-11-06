@@ -1,12 +1,8 @@
 ---
 title: WinRM C++ API
 description: The Windows Remote Management interfaces can be used to obtain data or manage resources on a remote computer. This API is intended primarily for internal use. We recommend using the WinRM Client Shell API instead whenever possible.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e50075a1-cb43-4bd6-9bbf-6b715fde6a3a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

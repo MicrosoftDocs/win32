@@ -2,7 +2,6 @@
 Description: Properties are represented by IDs known as property identifiers (PIDs).
 ms.assetid: a773c7b3-a1a2-4cce-ae5f-b54217ea06f4
 title: Understanding Property Handlers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 Properties are represented by IDs known as property identifiers (PIDs). Each property MUST have a globally unique identifier (GUID). This identifier consists of a GUID, representing a collection of properties called a property set plus either a string or a 32-bit integer to identify the property within the set. If the integer form of ID is used, the values 0x00000000, 0xFFFFFFFF, and 0xFFFFFFFE are considered invalid. Vendors can guarantee that their properties are uniquely defined by placing them in a property set defined by their own GUIDs.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > It is critical that you define properties carefully and strategically for the first release of the schema. Any changes to custom properties (such as column width or property type) will not be reflected in the database after a schema has been registered. The only way to have these changes recognized after the schema has been registered once on a system would be either to rebuild the index and then register the new schema, or to register the schema and then create a new property (which consists of a canonical name and a PKEY) for each subequent release; for example `PKEY_GroupName_PropertyNameV2`, `PKEY_GroupName_PropertyNameV3`, and so forth). We do not recommend creating new properties in this manner, because multiple extraneous columns may impact system performance.
 
  

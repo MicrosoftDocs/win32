@@ -1,12 +1,8 @@
 ---
 title: What's New in Windows Server 2008 R2
 description: Windows Server 2008 R2 introduces the following new programming elements for Remote Desktop Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 605a9a34-11fa-433a-9ccd-8368c75b10f0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

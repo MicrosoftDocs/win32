@@ -2,7 +2,6 @@
 Description: Requests that the state of the virtual machine be changed to the specified value.
 ms.assetid: 87BE4C7D-604B-4F8D-B4DC-89BD563E3999
 title: RequestStateChange method of the Msvm_ComputerSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -349,7 +348,7 @@ Access to the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class might be 
 
 The following C# example starts or disables a virtual machine. The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with administrator privileges.
 
  
@@ -447,7 +446,7 @@ namespace HyperVSamples
 
 The following Visual Basic Scripting Edition (VBScript) example starts or disables a virtual machine.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with administrator privileges.
 
  

@@ -1,9 +1,6 @@
 ---
 title: Servers-Container class
 description: Holds server objects in a site.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1da4d943-1196-4425-9799-3ac44f7591f2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Servers-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

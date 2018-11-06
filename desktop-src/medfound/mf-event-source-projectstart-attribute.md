@@ -2,7 +2,6 @@
 Description: Specifies the start time for a segment topology.
 ms.assetid: d8902fb6-c758-4d3d-9230-e918948bda19
 title: MF_EVENT_SOURCE_PROJECTSTART attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

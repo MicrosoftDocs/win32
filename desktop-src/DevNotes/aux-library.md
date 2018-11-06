@@ -2,7 +2,6 @@
 Description: Aux Library
 ms.assetid: 38EE42D8-9487-4297-BE8F-F42EBD5D5D73
 title: Aux Library
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Password-Settings-Precedence attribute
 description: Password settings precedence.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cdcec1e4-87a8-4ff0-9df3-5f1cd90875f6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Password-Settings-Precedence
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

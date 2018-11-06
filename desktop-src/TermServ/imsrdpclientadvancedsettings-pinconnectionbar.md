@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings PinConnectionBar property
 description: Specifies the state of the UI connection bar.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b1f9cb02-3ee3-4574-a874-2584b0d5b47e
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

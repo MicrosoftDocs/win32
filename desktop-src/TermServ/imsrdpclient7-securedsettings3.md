@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient7 SecuredSettings3 property
 description: Retrieves an object that supports the IMsRdpClientSecuredSettings2 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 500ce7ed-bd86-434c-baf8-f30dd667dca3
 ms.tgt_platform: multiple
 keywords:
@@ -31,7 +28,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

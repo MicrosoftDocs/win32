@@ -2,7 +2,6 @@
 title: Registers - cs_5_0
 description: The following input and output registers are implemented in the compute shader version 5\_0.
 ms.assetid: A602BA9F-0934-472F-BB07-5E7A97763CAB
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

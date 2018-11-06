@@ -1,9 +1,6 @@
 ---
 title: ActivateServerAutomatic method of the Win32_TSLicenseServer class
 description: Activates the Remote Desktop license server automatically over the Internet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a33ba72f-3403-4bd2-94a9-0c5ef1cbb03e
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

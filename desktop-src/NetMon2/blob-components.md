@@ -2,7 +2,6 @@
 Description: BLOB Components
 ms.assetid: 757cd311-f834-4017-a0da-ff3f4bc49e7e
 title: BLOB Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnIdleTimeoutNotification method
 description: Called when there has been no mouse or keyboard input by the user during the period of time set by the IMsRdpClientAdvancedSettings put\_MinutesToIdleTimeout method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 303f23c9-3544-4e06-93f0-3aca35d29fb5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

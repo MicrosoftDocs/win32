@@ -2,7 +2,6 @@
 Description: Specifies the model number of the device.
 ms.assetid: 1261e029-4cdf-4e35-a4b3-57dd151e2e7f
 title: modelNumber element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

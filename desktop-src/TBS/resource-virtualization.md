@@ -2,7 +2,6 @@
 title: Resource Virtualization
 description: Resource Virtualization
 ms.assetid: ead0e99a-94da-4e80-bb68-d8f4b199173d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -98,7 +97,7 @@ If a command is submitted with a virtual handle that is not recognized by the TB
 
 Transport sessions are a mechanism provided by the TPM that enables a software stack to encrypt data in a command as it passes between the software and the TPM. This prevents an adversary from intercepting the data as it passes over the hardware bus.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Only the payload data is encrypted. The commands being executed can still be identified.
 
  

@@ -2,7 +2,6 @@
 Description: A WS-Discovery message sent in response to a clients Resolve message by a matching service.
 ms.assetid: 0eaa4348-968e-4b45-9509-8b15476edaa1
 title: ResolveMatches Message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

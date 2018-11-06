@@ -2,7 +2,6 @@
 Description: Windows 7 and Windows Server 2008 R2 include many enhancements to improve both the users' and the developers' experience.
 ms.assetid: 6f168d39-5c1e-4bbd-9e99-59318eb58074
 title: New Features and Enhancements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

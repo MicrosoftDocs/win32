@@ -2,7 +2,6 @@
 Description: Enumerating Services
 ms.assetid: 6ee6eecb-3812-45c6-8b27-7dfd6fa82758
 title: Enumerating Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

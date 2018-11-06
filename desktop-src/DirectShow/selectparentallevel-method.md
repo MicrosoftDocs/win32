@@ -2,7 +2,6 @@
 Description: The SelectParentalLevel method sets the specified parental level for subsequent playback.
 ms.assetid: ffd1e204-6ed2-4190-8635-9f3866d38099
 title: SelectParentalLevel Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: The Microsoft Windows SNMP Application Programming Interface (the W
 ms.assetid: '54d9b61a-815a-41c3-9365-ec4478acc3f2'
 keywords:
 - WinSNMP API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Enumerator.ReadItem method
 description: Retrieves an item from the resource and returns an XML representation of the item.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4280ecb8-2449-41bd-868a-785e8ac3b3d5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

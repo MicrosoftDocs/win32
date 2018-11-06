@@ -2,7 +2,6 @@
 Description: Occurs when a key is released while the InkPicture control has focus.
 ms.assetid: e22633b5-40fe-4b94-a660-684c4f5c96f3
 title: InkPicture.KeyUp event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

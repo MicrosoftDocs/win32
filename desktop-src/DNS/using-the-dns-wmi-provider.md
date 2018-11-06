@@ -4,7 +4,6 @@ description: The DNS WMI Provider defines WMI CIM classes that enable your appli
 ms.assetid: '4965fc6b-7f0d-414d-a9dd-8b5b964db093'
 keywords:
 - Domain Name System, WMI provider, using
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

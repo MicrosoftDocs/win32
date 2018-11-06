@@ -1,15 +1,11 @@
 ---
 title: Binding to an Object Using a SID
 description: In Windows Server 2003, it is possible to bind to an object using the object Security Identifier (SID) as well as a GUID. The object SID is stored in the objectSID attribute. Binding to an SID does not work on Windows 2000.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 18b4613c-eb93-4204-96f2-0f91d7900587
 ms.tgt_platform: multiple
 keywords:
 - Binding to an Object Using a SID AD
 - Active Directory, using, binding, binding to an object using a SID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

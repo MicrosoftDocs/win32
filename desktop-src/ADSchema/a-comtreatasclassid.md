@@ -1,9 +1,6 @@
 ---
 title: COM-Treat-As-Class-Id attribute
 description: Treat-As string GUID CLSID for the host class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef5cafe8-2615-4213-8b65-a44775069b25
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - COM-Treat-As-Class-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

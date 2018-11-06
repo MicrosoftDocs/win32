@@ -13,7 +13,6 @@ keywords:
 - Client Extended APIs,pre-delivery of licenses
 - pre-delivery of licenses
 - licenses,pre-delivery of licenses
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

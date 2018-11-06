@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: cbebf1e8-51aa-4c8d-9a3a-3024251ad5e5
 title: Message and Message Queue Overviews
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

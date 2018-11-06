@@ -2,7 +2,6 @@
 title: Enumerating Registered Entities
 description: After a client has registered, the client can obtain a list of all the other clients that have registered with the routing table manager. Some clients must perform certain operations if the presence of a particular type of client is detected.
 ms.assetid: d94de573-7c1e-4179-a41f-5836d2c5d44a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

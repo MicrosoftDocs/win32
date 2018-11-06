@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.GPS.Date property.
 ms.assetid: 75047658-b6f3-454e-961a-89016c244bf6
 title: System.GPS.Date Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: The NetServiceInstall function is obsolete. It is included for comp
 ms.assetid: 4eb0cc77-3862-4b1c-8146-2798cdc6ab66
 keywords:
 - NetServiceInstall
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

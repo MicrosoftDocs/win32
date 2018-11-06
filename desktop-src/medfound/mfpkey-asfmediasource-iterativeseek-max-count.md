@@ -2,7 +2,6 @@
 Description: Sets the maximum number of search iterations the ASF media source will use when it performs iterative seeking.
 ms.assetid: 5b596faf-1217-424d-ae16-8c9ec6f31af1
 title: MFPKEY_ASFMediaSource_IterativeSeek_Max_Count property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

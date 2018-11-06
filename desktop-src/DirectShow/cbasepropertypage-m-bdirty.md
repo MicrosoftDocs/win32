@@ -2,7 +2,6 @@
 Description: The m\_bDirty flag indicates whether any of the properties have changed. Set this flag to TRUE if the user changes any properties through the dialog controls.
 ms.assetid: 7455a45b-4d6d-410a-aed6-7003d4ed2183
 title: CBasePropertyPage::m_bDirty member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

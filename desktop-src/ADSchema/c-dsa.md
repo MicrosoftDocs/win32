@@ -1,9 +1,6 @@
 ---
 title: DSA class
 description: Directory Service only uses subclass MSFT-DSA.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9b8df415-1d78-4812-9927-3f23d555034f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DSA
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

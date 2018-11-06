@@ -1,14 +1,10 @@
 ---
 title: Domain Browser
 description: Using the IDsBrowseDomainTree interface, an application can display a domain browser dialog box and obtain the DNS name of the domain selected by the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 26793c61-469e-4e99-9056-b9fc04336b69
 ms.tgt_platform: multiple
 keywords:
 - domain browser AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

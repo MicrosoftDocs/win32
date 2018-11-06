@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Quota-Amount attribute
 description: The assigned quota in terms of number of objects owned in the database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6ae57661-e384-493b-82a9-c002eab277a1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Quota-Amount
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

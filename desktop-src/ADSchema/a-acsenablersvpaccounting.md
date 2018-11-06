@@ -1,9 +1,6 @@
 ---
 title: ACS-Enable-RSVP-Accounting attribute
 description: True if RSVP accounting is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9899a695-e414-4e8d-8651-794efa457d67
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Enable-RSVP-Accounting
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Ipsec-ISAKMP-Reference attribute
 description: The Ipsec-ISAKMP-Reference attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a21513e8-9ae5-4690-a7a3-c1caaf9579cc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-ISAKMP-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

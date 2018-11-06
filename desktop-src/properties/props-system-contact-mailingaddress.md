@@ -2,7 +2,6 @@
 Description: Mailing address of the contact.
 ms.assetid: ac8890e3-6ffe-418e-a172-1de63f9928ca
 title: System.Contact.MailingAddress
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

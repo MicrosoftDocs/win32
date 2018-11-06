@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_AssociateMemory class associates installed or associated memory, such as cache memory with a logical device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b108d0cc-9353-4940-a5f6-34bb93330a62
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_AssociatedMemory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_AssociateMemory** class associates installed or associated memory, such as cache memory with a logical device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

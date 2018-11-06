@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_DCOMApplicationSetting class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: E20E0998-B895-4137-B7F5-10F700A121FF
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DCOMApplicationSetting Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

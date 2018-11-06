@@ -1,14 +1,10 @@
 ---
 title: ADSI extension for Remote Desktop Services user configuration
 description: An Active Directory Service Interface (ADSI) extension is a special COM object that allows extension of a COM object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7d79eed4-0bb9-4053-9f88-caab74ca2f3b
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , ADSI extension for
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

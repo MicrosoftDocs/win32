@@ -1,9 +1,6 @@
 ---
 title: drink attribute
 description: The drink (Favorite Drink) attribute type specifies the favorite drink of an object (or person).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1d3f6301-1bb3-4ff9-8be9-5a5590636d16
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - drink
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

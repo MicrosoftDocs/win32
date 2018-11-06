@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Central-Access-Policy-ID attribute
 description: For a Central Access Policy, this attribute defines a GUID that can be used to identify the set of policies when applied to a resource.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: db1fe49b-f737-4202-bd6f-7bab64187c82
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Central-Access-Policy-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

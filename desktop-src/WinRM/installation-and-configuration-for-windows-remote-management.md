@@ -1,12 +1,8 @@
 ---
 title: Installation and Configuration for Windows Remote Management
 description: If Windows Remote Management (WinRM) is not installed and configured, WinRM scripts do not run and the Winrm command-line tool cannot perform data operations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

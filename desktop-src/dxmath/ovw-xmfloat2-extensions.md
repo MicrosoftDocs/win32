@@ -2,7 +2,6 @@
 Description: XMFLOAT2 describes a 2D vector consisting of two single-precision floating-point values.
 ms.assetid: 6d3f0a7a-051b-4057-9ca8-87e4d9f2524d
 title: XMFLOAT2 Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

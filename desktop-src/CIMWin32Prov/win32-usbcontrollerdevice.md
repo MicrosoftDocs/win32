@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_USBControllerDevice association WMI class relates a universal serial bus (USB) controller and the CIM\_LogicalDevice instance connected to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a0c64984-9116-4cb8-86e0-38c897cb7119
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_USBControllerDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

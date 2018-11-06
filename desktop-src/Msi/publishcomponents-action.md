@@ -2,7 +2,6 @@
 Description: The PublishComponents action manages the advertisement of the components from the PublishComponent table.
 ms.assetid: 58d945d7-7dfb-4752-ae19-7e41caca1de7
 title: PublishComponents Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

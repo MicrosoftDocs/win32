@@ -2,7 +2,6 @@
 title: UI Automation Constants
 description: This section contains information about the Microsoft UI Automation constants.
 ms.assetid: 39206da8-e038-4a3b-833f-5902142911ac
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

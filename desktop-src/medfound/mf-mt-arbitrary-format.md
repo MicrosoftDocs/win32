@@ -2,7 +2,6 @@
 Description: Additional format data for a binary stream in an Advanced Systems Format (ASF) file.
 ms.assetid: fc5b9890-1508-498e-b2ce-ed4fa2052f9c
 title: MF_MT_ARBITRARY_FORMAT attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

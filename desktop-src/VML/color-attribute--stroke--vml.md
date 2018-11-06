@@ -2,7 +2,6 @@
 title: Color Attribute (Stroke)(VML)
 description: Color Attribute (Stroke)(VML)
 ms.assetid: 8fa19789-0bd6-4e9f-8af4-566155eafc6a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

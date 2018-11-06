@@ -1,9 +1,6 @@
 ---
 title: Winsock-Addresses attribute
 description: A Winsock service address.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b4da440d-e71c-44f5-aede-2c23d8463310
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Winsock-Addresses
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

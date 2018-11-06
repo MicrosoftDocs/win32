@@ -4,7 +4,6 @@ description: The 2D affine transform effect applies a spatial transform to a ima
 ms.assetid: E8973EBE-764C-4220-BB1E-3BFD4853582D
 keywords:
 - 2D affine transform effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

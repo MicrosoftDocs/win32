@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ConnectorOnPackage class represents an association that makes explicit the containment relationship between connectors and packages. Physical packages contain connectors as well as other physical elements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 67cfb8c7-b952-452c-aeb4-0f06b2b0570b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ConnectorOnPackage class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -29,7 +23,7 @@ api_location:
 
 The **CIM\_ConnectorOnPackage** class represents an association that makes explicit the containment relationship between connectors and packages. Physical packages contain connectors as well as other physical elements.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

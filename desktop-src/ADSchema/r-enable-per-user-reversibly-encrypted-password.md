@@ -1,9 +1,6 @@
 ---
 title: Enable-Per-User-Reversibly-Encrypted-Password extended right
 description: Extended control access right that allows users to enable or disable the \ 0034;reversible encrypted password \ 0034; setting for user and computer objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 71a21162-e291-440c-9b7d-8d67abf4b608
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Enable-Per-User-Reversibly-Encrypted-Password
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: LOCALE\_ALL
 ms.assetid: 40a4ca16-b06c-46be-abe2-bd3e7ed0da4b
 title: LOCALE_ALL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

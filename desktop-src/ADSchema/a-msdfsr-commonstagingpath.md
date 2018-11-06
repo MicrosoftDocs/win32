@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-CommonStagingPath attribute
 description: Full path of the common staging directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2471fc9c-b5b6-48d8-9504-617fd2b6cd3d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-CommonStagingPath
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

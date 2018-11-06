@@ -1,9 +1,6 @@
 ---
 title: FetchReportEntries method of the Win32_TSLicenseReport class
 description: Retrieves details of Remote Desktop Services Per User client access licenses (RDS \ 160;Per User CALs) from the report. Each entry represents a RDS \ 160;Per User CAL that is currently in use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 151ff95c-4ad3-4d19-936d-1cb08b4d5056
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Sets the preferred architecture, 32-bit or 64-bit, for this COM ser
 ms.assetid: ef770039-1624-4256-aa09-1443695c1a1f
 keywords:
 - PreferredServerBitness registry value COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

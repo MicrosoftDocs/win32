@@ -1,9 +1,6 @@
 ---
 title: Using objectGUID to Bind to an Object
 description: An object distinguished name changes if the object is renamed or moved, therefore the distinguished name is not a reliable object identifier.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6c038005-3ecb-4c00-b1a3-a231d3aea64e
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - objectGUID AD
 - objectGUID AD , using to bind to an object
 - Active Directory, using, binding, using objectGUID to bind to object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

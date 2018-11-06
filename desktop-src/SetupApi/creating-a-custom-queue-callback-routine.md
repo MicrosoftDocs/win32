@@ -2,7 +2,6 @@
 Description: In addition to using the default queue callback, you can write a custom callback routine.
 ms.assetid: 68781565-71a2-43bf-ad01-7c1cdc514f7b
 title: Creating a Custom Queue Callback Routine
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -19,7 +18,7 @@ This flow of control is illustrated in the following diagram.
 
 ![arrows and boxes showing data flow for custom callback function](images/callback.png)
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If the custom callback function calls the default queue callback routine, it must pass the void pointer returned by [**SetupInitDefaultQueueCallback**](/windows/desktop/api/Setupapi/nf-setupapi-setupinitdefaultqueuecallback) or [**SetupInitDefaultQueueCallbackEx**](/windows/desktop/api/Setupapi/nf-setupapi-setupinitdefaultqueuecallbackex) to the default callback routine.
 
  

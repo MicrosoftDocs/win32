@@ -2,7 +2,6 @@
 title: Control Pattern Interfaces for Providers
 description: This section describes control pattern interfaces implemented by UI Automation providers to expose information about controls in unmanaged Windows applications.
 ms.assetid: 08d0226d-845c-4564-a059-539b62fc7909
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

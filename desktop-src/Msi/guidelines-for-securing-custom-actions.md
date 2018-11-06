@@ -2,7 +2,6 @@
 Description: To help maintain secure a software installation, adhere to these guidelines when authoring a Windows Installer custom action.
 ms.assetid: f7081b0c-bfa2-47a1-840b-28881ad97071
 title: Guidelines for Securing Custom Actions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

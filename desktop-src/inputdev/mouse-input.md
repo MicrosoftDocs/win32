@@ -6,7 +6,6 @@ keywords:
 - user input,mouse input
 - capturing user input,mouse input
 - mouse input
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

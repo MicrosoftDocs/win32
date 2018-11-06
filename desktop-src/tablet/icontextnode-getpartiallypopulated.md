@@ -2,7 +2,6 @@
 Description: Retrieves the value that indicates whether an IContextNode object is partially populated or fully populated.
 ms.assetid: 13ac3fb2-7baa-48d7-bf8e-f36b4031fbc4
 title: IContextNode::GetPartiallyPopulated method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: CRL-Distribution-Point class
 description: The object holding Certificate, Authority, and Delta Revocation lists.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8d99052c-b72b-49b6-9c1b-a9c1fcd09fe7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - CRL-Distribution-Point
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

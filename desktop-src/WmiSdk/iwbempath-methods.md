@@ -1,12 +1,8 @@
 ---
 Description: The IWbemPath interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 36EC7EF6-5CCA-4D18-AB09-9EE41D1B9524
 ms.tgt_platform: multiple
 title: IWbemPath Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

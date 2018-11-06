@@ -2,7 +2,6 @@
 Description: The address filter notifies the Network Monitor driver to accept frames that have one of a variety of specified MAC address types (Ethernet, Token Ring, and FDDI).
 ms.assetid: 23a38f49-2d63-4fc8-8113-29143493359c
 title: Writing ADDRESSTABLE Filter Portion
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

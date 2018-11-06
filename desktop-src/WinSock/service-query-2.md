@@ -2,7 +2,6 @@
 Description: Name service query in Windows Sockets (Winsock).
 ms.assetid: 94d77f7b-824a-4686-b270-9c662976bbc0
 title: Service Query
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

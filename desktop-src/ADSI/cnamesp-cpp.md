@@ -1,12 +1,8 @@
 ---
 title: CNAMESP.CPP
 description: In the example provider component, code that manages the lifetime of the example provider component namespace object is in cnamesp.cpp. Supported methods are listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2f570f87-d8c3-42b1-b8b9-758905bf4b86
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

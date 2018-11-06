@@ -2,7 +2,6 @@
 Description: Retrieves a list of changes in the specified region of a virtual disk since the provided Resilient Change Tracking Id or VHDSet Snapshot Id.
 ms.assetid: c1dac403-96e0-4c0d-ad71-858f04bf07cd
 title: GetVirtualDiskChanges method of the Msvm_ImageManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

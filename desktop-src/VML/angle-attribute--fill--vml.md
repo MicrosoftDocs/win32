@@ -2,7 +2,6 @@
 title: Angle Attribute (Fill)(VML)
 description: Angle Attribute (Fill)(VML)
 ms.assetid: 97203e73-4dae-40c5-bb3d-127110525cff
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

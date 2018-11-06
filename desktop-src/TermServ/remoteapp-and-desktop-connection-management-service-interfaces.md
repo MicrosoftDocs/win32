@@ -1,12 +1,8 @@
 ---
 title: RemoteApp and Desktop Connection Management Service Interfaces
 description: The RemoteApp and Desktop Connection Management Service API provides the following interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bd928bdc-e4b4-4b5a-a782-0881ed6d08bd
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

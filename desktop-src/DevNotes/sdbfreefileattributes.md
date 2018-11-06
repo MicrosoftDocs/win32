@@ -2,7 +2,6 @@
 Description: Frees the specified file attribute data.
 ms.assetid: c1a4dcf8-614f-49a5-a923-8d7d610e6406
 title: SdbFreeFileAttributes function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

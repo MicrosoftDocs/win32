@@ -1,9 +1,6 @@
 ---
 title: msRASSavedFramedIPAddress attribute
 description: The msRASSavedFramedIPAddress attribute is used internally.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3de5f52-da0c-4e04-8fc2-35549307ed61
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msRASSavedFramedIPAddress
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: PaintWin Method
 description: PaintWin Method
 ms.assetid: e89794e6-c059-4531-a1e3-3a4972e0218d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

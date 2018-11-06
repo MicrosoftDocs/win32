@@ -1,12 +1,8 @@
 ---
 Description: WMI provides a number of additional qualifiers to further refine the provision of class instances and operations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8e3f82b0-f05d-481a-8be1-648a91da5463
 ms.tgt_platform: multiple
 title: WMI-Specific Qualifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

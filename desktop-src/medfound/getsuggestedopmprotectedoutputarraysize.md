@@ -2,7 +2,6 @@
 Description: Gets the size of the array that should be allocated before calling CreateOPMProtectedOutputs.
 ms.assetid: 65edce14-f225-4b7f-b953-32b085e1cabf
 title: GetSuggestedOPMProtectedOutputArraySize function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # GetSuggestedOPMProtectedOutputArraySize function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This function is used by [Output Protection Manager](output-protection-manager.md) (OPM) to access functionality in the display driver. Applications should not call this function.
 
  

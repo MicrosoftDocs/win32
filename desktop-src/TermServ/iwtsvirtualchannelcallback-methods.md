@@ -1,12 +1,8 @@
 ---
 title: IWTSVirtualChannelCallback Methods
 description: The IWTSVirtualChannelCallback interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D65ACFBF-1518-4E05-9036-77C83992990F
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

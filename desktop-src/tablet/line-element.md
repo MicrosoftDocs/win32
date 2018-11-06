@@ -2,7 +2,6 @@
 Description: Contains a line within a Paragraph.
 ms.assetid: 'a88a2bf7-034f-4141-9f1c-f1123bab4a67'
 title: Line Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

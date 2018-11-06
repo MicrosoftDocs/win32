@@ -4,7 +4,6 @@ description: The NetAuditRead function is obsolete. It is included for compatibi
 ms.assetid: d80caf09-30b0-484f-bbf9-e381a3eda9f8
 keywords:
 - NetAuditRead
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

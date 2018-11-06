@@ -2,7 +2,6 @@
 Description: Defines constants that describe the type of back buffer.
 ms.assetid: f099656b-4957-40a7-a92e-2c17e5fa8df9
 title: D3DBACKBUFFER_TYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type:

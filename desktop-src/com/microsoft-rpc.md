@@ -2,7 +2,6 @@
 title: Microsoft RPC
 description: Microsoft RPC
 ms.assetid: a9ca629a-2766-43d5-89da-73d0628b3c5e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

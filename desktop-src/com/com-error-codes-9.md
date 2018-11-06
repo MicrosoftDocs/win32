@@ -169,7 +169,6 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

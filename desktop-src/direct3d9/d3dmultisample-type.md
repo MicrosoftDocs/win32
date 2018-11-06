@@ -2,7 +2,6 @@
 Description: Defines the levels of full-scene multisampling that the device can apply.
 ms.assetid: 1a3c1efe-f5b1-47a1-a5f5-ac49d318f3b8
 title: D3DMULTISAMPLE_TYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type:

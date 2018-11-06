@@ -1,9 +1,6 @@
 ---
 title: Admin-Property-Pages attribute
 description: The order number and GUID of the property pages for an object to be displayed on Active Directory administration screens. For more information see the document, Extending the User Interface for Directory Objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 70455768-11e0-4d12-ad44-4b3115aa1594
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Admin-Property-Pages
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

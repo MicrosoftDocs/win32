@@ -5,7 +5,6 @@ ms.assetid: a0305089-89ff-42b7-b3f1-99a6484d2e5e
 keywords:
 - enumerating tasks Task Scheduler
 - Task Scheduler examples Task Scheduler , enumerating tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

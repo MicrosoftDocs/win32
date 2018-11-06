@@ -7,7 +7,6 @@ keywords:
 - Windows Touch,interface properties
 - inertia,IInertiaProcessor interface
 - IInertiaProcessor interface,properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

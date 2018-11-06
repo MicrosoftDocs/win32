@@ -2,7 +2,6 @@
 Description: Consumers implement this function to receive events from a session. The PEVENT\_CALLBACK type defines a pointer to this callback function. EventCallback is a placeholder for the application-defined function name.
 ms.assetid: 9312eaed-2997-4d44-952a-fcae3b262947
 title: PEVENT_CALLBACK callback function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

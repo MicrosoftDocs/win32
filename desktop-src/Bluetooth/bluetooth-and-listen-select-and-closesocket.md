@@ -11,7 +11,6 @@ keywords:
 - Bluetooth and listen,select
 - Bluetooth and listen,select,and closesocket
 - listen
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

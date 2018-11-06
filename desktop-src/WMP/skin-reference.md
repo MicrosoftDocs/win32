@@ -8,7 +8,6 @@ keywords:
 - skins,programming reference
 - reference for skins,about
 - reference for skins,Windows Media Player Mobile
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: DirectX Media Objects
 ms.assetid: e4424740-31b9-4317-8791-6a9aebb0c7e6
 title: DirectX Media Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

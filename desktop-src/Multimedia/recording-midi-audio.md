@@ -10,7 +10,6 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),recording audio
 - MIDI (Musical Instrument Digital Interface),recording audio
 - recording MIDI audio,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Gets the number of animation key frame ticks that occur per second.
 ms.assetid: 72adba95-e52f-46d8-ab9e-8e06ccbf8d08
 title: ID3DXCompressedAnimationSet::GetSourceTicksPerSecond method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

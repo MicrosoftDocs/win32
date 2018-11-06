@@ -2,7 +2,6 @@
 Description: The capture process is the same for each of the four NPP interfaces.
 ms.assetid: f778aba5-8f66-4fc9-830b-f830c364da56
 title: The Capture Process
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

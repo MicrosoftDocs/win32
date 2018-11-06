@@ -2,7 +2,6 @@
 Description: Retrieves the FolderItem object for a specified item in the collection.
 ms.assetid: 164f823d-12d9-4950-a881-63837c53760d
 title: FolderItems.Item method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

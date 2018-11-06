@@ -2,7 +2,6 @@
 title: VML EndArrow Attribute
 description: VML EndArrow Attribute
 ms.assetid: 056cd011-bb3b-4f9a-83d0-9702e0e82e4d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

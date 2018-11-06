@@ -2,7 +2,6 @@
 Description: Describes video content&\#8211;protection capabilities that a graphics driver can provide.
 ms.assetid: FD0625BB-484A-43E6-8931-DB635D4F017F
 title: GPU-Based Content Protection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Device classes allow the specification of the Icons, Label, and DeviceHandlers properties for any device of that class.
 ms.assetid: E32C1BA6-B520-4809-A9E9-48813C7EBAA4
 title: How to Specify an Icon, Label, or Device Handler for a Device Using a Device Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

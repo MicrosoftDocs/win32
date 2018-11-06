@@ -1,9 +1,6 @@
 ---
 title: Print-Memory attribute
 description: The amount of memory installed in a printer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9e06ca1a-38e6-4cd8-acb5-a75dd4103696
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Memory
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

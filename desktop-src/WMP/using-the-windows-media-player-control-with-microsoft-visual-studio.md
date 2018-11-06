@@ -23,7 +23,6 @@ keywords:
 - .NET Framework,Visual Studio program embedding
 - embedding,Visual Studio programs
 - Visual Studio,program embedding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

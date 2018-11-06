@@ -1,9 +1,6 @@
 ---
 title: Builtin-Modified-Count attribute
 description: The Builtin-Modified-Count attribute is used to support replication to Windows NT 4.0 domains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e5a0f299-1e69-4b47-a0b1-e5bcf7bd47eb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Builtin-Modified-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

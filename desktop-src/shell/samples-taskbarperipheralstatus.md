@@ -1,7 +1,6 @@
 ---
 Description: Demonstrates taskbar icon overlays and progress bars.
 title: Taskbar Peripheral Status Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

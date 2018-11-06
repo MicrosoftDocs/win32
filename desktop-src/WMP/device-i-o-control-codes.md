@@ -8,7 +8,6 @@ keywords:
 - Windows Media Device Manager
 - device I/O control codes
 - control codes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

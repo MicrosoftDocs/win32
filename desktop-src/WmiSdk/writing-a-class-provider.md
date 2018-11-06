@@ -1,12 +1,8 @@
 ---
 Description: A class provider manages a class or series of classes for WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 755f1fde-a0bf-43f6-a01d-2da7d4e6c10d
 ms.tgt_platform: multiple
 title: Writing a Class Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

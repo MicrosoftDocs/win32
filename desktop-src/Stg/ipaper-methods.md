@@ -4,7 +4,6 @@ description: Provides COPaper objects that are controlled primarily by their nat
 ms.assetid: '3b77a6b3-8ec3-4a91-82cd-1f08d10fbf73'
 keywords:
 - IPaper
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: XMSHORT4 describes a 4D vector consisting of 16-bit signed integer components.
 ms.assetid: 63a96314-50e0-48f7-a522-157073429d99
 title: XMSHORT4 Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

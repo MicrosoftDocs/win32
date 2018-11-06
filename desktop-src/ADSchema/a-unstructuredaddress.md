@@ -1,9 +1,6 @@
 ---
 title: unstructuredAddress attribute
 description: The IP address of the router (for example 100.11.22.33).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 60ca9fb4-c897-47cd-9bbe-751fff2e290a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - unstructuredAddress
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

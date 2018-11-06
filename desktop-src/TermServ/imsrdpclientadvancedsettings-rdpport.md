@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings RDPPort property
 description: Specifies the connection port.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 15be7ef8-8ed2-46e0-8cc5-d5cf1642b79e
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

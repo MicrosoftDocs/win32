@@ -4,7 +4,6 @@ description: Task Scheduler can run a task any number of times times after a tri
 ms.assetid: 69c60713-134c-4602-9e7b-cc3eea871068
 keywords:
 - repetition pattern Task Scheduler
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

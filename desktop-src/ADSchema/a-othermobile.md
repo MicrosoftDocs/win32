@@ -1,9 +1,6 @@
 ---
 title: Phone-Mobile-Other attribute
 description: A list of alternate mobile phone numbers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c77e435c-e804-4730-ae8f-0365feeb153a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Phone-Mobile-Other
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

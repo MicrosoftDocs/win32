@@ -1,9 +1,6 @@
 ---
 title: DsBackupGetDatabaseNames function
 description: Obtains the list of database files to be backed up for the given backup context.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ba0447a1-38b0-4c0a-8c63-abaefb5b908f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

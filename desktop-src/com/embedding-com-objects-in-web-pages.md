@@ -2,7 +2,6 @@
 title: Embedding COM Objects in Web Pages
 description: You can use COM objects in webpages. To do this, first create an instance of that COM object. After an object instance is created, you can use it in subsequent scripts on that webpage.
 ms.assetid: 7e2c9da7-aeae-4206-8be9-1303240b2b1d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

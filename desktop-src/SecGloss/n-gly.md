@@ -3,7 +3,6 @@ Description: Contains definitions of security terms that begin with the letter N
 Robots: noindex, nofollow
 ms.assetid: 28d229ef-53ce-4d17-aba0-3bbf51e3ff0c
 title: N
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Client Shell API Additional Functions
 description: The following table provides an overview of the non-core functions for the Windows Remote Management (WinRM) Client Shell application programming interface (API).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ea90e314-12c1-42e7-bafa-15dd8ce63aa6
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

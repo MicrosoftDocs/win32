@@ -2,7 +2,6 @@
 title: In-Ribbon Gallery
 description: The In-Ribbon Gallery is a control that displays a collection of related items or Commands in the Ribbon. If there are too many items in the gallery, an expand arrow is provided to display the rest of the collection in an expanded pane.
 ms.assetid: d608dd0d-a0af-49a6-a129-7115195c0df2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

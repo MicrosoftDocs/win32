@@ -1,9 +1,6 @@
 ---
 title: DSA_SEC_PAGE_INFO structure
 description: Used with the WM\_ADSPROP\_SHEET\_CREATE and WM\_DSA\_SHEET\_CREATE\_NOTIFY messages to define a secondary property sheet in an Active Directory MMC snap-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 422d84dc-6b5e-43bf-ac4f-3b99cb59f9df
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DSA_SEC_PAGE_INFO
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 api_location: 

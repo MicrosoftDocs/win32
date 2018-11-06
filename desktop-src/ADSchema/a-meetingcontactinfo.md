@@ -1,9 +1,6 @@
 ---
 title: meetingContactInfo attribute
 description: Contact information for a meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a5a07194-42ee-4cd7-a79a-f35ecdcaf8f9
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingContactInfo
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

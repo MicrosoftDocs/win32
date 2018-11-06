@@ -2,7 +2,6 @@
 title: Provider Management
 description: Provider Management
 ms.assetid: C628647C-FDFD-4E6D-9F2F-EF64AC4CFD80
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

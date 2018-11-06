@@ -2,7 +2,6 @@
 Description: Color mixing lets an application create new colors by combining the pen or brush color with colors in the existing image.
 ms.assetid: 4a5dff8c-f75f-41d2-8367-33d97d4fd010
 title: Color Mixing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

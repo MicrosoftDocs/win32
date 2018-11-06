@@ -1,12 +1,8 @@
 ---
 Description: Defines the input and output parameters for methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d973feb5-27c4-4d8e-bf1b-0a455afa4375
 ms.tgt_platform: multiple
 title: '__PARAMETERS class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

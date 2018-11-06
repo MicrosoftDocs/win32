@@ -2,7 +2,6 @@
 Description: Adding a Decoder to a Topology
 ms.assetid: 32c088d5-d9dd-43d3-a63b-219e6a7a36b1
 title: Adding a Decoder to a Topology
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

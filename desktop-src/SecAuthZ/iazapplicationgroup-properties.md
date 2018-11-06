@@ -2,7 +2,6 @@
 Description: The IAzApplicationGroup interface exposes the following properties.
 ms.assetid: A83974B8-2F82-4214-B4E6-0F417FE7EC27
 title: IAzApplicationGroup Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

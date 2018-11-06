@@ -2,7 +2,6 @@
 Description: Occurs before the IInkAnalyzer deletes an IContextNode object.
 ms.assetid: 9c89198e-cc64-4041-b7a3-457f94c4aeaf
 title: '_IAnalysisProxyEvents::ContextNodeDeleting event'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

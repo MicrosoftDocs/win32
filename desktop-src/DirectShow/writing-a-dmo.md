@@ -2,7 +2,6 @@
 Description: Writing a DMO
 ms.assetid: 77966a77-5400-43b1-bdbd-ace27ddc8ae7
 title: Writing a DMO
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

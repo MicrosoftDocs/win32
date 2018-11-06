@@ -2,7 +2,6 @@
 Description: The put\_AutoShow method sets the AutoShow state flag.
 ms.assetid: 857472b8-845b-46d3-8593-3fba9a9c8cdc
 title: CBaseControlWindow.put_AutoShow method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: This topic defines the calendar identifiers (data type CALID) that are used to specify different calendars.
 ms.assetid: ba2e841e-e24e-476a-851e-a29b3af4f04d
 title: Calendar Identifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

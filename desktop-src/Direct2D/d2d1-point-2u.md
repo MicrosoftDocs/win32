@@ -4,7 +4,6 @@ description: Represents an x-coordinate and y-coordinate pair in two-dimensional
 ms.assetid: 652c0dd7-c24d-4941-ae23-2be21b53af69
 keywords:
 - D2D1_POINT_2U
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

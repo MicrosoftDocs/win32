@@ -2,7 +2,6 @@
 Description: This section describes how to implement audio/video playback in your application, using Microsoft Media Foundation.
 ms.assetid: 6efadfe6-013a-4942-9df5-bed557d9af8b
 title: Audio/Video Playback
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

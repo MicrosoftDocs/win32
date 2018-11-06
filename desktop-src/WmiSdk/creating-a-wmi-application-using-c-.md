@@ -1,12 +1,8 @@
 ---
 Description: 'To create an application for WMI using C++: you must initialize COM, access and set WMI protocols, and perform a manual cleanup.'
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0b9b7990-6982-4ba9-8dba-7470990405f7
 ms.tgt_platform: multiple
 title: Creating a WMI Application Using C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

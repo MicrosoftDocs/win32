@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property consisting of an array of boolean elements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2C7C6439-5C8C-4BA4-BF93-133FB7486421
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyBooleanArray class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

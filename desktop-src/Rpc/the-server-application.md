@@ -2,7 +2,6 @@
 title: The Server Application
 description: The example below is from the 'Hello World' application in the RPC\\Hello directory of the Platform Software Development Kit (SDK).
 ms.assetid: '82ccfd67-6626-49c4-8974-86ebc5841444'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

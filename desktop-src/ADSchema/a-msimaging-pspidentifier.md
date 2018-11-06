@@ -1,9 +1,6 @@
 ---
 title: ms-Imaging-PSP-Identifier attribute
 description: Schema Attribute that contains the unique identifier for this Post Scan Process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c39eb03b-1433-4962-a238-babec6dc99b8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Imaging-PSP-Identifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Represents an environment or system environment setting on a Windows computer system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: da7ee891-c759-4046-a9d8-d3caf66ab5a9
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Environment class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

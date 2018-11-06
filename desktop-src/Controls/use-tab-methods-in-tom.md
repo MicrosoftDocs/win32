@@ -2,7 +2,6 @@
 title: How to Use Tab Methods in TOM
 description: The following example provides C functions that illustrate the use of the tab methods in the Text Object Model (TOM).
 ms.assetid: C74B4E43-615D-48B9-9884-F626BAF31F74
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

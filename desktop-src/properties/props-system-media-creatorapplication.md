@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: ba60825d-1b0d-4b0c-a5ed-5dfa486eac68
 title: System.Media.CreatorApplication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

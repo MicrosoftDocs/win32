@@ -1,12 +1,8 @@
 ---
 Description: Registers method providers with WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c5a8ccd3-487e-42a3-bb31-d27da9a711c4
 ms.tgt_platform: multiple
 title: '__MethodProviderRegistration class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

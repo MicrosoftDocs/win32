@@ -1,12 +1,8 @@
 ---
 Description: The WBEMTimeSpan class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7D450EE2-C52F-4B78-B6B1-9FD74394C3DE
 ms.tgt_platform: multiple
 title: WBEMTimeSpan Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

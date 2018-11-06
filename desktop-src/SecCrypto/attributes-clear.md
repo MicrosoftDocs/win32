@@ -2,7 +2,6 @@
 Description: Clears all Attribute objects from the collection.
 ms.assetid: 98b022f8-15aa-44b4-aaff-de09081d80b6
 title: Attributes.Clear method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

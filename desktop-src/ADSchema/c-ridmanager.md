@@ -1,9 +1,6 @@
 ---
 title: RID-Manager class
 description: Contains the RID FSMO and the RID-Available-Pool location used by the RID Manager. The RID manager is a component running on the DC that is responsible for allocating security identifiers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 84af5d6d-a5a7-4288-a9eb-0eaaf0c23063
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RID-Manager
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

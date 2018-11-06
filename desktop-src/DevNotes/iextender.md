@@ -2,7 +2,6 @@
 Description: The IExtender interface provides a set of basic properties that are added to the interface of a control. Programmers can use these properties as if they were part of the control.
 ms.assetid: 901873bd-af6a-415e-865f-21769367c99f
 title: IExtender interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

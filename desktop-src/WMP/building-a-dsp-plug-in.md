@@ -8,7 +8,6 @@ keywords:
 - digital signal processing plug-ins,building
 - DSP plug-ins,building
 - building plug-ins,digital signal processing (DSP)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

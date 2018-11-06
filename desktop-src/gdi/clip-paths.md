@@ -2,7 +2,6 @@
 Description: Like a clipping region, a clip path is another graphics object that an application can select into a device context.
 ms.assetid: 35c4052b-3f11-40bc-9cc9-6f999326a656
 title: Clip Paths
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

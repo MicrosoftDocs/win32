@@ -2,7 +2,6 @@
 Description: The IUpdate4 interface defines the following property.
 ms.assetid: ff55915e-4d0b-41c3-a885-34df0f419bf5
 title: IUpdate4 Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

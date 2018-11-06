@@ -1,9 +1,6 @@
 ---
 title: InstallOpenLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Installs an Open License Remote Desktop Services license key pack.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: be50e25c-cda3-408b-934b-51ce343f3271
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

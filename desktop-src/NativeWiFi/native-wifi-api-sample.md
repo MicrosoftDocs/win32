@@ -2,7 +2,6 @@
 Description: Demonstrates the use of basic wireless network management functions.
 ms.assetid: 63af0b88-c20b-4b06-9db3-e8510fc80053
 title: Native Wifi API Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

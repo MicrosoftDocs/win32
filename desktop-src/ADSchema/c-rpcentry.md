@@ -1,9 +1,6 @@
 ---
 title: rpc-Entry class
 description: An abstract class whose subclasses are used by the RPC Name Service (Ns), which is accessed by using the RpcNs\ functions in the Win32 API.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8ec4831d-d30b-4b4d-a5d4-8457a7774ec0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Entry
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

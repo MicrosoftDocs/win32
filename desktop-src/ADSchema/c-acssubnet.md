@@ -1,9 +1,6 @@
 ---
 title: ACS-Subnet class
 description: Contains configuration parameters for an ACS (Bandwidth Allocation Control Service) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 454425ae-2bc3-4407-b328-b9873e70e2bb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Subnet
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

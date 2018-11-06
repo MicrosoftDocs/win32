@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnAuthenticationWarningDismissed method
 description: Called after an ActiveX control displays an authentication dialog box (for example, the certificate error dialog box).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bf5dbe4a-9129-47b3-9808-ed09d9010099
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

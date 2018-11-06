@@ -1,12 +1,8 @@
 ---
 title: Access Control Inheritance
 description: Access-control entries (ACEs) in an object access-control list (ACL) can belong to either Effective ACL or Inherit ACL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2530eef5-7804-4b27-8756-d97be1cea116
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

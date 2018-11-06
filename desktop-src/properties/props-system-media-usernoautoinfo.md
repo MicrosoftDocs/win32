@@ -2,7 +2,6 @@
 Description: If true, do not alter this file's metadata. Set by user.
 ms.assetid: ee4ae7f9-0c4f-4127-9098-282641f9ab46
 title: System.Media.UserNoAutoInfo
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

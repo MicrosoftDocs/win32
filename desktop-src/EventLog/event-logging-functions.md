@@ -2,7 +2,6 @@
 Description: The following functions are used with event logging.
 ms.assetid: fd5c12ec-3a3d-4b75-a573-0b27ae7a890b
 title: Event Logging Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

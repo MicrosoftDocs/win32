@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon attribute
 description: The total number of failed interactive logons up until the last successful C-A-D logon.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8ad62fea-7b65-4948-9256-f48bdb792e39
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

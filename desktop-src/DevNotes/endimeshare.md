@@ -2,7 +2,6 @@
 Description: Terminates IME Share.
 ms.assetid: aa33b5ed-fd4a-4829-9b7f-d545a4e7bd02
 title: EndIMEShare function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

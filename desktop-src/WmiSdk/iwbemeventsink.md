@@ -1,12 +1,8 @@
 ---
 Description: Initiates communication with an event provider using a restricted set of queries.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dd076dd0-ed39-47a2-86fb-a595baf3f464
 ms.tgt_platform: multiple
 title: IWbemEventSink interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

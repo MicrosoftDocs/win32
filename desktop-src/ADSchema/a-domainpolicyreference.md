@@ -1,9 +1,6 @@
 ---
 title: Domain-Policy-Reference attribute
 description: The Distinguished Name of a domain policy object that a policy object copies from.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 914920de-6dc2-4dda-bf10-a34f5315eb74
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-Policy-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

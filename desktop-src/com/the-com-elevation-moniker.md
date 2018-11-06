@@ -2,7 +2,6 @@
 title: The COM Elevation Moniker
 description: The COM elevation moniker allows applications that are running under user account control (UAC) to activate COM classes with elevated privileges. For more information, see Focus on Least Privilege.
 ms.assetid: 1595ebb8-65af-4609-b3e7-a21209e64391
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

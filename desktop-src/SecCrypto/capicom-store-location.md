@@ -2,7 +2,6 @@
 Description: Indicates the location of a certificate store.
 ms.assetid: b0c64e54-7139-4945-9802-6e6c479481e2
 title: CAPICOM_STORE_LOCATION enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ITSRemoteProgram2 RemoteApplicationName property
 description: The name of the RemoteApp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e6bde351-dd4c-4b14-bb11-f155c526aced
 ms.tgt_platform: multiple
 keywords:
@@ -23,7 +20,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

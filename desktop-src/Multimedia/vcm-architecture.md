@@ -5,7 +5,6 @@ ms.assetid: cb0b036d-b8b1-4611-965f-08f932dbddb7
 keywords:
 - Video for Windows (VFW),VCM architecture
 - VFW (Video for Windows),VCM architecture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

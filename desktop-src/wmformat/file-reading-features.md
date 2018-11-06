@@ -16,7 +16,6 @@ keywords:
 - synchronous file reading
 - synchronous readers,file reading features
 - file reading
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

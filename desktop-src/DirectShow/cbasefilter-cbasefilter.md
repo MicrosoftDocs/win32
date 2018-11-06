@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: 705a075e-3f0f-4e7d-94b6-3458f87b6718
 title: CBaseFilter.CBaseFilter(const TCHAR*, LPUNKNOWN, CCritSec*, REFCLSID, HRESULT*) constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

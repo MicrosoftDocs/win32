@@ -2,7 +2,6 @@
 Description: Suffix attached to the contact's name.
 ms.assetid: b3a6eda1-ae0e-48f0-968e-930ee0c06971
 title: System.Contact.Suffix
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

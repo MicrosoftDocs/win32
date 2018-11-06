@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Certificate-Application-Policy attribute
 description: The application policy OID's in a certificate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 91e98ec9-0e8d-4950-a62c-9b6901ec4d97
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Certificate-Application-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

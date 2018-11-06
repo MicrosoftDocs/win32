@@ -2,7 +2,6 @@
 Description: Media Detector (MediaDet)
 ms.assetid: 5cdbb6ca-d2c3-4123-b545-198863fed25f
 title: Media Detector (MediaDet)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

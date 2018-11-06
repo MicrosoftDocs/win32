@@ -2,7 +2,6 @@
 Description: It is important that you understand the required DLL structure of a filter handler (an implementation of the IFilter interface).
 ms.assetid: a2b5a813-573a-44d3-8780-99603e3246c1
 title: Implementing Filter Handlers in Windows Search
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

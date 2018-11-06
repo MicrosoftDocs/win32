@@ -2,7 +2,6 @@
 Description: Removes feature settings from a virtual machine Ethernet connection.
 ms.assetid: 457056d0-7e69-47e4-8744-0136a1816f4a
 title: RemoveFeatureSettings method of the Msvm_VirtualSystemManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

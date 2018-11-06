@@ -7,7 +7,6 @@ keywords:
 - online stores,navigating
 - type 2 online stores,navigating
 - navigating type 2 online stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

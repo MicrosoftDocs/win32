@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Content class
 description: Represents a container for ms-DFSR-ContentSet objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b1defe9e-46d8-4db8-b885-0196fd218332
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Content
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

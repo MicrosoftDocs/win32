@@ -1,9 +1,6 @@
 ---
 title: State-Or-Province-Name attribute
 description: The name of a user's state or province.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2096318e-29bf-4021-a422-371835f3a62b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - State-Or-Province-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

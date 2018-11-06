@@ -2,7 +2,6 @@
 Description: Creating Kernel-Mode Filters
 ms.assetid: cbc86a5d-c53a-44a0-aa81-5c41527a8f67
 title: Creating Kernel-Mode Filters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: VML Clip Attribute
 description: VML Clip Attribute
 ms.assetid: 8839c10e-96dd-4419-9f02-80033a4633e9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

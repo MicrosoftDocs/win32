@@ -1,9 +1,6 @@
 ---
 title: ms-FRS-Hub-Member attribute
 description: The ms-FRS-Hub-Member attribute is used to record the preferred NTFRS topology settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: df8623e0-745a-46f8-a696-8f6e7014fd2b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-FRS-Hub-Member
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Name-Service-Flags attribute
 description: Configuration flags for RPC Name Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f32cd2fb-4a0a-4a1b-873b-3e4d893f80cd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Name-Service-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Specify information about the performance object to which the WMI performance counter class is mapped.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7b8b7f00-95d8-4c1e-8638-157d0f4c7c32
 ms.tgt_platform: multiple
 title: Class Qualifiers for Performance Counter Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

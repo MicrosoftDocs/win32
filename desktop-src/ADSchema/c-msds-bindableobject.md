@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Bindable-Object class
 description: Auxiliary class to represent a bindable object. Any user-defined class that represents an entity that can be used to bind to the directory (that is, a user), should include this auxiliary class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 181b3e2b-9442-4f11-9af7-4697491115f3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Bindable-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

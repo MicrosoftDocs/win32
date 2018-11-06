@@ -2,7 +2,6 @@
 Description: Specifies the common transcode encoding profile.
 ms.assetid: 25315E05-2988-4E1A-8128-8420C8DBBB7C
 title: CODECAPI_AVEncCommonTranscodeEncodingProfile property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

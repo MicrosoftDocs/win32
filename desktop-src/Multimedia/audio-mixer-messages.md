@@ -10,7 +10,6 @@ keywords:
 - audio mixers,messages
 - mixers,messages
 - reference for audio mixers,messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

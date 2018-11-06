@@ -1,14 +1,10 @@
 ---
 title: Example Code for Removing a Member from a Group
 description: The following code example contains a function that removes a member from a group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8a9c65bb-1b61-432b-9ef4-1d257c501026
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , removing a member from a group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

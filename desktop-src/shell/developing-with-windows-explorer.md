@@ -2,7 +2,6 @@
 Description: Windows Explorer is a powerful resource-browsing and management application.
 ms.assetid: 879CE652-EDC0-4a14-925E-C83763133BE5
 title: Developing with Windows Explorer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

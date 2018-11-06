@@ -2,7 +2,6 @@
 Description: The GetDefaultFPS method retrieves the source object's default frame rate. The render engine uses this value if it cannot determine the frame rate from the original source.
 ms.assetid: c167cd85-e9bb-46ff-9b35-c88898a6c5a3
 title: IAMTimelineSrc::GetDefaultFPS method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: COM+ Transactions
 ms.assetid: 40eccce1-a362-4adc-8060-f6923b9162c9
 title: COM+ Transactions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The device address type describes the forms of addressing permissible on an address, such as a phone number or an IP address.
 ms.assetid: b474dfca-c4a6-4aab-a4dd-5aec7be3e02a
 title: Address Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

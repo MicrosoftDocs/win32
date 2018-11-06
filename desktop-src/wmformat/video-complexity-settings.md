@@ -8,7 +8,6 @@ keywords:
 - codecs,video complexity settings
 - codecs,complexity settings for video
 - video complexity settings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

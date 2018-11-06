@@ -1,9 +1,6 @@
 ---
 title: Win32_VirtualDesktopSession class
 description: Manages a virtual desktop session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a5a0d2a4-6e19-42ac-988c-2d3787946325
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

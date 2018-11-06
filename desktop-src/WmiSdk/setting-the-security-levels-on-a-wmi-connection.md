@@ -1,12 +1,8 @@
 ---
 Description: After you retrieve a pointer to an IWbemServices proxy, you must set the security on the proxy to access WMI through the proxy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dd453e0e-aa1f-4ef1-ab21-613630b2758c
 ms.tgt_platform: multiple
 title: Setting the Security Levels on a WMI Connection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

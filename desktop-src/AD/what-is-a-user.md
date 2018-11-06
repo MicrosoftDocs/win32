@@ -1,15 +1,11 @@
 ---
 title: What is a User
 description: User accounts are created and stored as objects in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: da13d21a-1d8b-4d03-8880-7146e6fc4ba9
 ms.tgt_platform: multiple
 keywords:
 - What is a User Active Directory
 - users Active Directory , what is a user
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

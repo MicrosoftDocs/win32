@@ -2,7 +2,6 @@
 Description: The Reply method replies to a request.
 ms.assetid: 90e91b99-6a1c-46a2-b83d-eba483f1832a
 title: CAMThread.Reply method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

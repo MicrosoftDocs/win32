@@ -1,7 +1,6 @@
 ---
 Description: For Control Panel items that are implemented as .exe files, no special exports or message handling is required. Any .exe file can be registered as a command object to appear with an entry point in the Control Panel folder.
 title: How to Register Executable Control Panel Items
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -11,7 +11,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),querying output devices
 - playing MIDI files,querying output devices
 - querying MIDI output devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

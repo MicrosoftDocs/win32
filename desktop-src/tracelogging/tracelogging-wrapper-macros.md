@@ -2,7 +2,6 @@
 title: TraceLogging Wrapper Macros
 description: Lists the wrapper macros for TraceLogging providers.
 ms.assetid: 806F43F3-D376-4DBD-A4C5-B5F01E5D009D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

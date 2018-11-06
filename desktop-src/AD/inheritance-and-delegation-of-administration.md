@@ -1,15 +1,11 @@
 ---
 title: Inheritance and Delegation of Administration
 description: Describes AD DS support for the inheritance of permissions down the object tree and also object-specific inheritance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: db9cf8d9-6831-4456-b2a5-9f5b4f3e9100
 ms.tgt_platform: multiple
 keywords:
 - administration inheritance and delegation Active Directory
 - Active Directory Active Directory ,permissions inheritance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

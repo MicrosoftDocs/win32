@@ -2,7 +2,6 @@
 title: IVMVirtualNetwork Methods
 description: The IVMVirtualNetwork interface exposes the following methods.
 ms.assetid: A7CDF9F0-9782-430B-BEDE-1F74C0EB4AF2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

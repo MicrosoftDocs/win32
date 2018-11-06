@@ -1,9 +1,6 @@
 ---
 title: Current-Parent-CA attribute
 description: Reference to the certification authorities that issued the current certificates for a certification authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9b851a7f-4a69-46f2-b7e2-6ee0b2d8eec1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Current-Parent-CA
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

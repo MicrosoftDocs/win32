@@ -2,7 +2,6 @@
 title: ret (sm4 - asm)
 description: Return statement.
 ms.assetid: 1B690036-99C5-441D-9DD3-E09D43E48AFF
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

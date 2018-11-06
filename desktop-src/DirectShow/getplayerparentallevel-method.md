@@ -2,7 +2,6 @@
 Description: The GetPlayerParentalLevel retrieves the parental management level set in the MSWebDVD object.
 ms.assetid: 451e0891-4e5d-4a01-94b8-290f5a804ff1
 title: GetPlayerParentalLevel Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

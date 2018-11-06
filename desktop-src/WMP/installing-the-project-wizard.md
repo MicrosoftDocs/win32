@@ -36,7 +36,6 @@ keywords:
 - plug-in wizard
 - installing project wizard
 - project wizard
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

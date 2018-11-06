@@ -2,7 +2,6 @@
 Description: The CCHeapReAlloc function reallocates memory allocated by the CCHeapAlloc function.
 ms.assetid: 82365ce2-3980-44ff-be0f-062a65f676fc
 title: CCHeapReAlloc function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

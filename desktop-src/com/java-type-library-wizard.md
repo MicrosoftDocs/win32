@@ -2,7 +2,6 @@
 title: Java Type Library Wizard
 description: The Java Type Library Wizard is a component of Visual J++ 5.0. This wizard generates class files and Java type library information for a COM object.
 ms.assetid: aba0b946-7544-4346-840c-b337b2c2afdf
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

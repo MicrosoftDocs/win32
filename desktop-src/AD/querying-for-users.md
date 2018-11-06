@@ -1,15 +1,11 @@
 ---
 title: Querying for Users
 description: To query for a user, the query must contain the search expression \ 0034;( (objectClass user)(objectCategory person)) \ 0034;.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a9f12de4-e1e2-41bb-b2cc-ff9c9fa1c39a
 ms.tgt_platform: multiple
 keywords:
 - users AD , querying for users
 - Active Directory, using, users, querying for users
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

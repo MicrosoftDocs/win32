@@ -2,7 +2,6 @@
 Description: A protected server can use the following functions to generate audit reports in the security event log.
 ms.assetid: 4edee246-4fa7-4947-9737-34198f36e3ab
 title: Auditing Access To Private Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

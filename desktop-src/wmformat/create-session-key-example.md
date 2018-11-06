@@ -25,7 +25,6 @@ keywords:
 - Client Extended APIs,code examples
 - session keys
 - content keys
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

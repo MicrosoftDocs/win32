@@ -2,7 +2,6 @@
 Description: ASF Attributes
 ms.assetid: c1570669-6e9c-4614-af4d-2a148f12e36f
 title: ASF Attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

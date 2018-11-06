@@ -1,12 +1,8 @@
 ---
 title: General programming guidelines
 description: Guidelines for developing applications in a Remote Desktop Services environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 95b49db5-ba3c-4638-9087-6ee3972d8972
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

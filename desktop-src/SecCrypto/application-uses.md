@@ -2,7 +2,6 @@
 Description: Certificate Services issues certificates that can be used in public key infrastructure (PKI) applications.
 ms.assetid: 2e6482b5-382d-4b17-b71e-6d2e4483a45e
 title: Application Uses
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

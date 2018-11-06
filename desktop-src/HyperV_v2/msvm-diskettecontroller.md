@@ -2,7 +2,6 @@
 Description: Represents the floppy controller in the virtual machine.
 ms.assetid: 38A19BF3-0E8F-4DCE-B2DB-B2E3F8100E00
 title: Msvm_DisketteController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

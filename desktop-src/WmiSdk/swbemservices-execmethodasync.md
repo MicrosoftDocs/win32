@@ -1,12 +1,8 @@
 ---
 Description: Executes a method that is exported by a method provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 933a4c64-7538-474e-9f6f-f94da6066b46
 ms.tgt_platform: multiple
 title: SWbemServices.ExecMethodAsync method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

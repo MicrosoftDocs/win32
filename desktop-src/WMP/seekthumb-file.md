@@ -11,7 +11,6 @@ keywords:
 - skins,SeekThumb files
 - SeekThumb files in skins
 - thumb,SeekThumb files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

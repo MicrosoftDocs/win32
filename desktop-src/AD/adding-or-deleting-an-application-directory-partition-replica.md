@@ -1,15 +1,11 @@
 ---
 title: Adding or Deleting an Application Directory Partition Replica
 description: The first replica of an application directory partition is created on the domain controller that was bound to it at creation time.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2dafc822-d0e8-4960-9a45-cc21d1d2924c
 ms.tgt_platform: multiple
 keywords:
 - Adding or Deleting an Application Directory Partition Replica AD
 - Application Directory Partitions AD , Adding or Deleting a Partition Replica
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

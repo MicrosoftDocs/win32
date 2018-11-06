@@ -2,7 +2,6 @@
 Description: Memory pressure reporting enables a Direct3D application to determine when its video-memory working set has grown too large.
 ms.assetid: 3aa2f81e-81a1-40a3-ad24-72781d36f713
 title: Memory Pressure Reporting
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

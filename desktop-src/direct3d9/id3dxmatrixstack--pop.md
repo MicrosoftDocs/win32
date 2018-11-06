@@ -2,7 +2,6 @@
 Description: Removes the current matrix from the top of the stack.
 ms.assetid: 4c542012-058a-4818-8ec4-27e7d3357ca3
 title: ID3DXMATRIXStack::Pop method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

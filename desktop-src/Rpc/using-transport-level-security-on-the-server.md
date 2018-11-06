@@ -4,7 +4,6 @@ description: Using transport-level security on the server with Remote Procedure 
 ms.assetid: 8ad86d46-cdc8-44f0-bb56-4d5069f33e64
 keywords:
 - Remote Procedure Call RPC , tasks, using transport-level security on the server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

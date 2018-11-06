@@ -1,9 +1,6 @@
 ---
 title: Policy-Replication-Flags attribute
 description: Determines which LSA properties are replicated to clients.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2dadd659-c834-4105-ab3e-8ce0b8811212
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Policy-Replication-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

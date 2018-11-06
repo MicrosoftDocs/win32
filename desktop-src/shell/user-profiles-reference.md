@@ -1,7 +1,6 @@
 ---
 Description: The following API elements are used with user profiles.
 title: User Profiles Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings SmartSizing property
 description: Specifies if the display should be scaled to fit the client area of the control. Note that scroll bars do not appear when the SmartSizing property is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d0b93129-5f84-49c5-bf8c-048075ac1481
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: DS-UI-Settings class
 description: Used to store configuration settings used by the Active Directory Users and Computers snap-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b638cb25-3de6-4e3c-a3a3-6b17a8976388
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DS-UI-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

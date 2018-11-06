@@ -2,7 +2,6 @@
 title: Routing and Remote Access Service
 description: .
 ms.assetid: fa0a183a-0254-401e-8b78-441cb3f83e8b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

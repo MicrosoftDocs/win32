@@ -13,7 +13,6 @@ keywords:
 - RIFF (resource interchange file format)
 - RIFF I/O
 - RIFF chunk
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

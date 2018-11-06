@@ -4,7 +4,6 @@ description: Asynchronous storage enhances the COM structured storage specificat
 ms.assetid: 12b97059-2c8c-4712-8a76-03c3ce7094a0
 keywords:
 - Structured Storage Strctd Stg , asynchronous storage
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

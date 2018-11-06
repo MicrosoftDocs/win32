@@ -2,7 +2,6 @@
 Description: Authors of installation packages should include upgrading information in their .msi files to ensure that their installation package can take advantage of the full upgrading functionality available with the Microsoft Windows Installer.
 ms.assetid: 88bb2709-a1bf-4140-a145-ae6bee85dde1
 title: Preparing an Application for Future Major Upgrades
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

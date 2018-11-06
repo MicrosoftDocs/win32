@@ -2,7 +2,6 @@
 Description: Links to documentation for the IAzRole interoperability wrapper methods and properties.
 ms.assetid: 657883c2-f43e-4a6f-b18b-d252a2841b36
 title: Microsoft.Interop.Security.AzRoles.IAzRole interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

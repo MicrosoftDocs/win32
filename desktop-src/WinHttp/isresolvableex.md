@@ -2,7 +2,6 @@
 Description: Determines if a given host string can resolve to an IP address.
 ms.assetid: 83e52ca7-2ea0-419d-b09d-9301c1982b98
 title: isResolvableEx function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

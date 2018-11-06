@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),writer sinks
 - sinks,adding to the writer
 - writer sinks,adding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

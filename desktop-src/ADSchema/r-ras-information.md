@@ -1,9 +1,6 @@
 ---
 title: RAS-Information property set
 description: System Internal Do not use or modify this right.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8dd3e124-4625-4115-870e-b90f69de24b6
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - RAS-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

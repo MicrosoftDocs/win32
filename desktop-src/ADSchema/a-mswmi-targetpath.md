@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-TargetPath attribute
 description: List of key/value pairs for uniquely identifying a WMI object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b5d6c718-86f6-40a5-8fb1-e3ed4821ac62
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-TargetPath
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

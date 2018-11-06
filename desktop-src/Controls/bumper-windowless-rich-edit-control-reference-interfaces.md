@@ -2,7 +2,6 @@
 title: Windowless Rich Edit Interfaces
 description: .
 ms.assetid: 091ca540-c255-46b0-b243-64576e75a362
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -14,7 +14,6 @@ keywords:
 - I/O (input and output),deleting files
 - deleting I/O files
 - mmioOpen function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Max-Renew-Age attribute
 description: This attribute determines the time period, in days, during which a user's ticket-granting ticket (TGT) can be renewed for purposes of Kerberos authentication. The default setting is 7 days in the Default Domain Group Policy object (GPO).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9e4023d1-b88b-44c9-802b-03387614211d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Max-Renew-Age
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

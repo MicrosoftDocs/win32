@@ -2,7 +2,6 @@
 Description: Describes how to write the contents of an XPS OM in a program to an XPS document file.
 ms.assetid: 8bee8059-b901-4a99-a7e4-60dad831c239
 title: Write an XPS OM to an XPS Document
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

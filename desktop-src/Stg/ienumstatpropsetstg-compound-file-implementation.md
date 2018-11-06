@@ -4,7 +4,6 @@ description: The compound file implementation of the IEnumSTATPROPSETSTG interfa
 ms.assetid: 1ce36e40-518c-411b-be5a-835a2dd0995e
 keywords:
 - IEnumSTATPROPSETSTG Strctd Stg , compound file implementation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

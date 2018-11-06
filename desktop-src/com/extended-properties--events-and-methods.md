@@ -2,7 +2,6 @@
 title: Extended Properties, Events and Methods
 description: Extended Properties, Events and Methods
 ms.assetid: 5de6016a-0deb-416b-b550-79fefd8b1b8e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

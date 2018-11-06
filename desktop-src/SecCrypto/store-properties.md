@@ -2,7 +2,6 @@
 Description: The Store object exposes the following properties.
 ms.assetid: 'fd3e7481-90e0-430b-a0d5-965c197bec81'
 title: Store Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

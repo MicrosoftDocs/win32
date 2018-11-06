@@ -2,7 +2,6 @@
 title: Common Resource Attributes
 description: The resource-definition statements supported on 16-bit Windows include a load-mem option that specifies the loading and memory characteristics of the resource.
 ms.assetid: 53740997-854b-447c-9ab1-de8e17c0de1e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

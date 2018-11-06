@@ -2,7 +2,6 @@
 Description: Creates a new list TAG for write operations.
 ms.assetid: 3a52e2f2-9648-45fb-b487-ccfe5ed24f7f
 title: SdbBeginWriteListTag function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

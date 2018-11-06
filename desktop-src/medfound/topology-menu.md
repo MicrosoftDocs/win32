@@ -2,7 +2,6 @@
 Description: Topology Menu
 ms.assetid: 95c78b37-0b9d-444e-ad69-3f1ff2a8dcf7
 title: Topology Menu
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

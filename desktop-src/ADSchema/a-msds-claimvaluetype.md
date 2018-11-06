@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Value-Type attribute
 description: For a claim type object, specifies the value type of the claims issued.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0e5e5281-55ee-4b1c-88c3-e88e3076d822
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Value-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

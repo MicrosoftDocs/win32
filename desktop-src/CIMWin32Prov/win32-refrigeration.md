@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_Refrigeration &\#32; WMI class represents the properties of a refrigeration device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d67ce648-5659-49e5-9427-7c4dbcdfda8c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Refrigeration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

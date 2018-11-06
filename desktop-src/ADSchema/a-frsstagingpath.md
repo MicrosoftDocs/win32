@@ -1,9 +1,6 @@
 ---
 title: FRS-Staging-Path attribute
 description: The path to the file replication staging area.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f4b5ec14-3510-4b0e-954e-7793563754f2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Staging-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

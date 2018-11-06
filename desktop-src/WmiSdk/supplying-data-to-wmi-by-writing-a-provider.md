@@ -1,12 +1,8 @@
 ---
 Description: A WMI provider creates a group of supported classes, instances, and events to pass data to WMI. In turn, a management application or script can call provider methods to manipulate provider-supplied data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 919dfa7c-4a36-4e59-8377-72cf9735eaec
 ms.tgt_platform: multiple
 title: Supplying Data to WMI by Writing a Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

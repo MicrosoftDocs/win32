@@ -12,7 +12,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),event callback
 - playing MIDI files,event callback
 - event callback
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

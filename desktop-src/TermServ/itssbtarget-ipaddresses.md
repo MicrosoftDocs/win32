@@ -1,9 +1,6 @@
 ---
 title: ITsSbTarget IpAddresses property
 description: Retrieves or specifies the external IP addresses of the target.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 938a753c-d541-4772-b41b-817324488685
 ms.tgt_platform: multiple
 keywords:
@@ -32,7 +29,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

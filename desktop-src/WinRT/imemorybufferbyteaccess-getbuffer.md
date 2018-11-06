@@ -2,7 +2,6 @@
 Description: Gets an IMemoryBuffer as an array of bytes.
 ms.assetid: E9C2AF2D-ADBE-4D76-A549-2DBCB9818B09
 title: IMemoryBufferByteAccess::GetBuffer method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

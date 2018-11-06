@@ -1,15 +1,11 @@
 ---
 title: ADSI Error Codes
 description: All ADSI error codes are returned as COM HRESULT values.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 573889e4-37af-4aca-afd7-ef06bcf8aa0d
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,reference,error codes
 - error codes ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Copies the logical paging file or directory specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a8376dc8-eb73-4097-b84c-839432ac3a25
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CopyEx method of the Win32_PageFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

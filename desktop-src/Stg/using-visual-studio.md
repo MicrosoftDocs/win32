@@ -2,7 +2,6 @@
 title: Using Visual Studio
 description: For convenience, Microsoft Visual Studio 6.0 provides a project file for each sample.
 ms.assetid: 8da6affd-a881-4dc4-a2e6-d35f655c69fe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The WM\_PRINT message is sent to a window to request that it draw itself in the specified device context, most commonly in a printer device context.
 ms.assetid: e6be2ecd-603a-405f-8a48-68d971e1f6de
 title: WM_PRINT message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

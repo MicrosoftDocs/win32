@@ -2,7 +2,6 @@
 Description: The Mobile Broadband API defines and uses the following interfaces.
 ms.assetid: db6c9635-16f9-4266-9d0e-daeb58fac588
 title: Mobile Broadband API Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Controls the way instances are created or updated depending on the flags specified.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9932edf2-2e5f-4c5e-9889-f2be4af11bf2
 ms.tgt_platform: multiple
 title: pragma instanceflags
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

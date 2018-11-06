@@ -2,7 +2,6 @@
 Description: The system provides six stock fonts.
 ms.assetid: 349ea57f-dd25-4e33-bbdf-63a320eae3a0
 title: Using a Stock Font to Draw Text
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

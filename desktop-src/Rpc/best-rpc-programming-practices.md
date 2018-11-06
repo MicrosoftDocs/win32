@@ -4,7 +4,6 @@ description: The following sections provide guidance on RPC programming practice
 ms.assetid: 83aae673-f7ef-40b5-abac-7b85ead801ac
 keywords:
 - Remote Procedure Call RPC , best practices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

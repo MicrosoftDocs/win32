@@ -1,12 +1,8 @@
 ---
 Description: The following lists the qualifiers use to define View Provider classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 31a6af2d-33da-44f2-86d7-c467dd2f3e00
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the View Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

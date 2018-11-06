@@ -2,7 +2,6 @@
 Description: This topic contains example code for using Output Protection Manager.
 ms.assetid: ad2303a0-f3f3-43a0-83eb-023640da2ece
 title: OPM Example Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

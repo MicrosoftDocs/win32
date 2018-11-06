@@ -2,7 +2,6 @@
 title: Scroll Bar (MSAA UI Element Reference)
 description: Scroll bars let a user choose the direction and distance to scroll through information in a related window or list box. The window class name for a scroll bar is \ 0034;SCROLLBAR \ 0034;.
 ms.assetid: a4ec1708-d751-4526-bd69-9796c43872a0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

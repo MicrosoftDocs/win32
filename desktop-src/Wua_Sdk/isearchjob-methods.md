@@ -2,7 +2,6 @@
 Description: The ISearchJob interface defines the following methods.
 ms.assetid: bb15e1fe-4ac3-4666-b28c-d580d9c33660
 title: ISearchJob Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

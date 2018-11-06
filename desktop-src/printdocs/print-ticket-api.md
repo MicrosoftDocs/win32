@@ -2,7 +2,6 @@
 Description: The Print Ticket API provides enables applications to manage and convert print tickets.
 ms.assetid: 4f854c1a-f2e1-48c4-9cc1-8a0fcf1bebed
 title: Print Ticket API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

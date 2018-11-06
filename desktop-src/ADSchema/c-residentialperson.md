@@ -1,9 +1,6 @@
 ---
 title: Residential-Person class
 description: Used to define entries that represent a person in the residential environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d11e4a7-2824-4eb2-8c87-48113e65c936
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Residential-Person
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

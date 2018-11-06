@@ -1,9 +1,6 @@
 ---
 title: MS-DS-Machine-Account-Quota attribute
 description: The number of computer accounts that a user is allowed to create in a domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bcfc6a9c-b891-48c2-9c42-8154345caf08
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-DS-Machine-Account-Quota
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

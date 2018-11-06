@@ -7,7 +7,6 @@ keywords:
 - registry redirector 64-bit Windows Programming
 - redirection 64-bit Windows Programming
 - WOW64 64-bit Windows Programming , registry redirector
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

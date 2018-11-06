@@ -2,7 +2,6 @@
 title: How to Use Tile Views
 description: This topic demonstrates how to set the tile view for a list-view control.
 ms.assetid: BDE17F4B-3A15-48BB-8160-036AD0DC3B41
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

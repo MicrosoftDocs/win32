@@ -2,7 +2,6 @@
 Description: Not implemented.
 ms.assetid: b803ba33-d698-449f-a540-3981c4f0826a
 title: IAMTimeline::SetInterestRange method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,6 @@
 ---
 Description: Represent options available when displaying a pop-up menu.
 title: MP_POPUPFLAGS constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

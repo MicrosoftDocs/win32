@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Connection Broker client enumerations
 description: The Remote Desktop Connection Broker client API defines the following enumerations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: BBA7E745-8DA3-4974-BB60-2BADEE68DAA4
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: VML Aspect Attribute
 description: VML Aspect Attribute
 ms.assetid: 5486ed48-d28f-4bbb-b8ed-fc5a5aa12f25
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

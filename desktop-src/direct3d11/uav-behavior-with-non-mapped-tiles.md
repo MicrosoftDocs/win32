@@ -2,7 +2,6 @@
 title: UAV behavior with non-mapped tiles
 description: Behavior of unordered access view (UAV) reads and writes depends on the level of hardware support.
 ms.assetid: 26C40D1F-983B-4E5B-99F3-FD4E47BE1D7D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

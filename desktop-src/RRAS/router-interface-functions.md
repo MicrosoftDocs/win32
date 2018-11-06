@@ -2,7 +2,6 @@
 title: Router Interface Functions
 description: Use the following functions to administer interfaces on the router.
 ms.assetid: e988753e-908a-4c42-aad3-dd9f641c90a9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

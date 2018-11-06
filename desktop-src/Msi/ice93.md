@@ -2,7 +2,6 @@
 Description: ICE93 issues a warning if a custom action uses the same name as a standard action. For a list of all standard action names, see Standard Actions Reference.
 ms.assetid: 1c1ff9bf-84a2-45ac-b464-ecc42a4d2d84
 title: ICE93
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

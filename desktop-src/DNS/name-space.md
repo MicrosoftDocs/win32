@@ -2,7 +2,6 @@
 title: Name Space
 description: A name space is a context within which the names of all objects must be unambiguously resolvable.
 ms.assetid: 7731f6b5-1efa-43bc-bd31-9b5183ec90dc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

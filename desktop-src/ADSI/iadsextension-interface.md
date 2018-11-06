@@ -1,16 +1,12 @@
 ---
 title: IADsExtension Interface
 description: This topic contains C++ code examples for using the IADsExtension interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fa94cc55-1ab2-4b6e-a3b6-8c20542adb42
 ms.tgt_platform: multiple
 keywords:
 - IADsExtension ADSI ,using
 - ADSI ADSI ,example code C/C++ ,using IADsExtension
 - extensions ADSI ,IADsExtension
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

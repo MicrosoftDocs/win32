@@ -2,7 +2,6 @@
 title: Saturate
 description: Clamps the result of a single or double precision floating point arithmetic operation to \ 0.0f...1.0f\ range.
 ms.assetid: 'ce3e79c7-c3e6-4a2c-910a-2cd568aece50'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

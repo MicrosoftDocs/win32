@@ -15,7 +15,6 @@ keywords:
 - asynchronous readers,reading metadata
 - synchronous readers,reading metadata
 - metadata,reading at playback
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

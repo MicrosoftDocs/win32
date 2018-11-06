@@ -1,9 +1,6 @@
 ---
 title: DsRestoreRegister function
 description: Registers a restore operation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 83a56985-89be-4a95-9a8d-7c6f78d61c9a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

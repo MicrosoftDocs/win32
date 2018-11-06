@@ -1,16 +1,12 @@
 ---
 title: Using IDirectorySearch and IDirectoryObject for Range Retrieval
 description: The IDirectoryObject or IDirectorySearch interfaces can be used to retrieve a range of property values. To do this, specify the attribute and range for one of the attributes requested in the query.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4d9d2a98-51d5-4326-b43e-a2ac3bc54a75
 ms.tgt_platform: multiple
 keywords:
 - IDirectorySearch ADSI , Using for ranging to retrieve members of a group
 - IDirectoryObject ADSI , Using for ranging to retrieve members of a group
 - Range Retrieval ADSI , Using IDirectorySearch and IDirectoryObject
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

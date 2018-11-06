@@ -2,7 +2,6 @@
 title: deriv_rty_fine (sm5 - asm)
 description: Computes the rate of change of components.
 ms.assetid: 7C5769A6-443C-4208-BD09-3DF3C5902624
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

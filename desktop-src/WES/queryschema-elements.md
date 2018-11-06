@@ -2,7 +2,6 @@
 title: Query Schema Elements
 description: The following are the elements that the Query Schema defines.
 ms.assetid: c728c4f1-79a8-4d08-aad5-bcdabb25f23c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

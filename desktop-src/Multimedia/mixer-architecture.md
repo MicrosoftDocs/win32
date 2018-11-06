@@ -14,7 +14,6 @@ keywords:
 - mixers,audio lines
 - mixers,architecture
 - mixers,controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

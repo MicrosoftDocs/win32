@@ -2,7 +2,6 @@
 Description: After an image has been selected, an application uses the IWiaDataTransfer interface (for applications running in Windows XP or earlier) or the IWiaTransfer interface (for applications running in Windows Vista or later) to transfer image data from imaging devices. See either Transfering Image Data in WIA 1.0 or Transferring Image Data in WIA 2.0 for details.
 ms.assetid: cf76e526-d63b-4ee5-ba3c-871f2051a82c
 title: Acquiring Images
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

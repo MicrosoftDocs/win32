@@ -1,9 +1,6 @@
 ---
 title: DS-Clone-Domain-Controller extended right
 description: Allow a DC to create a clone of itself.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dc41356b-9ad7-4e89-b5c8-945f3cc37cbc
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Clone-Domain-Controller
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

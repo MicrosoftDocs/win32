@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-intFlags2 attribute
 description: The ms-WMI-intFlags2 attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 26429344-6363-43e0-a2af-05cc774af8cb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-intFlags2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

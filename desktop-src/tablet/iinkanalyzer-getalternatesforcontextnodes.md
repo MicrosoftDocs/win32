@@ -2,7 +2,6 @@
 Description: Retrieves analysis alternates for the nodes in a specified IContextNodes collection.
 ms.assetid: 7d047808-4360-442d-8fd9-4ee4aeeed2c9
 title: IInkAnalyzer::GetAlternatesForContextNodes method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

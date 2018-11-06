@@ -2,7 +2,6 @@
 Description: The Session object controls the installation process.
 ms.assetid: 013959d9-900c-45f7-b742-17b0365d6107
 title: Session object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

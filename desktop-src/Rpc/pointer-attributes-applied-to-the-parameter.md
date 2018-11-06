@@ -2,7 +2,6 @@
 title: Pointer Attributes Applied to the Parameter
 description: Each pointer attribute (\ ref\ , \ unique\ , and \ ptr\ ) has characteristics that affect memory allocation. The following table summarizes these characteristics.
 ms.assetid: 25a609cd-efe7-4cbb-b80e-b6a3ad8cda38
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

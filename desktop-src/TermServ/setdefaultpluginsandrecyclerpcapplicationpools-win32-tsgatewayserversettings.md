@@ -1,9 +1,6 @@
 ---
 title: SetDefaultPluginsAndRecycleRpcApplicationPools method of the Win32_TSGatewayServerSettings class
 description: Sets the current authentication and authorization plug-ins for the Remote Desktop Gateway (RD Gateway) server and recycles the RPC application pools in IIS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1eac9e42-e533-4020-b2b6-571063f18c3c
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: SetProvider method of the Win32_SessionDirectoryVMMPlugin class
 description: Sets the name of the plug-in provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fefb7c19-2bab-4ae3-b88b-20da5fd19ff3
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

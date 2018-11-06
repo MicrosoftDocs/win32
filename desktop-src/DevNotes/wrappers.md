@@ -2,7 +2,6 @@
 Description: Wrappers
 ms.assetid: 0AADEF94-9C6F-4FE9-B272-579423FCB46E
 title: Wrappers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

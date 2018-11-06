@@ -1,9 +1,6 @@
 ---
 title: Show-In-Address-Book attribute
 description: This attribute is used to indicate in which MAPI address books an object will appear.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: de00da4d-7c04-4d1d-b375-ce3b5eb2f50f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Show-In-Address-Book
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: RDN attribute
 description: The Relative Distinguished Name (RDN) of an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 07fe0e81-1b18-4dbb-abca-a059a8bf993e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RDN
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

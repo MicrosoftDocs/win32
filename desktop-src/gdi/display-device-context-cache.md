@@ -2,7 +2,6 @@
 Description: The system maintains a cache of display device contexts that it uses for common, parent, and window device contexts.
 ms.assetid: b017453a-c2c5-4bb1-ae46-f303d5e200ca
 title: Display Device Context Cache
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

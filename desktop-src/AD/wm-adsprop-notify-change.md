@@ -1,9 +1,6 @@
 ---
 title: WM_ADSPROP_NOTIFY_CHANGE message
 description: The WM\_ADSPROP\_NOTIFY\_CHANGE message is used internally by the notification object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3dc36176-eebc-4b7d-9ee9-19d2f8c543b6
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,6 @@
 ---
 Description: Adds an entry to the most recently used (MRU) list.
 title: IACLCustomMRU::AddMRUString method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

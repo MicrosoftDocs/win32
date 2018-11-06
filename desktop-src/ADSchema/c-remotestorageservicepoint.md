@@ -1,9 +1,6 @@
 ---
 title: Remote-Storage-Service-Point class
 description: This class holds information about the remote storage location for files that are stored offline.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e50959ad-720d-4ac7-a0cc-ceff5d80b774
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Remote-Storage-Service-Point
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

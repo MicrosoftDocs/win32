@@ -2,7 +2,6 @@
 Description: Describes a Trusted Platform Module (TPM) device.
 ms.assetid: c923106f-126e-4e7e-822a-2fb715bbbc26
 title: CIM_TPM class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

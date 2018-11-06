@@ -2,7 +2,6 @@
 Description: To start a service or driver service, the service control program uses the StartService function.
 ms.assetid: 7d2ee779-1554-436a-a65c-f0322745f46a
 title: Service Startup
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

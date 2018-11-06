@@ -8,7 +8,6 @@ keywords:
 - codecs,supported
 - IWMCodecInfo3,about
 - codecs,IWMCodecInfo3 interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

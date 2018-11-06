@@ -5,7 +5,6 @@ ms.assetid: 'ccd140a1-06f6-4e6b-afa6-f7ac9b9ff904'
 keywords:
 - enumerating tasks Task Scheduler
 - enumerating tasks Task Scheduler , described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

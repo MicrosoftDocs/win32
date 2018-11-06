@@ -1,15 +1,11 @@
 ---
 title: Specifying Other Search Options with IDirectorySearch
 description: The IDirectorySearch interface provide additional control over how the search is performed through the use of search options.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 91b7ba90-99b3-4137-8e4e-8d0ccfb0ec13
 ms.tgt_platform: multiple
 keywords:
 - Specifying Other Search Options with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

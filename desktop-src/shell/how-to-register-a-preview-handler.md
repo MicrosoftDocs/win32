@@ -2,7 +2,6 @@
 Description: This topic explains how to register a preview handler associated with a given data type.
 ms.assetid: 5f194d29-d09f-4426-a63e-911db65ce700
 title: How to Register a Preview Handler
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

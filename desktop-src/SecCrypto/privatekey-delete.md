@@ -2,7 +2,6 @@
 Description: Deletes the private key container referenced by the PrivateKey object.
 ms.assetid: 80bbe46b-1ec5-4d47-82b0-5a3177f86389
 title: PrivateKey.Delete method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -41,7 +40,7 @@ This method does not return a value.
 
 ## Remarks
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This method deletes the private key container referenced by the [**PrivateKey**](privatekey.md) object as well as all private keys in the container. Anything encrypted using the public keys corresponding to the deleted private keys will no longer be able to be decrypted.
 
  

@@ -5,7 +5,6 @@ ms.assetid: 46dfd996-6d5f-4a77-87a9-daf1909e1509
 keywords:
 - retrieving working directory Task Scheduler
 - retrieving task properties Task Scheduler , working directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

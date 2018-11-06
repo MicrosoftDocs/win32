@@ -2,7 +2,6 @@
 title: How to Load a Bitmap from a Resource
 description: Shows how to load a Direct2D bitmap stored as an application resource.
 ms.assetid: 7285e6ea-ebc7-4693-8a77-99bff0b5d0d1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

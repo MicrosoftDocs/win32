@@ -2,7 +2,6 @@
 Description: The CheckBitFields method validates the color masks in a VIDEOINFO structure.
 ms.assetid: b03455aa-8d90-4fab-999d-7408d8417021
 title: CImageDisplay.CheckBitFields method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Creating a mounted folder is a two-step process.
 ms.assetid: 02ecdf93-1133-48af-a6c9-52142256673f
 title: Creating Mounted Folders
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

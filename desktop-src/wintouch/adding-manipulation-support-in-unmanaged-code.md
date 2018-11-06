@@ -13,7 +13,6 @@ keywords:
 - manipulations,IManipulationProcessor interface
 - _IManipulationEvents interface,manipulation support in unmanaged code
 - IManipulationProcessor interface,manipulation support in unmanaged code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

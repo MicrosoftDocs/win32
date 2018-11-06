@@ -7,7 +7,6 @@ keywords:
 - MIDL compiler MIDL , errors
 - compiler MIDL , errors
 - errors MIDL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

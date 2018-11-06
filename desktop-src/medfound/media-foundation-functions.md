@@ -2,7 +2,6 @@
 Description: Media Foundation Functions
 ms.assetid: 3018ffa7-e709-45b0-8b2b-7640d5633378
 title: Media Foundation Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: This section explains the structures defined and used by Microsoft 
 ms.assetid: 8d2f31f6-21d3-402c-b84b-960a2d03ff40
 keywords:
 - Remote Procedure Call RPC , reference, structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

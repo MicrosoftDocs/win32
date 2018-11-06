@@ -4,7 +4,6 @@ description: This topic shows how to initialize a static vertex buffer, that is,
 ms.assetid: 584a39d1-7629-429a-b451-64b1432cb48f
 keywords:
 - vertex buffer, creating
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Service-Instance class
 description: A connection point object used by the Windows Sockets Registration and Resolution (RnR) name service, which is accessed through the Windows Sockets WSA\ APIs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a9dfe942-c42d-4494-a1e6-ab03df5daecd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Instance
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

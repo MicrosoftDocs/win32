@@ -7,7 +7,6 @@ keywords:
 - storyboards Windows Animation ,adding transitions
 - transitions Windows Animation ,creating
 - transitions Windows Animation ,adding to storyboard
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

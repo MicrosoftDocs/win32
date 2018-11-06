@@ -1,12 +1,8 @@
 ---
 Description: An association between an instance of CIM\_VirtualSystemSettingData and the CIM\_VirtualSystemSettingData instance which represents the most recent snapshot upon which this object is based.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f6e93c22-077b-4604-8d0d-9584b1f4dce1
 ms.tgt_platform: multiple
 title: CIM_ParentChildSettingData class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +24,7 @@ api_location:
 
 An association between an instance of [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/mt146365) and the **CIM\_VirtualSystemSettingData** instance which represents the most recent snapshot upon which this object is based.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

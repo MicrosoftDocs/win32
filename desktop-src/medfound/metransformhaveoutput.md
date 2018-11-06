@@ -2,7 +2,6 @@
 Description: Sent by an asynchronous Media Foundation transform (MFT) when new output data is available from the MFT.
 ms.assetid: a9403ad3-81bf-4cd7-ba7f-816b901bb02c
 title: METransformHaveOutput event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: GetSecondaryConnectionString method of the Win32_RDMSDeploymentSettings class
 description: Retrieves the deployment-level database secondary connection string, which may be used to support password expiration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0de02752-6cbf-4c21-b752-a57ed58aeef1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

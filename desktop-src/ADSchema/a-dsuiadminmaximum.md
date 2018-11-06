@@ -1,9 +1,6 @@
 ---
 title: DS-UI-Admin-Maximum attribute
 description: This is the default maximum number of objects to be shown in a container by the admin UI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4ee84329-4ddf-4efa-a43b-f64e6d0e7f76
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DS-UI-Admin-Maximum
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

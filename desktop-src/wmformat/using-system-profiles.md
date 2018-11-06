@@ -6,7 +6,6 @@ keywords:
 - Windows Media Format SDK,system profiles
 - profiles,system
 - system profiles,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

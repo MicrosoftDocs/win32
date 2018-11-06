@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_StorageError class represents blocks of media or memory space that are mapped out-of-use due to errors. The key of the class is the StartingAddress property of the bytes in error.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e786aa39-4718-416b-b659-bf4b8d3e2851
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_StorageError class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -32,7 +26,7 @@ api_location:
 
 The **CIM\_StorageError** class represents blocks of media or memory space that are mapped out-of-use due to errors. The key of the class is the **StartingAddress** property of the bytes in error.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

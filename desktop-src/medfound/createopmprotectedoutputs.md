@@ -2,7 +2,6 @@
 Description: Creates protected output objects for a display device.
 ms.assetid: 616ffb38-173b-48d0-9352-422a61e5bb15
 title: CreateOPMProtectedOutputs function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # CreateOPMProtectedOutputs function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This function is used by [Output Protection Manager](output-protection-manager.md) (OPM) to access functionality in the display driver. Applications should not call this function.
 
  

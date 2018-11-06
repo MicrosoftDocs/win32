@@ -4,7 +4,6 @@ description: This page summarizes the new features of Windows Error Reporting (W
 ms.assetid: 6cdd6c64-ba67-40dc-9942-0371320f1881
 keywords:
 - Windows error reporting Windows Error Reporting , what's new
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

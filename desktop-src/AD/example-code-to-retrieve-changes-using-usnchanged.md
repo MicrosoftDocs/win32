@@ -1,14 +1,10 @@
 ---
 title: Example Code to Retrieve Changes Using USNChanged
 description: The following code example uses the uSNChanged attribute of an object in Active Directory Domain Services to retrieve changes since a previous query.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 519fd20f-9eb4-4702-9338-8cda899604bd
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , retrieving changes using USNChanged
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

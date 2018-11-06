@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Deleted-Link-v2 class
 description: Deleted DFS link in DFS namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e6caf91a-ff11-495c-a648-1ea07f335c2d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Deleted-Link-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

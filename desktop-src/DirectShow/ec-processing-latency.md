@@ -2,7 +2,6 @@
 Description: Indicates the amount of time that a component is taking to process each sample.
 ms.assetid: 84f81ee1-76d8-46fb-86ef-2500f8f4ef36
 title: EC_PROCESSING_LATENCY
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

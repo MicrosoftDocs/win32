@@ -1,12 +1,8 @@
 ---
 Description: Is a base class for all intrinsic events that relate to a class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 554bbabd-2639-40f5-8786-6df2188db0ec
 ms.tgt_platform: multiple
 title: '__ClassOperationEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

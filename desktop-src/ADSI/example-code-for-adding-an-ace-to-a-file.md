@@ -1,14 +1,10 @@
 ---
 title: Example Code for Adding an ACE to a File
 description: The following code example shows how to use the IADsSecurityUtility interface to add an ACE to a file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d47d3ebe-cc14-412d-be27-841e25b43c3a
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Adding an ACE to a File ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

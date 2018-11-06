@@ -4,7 +4,6 @@ description: Bluetooth for Windows supports the following socket options.
 ms.assetid: e2e305c2-e749-4566-8e24-c07a7a29c612
 keywords:
 - Bluetooth and Socket Options Bluetooth
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

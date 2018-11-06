@@ -2,7 +2,6 @@
 title: Data Notification
 description: Objects that consume data from an external source sometimes need to be informed when data in that source changes.
 ms.assetid: 286a1ecf-5255-4443-a17d-5ffa55ed0be1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

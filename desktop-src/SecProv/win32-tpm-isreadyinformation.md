@@ -2,7 +2,6 @@
 Description: Indicates whether the TPM is ready and provides additional information on the state of the TPM.
 ms.assetid: 1E348D77-979C-42FC-824D-7C57F7BAABE5
 title: Win32_Tpm::IsReadyInformation method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

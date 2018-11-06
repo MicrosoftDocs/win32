@@ -2,7 +2,6 @@
 Description: The ADVERTISE action is a top-level action called to install or remove advertised components.
 ms.assetid: d9c843e4-fcd9-4d47-9ca9-ffa83ed80574
 title: ADVERTISE Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

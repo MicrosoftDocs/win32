@@ -2,7 +2,6 @@
 Description: Specifies the type deallocator to be used by an operations stub function.
 ms.assetid: 52e6235d-90e6-4559-b17c-14ca3be896ff
 title: operationDeallocator element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

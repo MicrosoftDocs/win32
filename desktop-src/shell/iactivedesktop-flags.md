@@ -1,7 +1,6 @@
 ---
 Description: This section describes the flags used by IActiveDesktop interface methods.
 title: IActiveDesktop Flags
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

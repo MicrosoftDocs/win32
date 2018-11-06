@@ -2,7 +2,6 @@
 title: NDF Enumerated Types
 description: The following enumerated types support Network Diagnostics Framework (NDF)
 ms.assetid: ed50af4b-1b0b-4005-b052-ff7a2695f659
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

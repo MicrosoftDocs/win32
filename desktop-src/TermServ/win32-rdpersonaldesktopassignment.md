@@ -1,9 +1,6 @@
 ---
 title: Win32_RDPersonalDesktopAssignment class
 description: The list of personal desktop assignments.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3abf773d-8dc3-44ae-8887-1a1f38e29fbb
 ms.tgt_platform: multiple
 keywords:
@@ -26,7 +23,6 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

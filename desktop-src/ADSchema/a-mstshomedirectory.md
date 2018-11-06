@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Home-Directory attribute
 description: Terminal Services Home Directory specifies the Home directory for the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 07ee28e2-34c1-4091-a409-ff74001059c3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Home-Directory
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

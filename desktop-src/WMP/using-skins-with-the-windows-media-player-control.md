@@ -24,7 +24,6 @@ keywords:
 - ActiveX control,skins
 - skins,embedding ActiveX control
 - Windows Media Player skins,embedding ActiveX control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

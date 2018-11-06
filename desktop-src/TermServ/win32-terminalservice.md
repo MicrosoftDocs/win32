@@ -1,9 +1,6 @@
 ---
 title: Win32_TerminalService class
 description: A subclass of the Win32\_Service class. Win32\_TerminalService represents the Element property of the Win32\_TerminalServiceToSetting association.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 06c69d71-4e6f-48af-b13d-e593b8fcf376
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

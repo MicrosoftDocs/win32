@@ -2,7 +2,6 @@
 Description: Refreshes interface information for a specific wireless LAN interface.
 ms.assetid: 584b95b7-3218-4e3e-b5d9-9542488af16b
 title: WZCRefreshInterface function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Signals that a media source has started to buffer data.
 ms.assetid: 8637dfcd-2e0c-4cf4-a216-4089c201bfc6
 title: MEBufferingStarted event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

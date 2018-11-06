@@ -7,7 +7,6 @@ keywords:
 - skins,event handlers in JScript
 - events,JScript
 - JScript files for skins,event handlers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

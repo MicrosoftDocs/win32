@@ -2,7 +2,6 @@
 title: Interfaces
 description: The following interfaces are provided by COM.
 ms.assetid: 'aa9b11ae-7978-44ff-afe7-00c34bd235e3'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

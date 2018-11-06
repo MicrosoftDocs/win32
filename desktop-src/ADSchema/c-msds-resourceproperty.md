@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Resource-Property class
 description: An instance of this class holds the definition of a property on resources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 745048bc-d197-4ef1-a71c-46eb089a16d6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Resource-Property
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

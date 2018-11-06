@@ -1,15 +1,11 @@
 ---
 title: Referral Chasing with IDirectorySearch
 description: A referral is the mechanism that a directory server uses to direct a client to another server when it does not contain sufficient data about the object requested by a query.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef97eafd-5227-4dd7-9f8a-6b4591261f79
 ms.tgt_platform: multiple
 keywords:
 - Referral Chasing with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Referral Chasing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

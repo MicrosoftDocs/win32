@@ -2,7 +2,6 @@
 Description: The following structures are used by the setup functions.
 ms.assetid: 837F1864-CE2F-4A9A-A7D9-18EB8622541E
 title: Structures (Setup API)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

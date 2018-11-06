@@ -2,7 +2,6 @@
 Description: Destructor method.
 ms.assetid: 0792c355-5eb6-4747-b4c2-433ebefa1d08
 title: CSource.~CSource destructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

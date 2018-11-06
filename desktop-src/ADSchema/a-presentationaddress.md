@@ -1,9 +1,6 @@
 ---
 title: Presentation-Address attribute
 description: Specifies a presentation address associated with an object that represents an OSI application entity.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7684c953-6c66-41f0-964b-8bd1536e878f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Presentation-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

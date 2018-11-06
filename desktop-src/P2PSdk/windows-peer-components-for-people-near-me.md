@@ -2,7 +2,6 @@
 Description: Windows Peer Components for People Near Me
 ms.assetid: aa9e7d4d-4131-4578-8bd1-298f04b826f9
 title: Windows Peer Components for People Near Me
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

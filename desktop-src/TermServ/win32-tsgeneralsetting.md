@@ -1,9 +1,6 @@
 ---
 title: Win32_TSGeneralSetting class
 description: Represents general settings of the terminal such as the encryption level and transport protocol.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a31d68c0-e446-4d78-85e0-5173e7870255
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

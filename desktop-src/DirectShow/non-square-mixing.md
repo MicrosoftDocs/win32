@@ -2,7 +2,6 @@
 Description: Non-Square Mixing
 ms.assetid: 8d27a921-5638-43ac-807d-e3bd7b9b2de8
 title: Non-Square Mixing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

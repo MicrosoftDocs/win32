@@ -1,9 +1,6 @@
 ---
 title: WM_ADSPROP_NOTIFY_SETFOCUS message
 description: The WM\_ADSPROP\_NOTIFY\_SETFOCUS message is used internally by the notification object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 536b2f64-a918-478e-b7f4-f383642daafa
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Channel
 description: Channel
 ms.assetid: 6e8abd8e-aba2-47eb-9efc-8a960fafaf6c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

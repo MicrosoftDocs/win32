@@ -2,7 +2,6 @@
 Description: Lists the tools that are used in event tracing.
 ms.assetid: 7a1c9d8c-5bf4-4f0c-b815-5b70e53c5e2d
 title: Event Tracing Tools
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

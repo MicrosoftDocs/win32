@@ -1,12 +1,8 @@
 ---
 Description: WMI supports different threading models depending on how the provider is hosted and the type of provider functionality, such as Class or Property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cce3faf5-7bfe-46fe-9205-57398ab9dae9
 ms.tgt_platform: multiple
 title: Choosing Correct Registration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

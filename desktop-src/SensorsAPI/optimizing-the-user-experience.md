@@ -2,7 +2,6 @@
 Description: Optimizing the User Experience
 ms.assetid: 481d0b00-a3e2-46c6-883a-5ca183f5fead
 title: Optimizing the User Experience
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

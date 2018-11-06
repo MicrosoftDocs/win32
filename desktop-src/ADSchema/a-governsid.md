@@ -1,9 +1,6 @@
 ---
 title: Governs-ID attribute
 description: The unique object ID of the class defined by this Class-Schema object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d865966d-0130-4e99-8369-6c11e9f47a82
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Governs-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

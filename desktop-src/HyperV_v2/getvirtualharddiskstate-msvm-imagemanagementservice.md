@@ -2,7 +2,6 @@
 Description: Retrieves state information for a virtual hard disk file.
 ms.assetid: 398b098b-dc1a-45e0-abcb-37b4b0a32290
 title: GetVirtualHardDiskState method of the Msvm_ImageManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

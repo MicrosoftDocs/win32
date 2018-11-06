@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_BootConfiguration WMI class represents the boot configuration of a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c2db28dd-3feb-44bb-a532-c91cab980ba3
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_BootConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

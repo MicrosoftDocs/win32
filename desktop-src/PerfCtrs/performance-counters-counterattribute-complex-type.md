@@ -2,7 +2,6 @@
 Description: Defines an attribute of a counter that specifies how the counter data is displayed in a consumer application.
 ms.assetid: 3749501b-4f3e-42e5-b1d5-2700b6d4a48a
 title: counterAttribute Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

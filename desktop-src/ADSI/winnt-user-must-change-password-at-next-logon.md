@@ -1,16 +1,12 @@
 ---
 title: User Must Change Password at Next Logon (WinNT Provider)
 description: To enable this option, set the PasswordExpired attribute of the user to one (1). Setting this attribute to zero (0) enables the user to log on without changing the password.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 97dd4232-dcd3-44bd-8a2a-1dcb0f85d53c
 ms.tgt_platform: multiple
 keywords:
 - User Must Change Password at Next Logon (WinNT Provider) ADSI
 - User Must Change Password at Next Logon ADSI , WinNT provider
 - WinNT provider ADSI , user management examples, User Must Change Password at Next Logon
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Telephone-Number attribute
 description: The primary telephone number.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6a7faad4-9d86-4821-9b00-67adbf1b05f2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Telephone-Number
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

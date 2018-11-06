@@ -1,9 +1,6 @@
 ---
 title: ms-DS-NC-Repl-Inbound-Neighbors attribute
 description: Replication partners for this partition. This server obtains replication data from these other servers, which act as sources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0a1ed4f6-38ae-4823-a26d-5c0d56e59280
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-NC-Repl-Inbound-Neighbors
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

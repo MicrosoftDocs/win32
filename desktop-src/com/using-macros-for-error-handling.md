@@ -2,7 +2,6 @@
 title: Using Macros for Error Handling
 description: COM defines a number of macros that make it easier to work with HRESULT values.
 ms.assetid: ad28eb80-cab9-4bec-9601-34660f6dcad4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

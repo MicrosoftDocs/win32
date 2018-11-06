@@ -1,12 +1,8 @@
 ---
 title: Obtaining a Machine SDO
 description: The first step in using the SDO API is to create an SDO machine object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bdb01437-08d0-4279-94f2-840cb786cc44
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

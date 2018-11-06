@@ -2,7 +2,6 @@
 title: About the WinSNMP 2.0 Addendum
 description: The WinSNMP version 2.0 Addendum is an update to the WinSNMP Manager API specification, version 1.1a.
 ms.assetid: 1958fdd9-8934-49c4-a0c9-da13a5260cbb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

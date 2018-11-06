@@ -1,9 +1,6 @@
 ---
 title: Hide-From-AB attribute
 description: Do not use this attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b5a48919-e32a-4088-a7b1-3903561ba847
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Hide-From-AB
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

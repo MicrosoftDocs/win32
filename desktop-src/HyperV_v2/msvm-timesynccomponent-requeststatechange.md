@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: ca014a24-1d16-468d-bc9c-8043249dabe2
 title: RequestStateChange method of the Msvm_TimeSyncComponent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

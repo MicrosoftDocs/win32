@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings GatewayUsageMethod property
 description: Specifies when to use a Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0644c413-9ff7-42c1-a38e-e1ce546972ff
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

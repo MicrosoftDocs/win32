@@ -1,12 +1,8 @@
 ---
 Description: The AssociatorsAsync\_ method of SWbemObject obtains objects (classes or instances) that are associated with the current object. These objects are called endpoints. This method performs the same function that the ASSOCIATORS OF WQL query performs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c71e11cd-39a5-40d8-b279-f5ee9ff3ae04
 ms.tgt_platform: multiple
 title: SWbemObject.AssociatorsAsync_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

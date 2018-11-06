@@ -2,7 +2,6 @@
 Description: Activation contexts are reference-counted objects. Your application must have a reference on an activation context in order to use it.
 ms.assetid: 2dc8ffc5-0a65-4227-b93a-30c3cf0d3c2d
 title: Reference Counting Activation Contexts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

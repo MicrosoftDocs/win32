@@ -2,7 +2,6 @@
 Description: The Codepage Summary property is the numeric value of the ANSI code page used for any strings that are stored in the summary information.
 ms.assetid: eea6cb12-7ec9-4ea4-b2b2-9c812dc4b4d9
 title: Codepage Summary property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

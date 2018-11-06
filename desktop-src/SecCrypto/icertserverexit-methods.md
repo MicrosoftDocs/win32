@@ -2,7 +2,6 @@
 Description: The ICertServerExit interface exposes the following methods.
 ms.assetid: F30DC995-A20B-4ED3-B411-D7CC9C37B6A3
 title: ICertServerExit Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

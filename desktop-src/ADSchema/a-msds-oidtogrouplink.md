@@ -1,9 +1,6 @@
 ---
 title: ms-DS-OIDToGroup-Link attribute
 description: For an OID, identifies the group object that corresponds to the issuance policy represented by this OID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aebd0803-9c8f-4a33-8982-739941d65754
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-OIDToGroup-Link
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

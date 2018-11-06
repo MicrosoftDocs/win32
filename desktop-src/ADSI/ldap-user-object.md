@@ -1,14 +1,10 @@
 ---
 title: LDAP User Object
 description: This topic lists topics that are about the LDAP User object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 43e33a88-0626-4e29-8fd2-03901380bf62
 ms.tgt_platform: multiple
 keywords:
 - LDAP provider ADSI ,user object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

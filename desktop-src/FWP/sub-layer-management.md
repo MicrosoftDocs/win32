@@ -2,7 +2,6 @@
 title: Sub-Layer Management
 description: Sub-Layer Management
 ms.assetid: 0C11180C-1A78-4A36-85A4-A450A093B0A7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

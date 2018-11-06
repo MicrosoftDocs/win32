@@ -7,7 +7,6 @@ keywords:
 - Windows Media Player skins,borders
 - skins,borders
 - borders,compared to skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Represents the event type class for handle duplication events.
 ms.assetid: a933ffaa-8c99-4b87-ad00-4c40fa4d8d26
 title: ObHandleDuplicateEvent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

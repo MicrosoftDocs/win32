@@ -2,7 +2,6 @@
 title: Configuring Blending Functionality
 description: Blending operations are performed on every pixel shader output (RGBA value) before the output value is written to a render target. If multisampling is enabled, blending is done on each multisample; otherwise, blending is performed on each pixel.
 ms.assetid: f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

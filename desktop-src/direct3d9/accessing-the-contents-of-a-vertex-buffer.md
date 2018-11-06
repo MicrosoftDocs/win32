@@ -2,7 +2,6 @@
 Description: Vertex buffer objects enable applications to directly access the memory allocated for vertex data.
 ms.assetid: 63d255b7-fa7d-411b-9cdb-52113f30c933
 title: Accessing the Contents of a Vertex Buffer (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

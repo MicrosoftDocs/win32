@@ -6,7 +6,6 @@ keywords:
 - Windows Media Format SDK,frame interpolation
 - codecs,frame interpolation
 - frame interpolation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

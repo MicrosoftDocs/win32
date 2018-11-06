@@ -2,7 +2,6 @@
 Description: Writing Transform Filters
 ms.assetid: ce84756b-34ee-4710-8f0f-7553733ca10a
 title: Writing Transform Filters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

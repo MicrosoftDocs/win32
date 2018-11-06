@@ -1,12 +1,8 @@
 ---
 Description: Like many other techniques in Managed Object Format (MOF), applying a qualifier to your code is a relatively simple process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: aaa5c921-bdcd-40e6-ab4b-9441a1957e5b
 ms.tgt_platform: multiple
 title: Applying a Qualifier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

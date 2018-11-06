@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientShell ShowTrustedSitesManagementDialog method
 description: Shows the list of trusted sites dialog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8fe84160-386a-415c-a447-7a62f674cdcc
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

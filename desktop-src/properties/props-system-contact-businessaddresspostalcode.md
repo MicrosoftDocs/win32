@@ -2,7 +2,6 @@
 Description: Business address postal code of contact.
 ms.assetid: cd16aefc-e7ae-412c-8b53-6bea20e7096e
 title: System.Contact.BusinessAddressPostalCode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The following example shows how a thread initializes, enters, and releases a critical section. It uses the InitializeCriticalSectionAndSpinCount, EnterCriticalSection, LeaveCriticalSection, and DeleteCriticalSection functions.
 ms.assetid: 3c96414b-97e7-4ebb-a629-bfdb7a77c576
 title: Using Critical Section Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

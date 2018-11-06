@@ -2,7 +2,6 @@
 title: Software Device API Reference
 description: This reference describes Software Device API functions that a client app calls and a callback function that a client app implements and Software Device API structures.
 ms.assetid: F7974EF3-AFF6-483C-9C95-542BB0BFA7E1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

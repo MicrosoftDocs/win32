@@ -5,7 +5,6 @@ ms.assetid: 6861eedc-2bd9-49c7-8682-ea557fa29d28
 keywords:
 - System Restore
 - System Restore, start page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The following sections provide information about cryptography.
 ms.assetid: c0ac4b88-ae20-412a-8889-a4228dc54b53
 title: About Cryptography
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

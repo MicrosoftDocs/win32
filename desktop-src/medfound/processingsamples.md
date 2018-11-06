@@ -2,7 +2,6 @@
 Description: Processing Codec DMO Input and Output
 ms.assetid: fab6244e-a20e-4395-a82c-0905e3225516
 title: Processing Codec DMO Input and Output
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

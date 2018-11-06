@@ -1,14 +1,8 @@
 ---
 Description: Represents a binary PnP device property in the form of an Uint8 array.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7D78B8B1-F5CE-446A-ADDD-F43A61DE186E
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyBinary class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

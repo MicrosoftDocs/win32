@@ -1,9 +1,6 @@
 ---
 title: ms-Exch-Configuration-Container class
 description: This container stores configuration information for the Exchange server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f55674d3-42fe-4467-8c56-69846835615e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Exch-Configuration-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

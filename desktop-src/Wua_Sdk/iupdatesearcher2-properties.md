@@ -2,7 +2,6 @@
 Description: The IUpdateSearcher2 interface defines the following property.
 ms.assetid: 39f06905-8a5b-4607-b2b9-af0a49cf41a2
 title: IUpdateSearcher2 Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

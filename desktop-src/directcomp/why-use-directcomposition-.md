@@ -6,7 +6,6 @@ keywords:
 - Why use DirectComposition
 - reasons to use DirectComposition
 - DirectComposition capabilities and benefits
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

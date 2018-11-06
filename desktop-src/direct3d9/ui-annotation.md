@@ -2,7 +2,6 @@
 Description: Use this annotation to associate an effect parameter with a UI control in the host environment. This will allow a user to interactively control an effect parameter through the host application.
 ms.assetid: 6d0b2450-7d90-4a24-b710-faed26969876
 title: UI Annotation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

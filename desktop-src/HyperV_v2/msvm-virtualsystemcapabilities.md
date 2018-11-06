@@ -2,7 +2,6 @@
 Description: Describes the capabilities of the associated Msvm\_ComputerSystem.
 ms.assetid: 7e3b51ba-f85d-4b83-abc6-a094d412eca1
 title: Msvm_VirtualSystemCapabilities class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

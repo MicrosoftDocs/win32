@@ -2,7 +2,6 @@
 title: Query Schema
 ms.assetid: 5710231b-5195-413e-8953-e47a411897a6
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

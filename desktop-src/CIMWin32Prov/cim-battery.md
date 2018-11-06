@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Battery class represents the capabilities and management of the battery logical device. This class applies to batteries in laptop systems and other internal and external batteries.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: af127b7a-021b-4cd8-af1b-176aff760858
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Battery class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -57,7 +51,7 @@ api_location:
 
 The **CIM\_Battery** class represents the capabilities and management of the battery logical device. This class applies to batteries in laptop systems and other internal and external batteries.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

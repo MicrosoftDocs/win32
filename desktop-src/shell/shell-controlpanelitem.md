@@ -1,7 +1,6 @@
 ---
 Description: Runs the specified Control Panel (\*.cpl) application.
 title: Shell.ControlPanelItem method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

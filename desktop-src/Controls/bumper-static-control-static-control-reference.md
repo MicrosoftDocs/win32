@@ -2,7 +2,6 @@
 title: Static Control Reference
 description: .
 ms.assetid: 988f4877-9232-4d80-9141-36131e59a9f3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

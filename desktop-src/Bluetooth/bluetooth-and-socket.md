@@ -6,7 +6,6 @@ keywords:
 - Bluetooth Bluetooth
 - socket Bluetooth
 - Bluetooth and socket Bluetooth
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

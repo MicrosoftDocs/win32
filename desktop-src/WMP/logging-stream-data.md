@@ -13,7 +13,6 @@ keywords:
 - stream data logging
 - Windows Media Player,logging stream data
 - Windows Media Player,stream data logging
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

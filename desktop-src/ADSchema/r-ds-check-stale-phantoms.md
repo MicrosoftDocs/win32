@@ -1,9 +1,6 @@
 ---
 title: DS-Check-Stale-Phantoms extended right
 description: Extended right needed to force DS to check stale phantom objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5f3e5b05-ebc4-4e79-acc0-0e4f7cf53098
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Check-Stale-Phantoms
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

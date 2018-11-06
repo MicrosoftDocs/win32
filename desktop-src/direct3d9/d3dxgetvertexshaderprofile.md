@@ -2,7 +2,6 @@
 Description: Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.
 ms.assetid: a50e2a17-8170-4364-a562-7886593341b3
 title: D3DXGetVertexShaderProfile function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

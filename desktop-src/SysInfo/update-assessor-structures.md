@@ -2,7 +2,6 @@
 Description: The following functions are used by the Update Accessor provider.
 ms.assetid: 0E284AB7-1016-4ADA-9D59-24EA5CC43A67
 title: Update Assessor Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

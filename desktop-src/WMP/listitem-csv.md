@@ -7,7 +7,6 @@ keywords:
 - online stores,listitem.csv
 - type 1 online stores,listitem.csv
 - listitem.csv
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: When the application calls the LoadLibrary or LoadLibraryEx functions, the system attempts to locate the DLL (for details, see Dynamic-Link Library Search Order).
 ms.assetid: 81e237a9-3c32-46a5-88d3-c978f43dad54
 title: Run-Time Dynamic Linking
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

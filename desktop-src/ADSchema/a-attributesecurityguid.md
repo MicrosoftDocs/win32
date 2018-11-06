@@ -1,9 +1,6 @@
 ---
 title: Attribute-Security-GUID attribute
 description: The GUID to be used to apply security credentials to a set of objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: df4709ec-273d-4294-8094-f396c10c06e2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Attribute-Security-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

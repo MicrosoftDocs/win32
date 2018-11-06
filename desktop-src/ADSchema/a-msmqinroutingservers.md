@@ -1,9 +1,6 @@
 ---
 title: MSMQ-In-Routing-Servers attribute
 description: DN links to MSMQ routing servers through which all incoming traffic to this computer should be routed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a54d79a7-52f2-49ac-b23f-c3365a1f6921
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-In-Routing-Servers
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

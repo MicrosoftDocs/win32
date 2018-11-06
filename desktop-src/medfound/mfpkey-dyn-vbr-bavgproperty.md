@@ -2,7 +2,6 @@
 Description: Specifies the buffer window, in milliseconds, for an encoder that is configured to use average-controllable VBR encoding.
 ms.assetid: ce330ce0-4bda-4340-b21c-63a8b9168cf4
 title: MFPKEY_DYN_VBR_BAVG Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

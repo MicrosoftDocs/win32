@@ -2,7 +2,6 @@
 Description: The linear element defines the value of a param element at a particular time, relative to the start of the transition or effect that contains the param element.
 ms.assetid: f6af4bf1-fc2d-439c-b1e3-8e095ecad503
 title: linear Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Databinding
 description: Databinding
 ms.assetid: 7fc5f036-8b36-4e0e-a257-173010fe127a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

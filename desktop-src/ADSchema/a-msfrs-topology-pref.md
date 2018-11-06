@@ -1,9 +1,6 @@
 ---
 title: ms-FRS-Topology-Pref attribute
 description: The ms-FRS-Topology-Pref attribute is used to record the preferred NTFRS topology settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2804ad8a-bec8-491b-84ea-bdff1c8635d0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-FRS-Topology-Pref
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

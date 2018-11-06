@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: 349081c0-65d8-470d-8d84-7c616c0f81b6
 title: RequestStateChange method of the Msvm_DisketteDrive class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

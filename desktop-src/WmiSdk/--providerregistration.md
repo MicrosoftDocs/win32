@@ -1,12 +1,8 @@
 ---
 Description: Serves as the parent class for registration classes for various types of providers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1e5d95cb-0961-4be8-b80a-37b598c9ccfe
 ms.tgt_platform: multiple
 title: '__ProviderRegistration class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

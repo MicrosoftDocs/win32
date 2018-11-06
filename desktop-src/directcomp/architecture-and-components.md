@@ -2,7 +2,6 @@
 title: Architecture and components
 description: This topic describes the components that make up Microsoft DirectComposition.
 ms.assetid: 7C79B330-41EA-4BA0-9103-BB5A0C3D4CE2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

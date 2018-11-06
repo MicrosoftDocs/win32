@@ -1,7 +1,6 @@
 ---
 Description: Indicates that a search has finished.
 title: IShellFolderSearchableCallback::RunEnd method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

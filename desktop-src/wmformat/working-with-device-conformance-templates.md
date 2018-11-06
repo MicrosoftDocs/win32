@@ -12,7 +12,6 @@ keywords:
 - templates,device conformance templates
 - Advanced Systems Format (ASF),device conformance templates
 - ASF (Advanced Systems Format),device conformance templates
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - video compression manager (VCM),installing compressors
 - VCM (video compression manager),installing compressors
 - ICInstall function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

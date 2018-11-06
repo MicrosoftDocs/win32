@@ -2,7 +2,6 @@
 Description: Specifies whether the decoder drops intra frames with missing reference frames.
 ms.assetid: 9007d5a8-f498-4394-a4e6-02a7616f3e2a
 title: AVDecVideoDropPicWithMissingRef property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

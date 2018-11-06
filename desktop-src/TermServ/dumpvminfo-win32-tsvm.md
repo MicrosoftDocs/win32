@@ -1,9 +1,6 @@
 ---
 title: DumpVmInfo method of the Win32_TSVm class
 description: This member is for internal testing purposes, and should not be used in your code.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 40cb4fdc-f657-47c6-8daa-684a12be30e4
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

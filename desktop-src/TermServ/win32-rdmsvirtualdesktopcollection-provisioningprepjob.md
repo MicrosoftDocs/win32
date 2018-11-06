@@ -1,9 +1,6 @@
 ---
 title: ProvisioningPrepJob method of the Win32_RDMSVirtualDesktopCollection class
 description: Creates a virtual desktop provisioning job.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 240D4BE6-95BD-4858-8F8F-A00C92042AEF
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

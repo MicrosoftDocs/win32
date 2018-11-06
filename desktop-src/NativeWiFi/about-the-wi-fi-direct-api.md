@@ -2,7 +2,6 @@
 Description: The Native Wifi API contains a set of functions that support the use of Wi-Fi Direct for desktop apps.
 ms.assetid: A649EBBA-1076-4426-9C4D-85AB8C415C66
 title: About the Wi-Fi Direct feature
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

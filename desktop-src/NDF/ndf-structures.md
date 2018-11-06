@@ -2,7 +2,6 @@
 title: NDF Structures
 description: The following data structures support the Network Diagnostics Framework (NDF) API, which allows Microsoft's extensible Helper Classes to be extended by other developers.
 ms.assetid: 0e679a20-2caf-4782-97ed-234fc7a02ab9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

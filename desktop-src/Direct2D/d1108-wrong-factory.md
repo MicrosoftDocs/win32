@@ -10,7 +10,6 @@ api_name:
 - D1108 Wrong Factory
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

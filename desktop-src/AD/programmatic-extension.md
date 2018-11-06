@@ -1,14 +1,10 @@
 ---
 title: Programmatic Extension
 description: Programmatic extensions have several merits, however, an application is opaque; the administrator must trust the documentation included with the setup application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e2837757-f887-4d17-a9d2-8989533a3d8e
 ms.tgt_platform: multiple
 keywords:
 - Programmatic Extension
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

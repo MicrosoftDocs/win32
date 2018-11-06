@@ -2,7 +2,6 @@
 Description: Implements the IX509Enrollment interface.
 ms.assetid: bcf5c2f0-b99f-4de5-83f4-44f17dc31cd4
 title: Certificate Response Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

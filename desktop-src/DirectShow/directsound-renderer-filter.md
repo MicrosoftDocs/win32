@@ -2,7 +2,6 @@
 Description: DirectSound Renderer Filter
 ms.assetid: ec6cc790-8c1f-4de4-a7ca-a7073894380e
 title: DirectSound Renderer Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

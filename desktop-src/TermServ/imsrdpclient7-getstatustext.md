@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient7 GetStatusText method
 description: Retrieves the status text for the specified status code.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1da2280a-c26d-4caa-b227-c289055f3aa9
 ms.tgt_platform: multiple
 keywords:
@@ -27,7 +24,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

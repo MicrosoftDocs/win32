@@ -5,7 +5,6 @@ ms.assetid: 2d30e2e4-9671-4e57-962d-0328b13159f3
 keywords:
 - OpenGL,function names
 - function names OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

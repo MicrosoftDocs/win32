@@ -1,12 +1,8 @@
 ---
 Description: The += concatenation operator joins characters to the end of this string. The operator accepts another CHString object, a character pointer, or a single character.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 026ff9af-4cda-4261-aa27-e215d49b80ce
 ms.tgt_platform: multiple
 title: CHString::operator+=
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

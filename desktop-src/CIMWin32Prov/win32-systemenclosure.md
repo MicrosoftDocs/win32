@@ -1,14 +1,8 @@
 ---
 Description: Represents the properties that are associated with a physical system enclosure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a8244dc0-a95e-4940-9b92-7820bdf14916
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemEnclosure class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

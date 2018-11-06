@@ -2,7 +2,6 @@
 Description: 'The CMSPThread class implements the MSP's worker thread.'
 ms.assetid: '9dc2373a-cdcf-4e60-95fa-56cb68bda15b'
 title: CMSPThread
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -11,7 +11,6 @@ keywords:
 - reference for OpenGL,pixel functions
 - glPixelStore functions
 - pixels,functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

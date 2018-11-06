@@ -2,7 +2,6 @@
 Description: There are five types of events that can be logged. All of these have well-defined common data and can optionally include event-specific data.
 ms.assetid: 4ab4a284-a4cd-4cf7-a9d2-e4a75fce01b9
 title: Event Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ResourceLocator.ResourceURI property
 description: Gets or sets the resource URI in a ResourceLocator object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: adb1e08a-290f-4a23-a6e4-d7567a6b7eee
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

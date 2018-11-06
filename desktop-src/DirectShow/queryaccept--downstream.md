@@ -2,7 +2,6 @@
 Description: QueryAccept (Downstream)
 ms.assetid: 3ca30f62-c320-40ea-9bf5-022abad912c4
 title: QueryAccept (Downstream)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

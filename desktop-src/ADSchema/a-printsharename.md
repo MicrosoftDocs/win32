@@ -1,9 +1,6 @@
 ---
 title: Print-Share-Name attribute
 description: The printer's share name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eecfcf34-fc3f-4f54-a9f2-7dea5252885c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Share-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

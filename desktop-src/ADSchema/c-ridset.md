@@ -1,9 +1,6 @@
 ---
 title: RID-Set class
 description: There is one of these per Domain Controller. It holds the RID pools that were allocated by the DC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b3e0eccd-63de-4950-ba1c-574be3a4019b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RID-Set
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

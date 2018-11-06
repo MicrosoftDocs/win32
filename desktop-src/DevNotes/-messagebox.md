@@ -2,7 +2,6 @@
 Description: Creates, displays, and operates a message box.
 ms.assetid: ec444595-da2a-4c73-a472-3820983f7303
 title: '_MessageBox function'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

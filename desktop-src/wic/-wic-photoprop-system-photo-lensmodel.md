@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.Photo.LensModel property.
 ms.assetid: 39aeff17-e8d3-4ceb-86a1-1749d2ca98d6
 title: System.Photo.LensModel Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

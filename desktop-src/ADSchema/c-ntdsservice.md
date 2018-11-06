@@ -1,9 +1,6 @@
 ---
 title: NTDS-Service class
 description: This class is used for an NTDS services object, which contains information about the configuration of the directory service forest. This object is kept in the CN Directory Service,CN Windows NT,CN Services,CN Configuration,... container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 55f94e25-3871-4946-9a7e-073bec0abce5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTDS-Service
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

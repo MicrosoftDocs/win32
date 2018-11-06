@@ -2,7 +2,6 @@
 Description: The return value of PDH functions indicates the success or failure of the function call, which is different from the status of the counter data.
 ms.assetid: 00ea5521-bc28-4a87-aba9-46c911631503
 title: Checking Counter Data Status Codes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

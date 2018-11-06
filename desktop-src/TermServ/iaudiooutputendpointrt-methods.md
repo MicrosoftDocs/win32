@@ -1,12 +1,8 @@
 ---
 title: IAudioOutputEndpointRT Methods
 description: The IAudioOutputEndpointRT interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 169E0DDE-E7F8-4A96-9090-1D456AB5B81B
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

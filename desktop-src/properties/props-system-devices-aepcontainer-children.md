@@ -2,7 +2,6 @@
 Description: List of child Device Association Endpoint Identities that are part of this Device Association Endpoint Container.
 ms.assetid: 9fee5cee-ae63-4eba-9bb9-4d5e96c3953e
 title: System.Devices.AepContainer.Children
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

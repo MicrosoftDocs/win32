@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 265032ef-4cc7-4fcc-8294-d14ca184c4f2
 title: System.Contact.ConnectedServiceIdentities
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

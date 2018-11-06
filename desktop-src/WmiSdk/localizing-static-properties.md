@@ -1,12 +1,8 @@
 ---
 Description: You can localize static properties by using partial value maps.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 67e91454-c065-4ab2-a373-245c9392c71c
 ms.tgt_platform: multiple
 title: Localizing Static Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

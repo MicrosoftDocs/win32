@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.Photo.FocalLength property.
 ms.assetid: a282c31f-00dd-4df5-9b93-300bb9bc8f2d
 title: System.Photo.FocalLength Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

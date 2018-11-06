@@ -1,12 +1,8 @@
 ---
 Description: All view classes must have a string array qualifier called ViewSources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: aefa8cda-962f-4f6c-92a0-a8825d48db60
 ms.tgt_platform: multiple
 title: ViewSources Qualifier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

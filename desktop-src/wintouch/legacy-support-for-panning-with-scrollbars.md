@@ -19,7 +19,6 @@ keywords:
 - Windows Touch,customizing panning
 - panning,scroll bars
 - panning,legacy support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

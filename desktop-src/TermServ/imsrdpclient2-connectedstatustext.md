@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient2 ConnectedStatusText property
 description: Contains the text that is displayed in the client area of the control while the control is in the connected state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c3d8433b-2fb0-413d-88a3-667149f858ba
 ms.tgt_platform: multiple
 keywords:
@@ -60,7 +57,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

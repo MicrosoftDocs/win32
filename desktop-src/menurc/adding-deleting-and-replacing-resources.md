@@ -2,7 +2,6 @@
 title: Adding, Deleting, and Replacing Resources
 description: This topic discusses how to add, delete, or replace resources.
 ms.assetid: 15b1086e-e3a2-460a-828b-17db5105309f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

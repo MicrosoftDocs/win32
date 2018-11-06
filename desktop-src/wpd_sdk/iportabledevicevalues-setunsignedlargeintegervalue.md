@@ -2,7 +2,6 @@
 Description: The SetUnsignedLargeIntegerValue method adds a new ULONGLONG value (type VT\_UI8) or overwrites an existing one.
 ms.assetid: 64874b86-7bf1-407a-8fff-a2c07c22f0cb
 title: IPortableDeviceValues::SetUnsignedLargeIntegerValue method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

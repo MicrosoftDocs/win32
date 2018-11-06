@@ -1,12 +1,8 @@
 ---
 title: Kernel object namespaces
 description: Remote Desktop Services uses multiple namespaces for kernel objects; a global namespace is used primarily by services in client/server applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 771e0bbf-bd73-4e87-aa1e-945c1287b517
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

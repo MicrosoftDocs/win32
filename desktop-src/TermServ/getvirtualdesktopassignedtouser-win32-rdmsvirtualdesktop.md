@@ -1,9 +1,6 @@
 ---
 title: GetVirtualDesktopAssignedToUser method of the Win32_RDMSVirtualDesktop class
 description: Retrieves the virtual desktop that is assigned to the specified user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cbc22c45-4492-4651-b164-a6fd717c5ab4
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

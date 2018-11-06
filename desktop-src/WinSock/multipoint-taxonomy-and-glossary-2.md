@@ -2,7 +2,6 @@
 Description: The taxonomy described below first distinguishes the control plane that concerns itself with the way a multipoint session is established, from the data plane that deals with the transfer of data among session participants.
 ms.assetid: d138347a-826a-4615-afbd-ffa7726a47eb
 title: Multipoint Taxonomy and Glossary
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

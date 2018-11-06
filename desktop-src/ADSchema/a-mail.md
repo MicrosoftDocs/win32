@@ -1,9 +1,6 @@
 ---
 title: E-mail-Addresses attribute
 description: The list of email addresses for a contact.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d8c75284-fdfd-4188-a4cf-ba2ddb9985fc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - E-mail-Addresses
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

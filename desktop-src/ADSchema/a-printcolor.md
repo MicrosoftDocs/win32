@@ -1,9 +1,6 @@
 ---
 title: Print-Color attribute
 description: TRUE if a printer can print in color.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 21248e6b-d1e3-40f3-8ebf-1b0ca0582da2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Color
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

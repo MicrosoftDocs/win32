@@ -1,7 +1,6 @@
 ---
 ms.assetid: d964a84c-a2a1-4584-8f49-05bb271466a6
 title: WLAN_policy Schema Simple Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

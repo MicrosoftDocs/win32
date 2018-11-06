@@ -1,7 +1,6 @@
 ---
 ms.assetid: dd1313c7-e0b1-41e6-b82e-a66fc26b4ac0
 title: CNG SSL Provider Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

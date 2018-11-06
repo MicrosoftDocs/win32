@@ -2,7 +2,6 @@
 title: dcl - (sm2, sm3 - ps asm)
 description: Declare a pixel shader input register.
 ms.assetid: d6fcd94e-80d7-4e8a-8b4f-ff86c980cc38
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

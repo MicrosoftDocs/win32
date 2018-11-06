@@ -1,12 +1,8 @@
 ---
 title: Detecting Whether a Remote Computer Supports WS-Management Protocol
 description: You can use the Session.Identify or IWSManSession.Identify methods to determine if the remote computer has a service that supports the WS-Management protocol.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4d11ac02-fa8b-45d7-bceb-a18f561bc928
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

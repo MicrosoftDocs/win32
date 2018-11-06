@@ -2,7 +2,6 @@
 Description: Contains an object for each role assigned to the method to which the collection is related. The roles must already be assigned at the application level.
 ms.assetid: 3a086163-e367-4dd1-996b-821b3e1111b2
 title: RolesForMethod collection
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

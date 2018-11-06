@@ -1,12 +1,8 @@
 ---
 Description: Returns a collection of subclasses for a specified class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a9d16ee9-992e-4ce5-9c03-0a2c9958588c
 ms.tgt_platform: multiple
 title: SWbemServices.SubclassesOfAsync method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

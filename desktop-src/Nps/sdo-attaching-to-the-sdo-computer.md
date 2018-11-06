@@ -1,12 +1,8 @@
 ---
 title: Attaching to the SDO Computer
 description: With the interface pointer returned by CoCreateInstance, call the ISdoMachine Attach method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b28691ef-4054-4cd1-92aa-72ad9902fba3
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

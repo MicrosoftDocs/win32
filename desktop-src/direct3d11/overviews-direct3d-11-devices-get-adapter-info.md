@@ -2,7 +2,6 @@
 title: How To Get Adapter Display Modes
 description: This topic shows how to use Microsoft DirectX Graphics Infrastructure (DXGI) to get the valid display modes associated with an adapter.
 ms.assetid: 3d182f29-48d4-4e25-b34e-b424cc9eed0b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Sets the remote access rights for a list of individual users on computers running obsolete versions of Windows, where access control through Windows security descriptors is not available.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f6da65d3-86dd-4fc8-b4c0-f7ddc8536d4e
 ms.tgt_platform: multiple
 title: '__SystemSecurity::Set9XUserList method'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

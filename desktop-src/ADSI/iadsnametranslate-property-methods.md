@@ -1,9 +1,6 @@
 ---
 title: IADsNameTranslate Property Methods
 description: Sets the ChaseReferral property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7c44fe9b-16a5-4bd5-a80b-8f3dcfec20cc
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

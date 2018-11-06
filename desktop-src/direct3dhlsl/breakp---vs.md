@@ -2,7 +2,6 @@
 title: breakp - vs
 description: Conditionally break out of the current loop at the nearest endloop - vs or endrep - vs. Use one of the components of the predicate register as a condition to determine whether or not to perform the instruction.
 ms.assetid: 940252a0-6f6a-45d8-9d2f-315cc97686ca
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

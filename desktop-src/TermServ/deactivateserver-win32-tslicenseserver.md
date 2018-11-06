@@ -1,9 +1,6 @@
 ---
 title: DeactivateServer method of the Win32_TSLicenseServer class
 description: Deactivates the Remote Desktop license server by using a confirmation code that is received over the phone.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 84e069b7-9a4f-4843-b656-839f936ac727
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

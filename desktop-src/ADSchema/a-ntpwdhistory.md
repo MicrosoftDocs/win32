@@ -1,9 +1,6 @@
 ---
 title: Nt-Pwd-History attribute
 description: The password history of the user in Windows NT one-way format (OWF). Windows 2000 uses the Windows NT OWF.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7c6a0fe2-561e-43a2-af46-7505e7e13288
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Nt-Pwd-History
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

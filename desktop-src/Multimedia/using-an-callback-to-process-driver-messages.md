@@ -9,7 +9,6 @@ keywords:
 - audio data blocks,processing driver messages
 - processing driver messages
 - CreateEvent function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

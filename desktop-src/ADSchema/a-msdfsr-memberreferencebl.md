@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-MemberReferenceBL attribute
 description: Contains the backward link for the ms-DFSR-MemberReference attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7bbc00ff-66e7-4269-9e47-0d41e8c60d95
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-MemberReferenceBL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

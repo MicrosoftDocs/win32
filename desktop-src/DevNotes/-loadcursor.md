@@ -2,7 +2,6 @@
 Description: Loads the specified cursor.
 ms.assetid: 36caac30-0121-4866-9eac-5bb4e64ba517
 title: '_LoadCursor function'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

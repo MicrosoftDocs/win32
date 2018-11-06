@@ -2,7 +2,6 @@
 Description: Describes the capabilities of the associated Msvm\_VirtualEthernetSwitchManagementService.
 ms.assetid: daed7a02-bae8-4bda-abc6-0657df7dc4f8
 title: Msvm_VirtualEthernetSwitchManagementCapabilities class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

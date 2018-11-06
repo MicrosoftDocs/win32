@@ -1,9 +1,6 @@
 ---
 title: Enumerator.Error property
 description: Gets an XML representation of additional error information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 08a6307b-3ed5-4d7f-aa22-a666d64371b5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

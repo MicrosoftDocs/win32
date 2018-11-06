@@ -1,9 +1,6 @@
 ---
 title: Generate-RSoP-Planning extended right
 description: The user who has the rights on an OU or Domain will be able to generate planning mode RSoP data for the users or computers within the OU.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4a874e47-c88b-4945-912b-7d4a2dd799df
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Generate-RSoP-Planning
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

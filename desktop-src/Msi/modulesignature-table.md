@@ -2,7 +2,6 @@
 Description: The ModuleSignature Table is a required table.
 ms.assetid: 09802282-72ad-43f1-8cce-4cdc68b01e87
 title: ModuleSignature Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

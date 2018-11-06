@@ -2,7 +2,6 @@
 title: Using the Input-Assembler Stage without Buffers
 description: Creating and binding buffers is not necessary if your shaders don't require buffers. This section contains an example of simple vertex and pixel shaders that draw a single triangle.
 ms.assetid: 84d24494-f2cb-4ca1-84fd-635e20f2c9ad
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Use the flood effect to generate a bitmap based on the specified co
 ms.assetid: F80A6DC0-E18C-4324-BE4A-FE40C5722988
 keywords:
 - flood effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

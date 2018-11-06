@@ -2,7 +2,6 @@
 Description: CSPs for PROV\_RSA\_SCHANNEL must support the CALG\_SSL3\_SHAMD5 hash that is compatible with the Microsoft Base Cryptographic Provider used in SSL 3.0 and TLS 1.0 client authentication.
 ms.assetid: ca8be4fd-e7ca-4def-927d-b168628c566e
 title: SHA/MD5 RSA Signature Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

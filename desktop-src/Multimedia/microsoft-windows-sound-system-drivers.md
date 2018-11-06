@@ -9,7 +9,6 @@ keywords:
 - multimedia sound system drivers
 - Sound Blaster drivers
 - WSS NT drivers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

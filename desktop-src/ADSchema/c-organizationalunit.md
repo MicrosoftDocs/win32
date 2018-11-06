@@ -1,9 +1,6 @@
 ---
 title: Organizational-Unit class
 description: A container for storing users, computers, and other account objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a5a99dc7-9000-478c-9545-473cfb6ddf6c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Organizational-Unit
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

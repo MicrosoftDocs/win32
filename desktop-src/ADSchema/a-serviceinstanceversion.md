@@ -1,9 +1,6 @@
 ---
 title: Service-Instance-Version attribute
 description: Version of a Winsock service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fabed006-7c3a-40ba-b229-3ceae3113250
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Instance-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

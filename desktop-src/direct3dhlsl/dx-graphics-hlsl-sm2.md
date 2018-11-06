@@ -2,7 +2,6 @@
 title: Shader Model 2
 description: Shader Model 2 added additional capabilities to shader model 1.
 ms.assetid: 53c367d2-5b6a-4afa-894a-8ab9927169d5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

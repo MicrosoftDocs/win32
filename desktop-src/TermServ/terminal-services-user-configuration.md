@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Services User Configuration
 description: The WTSQueryUserConfig and WTSSetUserConfig functions enable you to set and retrieve configuration information for a specified user account. The WTS\_CONFIG\_CLASS enumeration type defines the user configuration parameters.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 06c9ccc1-fa1e-4970-a452-d64ed640aa7b
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

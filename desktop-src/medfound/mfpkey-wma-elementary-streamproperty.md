@@ -2,7 +2,6 @@
 Description: Not supported.
 ms.assetid: 230ce52a-c8cc-4df9-8835-feac1bbcf10c
 title: MFPKEY_WMA_ELEMENTARY_STREAM Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

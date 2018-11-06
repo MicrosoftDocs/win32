@@ -1,16 +1,12 @@
 ---
 title: Example Code for Publishing the RnR Connection Point
 description: The following code example is used by the Winsock service to register the RnR connection point for the service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dd2c7ac9-76fc-4366-8654-8048e6793a16
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Publishing the RnR Connection Point AD
 - Windows Sockets Registration and Resolution AD , Example Code, Publishing the RnR Connection Point
 - Publishing the RnR Connection Point AD , Example Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

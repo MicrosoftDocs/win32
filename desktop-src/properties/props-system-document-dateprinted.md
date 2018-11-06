@@ -2,7 +2,6 @@
 Description: Indicates the date and time the document was last printed. The legacy name is &\#0034;DocLastPrinted&\#0034;.
 ms.assetid: 57a08471-04b2-4c1e-9212-b76f6ca631f8
 title: System.Document.DatePrinted
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

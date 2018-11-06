@@ -1,9 +1,6 @@
 ---
 title: AddComputerGroupNames method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Adds the specified computer group names to the ComputerGroupNames property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f0c440d6-0cc2-48b4-b656-65f12e652151
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

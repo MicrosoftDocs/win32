@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-ReadOnly attribute
 description: Specifies whether the content is read-only or read/write.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 178154ae-42dd-4e10-861b-75c3367b46cd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-ReadOnly
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

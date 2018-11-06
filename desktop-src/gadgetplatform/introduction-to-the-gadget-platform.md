@@ -21,7 +21,6 @@ keywords:
 - HighDPI
 - System.Gadget.onDock
 - events,System.Gadget.onDock
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -213,7 +212,7 @@ This section describes changes to the core set of scripting elements and APIs fo
 
 This method can be called during the installation of an application that includes a supporting gadget as part of the installation package, for example, installing a calendar application that includes a gadget that displays upcoming appointments.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Applications should not call [RunGadget](http://msdn.microsoft.com/library/dd378390.aspx) without asking the user for permission. If the permission choice is a check box, that check box should be unchecked, by default.
 
  

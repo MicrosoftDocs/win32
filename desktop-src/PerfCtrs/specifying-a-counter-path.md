@@ -2,7 +2,6 @@
 Description: The system uses counters to collect performance data.
 ms.assetid: d1f1a90c-425a-4606-b86d-2948305ea84a
 title: Specifying a Counter Path
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

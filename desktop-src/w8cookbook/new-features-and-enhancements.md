@@ -2,7 +2,6 @@
 title: New features and enhancements
 description: New features and enhancements
 ms.assetid: 79E21170-BC2D-4631-AFAC-12A9F40ECC5D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

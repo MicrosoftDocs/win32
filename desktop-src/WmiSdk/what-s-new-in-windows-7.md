@@ -1,12 +1,8 @@
 ---
 Description: Whats New in Windows 7
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: C3FE15EF-CBF0-4A5D-ADCC-108795F8CE7A
 ms.tgt_platform: multiple
 title: Whats New in Windows 7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

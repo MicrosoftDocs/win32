@@ -1,9 +1,6 @@
 ---
 title: nisObject class
 description: Contains an entry in an NIS map.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7b51f9c3-b4e6-493c-a12e-117b42000f45
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - nisObject
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

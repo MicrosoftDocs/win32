@@ -10,7 +10,6 @@ keywords:
 - Windows Media Player Mobile skins,Disabled files
 - skins,Disabled files
 - Disabled files in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

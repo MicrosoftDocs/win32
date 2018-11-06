@@ -29,7 +29,6 @@ keywords:
 - software development kit (SDK),Windows Media Player 11
 - SDK (software development kit),Windows Media Player 11
 - documentation,Windows Media Player 11 SDK
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Represents a collection of Certificate objects.
 ms.assetid: '82011c49-38fb-4261-8fb3-b76859da8a9e'
 title: Certificates object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type:

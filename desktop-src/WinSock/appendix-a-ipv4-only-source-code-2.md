@@ -2,7 +2,6 @@
 Description: Source code for the Platform Software Development Kit (SDK) sample Simplec.c and Simples.c.
 ms.assetid: d6509917-05ce-4b8e-b1aa-04f07d947392
 title: 'Appendix A: IPv4-only Source Code'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -14,7 +13,7 @@ This appendix provides the source code for the Platform Software Development Kit
 -   [IPv4-only Client Code](ipv4-only-client-code-2.md)
 -   [IPv4-only Server Code](ipv4-only-server-code-2.md)
 
-> \[!Warning\]This appendix illustrates code that is IPv4-specific; do NOT use this code in your applications.
+> [!WARNING]
 >
 > This code is included in this guide to contrast the IP-version agnostic code provided in Appendix B. This sample code is provided for comparison purposes, and to provide a clear and readily available reference while reading this IPv6 guide. An IP version agnostic version of this source code is provided in [Appendix B: IP-version Agnostic Source Code](appendix-b-ip-version-agnostic-source-code-2.md).
 

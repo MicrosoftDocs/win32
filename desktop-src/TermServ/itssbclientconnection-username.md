@@ -1,9 +1,6 @@
 ---
 title: ITsSbClientConnection UserName property
 description: Retrieves a value that indicates the name of the user who initiated the connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 74f4b8fb-efd4-46d7-9d2f-dd9ef583eb54
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

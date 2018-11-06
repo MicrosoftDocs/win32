@@ -2,7 +2,6 @@
 Description: LOCALE\_NAME\* Constants
 ms.assetid: 63e2e368-af2f-4af0-bbea-2b27d1939394
 title: LOCALE_NAME* Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

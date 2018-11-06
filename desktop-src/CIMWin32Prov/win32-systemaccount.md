@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemAccount&\#8194;WMI class represents a system account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0f745d93-cbac-428e-bf27-56f6e97d529f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemAccount class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

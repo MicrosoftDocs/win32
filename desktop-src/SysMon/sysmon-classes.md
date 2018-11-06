@@ -2,7 +2,6 @@
 title: SYSMON Classes
 description: You can use the following classes to configure the System Monitor (SYSMON) control.
 ms.assetid: 85fd9380-2a86-4f2f-a006-463eba101726
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

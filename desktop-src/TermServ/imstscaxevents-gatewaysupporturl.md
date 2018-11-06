@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewaySupportUrl property
 description: Specifies or retrieves the web address of the site that provides technical support for this Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e9c0f5ec-1b2f-4e09-8169-4316fd394443
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

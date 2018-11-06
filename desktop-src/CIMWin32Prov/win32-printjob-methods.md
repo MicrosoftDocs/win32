@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_PrintJob class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1C66270F-2283-43E6-9872-3AD1F6769F49
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PrintJob Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

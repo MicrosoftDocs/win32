@@ -2,7 +2,6 @@
 Description: The Netsh commands for IPv6 provide a command-line tool that you can use to query and configure IPv6 interfaces, address, caches, and routes. The Netsh interface IPv6 commands are supported on Windows XP with Service Pack 1 (SP1) and later.
 ms.assetid: 68e17a55-4dd5-40cd-8996-25fa278ddd19
 title: Netsh.exe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

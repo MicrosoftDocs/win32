@@ -2,7 +2,6 @@
 Description: COPP Command Reference
 ms.assetid: b21db1cf-cac3-41d6-8189-6e01c8f91a7d
 title: COPP Command Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

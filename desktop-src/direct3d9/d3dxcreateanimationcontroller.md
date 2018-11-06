@@ -2,7 +2,6 @@
 Description: Creates an animation controller object.
 ms.assetid: 771e5966-ac1a-43c2-8e81-b6d573343ff0
 title: D3DXCreateAnimationController function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

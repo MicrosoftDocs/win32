@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-OnDemandExclusionDirectoryFilter attribute
 description: Filter string applied to on-demand replication directories.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 87875533-8335-42fb-85d7-4e7efa6fb759
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-OnDemandExclusionDirectoryFilter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

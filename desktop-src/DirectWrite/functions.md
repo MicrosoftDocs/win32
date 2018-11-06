@@ -4,7 +4,6 @@ description: DirectWrite provides the following function. All other operations a
 ms.assetid: 79ac8943-a9dc-462c-b813-bc1083d0ed84
 keywords:
 - DirectWrite,functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

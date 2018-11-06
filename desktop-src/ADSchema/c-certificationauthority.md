@@ -1,9 +1,6 @@
 ---
 title: Certification-Authority class
 description: Represents a process that issues public key certificates, for example, a Certificate Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0392332c-3c6c-4060-9f9e-16cb8289b392
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Certification-Authority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

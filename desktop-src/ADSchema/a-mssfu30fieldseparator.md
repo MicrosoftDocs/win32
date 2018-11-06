@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Field-Separator attribute
 description: Contains the field separator for each NIS map.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 378a37a8-a0a2-467f-ad30-40a9d522f7a2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Field-Separator
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

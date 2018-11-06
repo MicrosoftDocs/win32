@@ -1,9 +1,6 @@
 ---
 title: dhcp-Sites attribute
 description: The dhcp-Sites attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c2f6e7a9-9467-4883-b00c-355a4b190d44
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Sites
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

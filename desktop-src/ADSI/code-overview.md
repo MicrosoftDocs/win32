@@ -1,14 +1,10 @@
 ---
 title: Code Overview
 description: The following figure is a conceptual representation of the blocks of code necessary to implement the ADSI example provider component.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b353c2d9-ef86-4e4c-ac00-4756fc9ec57d
 ms.tgt_platform: multiple
 keywords:
 - Code Overview AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: FRS-Version attribute
 description: The version number and build date.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 13109bfc-ac34-461e-a649-c4811c8fc488
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

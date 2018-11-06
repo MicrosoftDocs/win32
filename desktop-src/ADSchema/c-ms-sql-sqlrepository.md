@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-SQLRepository class
 description: Class for storing SQL Server repository properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 93a7c7f6-cb87-46cd-9609-9f50d5cb19bc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-SQLRepository
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

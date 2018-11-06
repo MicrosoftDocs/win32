@@ -2,7 +2,6 @@
 title: Loop Counter Register
 description: The only register in this bank is the current loop counter (aL) register.
 ms.assetid: 36999873-a251-4939-aac0-faa7f910bc33
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

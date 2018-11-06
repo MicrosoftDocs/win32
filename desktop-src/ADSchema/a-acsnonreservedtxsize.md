@@ -1,9 +1,6 @@
 ---
 title: ACS-Non-Reserved-Tx-Size attribute
 description: The token bucket size an application can use before a reservation is in place.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 67a0d6fd-b556-49d2-8c5b-6efebf1052c3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Non-Reserved-Tx-Size
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

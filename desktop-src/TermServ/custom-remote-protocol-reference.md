@@ -1,15 +1,11 @@
 ---
 title: Remote Desktop Protocol Provider reference
 description: Contains interfaces, structures, unions, and enumeration types that enable you to create a custom Remote Desktop Protocol (RDP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8b115329-a63d-4c1e-b344-a0aa74c40e13
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , Remote Desktop Protocol provider reference
 - Remote Desktop Protocol (RDP) Remote Desktop Services , provider reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

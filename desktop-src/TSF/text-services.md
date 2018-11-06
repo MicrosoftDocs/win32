@@ -6,7 +6,6 @@ keywords:
 - Text Services Framework (TSF),text services
 - TSF (Text Services Framework),text services
 - text services,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

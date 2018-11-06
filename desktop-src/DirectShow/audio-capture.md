@@ -2,7 +2,6 @@
 Description: Audio Capture
 ms.assetid: 2b7fbdcb-7b59-407e-8e82-e66bd5606507
 title: Audio Capture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

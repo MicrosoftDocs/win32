@@ -1,9 +1,6 @@
 ---
 title: meetingIsEncrypted attribute
 description: This is TRUE if the meeting is to be encrypted.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bf8c1344-9f7e-4e4f-aac7-52cb0b65b9f0
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingIsEncrypted
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

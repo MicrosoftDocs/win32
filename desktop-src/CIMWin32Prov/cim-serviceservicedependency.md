@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ServiceServiceDependency class represents an association between two services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0fb43fb3-2c05-4762-b339-2dcc090ed38d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ServiceServiceDependency class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -29,7 +23,7 @@ api_location:
 
 The **CIM\_ServiceServiceDependency** class represents an association between two services. The associated service must be present, must have completed, or must be absent for the other service to function. For example, boot services can be dependent on underlying BIOS, disk, and initialization services. For initialization services, the boot service is dependent on the initialization services completing. For disk services, boot services can actually use the SAPs of this service. This usage dependency is modeled on the [**CIM\_ServiceSAPDependency**](cim-servicesapdependency.md) association.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

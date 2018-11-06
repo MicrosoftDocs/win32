@@ -1,14 +1,8 @@
 ---
 Description: The Compress method compresses the logical file (or directory) specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4a26beaf-388b-4f37-b4ee-ef3a7d15d2b6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Compress method of the CIM_LogicalFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Compress** method compresses the logical file (or directory) specified in the object path.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

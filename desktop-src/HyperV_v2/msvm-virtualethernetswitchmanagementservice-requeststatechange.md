@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: 0a236a99-6ddb-482f-af28-1af731b6b980
 title: RequestStateChange method of the Msvm_VirtualEthernetSwitchManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

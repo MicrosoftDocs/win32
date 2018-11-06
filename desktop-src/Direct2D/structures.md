@@ -4,7 +4,6 @@ description: Direct2D provides the following structures. Additional structures a
 ms.assetid: '6c34a8c8-4b0b-4a95-8f13-25ca25c370ba'
 keywords:
 - Direct2D,structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

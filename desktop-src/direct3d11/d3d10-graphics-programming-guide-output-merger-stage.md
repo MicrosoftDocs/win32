@@ -4,7 +4,6 @@ description: The output-merger (OM) stage generates the final rendered pixel col
 ms.assetid: 8be68c15-2deb-4804-b683-30080a876189
 keywords:
 - output merger stage (Direct3D 10)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

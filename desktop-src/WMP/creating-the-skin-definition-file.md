@@ -8,7 +8,6 @@ keywords:
 - skins,skin definition files
 - files for skins,skin definition
 - skin definition files,creating
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Fills an array with scale key data used for key frame animation.
 ms.assetid: 0d595510-6d8c-4bc9-b5ca-0d6f73be3439
 title: ID3DXKeyframedAnimationSet::GetScaleKeys method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

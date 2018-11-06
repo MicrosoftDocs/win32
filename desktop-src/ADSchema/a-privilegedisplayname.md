@@ -1,9 +1,6 @@
 ---
 title: Privilege-Display-Name attribute
 description: Display name for a Windows NT privilege.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9509b342-c7ff-48c8-adfc-351abf9beaf2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Privilege-Display-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ResourceLocator object
 description: Supplies the path to a resource. You can use a ResourceLocator object instead of a resource URI in Session object operations such as Session.Get, Session.Put, or Session.Enumerate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0904b7eb-d4ce-46a7-bf58-452e7c0d41e9
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

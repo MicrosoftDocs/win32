@@ -1,9 +1,6 @@
 ---
 title: DMD-Name attribute
 description: A name used to identify the schema partition. Not used by AD.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0ee35c32-add7-4b20-8d83-59b4b91df6ad
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DMD-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

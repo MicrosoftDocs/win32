@@ -1,9 +1,6 @@
 ---
 title: associatedDomain attribute
 description: The associatedDomain attribute type specifies a DNS domain that is associated with an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4ed5bb06-6f23-44ec-9589-d1bb59c65487
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - associatedDomain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

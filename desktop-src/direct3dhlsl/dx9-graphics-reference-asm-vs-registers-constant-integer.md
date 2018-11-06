@@ -2,7 +2,6 @@
 title: Constant Integer Register
 description: Constant integer registers are used only by loop - vs and rep - vs.
 ms.assetid: da9916d4-655b-4c98-99a4-1abfa66459b5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

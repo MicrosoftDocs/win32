@@ -4,7 +4,6 @@ description: The type \_UserMarshal function is a helper function for the \ wire
 ms.assetid: 3cbd78d1-a036-4d0d-bb1d-4c968acfdb36
 keywords:
 - type_UserMarshal
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -7,7 +7,6 @@ keywords:
 - WM_CAP_SET_USER_DATA message
 - capGetUserData macro
 - capSetUserData macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

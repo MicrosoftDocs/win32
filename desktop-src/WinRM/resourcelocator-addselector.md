@@ -1,9 +1,6 @@
 ---
 title: ResourceLocator.AddSelector method
 description: Adds a selector to the ResourceLocator object. The selector specifies a particular instance of a resource.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4b513d39-a377-487f-a03b-f3c5ab0f0b5a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

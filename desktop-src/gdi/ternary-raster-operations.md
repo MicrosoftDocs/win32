@@ -2,7 +2,6 @@
 Description: This section lists the ternary raster-operation codes used by the BitBlt, PatBlt, and StretchBlt functions. Ternary raster-operation codes define how GDI combines the bits in a source bitmap with the bits in the destination bitmap.
 ms.assetid: 538f3580-d6a7-4dae-8185-802eb9c96735
 title: Ternary Raster Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

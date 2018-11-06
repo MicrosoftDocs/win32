@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceV2 CmClassGuid property
 description: Contains the configuration manager setup class GUID for the device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 29ebe2ca-d669-4cc1-8cc1-33490fbb9497
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

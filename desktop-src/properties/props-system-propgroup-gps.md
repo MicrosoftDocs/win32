@@ -2,7 +2,6 @@
 Description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: bdc3d22c-d055-47f7-86ad-6e050608ad12
 title: System.PropGroup.GPS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

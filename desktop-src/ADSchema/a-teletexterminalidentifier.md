@@ -1,9 +1,6 @@
 ---
 title: Teletex-Terminal-Identifier attribute
 description: Specifies the Teletex terminal identifier and, optionally, parameters, for a teletex terminal associated with an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c31bac0e-feb7-46ff-a867-326affb41918
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Teletex-Terminal-Identifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

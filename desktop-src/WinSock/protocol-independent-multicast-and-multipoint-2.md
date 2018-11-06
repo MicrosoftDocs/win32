@@ -2,7 +2,6 @@
 Description: Windows Sockets 2 provides a generic method for utilizing the multipoint and multicast capabilities of transports.
 ms.assetid: 75cd8f21-a391-4626-b909-0760d12db995
 title: Protocol-Independent Multicast and Multipoint
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

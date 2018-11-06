@@ -5,7 +5,6 @@ ms.assetid: 6e7eccce-406a-4827-8fe2-abe93251668a
 keywords:
 - retrieving task priority Task Scheduler
 - retrieving task properties Task Scheduler , priority
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

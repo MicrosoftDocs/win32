@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient5 TransportSettings property
 description: Retrieves what was passed through a script to the IMsRdpClientTransportSettings interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 38f5a735-55c7-425a-835b-22f6e0900d57
 ms.tgt_platform: multiple
 keywords:
@@ -39,7 +36,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

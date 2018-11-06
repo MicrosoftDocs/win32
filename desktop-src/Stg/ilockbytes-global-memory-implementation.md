@@ -5,7 +5,6 @@ ms.assetid: 6ab019b0-34d7-4b6e-ba77-6b6881fabd29
 keywords:
 - ILockBytes Strctd Stg , implementations, global memory
 - ILockBytes Strctd Stg , implementations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

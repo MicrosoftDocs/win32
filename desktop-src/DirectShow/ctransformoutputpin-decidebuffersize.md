@@ -2,7 +2,6 @@
 Description: The DecideBufferSize method sets the buffer requirements.
 ms.assetid: cdf9e384-623e-46a6-b123-d881fe21fb09
 title: CTransformOutputPin.DecideBufferSize method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

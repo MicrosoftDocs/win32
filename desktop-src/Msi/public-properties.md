@@ -2,7 +2,6 @@
 Description: Public properties can be authored into the installation database in the same way as private properties.
 ms.assetid: 032aa55f-d97a-4455-bd32-571b0e05763b
 title: Public Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

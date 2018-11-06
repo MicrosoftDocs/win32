@@ -1,9 +1,6 @@
 ---
 title: Facsimile-Telephone-Number attribute
 description: Contains telephone number of the user's business fax machine.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3862b049-19f5-4067-941d-d1a3a049bc56
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Facsimile-Telephone-Number
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

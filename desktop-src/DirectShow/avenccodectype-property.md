@@ -2,7 +2,6 @@
 Description: Specifies the encoding scheme.
 ms.assetid: a26951d6-67fb-43fb-849f-331416e9d7c2
 title: AVEncCodecType property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

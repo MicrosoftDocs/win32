@@ -1,15 +1,11 @@
 ---
 title: Extending the Schema
 description: The Active Directory directory service schema defines the attributes and classes used in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1c7c1fa7-56d9-4b2d-9c48-aa10464064bc
 ms.tgt_platform: multiple
 keywords:
 - Active Directory,using,schema,extending the schema
 - schema AD ,extending the schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Describes a 2D vector made up of unsigned integers, 8-bits (1 byte) in length.
 ms.assetid: 552af402-2995-4b07-b982-83be27caa017
 title: XMUBYTE2 Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

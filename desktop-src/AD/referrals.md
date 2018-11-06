@@ -1,15 +1,11 @@
 ---
 title: Referrals
 description: Active Directory Domain Services maintain referral data in crossRef objects stored in the partitions container (crossRefContainer) in the configuration container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e4d6cc8a-9c2c-4e0f-acca-e9ecdd5e879b
 ms.tgt_platform: multiple
 keywords:
 - Referrals AD
 - Active Directory, Referrals
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

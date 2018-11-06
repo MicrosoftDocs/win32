@@ -2,7 +2,6 @@
 Description: Uses the provided certificate file to obtain the derived key and unlock the encrypted volume.
 ms.assetid: 41811d38-5c89-4372-9dbc-3de45b05011f
 title: UnlockWithCertificateFile method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable4 LaunchedViaClientShellInterface property
 description: Specifies whether the user launched the client control by using the Remote Desktop Web Access (RD Web Access) interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bf72c375-0eec-49c7-9f9a-c7545a95bdce
 ms.tgt_platform: multiple
 keywords:
@@ -40,7 +37,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

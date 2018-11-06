@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemSlot &\#32; WMI class represents physical connection points including ports, motherboard slots and peripherals, and proprietary connection points.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0bdce597-dcbe-4593-b0d6-68c3bfecd0ee
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemSlot class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

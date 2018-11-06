@@ -2,7 +2,6 @@
 Description: This is similar to System.ItemNameDisplay except that it never includes a file extension.
 ms.assetid: 2e5c5f3c-ab9d-4e44-907e-0fef0df3e894
 title: System.ItemNameDisplayWithoutExtension
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

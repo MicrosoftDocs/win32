@@ -7,7 +7,6 @@ keywords:
 - plug-ins,displaying dialog and message boxes
 - user interface plug-ins,displaying dialog and message boxes
 - UI plug-ins,displaying dialog and message boxes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

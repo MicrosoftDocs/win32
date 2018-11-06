@@ -1,12 +1,8 @@
 ---
 title: Creating a Connection Request Policy
 description: Creating a Connection Request Policy
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 659e7d1e-d985-4cb1-95ad-355c5b44d55a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

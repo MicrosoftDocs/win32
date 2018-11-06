@@ -1,9 +1,6 @@
 ---
 title: Super-Scopes attribute
 description: This attribute is used to group together all the different scopes used in the DHCP class into a single entity.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c5c59a77-97d8-4f8b-9ac4-bc031333233f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Super-Scopes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

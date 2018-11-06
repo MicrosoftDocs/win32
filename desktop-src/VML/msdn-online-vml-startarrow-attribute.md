@@ -2,7 +2,6 @@
 title: VML StartArrow Attribute
 description: VML StartArrow Attribute
 ms.assetid: 484dfcdb-f68d-40f9-9a83-18abb054d1c8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

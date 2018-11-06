@@ -2,7 +2,6 @@
 Description: Support the main tasks listed in Using Authorization in C++.
 ms.assetid: f3300cfb-39e4-4ce8-8310-1531208bcd34
 title: Supporting Tasks for Authorization in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

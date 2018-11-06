@@ -1,12 +1,8 @@
 ---
 title: ADSI Objects and Interfaces
 description: This section contains graphic models of ADSI objects and the interfaces that are used to access those objects by different service providers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 23ee300d-fbd4-4ddc-8886-bbda64c0082f
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

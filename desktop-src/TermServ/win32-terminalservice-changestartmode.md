@@ -1,9 +1,6 @@
 ---
 title: ChangeStartMode method of the Win32_Service class
 description: Modifies the start mode of a Win32\_TerminalService.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4F4B8CFC-B38C-47C6-A2BA-D498EC2B7F55
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

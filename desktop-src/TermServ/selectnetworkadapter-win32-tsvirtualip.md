@@ -1,9 +1,6 @@
 ---
 title: SelectNetworkAdapter method of the Win32_TSVirtualIP class
 description: Sets the MAC address of the network adapter to use for IP virtualization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ad67445c-6a8b-4980-997a-56aceb70965f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

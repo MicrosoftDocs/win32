@@ -2,7 +2,6 @@
 Description: Describes the result that you can optionally set after processing a display sink notfication in the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
 ms.assetid: 6ED04294-2ED9-455B-9274-8C3DB06D4B21
 title: WFD_DISPLAY_SINK_NOTIFICATION_RESULT structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

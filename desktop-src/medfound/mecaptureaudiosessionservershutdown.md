@@ -2,7 +2,6 @@
 Description: Sent by an audio capture source when the capture audio session is disconnected due to the audio server being shutdown.
 ms.assetid: 43284B3E-3018-44F3-8D6C-8C3041DCCD3E
 title: MECaptureAudioSessionServerShutdown event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

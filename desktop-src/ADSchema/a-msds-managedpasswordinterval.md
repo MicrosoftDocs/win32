@@ -1,9 +1,6 @@
 ---
 title: ms-DS-ManagedPasswordInterval attribute
 description: This attribute is used to retrieve the number of days before a managed password is automatically changed for a group MSA.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9473e29e-32d2-4461-b04f-a36a7e0ab412
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-ManagedPasswordInterval
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

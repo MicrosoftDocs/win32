@@ -1,9 +1,6 @@
 ---
 title: String(Printable) syntax
 description: A case-sensitive string that contains characters from the printable character set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c2c1685f-d03f-4436-8240-a97c8ce0f571
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(Printable)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: SysLink Control Messages
 description: .
 ms.assetid: 51f8d185-067a-4629-9c4f-1ea23a0d5262
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

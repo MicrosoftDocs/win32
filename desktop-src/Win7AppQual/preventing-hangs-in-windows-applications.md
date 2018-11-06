@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 698a046b-1934-49cd-a717-d61e7e1ec534
 title: Preventing Hangs in Windows Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

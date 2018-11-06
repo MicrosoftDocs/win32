@@ -8,7 +8,6 @@ keywords:
 - codecs,high-resolution audio support
 - codecs,audio support
 - high-resolution audio
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

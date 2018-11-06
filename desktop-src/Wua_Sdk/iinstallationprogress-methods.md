@@ -2,7 +2,6 @@
 Description: The IInstallationProgress interface defines the following method.
 ms.assetid: 77eda0d0-247b-4c14-9bf0-7dcf70387467
 title: IInstallationProgress Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

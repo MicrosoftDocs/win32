@@ -7,7 +7,6 @@ keywords:
 - online stores,album.csv
 - type 1 online stores,album.csv
 - album.csv
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

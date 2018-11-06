@@ -2,7 +2,6 @@
 Description: When using the COM+ events service, there are steps you can take to ensure that any sensitive information contained in an event is not compromised.
 ms.assetid: 1f8faea0-afc2-4999-a962-d6fd10307d6c
 title: COM+ Events Security Considerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

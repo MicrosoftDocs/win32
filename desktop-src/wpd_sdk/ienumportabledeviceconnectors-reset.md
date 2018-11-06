@@ -2,7 +2,6 @@
 Description: Resets the enumeration sequence to the beginning.
 ms.assetid: 1df1ff95-06ae-4e5e-8064-17f832c5f0b3
 title: IEnumPortableDeviceConnectors::Reset method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Initiates a data upload of a single item from the caller.
 ms.assetid: 301ac5d9-b864-4c3c-bd4b-143cc4032dcb
 title: IWiaTransfer::Upload method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

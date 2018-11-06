@@ -2,7 +2,6 @@
 Description: Adds stroke data for a single stroke to the IInkAnalyzer and assigns the active input thread's culture identifier to the stroke.
 ms.assetid: 0e603e5a-d722-4ab8-bc59-605e131c863b
 title: IInkAnalyzer::AddStroke method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

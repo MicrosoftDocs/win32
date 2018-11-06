@@ -2,7 +2,6 @@
 title: Enabling Visual Styles
 description: This topic explains how to configure your application to ensure that common controls are displayed in the user's preferred visual style.
 ms.assetid: eb6c2469-25b9-43c4-a6ca-391a7b2859b3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -65,7 +64,7 @@ The sample manifest also provides a description of your application and specifie
 
 Following is an example of a manifest file.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Set the **processorArchitecture** entry to **"X86"** if your application targets the 32 bit Windows platform, or to **"amd64"** if your application targets the 64 bit Windows platform. You can also specify **"\*"**, which ensures that all platforms are targeted, as shown in the following examples.
 
  

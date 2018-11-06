@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Protocol Provider Unions
 description: The custom remote protocol API supports the following unions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 345fd6e7-ae14-422f-bcc1-7837b867747e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

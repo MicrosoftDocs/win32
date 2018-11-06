@@ -1,9 +1,6 @@
 ---
 title: ms-Exch-LabeledURI attribute
 description: An Exchange URI followed by a label.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 56b92fb9-0000-4ce4-8319-f3cad2b6f392
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Exch-LabeledURI
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

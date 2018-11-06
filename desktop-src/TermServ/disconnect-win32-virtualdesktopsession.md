@@ -1,9 +1,6 @@
 ---
 title: Disconnect method of the Win32_VirtualDesktopSession class
 description: Disconnects the virtual desktop session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9dbb256c-c416-4749-87be-05a906070560
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

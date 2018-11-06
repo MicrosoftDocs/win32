@@ -2,7 +2,6 @@
 Description: This section contains information about the interfaces and classes used in the real time stylus.
 ms.assetid: fc0900b4-f08b-4a93-bbc0-d3db067d7917
 title: RealTimeStylus Classes and Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

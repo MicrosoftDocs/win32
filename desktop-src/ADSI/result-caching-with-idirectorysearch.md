@@ -1,15 +1,11 @@
 ---
 title: Result Caching with IDirectorySearch
 description: The ADS\_SEARCHPREF\_CACHE\_RESULTS preference caches the result set on the client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bb286879-7d84-4085-88e1-600c848b8af8
 ms.tgt_platform: multiple
 keywords:
 - Result Caching with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Result Caching
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

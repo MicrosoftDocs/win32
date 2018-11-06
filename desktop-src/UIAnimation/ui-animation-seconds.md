@@ -4,7 +4,6 @@ description: The unit of time used for all animations.
 ms.assetid: 0745b227-61c4-462e-8529-9402c9eaa70a
 keywords:
 - UI_ANIMATION_SECONDS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

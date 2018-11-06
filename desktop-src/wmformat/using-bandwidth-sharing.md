@@ -8,7 +8,6 @@ keywords:
 - profiles,bandwidth sharing
 - streams,bandwidth sharing
 - bandwidth sharing,IWMProfile interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

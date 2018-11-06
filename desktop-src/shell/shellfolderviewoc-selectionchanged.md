@@ -1,7 +1,6 @@
 ---
 Description: Indicates that the selection state of one or more items in the view has changed.
 title: ShellFolderViewOC.SelectionChanged event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,10 @@
 ---
 title: Property Pages for Use with Display Specifiers
 description: Active Directory Domain Services provide a mechanism for adding pages to the property sheet displayed for a directory object from the Active Directory administrative snap-ins or the Windows shell.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c1dd84e2-50f9-4903-a4b5-4473515e4d0e
 ms.tgt_platform: multiple
 keywords:
 - display specifiers AD ,property pages for use with
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

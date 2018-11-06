@@ -2,7 +2,6 @@
 Description: Identifies the APN or dial string to be used to establish a data connection.
 ms.assetid: e791ffa1-b417-480c-adb8-b1dda7547d89
 title: AccessString (contextType) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

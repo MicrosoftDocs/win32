@@ -2,7 +2,6 @@
 Description: Several image file formats enable you to store metadata along with an image.
 ms.assetid: 1eba4b91-bbf4-4f82-b2d7-65f331a84859
 title: Image Property Tag Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

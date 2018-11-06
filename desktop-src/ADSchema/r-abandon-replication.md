@@ -1,9 +1,6 @@
 ---
 title: Abandon-Replication extended right
 description: Extended right needed to cancel a replication sync.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 74a2d95a-08d9-43f7-9fe2-ce0eb4930344
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Abandon-Replication
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

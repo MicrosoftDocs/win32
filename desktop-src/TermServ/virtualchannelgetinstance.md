@@ -1,9 +1,6 @@
 ---
 title: VirtualChannelGetInstance entry point
 description: Called to have the plug-in create an instance of the IWTSPlugin interface for all plug-ins implemented by the DLL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B81BD61E-1F43-42C9-8839-30F4F4C3973C
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - VirtualChannelGetInstance
 api_type:
 - UserDefined
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

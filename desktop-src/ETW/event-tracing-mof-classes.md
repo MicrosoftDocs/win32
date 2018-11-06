@@ -2,7 +2,6 @@
 Description: The classes are defined in the \\root\\wmi namespace.
 ms.assetid: b86c3863-b92c-4f6c-b953-3e0638bc915e
 title: Event Tracing MOF Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

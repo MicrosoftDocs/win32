@@ -2,7 +2,6 @@
 Description: Allows the callback object to provide Internet zone information. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: 6fae7925-b1be-4270-9318-7fa517563dad
 title: SFVM_GETZONE message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

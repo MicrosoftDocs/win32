@@ -2,7 +2,6 @@
 title: Color Picker Properties
 description: Reference documentation on property keys for the Ribbon framework Drop-Down Color Picker.
 ms.assetid: b1c3eead-d200-46b4-92fc-47bcd5e28542
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

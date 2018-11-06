@@ -2,7 +2,6 @@
 Description: LOCALE\_IDIGITS
 ms.assetid: ecd014c9-76c5-44a3-8fbd-5b7dc34834f9
 title: LOCALE_IDIGITS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

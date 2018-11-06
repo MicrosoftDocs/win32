@@ -2,7 +2,6 @@
 Description: The CIM\_ManagedElement class is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
 ms.assetid: 6655a480-37bd-403c-9673-4eaa3d381201
 title: CIM_ManagedElement class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -102,7 +101,7 @@ Access type: Read-only
 
 Uniquely and opaquely identifies an instance of this class within the scope of the containing namespace.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > In order to ensure uniqueness within the namespace, the value of the **InstanceID** property should be constructed in the following pattern: *OrgID*:*LocalID*
 >

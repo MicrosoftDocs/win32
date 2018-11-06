@@ -2,7 +2,6 @@
 Description: Device classes simplify development by letting programmers treat devices that have similar properties in a similar manner.
 ms.assetid: 061f3037-1c71-4da1-88d7-29906c136d7b
 title: Device Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

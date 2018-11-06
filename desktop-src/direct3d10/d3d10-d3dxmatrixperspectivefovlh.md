@@ -2,7 +2,6 @@
 Description: Builds a left-handed perspective projection matrix based on a field of view.
 ms.assetid: 35ee12d6-0a58-4b00-ac8f-82f82215f02e
 title: D3DXMatrixPerspectiveFovLH function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

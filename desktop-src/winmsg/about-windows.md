@@ -2,7 +2,6 @@
 Description: This topic describes the programming elements that applications use to create and use windows; manage relationships between windows; and size, move, and display windows.
 ms.assetid: e325f8dc-004f-44a9-9122-3be5e44764d6
 title: About Windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

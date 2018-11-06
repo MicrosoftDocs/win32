@@ -1,14 +1,8 @@
 ---
 Description: Modifies the start mode of a service object derived from Win32\_BaseService.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 33040632-6c04-4084-af09-8e1b8bc29090
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ChangeStartMode method of the Win32_BaseService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

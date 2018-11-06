@@ -2,7 +2,6 @@
 title: File server API support
 description: File server API support
 ms.assetid: C06223B2-C1BD-4CD6-83C8-517F0DD45401
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

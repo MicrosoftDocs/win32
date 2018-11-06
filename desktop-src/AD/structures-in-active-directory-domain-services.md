@@ -1,16 +1,12 @@
 ---
 title: Structures in Active Directory Domain Services
 description: The following are categories of structures in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8a7e18aa-a1c7-4781-b760-bec7c914dc05
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Structures AD
 - Active Directory, Reference, Structures
 - Structures AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

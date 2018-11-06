@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings3 GatewayAuthCookieServerAddr property
 description: The server address for cookie-based authentication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e00480cd-2133-42ff-8447-6c4234b56bf9
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

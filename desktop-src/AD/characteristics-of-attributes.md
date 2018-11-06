@@ -1,15 +1,11 @@
 ---
 title: Characteristics of Attributes
 description: Characteristics of Attributes
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7c75edc4-0d94-438e-bbfc-5e10badb24c5
 ms.tgt_platform: multiple
 keywords:
 - Characteristics of Attributes AD
 - Attributes AD , Characteristics
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

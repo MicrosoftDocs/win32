@@ -1,12 +1,8 @@
 ---
 Description: Use SWbemServices.ExecQuery to request all existing events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bc99719a-7e33-4e2d-8355-f8fc97c66f71
 ms.tgt_platform: multiple
 title: Receiving Synchronous and Semisynchronous Event Notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

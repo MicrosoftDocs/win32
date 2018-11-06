@@ -8,7 +8,6 @@ keywords:
 - profiles,saving
 - profiles,IWMProfileManager interface
 - IWMProfileManager,saving profiles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -10,7 +10,6 @@ api_name:
 - About the Windows Media Audio and Video Codec Interfaces
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

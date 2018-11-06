@@ -2,7 +2,6 @@
 Description: Specifies the health state of an application.
 ms.assetid: CA06AA34-A549-4CFC-9B52-D2E0B200C3E9
 title: APPLICATION_STATE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

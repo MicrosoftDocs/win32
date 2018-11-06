@@ -2,7 +2,6 @@
 Description: 'The following messages are used with painting and drawing:'
 ms.assetid: ff1f72d2-163d-40c4-ab65-f406f9b78a84
 title: Painting and Drawing Messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

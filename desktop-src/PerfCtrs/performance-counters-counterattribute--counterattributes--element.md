@@ -2,7 +2,6 @@
 Description: Identifies an attribute of a counter that describes how the counter should be displayed.
 ms.assetid: 895a2f58-43fc-4311-a980-86e9ef21fb3d
 title: counterAttribute (counterAttributes) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

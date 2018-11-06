@@ -2,7 +2,6 @@
 Description: The ARPURLUPDATEINFO property is the URL for the link used to update information on the application.
 ms.assetid: 09c43cb2-e322-407d-ad54-fe93f9be0be3
 title: ARPURLUPDATEINFO property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

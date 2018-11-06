@@ -1,14 +1,10 @@
 ---
 title: Example Code for Setting an ACE on a Directory Object
 description: This topic includes several code examples that add an Access Control Entry (ACE) to the Discretionary Access Control List (DACL) of the security descriptor of a directory object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb1ad9f5-af2f-4ad1-a58b-6439cca6fd23
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting an ACE on a directory object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

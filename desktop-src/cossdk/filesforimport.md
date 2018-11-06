@@ -2,7 +2,6 @@
 Description: Retrieves information for applications that are imported.
 ms.assetid: 9ed4bc3f-3490-4c36-ba94-bc803886a4d2
 title: FilesForImport collection
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

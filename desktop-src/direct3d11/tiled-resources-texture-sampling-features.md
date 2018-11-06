@@ -2,7 +2,6 @@
 title: Tiled resources texture sampling features
 description: This section describes tiled resources texture sampling features.
 ms.assetid: E56737CE-C468-4D3C-84EE-E8EB2AB6F505
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

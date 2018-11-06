@@ -2,7 +2,6 @@
 Description: This table lists the base data types that are supported by the Windows Runtime, and indicates the corresponding type in C\#, Visual Basic, and C++.
 ms.assetid: B5735851-EC07-48C1-92B4-CA9F768096F6
 title: Windows Runtime base data types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Sets or retrieves the length of time before a URL is determined to be unreachable.
 ms.assetid: f39dafc4-6017-463c-aeee-948b6173862a
 title: CertificateStatus.UrlRetrievalTimeout property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

@@ -2,7 +2,6 @@
 Description: Represents the type of information in the SYSTEM\_CPU\_SET\_INFORMATION structure.
 ms.assetid: B42CB8E8-0010-4B11-AB0D-6D196DCCC90A
 title: CPU_SET_INFORMATION_TYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

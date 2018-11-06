@@ -2,7 +2,6 @@
 Description: This function has been deprecated, use D3DX10GetFeatureLevel1 instead.
 ms.assetid: 84082c82-8496-40fd-a942-07c1a4d8c8ca
 title: D3DX10GetDriverLevel
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

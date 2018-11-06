@@ -6,7 +6,6 @@ keywords:
 - Dynamic Data Exchange (DDE),about
 - DDE (Dynamic Data Exchange),about
 - data exchange,Dynamic Data Exchange (DDE)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

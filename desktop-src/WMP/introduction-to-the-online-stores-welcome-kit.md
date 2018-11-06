@@ -4,7 +4,6 @@ description: Introduction to the Online Stores Welcome Kit
 ms.assetid: e68c6166-d643-4a01-861a-8adda5b7a3b2
 keywords:
 - Windows Media Player Online Stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

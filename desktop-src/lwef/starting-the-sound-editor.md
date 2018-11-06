@@ -2,7 +2,6 @@
 title: Starting the Sound Editor
 description: Starting the Sound Editor
 ms.assetid: bf910be0-46ad-4993-95a2-26575f2e5797
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

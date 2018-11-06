@@ -13,7 +13,6 @@ keywords:
 - Windows Media Download packages,playlists
 - Windows Media Download packages,metafile playlists
 - Windows Media Download packages,Windows Media metafile playlists
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

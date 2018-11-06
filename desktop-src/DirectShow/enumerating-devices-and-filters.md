@@ -2,7 +2,6 @@
 Description: Enumerating Devices and Filters
 ms.assetid: 334bba2a-7477-4115-9ce0-d4495c1fc290
 title: Enumerating Devices and Filters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

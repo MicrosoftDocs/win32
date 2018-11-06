@@ -11,7 +11,6 @@ keywords:
 - metafile playlists,media delivery personalization
 - media delivery personalization
 - personalizing media delivery
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

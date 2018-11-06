@@ -2,7 +2,6 @@
 title: Windows precision touchpad devices
 description: Windows precision touchpad devices
 ms.assetid: 026F9940-C985-4F3A-BDBB-2977B14EAB1F
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

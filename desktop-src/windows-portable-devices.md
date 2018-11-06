@@ -2,7 +2,6 @@
 Description: Windows Portable Devices
 ms.assetid: b3833a11-631d-4860-867f-a611c9362dae
 title: Windows Portable Devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

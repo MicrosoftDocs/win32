@@ -2,7 +2,6 @@
 Description: The MPEG-2 Video Decoder is a Media Foundation transform that decodes MPEG-1 and MPEG-2 video.
 ms.assetid: 3E7FAE14-932D-44A3-997B-567C0D2EAE7B
 title: MPEG-2 Video Decoder
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

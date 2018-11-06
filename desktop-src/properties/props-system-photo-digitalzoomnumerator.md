@@ -2,7 +2,6 @@
 Description: The numerator of PKEY\_Photo\_DigitalZoom.
 ms.assetid: d497d550-88bf-49dc-99d2-464a7caaac5f
 title: System.Photo.DigitalZoomNumerator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-KDF-AlgorithmID attribute
 description: The algorithm name of the key derivation function used to compute keys.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4dfb3ded-b968-414b-9453-f24813042cab
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-KDF-AlgorithmID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

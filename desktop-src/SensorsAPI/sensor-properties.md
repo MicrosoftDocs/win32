@@ -2,7 +2,6 @@
 Description: The Sensor and Location platform defines constants that identify properties for sensors. Sensor manufacturers can also define their own properties.
 ms.assetid: 2fb739a0-9af5-4784-94b2-f8d10b9e21ca
 title: Sensor Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -17,7 +16,7 @@ Each platform-defined sensor property **PROPERTYKEY** is based on a common **GUI
 
 {7F8383EC-D3EC-495C-A8CF-B8BBE85C2920}.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Do not use this base value to define your own property keys.
 
  

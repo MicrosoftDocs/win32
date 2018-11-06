@@ -2,7 +2,6 @@
 Description: The EndFlush method ends a flush operation.
 ms.assetid: 4c30abbf-7351-4eee-af9a-9330f6d1aa08
 title: CBaseRenderer.EndFlush method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

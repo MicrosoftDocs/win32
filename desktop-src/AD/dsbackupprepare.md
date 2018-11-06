@@ -1,9 +1,6 @@
 ---
 title: DsBackupPrepare function
 description: Prepares the directory on the specified server for the online backup and returns a backup context handle used in subsequent calls to other backup functions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 18c6dbcf-b707-4674-9af5-40f2178e6d2b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

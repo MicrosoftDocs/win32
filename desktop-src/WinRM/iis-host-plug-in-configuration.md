@@ -1,12 +1,8 @@
 ---
 title: IIS Host Plug-in Configuration
 description: The Windows Remote Management (WinRM) Internet Information Services (IIS) host plug-in configuration provides a hosting mechanism that allows third-party WinRM plug-ins to expose management data within the WinRM infrastructure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 234e6f7b-310f-499a-83e4-699ecf3816f0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

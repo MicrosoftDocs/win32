@@ -2,7 +2,6 @@
 title: The Component Categories Manager
 description: The Component Categories Manager
 ms.assetid: bd43ef98-2299-4c8a-9f35-bf9aceb074ab
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

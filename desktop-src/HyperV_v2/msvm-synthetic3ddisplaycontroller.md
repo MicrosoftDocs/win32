@@ -2,7 +2,6 @@
 Description: Represents the synthetic 3-D display controller that is assigned to a virtual machine.
 ms.assetid: 5679668B-7D0B-421C-92B6-8A320090DFF7
 title: Msvm_Synthetic3DDisplayController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -80,7 +79,7 @@ api_location:
 
 Represents the synthetic 3-D display controller that is assigned to a virtual machine. This class is only used with virtual machines that use RemoteFX.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > When you add a synthetic 3-D display controller to a virtual machine, you must disable any synthetic display controller ([**Msvm\_SyntheticDisplayController**](msvm-syntheticdisplaycontroller.md)) that is attached to that virtual machine.
 
  

@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for ToolBar control type
 - control types,support for ToolBar
 - control types,ToolBar
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

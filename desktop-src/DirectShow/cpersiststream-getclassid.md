@@ -2,7 +2,6 @@
 Description: Retrieves the class identifier for this filter.
 ms.assetid: f0559437-5d0d-4522-a3dc-947e3494b576
 title: CPersistStream.GetClassID method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

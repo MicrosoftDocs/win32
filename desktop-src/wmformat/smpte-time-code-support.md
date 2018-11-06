@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),IWMReaderTimecode interface
 - SMPTE time codes,about
 - IWMReaderTimecode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Tiled resources features tiers
 description: Direct3D 11.2 exposes tiled resources support in two tiers with the D3D11\_TILED\_RESOURCES\_TIER values.
 ms.assetid: E6A6565B-079B-47DB-A80C-CA5B5413BA32
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

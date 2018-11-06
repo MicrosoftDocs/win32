@@ -1,15 +1,11 @@
 ---
 title: Modifying Attributes with ADSI
 description: To modify attribute values, ADSI provides the IADs.Put and IADs.PutEx methods. These methods modify the data on the client-side cache. The IADs.SetInfo method must be called to commit the changes to the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cbb5c313-3b9d-4943-bd16-6e4489abe804
 ms.tgt_platform: multiple
 keywords:
 - Modifying Attributes with ADSI
 - Attributes ADSI , Modifying
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

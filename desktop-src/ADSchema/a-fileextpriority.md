@@ -1,9 +1,6 @@
 ---
 title: File-Ext-Priority attribute
 description: This attribute contains a list of file name extensions in an application package and their associated priorities.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f95ba5cb-cd69-43e8-919f-7c61ebe0cc62
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - File-Ext-Priority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

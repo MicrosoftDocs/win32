@@ -1,9 +1,6 @@
 ---
 title: Sync-With-SID attribute
 description: For the SAM builtin group object/ local policy synchronization, this is the local group to which an object corresponds.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b983210d-1c54-4355-bc37-771e51016175
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Sync-With-SID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

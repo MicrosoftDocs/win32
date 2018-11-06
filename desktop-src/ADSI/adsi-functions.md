@@ -1,15 +1,11 @@
 ---
 title: ADSI Functions
 description: Active Directory Service Interfaces expose the following helper functions to clients that do not use Automation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4f0e90e2-afcc-4cf7-a731-9b38a83ca229
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,reference,functions
 - function ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

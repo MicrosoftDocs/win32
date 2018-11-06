@@ -2,7 +2,6 @@
 Description: 'Windows API functions that manipulate characters are generally implemented in one of three formats:'
 ms.assetid: e7698f0b-dbcb-4cd0-9cb5-23a26edb966a
 title: Unicode in the Windows API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

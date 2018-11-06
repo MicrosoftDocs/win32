@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Queue-Journal-Quota attribute
 description: The journal message quota of the queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 28d9219e-0434-484e-bca0-2fc0b0d73fd9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Queue-Journal-Quota
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

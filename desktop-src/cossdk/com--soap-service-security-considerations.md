@@ -2,7 +2,6 @@
 Description: COM+ SOAP Service Security Considerations
 ms.assetid: c4f7744c-ff57-4d9d-8632-7e5bbb73449a
 title: COM+ SOAP Service Security Considerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-Mof attribute
 description: Holds a MOF definition of some WMI object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0408b857-4b72-40dc-9d95-d7faecce8119
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-Mof
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

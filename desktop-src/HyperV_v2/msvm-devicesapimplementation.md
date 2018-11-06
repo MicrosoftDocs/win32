@@ -2,7 +2,6 @@
 Description: An association between a service access point (SAP) and how it is implemented.
 ms.assetid: 36108521-A699-4498-A962-DC0801D9EE81
 title: Msvm_DeviceSAPImplementation class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -5,7 +5,6 @@ ms.assetid: 59f93c1c-9d15-4980-b246-19257c66b6b8
 keywords:
 - OpenGL Utility (GLU),error codes
 - GLU (OpenGL Utility),error codes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

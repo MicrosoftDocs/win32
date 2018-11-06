@@ -2,7 +2,6 @@
 Description: Proxy function for the GetMetadataQueryWriter method.
 ms.assetid: b2c61dee-b72b-408c-8cb9-de2587587f1f
 title: IWICBitmapFrameEncode_GetMetadataQueryWriter_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

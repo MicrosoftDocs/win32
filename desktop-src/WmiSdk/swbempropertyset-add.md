@@ -1,12 +1,8 @@
 ---
 Description: The Add method of the SWbemPropertySet object adds an SWbemProperty object to the SWbemPropertySet collection. If a property with the same name already exists in the collection, its contents are replaced with the new definition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 52a5f964-3d53-441b-9a58-650afdc5b1b9
 ms.tgt_platform: multiple
 title: SWbemPropertySet.Add method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

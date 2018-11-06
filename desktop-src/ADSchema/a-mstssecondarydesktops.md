@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Secondary-Desktops attribute
 description: This attribute represents the array of forward links to a user's secondary desktops.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 41b978b8-042f-49f7-a3ea-61be727561ad
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Secondary-Desktops
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

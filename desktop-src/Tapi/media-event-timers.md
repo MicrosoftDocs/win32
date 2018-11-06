@@ -2,7 +2,6 @@
 Description: Many applications depend on the timing relationship between media events (for example, DTMF digits received) to determine the nature of a requested operation.
 ms.assetid: 8d25a31f-de40-4c74-b8e7-a81fbfd47db2
 title: Media Event Timers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

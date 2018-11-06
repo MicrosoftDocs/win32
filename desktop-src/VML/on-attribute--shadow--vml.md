@@ -2,7 +2,6 @@
 title: On Attribute (Shadow)(VML)
 description: On Attribute (Shadow)(VML)
 ms.assetid: 234fe63e-8a4a-4067-9d05-a8990d1cee5c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

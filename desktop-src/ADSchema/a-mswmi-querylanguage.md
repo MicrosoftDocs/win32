@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-QueryLanguage attribute
 description: Identifies a WQL query language.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: af57b318-4a64-4c36-b0eb-1220740e5072
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-QueryLanguage
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

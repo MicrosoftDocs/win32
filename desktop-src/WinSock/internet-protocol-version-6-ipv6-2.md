@@ -2,7 +2,6 @@
 Description: It is important to ensure that new Winsock applications as well as existing applications are fully compatible with IPv6.
 ms.assetid: 48aa6be8-e8a2-48a5-aa71-3e5ed7032551
 title: Internet Protocol Version 6 (IPv6)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

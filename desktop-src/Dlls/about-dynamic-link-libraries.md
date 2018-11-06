@@ -2,7 +2,6 @@
 Description: Dynamic linking allows a module to include only the information needed to locate an exported DLL function at load time or run time.
 ms.assetid: df2a8e4c-7ad0-46ea-9643-1528a9ea1503
 title: About Dynamic-Link Libraries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

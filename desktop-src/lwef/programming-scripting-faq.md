@@ -2,7 +2,6 @@
 title: Programming Scripting FAQ
 description: Programming Scripting FAQ
 ms.assetid: 84078c5b-7b04-48fa-9d0a-d95393c323eb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

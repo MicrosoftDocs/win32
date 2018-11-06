@@ -1,9 +1,6 @@
 ---
 title: Remote Desktop Services WMI provider error codes
 description: Errors returned by the Remote Desktop Services WMI provider. For a list of other WMI errors, see WMI Error Constants.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1e68c41d-f321-4bc5-ba30-b69f5ba741eb
 ms.tgt_platform: multiple
 topic_type:
@@ -36,7 +33,6 @@ api_location:
 - Wbemcli.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

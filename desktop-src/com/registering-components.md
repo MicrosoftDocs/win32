@@ -2,7 +2,6 @@
 title: Registering Components
 description: Registering Components
 ms.assetid: d7fd231b-17ec-42ad-9144-df7ed5ffb17b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

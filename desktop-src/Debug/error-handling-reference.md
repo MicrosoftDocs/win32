@@ -2,7 +2,6 @@
 Description: The following elements are used with error handling.
 ms.assetid: 7d08603d-7baa-4972-962c-50beaeb926f2
 title: Error Handling Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

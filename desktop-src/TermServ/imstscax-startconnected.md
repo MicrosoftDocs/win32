@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx StartConnected property
 description: Indicates whether the control will establish the Remote Desktop Session Host (RD Session Host) server connection immediately upon startup.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cf2956c0-be4f-4f80-a14b-253ae8117824
 ms.tgt_platform: multiple
 keywords:
@@ -65,7 +62,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

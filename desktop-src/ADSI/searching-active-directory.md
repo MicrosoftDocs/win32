@@ -1,16 +1,12 @@
 ---
 title: Searching Active Directory
 description: An important function of Active Directory is to resolve data queries for people, as well as configuration data for computers and services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8427d69b-0974-4adc-9732-790e5d31db7a
 ms.tgt_platform: multiple
 keywords:
 - Searching Active Directory ADSI
 - ADSI ADSI ,searching Active Directory
 - queries ADSI ,searching Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

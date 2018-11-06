@@ -1,9 +1,6 @@
 ---
 title: Enumeration(Preferred-Delivery-Method) syntax
 description: Enumeration(preferred-delivery-method) syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fab085bc-8314-4cfb-acc8-5f3ef7fd5467
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Enumeration(Preferred-Delivery-Method)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

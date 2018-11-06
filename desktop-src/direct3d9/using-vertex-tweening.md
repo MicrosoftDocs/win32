@@ -2,7 +2,6 @@
 Description: To determine if Direct3D supports vertex tweening, check for the D3DVTXPCAPS\_TWEENING flag in the VertexProcessingCaps member of the D3DCAPS9 structure.
 ms.assetid: b60c7f96-3752-4703-9059-486d9906c508
 title: Using Vertex Tweening (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Retrieves the error object for the migration job, if one exists.
 ms.assetid: 83a68ded-086a-42d9-b76d-e46af70d9b43
 title: GetError method of the Msvm_MigrationJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

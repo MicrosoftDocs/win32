@@ -2,7 +2,6 @@
 title: Newdev.h
 description: This section contains reference topics for the Newdev.h header.
 ms.assetid: 74195139-6899-4324-af77-d830c2642031
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

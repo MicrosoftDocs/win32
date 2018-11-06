@@ -1,15 +1,11 @@
 ---
 title: Getting ADSI Interfaces From Your Extension
 description: An extension often needs to get data from the directory object it binds to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2d2e6dc6-1eed-491b-9d6a-7f35c24a7ba8
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI ,getting ADSI interfaces from your extension
 - ADSI ADSI ,example code C/C++ ,getting ADSI interfaces from your extension
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

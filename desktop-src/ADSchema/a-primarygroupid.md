@@ -1,9 +1,6 @@
 ---
 title: Primary-Group-ID attribute
 description: Contains the relative identifier (RID) for the primary group of the user. By default, this is the RID for the Domain Users group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 80803734-f7dd-4348-a110-ca6b8bccb60b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Primary-Group-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

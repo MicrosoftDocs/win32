@@ -1,14 +1,10 @@
 ---
 title: Reading the defaultSecurityDescriptor for an Object Class
 description: Using ADSI, you can obtain the defaultSecurityDescriptor attribute for an object class with the IADs interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 12d1e77a-bd70-4c64-9b4f-ac5caaf5fe40
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , reading the defaultSecurityDescriptor for an Object Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: SetVirtualIPMode method of the Win32_TSVirtualIP class
 description: Sets the VirtualIPMode property value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d4b39566-ad2a-493b-8022-c006a857043d
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

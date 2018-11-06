@@ -2,7 +2,6 @@
 Description: Major type GUID for a media type.
 ms.assetid: b88b5fcf-8025-4638-930d-9fc5cf0ec8a3
 title: MF_MT_MAJOR_TYPE attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

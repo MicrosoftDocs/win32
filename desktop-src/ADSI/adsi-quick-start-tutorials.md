@@ -1,14 +1,10 @@
 ---
 title: Active Directory Service Interfaces Quick-start Tutorials
 description: The Active Directory Service Interfaces (ADSI) Quick-start Tutorials are a series of ADSI samples and supporting documentation designed to familiarize you with the programming models used to access Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cb3c00a2-3255-4afc-a7b9-b1454d160c62
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Service Interfaces Quick-start Tutorials ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

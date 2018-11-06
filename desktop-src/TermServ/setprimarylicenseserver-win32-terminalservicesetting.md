@@ -1,9 +1,6 @@
 ---
 title: SetPrimaryLicenseServer method of the Win32_TerminalServiceSetting class
 description: Sets the given license server as the first entry in the list of specified license servers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8921e861-3b9a-49c5-a691-ded7be18ca0a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

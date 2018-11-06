@@ -2,7 +2,6 @@
 Description: The following are the registry functions.
 ms.assetid: a490b748-42e8-462b-9a7f-a8b21438ea79
 title: Registry Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The system automatically handles painting into a device context (DC) that spans more than one monitor, even when the monitors have different color depths.
 ms.assetid: 2f03f612-293a-4a42-a13b-1e08e49d9e54
 title: Painting on Multiple Display Monitors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

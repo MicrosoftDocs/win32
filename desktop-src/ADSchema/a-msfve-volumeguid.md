@@ -1,9 +1,6 @@
 ---
 title: ms-FVE-VolumeGuid attribute
 description: Contains the GUID associated with a BitLocker-supported disk volume.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fe54beb4-8352-4ec5-9c9a-22ac19ee3cab
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-FVE-VolumeGuid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

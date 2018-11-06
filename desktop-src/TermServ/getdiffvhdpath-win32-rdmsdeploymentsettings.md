@@ -1,9 +1,6 @@
 ---
 title: GetDiffVHDPath method of the Win32_RDMSDeploymentSettings class
 description: Retrieves the directory path to which the differencing disks are deployed for a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4340c817-2276-48a1-a856-b4c9e91ea981
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

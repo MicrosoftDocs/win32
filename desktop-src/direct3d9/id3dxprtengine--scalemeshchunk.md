@@ -2,7 +2,6 @@
 Description: Scales all the samples associated with a given submesh. The method is useful for computing subsurface scattering.
 ms.assetid: abb9ca6a-5fc2-4986-8a38-29998fe5e537
 title: ID3DXPRTEngine::ScaleMeshChunk method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

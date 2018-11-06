@@ -2,7 +2,6 @@
 Description: Sets or retrieves a property's current value.
 ms.assetid: bb0b3296-a07b-458f-bea3-e1c9ada3246b
 title: WebWizardHost.Property property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

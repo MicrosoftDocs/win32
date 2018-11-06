@@ -2,7 +2,6 @@
 title: IVMFloppyDriveEvents Methods
 description: The IVMFloppyDriveEvents interface exposes the following methods.
 ms.assetid: D8887A10-5992-4393-A890-0103AD0866D1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

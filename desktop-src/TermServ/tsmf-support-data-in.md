@@ -1,9 +1,6 @@
 ---
 title: TSMF_SUPPORT_DATA_IN structure
 description: Contains information about media formats.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cd1a8295-22b7-4d75-8325-94da4d7380d0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - TSMF_SUPPORT_DATA_IN
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 api_location: 

@@ -1,15 +1,11 @@
 ---
 title: Adding Members to Groups in a Domain
 description: This topic shows how to add members to groups in a domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: be65cd4e-df3e-416b-a673-774b71ab6996
 ms.tgt_platform: multiple
 keywords:
 - Adding Members to Groups in a Domain AD
 - Groups AD , Adding Members to Groups in a Domain
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_LinkHasConnector class associates cables and links used as physical connectors, which connect the physical elements. This association explicitly defines the relationship of connectors for CIM\_PhysicalLink.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c8244b93-749a-424a-ab40-ce5ce79c8b02
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_LinkHasConnector class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_LinkHasConnector** class associates cables and links used as physical connectors, which connect the physical elements. This association explicitly defines the relationship of connectors for [**CIM\_PhysicalLink**](cim-physicallink.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

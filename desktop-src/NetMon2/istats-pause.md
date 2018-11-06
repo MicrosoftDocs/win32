@@ -2,7 +2,6 @@
 Description: The Pause method temporarily stops the current capture.
 ms.assetid: 43176e9e-1502-484c-a8af-4e7bbf5f6474
 title: IStats::Pause method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

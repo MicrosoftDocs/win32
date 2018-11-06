@@ -1,9 +1,6 @@
 ---
 title: DS-Core-Propagation-Data attribute
 description: The DS-Core-Propagation-Data attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6483890a-b1ef-4c8d-941d-8f25f722a305
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DS-Core-Propagation-Data
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

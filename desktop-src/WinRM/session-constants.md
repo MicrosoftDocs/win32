@@ -1,12 +1,8 @@
 ---
 title: Session Constants
 description: The session constants in the \_\_WSManSessionFlags enumeration specify authentication and other information for WSMan.CreateSession or IWSMan CreateSession calls that connect to a remote computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5df52696-ac2c-42b7-8b0f-99a27b58575b
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

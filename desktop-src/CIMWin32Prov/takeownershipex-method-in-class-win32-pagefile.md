@@ -1,14 +1,8 @@
 ---
 Description: Obtains ownership of the logical paging file specified in the object path. This method is an extended version of the TakeOwnerShip method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6c359910-713a-441e-b2e1-949929c07e93
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the Win32_PageFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

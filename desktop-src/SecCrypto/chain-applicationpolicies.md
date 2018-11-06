@@ -2,7 +2,6 @@
 Description: Returns an OIDs collection that represents the application policy OIDs valid for the chain.
 ms.assetid: 4e4a7dce-5004-4b80-b132-3cdc0c048cde
 title: IChain2::ApplicationPolicies method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-SimplePolicyTemplate class
 description: Provides a type of template that cannot be merged. Used in cases where the target object is not intended to be combined (merged).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 49ef0059-6ee1-4c1a-b02e-1f3a2dd06c64
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-SimplePolicyTemplate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

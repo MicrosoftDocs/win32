@@ -2,7 +2,6 @@
 Description: Gets the recognized string value of the IAnalysisAlternate object.
 ms.assetid: cdf41824-77a4-4c71-8712-f380a6cbf4c5
 title: IAnalysisAlternate::GetRecognizedString method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

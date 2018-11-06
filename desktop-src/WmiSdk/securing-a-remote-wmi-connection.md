@@ -1,12 +1,8 @@
 ---
 Description: To connect to a remote computer using WMI, ensure that the correct DCOM settings and WMI namespace security settings are enabled for the connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 96ebaa9b-a062-4300-a637-8eb71cb80d1c
 ms.tgt_platform: multiple
 title: Securing a Remote WMI Connection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

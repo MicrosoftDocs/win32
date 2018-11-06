@@ -2,7 +2,6 @@
 Description: The GetPreroll method retrieves the preroll time. This method implements the IMediaSeeking::GetPreroll method.
 ms.assetid: 2395d5b2-8c1f-40cd-8d4a-48620debe7a7
 title: CSourceSeeking.GetPreroll method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

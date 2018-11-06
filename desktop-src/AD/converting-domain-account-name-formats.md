@@ -1,12 +1,8 @@
 ---
 title: Converting Domain Account Name Formats
 description: The Microsoft Win32 functions for working with the service control manager (SCM) on a host server use the \ 0034; domain \\ username \ 0034; format for service accounts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a8bb6331-5070-4f46-b03d-615a004b3982
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Shows how to play protected media content in Microsoft Media Foundation.
 ms.assetid: e4a47e1c-16aa-45c1-8aa8-8929d6e1e653
 title: ProtectedPlayback Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Schannel has a well-defined set of behaviors for incomplete or excess information included in the input buffers to these functions.
 ms.assetid: 5fad1e76-6520-4ff7-b2b0-2cc2061062a1
 title: Extra Buffers Returned by Schannel
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

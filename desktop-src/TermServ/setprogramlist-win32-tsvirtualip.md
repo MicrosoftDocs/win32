@@ -1,9 +1,6 @@
 ---
 title: SetProgramList method of the Win32_TSVirtualIP class
 description: Overwrites the list of programs that use IP virtualization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4137c9b0-5b4d-4ab6-af2e-2cd98ba53563
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

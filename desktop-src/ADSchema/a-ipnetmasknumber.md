@@ -1,9 +1,6 @@
 ---
 title: ipNetmaskNumber attribute
 description: Contains the IP netmask in dotted decimal notation, omitting the leading zeros.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d61e551-fd5b-4388-8cfa-cef0f61c716a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ipNetmaskNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

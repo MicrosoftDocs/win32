@@ -2,7 +2,6 @@
 Description: This topic describes how to display the print job progress to the user and give them the option to cancel a print job that is currently in progress.
 ms.assetid: 2b7a0ab7-bf7e-473d-ab43-8b79478d4453
 title: 'How To: Display the Print Job Progress'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

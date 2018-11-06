@@ -2,7 +2,6 @@
 Description: Creates a save object. Deprecated.
 ms.assetid: 50a7dbde-1dd4-4aae-a9ab-97d6f99618c0
 title: IDirectXFile::CreateSaveObject method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: Brings a new computer system into a cluster.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 26d9428e-99de-4dcb-96ed-d773f28e015a
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AddNode method of the CIM_ClusteringService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **AddNode** method brings a new computer system into a cluster. The node to be added is specified as a parameter to the method.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

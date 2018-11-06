@@ -2,7 +2,6 @@
 Description: Lists topics that present procedures and extended C code examples that use CryptoAPI functions.
 ms.assetid: d4a408de-4201-4cd4-a270-ba96889232b6
 title: Other Extended C Code Examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

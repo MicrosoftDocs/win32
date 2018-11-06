@@ -2,7 +2,6 @@
 Description: This class is the parent class for performance counter events. The following syntax is simplified from MOF code.
 ms.assetid: 2606fea3-0651-4f7f-83a6-63021039eb95
 title: PerfInfo class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

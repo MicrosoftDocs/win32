@@ -2,7 +2,6 @@
 Description: Video Mixing Renderer Filter 7
 ms.assetid: c83e6c50-76f2-4aeb-944b-5b244c6bf776
 title: Video Mixing Renderer Filter 7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

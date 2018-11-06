@@ -2,7 +2,6 @@
 title: Enabled Property
 description: Enabled Property
 ms.assetid: 4d73acda-6fcc-4912-a466-570849aeb807
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

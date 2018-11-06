@@ -1,15 +1,11 @@
 ---
 title: Using NPS Extensions
 description: Internet Authentication Service (IAS) was renamed Network Policy Server (NPS).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3ee16279-7e11-4587-ae43-f0296b7e7594
 ms.tgt_platform: multiple
 keywords:
 - Internet Authentication Service IAS , tasks
 - Internet Authentication Service IAS , using
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

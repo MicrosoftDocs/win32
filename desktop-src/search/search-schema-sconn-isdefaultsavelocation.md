@@ -2,7 +2,6 @@
 Description: The optional Boolean <isDefaultSaveLocation> element specifies whether the location described in the search connector should be used as the default save location. This element has no child elements and no attributes.
 ms.assetid: 4a33f411-d71e-41d3-b5fd-018a92dceeac
 title: isDefaultSaveLocation Element (Search Connector Schema)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

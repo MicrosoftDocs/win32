@@ -2,7 +2,6 @@
 title: New File History feature
 description: New File History feature
 ms.assetid: B1EE4638-5591-483B-AA09-600E242ED50B
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

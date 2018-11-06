@@ -1,9 +1,6 @@
 ---
 title: Domain-Policy class
 description: Defines the local security authority policy for one or more domains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 318647e3-5b45-43f9-bf49-3cf864c3869f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

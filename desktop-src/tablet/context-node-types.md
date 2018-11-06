@@ -2,7 +2,6 @@
 Description: These constants define values that specify the type of IContextNode objects.
 ms.assetid: 333db79e-f503-4545-84fd-7c1a39a96728
 title: Context Node Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

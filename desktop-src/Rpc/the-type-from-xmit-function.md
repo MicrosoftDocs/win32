@@ -4,7 +4,6 @@ description: The stubs call the type\_from\_xmit function to convert data from i
 ms.assetid: 679a2738-a166-4e73-bca7-950f979ed97a
 keywords:
 - type_from_xmit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

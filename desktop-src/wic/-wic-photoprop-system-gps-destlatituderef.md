@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.GPS.DestLatitudeRef property.
 ms.assetid: 8a13642a-0d29-4193-9784-f716bc428c72
 title: System.GPS.DestLatitudeRef Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

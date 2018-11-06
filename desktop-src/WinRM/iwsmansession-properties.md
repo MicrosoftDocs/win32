@@ -1,12 +1,8 @@
 ---
 title: IWSManSession Properties
 description: The IWSManSession interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: E8B65FC9-D690-4789-8320-75809FAA9095
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

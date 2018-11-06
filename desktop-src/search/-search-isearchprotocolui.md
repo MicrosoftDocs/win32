@@ -2,7 +2,6 @@
 Description: Provides a method for invoking ISearchItem objects.
 ms.assetid: b52fd64b-b03a-4d02-a64f-201f6b7d5045
 title: ISearchProtocolUI interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The following sections describe the processes that form the event-logging model.
 ms.assetid: 7f38af18-c8fd-4af9-8423-c73e95b14deb
 title: Event Logging Model
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

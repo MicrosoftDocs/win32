@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable3 DriveCollection property
 description: Retrieves the collection of drive objects to be redirected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5aaac605-584b-442e-9d67-1cb8213a70b3
 ms.tgt_platform: multiple
 keywords:
@@ -42,7 +39,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

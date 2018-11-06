@@ -2,7 +2,6 @@
 Description: This section describes a set of Windows Shell conversion and helper functions used with PROPVARIANT and VARIANT types.
 ms.assetid: 683fffb7-e8e8-4f7c-8312-5baef9b20641
 title: PROPVARIANT and VARIANT Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

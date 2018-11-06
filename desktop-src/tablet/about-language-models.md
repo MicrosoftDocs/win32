@@ -2,7 +2,6 @@
 Description: Handwriting recognizers use a defined set of rules for a given language as the primary context for recognizing words.
 ms.assetid: d55ab045-7896-4d55-a634-238dea0606c8
 title: About Language Models
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

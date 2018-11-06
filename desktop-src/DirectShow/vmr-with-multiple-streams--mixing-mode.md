@@ -2,7 +2,6 @@
 Description: VMR with Multiple Streams (Mixing Mode)
 ms.assetid: 053edb70-8631-4fe4-a137-2fe54e02ab9e
 title: VMR with Multiple Streams (Mixing Mode)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

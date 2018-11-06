@@ -2,7 +2,6 @@
 Description: Volume and LUN Binding
 ms.assetid: ae32b354-799e-4f9b-8989-02bd95968210
 title: Volume and LUN Binding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

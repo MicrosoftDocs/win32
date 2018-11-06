@@ -2,7 +2,6 @@
 Description: To use an application dictionary with the Tablet PC API, you must first create a file with the list of words for your application dictionary.
 ms.assetid: 6abadad1-262b-4536-8846-1c06226dc18a
 title: Using Application Dictionaries with the Tablet PC Platform APIs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

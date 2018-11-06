@@ -6,7 +6,6 @@ keywords:
 - OpenGL,primitives
 - OpenGL processing pipeline,primitives
 - primitives OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

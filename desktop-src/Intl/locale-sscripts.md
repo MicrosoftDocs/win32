@@ -2,7 +2,6 @@
 Description: LOCALE\_SSCRIPTS
 ms.assetid: d15c501a-b77b-4446-bee6-6dbbd714b4e0
 title: LOCALE_SSCRIPTS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

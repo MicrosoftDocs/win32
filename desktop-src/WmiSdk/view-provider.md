@@ -1,12 +1,8 @@
 ---
 Description: The View provider is an instance and method provider that creates new classes based on instances of other classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e1992e10-647b-4747-8f3d-b437ef7f3770
 ms.tgt_platform: multiple
 title: View Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

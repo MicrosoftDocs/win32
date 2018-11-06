@@ -2,7 +2,6 @@
 Description: Generates C constants for XML schema tables for known types.
 ms.assetid: caba3776-fdc2-4a08-8e4c-d8e3b583d7ba
 title: typeTableDefinitions element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - MCI devices,MCIAVI driver
 - MCI commands,MCIAVI driver
 - MCIAVI driver
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

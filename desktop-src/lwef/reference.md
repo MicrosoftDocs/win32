@@ -2,7 +2,6 @@
 title: Reference
 description: Reference
 ms.assetid: 'vs|msagent|~\paface_83s5.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

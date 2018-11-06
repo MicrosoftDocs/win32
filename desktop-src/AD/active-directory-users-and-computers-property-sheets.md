@@ -1,14 +1,10 @@
 ---
 title: Active Directory Users and Computers Property Sheets
 description: The Active Directory Users and Computers MMC snap-in is designed to display a property sheet for various objects in an Active Directory server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 38032d89-9549-475c-90aa-dac5cfe11084
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Users and Computers Property Sheets AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

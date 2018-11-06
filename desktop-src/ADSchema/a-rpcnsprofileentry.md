@@ -1,9 +1,6 @@
 ---
 title: rpc-Ns-Profile-Entry attribute
 description: The list of entries for the current priority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 79e227b8-7da5-4945-b206-7dade73256e9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Ns-Profile-Entry
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

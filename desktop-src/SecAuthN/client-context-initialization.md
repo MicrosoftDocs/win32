@@ -2,7 +2,6 @@
 Description: Client Context Initialization
 ms.assetid: 0c8aad3e-e726-49ce-8fc9-94dbd60cc5cb
 title: Client Context Initialization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

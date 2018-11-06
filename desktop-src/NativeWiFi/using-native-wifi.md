@@ -2,7 +2,6 @@
 Description: This section describes procedures and programming techniques employed with Native Wifi. It includes basic Native Wifi programming techniques, such as Native Wifi API Sample, as well as advanced techniques useful for experienced NativeWifi developers.
 ms.assetid: ba5d0672-ba56-454c-a3f7-987060b3bc3a
 title: Using Native Wifi
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

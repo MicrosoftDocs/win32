@@ -2,7 +2,6 @@
 Description: How to write to a mailslot. Writing to a mailslot is similar to writing to a standard disk file.
 ms.assetid: a69ba953-cd5c-487f-b9e0-dbd6c44b88b8
 title: Writing to a Mailslot
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

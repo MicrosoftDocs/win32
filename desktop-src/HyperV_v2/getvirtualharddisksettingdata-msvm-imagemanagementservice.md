@@ -2,7 +2,6 @@
 Description: Retrieves the setting data associated with a virtual hard disk file.
 ms.assetid: b82c018e-8d23-4615-99c1-3b622a8f41da
 title: GetVirtualHardDiskSettingData method of the Msvm_ImageManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

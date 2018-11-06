@@ -1,9 +1,6 @@
 ---
 title: DeleteEx method of the Win32_SessionBrokerFarmAccount class
 description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d30c5d3e-f63c-4b21-85ae-a0b8d5868d64
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

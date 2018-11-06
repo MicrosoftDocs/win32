@@ -1,14 +1,10 @@
 ---
 title: Search Size Limit
 description: To reduce memory requirements, a client can focus on a small number of objects returned from the server and ignore the rest of the result set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 675a4931-dfa4-4948-936b-dee27add530c
 ms.tgt_platform: multiple
 keywords:
 - Search Size Limit ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

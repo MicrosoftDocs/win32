@@ -1,9 +1,6 @@
 ---
 title: Export method of the Win32_TSVm class
 description: Retrieves the virtual machine session monitoring information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7996651c-aa7c-4fde-84a6-928b27c8c5b8
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

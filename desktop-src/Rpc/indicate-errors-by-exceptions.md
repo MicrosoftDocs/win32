@@ -2,7 +2,6 @@
 title: Indicate Errors by Exceptions
 description: For traditional C programmers, errors are commonly returned through return values, or a special \ out\ parameter that returns the error code.
 ms.assetid: 85ee217d-6e0b-4160-9cec-a652c1daa9a0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

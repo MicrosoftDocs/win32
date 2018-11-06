@@ -2,7 +2,6 @@
 title: Get Started with Win32 Sample Code
 description: This section contains links to sample code for the series Get Started with Win32 and C++.
 ms.assetid: 062006b4-e665-4c7c-a5eb-ee370449bd98
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

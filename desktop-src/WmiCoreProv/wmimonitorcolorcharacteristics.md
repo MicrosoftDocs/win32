@@ -2,7 +2,6 @@
 Description: Represents the International Commission on Illumination (CIE) color characteristics of a computer monitor.
 ms.assetid: 476aefae-11c0-46be-a2bb-83fbafd70421
 title: WmiMonitorColorCharacteristics class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

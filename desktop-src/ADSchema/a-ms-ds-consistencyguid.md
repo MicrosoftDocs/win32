@@ -1,9 +1,6 @@
 ---
 title: MS-DS-Consistency-Guid attribute
 description: This attribute is used to check consistency between the directory and another object, database, or application, by comparing GUIDs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1372f46a-5569-4b06-9803-7d3862cdb745
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-DS-Consistency-Guid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

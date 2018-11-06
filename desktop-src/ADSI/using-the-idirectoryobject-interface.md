@@ -1,15 +1,11 @@
 ---
 title: Using the IDirectoryObject Interface
 description: When you create an ADSI client in C or C++ that uses early binding, you will have a wider variety of ADSI data types available to use for your client if it calls the IDirectoryObject interface instead of the IADs interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d2c706ed-a341-4c49-91da-70230192f055
 ms.tgt_platform: multiple
 keywords:
 - IDirectoryObject ADSI , using
 - ADSI ADSI , using,using the IDirectoryObject interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

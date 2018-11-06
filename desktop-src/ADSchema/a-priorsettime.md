@@ -1,9 +1,6 @@
 ---
 title: Prior-Set-Time attribute
 description: The previous time set for a secret.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 052dbfe3-8326-48a2-8d5f-2889d8e34848
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Prior-Set-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

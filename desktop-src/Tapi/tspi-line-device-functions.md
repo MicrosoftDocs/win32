@@ -2,7 +2,6 @@
 Description: This section contains an alphabetic list of the available line device functions in the Telephony SPI.
 ms.assetid: 2a27fbb7-93b5-4106-afd3-e63456650fb9
 title: TSPI Line Device Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

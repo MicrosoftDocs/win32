@@ -1,9 +1,6 @@
 ---
 title: Tree-Name attribute
 description: DNS name of the domain at the root of a tree.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3b509e77-a66e-4d80-b74e-33a4276ce1e2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Tree-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

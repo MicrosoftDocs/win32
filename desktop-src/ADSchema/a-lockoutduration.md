@@ -1,9 +1,6 @@
 ---
 title: Lockout-Duration attribute
 description: The amount of time that an account is locked due to the Lockout-Threshold being exceeded.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6a26ef80-86ed-433f-9032-cdd1aaf00388
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Lockout-Duration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

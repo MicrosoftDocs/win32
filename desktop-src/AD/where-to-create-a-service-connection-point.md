@@ -1,9 +1,6 @@
 ---
 title: Where to Create a Service Connection Point
 description: When an instance of Active Directory Domain Services is installed, the service installer creates service connection point objects (SCP) in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a90566d9-dd68-43e2-be9e-300d57a7fbf4
 ms.tgt_platform: multiple
 keywords:
@@ -12,7 +9,6 @@ keywords:
 - where to create a service connection point AD
 - creating a service connection point AD
 - service connection point AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

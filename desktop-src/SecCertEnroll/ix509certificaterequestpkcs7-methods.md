@@ -2,7 +2,6 @@
 Description: The IX509CertificateRequestPkcs7 interface exposes the following methods.
 ms.assetid: 21C39DBA-208A-4839-9067-41E741D1D8A0
 title: IX509CertificateRequestPkcs7 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

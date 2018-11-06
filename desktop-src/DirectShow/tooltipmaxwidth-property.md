@@ -2,7 +2,6 @@
 Description: The ToolTipMaxWidth property sets or retrieves the maximum width for the ToolTip associated with the MSWebDVD object.
 ms.assetid: aff466b2-6e10-4d61-a78d-bad827a470ee
 title: ToolTipMaxWidth Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

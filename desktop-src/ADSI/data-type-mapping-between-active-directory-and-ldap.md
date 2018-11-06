@@ -1,15 +1,11 @@
 ---
 title: Data Type Mapping between Active Directory and LDAP
 description: The following table maps the friendly syntax name to the corresponding LDAP syntax OID and ADSTYPEENUM value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 07952de0-0389-473a-84ca-b5f35fdc5b1f
 ms.tgt_platform: multiple
 keywords:
 - data type mapping between Active Directory and LDAP ADSI
 - LDAP service provider ADSI , data type mapping between Active Directory and LDAP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

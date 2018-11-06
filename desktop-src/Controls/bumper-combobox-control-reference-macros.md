@@ -2,7 +2,6 @@
 title: ComboBox Control Macros
 description: .
 ms.assetid: e147234e-0536-4719-b879-1ab5aa77d109
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

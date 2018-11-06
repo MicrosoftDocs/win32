@@ -2,7 +2,6 @@
 title: Shared Types
 description: Shared Types
 ms.assetid: 993DBAD2-3BEA-4DA0-A83D-1CCC40BE44E3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

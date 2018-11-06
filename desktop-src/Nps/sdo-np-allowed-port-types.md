@@ -1,12 +1,8 @@
 ---
 title: NP-Allowed-Port-Types
 description: Port types permitted for a connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1560e572-dfe8-4700-b78b-a38bc4b59d31
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

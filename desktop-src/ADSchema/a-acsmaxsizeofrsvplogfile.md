@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-Size-Of-RSVP-Log-File attribute
 description: The maximum size, in bytes, of an RSVP log file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0b107185-baea-4be8-b4b7-d0865714a575
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-Size-Of-RSVP-Log-File
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

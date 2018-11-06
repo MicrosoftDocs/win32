@@ -2,7 +2,6 @@
 Description: Audio-Tapered Volume Controls
 ms.assetid: 3b1adef5-40e9-4527-aa79-5a71f201fdfc
 title: Audio-Tapered Volume Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

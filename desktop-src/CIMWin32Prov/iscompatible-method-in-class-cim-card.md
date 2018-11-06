@@ -1,14 +1,8 @@
 ---
 Description: The IsCompatible method verifies whether the referenced physical element may be contained by, or inserted into, the physical package.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 809a1871-dfa2-499b-9adf-118dec71586b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_Card class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **IsCompatible** method verifies whether the referenced physical element may be contained by, or inserted into, the physical package. In a subclass, the set of possible return codes can be specified using a **ValueMap** qualifier on the method. The strings to which the **ValueMap** contents are translated can also be specified in the subclass as a **Values** array qualifier. This method is inherited from [**CIM\_PhysicalPackage**](cim-physicalpackage.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

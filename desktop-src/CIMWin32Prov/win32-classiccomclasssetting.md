@@ -1,14 +1,8 @@
 ---
 Description: Represents the settings of a Component Object Model (COM) component.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 18d9ddf2-184d-4680-8d56-f012c608ff7d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMClassSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

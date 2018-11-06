@@ -2,7 +2,6 @@
 Description: Windows has APIs and services that support diagnostics in and of your desktop apps.
 ms.assetid: 8dbc4807-e634-4204-8be7-e200f99ac6e2
 title: Diagnostics
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

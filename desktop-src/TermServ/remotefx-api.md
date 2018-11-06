@@ -1,12 +1,8 @@
 ---
 title: RemoteFX Media Redirection API
 description: The RemoteFX Media Redirection API is used in a Remote Desktop session to identify areas of the server that are displaying fast changing content, such as video. This content can then be video encoded and sent to the client in encoded format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ff4cbab0-6d99-46a9-8133-d9d748bbab78
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

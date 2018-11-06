@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Lockout-Duration attribute
 description: Lockout duration for locked out user accounts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 04aab345-6a79-4c03-8e6b-b2669ab4b672
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Lockout-Duration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

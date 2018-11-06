@@ -2,7 +2,6 @@
 Description: Stops the service.
 ms.assetid: 4f88b099-3a89-4d05-920e-265fc94599b1
 title: StopService method of the Msvm_VirtualEthernetSwitchManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,10 @@
 ---
 title: Enumerating Groups in a Domain
 description: Groups can be placed in any container or organizational unit (OU) in a domain as well as the root of the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7f9d3c90-b6f4-4bfa-960f-58f380aa487c
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Groups in a Domain AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

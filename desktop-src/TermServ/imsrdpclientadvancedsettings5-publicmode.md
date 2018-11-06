@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings5 PublicMode property
 description: Sets or retrieves the configuration for public mode. Public mode prevents the client from caching user data to the local system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dff6121a-b69c-411f-832b-29f9609f4230
 ms.tgt_platform: multiple
 keywords:
@@ -35,7 +32,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 116f59e9-da65-430d-b5de-e7cd9686bd19
 title: PrintTicket Public Keywords
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: 'The following structures are used in resource enumeration:'
 ms.assetid: 556794dd-aa62-46fa-a79a-54ca6a69bb38
 title: Resource Enumeration Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

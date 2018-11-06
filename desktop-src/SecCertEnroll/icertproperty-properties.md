@@ -2,7 +2,6 @@
 Description: The ICertProperty interface exposes the following properties.
 ms.assetid: 6602500E-2F44-4A6C-B44C-EA2E0F0907E7
 title: ICertProperty Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

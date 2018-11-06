@@ -1,9 +1,6 @@
 ---
 title: PKI-Overlap-Period attribute
 description: The period by when the certificate should be renewed before it is expired.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 394c78b2-7476-4c2d-9a95-f781c779ea4d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Overlap-Period
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

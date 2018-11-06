@@ -2,7 +2,6 @@
 Description: Abstract base class for classes that represent settings for an Ethernet switch port feature.
 ms.assetid: 26c40dd0-fe1e-4432-a177-8a565bf678e6
 title: Msvm_EthernetSwitchPortFeatureSettingData class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

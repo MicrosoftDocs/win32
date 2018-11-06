@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation LegacyIAccessible
 - control patterns,LegacyIAccessible
 - interfaces,ILegacyIAccessibleProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

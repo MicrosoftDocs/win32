@@ -2,7 +2,6 @@
 Description: The functions in this section install and configure printer drivers on a computer.
 ms.assetid: e6aa8963-aa1a-4313-bc24-2aeb4f4b93c4
 title: Printer Driver Installation Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

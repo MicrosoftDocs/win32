@@ -2,7 +2,6 @@
 Description: The following code examples demonstrate how to perform the following tasks associated with Windows messages and message queues.
 ms.assetid: 62b4616c-37bf-4d9f-8891-7010c7035d18
 title: Using Messages and Message Queues
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

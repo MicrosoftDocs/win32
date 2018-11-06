@@ -1,14 +1,10 @@
 ---
 title: Messages in Active Directory Domain Services
 description: Messages in Active Directory Domain Services are functional in Windows 2000 and Windows NT 4.0 with Service Pack 6a (SP6a) and later with DSClient.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 32a4724b-3182-4521-975c-cef33afee0b2
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Messages AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

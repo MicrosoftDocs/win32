@@ -2,7 +2,6 @@
 title: Standard Font Object
 description: Standard Font Object
 ms.assetid: f9b54dc4-24d4-4eb7-b43f-c481d64e52df
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

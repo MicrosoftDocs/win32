@@ -9,7 +9,6 @@ keywords:
 - reference for TSF,enumerations
 - text services,enumerations
 - TSF-enabled applications,enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

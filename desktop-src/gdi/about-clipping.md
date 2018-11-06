@@ -2,7 +2,6 @@
 Description: Clipping is used by applications in a variety of ways.
 ms.assetid: f0ecafcb-2fe4-482f-9333-324419740128
 title: About Clipping
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

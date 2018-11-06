@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 51df3fb9-416d-46b8-b3a7-0281401fb390
 title: Best Practices for Minimizing Unresponsive Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

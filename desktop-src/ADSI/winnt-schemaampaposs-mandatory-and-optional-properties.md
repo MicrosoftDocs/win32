@@ -1,12 +1,8 @@
 ---
 title: WinNT Schema's Mandatory and Optional Properties
 description: The following table lists the supported object properties (that is, the related ADSI interface property methods) in the WinNT provider. A property can be optional or mandatory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 83028b5a-706e-463a-ab70-a9192a11b50b
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

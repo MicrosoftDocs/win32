@@ -1,9 +1,6 @@
 ---
 title: Marshalled-Interface attribute
 description: Marshaled interface Pointer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bd7bf22b-03ce-4051-8ccc-d16405a5ddae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Marshalled-Interface
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

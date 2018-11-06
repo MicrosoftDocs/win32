@@ -2,7 +2,6 @@
 Description: Retrieves a qualifier based on a specified index.
 ms.assetid: 4d54358d-99de-4a1c-b843-41006f47a279
 title: Qualifiers.Item property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

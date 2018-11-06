@@ -2,7 +2,6 @@
 Description: Before you can use a file log, you must call SetupInitializeFileLog to open or create it. When you call this function, you can specify flags to create or overwrite a file log, open the system log, or open a file log as read-only.
 ms.assetid: 7ab133f6-2088-4bca-bf24-d3dcb29376a1
 title: Using the File Log
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

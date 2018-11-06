@@ -2,7 +2,6 @@
 Description: This topic lists the methods of the Font class. For a complete class listing, see Font Class.
 ms.assetid: 4b05c06c-1a67-4dcc-9ff7-b6c8280dc964
 title: Font Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

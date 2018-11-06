@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property of type real32.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 06DFAFDA-6C6E-40BA-819D-50D2E1C1B524
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyReal32 class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

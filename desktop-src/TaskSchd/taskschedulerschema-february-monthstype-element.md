@@ -10,7 +10,6 @@ api_name:
 - February
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

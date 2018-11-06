@@ -2,7 +2,6 @@
 Description: The object model for Mergemod.dll version 2.0 is organized as follows.
 ms.assetid: 9b892eb5-879c-4ea5-9697-4fb21034b15c
 title: Object Model for Mergemod.dll Version 2.0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

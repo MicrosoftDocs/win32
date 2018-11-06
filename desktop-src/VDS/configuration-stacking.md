@@ -2,7 +2,6 @@
 Description: Configuration Stacking
 ms.assetid: 1f0f75d6-3553-4ee1-8ee6-bd617da4a109
 title: Configuration Stacking
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Windows Management Instrumentation (WMI) is the Microsoft implementation of Web-Based Enterprise Management (WBEM), which is an industry initiative to develop a standard technology for accessing management information in an enterprise environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d745cf25-a139-439d-9ac5-e7720b640516
 ms.tgt_platform: multiple
 title: About WMI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

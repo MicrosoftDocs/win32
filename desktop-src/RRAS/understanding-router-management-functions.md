@@ -2,7 +2,6 @@
 title: Understanding Router Management Functions
 description: The following sections discuss the different types of router management functions and what you should know to use them effectively.
 ms.assetid: 2f6831f2-39be-43b1-80bd-9a36c0f8a2af
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

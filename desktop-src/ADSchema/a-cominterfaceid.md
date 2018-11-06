@@ -1,9 +1,6 @@
 ---
 title: COM-InterfaceID attribute
 description: This attribute stores the list of interfaces that are implemented in this application package.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 56bdab1e-620b-4677-8307-14a7b24aa49e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - COM-InterfaceID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

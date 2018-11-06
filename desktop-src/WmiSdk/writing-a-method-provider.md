@@ -1,12 +1,8 @@
 ---
 Description: A method provider allows WMI access to the methods of a class. For example, a class that represents an application may have a method that terminates the application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bce87e65-5cba-4eef-91da-a3e13c80b8a6
 ms.tgt_platform: multiple
 title: Writing a Method Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

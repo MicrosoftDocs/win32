@@ -1,12 +1,8 @@
 ---
 Description: Sets the rights parameter as a bitmap with each bit corresponding to an access right.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f28391a8-2b34-4234-bf1a-4688726b0b4b
 ms.tgt_platform: multiple
 title: GetCallerAccessRights method of the __SystemSecurity class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

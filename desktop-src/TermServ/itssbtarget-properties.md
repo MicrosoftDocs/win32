@@ -1,12 +1,8 @@
 ---
 title: ITsSbTarget Properties
 description: The ITsSbTarget interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: EDD11382-D3B2-49FB-ABB3-B465A89F9E89
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

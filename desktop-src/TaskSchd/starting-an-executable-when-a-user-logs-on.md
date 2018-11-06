@@ -4,7 +4,6 @@ description: Writing a task that starts an executable when a user logs on is don
 ms.assetid: 0c5912aa-913d-42ce-a01b-b1359b49bb2f
 keywords:
 - Task Scheduler examples Task Scheduler , logon trigger
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

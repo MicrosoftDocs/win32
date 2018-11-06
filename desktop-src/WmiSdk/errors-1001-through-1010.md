@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 1001 through 1010.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dbc0e062-6b2f-41b1-8d6a-ab2c37d2dd1f
 ms.tgt_platform: multiple
 title: Errors 1001 through 1010
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

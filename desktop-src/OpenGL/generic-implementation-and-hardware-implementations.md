@@ -4,7 +4,6 @@ description: This overview discusses the current generic implementation of OpenG
 ms.assetid: 94b47651-8fe9-44fd-aa9e-fc0bf489e14a
 keywords:
 - OpenGL on Windows,implementation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

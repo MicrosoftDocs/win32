@@ -2,7 +2,6 @@
 Description: The TotalTitleTime property retrieves the total playback time for the current title.
 ms.assetid: b05bb76b-d4ba-42e6-92ea-8e48f4c8f409
 title: TotalTitleTime Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

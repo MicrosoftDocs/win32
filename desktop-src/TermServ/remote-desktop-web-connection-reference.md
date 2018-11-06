@@ -1,15 +1,11 @@
 ---
 title: Remote Desktop ActiveX control interfaces
 description: Interfaces that you can use to create and deploy scriptable virtual channels within Remote Desktop Services web applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8258411e-eef6-4dcf-a7a2-7d04b0ea3744
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , Remote Desktop Protocol (RDP) interfaces
 - Remote Desktop Protocol (RDP) Remote Desktop Services , interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

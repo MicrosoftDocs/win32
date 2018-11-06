@@ -1,9 +1,6 @@
 ---
 title: Update method of the Win32_TSGatewayResourceGroup class
 description: Updates the resource group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b5927046-f461-41cd-861b-0fd77f2008e5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

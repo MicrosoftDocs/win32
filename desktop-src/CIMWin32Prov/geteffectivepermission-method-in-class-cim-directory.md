@@ -1,14 +1,8 @@
 ---
 Description: Determines whether the caller has the aggregated permissions on the CIM\_Directory object, and the share on which the file or directory resides, as specified by the Permission argument. This method is inherited from CIM\_LogicalFile.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b3dc1e3c-5c99-46ba-93c4-15fbf18e98e8
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the CIM_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **GetEffectivePermission** method determines whether the caller has the aggregated permissions on the [**CIM\_Directory**](cim-directory.md) object, and the share on which the file or directory resides, as specified by the **Permission** argument. This method is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

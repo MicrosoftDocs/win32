@@ -2,7 +2,6 @@
 Description: Specifies the starting frame number in the group of pictures (GOP) header.
 ms.assetid: 77b04001-f524-49c0-b2cf-be32ad16564b
 title: AVEncVideoHeaderFrames property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

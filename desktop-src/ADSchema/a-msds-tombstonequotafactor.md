@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Tombstone-Quota-Factor attribute
 description: The percentage factor by which the tombstone object count should be reduced for the purpose of quota accounting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 602c2fe0-d3b7-45e8-8ce8-35a7163f7b25
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Tombstone-Quota-Factor
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

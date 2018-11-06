@@ -1,9 +1,6 @@
 ---
 title: nisNetgroupTriple attribute
 description: Represents one entry from a netgroup map.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: abf908f8-9f83-455a-8add-97a9ebccb5ae
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - nisNetgroupTriple
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Next-Rid attribute
 description: The Next Rid field used by the mixed mode allocator.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5a7a68e9-a07d-4160-be2f-083dcec79945
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Next-Rid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

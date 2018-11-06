@@ -2,7 +2,6 @@
 Description: Each physical display is represented by a monitor handle of type HMONITOR.
 ms.assetid: c43c1401-52d3-485e-a418-205df5737040
 title: HMONITOR and the Device Context
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

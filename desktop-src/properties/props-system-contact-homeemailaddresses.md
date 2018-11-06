@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: e88afa55-424b-4e99-b930-04bdc31fca45
 title: System.Contact.HomeEmailAddresses
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

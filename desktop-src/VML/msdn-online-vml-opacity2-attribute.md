@@ -2,7 +2,6 @@
 title: VML Opacity2 Attribute
 description: VML Opacity2 Attribute
 ms.assetid: 19d09b74-486c-4fd7-9994-c6f75e6322f5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

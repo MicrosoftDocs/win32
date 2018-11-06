@@ -2,7 +2,6 @@
 Description: The CheckMediaType method determines if the pin accepts a specific media type. This method overrides the CBasePin::CheckMediaType method.
 ms.assetid: 618c6f2e-2a15-43dd-811e-898dad0de226
 title: CRendererInputPin.CheckMediaType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

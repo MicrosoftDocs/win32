@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Publisher attribute
 description: The name of the publisher database for replication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f5efb16d-ea0a-4015-aa6f-de7bf7401eb4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Publisher
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

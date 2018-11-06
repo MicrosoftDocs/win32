@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 424cd8c0-b8f9-45a6-95f6-7d5644a05666
 title: System.Document.Contributor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

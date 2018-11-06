@@ -2,7 +2,6 @@
 title: Stream Operations
 description: Stream Operations
 ms.assetid: 3f37c442-2654-4549-a85d-7da3935b2ac4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Default-Class-Store attribute
 description: The default Class Store for a given user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9aaeb401-4c2c-4c3b-83d2-0c6044be7643
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Default-Class-Store
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

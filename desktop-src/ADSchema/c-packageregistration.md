@@ -1,9 +1,6 @@
 ---
 title: Package-Registration class
 description: The registration information for an application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f3d17bd1-f1c2-40dc-9e31-04c45667e8d1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Package-Registration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

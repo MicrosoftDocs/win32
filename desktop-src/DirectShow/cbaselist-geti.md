@@ -2,7 +2,6 @@
 Description: The GetI method retrieves the item at the specified position.
 ms.assetid: fc775230-491a-49b6-b631-e7d5b8c82d8c
 title: CBaseList.GetI method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

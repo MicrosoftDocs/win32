@@ -4,7 +4,6 @@ description: Use the brightness effect to control the brightness of the image.
 ms.assetid: 5088D4D4-DFC8-45D3-B1C3-D576742D931C
 keywords:
 - brightness effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings6 interface
 description: Exposes properties that manage advanced ActiveX control settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 45b48cdf-3860-4359-99b2-8d2598146d1d
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

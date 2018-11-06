@@ -1,9 +1,6 @@
 ---
 title: Subnet class
 description: Represents a specific subnet in the network to which servers and workstations are attached.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b40aad45-8794-4bed-a053-68cd0f3aace9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Subnet
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

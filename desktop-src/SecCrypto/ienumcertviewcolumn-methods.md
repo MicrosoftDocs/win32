@@ -2,7 +2,6 @@
 Description: The IEnumCERTVIEWCOLUMN interface exposes the following methods.
 ms.assetid: A7BA0AE0-D251-4813-B301-B5588615B6F5
 title: IEnumCERTVIEWCOLUMN Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

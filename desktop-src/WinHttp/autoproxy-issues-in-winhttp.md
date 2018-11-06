@@ -2,7 +2,6 @@
 Description: Consider the following important issues when using the WinHTTP autoproxy feature.
 ms.assetid: 9bae89b7-8f54-42ec-a240-998c97e26d25
 title: AutoProxy Issues in WinHTTP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

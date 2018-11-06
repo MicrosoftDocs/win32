@@ -1,14 +1,10 @@
 ---
 title: Support for Queries
 description: By implementing the IDirectorySearch interface, ADSI providers gain access to a subset of OLE DB read-only features.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 73ebed18-0e56-4902-a229-3b03f9be1cf6
 ms.tgt_platform: multiple
 keywords:
 - Support for Queries ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

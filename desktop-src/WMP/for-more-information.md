@@ -11,7 +11,6 @@ keywords:
 - SDK (software development kit),downloading Windows Media Player
 - downloading Windows Media Player SDK
 - documentation,downloading Windows Media Player SDK
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

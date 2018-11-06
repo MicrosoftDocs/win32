@@ -2,7 +2,6 @@
 Description: An objects owner implicitly has WRITE\_DAC access to the object. This means that the owner can modify the objects discretionary access control list (DACL), and thus, can control access to the object.
 ms.assetid: 16144f38-3416-4594-b5e4-ca84fcbdddc9
 title: Owner of a New Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

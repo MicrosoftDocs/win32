@@ -2,7 +2,6 @@
 Description: Both writers and requesters maintain information necessary to a backup or restore operation in their own metadata documents.
 ms.assetid: 1ce56374-cfbf-4ee4-b942-8a7391911a38
 title: VSS Metadata
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

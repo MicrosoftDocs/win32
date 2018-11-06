@@ -2,7 +2,6 @@
 title: Cascaded Shadow Maps
 description: Cascaded shadow maps (CSMs) are the best way to combat one of the most prevalent errors with shadowing perspective aliasing.
 ms.assetid: d3570d0a-74e0-5b9c-6586-c933f630c4ee
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

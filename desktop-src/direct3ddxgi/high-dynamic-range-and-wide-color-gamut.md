@@ -2,7 +2,6 @@
 Description: High Dynamic Range (HDR) displays a greater difference in light intensity from white to black, and Wide Color Gamut (WCG) provides a greater range of colors.
 ms.assetid: DF3B892E-B858-417F-A746-397F2EC490ED
 title: High Dynamic Range and Wide Color Gamut
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

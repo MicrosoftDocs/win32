@@ -2,7 +2,6 @@
 Description: The NEAR term is used to specify that two content search terms must be relatively close to one another to be recognized as matching for the CONTAINS predicate.
 ms.assetid: cbc449b1-9f1d-42a2-b39e-d5cd69c052df
 title: NEAR Term
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Shows how to use Microsoft Media Foundation to decode audio from a media file.
 ms.assetid: 29822e6b-8598-4133-b181-7fb0854553b7
 title: Audio Clip Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

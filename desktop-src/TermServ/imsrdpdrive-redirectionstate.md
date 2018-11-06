@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDrive RedirectionState property
 description: Indicates the redirection state of the drive.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 05333671-460d-4c07-8b7e-fbb7bc215353
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

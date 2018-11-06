@@ -8,7 +8,6 @@ keywords:
 - codecs,low-delay audio
 - codecs,audio support
 - low-delay audio
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

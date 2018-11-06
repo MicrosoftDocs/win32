@@ -1,9 +1,6 @@
 ---
 title: Boolean syntax
 description: Represents a Boolean value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 16251217-1489-42fd-a27f-87f15d13a279
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Boolean
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

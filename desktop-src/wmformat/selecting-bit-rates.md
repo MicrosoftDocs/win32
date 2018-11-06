@@ -12,7 +12,6 @@ keywords:
 - bit rates,selecting
 - bit rates,profiles
 - bit rates,codecs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

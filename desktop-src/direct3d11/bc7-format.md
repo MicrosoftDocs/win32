@@ -2,7 +2,6 @@
 title: BC7 Format
 description: The BC7 format is a texture compression format used for high-quality compression of RGB and RGBA data.
 ms.assetid: DF333106-293E-4B3E-A1EB-B0BF0ADBAC72
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

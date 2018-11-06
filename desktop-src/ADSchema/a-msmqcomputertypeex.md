@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Computer-Type-Ex attribute
 description: A string that describes the operating system version and the MSMQ version.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea22f13c-6b37-424a-baf3-350d97bc2831
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Computer-Type-Ex
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

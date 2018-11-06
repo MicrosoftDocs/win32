@@ -2,7 +2,6 @@
 Description: The following example creates a random session key and creates an exportable key BLOB. The example illustrates the use of CryptGetUserKey, CryptExportKey, and related functions.
 ms.assetid: a7f2fdd1-9514-4cda-bae2-2f379dd9a27d
 title: 'Example C Program: Exporting a Session Key'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

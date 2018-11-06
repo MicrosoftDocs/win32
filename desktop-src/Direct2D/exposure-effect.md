@@ -2,7 +2,6 @@
 title: Exposure Effect
 description: Increase or decreases the exposure of the image.
 ms.assetid: d384f539-5c19-53c7-e52b-bf833e221449
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

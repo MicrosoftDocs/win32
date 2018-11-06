@@ -2,7 +2,6 @@
 title: XInput Game Controller APIs
 description: .
 ms.assetid: fbbc651b-9264-9b5d-01c6-efc58f50b19d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Creates a communication link to a reader, using a supplied display name for the reader.
 ms.assetid: 7916896b-c460-47b2-a1db-17d8fc9bdd2e
 title: ISCardManage::AttachByIFD method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

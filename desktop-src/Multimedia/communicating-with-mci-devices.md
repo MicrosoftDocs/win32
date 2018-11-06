@@ -5,7 +5,6 @@ ms.assetid: 2408f8e4-d040-40f5-a880-1ecb8025656c
 keywords:
 - MCIWndSendString macro
 - mciSendString function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

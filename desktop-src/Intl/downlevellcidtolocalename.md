@@ -2,7 +2,6 @@
 Description: Converts a locale identifier to a locale name.
 ms.assetid: 8e40d097-08a2-43e8-88e8-a4ecaddf449a
 title: DownlevelLCIDToLocaleName function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

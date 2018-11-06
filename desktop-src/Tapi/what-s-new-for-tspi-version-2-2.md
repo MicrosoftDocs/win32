@@ -2,7 +2,6 @@
 Description: 'TSPI Version 2.2 changes consist primarily of a number of data structures which have additional elements.'
 ms.assetid: 'ea3c669f-cb44-4201-974a-2bc1ff56b462'
 title: 'What's New for TSPI Version 2.2'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

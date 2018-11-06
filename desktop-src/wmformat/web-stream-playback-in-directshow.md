@@ -13,7 +13,6 @@ keywords:
 - Web streams,DirectShow
 - Web streams,playback in DirectShow
 - streams,Web stream playback in DirectShow
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

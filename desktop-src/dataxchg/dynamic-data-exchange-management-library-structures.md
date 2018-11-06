@@ -2,7 +2,6 @@
 title: DDEML Structures
 description: .
 ms.assetid: 9401cc65-6acb-41b7-8d4d-43e163a6ea9a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

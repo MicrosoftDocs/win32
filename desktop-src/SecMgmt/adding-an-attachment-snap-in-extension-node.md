@@ -2,7 +2,6 @@
 Description: An attachment snap-in extension must add itself under the Services node when that node is expanded by a user.
 ms.assetid: af853c29-11c2-4fd0-ad81-80aebeb74cc3
 title: Adding an Attachment Snap-in Extension Node
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

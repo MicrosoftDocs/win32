@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 1041 through 1050.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e7e70fb3-12c6-40b1-91a4-c550e8210c09
 ms.tgt_platform: multiple
 title: Errors 1041 through 1050
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

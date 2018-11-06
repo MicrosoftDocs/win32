@@ -2,7 +2,6 @@
 Description: The following examples demonstrate the use of the one-time initialization functions.
 ms.assetid: 47e68fbb-29f8-4930-beba-01d44263eb1e
 title: Using One-Time Initialization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

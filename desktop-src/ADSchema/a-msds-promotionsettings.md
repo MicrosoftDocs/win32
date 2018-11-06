@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Promotion-Settings attribute
 description: For a computer, contains an XML string to be used for delegated DSA promotion.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5256da96-7713-4bc1-b2e7-a830ad508644
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Promotion-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The presentation APIs are a set of methods that control the state of the device that affects what the user sees on the monitor. These methods include setting display modes and once-per-frame methods that are used to present images to the user.
 ms.assetid: fb2ddc0d-50ac-48aa-8a5c-f232b0f8e7aa
 title: Introduction to Presenting a Scene (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

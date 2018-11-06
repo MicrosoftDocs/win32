@@ -2,7 +2,6 @@
 Description: Saves a volume to a buffer. The method creates an ID3DXBuffer buffer to store the data, and returns that object.
 ms.assetid: 4887ff1f-7904-4764-b284-b2c8e037f806
 title: D3DXSaveVolumeToFileInMemory function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

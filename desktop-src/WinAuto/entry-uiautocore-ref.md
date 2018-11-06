@@ -2,7 +2,6 @@
 title: Reference
 description: This section provides reference information about the Microsoft UI Automation \ 32;API.
 ms.assetid: d17e6a95-a923-4e27-aad1-4d95d0b0808d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

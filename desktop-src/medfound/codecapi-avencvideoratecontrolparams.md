@@ -2,7 +2,6 @@
 Description: Specifies the video rate control parameters for a video encoder.
 ms.assetid: 8AF841A8-E121-4C41-BD3F-26760232E857
 title: CODECAPI_AVEncVideoRateControlParams property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

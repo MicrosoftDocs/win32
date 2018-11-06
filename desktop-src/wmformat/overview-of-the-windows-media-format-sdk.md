@@ -6,7 +6,6 @@ keywords:
 - Windows Media Format SDK,ASF file creation and editing
 - Advanced Systems Format (ASF),file creation and editing
 - ASF (Advanced Systems Format),file creation and editing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

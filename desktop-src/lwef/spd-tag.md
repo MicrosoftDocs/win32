@@ -2,7 +2,6 @@
 title: Spd Tag
 description: Spd Tag
 ms.assetid: 9284fc6a-4844-49d7-b8fe-27581da0e9d9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

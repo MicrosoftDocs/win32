@@ -2,7 +2,6 @@
 title: How to Apply Effects to Primitives
 description: This topic shows how to apply a series of effect to Direct2D and DirectWrite primitives.
 ms.assetid: 9782C22E-5D4C-494D-A0B1-19474C2CA900
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

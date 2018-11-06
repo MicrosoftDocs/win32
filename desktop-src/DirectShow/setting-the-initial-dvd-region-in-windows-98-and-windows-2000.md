@@ -2,7 +2,6 @@
 Description: Setting the Initial DVD Region
 ms.assetid: b8238cb4-a101-4998-866f-4cf9ebd5d277
 title: Setting the Initial DVD Region
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

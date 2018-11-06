@@ -1,9 +1,6 @@
 ---
 title: Win32_RDMSVirtualDesktop class
 description: Represents a virtual desktop.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e2952ec0-38d0-4a1c-b423-3ae1fbc701b3
 ms.tgt_platform: multiple
 keywords:
@@ -26,7 +23,6 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

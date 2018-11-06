@@ -2,7 +2,6 @@
 Description: The property proxy for the System.Photo.FlashEnergy photo metadata policy.
 ms.assetid: edcd9757-19a6-4398-8600-06ffc72559e9
 title: System.Photo.FlashEnergy Proxy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

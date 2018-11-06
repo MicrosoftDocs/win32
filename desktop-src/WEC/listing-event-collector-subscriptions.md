@@ -1,10 +1,8 @@
 ---
 title: Listing Event Collector Subscriptions
 description: You can retrieve a list of names of Event Collector subscriptions that are enabled on a local computer.
-audience: developer
 ms.assetid: b44fc694-b94a-4fc5-95d1-72afb016ad72
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: KeyValueDelete method of the Win32_RDSHCollection class
 description: Deletes the specified key (and associated value) from the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 968d6744-7b4a-45e5-87fb-90c408dbc771
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

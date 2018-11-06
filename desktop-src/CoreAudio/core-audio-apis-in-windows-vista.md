@@ -2,7 +2,6 @@
 Description: Core Audio APIs
 ms.assetid: 87ca9a31-1bc8-47ea-be00-40159d30e189
 title: Core Audio APIs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

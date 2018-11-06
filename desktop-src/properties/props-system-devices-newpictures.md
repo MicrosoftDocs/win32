@@ -2,7 +2,6 @@
 Description: Number of new pictures on the device.
 ms.assetid: f08ba9ad-07ab-4c8d-83c1-eb17ee96872a
 title: System.Devices.NewPictures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

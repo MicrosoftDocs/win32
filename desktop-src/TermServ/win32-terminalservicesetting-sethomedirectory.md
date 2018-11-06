@@ -1,9 +1,6 @@
 ---
 title: SetHomeDirectory method of the Win32_TerminalServiceSetting class
 description: Sets the TerminalServicesHomeDirectory property for the class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8173cd5b-965e-41bc-97cf-70d8729b8cea
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

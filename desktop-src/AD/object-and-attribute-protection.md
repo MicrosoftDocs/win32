@@ -1,15 +1,11 @@
 ---
 title: Object and Attribute Protection
 description: An access-control list (ACL) protects all objects in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 64ac1f88-57d6-4821-bd17-f7ef1004922c
 ms.tgt_platform: multiple
 keywords:
 - Object and Attribute Protection
 - security AD , object and attribute protection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

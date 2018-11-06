@@ -1,14 +1,10 @@
 ---
 title: Directory Service Structures
 description: This topic lists structures used by functions in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4df5f356-a39b-40a4-9e62-994ad27df3a9
 ms.tgt_platform: multiple
 keywords:
 - Directory Service Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

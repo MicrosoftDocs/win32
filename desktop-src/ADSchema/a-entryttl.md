@@ -1,9 +1,6 @@
 ---
 title: Entry-TTL attribute
 description: This operational attribute is maintained by the server and appears to be present in every dynamic entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cac0e52e-243d-4822-9419-2af8b9352cee
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Entry-TTL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

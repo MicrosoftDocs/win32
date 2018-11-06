@@ -1,9 +1,6 @@
 ---
 title: meetingEndTime attribute
 description: The date and time that the meeting is to end.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b2eb0dac-11fe-4bc4-9271-f481dd4afd27
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingEndTime
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

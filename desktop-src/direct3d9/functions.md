@@ -2,7 +2,6 @@
 Description: A function is the building block for a shader created in the high-level language. If you prefer to write shaders in a C-style language instead of in assembly language, you will want to write functions.
 ms.assetid: 'vs|directx_sdk|~\functions.htm'
 title: Effect Function Syntax (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

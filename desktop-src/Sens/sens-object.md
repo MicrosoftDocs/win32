@@ -2,7 +2,6 @@
 Description: The System Event Notification Service (SENS) defines the SENS coclass as part of the SENS type library.
 ms.assetid: b494808c-1116-47ac-8713-0d515b312368
 title: SENS Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

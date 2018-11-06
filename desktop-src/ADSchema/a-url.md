@@ -1,9 +1,6 @@
 ---
 title: WWW-Page-Other attribute
 description: A list of alternate webpages.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 834a0020-2f0c-41e5-a0b0-5ef393df2b47
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - WWW-Page-Other
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

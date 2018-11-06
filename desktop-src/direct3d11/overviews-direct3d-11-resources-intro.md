@@ -2,7 +2,6 @@
 title: Introduction to a Resource in Direct3D 11
 description: This topic introduces Direct3D resources such as buffers and textures.
 ms.assetid: 9e991ab0-9648-484a-9a2c-5391ee5abf20
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

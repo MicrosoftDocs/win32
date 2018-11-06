@@ -2,7 +2,6 @@
 Description: Represents the name of the GPS area.
 ms.assetid: 7a8a0bb8-9a0a-466c-96e0-3555d723c304
 title: System.GPS.AreaInformation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

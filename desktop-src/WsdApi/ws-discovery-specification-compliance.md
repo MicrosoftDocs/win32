@@ -1,7 +1,6 @@
 ---
 ms.assetid: b795a385-b48d-4a16-9d91-e48bca120572
 title: WS-Discovery Specification Compliance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

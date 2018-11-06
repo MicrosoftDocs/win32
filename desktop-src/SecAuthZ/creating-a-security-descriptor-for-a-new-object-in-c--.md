@@ -2,7 +2,6 @@
 Description: The following example creates a security descriptor for a new registry key using the following process. Similar code can be used to create a security descriptor for other object types.
 ms.assetid: 866992a7-95c4-4094-87bb-e6d8eeb24317
 title: Creating a Security Descriptor for a New Object in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

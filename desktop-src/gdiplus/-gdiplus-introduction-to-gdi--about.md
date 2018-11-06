@@ -2,7 +2,6 @@
 Description: Windows GDI+ is a graphics device interface that allows programmers to write device-independent applications. The services of GDI+ are exposed through a set of C++ classes.
 ms.assetid: 961a49ba-1b7a-41fd-ae97-2be048c379ea
 title: Introduction to GDI+
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Lost-And-Found class
 description: Container for orphaned objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 694f58a0-6e03-4ec0-bb05-6340ede22c5a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Lost-And-Found
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

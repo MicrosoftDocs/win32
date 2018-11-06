@@ -1,9 +1,6 @@
 ---
 title: Recalculate-Security-Inheritance extended right
 description: Extended right needed to force DS to recompute ACL inheritance on a Naming Context.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2d6b8a7b-a2ca-4ca6-9b6d-e8c040e8b704
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Recalculate-Security-Inheritance
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

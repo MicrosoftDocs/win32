@@ -2,7 +2,6 @@
 Description: Provides samples for WIC.
 ms.assetid: 0714f720-f06f-4480-bc3c-5cd0337510d7
 title: WIC Samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

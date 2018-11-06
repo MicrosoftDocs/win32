@@ -1,12 +1,8 @@
 ---
 title: ITsSbBaseNotifySink Methods
 description: The ITsSbBaseNotifySink interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6A68AC6D-7E3C-4580-B5F8-32A1DA8E0749
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

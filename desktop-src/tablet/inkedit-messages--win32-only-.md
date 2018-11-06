@@ -2,7 +2,6 @@
 Description: The InkEdit control is a super class of the RichEdit control.
 ms.assetid: 26023012-9ab1-4bd9-beff-41587bc74f5e
 title: InkEdit Messages (Win32 Only)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

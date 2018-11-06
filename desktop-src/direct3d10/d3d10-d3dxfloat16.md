@@ -2,7 +2,6 @@
 Description: Describes a 16-bit floating point vector.
 ms.assetid: 2aaca07b-66eb-4845-9d22-692be02234ac
 title: D3DXFLOAT16 structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

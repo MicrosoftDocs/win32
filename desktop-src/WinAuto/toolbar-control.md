@@ -2,7 +2,6 @@
 title: Toolbar Control (MSAA UI Element Reference)
 description: A toolbar control contains buttons that carry out menu commands and is usually contained within a window below the menu bar.
 ms.assetid: 2ded8753-0102-4d0b-bf92-0d1084aeca59
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

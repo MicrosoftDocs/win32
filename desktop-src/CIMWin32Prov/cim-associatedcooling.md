@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_AssociatedCooling association indicates when fans or other cooling devices are specific to a device (versus providing enclosure or cabinet cooling).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7b20e429-593c-4365-a340-1aef9b0fadf5
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_AssociatedCooling class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

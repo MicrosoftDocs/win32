@@ -1,9 +1,6 @@
 ---
 title: Session.Identify method
 description: Queries a remote computer to determine if it supports the WS-Management protocol.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b86ec9b8-8fc4-4c3e-aca7-2f7d039749df
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

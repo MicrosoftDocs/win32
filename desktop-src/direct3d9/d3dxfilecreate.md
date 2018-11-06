@@ -2,7 +2,6 @@
 Description: Creates an instance of an ID3DXFile object.
 ms.assetid: c086cb66-b1dc-4180-b966-e9a3b1f36f22
 title: D3DXFileCreate function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

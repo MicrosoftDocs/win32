@@ -1,9 +1,6 @@
 ---
 title: IADsSession Property Methods
 description: The property methods of the IADsSession interface get or set the properties described in the following table. For more information and a general discussion about property methods, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b2366da7-c51c-4279-8931-2000d3110d72
 ms.tgt_platform: multiple
 keywords:
@@ -28,7 +25,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

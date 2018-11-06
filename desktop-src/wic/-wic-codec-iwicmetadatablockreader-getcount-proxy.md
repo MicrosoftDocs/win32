@@ -2,7 +2,6 @@
 Description: Proxy function for the GetCount method.
 ms.assetid: 441bbbaf-5a6a-4d1e-bb8d-f79af6aa2708
 title: IWICMetadataBlockReader_GetCount_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

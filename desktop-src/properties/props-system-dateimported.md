@@ -2,7 +2,6 @@
 Description: The date and time the file was imported into a private application database.
 ms.assetid: b859c2c9-0985-451c-be05-e17101bc2f3c
 title: System.DateImported
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The IWindowsParentalControls interface exposes the following methods.
 ms.assetid: 6AFACEAF-FEAF-49CB-BAD9-5DFDD81E0FFE
 title: IWindowsParentalControls Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Additional-Dns-Host-Name attribute
 description: The attribute is used to store the additional DNS host name of a computer object. This attribute is used at the time a DC is renamed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea06f756-d9b6-409d-a008-0e3a1874ad94
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Additional-Dns-Host-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

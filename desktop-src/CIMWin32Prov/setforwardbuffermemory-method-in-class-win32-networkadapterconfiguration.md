@@ -1,14 +1,8 @@
 ---
 Description: The SetForwardBufferMemory WMI class static method is used to specify how much memory IP allocates to store packet data in the router packet queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e76452e8-2ee8-4d39-9405-33b0aeeac74d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetForwardBufferMemory method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The model name of the camera that shot the photo, in string form.
 ms.assetid: d5975d37-fc77-4b9b-9e7d-8c75c6054c7c
 title: System.Photo.CameraModel
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

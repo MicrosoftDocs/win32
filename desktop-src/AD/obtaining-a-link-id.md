@@ -1,14 +1,10 @@
 ---
 title: Obtaining a Link ID
 description: Starting with Windows Server 2003, it is no longer necessary to request a linkID from Microsoft; there is a process for automatically generating a linkID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e3bf2936-40b1-46b5-8ee9-ab208bb388f6
 ms.tgt_platform: multiple
 keywords:
 - Obtaining a Link ID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

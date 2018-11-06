@@ -4,7 +4,6 @@ description: The enum declaration is not translated by the MIDL compiler into \ 
 ms.assetid: 778d83e6-ec99-4781-87df-46da4cc86f5a
 keywords:
 - data types MIDL , enumerated types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -10,7 +10,6 @@ keywords:
 - support for AppBar control type
 - AppBar control type
 - control types,AppBar
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

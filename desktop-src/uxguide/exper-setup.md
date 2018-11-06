@@ -2,7 +2,6 @@
 title: Setup
 description: Users don't enjoy installing software, so modern setup experiences need to be simple, efficient, and problem-free.
 ms.assetid: ed0265a6-4c39-4a1f-9493-e316a6519df7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

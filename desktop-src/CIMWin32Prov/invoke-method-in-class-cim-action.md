@@ -1,14 +1,8 @@
 ---
 Description: The Invoke method of the CIM\_Action class takes a particular action. The details of how the method performs the action is implementation-specific.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4f0be560-bd78-4c7f-b6e3-ca86837a84f9
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_Action class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Invoke** method of the [**CIM\_Action**](cim-action.md) class takes a particular action. The details of how the method performs the action is implementation-specific.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

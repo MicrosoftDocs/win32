@@ -2,7 +2,6 @@
 Description: This topic lists the constructors of the Size class. For a complete class listing, see Size Class.
 ms.assetid: 8e3f7ddd-cac4-4e81-9764-40167ef7d9ef
 title: Size.Size constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,6 @@
 ---
 ms.assetid: 335f5d21-5a6b-40c1-8ed3-764e4707792a
 title: WLAN_policy Schema Complex Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

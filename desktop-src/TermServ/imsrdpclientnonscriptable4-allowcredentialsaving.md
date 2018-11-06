@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable4 AllowCredentialSaving property
 description: Specifies whether the credentials dialog box displays a check box that enables the saving of credentials.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c5148ff0-0d7f-413d-b2a8-ff942668bee6
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

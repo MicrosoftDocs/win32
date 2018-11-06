@@ -2,7 +2,6 @@
 title: Enumerate All Routes
 description: The following procedure outlines the steps used to enumerate any of the entities used by the RTMv2 API. The sample code that follows shows how to enumerate all routes.
 ms.assetid: 78a50e4a-f3c7-4a0d-a528-18d35b66369d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

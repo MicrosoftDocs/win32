@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable4 RedirectionWarningType property
 description: Controls the presence and appearance of the dialog box that notifies the user about redirection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1aa79fc3-9620-466d-a93f-77a55ad76ede
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

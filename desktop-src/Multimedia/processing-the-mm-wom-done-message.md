@@ -8,7 +8,6 @@ keywords:
 - waveform audio,MM_WOM_DONE message
 - auxiliary audio,MM_WOM_DONE message
 - MM_WOM_DONE message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

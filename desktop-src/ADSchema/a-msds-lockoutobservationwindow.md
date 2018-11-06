@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Lockout-Observation-Window attribute
 description: The period of time that a user account will be locked out.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c8ade442-33b1-4766-a22c-4d61fc699530
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Lockout-Observation-Window
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

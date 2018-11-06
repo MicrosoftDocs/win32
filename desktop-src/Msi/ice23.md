@@ -2,7 +2,6 @@
 Description: ICE23 validates the control tab order for each dialog box.
 ms.assetid: d425f8c6-4615-439d-8194-3a0325eb3cc3
 title: ICE23
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

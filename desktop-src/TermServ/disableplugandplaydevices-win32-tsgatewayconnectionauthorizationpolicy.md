@@ -1,9 +1,6 @@
 ---
 title: DisablePlugAndPlayDevices method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the PlugAndPlayDevicesDisabled property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0cfe9fea-da93-47fa-a9ea-868c78890a53
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

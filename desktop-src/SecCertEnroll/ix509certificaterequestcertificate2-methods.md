@@ -2,7 +2,6 @@
 Description: The IX509CertificateRequestCertificate2 interface exposes the following methods.
 ms.assetid: A8223933-37C2-439B-9A09-92DFAAE23B6D
 title: IX509CertificateRequestCertificate2 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

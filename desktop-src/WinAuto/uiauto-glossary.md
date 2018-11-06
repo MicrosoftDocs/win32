@@ -3,7 +3,6 @@ title: Glossary
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: c45583f2-a6e8-4a01-9577-9b604b5bbc62
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

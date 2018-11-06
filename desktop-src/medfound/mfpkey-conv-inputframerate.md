@@ -2,7 +2,6 @@
 Description: Specifies the input frame rate as a ratio.
 ms.assetid: 8988fc7e-02bd-43ea-8934-e3af44a38bc5
 title: MFPKEY_CONV_INPUTFRAMERATE Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: VML Gain Attribute
 description: VML Gain Attribute
 ms.assetid: 2ac034ff-f3dd-4e98-ad9d-4d9cdad28f3c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

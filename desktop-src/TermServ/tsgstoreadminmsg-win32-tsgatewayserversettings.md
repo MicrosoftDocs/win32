@@ -1,9 +1,6 @@
 ---
 title: TSGStoreAdminMsg method of the Win32_TSGatewayServerSettings class
 description: Updates the administrative message for the gateway server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 84e5b967-12fd-47a7-93e4-2550c15c4491
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

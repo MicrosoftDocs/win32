@@ -14,7 +14,6 @@ keywords:
 - Windows Media Player,playback issues
 - HTMLView,playback issues
 - HTMLView,controlling playback
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

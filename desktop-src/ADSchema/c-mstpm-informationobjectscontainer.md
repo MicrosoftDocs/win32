@@ -1,9 +1,6 @@
 ---
 title: ms-TPM-Information-Objects-Container class
 description: Container for TPM objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 41f3b3af-216d-4915-b1a1-c264d13541d8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TPM-Information-Objects-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

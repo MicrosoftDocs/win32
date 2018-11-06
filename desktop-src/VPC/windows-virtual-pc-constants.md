@@ -4,7 +4,6 @@ description: Windows Virtual PC Constants
 ms.assetid: 4bc841c8-f031-4b88-97e8-e536e6ecf1c2
 keywords:
 - Windows Virtual PC Virtual PC , constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

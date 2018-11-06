@@ -1,9 +1,6 @@
 ---
 title: Win32_RDMSEnvironment class
 description: Manages a Remote Desktop Management Services (RDMS) environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8a3b10c1-d01d-4e52-8915-29159cc406cc
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

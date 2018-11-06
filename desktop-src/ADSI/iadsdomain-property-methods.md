@@ -1,9 +1,6 @@
 ---
 title: IADsDomain Property Methods
 description: The IADsDomain interface methods read and write the properties described in this topic. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0
 ms.tgt_platform: multiple
 keywords:
@@ -42,7 +39,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

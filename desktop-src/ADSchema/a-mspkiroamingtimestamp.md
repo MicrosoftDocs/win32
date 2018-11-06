@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-RoamingTimeStamp attribute
 description: Time stamp for last change to roaming tokens.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 43af0a4d-e9a3-4116-ba08-f76bd6cd3c6f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-RoamingTimeStamp
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

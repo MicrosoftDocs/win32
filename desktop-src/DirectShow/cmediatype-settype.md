@@ -2,7 +2,6 @@
 Description: The SetType method specifies the major type.
 ms.assetid: 3fd93d5e-73ea-453e-8f08-652d5a81239f
 title: CMediaType.SetType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

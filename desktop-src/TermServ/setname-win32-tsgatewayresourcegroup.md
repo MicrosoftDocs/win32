@@ -1,9 +1,6 @@
 ---
 title: SetName method of the Win32_TSGatewayResourceGroup class
 description: Sets the Name property for the resource group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2c2fe1b6-5826-490e-aec2-479a0191e215
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The CallQualityProperty enum is used by the ITCallQualityControl::GetRange, ITCallQualityControl::Get, and ITCallQualityControl::Set methods to indicate the call quality property being addressed.
 ms.assetid: d9a04cc4-9b7d-4b01-918f-e4938c172b8e
 title: CallQualityProperty enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

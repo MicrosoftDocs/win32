@@ -1,14 +1,10 @@
 ---
 title: Recommendations for Schema Extension Applications
 description: This topic includes recommendations for schema extension applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 615e927e-a113-4557-b354-55a208a649eb
 ms.tgt_platform: multiple
 keywords:
 - Recommendations for Schema Extension Applications AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-ServiceAccount attribute
 description: A user defined string. The default is set to ServiceAccount.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0db095c8-8492-45c0-b509-d4082cec2c13
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-ServiceAccount
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

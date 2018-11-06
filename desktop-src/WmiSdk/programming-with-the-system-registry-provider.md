@@ -1,12 +1,8 @@
 ---
 Description: The following topics describe how applications can use the System Registry Provider to provide data for classes that you create.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 84604fbc-50b2-410d-84bf-4a408be26ee2
 ms.tgt_platform: multiple
 title: Programming with the System Registry Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies the mesh data minus the position data.
 ms.assetid: 30a95ca3-84ab-475d-9654-a3853263056b
 title: FVFData
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

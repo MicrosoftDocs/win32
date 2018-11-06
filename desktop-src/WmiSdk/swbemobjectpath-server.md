@@ -1,12 +1,8 @@
 ---
 Description: The Server property of the SWbemObjectPath object contains the name of the server that is part of the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8d711bc5-dd5e-426f-8398-38f90655ff75
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Server property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

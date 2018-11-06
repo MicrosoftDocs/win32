@@ -2,7 +2,6 @@
 Description: The functions listed in the following table translate character strings from one string type to another.
 ms.assetid: 26802339-6291-4767-b468-68a9e8e95774
 title: Translation Between String Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

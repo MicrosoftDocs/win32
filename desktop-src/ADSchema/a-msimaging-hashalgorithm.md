@@ -1,9 +1,6 @@
 ---
 title: ms-Imaging-Hash-Algorithm attribute
 description: Contains the name of the hash algorithm used to create the Thumbprint Hash for the Scan Repository/Secure Print Device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eb1500e7-1b43-4dec-98d4-55005a8414c8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Imaging-Hash-Algorithm
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

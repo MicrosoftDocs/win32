@@ -2,7 +2,6 @@
 Description: Indicates the resources used for this event.
 ms.assetid: ee420775-6091-43e2-bb65-ba57c77ae2ad
 title: System.Calendar.Resources
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

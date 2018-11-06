@@ -4,7 +4,6 @@ description: Whenever possible, implement a new interface for your application, 
 ms.assetid: 29845cf5-445c-403d-b298-d4e07c3536b7
 keywords:
 - changing existing interfaces 64-bit Windows Programming
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Tile pool creation
 description: A tile pool is created via the ID3D11Device CreateBuffer API by passing the D3D11\_RESOURCE\_MISC\_TILE\_POOL flag in the MiscFlags member of the D3D11\_BUFFER\_DESC structure that the pDesc parameter points to.
 ms.assetid: 751A64A6-C9B6-4797-BA1C-B3BEF655DF32
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

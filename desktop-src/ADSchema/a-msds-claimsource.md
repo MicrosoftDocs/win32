@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Source attribute
 description: For a claim type, this attribute indicates the source of the claim type. For example, the source can be certificate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ec6d8565-e628-47a4-be84-c07b12cd9aec
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Source
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

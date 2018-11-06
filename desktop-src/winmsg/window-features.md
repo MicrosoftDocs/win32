@@ -2,7 +2,6 @@
 Description: This overview discusses features of windows such as window types, states, size, and position.
 ms.assetid: 8318c22f-85a2-490e-8233-ee1e234890d9
 title: Window Features
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

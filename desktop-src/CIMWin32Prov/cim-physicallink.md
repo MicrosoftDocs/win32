@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PhysicalLink class represents the cabling of physical elements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0d96cb7f-ca50-4eb2-b8d4-e749bbe67ad7
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PhysicalLink class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -45,7 +39,7 @@ api_location:
 
 The **CIM\_PhysicalLink** class represents the cabling of physical elements. For example, serial or Ethernet cables and infrared links would be subclasses (if additional properties or associations are defined) or instances of **CIM\_PhysicalLink**. Typically, the numerous physical cables within a physical package or network are not modeled. However, when the cables or links are critical components or tagged assets of the company, the objects can be instantiated using this class or one of its descendant classes.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -2,7 +2,6 @@
 Description: Bitmaps should be saved in a file that uses the established bitmap file format and assigned a name with the three-character .bmp extension.
 ms.assetid: 44f19d14-4e0e-4512-8c86-6bd34ca4e87b
 title: Bitmap Storage
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

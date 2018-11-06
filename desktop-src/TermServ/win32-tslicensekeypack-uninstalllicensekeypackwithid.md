@@ -1,9 +1,6 @@
 ---
 title: UninstallLicenseKeyPackWithId method of the Win32_TSLicenseKeyPack class
 description: Uninstalls the Remote Desktop Services license key pack with the specified key pack identifier.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ECB622AB-FAB4-4C5D-A007-E3ABA8E1D3E7
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

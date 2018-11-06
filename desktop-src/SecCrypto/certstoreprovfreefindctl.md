@@ -2,7 +2,6 @@
 Description: Called when the certificate returned by the CertStoreProvFindCTL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCTL.
 ms.assetid: 04e62a4e-4542-4225-8750-fabbda5adf0d
 title: CertStoreProvFreeFindCTL callback function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

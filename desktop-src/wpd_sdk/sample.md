@@ -2,7 +2,6 @@
 Description: Samples
 ms.assetid: f84f22ab-37df-45df-b85b-7cc4887c2550
 title: Samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

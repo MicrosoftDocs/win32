@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Build attribute
 description: The current version, including build number.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 230ef785-b5bf-44fa-a166-38050934143a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Build
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

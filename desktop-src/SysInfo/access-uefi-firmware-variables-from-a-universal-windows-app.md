@@ -2,7 +2,6 @@
 Description: How to access Unified Extensible Firmware Interface (UEFI) firmware variables from a Universal Windows app.
 ms.assetid: 4131CCED-3B76-4569-B0A7-111E4E9215EF
 title: Access UEFI firmware variables from a Universal Windows App
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -12,7 +12,6 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 ---

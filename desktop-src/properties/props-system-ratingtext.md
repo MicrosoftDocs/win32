@@ -2,7 +2,6 @@
 Description: The user-friendly form of System.Rating. This value is not intended to be parsed programmatically.
 ms.assetid: 5550dc25-20c1-44a5-a45a-6402503e1ff8
 title: System.RatingText
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

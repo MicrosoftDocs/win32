@@ -2,7 +2,6 @@
 Description: The primary SID of an identity.
 ms.assetid: F4808C32-2C07-4B88-B672-300AA3BFD162
 title: System.Identity.PrimarySid
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

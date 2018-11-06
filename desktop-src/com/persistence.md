@@ -2,7 +2,6 @@
 title: Persistence
 description: Persistence
 ms.assetid: 4916ea52-a21c-4938-81cb-392b5ca1f6c1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

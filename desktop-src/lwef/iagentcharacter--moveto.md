@@ -2,7 +2,6 @@
 title: IAgentCharacter MoveTo
 description: IAgentCharacter MoveTo
 ms.assetid: 4e24d2f8-1df2-47ca-a1e9-b9d29708207d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

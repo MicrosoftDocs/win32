@@ -2,7 +2,6 @@
 title: Calendar Control (MSAA UI Element Reference)
 description: Calendar controls provide a simple and intuitive way for a user to select a date from a familiar interface.
 ms.assetid: cfb1e420-bb8f-4100-9c83-304d11573c0e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

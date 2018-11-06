@@ -9,7 +9,6 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),midiOutShortMsg function
 - MIDI (Musical Instrument Digital Interface),midiOutShortMsg function
 - midiOutShortMsg function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

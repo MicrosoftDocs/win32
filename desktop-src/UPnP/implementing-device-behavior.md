@@ -2,7 +2,6 @@
 title: Implementing Device Behavior
 description: The behavior of a device is defined by the services it exposes.
 ms.assetid: 5b352870-6de1-42f2-a178-ed7036b7afc9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

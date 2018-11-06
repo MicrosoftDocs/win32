@@ -1,9 +1,6 @@
 ---
 title: Domain-Identifier attribute
 description: Domain Sid that identifies the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 15a7d2e5-ec14-4d74-84c1-a184066ea275
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-Identifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

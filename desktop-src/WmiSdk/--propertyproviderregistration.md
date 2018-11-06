@@ -1,12 +1,8 @@
 ---
 Description: Registers property providers in WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 24792884-3fb9-4974-83d5-1c5fc1fa72a1
 ms.tgt_platform: multiple
 title: '__PropertyProviderRegistration class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

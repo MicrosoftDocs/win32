@@ -4,7 +4,6 @@ description: Persistent property sets provide an option to store data within fil
 ms.assetid: f22abe40-535f-4178-9460-59bbe26ff178
 keywords:
 - Structured Storage Strctd Stg , fundamentals, serialized property set format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

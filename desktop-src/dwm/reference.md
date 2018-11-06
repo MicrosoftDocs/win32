@@ -5,7 +5,6 @@ ms.assetid: ab4738b3-c985-4ef3-bf48-4903b3bcd867
 keywords:
 - Desktop Window Manager (DWM),reference
 - DWM (Desktop Window Manager),reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: DS-Replication-Get-Changes extended right
 description: Extended right needed to replicate changes from a given NC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 83477f61-c14c-4304-88d2-e2f99ea486d9
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Replication-Get-Changes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Specifies the automatic conversion of a given class of objects to a
 ms.assetid: e34b799b-0d23-4034-ba79-49e92ec4dea7
 keywords:
 - AutoConvertTo registry key COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

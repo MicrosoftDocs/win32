@@ -8,7 +8,6 @@ keywords:
 - clients,text ranges
 - clients,Text control pattern
 - clients,TextRange control pattern
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

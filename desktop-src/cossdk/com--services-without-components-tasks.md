@@ -2,7 +2,6 @@
 Description: COM+ Services Without Components Tasks
 ms.assetid: 69001046-938b-4429-8a22-276185dba1a2
 title: COM+ Services Without Components Tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

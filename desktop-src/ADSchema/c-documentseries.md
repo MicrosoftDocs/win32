@@ -1,9 +1,6 @@
 ---
 title: documentSeries class
 description: The documentSeries object class is used to define an entry that represents a series of documents.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d2fd4cc-6e77-4305-a957-cb517ae451c5
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - documentSeries
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

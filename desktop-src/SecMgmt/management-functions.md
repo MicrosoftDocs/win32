@@ -2,7 +2,6 @@
 Description: Lists support functions provided by the Security Configuration tool set.
 ms.assetid: 5a771014-1706-490f-8540-ec516652cb83
 title: Security Management Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

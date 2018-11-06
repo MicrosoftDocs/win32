@@ -2,7 +2,6 @@
 Description: The Attributes object exposes the following properties.
 ms.assetid: 11275C74-584E-42F2-BF4A-2FD95A62861E
 title: Attributes Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

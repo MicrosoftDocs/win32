@@ -1,9 +1,6 @@
 ---
 title: ms-Imaging-PSP-String attribute
 description: Schema Attribute that contains the XML sequence for this Post Scan Process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 702adafa-d332-4315-ae36-86e997bf8d74
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Imaging-PSP-String
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

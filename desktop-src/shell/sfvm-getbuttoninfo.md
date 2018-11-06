@@ -1,7 +1,6 @@
 ---
 Description: Allows the callback object to add buttons to the toolbar. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_GETBUTTONINFO message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

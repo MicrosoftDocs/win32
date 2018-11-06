@@ -2,7 +2,6 @@
 Description: Decrements the references to the Secure Sockets Layer protocol (SSL) provider.
 ms.assetid: 67bfa4b5-c02c-4a76-871d-93f3bf4e3602
 title: SslDecrementProviderReferenceCount function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

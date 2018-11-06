@@ -2,7 +2,6 @@
 Description: Gets the raw data for a specified Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure that defines optimal settings for configuring a monitor.
 ms.assetid: a787e66e-1b96-4dd5-8646-7aa2d281ac95
 title: WmiGetMonitorRawEEdidV1Block method of the WmiMonitorDescriptorMethods class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

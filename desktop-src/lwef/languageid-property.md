@@ -2,7 +2,6 @@
 title: LanguageID Property
 description: LanguageID Property
 ms.assetid: f57b0fa1-b3b8-49c8-b441-2a40e564d6ea
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

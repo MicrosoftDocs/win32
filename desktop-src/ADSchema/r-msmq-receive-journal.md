@@ -1,9 +1,6 @@
 ---
 title: msmq-Receive-journal extended right
 description: Allows receiving messages from the queue's Journal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7617c569-15ad-473d-a8ac-3819de24e354
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msmq-Receive-journal
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

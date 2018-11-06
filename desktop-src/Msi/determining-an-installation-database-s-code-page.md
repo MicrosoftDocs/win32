@@ -2,7 +2,6 @@
 Description: To determine the code page of a database, call MsiDatabaseExport with hDatabase set to the handle of the database and szTableName set to \_ForceCodepage.
 ms.assetid: afa3fbd9-9f54-4f72-ab5d-cb0dbbd9946c
 title: Determining an Installation Database's Code Page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

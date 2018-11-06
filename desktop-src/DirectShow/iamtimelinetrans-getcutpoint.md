@@ -2,7 +2,6 @@
 Description: The GetCutPoint method retrieves the cut point.
 ms.assetid: f54ef17e-3407-4164-911d-3dc7fad656ed
 title: IAMTimelineTrans::GetCutPoint method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

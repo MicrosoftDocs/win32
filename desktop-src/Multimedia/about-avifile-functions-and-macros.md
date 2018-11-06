@@ -5,7 +5,6 @@ ms.assetid: 877f6759-8271-47eb-8a7f-540393e5ae89
 keywords:
 - AVIFileInit function
 - AVIFileExit function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

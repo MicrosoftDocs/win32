@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Enterprise-Settings class
 description: An object with general MSMQ information. It is placed under \\Configuration\\Services. There can only be one of these in a forest. This object contains organization wide configuration information for message queuing.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fe12ca7b-d8f4-420e-b30a-546c52b1d9e0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Enterprise-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

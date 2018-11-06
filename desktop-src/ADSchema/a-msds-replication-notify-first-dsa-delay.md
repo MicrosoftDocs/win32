@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Replication-Notify-First-DSA-Delay attribute
 description: This attribute controls the delay in time between changes to the DS, and notification of the first replica partner for an NC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 58474bf9-9069-402a-a94b-4d1b6df0810e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Replication-Notify-First-DSA-Delay
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

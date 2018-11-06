@@ -1,9 +1,6 @@
 ---
 title: Mastered-By attribute
 description: Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS Settings objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bd14998c-1691-4167-83c4-3c1ec1181b7f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Mastered-By
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

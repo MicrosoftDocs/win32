@@ -2,7 +2,6 @@
 Description: The WwanOpenHandle function opens a connection to the server.
 ms.assetid: 9E412058-86DD-47C6-8195-9FFF6E32B523
 title: WwanOpenHandle function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

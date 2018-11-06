@@ -19,7 +19,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,scripting reference
 - ActiveX control,scripting reference
 - scripting object model reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

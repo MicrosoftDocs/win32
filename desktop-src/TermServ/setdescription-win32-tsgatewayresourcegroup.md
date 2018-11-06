@@ -1,9 +1,6 @@
 ---
 title: SetDescription method of the Win32_TSGatewayResourceGroup class
 description: Sets the Description property for the resource group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ab1280c7-ce53-4807-9537-953b597dd636
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The PatchCode property returns the patch code GUID of the patch.
 ms.assetid: fc2e453b-d37d-41dc-9854-800c2aab368b
 title: Patch.PatchCode property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

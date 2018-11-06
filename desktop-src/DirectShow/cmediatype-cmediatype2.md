@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: 89356578-0509-46c1-abd4-421688017f1d
 title: CMediaType.CMediaType constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

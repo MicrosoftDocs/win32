@@ -1,12 +1,8 @@
 ---
 title: Operations Plug-in Entry Points
 description: Operations Plug-in Entry Points
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9a3ddc2b-9fde-4915-b0e8-0a5e79e73c00
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

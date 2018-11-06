@@ -2,7 +2,6 @@
 Description: Determines whether the IContextNode object contains data stored under the specified identifier.
 ms.assetid: ac3a85a2-abf8-4ac4-8779-d9fda89497d4
 title: IContextNode::ContainsPropertyData method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

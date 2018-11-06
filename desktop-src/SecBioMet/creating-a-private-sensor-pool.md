@@ -2,7 +2,6 @@
 title: Creating a Private Sensor Pool
 description: How to use the Windows Biometric Framework API to create a private sensor pool.
 ms.assetid: 79944E30-A3D4-411D-A551-3B309DEA6FEA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

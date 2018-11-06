@@ -1,12 +1,8 @@
 ---
 Description: Returns the SWbemObject associated with the specified index into the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 75830f78-0489-4fae-bf9c-2eee8526232e
 ms.tgt_platform: multiple
 title: SWbemObjectSet.ItemIndex method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

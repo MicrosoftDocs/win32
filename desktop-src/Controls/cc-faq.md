@@ -2,7 +2,6 @@
 title: Common Controls FAQ
 description: This FAQ provides answers to some common questions about the common controls.
 ms.assetid: 4a0f7576-6c43-46cc-ae60-5b8e7e8f6483
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

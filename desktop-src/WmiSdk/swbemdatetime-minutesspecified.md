@@ -1,12 +1,8 @@
 ---
 Description: Indicates whether the minutes component in the CIM datetime value contains an interval or a wildcard value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: de15f87e-0092-467e-b0d7-42ef447fa00a
 ms.tgt_platform: multiple
 title: SWbemDateTime.MinutesSpecified property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

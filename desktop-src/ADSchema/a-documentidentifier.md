@@ -1,9 +1,6 @@
 ---
 title: documentIdentifier attribute
 description: The documentIdentifier attribute type specifies a unique identifier for a document.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 93a99e32-4487-463c-9189-b78312d8e94e
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - documentIdentifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

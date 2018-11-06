@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: cbd33b60-6041-43e1-b5ff-adbba7495a14
 title: System.Message.IsFwdOrReply
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

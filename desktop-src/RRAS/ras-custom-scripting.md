@@ -2,7 +2,6 @@
 title: RAS Custom Scripting
 description: Developers can create a custom-scripting DLL that resides on a RAS client computer. This DLL can communicate with the server during the process of establishing a connection.
 ms.assetid: c27b8b02-6018-4441-a355-1fb890b9001c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

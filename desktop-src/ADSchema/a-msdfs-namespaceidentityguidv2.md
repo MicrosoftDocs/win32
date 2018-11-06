@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Namespace-Identity-GUID-v2 attribute
 description: To be set only when the namespace is created. Stable across rename or move as long as the namespace is not replaced by another namespace that has same name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 66907d40-48a7-40ae-9031-1366a4a4d2a2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Namespace-Identity-GUID-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

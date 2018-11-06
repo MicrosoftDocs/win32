@@ -2,7 +2,6 @@
 title: Interface Pointers and Interfaces
 description: Interface Pointers and Interfaces
 ms.assetid: 8a8671fe-f0b2-4698-8c98-89753fffce0b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Is-User-Cachable-At-Rodc attribute
 description: For a Read-Only Domain Controller (RODC), identifies whether the specified user's secrets can be cached.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1118d0a9-2219-478a-82b0-8ea4bbeae47d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Is-User-Cachable-At-Rodc
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

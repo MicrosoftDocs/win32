@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 1051 through 1060.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 789cc5b6-e3ef-4f66-8dec-6970d6df1fe9
 ms.tgt_platform: multiple
 title: Errors 1051 through 1060
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

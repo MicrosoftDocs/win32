@@ -2,7 +2,6 @@
 Description: Dynamic Reconnection
 ms.assetid: 5b777f64-6b62-48dd-8eae-6603582a452a
 title: Dynamic Reconnection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

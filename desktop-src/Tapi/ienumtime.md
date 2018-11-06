@@ -2,7 +2,6 @@
 Description: The IEnumTime interface provides COM-standard enumeration methods for the ITTime interface. The ITTimeCollection::get\_EnumerationIf method returns a pointer to IEnumTime.
 ms.assetid: 395d7830-9a70-473a-8a89-4b4db48d5774
 title: IEnumTime interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

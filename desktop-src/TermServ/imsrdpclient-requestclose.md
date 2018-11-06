@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient RequestClose method
 description: Requests a graceful shutdown of the Remote Desktop ActiveX control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0b930a00-f134-4da2-a752-8fd131a22043
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

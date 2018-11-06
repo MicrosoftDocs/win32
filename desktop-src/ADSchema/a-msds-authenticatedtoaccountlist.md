@@ -1,9 +1,6 @@
 ---
 title: ms-DS-AuthenticatedTo-Accountlist attribute
 description: Backward link for ms-DS-AuthenticatedAt-DC. Identifies which users have authenticated to this Computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d3f4d53d-7c44-4d1c-b6ec-f504057c6e8d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-AuthenticatedTo-Accountlist
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Set the new active configuration of the collector.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1979e657-a8f3-4eab-991c-a884bde10724
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetConfiguration method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

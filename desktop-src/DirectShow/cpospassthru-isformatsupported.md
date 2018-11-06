@@ -2,7 +2,6 @@
 Description: The IsFormatSupported method determines whether a specified time format is supported. This method implements the IMediaSeeking::IsFormatSupported method.
 ms.assetid: dd8751d6-8439-4155-bdaf-b152a7c6cad4
 title: CPosPassThru.IsFormatSupported method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

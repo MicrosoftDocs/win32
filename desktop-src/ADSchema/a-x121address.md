@@ -1,9 +1,6 @@
 ---
 title: X121-Address attribute
 description: The X.121 address for an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3fe3cb04-6a76-4b5b-af4e-c73afd7e0412
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - X121-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

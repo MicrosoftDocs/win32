@@ -1,9 +1,6 @@
 ---
 title: Control-Access-Rights attribute
 description: Used by DS Security to determine which users can perform specific operations on the host object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5e717160-519c-4e5a-b18f-05ee767a66a3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Control-Access-Rights
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

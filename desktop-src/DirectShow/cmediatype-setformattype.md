@@ -2,7 +2,6 @@
 Description: The SetFormatType method specifies the format type.
 ms.assetid: e8ed9190-7169-4d51-ace7-597f43ff083e
 title: CMediaType.SetFormatType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

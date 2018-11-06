@@ -2,7 +2,6 @@
 Description: Adds boot sources to a virtual system configuration when applied to a &\#0034;state&\#0034; virtual system configuration.
 ms.assetid: 2d091554-73d4-47c6-a0c2-97644fc9abe9
 title: AddBootSourceSettings method of the Msvm_VirtualSystemManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

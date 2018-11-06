@@ -1,9 +1,6 @@
 ---
 title: Wbem-Path attribute
 description: References to objects in other ADSI namespaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d659029b-f929-4810-a369-d6d1062b33b8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Wbem-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

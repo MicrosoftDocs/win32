@@ -2,7 +2,6 @@
 Description: In Authorization Manager a role represents a category of users and the tasks those users are authorized to perform.
 ms.assetid: a4981774-0f5c-4032-8a7d-d9ef44c76abe
 title: Grouping Tasks into Roles in Script
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

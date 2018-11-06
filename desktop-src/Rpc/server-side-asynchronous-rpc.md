@@ -2,7 +2,6 @@
 title: Server-side Asynchronous RPC
 description: Navigation page for essential tasks to receive and dispatch asynchronous remote procedure calls (RPC).
 ms.assetid: eebf8b33-ebd1-45ce-8292-0ef92da15f28
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

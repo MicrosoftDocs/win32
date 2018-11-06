@@ -2,7 +2,6 @@
 title: Simple Elements
 description: A simple element is a UI element that shares an IAccessible object with other elements and relies on that IAccessible object (typically its parent) to expose its properties.
 ms.assetid: 3f6bd992-4e0a-4dba-b6e9-e70dca77c880
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

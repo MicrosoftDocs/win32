@@ -9,7 +9,6 @@ keywords:
 - programming reference,CSecureChannelServer class
 - reference for Windows Media Device Manager,CSecureChannelServer class
 - CSecureChannelServer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

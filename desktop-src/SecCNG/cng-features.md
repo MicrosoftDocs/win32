@@ -2,7 +2,6 @@
 Description: CNG has the following features.
 ms.assetid: 400a2b6e-6bbe-4ba4-abde-a2f625007517
 title: CNG Features
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

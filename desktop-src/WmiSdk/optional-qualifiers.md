@@ -1,12 +1,8 @@
 ---
 Description: Optional qualifiers address recurring situations not common to all CIM-compliant implementations, which are not required to interpret these qualifiers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f31162d1-25e6-494a-bc7d-f66955b514a6
 ms.tgt_platform: multiple
 title: Optional Qualifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

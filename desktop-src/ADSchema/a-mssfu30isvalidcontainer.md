@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Is-Valid-Container attribute
 description: Contains internal data that is used by the server for NIS, which stores whether the current search root is valid.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 70ff1155-f8ab-48c2-900d-86664b30c59c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Is-Valid-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

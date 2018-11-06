@@ -1,14 +1,8 @@
 ---
 Description: Compresses the logical paging file (or directory) specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ebc69c9d-5a86-462b-9362-1ae02869ffa2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Compress method of the Win32_PageFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

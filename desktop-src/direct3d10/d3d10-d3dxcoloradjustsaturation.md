@@ -2,7 +2,6 @@
 Description: Adjusts the saturation value of a color.
 ms.assetid: a7ca64b4-2198-4116-8e9f-79d6c922fd09
 title: D3DXColorAdjustSaturation function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

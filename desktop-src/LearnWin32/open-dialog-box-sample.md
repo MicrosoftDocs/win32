@@ -2,7 +2,6 @@
 title: Open Dialog Box Sample
 description: This sample application shows how to initialize the Component Object Model (COM) library and use a COM-based API in a Windows program.
 ms.assetid: 7ff18d1f-a953-4a0e-8295-4d5e1df937e5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

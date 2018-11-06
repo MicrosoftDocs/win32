@@ -4,7 +4,6 @@ description: Navigation page for the application configuration file (ACF), which
 ms.assetid: f7f2d251-da23-4005-b5b6-a1765016e931
 keywords:
 - ACF files RPC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

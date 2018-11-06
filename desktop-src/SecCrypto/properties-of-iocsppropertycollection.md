@@ -2,7 +2,6 @@
 Description: The following properties are defined by the IOCSPPropertyCollection interface.
 ms.assetid: c476b627-f558-4a39-86f7-de85d9138004
 title: Properties of IOCSPPropertyCollection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

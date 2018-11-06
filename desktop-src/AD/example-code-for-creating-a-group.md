@@ -1,14 +1,10 @@
 ---
 title: Example Code for Creating a Group
 description: This topic includes a code example code that creates a group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f6bba6fc-fec2-4dd9-b7f2-da7782a6caa5
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

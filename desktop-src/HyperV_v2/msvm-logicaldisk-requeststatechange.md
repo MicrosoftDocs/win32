@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: ab704257-b7f4-45a0-8287-b7c6cc66402d
 title: RequestStateChange method of the Msvm_LogicalDisk class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

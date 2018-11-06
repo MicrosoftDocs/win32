@@ -2,7 +2,6 @@
 Description: Determines whether the specified virtual system can be migrated to a target host specified by a network name or IP address.
 ms.assetid: eacc8448-4683-48df-81b9-8599292944db
 title: CheckVirtualSystemIsMigratableToHost method of the Msvm_VirtualSystemMigrationService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

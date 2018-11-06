@@ -1,9 +1,6 @@
 ---
 title: RdvUndoVMPermissions method of the Win32_RdvhManagement class
 description: Reverts permissions set by RdvSetupVMPermissions on the specified virtual machine.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3331430e-7427-42f7-ab09-27fece8dc3ca
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

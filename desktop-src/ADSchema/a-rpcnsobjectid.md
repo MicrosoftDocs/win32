@@ -1,9 +1,6 @@
 ---
 title: rpc-Ns-Object-ID attribute
 description: The Object IDs exported by a given server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bfe61b2f-36f5-49fd-861e-71829f44f50d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Ns-Object-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

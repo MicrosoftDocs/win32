@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_PortableBattery WMI class contains the properties related to a portable battery, such as a notebook computer battery.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ca7d061f-8fc6-4a1e-aa75-2465ce5e2735
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PortableBattery class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

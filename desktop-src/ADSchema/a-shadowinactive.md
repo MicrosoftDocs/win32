@@ -1,9 +1,6 @@
 ---
 title: shadowInactive attribute
 description: Contains the number of days of inactivity that is allowed for the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0e6b023f-9806-4c7e-82e4-505807647733
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - shadowInactive
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic describes two related concepts, picture aspect ratio and pixel aspect ratio.
 ms.assetid: 384bdeaa-5360-42af-9f95-b791af2dcafc
 title: Picture Aspect Ratio
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

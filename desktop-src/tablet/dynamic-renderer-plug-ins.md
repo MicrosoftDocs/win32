@@ -2,7 +2,6 @@
 Description: A dynamic-renderer plug-in is an object that displays the tablet pen data in real-time as it is being handled by the RealTimeStylus object.
 ms.assetid: ac6d15f3-0917-4cc1-8c83-e34d3d063289
 title: Dynamic-Renderer Plug-ins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

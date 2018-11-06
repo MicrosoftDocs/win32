@@ -2,7 +2,6 @@
 Description: A state block is a group of device states.
 ms.assetid: 6b1917a8-8685-40c3-983d-6bd2fed95642
 title: State Blocks Save and Restore State (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

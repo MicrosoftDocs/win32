@@ -2,7 +2,6 @@
 Description: The dimensions of a geometric pen are specified in logical units.
 ms.assetid: e7030490-d10c-4d1c-87ae-5b4cc4858ee1
 title: Geometric Pens
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

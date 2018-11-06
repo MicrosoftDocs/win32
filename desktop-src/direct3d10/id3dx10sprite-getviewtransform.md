@@ -2,7 +2,6 @@
 Description: Get the view transform that applies to all sprites.
 ms.assetid: eba45c08-64cc-4119-83d4-50351fe21bea
 title: ID3DX10Sprite::GetViewTransform method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

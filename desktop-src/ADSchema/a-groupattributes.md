@@ -1,9 +1,6 @@
 ---
 title: Group-Attributes attribute
 description: The Group-Attributes attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7966f50c-692e-43ab-89fd-eff4f58b552f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Group-Attributes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

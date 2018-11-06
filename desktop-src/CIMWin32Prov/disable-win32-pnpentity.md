@@ -1,14 +1,8 @@
 ---
 Description: Disables this Plug and Play device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 88d60218-7282-4d0e-9a2c-0ad1a8c96650
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Disable method of the Win32_PnPEntity class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

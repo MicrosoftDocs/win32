@@ -2,7 +2,6 @@
 Description: To start a service, a service control program opens a handle to an installed database and then specifies the handle in a call to the StartService function.
 ms.assetid: 7ee5254d-b035-4888-88e9-93e3e55d737e
 title: Starting a Service
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

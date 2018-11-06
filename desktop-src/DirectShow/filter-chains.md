@@ -2,7 +2,6 @@
 Description: Filter Chains
 ms.assetid: c17b3b58-65ab-4e83-91f2-54a995f22ddf
 title: Filter Chains
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

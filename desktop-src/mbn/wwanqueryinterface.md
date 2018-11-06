@@ -2,7 +2,6 @@
 Description: The WwanQueryInterface function queries the mobile broadband service for info about a mobile broadband interface.
 ms.assetid: DA1BC1DC-ACC2-4677-95A6-C87D757578BB
 title: WwanQueryInterface function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

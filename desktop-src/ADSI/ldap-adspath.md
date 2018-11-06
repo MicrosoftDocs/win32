@@ -1,15 +1,11 @@
 ---
 title: LDAP ADsPath
 description: This topic shows the syntax that you should use for the LDAP ADsPath.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: adacf6af-8683-4c3c-91bf-9489f2d5d817
 ms.tgt_platform: multiple
 keywords:
 - LDAP ADsPath
 - ADsPath, LDAP, description
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

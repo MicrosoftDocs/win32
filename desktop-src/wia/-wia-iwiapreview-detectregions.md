@@ -2,7 +2,6 @@
 Description: Invokes the driver segmentation filter and passes the unfiltered image cached by the IWiaPreview::GetNewPreview method to the filter.
 ms.assetid: 4ae817b5-7091-432e-b004-0e53ae14fdb2
 title: IWiaPreview::DetectRegions method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

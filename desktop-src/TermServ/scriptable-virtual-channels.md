@@ -1,12 +1,8 @@
 ---
 title: Scriptable virtual channels
 description: Describes changes to the programming model for implementing virtual channel applications that are provided by the Terminal Services Advanced Client (TSAC).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b9ec2e4b-99c7-4f0d-9706-45a98446ca04
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

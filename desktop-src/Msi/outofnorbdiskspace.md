@@ -2,7 +2,6 @@
 Description: The installer sets the OutOfNoRbDiskSpace property to True if any volume that is a target of the installation has insufficient disk space to accommodate the installation.
 ms.assetid: 910d6c1d-38d3-4680-b256-2bf30689ce11
 title: OutOfNoRbDiskSpace property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

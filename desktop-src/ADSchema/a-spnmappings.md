@@ -1,9 +1,6 @@
 ---
 title: SPN-Mappings attribute
 description: This multiple-valued attribute contains a list of service principal names (SPN) to show the equivalence of SPN types.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6d37618d-426d-4e7b-8475-c912adb595ee
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - SPN-Mappings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

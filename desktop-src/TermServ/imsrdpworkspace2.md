@@ -1,9 +1,6 @@
 ---
 title: IMsRdpWorkspace2 interface
 description: Exposes a method that associates RemoteApp and Desktop Connection credentials with a connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7E09AF14-2D6C-4D6E-8033-C691D9DC8057
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsRdpWebAccess.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

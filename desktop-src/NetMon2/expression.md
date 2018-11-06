@@ -2,7 +2,6 @@
 Description: Contains a group of ANDEXP arrays evaluated as peers.
 ms.assetid: 14fa568c-9535-4415-923d-7e93ba4d2e80
 title: EXPRESSION structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

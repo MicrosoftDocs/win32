@@ -1,15 +1,11 @@
 ---
 title: Account Expiration (WinNT Provider)
 description: When using the WinNT provider, the account expiration date can be set using the IADsUser.AccountExpirationDate property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1d887a33-a3ae-4c61-88fa-2764a6bbf6bf
 ms.tgt_platform: multiple
 keywords:
 - Account Expiration ADSI , WinNT provider
 - WinNT provider ADSI , user management examples, Account Expiration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

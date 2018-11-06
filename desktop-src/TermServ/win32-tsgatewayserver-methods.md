@@ -1,12 +1,8 @@
 ---
 title: Win32_TSGatewayServer Methods
 description: The Win32\_TSGatewayServer class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 925A57CB-A052-4F2F-A35A-AB8C771A2E59
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

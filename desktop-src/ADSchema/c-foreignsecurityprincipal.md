@@ -1,9 +1,6 @@
 ---
 title: Foreign-Security-Principal class
 description: The Security Principal from an external source.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 05d5bcd6-4a77-4734-bb53-d642b68c85a8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Foreign-Security-Principal
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

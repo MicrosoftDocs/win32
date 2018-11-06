@@ -6,7 +6,6 @@ keywords:
 - WinINet Enumerations WinINet
 - enumerations, Windows Internet WinINet
 - enumerations, WinINet WinINet
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

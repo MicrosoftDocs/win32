@@ -1,14 +1,10 @@
 ---
 title: User Naming Attributes
 description: User naming attributes identify user objects, such as logon names and IDs used for security purposes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2192743c-cedd-4b03-a402-3992d64a4801
 ms.tgt_platform: multiple
 keywords:
 - User Naming Attributes AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

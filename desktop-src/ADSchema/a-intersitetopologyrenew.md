@@ -1,9 +1,6 @@
 ---
 title: Inter-Site-Topology-Renew attribute
 description: This class indicates how often the intersite topology generator updates the keep-alive message that is sent to domain controllers contained in the same site.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 523d8161-0678-482f-8d66-55a112995fe5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Inter-Site-Topology-Renew
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

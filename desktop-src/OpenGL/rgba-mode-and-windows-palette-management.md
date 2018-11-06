@@ -7,7 +7,6 @@ keywords:
 - OpenGL on Windows,palette management
 - RGBA mode OpenGL
 - palette management OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

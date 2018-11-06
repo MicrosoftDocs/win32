@@ -14,7 +14,6 @@ keywords:
 - DRM Client Extended APIs,deleting licenses
 - Client Extended APIs,deleting licenses
 - licenses,deleting
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

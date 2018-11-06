@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Last-Failed-Interactive-Logon-Time attribute
 description: The time that an incorrect password was presented during a Ctrl+Alt+Delete logon.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea52341b-4979-452d-b0d8-236acacb9875
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Last-Failed-Interactive-Logon-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

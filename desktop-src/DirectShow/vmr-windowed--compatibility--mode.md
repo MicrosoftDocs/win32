@@ -2,7 +2,6 @@
 Description: VMR Windowed (Compatibility) Mode
 ms.assetid: e9fb1c83-860a-44c1-9633-c86f5d0fdadd
 title: VMR Windowed (Compatibility) Mode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

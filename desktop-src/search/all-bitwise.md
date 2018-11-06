@@ -2,7 +2,6 @@
 Description: The ALL BITWISE and SOME BITWISE keywords are used for testing the bits in an integral type.
 ms.assetid: 649f763f-45aa-4086-9e7f-b8934b5bd22c
 title: ALL BITWISE and SOME BITWISE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

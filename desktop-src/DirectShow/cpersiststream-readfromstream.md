@@ -2,7 +2,6 @@
 Description: Reads the filter's data from the given stream.
 ms.assetid: 009f4812-8cc6-436a-9553-3a3161d5e992
 title: CPersistStream.ReadFromStream method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

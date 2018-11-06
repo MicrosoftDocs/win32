@@ -2,7 +2,6 @@
 Description: The CurrentTime property retrieves the current playback time.
 ms.assetid: 94f94eb1-49fa-4b8c-95a6-da307b0abd62
 title: CurrentTime Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

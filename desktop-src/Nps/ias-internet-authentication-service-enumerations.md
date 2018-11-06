@@ -1,12 +1,8 @@
 ---
 title: NPS Extensions Enumerations
 description: Use the following enumerated types when developing NPS Extension DLLs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6bf9c421-f0f6-4c75-bb4d-dbe91dcb8d01
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

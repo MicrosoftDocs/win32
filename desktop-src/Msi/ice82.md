@@ -2,7 +2,6 @@
 Description: ICE82 validates that the RegisterProduct Action, RegisterUser Action, PublishProduct Action, and PublishFeatures Action are all present in the InstallExecuteSequence table. The package is validated if all the actions are present.
 ms.assetid: b41a56f9-b57e-4133-ae7d-c51b36bab44f
 title: ICE82
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

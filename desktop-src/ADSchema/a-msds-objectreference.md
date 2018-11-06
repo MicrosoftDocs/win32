@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Object-Reference attribute
 description: A link to the object that uses the data stored in the object that contains this attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9c84c4b8-63de-45ba-a228-8ee8d230cd5d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Object-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,16 +1,12 @@
 ---
 title: Example Code for Removing the RnR Connection Point
 description: The following code example is used by the Winsock service code example to unregister the RnR connection point for the service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eee9b8b0-8566-442a-9a46-b6469e5bb1fc
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Removing the RnR Connection Point AD
 - Windows Sockets Registration and Resolution AD , Example Code, Removing the RnR Connection Point
 - Removing the RnR Connection Point AD , Example Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

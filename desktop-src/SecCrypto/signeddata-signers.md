@@ -2,7 +2,6 @@
 Description: Retrieves the signature creators of the data.
 ms.assetid: 3e28f08a-c4d8-4dd7-953a-e1500eb5bee0
 title: SignedData.Signers property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

@@ -2,7 +2,6 @@
 title: BalloonHide Event
 description: BalloonHide Event
 ms.assetid: dd1f3e83-f3d9-496e-9a54-b3a23b2403da
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

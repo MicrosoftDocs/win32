@@ -1,9 +1,6 @@
 ---
 title: Configuration class
 description: This is a container that holds the configuration information for a domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d18967e1-64f2-4d7b-b521-60145e7bc4c0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Configuration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

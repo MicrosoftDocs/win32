@@ -2,7 +2,6 @@
 Description: The SetNamedSecurityInfo and SetSecurityInfo functions support automatic propagation of inheritable access control entries (ACEs).
 ms.assetid: 0aa49b9b-13e3-4ef9-921d-ea47a013e5a1
 title: Automatic Propagation of Inheritable ACEs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

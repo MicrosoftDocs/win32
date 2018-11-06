@@ -1,9 +1,6 @@
 ---
 title: Repl-UpToDate-Vector attribute
 description: Tracks internal replication state information for an entire NC. Information here can be extracted in public form through the API DsReplicaGetInfo(). Present on all NC root objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f23d94f8-c31b-447f-98c3-c35a4f5f1d43
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Repl-UpToDate-Vector
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

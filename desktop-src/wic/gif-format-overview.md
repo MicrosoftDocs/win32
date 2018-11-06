@@ -2,7 +2,6 @@
 Description: This topic provides information about the native GIF codec available through the Windows Imaging Component (WIC).
 ms.assetid: CAEC8F92-8971-42B4-BED8-A6A93522D11E
 title: GIF Format Overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

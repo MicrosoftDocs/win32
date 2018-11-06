@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings3 GatewayEncryptedAuthCookie property
 description: The encrypted authentication cookie.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c9ab6667-327c-44f8-a10e-b048ea91980c
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

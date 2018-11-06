@@ -5,7 +5,6 @@ ms.assetid: 13aee98b-dd49-4479-acb2-0583b689500c
 keywords:
 - MCI macros
 - MCI reference,macros
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

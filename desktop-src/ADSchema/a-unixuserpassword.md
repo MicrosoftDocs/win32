@@ -1,9 +1,6 @@
 ---
 title: unixUserPassword attribute
 description: Contains a user password that is compatible with a UNIX system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9a5f900f-b4e2-4c95-81e9-e5a9e2823e08
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - unixUserPassword
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

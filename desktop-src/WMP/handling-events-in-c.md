@@ -16,7 +16,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,event handling
 - ActiveX control,event handling
 - events,C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

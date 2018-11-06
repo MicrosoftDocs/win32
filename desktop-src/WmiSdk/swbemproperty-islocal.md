@@ -1,12 +1,8 @@
 ---
 Description: The IsLocal property of the SWbemProperty object is a Boolean value that can be used to determine if this property is local. A value of FALSE indicates that this property has been inherited from another class. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eda1f962-03b5-4322-bb06-c27aedf94be1
 ms.tgt_platform: multiple
 title: SWbemProperty.IsLocal property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

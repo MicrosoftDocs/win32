@@ -1,9 +1,6 @@
 ---
 title: Print-Rate-Unit attribute
 description: Driver-supplied print rate unit.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a7229f8b-4d7d-45f1-af5b-39a6f79b48a1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Rate-Unit
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

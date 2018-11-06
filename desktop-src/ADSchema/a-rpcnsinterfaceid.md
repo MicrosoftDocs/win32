@@ -1,9 +1,6 @@
 ---
 title: rpc-Ns-Interface-ID attribute
 description: An Interface ID supported by a given server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d9aa445-a4d8-4665-8cc4-66ba2028e3ec
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Ns-Interface-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

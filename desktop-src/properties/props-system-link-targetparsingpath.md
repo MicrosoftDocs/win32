@@ -2,7 +2,6 @@
 Description: The Shell namespace path to the target of the link item.
 ms.assetid: 05bd6cae-68b2-49ce-ad4f-e395ec88407a
 title: System.Link.TargetParsingPath
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

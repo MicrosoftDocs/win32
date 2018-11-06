@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 1021 through 1033.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fc638d0f-20f4-46d0-a36a-c3898415f35c
 ms.tgt_platform: multiple
 title: Errors 1021 through 1030
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

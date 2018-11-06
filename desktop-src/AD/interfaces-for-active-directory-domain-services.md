@@ -1,9 +1,6 @@
 ---
 title: Interfaces for Active Directory Domain Services
 description: The following are categories of interfaces for Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8c8b56b4-0d7c-4f64-b09f-63bd9779da5d
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - Active Directory, Reference, Interfaces
 - Interfaces Active Directory
 - Interfaces for Active Directory Domain Services Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

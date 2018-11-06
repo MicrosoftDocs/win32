@@ -2,7 +2,6 @@
 title: Multiple Controls in One DLL
 description: Multiple Controls in One DLL
 ms.assetid: 76c1c0ef-af24-43e8-b3a7-337841c338ea
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

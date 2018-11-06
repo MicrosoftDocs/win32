@@ -9,7 +9,6 @@ keywords:
 - writing code for skins,Marquee section
 - marquees in skins,Marquee section
 - skin definition files,Marquee section
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

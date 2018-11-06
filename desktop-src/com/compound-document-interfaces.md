@@ -2,7 +2,6 @@
 title: Compound Document Interfaces
 description: Compound Document Interfaces
 ms.assetid: 3192ee58-55fd-43cb-b7d5-7270e91b8131
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

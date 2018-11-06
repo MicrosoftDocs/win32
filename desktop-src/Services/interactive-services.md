@@ -2,7 +2,6 @@
 Description: Typically, services are console applications that are designed to run unattended without a graphical user interface (GUI).
 ms.assetid: 3d6e090a-00b1-47d8-a4fb-620f3db8ba9c
 title: Interactive Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 Typically, services are console applications that are designed to run unattended without a graphical user interface (GUI). However, some services may require occasional interaction with a user. This page discusses the best ways to interact with the user from a service.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Services cannot directly interact with a user as of Windows Vista. Therefore, the techniques mentioned in the section titled Using an Interactive Service should not be used in new code.
 
  
@@ -53,7 +52,7 @@ The **NoInteractiveServices** value defaults to 1, which means that no service i
 
 **Windows 7, Windows Server 2008 R2, Windows XP and Windows Server 2003:** The **NoInteractiveServices** value defaults to 0, which means that services with **SERVICE\_INTERACTIVE\_PROCESS** are allowed to run interactively. When **NoInteractiveServices** is set to a nonzero value, no service started thereafter is allowed to run interactively, regardless of whether it has **SERVICE\_INTERACTIVE\_PROCESS**.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > All services run in Terminal Services session 0. Therefore, if an interactive service displays a user interface, it is visible only to the user who connected to session 0. Because there is no way to guarantee that the interactive user is connected to session 0, do not configure a service to run as an interactive service under Terminal Services or on a system that supports fast user switching (fast user switching is implemented using Terminal Services).
 
  

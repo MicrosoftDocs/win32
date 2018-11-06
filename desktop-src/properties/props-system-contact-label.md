@@ -2,7 +2,6 @@
 Description: Contact's calendar event label.
 ms.assetid: c0bc416a-01c6-465b-adb5-46de3bdb2c9a
 title: System.Contact.Label
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

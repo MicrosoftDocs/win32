@@ -2,7 +2,6 @@
 Description: 'TAPI 2.1 provides one addition to the previous TAPI 2.0 specification: client/server functionality.'
 ms.assetid: 56fa8d27-bc51-48b6-a11f-002cec5a3e6b
 title: TAPI 2.1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

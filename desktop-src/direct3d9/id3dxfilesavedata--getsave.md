@@ -2,7 +2,6 @@
 Description: Retrieves a pointer to this ID3DXFileSaveObject file data node.
 ms.assetid: 092d1c6f-0a53-4b8e-84ec-bc76f3f647ac
 title: ID3DXFileSaveData::GetSave method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

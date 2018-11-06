@@ -1,15 +1,11 @@
 ---
 title: Performance and Handling Large Result Sets
 description: Dealing with large result sets can lead to very lengthy response times.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f504e037-4dfe-4811-9152-be308b2afdf6
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,searching Active Directory,performance and handling large result sets
 - queries ADSI ,performance and handling large result sets
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

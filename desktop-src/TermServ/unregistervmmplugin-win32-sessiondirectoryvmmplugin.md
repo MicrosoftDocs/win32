@@ -1,9 +1,6 @@
 ---
 title: UnregisterVMMPlugin method of the Win32_SessionDirectoryVMMPlugin class
 description: Unregisters the plug-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d5fec317-8277-4154-ae16-1203d4d15246
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

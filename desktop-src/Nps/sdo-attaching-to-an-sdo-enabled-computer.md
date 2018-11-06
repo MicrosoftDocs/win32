@@ -1,12 +1,8 @@
 ---
 title: Attaching to an SDO-Enabled Computer
 description: Attaching to an SDO-Enabled Computer
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 434e2e0c-075e-48a9-9617-bbe75716380d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

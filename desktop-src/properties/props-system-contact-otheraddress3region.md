@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: c31a435d-2110-4147-ac28-deafa22e1030
 title: System.Contact.OtherAddress3Region
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

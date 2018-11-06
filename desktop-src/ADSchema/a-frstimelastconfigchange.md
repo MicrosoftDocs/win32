@@ -1,9 +1,6 @@
 ---
 title: FRS-Time-Last-Config-Change attribute
 description: The time in which the last configuration change was accepted.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2f15f7db-f97a-464b-aaec-0a866538849d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Time-Last-Config-Change
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

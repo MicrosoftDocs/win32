@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Version attribute
 description: The version for the current instance of SQL Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0003892c-906d-429b-bc98-bbc441b2d58b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

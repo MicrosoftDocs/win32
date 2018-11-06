@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDrive Name property
 description: Retrieves the name of the drive.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5aabb7df-fd46-48aa-ad1d-51da45495782
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

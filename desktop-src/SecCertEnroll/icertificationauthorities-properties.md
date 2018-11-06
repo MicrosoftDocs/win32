@@ -2,7 +2,6 @@
 Description: The ICertificationAuthorities interface exposes the following properties.
 ms.assetid: 7D462529-7727-4182-B8F0-C12D8C88A1A9
 title: ICertificationAuthorities Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This sample uses the Core Audio APIs to capture a high-quality voice stream. The sample supports acoustic echo cancellation (AEC) and microphone array processing by using the the AEC DMO, also called the Voice capture DSP, provided by Microsoft .
 ms.assetid: 932d3442-1beb-4938-9382-031c61cd9b05
 title: AECMicArray
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

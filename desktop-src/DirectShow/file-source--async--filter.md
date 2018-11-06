@@ -2,7 +2,6 @@
 Description: File Source (Async) Filter
 ms.assetid: 0cf6e7ab-b1fe-42f9-b682-c5484ef48c71
 title: File Source (Async) Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

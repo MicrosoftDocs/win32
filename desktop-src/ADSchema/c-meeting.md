@@ -1,9 +1,6 @@
 ---
 title: Meeting class
 description: Stores information for setting up a meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f9b5f29b-0f17-4d20-81c8-d79b12fbe1c3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Meeting
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

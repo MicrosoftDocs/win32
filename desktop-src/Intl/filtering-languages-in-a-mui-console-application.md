@@ -2,7 +2,6 @@
 Description: A MUI console application can support either system settings or application-specific settings for its user interface languages. This topic discusses the filtering of languages for this type of application.
 ms.assetid: 6d3c491f-3f5e-4592-aada-49b8b415b497
 title: Filtering Languages in a MUI Console Application
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Desktop-Profile attribute
 description: The location of the desktop profile for a user or group of users. Not used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cbab8930-ce18-4b9c-ad60-5875bb23b822
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Desktop-Profile
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

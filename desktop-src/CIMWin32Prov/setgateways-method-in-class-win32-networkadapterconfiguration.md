@@ -1,14 +1,8 @@
 ---
 Description: The SetGateways &\#32; WMI class method specifies a list of gateways for routing packets to a subnet that is different from the subnet that the network adapter is connected to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 240f7aff-7a07-4e0d-af30-7bcabb68c736
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetGateways method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

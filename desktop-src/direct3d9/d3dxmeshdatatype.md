@@ -2,7 +2,6 @@
 Description: Defines the type of mesh data present in D3DXMESHDATA.
 ms.assetid: e5324f85-17cc-46a7-886a-c8f3464baade
 title: D3DXMESHDATATYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

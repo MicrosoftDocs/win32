@@ -10,7 +10,6 @@ keywords:
 - mouse cursor
 - double-click message processing
 - mouse wheel
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

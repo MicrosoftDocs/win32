@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceV2 CmDeviceInstance property
 description: Contains the configuration manager device instance of the device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2a3e7001-7889-417f-8f9d-cc7a1776249f
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

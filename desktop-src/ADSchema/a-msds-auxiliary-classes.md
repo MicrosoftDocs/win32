@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Auxiliary-Classes attribute
 description: This attribute lists the auxiliary classes that have been dynamically attached to an object. This attribute is not associated with a class. It is automatically populated by the system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bf41f15d-9af9-43de-8425-33d50880c3fa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Auxiliary-Classes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

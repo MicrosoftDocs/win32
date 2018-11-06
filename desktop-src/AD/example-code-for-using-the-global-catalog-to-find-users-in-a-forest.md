@@ -1,14 +1,10 @@
 ---
 title: Example Code for Using the Global Catalog to Find Users in a Forest
 description: This topic includes code examples used to search for users in a forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bdcbfb7e-e1ea-4275-96b0-1c895e28e176
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , using the global catalog to find users in a forest
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

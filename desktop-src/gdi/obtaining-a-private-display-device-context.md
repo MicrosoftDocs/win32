@@ -2,7 +2,6 @@
 Description: An application performing numerous drawing operations in the client area of its window must use a private display DC.
 ms.assetid: 9c4ed127-a88f-4946-9d7c-f77899152c31
 title: Obtaining a Private Display Device Context
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

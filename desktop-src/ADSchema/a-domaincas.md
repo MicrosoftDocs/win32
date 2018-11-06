@@ -1,9 +1,6 @@
 ---
 title: Domain-Certificate-Authorities attribute
 description: List of certification authorities for a given domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d773bf84-c318-4616-8e16-c14457707722
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-Certificate-Authorities
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

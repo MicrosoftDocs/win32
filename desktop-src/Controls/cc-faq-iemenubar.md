@@ -2,7 +2,6 @@
 title: How to Create an Internet Explorer-Style Menu Bar
 description: At first glance, the menu bar in Microsoft Internet Explorer 5 and later looks similar to a standard menu. However, it looks quite different when you begin using it.
 ms.assetid: e0fe25f2-3d49-4c5a-a3f9-2f468f2cfef2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

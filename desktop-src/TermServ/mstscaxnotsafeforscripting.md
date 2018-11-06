@@ -1,9 +1,6 @@
 ---
 title: MsTscAxNotSafeForScripting class
 description: Microsoft Terminal Services Client Control - version 1.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: BA12CBA2-DC95-4FF7-ACE8-9173D870821B
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

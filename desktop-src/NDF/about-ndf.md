@@ -2,7 +2,6 @@
 title: About NDF
 description: The Network Diagnostics Framework (NDF) reduces the involvement of network administrators and computer users by handling common network issues as they occur.
 ms.assetid: ac4ef38e-2818-4df4-b9f9-28326b974698
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

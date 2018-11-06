@@ -2,7 +2,6 @@
 title: Output Depth Register
 description: The pixel shader output depth register (oDepth) is a write-only scalar register with the range \ 0..1\ that returns a new depth value for a depth test against the depth-stencil buffer.
 ms.assetid: 47b9afd9-4520-480d-b4a2-3d9a5569defb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -4,7 +4,6 @@ description: Indicates that this OLE 2 class is insertable in OLE 1 containers.
 ms.assetid: '320dff51-ac27-42f3-8c0f-353b29e289d9'
 keywords:
 - Protocol registry key COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

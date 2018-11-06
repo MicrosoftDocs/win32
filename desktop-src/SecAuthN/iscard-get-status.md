@@ -2,7 +2,6 @@
 Description: Retrieves the current state of the smart card.
 ms.assetid: 0e6e4a8f-ecad-4a82-8804-aaf58f13f7ca
 title: ISCard::get_Status method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

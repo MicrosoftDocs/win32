@@ -2,7 +2,6 @@
 Description: The IDownloadProgressChangedCallbackArgs interface defines the following property.
 ms.assetid: 3c609ab1-dbc5-4b59-8a75-1b72b6d681c2
 title: IDownloadChangedCallbackArgs Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

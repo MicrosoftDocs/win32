@@ -1,9 +1,6 @@
 ---
 title: Migrate-SID-History extended right
 description: Extended right that enables a user to migrate the SID-History without administrator privileges.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8c7ed1ec-3bde-4a6c-85a6-65a2a2e5b4bf
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Migrate-SID-History
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

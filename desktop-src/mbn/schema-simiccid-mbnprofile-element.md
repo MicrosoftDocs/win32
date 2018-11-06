@@ -2,7 +2,6 @@
 Description: Identifies the SIM Identification number for GSM devices.
 ms.assetid: 980afba4-fc31-4da0-ba01-6eb8e3db0ac8
 title: SimIccID (MBNProfile) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

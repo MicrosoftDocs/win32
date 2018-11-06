@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings HotKeyCtrlEsc property
 description: Specifies the virtual-key code to add to ALT to determine the hotkey replacement for CTRL+ESC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 55d20a97-ce6e-4394-bfdf-c5bc880e7e2f
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

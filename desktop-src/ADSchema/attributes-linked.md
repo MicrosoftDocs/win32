@@ -1,12 +1,8 @@
 ---
 title: Linked Attributes
 description: The following are the linked attributes defined by Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ed64c0bd-3d55-48c4-83b8-771025f3582a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

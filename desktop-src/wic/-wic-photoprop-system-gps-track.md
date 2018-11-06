@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.GPS.Track property.
 ms.assetid: ac9e14a0-55f1-437e-9d27-df0fa09671c1
 title: System.GPS.Track Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

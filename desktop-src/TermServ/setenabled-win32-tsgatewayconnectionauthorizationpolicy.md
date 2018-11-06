@@ -1,9 +1,6 @@
 ---
 title: SetEnabled method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the Enabled property, which enables or disables the current Remote Desktop Services connection authorization policy (RD \ 160;CAP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f8c0b39e-95d4-46cf-83fb-e91b650fbb4d
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

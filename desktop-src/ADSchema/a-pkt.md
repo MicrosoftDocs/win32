@@ -1,9 +1,6 @@
 ---
 title: PKT attribute
 description: DFS Partition Knowledge Table. Describes the structure of a Distributed File System hierarchy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a7b2e9ee-04c0-40e8-8670-8261575a45ab
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKT
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: WinSNMP API Reference
 description: The following table lists topics that discuss functions, structures, data types, function return values, and common error codes of the WinSNMP API.
 ms.assetid: 89135f67-7e58-4448-a1be-9c9df0b70eb9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

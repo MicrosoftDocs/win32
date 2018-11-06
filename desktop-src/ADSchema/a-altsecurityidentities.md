@@ -1,9 +1,6 @@
 ---
 title: Alt-Security-Identities attribute
 description: Contains mappings for X.509 certificates or external Kerberos user accounts to this user for the purpose of authentication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 40b2af9c-fd4f-4883-8494-2b64682ee50c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Alt-Security-Identities
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

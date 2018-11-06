@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable2 UIParentWindowHandle property
 description: Sets or retrieves the window handle to be the parent window for any dialog boxes displayed by the control. This allows any windows displayed by the control to be properly modal with respect to any windows displayed by the parent application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5ecf1fc3-492e-4faf-89c5-7f7abb3778a0
 ms.tgt_platform: multiple
 keywords:
@@ -35,7 +32,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

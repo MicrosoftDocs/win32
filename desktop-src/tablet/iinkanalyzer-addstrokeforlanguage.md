@@ -2,7 +2,6 @@
 Description: Adds stroke data for a single stroke to the IInkAnalyzer and assigns a specific culture identifier to the stroke.
 ms.assetid: 65eb805e-05ed-4144-b17e-872c47ab33fa
 title: IInkAnalyzer::AddStrokeForLanguage method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

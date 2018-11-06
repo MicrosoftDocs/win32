@@ -2,7 +2,6 @@
 Description: The DRV\_REQUESTID datatype is used to supply a unique identifier for a request to the service provider.
 ms.assetid: cef6a42a-2e40-4f65-8fab-79cfba143206
 title: DRV_REQUESTID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

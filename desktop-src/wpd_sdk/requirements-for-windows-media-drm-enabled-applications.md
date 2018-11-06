@@ -2,7 +2,6 @@
 Description: Requirements for Windows Media DRM-Enabled Applications
 ms.assetid: 67f872dc-79ef-4799-bb7b-b84d7dc11c71
 title: Requirements for Windows Media DRM-Enabled Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

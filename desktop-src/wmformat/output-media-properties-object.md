@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),output media properties objects
 - objects,output media properties objects
 - output media properties objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

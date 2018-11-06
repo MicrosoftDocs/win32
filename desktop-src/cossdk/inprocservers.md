@@ -2,7 +2,6 @@
 Description: Contains a list of the in-process servers registered with the system. It contains an object for each component that is registered as an in-process server.
 ms.assetid: 10434de7-c5e3-4fb0-8472-2a581607fcc0
 title: InprocServers collection
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

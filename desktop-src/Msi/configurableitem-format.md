@@ -2,7 +2,6 @@
 Description: The Format property of the ConfigurableItem object returns the value from the Format column of the ModuleConfiguration table.
 ms.assetid: e75ed650-7309-4e24-9c35-82ebf27d011b
 title: ConfigurableItem.Format property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

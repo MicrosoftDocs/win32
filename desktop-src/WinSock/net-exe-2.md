@@ -2,7 +2,6 @@
 Description: Net.exe can be used to stop and start the IPv6 protocol.
 ms.assetid: faa555d9-eb20-4b7a-94eb-b67a48ee630e
 title: Net.exe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

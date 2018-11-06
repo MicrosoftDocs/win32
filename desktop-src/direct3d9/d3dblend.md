@@ -2,7 +2,6 @@
 Description: Defines the supported blend mode.
 ms.assetid: 60ff384c-15a0-4c6f-9e2c-59fdea76b7a1
 title: D3DBLEND enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

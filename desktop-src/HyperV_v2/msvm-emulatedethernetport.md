@@ -2,7 +2,6 @@
 Description: Represents an emulated Ethernet adapter.
 ms.assetid: 8E990C76-7D48-42B0-BB4D-C4C07B1C482A
 title: Msvm_EmulatedEthernetPort class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

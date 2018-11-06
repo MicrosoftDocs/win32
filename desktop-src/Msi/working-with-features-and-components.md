@@ -2,7 +2,6 @@
 Description: There are several functions that change the installation of product components and features. The following describes how to change features and components.
 ms.assetid: 840656f9-ea85-49e7-8842-f779228c30d6
 title: Working with Features and Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

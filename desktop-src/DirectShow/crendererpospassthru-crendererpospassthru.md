@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: 9d6f40ee-31bf-4334-bee5-4be834f1f269
 title: CRendererPosPassThru.CRendererPosPassThru constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

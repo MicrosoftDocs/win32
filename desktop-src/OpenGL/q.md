@@ -5,7 +5,6 @@ Robots: noindex, nofollow
 ms.assetid: daaf8c01-7bfe-45c1-9507-f3a819e2173b
 keywords:
 - quadrilaterals
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

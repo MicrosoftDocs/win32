@@ -1,9 +1,6 @@
 ---
 title: Domain-DNS class
 description: Windows NT domain with DNS-based (DC ) naming.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 14e0ae19-0dfc-4697-8b65-d4053a682c7c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-DNS
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

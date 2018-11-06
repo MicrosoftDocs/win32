@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-RdcEnabled attribute
 description: Contains the value that specifies if RDC is enabled or disabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 05a4257c-cc8b-4ddf-ae5f-4d3b456a2bae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-RdcEnabled
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

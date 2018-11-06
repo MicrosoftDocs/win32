@@ -2,7 +2,6 @@
 Description: Provide any application that starts programs from external sources the ability to query security policy for approval before an executable is started.
 ms.assetid: da4f409a-9ad5-4ce1-873d-97fb56ee5b4f
 title: Safer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

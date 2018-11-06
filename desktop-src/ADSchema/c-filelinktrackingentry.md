@@ -1,9 +1,6 @@
 ---
 title: File-Link-Tracking-Entry class
 description: Holds the GUID and current computer information for a link-tracked file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ab537bf4-0cf7-455a-8c87-ce365af77f3d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - File-Link-Tracking-Entry
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

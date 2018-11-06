@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-DefaultCompressionExclusionFilter attribute
 description: Filter string that contains extensions of file types not to be compressed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2695beff-647f-4ac6-b213-f2a589fc10d5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-DefaultCompressionExclusionFilter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Quota-Effective attribute
 description: The effective quota for a security principal computed from the assigned quotas for a directory partition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 22422499-9b56-4d74-a30e-63917abacdd1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Quota-Effective
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

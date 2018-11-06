@@ -2,7 +2,6 @@
 title: Selection and Focus Properties and Methods
 description: Like many elements in applications running on Microsoft Windows operating systems, accessible objects select and receive keyboard focus. These attributes enable users to interact with application elements, change values, and otherwise manipulate them.
 ms.assetid: 8170fe19-f157-4d7d-8eec-d384e51f1560
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

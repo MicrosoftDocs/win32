@@ -2,7 +2,6 @@
 Description: Working with Pin Categories
 ms.assetid: 1ee648b3-8370-4e4d-b513-d998131512ee
 title: Working with Pin Categories
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

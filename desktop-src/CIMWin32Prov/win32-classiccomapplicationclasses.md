@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ClassicCOMApplicationClasses association WMI class relates a COM application and a COM component grouped under it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 77f24461-9ca0-4fc3-8728-4a4b9a1edbc3
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMApplicationClasses class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

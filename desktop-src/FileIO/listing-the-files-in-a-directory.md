@@ -2,7 +2,6 @@
 Description: To list files in a specified directory, call FindFirstFile, FindNextFile, and FindClose.
 ms.assetid: ab0d977d-f71c-4a18-9b1d-2221169324f0
 title: Listing the Files in a Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

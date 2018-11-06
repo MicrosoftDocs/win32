@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnTouchPointerCursorMoved method
 description: Called when the touch pointer cursor has moved and the EventsEnabled property is set to true.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 55A6AC99-0723-4215-9428-D2DAAC77A74A
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

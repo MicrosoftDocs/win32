@@ -1,9 +1,6 @@
 ---
 title: Pek-Key-Change-Interval attribute
 description: Password encryption key change interval.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2031feda-3f5d-4c76-bb45-42157fd5cb84
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Pek-Key-Change-Interval
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

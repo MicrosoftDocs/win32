@@ -2,7 +2,6 @@
 title: Guidelines for Applications
 description: Applications running on Windows Vista and Windows Server 2008 should adhere to these guidelines to ensure that the Restart Manager can shut down and restart applications if necessary to install updates.
 ms.assetid: 97b1df63-65a9-47b4-891b-e4a754882b89
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -5,7 +5,6 @@ ms.assetid: 03b13b82-a31c-47e2-8b4d-17dcc4d19e56
 keywords:
 - WinSNMP Error Codes SNMP
 - Error Codes SNMP , WinSNMP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

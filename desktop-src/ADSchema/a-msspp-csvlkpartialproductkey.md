@@ -1,9 +1,6 @@
 ---
 title: ms-SPP-CSVLK-Partial-Product-Key attribute
 description: Last 5 characters of CSVLK product-key used to create the Activation Object
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6209326f-1b95-43c6-824a-43eb893ef1e1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-SPP-CSVLK-Partial-Product-Key
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

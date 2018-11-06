@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable3 WarnAboutSendingCredentials property
 description: Specifies or retrieves whether the security warning dialog box should include a warning about sending credentials to the remote server before starting a session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b97baef5-4a51-4e5c-bd53-10cff175533c
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

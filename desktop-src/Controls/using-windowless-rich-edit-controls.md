@@ -2,7 +2,6 @@
 title: Using Windowless Rich Edit Controls
 description: This section provides example code and information about how to enable window functionality in a windowless rich edit control.
 ms.assetid: BEC29152-05A0-498C-9B62-1D3868B62674
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

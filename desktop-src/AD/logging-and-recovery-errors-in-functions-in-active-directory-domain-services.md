@@ -1,14 +1,10 @@
 ---
 title: Logging and Recovery Errors in Functions in Active Directory Domain Services
 description: This topics lists logging and recovery error return values for functions in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b927073a-8bbc-45d4-b9d3-25f3aa6c6f53
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Logging and Recovery Errors AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

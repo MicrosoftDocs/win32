@@ -1,9 +1,6 @@
 ---
 title: ipHost class
 description: Represents an abstraction of a host or other IP device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cde06e6d-7ba3-4284-9768-6132bf4a5f0a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ipHost
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Enumerating Tasks Example
 description: To enumerate tasks, you must call ITaskScheduler Enum to create an enumeration object. Then, use the enumeration object's IEnumWorkItems interface to enumerate the tasks in the Scheduled Tasks folder.
 ms.assetid: 65a8a8af-f4d8-4948-8dd4-b592f1381bfe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

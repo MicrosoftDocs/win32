@@ -7,7 +7,6 @@ keywords:
 - Routing and Remote Access Service RRAS , RAS Administration, described
 - RAS Administration RRAS
 - RAS Administration RRAS , described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

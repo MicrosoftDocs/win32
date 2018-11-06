@@ -2,7 +2,6 @@
 title: VML VgTriState
 description: VML VgTriState
 ms.assetid: 7eae2b0e-ce0d-49a0-8f90-a3f1c4ee9e33
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

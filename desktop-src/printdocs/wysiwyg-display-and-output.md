@@ -2,7 +2,6 @@
 Description: Most applications attempt to support WYSIWYG (what you see is what you get) output.
 ms.assetid: 34a1f37c-0fbf-451b-bb55-80ad85bcd4de
 title: WYSIWYG Display and Output
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Returns the number of cursor objects associated with the tablet.
 ms.assetid: 7aa5802c-1255-41a4-b1fa-23e5f56c0b80
 title: ITablet::GetCursorCount method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Specifies the maximum length of time, in seconds, in which a client waits for a response from the authenticator.
 ms.assetid: 5cb2e164-913f-4c35-854f-aac8ed180c46
 title: authPeriod (OneX) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

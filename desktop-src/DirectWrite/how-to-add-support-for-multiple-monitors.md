@@ -2,7 +2,6 @@
 title: How to Add Support for Multiple Monitors
 description: DirectWrite includes support for systems with multiple monitors.
 ms.assetid: 62274126-49da-4166-8482-73aac2b29c26
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

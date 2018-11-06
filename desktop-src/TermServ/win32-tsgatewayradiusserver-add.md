@@ -1,9 +1,6 @@
 ---
 title: Add method of the Win32_TSGatewayRADIUSServer class
 description: Adds a new Remote Authentication Dial-In User Service (RADIUS) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 78f74bb6-8f70-4bc1-8e4d-1670a3ae3f31
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

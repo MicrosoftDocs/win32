@@ -2,7 +2,6 @@
 Description: This class is the event type class for driver complete routine events. The following syntax is simplified from MOF code.
 ms.assetid: deb4f0b2-d73f-4ccf-b39b-6e92b32489fb
 title: DriverCompletionRoutine class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

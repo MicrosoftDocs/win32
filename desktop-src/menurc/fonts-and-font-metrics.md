@@ -2,7 +2,6 @@
 title: Fonts and text metrics
 description: This topic discusses the outline fonts provided by Windows, font metric values that may change between versions of Windows, and guidance for how to use font metrics in your desktop apps.
 ms.assetid: B195154D-0168-4C5E-9CFB-AE7EF63D5F42
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -151,7 +150,7 @@ These fonts are used as defaults in Microsoft apps and are also affected by lock
 
 Other than the locked metrics listed above, font values are accurately reported. If a font is changed in a new version of Windows, dynamic font values will differ between the new and old. For example, when a glyph is added to a font, values in the font’s header may change. Clipping could result if these values (which include xMin, xMax, yMin, and yMax, and report the minimum and maximum bounding box for glyphs in the font) were locked and didn't report true values.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If you use dynamic font values in your app (like those in [**TEXTMETRIC**](https://msdn.microsoft.com/library/windows/desktop/dd145132)), these values will change if fonts are modified in future versions of Windows. Don't use these actual values in situations where text must stay static.
 
  

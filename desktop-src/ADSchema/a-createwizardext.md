@@ -1,9 +1,6 @@
 ---
 title: Create-Wizard-Ext attribute
 description: GUID of wizard extensions for creating associated object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a07bdd0b-7c6f-4177-9c95-e9aefa64f354
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Create-Wizard-Ext
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

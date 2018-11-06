@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-intValidValues attribute
 description: The valid values for a WMI 32-bit integer parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1371b8ee-5712-471b-a1c9-aafe44517dfb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-intValidValues
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

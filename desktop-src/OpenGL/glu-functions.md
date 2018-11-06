@@ -7,7 +7,6 @@ keywords:
 - OpenGL reference,GLU library functions
 - GLU library,functions
 - OpenGL Utility (GLU),functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

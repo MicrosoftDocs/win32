@@ -1,16 +1,12 @@
 ---
 title: Finding Objects by Class
 description: A typical search queries for a specific object class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1805f98a-7e6b-4b4a-b173-dfb5d17e539a
 ms.tgt_platform: multiple
 keywords:
 - Finding Objects by Class AD
 - Active Directory, using, searching, by class
 - object AD , searching by class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

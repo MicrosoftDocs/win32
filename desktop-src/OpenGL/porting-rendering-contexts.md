@@ -7,7 +7,6 @@ keywords:
 - OpenGL on Windows,rendering contexts
 - porting to OpenGL,rendering contexts
 - OpenGL porting,rendering contexts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

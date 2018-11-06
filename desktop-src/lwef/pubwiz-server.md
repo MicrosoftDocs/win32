@@ -8,7 +8,6 @@ keywords:
 - publishing wizards,window.external
 - publishing wizards,navigation script functions
 - scripts,publishing wizards
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

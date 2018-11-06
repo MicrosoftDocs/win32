@@ -2,7 +2,6 @@
 Description: Interface Class Guid.
 ms.assetid: 5c1c9861-da99-4435-9c61-ee3c4d2f35b1
 title: System.Devices.InterfaceClassGuid
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

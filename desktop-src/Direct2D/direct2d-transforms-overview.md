@@ -12,7 +12,6 @@ keywords:
 - transforms,render targets
 - transforms,objects
 - render targets,transforms
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

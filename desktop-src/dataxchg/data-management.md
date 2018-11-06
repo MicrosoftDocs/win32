@@ -15,7 +15,6 @@ keywords:
 - DDE (Dynamic Data Exchange),objects
 - Dynamic Data Exchange Management Library (DDEML),objects
 - DDEML (Dynamic Data Exchange Management Library),objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

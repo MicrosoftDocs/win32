@@ -5,7 +5,6 @@ ms.assetid: 2a5ebc95-3ee8-4145-b2c5-512d82e49c6d
 keywords:
 - Windows multimedia,video compression manager (VCM)
 - multimedia,video compression manager (VCM)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

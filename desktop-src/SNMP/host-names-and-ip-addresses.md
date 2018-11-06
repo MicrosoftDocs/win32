@@ -5,7 +5,6 @@ ms.assetid: f077e7d0-2e2c-4a2b-b5cd-1c7f43f7743b
 keywords:
 - Host Names and IP Addresses SNMP
 - Host Names, resolving SNMP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

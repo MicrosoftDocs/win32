@@ -2,7 +2,6 @@
 Description: The numerator of PKEY\_GPS\_DestDistance.
 ms.assetid: 50c646ac-f31e-499f-b64d-69e0a6f148e4
 title: System.GPS.DestDistanceNumerator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

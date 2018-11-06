@@ -2,7 +2,6 @@
 Description: A video capture device might support a range of frame rates.
 ms.assetid: 9578e60d-0339-4382-b798-2d31d2ddbe76
 title: How to Set the Video Capture Frame Rate
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

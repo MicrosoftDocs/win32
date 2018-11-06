@@ -2,7 +2,6 @@
 Description: Deletes a VHD Snapshot entry within a VHD Set file.
 ms.assetid: 37d55a5f-209d-42ce-8f69-8b494055e263
 title: DeleteVHDSnapshot method of the Msvm_ImageManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

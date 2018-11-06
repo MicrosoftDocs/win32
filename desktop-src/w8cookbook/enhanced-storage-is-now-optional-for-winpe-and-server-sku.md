@@ -2,7 +2,6 @@
 title: Enhanced storage is now optional for WINPE and server SKU
 description: Enhanced storage is now optional for WINPE and server SKU
 ms.assetid: 8A6B6194-5867-4B76-BD7B-152FD8A7DD77
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

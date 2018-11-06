@@ -2,7 +2,6 @@
 Description: Enables you to set animation options.
 ms.assetid: 727b4d87-4164-4915-b158-d21fe7d1b729
 title: AnimationOptions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

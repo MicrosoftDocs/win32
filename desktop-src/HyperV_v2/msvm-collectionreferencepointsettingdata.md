@@ -2,7 +2,6 @@
 Description: Provides additional information to be used with the CreateReferencePoint method of the Msvm\_CollectionReferencePointService class.
 ms.assetid: abf7953a-e10e-4dab-962f-a7dde5126fbe
 title: Msvm_CollectionReferencePointSettingData class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

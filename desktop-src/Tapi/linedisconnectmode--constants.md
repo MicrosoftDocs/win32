@@ -2,7 +2,6 @@
 Description: The LINEDISCONNECTMODE\_ bit-flag constants describe different reasons for a remote disconnect request. A disconnect mode is available as call status to the application after the call state transitions to disconnected.
 ms.assetid: 1b26f13c-b0bf-4d2c-8514-f0c376e36bcd
 title: LINEDISCONNECTMODE_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

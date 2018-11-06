@@ -11,7 +11,6 @@ keywords:
 - looping waveform-audio playback
 - waveOutWrite function
 - waveOutBreakLoop function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The SplitAt2 method splits the object at the specified time. This method is equivalent to IAMTimelineSplittable::SplitAt, but takes a REFTIME value.
 ms.assetid: 33d240db-4ef8-455a-81a6-633ee12837c2
 title: IAMTimelineSplittable::SplitAt2 method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

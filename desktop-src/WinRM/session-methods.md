@@ -1,12 +1,8 @@
 ---
 title: Session Methods
 description: The Session object exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B904E30D-5066-4C8C-BEE1-49FB9EC44AAF
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

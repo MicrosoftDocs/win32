@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 05d63224-7974-4c8a-b966-41d3be646854
 title: Windows 7 Client Software Logo Program
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

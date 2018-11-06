@@ -1,9 +1,6 @@
 ---
 title: EnumAuthenticationPlugins method of the Win32_TSGatewayServerSettings class
 description: Enumerates all registered authentication plug-ins.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a5c1859d-e20c-4c72-aef5-ef9941edf73e
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

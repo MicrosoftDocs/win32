@@ -2,7 +2,6 @@
 Description: The Certificates object exposes the following methods.
 ms.assetid: 45B5E21D-07EF-4998-B1A9-939DA86B6685
 title: Certificates Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

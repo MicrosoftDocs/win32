@@ -2,7 +2,6 @@
 title: Resource File Formats
 description: This section describes the format of the binary resource file that the resource compiler creates based on the contents of the resource-definition file.
 ms.assetid: a0b17555-f50a-4d58-b2bc-760843dd67eb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

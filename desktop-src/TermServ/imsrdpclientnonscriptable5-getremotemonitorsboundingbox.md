@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 GetRemoteMonitorsBoundingBox property
 description: Specifies the bounding rectangle of the remote monitor.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4A8794F7-1DB4-4415-8538-6B2A365B22D3
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

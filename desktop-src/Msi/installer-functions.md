@@ -2,7 +2,6 @@
 Description: The following sections describe function calls to Windows Installer API.
 ms.assetid: '0a63b8bd-fa79-495e-9db8-e4cd450ea4d8'
 title: Installer Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

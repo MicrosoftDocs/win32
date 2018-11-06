@@ -2,7 +2,6 @@
 Description: This class is the event type class for process events. The following syntax is simplified from MOF code.
 ms.assetid: fcf2897d-32b4-42b9-892c-f0106687d3c2
 title: Process_V0_TypeGroup1 class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

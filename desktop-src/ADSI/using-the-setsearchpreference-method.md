@@ -1,16 +1,12 @@
 ---
 title: Using the SetSearchPreference Method
 description: Calling the IDirectorySearch SetSearchPreference method changes the way in which the search results are obtained and presented through the IDirectorySearch interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 37583276-8372-4478-82aa-3e456cc0f8f1
 ms.tgt_platform: multiple
 keywords:
 - SetSearchPreference ADSI ,using the SetSearchPreference method
 - ADSI ADSI ,example code C/C++ ,using the SetSearchPreference method
 - queries ADSI ,using SetSearchPreference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

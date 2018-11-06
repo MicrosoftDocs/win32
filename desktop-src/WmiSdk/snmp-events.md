@@ -1,12 +1,8 @@
 ---
 Description: The SNMP provider supports writing to log files and to the debugger.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 66627927-2eee-4d56-a74b-f86147ad7711
 ms.tgt_platform: multiple
 title: SNMP Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

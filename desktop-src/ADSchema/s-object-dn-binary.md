@@ -1,9 +1,6 @@
 ---
 title: Object(DN-Binary) syntax
 description: An octet string that contains a binary value and a distinguished name (DN).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1d7efc17-a99a-41bf-9812-9e8a2b2b6644
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Object(DN-Binary)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

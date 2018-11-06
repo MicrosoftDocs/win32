@@ -2,7 +2,6 @@
 title: VisibilityCause Property
 description: VisibilityCause Property
 ms.assetid: 106574ef-af5f-44cf-9efb-9e6da19ebc1f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

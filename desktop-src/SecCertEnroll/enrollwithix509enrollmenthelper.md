@@ -2,7 +2,6 @@
 Description: Demonstrates how to use the Windows 7 HTTP protocol and C# to enroll a certificate in an enterprise certification authority (CA).
 ms.assetid: C5A6BED3-D85D-4196-9C5D-5E4BBF9CA6C3
 title: enrollWithIX509EnrollmentHelper
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

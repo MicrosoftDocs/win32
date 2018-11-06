@@ -1,12 +1,8 @@
 ---
 title: IRemoteDesktopClient properties
 description: The IRemoteDesktopClient interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: FA4024CC-C860-47D5-B272-17E5689C2DA2
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The CBaseControlVideo class implements the IBasicVideo interface and controls the video properties of a generic video window. Generally, a CBaseControlVideo object is a video renderer that draws video into a window on the display.
 ms.assetid: 16fc1b0a-e5b5-4f33-ac2b-5acff61bab81
 title: CBaseControlVideo class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

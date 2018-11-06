@@ -1,12 +1,8 @@
 ---
 Description: If you attempt to remove more than one item in a collection, you may find that some items are not removed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7c82321e-059f-497c-8561-33c3e9306d41
 ms.tgt_platform: multiple
 title: Removing Multiple Items from a WMI Collection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

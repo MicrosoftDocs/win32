@@ -2,7 +2,6 @@
 Description: Clipping involves restricting drawing to a certain region. The following illustration shows the string &\#0034;Hello&\#0034; clipped to a heart-shaped region.
 ms.assetid: 58cc052d-31af-4410-81b9-defbad08a1dc
 title: Clipping
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

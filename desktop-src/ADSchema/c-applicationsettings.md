@@ -1,9 +1,6 @@
 ---
 title: Application-Settings class
 description: Base class for server-specific application settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ad313d5b-1ed2-4e24-89fb-db212dc67c6c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Application-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

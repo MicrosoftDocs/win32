@@ -1,14 +1,8 @@
 ---
 Description: Writes an updated version of the security descriptor that controls access to the service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c1745b69-f355-4b4c-9e58-6a76c230f498
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetSecurityDescriptor method of the Win32_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

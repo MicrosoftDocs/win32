@@ -1,14 +1,10 @@
 ---
 title: Connecting to Active Directory
 description: There are several methods used to access Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef5720ff-6c66-466c-967e-f9c72a7bc0fa
 ms.tgt_platform: multiple
 keywords:
 - Connecting to Active Directory ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

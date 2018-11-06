@@ -4,7 +4,6 @@ description: The primary reason software installation and updates require a syst
 ms.assetid: 9a1166d7-a0e1-4948-9077-278c84afccac
 keywords:
 - Restart Manager Restart Mgr , about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

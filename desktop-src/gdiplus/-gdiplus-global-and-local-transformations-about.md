@@ -2,7 +2,6 @@
 Description: '1000: A global transformation is a transformation that applies to every item drawn by a given Graphics object.'
 ms.assetid: 9f744c2a-f1f3-4a7e-ab0c-37aa1df01623
 title: Global and Local Transformations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Read-Only DCs and the Active Directory Schema
 description: Windows Server 2008 introduces a new type of domain controller, the Read-only Domain Controller (RODC).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d9082d2-6f7f-4ffa-b8c7-6414be764d0c
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

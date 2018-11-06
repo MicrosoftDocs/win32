@@ -2,7 +2,6 @@
 Description: COM+ Shared Property Manager
 ms.assetid: fa726cc0-453c-489b-be12-86335909a428
 title: COM+ Shared Property Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

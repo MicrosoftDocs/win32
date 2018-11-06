@@ -1,12 +1,8 @@
 ---
 Description: Used to register event providers with Windows Management Instrumentation (WMI).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d87f61a8-5549-4f33-ba67-31b5d72b5282
 ms.tgt_platform: multiple
 title: '__EventProviderRegistration class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

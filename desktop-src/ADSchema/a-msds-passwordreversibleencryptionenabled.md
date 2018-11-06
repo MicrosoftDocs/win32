@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Password-Reversible-Encryption-Enabled attribute
 description: Password-reversible encryption status for user accounts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fcde0b75-ad26-4c3c-a1e7-0bb854c79d05
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Password-Reversible-Encryption-Enabled
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

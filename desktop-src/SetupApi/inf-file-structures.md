@@ -2,7 +2,6 @@
 Description: The following structures are used with INF files.
 ms.assetid: d26f619f-b68b-4d7c-9b94-104c2c15fdb4
 title: INF File Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

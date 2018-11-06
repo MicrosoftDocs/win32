@@ -1,9 +1,6 @@
 ---
 title: Win32_SessionBrokerTarget class
 description: Defines the query for a session broker target.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 35de25da-cb89-4836-be14-9544b1264248
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

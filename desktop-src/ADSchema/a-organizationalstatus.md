@@ -1,9 +1,6 @@
 ---
 title: organizationalStatus attribute
 description: The organizationalStatus attribute type specifies a category by which a person is often referred to in an organization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1fed7a48-26dc-4d5c-9373-7872e76fc7a7
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - organizationalStatus
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

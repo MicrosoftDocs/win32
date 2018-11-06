@@ -1,9 +1,6 @@
 ---
 title: Win32_RDAllowListFileAssociation class
 description: Describes a published file type association with a RemoteApp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 80cc8f5e-a7f0-458c-b05b-7822306f839a
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

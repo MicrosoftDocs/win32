@@ -1,9 +1,6 @@
 ---
 title: ITsSbClientConnection Environment property
 description: Retrieves an object that contains information about the environment that hosts the target computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 97fe4851-96a9-4b23-8ad7-f42b87c655d0
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

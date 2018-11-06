@@ -2,7 +2,6 @@
 Description: Deletes the specified reference point.
 ms.assetid: cb5245b6-5984-40ec-a37e-e4a0a62e318a
 title: DestroyReferencePoint method of the Msvm_VirtualSystemReferencePointService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: Windows Event Log Structures
 description: Windows Event Log defines the following structures.
 ms.assetid: b617d89a-8967-4a66-a441-a06e6bbf6d9a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

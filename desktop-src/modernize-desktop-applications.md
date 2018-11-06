@@ -1,7 +1,6 @@
 ---
 Description: Add modern XAML user interfaces, create MSIX packages, and incorporate other modern components into your desktop application in an "alacart" fashion.
 title: Desktop guide to the modern platform
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 09/11/2018
 ---
@@ -11,6 +10,9 @@ ms.date: 09/11/2018
 Windows 10 and the Universal Windows Platform (UWP) offer many features you can use to deliver a modern experience in your desktop applications. Most of these features are available as modular components that you can adopt in your desktop applications at your own pace without having to rewrite your application for a different platform. You can enhance your existing desktop applications by choosing which parts of Windows 10 and UWP to adopt.
 
 This article describes the Windows 10 and UWP features that you can use in your desktop applications today.
+
+> [!NOTE]
+> Do you need assistance migrating desktop applications to Windows 10? The [Desktop App Assure](https://docs.microsoft.com/FastTrack/win-10-desktop-app-assure) service provides direct, no-cost support to application developers who are porting their applications to Windows 10. This program is available to all ISVs and eligible enterprises. For more details on eligibility and about the program itself, visit [http://aka.ms/DesktopAppAssure](http://aka.ms/DesktopAppAssure). To get started now, [submit your request](http://aka.ms/DesktopAppAssureRequest).
 
 ## MSIX packages
 

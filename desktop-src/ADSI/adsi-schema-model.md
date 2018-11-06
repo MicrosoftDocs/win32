@@ -1,15 +1,11 @@
 ---
 title: ADSI Schema Model
 description: A schema is similar to a dictionary in that it holds the definition of every type of object known to a directory service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 70561a11-1560-4b1c-a999-e2a7b2002ab0
 ms.tgt_platform: multiple
 keywords:
 - ADSI Schema Model ADSI
 - ADSI ADSI , about, schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

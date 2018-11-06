@@ -2,7 +2,6 @@
 Description: Setting Video Compression Properties
 ms.assetid: 2be03a2c-39a5-46da-9bbc-af42c08150ab
 title: Setting Video Compression Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

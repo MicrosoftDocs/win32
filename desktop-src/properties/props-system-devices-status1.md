@@ -2,7 +2,6 @@
 Description: First line of the device status.
 ms.assetid: 53002298-5ef3-4c5d-bd9d-70f8c82789e9
 title: System.Devices.Status1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

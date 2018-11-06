@@ -1,12 +1,8 @@
 ---
 Description: WMI tasks for operating systems obtain information about the operating system, such as version, whether it is activated, or which hotfixes are installed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a216ad56-2650-4d93-86e1-449b56019361
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Operating Systems'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

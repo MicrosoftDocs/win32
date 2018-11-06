@@ -2,7 +2,6 @@
 Description: The following subtypes define uncompressed RGB formats with no alpha channel.
 ms.assetid: 49c91c8c-6889-48c6-8fa5-84929c03d951
 title: Uncompressed RGB Video Subtypes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

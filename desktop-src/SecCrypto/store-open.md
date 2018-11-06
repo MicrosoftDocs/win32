@@ -2,7 +2,6 @@
 Description: Opens a specified certificate store.
 ms.assetid: d6f398b4-dba6-4d84-b5eb-3c7737d17a6e
 title: Store.Open method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -124,7 +123,7 @@ This method does not return a value.
 
 If this method is called on a SmartCard store, additional SmartCard user interfaces may be invoked.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > When this method is called from a web script, the script needs to access digital certificates on the local computer. If you allow the script to access your digital certificates, the website from which the script is run will also gain access to any personal information stored in the certificates. The first time this method is called from a particular domain, a dialog box is generated in which the user must indicate whether access to the certificates should be allowed. Stores opened from a web script automatically force the CAPICOM\_STORE\_OPEN\_EXISTING\_ONLY flag.
 
  

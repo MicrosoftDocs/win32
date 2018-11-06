@@ -1,15 +1,11 @@
 ---
 title: Search Filter Syntax
 description: Search filters enable you to define search criteria and provide more efficient and effective searches.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3ce4709c-5ef7-4713-8fb7-b46ab284339f
 ms.tgt_platform: multiple
 keywords:
 - Search Filter Syntax ADSI
 - queries, search filter syntax
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

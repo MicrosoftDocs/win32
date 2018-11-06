@@ -1,9 +1,6 @@
 ---
 title: Win32_TSRemoteControlSetting class
 description: Defines the remote control configuration settings for the Win32\_Terminal class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2e23915e-ee1c-4e53-8d0d-4d3fc2fefce6
 ms.tgt_platform: multiple
 keywords:
@@ -26,7 +23,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: To prevent name collisions among properties created by different objects, the shared property manager (SPM) uses shared property groups.
 ms.assetid: f73d631e-2552-4358-903a-739e2df3657d
 title: Shared Property Groups
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player Mobile,CD ripping
 - CD ripping,selecting items
 - ripping CDs,selecting items
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

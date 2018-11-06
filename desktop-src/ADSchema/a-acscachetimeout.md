@@ -1,9 +1,6 @@
 ---
 title: ACS-Cache-Timeout attribute
 description: The amount of time before the expiration of ACS objects that are cached by the ACS service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8927ca01-d550-42df-8a14-96ddbea3fdb8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Cache-Timeout
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

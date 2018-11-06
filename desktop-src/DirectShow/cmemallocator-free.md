@@ -2,7 +2,6 @@
 Description: The Free method is called during a decommit operation.
 ms.assetid: 71a84730-ca71-4418-bf76-52fd42fc7a5a
 title: CMemAllocator.Free method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

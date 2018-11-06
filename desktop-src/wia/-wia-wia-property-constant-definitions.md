@@ -2,7 +2,6 @@
 Description: The following is a list of Windows Image Acquisition (WIA) property friendly names and numerical IDs. They are presented as Microsoft Visual Basic constant definitions, for convenient inclusion in applications or scripts.
 ms.assetid: 6cacb7ce-1f41-4d24-adcb-c7aa9049f846
 title: WIA Property Constant Definitions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

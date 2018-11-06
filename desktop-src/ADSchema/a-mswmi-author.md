@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-Author attribute
 description: The author of an instance of a class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 30f3763b-dc7d-4e01-a3a9-9246dd06299b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-Author
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

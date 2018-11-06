@@ -1,9 +1,6 @@
 ---
 title: dhcp-Mask attribute
 description: The dhcp-Mask attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 68c8ac57-6ba0-4048-8cf7-788d57cff117
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Mask
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

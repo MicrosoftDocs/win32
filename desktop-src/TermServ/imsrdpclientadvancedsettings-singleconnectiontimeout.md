@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings singleConnectionTimeout property
 description: Specifies the maximum length of time, in seconds, that the client control waits for a connection to an IP address.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 57fb2397-8229-4446-88fd-e75cb96c7ac5
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

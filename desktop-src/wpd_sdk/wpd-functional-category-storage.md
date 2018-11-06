@@ -2,7 +2,6 @@
 Description: WPD\_FUNCTIONAL\_CATEGORY\_STORAGE
 ms.assetid: 92a10de6-3e50-4042-a9b7-3c1d5944791f
 title: WPD_FUNCTIONAL_CATEGORY_STORAGE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

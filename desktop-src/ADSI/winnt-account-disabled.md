@@ -1,16 +1,12 @@
 ---
 title: Account Disabled (WinNT Provider)
 description: When using the WinNT provider, an account can be enabled or disabled using the IADsUser.AccountDisabled property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3d855cc-5e3d-49c2-b61e-3b35064002ea
 ms.tgt_platform: multiple
 keywords:
 - Account Disabled (WinNT Provider)
 - Account Disabled ADSI , WinNT provider
 - WinNT provider ADSI , user management examples, Account Disabled
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

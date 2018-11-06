@@ -2,7 +2,6 @@
 Description: Indicates the boundary between phrases in a sequence of alternative phrases that a word breaker generates during index time.
 ms.assetid: 3F3B6761-887B-426E-A44F-E636397180C7
 title: IWordSink::StartAltPhrase method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

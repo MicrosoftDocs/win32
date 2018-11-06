@@ -9,7 +9,6 @@ keywords:
 - service providers,authentication
 - creating service providers,authentication
 - authentication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

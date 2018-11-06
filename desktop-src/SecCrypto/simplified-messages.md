@@ -2,7 +2,6 @@
 Description: A group of high-level functions has been provided to simplify and shorten the amount of code necessary to accomplish the usual message manipulation tasks.
 ms.assetid: 7c1a4d6e-9b9d-43c8-b094-3c98b9a68490
 title: Simplified Messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

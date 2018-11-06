@@ -1,12 +1,8 @@
 ---
 Description: You can require that client scripts and applications establish an encrypted connection for authentication by adding the RequiresEncryption qualifier to the Managed Object Format (MOF) .mof file that creates the namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 07b225a2-3834-4879-beae-f5b9180d112f
 ms.tgt_platform: multiple
 title: Requiring an Encrypted Connection to a Namespace
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

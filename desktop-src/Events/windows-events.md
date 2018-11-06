@@ -2,7 +2,6 @@
 title: Windows Events
 description: Events are typically used for troubleshooting application and driver software.Prior to Windows Vista, you would use either Event Tracing for Windows (ETW) or Event Logging to log events.Windows Vista introduced a new event model that unified both the Event Tracing for Windows (ETW) and Windows Event Log API.Windows 10 introduces TraceLogging which builds on ETW and provides a simplified way to instrument code for native, .NET and WinRT developers.
 ms.assetid: c10baa8d-50b9-4fda-89d0-d00b1d9f5404
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

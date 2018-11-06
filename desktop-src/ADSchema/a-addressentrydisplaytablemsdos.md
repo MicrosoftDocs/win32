@@ -1,9 +1,6 @@
 ---
 title: Address-Entry-Display-Table-MSDOS attribute
 description: The MAPI display table for an address entry for MSDOS client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 61377f8c-728d-43ee-8e84-c6b5638d5e1e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Address-Entry-Display-Table-MSDOS
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

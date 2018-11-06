@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Extension attribute
 description: Contains the Distributed File System (DFS) Replication extension attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 24c2c0d4-2e9f-4b22-ad9c-87fc90ac98eb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Extension
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

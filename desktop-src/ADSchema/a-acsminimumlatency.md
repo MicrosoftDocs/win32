@@ -1,9 +1,6 @@
 ---
 title: ACS-Minimum-Latency attribute
 description: The ACS-Minimum-Latency attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ec2cca55-9e31-49da-98aa-aa2f6664ea90
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Minimum-Latency
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

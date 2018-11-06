@@ -2,7 +2,6 @@
 Description: Windows loads and executes the standard Microsoft GINA DLL (MSGina.dll). To load a different GINA, you must alter a registry key value.
 ms.assetid: 408511af-4430-4dd7-a2a1-c32b375821c4
 title: Loading and Running a GINA DLL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

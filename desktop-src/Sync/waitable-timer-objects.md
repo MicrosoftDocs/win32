@@ -2,7 +2,6 @@
 Description: A waitable timer object is a synchronization object whose state is set to signaled when the specified due time arrives.
 ms.assetid: '5d39ada0-ea31-40d7-b075-aeb657ee508c'
 title: Waitable Timer Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

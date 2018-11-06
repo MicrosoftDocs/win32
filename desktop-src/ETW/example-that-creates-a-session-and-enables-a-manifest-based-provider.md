@@ -2,7 +2,6 @@
 Description: The following example shows how to start a trace session, enables a manifest-based or classic provider, disables the provider and then stops the session.
 ms.assetid: 13c83b62-9235-4101-82a9-a118e6ece3d5
 title: Example that Creates a Session and Enables a Manifest-based or Classic Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

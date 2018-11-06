@@ -2,7 +2,6 @@
 Description: Create a thread pump.
 ms.assetid: a7a016e2-784d-4d7a-8058-88895bf3c4e2
 title: D3DX10CreateThreadPump function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Parent-CA attribute
 description: The distinguished name of a certification authority (CA) object for a parent CA.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ccb5b338-e67d-4f1b-b13c-257746ab39d1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Parent-CA
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

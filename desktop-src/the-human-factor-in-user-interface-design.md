@@ -2,7 +2,6 @@
 Description: The Human Factor in User Interface Design
 ms.assetid: 98E6C929-8455-47EE-ACBE-C3C8B1A15710
 title: The Human Factor in User Interface Design
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

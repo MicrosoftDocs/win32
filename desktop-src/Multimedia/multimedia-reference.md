@@ -7,7 +7,6 @@ keywords:
 - multimedia,reference
 - multimedia reference,about
 - reference for multimedia,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

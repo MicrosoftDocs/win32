@@ -2,7 +2,6 @@
 Description: Windows Portable Devices methods can return a variety of HRESULT error codes.
 ms.assetid: 496aa709-53c8-4593-8cb8-28ace1e90759
 title: Error Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

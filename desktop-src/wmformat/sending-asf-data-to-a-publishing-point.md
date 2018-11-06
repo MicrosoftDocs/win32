@@ -10,7 +10,6 @@ keywords:
 - Advanced Systems Format (ASF),publishing points
 - ASF (Advanced Systems Format),publishing points
 - publishing points
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Creating a Query Filter
 description: A query filter instructs Active Directory Domain Services to find data in an LDAP query syntax. All the specified data access technologies listed in the Choosing the Search Technology topic support LDAP query syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0bd652f0-41a6-4a0d-8742-9d6a2a7f168a
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a query filter
 - query filters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

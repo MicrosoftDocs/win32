@@ -2,7 +2,6 @@
 Description: The H245\_CAPABILITY enum describes audio and video format support.
 ms.assetid: 76aeb3a1-3233-4425-b9db-efacbedc309e
 title: H245_CAPABILITY enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

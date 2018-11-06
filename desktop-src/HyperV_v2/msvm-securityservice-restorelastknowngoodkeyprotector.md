@@ -2,7 +2,6 @@
 Description: Restores back to the last known good key protector.
 ms.assetid: 0d1ea5d8-d25e-400c-be65-afe1bd65b1f0
 title: RestoreLastKnownGoodKeyProtector method of the Msvm_SecurityService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemBootConfiguration association WMI class relates a computer system and its boot configuration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1c6bce81-84d9-4949-92da-6111b4ecc939
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemBootConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

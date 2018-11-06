@@ -1,9 +1,6 @@
 ---
 title: App-Schema-Version attribute
 description: This attribute stores the schema version of the class store. It is used to provide correct behavior across schema changes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e8c2ab2b-1b7f-4d4f-b9ea-4116a8e30277
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - App-Schema-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

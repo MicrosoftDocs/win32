@@ -2,7 +2,6 @@
 title: Network Transport Errors
 description: The Microsoft WinSNMP implementation can detect a network transport error after it transmits an SNMP message.
 ms.assetid: 2ff535b1-76cb-42aa-baeb-14c1a1bc41ce
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

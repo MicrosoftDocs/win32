@@ -1,9 +1,6 @@
 ---
 title: ImportRetailPurchaseLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Imports, from another Remote Desktop license server, a Remote Desktop Services license key pack that was purchased through a retail channel.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B45C3263-216E-4284-89A1-BE2ADE3A8E84
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

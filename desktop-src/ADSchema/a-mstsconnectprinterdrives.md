@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Connect-Printer-Drives attribute
 description: Terminal Services session Connect Printer Drives specifies whether to reconnect to mapped client printers at logon.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 80bf0ace-5c63-49f8-b689-23a55bb09577
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Connect-Printer-Drives
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

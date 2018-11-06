@@ -2,7 +2,6 @@
 Description: COM+ Just-in-Time Activation Tasks
 ms.assetid: 8b211ad2-92b6-487c-b323-1fe19f774cc3
 title: COM+ Just-in-Time Activation Tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

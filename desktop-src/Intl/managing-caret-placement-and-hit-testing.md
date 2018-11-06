@@ -2,7 +2,6 @@
 Description: Complex script languages are broken into clusters by ScriptShape. Character reordering always occurs within cluster boundaries. The clusters themselves are guaranteed to advance in the direction of the reading order.
 ms.assetid: 50b4b643-af96-4a6f-80f9-27a71ce16b0e
 title: Managing Caret Placement and Hit Testing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

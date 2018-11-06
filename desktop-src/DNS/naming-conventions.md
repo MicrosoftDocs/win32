@@ -2,7 +2,6 @@
 title: Naming Conventions
 description: Naming conventions share a common goal to unambiguously resolve a name to a network address, generally an IP address. The difference between naming conventions lies in each convention's distinct approach to resolving names.
 ms.assetid: 1ec96d2d-bb5a-4938-88c2-4d2802a326cd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

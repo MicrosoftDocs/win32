@@ -1,9 +1,6 @@
 ---
 title: IConnectionBrokerRequest interface
 description: Provides the methods needed to obtain the results of the asynchronous IConnectionBrokerClient GetTargetInfo method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 20F42FDC-7026-468E-9B8D-25DFFBE229C1
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - Cbclient.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

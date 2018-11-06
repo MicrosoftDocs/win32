@@ -2,7 +2,6 @@
 Description: Wi-Fi Direct device's channel list.
 ms.assetid: 57875502-e6ac-4b2a-9c51-b467d5feab9d
 title: System.Devices.WiFiDirect.SupportedChannelList
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

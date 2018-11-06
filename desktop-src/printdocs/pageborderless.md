@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: c5e75f57-7426-41fa-88f4-789153fcd0c5
 title: PageBorderless
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

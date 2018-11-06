@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx Version property
 description: Specifies the version number of the current control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 91ddeb4c-9d61-41e7-af96-95b0c4884682
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

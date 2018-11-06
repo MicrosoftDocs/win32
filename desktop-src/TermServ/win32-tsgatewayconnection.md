@@ -1,9 +1,6 @@
 ---
 title: Win32_TSGatewayConnection class
 description: Represents a connection from a client computer to a Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6e76ae25-409d-436a-8eef-8f047194c29c
 ms.tgt_platform: multiple
 keywords:
@@ -32,7 +29,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

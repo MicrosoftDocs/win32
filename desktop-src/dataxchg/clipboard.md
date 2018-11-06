@@ -4,7 +4,6 @@ description: The clipboard is a set of functions and messages that enable applic
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\dataexchange\clipboard.htm'
 keywords:
 - clipboard,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

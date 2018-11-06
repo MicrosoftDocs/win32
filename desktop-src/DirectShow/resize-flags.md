@@ -2,7 +2,6 @@
 Description: These flags specify how a video source is rendered if its size does not match the output dimensions.
 ms.assetid: f740b732-ba05-4fda-aafb-ed04bc3efd33
 title: Resize Flags
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

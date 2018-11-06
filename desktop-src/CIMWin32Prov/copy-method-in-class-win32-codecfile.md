@@ -1,14 +1,8 @@
 ---
 Description: Copies the logical codec file or directory specified in the object path to the location specified by the input parameter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 77e67b01-561b-4233-899d-fa4bbf75ecf8
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Copy method of the Win32_CodecFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

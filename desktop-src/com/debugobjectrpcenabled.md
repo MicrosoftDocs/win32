@@ -2,7 +2,6 @@
 title: DebugObjectRPCEnabled
 description: The DebugObjectRPCEnabled enables remote COM debugging over RPC. If this key is not defined on the server, remote debugging is disabled.
 ms.assetid: 26c9ed13-f7cb-476f-b51e-510448334f92
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

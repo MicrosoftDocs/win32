@@ -2,7 +2,6 @@
 title: Appendix E Text Attributes for Active Accessibility Text Services Dictionary
 description: This appendix provides information about text attributes that are defined in IAccDictionary.
 ms.assetid: 9e405140-c151-4f00-91c5-777c84c41806
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

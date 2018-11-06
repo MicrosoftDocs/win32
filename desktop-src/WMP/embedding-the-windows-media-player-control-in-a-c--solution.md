@@ -19,7 +19,6 @@ keywords:
 - ActiveX control,C
 - embedding,C programs
 - C program embedding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

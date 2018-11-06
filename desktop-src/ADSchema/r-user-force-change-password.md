@@ -1,9 +1,6 @@
 ---
 title: User-Force-Change-Password extended right
 description: Permits resetting a password on a user account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7bf078f4-b123-45dc-9468-ffe35a46c32c
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - User-Force-Change-Password
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

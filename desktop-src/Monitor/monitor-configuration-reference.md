@@ -8,7 +8,6 @@ keywords:
 - reference for monitor
 - monitor configuration,programming reference
 - monitor configuration,reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: String(Numeric) syntax
 description: A string that contains digits.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cf440092-8777-460c-a3a2-6cc7bd3075b8
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(Numeric)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

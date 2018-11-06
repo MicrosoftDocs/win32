@@ -2,7 +2,6 @@
 Description: Use MakeCert commands to create test certificates using options available with Internet Explorer version 4.0 or later.
 ms.assetid: 5dbcc8d0-ffd1-4418-adf6-a9805280ee6d
 title: Using MakeCert
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

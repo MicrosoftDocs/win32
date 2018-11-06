@@ -2,7 +2,6 @@
 Description: Each service has a control handler, the Handler function, that is invoked by the control dispatcher when the service process receives a control request from a service control program.
 ms.assetid: 437334ed-05fa-4ab6-aab3-dc2739113e19
 title: Service Control Handler Function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -31,7 +30,7 @@ If the service requires more time to cleanup, it sends **STOP\_PENDING** status 
 
 **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control**
 
-> \[!Important\]  
+> [!IMPORTANT]
 > A service should not attempt to increase the time limit by modifying this value.
 
  

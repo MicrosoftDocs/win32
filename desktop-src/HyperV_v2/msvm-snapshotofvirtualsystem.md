@@ -2,7 +2,6 @@
 Description: Associates a virtual system with a snapshot that was captured from the virtual system.
 ms.assetid: CF1C1C04-02BC-4AC3-8327-FEE54ECE8541
 title: Msvm_SnapshotOfVirtualSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

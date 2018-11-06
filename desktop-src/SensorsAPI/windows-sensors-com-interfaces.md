@@ -2,7 +2,6 @@
 Description: The Sensor API exposes the following COM interfaces.
 ms.assetid: 872de1e9-20f9-409b-9917-24b13a8cc08a
 title: COM Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

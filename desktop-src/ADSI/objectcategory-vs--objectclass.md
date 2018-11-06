@@ -1,15 +1,11 @@
 ---
 title: objectCategory vs. objectClass
 description: Both the objectCategory and objectClass attributes can refer to a given schema class of a directory object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 66dadedb-61e4-4184-9b87-0fff036a94d9
 ms.tgt_platform: multiple
 keywords:
 - objectCategory vs. objectClass ADSI
 - attributes ASI , searching on objectCategory and objectClass attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The FileSFPCatalog table associates specified files with the catalog files used by system file protection.
 ms.assetid: 70c8b64a-cf15-411c-8388-4a7e3051f45c
 title: FileSFPCatalog Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

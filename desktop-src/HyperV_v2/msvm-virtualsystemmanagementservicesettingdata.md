@@ -2,7 +2,6 @@
 Description: Represents the settings for the virtualization service present on a single host system.
 ms.assetid: E3265AFE-0117-4F59-9A6B-34CEA7A61EDD
 title: Msvm_VirtualSystemManagementServiceSettingData class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

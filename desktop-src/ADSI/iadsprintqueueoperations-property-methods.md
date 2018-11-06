@@ -1,9 +1,6 @@
 ---
 title: IADsPrintQueueOperations Property Methods
 description: The property methods of the IADsPrintQueueOperations interface read and write the properties listed in the following list. For more information about property methods, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a4e6bac5-5d52-4492-b48e-f051fec6158c
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

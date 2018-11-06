@@ -2,7 +2,6 @@
 Description: The InstallProduct method of the Installer object opens an installer package and initializes an install session.
 ms.assetid: 6828ca34-3cf1-4738-882d-9ff1450f1014
 title: Installer.InstallProduct method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Other address postal code of the contact.
 ms.assetid: 04dcee21-1f3b-4dee-95bf-d0df3a614094
 title: System.Contact.OtherAddressPostalCode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

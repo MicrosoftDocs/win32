@@ -2,7 +2,6 @@
 title: Tab Control Macros
 description: .
 ms.assetid: 23c5bea5-c43e-45df-9761-911ed21f6a41
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

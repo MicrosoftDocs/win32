@@ -2,7 +2,6 @@
 title: Interacting with IMAPI
 description: The following steps describe a typical interaction between an application and IMAPI.
 ms.assetid: e57a86c4-7e27-40cf-a9c1-081b3f20d9d9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Supplemental-Credentials attribute
 description: Stored credentials for use in authenticating. The encrypted version of the user's password. This attribute is neither readable nor writable.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 642aa699-094e-40ed-a2f8-ec7219c85de2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Supplemental-Credentials
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

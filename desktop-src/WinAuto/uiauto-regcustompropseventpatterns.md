@@ -22,7 +22,6 @@ keywords:
 - client wrappers
 - pattern handlers
 - implementing pattern handlers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -106,7 +105,7 @@ The property and event identifiers retrieved by the [**IUIAutomationRegistrar::R
 
 There is no method that unregisters a custom property or event. Instead, they are implicitly unregistered when the last UI Automation object is released.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If your code is a Microsoft Active Accessibility (MSAA) client, you must call the [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) function when you change the value of a custom property.
 
  

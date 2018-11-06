@@ -2,7 +2,6 @@
 Description: With a few minor adjustments to your code, you can send Windows GDI+ output to a printer rather than to a screen.
 ms.assetid: be6286e9-d125-40ad-b33e-b4e734ac2709
 title: Printing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

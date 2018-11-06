@@ -2,7 +2,6 @@
 Description: 'The services of Windows GDI+ fall into the following three broad categories:'
 ms.assetid: d5bef8e4-7a4c-4ac4-938a-7034ad3d743f
 title: The Three Parts of GDI+
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

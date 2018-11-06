@@ -1,12 +1,8 @@
 ---
 Description: Keeps track of child requests that are generated from a parent request.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e1d98eae-6fc1-489b-aa8b-2e86bac5c65a
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

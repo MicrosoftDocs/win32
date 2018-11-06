@@ -4,7 +4,6 @@ description: Wrapper functions that allow you to call a public function on any a
 ms.assetid: a87536bf-3a10-4062-a509-db7f03172307
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , plug-in wrapper functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -15,7 +15,6 @@ keywords:
 - OpenGL porting from IRIS GL,v functions
 - drawing functions,v functions
 - v functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

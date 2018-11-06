@@ -2,7 +2,6 @@
 Description: Retrieves the name of the cryptographic service provider (CSP).
 ms.assetid: b06d2839-0eaa-4f3f-99f7-d77e001fe4ea
 title: PrivateKey.ProviderName property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

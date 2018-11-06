@@ -1,9 +1,6 @@
 ---
 title: Possible-Inferiors attribute
 description: The list of objects that this object can contain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f5588b24-7e50-4a65-bc70-a6b649b84fcb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Possible-Inferiors
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Provides access to memory shared between tablet threads.
 ms.assetid: 047ff598-7d20-49d7-bdd3-498fe5c778c6
 title: ITabletContextP::UseSharedMemoryCommunications method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

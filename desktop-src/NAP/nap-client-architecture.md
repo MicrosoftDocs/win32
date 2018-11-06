@@ -2,7 +2,6 @@
 title: NAP Client Architecture
 description: A NAP client is a computer running Windows XP with Service Pack 3 (SP3), Windows Vista, or Windows Server 2008 that includes the NAP platform.
 ms.assetid: 163c33c9-b18b-49f9-a2a1-fd90a1dc0826
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

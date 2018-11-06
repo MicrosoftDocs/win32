@@ -1,16 +1,12 @@
 ---
 title: Containers and Leaves
 description: Active Directory Domain Services contain a hierarchy of objects in which every object instance, except the root of the directory hierarchy, is contained by some other object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef17e84c-6c7f-4ebe-a904-fead6c27518d
 ms.tgt_platform: multiple
 keywords:
 - containers and leaves Active Directory
 - leaf Active Directory
 - container Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

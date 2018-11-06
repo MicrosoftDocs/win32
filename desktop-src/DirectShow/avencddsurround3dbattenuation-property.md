@@ -2,7 +2,6 @@
 Description: Specifies whether the Surround channels in a Dolby Digital audio stream are attenuated 3 decibels (dB) before encoding. This property applies to Dolby Digital audio encoders.
 ms.assetid: 3551af9d-ce5e-4b98-a3c2-b4c00d61b7e4
 title: AVEncDDSurround3dBAttenuation property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

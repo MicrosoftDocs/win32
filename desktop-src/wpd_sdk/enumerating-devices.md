@@ -2,7 +2,6 @@
 Description: Enumerating Devices
 ms.assetid: 28ded3cf-b0c8-4c90-ab39-efc879adb6e7
 title: Enumerating Devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

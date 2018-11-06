@@ -2,7 +2,6 @@
 Description: The SetTimeFormat method sets the time format. This method implements the IMediaSeeking::SetTimeFormat method.
 ms.assetid: dbc7c950-8cc2-4f8e-adfa-8f5cdc1b56c7
 title: CSourceSeeking.SetTimeFormat method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

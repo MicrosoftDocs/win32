@@ -7,7 +7,6 @@ keywords:
 - text-based controls
 - clients,text ranges
 - clients,TextRange control pattern
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

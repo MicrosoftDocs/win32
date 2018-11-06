@@ -2,7 +2,6 @@
 Description: Unicode has a few special characters and characters that have unusual meanings in text strings.
 ms.assetid: 0714abd0-b7dd-42c3-8ee8-295702087e3a
 title: Using Special Characters in Unicode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Send-As extended right
 description: Exchange right allows sending mail as the mailbox.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: df7b4991-8045-41c0-84b5-38ff0b532168
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Send-As
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

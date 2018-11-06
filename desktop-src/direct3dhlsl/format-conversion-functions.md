@@ -2,7 +2,6 @@
 title: Functions
 description: The section contains the format conversion functions used in Compute and Pixel Shaders.
 ms.assetid: 05575ee8-4428-437f-bfb6-e5c676405d65
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

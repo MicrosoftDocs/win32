@@ -2,7 +2,6 @@
 Description: Specifies a sort alias or list of sort aliases by specifying an element that contains a sort property or list of sort properties.
 ms.assetid: 4c514197-0df0-49c6-b39e-8a2a7cefa93d
 title: aliasInfo
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Certificate-Revocation-List attribute
 description: Represents a list of certificates that have been revoked.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb7b4888-15c0-475b-a87a-7cb0656963bb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Certificate-Revocation-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - video compression manager (VCM),macros
 - VCM (video compression manager),macros
 - VCM reference,macros
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

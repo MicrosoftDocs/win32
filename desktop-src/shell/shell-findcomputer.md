@@ -2,7 +2,6 @@
 Description: 'Displays the Search Results: Computers dialog box. The dialog box shows the result of the search for a specified computer.'
 ms.assetid: 0304b955-afde-4de4-824a-9ec9c9530360
 title: Shell.FindComputer method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

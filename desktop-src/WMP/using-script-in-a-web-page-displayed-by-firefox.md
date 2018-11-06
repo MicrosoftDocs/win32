@@ -28,7 +28,6 @@ keywords:
 - Firefox,scripting example
 - Web page embedding,Firefox
 - scripting example for webpage embedding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

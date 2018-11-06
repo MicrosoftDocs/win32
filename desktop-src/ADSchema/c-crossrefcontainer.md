@@ -1,9 +1,6 @@
 ---
 title: Cross-Ref-Container class
 description: Holds cross-refs objects for all Naming Contexts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d163dc5-f83c-4089-b261-346440ec1ced
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Cross-Ref-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

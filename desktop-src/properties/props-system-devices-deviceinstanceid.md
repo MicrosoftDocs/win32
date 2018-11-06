@@ -2,7 +2,6 @@
 Description: Device instance Id.
 ms.assetid: b7a670c8-977e-4577-af61-5a9639b2822a
 title: System.Devices.DeviceInstanceId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

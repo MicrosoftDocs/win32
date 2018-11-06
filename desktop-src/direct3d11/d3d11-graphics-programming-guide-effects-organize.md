@@ -2,7 +2,6 @@
 title: Organizing State in an Effect (Direct3D 11)
 description: With Direct3D 11, effect state for certain pipeline stages is organized by structures.
 ms.assetid: e5057f94-69dd-4219-a5f4-569e48502475
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

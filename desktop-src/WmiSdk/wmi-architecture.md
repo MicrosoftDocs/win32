@@ -1,12 +1,8 @@
 ---
 Description: WMI provides a uniform interface for any local or remote applications or scripts that obtain management data from a computer system, a network, or an enterprise.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 41ba2a64-3322-48b8-a6ea-e468bfac06e2
 ms.tgt_platform: multiple
 title: WMI Architecture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

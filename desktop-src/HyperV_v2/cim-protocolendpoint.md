@@ -2,7 +2,6 @@
 Description: A communication point used to send and receive data between systems, computer interfaces, and logical networks.
 ms.assetid: e23ef66b-0bcb-400e-91ff-d6d687d3f0d2
 title: CIM_ProtocolEndpoint class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

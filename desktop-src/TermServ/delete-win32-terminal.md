@@ -1,9 +1,6 @@
 ---
 title: Delete method of the Win32_Terminal class
 description: Deletes the specified terminal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 59d8cc73-aef1-49d2-a7a2-dd3cbe5a8c52
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

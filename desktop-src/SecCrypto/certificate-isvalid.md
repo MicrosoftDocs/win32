@@ -2,7 +2,6 @@
 Description: Builds a certificate verification chain for a certificate and returns a CertificateStatus object that contains the validity status of the certificate.
 ms.assetid: 4463e4ac-60a5-4845-93b3-35d2f83bd86e
 title: ICertificate2::IsValid method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

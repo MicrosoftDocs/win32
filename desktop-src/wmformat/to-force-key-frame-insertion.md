@@ -8,7 +8,6 @@ keywords:
 - Advanced Systems Format (ASF),key-frame insertions
 - ASF (Advanced Systems Format),key-frame insertions
 - key frames
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

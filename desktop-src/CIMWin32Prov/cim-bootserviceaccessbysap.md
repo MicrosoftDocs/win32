@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_BootServiceAccessBySAP class associates a boot service and its access points.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 993469dd-fb9c-4d21-99e0-03c4b19eb7fd
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_BootServiceAccessBySAP class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_BootServiceAccessBySAP** class associates a boot service and its access points.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

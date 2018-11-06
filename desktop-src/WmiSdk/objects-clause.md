@@ -1,12 +1,8 @@
 ---
 Description: The OBJECTS clause of the NOTIFICATION-TYPE macro enumerates the set of objects associated with the notification object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0cb4776f-aae2-452d-9472-caf6d28fb870
 ms.tgt_platform: multiple
 title: OBJECTS Clause
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

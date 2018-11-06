@@ -1,9 +1,6 @@
 ---
 title: MS-TS-ManagingLS4 attribute
 description: Issuer name of the fourth terminal server per user CAL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f97a4635-b12e-4358-bddc-40498db24080
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-ManagingLS4
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

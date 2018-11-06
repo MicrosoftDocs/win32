@@ -2,7 +2,6 @@
 title: About Scroll Bars
 description: A window can display a data object, such as a document or a bitmap, that is larger than the window's client area.
 ms.assetid: 9cb3afad-79ef-4817-950a-c8c1de39401b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

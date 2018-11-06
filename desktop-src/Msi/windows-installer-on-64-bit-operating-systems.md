@@ -2,7 +2,6 @@
 Description: On 64-bit operating systems, Windows Installer installs and manages applications consisting of 32-bit or 64-bit Windows Installer components. The following sections describe Windows Installer on 64-bit systems.
 ms.assetid: '435d5700-99db-464e-8bca-fc5a87e28c07'
 title: Windows Installer on 64-bit Operating Systems
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

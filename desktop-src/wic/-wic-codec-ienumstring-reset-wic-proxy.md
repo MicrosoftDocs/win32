@@ -2,7 +2,6 @@
 Description: Windows Imaging Component (WIC) proxy function for IEnumString::Reset.
 ms.assetid: 084a3de0-c6de-4ce2-ba78-5d1bacb56cb0
 title: IEnumString_Reset_WIC_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

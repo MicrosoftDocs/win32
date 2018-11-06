@@ -12,7 +12,6 @@ keywords:
 - ASF (Advanced Systems Format),streams
 - Advanced Systems Format (ASF),outputs
 - ASF (Advanced Systems Format),outputs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

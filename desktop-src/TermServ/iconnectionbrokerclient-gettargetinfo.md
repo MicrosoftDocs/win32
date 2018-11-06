@@ -1,9 +1,6 @@
 ---
 title: IConnectionBrokerClient GetTargetInfo method
 description: Requests information about the target computer where the connection should be redirected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 43970B06-8CBD-4204-94AE-090A63918A90
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Cbclient.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

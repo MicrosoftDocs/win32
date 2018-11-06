@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Protocol Provider Interfaces
 description: Interfaces that are supported by the Remote Desktop Protocol Provider API.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 180c29d4-a305-45ac-8989-6226dccb75d5
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

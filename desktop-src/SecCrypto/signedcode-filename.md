@@ -2,7 +2,6 @@
 Description: The FileName property sets or retrieves the path to the executable file. This is the default property.
 ms.assetid: 2d2ea87b-86db-40b4-b052-8503beafa08c
 title: SignedCode.FileName property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

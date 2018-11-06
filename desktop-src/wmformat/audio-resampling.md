@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),resampling audio
 - audio resampling
 - resampling audio,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

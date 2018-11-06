@@ -1,14 +1,10 @@
 ---
 title: Enabling Service Account to Access SCP Properties
 description: The following code example sets a pair of Access Control Entries (ACEs) on a service connection point (SCP) object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 663dcf55-5f0d-49af-8b51-4c1e35b79ef1
 ms.tgt_platform: multiple
 keywords:
 - Enabling Service Account to Access SCP Properties AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

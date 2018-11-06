@@ -2,7 +2,6 @@
 title: Setting Process-Wide Security with CoInitializeSecurity
 description: The CoInitializeSecurity function allows you to control complex security scenarios by setting security for an application programmatically.
 ms.assetid: 20b66868-fb9a-489f-97a2-59a8a825c8d9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

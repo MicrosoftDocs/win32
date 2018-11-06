@@ -2,7 +2,6 @@
 Description: Over time, different versions may exist for TAPI, applications, and service providers for a line or phone.
 ms.assetid: 36a17ae8-31db-4db9-a401-097d47aa26ad
 title: TAPI Version Negotiation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -48,7 +47,7 @@ Every function that takes a *dwAPIVersion* or similar parameter must set this pa
 
  
 
-> \[!Important\]  
+> [!IMPORTANT]
 > When negotiating an API version, always set the high and low version numbers to the range of versions that your application can support. For example, never use 0x00000000 for the low version or 0xFFFFFFFF for the high because these values require that your application support all versions of TAPI, both past and future.
 
  

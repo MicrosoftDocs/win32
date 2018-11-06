@@ -2,7 +2,6 @@
 title: IAgentPropertySheet SetPage
 description: IAgentPropertySheet SetPage
 ms.assetid: 52451a45-4f05-4209-ac3a-b4f2d90b3e74
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

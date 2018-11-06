@@ -2,7 +2,6 @@
 Description: COM+ Queued Components Tasks
 ms.assetid: 1f49ea1b-d65f-4166-a238-a9941b99735b
 title: COM+ Queued Components Tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

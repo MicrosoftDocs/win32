@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-Som class
 description: Refines a Group Policy Object's Scope of Management. Adds a list of rules, expressed as WQL queries that are executed on the target computer. All queries must return results for this SOM to be applicable to the target.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5ab6766d-f8ed-491c-acc8-f4924cfd1096
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-Som
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

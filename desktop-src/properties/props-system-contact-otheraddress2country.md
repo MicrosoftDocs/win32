@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 3318aed5-2607-4d5c-912e-40116aeb1450
 title: System.Contact.OtherAddress2Country
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

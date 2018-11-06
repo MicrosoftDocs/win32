@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: dafe0d5c-b4c8-4efb-8c47-a8c5db6e8aed
 title: CUnknown.CUnknown constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -4,7 +4,6 @@ description: The MicrosoftDNS\_StatisticCollection class represents a collection
 ms.assetid: 74e080e9-a676-4a82-ae8b-ee904622eb9a
 keywords:
 - MicrosoftDNS_StatisticCollection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

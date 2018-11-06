@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings3 GatewayAuthLoginPage property
 description: The address of the login webpage to use to authenticate a user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d7a5e0d8-353e-416d-a9e0-11ef5072f9ff
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

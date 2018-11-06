@@ -2,7 +2,6 @@
 title: Loading an Existing Sound File
 description: Loading an Existing Sound File
 ms.assetid: f779ebb9-f03d-4082-927d-29dbdf1e0963
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

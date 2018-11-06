@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings RedirectPrinters property
 description: Specifies if redirection of printers is allowed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7d4f28a7-a99d-4d0b-ab51-832a78881900
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Name Property
 description: Name Property
 ms.assetid: 'vs|msagent|~\pacontrol_2bxm.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

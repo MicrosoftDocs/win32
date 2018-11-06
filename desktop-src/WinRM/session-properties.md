@@ -1,12 +1,8 @@
 ---
 title: Session Properties
 description: The Session object exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3F490246-AF1F-40DC-A83C-C19BE73B3BB1
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

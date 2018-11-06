@@ -6,7 +6,6 @@ keywords:
 - MIDL compiler MIDL
 - MIDL compiler MIDL , MIDL and Windows Runtime winrt
 - Windows Runtime MIDL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

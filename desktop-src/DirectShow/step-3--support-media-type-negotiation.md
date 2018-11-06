@@ -2,7 +2,6 @@
 Description: Step 3.
 ms.assetid: b2b5dafc-d38d-4ec3-a390-55229495b4f9
 title: Step 3. Support Media Type Negotiation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

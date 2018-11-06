@@ -1,9 +1,6 @@
 ---
 title: NT-Group-Members attribute
 description: This attribute is not used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7f7cf82-eff9-429f-ab3d-a35b9385362a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NT-Group-Members
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

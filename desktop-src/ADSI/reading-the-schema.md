@@ -1,12 +1,8 @@
 ---
 title: Reading the Schema
 description: Most providers support the schema that is shipped with Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cc35789e-5cfe-49e9-9fb3-489b949768c5
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

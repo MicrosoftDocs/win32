@@ -1,9 +1,6 @@
 ---
 title: WTSLISTENERNAME
 description: Represents the name of a Remote Desktop Services listeners on a Remote Desktop Session Host (RD Session Host) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3C41F507-6A67-4244-860F-E89B0F9E33B0
 ms.tgt_platform: multiple
 keywords:
@@ -13,7 +10,6 @@ keywords:
 - PWTSLISTENERNAME
 - WTSLISTENERNAME
 - PWTSLISTENERNAME
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

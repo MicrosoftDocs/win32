@@ -2,7 +2,6 @@
 title: IME mode model changed from per-user to per-thread
 description: IME mode model changed from per-user to per-thread
 ms.assetid: C9717AF2-7055-47CA-8F8F-BC0F483B2259
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

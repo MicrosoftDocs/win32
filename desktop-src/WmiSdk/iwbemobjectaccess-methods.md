@@ -1,12 +1,8 @@
 ---
 Description: The IWbemObjectAccess interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F3DC2775-F704-41D8-93C5-11D80C4F31CA
 ms.tgt_platform: multiple
 title: IWbemObjectAccess Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

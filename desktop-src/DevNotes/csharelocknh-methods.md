@@ -2,7 +2,6 @@
 Description: A group of methods that is used to manipulate locks.
 ms.assetid: ba4cc37c-bd2f-446f-8b3d-bc2a2e2e4de4
 title: CShareLockNH Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

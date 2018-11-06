@@ -2,7 +2,6 @@
 Description: Assigns enumeration text to a range of values. Each enumRange element specifies a minimum value, and extends until the next element minimum value, or until there are no more enumRange elements.
 ms.assetid: 00c56c2d-6693-4b09-b28a-21d69930bf35
 title: enumRange
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Represents the type of path being used as an argument.
 ms.assetid: f308c638-b383-432e-9dd3-edc33b792139
 title: PATH_TYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

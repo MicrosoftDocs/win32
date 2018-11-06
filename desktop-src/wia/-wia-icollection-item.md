@@ -2,7 +2,6 @@
 Description: Returns the specified item in the collection
 ms.assetid: c013508f-ce77-4fb2-9bf4-21fcba1284f3
 title: Collection.Item property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

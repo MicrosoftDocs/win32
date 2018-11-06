@@ -2,7 +2,6 @@
 title: IP Listen List
 description: The HTTP Server APIs do not bind to any IP address and TCP port pairs until a user registers a UrlPrefix.
 ms.assetid: f2f51e6c-9114-4ba9-a37c-1d1d1f0b444f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

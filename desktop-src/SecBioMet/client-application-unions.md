@@ -2,7 +2,6 @@
 title: Client Application Unions
 description: Unions that are supported by the Windows Biometric Framework API.
 ms.assetid: 41B7ABBB-41AC-48AB-B714-8F49EFAEC0E3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

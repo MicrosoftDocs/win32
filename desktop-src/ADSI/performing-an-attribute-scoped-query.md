@@ -1,15 +1,11 @@
 ---
 title: Performing an Attribute Scope Query
 description: The attribute scope query is a search preference that enables a search of an object's distinguished name valued attributes to be performed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 026fbe17-5df7-4007-9d74-5c0abbe793b1
 ms.tgt_platform: multiple
 keywords:
 - Performing an Attribute Scope Query ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Attribute Scope Query
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

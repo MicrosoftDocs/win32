@@ -2,7 +2,6 @@
 title: ListenStart Event
 description: ListenStart Event
 ms.assetid: 59feacd6-0b9f-4bf4-b544-48de49384312
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

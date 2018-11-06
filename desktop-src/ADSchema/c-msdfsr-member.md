@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Member class
 description: Represents a replication group member.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 72df9ac3-5b7e-49ef-a5f4-0d90470a8c75
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Member
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

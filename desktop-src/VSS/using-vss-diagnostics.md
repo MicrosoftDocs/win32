@@ -2,7 +2,6 @@
 Description: Vsdiagview and Vssagent are tools that you can use to troubleshoot VSS applications.Note  These tools are included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and later.
 ms.assetid: 2c1270a6-38c7-40d5-a194-0a6795557b9f
 title: Using VSS Diagnostics
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

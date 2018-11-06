@@ -2,7 +2,6 @@
 Description: Requests a reset.
 ms.assetid: c56ed3ae-381e-4359-a0c7-53284b19364f
 title: Reset method of the Msvm_FcSwitchPort class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

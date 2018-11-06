@@ -9,7 +9,6 @@ keywords:
 - reference for TSF,structures
 - text services,structures
 - TSF-enabled applications,structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

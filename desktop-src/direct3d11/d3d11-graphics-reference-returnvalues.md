@@ -2,7 +2,6 @@
 title: Direct3D 11 Return Codes
 description: The return codes from API functions.
 ms.assetid: c0856a58-b760-44e5-8acf-145720b403d1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

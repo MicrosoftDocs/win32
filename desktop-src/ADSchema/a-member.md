@@ -1,9 +1,6 @@
 ---
 title: Member attribute
 description: The list of users that belong to the group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0f5e249e-1fa1-4191-90e6-94c0b657b7fc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Member
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

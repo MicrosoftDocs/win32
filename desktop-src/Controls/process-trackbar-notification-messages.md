@@ -2,7 +2,6 @@
 title: How to Process Trackbar Notification Messages
 description: Trackbars notify their parent window of user actions by sending the parent a WM\_HSCROLL or WM\_VSCROLL message.
 ms.assetid: 83F47A3E-E607-49C2-A8B5-BC8A321D90BB
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

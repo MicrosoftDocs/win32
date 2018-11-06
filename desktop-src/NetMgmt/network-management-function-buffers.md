@@ -2,7 +2,6 @@
 title: Network Management Function Buffers
 description: The RPC run-time library handles the buffers required by the 32-bit data retrieval network management functions as follows.
 ms.assetid: f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

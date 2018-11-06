@@ -2,7 +2,6 @@
 Description: Represents a DVD drive.
 ms.assetid: 6127b58d-c70f-47c7-9eeb-6aff819f672e
 title: CIM_DVDDrive class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

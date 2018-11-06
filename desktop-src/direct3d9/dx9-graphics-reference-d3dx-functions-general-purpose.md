@@ -2,7 +2,6 @@
 Description: 'D3DX supplies the following general purpose functions:'
 ms.assetid: cb2c6b6d-6ac5-47e2-96c2-4a68e86af00f
 title: General Purpose Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

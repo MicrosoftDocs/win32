@@ -1,14 +1,10 @@
 ---
 title: Why Active Directory Domain Services Uses This Replication Model
 description: This topic explains the reasons for the free-form system used by Active Directory Domain Services for a replication model.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 202df900-6d03-4aa8-9099-016238059ef4
 ms.tgt_platform: multiple
 keywords:
 - Replication Model Active Directory ,advantages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

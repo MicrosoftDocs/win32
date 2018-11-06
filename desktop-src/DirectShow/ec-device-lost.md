@@ -2,7 +2,6 @@
 Description: A Plug and Play device was removed or became available again.
 ms.assetid: 0640ba96-22a5-4b82-bd9f-117b67dee311
 title: EC_DEVICE_LOST
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

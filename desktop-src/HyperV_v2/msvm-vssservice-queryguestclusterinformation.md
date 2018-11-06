@@ -2,7 +2,6 @@
 Description: Querying cluster information from the Hyper-V host to the guest.
 ms.assetid: 28983984-a2af-4eab-8b1f-2f7d6a3d70ea
 title: QueryGuestClusterInformation method of the Msvm_VssService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

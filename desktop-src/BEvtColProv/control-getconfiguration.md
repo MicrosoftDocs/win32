@@ -1,14 +1,8 @@
 ---
 Description: Read the active configuration of the collector.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ea26142d-5dcd-466d-b9df-5349f58a190f
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetConfiguration method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

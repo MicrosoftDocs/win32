@@ -2,7 +2,6 @@
 title: Idle Connection Cleanup
 description: By default, connections in the thread pool are not closed until the whole association is shut down.
 ms.assetid: e3d6c89b-0ec5-429d-96d9-1396cce10750
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

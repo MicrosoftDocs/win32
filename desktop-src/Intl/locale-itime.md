@@ -2,7 +2,6 @@
 Description: LOCALE\_ITIME
 ms.assetid: 52f760c3-00df-44f1-857b-419d0dfdec19
 title: LOCALE_ITIME
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

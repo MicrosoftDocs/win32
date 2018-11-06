@@ -2,7 +2,6 @@
 Description: Setting the Group Media Type
 ms.assetid: 05f0fdcb-74a4-441e-ac3c-d3d2c1dfee80
 title: Setting the Group Media Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

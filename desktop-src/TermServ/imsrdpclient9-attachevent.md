@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient9 attachEvent method
 description: Attaches an event.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3a887aeb-a74f-4477-8cf3-8ac43a31fa26
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +18,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

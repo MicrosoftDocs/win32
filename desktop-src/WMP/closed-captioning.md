@@ -21,7 +21,6 @@ keywords:
 - SAMI (Synchronized Accessible Media Interchange),migrating closed captions
 - migration guide,Synchronized Accessible Media Interchange (SAMI)
 - migration guide,closed captioning
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

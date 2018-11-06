@@ -2,7 +2,6 @@
 Description: Specifies a command that can be executed through ShellExecute to launch an application when it is pinned to the taskbar or when a new instance of the application is launched through the application's Jump List.
 ms.assetid: 83aab060-0629-48e3-a2db-9ba96a8631e5
 title: System.AppUserModel.RelaunchCommand
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

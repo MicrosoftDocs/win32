@@ -2,7 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT
 ms.assetid: 112de70b-afcc-4fba-b74f-c33bd759d517
 title: WPD_CONTENT_TYPE_FUNCTIONAL_OBJECT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

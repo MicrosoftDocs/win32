@@ -2,7 +2,6 @@
 title: IVMDisplay Properties
 description: The IVMDisplay interface exposes the following properties.
 ms.assetid: E5A050C5-A2F8-4E89-AE82-9D5CC2C16CFA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Defines options for performing geodesic distance calculations, when fitting a texture to a curved surface. Use this flag to choose between high quality versus fast calculations when computing a texture atlas.
 ms.assetid: 76649c57-e5ae-4e0d-a7ab-f56385a327c2
 title: D3DXUVATLAS enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

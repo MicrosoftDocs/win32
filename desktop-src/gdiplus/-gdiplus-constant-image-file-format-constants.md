@@ -2,7 +2,6 @@
 Description: The Image::GetRawFormat method returns a GUID that indicates the file format of an image. The following constants, defined in Gdiplusimaging.h, represent the GUIDs that identify those file formats.
 ms.assetid: ccc450fe-5b93-46f8-bfeb-b7b1aaf53f8e
 title: Image File Format Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

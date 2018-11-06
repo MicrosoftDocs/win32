@@ -1,14 +1,10 @@
 ---
 title: Example Code for Creating a User
 description: This topic includes code examples that create a user in a domain controlled by Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a2e1be50-0936-4e6b-a712-637156f63be6
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a user
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

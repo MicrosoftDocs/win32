@@ -2,7 +2,6 @@
 Description: Specifies the number of encoding passes that the encoder supports.
 ms.assetid: 8b476164-fd44-4277-89bd-ba9929bf93a2
 title: AVEncCommonMultipassMode property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

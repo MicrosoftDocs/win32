@@ -2,7 +2,6 @@
 Description: Creates a user certificate for use with NetMeeting conferencing.
 ms.assetid: 22acdcbe-c9c9-4f1b-a62d-44a35e101eec
 title: NmMakeCert function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

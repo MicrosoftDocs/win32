@@ -2,7 +2,6 @@
 Description: Specifies the caching of a handle for a printer opened with OpenPrinter2.
 ms.assetid: e5a62322-723c-490d-8de1-f74dcac9e22d
 title: PRINTER_OPTION_FLAGS enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

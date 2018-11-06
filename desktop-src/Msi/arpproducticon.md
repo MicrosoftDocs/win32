@@ -2,7 +2,6 @@
 Description: The ARPPRODUCTICON property specifies the foreign key to the Icon table, which is the primary icon for the Windows Installer package.
 ms.assetid: 4f495029-232c-4aa2-aecf-b400de2e8c4c
 title: ARPPRODUCTICON property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

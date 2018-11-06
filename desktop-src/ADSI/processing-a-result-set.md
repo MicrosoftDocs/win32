@@ -1,12 +1,8 @@
 ---
 title: Processing a Result Set
 description: A result set is returned as a series of rows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e0949c1c-a31a-440a-ae10-2934ffeb7128
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

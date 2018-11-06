@@ -9,7 +9,6 @@ keywords:
 - joysticks,messages
 - reference for joysticks,messages
 - joystick reference,messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

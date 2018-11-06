@@ -2,7 +2,6 @@
 Description: The status, composition, and candidates windows form the user interface for the IME.
 ms.assetid: a0e52743-f9be-4934-9469-71d3cb5a768a
 title: Status, Composition, and Candidates Windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

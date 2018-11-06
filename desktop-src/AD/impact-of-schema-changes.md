@@ -1,15 +1,11 @@
 ---
 title: Impact of Schema Changes
 description: This topic describes how a schema extension impacts the Active Directory forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: df604fb4-9256-4028-86d3-4ae1bc680324
 ms.tgt_platform: multiple
 keywords:
 - Impact of Schema Changes AD
 - schema AD , impact of changing the schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

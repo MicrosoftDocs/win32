@@ -5,7 +5,6 @@ ms.assetid: 02a78ce3-bb0a-4e9c-a2b1-6da8e95bcee5
 keywords:
 - OpenGL processing pipeline,blending
 - blending OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

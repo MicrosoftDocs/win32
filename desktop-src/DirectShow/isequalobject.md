@@ -2,7 +2,6 @@
 Description: The IsEqualObject function checks if two interfaces are on the same object.
 ms.assetid: 51325e05-5a7f-4a80-a12e-2e7dedc028e2
 title: IsEqualObject function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

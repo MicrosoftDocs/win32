@@ -2,7 +2,6 @@
 Description: The IX509ExtensionTemplate interface exposes the following properties.
 ms.assetid: 764D77E7-3E63-4386-80AD-7FF5A9EF1C27
 title: IX509ExtensionTemplate Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

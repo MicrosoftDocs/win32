@@ -1,9 +1,6 @@
 ---
 title: DS-Replication-Monitor-Topology extended right
 description: Extended control access right that allows the reading of replication monitoring data, such as replication status and object metadata.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9270d4c1-123f-4809-9038-3d2c7ebad782
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Replication-Monitor-Topology
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

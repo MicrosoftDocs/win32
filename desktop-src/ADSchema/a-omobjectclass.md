@@ -1,9 +1,6 @@
 ---
 title: OM-Object-Class attribute
 description: The unique OID for the attribute or class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ce292598-91c8-4879-8cb8-4971b992ed10
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - OM-Object-Class
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

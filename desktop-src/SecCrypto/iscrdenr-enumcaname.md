@@ -2,7 +2,6 @@
 Description: Enumerates the name of the certification authorities (CAs) for a given certificate template name.
 ms.assetid: 82cc3346-a8b9-4abd-933a-c212a37a373e
 title: ISCrdEnr::enumCAName method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

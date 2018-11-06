@@ -1,16 +1,12 @@
 ---
 title: IADsPathname Interface
 description: Parses and modifies various elements of an ADsPath.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1f820488-2e75-4257-90c7-9ec67aac4fe4
 ms.tgt_platform: multiple
 keywords:
 - IADsPathname Interface ADSI
 - IADsPathname ADSI , using
 - ADSI ADSI , example code C/C++ , using IADsPathname
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

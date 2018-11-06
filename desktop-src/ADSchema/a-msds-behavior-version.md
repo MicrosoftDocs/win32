@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Behavior-Version attribute
 description: This attribute is used to track the domain or forest behavior version. It is a monotonically increasing number that is used to enable certain Active Directory features.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 948c4777-11ed-4321-92e9-a0cf96a47fe6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Behavior-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -9,7 +9,6 @@ keywords:
 - desktop applications,device capabilities
 - creating Windows Media Device Manager applications,device capabilities
 - writing files to devices,device capabilities
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

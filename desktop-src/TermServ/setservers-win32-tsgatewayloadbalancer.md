@@ -1,9 +1,6 @@
 ---
 title: SetServers method of the Win32_TSGatewayLoadBalancer class
 description: Sets the Servers property with the list of Remote Desktop Gateway (RD Gateway) load-balancing servers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c82de8e2-301b-465d-b375-038b8a480cde
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The GetAvailable method retrieves the range of times in which seeking is efficient. This method implements the IMediaSeeking::GetAvailable method.
 ms.assetid: 5f4af41a-eb7b-4caa-97e0-aaed78467723
 title: CPosPassThru.GetAvailable method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

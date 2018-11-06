@@ -1,9 +1,6 @@
 ---
 title: Display-Name-Printable attribute
 description: The printable display name for an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e8e5ff25-66dd-4c74-9571-9ec765d6d1af
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Display-Name-Printable
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

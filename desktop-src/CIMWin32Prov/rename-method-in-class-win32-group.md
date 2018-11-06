@@ -1,14 +1,8 @@
 ---
 Description: Allows the group name to be changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7eb1360e-7416-4a90-abc6-c9a85a114316
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Rename method of the Win32_Group class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

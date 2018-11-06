@@ -6,7 +6,6 @@ keywords:
 - Image Mastering API
 - IMAPI
 - IMAPI,(See Image Mastering API)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

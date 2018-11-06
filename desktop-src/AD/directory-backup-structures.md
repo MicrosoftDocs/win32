@@ -1,12 +1,8 @@
 ---
 title: Directory Backup Structures
 description: The directory backup functions use the following structure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3d8c5fe1-29aa-492d-a49b-e6382d796a88
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

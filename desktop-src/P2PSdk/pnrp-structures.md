@@ -2,7 +2,6 @@
 Description: 'The PNRP Namespace Provider API uses the following structures:'
 ms.assetid: 697fb99a-259f-429c-8818-0d725255bc86
 title: PNRP Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

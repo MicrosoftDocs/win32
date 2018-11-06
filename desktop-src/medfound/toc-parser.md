@@ -2,7 +2,6 @@
 Description: The Table of Contents Parser (TOC Parser) is a Windows component that enables you to store advanced index information in Advanced Systems Format (ASF) files.
 ms.assetid: '123083b0-dc1b-4c5c-8702-e236cffcf2da'
 title: Table of Contents Parser
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

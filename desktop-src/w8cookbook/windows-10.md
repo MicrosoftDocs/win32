@@ -2,7 +2,6 @@
 title: Windows 10
 description: This Cookbook provides info for developers about platform changes to the Windows 10 operating systems (OS).
 ms.assetid: 'bf8d7d10-bab6-4711-b65f-5393d906e47b'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

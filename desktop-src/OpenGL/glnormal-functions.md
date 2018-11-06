@@ -11,7 +11,6 @@ keywords:
 - reference for OpenGL,normal vector functions
 - glNormal functions
 - normal vector functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

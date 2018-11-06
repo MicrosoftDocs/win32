@@ -2,7 +2,6 @@
 Description: Segment stop time.
 ms.assetid: 8724c608-28ab-4ae9-982c-6e53c03601a1
 title: CBasePin::m_tStop member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

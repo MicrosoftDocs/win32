@@ -2,7 +2,6 @@
 Description: The COMAdmin objects offer a simple object model that provides you with access to the COM+ catalog.
 ms.assetid: 84cee7a7-f7a6-41a0-afd5-fae56365612e
 title: Overview of the COMAdmin Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

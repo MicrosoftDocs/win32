@@ -2,7 +2,6 @@
 title: Registry Values for System-Wide Security
 description: Registry Values for System-Wide Security
 ms.assetid: f1db42b8-4328-4b39-b87f-583382395235
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

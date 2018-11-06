@@ -2,7 +2,6 @@
 title: Event Coordinate Translation
 description: Event Coordinate Translation
 ms.assetid: e7de8af1-a409-4140-9e85-e035bd583912
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

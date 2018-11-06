@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Owners-Reference attribute
 description: The Ipsec-Owners-Reference attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a04e5e01-efbb-47d5-83c5-20598de64f61
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Owners-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

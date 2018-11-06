@@ -2,7 +2,6 @@
 Description: Programming Guide
 ms.assetid: 825c7cd7-dc66-47b6-a1b6-d10101daebb3
 title: Programming Guide
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

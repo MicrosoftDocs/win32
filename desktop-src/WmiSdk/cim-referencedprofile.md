@@ -1,12 +1,8 @@
 ---
 Description: Used to associate an instance CIM\_RegisteredProfile with an instance of CIM\_RegisteredProfile of another profile that references the dependent profile as a related profile.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 631003de-477b-4447-9633-1601a7f8eadb
 ms.tgt_platform: multiple
 title: CIM_ReferencedProfile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +22,7 @@ api_location:
 
 Used to associate an instance [**CIM\_RegisteredProfile**](https://msdn.microsoft.com/library/ee309375) with an instance of **CIM\_RegisteredProfile** of another profile that references the dependent profile as a related profile.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

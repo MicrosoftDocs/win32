@@ -2,7 +2,6 @@
 Description: The pipe server specifies the pipe type mode, read mode, and wait mode in the dwPipeMode parameter of the CreateNamedPipe function. Pipe clients can specify these pipe modes for their pipe handles using the CreateFile function.
 ms.assetid: 07cf9d06-6265-47f4-a9f1-c19c06cc5f9f
 title: Named Pipe Type, Read, and Wait Modes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

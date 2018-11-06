@@ -1,12 +1,8 @@
 ---
 title: Benefits of Using ADSI Extensions
 description: The way in which extension methods are implemented depends on the extension writer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dbd1a203-b94c-4739-8c9d-aed1c9b43426
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

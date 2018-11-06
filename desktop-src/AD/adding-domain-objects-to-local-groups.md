@@ -1,14 +1,10 @@
 ---
 title: Adding Domain Objects to Local Groups
 description: The users and groups that belong to the domain can be added to groups on the local computer to grant rights to the domain user or group on that particular computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 07287190-88a1-4d4d-a91c-1e95d9903a4d
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , adding domain objects to local groups
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

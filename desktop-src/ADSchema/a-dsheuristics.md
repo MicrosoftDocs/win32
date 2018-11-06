@@ -1,9 +1,6 @@
 ---
 title: DS-Heuristics attribute
 description: Contains global settings for the entire forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d5fd990b-7bbf-4ede-a3af-7f3f7ac959b3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DS-Heuristics
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

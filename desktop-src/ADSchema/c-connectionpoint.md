@@ -1,9 +1,6 @@
 ---
 title: Connection-Point class
 description: Base class from which all connectable objects are derived.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b20a1300-d086-46f5-929c-dbaa60c3ec52
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Connection-Point
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

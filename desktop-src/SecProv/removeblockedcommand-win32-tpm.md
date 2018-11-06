@@ -2,7 +2,6 @@
 Description: Removes a TPM command from the local list of commands blocked from running on the computer.
 ms.assetid: 9f61a94f-13fc-428f-90ce-a26dcc92a3eb
 title: RemoveBlockedCommand method of the Win32_Tpm class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

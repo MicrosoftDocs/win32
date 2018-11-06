@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient4 AdvancedSettings5 property
 description: Retrieves a pointer to an IMsRdpClientAdvancedSettings4 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2dd0cc5f-7822-485f-8b3f-12407af1e091
 ms.tgt_platform: multiple
 keywords:
@@ -43,7 +40,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

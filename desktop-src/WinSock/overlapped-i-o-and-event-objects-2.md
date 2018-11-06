@@ -2,7 +2,6 @@
 Description: Windows Sockets 2 supports overlapped I/O and all transport providers support this capability.
 ms.assetid: b36ab606-df1a-4254-b048-6d47eb366275
 title: Overlapped I/O and Event Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

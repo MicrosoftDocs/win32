@@ -2,7 +2,6 @@
 Description: The methods used to work with DirectX .x files can return the following values in addition to the standard COM return values.
 ms.assetid: b1d04fab-25cb-431d-942e-74092bc9c5c2
 title: D3DXFERR Return Values
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

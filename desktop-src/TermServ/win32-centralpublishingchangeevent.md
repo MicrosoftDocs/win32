@@ -1,9 +1,6 @@
 ---
 title: Win32_CentralPublishingChangeEvent class
 description: An event that represents a change to the central RDV settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 95be015e-a185-4548-a7f7-a22b351a34c8
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +18,6 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

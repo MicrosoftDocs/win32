@@ -1,9 +1,6 @@
 ---
 title: rpc-Profile-Element class
 description: Holds an entry in an RPC Profile.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 689967d4-0da4-4481-a83b-b14c9c7c49a6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Profile-Element
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

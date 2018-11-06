@@ -1,12 +1,8 @@
 ---
 title: Win32_TSGatewayConnectionAuthorizationPolicy Methods
 description: The Win32\_TSGatewayConnectionAuthorizationPolicy class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F948E600-461B-4F20-AD62-2C9DEDA0069D
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

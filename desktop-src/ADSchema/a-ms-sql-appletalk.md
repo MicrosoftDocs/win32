@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-AppleTalk attribute
 description: The AppleTalk connection point.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f60835f9-4d7e-45c3-bb7d-769712f59a87
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-AppleTalk
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

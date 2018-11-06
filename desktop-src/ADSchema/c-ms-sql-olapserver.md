@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-OLAPServer class
 description: Container for storing MS-SQL-OLAPDatabase objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b7364669-a29e-47a4-828c-a610c9d721ad
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-OLAPServer
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

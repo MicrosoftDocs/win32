@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 6a4af345-6d33-40c6-8368-5aff03016952
 title: System.Identity
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

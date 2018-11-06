@@ -2,7 +2,6 @@
 Description: Obsolete. Use AMovieSetupRegisterFilter2 instead.
 ms.assetid: 42278829-d09e-46c7-8f1a-fa4572f7cc00
 title: AMovieSetupRegisterFilter function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

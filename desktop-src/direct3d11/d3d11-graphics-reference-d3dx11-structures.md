@@ -5,7 +5,6 @@ ms.assetid: a983813a-a31f-4eeb-b17a-654b7cfe5a55
 keywords:
 - D3DX structures, D3DX 11
 - structures, D3DX 11
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

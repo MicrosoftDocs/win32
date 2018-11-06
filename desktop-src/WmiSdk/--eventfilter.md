@@ -1,12 +1,8 @@
 ---
 Description: The registration of a permanent event consumer requires an instance of the \_\_EventFilter system class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 369d3c28-2b69-456f-9144-d7c73e3123bc
 ms.tgt_platform: multiple
 title: '__EventFilter class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

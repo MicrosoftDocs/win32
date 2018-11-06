@@ -1,9 +1,6 @@
 ---
 title: ms-DS-ManagedPasswordPreviousId attribute
 description: This constructed attribute contains the key identifier for the previous managed password data for a group MSA.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 02e1a57b-6d56-44ab-ba89-50b82d325fe7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-ManagedPasswordPreviousId
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

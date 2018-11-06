@@ -2,7 +2,6 @@
 title: How to Scroll a Bitmap
 description: This section describes changes you can make to an application's main window procedure to enable the user to scroll a bitmap.
 ms.assetid: FA6FEA49-25EB-4C18-AD07-74BD77501906
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

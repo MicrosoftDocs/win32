@@ -2,7 +2,6 @@
 Description: The scissor test culls pixels that are outside of the scissor rectangle, a user-defined rectangular sub-section of the render target.
 ms.assetid: deff4f54-4a2f-4d9a-98a7-a69d5fc0853d
 title: Scissor Test (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

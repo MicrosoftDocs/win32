@@ -2,7 +2,6 @@
 Description: To change a connection's attributes, such as the cipher suite or client authentication, you can request a &\#0034;redo&\#0034; or renegotiation of the connection.
 ms.assetid: 681b607d-66d8-4012-9a84-d202c9778a26
 title: Renegotiating an Schannel Connection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

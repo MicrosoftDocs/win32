@@ -1,9 +1,6 @@
 ---
 title: WM_WTSSESSION_CHANGE message
 description: Notifies applications of changes in session state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 758a130c-b75a-40fd-8530-3766aa86c5ba
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

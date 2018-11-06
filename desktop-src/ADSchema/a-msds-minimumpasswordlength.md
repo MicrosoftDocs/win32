@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Minimum-Password-Length attribute
 description: Minimum length for user account passwords.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1d29d3f9-e3af-4fe9-b865-0316ad4548f6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Minimum-Password-Length
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

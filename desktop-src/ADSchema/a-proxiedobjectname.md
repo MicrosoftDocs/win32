@@ -1,9 +1,6 @@
 ---
 title: Proxied-Object-Name attribute
 description: This attribute is used internally by Active Directory to help track interdomain moves.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 661ea322-f78c-44dc-8d64-4f28ead1a7aa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Proxied-Object-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

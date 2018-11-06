@@ -24,7 +24,6 @@ keywords:
 - DDE (Dynamic Data Exchange),shared memory objects
 - Dynamic Data Exchange (DDE),parameter packing functions
 - DDE (Dynamic Data Exchange),parameter packing functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

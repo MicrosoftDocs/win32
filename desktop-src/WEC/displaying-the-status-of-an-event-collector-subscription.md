@@ -1,10 +1,8 @@
 ---
 title: Displaying the Status of an Event Collector Subscription
 description: You can display the status of an Event Collector subscription. The status includes the availability of the subscription, the last error that occurred for the subscription, the time of the last error, and the next time the subscription will be retried.
-audience: developer
 ms.assetid: e1c3c3ed-2f7c-433d-a51d-66c2abd2e961
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

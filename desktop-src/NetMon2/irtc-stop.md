@@ -2,7 +2,6 @@
 Description: The Stop method stops the current capture.
 ms.assetid: 64a80ff1-5a48-4be8-835d-a3d304ebb324
 title: IRTC::Stop method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

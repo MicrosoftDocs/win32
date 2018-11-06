@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_DesktopWMI class represents the common characteristics of a user's desktop. The properties of this class can be modified by the user to customize the desktop.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9615a443-7611-4c30-9693-ea71b09b013b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Desktop class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

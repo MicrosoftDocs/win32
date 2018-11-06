@@ -10,7 +10,6 @@ keywords:
 - Advanced Systems Format (ASF),creating in DirectShow
 - ASF (Advanced Systems Format),creating in DirectShow
 - DirectShow,creating ASF files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

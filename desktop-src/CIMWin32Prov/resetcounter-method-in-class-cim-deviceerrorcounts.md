@@ -1,14 +1,8 @@
 ---
 Description: The ResetCounter method resets the error and warning counters.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5bc6c939-cd97-40ca-a16c-5227e7f27c76
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ResetCounter method of the CIM_DeviceErrorCounts class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **ResetCounter** method resets the error and warning counters. A method is used so that the logical device's instrumentation, which tabulates the errors and warnings, can also reset its internal processing and counters. In a subclass, the set of possible return codes can be specified using a **ValueMap** qualifier on the method. The strings to which the **ValueMap** contents are translated can also be specified in the subclass as a **Values** array qualifier.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

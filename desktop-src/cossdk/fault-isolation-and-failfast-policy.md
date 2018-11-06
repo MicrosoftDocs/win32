@@ -2,7 +2,6 @@
 Description: Fault Isolation and Failfast Policy
 ms.assetid: 219c417c-a8a1-49eb-bc5a-702a16994d66
 title: Fault Isolation and Failfast Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

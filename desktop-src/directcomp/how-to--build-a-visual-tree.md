@@ -2,7 +2,6 @@
 title: How to build a simple visual tree
 description: This topic demonstrates how to build a simple Microsoft DirectComposition visual tree. The example in this topic builds and composes a visual tree that consists of a root visual and three child visuals.
 ms.assetid: 86006C3C-67A8-4931-BE76-D0CA9DB19505
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Upgrade-Product-Code attribute
 description: This attribute contains the product code of other packages, such as applications, that can be upgraded by this package, or that can upgrade this package.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bf0ab06a-88a6-45af-ac9f-ee0ce648e51b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Upgrade-Product-Code
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

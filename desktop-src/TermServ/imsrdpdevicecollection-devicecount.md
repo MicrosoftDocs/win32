@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceCollection DeviceCount property
 description: Retrieves the count of objects in the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dc44f3b8-52c4-4e5f-a633-ea7555fd01dd
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

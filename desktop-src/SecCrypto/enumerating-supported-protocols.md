@@ -2,7 +2,6 @@
 Description: Supported protocols and cipher suites can be listed by calls to CryptGetProvParam with PP\_ENUMALGS or PP\_ENUMALGS\_EX.
 ms.assetid: 8f0c2129-6841-4793-a404-bb6ee8f41683
 title: Enumerating Supported Protocols
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

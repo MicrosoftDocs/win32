@@ -2,7 +2,6 @@
 Description: Introduction to DirectShow Filter Development
 ms.assetid: d5162ea4-ef37-4993-a82c-782f03b08c64
 title: Introduction to DirectShow Filter Development
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

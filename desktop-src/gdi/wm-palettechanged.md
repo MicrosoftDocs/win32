@@ -2,7 +2,6 @@
 Description: The WM\_PALETTECHANGED message is sent to all top-level and overlapped windows after the window with the keyboard focus has realized its logical palette, thereby changing the system palette.
 ms.assetid: 2eed568b-1a16-47d2-ae26-3f1dec35e893
 title: WM_PALETTECHANGED message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

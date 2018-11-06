@@ -1,9 +1,6 @@
 ---
 title: International-ISDN-Number attribute
 description: Specifies an International ISDN Number associated with an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b08d3192-0856-4dab-8023-a8e4075314f0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - International-ISDN-Number
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

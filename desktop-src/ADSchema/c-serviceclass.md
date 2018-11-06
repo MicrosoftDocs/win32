@@ -1,9 +1,6 @@
 ---
 title: Service-Class class
 description: Used to store the properties of a Winsock service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 566a009b-0a81-4a1b-b38b-94c67f3bf24a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Class
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

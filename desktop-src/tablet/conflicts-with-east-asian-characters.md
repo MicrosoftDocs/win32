@@ -2,7 +2,6 @@
 Description: Some application gestures may conflict with East Asian characters or combinations of East Asian characters.
 ms.assetid: 56ff773f-ef95-47f8-ba04-2593330867ee
 title: Conflicts with East-Asian Characters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

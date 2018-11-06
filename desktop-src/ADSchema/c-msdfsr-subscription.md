@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Subscription class
 description: Contains the local computer participation in a content set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fef078a4-c13b-49f3-b8c2-f95310f2d477
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Subscription
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

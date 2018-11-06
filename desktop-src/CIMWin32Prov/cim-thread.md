@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Thread class represents the ability to execute units of a process or task, in parallel. A process can have many threads, each of which is weak to the process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 57222d57-61bd-4641-a77c-805263be04b7
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Thread class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -43,7 +37,7 @@ api_location:
 
 The **CIM\_Thread** class represents the ability to execute units of a process or task, in parallel. A process can have many threads, each of which is weak to the process.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -2,7 +2,6 @@
 Description: The DVDAdm.ChangePassword method saves a new application password in the registry.
 ms.assetid: 58dac785-e20e-4a41-89cf-56644964da19
 title: ChangePassword Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: aad47c36-fd1d-478d-ad7d-a40c3984a1d9
 title: Photo
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

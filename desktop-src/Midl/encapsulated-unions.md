@@ -4,7 +4,6 @@ description: A union that is contained with its discriminant in a structure with
 ms.assetid: d32c18b4-b2f6-4ce2-94fe-a495a3c15d14
 keywords:
 - data types MIDL , encapsulated unions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

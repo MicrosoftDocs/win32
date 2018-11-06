@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnRemoteDesktopSizeChanged method
 description: Called when the remote desktop size has changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: DA641CA7-3214-4DB6-9A7F-75903FE93DB4
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: RPC NDR Interface Reference
 description: Microsoft RPC NDR currently supports the following functions and structures
 ms.assetid: 2EBB2DD6-60DD-4C9F-9F79-231383B28517
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

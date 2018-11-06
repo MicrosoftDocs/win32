@@ -2,7 +2,6 @@
 Description: The low-level message functions encode data for transmission and decode data that has been received. Low-level message functions also decrypt and verify the signatures of received messages.
 ms.assetid: 42c19920-c7f7-4a4d-9de3-3de9a34fbe0c
 title: Low-level Message Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

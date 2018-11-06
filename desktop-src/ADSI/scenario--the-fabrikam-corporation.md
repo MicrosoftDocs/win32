@@ -1,14 +1,10 @@
 ---
 title: Scenario The Fabrikam Corporation
 description: The Fabrikam company upgraded their domain from Windows NT 4.0 to Windows 2000.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1246d3bb-16aa-4a11-a272-15134b55dd7e
 ms.tgt_platform: multiple
 keywords:
 - Scenario The Fabrikam Corporation AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The D3DX utility library provides the ID3DXMATRIXStack interface.
 ms.assetid: e3cfb29e-4ef6-4b48-ad6b-f0371f526507
 title: Matrix Stacks (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

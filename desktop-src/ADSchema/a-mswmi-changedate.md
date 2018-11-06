@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-ChangeDate attribute
 description: The last date this object was changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a445c659-8f38-4eae-b23c-844a4c5be331
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-ChangeDate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

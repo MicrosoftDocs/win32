@@ -1,9 +1,6 @@
 ---
 title: document class
 description: The document object class is used to define entries that represent documents.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 846663cc-e1c0-4651-a14d-7fc2c2f7c339
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - document
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Rules for Multiple Pipes
 description: Rules for multiple pipes in a single call in Remote Procedure Call (RPC).
 ms.assetid: 1d0b2aed-27cc-4e74-9307-ada86bda4596
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Status Property
 description: Status Property
 ms.assetid: 'vs|msagent|~\pacontrol_8xd6.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

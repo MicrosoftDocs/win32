@@ -2,7 +2,6 @@
 title: Routing Protocol Interface
 description: Routing Protocol Interface
 ms.assetid: '5126eb70-2f85-4ec8-a241-83e9e620f186'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

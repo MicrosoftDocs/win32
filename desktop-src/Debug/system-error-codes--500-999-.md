@@ -2,7 +2,6 @@
 Description: The System Error Codes are very broad.
 ms.assetid: 8d8b427b-b761-4023-a834-a6eff96d6ba1
 title: System Error Codes (500-999)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

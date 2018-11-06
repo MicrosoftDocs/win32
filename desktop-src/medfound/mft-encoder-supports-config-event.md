@@ -2,7 +2,6 @@
 Description: Specifies that the MFT encoder supports receiving MEEncodingParameter events while streaming.
 ms.assetid: 8DE04537-641C-4154-9C7F-A7D025CA4C39
 title: MFT_ENCODER_SUPPORTS_CONFIG_EVENT attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

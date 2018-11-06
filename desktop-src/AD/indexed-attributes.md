@@ -1,15 +1,11 @@
 ---
 title: Indexed Attributes
 description: Attributes may be indexed. Indexing an attribute can improve the performance of queries for that attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 20e10fc9-d767-4d82-9ed6-b9f384e77b12
 ms.tgt_platform: multiple
 keywords:
 - Indexed Attributes AD
 - Attributes AD , indexed
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

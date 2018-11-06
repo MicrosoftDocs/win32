@@ -2,7 +2,6 @@
 title: Taking a Snapshot and Viewing Processes
 description: The following simple console application obtains a list of running processes.
 ms.assetid: 318d166f-858f-4f33-9422-977e0c4beb3f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

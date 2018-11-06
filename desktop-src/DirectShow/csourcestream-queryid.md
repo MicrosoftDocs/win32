@@ -2,7 +2,6 @@
 Description: The QueryId method retrieves an identifier for the pin.
 ms.assetid: 6050292e-6203-4a79-87bf-47394624cb32
 title: CSourceStream.QueryId method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

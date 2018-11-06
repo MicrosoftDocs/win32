@@ -7,7 +7,6 @@ keywords:
 - skins,ratings
 - reference for skins,ratings
 - ratings in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

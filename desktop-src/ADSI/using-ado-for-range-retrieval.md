@@ -1,14 +1,10 @@
 ---
 title: Using ADO for Range Retrieval
 description: If an automation language is used, the ActiveX Directory Objects (ADO) should be used to retrieve a range of property values.When using ADO for range retrieval, there is one problem that must be specifically addressed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ca06169d-7de7-4552-aa7d-e9427353e49e
 ms.tgt_platform: multiple
 keywords:
 - Using ADO for Range Retrieval ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

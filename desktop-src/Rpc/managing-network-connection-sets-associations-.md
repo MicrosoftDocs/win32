@@ -4,7 +4,6 @@ description: Starting with Windows 2000, the RPC run time may maintain more tha
 ms.assetid: 9b9c42e9-8ed5-46a6-b6ec-4093ce0128bb
 keywords:
 - Managing Network Connection Sets
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Rights-Guid attribute
 description: The GUID used to represent an extended right within an access control entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6f3a654e-fead-41e7-8383-6dade1a2747e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Rights-Guid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

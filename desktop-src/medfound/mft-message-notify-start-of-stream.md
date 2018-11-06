@@ -2,7 +2,6 @@
 Description: Notifies a Media Foundation transform (MFT) that the first sample is about to be processed.
 ms.assetid: 579df695-02c4-4332-b1b4-c7bd9da50c0f
 title: MFT_MESSAGE_NOTIFY_START_OF_STREAM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

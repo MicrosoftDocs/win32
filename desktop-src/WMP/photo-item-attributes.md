@@ -13,7 +13,6 @@ keywords:
 - reference for object model,photo item attributes
 - attributes,photo items
 - photo item attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

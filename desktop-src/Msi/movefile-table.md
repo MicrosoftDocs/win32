@@ -2,7 +2,6 @@
 Description: This table contains a list of files to be moved or copied from a specified source directory to a specified destination directory.
 ms.assetid: 9ba47bdc-90c8-444a-ba8b-71c723b54556
 title: MoveFile Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

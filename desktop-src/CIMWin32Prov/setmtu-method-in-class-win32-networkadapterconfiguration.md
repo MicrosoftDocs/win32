@@ -1,14 +1,8 @@
 ---
 Description: The SetMTU WMI class static method is used to set the default Maximum Transmission Unit (MTU) for a network interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 262c8bd7-1057-4204-80ab-725c60fc9c52
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetMTU method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: Pauses the print queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0f425318-a7c0-4bba-bb44-e7635fa3ca03
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Pause method of the Win32_Printer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

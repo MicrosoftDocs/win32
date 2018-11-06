@@ -2,7 +2,6 @@
 Description: The ReadBinary method constructs an application protocol data unit (APDU) command that acquires a response message that gives that part of the contents of a transparent-structured elementary file.
 ms.assetid: 15394c21-1e07-4ea1-8f11-817e07b31f9b
 title: ISCardISO7816::ReadBinary method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

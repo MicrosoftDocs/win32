@@ -31,7 +31,6 @@ keywords:
 - DDEML (Dynamic Data Exchange Management Library),callback functions
 - Dynamic Data Exchange Management Library (DDEML),string management
 - DDEML (Dynamic Data Exchange Management Library),string management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

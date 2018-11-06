@@ -1,14 +1,10 @@
 ---
 title: Control Access Rights
 description: All objects in Active Directory Domain Services support a standard set of access rights defined in the ADS\_RIGHTS\_ENUM enumeration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 27ad74bd-ad87-422e-a4a2-02c0d51c4dd4
 ms.tgt_platform: multiple
 keywords:
 - Control Access Rights
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

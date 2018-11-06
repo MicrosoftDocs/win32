@@ -1,12 +1,8 @@
 ---
 title: Indexed Attributes
 description: The following are the indexed attributes defined by Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7caf494e-b4f0-450f-b48b-7b64005fb1f3
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

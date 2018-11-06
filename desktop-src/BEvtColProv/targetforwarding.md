@@ -1,14 +1,8 @@
 ---
 Description: Retrieves forwarding data from a target computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e9ed210d-09ad-4689-b6a0-f84c5cce86f5
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TargetForwarding class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

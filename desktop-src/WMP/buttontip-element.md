@@ -10,7 +10,6 @@ api_name:
 - ButtonTip Element
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Getting Started with DirectShow Editing Services
 ms.assetid: 63148895-5233-41f3-865a-5e8f83077437
 title: Getting Started with DirectShow Editing Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

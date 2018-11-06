@@ -2,7 +2,6 @@
 title: Managing Handles
 description: The routing table manager maintains a reference count for all the information that it maintains.
 ms.assetid: bcd02881-b021-414f-8a40-14baac5baac7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

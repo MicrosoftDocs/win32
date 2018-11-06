@@ -2,7 +2,6 @@
 Description: Represents the corrected machine check (CMC) handling to be switched from the interrupt driver to polling. This class is available only in 64-bit Windows systems.
 ms.assetid: c5e99e13-0f65-40bc-8863-b2ca7ea221df
 title: MSMCAEvent_SwitchToCMCPolling class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

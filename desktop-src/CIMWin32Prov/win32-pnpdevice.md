@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_PnPDevice association WMI class relates a device (known to Configuration Manager as a PNPEntity) and the function it performs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5163a423-60f2-416d-bf82-89517b499f93
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

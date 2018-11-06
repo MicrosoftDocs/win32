@@ -1,9 +1,6 @@
 ---
 title: Certificate-Enrollment extended right
 description: Extended right needed to cause certificate enrollment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 12b8bab8-3b52-46a7-887a-28f6645311cc
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Certificate-Enrollment
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

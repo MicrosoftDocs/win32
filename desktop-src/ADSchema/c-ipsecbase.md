@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Base class
 description: IPSEC base class from which all IPSEC classes are derived.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2e1bd416-398f-47e1-a13e-947924bb50c2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Base
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

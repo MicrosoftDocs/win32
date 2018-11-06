@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_VolumeSet class represents a contiguous range of logical blocks presented to the operating environment for reading and writing user data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f0350185-6210-4f95-a2a2-23de61b1af1f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_VolumeSet class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -52,7 +46,7 @@ api_location:
 
 The **CIM\_VolumeSet** class represents a contiguous range of logical blocks presented to the operating environment for reading and writing user data. Volume sets should not overlap one another and are based on one or more physical extents, protected space extents, or aggregate extents (all of the same type). The based-on associations should be instantiated or subclassed as needed.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

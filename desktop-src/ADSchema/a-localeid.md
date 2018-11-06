@@ -1,9 +1,6 @@
 ---
 title: Locale-ID attribute
 description: This attribute contains a list of locale IDs supported by this application. A locale ID represents a geographic location, such as a country/region, city, county, and so on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 60629155-2bdf-4080-bb88-c8db749ef954
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Locale-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

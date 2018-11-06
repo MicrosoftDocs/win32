@@ -4,7 +4,6 @@ description: The NetServiceGetInfo function is obsolete. It is included for comp
 ms.assetid: dcbea171-75fd-4d92-a2a0-ebd2867b233e
 keywords:
 - NetServiceGetInfo
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

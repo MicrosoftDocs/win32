@@ -2,7 +2,6 @@
 title: Flat Scroll Bar Functions
 description: .
 ms.assetid: 091961ae-9a7a-4ee1-8f2f-313af79403aa
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

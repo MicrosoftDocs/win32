@@ -1,9 +1,6 @@
 ---
 title: WSMan.CommandLine property
 description: Gets the command line of the process that loads the automation component.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a4fdad32-9059-452d-9896-f18b57c2a8f9
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

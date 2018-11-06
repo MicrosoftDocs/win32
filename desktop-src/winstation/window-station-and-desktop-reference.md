@@ -2,7 +2,6 @@
 title: Window Station and Desktop Reference
 description: The following elements are used with window stations and desktops
 ms.assetid: 7fbe7013-cf5c-42e1-aba5-35c2002645e8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

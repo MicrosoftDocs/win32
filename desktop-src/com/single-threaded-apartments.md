@@ -2,7 +2,6 @@
 title: Single-Threaded Apartments
 description: Single-Threaded Apartments
 ms.assetid: 2f345ae2-8314-4067-a6d6-5a0275941ed4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,16 +1,12 @@
 ---
 title: Enumerating Users on Member Servers and Windows 2000 Professional
 description: This topic shows how to enumerate all users, in a local security database, on member servers and computers running on Windows 2000 Professional.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 56c20e8a-2861-4cd9-8058-271c89db7ec9
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Users on Member Servers and Windows 2000 Professional AD
 - users AD , Enumerating Users on Member Servers and Windows 2000 Professional
 - Active Directory, Using, Users, Enumerating Users on Member Servers and Windows 2000 Professional
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

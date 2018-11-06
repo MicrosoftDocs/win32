@@ -1,15 +1,11 @@
 ---
 title: Syntaxes for Attributes in Active Directory Domain Services
 description: Active Directory Domain Services define a set of attribute syntaxes for specifying the type of data contained by an attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 79d27d47-5d03-4ad6-bf97-c387c34fa454
 ms.tgt_platform: multiple
 keywords:
 - Syntaxes for Active Directory Domain Services Attributes Active Directory
 - Attributes Active Directory , Syntaxes for
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

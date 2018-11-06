@@ -2,7 +2,6 @@
 Description: Specifies the number of video frames encoded by the codec that actually contain data.
 ms.assetid: f96fd0b2-8c81-4318-b44c-4b794b3945a3
 title: MFPKEY_CODEDNONZEROFRAMES Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

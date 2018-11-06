@@ -1,9 +1,6 @@
 ---
 title: Priority attribute
 description: The current priority (of a process, print job, and so on).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 89cce143-446d-444b-bda1-36ac748075d1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Priority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

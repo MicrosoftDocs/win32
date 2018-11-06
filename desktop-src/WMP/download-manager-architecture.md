@@ -10,7 +10,6 @@ keywords:
 - Windows Media Player Download Manager
 - Download Manager
 - architecture for Download Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

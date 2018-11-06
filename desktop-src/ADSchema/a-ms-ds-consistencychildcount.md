@@ -1,9 +1,6 @@
 ---
 title: MS-DS-Consistency-Child-Count attribute
 description: This attribute is used to check consistency between the directory and another object, database, or application, by comparing a count of child objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f7d6e8f0-963b-45a9-86af-8e51d6de32bb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-DS-Consistency-Child-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

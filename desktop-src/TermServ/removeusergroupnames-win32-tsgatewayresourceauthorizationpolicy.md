@@ -1,9 +1,6 @@
 ---
 title: RemoveUserGroupNames method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Removes the specified user group names from the existing user groups in the UserGroupNames property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8538e41a-b9ae-43ce-b19a-40a40f9a12f5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

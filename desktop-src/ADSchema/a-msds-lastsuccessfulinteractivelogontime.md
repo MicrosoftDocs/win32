@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Last-Successful-Interactive-Logon-Time attribute
 description: The time that the correct password was presented during a Ctrl+Alt+Delete logon.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb4ae04e-2209-4370-875c-1b156bd34343
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Last-Successful-Interactive-Logon-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

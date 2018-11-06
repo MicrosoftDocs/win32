@@ -1,9 +1,6 @@
 ---
 title: User-Comment attribute
 description: The user's comments.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7c22084e-f713-4e0d-b8d1-e3c59cad6115
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User-Comment
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

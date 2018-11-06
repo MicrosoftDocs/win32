@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings keepAliveInterval property
 description: Specifies an interval, in milliseconds, at which the client sends keep-alive messages to the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0d1b7d8f-f81c-4591-bb08-adab307e87fe
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

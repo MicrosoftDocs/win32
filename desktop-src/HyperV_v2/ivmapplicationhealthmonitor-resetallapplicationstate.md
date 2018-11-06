@@ -2,7 +2,6 @@
 Description: Resets the health state for all applications in a virtual machine.
 ms.assetid: DB0B2FB3-87EB-44B2-9C4E-849BCE594E89
 title: IVmApplicationHealthMonitor::ResetAllApplicationState method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

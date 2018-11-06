@@ -1,9 +1,6 @@
 ---
 title: FRS-Version-GUID attribute
 description: If present, changing this value indicates a configuration change has been made on this replica set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 27cd68c5-a8aa-4c14-bf1d-0eb7c4d9cca5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Version-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

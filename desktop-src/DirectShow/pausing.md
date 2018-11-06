@@ -2,7 +2,6 @@
 Description: Pausing
 ms.assetid: 945e1b1a-2557-4be2-bfdb-bb11ac7c3fe8
 title: Pausing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

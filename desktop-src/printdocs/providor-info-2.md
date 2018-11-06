@@ -2,7 +2,6 @@
 Description: The PROVIDOR\_INFO\_2 structure appends a print provider to the print provider order list.
 ms.assetid: 840523ca-22d0-460f-81fb-e0a9e2d4f5d6
 title: PROVIDOR_INFO_2 structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

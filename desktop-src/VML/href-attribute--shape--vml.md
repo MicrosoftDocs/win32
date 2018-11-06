@@ -2,7 +2,6 @@
 title: HRef Attribute (Shape)(VML)
 description: HRef Attribute (Shape)(VML)
 ms.assetid: c44b3099-df3f-42e5-ad0c-10400630e884
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

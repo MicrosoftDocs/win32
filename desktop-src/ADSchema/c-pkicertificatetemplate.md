@@ -1,9 +1,6 @@
 ---
 title: PKI-Certificate-Template class
 description: Contains information for certificates issued by Certificate Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9b6ca989-058c-461b-ba3d-5b29ea15cbbc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Certificate-Template
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

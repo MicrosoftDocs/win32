@@ -1,12 +1,8 @@
 ---
 Description: Managed Object Format (MOF) is the language used to describe Common Information Model (CIM) classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 26494142-2078-4d46-a794-e43973255c2d
 ms.tgt_platform: multiple
 title: Managed Object Format (MOF)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

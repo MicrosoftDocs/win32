@@ -8,7 +8,6 @@ keywords:
 - reference for skins,text
 - text in skins,color
 - color reference for skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

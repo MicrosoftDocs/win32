@@ -1,15 +1,11 @@
 ---
 title: Group Object User Interface Mapping
 description: This topic describes the Group object property sheets in the Active Directory Users and Computers snap-in.General Property SheetMember Of Property SheetMembers Property SheetManaged By Property Sheet
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c0cd73f0-f09f-4645-966d-6149888ce482
 ms.tgt_platform: multiple
 keywords:
 - Group Object User Interface Mapping AD
 - User Interface Mapping,Group Object AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

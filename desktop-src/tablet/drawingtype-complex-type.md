@@ -2,7 +2,6 @@
 Description: Defines the type that contains ink that has been classified by the Journal analyzing engine as a Drawing element (as opposed to an InkWord element).
 ms.assetid: 9a47c245-a5cf-414c-b5cc-bdb66b47596f
 title: DrawingType Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

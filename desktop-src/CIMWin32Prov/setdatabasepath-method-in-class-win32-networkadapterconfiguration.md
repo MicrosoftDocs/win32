@@ -1,14 +1,8 @@
 ---
 Description: The SetDatabasePath WMI class static method sets the path to the standard Internet database files (HOSTS, LMHOSTS, NETWORKS, and PROTOCOLS).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 373fef0f-9cdf-4785-8d73-3f00bbd60ae2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetDatabasePath method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

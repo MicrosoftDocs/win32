@@ -2,7 +2,6 @@
 Description: Using Certified Output Protection Protocol (COPP)
 ms.assetid: 23eebe93-416b-48c8-a05f-019e38b9a660
 title: Using Certified Output Protection Protocol (COPP)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

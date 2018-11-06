@@ -2,7 +2,6 @@
 Description: The RemoveAt method removes the element stored at the location specified by the given index.
 ms.assetid: 70f220be-d70b-4a25-8e16-82ed42adf2c4
 title: IPortableDeviceKeyCollection::RemoveAt method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

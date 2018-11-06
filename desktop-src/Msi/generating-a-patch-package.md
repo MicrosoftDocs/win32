@@ -2,7 +2,6 @@
 Description: The recommended method for generating a patch package is to use a patch creation tool such as Msimsp.exe to call UiCreatePatchPackage in Patchwiz.dll. Msimsp.exe and PatchWiz.dll are provided in the Windows Installer SDK.
 ms.assetid: 7fa661aa-d52c-4b08-961f-90ec778f02ff
 title: Generating a Patch Package
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

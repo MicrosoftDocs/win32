@@ -5,7 +5,6 @@ ms.assetid: 99a3904b-9120-4d1d-bd8c-1eb299bd6b27
 keywords:
 - Basetsd.h header file 64-bit Windows Programming
 - data types in IDL file 64-bit Windows Programming
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: specifies a prefix that is on-link to interface \#4.
 ms.assetid: cc3aa99d-cf45-460c-bdc1-3e9a19806fe4
 title: IPv6 Site Prefixes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: How to Play Back a Command List
 description: This topic shows how to play back a command list.
 ms.assetid: 4e6c0a98-85ff-45ca-963b-7d5c55f47195
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

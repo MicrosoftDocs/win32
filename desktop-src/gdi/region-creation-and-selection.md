@@ -2,7 +2,6 @@
 Description: An application creates a region by calling a function associated with a specific shape. The following table shows the function(s) associated with each of the standard shapes.
 ms.assetid: e94ae371-8365-4e42-ac8c-04c3928fcffb
 title: Region Creation and Selection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

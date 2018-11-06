@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-AllowAnonymousSubscription attribute
 description: True if the publication allows anonymous subscribers to subscribe to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d4ac86ce-d3c5-493e-8212-e9250671a522
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-AllowAnonymousSubscription
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

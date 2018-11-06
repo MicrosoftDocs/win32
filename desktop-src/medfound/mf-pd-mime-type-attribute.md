@@ -2,7 +2,6 @@
 Description: Specifies the MIME type of the content.
 ms.assetid: bbcfb3e6-a86a-4621-b8d9-92ace60e8c10
 title: MF_PD_MIME_TYPE attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: VML JoinStyle Attribute
 description: VML JoinStyle Attribute
 ms.assetid: d947d115-2064-446a-8c12-e8063fe10953
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

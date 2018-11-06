@@ -2,7 +2,6 @@
 Description: The diffuse and specular lighting components of the global illumination equation contain terms that describe light attenuation and the spotlight cone. These terms are described below.
 ms.assetid: 960b5fc2-3074-4e51-b3de-5ed370379b01
 title: Attenuation and Spotlight Factor (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

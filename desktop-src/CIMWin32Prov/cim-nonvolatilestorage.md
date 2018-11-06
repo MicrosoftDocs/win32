@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_NonVolatileStorage class represents the capabilities and management of non-volatile storage. Nonvolatile memory natively includes flash and ROM storage.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 39158b31-31f7-460c-aef1-1ca423badad6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_NonVolatileStorage class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -65,7 +59,7 @@ api_location:
 
 The **CIM\_NonVolatileStorage** class represents the capabilities and management of non-volatile storage. Nonvolatile memory natively includes flash and ROM storage. In addition, nonvolatile memory can be based on volatile storage, if the volatile memory is backed by a battery. For example, this scenario would be described by an instance of the [**CIM\_AssociatedBattery**](cim-associatedbattery.md) relationship that references the nonvolatile storage as the **Dependent** and the battery as the **Antecedent**; and an instance of the [**CIM\_BasedOn**](cim-basedon.md) relationship that references the non-volatile storage as the **Dependent** and the volatile storage as the **Antecedent**.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

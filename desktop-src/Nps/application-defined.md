@@ -1,12 +1,8 @@
 ---
 title: Application Defined
 description: Application Defined
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0BA67E4A-DCBB-4DCE-BA32-786B9F9F7D46
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

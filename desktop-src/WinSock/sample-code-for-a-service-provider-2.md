@@ -2,7 +2,6 @@
 Description: This section contains a source code sample that demonstrates how to implement the GetXbyY functions using the new, protocol-independent RNR functions.
 ms.assetid: d6246d47-11c2-4e4b-8a2b-17fd9cb041fc
 title: Sample Code for a Service Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 This section contains a source code sample that demonstrates how to implement the **GetXbyY** functions using the new, protocol-independent RNR functions. A developer should implement these functions as a starting point. To comply with the Windows Sockets specification, many more functions are needed.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The following code is not guaranteed to compile.
 
  

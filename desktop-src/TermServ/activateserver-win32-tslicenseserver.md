@@ -1,9 +1,6 @@
 ---
 title: ActivateServer method of the Win32_TSLicenseServer class
 description: Activates the Remote Desktop license server by using a Remote Desktop license server identifier that is obtained over the phone or the Internet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 628e87f0-600e-404d-a0b4-35f1570b4fc0
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

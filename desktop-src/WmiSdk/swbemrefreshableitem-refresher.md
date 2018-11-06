@@ -1,12 +1,8 @@
 ---
 Description: The SWbemRefreshableItem.Refresher property represents the parent SWbemRefresher object which contains the SWbemRefreshableItem object.SWbemRefresher object which contains the SWbemRefreshableItem object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 238722e0-63e6-4907-993e-67693746d487
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem.Refresher property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

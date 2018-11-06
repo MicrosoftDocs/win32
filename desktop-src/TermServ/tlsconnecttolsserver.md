@@ -1,9 +1,6 @@
 ---
 title: TLSConnectToLsServer function
 description: Opens a handle to the specified Remote Desktop license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9e90a8e8-9319-42ee-b541-a1d028b6ed4d
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

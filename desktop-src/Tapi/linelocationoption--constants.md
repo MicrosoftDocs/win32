@@ -2,7 +2,6 @@
 Description: The LINELOCATIONOPTION\_ constants define values used in the dwOptions member of the LINELOCATIONENTRY structure returned as part of the LINETRANSLATECAPS structure returned by lineGetTranslateCaps.
 ms.assetid: 3b185c16-2535-4a90-855b-29e52828ea4c
 title: LINELOCATIONOPTION_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

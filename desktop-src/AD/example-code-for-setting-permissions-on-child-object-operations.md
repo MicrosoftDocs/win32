@@ -1,14 +1,10 @@
 ---
 title: Example Code for Setting Permissions on Child Object Operations
 description: The following C and C++ code example creates an ACE that assigns creation rights for user objects to the specified trustee.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 51010092-fa85-4f9c-8869-97fed30acc7f
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting permissions on child object operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

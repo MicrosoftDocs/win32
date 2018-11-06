@@ -2,7 +2,6 @@
 title: Think Method
 description: Think Method
 ms.assetid: a188dd47-6af1-429d-af0a-69451f6b495e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -9,7 +9,6 @@ keywords:
 - profiles,Windows Media Format SDK
 - profiles,IWMCodecInfo3
 - IWMCodecInfo3,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

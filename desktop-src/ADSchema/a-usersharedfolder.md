@@ -1,9 +1,6 @@
 ---
 title: User-Shared-Folder attribute
 description: Specifies a UNC path to the user's shared documents folder. The path must be a network UNC path of the form \\\\Server\\Share\\Directory. This value can be a null string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 23b4177a-0a05-4111-affe-d81bc115580d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User-Shared-Folder
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

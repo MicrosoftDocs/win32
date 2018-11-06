@@ -2,7 +2,6 @@
 Description: Disables features.
 ms.assetid: 2ea2dcfb-84e6-4f83-9afd-c3050b53f37c
 title: pSetupSetGlobalFlags function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

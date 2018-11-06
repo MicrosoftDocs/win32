@@ -2,7 +2,6 @@
 Description: Direct3DShaderValidatorCreate9 function
 ms.assetid: 5b0ff1e1-8833-4cb0-9bd4-53bd7c11fed3
 title: Direct3DShaderValidatorCreate9 function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

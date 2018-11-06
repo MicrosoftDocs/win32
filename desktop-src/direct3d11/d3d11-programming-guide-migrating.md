@@ -2,7 +2,6 @@
 title: Migrating to Direct3D 11
 description: This section provides info for migrating to Direct3D 11 from an earlier version of Direct3D.
 ms.assetid: 3ec8b5c2-01e6-4fbe-ada7-43898db63bbe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

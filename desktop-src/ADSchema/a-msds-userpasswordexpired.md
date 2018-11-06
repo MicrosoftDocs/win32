@@ -1,9 +1,6 @@
 ---
 title: ms-DS-User-Password-Expired attribute
 description: Indicates whether the password for the account that this attribute references has expired.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cab4a2e8-b440-45d2-8da8-9f020ffee08c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-User-Password-Expired
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

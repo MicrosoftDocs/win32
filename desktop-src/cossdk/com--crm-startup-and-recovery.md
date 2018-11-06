@@ -2,7 +2,6 @@
 Description: COM+ CRM Startup and Recovery
 ms.assetid: dee1f2df-dfe0-44c3-830b-871690e513e9
 title: COM+ CRM Startup and Recovery
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

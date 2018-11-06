@@ -2,7 +2,6 @@
 title: Button Control Macros
 description: .
 ms.assetid: ca4b0301-ede8-45c8-88b6-2fb2ee967d8a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

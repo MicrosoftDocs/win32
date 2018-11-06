@@ -1,12 +1,8 @@
 ---
 Description: SNMP devices can be accessed by reading from or writing to their corresponding class instance in the WMI SMIR (SNMP Module Information Repository).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: af5e1321-b552-447e-a217-eecbebe1f203
 ms.tgt_platform: multiple
 title: Reading from and Writing to SNMP Devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

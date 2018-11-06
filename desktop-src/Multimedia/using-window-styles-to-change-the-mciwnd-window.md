@@ -4,7 +4,6 @@ description: Using Window Styles to Change the MCIWnd Window
 ms.assetid: 85851c37-e3d3-45f8-9c0a-0e1392c414af
 keywords:
 - MCIWndCreate function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

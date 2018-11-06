@@ -2,7 +2,6 @@
 Description: The get\_ParticipantTypedInfo method gets a BSTR representation of the type of information needed, such as PTI\_EMAILADDRESS.
 ms.assetid: 8dcc6182-ad3c-47f2-b4a0-e18a3c9f6888
 title: ITParticipant::get_ParticipantTypedInfo method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

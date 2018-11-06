@@ -2,7 +2,6 @@
 Description: To a person trained in the mechanics of manuscript composition or familiar with standard typography, some of the typographic terms used in this overview may be unusual.
 ms.assetid: 3abb2e45-430d-47ce-829f-319b31985f9f
 title: About Fonts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

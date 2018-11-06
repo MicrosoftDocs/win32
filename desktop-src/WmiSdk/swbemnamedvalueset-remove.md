@@ -1,12 +1,8 @@
 ---
 Description: The Remove method of the SWbemNamedValueSet object deletes a named value from the context.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8cb353fb-c6d7-41d9-a2d0-ff1ad37264e4
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.Remove method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

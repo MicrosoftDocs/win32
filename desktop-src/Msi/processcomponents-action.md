@@ -2,7 +2,6 @@
 Description: The ProcessComponents action registers and unregisters components, their key paths, and the component clients.
 ms.assetid: 8ad418c0-9bba-41d0-a96c-2c7b1c2467d9
 title: ProcessComponents Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

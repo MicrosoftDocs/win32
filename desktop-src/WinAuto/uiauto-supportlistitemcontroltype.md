@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for ListItem control type
 - control types,support for ListItem
 - control types,ListItem
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

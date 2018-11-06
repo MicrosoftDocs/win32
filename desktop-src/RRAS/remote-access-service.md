@@ -2,7 +2,6 @@
 title: Remote Access Service
 description: Remote Access Service
 ms.assetid: '2c5ab0bb-5310-4ffb-bedc-2a92afca2674'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

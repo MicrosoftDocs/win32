@@ -2,7 +2,6 @@
 Description: The denominator of PKEY\_Photo\_FlashEnergy.
 ms.assetid: 87e82d71-fa6b-4e67-971d-7b17149fca2c
 title: System.Photo.FlashEnergyDenominator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

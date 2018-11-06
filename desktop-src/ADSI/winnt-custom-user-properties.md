@@ -1,15 +1,11 @@
 ---
 title: WinNT Custom User Properties
 description: The WinNT provider makes available the following custom properties for the User class. They may be accessed through the IADs.Get and IADs.Put methods. For more information, see the USER\_INFO\_3 structure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3b122424-ff24-4de7-bdaf-693fb4529b09
 ms.tgt_platform: multiple
 keywords:
 - WinNT Custom User Properties ADSI
 - WinNT provider ADSI , user object, custom properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: DN-Reference-Update attribute
 description: If an object is renamed, this attribute is used to track all of the previous and current names that have been assigned to an object so that linked objects can still find it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 28e02a38-eed8-475c-a381-145857477ec6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DN-Reference-Update
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

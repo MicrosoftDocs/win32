@@ -2,7 +2,6 @@
 Description: Initiate the rendering of a spherical environment map.
 ms.assetid: b0634120-f5ad-48b3-979a-30b0a53d22a2
 title: ID3DXRenderToEnvMap::BeginSphere method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

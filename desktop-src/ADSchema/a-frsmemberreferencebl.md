@@ -1,9 +1,6 @@
 ---
 title: FRS-Member-Reference-BL attribute
 description: Reference to subscriber objects for this member.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d2ea3024-92da-4e7e-8fc9-ddbaa04d689f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Member-Reference-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

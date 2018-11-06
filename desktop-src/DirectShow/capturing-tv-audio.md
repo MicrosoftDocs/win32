@@ -2,7 +2,6 @@
 Description: Capturing TV Audio
 ms.assetid: c0c62a8e-ab16-4617-936c-b64e6e3865b4
 title: Capturing TV Audio
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

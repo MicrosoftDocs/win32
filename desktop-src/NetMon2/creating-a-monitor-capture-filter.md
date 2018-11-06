@@ -2,7 +2,6 @@
 Description: Creating a capture filter that works with Network Monitor is a five-step process.
 ms.assetid: 04be791c-43c5-44c2-8ab0-799a99974bf6
 title: Creating a Monitor Capture Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

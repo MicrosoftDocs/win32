@@ -7,7 +7,6 @@ keywords:
 - Windows Media Player skins,video
 - skins,video
 - video in skins,adding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Provides a custom user interface that replaces the default system user interface.
 ms.assetid: 0d70392d-294a-42bf-adc5-1006f83d7e21
 title: IWiaUIExtension2::DeviceDialog method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

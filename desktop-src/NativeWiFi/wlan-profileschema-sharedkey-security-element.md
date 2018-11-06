@@ -2,7 +2,6 @@
 Description: Contains shared key information.
 ms.assetid: 9f401441-256c-4702-9503-f87b2b9cf0ee
 title: sharedKey (security) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

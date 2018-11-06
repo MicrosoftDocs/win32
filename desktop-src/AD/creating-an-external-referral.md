@@ -1,15 +1,11 @@
 ---
 title: Creating an External Referral
 description: If an external crossRef object is created and a domain controller uses it to generate a referral, the crossRef object provides two important data elements in the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9805390c-9e8d-4afd-bffc-43abf6055413
 ms.tgt_platform: multiple
 keywords:
 - external referrals Active Directory
 - Active Directory examples Active Directory , creating an external referral
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

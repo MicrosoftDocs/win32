@@ -2,7 +2,6 @@
 Description: The scripting sample in this topic shows you how to use the Windows Update Agent (WUA) to scan, download, and install a specific update. The update can be specified by its title.
 ms.assetid: 4a5bb920-fc51-48a0-8f66-bb2fcc72589f
 title: Searching, Downloading, and Installing Specific Updates
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -30,7 +29,7 @@ Before you attempt to run this sample, note the following:
 
 ## Example
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This script is intended to demonstrate the use of the Windows Update Agent APIs, and provide an example of how developers can use these APIs to solve problems. This script is not intended as production code, and the script itself is not supported by Microsoft (though the underlying Windows Update Agent APIs are supported).
 
  

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientSecuredSettings2 interface
 description: Defines additional properties of the Remote Desktop ActiveX control that are restricted to specific Internet Explorer URL security zones.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dde9824c-7adf-4783-bb1a-fb2bdbb7aead
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

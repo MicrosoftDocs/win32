@@ -1,9 +1,6 @@
 ---
 title: Trust-Attributes attribute
 description: This attribute stores the trust attributes for a trusted domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c85b98a6-4d09-4eb2-821b-58ef558b3460
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Trust-Attributes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

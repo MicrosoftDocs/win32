@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Supersede-Templates attribute
 description: Specifies the names of the certificate templates that are superseded by the current template.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4e247932-1c50-4bfb-b723-52b7c36a8571
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Supersede-Templates
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

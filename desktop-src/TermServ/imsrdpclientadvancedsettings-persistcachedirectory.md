@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings PersistCacheDirectory property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4e92a1c8-a9e6-47c5-b231-e5c1a7e0701c
 ms.tgt_platform: multiple
 keywords:
@@ -47,7 +44,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

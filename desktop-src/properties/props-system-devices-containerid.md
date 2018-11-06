@@ -2,7 +2,6 @@
 Description: Device container ID.
 ms.assetid: 171c5b96-5d6d-4880-9ebb-16bfe05e4e4c
 title: System.Devices.ContainerId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

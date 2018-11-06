@@ -2,7 +2,6 @@
 Description: An effect can be used to store information, or to render using a group of state.
 ms.assetid: c5654335-ad80-4a5b-bf1f-5f32b2cc8ea2
 title: Rendering an Effect (Direct3D 10)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

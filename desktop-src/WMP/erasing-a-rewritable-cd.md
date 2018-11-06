@@ -13,7 +13,6 @@ keywords:
 - CD burning,erasing rewritable CDs
 - burning CDs,erasing rewritable CDs
 - erasing rewritable CDs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Service-Connection-Point class
 description: This object is for publishing information that client applications can use to bind to a service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8615dc9a-001c-4a48-a9dd-0b1772b35c46
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Connection-Point
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

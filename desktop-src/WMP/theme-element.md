@@ -8,7 +8,6 @@ keywords:
 - THEME element
 - reference for skins,THEME element
 - elements,THEME
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

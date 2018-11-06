@@ -2,7 +2,6 @@
 title: Out-of-Process Server Implementation Helpers
 description: Out-of-Process Server Implementation Helpers
 ms.assetid: 18641a84-56f8-4d27-9ddb-fa64011ac8ba
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

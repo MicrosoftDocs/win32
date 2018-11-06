@@ -1,9 +1,6 @@
 ---
 title: GetRedirectableAddresses method of the Win32_TSSessionDirectory class
 description: Obtains the entire list of DNS eligible addresses.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 828079e7-472c-4428-97a0-2d5dedcdae91
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

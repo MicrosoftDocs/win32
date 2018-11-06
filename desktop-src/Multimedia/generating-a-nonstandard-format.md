@@ -7,7 +7,6 @@ keywords:
 - ACM (audio compression manager),nonstandard formats
 - ACM examples,nonstandard formats
 - acmFormatSuggest function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

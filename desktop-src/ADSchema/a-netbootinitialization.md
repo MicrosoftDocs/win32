@@ -1,9 +1,6 @@
 ---
 title: Netboot-Initialization attribute
 description: Default boot path for diskless boot.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 359f9fff-1630-4c47-9221-1a2cc6249567
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Netboot-Initialization
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

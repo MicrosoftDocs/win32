@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 6f99f54b-c401-42ea-8715-95a2aad73042
 title: PageMediaSize
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

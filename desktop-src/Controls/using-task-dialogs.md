@@ -2,7 +2,6 @@
 title: Using Task Dialogs
 description: This section contains implementation details for using task dialog controls in your applications.
 ms.assetid: 212868B1-CA63-464E-9CBD-C50389FB45B9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

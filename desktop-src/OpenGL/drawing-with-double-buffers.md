@@ -5,7 +5,6 @@ ms.assetid: 10801cc7-d26c-4bfd-95c0-f352a1c7a1f5
 keywords:
 - OpenGL on Windows,double buffers
 - double buffers OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

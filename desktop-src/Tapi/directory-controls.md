@@ -2,7 +2,6 @@
 Description: The following diagram illustrates the main objects involved in TAPI 3 Rendezvous directory controls. Interfaces shown are hyperlinked into the relevant reference pages.
 ms.assetid: f5ca1d61-5266-4406-8199-338e6a712db8
 title: Directory Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

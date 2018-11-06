@@ -2,7 +2,6 @@
 title: Processing Groups and Callbacks
 description: The following table summarizes a series of steps in an operational interaction between a routing protocol and the multicast group manager.
 ms.assetid: 43c1dc12-70fd-4e02-a7b1-5818e6d7ddc6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

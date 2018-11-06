@@ -2,7 +2,6 @@
 Description: Checks volume-texture-creation parameters.
 ms.assetid: 1a02cb99-2582-4d8f-aacf-67ed75f6deb8
 title: D3DXCheckVolumeTextureRequirements function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

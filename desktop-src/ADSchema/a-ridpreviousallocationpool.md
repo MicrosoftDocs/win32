@@ -1,9 +1,6 @@
 ---
 title: RID-Previous-Allocation-Pool attribute
 description: Contains the pool of relative identifiers (RIDs) that a domain controller allocates from.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d2f60259-388b-4dea-a1f7-9e650b1a66db
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RID-Previous-Allocation-Pool
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

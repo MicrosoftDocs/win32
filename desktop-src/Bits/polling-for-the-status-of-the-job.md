@@ -5,7 +5,6 @@ ms.assetid: b12ee1e0-d3d9-4d31-b2af-7491480968f0
 keywords:
 - transfer job BITS , polling
 - polling for job status BITS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The IOCSPProperty interface exposes the following properties.
 ms.assetid: 9621CA21-907B-4543-AB99-14860AFE8337
 title: IOCSPProperty Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

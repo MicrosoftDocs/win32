@@ -4,7 +4,6 @@ description: A string name block (SNB) is a pointer to an array of pointers to s
 ms.assetid: '8428a820-3d8a-41e0-9955-d355440e2ebc'
 keywords:
 - SNB
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

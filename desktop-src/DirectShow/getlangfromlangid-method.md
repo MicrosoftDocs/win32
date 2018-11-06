@@ -2,7 +2,6 @@
 Description: The GetLangFromLangID method retrieves a human-readable string when given a primary language ID.
 ms.assetid: 73cff3df-bfcd-4e51-bd41-51545ed82f09
 title: GetLangFromLangID Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

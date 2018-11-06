@@ -2,7 +2,6 @@
 title: Managing Router Clients and Interfaces
 description: The following topics describe how to perform typical management tasks using the MprAdmin and MprConfig and MprInfo functions
 ms.assetid: a2151472-c29f-4989-921c-db05e8908ebd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

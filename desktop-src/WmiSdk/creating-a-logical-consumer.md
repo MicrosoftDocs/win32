@@ -1,12 +1,8 @@
 ---
 Description: A logical consumer is an instance of a permanent event consumer class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fd984de8-0fe6-4b32-8e8c-4e2db84b4cc0
 ms.tgt_platform: multiple
 title: Creating a Logical Consumer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

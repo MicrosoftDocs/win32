@@ -5,7 +5,6 @@ ms.assetid: 76152cd8-f285-42b3-8ee5-bbab1d14b99f
 keywords:
 - MIB, obtaining the interfaces
 - Obtaining the MIB interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

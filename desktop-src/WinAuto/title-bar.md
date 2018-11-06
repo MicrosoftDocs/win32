@@ -2,7 +2,6 @@
 title: Title Bar (MSAA UI Element Reference)
 description: The title bar at the top of a window displays an application-defined icon and line of text.
 ms.assetid: f41ab777-6c94-4d8e-b743-c635e93df396
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

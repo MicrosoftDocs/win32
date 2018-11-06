@@ -1,12 +1,8 @@
 ---
 Description: The well-known identifier \_\_CLASS refers to a pseudo-property on every WMI object that indicates the class of the current object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a1d0e934-c5b5-4554-9d6e-3881064419ca
 ms.tgt_platform: multiple
 title: '__CLASS Identifier'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

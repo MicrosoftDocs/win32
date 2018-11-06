@@ -1,7 +1,6 @@
 ---
 Description: As of Windows 7, cascading menus are created through the SubCommands registry entry, the ExtendedSubCommandsKey registry entry, or the IExplorerCommand interface.
 title: Creating Static Cascading Menus
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

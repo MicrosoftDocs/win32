@@ -1,12 +1,8 @@
 ---
 title: ANR Attributes
 description: The following are the attributes that support ambiguous name resolution (ANR).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fc76c2e8-461f-48bf-82ed-329b8f74408e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

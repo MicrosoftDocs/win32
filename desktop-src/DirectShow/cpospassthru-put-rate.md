@@ -2,7 +2,6 @@
 Description: The put\_Rate method sets the playback rate. This method implements the IMediaPosition::put\_Rate method.
 ms.assetid: c077f344-de34-4f8a-8e08-6d7086a5a4f1
 title: CPosPassThru.put_Rate method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

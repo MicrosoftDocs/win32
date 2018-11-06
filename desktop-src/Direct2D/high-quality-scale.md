@@ -4,7 +4,6 @@ description: Use this effect to scale an image up or down. The effect has six sc
 ms.assetid: 99DFA8DB-384B-4F64-90A2-0D3D7E1ACF27
 keywords:
 - scale effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

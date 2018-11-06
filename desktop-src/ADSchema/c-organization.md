@@ -1,9 +1,6 @@
 ---
 title: Organization class
 description: Stores information about a company or organization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 97fb445d-8fd4-4004-adb5-b6b5f7d2cc59
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Organization
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

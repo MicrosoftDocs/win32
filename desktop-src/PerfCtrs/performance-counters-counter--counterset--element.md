@@ -2,7 +2,6 @@
 Description: Identifies a counter in a counter set that the provider provides.
 ms.assetid: 5b39804f-c117-4f1f-b100-d02674d1e8ad
 title: counter (counterSet) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

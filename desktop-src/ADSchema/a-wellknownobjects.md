@@ -1,9 +1,6 @@
 ---
 title: Well-Known-Objects attribute
 description: This attribute contains a list of well-known object containers by GUID and distinguished name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e3c2d243-6734-4c2f-9ead-bc4ec071d1f1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Well-Known-Objects
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

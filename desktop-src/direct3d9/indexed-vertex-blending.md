@@ -2,7 +2,6 @@
 Description: Indexed vertex blending extends the vertex blending support in Direct3D to allow matrices to be used for blending.
 ms.assetid: d320cb8a-48b6-4a53-a051-d50f239c1aa3
 title: Indexed Vertex Blending (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

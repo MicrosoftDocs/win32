@@ -2,7 +2,6 @@
 Description: LOCALE\_SENG\* Constants
 ms.assetid: a1990e5a-c2c2-4ecc-a206-f818b179fc80
 title: LOCALE_SENG* Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

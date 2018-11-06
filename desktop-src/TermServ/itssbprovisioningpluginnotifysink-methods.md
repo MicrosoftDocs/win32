@@ -1,12 +1,8 @@
 ---
 title: ITsSbProvisioningPluginNotifySink Methods
 description: The ITsSbProvisioningPluginNotifySink interfaces exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 85215405-298E-4413-A026-509A9FDA171F
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

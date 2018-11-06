@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings6 ConnectToAdministerServer property
 description: Retrieves or specifies whether the ActiveX control should attempt to connect to the server for administrative purposes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b98f9b9b-a3e7-4a3c-a7e3-e388ce53c5c9
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

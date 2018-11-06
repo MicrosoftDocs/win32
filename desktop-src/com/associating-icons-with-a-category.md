@@ -2,7 +2,6 @@
 title: Associating Icons with a Category
 description: Associating Icons with a Category
 ms.assetid: 5e5c3c10-07cf-4a34-9822-97ec940b3117
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

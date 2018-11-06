@@ -2,7 +2,6 @@
 Description: Contains red, green, and blue ramp data.
 ms.assetid: c596f47a-6c09-4b97-ab2f-b1da3d851aa4
 title: D3DGAMMARAMP structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type:

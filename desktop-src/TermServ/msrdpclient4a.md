@@ -1,9 +1,6 @@
 ---
 title: MsRdpClient4a class
 description: Microsoft RDP Client Control (redistributable) - version 5a.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D025E5A2-9A04-44BC-BE6C-581E6B34ABCF
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

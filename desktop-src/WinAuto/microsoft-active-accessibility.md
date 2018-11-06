@@ -2,7 +2,6 @@
 title: Microsoft Active Accessibility
 description: Microsoft Active Accessibility is a Component Object Model (COM)-based technology that improves the way accessibility aids work with applications running on Microsoft Windows.
 ms.assetid: f3e31c6f-c49e-4a61-99f1-b695ece2bfc9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

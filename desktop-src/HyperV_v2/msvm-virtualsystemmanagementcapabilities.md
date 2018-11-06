@@ -2,7 +2,6 @@
 Description: Describes the capabilities of the associated Msvm\_VirtualSystemManagementService.
 ms.assetid: 3a167b06-bddd-4bac-95c0-ecf14e01eec0
 title: Msvm_VirtualSystemManagementCapabilities class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

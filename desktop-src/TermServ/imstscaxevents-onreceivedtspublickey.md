@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnReceivedTSPublicKey method
 description: Called during the connection sequence when the client retrieves the public key from the server. This event is only called if the NotifyTSPublicKey property is VARIANT\_TRUE.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1db98b8b-2f08-4252-ad8b-6764fa25b300
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

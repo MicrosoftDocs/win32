@@ -2,7 +2,6 @@
 Description: The ICertManageModule interface exposes the following methods.
 ms.assetid: F44D827F-F537-4D8E-AE68-A74B65439882
 title: ICertManageModule Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

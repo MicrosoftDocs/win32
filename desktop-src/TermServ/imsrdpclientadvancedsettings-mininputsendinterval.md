@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings minInputSendInterval property
 description: Specifies the minimum interval, in milliseconds, between the sending of mouse events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d186c05f-0b45-47bd-8a8e-e1f9baf2bd75
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

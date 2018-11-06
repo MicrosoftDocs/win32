@@ -2,7 +2,6 @@
 title: About ComboBoxEx Controls
 description: ComboBoxEx controls are combo box controls that provide native support for item images.
 ms.assetid: a4b1aa79-40c4-4eff-801c-4f308d86fb35
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

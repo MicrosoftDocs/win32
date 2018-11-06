@@ -2,7 +2,6 @@
 title: IAgentNotifySinkEx HelpComplete
 description: IAgentNotifySinkEx HelpComplete
 ms.assetid: f8285d05-3b96-4046-a058-0e001e47b54b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The following control codes are used with batteries.
 ms.assetid: 027fffdb-62a1-47d8-b69f-c2fcf7f9ac97
 title: Power Management Control Codes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

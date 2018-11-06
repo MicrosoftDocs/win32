@@ -1,14 +1,8 @@
 ---
 Description: Modifies the start mode of a Win32\_Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4fd6a1eb-d2e0-4172-843d-24ae89c5bfcf
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ChangeStartMode method of the Win32_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

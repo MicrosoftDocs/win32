@@ -2,7 +2,6 @@
 Description: Represents an association between a port or connection point and a device.
 ms.assetid: b35e741a-7110-4e48-a132-d436f4fbf038
 title: CIM_PortOnDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

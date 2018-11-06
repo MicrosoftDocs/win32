@@ -2,7 +2,6 @@
 Description: Projects a 3D vector from object space into screen space.
 ms.assetid: b012771d-052f-4bf9-b39c-387d8a63fa59
 title: D3DXVec3Project function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

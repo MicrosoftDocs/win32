@@ -9,7 +9,6 @@ keywords:
 - DRM (digital rights management),import
 - DRM Client Extended APIs,import
 - Client Extended APIs,import
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

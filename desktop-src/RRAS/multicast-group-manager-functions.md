@@ -2,7 +2,6 @@
 title: Multicast Group Manager Functions
 description: The following functions are used to register with the multicast group manager
 ms.assetid: d4374ced-06ea-49dd-8f52-0d06612aa4c3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

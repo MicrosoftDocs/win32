@@ -1,9 +1,6 @@
 ---
 title: Bytes-Per-Minute attribute
 description: Printer data transfer rate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e2ed6fb7-d833-40ed-925b-689246c2953b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Bytes-Per-Minute
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

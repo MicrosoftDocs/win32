@@ -2,7 +2,6 @@
 Description: The following is an alphabetic listing of the TAPI 3.x call center controls interfaces.
 ms.assetid: 55d9dd24-0902-4f6a-85f6-4ec11ce9fbaa
 title: Call Center Controls Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Title Summary property briefly describes the type of the installer package. Phrases such as &\#0034;Installation Database&\#0034; or &\#0034;Transform&\#0034; or &\#0034;Patch&\#0034; may be used for this property.
 ms.assetid: be8f4c81-fb34-44ab-b026-97435243ac93
 title: Title Summary property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The PF\_FOLLOWSET structure defines the protocols that may precede or follow a protocol.
 ms.assetid: ef444af9-edae-4547-9548-8a682c279f08
 title: PF_FOLLOWSET structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

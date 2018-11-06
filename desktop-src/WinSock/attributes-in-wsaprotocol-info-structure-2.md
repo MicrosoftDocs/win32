@@ -2,7 +2,6 @@
 Description: XP1\_SUPPORT\_MULTIPOINT, XP1\_MULTIPOINT\_CONTROL\_PLANE, and XP1\_MULTIPOINT\_DATA\_PLANE attribute parameters in the Winsock WSAPROTOCOL\_INFO structure.
 ms.assetid: 62f5b8b0-a404-49d1-b163-026f79a46845
 title: Attributes in WSAPROTOCOL_INFO Structure
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Using Windows Remote Management
 description: Windows Remote Management is intended to improve hardware management in a network environment with various devices running a variety of operating systems.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6ee2b238-5bc2-4274-b7ca-49dbc728d8f1
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Netboot-GUID attribute
 description: Diskless boot A computer's on-board GUID. Corresponds to the computer's network card MAC address.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 60ce0482-79a3-499a-9607-f1f496e297d0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Netboot-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

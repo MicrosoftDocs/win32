@@ -2,7 +2,6 @@
 Description: The following are the COM+ administration classes.
 ms.assetid: e9f05597-00a4-46d3-8950-ed28861b898a
 title: COM+ Administration Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

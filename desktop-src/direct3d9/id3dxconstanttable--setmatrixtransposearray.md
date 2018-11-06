@@ -2,7 +2,6 @@
 Description: Sets an array of transposed matrices.
 ms.assetid: a67afc21-f43d-4dc5-b145-f3d66dd86dbb
 title: ID3DXConstantTable::SetMatrixTransposeArray method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

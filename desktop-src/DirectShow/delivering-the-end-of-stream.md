@@ -2,7 +2,6 @@
 Description: Delivering the End of Stream
 ms.assetid: 23afdb2e-93b0-4a74-94bd-e38eb82a5995
 title: Delivering the End of Stream
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

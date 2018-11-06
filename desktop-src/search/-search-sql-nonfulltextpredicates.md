@@ -2,7 +2,6 @@
 Description: The Microsoft Windows Search query language supports six non-full-text search predicates. The predicates described in this section are listed in the following table.
 ms.assetid: 74aa6dbc-5c0d-433e-96d9-a8db63907342
 title: Non-Full-Text Predicates
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -26,7 +25,7 @@ The Microsoft Windows Search query language supports six non-full-text search pr
 
  
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Search queries using the **NULL** predicate can require that Windows Search scan the entire catalog, which might slow down the query's performance.
 
  

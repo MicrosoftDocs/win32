@@ -2,7 +2,6 @@
 Description: Contains a pointer to the applications callback interface for the sink writer.
 ms.assetid: 22df1fa0-469d-4501-aaf0-a0379b7ed096
 title: MF_SINK_WRITER_ASYNC_CALLBACK attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Encapsulates a transform frame in a transformation frame hierarchy.
 ms.assetid: 838d75c2-41b2-4703-961b-893c34104c55
 title: D3DXFRAME structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

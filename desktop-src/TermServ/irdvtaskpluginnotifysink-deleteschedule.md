@@ -1,9 +1,6 @@
 ---
 title: IRDVTaskPluginNotifySink DeleteSchedule method
 description: Called by the task agent to delete a scheduled task.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 67a9493e-367a-48c9-8f94-276d696406b7
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_name:
 - IRDVTaskPluginNotifySink.DeleteSchedule
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

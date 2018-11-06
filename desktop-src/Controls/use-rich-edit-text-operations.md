@@ -2,7 +2,6 @@
 title: How to Use Rich Edit Text Operations
 description: An application can send messages to retrieve or find text in a rich edit control. You can retrieve either the selected text or a specified range of text.
 ms.assetid: 95D88F9A-3DD1-48E4-B6FF-3168F2D25846
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

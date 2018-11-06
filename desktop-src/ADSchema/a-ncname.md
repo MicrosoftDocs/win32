@@ -1,9 +1,6 @@
 ---
 title: NC-Name attribute
 description: The distinguished name of the Naming Context for the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c60294b6-b803-49b4-9c94-6c0b82a45a9c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NC-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

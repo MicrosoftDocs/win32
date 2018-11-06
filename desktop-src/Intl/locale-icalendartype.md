@@ -2,7 +2,6 @@
 Description: LOCALE\_ICALENDARTYPE
 ms.assetid: 1b7bc650-8edf-465c-a166-1bbe41131149
 title: LOCALE_ICALENDARTYPE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

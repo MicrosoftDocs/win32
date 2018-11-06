@@ -1,12 +1,8 @@
 ---
 title: Providing for RDP client security
 description: Some properties of the Remote Desktop ActiveX control object are restricted to specific Internet Explorer URL security zones.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fd20ec03-a5e4-4c3e-9bf5-5fa841e869c3
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

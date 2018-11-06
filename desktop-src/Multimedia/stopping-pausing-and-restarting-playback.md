@@ -18,7 +18,6 @@ keywords:
 - stopping waveform-audio playback
 - pausing waveform-audio playback
 - restarting waveform-audio playback
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

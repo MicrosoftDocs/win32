@@ -4,7 +4,6 @@ description: This section contains information about the shader functions.
 ms.assetid: 4acbd433-c28d-4630-aa0e-25f2fb5c32d0
 keywords:
 - functions, Direct3D 11 Shader
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

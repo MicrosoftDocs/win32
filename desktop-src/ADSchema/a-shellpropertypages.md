@@ -1,9 +1,6 @@
 ---
 title: Shell-Property-Pages attribute
 description: The order number and GUID of property pages for managing Active Directory objects. These property pages can be accessed from the Windows shell. For more information see the document, Extending the User Interface for Directory Objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e0edd91b-bdb6-47aa-9be2-8a23a89adb26
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Shell-Property-Pages
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

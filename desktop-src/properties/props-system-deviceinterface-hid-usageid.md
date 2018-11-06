@@ -2,7 +2,6 @@
 Description: HID device Usage Id.
 ms.assetid: fce0abc2-f56b-4f92-9e77-170275d6f491
 title: System.DeviceInterface.Hid.UsageId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

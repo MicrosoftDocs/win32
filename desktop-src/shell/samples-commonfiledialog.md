@@ -1,7 +1,6 @@
 ---
 Description: Demonstrates how to create a custom file open/save dialog by using different Common File Dialog APIs.
 title: Common File Dialog Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

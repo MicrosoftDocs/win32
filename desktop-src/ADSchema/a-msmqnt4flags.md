@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Nt4-Flags attribute
 description: The MSMQ-Nt4-Flags attribute contains MSMQ mixed-mode information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 08984fd8-7bbb-4d3e-accc-8fee033457fb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Nt4-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

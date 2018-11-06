@@ -1,9 +1,6 @@
 ---
 title: Dns-Root attribute
 description: The uppermost DNS domain name assigned to a domain/directory partition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0b33daad-b5c5-4126-86fa-abd3e0006c5f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Dns-Root
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

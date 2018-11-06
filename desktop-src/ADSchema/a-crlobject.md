@@ -1,9 +1,6 @@
 ---
 title: CRL-Object attribute
 description: Reference to certificate revocation list object associated with a certification authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6f1abf8e-c93e-48d6-8ca1-a46b43bdd032
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - CRL-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

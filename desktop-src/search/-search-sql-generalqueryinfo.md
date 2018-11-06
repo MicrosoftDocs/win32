@@ -2,7 +2,6 @@
 Description: 'This section includes the following topics:'
 ms.assetid: f390c793-cb61-492c-8797-da0df0a36ece
 title: General Query Language Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

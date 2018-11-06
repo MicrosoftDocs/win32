@@ -2,7 +2,6 @@
 Description: Constructs a CMsg object.
 ms.assetid: b7ee0643-73e4-450d-bff4-ca5006fdcc14
 title: CMsg.CMsg constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

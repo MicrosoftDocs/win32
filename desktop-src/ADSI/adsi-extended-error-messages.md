@@ -1,14 +1,10 @@
 ---
 title: ADSI Extended Error Messages
 description: This topic contains a list of topics that explain how to work with ADSI error messages that are returned by IADs, IADsContainer, IDirectoryObject, and IDirectorySearch.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cfec86cb-fe90-4e2b-8c9d-06e175253fa4
 ms.tgt_platform: multiple
 keywords:
 - ADSI Extended Error Messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

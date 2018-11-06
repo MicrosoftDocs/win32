@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: d5b3eb74-bd6a-4e05-90f9-fe713f931106
 title: System.Link.TargetUrlPath
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

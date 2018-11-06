@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings NumBitmapCaches property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a413b2c0-7661-415d-bc38-e8fd55006e8c
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

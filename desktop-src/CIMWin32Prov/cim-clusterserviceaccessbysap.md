@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ClusterServiceAccessBySAP class represents the relationship between a clustering service and its access points.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b1e03ef1-909c-4836-a75f-c8d88a4d0087
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ClusterServiceAccessBySAP class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_ClusterServiceAccessBySAP** class represents the relationship between a clustering service and its access points.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

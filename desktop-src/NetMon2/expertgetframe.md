@@ -2,7 +2,6 @@
 Description: Returns the requested frame from a loaded capture.
 ms.assetid: efd1cff5-a3a1-4910-b003-25b6e10dad6e
 title: ExpertGetFrame function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

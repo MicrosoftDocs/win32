@@ -2,7 +2,6 @@
 Description: Lists the requirements enforced by strong password system administration tools.
 ms.assetid: a84f83b2-181b-4f65-82bd-bc7f0689aad3
 title: Strong Password Enforcement and Passfilt.dll
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

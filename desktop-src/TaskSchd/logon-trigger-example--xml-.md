@@ -2,7 +2,6 @@
 title: Logon Trigger Example (XML)
 description: The XML in this example defines a task that starts Notepad when a user logs on.
 ms.assetid: c1cce95f-7558-489e-b092-c82d55b42165
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

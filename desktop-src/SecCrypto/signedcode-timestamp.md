@@ -2,7 +2,6 @@
 Description: Creates an Authenticode time stamp signature on the signed executable file specified in the SignedCode.FileName property.
 ms.assetid: 8f4c9901-b509-4e4c-82f9-a802b0896a11
 title: SignedCode.Timestamp method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

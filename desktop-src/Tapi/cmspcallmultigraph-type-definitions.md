@@ -2,7 +2,6 @@
 Description: The following list contains the CMSPCallMultiGraph type definitions.
 ms.assetid: 7be01f6a-dab2-4256-9a28-65606ea4392f
 title: CMSPCallMultiGraph Type Definitions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

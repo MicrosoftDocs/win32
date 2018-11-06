@@ -2,7 +2,6 @@
 title: swapc (sm5 - asm)
 description: Performs a component-wise conditional swap of the values between two input registers.
 ms.assetid: 3DFCEB82-076E-4AFA-915F-47390A355B7C
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

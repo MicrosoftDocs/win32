@@ -2,7 +2,6 @@
 Description: The XMSHORT2 structure exposes the following operators.
 ms.assetid: 7e9cad7b-03c2-45ec-8fe9-110f4197cae1
 title: XMSHORT2 Operators
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

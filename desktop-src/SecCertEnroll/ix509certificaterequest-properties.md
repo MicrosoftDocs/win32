@@ -2,7 +2,6 @@
 Description: The IX509CertificateRequest interface exposes the following properties.
 ms.assetid: 580EE4DC-9DAE-4026-929C-3F6F2E388926
 title: IX509CertificateRequest Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

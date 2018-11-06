@@ -1,9 +1,6 @@
 ---
 title: Binding to Well-Known Objects Using WKGUID
 description: This topic shows how to bind to objects using the WKGUID binding string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cc9846c4-415e-48ee-ae08-6631636d3a63
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - Active Directory, using, binding, using WKGUID to bind to well-known objects
 - well-known objects AD
 - well-known objects AD , binding to using WKGUID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -42,7 +38,7 @@ These objects are in every **domainDNS** and configuration container in an Activ
 
 You can bind to a well-known object using the WKGUID binding format. Binding with WKGUID is only supported in Active Directory Domain Services, that is, the LDAP provider.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Always use the WKGUID binding format to bind to the well-known objects, as listed above, in the domain and configuration containers. This ensures that these containers can be bound to even if they are moved or renamed.
 
  

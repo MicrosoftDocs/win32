@@ -1,14 +1,8 @@
 ---
 Description: Renames a user account name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 90258256-7470-4ec8-afce-bea0f64b90fb
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Rename method of the Win32_UserAccount class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

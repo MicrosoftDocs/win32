@@ -2,7 +2,6 @@
 Description: The center of the BoundingSphere.
 ms.assetid: 5e8a6cd6-a38b-406c-a759-8685bfecc0e6
 title: BoundingSphere.Center
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

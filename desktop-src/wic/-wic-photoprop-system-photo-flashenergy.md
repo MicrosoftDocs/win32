@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.Photo.FlashEnergy property.
 ms.assetid: d10a4de9-16fe-4920-aa7f-b2f95fb23045
 title: System.Photo.FlashEnergy Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

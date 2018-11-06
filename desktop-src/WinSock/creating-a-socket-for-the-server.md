@@ -2,7 +2,6 @@
 Description: After initialization, a SOCKET object must be instantiated for use by the server.
 ms.assetid: 2f3a7cab-3296-41ec-ac7e-224655b92a7c
 title: Creating a Socket for the Server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

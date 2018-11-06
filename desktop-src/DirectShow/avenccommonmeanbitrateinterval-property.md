@@ -2,7 +2,6 @@
 Description: Specifies the time interval over which the average bit rate applies. This property is used in conjunction with the AVEncCommonMeanBitRate property.
 ms.assetid: 3cf26f46-e8ac-448a-a031-800915cad1ef
 title: AVEncCommonMeanBitRateInterval property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

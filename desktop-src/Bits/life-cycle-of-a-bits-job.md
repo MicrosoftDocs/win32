@@ -2,7 +2,6 @@
 title: Life Cycle of a BITS Job
 description: The life cycle of a BITS job begins when you create a job.
 ms.assetid: b765a8ef-74bd-475e-9cd9-e9e2cf4f0305
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018
 ---

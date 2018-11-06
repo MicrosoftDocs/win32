@@ -2,7 +2,6 @@
 Description: This function takes the origin attribute if present from the origin token and sets them on a duplicate of the inheriting token, and returns the duplicate token.
 ms.assetid: ED1FAEA1-0665-49FA-BD8B-232254B4C883
 title: srpInheritOriginClaim function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

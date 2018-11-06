@@ -2,7 +2,6 @@
 Description: Generates implementations for proxy functions for port type operations.
 ms.assetid: 9505ee5f-fdb9-41b8-9537-0c5d29f90168
 title: proxyFunctionImplementations element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

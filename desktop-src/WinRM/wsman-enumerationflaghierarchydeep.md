@@ -1,9 +1,6 @@
 ---
 title: WSMan.EnumerationFlagHierarchyDeep method
 description: Returns the value of the enumeration flag EnumerationFlagHierarchyDeep for use in the flags parameter of Session.Enumerate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b84b82fa-0b2e-418e-850f-6d7a4749fdc1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

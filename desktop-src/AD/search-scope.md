@@ -1,15 +1,11 @@
 ---
 title: Specifying the Search Scope
 description: You can specify the scope of a search as either a base, one-level, or subtree search.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b02354c2-7b95-4911-8ae3-4a261d3ca2d3
 ms.tgt_platform: multiple
 keywords:
 - Specifying the Search Scope AD
 - Active Directory,searching,specifying the search scope
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

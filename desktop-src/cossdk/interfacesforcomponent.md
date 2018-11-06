@@ -2,7 +2,6 @@
 Description: Contains an object for each interface exposed by the component to which the collection is related.
 ms.assetid: ee755693-e3ff-4bb1-9fde-a2bfee9c3d29
 title: InterfacesForComponent collection
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

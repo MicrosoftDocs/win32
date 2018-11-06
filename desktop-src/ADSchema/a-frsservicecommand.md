@@ -1,9 +1,6 @@
 ---
 title: FRS-Service-Command attribute
 description: A Unicode string that an admin can set to pass a command to every replica set member. Not used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d8b6fd1-9040-42d2-816c-86fed4d54c41
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Service-Command
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

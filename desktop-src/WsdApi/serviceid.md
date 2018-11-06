@@ -2,7 +2,6 @@
 Description: A URI that represents the service identifier.
 ms.assetid: ef676f02-56a7-4b3a-9ca3-e7fa3c494ec7
 title: ServiceID element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

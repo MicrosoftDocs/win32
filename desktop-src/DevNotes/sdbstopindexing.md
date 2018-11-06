@@ -2,7 +2,6 @@
 Description: Disables index creation and modification for the specified database.
 ms.assetid: d079eae2-574e-4ac1-a0f9-11796e56a790
 title: SdbStopIndexing function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

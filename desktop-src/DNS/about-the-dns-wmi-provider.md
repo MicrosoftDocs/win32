@@ -4,7 +4,6 @@ description: DNS Servers map IP addresses to computer names and computer names t
 ms.assetid: 59db6747-45d5-4894-96a4-ddb081f1d74c
 keywords:
 - Domain Name System, WMI provider, described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: How to Align Text
 description: You can align DirectWrite text by using the SetTextAlignment method of the IDWriteTextFormat interface.
 ms.assetid: 7f79dcff-11f6-4e74-b5bd-98bfebe6e393
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Win32_SessionBrokerTargetEvent class
 description: Represents a change to a session broker target.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ee3ae0ed-eb8b-4777-9b9e-0e50722cf52a
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

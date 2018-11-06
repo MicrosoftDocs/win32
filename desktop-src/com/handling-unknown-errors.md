@@ -2,7 +2,6 @@
 title: Handling Unknown Errors
 description: Handling Unknown Errors
 ms.assetid: d6a4cc60-8320-4b67-9f2e-7c4bea6c37fb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: 'Secure communication over nonsecure networks generally involves three major areas of concern: privacy, authentication, and integrity.'
 ms.assetid: bfffe87d-8392-4b4a-8bbc-01b9c13fba47
 title: Cryptography Concepts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

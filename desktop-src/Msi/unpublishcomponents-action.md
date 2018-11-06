@@ -2,7 +2,6 @@
 Description: The UnpublishComponents action manages the unadvertisement of components listed in the PublishComponent table.
 ms.assetid: 3e50f668-6d08-405e-a5a4-f422041ef0b1
 title: UnpublishComponents Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

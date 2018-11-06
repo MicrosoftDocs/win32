@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 5276dc2b-a448-47b3-8f9e-4585b767a9c0
 title: System.ProviderItemID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

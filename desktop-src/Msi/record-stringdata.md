@@ -2,7 +2,6 @@
 Description: The StringData property of the Record object is a read-write property that transfers string data in to or out of a specified field within the record. If an integer or object has been stored, its string value is returned.
 ms.assetid: ffa163eb-41b3-47ae-b01d-39a3890990a3
 title: Record.StringData property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

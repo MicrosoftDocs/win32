@@ -1,7 +1,6 @@
 ---
 Description: CPL\_SELECT message
 title: CPL_SELECT message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

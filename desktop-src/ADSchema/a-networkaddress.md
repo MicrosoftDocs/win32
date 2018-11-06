@@ -1,9 +1,6 @@
 ---
 title: Network-Address attribute
 description: The TCP/IP address for a network segment. Also called the subnet address.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: caccb00f-8418-43b8-87c7-7ccb7e2ee51d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Network-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

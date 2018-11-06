@@ -2,7 +2,6 @@
 Description: The installer sets the WindowsBuild property to the build number of the operating system. For more information, see Operating System Property Values.
 ms.assetid: b5e8ac33-6f24-4e8b-8fc5-7c5933a07646
 title: WindowsBuild property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

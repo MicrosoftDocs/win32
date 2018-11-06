@@ -1,14 +1,10 @@
 ---
 title: Win32 Error Codes for ADSI
 description: Standard Win32 error codes are also used to return ADSI error messages.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5b7b85c9-ccca-4ea3-8b37-54f6b30a509f
 ms.tgt_platform: multiple
 keywords:
 - Win32 Error Codes for ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

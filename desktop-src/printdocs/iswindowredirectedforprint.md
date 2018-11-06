@@ -2,7 +2,6 @@
 Description: The IsWindowRedirectedForPrint function determines whether the specified window is currently redirected for printing.
 ms.assetid: 49FD0D63-0F7F-48C6-81B6-25715294E7B7
 title: IsWindowRedirectedForPrint function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

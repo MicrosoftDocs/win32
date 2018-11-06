@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings6 EnableCredSspSupport property
 description: Specifies whether the Credential Security Service Provider (CredSSP) is enabled for this connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3BC8A265-7AEA-4C9C-9730-7710E1A3159D
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

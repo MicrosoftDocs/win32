@@ -1,9 +1,6 @@
 ---
 title: Print-Stapling-Supported attribute
 description: TRUE if the printer supports stapling. Supplied by the driver.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c0d1cbc5-7657-45a8-b154-a67f57386f52
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Stapling-Supported
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

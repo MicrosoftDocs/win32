@@ -2,7 +2,6 @@
 Description: Contains information about a given ink word in the Journal note, including position, alternates, and the actual ink data.
 ms.assetid: 1e197716-bf6c-4a28-ae66-38aa59d7371d
 title: InkWord Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -50,7 +49,7 @@ Contains information about a given ink word in the Journal note, including posit
 
  
 
-> \[!Warning\]  
+> [!WARNING]
 > The ink word's internal coordinate mapping is English Metric Units and a multiplier of 2.54 will need to be used by your application to convert the Width and Height values to the HIMETRIC units used by the Tablet PC platform APIs.
 
  

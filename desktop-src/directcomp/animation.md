@@ -2,7 +2,6 @@
 title: Animation
 description: This topic discusses the basics of Microsoft DirectComposition animation.
 ms.assetid: 65DA3971-97C0-4B59-BC67-287AAEAAE340
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

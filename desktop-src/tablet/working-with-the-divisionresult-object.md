@@ -2,7 +2,6 @@
 Description: The DivisionResult object represents a snapshot of the layout analysis of the strokes contained by the Divider object. It contains the stroke classification and grouping information from the layout analysis.
 ms.assetid: 2bcf5223-7bf4-420c-8f04-a972f04f262d
 title: Working with the DivisionResult Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

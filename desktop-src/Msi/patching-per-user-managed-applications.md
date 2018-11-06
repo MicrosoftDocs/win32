@@ -2,7 +2,6 @@
 Description: Beginning with Windows Installer 3.0, it is possible to apply patches to an application that has been installed in a per-user-managed context after the patch has been registered as having elevated privileges.
 ms.assetid: ebe5f447-9b74-48dc-8192-f2ac90dca490
 title: Patching Per-User Managed Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

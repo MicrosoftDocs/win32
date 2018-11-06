@@ -1,9 +1,6 @@
 ---
 title: Flat-Name attribute
 description: For Windows NT domains, the flat name is the NetBIOS name. For links with non \ 8211;Windows NT domains, the flat name is the identifying name of that domain, or it is NULL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ec368657-a0e7-4416-ab80-1d18d98bbcfa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Flat-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

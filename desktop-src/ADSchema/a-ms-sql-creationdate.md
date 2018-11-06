@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-CreationDate attribute
 description: The date the database was created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c3b098f0-2575-4a7d-9a1d-a6189b9af2c8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-CreationDate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

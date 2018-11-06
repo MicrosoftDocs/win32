@@ -2,7 +2,6 @@
 title: VariantNotInt (CheckRole)
 description: VariantNotInt (CheckRole)
 ms.assetid: 24A9E91D-92E6-492B-B5CE-DF42E5923F60
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

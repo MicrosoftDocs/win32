@@ -2,7 +2,6 @@
 Description: The ShouldDrawSampleNow method determines how a sample is scheduled for rendering.
 ms.assetid: 92994f1f-53d5-42d4-90a2-2984b693e4c0
 title: CBaseRenderer.ShouldDrawSampleNow method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

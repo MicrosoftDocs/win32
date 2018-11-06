@@ -2,7 +2,6 @@
 Description: Not implemented.
 ms.assetid: d0fc571f-79f5-448a-8082-6e5f7f48118f
 title: IXml2Dex::WriteXMLPart method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Notifies a filter of the video renderer's window.
 ms.assetid: 65d2f40e-c42c-4d71-b9b3-7662a8be0953
 title: EC_NOTIFY_WINDOW
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

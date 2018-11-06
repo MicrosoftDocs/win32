@@ -1,9 +1,6 @@
 ---
 title: CB_CONNECTION_INFO structure
 description: Contains information about an incoming connection request.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: BA908425-3B68-40AA-B1E3-153D6873EF2C
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 ---

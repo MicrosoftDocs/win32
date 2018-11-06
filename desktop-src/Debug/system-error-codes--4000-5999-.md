@@ -2,7 +2,6 @@
 Description: The System Error Codes are very broad.
 ms.assetid: 1d2f7160-6322-4c75-abbc-4a882bbdf7ce
 title: System Error Codes (4000-5999)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

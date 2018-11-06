@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Major-Version attribute
 description: Major version number for AzRoles.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b4347185-6522-414e-972c-94a60da8e100
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Major-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

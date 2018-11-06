@@ -2,7 +2,6 @@
 Description: The Attributes property returns the value from the Attributes column of the ModuleConfiguration table.
 ms.assetid: fb7336b7-28af-48c8-80b2-80c03948660a
 title: ConfigurableItem.Attributes property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

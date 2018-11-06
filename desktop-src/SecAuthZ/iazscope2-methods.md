@@ -2,7 +2,6 @@
 Description: The IAzScope2 interface exposes the following methods.
 ms.assetid: DAEEAC6D-ECEC-472B-A21A-94F8C872C585
 title: IAzScope2 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

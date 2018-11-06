@@ -2,7 +2,6 @@
 title: Adding Routes
 description: Once a client has discovered a route, the client can add that route to the routing table by calling the RtmAddNextHop function.
 ms.assetid: d72c8a84-3eac-4c5d-84af-8edc7b41f0b6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

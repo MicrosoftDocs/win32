@@ -2,7 +2,6 @@
 Description: The IWiaDevMgr2 interface is used to create and manage image acquisition devices and to register to receive device events.
 ms.assetid: 0e9fb3a1-bbe3-4dba-ba8c-b79f202d5a38
 title: IWiaDevMgr2 interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

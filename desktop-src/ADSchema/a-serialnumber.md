@@ -1,9 +1,6 @@
 ---
 title: Serial-Number attribute
 description: Part of X.500 specification. Not used by Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e5d68744-226b-42ee-a578-18380ddf4668
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Serial-Number
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

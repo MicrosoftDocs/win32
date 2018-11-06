@@ -2,7 +2,6 @@
 Description: Enables a debugger to examine dynamic function table information.
 ms.assetid: 32fd0dfd-ca7c-45e4-9d59-2b3318d7e13d
 title: RtlGetFunctionTableListHead function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

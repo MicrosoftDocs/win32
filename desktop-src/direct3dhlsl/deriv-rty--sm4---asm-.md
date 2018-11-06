@@ -2,7 +2,6 @@
 title: deriv_rty (sm4 - asm)
 description: Render-target y equivalent of deriv\_rtx.
 ms.assetid: F78F2DBD-9428-4F34-85AD-276DF54C52D1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

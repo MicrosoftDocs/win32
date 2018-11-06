@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx interface
 description: Enables you to connect and disconnect the client control, create virtual channel objects, and send data over a virtual channel.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ca27393e-4f1f-4fc2-9dd0-34e8684bc8d4
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

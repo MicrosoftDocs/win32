@@ -9,7 +9,6 @@ keywords:
 - PlaySound function,looping sounds
 - PlaySound function,fdwSound parameter
 - looping waveform-audio sounds
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

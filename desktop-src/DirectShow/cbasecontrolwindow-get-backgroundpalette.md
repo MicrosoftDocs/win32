@@ -2,7 +2,6 @@
 Description: The get\_BackgroundPalette method retrieves the realized palette in the background flag.
 ms.assetid: cc649dbd-d049-4993-b187-4e297bef5152
 title: CBaseControlWindow.get_BackgroundPalette method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The Location API provides objects that you can use in scripting languages, such as Microsoft JScript. You can use these objects to add location functionality to your webpages. These objects are documented in the following sections.
 ms.assetid: f1aca960-aedb-442a-8a9d-949db106c02e
 title: Location API Object Model Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

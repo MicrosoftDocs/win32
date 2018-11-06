@@ -1,9 +1,6 @@
 ---
 title: Create-Time-Stamp attribute
 description: The date when this object was created. This value is replicated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7b957a44-7185-49fa-a219-7c7f4b3e9fce
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Create-Time-Stamp
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

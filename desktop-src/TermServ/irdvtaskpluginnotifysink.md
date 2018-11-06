@@ -1,9 +1,6 @@
 ---
 title: IRDVTaskPluginNotifySink interface
 description: The IRDVTaskPluginNotifySink interface is used by the task agent to communicate with the trigger agent.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ccf19693-d3cc-4cf7-af35-947be047beeb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - IRDVTaskPluginNotifySink
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 api_location: 

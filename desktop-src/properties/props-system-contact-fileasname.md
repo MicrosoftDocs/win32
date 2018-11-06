@@ -2,7 +2,6 @@
 Description: Indicates the FileAs name of the contact.
 ms.assetid: 552a01c4-70d8-4e14-b123-c62c379bc52a
 title: System.Contact.FileAsName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

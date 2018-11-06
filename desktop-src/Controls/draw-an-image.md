@@ -2,7 +2,6 @@
 title: How to Draw an Image
 description: This topic demonstrates how to use the ImageList\_Draw function to draw an image.
 ms.assetid: BE2F20F3-B7D3-4FA2-B1E9-60A47A609C36
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: AccNameLengthTooLong
 description: AccNameLengthTooLong
 ms.assetid: 68997AE9-91FC-4DAD-8356-FEE6C6919939
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

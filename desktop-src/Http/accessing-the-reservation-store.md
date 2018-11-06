@@ -5,7 +5,6 @@ ms.assetid: 4b1291fc-cc62-4d4f-9150-18cbb1f6e5c0
 keywords:
 - Accessing the Reservation Store HTTP
 - Reservation Store HTTP , Accessing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

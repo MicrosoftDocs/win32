@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnConnecting method
 description: Called when the client control begins connecting to a server in response to a call to IMsTscAx Connect.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c5e367a8-126a-48bb-bc94-1063f77e8239
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

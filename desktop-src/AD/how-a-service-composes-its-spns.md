@@ -1,14 +1,10 @@
 ---
 title: How a Service Composes its SPNs
 description: A service can use two functions to compose its SPNs DsGetSpn is a general-purpose function for composing SPNs and DsServerRegisterSpn is a specialized function for composing and registering simple SPNs for a host-based service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8710409a-67b1-45e5-9cd7-5125443ab921
 ms.tgt_platform: multiple
 keywords:
 - service principal name AD ,how a service composes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

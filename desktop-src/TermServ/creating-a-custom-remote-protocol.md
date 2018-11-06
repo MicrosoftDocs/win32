@@ -1,12 +1,8 @@
 ---
 title: Creating a Remote Desktop Protocol Provider
 description: Information about creating a Remote Desktop Protocol Provider. The protocol manager is implemented as a COM server and registered in a location searched when the Remote Desktop Services service starts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9a3e6d5c-464f-4227-a06f-16eb8ed1079e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

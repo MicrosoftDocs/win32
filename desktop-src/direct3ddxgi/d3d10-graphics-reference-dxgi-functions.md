@@ -2,7 +2,6 @@
 Description: This section contains info about the functions provided by DXGI.
 ms.assetid: 209d2e65-b118-47a7-aece-fb140fdede3f
 title: DXGI Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

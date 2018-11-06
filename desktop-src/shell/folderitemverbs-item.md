@@ -2,7 +2,6 @@
 Description: Retrieves the FolderItemVerb object for a specified item in the collection.
 ms.assetid: 65871926-0920-4ad6-82da-7aba0a3c0fab
 title: FolderItemVerbs.Item method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

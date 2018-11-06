@@ -1,9 +1,6 @@
 ---
 title: IADsAccessControlList Property Methods
 description: The property methods of the IADsAccessControlList interface get or set the properties described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cb68bb61-4216-4f69-bea1-ab7f98937a27
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

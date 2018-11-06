@@ -2,7 +2,6 @@
 Description: The registry is a hierarchical database that contains data that is critical for the operation of Windows and the applications and services that run on Windows.
 ms.assetid: 4ed60563-73d8-4134-8cb2-8388734fb18d
 title: Structure of the Registry
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

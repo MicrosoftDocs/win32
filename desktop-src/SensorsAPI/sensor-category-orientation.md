@@ -2,7 +2,6 @@
 Description: The SENSOR\_CATEGORY\_ORIENTATION category contains sensors that provide information about physical orientation.
 ms.assetid: e75d082d-e5d1-4353-9f40-062a62a2ac5f
 title: SENSOR_CATEGORY_ORIENTATION
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

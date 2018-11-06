@@ -1,12 +1,8 @@
 ---
 Description: Data queries are WQL statements that request instances of classes. To issue a data query, applications call the IWbemServices::ExecQuery or IWbemServices::ExecQueryAsync method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a8b9bf2f-300d-4570-8b30-7532f3421d39
 ms.tgt_platform: multiple
 title: Requesting Class Instance Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

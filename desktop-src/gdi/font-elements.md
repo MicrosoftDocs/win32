@@ -2,7 +2,6 @@
 Description: A font is a collection of characters and symbols that share a common design. The three major elements of this design are referred to as typeface, style, and size.
 ms.assetid: 6f3359a9-cc4e-43bf-b820-5d8acd7a0a6b
 title: Font Elements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

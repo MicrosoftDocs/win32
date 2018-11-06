@@ -1,9 +1,6 @@
 ---
 title: Locality class
 description: Contains a locality, such as a street address, city, and state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e668fb4b-5414-4ff3-9230-a06feacca84b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Locality
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

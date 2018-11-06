@@ -1,14 +1,10 @@
 ---
 title: OBJECT.CPP
 description: In the example provider component, a code example of object lists, including using a filter, is in Object.cpp. Supported methods are listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cb59ab96-c58e-47cb-9031-5432e83771bd
 ms.tgt_platform: multiple
 keywords:
 - OBJECT.CPP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

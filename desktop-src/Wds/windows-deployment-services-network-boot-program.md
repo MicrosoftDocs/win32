@@ -2,7 +2,6 @@
 title: Windows Deployment Services Network Boot Program
 ms.assetid: 3d3170f5-3a09-4588-a15d-bca15cc2d026
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Direct3D 11 Graphics
 description: Direct3D 11 Graphics
 ms.assetid: 11413056-5033-4b4f-b80c-fccccb4057bc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

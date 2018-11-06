@@ -2,7 +2,6 @@
 Description: How to use pipes to pass a continuous stream of data between processes, including multithreaded pipe server.
 ms.assetid: 5ff856c0-70b8-4f9e-be3a-d49e88a2ddfb
 title: Using Pipes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

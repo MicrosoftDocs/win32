@@ -1,9 +1,6 @@
 ---
 title: ipHostNumber attribute
 description: Contains the IP address of the host in dotted decimal notation, omitting the leading zeros.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0ac29b9c-17eb-483e-9c1b-1c853a197cfc
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ipHostNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Software Device API
 description: You can use the Software Device API to create a PnP device from an app.
 ms.assetid: 203abb2c-526f-4995-95de-4eb0ecee63d5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

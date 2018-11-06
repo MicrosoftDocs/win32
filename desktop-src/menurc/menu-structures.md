@@ -2,7 +2,6 @@
 title: Menu Structures
 description: .
 ms.assetid: 38b5fa6d-cbbb-4b0f-bc05-f7544e1ef863
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

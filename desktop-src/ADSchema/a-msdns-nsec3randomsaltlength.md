@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-NSEC3-Random-Salt-Length attribute
 description: An attribute that defines the length in bytes of the random salt used when signing the DNS zone.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b8c53765-e6fd-499c-8003-e02a903a059c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-NSEC3-Random-Salt-Length
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

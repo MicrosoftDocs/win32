@@ -5,7 +5,6 @@ ms.assetid: e7129d0d-5071-45dc-8b28-0947f7920877
 keywords:
 - rc.exe (see resource compiler)
 - resource compiler
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The world's character-based data was developed using both Unicode and traditional character sets.
 ms.assetid: 539ad3c7-45ef-476b-bedc-48986f184796
 title: About Unicode and Character Sets
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Windows SDK includes useful code samples and tools to help you understand and use the Windows Sensor and Location platform and related APIs.
 ms.assetid: e31174f6-1c2b-4d97-b6b6-e54825ff47f5
 title: About the Samples and Tools
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

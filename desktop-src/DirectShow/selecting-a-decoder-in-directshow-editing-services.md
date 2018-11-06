@@ -2,7 +2,6 @@
 Description: Selecting a Decoder in DirectShow Editing Services
 ms.assetid: dc6b0445-7fc1-4331-9000-a652b44a8364
 title: Selecting a Decoder in DirectShow Editing Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

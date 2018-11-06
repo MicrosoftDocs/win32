@@ -2,7 +2,6 @@
 title: Speech Output
 description: Speech Output
 ms.assetid: 86ac204c-4925-4945-b7fa-d628c3539a8a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

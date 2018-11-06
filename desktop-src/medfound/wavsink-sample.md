@@ -2,7 +2,6 @@
 Description: WavSink Sample
 ms.assetid: 9e1af25f-d55c-45db-8c76-abf814e16700
 title: WavSink Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

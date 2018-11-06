@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_CopyFileAction class represents moving or copying files from a computer system to a new location.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c80b5002-d489-4b7e-b9a2-4460c3596958
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_CopyFileAction class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -40,7 +34,7 @@ The **CIM\_CopyFileAction** class represents moving or copying files from a comp
 
 Location information for copying is specified by using either the [**CIM\_ToDirectorySpecification**](cim-todirectoryspecification.md) and [**CIM\_FromDirectorySpecification**](cim-fromdirectoryspecification.md) associations, or the [**CIM\_ToDirectoryAction**](cim-todirectoryaction.md) and [**CIM\_FromDirectoryAction**](cim-fromdirectoryaction.md) associations. The first set is used when the source or target are to exist before any actions are taken. The second set is used when the source or target are created as a part of a previous action. In the latter case, the action to create the directory must occur prior to the **CIM\_CopyFileAction** object.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

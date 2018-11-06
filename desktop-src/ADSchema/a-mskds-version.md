@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-Version attribute
 description: Version number of this root key.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ae91b32a-909f-4645-a520-d18eeba22208
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

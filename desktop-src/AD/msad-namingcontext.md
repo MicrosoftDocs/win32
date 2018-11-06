@@ -1,9 +1,6 @@
 ---
 title: MSAD_NamingContext class
 description: Represents a particular naming context (NC) on the domain controller.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 67dd6c68-6c67-40b4-a20a-c6c312d23441
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

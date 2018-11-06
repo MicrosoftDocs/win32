@@ -2,7 +2,6 @@
 title: Image List Macros
 description: .
 ms.assetid: 7d68074d-9b3c-4a61-99a1-6fdf71c75dab
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

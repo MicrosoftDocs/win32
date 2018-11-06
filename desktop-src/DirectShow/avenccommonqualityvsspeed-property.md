@@ -2,7 +2,6 @@
 Description: Specifies the tradeoff between encoding quality and speed. This property is valid in all rate control modes.
 ms.assetid: d721a50d-dec9-4e2d-bda5-25913f225d68
 title: AVEncCommonQualityVsSpeed property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

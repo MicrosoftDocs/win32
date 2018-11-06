@@ -1,9 +1,6 @@
 ---
 title: Preferred-OU attribute
 description: The Organizational Unit to show by default on user' s desktop.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e6f0d6df-0353-4626-8b1b-fa5f99f5ef58
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Preferred-OU
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

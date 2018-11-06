@@ -1,12 +1,8 @@
 ---
 Description: This section describes the various error conditions that can result when the Simple Network Management Protocol (SNMP) information module compiler parses a Management Information Base (MIB) module.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 587a13ee-8547-435f-84bb-07f2491f85cc
 ms.tgt_platform: multiple
 title: SNMP Compiler Error Messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

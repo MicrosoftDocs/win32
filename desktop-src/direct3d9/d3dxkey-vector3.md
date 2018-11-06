@@ -2,7 +2,6 @@
 Description: Describes a vector key for use in key frame animation. It specifies a vector at a given time. This is used for scale and translation keys.
 ms.assetid: 7a7ba2ce-c9f3-4a04-b865-39de9070868b
 title: D3DXKEY_VECTOR3 structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

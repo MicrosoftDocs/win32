@@ -2,7 +2,6 @@
 title: DDEML Functions
 description: .
 ms.assetid: daaa18e6-2948-4058-9943-e5212c835d54
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

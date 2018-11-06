@@ -2,7 +2,6 @@
 Description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
 ms.assetid: 8e24efb1-8f7d-498a-bd21-79e182b86846
 title: String Format Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

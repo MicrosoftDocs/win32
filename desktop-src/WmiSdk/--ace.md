@@ -1,12 +1,8 @@
 ---
 Description: Represents an access control entry (ACE).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 47daffd0-b9db-4367-b0b8-654a2da30fed
 ms.tgt_platform: multiple
 title: '__ACE class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

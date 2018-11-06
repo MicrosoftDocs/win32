@@ -2,7 +2,6 @@
 Description: The RegOpenBlobKey function retrieves a BLOB stored at the given registry key.
 ms.assetid: f6b16c07-c705-47f1-a21c-6155368551c7
 title: RegOpenBlobKey function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

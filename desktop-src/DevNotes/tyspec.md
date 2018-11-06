@@ -2,7 +2,6 @@
 Description: Defines ways of mapping to a class ID.
 ms.assetid: 1af170e3-1edd-411f-acba-d4b244107996
 title: TYSPEC enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

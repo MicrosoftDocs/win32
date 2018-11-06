@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnConnectionBarPullDown method
 description: Called when the user has dragged down on the connection bar.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D0B66AF8-5AEA-4341-89DF-0C836938F886
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

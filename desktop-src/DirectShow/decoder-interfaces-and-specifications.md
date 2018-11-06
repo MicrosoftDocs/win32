@@ -2,7 +2,6 @@
 Description: Decoder Interfaces and Specifications
 ms.assetid: 51e00392-8557-4c79-a687-434ba993c1cb
 title: Decoder Interfaces and Specifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

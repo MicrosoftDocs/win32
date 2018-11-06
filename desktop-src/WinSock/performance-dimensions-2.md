@@ -2,7 +2,6 @@
 Description: Application performance differs according to perspective.
 ms.assetid: 0d65a693-d879-4841-b93a-ad677eb34144
 title: Performance Dimensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

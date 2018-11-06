@@ -2,7 +2,6 @@
 Description: Adding a Source
 ms.assetid: 8c5d1050-a696-4a5d-be68-806420d0cd78
 title: Adding a Source
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Searching the Global Catalog
 description: Active Directory Domain Services also have a global catalog (GC), which contains a partial replica of all objects in the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 83970563-1a56-4671-b264-56e29939e369
 ms.tgt_platform: multiple
 keywords:
 - searching the global catalog Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

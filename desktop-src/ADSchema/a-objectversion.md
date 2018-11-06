@@ -1,9 +1,6 @@
 ---
 title: Object-Version attribute
 description: This can be used to store a version number for the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1aa8520b-c640-4ea2-9230-f28154bf69b0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Object-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

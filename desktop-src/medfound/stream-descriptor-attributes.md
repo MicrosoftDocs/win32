@@ -2,7 +2,6 @@
 Description: Stream Descriptor Attributes
 ms.assetid: 1364d7c5-67e8-49b6-8038-d6d4ea03fb7d
 title: Stream Descriptor Attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

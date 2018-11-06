@@ -1,9 +1,6 @@
 ---
 title: Sub-Refs attribute
 description: List of subordinate references of a Naming Context.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7e33f6ed-04c8-41b8-b8aa-684080a29168
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Sub-Refs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

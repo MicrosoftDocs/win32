@@ -5,7 +5,6 @@ ms.assetid: 0436f559-20e6-4199-8391-10eb7d85df23
 keywords:
 - Windows Filtering Platform
 - Windows Filtering Platform Start Page,start page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

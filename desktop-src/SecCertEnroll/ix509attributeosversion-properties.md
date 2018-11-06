@@ -2,7 +2,6 @@
 Description: The IX509AttributeOSVersion interface exposes the following properties.
 ms.assetid: 78584313-A150-4CA0-B025-2A44A9774320
 title: IX509AttributeOSVersion Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

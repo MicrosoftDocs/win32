@@ -2,7 +2,6 @@
 Description: Describes the processes for implementing device event handlers in the registry.
 ms.assetid: 84B12B5C-C179-4124-A1FC-B90D120336BF
 title: How to Register a Handler for a Device Event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

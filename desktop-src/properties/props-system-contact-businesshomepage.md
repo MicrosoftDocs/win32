@@ -2,7 +2,6 @@
 Description: Business address home page of the contact.
 ms.assetid: f63ea8d8-2d00-4910-8222-6910eab9c1f7
 title: System.Contact.BusinessHomePage
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

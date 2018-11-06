@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Cached-Membership-Time-Stamp attribute
 description: The ms-DS-Cached-Membership-Time-Stamp attribute is used by the Security Accounts Manager for group expansion during token evaluation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cb096f79-a57b-4001-b197-e75522904734
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Cached-Membership-Time-Stamp
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

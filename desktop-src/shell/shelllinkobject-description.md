@@ -2,7 +2,6 @@
 Description: Gets or sets the description of the link.
 ms.assetid: d3a95281-fb1f-4fd4-9d26-2a6e10a36a86
 title: ShellLinkObject.Description property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

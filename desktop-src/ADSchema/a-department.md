@@ -1,9 +1,6 @@
 ---
 title: Department attribute
 description: Contains the name for the department in which the user works.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0afbd6ac-5e33-4568-9414-82978e2e2e86
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Department
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

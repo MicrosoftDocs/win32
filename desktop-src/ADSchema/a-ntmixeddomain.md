@@ -1,9 +1,6 @@
 ---
 title: NT-Mixed-Domain attribute
 description: Indicates that the domain is in native mode or mixed mode. This attribute is found in the domainDNS (head) object for the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 49872cbc-844f-4d60-89b6-0150b9116740
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NT-Mixed-Domain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

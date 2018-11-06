@@ -2,7 +2,6 @@
 title: Ext Attribute (Extrusion)(VML)
 description: Ext Attribute (Extrusion)(VML)
 ms.assetid: 5c7b2137-ddb6-422c-a202-6de494dc993f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

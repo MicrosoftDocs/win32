@@ -1,9 +1,6 @@
 ---
 title: CFSTR_DS_MULTISELECTPROPPAGE
 description: The CFSTR\_DS\_MULTISELECTPROPPAGE clipboard format provides a global memory handle (HGLOBAL) that contains a null-terminated Unicode string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cff8d696-b947-4cc2-a3b2-5b69f388957b
 ms.tgt_platform: multiple
 topic_type:
@@ -12,7 +9,6 @@ api_name:
 - CFSTR_DS_MULTISELECTPROPPAGE
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

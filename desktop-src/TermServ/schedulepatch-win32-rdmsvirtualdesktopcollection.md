@@ -1,9 +1,6 @@
 ---
 title: SchedulePatch method of the Win32_RDMSVirtualDesktopCollection class
 description: Schedules a software update provisioning job that installs software updates on the virtual machines in a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 780d5709-9e7d-41d9-a4d0-b5d021615655
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

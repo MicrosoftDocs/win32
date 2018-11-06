@@ -1,12 +1,8 @@
 ---
 Description: The Performance Counter provider is a high-performance provider that provides raw performance counter data to the WMI Performance Counter Classes derived from Win32\_PerfRawData. The \_\_Win32Provider instance name is &\#0034;NT5\_GenericPerfProvider\_V1&\#0034;.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2c7206e7-f5f8-4d40-b993-56122e48069b
 ms.tgt_platform: multiple
 title: Performance Counter Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

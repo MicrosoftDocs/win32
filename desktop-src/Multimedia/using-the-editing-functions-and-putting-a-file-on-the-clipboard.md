@@ -6,7 +6,6 @@ keywords:
 - EditStreamClone function
 - EditStreamCopy function
 - EditStreamCut function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

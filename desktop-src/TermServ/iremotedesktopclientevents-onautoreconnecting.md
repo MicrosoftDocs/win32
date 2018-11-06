@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnAutoReconnecting method
 description: Called when the client control attempts to automatically reestablish a connection to a remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 299408A9-ED14-42F4-B324-AF4C86FEDABE
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

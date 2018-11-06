@@ -2,7 +2,6 @@
 Description: To compose to the screen or perform floating-point operations, you need to work in the correct color space.
 ms.assetid: 1DD8E2D3-430F-4EE4-9C41-78736C904920
 title: Converting data for the color space
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

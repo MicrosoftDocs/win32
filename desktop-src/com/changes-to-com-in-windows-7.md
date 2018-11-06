@@ -2,7 +2,6 @@
 title: Changes to COM in Windows 7
 description: Changes to COM in Windows 7
 ms.assetid: 15a5e1d1-976b-4ea2-be26-5c7c0bfd6020
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Reset method resets to the beginning of the enumeration sequence.
 ms.assetid: a9131da1-051d-493c-939d-07801fda2d49
 title: IEnumTime::Reset method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

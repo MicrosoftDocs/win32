@@ -9,7 +9,6 @@ keywords:
 - OpenGL porting from IRIS GL,spheres
 - drawing functions,spheres
 - spheres
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

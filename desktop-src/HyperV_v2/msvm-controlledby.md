@@ -2,7 +2,6 @@
 Description: Associates a storage device with the storage controller that owns the device.
 ms.assetid: 3DE05EDC-C54A-4C3C-9057-4418246037D5
 title: Msvm_ControlledBy class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

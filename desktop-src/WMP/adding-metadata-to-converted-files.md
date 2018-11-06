@@ -9,7 +9,6 @@ keywords:
 - conversion plug-ins,adding metadata to converted files
 - adding metadata to converted files
 - metadata,adding to converted files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

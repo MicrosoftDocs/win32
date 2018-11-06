@@ -2,7 +2,6 @@
 Description: 'This section contains information about the following resource functions:'
 ms.assetid: 15d6b1ba-303d-4c56-a875-30edc8c343ab
 title: Resource Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

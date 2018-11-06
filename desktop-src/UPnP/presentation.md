@@ -2,7 +2,6 @@
 title: Presentation
 description: Presentation is the final step in the UPnP process.
 ms.assetid: e8d20ae6-2dd8-4de2-b07b-6cf4e725735e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

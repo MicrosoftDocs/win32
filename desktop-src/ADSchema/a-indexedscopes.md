@@ -1,9 +1,6 @@
 ---
 title: IndexedScopes attribute
 description: List of directory scopes (for example, C \\ or D \) that are indexed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e706f64d-642b-4114-9f9d-2a0c342b59e8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - IndexedScopes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

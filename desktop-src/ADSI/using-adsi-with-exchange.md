@@ -1,9 +1,6 @@
 ---
 title: Using ADSI with Exchange
 description: For Exchange 2000, information for using ADSI with Exchange is contained in the Exchange 2000 SDK. For more information, see Management Tasks for ADSI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c806ca1b-c97c-4567-af8b-e12cfde2bf70
 ms.tgt_platform: multiple
 keywords:
@@ -62,7 +59,6 @@ keywords:
 - Exchange ADSI ,message size
 - Exchange ADSI ,troubleshooting problems
 - security descriptors ADSI , for Exchange objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: To author a simple user interface, developers of installation packages can utilize a user interface design that adheres to interface wizard behavior.
 ms.assetid: c69ba452-3c2e-47d7-8ea0-8f8f9e6b58c8
 title: User Interface Wizard Behavior
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

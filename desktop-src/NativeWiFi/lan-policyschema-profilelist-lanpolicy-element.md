@@ -2,7 +2,6 @@
 Description: Contains a list of profiles to be applied at the domain or machine level.
 ms.assetid: 4f010449-0c6b-4a01-8253-4f82cd628f0a
 title: profileList (LANPolicy) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

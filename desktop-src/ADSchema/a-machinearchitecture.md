@@ -1,9 +1,6 @@
 ---
 title: Machine-Architecture attribute
 description: Contains a list of hardware processors supported by a given application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 282d3078-d63e-41fd-bab7-bb5fb83cccdd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Machine-Architecture
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

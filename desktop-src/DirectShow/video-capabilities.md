@@ -2,7 +2,6 @@
 Description: Video Capabilities
 ms.assetid: 305bd009-f58e-4dcc-9b70-252de87dc86d
 title: Video Capabilities
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The XMU555 structure exposes the following operators.
 ms.assetid: 8890c38c-d25f-4b85-b1be-9648e4ce6ecc
 title: XMU555 Operators
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

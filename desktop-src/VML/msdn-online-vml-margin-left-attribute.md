@@ -2,7 +2,6 @@
 title: VML Margin-Left Attribute
 description: VML Margin-Left Attribute
 ms.assetid: 65488c47-06c2-4a8f-8d29-4837865465f4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

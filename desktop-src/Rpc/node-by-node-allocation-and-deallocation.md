@@ -2,7 +2,6 @@
 title: Node-by-Node Allocation and Deallocation
 description: Node-by-node allocation and deallocation of data structures by the stubs is the default method of memory management for all parameters on both the client and the server.
 ms.assetid: 04752fd9-438c-4b52-830b-ce136f83b3b8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

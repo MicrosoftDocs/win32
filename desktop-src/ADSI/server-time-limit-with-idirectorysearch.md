@@ -1,15 +1,11 @@
 ---
 title: Server Time Limit with IDirectorySearch
 description: To avoid using all the CPU time and preventing other operations from running, specify the search time limit to a small value and then rerun the application later if it fails to generate the report.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0fd4d8a2-36fc-4179-aeee-1cd3f3996e19
 ms.tgt_platform: multiple
 keywords:
 - Server Time Limit with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Server Time Limit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

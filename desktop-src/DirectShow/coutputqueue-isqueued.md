@@ -2,7 +2,6 @@
 Description: The IsQueued method determines whether the object is using a worker thread to deliver samples.
 ms.assetid: 8d26661f-6cd7-42ea-bc4b-8746d22a7ca0
 title: COutputQueue.IsQueued method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

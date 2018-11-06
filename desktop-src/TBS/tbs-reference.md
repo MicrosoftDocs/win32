@@ -4,7 +4,6 @@ description: The Trusted Platform Module (TPM) Base Services (TBS) API supports 
 ms.assetid: 616ffc43-b8a1-44a0-95ba-8d723c8464e2
 keywords:
 - TPM Base Services TBS , reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

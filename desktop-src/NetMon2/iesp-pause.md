@@ -2,7 +2,6 @@
 Description: The Pause method pauses the current capture.
 ms.assetid: efbc8947-b9fe-4dbd-8097-375b5f99845e
 title: IESP::Pause method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

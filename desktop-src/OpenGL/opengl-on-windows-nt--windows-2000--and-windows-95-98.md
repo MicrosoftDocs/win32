@@ -4,7 +4,6 @@ description: OpenGL on Windows
 ms.assetid: 589a86f1-598d-4175-97fc-27ca0b254935
 keywords:
 - OpenGL on Windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

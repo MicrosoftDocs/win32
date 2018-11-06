@@ -2,7 +2,6 @@
 Description: The following are the extended window styles.
 ms.assetid: 5830B16E-CD52-4a1a-A1BD-3AFE66BA5FDD
 title: Extended Window Styles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

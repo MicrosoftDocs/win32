@@ -2,7 +2,6 @@
 Description: Side-by-side private assemblies can be used to create components that can be easily updated without also updating the hosting application.
 ms.assetid: 5a45ee79-3ae1-4e9b-a77e-d4209fb23fa8
 title: Updating Application Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

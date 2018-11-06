@@ -2,7 +2,6 @@
 Description: Contains the WIN32\_FIND\_DATA structure as a buffer of bytes. Do not use this property for any other purpose.
 ms.assetid: 0c5ab3d0-ed04-43ac-992f-ecfee24889d2
 title: System.FindData
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

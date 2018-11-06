@@ -1,7 +1,6 @@
 ---
 Description: Instructs a drop image window to update using new DROPDESCRIPTION information.
 title: DDWM_UPDATEWINDOW message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Pwd-Properties attribute
 description: Password Properties. Part of Domain Policy. A bitfield to indicate complexity and storage restrictions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d73595f-508f-4562-a928-4833df977ab3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Pwd-Properties
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

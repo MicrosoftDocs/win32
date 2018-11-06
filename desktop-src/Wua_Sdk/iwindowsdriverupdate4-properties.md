@@ -2,7 +2,6 @@
 Description: The IWindowsDriverUpdate4 interface defines the following properties.
 ms.assetid: 24ee4959-9ec7-466f-a39d-4249cf7c1ca8
 title: IWindowsDriverUpdate4 Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Windows Portable Devices supports the following class extension properties.
 ms.assetid: 9b8983ba-5824-495d-868f-fd22b98e1954
 title: Class Extension Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

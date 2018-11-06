@@ -2,7 +2,6 @@
 title: SRModeID Property
 description: SRModeID Property
 ms.assetid: 4c784fc5-d2c2-4e5b-ba5f-f59b4507f40f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

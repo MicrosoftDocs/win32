@@ -1,15 +1,11 @@
 ---
 title: Deciding Where to Search
 description: This topic explains the different searches that can be performed in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4b7428c8-c246-41fc-8811-892220c4270f
 ms.tgt_platform: multiple
 keywords:
 - Deciding Where to Search AD
 - Active Directory AD , Searching, Deciding Where to Search
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

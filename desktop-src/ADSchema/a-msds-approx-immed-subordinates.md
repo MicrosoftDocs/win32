@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Approx-Immed-Subordinates attribute
 description: The value returned by this attribute is based on index sizes. This may be off by +/ \ 8211;10 on large containers, and the error is theoretically unbounded, but using this attribute helps the UI display the contents of a container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0d6e3b53-dfad-49ac-bbb3-e53c33ea9cd8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Approx-Immed-Subordinates
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

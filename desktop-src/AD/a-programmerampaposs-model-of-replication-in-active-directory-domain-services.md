@@ -1,15 +1,11 @@
 ---
 title: A Programmer's Model of Replication in Active Directory Domain Services
 description: The following is a description of the replication model for Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 45baf7ff-9474-4f86-81c8-03336901fec2
 ms.tgt_platform: multiple
 keywords:
 - A Programmer's Model of Active Directory Replication AD
 - A Programmer's Model of Replication in Active Directory Domain Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

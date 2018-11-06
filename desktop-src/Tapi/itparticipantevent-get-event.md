@@ -2,7 +2,6 @@
 Description: The get\_Event method gets a PARTICIPANT\_EVENT descriptor of the type of event that has occurred.
 ms.assetid: 6b5e6358-2ba6-48b5-8d55-bc896fbb9962
 title: ITParticipantEvent::get_Event method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

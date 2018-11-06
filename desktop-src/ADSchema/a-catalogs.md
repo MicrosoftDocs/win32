@@ -1,9 +1,6 @@
 ---
 title: Catalogs attribute
 description: The list of catalogs that index storage on a given computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7c532223-9d2d-4b86-ba35-7855ccc84664
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Catalogs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

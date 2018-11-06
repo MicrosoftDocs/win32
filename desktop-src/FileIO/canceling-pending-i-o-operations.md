@@ -2,7 +2,6 @@
 Description: Allowing users to cancel I/O requests that are slow or blocked can enhance the usability and robustness of your application.
 ms.assetid: adfe6d05-f30b-40a1-b3b0-58e2593e7b25
 title: Canceling Pending I/O Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

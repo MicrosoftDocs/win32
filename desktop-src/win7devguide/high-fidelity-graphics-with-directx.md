@@ -2,7 +2,6 @@
 title: High Fidelity Graphics with DirectX
 description: Windows application developers have long used Microsoft DirectX to provide high-quality, hardware-accelerated, 3D graphics.
 ms.assetid: db555657-90b9-4db2-a0c2-bfaa526a8dd5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

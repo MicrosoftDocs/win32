@@ -1,9 +1,6 @@
 ---
 title: Admin-Display-Name attribute
 description: The name to be displayed on admin screens.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a4395f7f-3665-48c8-ac1a-68ab9a03d762
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Admin-Display-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

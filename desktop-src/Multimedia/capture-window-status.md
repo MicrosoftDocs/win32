@@ -6,7 +6,6 @@ keywords:
 - WM_CAP_GET_STATUS message
 - capGetStatus macro
 - CAPSTATUS structure
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

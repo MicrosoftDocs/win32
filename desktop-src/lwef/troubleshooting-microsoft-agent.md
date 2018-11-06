@@ -4,7 +4,6 @@ description: Troubleshooting Microsoft Agent
 ms.assetid: c25c0616-9f7a-4034-be07-232a29a54e0b
 keywords:
 - Microsoft Agent, troubleshooting
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

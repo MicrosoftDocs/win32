@@ -7,7 +7,6 @@ keywords:
 - plug-ins,constructor
 - user interface plug-ins,constructor
 - UI plug-ins,constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

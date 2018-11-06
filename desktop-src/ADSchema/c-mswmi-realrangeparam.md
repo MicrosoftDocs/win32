@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-RealRangeParam class
 description: Real number range parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8cb85f16-fb13-4014-8ee9-4d513088554a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-RealRangeParam
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

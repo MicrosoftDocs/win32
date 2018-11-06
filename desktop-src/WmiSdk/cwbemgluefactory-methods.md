@@ -1,12 +1,8 @@
 ---
 Description: The CWbemGlueFactory class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 537F9287-D167-4BDA-B1D7-5C803DDB1E4C
 ms.tgt_platform: multiple
 title: CWbemGlueFactory Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

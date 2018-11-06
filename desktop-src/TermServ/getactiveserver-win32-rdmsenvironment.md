@@ -1,9 +1,6 @@
 ---
 title: GetActiveServer method of the Win32_RDMSEnvironment class
 description: Retrieves the fully qualified domain name (FQDN) of the Remote Desktop Management Services (RDMS) environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 87e25d11-de1d-41d1-974d-2871dde444b5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

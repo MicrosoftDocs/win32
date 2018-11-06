@@ -2,7 +2,6 @@
 Description: The GetSampleSize method retrieves the sample size.
 ms.assetid: 5cc98556-cca6-46ca-ad33-cd40011ff6f4
 title: CMediaType.GetSampleSize method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

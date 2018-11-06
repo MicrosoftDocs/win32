@@ -2,7 +2,6 @@
 Description: The LINE\_PROXYSTATUS message is sent when the available proxies change on a line that the application currently has open.
 ms.assetid: e20d4b48-a72a-4a83-ae04-a608791a1a3a
 title: LINE_PROXYSTATUS message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

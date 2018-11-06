@@ -2,7 +2,6 @@
 Description: There are several socket attributes which can be indicated through the flags parameter in WSPSocket.
 ms.assetid: 5fd4321b-a5cc-4921-bec5-bdf625261ea2
 title: Socket Attribute Flags and Modes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings RdpdrLocalPrintingDocName property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ccff4695-920b-4595-9beb-f084ccca420e
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

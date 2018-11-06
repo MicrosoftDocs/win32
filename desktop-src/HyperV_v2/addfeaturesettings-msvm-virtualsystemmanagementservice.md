@@ -2,7 +2,6 @@
 Description: Adds Ethernet feature settings to the configuration of a virtual machine Ethernet connection.
 ms.assetid: f233bf2f-5201-4b02-8384-bb7e2d1e7dee
 title: AddFeatureSettings method of the Msvm_VirtualSystemManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

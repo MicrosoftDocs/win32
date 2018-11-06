@@ -1,9 +1,6 @@
 ---
 title: IMsRdpExtendedSettings Property property
 description: Contains a named property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3acaeff9-1617-46c3-80c3-b87496b83670
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

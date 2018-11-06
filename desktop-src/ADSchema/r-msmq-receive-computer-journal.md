@@ -1,9 +1,6 @@
 ---
 title: msmq-Receive-computer-Journal extended right
 description: Allows receiving messages from the Computer Journal queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bf8892dc-bb24-4b9b-b46c-8f532e879638
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msmq-Receive-computer-Journal
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

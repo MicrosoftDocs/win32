@@ -2,7 +2,6 @@
 Description: Event tracing sessions record events from one or more providers that a controller enables.
 ms.assetid: '6e446ee3-47a3-4fe1-9eb7-3dd74cad4e56'
 title: Event Tracing Sessions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

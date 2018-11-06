@@ -1,9 +1,6 @@
 ---
 title: Frs-Computer-Reference attribute
 description: Reference to a replica set member's computer object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 07973ca8-2559-41ee-b074-840c8b523fae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Frs-Computer-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

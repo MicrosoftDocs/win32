@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx AdvancedSettings property
 description: Retrieves an IMsTscAdvancedSettings interface pointer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1c0e2216-0c65-48ad-b0f6-3a766c8fa44e
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

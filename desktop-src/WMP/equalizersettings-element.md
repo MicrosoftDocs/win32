@@ -8,7 +8,6 @@ keywords:
 - EQUALIZERSETTINGS element
 - reference for skins,EQUALIZERSETTINGS element
 - elements,EQUALIZERSETTINGS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

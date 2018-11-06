@@ -2,7 +2,6 @@
 title: setp_comp - ps
 description: Set the predicate register.
 ms.assetid: a9acb685-f9aa-41f1-8ef1-6d104cb76a09
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

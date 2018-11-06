@@ -2,7 +2,6 @@
 Description: Manufacturer of the device.
 ms.assetid: d8e7d09e-a903-44ce-a257-eebf7cde9e4a
 title: System.Devices.AepContainer.Manufacturer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The CNG API provides a set of functions that perform basic cryptographic operations such as creating hashes or encrypting and decrypting data. For more information about these functions, see CNG Cryptographic Primitive Functions.
 ms.assetid: 925848ae-9f4f-444a-81ff-14a1997434b2
 title: Cryptographic Primitives
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: If the Trusted Platform Module (TPM) is available, this method secures the volume's encryption key enhanced by a user-specified personal identification number.
 ms.assetid: 8c4c434a-dd60-491a-a983-b3fa78c91c0d
 title: ProtectKeyWithTPMAndPIN method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

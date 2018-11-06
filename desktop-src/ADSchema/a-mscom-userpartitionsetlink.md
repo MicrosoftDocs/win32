@@ -1,9 +1,6 @@
 ---
 title: ms-COM-UserPartitionSetLink attribute
 description: A link used to associate a User with a COM+ PartitionSet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7abd1274-0352-45c1-91e9-27ed8687208c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-COM-UserPartitionSetLink
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

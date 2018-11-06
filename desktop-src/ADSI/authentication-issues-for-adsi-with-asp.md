@@ -1,15 +1,11 @@
 ---
 title: Authentication Issues for ADSI with ASP
 description: Depending on the configuration of your intranet, authentication issues may occur when ADSI code is run from an ASP page.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 287e2e19-7da9-497b-bf46-595ff4755261
 ms.tgt_platform: multiple
 keywords:
 - ADSI,ASP pages,authentication issues
 - ADSI,authentication,ASP issues
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

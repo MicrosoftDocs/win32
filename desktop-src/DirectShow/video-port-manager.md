@@ -2,7 +2,6 @@
 Description: Video Port Manager
 ms.assetid: d70558a5-9820-432a-b4f3-ccf7bb2a34d5
 title: Video Port Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

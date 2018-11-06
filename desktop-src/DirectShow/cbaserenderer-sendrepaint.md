@@ -2,7 +2,6 @@
 Description: The SendRepaint method sends a repaint event to the filter graph manager.
 ms.assetid: 78e5c46c-ca5d-4c5d-9dfc-992ce6b150ad
 title: CBaseRenderer.SendRepaint method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

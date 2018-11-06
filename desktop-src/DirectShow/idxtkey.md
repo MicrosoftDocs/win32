@@ -2,7 +2,6 @@
 Description: The IDxtKey interface sets properties on the Key transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the Key transition.
 ms.assetid: b929bf0c-8aaf-456e-b692-e23d88e480dd
 title: IDxtKey interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

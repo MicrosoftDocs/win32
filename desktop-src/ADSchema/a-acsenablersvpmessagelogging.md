@@ -1,9 +1,6 @@
 ---
 title: ACS-Enable-RSVP-Message-Logging attribute
 description: True if RSVP logging is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: acdb2e21-9d08-4cb6-80f3-6302311386fe
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Enable-RSVP-Message-Logging
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

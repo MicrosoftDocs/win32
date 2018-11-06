@@ -1,9 +1,6 @@
 ---
 title: Service-Class-Info attribute
 description: General Service Class information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7efa94d4-b8f9-4eb4-a61b-1532e722c0bd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Class-Info
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

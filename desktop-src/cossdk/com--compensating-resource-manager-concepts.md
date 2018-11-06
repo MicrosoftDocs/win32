@@ -2,7 +2,6 @@
 Description: You can use the COM+ Compensating Resource Manager (CRM) to easily and quickly integrate application resources with Microsoft Distributed Transaction Coordinator (DTC) transactions.
 ms.assetid: 8d1d034f-8a09-40ae-842a-5251135bd3c8
 title: COM+ Compensating Resource Manager Concepts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

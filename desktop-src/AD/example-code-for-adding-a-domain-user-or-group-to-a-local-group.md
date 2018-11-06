@@ -1,14 +1,10 @@
 ---
 title: Example Code for Adding a Domain User or Group to a Local Group
 description: This topic includes a code example that shows how to add a domain user or group to a local group on a member server or a computer running on Windows NT Workstation or Windows 2000 Professional.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6333ce9f-0396-4af7-9e81-f008cf4536ec
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , adding a domain user or group to a local group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Read-Only-Replication-Secret-Synchronization extended right
 description: Read-Only-Replication-Secret-Synchronization extended right
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fd20326f-2276-42e7-8d54-f71c6dee1e6e
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Read-Only-Replication-Secret-Synchronization
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

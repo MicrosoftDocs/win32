@@ -2,7 +2,6 @@
 title: Application Identity
 description: An application's identity is the account that is used to run the application.
 ms.assetid: bd2e90d0-6d00-46e0-beac-8fdade52b797
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

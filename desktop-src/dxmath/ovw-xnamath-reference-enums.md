@@ -2,7 +2,6 @@
 Description: This section contains information about the DirectXMath enumerations.
 ms.assetid: 6e05b011-8bf6-3f91-aa4c-6655906b6b8a
 title: DirectXMath Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

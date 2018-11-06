@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Printer class represents the capabilities and management of the printer logical device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e41ff580-0202-4d3f-8d78-4705d5fb41b3
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Printer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -77,7 +71,7 @@ api_location:
 
 The **CIM\_Printer** class represents the capabilities and management of the printer logical device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

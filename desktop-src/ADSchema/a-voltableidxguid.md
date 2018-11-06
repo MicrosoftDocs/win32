@@ -1,9 +1,6 @@
 ---
 title: Vol-Table-Idx-GUID attribute
 description: The index identifier for a Link-Track-Volume table entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f6df4ff1-87aa-480e-90f5-0a47822cd461
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Vol-Table-Idx-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_CreateDirectoryAction class creates empty directories for software elements to be installed locally.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e8587534-4bb3-44de-98a1-8d777f1da1b3
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_CreateDirectoryAction class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -36,7 +30,7 @@ api_location:
 
 The **CIM\_CreateDirectoryAction** class creates empty directories for software elements to be installed locally.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

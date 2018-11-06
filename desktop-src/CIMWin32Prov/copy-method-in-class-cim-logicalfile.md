@@ -1,14 +1,8 @@
 ---
 Description: The Copy method copies the logical file (or directory) specified in the object path to the location specified by the input parameter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 643946e4-5d32-4839-ae1f-80ec7cede429
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Copy method of the CIM_LogicalFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Copy** method copies the logical file (or directory) specified in the object path to the location specified by the input parameter.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

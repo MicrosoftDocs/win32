@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Group-Managed-Service-Account class
 description: The group managed service account class is used to create an account which can be shared by different computers to run Windows services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3245201f-ff14-4309-a853-c4347fd32420
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Group-Managed-Service-Account
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

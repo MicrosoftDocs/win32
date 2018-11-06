@@ -2,7 +2,6 @@
 Description: Simulating Graph Building with GraphEdit
 ms.assetid: 3f7d3079-3d3d-4b93-9ab7-4c03def7c4be
 title: Simulating Graph Building with GraphEdit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

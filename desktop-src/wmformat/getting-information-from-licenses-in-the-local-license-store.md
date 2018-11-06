@@ -22,7 +22,6 @@ keywords:
 - DRM (digital rights management),licenses
 - DRM Client Extended APIs,local license store
 - Client Extended APIs,local license store
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

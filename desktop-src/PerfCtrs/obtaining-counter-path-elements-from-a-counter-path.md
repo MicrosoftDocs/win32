@@ -2,7 +2,6 @@
 Description: To retrieve the elements of a path, call the PdhParseCounterPath function. The function parses the elements of a counter path and returns them in a PDH\_COUNTER\_PATH\_ELEMENTS structure.
 ms.assetid: 65c722f9-6f9d-4e3d-abf3-867cf260ef9f
 title: Obtaining Counter Path Elements from a Counter Path
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

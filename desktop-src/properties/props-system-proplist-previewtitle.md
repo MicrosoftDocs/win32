@@ -2,7 +2,6 @@
 Description: The one or two properties to display in the preview pane title section.
 ms.assetid: f5ba6fb6-d3d7-4825-8a82-d767147103e7
 title: System.PropList.PreviewTitle
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Version Information Reference
 description: .
 ms.assetid: 8a56573d-5b05-40e7-a95f-bfa249eab4bd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

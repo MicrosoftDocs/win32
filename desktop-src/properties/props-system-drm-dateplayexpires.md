@@ -2,7 +2,6 @@
 Description: Indicates when play rights expire.
 ms.assetid: 11b173bc-545a-4e98-91c8-f97a4108a9e1
 title: System.DRM.DatePlayExpires
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

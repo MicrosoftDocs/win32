@@ -2,7 +2,6 @@
 title: Dynamic Buffer Serialization
 description: When using the dynamic buffer style of serialization, the marshalling buffer is allocated by the stub, and the data is encoded into this buffer and passed back to you. When unmarshaling, you supply the buffer that contains the data.
 ms.assetid: d2c3805b-47bf-4bca-b904-9414e26dde68
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

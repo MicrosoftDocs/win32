@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Enterprise-Oid class
 description: Used when a certificate UI displays a display name for a certificate template, enhanced key usage, application policy, and issuance policy. The UI component will try to locate a string in the attribute that matches the default language locale.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 519dc8f0-031d-4dc0-acc2-739302e03837
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Enterprise-Oid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

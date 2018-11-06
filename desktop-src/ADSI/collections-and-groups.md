@@ -1,16 +1,12 @@
 ---
 title: Collections and Groups
 description: ADSI uses collection objects to represent any arbitrary set of items in a directory service that can be represented using the same data type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 03257cc9-f354-4e1c-8880-936a7acac3ef
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,collections and groups
 - collections ADSI
 - groups ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

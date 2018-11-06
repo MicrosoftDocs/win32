@@ -1,9 +1,6 @@
 ---
 title: DS-Install-Replica extended right
 description: Extended right needed to do a replica install.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a13b990b-ad8b-4683-aea5-e9eb203e6ced
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Install-Replica
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

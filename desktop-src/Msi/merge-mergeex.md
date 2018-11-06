@@ -2,7 +2,6 @@
 Description: The MergeEx method of the Merge object is equivalent to the Merge function, except that it takes an extra argument.
 ms.assetid: 83b6d62b-d176-42ac-b513-d1c2e562965c
 title: Merge.MergeEx method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

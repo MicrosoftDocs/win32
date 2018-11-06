@@ -2,7 +2,6 @@
 title: Using Windows Event Log
 description: This section contains the details on how to use the Windows Event Log API to write an instrumentation manifest, write the provider that provides the events defined in the manifest, and consume the events that are logged.
 ms.assetid: c2855190-584b-406d-acff-5ffbf10dbb5e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

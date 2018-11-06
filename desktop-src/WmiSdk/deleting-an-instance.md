@@ -1,12 +1,8 @@
 ---
 Description: Deleting an instance is the most common delete command you are likely to perform in WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 95ba3e9c-1397-41fe-a080-c03a98aafd42
 ms.tgt_platform: multiple
 title: Deleting an Instance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

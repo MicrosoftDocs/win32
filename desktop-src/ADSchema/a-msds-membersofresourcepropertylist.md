@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Members-Of-Resource-Property-List attribute
 description: For a resource property list object, this multi-valued link attribute points to one or more resource property objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9524b51f-4dd3-45c5-93f9-74cd390f3e10
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Members-Of-Resource-Property-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Resolves data references. Deprecated.
 ms.assetid: e8cf6e5d-c9b2-4a47-b058-24282dc65e74
 title: IDirectXFileDataReference::Resolve method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

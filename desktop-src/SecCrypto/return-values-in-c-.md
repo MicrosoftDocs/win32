@@ -2,7 +2,6 @@
 Description: In C++, the return value is typically of type HRESULT.
 ms.assetid: 7abf1b3e-b94b-4846-a813-5eab5b34324c
 title: Return Values in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

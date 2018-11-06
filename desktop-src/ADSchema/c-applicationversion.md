@@ -1,9 +1,6 @@
 ---
 title: Application-Version class
 description: Can be used by application developers to store version information about their application or its schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8f094e03-7ea8-4721-b95e-a9d0681fba08
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Application-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

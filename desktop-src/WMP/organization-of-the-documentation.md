@@ -10,7 +10,6 @@ keywords:
 - SDK (software development kit),Windows Media Player organization
 - documentation,Windows Media Player SDK organization
 - organization of Windows Media Player SDK documentation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

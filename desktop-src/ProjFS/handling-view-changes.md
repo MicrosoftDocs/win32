@@ -2,7 +2,6 @@
 title: Handling View Changes
 description: Describes how to update the client view of a provider's backing store.
 ms.assetid: <GUID-GOES-HERE>
-ms.author: TBD
 ms.date: 10/09/2018
 ms.topic: article
 ---

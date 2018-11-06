@@ -2,7 +2,6 @@
 Description: Lists the diagnostic procedures included in the WSDAPI Troubleshooting Guide.
 ms.assetid: 482c1460-ab63-4b41-a0ef-65485ca3b88e
 title: WSDAPI Diagnostic Procedures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

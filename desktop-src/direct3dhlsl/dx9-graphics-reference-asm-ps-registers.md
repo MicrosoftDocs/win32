@@ -2,7 +2,6 @@
 title: Registers
 description: Registers
 ms.assetid: 9d85d665-ae76-443d-bb67-5648148ad158
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

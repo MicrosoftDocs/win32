@@ -2,7 +2,6 @@
 Description: This string should be set to the phonetic version of the display name as defined in System.ItemNameDisplay in CJK locales(CHS Pinyin, JPN Hiragana, KOR Hangul, etc.).
 ms.assetid: eb491644-bf59-4439-9e9b-bcafde619d66
 title: System.ItemNameSortOverride
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

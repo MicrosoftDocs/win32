@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-UintRangeParam class
 description: Unsigned integer range parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5cd3911c-512f-4ad7-8a16-08e77b7296e2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-UintRangeParam
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

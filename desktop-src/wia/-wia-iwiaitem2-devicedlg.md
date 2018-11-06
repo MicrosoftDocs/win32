@@ -2,7 +2,6 @@
 Description: Displays a dialog box to the user to prepare for image acquisition.
 ms.assetid: 2d7246ec-fb90-4538-b717-b9e3813c1696
 title: IWiaItem2::DeviceDlg method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

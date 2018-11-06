@@ -4,7 +4,6 @@ description: The OpenGL pipeline requires you to input several types of data
 ms.assetid: e820d093-3e39-4feb-ab2a-0c28e298bde4
 keywords:
 - OpenGL processing pipeline,input data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

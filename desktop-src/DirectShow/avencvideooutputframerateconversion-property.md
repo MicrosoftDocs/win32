@@ -2,7 +2,6 @@
 Description: Specifies whether the encoder converts the frame rate when the output frame rate does not match the input frame rate.
 ms.assetid: c3946942-5a61-4a15-ace6-da2f63c01963
 title: AVEncVideoOutputFrameRateConversion property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

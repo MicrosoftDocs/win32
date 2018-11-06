@@ -2,7 +2,6 @@
 Description: Lists the functions used in authentication APIs.
 ms.assetid: 946ab34a-f52a-4720-8516-cdcae2883d9b
 title: Authentication Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

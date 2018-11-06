@@ -2,7 +2,6 @@
 Description: When patching files having variable content, it may be necessary to retain selected regions of the target file to prevent the lost of critical information.
 ms.assetid: 4a610588-556e-489f-ac14-73e5e6b776fe
 title: Patching Selected Regions of a File
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

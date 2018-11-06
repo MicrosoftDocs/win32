@@ -2,7 +2,6 @@
 Description: The Inactive method shuts down the worker thread that pulls data from the output pin. This method also decommits the allocator.
 ms.assetid: 90b91686-b9a8-4196-b559-de924334f11c
 title: CPullPin.Inactive method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

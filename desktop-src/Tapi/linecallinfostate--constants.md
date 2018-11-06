@@ -2,7 +2,6 @@
 Description: The LINECALLINFOSTATE\_ bit-flag constants describe various call information items about which an application can be notified in the LINE\_CALLINFO message.
 ms.assetid: c216d9b7-8e2f-4604-ba93-1d9e1a5d23fc
 title: LINECALLINFOSTATE_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

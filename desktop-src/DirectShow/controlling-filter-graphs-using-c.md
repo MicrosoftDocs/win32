@@ -2,7 +2,6 @@
 Description: Controlling Filter Graphs Using C
 ms.assetid: 56e41f0a-2ea6-422c-8d3f-7849e91e3731
 title: Controlling Filter Graphs Using C
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

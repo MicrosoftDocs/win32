@@ -11,7 +11,6 @@ keywords:
 - DrawDib,display adapters
 - DrawDib,image stretching
 - DrawDib,compressed images
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

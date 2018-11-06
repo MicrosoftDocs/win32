@@ -2,7 +2,6 @@
 Description: This section contains structures that belong to the RealTimeStylus Class.
 ms.assetid: 8baf8ee3-b6f7-4733-9e71-52627045c874
 title: RealTimeStylus Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Certificate Services supports the use of certificates as defined in the ITU-T recommendation X.509 (also, ISO/IEC 9594-8).
 ms.assetid: 59f20de0-de24-43c7-a1a2-bdc91ee28059
 title: Certificate Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

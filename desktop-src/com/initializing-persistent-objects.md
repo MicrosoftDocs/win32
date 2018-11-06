@@ -2,7 +2,6 @@
 title: Initializing Persistent Objects
 description: Initializing Persistent Objects
 ms.assetid: 790cf133-ce86-4d02-b177-a538b4ee3f8b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

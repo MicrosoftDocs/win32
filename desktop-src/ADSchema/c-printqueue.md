@@ -1,9 +1,6 @@
 ---
 title: Print-Queue class
 description: Contains information about a print queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 779eb37c-f94e-472a-9551-8a0f72fe0e2b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Queue
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

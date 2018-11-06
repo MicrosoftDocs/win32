@@ -1,14 +1,8 @@
 ---
 Description: Uncompresses the logical paging file (or directory) specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9bd98ba8-068e-49af-8dd4-e5ee987eb31d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Uncompress method of the Win32_PageFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -5,7 +5,6 @@ ms.assetid: 93f566cf-0c16-4487-9d53-dc59746e4d00
 keywords:
 - DirectX app, prerequisites
 - DirectX app, Windows Store app
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

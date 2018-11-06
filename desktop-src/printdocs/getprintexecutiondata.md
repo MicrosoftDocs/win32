@@ -2,7 +2,6 @@
 Description: The GetPrintExecutionData retrieves the current print context.
 ms.assetid: bb9506aa-a0da-46bc-a86a-84a79587cd50
 title: GetPrintExecutionData function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

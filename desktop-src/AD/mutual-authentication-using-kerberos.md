@@ -1,9 +1,6 @@
 ---
 title: Mutual Authentication Using Kerberos
 description: Mutual authentication is a security feature in which a client process must prove its identity to a service, and the service must prove its identity to the client, before any application traffic is transmitted over the client/service connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 775dd350-5c70-4d97-aa2f-d21e9aecc778
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - Active Directory, using, security, mutual authentication
 - security AD
 - security AD , mutual authentication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

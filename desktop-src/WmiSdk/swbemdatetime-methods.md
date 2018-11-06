@@ -1,12 +1,8 @@
 ---
 Description: The SWbemDateTime object exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B949263A-3620-4436-B600-AF3CC9EE6DE1
 ms.tgt_platform: multiple
 title: SWbemDateTime Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

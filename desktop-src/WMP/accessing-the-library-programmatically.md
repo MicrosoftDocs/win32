@@ -26,7 +26,6 @@ keywords:
 - Windows Media Player library,retrieving metadata from media items
 - library,retrieving metadata from media items
 - metadata,retrieving
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

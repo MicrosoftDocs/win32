@@ -2,14 +2,13 @@
 Description: Using Decimation to Optimize Mixing Performance
 ms.assetid: 94d4ce86-9d60-4fd4-ab01-851dc073680b
 title: Using Decimation to Optimize Mixing Performance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # Using Decimation to Optimize Mixing Performance
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The optimization described in this section is highly dependent on the underlying hardware. Unless you can guarantee what type of graphics hardware will be used with the application, it may seriously degrade the appearance of the video image.
 
  

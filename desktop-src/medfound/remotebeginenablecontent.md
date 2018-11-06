@@ -2,7 +2,6 @@
 Description: Remotable version of the IMFContentProtectionManager::BeginEnableContent method.
 ms.assetid: d06f752f-3f9a-4c7c-9c49-c886a675fe3a
 title: RemoteBeginEnableContent
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

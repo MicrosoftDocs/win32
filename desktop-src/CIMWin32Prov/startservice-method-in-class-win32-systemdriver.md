@@ -1,14 +1,8 @@
 ---
 Description: Attempts to place the service managed by the system driver into its startup state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3f9d29aa-b549-4a55-be9c-01fad4932fe6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: StartService method of the Win32_SystemDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

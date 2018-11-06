@@ -2,7 +2,6 @@
 Description: The following is the complete source code for the IP Helper application. Additional error checking has been added to source code.
 ms.assetid: c0290660-8a18-4d5c-8f0a-df15da1a9167
 title: Complete IP Helper Application Source Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

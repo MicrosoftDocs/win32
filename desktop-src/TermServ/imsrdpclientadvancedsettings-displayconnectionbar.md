@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings DisplayConnectionBar property
 description: Specifies whether to use the connection bar. The default value is VARIANT\_TRUE, which enables the property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 251c0322-5589-423d-9694-004f847c173b
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

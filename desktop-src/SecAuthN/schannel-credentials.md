@@ -2,7 +2,6 @@
 Description: Schannel protocols require credentials to authenticate servers and optionally, clients.
 ms.assetid: '8295b1bd-6ae1-4f7e-926d-a9da7ec6a524'
 title: Schannel Credentials
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

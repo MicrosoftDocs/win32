@@ -2,7 +2,6 @@
 title: Registering for Application Recovery
 ms.assetid: 2940b1b2-a0ca-4f81-a576-ae6d53ffd4a8
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

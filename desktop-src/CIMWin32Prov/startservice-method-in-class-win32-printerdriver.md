@@ -1,14 +1,8 @@
 ---
 Description: The StartService method places the service in the started state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0f221db1-29ad-4071-98d3-6d06e4f5e026
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: StartService method of the Win32_PrinterDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

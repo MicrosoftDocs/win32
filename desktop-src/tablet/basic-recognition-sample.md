@@ -2,7 +2,6 @@
 Description: This application demonstrates how you can build a simple handwriting recognition application.This program creates an InkCollector object to ink-enable the window and a default recognizer context object.
 ms.assetid: 6dc94293-cdf7-4b90-a5e8-559f376add26
 title: Basic Recognition Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

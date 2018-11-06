@@ -4,7 +4,6 @@ description: HTTP Server API provides registry keys to support parsing exception
 ms.assetid: b93a3b43-c1ca-41ec-9702-72c1b04aec69
 keywords:
 - Parsing Exceptions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

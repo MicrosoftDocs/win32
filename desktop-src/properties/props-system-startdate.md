@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 26208e02-6119-47be-86d6-5432723e4b1f
 title: System.StartDate
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

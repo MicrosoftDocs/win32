@@ -2,7 +2,6 @@
 Description: Winsock Tracing Events details.
 ms.assetid: 246AE0BE-E8E2-4291-8BF4-577F889F055B
 title: Winsock Tracing Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

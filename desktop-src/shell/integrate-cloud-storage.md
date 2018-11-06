@@ -2,7 +2,6 @@
 Description: Shows how to register as a sync root provider and integrate a cloud storage provider into the root level of the Navigation Pane.
 ms.assetid: BB177EDC-8C88-4540-B2F8-994C1C8BA91C
 title: Integrate a Cloud Storage Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 When you have a cloud storage provider, there are a couple of steps you should take in order to provide a consistent and preferred experience for the user. These two things are registering as a sync root provider and integrating your application into the root level of the Navigation Pane.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Integrating your cloud storage provider is only supported starting in Windows 10.
 
  
@@ -62,7 +61,7 @@ These instructions specifically use the **reg.exe** command, however you can use
 
 Add the name of your extension to the registry under HKEY\_CURRENT\_USER. You will also be adding the unique identifier for this extension. It is possible to add more than one extension per user, but in that case you will need a unique name and identifier for each extension. This name and identifier must be consistent throughout the rest of these steps. In this example, the name is *MyCloudStorageApp*.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The identifier provided (0672A6D1-A6E0-40FE-AB16-F25BADC6D9E3) in these steps is just used as a sample. You will need to change this to your unique CLSID.
 
  
@@ -73,7 +72,7 @@ Add the name of your extension to the registry under HKEY\_CURRENT\_USER. You wi
 
 Provide the path to the icon that should be displayed in the Navigation Pane. In the example below, *1043* refers to the resource identifier for the icon in the indicated DLL.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > You need to update the image path. It should point to a generic path where your app installed an image.
 
  

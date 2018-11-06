@@ -1,9 +1,6 @@
 ---
 title: CQPM_HANDLERSPECIFIC message
 description: Base value used for messages that are private to the query handler.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c3badb89-ee4e-4317-97aa-15187b9bb3e8
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

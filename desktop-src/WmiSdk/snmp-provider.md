@@ -1,12 +1,8 @@
 ---
 Description: The Simple Network Management Protocol (SNMP) provider allows client applications to access SNMP information through Windows Management Instrumentation (WMI).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 71e758d9-2ea6-42f5-93b4-d370a96b10cf
 ms.tgt_platform: multiple
 title: WMI and SNMP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

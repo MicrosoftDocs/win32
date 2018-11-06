@@ -1,16 +1,12 @@
 ---
 title: Reading User Cannot Change Password (LDAP Provider)
 description: The ability of a user to change their password is a permission that can be granted or denied.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d0d95d20-dcdb-453a-9d15-c386217927c8
 ms.tgt_platform: multiple
 keywords:
 - Reading User Cannot Change Password (LDAP Provider) ADSI
 - User Cannot Change Password (LDAP Provider) ADSI , reading
 - LDAP provider ADSI , user management examples, User Must Change Password at Next Logon, reading
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

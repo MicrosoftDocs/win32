@@ -1,9 +1,6 @@
 ---
 title: Employee-ID attribute
 description: The ID of an employee.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5f19773f-ef4c-433a-a9b9-f8499a52b45e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Employee-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

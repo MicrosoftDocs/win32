@@ -1,9 +1,6 @@
 ---
 title: Link-Track-OMT-Entry class
 description: Tracks the link for objects that have moved.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d2b27f10-1e94-4385-a86d-6153e0eeabf6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Link-Track-OMT-Entry
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

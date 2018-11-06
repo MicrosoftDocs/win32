@@ -2,7 +2,6 @@
 title: Event Schema Elements
 description: The following are the elements that the Event schema defines.
 ms.assetid: 972c0a78-32d5-45b3-bcc3-6423b60bfa6f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

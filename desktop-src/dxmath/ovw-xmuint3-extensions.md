@@ -2,7 +2,6 @@
 Description: XMUINT3 describes a structure containing a 3D vector consisting of three unsigned integer values.
 ms.assetid: f3a3ff27-f259-45bd-8137-b878e43a0f87
 title: XMUINT3 Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

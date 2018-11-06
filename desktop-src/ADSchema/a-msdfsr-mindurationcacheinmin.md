@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-MinDurationCacheInMin attribute
 description: Minimum time, in minutes, before truncating files.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e173b9b8-3f27-4c8f-aea0-d7c84d00a17f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-MinDurationCacheInMin
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Demonstrates the implementation of a property handler for the .wpl and .zpl playlist file formats.
 ms.assetid: C6C9B243-3FA8-4fef-9563-AB7F558A8FFE
 title: Playlist Property Handler Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

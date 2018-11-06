@@ -2,7 +2,6 @@
 Description: The Base Provider, Strong Provider, and Enhanced Provider use the same key BLOBs.
 ms.assetid: f1bd347b-33bd-40bc-9a9b-c06f264f1af4
 title: Enhanced Provider Key BLOBs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

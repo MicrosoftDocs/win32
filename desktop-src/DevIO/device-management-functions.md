@@ -2,7 +2,6 @@
 Description: The following functions are used in device management.
 ms.assetid: 3918ba49-1549-4f0c-b9fd-303ef46b810e
 title: Device Management Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

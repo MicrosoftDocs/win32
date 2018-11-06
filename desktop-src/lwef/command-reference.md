@@ -2,7 +2,6 @@
 title: Command Reference
 description: Command Reference
 ms.assetid: 084f14ee-6774-46e2-a4ec-92f480f2f74a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Stops the service.
 ms.assetid: 26d0aa9f-f5ca-481f-9bed-6788b0dc2803
 title: StopService method of the Msvm_CollectionManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

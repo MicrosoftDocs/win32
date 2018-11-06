@@ -1,9 +1,6 @@
 ---
 title: RecycleRpcApplicationPools method of the Win32_TSGatewayServerSettings class
 description: Recycles the RPC application pools in IIS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c7b1b797-7792-4d97-97f4-bea3b2f2495b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

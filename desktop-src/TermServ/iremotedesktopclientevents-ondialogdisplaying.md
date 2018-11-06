@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnDialogDisplaying method
 description: Called before the control displays a dialog box.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 931CA49C-713C-4C90-A806-D0E88F60567A
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

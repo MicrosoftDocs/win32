@@ -2,7 +2,6 @@
 Description: Winsock 2 accommodates layered protocols.
 ms.assetid: 1c5efd2e-1b42-4c20-a4da-b81a5fc4243c
 title: Categorizing Layered Service Providers and Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: ed8fe840-f26f-43dc-b94f-f57941c2801f
 title: Audio
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-App-Configuration class
 description: Used to store the settings information for an application. The ms-DS-Settings attribute should be used to store the actual values.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cbb050c8-c391-4c13-bb01-11a11635c9be
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-App-Configuration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

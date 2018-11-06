@@ -1,9 +1,6 @@
 ---
 title: macAddress attribute
 description: Contains the MAC address in maximal, colon-separated hexadecimal notation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 332cd4f7-cdad-44ab-90b3-60b7d7b4fecb
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - macAddress
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

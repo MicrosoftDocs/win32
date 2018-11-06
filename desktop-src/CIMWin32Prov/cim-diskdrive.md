@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_DiskDrive class represents a physical disk drive as seen by the operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3a63506e-455e-4108-b0c7-03b2af249d61
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_DiskDrive class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -55,7 +49,7 @@ api_location:
 
 The **CIM\_DiskDrive** class represents a physical disk drive as seen by the operating system. The disk drive features correspond to the logical and management characteristics of the drive, and in some cases, may not reflect the physical characteristics of the device. An interface to a physical drive is a member of this class. However, an object based on another logical device is not a member of this class.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

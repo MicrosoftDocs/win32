@@ -1,9 +1,6 @@
 ---
 title: Query-Policy-Object attribute
 description: Reference to the default Query-Policy in force for this server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5a492305-ac57-4331-b96b-bdd8107d4a4d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Query-Policy-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

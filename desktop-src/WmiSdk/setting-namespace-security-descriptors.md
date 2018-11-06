@@ -1,12 +1,8 @@
 ---
 Description: Both C++ applications and scripts running under a full administrator account can change a namespace security descriptor.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d3e56b30-d5a8-446a-89aa-645b44a75af6
 ms.tgt_platform: multiple
 title: Setting Namespace Security Descriptors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

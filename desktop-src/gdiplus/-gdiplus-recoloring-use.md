@@ -2,7 +2,6 @@
 Description: Recoloring is the process of adjusting image colors.
 ms.assetid: 7e018c5a-7933-43b6-b7b3-ee9daea16eb9
 title: Recoloring
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-BridgeHead-Servers-Used attribute
 description: List of bridge head servers used by KCC in the previous run.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f99e9ef2-1a64-49ab-b6b7-7613f3246e61
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-BridgeHead-Servers-Used
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

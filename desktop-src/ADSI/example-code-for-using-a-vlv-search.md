@@ -1,14 +1,10 @@
 ---
 title: Example Code for Using a VLV Search
 description: This topic contains C++ code examples to use to perform a VLV search.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9bad8f71-80e3-446f-9be3-c00defbe1ea5
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Using a VLV Search
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Enumeration syntax
 description: Enumeration(delivery-mechanism) syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 26779fc3-de38-42c4-9e8a-21af6f01f123
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Enumeration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

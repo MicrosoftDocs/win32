@@ -1,16 +1,12 @@
 ---
 title: IMsRdpClientAdvancedSettings8 BandwidthDetection property
 description: Specifies if bandwidth changes are automatically detected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 30b2b7b3-9050-4a11-9929-2ad1dbf5ed2d
 ms.tgt_platform: multiple
 keywords:
 - BandwidthDetection property Remote Desktop Services
 - BandwidthDetection property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
 - IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , BandwidthDetection property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

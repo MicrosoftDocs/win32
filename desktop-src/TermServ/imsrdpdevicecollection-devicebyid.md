@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceCollection DeviceById property
 description: Retrieves the device with the specified identifier.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b64e83fa-5a94-4080-8efa-45cbfe5ceb88
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

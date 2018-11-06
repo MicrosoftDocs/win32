@@ -1,9 +1,6 @@
 ---
 title: Pwd-Last-Set attribute
 description: The date and time that the password for this account was last changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 06ca5cd5-a285-488a-9db0-c698b82a847d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Pwd-Last-Set
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

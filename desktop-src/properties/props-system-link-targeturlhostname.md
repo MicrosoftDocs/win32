@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 548e4130-bf18-43cf-955d-a7e856152d0c
 title: System.Link.TargetUrlHostName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

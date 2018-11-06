@@ -5,7 +5,6 @@ ms.assetid: ca49c9ed-95b5-4d02-9a98-457ddc3399e3
 keywords:
 - Microsoft Interface Definition Language MIDL , reference, language
 - MIDL language reference MIDL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

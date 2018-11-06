@@ -2,7 +2,6 @@
 Description: Defines a type for the SubscriberID element of the Mobile Broadband profile.
 ms.assetid: b36df4d3-f558-4af8-8f63-e4991c34990f
 title: subscriberIdType Simple Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

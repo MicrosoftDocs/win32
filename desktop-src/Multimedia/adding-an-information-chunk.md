@@ -4,7 +4,6 @@ description: Adding an Information Chunk
 ms.assetid: ebba5079-1f67-4236-9260-e36ff72ad51c
 keywords:
 - capFileSetInfoChunk macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

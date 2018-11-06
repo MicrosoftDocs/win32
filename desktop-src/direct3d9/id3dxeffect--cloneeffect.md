@@ -2,7 +2,6 @@
 Description: Creates a copy of an effect.
 ms.assetid: 6272bce0-b712-4a61-afe2-8f572993b03e
 title: ID3DXEffect::CloneEffect method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

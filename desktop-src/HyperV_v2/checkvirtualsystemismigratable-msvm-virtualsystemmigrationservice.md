@@ -2,7 +2,6 @@
 Description: Determines whether the specified virtual system can be migrated.
 ms.assetid: 1bf1b385-162e-41c9-a408-f7ee755a9646
 title: CheckVirtualSystemIsMigratable method of the Msvm_VirtualSystemMigrationService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

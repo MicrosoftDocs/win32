@@ -2,7 +2,6 @@
 Description: COM+ Security
 ms.assetid: 561593c0-d897-4c3a-a4f5-f25351d2c05c
 title: COM+ Security
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

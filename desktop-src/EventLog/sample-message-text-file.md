@@ -2,7 +2,6 @@
 Description: The following sample message file shows how to create and use a message text file that defines messages in multiple languages.
 ms.assetid: 403eaccc-07a3-4368-a39a-18c706c65537
 title: Sample Message Text File
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

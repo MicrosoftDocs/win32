@@ -1,12 +1,8 @@
 ---
 Description: The following lists standard qualifiers specific to WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 63bdbafc-51f3-4714-8b7e-9d5a61cef45e
 ms.tgt_platform: multiple
 title: Standard WMI Qualifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

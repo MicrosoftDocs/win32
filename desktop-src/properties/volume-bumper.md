@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 7ac47142-67f2-4cca-a8d2-006293c48876
 title: Volume
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

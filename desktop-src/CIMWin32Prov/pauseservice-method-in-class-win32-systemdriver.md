@@ -1,14 +1,8 @@
 ---
 Description: Attempts to place the service managed by the logical system driver in the paused state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f5e960c1-868b-4b7b-9ea5-0fb8a9cfbafa
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: PauseService method of the Win32_SystemDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

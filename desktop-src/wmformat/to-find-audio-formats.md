@@ -7,7 +7,6 @@ keywords:
 - audio streams,finding audio formats
 - streams,audio formats
 - audio streams,audio formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Object-Reference-BL attribute
 description: Backward link for ms-DS-Object-Reference.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8bf3346e-2bdf-4d2f-8fff-991b0ccfa43e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Object-Reference-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

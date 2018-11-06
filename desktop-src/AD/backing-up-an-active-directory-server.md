@@ -1,14 +1,10 @@
 ---
 title: Backing Up an Active Directory Server
 description: An Active Directory server backup requires you to back up the database and the transaction logs. This topic provides a walkthrough of how a backup application backs up the Active Directory directory service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 250b2f40-6d43-4aa5-a588-b0cd4839828d
 ms.tgt_platform: multiple
 keywords:
 - backing up Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

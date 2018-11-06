@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Operations-For-Az-Task attribute
 description: List of operations linked to Az-Task.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bf6b1cf7-c049-4f94-ab1a-7c1103775b32
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Operations-For-Az-Task
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

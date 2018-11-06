@@ -3,7 +3,6 @@ Description: Defines terms that are used in WIC.
 Robots: noindex, nofollow
 ms.assetid: b066757a-8841-4976-b20b-989ebba5eb3b
 title: Windows Imaging Component Glossary
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

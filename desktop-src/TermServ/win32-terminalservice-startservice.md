@@ -1,9 +1,6 @@
 ---
 title: StartService method of the Win32_Service class
 description: Attempts to place the referenced service into its startup state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4DA05C48-03A0-4D4B-9E69-0404393C219C
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

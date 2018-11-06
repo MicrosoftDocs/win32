@@ -4,7 +4,6 @@ description: To build a COM sample, the computer environment must be set up to b
 ms.assetid: c62b8b4d-a9d2-4587-8bb6-7b2c30d1c00d
 keywords:
 - How to Build Samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -27,7 +26,7 @@ Two batch files, Regall.bat and Unregall.bat, are also provided in the main dire
 
 Run the Cleanall.bat batch file to perform an exhaustive Cleanall of all the COM Tutorial Samples.
 
-> \[!Warning\]  
+> [!WARNING]
 > This batch file deletes all Visual Studio project files and other temporary work files created by Visual C++ in the samples. All of the COM servers built in the tutorial code samples are unregistered from the registry. All executable exe and .dll files are deleted. All debug symbol files are deleted. Files generated in a variety of build environments are also deleted.
 
  

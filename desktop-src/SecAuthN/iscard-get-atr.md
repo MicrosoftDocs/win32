@@ -2,7 +2,6 @@
 Description: Retrieves an ATR string of the smart card.
 ms.assetid: 2021bd0c-6ef8-4679-be6c-9a9fd33d9fd6
 title: ISCard::get_Atr method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

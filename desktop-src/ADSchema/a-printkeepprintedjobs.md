@@ -1,9 +1,6 @@
 ---
 title: Print-Keep-Printed-Jobs attribute
 description: TRUE if printed jobs are kept.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 118f9dae-c338-41dc-8faa-73b20539874e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Keep-Printed-Jobs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

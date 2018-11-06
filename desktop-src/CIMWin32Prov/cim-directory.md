@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Directory class represents a file type that logically groups the data files that it contains and provides path information for the grouped files.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a9594f53-08f0-4a47-9edc-51686c80c5ea
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -57,7 +51,7 @@ api_location:
 
 The **CIM\_Directory** class represents a file type that logically groups the data files that it contains and provides path information for the grouped files.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

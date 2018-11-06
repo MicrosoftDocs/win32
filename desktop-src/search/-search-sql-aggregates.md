@@ -2,7 +2,6 @@
 Description: An aggregate function performs a calculation on a set of values and returns a value. Doing so makes it possible to generate summary statistics for multi-level groups with little overhead.
 ms.assetid: 82a93f57-8273-45bf-81d7-50a673845ae1
 title: Aggregate Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

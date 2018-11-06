@@ -2,7 +2,6 @@
 Description: Calculate the Fresnel term.
 ms.assetid: d3d281db-91a1-4100-8a82-028554b5a91d
 title: D3DXFresnelTerm function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

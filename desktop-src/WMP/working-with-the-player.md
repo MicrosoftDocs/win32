@@ -8,7 +8,6 @@ keywords:
 - attributes,player
 - player attribute
 - JScript files for skins,player attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

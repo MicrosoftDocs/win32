@@ -2,7 +2,6 @@
 Description: This is a stream containing the data necessary to render a contact's dynamic video account picture.
 ms.assetid: 28d5af8c-2b05-41e7-98ed-efc25466848c
 title: System.Contact.AccountPictureDynamicVideo
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

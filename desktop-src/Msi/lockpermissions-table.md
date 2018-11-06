@@ -2,7 +2,6 @@
 Description: Used to secure individual portions of an application in a locked-down environment. It can be used with the installation of files, registry keys, and created folders.
 ms.assetid: 7c20e211-7704-49c2-a0c5-aaa695a09764
 title: LockPermissions Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

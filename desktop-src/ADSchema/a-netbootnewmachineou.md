@@ -1,9 +1,6 @@
 ---
 title: netboot-New-Machine-OU attribute
 description: Indicates where the new client computer account will be created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0e1a9145-65cc-499f-a264-c56f9028341b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-New-Machine-OU
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

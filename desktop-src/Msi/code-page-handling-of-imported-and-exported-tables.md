@@ -2,7 +2,6 @@
 Description: You can add localization information to an installation database by importing and exporting ASCII text archive files using MsiDatabaseExport and MsiDatabaseImport.
 ms.assetid: dc52313b-38e7-43cc-abfd-86966c836fce
 title: Code Page Handling of Imported and Exported Tables
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

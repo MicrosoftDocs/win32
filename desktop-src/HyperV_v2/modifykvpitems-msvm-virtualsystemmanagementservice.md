@@ -2,7 +2,6 @@
 Description: Modifies existing key-value pairs on a virtual machine.
 ms.assetid: A014F681-4429-4982-95AA-DF371925BB3B
 title: ModifyKvpItems method of the Msvm_VirtualSystemManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -119,7 +118,7 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 
 The following C# sample modifies key-value pairs on a virtual machine. The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
  
@@ -199,7 +198,7 @@ namespace HyperVSamples
 
 The following Visual Basic Scripting Edition (VBScript) sample modifies key-value pairs on a virtual machine.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
  

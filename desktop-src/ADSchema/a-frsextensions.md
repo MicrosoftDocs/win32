@@ -1,9 +1,6 @@
 ---
 title: FRS-Extensions attribute
 description: Binary data used by file replication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8384f097-533c-49b6-898b-f4120dcfc3fd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Extensions
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

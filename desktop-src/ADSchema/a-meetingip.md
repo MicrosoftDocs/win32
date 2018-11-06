@@ -1,9 +1,6 @@
 ---
 title: meetingIP attribute
 description: The TCP/IP address for the meeting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ed18a170-aca9-4721-af36-77c120eadde1
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingIP
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

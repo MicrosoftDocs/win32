@@ -2,7 +2,6 @@
 Description: 'The following structures are used when working with enclaves that are used to create trusted execution environments:'
 ms.assetid: 61F99132-E947-4EA4-86A0-914CE316B53A
 title: Trusted Execution Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

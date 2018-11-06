@@ -2,7 +2,6 @@
 Description: For extensible bit-flag data constants, a service-provider vendor can define new values for specified bits.
 ms.assetid: bf3ca2b0-a9fb-4e63-87de-6d5cbe5cd746
 title: Bit-Flag Data Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

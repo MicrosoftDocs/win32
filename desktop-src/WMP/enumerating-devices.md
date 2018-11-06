@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player Mobile,portable devices
 - portable devices,enumerating
 - enumerations,portable devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

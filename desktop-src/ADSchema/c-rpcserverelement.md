@@ -1,9 +1,6 @@
 ---
 title: rpc-Server-Element class
 description: Represents a single interface in a given RPC Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b438e428-b727-4e36-b7a5-eb021f9a2afe
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Server-Element
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

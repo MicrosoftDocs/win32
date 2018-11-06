@@ -2,7 +2,6 @@
 title: VML RuleInitiator Attribute
 description: VML RuleInitiator Attribute
 ms.assetid: 2c9b1131-b088-4b70-b132-bdb4296433ae
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

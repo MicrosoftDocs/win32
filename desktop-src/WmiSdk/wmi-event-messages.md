@@ -1,12 +1,8 @@
 ---
 Description: The following list lists events supported by WMI logs in Windows Vista and later operating systems.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ad8891cc-0b76-404d-81fc-961bcdbfae32
 ms.tgt_platform: multiple
 title: WMI Event Messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

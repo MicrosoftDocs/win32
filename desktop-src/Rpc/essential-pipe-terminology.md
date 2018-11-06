@@ -2,7 +2,6 @@
 title: Essential Pipe Terminology
 description: Like other types of parameters to remote procedure calls, pipes can be \ in\ or \ out\ parameters.
 ms.assetid: 377fb65a-e819-4e96-a5b7-9850afd97b73
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

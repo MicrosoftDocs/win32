@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Primary-Desktop-BL attribute
 description: This attribute represents the backward link to a user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 865151d3-d9bf-4f4e-a356-0d61cc86cff8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Primary-Desktop-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

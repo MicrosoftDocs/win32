@@ -2,7 +2,6 @@
 Description: Handle to the module instance.
 ms.assetid: ad889ebe-2bd8-4456-9517-9e2909697a02
 title: CBaseWindow::m_hInstance member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

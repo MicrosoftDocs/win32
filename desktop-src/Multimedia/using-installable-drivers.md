@@ -9,7 +9,6 @@ keywords:
 - DriverProc function
 - installable drivers,DriverProc function
 - installable drivers,examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

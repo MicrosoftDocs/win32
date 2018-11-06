@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings DoubleClickDetect property
 description: Specifies if the client identifies double-clicks for the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 39e76bef-3d12-406d-a074-8c084fbe9ccc
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

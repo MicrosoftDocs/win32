@@ -2,7 +2,6 @@
 Description: This per-machine system policy is used only if logging has not been enabled by the &\#0034;/L&\#0034; command line option or by MsiEnableLog.
 ms.assetid: 'd8649808-5dc3-4496-8c2f-da9b1512b5aa'
 title: Logging
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

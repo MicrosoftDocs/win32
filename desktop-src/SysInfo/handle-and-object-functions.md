@@ -2,7 +2,6 @@
 Description: The following functions are used with handles and objects.
 ms.assetid: b4769e19-7478-4919-a9d2-8086ece6da70
 title: Handle and Object Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

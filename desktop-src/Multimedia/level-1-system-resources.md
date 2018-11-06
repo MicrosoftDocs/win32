@@ -8,7 +8,6 @@ keywords:
 - Multimedia PC Marketing Council,Level 1
 - MPC Level 1,system resources
 - MPC Level 1,minimum configuration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

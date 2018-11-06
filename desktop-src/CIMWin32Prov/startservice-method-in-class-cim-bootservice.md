@@ -1,14 +1,8 @@
 ---
 Description: The StartService method puts the service in a &\#0034;start&\#0034; state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b2b38d64-b497-46f5-8638-a9a8ce50e888
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: StartService method of the CIM_BootService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **StartService** method puts the service in a "start" state. In a subclass, the set of possible return codes can be specified by using a **ValueMap** qualifier on the method. The strings to which the **ValueMap** contents are translated may also be specified in the subclass as a **Values** array qualifier. This method is inherited from [**CIM\_Service**](cim-service.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

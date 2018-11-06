@@ -1,16 +1,12 @@
 ---
 title: Constants in Active Directory Domain Services
 description: This section defines flags, messages, and GUIDS used for user interfaces in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef4ef14b-dcdb-4a85-8759-c8105f07dc25
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Constants AD
 - Active Directory, Reference, Constants AD
 - Constants AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

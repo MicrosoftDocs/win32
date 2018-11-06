@@ -2,7 +2,6 @@
 Description: The value of the &\#0034;c-playerversion&\#0034; field that the network source uses for logging.
 ms.assetid: 7bc485de-345b-475c-bbae-0776aa63c93a
 title: MFNETSOURCE_PLAYERVERSION property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

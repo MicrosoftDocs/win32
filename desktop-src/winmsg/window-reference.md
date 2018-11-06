@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: aedbac92-2aaa-4df2-a9f2-efee760152d5
 title: Window Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

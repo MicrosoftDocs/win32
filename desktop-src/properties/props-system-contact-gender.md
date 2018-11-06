@@ -2,7 +2,6 @@
 Description: The user-friendly form of System.Contact.GenderValue.
 ms.assetid: e3539279-14ed-41c6-bccd-0459782a4b69
 title: System.Contact.Gender
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

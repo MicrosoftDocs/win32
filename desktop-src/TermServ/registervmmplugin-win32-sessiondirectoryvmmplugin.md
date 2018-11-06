@@ -1,9 +1,6 @@
 ---
 title: RegisterVMMPlugin method of the Win32_SessionDirectoryVMMPlugin class
 description: Registers a new VMM plug-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8fa6109e-6320-4ad1-b313-f100d8383f85
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

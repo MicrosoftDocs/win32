@@ -2,7 +2,6 @@
 Description: The following code implements a producer/consumer queue.
 ms.assetid: 0f79de15-6ce9-4d89-afb5-b4a2f0cf2fe3
 title: Using Condition Variables
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: VML Curve Element
 description: VML Curve Element
 ms.assetid: 37197ef0-7597-465a-bc37-7ffcde2e736b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

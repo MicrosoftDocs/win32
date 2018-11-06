@@ -2,7 +2,6 @@
 title: CalculateLevelOfDetail (DirectX HLSL Texture Object)
 description: Calculates the level of detail.
 ms.assetid: 7c7c3754-45a9-49c6-8420-aac22f776b15
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

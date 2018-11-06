@@ -2,7 +2,6 @@
 Description: This section contains aids for Application Developers who want to either confirm the continued compatibility of their existing applications or ensure optimal quality and compatibility for new applications they are designing.
 ms.assetid: 0cccdf45-452e-4db8-aa14-b6bf132c9165
 title: Tools, Best Practices, and Guidance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

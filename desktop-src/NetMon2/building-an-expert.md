@@ -2,7 +2,6 @@
 Description: This topic describes how to build a generic expert that ships with the Network Monitor SDK.
 ms.assetid: c05b261d-3fac-40bf-b4ff-bd766f8d148f
 title: Building an Expert
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

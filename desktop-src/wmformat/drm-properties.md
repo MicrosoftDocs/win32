@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),DRM properties
 - digital rights management (DRM),properties
 - DRM (digital rights management),properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

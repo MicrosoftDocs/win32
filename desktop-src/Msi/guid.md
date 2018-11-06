@@ -2,7 +2,6 @@
 Description: The GUID data type is a text string representing a Class identifier (ID). COM must be able to convert the string to a valid Class ID. All GUIDs must be authored in uppercase.
 ms.assetid: 9e5e2a49-ecf5-43e8-ba6d-42ceaf0beba8
 title: GUID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

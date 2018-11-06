@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_DisplayControllerConfiguration WMI class represents the video adapter configuration information of a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 36ebd840-5e8c-411a-828d-38972fe956e2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DisplayControllerConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

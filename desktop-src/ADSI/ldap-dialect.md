@@ -1,15 +1,11 @@
 ---
 title: LDAP Dialect
 description: The LDAP dialect is a format for query statements that use the LDAP search filter syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 29aca7e6-3ed5-4efd-8b03-6a2ee0571f1f
 ms.tgt_platform: multiple
 keywords:
 - LDAP Dialect ADSI
 - dialects ADSI , LDAP dialect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

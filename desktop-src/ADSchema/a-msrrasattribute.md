@@ -1,9 +1,6 @@
 ---
 title: ms-RRAS-Attribute attribute
 description: String that contains the vendorID Number installed on a router. The VendorID is vendor SMI and the Number is ms-RRAS-Attribute Number defined in the Router Identity Dictionary Object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 72b32814-b2a2-4369-af01-ba8c893aa393
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-RRAS-Attribute
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

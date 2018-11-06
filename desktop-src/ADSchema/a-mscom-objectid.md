@@ -1,9 +1,6 @@
 ---
 title: ms-COM-ObjectId attribute
 description: GUID used to identify a COM+ Partition or a COM+ PartitionSet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dba66b6d-3da2-4a1f-a7c8-30fff2600be7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-COM-ObjectId
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

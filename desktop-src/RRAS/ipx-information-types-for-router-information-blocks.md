@@ -2,7 +2,6 @@
 title: IPX Information Types for Router Information Blocks
 description: The following information types are listed in Ipxrtdef.h. Use these information types with the router information block functions when running the IPX transport.
 ms.assetid: 6cbc8415-f5ba-4f84-a23f-dd4f4a54d118
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

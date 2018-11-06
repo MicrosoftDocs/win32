@@ -1,9 +1,6 @@
 ---
 title: Update method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Updates the current Remote Desktop resource authorization policy (RD \ 160;RAP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: af997bb8-6027-4f37-80fb-e89622840a2b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

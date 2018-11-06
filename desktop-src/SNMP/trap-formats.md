@@ -2,7 +2,6 @@
 title: Trap Formats
 description: The format of trap PDUs is different than that of other PDUs. The format of SNMPv1 traps and SNMPv2C traps is also different.
 ms.assetid: 2d2b4520-28b7-4a2e-8dee-456e17d9d6f6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

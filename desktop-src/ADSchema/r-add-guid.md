@@ -1,9 +1,6 @@
 ---
 title: Add-GUID extended right
 description: Extended right needed at the NC root to add an object with a specific GUID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 33b3580f-6a3c-416d-9a64-c1d91a262641
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Add-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

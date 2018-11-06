@@ -1,9 +1,6 @@
 ---
 title: AddResources method of the Win32_TSGatewayResourceGroup class
 description: Adds resources to the resource group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3210b468-6b82-4edb-ac8b-95f66a7b9328
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

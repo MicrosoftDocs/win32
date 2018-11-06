@@ -1,9 +1,6 @@
 ---
 title: ITsSbSession InitialProgram property
 description: Retrieves or specifies the initial program for this session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c299c4f7-3c5f-468f-9fc7-81eac322dfa2
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

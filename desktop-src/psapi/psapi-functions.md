@@ -2,7 +2,6 @@
 title: PSAPI Functions
 description: The following are the PSAPI functions
 ms.assetid: e158792b-fec2-498d-aae3-d5679fa55783
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

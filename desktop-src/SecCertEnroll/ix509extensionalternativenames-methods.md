@@ -2,7 +2,6 @@
 Description: The IX509ExtensionAlternativeNames interface exposes the following methods.
 ms.assetid: 77C50C81-38A2-4931-AE95-4CC3F330AEEF
 title: IX509ExtensionAlternativeNames Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

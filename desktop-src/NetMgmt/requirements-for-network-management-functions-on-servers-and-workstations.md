@@ -2,7 +2,6 @@
 title: Requirements for Network Management Functions on Servers and Workstations
 description: If you call one of the network management functions listed in this topic on a server or workstation, different access requirements apply to information queries and information updates.
 ms.assetid: 05ff1771-8058-4c86-8f45-735bf41dc128
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

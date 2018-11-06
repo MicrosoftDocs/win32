@@ -2,7 +2,6 @@
 title: Notifications
 description: A notification informs users of events that are unrelated to the current user activity, by briefly displaying a balloon from an icon in the notification area.
 ms.assetid: dcac2fb7-e503-4ea3-a2c5-e3cb660c040a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

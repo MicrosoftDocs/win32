@@ -4,7 +4,6 @@ description: Remote Access Service (RAS) provides remote access capabilities to 
 ms.assetid: 5016fa0b-72eb-484e-b8d7-af9de2e25689
 keywords:
 - Remote Access Service RAS ,described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

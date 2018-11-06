@@ -1,12 +1,8 @@
 ---
 title: Multi-Hop Support in WinRM
 description: Windows Remote Management (WinRM) supports the delegation of user credentials across multiple remote computers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0e6c8966-bb05-4dfb-b154-300fa76e8d9c
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

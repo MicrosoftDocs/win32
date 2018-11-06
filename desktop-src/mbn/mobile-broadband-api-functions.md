@@ -2,7 +2,6 @@
 Description: The wireless wide area network (WWAN, also known as Mobile Broadband) API defines and uses the following functions.
 ms.assetid: 9B8CD457-D140-4F28-8107-1B7F96E0E8D4
 title: Wireless Wide Area Network Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

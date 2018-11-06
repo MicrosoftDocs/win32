@@ -1,14 +1,10 @@
 ---
 title: Service Connection Points for Replicated, Host-based, and Database Services
 description: When you publish a service using a service connection point (SCP), consider how clients will locate the SCP for your service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 944e8ecd-f8ea-4506-992c-bbbfc82d11f3
 ms.tgt_platform: multiple
 keywords:
 - Service Connection Points for Replicated, Host-based, and Database Services AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: WebDAV API Enumerations
 description: The following enumeration is used in the WebDAV API.
 ms.assetid: d3c83646-71d4-4a39-8f10-f320ad59fcb1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

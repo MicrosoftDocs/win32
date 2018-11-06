@@ -2,7 +2,6 @@
 title: dadd (sm5 - asm)
 description: Component-wise double-precision add.
 ms.assetid: 416F1103-E27B-4AFC-9ED1-492FF8A93492
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

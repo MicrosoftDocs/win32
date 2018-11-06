@@ -1,14 +1,10 @@
 ---
 title: Remote Desktop Services AudioEndpoint API reference
 description: Supports interfaces for audio endpoint registration and data transport.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0e3ea0e7-8c61-400e-b8ef-8a0403aedafa
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , AudioEndpoint API reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

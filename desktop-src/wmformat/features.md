@@ -9,7 +9,6 @@ keywords:
 - ASF (Advanced Systems Format),features
 - Advanced Systems Format (ASF),key features
 - ASF (Advanced Systems Format),key features
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

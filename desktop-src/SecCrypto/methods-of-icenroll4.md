@@ -2,7 +2,6 @@
 Description: The following methods are defined by the ICEnroll4 interface or are methods that the ICEnroll4 interface inherits from ICEnroll, ICEnroll2, and ICEnroll3.
 ms.assetid: f15a2a96-35b2-4064-8601-972d0c8ad97b
 title: Methods of ICEnroll4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

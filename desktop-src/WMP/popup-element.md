@@ -8,7 +8,6 @@ keywords:
 - POPUP element
 - reference for skins,POPUP element
 - elements,POPUP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

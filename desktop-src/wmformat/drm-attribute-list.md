@@ -9,7 +9,6 @@ keywords:
 - attributes,digital rights management (DRM)
 - digital rights management (DRM),attributes
 - DRM (digital rights management),attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Demonstrates the implementation of a property handler for custom format recipe (.recipe) files.
 ms.assetid: C8DF5077-0C55-4c7b-8F38-090548EB3743
 title: Recipe Property Handler Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

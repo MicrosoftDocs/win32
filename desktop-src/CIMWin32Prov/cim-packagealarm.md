@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PackageAlarm association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment&\#8212;its security state or its overall health.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4911502a-de9c-46b4-91f6-a042c69fd052
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PackageAlarm class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The [**CIM\_PackageAlarm**](https://msdn.microsoft.com/library/windows/desktop/aa382397) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment its security state or its overall health.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

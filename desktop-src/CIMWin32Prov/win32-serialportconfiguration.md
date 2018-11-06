@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SerialPortConfiguration WMI class represents the settings for data transmission on a Windows-based serial port. This includes configurations for establishing a connection and error checking.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 688cdcce-8325-4b4d-93ab-5a602e9e3f8e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SerialPortConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

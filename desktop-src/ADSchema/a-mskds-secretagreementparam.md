@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-SecretAgreement-Param attribute
 description: The parameters for the secret agreement algorithm.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 903bc140-bdbf-49f5-9830-f98651a8893d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-SecretAgreement-Param
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

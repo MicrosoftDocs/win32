@@ -1,9 +1,6 @@
 ---
 title: WSMan.EnumerationFlagHierarchyDeepBasePropsOnly method
 description: Returns the value of the enumeration flag EnumerationFlagHierarchyDeepBasePropsOnly for use in the flags parameter of Session.Enumerate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f4c5966a-0d9f-4d93-9ccd-2e8a5f32b77f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

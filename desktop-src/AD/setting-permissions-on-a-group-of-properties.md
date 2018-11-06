@@ -1,14 +1,10 @@
 ---
 title: Setting Permissions on a Group of Properties
 description: Permissions can be applied to a group of properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cb9f6c04-be94-45b4-ba84-2a79b7625fdd
 ms.tgt_platform: multiple
 keywords:
 - Setting Permissions on a Group of Properties AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

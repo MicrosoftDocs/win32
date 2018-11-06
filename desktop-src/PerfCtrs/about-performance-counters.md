@@ -2,7 +2,6 @@
 Description: Counters are used to provide information as to how well the operating system or an application, service, or driver is performing.
 ms.assetid: d172a131-61d3-4fc1-8e0c-b07b2bd34f80
 title: About Performance Counters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

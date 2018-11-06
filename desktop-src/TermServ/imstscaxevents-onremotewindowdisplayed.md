@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnRemoteWindowDisplayed method
 description: Called when a RemoteApp window is displayed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B1E83486-50CB-4CA4-BD01-2C72938335AF
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

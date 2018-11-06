@@ -1,12 +1,8 @@
 ---
 title: Client Shell API Core Functions
 description: The following table provides an overview of the core functions for the Windows Remote Management (WinRM) Client Shell API.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cd0e6b55-03e8-4ebe-aea8-35d268cdb18c
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

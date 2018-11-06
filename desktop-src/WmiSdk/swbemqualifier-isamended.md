@@ -1,12 +1,8 @@
 ---
 Description: The IsAmended property of the SWbemQualifier object is a Boolean value that indicates if this qualifier has been localized using a merge operation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7619bbf0-e4ed-4afb-a6e5-159eaed6c5df
 ms.tgt_platform: multiple
 title: SWbemQualifier.IsAmended property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

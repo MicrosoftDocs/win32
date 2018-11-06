@@ -1,9 +1,6 @@
 ---
 title: Flags attribute
 description: To be used by the object to store bit information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 97ad0f76-2479-4a20-82db-0686851a5b75
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

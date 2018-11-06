@@ -2,7 +2,6 @@
 Description: The Microsoft Windows Journal Note Reader component provides programmatic read access to files in the Journal format.
 ms.assetid: 85dcda59-2972-48e3-a9f5-5cce0b60a1f1
 title: Using the Journal Reader Component
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -19,7 +18,7 @@ The component does not provide the ability to write out .jnt files.
 
 The component is available in unmanaged and managed versions. The unmanaged component is available in the journal.dll dynamic link library (DLL). The managed version is either in the Microsoft.Ink.Journal.dll assembly (for redistribution to Windows XP Tablet PC Edition or Windows Vista), or Microsoft.Ink.dll.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > Beginning with Windows 10, version 1607, journal.dll is not included in the Windows operating system. That library should be considered deprecated or obsolete and should not be used.
 

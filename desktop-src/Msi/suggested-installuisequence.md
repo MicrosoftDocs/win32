@@ -2,7 +2,6 @@
 Description: The suggested action sequences for a basic InstalUISequence table in a Windows Installer database.
 ms.assetid: f1ddad1e-c075-4054-aa24-f1acdc72da96
 title: Suggested InstallUISequence
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section describes version history for Tablet PC Technology.
 ms.assetid: 69eb161a-2330-456f-b7b8-234cf02c8b58
 title: Tablet PC Platform History
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

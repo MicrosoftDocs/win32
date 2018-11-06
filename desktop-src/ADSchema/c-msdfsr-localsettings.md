@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-LocalSettings class
 description: Contains the Distributed File System (DFS) Replication service settings that are applicable to the local computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a7e57bd9-2b02-4d3c-bc05-f4d53e92567d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-LocalSettings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Default-Priority attribute
 description: The default priority (of a process, print job, and so on).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d3945224-33fb-481c-b352-6bb28ee04d60
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Default-Priority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

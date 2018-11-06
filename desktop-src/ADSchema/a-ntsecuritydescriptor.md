@@ -1,9 +1,6 @@
 ---
 title: NT-Security-Descriptor attribute
 description: The Windows NT security descriptor for the schema object. A security descriptor is a data structure that contains security information about an object, such as the ownership and permissions of the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3a17b584-97ea-441c-846e-3031aea171b2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NT-Security-Descriptor
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

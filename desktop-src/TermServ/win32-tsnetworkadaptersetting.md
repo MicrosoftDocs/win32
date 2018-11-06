@@ -1,9 +1,6 @@
 ---
 title: Win32_TSNetworkAdapterSetting class
 description: Defines various configuration settings for the Win32\_Terminal class including properties related to the network adapter and the maximum number of connections allowed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b8a757e6-801b-4349-902e-76596b06df1f
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

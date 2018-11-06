@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_LogicalIdentity class is an abstract and generic association that indicates that two logical elements represent different aspects of the same underlying entity.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 624a52bf-001d-4f18-af77-87a5d1cfa1ff
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_LogicalIdentity class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -30,7 +24,7 @@ The **CIM\_LogicalIdentity** class is an abstract and generic association that i
 
 The association should only be used in scenarios that are well understood, allowing more concrete definition and clarification in subclasses. A scenario where the relationship is reasonable, for example, represents a device that is both a bus entity and a functional entity where the device is a USB (bus) and keyboard (functional) entity.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

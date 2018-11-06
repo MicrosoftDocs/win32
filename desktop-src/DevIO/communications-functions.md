@@ -2,7 +2,6 @@
 Description: The following functions are used with communications resources.
 ms.assetid: ba7d1a9e-6906-4923-a8eb-db58050ba699
 title: Communications Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

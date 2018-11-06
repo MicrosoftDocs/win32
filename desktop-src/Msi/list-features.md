@@ -2,7 +2,6 @@
 Description: The VBScript file WiFeatur.vbs is provided in the Windows SDK Components for Windows Installer Developers.
 ms.assetid: 797cb383-22c0-42b4-82c1-d5bcc3a8bafb
 title: List Features
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

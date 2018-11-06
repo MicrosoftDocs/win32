@@ -1,14 +1,10 @@
 ---
 title: Caching the Result (Client Side)
 description: Client-side caching stores the result set in the client memory, providing performance enhancements for the client side.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6e61b2f6-dd58-466e-9cef-5bc6301e983f
 ms.tgt_platform: multiple
 keywords:
 - Caching the Result (Client Side) ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

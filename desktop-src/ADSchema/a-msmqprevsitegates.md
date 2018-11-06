@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Prev-Site-Gates attribute
 description: The MSMQ-Prev-Site-Gates attribute contains MSMQ mixed-mode information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 117a4f7a-78dd-4efe-81fa-81fdc4eb5ce2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Prev-Site-Gates
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

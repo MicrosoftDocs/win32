@@ -1,14 +1,10 @@
 ---
 title: Security Principals
 description: In Windows 2000, a security principal is a user, group, or computer \ 8212; an entity that the security system recognizes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 213ee563-35cd-43d2-abb2-f66652df5be1
 ms.tgt_platform: multiple
 keywords:
 - security principals AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

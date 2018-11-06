@@ -2,7 +2,6 @@
 title: VML HRPct Attribute
 description: VML HRPct Attribute
 ms.assetid: 28c184eb-dda1-446f-af6e-1a8f33f71a6e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

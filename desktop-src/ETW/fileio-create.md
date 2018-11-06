@@ -2,7 +2,6 @@
 Description: This class is the event type class for the file create event. The following syntax is simplified from MOF code.
 ms.assetid: 83465072-3dae-4a39-8a36-1512025b79df
 title: FileIo_Create class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

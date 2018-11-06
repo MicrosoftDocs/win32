@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Propagation-Time attribute
 description: An attribute used to define in seconds the expected time required to propagate zone changes through Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ca48d956-f88f-440f-bbc9-23015130f393
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Propagation-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

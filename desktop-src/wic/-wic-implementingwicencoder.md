@@ -2,7 +2,6 @@
 Description: Implementing a WIC-Enabled Encoder
 ms.assetid: 9c1a4fa4-30b9-445f-8aee-46711355ace7
 title: Implementing a WIC-Enabled Encoder
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

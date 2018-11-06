@@ -2,7 +2,6 @@
 Description: Digital Video in DirectShow
 ms.assetid: '22400118-2f38-4130-b50c-dcfc96bf0ae9'
 title: Digital Video in DirectShow
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

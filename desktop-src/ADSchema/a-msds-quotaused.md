@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Quota-Used attribute
 description: The current quota consumed by a security principal in the directory database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3a31c0c7-9791-4e00-81e5-ee596f94e3c9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Quota-Used
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Device Events
 ms.assetid: b31500d6-a79d-4e6e-878e-6bd77055f1ad
 title: Device Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

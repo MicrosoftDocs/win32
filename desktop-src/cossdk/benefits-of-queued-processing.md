@@ -2,7 +2,6 @@
 Description: Benefits of Queued Processing
 ms.assetid: dc1fc03f-1e2c-481c-95a7-f8d7b1e06bb0
 title: Benefits of Queued Processing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

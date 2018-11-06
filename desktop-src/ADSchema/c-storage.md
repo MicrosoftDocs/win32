@@ -1,9 +1,6 @@
 ---
 title: Storage class
 description: Generic object for publishing file UNCs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d183a507-4b73-44c1-a074-d9648991cd5f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Storage
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

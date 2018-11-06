@@ -2,7 +2,6 @@
 title: ' define Directive'
 description: Preprocessor directive that assigns a meaningful name to a constant in your application.
 ms.assetid: cc9b34a3-4c83-4999-99ec-e6261ecb2785
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

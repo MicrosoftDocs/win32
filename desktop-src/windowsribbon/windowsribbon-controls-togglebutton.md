@@ -2,7 +2,6 @@
 title: Toggle Button
 description: The Toggle Button when clicked provides input to an application. The control represents a mutually exclusive toggle state.
 ms.assetid: 290052b7-0528-41c5-b6f4-958cc42d502b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

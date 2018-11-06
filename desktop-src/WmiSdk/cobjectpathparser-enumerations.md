@@ -1,12 +1,8 @@
 ---
 Description: The CObjectPathParser class exposes the following enumerations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: A2D8604B-31BA-48D1-A571-05360A73D409
 ms.tgt_platform: multiple
 title: CObjectPathParser Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Creates a new service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e000b896-3b49-4650-b706-548592cfe721
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Create method of the Win32_BaseService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

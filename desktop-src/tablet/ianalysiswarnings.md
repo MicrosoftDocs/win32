@@ -2,7 +2,6 @@
 Description: Contains a collection of objects that implement the IAnalysisWarning interface and that are the result of an ink analysis operation.
 ms.assetid: 2118c18b-d316-4e91-8652-62969115e8b5
 title: IAnalysisWarnings interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Encoding and decoding a certificate context by using CryptoAPI.
 ms.assetid: 149d1097-5f50-40ba-84f1-b815f54ba33d
 title: Encoding and Decoding a Certificate Context
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Extended-Chars-Allowed attribute
 description: Indicates whether extended characters are allowed in the value of this attribute. Only applies to IA5, Numeric, Printable, and Teletex string attributes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aeacb5ef-9af2-498b-ae53-b3095de0d0c6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Extended-Chars-Allowed
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

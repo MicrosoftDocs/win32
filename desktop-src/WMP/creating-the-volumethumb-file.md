@@ -8,7 +8,6 @@ keywords:
 - creating skins,VolumeThumb files
 - VolumeThumb files in skins
 - thumb,VolumeThumb files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

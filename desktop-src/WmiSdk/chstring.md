@@ -1,12 +1,8 @@
 ---
 Description: The following table lists the CHString methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
 ms.tgt_platform: multiple
 title: CHString class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

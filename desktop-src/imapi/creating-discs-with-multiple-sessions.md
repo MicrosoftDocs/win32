@@ -2,7 +2,6 @@
 title: Creating Discs with Multiple Sessions
 description: IMAPI is capable of creating multi-session data discs. There are a few considerations to be aware of when creating a multi-session disc.
 ms.assetid: 02405a32-53d5-4618-bfa0-c9a9f5e3c51b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

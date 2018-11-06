@@ -1,15 +1,11 @@
 ---
 title: Binding to the Global Catalog
 description: The Global Catalog is a namespace that contains directory data for all domains in a forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c3c131c7-d9dd-4dbd-a909-abd0ffd9f375
 ms.tgt_platform: multiple
 keywords:
 - Binding to the Global Catalog AD
 - global catalog AD , binding to
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

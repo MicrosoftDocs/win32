@@ -2,7 +2,6 @@
 Description: Well-authored components do not perturb the environment of the hosting application, nor do they leak activation contexts.
 ms.assetid: cc3e21fd-5fd3-40b6-9218-cb5f47be3567
 title: Isolating Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies a Software Publisher Certificate (SPC) and certificate chain used to sign a document.
 ms.assetid: b65b4129-df92-410c-b372-b0c004f8bb03
 title: SIGNER_SPC_CHAIN_INFO structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

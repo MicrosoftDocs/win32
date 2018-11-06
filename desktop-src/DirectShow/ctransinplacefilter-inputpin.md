@@ -2,7 +2,6 @@
 Description: The InputPin method retrieves a pointer to the filter's input pin.
 ms.assetid: 533a962e-225d-4f10-a9c3-1464bea512ba
 title: CTransInPlaceFilter.InputPin method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

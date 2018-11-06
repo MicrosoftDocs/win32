@@ -1,9 +1,6 @@
 ---
 title: MSAD_DomainController class
 description: Represents the domain controller (DC) on which the WMI provider is running.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a7671967-79d7-48f8-8869-dd65272e2ed2
 ms.tgt_platform: multiple
 keywords:
@@ -32,7 +29,6 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

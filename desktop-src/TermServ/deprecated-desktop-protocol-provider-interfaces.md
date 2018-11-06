@@ -1,12 +1,8 @@
 ---
 title: Deprecated Desktop Protocol Provider Interfaces
 description: The following interfaces have been deprecated and should no longer be used. For new projects, use the Remote Desktop Protocol Provider Interfaces interfaces instead.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: FD64A6B9-AE15-4311-BD69-4824CAF53544
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

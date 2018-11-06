@@ -12,7 +12,6 @@ keywords:
 - DRM (digital rights management),resources
 - digital rights management (DRM),for more information
 - DRM (digital rights management),for more information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

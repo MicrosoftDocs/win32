@@ -1,9 +1,6 @@
 ---
 title: SetServiceLocation method of the Win32_SessionDirectoryVMMPlugin class
 description: Sets the service location for the plug-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e886a40b-9ea9-4159-a2ea-776160559410
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic shows you how you can raise or lower the pitch of audio data by changing its rate of playback using the SetFrequencyRatio function on a source voice.
 ms.assetid: 93408116-1c1f-307f-7e1f-090f2663ff0b
 title: 'How to: Change Voice Pitch'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

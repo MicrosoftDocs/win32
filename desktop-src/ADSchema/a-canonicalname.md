@@ -1,9 +1,6 @@
 ---
 title: Canonical-Name attribute
 description: The name of the object in canonical format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f217e5fa-f70b-4f4d-afa6-53e4f7e8a0e1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Canonical-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ComputerSystemIRQ class represents an association between a computer system and its available interrupt request lines (IRQs).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c2a1f231-1f8e-48b2-9afe-fa798e6a8a1d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemIRQ class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_ComputerSystemIRQ** class represents an association between a computer system and its available interrupt request lines (IRQs).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

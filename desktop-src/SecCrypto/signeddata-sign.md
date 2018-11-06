@@ -2,7 +2,6 @@
 Description: Creates a digital signature on the content to be signed. A digital signature consists of a hash of the content to be signed that is encrypted by using the private key of the signer.
 ms.assetid: ee98a36c-f9a9-4247-ae48-7b1a10b92be4
 title: SignedData.Sign method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -80,7 +79,7 @@ If this method fails, an error will be thrown. The **Err** object will contain a
 
 ## Remarks
 
-> \[!Important\]  
+> [!IMPORTANT]
 > When this method is called from a web script, the script needs to use your private key to create a digital signature. Allowing untrusted websites to use your private key is a security risk. A dialog box that asks whether the website can use your private key appears when this method is first called. If you allow the script to use your private key to create a digital signature and select "Do not show this dialog box again," the dialog box will no longer appear for any script within that domain that uses your private key to create a digital signature. However, scripts outside that domain that attempt to use your private key to create a digital signature will still cause this dialog box to appear. If you do not allow the script to use your private key and select "Do not show this dialog box again," scripts within that domain will automatically be refused the ability to use your private key to create digital signatures.
 
  

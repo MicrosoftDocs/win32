@@ -2,7 +2,6 @@
 Description: Uri of the large thumbnail representation of the media item.
 ms.assetid: 063ab14e-1cb1-4938-99b2-ebc4d53adaae
 title: System.Media.ThumbnailSmallUri
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

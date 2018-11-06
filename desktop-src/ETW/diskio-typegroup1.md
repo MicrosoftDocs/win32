@@ -2,7 +2,6 @@
 Description: This class is the event type class for disk I/O events. The following syntax is simplified from MOF code.
 ms.assetid: fe7d4efa-3d39-4438-a1a6-af3f65ea3deb
 title: DiskIo_TypeGroup1 class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The property proxy for the System.Photo.ShutterSpeed photo metadata policy.
 ms.assetid: ff558bd3-d884-4178-ad2d-a444798556a2
 title: System.Photo.ShutterSpeed Proxy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: DsRestoreEnd function
 description: Called to terminate a restore operation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2c3b9aba-3e92-4e5b-afff-3ed9bf64832b
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

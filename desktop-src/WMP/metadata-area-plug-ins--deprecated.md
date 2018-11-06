@@ -8,7 +8,6 @@ keywords:
 - user interface plug-ins,metadata area
 - UI plug-ins,metadata area
 - metadata area plug-ins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

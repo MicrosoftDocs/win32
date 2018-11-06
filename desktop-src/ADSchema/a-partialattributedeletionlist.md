@@ -1,9 +1,6 @@
 ---
 title: Partial-Attribute-Deletion-List attribute
 description: Tracks the internal replication state of partial replicas (that is, on GCs). Attribute of the partial replica NC object. Used when the GC is in the process of removing attributes from the objects in its partial replica NCs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0084774b-7231-4cfc-8f60-c014006da2b9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Partial-Attribute-Deletion-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

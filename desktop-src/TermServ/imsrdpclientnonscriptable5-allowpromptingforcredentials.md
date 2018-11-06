@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 AllowPromptingForCredentials property
 description: Specifies whether the Remote Desktop ActiveX control can prompt the user for credentials.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9a780886-39ee-4d3b-9a54-fa209708d9f8
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

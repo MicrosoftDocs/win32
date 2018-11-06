@@ -2,7 +2,6 @@
 Description: 'TAPI 3 defines five main ACD objects: the Agent Handler, the Queue, the ACD Group, the Agent, and the Agent Session. It also extends the TAPI object with an additional interface— ITTAPICallCenter.'
 ms.assetid: 6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7
 title: About Call Center Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

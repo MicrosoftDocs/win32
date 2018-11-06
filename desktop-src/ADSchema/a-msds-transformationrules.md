@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Transformation-Rules attribute
 description: Specifies the Transformation Rules for Cross-Forest Claims Transformation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6e58d5fd-2880-4cce-adfb-f1527a70ab8c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Transformation-Rules
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

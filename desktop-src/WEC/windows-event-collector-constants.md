@@ -1,7 +1,6 @@
 ---
 title: Windows Event Collector Constants
 description: The Windows Event Collector SDK contains the following constants.
-audience: developer
 ms.assetid: 2ba862f9-6849-43b3-8914-e18ede1d63c0
 ms.tgt_platform: multiple
 topic_type:
@@ -18,7 +17,6 @@ api_location:
 - Evcoll.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

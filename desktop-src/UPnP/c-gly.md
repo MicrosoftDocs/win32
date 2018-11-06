@@ -3,7 +3,6 @@ title: C
 description: Contains UPnP-related terms that begin with the letter C.
 Robots: noindex, nofollow
 ms.assetid: 5a02d2dc-3568-4f23-9bcd-69ed353ef57d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

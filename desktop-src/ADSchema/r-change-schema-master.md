@@ -1,9 +1,6 @@
 ---
 title: Change-Schema-Master extended right
 description: Extended right needed to change the schema master FSMO role owner.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 26642f51-e275-48d4-83c7-cf0e047d9a56
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Change-Schema-Master
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -27,7 +27,6 @@ keywords:
 - Client Extended APIs,content protection system (CPS)
 - content protection system (CPS)
 - CPS (content protection system)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Sets the security descriptor for the namespace to which a user is connected. This method requires a security descriptor in binary byte array format. If you are writing a script, use the SetSecurityDescriptor method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 049f8722-1674-4c4f-9300-09b1cc1412fb
 ms.tgt_platform: multiple
 title: SetSD method of the __SystemSecurity class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

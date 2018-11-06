@@ -2,7 +2,6 @@
 title: IPropertySetStorage Implementation Considerations
 description: Several issues arise when considering how to provide an implementation of the IPropertySetStorage interface that reads and writes the COM property set format. The following sections describe these considerations.
 ms.assetid: 055da516-ed42-49ec-b20c-a5e98718bea8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section contains the photo metadata policies for System.Image properties.
 ms.assetid: 33860A3D-0BC5-4a90-8479-8926ABBCDFA9
 title: System.Image
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

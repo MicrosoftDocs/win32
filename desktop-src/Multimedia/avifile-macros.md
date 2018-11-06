@@ -8,7 +8,6 @@ keywords:
 - AVIFile macros,reference
 - AVIFile reference,macros
 - reference for AVIFile,macros
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

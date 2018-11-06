@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_RealizesPExtent association represents the relationship in which physical extents are realized on a physical media. In addition, the starting address of the physical extent on the physical media is specified.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9abe1a7d-8463-4d48-8cec-52bf934ad08b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_RealizesPExtent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -29,7 +23,7 @@ api_location:
 
 The **CIM\_RealizesPExtent** association represents the relationship in which physical extents are realized on a physical media. In addition, the starting address of the physical extent on the physical media is specified.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

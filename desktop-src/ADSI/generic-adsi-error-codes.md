@@ -1,12 +1,8 @@
 ---
 title: Generic ADSI Error Codes
 description: These types of error codes can be returned by any of the ADSI system providers to represent ADSI-specific error messages.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 193c5808-fc39-48e6-8bb8-8338e5c980ad
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

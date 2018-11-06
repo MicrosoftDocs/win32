@@ -1,9 +1,6 @@
 ---
 title: Personal-Title attribute
 description: The user's title.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 51faf19e-bec7-4f72-87d0-2df51af3fa1d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Personal-Title
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

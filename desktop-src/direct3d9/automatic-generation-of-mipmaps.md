@@ -2,7 +2,6 @@
 Description: You can now automatically create a mipmap which is a series of textures, each filtered to a different resolution.
 ms.assetid: ae5955f9-e52a-41d7-a199-800e37a3e936
 title: Automatic Generation of Mipmaps (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

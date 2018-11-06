@@ -2,7 +2,6 @@
 Description: FOURCC Codes
 ms.assetid: 7627b580-4119-48e2-88b7-51b714b5d5b2
 title: FOURCC Codes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

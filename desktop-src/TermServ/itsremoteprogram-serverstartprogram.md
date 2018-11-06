@@ -1,9 +1,6 @@
 ---
 title: ITSRemoteProgram ServerStartProgram method
 description: Specifies a RemoteApp program to start in the remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5fb251bf-4832-4e35-b372-23418c280350
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

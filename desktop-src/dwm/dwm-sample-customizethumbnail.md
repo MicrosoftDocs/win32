@@ -2,7 +2,6 @@
 title: Customize an Iconic Thumbnail and a Live Preview Bitmap
 description: Shows how to customize an iconic thumbnail and a live preview bitmap (also called a Peek preview).
 ms.assetid: 43fe71e7-4e5c-46fb-876b-e26996071665
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

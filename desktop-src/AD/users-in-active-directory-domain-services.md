@@ -1,16 +1,12 @@
 ---
 title: Users in Active Directory Domain Services
 description: Active Directory Domain Services includes a directory service that stores domain, user, user group, and security data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7630fde1-14c0-4518-bb77-813f6913503e
 ms.tgt_platform: multiple
 keywords:
 - Users in Active Directory Domain Services Active Directory
 - users, active directory domain services
 - active directory domain services, users
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

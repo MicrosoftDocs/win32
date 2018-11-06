@@ -2,7 +2,6 @@
 Description: Windows Update Agent (WUA) can be used to scan computers for security updates without connecting to Windows Update or to a Windows Server Update Services (WSUS) server, which enables computers that are not connected to the Internet to be scanned for security updates. Offline scanning for updates requires the download of a signed file, Wsusscn2.cab, from Windows Update.
 ms.assetid: 452b53af-0f7b-435e-bf12-dd9d84cbd564
 title: Using WUA to Scan for Updates Offline
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -21,7 +20,7 @@ After you download the latest Wsusscn2.cab, the file can be provided to the [**A
 
 The following example uses the Wsusscn2.cab file to scan a computer and displays updates that are missing.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This script is intended to demonstrate the use of the Windows Update Agent APIs, and provide an example of how developers can use these APIs to solve problems. This script is not intended as production code, and the script itself is not supported by Microsoft (though the underlying Windows Update Agent APIs are supported).
 
  

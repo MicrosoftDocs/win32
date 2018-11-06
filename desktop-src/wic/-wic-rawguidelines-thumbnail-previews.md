@@ -2,7 +2,6 @@
 Description: Thumbnails and Previews
 ms.assetid: e45f025e-a1ac-47c8-b794-ab1402ab35fb
 title: Thumbnails and Previews
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

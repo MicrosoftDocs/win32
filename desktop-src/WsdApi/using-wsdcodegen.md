@@ -2,7 +2,6 @@
 Description: Describes the process of building a WSDAPI application using WsdCodeGen.
 ms.assetid: 8f172e2c-4cd1-4108-9c8d-01a731aca83b
 title: Using WsdCodeGen
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

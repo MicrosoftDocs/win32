@@ -4,7 +4,6 @@ description: An opaque type used to reference a metadata input policy.
 ms.assetid: 04623686-5065-4e97-8685-c72f848b92ab
 keywords:
 - WS_POLICY
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The SWbemMethod object exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 455F4715-62CA-46A8-8804-2C83E18916BD
 ms.tgt_platform: multiple
 title: SWbemMethod Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

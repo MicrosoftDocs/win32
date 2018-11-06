@@ -2,7 +2,6 @@
 Description: Notification Sounds for Legacy Audio Applications
 ms.assetid: c5ad67d9-56fb-4bf0-aea4-5b49b0e5bf95
 title: Notification Sounds for Legacy Audio Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

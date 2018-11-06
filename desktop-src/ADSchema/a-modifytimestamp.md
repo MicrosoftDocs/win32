@@ -1,9 +1,6 @@
 ---
 title: Modify-Time-Stamp attribute
 description: A computed attribute that represents the date when this object was last changed. This value is not replicated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ad8fea90-9a78-484d-9549-26d78e87ec44
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Modify-Time-Stamp
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

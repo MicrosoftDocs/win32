@@ -2,7 +2,6 @@
 Description: Event Tracing for Windows (ETW) is an efficient kernel-level tracing facility that lets you log kernel or application-defined events to a log file.
 ms.assetid: 0eaa7bd3-8537-483a-b0d6-db3b790a6f3d
 title: About Event Tracing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable4 MarkRdpSettingsSecure property
 description: Specifies whether Remote Desktop Protocol (RDP) settings are marked as secure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 04b419ed-821e-43e0-ac76-b8d6f6dfcc30
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Writing a Windows Media File in DES
 ms.assetid: 741ebcbc-62fb-4c7f-845f-a361f5b63f8c
 title: Writing a Windows Media File in DES
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -13,7 +12,7 @@ ms.date: 05/31/2018
 
 This section describes how to write a Windows Media file using [DirectShow Editing Services](directshow-editing-services.md) (DES).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Do not use the Smart Render Engine to write Windows Media files. Always use the Basic Render Engine (CLSID\_RenderEngine).
 
  

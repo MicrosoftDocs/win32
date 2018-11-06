@@ -1,9 +1,6 @@
 ---
 title: Create-Inbound-Forest-Trust extended right
 description: Extended control access right that enables users to create an inbound-only trust between forests by adding them to the appropriate group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 69723545-84bd-406a-b909-49bcd778e4dc
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Create-Inbound-Forest-Trust
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

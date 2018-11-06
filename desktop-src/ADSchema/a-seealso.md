@@ -1,9 +1,6 @@
 ---
 title: See-Also attribute
 description: List of distinguished names that are related to an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0f4d140e-cda6-46e7-ae02-edb2222b6bd2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - See-Also
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

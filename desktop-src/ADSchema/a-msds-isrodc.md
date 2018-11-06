@@ -1,9 +1,6 @@
 ---
 title: ms-DS-isRODC attribute
 description: Shows whether a DC is an RODC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 90d83042-e7de-45f5-b22d-398379963338
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-isRODC
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

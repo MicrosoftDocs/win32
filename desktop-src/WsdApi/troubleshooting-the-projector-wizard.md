@@ -2,7 +2,6 @@
 Description: Lists the diagnostic procedures to use when troubleshooting the Projector Wizard.
 ms.assetid: 54efc88c-0b8e-4652-8655-817a288863d1
 title: Troubleshooting the Projector Wizard
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

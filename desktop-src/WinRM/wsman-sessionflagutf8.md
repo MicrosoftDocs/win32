@@ -1,9 +1,6 @@
 ---
 title: WSMan.SessionFlagUTF8 method
 description: Returns the value of the WSManFlagUTF8 authentication flag for use in the flags parameter of WSMan.CreateSession.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a79e292a-364b-4bf3-ae66-6a15ad51524f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

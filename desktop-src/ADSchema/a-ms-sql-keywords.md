@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Keywords attribute
 description: Not used. Default is set to Key 1, Key 2, Key 3, Key 4, and Key 5.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c6833a83-8801-4438-8402-ddfff103a62d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Keywords
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

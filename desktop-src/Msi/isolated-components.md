@@ -2,7 +2,6 @@
 Description: Authors of installation packages can specify that the installer copy the shared files (commonly shared DLLs) of an application into that application's folder rather than to a shared location.
 ms.assetid: 'eb5f7088-30e0-4644-813a-c93e6f56ccbf'
 title: Isolated Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

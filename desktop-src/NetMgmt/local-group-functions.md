@@ -2,7 +2,6 @@
 title: Local Group Functions
 description: A local group can contain user accounts or global group accounts from one or more domains. (Global groups can contain users from only one domain.) A local group shares common privileges and rights only within its own domain.
 ms.assetid: ed4c59d6-6532-4190-9807-95678053fc72
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

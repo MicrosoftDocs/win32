@@ -2,7 +2,6 @@
 Description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 6.
 ms.assetid: 3b68b238-c1ae-4ab8-89ed-bdf815463143
 title: D3DXSHMultiply6 function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

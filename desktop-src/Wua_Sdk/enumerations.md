@@ -2,7 +2,6 @@
 Description: Enumerations
 ms.assetid: 2ac80d0f-94c2-4d70-a48a-1b0060f91902
 title: Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Converts a binary-packed string to an array of bytes.
 ms.assetid: 61eeef7b-c962-4f10-ab93-6371db0b37a3
 title: Utilities.BinaryStringToByteArray method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

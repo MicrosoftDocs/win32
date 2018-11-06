@@ -4,7 +4,6 @@ description: Use the histogram effect to generate a histogram for the input bitm
 ms.assetid: 458E2334-F383-41DE-9479-601AC3007BF3
 keywords:
 - histogram effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The DrawImage method draws a video frame on the video window.
 ms.assetid: 22e7f59c-90f7-4e0c-8993-eea1eaf58fba
 title: CDrawImage.DrawImage method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -8,7 +8,6 @@ keywords:
 - events,secondary
 - writing code for skins,secondary events
 - secondary events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

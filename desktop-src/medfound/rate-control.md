@@ -2,7 +2,6 @@
 Description: Rate Control
 ms.assetid: '6529859f-cfb6-4983-a489-bcc2f04e721f'
 title: Rate Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

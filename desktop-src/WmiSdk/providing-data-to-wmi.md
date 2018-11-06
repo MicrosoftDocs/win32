@@ -1,12 +1,8 @@
 ---
 Description: WMI makes data about Windows manageable objects available through WMI providers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 74558c6e-28b6-479f-9de6-2fbad793ae26
 ms.tgt_platform: multiple
 title: Providing Data to WMI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

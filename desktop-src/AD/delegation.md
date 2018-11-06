@@ -1,15 +1,11 @@
 ---
 title: Delegation
 description: Delegation is one of the most important security features of Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ab8740c9-f5a2-40cc-abce-0ef80c3fca7a
 ms.tgt_platform: multiple
 keywords:
 - Delegation AD
 - security AD , delegation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

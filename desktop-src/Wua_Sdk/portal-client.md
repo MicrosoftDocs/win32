@@ -2,7 +2,6 @@
 Description: The Windows Update Agent (WUA) API is a set of COM interfaces that enable system administrators and programmers to access Windows Update and Windows Server Update Services (WSUS).
 ms.assetid: 611dc759-e0fc-472e-bdc2-fb952ba74999
 title: Windows Update Agent API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Non-Members-BL attribute
 description: Backward link from non-member group or user to Az groups that link to it (same functionality as Non-Security-Member-BL).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 51725a95-a9c0-4c88-a390-b8e35b8fd3e1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Non-Members-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

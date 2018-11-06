@@ -2,7 +2,6 @@
 Description: The Play method plays the current DVD title.
 ms.assetid: fe9dc266-5b12-479d-85cb-50cc6bb9d580
 title: Play Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

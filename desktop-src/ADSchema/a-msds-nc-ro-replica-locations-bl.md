@@ -1,9 +1,6 @@
 ---
 title: ms-DS-NC-RO-Replica-Locations-BL attribute
 description: Backward link attribute for ms-DS-NC-RO-Replica-Locations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2dc1356c-e259-4f53-8849-286146d9d7ef
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-NC-RO-Replica-Locations-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

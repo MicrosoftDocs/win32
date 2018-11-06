@@ -2,7 +2,6 @@
 title: Animation Principles
 description: Animation Principles
 ms.assetid: 3633744c-ddb1-44bb-a390-7114386d265c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

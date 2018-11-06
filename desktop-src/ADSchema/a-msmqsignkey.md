@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Sign-Key attribute
 description: The computer's public signing key.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 099cce40-2e6c-409c-bcd3-d38c6b704c0b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Sign-Key
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

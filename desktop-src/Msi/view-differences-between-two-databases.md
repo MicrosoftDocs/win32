@@ -2,7 +2,6 @@
 Description: The VBScript file WiDiffDb.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script generates a temporary transform file between two Windows Installer databases and displays the transform.
 ms.assetid: 9750ddc6-de8d-48e9-a984-892f0cf4ac3b
 title: View Differences Between Two Databases
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

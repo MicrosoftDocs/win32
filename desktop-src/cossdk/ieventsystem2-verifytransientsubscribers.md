@@ -2,7 +2,6 @@
 Description: Verifies the existence of all transient subscribers in the data store. By calling this method, you can ensure that all transient subscribers listed in the data store are active.
 ms.assetid: fffdde33-e960-42ef-a089-8ea8a6f33d52
 title: IEventSystem2::VerifyTransientSubscribers method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

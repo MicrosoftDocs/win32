@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_DMAChannel WMI class represents a direct memory access (DMA) channel on a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cc517aac-7bd4-4937-8b07-2597076fca2c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DMAChannel class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

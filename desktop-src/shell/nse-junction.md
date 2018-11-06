@@ -1,7 +1,6 @@
 ---
 Description: The root of a namespace extension is normally displayed by Windows Explorer as a folder in both tree and folder views.
 title: Specifying a Namespace Extension's Location
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

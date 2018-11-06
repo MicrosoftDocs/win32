@@ -1,9 +1,6 @@
 ---
 title: MS-DRM-Identity-Certificate attribute
 description: The XrML digital rights management certificates for this user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 85d12c19-03c0-41e5-8fb6-2766f4fcd528
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-DRM-Identity-Certificate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

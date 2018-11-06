@@ -1,9 +1,6 @@
 ---
 title: String(NT-Sec-Desc) syntax
 description: An octet string that contains a Windows NT or Windows 2000 security descriptor.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d056d7d6-5c8d-445e-9b4a-f681d8d6274e
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(NT-Sec-Desc)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

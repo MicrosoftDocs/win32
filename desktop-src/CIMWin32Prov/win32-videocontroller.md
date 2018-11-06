@@ -1,14 +1,8 @@
 ---
 Description: Represents the capabilities and management capacity of the video controller on a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5c81994b-4a84-46ff-8689-09998dc66f91
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_VideoController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

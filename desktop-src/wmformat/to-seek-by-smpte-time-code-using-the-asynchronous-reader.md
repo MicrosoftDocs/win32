@@ -13,7 +13,6 @@ keywords:
 - asynchronous readers,SMPTE time codes
 - SMPTE time codes,seeking
 - SMPTE time codes,asynchronous readers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

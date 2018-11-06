@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 4698f151-2237-4d16-b32f-4d15024cd063
 title: PrintTicket Validation Checklist
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

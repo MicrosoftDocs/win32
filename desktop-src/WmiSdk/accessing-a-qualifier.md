@@ -1,12 +1,8 @@
 ---
 Description: A qualifier is a tag that provides more information about a WMI object, method, or property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 53a307da-2e81-4361-876a-16b51484512e
 ms.tgt_platform: multiple
 title: Accessing a WMI Qualifier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Win32_TSApplicationFileExtensions Methods
 description: The Win32\_TSApplicationFileExtensions class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F7F5E4F8-DB09-4845-BFEA-9B85BC37E4EE
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

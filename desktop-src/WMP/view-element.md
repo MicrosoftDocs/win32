@@ -8,7 +8,6 @@ keywords:
 - VIEW element
 - reference for skins,VIEW element
 - elements,VIEW
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

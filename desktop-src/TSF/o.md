@@ -3,7 +3,6 @@ title: O
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: '1c4acbd4-126a-41df-a0dd-9132f697693e'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

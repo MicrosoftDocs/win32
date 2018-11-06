@@ -6,7 +6,6 @@ keywords:
 - Windows Touch,enumerations
 - Windows Touch,manipulations
 - manipulations,enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

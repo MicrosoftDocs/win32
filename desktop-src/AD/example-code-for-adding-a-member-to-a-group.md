@@ -1,14 +1,10 @@
 ---
 title: Example Code for Adding a Member to a Group
 description: This topic contains code examples that add a member to a group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 306fcadb-a492-41e5-bfb3-8beaaec24fb5
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , adding a member to a group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,16 +1,12 @@
 ---
 title: Late Binding Support
 description: When late binding support is in place, each function call must go through the ADSI IDispatch interface, before it is rerouted to the appropriate extension.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fbdc6234-9381-4d64-bf02-05e393b3e0bd
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI ,late binding support
 - ADSI ADSI ,example code Visual Basic ,late binding support
 - binding AD ,late binding support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

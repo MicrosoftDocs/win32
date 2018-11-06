@@ -2,7 +2,6 @@
 Description: Stops a named service.
 ms.assetid: f4cd0e2c-4ecc-4e9f-a0b5-d2a8a739f0e2
 title: IShellDispatch2.ServiceStop method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

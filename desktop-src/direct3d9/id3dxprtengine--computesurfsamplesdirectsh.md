@@ -2,7 +2,6 @@
 Description: Computes, at an arbitrary point not on a mesh, a transfer vector that maps source radiance (represented by a spherical harmonic (SH) approximation) to exit radiance.
 ms.assetid: 44790465-440d-4426-b780-ed872fbf8efb
 title: ID3DXPRTEngine::ComputeSurfSamplesDirectSH method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

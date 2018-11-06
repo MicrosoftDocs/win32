@@ -1,15 +1,11 @@
 ---
 title: How Security Descriptors are Set on New Directory Objects
 description: When you create a new object in Active Directory Domain Services, you can explicitly create a security descriptor and then set that security descriptor as the object's nTSecurityDescriptor property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 07c367f8-cb5a-49ef-8e13-d31673c2ceee
 ms.tgt_platform: multiple
 keywords:
 - objects AD ,how security descriptors are set on new directory objects
 - security descriptors AD ,how to set on new directory objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

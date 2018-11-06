@@ -19,7 +19,6 @@ keywords:
 - digital rights management (DRM),revocation of licenses
 - DRM (digital rights management),revocation of licenses
 - license revocation,implementing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

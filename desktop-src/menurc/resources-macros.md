@@ -2,7 +2,6 @@
 title: Resource Macros
 description: .
 ms.assetid: 41eaec1d-c350-4352-bdfa-bdf0c7ad0fe4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

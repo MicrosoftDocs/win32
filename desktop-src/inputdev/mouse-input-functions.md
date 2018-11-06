@@ -2,7 +2,6 @@
 title: Mouse Input Functions
 description: .
 ms.assetid: a666b25b-a75c-4500-8077-fabe07589a1d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

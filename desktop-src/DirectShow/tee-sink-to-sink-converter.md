@@ -2,7 +2,6 @@
 Description: Tee/Sink-to-Sink Converter
 ms.assetid: 8ee5e20c-f37a-4a9b-9382-2ed94333c6ec
 title: Tee/Sink-to-Sink Converter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

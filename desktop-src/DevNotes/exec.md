@@ -2,7 +2,6 @@
 Description: HKLM\\Software\\Microsoft\\Internet Explorer\\Extensions\\{e2e2dd38-d088-4134-82b7-f2ba38496583}.
 ms.assetid: a0d9e959-d8fd-4546-9529-1dc42fa0bdd6
 title: Exec
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

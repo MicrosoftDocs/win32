@@ -2,7 +2,6 @@
 title: Tooltip Control Notifications
 description: .
 ms.assetid: 181390f8-359c-41be-9010-b302b22fb878
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

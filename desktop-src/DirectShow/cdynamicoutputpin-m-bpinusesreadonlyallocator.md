@@ -2,7 +2,6 @@
 Description: Flag that specifies whether samples from the pin's allocator are read-only. If the value is TRUE, the sample are read-only. The default value is FALSE.
 ms.assetid: c2c6247c-4b37-416c-99a2-847d35f48358
 title: CDynamicOutputPin::m_bPinUsesReadOnlyAllocator member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ParallelPort &\#32; WMI class represents the properties of a parallel port on a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 986bd27f-71b0-4a40-a421-a8bfc0f081be
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ParallelPort class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

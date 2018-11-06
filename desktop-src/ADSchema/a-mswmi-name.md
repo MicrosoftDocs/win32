@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-Name attribute
 description: The display name for top-level policy objects. Used in the Global Catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4c07e4ba-7f3f-4066-b4cd-2c6d738d7421
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

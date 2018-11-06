@@ -19,7 +19,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,CdromCollection object
 - Windows Media Player Mobile,CdromCollection object
 - CdromCollection object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

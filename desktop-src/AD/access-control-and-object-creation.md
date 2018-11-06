@@ -1,14 +1,10 @@
 ---
 title: Access Control and Object Creation
 description: The Active Directory server will fail to create a child object if the caller does not have the ADS\_RIGHT\_DS\_CREATE\_CHILD for that object type on the parent container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 52f56e2a-580c-44b5-ba97-21388f6258bc
 ms.tgt_platform: multiple
 keywords:
 - Access Control and Object Creation AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

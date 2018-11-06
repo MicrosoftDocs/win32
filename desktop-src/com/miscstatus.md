@@ -4,7 +4,6 @@ description: Specifies how to create and display an object.
 ms.assetid: '585b2d1e-3edb-494e-a61e-bbfa6eae2ba1'
 keywords:
 - MiscStatus registry key COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Win32_RDMSCollectionProperties class
 description: Manages the properties of a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8c533284-aa7b-4c47-b0a3-33307c4c805b
 ms.tgt_platform: multiple
 keywords:
@@ -27,7 +24,6 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

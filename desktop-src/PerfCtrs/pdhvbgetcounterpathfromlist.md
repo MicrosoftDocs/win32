@@ -2,7 +2,6 @@
 Description: The PdhVbGetCounterPathFromList function copies the counter path referenced by the Index parameter from a counter path list created by the user from the most recent call to the PdhVbCreateCounterPathList function.
 ms.assetid: e77a022d-42f2-4c48-acb7-36cb013730dd
 title: PdhVbGetCounterPathFromList function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

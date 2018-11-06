@@ -1,12 +1,8 @@
 ---
 Description: The Dynamic qualifier indicates a class whose instances are created dynamically. The value of this qualifier must be set to TRUE.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 63286687-abbf-49f0-8061-3b47fba75806
 ms.tgt_platform: multiple
 title: Dynamic Qualifier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

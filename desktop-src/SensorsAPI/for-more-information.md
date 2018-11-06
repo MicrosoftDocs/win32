@@ -2,7 +2,6 @@
 Description: For More Information
 ms.assetid: 0188ad5d-4f54-4403-8f8a-52927e5eb62b
 title: For More Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

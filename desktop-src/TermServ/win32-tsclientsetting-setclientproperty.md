@@ -1,9 +1,6 @@
 ---
 title: SetClientProperty method of the Win32_TSClientSetting class
 description: The SetClientProperty method sets the LPTPortMapping, COMPortMapping, AudioMapping, ClipboardMapping, DriveMapping, or WindowsPrinterMapping property for the class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a8ad922f-d768-4708-9a67-c6b00580baed
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The following control codes are used with changer devices.
 ms.assetid: b3a3ffa1-e710-4d96-aff8-5b6876ab032b
 title: Device Management Control Codes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Applies stored texture gutter data to an ID3DXPRTBuffer texture buffer.
 ms.assetid: 05cc0709-543a-4df5-980a-8549451d396b
 title: ID3DXPRTBuffer::EvalGH method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -9,7 +9,6 @@ keywords:
 - playlists,skins
 - metafile playlists,skins
 - Windows Media metafile playlists,skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

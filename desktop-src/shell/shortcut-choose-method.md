@@ -1,7 +1,6 @@
 ---
 Description: 'This topic is organized as follows:'
 title: Choosing a Static or Dynamic Shortcut Menu Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

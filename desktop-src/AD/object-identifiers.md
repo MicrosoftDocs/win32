@@ -1,14 +1,10 @@
 ---
 title: Object Identifiers
 description: Object Identifiers (OIDs) are unique numeric values issued by various issuing authorities to uniquely identify data elements, syntaxes, and other parts of distributed applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a8f5a1c7-eda3-4430-b959-daef13c00a1b
 ms.tgt_platform: multiple
 keywords:
 - object identifiers AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

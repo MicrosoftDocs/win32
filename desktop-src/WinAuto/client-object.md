@@ -2,7 +2,6 @@
 title: Client Object (MSAA UI Element Reference)
 description: The client area is the part of a window where the application displays output, such as text or graphics. For example, a desktop publishing application displays the current page of a document in the client area.
 ms.assetid: 1b3a800e-e3c1-4737-8ad0-41707eb1e985
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

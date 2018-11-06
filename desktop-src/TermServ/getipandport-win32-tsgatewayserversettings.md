@@ -1,9 +1,6 @@
 ---
 title: GetIPAndPort method of the Win32_TSGatewayServerSettings class
 description: Obtains the listening IP address and port number for the specified transport.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e12451c3-2641-49e1-bd35-f7cab37865ae
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

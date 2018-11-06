@@ -2,7 +2,6 @@
 Description: The GetFreeCount method retrieves the number of media samples that are not in use.
 ms.assetid: f4ce4cca-0168-42db-9fe7-858862f033a8
 title: CBaseAllocator.GetFreeCount method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

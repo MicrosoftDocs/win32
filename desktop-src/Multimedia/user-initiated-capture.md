@@ -5,7 +5,6 @@ ms.assetid: e0d245f3-ac79-42c4-9969-8c9ec66eac62
 keywords:
 - WM_CAP_GET_SEQUENCE_SETUP message
 - capCaptureGetSetup macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

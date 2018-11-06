@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Priority attribute
 description: Priority level.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 64992cb5-1167-469d-a3bd-a524652475a1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Priority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

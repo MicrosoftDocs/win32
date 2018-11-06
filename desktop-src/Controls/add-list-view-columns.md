@@ -2,7 +2,6 @@
 title: How to Add List-View Columns
 description: This topic demonstrates how to add columns to a list-view control.
 ms.assetid: 9DBDFF56-7CD6-467C-AD2E-64213615E241
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -7,7 +7,6 @@ keywords:
 - online stores,DownloadManager object
 - type 2 online stores,DownloadManager object
 - DownloadManager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

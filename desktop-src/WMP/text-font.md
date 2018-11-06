@@ -7,7 +7,6 @@ keywords:
 - skins,text
 - reference for skins,text
 - text in skins,fonts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

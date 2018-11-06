@@ -1,9 +1,6 @@
 ---
 title: ms-TAPI-Rt-Person class
 description: Used to map a user to the IP address of the computer that the user is logged into for use by TAPI multicast conferences.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3866eb11-8719-40b6-b73c-314009db2553
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TAPI-Rt-Person
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

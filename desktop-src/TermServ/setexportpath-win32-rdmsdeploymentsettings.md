@@ -1,9 +1,6 @@
 ---
 title: SetExportPath method of the Win32_RDMSDeploymentSettings class
 description: Updates the directory path to which virtual machines are deployed for a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e52b79c8-6724-4264-93d5-4a2a14c89b6b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

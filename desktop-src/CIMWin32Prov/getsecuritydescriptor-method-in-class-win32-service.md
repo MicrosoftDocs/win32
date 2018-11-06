@@ -1,14 +1,8 @@
 ---
 Description: Returns the security descriptor that controls access to the service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 99c8346e-e8d6-4f3c-bbdc-437dcf852b2a
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetSecurityDescriptor method of the Win32_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

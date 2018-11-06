@@ -5,7 +5,6 @@ ms.assetid: 683ff1e1-1cb0-4ef7-bca2-9c3a2b4d1bd0
 keywords:
 - retrieving task most recent run time Task Scheduler
 - retrieving work item properties Task Scheduler , task most recent run time
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

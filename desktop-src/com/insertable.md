@@ -4,7 +4,6 @@ description: Indicates that objects of this class should appear in the Insert Ob
 ms.assetid: 908cbfc4-ebf8-454e-b2e5-34449de60e7f
 keywords:
 - Insertable registry key COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

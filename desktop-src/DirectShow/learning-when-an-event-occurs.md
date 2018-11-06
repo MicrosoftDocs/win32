@@ -2,7 +2,6 @@
 Description: Learning When an Event Occurs
 ms.assetid: 4e44089b-676b-4220-9721-54ddf56bf760
 title: Learning When an Event Occurs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

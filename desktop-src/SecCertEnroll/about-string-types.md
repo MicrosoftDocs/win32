@@ -2,7 +2,6 @@
 Description: One of the most common uses of strings in a public key infrastructure (PKI) is to create an X.500 Distinguished Name.
 ms.assetid: 01e8749b-a040-4267-bc12-f58f2c300337
 title: String Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

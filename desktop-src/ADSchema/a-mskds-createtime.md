@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-CreateTime attribute
 description: The time when this root key was created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7e43e290-4c6b-4410-a8ec-d55d9c71c181
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-CreateTime
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

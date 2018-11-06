@@ -2,7 +2,6 @@
 Description: Gets a handle to a cryptographic service provider (CSP) based on either a private key file or a key container name.
 ms.assetid: 82cdaa6f-e747-4c9d-8d2d-5fa206891eed
 title: PvkGetCryptProv function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # PvkGetCryptProv function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This API is deprecated. Microsoft may remove this API in future releases.
 
  

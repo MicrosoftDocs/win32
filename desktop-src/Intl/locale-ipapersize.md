@@ -2,7 +2,6 @@
 Description: LOCALE\_IPAPERSIZE
 ms.assetid: 049f5b31-f2f8-4036-b331-3c7a9087aa4a
 title: LOCALE_IPAPERSIZE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

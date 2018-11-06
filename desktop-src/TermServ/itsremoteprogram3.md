@@ -1,9 +1,6 @@
 ---
 title: ITSRemoteProgram3 interface
 description: Defines properties and methods for use with a RemoteApp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 29a29e6c-dc5c-4a65-ada6-ca99b8ab1921
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Backup Structures
 description: The following structures are used with tape backup.
 ms.assetid: 4f9ae7c8-2e81-4570-a3f8-1e938cfc6a0d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

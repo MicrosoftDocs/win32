@@ -1,9 +1,6 @@
 ---
 title: Purported-Search attribute
 description: The search argument for an address book view.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5355ab03-f231-4eff-9945-a4a1743b7615
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Purported-Search
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

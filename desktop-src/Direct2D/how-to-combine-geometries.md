@@ -2,7 +2,6 @@
 title: How to Combine Geometries
 description: Shows how to combine two geometries using Direct2D.
 ms.assetid: c5413e59-ae73-4797-b4ad-3a78ad700634
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

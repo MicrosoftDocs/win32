@@ -2,7 +2,6 @@
 Description: The default palette is an array of color values identifying the colors that can be used with a device context by default.
 ms.assetid: 7972d5da-2b73-4cd7-a2ee-fca3a571f611
 title: Default Palette
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

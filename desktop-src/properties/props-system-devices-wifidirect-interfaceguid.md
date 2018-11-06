@@ -2,7 +2,6 @@
 Description: Wi-Fi Direct Interface GUID.
 ms.assetid: 7117dd4d-6765-4f47-ac4f-1ffe64d711ed
 title: System.Devices.WiFiDirect.InterfaceGuid
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

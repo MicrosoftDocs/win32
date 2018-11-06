@@ -25,7 +25,6 @@ keywords:
 - Web page embedding,Netscape 7.1
 - Gecko ActiveX component
 - Web page embedding,Gecko ActiveX component
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -34,7 +34,6 @@ keywords:
 - reference for wavefore audio,current position
 - waveform audio reference,recording
 - reference for wavefore audio,recording
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

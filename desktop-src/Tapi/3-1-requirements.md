@@ -2,7 +2,6 @@
 Description: The operating system requirements for TAPI 3.x are presented below.
 ms.assetid: cea73eed-9118-4330-83fe-44a5d357f0fe
 title: TAPI 3.1 Requirements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

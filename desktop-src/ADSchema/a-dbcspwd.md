@@ -1,9 +1,6 @@
 ---
 title: DBCS-Pwd attribute
 description: The account's LAN Manager password.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d5c9e18e-3f80-44c3-98bb-be7ec42bfe3d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DBCS-Pwd
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

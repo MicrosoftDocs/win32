@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient SecuredSettings2 property
 description: Retrieves a pointer to the IMsRdpClientSecuredSettings interface. This interface can be used to set secured settings for the client control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f570a3f6-70ae-45fd-ba20-75c9f4d2f5ca
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

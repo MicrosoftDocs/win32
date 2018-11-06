@@ -2,7 +2,6 @@
 Description: Developers of Windows Installer packages may choose to use a custom action type 51 when the standard actions are insufficient to execute the installation.
 ms.assetid: cdad16ad-426c-4e04-8003-b32c67be7329
 title: Custom Action Type 51
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

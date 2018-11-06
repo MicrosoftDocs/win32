@@ -1,9 +1,6 @@
 ---
 title: USN-DSA-Last-Obj-Removed attribute
 description: Contains the update sequence number (USN) for the last system object that was removed from a server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: af0afd80-fe4a-4bc6-84e3-14c2900bec93
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - USN-DSA-Last-Obj-Removed
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

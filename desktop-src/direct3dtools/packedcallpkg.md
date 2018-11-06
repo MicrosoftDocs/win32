@@ -5,7 +5,6 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: PackedCallPkg structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 ---

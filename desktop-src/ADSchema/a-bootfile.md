@@ -1,9 +1,6 @@
 ---
 title: bootFile attribute
 description: Contains the name of the boot image.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8fb31ff0-eb0b-446b-8626-67138ad20d31
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - bootFile
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Prefix-Map attribute
 description: The Prefix-Map attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 814b8d47-ade9-49d9-a755-a47f7a9322c4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Prefix-Map
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Quality-Control Management
 ms.assetid: b1def588-6c9c-4853-a69b-1ba5df8b5ba2
 title: Quality-Control Management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ClientSpec enumeration
 description: Used with the ClientProtocolSpec property to specify the remote desktop protocol used between the client and the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: BFB2CD3C-04BF-4CB3-B156-8B08AE697327
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Set the mesh's index data.
 ms.assetid: f3e7e166-94b5-45f6-9d43-8d7e32b7b523
 title: ID3DX10Mesh::SetIndexData method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

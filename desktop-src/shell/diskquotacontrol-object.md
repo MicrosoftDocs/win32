@@ -1,7 +1,6 @@
 ---
 Description: Allows an administrator to manage a volume's disk quota properties.
 title: DiskQuotaControl object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

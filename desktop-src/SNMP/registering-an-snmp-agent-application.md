@@ -2,7 +2,6 @@
 title: Registering an SNMP Agent Application
 description: In addition to SNMP manager operations, the WinSNMP API version 2.0 also supports SNMP agent operations.
 ms.assetid: 473560b5-4611-410e-aeae-764c9c76e765
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

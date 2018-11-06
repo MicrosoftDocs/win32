@@ -5,7 +5,6 @@ ms.assetid: d4e122e0-eede-4f54-9848-74909fd23574
 keywords:
 - Routing and Remote Access Service RRAS ,Routing Table Manager Version 1,protocol family identifiers
 - Routing Table Manager Version 1 RRAS ,protocol family identifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

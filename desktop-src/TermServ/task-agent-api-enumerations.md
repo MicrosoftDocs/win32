@@ -1,12 +1,8 @@
 ---
 title: Personal desktop task agent API enumerations
 description: The personal desktop task agent API supports the following enumerations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 783F7CB7-FFAF-480C-94FD-C9897FF5E38F
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

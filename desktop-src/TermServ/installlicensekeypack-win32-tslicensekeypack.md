@@ -1,9 +1,6 @@
 ---
 title: InstallLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Installs a Remote Desktop Services license key pack that uses the license identifier that was received over the Internet or the phone.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1e545186-cc01-4700-857f-9390e1b73923
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

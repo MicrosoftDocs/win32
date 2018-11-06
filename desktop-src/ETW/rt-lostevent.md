@@ -2,7 +2,6 @@
 Description: This event type class is used to indicate that events were lost in a real-time session. The following syntax is simplified from MOF code.
 ms.assetid: 19c747c0-2d9f-49c5-81e4-06a870371bac
 title: RT_LostEvent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

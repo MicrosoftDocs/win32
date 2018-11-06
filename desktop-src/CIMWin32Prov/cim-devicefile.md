@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_DeviceFile class represents a type of logical file, which represents a device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b07f039c-8ab0-4e13-96d5-3621da19e66d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_DeviceFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -57,7 +51,7 @@ api_location:
 
 The **CIM\_DeviceFile** class represents a type of logical file, which represents a device. This convention is useful for operating systems that manage devices using a byte stream I/O model. The logical device that is associated with this file is specified using the [**CIM\_DeviceAccessedByFile**](cim-deviceaccessedbyfile.md) relationship.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

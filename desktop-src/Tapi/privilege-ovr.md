@@ -2,7 +2,6 @@
 Description: Privilege refers to whether an application owns or is monitoring the session.
 ms.assetid: 0c02a88a-370f-4eb9-ba64-07a382bd2e87
 title: Privilege
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

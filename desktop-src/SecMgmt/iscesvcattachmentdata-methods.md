@@ -2,7 +2,6 @@
 Description: The ISceSvcAttachmentData interface exposes the following methods.
 ms.assetid: 2025583E-CE1D-4DDF-8708-D7BEA47E9B4D
 title: ISceSvcAttachmentData Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

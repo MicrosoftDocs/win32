@@ -2,7 +2,6 @@
 Description: Video Port Pins
 ms.assetid: a6be24e5-7937-48f1-abeb-3f29c3deeafd
 title: Video Port Pins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

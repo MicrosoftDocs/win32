@@ -2,7 +2,6 @@
 Description: The IAzBizRuleParameters interface exposes the following properties.
 ms.assetid: 1723D0DC-2C96-4932-A311-1822298EDD82
 title: IAzBizRuleParameters Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

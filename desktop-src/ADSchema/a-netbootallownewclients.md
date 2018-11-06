@@ -1,9 +1,6 @@
 ---
 title: netboot-Allow-New-Clients attribute
 description: The netboot-Allow-New-Clients attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cc2c10a1-0ecc-48a0-9632-cc0afa3dcfa6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-Allow-New-Clients
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

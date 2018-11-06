@@ -1,9 +1,6 @@
 ---
 title: Vol-Table-GUID attribute
 description: The unique identifier for a Link-Track-Volume table entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3a63406a-e751-4234-a601-8f5a57f0a3b7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Vol-Table-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

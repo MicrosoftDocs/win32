@@ -13,7 +13,6 @@ keywords:
 - reference for multimedia file I/O,about
 - multimedia file I/O reference,about
 - file I/O reference,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

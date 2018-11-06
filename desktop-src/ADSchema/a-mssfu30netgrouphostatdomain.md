@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Netgroup-Host-At-Domain attribute
 description: Contains part of the netgroup map that represents computed strings, such as \ 0034;host domain \ 0034;.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 14578c46-ca3e-428c-bc63-9d8a2c6251c3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Netgroup-Host-At-Domain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Gets or sets a value that represents the hours component of the datetime value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 83f084fa-57a5-4467-acea-7e19de82a91f
 ms.tgt_platform: multiple
 title: SWbemDateTime.Hours property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Type attribute
 description: The replication type used by this SQL server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8e7fa9ab-9a25-4ee3-9134-68af698a5fb8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: UnpublishLS method of the Win32_TSLicenseServer class
 description: Unpublishes a Remote Desktop license server from Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 275854e2-85f6-4142-8bce-8d633bfcff7d
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

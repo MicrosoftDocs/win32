@@ -1,9 +1,6 @@
 ---
 title: uniqueIdentifier attribute
 description: The uniqueIdentifier attribute type specifies a \ 0034;unique identifier \ 0034; for an object represented in the Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6cc7266b-51f9-4510-bc54-961936dfdaa8
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - uniqueIdentifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

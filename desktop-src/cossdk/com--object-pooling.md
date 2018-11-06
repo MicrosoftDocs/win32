@@ -2,7 +2,6 @@
 Description: COM+ Object Pooling
 ms.assetid: 954cf9ee-e76c-4faf-99aa-3648a7bb8a59
 title: COM+ Object Pooling
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

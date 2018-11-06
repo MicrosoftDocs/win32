@@ -2,7 +2,6 @@
 Description: Occurs when data is available from the response.
 ms.assetid: 62d02e3b-466a-4d3d-994b-0a1ae12049e1
 title: IWinHttpRequestEvents::OnResponseDataAvailable event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

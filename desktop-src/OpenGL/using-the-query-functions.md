@@ -5,7 +5,6 @@ ms.assetid: 5f874a0e-77c0-4009-a18f-a852d7ffe891
 keywords:
 - OpenGL,query functions
 - query functions OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: rpc-Ns-Codeset attribute
 description: The list of character sets supported by the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ab1058ad-22e3-4b49-bc19-0bd633679f1c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Ns-Codeset
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

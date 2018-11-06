@@ -2,7 +2,6 @@
 Description: MJPEG Compressor Filter
 ms.assetid: de30a2c4-3e51-4f2b-b3f9-ed78e2d6512d
 title: MJPEG Compressor Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

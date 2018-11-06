@@ -2,7 +2,6 @@
 title: General Build Procedure
 description: Navigation page for the process for creating a client/server application using Remote Procedure Call (RPC).
 ms.assetid: 77fa9f30-c370-4ec2-8c23-6037ec520dc3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

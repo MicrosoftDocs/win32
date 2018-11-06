@@ -2,7 +2,6 @@
 title: Common Dialog Box Structures
 description: .
 ms.assetid: 778dd2b8-a01e-4246-b51f-fddb8eae3d13
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

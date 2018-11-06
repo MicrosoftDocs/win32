@@ -2,7 +2,6 @@
 Description: The EndOfStream method is called after the object delivers the last sample. The derived class must implement this method.
 ms.assetid: 55a32c17-9993-4ad7-8829-6aa5c1407622
 title: CPullPin.EndOfStream method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

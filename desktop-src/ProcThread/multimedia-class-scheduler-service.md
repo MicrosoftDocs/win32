@@ -2,7 +2,6 @@
 Description: The Multimedia Class Scheduler service (MMCSS) enables multimedia applications to ensure that their time-sensitive processing receives prioritized access to CPU resources.
 ms.assetid: a7169938-1c72-4c4c-881a-cb08ad6182c7
 title: Multimedia Class Scheduler Service
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

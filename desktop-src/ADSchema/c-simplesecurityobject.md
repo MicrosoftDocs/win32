@@ -1,9 +1,6 @@
 ---
 title: simpleSecurityObject class
 description: Allows an entry to have a userPassword attribute when the principal object classes of an entry do not allow userPassword as an attribute type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 564554c0-7e03-4a23-897e-93bc6b54cdb7
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - simpleSecurityObject
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

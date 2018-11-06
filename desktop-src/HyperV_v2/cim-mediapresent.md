@@ -2,7 +2,6 @@
 Description: Represents a relationship in which a storage extent must be accessed through a media access device.
 ms.assetid: 436a7e2d-2c14-4058-aca0-669373b8004a
 title: CIM_MediaPresent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

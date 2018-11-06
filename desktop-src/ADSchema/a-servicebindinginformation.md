@@ -1,9 +1,6 @@
 ---
 title: Service-Binding-Information attribute
 description: Service-specific binding information in string format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0348b375-85cd-4ca7-87bc-122548d5e48d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Binding-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

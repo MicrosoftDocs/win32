@@ -2,7 +2,6 @@
 Description: Defines a GUID that can be used in other templates.
 ms.assetid: dbfdd307-310f-4c80-b4aa-f16a81a9a372
 title: Guid
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Client applications that call WMI interfaces can control the security levels of their processes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 790b4e40-9b92-464a-a774-dec0b75cedee
 ms.tgt_platform: multiple
 title: Setting Client Application Process Security
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

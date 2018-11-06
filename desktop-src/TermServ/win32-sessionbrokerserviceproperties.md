@@ -1,9 +1,6 @@
 ---
 title: Win32_SessionBrokerServiceProperties class
 description: Defines the query for a session broker service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fe7a0317-8b52-4685-9d0d-2f81058b4561
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

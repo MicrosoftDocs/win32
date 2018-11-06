@@ -2,7 +2,6 @@
 Description: Use the following procedure to debug experts written in Microsoft Visual C++.
 ms.assetid: 7356fcae-3cfe-4a5b-86dd-bebee859fa19
 title: Debugging an Expert
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Creates a media key session object using the specified initialization data and custom data. .
 ms.assetid: 9f11433c-7cff-4a59-9d4a-7f4b56ba62cf
 title: IMFMediaKeys::CreateSession method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

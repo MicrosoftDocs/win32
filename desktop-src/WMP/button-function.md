@@ -7,7 +7,6 @@ keywords:
 - skins,button functions
 - reference for skins,buttons
 - buttons in skins,functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

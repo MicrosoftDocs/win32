@@ -1,9 +1,6 @@
 ---
 title: Link-ID attribute
 description: An integer that indicates that the attribute is a linked attribute. An even integer is a forward link and an odd integer is a backward link.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 73851839-f70c-40c6-976c-0bf727083791
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Link-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

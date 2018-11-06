@@ -2,7 +2,6 @@
 Description: Integration services are software services that run on top of the guest operating system inside of a child virtual machine and as part of the virtualization stack in the management operating system to provide some level of integration with the management operating system.
 ms.assetid: 7A8E9EF2-AC67-47CB-81A5-BF4C8A55D710
 title: Integration services classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

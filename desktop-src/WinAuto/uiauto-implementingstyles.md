@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation Styles
 - control patterns,Styles
 - interfaces,IStylesProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

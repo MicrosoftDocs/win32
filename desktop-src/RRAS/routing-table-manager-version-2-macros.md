@@ -5,7 +5,6 @@ ms.assetid: 05a9ba44-4e58-4364-bd8c-3cc3b92f8390
 keywords:
 - Routing and Remote Access Service RRAS ,Routing Table Manager Version 2,macros
 - Routing Table Manager Version 2 RRAS , macros
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

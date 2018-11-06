@@ -2,7 +2,6 @@
 title: DNS Constants
 description: The following constants are defined for DNS in host byte order.
 ms.assetid: 95bc9193-7962-498a-9abd-c4718ac35f0f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

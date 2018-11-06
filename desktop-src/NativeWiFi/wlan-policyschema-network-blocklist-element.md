@@ -2,7 +2,6 @@
 Description: Defines a blocked network.
 ms.assetid: ccf24d45-cae0-4eb7-951a-004a5f71e04a
 title: network (blockList) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

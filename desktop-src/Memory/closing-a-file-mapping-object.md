@@ -2,7 +2,6 @@
 Description: When a process has finished with the file mapping object, it should destroy all file views in its address space by using the UnmapViewOfFile function for each file view.
 ms.assetid: d62d068c-9b1d-4dbf-8b21-31a636a41456
 title: Closing a File Mapping Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

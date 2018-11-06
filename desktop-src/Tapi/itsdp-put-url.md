@@ -2,7 +2,6 @@
 Description: The put\_Url method sets the URL.
 ms.assetid: 538bb1dd-c7ad-446d-9df7-23363b466263
 title: ITSdp::put_Url method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

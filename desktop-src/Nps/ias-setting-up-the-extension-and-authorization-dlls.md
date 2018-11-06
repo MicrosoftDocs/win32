@@ -1,12 +1,8 @@
 ---
 title: Setting Up the Extension DLLs
 description: At startup, NPS checks the registry for a list of third-party DLLs to call.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fbbd9031-3ebe-47b8-8d8b-e359fa7d4b67
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - WM_CAP_DRIVER_GET_CAPS message
 - capDriverGetCaps macro
 - CAPDRIVERCAPS structure
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

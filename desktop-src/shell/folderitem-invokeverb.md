@@ -2,7 +2,6 @@
 Description: Executes a verb on the item.
 ms.assetid: 569bdc88-15ef-4d08-923c-4f41e5ae5a38
 title: FolderItem.InvokeVerb method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

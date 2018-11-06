@@ -2,7 +2,6 @@
 Description: Msitran.exe uses MsiDatabaseGenerateTransform, MsiCreateTransformSummaryInfo, and MsiDatabaseApplyTransform to generate or apply a transform file.This tool is only available in the Windows SDK Components for Windows Installer Developers.
 ms.assetid: cfc7b907-78d7-4a78-bab4-ede9012d5a36
 title: Msitran.exe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

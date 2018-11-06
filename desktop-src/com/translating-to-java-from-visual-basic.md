@@ -2,7 +2,6 @@
 title: Translating to Java from Visual Basic
 description: Translating to Java from Visual Basic
 ms.assetid: 2bd61efc-f4f4-46f7-aa5a-f6cefc54d86b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

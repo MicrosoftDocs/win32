@@ -1,9 +1,6 @@
 ---
 title: FetchReportPerDeviceEntries method of the Win32_TSLicenseReport class
 description: Retrieves information of issued Remote Desktop Services Per Device client access licenses (RDS \ 160;Per Device CALs) from the report.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3f632a65-d6e0-4efd-9498-d04a05f9ddec
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

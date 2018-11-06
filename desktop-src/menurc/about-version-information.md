@@ -7,7 +7,6 @@ keywords:
 - version information
 - adding version information
 - file conflicts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Ipsec-NFA-Reference attribute
 description: The Ipsec-NFA-Reference attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 660bb1a1-c953-4768-afe5-006f436ef0cf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-NFA-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

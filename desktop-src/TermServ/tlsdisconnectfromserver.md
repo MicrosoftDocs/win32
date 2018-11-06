@@ -1,9 +1,6 @@
 ---
 title: TLSDisconnectFromServer function
 description: Closes an open handle to a Remote Desktop license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b4b001ec-823b-4514-bbec-839a83a9a189
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

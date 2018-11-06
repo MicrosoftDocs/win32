@@ -2,7 +2,6 @@
 Description: The baseline version of a very poor performing application in Windows Sockets (Winsock).
 ms.assetid: 923884c4-f1bd-4f72-983e-6158f368e0dd
 title: 'The Baseline Version: A Very Poor Performing Application'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -16,7 +15,7 @@ The initial, poor performing code sample used to calculate the updates is as fol
 
  
 
-> \[!Warning\]  
+> [!WARNING]
 > The first few examples of the application provide intentionally poor performance, in order to illustrate performance improvements possible with changes to code. Do not use these code samples in your application; they are for illustration purposes only.
 
  

@@ -1,12 +1,8 @@
 ---
 Description: The CWbemProviderGlue class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: E09290AF-1C2E-458A-811E-5357D470D3DF
 ms.tgt_platform: multiple
 title: CWbemProviderGlue Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

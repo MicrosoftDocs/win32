@@ -1,12 +1,8 @@
 ---
 title: Windows Remote Management Architecture
 description: The Windows Remote Management architecture consists of components on the client and server computers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 82e67851-fe46-4bb0-8278-9718b5e0c7ae
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

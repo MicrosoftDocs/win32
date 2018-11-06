@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Has-Full-Replica-NCs attribute
 description: Identifies the partitions held as full replicas.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 217c5e8f-7022-4750-bb0d-ba92c6715c66
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Has-Full-Replica-NCs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

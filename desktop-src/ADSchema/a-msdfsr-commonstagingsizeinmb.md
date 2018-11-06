@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-CommonStagingSizeInMb attribute
 description: Size, in megabytes, of the common staging directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a7344654-a5c6-40dc-a03a-a1fb6ca06311
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-CommonStagingSizeInMb
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

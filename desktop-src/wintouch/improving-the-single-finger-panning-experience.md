@@ -19,7 +19,6 @@ keywords:
 - gestures,gesture pan messages
 - panning,gesture pan messages
 - boundary feedback,single-finger panning
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

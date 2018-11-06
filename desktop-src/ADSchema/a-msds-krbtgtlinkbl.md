@@ -1,9 +1,6 @@
 ---
 title: ms-DS-KrbTgt-Link-BL attribute
 description: Backward link for the ms-DS-KrbTgt-Link attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dcaa8257-260c-4eae-8c82-762d70d62281
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-KrbTgt-Link-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

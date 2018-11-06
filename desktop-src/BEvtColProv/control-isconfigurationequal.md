@@ -1,14 +1,8 @@
 ---
 Description: Compare the argument with the active configuration of the collector.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8decb674-c905-4eb6-9f78-7bc7b99db908
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IsConfigurationEqual method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Open-Address-Book extended right
 description: Extended right checked when opening address book object for address book views.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b5b30fc2-6bf1-4ba8-81c1-86db9413ef24
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Open-Address-Book
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

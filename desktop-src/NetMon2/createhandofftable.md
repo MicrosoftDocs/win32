@@ -2,7 +2,6 @@
 Description: The CreateHandoffTable function creates a handoff table that includes the handoff set information stored in the INI file of the parser.
 ms.assetid: 6dbca2fa-33fb-48e8-b663-be59aec6264b
 title: CreateHandoffTable function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

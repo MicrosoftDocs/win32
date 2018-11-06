@@ -1,9 +1,6 @@
 ---
 title: Print-Rate attribute
 description: Driver-supplied print rate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f40d18d3-d338-48cf-b818-f79e7aa3ecbf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Rate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

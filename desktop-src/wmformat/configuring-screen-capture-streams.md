@@ -6,7 +6,6 @@ keywords:
 - streams,configuring screen capture streams
 - codecs,configuring screen capture streams
 - screen capture streams
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

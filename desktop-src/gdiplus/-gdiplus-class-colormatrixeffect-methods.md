@@ -2,7 +2,6 @@
 Description: This topic lists the methods of the ColorMatrixEffect class. For a complete class listing, see ColorMatrixEffect.
 ms.assetid: ccccd733-16dd-4b52-86c6-56a4ab0f57a5
 title: ColorMatrixEffect Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

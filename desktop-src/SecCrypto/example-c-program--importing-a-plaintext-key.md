@@ -2,7 +2,6 @@
 Description: Identify a key by using an HCRYPTKEY handle.
 ms.assetid: 23569104-a302-40de-a31a-a4ee22d5f7f2
 title: 'Example C Program: Importing a Plaintext Key'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

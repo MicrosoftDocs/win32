@@ -1,9 +1,6 @@
 ---
 title: ResourceLocator.FragmentPath property
 description: Gets or sets the path for a resource fragment or property when ResourceLocator is used in Session object operations such as Session.Get, Session.Put, or Session.Enumerate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4d059b57-fca5-4a75-9396-6505920498c3
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

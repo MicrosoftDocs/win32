@@ -2,7 +2,6 @@
 Description: Saves the certificate to a file.
 ms.assetid: 2012b39b-47fd-4071-9752-98bb10954fc0
 title: ICertificate2::Save method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

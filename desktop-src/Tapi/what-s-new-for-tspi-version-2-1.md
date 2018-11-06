@@ -2,7 +2,6 @@
 Description: 'Starting with TAPI 2.1, the telephony service provider user interface DLLs can be used to manage and display dialog boxes. TAPI loads the DLL into the process of an application that invokes any of the service provider functions that can display a dialog.'
 ms.assetid: '0a0320d1-fb75-405e-8074-b37cef956c9f'
 title: 'What's New for TSPI Version 2.1'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

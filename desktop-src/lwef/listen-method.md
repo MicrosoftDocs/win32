@@ -2,7 +2,6 @@
 title: Listen Method
 description: Listen Method
 ms.assetid: ceb3b62f-2a33-4a13-b608-4cfa800be38a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

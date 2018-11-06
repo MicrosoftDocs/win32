@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 99fe6242-f8bd-46de-bbf3-af788377fada
 title: System.Message.ConversationID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

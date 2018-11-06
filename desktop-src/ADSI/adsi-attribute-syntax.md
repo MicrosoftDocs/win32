@@ -1,14 +1,10 @@
 ---
 title: ADSI Attribute Syntax
 description: Each attribute in the directory has an associated syntax. For example, integer, string, numeric, and so on. ADSI defines its own syntax that maps to the native directory syntax. This section describes the types of attribute syntaxes in ADSI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 83d3d42f-e35e-4bd1-b26e-d141e9ec9c31
 ms.tgt_platform: multiple
 keywords:
 - attributes ADSI ,syntax
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

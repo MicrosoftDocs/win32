@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Signing-Keys attribute
 description: An attribute that contains the set of encrypted DNSSEC signing keys used by the DNS server to sign the DNS zone.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 99aa1541-eb3f-48ee-b449-a16c17e9c002
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Signing-Keys
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

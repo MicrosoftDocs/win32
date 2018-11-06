@@ -1,9 +1,6 @@
 ---
 title: GetVirtualDesktopState method of the Win32_RDMSVirtualDesktop class
 description: Retrieves the state of the virtual desktop.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 176096ba-2b5f-428c-9216-02e3e97be64e
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

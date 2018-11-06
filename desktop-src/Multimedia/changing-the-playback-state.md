@@ -2,7 +2,6 @@
 title: Changing the Playback State
 description: Changing the Playback State
 ms.assetid: 69ede616-aea4-4b7c-a12b-014ac0485b1c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

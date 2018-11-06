@@ -5,7 +5,6 @@ ms.assetid: b09cbd98-152e-486c-acb5-4e1d83e5f8e2
 keywords:
 - MDM_Firewall_FirewallRules02_01 class
 - MDM_Firewall_FirewallRules02_01 class, described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

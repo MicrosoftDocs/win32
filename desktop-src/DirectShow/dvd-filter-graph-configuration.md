@@ -2,7 +2,6 @@
 Description: DVD Filter Graph Configuration
 ms.assetid: 0c68c456-2240-4090-b45c-bd098cfea645
 title: DVD Filter Graph Configuration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

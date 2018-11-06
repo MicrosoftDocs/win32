@@ -1,9 +1,6 @@
 ---
 title: ms-COM-UserLink attribute
 description: A link used to associate a COM+ PartitionSet with a User object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 41d853f3-bf53-4008-afa9-977a0ae1c539
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-COM-UserLink
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

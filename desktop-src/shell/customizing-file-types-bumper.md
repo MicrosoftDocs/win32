@@ -1,7 +1,6 @@
 ---
 Description: Implementing a Custom File Format
 title: Implementing a Custom File Format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

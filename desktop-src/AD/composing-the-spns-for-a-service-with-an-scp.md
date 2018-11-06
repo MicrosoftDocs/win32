@@ -1,15 +1,11 @@
 ---
 title: Composing the SPNs for a Service with an SCP
 description: The following code example composes an SPN for a service that uses a service connection point (SCP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cbaa11ba-d32b-46cf-86a4-9050bb1be3a6
 ms.tgt_platform: multiple
 keywords:
 - Composing the SPNs for a Service with an SCP AD
 - Service Principal Name AD , Composing SPNs for a Service with an SCP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

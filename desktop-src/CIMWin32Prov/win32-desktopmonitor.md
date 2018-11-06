@@ -1,14 +1,8 @@
 ---
 Description: Represents the type of monitor or display device attached to the computer system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 922be3c1-3c7b-4418-a72f-ab5ada91a7a4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DesktopMonitor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

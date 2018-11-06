@@ -1,12 +1,8 @@
 ---
 title: Displaying XML Output from WinRM Scripts
 description: Windows Remote Management scripts return XML rather than objects. The XML is not in a human-readable format. You can use the methods of the MSXML API and the preinstalled XSL file to transform the data into human-readable format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a2c9401b-bc1e-4f8e-aabf-b6ade1a849ba
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

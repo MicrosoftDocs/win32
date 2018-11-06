@@ -1,14 +1,8 @@
 ---
 Description: Retrieves the current size, in bytes, of the free virtual address space available to the process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 13b3b347-5db1-484f-bd1d-3a604eb6bc5b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetAvailableVirtualSize method of the Win32_Process class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

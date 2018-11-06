@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_TemperatureSensor class exists for backward compatibility with earlier CIM schema definitions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ddef21db-e33a-4e2b-ac31-df3f0acd6fc2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_TemperatureSensor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -61,7 +55,7 @@ api_location:
 
 The **CIM\_TemperatureSensor** class exists for backward compatibility with earlier CIM schema definitions. With additions to the [**CIM\_Sensor**](cim-sensor.md) and [**CIM\_NumericSensor**](cim-numericsensor.md) classes in version 2.2, it is no longer necessary. A temperature sensor can be defined by setting the **SensorType** property, inherited from **CIM\_Sensor**, to 2 ("Temperature"). Other properties of this class are hardcoded as constant values that correspond to definitions in the sensor hierarchy.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

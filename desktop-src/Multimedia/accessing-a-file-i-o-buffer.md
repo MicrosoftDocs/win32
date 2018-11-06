@@ -10,7 +10,6 @@ keywords:
 - accessing I/O buffers
 - buffered I/O
 - mmioSetInfo function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: COM Error Handling in Java and Visual Basic
 description: COM Error Handling in Java and Visual Basic
 ms.assetid: 1130a038-3c18-4530-a6d7-9f538352297f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

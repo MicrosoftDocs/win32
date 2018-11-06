@@ -2,7 +2,6 @@
 Description: This interface encapsulates the minimum functionality required of an animation set by an animation controller.
 ms.assetid: 'vs|directx_sdk|~\id3dxanimationset.htm'
 title: ID3DXAnimationSet interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

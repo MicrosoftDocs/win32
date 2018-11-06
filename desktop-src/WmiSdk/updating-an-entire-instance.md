@@ -1,12 +1,8 @@
 ---
 Description: The most common means of updating a WMI class instance is to update the entire instance at once.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fca5f102-0823-4900-b147-9b29ca036607
 ms.tgt_platform: multiple
 title: Updating an Entire Instance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

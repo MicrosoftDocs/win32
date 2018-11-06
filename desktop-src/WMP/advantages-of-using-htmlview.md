@@ -13,7 +13,6 @@ keywords:
 - Windows Media Player,advantages of HTMLView
 - Windows Media Player,HTMLView advantages
 - HTMLView,advantages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

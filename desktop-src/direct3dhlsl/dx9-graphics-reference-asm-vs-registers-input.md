@@ -2,7 +2,6 @@
 title: Input Register
 description: Input Register
 ms.assetid: 7cd8e555-4e69-4905-a541-62e09b41a602
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

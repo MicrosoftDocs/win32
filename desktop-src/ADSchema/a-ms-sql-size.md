@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Size attribute
 description: The size, in kilobytes, of the database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 012984cb-5c4c-478e-b4dd-004aa305532a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Size
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

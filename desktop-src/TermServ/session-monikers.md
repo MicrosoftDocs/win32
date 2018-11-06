@@ -1,12 +1,8 @@
 ---
 title: Session Monikers
 description: Distributed COM (DCOM) enables object activation on a per-session basis by using a system-supplied session moniker.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2cdc182f-57de-4a7a-ab1e-f4421334b99d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

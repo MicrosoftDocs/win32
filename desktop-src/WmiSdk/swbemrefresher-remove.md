@@ -1,12 +1,8 @@
 ---
 Description: The SWbemRefresher.Remove method removes the SWbemRefreshableItem object with the specified index from the refresher.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: db5ac740-e2b3-4667-b511-d750cb092e0f
 ms.tgt_platform: multiple
 title: SWbemRefresher.Remove method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -5,7 +5,6 @@ ms.assetid: 15970a51-c139-48b8-b82b-605728d0f386
 keywords:
 - Task Scheduler Task Scheduler
 - Task Scheduler Task Scheduler , portal page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

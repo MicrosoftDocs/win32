@@ -1,12 +1,8 @@
 ---
 title: IMsRdpClientShell Methods
 description: The IMsRdpClientShell interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3A7F99FE-7EE1-4D8C-A94A-864E799299E1
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

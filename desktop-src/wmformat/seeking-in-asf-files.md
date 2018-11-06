@@ -10,7 +10,6 @@ keywords:
 - Advanced Systems Format (ASF),seeking
 - ASF (Advanced Systems Format),seeking
 - DirectShow,seeking in ASF files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

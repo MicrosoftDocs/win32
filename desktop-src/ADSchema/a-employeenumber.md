@@ -1,9 +1,6 @@
 ---
 title: Employee-Number attribute
 description: The number assigned to an employee other than the ID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 30ad1570-d833-48d0-b2aa-9447bcd33b92
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Employee-Number
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PhysicalConnector class represents any physical element that is used to connect to other elements. Any object that can connect and transmit signals or power between two or more physical elements is a descendant (or member) of this class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cc135ae8-5ae1-4028-a2e3-a81db8694d9d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PhysicalConnector class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -43,7 +37,7 @@ api_location:
 
 The **CIM\_PhysicalConnector** class represents any physical element that is used to connect to other elements. Any object that can connect and transmit signals or power between two or more physical elements is a descendant (or member) of this class. For example, slots and D-shell connectors are types of physical connectors.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

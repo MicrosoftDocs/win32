@@ -2,7 +2,6 @@
 Description: The International Standards Organization (ISO) speed as recorded by the camera when the photo was taken.
 ms.assetid: 2d9b642f-6b42-4fc6-839c-269bbb0f7296
 title: System.Photo.ISOSpeed
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Changing Dial-In Settings
 description: Changing Dial-In Settings
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: db9d6d1c-2317-40ed-832b-f72f8e9e81bb
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

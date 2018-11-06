@@ -8,7 +8,6 @@ keywords:
 - Windows Media Player plug-ins,conversion
 - plug-ins,conversion
 - conversion plug-ins,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

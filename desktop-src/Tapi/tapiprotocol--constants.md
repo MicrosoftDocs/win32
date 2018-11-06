@@ -2,7 +2,6 @@
 Description: The following protocols are defined by TAPI 3, and the CLSIDs are in Tapi3.lib. Service providers can define additional protocols.
 ms.assetid: 4704eedb-12e7-440e-b1ca-2afd78d2499d
 title: TAPIPROTOCOL_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

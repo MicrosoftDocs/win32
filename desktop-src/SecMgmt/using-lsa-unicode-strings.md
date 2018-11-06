@@ -2,7 +2,6 @@
 Description: Several of the LSA Policy functions use the LSA\_UNICODE\_STRING structure to store string information. This structure stores the string and its length information.
 ms.assetid: 8a02cbb4-0b59-4c1e-9831-592a2005905e
 title: Using LSA Unicode Strings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

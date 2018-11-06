@@ -1,9 +1,6 @@
 ---
 title: Cross-Ref class
 description: Holds knowledge information about all DS Naming Contexts and all external directories to which referrals can be generated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1516cebe-29cc-4d77-9d85-239747bc5939
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Cross-Ref
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Foreign attribute
 description: Indicates whether this computer is a foreign MSMQ computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 97842a86-f2c6-4532-8534-484f266561c2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Foreign
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

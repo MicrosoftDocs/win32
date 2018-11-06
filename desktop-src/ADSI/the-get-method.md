@@ -1,15 +1,11 @@
 ---
 title: The Get Method
 description: The IADs Get method is used to retrieve individual named attributes from a directory object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e3754663-fe31-46f3-9dc1-a9c96ed53fde
 ms.tgt_platform: multiple
 keywords:
 - Get ADSI , using IADs Get
 - ADSI ADSI ,using,using the IADs Get method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

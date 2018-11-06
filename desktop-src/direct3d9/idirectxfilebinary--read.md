@@ -2,7 +2,6 @@
 Description: Reads the binary data. Deprecated.
 ms.assetid: 530552c5-bf05-4e86-836d-d25161832c6d
 title: IDirectXFileBinary::Read method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

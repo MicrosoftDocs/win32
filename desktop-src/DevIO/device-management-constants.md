@@ -1,7 +1,6 @@
 ---
 ms.assetid: 93401195-3619-41a0-ad24-3fddf3932ba5
 title: Device Management Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

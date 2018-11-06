@@ -1,12 +1,8 @@
 ---
 title: Common Errors
 description: All ADSI-specific errors have a hexadecimal form of 80005xxx. The most common error codes encountered are outlined in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fdee4f0a-b39e-4011-af4f-9fe408f6ca6c
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

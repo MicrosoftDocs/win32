@@ -1,9 +1,6 @@
 ---
 title: Frs-Computer-Reference-BL attribute
 description: Reference to replica sets to which this computer belongs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b6b42ab7-a57a-4151-85a3-5f2373e0458f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Frs-Computer-Reference-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

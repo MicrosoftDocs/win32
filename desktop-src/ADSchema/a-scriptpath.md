@@ -1,9 +1,6 @@
 ---
 title: Script-Path attribute
 description: This attribute specifies the path for the user's logon script. The string can be null.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 356f2ba0-ceca-4805-a536-286c6a8b54fc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Script-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

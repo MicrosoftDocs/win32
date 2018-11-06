@@ -1,12 +1,8 @@
 ---
 title: Active Directory Schema Terminology
 description: The following terms are commonly used to refer to the Active Directory schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 22c5756f-d663-4cb7-aab0-956b22a01e9d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

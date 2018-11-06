@@ -2,7 +2,6 @@
 Description: Calling Outside An Assembly
 ms.assetid: 7a59f707-fb89-4899-891f-4cd556b62b26
 title: Calling Outside An Assembly
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

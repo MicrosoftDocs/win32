@@ -1,12 +1,8 @@
 ---
 Description: Contains a SYNTAX clause that defines the data and type for the MIB object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 24c483c8-db50-492f-9c2e-72620395331a
 ms.tgt_platform: multiple
 title: SYNTAX Clause
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

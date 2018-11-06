@@ -2,7 +2,6 @@
 title: Automatic Maintenance
 description: Automatic Maintenance
 ms.assetid: D3B61105-D118-42A4-8F3D-ED92EFAF597F
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies how the property's labels are displayed.
 ms.assetid: 9317aff9-abdd-46c2-aaff-62861925713b
 title: labelInfo
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

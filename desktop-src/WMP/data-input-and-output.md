@@ -7,7 +7,6 @@ keywords:
 - plug-ins,data input and output
 - digital signal processing plug-ins,data input and output
 - DSP plug-ins,data input and output
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

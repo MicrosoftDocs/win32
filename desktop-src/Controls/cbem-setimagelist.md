@@ -12,7 +12,6 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -41,7 +40,7 @@ Returns the handle to the image list previously associated with the control, or 
 
 ## Remarks
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The height of images in your image list might change the size requirements of the ComboBoxEx control. It is recommended that you resize the control after sending this message to ensure that it is displayed properly.
 
  

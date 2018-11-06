@@ -2,7 +2,6 @@
 Description: A number of functions use the brush currently selected into a device context to perform bitmap operations.
 ms.assetid: 98fb2fd5-9cf4-4016-9e30-ec724e77cebc
 title: Bitmaps as Brushes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

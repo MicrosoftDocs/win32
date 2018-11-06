@@ -2,7 +2,6 @@
 Description: Describes the data contained by the enumeration.
 ms.assetid: 6d494fe6-fcd5-4e71-939c-257978b41499
 title: D3DXPARAMETER_TYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

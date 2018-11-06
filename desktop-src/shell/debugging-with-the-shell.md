@@ -1,7 +1,6 @@
 ---
 Description: This topic explains how to debug Shell and namespace extension DLLs.
 title: Debugging with the Shell
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Implement Transactional NTFS (TxF) and Transactional Registry (TxR). TxF allows transacted file system operations within NTFS. TxR allows transacted registry operations. Coordinate file system and registry operations with a transaction.
 ms.assetid: 2f601994-db1e-4aac-8db1-9a36c702664b
 title: Kernel Transaction Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -15,7 +15,6 @@ keywords:
 - registering text services
 - registering language profiles
 - registering categories
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

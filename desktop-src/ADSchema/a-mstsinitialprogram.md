@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Initial-Program attribute
 description: Terminal Services Session Initial Program specifies the path and file name of the application that the user wants to start automatically when the user logs on to the Terminal Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c886209b-725b-4e49-a802-58be9ed5e92e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Initial-Program
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

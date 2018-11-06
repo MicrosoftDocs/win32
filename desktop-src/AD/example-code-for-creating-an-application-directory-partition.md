@@ -1,15 +1,11 @@
 ---
 title: Example Code for Creating an Application Directory Partition
 description: This topic includes code examples create an application directory partition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dc538afc-8529-42cf-a276-a4579d555557
 ms.tgt_platform: multiple
 keywords:
 - example code for creating an application directory partition Active Directory
 - application directory partitions Active Directory , example code for creating
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

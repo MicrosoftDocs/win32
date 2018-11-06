@@ -1,9 +1,6 @@
 ---
 title: ms-net-ieee-80211-GP-PolicyData attribute
 description: Contains all of the settings and data that make up a Group Policy configuration for 802.11 wireless networks.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 556e0b4f-49cf-4493-a731-8b12c1d5ad71
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ms-net-ieee-80211-GP-PolicyData
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

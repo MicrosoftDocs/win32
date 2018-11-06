@@ -1,9 +1,6 @@
 ---
 title: Win32_SessionDirectoryVMMPlugin class
 description: Represents a virtual machine manager (VMM) plug-in registered with a session broker.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b5c5deb1-6c1b-4547-a24a-db3ce6654144
 ms.tgt_platform: multiple
 keywords:
@@ -23,7 +20,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

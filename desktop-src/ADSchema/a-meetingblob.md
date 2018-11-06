@@ -1,9 +1,6 @@
 ---
 title: meetingBlob attribute
 description: The opaque representation of a meeting in external form.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a192db90-ace9-4da1-b7c1-e9f81ff8ab92
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingBlob
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

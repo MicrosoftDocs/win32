@@ -2,7 +2,6 @@
 Description: The Run method runs the filter.
 ms.assetid: 83251137-83f8-45a3-b3f2-d7b45f43f7f8
 title: CBaseRenderer.Run method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The performance of vertex processing operations, including transformation and lighting, depends heavily on where the vertex buffer exists in memory and what type of rendering device is being used.
 ms.assetid: 4f9ca83d-c9d6-4749-944d-78f831b0f44e
 title: Device Types and Vertex Processing Requirements (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: PKI-Expiration-Period attribute
 description: The validity period for the certificate template.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6b3f7497-b156-4afe-ae93-ccb96d9ba403
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Expiration-Period
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

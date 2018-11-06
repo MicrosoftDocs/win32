@@ -2,7 +2,6 @@
 Description: Gets the number of control vertices per patch.
 ms.assetid: e523cb1e-90b0-4e26-a5bd-471384bfee0e
 title: ID3DXPatchMesh::GetControlVerticesPerPatch method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

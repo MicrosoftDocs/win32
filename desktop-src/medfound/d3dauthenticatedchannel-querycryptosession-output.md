@@ -2,7 +2,6 @@
 Description: Contains the response to a D3DAUTHENTICATEDQUERY\_CRYPTOSESSION query.
 ms.assetid: df9d9b41-8188-4597-9e83-d14065eb7fc7
 title: D3DAUTHENTICATEDCHANNEL_QUERYCRYPTOSESSION_OUTPUT structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

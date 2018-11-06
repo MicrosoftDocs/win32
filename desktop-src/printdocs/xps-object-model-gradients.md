@@ -2,7 +2,6 @@
 Description: This topic provides an example of using gradients in an XPS OM.
 ms.assetid: c58c9e5a-c871-4b44-a1be-0aceafa2f805
 title: XPS OM Gradients
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

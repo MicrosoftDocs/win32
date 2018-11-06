@@ -2,7 +2,6 @@
 Description: User Interface
 ms.assetid: 2770E065-A15E-46CA-9D4E-610A2FE62E64
 title: User Interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

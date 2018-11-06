@@ -2,7 +2,6 @@
 title: Resource Structures
 description: .
 ms.assetid: 3b0eecd7-9de0-4897-9833-386c30bc511e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Interfaces
 ms.assetid: CB05B5F8-BE15-4BE0-A651-F6E8912D649D
 title: Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

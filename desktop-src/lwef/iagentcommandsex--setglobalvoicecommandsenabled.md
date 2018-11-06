@@ -2,7 +2,6 @@
 title: IAgentCommandsEx SetGlobalVoiceCommandsEnabled
 description: IAgentCommandsEx SetGlobalVoiceCommandsEnabled
 ms.assetid: f456b1d3-60aa-4b90-90d0-6c695947fa8a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

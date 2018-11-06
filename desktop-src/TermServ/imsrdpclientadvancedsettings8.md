@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings8 interface
 description: Exposes methods and properties that manage advanced settings of the Remote Desktop ActiveX control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9e1de47d-f194-4d9e-8e47-7c13a0677aaa
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

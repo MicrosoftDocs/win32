@@ -2,7 +2,6 @@
 Description: Creates an empty texture, adjusting the calling parameters as needed.
 ms.assetid: ea028aa9-4f37-4625-9e07-9072ec1a61d0
 title: D3DXCreateTexture function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

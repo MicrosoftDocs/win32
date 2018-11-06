@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ProductSupport class represents an association between product and support access that conveys how support is obtained for the product.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 61c62556-0cf3-438c-b9c7-152505bf7ed6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ProductSupport class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_ProductSupport** class represents an association between product and support access that conveys how support is obtained for the product. Various types of support are available for a product; the same support object can provide assistance for multiple products.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

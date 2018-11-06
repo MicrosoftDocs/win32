@@ -1,12 +1,8 @@
 ---
 Description: The following sections describe common issues developers may have with creating a remote WMI connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 328e420b-a859-4ce9-8a31-67150eb0a78f
 ms.tgt_platform: multiple
 title: Troubleshooting a Remote WMI Connection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

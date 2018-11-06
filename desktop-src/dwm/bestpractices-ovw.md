@@ -14,7 +14,6 @@ keywords:
 - application practices
 - drawing practices
 - blur behind effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

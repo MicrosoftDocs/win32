@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Revealed-Users attribute
 description: Used with RODCs to identify the user objects whose secrets have been disclosed to that RODC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 92f6d8a9-7829-4400-9b60-f1afe8653bc0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Revealed-Users
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

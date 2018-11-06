@@ -1,15 +1,11 @@
 ---
 title: About Application Directory Partitions
 description: Developers who use ADSI or LDAP to store and access relatively static and globally data in Active Directory Domain Services may also prefer, for the sake of simplicity and uniformity, to continue using ADSI or LDAP access for their dynamic data requirements. Dynamic data changes more frequently than what has been recommended for storing in Active Directory Domain Services. Dynamic data typically changes more frequently than the replication latency involved in propagating the change to all replicas of the data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bf856c3a-9061-474a-a536-c87ca50d5f83
 ms.tgt_platform: multiple
 keywords:
 - About Application Directory Partitions
 - Application Directory Partitions, About
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

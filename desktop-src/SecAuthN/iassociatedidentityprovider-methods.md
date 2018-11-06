@@ -2,7 +2,6 @@
 Description: The IAssociatedIdentityProvider interface exposes the following methods.
 ms.assetid: B1BD9C93-7F8A-4946-B5B7-BB0FDE3A9DCA
 title: IAssociatedIdentityProvider Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

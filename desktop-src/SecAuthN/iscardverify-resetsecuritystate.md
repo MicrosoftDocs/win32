@@ -2,7 +2,6 @@
 Description: Resets the current security context of the smart card.
 ms.assetid: fcd55b65-a741-4244-8597-ec61cea3f4b7
 title: ISCardVerify::ResetSecurityState method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

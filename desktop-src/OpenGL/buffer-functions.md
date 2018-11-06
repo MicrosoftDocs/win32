@@ -4,7 +4,6 @@ description: To copy the contents of an off-screen buffer to an on-screen buffer
 ms.assetid: 605eba4e-ee38-4e62-adf8-1b7894030cb0
 keywords:
 - WGL functions,buffer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Example Code for Setting and Removing SACL and DACL Protection
 description: This topic includes a code example used to set and remove SACL and DACL protection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1982ee9a-022a-4e5d-be9c-fab8894afa9e
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting and removing SACL protection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

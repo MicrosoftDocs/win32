@@ -2,7 +2,6 @@
 Description: When using CONTAINS over the Windows Search Index, this is the number of matches of the term. If there are multiple CONTAINS, an AND computes the minimal number of hits, and an OR computes the maximal number of hits.
 ms.assetid: 2f0cddba-7535-451f-9bb5-846c06c426f8
 title: System.Search.HitCount
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

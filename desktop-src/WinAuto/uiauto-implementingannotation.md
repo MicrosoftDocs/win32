@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation annotation
 - control patterns,annotation
 - interfaces,IAnnotationProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

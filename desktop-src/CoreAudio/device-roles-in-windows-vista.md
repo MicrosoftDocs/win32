@@ -2,7 +2,6 @@
 Description: Working with Device Roles
 ms.assetid: 3b2cb1fe-0f11-4509-a6f3-513d2755cd29
 title: Working with Device Roles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

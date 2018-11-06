@@ -2,7 +2,6 @@
 Description: The WPD\_SECTION\_DATA\_UNITS\_VALUES enumeration indicates the units for a referenced section of data.
 ms.assetid: d787d8b4-b622-4370-baf9-a2783133260f
 title: WPD_SECTION_DATA_UNITS_VALUES enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

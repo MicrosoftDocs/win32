@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Source-Type attribute
 description: For a security principal claim type, lists the type of store the issued claim is sourced from
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e72bf141-90d2-430c-9580-087b9b6f573f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Source-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

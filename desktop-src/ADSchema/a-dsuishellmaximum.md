@@ -1,9 +1,6 @@
 ---
 title: DS-UI-Shell-Maximum attribute
 description: This is the default maximum number of objects to be shown in a container by the shell UI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 133626f1-6006-4e0f-bf00-4fa98f2ed273
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - DS-UI-Shell-Maximum
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

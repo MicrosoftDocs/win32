@@ -1,14 +1,8 @@
 ---
 Description: Obtains ownership of the logical shortcut file specified in the object path. This method is an extended version of the TakeOwnerShip method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1345562c-343e-4e3a-b6ed-3b64a7260c89
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the Win32_ShortcutFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

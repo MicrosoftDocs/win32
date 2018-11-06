@@ -1,9 +1,6 @@
 ---
 title: GPC-File-Sys-Path attribute
 description: True if the object is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 815d8191-d282-4f53-9109-c18d7a9b0a34
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - GPC-File-Sys-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: TabbingNotCyclic
 description: TabbingNotCyclic
 ms.assetid: F6BCC613-1EA1-438C-AC09-8A282870E021
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

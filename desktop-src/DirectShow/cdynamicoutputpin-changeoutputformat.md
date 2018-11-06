@@ -2,7 +2,6 @@
 Description: The ChangeOutputFormat method dynamically changes the media type for the connection, and delivers new segment information.
 ms.assetid: d1204ca0-a489-48a0-8fe5-3ade04f51c93
 title: CDynamicOutputPin.ChangeOutputFormat method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

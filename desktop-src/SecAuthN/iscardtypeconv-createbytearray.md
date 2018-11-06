@@ -2,7 +2,6 @@
 Description: Creates a typical C/C++ byte array.
 ms.assetid: 915e8cca-2a0f-409e-a6df-54fa73bdc305
 title: ISCardTypeConv::CreateByteArray method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

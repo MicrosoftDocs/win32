@@ -2,7 +2,6 @@
 Description: The GetObject method gets an instance of an existing Microsoft.Windows.ActCtx object.
 ms.assetid: 547525f3-afef-463b-823a-df8ccd954f36
 title: ActCtx.GetObject method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

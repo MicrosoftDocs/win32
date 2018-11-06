@@ -6,7 +6,6 @@ keywords:
 - Windows multimedia,input
 - multimedia,input
 - multimedia input,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

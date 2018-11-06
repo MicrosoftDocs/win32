@@ -1,9 +1,6 @@
 ---
 title: IMsTscNonScriptable interface
 description: Contains properties and methods that relate to application of a password to the Remote Desktop ActiveX control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b4a68e02-cce6-4fbe-98b4-0627c10f3f37
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

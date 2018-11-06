@@ -1,9 +1,6 @@
 ---
 title: Seq-Notification attribute
 description: This attribute contains a counter that is incremented daily. This counter value is given to the link tracking service which adds the value to its volumes and link source files when they are refreshed. The domain controller maintains this value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 63fbded5-a21f-4a0e-aadc-568e199e8b9e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Seq-Notification
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

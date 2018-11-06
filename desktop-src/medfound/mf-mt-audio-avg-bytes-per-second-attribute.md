@@ -2,7 +2,6 @@
 Description: Average number of bytes per second in an audio media type.
 ms.assetid: 0ee371fb-d980-44de-a9bd-201e2b72e874
 title: MF_MT_AUDIO_AVG_BYTES_PER_SECOND attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

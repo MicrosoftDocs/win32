@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings AcceleratorPassthrough property
 description: Specifies if keyboard accelerators should be passed to the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ad0053bc-e3a9-4cd5-a409-fab3e24ffffa
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

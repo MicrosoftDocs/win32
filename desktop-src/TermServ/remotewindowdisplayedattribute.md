@@ -1,9 +1,6 @@
 ---
 title: RemoteWindowDisplayedAttribute enumeration
 description: Used with the method to specify information about the event.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 22549063-6979-48F2-AEA5-94BFC848C707
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

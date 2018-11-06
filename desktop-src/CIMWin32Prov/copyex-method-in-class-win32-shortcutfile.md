@@ -1,14 +1,8 @@
 ---
 Description: Copies the logical shortcut file or directory specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 06b629bb-d35e-4bc2-b0e5-c6a981b6d968
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CopyEx method of the Win32_ShortcutFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

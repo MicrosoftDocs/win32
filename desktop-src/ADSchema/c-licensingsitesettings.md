@@ -1,9 +1,6 @@
 ---
 title: Licensing-Site-Settings class
 description: Points to the licensing server for a site.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b1573bfc-e81b-4b94-858d-5cc274c07d1a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Licensing-Site-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

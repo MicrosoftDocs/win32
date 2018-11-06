@@ -2,7 +2,6 @@
 Description: The following code demonstrates the send and recv functions used by the client once a connection is established.
 ms.assetid: 9c6d366d-2bc6-4c92-8d0b-21c51e08ed4f
 title: Sending and Receiving Data on the Client
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

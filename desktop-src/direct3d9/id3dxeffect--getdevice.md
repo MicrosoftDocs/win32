@@ -2,7 +2,6 @@
 Description: Retrieves the device associated with the effect.
 ms.assetid: acef5d0a-b185-4054-8982-0580440ab76b
 title: ID3DXEffect::GetDevice method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

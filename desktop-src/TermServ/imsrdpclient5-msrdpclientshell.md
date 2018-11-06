@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient5 MsRdpClientShell property
 description: Retrieves the scriptable client setting interface IMsRdpClientShell.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cc56cec4-779d-4b51-8e94-ae0dd9bae997
 ms.tgt_platform: multiple
 keywords:
@@ -39,7 +36,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

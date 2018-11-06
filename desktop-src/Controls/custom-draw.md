@@ -2,7 +2,6 @@
 title: Custom Draw
 description: Custom draw is not a common control; it is a service that many common controls provide.
 ms.assetid: 'vs|controls|~\controls\custdraw\custdraw.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

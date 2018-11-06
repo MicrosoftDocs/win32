@@ -2,7 +2,6 @@
 Description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
 ms.assetid: e338126d-0732-442b-8c3c-b69eb3c7b1ba
 title: Texture Brush Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

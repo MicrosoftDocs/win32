@@ -2,7 +2,6 @@
 title: Static Control
 description: This section contains information about the programming elements used with static controls. A static control is a control that enables an application to provide the user with informational text and graphics that typically require no response.
 ms.assetid: 'vs|controls|~\controls\staticcontrols\staticcontrols.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

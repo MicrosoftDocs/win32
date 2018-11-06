@@ -2,7 +2,6 @@
 title: Managing Cookies
 description: Under the http protocol, a server or a script uses cookies to maintain state information on the client workstation.
 ms.assetid: c00279cf-9cdc-4caf-8549-af1851edfa25
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

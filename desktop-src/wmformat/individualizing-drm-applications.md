@@ -15,7 +15,6 @@ keywords:
 - DRM (digital rights management),application individualizing
 - application individualizing
 - individualizing DRM applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

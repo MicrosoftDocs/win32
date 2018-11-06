@@ -2,7 +2,6 @@
 title: Layout
 description: Layout is the sizing, spacing, and placement of content within a window or page.
 ms.assetid: 39cd896f-d3cc-4768-a20c-a7f598da7136
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

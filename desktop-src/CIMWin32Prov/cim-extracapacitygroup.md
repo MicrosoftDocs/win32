@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ExtraCapacityGroup class is derived from a redundancy group that indicates the aggregated elements have more capacity or capability than is needed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fbbbd6ed-4a67-4917-8b0e-3cba4cac3b45
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ExtraCapacityGroup class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -34,7 +28,7 @@ api_location:
 
 The **CIM\_ExtraCapacityGroup** class is derived from a redundancy group that indicates the aggregated elements have more capacity or capability than is needed. An example of this type of redundancy is the installation of N+1 power supplies or fans in a system.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

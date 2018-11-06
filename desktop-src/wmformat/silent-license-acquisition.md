@@ -13,7 +13,6 @@ keywords:
 - Client Extended APIs,silent license acquisition
 - silent license acquisition
 - licenses,silent license acquisition
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

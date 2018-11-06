@@ -2,7 +2,6 @@
 title: Eventing
 description: A hosted service must implement the IUPnPEventSource interface if it has evented state variables.
 ms.assetid: 7558496d-c909-4602-bfaa-d21108392fed
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

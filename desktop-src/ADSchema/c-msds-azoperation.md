@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Operation class
 description: Describes a particular operation supported by an application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 24f46eb0-d125-4058-8a8b-c4385645002a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Operation
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

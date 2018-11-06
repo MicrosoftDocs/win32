@@ -1,9 +1,6 @@
 ---
 title: IRDVTaskPlugin interface
 description: The IRDVTaskPlugin interface is implemented by a virtual machine update task agent to allow the task agent to manage system updates for a virtual machine.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e06eb707-be78-4d1f-96d3-21526b167e61
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - IRDVTaskPlugin
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 api_location: 

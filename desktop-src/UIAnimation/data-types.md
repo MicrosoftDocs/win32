@@ -2,7 +2,6 @@
 title: Data Types
 description: Reference documentation for data types defined by the Windows Animation Manager.
 ms.assetid: 11ef2412-c20c-4c97-9e54-447f493fab5f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

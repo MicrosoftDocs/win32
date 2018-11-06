@@ -9,7 +9,6 @@ keywords:
 - DRM (digital rights management),sample applications
 - digital rights management (DRM),application samples
 - DRM (digital rights management),application samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

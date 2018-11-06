@@ -8,7 +8,6 @@ keywords:
 - Direct2D,creating applications
 - Direct2D,applications
 - applications for Direct2D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

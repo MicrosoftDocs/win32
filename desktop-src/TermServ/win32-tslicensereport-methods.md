@@ -1,12 +1,8 @@
 ---
 title: Win32_TSLicenseReport Methods
 description: The Win32\_TSLicenseReport class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3D332EBB-00C0-431A-AF87-CF300CB4137F
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

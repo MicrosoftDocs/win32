@@ -1,14 +1,8 @@
 ---
 Description: The Resume WMI class method continues a paused print job.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: acfbca2b-19af-4339-bbca-834db50c3d8d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Resume method of the Win32_PrintJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

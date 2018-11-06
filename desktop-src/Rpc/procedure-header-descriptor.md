@@ -2,7 +2,6 @@
 title: Procedure Header Descriptor
 description: The header has been extended several times over the life of the NDR engine. The current compiler still generates different headers depending on the mode of the compiler. However, more recent headers are a superset of the older ones.
 ms.assetid: 05b152b9-bd6d-49d1-8484-d104949c67b1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

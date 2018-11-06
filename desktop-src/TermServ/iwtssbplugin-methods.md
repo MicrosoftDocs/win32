@@ -1,12 +1,8 @@
 ---
 title: IWTSSBPlugin Methods
 description: The IWTSSBPlugin interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: C58E8D49-9556-4A4D-BF48-CF8EC16FB59F
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Print-Media-Supported attribute
 description: A list of media supported by a printer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f8c9297c-3428-4295-9d7a-e3fa4ca3ba86
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Media-Supported
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

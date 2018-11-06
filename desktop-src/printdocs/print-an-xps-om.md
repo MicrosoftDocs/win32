@@ -2,7 +2,6 @@
 Description: Describes how to send an XPS OM to a printer as an XPS document.
 ms.assetid: eb1068c4-6a6a-4ef2-8ed6-033a6a2c273b
 title: Print an XPS OM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

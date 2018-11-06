@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Endpoint-Type attribute
 description: This attribute defines whether the computer is a physical computer or a virtual machine.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7bf05e1-de40-473b-8ab3-27e8aea6c4b9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Endpoint-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

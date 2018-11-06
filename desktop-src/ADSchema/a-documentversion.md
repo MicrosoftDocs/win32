@@ -1,9 +1,6 @@
 ---
 title: documentVersion attribute
 description: The documentVersion attribute type specifies the version number of a document.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 259a71c5-97c9-46d9-b122-499df8f4010f
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - documentVersion
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

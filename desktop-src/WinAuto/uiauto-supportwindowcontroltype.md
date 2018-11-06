@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for Window control type
 - control types,support for Window
 - control types,Window
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

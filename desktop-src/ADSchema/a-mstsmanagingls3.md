@@ -1,9 +1,6 @@
 ---
 title: MS-TS-ManagingLS3 attribute
 description: Issuer name of the third terminal server per user CAL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bc03d162-d039-424a-8c67-cd58c1d1ac2b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-ManagingLS3
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

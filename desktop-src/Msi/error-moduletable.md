@@ -2,7 +2,6 @@
 Description: The read-only ModuleTable Property returns the name of the table in the module that caused the error.
 ms.assetid: 390f5889-d638-4c1c-b95c-76d38c934e7c
 title: Error.ModuleTable property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

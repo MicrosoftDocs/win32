@@ -1,9 +1,6 @@
 ---
 title: DsIsNTDSOnline function
 description: Determines if Active Directory Domain Services are online on the specified server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8f46e4d8-6d05-402c-a5b4-291fd2d6609b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

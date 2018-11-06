@@ -2,7 +2,6 @@
 Description: The ChangeType method converts all items in the collection to the specified VARTYPE.
 ms.assetid: b01b6205-c900-4b2e-810f-426e1e71a008
 title: IPortableDevicePropVariantCollection::ChangeType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

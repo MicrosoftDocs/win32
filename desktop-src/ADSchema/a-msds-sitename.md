@@ -1,9 +1,6 @@
 ---
 title: ms-DS-SiteName attribute
 description: Lists the site name that corresponds to the DC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c2ffd15b-c6e2-442e-9650-bf23058c8941
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-SiteName
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

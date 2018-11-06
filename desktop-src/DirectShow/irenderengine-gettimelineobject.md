@@ -2,7 +2,6 @@
 Description: The GetTimelineObject method retrieves the timeline that the render engine is currently using.
 ms.assetid: 74398f85-07b2-42fa-bb4f-a1e7e1669e3f
 title: IRenderEngine::GetTimelineObject method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

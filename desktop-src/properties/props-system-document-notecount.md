@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 1bc6af1d-a676-4c0b-898f-a2230f0d02da
 title: System.Document.NoteCount
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

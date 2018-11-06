@@ -2,7 +2,6 @@
 Description: Retrieves a global Shell setting.
 ms.assetid: b9b1542c-8e25-4966-b3df-13bfbd9b28aa
 title: IShellDispatch4.GetSetting method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

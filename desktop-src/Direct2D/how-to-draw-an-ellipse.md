@@ -2,7 +2,6 @@
 title: How to Draw and Fill a Basic Shape
 description: This topic describes how to draw a basic shape.
 ms.assetid: 8a68fc3f-118c-447b-856c-05417ae4ef29
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Direct3D 9 supports points, lines, triangles, and grid primitives.
 ms.assetid: 474e8bee-336d-491f-afa0-f0186a8d19c7
 title: Higher-Order Primitives (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: User Security Attributes
 description: In addition to naming properties for user objects, for example, objectGUID, objectSid, cn, distinguishedName, and so on, there are other security properties used for logon, network access, and access control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eeb16938-4380-4622-804f-6b2ff19aa68d
 ms.tgt_platform: multiple
 keywords:
 - Security Attributes, Using AD
 - User Security Attributes AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

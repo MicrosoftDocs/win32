@@ -2,7 +2,6 @@
 Description: Specifies whether topologies have a global start and stop time.
 ms.assetid: 6810a22c-f091-423c-97dd-c04fdabdb9bb
 title: MF_SESSION_GLOBAL_TIME attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

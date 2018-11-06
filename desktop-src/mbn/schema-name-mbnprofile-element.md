@@ -2,7 +2,6 @@
 Description: Identifies the name of the profile.
 ms.assetid: bc84813f-f25a-456c-9093-13aee31c8e3a
 title: Name (MBNProfile) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

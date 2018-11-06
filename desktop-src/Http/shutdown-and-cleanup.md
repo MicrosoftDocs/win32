@@ -2,7 +2,6 @@
 title: Shutdown and Cleanup
 description: For an application to terminate gracefully, it must perform the following cleanup operations.
 ms.assetid: fc07adb8-103c-42d8-8187-3f5ee083c6d8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

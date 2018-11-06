@@ -1,14 +1,8 @@
 ---
 Description: Represents a job created with the AT command.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2fa69e3f-9a6c-4aa9-8a6c-ea28eb4342ca
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ScheduledJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -15,7 +15,6 @@ keywords:
 - desktop applications,DRM-protected content
 - creating Windows Media Device Manager applications,DRM-protected content
 - DRM-protected content
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Explains built-in and account domains on Windows-based systems.
 ms.assetid: 306c258b-950e-4506-99e2-67a3714285ff
 title: Built-in and Account Domains
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

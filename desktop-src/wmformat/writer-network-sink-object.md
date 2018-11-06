@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),writer network sink objects
 - objects,writer network sink objects
 - writer network sink objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

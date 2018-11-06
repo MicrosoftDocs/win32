@@ -1,9 +1,6 @@
 ---
 title: ms-ieee-80211-Policy class
 description: Class to store Wireless Network Policy Object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8f5d3154-14f8-4faf-8e95-4e620275fb3d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-ieee-80211-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

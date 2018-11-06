@@ -1,12 +1,8 @@
 ---
 Description: Meta qualifiers refine the definition of meta-constructs in the CIM model by clarifying the actual usage of a class or property declaration within the MOF syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3674a051-3756-4d09-a70e-46a57b442104
 ms.tgt_platform: multiple
 title: Meta Qualifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

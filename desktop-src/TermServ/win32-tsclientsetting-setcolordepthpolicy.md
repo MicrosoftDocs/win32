@@ -1,9 +1,6 @@
 ---
 title: SetColorDepthPolicy method of the Win32_TSClientSetting class
 description: The SetColorDepthPolicy method sets the ColorDepthPolicy property for the class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7a8c2b51-5f7a-4188-aae0-0b2d47d043bd
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

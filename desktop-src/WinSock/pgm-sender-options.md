@@ -2,7 +2,6 @@
 Description: PGM senders are provided with certain default settings that affect the performance of data transmission, and how long data is buffered to account for packet loss and associated PGM client retransmission requests.
 ms.assetid: 56b15eac-ea0d-4d18-b5f6-2f1a7b1bb25f
 title: PGM Sender Options
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: bd85ae42-5130-474a-8898-e12bb72c4eae
 title: Computer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

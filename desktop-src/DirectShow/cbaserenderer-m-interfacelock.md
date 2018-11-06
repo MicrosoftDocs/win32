@@ -2,7 +2,6 @@
 Description: Filter-state lock.
 ms.assetid: ff29d6b1-ff65-4ee9-b64e-6067a06671f4
 title: CBaseRenderer::m_InterfaceLock member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

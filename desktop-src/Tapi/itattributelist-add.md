@@ -2,7 +2,6 @@
 Description: The Add method adds the attribute at the specified index.
 ms.assetid: 5b74c177-bf5c-4547-bebb-034a9a10be13
 title: ITAttributeList::Add method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

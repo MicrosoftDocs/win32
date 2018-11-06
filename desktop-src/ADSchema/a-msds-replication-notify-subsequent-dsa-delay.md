@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Replication-Notify-Subsequent-DSA-Delay attribute
 description: This attribute controls the delay in time between notification of each subsequent replica partner for an NC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6bd9fed7-2003-4156-b1a0-da8622dc2ca8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Replication-Notify-Subsequent-DSA-Delay
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

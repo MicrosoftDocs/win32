@@ -2,7 +2,6 @@
 Description: Evolution of MUI Support across Windows Versions
 ms.assetid: a3bda96e-6a54-41b3-88d3-9da88d7c0416
 title: Evolution of MUI Support across Windows Versions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

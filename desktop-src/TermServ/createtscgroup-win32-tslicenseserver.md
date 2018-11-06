@@ -1,9 +1,6 @@
 ---
 title: CreateTSCGroup method of the Win32_TSLicenseServer class
 description: CreateTSCGroup is no longer available for use as of Windows Server 2012.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 31751da7-263b-4911-a328-246457a606f0
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

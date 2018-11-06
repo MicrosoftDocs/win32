@@ -1,14 +1,10 @@
 ---
 title: Binding to an ADSI Object
 description: Connecting to an object in a directory service is known as binding.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f3963019-9b3a-42d5-a978-484f294110e5
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,binding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

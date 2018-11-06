@@ -1,9 +1,6 @@
 ---
 title: Domain-Wide-Policy attribute
 description: This is for user extensible policy to be replicated to the clients.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 930a2733-31c4-45de-a611-437e3d61d304
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-Wide-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

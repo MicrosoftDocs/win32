@@ -1,15 +1,11 @@
 ---
 title: Early Binding Support
 description: The following code example presents a scenario with early binding support in place.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3ca955cc-a9cd-4309-8617-89fe50b65c3d
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI , early binding support
 - binding AD , early binding support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

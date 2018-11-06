@@ -2,7 +2,6 @@
 Description: A requester should select a specific provider only if it has some information about the providers available.
 ms.assetid: 1a3bc938-2754-4fa2-bd7f-e9b3e876bf6c
 title: Selecting Providers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

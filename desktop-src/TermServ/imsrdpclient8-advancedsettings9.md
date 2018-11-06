@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient8 AdvancedSettings9 property
 description: Contains an object that supports the IMsRdpClientAdvancedSettings8 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eb7bf118-15e7-4a11-91b1-e48f18afb436
 ms.tgt_platform: multiple
 keywords:
@@ -27,7 +24,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section describes the structures that are used with the MXDC\_ESCAPE function and the Microsoft XPS Document Converter (MXDC).
 ms.assetid: 102dc056-7f65-47d4-8bcd-3b11608bdb9c
 title: MXDC Escape Code Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

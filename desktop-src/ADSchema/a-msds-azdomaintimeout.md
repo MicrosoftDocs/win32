@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Domain-Timeout attribute
 description: Time, in milliseconds, after a domain is detected to be unreachable and before the DC is tried again.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b2523faa-7cf1-4325-a3fa-70c5f568adaa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Domain-Timeout
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

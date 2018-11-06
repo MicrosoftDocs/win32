@@ -2,7 +2,6 @@
 Description: Overview of DXVA 2 and its relation to DXVA 1.
 ms.assetid: 190ed399-a8a8-4087-8d18-b1a715690e4c
 title: About DXVA 2.0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

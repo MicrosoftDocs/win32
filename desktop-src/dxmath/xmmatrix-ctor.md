@@ -2,7 +2,6 @@
 Description: Constructs instances of the XMMATRIX structure.
 ms.assetid: 5efe5362-fb5a-46ff-b421-887f654a464f
 title: XMMATRIX constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

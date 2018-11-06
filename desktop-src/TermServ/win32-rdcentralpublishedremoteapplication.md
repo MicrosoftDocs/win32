@@ -1,9 +1,6 @@
 ---
 title: Win32_RDCentralPublishedRemoteApplication class
 description: Describes an application published on another computer, for remote use through Terminal Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8605bd1e-e825-4fd9-b14f-9d3bdac489f1
 ms.tgt_platform: multiple
 keywords:
@@ -34,7 +31,6 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

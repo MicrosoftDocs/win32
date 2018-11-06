@@ -11,7 +11,6 @@ keywords:
 - registry,settings for Windows Media Player
 - schemes
 - custom scheme registry settings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

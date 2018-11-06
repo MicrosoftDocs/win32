@@ -2,7 +2,6 @@
 Description: Contains information used in creating a tablet context.
 ms.assetid: 10466c23-f4cb-4205-886b-d85a2f530afe
 title: TABLET_CONTEXT_SETTINGS structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

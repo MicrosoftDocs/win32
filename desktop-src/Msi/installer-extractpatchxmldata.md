@@ -2,7 +2,6 @@
 Description: The ExtractPatchXMLData method of the Installer object extracts information from a patch as an XML string. The information can be used to determine whether the patch applies on a target system. This method calls MsiExtractPatchXMLData.
 ms.assetid: 85940940-2002-4cb1-8e29-ba2374bf3796
 title: Installer.ExtractPatchXMLData method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

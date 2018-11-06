@@ -1,9 +1,6 @@
 ---
 title: ms-DS-User-Account-Disabled attribute
 description: Indicates whether an account is disabled or enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5d6ced7b-ca0f-4afa-b394-e61e80454f3d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-User-Account-Disabled
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

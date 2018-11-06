@@ -1,9 +1,6 @@
 ---
 title: LDAP-Display-Name attribute
 description: The name used by LDAP clients, such as the ADSI LDAP provider, to read and write the attribute by using the LDAP protocol.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9cb0b2f0-16cf-4fc6-85b2-d21ff71bc477
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - LDAP-Display-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

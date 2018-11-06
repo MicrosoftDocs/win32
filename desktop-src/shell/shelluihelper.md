@@ -1,7 +1,6 @@
 ---
 Description: Implemented by the Shell to help script and Microsoft Visual Basic developers use some of the features available in the Shell. The ShellUIHelper object does not have any properties or events. Methods are provided to add items to the Shell.
 title: ShellUIHelper object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

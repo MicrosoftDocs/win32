@@ -2,7 +2,6 @@
 Description: 'The following structure is used with network DDE:'
 ms.assetid: 1cbfd363-4fe4-452a-950d-637e9b96ca16
 title: Network DDE Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

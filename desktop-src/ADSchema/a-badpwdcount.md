@@ -1,9 +1,6 @@
 ---
 title: Bad-Pwd-Count attribute
 description: The number of times the user tried to log on to the account using an incorrect password.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1161b0c1-1b28-4349-ad43-82ce68428c44
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Bad-Pwd-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

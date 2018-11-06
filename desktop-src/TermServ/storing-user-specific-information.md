@@ -1,12 +1,8 @@
 ---
 title: Storing user-specific information
 description: Applications should store user-specific information in user-specific locations, separately from global information that applies to all users.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 32bd1d24-1d2e-4c0a-acdb-0cc67f275e6e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

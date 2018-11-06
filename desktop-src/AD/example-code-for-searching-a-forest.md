@@ -1,14 +1,10 @@
 ---
 title: Example Code for Searching a Forest
 description: This topic contains example code that searches a forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 56740e95-548a-4e84-ab2e-2bb7a51b7e1e
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , searching a forest
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Active Directory Domain Services Architecture
 description: This section introduces the primary architectural components of Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6af17ae4-4f31-47dd-a764-b6e5eeafc9c4
 ms.tgt_platform: multiple
 keywords:
 - architecture of Active Directory Active Directory
 - architecture of Active Directory Domain Services Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

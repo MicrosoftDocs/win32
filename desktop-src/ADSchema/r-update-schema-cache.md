@@ -1,9 +1,6 @@
 ---
 title: Update-Schema-Cache extended right
 description: Extended right to force a schema cache update.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 92f97bb3-81c0-4d56-a184-a5f16672693b
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Update-Schema-Cache
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

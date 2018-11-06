@@ -4,7 +4,6 @@ description: ARIA Container Role (without active descendant) Tabindex Error
 ms.assetid: E3CCA500-7104-4163-927C-94EA8F1E89D8
 keywords:
 - AriaContainerWithoutActiveDescendantTabIndexErrorId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

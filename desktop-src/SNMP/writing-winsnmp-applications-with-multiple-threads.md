@@ -2,7 +2,6 @@
 title: Writing WinSNMP Applications with Multiple Threads
 description: The Microsoft WinSNMP implementation ensures that the WinSNMP operations of one process do not modify the WinSNMP settings of another process.
 ms.assetid: faa98704-f55f-4450-9f6e-d2bbbc7a50b4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

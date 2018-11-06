@@ -1,9 +1,6 @@
 ---
 title: Common-Name attribute
 description: The name that represents an object. Used to perform searches.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ebf170c4-8fed-4a87-81d6-f09e2411119d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Common-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

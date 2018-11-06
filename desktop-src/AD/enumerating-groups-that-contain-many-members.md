@@ -1,15 +1,11 @@
 ---
 title: Enumerating Groups That Contain Many Members
 description: The members of a group are stored in a multi-value attribute called member.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 78f81b09-2223-4b74-b8d5-7a97494c0324
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Groups That Contain Many Members Active Directory
 - groups Active Directory , enumerating groups with many members
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

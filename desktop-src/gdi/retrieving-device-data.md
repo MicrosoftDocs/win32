@@ -2,7 +2,6 @@
 Description: 'Applications can use the following functions to retrieve device data using a device context: GetDeviceCaps and DeviceCapabilities.'
 ms.assetid: eed6a323-b7eb-41a2-adb9-592f3f912884
 title: Retrieving Device Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Notifies an application when the font of the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: 946bee83-91af-4647-9b22-96d42466352c
 title: IMN_SETCOMPOSITIONFONT notification code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

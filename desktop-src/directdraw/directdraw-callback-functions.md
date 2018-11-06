@@ -2,7 +2,6 @@
 title: DirectDraw Callback Functions
 description: This section contains information about the following callback functions used with DirectDraw
 ms.assetid: BAFABF0D-B803-4F7C-8807-4FBA5B5AC743
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

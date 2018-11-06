@@ -1,9 +1,6 @@
 ---
 title: nisMapName attribute
 description: Contains the name of the map to which the object belongs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 14de3c56-3cf7-4c8b-ba80-8d5bb5aac419
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - nisMapName
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

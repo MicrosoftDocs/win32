@@ -2,7 +2,6 @@
 Description: Total storage capacity of the device.
 ms.assetid: 204cf253-be35-4213-ab84-45a952beffd1
 title: System.Devices.StorageCapacity
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

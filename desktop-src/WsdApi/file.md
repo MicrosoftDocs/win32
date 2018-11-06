@@ -2,7 +2,6 @@
 Description: Directs the code generator to generate a file and specifies the output file name.
 ms.assetid: d2ee6886-995f-453d-8121-f849b2d910ec
 title: file element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Occurs when the stylus leaves the physical detection range (proximity) of the tablet.
 ms.assetid: ded01278-126d-415d-9a7b-1e6fe3650a37
 title: ITabletEventSink::CursorOutOfRange method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

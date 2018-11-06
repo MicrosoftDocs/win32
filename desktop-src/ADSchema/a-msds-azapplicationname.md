@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Application-Name attribute
 description: A string that uniquely identifies an application object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 693a47f4-d3ae-4fae-8e5e-cbce41d00d45
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Application-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

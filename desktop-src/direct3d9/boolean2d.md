@@ -2,7 +2,6 @@
 Description: Defines a set of two Boolean values used in the MeshFaceWraps template to define the texture topology of an individual face.
 ms.assetid: 6d932e41-a98a-4b44-9ef2-ce981d5ccfd2
 title: Boolean2d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

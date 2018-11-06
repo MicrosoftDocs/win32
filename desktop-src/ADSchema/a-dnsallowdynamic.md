@@ -1,9 +1,6 @@
 ---
 title: Dns-Allow-Dynamic attribute
 description: The Dns-Allow-Dynamic attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a81383dd-0e5b-4423-b140-33071cf80159
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Dns-Allow-Dynamic
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

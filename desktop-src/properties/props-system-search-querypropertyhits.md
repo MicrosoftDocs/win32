@@ -2,7 +2,6 @@
 Description: Contains the list of matched properties from a query.
 ms.assetid: 4cd21925-d563-42ad-96bb-9a28d0a758a4
 title: System.Search.QueryPropertyHits
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

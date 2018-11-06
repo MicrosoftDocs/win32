@@ -2,7 +2,6 @@
 Description: The storage provider's remote Uri for this file.
 ms.assetid: fbc06a83-230d-448d-8379-8933dcacd8ee
 title: System.StorageProviderFileRemoteUri
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

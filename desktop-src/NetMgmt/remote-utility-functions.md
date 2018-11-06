@@ -2,7 +2,6 @@
 title: Remote Utility Functions
 description: The network management remote utility functions are listed following.
 ms.assetid: e925d6d1-9347-4074-a12e-175b2115e71e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

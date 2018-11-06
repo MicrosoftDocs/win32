@@ -2,7 +2,6 @@
 Description: The notion of blocking in a Windows environment has historically been a very important one.
 ms.assetid: bd2ede96-34a4-4912-b9d2-ef11d37d2292
 title: Blocking Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

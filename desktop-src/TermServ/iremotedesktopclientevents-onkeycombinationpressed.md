@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnKeyCombinationPressed method
 description: Called when special key combinations are pressed in the remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0A4EAD6C-5DA9-4ED3-BA79-92AE5AE81C9F
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

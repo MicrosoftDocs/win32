@@ -2,7 +2,6 @@
 Description: Windows Events provides a standard, centralized way for applications (and the operating system) to record important software and hardware events.
 ms.assetid: 1f28cbce-b759-4293-8af2-15f86f23228c
 title: Event Logging
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

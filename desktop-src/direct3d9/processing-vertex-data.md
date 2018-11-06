@@ -2,7 +2,6 @@
 Description: The IDirect3DDevice9 interface supports vertex processing in both software and hardware.
 ms.assetid: c1ac0382-1701-40e4-967a-d400ada96533
 title: Processing Vertex Data (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

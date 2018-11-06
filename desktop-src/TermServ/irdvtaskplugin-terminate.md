@@ -1,9 +1,6 @@
 ---
 title: IRDVTaskPlugin Terminate method
 description: Called when the task agent is being shut down.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b693a318-1da7-4207-8046-a62b7ccca471
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_name:
 - IRDVTaskPlugin.Terminate
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

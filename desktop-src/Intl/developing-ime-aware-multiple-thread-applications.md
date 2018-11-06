@@ -2,7 +2,6 @@
 Description: The IMM includes thread identification checking that determines if a calling thread is the creator of a specified input method context handle (HIMC type) or window handle (HWND type).
 ms.assetid: da55d6fe-a620-4ea7-9055-91bcd3233267
 title: Developing IME-Aware Multiple-thread Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

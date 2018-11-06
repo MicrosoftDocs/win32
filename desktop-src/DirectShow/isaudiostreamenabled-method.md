@@ -2,7 +2,6 @@
 Description: The IsAudioStreamEnabled method retrieves a value indicating whether the specified audio stream is enabled in the current title.
 ms.assetid: df6c69a7-6eb0-4662-a3aa-f3f895b42cbc
 title: IsAudioStreamEnabled Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

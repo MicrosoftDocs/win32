@@ -1,12 +1,8 @@
 ---
 title: URI Prefixes
 description: The resource URI prefix is different depending on which XML schema describes the resource.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 47c32da6-98c9-4f66-82ac-647976127cb7
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

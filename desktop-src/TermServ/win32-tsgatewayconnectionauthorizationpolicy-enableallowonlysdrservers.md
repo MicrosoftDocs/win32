@@ -1,9 +1,6 @@
 ---
 title: EnableAllowOnlySDRServers method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Used to toggle the AllowOnlySDRServers property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ec7f22bc-4e80-4ece-9567-5f405207480e
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

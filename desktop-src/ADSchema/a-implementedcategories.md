@@ -1,9 +1,6 @@
 ---
 title: Implemented-Categories attribute
 description: This attribute contains a list of component category IDs that this object implements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b6926004-cfda-4b81-a6b5-527c641019f7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Implemented-Categories
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

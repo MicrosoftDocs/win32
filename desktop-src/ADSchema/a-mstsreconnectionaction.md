@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Reconnection-Action attribute
 description: Terminal Services session Reconnection Action specifies whether to allow reconnection to a disconnected Terminal Services session from any client computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 093c2477-aed6-4736-9c8a-05aeca539cf8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Reconnection-Action
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

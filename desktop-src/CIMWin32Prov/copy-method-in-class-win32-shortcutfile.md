@@ -1,14 +1,8 @@
 ---
 Description: Copies the logical shortcut file or directory specified in the object path to the location specified by the input parameter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1c8e9eac-340b-4c37-a52e-6cfade47ccf6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Copy method of the Win32_ShortcutFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

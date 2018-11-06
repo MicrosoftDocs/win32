@@ -2,7 +2,6 @@
 Description: Heap fragmentation is a state in which available memory is broken into small, noncontiguous blocks.
 ms.assetid: d10abf82-423c-4942-b05e-55de3a5c4219
 title: Low-fragmentation Heap
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

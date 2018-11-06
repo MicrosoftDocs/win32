@@ -2,7 +2,6 @@
 Description: 'This filter decodes the following audio formats:'
 ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
 title: Microsoft MPEG-1/DD/AAC Audio Decoder
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Win32_RDMSPublishedApplication class
 description: Manages a published application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7a529f1d-1aaf-42fb-8469-92d38a7b0ffc
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -10,7 +10,6 @@ keywords:
 - Advanced Systems Format (ASF),streams
 - ASF (Advanced Systems Format),streams
 - custom arbitrary data streams
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

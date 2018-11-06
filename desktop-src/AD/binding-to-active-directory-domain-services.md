@@ -1,15 +1,11 @@
 ---
 title: Binding to Active Directory Domain Services
 description: In Active Directory Domain Services, the act of associating a programmatic object with a specific Active Directory Domain Services object is known as binding.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f48de4d4-c53a-4e40-a34e-4236c3e6cb21
 ms.tgt_platform: multiple
 keywords:
 - binding to Active Directory Domain Services Active Directory
 - Active Directory Domain Services Active Directory , binding to
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

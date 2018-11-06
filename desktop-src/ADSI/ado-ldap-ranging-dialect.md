@@ -1,14 +1,10 @@
 ---
 title: ADO LDAP Ranging Dialect
 description: When using ActiveX Directory Objects (ADO) with the LDAP dialect, the attribute and range specifier do not require quotation marks.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: adda9cf7-6588-48ee-85e2-fddbaf28807b
 ms.tgt_platform: multiple
 keywords:
 - ADO LDAP Ranging Dialect ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

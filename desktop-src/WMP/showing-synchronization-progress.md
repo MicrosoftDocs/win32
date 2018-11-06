@@ -13,7 +13,6 @@ keywords:
 - portable devices,synchronization progress
 - device synchronization,showing progress
 - synchronizing devices,showing progress
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

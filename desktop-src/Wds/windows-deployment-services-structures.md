@@ -2,7 +2,6 @@
 title: Windows Deployment Services Structures
 description: The following structures are used with Windows Deployment Services.
 ms.assetid: 2e52a6ae-cecb-45de-b777-108836ed5264
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

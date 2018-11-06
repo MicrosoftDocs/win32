@@ -1,9 +1,6 @@
 ---
 title: Serverless Binding and RootDSE
 description: If possible, do not hard-code a server name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 24cfd8ce-18e6-42f1-8bc5-2c6dee82d133
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - Serverless Binding AD
 - RootDSE AD
 - Active Directory, Using, Binding, Serverless Binding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

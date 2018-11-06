@@ -2,7 +2,6 @@
 Description: Unicode is a worldwide character-encoding standard. The system uses Unicode exclusively for character and string manipulation. For a detailed description of all aspects of Unicode, refer to The Unicode Standard.
 ms.assetid: 'ca5bcdee-ea13-4745-a565-5426c462892d'
 title: Unicode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

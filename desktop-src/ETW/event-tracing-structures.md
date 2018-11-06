@@ -2,7 +2,6 @@
 Description: The following are the event tracing structures.
 ms.assetid: 612a0101-65ef-464d-ac7b-1ce3d42fb9a9
 title: Event Tracing Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Disables frame-rate conversion in the Video Processor MFT.
 ms.assetid: 98AA7B3A-281C-427D-805E-5C4EE1EFAE21
 title: MF_XVP_DISABLE_FRC attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Media Foundation Attributes
 ms.assetid: '445fc879-3c9e-409d-8d05-ecd1ff9afc19'
 title: Media Foundation Attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

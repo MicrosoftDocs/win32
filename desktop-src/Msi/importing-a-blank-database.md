@@ -2,7 +2,6 @@
 Description: To reproduce the sample you need to copy, or create with a software tool, a Windows Installer database file.
 ms.assetid: e239bbe4-3290-40f0-9f28-0e8aa4ed23f8
 title: Importing a Blank Database
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

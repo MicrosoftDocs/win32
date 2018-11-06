@@ -9,7 +9,6 @@ keywords:
 - joysticks,buttons
 - MM_JOY1 messages
 - MM_JOY2 messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

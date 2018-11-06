@@ -2,7 +2,6 @@
 title: Enabling Extended Error Information
 description: Enabling extended error information for Remote Procedure Call (RPC).
 ms.assetid: 73b72d0a-8533-40ac-8b41-8af4d60f9631
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

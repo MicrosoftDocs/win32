@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewayDomain property
 description: Specifies or retrieves the domain name of a user that is provided to the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 792ff7c6-afeb-4a2a-86b4-7722513a08e0
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

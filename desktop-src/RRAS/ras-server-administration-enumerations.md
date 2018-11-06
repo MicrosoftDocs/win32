@@ -2,7 +2,6 @@
 title: RAS Server Administration Enumerations
 description: For Windows NT 4.0, use the following enumeration to implement RAS server administration functionality.
 ms.assetid: 1e362b2d-64f4-4bf5-b2c4-8406188d0791
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

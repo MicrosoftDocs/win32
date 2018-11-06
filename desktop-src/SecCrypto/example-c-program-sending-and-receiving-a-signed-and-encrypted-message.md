@@ -2,7 +2,6 @@
 Description: The following example signs a message using a sender's private key and encrypts the signed message using a receiver's public key.
 ms.assetid: f2863e4a-d22a-4ff0-91d8-052eeaade14e
 title: 'Example C Program: Sending and Receiving a Signed and Encrypted Message'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

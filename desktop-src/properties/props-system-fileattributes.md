@@ -2,7 +2,6 @@
 Description: The attributes of the item. These are equivalent to the values recognized in the dwFileAttributes member of the WIN32\_FIND\_DATA structure.
 ms.assetid: 55b669e6-f8e1-4b31-8265-bb0621921563
 title: System.FileAttributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

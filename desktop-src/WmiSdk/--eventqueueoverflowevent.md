@@ -1,12 +1,8 @@
 ---
 Description: Reports when an event is dropped as a result of delivery queue overflow.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7cb1ef3b-3b0a-4f72-96de-862022fd6db8
 ms.tgt_platform: multiple
 title: '__EventQueueOverflowEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

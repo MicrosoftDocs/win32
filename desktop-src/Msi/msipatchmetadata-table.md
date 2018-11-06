@@ -2,7 +2,6 @@
 Description: The MsiPatchMetadata Table contains information about a Windows Installer patch that is required to remove the patch and that is used by Add/Remove Programs.
 ms.assetid: b1c30e16-6c91-451a-8b75-7ddbcefcc092
 title: MsiPatchMetadata Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

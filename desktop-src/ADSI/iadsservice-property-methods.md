@@ -1,9 +1,6 @@
 ---
 title: IADsService Property Methods
 description: Read and write the properties described in this topic.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ff05ab0c-b4fe-4c67-8894-9ac8427ce5b8
 ms.tgt_platform: multiple
 keywords:
@@ -52,7 +49,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

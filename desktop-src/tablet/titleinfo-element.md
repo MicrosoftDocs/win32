@@ -2,7 +2,6 @@
 Description: Contains the title of the note and the date in the title, if present.
 ms.assetid: 70f90c34-5f9b-4be5-85b9-6d2ccf9dde8c
 title: TitleInfo Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

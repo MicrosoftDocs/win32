@@ -1,9 +1,6 @@
 ---
 title: Auxiliary-Class attribute
 description: The list of auxiliary classes to be associated with this class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8c3bb822-222f-4ee2-9da7-820e29e33c9a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Auxiliary-Class
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

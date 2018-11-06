@@ -1,15 +1,11 @@
 ---
 title: Remote Desktop Web Connection
 description: Remote Desktop Web Connection is a web application consisting of an ActiveX control and a sample connection page.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f9d252b0-205a-47df-9eca-d5744c09e079
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Web Connection Remote Desktop Services
 - Remote Desktop Protocol (RDP) Remote Desktop Services , Remote Desktop Web Connection overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Deprecated. Retrieves the key in the registry that corresponds to this user identity.
 ms.assetid: eecf8b73-e86a-4274-8d9c-c601153f81db
 title: IUserIdentity::OpenIdentityRegKey method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Site-Name attribute
 description: Active Directory site to which the CA computer belongs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 62cdaa18-832d-4981-bc29-068c03dd3b09
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Site-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

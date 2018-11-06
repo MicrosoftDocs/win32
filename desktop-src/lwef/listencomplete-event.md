@@ -2,7 +2,6 @@
 title: ListenComplete Event
 description: ListenComplete Event
 ms.assetid: 29e3f424-17b4-4287-b644-ed62b80e0035
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

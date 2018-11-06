@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Nt4-Stub attribute
 description: The MSMQ-Nt4-Stub attribute contains MSMQ mixed-mode information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cdc3c811-c1e3-4501-bf59-39870bfb57e8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Nt4-Stub
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

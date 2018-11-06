@@ -11,7 +11,6 @@ keywords:
 - single timer events
 - periodic timer events
 - cancelling timer events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

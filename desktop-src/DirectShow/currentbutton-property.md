@@ -2,7 +2,6 @@
 Description: The CurrentButton property retrieves the number of the selected menu button.
 ms.assetid: bd9720bc-068a-4f29-aa2d-1c6b550f789c
 title: CurrentButton Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

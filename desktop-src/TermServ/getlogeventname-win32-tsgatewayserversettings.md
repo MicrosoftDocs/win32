@@ -1,9 +1,6 @@
 ---
 title: GetLogEventName method of the Win32_TSGatewayServerSettings class
 description: Returns the log event name for the specified log event index.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ca31ef8e-ab84-4132-a6d2-232b1e69230a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

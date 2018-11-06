@@ -2,7 +2,6 @@
 Description: An X.509 standard certificate, contains version, serial number, algorithm identifier, issuer name, valid date range, subject name, algorithm, and subject public key information, and optionally, issuer unique ID, subject unique ID, and extensions.
 ms.assetid: 91425185-2a06-4040-b83d-c42ee080d55f
 title: Certificates and CryptoAPI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

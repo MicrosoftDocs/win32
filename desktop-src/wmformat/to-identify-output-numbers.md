@@ -9,7 +9,6 @@ keywords:
 - Advanced Systems Format (ASF),output numbers and formats
 - ASF (Advanced Systems Format),output numbers and formats
 - output numbers and formats,identifying
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

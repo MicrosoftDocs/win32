@@ -2,7 +2,6 @@
 Description: The following XML schemas are used to create wired and wireless network profiles.
 ms.assetid: 0c865891-7511-43f4-a31c-4904a7700fa2
 title: Profile XML Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

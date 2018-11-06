@@ -2,7 +2,6 @@
 Description: Sets or gets the default quota threshold.
 ms.assetid: d3f23e52-586f-4cb8-b91c-44a71f8f94b2
 title: DiskQuotaControl.DefaultQuotaThreshold property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

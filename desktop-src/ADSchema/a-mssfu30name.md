@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Name attribute
 description: Contains the name of a map.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3ef9a17-b5a5-4cc3-b700-24eb56a15591
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

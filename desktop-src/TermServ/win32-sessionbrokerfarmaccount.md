@@ -1,9 +1,6 @@
 ---
 title: Win32_SessionBrokerFarmAccount class
 description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a76ade0f-cd94-438c-bc07-30dc4b4ee6c8
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

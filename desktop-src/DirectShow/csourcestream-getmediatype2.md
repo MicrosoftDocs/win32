@@ -2,7 +2,6 @@
 Description: The GetMediaType method retrieves a preferred media type.
 ms.assetid: 85605885-adb5-4f13-91af-48bf74684eca
 title: CSourceStream.GetMediaType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

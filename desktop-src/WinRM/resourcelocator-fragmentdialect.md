@@ -1,9 +1,6 @@
 ---
 title: ResourceLocator.FragmentDialect property
 description: Gets or sets the language dialect for a resource fragment dialect when ResourceLocator is used in Session object operations such as Session.Get, Session.Put, or Session.Enumerate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 60b08084-f4b9-4049-b0cd-a7420fcffd7c
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -7,7 +7,6 @@ keywords:
 - online stores,enumerations
 - type 2 online stores,enumerations
 - enumerations,type 2 online stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

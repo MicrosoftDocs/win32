@@ -5,7 +5,6 @@ ms.assetid: e93e3bf2-80a2-44ec-a067-58220cdd31b4
 keywords:
 - Routing and Remote Access Service RRAS ,IPX service table management
 - IPX service table management RRAS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

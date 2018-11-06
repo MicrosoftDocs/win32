@@ -2,7 +2,6 @@
 title: Introduction to Multithreading in Direct3D 11
 description: Multithreading is designed to improve performance by performing work using one or more threads at the same time.
 ms.assetid: b4bef1e4-8d34-455c-8aed-01af974c66c8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

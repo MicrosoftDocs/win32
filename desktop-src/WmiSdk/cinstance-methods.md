@@ -1,12 +1,8 @@
 ---
 Description: The CInstance class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B9846350-405D-440E-AC35-16446D3F03F5
 ms.tgt_platform: multiple
 title: CInstance Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

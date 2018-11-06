@@ -2,7 +2,6 @@
 title: VML TableLimits Attribute
 description: VML TableLimits Attribute
 ms.assetid: eef855de-23c5-4894-b7cf-2ea39e372e08
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

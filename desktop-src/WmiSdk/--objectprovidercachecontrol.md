@@ -1,12 +1,8 @@
 ---
 Description: Controls when a class or instance provider is unloaded.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4cbeb820-8a65-4fab-97f1-2a973b2a4310
 ms.tgt_platform: multiple
 title: '__ObjectProviderCacheControl class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

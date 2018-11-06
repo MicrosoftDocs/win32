@@ -1,12 +1,8 @@
 ---
 Description: The Item method of the SWbemNamedValueSet object gets an SWbemNamedValue object from the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ccebe65e-6032-43d5-9004-2247c3b96d6d
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.Item method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

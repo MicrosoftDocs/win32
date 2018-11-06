@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player Mobile,object model
 - migration guide,version differences
 - versions of Windows Media Player,object model
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

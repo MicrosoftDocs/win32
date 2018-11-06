@@ -2,7 +2,6 @@
 Description: Determining Whether Role-Based Security Is Enabled
 ms.assetid: b5e6ab7e-5a77-4c6f-9bec-02942bba389d
 title: Determining Whether Role-Based Security Is Enabled
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

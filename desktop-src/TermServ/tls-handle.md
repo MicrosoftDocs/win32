@@ -1,14 +1,10 @@
 ---
 title: TLS_HANDLE
 description: Represents a handle to a Remote Desktop license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6da51660-a9fd-4e49-97e3-ba0829b1bbbf
 ms.tgt_platform: multiple
 keywords:
 - TLS_HANDLE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

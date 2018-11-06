@@ -2,7 +2,6 @@
 title: dge (sm5 - asm)
 description: Component-wise double-precision greater-than-or-equal comparison.
 ms.assetid: 2E769077-E861-4EFA-817F-7D1AE998746C
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

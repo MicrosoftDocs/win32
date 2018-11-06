@@ -2,7 +2,6 @@
 title: Visual Styles Reference
 description: This section describes the following API elements used with Visual Styles.
 ms.assetid: f1d01045-a296-4b39-bd42-1262ba4ad3d2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

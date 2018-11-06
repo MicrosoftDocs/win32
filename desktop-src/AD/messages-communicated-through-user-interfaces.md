@@ -1,14 +1,10 @@
 ---
 title: Messages Communicated through User Interfaces
 description: This topic lists messages that a directory service can send from a user interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c81a3c44-c01d-4029-8a7d-6e0911d4f5ab
 ms.tgt_platform: multiple
 keywords:
 - Messages Communicated through User Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

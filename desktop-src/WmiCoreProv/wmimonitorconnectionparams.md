@@ -2,7 +2,6 @@
 Description: Contains the connection type of the monitor.
 ms.assetid: f5658246-fbb8-4530-8dfb-f1ca792fe9d5
 title: WmiMonitorConnectionParams class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

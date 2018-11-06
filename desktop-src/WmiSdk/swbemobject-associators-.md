@@ -1,12 +1,8 @@
 ---
 Description: The Associators\_ method of the SWbemObject object returns a collection of objects (classes or instances) that are associated with the current object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 79f01853-c649-4cbe-b2fa-cff38fb4b733
 ms.tgt_platform: multiple
 title: SWbemObject.Associators_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

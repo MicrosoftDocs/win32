@@ -2,7 +2,6 @@
 title: umul (sm4 - asm)
 description: Unsigned integer multiply.
 ms.assetid: C84AF349-32E6-40C4-9973-BCFA73EFBF0B
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

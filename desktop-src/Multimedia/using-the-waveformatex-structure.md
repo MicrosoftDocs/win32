@@ -7,7 +7,6 @@ keywords:
 - auxiliary audio,WAVEFORMATEX structure
 - WAVEFORMATEX structure
 - PCM audio data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

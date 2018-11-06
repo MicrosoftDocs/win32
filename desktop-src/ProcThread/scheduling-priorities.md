@@ -2,7 +2,6 @@
 Description: Threads are scheduled to run based on their scheduling priority.
 ms.assetid: 8710cd56-6bf3-4317-a1f6-1a159394ce2a
 title: Scheduling Priorities
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

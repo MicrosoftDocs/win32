@@ -1,12 +1,8 @@
 ---
 Description: The SWbemNamedValue object exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B28DCF3B-D96D-44DF-A6D1-55156BEB15AB
 ms.tgt_platform: multiple
 title: SWbemNamedValue Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

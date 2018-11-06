@@ -6,7 +6,6 @@ keywords:
 - video compression manager (VCM),input format
 - VCM (video compression manager),input format
 - ICDrawQuery macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

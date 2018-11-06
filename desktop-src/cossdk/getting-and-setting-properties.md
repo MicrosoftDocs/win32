@@ -2,7 +2,6 @@
 Description: Getting and Setting Properties
 ms.assetid: 259612e7-70df-4f0f-90bc-766008dfdce7
 title: Getting and Setting Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

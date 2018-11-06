@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Class-ID attribute
 description: A class ID required by the AzRoles UI on the AzApplication object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cbbdc898-82b2-410e-8c9d-ae4f9641ac1a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Class-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

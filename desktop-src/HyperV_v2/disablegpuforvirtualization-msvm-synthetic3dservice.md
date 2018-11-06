@@ -2,7 +2,6 @@
 Description: Disables a physical GPU for virtualization.
 ms.assetid: 280a3c25-7b8f-4113-bf35-171d15f4aea7
 title: DisableGPUForVirtualization method of the Msvm_Synthetic3DService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

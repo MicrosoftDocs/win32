@@ -2,7 +2,6 @@
 Description: Queries the status of the most recent rendering operation to the specified surface.
 ms.assetid: bc7f8f84-119e-4c09-87f5-6b122e9f9821
 title: NtGdiDdQueryMoCompStatus function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

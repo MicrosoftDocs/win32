@@ -2,7 +2,6 @@
 Description: This topic lists the methods of the Effect class. For a complete class listing, see Effect.
 ms.assetid: e9ae4589-700d-4277-81b4-73f6b7023852
 title: Effect Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Internet Connection Sharing
 description: BITS can force a dial-up connection for home networks that use Microsoft Internet Connection Sharing if Connection Sharing is configured to dial out when computers on the network access the Internet.
 ms.assetid: a0a05ddb-6ce4-4cf5-8953-cb7122702d17
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

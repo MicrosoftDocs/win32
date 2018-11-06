@@ -2,7 +2,6 @@
 Description: ICE69 checks that all substrings of the form \[$componentkey\] within a formatted string do not cross-reference components.
 ms.assetid: 6ab8f3b7-19e9-46f3-b09e-36bdb43d6f55
 title: ICE69
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

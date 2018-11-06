@@ -1,9 +1,6 @@
 ---
 title: RemoveProgram method of the Win32_TSVirtualIP class
 description: Removes a program from the list of programs that use IP virtualization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2a8069a0-2c48-40d3-a850-0cdfce4fbc82
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

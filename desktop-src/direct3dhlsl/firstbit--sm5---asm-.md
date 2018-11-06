@@ -2,7 +2,6 @@
 title: firstbit (sm5 - asm)
 description: Finds the first bit set in a number, either from LSB or MSB.
 ms.assetid: E3066676-5218-470A-944A-7B221E1BF64D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

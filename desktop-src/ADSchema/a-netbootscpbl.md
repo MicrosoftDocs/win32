@@ -1,9 +1,6 @@
 ---
 title: netboot-SCP-BL attribute
 description: A list of service connection points that reference this NetBoot server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 65e7b762-ed7b-4edd-882f-df9b8f094c67
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-SCP-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

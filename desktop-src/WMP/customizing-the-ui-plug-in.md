@@ -7,7 +7,6 @@ keywords:
 - plug-ins,customizing
 - user interface plug-ins,customizing
 - UI plug-ins,customizing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Site-Affinity attribute
 description: The ms-DS-Site-Affinity attribute is used by the Security Accounts Manager for group expansion during token evaluation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c05df70a-adbb-48e0-bdcd-c1d83a2e43bd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Site-Affinity
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

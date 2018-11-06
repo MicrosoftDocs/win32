@@ -4,7 +4,6 @@ description: There are a number of interfaces for the two basic types of resourc
 ms.assetid: 8e40573a-b186-41ec-b2ff-81279d77bd3a
 keywords:
 - interfaces, Direct3D 11 Resource
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

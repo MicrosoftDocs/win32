@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings2 MaxReconnectAttempts property
 description: Specifies the number of times to try to reconnect during automatic reconnection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 24bfd3b6-d2de-4e46-8b5f-a4702c18a93c
 ms.tgt_platform: multiple
 keywords:
@@ -50,7 +47,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

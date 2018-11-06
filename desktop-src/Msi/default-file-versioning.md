@@ -2,7 +2,6 @@
 Description: The flow diagrams in the following sections illustrate the default file versioning rules used when the key file of a component being installed has the same name as a file already installed in the target location.
 ms.assetid: a09e091c-ee82-4951-b129-d1d4c8948883
 title: Default File Versioning
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

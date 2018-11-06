@@ -2,7 +2,6 @@
 Description: Transitions
 ms.assetid: '432db77f-c3fa-4234-bbce-cf17d8878b99'
 title: Transitions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

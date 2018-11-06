@@ -1,14 +1,8 @@
 ---
 Description: Uncompresses the logical device file (or directory) specified in the object path. This method is an extended version of the Uncompress method. This method is inherited from CIM\_LogicalFile.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dfa53b75-56ef-4119-83b9-08b4371762c6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: UncompressEx method of the CIM_DeviceFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **UncompressEx** method uncompresses the logical device file (or directory) specified in the object path. This method is an extended version of the [**Uncompress**](uncompress-method-in-class-cim-devicefile.md) method. This method is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

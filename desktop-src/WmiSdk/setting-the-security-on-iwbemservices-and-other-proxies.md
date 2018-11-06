@@ -1,12 +1,8 @@
 ---
 Description: While in C++ you can set the security on the entire process by calling CoInitializeSecurity before connecting to WMI through IWbemLocator::ConnectServer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 83c04a96-3829-4c07-91a7-06e5b75b2c12
 ms.tgt_platform: multiple
 title: Setting the Security on IWbemServices and Other Proxies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

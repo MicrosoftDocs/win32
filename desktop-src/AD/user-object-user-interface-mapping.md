@@ -1,15 +1,11 @@
 ---
 title: User Object User Interface Mapping
 description: The following tables identify the property pages supplied by the Active Directory Users and Computers snap-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f309c139-c957-40c4-b369-f527aa87157c
 ms.tgt_platform: multiple
 keywords:
 - User Object User Interface Mapping AD
 - User Interface Mapping AD , User Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

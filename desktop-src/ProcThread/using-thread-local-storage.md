@@ -2,7 +2,6 @@
 Description: Thread local storage (TLS) enables multiple threads of the same process to use an index allocated by the TlsAlloc function to store and retrieve a value that is local to the thread.
 ms.assetid: b7f5a206-a827-4b6b-86f6-5e3aea1246b7
 title: Using Thread Local Storage
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

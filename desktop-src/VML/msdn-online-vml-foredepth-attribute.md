@@ -2,7 +2,6 @@
 title: VML ForeDepth Attribute
 description: VML ForeDepth Attribute
 ms.assetid: 6668a2ed-a751-4f92-8151-b098c93f8a50
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

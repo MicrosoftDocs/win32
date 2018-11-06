@@ -1,16 +1,12 @@
 ---
 title: Accessing Attributes With the IDirectoryObject Interface
 description: The IDirectoryObject interface provides a client application written in C and C++ with direct access to directory service objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 006be48e-222f-4f77-ac91-58830f2b7363
 ms.tgt_platform: multiple
 keywords:
 - Accessing Attributes With the IDirectoryObject Interface ADSI
 - IDirectoryObject ADSI , accessing attributes with
 - ADSI ADSI , using, using the IDirectoryObject interface for accessing attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

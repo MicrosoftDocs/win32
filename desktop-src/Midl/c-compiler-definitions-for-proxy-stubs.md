@@ -4,7 +4,6 @@ description: The header file Rpcproxy.h includes the following macro definitions
 ms.assetid: 697f0b63-76ae-410d-8bbf-bb95295ffba9
 keywords:
 - MIDL compiler MIDL , C-compiler, definitions for proxy/stubs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

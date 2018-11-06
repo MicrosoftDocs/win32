@@ -1,12 +1,8 @@
 ---
 title: IMsRdpClientSecuredSettings Properties
 description: The IMsRdpClientSecuredSettings interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 44A6F10D-6D54-43EA-B8C5-10EE1A5258D0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

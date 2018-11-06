@@ -2,7 +2,6 @@
 Description: You can opt a computer in to the Microsoft Update service and then register that service with Automatic Updates.
 ms.assetid: d6f3d8ca-3b7e-409c-87b6-db247b7b68e4
 title: Opt-In to Microsoft Update
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -19,7 +18,7 @@ Before you attempt to run this sample, verify that the version of WUA that is in
 
 The following scripting sample shows you how to use the Windows Update Agent (WUA) to register the Microsoft Update service with Automatic Updates. The sample allows deferred or offline processing if needed.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This script is intended to demonstrate the use of the Windows Update Agent APIs, and provide an example of how developers can use these APIs to solve problems. This script is not intended as production code, and the script itself is not supported by Microsoft (though the underlying Windows Update Agent APIs are supported).
 
  

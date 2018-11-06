@@ -2,7 +2,6 @@
 Description: 'The following topic contains details on using the GetLastError and FormatMessage functions: Retrieving the Last-Error Code'
 ms.assetid: e313180b-fd3f-4a72-a8ef-29a28ff7125b
 title: Using Error Handling
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

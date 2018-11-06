@@ -4,7 +4,6 @@ description: Contains the number of methods in the associated interface, includi
 ms.assetid: b4b22899-f1b2-4c34-be56-f1bd10b8d7b2
 keywords:
 - NumMethods registry value COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

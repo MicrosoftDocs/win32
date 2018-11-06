@@ -24,7 +24,6 @@ keywords:
 - IManipulationProcessor interface,sample code
 - IInertiaProcessor interface,code samples
 - IInertiaProcessor interface,sample code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

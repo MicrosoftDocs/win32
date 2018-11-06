@@ -1,9 +1,6 @@
 ---
 title: ms-ieee-80211-Data-Type attribute
 description: Internally used data type for msieee80211-Data BLOB.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0718260b-2630-488b-a372-b43eff5d30f2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-ieee-80211-Data-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

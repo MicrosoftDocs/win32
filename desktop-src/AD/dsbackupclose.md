@@ -1,9 +1,6 @@
 ---
 title: DsBackupClose function
 description: Closes a backup file opened with the DsBackupOpenFile function.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5452a222-abe8-4d2d-84ff-6f577073b220
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

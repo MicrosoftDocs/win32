@@ -2,7 +2,6 @@
 title: Allocating WinSNMP Memory Objects
 description: Descriptors, resource handles and C-style strings are the three types of memory objects in the WinSNMP programming environment.
 ms.assetid: 7f51f02b-7c9f-4aa0-b0cf-83551a312e83
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

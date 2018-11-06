@@ -2,7 +2,6 @@
 Description: Sets or retrieves the signer's certificate option.
 ms.assetid: 2362b9d4-d4d8-46fb-8791-7e856827fb31
 title: Signer.Options property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

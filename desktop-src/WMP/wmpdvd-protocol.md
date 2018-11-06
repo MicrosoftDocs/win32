@@ -13,7 +13,6 @@ keywords:
 - protocols,Windows Media Player object model
 - protocols,WMPDVD
 - WMPDVD protocol
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

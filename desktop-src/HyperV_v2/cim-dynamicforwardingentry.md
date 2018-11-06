@@ -2,7 +2,6 @@
 Description: Represents an entry in the forwarding database associated with the CIM\_TransparentBridgingService class.
 ms.assetid: 4c3afe7c-f7e5-4a83-8ba1-f0b1909cee52
 title: CIM_DynamicForwardingEntry class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

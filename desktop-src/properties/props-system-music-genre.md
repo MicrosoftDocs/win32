@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: c1adbc13-5069-4760-901c-d5ca47913695
 title: System.Music.Genre
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

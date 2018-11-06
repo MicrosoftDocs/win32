@@ -1,9 +1,6 @@
 ---
 title: Session.Create method
 description: Creates a new instance of a resource and returns the endpoint reference (EPR) of the new object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7629dfff-6c66-4b09-81a4-b1458ff977fa
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies the rate-control mode for an H.264 video stream.
 ms.assetid: EA8EFEFA-9292-4D7B-BF5D-DE5239BB1D2C
 title: MF_MT_H264_RATE_CONTROL_MODES attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

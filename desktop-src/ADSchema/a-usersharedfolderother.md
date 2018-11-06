@@ -1,9 +1,6 @@
 ---
 title: User-Shared-Folder-Other attribute
 description: Specifies a UNC path to the user's additional shared documents folder. The path must be a network UNC path of the form \\\\Server\\Share\\Directory. This value can be a null string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d546cda-b2c1-46a6-a3cf-a7c78ddb1422
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User-Shared-Folder-Other
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

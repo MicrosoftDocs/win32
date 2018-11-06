@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: a05357c0-6a82-42ff-b4f8-d3e0ee089055
 title: PageMirrorImage
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: COM's compound file implementation of IRootStorage allows you to su
 ms.assetid: 0847929e-63ce-42f9-9d47-2e7222e003bb
 keywords:
 - IRootStorage Strctd Stg ,compound file implementation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

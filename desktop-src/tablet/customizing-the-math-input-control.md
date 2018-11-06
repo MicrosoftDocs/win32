@@ -2,7 +2,6 @@
 Description: Explains how to change the appearance of the math input control.
 ms.assetid: 922562be-4d5b-45b6-ad0b-49176f893c8e
 title: Customizing the Math Input Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_OperatingSystemQFE association WMI class relates an operating system and the product updates applied as represented in Win32\_QuickFixEngineering.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 71985759-7e45-44df-82a9-f9a93e3b923e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_OperatingSystemQFE class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

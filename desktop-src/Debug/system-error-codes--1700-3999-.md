@@ -2,7 +2,6 @@
 Description: The System Error Codes are very broad.
 ms.assetid: 7e57c087-53e4-443d-9227-21d9eb3cc71f
 title: System Error Codes (1700-3999)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

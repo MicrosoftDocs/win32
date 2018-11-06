@@ -4,7 +4,6 @@ description: The Restart Manager API uses the functions identified in the follow
 ms.assetid: 'ed39695a-1eb6-42fe-87a0-bd690bbce028'
 keywords:
 - Restart Manager Restart Mgr , reference, functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

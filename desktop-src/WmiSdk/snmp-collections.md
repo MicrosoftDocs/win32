@@ -1,12 +1,8 @@
 ---
 Description: An SNMP collection maps to a CIM class and the elements of a collection map to the properties of a CIM class. All generated CIM class definitions must be derived from the SnmpObjectType class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e6f82fd6-e3d8-48c5-8c7b-a30a2d502f41
 ms.tgt_platform: multiple
 title: SNMP Collections
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

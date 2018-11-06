@@ -1,14 +1,8 @@
 ---
 Description: Reset the active configuration of the collector from the later backup file (determined by going forward from the current original timestamp). If the configuration has been undone, this means redoing the undone change.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bd153ea3-9148-4e65-a44e-3f9fa1855f2f
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Redo method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

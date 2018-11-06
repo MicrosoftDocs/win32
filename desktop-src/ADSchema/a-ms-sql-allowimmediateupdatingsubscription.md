@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-AllowImmediateUpdatingSubscription attribute
 description: True if the publication allows synchronized transaction updating subscriptions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7efa4b8f-77ad-4f68-9852-7dac9f922d95
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-AllowImmediateUpdatingSubscription
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

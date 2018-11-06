@@ -2,7 +2,6 @@
 Description: Describes status for a wide area network (WWAN) interface.
 ms.assetid: C4BFF2BA-BFBB-46C8-AF94-F7BF5FC6A8C5
 title: WWAN_INTERFACE_STATUS structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

@@ -11,7 +11,6 @@ keywords:
 - DC (device context)
 - DrawDibOpen function
 - DrawDibClose function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

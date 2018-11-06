@@ -2,7 +2,6 @@
 Description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
 title: StopTrace function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

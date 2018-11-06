@@ -4,7 +4,6 @@ description: An opaque type used to reference a set of metadata documents.
 ms.assetid: aa7383a1-60fa-448a-b0c6-b9c49d9d5070
 keywords:
 - WS_METADATA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

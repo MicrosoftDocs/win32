@@ -2,7 +2,6 @@
 Description: Media Stream uses this event to send protection system specific metadata to the decoder.
 ms.assetid: 249446CA-AEF7-41A1-98EB-0B9392AE4AD8
 title: MEContentProtectionMetadata event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

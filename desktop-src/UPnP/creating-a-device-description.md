@@ -2,7 +2,6 @@
 title: Creating a Device Description
 description: A UPnP-based device description is an XML document that describes the properties of a device and the hierarchy of nested devices within it.
 ms.assetid: b2a7d342-958c-439d-8b17-b4fdc5fbad12
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -31,7 +30,7 @@ The elements of a device description that the developer of a hosted device must 
 
  
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Do not add comments to your device description document as it may cause registration failures when the Universal Plug and Play Device Host attempts to parse the document.
 
  

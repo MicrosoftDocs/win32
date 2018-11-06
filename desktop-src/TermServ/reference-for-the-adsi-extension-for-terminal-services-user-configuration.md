@@ -1,15 +1,11 @@
 ---
 title: Reference for the ADSI Extension for Remote Desktop Services User Configuration
 description: Property methods that you can use to examine and configure Remote Desktop Services user properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7c8b654d-5899-4f4d-8341-92e0650e403b
 ms.tgt_platform: multiple
 keywords:
 - IADsTSUserEx class Remote Desktop Services
 - Remote Desktop Services Remote Desktop Services , IADsTSUserEx class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

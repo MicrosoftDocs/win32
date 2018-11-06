@@ -2,7 +2,6 @@
 title: Status Bar Reference
 description: .
 ms.assetid: dc07bcf2-cb43-440c-a163-71b77b7ee2c0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

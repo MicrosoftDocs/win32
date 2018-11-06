@@ -2,7 +2,6 @@
 title: HTTP Completion Routines
 description: Applications have several options for receiving completion indications and providing some flexibility for developers.
 ms.assetid: c48a64d2-b6c8-4694-8600-f84751954bad
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

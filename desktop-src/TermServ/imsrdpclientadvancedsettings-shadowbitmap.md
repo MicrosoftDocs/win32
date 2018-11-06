@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings ShadowBitmap property
 description: Specifies if shadow bitmaps should be used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b329e367-7579-466d-877a-16253f85e5a2
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

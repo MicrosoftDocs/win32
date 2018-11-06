@@ -1,9 +1,6 @@
 ---
 title: Index-Server-Catalog class
 description: This class holds the information for an Index Server catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 92443e27-f44d-4491-897a-5fbe8ebb905f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Index-Server-Catalog
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

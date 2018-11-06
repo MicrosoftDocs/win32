@@ -13,7 +13,6 @@ keywords:
 - input and output (I/O),seeking new position in files
 - I/O (input and output),seeking new position in files
 - seeking new position in I/O files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

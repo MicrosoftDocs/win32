@@ -2,7 +2,6 @@
 Description: This section contains an alphabetic listing of the TAPI line device constants.
 ms.assetid: 422643a6-90a5-4e95-b5aa-946b7fbf53bc
 title: Line Device Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

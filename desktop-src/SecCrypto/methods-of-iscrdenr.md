@@ -2,7 +2,6 @@
 Description: The methods introduced by ISCrdEnr are listed in the following table.
 ms.assetid: 471d47c9-8d5a-41f0-9dd1-b6cf1631fed1
 title: Methods of ISCrdEnr
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

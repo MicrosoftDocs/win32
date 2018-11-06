@@ -1,9 +1,6 @@
 ---
 title: SetCurrentRedirectableAddresses method of the Win32_TSSessionDirectory class
 description: Sets the configured list of DNS eligible addresses that can be used for redirection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cad6a8a8-fdf1-406e-abeb-37acb396ac16
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

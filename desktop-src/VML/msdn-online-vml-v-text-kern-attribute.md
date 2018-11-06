@@ -2,7 +2,6 @@
 title: VML V-Text-Kern Attribute
 description: VML V-Text-Kern Attribute
 ms.assetid: cece49c3-8e62-4327-8949-684a1d073293
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

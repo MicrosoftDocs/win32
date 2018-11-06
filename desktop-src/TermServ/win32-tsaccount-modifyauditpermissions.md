@@ -1,9 +1,6 @@
 ---
 title: ModifyAuditPermissions method of the Win32_TSAccount class
 description: Prepares to set a more granular set of audit permissions to the specified account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7df44a37-257d-49c6-8193-f1e1c5ebbb57
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The IEnumWbemClassObject interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B94DB2BC-4D77-4EC9-84A4-6D3C231FCC5D
 ms.tgt_platform: multiple
 title: IEnumWbemClassObject Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The InkOverlay object can be attached to a window control and is used to enable basic ink capability.
 ms.assetid: c15d80dc-0cbf-48a2-9f5d-d94d521b1a8c
 title: Erasing by Using the InkOverlay Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

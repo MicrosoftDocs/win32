@@ -1,9 +1,6 @@
 ---
 title: departmentNumber attribute
 description: Identifies a department within an organization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c0189634-53fa-41bb-af6b-e0fa1fce944d
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - departmentNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

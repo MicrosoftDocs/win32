@@ -2,7 +2,6 @@
 Description: The following table lists all the HRESULT values that can be returned by the methods of the XPS Document API.
 ms.assetid: 9e6db1e3-7151-4538-8607-b7185ebc0110
 title: XPS Document Errors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

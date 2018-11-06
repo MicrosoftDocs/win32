@@ -1,9 +1,6 @@
 ---
 title: Search-Guide attribute
 description: Specifies information of suggested search criteria, which may be included in some entries that are expected to be a convenient base-object for the search operation, for example, country/region or organization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 69823ef3-efa8-4732-bbec-27ed8fec81cc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Search-Guide
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

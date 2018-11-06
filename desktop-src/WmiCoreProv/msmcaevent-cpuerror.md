@@ -2,7 +2,6 @@
 Description: Represents a CPU error event. This class is available only in 64-bit Windows systems.
 ms.assetid: 4ee4aa51-a965-4569-b53c-0ba21bf42752
 title: MSMCAEvent_CPUError class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

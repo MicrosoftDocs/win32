@@ -1,9 +1,6 @@
 ---
 title: Print-Max-X-Extent attribute
 description: The maximum horizontal print region.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 30603eb3-7406-4916-a273-72bc46676222
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Max-X-Extent
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

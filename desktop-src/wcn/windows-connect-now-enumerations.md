@@ -2,7 +2,6 @@
 title: Windows Connect Now Enumerations
 description: Windows Connect Now defines the following enumeration types.
 ms.assetid: 6ef37f4c-f4f1-4f02-ad73-031d9ce163f2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

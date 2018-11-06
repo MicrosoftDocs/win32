@@ -2,7 +2,6 @@
 Description: Exports information that may help salvage encrypted data when the drive is severely damaged and no data backup files exist.
 ms.assetid: 3d376a02-3392-433e-b842-24c73074610c
 title: GetKeyPackage method of the Win32_EncryptableVolume class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -22,7 +21,7 @@ The **GetKeyPackage** method of the [**Win32\_EncryptableVolume**](win32-encrypt
 
 The exported information consists of the volume's encryption key secured by a key protector of the type "Numerical Password" or "External Key". To make use of this package, you must also save the corresponding numerical password or external key.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If you choose to export a key package, make certain to keep this information in a well-protected location. Do not carry this information with your computer. If this key package is lost or stolen, you will need to decrypt the volume and reencrypt it by using a new key.
 
  

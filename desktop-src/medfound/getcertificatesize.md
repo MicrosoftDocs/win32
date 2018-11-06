@@ -2,7 +2,6 @@
 Description: Gets the size of a certificate for a display driver.
 ms.assetid: fd52e939-127a-4493-8406-31f7767921cd
 title: GetCertificateSize function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # GetCertificateSize function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This function is used by [Output Protection Manager](output-protection-manager.md) (OPM) to access functionality in the display driver. Applications should not call this function.
 
  

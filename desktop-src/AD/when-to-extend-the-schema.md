@@ -1,15 +1,11 @@
 ---
 title: When to Extend the Schema
 description: Extend the schema only if no existing object class fulfills the requirements of your application. Extending the schema is a complex operation; schema changes are replicated to every domain controller in the enterprise forest. Consider this carefully.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 92231f31-d2af-4c3b-981e-e55cc478899d
 ms.tgt_platform: multiple
 keywords:
 - When to Extend the Schema AD
 - schema AD , when to extend
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

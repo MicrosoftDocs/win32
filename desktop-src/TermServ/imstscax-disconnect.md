@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx Disconnect method
 description: Disconnects the active connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9fcffd45-b293-4650-be8f-1b0d01d592a2
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

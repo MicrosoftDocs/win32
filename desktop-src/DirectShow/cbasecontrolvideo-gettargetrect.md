@@ -2,7 +2,6 @@
 Description: The GetTargetRect method retrieves the destination rectangle. This is an internal helper member function.
 ms.assetid: bf9d95c9-eee8-46b8-bdee-a7d16777ed83
 title: CBaseControlVideo.GetTargetRect method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

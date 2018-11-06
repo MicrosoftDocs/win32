@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceV2 DeviceText property
 description: Contains the device text.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2a67e8d4-2af3-4738-ade2-a79800aea4a1
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

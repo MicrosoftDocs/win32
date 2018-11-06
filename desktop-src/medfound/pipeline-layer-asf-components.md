@@ -2,7 +2,6 @@
 Description: In Media Foundations pipeline model, a media source is connected to a transform which is further connected to a media sink.
 ms.assetid: 55ab3a53-d9fd-438c-998c-8888f99958ce
 title: Pipeline Layer ASF Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

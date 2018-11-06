@@ -2,7 +2,6 @@
 Description: The WinVerifyTrust API can be used to verify the signature of a portable executable file.
 ms.assetid: dd53bd44-5dbf-44e9-9945-093995508f44
 title: 'Example C Program: Verifying the Signature of a PE File'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

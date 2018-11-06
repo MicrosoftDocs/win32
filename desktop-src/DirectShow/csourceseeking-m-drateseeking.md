@@ -2,7 +2,6 @@
 Description: Playback rate. By default, the value is set to 1.0.
 ms.assetid: 835ddbe8-2017-4a4a-8f10-b3f33a8215a7
 title: CSourceSeeking::m_dRateSeeking member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

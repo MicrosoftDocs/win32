@@ -1,12 +1,8 @@
 ---
 Description: To create a WMI event provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_EventProviderRegistration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 81f2ba3b-a1cb-42f5-b1a7-b1ca65963902
 ms.tgt_platform: multiple
 title: Registering an Event Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,15 +1,11 @@
 ---
 title: Reading attributeSchema and classSchema Objects
 description: This topic provides code examples and guidelines for reading directly from attributeSchema and classSchema objects in the schema container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a60558e1-88a1-493c-9340-a90143b11f60
 ms.tgt_platform: multiple
 keywords:
 - Reading attributeSchema and classSchema Objects AD
 - objects AD , Reading attributeSchema and classSchema Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

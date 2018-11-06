@@ -2,7 +2,6 @@
 Description: Contains the name of a stream.
 ms.assetid: 80235820-761f-4deb-9bf6-82ef402b3ee4
 title: MF_SD_STREAM_NAME attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Applications can produce user-mode minidump files, which contain a useful subset of the information contained in a crash dump file.
 ms.assetid: c5de86a4-6dab-4408-8093-66117eb4de10
 title: Minidump Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

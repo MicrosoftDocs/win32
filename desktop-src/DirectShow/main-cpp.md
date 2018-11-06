@@ -2,7 +2,6 @@
 Description: This topic contains code for the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: d1a4ee7d-b05d-4050-b0a5-25c28157646f
 title: main.cpp
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

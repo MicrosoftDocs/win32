@@ -2,7 +2,6 @@
 title: Filter Management
 description: Filter Management
 ms.assetid: F5D485D1-37D0-4684-910E-11DEEBF87423
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

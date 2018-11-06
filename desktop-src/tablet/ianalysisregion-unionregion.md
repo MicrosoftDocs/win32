@@ -2,7 +2,6 @@
 Description: Expands the area of this IAnalysisRegion to the area created by its union with the specified IAnalysisRegion.
 ms.assetid: cc3ec5c6-98ff-442e-a1e8-d1a57752ad56
 title: IAnalysisRegion::UnionRegion method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

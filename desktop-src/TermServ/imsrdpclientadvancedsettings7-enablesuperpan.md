@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings7 EnableSuperPan property
 description: Specifies or retrieves a Boolean value that indicates whether SuperPan is enabled or disabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0d0ef89e-75f5-460a-ad55-01f8d9478df5
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

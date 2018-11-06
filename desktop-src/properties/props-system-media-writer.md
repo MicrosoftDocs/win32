@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: a9ef9c5b-dc7b-4d1a-b47f-093d4f37bba4
 title: System.Media.Writer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

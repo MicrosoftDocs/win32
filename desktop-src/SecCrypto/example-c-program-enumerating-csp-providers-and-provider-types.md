@@ -2,7 +2,6 @@
 Description: Lists the CSPs available on a computer by using CryptoAPI.
 ms.assetid: 10a5210d-7992-4832-9435-67ac2b851a97
 title: 'Example C Program: Enumerating CSP Providers and Provider Types'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

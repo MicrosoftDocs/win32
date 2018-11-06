@@ -2,7 +2,6 @@
 Description: The ImageHlp functions are used mostly by programming tools, application setup utilities, and other programs that need access to the data contained in a PE image.
 ms.assetid: 831d7bb2-bf01-4422-a940-173f9856a513
 title: About ImageHlp
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

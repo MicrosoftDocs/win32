@@ -2,7 +2,6 @@
 Description: Represents a protocol controller that manages a SCSI interface.
 ms.assetid: 01ef85fc-2f05-4453-b524-7d63b647f6fb
 title: CIM_SCSIProtocolController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

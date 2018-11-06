@@ -2,7 +2,6 @@
 Description: The CostFinalize action ends the internal installation costing process begun by the CostInitialize action.
 ms.assetid: ae69ad03-5acc-4a62-ba71-3a4e477d34ab
 title: CostFinalize Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

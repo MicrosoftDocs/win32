@@ -2,7 +2,6 @@
 title: dcl_inputPrimitive (sm4 - asm)
 description: dcl\_inputPrimitive (sm4 - asm)
 ms.assetid: 86672fd3-7955-45ac-a8b2-a9cc8d1e8805
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

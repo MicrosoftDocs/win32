@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_AggregatePSExtent class defines the number of addressable logical blocks on a single storage device, excluding logical blocks mapped as check data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6c188955-a963-414d-94f9-b7e1cb5960ed
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_AggregatePSExtent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -52,7 +46,7 @@ The **CIM\_AggregatePSExtent** class defines the number of addressable logical b
 
 Automatic configuration can result in thousands of [**CIM\_ProtectedSpaceExtent**](cim-protectedspaceextent.md) classes being defined. The **CIM\_AggregatePSExtent** class was defined so that individual extents would not have to be modeled.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

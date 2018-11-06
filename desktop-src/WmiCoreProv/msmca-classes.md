@@ -2,7 +2,6 @@
 Description: A set of WMI classes that expose the Machine Check Architecture (MCA). The System Abstraction Layer (SAL) provides all events reported in the MSMCA class. The Intel Corporation develops and owns the MCA.
 ms.assetid: 4e35f871-5bce-49ed-a3e8-d2d967e6e2dc
 title: MSMCA Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

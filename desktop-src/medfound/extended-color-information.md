@@ -2,7 +2,6 @@
 Description: Extended Color Information
 ms.assetid: 05ca73c6-d105-47bc-96bc-b784f669febe
 title: Extended Color Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

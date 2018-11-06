@@ -2,7 +2,6 @@
 Description: Applications associate a blending stage with each texture in the set of current textures. Direct3D evaluates each blending stage in order, beginning with the first texture in the set and ending with the eighth.
 ms.assetid: 3b7faefd-30be-4f74-b0f7-621d65130286
 title: Texture Blending Operations and Arguments (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

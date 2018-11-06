@@ -2,7 +2,6 @@
 Description: The resource manager runs as a trusted service in a single process. All requests for smart card access are made to the resource manager, which routes them to the reader that contains the targeted card.
 ms.assetid: 4a62588a-14d9-43dc-9572-25a9cbcd0efd
 title: Resource Manager Implementation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

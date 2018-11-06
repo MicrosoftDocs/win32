@@ -9,7 +9,6 @@ keywords:
 - Windows Media Player,Download Manager
 - Windows Media Player Download Manager
 - Download Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

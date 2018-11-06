@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Default-Quota attribute
 description: The default quota that will apply to a security principal that creates an object in the NC if no quota specification exists that covers the security principal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 48074aaa-3997-40ac-92fe-b3112408ab45
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Default-Quota
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

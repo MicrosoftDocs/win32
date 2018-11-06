@@ -1,9 +1,6 @@
 ---
 title: Msi-File-List attribute
 description: This attribute contains a list of Microsoft installer files, such as the base MSI file (.msi) and MST transform files (.mst).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 259a13a2-bb34-49aa-862e-4159e887310c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Msi-File-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

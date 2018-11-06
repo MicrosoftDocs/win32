@@ -2,7 +2,6 @@
 Description: Represents a synthetic Fibre Channel port.
 ms.assetid: 6ca827b5-3ea0-4967-ba1f-b41e84c84009
 title: Msvm_SyntheticFcPort class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

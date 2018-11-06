@@ -2,7 +2,6 @@
 Description: Gets the fixed function vertex value.
 ms.assetid: ed56ff2d-0366-426c-9f9a-7d1a7c5d1a7c
 title: ID3DXBaseMesh::GetFVF method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

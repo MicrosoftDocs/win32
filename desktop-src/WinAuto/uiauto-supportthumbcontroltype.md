@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for Thumb control type
 - control types,support for Thumb
 - control types,Thumb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

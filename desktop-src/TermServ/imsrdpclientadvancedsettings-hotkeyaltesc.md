@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings HotKeyAltEsc property
 description: Specifies the virtual-key code to add to ALT to determine the hotkey replacement for ALT+ESC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 17cae4ca-8e97-4713-bb4e-ac9a9876c16c
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

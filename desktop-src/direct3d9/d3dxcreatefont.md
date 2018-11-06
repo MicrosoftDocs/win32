@@ -2,7 +2,6 @@
 Description: Creates a font object for a device and font.
 ms.assetid: 3e65dfdc-9608-420c-9672-c38289d13ab1
 title: D3DXCreateFont function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
