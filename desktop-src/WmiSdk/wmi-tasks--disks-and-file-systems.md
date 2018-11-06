@@ -1,12 +1,8 @@
 ---
 Description: WMI tasks for disks and file systems obtain information about disk drive hardware state and logical volumes. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d310e5e6-3b67-41bc-b5f2-cea33d0a7a2b
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Disks and File Systems'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

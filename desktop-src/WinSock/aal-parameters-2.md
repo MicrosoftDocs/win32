@@ -2,7 +2,6 @@
 Description: AAL parameters.
 ms.assetid: 0afc6713-2e91-4914-8039-1ecaed104826
 title: AAL Parameters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Describes reparse points.
 ms.assetid: 3abb3a08-9a00-43eb-9792-82eab1a25f06
 title: Reparse Points
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

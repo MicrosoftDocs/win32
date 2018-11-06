@@ -2,7 +2,6 @@
 Description: In TAPI version 3.0 and later, the TAPI object model uses terminal objects to represent the source or sink of a media stream associated with a call or communications session.
 ms.assetid: 0d96f229-76c0-46a3-bc4b-6f558b9956c6
 title: Terminal Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

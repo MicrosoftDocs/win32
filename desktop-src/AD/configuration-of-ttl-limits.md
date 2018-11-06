@@ -1,14 +1,10 @@
 ---
 title: Configuration of TTL Limits
 description: A client can request a TTL value for an entry ranging between 1 and 31557600 (that is, from 1 second to 1 year).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4009702c-7992-4e20-9d37-384f8137ba8f
 ms.tgt_platform: multiple
 keywords:
 - Configuration of TTL Limits AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

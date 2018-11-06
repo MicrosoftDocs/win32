@@ -2,7 +2,6 @@
 Description: Specifies when single sign on is performed.
 ms.assetid: 23a7ab31-b29d-4f45-a384-bb2d2c18230f
 title: type (singleSignOn) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

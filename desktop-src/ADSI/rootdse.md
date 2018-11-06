@@ -1,12 +1,8 @@
 ---
 title: RootDSE
 description: Each directory server has a unique entry called RootDSE. It provides data about the server, such as its capabilities, the LDAP version it supports, and the naming contexts it uses.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bb6b7676-7042-453f-83f9-b0dd2e377a13
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

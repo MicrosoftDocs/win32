@@ -2,7 +2,6 @@
 Description: The following topic describes how to perform simple playback.
 ms.assetid: 37869822-aed7-4102-8110-5a896400885c
 title: Simple Playback
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

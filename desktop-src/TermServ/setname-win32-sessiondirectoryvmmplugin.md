@@ -1,9 +1,6 @@
 ---
 title: SetName method of the Win32_SessionDirectoryVMMPlugin class
 description: Sets the name of the plug-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8af4abca-f147-4027-91fb-4d669b58caa4
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

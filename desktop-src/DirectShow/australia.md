@@ -2,7 +2,6 @@
 Description: Australia
 ms.assetid: f7d5aa66-3b8e-496a-a7fd-209f7334a868
 title: Australia
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Represents a synthetic mouse device.
 ms.assetid: 'c04b7aa1-44fe-41f5-943f-ff49ce64be96'
 title: Msvm_SyntheticMouse class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

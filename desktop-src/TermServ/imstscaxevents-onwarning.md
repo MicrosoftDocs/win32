@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnWarning method
 description: Called when the client control encounters an error condition that is not fatal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: af43d3aa-0ae8-4721-b85d-bb043b20dc40
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

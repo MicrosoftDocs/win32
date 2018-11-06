@@ -1,9 +1,6 @@
 ---
 title: Remote-Server-Name attribute
 description: Used wherever one or more computer names must be stored.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d09fe925-2137-478d-8630-5220fadedeab
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Remote-Server-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

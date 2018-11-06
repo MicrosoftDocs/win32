@@ -13,7 +13,6 @@ api_location:
 - D3DX11.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

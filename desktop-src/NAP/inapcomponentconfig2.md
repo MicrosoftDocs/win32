@@ -13,7 +13,6 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Retrieving a Service SDO
 description: Retrieving a Service SDO
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bac95c42-8f7e-4011-960c-8f18b4b7c088
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The SetDNSDomain WMI class method allows for the setting of the DNS domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a531133e-1b7c-4d85-979d-63bf4f7c9bed
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetDNSDomain method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,10 @@
 ---
 title: Publishing in a Domain System Container
 description: The System container of a domain partition holds per-domain operational information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 18bb3409-774e-42d9-8f27-6c582d74ca86
 ms.tgt_platform: multiple
 keywords:
 - Publishing in a Domain System Container AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

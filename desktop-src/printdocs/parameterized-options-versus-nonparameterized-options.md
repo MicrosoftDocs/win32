@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 92438df1-afde-4038-853e-9b98f7e589ea
 title: Parameterized Options versus Nonparameterized Options
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

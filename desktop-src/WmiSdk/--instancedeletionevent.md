@@ -1,12 +1,8 @@
 ---
 Description: Reports an instance deletion event, which is a type of intrinsic event generated when an instance is deleted from the namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a370fc95-15e3-49c3-98de-2f40d742f207
 ms.tgt_platform: multiple
 title: '__InstanceDeletionEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

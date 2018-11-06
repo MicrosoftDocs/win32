@@ -2,7 +2,6 @@
 Description: Represents a logical element that contains information to represent and manage the functionality provided by a device or software feature.
 ms.assetid: 0b2312da-433b-43d8-8d21-babab12a5b2c
 title: CIM_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

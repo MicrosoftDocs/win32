@@ -2,7 +2,6 @@
 title: Security in COM
 description: Security in COM is firmly based on the security provided by Windows and the underlying RPC security mechanisms.
 ms.assetid: c9f6d06c-da24-48ea-908a-2462c33f7ee3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

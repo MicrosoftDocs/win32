@@ -1,9 +1,6 @@
 ---
 title: DS-Query-Self-Quota extended right
 description: Control access right that allows a user to query the user's own quotas.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4cd1523b-8026-454e-9d10-e07d2fb24cea
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Query-Self-Quota
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

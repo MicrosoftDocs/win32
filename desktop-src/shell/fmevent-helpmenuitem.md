@@ -1,7 +1,6 @@
 ---
 Description: Sent to a File Manager extension DLL procedure when the user presses F1 on a menu or toolbar command item. The extension should call WinHelp, with that function's hwnd parameter set to the value of the extension's hwnd parameter.
 title: FMEVENT_HELPMENUITEM message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

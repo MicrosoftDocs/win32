@@ -2,7 +2,6 @@
 title: The WM_GETOBJECT Message
 description: This section describes the role of the WM\_GETOBJECT message in Microsoft Active Accessibility and UI Automation, and explains how to process the message in a server or provider application.
 ms.assetid: 'bf051b26-1d88-45e6-9363-c4cabef9d1be'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

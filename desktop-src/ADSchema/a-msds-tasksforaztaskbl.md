@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Tasks-For-Az-Task-BL attribute
 description: Backward link from Az-Task to the Az-Task objects that link to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ed5aaf19-bdb6-41f4-abb1-7954eebdca40
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Tasks-For-Az-Task-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Critical to organizing which files of which writer are to be backed up or restored is the concept of a component.
 ms.assetid: 5f85bd0e-31bb-45aa-af7c-15299ed31b26
 title: VSS Metadata Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

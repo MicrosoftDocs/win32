@@ -1,12 +1,8 @@
 ---
 Description: A qualifier flavor is a flag that describes more information about a qualifier.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a7d9d1c0-9386-4c90-9788-993b35ed12db
 ms.tgt_platform: multiple
 title: Describing a Qualifier with a Qualifier Flavor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_Group class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: E56A0BCC-76FE-4FEA-82A4-15DA9264F8A8
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Group Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

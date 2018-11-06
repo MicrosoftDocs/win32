@@ -1,9 +1,6 @@
 ---
 title: Moniker attribute
 description: The name or path for a COM object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e1ddcf9e-f8db-4aa0-a387-352a467a5b2c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Moniker
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

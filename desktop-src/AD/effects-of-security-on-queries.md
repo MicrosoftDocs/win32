@@ -1,14 +1,10 @@
 ---
 title: Effects of Security on Searching
 description: Security is an implicit filter when performing searches, enumerating containers, or reading properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4a027069-8c3d-4a95-a04b-c9c59200a9ed
 ms.tgt_platform: multiple
 keywords:
 - effects of security on searching Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

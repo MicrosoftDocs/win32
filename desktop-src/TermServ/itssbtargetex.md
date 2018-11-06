@@ -1,9 +1,6 @@
 ---
 title: ITsSbTargetEx interface
 description: Exposes properties that store configuration and state information about a target.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3f0f26fb-e8bc-47eb-8038-e51792ad4376
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ITsSbTargetEx
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 api_location: 

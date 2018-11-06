@@ -1,12 +1,8 @@
 ---
 title: Personal desktop task agent API reference
 description: The personal desktop task agent API is used to handle scheduled updates to a personal virtual desktop.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 44EACE66-3BBD-4E32-B7BD-B13C390262C5
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The CCHeapFree function releases the memory allocated by the CCHeapAlloc function.
 ms.assetid: 4e1f3332-b0cb-4c21-8c36-59e14c9686cd
 title: CCHeapFree function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The get\_NumAddresses method gets the number of addresses to be used for the session.
 ms.assetid: c3aef5df-02e9-4c7e-99aa-8e4043798bf4
 title: ITConnection::get_NumAddresses method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

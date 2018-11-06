@@ -1,9 +1,6 @@
 ---
 title: Builtin-Creation-Time attribute
 description: The Builtin-Creation-Time attribute is used to support replication to Windows NT 4.0 domains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b3da9913-8c7b-481b-ae47-6b124544f1e2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Builtin-Creation-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

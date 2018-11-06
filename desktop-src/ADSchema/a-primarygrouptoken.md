@@ -1,9 +1,6 @@
 ---
 title: Primary-Group-Token attribute
 description: A computed attribute that is used in retrieving the membership list of a group, such as Domain Users. The complete membership of such groups is not stored explicitly for scaling reasons.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b23d3b7f-074b-4f1b-bc06-b22738a8a79e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Primary-Group-Token
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

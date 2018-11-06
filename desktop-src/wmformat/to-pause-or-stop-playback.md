@@ -14,7 +14,6 @@ keywords:
 - asynchronous readers,pausing playback
 - asynchronous readers,stopping playback
 - asynchronous readers,playback pausing or stopping
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

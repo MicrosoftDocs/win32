@@ -1,12 +1,8 @@
 ---
 Description: Represents a class deletion event, which is a type of intrinsic event generated when a class is removed from the namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dd44c03e-4d0d-4750-942d-495893d21650
 ms.tgt_platform: multiple
 title: '__ClassDeletionEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

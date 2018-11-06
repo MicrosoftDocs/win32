@@ -1,9 +1,6 @@
 ---
 title: GetStringArrayDeploymentSetting method of the Win32_RDMSDeploymentSettings class
 description: Retrieves the deployment settings for a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ab380618-560e-425b-9bf0-a7de6b30d01a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: inetOrgPerson class
 description: Represents people who are associated with an organization in some way.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a00727b5-c8de-4b21-b656-162b5092d625
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - inetOrgPerson
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

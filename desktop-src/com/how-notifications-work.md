@@ -2,7 +2,6 @@
 title: How Notifications Work
 description: How Notifications Work
 ms.assetid: faf66654-8233-49ac-a0fa-6cae51df0bea
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

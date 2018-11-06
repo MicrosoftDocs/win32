@@ -2,7 +2,6 @@
 Description: Retrieving the Rendering Capabilities Supported by a Device
 ms.assetid: 2332e3cc-087c-49cf-bde9-7f86f65158e7
 title: Retrieving the Rendering Capabilities Supported by a Device
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

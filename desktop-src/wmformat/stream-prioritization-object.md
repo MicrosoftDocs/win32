@@ -9,7 +9,6 @@ keywords:
 - objects,stream prioritization objects
 - stream prioritization objects
 - streams,stream prioritization objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

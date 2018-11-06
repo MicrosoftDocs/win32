@@ -1,12 +1,8 @@
 ---
 Description: An SWbemPropertySet object is a collection of SWbemProperty objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0edad17b-facc-4885-9ce4-561ca6f57a66
 ms.tgt_platform: multiple
 title: SWbemPropertySet object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

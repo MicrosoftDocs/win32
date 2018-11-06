@@ -2,7 +2,6 @@
 Description: Begins monitoring inactivity.
 ms.assetid: fed5e4ae-2c2b-4b00-9230-b71aec9335c8
 title: BeginIdleDetection function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

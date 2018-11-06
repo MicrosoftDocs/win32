@@ -2,7 +2,6 @@
 title: Emp Tag
 description: Emp Tag
 ms.assetid: b0ba1315-cb7c-403f-ad32-65b899eb37bb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

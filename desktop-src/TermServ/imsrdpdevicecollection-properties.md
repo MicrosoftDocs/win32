@@ -1,12 +1,8 @@
 ---
 title: IMsRdpDeviceCollection Properties
 description: The IMsRdpDeviceCollection interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2DFF2995-41F9-41ED-B743-20F6CD001A26
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

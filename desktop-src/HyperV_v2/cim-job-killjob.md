@@ -2,7 +2,6 @@
 Description: A method to kill this job and any underlying processes, and to remove any dangling associations. This method is deprecated; use RequestChangeState instead.
 ms.assetid: b116631f-34b8-43ed-9c17-062b5e6058d0
 title: KillJob method of the CIM_Job class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

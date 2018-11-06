@@ -2,7 +2,6 @@
 title: Causal Ordering of Asynchronous Calls
 description: In an asynchronous RPC application, it is possible for a client thread to make a second asynchronous call on a binding handle before an earlier call made on that handle has completed.
 ms.assetid: 69beb3a4-39ae-4e3f-bb7d-31519278334d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

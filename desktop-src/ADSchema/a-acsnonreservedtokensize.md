@@ -1,9 +1,6 @@
 ---
 title: ACS-Non-Reserved-Token-Size attribute
 description: The ACS-Non-Reserved-Token-Size attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 50c11f5f-2188-43ab-9d40-094ca8a3d526
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Non-Reserved-Token-Size
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

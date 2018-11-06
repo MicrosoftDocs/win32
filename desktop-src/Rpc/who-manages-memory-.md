@@ -2,7 +2,6 @@
 title: Who Manages Memory
 description: Generally, the stubs are responsible for packaging and unpackaging data, allocating and freeing memory, and transferring the data to and from memory.
 ms.assetid: 9dea0fc0-d248-45b1-9a90-2155011c7e7c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

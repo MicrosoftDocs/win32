@@ -2,7 +2,6 @@
 Description: 'The GetFileType function retrieves the type of a file: disk, character (such as a console), pipe, or unknown.'
 ms.assetid: 16b9d825-848f-4acc-ba53-9049c80a3f3c
 title: Retrieving File Type Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

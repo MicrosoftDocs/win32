@@ -1,14 +1,10 @@
 ---
 title: Referrals
 description: Referrals occur when the server you are querying does not contain that data, but can find it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2068ce7a-0b94-4d25-a18f-97f26863bd1d
 ms.tgt_platform: multiple
 keywords:
 - Referrals ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Constructors exposed by XMUBYTEN4.
 ms.assetid: 0bb46e9b-6c76-40b5-9bf0-6387edfed484
 title: XMUBYTEN4 constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The Cloud Filter API provides functionality at the boundary between the user mode and the file system.
 ms.assetid: 72bc3e80-babd-4a39-842c-38afe4773a5e
 title: Cloud Filter API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

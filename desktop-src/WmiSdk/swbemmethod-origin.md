@@ -1,12 +1,8 @@
 ---
 Description: The Origin property of the SWbemMethod object returns the name of the class in which this method was introduced.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: da98393b-af95-47ad-b589-663063f65afb
 ms.tgt_platform: multiple
 title: SWbemMethod.Origin property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

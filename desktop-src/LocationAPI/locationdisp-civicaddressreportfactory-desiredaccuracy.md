@@ -2,7 +2,6 @@
 Description: The current desired-accuracy value.
 ms.assetid: 296164cf-a8ed-4277-bb4c-83ac09e63291
 title: LocationDisp.CivicAddressReportFactory.DesiredAccuracy property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

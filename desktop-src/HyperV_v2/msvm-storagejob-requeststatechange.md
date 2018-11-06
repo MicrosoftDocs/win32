@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: 2960bc44-f2af-49c6-9c33-5d9e1ad8056c
 title: RequestStateChange method of the Msvm_StorageJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

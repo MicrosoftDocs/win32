@@ -2,7 +2,6 @@
 title: IAccessible Proxies
 description: IAccessible proxies provide default accessibility information for standard UI elements USER controls, USER menus, and common controls from COMCTL and COMCTL32.
 ms.assetid: 236c2064-de44-4021-8825-f1519312dbfc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

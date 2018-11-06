@@ -2,7 +2,6 @@
 Description: An application cannot change the access control list of an object unless the application has the rights to do so.
 ms.assetid: 5f710fd8-33de-47c0-a8b2-baf3008c4ed7
 title: Access Rights for Access-Token Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

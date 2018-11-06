@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnNetworkStatusChanged method
 description: Called when the network status has changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B68D1AA0-6403-40CA-95C5-BBBF39CEFFD8
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

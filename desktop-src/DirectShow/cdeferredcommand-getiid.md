@@ -2,7 +2,6 @@
 Description: The GetIID method retrieves the interface identifier (IID) of the interface on which the method will be run.
 ms.assetid: d6eb7d46-294a-4169-96d3-4bed02c48c08
 title: CDeferredCommand.GetIID method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

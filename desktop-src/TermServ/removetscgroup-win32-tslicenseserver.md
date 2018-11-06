@@ -1,9 +1,6 @@
 ---
 title: RemoveTSCGroup method of the Win32_TSLicenseServer class
 description: RemoveTSCGroup is no longer available for use as of Windows Server 2012.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e5e3eca9-4990-4322-b41d-c6b6b3356272
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This macro creates the value passed to GetData to flush query data.
 ms.assetid: 874fe2d7-d7d8-49eb-8057-e606982527fa
 title: D3DGETDATA_FLUSH
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

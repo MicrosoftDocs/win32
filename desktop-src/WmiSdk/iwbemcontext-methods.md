@@ -1,12 +1,8 @@
 ---
 Description: The IWbemContext interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 15331CCA-382A-4E77-92F8-06128920E674
 ms.tgt_platform: multiple
 title: IWbemContext Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

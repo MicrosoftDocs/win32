@@ -2,7 +2,6 @@
 Description: Ambient lighting provides constant lighting for a scene.
 ms.assetid: 327095a7-f4e0-48c2-9e4d-bec8493fe37e
 title: Ambient Lighting (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

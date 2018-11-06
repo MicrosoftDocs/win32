@@ -1,14 +1,8 @@
 ---
 Description: Updates the launch security descriptor of the DCOM application with a new security descriptor that is defined by an instance of a Win32\_SecurityDescriptor class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 72245d22-1a0a-4069-b5d6-9d59e4de4aab
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetLaunchSecurityDescriptor method of the Win32_DCOMApplicationSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

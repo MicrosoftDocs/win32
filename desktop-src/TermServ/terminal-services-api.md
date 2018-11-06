@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Services API
 description: The Remote Desktop Services API is primarily useful to client/server applications and applications for Remote Desktop Services administration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4bd10a15-78d6-4754-9e17-f2576ee8b9d0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

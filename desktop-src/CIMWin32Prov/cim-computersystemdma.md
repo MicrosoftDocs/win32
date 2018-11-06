@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ComputerSystemDMA class represents an association between a computer system and its available direct memory access (DMA) channels.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7d5bce4b-973f-4452-b403-a2196bd4017a
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemDMA class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_ComputerSystemDMA** class represents an association between a computer system and its available direct memory access (DMA) channels.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

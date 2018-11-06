@@ -1,14 +1,10 @@
 ---
 title: Code Details
 description: This section lists the source code for the ADSI example provider component implementation. All source code references in this document are subject to change and are available in the example code directory included in the ADSI SDK.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 207912e5-ac17-48c7-9536-981a8e92e8cf
 ms.tgt_platform: multiple
 keywords:
 - Code Details ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

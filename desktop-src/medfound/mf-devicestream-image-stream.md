@@ -2,7 +2,6 @@
 Description: Specifies whether a stream on a video capture source is a still-image stream.
 ms.assetid: 52251A45-3603-41C7-A869-7F6319BD337F
 title: MF_DEVICESTREAM_IMAGE_STREAM attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

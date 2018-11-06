@@ -2,7 +2,6 @@
 Description: This topic takes an in-depth look at the MPEG-1 Media Source SDK Sample.
 ms.assetid: d392f30c-c963-4eb3-add2-1bb986919c0b
 title: 'Case Study: MPEG-1 Media Source'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

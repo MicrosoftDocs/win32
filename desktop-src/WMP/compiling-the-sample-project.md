@@ -17,7 +17,6 @@ keywords:
 - compiling sample projects
 - samples,type 2 online stores
 - project wizard
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

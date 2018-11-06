@@ -2,7 +2,6 @@
 Description: ICE89 validates that the value in the Progid\_Parent column in ProgId table is a valid foreign key into the ProgId column in ProgId table. Every ProgId parent should have a record in the ProgId table.
 ms.assetid: 3f5c1720-d90f-4af7-9162-520b846efbb6
 title: ICE89
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

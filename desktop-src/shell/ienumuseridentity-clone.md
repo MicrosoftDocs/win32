@@ -2,7 +2,6 @@
 Description: IEnumUserIdentity::Clone is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: dde9afca-db8d-41ba-afa0-94eadecb695b
 title: IEnumUserIdentity::Clone method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

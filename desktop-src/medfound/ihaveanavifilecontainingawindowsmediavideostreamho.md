@@ -2,7 +2,6 @@
 Description: I have an AVI file containing a Windows Media Video stream.
 ms.assetid: 0b4c5bf2-caa6-4e14-be5f-9e25ec918cf0
 title: I have an AVI file containing a Windows Media Video stream. How can I convert it to a WMV file?
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

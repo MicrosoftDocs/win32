@@ -2,7 +2,6 @@
 title: Control Messages
 description: .
 ms.assetid: e5b9e74d-ec7f-46fb-b2a0-edc2d1454e10
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

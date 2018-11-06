@@ -1,9 +1,6 @@
 ---
 title: CreateWinstation method of the Win32_TerminalServiceSetting class
 description: Creates a new listener stack based on the unique combination of listener name and NIC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c0a25c22-e0a4-42b1-9c48-c88eebbc55b5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

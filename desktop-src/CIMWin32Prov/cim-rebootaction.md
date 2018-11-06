@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_RebootAction class causes a system reboot where the software element is installed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4da5f0b0-3c09-4dd6-b821-43953f629829
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_RebootAction class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -35,7 +29,7 @@ api_location:
 
 The **CIM\_RebootAction** class causes a system reboot where the software element is installed.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

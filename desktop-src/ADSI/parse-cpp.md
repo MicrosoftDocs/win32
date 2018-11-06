@@ -1,15 +1,11 @@
 ---
 title: PARSE.CPP
 description: In the example provider component, a code example of the directory service path parser is in Parse.cpp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5d68065b-0dab-41c9-baf1-f9610656bd6e
 ms.tgt_platform: multiple
 keywords:
 - parse.cpp ADSI
 - path parser ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

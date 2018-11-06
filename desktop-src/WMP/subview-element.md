@@ -8,7 +8,6 @@ keywords:
 - SUBVIEW element
 - reference for skins,SUBVIEW element
 - elements,SUBVIEW
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

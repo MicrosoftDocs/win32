@@ -2,7 +2,6 @@
 Description: Setting the Consistent and Done Flags
 ms.assetid: d9b6096d-f93c-4f8e-a4d9-ea8309b35f0f
 title: Setting the Consistent and Done Flags
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

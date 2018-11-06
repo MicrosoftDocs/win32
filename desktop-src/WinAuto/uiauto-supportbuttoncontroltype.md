@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for Button control type
 - control types,support for Button
 - control types,Button
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

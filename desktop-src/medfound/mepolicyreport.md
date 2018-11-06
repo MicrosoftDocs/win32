@@ -2,7 +2,6 @@
 Description: Raised by a trusted output to send status information about the enforcement of the output policy.
 ms.assetid: 4906f6c3-1570-421f-aef1-914bd338bb1f
 title: MEPolicyReport event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

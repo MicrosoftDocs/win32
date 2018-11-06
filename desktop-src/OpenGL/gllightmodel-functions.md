@@ -11,7 +11,6 @@ keywords:
 - reference for OpenGL,light functions
 - glLightModel functions
 - light functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

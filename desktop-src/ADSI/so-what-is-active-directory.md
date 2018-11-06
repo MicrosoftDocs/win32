@@ -1,12 +1,8 @@
 ---
 title: Tutorial Overview ADSI with Visual Basic
 description: Active Directory is a special-purpose database \ 8212; it is not a registry replacement.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 899799e3-5ab9-4d19-883a-5bc9f20d2bad
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

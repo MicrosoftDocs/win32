@@ -2,7 +2,6 @@
 Description: Working with Sources
 ms.assetid: add946ec-604c-4bfe-aff8-2f172ba44f73
 title: Working with Sources
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

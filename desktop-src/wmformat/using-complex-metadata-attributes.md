@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),complex metadata attributes
 - metadata,complex attributes
 - complex metadata attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

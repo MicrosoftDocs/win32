@@ -2,7 +2,6 @@
 Description: Loads a volume from memory.
 ms.assetid: 9f74fcc0-f935-4466-865b-e798711a1f2f
 title: D3DXLoadVolumeFromMemory function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

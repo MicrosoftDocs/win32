@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Allowed-To-Delegate-To attribute
 description: This is an attribute on service account (computer or user account) objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a370174e-fd00-4f47-b23c-b0cc2657cee7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Allowed-To-Delegate-To
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

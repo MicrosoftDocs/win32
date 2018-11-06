@@ -1,9 +1,6 @@
 ---
 title: audio attribute
 description: The Audio attribute type allows the storing of sounds in the Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9f5d38b3-e599-4be2-994d-356c8c916a82
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - audio
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

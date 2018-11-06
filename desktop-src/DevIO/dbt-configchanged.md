@@ -2,7 +2,6 @@
 Description: The system broadcasts the DBT\_CONFIGCHANGED device event to indicate that the current configuration has changed, due to a dock or undock. An application or driver that stores data in the registry under the HKEY\_CURRENT\_CONFIG key should update the data.
 ms.assetid: e5e33970-b17e-4723-98aa-e242f90fe4e7
 title: DBT_CONFIGCHANGED event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

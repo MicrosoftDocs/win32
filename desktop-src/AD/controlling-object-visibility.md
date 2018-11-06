@@ -1,15 +1,11 @@
 ---
 title: Controlling Object Visibility
 description: Active Directory Domain Services provide the ability to hide objects from users who have been denied certain rights.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3a65ec79-7de0-4d14-b980-1ca6a972ac70
 ms.tgt_platform: multiple
 keywords:
 - controlling object visibility Active Directory
 - Active Directory Active Directory , using, controlling object visibility
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

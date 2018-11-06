@@ -2,7 +2,6 @@
 Description: The following sections contain the C/C++ reference for Microsoft Windows HTTP Services (WinHTTP).
 ms.assetid: 29f1e97a-542c-425e-aa22-ace423217b46
 title: WinHTTP C/C++ API Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Move-Tree-State attribute
 description: This attribute contains state information for a directory tree that is being moved.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 13ec6d05-ed17-4a38-b2ae-7ad175f17b52
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Move-Tree-State
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

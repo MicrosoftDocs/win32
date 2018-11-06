@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_OSVersionCheck class specifies the versions of the operating system that can support a software element.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6796cfc4-3b6f-43a4-b5f0-854a95284238
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_OSVersionCheck class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -39,7 +33,7 @@ The **CIM\_OSVersionCheck** class specifies the versions of the operating system
 
 The type of operating system is specified in the **TargetOperatingSystem** property of the owning software element. Details of the checks are compared with the corresponding details found in a [**CIM\_OperatingSystem**](cim-operatingsystem.md) object referenced by a [**CIM\_InstalledOS**](cim-installedos.md) association for the [**CIM\_ComputerSystem**](cim-computersystem.md) object that describes the environment. At least one **CIM\_OperatingSystem** class must satisfy the details of the condition for the check to be satisfied. In other words, not all of the operating systems on the relevant computer system need to satisfy the condition. Also, the **OSType** property of the **CIM\_OperatingSystem** class must match the type of the **TargetOperatingSystem** property.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

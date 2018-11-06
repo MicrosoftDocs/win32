@@ -2,7 +2,6 @@
 Description: Describes a four-component vector including operator overloads and type casts.
 ms.assetid: fbfe7851-7bec-4fa0-b4dc-52f5cb83d0a4
 title: D3DXVECTOR4 structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

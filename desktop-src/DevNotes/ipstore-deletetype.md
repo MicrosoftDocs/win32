@@ -2,7 +2,6 @@
 Description: Deletes a specified type from the protected storage database.
 ms.assetid: 5e3a08eb-e16b-4d9f-82be-241eb3137d17
 title: IPStore::DeleteType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

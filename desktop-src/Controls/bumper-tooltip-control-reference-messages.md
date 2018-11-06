@@ -2,7 +2,6 @@
 title: Tooltip Control Messages
 description: .
 ms.assetid: 0ca52be0-ccce-4814-8aab-14a602304d73
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

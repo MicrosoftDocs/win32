@@ -2,7 +2,6 @@
 title: Using NAP
 description: Describes common programmatic procedures and patterns used in writing applications that call or implement System Health Agents (SHAs), System Health Validators (SHVs), and Statement of Health (SoH) notifications.
 ms.assetid: d02ecc8f-9e7d-431f-a833-8a51111ed1c0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

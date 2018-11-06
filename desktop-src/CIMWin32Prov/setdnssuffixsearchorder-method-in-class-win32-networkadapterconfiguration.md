@@ -1,14 +1,8 @@
 ---
 Description: The SetDNSSuffixSearchOrder WMI class static method uses an array of string elements to set the suffix search order.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1ad9fc99-8c57-43d4-92d2-b12f2c1451cb
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetDNSSuffixSearchOrder method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: Best Practices
 description: The following list contains best practices for developing applications using the Windows Filtering Platform (WFP) API.
 ms.assetid: 017ff210-8666-466e-8424-c95e750fd5ac
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

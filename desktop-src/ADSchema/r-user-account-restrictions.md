@@ -1,9 +1,6 @@
 ---
 title: User-Account-Restrictions property set
 description: Property set containing user attributes that describe account restrictions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5616fede-12b1-41bd-b445-11c0e1ff66db
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - User-Account-Restrictions
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

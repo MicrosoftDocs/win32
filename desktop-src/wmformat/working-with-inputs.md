@@ -9,7 +9,6 @@ keywords:
 - profiles,working with inputs
 - streams,working with inputs
 - codecs,working with inputs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

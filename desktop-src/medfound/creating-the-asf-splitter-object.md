@@ -2,7 +2,6 @@
 Description: Creating the ASF Splitter Object
 ms.assetid: 448e2b38-70f7-4491-aac8-ee988a6f7473
 title: Creating the ASF Splitter Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

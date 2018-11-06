@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ClassicCOMClassSettings association WMI class relates a Component Object Model (COM) class and the settings used to configure instances of the COM class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 50f253cc-b8ae-41ac-b01f-ea816f5ca3d4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMClassSettings class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

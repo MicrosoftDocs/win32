@@ -1,9 +1,6 @@
 ---
 title: GetProvisioningProperties method of the Win32_RDMSCollectionProperties class
 description: Retrieves the provisioning properties of the virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c314b7a5-8546-4711-833e-b47bb682aa53
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

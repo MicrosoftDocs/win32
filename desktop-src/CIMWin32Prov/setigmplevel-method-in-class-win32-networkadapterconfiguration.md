@@ -1,14 +1,8 @@
 ---
 Description: The SetIGMPLevel WMI class static method is used to set the extent to which the system supports IP multicasting and participates in the Internet Group Management Protocol.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 38877576-aa23-4841-b3ae-1a02bfdd70d8
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetIGMPLevel method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -8,7 +8,6 @@ keywords:
 - multimedia reference,command strings
 - reference for multimedia,command strings
 - multimedia command strings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

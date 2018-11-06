@@ -2,7 +2,6 @@
 Description: Your Unicode applications should always cast zero to TCHAR when using null-terminated strings.
 ms.assetid: 43bbf0ab-9b69-4f7d-acda-d0f8b6caf4b5
 title: Using Null-terminated Strings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Script-Timeout attribute
 description: The maximum time, in milliseconds, to wait for a script to finish auditing a specific policy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 166d87a3-8768-42d9-9041-21f272059fbf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Script-Timeout
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

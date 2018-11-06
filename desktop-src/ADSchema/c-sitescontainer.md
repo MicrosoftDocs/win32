@@ -1,9 +1,6 @@
 ---
 title: Sites-Container class
 description: A container for storing site objects. Located in the configuration naming context.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d70c8111-567c-4f2c-af72-a76f4b53d1a9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Sites-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

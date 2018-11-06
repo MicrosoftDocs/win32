@@ -2,7 +2,6 @@
 Description: In unidirectional text, the caret position has no ambiguity because the leading edge of a character is at the same place as the trailing edge of the previous character.
 ms.assetid: 3bebb329-3dd7-4b2e-8ff3-878aaf337a2c
 title: Displaying the Caret in Bidirectional Strings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

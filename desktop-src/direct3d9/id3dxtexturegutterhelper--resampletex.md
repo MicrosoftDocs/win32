@@ -2,7 +2,6 @@
 Description: Resamples a texture into this gutterhelper's parameterization.
 ms.assetid: a5ace0e4-2e89-471b-bdfb-67d5e85c6f46
 title: ID3DXTextureGutterHelper::ResampleTex method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

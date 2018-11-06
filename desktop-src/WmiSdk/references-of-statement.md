@@ -1,12 +1,8 @@
 ---
 Description: The REFERENCES OF statement retrieves all association instances that refer to a particular source instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 674be546-e7fd-4150-9d7c-2888d24bf1b3
 ms.tgt_platform: multiple
 title: REFERENCES OF Statement
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

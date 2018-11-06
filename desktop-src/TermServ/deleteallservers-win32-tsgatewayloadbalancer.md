@@ -1,9 +1,6 @@
 ---
 title: DeleteAllServers method of the Win32_TSGatewayLoadBalancer class
 description: Deletes all Remote Desktop Gateway (RD Gateway) load-balancing servers that are participating in the load-balancing farm.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 091ed866-8f2b-47b8-990b-e9a6d7e1194c
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

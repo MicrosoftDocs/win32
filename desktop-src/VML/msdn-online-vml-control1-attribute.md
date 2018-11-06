@@ -2,7 +2,6 @@
 title: VML Control1 Attribute
 description: VML Control1 Attribute
 ms.assetid: 4a304936-4da8-4197-b7f3-d89551de0c85
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

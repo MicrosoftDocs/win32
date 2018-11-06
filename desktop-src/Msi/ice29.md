@@ -2,7 +2,6 @@
 Description: ICE29 validates that truncated stream names remain unique. Any table having a Binary or Object column is validated. See the Binary column data type.
 ms.assetid: a51b641d-992b-4b6b-a208-d94bc7d05115
 title: ICE29
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

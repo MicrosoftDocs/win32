@@ -2,7 +2,6 @@
 Description: The Remove method removes a certificate from an open certificate store. This method can only be used with a store that has been opened with read/write permission.
 ms.assetid: 02bb8ff1-2240-4ec7-b8af-9a7812a12ba9
 title: Store.Remove method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -50,7 +49,7 @@ This method does not return a value.
 
 ## Remarks
 
-> \[!Important\]  
+> [!IMPORTANT]
 > When this method is called from a web script, the script needs to delete digital certificates from the local computer. Allowing untrusted websites to delete digital certificates is a security risk. A dialog box that asks whether the website can delete certificates appears when this method is first called. If you allow the application to delete certificates and select "Do not show this dialog box again," the dialog box will no longer appear for any script that deletes certificates within that domain. However, scripts outside that domain that attempt to delete certificates will still cause this dialog box to appear. If you do not allow the script to delete certificates and select "Do not show this dialog box again," scripts within that domain will automatically be refused the ability to delete certificates.
 
  

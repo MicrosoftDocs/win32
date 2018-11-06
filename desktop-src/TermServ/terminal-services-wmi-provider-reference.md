@@ -1,15 +1,11 @@
 ---
 title: Remote Desktop Services WMI provider reference
 description: Lists topics covered in the Remote Desktop Services WMI provider reference section.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1efd3e7a-1102-4464-ad31-502b357a1c87
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , WMI provider reference
 - WMI provider reference Remote Desktop Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

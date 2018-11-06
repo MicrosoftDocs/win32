@@ -1,14 +1,8 @@
 ---
 Description: The SetUrgency method sets the desired urgency level for an alarm.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ac2e7fda-1317-440a-adbd-1ef0844d124c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetUrgency method of the CIM_AlarmDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **SetUrgency** method sets the desired urgency level for an alarm.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

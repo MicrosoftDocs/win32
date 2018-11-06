@@ -1,12 +1,8 @@
 ---
 title: Graphics virtual channels reference
 description: The graphics virtual channels reference contains programming elements that enable you to create a virtual graphics channel.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F6A53BAF-638D-4BF1-ABDE-0712D17FA56B
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

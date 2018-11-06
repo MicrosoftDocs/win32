@@ -2,7 +2,6 @@
 Description: Sets the minimum and maximum distances of intersection between 3D objects.
 ms.assetid: da825c70-0c55-4303-b78a-a761ba037182
 title: ID3DXPRTEngine::SetMinMaxIntersection method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

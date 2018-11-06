@@ -2,7 +2,6 @@
 Description: Indicates the status of the GPS receiver when the image was recorded (for example, measurement in progress, measurement interoperability).
 ms.assetid: 31cc4ebe-83cb-43d0-8249-0f14db6629ab
 title: System.GPS.Status
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

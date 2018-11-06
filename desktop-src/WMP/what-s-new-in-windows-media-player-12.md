@@ -18,7 +18,6 @@ keywords:
 - interfaces,deprecated in Windows Media Player 12
 - methods,deprecated in Windows Media Player 11 and not 12
 - versions of Windows Media Player,new features in version 12
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -18,7 +18,6 @@ keywords:
 - installing online stores from CD while online
 - CD installs of online stores while online
 - online installs of online stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

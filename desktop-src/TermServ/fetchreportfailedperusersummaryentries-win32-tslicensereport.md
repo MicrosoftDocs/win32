@@ -1,9 +1,6 @@
 ---
 title: FetchReportFailedPerUserSummaryEntries method of the Win32_TSLicenseReport class
 description: Retrieves summary information of failed Remote Desktop Services Per User client access licenses (RDS \ 160;Per User CALs) from the report.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dc9c4a36-b2a8-407e-b902-ee9d51227909
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

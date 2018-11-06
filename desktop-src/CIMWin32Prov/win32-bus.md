@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_Bus WMI class represents a physical bus as seen by a computer running a Windows operating system. Any instance of a Windows bus is a descendant (or member) of this class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 76ba15f4-8c7b-4713-b5a2-e444fbab064a
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Bus class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

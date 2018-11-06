@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientSecuredSettings KeyboardHookMode property
 description: Specifies the keyboard redirection settings, which specify how and when to apply Windows keyboard shortcut (for example, ALT+TAB).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 16734580-9be9-476b-b8e7-1eca3ba24d61
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

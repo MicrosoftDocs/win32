@@ -2,7 +2,6 @@
 title: lt (sm4 - asm)
 description: Component-wise vector floating point less-than comparison.
 ms.assetid: DB10F654-4A98-4ED8-A3B4-CA9FE1DFE6CD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

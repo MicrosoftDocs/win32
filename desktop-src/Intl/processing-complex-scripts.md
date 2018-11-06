@@ -2,7 +2,6 @@
 Description: To provide text justification, an application can use one of two methods.
 ms.assetid: 1190baed-5959-4f7a-8946-ac3b3da85821
 title: Processing Complex Scripts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

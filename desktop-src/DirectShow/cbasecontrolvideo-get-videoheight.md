@@ -2,7 +2,6 @@
 Description: The get\_VideoHeight method retrieves the height of the native video.
 ms.assetid: f33ba789-f9c6-47f1-879b-241bfdc72010
 title: CBaseControlVideo.get_VideoHeight method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

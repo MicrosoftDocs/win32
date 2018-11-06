@@ -2,7 +2,6 @@
 Description: XAudio2 constants that specify default parameters, maximum values, and flags.
 ms.assetid: 074ac40e-a17e-7366-1954-6699407b82f7
 title: XAudio2 Boundary Values and Flags
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

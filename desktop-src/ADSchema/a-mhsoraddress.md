@@ -1,9 +1,6 @@
 ---
 title: MHS-OR-Address attribute
 description: X.400 address.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8441b15e-0050-4955-9800-6130dfc371db
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MHS-OR-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

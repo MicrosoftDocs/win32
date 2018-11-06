@@ -1,9 +1,6 @@
 ---
 title: GPC-Machine-Extension-Names attribute
 description: Used by the Group Policy Object for computer policies.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a5e00bf6-d311-4ccd-a2cf-4f7506fec419
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - GPC-Machine-Extension-Names
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

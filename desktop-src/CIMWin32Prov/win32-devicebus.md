@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_DeviceBus association WMI class relates a system bus and a logical device using the bus. This class is used to discover which devices are on which bus.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2d7d83a5-c058-40c0-aab3-7700f4067a16
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DeviceBus class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

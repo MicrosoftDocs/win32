@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Logon-Time-Sync-Interval attribute
 description: This attribute controls the granularity, in days, with which the last logon time for a user or computer, recorded in the lastLogonTimestamp attribute, is replicated to all DCs in a domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f1f9f1f8-df60-44b5-965d-631c4dd4ef84
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Logon-Time-Sync-Interval
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

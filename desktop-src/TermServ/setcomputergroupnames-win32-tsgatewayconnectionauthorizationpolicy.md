@@ -1,9 +1,6 @@
 ---
 title: SetComputerGroupNames method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the ComputerGroupNames property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dd6747df-140f-4eeb-857b-d14f8713586c
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

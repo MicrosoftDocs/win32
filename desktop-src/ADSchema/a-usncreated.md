@@ -1,9 +1,6 @@
 ---
 title: USN-Created attribute
 description: The update sequence number (USN) assigned at object creation. See also, USN-Changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c38456b8-fc8f-4ea0-8f3d-e2bb3b44ff50
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - USN-Created
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

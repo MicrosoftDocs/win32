@@ -2,7 +2,6 @@
 Description: You can change audio graphs at any time to add or remove voices or entire subgraphs.
 ms.assetid: b2f9ec6a-4b5b-e618-759b-d7dbc0d97ac4
 title: 'How to: Dynamically Add or Remove Voices From an Audio Graph'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

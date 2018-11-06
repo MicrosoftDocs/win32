@@ -5,7 +5,6 @@ ms.assetid: 129a65a7-cac3-47e0-9e9c-6e5a4a260c73
 keywords:
 - Video for Windows (VFW),VCM structures
 - VFW (Video for Windows),VCM structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

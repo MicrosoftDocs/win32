@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_BootService class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: EEB082F8-A807-4154-BE5E-8CC0553698D1
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_BootService Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -17,7 +11,7 @@ ms.date: 05/31/2018
 
 The [**CIM\_BootService**](cim-bootservice.md) class exposes the following methods.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

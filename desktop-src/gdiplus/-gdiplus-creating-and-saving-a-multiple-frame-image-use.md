@@ -2,7 +2,6 @@
 Description: With certain file formats, you can save multiple images (frames) to a single file.
 ms.assetid: 9b61e01d-0a98-4ac3-865e-7570ed0c3cde
 title: Creating and Saving a Multiple-Frame Image
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

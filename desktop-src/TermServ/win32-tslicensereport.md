@@ -1,9 +1,6 @@
 ---
 title: Win32_TSLicenseReport class
 description: Provides instances of Remote Desktop Services Per User client access license (RDS \ 160;Per User CAL) usage reports that are generated on the Remote Desktop license server, and methods for license report generation, fetch, and delete operations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8d67f158-cda3-4cf4-a766-09d08c21c49e
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

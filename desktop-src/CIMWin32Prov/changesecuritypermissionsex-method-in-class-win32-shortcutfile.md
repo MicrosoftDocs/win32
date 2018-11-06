@@ -1,14 +1,8 @@
 ---
 Description: Changes the security permissions for the logical shortcut file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9a5c9fa9-ccd9-4792-969f-28f52ab9bc52
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the Win32_ShortcutFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

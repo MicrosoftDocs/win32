@@ -2,7 +2,6 @@
 Description: XMU565 describes a 4D vector with 5-bit unsigned x- and z- components and a 6 bit unsigned y-component.
 ms.assetid: c661e018-f8c7-40bf-ab5a-211a3b9300a3
 title: XMU565 Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: The opaque type used for a reference to an xml buffer.
 ms.assetid: 75f1df70-4dc9-4365-9005-5eaca6688f16
 keywords:
 - WS_XML_BUFFER
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -14,7 +14,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),sending messages
 - playing MIDI files,sending messages
 - sending MIDI messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

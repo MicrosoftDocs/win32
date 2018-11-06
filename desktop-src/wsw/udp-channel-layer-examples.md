@@ -2,7 +2,6 @@
 title: UDP Channel Layer Examples
 ms.assetid: f676dbba-8a5a-40eb-833e-b4d6fe28c697
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

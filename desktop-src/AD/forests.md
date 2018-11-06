@@ -1,14 +1,10 @@
 ---
 title: Forests
 description: A forest is a set of one or more domain trees that do not form a contiguous namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b7beb305-0022-477a-85bf-779821202b26
 ms.tgt_platform: multiple
 keywords:
 - forests Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

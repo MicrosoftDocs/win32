@@ -1,14 +1,10 @@
 ---
 title: System Errors in Active Directory Domain Services
 description: This topic contains system error return values in functions of Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 31dd29a0-b71e-4990-bdcf-dfd0ec0f09f7
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services, System Errors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

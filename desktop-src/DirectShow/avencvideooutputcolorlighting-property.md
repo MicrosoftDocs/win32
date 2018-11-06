@@ -2,7 +2,6 @@
 Description: Specifies the intended lighting conditions for viewing the encoded video.
 ms.assetid: 67b69d02-db5d-474c-9df4-146c5283d76e
 title: AVEncVideoOutputColorLighting property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

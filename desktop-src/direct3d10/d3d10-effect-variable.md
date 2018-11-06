@@ -2,7 +2,6 @@
 Description: These constants apply to effect variables.
 ms.assetid: ef996443-b558-4aa6-acc1-38f8a89c9855
 title: D3D10_EFFECT_VARIABLE Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

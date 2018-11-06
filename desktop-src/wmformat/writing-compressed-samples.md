@@ -7,7 +7,6 @@ keywords:
 - ASF (Advanced Systems Format),writing compressed samples
 - Advanced Systems Format (ASF),passing compressed samples
 - ASF (Advanced Systems Format),passing compressed samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Collecting Fine-Tuning Information
 ms.assetid: 0d9ea896-e0a9-411b-9a10-e366e3686a34
 title: Collecting Fine-Tuning Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

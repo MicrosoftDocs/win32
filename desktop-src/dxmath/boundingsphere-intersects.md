@@ -2,7 +2,6 @@
 Description: Tests the BoundingSphere for intersection with an object.
 ms.assetid: 0326c5b4-c8c9-409d-b694-3203252a52a8
 title: BoundingSphere.Intersects methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Links to documentation for the IAzScopes interoperability wrapper methods and properties.
 ms.assetid: 1b80b1c0-58a9-401b-9ddb-bd6eb146751e
 title: Microsoft.Interop.Security.AzRoles.IAzScopes interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -1,15 +1,11 @@
 ---
 title: Example Code for Using Ranging to Retrieve Members of a Group
 description: The following code example uses ranging with ActiveX Directory Objects (ADO) to retrieve the members of a group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: baebefd5-7ac6-4d36-a5a4-0796d790abee
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Using Ranging to Retrieve Members of a Group ADSI
 - example code C/C++ ADSI , using ranging to retrieve members of a group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

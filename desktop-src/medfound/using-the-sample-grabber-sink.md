@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: AC5970A2-6F12-448D-A444-40020C5C2607
 title: Using the Sample Grabber Sink
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

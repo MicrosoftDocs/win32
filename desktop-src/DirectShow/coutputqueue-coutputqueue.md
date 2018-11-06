@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: 672c0337-0c36-4f53-9125-d02fe8b36b1c
 title: COutputQueue.COutputQueue constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: About Media Types
 ms.assetid: 169cdb00-0c1a-4530-90b7-bc89c71d1d04
 title: About Media Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

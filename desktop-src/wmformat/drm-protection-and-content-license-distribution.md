@@ -13,7 +13,6 @@ keywords:
 - DRM (digital rights management),content protection
 - digital rights management (DRM),license distribution
 - DRM (digital rights management),license distribution
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

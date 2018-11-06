@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Default-To-Main-Printer attribute
 description: Terminal Services Default To Main Printer specifies whether to print automatically to the client's default printer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b83c8d14-a218-4529-9ebc-05c0624d46fc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Default-To-Main-Printer
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

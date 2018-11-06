@@ -2,7 +2,6 @@
 Description: The following structures are used with event logging.
 ms.assetid: 8c3bb790-1c5c-4546-9a9d-e1a9da88a2a9
 title: Event Logging Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

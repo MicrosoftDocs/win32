@@ -2,7 +2,6 @@
 Description: Sets an array of integers.
 ms.assetid: 4491bffd-ce5e-4f84-ac11-0314a1b16d63
 title: ID3DXBaseEffect::SetIntArray method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

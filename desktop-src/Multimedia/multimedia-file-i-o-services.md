@@ -8,7 +8,6 @@ keywords:
 - file I/O,services
 - input and output (I/O),services
 - I/O (input and output),services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

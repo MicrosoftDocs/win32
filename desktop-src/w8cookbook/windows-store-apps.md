@@ -2,7 +2,6 @@
 title: Windows Store apps
 description: Windows Store apps
 ms.assetid: FA255E4B-271A-4813-AB49-4710F964F99E
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

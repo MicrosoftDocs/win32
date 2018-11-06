@@ -2,7 +2,6 @@
 Description: Enumerates all of the wireless LAN interfaces managed by the Wireless Zero Configuration service.
 ms.assetid: ef8a6a3e-042a-4219-baed-a82bb3e983ae
 title: WZCEnumInterfaces function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

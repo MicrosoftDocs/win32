@@ -1,9 +1,6 @@
 ---
 title: Invocation-Id attribute
 description: Used to uniquely identify each Microsoft Exchange Server directory in the organization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c069a57c-b9d0-49e9-8096-39b43f378573
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Invocation-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Default-Security-Descriptor attribute
 description: The security descriptor to be assigned to the object when it is first created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 22575883-2ef3-492b-9868-1eb350c4f547
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Default-Security-Descriptor
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

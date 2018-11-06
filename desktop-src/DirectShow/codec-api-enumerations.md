@@ -2,7 +2,6 @@
 Description: Codec API Enumerations
 ms.assetid: 5d6e48cb-d181-448e-a96e-e5ab500427d7
 title: Codec API Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

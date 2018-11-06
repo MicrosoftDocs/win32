@@ -4,7 +4,6 @@ description: Registers a 32-bit in-process server and specifies the threading mo
 ms.assetid: 4edbbd9d-7ea1-4476-aee7-eaf30e54db8d
 keywords:
 - InprocServer32 registry key COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

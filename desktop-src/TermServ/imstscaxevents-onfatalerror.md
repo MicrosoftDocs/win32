@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnFatalError method
 description: Called when the client control encounters a fatal error.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 13a5eb2e-d847-4561-b30b-3f23a0579b4d
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

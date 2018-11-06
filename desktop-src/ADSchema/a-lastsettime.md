@@ -1,9 +1,6 @@
 ---
 title: Last-Set-Time attribute
 description: The last time the secret was changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 71245cd4-90d8-4aa1-ad96-d46d6b3a7ad0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Last-Set-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

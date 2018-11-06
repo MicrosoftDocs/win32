@@ -2,7 +2,6 @@
 Description: To retrieve data from the registry, an application typically enumerates the subkeys of a key until it finds a particular one and then retrieves data from the value or values associated with it.
 ms.assetid: ce4be388-5506-4d01-a73c-33372ef4ccd7
 title: Retrieving Data from the Registry
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

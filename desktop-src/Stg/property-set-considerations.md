@@ -4,7 +4,6 @@ description: It is strongly recommended that property sets be kept small because
 ms.assetid: 520db05e-81cd-40ef-af89-471d7194c634
 keywords:
 - Property Set Considerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-local-Effective-Recycle-Time attribute
 description: Recycle time of the object in the local DIT.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9e0ddff1-be68-4f12-90ad-4028000b4e37
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-local-Effective-Recycle-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

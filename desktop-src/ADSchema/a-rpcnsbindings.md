@@ -1,9 +1,6 @@
 ---
 title: rpc-Ns-Bindings attribute
 description: The list of RPC bindings for the current interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e3893b80-c4d8-4af3-b5b5-b86304456748
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Ns-Bindings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

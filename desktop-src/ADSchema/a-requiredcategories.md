@@ -1,9 +1,6 @@
 ---
 title: Required-Categories attribute
 description: This attribute contains a list of component category IDs an object (such as an application) requires to run.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f0580e59-a7be-43c7-be41-38039b868157
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Required-Categories
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

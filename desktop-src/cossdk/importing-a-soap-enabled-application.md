@@ -2,7 +2,6 @@
 Description: When a SOAP-enabled application has been exported from a server in proxy mode, clients that import it can automatically access the methods of the components it contains, remotely, as web services offered by the server in client-activated object (CAO) mode. This allows you to very easily deploy the functionality of a COM+ application across a network as an XML web service.
 ms.assetid: 7f4783f7-4f53-4f0b-bb64-ae7903097d6c
 title: Importing a SOAP-Enabled Application
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

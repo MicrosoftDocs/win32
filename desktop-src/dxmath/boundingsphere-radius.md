@@ -2,7 +2,6 @@
 Description: The radius of the BoundingSphere.
 ms.assetid: baa212ac-81f6-4765-a484-f1a98c431474
 title: BoundingSphere.Radius
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

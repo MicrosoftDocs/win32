@@ -11,7 +11,6 @@ keywords:
 - inertia,troubleshooting applications
 - manipulations,troubleshooting applications
 - gestures,troubleshooting applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

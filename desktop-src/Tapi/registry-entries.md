@@ -2,7 +2,6 @@
 Description: The pluggable terminals are classified into Terminal Superclasses.
 ms.assetid: 0ab2896e-3634-47f7-b1f4-e7d1ffcb3592
 title: Registry Entries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

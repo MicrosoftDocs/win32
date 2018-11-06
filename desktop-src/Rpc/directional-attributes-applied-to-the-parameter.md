@@ -2,7 +2,6 @@
 title: Directional Attributes Applied to the Parameter
 description: The directional attributes \ in\ and \ out\ determine how the client and server allocate and free memory. The following table summarizes the effect of directional attributes on memory allocation.
 ms.assetid: 21ab54c4-a707-4ee3-bea8-8ba216e25c16
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

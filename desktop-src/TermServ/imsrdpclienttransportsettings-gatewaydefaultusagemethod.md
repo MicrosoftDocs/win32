@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings GatewayDefaultUsageMethod property
 description: The default usage method for Remote Desktop Gateway (RD Gateway).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7014538d-550a-4246-ad32-406ef67fb112
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

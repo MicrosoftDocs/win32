@@ -7,7 +7,6 @@ keywords:
 - playlists,creating
 - metafile playlists,creating
 - creating Windows Media metafile playlists
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

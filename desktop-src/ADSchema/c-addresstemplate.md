@@ -1,9 +1,6 @@
 ---
 title: Address-Template class
 description: Specifies information for a Display Template.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bc13f9aa-cf76-47bf-a1e0-996d2124caa1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Address-Template
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

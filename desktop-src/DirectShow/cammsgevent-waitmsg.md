@@ -2,7 +2,6 @@
 Description: The WaitMsg method waits for the event to be signaled, while dispatching sent messages.
 ms.assetid: 5cab98ca-f9f3-4c7c-9ce2-8e16109d8fbb
 title: CAMMsgEvent.WaitMsg method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,12 +1,8 @@
 ---
 Description: Generates XML representations of objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 06d2b532-7ab2-489d-9021-27b5187c8f2b
 ms.tgt_platform: multiple
 title: Representing Objects in XML
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

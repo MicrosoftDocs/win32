@@ -2,7 +2,6 @@
 Description: The Authorization Manager API and MMC snap-in available in Windows Server 2003 provide applications with a flexible role-based access control framework. This framework includes a set of strippable COM objects for web and line of business applications.
 ms.assetid: 2a2d839f-523e-4c32-b6e8-5cdc6dca195e
 title: Access Control for Application Resources
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Print-Separator-File attribute
 description: The file path of the printer separator page.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef60a08a-5d32-43ab-aeb2-73e6eed2d01b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Separator-File
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

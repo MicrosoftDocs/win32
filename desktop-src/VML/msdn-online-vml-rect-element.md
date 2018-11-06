@@ -2,7 +2,6 @@
 title: VML Rect Element
 description: VML Rect Element
 ms.assetid: c9a97eb1-eb4d-463b-8311-6fbe82b9a74d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

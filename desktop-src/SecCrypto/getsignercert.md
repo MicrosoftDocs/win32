@@ -2,7 +2,6 @@
 Description: The GetSignerCert function goes through (enumerates) the certificates in a certificate store until a certificate with a signature key is found.
 ms.assetid: a3279492-a154-418d-ab25-45ec458ad483
 title: GetSignerCert
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

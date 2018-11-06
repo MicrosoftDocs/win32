@@ -2,7 +2,6 @@
 Description: ASF Support in Media Foundation
 ms.assetid: 4b0c4a83-623a-4378-9436-35ed120316af
 title: ASF Support in Media Foundation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

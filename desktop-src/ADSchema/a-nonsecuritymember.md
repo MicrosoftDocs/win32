@@ -1,9 +1,6 @@
 ---
 title: Non-Security-Member attribute
 description: Nonsecurity members of a group. Used for Exchange distribution lists.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0db135e4-dcba-4afb-a174-3c7b2b40688e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Non-Security-Member
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

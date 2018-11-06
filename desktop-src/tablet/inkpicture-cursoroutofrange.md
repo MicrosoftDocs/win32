@@ -2,7 +2,6 @@
 Description: Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.
 ms.assetid: 0c71a4ad-3c09-4134-b0e7-82f29e8913ed
 title: InkPicture.CursorOutOfRange event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

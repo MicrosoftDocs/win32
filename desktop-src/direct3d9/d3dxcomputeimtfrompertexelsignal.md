@@ -2,7 +2,6 @@
 Description: Calculate per-triangle IMT's from per-texel data. This function is similar to D3DXComputeIMTFromTexture, but it uses a float array to pass in the data, and it can calculate higher dimensional values than 4.
 ms.assetid: 4a151184-e67e-41e9-83c6-63da72f262fa
 title: D3DXComputeIMTFromPerTexelSignal function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

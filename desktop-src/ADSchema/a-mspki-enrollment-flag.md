@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Enrollment-Flag attribute
 description: Contains the enrollment related flags.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e854acb1-75f4-4379-b404-8fa096419ee6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Enrollment-Flag
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

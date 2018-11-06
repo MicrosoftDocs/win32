@@ -1,9 +1,6 @@
 ---
 title: Phone-Ip-Primary attribute
 description: The TCP/IP address for the phone. Used by Telephony.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b51f28e4-4677-4798-87f1-2bd952a528ea
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Phone-Ip-Primary
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

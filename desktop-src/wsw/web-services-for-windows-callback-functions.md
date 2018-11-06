@@ -5,7 +5,6 @@ ms.assetid: 7398ec42-388a-494c-9fe4-5bd62aa009cb
 keywords:
 - WWSAPI
 - WWS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

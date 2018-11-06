@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation SelectionItem
 - control patterns,SelectionItem
 - interfaces,ISelectionItemProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

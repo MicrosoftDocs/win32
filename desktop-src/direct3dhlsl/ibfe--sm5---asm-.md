@@ -2,7 +2,6 @@
 title: ibfe (sm5 - asm)
 description: Given a range of bits in a number, shift those bits to the LSB and sign extend the MSB of the range.
 ms.assetid: 1ED39812-A89F-4325-82A0-DA2CCC55A99A
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

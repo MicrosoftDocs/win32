@@ -2,7 +2,6 @@
 Description: Major Media Types
 ms.assetid: 1cca3539-a920-4938-93b9-ae41e1c0a287
 title: Major Media Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: When the Windows Media Audio encoder enumerates output types, it identifies each enumerated type as either Standard, Professional, or Lossless.
 ms.assetid: 1c3d22c3-10f7-454a-b1c1-372d684b6568
 title: Configuring Standard, Professional, or Lossless Audio Encoding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

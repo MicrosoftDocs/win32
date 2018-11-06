@@ -2,7 +2,6 @@
 Description: The ICertPropertyAutoEnroll interface exposes the following properties.
 ms.assetid: 99426DAE-BB12-4E5B-A955-50C96297D475
 title: ICertPropertyAutoEnroll Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: room class
 description: The room object class is used to define entries that represent rooms.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 35c95033-a565-4431-9926-2cf9ee348839
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - room
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

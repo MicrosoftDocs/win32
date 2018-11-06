@@ -1,7 +1,6 @@
 ---
 Description: Sets the autohide and always-on-top states of the Windows taskbar.
 title: ABM_SETSTATE message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

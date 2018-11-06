@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings CachePersistenceActive property
 description: Specifies whether persistent bitmap caching should be used. Persistent caching can improve performance but requires additional disk space.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5eb986c4-98dd-426f-8d55-d3a9a526e1b2
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

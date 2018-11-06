@@ -2,7 +2,6 @@
 title: Simple Frame Site Containment
 description: Simple Frame Site Containment
 ms.assetid: 85c3565f-f557-43af-8d36-58414d0790cd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Unimodem, or Universal Modem Driver, TSP (Unimdm.tsp) provides access to nearly all standard modems.
 ms.assetid: 1ea60477-f6c9-44ae-969c-515dfb0c607e
 title: Unimodem TSP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,6 @@
 ---
 ms.assetid: b8ddbfac-5b5e-4aff-beea-82e7fc984790
 title: Limitations of the Scripting Model
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

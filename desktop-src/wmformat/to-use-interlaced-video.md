@@ -22,7 +22,6 @@ keywords:
 - interlaced video,encoding
 - interlaced video,decoding
 - interlaced video,field order
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

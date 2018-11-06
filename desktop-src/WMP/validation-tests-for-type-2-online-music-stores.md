@@ -4,7 +4,6 @@ description: This topic describes tests that Microsoft will perform to validate 
 ms.assetid: 1da51772-9711-4913-b05d-830fabe49da2
 keywords:
 - Windows Media Player Online Stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

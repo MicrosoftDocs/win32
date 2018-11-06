@@ -2,7 +2,6 @@
 Description: You now have all the essential elements needed to navigate anywhere in the namespace.
 ms.assetid: 'bd9f903d-bea6-494f-af81-d90457dc2647'
 title: Navigating the Namespace
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

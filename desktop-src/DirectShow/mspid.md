@@ -2,7 +2,6 @@
 Description: Note  This API is deprecated. New applications should not use it. The MSPID data type identifies the purpose of a media steam.
 ms.assetid: 83a84eb7-a72c-4ca7-b152-8cc81a5bfdaf
 title: MSPID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

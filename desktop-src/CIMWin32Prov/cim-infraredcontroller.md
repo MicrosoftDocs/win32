@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_InfraredController class represents the capabilities and management of an infrared controller.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c3643c1c-a3c0-4600-b432-4f4be925aeb5
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_InfraredController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -48,7 +42,7 @@ api_location:
 
 The **CIM\_InfraredController** class represents the capabilities and management of an infrared controller.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

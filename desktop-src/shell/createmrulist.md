@@ -1,7 +1,6 @@
 ---
 Description: Creates a new most recently used (MRU) list.
 title: CreateMRUListW function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

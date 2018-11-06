@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Database attribute
 description: The name of the SQL Server database involved in replication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 624705d9-df3f-458e-98f4-fb8da073efd6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Database
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

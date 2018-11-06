@@ -1,16 +1,12 @@
 ---
 title: The IADs and IDirectoryObject Interfaces
 description: ADSI clients manage and manipulate directory service objects by using one of two COM interfaces IADs or IDirectoryObject.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f9c486b0-3dfb-4abf-afbf-08749e04315f
 ms.tgt_platform: multiple
 keywords:
 - IADs ADSI ,about
 - IDirectoryObject ADSI , about
 - ADSI ADSI ,using,IADs and IDirectoryObject interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

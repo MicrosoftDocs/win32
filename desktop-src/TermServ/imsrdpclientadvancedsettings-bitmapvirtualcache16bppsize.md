@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings BitmapVirtualCache16BppSize property
 description: Specifies the size, in megabytes, of the persistent bitmap cache file to use for the 15 and 16 bits-per-pixel high-color settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f2558c88-d60f-4be3-9941-8e0e18bbb778
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Code-Page attribute
 description: Specifies the code page for the user's language of choice. This value is not used by Windows 2000.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f98e6fbe-0c9a-4ee0-8158-3eaaca359675
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Code-Page
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

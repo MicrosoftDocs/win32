@@ -1,9 +1,6 @@
 ---
 title: Can-Upgrade-Script attribute
 description: This attribute stores the list of application packages that can be upgraded by or which can upgrade this application package.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 95dea9c7-dbbd-42fb-ab32-6b89490aa5d6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Can-Upgrade-Script
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

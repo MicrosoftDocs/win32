@@ -2,7 +2,6 @@
 Description: Step 3.
 ms.assetid: a0e52ba9-9f7c-4cf3-ba5f-b0035ed1794c
 title: Step 3. Support QueryInterface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

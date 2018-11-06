@@ -1,9 +1,6 @@
 ---
 title: FRS-Directory-Filter attribute
 description: The list of directories excluded from file replication, for example, temp, or obj.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3ce37a96-0cb2-46bf-aad1-80fc1304855d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Directory-Filter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

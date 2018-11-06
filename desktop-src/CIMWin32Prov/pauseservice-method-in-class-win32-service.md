@@ -1,14 +1,8 @@
 ---
 Description: Attempts to place the service in the paused state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5382457e-7f9c-48a5-9262-b815a1a4a605
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: PauseService method of the Win32_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

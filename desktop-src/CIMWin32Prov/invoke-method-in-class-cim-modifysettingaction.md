@@ -1,14 +1,8 @@
 ---
 Description: The Invoke method of the CIM\_ModifySettingAction class takes a particular action. Details of how the method performs the action are implementation-specific. This method is inherited from CIM\_Action.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 360e3e00-1c09-495a-8fc0-ce2e9d1f9e77
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_ModifySettingAction class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Invoke** method of the [**CIM\_ModifySettingAction**](cim-modifysettingaction.md) class takes a particular action. Details of how the method performs the action are implementation-specific. This method is inherited from [**CIM\_Action**](cim-action.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -2,7 +2,6 @@
 Description: Takes a mesh and returns a new mesh with per-vertex blend weights, indices, and a bone combination table. The table describes which bone palettes affect which subsets of the mesh.
 ms.assetid: e4758a3b-8a45-4ed3-aa62-9713d12afc56
 title: ID3DXSkinInfo::ConvertToIndexedBlendedMesh method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

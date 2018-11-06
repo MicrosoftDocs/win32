@@ -4,7 +4,6 @@ description: The header file contains definitions of all data types and operatio
 ms.assetid: 51789b42-e01c-4233-97da-5e0a044f596f
 keywords:
 - MIDL and RPC MIDL , interfaces, header file
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Some phone sets support the notion of downloading data from or uploading data to the phone device, which allows the phone set to be programmed in a variety of ways.
 ms.assetid: 5734107d-8104-4d8a-b3f7-3cc2a48f71ca
 title: Data Areas
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

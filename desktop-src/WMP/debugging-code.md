@@ -9,7 +9,6 @@ keywords:
 - Windows Media Player skins,logging
 - skins,logging
 - logging functionality in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: The Need For Extended Error Information
 description: A primary difficulty associated with troubleshooting RPC problems is mapping an RPC error code to the underlying problem.
 ms.assetid: aef3bcd6-ecaa-4639-b765-da90db6ddf82
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

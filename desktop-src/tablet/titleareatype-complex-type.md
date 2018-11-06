@@ -2,7 +2,6 @@
 Description: Defines the type that contains position and bounds information for the title in a note.
 ms.assetid: 45beca78-b88d-414b-90d5-8e7a0ee9cbed
 title: TitleAreaType Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

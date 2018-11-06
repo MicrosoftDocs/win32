@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Enabled attribute
 description: Specifies whether the object is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 60496ed7-ea72-4a3b-8d89-65f970d92baa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Enabled
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

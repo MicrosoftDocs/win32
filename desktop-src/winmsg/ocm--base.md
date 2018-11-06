@@ -2,7 +2,6 @@
 Description: Used to define private messages for use by private window classes, usually of the form OCM\_\_BASE+x, where x is an integer value.
 ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
 title: OCM__BASE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

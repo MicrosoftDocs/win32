@@ -2,7 +2,6 @@
 Description: Defines values for use with the FXEQ\_PARAMETERS structure.
 ms.assetid: 2e77ac36-95e7-3a15-f5a6-6576e3c69d75
 title: FXEQ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

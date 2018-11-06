@@ -1,9 +1,6 @@
 ---
 title: GetIcon method of the Win32_TSGetIcon class
 description: Returns the contents of the specified icon.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9448181c-27b8-40eb-9369-8abe1422243b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

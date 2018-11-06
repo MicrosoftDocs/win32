@@ -1,12 +1,8 @@
 ---
 Description: WMI does not currently support managed code on WMI, but is supported on MI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ED6EF216-7FF7-45F2-9FDD-3A73D5F65F9B
 ms.tgt_platform: multiple
 title: Creating a Managed WMI Client
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

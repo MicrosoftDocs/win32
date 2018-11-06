@@ -2,7 +2,6 @@
 Description: Completes an asynchronous request to unregister a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 ms.assetid: 0E8F9BF6-AC1E-4FC0-BFAE-F292C4859F1F
 title: RtwqEndUnregisterWorkQueueWithMMCSS function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

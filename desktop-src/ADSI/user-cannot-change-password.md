@@ -1,15 +1,11 @@
 ---
 title: User Cannot Change Password (LDAP Provider)
 description: This topic contains links to topics that describe how to set up the User Cannot Change Password attribute for an LDAP provider using ADSI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4cd1113d-7e0a-4518-be08-1d2630ee9f7f
 ms.tgt_platform: multiple
 keywords:
 - User Cannot Change Password ADSI ,LDAP provider
 - LDAP provider ADSI ,user management examples,User Cannot Change Password
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Returning Only Attribute Names with IDirectorySearch
 description: You can perform a search to determine what type of data is available for a particular object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 47e78b79-2063-420b-aa41-f4f0c35f87ea
 ms.tgt_platform: multiple
 keywords:
 - Returning Only Attribute Names with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Returning Only Attribute Names
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

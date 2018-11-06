@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Profile-Path attribute
 description: Terminal Services Profile Path specifies a roaming or mandatory profile path to use when the user logs on to the terminal server. The profile path is in the following network path format \\\\ServerName\\ProfilesFolderName\\UserName.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9b13f91d-c3ee-4862-800c-fda831dce859
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Profile-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

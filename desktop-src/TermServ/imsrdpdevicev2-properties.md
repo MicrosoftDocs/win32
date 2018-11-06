@@ -1,12 +1,8 @@
 ---
 title: IMsRdpDeviceV2 properties
 description: The IMsRdpDeviceV2 interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 763A6D57-5C38-4B8E-AEAB-A0E0390AA751
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

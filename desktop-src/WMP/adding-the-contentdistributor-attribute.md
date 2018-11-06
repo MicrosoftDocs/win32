@@ -13,7 +13,6 @@ keywords:
 - type 2 online stores,ContentDistributor attribute
 - adding ContentDistributor attribute
 - ContentDistributor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

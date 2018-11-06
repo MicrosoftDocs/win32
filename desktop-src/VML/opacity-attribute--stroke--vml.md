@@ -2,7 +2,6 @@
 title: Opacity Attribute (Stroke)(VML)
 description: Opacity Attribute (Stroke)(VML)
 ms.assetid: 8f1968ba-0d0b-4cd6-9332-74755e891783
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

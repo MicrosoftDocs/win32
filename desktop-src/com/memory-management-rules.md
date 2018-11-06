@@ -2,7 +2,6 @@
 title: Memory Management Rules
 description: Memory Management Rules
 ms.assetid: 769127a1-1a14-4ed4-9d38-7cf3e571b661
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

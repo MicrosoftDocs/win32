@@ -1,16 +1,12 @@
 ---
 title: Searching in Active Directory Domain Services
 description: Search is a key feature of Active Directory Domain Services. Search enables you to find objects in the directory based on selection criteria (query) and to retrieve specified properties for the objects found.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 049518d1-c994-4da2-83c1-d37acc94bb39
 ms.tgt_platform: multiple
 keywords:
 - Active Directory, Searching Active Directory
 - Active Directory Domain Services, Searching Active Directory
 - Searching Active Directory Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

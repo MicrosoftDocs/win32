@@ -2,7 +2,6 @@
 Description: Peer-to-peer Grouping is a technology that allows a developer to create a secure peer network quickly and effectively.
 ms.assetid: ee72f60b-1e5b-4b69-bda0-2ae80734c144
 title: How to Work With Groups
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - Windows Media Format SDK,sample applications
 - digital rights management (DRM),sample applications
 - DRM (digital rights management),sample applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

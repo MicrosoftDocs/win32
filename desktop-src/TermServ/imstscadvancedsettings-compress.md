@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings Compress property
 description: Specifies whether compression is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 274774b3-0442-4a46-95f8-7857f885bfdb
 ms.tgt_platform: multiple
 keywords:
@@ -60,7 +57,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Organizational-Person class
 description: This class is used for objects that contain organizational information about a user, such as the employee number, department, manager, title, office address, and so on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dbcecb0d-e7ab-4005-82ad-5ffe9b06a380
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Organizational-Person
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

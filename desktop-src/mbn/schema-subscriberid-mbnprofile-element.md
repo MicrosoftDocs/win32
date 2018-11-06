@@ -2,7 +2,6 @@
 Description: Identifies the unique identifier of the profile.
 ms.assetid: 7572ef4f-ce7a-4595-a5ad-ade96e36d7d7
 title: SubscriberID (MBNProfile) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Retrieves the value of the alternate class ID.
 ms.assetid: 80c7cbba-e28d-4973-9f3f-7636ff331b64
 title: ISCardCmd::get_AlternateClassId method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

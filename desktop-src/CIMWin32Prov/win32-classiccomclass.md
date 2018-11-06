@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ClassicCOMClass WMI class represents the properties of a COM component.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 49b10991-cc2e-40a1-bbb3-a816a52d1a91
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMClass class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

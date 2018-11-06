@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings7 NetworkConnectionType property
 description: Gets or sets the type of network connection used between the client and server. The network connection type information passed on to the server helps the server tune several parameters based on the network connection type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4dd4fa17-f121-412d-a30d-1c01f4c892b0
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

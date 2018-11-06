@@ -2,7 +2,6 @@
 Description: In a Microsoft PKI, certificate requests are sent from client computers to certification authorities (CAs) as a binary string that contains a sequence of encoded data structures.
 ms.assetid: 0b9fa1bc-b67e-4b50-abd5-cbc3663ff219
 title: Certificate Request Encoding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: IEnumBitsPeerCacheRecords Methods
 description: The IEnumBitsPeerCacheRecords interface exposes the following methods.
 ms.assetid: 1F11EA5E-6784-4E26-A567-2347DD464342
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

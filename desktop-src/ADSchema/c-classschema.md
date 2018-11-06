@@ -1,9 +1,6 @@
 ---
 title: Class-Schema class
 description: Defines a class object in the schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 10c0839e-a657-4ed1-809e-fa6bf388fc8b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Class-Schema
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_TemperatureProbe&\#32; WMI class represents the properties of a temperature sensor (electronic thermometer).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 63ba1ae2-6abc-4d86-a7f6-f02536ebd8ac
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_TemperatureProbe class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

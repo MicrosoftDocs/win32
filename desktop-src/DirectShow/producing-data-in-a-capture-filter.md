@@ -2,7 +2,6 @@
 Description: This topic describes how a custom DirectShow capture filter should generate output data.
 ms.assetid: e407e9ed-f1f7-43c4-a048-c27476c910ea
 title: Producing Data in a Capture Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Mapping Active Directory Syntax to ADSI Syntax
 description: The following table maps the Active Directory syntaxes to their corresponding ADSI syntaxes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ffb40eff-e137-4d6a-81e7-24d2cbbdbfbf
 ms.tgt_platform: multiple
 keywords:
 - attributes ADSI ,mapping Active Directory syntax to ADSI syntax
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

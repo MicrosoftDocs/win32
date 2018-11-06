@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SessionProcess association WMI class represents an association between a logon session and the processes associated with that session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 19d4ecf9-27b5-4a0b-9c76-7d10679aaf5e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SessionProcess class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

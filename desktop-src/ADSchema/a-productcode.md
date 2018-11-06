@@ -1,9 +1,6 @@
 ---
 title: Product-Code attribute
 description: This attribute contains a unique identifier for an application for a particular product release, represented as a string GUID, for example \ 0034; 12345678-1234-1234-1234-123456789012 \ 0034;.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1fb50a4c-1a6a-4231-a6b2-92f6bc4a1ead
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Product-Code
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: dhcp-Subnets attribute
 description: The dhcp-Subnets attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 61ff1e42-3d6e-4246-a8f8-69bc75ff24fc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Subnets
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

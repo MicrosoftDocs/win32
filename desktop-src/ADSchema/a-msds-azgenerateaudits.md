@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Generate-Audits attribute
 description: A Boolean field that indicates whether runtime audits need to be turned on (include audits for access checks, and so on).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 23578f6a-7e7f-4871-9503-73f2ce598173
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Generate-Audits
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

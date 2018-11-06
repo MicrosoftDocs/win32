@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-MaxAgeInCacheInMin attribute
 description: Maximum time, in minutes, to keep files in full form.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 22f00c23-77da-4eeb-a75e-3bf2ff12d2be
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-MaxAgeInCacheInMin
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

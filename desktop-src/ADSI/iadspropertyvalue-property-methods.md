@@ -1,9 +1,6 @@
 ---
 title: IADsPropertyValue Property Methods
 description: The property methods of the IADsPropertyValue interface provide access to the properties described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1039d4a9-bef8-457d-9a32-3743c14adef1
 ms.tgt_platform: multiple
 keywords:
@@ -52,7 +49,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

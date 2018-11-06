@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ManagementController class relates to the capabilities and management of a management controller.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 47ad29d1-5021-4469-87c0-bd9403faa70c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ManagementController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -48,7 +42,7 @@ api_location:
 
 The **CIM\_ManagementController** class relates to the capabilities and management of a management controller.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

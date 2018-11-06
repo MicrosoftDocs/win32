@@ -2,7 +2,6 @@
 Description: Represents the raw data from a Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure.
 ms.assetid: a51b73bb-a5f7-4e01-9c88-780105e9952b
 title: WmiMonitorRawEEdidV1Block class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

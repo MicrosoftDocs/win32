@@ -2,7 +2,6 @@
 Description: The SourceListAddMediaDisk method adds a disk to the set of registered disks. Accepts Diskid, VolumeLabel and DiskPrompt as parameters. This method calls on MsiSourceListAddMediaDisk.
 ms.assetid: 19cb6884-2191-4da3-a6d2-8874564be67d
 title: Product.SourceListAddMediaDisk method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,10 @@
 ---
 title: Context Menus for Use with Display Specifiers
 description: The Active Directory administrative MMC snap-ins and Windows 2000 shell provide a mechanism to add an item to the context menu displayed for objects in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0b0691f5-321d-4f22-b39c-bc528db9e707
 ms.tgt_platform: multiple
 keywords:
 - display specifiers AD ,context menus for
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

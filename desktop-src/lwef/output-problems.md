@@ -2,7 +2,6 @@
 title: Output Problems
 description: Output Problems
 ms.assetid: 45423b7e-f648-408c-9cff-f7cf1affc42a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

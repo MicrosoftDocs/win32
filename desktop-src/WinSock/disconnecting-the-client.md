@@ -2,7 +2,6 @@
 Description: Once the client is completed sending and receiving data, the client disconnects from the server and shutdowns the socket.
 ms.assetid: 33165e5b-e304-42b1-9542-45d8fe8a5218
 title: Disconnecting the Client
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

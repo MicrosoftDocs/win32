@@ -8,7 +8,6 @@ keywords:
 - system profiles,IWMProfileManagerLanguage interface
 - localized system profiles,about
 - IWMProfileManagerLanguage
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

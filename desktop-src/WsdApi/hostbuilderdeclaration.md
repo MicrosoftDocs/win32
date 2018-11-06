@@ -2,7 +2,6 @@
 Description: Generates a declaration for a function that creates a typed host.
 ms.assetid: 3c08e913-b47e-4ca7-b8bc-7b036e57db01
 title: hostBuilderDeclaration element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

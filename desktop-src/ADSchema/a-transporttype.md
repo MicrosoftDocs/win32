@@ -1,9 +1,6 @@
 ---
 title: Transport-Type attribute
 description: The distinguished name for a type of transport being used to connect sites together. This value can point to an IP or SMTP transport.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aed18e69-3118-4cb8-b959-829106602f95
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Transport-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - streams,GenProfile
 - codecs,GenProfile
 - GenProfile
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

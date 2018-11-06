@@ -1,9 +1,6 @@
 ---
 title: Show-In-Advanced-View-Only attribute
 description: TRUE if this attribute is to be visible in the Advanced mode of the UI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: af2e3b9c-50ad-40e4-88b7-155f792965f1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Show-In-Advanced-View-Only
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

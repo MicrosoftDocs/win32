@@ -1,14 +1,10 @@
 ---
 title: Security Descriptor Components
 description: Having used the IADs.Get method to retrieve an IADsSecurityDescriptor interface pointer, you can use the IADsSecurityDescriptor properties to read or write the components of a directory object's security descriptor.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 35d3d16b-d7fc-4967-ba5c-5a77e058a9ae
 ms.tgt_platform: multiple
 keywords:
 - Security Descriptor Components AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

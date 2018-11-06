@@ -2,7 +2,6 @@
 Description: Performs an operation on a specified file.
 ms.assetid: ce652565-40b6-4f69-bd2a-9e05e3f360ac
 title: WOWShellExecute function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

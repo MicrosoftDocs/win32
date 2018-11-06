@@ -2,7 +2,6 @@
 title: Making and Processing Asynchronous Calls
 description: COM objects can support asynchronous calling.
 ms.assetid: bf7f9f8e-66ce-41a4-854c-62dbe840a89e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

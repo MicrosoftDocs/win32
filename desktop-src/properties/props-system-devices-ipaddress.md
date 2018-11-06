@@ -2,7 +2,6 @@
 Description: IP address of the device.
 ms.assetid: bf06dd91-b0e8-434e-8551-6a2a659b8093
 title: System.Devices.IpAddress
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies the room type for a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: d19b6b9d-9606-48a8-ac8e-cdbf15588a8f
 title: AVEncDDProductionRoomType property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

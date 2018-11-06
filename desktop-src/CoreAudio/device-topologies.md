@@ -2,7 +2,6 @@
 Description: Device Topologies
 ms.assetid: 5ac421e5-74a4-40e8-af6f-a99a05ebc3e0
 title: Device Topologies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

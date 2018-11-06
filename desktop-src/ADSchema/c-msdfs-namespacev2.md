@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Namespace-v2 class
 description: DFS namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1b5a8067-1aa9-4aaf-a0d4-9d55c772560c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Namespace-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

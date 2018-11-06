@@ -1,12 +1,8 @@
 ---
 Description: Represents a class creation event, which is a type of intrinsic event generated when a new class is added to the namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a946a8eb-498c-4104-b80f-e520b0e62e36
 ms.tgt_platform: multiple
 title: '__ClassCreationEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

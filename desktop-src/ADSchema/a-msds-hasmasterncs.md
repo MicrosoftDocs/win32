@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Has-Master-NCs attribute
 description: Contains the naming contexts held by a domain controller. This attribute deprecates has-Master-NCs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5325db42-afd7-472c-8797-447e752a3907
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Has-Master-NCs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

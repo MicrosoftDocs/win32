@@ -2,7 +2,6 @@
 title: samplepos (sm4.1 - asm)
 description: Queries the position of a sample in a given shader resource view or in the rasterizer.
 ms.assetid: 5A53B342-3A1D-4016-ABF2-CA6236D562C9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

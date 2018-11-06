@@ -20,7 +20,6 @@ keywords:
 - DRM (digital rights management),export
 - DRM Client Extended APIs,export
 - Client Extended APIs,export
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

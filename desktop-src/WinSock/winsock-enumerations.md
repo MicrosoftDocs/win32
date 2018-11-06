@@ -2,7 +2,6 @@
 Description: The following list provides concise descriptions of each Winsock enumeration. For additional information on any enumeration, click the enumeration name.
 ms.assetid: 7a4daba0-3497-482b-b7eb-d5596d314062
 title: Winsock Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

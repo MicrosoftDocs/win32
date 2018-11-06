@@ -2,7 +2,6 @@
 Description: The Crawl Scope Manager (CSM) enables you define scope rules that include or exclude URLs from the Windows Search crawl scope.
 ms.assetid: 132a55f9-680d-438e-b983-f5ce4cf66a41
 title: Managing Scope Rules
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

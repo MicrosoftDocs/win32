@@ -2,7 +2,6 @@
 Description: The following example lists the certificates in a system certificate store, displaying the name of the subject of each certificate, and it allows the user to choose to delete any certificates from the store.
 ms.assetid: 52a0287b-7d2a-483e-8bbc-43621c4b7103
 title: 'Example C Program: Deleting Certificates from a Certificate Store'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

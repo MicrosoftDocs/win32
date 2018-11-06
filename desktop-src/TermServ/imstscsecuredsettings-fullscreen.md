@@ -1,9 +1,6 @@
 ---
 title: IMsTscSecuredSettings Fullscreen property
 description: Specifies the full-screen state of the client control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f65c2fa3-b2d0-4e64-bf1e-08394c91eda8
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Creating a User
 description: To create a user in Active Directory Domain Services, create a user object in the domain container of the domain where you want to place the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb51895f-71e1-45b6-b8bc-ed674e822734
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a user
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

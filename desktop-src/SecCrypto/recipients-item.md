@@ -2,7 +2,6 @@
 Description: Retrieves an object from the Recipients collection.
 ms.assetid: 03600d4a-5fd4-45c7-ae91-efdc26c084ee
 title: Recipients.Item property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

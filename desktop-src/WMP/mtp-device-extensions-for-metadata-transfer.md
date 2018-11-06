@@ -16,7 +16,6 @@ keywords:
 - device extensions,metadata transfer
 - extensions,metadata transfer
 - MTP device extensions for metadata transfer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

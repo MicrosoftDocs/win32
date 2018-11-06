@@ -2,7 +2,6 @@
 Description: Supplementary phone services are a set of advanced services beyond basic phone services, supported by phone devices.
 ms.assetid: e8bcb5f4-a843-4fe1-828e-6a771f31af4e
 title: Supplementary Phone Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Required Interfaces
 description: Required Interfaces
 ms.assetid: ae238882-d0c9-4120-b8a8-001bf9559cfa
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

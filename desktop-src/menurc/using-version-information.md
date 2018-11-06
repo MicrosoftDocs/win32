@@ -6,7 +6,6 @@ keywords:
 - resources,version information
 - version information
 - installation file information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

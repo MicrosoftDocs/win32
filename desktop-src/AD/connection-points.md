@@ -1,14 +1,10 @@
 ---
 title: Connection Points
 description: A connection point object contains data about one or more instances of a service available on the network.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eb810e6d-c220-4a24-ae12-b12ace237413
 ms.tgt_platform: multiple
 keywords:
 - connection points AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

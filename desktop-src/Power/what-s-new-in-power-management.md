@@ -2,7 +2,6 @@
 Description: Windows 10 helps your application optimize power consumption when its running on a mobile device.
 ms.assetid: a956b88c-8a75-4c1c-af27-53c69feb1596
 title: Whats New in Power Management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

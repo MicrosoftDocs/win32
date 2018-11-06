@@ -2,7 +2,6 @@
 Description: Indicates if the drive for the storage is portable.
 ms.assetid: d9ac5df6-9f25-4f11-a7fd-63cdc0060d8b
 title: System.Storage.Portable
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

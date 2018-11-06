@@ -2,7 +2,6 @@
 Description: The following code examples demonstrate implementation of a simple event handler, registration of the main TAPI event interface, setting of the event filter, and registration for call notifications.
 ms.assetid: e7662a26-d7b2-4bff-aa72-e38b58bc15df
 title: Register Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

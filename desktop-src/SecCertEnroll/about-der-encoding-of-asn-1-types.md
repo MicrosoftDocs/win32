@@ -2,7 +2,6 @@
 Description: How the ASN.1 data types supported by the Certificate Enrollment API are encoded by using Distinguished Encoding Rules (DER).
 ms.assetid: 901dc977-79fe-4b02-9a0c-68474d6bbf31
 title: DER Encoding of ASN.1 Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

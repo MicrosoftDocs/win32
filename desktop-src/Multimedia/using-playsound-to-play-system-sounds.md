@@ -10,7 +10,6 @@ keywords:
 - PlaySound function,sound events
 - playing waveform-audio system sounds
 - sound events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

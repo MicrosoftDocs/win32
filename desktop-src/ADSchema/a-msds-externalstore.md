@@ -1,9 +1,6 @@
 ---
 title: ms-DS-External-Store attribute
 description: A string that identifies the location of an external store, such as a database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 93c8ac85-521f-464b-a32f-6ae4c941899e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-External-Store
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

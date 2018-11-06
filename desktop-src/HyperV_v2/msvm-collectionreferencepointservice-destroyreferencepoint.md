@@ -2,7 +2,6 @@
 Description: Destroys an existing reference point collection. This method may as a side effect destroy other reference points that are dependent on the affected reference point collection.
 ms.assetid: 72c116f4-f844-494c-96ea-e97c49a2af7e
 title: DestroyReferencePoint method of the Msvm_CollectionReferencePointService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

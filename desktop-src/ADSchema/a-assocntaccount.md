@@ -1,9 +1,6 @@
 ---
 title: Assoc-NT-Account attribute
 description: The Windows NT account that applies to this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 58aa877d-a627-48e9-8137-9dc7cd9b8ada
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Assoc-NT-Account
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

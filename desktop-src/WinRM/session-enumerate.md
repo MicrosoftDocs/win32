@@ -1,9 +1,6 @@
 ---
 title: Session.Enumerate method
 description: Enumerates a table, data collection, or log resource.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ed8ad3ad-d033-45cb-b681-995c5f73b12e
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

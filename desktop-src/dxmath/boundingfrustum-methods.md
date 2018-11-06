@@ -2,7 +2,6 @@
 Description: BoundingFrustum Methods
 ms.assetid: f77aac4a-7fbf-4149-a1c4-ee4c58d37222
 title: BoundingFrustum Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: SetClientAccessName method of the Win32_RDMSEnvironment class
 description: Updates the Domain Name System (DNS) resource record (RR) name of an Remote Desktop Management Services (RDMS) environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bbce3fc1-d2c5-4874-bdd0-be27fb5981d1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

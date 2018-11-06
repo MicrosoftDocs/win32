@@ -2,7 +2,6 @@
 title: Registration Trigger Example (C++)
 description: This C++ example shows how to create a task that is scheduled to execute Notepad when a task is registered.
 ms.assetid: 5e2e8fa6-66c7-4356-8fd6-22f7974791b9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

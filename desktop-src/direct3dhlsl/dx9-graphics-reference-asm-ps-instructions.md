@@ -2,7 +2,6 @@
 title: Pixel Shader Instructions
 description: Pixel Shader Instructions
 ms.assetid: d1d16d05-ab23-4039-b3fb-7a5a014e4f28
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

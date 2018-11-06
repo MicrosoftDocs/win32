@@ -1,12 +1,8 @@
 ---
 title: Proxy Servers and WinRM
 description: Windows Remote Management (WinRM) uses HTTP and HTTPS to send messages between the client and server computers. In general, the WinRM client sends messages directly to the WinRM server. WinRM clients can be also configured to use a proxy server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f8137b3a-7704-4b21-a923-6e2692e18d90
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

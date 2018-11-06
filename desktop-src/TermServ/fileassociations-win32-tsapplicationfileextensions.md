@@ -1,9 +1,6 @@
 ---
 title: FileAssociations method of the Win32_TSApplicationFileExtensions class
 description: Scans the registry to get the current file associations for an application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d2c55b59-f3aa-401b-b176-b287c2e26192
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_DCOMApplication WMI class represents the properties of a DCOM application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 11856834-6774-4262-bac4-e0265d4ba7e3
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DCOMApplication class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

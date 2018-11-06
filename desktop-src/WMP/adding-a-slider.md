@@ -7,7 +7,6 @@ keywords:
 - Windows Media Player skins,sliders
 - skins,sliders
 - sliders in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

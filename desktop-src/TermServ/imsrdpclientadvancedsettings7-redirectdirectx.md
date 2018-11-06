@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings7 RedirectDirectX property
 description: This property is not used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a027d8d7-994f-4b24-8c46-18651c8e200b
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

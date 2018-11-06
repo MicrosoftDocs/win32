@@ -2,7 +2,6 @@
 Description: Configuring COM+ Services with CServiceConfig
 ms.assetid: c44743a8-8b91-4e2a-9ba4-4cb6ae787999
 title: Configuring COM+ Services with CServiceConfig
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

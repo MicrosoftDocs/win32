@@ -1,9 +1,6 @@
 ---
 title: Win32_TSSessionDirectorySetting class
 description: Represents the association between an instance of the Win32\_TerminalService class and an instance of the Win32\_TSSessionDirectory class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b6350f7b-386f-4f6b-8ab1-29d5d21fae02
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

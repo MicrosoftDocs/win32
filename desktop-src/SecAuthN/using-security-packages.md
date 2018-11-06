@@ -2,7 +2,6 @@
 Description: Lists the security packages that can be used with SSPI.
 ms.assetid: f5999d41-b334-49be-8883-d9b9042d20dc
 title: Using Security Packages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

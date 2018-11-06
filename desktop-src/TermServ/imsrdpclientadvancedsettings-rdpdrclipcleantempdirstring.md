@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings RdpdrClipCleanTempDirString property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3c143567-edfd-4a28-a390-4733b91aae20
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

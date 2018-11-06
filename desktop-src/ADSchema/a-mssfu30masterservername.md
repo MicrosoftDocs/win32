@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Master-Server-Name attribute
 description: Contains the value that is returned when the NIS server processes a yp\_master API call.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2f68491a-7e0d-4d58-aaff-05503e296b53
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Master-Server-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

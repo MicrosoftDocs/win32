@@ -1,9 +1,6 @@
 ---
 title: DsBackupOpenFile function
 description: Opens the specified file and performs the client and server operations necessary to prepare the file for backup.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1ffb81ee-9e7e-4d88-91fc-f1857377d125
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

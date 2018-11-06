@@ -6,7 +6,6 @@ keywords:
 - creating skins,choosing files
 - Windows Media Player skins,choosing files
 - skins,choosing files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

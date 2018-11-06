@@ -1,9 +1,6 @@
 ---
 title: Netboot-SIF-File attribute
 description: The Netboot-SIF-File attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3ead21b7-e27e-4056-8e79-96976aa28f37
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Netboot-SIF-File
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

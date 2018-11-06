@@ -2,7 +2,6 @@
 title: Software Layers
 description: The Direct3D 11 runtime is constructed with layers, starting with the basic functionality at the core and building optional and developer-assist functionality in outer layers. This section describes the functionality of each layer.
 ms.assetid: c545983c-5351-42a9-82e5-deea73aa035f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

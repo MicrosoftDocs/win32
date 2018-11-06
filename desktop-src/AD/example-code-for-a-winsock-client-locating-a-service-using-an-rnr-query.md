@@ -1,16 +1,12 @@
 ---
 title: Example Code for Locating a Service Using an RnR Query
 description: The following code example locates the example Winsock service and connects to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c05c7f69-d510-4feb-b426-1ae3a3ed5e16
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Locating a Service Using an RnR Query AD
 - Windows Sockets Registration and Resolution AD , Example Code, Locating a Service Using an RnR Query
 - Locating a Service Using an RnR Query AD , Example Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

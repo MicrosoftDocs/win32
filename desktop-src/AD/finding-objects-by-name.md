@@ -1,16 +1,12 @@
 ---
 title: Finding Objects by Name
 description: Most objects in Active Directory Domain Services use the cn property as their naming attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c5df7403-23bc-440e-8cd6-215ab8037aed
 ms.tgt_platform: multiple
 keywords:
 - Active Directory, using, searching, by name
 - object AD , searching by name
 - Finding Objects by Name
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

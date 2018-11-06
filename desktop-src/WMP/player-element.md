@@ -8,7 +8,6 @@ keywords:
 - PLAYER element
 - reference for skins,PLAYER element
 - elements,PLAYER
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

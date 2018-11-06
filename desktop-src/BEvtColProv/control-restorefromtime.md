@@ -1,14 +1,8 @@
 ---
 Description: Restore the active configuration of the collector from a backup file, selected by a timestamp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3ee4156b-c68f-4c44-b9be-dd86e8f4b340
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: RestoreFromTime method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

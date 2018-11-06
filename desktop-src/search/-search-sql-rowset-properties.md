@@ -2,7 +2,6 @@
 Description: After a result is returned from a query, you can access several properties for the rowset.
 ms.assetid: 71aa0ad6-ef34-47ee-945f-04bda20bf8a4
 title: Rowset Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Getting Started with Scripting for ADSI
 description: Scripting is useful for system administrators who want to create batch scripts for frequently used tasks.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ae479d6b-75cf-4659-8a91-c2cbdcf56091
 ms.tgt_platform: multiple
 keywords:
 - Getting Started with Scripting for ADSI ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

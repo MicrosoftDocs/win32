@@ -2,7 +2,6 @@
 title: Structures
 description: Available XInput Structures.
 ms.assetid: 89bb00ea-0be3-9619-1629-a7b7894302d5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

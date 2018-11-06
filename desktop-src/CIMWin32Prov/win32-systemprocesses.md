@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemProcesses association WMI class relates a computer system and a process running on that system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0d8c3ec6-265e-4486-8e94-f5acd2845cf5
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemProcesses class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

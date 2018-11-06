@@ -9,7 +9,6 @@ keywords:
 - modelview matrix
 - monitors
 - motion blurring
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

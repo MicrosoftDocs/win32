@@ -1,9 +1,6 @@
 ---
 title: Interval syntax
 description: Represents a time interval value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e41b71da-cd05-4a4a-8b97-9210dbe314de
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Interval
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

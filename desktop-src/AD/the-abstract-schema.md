@@ -1,14 +1,10 @@
 ---
 title: The Abstract Schema
 description: The schema container contains all of the classSchema and attributeSchema objects that define the classes and attributes that can exist in a directory forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 688fccf7-37ce-4eea-b4ff-b0b3223a964e
 ms.tgt_platform: multiple
 keywords:
 - The Abstract Schema AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

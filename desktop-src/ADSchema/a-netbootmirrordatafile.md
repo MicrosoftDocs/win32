@@ -1,9 +1,6 @@
 ---
 title: Netboot-Mirror-Data-File attribute
 description: The Netboot-Mirror-Data-File attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d53b939-09fa-457e-ad72-f90f0f38cfd9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Netboot-Mirror-Data-File
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

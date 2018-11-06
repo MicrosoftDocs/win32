@@ -2,7 +2,6 @@
 Description: To establish a client context in Script, an application can create a client context with a handle to a token, a domain and user name, or a string representation of the security identifier of the client.
 ms.assetid: 94fb79e4-7e9f-4fef-8ca5-b2000a92efab
 title: Establishing a Client Context in Script
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

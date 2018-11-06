@@ -10,7 +10,6 @@ api_name:
 - ContextMenu
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 
@@ -65,7 +64,7 @@ Optional.
 
 May occur one or more times for each [**ContextPopup.ContextMenus**](windowsribbon-element-contextpopup-contextmenus.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > A **ContextMenu** cannot host [Combo Box](windowsribbon-controls-combobox.md) or [Spinner](windowsribbon-controls-spinner.md) controls.
 
  

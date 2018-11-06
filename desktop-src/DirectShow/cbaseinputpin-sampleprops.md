@@ -2,7 +2,6 @@
 Description: The SampleProps method retrieves the properties of the most recent sample, in an AM\_SAMPLE2\_PROPERTIES structure.
 ms.assetid: d4c98c35-f8b2-4111-bae9-4e0f58a0cc8a
 title: CBaseInputPin.SampleProps method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

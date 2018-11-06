@@ -2,7 +2,6 @@
 Description: Adaptive Differential Pulse Code Modulation (ADPCM) is a lossy compression format that is implemented for XAudio2 to provide additional features for specifying the size of the compression sample block.
 ms.assetid: ae8a0a3e-293c-8193-d252-046d79771cfb
 title: ADPCM Overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

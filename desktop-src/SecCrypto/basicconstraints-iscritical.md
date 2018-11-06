@@ -2,7 +2,6 @@
 Description: Retrieves a Boolean value that indicates whether the basic constraint extension is marked critical.
 ms.assetid: 4e84ea58-397b-491c-bdab-b5b4d46e070e
 title: BasicConstraints.IsCritical property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

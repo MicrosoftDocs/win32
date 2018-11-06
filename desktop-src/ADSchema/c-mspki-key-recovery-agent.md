@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Key-Recovery-Agent class
 description: One key recovery agent (KRA) object instance is created for each installed Cert Server (with a unique common name) during cert server setup. If two CAs were given the same common name during CA setup, they will share a single KRA object instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5fa65e68-fb39-4411-8fdf-b100367a8d82
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Key-Recovery-Agent
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Application-Data attribute
 description: A string that is used by individual applications to store whatever information they may need to.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 842215c4-d9f6-4a80-b952-b82c6bc0a6de
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Application-Data
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The ComponentQualifiers property is a read-only property that returns a StringList object enumerating the set of registered qualifiers for the specified component.
 ms.assetid: 49b16c9a-ce84-42ff-af1d-f4ecf7dbe23a
 title: Installer.ComponentQualifiers property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

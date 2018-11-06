@@ -1,9 +1,6 @@
 ---
 title: RemoteSessionActionType enumeration
 description: Used to specify the type of remote action.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: C0DA0FA2-6FE0-4B40-B169-4592A1BE2AD6
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

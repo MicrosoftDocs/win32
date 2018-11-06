@@ -2,7 +2,6 @@
 Description: 'This section presents information about the following structures used by WIA:'
 ms.assetid: 8917bb94-c9d8-49f2-8a09-bb9722a09cb8
 title: Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

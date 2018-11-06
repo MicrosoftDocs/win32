@@ -2,7 +2,6 @@
 Description: Call center controls extend the TAPI 3 object model to support the requirements of Automatic Call Distribution (ACD) systems.
 ms.assetid: cb7a4231-6249-4ab9-9de7-243768a18775
 title: Using Call Center Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

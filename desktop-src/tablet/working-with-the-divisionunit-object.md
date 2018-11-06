@@ -2,7 +2,6 @@
 Description: The DivisionUnit object represents a single structural element of a DivisionResult object. A DivisionUnit object may represent a drawing, a single recognition segment of handwriting, a line of handwriting, or a block of handwriting.
 ms.assetid: 13f6121c-2b83-4788-9d06-460dc03094bf
 title: Working with the DivisionUnit Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

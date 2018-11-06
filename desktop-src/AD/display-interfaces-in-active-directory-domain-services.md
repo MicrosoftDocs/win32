@@ -1,12 +1,8 @@
 ---
 title: Display Interfaces in Active Directory Domain Services
 description: This category of interfaces includes the following.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f53d4425-5496-45f8-a09b-f163b63a29c8
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

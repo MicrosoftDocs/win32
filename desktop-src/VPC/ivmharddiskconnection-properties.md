@@ -2,7 +2,6 @@
 title: IVMHardDiskConnection Properties
 description: The IVMHardDiskConnection interface exposes the following properties.
 ms.assetid: C111B836-1DEC-4743-BD35-C73DE9499438
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

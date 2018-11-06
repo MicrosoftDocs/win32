@@ -1,9 +1,6 @@
 ---
 title: Win32_TSLogonSetting class
 description: Defines configuration settings for the Win32\_Terminal class related to client logon.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a2ccb419-da1a-44d1-8a7a-4d0266fc1be8
 ms.tgt_platform: multiple
 keywords:
@@ -31,7 +28,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

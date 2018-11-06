@@ -2,7 +2,6 @@
 title: Registering a RAS Security DLL
 description: The setup program for a RAS security DLL must register the DLL with the Windows NT/Windows 2000 RAS server.
 ms.assetid: 90a1f30e-ea68-4859-b436-219c25016677
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

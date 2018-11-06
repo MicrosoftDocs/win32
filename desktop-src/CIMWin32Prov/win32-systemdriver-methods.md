@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemDriver class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0DCAFE45-3FB0-47E8-BC11-26963075832F
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemDriver Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

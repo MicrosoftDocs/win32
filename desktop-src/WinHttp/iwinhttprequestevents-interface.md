@@ -2,7 +2,6 @@
 Description: Provides events for Microsoft Windows HTTP Services (WinHTTP).
 ms.assetid: 0721d7f9-2e84-41a9-be52-89c8d638eb90
 title: IWinHttpRequestEvents interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

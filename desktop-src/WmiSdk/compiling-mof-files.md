@@ -1,12 +1,8 @@
 ---
 Description: The Managed Object Format (MOF) compiler, Mofcomp.exe, parses a file containing MOF statements and adds the classes and class instances defined in the file to the WMI repository.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8c107611-36f8-4657-8b54-dbf54b3dfb7b
 ms.tgt_platform: multiple
 title: Compiling MOF Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

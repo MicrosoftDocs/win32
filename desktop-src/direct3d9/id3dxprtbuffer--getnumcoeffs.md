@@ -2,7 +2,6 @@
 Description: Retrieves the number of scalars per color channel used in memory to store samples.
 ms.assetid: dc12f1fd-f50f-4738-b6b3-da3426e12d21
 title: ID3DXPRTBuffer::GetNumCoeffs method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

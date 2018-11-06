@@ -2,7 +2,6 @@
 Description: The \_\_try and \_\_except keywords are used to construct a frame-based exception handler. The following example shows the structure of an exception handler.
 ms.assetid: 1ea2c7f7-f920-4c72-bc62-4eb5e8d70790
 title: Exception-Handler Syntax
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

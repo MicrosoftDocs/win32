@@ -13,7 +13,6 @@ keywords:
 - Client Extended APIs,querying for detailed rights
 - DRM Client Extended APIs,detailed rights queries
 - Client Extended APIs,detailed rights queries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Unsupported IADsUser Properties
 description: The IADsUser interface implemented by the WinNT ADSI provider supports all of the IADsUser properties except the following. To obtain and/or modify these properties, use the LDAP provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4d3b0f7b-8a3b-4b24-b8f6-ff6affe5632c
 ms.tgt_platform: multiple
 keywords:
 - Unsupported IADsUser Properties ADSI
 - WinNT provider ADSI , user object, unsupported IADsUser properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The user interface sequence is imported into the sample database.
 ms.assetid: 750e4dc6-91ff-4d9a-a968-abc2515e3b7c
 title: Importing the InstallUISequence
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

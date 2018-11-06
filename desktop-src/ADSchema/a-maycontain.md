@@ -1,9 +1,6 @@
 ---
 title: May-Contain attribute
 description: The list of optional attributes for a class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 474206ca-068a-470d-bc8c-470021106095
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - May-Contain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

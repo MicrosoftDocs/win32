@@ -2,7 +2,6 @@
 Description: The DVDAdm.DisableScreenSaver property turns the system screen saver on or off.
 ms.assetid: 78a0512f-456a-45b6-8717-13593461a765
 title: DisableScreenSaver Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

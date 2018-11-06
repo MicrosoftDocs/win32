@@ -2,7 +2,6 @@
 Description: Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer and adds the data to an ID3DXMesh object.
 ms.assetid: 0680d626-f07a-43d3-acb9-e8db82b5e933
 title: ID3DXPRTCompBuffer::ExtractToMesh method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

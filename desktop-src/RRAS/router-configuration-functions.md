@@ -2,7 +2,6 @@
 title: Router Configuration Functions
 description: Use the following functions when developing software to configure Windows routers.
 ms.assetid: fb65885c-7c3b-4c90-9516-388f09703c90
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

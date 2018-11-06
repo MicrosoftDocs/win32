@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Managed-Service-Account class
 description: Service account class is used to create accounts that are used for running Windows services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6571f07d-a6ab-4406-8f70-f0cb00714ac9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Managed-Service-Account
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Generate-RSoP-Logging extended right
 description: The user who has the rights on an OU or Domain will be able to generate logging mode RSoP data for the users or computers within the OU.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 557be624-a58d-417c-bb20-43a9baa751b5
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Generate-RSoP-Logging
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

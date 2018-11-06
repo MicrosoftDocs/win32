@@ -2,7 +2,6 @@
 Description: Validates the specified planned system.
 ms.assetid: cb969b38-f36d-4c70-b234-590f1c219d22
 title: ValidatePlannedSystem method of the Msvm_VirtualSystemManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -102,7 +101,7 @@ This method returns one of the following values.
 
 The following C# sample uses the **ValidatePlannedSystem** method to validate a planned virtual machine. This code is taken from the [Hyper-V planned virtual machines sample](http://go.microsoft.com/fwlink/p/?LinkID=268728). The referenced utilities can be found in [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
  

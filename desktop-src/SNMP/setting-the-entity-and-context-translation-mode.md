@@ -2,7 +2,6 @@
 title: Setting the Entity and Context Translation Mode
 description: The WinSNMP application can specify the interpretation and translation of entity and context parameters by setting the entity and context translation mode. The Microsoft WinSNMP implementation stores the mode in a database.
 ms.assetid: 2550f235-1351-440a-8b4e-f0d30b058229
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

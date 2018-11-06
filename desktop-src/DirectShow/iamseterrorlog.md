@@ -2,7 +2,6 @@
 Description: The IAMSetErrorLog interface sets or retrieves an error log in DirectShow Editing Services (DES).
 ms.assetid: ce658533-eacf-4b5d-9910-dca918de09e7
 title: IAMSetErrorLog interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

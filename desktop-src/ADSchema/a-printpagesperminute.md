@@ -1,9 +1,6 @@
 ---
 title: Print-Pages-Per-Minute attribute
 description: Driver-supplied print rate in pages per minute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 80b3a86b-5b7f-4e59-b3ef-c3f8c11ab0da
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Pages-Per-Minute
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

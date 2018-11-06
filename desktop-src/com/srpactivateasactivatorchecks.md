@@ -4,7 +4,6 @@ description: Determines whether software restriction policy (SRP) trust levels a
 ms.assetid: b0d616c3-1cb0-4854-a4f9-6635d61b0698
 keywords:
 - SRPActivateAsActivatorChecks registry value COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

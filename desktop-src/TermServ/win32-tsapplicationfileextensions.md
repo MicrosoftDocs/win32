@@ -1,9 +1,6 @@
 ---
 title: Win32_TSApplicationFileExtensions class
 description: The file name extensions that are handled by an application on a Remote Desktop Session Host (RD Session Host) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: beefc266-5ad6-49ee-b761-98764e2905d6
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

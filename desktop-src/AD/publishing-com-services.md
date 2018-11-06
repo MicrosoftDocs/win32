@@ -1,15 +1,11 @@
 ---
 title: Publishing COM+ Services
 description: COM-based services provide an application-proxy in the form of a Windows installer (MSI) package.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 38200a22-bea5-4967-a51a-e777b34f299d
 ms.tgt_platform: multiple
 keywords:
 - Publishing COM+ Services
 - Active Directory, using, publishing a service, COM+ services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

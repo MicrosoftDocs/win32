@@ -1,9 +1,6 @@
 ---
 title: Domain-Policy-Object attribute
 description: Reference to the policy object that defines the Local Security Authority policy for the host domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f4f6281d-de83-48a3-9213-565e40041fc4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-Policy-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

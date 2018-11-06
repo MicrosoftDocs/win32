@@ -5,7 +5,6 @@ ms.assetid: 6600751c-d4b6-481d-bf69-be2d34244c05
 keywords:
 - MCIWndGetSource macro
 - MCIWndPutSource macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

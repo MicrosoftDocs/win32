@@ -1,9 +1,6 @@
 ---
 title: ms-TPM-Information-Object class
 description: This class contains recovery information for a Trusted Platform Module (TPM) device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 75897787-f177-4899-905d-6ae2f2f7a16f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TPM-Information-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

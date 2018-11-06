@@ -2,7 +2,6 @@
 Description: DVINFO Field Settings in the MSDV Driver
 ms.assetid: f0723da5-4f53-4f83-a657-ae42815a784e
 title: DVINFO Field Settings in the MSDV Driver
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

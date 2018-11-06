@@ -2,7 +2,6 @@
 title: Tile pool creation parameters
 description: Use the parameters in this section to define tile pools via the ID3D11Device CreateBuffer API.
 ms.assetid: 04290AAF-8517-4557-954E-1CAA3A0CA7F6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

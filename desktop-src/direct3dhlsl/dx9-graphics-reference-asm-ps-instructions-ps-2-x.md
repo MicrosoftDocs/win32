@@ -2,7 +2,6 @@
 title: ps_2_x Instructions
 description: This section contains reference information for the pixel shader version 2\_x instructions.
 ms.assetid: a9b5f9dd-1139-4f80-ada6-e2fc0fb7effe
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

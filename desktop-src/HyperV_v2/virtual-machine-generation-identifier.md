@@ -2,7 +2,6 @@
 Description: Windows 8 and Windows Server 2012 introduce the ability for software that is running on a virtual machine to detect that a time shift event may have occurred.
 ms.assetid: 0793E46B-8464-425E-8C5B-77C14DA90004
 title: Virtual machine generation identifier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

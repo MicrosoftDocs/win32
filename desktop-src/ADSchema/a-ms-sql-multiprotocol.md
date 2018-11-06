@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-MultiProtocol attribute
 description: The RPC connection point.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 70cb9f80-7140-4c26-a1a4-f78a60de430f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-MultiProtocol
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

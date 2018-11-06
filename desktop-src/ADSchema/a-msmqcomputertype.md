@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Computer-Type attribute
 description: Replaced by MSMQ-Computer-Type-Ex.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8d6db21b-3467-423b-9bab-f875701e1659
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Computer-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

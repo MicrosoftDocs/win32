@@ -2,7 +2,6 @@
 Description: The following list contains the CMSPCallMultiGraph public methods called by the MSPAddress object.
 ms.assetid: 3002f307-ce8a-43d2-9da4-c1611854c1ad
 title: CMSPCallMultiGraph Public Methods, Called by MSPAddress Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

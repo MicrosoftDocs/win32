@@ -1,9 +1,6 @@
 ---
 title: ms-FVE-RecoveryPassword attribute
 description: Contains the password required to recover a Full Volume Encryption (FVE) volume.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 460e7014-42ce-4e49-a642-9f97fe9044fc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-FVE-RecoveryPassword
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

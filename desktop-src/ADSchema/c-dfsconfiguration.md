@@ -1,9 +1,6 @@
 ---
 title: Dfs-Configuration class
 description: Holds all Fault-tolerant DFS configurations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c1bbb066-f199-4a7d-9216-f37f0914a44d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Dfs-Configuration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

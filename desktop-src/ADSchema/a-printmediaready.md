@@ -1,9 +1,6 @@
 ---
 title: Print-Media-Ready attribute
 description: A list of available media for a printer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ae9f0b3d-fd35-4d17-81d0-f29f6aa8e8c0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Media-Ready
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

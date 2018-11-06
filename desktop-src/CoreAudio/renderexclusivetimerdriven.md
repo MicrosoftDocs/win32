@@ -2,7 +2,6 @@
 Description: This sample application uses the Core Audio APIs to render audio data to an output device specified by the user. This sample demonstrates timer-driven buffering for a rendering client in exclusive mode.
 ms.assetid: 9dcfccd2-a709-4b4e-bbb3-4c68a15cce03
 title: RenderExclusiveTimerDriven
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

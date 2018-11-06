@@ -2,7 +2,6 @@
 Description: Each reparse point has an identifier tag so that you can efficiently differentiate between the different types of reparse points, without having to examine the user-defined data in the reparse point.
 ms.assetid: d02a2f50-d374-4149-bc04-49b7db052f62
 title: Reparse Point Tags
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

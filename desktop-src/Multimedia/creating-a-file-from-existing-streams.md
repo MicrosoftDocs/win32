@@ -5,7 +5,6 @@ ms.assetid: 5149a766-7809-42b7-8e5c-b67b847b9218
 keywords:
 - AVISave function
 - AVISaveV function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

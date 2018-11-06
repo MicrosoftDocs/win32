@@ -2,7 +2,6 @@
 title: Kernel Mode Cache
 description: .
 ms.assetid: f9a46ff4-779b-4b3a-b8f5-1ae10a3c0a61
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

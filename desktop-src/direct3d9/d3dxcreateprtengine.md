@@ -2,7 +2,6 @@
 Description: Creates an ID3DXPRTEngine object that can efficiently generate precomputed radiance transfer (PRT) simulations of a 3D scene.
 ms.assetid: fdfe02b5-03fb-4bee-a53b-012ae3572644
 title: D3DXCreatePRTEngine function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

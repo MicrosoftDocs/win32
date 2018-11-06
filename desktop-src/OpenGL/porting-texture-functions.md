@@ -8,7 +8,6 @@ keywords:
 - porting to OpenGL from IRIS GL,texture
 - OpenGL porting from IRIS GL,texture
 - texture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: This example gets and sets the L2TP and PPTP port configuration of 
 ms.assetid: 9e4aa8d4-e09e-4c84-acf0-c505a58841a4
 keywords:
 - Setting RRAS service ports
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

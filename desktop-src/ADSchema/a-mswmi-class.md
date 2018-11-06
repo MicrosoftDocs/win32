@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-Class attribute
 description: The name of a WMI Class object in an associated encoding (for example, Win32\_ComputerSystem). The encoding can be either an instance or class object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a0a4284e-3b52-4597-8656-df2f3297060d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-Class
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

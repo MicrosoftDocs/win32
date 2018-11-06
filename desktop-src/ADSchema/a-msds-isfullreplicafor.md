@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Is-Full-Replica-For attribute
 description: Backward link for ms-DS-Has-Domain-NCs. Identifies which DCs hold that partition as their primary domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0e5457e5-57c7-4896-9ea0-7fc2195a17e7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Is-Full-Replica-For
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

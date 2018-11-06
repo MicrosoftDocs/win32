@@ -2,7 +2,6 @@
 Description: The SetSize method changes the size of the stream object.
 ms.assetid: e4027a98-fce4-4db4-a9fe-e7e7436b5147
 title: IByteBuffer::SetSize method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

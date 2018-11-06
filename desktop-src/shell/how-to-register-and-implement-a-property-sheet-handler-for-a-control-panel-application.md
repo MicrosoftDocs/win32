@@ -1,7 +1,6 @@
 ---
 Description: Many Control Panel applications display a Properties property sheet to enable users to view and modify various device and system settings.
 title: How to Register and Implement a Property Sheet Handler for a Control Panel Application
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

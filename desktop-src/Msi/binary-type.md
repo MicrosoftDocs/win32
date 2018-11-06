@@ -2,7 +2,6 @@
 Description: The Binary Type of semantic type is one of the Key Format Types. This type consists of a key into the Binary table provided by the user.
 ms.assetid: b6a25100-9f3e-4207-b56f-0c27ee16f188
 title: Binary Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

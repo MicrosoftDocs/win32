@@ -1,12 +1,8 @@
 ---
 Description: An instance provider supplies instances of one or more given classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d53c3399-cba8-4b5d-8da0-b5a23f94c0ae
 ms.tgt_platform: multiple
 title: Writing an Instance Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

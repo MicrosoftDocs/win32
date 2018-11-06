@@ -1,12 +1,8 @@
 ---
 Description: Generates events at intervals, similar to a WM\_TIMER message in Windows programming.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0895a743-a0dd-4833-a2bf-0196369e18b9
 ms.tgt_platform: multiple
 title: '__IntervalTimerInstruction class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

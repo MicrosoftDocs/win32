@@ -2,7 +2,6 @@
 Description: This document includes GUIDs and class identifiers (CLSIDs) tables of Windows Imaging Component (WIC).
 ms.assetid: 2be5cfeb-2dd3-4486-b639-35ee28a7dd7b
 title: WIC GUIDs and CLSIDs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

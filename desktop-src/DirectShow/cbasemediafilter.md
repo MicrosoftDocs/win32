@@ -2,7 +2,6 @@
 Description: The CBaseMediaFilter class implements the IMediaFilter interface.
 ms.assetid: 45c8973b-d0b3-4aeb-96e7-be47f8d7f4a7
 title: CBaseMediaFilter class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

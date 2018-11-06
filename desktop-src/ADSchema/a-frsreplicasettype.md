@@ -1,9 +1,6 @@
 ---
 title: FRS-Replica-Set-Type attribute
 description: This is a code that indicates whether this is a sysvol replica set, a DFS replica set, or other replica set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 687a854f-ffa1-41f4-a515-5224759696ab
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Replica-Set-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

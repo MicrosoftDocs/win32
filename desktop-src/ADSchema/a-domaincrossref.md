@@ -1,9 +1,6 @@
 ---
 title: Domain-Cross-Ref attribute
 description: This is a reference from a trusted domain object to the cross reference object of the trusted domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aa6fe6f9-a45c-448c-9fc5-17bc2994c764
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Domain-Cross-Ref
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

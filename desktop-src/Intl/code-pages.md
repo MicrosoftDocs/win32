@@ -2,7 +2,6 @@
 Description: Most applications written today handle character data primarily as Unicode, using the UTF-16 encoding.
 ms.assetid: 866f09f4-629e-4097-a974-fbda9389d077
 title: Code Pages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

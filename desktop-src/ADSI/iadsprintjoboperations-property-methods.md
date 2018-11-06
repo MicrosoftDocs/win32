@@ -1,9 +1,6 @@
 ---
 title: IADsPrintJobOperations Property Methods
 description: The property methods of the IADsPrintJobOperations interface read and write the properties listed in the following table. For more information about property methods, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d1710bd4-e600-4d92-892a-16b4316851d4
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

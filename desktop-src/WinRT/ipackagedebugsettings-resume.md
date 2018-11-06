@@ -2,7 +2,6 @@
 Description: Resumes the processes of the package if they are currently suspended.
 ms.assetid: c5376e00-b4b7-4a81-a84c-3a46758fe130
 title: IPackageDebugSettings::Resume method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

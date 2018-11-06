@@ -1,9 +1,6 @@
 ---
 title: Delta-Revocation-List attribute
 description: List of certificates that have been revoked since the last delta update.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fc755c22-6d4f-4509-abb8-47c4f2f37545
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Delta-Revocation-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

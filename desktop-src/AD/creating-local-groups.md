@@ -1,14 +1,10 @@
 ---
 title: Creating Local Groups
 description: Only local groups can be created for member servers and Windows 2000 Professional.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 76cbac51-d8ba-4114-9951-060273be52f3
 ms.tgt_platform: multiple
 keywords:
 - Creating Local Groups AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

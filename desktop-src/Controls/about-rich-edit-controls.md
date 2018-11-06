@@ -2,7 +2,6 @@
 title: About Rich Edit Controls
 description: This section introduces rich edit controls.
 ms.assetid: ab9dcdf4-a311-4159-8f37-e67e144f31f6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -5,7 +5,6 @@ ms.assetid: D822DD51-5AEF-431A-943A-AA51993E6AC2
 keywords:
 - clients,handling text-related events
 - clients,text-based controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

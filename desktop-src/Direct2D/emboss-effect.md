@@ -2,7 +2,6 @@
 title: Emboss Effect
 description: Creates a grayscale version of the image that appears as though it has been stamped into paper.
 ms.assetid: 74f63875-35cd-f335-62cd-410a953e53ea
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player Mobile,folder monitoring
 - folder monitoring
 - monitoring folders
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: ItsPubPlugin2 Methods
 description: The ItsPubPlugin2 interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: EF06E6F7-51F9-4B6C-8D37-D1CC8CA0BF38
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

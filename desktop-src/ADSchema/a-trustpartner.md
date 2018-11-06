@@ -1,9 +1,6 @@
 ---
 title: Trust-Partner attribute
 description: The name of the domain with which a trust exists.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0b7c8e78-614b-46dd-8616-40d75b461639
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Trust-Partner
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Example Code for Determining the Operation Mode
 description: This topic includes a code example that reads the ntMixedDomain property of a domain and determines the operation mode.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4ea1ddc5-6f48-45d3-9763-7ef0e6e704e3
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory ,determining the operation mode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

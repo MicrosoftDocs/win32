@@ -2,7 +2,6 @@
 Description: Overview of ink controls for the Tablet PC.
 ms.assetid: 03229b86-f59b-4946-8816-fa153af57630
 title: Ink Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

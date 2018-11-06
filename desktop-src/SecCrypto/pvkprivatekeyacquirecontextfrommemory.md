@@ -2,7 +2,6 @@
 Description: Creates a temporary container in the cryptographic service provider (CSP) and loads a private key from memory into the container.
 ms.assetid: 9388b49b-fad4-4499-a391-fe58ed672552
 title: PvkPrivateKeyAcquireContextFromMemory function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # PvkPrivateKeyAcquireContextFromMemory function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This API is deprecated. Microsoft may remove this API in future releases.
 
  

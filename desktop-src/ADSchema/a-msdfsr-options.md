@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Options attribute
 description: Contains the Distributed File System (DFS) Replication object options.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e4bf706a-f49a-4976-8317-4d6f98932f8f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Options
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

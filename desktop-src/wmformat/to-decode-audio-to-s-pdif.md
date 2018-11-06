@@ -12,7 +12,6 @@ keywords:
 - Sony/Philips Digital Interconnect Format (S/PDIF),decoding audio
 - S/PDIF (Sony/Philips Digital Interconnect Format),decoding audio
 - decoding audio
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

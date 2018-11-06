@@ -2,7 +2,6 @@
 Description: Represents a block of ASN.1 encoded data.
 ms.assetid: af7acc5f-da0a-4235-8496-05db94664ea5
 title: EncodedData object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type:

@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property of type Uint64.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2B81904F-6E40-4670-A829-F00E1B0A02B4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint64 class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

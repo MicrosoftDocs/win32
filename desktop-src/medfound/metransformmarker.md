@@ -2,7 +2,6 @@
 Description: Sent by an asynchronous Media Foundation transform (MFT) in response to an MFT\_MESSAGE\_COMMAND\_MARKER message.
 ms.assetid: d0c0d62d-9133-4d4b-8606-c2ae1d4c9f0a
 title: METransformMarker event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

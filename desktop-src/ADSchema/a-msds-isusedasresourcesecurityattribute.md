@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Is-Used-As-Resource-Security-Attribute attribute
 description: For a resource property, this attribute indicates whether it is being used as a secure attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d020515f-5225-4576-bcc8-86cef84556ac
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Is-Used-As-Resource-Security-Attribute
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

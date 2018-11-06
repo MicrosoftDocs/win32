@@ -2,7 +2,6 @@
 Description: The Internet Protocol Suite is the dominant network protocol used in enterprise networks and across the Internet.
 ms.assetid: 8c123e09-b11a-4c92-b41e-49cc01be53d3
 title: Winsock Network Protocol Support in Windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,6 @@
 ---
 Description: This topic describes a new view in Windows Explorer, called the Content view, that displays the most relevant content for each item.
 title: Content View By File Type or Kind
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

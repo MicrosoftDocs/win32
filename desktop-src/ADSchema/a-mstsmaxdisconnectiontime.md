@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Max-Disconnection-Time attribute
 description: Terminal Services session Maximum Disconnection Time is the maximum amount of time, in minutes, that a disconnected Terminal Services session remains active on the terminal server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2da72cf8-0be1-4766-a997-f540cd99e4e7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Max-Disconnection-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

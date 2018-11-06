@@ -5,7 +5,6 @@ ms.assetid: 2e6db328-c45e-4a98-9d21-f3c9da261f44
 keywords:
 - WM_CAP_FILE_SAVEAS message
 - capFileSaveAs macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

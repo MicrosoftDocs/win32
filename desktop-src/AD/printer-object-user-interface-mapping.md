@@ -1,12 +1,8 @@
 ---
 title: Printer Object User Interface Mapping
 description: This topic discusses the Printer object property sheets in the Active Directory Users and Computers snap-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5e74ae5a-3ed8-46d8-b226-e6ff1217f3d6
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

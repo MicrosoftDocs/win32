@@ -1,12 +1,8 @@
 ---
 Description: The \_\_MethodInvocationEvent system class is defined but is not implemented.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ea736e44-a6bc-41e5-abc5-9e21a5504f44
 ms.tgt_platform: multiple
 title: '__MethodInvocationEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

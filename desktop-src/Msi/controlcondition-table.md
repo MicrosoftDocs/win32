@@ -2,7 +2,6 @@
 Description: The ControlCondition table enables an author to specify special actions to be applied to controls based on the result of a conditional statement. For example, using this table the author could choose to hide a control based on the VersionNT property.
 ms.assetid: e36d20ec-cd7b-494f-b517-c07b40d2a338
 title: ControlCondition Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Properties of the most recent sample.
 ms.assetid: bd83790c-72b2-4ed3-9f83-ce4f08d40833
 title: CBaseInputPin::m_SampleProps member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

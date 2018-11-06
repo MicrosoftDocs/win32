@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-RegisteredOwner attribute
 description: The registered owner for the current instance of SQL Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d07712e8-021d-40db-91ba-0fef7e89bb0f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-RegisteredOwner
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

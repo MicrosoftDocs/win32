@@ -2,7 +2,6 @@
 Description: There are several persistence formats the Tablet PC platform generates that are useful as building blocks for the formats listed previously. The following formats are all generated and consumed by using the Ink object's Load and Save methods.
 ms.assetid: 76d42a3d-22f5-47f9-89e8-7c5c098ac62e
 title: Building Blocks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

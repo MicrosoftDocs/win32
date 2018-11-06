@@ -2,7 +2,6 @@
 title: Property Sheet Structures
 description: .
 ms.assetid: 92344b68-61c2-4a35-b82a-934afaca5255
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

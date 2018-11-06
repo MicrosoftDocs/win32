@@ -1,12 +1,8 @@
 ---
 title: Client/Server application guidelines
 description: Client/server applications must not assume that a single computer connection is equivalent to a single user session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 69822ef1-eca8-4302-b014-8e5894d52109
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

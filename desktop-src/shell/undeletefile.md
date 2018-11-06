@@ -1,7 +1,6 @@
 ---
 Description: Specifies an application-defined callback function called by File Manager when the user chooses the Undelete command from the File menu.
 title: FM_UNDELETE_PROC function pointer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,6 @@
 ---
 ms.assetid: 43923954-a220-496c-8149-94468dd5c038
 title: Using Basic Debugging
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Setting Up Your Development Environment
 description: Links to topics that show how to set up the development environment for ADSI applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3020931f-d3d6-41ff-9855-14526d222d5c
 ms.tgt_platform: multiple
 keywords:
 - Setting Up Your Development Environment Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

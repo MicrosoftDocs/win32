@@ -2,7 +2,6 @@
 Description: The following list contains issues with the TAPI 3 MSP base classes.
 ms.assetid: 09fbcf3e-2d33-4888-ac8c-11809f18f16a
 title: Open Issues
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

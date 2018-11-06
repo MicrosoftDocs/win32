@@ -2,7 +2,6 @@
 Description: Picture for the identity provider.
 ms.assetid: 68da1d13-9067-47c8-96a0-22c55984088a
 title: System.IdentityProvider.Picture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

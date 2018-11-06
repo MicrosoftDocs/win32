@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-Peak-Bandwidth attribute
 description: The peak bandwidth that can be reserved.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ee101dc9-ec67-4e1f-af8f-4ab2d2deb09a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-Peak-Bandwidth
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

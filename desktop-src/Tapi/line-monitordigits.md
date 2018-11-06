@@ -2,7 +2,6 @@
 Description: The TAPI LINE\_MONITORDIGITS message is sent when a digit is detected. The sending of this message is controlled with the lineMonitorDigits function.
 ms.assetid: 1c1a729c-a6bb-4432-9617-4a892c76cb8d
 title: LINE_MONITORDIGITS message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Suggested alternatives to using CAPICOM.
 ms.assetid: 8f74ff84-6165-46a3-976b-36c7f70546be
 title: Alternatives to Using CAPICOM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the .NET Framework to implement security features. For more information, see the alternatives listed below.\]
 
-> \[!Important\]  
+> [!IMPORTANT]
 > None of the alternatives to CAPICOM offer a solution for scripts; therefore, you must write your own ActiveX control. For more information, see [ActiveX Controls](http://go.microsoft.com/fwlink/p/?linkid=205533).
 
  

@@ -2,7 +2,6 @@
 title: How to Use OLE in Rich Edit Controls
 description: This section contains information about using object linking and embedding (OLE) in rich edit controls.
 ms.assetid: bfcecbf5-cc35-47b8-a713-7e5fd03f60cc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,6 @@
 ---
 Description: This quickstart shows how to raise a toast notification from a desktop app.
 title: 'Quickstart: Sending a toast notification from the desktop'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -63,7 +62,7 @@ toast.Failed += ToastFailed;
 
 ### 3. Send the toast
 
-> \[!Important\]  
+> [!IMPORTANT]
 > You must include the [AppUserModelID](https://msdn.microsoft.com/en-us/library/Dd391569(v=VS.85).aspx) of your app's shortcut on the Start screen each time that you call [**CreateToastNotifier**](https://msdn.microsoft.com/en-us/library/BR208645(v=Win.10).aspx). If you fail to do this, your toast will not be displayed.
 
  

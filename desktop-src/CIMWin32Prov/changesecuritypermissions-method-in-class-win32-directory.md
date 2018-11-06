@@ -1,14 +1,8 @@
 ---
 Description: Changes the security permissions for the logical directory entry file specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: de2b3269-61e0-484c-8bea-00578422491f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the Win32_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

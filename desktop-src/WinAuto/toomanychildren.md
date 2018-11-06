@@ -2,7 +2,6 @@
 title: TooManyChildren
 description: TooManyChildren
 ms.assetid: BF667CDC-C1F9-44B2-B64C-CD7F085CA364
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

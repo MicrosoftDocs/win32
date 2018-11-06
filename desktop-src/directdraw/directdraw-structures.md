@@ -2,7 +2,6 @@
 title: DirectDraw Structures
 description: This section contains information about the following structures used with DirectDraw
 ms.assetid: 36424B41-B179-414A-ACFF-E63DA7B27043
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

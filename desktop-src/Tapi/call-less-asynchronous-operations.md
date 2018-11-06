@@ -2,7 +2,6 @@
 Description: There are five asynchronous operations that are not related to any particular call.
 ms.assetid: d7107834-07e4-40ed-91ea-2e6127597c13
 title: Call-less Asynchronous Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

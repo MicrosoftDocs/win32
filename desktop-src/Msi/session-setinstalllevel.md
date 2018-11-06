@@ -2,7 +2,6 @@
 Description: The SetInstallLevel method of the Session object sets the install level for the current installation to a specified value and recalculates the Select and Installed states for all features in the Feature table.
 ms.assetid: d47f8025-d484-42c7-9808-5ee590a4d200
 title: Session.SetInstallLevel method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Site-Foreign attribute
 description: A Boolean value that indicates whether it is a foreign MSMQ site.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1589f1f2-3858-4563-b845-f400c04c0015
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Site-Foreign
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

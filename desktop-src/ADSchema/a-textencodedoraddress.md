@@ -1,9 +1,6 @@
 ---
 title: Text-Encoded-OR-Address attribute
 description: This attribute is used to support X.400 addresses in a text format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 90ec82c5-08c4-44e3-90d8-a0a7a6d5f7b8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Text-Encoded-OR-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

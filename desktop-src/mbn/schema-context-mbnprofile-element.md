@@ -2,7 +2,6 @@
 Description: Specifies the parameters required to setup a data connection.
 ms.assetid: 7a3d3b9d-f799-4927-9c18-04b025788a4a
 title: Context (MBNProfile) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

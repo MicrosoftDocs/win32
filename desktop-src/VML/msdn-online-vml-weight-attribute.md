@@ -2,7 +2,6 @@
 title: VML Weight Attribute
 description: VML Weight Attribute
 ms.assetid: 40164818-6b04-4afe-91cc-9fb8b12cb718
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

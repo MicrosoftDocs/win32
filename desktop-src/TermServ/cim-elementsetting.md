@@ -1,9 +1,6 @@
 ---
 title: CIM_ElementSetting class
 description: Represents the association between managed system elements and the setting class defined for them.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b74c2fef-0f3a-46b9-9dd8-11016a8f7b57
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

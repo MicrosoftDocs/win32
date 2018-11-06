@@ -2,7 +2,6 @@
 Description: The ICertificatePolicy interface exposes the following methods.
 ms.assetid: 3555A652-D2CC-49DD-94B1-21A9A00D8111
 title: ICertificatePolicy Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

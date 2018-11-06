@@ -1,9 +1,6 @@
 ---
 title: Object-Count attribute
 description: Tracked file quota for a given volume.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 22900e97-d3d3-49cc-a2c3-1f557fe383b1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Object-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

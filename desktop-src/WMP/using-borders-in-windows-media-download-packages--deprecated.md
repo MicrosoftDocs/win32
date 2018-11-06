@@ -9,7 +9,6 @@ keywords:
 - Windows Media,Windows Media Download packages
 - borders,about
 - Windows Media Download packages,borders
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_ProgramGroupOrItem abstract WMI class represents a logical grouping of programs on the user's Start\\Programs menu. It contains program groups and program group items.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 48ec5436-e931-4f00-ab36-03b04ad33529
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_ProgramGroupOrItem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

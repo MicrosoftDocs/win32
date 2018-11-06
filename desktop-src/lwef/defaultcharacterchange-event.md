@@ -2,7 +2,6 @@
 title: DefaultCharacterChange Event
 description: DefaultCharacterChange Event
 ms.assetid: 14b86a44-8fd2-4719-b7b5-cdcc618d27cd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

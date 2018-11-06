@@ -1,12 +1,8 @@
 ---
 Description: You can use the methods of an SWbemServices object to perform operations against a namespace on either a local host or a remote host. This object cannot be created by the VBScript CreateObject call.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7fcfa404-2fe6-42e5-85ac-64536f6d2a44
 ms.tgt_platform: multiple
 title: SWbemServices object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

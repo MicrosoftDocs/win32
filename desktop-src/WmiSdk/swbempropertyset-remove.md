@@ -1,12 +1,8 @@
 ---
 Description: The Remove method of the SWbemPropertySet object deletes a property from the SWbemPropertySet collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2a1005db-033c-48f9-8ea0-0bd43b8c989f
 ms.tgt_platform: multiple
 title: SWbemPropertySet.Remove method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

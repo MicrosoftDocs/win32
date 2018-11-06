@@ -1,9 +1,6 @@
 ---
 title: RemoteControl method of the Win32_TSRemoteControlSetting class
 description: The RemoteControl method sets the LevelOfControl property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 341f4f8d-17be-4482-834a-b771e041cfec
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

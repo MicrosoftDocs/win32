@@ -2,7 +2,6 @@
 Description: The value of the ADDDEFAULT property is a list of features delimited by commas, which are to be installed in their default configuration.
 ms.assetid: 78cec3fc-c653-487a-b41c-a43c42e3a157
 title: ADDDEFAULT property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

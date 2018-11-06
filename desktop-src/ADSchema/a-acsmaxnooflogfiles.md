@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-No-Of-Log-Files attribute
 description: The maximum number of RSVP log files.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 716184cb-9cd7-4b24-9025-61d136806a08
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-No-Of-Log-Files
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

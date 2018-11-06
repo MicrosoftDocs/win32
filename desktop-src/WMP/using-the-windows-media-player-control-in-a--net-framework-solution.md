@@ -19,7 +19,6 @@ keywords:
 - ActiveX control,.NET Framework
 - .NET Framework,about embedding ActiveX control
 - embedding,.NET Framework solutions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

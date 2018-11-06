@@ -1,7 +1,6 @@
 ---
 Description: Gets the user's current disk usage as a text string.
 title: DIDiskQuotaUser.QuotaUsedText property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

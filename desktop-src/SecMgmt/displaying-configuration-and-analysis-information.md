@@ -2,7 +2,6 @@
 Description: Your snap-in extension must display the current configuration and analysis information to the users.
 ms.assetid: 503bc283-c1cd-4258-a27e-4046553882fa
 title: Displaying Configuration and Analysis Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

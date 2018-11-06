@@ -2,7 +2,6 @@
 Description: The CloseLog method of the Merge object closes the current log file.
 ms.assetid: '09a40de4-d92f-4fc8-8556-a50f5dbe856b'
 title: Merge.CloseLog method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,15 +1,11 @@
 ---
 title: Connection Caching
 description: When a connection to a server is made, the connection handle is cached on the client computer for that process until that connection is closed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 927afd35-8703-4234-b6a8-6320a3667532
 ms.tgt_platform: multiple
 keywords:
 - connection caching ADSI
 - connection caching
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

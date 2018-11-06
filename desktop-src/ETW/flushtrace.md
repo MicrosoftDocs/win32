@@ -2,7 +2,6 @@
 Description: The FlushTrace function causes an event tracing session to immediately deliver buffered events for the specified session.
 ms.assetid: bc7d0dac-93d9-4614-9cb6-fee99765eb39
 title: FlushTrace function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

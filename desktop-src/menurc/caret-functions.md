@@ -2,7 +2,6 @@
 title: Caret Functions
 description: .
 ms.assetid: 26d5dfcb-f932-463b-b643-eec780cb4027
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

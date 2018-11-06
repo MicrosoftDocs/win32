@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: b93ad6e6-ab27-4fab-b488-6f402b6ee857
 title: PageMediaSizePSWidthOffset
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

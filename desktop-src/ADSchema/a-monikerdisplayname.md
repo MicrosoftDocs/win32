@@ -1,9 +1,6 @@
 ---
 title: Moniker-Display-Name attribute
 description: The display name for a moniker.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6c352e25-5834-414d-af3f-c4a17b6bee7d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Moniker-Display-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

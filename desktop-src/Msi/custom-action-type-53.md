@@ -2,7 +2,6 @@
 Description: Developers of Windows Installer packages may choose to use a custom action type 53 when the standard actions are insufficient to execute the installation.
 ms.assetid: d024c73e-c2dc-4187-a8ae-ed96dc7c107e
 title: Custom Action Type 53
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

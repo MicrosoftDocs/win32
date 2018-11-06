@@ -1,9 +1,6 @@
 ---
 title: Site-Link-List attribute
 description: List of site links that are associated with this bridge.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 79ec0ae2-ceb3-4321-8b6d-ce5c3bda667a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Site-Link-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

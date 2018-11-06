@@ -2,7 +2,6 @@
 Description: Represents a switch port that sends and receives data frames.
 ms.assetid: 015eed2a-1393-40ef-a190-832ab48766f9
 title: CIM_SwitchPort class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

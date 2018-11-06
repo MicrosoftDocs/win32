@@ -1,14 +1,8 @@
 ---
 Description: The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1a1a8d5e-d685-4b7e-99fb-61fa2e7bdafa
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_AggregatePExtent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ The **SetPowerState** method sets the desired power state for a logical device a
 
 For more information about using this method with C/C++, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -5,7 +5,6 @@ Robots: noindex, nofollow
 ms.assetid: 182cc66c-afff-490b-8338-e592ce43a083
 keywords:
 - jaggies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

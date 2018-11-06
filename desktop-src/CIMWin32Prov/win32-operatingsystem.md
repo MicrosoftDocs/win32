@@ -1,14 +1,8 @@
 ---
 Description: Represents a Windows-based operating system installed on a computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eb6a8cff-20a0-4211-b46a-3084e9c39246
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_OperatingSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

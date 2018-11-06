@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_VideoSetting class associates the CIM\_VideoControllerResolution setting object with the controller to which it applies.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1f6742ad-ab92-4723-b691-0c3e6c0d82fa
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_VideoSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_VideoSetting** class associates the [**CIM\_VideoControllerResolution**](cim-videocontrollerresolution.md) setting object with the controller to which it applies.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

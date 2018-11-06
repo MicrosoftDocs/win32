@@ -2,7 +2,6 @@
 title: Immediate and Deferred Rendering
 description: Direct3D 11 supports two types of rendering immediate and deferred. Both are implemented by using the ID3D11DeviceContext interface.
 ms.assetid: 8991be9f-c882-4752-9048-704fe4ae1725
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

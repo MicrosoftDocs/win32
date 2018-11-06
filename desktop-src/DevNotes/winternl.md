@@ -2,7 +2,6 @@
 Description: Winternl
 ms.assetid: 0EB37CAA-E323-46BD-9465-10022A2A499C
 title: Winternl
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

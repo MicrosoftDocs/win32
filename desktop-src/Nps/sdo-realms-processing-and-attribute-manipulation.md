@@ -1,12 +1,8 @@
 ---
 title: Realms Processing and Attribute Manipulation
 description: Realms processing, which is also known as attribute manipulation, refers to transforming the name of the user requesting access.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 52963eda-ea95-4307-8924-d4143bc1f53d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

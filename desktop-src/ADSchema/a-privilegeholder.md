@@ -1,9 +1,6 @@
 ---
 title: Privilege-Holder attribute
 description: List of Distinguished Names of principals granted this privilege.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d7ae6de8-6725-436f-93e0-1dd966aa7c07
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Privilege-Holder
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

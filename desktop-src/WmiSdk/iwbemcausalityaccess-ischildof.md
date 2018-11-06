@@ -1,12 +1,8 @@
 ---
 Description: The IsChildOf method determines if a request is a child of a specified request (pId).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7be52496-7dcf-41c0-853a-859810a57d21
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess::IsChildOf method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

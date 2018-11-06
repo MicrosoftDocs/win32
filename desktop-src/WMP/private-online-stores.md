@@ -9,7 +9,6 @@ keywords:
 - type 2 online stores,private
 - private online stores
 - registry,private online stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient GetVirtualChannelOptions method
 description: Retrieves the options set for a virtual channel.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d2ec9fb2-c0dc-49f1-a86b-d7abca13a322
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

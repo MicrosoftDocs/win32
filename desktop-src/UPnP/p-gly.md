@@ -3,7 +3,6 @@ title: P
 description: Contains UPnP-related terms that begin with the letter P.
 Robots: noindex, nofollow
 ms.assetid: d11e5384-3fb8-4c3f-9668-511424cc51e8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: DS-Replication-Get-Changes-All extended right
 description: Control access right that allows the replication of secret domain data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fadc9fbd-ac8e-4fc6-832d-7041ea520e18
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Replication-Get-Changes-All
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

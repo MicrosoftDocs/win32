@@ -2,7 +2,6 @@
 Description: The TAPI LINE\_CALLINFO message is sent when the call information about the specified call has changed. The application can invoke lineGetCallInfo to determine the current call information.
 ms.assetid: eb882409-6842-434e-9f93-61cf0c11d1d0
 title: LINE_CALLINFO message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

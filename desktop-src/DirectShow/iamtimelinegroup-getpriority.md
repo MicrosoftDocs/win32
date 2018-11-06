@@ -2,7 +2,6 @@
 Description: The GetPriority method retrieves the group's priority.
 ms.assetid: d698317f-ace6-40ed-b125-7e2427fb683b
 title: IAMTimelineGroup::GetPriority method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

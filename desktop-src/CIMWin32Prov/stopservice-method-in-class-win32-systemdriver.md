@@ -1,14 +1,8 @@
 ---
 Description: Places the service represented by the Win32\_SystemDriver object in the stopped state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0fa8ef44-39eb-448e-8d33-38a5af9a0c13
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: StopService method of the Win32_SystemDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

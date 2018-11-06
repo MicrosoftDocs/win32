@@ -1,9 +1,6 @@
 ---
 title: Reps-To attribute
 description: Lists the servers that the directory will notify of changes and servers to which the directory will send changes on Request for the defined naming context.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d7fd5a57-a0e1-4c69-9b9a-1cdad87610b1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Reps-To
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

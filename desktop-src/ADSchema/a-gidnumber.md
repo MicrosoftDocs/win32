@@ -1,9 +1,6 @@
 ---
 title: gidNumber attribute
 description: Contains an integer value that uniquely identifies a group in an administrative domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 89200e98-4b63-4057-ae15-77f9b18b93fe
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - gidNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,6 @@
 ---
 Description: Sent to verify the existence of a menu command.
 title: DFM_VALIDATECMD message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Use the crop effect to output a specified region of an image.
 ms.assetid: DFB7DE20-F202-4E7F-AE63-94BF817B6E30
 keywords:
 - crop effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

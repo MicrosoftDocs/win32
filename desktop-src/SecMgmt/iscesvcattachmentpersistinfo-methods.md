@@ -2,7 +2,6 @@
 Description: The ISceSvcAttachmentPersistInfo interface exposes the following methods.
 ms.assetid: BC1691F7-7F53-4F89-821D-B7E2A262522B
 title: ISceSvcAttachmentPersistInfo Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

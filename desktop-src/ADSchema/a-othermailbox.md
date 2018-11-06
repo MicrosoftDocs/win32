@@ -1,9 +1,6 @@
 ---
 title: Other-Mailbox attribute
 description: Contains other additional mail addresses in a form such as CCMAIL BruceKeever.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c7e49fbc-fb3a-487e-835b-ad2c1481425a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Other-Mailbox
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

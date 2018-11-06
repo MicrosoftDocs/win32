@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),license revocation agent objects
 - objects,license revocation agent objects
 - license revocation,license revocation agent objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

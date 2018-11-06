@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_FromDirectoryAction association identifies the source directory for the file action.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 25d06dad-ae39-4cfc-9331-4be7ef02d87c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_FromDirectoryAction class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_FromDirectoryAction** association identifies the source directory for the file action. When this association is used, the assumption is that the source directory was created by a previous action. This association cannot exist with a [**CIM\_FromDirectorySpecification**](cim-fromdirectoryspecification.md) association; a file action can only involve a single source directory.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

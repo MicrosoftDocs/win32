@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ModifySettingAction class represents the information for modifying a specific setting file, for a specific entry, with a specific value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6d22bc11-f798-4634-8688-797d4a4a4bee
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ModifySettingAction class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -40,7 +34,7 @@ api_location:
 
 The **CIM\_ModifySettingAction** class represents the information for modifying a specific setting file, for a specific entry, with a specific value.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

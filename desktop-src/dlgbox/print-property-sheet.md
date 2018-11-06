@@ -13,7 +13,6 @@ keywords:
 - customizing Print Property Sheet dialog box
 - predefined dialog boxes
 - dialog boxes,Print Property Sheet
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: CENUMOBJ.CPP
 description: In the example provider component, the enumeration of a container object uses the routines, from cenumobj.cpp, listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7166230d-0bf8-4f7d-9781-72f125a3dd21
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

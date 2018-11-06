@@ -1,7 +1,6 @@
 ---
 ms.assetid: 464b598c-5fa7-40af-83ba-8619fbd84b04
 title: IMFMediaKeys::Shutdown method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

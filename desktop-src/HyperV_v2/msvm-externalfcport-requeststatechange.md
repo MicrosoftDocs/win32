@@ -2,7 +2,6 @@
 Description: Requests a state change.
 ms.assetid: 6f76a036-f8f0-4011-9446-168946787f0e
 title: RequestStateChange method of the Msvm_ExternalFcPort class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

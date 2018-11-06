@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ComputerSystemMappedIO class represents an association between a computer system and its available memory-mapped I/O ports.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5df9db36-67ad-4a94-a7db-150b58977af1
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemMappedIO class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_ComputerSystemMappedIO** class represents an association between a computer system and its available memory-mapped I/O ports.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

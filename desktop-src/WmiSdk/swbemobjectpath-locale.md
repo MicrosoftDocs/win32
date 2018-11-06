@@ -1,12 +1,8 @@
 ---
 Description: The Locale property of the SWbemObjectPath object contains the locale of object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cde4ebac-b112-48b5-a274-802e6d3fbfbf
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Locale property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

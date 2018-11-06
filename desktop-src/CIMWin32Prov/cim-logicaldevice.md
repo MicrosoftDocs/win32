@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_LogicalDevice class represents a hardware entity that may or may not be realized in physical hardware.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4f3d38ff-8080-4b53-ae29-82b68558c550
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_LogicalDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -45,7 +39,7 @@ api_location:
 
 The **CIM\_LogicalDevice** class represents a hardware entity that may or may not be realized in physical hardware.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

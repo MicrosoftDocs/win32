@@ -2,7 +2,6 @@
 Description: The NotifyAllocator method informs the CDrawImage object whether the allocator for the connection is a CImageAllocator object.
 ms.assetid: cc1604e7-f755-4a7a-9294-6fd06bb434d4
 title: CDrawImage.NotifyAllocator method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

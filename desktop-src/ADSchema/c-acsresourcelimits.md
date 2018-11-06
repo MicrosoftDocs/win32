@@ -1,9 +1,6 @@
 ---
 title: ACS-Resource-Limits class
 description: Contains reservable resources limits for a subnet. These limits can be for each ACS service type or for all service types.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6b1d15e8-a60b-4253-8521-db3c9ebbb69b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Resource-Limits
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

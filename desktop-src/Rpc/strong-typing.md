@@ -4,7 +4,6 @@ description: C is a weakly typed language, that is, the compiler allows operatio
 ms.assetid: 5f52adcc-22b9-4b4f-b921-5996d278b10e
 keywords:
 - Remote Procedure Call RPC , described, data typing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

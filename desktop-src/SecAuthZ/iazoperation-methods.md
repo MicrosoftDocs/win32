@@ -2,7 +2,6 @@
 Description: The IAzOperation interface exposes the following methods.
 ms.assetid: 96BC7551-35DD-4677-9131-7452C7A2C1E8
 title: IAzOperation Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

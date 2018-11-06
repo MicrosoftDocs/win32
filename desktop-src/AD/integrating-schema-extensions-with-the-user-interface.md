@@ -1,12 +1,8 @@
 ---
 title: Integrating Schema Extensions with the User Interface
 description: The administration tools of Active Directory Domain Services use a common architecture for connecting the administrative user interface to the directory schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 62cf9f9d-7091-4cff-9995-5934dfa3e97e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: glGetPixelMap Functions
 description: These functions return the specified pixel map.
 ms.assetid: 31f91d40-b52f-4231-a7bf-e2a387be5191
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

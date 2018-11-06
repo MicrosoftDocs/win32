@@ -13,7 +13,6 @@ keywords:
 - Element action events
 - Structure change events
 - Global desktop change events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The networking architecture for virtualization models the physical networking architecture. It uses standard networking objects such as switches, switch ports, and network adapters.
 ms.assetid: ADD2903B-24BE-4877-B7D4-A1BDEE53FA29
 title: Hyper-V networking API reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The XMFLOAT3 structure exposes the following operators.
 ms.assetid: dc98a2ed-da87-4ba3-8394-682143b378b8
 title: XMFLOAT3 Operators
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

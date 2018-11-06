@@ -2,7 +2,6 @@
 title: UI Automation Specification
 description: This topic provides an overview of the Microsoft UI Automation Specification, which forms the basis of the Windows implementation of UI Automation.
 ms.assetid: 45160767-09b0-4fd1-bd73-bc5ac0e6f75e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player,task panes
 - Windows Media Player library,integrating
 - library,integrating
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

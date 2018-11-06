@@ -1,9 +1,6 @@
 ---
 title: EnableTransport method of the Win32_TSGatewayServerSettings class
 description: Enables or disables the specified transport.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 95c599d7-56c3-462a-9c7d-2ecf8fc55da1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

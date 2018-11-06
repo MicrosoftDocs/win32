@@ -2,7 +2,6 @@
 title: How to Add List-View Image Lists
 description: This topic demonstrates how to add image lists to a list-view control.
 ms.assetid: 3C282FBC-5E37-4D8E-A2C4-B2876874E9A7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

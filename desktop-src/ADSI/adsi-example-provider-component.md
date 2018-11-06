@@ -1,12 +1,8 @@
 ---
 title: ADSI Example Provider Component
 description: Active Directory Service Interfaces provider writers will find this section of particular interest, because it describes the ADSI example provider component in depth.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1ca73817-7a21-4a39-b496-fc82db26ea4e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

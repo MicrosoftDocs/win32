@@ -2,7 +2,6 @@
 Description: The Dolby audio decoder is a Media Foundation transform (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3.
 ms.assetid: CBC31132-046C-4CD7-9DBA-20A9C666FB43
 title: Dolby Digital Audio Encoder
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 The Dolby audio decoder is a [Media Foundation transform](media-foundation-transforms.md) (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3. The encoder does not support multi-channel input, such as the 5.1 channel configuration.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > For versions of Windows prior to Windows 8, the Microsoft implementation of the Dolby Digital technology is restricted under terms of the Dolby Digital licensing program to use by Microsoft applications.
 
  

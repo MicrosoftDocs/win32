@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-SQLServer class
 description: Container for storing MS-SQL-SQLDatabase, MS-SQL-SQLPublication, and MS-SQL-SQLRepository objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e83c93fa-b5d8-4941-af8c-b7a4c47c8e87
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-SQLServer
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,6 @@
 ---
 Description: This section describes the Windows Shell utility macros.
 title: Shell Macros
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

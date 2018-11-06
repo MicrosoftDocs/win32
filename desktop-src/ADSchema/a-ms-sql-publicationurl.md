@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-PublicationURL attribute
 description: The MS-SQL-PublicationURL attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d758274e-7b55-4f94-a652-a33960a78fef
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-PublicationURL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

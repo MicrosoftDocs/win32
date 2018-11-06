@@ -2,7 +2,6 @@
 title: or (sm4 - asm)
 description: Bitwise or.
 ms.assetid: BBC06F8C-4C86-4077-A1F9-383D6A8FBED3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

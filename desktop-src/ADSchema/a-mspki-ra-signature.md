@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-RA-Signature attribute
 description: Specifies the number of enrollment registration authority signatures that are required in an enrollment request.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: da9d9357-6826-4511-b589-594c73114713
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-RA-Signature
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

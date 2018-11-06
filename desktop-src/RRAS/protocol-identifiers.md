@@ -2,7 +2,6 @@
 title: Protocol Identifiers
 description: The following protocol identifiers are also listed in Routprot.h for the Windows SDK, and iprtmib.h for the Platform Software Development Kit (SDK).
 ms.assetid: f67138b8-de5d-4907-a464-672d57864ebf
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

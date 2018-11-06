@@ -1,9 +1,6 @@
 ---
 title: Deleting Users on Member Servers and Windows 2000 Professional
 description: This topic shows how to delete a user from a member server or computer running on Windows 2000 Professional.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0c94c08b-46cb-494e-89f8-a21bfb20e34c
 ms.tgt_platform: multiple
 keywords:
@@ -12,7 +9,6 @@ keywords:
 - deleting a user
 - server, deleting a user
 - deleting users on member servers and windows 2000 professional AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

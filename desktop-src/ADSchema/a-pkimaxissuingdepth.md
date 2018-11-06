@@ -1,9 +1,6 @@
 ---
 title: PKI-Max-Issuing-Depth attribute
 description: The maximum length of the certificate chain issued by the certificate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0281f05a-4066-4305-ab0a-d741f17c8f28
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Max-Issuing-Depth
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

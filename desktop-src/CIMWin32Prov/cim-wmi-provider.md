@@ -1,14 +1,8 @@
 ---
 Description: These WMI classes are declared in CimWin32.mof.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 53122499-1CC0-4B48-AEA1-B70B7BBC3A99
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM WMI Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

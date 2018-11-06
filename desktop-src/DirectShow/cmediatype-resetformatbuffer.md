@@ -2,7 +2,6 @@
 Description: The ResetFormatBuffer method deletes the format block. The method sets the cbFormat and pbFormat members of the AM\_MEDIA\_TYPE structure to NULL.
 ms.assetid: 5eb6dfc8-cfba-41dd-b422-8fe93ca904c1
 title: CMediaType.ResetFormatBuffer method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

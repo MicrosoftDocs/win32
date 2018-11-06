@@ -4,7 +4,6 @@ description: The 64-bit version of Windows is designed to make it possible for d
 ms.assetid: 85d789c9-91dd-4cdc-a10b-c38a455fc940
 keywords:
 - drivers 64-bit Windows Programming
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

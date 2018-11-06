@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ReplacementSet class aggregates physical elements that must be replaced together.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: db55ae2d-49b3-4cc9-95ee-1e757f58a427
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ReplacementSet class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_ReplacementSet** class aggregates physical elements that must be replaced together. For example, when replacing a memory card, the component memory chips can also be removed and replaced. Or, this association can be used to replace or upgrade a set of memory chips.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -2,7 +2,6 @@
 title: Negotiation Discovery Transport Mode in Boundary Mode
 description: The Negotiation Discovery Transport Mode in Boundary Mode IPsec policy scenario requests IPsec transport mode protection for all matching traffic.
 ms.assetid: 36ae74b3-30f5-49bd-8855-6f3c0fb04d70
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

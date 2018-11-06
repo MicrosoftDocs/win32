@@ -1,9 +1,6 @@
 ---
 title: Replica-Source attribute
 description: This attribute contains the GUID of a replication source.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3415613-273a-40a8-966a-8d7a2b07ba70
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Replica-Source
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PhysicalExtent class represents an SCC RAID implementation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d1950464-e17a-4651-aa53-6385659994ff
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PhysicalExtent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -53,7 +47,7 @@ api_location:
 
 The **CIM\_PhysicalExtent** class represents an SCC RAID implementation. It defines the consecutive addressable block addresses on a single storage device that are treated as a single storage extent in the same [**CIM\_StorageRedundancyGroup**](cim-storageredundancygroup.md) class. An alternative, when automatic configuration is used, is to instantiate or extend the [**CIM\_AggregatePExtent**](cim-aggregatepextent.md) class.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

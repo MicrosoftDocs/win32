@@ -2,7 +2,6 @@
 title: Turning Retransmission On and Off
 description: An application can set the retransmission mode with a call to the SnmpSetRetransmitMode function. The new retransmission mode applies to subsequent calls to the SnmpSendMsg function.
 ms.assetid: 0e167014-2703-4942-91f0-c60a5c0d8e12
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

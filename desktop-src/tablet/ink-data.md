@@ -2,7 +2,6 @@
 Description: After the ink is collected, applications can manage, manipulate, and/or transfer that data to other media.
 ms.assetid: 5a8c370e-79cb-47f0-a7b3-a631874ad757
 title: Ink Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: SetServerWeight method of the Win32_TSSessionDirectory class
 description: Sets the server weight value for Remote Desktop Connection Broker (RD Connection Broker) load balancing.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9c7563e5-bb45-495d-90b0-43170b58581e
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

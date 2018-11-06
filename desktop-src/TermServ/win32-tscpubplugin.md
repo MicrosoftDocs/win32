@@ -1,9 +1,6 @@
 ---
 title: Win32_TSCPubPlugin class
 description: Represents a plug-in that is configured to be used through the RemoteApp and Desktop Connection Management Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0eebdeea-4bfb-4032-a28b-870df7103473
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: A polygon is a closed figure with three or more straight sides.
 ms.assetid: f1155341-83f3-4805-8d42-a1910515db31
 title: Polygons
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

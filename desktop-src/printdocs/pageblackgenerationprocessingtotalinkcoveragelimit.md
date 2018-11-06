@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 7ccd02c2-7cec-4d9d-83c1-512f25f4045c
 title: PageBlackGenerationProcessingTotalInkCoverageLimit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

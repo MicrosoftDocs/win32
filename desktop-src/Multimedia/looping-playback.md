@@ -2,7 +2,6 @@
 title: Looping Playback
 description: Looping Playback
 ms.assetid: 59e27271-332a-4c62-bfcd-5377cdbf0848
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

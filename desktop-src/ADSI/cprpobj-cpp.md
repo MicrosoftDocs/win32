@@ -1,12 +1,8 @@
 ---
 title: CPRPOBJ.CPP
 description: In the example provider component, property object methods, in cprpobj.cpp, are listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 88628b9b-12e6-4d64-9a21-b30f7392a5f2
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

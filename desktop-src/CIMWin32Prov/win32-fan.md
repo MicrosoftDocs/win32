@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_Fan WMI class represents the properties of a fan device in the computer system. For example, the CPU cooling fan.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ff48b788-d759-45cf-812f-a80dba0c9192
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Fan class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

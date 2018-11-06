@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_CIMLogicalDeviceCIMDataFile association WMI class relates logical devices and data files, indicating the driver files used by the device. This class is used to discover which device drivers a device uses.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 892272de-920d-4fa0-adbc-f584ed6e8748
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_CIMLogicalDeviceCIMDataFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

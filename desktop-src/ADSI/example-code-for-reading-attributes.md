@@ -1,14 +1,10 @@
 ---
 title: Example Code for Reading Attributes
 description: The following code example enumerates the properties of the specified user in the current domain, by searching for the user and then using IADsPropertyList to enumerate its properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f5541e9b-e149-4d22-9ff6-a32bd8239f57
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Reading Attributes ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MoveDown method of the Win32_TSGatewayRADIUSServer class
 description: Moves this Remote Authentication Dial-In User Service (RADIUS) server one position down in the priority order.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1b12d2a0-1463-4bd7-9b92-5df2ba799a8a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Gets all available property IDs in a profile.
 ms.assetid: 9ef2abdd-0b33-4be3-a124-7795f42d5e55
 title: IScanProfile::GetAllPropIDs method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

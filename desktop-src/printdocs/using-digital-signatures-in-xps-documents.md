@@ -2,7 +2,6 @@
 Description: This topic lists considerations for using the XPS Digital Signature API to add digital signatures to an XPS document.
 ms.assetid: 27c28313-d8db-4c40-9972-cb03bdaa125c
 title: Using XPS Digital Signature API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Size Limit with IDirectorySearch
 description: The client can focus on a small number of objects returned from the server and ignore the rest of the result set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 55393177-f49b-4163-8e33-2ec24a64b99a
 ms.tgt_platform: multiple
 keywords:
 - Size Limit with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Size Limit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

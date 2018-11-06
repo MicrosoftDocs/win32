@@ -2,7 +2,6 @@
 Description: The SourceListForceResolution method clears the LastUsedSource property.
 ms.assetid: 554bc321-51d8-4595-b79c-7975bad8c555
 title: Product.SourceListForceResolution method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

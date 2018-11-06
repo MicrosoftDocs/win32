@@ -2,7 +2,6 @@
 Description: This application demonstrates working with the RealTimeStylus class.
 ms.assetid: 0ba753d1-d81a-4f7a-942c-2967c46febec
 title: RealTimeStylus Plug-in Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

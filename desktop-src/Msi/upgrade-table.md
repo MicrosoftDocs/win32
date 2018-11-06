@@ -2,7 +2,6 @@
 Description: The Upgrade table contains information required during major upgrades.
 ms.assetid: f5fda405-8a09-495e-aa8c-b808a2f02b0f
 title: Upgrade Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

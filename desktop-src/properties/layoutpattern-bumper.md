@@ -2,7 +2,6 @@
 Description: LayoutPattern
 ms.assetid: bef63c68-cf41-4367-8101-35fb9ca2af17
 title: LayoutPattern
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

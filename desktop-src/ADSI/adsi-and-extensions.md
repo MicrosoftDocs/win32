@@ -1,15 +1,11 @@
 ---
 title: How ADSI Integrates Extensions
 description: Guidelines that describe how ADSI interacts with extensions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 00301551-ec56-4cb4-8e77-264c3ad48814
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI
 - adsi and extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

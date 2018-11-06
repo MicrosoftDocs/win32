@@ -1,14 +1,8 @@
 ---
 Description: The Reset method of the CIM\_AlarmDevice class requests a logical device reset. This method is inherited from CIM\_LogicalDevice.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e70718c5-2c80-4084-b233-b3e4d083e7b4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Reset method of the CIM_AlarmDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Reset** method of the [**CIM\_AlarmDevice**](cim-alarmdevice.md) class requests a logical device reset. This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

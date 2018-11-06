@@ -2,7 +2,6 @@
 Description: Mobile telephone number of the contact.
 ms.assetid: 2c4536e2-ce2a-4246-89a3-b721ef8a831c
 title: System.Contact.MobileTelephone
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

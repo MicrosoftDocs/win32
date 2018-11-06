@@ -1,9 +1,6 @@
 ---
 title: Notification-List attribute
 description: The Notification-List attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 50def826-a4bb-4235-a2b6-ea7da2600d17
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Notification-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic describes how to use the Source Reader to process media data.
 ms.assetid: 583f5736-f767-47c5-8fdc-b3645aed59f6
 title: Using the Source Reader to Process Media Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -524,7 +523,7 @@ The Source Reader is compatible with Microsoft DirectX Video Acceleration (DXVA)
 
 When you provide a Direct3D device, the Source Reader allocates video samples that are compatible with the DXVA video processor API. You can use DXVA video processing to perform hardware deinterlacing or video mixing. For more information, see [DXVA Video Processing](dxva-video-processing.md). Also, if the decoder supports DXVA 2.0, it will use the Direct3D device to perform hardware-accelerated decoding.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Beginning in Windows 8, [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) can be used instead of the [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9). For Windows Store apps, you must use **IMFDXGIDeviceManager**. For more info, see the [Direct3D 11 Video APIs](direct3d-11-video-apis.md).
 
  

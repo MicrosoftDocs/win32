@@ -1,9 +1,6 @@
 ---
 title: ResumeService method of the Win32_Service class
 description: Attempts to place the referenced service in the resumed state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: AA020A0A-E69C-44AB-B259-A73460728770
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Change-Domain-Master extended right
 description: Extended right needed to change the domain naming FSMO role owner.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 17c849ca-1996-4114-afd5-a5f5997de37d
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Change-Domain-Master
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

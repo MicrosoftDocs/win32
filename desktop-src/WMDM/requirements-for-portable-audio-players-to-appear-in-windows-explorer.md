@@ -9,7 +9,6 @@ keywords:
 - service providers,portable audio players
 - creating service providers,portable audio players
 - portable audio players
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

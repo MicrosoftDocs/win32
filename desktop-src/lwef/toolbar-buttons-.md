@@ -2,7 +2,6 @@
 title: Toolbar Buttons
 description: Toolbar Buttons
 ms.assetid: 8867a038-d2c4-43c1-b994-bd3779a251b9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

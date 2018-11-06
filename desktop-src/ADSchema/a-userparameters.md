@@ -1,9 +1,6 @@
 ---
 title: User-Parameters attribute
 description: Parameters of the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e3d6d22d-5112-4dfe-af55-a17a63e5f2e4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User-Parameters
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

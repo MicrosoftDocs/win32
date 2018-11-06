@@ -1,14 +1,8 @@
 ---
 Description: Creates a new printer driver.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 23d9ec50-235a-4bf8-ab6b-be3509c3869f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AddPrinterDriver method of the Win32_PrinterDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

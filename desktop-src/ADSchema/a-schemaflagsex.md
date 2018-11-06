@@ -1,9 +1,6 @@
 ---
 title: Schema-Flags-Ex attribute
 description: The Schema-Flags-Ex attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 60b96e25-9b5b-4c33-9ad4-36db5330e1bb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Schema-Flags-Ex
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

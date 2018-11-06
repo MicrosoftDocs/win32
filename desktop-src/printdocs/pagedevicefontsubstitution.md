@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 741aa729-35c3-43c2-93d8-e25ed508cfa6
 title: PageDeviceFontSubstitution
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

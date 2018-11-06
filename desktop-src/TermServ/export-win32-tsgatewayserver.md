@@ -1,9 +1,6 @@
 ---
 title: Export method of the Win32_TSGatewayServer class
 description: Returns the Remote Desktop Gateway (RD Gateway) server configuration as an XML string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: abf3a616-2b86-4cfe-934f-f1f17ce3ce31
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

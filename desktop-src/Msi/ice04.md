@@ -2,7 +2,6 @@
 Description: ICE04 validates that the sequence number of every file in the File table is less than or equal to the largest sequence number in the LastSequence column of the Media table.
 ms.assetid: ecde1389-50ea-479e-bbc1-a36ce3aceccd
 title: ICE04
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The QueueSample method queues a sample.
 ms.assetid: f34c0689-5afb-4941-bc3a-e4765fbbe525
 title: COutputQueue.QueueSample method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

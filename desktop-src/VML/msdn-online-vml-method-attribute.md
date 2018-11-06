@@ -2,7 +2,6 @@
 title: VML Method Attribute
 description: VML Method Attribute
 ms.assetid: 42ab9d78-f004-4571-a566-03edd8341d19
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

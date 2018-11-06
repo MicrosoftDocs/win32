@@ -1,9 +1,6 @@
 ---
 title: Employee-Type attribute
 description: The job category for an employee.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f4370a11-1ea5-4497-945e-01d343f4149f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Employee-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

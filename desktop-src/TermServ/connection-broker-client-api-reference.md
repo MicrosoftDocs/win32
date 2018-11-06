@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Connection Broker client API reference
 description: Programming elements used with the Remote Desktop Connection Broker client API.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0059462A-22BD-4381-9A3E-47C2F09A596A
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

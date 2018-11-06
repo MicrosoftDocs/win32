@@ -9,7 +9,6 @@ keywords:
 - audio mixers,custom controls
 - mixers,controls
 - mixers,custom controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

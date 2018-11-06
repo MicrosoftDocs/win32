@@ -2,7 +2,6 @@
 title: VML Line Element
 description: VML Line Element
 ms.assetid: e82942fa-21da-46db-b9f8-675339a97ffd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

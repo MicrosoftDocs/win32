@@ -2,7 +2,6 @@
 Description: Defines a two dimensional vector used to define a mesh's (u, v) texture coordinates.
 ms.assetid: 6e91f75b-1ca7-404a-96d8-135b73ac7d72
 title: Coords2d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

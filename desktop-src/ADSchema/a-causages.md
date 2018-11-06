@@ -1,9 +1,6 @@
 ---
 title: CA-Usages attribute
 description: List of OID/CSP name concatenations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b68a868c-6627-4233-ba7e-2fd50b513298
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - CA-Usages
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

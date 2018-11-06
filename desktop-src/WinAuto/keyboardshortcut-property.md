@@ -2,7 +2,6 @@
 title: KeyboardShortcut Property
 description: The KeyboardShortcut property describes a key or key combination that activates a specified accessible object.
 ms.assetid: 42587468-f069-4ef1-868e-ac6a285e1715
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Name attribute
 description: The name of a SQL Server instance. The default is MSSQLSERVER.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 334ab8fd-2890-40a0-9970-8c36d2de3dc7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

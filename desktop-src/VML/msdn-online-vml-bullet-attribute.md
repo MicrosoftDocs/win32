@@ -2,7 +2,6 @@
 title: VML Bullet Attribute
 description: VML Bullet Attribute
 ms.assetid: 17c24b97-191b-4170-8a2d-9284f500e728
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

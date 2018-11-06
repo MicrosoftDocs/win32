@@ -1,12 +1,8 @@
 ---
 title: IMsRdpClientTransportSettings2 Properties
 description: The IMsRdpClientTransportSettings2 interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: FD8FAE36-AF3E-4E40-8071-ABE08F43AF0C
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

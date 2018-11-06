@@ -1,9 +1,6 @@
 ---
 title: TLSLicenseEnumBegin function
 description: Begins enumeration of licenses that are issued by the Remote Desktop license server based on search criteria.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ec575632-b828-49c0-b326-1ab420381875
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

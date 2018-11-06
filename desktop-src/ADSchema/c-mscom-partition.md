@@ -1,9 +1,6 @@
 ---
 title: ms-COM-Partition class
 description: A namespace used by COM+ to allow multiple versions of the same COM+ application to exist on the same physical computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 84e7af24-0202-4ae8-a278-0f390ddadbb3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-COM-Partition
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

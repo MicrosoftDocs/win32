@@ -2,7 +2,6 @@
 title: Do Not Use Endpoint Security
 description: Endpoint security is a security model in which a security descriptor is given when an endpoint is created with the RpcServerUseProtseq\ group of RPC functions.
 ms.assetid: 5b8841c4-5b65-417f-b790-e8c2dabb44a1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

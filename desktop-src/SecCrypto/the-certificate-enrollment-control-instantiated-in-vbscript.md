@@ -2,7 +2,6 @@
 Description: A Visual Basic Scripting Edition (VBScript) example that uses the OBJECT tag to create an instance of the Certificate Enrollment Control object.
 ms.assetid: 6e2a230e-81c1-4b63-9ad5-3edfc239ad7c
 title: The Certificate Enrollment Control Instantiated in VBScript
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

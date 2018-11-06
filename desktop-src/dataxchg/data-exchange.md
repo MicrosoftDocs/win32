@@ -4,7 +4,6 @@ description: The data exchange section describes methods of exchanging data.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\dataexchange.htm'
 keywords:
 - data exchange,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IADsSecurityDescriptor Property Methods
 description: The property methods of the IADsSecurityDescriptor interface get or set the properties described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e0c50740-de98-4913-b3df-6fd53263bcc8
 ms.tgt_platform: multiple
 keywords:
@@ -46,7 +43,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

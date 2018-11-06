@@ -2,7 +2,6 @@
 Description: The following VBScript sample code shows how the Certificate Enrollment Control can be used with the CCertRequest object to create and submit a certificate request.
 ms.assetid: be1bc66a-7bc5-4369-9344-168af53fdfb9
 title: Request Sample in VBScript
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

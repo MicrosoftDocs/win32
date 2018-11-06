@@ -1,9 +1,6 @@
 ---
 title: Enabled attribute
 description: This attribute is used to signify whether a given crossRef is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0c0ee4d7-0f0c-450e-9226-7dff03b68bcd
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Enabled
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

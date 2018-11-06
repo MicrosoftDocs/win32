@@ -18,7 +18,6 @@ keywords:
 - Windows Media Player ActiveX control,eConsole
 - Windows Media Player ActiveX control,eMultimedia
 - Windows Media Player ActiveX control,eCommunications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

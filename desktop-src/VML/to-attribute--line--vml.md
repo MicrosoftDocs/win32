@@ -2,7 +2,6 @@
 title: To Attribute (Line)(VML)
 description: To Attribute (Line)(VML)
 ms.assetid: e4d2afb9-0cad-469d-a388-c1b824d14c04
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

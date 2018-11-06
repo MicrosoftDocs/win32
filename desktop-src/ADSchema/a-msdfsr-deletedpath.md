@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-DeletedPath attribute
 description: Full path of the Deleted directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8fb702a5-abd1-494c-980b-af90385bfd9c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-DeletedPath
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

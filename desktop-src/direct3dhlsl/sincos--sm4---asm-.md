@@ -2,7 +2,6 @@
 title: sincos (sm4 - asm)
 description: Component-wise sin(theta) and cos(theta) for theta in radians.
 ms.assetid: 81FDEC8F-2C1C-4C60-A6DA-699C798F8316
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

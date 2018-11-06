@@ -2,7 +2,6 @@
 title: TabbingNotSymmetric
 description: TabbingNotSymmetric
 ms.assetid: 1E14ED9F-27C1-4054-B0A6-702167222196
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

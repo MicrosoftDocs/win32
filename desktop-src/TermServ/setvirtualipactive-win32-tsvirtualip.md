@@ -1,9 +1,6 @@
 ---
 title: SetVirtualIPActive method of the Win32_TSVirtualIP class
 description: Sets the VirtualIPActive property value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e485aeb1-afdf-4572-bac7-daa80d903edc
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

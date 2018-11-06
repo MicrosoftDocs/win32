@@ -2,7 +2,6 @@
 title: CounterItem Properties
 description: The CounterItem class has the following properties
 ms.assetid: 4c8e1353-338c-4aca-9904-62790409168e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

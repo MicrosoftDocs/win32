@@ -8,7 +8,6 @@ keywords:
 - type 1 online stores,exclusive
 - type 2 online stores,exclusive
 - exclusive online stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

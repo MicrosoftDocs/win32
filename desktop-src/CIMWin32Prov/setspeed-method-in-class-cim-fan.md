@@ -1,14 +1,8 @@
 ---
 Description: The SetSpeed method requests that the fan speed be set to the value specified in the method's input parameter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7dd1cd57-66c5-4b50-9a73-31caf0b824e6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetSpeed method of the CIM_Fan class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **SetSpeed** method requests that the fan speed be set to the value specified in the method's input parameter.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

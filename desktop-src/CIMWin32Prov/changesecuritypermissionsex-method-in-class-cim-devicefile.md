@@ -1,14 +1,8 @@
 ---
 Description: Changes the security permissions for the device file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5ad54470-6961-4c0d-9d2a-d3eaf81d75f4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the CIM_DeviceFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **ChangeSecurityPermissionsEx** method changes the security permissions for the device file specified in the object path (this method is an extended version of the [**ChangeSecurityPermissions**](changesecuritypermissions-method-in-class-cim-devicefile.md) method). If the logical file is a directory, then this method acts recursively, changing the security permissions for all of the files and sub-directories that the directory contains. This method is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

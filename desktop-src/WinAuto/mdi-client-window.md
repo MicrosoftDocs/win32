@@ -2,7 +2,6 @@
 title: MDI Client Window (MSAA UI Element Reference)
 description: The multiple document interface (MDI) is a specification that defines the standard user interface for applications written for Windows. An MDI application enables a user to work with more than one document at a time.
 ms.assetid: ede2dd19-e4c6-43e8-8f22-f807621dfa0d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

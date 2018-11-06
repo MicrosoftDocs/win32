@@ -1,9 +1,6 @@
 ---
 title: Searching Binary Data
 description: Even though the ADSI search feature only supports searching for string data, it is possible to search for binary data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 52b75ae0-dbf1-4310-8b6b-a176de9f1b7d
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - Binary Data ADSI
 - Binary Data ADSI , Searching Binary Data
 - ADSI ADSI , Example Code C/C++ , Searching for Binary Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

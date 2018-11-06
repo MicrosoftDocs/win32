@@ -2,7 +2,6 @@
 Description: Windows Sockets 2 (Winsock) enables programmers to create advanced Internet, intranet, and other network-capable applications to transmit application data across the wire, independent of the network protocol being used.
 ms.assetid: 1ec8758a-40fd-4c98-b839-c2409ef712d6
 title: Windows Sockets 2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

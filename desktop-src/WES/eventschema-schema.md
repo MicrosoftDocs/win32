@@ -2,7 +2,6 @@
 title: Event Schema
 ms.assetid: 36037697-b777-4e5c-99af-77964200a3e4
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

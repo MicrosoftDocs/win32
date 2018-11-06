@@ -2,7 +2,6 @@
 Description: When using multiple monitors as independent displays, the desktop contains one display or set of displays.
 ms.assetid: fbc88c91-3209-4b59-bdbb-0f5ba009a312
 title: Using Multiple Monitors as Independent Displays
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The semantics for datagram, or connectionless, contexts differ slightly from those for connection-oriented contexts.
 ms.assetid: f312796c-cbe6-4be9-9886-52fdb34ced6b
 title: Datagram Contexts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -13,7 +12,7 @@ The semantics for [*datagram*](https://msdn.microsoft.com/library/windows/deskto
 
 To use a datagram context, a client sets the ISC\_REQ\_DATAGRAM flag in its call to the [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) function.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The [Microsoft Kerberos](microsoft-kerberos.md) package does not support datagram contexts in user-to-user mode.
 
  

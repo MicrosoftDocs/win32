@@ -2,7 +2,6 @@
 Description: Compares two Unicode strings to determine whether one string is a prefix of the other.
 ms.assetid: 7D859C0A-2F72-49A4-8B49-130DCA103F37
 title: RtlPrefixUnicodeString function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

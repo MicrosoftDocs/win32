@@ -1,9 +1,6 @@
 ---
 title: msRASSavedFramedRoute attribute
 description: The msRASSavedFramedRoute attribute is used internally.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3947bc71-95d0-4f03-ba40-980f277df1ae
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msRASSavedFramedRoute
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Illustrates invoking a DDE command using a Shell verb.
 ms.assetid: 65DDD992-5E96-447E-9151-2CCA740822A1
 title: How to Associate Verbs with DDE Commands
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 576070e9-8f7a-4df7-ba3a-0872aa96a0ab
 title: System.Audio.PeakValue
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

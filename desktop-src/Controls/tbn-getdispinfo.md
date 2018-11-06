@@ -4,7 +4,6 @@ description: Retrieves display information for a toolbar item. This notification
 ms.assetid: ed6e4141-2bf8-4a92-8349-f3833c87fcf3
 keywords:
 - TBN_GETDISPINFO notification code Windows Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

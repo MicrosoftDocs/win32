@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewayPassword property
 description: Specifies the password that a user provides to connect to the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f29078e5-49ab-45a0-8d79-4b57d7c35e3a
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

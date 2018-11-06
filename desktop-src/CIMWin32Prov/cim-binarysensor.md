@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_BinarySensor class provides a Boolean output.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 51396a51-78ea-4c49-8dcc-7fb815f334ae
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_BinarySensor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -49,7 +43,7 @@ api_location:
 
 The **CIM\_BinarySensor** class provides a Boolean output. The **CurrentState** and **PossibleStates** properties were added for sensoring, thus making the **CIM\_BinarySensor** subclass no longer necessary, although, it is retained for backward compatibility. A binary sensor can be created by instantiating a sensor with two possible states.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

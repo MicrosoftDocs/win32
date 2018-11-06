@@ -1,9 +1,6 @@
 ---
 title: MS-TS-LicenseVersion2 attribute
 description: Version of the second terminal server per user CAL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9e4bc586-365a-4a46-a623-e686d305a159
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-LicenseVersion2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: rpc-Ns-Annotation attribute
 description: A string that describs a given RPC Profile element.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c4f148ec-c3c0-4ff8-9982-e941939ed823
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Ns-Annotation
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

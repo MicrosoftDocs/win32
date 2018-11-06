@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: a520b9e5-1f58-499f-b93a-c072cf79623b
 title: System.Document.LineCount
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

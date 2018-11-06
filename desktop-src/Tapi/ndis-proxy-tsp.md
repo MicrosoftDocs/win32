@@ -2,7 +2,6 @@
 Description: The NDIS Proxy is a kernel-mode component that exposes NDIS miniports as TAPI lines. The NDIS Proxy TSP (Ndptsp.tsp) allows TAPI to communicate with the NDIS Proxy.
 ms.assetid: 46825be7-86f5-4dbe-bc4d-69033e6a198b
 title: NDIS Proxy TSP
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

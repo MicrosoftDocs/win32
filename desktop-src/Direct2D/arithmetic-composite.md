@@ -4,7 +4,6 @@ description: Use the arithmetic composite effect to combine 2 images using a wei
 ms.assetid: 6EC8CD61-5B51-4A8E-8A61-B291ABB5C5E0
 keywords:
 - arithmetic composite effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

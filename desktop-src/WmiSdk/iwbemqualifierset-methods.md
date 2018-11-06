@@ -1,12 +1,8 @@
 ---
 Description: The IWbemQualifierSet interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D4D9C330-BEBE-4856-BEBB-64255FFC3FF0
 ms.tgt_platform: multiple
 title: IWbemQualifierSet Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

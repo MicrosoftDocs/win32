@@ -4,7 +4,6 @@ description: ARIA Range Control Attributes Incompatible
 ms.assetid: 265AE578-D841-4931-9F4A-97BB86ECEC88
 keywords:
 - AriaRangeControlAttributesIncompatibleId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

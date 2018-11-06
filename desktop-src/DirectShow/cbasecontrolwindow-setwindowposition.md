@@ -2,7 +2,6 @@
 Description: The SetWindowPosition method sets the window position on the desktop.
 ms.assetid: 1c2706dd-d67c-41c7-b672-3c040f37bc41
 title: CBaseControlWindow.SetWindowPosition method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

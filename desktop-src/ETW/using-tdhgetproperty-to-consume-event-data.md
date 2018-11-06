@@ -2,7 +2,6 @@
 Description: The following example shows how to consume event data using the TdhGetProperty function.
 ms.assetid: 16b36718-087f-4be9-9ca2-fc083358017b
 title: Using TdhGetProperty to Consume Event Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

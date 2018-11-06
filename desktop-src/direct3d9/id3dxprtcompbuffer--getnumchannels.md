@@ -2,7 +2,6 @@
 Description: Retrieves the number of color channels used in memory to store samples.
 ms.assetid: 8b033cda-feec-4e74-a4c4-ea44b5fb12c7
 title: ID3DXPRTCompBuffer::GetNumChannels method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The GetFrameCaptureHandle function returns a handle to the capture based on a given frame.
 ms.assetid: 71b32799-194c-40f8-8438-36aebaba31c7
 title: GetFrameCaptureHandle function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

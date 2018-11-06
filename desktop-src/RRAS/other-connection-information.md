@@ -2,7 +2,6 @@
 title: Other Connection Information
 description: The members of the RASDIALPARAMS structure can also specify the following connection information.
 ms.assetid: 95a8dd78-e424-4d0b-899a-69deb9e1b9cd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

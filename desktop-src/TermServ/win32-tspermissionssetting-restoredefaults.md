@@ -1,9 +1,6 @@
 ---
 title: RestoreDefaults method of the Win32_TSPermissionsSetting class
 description: Restores the default permission set values for the terminal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bdd01290-7c7c-4355-85dc-ade51b2abd94
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

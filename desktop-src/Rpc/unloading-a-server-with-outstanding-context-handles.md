@@ -2,7 +2,6 @@
 title: Unloading a Server with Outstanding Context Handles
 description: Traditionally, unloading a DLL that services RPC calls using context handles, without first stopping the hosting process, has been problematic.
 ms.assetid: d3880578-e542-418c-803a-fd00d0bfde7f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

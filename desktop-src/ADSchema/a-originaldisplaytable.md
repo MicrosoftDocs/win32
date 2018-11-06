@@ -1,9 +1,6 @@
 ---
 title: Original-Display-Table attribute
 description: The MAPI (original) display table for an address entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3485665e-ce84-456e-b15e-acfa3be713ca
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Original-Display-Table
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The installer runs custom actions with user privileges by default in order to limit the access of custom actions to the system.
 ms.assetid: 62a3d103-a786-4727-b757-3a8229c8a53f
 title: Custom Action Security
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

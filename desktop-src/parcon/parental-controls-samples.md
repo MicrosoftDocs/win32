@@ -2,7 +2,6 @@
 Description: Parental Controls Samples
 ms.assetid: 19dac95c-2279-4bf9-a58c-dd30177c0c9d
 title: Parental Controls Samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

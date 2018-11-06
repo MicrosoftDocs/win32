@@ -1,9 +1,6 @@
 ---
 title: ACS-Service-Type attribute
 description: The ACS service type. Controlled load or guaranteed bandwidth.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3de23f2b-16dc-48c0-a8c5-e3130cd84ba8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Service-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

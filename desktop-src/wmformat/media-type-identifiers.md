@@ -7,7 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),media type identifiers
 - ASF (Advanced Systems Format),media type identifiers
 - media types,identifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

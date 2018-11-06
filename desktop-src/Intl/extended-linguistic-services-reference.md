@@ -2,7 +2,6 @@
 Description: Extended Linguistic Services Reference
 ms.assetid: a64334df-216f-4967-94fa-c439b809294d
 title: Extended Linguistic Services Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

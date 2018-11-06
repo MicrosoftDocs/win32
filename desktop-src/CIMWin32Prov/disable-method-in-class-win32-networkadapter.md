@@ -1,14 +1,8 @@
 ---
 Description: Disables the network adapter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6b328d7c-a9ef-4c9b-bc32-13fa2e0f65eb
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Disable method of the Win32_NetworkAdapter class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

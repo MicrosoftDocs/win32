@@ -2,7 +2,6 @@
 title: Establishing a Dial-Up Connection to the Internet
 description: The following functions are used to handle modem connections.
 ms.assetid: dd33ed4b-eb7c-449c-b309-8f5c290a5a93
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

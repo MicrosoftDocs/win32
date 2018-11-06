@@ -2,7 +2,6 @@
 Description: Returns a Boolean value that indicates whether the private key is protected.
 ms.assetid: 6a329581-0ff8-45fa-9997-5fcf043287cb
 title: PrivateKey.IsProtected method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

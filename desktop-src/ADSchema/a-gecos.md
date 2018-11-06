@@ -1,9 +1,6 @@
 ---
 title: gecos attribute
 description: Contains the information that is stored in the GECOS field.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 017884a5-697f-481d-b119-075deb96fd6f
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - gecos
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

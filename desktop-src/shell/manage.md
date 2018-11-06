@@ -2,7 +2,6 @@
 Description: The Shell provides a number of ways to manage file systems.
 ms.assetid: d9ffda6f-adc0-44a3-b410-e23bf5f4f165
 title: Managing the File System
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

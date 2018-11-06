@@ -2,7 +2,6 @@
 title: Working Set Information
 description: The working set of a process is the amount of memory physically mapped to its process context. PSAPI enables you to take snapshots of the working set or to monitor the working set.
 ms.assetid: '33c42f79-cc77-4d44-84c3-8bf0a4a60019'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

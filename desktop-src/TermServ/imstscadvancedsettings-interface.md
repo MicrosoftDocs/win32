@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings interface
 description: Includes methods to retrieve and set properties that enable bitmap caching, compression, and printer and clipboard redirection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3385e843-be05-4801-8d59-6395d95686b1
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

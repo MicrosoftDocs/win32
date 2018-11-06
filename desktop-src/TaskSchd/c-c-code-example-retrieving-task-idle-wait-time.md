@@ -5,7 +5,6 @@ ms.assetid: 2784b925-678c-422c-ae78-84d2982c2b02
 keywords:
 - retrieving task idle-wait time Task Scheduler
 - retrieving work item properties Task Scheduler , task idle-wait time
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

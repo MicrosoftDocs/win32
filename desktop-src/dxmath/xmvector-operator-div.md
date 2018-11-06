@@ -2,7 +2,6 @@
 Description: Division operator.
 ms.assetid: 2cb92c4f-883f-402f-bde7-2b77a0bca1fc
 title: operator / operators
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

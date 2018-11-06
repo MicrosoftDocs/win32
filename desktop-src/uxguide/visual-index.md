@@ -2,7 +2,6 @@
 title: Visual Index
 description: Visual examples of many user interface elements discussed in UX Guide.
 ms.assetid: be99bf83-dcd7-44df-be0d-b1b17305a2d6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

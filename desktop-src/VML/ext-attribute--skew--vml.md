@@ -2,7 +2,6 @@
 title: Ext Attribute (Skew)(VML)
 description: Ext Attribute (Skew)(VML)
 ms.assetid: ff1dfb2f-9098-4418-a2f7-c7159328bd09
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

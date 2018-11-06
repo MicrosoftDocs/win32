@@ -2,7 +2,6 @@
 Description: Constructors exposed by XMUSHORT4.
 ms.assetid: 7f822c43-69a6-442a-bb30-adfafe5399ff
 title: XMUSHORT4 constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

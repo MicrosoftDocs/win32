@@ -2,7 +2,6 @@
 Description: This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).
 ms.assetid: C73752AB-3D6E-4D92-9FDE-CB68B6A9743C
 title: HD Photo Format Overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -11,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > The HD Photo format is a pre-standard implementation of the JPEG XR format. The JPEG XR format has been fully implemented in Windows 8. See the [JPEG XR Codec Overview](jpeg-xr-codec.md) for more information.
 

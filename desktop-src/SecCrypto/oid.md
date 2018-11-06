@@ -2,7 +2,6 @@
 Description: Represents an object identifier (OID) that is used by several CAPICOM properties.
 ms.assetid: 'd9dc2a9a-920b-41e1-91fb-da1628df577d'
 title: OID object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type:

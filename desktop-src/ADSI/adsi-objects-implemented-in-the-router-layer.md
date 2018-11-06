@@ -1,12 +1,8 @@
 ---
 title: ADSI Objects Implemented in the Router Layer
 description: The following table presents a brief description of the COM objects implemented in the ADSI router.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bd446e05-a15d-4354-9204-1df4e360497c
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

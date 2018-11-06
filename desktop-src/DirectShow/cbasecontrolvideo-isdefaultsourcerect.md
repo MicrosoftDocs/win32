@@ -2,7 +2,6 @@
 Description: The IsDefaultSourceRect method determines if the renderer is using the default source rectangle (pure virtual).
 ms.assetid: 08c7a365-585c-47e6-9c26-6aa1fa3625e7
 title: CBaseControlVideo.IsDefaultSourceRect method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

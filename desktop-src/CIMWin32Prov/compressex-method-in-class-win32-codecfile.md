@@ -1,14 +1,8 @@
 ---
 Description: Compresses the logical codec file (or directory) specified in the object path (this method is an extended version of the Compress method).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e1ecf0de-3b81-443e-9936-326d7d2d9210
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_CodecFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

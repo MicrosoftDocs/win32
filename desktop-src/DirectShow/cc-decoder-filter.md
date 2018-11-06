@@ -2,14 +2,13 @@
 Description: CC Decoder Filter
 ms.assetid: 57ef75f6-411c-4b1f-b0dc-ac293ebc0b9c
 title: CC Decoder Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # CC Decoder Filter
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This component has been removed from Windows Vista and later operating systems. It is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.
 
  

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-SD-Reference-Domain attribute
 description: The name of the domain to be used for security descriptor translation for a non-domain-naming context.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5e0591e8-bf2a-4788-867e-c15c35b35a14
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-SD-Reference-Domain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

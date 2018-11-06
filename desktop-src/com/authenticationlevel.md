@@ -4,7 +4,6 @@ description: Sets the authentication level for applications that do not call CoI
 ms.assetid: 137cbffe-6f45-43f4-bf35-b064b3607fcc
 keywords:
 - AuthenticationLevel registry value COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

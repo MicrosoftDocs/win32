@@ -2,7 +2,6 @@
 title: Geometry Realizations Overview
 description: This topic describes how to use Direct2D geometry realizations to improve your app’s geometry rendering performance in certain scenarios.
 ms.assetid: E8C4C4E5-3102-4F53-847E-A4C2D12A6921
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

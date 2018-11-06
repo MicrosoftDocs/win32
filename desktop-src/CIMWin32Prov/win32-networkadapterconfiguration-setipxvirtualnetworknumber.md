@@ -1,14 +1,8 @@
 ---
 Description: Sets the Internetworking Packet Exchange (IPX) virtual network number on the target computer system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 52064250-b94f-4dc0-bf1a-8601cd135a90
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetIPXVirtualNetworkNumber method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

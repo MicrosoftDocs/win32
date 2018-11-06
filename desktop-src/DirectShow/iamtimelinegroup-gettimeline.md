@@ -2,7 +2,6 @@
 Description: The GetTimeline method retrieves the timeline to which this group belongs.
 ms.assetid: a57d75c9-6e2e-426f-9403-ad32188b2211
 title: IAMTimelineGroup::GetTimeline method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

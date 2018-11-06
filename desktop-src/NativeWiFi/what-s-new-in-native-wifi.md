@@ -2,7 +2,6 @@
 Description: What's New in Native Wifi
 ms.assetid: 76d60b95-a34a-4747-b0fa-9230aa60bd63
 title: What's New in Native Wifi
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

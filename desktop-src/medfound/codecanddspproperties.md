@@ -2,7 +2,6 @@
 Description: Codec and DSP IPropertyBag constants.
 ms.assetid: 078b0eea-16dd-4427-b984-9e52a43de559
 title: Codec and DSP IPropertyBag Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

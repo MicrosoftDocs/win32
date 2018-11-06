@@ -1,12 +1,8 @@
 ---
 title: Global Attributes
 description: The following are the attributes that are contained in the global catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fc2589b2-4a55-43b7-8793-34f497a3da3e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The IWbemEventSink interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 994EEAD1-08B1-475F-AE2B-7655540420BC
 ms.tgt_platform: multiple
 title: IWbemEventSink Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

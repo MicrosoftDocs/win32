@@ -2,7 +2,6 @@
 Description: The following example demonstrates the concept of the collection store, a temporary certificate store that actually includes the contents of several certificate stores.
 ms.assetid: 5349222f-ad68-477c-8712-fde16e68f600
 title: 'Example C Program: Collection and Sibling Certificate Store Operations'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

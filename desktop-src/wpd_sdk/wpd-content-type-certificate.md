@@ -2,7 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_CERTIFICATE
 ms.assetid: 5fcaf17b-f583-4ba7-aec3-cdb02dbf3bbc
 title: WPD_CONTENT_TYPE_CERTIFICATE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

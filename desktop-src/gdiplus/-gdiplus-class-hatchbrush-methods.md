@@ -2,7 +2,6 @@
 Description: This topic lists the methods of the HatchBrush class. For a complete class listing, see HatchBrush Class.
 ms.assetid: 83ee176e-7917-4a4b-81e5-192bf217175c
 title: HatchBrush Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

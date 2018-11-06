@@ -2,7 +2,6 @@
 Description: Gets the period of the animation set.
 ms.assetid: 0bb19ec1-c918-44b6-83b0-4fdbb4e1a485
 title: ID3DXAnimationSet::GetPeriod method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

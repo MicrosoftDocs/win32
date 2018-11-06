@@ -2,7 +2,6 @@
 Description: This class is the event type class for context switch events. The following syntax is simplified from MOF code.
 ms.assetid: 3f9f84d0-18a9-493c-b104-8236b2bd8404
 title: CSwitch class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

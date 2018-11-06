@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for Table control type
 - control types,support for Table
 - control types,Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

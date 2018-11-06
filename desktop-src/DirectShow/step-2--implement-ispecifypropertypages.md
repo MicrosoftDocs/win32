@@ -2,7 +2,6 @@
 Description: Step 2.
 ms.assetid: 8be83564-07ad-47cf-9538-73136f42ba79
 title: Step 2. Implement ISpecifyPropertyPages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

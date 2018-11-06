@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Group class
 description: Used to define a group of MSMQ queues (also known as a Distribution List).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6f539555-5144-46f6-b004-68c6bd1b9ae8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Group
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

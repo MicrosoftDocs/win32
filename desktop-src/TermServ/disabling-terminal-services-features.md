@@ -1,12 +1,8 @@
 ---
 title: Disabling Remote Desktop Services features
 description: For enhanced security, you might choose to disable Remote Desktop Services features.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 93505e3a-a4f8-4b94-8dbb-646140b6fa58
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

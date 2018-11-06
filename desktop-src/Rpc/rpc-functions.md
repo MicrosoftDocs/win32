@@ -4,7 +4,6 @@ description: Navigation page for Remote Procedure Call (RPC) functions.
 ms.assetid: 2e82667d-5a88-4763-a41a-a09dd53829ae
 keywords:
 - Remote Procedure Call RPC , reference, functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

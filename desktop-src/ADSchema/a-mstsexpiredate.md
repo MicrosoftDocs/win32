@@ -1,9 +1,6 @@
 ---
 title: MS-TS-ExpireDate attribute
 description: TS expiration date.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: be314a8d-aca9-4655-a1be-3632b2ee4c43
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-ExpireDate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

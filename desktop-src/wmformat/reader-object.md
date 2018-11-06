@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),reader objects
 - objects,reader objects
 - reader objects,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

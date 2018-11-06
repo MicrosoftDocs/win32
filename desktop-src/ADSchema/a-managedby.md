@@ -1,9 +1,6 @@
 ---
 title: Managed-By attribute
 description: The distinguished name of the user that is assigned to manage this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c0383918-94f0-45b2-9bca-a872bda4b3e2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Managed-By
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

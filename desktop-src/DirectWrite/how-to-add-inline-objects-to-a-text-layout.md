@@ -2,7 +2,6 @@
 title: How to Add Inline Objects to a Text Layout
 description: Provides a short tutorial on adding inline objects to a DirectWrite application that displays text using the IDWriteTextLayout interface.
 ms.assetid: 6aa9d17c-ee30-497f-9c73-ec2fa079222b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

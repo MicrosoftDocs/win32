@@ -2,7 +2,6 @@
 Description: The IUpdateException interface defines the following properties.
 ms.assetid: ec3d20fb-067d-435b-8d92-6b37dd2d01ce
 title: IUpdateException Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

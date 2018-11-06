@@ -2,7 +2,6 @@
 Description: This class is the event type class for driver complete request events. The following syntax is simplified from MOF code.
 ms.assetid: c9c9be05-c1c6-4d77-a47a-44a61ebfcdc7
 title: DriverCompleteRequest class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

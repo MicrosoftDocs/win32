@@ -2,7 +2,6 @@
 Description: Specifies the maximum number of output samples that a Microsoft Media Foundation transform (MFT) will have outstanding in the pipeline at any time.
 ms.assetid: 53D393B4-BFF1-430F-9CD1-5071336E6F04
 title: MF_SA_MINIMUM_OUTPUT_SAMPLE_COUNT attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

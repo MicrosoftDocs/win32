@@ -1,12 +1,8 @@
 ---
 Description: Converts a date in the VT\_DATE format to the CIM datetime format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 24c39d44-22ac-44ac-9e05-72a5b666ab19
 ms.tgt_platform: multiple
 title: SWbemDateTime.SetVarDate method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

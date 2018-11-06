@@ -1,14 +1,10 @@
 ---
 title: Remote Hardware Management
 description: Remote Hardware Management
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0ea6d075-6154-4ab9-adcb-e599e5aee614
 ms.tgt_platform: multiple
 keywords:
 - Remote Hardware Management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: About Table of Contents Parser
 ms.assetid: 128e8532-abae-4db0-877a-01be7a02c20c
 title: About Table of Contents Parser
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

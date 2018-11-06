@@ -4,7 +4,6 @@ description: Reversing Playback
 ms.assetid: cb7c1293-42d7-4c74-b9e6-cc8899ca7c54
 keywords:
 - MCIWndPlayReverse macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

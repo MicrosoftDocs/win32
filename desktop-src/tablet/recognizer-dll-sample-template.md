@@ -2,7 +2,6 @@
 Description: The Recognizer DLL sample contains a template for creating a recognizer DLL.
 ms.assetid: e3bd219d-c593-4267-b77d-81fee7430a97
 title: Recognizer DLL Sample Template
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

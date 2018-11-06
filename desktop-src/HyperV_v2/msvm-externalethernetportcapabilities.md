@@ -2,7 +2,6 @@
 Description: Describes the capabilities of the associated Msvm\_ExternalEthernetPort.
 ms.assetid: 63731b62-b1c7-4dd9-b906-03225bbc3154
 title: Msvm_ExternalEthernetPortCapabilities class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

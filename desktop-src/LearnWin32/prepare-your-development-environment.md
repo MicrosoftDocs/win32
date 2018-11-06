@@ -2,7 +2,6 @@
 title: Prepare Your Development Environment
 description: Prepare Your Development Environment
 ms.assetid: 5a3fd27e-ec8f-41eb-9d31-86d6d9f70862
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

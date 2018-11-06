@@ -2,7 +2,6 @@
 Description: The crumb argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search.
 ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: CRUMB Argument
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

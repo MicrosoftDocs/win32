@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.GPS.ImgDirection property.
 ms.assetid: c9a0f5de-4010-4251-a5d5-8728b7ae6d33
 title: System.GPS.ImgDirection Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -14,7 +14,6 @@ keywords:
 - DRM (digital rights management),IWMDRMEventGenerator interface
 - Media Foundation
 - IWMDRMEventGenerator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

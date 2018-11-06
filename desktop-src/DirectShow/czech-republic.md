@@ -2,7 +2,6 @@
 Description: For an explanation of the following tables, see Tables and Assignments.
 ms.assetid: 6bbef2a3-7104-4b5f-8381-0a89751e572b
 title: Czech Republic
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

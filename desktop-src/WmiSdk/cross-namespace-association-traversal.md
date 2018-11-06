@@ -1,12 +1,8 @@
 ---
 Description: Starting in Windows 7, Windows Management Instrumentation (WMI) implemented a standard mechanism for discovering profiles by using the CIM schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e748b623-5ff3-464d-ba09-96cf226de7b6
 ms.tgt_platform: multiple
 title: Cross-Namespace Association Traversal
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

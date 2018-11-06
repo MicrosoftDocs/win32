@@ -2,7 +2,6 @@
 Description: Represents an association between a managed element and its capabilities.
 ms.assetid: 0e080042-4a56-40b7-acc5-cf69eb2a0604
 title: CIM_ElementCapabilities class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

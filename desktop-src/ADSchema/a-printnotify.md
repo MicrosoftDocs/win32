@@ -1,9 +1,6 @@
 ---
 title: Print-Notify attribute
 description: A user-supplied string that specifies the notification contact.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5af2e116-ded5-422a-87df-25c4484f5758
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Notify
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

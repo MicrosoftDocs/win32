@@ -2,7 +2,6 @@
 Description: The IWiaAppErrorHandler interface enables applications to display error windows (during data transfers) from which the user can choose whether to continue, cancel, or abort the transfer.
 ms.assetid: ac2597e6-2857-4694-bea7-1ea65d63b365
 title: IWiaAppErrorHandler interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_VideoBIOSElement class represents the low-level software that is loaded into non-volatile storage and used to configure and access a computer system's video controller and display.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f23d411f-4781-4727-abd1-61fe1a366bf0
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_VideoBIOSElement class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -43,7 +37,7 @@ api_location:
 
 The **CIM\_VideoBIOSElement** class represents the low-level software that is loaded into non-volatile storage and used to configure and access a computer system's video controller and display.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

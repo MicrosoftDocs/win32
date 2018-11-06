@@ -1,9 +1,6 @@
 ---
 title: IMsTscSecuredSettings StartProgram property
 description: Specifies the program to be started on the remote server upon connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bd2a5ced-468b-48db-ad51-9940577a0310
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

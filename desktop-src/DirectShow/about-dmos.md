@@ -2,7 +2,6 @@
 Description: About DMOs
 ms.assetid: 5a847e0b-dabb-40f2-a1f7-63bf3036ef8b
 title: About DMOs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

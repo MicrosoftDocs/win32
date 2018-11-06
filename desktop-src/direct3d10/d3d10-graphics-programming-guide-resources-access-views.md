@@ -2,7 +2,6 @@
 Description: In Direct3D 10, texture resources are accessed with a view, which is a mechanism for hardware interpretation of a resource in memory.
 ms.assetid: ccfe6273-0dcf-4b42-9d74-665a0b4cd14a
 title: Texture Views (Direct3D 10)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

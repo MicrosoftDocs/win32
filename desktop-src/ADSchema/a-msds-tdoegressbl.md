@@ -1,9 +1,6 @@
 ---
 title: ms-DS-TDO-Egress-BL attribute
 description: Backlink to TDO Egress rules link on object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3bf7a566-4e9b-45b4-b408-329f21b914db
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-TDO-Egress-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

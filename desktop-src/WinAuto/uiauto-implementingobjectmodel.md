@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation ObjectModel
 - control patterns,ObjectModel
 - interfaces,IObjectModelProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

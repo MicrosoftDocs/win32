@@ -2,7 +2,6 @@
 Description: The SetTimeDelta method adjusts the internal clock time.
 ms.assetid: 51534c92-5573-4e2a-baeb-b1a82ccf88de
 title: CBaseReferenceClock.SetTimeDelta method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

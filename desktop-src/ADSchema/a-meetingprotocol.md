@@ -1,9 +1,6 @@
 ---
 title: meetingProtocol attribute
 description: The protocols used for a meeting, for example, H.320 or T.120.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e2fb50b4-142e-42f9-8c00-fbd65f483e18
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingProtocol
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

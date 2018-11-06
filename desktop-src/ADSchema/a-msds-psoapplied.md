@@ -1,9 +1,6 @@
 ---
 title: ms-DS-PSO-Applied attribute
 description: Password settings object that is applied to this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 547e90c7-21b6-4598-a048-d7615ce8ece6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-PSO-Applied
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

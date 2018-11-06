@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Template-Minor-Revision attribute
 description: Keeps track of attributes in the class changing. However, this will not trigger auto-enrollment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ff08b621-9a77-48a9-847d-f390ffb41326
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Template-Minor-Revision
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

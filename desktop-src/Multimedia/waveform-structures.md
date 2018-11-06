@@ -8,7 +8,6 @@ keywords:
 - waveform audio,structures
 - waveform audio reference,structures
 - reference for wavefore audio,structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

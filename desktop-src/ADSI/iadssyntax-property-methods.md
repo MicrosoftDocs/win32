@@ -1,9 +1,6 @@
 ---
 title: IADsSyntax Property Methods
 description: The property methods of the IADsSyntax interface get or set the properties listed in the following table. For more information about property methods, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a216a55d-63eb-4fdf-a67f-8d4b5eb74262
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

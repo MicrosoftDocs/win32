@@ -2,7 +2,6 @@
 Description: A group record is specific data published to all active members of a peer group, for example, a chat message or an application-specific status update.
 ms.assetid: 073ee4e9-0e97-451a-a808-8265575d073c
 title: Managing Group Records
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

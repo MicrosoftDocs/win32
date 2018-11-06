@@ -2,7 +2,6 @@
 Description: This class is the event type class for split IO events. The following syntax is simplified from MOF code.
 ms.assetid: 0eb1f712-8b1c-4de1-b701-5c7dbabb0f55
 title: SplitIo_Info class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

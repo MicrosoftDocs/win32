@@ -1,9 +1,6 @@
 ---
 title: Display-Specifier class
 description: Describes the context menus and property pages to be used with an object in the directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 648f664e-0f20-4281-9ead-fd70429ed776
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Display-Specifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

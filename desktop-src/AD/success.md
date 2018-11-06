@@ -1,14 +1,10 @@
 ---
 title: Success
 description: This topic describes success return values from functions in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9906c982-8320-4c61-b18d-ce0fdecd69c4
 ms.tgt_platform: multiple
 keywords:
 - Success AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

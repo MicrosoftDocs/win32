@@ -1,14 +1,10 @@
 ---
 title: Active Directory Service Interfaces Reference
 description: In this section you can find the reference materials for programming with Active Directory Service Interfaces (ADSI).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d96de2ee-0ebb-4727-8949-b68b0f90fb63
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

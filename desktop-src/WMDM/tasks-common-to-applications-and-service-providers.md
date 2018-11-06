@@ -14,7 +14,6 @@ keywords:
 - programming guide,desktop applications
 - programming guide,service providers
 - programming guide,Windows Media Device Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

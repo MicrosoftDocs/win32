@@ -2,7 +2,6 @@
 Description: Are some useful graphing references.
 ms.assetid: 2d72b1bc-4687-4672-9644-85ad9b197a72
 title: Graphing Reference Links
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

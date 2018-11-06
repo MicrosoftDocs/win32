@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Scope-Name attribute
 description: A string that uniquely identifies a scope object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f5a15040-c4d0-4eab-bf3f-34585768c5a3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Scope-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

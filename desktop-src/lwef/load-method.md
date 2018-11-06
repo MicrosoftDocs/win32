@@ -2,7 +2,6 @@
 title: Load Method
 description: Load Method
 ms.assetid: 72a37471-f69b-49a5-a6eb-d65bff970c0f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

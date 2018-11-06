@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings maxEventCount property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d7b5951d-8cc3-48b4-af1b-1f547afbc6ae
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

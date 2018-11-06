@@ -2,7 +2,6 @@
 Description: Checks whether a specified extension is available on the machine and can be used by the IWiaItem2::GetExtension method.
 ms.assetid: 672f6418-4ce3-4570-a412-fe639c9f5eb8
 title: IWiaItem2::CheckExtension method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

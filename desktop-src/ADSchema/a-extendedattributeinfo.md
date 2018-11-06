@@ -1,9 +1,6 @@
 ---
 title: Extended-Attribute-Info attribute
 description: A multi-valued property that contains strings that represent additional information for each attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 38f87907-a328-473f-bc9c-f3573bc05af5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Extended-Attribute-Info
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

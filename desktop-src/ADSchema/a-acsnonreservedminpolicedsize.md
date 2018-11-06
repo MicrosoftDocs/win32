@@ -1,9 +1,6 @@
 ---
 title: ACS-Non-Reserved-Min-Policed-Size attribute
 description: The ACS-Non-Reserved-Min-Policed-Size attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f5ee29ec-d2a9-4026-a4d1-0484d353efdc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Non-Reserved-Min-Policed-Size
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

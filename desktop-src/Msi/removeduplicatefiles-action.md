@@ -2,7 +2,6 @@
 Description: The RemoveDuplicateFiles action deletes files installed by the DuplicateFiles action.
 ms.assetid: 3d8ba4c5-775f-471e-a479-32fa6f7a1bf0
 title: RemoveDuplicateFiles Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

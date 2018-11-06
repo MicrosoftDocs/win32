@@ -7,7 +7,6 @@ keywords:
 - dynamic-link libraries,enumerating DLLs
 - enumerating
 - enumerating,DLLs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

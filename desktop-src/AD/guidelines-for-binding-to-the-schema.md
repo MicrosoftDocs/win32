@@ -1,15 +1,11 @@
 ---
 title: Guidelines for Binding to the Schema
 description: There are two ways to bind to the Active Directory schema Bind directly to the schema container or to a classSchema or attributeSchema object in the schema container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8c10415e-136c-476c-993c-b6dc459b5bf4
 ms.tgt_platform: multiple
 keywords:
 - Guidelines for Binding to the Schema AD
 - Schema AD , Binding to
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: This section contains programming references for Windows Touch inpu
 ms.assetid: 43f7e400-486d-4041-b78f-44655f6a6e9f
 keywords:
 - Windows Touch,input
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

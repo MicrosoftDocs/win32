@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings BitmapPeristence property
 description: Specifies whether bitmap caching is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8cabeae8-26bc-4d33-82cc-47bb201d79b6
 ms.tgt_platform: multiple
 keywords:
@@ -60,7 +57,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

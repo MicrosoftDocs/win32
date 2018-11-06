@@ -2,7 +2,6 @@
 Description: The provider's custom data for an identity.
 ms.assetid: 0372B9BC-A1FF-4856-860B-206E781DAC55
 title: System.Identity.ProviderData
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

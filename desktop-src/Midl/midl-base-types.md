@@ -4,7 +4,6 @@ description: To be transmitted over a network, all data types must resolve to a 
 ms.assetid: 267c7582-c6c6-48da-9d22-d9ef13509ec8
 keywords:
 - data types MIDL , base
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

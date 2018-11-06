@@ -2,7 +2,6 @@
 Description: The Pause method signals the streaming thread to become active.
 ms.assetid: c97da113-c5a7-422d-9215-70b556e0b8ca
 title: CSourceStream.Pause method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

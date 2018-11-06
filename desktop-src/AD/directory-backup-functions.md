@@ -1,12 +1,8 @@
 ---
 title: Directory Backup Functions
 description: The following functions are used with the backup and restore operations in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6683240e-d324-43b9-b673-dda03c89612c
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

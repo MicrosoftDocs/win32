@@ -1,9 +1,6 @@
 ---
 title: SetStringProperty method of the Win32_RDMSVirtualDesktopCollection class
 description: Updates a string property of a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d76d5f77-3b51-41b9-8ec5-a737ddc0a9d3
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

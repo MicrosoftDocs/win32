@@ -2,7 +2,6 @@
 title: IAgentCommandWindow GetSize
 description: IAgentCommandWindow GetSize
 ms.assetid: 24ad3b48-6557-4790-b9c4-2cf7df92fa7d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

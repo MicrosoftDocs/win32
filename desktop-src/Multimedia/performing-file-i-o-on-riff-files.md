@@ -12,7 +12,6 @@ keywords:
 - RIFF I/O
 - buffered I/O
 - RIFF chunk
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

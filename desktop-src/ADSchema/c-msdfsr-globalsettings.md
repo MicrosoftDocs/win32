@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-GlobalSettings class
 description: Contains the global settings that apply to all replication group members.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d6fa6492-0ff3-4642-8040-f1b1265a244f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-GlobalSettings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

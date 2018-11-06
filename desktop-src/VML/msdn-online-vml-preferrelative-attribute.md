@@ -2,7 +2,6 @@
 title: VML PreferRelative Attribute
 description: VML PreferRelative Attribute
 ms.assetid: 7de616e8-4fc3-4bcb-8e5e-ea153d6d4b54
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Retrieves all of the ink leaf nodes.
 ms.assetid: 988ae9f9-8fca-4757-8eb0-ae161e5690c9
 title: IInkAnalyzer::FindInkLeafNodes method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

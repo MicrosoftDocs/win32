@@ -2,7 +2,6 @@
 title: Saving Events to a Log File
 description: To save events from a channel to a log file, call the EvtClearLog or EvtExportLog function.
 ms.assetid: 6d71ed15-97e3-4888-b161-c7e31bf3fc6d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

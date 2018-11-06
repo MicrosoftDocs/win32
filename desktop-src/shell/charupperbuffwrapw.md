@@ -2,7 +2,6 @@
 Description: Converts lowercase characters in a buffer to uppercase characters.
 ms.assetid: 63293fda-6f55-419a-b5b4-7a3ada31580c
 title: CharUpperBuffWrapW function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

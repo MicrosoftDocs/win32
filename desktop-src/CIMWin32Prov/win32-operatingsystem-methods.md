@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_OperatingSystem class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 15962D61-B231-402C-87B6-C9BB842D87EC
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_OperatingSystem Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

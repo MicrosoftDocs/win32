@@ -1,9 +1,6 @@
 ---
 title: SetConnectionString method of the Win32_RDMSDeploymentSettings class
 description: Sets the deployment-level database connection string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c8902ab9-72a6-4d69-ab22-f6074205deb4
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

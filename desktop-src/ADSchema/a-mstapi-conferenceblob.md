@@ -1,9 +1,6 @@
 ---
 title: ms-TAPI-Conference-Blob attribute
 description: A binary BLOB of data that describes various properties of a TAPI multicast conference. Its format and content are determined by the value of the attribute Protocol-Id in the same object. Typically, the data in this BLOB conforms to RFC2327.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f1d5baed-df3f-423e-aa2f-005e77e79725
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TAPI-Conference-Blob
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

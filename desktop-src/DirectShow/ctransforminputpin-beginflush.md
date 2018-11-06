@@ -2,7 +2,6 @@
 Description: The BeginFlush method begins a flush operation. This method implements the IPin::BeginFlush method.
 ms.assetid: 7c76ca06-dc3c-4f9a-9761-32aea7db4c7e
 title: CTransformInputPin.BeginFlush method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

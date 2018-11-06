@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_SoftwareElementVersionCheck class represents a type of software element that must exist in the environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a1c0f0d5-2586-499c-bd82-bbb107570d81
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_SoftwareElementVersionCheck class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -40,7 +34,7 @@ api_location:
 
 The **CIM\_SoftwareElementVersionCheck** class represents a type of software element that must exist in the environment. This check can be for a specific, minimum, maximum, or a range of versions. To specify a specific version, the lower and upper versions must be the same. To specify a minimum version, specify only the lower version. To specify a maximum version, specify only the upper version. To specify a range, both upper and lower versions must be specified. Details of the checks are compared with the corresponding details found in a [**CIM\_SoftwareElement**](cim-softwareelement.md) object referenced by a [**CIM\_InstalledSoftwareElement**](cim-installedsoftwareelement.md) association for the [**CIM\_ComputerSystem**](cim-computersystem.md) object. At least one **CIM\_SoftwareElement** needs to satisfy the details of the condition for the check to be satisfied.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

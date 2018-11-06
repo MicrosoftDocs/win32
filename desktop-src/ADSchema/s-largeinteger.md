@@ -1,9 +1,6 @@
 ---
 title: LargeInteger syntax
 description: Represents a 64-bit signed integer value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b058943f-7bbe-4240-ae15-3557524a7788
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - LargeInteger
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnLogonError method
 description: Called when a logon error or other logon event occurs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5af9656b-f99b-4535-ab83-6ecc9bc41808
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

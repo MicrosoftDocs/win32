@@ -1,9 +1,6 @@
 ---
 title: GetPatchProperties method of the Win32_RDMSVirtualDesktopCollection class
 description: Retrieves the properties of a software update provisioning job for the virtual machines in a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9f228d89-0613-49c7-8169-48491c3a2d9b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

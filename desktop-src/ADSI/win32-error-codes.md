@@ -1,14 +1,10 @@
 ---
 title: Win32 Error Codes
 description: The following table lists the LDAP error messages for ADSI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b609bd56-770a-4546-8640-26ad6e108d54
 ms.tgt_platform: multiple
 keywords:
 - Win32 Error Codes ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

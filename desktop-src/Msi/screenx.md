@@ -2,7 +2,6 @@
 Description: The installer sets the ScreenX property to the width of the screen in pixels.
 ms.assetid: 7b3a3247-43a8-4b15-9561-84f19657bab5
 title: ScreenX property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

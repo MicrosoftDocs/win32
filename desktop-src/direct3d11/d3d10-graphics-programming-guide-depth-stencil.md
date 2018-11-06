@@ -2,7 +2,6 @@
 title: Configuring Depth-Stencil Functionality
 description: This section covers the steps for setting up the depth-stencil buffer, and depth-stencil state for the output-merger stage.
 ms.assetid: e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
 ms.assetid: 47768691-7071-440e-bfbf-975713880c00
 title: Implementing a Word Breaker and Stemmer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

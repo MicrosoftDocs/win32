@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings IconFile property
 description: Specifies the name of the file containing icon data that will be accessed when displaying the client in full-screen mode.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2b6ac2ad-9745-4b80-a415-4840cd8aa8b3
 ms.tgt_platform: multiple
 keywords:
@@ -51,7 +48,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

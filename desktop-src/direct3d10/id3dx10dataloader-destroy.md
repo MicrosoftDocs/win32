@@ -2,7 +2,6 @@
 Description: Used by a ID3DX10ThreadPump Interface to destroy the loader after a work item completes.
 ms.assetid: edf9700c-b53c-4f6e-88bd-85dd246a2e69
 title: ID3DX10DataLoader::Destroy method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

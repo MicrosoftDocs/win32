@@ -2,7 +2,6 @@
 Description: Describes preprocessor definitions used by an effect object.
 ms.assetid: 43413b79-e331-4466-b288-bd4439c135a2
 title: D3DXMACRO structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

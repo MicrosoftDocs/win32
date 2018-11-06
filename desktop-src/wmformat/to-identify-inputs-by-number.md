@@ -6,7 +6,6 @@ keywords:
 - Advanced Systems Format (ASF),identifying inputs by number
 - ASF (Advanced Systems Format),identifying inputs by number
 - profiles,identifying inputs by number
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

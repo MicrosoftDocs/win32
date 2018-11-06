@@ -2,7 +2,6 @@
 Description: Windows Resource Protection (WRP) prevents the replacement of essential system files, folders, and registry keys that are installed as part of Windows Vista or Windows Server 2008.
 ms.assetid: 1cb67b4a-dc75-4bd7-b314-d695c10d5558
 title: Detecting Resource Replacement
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

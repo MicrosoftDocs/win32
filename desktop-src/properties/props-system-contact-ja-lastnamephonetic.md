@@ -2,7 +2,6 @@
 Description: Pronounciation of the last name.
 ms.assetid: 4aed9a52-164a-4c4b-aa52-b55d0eb1d92e
 title: System.Contact.JA.LastNamePhonetic
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

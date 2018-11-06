@@ -2,7 +2,6 @@
 title: Using Application Recovery and Restart
 description: An application can use Application Recovery and Restart (ARR) to save data and state information before the application exits due to an unhandled exception or when the application stops responding. The application is also restarted, if requested.
 ms.assetid: 28cbb4c0-a287-4302-b3a9-daddc69adb40
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

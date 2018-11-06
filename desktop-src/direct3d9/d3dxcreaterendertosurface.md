@@ -2,7 +2,6 @@
 Description: Creates a render surface.
 ms.assetid: 35e0007e-c405-46e1-a52b-625adc84732b
 title: D3DXCreateRenderToSurface function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

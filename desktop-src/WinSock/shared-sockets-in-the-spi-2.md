@@ -2,7 +2,6 @@
 Description: Socket sharing in Windows Sockets (Winsock).
 ms.assetid: dad31820-6f60-4c3b-9cdf-e301a5ffce48
 title: Shared Sockets in the SPI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

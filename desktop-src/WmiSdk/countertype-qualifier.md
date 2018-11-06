@@ -1,12 +1,8 @@
 ---
 Description: The CounterType qualifier contains the integer value for the property counter type for properties in Win32\_PerfRawData classes. The CookingType contains the constants for property formula types in Win32\_PerfFormattedData classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: aa79fcdb-503f-4928-b2b7-f07baeaf9fb5
 ms.tgt_platform: multiple
 title: CounterType Qualifier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

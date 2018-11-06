@@ -1,9 +1,6 @@
 ---
 title: TSMF_SUPPORT_NODEDATA_IN structure
 description: Used inside the TSMF\_SUPPORT\_DATA\_IN structure to contain information about supported media formats.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9aee9d6d-2182-44ec-ba8b-d2747d3edf71
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - TSMF_SUPPORT_NODEDATA_IN
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 api_location: 

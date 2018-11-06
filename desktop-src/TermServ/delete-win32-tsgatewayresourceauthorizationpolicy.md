@@ -1,9 +1,6 @@
 ---
 title: Delete method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Deletes the current Remote Desktop resource authorization policy (RD \ 160;RAP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cbabb997-63b8-4a4c-9e16-34f2638fca97
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

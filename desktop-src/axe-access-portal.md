@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 1fa34b69-ae34-40e5-b71a-cb9c74f3fc3a
 title: Assessment Execution Engine
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

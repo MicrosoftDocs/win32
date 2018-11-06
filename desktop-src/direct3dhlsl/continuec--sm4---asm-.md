@@ -2,7 +2,6 @@
 title: continuec (sm4 - asm)
 description: Conditionally continues execution at the beginning of the current loop.
 ms.assetid: 1A5B1951-CE1E-479C-AE0F-FC5FB93E0DE9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

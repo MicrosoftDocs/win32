@@ -1,9 +1,6 @@
 ---
 title: Max-Pwd-Age attribute
 description: The maximum amount of time, in 100-nanosecond intervals, a password is valid.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b4b48207-6481-42a1-b848-6baf37a367ce
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Max-Pwd-Age
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

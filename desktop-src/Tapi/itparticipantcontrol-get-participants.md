@@ -2,7 +2,6 @@
 Description: The get\_Participants method creates a collection of participants associated with the current conference.
 ms.assetid: 643acc3f-3df1-4f3a-a8fe-5d46864f8cf7
 title: ITParticipantControl::get_Participants method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

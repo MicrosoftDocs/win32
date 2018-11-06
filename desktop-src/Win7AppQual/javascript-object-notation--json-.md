@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 2F6FDE88-C852-46BC-B6B1-630C266AF0AA
 title: JavaScript Object Notation (JSON)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

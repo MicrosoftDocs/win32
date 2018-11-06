@@ -1,14 +1,8 @@
 ---
 Description: Changes the security permissions for the logical paging file specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3abdfa1d-49d8-4676-b7a5-3be528938ec4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the Win32_PageFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PackageCooling association represents the relationship in which a cooling device is installed in a package, such as a chassis or rack, to assist with the package's cooling.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0aaae8e1-6e70-4b26-8e56-dac5657e58c1
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PackageCooling class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_PackageCooling** association represents the relationship in which a cooling device is installed in a package, such as a chassis or rack, to assist with the package's cooling.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

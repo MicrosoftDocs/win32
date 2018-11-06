@@ -2,7 +2,6 @@
 title: How to Register a Device with the Device Host
 description: You can register either a running device or a non-running device.
 ms.assetid: 40e30881-d5fb-4cf9-8dd7-0d50d2621d5c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

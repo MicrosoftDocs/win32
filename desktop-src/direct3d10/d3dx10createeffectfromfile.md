@@ -2,7 +2,6 @@
 Description: Create an effect from a file.
 ms.assetid: 1418857e-bda1-4ffb-bbb9-dfa3709313b1
 title: D3DX10CreateEffectFromFile function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

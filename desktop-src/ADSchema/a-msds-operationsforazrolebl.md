@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Operations-For-Az-Role-BL attribute
 description: Backward link from Az-Operation to Az-Role objects that link to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4723d89e-06e6-4954-8798-feebb3d3140b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Operations-For-Az-Role-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -14,7 +14,6 @@ keywords:
 - dialog boxes,message boxes
 - dialog box procedures
 - message boxes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

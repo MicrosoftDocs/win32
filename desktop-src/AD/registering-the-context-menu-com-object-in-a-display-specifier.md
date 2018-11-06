@@ -1,15 +1,11 @@
 ---
 title: Registering the Context Menu COM Object in a Display Specifier
 description: This topic shows the registry keys that need to be modified to register a context menu COM object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 389bc249-4849-4763-9d1b-b35598a51050
 ms.tgt_platform: multiple
 keywords:
 - Registering the Context Menu COM Object in a Display Specifier
 - context menu COM object AD , registering
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -57,7 +53,7 @@ The "<clsid>" is the string representation of the CLSID as produced by the [**St
 
 In the Windows shell, multiple-selection context menu items are supported. In this case, the context menu extension is invoked for each selected object. In Active Directory administrative snap-ins, multiple-selection context menu extension items are also supported. In this case, the [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) structure will contain a [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) structure for each directory object selected.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > For the Windows shell, display specifier information is retrieved at user logon and cached for the user's session. For the administrative snap-ins, the display specifier data is retrieved when the snap-in is loaded and is cached for the duration of the process. For the Windows shell, this means changes to display specifiers take effect after a user logs off and back on again. For the administrative snap-ins, changes take effect when the snap-in or console file is reloaded, that is, if you start a new instance of the console file or new Mmc.exe instance and add the snap-in, the latest display specifier data is retrieved.
 
  

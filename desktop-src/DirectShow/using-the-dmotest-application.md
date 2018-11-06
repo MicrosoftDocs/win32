@@ -2,7 +2,6 @@
 Description: Using the DMOTest Application
 ms.assetid: 28448e1b-44de-4016-9ab6-0a9e2d916592
 title: Using the DMOTest Application
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

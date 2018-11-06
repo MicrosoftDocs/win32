@@ -2,7 +2,6 @@
 Description: The following code example illustrates an event handler for address and phone device events. The code for each event shows how to create the event interface and how to retrieve the event data.
 ms.assetid: 236d4e7f-865f-4b26-8da6-c86476588c47
 title: Phone and Address Device-specific Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

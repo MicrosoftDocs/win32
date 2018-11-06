@@ -2,7 +2,6 @@
 Description: Information about the properties of a display mode.
 ms.assetid: df9d12b9-7acb-435b-9d54-0b095c871f0e
 title: D3DDISPLAYMODEEX structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

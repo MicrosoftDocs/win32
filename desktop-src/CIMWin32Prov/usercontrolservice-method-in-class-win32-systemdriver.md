@@ -1,14 +1,8 @@
 ---
 Description: Attempts to send a user-defined control code to a service managed by a system driver.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 62e66c35-f264-43d0-9e94-fb5e85f936e0
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: UserControlService method of the Win32_SystemDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

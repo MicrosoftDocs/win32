@@ -2,7 +2,6 @@
 Description: WPD\_CONTENT\_TYPE\_CONTACT
 ms.assetid: 3ff6191f-d3c0-4bd3-946e-c3fbf68f368c
 title: WPD_CONTENT_TYPE_CONTACT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

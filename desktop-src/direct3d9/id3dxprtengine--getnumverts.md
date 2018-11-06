@@ -2,7 +2,6 @@
 Description: Retrieves the number of vertices in the mesh, including any new vertices added as a result of adaptive spatial sampling.
 ms.assetid: 066be26c-a2c0-4636-b4b7-c4405a41c307
 title: ID3DXPRTEngine::GetNumVerts method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

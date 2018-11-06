@@ -4,7 +4,6 @@ description: When CPapFile is initialized, it can be used to save the current dr
 ms.assetid: ceac32e5-7d47-480b-b1cd-5a17ac04dd0c
 keywords:
 - Save Method - CPapFile
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

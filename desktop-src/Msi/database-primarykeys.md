@@ -2,7 +2,6 @@
 Description: The PrimaryKeys property of the Database object returns a Record object containing the table name in field 0 and the column names (comprising the primary keys) in succeeding fields corresponding to their column numbers.
 ms.assetid: 9aeafda4-65b8-4469-a391-eb25ca72459d
 title: Database.PrimaryKeys property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,10 @@
 ---
 title: GUID.CPP
 description: In the example provider component, the GUIDs required for the example provider component objects are in Guid.cpp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 806a559d-d424-40a6-a28c-56a505605d00
 ms.tgt_platform: multiple
 keywords:
 - GUID.CPP ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The ExtendedKeyUsage object exposes the following properties.
 ms.assetid: 380D64EE-1551-4EBA-9C19-5F7D4D3ECF23
 title: ExtendedKeyUsage Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

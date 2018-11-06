@@ -1,12 +1,8 @@
 ---
 Description: An event provider may devote a great deal of time to creating events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5cf414f0-b3a8-4623-9aaa-08e2a28b40c0
 ms.tgt_platform: multiple
 title: Optimizing an Event Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

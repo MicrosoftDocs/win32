@@ -1,9 +1,6 @@
 ---
 title: KeyValueGet method of the Win32_RDSHCollection class
 description: Retrieves the value associated with the specified key in the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 69d309a4-b32e-4dbc-bd28-be79d395ac26
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

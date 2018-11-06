@@ -2,7 +2,6 @@
 Description: 'This sample illustrates the layout of a .cub file containing two ICEs. The installer executes the custom actions in the sequence: ICE01 and ICE08.'
 ms.assetid: 609cd16a-4421-4082-855d-229f5ba7117b
 title: Sample .cub File
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: PROPSHEETCFG structure
 description: Used to contain property sheet configuration data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d3bde744-9d85-4506-894f-f8be3463721f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PROPSHEETCFG
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 api_location: 

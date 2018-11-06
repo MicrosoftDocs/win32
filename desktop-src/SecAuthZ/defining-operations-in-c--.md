@@ -2,7 +2,6 @@
 Description: In Authorization Manager, an operation is a low-level function or method of an application.
 ms.assetid: 458c5418-94c5-4977-8203-f8299387c6da
 title: Defining Operations in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

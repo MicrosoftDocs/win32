@@ -2,7 +2,6 @@
 Description: Flag that indicates whether the filter has posted the EC\_COMPLETE event.
 ms.assetid: db739f08-cd12-4b9d-91f2-970db3d823c4
 title: CBaseRenderer::m_bEOSDelivered member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

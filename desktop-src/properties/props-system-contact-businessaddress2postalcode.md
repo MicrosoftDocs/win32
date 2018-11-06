@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: bda42595-fcdd-416b-a2f0-3c5072f27dbb
 title: System.Contact.BusinessAddress2PostalCode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

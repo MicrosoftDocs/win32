@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player Mobile,error handling
 - migration guide,error handling
 - error handling in object model
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

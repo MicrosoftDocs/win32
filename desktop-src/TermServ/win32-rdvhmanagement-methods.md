@@ -1,12 +1,8 @@
 ---
 title: Win32_RdvhManagement Methods
 description: The Win32\_RdvhManagement Methods class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3AAE4833-3BA0-4827-BB11-47D56F37D51A
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

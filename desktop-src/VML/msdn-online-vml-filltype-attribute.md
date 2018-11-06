@@ -2,7 +2,6 @@
 title: VML FillType Attribute
 description: VML FillType Attribute
 ms.assetid: c6870100-8fb9-4589-9b83-cd46cc17eeb3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

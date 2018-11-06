@@ -1,12 +1,8 @@
 ---
 title: IMsRdpClientTransportSettings3 Properties
 description: The IMsRdpClientTransportSettings3 interface exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 142660DE-5126-443F-9FF0-C50E0039CD71
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

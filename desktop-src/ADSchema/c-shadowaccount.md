@@ -1,9 +1,6 @@
 ---
 title: shadowAccount class
 description: Contains additional attributes for shadow passwords.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a99c1903-06ba-4fce-b894-4e8e414a7d2a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - shadowAccount
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

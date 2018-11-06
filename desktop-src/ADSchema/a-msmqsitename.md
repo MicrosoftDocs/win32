@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Site-Name attribute
 description: The MSMQ-Site-Name attribute has been replaced by the MSMQ-Site-Name-Ex attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5c05f1ff-0cd3-4962-827c-45dcbbde70af
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Site-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Compiles a shader from an effect that contains one or more functions.
 ms.assetid: f34a2975-dcd5-4917-9b11-ed40583272f9
 title: ID3DXEffectCompiler::CompileShader method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

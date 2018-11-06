@@ -1,9 +1,6 @@
 ---
 title: IMsRdpPreferredRedirectionInfo interface
 description: Provides a property to control using a redirection server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1EAD9B15-4A84-4179-8A92-F0736B04B4F1
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

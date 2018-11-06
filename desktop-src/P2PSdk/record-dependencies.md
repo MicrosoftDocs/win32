@@ -2,7 +2,6 @@
 Description: The Peer Infrastructure does not guarantee the order for receiving and processing records.
 ms.assetid: 840aa931-c54c-463d-b37b-7d01c8a44409
 title: Record Dependencies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

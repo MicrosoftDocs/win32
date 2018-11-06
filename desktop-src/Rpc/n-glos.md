@@ -3,7 +3,6 @@ title: N
 description: Words starting with N in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
 ms.assetid: b004002f-ae52-4ae8-a570-19241bfcee51
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

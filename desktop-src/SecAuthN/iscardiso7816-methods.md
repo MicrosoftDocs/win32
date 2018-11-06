@@ -2,7 +2,6 @@
 Description: The ISCardISO7816 interface exposes the following methods.
 ms.assetid: D9A0F5E3-8A1E-4016-BE33-5F4F9AD8ADBD
 title: ISCardISO7816 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

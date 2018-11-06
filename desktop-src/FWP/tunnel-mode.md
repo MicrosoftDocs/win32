@@ -2,7 +2,6 @@
 title: Tunnel Mode
 description: The Tunnel Mode IPsec policy scenario is used to apply IPsec tunnel mode protection for all matching traffic between two tunnel endpoints.
 ms.assetid: 170046c5-28ec-4341-89e2-93494bf9c6b8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

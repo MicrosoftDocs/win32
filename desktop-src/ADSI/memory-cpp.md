@@ -1,12 +1,8 @@
 ---
 title: MEMORY.CPP
 description: In the example provider component, a code example showing memory allocation and freeing is in memory.cpp. Supported routines are listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dc5b3559-02fc-45e8-bbd0-482e4e3a7f8a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

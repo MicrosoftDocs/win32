@@ -2,7 +2,6 @@
 Description: Returns a description of the video signal that is being transmitted over the connector.
 ms.assetid: 8464470f-49db-4559-80b2-02cfc473e30e
 title: OPM_GET_ACTUAL_OUTPUT_FORMAT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

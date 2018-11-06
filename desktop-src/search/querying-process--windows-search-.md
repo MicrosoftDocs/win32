@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 0e5a633e-1703-4b72-8a04-6da71aec0ae2
 title: Querying Process in Windows Search
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

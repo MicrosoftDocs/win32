@@ -1,14 +1,8 @@
 ---
 Description: Modifies a Win32\_SystemDriver service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 61ee3297-2a66-466e-bdba-74d683f3ea70
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Change method of the Win32_SystemDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

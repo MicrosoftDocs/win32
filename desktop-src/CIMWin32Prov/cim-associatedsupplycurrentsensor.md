@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_AssociatedSupplyCurrentSensor class associates a power supply with a current (amperage) sensor that monitors its input frequency.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bed4714f-ecf4-4c53-b231-c8fac673371f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_AssociatedSupplyCurrentSensor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -29,7 +23,7 @@ api_location:
 
 The **CIM\_AssociatedSupplyCurrentSensor** class associates a power supply with a current (amperage) sensor that monitors its input frequency.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

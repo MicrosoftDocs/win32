@@ -1,12 +1,8 @@
 ---
 title: WinRM Plug-in API Structures
 description: WinRM Plug-in API Structures
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 745619bc-c7b3-48fa-8212-cb1b5b9ed4db
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

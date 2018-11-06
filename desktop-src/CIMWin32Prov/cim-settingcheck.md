@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_SettingCheck class specifies information needed to check a particular setting file for a specific entry that contains a value equal to the value specified. All comparisons are assumed to be case insensitive.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0e40276c-e794-4ea1-8937-c6d7f110f97d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_SettingCheck class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -40,7 +34,7 @@ api_location:
 
 The **CIM\_SettingCheck** class specifies information needed to check a particular setting file for a specific entry that contains a value equal to the value specified. All comparisons are assumed to be case insensitive.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

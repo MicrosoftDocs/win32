@@ -2,7 +2,6 @@
 Description: Represents the switch hardware offload status.
 ms.assetid: 77a34df7-e3c4-4d91-af5a-91a03dd8246d
 title: Msvm_EthernetSwitchHardwareOffloadData class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

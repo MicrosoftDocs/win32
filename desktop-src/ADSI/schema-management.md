@@ -1,9 +1,6 @@
 ---
 title: Schema Management
 description: The ADSI example provider component defines the schema classes \ 0034;Organizational Unit \ 0034; and \ 0034;User \ 0034; and manages these schema classes in the following way.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c3e07846-a11e-46d4-9863-a89810896ad7
 ms.tgt_platform: multiple
 keywords:
@@ -12,7 +9,6 @@ keywords:
 - managing schemas ADSI
 - schemas, managing ADSI
 - managing a schema ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

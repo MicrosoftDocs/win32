@@ -1,9 +1,6 @@
 ---
 title: jpegPhoto attribute
 description: Used to store one or more images of a person using the JPEG File Interchange Format \ JFIF\ .
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c9257acd-366c-4839-a8c6-0ef9d6b7e671
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - jpegPhoto
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

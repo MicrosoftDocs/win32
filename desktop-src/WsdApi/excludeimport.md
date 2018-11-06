@@ -2,7 +2,6 @@
 Description: Prevents the generation of import statements for specified targets named in a <wsdl:import> element in a WSDL file.
 ms.assetid: 9a50ee38-fadf-4112-8430-cb5a07ae04ce
 title: excludeImport element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

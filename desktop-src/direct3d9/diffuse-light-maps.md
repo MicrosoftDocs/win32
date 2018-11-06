@@ -2,7 +2,6 @@
 Description: When illuminated by a light source, matte surfaces display diffuse light reflection.
 ms.assetid: a6ed351a-7889-4993-96bf-b03352a815da
 title: Diffuse Light Maps (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

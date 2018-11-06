@@ -2,7 +2,6 @@
 Description: A requester may need to restore files to a location indicated by something other than a file set's default path or its alternate location mapping.
 ms.assetid: ce11485c-da0e-4c16-962e-eeedc2da3de4
 title: Working with New Targets during Restore
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

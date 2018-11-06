@@ -2,7 +2,6 @@
 title: if pred - vs
 description: Start of an if pred - vs...else - vs...endif - vs block, with the condition taken from the content of the predicate register.
 ms.assetid: 03f60ca3-cda0-4653-8582-74d1a75e0aee
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

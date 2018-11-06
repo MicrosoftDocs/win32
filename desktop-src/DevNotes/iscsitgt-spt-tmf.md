@@ -2,7 +2,6 @@
 Description: Used with the IOCTL\_SCSI\_MINIPORT IOCTL and the CTLCODE\_ISCSITGT\_SPT\_TMF (0x102) control code to invoke a task management function.
 ms.assetid: 9683A407-BC36-40E4-A637-17CA7B88F485
 title: ISCSITGT_SPT_TMF structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

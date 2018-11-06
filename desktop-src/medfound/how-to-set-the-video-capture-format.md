@@ -2,7 +2,6 @@
 Description: A video capture device might support several capture formats. Formats typically differ by compression type, color space (YUV or RGB), frame size, or frame rate.
 ms.assetid: 479abaea-f310-4139-9967-f24b03c34558
 title: How to Set the Video Capture Format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

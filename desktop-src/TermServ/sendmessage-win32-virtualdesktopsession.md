@@ -1,9 +1,6 @@
 ---
 title: SendMessage method of the Win32_VirtualDesktopSession class
 description: Send a message to the user through the virtual desktop session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4bb9183e-c016-48f2-8e8c-0d5fb395c435
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

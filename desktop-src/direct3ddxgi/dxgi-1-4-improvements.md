@@ -2,7 +2,6 @@
 Description: The following functionality has been added or changed in Microsoft DirectX Graphics Infrastructure (DXGI) 1.4, largely to support Direct3D 12.
 ms.assetid: DEA901EA-B0F9-41D9-802C-ED1D6A7888E0
 title: DXGI 1.4 Improvements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

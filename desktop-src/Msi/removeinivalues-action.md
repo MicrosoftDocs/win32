@@ -2,7 +2,6 @@
 Description: The RemoveIniValues action removes .ini file information specified for removal in the RemoveIniFile table if the component is set to be installed locally or run-from-source.
 ms.assetid: a30793c8-4154-4990-a42a-d022e69f960a
 title: RemoveIniValues Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

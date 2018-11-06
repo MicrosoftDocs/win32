@@ -1,12 +1,8 @@
 ---
 title: SDO Tasks
 description: SDO Tasks
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3e3197c-3ff8-4afc-9dae-6dcec7d9ac65
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

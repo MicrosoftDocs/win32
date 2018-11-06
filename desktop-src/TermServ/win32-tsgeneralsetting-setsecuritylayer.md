@@ -1,9 +1,6 @@
 ---
 title: SetSecurityLayer method of the Win32_TSGeneralSetting class
 description: The SetSecurityLayer method sets the security layer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3b894494-2180-4f1d-8e67-a66c679d286c
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

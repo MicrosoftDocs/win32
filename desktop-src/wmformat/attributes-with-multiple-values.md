@@ -7,7 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),attributes
 - ASF (Advanced Systems Format),attributes
 - attributes,multiple values
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

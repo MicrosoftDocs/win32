@@ -2,7 +2,6 @@
 Description: Controller Object
 ms.assetid: ae2c4d47-15a6-4b9d-9165-4ee04a6ff3a8
 title: Controller Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

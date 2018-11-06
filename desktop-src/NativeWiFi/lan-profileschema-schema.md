@@ -2,7 +2,6 @@
 Description: Defines a wired (LAN) network profile.
 ms.assetid: b9b415c9-b2c6-4888-bad0-b2daeffc4387
 title: LAN_profile Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

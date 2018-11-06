@@ -1,14 +1,8 @@
 ---
 Description: Initiates sharing for a server resource.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 36530e1b-9109-4a6c-bba9-d9358101f5e2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Create method of the Win32_Share class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

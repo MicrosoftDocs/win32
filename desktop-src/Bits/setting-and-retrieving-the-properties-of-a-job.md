@@ -6,7 +6,6 @@ keywords:
 - transfer job BITS , properties
 - setting job properties BITS
 - retrieving job properties BITS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

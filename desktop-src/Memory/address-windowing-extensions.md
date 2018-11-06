@@ -2,7 +2,6 @@
 Description: Address Windowing Extensions (AWE) is a set of extensions that allows an application to quickly manipulate physical memory greater than 4GB.
 ms.assetid: 48a29922-8130-4540-86b0-0faa120566a6
 title: Address Windowing Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Indicates whether the driver can create a surface of the specified surface description.
 ms.assetid: 4626163b-3070-4246-9a04-0b3438fc7057
 title: NtGdiDdCanCreateSurface function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

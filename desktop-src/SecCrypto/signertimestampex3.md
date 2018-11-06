@@ -2,7 +2,6 @@
 Description: Time stamps the specified subject and supports setting time stamps on multiple signatures.
 ms.assetid: A290ED4F-8803-4EAA-8CE1-68879F7F754A
 title: SignerTimeStampEx3 function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

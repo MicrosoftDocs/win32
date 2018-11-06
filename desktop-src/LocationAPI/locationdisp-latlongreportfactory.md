@@ -2,7 +2,6 @@
 Description: Manages latitude/longitude reports.
 ms.assetid: 66025874-32dd-4494-a9ad-12fe3afa60f9
 title: LocationDisp.LatLongReportFactory object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Note  Instead of using this legacy function, we recommend that you use the D3DDisassemble API. This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists.
 ms.assetid: f94264f8-121a-4bb7-bf1f-cc5d2cac6cd2
 title: D3DX10DisassembleShader function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

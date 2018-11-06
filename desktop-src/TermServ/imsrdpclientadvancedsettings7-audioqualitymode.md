@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings7 AudioQualityMode property
 description: Specifies or retrieves a value that indicates the audio quality mode setting for redirected audio. By default this is set to 0.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9945c524-ca50-41ae-a7cf-1386cd758c0f
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

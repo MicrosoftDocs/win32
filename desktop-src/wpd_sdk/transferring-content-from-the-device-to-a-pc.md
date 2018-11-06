@@ -2,7 +2,6 @@
 Description: Transferring Content from the Device to a PC
 ms.assetid: 76069097-a513-42f7-bdcc-a65714e95f0a
 title: Transferring Content from the Device to a PC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

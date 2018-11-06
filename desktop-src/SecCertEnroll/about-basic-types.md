@@ -2,7 +2,6 @@
 Description: The Certificate Enrollment API supports the following basic ASN.1 types.
 ms.assetid: ca247945-ebcf-492e-9cc8-a67a9454fa95
 title: Basic Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

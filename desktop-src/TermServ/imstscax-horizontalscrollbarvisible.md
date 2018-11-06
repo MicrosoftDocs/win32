@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx HorizontalScrollBarVisible property
 description: Indicates whether the control has displayed a horizontal scroll bar.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d3c22c5f-321f-476e-bcdb-224eb988a7bb
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

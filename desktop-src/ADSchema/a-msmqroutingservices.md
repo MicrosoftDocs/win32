@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Routing-Services attribute
 description: Indicates whether the MSMQ installed on this computer provides MSMQ routing services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ecaccc66-4ce5-4c5e-ab57-d519cf708185
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Routing-Services
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

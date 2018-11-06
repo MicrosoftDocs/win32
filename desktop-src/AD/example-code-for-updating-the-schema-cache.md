@@ -1,14 +1,10 @@
 ---
 title: Example Code for Updating the Schema Cache
 description: The following C/C++ functions get the DNS name of the schema master (GetSchemaMasterDNSName) and update the schema cache at the schema master (UpdateSchemaMasterCache).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e955588d-a92c-4406-a197-bb8c36329f88
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Updating the Schema Cache AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Enumerating Application Directory Partitions in a Forest
 description: Like domain partitions, every application directory partition is represented by a crossRef object in the Partitions container of the configuration partition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dd1ff72d-ed19-4e8c-a401-a5b1b3d577e8
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Application Directory Partitions in a Forest AD
 - Application Directory Partitions AD , Enumerating in a Forest
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

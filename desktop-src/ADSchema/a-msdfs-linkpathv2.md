@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Link-Path-v2 attribute
 description: DFS link path relative to the DFS root target share (that is, without the server/domain and DFS namespace name components). Use forward slashes (/) instead of backslashes (\), so that LDAP searches can be done without having to use escapes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 98fd6e99-0d7e-4ffa-b8ec-d26ca03ffead
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Link-Path-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

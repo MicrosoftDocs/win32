@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Service-Type attribute
 description: The type of service provided by MSMQ installed on this computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7366d400-5a8f-4aba-ab8c-22dee2f07e9f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Service-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - ICCompressBegin macro
 - ICCompress function
 - ICCompressEnd macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies simplification options for a mesh.
 ms.assetid: f03170bd-7d2a-4839-9aec-c29426b95437
 title: D3DXMESHSIMP enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

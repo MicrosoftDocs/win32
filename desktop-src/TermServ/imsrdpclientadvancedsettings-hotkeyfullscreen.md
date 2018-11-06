@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings HotKeyFullScreen property
 description: Specifies the virtual-key code to add to CTRL+ALT to determine the hotkey replacement for switching to full-screen mode.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 75fda212-ec68-4b68-b7db-2bfcdee7a7de
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Sets credentials to be used with an HTTP server, whether it is a proxy server or an originating server.
 ms.assetid: d96c6e76-92b8-4ad7-8ca7-a9acbed523ff
 title: IWinHttpRequest::SetCredentials method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

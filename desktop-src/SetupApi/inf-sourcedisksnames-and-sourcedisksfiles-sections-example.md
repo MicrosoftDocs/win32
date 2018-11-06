@@ -2,7 +2,6 @@
 Description: The SourceDisksNames section of an INF file identifies the disks that contain the source files being installed.
 ms.assetid: af4bc466-f0a3-4f83-adb7-6bfc276f7764
 title: INF SourceDisksNames and SourceDisksFiles Sections Example
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

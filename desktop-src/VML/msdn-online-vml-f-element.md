@@ -2,7 +2,6 @@
 title: VML F Element
 description: VML F Element
 ms.assetid: 00eba2e9-1acf-45ad-9995-5e3938dc5c67
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

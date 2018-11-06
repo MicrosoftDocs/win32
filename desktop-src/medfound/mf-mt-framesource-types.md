@@ -2,7 +2,6 @@
 Description: A value that indicates the type of sensor provided by a frame source, such as color, infrared, or depth.
 ms.assetid: F327B9E9-C01C-4F5B-9A26-6404ECD7F27F
 title: MF_MT_FRAMESOURCE_TYPES attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

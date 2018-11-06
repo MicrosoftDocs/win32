@@ -1,9 +1,6 @@
 ---
 title: AddVirtualDesktop method of the Win32_RDMSVirtualDesktopCollection class
 description: Adds a virtual desktop to the virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 31a3aa28-6e5d-4f8a-81ff-ab011f568b6a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

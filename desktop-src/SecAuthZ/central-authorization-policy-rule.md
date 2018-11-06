@@ -2,7 +2,6 @@
 Description: The purpose of the Central Authorization Policy Rule (CAPR) is to provide a domain-wide definition of an isolated aspect of the organizations authorization policy.
 ms.assetid: 51436332-F06A-4929-B3C1-AD2F66C3273B
 title: Central Authorization Policy Rule
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

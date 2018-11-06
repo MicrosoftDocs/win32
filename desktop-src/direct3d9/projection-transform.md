@@ -2,7 +2,6 @@
 Description: You can think of the projection transformation as controlling the camera's internals; it is analogous to choosing a lens for the camera.
 ms.assetid: 09e6e887-7657-4654-be19-2e83dcbc91cf
 title: Projection Transform (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

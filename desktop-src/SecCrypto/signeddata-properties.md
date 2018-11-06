@@ -2,7 +2,6 @@
 Description: The SignedData object exposes the following properties.
 ms.assetid: 4553B9A6-9031-4F42-A330-6B6E19D9FE34
 title: SignedData Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

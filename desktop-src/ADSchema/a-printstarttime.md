@@ -1,9 +1,6 @@
 ---
 title: Print-Start-Time attribute
 description: The time a print queue begins servicing jobs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 748d98a7-cef8-4a6d-9310-1f14667b2912
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Start-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

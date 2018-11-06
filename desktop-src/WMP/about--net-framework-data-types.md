@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,.NET Framework
 - ActiveX control,.NET Framework
 - .NET Framework,data types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

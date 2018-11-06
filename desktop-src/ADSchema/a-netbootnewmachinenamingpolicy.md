@@ -1,9 +1,6 @@
 ---
 title: netboot-New-Machine-Naming-Policy attribute
 description: Indicates the naming scheme which new client computer accounts will use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e8ffc9b1-b2a2-4216-8498-85cb6c8cc7ae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-New-Machine-Naming-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

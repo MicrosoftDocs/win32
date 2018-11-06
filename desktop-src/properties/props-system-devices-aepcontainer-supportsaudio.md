@@ -2,7 +2,6 @@
 Description: Indicates if the Device Association Endpoint Container Supports Audio Casting.
 ms.assetid: 0fee871c-447b-4d04-b25a-a9faccb491f1
 title: System.Devices.AepContainer.SupportsAudio
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

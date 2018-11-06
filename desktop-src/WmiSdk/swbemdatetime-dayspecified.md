@@ -1,12 +1,8 @@
 ---
 Description: Boolean value that indicates whether the day component in the CIM DATETIME value contains an interval or a wildcard value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a713378b-3953-49d8-9c6a-44aa9337eae2
 ms.tgt_platform: multiple
 title: SWbemDateTime.DaySpecified property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

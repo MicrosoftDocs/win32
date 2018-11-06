@@ -1,9 +1,6 @@
 ---
 title: Friendly-Names attribute
 description: List of default display name definitions supported by a catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4921c568-ffd4-4735-802f-b62f88e3966c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Friendly-Names
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

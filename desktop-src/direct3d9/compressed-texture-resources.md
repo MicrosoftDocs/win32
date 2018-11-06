@@ -2,7 +2,6 @@
 Description: Texture maps are digitized images drawn on three-dimensional shapes to add visual detail.
 ms.assetid: 0ea5cb07-a21a-4e2c-93e2-54966153bb8a
 title: Compressed Texture Resources (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

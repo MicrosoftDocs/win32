@@ -2,7 +2,6 @@
 Description: The SENSOR\_CATEGORY\_BIOMETRIC category contains sensors that provide information about living beings.
 ms.assetid: dfc7ad46-c13b-46d1-8854-0d93ecaac55a
 title: SENSOR_CATEGORY_BIOMETRIC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

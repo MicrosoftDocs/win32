@@ -2,7 +2,6 @@
 Description: Occurs when a IInkTablet is removed from the system.
 ms.assetid: 9a4640a7-cbd9-4304-88c6-86036423628d
 title: InkPicture.TabletRemoved event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

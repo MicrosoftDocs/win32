@@ -1,12 +1,8 @@
 ---
 title: Using the Remote Desktop ActiveX control with virtual channels
 description: If you have enabled a virtual channels application in your Remote Desktop Services deployment, you can make this application available to client computers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: df537ffb-41dd-400e-8a49-9d8a10734eda
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

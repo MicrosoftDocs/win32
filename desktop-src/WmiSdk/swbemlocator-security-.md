@@ -1,12 +1,8 @@
 ---
 Description: The Security\_ property of the SWbemLocator object is used to read or set the security settings for an SWbemLocator object. This property is an SWbemSecurity object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 75987bef-21ae-4420-b069-afab90499218
 ms.tgt_platform: multiple
 title: SWbemLocator.Security_ property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

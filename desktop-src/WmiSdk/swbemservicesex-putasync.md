@@ -1,12 +1,8 @@
 ---
 Description: Saves an object asynchronously to a namespace. When successful, this method sends an OnCompleted event to the SWbemSink object that is specified as an input parameter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 27da0c60-6dae-482d-a9bf-1aab016d3ae8
 ms.tgt_platform: multiple
 title: SWbemServicesEx.PutAsync method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

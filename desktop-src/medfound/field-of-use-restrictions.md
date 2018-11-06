@@ -2,7 +2,6 @@
 Description: Field of Use Restrictions
 ms.assetid: 36f28e4c-2baf-4618-9935-5d4615f6bc77
 title: Field of Use Restrictions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

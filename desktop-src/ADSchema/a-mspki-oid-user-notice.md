@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-OID-User-Notice attribute
 description: The user notice for the enterprise issuer policy OID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b7cfc5fd-99d8-4ddd-bc8f-5e5505eb1f1b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-OID-User-Notice
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The following terms describe domains that exist on remote systems.
 ms.assetid: a6ce5356-682a-46ae-a101-15227c3b8d1e
 title: Primary and Trusted Domains
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

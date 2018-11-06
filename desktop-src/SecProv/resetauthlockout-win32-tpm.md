@@ -2,7 +2,6 @@
 Description: Resets the time-out period or other mechanism that TPM manufacturers implement to protect against dictionary attacks on TPM authorization values.
 ms.assetid: c2fba6a2-2d03-4ffd-9841-4a9eac0a20ac
 title: ResetAuthLockOut method of the Win32_Tpm class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Installs an owner for the TPM.
 ms.assetid: 7b4c8785-0925-41a8-a878-7c1f38d31853
 title: TakeOwnership method of the Win32_Tpm class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

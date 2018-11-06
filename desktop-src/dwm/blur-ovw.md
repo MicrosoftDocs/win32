@@ -15,7 +15,6 @@ keywords:
 - Desktop Window Manager (DWM),extending window frame into client area
 - DWM (Desktop Window Manager),extending window frame into client area
 - extending window frame into client area
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

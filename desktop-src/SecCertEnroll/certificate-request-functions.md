@@ -2,7 +2,6 @@
 Description: The CertEnroll.dll library implements five interfaces that can be used to create and manage a certificate request.
 ms.assetid: f4630095-6ba2-46f7-8825-e7a5b1cb185a
 title: Certificate Request Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - joysticks,event-based notifications
 - joysticks,movement threshold
 - event-based joystick notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

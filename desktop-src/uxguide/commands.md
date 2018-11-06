@@ -2,7 +2,6 @@
 title: Commands
 description: Commands are actions users can take while using your app. Learn the guidelines for adding commands to your app's menus, ribbons, and toolbars.
 ms.assetid: 64DF83BC-CC6D-4F0F-A1B2-AB3CF6DA33B3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

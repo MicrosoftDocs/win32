@@ -1,9 +1,6 @@
 ---
 title: Parent-CA-Certificate-Chain attribute
 description: DER-encoded X.509v3 certificate for the parent certification authority.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 37e04c7b-5350-4e48-b3fd-22f97959d26a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Parent-CA-Certificate-Chain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

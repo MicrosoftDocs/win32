@@ -1,12 +1,8 @@
 ---
 Description: One of the first steps in creating a permanent event consumer is to create the WMI class that describes the event consumer. Specifically, the permanent event consumer class defines the parameters of the action implemented by the physical consumer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a5b6d0b9-8df1-47e3-bb3b-cc69db6d9c0e
 ms.tgt_platform: multiple
 title: Creating a New Permanent Event Consumer Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: AddServers method of the Win32_TSGatewayLoadBalancer class
 description: Adds servers to the Remote Desktop Gateway (RD Gateway) load-balancing servers in the Servers property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ffcbe14b-5ada-4951-bf51-95db14af41d7
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The GetCurrentImage method retrieves a copy of the current image at the renderer.
 ms.assetid: fa322bd2-18e4-481d-bde1-92deb0f7de61
 title: CBaseControlVideo.GetCurrentImage method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

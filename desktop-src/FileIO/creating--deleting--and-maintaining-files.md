@@ -2,7 +2,6 @@
 Description: Functions to use to create, delete, and maintain files.
 ms.assetid: b9cf0ddf-efda-4997-bcc3-3056026c1264
 title: Creating, Deleting, and Maintaining Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

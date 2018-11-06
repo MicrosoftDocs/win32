@@ -2,7 +2,6 @@
 Description: Target Object
 ms.assetid: e88d65ad-9b56-4620-a0f5-573c5e245b3e
 title: Target Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

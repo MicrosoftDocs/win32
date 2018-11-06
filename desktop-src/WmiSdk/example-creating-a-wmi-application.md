@@ -1,12 +1,8 @@
 ---
 Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, reads some data, and cleans up.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d80bcf9f-e57c-499f-b7b8-cf25678c5a82
 ms.tgt_platform: multiple
 title: 'Example: Creating a WMI Application'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

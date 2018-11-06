@@ -4,7 +4,6 @@ description: The opaque type used for a reference to an XML reader.
 ms.assetid: 7acbe407-e91b-435a-82bc-acbbc13cfcfd
 keywords:
 - WS_XML_READER
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

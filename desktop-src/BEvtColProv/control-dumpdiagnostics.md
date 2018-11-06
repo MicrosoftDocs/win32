@@ -1,14 +1,8 @@
 ---
 Description: Dumps the diagnostic information into the log.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eca07cc3-ff34-458b-a0f0-a8829862044d
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: DumpDiagnostics method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

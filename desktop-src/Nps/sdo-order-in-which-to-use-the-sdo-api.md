@@ -1,12 +1,8 @@
 ---
 title: Order in Which to Use the SDO API
 description: The following sections describe the order in which to call the various SDO interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 77ec6ed1-fc29-4962-8939-3ab0160df1f8
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

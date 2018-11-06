@@ -2,7 +2,6 @@
 Description: Shell clipboard formats are used to identify the type of Shell data being transferred through the clipboard.
 ms.assetid: fb8ce5d3-3215-4e05-a916-4d4a803464d2
 title: Shell Clipboard Formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The CommandLineEventConsumer class starts an arbitrary process in the local system when an event is delivered to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0dcae783-1722-45a4-b5d4-3fcf455dacf8
 ms.tgt_platform: multiple
 title: CommandLineEventConsumer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -13,7 +13,6 @@ keywords:
 - Client Extended APIs,querying for simple rights
 - DRM Client Extended APIs,simple rights queries
 - Client Extended APIs,simple rights queries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

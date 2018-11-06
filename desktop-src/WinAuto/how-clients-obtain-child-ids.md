@@ -2,7 +2,6 @@
 title: How Clients Obtain Child IDs
 description: How Clients Obtain Child IDs
 ms.assetid: 8e5786fe-5123-4262-b0b8-5c9aff4787bb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

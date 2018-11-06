@@ -2,7 +2,6 @@
 title: umax (sm4 - asm)
 description: Component-wise unsigned integer maximum.
 ms.assetid: 86BCF7A7-99CA-481B-82B4-E0BA30963344
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: System-Flags attribute
 description: An integer value that contains flags that define additional properties of the class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ce24322c-fb01-462a-aefe-cb422851f782
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - System-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

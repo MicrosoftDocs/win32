@@ -1,9 +1,6 @@
 ---
 title: Print-Max-Copies attribute
 description: The maximum number of copies a device can print.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3b4dd314-6134-4fdb-9f26-cdab3ca37947
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Max-Copies
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

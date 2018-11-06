@@ -2,7 +2,6 @@
 title: DirectWrite
 description: .
 ms.assetid: 62a8d723-ae1c-4cbc-a9da-3177e80d4a3a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

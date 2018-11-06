@@ -2,7 +2,6 @@
 title: WinSNMP Common Error Codes
 description: The SnmpGetLastError function can return a general error code after a WinSNMP function fails. The following table lists the WinSNMP common error codes.
 ms.assetid: c286750f-a542-4f61-a22c-d77debd45775
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

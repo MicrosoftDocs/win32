@@ -2,7 +2,6 @@
 Description: WST Decoder Filter
 ms.assetid: 2d33ae3f-565d-4e69-8fb0-117ff582a4d0
 title: WST Decoder Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ItsPubPlugin pluginName property
 description: Retrieves the name of the plug-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c1ea46b6-fac6-4140-a278-cb04ee9af739
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Cpubplugin.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

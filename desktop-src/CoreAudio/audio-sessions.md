@@ -2,7 +2,6 @@
 Description: Audio Sessions
 ms.assetid: b8a1b656-a582-4112-99e9-bd575719ebb3
 title: Audio Sessions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

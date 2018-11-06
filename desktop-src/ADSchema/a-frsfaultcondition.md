@@ -1,9 +1,6 @@
 ---
 title: FRS-Fault-Condition attribute
 description: The Fault Condition for a Member.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2b0472bf-d6cb-4471-b1ca-93e2aedf6572
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Fault-Condition
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

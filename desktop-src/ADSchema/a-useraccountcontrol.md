@@ -1,9 +1,6 @@
 ---
 title: User-Account-Control attribute
 description: Flags that control the behavior of the user account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fc81a16a-f537-44cc-957c-5d7ca66b9755
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User-Account-Control
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

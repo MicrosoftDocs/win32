@@ -19,7 +19,6 @@ keywords:
 - DRM (digital rights management),Programming Guide
 - DRM Client Extended APIs,about
 - Client Extended APIs,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

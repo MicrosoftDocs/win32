@@ -2,7 +2,6 @@
 Description: Pointer to the allocator that created this sample.
 ms.assetid: b4faccec-9124-4ae6-8662-ac5eb017328a
 title: CMediaSample::m_pAllocator member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Specifies the field dominance for an interlaced video frame.
 ms.assetid: 680c42e4-2808-46ed-98a8-c77b14a55def
 title: MFSampleExtension_BottomFieldFirst attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

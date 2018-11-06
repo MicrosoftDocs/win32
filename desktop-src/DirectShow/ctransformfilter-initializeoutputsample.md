@@ -2,7 +2,6 @@
 Description: The InitializeOutputSample method retrieves a new output sample and initializes it.
 ms.assetid: a4f8f514-cf1a-4f8f-ac17-17378705c2ea
 title: CTransformFilter.InitializeOutputSample method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

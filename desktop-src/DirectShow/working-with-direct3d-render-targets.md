@@ -2,7 +2,6 @@
 Description: Working with Direct3D Render Targets
 ms.assetid: 271b919c-421b-4484-8e60-afbf3cbdca44
 title: Working with Direct3D Render Targets
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Gets the security descriptor that controls who can access a DCOM application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5ddd563b-f731-47ac-8a13-20940adfa86d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetAccessSecurityDescriptor method of the Win32_DCOMApplicationSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

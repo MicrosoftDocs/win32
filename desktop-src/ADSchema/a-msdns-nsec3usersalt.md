@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-NSEC3-User-Salt attribute
 description: An attribute that defines a user-specified NSEC3 salt string to use when signing the DNS zone. If empty, random salt will be used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b9829732-8a79-4f07-8644-9fe4ba05ba8f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-NSEC3-User-Salt
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

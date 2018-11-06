@@ -2,7 +2,6 @@
 Description: The CCActive property sets or retrieves the current status of closed captioning.
 ms.assetid: e12db685-b58e-4dc1-8ddd-e6ee1da28d08
 title: CCActive Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: RdvCopyBaseVmLocally method of the Win32_RdvhManagement class
 description: Copies a local base virtual machine to a specified remote desktop virtualization (RDV) host server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 13c0c629-42c6-4689-9740-f13f31688e42
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

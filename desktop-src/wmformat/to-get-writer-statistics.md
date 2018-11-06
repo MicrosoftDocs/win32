@@ -6,7 +6,6 @@ keywords:
 - Advanced Systems Format (ASF),writer statistics
 - ASF (Advanced Systems Format),writer statistics
 - writer statistics,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

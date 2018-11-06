@@ -1,14 +1,10 @@
 ---
 title: Replication Behavior in Active Directory Domain Services
 description: Replication behavior is consistent and predictable; given a set of changes to a given replica, the outcome can be predicted \ 8212;the changes will be propagated to all other replicas.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4e9f2e43-6375-4663-93ca-55112fd00abe
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services Active Directory , Replication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

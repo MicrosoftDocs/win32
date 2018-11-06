@@ -2,7 +2,6 @@
 Description: Configures a protected output object.
 ms.assetid: d22a378e-2d4e-4ff4-a18e-136932c24d2b
 title: ConfigureOPMProtectedOutput function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # ConfigureOPMProtectedOutput function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This function is used by [Output Protection Manager](output-protection-manager.md) (OPM) to access functionality in the display driver. Applications should not call this function.
 
  

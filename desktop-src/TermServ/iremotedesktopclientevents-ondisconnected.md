@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnDisconnected method
 description: Called when the client control has been disconnected from a remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: EA26B530-0AA8-49D6-8E3C-E53179FC5104
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

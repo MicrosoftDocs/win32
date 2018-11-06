@@ -1,9 +1,6 @@
 ---
 title: Enable method of the Win32_Terminal class
 description: The Enable method disables or enables the terminal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f249563b-6fa0-413c-9fc7-01dd16d5c561
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Represents a Machine Check Architecture (MCA) memory error event. This class is available only in 64-bit Windows systems.
 ms.assetid: 0db1d526-e2c3-4e48-90c8-cbcd9121040e
 title: MSMCAEvent_MemoryError class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

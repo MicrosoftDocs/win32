@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_AlarmDevice class is an alarm device that emits audible or visible indications related to a problem situation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1f64aea4-d0a4-480b-9802-e2c21e71c754
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_AlarmDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -50,7 +44,7 @@ The **CIM\_AlarmDevice** class is an alarm device that emits audible or visible 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

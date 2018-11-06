@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,MetadataPicture object
 - Windows Media Player Mobile,MetadataPicture object
 - MetadataPicture object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

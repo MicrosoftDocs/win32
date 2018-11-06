@@ -2,7 +2,6 @@
 title: IAgentCommand GetVoice
 description: IAgentCommand GetVoice
 ms.assetid: 69f3c91b-2ccf-4bea-8034-0c3e0a5e4ec4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

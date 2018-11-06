@@ -1,15 +1,11 @@
 ---
 title: Creating an Application Directory Partition
 description: An application directory partition is represented by a domainDNS object with an instanceType attribute value of DS\_INSTANCETYPE\_IS\_NC\_HEAD combined with DS\_INSTANCETYPE\_NC\_IS\_WRITEABLE.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5e90f316-9d67-484d-98b8-0632dd3c2c43
 ms.tgt_platform: multiple
 keywords:
 - Creating an Application Directory Partition AD
 - Application Directory Partitions AD , Creating
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

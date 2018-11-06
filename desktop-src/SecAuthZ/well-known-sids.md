@@ -2,7 +2,6 @@
 Description: Well-known security identifiers (SIDs) identify generic groups and generic users.
 ms.assetid: eb2f95c4-9465-409b-b76c-9ccae1d05eda
 title: Well-known SIDs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

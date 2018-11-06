@@ -2,7 +2,6 @@
 title: Toolbar Control Notifications
 description: .
 ms.assetid: a12ba343-e51c-4850-afb7-4307dfb6fd03
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

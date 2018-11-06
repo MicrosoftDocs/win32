@@ -1,15 +1,11 @@
 ---
 title: Binding With Encryption
 description: Sensitive data exchanged over a network should be encrypted.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 51fe2131-5f7d-41b1-ad88-d965cbb4d630
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI , using, binding with encryption
 - Binding With Encryption
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

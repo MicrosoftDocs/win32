@@ -2,7 +2,6 @@
 Description: The COMMCONFIG structure defines the configuration of a communications resource, serial or otherwise.
 ms.assetid: 05094b98-4694-42dd-883c-b3c90735b3bc
 title: Communications Resource Configuration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

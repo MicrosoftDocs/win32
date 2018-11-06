@@ -2,7 +2,6 @@
 Description: ICE72 verifies that non-built-in custom actions are not used in the AdvtExecuteSequence table.
 ms.assetid: b04227d5-5bd6-434a-860c-498d787a1f0a
 title: ICE72
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

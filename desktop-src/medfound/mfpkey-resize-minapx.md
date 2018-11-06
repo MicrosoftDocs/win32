@@ -2,7 +2,6 @@
 Description: Specifies the x-coordinate of the upper-left corner of the minimum display aperture.
 ms.assetid: eb9e5330-fd89-4bca-ae8c-62985f9b2373
 title: MFPKEY_RESIZE_MINAPX Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

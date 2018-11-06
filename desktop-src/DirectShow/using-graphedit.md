@@ -2,7 +2,6 @@
 Description: Using GraphEdit
 ms.assetid: 91a8f111-fce4-4284-afa2-e3ea0ec35bff
 title: Using GraphEdit
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

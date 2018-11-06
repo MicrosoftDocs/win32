@@ -2,7 +2,6 @@
 title: Determining the Location of a Share
 description: The following example demonstrates how to call the WNetGetUniversalName function to determine the location of a share on a redirected drive.
 ms.assetid: ce57fecb-8b14-4514-a3fd-45d7ef6eee89
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

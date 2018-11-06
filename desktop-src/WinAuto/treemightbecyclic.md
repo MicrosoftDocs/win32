@@ -2,7 +2,6 @@
 title: TreeMightBeCyclic
 description: TreeMightBeCyclic
 ms.assetid: 9A997949-A1A2-448C-9739-BE176621F1B4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

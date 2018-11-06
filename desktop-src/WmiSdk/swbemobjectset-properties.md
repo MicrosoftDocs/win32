@@ -1,12 +1,8 @@
 ---
 Description: The SWbemObjectSet object exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: FDCA11C8-32C7-4BE0-B2A0-FC50FFFB16BA
 ms.tgt_platform: multiple
 title: SWbemObjectSet Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

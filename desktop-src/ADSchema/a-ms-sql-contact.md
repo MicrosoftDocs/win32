@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Contact attribute
 description: A user defined string. Default is set to Contact.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 20457aa3-f68f-47e9-bda7-cb998eaa80dd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Contact
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

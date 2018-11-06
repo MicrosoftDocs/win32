@@ -2,7 +2,6 @@
 Description: The Manifest property is used to set or get the active activation context.
 ms.assetid: 5ad16c7b-3d66-4083-bc0f-f8294757764f
 title: ActCtx.Manifest property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Volume class
 description: Contains information about a storage device or file. This class is used to create shared folders.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c8be8697-d54e-45c1-860d-85625af95211
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Volume
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

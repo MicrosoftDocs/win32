@@ -1,16 +1,12 @@
 ---
 title: Using Active Directory Service Interfaces
 description: Active Directory Service Interfaces (ADSI) provides the means for client applications of directory services to use one set of interfaces to communicate with any namespace that provides an ADSI implementation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 58bde1ea-30d1-4601-a6fb-df0bb837e2ab
 ms.tgt_platform: multiple
 keywords:
 - Using Active Directory Service Interfaces ADSI
 - ADSI ADSI , Using
 - Active Directory Service Interfaces ADSI , Using
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

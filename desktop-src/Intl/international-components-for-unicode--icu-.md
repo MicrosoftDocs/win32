@@ -2,7 +2,6 @@
 Description: International Components for Unicode (ICU) is a mature, widely used set of open-source globalization APIs.
 ms.assetid: 4AEBE391-4121-44B2-B15B-0032645D7053
 title: International Components for Unicode (ICU)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -27,7 +26,7 @@ For more information, you can visit the ICU website: <http://site.icu-project.or
 
 In Windows 10 Creators Update, ICU was integrated into Windows, making the C APIs and data publicly accessible.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The version of ICU in Windows only exposes the C APIs. It does not expose any of the C++ APIs. Unfortunately, it is impossible to ever expose the C++ APIs due to the lack of a stable ABI in C++.
 
  

@@ -2,7 +2,6 @@
 Description: Displaying an Application-Supplied Bitmap on the Composited Image
 ms.assetid: c51329d3-e814-4ef9-aad8-a3e60f9fa2a7
 title: Displaying an Application-Supplied Bitmap on the Composited Image
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: PingLicenseServer method of the Win32_TerminalServiceSetting class
 description: PingLicenseServer is no longer available.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d2a9f273-1ff9-4391-889b-a3b9c9f95c3b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

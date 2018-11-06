@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Members-For-Az-Role-BL attribute
 description: Backward link from member application group or user to Az-Role objects linking to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dcee8af0-6055-4569-a25e-d49e5ec02fee
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Members-For-Az-Role-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

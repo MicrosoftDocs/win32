@@ -2,7 +2,6 @@
 Description: Skips over the next specified number of items in the enumeration sequence.
 ms.assetid: bf9ea700-3f44-48a7-8ea0-ee66dea61836
 title: IEnumPStoreProviders::Skip method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

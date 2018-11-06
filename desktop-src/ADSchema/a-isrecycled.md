@@ -1,9 +1,6 @@
 ---
 title: Is-Recycled attribute
 description: Is the object recycled. For use with AD Recycle Bin.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d7d470ef-0ec6-4baf-a481-ba63efe451d2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Is-Recycled
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

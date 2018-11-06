@@ -1,9 +1,6 @@
 ---
 title: Intellimirror-Group class
 description: Remote boot legacy for managing groups of server computers. Not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 493ad5f3-59e0-4c44-94d1-63f33e6fb9e3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Intellimirror-Group
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

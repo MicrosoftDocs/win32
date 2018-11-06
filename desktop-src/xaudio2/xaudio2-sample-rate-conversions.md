@@ -2,7 +2,6 @@
 Description: XAudio2 voices can perform automatic sample rate conversions if their input sample rate is different from the input sample rate of their output voices.
 ms.assetid: be34ce62-6552-45e2-a247-830ab55ea9ec
 title: XAudio2 Sample Rate Conversions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

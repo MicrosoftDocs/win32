@@ -1,9 +1,6 @@
 ---
 title: netboot-Max-Clients attribute
 description: The netboot-Max-Clients attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9553d480-1bdb-4322-94f8-815c8833cd93
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-Max-Clients
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

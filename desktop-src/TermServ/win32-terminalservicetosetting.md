@@ -1,9 +1,6 @@
 ---
 title: Win32_TerminalServiceToSetting class
 description: Represents the association between an instance of the Win32\_TerminalService class and the setting of a particular Win32\_TerminalServiceSetting property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4c206812-7549-4410-b6ba-1163f20d2bee
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

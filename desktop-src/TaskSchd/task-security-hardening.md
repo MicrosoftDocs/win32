@@ -2,7 +2,6 @@
 title: Task Security Hardening
 description: Using the tasks security hardening feature will allow task owners to run their tasks with minimum required privileges.
 ms.assetid: ba03add5-aa05-4bef-baec-684ca17363bd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

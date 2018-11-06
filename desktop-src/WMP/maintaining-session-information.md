@@ -17,7 +17,6 @@ keywords:
 - Download Manager
 - maintaining session information
 - session information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

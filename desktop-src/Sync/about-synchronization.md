@@ -2,7 +2,6 @@
 Description: To synchronize access to a resource, use one of the synchronization objects in one of the wait functions.
 ms.assetid: 0930bf12-6d5f-4f2c-914d-53e6e862d3bd
 title: About Synchronization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Kerberos protocol is composed of three subprotocols.
 ms.assetid: a32aebee-4c08-4838-9d81-c62091ce86e4
 title: Kerberos Subprotocols
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

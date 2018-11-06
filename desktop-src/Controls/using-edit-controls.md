@@ -2,7 +2,6 @@
 title: Using Edit Controls
 description: This section provides information and example code for implementing edit controls.
 ms.assetid: a35a8ad6-3207-49f0-ae38-f5151a606de0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - animating a DirectComposition visual
 - how to apply DirectComposition animations
 - applying DirectComposition animations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

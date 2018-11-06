@@ -2,7 +2,6 @@
 title: Tab Control Constants
 description: .
 ms.assetid: aa1b49c3-cebd-44e1-be83-b4bbe8b18885
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

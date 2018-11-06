@@ -1,14 +1,8 @@
 ---
 Description: Uncompresses the logical directory entry file (or directory) specified in the object path. This method is an extended version of the Uncompress method and is inherited from CIM\_LogicalFile.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ef5b7c90-5013-4ec0-bfa6-c32428ffb501
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: UncompressEx method of the CIM_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **UncompressEx** method uncompresses the logical directory entry file (or directory) specified in the object path. This method is an extended version of the [**Uncompress**](uncompress-method-in-class-cim-directory.md) method and is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

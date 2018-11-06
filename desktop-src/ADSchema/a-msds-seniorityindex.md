@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Seniority-Index attribute
 description: Contains the seniority index as applied by the organization where the person works.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d2fae29b-fab0-48b4-a4df-9259e99eb952
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Seniority-Index
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

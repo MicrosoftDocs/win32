@@ -2,7 +2,6 @@
 Description: Registers a service that provides virtual machine-specific resource-related objects.
 ms.assetid: 85782C4D-E0A3-4EED-9A26-7928862C559B
 title: Msvm_VirtualSystemResourceRegistration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

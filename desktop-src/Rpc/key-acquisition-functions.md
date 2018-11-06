@@ -2,7 +2,6 @@
 title: Key Acquisition Functions
 description: By default, the SSP supplies encryption keys to server programs that request them. Each SSP implements its own system of generating keys. The format of the keys that the SSP generates are specific to the SSP.
 ms.assetid: 0ba7212c-6ee8-4a92-94d0-f09f84b05bf3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: posixGroup class
 description: Represents an abstraction of a group of accounts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d6fa3aab-cb98-4774-b419-afae975c6917
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - posixGroup
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

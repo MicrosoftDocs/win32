@@ -1,9 +1,6 @@
 ---
 title: Link-Track-Vol-Entry class
 description: The entry for a link to a file on a volume.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 96a7a923-4aeb-4408-9d2e-ebac191a06c8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Link-Track-Vol-Entry
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

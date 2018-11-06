@@ -10,7 +10,6 @@ keywords:
 - MIB, See Management Information Base
 - Management Information Base RRAS
 - Management Information Base RRAS , described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

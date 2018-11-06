@@ -2,7 +2,6 @@
 Description: The UiCreatePatchPackageEx function takes a package creation file (.pcp file) and generates a Windows Installer patch package (.msp package). Calling Msimsp.exe is the recommended method for using Patchwiz.dll.
 ms.assetid: 76d9a21d-73bc-41fc-8ed0-7d7d7deff815
 title: UiCreatePatchPackageEx (Patchwiz.dll)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

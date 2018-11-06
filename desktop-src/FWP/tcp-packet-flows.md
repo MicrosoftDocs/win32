@@ -2,7 +2,6 @@
 title: TCP Packet Flows
 description: The order in which the layers of the Windows Filtering Platform (WFP) filter engine are traversed during a typical TCP session.
 ms.assetid: 75319c91-f77b-4dec-b94f-36772f1f1d53
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

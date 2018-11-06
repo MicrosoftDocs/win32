@@ -8,7 +8,6 @@ keywords:
 - user interface plug-ins,LaunchPage method
 - UI plug-ins,LaunchPage method
 - LaunchPage method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

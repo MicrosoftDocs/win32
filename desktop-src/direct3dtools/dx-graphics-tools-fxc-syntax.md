@@ -4,7 +4,6 @@ description: Here is the syntax for calling FXC.exe, the effect-compiler tool. F
 ms.assetid: 3aee89bd-02e1-4de1-8552-ba36814f8464
 keywords:
 - fxc, syntax
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

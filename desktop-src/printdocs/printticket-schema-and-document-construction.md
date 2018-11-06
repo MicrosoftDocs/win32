@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 573c2c82-aeb9-4ef2-8a1b-40b4db6ac6e4
 title: PrintTicket Schema and Document Construction
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

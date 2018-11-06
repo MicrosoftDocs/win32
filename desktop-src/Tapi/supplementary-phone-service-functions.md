@@ -2,7 +2,6 @@
 Description: The supplementary phone service functions are listed by category in the following topics.
 ms.assetid: 0d1a81d2-aa9e-4a85-85d3-aa4eabb26eb5
 title: Supplementary Phone Service Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

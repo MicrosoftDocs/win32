@@ -1,12 +1,8 @@
 ---
 title: Object Model Hierarchy
 description: The objects in the SDO object model are arranged in a hierarchy. This means objects in SDO provide access to other objects in SDO.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 22159f61-2b35-4a0d-9b8b-8cb0a8192afb
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-DS-Record-Algorithms attribute
 description: An attribute used to define the algorithms used when writing the dsset file during zone signing.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4cf1b1fc-d927-4219-9c78-c906acb49255
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-DS-Record-Algorithms
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

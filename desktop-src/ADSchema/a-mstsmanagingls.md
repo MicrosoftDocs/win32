@@ -1,9 +1,6 @@
 ---
 title: MS-TS-ManagingLS attribute
 description: Terminal Services managing license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 657f005e-0f89-4df4-b0f8-00752827bece
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-ManagingLS
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

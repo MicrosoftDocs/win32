@@ -2,7 +2,6 @@
 Description: Used to indicate that an error has occurred with the source buffer.
 ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
 title: IMFSourceBufferNotify::OnError method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

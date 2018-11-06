@@ -2,7 +2,6 @@
 Description: Retrieves the number of EKU objects in the collection.
 ms.assetid: a38ac480-4f9b-4d69-a7e6-fae4993fe2cf
 title: EKUs.Count property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

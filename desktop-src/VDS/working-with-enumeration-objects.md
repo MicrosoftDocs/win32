@@ -2,7 +2,6 @@
 Description: Working with Enumeration Objects
 ms.assetid: cb99e9fd-613c-4e38-9e0f-e1a23b72aa07
 title: Working with Enumeration Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

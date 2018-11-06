@@ -1,12 +1,8 @@
 ---
 Description: As with all applications, WMI receives error codes from the Windows operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f54b8e7c-c531-47d5-bab8-780652b94555
 ms.tgt_platform: multiple
 title: Retrieving an Error Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

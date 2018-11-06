@@ -2,7 +2,6 @@
 title: Restore Points
 description: Restore points are created to allow users a choice of previous system states. Each restore point contains the necessary information needed to restore the system to the chosen state. Restore points are created before key changes are made to the system.
 ms.assetid: 5f68b377-4293-493e-afaf-f4414c2af1fb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

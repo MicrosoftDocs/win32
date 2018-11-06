@@ -2,7 +2,6 @@
 Description: Context requirements are expressed as a combination of bit flags passed to either the InitializeSecurityContext (General) or AcceptSecurityContext (General) function.
 ms.assetid: 4a44b829-4202-46c0-b17e-04943fa067ab
 title: Context Requirements
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

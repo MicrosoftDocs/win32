@@ -2,7 +2,6 @@
 Description: A feature is a part of the application's total functionality that a user recognizes and may decide to install independently.
 ms.assetid: e8f449bd-e670-4344-a6fa-ee1d5f34f21b
 title: Windows Installer Features
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

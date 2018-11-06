@@ -2,7 +2,6 @@
 Description: The MXDC\_GET\_FILENAME\_DATA\_T structure holds the full path and file name of a Microsoft XPS Document Converter (MXDC) output file.
 ms.assetid: 070bce2e-5055-47e8-9412-2094a636635f
 title: MXDC_GET_FILENAME_DATA_T structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

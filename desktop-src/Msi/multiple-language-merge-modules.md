@@ -2,7 +2,6 @@
 Description: Multiple language modules can deliver components with several different languages as a single compound file.
 ms.assetid: 'b3a0b635-49c7-4f95-b31f-6c8688466dd2'
 title: Multiple Language Merge Modules
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

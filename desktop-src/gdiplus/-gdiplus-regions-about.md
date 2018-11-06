@@ -2,7 +2,6 @@
 Description: A region is a portion of the display surface.
 ms.assetid: eb78d7a0-6293-487f-88c5-88ba455b965f
 title: Regions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

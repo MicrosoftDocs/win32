@@ -2,7 +2,6 @@
 title: Windows System Assessment Tool Provider
 description: The Windows System Assessment Tool (WinSAT) exposes a number of classes that assesses the performance characteristics and capabilities of a computer.
 ms.assetid: f0ce8b55-25b4-40fa-b17f-32a021b50395
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

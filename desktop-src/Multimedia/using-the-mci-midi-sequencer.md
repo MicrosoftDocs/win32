@@ -12,7 +12,6 @@ keywords:
 - MCI MIDI sequencer,about
 - Media Control Interface (MCI),MIDI sequencer
 - MCI (Media Control Interface),MIDI sequencer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

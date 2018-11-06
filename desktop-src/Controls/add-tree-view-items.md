@@ -2,7 +2,6 @@
 title: How to Add Tree-View Items
 description: You add an item to a tree-view control by sending the TVM\_INSERTITEM message to the control.
 ms.assetid: CD6376F4-8B1A-489D-8538-6C1620E98F76
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

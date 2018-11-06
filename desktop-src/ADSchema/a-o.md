@@ -1,9 +1,6 @@
 ---
 title: Organization-Name attribute
 description: The name of the company or organization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8f9d5ed6-5211-4703-875a-18786d6c59ca
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Organization-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

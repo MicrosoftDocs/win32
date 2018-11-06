@@ -4,7 +4,6 @@ description: The following functions are provided to routing protocols by the ro
 ms.assetid: 4e88c9fe-f6ec-4f9c-88b1-8726e10d0f6d
 keywords:
 - Routing Protocol Interface RRAS ,support functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

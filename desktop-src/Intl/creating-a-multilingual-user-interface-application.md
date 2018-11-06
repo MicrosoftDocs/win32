@@ -2,7 +2,6 @@
 Description: This tutorial demonstrates how to take a monolingual application and make it world-ready. This application is in the form of a complete solution that is built within Microsoft Visual Studio.
 ms.assetid: 6d71aa90-8444-4f30-a2f8-f1a2aab015b0
 title: Adding Multilingual User Interface Support to an Application
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

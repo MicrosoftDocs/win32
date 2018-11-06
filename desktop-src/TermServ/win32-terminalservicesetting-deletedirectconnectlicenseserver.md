@@ -1,9 +1,6 @@
 ---
 title: DeleteDirectConnectLicenseServer method of the Win32_TerminalServiceSetting class
 description: DeleteDirectConnectLicenseServer is no longer available.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 190316ab-b8ed-4102-8346-42603d6451e6
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

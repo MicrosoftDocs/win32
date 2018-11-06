@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Quota-Trustee attribute
 description: The SID of the security principal for which the quota is being assigned.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4da8f731-0a8f-4d8a-a4e7-81ed881a30b5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Quota-Trustee
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

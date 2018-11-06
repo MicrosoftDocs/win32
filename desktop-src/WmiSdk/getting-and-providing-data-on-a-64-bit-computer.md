@@ -1,12 +1,8 @@
 ---
 Description: Client applications and scripts that access standard WMI 32-bit providers continue to operate normally when running on a 64-bit operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 68819bea-a48d-4de1-a50d-f03ae04775f5
 ms.tgt_platform: multiple
 title: Getting and Providing Data on a 64-bit Computer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

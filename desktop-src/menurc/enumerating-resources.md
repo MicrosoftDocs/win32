@@ -2,7 +2,6 @@
 title: Enumerating Resources
 description: This topic discusses the functions used to obtain lists of resources.
 ms.assetid: 388deaa1-3b04-43fa-aad2-8b52376d570c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

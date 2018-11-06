@@ -2,7 +2,6 @@
 title: HTTP Cookies
 description: HTTP cookies provide the server with a mechanism to store and retrieve state information on the client application's system.
 ms.assetid: c3574592-572f-4fde-adfa-aed3e862f13f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

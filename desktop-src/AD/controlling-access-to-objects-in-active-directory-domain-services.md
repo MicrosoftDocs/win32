@@ -1,14 +1,10 @@
 ---
 title: Controlling Access to Objects in Active Directory Domain Services
 description: Each Active Directory directory service object is protected by Windows 2000 security.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0821069d-76bd-49cb-a617-8446d26e61d9
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services,using,security
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

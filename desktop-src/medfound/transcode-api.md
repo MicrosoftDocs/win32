@@ -2,7 +2,6 @@
 Description: This section describes how to use the transcode API to re-encode media files. The transcode API was introduced in Windows 7.
 ms.assetid: '24bf68a8-39bf-4302-b28c-71bb23b63469'
 title: Transcode API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

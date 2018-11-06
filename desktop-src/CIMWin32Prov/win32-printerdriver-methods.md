@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_PrinterDriver class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3C47E821-AF5D-4D69-B5F1-32D6715B4638
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PrinterDriver Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - EC_WMT_INDEX_EVENT
 - Advanced Systems Format (ASF),EC_WMT_INDEX_EVENT
 - ASF (Advanced Systems Format),EC_WMT_INDEX_EVENT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

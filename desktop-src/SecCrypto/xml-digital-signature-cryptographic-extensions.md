@@ -2,7 +2,6 @@
 Description: CryptXML allows developers to extend natively supported cryptographic algorithms by registering a system wide cryptographic extension DLL.
 ms.assetid: b0625481-660a-4fd5-ba15-d532998f95a6
 title: XML Digital Signature Cryptographic Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

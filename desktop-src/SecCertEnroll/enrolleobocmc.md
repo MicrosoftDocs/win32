@@ -2,7 +2,6 @@
 Description: Creates a CMC certificate request on behalf of another user and enrolls the user in a certificate hierarchy.
 ms.assetid: 14cc76c9-0e2b-498f-b058-244af6e9111e
 title: enrollEOBOCMC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

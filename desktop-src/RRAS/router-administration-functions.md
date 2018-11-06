@@ -2,7 +2,6 @@
 title: Router Administration Functions
 description: Use the following functions when developing software to administer routers in Windows 2000 and later.
 ms.assetid: a61734a7-b171-4e38-8dec-46be9a9c08ee
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

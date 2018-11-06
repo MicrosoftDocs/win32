@@ -2,7 +2,6 @@
 title: Sending the Asynchronous Reply
 description: When the asynchronous call is complete, the server sends a reply to the client by calling the RpcAsyncCompleteCall function and passing it the asynchronous handle.
 ms.assetid: 458bc476-963e-4812-b4c2-9074ff0a8284
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

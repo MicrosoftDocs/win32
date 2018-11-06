@@ -2,7 +2,6 @@
 Description: 'This section contains the following sections:'
 ms.assetid: 27bd0b8a-fece-4db1-a954-ff91c2a919e6
 title: D3DX Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

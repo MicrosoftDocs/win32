@@ -1,12 +1,8 @@
 ---
 Description: The WMI policy provider provides extensions to group policy through classes, permitting refinements in the application of policy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5d4d4fd2-ecd0-4546-b919-1e75199a403c
 ms.tgt_platform: multiple
 title: Policy Provider Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

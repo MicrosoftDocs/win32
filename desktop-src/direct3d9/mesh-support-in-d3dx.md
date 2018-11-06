@@ -2,7 +2,6 @@
 Description: D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
 ms.assetid: 7892370f-0807-4ab7-b7cd-a7e1182e3f9c
 title: Mesh Support in D3DX (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

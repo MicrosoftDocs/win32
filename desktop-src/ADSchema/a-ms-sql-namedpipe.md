@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-NamedPipe attribute
 description: The named pipe connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d18c911d-06ed-4d08-b584-7b2748620770
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-NamedPipe
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The following interfaces are used with Output Protection Manager (OPM).
 ms.assetid: c3eabc15-0c0f-4deb-9b7a-ec9ce6ce6bb4
 title: OPM Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

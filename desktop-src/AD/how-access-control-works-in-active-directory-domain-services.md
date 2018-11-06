@@ -1,14 +1,10 @@
 ---
 title: How Access Control Works in Active Directory Domain Services
 description: Access control for objects in Active Directory Domain Services is based on Windows NT and Windows 2000 access-control models.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 70eed84b-ada0-48e7-b448-704586e9afaa
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services, security, description
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

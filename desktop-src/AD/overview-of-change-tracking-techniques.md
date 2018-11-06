@@ -1,12 +1,8 @@
 ---
 title: Overview of Change Tracking Techniques
 description: There are several ways that change tracking mechanisms can differ Scope for tracking changes An application can track changes to a single attribute of a single object, to all objects in a domain, and so on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7359e851-61b7-420d-beb0-f7f33f79b007
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

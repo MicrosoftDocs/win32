@@ -2,7 +2,6 @@
 Description: Timeline
 ms.assetid: '6cc36034-224c-4126-873b-0cfeceec9781'
 title: Timeline
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

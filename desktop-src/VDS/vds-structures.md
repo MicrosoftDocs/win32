@@ -2,7 +2,6 @@
 Description: VDS provides structures that define object properties, notifications, and other entities represented in the VDS object model.
 ms.assetid: 6a13f5eb-0fa1-48e2-a112-b2254ca28423
 title: VDS Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

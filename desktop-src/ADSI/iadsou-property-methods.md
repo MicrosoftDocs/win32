@@ -1,9 +1,6 @@
 ---
 title: IADsOU Property Methods
 description: The property methods of the IADsOU interface get or set the properties listed in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8cb84972-733b-47ca-8647-1b7a85c97021
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

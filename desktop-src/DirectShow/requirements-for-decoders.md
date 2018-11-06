@@ -2,7 +2,6 @@
 Description: Requirements for Decoders
 ms.assetid: 149aea20-0d37-4b1c-a098-8446c4088ce1
 title: Requirements for Decoders
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

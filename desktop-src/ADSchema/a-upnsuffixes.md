@@ -1,9 +1,6 @@
 ---
 title: UPN-Suffixes attribute
 description: The list of User-Principal-Name suffixes for a domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ad861d2d-b643-468c-a346-36ad6a828359
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - UPN-Suffixes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

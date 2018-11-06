@@ -2,7 +2,6 @@
 Description: Several registry settings are available to modify CRM behavior to assist with troubleshooting and development.
 ms.assetid: c4e68451-fb8a-45b5-9968-7d5a6418dfe8
 title: COM+ CRM Registry Settings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

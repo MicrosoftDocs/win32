@@ -2,7 +2,6 @@
 Description: Extended Linguistic Services (ELS) is implemented as a dynamic-link library (DLL) that provides a variety of linguistic support functionality for text that the application specifies.
 ms.assetid: 23d4e42a-a5bb-467c-a8b9-6a57ae39daa0
 title: About Extended Linguistic Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

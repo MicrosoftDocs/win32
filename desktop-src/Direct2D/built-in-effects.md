@@ -2,7 +2,6 @@
 title: Built-in Effects
 description: Direct2D effects provides this set of built-in effects.
 ms.assetid: A76F6AB8-16E9-45C9-A768-5E4AA072D534
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

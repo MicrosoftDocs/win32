@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 253cde36-2100-4f6b-9b4e-a82ab083aca9
 title: System.Contact.PhoneNumbersCanonical
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

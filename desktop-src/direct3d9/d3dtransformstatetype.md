@@ -2,7 +2,6 @@
 Description: Defines constants that describe transformation state values.
 ms.assetid: 53535d9f-246a-42cf-82a2-fb3cf6d4ebac
 title: D3DTRANSFORMSTATETYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type:

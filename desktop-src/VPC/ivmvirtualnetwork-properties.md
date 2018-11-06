@@ -2,7 +2,6 @@
 title: IVMVirtualNetwork Properties
 description: The IVMVirtualNetwork interface exposes the following properties.
 ms.assetid: 2F45FD7C-6858-4529-B62B-C2EDA3413CC4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

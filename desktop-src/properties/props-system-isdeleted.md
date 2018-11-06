@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 55103a8c-3e3c-4615-8a08-d7aba1a7c692
 title: System.IsDeleted
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

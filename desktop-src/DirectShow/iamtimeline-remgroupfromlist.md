@@ -2,7 +2,6 @@
 Description: Not supported.
 ms.assetid: 9ad5f5ee-2a2a-448b-9da4-2ad8d543eb22
 title: IAMTimeline::RemGroupFromList method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

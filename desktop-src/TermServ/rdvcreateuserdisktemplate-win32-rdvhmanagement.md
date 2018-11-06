@@ -1,9 +1,6 @@
 ---
 title: RdvCreateUserDiskTemplate method of the Win32_RdvhManagement class
 description: Creates a user disk template, with the specified maximum size, at the specified location.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b8ca8b8c-58fd-44fc-9a88-5d7d41ef96a2
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

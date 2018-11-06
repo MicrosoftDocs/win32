@@ -14,7 +14,6 @@ keywords:
 - file I/O,examples
 - input and output (I/O),examples
 - I/O (input and output),examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

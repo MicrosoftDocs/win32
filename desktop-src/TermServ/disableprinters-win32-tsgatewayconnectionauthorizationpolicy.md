@@ -1,9 +1,6 @@
 ---
 title: DisablePrinters method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Sets the PrintersDisabled property. If the DeviceRedirectionType property has a value of \ 0034;2 \ 0034;, the PrintersDisabled property controls redirection of the printers for sessions that are established through the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bf58d226-e3de-4c2b-aaa9-9e7ddbf49d31
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

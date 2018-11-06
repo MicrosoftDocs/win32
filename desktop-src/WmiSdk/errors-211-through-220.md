@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 211 through 220.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: beaa644d-51b3-4a57-8853-0b37f69f615a
 ms.tgt_platform: multiple
 title: Errors 211 through 220
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

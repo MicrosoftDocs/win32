@@ -2,7 +2,6 @@
 Description: The put\_AlphaRamp method specifies the alpha ramp property. The alpha ramp is the percentage by which the alpha values in the original image are adjusted. For example, if the alpha ramp is 0.5, the alpha values in the image are reduced 50%.
 ms.assetid: 19ea5828-54fc-43a1-be7c-f6c12cf84648
 title: IDxtAlphaSetter::put_AlphaRamp method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

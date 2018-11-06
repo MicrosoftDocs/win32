@@ -2,7 +2,6 @@
 title: General Control Reference
 description: This section contains reference information about programming elements that apply to multiple controls, not just to a specific control.
 ms.assetid: c8e72ae9-7c71-465d-9a6b-07e7923d4a13
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

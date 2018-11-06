@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings5 AudioRedirectionMode property
 description: Sets and retrieves the audio redirection mode and different audio redirection options.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c0f5762b-00fd-40bb-ac97-3351b999f38d
 ms.tgt_platform: multiple
 keywords:
@@ -35,7 +32,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

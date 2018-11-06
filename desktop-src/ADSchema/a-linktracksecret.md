@@ -1,9 +1,6 @@
 ---
 title: Link-Track-Secret attribute
 description: This attribute stores a link to a secret key that allows an encrypted file to be translated to plaintext.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e476f4af-71a8-4bd9-a81d-f825bfbf267b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Link-Track-Secret
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

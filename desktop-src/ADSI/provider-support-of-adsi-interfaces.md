@@ -1,9 +1,6 @@
 ---
 title: Provider Support of ADSI Interfaces
 description: The following table lists a brief description of the interfaces supported by the providers included with ADSI for Windows 2000 and DS Client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8eb9a88c-cf18-4fe4-b256-1d6fcaf96c62
 ms.tgt_platform: multiple
 keywords:
@@ -29,7 +26,6 @@ keywords:
 - Provider Support for IADsPathname
 - Provider Support for IADsPrintQueue
 - Provider Support for IADsPrintQueueOperations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

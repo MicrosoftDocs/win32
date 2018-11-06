@@ -2,7 +2,6 @@
 Description: This section contains information about enumerations provided by the Microsoft XAudio2 API.
 ms.assetid: 7b20bda9-dab2-cfbc-125a-cf46e4ede0c8
 title: Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

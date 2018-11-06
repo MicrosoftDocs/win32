@@ -2,7 +2,6 @@
 Description: Contains a list of profiles to be applied at the domain or machine level.
 ms.assetid: b78cb095-a1da-4b1b-91d3-c5085325be05
 title: profileList (WLANPolicy) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

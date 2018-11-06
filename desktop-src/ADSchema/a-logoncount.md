@@ -1,9 +1,6 @@
 ---
 title: Logon-Count attribute
 description: The number of times the account has successfully logged on. A value of 0 indicates that the value is unknown.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8b12bea7-dfc3-46e3-a4a2-92b5f1239b98
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Logon-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -178,7 +174,7 @@ The number of times the account has successfully logged on. A value of 0 indicat
 
 This attribute is not replicated and is maintained on each domain controller in the domain. To get an accurate value for the user's total number of successful logon attempts in the domain, each domain controller in the domain must be queried and the sum of the values should be used. Keep in mind that the attribute is not replicated, therefore domain controllers that are retired may have counted logons for the user as well, and these will be missing from the count.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Due to compatibility with 16-bit versions of LAN Manager, the attribute has an upper limit of 65535. After this limit has been reached, you cannot use it as an indicator of user activity on this domain controller.
 
  

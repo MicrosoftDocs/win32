@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_DeviceAccessedByFile association class specifies the logical device accessed by using the referenced CIM\_DeviceFile class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8ba44f40-8b84-4f5c-b719-aded10877654
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_DeviceAccessedByFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_DeviceAccessedByFile** association class specifies the logical device accessed by using the referenced [**CIM\_DeviceFile**](cim-devicefile.md) class.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

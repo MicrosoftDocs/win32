@@ -2,7 +2,6 @@
 Description: To edit a picture stored in an enhanced metafile, an application must perform the tasks described in the following procedure.
 ms.assetid: 19d9c523-cff8-47e1-bbf2-16d8991dac3b
 title: Editing an Enhanced Metafile
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

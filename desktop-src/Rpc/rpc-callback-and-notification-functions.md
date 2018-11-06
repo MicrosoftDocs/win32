@@ -4,7 +4,6 @@ description: Remote Procedure Call (RPC) navigation page for callback and notifi
 ms.assetid: 63695358-5a34-4446-a896-4f0a25615cff
 keywords:
 - Remote Procedure Call RPC , reference, callback and notification functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

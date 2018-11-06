@@ -1,9 +1,6 @@
 ---
 title: IConnectionBrokerRequest CheckStatus method
 description: Called to determine the status of an asynchronous request.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6B0DDDB2-9905-4B48-8CCB-D6A6591B7723
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Cbclient.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: comm/datamodem/dialout
 ms.assetid: b1cc19d2-4a9f-4d3f-a868-d5928654ad75
 title: comm/datamodem/dialout
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

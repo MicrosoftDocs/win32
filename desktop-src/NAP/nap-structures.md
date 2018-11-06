@@ -2,7 +2,6 @@
 title: NAP Structures
 description: NAP Structures
 ms.assetid: 68048587-0f7e-48d4-9326-768a977ea3ee
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

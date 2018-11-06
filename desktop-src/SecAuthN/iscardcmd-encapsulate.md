@@ -2,7 +2,6 @@
 Description: The Encapsulate method encapsulates the given command application protocol data unit (APDU) into another command APDU for transmission to a smart card.
 ms.assetid: dfffad09-046b-46cb-b6fd-286a4bbf1066
 title: ISCardCmd::Encapsulate method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

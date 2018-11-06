@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable NotifyRedirectDeviceChange method
 description: Notifies the device redirection module of the Remote Desktop ActiveX control that a device change has occurred on the system. This method passes WM\_DEVICECHANGE notifications to the control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 36323831-06e0-4e47-8a6c-06367119298f
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

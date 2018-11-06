@@ -2,7 +2,6 @@
 Description: The Step method advances the DVD-Video stream by the specified number of frames.
 ms.assetid: '6f67335e-51c7-4b81-8ab3-86a3d70ac871'
 title: Step Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Ds-Service attribute
 description: Indicates whether this server provides DS services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 46f3cf87-03aa-45c0-9001-05b6b7905d69
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Ds-Service
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

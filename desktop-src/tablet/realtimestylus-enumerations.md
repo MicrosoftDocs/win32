@@ -2,7 +2,6 @@
 Description: This section contains enumerations belonging to the RealTimeStylus Class.
 ms.assetid: d7df269a-2b08-4bc2-ad7e-9b69d8f2f2a5
 title: RealTimeStylus Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

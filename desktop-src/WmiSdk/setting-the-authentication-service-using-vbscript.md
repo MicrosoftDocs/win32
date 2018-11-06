@@ -1,12 +1,8 @@
 ---
 Description: When accessing a Windows Management Instrumentation (WMI) server with a script, you can choose between NT LAN Manager (NTLM) or Kerberos authentication protocols.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: db2dc750-bfdd-4f6c-859b-e104814f0800
 ms.tgt_platform: multiple
 title: Setting the Authentication Service Using VBScript
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: ms-FVE-KeyPackage attribute
 description: Contains a volume's BitLocker encryption key secured by the corresponding recovery password.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5a8964e0-e128-4ac4-9cc9-67799af8ae55
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-FVE-KeyPackage
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

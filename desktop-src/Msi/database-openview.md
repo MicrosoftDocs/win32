@@ -2,7 +2,6 @@
 Description: The OpenView method of the Database object returns a View object that represents the query specified by a SQL string.
 ms.assetid: 6afb2fdb-0e6a-468f-8faf-e48d8d1960b6
 title: Database.OpenView method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

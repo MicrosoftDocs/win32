@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnAutoReconnecting2 method
 description: Called when a client is in the process of automatically reconnecting a session with a Remote Desktop Session Host (RD Session Host) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 20F69798-5397-440C-9D0D-45AE417623A7
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

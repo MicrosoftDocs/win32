@@ -2,7 +2,6 @@
 Description: Windows provides APIs and components that support graphics, gaming, and imaging.
 ms.assetid: 516c969c-9f31-4f00-ac8c-140fdded72e1
 title: Graphics and Gaming
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

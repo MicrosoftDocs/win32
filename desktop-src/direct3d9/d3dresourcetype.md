@@ -2,7 +2,6 @@
 Description: Defines resource types.
 ms.assetid: 6b360fb1-4a5a-47a2-bef9-d8234770bf0c
 title: D3DRESOURCETYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type:

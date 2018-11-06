@@ -2,7 +2,6 @@
 Description: Decoder Volume Control
 ms.assetid: 94d68722-a0c2-47a7-a0a0-ae315f8f31ed
 title: Decoder Volume Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

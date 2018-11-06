@@ -2,7 +2,6 @@
 Description: This topic describes how to set a stop time for playback when using the Media Session.
 ms.assetid: B8BA2154-2824-4573-AE71-853EB8AB911D
 title: How to Set the Playback Stop Time
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -70,7 +69,7 @@ HRESULT SetMediaStop(IMFTopology *pTopology, const LONGLONG& stop)
 
 There is a way to set the stop time after the [Media Session](media-session.md) starts playback, by using the [**IMFTopologyNodeAttributeEditor**](/windows/desktop/api/mfidl/nn-mfidl-imftopologynodeattributeeditor) interface.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This interface has a serious limitation, because the stop time is specified as a 32-bit value. That means the maximum stop time that you can set using this interface is 0xFFFFFFFF, or just over 7 minutes. This limitation is due to an incorrect structure definition.
 
  

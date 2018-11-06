@@ -2,7 +2,6 @@
 Description: The current civic address report event interval in milliseconds.
 ms.assetid: 495dd8a1-4244-468f-b295-337b393aea8a
 title: LocationDisp.CivicAddressReportFactory.ReportInterval property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

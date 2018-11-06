@@ -1,9 +1,6 @@
 ---
 title: Cross-Certificate-Pair attribute
 description: V3 Cross Certificate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a6a2df06-4792-4874-a507-80c42b0606ec
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Cross-Certificate-Pair
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

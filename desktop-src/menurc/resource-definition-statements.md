@@ -5,7 +5,6 @@ ms.assetid: f96b8c1e-8188-40b7-8eda-c13b61b8fc41
 keywords:
 - resource compiler,resource-definition statements
 - TEXTINCLUDE resource
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

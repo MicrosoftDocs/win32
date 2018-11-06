@@ -1,9 +1,6 @@
 ---
 title: Server-State attribute
 description: Indicates whether the server is enabled or disabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e062cbcf-c845-4dfd-9e9b-e21079276a3c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Server-State
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

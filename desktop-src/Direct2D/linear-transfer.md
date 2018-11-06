@@ -4,7 +4,6 @@ description: Use the linear transfer effect to map the color intensities of an i
 ms.assetid: 22DC496E-2958-4726-A74D-B3DE934F507C
 keywords:
 - linear transfer effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

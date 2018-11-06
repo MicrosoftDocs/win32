@@ -2,7 +2,6 @@
 Description: The Mobile Broadband API defines and uses the following enumeration types.
 ms.assetid: 2d6b8d5a-952e-48d9-a414-1ebb468248d0
 title: Mobile Broadband API Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

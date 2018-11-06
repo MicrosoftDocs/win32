@@ -2,7 +2,6 @@
 Description: Constructors exposed by XMUDEC4.
 ms.assetid: 31604fd5-d947-4bf3-93db-fd2c7dd9529b
 title: XMUDEC4 constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

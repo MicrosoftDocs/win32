@@ -2,7 +2,6 @@
 Description: Overview of the COM Library and notes on using Tablet PC Technology sections of the Windows Vista SDK.
 ms.assetid: fa43fad9-804c-42d9-9717-6686d5f98ed8
 title: Using the COM Library
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

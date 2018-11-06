@@ -1,14 +1,10 @@
 ---
 title: Choosing a Syntax
 description: This topic contains a list of recommended syntaxes to use when defining a new attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ed8a4164-5c82-43c2-8efb-a735c963a884
 ms.tgt_platform: multiple
 keywords:
 - Active Directory, syntaxes, defined
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

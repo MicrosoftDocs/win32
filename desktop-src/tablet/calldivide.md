@@ -2,7 +2,6 @@
 Description: Retrieves analysis information from the InkDivider object.
 ms.assetid: 1b073da4-80f4-48f4-8ff6-b21793c173a8
 title: CallDivide function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

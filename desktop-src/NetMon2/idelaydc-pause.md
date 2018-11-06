@@ -2,7 +2,6 @@
 Description: The Pause method pauses the current capture.
 ms.assetid: 9d5e11d1-8c45-4cf5-9fea-10c9e7a6fe86
 title: IDelaydC::Pause method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

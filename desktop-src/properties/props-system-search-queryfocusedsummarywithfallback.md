@@ -2,7 +2,6 @@
 Description: The query-focused summary of the document. If none is available, the AutoSummary is returned.
 ms.assetid: 871a7b99-bb3c-4daf-bbe0-0d9e6b02f0a1
 title: System.Search.QueryFocusedSummaryWithFallback
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

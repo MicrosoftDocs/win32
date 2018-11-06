@@ -1,12 +1,8 @@
 ---
 title: Auth-Provider-Type
 description: The type of authentication provider to use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f5c42127-2c9e-4097-81ce-d7b885f676c1
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

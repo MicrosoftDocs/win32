@@ -1,9 +1,6 @@
 ---
 title: Logoff method of the Win32_VirtualDesktopSession class
 description: Logs off the user from the virtual desktop session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a9c90ace-324c-4eec-86e1-30ce35307e52
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

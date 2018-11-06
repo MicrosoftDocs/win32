@@ -2,7 +2,6 @@
 Description: Primitives that have no textures are rendered with the color specified by their material, or with the colors specified for the vertices, if any.
 ms.assetid: 8a7ed4b1-25a1-4984-baea-6e176f0545ea
 title: Outline and Fill State (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

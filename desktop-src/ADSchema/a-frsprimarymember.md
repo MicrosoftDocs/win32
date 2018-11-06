@@ -1,9 +1,6 @@
 ---
 title: FRS-Primary-Member attribute
 description: Reference to the primary member of a replica set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a6b8017d-6700-43f3-a170-f4d56009c8f7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Primary-Member
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

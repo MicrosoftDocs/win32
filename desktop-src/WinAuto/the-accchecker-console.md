@@ -6,7 +6,6 @@ keywords:
 - AccChecker Console
 - AccChecker command-line tool
 - command-line, AccChecker
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

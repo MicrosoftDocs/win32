@@ -2,7 +2,6 @@
 Description: The following properties are defined by the IOCSPCAConfigurationCollection interface.
 ms.assetid: d2605d05-0004-4b60-8998-b2ba021e7a69
 title: Properties of IOCSPCAConfigurationCollection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

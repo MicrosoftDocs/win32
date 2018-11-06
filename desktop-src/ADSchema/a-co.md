@@ -1,9 +1,6 @@
 ---
 title: Text-Country attribute
 description: The country/region in which the user is located.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6024de35-9ab5-4e03-97dc-0ebf830e5754
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Text-Country
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

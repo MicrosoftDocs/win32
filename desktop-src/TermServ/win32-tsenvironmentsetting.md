@@ -1,9 +1,6 @@
 ---
 title: Win32_TSEnvironmentSetting class
 description: Defines the configuration settings for the Win32\_Terminal class including initial program policy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2d310a1e-a1bd-4ccb-965e-8389aaa2e4c1
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

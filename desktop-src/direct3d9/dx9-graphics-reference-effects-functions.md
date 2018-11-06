@@ -2,7 +2,6 @@
 Description: There are several functions that help create and compile effects.
 ms.assetid: 8aa68b19-d248-448a-9364-42913253c55f
 title: Effect Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

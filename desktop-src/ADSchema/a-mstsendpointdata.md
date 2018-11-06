@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Endpoint-Data attribute
 description: This attribute represents the VM Name for a computer in a TSV deployment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 633ab8b6-74e2-43a3-9e7d-bf3c6b88e8b8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Endpoint-Data
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

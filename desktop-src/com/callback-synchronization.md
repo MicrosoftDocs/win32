@@ -2,7 +2,6 @@
 title: Callback Synchronization
 description: Callback Synchronization
 ms.assetid: e8268f18-49e7-4e09-9006-77858b734bf4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

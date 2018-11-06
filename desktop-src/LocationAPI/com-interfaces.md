@@ -2,7 +2,6 @@
 Description: The Location API provides the following COM interfaces.
 ms.assetid: f49f886b-971a-469d-a3fb-057f88d8ae43
 title: COM Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

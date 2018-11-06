@@ -2,7 +2,6 @@
 Description: A ControlEvent specifies an action to be taken by the installer or a change in the attributes of one or more controls in a dialog box. For more information about ControlEvents, see ControlEvent Overview.
 ms.assetid: 8768acaa-884b-428f-a14e-3f39f8ea4ad5
 title: Control Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: dcl_constantBuffer (sm4 - asm)
 description: dcl\_constantBuffer (sm4 - asm)
 ms.assetid: 164fb2a4-8782-42f0-b4ba-1f87d9c7255d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

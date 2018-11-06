@@ -2,7 +2,6 @@
 Description: Get rotation information for a specific key frame in the animation set.
 ms.assetid: d62b8d5e-328e-4227-b2e8-cb6e5ccc4b3f
 title: ID3DXKeyframedAnimationSet::GetRotationKey method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

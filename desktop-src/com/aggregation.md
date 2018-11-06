@@ -2,7 +2,6 @@
 title: Aggregation
 description: Aggregation is the object reuse mechanism in which the outer object exposes interfaces from the inner object as if they were implemented on the outer object itself.
 ms.assetid: 6845b114-8f43-47ad-acdf-b63d6008d221
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

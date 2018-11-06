@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PhysicalComponent class represents a low-level or basic component within a package. A physical element that is not a link, connector, or package is a descendant (or member) of this class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 079874cd-5717-4662-a192-0ced16270bbd
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PhysicalComponent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -44,7 +38,7 @@ api_location:
 
 The **CIM\_PhysicalComponent** class represents a low-level or basic component within a package. A physical element that is not a link, connector, or package is a descendant (or member) of this class. For example, the UART chipset on an internal modem card would be a subclass (if additional properties or associations are defined) or an instance of **CIM\_PhysicalComponent**.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

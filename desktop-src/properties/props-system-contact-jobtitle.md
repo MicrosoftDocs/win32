@@ -2,7 +2,6 @@
 Description: Job title of the contact.
 ms.assetid: 8fb33e53-f8cb-46d6-a480-447cce7ea95e
 title: System.Contact.JobTitle
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

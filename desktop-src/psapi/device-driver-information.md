@@ -2,7 +2,6 @@
 title: Device Driver Information
 description: Device drivers and modules are similar in that they are both based on PE files.
 ms.assetid: 4f4ec15b-5592-4fe3-b754-fda25ab24159
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

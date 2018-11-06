@@ -2,7 +2,6 @@
 Description: Video Samples
 ms.assetid: 1ee2ad6f-5e84-45ba-9849-cd3bd8e7eb29
 title: Video Samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

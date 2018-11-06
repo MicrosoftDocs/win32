@@ -7,7 +7,6 @@ keywords:
 - Windows Touch,interface methods
 - manipulations,IManipulationProcessor interface
 - IManipulationProcessor interface,methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

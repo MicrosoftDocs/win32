@@ -2,7 +2,6 @@
 Description: Retrieves the IContextNode object for a specified globally unique identifier (GUID).
 ms.assetid: b8340666-98ab-4d8c-93c7-58ed05ef30d2
 title: IInkAnalyzer::FindNode method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

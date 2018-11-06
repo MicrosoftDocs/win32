@@ -4,7 +4,6 @@ description: Application program source files include the Http.h header file to 
 ms.assetid: 89dc2fbd-c7c9-4e60-b0e9-64b198500cc0
 keywords:
 - Using HTTP Server API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

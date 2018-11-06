@@ -1,9 +1,6 @@
 ---
 title: IADsPrintJob Property Methods
 description: Property methods for the IADsPrintJob interface get or set the properties described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 23e7cbf3-09ce-44ce-b618-2c0fa6b34428
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

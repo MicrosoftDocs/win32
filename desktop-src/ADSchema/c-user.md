@@ -1,9 +1,6 @@
 ---
 title: User class
 description: This class is used to store information about an employee or contractor who works for an organization. It is also possible to apply this class to long term visitors.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e24ea108-131e-4b49-958b-fadeed2328cb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

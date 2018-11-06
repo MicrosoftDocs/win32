@@ -2,7 +2,6 @@
 Description: This section explains how to perform the following tasks associated with window procedures.
 ms.assetid: acc68991-4689-44dc-8547-a7b6153b0f62
 title: Using Window Procedures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

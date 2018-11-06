@@ -2,7 +2,6 @@
 title: Bluetooth and WSAAddressToString
 description: The WSAAddressToString Windows Sockets function is used to convert a Bluetooth Device Address to a string, which is in turn provided to the WSALookupServiceBegin function via the WSAQUERYSET structure when retrieving device service information.
 ms.assetid: 3489d29a-2b64-4051-b579-57878efc0c73
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

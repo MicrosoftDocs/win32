@@ -1,12 +1,8 @@
 ---
 Description: The Scripting API for WMI contains flags, common values, and error codes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: feaab757-3167-420b-8f42-edced4cd4c53
 ms.tgt_platform: multiple
 title: Scripting API Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

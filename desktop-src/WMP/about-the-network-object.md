@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,Network object
 - Windows Media Player Mobile,Network object
 - Network object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

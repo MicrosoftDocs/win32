@@ -2,7 +2,6 @@
 title: Header Control (MSAA UI Element Reference)
 description: A header control displays headings at the top of columns of information and lets the user sort the information by clicking the headings. Windows Explorer uses a header control when the Details view is selected.
 ms.assetid: 669d6bb8-7bc4-4e6f-bf4f-207887f44b83
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

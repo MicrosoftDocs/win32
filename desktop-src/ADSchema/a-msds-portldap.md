@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Port-LDAP attribute
 description: Specifies which port is used by the directory service to listen for LDAP requests.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bed80aeb-3fc2-4065-92df-1f387982848e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Port-LDAP
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

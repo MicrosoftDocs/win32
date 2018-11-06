@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_MemoryArray WMI class represents the properties of the computer system memory array and mapped addresses.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 56ff6960-cde3-4e34-b4df-d2993bafaa62
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_MemoryArray class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

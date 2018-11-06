@@ -2,7 +2,6 @@
 title: General Guidelines
 description: General Guidelines
 ms.assetid: 34801488-debb-4327-8ee6-1e4b350f21ab
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The port where the printer is located.
 ms.assetid: 3FC1E36D-A03F-44ef-AD49-EE2F51703DBB
 title: System.DeviceInterface.PrinterPortName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

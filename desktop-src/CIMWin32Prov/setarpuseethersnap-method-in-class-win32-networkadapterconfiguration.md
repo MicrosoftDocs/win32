@@ -1,14 +1,8 @@
 ---
 Description: The SetArpUseEtherSNAP WMI class static method is used to enable ethernet packets to use 802.3 SNAP encoding.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 437954c0-ea6b-4559-a4cb-1f66630e70fe
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetArpUseEtherSNAP method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

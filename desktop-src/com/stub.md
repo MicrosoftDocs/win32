@@ -2,7 +2,6 @@
 title: Stub
 description: The stub, like the proxy, is made up of one or more interface pieces and a manager.
 ms.assetid: 'ed7d5546-2d19-4055-b078-62b39d0317b7'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

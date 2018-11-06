@@ -2,7 +2,6 @@
 Description: The denominator of PKEY\_GPS\_Speed.
 ms.assetid: cbe5b6cd-db27-47f0-9458-d2ed9a7aa882
 title: System.GPS.SpeedDenominator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

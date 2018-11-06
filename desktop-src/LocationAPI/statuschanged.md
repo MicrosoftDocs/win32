@@ -2,7 +2,6 @@
 Description: Occurs when the operational status of a report changes.
 ms.assetid: f0c4e678-1666-4f99-89de-85879eacd0ac
 title: StatusChanged event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

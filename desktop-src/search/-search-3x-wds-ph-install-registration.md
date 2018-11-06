@@ -2,7 +2,6 @@
 Description: Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry.
 ms.assetid: 07c40c0c-2729-462c-ba40-e05ffea2b889
 title: Installing and Registering Protocol Handlers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -127,7 +126,7 @@ Returning [PKEY\_Search\_UrlToIndexWithModificationTime](http://msdn.microsoft.c
 
 The following example code demonstrates how to return the [PKEY\_Search\_UrlToIndexWithModificationTime](http://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) property.
 
-> \[!Important\]**THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.**
+> [!IMPORTANT]
 >
 > Copyright (c) Microsoft Corporation. All rights reserved.
 

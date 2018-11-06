@@ -2,7 +2,6 @@
 Description: Rendezvous conferencing consists of three basic sets of interfaces.
 ms.assetid: c5b752c5-4113-41e3-85f7-6a19fa0c7c80
 title: Using Rendezvous IP Telephony Conferencing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

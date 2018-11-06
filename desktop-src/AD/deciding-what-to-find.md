@@ -1,15 +1,11 @@
 ---
 title: Deciding What to Find
 description: Before you search a directory, consider how your search will perform based on your approach. The data and properties to be returned affect where you bind to start a search, the depth of your search, your query filter, and search performance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 788fa12c-9086-4d8b-bd2e-e96a494a26ad
 ms.tgt_platform: multiple
 keywords:
 - search criteria Active Directory
 - deciding what to find Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

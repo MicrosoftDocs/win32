@@ -1,9 +1,6 @@
 ---
 title: LDAP Syntax Object
 description: The LDAP provider uses the following mapping between the LDAP syntax and ADSI syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a82cf8ab-9591-4489-87a6-ccfab0e01d61
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - mapping ADSI syntax to LDAP syntax ADSI
 - syntax and mapping from ADSI to LDAP ADSI
 - LDAP service provider ADSI ,mapping ADSI syntax to LDAP syntax
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: A coordinate space is a planar space based on the Cartesian coordinate system.
 ms.assetid: 1a232030-8561-4b57-b274-dca0a8b3e3a1
 title: Transformation of Coordinate Spaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

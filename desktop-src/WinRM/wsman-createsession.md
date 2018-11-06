@@ -1,9 +1,6 @@
 ---
 title: WSMan.CreateSession method
 description: Creates a Session object that can then be used for subsequent network operations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 299d9a95-bd30-414c-996d-6633e8b7ce52
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

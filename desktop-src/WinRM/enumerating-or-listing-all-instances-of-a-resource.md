@@ -1,12 +1,8 @@
 ---
 title: Enumerating or Listing All Instances of a Resource
 description: The Session.Enumerate method is the Windows Remote Management approach to obtaining all the instances of a specified resource.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c50c37bf-e19a-473b-8d27-ab3bb4ec86a0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

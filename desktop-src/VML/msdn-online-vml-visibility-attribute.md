@@ -2,7 +2,6 @@
 title: VML Visibility Attribute
 description: VML Visibility Attribute
 ms.assetid: 1a15335b-e7e9-4bf1-9c0c-8d2e4704f256
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

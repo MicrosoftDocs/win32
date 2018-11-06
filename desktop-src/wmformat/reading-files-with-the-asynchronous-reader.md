@@ -12,7 +12,6 @@ keywords:
 - asynchronous readers,IWMReaderCallback interface
 - IWMReaderCallback,asynchronous readers
 - asynchronous readers,reading files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

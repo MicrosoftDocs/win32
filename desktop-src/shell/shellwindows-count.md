@@ -2,7 +2,6 @@
 Description: Contains the number of items in the collection.
 ms.assetid: 0113cc32-2197-4004-99a1-89fe10828e5f
 title: ShellWindows.Count property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

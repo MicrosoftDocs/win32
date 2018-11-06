@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings HotKeyCtrlAltDel property
 description: Specifies the virtual-key code to add to CTRL+ALT to determine the hotkey replacement for CTRL+ALT+DELETE, also called the secure attention sequence (SAS).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bce55cdb-4444-4291-b443-9bc1b3743e23
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

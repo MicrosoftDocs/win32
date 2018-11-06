@@ -1,9 +1,6 @@
 ---
 title: FRS-Replica-Set-GUID attribute
 description: GUID that identifies an FRS Replica Set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c916e10a-bf4e-4dbd-8a22-4a88f3933af0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Replica-Set-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Person class
 description: Contains personal information about a user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 899726f5-d839-4c2a-a017-70d403ced9ce
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Person
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

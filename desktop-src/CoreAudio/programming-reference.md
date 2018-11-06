@@ -2,7 +2,6 @@
 Description: Programming Reference
 ms.assetid: 80a0df34-5f67-4f61-b9c7-a586d1870765
 title: Programming Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

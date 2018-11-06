@@ -1,9 +1,6 @@
 ---
 title: msRADIUSFramedRoute attribute
 description: The msRADIUSFramedRoute attribute is used internally.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: af7a60fc-2c04-4e29-af78-3fc2b0e0f8ef
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msRADIUSFramedRoute
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

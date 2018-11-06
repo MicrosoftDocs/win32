@@ -2,7 +2,6 @@
 Description: This section shows you how to use higher-order primitives in your application.
 ms.assetid: 7aa4f3ab-cfce-4f8f-a538-384f038fd324
 title: Using Higher-Order Primitives (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ConnectionSettings method of the Win32_TSClientSetting class
 description: The ConnectionSettings method sets the session settings that apply to the connection and logon process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 603807fe-f341-4358-a3b0-0300785cbdb1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

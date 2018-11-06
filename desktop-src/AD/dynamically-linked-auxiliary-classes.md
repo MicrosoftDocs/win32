@@ -1,14 +1,10 @@
 ---
 title: Dynamically Linked Auxiliary Classes
 description: A dynamically linked auxiliary class is a class that is attached to an individual object, rather than to an object class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 10530a3c-89fc-4ff0-a0b7-1c9a27659003
 ms.tgt_platform: multiple
 keywords:
 - Dynamically Linked Auxiliary Classes AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

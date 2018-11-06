@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Resource-Property-List class
 description: An object of this class contains a list of resource properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e1777452-073f-4a7d-b593-fbb1c50d2421
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Resource-Property-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Timeline
 ms.assetid: a3b8bff2-8593-483c-af49-a975ab2dc330
 title: The Timeline
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

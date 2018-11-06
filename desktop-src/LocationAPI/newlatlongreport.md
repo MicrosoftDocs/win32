@@ -2,7 +2,6 @@
 Description: Occurs when a new latitude/longitude report is generated.
 ms.assetid: 2b1a25a1-ccd6-43f8-979b-c2d414d666a2
 title: NewLatLongReport event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

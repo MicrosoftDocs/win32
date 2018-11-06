@@ -2,7 +2,6 @@
 Description: This section describes the IMM enumerations.
 ms.assetid: D2DCD010-F562-4111-9B9F-EF04ACA50D1E
 title: Input Method Manager Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

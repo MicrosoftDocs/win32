@@ -2,7 +2,6 @@
 Description: The BuildINIPath function returns a fully qualified path to an INI file that corresponds to information you enter.
 ms.assetid: 214ce89c-8bb2-4e1a-872a-026743a3e3a6
 title: BuildINIPath function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

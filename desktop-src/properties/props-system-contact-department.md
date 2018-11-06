@@ -2,7 +2,6 @@
 Description: Department name of the contact.
 ms.assetid: 84b22284-553e-4144-80af-d5cdfdc77e9e
 title: System.Contact.Department
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

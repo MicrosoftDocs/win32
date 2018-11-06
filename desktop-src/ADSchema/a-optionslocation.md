@@ -1,9 +1,6 @@
 ---
 title: Options-Location attribute
 description: For DHCP, the options location contains the DN for alternate sites that contain the options information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2b357733-620f-4ad7-ba69-209095e98aa6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Options-Location
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Windows Portable Devices supports the following miscellaneous properties.
 ms.assetid: 0f2a5684-a94f-4a51-8f72-527204e4ebfa
 title: Miscellaneous Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

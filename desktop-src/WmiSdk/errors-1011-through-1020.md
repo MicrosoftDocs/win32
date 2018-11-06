@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 1011 through 1020.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5151a110-1532-48cc-832a-2cee21853b6b
 ms.tgt_platform: multiple
 title: Errors 1011 through 1020
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

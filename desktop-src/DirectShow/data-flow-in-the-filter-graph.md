@@ -2,7 +2,6 @@
 Description: Data Flow in the Filter Graph
 ms.assetid: 3fcfd874-39bc-42d2-9fc9-2d8945ffa8e3
 title: Data Flow in the Filter Graph
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

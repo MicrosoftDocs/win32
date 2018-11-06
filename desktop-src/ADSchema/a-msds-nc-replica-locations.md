@@ -1,9 +1,6 @@
 ---
 title: ms-DS-NC-Replica-Locations attribute
 description: A list of servers that are the replica set for the corresponding Non-Domain Naming Context.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b0379bb6-feee-432a-b484-1a6c8100d027
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-NC-Replica-Locations
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

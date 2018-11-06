@@ -1,9 +1,6 @@
 ---
 title: Force-Logoff attribute
 description: Used in computing the kick off time in SamIGetAccountRestrictions. Logoff time minus Force Log off equals kick off time.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2ce1d5db-52aa-49c5-aef2-ec67122100ed
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Force-Logoff
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

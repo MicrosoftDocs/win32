@@ -2,7 +2,6 @@
 Description: NtGdiDdDeleteSurfaceObject deletes a previously created kernel-mode surface object.
 ms.assetid: 95ce6c73-7e41-4ac3-b849-9b8f53aa3ac3
 title: NtGdiDdDeleteSurfaceObject function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

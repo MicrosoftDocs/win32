@@ -10,7 +10,6 @@ keywords:
 - ICDrawStop macro
 - ICDrawFlush macro
 - ICDrawEnd macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

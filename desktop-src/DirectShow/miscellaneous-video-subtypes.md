@@ -2,7 +2,6 @@
 Description: The following table lists some additional video subtypes.
 ms.assetid: d635de18-5b7d-4fd3-9bf0-042d840ffc88
 title: Miscellaneous Video Subtypes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

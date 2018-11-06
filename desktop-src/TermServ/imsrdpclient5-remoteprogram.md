@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient5 RemoteProgram property
 description: Retrieves an object that supports the ITSRemoteProgram interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 013f613b-af7b-4cc5-be1f-d45833806e3b
 ms.tgt_platform: multiple
 keywords:
@@ -39,7 +36,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

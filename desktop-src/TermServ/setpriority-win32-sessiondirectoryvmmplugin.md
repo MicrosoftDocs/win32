@@ -1,9 +1,6 @@
 ---
 title: SetPriority method of the Win32_SessionDirectoryVMMPlugin class
 description: Sets the priority of the plug-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ddcf30cd-b87c-4869-80fc-ec92092e0df3
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

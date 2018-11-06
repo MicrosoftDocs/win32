@@ -2,7 +2,6 @@
 Description: A FVF code describes the contents of vertices stored interleaved in a single data stream.
 ms.assetid: 1a616f42-ec24-44ab-872f-7ea43646dd00
 title: Fixed Function FVF Codes (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Renames the directory entry file specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8bfe1b69-5f93-4408-a742-f03a9cb16bfe
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Rename method of the Win32_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

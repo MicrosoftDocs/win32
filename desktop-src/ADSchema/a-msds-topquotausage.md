@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Top-Quota-Usage attribute
 description: The list of top quota users currently in the directory database, ordered by decreasing quota usage.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c52db8c8-233c-495f-b3fe-edbe1d723677
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Top-Quota-Usage
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

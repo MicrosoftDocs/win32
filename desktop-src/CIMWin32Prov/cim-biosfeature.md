@@ -1,14 +1,8 @@
 ---
 Description: Represents the capabilities of the low-level software that is used to start and configure a computer system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 54d03539-d908-4571-b8fd-934b972e8d84
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_BIOSFeature class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -37,7 +31,7 @@ api_location:
 
 The **CIM\_BIOSFeature** class represents the capabilities of the low-level software that is used to start and configure a computer system.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

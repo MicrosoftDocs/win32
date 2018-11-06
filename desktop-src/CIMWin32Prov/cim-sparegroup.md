@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_SpareGroup class is derived from the CIM\_RedundancyGroup class and indicates that one or more of the aggregated elements can be spared.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e60f8cab-a9e8-4f5a-b8d7-833c7832ef7e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_SpareGroup class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -33,7 +27,7 @@ api_location:
 
 The **CIM\_SpareGroup** class is derived from the [**CIM\_RedundancyGroup**](cim-redundancygroup.md) class and indicates that one or more of the aggregated elements can be spared. Spares are defined using the [**CIM\_ActsAsSpare**](cim-actsasspare.md) association. An example of a spare is the use of redundant NICs in a computer system, where one NIC is primary and the other is spare. The primary NIC would be a member of the spare group, associated using the [**CIM\_RedundancyComponent**](cim-redundancycomponent.md) class, and the other NIC would be associated using the **CIM\_ActsAsSpare** relationship.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -1,9 +1,6 @@
 ---
 title: MS-DS-Per-User-Trust-Tombstones-Quota attribute
 description: Used to enforce a per-user quota for deleting Trusted-Domain objects when authorization is based on matching the user's SID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4db98754-a2d1-43a4-b9cb-0e3fcbbf3ed9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-DS-Per-User-Trust-Tombstones-Quota
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

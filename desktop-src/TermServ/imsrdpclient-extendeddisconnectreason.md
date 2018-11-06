@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient ExtendedDisconnectReason property
 description: Contains extended information about the control's reason for disconnection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5729992f-6695-44c0-8cf0-0d6b4cbddb62
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

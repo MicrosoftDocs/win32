@@ -1,12 +1,8 @@
 ---
 Description: WMI provides a standardized system management infrastructure that can be leveraged by a number of different clients.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7aa0ead7-010c-4ad2-b6ba-0ef84263d5c6
 ms.tgt_platform: multiple
 title: Creating WMI Clients
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

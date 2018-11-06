@@ -1,9 +1,6 @@
 ---
 title: ipNetworkNumber attribute
 description: Contains an IP network number in dotted decimal notation, omitting the leading zeros.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3811a025-40a3-4b8a-82e1-7556644effec
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ipNetworkNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

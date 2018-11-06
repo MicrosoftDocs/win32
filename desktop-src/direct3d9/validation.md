@@ -2,7 +2,6 @@
 Description: Validation is performed during the effect compile. To validate the current technique, specify NULL as the technique handle to be validated.
 ms.assetid: d1268f68-2893-4d7f-acd2-484346a20193
 title: Validation (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

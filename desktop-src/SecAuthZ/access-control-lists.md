@@ -2,7 +2,6 @@
 Description: An access control list (ACL) is a list of access control entries (ACE).
 ms.assetid: c9aff246-fe11-4d82-b944-b10c3d9ae170
 title: Access Control Lists
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-OID-CPS attribute
 description: The CPS (Certificate Policy Statement) for the enterprise issuer policy OID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 94c5115e-a8d2-49d1-9fd2-f362e95550dc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-OID-CPS
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,14 +2,13 @@
 Description: Important  Deprecated.
 ms.assetid: bb71e792-d09c-4338-9cf4-4854e14042f9
 title: MFPlayer2 Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # MFPlayer2 Sample
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Deprecated. This API may be removed from future releases of Windows. Applications should use the [Media Session](media-session.md) for playback.
 
  

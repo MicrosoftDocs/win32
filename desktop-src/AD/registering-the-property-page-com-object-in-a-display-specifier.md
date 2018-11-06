@@ -1,16 +1,12 @@
 ---
 title: Registering the Property Page COM Object in a Display Specifier
 description: This topic shows how to register an extension DLL that contains an Active Directory property sheet with the Windows registry and Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e2d6142b-c2fe-4435-b4af-83f7cd45218b
 ms.tgt_platform: multiple
 keywords:
 - Registering the Property Page COM Object in a Display Specifier Active Directory
 - property page COM object Active Directory , registering in a display specifier
 - display specifiers Active Directory , registering the property page COM object in
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -109,7 +105,7 @@ The following code example is an example value that can be used for the [**admin
 
 
 
-> \[!Important\]  
+> [!IMPORTANT]
 > For the Windows shell, display specifier data is retrieved at user logon, and cached for the user session. For administrative snap-ins, the display specifier data is retrieved when the snap-in is loaded, and is cached for the lifetime of the process. For the Windows shell, this indicates that changes to display specifiers take effect after a user logs off and then logs on again. For the administrative snap-ins, changes take effect when the snap-in or console file is loaded.
 
  

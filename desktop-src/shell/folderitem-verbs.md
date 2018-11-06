@@ -2,7 +2,6 @@
 Description: Retrieves the item's FolderItemVerbs object. This object is the collection of verbs that can be executed on the item.
 ms.assetid: e31160cd-093a-45a6-a066-58120c44eb2c
 title: FolderItem.Verbs method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

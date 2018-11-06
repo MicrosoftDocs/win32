@@ -2,7 +2,6 @@
 Description: Initializes a string table.
 ms.assetid: 1a626243-b4ad-4e3d-a933-b81b75cae399
 title: pSetupStringTableInitialize function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

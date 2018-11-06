@@ -1,9 +1,6 @@
 ---
 title: Schema-ID-GUID attribute
 description: The unique identifier for an attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 50f0a4b6-dded-42db-9ac5-123f2885c658
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Schema-ID-GUID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

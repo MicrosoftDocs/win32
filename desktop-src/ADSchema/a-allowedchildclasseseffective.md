@@ -1,9 +1,6 @@
 ---
 title: Allowed-Child-Classes-Effective attribute
 description: A list of classes that can be modified.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7c30918-3aac-4c08-bd98-60ddc704769f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Allowed-Child-Classes-Effective
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

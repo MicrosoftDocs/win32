@@ -2,7 +2,6 @@
 Description: The GetStopPosition method retrieves the time when playback will stop, relative to the duration of the stream. This method implements the IMediaSeeking::GetStopPosition method.
 ms.assetid: 83928f62-7acc-43b9-9537-49131ed0b0d4
 title: CSourceSeeking.GetStopPosition method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

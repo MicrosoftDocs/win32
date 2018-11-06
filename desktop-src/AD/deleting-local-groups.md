@@ -1,14 +1,10 @@
 ---
 title: Deleting Local Groups
 description: This topic shows how to delete a local group from a member server or computer running on Windows 2000 Professional.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 030da25a-a606-4521-a243-d902c772fd00
 ms.tgt_platform: multiple
 keywords:
 - Deleting Local Groups AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

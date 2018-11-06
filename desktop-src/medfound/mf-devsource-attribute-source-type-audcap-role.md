@@ -2,7 +2,6 @@
 Description: Specifies the device role for an audio capture device.
 ms.assetid: 4f2885b6-c771-4577-880d-5feea671432e
 title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

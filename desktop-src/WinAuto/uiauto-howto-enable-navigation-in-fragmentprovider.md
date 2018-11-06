@@ -2,7 +2,6 @@
 title: How to Enable Navigation in a UI Automation Fragment Provider
 description: This topic contains example code that shows how to enable navigation in a Microsoft UI Automation provider for an element in a fragment.
 ms.assetid: 8c390e19-3c17-4e02-ade8-cd5c1ed9E938
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

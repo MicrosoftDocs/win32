@@ -1,14 +1,8 @@
 ---
 Description: Schedules Autochk to be run on the disk drive represented by the Win32\_LogicalDisk at the next reboot if the dirty bit is set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 34f4c26b-6bfb-45d9-9d6c-0a9b735355f3
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ScheduleAutoChk method of the Win32_LogicalDisk class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

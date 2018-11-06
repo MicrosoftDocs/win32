@@ -2,7 +2,6 @@
 Description: Ends the task completion.
 ms.assetid: C64C57E3-593C-47AE-A005-F468E7C588EF
 title: TaskCompletionClient::RevokeTaskCompletion method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

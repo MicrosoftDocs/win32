@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: c10da176-946a-4439-8ad7-037013b39e41
 title: DocumentBannerSheet
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

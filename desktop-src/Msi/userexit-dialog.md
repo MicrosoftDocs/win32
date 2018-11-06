@@ -2,7 +2,6 @@
 Description: This modal dialog box displays at the end of an installation that was ended by the user.
 ms.assetid: a0c2106d-62d7-48db-890a-7fe836aeb574
 title: UserExit Dialog
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

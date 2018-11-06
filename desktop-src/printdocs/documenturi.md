@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 7926ae9b-e195-4391-9006-1eb4cf386f88
 title: DocumentURI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

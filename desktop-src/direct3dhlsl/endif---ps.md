@@ -2,7 +2,6 @@
 title: endif - ps
 description: Marks the end of an if...else block.
 ms.assetid: 3e20e86b-d050-45f5-8180-8c2ea81c60ba
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

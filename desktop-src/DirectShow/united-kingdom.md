@@ -2,7 +2,6 @@
 Description: United Kingdom
 ms.assetid: c969b9c6-3068-43ae-9c1d-d606df2a1d0b
 title: United Kingdom
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

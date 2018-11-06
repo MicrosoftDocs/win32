@@ -2,7 +2,6 @@
 Description: 'There are two types of links supported in the NTFS file system: hard links and junctions.'
 ms.assetid: 548acfe5-c9e1-4227-ba20-674e071f121f
 title: File and Directory Linking
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

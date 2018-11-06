@@ -8,7 +8,6 @@ keywords:
 - user interface plug-ins,OnSearch method
 - UI plug-ins,OnSearch method
 - OnSearch method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Address-Book-Roots2 attribute
 description: Used by Exchange. Exchange configures trees of address book containers to show up in the MAPI address book. This attribute on the Exchange Config object lists the roots of the address book container trees.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1ca41a60-b8ba-4489-9238-b469811d68ac
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Address-Book-Roots2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

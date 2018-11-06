@@ -2,7 +2,6 @@
 title: Predefined Property Set Format Identifiers
 description: The following property set Format Identifiers (FMTIDs) are defined in the UUID.LIB library file. Declarations for these values are available by including the OLE2.H header file.
 ms.assetid: cc99ce1b-beb5-4340-91ed-3aed5bdad2bd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

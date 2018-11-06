@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.Photo.Saturation property.
 ms.assetid: 1dbb7515-7022-404c-928a-9eb09e43e7a7
 title: System.Photo.Saturation Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

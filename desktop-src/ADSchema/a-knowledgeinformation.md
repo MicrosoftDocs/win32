@@ -1,9 +1,6 @@
 ---
 title: Knowledge-Information attribute
 description: Specifies a human-readable accumulated description of knowledge mastered by a specific Directory System Agent.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3999e3d-0e54-4aef-9b77-d4ffadcae090
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Knowledge-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

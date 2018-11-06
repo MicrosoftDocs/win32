@@ -4,7 +4,6 @@ description: Structured Storage services are organized into three categories of 
 ms.assetid: a4281f07-eae4-4bcb-8d16-b6c0bd3c5b21
 keywords:
 - Structured Storage Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

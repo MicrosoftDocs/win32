@@ -9,7 +9,6 @@ keywords:
 - retrieving strings that describe filters
 - acmFilterTagDetails function
 - acmFilterDetails function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings TransportType property
 description: Specifies the transport type used by the client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 752f5fbc-eb5a-48eb-8750-fc25c8a2f024
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

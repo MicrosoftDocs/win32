@@ -1,9 +1,6 @@
 ---
 title: Category-Registration class
 description: Registration information for a component category.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6d143eb8-6b4b-44d4-a701-d19cd54446e3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Category-Registration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

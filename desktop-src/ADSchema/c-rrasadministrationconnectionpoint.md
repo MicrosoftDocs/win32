@@ -1,9 +1,6 @@
 ---
 title: RRAS-Administration-Connection-Point class
 description: This object contains the connection point for RRAS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 16befdfb-d15c-4c08-b46d-480bb2f8f11f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RRAS-Administration-Connection-Point
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

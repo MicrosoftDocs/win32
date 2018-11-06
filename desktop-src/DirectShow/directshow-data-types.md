@@ -2,7 +2,6 @@
 Description: DirectShow Data Types
 ms.assetid: 33c79747-9187-47bb-acb1-c63b39e7cd81
 title: DirectShow Data Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

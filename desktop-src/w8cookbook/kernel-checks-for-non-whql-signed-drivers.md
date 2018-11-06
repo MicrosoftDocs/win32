@@ -2,7 +2,6 @@
 title: Kernel checks for non-WHQL signed drivers
 description: For devices that clean install Windows 10, and where Secure Boot is on (note that this is standard for all new devices since the release of Windows 8.0), all new drivers must be signed by WHQL/Sysdev rather than just use cross-signed certificates.
 ms.assetid: D2A13F91-BA44-4044-B1F4-54393A9F1063
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

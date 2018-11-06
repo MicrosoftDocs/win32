@@ -2,7 +2,6 @@
 title: 802.11 Wireless Diagnostics Extensible Helper Classes
 description: The built-in wireless diagnostics infrastructure has two extension points.Parent Helper ClassPurposeRevised Native Wifi (RNWF) Extensible Helper ClassDiagnoses issues related to 802.11 connectivity extensions.
 ms.assetid: b54f836d-4fae-4e71-bf7b-af5a6e9e615c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

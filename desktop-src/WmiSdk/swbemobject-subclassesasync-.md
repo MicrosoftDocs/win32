@@ -1,12 +1,8 @@
 ---
 Description: The SubclassesAsync\_ method of SWbemObject asynchronously supplies the subclasses of the current object, which must be a class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 14d4a609-3aa4-49bd-bea4-6a71bc24d9dd
 ms.tgt_platform: multiple
 title: SWbemObject.SubclassesAsync_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

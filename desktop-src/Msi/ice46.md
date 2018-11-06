@@ -2,7 +2,6 @@
 Description: ICE46 checks for custom properties in conditions, formatted text, and other locations that differ from a system defined property only by the case of one or more characters.
 ms.assetid: 892d7462-0222-4fa0-b14c-17742a266c0a
 title: ICE46
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

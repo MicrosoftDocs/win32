@@ -2,7 +2,6 @@
 Description: Setting Object Properties
 ms.assetid: 95b0ea10-c3ab-4c62-81da-b00addfd62ba
 title: Setting Object Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_FloppyDrive WMI class manages the functions of a floppy disk drive.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 41823eeb-4831-4deb-a798-7b3589ebf3e2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_FloppyDrive class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

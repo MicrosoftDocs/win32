@@ -5,7 +5,6 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IGenericBufferDataRequest::RequestAsync method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

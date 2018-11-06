@@ -1,9 +1,6 @@
 ---
 title: Validated-DNS-Host-Name validated writes
 description: Validated write permission to enable setting of a DNS host name attribute that is compliant with the computer name and domain name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 666b4aa7-c7b0-4fb2-a22f-2f548b14ba05
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Validated-DNS-Host-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

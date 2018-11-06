@@ -2,7 +2,6 @@
 Description: Obtaining a Pointer to the Reader Object
 ms.assetid: d1292e2f-bd0e-4961-a6fa-8cdaeb28b692
 title: Obtaining a Pointer to the Reader Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

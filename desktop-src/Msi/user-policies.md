@@ -2,7 +2,6 @@
 Description: User system policies used with the Windows Installer.
 ms.assetid: 74e940a1-dc7c-4ea3-ab62-d118204dac3e
 title: User Policies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

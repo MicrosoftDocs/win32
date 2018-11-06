@@ -2,7 +2,6 @@
 title: Forwarder
 description: The forwarder is the kernel-mode component of the router that is responsible for forwarding data from one router interface to the others.
 ms.assetid: 69cdbefa-9137-48cb-940a-badfb3f4f231
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

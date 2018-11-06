@@ -2,7 +2,6 @@
 title: Graphics Pipeline
 description: This section describes the Direct3D 11 programmable pipeline.
 ms.assetid: 8e7a6f64-0a2b-4ea5-a6a6-7bfb87e27dcc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

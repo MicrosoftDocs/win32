@@ -4,7 +4,6 @@ description: Viewing preprocessor output can be an effective troubleshooting met
 ms.assetid: 79c53f0c-c179-4731-a2c3-a1022d378e7b
 keywords:
 - MIDL compiler MIDL , saving preprocessor output
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

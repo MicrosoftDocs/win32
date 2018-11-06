@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_SettingContext class associates configuration objects with setting objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8ed7e150-b4e6-4fd4-809b-32e870b559c4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_SettingContext class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_SettingContext** class associates configuration objects with setting objects. For example, a network adapter's settings could change based on the site or network to which its hosting computer system is attached. In which case, the computer system would have two different configuration objects, corresponding to the differences in network configuration for the two network segments. One configuration would aggregate a setting object for the network adapter when operating on one segment; whereas, the other configuration would aggregate a different network adapter setting object, specific to another segment. Note that many computer settings are independent of the network configuration. For example, both configurations would aggregate the same setting object for the computer system's monitor resolution.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

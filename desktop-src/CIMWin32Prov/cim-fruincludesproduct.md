@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_FRUIncludesProduct class indicates that a field replaceable unit (FRU) may be composed of other products.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e57dc7f5-4c5b-4ec4-9300-e080053955cb
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_FRUIncludesProduct class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_FRUIncludesProduct** class indicates that a field replaceable unit (FRU) may be composed of other products.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

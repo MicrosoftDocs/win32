@@ -1,9 +1,6 @@
 ---
 title: TSMF_SUPPORT_DATA_OUT structure
 description: Contains information about media formats.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 987ede31-ad15-489f-90e5-fb707c6b38a9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - TSMF_SUPPORT_DATA_OUT
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 api_location: 

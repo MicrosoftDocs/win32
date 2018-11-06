@@ -2,7 +2,6 @@
 Description: Virtualization
 ms.assetid: e5007ba7-1968-49f7-af1b-2627c661d330
 title: Virtualization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

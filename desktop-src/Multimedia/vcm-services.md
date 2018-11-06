@@ -5,7 +5,6 @@ ms.assetid: ca35cf56-b823-450d-a218-e386bafbe872
 keywords:
 - Video for Windows (VFW),VCM services
 - VFW (Video for Windows),VCM services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

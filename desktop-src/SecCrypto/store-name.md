@@ -2,7 +2,6 @@
 Description: Retrieves the name of the certificate store that this object represents.
 ms.assetid: db61b464-0e8e-4b19-be12-04e00d6bba53
 title: Store.Name property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

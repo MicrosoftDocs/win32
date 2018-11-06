@@ -2,7 +2,6 @@
 Description: The concept of multitrack terminal makes it even more desirable for TAPI to provide a simplified method of selecting a terminal on a stream or streams. The Default Terminal Selection mechanism is designed to address this.
 ms.assetid: fbdc7359-b44e-4605-baea-eef5155340c7
 title: Default Terminal Selection Mechanism
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Represents an external Fibre Channel port.
 ms.assetid: bab3a243-5ebd-43e0-948e-ea8112e09d0a
 title: Msvm_ExternalFcPort class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

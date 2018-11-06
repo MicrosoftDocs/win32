@@ -1,9 +1,6 @@
 ---
 title: Version-Number-Lo attribute
 description: A general purpose minor version number.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: be5c88bf-0d87-4989-b54b-11810dc1f612
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Version-Number-Lo
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

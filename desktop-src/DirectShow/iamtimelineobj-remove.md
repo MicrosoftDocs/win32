@@ -2,7 +2,6 @@
 Description: The Remove method removes this object from the timeline (including subobjects but not children), for reinsertion elsewhere.
 ms.assetid: 118a08a5-abba-47df-8aeb-42ce8c8ed2ba
 title: IAMTimelineObj::Remove method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

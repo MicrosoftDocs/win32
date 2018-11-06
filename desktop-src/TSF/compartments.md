@@ -18,7 +18,6 @@ keywords:
 - text services,compartment change notifications
 - TSF-enabled applications,compartment change notifications
 - compartment change notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The access control editor can include an Owner property page that enables the user to change an objects owner. For more information about an objects owner, see Owner of a New Object and Taking Object Ownership in C++.
 ms.assetid: b0c421db-450e-4030-98e9-e062202e482c
 title: Owner Property Page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

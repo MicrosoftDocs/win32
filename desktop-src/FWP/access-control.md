@@ -2,7 +2,6 @@
 title: Access Control
 description: In Windows Filtering Platform (WFP), the Base Filtering Engine (BFE) service implements the standard Windows access control model based on access tokens and security descriptors.
 ms.assetid: 936ad5f0-d5cd-47ed-b9e5-a7d82a4da603
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceV2 IsOptionalDevice property
 description: Specifies if the device is optional for USB redirection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a7226c40-7e22-48af-9895-b1fb1f861b58
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

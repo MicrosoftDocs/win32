@@ -1,9 +1,6 @@
 ---
 title: RemoveLicensesWithIdCount method of the Win32_TSLicenseKeyPack class
 description: Removes the specified number of Remote Desktop Services licenses from the specified key pack.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 36228659-7BE7-490A-A00C-A99FA66BFEB8
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

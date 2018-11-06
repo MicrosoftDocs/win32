@@ -2,7 +2,6 @@
 Description: This section provides an overview of the XPS Digital Signature API.
 ms.assetid: 895974df-d5e8-4974-b057-ec7e5e59d805
 title: About XPS Digital Signature API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

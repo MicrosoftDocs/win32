@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDrive interface
 description: Contains information about a drive object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 25e76657-a898-4581-a866-d66008540f50
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

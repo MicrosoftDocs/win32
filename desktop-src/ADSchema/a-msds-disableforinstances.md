@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Disable-For-Instances attribute
 description: The set of DSA objects, which represent ADAM instances, for which Service Connection Point publication should be disabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e6a6acab-99ec-46bd-93a1-f35ba661fbb7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Disable-For-Instances
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

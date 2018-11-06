@@ -2,7 +2,6 @@
 Description: The ASF file sink is an implementation of IMFMediaSink provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks object model and general usage, see ASF Media Sinks.
 ms.assetid: 21cbde27-a2ca-4298-9197-43bcaf05588d
 title: Adding Stream Information to the ASF File Sink
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

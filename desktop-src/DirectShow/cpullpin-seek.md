@@ -2,7 +2,6 @@
 Description: The Seek method sets the start and stop positions of the stream.
 ms.assetid: d84476f5-688c-429d-a51b-7020a6316e35
 title: CPullPin.Seek method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

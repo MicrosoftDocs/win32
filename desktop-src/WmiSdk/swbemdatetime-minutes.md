@@ -1,12 +1,8 @@
 ---
 Description: Gets or sets a value that represents the minutes component of the datetime value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a52a66c2-f7ab-48d0-bdee-a07984ed3bc2
 ms.tgt_platform: multiple
 title: SWbemDateTime.Minutes property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

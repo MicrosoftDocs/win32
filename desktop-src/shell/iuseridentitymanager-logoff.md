@@ -2,7 +2,6 @@
 Description: Logoff is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: e03fb15c-47d3-40ba-ae70-b7b0ba010004
 title: IUserIdentityManager::Logoff method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

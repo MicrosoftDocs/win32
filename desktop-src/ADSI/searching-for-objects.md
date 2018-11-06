@@ -1,14 +1,10 @@
 ---
 title: Searching for Objects
 description: Julie Bankert must find telephone numbers for all Program Managers who work in Department 101. She can create a script that uses ADO and ADSI to accomplish this.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c6325068-4ae2-4348-9938-96402262cd43
 ms.tgt_platform: multiple
 keywords:
 - searching for objects ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

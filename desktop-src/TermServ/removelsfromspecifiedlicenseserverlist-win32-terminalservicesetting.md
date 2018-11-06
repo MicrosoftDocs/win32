@@ -1,9 +1,6 @@
 ---
 title: RemoveLSFromSpecifiedLicenseServerList method of the Win32_TerminalServiceSetting class
 description: Removes the given license server from the list of specified license servers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c25eebf9-3a21-41a0-bb7d-c3f909cd8087
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

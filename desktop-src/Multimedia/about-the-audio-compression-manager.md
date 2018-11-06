@@ -15,7 +15,6 @@ keywords:
 - waveform-audio data filter selection
 - waveform-audio data format conversion
 - waveform-audio data filtering
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: AsyncTrace
 ms.assetid: 949A79BC-E8F9-4A31-BE19-97F9EB5E8691
 title: AsyncTrace
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

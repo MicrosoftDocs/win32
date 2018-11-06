@@ -1,9 +1,6 @@
 ---
 title: Preferred-Delivery-Method attribute
 description: The X.500-preferred way to deliver to addressee.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 53e704bf-0562-48c0-89d7-5871c388027c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Preferred-Delivery-Method
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

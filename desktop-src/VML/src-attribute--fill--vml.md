@@ -2,7 +2,6 @@
 title: Src Attribute (Fill)(VML)
 description: Src Attribute (Fill)(VML)
 ms.assetid: 88ad9413-1863-41e2-855b-2bf155ce23cc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

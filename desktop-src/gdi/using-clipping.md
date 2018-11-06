@@ -2,7 +2,6 @@
 Description: This section contains example code that shows how to generate a clip path consisting of a character string. The example creates a logical font and uses it to draw a string within a clip path, then fills the path by drawing horizontal and vertical lines.
 ms.assetid: c71727aa-f4a3-409e-b50f-709eb4dbdaab
 title: Using Clipping
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Authentication-Options attribute
 description: The authentication options used in ADSI to bind to directory services objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a6dc4591-d825-456a-8f77-78cb3c91af9f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Authentication-Options
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

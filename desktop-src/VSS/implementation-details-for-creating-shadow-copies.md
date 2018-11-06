@@ -2,7 +2,6 @@
 Description: 'The following topics provide implementation details for creating shadow copies:'
 ms.assetid: de5f1a5b-6e90-4abc-a232-aea93636772f
 title: Implementation Details for Creating Shadow Copies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

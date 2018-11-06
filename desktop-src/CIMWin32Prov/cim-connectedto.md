@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ConnectedTo class represents an association that indicates that two or more physical connectors are connected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fedd9227-8a3b-461a-995b-08cbceb81181
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ConnectedTo class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_ConnectedTo** class represents an association that indicates that two or more physical connectors are connected.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

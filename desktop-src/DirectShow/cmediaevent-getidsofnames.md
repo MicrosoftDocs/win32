@@ -2,7 +2,6 @@
 Description: Maps a single member function and an optional set of parameters to a corresponding set of integer dispatch identifiers, which can be used upon subsequent calls to the CMediaEvent::Invoke member function.
 ms.assetid: 04e607e6-0b68-4371-aacf-01af308a56a3
 title: CMediaEvent.GetIDsOfNames method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

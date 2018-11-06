@@ -2,7 +2,6 @@
 Description: Obsolete. The list of properties to display in the XP webview details panel.
 ms.assetid: 94f585bf-fd2f-4f71-bf06-6a39d1c4beb2
 title: System.PropList.XPDetailsPanel
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

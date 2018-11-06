@@ -2,7 +2,6 @@
 Description: The AddIPAddress function adds the specified IPv4 address to the specified adapter.
 ms.assetid: 71cf6b4d-192c-4b2a-b534-be0b3da552f9
 title: Managing IP Addresses Using AddIPAddress and DeleteIPAddress
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

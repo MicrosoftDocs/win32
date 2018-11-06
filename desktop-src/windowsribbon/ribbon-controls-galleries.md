@@ -12,7 +12,6 @@ keywords:
 - DropDownGallery control
 - SplitButtonGallery control
 - galleries for Windows Ribbon
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -60,7 +59,7 @@ Item galleries contain an index-based collection of related items where each ite
 
 Item galleries support live previewing, which means displaying a Command result, based on mouseover or focus, without committing to or actually invoking the Command.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The framework does not support hosting item galleries in the Application Menu.
 
  
@@ -217,7 +216,7 @@ Categories are used to organize items and Commands in galleries. Categories are 
 
 Categories do not have a CommandType and do not support user interaction. For example, categories cannot become the SelectedItem in an item gallery, and they are not bound to a Command in a Command gallery. Like other gallery item properties, category properties such as [UI\_PKEY\_Label](windowsribbon-reference-properties-uipkey-label.md) and [UI\_PKEY\_CategoryId](windowsribbon-reference-properties-uipkey-categoryid.md) can be retrieved by calling [**IUISimplePropertySet::GetValue**](https://msdn.microsoft.com/library/windows/desktop/dd371357).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > [**IUISimplePropertySet::GetValue**](https://msdn.microsoft.com/library/windows/desktop/dd371357) should return [**UI\_COLLECTION\_INVALIDINDEX**](https://msdn.microsoft.com/library/windows/desktop/dd371551) when [UI\_PKEY\_CategoryId](windowsribbon-reference-properties-uipkey-categoryid.md) is requested for an item that does not have an associated category.
 
  

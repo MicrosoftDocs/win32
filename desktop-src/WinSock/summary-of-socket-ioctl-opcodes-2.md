@@ -2,7 +2,6 @@
 Description: Some of the socket IOCTL opcodes for Windows Sockets 2 are summarized in the following table.
 ms.assetid: fb6447b4-28f5-4ab7-bbdc-5a57ed38a994
 title: Summary of Socket Ioctl Opcodes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

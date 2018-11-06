@@ -2,7 +2,6 @@
 Description: Configuring Profiles and Other ASF File Properties
 ms.assetid: c43df556-9d8a-4010-9ed6-f84d8ac6d9bc
 title: Configuring Profiles and Other ASF File Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -35,7 +34,7 @@ Then run the filter graph. When all the preprocessing passes are done (typically
 
 It is only necessary to set the AM\_CONFIGASFWRITER\_PARAM\_MULTIPASS parameter to **FALSE** if you want to put the filter out of preprocessing mode completely.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > It is the application's responsibility to enable the preprocessing mode based on the profile that will be used for encoding. Some profiles require two-pass encoding; if you attempt to encode a file with such a profile, and do not set AM\_CONFIGASFWRITER\_PARAM\_MULTIPASS to **TRUE**, an [**EC\_USERABORT**](ec-userabort.md) error will result. For more information, see the Windows Media Format SDK documentation.
 
  

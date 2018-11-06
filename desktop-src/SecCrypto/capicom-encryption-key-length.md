@@ -2,7 +2,6 @@
 Description: Defines the key length to be used in encryption.
 ms.assetid: a91e75db-f81e-4908-b795-34be7a1c242d
 title: CAPICOM_ENCRYPTION_KEY_LENGTH enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

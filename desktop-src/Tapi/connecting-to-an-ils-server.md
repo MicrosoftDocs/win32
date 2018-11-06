@@ -2,7 +2,6 @@
 Description: The following code fragment illustrates establishing a connection to a known ILS server.
 ms.assetid: 86b730f8-76d1-4c3d-956d-745787ed7b2e
 title: Connecting to an ILS Server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Contains the current signal generation state of a pin.
 ms.assetid: 07D76F8D-C5B5-4500-BFA2-452989868027
 title: PWM_PIN_IS_STARTED_OUTPUT structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

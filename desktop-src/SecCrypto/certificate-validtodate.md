@@ -2,7 +2,6 @@
 Description: Retrieves the ending date for the validity of the certificate.
 ms.assetid: 25e76b25-9a18-439c-acb8-e0af97b6fcd5
 title: Certificate.ValidToDate property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

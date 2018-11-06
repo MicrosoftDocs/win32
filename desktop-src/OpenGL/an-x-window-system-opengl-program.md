@@ -6,7 +6,6 @@ keywords:
 - porting to OpenGL,sample
 - OpenGL porting,sample
 - X Window System,sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

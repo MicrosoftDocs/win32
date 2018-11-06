@@ -2,7 +2,6 @@
 Description: 'The following topics describe the programming interface for Web Services on Devices:'
 ms.assetid: 3aeeefab-2bb6-49d2-ab37-11358cd9185a
 title: Web Services on Devices Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

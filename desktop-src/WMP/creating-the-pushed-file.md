@@ -7,7 +7,6 @@ keywords:
 - skins,Pushed files
 - creating skins,Pushed files
 - Pushed files in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

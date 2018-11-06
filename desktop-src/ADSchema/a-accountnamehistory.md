@@ -1,9 +1,6 @@
 ---
 title: Account-Name-History attribute
 description: The length of time that the account has been active.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6db0a72e-ba76-4f96-96b6-75f3a4aee572
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Account-Name-History
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

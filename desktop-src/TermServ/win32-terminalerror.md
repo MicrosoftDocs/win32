@@ -1,9 +1,6 @@
 ---
 title: Win32_TerminalError class
 description: Represents a terminal error.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d3f622cd-e4ce-4c7e-999e-940b67fd116c
 ms.tgt_platform: multiple
 keywords:
@@ -23,7 +20,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

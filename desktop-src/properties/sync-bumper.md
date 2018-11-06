@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: c69e4deb-2e18-4637-88ca-6d72ae41f95f
 title: Sync
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

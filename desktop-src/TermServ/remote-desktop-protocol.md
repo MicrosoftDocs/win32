@@ -1,15 +1,11 @@
 ---
 title: Remote Desktop Protocol
 description: The Microsoft Remote Desktop Protocol (RDP) provides remote display and input capabilities over network connections for Windows-based applications running on a server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 442c3c7f-d04b-4dcd-945d-f6e0168c59d5
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Protocol (RDP) Remote Desktop Services
 - RDP (see Remote Desktop Protocol)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

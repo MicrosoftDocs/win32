@@ -2,7 +2,6 @@
 Description: A device class is a group of related physical devices or device drivers through which applications send and receive the information or data that makes up a call.
 ms.assetid: b29ea789-d017-4e35-b77a-c0d54ac54c66
 title: TSPI Device Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

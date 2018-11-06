@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-ReplicationGroupGuid attribute
 description: Contains the replication group GUID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cf510f09-b527-4306-9e08-06401c350c45
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-ReplicationGroupGuid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

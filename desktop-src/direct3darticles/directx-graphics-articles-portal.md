@@ -2,7 +2,6 @@
 title: DirectX Graphics Articles
 description: .
 ms.assetid: 22178507-9a3b-49b1-a3db-851001a32e8e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

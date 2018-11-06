@@ -2,7 +2,6 @@
 Description: Peer groups require that each member have a specific certificate, which is called a Group Member Certificate (GMC).
 ms.assetid: 3966d4eb-4504-4b1e-9c9f-6eab7751d7ed
 title: How Group Security Works
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

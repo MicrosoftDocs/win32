@@ -2,7 +2,6 @@
 title: Designing a User Interface
 description: This section describes in detail some of the tasks associated with designing a UI for a Windows application.
 ms.assetid: 22deda0c-bf03-4fcd-9cc9-6381b601c152
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

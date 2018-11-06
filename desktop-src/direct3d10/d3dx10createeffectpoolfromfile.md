@@ -2,7 +2,6 @@
 Description: Create an effect pool from an effect file.
 ms.assetid: be738374-a91e-43d3-9cec-14882e6317ee
 title: D3DX10CreateEffectPoolFromFile function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

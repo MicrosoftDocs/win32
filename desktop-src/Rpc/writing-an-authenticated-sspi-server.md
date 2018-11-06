@@ -4,7 +4,6 @@ description: Before authenticated communication can take place between the clien
 ms.assetid: 723ae1ee-d729-4748-9ef1-062a0c6f60d0
 keywords:
 - Remote Procedure Call RPC , tasks, writing an authenticated SSPI server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -45,7 +44,7 @@ If your server registers with a security support provider, client calls with inv
 
 -   Register the interface using [**RpcServerRegisterIfEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterifex), with a security callback function; this will cause the RPC run-time library to automatically reject unauthenticated calls to that interface. Registering a callback function is compatible with other methods of checking access credentials; the callback function can itself call the [**RpcImpersonateClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient), [**RpcGetAuthorizationContextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient), or [**RpcBindingInqAuthClientEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) functions, or others. However, these functions cannot use the arguments passed to the function, as they are not unmarshalled at that point.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Registering the interface using [**RpcServerRegisterIfEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterifex) with a security callback function is the most heavily recommended method of checking client credentials.
 
  

@@ -1,9 +1,6 @@
 ---
 title: ReinstallOpenPurchaseLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Reinstalls an Open License Remote Desktop Services license key pack.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3E70711E-284A-466E-A733-1219F5E0B741
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

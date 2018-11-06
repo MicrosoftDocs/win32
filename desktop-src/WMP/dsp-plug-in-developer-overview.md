@@ -9,7 +9,6 @@ keywords:
 - plug-ins,developer overview
 - digital signal processing plug-ins,developer overview
 - DSP plug-ins,developer overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

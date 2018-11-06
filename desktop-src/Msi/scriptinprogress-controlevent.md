@@ -2,7 +2,6 @@
 Description: The installer uses this event to display an informational string while the installation's execution script is being compiled.
 ms.assetid: 088e91e0-734a-4f18-8ceb-cfa4f904f75c
 title: ScriptInProgress ControlEvent
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

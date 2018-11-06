@@ -1,9 +1,6 @@
 ---
 title: PKI-Default-CSPs attribute
 description: The list of cryptographic service providers for the certificate template.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1291f909-919e-47ea-a5cf-69bc7e520c28
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Default-CSPs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

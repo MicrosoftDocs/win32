@@ -1,9 +1,6 @@
 ---
 title: Private-Information property set
 description: Private-Information property set
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9b8983a0-cc15-4a3d-b3e8-e7d6414837b0
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Private-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Properties and Methods
 description: Like any OLE object, a control provides much of its functionality through a set of incoming interfaces with properties and methods.
 ms.assetid: 5a0cdb5d-7e27-40e9-94db-cfda853879c6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Rendering Errors
 ms.assetid: 8901eb78-bb7f-4dfe-bc01-0a267af5140f
 title: Rendering Errors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

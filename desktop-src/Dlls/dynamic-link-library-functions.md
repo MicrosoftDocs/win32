@@ -2,7 +2,6 @@
 Description: The following functions are used in dynamic linking.
 ms.assetid: 29e50bd5-1712-407f-bcb3-50a0a22ab8b5
 title: Dynamic-Link Library Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

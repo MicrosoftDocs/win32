@@ -1,9 +1,6 @@
 ---
 title: ConnectionOptions.Password property
 description: Sets the password of a local or a domain account on the remote computer. This property determines the password for authentication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 61ba54b6-7da0-423e-b5b2-c4dd8aacd042
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

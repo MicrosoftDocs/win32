@@ -1,9 +1,6 @@
 ---
 title: Default-Local-Policy-Object attribute
 description: A reference to a Policy object that defines the local policy for the host object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: baed2be8-db3e-458f-a6da-2fa522b95d29
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Default-Local-Policy-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

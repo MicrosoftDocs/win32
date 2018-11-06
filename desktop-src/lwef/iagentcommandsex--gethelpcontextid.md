@@ -2,7 +2,6 @@
 title: IAgentCommandsEx GetHelpContextID
 description: IAgentCommandsEx GetHelpContextID
 ms.assetid: db5f93e9-8cd3-4147-94b4-50cfe12033c4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

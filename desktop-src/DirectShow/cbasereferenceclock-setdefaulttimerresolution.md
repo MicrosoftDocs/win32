@@ -2,7 +2,6 @@
 Description: The SetDefaultTimerResolution method sets the resolution of the reference clock's timer.
 ms.assetid: 891b809a-15d3-41f3-853e-aca9ddcd56e8
 title: CBaseReferenceClock.SetDefaultTimerResolution method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

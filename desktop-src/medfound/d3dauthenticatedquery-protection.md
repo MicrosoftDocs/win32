@@ -2,7 +2,6 @@
 Description: Returns the current protection level for the device.
 ms.assetid: 335d21e8-2a98-4824-a60d-1969a40e8d24
 title: D3DAUTHENTICATEDQUERY_PROTECTION
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

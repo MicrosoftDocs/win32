@@ -2,7 +2,6 @@
 Description: This topic provides information about security considerations related to the Windows Shell.
 ms.assetid: eca31652-2659-456d-b082-c84d6fd39094
 title: 'Security Considerations: Microsoft Windows Shell'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

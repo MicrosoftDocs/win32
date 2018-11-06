@@ -1,9 +1,6 @@
 ---
 title: FT-Dfs class
 description: Defines a single fault-tolerant Distributed File System configuration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 51cd9439-ba0c-41a9-824d-4e89df38055c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FT-Dfs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

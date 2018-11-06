@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player Mobile,migrating DVDs
 - migration guide,DVDs
 - DVD migration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: e6786836-5e18-4b8c-9e7d-229abb7473e7
 title: System.Link.Arguments
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

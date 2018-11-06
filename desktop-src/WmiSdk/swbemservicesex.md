@@ -1,12 +1,8 @@
 ---
 Description: Extends the functionality of SWbemServices.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: def514a9-eca4-41de-87cd-c9f964a71f68
 ms.tgt_platform: multiple
 title: SWbemServicesEx object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

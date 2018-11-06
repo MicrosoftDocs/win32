@@ -2,7 +2,6 @@
 Description: This topic lists the constructors of the RectF class. For a complete class listing, see RectF Class.
 ms.assetid: 06b76d71-f945-46e6-a597-abfebdfcf36e
 title: RectF.RectF constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

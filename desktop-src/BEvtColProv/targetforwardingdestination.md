@@ -1,14 +1,8 @@
 ---
 Description: The known destinations containing the collected data. Available only if the collector is running with the status log enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ab0d2949-9808-49c3-8a0c-f2ce9c300a2a
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TargetForwardingDestination class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

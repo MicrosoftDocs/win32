@@ -2,7 +2,6 @@
 title: RAS Security DLL Authentication Transaction
 description: Windows NT/Windows 2000 RAS server calls the security DLL's RasSecurityDialogBegin function to begin an authentication of a remote user.
 ms.assetid: e6549812-d906-4163-b9c8-86f8f1cb1ad3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

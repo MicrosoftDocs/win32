@@ -5,7 +5,6 @@ ms.assetid: 81009d7b-5c2a-4447-a85e-138ab7834b7a
 keywords:
 - Windows Media Player online stores,about
 - online stores,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

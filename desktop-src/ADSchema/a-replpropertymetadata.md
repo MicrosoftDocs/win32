@@ -1,9 +1,6 @@
 ---
 title: Repl-Property-Meta-Data attribute
 description: Tracks internal replication state information for DS objects. Information here can be extracted in public form through the public API DsReplicaGetInfo(). Present on all DS objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5776208c-8138-4b0a-855a-8bddcbd2e532
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Repl-Property-Meta-Data
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

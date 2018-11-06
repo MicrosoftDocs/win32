@@ -13,7 +13,6 @@ keywords:
 - events,properties
 - properties,dynamic
 - dynamic properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

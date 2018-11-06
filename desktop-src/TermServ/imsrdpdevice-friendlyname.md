@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDevice FriendlyName property
 description: Retrieves the display name for the device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ed27eacd-1d39-484c-8217-62ed608db050
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

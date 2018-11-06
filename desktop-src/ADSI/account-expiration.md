@@ -1,15 +1,11 @@
 ---
 title: Account Expiration (LDAP Provider)
 description: To set the account expiration date, set the IADsUser.AccountExpirationDate property to the desired date value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d0b90bb3-ad7c-4394-956d-061a915f210d
 ms.tgt_platform: multiple
 keywords:
 - Account Expiration ADSI ,LDAP provider
 - LDAP provider ADSI ,user management examples,Account Expiration
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

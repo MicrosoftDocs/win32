@@ -2,7 +2,6 @@
 Description: BoundingBox Fields
 ms.assetid: 54a422f3-b557-4307-84bd-22867917281f
 title: BoundingBox Fields
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

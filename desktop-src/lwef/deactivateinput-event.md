@@ -2,7 +2,6 @@
 title: DeactivateInput Event
 description: DeactivateInput Event
 ms.assetid: 59747932-82be-45d5-8465-73798904e8a7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

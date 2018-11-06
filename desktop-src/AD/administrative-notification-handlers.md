@@ -1,14 +1,10 @@
 ---
 title: Administrative Notification Handlers
 description: The Microsoft Active Directory Users and Computers MMC snap-in provides a mechanism to enable components to receive notifications when the user deletes, renames, moves, or changes the properties of an object using the snap-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 49dbb995-c760-4fac-a72f-d5d94afb63c7
 ms.tgt_platform: multiple
 keywords:
 - Administrative Notification Handlers AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

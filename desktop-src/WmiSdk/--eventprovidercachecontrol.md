@@ -1,12 +1,8 @@
 ---
 Description: Controls when an event provider is unloaded.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7f11e521-d0f6-4c3c-8bfe-ceed2d106ed3
 ms.tgt_platform: multiple
 title: '__EventProviderCacheControl class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

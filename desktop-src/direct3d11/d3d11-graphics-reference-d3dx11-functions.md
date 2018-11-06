@@ -4,7 +4,6 @@ description: This section contains information about the D3DX 11 functions.
 ms.assetid: 7548c02e-c8c2-4629-95ac-d21ca7a39f0a
 keywords:
 - functions, DirectX 11 D3DX
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Revealed-List attribute
 description: Identifies security principals whose current computer account passwords have been replicated to the RODC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 10100719-4d03-4954-bcb6-d4ca635d00f7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Revealed-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

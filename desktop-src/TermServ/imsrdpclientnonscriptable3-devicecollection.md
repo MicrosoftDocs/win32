@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable3 DeviceCollection property
 description: Retrieves the collection of Plug and Play (PnP) device objects to be redirected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dd5fe4c7-58bf-4e7a-b066-59278419ea6f
 ms.tgt_platform: multiple
 keywords:
@@ -42,7 +39,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

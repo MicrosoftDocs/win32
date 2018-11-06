@@ -2,7 +2,6 @@
 Description: The object-space direction for the current ray.  
 ms.assetid: 
 title: ObjectRayDirection
-ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 

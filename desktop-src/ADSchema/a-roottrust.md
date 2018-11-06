@@ -1,9 +1,6 @@
 ---
 title: Root-Trust attribute
 description: The Distinguished Name of another Cross-Ref.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ae886a08-e6ba-4346-815f-8fbf38a347d7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Root-Trust
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

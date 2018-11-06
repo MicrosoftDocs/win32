@@ -10,7 +10,6 @@ keywords:
 - NURBS surfaces
 - NURBS (Non-Uniform Rational B-Spline)
 - Non-Uniform Rational B-Spline (NURBS)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

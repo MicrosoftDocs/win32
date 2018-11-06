@@ -2,7 +2,6 @@
 title: AutoDial Mapping Database
 description: The AutoDial mapping database maps network addresses to RAS phone-book entries.
 ms.assetid: 4589d1e5-eec3-46ac-a10f-f20ae9f7b543
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-CreationDate attribute
 description: The date and time stamp of an object instance's creation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c331a872-73c4-45cc-a4f7-6e48e0ea3f74
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-CreationDate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

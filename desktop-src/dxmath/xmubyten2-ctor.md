@@ -2,7 +2,6 @@
 Description: Constructors exposed by XMUBYTEN2.
 ms.assetid: aa72906c-1338-49cf-909c-4d3a00aa3de2
 title: XMUBYTEN2 constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

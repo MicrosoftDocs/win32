@@ -1,9 +1,6 @@
 ---
 title: PKI-Extended-Key-Usage attribute
 description: The enhanced key usage OIDs for the certificate template.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2e2b55a0-6c55-481d-9ebf-9c204e7fe030
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Extended-Key-Usage
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

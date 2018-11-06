@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Protocol Provider Structures
 description: The custom remote protocol API supports the following structures.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 45d17758-4554-42aa-aeb9-c8d4e7fc6bb7
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -9,7 +9,6 @@ keywords:
 - actions Task Scheduler , COM handler action
 - execute action Task Scheduler
 - COM Handler action Task Scheduler
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Grid Layout Sample
 description: Shows how to use Windows Animation, using Direct2D to animate a grid of images.
 ms.assetid: f2f24058-c532-45ad-bde8-d05cfffcd505
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

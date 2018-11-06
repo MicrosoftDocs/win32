@@ -1,7 +1,6 @@
 ---
 Description: Add modern XAML user interfaces, create MSIX packages, and incorporate other modern components into your desktop application in an "alacart" fashion.
 title: Desktop guide to the modern platform
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 09/11/2018
 ---

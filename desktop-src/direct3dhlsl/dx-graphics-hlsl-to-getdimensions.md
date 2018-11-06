@@ -2,7 +2,6 @@
 title: GetDimensions (DirectX HLSL Texture Object)
 description: Gets texture size information. The syntax block shows all the parameters that are possible in the method declaration. The table in the Remarks section shows which parameters are implemented for each texture-object type.
 ms.assetid: b72e54da-382a-4b90-bbfe-0b32effc7c05
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Closes the media key session and must be called before the key session is released.
 ms.assetid: 97c6b4bd-a973-4475-a325-0373af9b54b1
 title: IMFMediaKeySession::Close method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

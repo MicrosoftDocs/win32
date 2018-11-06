@@ -1,12 +1,8 @@
 ---
 title: RemoteFX Media Redirection API reference
 description: The RemoteFX Media Redirection API is used by third-parties to implement the server-side requirements to support a RemoteFX virtual channel.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 927b3c17-4ac3-4640-8042-648a283abe64
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

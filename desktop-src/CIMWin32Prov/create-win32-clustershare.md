@@ -1,14 +1,8 @@
 ---
 Description: Creates a new Win32\_ClusterShare instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a6fde28d-f19e-4a31-8f0d-35927c75a030
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Create method of the Win32_ClusterShare class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

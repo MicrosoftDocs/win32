@@ -1,9 +1,6 @@
 ---
 title: ms-DS-DnsRootAlias attribute
 description: Used to store the domain alias.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 36b64363-947f-4af9-947f-eefead55bb02
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-DnsRootAlias
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

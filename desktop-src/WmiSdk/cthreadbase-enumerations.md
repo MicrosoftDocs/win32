@@ -1,12 +1,8 @@
 ---
 Description: The CThreadBase class has the following enumerations.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 214DF754-5BE9-4F6A-A969-3C763946F75A
 ms.tgt_platform: multiple
 title: CThreadBase Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

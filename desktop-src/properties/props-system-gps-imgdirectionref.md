@@ -2,7 +2,6 @@
 Description: Indicates reference for giving the direction of the image when it was captured, (for example, true direction, magnetic direction).
 ms.assetid: 81937ef2-af86-4434-8000-dd944ad14e9c
 title: System.GPS.ImgDirectionRef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

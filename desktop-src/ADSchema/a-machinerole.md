@@ -1,9 +1,6 @@
 ---
 title: Machine-Role attribute
 description: Role for a machine DC, Server, or Workstation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1aaab4e5-1220-4cb3-8819-dbeec729d26c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Machine-Role
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

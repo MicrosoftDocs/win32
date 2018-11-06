@@ -1,9 +1,6 @@
 ---
 title: Trust-Auth-Incoming attribute
 description: Authentication information for the incoming portion of a trust.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 15d079f8-a77c-4baf-bb60-1af7a8e8da25
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Trust-Auth-Incoming
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

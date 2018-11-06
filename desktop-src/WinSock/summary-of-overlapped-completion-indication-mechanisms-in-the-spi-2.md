@@ -2,7 +2,6 @@
 Description: Summary of overlapped completion indication mechanisms in the Windows Sockets (Winsock) SPI.
 ms.assetid: 2306b884-7d3a-4002-928e-54537571e5f8
 title: Summary of Overlapped Completion Indication Mechanisms in the SPI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

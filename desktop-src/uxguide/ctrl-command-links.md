@@ -2,7 +2,6 @@
 title: Command Links
 description: With command links, users select a single response to a main instruction and by doing so, move on to the next step in a task.
 ms.assetid: a77819b1-9a32-4468-94fb-3f73a469fb81
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

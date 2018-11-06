@@ -1,14 +1,10 @@
 ---
 title: Changing a Group's Scope or Type
 description: This topic shows how to change a group's scope or type in native mode domains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bdae7bc9-072a-4063-9562-8e0fcb1b7937
 ms.tgt_platform: multiple
 keywords:
 - groups AD , changing a group's scope or type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

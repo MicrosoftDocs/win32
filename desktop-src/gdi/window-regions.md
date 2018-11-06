@@ -2,7 +2,6 @@
 Description: In addition to the update region, every window has a visible region that defines the window portion visible to the user.
 ms.assetid: 9d8beba1-93c0-437d-a138-76880a40bc79
 title: Window Regions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

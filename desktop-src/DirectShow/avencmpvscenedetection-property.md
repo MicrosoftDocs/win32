@@ -2,7 +2,6 @@
 Description: Specifies how the encoder behaves when it detects a new scene. This property applies to MPEG video encoders.
 ms.assetid: 9950a55c-75c5-4b49-bd8a-1ce40ac71ee5
 title: AVEncMPVSceneDetection property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

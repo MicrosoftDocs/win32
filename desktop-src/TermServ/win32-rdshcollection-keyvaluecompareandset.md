@@ -1,9 +1,6 @@
 ---
 title: KeyValueCompareAndSet method of the Win32_RDSHCollection class
 description: Compares the specified key in the collection with a comparand; if they match, the key is set to a new value. If the key does not exist, the method will insert the key into the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ea6195b3-1a20-4d5b-b9a3-796976818b4f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Modifies the setting data for the service.
 ms.assetid: E6133DA7-A137-42FA-A523-5B93E9C6DB79
 title: ModifyServiceSettings method of the Msvm_MetricService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

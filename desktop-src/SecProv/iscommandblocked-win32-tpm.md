@@ -2,7 +2,6 @@
 Description: Indicates whether the device command with the specified ordinal is blocked from running on the platform.
 ms.assetid: e77c48a0-d189-41e0-96a6-17f8480a83c6
 title: IsCommandBlocked method of the Win32_Tpm class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

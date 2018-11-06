@@ -2,7 +2,6 @@
 title: Width Property
 description: Width Property
 ms.assetid: fe5d4c44-3eea-4b13-913e-09f4c97f3aaa
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

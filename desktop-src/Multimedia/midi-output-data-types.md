@@ -9,7 +9,6 @@ keywords:
 - MIDI output data types
 - MIDIHDR data type
 - MIDIOUTCAPS data type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

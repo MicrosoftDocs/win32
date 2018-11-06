@@ -1,9 +1,6 @@
 ---
 title: Print-Min-Y-Extent attribute
 description: The minimum vertical print region.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a612c0a1-aef1-4aa4-aa68-3bff1eb9cc08
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Min-Y-Extent
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

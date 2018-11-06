@@ -2,7 +2,6 @@
 Description: Event Attributes
 ms.assetid: 25e77ee1-cffc-4f8b-ac07-b5607a125fc7
 title: Event Attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

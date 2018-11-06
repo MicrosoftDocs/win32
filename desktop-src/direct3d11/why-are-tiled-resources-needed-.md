@@ -2,7 +2,6 @@
 title: Why are tiled resources needed
 description: Tiled resources are needed so less graphics processing unit (GPU) memory is wasted storing regions of surfaces that the application knows will not be accessed, and the hardware can understand how to filter across adjacent tiles.
 ms.assetid: E2179D65-56D3-481F-A5F3-B9C45A11A179
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

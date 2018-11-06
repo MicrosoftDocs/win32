@@ -13,7 +13,6 @@ keywords:
 - digital rights management (DRM),debugging information
 - DRM (digital rights management),debugging information
 - debugging DRM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

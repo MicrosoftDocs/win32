@@ -2,7 +2,6 @@
 Description: In the fixed function vertex pipeline, processing the vertices in a vertex buffer applies the current transformation matrices for the device.
 ms.assetid: a882a5c5-b05e-4659-9040-92d3e2ccd89c
 title: Fixed Function Vertex Processing (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

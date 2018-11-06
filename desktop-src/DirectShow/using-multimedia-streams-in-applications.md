@@ -2,7 +2,6 @@
 Description: Using Multimedia Streams in Applications
 ms.assetid: 73cfe89b-df46-445a-92c7-2f7323672441
 title: Using Multimedia Streams in Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

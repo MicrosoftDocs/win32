@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_FileAction class allows the author to locate files that already exist on a user's computer, and then move or copy those files to a new location.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0576e73f-08e1-4f80-af5a-f5d497f57632
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_FileAction class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -35,7 +29,7 @@ api_location:
 
 The **CIM\_FileAction** class allows the author to locate files that already exist on a user's computer, and then move or copy those files to a new location.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

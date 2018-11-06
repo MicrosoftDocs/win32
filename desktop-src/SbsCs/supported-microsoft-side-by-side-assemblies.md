@@ -2,7 +2,6 @@
 Description: The following are the side-by-side assemblies supported by Microsoft. Windows Service Packs may include compatible versions of these assemblies with security or bug fixes.
 ms.assetid: 828a8619-40a2-4a1b-8043-5d08715db65f
 title: Supported Microsoft Side-by-side Assemblies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,16 +1,12 @@
 ---
 title: ADSI Objects of LDAP
 description: The following table lists commonly used COM objects for the LDAP provider in ADSI, together with the ADSI interfaces that they support.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 658d47ec-731e-492b-b341-38c699d8c064
 ms.tgt_platform: multiple
 keywords:
 - ADSI Objects of LDAP ADSI
 - LDAP service provider ADSI , ADSI objects of
 - objects, ADSI objects of LDAP ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

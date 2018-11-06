@@ -2,7 +2,6 @@
 Description: While the system uses UTC-based time internally, your applications will generally display the local time, which is the date and time of day for your time zone.
 ms.assetid: a6570ec5-ac77-427a-86d9-32cbecc62e37
 title: Local Time
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

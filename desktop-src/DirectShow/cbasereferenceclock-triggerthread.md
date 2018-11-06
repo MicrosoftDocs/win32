@@ -2,7 +2,6 @@
 Description: The TriggerThread method wakes up the worker thread that handles scheduling.
 ms.assetid: 296a6b59-fc52-4f5e-8a19-6b534a253a6e
 title: CBaseReferenceClock.TriggerThread method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

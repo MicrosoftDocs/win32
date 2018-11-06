@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 69c48e7a-e823-4488-b3c5-b8d3f8f79154
 title: Overviews and Tutorials
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

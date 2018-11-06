@@ -1,9 +1,6 @@
 ---
 title: Birth-Location attribute
 description: The location where the user was born.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 566bdbf0-a298-465a-9dab-f9b013f3d98b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Birth-Location
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

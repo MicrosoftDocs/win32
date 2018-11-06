@@ -11,7 +11,6 @@ keywords:
 - codecs,Windows Media Video 9 Image v2 codec
 - video streams,Windows Media Video 9 Image v2 codec
 - video streams,image transitions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

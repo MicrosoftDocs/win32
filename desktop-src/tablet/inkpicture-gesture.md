@@ -2,7 +2,6 @@
 Description: Occurs when an application-specific gesture is recognized.
 ms.assetid: a20f2d78-6cfe-4755-968e-91369021db1b
 title: InkPicture.Gesture event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

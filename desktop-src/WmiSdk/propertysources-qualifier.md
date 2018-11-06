@@ -1,12 +1,8 @@
 ---
 Description: Every property in a view class must have a string array qualifier called PropertySources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: df89680b-8ea7-4f38-81ba-c4132b944f37
 ms.tgt_platform: multiple
 title: PropertySources Qualifier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

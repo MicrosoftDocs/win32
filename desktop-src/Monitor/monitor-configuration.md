@@ -14,7 +14,6 @@ keywords:
 - monitor configuration,DDC/CI
 - monitor configuration,changing settings
 - changing monitor settings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

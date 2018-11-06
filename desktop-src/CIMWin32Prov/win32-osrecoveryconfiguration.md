@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_OSRecoveryConfiguration&\#8194;WMI class represents the types of information that will be gathered from memory when the operating system fails. This includes boot failures and system crashes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0c8a2aeb-2fd9-44b7-8f91-d19afb8d2de6
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_OSRecoveryConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

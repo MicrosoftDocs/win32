@@ -2,7 +2,6 @@
 title: How to Create a Command Link
 description: This topic describes one way to create a command link.
 ms.assetid: F342075B-2D3B-40E0-B657-E1C57EDC2E3A
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

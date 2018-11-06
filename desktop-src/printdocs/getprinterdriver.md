@@ -2,7 +2,6 @@
 Description: The GetPrinterDriver function retrieves driver data for the specified printer. If the driver is not installed on the local computer, GetPrinterDriver installs it.
 ms.assetid: 93f859b4-1005-4359-8029-9536d6eeb7e7
 title: GetPrinterDriver function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

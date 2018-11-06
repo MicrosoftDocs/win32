@@ -5,7 +5,6 @@ ms.assetid: 6f07ab90-b5bb-48ae-870c-5abaf80ce0e5
 keywords:
 - Remote Procedure Call RPC , attributes, represent_as
 - represent_as
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

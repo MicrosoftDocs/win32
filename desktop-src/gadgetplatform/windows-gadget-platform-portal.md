@@ -2,7 +2,6 @@
 title: Windows Gadget Platform
 description: .
 ms.assetid: 86b03d82-a2f2-491b-888c-f86bb36f25dc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

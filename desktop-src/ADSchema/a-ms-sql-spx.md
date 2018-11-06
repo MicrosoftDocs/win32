@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-SPX attribute
 description: The SPX connection point.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8e01d81d-be9d-4cc6-a3e2-f901952ff02b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-SPX
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

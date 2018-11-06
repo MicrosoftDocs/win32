@@ -2,7 +2,6 @@
 Description: The SetPageSite method initializes the property page and provides a pointer to the property frame's IPropertyPageSite interface. This method implements the IPropertyPage::SetPageSite method.
 ms.assetid: 16c4633f-2f91-4b1b-a47c-4ef945c3af00
 title: CBasePropertyPage.SetPageSite method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

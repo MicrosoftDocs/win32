@@ -2,7 +2,6 @@
 title: The STGMEDIUM Structure
 description: The STGMEDIUM Structure
 ms.assetid: ff1e1128-d228-45a6-a19d-2875b6c4e003
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The CIMType qualifier contains text describing the type of a property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ae65d4c7-2150-489b-a368-fb38c0d1b3be
 ms.tgt_platform: multiple
 title: CIMType Qualifier
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

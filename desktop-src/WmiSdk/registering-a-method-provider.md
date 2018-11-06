@@ -1,12 +1,8 @@
 ---
 Description: To create a WMI method provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_MethodProviderRegistration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1cfb16ae-8dcf-437d-b779-db2f30bb0d34
 ms.tgt_platform: multiple
 title: Registering a Method Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

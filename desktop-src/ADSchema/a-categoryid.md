@@ -1,9 +1,6 @@
 ---
 title: Category-Id attribute
 description: The ID for a component category.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2264a683-f3c8-4e41-b247-128d1ee194bc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Category-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: netboot-Limit-Clients attribute
 description: The netboot-Limit-Clients attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e39bed0f-44ff-47f3-a350-cc006c65881b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-Limit-Clients
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

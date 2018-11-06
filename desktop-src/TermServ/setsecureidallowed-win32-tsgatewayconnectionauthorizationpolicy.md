@@ -1,9 +1,6 @@
 ---
 title: SetSecureIdAllowed method of the Win32_TSGatewayConnectionAuthorizationPolicy class
 description: This method is reserved for future use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9f49e69a-c004-4e3e-b238-69865e3bf00b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

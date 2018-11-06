@@ -2,7 +2,6 @@
 Description: An authorization policy store contains authorization policy information for one or more applications. For each application that uses that policy store, you must create an IAzApplication object and save it to a policy store.
 ms.assetid: 2bba1068-ae03-4388-be4d-9865e42e440e
 title: Creating an Application Object in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

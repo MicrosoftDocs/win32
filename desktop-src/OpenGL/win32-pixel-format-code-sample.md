@@ -6,7 +6,6 @@ keywords:
 - pixels OpenGL ,Windows sample
 - porting to OpenGL,pixels
 - OpenGL porting,pixels
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Enumerating Members in a Group
 description: The members of a group are stored in a multi-value attribute called member.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 28cafdbe-e599-4b1d-a384-264f41d81c79
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Members in a Group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

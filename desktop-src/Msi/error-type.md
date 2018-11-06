@@ -2,7 +2,6 @@
 Description: The read-only Type property returns one of the values of msmErrorType, indicating the type of error represented by this object.
 ms.assetid: 5567ba71-c815-4434-962c-aa46cd171712
 title: Error.Type property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

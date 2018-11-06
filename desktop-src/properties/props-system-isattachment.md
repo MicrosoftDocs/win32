@@ -2,7 +2,6 @@
 Description: Identifies whether the item is an attachment.
 ms.assetid: f2f227b1-1490-41b0-a361-b36d7bcd3069
 title: System.IsAttachment
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

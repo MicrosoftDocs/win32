@@ -1,15 +1,11 @@
 ---
 title: Service Connection Point Properties
 description: The attributes of the serviceConnectionPoint class are sufficient for most services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 08888d2c-b46e-4b86-87e4-0c061ea147a0
 ms.tgt_platform: multiple
 keywords:
 - Service Connection Point Properties
 - service connection points AD , properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Control Structures
 description: .
 ms.assetid: c9b6cf2f-2b73-4cd6-a2cc-0fe861190551
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

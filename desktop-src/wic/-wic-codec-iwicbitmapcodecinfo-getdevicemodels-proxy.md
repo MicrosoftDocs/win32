@@ -2,7 +2,6 @@
 Description: Proxy function for the GetDeviceModels method.
 ms.assetid: de8f91f7-fef7-48bc-94fc-34c43175248b
 title: IWICBitmapCodecInfo_GetDeviceModels_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

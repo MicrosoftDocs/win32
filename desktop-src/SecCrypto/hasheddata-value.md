@@ -2,7 +2,6 @@
 Description: Retrieves the hashed data after successful calls to the Hash method.
 ms.assetid: 02ba92d2-38eb-4c01-99b9-11676e7d49ff
 title: HashedData.Value property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

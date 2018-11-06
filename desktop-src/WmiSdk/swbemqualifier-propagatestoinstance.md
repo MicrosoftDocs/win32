@@ -1,12 +1,8 @@
 ---
 Description: The PropagatesToInstance property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be propagated to an instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5cab3498-f7ba-4d82-9f07-90a87e15f270
 ms.tgt_platform: multiple
 title: SWbemQualifier.PropagatesToInstance property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

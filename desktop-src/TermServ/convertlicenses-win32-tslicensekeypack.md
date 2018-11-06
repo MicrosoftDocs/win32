@@ -1,9 +1,6 @@
 ---
 title: ConvertLicenses method of the Win32_TSLicenseKeyPack class
 description: Converts the licenses in the current key pack.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 38600144-8fa2-4f9a-b7a4-7fafc304e7cb
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

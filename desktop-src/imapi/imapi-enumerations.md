@@ -2,7 +2,6 @@
 title: IMAPI Enumerations
 ms.assetid: 4b45d9b0-5e17-4b75-9e04-4786276b3106
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

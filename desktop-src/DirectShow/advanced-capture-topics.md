@@ -2,7 +2,6 @@
 Description: Advanced Capture Topics
 ms.assetid: 407702b2-5f4f-424d-a3ec-b0473e1b0da3
 title: Advanced Capture Topics
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

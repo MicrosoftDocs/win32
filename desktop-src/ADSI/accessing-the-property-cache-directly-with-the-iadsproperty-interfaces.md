@@ -1,16 +1,12 @@
 ---
 title: Accessing the Property Cache Directly with the IADsProperty Interfaces
 description: The IADsProperty interfaces consist of IADsPropertyList, IADsPropertyEntry, and IADsPropertyValue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ff15eb50-01ab-4b45-bcfd-1df01172f274
 ms.tgt_platform: multiple
 keywords:
 - Accessing the Property Cache Directly with the IADsProperty Interfaces ADSI
 - property cache ADSI
 - property cache ADSI , using IADsProperty interfaces to access the property cache
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

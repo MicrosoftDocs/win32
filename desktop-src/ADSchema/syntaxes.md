@@ -1,12 +1,8 @@
 ---
 title: Syntaxes
 description: The following syntaxes are defined by Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8d777d93-19e3-465c-88c7-afe61c0fc114
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

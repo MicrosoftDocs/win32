@@ -1,9 +1,6 @@
 ---
 title: SubSchema class
 description: Contains the schema definition.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a4b3e54d-dc79-4a2c-a54e-bfabcc06c203
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - SubSchema
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: InterrogateService method of the Win32_Service class
 description: Requests that the referenced service update its state to the service manager.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7B572049-416E-4429-BD53-119FF570B2D8
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

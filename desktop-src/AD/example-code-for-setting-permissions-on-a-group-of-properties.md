@@ -1,14 +1,10 @@
 ---
 title: Example Code for Setting Permissions on a Group of Properties
 description: The following C and C++ code examples create an ACE that assigns read and write access to the attributes of the Personal Information property set of user objects to the specified trustee.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 46d53b41-02eb-4830-b625-2d9ffa21a312
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting permissions on a group of properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

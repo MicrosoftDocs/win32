@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property of type string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 10D5C2B1-E5B4-4A7E-BC5E-5F6A4ABDDBF7
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyString class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientTouchPointer Enabled property
 description: Whether the touch pointer feature is enabled on the RDP app container client control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f1e2f2f2-1b96-4c5a-b0dd-fd57627c5ec3
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

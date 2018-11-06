@@ -1,9 +1,6 @@
 ---
 title: Terminal-Server attribute
 description: Opaque data used by the Windows NT terminal server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eb7ec365-327b-4e2a-9ed8-1ea7ad04e94b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Terminal-Server
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

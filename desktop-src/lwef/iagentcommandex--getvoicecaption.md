@@ -2,7 +2,6 @@
 title: IAgentCommandEx GetVoiceCaption
 description: IAgentCommandEx GetVoiceCaption
 ms.assetid: a81accfd-c137-4347-8ead-4ed5e7148751
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

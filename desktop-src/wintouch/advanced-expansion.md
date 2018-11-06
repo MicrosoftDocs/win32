@@ -9,7 +9,6 @@ keywords:
 - manipulations,expansion
 - manipulations,advanced expansion
 - expansion,advanced
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -9,7 +9,6 @@ keywords:
 - objects,metadata editor objects
 - metadata editor objects,about
 - metadata,editor objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

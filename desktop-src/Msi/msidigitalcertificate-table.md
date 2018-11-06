@@ -2,7 +2,6 @@
 Description: The MsiDigitalCertificate table stores certificates in binary stream format and associates each certificate with a primary key.
 ms.assetid: 834534b8-540a-48c2-8eb0-3511d5a20cb4
 title: MsiDigitalCertificate Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

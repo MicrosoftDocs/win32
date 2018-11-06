@@ -2,7 +2,6 @@
 Description: 'The names of people in the Bcc: field.'
 ms.assetid: ad888d32-956d-45c1-a73d-4799cc3ed320
 title: System.Message.BccName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

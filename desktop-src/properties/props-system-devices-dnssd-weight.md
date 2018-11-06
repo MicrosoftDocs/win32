@@ -2,7 +2,6 @@
 Description: SRV record weight field. Not usually used.
 ms.assetid: e3dae449-a9b7-4ebd-975c-1388fab42148
 title: System.Devices.Dnssd.Weight
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Win32_TSGetIcon Methods
 description: The Win32\_TSGetIcon class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 25724BF6-A377-4219-B8AF-ADCB495BE094
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

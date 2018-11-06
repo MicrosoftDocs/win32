@@ -1,9 +1,6 @@
 ---
 title: GetStringProperty method of the Win32_RDSHCollection class
 description: Retrieves a string property value of a Win32\_RDSHCollection object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8e97cd91-0e45-4d87-acfb-ee7d70376ce0
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

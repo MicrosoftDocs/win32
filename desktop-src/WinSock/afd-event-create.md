@@ -2,7 +2,6 @@
 Description: Winsock network tracing event for a socket creation operation.
 ms.assetid: 59B9A570-5AEC-429D-AF71-AB6D8325C341
 title: AFD_EVENT_CREATE event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

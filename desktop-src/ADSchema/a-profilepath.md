@@ -1,9 +1,6 @@
 ---
 title: Profile-Path attribute
 description: Specifies a path to the user's profile. This value can be a null string, a local absolute path, or a UNC path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 03891152-52c6-4799-ae79-3be284204391
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Profile-Path
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

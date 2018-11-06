@@ -2,7 +2,6 @@
 Description: Defines the list of allowed and denied networks for machines.
 ms.assetid: 21502c97-36a4-4cd6-9dd0-ee44c4cc522f
 title: networkFilter (WLANPolicy) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

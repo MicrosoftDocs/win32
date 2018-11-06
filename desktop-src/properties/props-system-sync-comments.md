@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 060c4983-1de1-477b-8c18-a416d5a4c918
 title: System.Sync.Comments
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

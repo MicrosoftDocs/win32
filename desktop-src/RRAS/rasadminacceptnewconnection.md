@@ -4,7 +4,6 @@ description: The RasAdminAcceptNewConnection function is an application-defined 
 ms.assetid: 34a243f8-4293-49a6-9a2f-ce9950938928
 keywords:
 - RasAdminAcceptNewConnection callback function RAS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

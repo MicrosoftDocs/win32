@@ -2,7 +2,6 @@
 title: Property Storage Considerations
 description: IPropertyStorage ReadMultiple reads as many of the properties specified in the rgpspec array as are found in the property set.
 ms.assetid: 7540966f-a3b2-46c9-9e04-b15133a517eb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

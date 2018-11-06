@@ -1,12 +1,8 @@
 ---
 Description: The SWbemSink object exposes the following events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 73ACD3D3-41F2-4B8C-B55F-8716799FC363
 ms.tgt_platform: multiple
 title: SWbemSink Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Working with Compressed Video Data in a Stream
 description: Working with Compressed Video Data in a Stream
 ms.assetid: b701e072-f162-438f-b607-aea7491a02f9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

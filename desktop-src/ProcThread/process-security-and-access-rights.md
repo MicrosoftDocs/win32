@@ -2,7 +2,6 @@
 Description: The Microsoft Windows security model enables you to control access to process objects. For more information about security, see Access-Control Model.
 ms.assetid: 508a17c4-88cd-431a-a102-00180a7f7ab5
 title: Process Security and Access Rights
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -62,7 +61,7 @@ The handle returned by the [**CreateProcess**](https://msdn.microsoft.com/en-us/
 
 You can request the **ACCESS\_SYSTEM\_SECURITY** access right to a process object if you want to read or write the object's SACL. For more information, see [Access-Control Lists (ACLs)](https://msdn.microsoft.com/library/Aa374872(v=VS.85).aspx) and [SACL Access Right](https://msdn.microsoft.com/en-us/library/Aa379321(v=VS.85).aspx).
 
-> \[!Warning\]  
+> [!WARNING]
 > A process that has some of the access rights noted here can use them to gain other access rights. For example, if process A has a handle to process B with **PROCESS\_DUP\_HANDLE** access, it can duplicate the pseudo handle for process B. This creates a handle that has maximum access to process B. For more information on pseudo handles, see [**GetCurrentProcess**](https://msdn.microsoft.com/en-us/library/ms683179(v=VS.85).aspx).
 
  

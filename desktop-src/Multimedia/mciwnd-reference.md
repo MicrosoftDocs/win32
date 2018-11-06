@@ -7,7 +7,6 @@ keywords:
 - MCIWnd window class,reference
 - MCIWnd window,reference
 - MCIWnd reference,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

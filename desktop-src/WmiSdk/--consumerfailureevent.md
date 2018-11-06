@@ -1,12 +1,8 @@
 ---
 Description: Represents the occurrence of some other event that is being dropped because of the failure of an event consumer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bb6a1ce9-72a2-4528-8bc8-71ac053b6b1d
 ms.tgt_platform: multiple
 title: '__ConsumerFailureEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The following example shows how an application can retrieve the current DC brush color by using the SetDCBrushColor and the GetDCBrushColor functions.
 ms.assetid: a1ef6c25-0d00-4175-8679-001ba165bd6d
 title: Setting and Retrieving the Device Context Brush Color Value
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

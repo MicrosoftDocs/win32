@@ -2,7 +2,6 @@
 Description: The CreateInstance method calls the object-creation function for the class.
 ms.assetid: 8a7d5c56-867d-432d-a0c2-97b8e3cf8a69
 title: CFactoryTemplate.CreateInstance method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,Query object
 - Windows Media Player Mobile,Query object
 - Query object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

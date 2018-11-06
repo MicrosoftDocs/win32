@@ -1,15 +1,11 @@
 ---
 title: Sorting the Search Results with IDirectorySearch
 description: By default, the results of a search are returned in no guaranteed order. The ADS\_SEARCHPREF\_SORT\_ON preference instructs the server to sort the result set on a specified attribute value before it is returned to the client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1e44a572-7927-4fd5-a3eb-6dad0760d6e5
 ms.tgt_platform: multiple
 keywords:
 - Sorting the Search Results with IDirectorySearch
 - ADSI, Searching, IDirectorySearch, Other Search Options, Sorting Search Results
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

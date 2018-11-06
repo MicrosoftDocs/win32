@@ -1,9 +1,6 @@
 ---
 title: uid attribute
 description: A user ID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c6837343-2a3f-4b57-9477-2cbdc2f42cce
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - uid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

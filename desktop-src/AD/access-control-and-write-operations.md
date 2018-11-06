@@ -1,14 +1,10 @@
 ---
 title: Access Control and Write Operations
 description: Property modifications fail if the caller does not have sufficient rights.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eb5b97fb-4654-444e-9f5a-9a4be27ef1a3
 ms.tgt_platform: multiple
 keywords:
 - Access Control and Writer Operations AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

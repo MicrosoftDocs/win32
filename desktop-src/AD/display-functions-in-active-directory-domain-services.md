@@ -1,12 +1,8 @@
 ---
 title: Display Functions in Active Directory Domain Services
 description: The following functions work with display features provided in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7aa679d1-edf5-4981-910e-c0b9458b88d0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

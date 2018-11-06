@@ -2,7 +2,6 @@
 title: How to Draw and Fill a Complex Shape
 description: Direct2D provides the ID2D1PathGeometry interface for describing complex shapes that can contain curves, arcs, and lines. This topic describes how to define and render a path geometry.
 ms.assetid: d7aad487-04e0-448d-bedf-b8dfadc7bbe9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

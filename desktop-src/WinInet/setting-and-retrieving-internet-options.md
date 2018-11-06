@@ -4,7 +4,6 @@ description: This topic describes how to set and retrieve Internet options using
 ms.assetid: b596a4a9-c34a-402a-af76-b930fe5f0901
 keywords:
 - Setting and Retrieving Internet Options
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

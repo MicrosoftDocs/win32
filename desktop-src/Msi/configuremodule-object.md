@@ -2,7 +2,6 @@
 Description: The ConfigureModule object is an interface implemented by the client.
 ms.assetid: f6240837-7685-4bfe-8a2f-b4428014702a
 title: ConfigureModule object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

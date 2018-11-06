@@ -2,7 +2,6 @@
 Description: You can use the IX500DistinguishedName interface to create a subject name from a distinguished name string.
 ms.assetid: 78fbf15a-678f-4d87-a309-e70374e3ecee
 title: Creating a Subject Name
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

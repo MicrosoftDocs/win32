@@ -2,7 +2,6 @@
 title: Handler Architecture
 description: Handler Architecture
 ms.assetid: 93839b82-09cb-41af-ac0e-a8e9448bf04b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

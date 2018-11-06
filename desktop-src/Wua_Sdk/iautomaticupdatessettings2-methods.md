@@ -2,7 +2,6 @@
 Description: The IAutomaticUpdatesSettings2 interface defines the following method.
 ms.assetid: 8c7b9b8c-c4da-4861-a60c-79fe6255345d
 title: IAutomaticUpdatesSettings2 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

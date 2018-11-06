@@ -1,9 +1,6 @@
 ---
 title: rpc-Ns-Entry-Flags attribute
 description: Flag to indicate that the RPC NS entry was explicitly created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a8339920-778a-4539-b65d-c575eb047d18
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Ns-Entry-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

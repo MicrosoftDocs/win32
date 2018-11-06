@@ -1,9 +1,6 @@
 ---
 title: IMsTscAdvancedSettings DisableRdpdr property
 description: Specifies whether printer and clipboard redirection is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 63e0e024-4792-4efe-a6c5-d122f8adcb0a
 ms.tgt_platform: multiple
 keywords:
@@ -60,7 +57,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Occurs when an in-air packet is seen.
 ms.assetid: 10dc1909-bfbc-4ea0-b77a-e33149205107
 title: InkOverlay.NewInAirPackets event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

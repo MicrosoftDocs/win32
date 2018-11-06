@@ -1,14 +1,8 @@
 ---
 Description: Gets the specified properties of this Plug and Play device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 63327a4f-7d4a-4041-b58d-7a852ba08d5b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetDeviceProperties method of the Win32_PnPEntity class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

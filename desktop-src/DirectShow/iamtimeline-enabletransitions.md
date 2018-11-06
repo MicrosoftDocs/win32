@@ -2,7 +2,6 @@
 Description: The EnableTransitions method enables or disables all transitions in the timeline.
 ms.assetid: 8610337a-a247-44f0-8674-3cbc43f636d5
 title: IAMTimeline::EnableTransitions method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

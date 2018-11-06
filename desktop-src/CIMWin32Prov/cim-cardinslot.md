@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_CardInSlot class associates an adapter card with the container into which it is inserted.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 253fb444-2a9e-4099-a4d5-352b643d8e32
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_CardInSlot class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_CardInSlot** class associates an adapter card with the container into which it is inserted.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

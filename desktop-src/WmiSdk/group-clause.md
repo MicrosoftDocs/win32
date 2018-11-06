@@ -1,12 +1,8 @@
 ---
 Description: The GROUP clause causes WMI to generate a single notification to represent a group of events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 811e72f8-2e50-4696-ad58-50bb5e211afb
 ms.tgt_platform: multiple
 title: GROUP Clause
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

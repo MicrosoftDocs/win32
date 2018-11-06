@@ -2,7 +2,6 @@
 Description: Displays the Taskbar and Start Menu Properties dialog box. This method has the same effect as right-clicking the taskbar and selecting Properties.
 ms.assetid: 0d82d847-9e6f-461e-b938-fe8fd49a636f
 title: Shell.TrayProperties method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

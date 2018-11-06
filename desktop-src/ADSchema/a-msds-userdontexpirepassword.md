@@ -1,9 +1,6 @@
 ---
 title: ms-DS-User-Dont-Expire-Password attribute
 description: Indicates whether the password for the account this attribute references will expire.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bafbcb4a-ee45-4f88-8fb2-93840efd1289
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-User-Dont-Expire-Password
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

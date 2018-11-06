@@ -2,7 +2,6 @@
 title: Disconnecting
 description: When a RAS client application starts a connection operation, the RasDial call receives an HRASCONN connection handle to identify the connection.
 ms.assetid: a0fddc69-44bb-4bb0-ae57-ebecbe85cbe9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

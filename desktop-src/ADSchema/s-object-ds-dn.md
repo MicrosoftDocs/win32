@@ -1,9 +1,6 @@
 ---
 title: Object(DS-DN) syntax
 description: String that contains a distinguished name (DN).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 089104c4-ff82-49ea-a8db-a6dadc3a18bc
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Object(DS-DN)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

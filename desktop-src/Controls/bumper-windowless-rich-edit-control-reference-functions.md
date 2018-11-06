@@ -2,7 +2,6 @@
 title: Windowless Rich Edit Functions
 description: .
 ms.assetid: ee8e3934-945f-4041-9272-593f756dc32a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

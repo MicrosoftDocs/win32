@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_TapeDrive class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 53D03E02-DD6D-4C81-9EED-703A99ADE270
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_TapeDrive Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

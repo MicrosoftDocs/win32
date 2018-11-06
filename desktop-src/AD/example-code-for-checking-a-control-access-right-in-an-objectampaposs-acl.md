@@ -1,14 +1,10 @@
 ---
 title: Example Code for Checking a Control Access Right in an Object's ACL
 description: The following example can be used to verify that the currently logged-on user has permissions for a control access right on the specified object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 360320b8-32bd-4141-924b-25833a2761c8
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Checking a Control Access Right in an Object's ACL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

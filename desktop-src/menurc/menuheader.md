@@ -10,7 +10,6 @@ api_name:
 - MENUHEADER
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 api_location: 

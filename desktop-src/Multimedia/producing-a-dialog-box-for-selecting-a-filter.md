@@ -12,7 +12,6 @@ keywords:
 - ACM (audio compression manager),selecting filters
 - ACM examples,selecting filters
 - selecting filters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

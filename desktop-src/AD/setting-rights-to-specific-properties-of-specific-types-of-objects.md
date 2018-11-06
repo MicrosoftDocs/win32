@@ -1,15 +1,11 @@
 ---
 title: Setting Rights to Specific Properties of Specific Types of Objects
 description: Property-specific permissions can be used in combination with object specific inheritance to provide the powerful and detailed delegation of administration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d2ebbe3a-78f7-4bb5-bac0-13236031b7b1
 ms.tgt_platform: multiple
 keywords:
 - setting rights to specific properties of specific types of objects AD
 - Active Directory, using, security, setting rights to specific properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -26,7 +22,7 @@ Property-specific permissions can be used in combination with object specific in
 4.  Set [**IADsAccessControlEntry.InheritedObjectType**](https://msdn.microsoft.com/library/aa705952) to the **schemaIDGUID** of the object class that can inherit the ACE. For example, the **schemaIDGUID** of the **user** class is {bf967aba-0de6-11d0-a285-00aa003049e2}.
 5.  Set [**IADsAccessControlEntry.Flags**](https://msdn.microsoft.com/library/aa705952) to **ADS\_FLAG\_OBJECT\_TYPE\_PRESENT** and **ADS\_FLAG\_INHERITED\_OBJECT\_TYPE\_PRESENT**.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Set ADS\_ACEFLAG\_INHERIT\_ACE to cause the ACE to be inherited. In addition, set ADS\_ACEFLAG\_INHERIT\_ONLY\_ACE if the object type this ACE applies to does not match the object type of the container where the ACE is specified. If this is not done, the ACE will also become effective on the container and can grant unexpected rights.
 
  

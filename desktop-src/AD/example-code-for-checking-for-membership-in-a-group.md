@@ -1,14 +1,10 @@
 ---
 title: Example Code for Checking for Membership in a Group
 description: The following code example verifies absolute membership of an object by recursively verifying that an object is a member of a group or any groups nested in that group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4b6ef607-8d2e-4209-be61-498302749f7c
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , checking for membership in a group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

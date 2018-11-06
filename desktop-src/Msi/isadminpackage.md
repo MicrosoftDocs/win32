@@ -2,7 +2,6 @@
 Description: The installer sets the IsAdminPackage property to 1 if the current installation is running from a package created through an administrative installation.
 ms.assetid: 8c3652fe-c388-48e3-8794-cbda641d7747
 title: IsAdminPackage property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Lists and explains general purpose functions used by cryptography sample programs.
 ms.assetid: fb12dec5-3e9c-4424-9e88-202241595ae9
 title: General Purpose Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

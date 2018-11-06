@@ -1,9 +1,6 @@
 ---
 title: Generated-Connection attribute
 description: True if this connection was created by auto topology generation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aec351d4-b17d-49e6-bbc1-787703fd600b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Generated-Connection
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

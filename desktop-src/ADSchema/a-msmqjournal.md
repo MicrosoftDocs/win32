@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Journal attribute
 description: Indicates whether messages retrieved form the queue should be kept in journal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb1f73eb-57f4-413f-bd7a-9dfd5e5c797f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Journal
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

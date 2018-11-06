@@ -2,7 +2,6 @@
 title: SoundEffectsOn Property
 description: SoundEffectsOn Property
 ms.assetid: 478c4748-5ca1-4237-958a-17f0a476c32c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

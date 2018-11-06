@@ -1,9 +1,6 @@
 ---
 title: Enabled-Connection attribute
 description: Indicates whether a connection is available for use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 577c06fc-afb5-4e11-80a0-ee046ec68fb8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Enabled-Connection
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

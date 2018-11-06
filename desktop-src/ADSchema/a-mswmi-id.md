@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-ID attribute
 description: A unique ID for an object instance. Indexed in the Global Catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f0c98e87-2ad5-41d2-b571-3f26e24f5599
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

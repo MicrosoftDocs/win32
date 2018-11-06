@@ -8,7 +8,6 @@ keywords:
 - Windows Media metafiles,previous versions
 - metafiles,previous versions
 - versions of Windows Media metafiles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

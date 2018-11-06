@@ -1,9 +1,6 @@
 ---
 title: UnRegisterLSFromSCP method of the Win32_TSLicenseServer class
 description: Removes the Remote Desktop license server as a service connection point in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3EE6F272-A99F-49EF-BDED-D8C2C641D45B
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

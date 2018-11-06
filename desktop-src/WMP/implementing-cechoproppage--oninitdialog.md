@@ -9,7 +9,6 @@ keywords:
 - DSP plug-ins,Echo sample property pages
 - Echo DSP plug-in sample,property pages
 - Echo DSP plug-in sample,CEchoPropPage OnInitDialog method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: FRS-Control-Outbound-Backlog attribute
 description: Warning/Error level pair for outbound backlog (number of files).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d35b4605-c336-4ed0-af8c-da5c9534e5c2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Control-Outbound-Backlog
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

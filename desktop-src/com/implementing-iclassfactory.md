@@ -2,7 +2,6 @@
 title: Implementing IClassFactory
 description: Implementing IClassFactory
 ms.assetid: 96466756-c135-4ee5-a48c-f31129878473
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

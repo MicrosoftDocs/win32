@@ -1,9 +1,6 @@
 ---
 title: AddProgram method of the Win32_TSVirtualIP class
 description: Adds a program to the list of programs that use IP virtualization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4d142774-fa7a-4cfb-9305-5a61b0ef5438
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

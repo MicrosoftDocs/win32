@@ -4,7 +4,6 @@ description: Changing the Current Position
 ms.assetid: f8c4b9b5-c5fb-4292-8418-41650dcd65c0
 keywords:
 - MCI_SEEK command message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

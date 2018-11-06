@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 591d1ad1-3f3e-4fc2-87fe-8e9bce7e9ec1
 title: Communication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

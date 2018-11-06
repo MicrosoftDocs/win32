@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.Photo.ProgramMode property.
 ms.assetid: f1954dc7-d4df-4675-ab3b-a65f2354e57a
 title: System.Photo.ProgramMode Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Clustered attribute
 description: True if the server is clustered.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 066609a4-fdf1-422b-9b26-445f617c99d4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Clustered
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

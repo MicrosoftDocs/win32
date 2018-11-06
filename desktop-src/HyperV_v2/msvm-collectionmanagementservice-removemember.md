@@ -2,7 +2,6 @@
 Description: Removes the specified managed element as a member of the given CIM\_CollectionOfMSEs object.
 ms.assetid: ea945d24-bcff-476b-9adb-c6573cdbc0b5
 title: RemoveMember method of the Msvm_CollectionManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

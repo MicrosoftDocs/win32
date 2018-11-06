@@ -1,9 +1,6 @@
 ---
 title: ms-TPM-Tpm-Information-For-Computer attribute
 description: This attribute links a Computer object to a TPM object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6b0711a6-ef7f-4afa-9bea-e09515b56882
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TPM-Tpm-Information-For-Computer
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

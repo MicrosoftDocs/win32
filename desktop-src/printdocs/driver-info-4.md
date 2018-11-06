@@ -2,7 +2,6 @@
 Description: The DRIVER\_INFO\_4 structure contains printer driver information.
 ms.assetid: 63000de6-74e7-4427-98d7-7bbd2dd61080
 title: DRIVER_INFO_4 structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

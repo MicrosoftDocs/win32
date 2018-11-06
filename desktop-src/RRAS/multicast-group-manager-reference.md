@@ -6,7 +6,6 @@ keywords:
 - Routing and Remote Access Service RRAS , Multicast Group Manager, reference
 - Multicast Group Manager RRAS
 - Multicast Group Manager RRAS , reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

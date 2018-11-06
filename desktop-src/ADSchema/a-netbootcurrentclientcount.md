@@ -1,9 +1,6 @@
 ---
 title: netboot-Current-Client-Count attribute
 description: The netboot-Current-Client-Count attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c9f088ff-e5f6-4a5e-b6c4-ab869a8ed67e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-Current-Client-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Compiling an Instrumentation Manifest
 description: After writing your manifest, use the message compiler to validate the manifest and generate the resource and header files that you include in your provider.
 ms.assetid: ecb72942-08fc-470d-b4d6-f5f1a70de3fa
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,versions for object model
 - Windows Media Player Mobile,versions for object model
 - versions of Windows Media Player,object model
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

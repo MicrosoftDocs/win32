@@ -2,7 +2,6 @@
 Description: Virtual DOS Machine Debug
 ms.assetid: 031F93ED-D4C7-48F6-A158-6C5D9848A078
 title: Virtual DOS Machine Debug
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

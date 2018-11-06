@@ -1,9 +1,6 @@
 ---
 title: ms-TPM-Owner-Information-Temp attribute
 description: This attribute contains temporary owner information for a particular TPM.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 222b40b6-880b-4ab1-9fdb-2c196b363a66
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TPM-Owner-Information-Temp
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

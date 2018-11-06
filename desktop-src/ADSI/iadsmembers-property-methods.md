@@ -1,9 +1,6 @@
 ---
 title: IADsMembers Property Methods
 description: The methods of the IADsMembers interface read and write the properties described in this topic. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ed4e98e5-053c-4d3b-bcd0-3add96bbe120
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +18,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

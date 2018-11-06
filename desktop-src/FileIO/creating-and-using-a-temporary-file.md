@@ -2,7 +2,6 @@
 Description: Example code that shows how to create a temporary file for data manipulation purposes by using the GetTempFileName and GetTempPath functions.
 ms.assetid: 6254c67d-5d34-499d-b1a4-8cac526dd294
 title: Creating and Using a Temporary File
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

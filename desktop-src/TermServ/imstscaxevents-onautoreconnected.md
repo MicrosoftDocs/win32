@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnAutoReconnected method
 description: Called when the client control has automatically reconnected to a remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 50307002-33F9-453C-A880-AF4111412854
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

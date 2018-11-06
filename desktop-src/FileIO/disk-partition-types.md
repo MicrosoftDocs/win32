@@ -2,7 +2,6 @@
 Description: Valid partition types used by disk drivers.
 ms.assetid: b2e15b93-a02b-4d6f-b242-b5ec9a30c97b
 title: Disk Partition Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

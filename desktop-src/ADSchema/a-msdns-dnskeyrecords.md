@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-DNSKEY-Records attribute
 description: An attribute that contains the DNSKEY record set for the root of the DNS zone and the root key signing key signature records.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bc53e9fa-8ed5-46ac-a7ab-949d19aa1c66
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-DNSKEY-Records
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

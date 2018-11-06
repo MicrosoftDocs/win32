@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Slot class represents connectors into which packages are inserted.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bcb1bdb5-fb1a-47ed-9450-dca38edca0eb
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Slot class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -53,7 +47,7 @@ api_location:
 
 The **CIM\_Slot** class represents connectors into which packages are inserted. For example, a physical package that is a disk drive can be inserted into an SCA slot, or a card (a subclass of [CIM\_PhysicalPackage](cim-physicalpackage.md)) can be inserted into a 16-, 32-, or 64-bit expansion slot on a hosting board. PCI or PCMCIA Type III Slots are examples of the latter.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

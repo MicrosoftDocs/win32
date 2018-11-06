@@ -2,7 +2,6 @@
 Description: The Installer Database enables the developer of an installation package to control the transfer of an application from a source to a target image.
 ms.assetid: 058cefcd-83dd-4a13-bd55-11d52f9d41f5
 title: Using the Installer Database
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

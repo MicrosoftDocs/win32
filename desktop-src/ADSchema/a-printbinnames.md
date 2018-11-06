@@ -1,9 +1,6 @@
 ---
 title: Print-Bin-Names attribute
 description: A list of printer bin names.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f8c300be-23be-4e20-8217-e1fd033797aa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Bin-Names
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

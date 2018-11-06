@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Service class represents a logical element that contains information to represent and manage the functionality provided by a device or software feature.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b95e8ea7-4daf-4dcf-817c-b872560b62df
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -36,7 +30,7 @@ api_location:
 
 The **CIM\_Service** class represents a logical element that contains information to represent and manage the functionality provided by a device or software feature. A service is a general-purpose object to configure and manage the implementation of functionality; it is not the functionality itself.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

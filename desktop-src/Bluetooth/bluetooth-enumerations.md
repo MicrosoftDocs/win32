@@ -2,7 +2,6 @@
 title: Bluetooth Enumerations
 description: The following enumerations support the Microsoft Bluetooth implementation.
 ms.assetid: 122c4872-acd1-403f-bb94-16349e73a320
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

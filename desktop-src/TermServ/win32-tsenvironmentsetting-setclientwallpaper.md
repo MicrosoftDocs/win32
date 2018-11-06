@@ -1,9 +1,6 @@
 ---
 title: SetClientWallPaper method of the Win32_TSEnvironmentSetting class
 description: The SetClientWallPaper method sets the ClientWallPaper property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 08c41df4-5a3c-4799-bb64-61f414814d0c
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

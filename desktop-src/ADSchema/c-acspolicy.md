@@ -1,9 +1,6 @@
 ---
 title: ACS-Policy class
 description: The Admission Controls Service bandwidth allocation policy for a user or profile.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f449deb4-3156-40b1-85b2-c878f963554e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

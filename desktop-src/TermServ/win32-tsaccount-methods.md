@@ -1,12 +1,8 @@
 ---
 title: Win32_TSAccount Methods
 description: The Win32\_TSAccount class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: E10FF3A6-DD2B-4593-B1A6-6A0C13ED8940
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

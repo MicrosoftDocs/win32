@@ -2,7 +2,6 @@
 title: Timing
 description: This section covers querying timestamps, and calibrating the GPU and CPU timestamp counters.
 ms.assetid: CC1E5BAB-4363-43FF-BF5B-6C9AEBECD6CA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: break_comp - ps
 description: Break out of the current loop at the nearest endloop - ps or endrep - ps, based on a per-component comparison.
 ms.assetid: d21e850f-05db-4a29-b15b-85bb1c1410d0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

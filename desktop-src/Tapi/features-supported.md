@@ -2,7 +2,6 @@
 Description: The following list contains the TAPI MSP supported features.
 ms.assetid: e36bba94-1fa7-4514-9f8a-bcd690b04d73
 title: Features Supported
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

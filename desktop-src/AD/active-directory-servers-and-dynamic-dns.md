@@ -1,14 +1,10 @@
 ---
 title: Active Directory Servers and Dynamic DNS
 description: The Active Directory servers publish their addresses such that clients can find them knowing only the domain name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b4928d53-2629-4ddb-bb43-ce7a187b41e2
 ms.tgt_platform: multiple
 keywords:
 - dynamic DNS Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDriveCollection DriveCount property
 description: Retrieves the count of objects in the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 33b39657-2cc1-4f1e-b23a-809a9737ed8d
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

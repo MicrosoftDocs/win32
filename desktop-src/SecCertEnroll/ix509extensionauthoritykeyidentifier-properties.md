@@ -2,7 +2,6 @@
 Description: The IX509ExtensionAuthorityKeyIdentifier interface exposes the following properties.
 ms.assetid: 3DFB9D9B-4D2A-4FED-85DC-63E37445E1E4
 title: IX509ExtensionAuthorityKeyIdentifier Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

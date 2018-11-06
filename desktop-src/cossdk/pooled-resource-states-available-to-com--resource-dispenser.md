@@ -2,7 +2,6 @@
 Description: Pooled Resource States Available to COM+ Resource Dispenser
 ms.assetid: 5037f11c-d113-49b0-b26f-0e3bc59ae8b3
 title: Pooled Resource States Available to COM+ Resource Dispenser
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

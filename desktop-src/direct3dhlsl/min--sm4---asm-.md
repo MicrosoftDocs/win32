@@ -2,7 +2,6 @@
 title: min (sm4 - asm)
 description: Component-wise float minimum.
 ms.assetid: 8EDD5503-76D5-4078-BFBA-1DA9260C6E68
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

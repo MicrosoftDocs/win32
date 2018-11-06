@@ -2,7 +2,6 @@
 Description: You can use the CryptSignMessage function to cosign a message.
 ms.assetid: b400436f-a71f-426a-ac8a-7fdcfa6d7575
 title: 'Example C Program: Cosigning and Decoding a Message'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

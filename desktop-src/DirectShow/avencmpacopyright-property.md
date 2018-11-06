@@ -2,7 +2,6 @@
 Description: Specifies the default setting for the copyright bit in the MPEG-1 audio stream. This property applies to MPEG audio encoders.
 ms.assetid: 6029c96f-b1dd-402f-9bac-9021bd897ee4
 title: AVEncMPACopyright property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

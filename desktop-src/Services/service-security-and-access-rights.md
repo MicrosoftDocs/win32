@@ -2,7 +2,6 @@
 Description: The Windows security model enables you to control access to the service control manager (SCM) and service objects.
 ms.assetid: 23d1c382-6ba4-49e2-8039-c2a91471076c
 title: Service Security and Access Rights
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

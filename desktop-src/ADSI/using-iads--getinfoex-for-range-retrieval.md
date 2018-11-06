@@ -1,15 +1,11 @@
 ---
 title: Using IADs GetInfoEx for Range Retrieval
 description: The IADs.GetInfoEx method can be used to retrieve a range of attribute values. The range of values to retrieve is specified in the attribute name array passed to the method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2098862f-e5ec-4912-a941-8faceade22ee
 ms.tgt_platform: multiple
 keywords:
 - Using IADs GetInfoEx for Range Retrieval ADSI
 - IADs GetInfoEx ADSI , using for range retrieval
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

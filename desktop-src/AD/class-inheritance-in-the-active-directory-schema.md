@@ -1,12 +1,8 @@
 ---
 title: Class Inheritance in the Active Directory Schema
 description: All object classes in an Active Directory directory service schema are derived from the special class top.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 26e5107f-8204-4f64-bd07-b5b4f16103f4
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: GetUserAssignment method of the Win32_RDMSVirtualDesktop class
 description: Retrieves the username and domain name of the user that is assigned to the virtual desktop.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1887c49d-85df-4fb4-9b40-42fb7763bf95
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

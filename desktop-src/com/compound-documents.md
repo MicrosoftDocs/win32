@@ -2,7 +2,6 @@
 title: Compound Documents
 description: OLE compound documents enable users working within a single application to manipulate data written in various formats and derived from multiple sources.
 ms.assetid: d17dc0dd-3115-4830-8c6b-694a8d1accaa
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The ICertificatePolicy interface exposes the following properties.
 ms.assetid: 709C1CAB-9552-496F-839F-F76C7D4298A1
 title: ICertificatePolicy Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

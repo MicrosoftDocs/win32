@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-DfsLinkTarget attribute
 description: Contains the link target for the subscription.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 42f55602-21b8-4f80-8b12-6183cf598857
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-DfsLinkTarget
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

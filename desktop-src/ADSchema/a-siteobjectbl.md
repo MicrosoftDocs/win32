@@ -1,9 +1,6 @@
 ---
 title: Site-Object-BL attribute
 description: The list of distinguished names for subnets that belong to this site.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 70408711-7886-4a8e-9aeb-60354b418c2d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Site-Object-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

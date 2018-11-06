@@ -2,7 +2,6 @@
 Description: This section describes how to use Microsoft Media Foundation to perform video capture.
 ms.assetid: 'ae9cdebe-0591-4bdb-9637-7a4dee002be2'
 title: Video Capture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

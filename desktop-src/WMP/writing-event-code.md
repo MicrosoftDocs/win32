@@ -9,7 +9,6 @@ keywords:
 - writing code for skins,about
 - Windows Media Player skins,events
 - skins,events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: QueryPoint attribute
 description: The URL or UNC of a query page or other front end for accessing a catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8e23d8d0-e35a-4a2c-befb-696b037e8c91
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - QueryPoint
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

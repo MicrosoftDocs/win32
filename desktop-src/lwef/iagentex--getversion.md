@@ -2,7 +2,6 @@
 title: IAgentEx GetVersion
 description: IAgentEx GetVersion
 ms.assetid: e5d55fcd-c1b4-4c9e-b3c7-4471af2f86af
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

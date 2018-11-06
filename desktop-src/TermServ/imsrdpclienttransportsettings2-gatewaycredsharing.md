@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewayCredSharing property
 description: Specifies or retrieves the setting for whether the Remote Desktop Gateway (RD Gateway) credential sharing feature is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 296dc578-376d-41f6-988a-286fe744959f
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

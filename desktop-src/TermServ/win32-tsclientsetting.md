@@ -1,9 +1,6 @@
 ---
 title: Win32_TSClientSetting class
 description: Defines configuration settings for the Win32\_Terminal class related to connection policy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 438baf22-adc2-410e-bf9b-4b17a05c5ce4
 ms.tgt_platform: multiple
 keywords:
@@ -71,7 +68,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

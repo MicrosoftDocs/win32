@@ -2,7 +2,6 @@
 Description: Directly Hosting a DMO
 ms.assetid: 10fb99cf-78d9-4519-9aec-23b0daeca9e2
 title: Directly Hosting a DMO
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

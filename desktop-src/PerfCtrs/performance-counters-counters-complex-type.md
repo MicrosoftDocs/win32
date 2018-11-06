@@ -2,7 +2,6 @@
 Description: Defines the section of the instrumentation manifest that identifies the provider and the counters that they provide.
 ms.assetid: c661f1af-ebe8-4f8a-b77e-a2229f45facd
 title: counters Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

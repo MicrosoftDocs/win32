@@ -2,7 +2,6 @@
 Description: Retrieves the number of cryptographic service providers (CSPs).
 ms.assetid: 7e0c1613-85ad-4f25-837e-d7b0f11e654a
 title: ISCrdEnr::CSPCount property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

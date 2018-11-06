@@ -1,9 +1,6 @@
 ---
 title: host attribute
 description: Specifies a host computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4ad13026-eea2-4a69-a149-14cc04188c93
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - host
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

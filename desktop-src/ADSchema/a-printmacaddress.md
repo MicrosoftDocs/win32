@@ -1,9 +1,6 @@
 ---
 title: Print-MAC-Address attribute
 description: The user-supplied MAC address.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eac2fe36-2e40-419a-b05a-077d473fc872
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-MAC-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

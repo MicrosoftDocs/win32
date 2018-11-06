@@ -2,7 +2,6 @@
 Description: Here we describe how to manage or get info about virtual machines.
 ms.assetid: B0F5E19F-36A6-4965-A119-42AF601A64BE
 title: Hyper-V management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

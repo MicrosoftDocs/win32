@@ -2,7 +2,6 @@
 Description: The installer sets the MsiTabletPC property to a nonzero value if the current operating system is Windows XP Tablet PC Edition.
 ms.assetid: b178a98e-b6f8-4ff8-b554-e47c3b39f892
 title: MsiTabletPC property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

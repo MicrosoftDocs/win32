@@ -2,7 +2,6 @@
 title: Asynchronous Call State
 description: This page describes the Asynchronous Call State for RPC calls.
 ms.assetid: 4a594dad-a8a1-44e9-8648-ddc2539c234c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

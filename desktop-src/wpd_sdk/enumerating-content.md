@@ -2,7 +2,6 @@
 Description: Enumerating Content
 ms.assetid: 86782a09-4fca-4ae0-beaf-296069e061dc
 title: Enumerating Content
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: IAgentCommandsEx SetFontName
 description: IAgentCommandsEx SetFontName
 ms.assetid: c676ceb6-c098-4ac0-9103-ece469317ad6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

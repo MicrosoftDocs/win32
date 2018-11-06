@@ -2,7 +2,6 @@
 Description: Gets the index of an animation, given its name.
 ms.assetid: 6e91a4fe-3202-447b-b486-d29e8da64af2
 title: ID3DXAnimationSet::GetAnimationIndexByName method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

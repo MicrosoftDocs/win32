@@ -2,7 +2,6 @@
 Description: The orientation of the photo when it was taken, as specified in the Exchangeable Image File (EXIF) information and in terms of rows and columns.
 ms.assetid: d6186248-8944-4bd6-8f04-bab5ea15b169
 title: System.Photo.Orientation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

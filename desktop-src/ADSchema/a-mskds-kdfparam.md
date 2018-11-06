@@ -1,9 +1,6 @@
 ---
 title: ms-Kds-KDF-Param attribute
 description: Parameters for the key derivation algorithm.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 66f3273d-f963-48e6-b0dc-c8bbebe4d2d3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Kds-KDF-Param
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The SelectLeftButton method selects the left directional button from the displayed menu.
 ms.assetid: cd1813a0-9eb2-4f7e-8fa4-94f3bfa92ee4
 title: SelectLeftButton Method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

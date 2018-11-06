@@ -13,7 +13,6 @@ keywords:
 - DRM (digital rights management),burning playlists with secure files
 - digital rights management (DRM),playlists with secure files
 - DRM (digital rights management),playlists with secure files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

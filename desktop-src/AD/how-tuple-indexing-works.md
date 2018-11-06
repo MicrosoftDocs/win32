@@ -1,16 +1,12 @@
 ---
 title: How Tuple Indexing Works
 description: Tuple indices are used to optimize searches that have 0 or more medial-search strings and 0 or 1 final-search strings. They can also be used to optimize searches for an initial search string if no ordinary index is available over that attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0f7b3f64-70cd-4581-a9ab-bb882eabef8c
 ms.tgt_platform: multiple
 keywords:
 - tuple indexing
 - Searching Active Directory Active Directory , optimization
 - Active Directory, search optimization Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

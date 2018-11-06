@@ -1,12 +1,8 @@
 ---
 title: Server Data Objects
 description: The Server Data Objects (SDO) API makes it possible to programmatically configure and administer a system running NPS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d159e15-f534-4ab1-9641-db70064beb51
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

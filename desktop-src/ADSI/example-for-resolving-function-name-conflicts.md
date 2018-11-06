@@ -1,15 +1,11 @@
 ---
 title: Example for Resolving Function Name Conflicts
 description: This topic describes how to resolve function name conflicts when creating an extension for ADSI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8121f037-3845-44ba-a2cd-8d7f15e0beb2
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,example code Visual Basic ,resolving function name conflicts
 - resolving function name conflicts ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

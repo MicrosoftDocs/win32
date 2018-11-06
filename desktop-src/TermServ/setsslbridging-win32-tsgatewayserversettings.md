@@ -1,9 +1,6 @@
 ---
 title: SetSslBridging method of the Win32_TSGatewayServerSettings class
 description: Sets the type of SSL bridging to be used by the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 11885b8b-491e-4d90-b4d4-f0a0fbe68cb1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -27,7 +23,7 @@ ms.date: 05/31/2018
 
 Sets the type of SSL bridging to be used by the Remote Desktop Gateway (RD Gateway) server. This value is stored in the **SslBridging** property.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > When the SSL bridging type is changed with this method, the RD Gateway service must be restarted to make this change take effect.
 
  

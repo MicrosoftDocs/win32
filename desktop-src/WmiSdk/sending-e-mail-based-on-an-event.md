@@ -1,12 +1,8 @@
 ---
 Description: By using the SMTPEventConsumer class, you can send email to a designated user when a specified event occurs. This class is a standard event consumer that WMI provides.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ed10e6f7-8e18-4cde-bd46-a7791547c7da
 ms.tgt_platform: multiple
 title: Sending Email Based on an Event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

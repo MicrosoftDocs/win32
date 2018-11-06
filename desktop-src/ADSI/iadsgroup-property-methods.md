@@ -1,9 +1,6 @@
 ---
 title: IADsGroup Property Methods
 description: Property methods of the IADsGroup interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a8aa88d4-4695-47bc-bf7f-a17236a5671c
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

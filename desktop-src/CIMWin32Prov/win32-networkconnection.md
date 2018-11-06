@@ -1,14 +1,8 @@
 ---
 Description: Represents an active network connection in a Windows-based environment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e16e5f13-ea28-4d75-9978-4ff2ef5e5506
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_NetworkConnection class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

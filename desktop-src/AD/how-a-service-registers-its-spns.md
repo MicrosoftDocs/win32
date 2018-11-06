@@ -1,15 +1,11 @@
 ---
 title: How a Service Registers its SPNs
 description: Before a client can use an SPN to authenticate an instance of a service, the SPN must be registered on the user or computer account that the service instance will use to log on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 39712c1f-3a9a-4c98-a1cb-879ab0b4cb63
 ms.tgt_platform: multiple
 keywords:
 - How a Service Registers its SPNs AD
 - service principal name AD , how a service registers its SPNs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

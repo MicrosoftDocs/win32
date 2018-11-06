@@ -1,12 +1,8 @@
 ---
 Description: The ExecMethodAsync\_ method of SWbemObject asynchronously executes a method that a method provider exports.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b848b38b-c0c3-49cd-b1e2-b0a440b82d61
 ms.tgt_platform: multiple
 title: SWbemObject.ExecMethodAsync_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

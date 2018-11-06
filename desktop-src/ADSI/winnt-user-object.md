@@ -1,15 +1,11 @@
 ---
 title: WinNT User Object
 description: The WinNT User object represents a user account in a Windows NT 4.0 domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c57016e2-538b-4f37-a1bb-699fcf3c080d
 ms.tgt_platform: multiple
 keywords:
 - WinNT User Object ADSI
 - WinNT provider ADSI , user object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

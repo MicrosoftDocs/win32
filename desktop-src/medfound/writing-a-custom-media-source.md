@@ -2,7 +2,6 @@
 Description: This topic describes how to implement a custom media source in Microsoft Media Foundation.
 ms.assetid: '82db6f32-ad94-4563-b8bd-8a5072c5b221'
 title: Writing a Custom Media Source
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

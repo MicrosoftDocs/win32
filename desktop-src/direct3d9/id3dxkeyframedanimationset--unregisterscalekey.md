@@ -2,7 +2,6 @@
 Description: Removes the scale data at the specified key frame.
 ms.assetid: b0bf5665-ccfb-4b87-8e88-9a717ef57955
 title: ID3DXKeyframedAnimationSet::UnregisterScaleKey method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

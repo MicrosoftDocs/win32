@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-DS-Record-Set-TTL attribute
 description: An attribute that defines the time-to-live (TTL) value assigned to DS records when signing the DNS zone.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fd8eca7c-9b54-4a18-80a3-c01f9053f4a0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-DS-Record-Set-TTL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

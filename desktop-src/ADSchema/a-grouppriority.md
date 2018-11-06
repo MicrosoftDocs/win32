@@ -1,9 +1,6 @@
 ---
 title: Group-Priority attribute
 description: The Group-Priority attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b16f644b-b9ef-4382-930b-344cf3de0190
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Group-Priority
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

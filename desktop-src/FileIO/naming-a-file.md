@@ -2,7 +2,6 @@
 Description: All file systems supported by Windows use the concept of files and directories to access data stored on a disk or device.
 ms.assetid: 121cd5b2-e6fd-4eb4-99b4-b652d27b53e8
 title: Naming Files, Paths, and Namespaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -146,7 +145,7 @@ When using an API to create a directory, the specified path cannot be so long th
 
 The shell and the file system have different requirements. It is possible to create a path with the Windows API that the shell user interface is not able to interpret properly.
 
-> \[!Tip\]  
+> [!TIP]
 > Starting in Windows 10, version 1607, **MAX\_PATH** limitations have been removed from common Win32 file and directory functions. However, you must opt-in to the new behavior.
 
  

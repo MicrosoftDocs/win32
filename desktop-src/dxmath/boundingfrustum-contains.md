@@ -2,7 +2,6 @@
 Description: Tests whether the BoundingFrustum contains a specified object.
 ms.assetid: b75bff54-710e-4474-9953-444970a78853
 title: BoundingFrustum.Contains methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

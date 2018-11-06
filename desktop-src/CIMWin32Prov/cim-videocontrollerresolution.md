@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_VideoControllerResolution class represents the various video modes that a video controller can support.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 954ac3fe-9777-460c-8929-853f19379256
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_VideoControllerResolution class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -38,7 +32,7 @@ The **CIM\_VideoControllerResolution** class represents the various video modes 
 
 Hardware that is not compatible with Windows Display Driver Model (WDDM) returns inaccurate property values for instances of this class.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

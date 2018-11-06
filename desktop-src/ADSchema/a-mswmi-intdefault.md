@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-intDefault attribute
 description: The default value for WMI 32-bit integer parameter objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 56f6144c-64b6-4182-b5d2-6a0f9e0de0fa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-intDefault
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

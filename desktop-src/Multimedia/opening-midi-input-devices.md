@@ -11,7 +11,6 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),opening input devices
 - recording MIDI audio,opening input devices
 - opening MIDI input devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

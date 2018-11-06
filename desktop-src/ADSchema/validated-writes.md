@@ -1,12 +1,8 @@
 ---
 title: Validated Writes
 description: The following validated writes are defined by Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 80af710f-3feb-4708-af86-8be07475a61a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

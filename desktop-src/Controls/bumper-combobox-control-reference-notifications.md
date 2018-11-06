@@ -2,7 +2,6 @@
 title: ComboBox Control Notifications
 description: .
 ms.assetid: e5804e9e-e847-4f07-819e-569bd8d60117
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

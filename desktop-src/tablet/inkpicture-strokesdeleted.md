@@ -2,7 +2,6 @@
 Description: Occurs after IInkStrokeDisp objects have been deleted from the Ink property.
 ms.assetid: 395544e1-dc93-45d3-ac7a-d54712f3c027
 title: InkPicture.StrokesDeleted event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

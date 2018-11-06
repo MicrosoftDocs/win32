@@ -1,9 +1,6 @@
 ---
 title: WWW-Home-Page attribute
 description: A web page that is the primary landing page of a website.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5dbc571d-3032-4eee-ab2d-9f6f0273a472
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - WWW-Home-Page
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

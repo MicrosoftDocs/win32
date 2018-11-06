@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-ContentSetGuid attribute
 description: Contains the Distributed File System (DFS) Replication content set GUID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 69b2a293-f80e-4af5-b06c-27d373994318
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-ContentSetGuid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

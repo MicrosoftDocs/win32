@@ -2,7 +2,6 @@
 title: FontName Property
 description: FontName Property
 ms.assetid: 7de3653e-9b4d-4a31-82d5-243f10e2743b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

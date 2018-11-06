@@ -2,7 +2,6 @@
 Description: Enumerates or finds the first or next certificate in an external store that matches specified criteria.
 ms.assetid: 1129a372-4d7c-454e-969b-26a1d6037bc0
 title: CertStoreProvFindCert callback function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

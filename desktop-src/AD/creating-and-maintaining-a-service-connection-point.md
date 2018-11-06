@@ -1,15 +1,11 @@
 ---
 title: Creating and Maintaining a Service Connection Point
 description: When publishing with an SCP, remember that it must contain current data about the service instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2350cb65-3439-4a5f-adc5-b71476793247
 ms.tgt_platform: multiple
 keywords:
 - Creating and Maintaining a Service Connection Point AD
 - service connection point AD , creating and maintaining
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

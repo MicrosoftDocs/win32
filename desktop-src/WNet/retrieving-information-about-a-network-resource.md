@@ -2,7 +2,6 @@
 title: Retrieving Information About a Network Resource
 description: To identify the network provider that owns a resource, an application can call the WNetGetResourceInformation function, as illustrated in the following code sample.
 ms.assetid: 4bddb55c-181d-4c6f-bd92-9c27d6b894bb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

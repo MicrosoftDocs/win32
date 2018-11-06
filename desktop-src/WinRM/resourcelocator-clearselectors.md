@@ -1,9 +1,6 @@
 ---
 title: ResourceLocator.ClearSelectors method
 description: Removes all of the selectors from a ResourceLocator object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 759880e6-5026-45de-b7e1-a4f5a16c32a0
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

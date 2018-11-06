@@ -2,7 +2,6 @@
 Description: The symbol handler is designed to track various sets of symbol files.
 ms.assetid: 1bd7ac25-e46d-442b-b365-52edcd8bf922
 title: Symbol Handler Initialization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

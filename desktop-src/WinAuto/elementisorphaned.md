@@ -2,7 +2,6 @@
 title: ElementIsOrphaned
 description: ElementIsOrphaned
 ms.assetid: EB603052-2B0F-418C-947E-827453440F46
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

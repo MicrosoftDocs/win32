@@ -2,7 +2,6 @@
 Description: After you create an INF file, you will typically write the source code for your setup application. You call the setup functions from your setup application to perform many installation operations.
 ms.assetid: 9f444564-d3a4-4b3c-8849-b56cd610356c
 title: Creating Setup Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

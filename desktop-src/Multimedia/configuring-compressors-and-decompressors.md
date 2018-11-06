@@ -6,7 +6,6 @@ keywords:
 - video compression manager (VCM),configuring compressors
 - VCM (video compression manager),configuring compressors
 - ICQueryConfigure macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

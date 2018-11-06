@@ -2,7 +2,6 @@
 Description: As of Windows Vista, Control Panel items included with Windows are given a canonical name that can be used in an API call or a command-line instruction to programmatically launch that item.
 ms.assetid: A02DFC9F-646D-40d8-901C-7239A820DE2C
 title: Canonical Names of Control Panel Items
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

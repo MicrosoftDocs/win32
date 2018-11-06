@@ -2,7 +2,6 @@
 Description: Gets a handle to a cryptographic service provider (CSP) and a key specification for a certificate context.
 ms.assetid: ff72231f-e10f-49d2-b0e0-0008923803cc
 title: GetCryptProvFromCert function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ api_location:
 
 # GetCryptProvFromCert function
 
-> \[!Important\]  
+> [!IMPORTANT]
 > This API is deprecated. Microsoft may remove this API in future releases.
 
  

@@ -2,7 +2,6 @@
 title: Multicast Group Manager Structures
 description: The MGM API use the following structures
 ms.assetid: d09d4692-1471-4c2c-b72f-a515225b1693
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

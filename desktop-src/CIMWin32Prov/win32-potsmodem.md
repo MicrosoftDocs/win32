@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_POTSModem WMI class represents the services and characteristics of a Plain Old Telephone Service (POTS) modem on a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 24589942-e2c3-477e-8179-59ae4a4aa85a
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_POTSModem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

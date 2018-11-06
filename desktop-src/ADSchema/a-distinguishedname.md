@@ -1,9 +1,6 @@
 ---
 title: Obj-Dist-Name attribute
 description: Same as the Distinguished Name for an object. Used by Exchange.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0dc2855c-2707-49d8-80e6-27f163a59bc8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Obj-Dist-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Using Resources
 description: This section contains code related to resource programming tasks.
 ms.assetid: 73678045-1518-46cd-ab55-5d272852ba73
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

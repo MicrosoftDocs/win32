@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_PageFileElementSetting association WMI class relates the initial settings of a page file and the state of those settings during normal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: efc1f20d-166e-4e27-9767-f6ec0bbd6c14
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PageFileElementSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

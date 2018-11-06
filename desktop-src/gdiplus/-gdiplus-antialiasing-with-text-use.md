@@ -2,7 +2,6 @@
 Description: Windows GDI+ provides various quality levels for drawing text. Typically, higher quality rendering takes more processing time than lower quality rendering.
 ms.assetid: 780d97ec-f446-4d19-837f-517a7d6dd27d
 title: Antialiasing with Text
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

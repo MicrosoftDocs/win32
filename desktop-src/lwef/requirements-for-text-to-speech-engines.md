@@ -2,7 +2,6 @@
 title: Requirements for Text-To-Speech Engines
 description: Requirements for Text-To-Speech Engines
 ms.assetid: 21d19949-c9b4-4d9c-9684-6d15162f7a7d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

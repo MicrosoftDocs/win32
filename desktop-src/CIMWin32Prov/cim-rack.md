@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Rack class represents a rack (a physical frame or enclosure) in which chassis are stored. Typically, a rack represents the enclosure; all functioning components are packaged in the chassis.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1e0273ce-2a09-4f75-a82e-d0555d6a831e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Rack class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -58,7 +52,7 @@ api_location:
 
 The **CIM\_Rack** class represents a rack (a physical frame or enclosure) in which chassis are stored. Typically, a rack represents the enclosure; all functioning components are packaged in the chassis.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

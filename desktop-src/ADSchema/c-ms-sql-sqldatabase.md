@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-SQLDatabase class
 description: Class for storing SQL Server database properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ad1d7532-534a-4220-8e19-70f7c6f36e36
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-SQLDatabase
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

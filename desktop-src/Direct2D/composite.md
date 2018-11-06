@@ -4,7 +4,6 @@ description: Use the composite effect to combine 2 or more images. This effect h
 ms.assetid: '60b878e9-1bc6-40d4-ade3-4bbd5c822c55'
 keywords:
 - composite effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

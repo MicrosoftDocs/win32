@@ -1,14 +1,10 @@
 ---
 title: Remote Desktop Virtualization API reference
 description: Supports interfaces and structures that you can use to create custom plug-ins that override the standard redirection logic of Remote Desktop Connection Broker (RD Connection Broker).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4f4e8883-9f89-47c2-919f-44f4c6e44591
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , virtualization API reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

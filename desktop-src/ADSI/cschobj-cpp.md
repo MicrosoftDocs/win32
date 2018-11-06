@@ -1,12 +1,8 @@
 ---
 title: CSCHOBJ.CPP
 description: In the example provider component, a code example, that manages the lifetime of the schema objects, is in cschobj.cpp. Supported methods are listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ed8cc113-2ada-4522-87b9-32c922e89819
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -19,7 +19,6 @@ keywords:
 - DRM (digital rights management),programming reference
 - DRM Client Extended APIs,programming reference
 - Client Extended APIs,programming reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ADSI Properties and Attributes
 description: Attributes are sometimes referred to as properties. This can cause confusion. This documentation uses the following definitions for properties and attributes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8e391d36-5a8d-4960-805a-0caf281cab80
 ms.tgt_platform: multiple
 keywords:
@@ -12,7 +9,6 @@ keywords:
 - properties ADSI
 - attributes ADSI
 - properties ADSI , defined
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

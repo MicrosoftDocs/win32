@@ -1,15 +1,11 @@
 ---
 title: Application Directory Partitions
 description: In Windows Server 2003, Active Directory Domain Services support application directory partitions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 55c47803-c1ee-4888-bb19-103374ec9719
 ms.tgt_platform: multiple
 keywords:
 - Application Directory Partitions AD
 - Application Directory Partitions AD , Using
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

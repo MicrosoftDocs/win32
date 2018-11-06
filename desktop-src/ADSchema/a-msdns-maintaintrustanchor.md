@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Maintain-Trust-Anchor attribute
 description: An attribute used to define the type of trust anchor to automatically publish in the forest-wide trust anchor store when the DNS zone is signed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8a658e54-b3cc-4cb6-be5c-933b6fdfea70
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Maintain-Trust-Anchor
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

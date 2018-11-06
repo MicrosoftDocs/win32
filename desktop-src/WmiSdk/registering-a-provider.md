@@ -1,12 +1,8 @@
 ---
 Description: Before implementing your provider, you should first register your provider with WMI. Registering the provider defines the type of the provider and the classes that the provider supports. WMI can only access registered providers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b0a1a11c-a8e8-4bc1-b286-fb9243667976
 ms.tgt_platform: multiple
 title: Registering a Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: dcl_indexRange (sm4 - asm)
 description: dcl\_indexRange (sm4 - asm)
 ms.assetid: 88af30f3-dbf9-4556-b170-a7371680f9b9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

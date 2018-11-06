@@ -1,14 +1,8 @@
 ---
 Description: The Operating System category groups classes that represent operating system related objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: D0756D8C-A3D3-4C75-96A3-8C7F05300B39
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Operating System Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

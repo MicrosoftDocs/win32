@@ -2,7 +2,6 @@
 Description: Retrieves the current state of the specified device button.
 ms.assetid: 7772A3AC-1677-44A7-9E5E-D31E90988705
 title: GetButtonState method of the Msvm_Ps2Mouse class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: SetMaxXResolution method of the Win32_TSClientSetting class
 description: Sets the MaxXResolution property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c1e00bab-ab32-4cf6-8121-950184bd8a01
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_CollectionSetting class represents the association between a CIM\_CollectionOfMSEs and the setting class defined for them.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f09bd656-5fdd-4ab1-8ef9-52d431a5117d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_CollectionSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_CollectionSetting** class represents the association between a [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md) and the setting class defined for them.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

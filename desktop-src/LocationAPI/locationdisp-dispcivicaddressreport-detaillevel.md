@@ -2,7 +2,6 @@
 Description: Reserved.
 ms.assetid: 3f206db7-fccf-4b95-bff7-856dc53caf5a
 title: LocationDisp.DispCivicAddressReport.DetailLevel property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

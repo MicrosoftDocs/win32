@@ -2,7 +2,6 @@
 title: MoveTo Method
 description: MoveTo Method
 ms.assetid: cca2b1b8-0d44-4272-9f0b-f7afd091d802
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Secure-Delegation-Polling-Period attribute
 description: An attribute that defines in seconds the time between polling attempts for child zone key rollovers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2fc45592-30df-4317-8122-d22b5e6e2ee0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Secure-Delegation-Polling-Period
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

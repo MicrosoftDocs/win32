@@ -2,7 +2,6 @@
 title: Rebar Control Reference
 description: .
 ms.assetid: d9136c18-6997-42c5-a6b4-d7314b7da5ac
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

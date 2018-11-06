@@ -1,16 +1,12 @@
 ---
 title: Supporting Dual or Dispatch Interfaces
 description: Like the dispatch interface, all dual interfaces must inherit from IDispatch, which delegates all of its IDispatch functions (GetIDsOfNames, Invoke, GetTypeInfo, GetTypeInfoCount) back to the IDispatch of the aggregator (ADSI).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: abd0fcfc-f45c-4022-af95-60615be0adcc
 ms.tgt_platform: multiple
 keywords:
 - Supporting dual or dispatch interfaces ADSI
 - extensions ADSI , dual or dispatch interfaces
 - ADSI ADSI , example code C/C++ , delegating IDispatch methods to the aggregator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

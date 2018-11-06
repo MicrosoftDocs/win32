@@ -2,7 +2,6 @@
 title: NullParent
 description: NullParent
 ms.assetid: F9563D73-66EF-4C66-8783-B034AA7A212E
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

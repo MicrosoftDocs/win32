@@ -1,13 +1,9 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d426673b-dea2-4f8b-9259-6a17543f70c0
 ms.tgt_platform: multiple
 title: P
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

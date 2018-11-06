@@ -2,7 +2,6 @@
 title: Parent-Child Window Interaction
 description: Parent-Child Window Interaction
 ms.assetid: de10bf12-4ba4-4c6b-be56-489e4e2b26b1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

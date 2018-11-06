@@ -2,7 +2,6 @@
 Description: This tutorial shows how to use the Source Reader to decode audio from a media file and write the audio to a WAVE file.
 ms.assetid: ed40e201-c6ed-444f-bdaa-a5f33d1cc068
 title: 'Tutorial: Decoding Audio'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

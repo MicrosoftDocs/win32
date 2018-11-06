@@ -1,12 +1,8 @@
 ---
 title: DVC plug-in registration
 description: Describes syntax for the dynamic virtual channel (DVC) plug-in entry for the Remote Desktop Connection (RDC) client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cda4f8c9-867a-41ac-894a-4296d5912b2b
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

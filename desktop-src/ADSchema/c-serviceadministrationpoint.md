@@ -1,9 +1,6 @@
 ---
 title: Service-Administration-Point class
 description: Holds binding information for connecting to a service to administer it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7a96881c-a223-4d9c-a0db-5d771f96d362
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Administration-Point
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

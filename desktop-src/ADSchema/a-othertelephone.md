@@ -1,9 +1,6 @@
 ---
 title: Phone-Office-Other attribute
 description: A list of alternate office phone numbers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4688b9c1-d888-41af-a20e-50a9e82952a6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Phone-Office-Other
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

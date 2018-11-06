@@ -5,7 +5,6 @@ ms.assetid: f6f60135-f43b-4595-bfd3-33e750413e70
 keywords:
 - OpenGL processing pipeline,clipping
 - clipping OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

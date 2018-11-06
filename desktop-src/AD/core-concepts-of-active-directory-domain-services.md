@@ -1,15 +1,11 @@
 ---
 title: Core Concepts of Active Directory Domain Services
 description: The following topics are core concepts of Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cc7dd0bc-ff9f-45b0-9910-ccedee3a31ee
 ms.tgt_platform: multiple
 keywords:
 - core concepts in Active Directory Active Directory
 - Core Concepts of Active Directory Domain Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

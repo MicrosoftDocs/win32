@@ -2,7 +2,6 @@
 title: How the Multicast Architecture Fits Together
 description: This section describes a sample configuration and how the major components fit together.
 ms.assetid: 1fa0b343-0276-402b-8c3d-5ca114ad43cf
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

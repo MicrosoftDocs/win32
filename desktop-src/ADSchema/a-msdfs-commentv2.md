@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Comment-v2 attribute
 description: Comment associated with DFS root or link.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2d974308-07bd-4766-b861-380e745cab80
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Comment-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

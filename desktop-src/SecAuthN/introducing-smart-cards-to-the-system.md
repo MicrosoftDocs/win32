@@ -2,7 +2,6 @@
 Description: Before the smart card subsystem can find a smart card, the smart card must be introduced to the system.
 ms.assetid: 5b331d7d-9440-4e0d-a73b-48a2a556c31c
 title: Introducing Smart Cards to the System
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

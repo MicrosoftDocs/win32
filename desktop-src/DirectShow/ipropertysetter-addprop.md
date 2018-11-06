@@ -2,7 +2,6 @@
 Description: The AddProp method adds a property to the property setter, with an array of time-value pairs defining the value of the property over a range of time.
 ms.assetid: bf49e6ed-110d-4851-ace9-04d025f1d21f
 title: IPropertySetter::AddProp method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

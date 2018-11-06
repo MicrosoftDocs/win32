@@ -2,7 +2,6 @@
 Description: Defines a wired (LAN) policy profile.
 ms.assetid: 89331bd1-d447-482c-90de-e3a74c86bf4c
 title: LAN_policy Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

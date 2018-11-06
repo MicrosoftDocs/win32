@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Type-Property-Base class
 description: An abstract class that defines the base class for claim type or resource property classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 85ec891b-0fdd-4b65-bc4d-6d0d2ca4e85d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Type-Property-Base
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-Duration-Per-Flow attribute
 description: The maximum duration, in seconds, of any single flow.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 070d3ffe-1d54-4f78-b5a7-3c8ef39d9346
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-Duration-Per-Flow
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

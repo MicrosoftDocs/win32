@@ -2,7 +2,6 @@
 Description: This topic describes how to implement error logging in DirectShow Editing Services.
 ms.assetid: c0b3b25c-ed03-4f78-9c53-0c0bcff1c60c
 title: Creating an Error Logging Class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

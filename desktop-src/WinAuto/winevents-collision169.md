@@ -2,7 +2,6 @@
 title: WinEvents
 description: The Microsoft Windows operating system includes a feature, called WinEvents, that enables processes and applications running on the Windows desktop to exchange certain types of information.
 ms.assetid: ba97b00b-4a4c-4889-ae9c-8e92eb742849
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

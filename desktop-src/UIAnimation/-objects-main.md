@@ -2,7 +2,6 @@
 title: Objects
 description: Reference documentation for objects defined by the Windows Animation Manager.
 ms.assetid: 9b1c3473-14f8-475f-bbf0-ee40c9359e7f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: SynchronizeAllPublishingData method of the Win32_RDMSManagementData class
 description: Synchronizes all publishing data for Remote Desktop Management Services (RDMS).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3a2135c3-26d6-4b6e-9680-f2d07f33ec05
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

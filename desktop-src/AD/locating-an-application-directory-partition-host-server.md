@@ -1,15 +1,11 @@
 ---
 title: Locating an Application Directory Partition Host Server
 description: This topic describes how to locate an application directory partition host server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 636e8bc2-136c-42be-aa64-1b059dedf775
 ms.tgt_platform: multiple
 keywords:
 - Locating an Application Directory Partition Host Server AD
 - Application Directory Partitions AD , Locating a Host Server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: An event provider is a COM object that supplies WMI with notifications of intrinsic and extrinsic events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 075bdc65-4ea3-4f91-9823-1d2d0dc13423
 ms.tgt_platform: multiple
 title: Writing an Event Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

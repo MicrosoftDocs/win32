@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Minimum-Password-Age attribute
 description: Minimum age for user account passwords.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a51d86ed-9f57-4e7e-b1a0-181e9f0092ba
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Minimum-Password-Age
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

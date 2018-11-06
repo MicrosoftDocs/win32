@@ -2,7 +2,6 @@
 title: How to Create a Tab Control in the Main Window
 description: The example in this section demonstrates how to create a tab control and display it in the client area of the application's main window.
 ms.assetid: 24157B8B-177B-471C-9DA0-548D09EA5F89
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

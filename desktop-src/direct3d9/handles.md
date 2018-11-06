@@ -2,7 +2,6 @@
 Description: Handles provide an efficient means for referencing the techniques, passes, annotations, and parameters with ID3DXEffectCompiler or ID3DXEffect.
 ms.assetid: 2494ecf9-88a7-43dc-a75b-ed743b11993a
 title: Handles (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

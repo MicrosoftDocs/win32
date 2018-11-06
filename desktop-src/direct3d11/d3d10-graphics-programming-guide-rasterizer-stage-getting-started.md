@@ -4,7 +4,6 @@ description: This section describes setting the viewport, the scissors rectangle
 ms.assetid: d78c3845-76fd-4bd7-a603-bb1d8c66ac49
 keywords:
 - multisampling, rasterizer state (Direct3D 10)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - waveform audio,WAV file name extension
 - PlaySound function,playing waveform-audio files
 - playing waveform-audio files,PlaySound function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

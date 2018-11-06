@@ -2,7 +2,6 @@
 Description: Specifies the minimum bit rate, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 57ef6c08-3bad-4d8d-8daf-61041b878802
 title: AVEncCommonMinBitRate property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

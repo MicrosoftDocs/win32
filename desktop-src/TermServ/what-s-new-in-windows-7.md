@@ -1,12 +1,8 @@
 ---
 title: What's New in Windows 7
 description: Windows 7 introduces the following new programming elements for Remote Desktop Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 964e7e88-399f-4e4f-8340-ec0e28a0d79b
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

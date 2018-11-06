@@ -14,7 +14,6 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -46,7 +45,7 @@ HRESULT SetConfigurationValue(
 
 The key used to identify the preference, as stored in the per-user configuration file (Options.xml in "%LocalAppData%\\Microsoft\\Windows Virtual PC").
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Changes should be made to Options.xml only using the **SetConfigurationValue** method. Changing Options.xml using any other method is not supported.
 
  

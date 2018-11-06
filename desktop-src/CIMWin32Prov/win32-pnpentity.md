@@ -1,14 +1,8 @@
 ---
 Description: Epresents the properties of a Plug and Play device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 621f4410-8d8f-4afa-b0f0-beed263f3a13
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPEntity class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -948,7 +942,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
-> \[!Warning\]  
+> [!WARNING]
 > This property, despite being listed in the MOF file, does not actually exist in the class. The property is described here only for the sake of completeness, and to clarify the MOF file itself.
 
  

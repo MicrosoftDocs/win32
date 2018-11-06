@@ -2,7 +2,6 @@
 Description: The following example uses the VerifyVersionInfo function to determine whether the specified product suite(s) are installed on the local computer.
 ms.assetid: 9f405e99-28f5-4415-a274-682b87ae6842
 title: Detecting a Product Suite
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

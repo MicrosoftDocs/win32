@@ -2,7 +2,6 @@
 Description: A data object has the following syntax definition.
 ms.assetid: e636c2eb-3c11-45bf-ab0b-a14ec878742c
 title: Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

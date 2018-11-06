@@ -2,7 +2,6 @@
 Description: Notifies an application when the selected IME needs the converted string from the application. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.
 ms.assetid: 1a007bed-15e5-4400-9d2f-32e37e1765d2
 title: IMR_DOCUMENTFEED notification code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

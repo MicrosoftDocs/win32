@@ -1,9 +1,6 @@
 ---
 title: Non-Security-Member-BL attribute
 description: List of nonsecurity-members for an Exchange distribution list.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6f5044f5-3cab-4b92-9055-2d431efdd0f0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Non-Security-Member-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

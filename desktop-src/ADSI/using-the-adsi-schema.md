@@ -1,15 +1,11 @@
 ---
 title: Using the ADSI Schema
 description: A schema defines the universe of objects stored in a directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 140a5dd0-6f50-4f84-8708-45c0f1c6bdc4
 ms.tgt_platform: multiple
 keywords:
 - Using the ADSI Schema
 - ADSI ADSI , using, ADSI schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

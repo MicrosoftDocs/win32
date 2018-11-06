@@ -2,7 +2,6 @@
 Description: Protected Resource List
 ms.assetid: 70413c13-3db0-4af0-b584-259cce70f084
 title: Protected Resource List
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

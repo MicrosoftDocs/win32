@@ -3,7 +3,6 @@ title: P
 description: Domain Name System (DNS) glossary entries that start with P.
 Robots: noindex, nofollow
 ms.assetid: 70d7fd42-65ea-41a6-887a-44d20e274164
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

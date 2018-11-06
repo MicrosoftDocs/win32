@@ -2,7 +2,6 @@
 Description: Initializes or reinitializes the system image list.
 ms.assetid: 4e661326-157e-4c75-86df-cd213e01c3e5
 title: FileIconInit function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

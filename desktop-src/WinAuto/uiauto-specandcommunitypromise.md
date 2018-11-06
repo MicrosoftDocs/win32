@@ -8,7 +8,6 @@ keywords:
 - specifications for UI Automation
 - community promise for UI Automation
 - UI Automation,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

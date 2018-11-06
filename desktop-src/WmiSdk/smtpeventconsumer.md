@@ -1,12 +1,8 @@
 ---
 Description: The SMTPEventConsumer class sends an email message by using Simple Mail Transfer Protocol (SMTP) each time an event is delivered to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 42178360-9e22-4cd1-9b72-5f6b0d7e6c9c
 ms.tgt_platform: multiple
 title: SMTPEventConsumer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

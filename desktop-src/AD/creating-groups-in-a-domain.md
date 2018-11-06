@@ -1,14 +1,10 @@
 ---
 title: Creating Groups in a Domain
 description: A group object is created in Active Directory Domain Services in the domain container where the new group will be contained.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 40792878-4219-4242-8cf7-b092b28f2ff4
 ms.tgt_platform: multiple
 keywords:
 - groups AD ,creating groups in a domain
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

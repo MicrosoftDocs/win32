@@ -2,7 +2,6 @@
 title: Registering a Callback
 description: If the application requires notification when the value of a state variable changes or the service instance it represents becomes unavailable, the application must register a callback function.
 ms.assetid: 881e71f7-39e6-4847-bdf2-78e54d1750cb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

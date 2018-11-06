@@ -1,15 +1,11 @@
 ---
 title: ADSI WinNT Provider
 description: The Microsoft ADSI provider implements a set of ADSI objects to support various ADSI interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6341be08-2e53-4708-a403-09c86fcc31a8
 ms.tgt_platform: multiple
 keywords:
 - adsi winnt provider ADSI
 - WinNT service provider ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

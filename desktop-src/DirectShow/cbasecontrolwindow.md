@@ -2,7 +2,6 @@
 Description: The CBaseControlWindow class implements the IVideoWindow interface and controls external access to its associated filter.
 ms.assetid: 3657ba24-ffaa-491f-9eb3-f9913d5d421a
 title: CBaseControlWindow class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

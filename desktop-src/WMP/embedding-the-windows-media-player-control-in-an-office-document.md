@@ -20,7 +20,6 @@ keywords:
 - PowerPoint slide show embedding
 - embedding,FrontPage pages
 - FrontPage page embedding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

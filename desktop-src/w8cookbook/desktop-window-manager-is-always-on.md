@@ -2,7 +2,6 @@
 title: Desktop Window Manager is always on
 description: Desktop Window Manager is always on
 ms.assetid: 36E2DD1B-E480-47A9-850B-3057119641C0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

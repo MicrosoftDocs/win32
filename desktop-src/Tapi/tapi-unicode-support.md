@@ -2,7 +2,6 @@
 Description: The following section contains information about support for Unicode.
 ms.assetid: 7a358f15-6e8e-40f1-b94f-bda8c5884d34
 title: TAPI Unicode Support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

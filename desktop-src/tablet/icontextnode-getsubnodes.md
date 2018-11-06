@@ -2,7 +2,6 @@
 Description: Gets the direct child nodes of the IContextNode object.
 ms.assetid: 50ce2fa4-031e-42e9-8e47-c0d3c2d2b4df
 title: IContextNode::GetSubNodes method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

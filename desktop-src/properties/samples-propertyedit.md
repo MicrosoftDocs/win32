@@ -2,7 +2,6 @@
 Description: Demonstrates how to use the Property System APIs to read and write file property values.
 ms.assetid: 438A92FE-2EDD-46bf-A307-FAEB3563DDD7
 title: Property Edit Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

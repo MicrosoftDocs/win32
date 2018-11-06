@@ -2,7 +2,6 @@
 title: Sound
 description: Sound is the audio element of the user experience.
 ms.assetid: 2a276370-eff9-4844-b008-eba9ae5ac395
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

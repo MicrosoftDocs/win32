@@ -2,7 +2,6 @@
 Description: Installs a new device. The user is prompted to select the device.
 ms.assetid: 9bdee82c-1d0a-41ea-8b42-7ad96ac37663
 title: InstallNewDevice function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

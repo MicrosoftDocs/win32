@@ -1,16 +1,12 @@
 ---
 title: Querying for Category 1 or 2 Schema Objects
 description: The systemFlags attribute of attributeSchema and classSchema objects is an integer bitmask that contains flags that indicate additional system qualities of the attribute or class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5cc8f296-df3e-4643-9694-543f069a2cc7
 ms.tgt_platform: multiple
 keywords:
 - Querying for Category 1 or 2 Schema Objects AD
 - object AD , querying for category 1 or 2 schema objects
 - schema AD , querying for category 1 or 2 schema objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

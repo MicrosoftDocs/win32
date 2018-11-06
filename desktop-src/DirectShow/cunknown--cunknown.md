@@ -2,7 +2,6 @@
 Description: Destructor method.
 ms.assetid: 5d4ea970-2145-4119-b3dc-77fba1c2207a
 title: CUnknown.~CUnknown destructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

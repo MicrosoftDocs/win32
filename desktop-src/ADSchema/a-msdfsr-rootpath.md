@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-RootPath attribute
 description: Contains the full path of the root directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ed093b4a-3213-437b-9daa-e446d5953f18
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-RootPath
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

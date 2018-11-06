@@ -1,12 +1,8 @@
 ---
 Description: To receive notifications from the System Registry provider, a management application must register as a temporary event consumer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4cac5fdd-c842-4d7e-a56e-2e1312df68b4
 ms.tgt_platform: multiple
 title: Registering for System Registry Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

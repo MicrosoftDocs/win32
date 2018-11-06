@@ -2,7 +2,6 @@
 Description: Gets the number of IMFSourceBuffer objects in the list.
 ms.assetid: 551d2f40-85ad-45af-9191-9fb2b2c44913
 title: IMFSourceBufferList::GetLength method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

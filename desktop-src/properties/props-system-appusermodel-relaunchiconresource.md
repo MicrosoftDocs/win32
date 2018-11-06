@@ -2,7 +2,6 @@
 Description: Specifies the icon used for the shortcut created on the taskbar when the user chooses to pin an application to the taskbar or launch a new instance through its button's Jump List.
 ms.assetid: 3559d1f5-988c-41d9-ba9a-dfa4ba643ee2
 title: System.AppUserModel.RelaunchIconResource
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: add - vs
 description: Adds two vectors.
 ms.assetid: f66d3264-68be-4a4f-84fc-cc0f6c4245c9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

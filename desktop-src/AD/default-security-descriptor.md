@@ -1,15 +1,11 @@
 ---
 title: Default Security Descriptor
 description: With Active Directory Domain Services, you can also specify default security for each type of object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6642c966-c163-4d63-8707-62a545d15094
 ms.tgt_platform: multiple
 keywords:
 - Default Security Descriptor AD
 - security descriptors AD , default
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

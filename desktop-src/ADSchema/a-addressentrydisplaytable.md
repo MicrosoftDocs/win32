@@ -1,9 +1,6 @@
 ---
 title: Address-Entry-Display-Table attribute
 description: The display table for an address entry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e563bf38-825b-43f9-b10e-29079bba3f93
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Address-Entry-Display-Table
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

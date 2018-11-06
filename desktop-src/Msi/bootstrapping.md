@@ -2,7 +2,6 @@
 Description: Currently every installation that attempts to use the Windows Installer begins by checking whether the installer is present on the user's computer, and if it is not present, whether the user and computer are ready to install Windows Installer.
 ms.assetid: a5174284-2a8c-4510-accf-641fda5be98d
 title: Bootstrapping
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

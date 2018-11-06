@@ -1,12 +1,8 @@
 ---
 title: CPROVCF.CPP
 description: In the example provider component, one code example of the ADs provider object class factory code is in cprovcf.cpp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 53a4da74-3f36-4e6d-ae93-8d595680bcf3
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

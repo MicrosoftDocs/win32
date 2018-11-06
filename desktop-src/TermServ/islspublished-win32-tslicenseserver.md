@@ -1,9 +1,6 @@
 ---
 title: IsLSPublished method of the Win32_TSLicenseServer class
 description: Retrieves whether the Remote Desktop license server is published in Active Directory Domain Services (AD \ 160;DS).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0e97c9df-5cb0-4e28-8436-08093a8667d9
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

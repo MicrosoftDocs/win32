@@ -1,9 +1,6 @@
 ---
 title: msRADIUSCallbackNumber attribute
 description: The msRADIUSCallbackNumber attribute is used internally.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a8861fc5-a2c0-41fd-b66f-65062c7f1b1b
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msRADIUSCallbackNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

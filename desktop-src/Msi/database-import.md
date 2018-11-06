@@ -2,7 +2,6 @@
 Description: The Import method of the Database object imports a database table from a text archive files, dropping any existing table.
 ms.assetid: 9ecc31d9-bccd-48cc-b205-9ce70aaf638a
 title: Database.Import method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

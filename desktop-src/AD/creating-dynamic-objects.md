@@ -1,14 +1,10 @@
 ---
 title: Creating Dynamic Objects
 description: Specify the auxiliary class dynamicObject as a value for the objectClass attribute at the time of instantiating an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d2d961c5-6420-446f-bbb2-54984410e04e
 ms.tgt_platform: multiple
 keywords:
 - Creating Dynamic Objects AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

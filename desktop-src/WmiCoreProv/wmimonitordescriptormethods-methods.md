@@ -2,7 +2,6 @@
 Description: The WmiMonitorDescriptorMethods class exposes the following methods.
 ms.assetid: 423A2108-449E-448C-935F-432CEC30EE55
 title: WmiMonitorDescriptorMethods Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

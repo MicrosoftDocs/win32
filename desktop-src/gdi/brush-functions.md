@@ -2,7 +2,6 @@
 Description: The following functions are used with brushes.
 ms.assetid: 617eb778-876c-4bbb-90da-c5f13359becb
 title: Brush Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

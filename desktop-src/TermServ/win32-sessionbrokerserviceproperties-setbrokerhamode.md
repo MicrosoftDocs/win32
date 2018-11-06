@@ -1,9 +1,6 @@
 ---
 title: SetBrokerHAMode method of the Win32_SessionBrokerServiceProperties class
 description: Migrates data from a local WID database to the new SQL server-based database. It also configures the broker server to use the central SQL server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8f14590d-3042-403c-a1cb-a3b257866284
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

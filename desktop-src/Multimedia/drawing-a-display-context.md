@@ -6,7 +6,6 @@ keywords:
 - DrawDib,device context (DC)
 - DrawDib,drawing DCs
 - DrawDibRealize function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

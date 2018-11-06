@@ -2,7 +2,6 @@
 title: Common Mistake Assuming RpcServerRegisterAuthInfo Prevents Unauthorized Users from Calling your Server
 description: When security providers are registered on the server with the RpcServerRegisterAuthInfo function, an option is added, not a requirement.
 ms.assetid: c8db8973-6d47-47b4-b927-72cfb464e9f0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

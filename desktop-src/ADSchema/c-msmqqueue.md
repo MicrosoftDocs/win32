@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Queue class
 description: MSMQ users create queues (by MMC or by MSMQ API) according to their requirements. A queue is associated with a specific computer, and is placed under the MSMQ-Configuration of that computer. There is no limit to the number of queues per computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 166475ba-6c5b-41bd-a9b9-8ed8ee5f12cb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Queue
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

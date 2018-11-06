@@ -2,7 +2,6 @@
 Description: The following is a list of .lib files required to compile various TAPI 3 applications, as of 1/22/01.
 ms.assetid: f1765829-9a5d-4e85-b898-6679279aa6d9
 title: Libraries Required
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

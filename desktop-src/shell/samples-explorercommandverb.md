@@ -1,7 +1,6 @@
 ---
 Description: Demonstrates how to implement a Shell verb using the ExplorerCommand and ExplorerCommandState methods.
 title: Explorer Command Verb Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

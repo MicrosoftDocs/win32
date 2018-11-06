@@ -1,14 +1,10 @@
 ---
 title: Benefits of Using Active Directory Service Interfaces
 description: ADSI offers many benefits to system administrators, as described in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7afb1b70-635e-4527-bb53-dc9692ae4ebc
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,benefits of using ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

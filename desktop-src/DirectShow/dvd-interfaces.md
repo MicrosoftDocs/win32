@@ -2,7 +2,6 @@
 Description: DVD Interfaces
 ms.assetid: 8b0336ca-2480-4187-87f2-8b155601a77f
 title: DVD Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The SWbemRefreshableItem object exposes the following properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: DB9CBB42-271F-45F5-A8B3-B729887EBDBC
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

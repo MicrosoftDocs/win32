@@ -2,7 +2,6 @@
 title: Windows Environment
 description: The Windows environment is the onscreen work area provided by Windows, analogous to a physical desktop, and the operating system's core extension points.
 ms.assetid: 9485459D-AE46-43D1-941C-3B5EE784391F
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

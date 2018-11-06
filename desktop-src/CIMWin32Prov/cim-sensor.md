@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Sensor class represents a hardware device that is capable of measuring the characteristics of a physical property (for example, the temperature or voltage characteristics of a unitary computer system).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e14629db-830d-4bb8-8d1e-4f01c24f4082
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Sensor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -45,7 +39,7 @@ api_location:
 
 The **CIM\_Sensor** class represents a hardware device that is capable of measuring the characteristics of a physical property (for example, the temperature or voltage characteristics of a unitary computer system).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

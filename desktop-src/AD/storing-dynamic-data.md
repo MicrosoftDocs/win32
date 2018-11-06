@@ -1,14 +1,10 @@
 ---
 title: Storing Dynamic Data
 description: Most data stored using Active Directory Domain Services is static. For example, directory objects that represent users, groups, printers, network services, and so on, are typically long-lived and infrequently changed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ebc8b5d3-0ab0-4bee-be20-aad4729ce0f8
 ms.tgt_platform: multiple
 keywords:
 - Storing Dynamic Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

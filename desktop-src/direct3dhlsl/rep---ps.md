@@ -2,7 +2,6 @@
 title: rep - ps
 description: Start a rep...endrep - ps block.
 ms.assetid: 'vs|directx_sdk|~\rep___ps.htm'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

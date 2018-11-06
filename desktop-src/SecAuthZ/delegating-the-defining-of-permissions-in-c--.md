@@ -2,7 +2,6 @@
 Description: Authorization policy stores that are stored in Active Directory support delegation of administration.
 ms.assetid: ccad4c19-7a16-4599-9a42-23cae7084418
 title: Delegating the Defining of Permissions in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

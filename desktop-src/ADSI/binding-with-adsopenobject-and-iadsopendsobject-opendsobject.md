@@ -1,15 +1,11 @@
 ---
 title: Binding With ADsOpenObject and IADsOpenDSObject OpenDSObject
 description: The ADsOpenObject function and the IADsOpenDSObject OpenDSObject method are used to bind to directory service objects when alternate credentials must be specified and when data encryption is required.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7b8ded11-e04f-40f5-a82a-5972c4df9dea
 ms.tgt_platform: multiple
 keywords:
 - Binding With ADsOpenObject and IADsOpenDSObject OpenDSObject ADSI
 - ADSI ADSI , using, binding with ADsOpenObject and IADsOpenDSObject OpenDSObject
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

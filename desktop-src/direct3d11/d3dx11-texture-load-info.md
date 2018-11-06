@@ -12,7 +12,6 @@ api_location:
 - D3DX11tex.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 ---

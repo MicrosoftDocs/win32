@@ -2,7 +2,6 @@
 Description: Enforcing Parental Management Levels
 ms.assetid: ad996a03-e94e-4743-90a2-aa390984a231
 title: Enforcing Parental Management Levels
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

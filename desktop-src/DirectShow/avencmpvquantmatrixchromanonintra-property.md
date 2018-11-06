@@ -2,7 +2,6 @@
 Description: Specifies the chroma quantization matrix for non-intra macroblocks. This property applies to MPEG video encoders.
 ms.assetid: 450e401c-1b4e-477d-ab6b-51bd5947be5c
 title: AVEncMPVQuantMatrixChromaNonIntra property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

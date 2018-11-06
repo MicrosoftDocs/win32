@@ -4,7 +4,6 @@ description: Use the border effect to extend an image from the edges.
 ms.assetid: D3D569F5-9496-4633-93E2-26665FFC3B37
 keywords:
 - border effect
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This article presents some simple examples that illustrate how to implement spatial sound using static spatial audio objects, dynamic spatial audio objects, and spatial audio objects that use Microsoft's Head Relative Transfer Function (HRTF).
 ms.assetid: C99C342E-0BD9-486A-92AA-F8DCB72C1B00
 title: Render Spatial Sound Using Spatial Audio Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

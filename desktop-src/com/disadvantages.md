@@ -2,7 +2,6 @@
 title: Disadvantages
 description: Disadvantages
 ms.assetid: ce6885d9-7056-42bc-85d1-27ce32b1be5e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

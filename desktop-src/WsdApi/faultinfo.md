@@ -2,7 +2,6 @@
 Description: Specifies whether parameters used to pass fault information are included in generated functions.
 ms.assetid: aba78d50-f884-416a-b022-bb03416aad11
 title: faultInfo element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

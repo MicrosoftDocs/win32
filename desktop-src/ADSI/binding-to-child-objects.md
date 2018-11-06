@@ -1,16 +1,12 @@
 ---
 title: Binding to Child Objects
 description: In ADSI, a container object exposes the IADsContainer interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 16b913ea-06a4-4e85-ad6c-68817883bbd8
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI , using, binding to child objects
 - Binding to Child Objects
 - Child Objects, Binding to
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

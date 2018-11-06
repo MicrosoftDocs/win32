@@ -4,7 +4,6 @@ description: Playing the AVI File
 ms.assetid: 6b3845c4-40ec-4824-88c8-6e4ac458f720
 keywords:
 - mciSendCommand function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

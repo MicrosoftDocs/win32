@@ -2,7 +2,6 @@
 Description: Developers of Windows Installer packages may choose to use a custom action type 5 when the standard actions are insufficient to execute the installation.
 ms.assetid: 32b10271-44b1-4c5d-9c8b-eed1b4cd31e2
 title: Custom Action Type 5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

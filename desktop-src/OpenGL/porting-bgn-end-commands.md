@@ -9,7 +9,6 @@ keywords:
 - OpenGL porting from IRIS GL,bgn/end commands
 - drawing functions,bgn/end commands
 - bgn/end commands
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

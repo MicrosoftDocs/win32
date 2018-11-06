@@ -1,12 +1,8 @@
 ---
 Description: WMI tasks for files and folders change file or folder properties through WMI, including creating a share or renaming a file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 91281fe1-0461-48da-ac5c-cab7e8e1b285
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Files and Folders'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

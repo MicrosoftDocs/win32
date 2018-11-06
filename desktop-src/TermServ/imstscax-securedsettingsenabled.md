@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx SecuredSettingsEnabled property
 description: Indicates whether the IMsTscSecuredSettings interface is available. That is, whether the webpage containing the control is currently in one of the allowed Internet Explorer URL security zones.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0747eab0-9d62-4c10-b02d-fc65ca2f752e
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

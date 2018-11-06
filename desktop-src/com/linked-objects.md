@@ -2,7 +2,6 @@
 title: Linked Objects
 description: Linked Objects
 ms.assetid: 105b3060-b6c0-4186-9855-c742109d9c5a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

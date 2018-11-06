@@ -2,7 +2,6 @@
 Description: Large Memory Support
 ms.assetid: a5faf0c7-52ff-402e-acaa-f16955fa9de8
 title: Large Memory Support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

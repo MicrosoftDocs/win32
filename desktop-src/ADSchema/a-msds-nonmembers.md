@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Non-Members attribute
 description: This attribute serves the same purpose as the Non-Security-Member attribute but with scoping rules applied.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 11d3d030-3643-4ed2-a52e-a57f32e9597f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Non-Members
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

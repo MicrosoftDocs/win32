@@ -10,7 +10,6 @@ keywords:
 - MIDI Mapper,channel messages
 - MIDI channel messages
 - channel messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

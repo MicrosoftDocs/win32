@@ -2,7 +2,6 @@
 Description: Modifies the setting data for the service.
 ms.assetid: 76669180-fa95-4d6e-b89a-53e45da664c4
 title: ModifyServiceSettings method of the Msvm_TerminalService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Msi-Script-Size attribute
 description: The file size for the Microsoft installer advertisement script file for this application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7e75c9e8-62b2-4de5-9eee-fd2735c7e740
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Msi-Script-Size
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

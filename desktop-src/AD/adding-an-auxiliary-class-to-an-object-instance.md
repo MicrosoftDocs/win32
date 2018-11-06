@@ -1,12 +1,8 @@
 ---
 title: Adding an Auxiliary Class to an Object Instance
 description: The following code examples show how to use ADSI and LDAP to dynamically add an auxiliary class to an existing object instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 739dd372-3bda-4d94-8daf-f71e3091cfb6
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

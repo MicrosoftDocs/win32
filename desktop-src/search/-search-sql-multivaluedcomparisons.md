@@ -2,7 +2,6 @@
 Description: Columns stored in the content index can have multiple values, and those multivalued columns can be compared by using the ARRAY comparison predicate.
 ms.assetid: bc3de1bd-b833-459d-81a3-c6b08314e26f
 title: Multi-Valued (ARRAY) Comparisons
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -37,7 +36,7 @@ ARRAY '['<literal> [,<literal>]']'
 
 
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Be aware of the comparison list syntax. The group of literals that make up the comparison list must be surrounded by square brackets. Do not surround individual elements of the comparison list by square brackets. Therefore, ARRAY \[1\] and ARRAY \[1,2,3\] are valid, but ARRAY \[1\[,2\]\[,3\]\] is not.
 
  

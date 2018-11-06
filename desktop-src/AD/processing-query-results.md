@@ -1,15 +1,11 @@
 ---
 title: Processing the Search Results
 description: After the first call to IDirectorySearch GetFirstRow or IDirectorySearch GetNextRow, either S\_OK, S\_ADS\_NOMORE\_ROWS, or an error result is returned.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3a84f394-a256-4815-901c-eaaae3d54b75
 ms.tgt_platform: multiple
 keywords:
 - Processing Search Results AD
 - Active Directory, Searching, Processing Search Results
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

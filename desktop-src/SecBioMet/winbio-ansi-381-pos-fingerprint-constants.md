@@ -33,7 +33,6 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -72,7 +71,7 @@ The following constants can be used to specify the fingers scanned by a sensor:
 
 The WINBIO\_FINGER\_UNSPECIFIED\_POS\_\* constants are not part of the ANSI 381 specification. You can use these constants to enroll up to ten fingers (per account SID) that have no associated position information.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > Do not attempt to validate fingerprint constant values. The Windows Biometrics Service will validate supplied fingerprint constant values before passing them through to your implementation.
 

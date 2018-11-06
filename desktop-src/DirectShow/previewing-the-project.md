@@ -2,7 +2,6 @@
 Description: Previewing the Project
 ms.assetid: 00d72a39-f848-47ea-8460-8b826684eeea
 title: Previewing the Project
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

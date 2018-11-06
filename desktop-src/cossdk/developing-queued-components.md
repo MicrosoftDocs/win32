@@ -2,7 +2,6 @@
 Description: Developing Queued Components
 ms.assetid: 867b7512-82ad-4877-8675-aa2d7e62ff8a
 title: Developing Queued Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies how the monitor being used to display a full-screen application is rotated.
 ms.assetid: 190aa10e-4bf0-45ec-9c07-2582c5536074
 title: D3DDISPLAYROTATION enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

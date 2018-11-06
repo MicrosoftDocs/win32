@@ -11,7 +11,6 @@ keywords:
 - ASF (Advanced Systems Format),automatic indexing
 - indexes,disabling automatic indexing
 - indexes,automatic indexing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Recommendations for optimal file system transactions.
 ms.assetid: 847939ff-5322-4023-8ef7-9d845e80d65c
 title: Performance Considerations for Transactional NTFS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

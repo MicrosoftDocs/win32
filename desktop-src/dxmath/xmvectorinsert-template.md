@@ -2,7 +2,6 @@
 Description: Rotates a vector left by a given number of 32-bit components and insert selected elements of that result into another vector.
 ms.assetid: 'm:microsoft.directx_sdk.template.xmvectorinsert(xmvector,xmvector)'
 title: XMVectorInsert template
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

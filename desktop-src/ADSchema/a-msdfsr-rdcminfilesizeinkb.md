@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-RdcMinFileSizeInKb attribute
 description: Contains the minimum file size, in kilobytes, to which to apply RDC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: af19d3e8-046b-4500-86ea-9f8467aba069
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-RdcMinFileSizeInKb
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

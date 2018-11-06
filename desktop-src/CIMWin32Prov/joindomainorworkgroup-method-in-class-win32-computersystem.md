@@ -1,14 +1,8 @@
 ---
 Description: Joins a computer system to a domain or workgroup.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b9421f04-9b56-4413-af5c-12dffeb6f0c8
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: JoinDomainOrWorkgroup method of the Win32_ComputerSystem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

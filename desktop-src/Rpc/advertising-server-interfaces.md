@@ -2,7 +2,6 @@
 title: Advertising Server Interfaces
 description: The server side of an application that uses automatic handles must call the function RpcNsBindingExport to make binding information about the server available to clients.
 ms.assetid: d15fd8da-3afd-4031-95d1-b76a0ad9a20d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

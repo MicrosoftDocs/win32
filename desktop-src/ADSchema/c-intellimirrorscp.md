@@ -1,9 +1,6 @@
 ---
 title: Intellimirror-SCP class
 description: This object contains configuration information for the service that responds to Remote Boot clients that request attention from a Remote Install Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6284a1ad-8184-4dda-a588-ed89c8f19fd5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Intellimirror-SCP
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

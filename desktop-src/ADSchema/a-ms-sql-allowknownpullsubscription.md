@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-AllowKnownPullSubscription attribute
 description: True if the publication allows registered subscribers to subscribe.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: be3b618e-bdf5-4bb4-ac4d-51dc97e73408
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-AllowKnownPullSubscription
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -10,7 +10,6 @@ keywords:
 - ASF (Advanced Systems Format),about
 - Windows Media Format SDK,features
 - Windows Media Format SDK,key features
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

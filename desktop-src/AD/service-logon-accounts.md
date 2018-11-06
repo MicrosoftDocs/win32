@@ -1,14 +1,10 @@
 ---
 title: Service Logon Accounts
 description: A service, like any process, has a primary security identity that determines the granted access rights and privileges for local and network resources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c2345967-8415-4cc0-96d3-12c48e74028e
 ms.tgt_platform: multiple
 keywords:
 - Active Directory,using,service logon
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

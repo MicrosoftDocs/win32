@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnConnected method
 description: Called when the client control is in the process of establishing a connection with a Remote Desktop Session Host (RD Session Host) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9c26d112-c070-4870-93d5-2fcc84a1331f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

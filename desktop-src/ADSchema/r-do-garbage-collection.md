@@ -1,9 +1,6 @@
 ---
 title: Do-Garbage-Collection extended right
 description: Extended right to force the Directory Service to do garbage collection. Control right to force the Directory Service to do garbage collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2b873c09-a3c5-486f-ac6a-421dc484f8d5
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Do-Garbage-Collection
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

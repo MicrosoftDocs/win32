@@ -1,9 +1,6 @@
 ---
 title: Server-Reference-BL attribute
 description: Found in the domain naming context. The distinguished name of a computer under the sites folder.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b411abc9-d085-4b9b-bbfa-7f46af319c0f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Server-Reference-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

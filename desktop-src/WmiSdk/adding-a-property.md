@@ -1,12 +1,8 @@
 ---
 Description: Properties in WMI classes describe data about a managed object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4046bfc7-9528-4737-ad61-bbb8419d0b51
 ms.tgt_platform: multiple
 title: Adding a WMI Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

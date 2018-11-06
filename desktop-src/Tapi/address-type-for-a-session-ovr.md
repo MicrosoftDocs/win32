@@ -2,7 +2,6 @@
 Description: The address type identifies the format required for an address. For example, if the type is LINEADDRESSTYPE\_PHONENUMBER, the address used to dial on the session must be a phone number.
 ms.assetid: bea48bde-927a-400a-9a7e-a77e30ba35eb
 title: Address Type for a Session
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

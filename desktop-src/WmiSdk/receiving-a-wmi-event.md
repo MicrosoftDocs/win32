@@ -1,12 +1,8 @@
 ---
 Description: WMI contains an event infrastructure that produces notifications about changes in WMI data and services. WMI event classes provide notification when specific events occur.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 347808a7-0f7b-4687-93f4-bea55c96795a
 ms.tgt_platform: multiple
 title: Receiving a WMI Event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

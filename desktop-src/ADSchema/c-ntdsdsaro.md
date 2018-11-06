@@ -1,9 +1,6 @@
 ---
 title: NTDS-DSA-RO class
 description: A subclass of Directory Service Agent that is distinguished by its reduced privilege level.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ea964051-f82d-4ba8-8885-86f5899053ea
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTDS-DSA-RO
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

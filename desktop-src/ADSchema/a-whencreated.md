@@ -1,9 +1,6 @@
 ---
 title: When-Created attribute
 description: The date when this object was created. This value is replicated and is in the global catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d66084f0-5a82-4a8c-86ee-7e41887d9b90
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - When-Created
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

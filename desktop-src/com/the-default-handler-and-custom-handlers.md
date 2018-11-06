@@ -2,7 +2,6 @@
 title: The Default Handler and Custom Handlers
 description: The Default Handler and Custom Handlers
 ms.assetid: b64617e8-3a71-449d-8948-fd997c1550b3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

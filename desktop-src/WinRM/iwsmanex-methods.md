@@ -1,12 +1,8 @@
 ---
 title: IWSManEx Methods
 description: The IWSManEx interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 609F5D75-879A-4681-B746-8C7A8757F062
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

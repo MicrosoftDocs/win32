@@ -2,7 +2,6 @@
 Description: ICE74 verifies that the FASTOEM property has not been authored into the Property table.
 ms.assetid: 2af132f0-0ffa-405f-9d05-7cb5d5f826b8
 title: ICE74
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

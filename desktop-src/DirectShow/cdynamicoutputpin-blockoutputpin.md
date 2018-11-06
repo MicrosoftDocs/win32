@@ -2,7 +2,6 @@
 Description: The BlockOutputPin method blocks the pin.
 ms.assetid: 49f6b8da-a8b2-482d-b70d-2c68a1b45a10
 title: CDynamicOutputPin.BlockOutputPin method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

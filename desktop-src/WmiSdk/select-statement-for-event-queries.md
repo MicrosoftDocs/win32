@@ -1,12 +1,8 @@
 ---
 Description: Describes the basic syntax of a SELECT statement for event queries.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8882fdcb-3768-41e3-82ab-3006d903f3a0
 ms.tgt_platform: multiple
 title: SELECT Statement for Event Queries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

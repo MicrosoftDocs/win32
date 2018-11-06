@@ -1,12 +1,8 @@
 ---
 Description: Noncomputational counter types do not have an associated formula. The raw value is directly meaningful.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2a6bb3a3-0aec-437a-881a-c4e14fcff6da
 ms.tgt_platform: multiple
 title: Noncomputational Counter Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

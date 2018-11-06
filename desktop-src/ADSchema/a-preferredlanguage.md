@@ -1,9 +1,6 @@
 ---
 title: preferredLanguage attribute
 description: The preferred written or spoken language for a person.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 425f87cf-6281-4841-84eb-dbe5e8dca680
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - preferredLanguage
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

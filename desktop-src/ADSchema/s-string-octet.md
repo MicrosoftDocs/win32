@@ -1,9 +1,6 @@
 ---
 title: String(Octet) syntax
 description: A string that represents an array of bytes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 519ec9f3-f6ce-4542-937e-4cf5dfbda6e1
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - String(Octet)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

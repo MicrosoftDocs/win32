@@ -2,7 +2,6 @@
 Description: Indicates the number of times the file has been played.
 ms.assetid: c46fea02-5ca7-4b15-816a-7e2aeac0ad30
 title: System.DRM.PlayCount
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: VML TextBorder Attribute
 description: VML TextBorder Attribute
 ms.assetid: 48cd0dce-9e7a-4d76-a655-b6022ed00f3b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

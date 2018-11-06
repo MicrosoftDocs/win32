@@ -4,7 +4,6 @@ description: Opening a Compound Device by Using the Filename
 ms.assetid: 5199bb68-44be-4fad-af5b-8fe89f27caee
 keywords:
 - mciSendCommand function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

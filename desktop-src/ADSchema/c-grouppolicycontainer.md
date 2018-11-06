@@ -1,9 +1,6 @@
 ---
 title: Group-Policy-Container class
 description: This represents the Group Policy Object. It is used to define group polices.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f57aa609-b1bf-4423-a533-37e5ff768ab5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Group-Policy-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

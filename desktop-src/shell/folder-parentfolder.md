@@ -2,7 +2,6 @@
 Description: Contains the parent Folder object.
 ms.assetid: b832948c-f599-4ada-8760-9280b86abfed
 title: Folder.ParentFolder property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

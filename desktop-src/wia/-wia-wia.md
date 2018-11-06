@@ -2,7 +2,6 @@
 Description: The Wia object is the entry point for all Windows Image Acquisition (WIA) scripting functionality.
 ms.assetid: 1905e344-32cc-41ec-885f-bfabd8edd419
 title: Wia object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

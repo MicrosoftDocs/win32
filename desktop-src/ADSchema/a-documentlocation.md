@@ -1,9 +1,6 @@
 ---
 title: documentLocation attribute
 description: The documentLocation attribute type specifies the location of the document original.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7d8e3d2-1238-4f34-9baa-abe41e007a23
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - documentLocation
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

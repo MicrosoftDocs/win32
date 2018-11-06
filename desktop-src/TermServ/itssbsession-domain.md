@@ -1,9 +1,6 @@
 ---
 title: ITsSbSession Domain property
 description: Retrieves the domain name of the user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bbb9a805-7270-4555-8fee-130a46bc3903
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

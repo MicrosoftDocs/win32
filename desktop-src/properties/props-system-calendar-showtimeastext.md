@@ -2,7 +2,6 @@
 Description: The user-friendly form of System.Calendar.ShowTimeAs. This value is not intended to be parsed programmatically.
 ms.assetid: 22e3fc4b-89f2-4dcf-bf33-cc38842fdcfd
 title: System.Calendar.ShowTimeAsText
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

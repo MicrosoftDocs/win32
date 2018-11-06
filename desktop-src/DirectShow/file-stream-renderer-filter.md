@@ -2,7 +2,6 @@
 Description: File Stream Renderer Filter
 ms.assetid: e26462bb-e67f-4522-bec2-88378c4ff442
 title: File Stream Renderer Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

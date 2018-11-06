@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings MinutesToIdleTimeout property
 description: Specifies the maximum length of time, in minutes, that the client should remain connected without user input. If the specified time elapses, the control calls the IMsTscAxEvents OnIdleTimeoutNotification method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 709238ea-45f8-4bdc-9bbe-019d54ca27bf
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Indicates the end of the final phrase in a sequence of alternative phrases that a word breaker generates during index time.
 ms.assetid: 50E4E208-A290-42B7-9152-9472C01B20D5
 title: IWordSink::EndAltPhrase method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

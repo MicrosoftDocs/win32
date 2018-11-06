@@ -2,7 +2,6 @@
 Description: Defines the type that contains valid values for the Type attribute for the Margin element.
 ms.assetid: 5448ead5-0249-4cc7-9f2a-d2181e2af734
 title: MarginTypeType Simple Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

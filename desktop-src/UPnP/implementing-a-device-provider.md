@@ -2,7 +2,6 @@
 title: Implementing a Device Provider
 description: To implement a device provider, create an object that exposes the IUPnPDeviceProvider interface.
 ms.assetid: 3ba1200d-68d4-4f03-805c-7fff2d76b16f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -13,7 +13,6 @@ keywords:
 - porting to OpenGL from IRIS GL,circles
 - OpenGL porting from IRIS GL,circles
 - drawing functions,circles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -13,7 +13,6 @@ keywords:
 - programming reference,DRM interfaces
 - reference for Windows Media Device Manager,DRM interfaces
 - DRM interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

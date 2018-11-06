@@ -1,9 +1,6 @@
 ---
 title: Default-Object-Category attribute
 description: The object category to use for the object if one is not specified.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ebb99527-8d4e-4c11-a16d-2145d9cce566
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Default-Object-Category
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

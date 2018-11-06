@@ -2,7 +2,6 @@
 Description: Synth Filter Sample
 ms.assetid: 2d087967-3734-463f-bc5e-9552290ddc0b
 title: Synth Filter Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Router Information Functions
 description: Use the following functions to manipulate router information headers and blocks. An information header is composed of private meta-data and information blocks. Information blocks are arrays of information structures of various types.
 ms.assetid: e88720aa-080b-4d87-a442-1b436c256ca6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

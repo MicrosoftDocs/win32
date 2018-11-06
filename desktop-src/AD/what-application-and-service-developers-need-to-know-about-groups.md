@@ -1,15 +1,11 @@
 ---
 title: What Application and Service Developers Need to Know About Groups
 description: When developing an application or service, you can use groups to delegate administration or control access to the application or service as a whole or part.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 19e189a5-2880-4b45-84c8-e7b542c4fbb6
 ms.tgt_platform: multiple
 keywords:
 - What Application and Service Developers Need to Know About Groups
 - groups AD , information for application and service developers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

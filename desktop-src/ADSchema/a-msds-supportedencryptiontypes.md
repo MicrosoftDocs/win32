@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Supported-Encryption-Types attribute
 description: The encryption algorithms supported by user, computer or trust accounts.Note The KDC uses this information while generating a service ticket for this account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6f9055a9-531e-4f4b-8703-aca5531a3bcb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Supported-Encryption-Types
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

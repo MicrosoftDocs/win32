@@ -1,9 +1,6 @@
 ---
 title: Min-Pwd-Length attribute
 description: The minimum number of characters that a password must contain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f1bd7b0c-cb78-4b03-88fe-dbdf472dab06
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Min-Pwd-Length
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The CMediaSample class defines a media sample that supports the IMediaSample2 interface. The media sample contains a pointer to a memory buffer, and various properties stored as protected member variables.
 ms.assetid: 1e609c7c-3200-4540-904e-7659976df0da
 title: CMediaSample class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

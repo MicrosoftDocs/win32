@@ -2,7 +2,6 @@
 Description: The name of the printer.
 ms.assetid: 80EBA03F-E703-4783-AD22-15A8592E0B81
 title: System.DeviceInterface.PrinterName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - installable drivers,events
 - DriverCallback function
 - DRV_OPEN message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

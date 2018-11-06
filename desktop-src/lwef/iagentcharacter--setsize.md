@@ -2,7 +2,6 @@
 title: IAgentCharacter SetSize
 description: IAgentCharacter SetSize
 ms.assetid: 8324ab84-2b59-4459-b375-700d72b621bc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: A cardinal spline is a curve that passes smoothly through a given set of points.
 ms.assetid: 0bb84f55-18d0-4a4c-bc5b-7803aa807954
 title: Drawing Cardinal Splines
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Windows Media Video 9 decoder decodes video streams that were encoded by the Windows Media Video Encoder.
 ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
 title: Windows Media Video 9 Decoder
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

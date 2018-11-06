@@ -1,9 +1,6 @@
 ---
 title: ACS-Time-Of-Day attribute
 description: Times of day at which this policy applies.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aacd604a-45cb-4815-bc6b-332cf090f4a2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Time-Of-Day
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

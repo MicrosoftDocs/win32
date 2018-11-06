@@ -1,9 +1,6 @@
 ---
 title: rFC822LocalPart class
 description: Used to define entries that represent the local part of mail addresses.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1df90e93-d7eb-42c8-b216-6046a83d0ada
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - rFC822LocalPart
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

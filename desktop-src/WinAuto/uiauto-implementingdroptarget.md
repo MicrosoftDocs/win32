@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation DropTarget
 - control patterns,DropTarget
 - interfaces,IDropTargetProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Version attribute
 description: The version number of MSMQ DS information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9ab65547-a71b-42f3-9e2f-424d2e0ee3ab
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

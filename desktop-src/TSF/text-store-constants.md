@@ -10,7 +10,6 @@ keywords:
 - TSF reference,text stores
 - reference for TSF,text stores
 - text stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

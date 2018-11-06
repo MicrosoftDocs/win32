@@ -2,7 +2,6 @@
 Description: Occurs when the user presses a mouse button while the mouse is over the InkEdit control.
 ms.assetid: 8985fee5-7b63-46ab-b229-046e2f0ee004
 title: InkEdit.MouseDown event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

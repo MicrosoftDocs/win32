@@ -2,7 +2,6 @@
 Description: The Installer sets the MsiUIProgressOnly property to 1 when the internal install level has been set to include INSTALLUILEVEL\_PROGRESSONLY with the MsiSetInternalUI function or the UILevel property of the Installer object.
 ms.assetid: 09c739d1-ddf4-4a59-9dd0-7ea5e94a40d7
 title: MsiUIProgressOnly property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

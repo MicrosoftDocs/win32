@@ -2,7 +2,6 @@
 Description: Microsoft Windows networking components have been developed for performance and scalability.
 ms.assetid: 2160b93e-c126-4592-972c-d9cc14eec745
 title: High-performance Windows Sockets Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

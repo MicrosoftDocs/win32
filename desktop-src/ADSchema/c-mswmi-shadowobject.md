@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-ShadowObject class
 description: Holds a WMI compiled object instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8691ae8f-e5fa-439a-bade-5e278b74e959
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-ShadowObject
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

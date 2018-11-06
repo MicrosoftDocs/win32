@@ -2,7 +2,6 @@
 Description: Associates an instance of the Msvm\_ComputerSystem or Msvm\_PlannedComputerSystem class representing a virtual system, with an instance of the Msvm\_VirtualSystemSettingData class representing the virtual system snapshot that is the most current snapshot in a branch of dependent snapshots.
 ms.assetid: EEB9D2C1-C463-4EFE-862F-95E8AD8E1753
 title: Msvm_MostCurrentSnapshotInBranch class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

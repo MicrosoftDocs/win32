@@ -2,7 +2,6 @@
 Description: The GetRange method retrieves the range of valid values for a given audio settings property.
 ms.assetid: 09ee0c59-6ae6-47eb-a8cf-6b24e759d7fb
 title: ITAudioSettings::GetRange method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

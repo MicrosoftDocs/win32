@@ -1,12 +1,8 @@
 ---
 title: Binding Types Specific to Active Directory
 description: In addition to the LDAP bindings discussed previously, Active Directory introduces several new concepts for binding to an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 426ce1d5-57a8-422d-a804-7b9a000d1e81
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

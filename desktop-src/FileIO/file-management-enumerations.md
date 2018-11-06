@@ -2,7 +2,6 @@
 Description: Enumerations used in file management.
 ms.assetid: 14b1cfff-5e47-4309-8e62-fb5c8da9ce97
 title: File Management Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

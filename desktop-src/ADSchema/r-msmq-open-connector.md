@@ -1,9 +1,6 @@
 ---
 title: msmq-Open-Connector extended right
 description: Allows to open connector queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5eb63190-5a64-4dad-a3bb-3fc317faabd7
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msmq-Open-Connector
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

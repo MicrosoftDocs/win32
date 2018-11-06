@@ -4,7 +4,6 @@ description: ARIA Container Role Keyboard Accessibility Error
 ms.assetid: 364F26D7-7B65-418B-9DA5-F3B7B59284F7
 keywords:
 - AriaContainerKeyboardAccessibilityErrorId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

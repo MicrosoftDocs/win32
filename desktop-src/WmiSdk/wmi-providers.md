@@ -1,12 +1,8 @@
 ---
 Description: WMI has many standard providers that are listed in this topic. For more information about writing your own provider, see Using WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9bb3d061-4fc9-4cdf-8f03-a86d53393429
 ms.tgt_platform: multiple
 title: WMI Providers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

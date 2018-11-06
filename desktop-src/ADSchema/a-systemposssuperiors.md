@@ -1,9 +1,6 @@
 ---
 title: System-Poss-Superiors attribute
 description: The list of classes that can contain this class. This list can only be modified by the system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8b98249a-fe9a-4a42-abb8-a8b042250a76
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - System-Poss-Superiors
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

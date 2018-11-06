@@ -2,7 +2,6 @@
 Description: The following functions are used with file logs.
 ms.assetid: b747a1f2-d11a-4512-9cf2-efa226f372d5
 title: File Log Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

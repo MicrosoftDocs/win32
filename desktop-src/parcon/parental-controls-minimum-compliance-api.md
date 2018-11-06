@@ -2,7 +2,6 @@
 Description: Parental Controls Minimum Compliance API
 ms.assetid: bd2582df-8d2c-4169-8b82-b78d0a770e8b
 title: Parental Controls Minimum Compliance API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

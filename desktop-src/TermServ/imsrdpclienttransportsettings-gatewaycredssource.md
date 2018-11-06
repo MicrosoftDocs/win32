@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings GatewayCredsSource property
 description: Specifies or retrieves the Remote Desktop Gateway (RD Gateway) authentication method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3b05edcb-f678-4d80-99fd-b76d27c80c68
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

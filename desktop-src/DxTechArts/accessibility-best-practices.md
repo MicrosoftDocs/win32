@@ -2,7 +2,6 @@
 title: Making Video Games Accessible Business Justifications and Design Considerations
 description: This article is for game content developers and producers who want to reach the accessibility community market by adding basic accessibility features to help people with disabilities or impairments.
 ms.assetid: 95580b75-fb8e-b8a9-2137-40d6c60ae35d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-int8ValidValues attribute
 description: The valid values for a WMI 64-bit integer parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 89afa7ab-2fbc-4846-ae24-12a4f372f469
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-int8ValidValues
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

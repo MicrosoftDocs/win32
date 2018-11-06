@@ -2,7 +2,6 @@
 Description: Create a pixel shader version token.
 ms.assetid: 70089a93-83df-4ac4-8d98-4e1bb6ad2581
 title: D3DPS_VERSION macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

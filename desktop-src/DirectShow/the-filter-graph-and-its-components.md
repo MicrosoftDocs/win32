@@ -2,7 +2,6 @@
 Description: The Filter Graph and Its Components
 ms.assetid: 3747bfcd-1e4a-404c-a493-26d3c20bab21
 title: The Filter Graph and Its Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

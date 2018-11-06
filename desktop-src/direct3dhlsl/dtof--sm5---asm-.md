@@ -2,7 +2,6 @@
 title: dtof (sm5 - asm)
 description: Component-wise conversion from double-precision floating-point data to single-precision floating-point data.
 ms.assetid: 1D2EF05C-06EF-44F0-AA0F-22D3057FF43E
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

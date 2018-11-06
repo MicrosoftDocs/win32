@@ -2,7 +2,6 @@
 Description: The CompLocator Table contains the information needed to find a file or directory that is using the installer configuration data.
 ms.assetid: 8b527307-51bf-47b3-a0b2-3421cc5278b7
 title: CompLocator Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

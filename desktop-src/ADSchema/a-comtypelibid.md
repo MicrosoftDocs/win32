@@ -1,9 +1,6 @@
 ---
 title: COM-Typelib-Id attribute
 description: This attribute stores the list of type library IDs contained in this application package.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3dcd2d1f-8b6d-46f6-9707-4af006f0e610
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - COM-Typelib-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

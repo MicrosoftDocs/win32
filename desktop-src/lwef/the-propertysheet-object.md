@@ -2,7 +2,6 @@
 title: The PropertySheet Object
 description: The PropertySheet Object
 ms.assetid: 9d15d198-a4fe-4c05-a7be-0807a179cd9c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

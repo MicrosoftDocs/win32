@@ -6,7 +6,6 @@ ms.assetid: 'd170ff55-88de-4864-8780-b876d2b691d9'
 keywords:
 - half spaces
 - homogenous coordinates
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnDisconnected method
 description: Called when the client control has been disconnected from the Remote Desktop Session Host (RD Session Host) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f01086e7-61d1-41df-ba0a-4eecfa57d492
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

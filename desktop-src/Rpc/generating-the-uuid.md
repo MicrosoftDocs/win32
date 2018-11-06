@@ -4,7 +4,6 @@ description: The first step in defining the interface is to use the uuidgen util
 ms.assetid: 870641b7-affc-4de4-bc7f-4c8ca2873fb6
 keywords:
 - Remote Procedure Call RPC , tasks, generating the UUID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

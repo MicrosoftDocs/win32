@@ -2,7 +2,6 @@
 Description: A collection of PolicyInformation objects.
 ms.assetid: 2abdd070-82ae-47fd-afbc-6d4361e5a3f1
 title: CertificatePolicies object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type:

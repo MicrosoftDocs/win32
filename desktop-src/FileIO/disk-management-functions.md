@@ -2,7 +2,6 @@
 Description: Functions used in disk management.
 ms.assetid: 301d3062-29a1-4b44-bbcd-e9d5b7d7823b
 title: Disk Management Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

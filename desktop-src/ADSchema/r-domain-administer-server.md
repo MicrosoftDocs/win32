@@ -1,9 +1,6 @@
 ---
 title: Domain-Administer-Server extended right
 description: Legacy SAM right.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 64055571-a491-4f94-a802-6a189995e6f0
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Domain-Administer-Server
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

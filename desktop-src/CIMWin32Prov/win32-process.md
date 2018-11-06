@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_Process&\#32;WMI class represents a process on an operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 51206aca-4784-4d18-95ca-bc0a45691f78
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Process class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

@@ -1,14 +1,8 @@
 ---
 Description: Uncompresses the logical directory entry file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cd18d8b7-ab63-475c-a3a6-79611c9e032d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

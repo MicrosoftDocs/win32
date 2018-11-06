@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings DedicatedTerminal property
 description: This property is not supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 40d54c88-dcac-4e7d-b389-a65caeb6960e
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

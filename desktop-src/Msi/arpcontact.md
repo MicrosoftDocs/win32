@@ -2,7 +2,6 @@
 Description: The ARPCONTACT property provides the Add or Remove Programs Control Panel Contact that is written under the Uninstall Registry Key. This property can be set by the command line or a transform.
 ms.assetid: e3f5e045-4732-4ad6-9c86-a26fea92ff2e
 title: ARPCONTACT property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

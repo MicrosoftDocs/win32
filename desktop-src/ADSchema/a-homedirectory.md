@@ -1,9 +1,6 @@
 ---
 title: Home-Directory attribute
 description: The home directory for the account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7fd431f2-f2e0-476f-82ed-04f776c234eb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Home-Directory
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

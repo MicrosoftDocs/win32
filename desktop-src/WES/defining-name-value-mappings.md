@@ -2,7 +2,6 @@
 title: Defining Name/Value Mappings
 description: A provider can define a list of name/value pairs that consumers use to map integer values to strings.
 ms.assetid: d16b2410-a0de-42da-8f2a-98341c90ed87
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

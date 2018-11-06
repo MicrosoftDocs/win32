@@ -1,14 +1,8 @@
 ---
 Description: Contains information about user accounts and group accounts known to the computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c0916f20-05be-4282-9642-28cec606bfd7
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Account class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

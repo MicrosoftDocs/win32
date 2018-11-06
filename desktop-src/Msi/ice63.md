@@ -2,7 +2,6 @@
 Description: ICE63 checks for proper sequencing of the RemoveExistingProducts action.
 ms.assetid: 4dd67bb0-c08a-4a44-b687-0394a3afc2c4
 title: ICE63
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

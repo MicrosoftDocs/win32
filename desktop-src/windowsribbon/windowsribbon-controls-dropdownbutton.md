@@ -2,7 +2,6 @@
 title: Drop-Down Button
 description: The Drop-Down Button consists of a button that when clicked displays a drop-down list of mutually exclusive items.
 ms.assetid: 41c5da07-43f7-4544-83be-248941cb8633
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

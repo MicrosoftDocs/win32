@@ -2,7 +2,6 @@
 title: Keyboard Accelerator Messages
 description: .
 ms.assetid: 987151e7-fd68-4ff5-a131-116a6b17ac28
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - Windows Media Player skins,URL references
 - skins,URL references
 - URL references in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

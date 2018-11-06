@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PhysicalMedia class represents types of documentation and storage medium, such as tapes, CD ROMs, and so on.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ba258e53-4a82-4b30-aadd-54448841cd06
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PhysicalMedia class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -49,7 +43,7 @@ api_location:
 
 The **CIM\_PhysicalMedia** class represents types of documentation and storage medium, such as tapes, CD ROMs, and so on. This class is typically used to locate and manage removable media (versus media sealed with the media access device as a single package, such as hard disks). Sealed media, however, can also be modeled using this class when the media is associated with the physical package using the [**CIM\_PackagedComponent**](cim-packagedcomponent.md) relationship.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

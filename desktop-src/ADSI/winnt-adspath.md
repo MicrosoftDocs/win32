@@ -1,15 +1,11 @@
 ---
 title: WinNT ADsPath
 description: This topic contains examples of strings to use for the WinNT ADsPath.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0fad4b34-5287-43a0-a172-a08955b8b132
 ms.tgt_platform: multiple
 keywords:
 - WinNT service provider ADSI , WinNT ADsPath
 - ADsPath ADSI , WinNT, description
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

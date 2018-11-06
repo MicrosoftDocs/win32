@@ -2,7 +2,6 @@
 Description: Mobile Broadband Profile Schema v3.
 ms.assetid: f7a3598f-57dd-4178-896f-31b4d2f65e56
 title: Mobile Broadband Profile Schema v3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

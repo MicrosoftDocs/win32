@@ -1,9 +1,6 @@
 ---
 title: msmq-Peek-Dead-Letter extended right
 description: Allows peeking at messages in the Dead Letter queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c0fc85af-2283-48c7-9308-f4d482cf7014
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msmq-Peek-Dead-Letter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

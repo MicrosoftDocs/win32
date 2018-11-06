@@ -1,15 +1,11 @@
 ---
 title: Examples of User Management in Active Directory
 description: This topic lists topics about user management for the LDAP provider for Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c892cf09-fba9-4be9-8ff7-b0e0270bfd20
 ms.tgt_platform: multiple
 keywords:
 - User Account Management Examples ADSI ,LDAP provider
 - LDAP provider ADSI ,user management examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

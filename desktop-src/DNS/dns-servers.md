@@ -4,7 +4,6 @@ description: A DNS Server is a computer that completes the process of name resol
 ms.assetid: c7ce6e46-491c-482e-8d72-a79b911c3f68
 keywords:
 - DNS Servers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

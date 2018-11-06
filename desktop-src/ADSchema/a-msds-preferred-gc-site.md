@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Preferred-GC-Site attribute
 description: The ms-DS-Preferred-GC-Site attribute is used by the Security Accounts Manager for group expansion during token evaluation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f42d3787-4063-4804-a7b5-4798516ad47e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Preferred-GC-Site
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

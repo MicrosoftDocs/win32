@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx Connect method
 description: Initiates a connection using the properties currently set on the control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9bcbdc13-6c66-4737-82a4-98329f173743
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

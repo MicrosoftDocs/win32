@@ -2,7 +2,6 @@
 Description: Transition
 ms.assetid: '05bdf19a-644e-4592-9601-5bc430bdc763'
 title: Transition
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

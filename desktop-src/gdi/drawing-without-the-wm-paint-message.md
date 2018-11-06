@@ -2,7 +2,6 @@
 Description: Although applications carry out most drawing operations while the WM\_PAINT message is processing, it is sometimes more efficient for an application to draw directly in a window without relying on the WM\_PAINT message.
 ms.assetid: 2d015879-58d2-4cbe-b1cc-445f2e8fd316
 title: Drawing Without the WM_PAINT Message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

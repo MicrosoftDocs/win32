@@ -2,7 +2,6 @@
 title: IAgentCommands SetVoice
 description: IAgentCommands SetVoice
 ms.assetid: dfb3b58a-7f24-4366-8f04-93a9e956fdc8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

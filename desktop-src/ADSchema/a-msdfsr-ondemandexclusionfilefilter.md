@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-OnDemandExclusionFileFilter attribute
 description: Filter string applied to on-demand replication files.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fc9c38bb-7467-4877-be71-44bf9b57d09d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-OnDemandExclusionFileFilter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

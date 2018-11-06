@@ -2,7 +2,6 @@
 Description: Applies the animation set to the specified track.
 ms.assetid: f48bb0f1-3ccd-4db9-8a30-58c79ae0939e
 title: ID3DXAnimationController::SetTrackAnimationSet method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

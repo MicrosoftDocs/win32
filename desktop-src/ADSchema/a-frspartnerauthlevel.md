@@ -1,9 +1,6 @@
 ---
 title: FRS-Partner-Auth-Level attribute
 description: The RPC Security level.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ec7a8d92-33c0-415a-bc38-5b7df81226bc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Partner-Auth-Level
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

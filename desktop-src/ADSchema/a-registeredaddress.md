@@ -1,9 +1,6 @@
 ---
 title: Registered-Address attribute
 description: Specifies a mnemonic for an address associated with an object at a particular city location. The mnemonic is registered in the country/region in which the city is located and is used in the provision of the Public Telegram Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5bc1eecd-0263-46da-a842-75ee94f77b58
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Registered-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

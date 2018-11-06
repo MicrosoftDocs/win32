@@ -1,9 +1,6 @@
 ---
 title: netboot-Answer-Only-Valid-Clients attribute
 description: Determines whether the server answers all, or only pre-staged, client computers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b02438ba-11b3-497c-b57f-bd9a0045e6b0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-Answer-Only-Valid-Clients
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Writing a WMI high-performance provider to create performance counters is not recommended.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6a22d6f7-d9e2-45fa-876d-921a4bc4f574
 ms.tgt_platform: multiple
 title: Making an Instance Provider into a High-Performance Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

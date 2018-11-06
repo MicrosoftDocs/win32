@@ -5,7 +5,6 @@ ms.assetid: bbb6a57f-281a-4a6e-a4b6-15846d0cf21f
 keywords:
 - compiler errors 64-bit Windows Programming
 - migration 64-bit Windows Programming
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

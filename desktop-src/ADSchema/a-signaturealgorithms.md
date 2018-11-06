@@ -1,9 +1,6 @@
 ---
 title: Signature-Algorithms attribute
 description: This attribute indicates the type of algorithm that must be used to decode a digital signature during the authentication process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f602a009-6823-42e7-b5e4-fb433535b4cc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Signature-Algorithms
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

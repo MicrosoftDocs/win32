@@ -2,7 +2,6 @@
 Description: The COMPANYNAME property is the organization or company of the user performing the installation.
 ms.assetid: 714a9910-ae78-4429-bb19-72e74f8f3c5e
 title: COMPANYNAME property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

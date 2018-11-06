@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Key-Values attribute
 description: Contains internal data that the NIS server uses to store temporary data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7c3bc936-f35c-456f-9f3e-7fe11ed1c98b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Key-Values
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

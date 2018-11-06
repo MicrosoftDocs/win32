@@ -2,7 +2,6 @@
 Description: The following example creates a random session key, gets and prints some default parameters of that key, sets a new parameters on the original key, then gets and prints the value of that new parameter.
 ms.assetid: 00f93036-05c9-4585-842a-a42a7faea2a5
 title: 'Example C Program: Setting and Getting Session Key Parameters'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Win32_TSLicenseReportFailedPerUserSummaryEntry class
 description: Provides details of the domains to which Per User Issuance was failed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f7265734-ac4d-439f-ae8b-3694e6f81f2a
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

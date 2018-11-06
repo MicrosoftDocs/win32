@@ -1,9 +1,6 @@
 ---
 title: Security-Principal class
 description: Contains the security information for an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eb40fbb1-d9c9-424c-8752-be5b6482d91e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Security-Principal
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

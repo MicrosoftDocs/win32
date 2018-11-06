@@ -1,15 +1,11 @@
 ---
 title: Example Code for Locating an Application Directory Partition Host Server
 description: This topic includes a code example that locates an application directory partition host server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c161323b-13ce-4986-8b24-b459009ff53c
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Locating an Application Directory Partition Host Server AD
 - Application Directory Partition AD , Example Code for Locating an Application Directory Partition Host Server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

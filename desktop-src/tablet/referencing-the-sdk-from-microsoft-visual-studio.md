@@ -2,7 +2,6 @@
 Description: This topic describes what steps are needed to reference the Tablet PC platform components for C\#, Microsoft Visual Basic .NET, and Microsoft Visual C++.
 ms.assetid: a582eb19-f9e3-4593-b973-ec3433074bac
 title: Referencing the SDK from Microsoft Visual Studio
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

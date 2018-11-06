@@ -1,9 +1,6 @@
 ---
 title: Vendor attribute
 description: This attribute identifies the vendor for an application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: af376e9a-ae30-49f5-baff-c888e83688b0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Vendor
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

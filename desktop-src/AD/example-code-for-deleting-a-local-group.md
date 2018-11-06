@@ -1,14 +1,10 @@
 ---
 title: Example Code for Deleting a Local Group
 description: Code examples to delete a local group on a member server or a computer running Windows NT Workstation or Windows 2000 Professional.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ff4fd148-2fa2-4355-bfaa-1f093d61aa00
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory ,deleting a local group
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

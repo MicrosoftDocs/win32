@@ -2,7 +2,6 @@
 title: Using IAccessibleEx from a Client
 description: This topic explains how clients access the IAccessibleEx implementation of a server and use it to get UI Automation properties and control patterns for UI elements.
 ms.assetid: e057bbe8-5dd7-41fc-a5d5-bcf4c1c6433d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

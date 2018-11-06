@@ -2,7 +2,6 @@
 Description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
 ms.assetid: edd469df-b3e1-4ede-9194-00ce9b3be38b
 title: PathGradientBrush Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

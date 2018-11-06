@@ -1,14 +1,10 @@
 ---
 title: RootDSE
 description: In LDAP 3.0, rootDSE is defined as the root of the directory data tree on a directory server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dd5a160d-6604-43ca-878c-6b19e90d3adb
 ms.tgt_platform: multiple
 keywords:
 - rootDSE Active Directory Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Flow Control Limitations
 description: Pixel shader flow control instructions have limits affecting how many levels of nesting can be included in the instructions. In addition, there are some limitations for implementing per-pixel flow control with gradient instructions.
 ms.assetid: 17a902cd-16a4-4065-9249-01f9b1f40506
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

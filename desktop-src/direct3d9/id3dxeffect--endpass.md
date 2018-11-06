@@ -2,7 +2,6 @@
 Description: End an active pass.
 ms.assetid: e20b3e0f-db9f-48e8-ab4e-761a5861f3ce
 title: ID3DXEffect::EndPass method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,12 +1,8 @@
 ---
 Description: The IWbemServices interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B4A2048E-6C2F-43E0-97BD-E6D37D8E4657
 ms.tgt_platform: multiple
 title: IWbemServices Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

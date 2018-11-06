@@ -2,7 +2,6 @@
 title: Using AVIFile Functions and Macros
 description: Using AVIFile Functions and Macros
 ms.assetid: 1866cd31-6f84-4791-96e3-505917715f8c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

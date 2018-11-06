@@ -2,7 +2,6 @@
 Description: 'The following tasks are performed by service programs:'
 ms.assetid: 10f86c49-5256-445a-991b-cc22b1088f85
 title: Service Program Tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

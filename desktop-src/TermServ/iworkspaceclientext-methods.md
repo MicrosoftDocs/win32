@@ -1,12 +1,8 @@
 ---
 title: IWorkspaceClientExt Methods
 description: The IWorkspaceClientExt interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0249F9BE-80BC-46EE-BECB-ED62C30174ED
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

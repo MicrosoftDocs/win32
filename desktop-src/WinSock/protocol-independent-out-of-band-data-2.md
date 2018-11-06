@@ -2,7 +2,6 @@
 Description: The stream socket abstraction includes the notion of out of band (OOB) data.
 ms.assetid: 1a517885-2688-421f-9389-2d329e5c3d56
 title: Protocol-Independent Out-of-Band Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -37,7 +36,7 @@ The [**WSAAsyncSelect**](/windows/desktop/api/winsock/nf-winsock-wsaasyncselect)
 
 ## OOB Data in TCP
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The following discussion of out-of-band data (OOB), implemented using TCP urgent data, follows the model used in the Berkeley software distribution. Users and implementers should be aware that:
 
  

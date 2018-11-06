@@ -2,7 +2,6 @@
 title: Multimedia Appendix
 description: Multimedia Appendix
 ms.assetid: 5bbd3d18-38a4-49e2-b4ae-c00c8762b914
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

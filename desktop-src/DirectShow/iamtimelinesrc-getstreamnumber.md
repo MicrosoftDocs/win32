@@ -2,7 +2,6 @@
 Description: The GetStreamNumber method retrieves the current stream number for the source object.
 ms.assetid: c9c0c9f7-2716-436d-902c-f2255bedaffb
 title: IAMTimelineSrc::GetStreamNumber method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

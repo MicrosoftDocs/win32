@@ -4,7 +4,6 @@ description: Startup Information Form for an Online Music Store
 ms.assetid: 6ee30446-7505-40ae-b664-3727a5be9976
 keywords:
 - Windows Media Player Online Stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

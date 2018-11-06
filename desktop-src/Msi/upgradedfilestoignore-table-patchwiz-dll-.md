@@ -2,7 +2,6 @@
 Description: The UpgradedFilesToIgnore table prevents the updating of specific files that are in fact changed in the upgraded image relative to the target images.
 ms.assetid: 3b5f4360-887a-4a21-8f16-faa84da34328
 title: UpgradedFilesToIgnore Table (Patchwiz.dll)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

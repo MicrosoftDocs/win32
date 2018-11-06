@@ -2,7 +2,6 @@
 Description: 'The following are options for display and related processing of text to support fine typography effects or complex scripts: Text functionsEdit controlsRich edit controlsUniscribe'
 ms.assetid: 337bc798-e75d-4389-8fea-577eb82a0ed5
 title: Complex Script Processing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

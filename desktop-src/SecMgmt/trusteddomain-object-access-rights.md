@@ -2,7 +2,6 @@
 Description: Lists and explains the access rights of the TrustedDomain object.
 ms.assetid: eb82864c-7e69-4ed5-a55d-d6792670bcd1
 title: TrustedDomain Object Access Rights
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

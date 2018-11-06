@@ -1,9 +1,6 @@
 ---
 title: ITsSbTaskInfo Status property
 description: Retrieves an RDV\_TASK\_STATUS enumeration value that represents the state of the task.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 779af127-133c-47ff-8fca-bfd2c96c9768
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

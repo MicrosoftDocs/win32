@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient AdvancedSettings2 property
 description: Retrieves a pointer to the IMsRdpClientAdvancedSettings interface. The interface can be used to set advanced settings for the client control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 207b625c-fc2b-41ad-9339-9f3c3b8eeab7
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

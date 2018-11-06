@@ -1,14 +1,8 @@
 ---
 Description: Determines whether the caller has the aggregated permissions on the CIM\_LogicalFile object, and the share on which the file or directory resides, as specified by the Permissions argument.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7b6845df-2427-44a8-bd91-9a4ba65caa51
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the CIM_LogicalFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **GetEffectivePermission** method determines whether the caller has the aggregated permissions on the [**CIM\_LogicalFile**](cim-logicalfile.md) object, and the share on which the file or directory resides, as specified by the *Permissions* argument.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

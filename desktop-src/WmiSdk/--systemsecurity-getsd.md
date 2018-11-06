@@ -1,12 +1,8 @@
 ---
 Description: Gets the security descriptor for the namespace to which the user is connected. This method returns a security descriptor in binary byte array format. If you are writing a script, use the GetSecurityDescriptor method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: aeac1e7b-fcb8-4880-afd1-4950da37602b
 ms.tgt_platform: multiple
 title: GetSD method of the __SystemSecurity class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

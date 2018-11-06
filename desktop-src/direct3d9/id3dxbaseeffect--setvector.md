@@ -2,7 +2,6 @@
 Description: Sets a vector.
 ms.assetid: 7dae88fc-d5d3-4751-859a-fa1bde4d0ce8
 title: ID3DXBaseEffect::SetVector method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

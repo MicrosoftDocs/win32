@@ -2,7 +2,6 @@
 Description: The FormatType method retrieves the format type.
 ms.assetid: 7a4c38be-0f6e-430c-aca4-012cf33f6e5b
 title: CMediaType.FormatType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

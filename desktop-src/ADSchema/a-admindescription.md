@@ -1,9 +1,6 @@
 ---
 title: Admin-Description attribute
 description: The description displayed on admin screens.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4307b85b-f285-4e72-a73f-1f179ebb991a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Admin-Description
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

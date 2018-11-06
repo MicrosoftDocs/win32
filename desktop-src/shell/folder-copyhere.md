@@ -1,7 +1,6 @@
 ---
 Description: Copies an item or items to a folder.
 title: Folder.CopyHere method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

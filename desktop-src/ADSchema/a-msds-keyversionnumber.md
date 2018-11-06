@@ -1,9 +1,6 @@
 ---
 title: ms-DS-KeyVersionNumber attribute
 description: The Kerberos version number of the current key for this account. This is a constructed attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 21bd40d9-df90-4f46-90e7-582e86eef760
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-KeyVersionNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

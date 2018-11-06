@@ -1,14 +1,8 @@
 ---
 Description: The Delete&\#8194;WMI class method deletes an existing service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5e437d36-3582-448c-b568-45f7fb13b096
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Delete method of the Win32_SystemDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

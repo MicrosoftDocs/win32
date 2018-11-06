@@ -2,7 +2,6 @@
 Description: Pipe operations, including pipe clients and servers can call one of several functions — in addition to CallNamedPipe — to read from and write to a named pipe.
 ms.assetid: ae06455e-33bc-433d-be8f-aeb8eeb99b1d
 title: Named Pipe Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

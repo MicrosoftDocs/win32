@@ -2,7 +2,6 @@
 title: WinSNMP Programming Tasks
 description: The following table summarizes the basic programming procedures that you must perform to code a WinSNMP application, and the topics that provide information about these tasks.
 ms.assetid: '70c24042-bf44-4484-8e5e-d117e2ba28d5'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

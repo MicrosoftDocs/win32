@@ -5,7 +5,6 @@ ms.assetid: 02554ce1-2d52-48e9-95f1-d5d480519035
 keywords:
 - retrieving task creator Task Scheduler
 - retrieving work item properties Task Scheduler , task creator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

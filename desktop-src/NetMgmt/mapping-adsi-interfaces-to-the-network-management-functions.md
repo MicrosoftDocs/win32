@@ -2,7 +2,6 @@
 title: Mapping ADSI Interfaces to the Network Management Functions
 description: The Active Directory Service Interfaces (ADSI) are a set of COM interfaces used to access the capabilities of directory services from different network providers.
 ms.assetid: dfa81c58-3ce4-40ee-8bfc-a19a13781992
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

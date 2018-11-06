@@ -2,7 +2,6 @@
 title: Mobile Device Management Registration
 description: The Mobile Device Management (MDM) registration enrolls a device into a management service.
 ms.assetid: 33166561-72a7-4d32-b30e-0385d6cda26a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

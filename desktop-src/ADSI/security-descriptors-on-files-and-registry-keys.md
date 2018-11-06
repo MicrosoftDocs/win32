@@ -1,14 +1,10 @@
 ---
 title: Security Descriptors on Files and Registry Keys
 description: Active Directory Service Interfaces (ADSI) can be used to manage and secure file systems within an organization, including the ability to set or modify ACLs on files or file shares created by users.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7233a82f-fc38-4718-b674-4e6a00666184
 ms.tgt_platform: multiple
 keywords:
 - Security Descriptors on Files and Registry Keys ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

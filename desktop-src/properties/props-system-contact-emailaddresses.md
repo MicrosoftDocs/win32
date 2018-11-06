@@ -2,7 +2,6 @@
 Description: Indicates all the email addresses of the contact.
 ms.assetid: 57ef6472-c317-42c0-9771-b0728768b100
 title: System.Contact.EmailAddresses
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

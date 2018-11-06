@@ -2,7 +2,6 @@
 Description: The ICertView interface is used by properly authorized clients to view the Certificate Services database.
 ms.assetid: c8f316dd-186b-4e4a-b0ce-561a23b266cb
 title: Viewing the Certificate Services Database
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

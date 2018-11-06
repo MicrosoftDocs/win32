@@ -1,9 +1,6 @@
 ---
 title: Validated-MS-DS-Behavior-Version validated writes
 description: Validated write to MS DS behavior version.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f0d82a95-6bb9-4704-ab8f-96d1f3c6aedf
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Validated-MS-DS-Behavior-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

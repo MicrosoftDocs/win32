@@ -1,14 +1,8 @@
 ---
 Description: Represents a baseboard, which is also known as a motherboard or system board.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 04ac7522-8b99-4ffc-9f7d-d1225f55a862
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_BaseBoard class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

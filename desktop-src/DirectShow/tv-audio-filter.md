@@ -2,7 +2,6 @@
 Description: TV Audio Filter
 ms.assetid: 882e03d4-5574-4b0f-b965-63ff9dbb7852
 title: TV Audio Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

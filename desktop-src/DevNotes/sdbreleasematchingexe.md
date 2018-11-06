@@ -2,7 +2,6 @@
 Description: Releases resources used by the SdbGetMatchingExe function.
 ms.assetid: 4a784f72-2108-4d5e-86e1-1960ac921c8f
 title: SdbReleaseMatchingExe function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

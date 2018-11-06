@@ -2,7 +2,6 @@
 Description: The EmbeddedUIHandler function prototype defines a callback function exported by the embedded UI DLL that is defined in the MsiEmbeddedUI table. Call the EmbeddedUIHandler function once for each message sent to the user interface.
 ms.assetid: 456b1db4-2b5b-4dfb-86a4-0bfb82490d83
 title: EmbeddedUIHandler callback function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

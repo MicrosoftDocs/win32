@@ -13,7 +13,6 @@ keywords:
 - playlists,managing
 - metafile playlists,managing
 - Windows Media metafile playlists,managing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

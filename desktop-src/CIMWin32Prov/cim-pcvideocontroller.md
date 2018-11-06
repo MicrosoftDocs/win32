@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PCVideoController represents the capabilities and management of a personal computer video controller, a subtype of a video controller.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bf937727-a332-445b-9397-7d87d58c4a5b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PCVideoController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -67,7 +61,7 @@ api_location:
 
 The **CIM\_PCVideoController** represents the capabilities and management of a personal computer video controller, a subtype of a video controller.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

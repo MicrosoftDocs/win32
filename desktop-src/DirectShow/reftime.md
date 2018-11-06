@@ -2,7 +2,6 @@
 Description: The REFTIME data type is used to express time in seconds.
 ms.assetid: '0c5eed92-9f98-49ed-aab0-5958ee574fe9'
 title: REFTIME
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

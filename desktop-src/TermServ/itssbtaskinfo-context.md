@@ -1,9 +1,6 @@
 ---
 title: ITsSbTaskInfo Context property
 description: Retrieves the context bytes associated with the task.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ce55ce2a-957f-4b50-b632-42079277102b
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

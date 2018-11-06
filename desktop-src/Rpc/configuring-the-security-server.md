@@ -4,7 +4,6 @@ description: The following procedure details configuring the security server for
 ms.assetid: 959d06b0-3ddb-4090-8686-82a44462a28e
 keywords:
 - Remote Procedure Call RPC , tasks, configuring the security server
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

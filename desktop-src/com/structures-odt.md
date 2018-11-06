@@ -2,7 +2,6 @@
 title: Structures
 description: The following structures are used to implement compound documents and perform data transfer between applications.
 ms.assetid: 76fef2dd-4cfb-4526-a1e0-8e3218aa6145
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

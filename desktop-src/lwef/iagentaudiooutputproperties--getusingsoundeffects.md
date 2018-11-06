@@ -2,7 +2,6 @@
 title: IAgentAudioOutputProperties GetUsingSoundEffects
 description: IAgentAudioOutputProperties GetUsingSoundEffects
 ms.assetid: 3ccf90b1-a2aa-482a-9f96-85d735532c11
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

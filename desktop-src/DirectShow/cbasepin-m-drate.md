@@ -2,7 +2,6 @@
 Description: Segment rate.
 ms.assetid: 4deef230-7c7e-4acb-a582-c4836a878b74
 title: CBasePin::m_dRate member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

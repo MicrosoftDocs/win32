@@ -1,9 +1,6 @@
 ---
 title: Mail-Recipient class
 description: Stores email configuration information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8cc1779c-81f8-4bc2-99b2-3364d655a299
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Mail-Recipient
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

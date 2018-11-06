@@ -1,12 +1,8 @@
 ---
 title: Enumerating Objects in a Collection
 description: Enumerating Objects in a Collection
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 664e4d99-48ed-4948-b816-e92ad1ca3ece
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

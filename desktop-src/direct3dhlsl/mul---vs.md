@@ -2,7 +2,6 @@
 title: mul - vs
 description: Multiplies sources into the destination.
 ms.assetid: 0b048cc2-b165-418f-893e-6dee28ca5ad3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -7,7 +7,6 @@ keywords:
 - codecs,calculating bit rates for arbitrary streams
 - bit rates,calculating for arbitrary streams
 - streams,calculating bit rates for arbitrary streams
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

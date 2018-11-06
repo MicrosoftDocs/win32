@@ -2,7 +2,6 @@
 Description: This class is the event type class for ALPC end wait events. The following syntax is simplified from MOF code.
 ms.assetid: 89a357dd-c217-4b55-994a-4252fa3cae1c
 title: ALPC_Unwait class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

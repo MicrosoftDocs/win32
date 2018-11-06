@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-ConflictSizeInMb attribute
 description: Contains the size, in megabytes, of the conflict directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a5afb681-4fd2-480c-9e9d-d4c7f0322bf8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-ConflictSizeInMb
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

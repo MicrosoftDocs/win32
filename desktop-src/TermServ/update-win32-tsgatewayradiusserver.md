@@ -1,9 +1,6 @@
 ---
 title: Update method of the Win32_TSGatewayRADIUSServer class
 description: Updates the current Remote Authentication Dial-In User Service (RADIUS) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 38a15768-66eb-40d6-a079-16555f2bf96a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

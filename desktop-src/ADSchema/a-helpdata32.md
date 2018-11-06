@@ -1,9 +1,6 @@
 ---
 title: Help-Data32 attribute
 description: This attribute was used for the Win32 help file format for Exchange 4.0. It is not used for any other versions of Exchange.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 33e64ff9-7cb4-43a6-8d7b-1c5e925b783c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Help-Data32
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

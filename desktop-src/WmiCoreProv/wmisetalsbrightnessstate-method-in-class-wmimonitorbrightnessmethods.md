@@ -2,7 +2,6 @@
 Description: Used to control the ambient light sensor brightness state.
 ms.assetid: ff400d4e-be8c-450b-ad53-d43b0ab84ab3
 title: WmiSetALSBrightnessState method of the WmiMonitorBrightnessMethods class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

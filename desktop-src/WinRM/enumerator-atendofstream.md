@@ -1,9 +1,6 @@
 ---
 title: Enumerator.AtEndOfStream property
 description: Gets a Boolean value that indicates whether there are any more items in the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5e80674a-7889-4753-b0dd-4d7b44eba00a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

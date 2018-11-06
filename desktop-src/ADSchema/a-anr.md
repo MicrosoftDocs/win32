@@ -1,9 +1,6 @@
 ---
 title: ANR attribute
 description: Ambiguous name resolution attribute to be used when choosing between objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9057dc7e-f669-4821-86b0-703ff7e5b120
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ANR
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The PrinterProperties function displays a printer-properties property sheet for the specified printer.
 ms.assetid: 1d4c961b-178b-47af-b983-5b7327919f93
 title: PrinterProperties function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

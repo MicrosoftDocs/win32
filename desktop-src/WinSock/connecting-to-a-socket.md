@@ -2,7 +2,6 @@
 Description: For a client to communicate on a network, it must connect to a server.
 ms.assetid: fb52d2b7-70fa-497a-bbb4-42b25ea9d136
 title: Connecting to a Socket
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Using the IADs Interfaces
 description: ADSI, each element of a directory service is represented by an ADSI object, which is a Component Object Model (COM) object that supports the standard COM IUnknown interface as well as the IDispatch and IADs interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bdbf2012-6863-4611-8173-6a3cd9c4960f
 ms.tgt_platform: multiple
 keywords:
 - IADs ADSI ,using
 - ADSI ADSI ,using,using the IADs interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

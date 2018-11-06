@@ -1,12 +1,8 @@
 ---
 title: Binding Programmatically Using an ADSI Interface
 description: This topic contains links to topics that demonstrate binding to directory objects using ADSI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 37f3a948-00e4-4e84-ac9e-8aa82f2635a1
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

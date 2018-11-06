@@ -12,7 +12,6 @@ keywords:
 - capDriverGetVersion macro
 - WM_CAP_DRIVER_DISCONNECT message
 - capDriverDisconnect macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

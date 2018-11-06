@@ -2,7 +2,6 @@
 Description: A device-independent bitmap (DIB) contains a color table.
 ms.assetid: 56b39a3d-48a4-4620-9652-ec41ea4d6423
 title: Device-Independent Bitmaps
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

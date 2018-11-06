@@ -1,9 +1,6 @@
 ---
 title: FindLicenseServers method of the Win32_TerminalServiceSetting class
 description: Enumerates all of the Remote Desktop license servers, and the method of discovery.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0de2ee6f-6c56-4293-84da-131b433c6a9d
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

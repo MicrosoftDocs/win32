@@ -1,9 +1,6 @@
 ---
 title: Allowed-To-Authenticate extended right
 description: The control access right controls who can authenticate to a particular computer or service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 265e6240-0fb5-4037-8c66-05fadc646100
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Allowed-To-Authenticate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

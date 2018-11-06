@@ -2,7 +2,6 @@
 Description: This attribute, when set on a stream, explicitly marks the stream as shared by the frame server.
 ms.assetid: 15DF88A2-041C-4E73-A121-00454964E2C1
 title: MF_DEVICESTREAM_FRAMESERVER_SHARED attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

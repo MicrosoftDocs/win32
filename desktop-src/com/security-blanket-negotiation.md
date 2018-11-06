@@ -2,7 +2,6 @@
 title: Security Blanket Negotiation
 description: Security Blanket Negotiation
 ms.assetid: 5a01912d-611c-4a6e-ab9d-0243cba331f1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

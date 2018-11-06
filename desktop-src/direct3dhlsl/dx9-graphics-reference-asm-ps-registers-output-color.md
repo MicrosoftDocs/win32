@@ -2,7 +2,6 @@
 title: Output Color Register
 description: The pixel shader color output registers (oC\ ) are write-only registers that output results to multiple render targets.
 ms.assetid: 88e69189-3956-47de-a336-921f1e62c025
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

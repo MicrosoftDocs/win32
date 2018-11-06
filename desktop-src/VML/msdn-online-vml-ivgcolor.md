@@ -2,7 +2,6 @@
 title: VML IVgColor
 description: VML IVgColor
 ms.assetid: 6121c5bf-1969-4402-9f45-8891a1538fea
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

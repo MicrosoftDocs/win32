@@ -2,7 +2,6 @@
 Description: This topic provides information about the native TIFF codec available through Windows Imaging Component (WIC).
 ms.assetid: 021AAF33-A89E-4336-AEB1-1A0D79A14C75
 title: TIFF Format Overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

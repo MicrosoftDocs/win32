@@ -1,12 +1,8 @@
 ---
 Description: The Count property of the SWbemMethodSet object defines the number of items in the collection. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 492dabef-f417-4b1e-bc3a-8d39d8f7ee35
 ms.tgt_platform: multiple
 title: SWbemMethodSet.Count property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

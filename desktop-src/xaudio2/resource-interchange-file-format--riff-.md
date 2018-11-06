@@ -2,7 +2,6 @@
 Description: This overview describes the Resource Interchange File Format (RIFF), which is used in .wav files. RIFF is the typical format from which audio data for XAudio2 will be loaded.
 ms.assetid: b543e949-223c-ddd3-7527-a41f3709a0c1
 title: Resource Interchange File Format (RIFF)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

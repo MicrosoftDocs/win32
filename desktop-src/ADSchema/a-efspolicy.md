@@ -1,9 +1,6 @@
 ---
 title: EFSPolicy attribute
 description: The Encrypting File System Policy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e5d5e0f8-5bce-4ada-a2ec-734532a968e9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - EFSPolicy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

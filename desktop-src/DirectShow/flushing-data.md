@@ -2,7 +2,6 @@
 Description: Flushing Data
 ms.assetid: 528763a2-c0f2-4981-91dc-dd17987f5bd5
 title: Flushing Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

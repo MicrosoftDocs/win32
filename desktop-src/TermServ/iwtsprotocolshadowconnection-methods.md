@@ -1,12 +1,8 @@
 ---
 title: IWTSProtocolShadowConnection Methods
 description: The IWTSProtocolShadowConnection interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F26D5401-B7FF-4BD8-9960-9D9B081F339A
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

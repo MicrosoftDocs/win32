@@ -1,9 +1,6 @@
 ---
 title: RID-Allocation-Pool attribute
 description: A pool that was prefetched for use by the RID manager when the RID-Previous-Allocation-Pool has been used up.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6d49b497-322f-424c-badc-4801f51481f3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RID-Allocation-Pool
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: 'The following example works in conjunction with the program in Example C Program: Sending and Receiving a Signed and Encrypted Message. It reads the signed and encrypted message, then decrypts and verifies the message.'
 ms.assetid: 65ca30ba-a184-46ef-808c-e2fedcc86079
 title: 'Example C Program: Receiving a Signed and Encrypted Message'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

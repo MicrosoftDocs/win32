@@ -1,9 +1,6 @@
 ---
 title: RemoveResources method of the Win32_TSGatewayResourceGroup class
 description: Removes resources from the resource group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5f339990-8273-4658-843e-b6b7a85808e1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

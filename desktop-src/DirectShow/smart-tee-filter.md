@@ -2,7 +2,6 @@
 Description: Smart Tee Filter
 ms.assetid: 25bfbd62-b6be-4d1f-aa4c-77798bbb9fc9
 title: Smart Tee Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -14,7 +14,6 @@ keywords:
 - TSF (Text Services Framework),language bar
 - text services,language bar
 - language bar
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

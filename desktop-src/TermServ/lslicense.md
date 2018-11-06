@@ -1,9 +1,6 @@
 ---
 title: LSLicense structure
 description: Contains information about a specific Remote Desktop Services license.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2c7f7b7a-e3b5-4f84-b49f-5f1d6960652d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - LSLicense
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 api_location: 

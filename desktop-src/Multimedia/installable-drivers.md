@@ -6,7 +6,6 @@ keywords:
 - Windows multimedia,installable drivers
 - multimedia,installable drivers
 - installable drivers,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

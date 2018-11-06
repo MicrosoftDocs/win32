@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-intMin attribute
 description: The minimum value for a WMI 32-bit integer parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 55f0f7ad-33d8-48e2-9924-49897085b078
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-intMin
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -5,7 +5,6 @@ ms.assetid: 193961a5-b882-4769-bce7-a53d625fc9dd
 keywords:
 - Video for Windows (VFW),VCM functions
 - VFW (Video for Windows),VCM functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

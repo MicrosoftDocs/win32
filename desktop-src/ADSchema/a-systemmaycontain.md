@@ -1,9 +1,6 @@
 ---
 title: System-May-Contain attribute
 description: The list of optional attributes for a class. The list of attributes can only be modified by the system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b2fbeb64-d147-4c1a-a609-4f16327609ce
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - System-May-Contain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

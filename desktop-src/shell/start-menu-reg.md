@@ -2,7 +2,6 @@
 Description: The Start menu in Windows XP and Windows Vista contains reserved slots for the default Internet (browser) and E-mail (mail) clients, together commonly known as Start Menu Internet Applications.
 ms.assetid: a3d7416f-0dbd-4af2-ab38-758f9cc8aec5
 title: How to Register an Internet Browser or Email Client With the Windows Start Menu
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: WinNT Object Class Hierarchy
 description: The WinNT object class hierarchy starts from the Namespace object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 01dfdfec-cfdf-43ee-bf2f-c05a741bfb22
 ms.tgt_platform: multiple
 keywords:
 - WinNT service provider ADSI ,object class hierarchy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

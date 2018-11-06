@@ -2,7 +2,6 @@
 Description: Custom Topology Loaders
 ms.assetid: 3982b07e-3179-45c1-9f17-f2114363f53d
 title: Custom Topology Loaders
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

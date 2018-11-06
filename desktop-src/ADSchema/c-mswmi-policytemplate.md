@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-PolicyTemplate class
 description: The policy template provides a recipe for creating a class instance in the target namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a51ab1e5-3080-48be-a18a-0714c3fbceb3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-PolicyTemplate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

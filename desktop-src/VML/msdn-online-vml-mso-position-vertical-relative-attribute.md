@@ -2,7 +2,6 @@
 title: VML MSO-Position-Vertical-Relative Attribute
 description: VML MSO-Position-Vertical-Relative Attribute
 ms.assetid: 5fab1501-f60b-4f2f-906d-69ef995695c4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

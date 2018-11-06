@@ -2,7 +2,6 @@
 title: ComboBox Control Structures
 description: .
 ms.assetid: a7e698b7-1b9b-4b41-92f4-b177ef37aa96
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

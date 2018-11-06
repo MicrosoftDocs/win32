@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Connection Broker client interfaces
 description: The Remote Desktop Connection Broker client API defines the following interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: BC7AF6B4-BA1B-464C-849C-40ACB2BC7E37
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

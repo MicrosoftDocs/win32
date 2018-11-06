@@ -4,7 +4,6 @@ description: Property Set Implementations in COM
 ms.assetid: 52d7b534-f81a-4cc9-b5ea-9538bfff056c
 keywords:
 - Structured Storage Strctd Stg ,using,property set uses in COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

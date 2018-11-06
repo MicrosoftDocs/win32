@@ -13,7 +13,6 @@ keywords:
 - control patterns,implementing UI Automation Window
 - control patterns,Window
 - interfaces,IWindowProvider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

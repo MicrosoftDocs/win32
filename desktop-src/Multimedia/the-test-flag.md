@@ -4,7 +4,6 @@ description: The Test Flag
 ms.assetid: d103a96e-8d55-413d-ac84-15c3d8dccfbe
 keywords:
 - MCI_TEST flag
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

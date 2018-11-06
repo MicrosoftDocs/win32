@@ -2,7 +2,6 @@
 Description: Represents the basic constraints extension of a certificate.
 ms.assetid: c21794f6-7654-4140-8114-0edb398d6de8
 title: BasicConstraints object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: If this bit is set on a ProgressBar control, the bar is drawn as a series of small rectangles. If this bit is not set, the progress indicator bar is drawn as a single continuous rectangle.
 ms.assetid: b2c43763-799c-4f09-b9f8-47a4a5f4faf3
 title: Progress95 Control Attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

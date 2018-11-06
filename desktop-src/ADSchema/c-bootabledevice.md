@@ -1,9 +1,6 @@
 ---
 title: bootableDevice class
 description: Represents a device with boot parameters.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 45a1b844-e3bc-42de-b3dc-e88709bb7843
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - bootableDevice
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

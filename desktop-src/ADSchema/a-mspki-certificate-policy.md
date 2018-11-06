@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Certificate-Policy attribute
 description: Contains the list of policy OIDs and their optional CSPs in the issued certificate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bc84c5ff-9cb1-406c-825c-97fa479d52eb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Certificate-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

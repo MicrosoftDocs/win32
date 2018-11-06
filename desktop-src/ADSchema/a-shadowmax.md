@@ -1,9 +1,6 @@
 ---
 title: shadowMax attribute
 description: Contains the maximum number of days a password can be valid.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 66a5f9d3-8a61-42eb-9d39-50c305844ba3
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - shadowMax
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

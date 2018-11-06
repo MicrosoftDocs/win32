@@ -2,7 +2,6 @@
 Description: The topics in this section demonstrate how to perform more advanced tasks with the XPS document interfaces.
 ms.assetid: 70a48c58-4443-4899-9af1-3ef41973f012
 title: Advanced XPS Document Programming Tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,16 +1,12 @@
 ---
 title: IADsDeleteOps Interface
 description: The IADsDeleteOps interface is used in supervisory and maintenance routines for the underlying directory store. It can delete leaf objects and entire subtrees in a single operation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 821b71c2-e9f5-4ca8-9366-e8a3f1907670
 ms.tgt_platform: multiple
 keywords:
 - IADsDeleteOps Interface ADSI
 - IADsDeleteOps ADSI , using
 - ADSI ADSI , example code C/C++ , using IADsDeleteOps to delete entire groups
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

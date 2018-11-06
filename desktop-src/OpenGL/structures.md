@@ -5,7 +5,6 @@ ms.assetid: 109c41b1-d3d2-4c1d-9809-99a0a89df263
 keywords:
 - OpenGL,structures
 - WGL reference OpenGL ,structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

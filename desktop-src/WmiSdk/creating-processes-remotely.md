@@ -1,12 +1,8 @@
 ---
 Description: You can use Win32\_Process.Create to execute a script or application on a remote computer. However, for security reasons, the process cannot be interactive. When Win32\_Process.Create is called on the local computer, the process can be interactive.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 11fea8b1-7d05-4f44-9103-ea804a1d4b38
 ms.tgt_platform: multiple
 title: Creating Processes Remotely using WMI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -15,7 +11,7 @@ ms.date: 05/31/2018
 
 You can use [**Win32\_Process.Create**](https://msdn.microsoft.com/library/aa389388) to execute a script or application on a remote computer. However, for security reasons, the process cannot be interactive. When **Win32\_Process.Create** is called on the local computer, the process can be interactive.
 
-> \[!Warning\]  
+> [!WARNING]
 > This topic describes the general procedure for creating a remote process with WMI. If you are simply looking to run a script on a remote system, see [Connecting to WMI Remotely Starting with Windows Vista](connecting-to-wmi-remotely-starting-with-vista.md), or [Connecting to WMI on a Remote Computer by Using Windows PowerShell](connecting-to-wmi-on-a-remote-computer-by-using-powershell.md). For more general information on remoting with PowerShell, see [Running Remote Commands](https://technet.microsoft.com/library/dd819505.aspx).
 
  

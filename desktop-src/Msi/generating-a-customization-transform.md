@@ -2,7 +2,6 @@
 Description: You may generate a transform file by using MsiDatabaseGenerateTransform or the GenerateTransform method of the Database object.
 ms.assetid: c016fcba-0d54-4b99-bcdd-36967b2c9da0
 title: Generating a Customization Transform
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

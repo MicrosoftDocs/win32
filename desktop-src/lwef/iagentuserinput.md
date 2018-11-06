@@ -2,7 +2,6 @@
 title: IAgentUserInput
 description: IAgentUserInput
 ms.assetid: 59ce7337-6031-4449-8b29-fd0c6737c3e8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

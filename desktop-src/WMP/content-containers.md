@@ -13,7 +13,6 @@ keywords:
 - Windows Media Player,IWMPContentContainer interface
 - content containers
 - IWMPContentContainer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

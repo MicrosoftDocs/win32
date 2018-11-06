@@ -2,7 +2,6 @@
 Description: The SPFILENOTIFY\_NEEDNEWCABINET notification is sent by SetupIterateCabinet to indicate that the current file continues in another cabinet.
 ms.assetid: 01207429-11fb-4e2c-89ba-54321992e953
 title: SPFILENOTIFY_NEEDNEWCABINET message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

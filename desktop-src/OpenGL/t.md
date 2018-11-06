@@ -11,7 +11,6 @@ keywords:
 - texture matrix
 - transformations
 - triangles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

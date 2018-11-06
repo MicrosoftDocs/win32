@@ -2,7 +2,6 @@
 Description: The TAPI 3 Rendezvous controls provide mechanisms to advertise and discover multiparty multimedia IP conferences. The following describes a set of Component Object Model (COM) components and interfaces to implement conferencing.
 ms.assetid: 0ca2edac-b507-497e-9e63-78a10466e2eb
 title: About Rendezvous IP Telephony Conferencing
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

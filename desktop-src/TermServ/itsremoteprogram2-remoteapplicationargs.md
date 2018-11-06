@@ -1,9 +1,6 @@
 ---
 title: ITSRemoteProgram2 RemoteApplicationArgs property
 description: The command-line arguments for the RemoteApp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c1c36876-df3d-4ef9-a5ac-f623bc51fe7b
 ms.tgt_platform: multiple
 keywords:
@@ -23,7 +20,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

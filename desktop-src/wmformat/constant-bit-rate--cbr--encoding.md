@@ -9,7 +9,6 @@ keywords:
 - codecs,constant bit rate (CBR)
 - constant bit rate (CBR)
 - CBR (constant bit rate)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

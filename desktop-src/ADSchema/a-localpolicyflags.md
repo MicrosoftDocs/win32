@@ -1,9 +1,6 @@
 ---
 title: Local-Policy-Flags attribute
 description: Flags that determine where a computer gets its policy. Local-Policy-Reference.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1f2fa723-507a-4e27-a325-8bd6f6cb6bd6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Local-Policy-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -12,7 +12,6 @@ keywords:
 - ASF (Advanced Systems Format),multiple language support
 - Advanced Systems Format (ASF),language support
 - ASF (Advanced Systems Format),language support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

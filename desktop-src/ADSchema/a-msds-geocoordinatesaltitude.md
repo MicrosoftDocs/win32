@@ -1,9 +1,6 @@
 ---
 title: ms-DS-GeoCoordinates-Altitude attribute
 description: Geo-coordinates for location services, specifically altitude (in millimeters) of the office or conference room.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ee7d756b-2bd4-4399-b573-794a331a1573
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-GeoCoordinates-Altitude
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

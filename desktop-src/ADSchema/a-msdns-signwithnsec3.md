@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-Sign-With-NSEC3 attribute
 description: An attribute used to define whether or not the DNS zone is signed with NSEC3.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5c208bad-3de7-4fb3-ac76-9b4afaf5addf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-Sign-With-NSEC3
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

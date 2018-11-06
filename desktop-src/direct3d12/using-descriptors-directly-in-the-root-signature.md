@@ -2,7 +2,6 @@
 title: Using Descriptors Directly in the Root Signature
 description: Applications can put descriptors directly in the root signature to avoid having to go through a descriptor heap.
 ms.assetid: 033E3D8F-3003-42F7-BF77-68A7D62802E5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

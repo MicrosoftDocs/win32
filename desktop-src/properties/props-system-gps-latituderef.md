@@ -2,7 +2,6 @@
 Description: Indicates whether latitude is north or south.
 ms.assetid: f12bc04b-13bf-4dbd-8feb-4901c12bd7d2
 title: System.GPS.LatitudeRef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

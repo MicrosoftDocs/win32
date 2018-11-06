@@ -2,7 +2,6 @@
 title: RC Diagnostic Messages
 description: This section describes of diagnostic messages produced by RC. Many of these messages appear when RC is not able to compile resources properly. The descriptions clarify the cause of each message.
 ms.assetid: 50b979f0-aa8a-44c5-ab82-28ec88bff8ef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

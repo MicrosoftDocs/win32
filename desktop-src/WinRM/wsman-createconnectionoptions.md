@@ -1,9 +1,6 @@
 ---
 title: WSMan.CreateConnectionOptions method
 description: Creates a ConnectionOptions object that specifies the user name and password used when creating a session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3669a5fe-8305-4fa3-aa75-fafefcd8b33d
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

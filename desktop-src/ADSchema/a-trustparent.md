@@ -1,9 +1,6 @@
 ---
 title: Trust-Parent attribute
 description: The parent in KERBEROS trust hierarchy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 738cf509-42a2-40b6-a525-6df34c02d0f0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Trust-Parent
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

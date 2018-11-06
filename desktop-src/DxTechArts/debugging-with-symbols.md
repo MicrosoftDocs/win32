@@ -2,7 +2,6 @@
 title: Debugging with Symbols
 description: This article provides a high level overview of how to best use symbols in your debugging process.
 ms.assetid: 7ce0c9c7-485c-8d72-0353-27fd2e369a7c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

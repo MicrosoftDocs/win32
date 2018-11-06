@@ -2,7 +2,6 @@
 Description: Device Information Properties are properties that describe the setup and installation of the device.
 ms.assetid: d0b2999a-87ff-474b-9e63-ed7d898b1aa0
 title: Device Information Properties (WIA_DIP_XXXX)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

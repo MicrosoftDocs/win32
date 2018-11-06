@@ -2,7 +2,6 @@
 Description: Repositions or modifies the visual attributes of an overlay surface.
 ms.assetid: 6d39166c-0efc-450d-adf4-9f4dfdf7c57f
 title: NtGdiDdUpdateOverlay function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

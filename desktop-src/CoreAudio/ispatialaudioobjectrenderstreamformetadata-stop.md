@@ -2,7 +2,6 @@
 Description: Stops a running audio stream.
 ms.assetid: 0E129803-9DCE-4398-83C7-AA099450168D
 title: ISpatialAudioObjectRenderStreamForMetadata::Stop method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

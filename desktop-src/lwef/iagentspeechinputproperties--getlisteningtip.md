@@ -2,7 +2,6 @@
 title: IAgentSpeechInputProperties GetListeningTip
 description: IAgentSpeechInputProperties GetListeningTip
 ms.assetid: b0488a54-03f8-43ce-935c-dd49c6ed5dbc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

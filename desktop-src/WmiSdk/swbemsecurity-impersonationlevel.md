@@ -1,12 +1,8 @@
 ---
 Description: The ImpersonationLevel property is an integer that defines the COM impersonation level that is assigned to this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cf57620b-7827-4552-a969-d25e5eb13a89
 ms.tgt_platform: multiple
 title: SWbemSecurity.ImpersonationLevel property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

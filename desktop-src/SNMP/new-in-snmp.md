@@ -2,7 +2,6 @@
 title: New in SNMP
 description: SNMP supports the use of IPv6 starting with Windows Vista.
 ms.assetid: 38d71c0a-8de1-45a7-958c-aa44411451bc
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

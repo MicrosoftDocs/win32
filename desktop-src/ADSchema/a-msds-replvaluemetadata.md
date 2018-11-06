@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Repl-Value-Meta-Data attribute
 description: A list of metadata for each value of an attribute. The metadata indicates who changed the value last.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 79c01bda-ea1b-41ca-b4de-c16c5167b270
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Repl-Value-Meta-Data
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Removes the providers registration.
 ms.assetid: e52c1ee0-140a-4277-bddd-d93338a512bc
 title: CounterCleanup function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

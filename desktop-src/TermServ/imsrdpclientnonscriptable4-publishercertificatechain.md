@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable4 PublisherCertificateChain property
 description: Controls the publisher certificate chain. The chain is stored in a variant of type VT\_BYREF that contains a pointer to a CERT\_CHAIN\_CONTEXT structure. For information about VT\_BYREF structures, see VARIANT and VARIANTARG.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 27ab0aff-1aef-4701-abe0-849bf32c9773
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -8,7 +8,6 @@ keywords:
 - files for skins,JScript
 - JScript files for skins,about
 - writing code for skins,JScript
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

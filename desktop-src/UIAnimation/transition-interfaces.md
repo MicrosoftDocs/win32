@@ -2,7 +2,6 @@
 title: Transition Interfaces
 description: This section contains the reference specifications for the Windows Animation Manager interfaces that support transitions.
 ms.assetid: 581C853D-F213-4227-AC61-4ED2E5D4EF04
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

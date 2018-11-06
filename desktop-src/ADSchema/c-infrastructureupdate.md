@@ -1,9 +1,6 @@
 ---
 title: Infrastructure-Update class
 description: This object represents the infrastructure master for a domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ac994ee1-1420-496c-b834-d1028483bfbb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Infrastructure-Update
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

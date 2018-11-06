@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Service-Account-DNS-Domain attribute
 description: ADAM The domain which the ADAM service account is a member of.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cdb10ab2-782b-4b9b-a479-4a4e6fc8ef9f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Service-Account-DNS-Domain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

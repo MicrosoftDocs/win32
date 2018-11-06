@@ -2,7 +2,6 @@
 title: VML LightHarsh Attribute
 description: VML LightHarsh Attribute
 ms.assetid: 7a992e1c-dc2d-42d9-95fd-e0dfcf847567
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

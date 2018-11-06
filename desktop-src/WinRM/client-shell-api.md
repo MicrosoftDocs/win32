@@ -1,12 +1,8 @@
 ---
 title: WinRM Client Shell API
 description: The Windows Remote Management (WinRM) Client Shell application programming interface (API) provides functionality to create and manage shells and shell operations, commands, and data streams on remote computers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e4e9e98b-3fe7-4c57-84c4-2f71d44fade9
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

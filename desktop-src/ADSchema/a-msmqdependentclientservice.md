@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Dependent-Client-Service attribute
 description: Indicates whether this server provides dependent clients services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a5902799-b2df-4679-9dd6-f75630dadfb4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Dependent-Client-Service
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

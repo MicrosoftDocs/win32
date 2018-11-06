@@ -1,9 +1,6 @@
 ---
 title: SetEncryptionLevel method of the Win32_TSGeneralSetting class
 description: The SetEncryptionLevel method sets the encryption level.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1822c4dc-bce6-489f-b21e-f96faffd2fa5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

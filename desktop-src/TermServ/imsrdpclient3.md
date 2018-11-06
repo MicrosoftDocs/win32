@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient3 interface
 description: Provides the methods and properties needed to configure and use the client control. Derives from the IMsRdpClient2 interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 31e52de1-1fb0-47ef-aad5-fd06621f2b3c
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

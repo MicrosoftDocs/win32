@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnRequestGoFullScreen method
 description: Called when the client requests to switch to full-screen mode and the IMsTscAdvancedSettings put\_ContainerHandledFullScreen method is called to set the ContainerHandledFullScreen property to a nonzero value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f61520dc-a72a-4205-8761-92aaf08b5f90
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

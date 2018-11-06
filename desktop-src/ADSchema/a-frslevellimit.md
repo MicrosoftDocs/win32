@@ -1,9 +1,6 @@
 ---
 title: FRS-Level-Limit attribute
 description: Limit depth of directory tree to replicate for file replication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e2916cbd-1ce7-4ff7-82a2-5fbdae3c6a1b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Level-Limit
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

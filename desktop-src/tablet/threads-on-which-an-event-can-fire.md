@@ -2,7 +2,6 @@
 Description: Description of threads on which an event can fire.Tablet PC Platform application programming interface (API) events are raised on the ink thread, the background recognition thread, or an application thread.
 ms.assetid: d1a5ab9b-d474-4ed7-9aa8-b5bdb771934f
 title: Threads on Which an Event Can Fire
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Using Restart Manager with a Secondary Installer
 description: The following procedure describes the use of the Restart Manager with primary and secondary installers.
 ms.assetid: aa55ab09-206b-49ed-8cb4-e311c1ed2d9d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

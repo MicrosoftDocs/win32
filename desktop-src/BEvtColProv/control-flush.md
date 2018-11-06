@@ -1,14 +1,8 @@
 ---
 Description: Clears the forward buffers for the stream and writes any buffered data to the configuration file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7f179237-95e5-470d-b613-c1deaa09c05f
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Flush method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Provides access to handwriting recognizers for use with ink analysis.
 ms.assetid: de536cca-889e-413e-a6f7-c2229a77c801
 title: IInkAnalysisRecognizer interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: msRADIUSFramedIPAddress attribute
 description: The msRADIUSFramedIPAddress attribute is used internally.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4c976dae-92af-42e0-8c05-c98ba238272a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msRADIUSFramedIPAddress
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

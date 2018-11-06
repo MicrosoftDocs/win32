@@ -2,7 +2,6 @@
 Description: Functions used in volume management.
 ms.assetid: dc985126-970c-49f2-877f-3759125e43b6
 title: Volume Management Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

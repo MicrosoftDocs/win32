@@ -2,7 +2,6 @@
 Description: Obtaining the Drivers Certificate Chain
 ms.assetid: bc7b346c-3382-4f2b-90b6-03f6a1a5a9ce
 title: Obtaining the Drivers Certificate Chain
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

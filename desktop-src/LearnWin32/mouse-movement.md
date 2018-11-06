@@ -2,7 +2,6 @@
 title: Mouse Movement
 description: Mouse Movement
 ms.assetid: 54366E9B-470A-4155-8A5F-425BAC8AC1A5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

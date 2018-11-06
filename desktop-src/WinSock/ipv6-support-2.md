@@ -2,7 +2,6 @@
 Description: IPv6 support, TCP/IP Annex, and Windows Sockets.
 ms.assetid: 03e29ef1-2105-4cec-8b80-0f9acab046f6
 title: IPv6 Support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: 'The following enumerations are used with memory management:'
 ms.assetid: B8CCF4CB-9407-4A96-BDDB-29290AE731F0
 title: Memory Management Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

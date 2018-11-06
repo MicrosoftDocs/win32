@@ -2,7 +2,6 @@
 title: Font Control
 description: To simplify the integration and configuration of font support in applications that require word processing and text editing capabilities, the Windows Ribbon framework provides a specialized Font Control that exposes a wide range of font properties such as typeface name, style, point size, and effects.
 ms.assetid: 6052f2e3-2c9e-432e-9ed6-c1e3a50843d9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -600,7 +599,7 @@ The following table lists the individual controls and their associated property 
 
 This section describes the steps required to bind a Font Control to a Command handler.
 
-> \[!Warning\]  
+> [!WARNING]
 > Any attempt to select a color swatch from the color picker of a Font Control may result in an access violation if no Command handler is associated with the control.
 
  

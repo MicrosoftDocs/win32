@@ -2,7 +2,6 @@
 Description: After you author an event reference page (ERP) source HTML document, you must name it before Network Monitor can display it in the Event Viewer.
 ms.assetid: 0c668a8b-94a5-4996-8214-4629a24a8337
 title: Naming an Event Reference Page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

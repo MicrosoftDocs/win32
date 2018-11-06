@@ -1,14 +1,8 @@
 ---
 Description: Obtains ownership of the logical directory entry file specified in the object path. This method is an extended version of the TakeOwnerShip method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 73726207-e885-4957-bff8-6903c4b99278
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the Win32_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

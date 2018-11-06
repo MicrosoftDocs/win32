@@ -1,14 +1,8 @@
 ---
 Description: This class represents the association between an operating system and the autochk settings that apply to the disks on the machine.Note that the setting is associated to operating system rather than computer system since there can be one or more operating systems installed on the machine, each with its own autochk settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 11178459-85c2-41c0-83b3-5b967e3311cf
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_OperatingSystemAutochkSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

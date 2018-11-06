@@ -2,7 +2,6 @@
 title: Installing as a Service Application
 description: Installing as a Service Application
 ms.assetid: 0dd4b348-3d12-49ba-8098-4adb9df01a0e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

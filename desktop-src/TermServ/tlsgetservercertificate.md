@@ -1,9 +1,6 @@
 ---
 title: TLSGetServerCertificate function
 description: Returns the certificate of the Remote Desktop license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7a31e7f9-f6d6-4030-b7db-43be118bb158
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

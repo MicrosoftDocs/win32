@@ -2,7 +2,6 @@
 Description: Identifies the root node of the counters section of an instrumentation manifest.
 ms.assetid: f16f432b-466f-4a3c-bc1b-e80b876a2511
 title: counters Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

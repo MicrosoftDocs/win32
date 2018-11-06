@@ -2,7 +2,6 @@
 title: Position Attribute (Shape)(VML)
 description: Position Attribute (Shape)(VML)
 ms.assetid: 64ffe754-298b-4cf1-a236-6a4bdcd27123
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic lists the frequency tables used for analog TV tuning for Slovakia.
 ms.assetid: 359ce11e-547d-43ac-82c3-aac9d739b496
 title: Slovakia Channel Assignments
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

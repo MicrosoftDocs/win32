@@ -1,14 +1,8 @@
 ---
 Description: The Rename method renames the logical file (or directory) specified in the object path. Renaming is not supported if the destination is on another drive, or overwriting an existing logical file is required.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5a62ff64-d1d2-43a2-997c-0ad46896b31f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Rename method of the CIM_LogicalFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **Rename** method renames the logical file (or directory) specified in the object path. Renaming is not supported if the destination is on another drive, or overwriting an existing logical file is required.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

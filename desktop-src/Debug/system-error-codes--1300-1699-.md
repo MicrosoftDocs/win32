@@ -2,7 +2,6 @@
 Description: The System Error Codes are very broad.
 ms.assetid: 7b04a2ba-7bf9-4bff-93c8-cbb0060e069d
 title: System Error Codes (1300-1699)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

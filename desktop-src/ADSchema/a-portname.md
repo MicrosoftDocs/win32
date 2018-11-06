@@ -1,9 +1,6 @@
 ---
 title: Port-Name attribute
 description: List of port names. For example, for printer ports or comm ports.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 978e5de5-fc72-4b9c-ae15-4f2253d8081a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Port-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

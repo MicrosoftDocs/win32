@@ -2,7 +2,6 @@
 Description: Sent when the VMR has selected its rendering mechanism.
 ms.assetid: 815d1254-c6e3-4a6c-ba4a-bf3da7d35d1f
 title: EC_VMR_RENDERDEVICE_SET
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

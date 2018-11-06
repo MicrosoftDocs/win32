@@ -1,12 +1,8 @@
 ---
 Description: Some formulas require both a counter property and base property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c14be351-e712-40bd-bab7-5b9ef6cd8a00
 ms.tgt_platform: multiple
 title: Base Counter Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,15 +1,11 @@
 ---
 title: Resolution of Function/Property Name Conflicts in Automation in Extensions
 description: In this topic, \ 0034;object \ 0034; indicates the object, as a whole, as an ADSI client views it. That is, ADSI and all its extensions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 76207326-879e-408b-8004-06d940401a41
 ms.tgt_platform: multiple
 keywords:
 - Resolution of Function and Property Name Conflicts in Automation in Extensions
 - extensions ADSI , resolving function and property name conflicts in Automation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

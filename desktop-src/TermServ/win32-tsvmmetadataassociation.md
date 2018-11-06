@@ -1,9 +1,6 @@
 ---
 title: Win32_TSVmMetadataAssociation class
 description: Represents an association between a Remote Desktop virtual machine and its metadata properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 374b1a29-78de-45fd-97b3-c5a5b724e66b
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Data-Type attribute
 description: The Ipsec-Data-Type attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1e03c13d-6d8d-42c2-bba4-9c86e5aba5e1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Data-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

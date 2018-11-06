@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_LoadOrderGroupServiceMembers association WMI class relates a load order group and a base service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 60fa8292-b9d1-48f2-bd26-e5c9276006fc
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_LoadOrderGroupServiceMembers class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

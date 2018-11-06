@@ -8,7 +8,6 @@ keywords:
 - streams,names
 - streams,connection names
 - streams,numbers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

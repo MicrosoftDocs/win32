@@ -1,9 +1,6 @@
 ---
 title: msmq-Receive-Dead-Letter extended right
 description: Allows receiving messages from the Dead Letter queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7e37e6b-8f2a-4ca6-bfeb-0e74d7a80785
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msmq-Receive-Dead-Letter
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

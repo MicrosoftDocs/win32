@@ -7,7 +7,6 @@ keywords:
 - TSF (Text Services Framework),edit session
 - text services,edit session
 - edit session
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

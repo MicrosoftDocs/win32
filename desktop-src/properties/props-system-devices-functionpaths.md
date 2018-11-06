@@ -2,7 +2,6 @@
 Description: Available functions for this device.
 ms.assetid: a944e89c-595e-4e7d-8590-4bc6763eee85
 title: System.Devices.FunctionPaths
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

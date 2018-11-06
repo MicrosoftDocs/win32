@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Subscriber class
 description: Contains the local computer membership of a replication group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 02ce34b3-2dc0-44ae-b392-b1545e92a0f7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Subscriber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

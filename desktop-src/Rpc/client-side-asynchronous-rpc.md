@@ -2,7 +2,6 @@
 title: Client-side Asynchronous RPC
 description: Navigation page for client-side asynchronous function handling with Remote Procedure Call (RPC).
 ms.assetid: f3e958b6-65c8-4bdb-a5e2-4f47f7beea78
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

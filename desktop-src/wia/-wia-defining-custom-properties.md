@@ -2,7 +2,6 @@
 Description: Defining Custom Properties.
 ms.assetid: 6adcf414-2c5a-451c-b30a-d1c161886c9a
 title: Defining Custom Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

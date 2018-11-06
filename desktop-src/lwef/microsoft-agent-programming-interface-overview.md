@@ -2,7 +2,6 @@
 title: Microsoft Agent Programming Interface Overview
 description: Microsoft Agent Programming Interface Overview
 ms.assetid: 8709441b-9739-4f11-a2de-40a5f5eefb72
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

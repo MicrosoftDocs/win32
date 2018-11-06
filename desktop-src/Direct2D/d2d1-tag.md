@@ -4,7 +4,6 @@ description: An application-defined 64-bit value used to \ 160;mark a set of ren
 ms.assetid: 4f363295-f140-4149-ba78-3abbc56eebe8
 keywords:
 - D2D1_TAG
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

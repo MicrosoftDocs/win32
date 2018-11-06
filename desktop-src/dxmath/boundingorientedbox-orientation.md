@@ -2,7 +2,6 @@
 Description: The orientation of the BoundingOrientedBox represented as a quaternion.
 ms.assetid: 9f765328-4bce-470e-a591-52376b572543
 title: BoundingOrientedBox.Orientation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

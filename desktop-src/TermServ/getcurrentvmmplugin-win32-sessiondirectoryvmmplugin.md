@@ -1,9 +1,6 @@
 ---
 title: GetCurrentVMMPlugin method of the Win32_SessionDirectoryVMMPlugin class
 description: Gets the highest priority plug-in that is enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7712573f-2252-4a3c-820c-b679be5dfd46
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

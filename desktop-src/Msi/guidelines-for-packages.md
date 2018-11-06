@@ -2,7 +2,6 @@
 Description: Because User Account Control (UAC) in Windows Vista restricts privileges during an installation, developers of Windows Installer packages should not assume that their installation always has access to all parts of the system.
 ms.assetid: 8e3b4ad8-b978-4e27-b060-1d023846718f
 title: Guidelines for Packages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

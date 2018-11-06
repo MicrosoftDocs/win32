@@ -2,7 +2,6 @@
 Description: This topic describes how the Sequencer Source handles presentation times during playback.
 ms.assetid: 0d095e25-5ccf-4319-8767-07b417ed7ee8
 title: Sequence Presentation Times
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

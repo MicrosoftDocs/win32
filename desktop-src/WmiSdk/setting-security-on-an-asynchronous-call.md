@@ -1,12 +1,8 @@
 ---
 Description: Asynchronous calls present serious security risks because a callback to the sink may not be a result of the asynchronous call by the original application or script.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2b839ea9-e1e6-4123-a98a-04ebee907b3b
 ms.tgt_platform: multiple
 title: Setting Security on an Asynchronous Call
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

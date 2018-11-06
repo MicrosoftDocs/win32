@@ -2,7 +2,6 @@
 Description: Converts a locale name to a locale identifier that can be used to get information from the operating system.
 ms.assetid: dc776c41-0376-4222-bebf-86be7e4be122
 title: DownlevelLocaleNameToLCID function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

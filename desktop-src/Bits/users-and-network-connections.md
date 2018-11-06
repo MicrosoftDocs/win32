@@ -6,7 +6,6 @@ keywords:
 - network connections BITS
 - transfer job BITS , ownership
 - transfer job BITS , ownership, user account
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018
 ---

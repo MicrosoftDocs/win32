@@ -5,7 +5,6 @@ ms.assetid: 457b7cc1-8517-4a36-9a0c-cf191ff3b374
 keywords:
 - 64-bit Windows programming guide 64-bit Windows Programming , tools
 - tools 64-bit Windows Programming
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -79,7 +78,7 @@ void            * UIntToPtr(        const unsigned int ui )
 void            * ULongToPtr(       const unsigned long ul )
 ```
 
-> \[!Warning\]  
+> [!WARNING]
 > **IntToPtr** sign-extends the **int** value, **UIntToPtr** zero-extends the **unsigned int** value, **LongToPtr** sign-extends the **long** value, and **ULongToPtr** zero-extends the **unsigned long** value.
 
  

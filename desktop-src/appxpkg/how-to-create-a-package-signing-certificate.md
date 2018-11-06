@@ -2,14 +2,13 @@
 title: How to create an app package signing certificate
 description: Learn how to use MakeCert.exe and Pvk2Pfx.exe to create a test code signing certificate, so that you can sign your Windows Store app packages.
 ms.assetid: DEDD3727-3F0E-403D-9A6E-55949E98FE74
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # How to create an app package signing certificate
 
-> \[!Important\]  
+> [!IMPORTANT]
 > MakeCert.exe is deprecated. For current guidance on creating a certificate, see [Create a certificate for package signing](https://aka.ms/create-cert-package).
 
  

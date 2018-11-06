@@ -2,7 +2,6 @@
 title: Boot Trigger Example (C++)
 description: This topic contains a C++ code example that shows how to create a task that is scheduled to execute Notepad.exe when the system is started.
 ms.assetid: d4dbbfe5-bde9-4a1c-8e11-24cd1e14646c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

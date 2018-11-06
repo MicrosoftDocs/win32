@@ -2,7 +2,6 @@
 Description: The low confidence keywords for the item.
 ms.assetid: 606619aa-2995-4024-99ee-64de9f2109b0
 title: System.LowKeywords
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

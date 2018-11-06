@@ -2,7 +2,6 @@
 title: Functions
 description: Available XInput functions.
 ms.assetid: c1533555-9094-0030-f025-6f47e9002e1a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

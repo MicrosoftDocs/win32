@@ -1,12 +1,8 @@
 ---
 Description: Temporary and permanent consumers have different methods of securing event delivery.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cd02e5db-f9e2-438b-9632-0a1387a6d4e3
 ms.tgt_platform: multiple
 title: Receiving Events Securely
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

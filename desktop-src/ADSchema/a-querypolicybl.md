@@ -1,9 +1,6 @@
 ---
 title: Query-Policy-BL attribute
 description: List of all objects holding references to a given Query-Policy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: af421d00-2cc8-4ea1-8374-148db58c493b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Query-Policy-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

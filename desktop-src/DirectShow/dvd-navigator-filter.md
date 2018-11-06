@@ -2,7 +2,6 @@
 Description: DVD Navigator Filter
 ms.assetid: 3b2c01a2-d52c-4497-8fc9-d1113e8507e8
 title: DVD Navigator Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

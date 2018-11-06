@@ -2,7 +2,6 @@
 title: Reusing Objects
 description: Reusing Objects
 ms.assetid: 07055fea-bdfe-4c7a-be07-2edcbf609dd9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

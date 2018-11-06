@@ -1,12 +1,8 @@
 ---
 Description: The Security\_ property of the SWbemServices object is used to get or set the security settings for an SWbemServices object. This property is an SWbemSecurity object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d8b1118b-b26d-4740-915e-484a83953b11
 ms.tgt_platform: multiple
 title: SWbemServices.Security_ property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

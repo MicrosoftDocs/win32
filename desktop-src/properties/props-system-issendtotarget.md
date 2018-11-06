@@ -2,7 +2,6 @@
 Description: Indicates whether an item is a valid SendTo target. This information is provided by certain Shell folders.
 ms.assetid: c2b30722-bc02-443b-9bdc-8b6c1c20d354
 title: System.IsSendToTarget
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

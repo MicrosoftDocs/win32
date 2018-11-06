@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_MagnetoOpticalDrive class represents the capabilities and management of a magneto-optical drive, a subtype of the media access device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 82a4604d-3bef-4378-812b-550849e30b8c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_MagnetoOpticalDrive class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -55,7 +49,7 @@ api_location:
 
 The **CIM\_MagnetoOpticalDrive** class represents the capabilities and management of a magneto-optical drive, a subtype of the media access device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

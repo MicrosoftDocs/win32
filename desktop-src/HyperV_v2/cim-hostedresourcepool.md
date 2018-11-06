@@ -2,7 +2,6 @@
 Description: Represents an association between a system and a resource pool that is a component of the system.
 ms.assetid: 0ac60dbd-0498-4978-b2d6-f4c9926a83a8
 title: CIM_HostedResourcePool class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

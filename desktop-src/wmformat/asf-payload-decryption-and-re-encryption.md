@@ -29,7 +29,6 @@ keywords:
 - ASF (Advanced Systems Format),decryption
 - Advanced Systems Format (ASF),payload decryption and re-encryption
 - ASF (Advanced Systems Format),payload decryption and re-encryption
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

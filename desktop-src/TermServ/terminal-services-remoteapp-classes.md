@@ -1,12 +1,8 @@
 ---
 title: RemoteApp classes
 description: The RemoteApp WMI provider provides the following classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1af50573-04dd-4077-9fc1-2f605427b201
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

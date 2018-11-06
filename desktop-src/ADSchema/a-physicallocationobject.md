@@ -1,9 +1,6 @@
 ---
 title: Physical-Location-Object attribute
 description: Used to map a device (for example, a printer, computer, and so on) to a physical location.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1055d278-a4fc-47a3-b59f-9d63be39a5e7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Physical-Location-Object
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

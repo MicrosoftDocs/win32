@@ -1,12 +1,8 @@
 ---
 Description: Use the Count automation property of the SWbemPropertySet object to determine how many items are in the SWbemPropertySet collection. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 141d2577-da5e-4ada-abf8-5456ffd24244
 ms.tgt_platform: multiple
 title: SWbemPropertySet.Count property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Just as the system uses security descriptors to control access to securable objects, a server can use security descriptors to control access to its private objects. For more information about the Windows security model, see Access Control Model.
 ms.assetid: d6219438-711a-4eda-a893-9095bce3a07d
 title: ACL-based Access Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

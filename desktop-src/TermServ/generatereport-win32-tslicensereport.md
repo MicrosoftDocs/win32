@@ -1,9 +1,6 @@
 ---
 title: GenerateReport method of the Win32_TSLicenseReport class
 description: GenerateReport is no longer available for use as of Windows Server 2012.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2d3b16d6-52e8-491f-b6e5-419e9a21013b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

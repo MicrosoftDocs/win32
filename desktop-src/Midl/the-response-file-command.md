@@ -4,7 +4,6 @@ description: A response file is a text file containing one or more MIDL compiler
 ms.assetid: ad47ea1a-fe7a-4354-be2f-599ba77685ee
 keywords:
 - command-line reference MIDL , response file command
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Defines a string type for either the name or the description of a wired LAN policy profile.
 ms.assetid: 89de1e7a-618d-4501-a134-c7a37f9c552d
 title: nameType Simple Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

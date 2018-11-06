@@ -2,7 +2,6 @@
 title: OpenType Variable Fonts
 description: This topic describes OpenType variable fonts, their support in DirectWrite and Direct2D, and how to use them in your app. .
 ms.assetid: 788558a7-efe7-b075-942f-ac75a5b86b84
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents interface
 description: Provides methods that receive information from the server that are related to client control events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: CF1DA4C8-94A5-4E6A-AEB7-6F46117E9DF2
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

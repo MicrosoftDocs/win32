@@ -2,7 +2,6 @@
 title: Dialog Box Reference
 description: .
 ms.assetid: '10657579-e560-4f67-b98b-c48483968d1f'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

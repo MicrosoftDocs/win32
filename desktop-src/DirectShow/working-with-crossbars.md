@@ -2,7 +2,6 @@
 Description: Working with Crossbars
 ms.assetid: 6e8ee9c3-6776-498b-ad38-36f8172a27ae
 title: Working with Crossbars
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

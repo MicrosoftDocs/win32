@@ -2,7 +2,6 @@
 Description: The Timeline Model
 ms.assetid: 53e782a2-0fab-46b4-b029-20017d9905bd
 title: The Timeline Model
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

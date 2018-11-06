@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Custom-Recipient class
 description: Used to define a custom MSMQ recipient (also known as an alias queue). Defines an alias for an out-of-enterprise queue. Contains the format name of that queue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d940d687-0d16-42c6-b836-502fc3ca96f4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Custom-Recipient
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

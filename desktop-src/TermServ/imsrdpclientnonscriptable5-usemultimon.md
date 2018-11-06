@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 UseMultimon property
 description: Specifies whether the Remote Desktop ActiveX control should use multiple monitors.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7832E025-80F6-4B4B-9829-C2D2EF2D8C37
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

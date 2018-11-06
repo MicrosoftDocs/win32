@@ -2,7 +2,6 @@
 Description: Indicates the channel count for the audio file. Possible values are 1 for mono and 2 for stereo.
 ms.assetid: 8a028167-dc0f-4ed9-a710-568caf1b9a47
 title: System.Audio.ChannelCount
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

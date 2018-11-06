@@ -1,12 +1,8 @@
 ---
 Description: Sometimes you may need to install a newer version of a provider onto a running system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 44c4c16a-fd79-483a-81ef-a0f74a2cdf45
 ms.tgt_platform: multiple
 title: Updating a Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

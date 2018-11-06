@@ -7,7 +7,6 @@ keywords:
 - Windows Media Format SDK,asynchronous call events
 - events,asynchronous calls
 - asynchronous call events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

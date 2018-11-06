@@ -1,12 +1,8 @@
 ---
 title: Graphics virtual channels interfaces
 description: The graphics virtual channels API supports the following interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: FB62FB7B-8C69-410A-98FF-46D1CE18F0A3
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

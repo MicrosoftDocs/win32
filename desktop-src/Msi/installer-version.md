@@ -2,7 +2,6 @@
 Description: The Version property of the Installer object is a read-only property that is the string representation of the current version of Windows Installer. The string is returned in the following form.
 ms.assetid: '9af262f0-b573-471d-aac6-6a72e8cb5314'
 title: Installer.Version property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings3 GatewayEncryptedAuthCookieSize property
 description: The size, in characters, of the GatewayEncryptedAuthCookie property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 52e24bef-5afa-4954-b639-08ea8701404a
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

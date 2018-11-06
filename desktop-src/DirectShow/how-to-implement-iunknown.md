@@ -2,7 +2,6 @@
 Description: How to Implement IUnknown
 ms.assetid: 4e363ccb-9725-4be6-bb31-283bf1d658f5
 title: How to Implement IUnknown
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Session.BatchItems property
 description: Sets and gets the number of items in each enumeration batch.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1675ba12-a0c7-4e59-a013-2109780e8afe
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

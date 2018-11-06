@@ -2,7 +2,6 @@
 Description: Calls the library to validate if a particular CLSID is safe to be called.
 ms.assetid: 94C8731B-88FD-4240-BF5D-2CD67C41B063
 title: WlpdIsClassInApprovedList function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

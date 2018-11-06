@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Revealed-DSAs attribute
 description: Backward link for ms-DS-Revealed-Users. Identifies which RODC holds that users secret.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cd84db75-d961-4290-8aa7-2805febbd842
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Revealed-DSAs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

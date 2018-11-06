@@ -2,7 +2,6 @@
 title: Effect Group Syntax (Direct3D 11)
 description: An effect group is declared with the syntax described in this section.
 ms.assetid: f6695ae5-198f-45bd-853b-8c02fabd0c39
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: WMI return codes that indicate status and do not indicate an error.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 36faa3fb-9496-47ca-bdba-f8eb52a06ff7
 ms.tgt_platform: multiple
 title: WMI Non-Error Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

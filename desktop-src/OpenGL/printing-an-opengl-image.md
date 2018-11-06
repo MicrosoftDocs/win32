@@ -5,7 +5,6 @@ ms.assetid: 6099cbe2-82f9-46ec-a3ca-74486c111639
 keywords:
 - OpenGL on Windows,printing
 - printing OpenGL images OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

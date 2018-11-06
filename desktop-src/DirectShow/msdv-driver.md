@@ -2,7 +2,6 @@
 Description: MSDV Driver
 ms.assetid: '146ca753-fe41-49d3-8b1c-077e10a28192'
 title: MSDV Driver
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

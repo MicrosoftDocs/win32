@@ -1,9 +1,6 @@
 ---
 title: Operating-System-Hotfix attribute
 description: The hotfix level of the operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 46fc7eb2-9e68-4036-be71-2d38766f8b4b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Operating-System-Hotfix
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

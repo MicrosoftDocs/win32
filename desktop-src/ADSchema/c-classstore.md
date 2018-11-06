@@ -1,9 +1,6 @@
 ---
 title: Class-Store class
 description: This class is used to create the class store container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a2e6ff73-12cd-44e6-b517-e3d01ffc565c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Class-Store
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

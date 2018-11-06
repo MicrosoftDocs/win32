@@ -2,7 +2,6 @@
 Description: Retrieves the security descriptor associated with the DDE share. This is done usually for editing.
 ms.assetid: 7d3cc965-45ee-40ce-a462-568200592345
 title: NDdeGetShareSecurity function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

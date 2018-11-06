@@ -2,7 +2,6 @@
 title: Rules for Managing Reference Counts
 description: Using a reference count to manage an object's lifetime allows multiple clients to obtain and release access to a single object without having to coordinate with one another in managing the object's lifetime.
 ms.assetid: bbe7d16c-fcb7-474d-a22d-5a3b33dd800e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

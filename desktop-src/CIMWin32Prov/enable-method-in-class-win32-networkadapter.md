@@ -1,14 +1,8 @@
 ---
 Description: Enables the network adapter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ceb71e1b-5107-420f-a677-814307340469
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Enable method of the Win32_NetworkAdapter class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

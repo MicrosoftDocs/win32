@@ -2,7 +2,6 @@
 Description: Applications write end-user-defined characters (EUDCs) and private use area (PUA) characters to the screen or printer just as they write other characters, by using output functions such as TextOut and ExtTextOut.
 ms.assetid: c975c70d-4231-4a69-bec2-d51d6993fdd4
 title: Writing, Mapping, and Sorting EUDC and PUA Characters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

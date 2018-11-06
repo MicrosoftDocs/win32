@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Link-Security-Descriptor-v2 attribute
 description: Security descriptor of the DFS links's re-parse point on the file system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5a5a7a33-2228-4c1d-b1ea-79dcf7ab13d0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Link-Security-Descriptor-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

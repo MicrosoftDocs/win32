@@ -2,7 +2,6 @@
 Description: Windows Vista Technical Articles
 ms.assetid: 525E1BB3-8AB8-4509-A85C-1E177E3CCEC1
 title: Windows Vista Technical Articles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

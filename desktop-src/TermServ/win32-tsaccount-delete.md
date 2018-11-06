@@ -1,9 +1,6 @@
 ---
 title: Delete method of the Win32_TSAccount class
 description: The Delete method deletes the specified user, group, or computer account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d0bb06d6-781c-4711-a59d-9ff233dd2a4c
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

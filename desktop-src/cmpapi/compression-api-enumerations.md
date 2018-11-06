@@ -2,7 +2,6 @@
 Description: The native Compression API contains the following enumeration.
 ms.assetid: 009BDE6D-554F-46CF-BD0A-96EB08A12318
 title: Compression API Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

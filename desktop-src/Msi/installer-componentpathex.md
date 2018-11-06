@@ -2,7 +2,6 @@
 Description: Returns a RecordList object that gives the full path of a specified installed component.
 ms.assetid: 0f4f9d21-f1cc-44fd-a22f-1b6f055fef9e
 title: Installer.ComponentPathEx property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

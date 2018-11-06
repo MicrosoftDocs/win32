@@ -1,12 +1,8 @@
 ---
 title: Object Picker Dialog Box Interfaces
 description: The following interface is used with object picker dialog boxes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 99bd1cfe-34e8-4a76-b8a4-158246ebcea9
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: An authorization policy store contains information about the security policy of an application or group of applications.
 ms.assetid: bce85da8-11de-4bc1-b097-d8efdbd28abf
 title: Creating an Authorization Policy Store Object in Script
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,10 @@
 ---
 title: Search Attributes Only
 description: Sometimes you perform a search to determine what type of data is available for an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 97eccea6-6a2b-4785-afd8-4af3dc7bd657
 ms.tgt_platform: multiple
 keywords:
 - Search Attributes Only ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

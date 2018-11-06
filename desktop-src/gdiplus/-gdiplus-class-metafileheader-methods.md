@@ -2,7 +2,6 @@
 Description: This topic lists the methods of the MetafileHeader class. For a complete class listing, see MetafileHeader Class.
 ms.assetid: 3a42418c-820b-46f6-bb7f-48c82520cd94
 title: MetafileHeader Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

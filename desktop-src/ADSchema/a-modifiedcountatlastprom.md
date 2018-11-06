@@ -1,9 +1,6 @@
 ---
 title: Modified-Count-At-Last-Prom attribute
 description: The Net Logon Change Log serial number at last promotion.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9f907997-ad1a-451c-960d-e5d1d462c00a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Modified-Count-At-Last-Prom
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

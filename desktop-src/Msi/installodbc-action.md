@@ -2,7 +2,6 @@
 Description: The InstallODBC action installs the drivers, translators, and data sources in the ODBCDriver Table, ODBCTranslator Table, and ODBCDataSource Table.
 ms.assetid: fbcf1fdc-5aef-4431-93fe-3ed02748b5ff
 title: InstallODBC Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Supplies calculated (&\#0034;cooked&\#0034;) performance counter data. Supplies dynamic data to the WMI classes derived from Win32\_PerfFormattedData. Also known as the Cooked Counter Provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 59823f7c-3046-4608-99df-1f43e2934e7e
 ms.tgt_platform: multiple
 title: Formatted Performance Data Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

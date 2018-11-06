@@ -2,7 +2,6 @@
 title: Principal Names
 description: For a client to create a mutually authenticated session with a server program, it must provide the server's expected principal name.
 ms.assetid: 4d9977f8-0efb-4559-977e-3eba4e277bc0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

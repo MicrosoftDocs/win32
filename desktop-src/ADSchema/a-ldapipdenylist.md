@@ -1,9 +1,6 @@
 ---
 title: LDAP-IPDeny-List attribute
 description: Holds a list of binary IP addresses that are denied access to an LDAP server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7d554d49-8934-4d71-b32f-8e59c22faf8c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - LDAP-IPDeny-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

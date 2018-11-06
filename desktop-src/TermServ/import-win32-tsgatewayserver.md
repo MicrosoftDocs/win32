@@ -1,9 +1,6 @@
 ---
 title: Import method of the Win32_TSGatewayServer class
 description: Imports a given configuration to the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d849afb9-f6cb-41e6-aab5-e47b30a5581f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

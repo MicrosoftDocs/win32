@@ -1,12 +1,8 @@
 ---
 title: Manipulation-Target
 description: The target data to which an attribute manipulation rule is applied. Attribute manipulation was previously known as \ 0034;realms processing \ 0034;. For more information, see Realms Processing and Attribute Manipulation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a6d06a15-2694-410c-8083-6e5fe500b809
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

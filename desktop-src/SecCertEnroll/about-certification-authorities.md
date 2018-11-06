@@ -2,7 +2,6 @@
 Description: A certification authority (CA) is responsible for attesting to the identity of users, computers, and organizations.
 ms.assetid: c8ddce19-299c-45ca-9992-865928098dc3
 title: Certification Authorities
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

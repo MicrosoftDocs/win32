@@ -2,7 +2,6 @@
 Description: Device Class Guid.
 ms.assetid: 715be0fa-3a5b-4939-8db4-a7e04f14f4ac
 title: System.Devices.ClassGuid
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

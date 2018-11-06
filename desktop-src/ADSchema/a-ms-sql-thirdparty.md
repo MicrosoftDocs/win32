@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-ThirdParty attribute
 description: This attribute indicates whether the publication data is from a data source other than SQL Server. If it is from another source, then it is set to TRUE.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 84d93b9f-0acc-47da-9f1b-44d8468ad53e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-ThirdParty
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

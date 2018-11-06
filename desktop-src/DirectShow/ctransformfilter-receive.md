@@ -2,7 +2,6 @@
 Description: The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter.
 ms.assetid: 036b209a-3535-4922-b7e9-dbed25b812f5
 title: CTransformFilter.Receive method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

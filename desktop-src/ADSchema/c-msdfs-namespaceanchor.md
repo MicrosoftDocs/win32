@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Namespace-Anchor class
 description: DFS namespace anchor.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7e502d8-9d79-4f99-a29e-cfc8dd74cdc7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Namespace-Anchor
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

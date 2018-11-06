@@ -2,7 +2,6 @@
 title: How to Create a Tabbed Dialog Box
 description: The example in this section demonstrates how to create a dialog box that uses tabs to provide multiple pages of controls.
 ms.assetid: DBF7FBDF-AADC-45CE-833E-F893C1129FC0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

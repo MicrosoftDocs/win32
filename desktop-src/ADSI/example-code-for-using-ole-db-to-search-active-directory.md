@@ -1,16 +1,12 @@
 ---
 title: Example Code for Using OLE DB to Search Active Directory
 description: The following code example shows how to search Active Directory using C++, COM, and OLE DB.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 71812a4b-5e27-4389-b949-3d96c87b222d
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Using OLE DB to Search Active Directory ADSI
 - ADSI ADSI , example code C/C++ , using OLE DB to access Active Directory
 - queries ADSI , searching with OLE DB, example code for using OLE DB to access Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

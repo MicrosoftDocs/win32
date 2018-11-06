@@ -2,7 +2,6 @@
 Description: The maximum number of frames the H.264 encoder takes to respond to a command.
 ms.assetid: C856B2B0-4A06-436D-B589-B01DA86DB53D
 title: MF_MT_H264_MAX_CODEC_CONFIG_DELAY attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

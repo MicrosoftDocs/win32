@@ -2,7 +2,6 @@
 Description: This topic explains the use of the Microsoft Windows HTTP Services (WinHTTP) proxy configuration tool, &\#0034;ProxyCfg.exe&\#0034;.
 ms.assetid: f96adf59-59be-414e-ad6f-9eac05f4b975
 title: Netsh.exe and ProxyCfg.exe Proxy Configuration Tools
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -86,7 +85,7 @@ You can specify proxies in a space-delimited string. The proxy listings can cont
 
 You can list locally known host names or IP addresses in the proxy bypass list. This list can contain wildcards, such as "\*", that cause the application to bypass the proxy server for addresses that fit the specified pattern, for example, "\*.microsoft.com" or "\*.org". Wildcard characters must be the left-most characters in the list. For example, "aaa.\*" is not supported. To list multiple addresses and host names, separate them with blank spaces or semicolons in the proxy bypass string. If you specify the <local> macro, the function bypasses any host name that does not contain a period.
 
-> \[!Warning\]  
+> [!WARNING]
 > After Proxycfg.exe runs, you cannot restore the previous proxy settings. However, you can remove the proxy settings entirely.
 
  

@@ -1,9 +1,6 @@
 ---
 title: StopService method of the Win32_Service class
 description: Places the service, represented by the Win32\_TerminalService object, in the stopped state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 228711DC-369B-48B6-96EE-DF4026904E26
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: A trustee is the user account, group account, or logon session to which an access control entry (ACE) applies. Each ACE in an access control list (ACL) has one security identifier (SID) that identifies a trustee.
 ms.assetid: 1c34faa0-936a-433a-9280-a94033f3f815
 title: Trustees
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,6 @@
 ---
 Description: Sets or gets the default quota limit.
 title: DiskQuotaControl.DefaultQuotaLimit property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

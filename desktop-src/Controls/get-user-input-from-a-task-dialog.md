@@ -2,7 +2,6 @@
 title: How to Get User Input from a Task Dialog
 description: To complete a task, users submit the task details to the application by configuring the controls within the task dialog, and then clicking a command button (usually OK).
 ms.assetid: 73CD8FBF-95C9-43C8-B9D8-3823840C23A9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

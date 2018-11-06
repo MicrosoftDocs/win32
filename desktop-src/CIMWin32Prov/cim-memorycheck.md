@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_MemoryCheck class specifies a condition for the minimum amount of memory that must be available on a system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a7d22f31-a285-41c4-b069-47c54865ddf5
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_MemoryCheck class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -36,7 +30,7 @@ api_location:
 
 The **CIM\_MemoryCheck** class specifies a condition for the minimum amount of memory that must be available on a system. The amount is specified in the **MemorySize** property. Details of the checks are compared with the value of the **FreePhysicalMemory** property of the [**CIM\_OperatingSystem**](cim-operatingsystem.md) object referenced by a [**CIM\_InstalledOS**](cim-installedos.md) association for the [**CIM\_ComputerSystem**](cim-computersystem.md) object that describes the environment. When the value of the **FreePhysicalMemory** property is greater than or equal to the value specified in **MemorySize**, the condition is satisfied.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

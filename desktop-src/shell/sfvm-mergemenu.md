@@ -1,7 +1,6 @@
 ---
 Description: Allows the callback object to merge menu items into the Windows Explorer menus. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_MERGEMENU message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

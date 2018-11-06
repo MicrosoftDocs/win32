@@ -2,7 +2,6 @@
 Description: This class is the event type class for page fault events. The following syntax is simplified from MOF code.
 ms.assetid: cc2b7a93-6974-4872-98f3-d6cb81861ae5
 title: PageFault_TransitionFault class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

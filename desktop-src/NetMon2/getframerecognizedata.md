@@ -2,7 +2,6 @@
 Description: The GetFrameRecognizeData function returns a table of RECOGNIZEDATA structures. Each of these structures contains a protocol identifier and an offset that points to the start of the specified protocol in the data.
 ms.assetid: 3bf809ff-8d87-4746-95ee-fb68c5e51d42
 title: GetFrameRecognizeData function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

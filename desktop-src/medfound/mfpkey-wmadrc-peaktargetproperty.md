@@ -2,7 +2,6 @@
 Description: Specifies the desired maximum volume level of output audio content.
 ms.assetid: 231b7296-ca80-4918-bae6-674b976db24c
 title: MFPKEY_WMADRC_PEAKTARGET Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

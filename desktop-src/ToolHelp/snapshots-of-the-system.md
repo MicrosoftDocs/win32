@@ -2,7 +2,6 @@
 title: Snapshots of the System
 description: Snapshots are at the core of the tool help functions. A snapshot is a read-only copy of the current state of one or more of the following lists that reside in system memory processes, threads, modules, and heaps.
 ms.assetid: a8122960-f078-4efb-8e01-bf6fb69ee0dd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Sets a wildcard filter to apply to the items returned.
 ms.assetid: 19ca82c5-16ff-46c7-8ea1-ddbfc2ce3ac9
 title: FolderItems3.Filter method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

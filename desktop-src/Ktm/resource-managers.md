@@ -2,7 +2,6 @@
 Description: Resource Managers
 ms.assetid: c717b731-cf0b-45cb-bbff-695410fcf6ce
 title: Resource Managers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

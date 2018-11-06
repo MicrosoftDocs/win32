@@ -27,7 +27,6 @@ keywords:
 - properties,Windows Media Player object model
 - methods,Windows Media Player object model
 - events,Windows Media Player object model
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

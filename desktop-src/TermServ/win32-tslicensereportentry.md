@@ -1,9 +1,6 @@
 ---
 title: Win32_TSLicenseReportEntry class
 description: Provides details of the issued Remote Desktop Services Per User client access license (RDS \ 160;Per User CAL).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 75fa7f39-af5b-45a0-ba2b-5c667edfec16
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

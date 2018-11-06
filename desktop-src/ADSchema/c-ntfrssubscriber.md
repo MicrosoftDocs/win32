@@ -1,9 +1,6 @@
 ---
 title: NTFRS-Subscriber class
 description: Identifies a subscriber to a replica set.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ab96220e-8a3c-47e6-bd64-d43f8cafefea
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTFRS-Subscriber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Service-Principal-Name attribute
 description: List of principal names used for mutual authentication with an instance of a service on this computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0ad1694f-0d6f-4350-a088-fdf3ef798c46
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Principal-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

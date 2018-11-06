@@ -2,7 +2,6 @@
 title: Searching Asynchronously in C++
 description: The following code can be used as a basis for a C++ application that searches for devices asynchronously. The code implements the IUPnPDeviceFinderCallback interface by creating a class that inherits from it.
 ms.assetid: bb874e60-6a93-4d94-be67-ba03ba92eff5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Server-Role attribute
 description: For compatibility with pre-Windows 2000 Server servers. A computer running Windows NT Server can be a standalone server, a primary domain controller (PDC), or a backup domain controller (BDC).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0c2e5b18-14ad-4f77-a62c-eeb95aabbb99
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Server-Role
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

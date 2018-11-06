@@ -2,7 +2,6 @@
 Description: Specifies QP. Possible values are 1.0 through 31.0.
 ms.assetid: 927c2fd3-9790-4e23-98f5-f3ac0c0d77dc
 title: MFPKEY_QPPERFRAME Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

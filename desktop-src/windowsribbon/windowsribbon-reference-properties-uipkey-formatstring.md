@@ -2,7 +2,6 @@
 title: UI_PKEY_FormatString
 description: Identifies the UI\_PKEY\_FormatString property.
 ms.assetid: b0ad0585-62f4-445c-93e7-6575d76e6ba6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

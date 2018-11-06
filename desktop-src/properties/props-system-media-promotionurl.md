@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: a0e464a0-ff43-43a8-87f7-2fef17ca15eb
 title: System.Media.PromotionUrl
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

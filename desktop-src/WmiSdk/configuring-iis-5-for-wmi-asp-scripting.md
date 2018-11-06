@@ -1,12 +1,8 @@
 ---
 Description: All authentication settings are made through the Internet Services Manager.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9b118120-f0cb-4973-b537-dd3d12a7a6d5
 ms.tgt_platform: multiple
 title: Configuring IIS 5.0 and Later for WMI ASP Scripting
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

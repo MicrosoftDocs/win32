@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnUserNameAcquired method
 description: Called when the user name has been acquired by the control.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0653B28B-2D46-429F-8A36-5656786C0B26
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

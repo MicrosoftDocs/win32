@@ -2,7 +2,6 @@
 title: Geometry Shader Features
 description: Geometry Shader Features
 ms.assetid: 0d34ab79-fca2-47c2-a614-627886ba9d8f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

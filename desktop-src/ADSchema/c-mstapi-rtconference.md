@@ -1,9 +1,6 @@
 ---
 title: ms-TAPI-Rt-Conference class
 description: Used to publish a real-time TAPI multicast conference.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cebd4789-61f7-4a03-b7bf-7ec79b7a1085
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TAPI-Rt-Conference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

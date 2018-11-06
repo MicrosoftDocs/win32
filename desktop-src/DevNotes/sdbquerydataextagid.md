@@ -2,7 +2,6 @@
 Description: Retrieves data from the specified entries belonging to an EXE entry.
 ms.assetid: 355eecd6-a0c9-4448-9aed-a9c3eb3b2071
 title: SdbQueryDataExTagID function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

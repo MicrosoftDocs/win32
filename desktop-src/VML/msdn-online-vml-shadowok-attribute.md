@@ -2,7 +2,6 @@
 title: VML ShadowOK Attribute
 description: VML ShadowOK Attribute
 ms.assetid: 88400bf5-f41c-4495-a5d0-9b35c1cae9f7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

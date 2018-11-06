@@ -2,7 +2,6 @@
 Description: Besides enabling digit monitoring and being notified of digits one at a time, an application can also request that multiple digits be collected in a buffer.
 ms.assetid: db83c48a-5178-40ed-90a9-e7c8e1886fe0
 title: Digit Gathering
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

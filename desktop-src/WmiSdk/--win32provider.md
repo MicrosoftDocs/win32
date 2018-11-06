@@ -1,12 +1,8 @@
 ---
 Description: Registers information about the physical implementation of a provider in WMI. Providers that do not set the HostingModel property are loaded, by default, to run in a Wmiprvse.exe process as NetworkServiceHostOrSelfHost.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 41e0d938-00c6-4f4c-8027-8b8512398dee
 ms.tgt_platform: multiple
 title: '__Win32Provider class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

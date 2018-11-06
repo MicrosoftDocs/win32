@@ -2,7 +2,6 @@
 title: Name Service Application Guidelines
 description: When you develop your distributed application, you need to provide the application users with a method for specifying the name under which they can register the application in the name service database.
 ms.assetid: cda997b3-6031-4c0f-affc-c766ba4b7fd5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This topic lists the constructors of the Point class. For a complete class listing, see Point Class.
 ms.assetid: 27952618-cf2d-4a85-b271-b3950c293ece
 title: Point.Point constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

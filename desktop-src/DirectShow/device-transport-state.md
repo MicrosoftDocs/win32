@@ -2,7 +2,6 @@
 Description: Device Transport State
 ms.assetid: 15edded0-207c-41e8-81fe-deb6335045eb
 title: Device Transport State
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

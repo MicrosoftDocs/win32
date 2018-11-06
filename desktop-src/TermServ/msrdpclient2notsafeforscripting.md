@@ -1,9 +1,6 @@
 ---
 title: MsRdpClient2NotSafeForScripting class
 description: Microsoft RDP Client Control - version 3.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F4584E14-6389-49F0-808D-E95858986BCD
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: DirectComposition samples
 description: The following sample applications show how to use the Microsoft DirectComposition \ 32;API and demonstrate its capabilities.
 ms.assetid: E2794CE7-20A3-4388-B1DC-D9822C970774
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

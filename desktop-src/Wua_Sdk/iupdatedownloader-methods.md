@@ -2,7 +2,6 @@
 Description: The IUpdateDownloader interface defines the following methods.
 ms.assetid: 18fc5b23-91ac-4c25-a7a0-e01ebc49336a
 title: IUpdateDownloader Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

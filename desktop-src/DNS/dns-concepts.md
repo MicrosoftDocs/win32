@@ -4,7 +4,6 @@ description: There are a handful of basic concepts on which the functional struc
 ms.assetid: c115bd24-a114-4a8a-bf52-0b11415e4344
 keywords:
 - Domain Name System, WMI provider, core concepts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

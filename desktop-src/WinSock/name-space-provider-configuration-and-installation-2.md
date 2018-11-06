@@ -2,7 +2,6 @@
 Description: WSCEnableNSProviderWSCEnableNSProvider32WSCInstallNameSpaceWSCInstallNameSpace32WSCInstallNameSpaceExWSCInstallNameSpaceEx32WSCUnInstallNameSpaceWSCUnInstallNameSpace32WSCWriteNameSpaceOrderWSCWriteNameSpaceOrder32
 ms.assetid: 3dd289fb-eebb-48b2-a887-eeb60322ab09
 title: Namespace Provider Configuration and Installation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

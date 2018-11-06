@@ -13,7 +13,6 @@ api_name:
 - IUIAutomationElement8.get_CurrentHeadingLevel
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

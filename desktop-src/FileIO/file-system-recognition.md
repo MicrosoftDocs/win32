@@ -2,7 +2,6 @@
 Description: The goal of file system recognition is to allow the Windows operating system to have an additional option for a valid but unrecognized file system other than &\#0034;RAW&\#0034;.
 ms.assetid: a5b1e97c-f22a-4d90-a3f4-1589ad9d1cc3
 title: File System Recognition
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

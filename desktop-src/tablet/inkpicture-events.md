@@ -2,7 +2,6 @@
 Description: This section contains Events for the InkPicture Control.
 ms.assetid: cca97e58-0113-49d6-8314-7f1e74c04cdf
 title: InkPicture Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

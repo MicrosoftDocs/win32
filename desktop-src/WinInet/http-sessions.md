@@ -2,7 +2,6 @@
 title: HTTP Sessions
 description: Resources on the WWW are accessed by using http.
 ms.assetid: 0f307e28-9c38-41e7-9795-7eef08e99a3c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

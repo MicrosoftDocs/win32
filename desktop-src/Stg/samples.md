@@ -4,7 +4,6 @@ description: Several sample applications are included with the Structured Storag
 ms.assetid: '0c48da47-b718-48fe-8ad0-39686bb83283'
 keywords:
 - Structured Storage Strctd Stg , samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

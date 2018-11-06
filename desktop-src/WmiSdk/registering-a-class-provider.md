@@ -1,12 +1,8 @@
 ---
 Description: To create a WMI class provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_ClassProviderRegistration.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ed834969-47e9-47df-9db8-c805b2eb71da
 ms.tgt_platform: multiple
 title: Registering a Class Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

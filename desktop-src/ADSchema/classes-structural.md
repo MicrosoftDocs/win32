@@ -1,12 +1,8 @@
 ---
 title: Structural Classes
 description: The following are the structural classes defined by Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cd221316-a34d-43a0-85b7-db9b898ab6f3
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

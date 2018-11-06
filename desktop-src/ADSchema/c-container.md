@@ -1,9 +1,6 @@
 ---
 title: Container class
 description: This class is used to hold other classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 12a39048-c65a-4f5b-b9a2-6793876667a1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

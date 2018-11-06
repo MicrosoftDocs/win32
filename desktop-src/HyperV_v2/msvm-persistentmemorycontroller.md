@@ -2,7 +2,6 @@
 Description: Represents a virtual persistent memory controller.
 ms.assetid: 581f545a-54f7-4c5a-9d74-cb986e9bf13c
 title: Msvm_PersistentMemoryController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

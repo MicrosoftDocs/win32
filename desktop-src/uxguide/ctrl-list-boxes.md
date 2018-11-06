@@ -2,7 +2,6 @@
 title: List Boxes
 description: With a list box, users can select from a set of values presented in a list that is always visible.
 ms.assetid: 620e9ff9-b367-446b-9e97-9c9d6d14f4bb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

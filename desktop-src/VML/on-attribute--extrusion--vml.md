@@ -2,7 +2,6 @@
 title: On Attribute (Extrusion)(VML)
 description: On Attribute (Extrusion)(VML)
 ms.assetid: 5400f165-1e86-4198-8be6-ebd7dd95f7f1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

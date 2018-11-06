@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_LogicalProgramGroupItem&\#8194;WMI class represents an element contained by a Win32\_LogicalProgramGroup that is not also another Win32\_LogicalProgramGroup instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 70b127bf-4e94-4c1a-98ff-909bdfe0f009
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_LogicalProgramGroupItem class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

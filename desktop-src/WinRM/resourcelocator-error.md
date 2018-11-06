@@ -1,9 +1,6 @@
 ---
 title: ResourceLocator.Error property
 description: Gets an XML representation of additional error information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d500ab29-d2d3-4a54-af2d-8729f9caf4dc
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

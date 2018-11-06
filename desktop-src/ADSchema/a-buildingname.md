@@ -1,9 +1,6 @@
 ---
 title: buildingName attribute
 description: The name of the building where an organization or organizational unit is based.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b7c263cc-23cd-4ae8-9abe-ffd40f307162
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - buildingName
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: You can use the Font common dialog box to display available fonts.
 ms.assetid: 317ea311-0592-432a-87b5-58296de003aa
 title: Creating a Logical Font
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

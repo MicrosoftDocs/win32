@@ -5,7 +5,6 @@ ms.assetid: 3ab602da-239f-44ff-b43d-e0c380619d99
 keywords:
 - IAVIStream interface
 - IAVIFile interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

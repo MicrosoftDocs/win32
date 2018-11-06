@@ -2,7 +2,6 @@
 title: StoServe Overview
 description: The StoServe code example shows how to use Structured Storage services as provided in the compound files implementation. The use of the standard IStorage and IStream interfaces is described.
 ms.assetid: 41ccd333-15c8-46b2-91c6-3e1929f7198c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

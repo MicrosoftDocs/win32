@@ -2,7 +2,6 @@
 Description: Expert helper functions provided by Network Monitor and common helper functions use the structures described in the following table.
 ms.assetid: 3c49dd0a-836f-43f1-b383-357e8ba6545f
 title: Expert Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

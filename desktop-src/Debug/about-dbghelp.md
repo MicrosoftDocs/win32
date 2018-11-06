@@ -2,7 +2,6 @@
 Description: The following topics describe symbol files and the functionality provided by the DbgHelp functions.
 ms.assetid: 1bae2f0a-94a4-4152-bccc-b4deb1291a09
 title: About DbgHelp
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

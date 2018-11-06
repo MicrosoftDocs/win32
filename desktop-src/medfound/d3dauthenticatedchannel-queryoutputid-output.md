@@ -2,7 +2,6 @@
 Description: Contains the response to a D3DAUTHENTICATEDQUERY\_OUTPUTID query.
 ms.assetid: 4dfd1d65-b203-456a-bc9b-527906bcf87e
 title: D3DAUTHENTICATEDCHANNEL_QUERYROUTPUTID_OUTPUT structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

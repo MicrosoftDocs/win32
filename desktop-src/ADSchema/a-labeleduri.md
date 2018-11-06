@@ -1,9 +1,6 @@
 ---
 title: labeledURI attribute
 description: A Uniform Resource Identifier followed by a label.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 214b5b4b-7389-4801-977c-24ffc2e025bd
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - labeledURI
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

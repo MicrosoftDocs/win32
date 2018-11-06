@@ -15,7 +15,6 @@ keywords:
 - mixer control
 - multiplexer (MUX)
 - MUX (multiplexer)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

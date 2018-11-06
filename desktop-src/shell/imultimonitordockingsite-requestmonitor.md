@@ -1,7 +1,6 @@
 ---
 Description: Verifies that the monitor is active and available.
 title: IMultiMonitorDockingSite::RequestMonitor method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

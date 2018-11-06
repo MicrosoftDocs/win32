@@ -1,9 +1,6 @@
 ---
 title: DeleteReport method of the Win32_TSLicenseReport class
 description: Deletes a report object on the Remote Desktop license server. This is not a static method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cc70526c-7ce5-4d55-b72e-8a5e8799b1d8
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

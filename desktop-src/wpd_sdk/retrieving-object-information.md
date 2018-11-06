@@ -2,7 +2,6 @@
 Description: Retrieving Object Information
 ms.assetid: ca9c2636-733b-4ef0-93d3-c4829ec43b05
 title: Retrieving Object Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

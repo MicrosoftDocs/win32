@@ -1,14 +1,8 @@
 ---
 Description: The EnableIPFilterSec WMI class static method is used to enable Internet Protocol security (IPsec) globally across all IP-bound network adapters.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 565acc18-61e7-473e-b2cc-41f0e8c29193
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: EnableIPFilterSec method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

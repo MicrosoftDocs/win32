@@ -2,7 +2,6 @@
 title: About Traps and Notifications
 description: One type of message an SNMP agent application can send to a WinSNMP application is an asynchronous message that informs the application of a significant event.
 ms.assetid: 5249c5a5-9260-4a67-b00f-a12214012bb3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx DesktopWidth property
 description: Specifies the current control's width, in pixels, on the initial remote desktop.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3b349f6c-d068-4047-b8b5-29d022894729
 ms.tgt_platform: multiple
 keywords:
@@ -65,7 +62,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

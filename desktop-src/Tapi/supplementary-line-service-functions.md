@@ -2,7 +2,6 @@
 Description: The supplementary line service functions are listed by category in the following topics.
 ms.assetid: d4338b3c-cd84-4abb-b74e-9df895c8355b
 title: Supplementary Line Service Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

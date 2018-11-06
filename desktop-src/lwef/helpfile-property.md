@@ -2,7 +2,6 @@
 title: HelpFile Property
 description: HelpFile Property
 ms.assetid: 18a5fd9b-4ca7-4701-9993-1e0c55f6e232
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

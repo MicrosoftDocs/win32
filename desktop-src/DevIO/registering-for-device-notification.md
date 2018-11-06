@@ -2,7 +2,6 @@
 Description: Applications can use the RegisterDeviceNotification function to register to receive notification messages from the system.
 ms.assetid: f3a4477a-7b09-4943-8b06-f252f8f9fed8
 title: Registering for Device Notification
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

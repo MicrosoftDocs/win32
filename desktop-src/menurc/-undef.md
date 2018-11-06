@@ -2,7 +2,6 @@
 title: ' undef'
 description: The \ undef directive removes the current definition of the specified name. All subsequent occurrences of the name are processed without replacement.
 ms.assetid: c9a0b538-3030-4d39-bfc2-d158061967b6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

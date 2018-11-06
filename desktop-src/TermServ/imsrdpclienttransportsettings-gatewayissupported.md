@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings GatewayIsSupported property
 description: Specifies whether Remote Desktop Gateway (RD Gateway) is supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 31edd35b-251d-404d-bec8-e082bb2427b3
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

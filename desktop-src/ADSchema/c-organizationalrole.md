@@ -1,9 +1,6 @@
 ---
 title: Organizational-Role class
 description: This class is used for objects that contain information that pertains to a position or role within an organization, such as a system administrator, manager, and so on. It can also be used for a nonhuman identity in an organization.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bcb73f68-ac06-4f39-b685-c42516a09079
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Organizational-Role
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

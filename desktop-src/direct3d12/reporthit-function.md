@@ -2,7 +2,6 @@
 Description: Called by an intersection shader to report a ray intersection.
 ms.assetid: 
 title: ReportHit function
-ms.author: windowssdkdev
 ms.topic: function
 ms.date: 05/31/2018
 topic_type: 

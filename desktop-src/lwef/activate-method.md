@@ -2,7 +2,6 @@
 title: Activate Method
 description: Activate Method
 ms.assetid: 8111139d-1453-416e-8f08-38c06669ff4d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

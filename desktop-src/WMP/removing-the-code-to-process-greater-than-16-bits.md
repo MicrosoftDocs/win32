@@ -9,7 +9,6 @@ keywords:
 - DSP plug-ins,Echo sample DoProcessOutput method
 - Echo DSP plug-in sample,DoProcessOutput method
 - Echo DSP plug-in sample,processing greater than 16 bits
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

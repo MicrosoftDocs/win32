@@ -2,7 +2,6 @@
 Description: Ink collection begins with the digitizer.
 ms.assetid: 95e49f5b-d6f0-4a5a-868b-aa0caf87c39c
 title: Ink Collection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

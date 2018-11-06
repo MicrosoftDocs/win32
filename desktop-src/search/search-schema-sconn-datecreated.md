@@ -2,7 +2,6 @@
 Description: The optional <dateCreated> element identifies the date and the time when this search connector was created, using the ISO 8601 standard. It has no child elements and no attributes.
 ms.assetid: 96d8b067-b5ab-4d36-a8d7-1d084a9f661d
 title: dateCreated Element (Search Connector Schema)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

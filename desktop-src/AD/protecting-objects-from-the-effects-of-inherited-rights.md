@@ -1,14 +1,10 @@
 ---
 title: Protecting Objects from the Effects of Inherited Rights
 description: As discussed in the topic Inheritance and Delegation of Administration, ACEs can be set on a container object, such as an organizationalUnit, domainDNS, container, and so on, and propagated to child objects based on the ACE flags set on those ACEs.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3da000dd-3a32-4294-a636-ad077e618db2
 ms.tgt_platform: multiple
 keywords:
 - Protecting Objects from the Effects of Inherited Rights AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

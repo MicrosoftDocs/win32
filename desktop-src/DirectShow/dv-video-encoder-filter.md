@@ -2,7 +2,6 @@
 Description: DV Video Encoder Filter
 ms.assetid: ac57bd11-de16-4a58-9f4b-da270a57ad08
 title: DV Video Encoder Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

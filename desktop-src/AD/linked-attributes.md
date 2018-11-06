@@ -1,15 +1,11 @@
 ---
 title: Linked Attributes
 description: Linked attributes are pairs of attributes in which the system calculates the values of one attribute (the back link) based on the values set on the other attribute (the forward link) throughout the forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 31b7e8f5-e46d-4aff-9b17-c8dec7f19bae
 ms.tgt_platform: multiple
 keywords:
 - Linked Attributes AD
 - Attributes AD ,linked
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

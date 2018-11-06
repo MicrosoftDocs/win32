@@ -1,14 +1,8 @@
 ---
 Description: Uses the values set in the Permissions parameter to determine whether the user has the specified permissions set in the AccessMask property of the Win32\_CodecFile object that represents the codec file.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 068dfcaf-037b-4516-b85a-8ba6558ba561
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_CodecFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

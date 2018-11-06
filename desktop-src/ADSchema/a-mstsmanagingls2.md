@@ -1,9 +1,6 @@
 ---
 title: MS-TS-ManagingLS2 attribute
 description: Issuer name of the second terminal server per user CAL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7a44cb39-c5a3-415d-8990-3e0368730a23
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-ManagingLS2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

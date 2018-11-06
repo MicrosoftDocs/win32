@@ -2,7 +2,6 @@
 title: Deleting a Client from an Interface
 description: To delete a client, such as a routing protocol, from a particular interface, use either MprAdminInterfaceTransportGetInfo or MprConfigInterfaceTransportGetInfo to retrieve all the client information for the interface.
 ms.assetid: 22fd7233-a242-49c2-8c26-59b415c73af2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

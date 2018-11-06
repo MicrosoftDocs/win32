@@ -2,7 +2,6 @@
 Description: Sent prior to the WM\_CREATE message when a window is first created.
 ms.assetid: 5dd0eda3-83a6-4077-a7a3-e371c9413b0f
 title: WM_NCCREATE message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

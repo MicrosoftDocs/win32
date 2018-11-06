@@ -2,7 +2,6 @@
 Description: The following is a sample service control program.
 ms.assetid: 9d582ab9-028c-48a2-ba34-ab48a9a317ce
 title: SvcControl.cpp
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

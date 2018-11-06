@@ -2,7 +2,6 @@
 Description: Specifies for a transcode topology whether the topology loader will load hardware-based transforms.
 ms.assetid: 33db8621-114a-4531-908f-f30034441973
 title: MF_TRANSCODE_TOPOLOGYMODE attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

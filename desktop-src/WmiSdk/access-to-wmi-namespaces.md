@@ -1,12 +1,8 @@
 ---
 Description: WMI uses a standard Windows security descriptor to control access to WMI namespaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5cf9886c-04fa-480e-889f-b64a6a70d053
 ms.tgt_platform: multiple
 title: Access to WMI Namespaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

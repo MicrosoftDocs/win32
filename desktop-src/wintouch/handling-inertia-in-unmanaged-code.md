@@ -10,7 +10,6 @@ keywords:
 - inertia,manipulation processor
 - manipulation processor,inertia
 - IInertiaProcessor interface,unmanaged code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_RedundancyGroup class represents a collection of managed system elements, which indicates that the aggregated components, together, provide redundancy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b47899cc-eafc-431f-96d4-edb01bf4bcd1
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_RedundancyGroup class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -33,7 +27,7 @@ api_location:
 
 The **CIM\_RedundancyGroup** class represents a collection of managed system elements, which indicates that the aggregated components, together, provide redundancy. All elements aggregated in a redundancy group should be instantiations of the same object class.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

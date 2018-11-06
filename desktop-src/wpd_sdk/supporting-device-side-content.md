@@ -2,7 +2,6 @@
 Description: Supporting Device-Side Content
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
 title: Supporting Device-Side Content
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

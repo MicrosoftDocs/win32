@@ -2,7 +2,6 @@
 title: Calling WDS from the Command Line
 description: You can launch the Microsoft Windows Desktop Search (WDS) user interface with a specific filter, store, and query from another application or a webpage that uses the Browser Helper Object (BHO) by using the windowssearch.exe command line syntax.
 ms.assetid: fd62f7c9-08a9-4e05-b0bc-e2215cfff59e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

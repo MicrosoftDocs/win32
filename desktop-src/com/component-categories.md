@@ -2,7 +2,6 @@
 title: Component Categories
 description: Component Categories
 ms.assetid: 74d06b17-6134-4b07-a063-992ce72beb40
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

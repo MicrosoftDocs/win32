@@ -2,7 +2,6 @@
 Description: The GetTcpStatistics function fills a pointer to an MIB\_TCPSTATS structure with information on the TCP protocol statistics for the local computer.
 ms.assetid: cb405d46-cf3e-4f3c-870a-935a0cc8118f
 title: Retrieving Information Using GetTcpStatistics
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

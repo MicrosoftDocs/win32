@@ -1,9 +1,6 @@
 ---
 title: IMsTscNonScriptable PortableSalt property
 description: This property is no longer supported.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1f123ec8-27b6-4637-9c57-fe32a224be8a
 ms.tgt_platform: multiple
 keywords:
@@ -48,7 +45,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

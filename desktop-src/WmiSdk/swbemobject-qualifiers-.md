@@ -1,12 +1,8 @@
 ---
 Description: The Qualifiers\_ property of the SWbemObject object returns an SWbemQualifierSet object that is a collection of the qualifiers for the current class or instance. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5ecae751-0d83-4ad6-9840-ef47f76b1ff6
 ms.tgt_platform: multiple
 title: SWbemObject.Qualifiers_ property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -12,7 +12,6 @@ keywords:
 - ACM (audio compression manager),selecting format for recoding
 - ACM examples,selecting format for recoding
 - selecting format for recoding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

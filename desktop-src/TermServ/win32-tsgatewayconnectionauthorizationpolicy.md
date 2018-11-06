@@ -1,9 +1,6 @@
 ---
 title: Win32_TSGatewayConnectionAuthorizationPolicy class
 description: Describes a Remote Desktop connection authorization policy (RD \ 160;CAP). RD \ 160;CAPs are used to determine whether a user is allowed to connect to the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 50ff3f97-0818-4e9c-9db7-a822cfed0e82
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

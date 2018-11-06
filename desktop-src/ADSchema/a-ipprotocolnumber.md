@@ -1,9 +1,6 @@
 ---
 title: ipProtocolNumber attribute
 description: Contains the section of the protocols map that stores the unique number that identifies the protocol.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8a29db25-1195-44b1-b92c-605d2ef293d7
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ipProtocolNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

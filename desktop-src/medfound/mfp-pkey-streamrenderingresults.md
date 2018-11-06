@@ -2,14 +2,13 @@
 Description: Specifies which streams were connected successfully to a media sink.
 ms.assetid: b5e45bfc-d91d-41b8-aaa4-72b3a23d869e
 title: MFP_PKEY_StreamRenderingResults property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # MFP\_PKEY\_StreamRenderingResults property
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Deprecated. This API may be removed from future releases of Windows. Applications should use the [Media Session](media-session.md) for playback.
 
  

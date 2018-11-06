@@ -2,7 +2,6 @@
 Description: HID device Version Number.
 ms.assetid: 5dfecf8b-6bda-4158-8772-3344382a74f0
 title: System.DeviceInterface.Hid.VersionNumber
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

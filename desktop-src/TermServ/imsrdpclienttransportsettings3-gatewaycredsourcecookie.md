@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings3 GatewayCredSourceCookie property
 description: Specifies if the credential source is cookie based.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 039459a3-7a83-444c-a0b4-46ef0dc5ddd0
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

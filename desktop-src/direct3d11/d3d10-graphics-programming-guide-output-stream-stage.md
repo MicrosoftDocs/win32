@@ -4,7 +4,6 @@ description: The purpose of the stream-output stage is to continuously output (o
 ms.assetid: f902dc93-9612-481b-a6bd-073e924a4c79
 keywords:
 - stream output stage (Direct3D 10)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The RenewDHCPLeaseAll WMI class static method renews the IP addresses on all DHCP-enabled network adapters.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cbe0a607-cb3b-47c4-ad3a-c4fa03fe688c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: RenewDHCPLeaseAll method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

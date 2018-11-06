@@ -1,9 +1,6 @@
 ---
 title: WSMan.CreateResourceLocator method
 description: Creates a ResourceLocator object that can be used instead of specifying a resource URI in Session object operations such as Session.Get, Session.Put, or Session.Enumerate.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1b04fe11-ec90-4374-9838-a0df313b722e
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

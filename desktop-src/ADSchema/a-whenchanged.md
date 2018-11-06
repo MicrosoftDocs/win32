@@ -1,9 +1,6 @@
 ---
 title: When-Changed attribute
 description: The date when this object was last changed. This value is not replicated and exists in the global catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 32dc9458-5692-4bce-abc1-7bea3ea680a9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - When-Changed
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

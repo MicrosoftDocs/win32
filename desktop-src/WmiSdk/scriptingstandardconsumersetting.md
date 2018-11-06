@@ -1,12 +1,8 @@
 ---
 Description: The singleton ScriptingStandardConsumerSetting class provides registration data that is common to all instances of the ActiveScriptEventConsumer standard consumer class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d217e058-3529-4173-b896-ebff3d7b05c6
 ms.tgt_platform: multiple
 title: ScriptingStandardConsumerSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

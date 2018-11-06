@@ -1,9 +1,6 @@
 ---
 title: Contact class
 description: This class contains information about a person or company that you may need to contact on a regular basis.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2372ea2b-1ac3-4173-950f-4ee00138fe22
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Contact
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

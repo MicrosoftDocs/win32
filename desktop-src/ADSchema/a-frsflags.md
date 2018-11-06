@@ -1,9 +1,6 @@
 ---
 title: FRS-Flags attribute
 description: The FRS option flags.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2b8a5861-9e32-4194-9983-3858572f3b95
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - FRS-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

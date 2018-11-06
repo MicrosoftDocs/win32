@@ -2,7 +2,6 @@
 Description: Debugging techniques for COM+ applications depend on the language in which you choose to write your component.
 ms.assetid: 781a0b3f-2bd0-435b-b6fe-4469cc02e8b6
 title: Debugging COM+ Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

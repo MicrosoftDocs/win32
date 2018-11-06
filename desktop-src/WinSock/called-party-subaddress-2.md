@@ -2,7 +2,6 @@
 Description: This section lists the type definition for the called party subaddress.
 ms.assetid: c6a1caf9-8bf8-41be-ae64-62d42eda550e
 title: Called Party Subaddress
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

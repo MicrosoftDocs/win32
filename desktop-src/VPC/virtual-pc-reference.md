@@ -4,7 +4,6 @@ ms.assetid: 86bf2bed-1b1f-4faa-8947-416fc787cfbc
 description: 
 keywords:
 - Windows Virtual PC Virtual PC , reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The following list contains the CMSPCallBase MSPI methods.
 ms.assetid: 9483bf1f-b40a-4e34-84f2-1892d3194b38
 title: CMSPCallBase MSPI Methods Implemented
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

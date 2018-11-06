@@ -2,7 +2,6 @@
 Description: Not supported.
 ms.assetid: 4fd6b9d9-1749-44e6-884a-16faeced4ed6
 title: IAMTimelineGroup::IsRecompressFormatDirty method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The part of Direct3D that pushes geometry through the fixed function geometry pipeline is the transform engine.
 ms.assetid: ed52e32f-8fae-4e6f-b908-26e05ce940cc
 title: Transforms (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

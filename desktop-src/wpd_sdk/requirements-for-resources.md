@@ -2,7 +2,6 @@
 Description: Requirements for Resources
 ms.assetid: 6b654cd6-7e9f-4e12-a687-4110e600ba7b
 title: Requirements for Resources
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: CanAccessLicenseServer method of the Win32_TerminalServiceSetting class
 description: CanAccessLicenseServer is no longer available.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b09fa901-8ae1-431e-8d97-27ee84a84779
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

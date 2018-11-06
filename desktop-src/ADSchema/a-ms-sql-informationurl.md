@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-InformationURL attribute
 description: Not used. Default is set to Information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6f7897bf-db61-434b-86e0-24c76fb517f7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-InformationURL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

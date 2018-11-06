@@ -1,9 +1,6 @@
 ---
 title: ms-net-ieee-80211-GroupPolicy class
 description: This class represents an 802.11 wireless network Group Policy object. This class contains identifiers and configuration data relevant to an 802.11 wireless network.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5c584361-f725-458a-913b-53fa7e455a77
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - ms-net-ieee-80211-GroupPolicy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

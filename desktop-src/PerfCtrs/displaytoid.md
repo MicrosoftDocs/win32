@@ -2,7 +2,6 @@
 Description: The DisplayToID table relates the user-friendly string displayed by the System Monitor to the GUID stored in the other tables.
 ms.assetid: 414d16f1-ab6f-45f0-9287-154810543a6d
 title: DisplayToID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

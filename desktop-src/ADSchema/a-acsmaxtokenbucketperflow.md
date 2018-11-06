@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-Token-Bucket-Per-Flow attribute
 description: The ACS-Max-Token-Bucket-Per-Flow attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2c269bda-7b0d-4ef4-8c67-9f5e7c52e3ae
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-Token-Bucket-Per-Flow
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

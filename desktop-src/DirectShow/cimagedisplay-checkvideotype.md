@@ -2,7 +2,6 @@
 Description: The CheckVideoType method checks whether a specified VIDEOINFO format is compatible with the display format.
 ms.assetid: a8593c7d-bde0-4c44-b450-10c129dd0007
 title: CImageDisplay.CheckVideoType method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

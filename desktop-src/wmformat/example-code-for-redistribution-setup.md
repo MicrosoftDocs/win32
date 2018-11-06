@@ -13,7 +13,6 @@ keywords:
 - software redistribution,code examples
 - redistribution,example code
 - redistribution,code examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: The TsViewCookie data type identifies a context view.
 ms.assetid: e649b799-d0d6-4f2d-b9f1-28070eea9b16
 keywords:
 - TsViewCookie
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

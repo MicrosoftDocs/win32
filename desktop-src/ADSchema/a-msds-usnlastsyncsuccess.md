@@ -1,9 +1,6 @@
 ---
 title: ms-DS-USN-Last-Sync-Success attribute
 description: The USN at which the last successful replication synchronization occurred.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 445cfa3c-a638-4b30-bb5d-15212c72acbb
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-USN-Last-Sync-Success
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

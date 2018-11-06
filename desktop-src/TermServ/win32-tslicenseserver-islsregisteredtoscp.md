@@ -1,9 +1,6 @@
 ---
 title: IsLSRegisteredToSCP method of the Win32_TSLicenseServer class
 description: Retrieves whether the Remote Desktop license server is registered as a service connection point in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 013C3711-7C55-4DB4-9229-C3C60E751EF2
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

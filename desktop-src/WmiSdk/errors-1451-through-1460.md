@@ -1,12 +1,8 @@
 ---
 Description: Describes WMI SNMP provider errors 1451 through 1460.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5987d86d-b63a-4d74-96c1-5c20b10d3636
 ms.tgt_platform: multiple
 title: Errors 1451 through 1460
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

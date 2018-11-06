@@ -2,7 +2,6 @@
 Description: DNS name of device is hosting the service.
 ms.assetid: 40b4f6a3-0972-4fe3-8216-ca8aaa129726
 title: System.Devices.Dnssd.HostName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

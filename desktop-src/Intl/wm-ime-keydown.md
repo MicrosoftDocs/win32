@@ -2,7 +2,6 @@
 Description: Sent to an application by the IME to notify the application of a key press and to keep message order. A window receives this message through its WindowProc function.
 ms.assetid: db7075fb-b3d4-4d32-a0db-096d17d67c72
 title: WM_IME_KEYDOWN message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

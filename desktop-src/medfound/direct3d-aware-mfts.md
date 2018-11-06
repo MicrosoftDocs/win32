@@ -2,7 +2,6 @@
 Description: This topic describes how to implement a Direct3D-aware Media Foundation transform (MFT) for video.
 ms.assetid: 8ec7e678-8477-41fa-9726-54df5ed187cd
 title: Direct3D-Aware MFTs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -15,7 +14,7 @@ An video MFT is considered *Direct3D-aware* if it can process samples that conta
 
 This topic describes the steps that are required to make your MFT Direct3D-aware. This topic does not cover the mechanics of DXVA decoding. For information about DXVA, see [DirectX Video Acceleration 2.0](directx-video-acceleration-2-0.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Beginning in Windows 8, [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) can be used instead of the [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9). For Windows Store apps, you must use **IMFDXGIDeviceManager** and Microsoft Direct3D 11. For more info, see the [Direct3D 11 Video APIs](direct3d-11-video-apis.md).
 
  

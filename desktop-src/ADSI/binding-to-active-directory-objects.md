@@ -1,12 +1,8 @@
 ---
 title: Binding to Active Directory Objects
 description: Before you continue with this scenario, you must understand how ADSI objects are named in Active Directory, and how to bind them. Binding an ADSI object connects the object with the directory service, and allows you to access the methods of the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0d8d8f1c-786f-4d87-977c-91a167bcf118
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: An attachment snap-in extension must allow the user to modify configuration information about the service.
 ms.assetid: fb36fcce-5a69-49cd-8cd3-b0b048f2f566
 title: Modifying Configuration Information in the User Interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

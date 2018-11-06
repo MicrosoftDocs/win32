@@ -7,7 +7,6 @@ keywords:
 - skins,Background images
 - creating skins,Background images
 - Background files in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

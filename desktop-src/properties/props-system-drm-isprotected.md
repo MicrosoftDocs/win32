@@ -2,7 +2,6 @@
 Description: Indicates whether the file is protected under Digital Rights Management (DRM).
 ms.assetid: 50b3ada0-bdf7-4c61-8cfc-17fbb4a7d1e6
 title: System.DRM.IsProtected
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

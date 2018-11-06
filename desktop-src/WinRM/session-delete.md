@@ -1,9 +1,6 @@
 ---
 title: Session.Delete method
 description: Deletes the resource specified in the resource URI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8803d35d-674c-483d-866b-37129102c7ce
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

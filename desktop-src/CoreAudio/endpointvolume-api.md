@@ -2,7 +2,6 @@
 Description: EndpointVolume API
 ms.assetid: 1fe1cd57-a0a4-4e08-ab52-3b6e66d14e79
 title: EndpointVolume API
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

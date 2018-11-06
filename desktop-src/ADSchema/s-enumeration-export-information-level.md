@@ -1,9 +1,6 @@
 ---
 title: Enumeration(Export-Information-Level) syntax
 description: Enumeration(export-information-level) syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 961aeccd-26ca-430d-90a1-d688d4c405e8
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Enumeration(Export-Information-Level)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

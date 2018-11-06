@@ -2,7 +2,6 @@
 Description: This topic describes the difference between complete media types and partial media types.
 ms.assetid: 59b3f0b5-f378-41e6-9b49-85a16bb6e008
 title: Complete and Partial Media Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

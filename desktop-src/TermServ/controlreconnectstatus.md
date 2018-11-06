@@ -1,9 +1,6 @@
 ---
 title: ControlReconnectStatus enumeration
 description: Specifies the result of the IMsRdpClient8 Reconnect method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: FB0AC4CF-18F5-4CDD-A75C-59A7CF716688
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

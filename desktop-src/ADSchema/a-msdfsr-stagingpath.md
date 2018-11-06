@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-StagingPath attribute
 description: Contains the full path of the staging directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c297472f-9db7-4a91-840d-08ff64c01a7a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-StagingPath
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

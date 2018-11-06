@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Settings attribute
 description: Used to store settings for an object. Its use is solely determined by the object's owner. We recommend using it to store name/value pairs. For example, color blue.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 44e3a9e2-5528-4328-9cb7-1b6a4a77950a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Proxy function for the GetColorCount method.
 ms.assetid: 2ad87383-4d30-4df0-b43a-95fdad1d59f9
 title: IWICPalette_GetColorCount_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

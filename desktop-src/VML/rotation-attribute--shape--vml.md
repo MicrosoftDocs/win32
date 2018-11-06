@@ -2,7 +2,6 @@
 title: Rotation Attribute (Shape)(VML)
 description: Rotation Attribute (Shape)(VML)
 ms.assetid: e1a648a4-1e87-4bec-90b2-6d3a57c0dba0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

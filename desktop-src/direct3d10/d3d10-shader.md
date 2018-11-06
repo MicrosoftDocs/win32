@@ -2,7 +2,6 @@
 Description: HLSL compile options.
 ms.assetid: 'vs|directx_sdk|~\d3d10_shader.htm'
 title: D3D10_SHADER Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

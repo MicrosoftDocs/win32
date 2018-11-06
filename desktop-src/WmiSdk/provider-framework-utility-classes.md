@@ -1,12 +1,8 @@
 ---
 Description: WMI C++ classes that are part of the WMI Provider Framework are no longer recommended for use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d2414a72-3435-4035-bcd9-b3ec87f5709c
 ms.tgt_platform: multiple
 title: Provider Framework Utility Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: Returns a collection of objects (classes or instances) called endpoints that are associated with a specified object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3969d90f-d39c-40f1-9328-fc1afbaa53b1
 ms.tgt_platform: multiple
 title: SWbemServices.AssociatorsOfAsync method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

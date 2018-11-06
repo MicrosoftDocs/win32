@@ -2,7 +2,6 @@
 Description: Business address country of the contact.
 ms.assetid: 6893d687-29ee-4f24-8f3f-13222a035686
 title: System.Contact.BusinessAddressCountry
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

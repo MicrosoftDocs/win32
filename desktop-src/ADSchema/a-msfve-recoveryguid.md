@@ -1,9 +1,6 @@
 ---
 title: ms-FVE-RecoveryGuid attribute
 description: Contains the GUID associated with a Full Volume Encryption (FVE) recovery password.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a26d6ef2-6fe6-4d30-9725-19f9f5ab1132
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-FVE-RecoveryGuid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

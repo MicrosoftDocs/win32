@@ -4,7 +4,6 @@ description: An optional entry that specifies all interface IDs (IIDs) supported
 ms.assetid: '212a6500-14ce-4a9b-9e6a-38d83a5630c8'
 keywords:
 - Interface registry key COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

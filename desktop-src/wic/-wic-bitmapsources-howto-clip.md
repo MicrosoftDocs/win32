@@ -2,7 +2,6 @@
 Description: This topic demonstrates how to obtain a rectangular portion of an IWICBitmapSource using an IWICBitmapClipper component.
 ms.assetid: c9834827-8e1d-436d-be82-c1a2a2f7ca5c
 title: How to Clip a Bitmap Source
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

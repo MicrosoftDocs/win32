@@ -2,7 +2,6 @@
 Description: The security model used in Microsoft SMB Protocol is identical to the one used by other variants of SMB, and consists of two levels of security&\#8212;user and share.
 ms.assetid: 985aa9fe-af3f-406d-920d-7fd7d0d58674
 title: Microsoft SMB Protocol Authentication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Removes virtual resource settings from a virtual machine configuration.
 ms.assetid: 74d9a70a-5258-4e4b-8131-b25513d11a4b
 title: RemoveResourceSettings method of the Msvm_VirtualSystemManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: How to Work With State Image Indexes
 description: There is often confusion about how to set and retrieve the state image index in a tree-view control.
 ms.assetid: 2666D922-9957-4A75-BFDA-038720F1EEDC
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

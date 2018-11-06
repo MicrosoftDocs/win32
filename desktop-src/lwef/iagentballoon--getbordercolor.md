@@ -2,7 +2,6 @@
 title: IAgentBalloon GetBorderColor
 description: IAgentBalloon GetBorderColor
 ms.assetid: e6c592c3-0e14-474f-a829-6028f2de5791
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Indicates whether the specified recognized string came from the system dictionary, user dictionary, or word list.
 ms.assetid: 1504e633-5917-4ac6-b043-95d4bc75b020
 title: IContextNode::IsAlternateStringSupported method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

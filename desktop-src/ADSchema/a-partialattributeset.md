@@ -1,9 +1,6 @@
 ---
 title: Partial-Attribute-Set attribute
 description: Tracks the internal replication state of partial replicas (that is, on GCs). Attribute of the partial replica NC object. Defines the set of attributes present on a particular partial replica NC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2840d2b7-e186-4ef2-9107-f1e5c0c2f760
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Partial-Attribute-Set
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

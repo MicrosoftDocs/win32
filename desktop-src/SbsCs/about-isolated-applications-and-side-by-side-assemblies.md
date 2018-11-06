@@ -2,7 +2,6 @@
 Description: Isolated applications and side-by-side assemblies provide a solution that reduces DLL versioning conflicts. They enable applications to safely share assemblies. For more information, see Shared Assemblies.
 ms.assetid: 0fb0d9c2-9f6d-4fcd-a6c6-9ba8fe9f5fb5
 title: About Isolated Applications and Side-by-side Assemblies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

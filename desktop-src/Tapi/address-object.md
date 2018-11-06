@@ -2,7 +2,6 @@
 Description: The Address object represents an entity that can make or receive calls.
 ms.assetid: ab6db262-f99e-4027-9525-7597fcf02e72
 title: Address Object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

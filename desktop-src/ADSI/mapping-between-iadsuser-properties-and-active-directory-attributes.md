@@ -1,15 +1,11 @@
 ---
 title: Mapping Between IADsUser Properties and Active Directory Attributes
 description: When applicable, a property of ADSI user object is mapped to an appropriate Active Directory attribute. The ADSI user object properties are associated with the IADsUser property methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9b568084-5a6b-4a73-be88-9d9cd8007824
 ms.tgt_platform: multiple
 keywords:
 - Mapping between IADsUser Properties and Active Directory Attributes ADSI
 - LDAP provider ADSI , user object, Mapping between IADsUser properties and Active Directory attributes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

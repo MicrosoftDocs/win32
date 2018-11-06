@@ -2,7 +2,6 @@
 Description: The following functions are used with device contexts.
 ms.assetid: 9ff68d16-0f27-4cc8-932a-b2063cfed135
 title: Device Context Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

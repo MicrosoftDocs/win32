@@ -2,7 +2,6 @@
 Description: The following Database Functions must never be called from a custom action.
 ms.assetid: 55fdd82b-9f34-4c2c-a837-8a09f21f568a
 title: Functions Not for Use in Custom Actions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

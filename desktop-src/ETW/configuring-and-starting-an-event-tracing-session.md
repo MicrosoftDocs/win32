@@ -2,7 +2,6 @@
 Description: To configure an event tracing session, use the EVENT\_TRACE\_PROPERTIES structure to specify the properties of the session.
 ms.assetid: 8a6aa39c-ec81-42ac-a26e-29f1f6960220
 title: Configuring and Starting an Event Tracing Session
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

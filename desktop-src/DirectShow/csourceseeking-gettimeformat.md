@@ -2,7 +2,6 @@
 Description: The GetTimeFormat method retrieves the current time format. This method implements the IMediaSeeking::GetTimeFormat method.
 ms.assetid: c90804f7-9a0a-423c-8b26-87abf15eddc5
 title: CSourceSeeking.GetTimeFormat method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

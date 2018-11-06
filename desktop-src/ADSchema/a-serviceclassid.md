@@ -1,9 +1,6 @@
 ---
 title: Service-Class-ID attribute
 description: The GUID for the Service class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 41d131cc-ef62-4937-a883-31ad6f837a76
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Class-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

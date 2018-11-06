@@ -2,7 +2,6 @@
 Description: In some circumstances, a server application needs to present a clients identity to resources it accesses on the clients behalf, usually to cause access checks or authentication to be performed against the clients identity.
 ms.assetid: fd75eb54-eefe-411f-a7aa-0bc8628f8778
 title: Client Impersonation and Delegation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

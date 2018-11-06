@@ -2,7 +2,6 @@
 title: Kinds of Arrays
 description: MIDL enables the ability to specify fixed, varying, and conformant arrys in a Remote Procedure Call (RPC) application.
 ms.assetid: df0ebcd0-0a2a-4ae1-90ec-aa5bc8dc59a0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: One of the main tools of Windows Management Instrumentation (WMI) is the ability to query the WMI repository for class and instance information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0cceda42-fba0-4a08-90dd-43f022d0be41
 ms.tgt_platform: multiple
 title: Querying WMI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

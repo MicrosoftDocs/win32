@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceCollection2 RedirectNow method
 description: Forces devices that were selected or unselected from the collection to be redirected or removed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9cd5849d-a589-43f3-b904-6b2e15ca033d
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

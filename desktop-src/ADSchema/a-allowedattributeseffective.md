@@ -1,9 +1,6 @@
 ---
 title: Allowed-Attributes-Effective attribute
 description: A list of attributes that can be modified on the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bf2db8d5-bbef-4063-be94-f657f3b2768b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Allowed-Attributes-Effective
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

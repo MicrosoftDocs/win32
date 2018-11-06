@@ -2,7 +2,6 @@
 title: VML BackDepth Attribute
 description: VML BackDepth Attribute
 ms.assetid: afac0e39-1006-4d73-a4d9-7ed2484019a1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

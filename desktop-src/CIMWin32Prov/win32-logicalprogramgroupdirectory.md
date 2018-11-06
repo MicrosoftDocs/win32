@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_LogicalProgramGroupDirectory association WMI class relates logical program groups (groupings in the Start menu) and the file directories in which they are stored.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 31a8b56a-d4fd-4cc5-9997-ec6211fe9425
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_LogicalProgramGroupDirectory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

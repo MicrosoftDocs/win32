@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDevice RedirectionState property
 description: Indicates the redirection state of the device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 967734c9-64d8-4604-a133-4649279f4475
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

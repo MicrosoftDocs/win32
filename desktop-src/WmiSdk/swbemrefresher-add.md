@@ -1,12 +1,8 @@
 ---
 Description: The SWbemRefresher.Add method adds a new SWbemRefreshableItem object to the collection in the SWbemRefresher object.SWbemRefreshableItem object to the collection in the SWbemRefresher object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 92d11a18-1eed-4958-b74a-2f9de4907dd0
 ms.tgt_platform: multiple
 title: SWbemRefresher.Add method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: Enumerating Network Resources
 description: The following example illustrates an application-defined function (EnumerateFunc) that enumerates all the resources on a network.
 ms.assetid: f5872ee7-483d-406a-b7d8-4ce93613fd29
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

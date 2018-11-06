@@ -1,12 +1,8 @@
 ---
 Description: Occasionally, you may want to update only part of an instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c92bf8f9-9cac-4cf0-a45d-f60aee5a9ec2
 ms.tgt_platform: multiple
 title: Updating Part of an Instance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

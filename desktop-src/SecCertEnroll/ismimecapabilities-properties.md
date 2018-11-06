@@ -2,7 +2,6 @@
 Description: The ISmimeCapabilities interface exposes the following properties.
 ms.assetid: 2FC6D08D-808E-478A-AA84-F37BDB912C3B
 title: ISmimeCapabilities Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

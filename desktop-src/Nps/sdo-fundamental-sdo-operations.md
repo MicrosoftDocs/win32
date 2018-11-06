@@ -1,12 +1,8 @@
 ---
 title: Fundamental SDO Operations
 description: This section provides sample code for performing frequently-used operations with the SDO API.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 196e75e8-35b6-48d8-b85d-6c2206503ae3
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

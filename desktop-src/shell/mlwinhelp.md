@@ -2,7 +2,6 @@
 Description: Starts Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.
 ms.assetid: e7466832-f236-4567-b05d-37d25fe88ba2
 title: MLWinHelp function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

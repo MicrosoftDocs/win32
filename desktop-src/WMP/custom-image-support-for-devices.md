@@ -8,7 +8,6 @@ keywords:
 - device custom image support
 - custom image support for devices
 - image support for devices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

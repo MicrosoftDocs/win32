@@ -2,7 +2,6 @@
 Description: The PublicKey method returns the public key object for a Certificate object.
 ms.assetid: 9a7ea6d5-365e-4360-ab50-2bafcfaecaa0
 title: Certificate.PublicKey method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

@@ -2,7 +2,6 @@
 Description: The FramesPerSecond property retrieves the video frame rate for the current DVD title.
 ms.assetid: c5d36308-1447-4636-9b3a-4a3f93d27789
 title: FramesPerSecond Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

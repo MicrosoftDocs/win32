@@ -4,7 +4,6 @@ description: Changing Sequencer Synchronization
 ms.assetid: 5c3acb47-e6cc-4957-a306-7039ec110827
 keywords:
 - MCI_SET command message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Distributed applications almost always pass data between client and
 ms.assetid: 64895c64-f16b-47c4-928d-5149808b0476
 keywords:
 - IDL MIDL , attributes MIDL , aliasing and marshaling
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

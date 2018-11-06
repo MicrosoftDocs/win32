@@ -2,7 +2,6 @@
 Description: The Next method retrieves a specified number of pins in the enumeration sequence. This method implements the IEnumPins::Next method.
 ms.assetid: c38fbd32-7d83-43ec-a105-4a7cb515b471
 title: CEnumPins.Next method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

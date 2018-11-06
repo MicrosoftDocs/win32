@@ -2,7 +2,6 @@
 title: Network Management Reference
 description: The following topics describe the network management functions and their associated data structures.
 ms.assetid: 0415983e-20b5-4706-a193-8736d56d4e08
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

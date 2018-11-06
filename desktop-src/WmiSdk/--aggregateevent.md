@@ -1,12 +1,8 @@
 ---
 Description: Represents an aggregate event of several individual intrinsic or extrinsic events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 99afa390-01fe-4a13-ba21-27587470f111
 ms.tgt_platform: multiple
 title: '__AggregateEvent class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

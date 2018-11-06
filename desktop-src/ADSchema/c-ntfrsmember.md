@@ -1,9 +1,6 @@
 ---
 title: NTFRS-Member class
 description: Identifies an FRS Replica Set Member.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2940d581-178a-417a-8c08-06f1ab1b764a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTFRS-Member
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

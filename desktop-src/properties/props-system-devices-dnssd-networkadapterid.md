@@ -2,7 +2,6 @@
 Description: GUID for the network adapter on which to search for a service.
 ms.assetid: b3ab616b-c5fe-4822-9207-f17bf8b19f8e
 title: System.Devices.Dnssd.NetworkAdapterId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

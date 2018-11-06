@@ -1,14 +1,8 @@
 ---
 Description: The GetOwnerSid&\#8194;WMI class method retrieves the security identifier (SID) for the owner of this process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f856b06c-8080-4145-a775-51361f741873
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetOwnerSid method of the Win32_Process class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

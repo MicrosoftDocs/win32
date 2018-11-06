@@ -2,7 +2,6 @@
 Description: This section presents general information about TCP/IP function details for multicast, raw sockets, and IPv6 support.MulticastTCP/IP Raw SocketsIPv6 SupportText Representation of IPv6 Addresses
 ms.assetid: 977c7a75-4054-4bbf-bc34-686be68af9fc
 title: Winsock TCP/IP Function Details
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

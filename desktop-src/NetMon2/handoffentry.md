@@ -2,7 +2,6 @@
 Description: The HANDOFFENTRY structure defines a specific protocol entry in a HANDOFFTABLE structure.
 ms.assetid: 85793326-3007-4dd9-9325-3447d6e09883
 title: HANDOFFENTRY structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

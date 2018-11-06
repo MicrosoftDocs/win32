@@ -2,7 +2,6 @@
 Description: WPD Application Programming Interface
 ms.assetid: 3e2be15f-7af7-4e76-89b1-f9bc591c4f1b
 title: WPD Application Programming Interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

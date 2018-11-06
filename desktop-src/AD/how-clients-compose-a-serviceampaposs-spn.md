@@ -1,15 +1,11 @@
 ---
 title: How Clients Compose a Service's SPN
 description: To authenticate a service, a client application composes an SPN for the service instance to which it must connect.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cf6c491a-d84d-4c9c-bd69-1f2264f395b6
 ms.tgt_platform: multiple
 keywords:
 - How Clients Compose a Service's SPN AD
 - service principal name AD , how clients compose a service's SPN
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

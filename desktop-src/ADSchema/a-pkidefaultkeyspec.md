@@ -1,9 +1,6 @@
 ---
 title: PKI-Default-Key-Spec attribute
 description: The private key specification for the certificate template.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0f22fd08-1417-4f71-80c8-aabff16f5985
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Default-Key-Spec
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

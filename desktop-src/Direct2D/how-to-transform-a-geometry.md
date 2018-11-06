@@ -2,7 +2,6 @@
 title: How to Transform a Geometry
 description: Shows how to transform a geometry using Direct2D.
 ms.assetid: de434615-14b1-4b66-b09b-e90468e03d58
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

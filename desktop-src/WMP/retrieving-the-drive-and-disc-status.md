@@ -12,7 +12,6 @@ keywords:
 - Windows Media Player Mobile,CD burning
 - CD burning,retrieving drive and disc status
 - burning CDs,retrieving drive and disc status
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

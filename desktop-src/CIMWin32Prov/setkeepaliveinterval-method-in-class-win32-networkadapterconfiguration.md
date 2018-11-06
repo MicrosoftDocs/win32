@@ -1,14 +1,8 @@
 ---
 Description: The SetKeepAliveInterval WMI class static method is used to set the interval separating Keep Alive Retransmissions until a response is received.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 83415000-124a-44a7-93cc-92ce9df143aa
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetKeepAliveInterval method of the Win32_NetworkAdapterConfiguration class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

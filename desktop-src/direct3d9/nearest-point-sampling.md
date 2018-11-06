@@ -2,7 +2,6 @@
 Description: Applications are not required to use texture filtering.
 ms.assetid: bba0e485-ac5a-4e43-9eb7-25cd0c90d316
 title: Nearest-Point Sampling (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

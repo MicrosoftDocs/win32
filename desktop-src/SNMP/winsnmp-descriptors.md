@@ -2,7 +2,6 @@
 title: WinSNMP Descriptors
 description: In the WinSNMP programming environment a descriptor is one of the following two structures.
 ms.assetid: 'a329963b-cdb9-40d2-9a82-6f0d9f4ac73a'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

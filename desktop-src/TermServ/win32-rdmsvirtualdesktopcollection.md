@@ -1,9 +1,6 @@
 ---
 title: Win32_RDMSVirtualDesktopCollection class
 description: Creates and manages a virtual desktop collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fe0a484e-f9e3-4b99-8e69-da8f337ae957
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

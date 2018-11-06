@@ -1,9 +1,6 @@
 ---
 title: ms-IIS-FTP-Root attribute
 description: This attribute determines the file server share. It is used in conjunction with ms-IID-FTP-Dir to determine the FTP user home directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b86dcafb-0b0d-4225-924c-690f739092a8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-IIS-FTP-Root
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

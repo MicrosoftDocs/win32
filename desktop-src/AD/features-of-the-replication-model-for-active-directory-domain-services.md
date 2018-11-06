@@ -1,15 +1,11 @@
 ---
 title: Features of the Replication Model for Active Directory Domain Services
 description: The replication model used in Active Directory Domain Services is called multi-master loose consistency with convergence.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8fd63871-68b4-4ed6-8165-145cbc90c213
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services, Replication Model
 - Replication Model Features Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

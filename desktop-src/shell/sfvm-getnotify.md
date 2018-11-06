@@ -1,7 +1,6 @@
 ---
 Description: Notification sent to the view callback object to specify the locations and events that should be registered for change notification events.
 title: SFVM_GETNOTIFY message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -32,7 +31,7 @@ SFVM_GETNOTIFY
 
 A pointer to an absolute IDList of an item for which the view should register to be notified of changes. Typically, this is the same as the IDList of the location being viewed, but it can be another location.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The lifetime of this value is owned by the view callback object. It is the responsibility of the view callback object to create and then free this value when it is no longer needed. This requires that the view callback object stores this value. Usually, the value can be stored in the **\_pidlMonitor** member of the view callback object. The ownership rules for the value returned through *pidl* are nonstandard and require special care. The view callback object must own this value and ensure that it is not freed until the view callback object itself is destroyed.
 
  

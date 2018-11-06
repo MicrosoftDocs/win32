@@ -1,9 +1,6 @@
 ---
 title: NTDS-Site-Settings class
 description: Container for holding all Active Directory site-specific settings.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 813ffa1c-e92e-4898-ab45-afcd30131eba
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTDS-Site-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

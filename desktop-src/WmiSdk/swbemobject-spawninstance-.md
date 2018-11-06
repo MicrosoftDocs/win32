@@ -1,12 +1,8 @@
 ---
 Description: Use the SpawnInstance\_ method of the SWbemObject object to create a new instance of a class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4761bdb2-455a-48c4-9e22-bfba6a1036ec
 ms.tgt_platform: multiple
 title: SWbemObject.SpawnInstance_ method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

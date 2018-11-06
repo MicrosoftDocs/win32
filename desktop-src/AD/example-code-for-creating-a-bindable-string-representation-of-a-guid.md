@@ -1,14 +1,10 @@
 ---
 title: Example Code for Creating a Bindable String Representation of a GUID
 description: The following code example can be used to return a string representation of a GUID that can be used to bind to the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e39a6994-4328-40f2-8cb5-8b1f971e50d8
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a bindable string representation of a GUID
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

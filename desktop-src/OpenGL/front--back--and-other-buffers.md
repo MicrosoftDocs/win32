@@ -9,7 +9,6 @@ keywords:
 - depth buffers OpenGL
 - accumulation buffers OpenGL
 - stencil buffers OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Retired-Repl-DSA-Signatures attribute
 description: Tracks the past DS replication identities of a given DC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 82e8b222-5635-41ad-b2ab-386c9e6aa280
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Retired-Repl-DSA-Signatures
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

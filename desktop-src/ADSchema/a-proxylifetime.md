@@ -1,9 +1,6 @@
 ---
 title: Proxy-Lifetime attribute
 description: Contains the lifetime for a proxy object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 67170516-fd8e-4126-8a39-deab9d228cf6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Proxy-Lifetime
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

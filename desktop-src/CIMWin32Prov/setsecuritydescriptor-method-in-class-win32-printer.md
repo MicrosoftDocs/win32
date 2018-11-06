@@ -1,14 +1,8 @@
 ---
 Description: Writes an updated version of the security descriptor that controls access to the printer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6a709043-473e-4b24-8b52-6c68b670ebcf
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetSecurityDescriptor method of the Win32_Printer class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

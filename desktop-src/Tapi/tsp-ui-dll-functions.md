@@ -2,7 +2,6 @@
 Description: This section describes the Telephony Service Provider User Interface (UI) DLL functions.
 ms.assetid: 5ce5a147-6f6b-494c-ab6b-067e45f64f99
 title: TSP UI DLL Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Quota attribute
 description: The MSMQ messages quota for the computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2ddd0217-d477-499c-a1ce-52febd98d1ff
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Quota
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Registering a Hosted Device With the Device Host
 description: Registering a hosted device means providing the device host with the device description and its device control object.
 ms.assetid: 1d85b412-9b1b-415d-8664-8d96a6644793
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

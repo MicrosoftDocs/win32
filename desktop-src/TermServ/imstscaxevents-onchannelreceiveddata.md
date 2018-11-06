@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnChannelReceivedData method
 description: Called when the client receives data on a scriptable virtual channel.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 38e6c33c-6a79-4760-818e-445e33d8e0ec
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

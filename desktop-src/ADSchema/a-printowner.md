@@ -1,9 +1,6 @@
 ---
 title: Print-Owner attribute
 description: A user-supplied owner string.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b5632739-f8d2-4333-af87-6ad0cc540910
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Owner
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

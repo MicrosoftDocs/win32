@@ -9,7 +9,6 @@ keywords:
 - ASF (Advanced Systems Format),media samples
 - Advanced Systems Format (ASF),samples
 - ASF (Advanced Systems Format),samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: ITSGAuthorizeConnectionSink Methods
 description: The ITSGAuthorizeConnectionSink interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0A42ACDB-31BB-48DA-B416-7E9DC923D454
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

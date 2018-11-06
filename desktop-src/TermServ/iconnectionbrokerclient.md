@@ -1,9 +1,6 @@
 ---
 title: IConnectionBrokerClient interface
 description: Provides the methods needed to use the Remote Desktop Connection Broker client.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: AFFE0157-DEF5-480D-8CE0-D89E9EF70EAF
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - Cbclient.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

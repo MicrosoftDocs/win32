@@ -1,14 +1,10 @@
 ---
 title: Directory System Agent
 description: The directory system agent (DSA) is a collection of services and processes that run on each domain controller and provides access to the data store.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a921a822-6b2e-4a84-8112-0ae516443667
 ms.tgt_platform: multiple
 keywords:
 - directory system agent Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

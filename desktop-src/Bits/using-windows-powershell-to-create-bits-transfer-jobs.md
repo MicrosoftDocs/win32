@@ -2,7 +2,6 @@
 title: Using Windows PowerShell to Create BITS Transfer Jobs
 description: You can use PowerShell cmdlets to create synchronous and asynchronous Background Intelligent Transfer Service (BITS) transfer jobs.
 ms.assetid: 22bcf0d5-36f0-4677-84a7-502b98cfaac2
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +17,7 @@ You can use PowerShell cmdlets to create synchronous and asynchronous Background
 
 All of the examples in this topic use the [Start-BitsTransfer](http://go.microsoft.com/fwlink/p/?linkid=154646) cmdlet. To use the cmdlet, be sure to import the module first. To install the module, run the following command: Import-Module BitsTransfer. For more information, type **Get-Help Start-BitsTransfer** at the PowerShell prompt.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > When you use [\*-BitsTransfer](http://technet.microsoft.com/library/dd819413.aspx) cmdlets from within a process that runs in a noninteractive context, such as a Windows service, you may not be able to add files to BITS jobs, which can result in a suspended state. For the job to proceed, the identity that was used to create a transfer job must be logged on. For example, when creating a BITS job in a PowerShell script that was executed as a Task Scheduler job, the BITS transfer will never complete unless the Task Scheduler's task setting "Run only when user is logged on" is enabled.
 

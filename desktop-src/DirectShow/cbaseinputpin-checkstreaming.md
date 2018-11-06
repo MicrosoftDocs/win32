@@ -2,7 +2,6 @@
 Description: Determines whether the pin can accept samples.
 ms.assetid: bc66ab4c-99de-4031-bdac-b1430f736e20
 title: CBaseInputPin.CheckStreaming method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

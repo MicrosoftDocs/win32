@@ -1,12 +1,8 @@
 ---
 Description: The Methods\_ property of the SWbemObject object returns an SWbemMethodSet object that is a collection of the methods for the current class or instance. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ef9abced-5126-4698-b01e-f3e9c871162f
 ms.tgt_platform: multiple
 title: SWbemObject.Methods_ property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

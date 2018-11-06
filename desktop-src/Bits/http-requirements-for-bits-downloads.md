@@ -2,7 +2,6 @@
 title: HTTP Requirements for BITS Downloads
 description: BITS supports HTTP and HTTPS downloads and uploads and requires that the server supports the HTTP/1.1 protocol.
 ms.assetid: 35af422b-62e4-41fd-8890-579ccf016c83
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

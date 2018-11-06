@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,PlayerApplication object
 - Windows Media Player Mobile,PlayerApplication object
 - PlayerApplication object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

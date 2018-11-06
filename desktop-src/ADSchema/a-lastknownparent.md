@@ -1,9 +1,6 @@
 ---
 title: Last-Known-Parent attribute
 description: The Distinguished Name (DN) of the last known parent of an orphaned object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6cf7be1a-8ff0-42f7-9e7a-c15cbc652ec5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Last-Known-Parent
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

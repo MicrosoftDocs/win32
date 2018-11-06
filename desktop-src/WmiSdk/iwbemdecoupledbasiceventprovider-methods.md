@@ -1,12 +1,8 @@
 ---
 Description: The IWbemDecoupledBasicEventProvider interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 659752BD-B795-451B-B542-B5E362F93364
 ms.tgt_platform: multiple
 title: IWbemDecoupledBasicEventProvider Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

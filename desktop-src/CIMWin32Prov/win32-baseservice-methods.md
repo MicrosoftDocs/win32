@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_BaseService class exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 30CBACF4-F2E0-4FBD-BB81-ABDDADF0740D
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_BaseService Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

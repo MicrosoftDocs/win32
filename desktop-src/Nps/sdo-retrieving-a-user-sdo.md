@@ -1,12 +1,8 @@
 ---
 title: Retrieving a User SDO
 description: Retrieving a User SDO
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 440628f8-081b-4e7f-bdb2-760ff9bd0d77
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

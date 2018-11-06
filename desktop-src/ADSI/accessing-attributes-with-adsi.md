@@ -1,14 +1,10 @@
 ---
 title: Accessing Attributes with ADSI
 description: The IADs.Get and IADs.GetEx methods are used to retrieve named attribute values.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8aa139e1-6b20-4745-92f1-d2f352071f33
 ms.tgt_platform: multiple
 keywords:
 - Attributes, accessing with ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

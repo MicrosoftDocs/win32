@@ -2,7 +2,6 @@
 Description: The ReplacedInUseFiles property is set if the installer writes over a file that is being held in use.
 ms.assetid: cef7d36e-c721-4d47-beaa-53e6749334b6
 title: ReplacedInUseFiles property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

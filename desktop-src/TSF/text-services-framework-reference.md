@@ -9,7 +9,6 @@ keywords:
 - TSF-enabled applications,reference
 - TSF reference,about
 - reference for TSF,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

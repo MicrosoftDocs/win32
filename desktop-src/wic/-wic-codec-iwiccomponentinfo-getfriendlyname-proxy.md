@@ -2,7 +2,6 @@
 Description: Proxy function for the GetFriendlyName method.
 ms.assetid: 8ac8f954-c2b9-47a2-88fe-b56710b5630c
 title: IWICComponentInfo_GetFriendlyName_Proxy function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

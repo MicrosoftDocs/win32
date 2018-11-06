@@ -2,7 +2,6 @@
 title: VML Font-Variant Attribute
 description: VML Font-Variant Attribute
 ms.assetid: f58bf3e0-e285-474c-83b1-203fce4f3c3a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

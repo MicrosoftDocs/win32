@@ -2,7 +2,6 @@
 Description: In addition to retrieving character-width data for individual characters, applications also need to compute the width and height of entire strings.
 ms.assetid: 0c1d9142-258a-447f-8950-8d684645383b
 title: String Widths and Heights
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

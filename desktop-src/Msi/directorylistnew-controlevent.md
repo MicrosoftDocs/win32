@@ -2,7 +2,6 @@
 Description: This event notifies the DirectoryList control that a new folder must be created; it creates the new folder, and selects the name field of the folder for editing.
 ms.assetid: dc5859b9-f4b4-4ed7-93d5-369a3d2b9805
 title: DirectoryListNew ControlEvent
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

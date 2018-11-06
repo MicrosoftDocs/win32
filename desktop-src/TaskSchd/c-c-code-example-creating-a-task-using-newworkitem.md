@@ -2,7 +2,6 @@
 title: C/C++ Code Example Creating a Task Using NewWorkItem
 description: This example creates a single task.
 ms.assetid: a96bae5d-fa36-41ab-8baf-144683fc6b52
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

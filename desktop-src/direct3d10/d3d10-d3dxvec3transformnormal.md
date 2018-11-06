@@ -2,7 +2,6 @@
 Description: Transforms the 3D vector normal by the given matrix.
 ms.assetid: 8068b80f-6222-4f23-8b1c-2ff5592fa898
 title: D3DXVec3TransformNormal function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

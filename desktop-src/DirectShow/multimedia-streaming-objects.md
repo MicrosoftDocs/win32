@@ -2,7 +2,6 @@
 Description: Multimedia Streaming Objects
 ms.assetid: 4f5460db-2670-41af-a57f-20cf706827e6
 title: Multimedia Streaming Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

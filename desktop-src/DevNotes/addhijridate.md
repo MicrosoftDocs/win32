@@ -2,7 +2,6 @@
 Description: HKCU\\Control Panel\\International.
 ms.assetid: e2925d92-19df-42e5-9893-2820f437d3a5
 title: AddHijriDate
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

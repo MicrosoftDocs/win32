@@ -2,7 +2,6 @@
 Description: Gets information about a specific callback in the animation set.
 ms.assetid: a1d3ca96-2852-420a-aa5c-a434970e5523
 title: ID3DXKeyframedAnimationSet::GetCallbackKey method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

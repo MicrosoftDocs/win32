@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Controller class is a parent class for grouping miscellaneous control-related devices. Examples of controllers are SCSI controllers, USB controllers, and serial controllers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 526d58bb-cdf4-42c2-ae89-7b86d99e2017
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Controller class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -50,7 +44,7 @@ The **CIM\_Controller** class is a parent class for grouping miscellaneous contr
 
 The **CIM\_Controller** class is an abstraction for devices with a single protocol stack, which exist primarily for communication to, and control or reset of, downstream ([**CIM\_ControlledBy**](cim-controlledby.md)) devices.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

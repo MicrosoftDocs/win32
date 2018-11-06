@@ -1,9 +1,6 @@
 ---
 title: COM-Other-Prog-Id attribute
 description: List of other program ID strings for the host class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dcea2a2a-2680-4e9c-abbf-57946c4c9ea2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - COM-Other-Prog-Id
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

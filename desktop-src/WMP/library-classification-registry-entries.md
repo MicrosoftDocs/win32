@@ -13,7 +13,6 @@ keywords:
 - file name extension registry settings
 - library,classification registry entries
 - library,registry
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

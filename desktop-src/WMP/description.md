@@ -8,7 +8,6 @@ keywords:
 - reference for skins,Description section
 - Description section in skins
 - skin definition files,Description section
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

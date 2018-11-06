@@ -1,14 +1,8 @@
 ---
 Description: Performance Counter classes allow script and program access to system performance data calculated by existing high-performance providers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 71746363-6fec-4344-8c5e-5cc057ebdf76
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Performance Counter Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

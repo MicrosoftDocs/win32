@@ -1,14 +1,10 @@
 ---
 title: Managing Groups
 description: For more information about groups in Active Directory Domain Services, see Understanding groups.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 92e3800c-1e63-46cb-8b1b-bad8557ee311
 ms.tgt_platform: multiple
 keywords:
 - Active Directory, using, groups
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

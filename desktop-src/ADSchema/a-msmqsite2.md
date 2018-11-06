@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Site-2 attribute
 description: The DN of the second site of a pair that are connected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 41d8246e-c713-41c3-a570-f906ba0ab857
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Site-2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

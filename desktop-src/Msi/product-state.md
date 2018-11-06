@@ -2,7 +2,6 @@
 Description: The State property returns the installation state of this instance of the product.
 ms.assetid: ae4c7a43-d4af-4e06-a3f8-d7c2d0715d84
 title: Product.State property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

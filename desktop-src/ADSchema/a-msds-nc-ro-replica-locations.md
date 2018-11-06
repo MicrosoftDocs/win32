@@ -1,9 +1,6 @@
 ---
 title: ms-DS-NC-RO-Replica-Locations attribute
 description: A linked attribute on a cross reference object for a partition. Lists the DC that should host the partition in a read-only manner.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2473f201-abf7-4fb1-b005-c8db528aeab8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-NC-RO-Replica-Locations
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

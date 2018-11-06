@@ -1,9 +1,6 @@
 ---
 title: USN-Changed attribute
 description: The update sequence number (USN) assigned by the local directory for the latest change, including creation. See also , USN-Created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ccd61940-2c0a-4d46-af9f-5f23f577a1ad
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - USN-Changed
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

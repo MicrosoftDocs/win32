@@ -6,7 +6,6 @@ keywords:
 - Windows Media Player Mobile skins,user interfaces
 - Windows Media Player Mobile skins,elements
 - elements,Windows Media Player Mobile skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

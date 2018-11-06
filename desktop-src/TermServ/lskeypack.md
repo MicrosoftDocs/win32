@@ -1,9 +1,6 @@
 ---
 title: LSKeyPack structure
 description: Contains information about a specific Remote Desktop Services licensing key pack.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c26d27ee-7dd3-49f0-a79c-752d23693a2a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - LSKeyPack
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 api_location: 

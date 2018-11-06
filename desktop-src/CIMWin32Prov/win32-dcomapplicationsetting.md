@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_DCOMApplicationSetting&\#8194;WMI class represents the settings of a DCOM application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: afa23faa-bf4d-4f54-9ee9-227956ff3292
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_DCOMApplicationSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

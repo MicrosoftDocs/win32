@@ -1,9 +1,6 @@
 ---
 title: Display-Name attribute
 description: The display name for an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0ecf5ede-0351-4d59-bdbf-44baf729f2e2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Display-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

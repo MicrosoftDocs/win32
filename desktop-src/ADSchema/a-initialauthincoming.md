@@ -1,9 +1,6 @@
 ---
 title: Initial-Auth-Incoming attribute
 description: Contains information about an initial incoming authentication request by a client to this server. This request is then sent by this server to the authentication server for the domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d49d45ae-87fe-415d-8110-79b2b321f2b6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Initial-Auth-Incoming
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

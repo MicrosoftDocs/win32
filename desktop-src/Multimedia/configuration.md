@@ -9,7 +9,6 @@ keywords:
 - DRV_QUERYCONFIGURE message
 - DRVCONFIGINFO message
 - configuring installable drivers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Optional-Feature class
 description: Configuration for an optional DS feature.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 236ff60d-84a2-4c71-9759-1863e24b2a98
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Optional-Feature
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

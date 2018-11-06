@@ -2,7 +2,6 @@
 Description: Stores the status of a user's responses to meetings in the calendar.
 ms.assetid: 5cbc0306-20c7-4f12-bb8b-3889b93dfd69
 title: System.Calendar.ResponseStatus
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

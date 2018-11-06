@@ -2,7 +2,6 @@
 Description: The DirectShow base classes provides helper functions for handling the AM\_MEDIA\_TYPE structure.
 ms.assetid: 4dbea5b4-bf78-4253-be48-d81b77be6e77
 title: Media Type Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

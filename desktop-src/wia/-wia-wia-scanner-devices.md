@@ -2,7 +2,6 @@
 Description: The Windows Image Acquisition (WIA) scanner device is implemented as a hierarchical tree of IWiaItem objects.
 ms.assetid: d716faec-9ace-422d-b6eb-ad4d86c1b0fd
 title: WIA Scanner Devices in WIA 1.0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

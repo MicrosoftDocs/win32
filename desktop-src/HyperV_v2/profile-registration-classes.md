@@ -2,7 +2,6 @@
 Description: Virtualization WMI classes related to profile registration.
 ms.assetid: 666B2550-25B0-4951-ABAB-E32C43A0CA46
 title: Profile registration classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

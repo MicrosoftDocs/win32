@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_BootService class represents the functionality provided by a device or software, or by a network, to load an operating system on a unitary computer system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d9c969bb-0f54-4e94-8e19-7ccd6f5adfb3
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_BootService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -36,7 +30,7 @@ api_location:
 
 The **CIM\_BootService** class represents the functionality provided by a device or software, or by a network, to load an operating system on a unitary computer system.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

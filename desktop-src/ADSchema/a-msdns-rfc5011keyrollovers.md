@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-RFC5011-Key-Rollovers attribute
 description: An attribute that defines whether or not the DNS zone should be maintained using key rollover procedures defined in RFC 5011.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 49ad29bb-63ea-4c69-9782-65c94d60569d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-RFC5011-Key-Rollovers
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

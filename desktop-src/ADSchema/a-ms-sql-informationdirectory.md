@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-InformationDirectory attribute
 description: The informational directory for the current instance of SQL Server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fec29b94-b136-4862-8615-7190b3b45ec3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-InformationDirectory
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

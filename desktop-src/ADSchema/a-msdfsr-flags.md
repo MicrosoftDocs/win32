@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-Flags attribute
 description: Contains the Distributed File System (DFS) Replication service object flags.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3a58e5f8-a598-44e6-96a6-57544bdf0743
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

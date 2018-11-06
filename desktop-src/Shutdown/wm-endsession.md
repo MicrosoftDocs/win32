@@ -2,7 +2,6 @@
 Description: The WM\_ENDSESSION message is sent to an application after the system processes the results of the WM\_QUERYENDSESSION message. The WM\_ENDSESSION message informs the application whether the session is ending.
 ms.assetid: 9bf04f24-da1e-4680-a47b-28e9c500635e
 title: WM_ENDSESSION message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

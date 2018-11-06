@@ -6,7 +6,6 @@ keywords:
 - OpenGL on Windows,GLX functions
 - GLX functions OpenGL
 - WGL functions,compared to GLX functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

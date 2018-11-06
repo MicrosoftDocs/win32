@@ -2,7 +2,6 @@
 Description: The Media table describes the set of disks that make up the source media for the installation.
 ms.assetid: f9789f1d-35bf-40d6-9724-d5a160a0d06d
 title: Media Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

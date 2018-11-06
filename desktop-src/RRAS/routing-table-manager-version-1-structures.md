@@ -5,7 +5,6 @@ ms.assetid: 9bcf1dc6-0032-4825-bf96-e72970fb76ce
 keywords:
 - Routing and Remote Access Service RRAS ,Routing Table Manager Version 1, structures
 - Routing Table Manager Version 1 RRAS ,structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

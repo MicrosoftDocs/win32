@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ExecuteProgram class represents files that can be executed on the system where the software element is installed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4329d228-4069-4a5a-b1eb-2dbad9644118
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ExecuteProgram class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -37,7 +31,7 @@ api_location:
 
 The **CIM\_ExecuteProgram** class represents files that can be executed on the system where the software element is installed.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

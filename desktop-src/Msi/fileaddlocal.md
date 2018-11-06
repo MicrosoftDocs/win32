@@ -2,7 +2,6 @@
 Description: The value of the FILEADDLOCAL property denotes a list of file keys delimited by commas that are to be installed to run from the local source media.
 ms.assetid: 89ae876e-53f0-4c1d-ba16-7513af79ee5e
 title: FILEADDLOCAL property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

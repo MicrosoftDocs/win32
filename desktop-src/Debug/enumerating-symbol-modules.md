@@ -2,7 +2,6 @@
 Description: The following code lists the modules that have been loaded by the SymLoadModule64 or SymInitialize function.
 ms.assetid: 8c7fdfaa-d4d3-42d6-ad19-23e8ffda7bf4
 title: Enumerating Symbol Modules
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

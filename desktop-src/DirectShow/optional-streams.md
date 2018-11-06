@@ -2,7 +2,6 @@
 Description: Optional Streams
 ms.assetid: 94477a71-c267-4602-893b-1bd1256b34ef
 title: Optional Streams
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies the time, in 100-nanosecond units, needed to send an Advanced Systems Format (ASF) file. A packets send time is the time when the packet should be delivered over the network. It is not the presentation time of the packet.
 ms.assetid: 2bd427e2-106d-4997-86aa-fae221e429eb
 title: MF_PD_ASF_FILEPROPERTIES_SEND_DURATION attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

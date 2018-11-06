@@ -2,7 +2,6 @@
 title: Textures
 description: This section describes textures that are used in Direct3D 11 and links to task-based documentation for common scenarios.
 ms.assetid: ec833431-a7b4-4aea-91c8-e99b718de2c6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Use the Gaussian blur effect to create a blur based on the Gaussian
 ms.assetid: 6B8C9A0A-81D6-4CC2-B30B-995D4C2E59FC
 keywords:
 - Gaussian blur
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

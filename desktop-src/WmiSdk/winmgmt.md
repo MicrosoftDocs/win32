@@ -1,12 +1,8 @@
 ---
 Description: Winmgmt is the WMI service within the SVCHOST process running under the &\#0034;LocalSystem&\#0034; account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3923322a-3acb-407e-8a07-09c59d252e8b
 ms.tgt_platform: multiple
 title: winmgmt
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

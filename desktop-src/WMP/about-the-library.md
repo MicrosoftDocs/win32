@@ -13,7 +13,6 @@ keywords:
 - Windows Media Player library,about
 - library,about
 - metadata,Windows Media Player library
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

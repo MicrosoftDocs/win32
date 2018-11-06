@@ -1,15 +1,11 @@
 ---
 title: ADSI Enumerations
 description: Active Directory Service Interfaces (ADSI) define and use the enumerations listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f0ad5ce5-742d-40dc-ac5a-31d779e40bfd
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI , Reference, Enumerations
 - Enumerations ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

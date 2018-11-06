@@ -2,7 +2,6 @@
 Description: Load top level data from a .x file.
 ms.assetid: 0270b923-d524-46c5-bd1a-44c782722635
 title: ID3DXLoadUserData::LoadTopLevelData method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

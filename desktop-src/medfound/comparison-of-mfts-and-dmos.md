@@ -2,7 +2,6 @@
 Description: Media Foundation transforms (MFTs) are an evolution of the transform model first introduced with DirectX Media Objects (DMOs).
 ms.assetid: 4e8c3ec9-6ffa-4858-a4ea-8ef8ccaf9253
 title: Comparison of MFTs and DMOs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The IX509PublicKey interface exposes the following properties.
 ms.assetid: E8FE3D48-A103-4DD3-B2A8-20B57FB8A654
 title: IX509PublicKey Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

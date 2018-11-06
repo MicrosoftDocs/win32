@@ -2,7 +2,6 @@
 title: IAgentCommands Remove
 description: IAgentCommands Remove
 ms.assetid: 1f41aa2d-e50b-48a8-87fc-fda4730b035a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

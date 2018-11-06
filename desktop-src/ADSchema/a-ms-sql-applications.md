@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Applications attribute
 description: Not used. Default is set to, Appl 1, Appl 2, Appl 3, Appl 4, and Appl 5.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4907439e-8b1d-4e9e-8fce-6f4845f29c90
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Applications
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

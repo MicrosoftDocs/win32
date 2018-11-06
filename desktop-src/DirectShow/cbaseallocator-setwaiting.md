@@ -2,7 +2,6 @@
 Description: The SetWaiting method increments the count of waiting threads.
 ms.assetid: 4aec6177-fb32-44be-a58e-41a4f4aaf4f2
 title: CBaseAllocator.SetWaiting method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

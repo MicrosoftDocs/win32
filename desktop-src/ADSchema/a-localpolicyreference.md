@@ -1,9 +1,6 @@
 ---
 title: Local-Policy-Reference attribute
 description: Distinguished Name of a local policy object that a policy object copies from.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a574713e-0340-45af-b863-6cc1035e5bb9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Local-Policy-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Object-Class attribute
 description: The list of classes from which this class is derived.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: def98723-2d8a-49ea-84f8-afe6ff9cdfd9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Object-Class
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

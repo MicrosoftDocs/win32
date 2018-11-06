@@ -1,9 +1,6 @@
 ---
 title: Create method of the Win32_TSGatewayResourceGroup class
 description: Creates a resource group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 715e6086-1c7d-4b20-983a-3ab98e875ca5
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

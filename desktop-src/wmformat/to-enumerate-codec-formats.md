@@ -11,7 +11,6 @@ keywords:
 - IWMCodecInfo,codec formats
 - codecs,IWMCodecInfo3 interface
 - IWMCodecInfo3,codec formats
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

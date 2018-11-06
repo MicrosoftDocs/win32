@@ -2,7 +2,6 @@
 Description: A value that defines the measurement system for a depth value in a video frame.
 ms.assetid: 7BFA846B-E614-4117-A196-298E065CB7F8
 title: MF_MT_DEPTH_MEASUREMENT attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

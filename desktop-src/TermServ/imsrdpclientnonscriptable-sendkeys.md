@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable SendKeys method
 description: Sends a series of keystrokes to the control. The keystrokes are in scan code form, which is the keyboard data from the actual physical keys.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1f07a9cc-4795-43cb-ac99-4bb70b8b544a
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

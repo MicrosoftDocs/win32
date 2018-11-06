@@ -2,7 +2,6 @@
 Description: Using COM+ Services Through CoEnterServiceDomain and CoLeaveServiceDomain
 ms.assetid: 763fb01e-5daf-4e9b-8ef1-9ae79c0a84cc
 title: Using COM+ Services Through CoEnterServiceDomain and CoLeaveServiceDomain
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: The IsOverridable property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be overridden when propagated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3cd82407-6664-446e-bc84-68cc9a69fd6b
 ms.tgt_platform: multiple
 title: SWbemQualifier.IsOverridable property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

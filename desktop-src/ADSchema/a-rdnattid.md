@@ -1,9 +1,6 @@
 ---
 title: RDN-Att-ID attribute
 description: The RDN for the attribute that is used to name a class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 793199c4-6c5e-481f-8f73-bd59375ab51b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RDN-Att-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

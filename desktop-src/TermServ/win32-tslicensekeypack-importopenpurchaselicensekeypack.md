@@ -1,9 +1,6 @@
 ---
 title: ImportOpenPurchaseLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Imports, from another Remote Desktop license server, an Open License Remote Desktop Services license key pack.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: FE1923FF-5292-4080-AB51-88B8A6B2322C
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

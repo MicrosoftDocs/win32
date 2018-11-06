@@ -1,7 +1,6 @@
 ---
 Description: Notifies the callback object that the status bar is being updated. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_UPDATESTATUSBAR message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

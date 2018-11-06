@@ -2,7 +2,6 @@
 title: imad (sm4 - asm)
 description: Signed integer multiply and add.
 ms.assetid: 1C24AF49-AA32-4D3A-8478-C9BAC4FE7D77
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

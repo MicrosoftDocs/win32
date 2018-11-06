@@ -1,12 +1,8 @@
 ---
 Description: The Qualifiers\_ property of the SWbemMethod object returns an SWbemQualifierSet object that is the collection of qualifiers for this method. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8cbbec60-3b8a-4390-97b6-1cb616e5b944
 ms.tgt_platform: multiple
 title: SWbemMethod.Qualifiers_ property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

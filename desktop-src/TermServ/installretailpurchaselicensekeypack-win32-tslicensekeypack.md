@@ -1,9 +1,6 @@
 ---
 title: InstallRetailPurchaseLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Installs a Remote Desktop Services license key pack that was purchased through a retail channel.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: cd33c785-7aa1-4e30-8155-4176b6f4c037
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

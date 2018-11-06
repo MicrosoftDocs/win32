@@ -2,7 +2,6 @@
 Description: Specifies the high-level cut when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
 ms.assetid: 8771a5f9-878b-43fd-8eaa-0bfc276194aa
 title: AVDecDDDynamicRangeScaleHigh property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

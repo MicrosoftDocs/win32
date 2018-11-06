@@ -12,7 +12,6 @@ keywords:
 - Desktop Window Manager (DWM),controlling frame data
 - DWM (Desktop Window Manager),controlling frame data
 - controlling frame data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

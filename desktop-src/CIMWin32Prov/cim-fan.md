@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_Fan class represents the capabilities and management of a fan cooling device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eddfb694-cba1-45e2-998f-f93355520c80
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_Fan class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -48,7 +42,7 @@ api_location:
 
 The **CIM\_Fan** class represents the capabilities and management of a fan cooling device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

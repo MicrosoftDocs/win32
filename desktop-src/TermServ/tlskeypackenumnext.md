@@ -1,9 +1,6 @@
 ---
 title: TLSKeyPackEnumNext function
 description: Continues from a previous call to the TLSKeyPackEnumBegin function and returns the next key pack that is installed on a Remote Desktop license server that matches the search criteria.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2614eb7a-df57-42a6-ad34-0a3211a6b8c3
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

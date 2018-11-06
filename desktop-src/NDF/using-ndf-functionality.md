@@ -2,7 +2,6 @@
 title: Using NDF Functionality
 description: Microsoft provides access to NDF functionality through a public API. When a problem occurs, the application can use this API to leverage this functionality within the context of a specific application.
 ms.assetid: db06b9a9-a64a-43ff-9b77-95230208cfd6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

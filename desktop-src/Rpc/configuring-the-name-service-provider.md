@@ -4,7 +4,6 @@ description: If your distributed application registers its interface with a name
 ms.assetid: a3f201e1-1a01-4794-9026-05e51a96afc0
 keywords:
 - Remote Procedure Call RPC , tasks, configuring name service provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

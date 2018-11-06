@@ -1,14 +1,10 @@
 ---
 title: Using IDirectoryObject to Get a Security Descriptor
 description: This topic includes a code example used to get a security descriptor.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 989abd3f-9043-4c3f-a99a-63fa95daf203
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , using IDirectoryObject to get a security descriptor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

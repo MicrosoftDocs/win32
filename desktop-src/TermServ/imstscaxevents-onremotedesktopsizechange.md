@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnRemoteDesktopSizeChange method
 description: Called to indicate that the size of the client control on the remote desktop has changed in response to a client control operation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6d27aec0-7249-4aac-8755-186815b50be7
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

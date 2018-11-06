@@ -2,7 +2,6 @@
 title: Threading Differences between Direct3D Versions
 description: Many multi-threaded programming models make use of synchronization primitives (such as mutexes) to create critical sections and prevent code from being accessed by more than one thread at a time.
 ms.assetid: 0c4f984e-4dd0-4714-b911-592ca86d5dc0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

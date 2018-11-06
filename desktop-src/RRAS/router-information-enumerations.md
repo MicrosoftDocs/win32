@@ -2,7 +2,6 @@
 title: Router Information Enumerations
 description: Use the following information types when calling information header functions.
 ms.assetid: 66cf0147-f099-4b6f-8063-32b284e891ca
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

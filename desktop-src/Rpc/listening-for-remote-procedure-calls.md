@@ -2,7 +2,6 @@
 title: Listening for Remote Procedure Calls
 description: After a server program registers its binding information and advertises its presence in a name service database, it can begin listening to the endpoint for remote procedure calls.
 ms.assetid: 1c116e44-03a4-4b86-ae37-0b9187981e53
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

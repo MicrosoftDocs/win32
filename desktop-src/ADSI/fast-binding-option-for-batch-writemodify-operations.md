@@ -1,15 +1,11 @@
 ---
 title: Fast Binding Option for Batch Write/Modify Operations
 description: When a directory service object is bound to, ADSI creates a COM object that represents the specified directory object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cf41b0c4-7459-49cf-945b-8462c7d19947
 ms.tgt_platform: multiple
 keywords:
 - Fast Binding Option for Batch Write/Modify Operations ADSI
 - ADSI ADSI , Using, Fast Binding Option for Batch Write/Modify Operations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: nop - vs
 description: No operation is performed.
 ms.assetid: 0ef0ad87-4fda-4c7a-a61a-fb83484cf11f
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Gets a pointer to the function DWORD stream.
 ms.assetid: a051b51a-185c-4a9e-a8b9-4096615e2634
 title: ID3DXTextureShader::GetFunction method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

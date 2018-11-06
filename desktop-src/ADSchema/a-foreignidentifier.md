@@ -1,9 +1,6 @@
 ---
 title: Foreign-Identifier attribute
 description: The security properties used by a foreign system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f39deb69-2e3b-4494-88f0-050ad90242a5
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Foreign-Identifier
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

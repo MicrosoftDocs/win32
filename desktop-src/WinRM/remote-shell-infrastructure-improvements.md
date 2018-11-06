@@ -1,12 +1,8 @@
 ---
 title: Remote Shell Infrastructure Improvements
 description: Windows Remote Management version 2.0 (WinRM 2.0) offers many remote shell infrastructure improvements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b22693ba-fa43-44bb-9b2d-0c64fad6e3cc
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

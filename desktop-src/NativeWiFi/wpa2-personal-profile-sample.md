@@ -2,7 +2,6 @@
 Description: Uses a pre-shared key for network authentication.
 ms.assetid: dbbadac6-1b7e-4161-a775-a934cf201c9d
 title: WPA2-Personal Profile Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

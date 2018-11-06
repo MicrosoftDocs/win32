@@ -2,7 +2,6 @@
 title: Accessibility Structures
 description: This section describes the structures used to implement Windows accessibility features.Microsoft Win32 accessibility features.
 ms.assetid: 0ff480ae-18e3-413d-b208-a67fbae28c25
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

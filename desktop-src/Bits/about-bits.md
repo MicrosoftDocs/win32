@@ -6,7 +6,6 @@ keywords:
 - Background Intelligent Transfer Service, described
 - transfer queue BITS
 - transfer queue BITS , throttle
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/09/2018
 ---

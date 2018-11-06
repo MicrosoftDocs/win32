@@ -2,7 +2,6 @@
 title: VML Target Attribute
 description: VML Target Attribute
 ms.assetid: 2e1cc002-65c9-4945-8c07-f23dc704d867
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

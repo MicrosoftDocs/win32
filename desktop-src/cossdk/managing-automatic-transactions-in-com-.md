@@ -2,7 +2,6 @@
 Description: In the COM+ programming model, you can design your components to do what they do best&\#8212;enabling business logic or establishing a database connection&\#8212;and rely on the transaction processing framework of Microsoft Windows to automate transactions.
 ms.assetid: 50086e6e-024b-4a09-b8be-8f55b6bfadb2
 title: Managing Automatic Transactions in COM+
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Name Syntax
 description: Remote Procedure Call (RPC) and name syntax.
 ms.assetid: eb370106-bd88-4c21-b287-7b2b174185d4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

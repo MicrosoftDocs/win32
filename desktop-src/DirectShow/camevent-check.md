@@ -2,7 +2,6 @@
 Description: The Check method checks whether the event is set, without blocking.
 ms.assetid: b8e55798-fd8e-4442-bc35-08887d8a3129
 title: CAMEvent.Check method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

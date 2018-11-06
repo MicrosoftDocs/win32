@@ -2,7 +2,6 @@
 Description: Setting the ARPNOREMOVE property disables the Add or Remove Programs functionality in Control Panel that removes the product.
 ms.assetid: f86c1af8-c984-4075-9c6b-0a71000b01a1
 title: ARPNOREMOVE property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

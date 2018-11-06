@@ -2,7 +2,6 @@
 Description: The ExtractFilesEx method of the Merge object extracts the embedded .cab file from a module and then writes those files to the destination directory.
 ms.assetid: 8b063052-4f92-466a-9c52-bda26ed13d5c
 title: Merge.ExtractFilesEx method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

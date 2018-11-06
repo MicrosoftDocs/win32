@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property consisting of an array of Uint64 elements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: F0959F4A-D78F-438B-B680-C01832CBB5F4
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint64Array class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

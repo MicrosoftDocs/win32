@@ -9,7 +9,6 @@ keywords:
 - publishing wizards,design considerations
 - publishing wizards,Online Print Ordering Wizard
 - Online Print Ordering Wizard,client-side design
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

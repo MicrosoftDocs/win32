@@ -2,7 +2,6 @@
 Description: The GetNPPPatternFilterFromBlob function retrieves the pattern match filter from a specific BLOB.
 ms.assetid: b17cde55-8abb-4699-960f-676cbbb24326
 title: GetNPPPatternFilterFromBlob function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

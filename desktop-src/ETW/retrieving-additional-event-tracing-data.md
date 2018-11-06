@@ -2,7 +2,6 @@
 Description: Once you have begun an event tracing session, you can use TraceSetInformation to instruct the system to return additional event tracing data.
 ms.assetid: 65CCD658-869E-40C4-83AE-34CC2720B7CB
 title: Retrieving Additional Event Tracing Data
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

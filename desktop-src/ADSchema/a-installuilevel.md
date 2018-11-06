@@ -1,9 +1,6 @@
 ---
 title: Install-Ui-Level attribute
 description: This attribute contains information for the type (level) of installation that is used for the user interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 718e04c7-ea96-4519-b312-12534ffd66df
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Install-Ui-Level
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

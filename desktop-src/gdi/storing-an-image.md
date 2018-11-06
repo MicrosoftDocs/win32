@@ -2,7 +2,6 @@
 Description: Many applications store images permanently as files. For example, drawing applications store pictures, spreadsheet applications store charts, CAD applications store drawings, and so on.
 ms.assetid: fc43ab78-c174-400b-a73a-c346d8bda8d2
 title: Storing an Image
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

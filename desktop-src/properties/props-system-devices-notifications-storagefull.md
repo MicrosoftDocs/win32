@@ -2,7 +2,6 @@
 Description: Device storage-full notification.
 ms.assetid: 6b8d0801-14e6-4aff-8815-81d884955488
 title: System.Devices.Notifications.StorageFull
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

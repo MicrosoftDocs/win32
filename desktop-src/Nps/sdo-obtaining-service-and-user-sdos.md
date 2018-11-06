@@ -1,12 +1,8 @@
 ---
 title: Obtaining Service and User SDOs
 description: To obtain SDOs for NPS (IAS) or a particular user, call the ISdoMachine GetServiceSDO or ISdoMachine GetUserSDO methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 23e23fb3-0102-4c36-b30f-18604131ee32
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

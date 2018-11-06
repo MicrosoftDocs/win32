@@ -2,7 +2,6 @@
 Description: Deriving from CBasePin
 ms.assetid: ef453bec-e5a9-4185-94e3-f934e748b11f
 title: Deriving from CBasePin
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

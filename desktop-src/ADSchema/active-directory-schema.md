@@ -1,14 +1,10 @@
 ---
 title: Active Directory Schema
 description: The Microsoft Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b3da4519-d0c6-47eb-9455-ada653ad5c9e
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

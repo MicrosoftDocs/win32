@@ -2,7 +2,6 @@
 Description: A TAPI application must call an initialization operation, which prompts a series of actions from TAPI and the service providers that set up the communication environment for the application.
 ms.assetid: 10df0fb4-08d6-4ba0-85f7-108cc4e237c1
 title: Primary Initialization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

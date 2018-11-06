@@ -2,7 +2,6 @@
 Description: Storage of hard-coded strings in the registry is part of a pre-Windows Vista localization model.
 ms.assetid: 70185942-7d32-4151-a4e1-f71cf45e87af
 title: Using Registry String Redirection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

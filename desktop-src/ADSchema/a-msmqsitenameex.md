@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Site-Name-Ex attribute
 description: The MSMQ-Site-Name-Ex attribute contains MSMQ mixed-mode information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 83aeaf45-5e15-45c2-9d25-a2b413c61658
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Site-Name-Ex
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

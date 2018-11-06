@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-NormalizedClass attribute
 description: The name of a core WMI policy class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e0b56055-3d54-4b48-b0bf-214652dac377
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-NormalizedClass
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

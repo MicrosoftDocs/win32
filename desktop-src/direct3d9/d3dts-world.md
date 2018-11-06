@@ -2,7 +2,6 @@
 Description: Identifies the transformation matrix being set as the world transformation matrix.
 ms.assetid: 2bf7ac8a-43d8-460e-a400-3b33e96441db
 title: D3DTS_WORLD macro
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

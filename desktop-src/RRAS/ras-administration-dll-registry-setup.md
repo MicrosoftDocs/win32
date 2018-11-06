@@ -4,7 +4,6 @@ description: The setup program for a third-party RAS administration DLL must reg
 ms.assetid: e83a5e37-a39d-4465-abc9-653cdd56893b
 keywords:
 - RAS Administration RRAS , DLL registry setup
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

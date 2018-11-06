@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: c59af6a9-93f9-4b05-95fa-2b5b06a89b55
 title: System.Media.EncodingSettings
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

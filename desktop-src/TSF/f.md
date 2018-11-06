@@ -3,7 +3,6 @@ title: F
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 46b8b63c-5245-43c1-ab45-cbbdb6972413
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

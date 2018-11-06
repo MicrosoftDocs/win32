@@ -2,7 +2,6 @@
 Description: Used with the NCRYPT\_UI\_POLICY\_PROPERTY property to contain user interface information for a key.
 ms.assetid: c567d8ba-3315-4316-8e09-93b2c10a55ec
 title: NCRYPT_UI_POLICY_BLOB structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

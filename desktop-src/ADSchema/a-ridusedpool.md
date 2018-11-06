@@ -1,9 +1,6 @@
 ---
 title: RID-Used-Pool attribute
 description: The RID Pools that have been used by a DC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ca779461-5b8f-4ab2-b9cf-5f829889f10d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RID-Used-Pool
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ADSI Data Types and Constants
 description: Active Directory Service Interfaces (ADSI) provides data types and constants used with ADSI structures and interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e6e94631-808f-4162-96ea-fb421ec733d7
 ms.tgt_platform: multiple
 keywords:
@@ -11,7 +8,6 @@ keywords:
 - ADSI ADSI ,reference,data types
 - constants ADSI
 - data types ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

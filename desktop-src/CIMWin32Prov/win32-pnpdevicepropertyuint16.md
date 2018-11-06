@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property of type Uint16.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9A46EABD-7F72-425C-B627-63102FE0849B
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint16 class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

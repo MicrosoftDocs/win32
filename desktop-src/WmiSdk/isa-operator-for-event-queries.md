@@ -1,12 +1,8 @@
 ---
 Description: The ISA operator is a WQL-specific operator that can be used in event queries. When ISA is included in the WHERE clause of an event query, it requests notification of events for all classes within a class hierarchy, rather than a specific event class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 68b7a903-a206-4491-95c4-4a412537f6f5
 ms.tgt_platform: multiple
 title: ISA Operator for Event Queries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

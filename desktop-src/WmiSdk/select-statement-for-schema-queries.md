@@ -1,12 +1,8 @@
 ---
 Description: Schema data queries use the SELECT statement with a syntax similar to that for data queries.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e7150aaa-5829-4d64-a13b-39f83adc5b98
 ms.tgt_platform: multiple
 title: SELECT Statement for Schema Queries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

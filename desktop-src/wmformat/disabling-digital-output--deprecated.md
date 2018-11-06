@@ -12,7 +12,6 @@ keywords:
 - Microsoft Secure Audio Path (SAP),disabling digital output
 - Secure Audio Path (SAP),disabling digital output
 - SAP (Secure Audio Path),disabling digital output
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

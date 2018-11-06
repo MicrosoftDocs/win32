@@ -2,7 +2,6 @@
 Description: Instructs the IME window to show the status window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 8c422592-ef59-4030-b684-81e4e552c6b0
 title: IMC_OPENSTATUSWINDOW command
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

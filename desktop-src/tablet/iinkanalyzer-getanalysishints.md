@@ -2,7 +2,6 @@
 Description: Gets all of the analysis hint IContextNode objects that are attached to the IInkAnalyzer.
 ms.assetid: 97cff025-3d9e-4137-b1ac-635153804744
 title: IInkAnalyzer::GetAnalysisHints method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

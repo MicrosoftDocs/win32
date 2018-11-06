@@ -2,7 +2,6 @@
 title: AccessibleObjectFromPointReturnedNullIAccessible
 description: AccessibleObjectFromPointReturnedNullIAccessible
 ms.assetid: DF786659-8ADC-4EB0-A606-8B80C139691A
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

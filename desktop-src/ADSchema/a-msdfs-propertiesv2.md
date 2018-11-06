@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Properties-v2 attribute
 description: Properties associated with DFS root or link.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7711f37-21ae-43ca-a064-917a730bb94a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Properties-v2
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

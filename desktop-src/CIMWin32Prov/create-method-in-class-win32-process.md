@@ -1,14 +1,8 @@
 ---
 Description: The Create&\#8194;WMI class method creates a new process.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: be80abec-fab4-4403-bc29-d0d4a38e3c87
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Create method of the Win32_Process class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_VideoSettings association WMI class relates a video controller and video settings that can be applied to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0cc42352-0a89-434d-a8b6-230c677de49c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_VideoSettings class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: LOCALE\_ILZERO
 ms.assetid: 396d437f-09af-475f-8e73-de31d9a305da
 title: LOCALE_ILZERO
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

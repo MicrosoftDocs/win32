@@ -6,7 +6,6 @@ keywords:
 - Domain Name System, reference, WMI classes
 - WMI classes
 - WMI classes, DNS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

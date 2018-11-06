@@ -23,7 +23,6 @@ keywords:
 - Ribbon,APIs
 - Windows Ribbon,security
 - Ribbon,security
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

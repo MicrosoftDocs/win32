@@ -2,7 +2,6 @@
 title: Service Identity
 description: Service Identity
 ms.assetid: 1d21d4eb-27e1-482b-9ceb-cea1d266df83
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

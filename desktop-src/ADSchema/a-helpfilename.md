@@ -1,9 +1,6 @@
 ---
 title: Help-File-Name attribute
 description: This attribute was used for Exchange 4.0. It contained the name that should be used for the file when the provider downloaded help data to a client computer. It is not used for any other versions of Exchange.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3383b953-8a5c-4dfd-9d06-c35d29d6ea2d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Help-File-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

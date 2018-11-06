@@ -2,7 +2,6 @@
 title: High DPI Desktop Application Development on Windows
 description: This content is targeted at developers who are looking to update desktop applications to handle dynamic display scale factor (a.k.a.
 ms.assetid: 6C419EEF-D898-4B50-8D16-E65A594487AA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

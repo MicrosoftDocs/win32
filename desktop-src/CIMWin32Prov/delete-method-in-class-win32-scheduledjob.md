@@ -1,14 +1,8 @@
 ---
 Description: The Delete&\#8194;WMI class method deletes a scheduled job.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 064ff3f8-6d41-4f8d-a511-6c051bb48a5b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Delete method of the Win32_ScheduledJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

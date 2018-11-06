@@ -2,7 +2,6 @@
 Description: Invokes the method that is called when the specified asynchronous action completes.
 ms.assetid: 97199C1A-7CE3-4BBD-86A3-2CA9B27CC05E
 title: AsyncActionCompletedHandler::Invoke method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

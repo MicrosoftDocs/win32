@@ -1,9 +1,6 @@
 ---
 title: ReinstallRetailPurchaseLicenseKeyPack method of the Win32_TSLicenseKeyPack class
 description: Reinstalls a Remote Desktop Services license key pack that was purchased through a retail channel.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 19528726-8DEB-4D03-BFA6-647C8A612FA2
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

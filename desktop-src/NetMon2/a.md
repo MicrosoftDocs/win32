@@ -3,7 +3,6 @@ Description: Glossary of Network Monitor terms that begin with the letter A.
 Robots: noindex, nofollow
 ms.assetid: 0aa58f61-c753-4a32-b37e-b5a7a0e842cc
 title: A
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

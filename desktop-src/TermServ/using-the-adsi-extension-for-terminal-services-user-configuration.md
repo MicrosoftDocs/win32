@@ -1,14 +1,10 @@
 ---
 title: Using the ADSI Extension for Remote Desktop Services User Configuration
 description: Administration of Remote Desktop Services-specific user properties is possible by using the methods implemented by the Active Directory Service Interfaces (ADSI) extension, which is packaged with the dynamic-link library Tsuserex.dll.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f6355730-9686-4446-b118-630562548fc9
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , using the ADSI extension
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

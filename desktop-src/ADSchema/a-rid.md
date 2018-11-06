@@ -1,9 +1,6 @@
 ---
 title: Rid attribute
 description: The relative Identifier of an object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 52110cac-033c-475c-84d7-aff631af3413
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Rid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

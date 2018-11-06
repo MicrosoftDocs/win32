@@ -1,9 +1,6 @@
 ---
 title: RID-Set-References attribute
 description: List of references to RID-Set objects that manage Relative Identifier (RID) allocation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9bd02a20-97a3-455f-ab77-f84add844974
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - RID-Set-References
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

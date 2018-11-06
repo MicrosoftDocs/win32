@@ -2,7 +2,6 @@
 Description: The ProductID property is set to the full ProductID after a successful validation.This value is displayed by the UI and used by the RegisterProduct action.Following a successful validation, this property is set by the ValidateProductID action or the ValidateProductID ControlEvent.Note that the particular sample user interface provided with the SDK as Uisample.msi requires a value for ProductID. If you use this UI, but do not want to use ProductID to validate product identifiers, then set the ProductID property to &\#0034;none&\#0034; in the Property table.
 ms.assetid: 6af23f2d-b22a-470d-b979-da32776e0007
 title: ProductID property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

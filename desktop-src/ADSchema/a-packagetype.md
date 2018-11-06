@@ -1,9 +1,6 @@
 ---
 title: Package-Type attribute
 description: This attribute describes the type of installation required for an application package, for example, MSI, EXE, CAB.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 76505575-a2c9-4113-84ac-1d0689d9e0e4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Package-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

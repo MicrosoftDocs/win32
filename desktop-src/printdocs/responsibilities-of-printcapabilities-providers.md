@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 92e9bce1-d58e-40a4-9721-832d7c3bc2b2
 title: Responsibilities of PrintCapabilities Providers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

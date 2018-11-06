@@ -1,9 +1,6 @@
 ---
 title: SetPromptForPassword method of the Win32_TSLogonSetting class
 description: The SetPromptForPassword method sets the PromptForPassword property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eeeed374-4a8a-4014-833c-d931be3ef455
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

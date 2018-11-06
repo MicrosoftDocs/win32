@@ -2,7 +2,6 @@
 Description: The directory location for the printer driver.
 ms.assetid: 65CB248E-611D-4c95-AB7C-417F7A197876
 title: System.DeviceInterface.PrinterDriverDirectory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

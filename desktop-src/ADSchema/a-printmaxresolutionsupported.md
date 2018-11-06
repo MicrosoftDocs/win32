@@ -1,9 +1,6 @@
 ---
 title: Print-Max-Resolution-Supported attribute
 description: The maximum printer resolution.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0036d92f-47d1-471d-8bcf-f5a484ab8110
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Print-Max-Resolution-Supported
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: PROPERTY.CPP
 description: In the example provider component, code examples for storing different data types in VARIANT data types so that they can be saved as properties of an object are in property.cpp. Supported routines are listed in the following table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3cd6b5b7-48c7-4e9c-b8bf-5910b992433f
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

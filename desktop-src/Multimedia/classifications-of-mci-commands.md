@@ -4,7 +4,6 @@ description: Classifications of MCI Commands
 ms.assetid: e03edfab-06c9-4337-935b-9effd2996c2e
 keywords:
 - MCI commands,classifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

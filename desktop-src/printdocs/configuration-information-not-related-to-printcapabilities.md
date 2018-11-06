@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 00f1d2c4-3c71-4b64-b689-83b4399aa61d
 title: Configuration Information Not Related to PrintCapabilities
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

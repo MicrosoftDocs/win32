@@ -19,7 +19,6 @@ keywords:
 - control types,control patterns for ComboBox control type
 - control types,support for ComboBox
 - control types,ComboBox
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

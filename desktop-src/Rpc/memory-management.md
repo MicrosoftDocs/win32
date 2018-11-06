@@ -4,7 +4,6 @@ description: The following topics discuss how RPC programs allocate and dealloca
 ms.assetid: 'b56ccac1-84cb-4687-bdd2-21ee716b472a'
 keywords:
 - Remote Procedure Call RPC , described, memory management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

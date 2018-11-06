@@ -2,7 +2,6 @@
 Description: Defines a counter.
 ms.assetid: 8f1338c0-7ea6-4d0c-af71-51012973e4a0
 title: counter Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

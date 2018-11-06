@@ -2,7 +2,6 @@
 Description: Gets a new stream for the specified item.
 ms.assetid: fe25843c-2051-42fe-8737-eea39f6aeab9
 title: IWiaTransferCallback::GetNextStream method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Bridgehead-Transport-List attribute
 description: Transports for which this server is a bridgehead.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef024170-eee2-458d-8cd2-637892644991
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Bridgehead-Transport-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: MTP Extensions
 ms.assetid: ABF3CA59-5141-4A51-9D52-F5585FBBFEC8
 title: MTP Extensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

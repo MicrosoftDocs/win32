@@ -2,7 +2,6 @@
 title: VML Units
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 ms.assetid: f95e65ad-d92a-460f-baeb-30fd8a35f84e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

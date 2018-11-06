@@ -1,12 +1,8 @@
 ---
 Description: Directs the MOF compiler to separate a MOF file into language-neutral and language-specific versions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c1aec33c-b936-4cca-8fcd-7bd088af7116
 ms.tgt_platform: multiple
 title: pragma amendment
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

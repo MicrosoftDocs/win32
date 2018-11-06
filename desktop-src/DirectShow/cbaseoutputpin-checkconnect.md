@@ -2,7 +2,6 @@
 Description: The CheckConnect method determines whether a pin connection is suitable.
 ms.assetid: 50ab59ad-8ff7-4d7b-add3-b59203d93307
 title: CBaseOutputPin.CheckConnect method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

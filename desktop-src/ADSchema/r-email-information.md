@@ -1,9 +1,6 @@
 ---
 title: Email-Information property set
 description: Property set containing user attributes that describe user email related information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9effd519-5226-4f40-8149-32aa1d0941cf
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Email-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

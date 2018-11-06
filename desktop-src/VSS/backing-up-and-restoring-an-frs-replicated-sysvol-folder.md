@@ -2,7 +2,6 @@
 Description: This topic explains how to determine whether a SYSVOL folder is replicated by DFSR or FSR and explains how to backup and restore an FRS-replicated SYSVOL folder.
 ms.assetid: 32d8a5bd-eeb4-4db6-8129-b5cd3508a7e5
 title: Backing Up and Restoring an FRS-Replicated SYSVOL Folder
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

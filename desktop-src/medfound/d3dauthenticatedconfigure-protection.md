@@ -2,7 +2,6 @@
 Description: Enables or disables protection for the device.
 ms.assetid: 120d940f-39a0-4ad5-bd3e-c108b3f98ace
 title: D3DAUTHENTICATEDCONFIGURE_PROTECTION
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The LINECALLTREATMENT\_ constants list treatments for calls that are unanswered or on hold. Except for basic parameter validation, call treatment is a straight pass-through by TAPI to the service provider.
 ms.assetid: c28c9200-dd51-48b2-905c-fbe37c83b00f
 title: LINECALLTREATMENT_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

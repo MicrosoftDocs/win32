@@ -2,7 +2,6 @@
 Description: The GetItemsFromUI method of the Item object displays a dialog box that allows a user to select images and audio to transfer from a device.
 ms.assetid: 0ee9a248-20ed-4e1f-a8ce-615c4a6a2bce
 title: Item.GetItemsFromUI method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

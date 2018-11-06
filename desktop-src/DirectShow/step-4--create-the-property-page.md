@@ -2,7 +2,6 @@
 Description: Step 4.
 ms.assetid: ed71f26b-0812-4be8-96a4-b9f5dde45540
 title: Step 4. Create the Property Page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

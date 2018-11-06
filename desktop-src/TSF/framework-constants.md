@@ -9,7 +9,6 @@ keywords:
 - TSF-enabled applications,constants
 - TSF reference,constants
 - reference for TSF,constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

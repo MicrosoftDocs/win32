@@ -1,9 +1,6 @@
 ---
 title: Bridgehead-Server-List-BL attribute
 description: The list of servers that are bridgeheads for replication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b84176af-c6d2-4390-92d1-d29949da0691
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Bridgehead-Server-List-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

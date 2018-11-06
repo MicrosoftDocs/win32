@@ -7,7 +7,6 @@ keywords:
 - Advanced Systems Format (ASF),script commands
 - ASF (Advanced Systems Format),script commands
 - scripts,commands
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

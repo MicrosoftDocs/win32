@@ -2,7 +2,6 @@
 title: dcl_resource raw (sm5 - asm)
 description: Declare a shader resource input and assign it to a t\ - a placeholder register for the resource.
 ms.assetid: ECBA9DAB-F217-47FB-9588-F35866004E72
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

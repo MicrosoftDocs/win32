@@ -2,7 +2,6 @@
 title: Resource Management Best Practices
 description: This article discusses best practices for dealing with resources generally, how managed and unmanaged resources behave, and provides some detail on how resources are typically handled by the runtime and drivers.
 ms.assetid: 265ae0b2-f268-a4a4-551e-9d3dae886517
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

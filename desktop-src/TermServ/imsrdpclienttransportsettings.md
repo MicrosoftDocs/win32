@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings interface
 description: Manages client transport settings for the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d2573727-1dcc-4d4d-af5c-038e9467ba84
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

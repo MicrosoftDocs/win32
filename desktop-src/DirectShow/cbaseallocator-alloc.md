@@ -2,7 +2,6 @@
 Description: The Alloc method allocates memory for the buffers.
 ms.assetid: a22c97ef-6a8d-4cad-b5a5-3e6b225f5c81
 title: CBaseAllocator.Alloc method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

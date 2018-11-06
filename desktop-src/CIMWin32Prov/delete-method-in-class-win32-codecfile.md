@@ -1,14 +1,8 @@
 ---
 Description: Deletes the logical audio or video codec file (or directory) specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 70233615-8924-4bd4-8a20-279a18b5c807
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Delete method of the Win32_CodecFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClient ColorDepth property
 description: The color depth (in bits per pixel) for the control's connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9ba4d8fe-20cd-40e9-a71a-0dce0ddd29fc
 ms.tgt_platform: multiple
 keywords:
@@ -65,7 +62,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

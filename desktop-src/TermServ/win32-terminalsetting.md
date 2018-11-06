@@ -1,9 +1,6 @@
 ---
 title: Win32_TerminalSetting class
 description: Represents the settings that can be applied to a terminal.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e709aa60-f8fd-4e83-a5a1-d682ff469d23
 ms.tgt_platform: multiple
 keywords:
@@ -23,7 +20,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

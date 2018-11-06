@@ -2,7 +2,6 @@
 title: WinSNMP Sessions
 description: A session is the basic unit of resource and communications management between a calling WinSNMP application and the Microsoft WinSNMP implementation.
 ms.assetid: abac7f6b-2f94-4f29-8f7f-445c3cf2309e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

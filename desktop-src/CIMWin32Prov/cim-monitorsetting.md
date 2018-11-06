@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_MonitorSetting class associates the monitor resolution with the desktop monitor to which it applies.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4bf0b2d5-b901-4294-a33b-9c8a87785af0
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_MonitorSetting class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_MonitorSetting** class associates the monitor resolution with the desktop monitor to which it applies.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

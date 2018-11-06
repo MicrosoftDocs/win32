@@ -2,7 +2,6 @@
 Description: To create a Direct3D device, first create a Direct3D object (see Direct3DCreate9).
 ms.assetid: 06810f31-fa6c-416e-bd7b-65cfb3e6d7f2
 title: Creating a Device (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

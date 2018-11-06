@@ -3,7 +3,6 @@ Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
 ms.assetid: e99de576-ed73-4b91-a58c-4fae739d6709
 title: H
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

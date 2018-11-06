@@ -2,7 +2,6 @@
 Description: A model that describes the loudness of oriented sound.
 ms.assetid: 15252358-d932-22f4-f13a-8e4b8487dd86
 title: Sound Cones
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

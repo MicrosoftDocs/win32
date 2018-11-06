@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings GrabFocusOnConnect property
 description: Specifies if the client control should have the focus while connecting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c67fc284-6e07-4749-84bf-70c0ae4d1b2b
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

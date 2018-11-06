@@ -2,7 +2,6 @@
 title: Tree View
 description: This section contains information about the programming elements used with tree-view controls.
 ms.assetid: ee942d66-fbbe-4da0-af5f-4fbc5854c58d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

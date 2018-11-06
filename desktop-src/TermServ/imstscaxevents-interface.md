@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents interface
 description: Includes methods that receive information from the server that are related to client control events.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ed28b045-a90e-41df-abd4-8cb8975b9625
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

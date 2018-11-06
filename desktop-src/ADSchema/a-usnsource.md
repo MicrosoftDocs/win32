@@ -1,9 +1,6 @@
 ---
 title: USN-Source attribute
 description: Value of the USN-Changed attribute of the object from the remote directory that replicated the change to the local server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b307f84a-3ab1-4bfa-afc2-e74055f2a652
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - USN-Source
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This sample shows how to deploy a managed Tablet PC application over the Web by using no-touch deployment.
 ms.assetid: d226bd67-e20d-431b-b0c3-9361b00a9340
 title: No-Touch Deployment Web Sample
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

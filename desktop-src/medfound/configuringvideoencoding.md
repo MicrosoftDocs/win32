@@ -2,7 +2,6 @@
 Description: Configuring Video Encoding
 ms.assetid: 917600f5-5580-4ca5-bce9-70eadec40df7
 title: Configuring Video Encoding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

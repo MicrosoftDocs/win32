@@ -1,14 +1,8 @@
 ---
 Description: Renames the codec file specified in the object path.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fd6ce02c-d513-4643-ac27-313c32732f1e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Rename method of the Win32_CodecFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

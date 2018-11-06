@@ -1,9 +1,6 @@
 ---
 title: Class-Registration class
 description: Registration information for a COM object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 49d00276-6e20-4cc8-9fc0-af8ac80f7f14
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Class-Registration
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

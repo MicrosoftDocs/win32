@@ -2,7 +2,6 @@
 Description: Represents the association between a parent Ethernet switch extension and a child Ethernet switch extension.
 ms.assetid: a0a60214-d85d-4c64-b720-1c34abc25287
 title: Msvm_ParentEthernetSwitchExtension class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

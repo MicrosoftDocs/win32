@@ -1,14 +1,8 @@
 ---
 Description: Compresses the logical shortcut file (or directory) specified in the object path (this method is an extended version of the Compress method).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1f7b6182-6ab7-4801-83a8-b57b1c78001f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_ShortcutFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

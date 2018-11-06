@@ -1,9 +1,6 @@
 ---
 title: Recalculate-Hierarchy extended right
 description: Extended right to force the DS to recalculate the hierarchy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8a9d5f3c-2fc2-45e3-bd65-f26fd339af34
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Recalculate-Hierarchy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Gets the stipple-pattern scale value.
 ms.assetid: cf80ae8c-493d-4f35-b4f9-5981e64cc842
 title: ID3DXLine::GetPatternScale method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,6 @@
 ---
 Description: This message is not supported.
 title: WM_CPL_LAUNCHED message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

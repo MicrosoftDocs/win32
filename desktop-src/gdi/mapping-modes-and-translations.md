@@ -2,7 +2,6 @@
 Description: The mapping modes are described in the following table.
 ms.assetid: 02bc45d1-2921-48bc-a066-2314765b6531
 title: Mapping Modes and Translations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

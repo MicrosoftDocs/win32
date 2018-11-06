@@ -1,9 +1,6 @@
 ---
 title: ms-COM-PartitionSet class
 description: A conceptual collection of COM+ partitions.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0047555f-8fec-43ad-987b-cff4d3468476
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-COM-PartitionSet
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

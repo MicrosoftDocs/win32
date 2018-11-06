@@ -2,7 +2,6 @@
 title: Windows Connect Now
 description: .
 ms.assetid: c551b8ae-2b87-4661-8d86-22010d18e058
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

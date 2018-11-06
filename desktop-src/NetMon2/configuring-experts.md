@@ -2,7 +2,6 @@
 Description: To configure experts, use the custom dialog boxes and the Configure function.
 ms.assetid: 6298fa7b-ddc8-4924-9616-6eed67ec48db
 title: Configuring Experts
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

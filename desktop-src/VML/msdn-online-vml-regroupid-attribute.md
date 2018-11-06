@@ -2,7 +2,6 @@
 title: VML ReGroupID Attribute
 description: VML ReGroupID Attribute
 ms.assetid: 2fbcc8c5-6e31-4301-9fb8-c2618bb17a1b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

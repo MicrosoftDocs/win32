@@ -9,7 +9,6 @@ keywords:
 - ODL MIDL , keywords
 - ODL MIDL , statements
 - ODL MIDL , directives
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

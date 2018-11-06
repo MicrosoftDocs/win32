@@ -2,7 +2,6 @@
 title: Hue to RGB Effect
 description: Converts an HSL (Hue, Saturation, Lightness) or HSV (Hue, Saturation, Value) image to the RGB color space.
 ms.assetid: 18e92535-9e89-bf8d-b8c3-a49b645fc417
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

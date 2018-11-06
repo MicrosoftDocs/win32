@@ -2,7 +2,6 @@
 Description: Enables index creation and modification for the specified database.
 ms.assetid: f780034e-6963-423c-8ffa-9fbe98dca7e1
 title: SdbStartIndexing function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

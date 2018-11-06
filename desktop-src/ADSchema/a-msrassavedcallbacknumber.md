@@ -1,9 +1,6 @@
 ---
 title: msRASSavedCallbackNumber attribute
 description: The msRASSavedCallbackNumber attribute is used internally.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e72e2491-6c73-4fd3-811d-80b83a1c4632
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - msRASSavedCallbackNumber
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

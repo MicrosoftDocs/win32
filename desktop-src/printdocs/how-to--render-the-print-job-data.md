@@ -2,7 +2,6 @@
 Description: This topic describes how to render the program data to be printed.
 ms.assetid: D1343C53-6F13-49FF-8C7C-25D5A3C31B22
 title: 'How To: Render Print Job Data'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

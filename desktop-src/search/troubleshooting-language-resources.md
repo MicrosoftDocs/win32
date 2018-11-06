@@ -2,7 +2,6 @@
 Description: This topic provides best practices and suggestions for validating and troubleshooting your IWordBreaker and IStemmer implementations.
 ms.assetid: b0e199b9-8d81-4445-92f7-de9b8a00a9cb
 title: Troubleshooting Language Resources and Best Practices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

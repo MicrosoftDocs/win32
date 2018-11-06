@@ -2,7 +2,6 @@
 title: Ambient Properties
 description: Ambient Properties
 ms.assetid: 48d4f365-f78d-4fba-99ee-0c060253a195
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

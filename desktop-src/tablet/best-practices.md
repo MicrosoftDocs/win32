@@ -2,7 +2,6 @@
 Description: Overview of best practices when using the pen input panel object.
 ms.assetid: 5b127743-0c88-4c4c-bcb6-5a91690cd2a1
 title: Best Practices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

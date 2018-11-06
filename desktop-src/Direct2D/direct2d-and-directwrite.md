@@ -2,7 +2,6 @@
 title: Text Rendering with Direct2D and DirectWrite
 description: Unlike other APIs, such as GDI, GDI+ or WPF, Direct2D interoperates with another API, DirectWrite, to manipulate and render text. This topic describes the benefits and interoperation of these separate components.
 ms.assetid: 1d5b8deb-34e2-433c-8de3-4ef66fb4e49d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

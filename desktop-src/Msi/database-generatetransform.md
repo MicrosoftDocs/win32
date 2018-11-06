@@ -2,7 +2,6 @@
 Description: The GenerateTransform method of the Database object creates a transform that, when applied to the object database, results in the reference database. The transform is stored in the storage object.
 ms.assetid: 51cd70a0-6eda-4ca6-b468-9cb36ad942f8
 title: Database.GenerateTransform method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

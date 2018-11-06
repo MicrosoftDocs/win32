@@ -1,12 +1,8 @@
 ---
 title: IMsRdpClient8 methods
 description: The IMsRdpClient8 interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: A8B62801-1992-44C9-B3EF-5DEF402004E0
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

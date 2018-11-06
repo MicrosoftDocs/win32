@@ -2,7 +2,6 @@
 Description: A service can register to be started or stopped when a trigger event occurs.
 ms.assetid: ca02a3ae-b16a-4427-b6db-b935c9cf23b3
 title: Service Trigger Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

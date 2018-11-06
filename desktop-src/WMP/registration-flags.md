@@ -9,7 +9,6 @@ keywords:
 - UI plug-ins,registration flags
 - flags,user interface plug-ins
 - registry,UI plug-ins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

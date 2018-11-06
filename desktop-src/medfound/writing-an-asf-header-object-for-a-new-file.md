@@ -2,7 +2,6 @@
 Description: Writing an ASF Header Object for a New File
 ms.assetid: f2a76471-3d93-427b-a316-d0967cd20e77
 title: Writing an ASF Header Object for a New File
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

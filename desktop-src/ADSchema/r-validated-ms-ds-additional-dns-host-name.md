@@ -1,9 +1,6 @@
 ---
 title: Validated-MS-DS-Additional-DNS-Host-Name validated writes
 description: Validated write to MS DS Additional DNS Host Name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cbd09a3c-d1dc-4db4-b586-53d8a43d3588
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Validated-MS-DS-Additional-DNS-Host-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-Parm1 attribute
 description: The ms-WMI-Parm1 attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f8c1d98b-a782-4561-8d31-12a9be628fa6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-Parm1
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

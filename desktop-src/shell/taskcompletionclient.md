@@ -2,7 +2,6 @@
 Description: Enables task completion.
 ms.assetid: 323343D6-FC4A-4A5F-B065-DD72B6077F99
 title: TaskCompletionClient interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Device Association Endpoint's Parent Container Id.
 ms.assetid: 0a8dbf09-aee6-4dee-beba-b7dbff488410
 title: System.Devices.Aep.ContainerId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

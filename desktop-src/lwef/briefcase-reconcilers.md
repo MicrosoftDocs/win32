@@ -7,7 +7,6 @@ keywords:
 - reconciliation
 - IReconcilableObject
 - IReconcileInitiator
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

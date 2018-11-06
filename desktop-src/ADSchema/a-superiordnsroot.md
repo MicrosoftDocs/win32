@@ -1,9 +1,6 @@
 ---
 title: Superior-DNS-Root attribute
 description: This is a system attribute that is used for referrals generation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 421f8315-26e2-457d-ae76-868b7fc6551a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Superior-DNS-Root
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

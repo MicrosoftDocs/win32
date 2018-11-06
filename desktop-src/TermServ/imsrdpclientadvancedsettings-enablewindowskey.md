@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings EnableWindowsKey property
 description: Specifies if the Windows key can be used in the remote session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fcf0460d-3cd1-4da4-8009-0b1256adf312
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Returns the z-component by taking the cross product of two 2D vectors.
 ms.assetid: daec19f2-cd0f-4a68-affc-9a42bda8912c
 title: D3DXVec2CCW function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

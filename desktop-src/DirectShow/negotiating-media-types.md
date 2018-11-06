@@ -2,7 +2,6 @@
 Description: Negotiating Media Types
 ms.assetid: 9872128c-4e3d-4ac8-afc4-b3dc516a0925
 title: Negotiating Media Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

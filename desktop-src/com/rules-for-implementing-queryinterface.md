@@ -2,7 +2,6 @@
 title: Rules for Implementing QueryInterface
 description: Rules for Implementing QueryInterface
 ms.assetid: 6db17ed8-06e4-4bae-bc26-113176cc7e0e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

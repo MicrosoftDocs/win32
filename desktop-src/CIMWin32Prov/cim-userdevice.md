@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_UserDevice class is a parent class from which other classes, such as CIM\_Keyboard or CIM\_DesktopMonitor, descend. User devices are logical devices that allow a computer system's user to input, view, or hear data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 311a065a-df9b-4c4b-bdc4-d3de89ce2f3d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_UserDevice class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -46,7 +40,7 @@ api_location:
 
 The **CIM\_UserDevice** class is a parent class from which other classes, such as [**CIM\_Keyboard**](cim-keyboard.md) or [**CIM\_DesktopMonitor**](cim-desktopmonitor.md), descend. User devices are logical devices that allow a computer system's user to input, view, or hear data.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

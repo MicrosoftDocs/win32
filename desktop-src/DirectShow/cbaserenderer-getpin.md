@@ -2,7 +2,6 @@
 Description: The GetPin method retrieves a pin.
 ms.assetid: 665e1aaf-4491-4241-94c6-6ea356d7a665
 title: CBaseRenderer.GetPin method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

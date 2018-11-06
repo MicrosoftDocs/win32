@@ -1,9 +1,6 @@
 ---
 title: Win32_TSLicenseReportFailedPerUserEntry class
 description: Provides details about the failed Remote Desktop Services Per User client access license (RDS \ 160;Per User CAL).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 27d155a4-938e-4bca-8d15-03c44740e506
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

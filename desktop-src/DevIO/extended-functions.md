@@ -2,7 +2,6 @@
 Description: Some communications functions can be called for a device by using the EscapeCommFunction function.
 ms.assetid: 12b92d4b-04b5-4509-9fad-af23fcfd8857
 title: Extended Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

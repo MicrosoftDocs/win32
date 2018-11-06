@@ -2,7 +2,6 @@
 Description: Messages are used to notify the application of asynchronous events. All of these messages are sent to the application through the message notification mechanism that the application specified in lineInitializeEx.
 ms.assetid: d302819e-c522-470a-be5e-52625c9223a4
 title: TAPI Messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

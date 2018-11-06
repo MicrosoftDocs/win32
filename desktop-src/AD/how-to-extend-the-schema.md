@@ -1,16 +1,12 @@
 ---
 title: How to Extend the Schema
 description: When the existing classes and/or attributes do not fit with the type of data that you want to store, you might want to extend the schema.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9a80ce29-8ff0-4324-8a2f-afd6c5d2272e
 ms.tgt_platform: multiple
 keywords:
 - Schema AD , How to Extend
 - Active Directory, Using, Schema
 - Active Directory, Using, Schema, Extending the Schema, How to Extend
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: A triangle list is a list of isolated triangles. They might or might not be near each other. A triangle list must have at least three vertices and the total number of vertices must be divisible by three.
 ms.assetid: e5c3470f-361c-458a-a42a-3549c51d8794
 title: Triangle Lists
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

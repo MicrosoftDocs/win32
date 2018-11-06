@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Host-Service-Account-BL attribute
 description: Service Accounts backward link for linking computers that are associated with the service account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4f32221c-3561-4f38-b82b-637114029b2d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Host-Service-Account-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

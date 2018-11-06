@@ -2,7 +2,6 @@
 Description: This topic provides information about security considerations related to International Support features.
 ms.assetid: 4034f479-ad29-4c6f-82c6-977f420c4d4d
 title: 'Security Considerations: International Features'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

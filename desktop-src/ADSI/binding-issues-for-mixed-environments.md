@@ -1,14 +1,10 @@
 ---
 title: Binding Issues for Mixed Environments
 description: Binding Issues for Mixed Environments
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d9f9a6bc-7733-4269-99c8-61a84b37d487
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,binding issues for mixed environments
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

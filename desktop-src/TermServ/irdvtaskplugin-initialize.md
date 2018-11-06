@@ -1,9 +1,6 @@
 ---
 title: IRDVTaskPlugin Initialize method
 description: Called to initialize the task agent.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eef813e6-ecca-400a-a9f3-efca6bd81161
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_name:
 - IRDVTaskPlugin.Initialize
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

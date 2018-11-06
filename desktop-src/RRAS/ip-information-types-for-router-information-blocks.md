@@ -2,7 +2,6 @@
 title: IP Information Types for Router Information Blocks
 description: The following information types are listed in Ipinfoid.h.
 ms.assetid: 911c61d4-e500-48c6-8861-39dbc09ab4e7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

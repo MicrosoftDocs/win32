@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings ConnectToServerConsole property
 description: This property is not supported. Calls to ConnectToServerConsole always return S\_FALSE.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 58f79085-4364-408f-8bf1-97a82ad68f4b
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

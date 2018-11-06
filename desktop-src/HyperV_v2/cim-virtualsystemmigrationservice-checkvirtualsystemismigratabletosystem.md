@@ -1,7 +1,6 @@
 ---
 ms.assetid: d3f7c926-804f-4c7c-8964-a8e464155417
 title: CheckVirtualSystemIsMigratableToSystem method of the CIM_VirtualSystemMigrationService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

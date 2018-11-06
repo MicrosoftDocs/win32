@@ -1,9 +1,6 @@
 ---
 title: ADSI Simple Data Types
 description: Active Directory Service Interfaces (ADSI) defines and uses the following simple data types.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0bd34f13-269f-4f5d-8a18-74577522e402
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ keywords:
 - ADS_PRINTABLE_STRING
 - ADS_SEARCH_HANDLE
 - ADS_UTC_TIME
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

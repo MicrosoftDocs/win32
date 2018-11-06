@@ -2,7 +2,6 @@
 Description: Specifies whether the specified color is a special color.
 ms.assetid: fda856c4-37b9-444f-9c54-d9eb848a4b05
 title: FSpecialIMEColorStyle function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

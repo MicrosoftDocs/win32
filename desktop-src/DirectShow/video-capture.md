@@ -2,7 +2,6 @@
 Description: Video Capture
 ms.assetid: '92051a84-5011-42ed-be68-e8841552ca1b'
 title: Video Capture
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

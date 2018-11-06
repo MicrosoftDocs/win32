@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_SystemDevices association WMI class relates a computer system and a logical device installed on that system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 84dfcb75-3b44-4b27-8eee-779be522eb1f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_SystemDevices class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

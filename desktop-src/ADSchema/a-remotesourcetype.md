@@ -1,9 +1,6 @@
 ---
 title: Remote-Source-Type attribute
 description: Type of pointer to foreign object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9d0c2624-4f46-4155-83f5-0c163d03a257
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Remote-Source-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

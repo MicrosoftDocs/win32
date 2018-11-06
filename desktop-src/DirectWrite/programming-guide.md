@@ -6,7 +6,6 @@ keywords:
 - DirectWrite,about
 - DirectWrite,programming guide
 - programming guide for DirectWrite
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

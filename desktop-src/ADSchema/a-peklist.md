@@ -1,9 +1,6 @@
 ---
 title: Pek-List attribute
 description: List of password encryption keys.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f214def2-5d16-4e04-b243-e5195dc7316f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Pek-List
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

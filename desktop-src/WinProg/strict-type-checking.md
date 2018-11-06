@@ -4,7 +4,6 @@ description: The Windows.h header file contains definitions, macros, and structu
 ms.assetid: 29f4d1fb-7be1-4ec6-ae2d-edafcfbd7698
 keywords:
 - STRICT
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

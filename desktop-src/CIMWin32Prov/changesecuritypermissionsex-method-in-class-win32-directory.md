@@ -1,14 +1,8 @@
 ---
 Description: Changes the security permissions for the directory entry file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 787e48af-7cb4-4d0b-a2f1-ffa696466ef2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the Win32_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

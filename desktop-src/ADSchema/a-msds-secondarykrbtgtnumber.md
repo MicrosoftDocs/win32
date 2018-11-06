@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Secondary-KrbTgt-Number attribute
 description: Identifies the protocol identification number associated with the secondary domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cc520ff6-b44e-48bd-a258-54f22a580be0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Secondary-KrbTgt-Number
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

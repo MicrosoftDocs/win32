@@ -2,7 +2,6 @@
 Description: Represents the event type class for object type events related to the beginning and end of data collection.
 ms.assetid: 16b21f61-e734-4f51-9b11-e507b5957107
 title: ObTypeEvent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: MS-DS-Replicates-NC-Reason attribute
 description: Attribute of ntdsConnection object that indicates why (or whether) the KCC shows the connection is useful in the replication topology. Is multiple-valued and has DistName+Binary syntax, where the binary part is an int-size bitfield.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ba66e346-d288-4c0b-b41e-599c3f8e8405
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-DS-Replicates-NC-Reason
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

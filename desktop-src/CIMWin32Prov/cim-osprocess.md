@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_OSProcess class associates the operating system and one or more processes running in the context of the operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 59d52b29-9d97-464f-bbbc-4191305df8c7
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_OSProcess class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_OSProcess** class associates the operating system and one or more processes running in the context of the operating system.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

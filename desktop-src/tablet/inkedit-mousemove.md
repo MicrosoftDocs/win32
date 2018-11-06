@@ -2,7 +2,6 @@
 Description: Occurs when the user moves the mouse while the mouse is over the InkEdit control.
 ms.assetid: 6ccaf2eb-acec-4dfd-9ec7-c78aca043900
 title: InkEdit.MouseMove event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

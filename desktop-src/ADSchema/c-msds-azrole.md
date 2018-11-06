@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Role class
 description: Defines a set of operations that can be performed by a particular set of users within a particular scope.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1cf0c229-8e5f-4c3b-9284-50be088ecdc3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Role
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

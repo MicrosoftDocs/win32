@@ -15,7 +15,6 @@ keywords:
 - Microsoft Secure Audio Path (SAP),music signal viewing or modifying
 - Secure Audio Path (SAP),music signal viewing or modifying
 - SAP (Secure Audio Path),music signal viewing or modifying
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

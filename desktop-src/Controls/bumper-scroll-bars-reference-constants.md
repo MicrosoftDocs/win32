@@ -2,7 +2,6 @@
 title: Scroll Bar Constants
 description: .
 ms.assetid: a0c6cbfc-b898-4451-860e-25dc6c8138fb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

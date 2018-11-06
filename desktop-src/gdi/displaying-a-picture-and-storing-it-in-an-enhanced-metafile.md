@@ -2,7 +2,6 @@
 Description: This section contains an example demonstrating the creation of a picture and the process of storing the corresponding records in a metafile.
 ms.assetid: 8be95fef-93dc-4c9c-a0d3-840918c00e43
 title: Displaying a Picture and Storing It in an Enhanced Metafile
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

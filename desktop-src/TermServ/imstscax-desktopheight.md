@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx DesktopHeight property
 description: Specifies the current control's height, in pixels, on the initial remote desktop.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7071053b-bdd1-408b-ab69-965c504fafb0
 ms.tgt_platform: multiple
 keywords:
@@ -65,7 +62,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

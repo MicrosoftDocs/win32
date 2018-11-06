@@ -2,7 +2,6 @@
 Description: The get\_FrameRate method retrieves the frame rate of the current stream. The stream must be a video stream.
 ms.assetid: f128d118-1147-4a0a-946e-bd1716606cef
 title: IMediaDet::get_FrameRate method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

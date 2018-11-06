@@ -2,7 +2,6 @@
 title: How to Display Tooltips for Buttons
 description: When you specify the TBSTYLE\_TOOLTIPS style, the toolbar creates and manages a tooltip control. The tooltip control is hidden and appears only when users move the pointer over a toolbar button and leave it there for approximately one second.
 ms.assetid: 0383DB63-A10E-4235-A974-AB21551E086B
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

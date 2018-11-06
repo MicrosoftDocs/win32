@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings6 AuthenticationServiceClass property
 description: Specifies the service principal name (SPN) to use for authentication to the server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 65d10b1f-295a-44b8-a790-306ae4e3e5e2
 ms.tgt_platform: multiple
 keywords:
@@ -30,7 +27,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

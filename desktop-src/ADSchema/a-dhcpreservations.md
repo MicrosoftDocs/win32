@@ -1,9 +1,6 @@
 ---
 title: dhcp-Reservations attribute
 description: The dhcp-Reservations attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6499cefe-9956-400b-bb74-905830c5efc1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - dhcp-Reservations
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

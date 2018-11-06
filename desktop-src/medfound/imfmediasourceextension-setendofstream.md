@@ -2,7 +2,6 @@
 Description: Indicate that the end of the media stream has been reached.
 ms.assetid: 6d6bffcc-aa3c-4825-9268-00dcd2a347e6
 title: IMFMediaSourceExtension::SetEndOfStream method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

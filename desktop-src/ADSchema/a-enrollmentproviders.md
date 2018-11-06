@@ -1,9 +1,6 @@
 ---
 title: Enrollment-Providers attribute
 description: PKI - Certificate Templates.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7bfbd69c-7e8e-44b4-96c8-6ffa71d33ff4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Enrollment-Providers
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

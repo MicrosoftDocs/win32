@@ -2,7 +2,6 @@
 title: sampleinfo (sm4.1 - asm)
 description: Queries the number of samples in a given shader resource view or in the rasterizer.
 ms.assetid: 1F0968D7-01E9-4213-9F83-172B88374C3C
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

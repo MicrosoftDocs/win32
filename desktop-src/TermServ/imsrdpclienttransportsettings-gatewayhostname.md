@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings GatewayHostname property
 description: Specifies the host name of the Remote Desktop Gateway (RD Gateway) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 34c4b3b7-3768-4d98-b1e8-7fcb8f9c758d
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

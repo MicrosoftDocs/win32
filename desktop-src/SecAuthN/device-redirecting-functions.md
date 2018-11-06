@@ -2,7 +2,6 @@
 Description: The device-redirecting functions redirect standard MS-DOS devices, drive letters and LPT ports. This enables applications running on the system to use the devices and access the network in a totally transparent manner.
 ms.assetid: a61ab1e6-dad9-4dc0-a908-f8440619f610
 title: Device-Redirecting Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

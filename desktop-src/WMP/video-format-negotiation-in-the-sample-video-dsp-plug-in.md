@@ -8,7 +8,6 @@ keywords:
 - digital signal processing plug-ins,video format negotiation
 - DSP plug-ins,video format negotiation
 - video DSP plug-ins,format negotiation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

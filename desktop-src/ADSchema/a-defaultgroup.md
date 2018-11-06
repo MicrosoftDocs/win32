@@ -1,9 +1,6 @@
 ---
 title: Default-Group attribute
 description: The group to which this object is assigned when it is created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 47fc8548-377b-4299-9c12-8f41e350eec9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Default-Group
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

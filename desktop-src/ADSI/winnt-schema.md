@@ -1,14 +1,10 @@
 ---
 title: WinNT Schema
 description: The WinNT schema defines the set of ADSI objects and their class hierarchy for a Windows NT 4.0 network.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: cf96c95e-a43e-43c1-8fcd-387ecbe07dcc
 ms.tgt_platform: multiple
 keywords:
 - WinNT service provider ADSI ,schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

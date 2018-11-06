@@ -2,7 +2,6 @@
 title: Accessing Opaque Pointers
 description: Clients are able to access the information stored in destinations by using opaque pointers.
 ms.assetid: 1f6af84f-c6c9-4091-8e6b-2c773541ca97
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Developer's Guide for Active Accessibility Clients
 description: Developer's Guide for Active Accessibility Clients
 ms.assetid: 0a17cc30-2340-47b1-97ba-79c1de48d359
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

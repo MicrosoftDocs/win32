@@ -1,9 +1,6 @@
 ---
 title: MSAD_ReplNeighbor class
 description: Represents the DS\_REPL\_NEIGHBOR structure, which contains the inbound replication state information for a particular naming context (NC) and source server pair.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fdd3934b-a3f6-49ad-827b-077bcd21cf23
 ms.tgt_platform: multiple
 keywords:
@@ -49,7 +46,6 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

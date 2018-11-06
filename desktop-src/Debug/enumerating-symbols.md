@@ -2,7 +2,6 @@
 Description: The following code displays the name, address, and size of each loaded symbol in the specified module.
 ms.assetid: 6ecdbd1e-406a-453e-9037-707ceb72074a
 title: Enumerating Symbols
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

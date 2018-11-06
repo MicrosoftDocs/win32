@@ -1,9 +1,6 @@
 ---
 title: NTFRS-Replica-Set class
 description: The definition of a replica set for the FRS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f9101e1b-13f0-4304-add8-4d33aab3390b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTFRS-Replica-Set
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: This section contains information about the core functions.
 ms.assetid: 3acbd433-c28d-4630-aa0e-25f2fb5c32d0
 keywords:
 - functions, Direct3D 11 Core
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

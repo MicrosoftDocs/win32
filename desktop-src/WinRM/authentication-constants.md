@@ -1,9 +1,6 @@
 ---
 title: Authentication Constants
 description: Specify the authentication method and how to handle certificate servers for HTTPS transport of requests.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: adfefbc9-c386-48db-a0c2-145aa4f91bfa
 ms.tgt_platform: multiple
 topic_type:
@@ -27,7 +24,6 @@ api_location:
 - WSManDisp.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

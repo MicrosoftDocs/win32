@@ -2,7 +2,6 @@
 Description: The CursorType property sets or retrieves the current cursor type.
 ms.assetid: f362e790-a7c7-4fb6-86f3-7cd25f78fe0e
 title: CursorType Property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

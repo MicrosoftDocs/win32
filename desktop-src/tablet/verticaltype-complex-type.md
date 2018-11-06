@@ -2,7 +2,6 @@
 Description: Defines the type that contains details about the vertical lines used in a Journal note's stationery.
 ms.assetid: 8bf4cefe-5a15-46a2-abd7-ee9a7cab642e
 title: VerticalType Complex Type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

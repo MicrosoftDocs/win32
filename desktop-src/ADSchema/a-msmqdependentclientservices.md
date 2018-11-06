@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Dependent-Client-Services attribute
 description: Indicates whether the MSMQ installed on this computer provides MSMQ dependent client services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6f16db7f-f328-4fe2-9ecc-b40c1c845064
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Dependent-Client-Services
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

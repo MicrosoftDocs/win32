@@ -1,12 +1,8 @@
 ---
 title: RemoteApp and Desktop Connection Management Service Structures
 description: The RemoteApp and Desktop Connection Management Service API provides the following structures.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4295bd3c-0fc9-4135-b9cc-cafbc8381797
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

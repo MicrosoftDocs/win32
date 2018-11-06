@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 27408582-9c39-4d39-8314-a495d1c7766d
 title: PageColorManagement
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

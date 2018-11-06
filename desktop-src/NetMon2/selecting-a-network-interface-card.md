@@ -2,7 +2,6 @@
 Description: Network Monitor provides three functions for selecting a network interface card (NIC). These functions provide three ways to enumerate a set of NICs and select the one you want to use. The following table lists these functions.
 ms.assetid: fbf319bb-4e24-46e3-81bc-d407b26220fb
 title: Selecting a Network Interface Card
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Windows components installed on demand
 description: Windows components installed on demand
 ms.assetid: 14865DD7-167C-462C-B85A-BD07C929D7B8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

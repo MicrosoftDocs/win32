@@ -2,7 +2,6 @@
 title: Implementing Reference Counting
 description: Implementing Reference Counting
 ms.assetid: d4fd98c9-afa4-4c5c-a3c9-44d34881cbdb
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

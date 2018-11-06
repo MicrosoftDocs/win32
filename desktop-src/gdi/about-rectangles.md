@@ -2,7 +2,6 @@
 Description: Rectangles are used for the cursor clipping region, the invalid portion of the client area, an area for displaying formatted text, or the scroll area.
 ms.assetid: d40d3b24-13be-459b-a020-00121bb5f0c7
 title: About Rectangles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This table describes initialization error codes and values.
 ms.assetid: 5cce27ff-1143-4fe6-b4bd-727581431c07
 title: Initialization Errors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

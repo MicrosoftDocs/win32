@@ -2,7 +2,6 @@
 Description: Device control at the end-user or server application level requires a relatively small set of basic information.
 ms.assetid: 9c787656-93ef-4e0b-9516-8822ae49a83a
 title: Device Control
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

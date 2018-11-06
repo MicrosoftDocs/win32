@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: db0a3f78-ddb9-43b5-aab5-da2faaebb527
 title: CTransInPlaceInputPin.CTransInPlaceInputPin constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

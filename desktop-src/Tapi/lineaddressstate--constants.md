@@ -2,7 +2,6 @@
 Description: The LINEADDRESSSTATE\_ bit-flag constants describe various address status items.
 ms.assetid: f06140d0-f41a-4228-93c5-21d609af5473
 title: LINEADDRESSSTATE_ Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

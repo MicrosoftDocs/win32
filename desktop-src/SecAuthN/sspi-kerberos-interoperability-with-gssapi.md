@@ -2,7 +2,6 @@
 Description: Care must be taken when using the Kerberos security support provider (SSP) if interoperability with GSSAPI is a requirement.
 ms.assetid: 3ab29ee9-42d8-498b-b507-13f8efa0b0e2
 title: SSPI/Kerberos Interoperability with GSSAPI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

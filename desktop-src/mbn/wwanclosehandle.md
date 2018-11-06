@@ -2,7 +2,6 @@
 Description: The WwanCloseHandle function closes a handle to the mobile broadband service.
 ms.assetid: 671F7A5F-B67B-4C5A-8422-AC07D7F3F555
 title: WwanCloseHandle function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Attribute-Syntax attribute
 description: The OID for the syntax for this attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7ae16381-c8e9-4f85-b3e6-86c82b487ca2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Attribute-Syntax
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

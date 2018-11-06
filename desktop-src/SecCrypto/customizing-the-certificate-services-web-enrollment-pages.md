@@ -2,7 +2,6 @@
 Description: Certificate Services provides web enrollment pages that can be used to request certificates.
 ms.assetid: 1e198bc8-c712-4d0f-9e3a-35a295445acf
 title: Customizing the Certificate Services Web Enrollment Pages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

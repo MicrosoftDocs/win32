@@ -2,7 +2,6 @@
 title: DNS WMI Provider Samples—Managing a DNS Server
 description: DNS WMI Provider Samples—Managing a DNS Server
 ms.assetid: 7846fbaf-cc15-4cd0-aa3f-796617380bb6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

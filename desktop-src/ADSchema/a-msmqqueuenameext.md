@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Queue-Name-Ext attribute
 description: Contains the suffix of the queue name (if there is one).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 24194fef-410b-437f-9bef-edb0b2be2e24
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Queue-Name-Ext
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

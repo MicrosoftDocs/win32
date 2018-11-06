@@ -1,9 +1,6 @@
 ---
 title: Managed-Objects attribute
 description: Contains the list of objects that are managed by the user. The objects listed are those that have the property managedBy property set to this user. Each item in the list is a linked reference to the managed object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 59b76431-03a5-4839-8800-ef03d26b66cc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Managed-Objects
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Dynamic Data Exchange Overviews
 description: .
 ms.assetid: 1c7cecc5-01f3-4c96-accf-1940d732da01
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

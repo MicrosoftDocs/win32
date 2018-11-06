@@ -1,14 +1,8 @@
 ---
 Description: Compresses the logical directory entry file (or directory) specified in the object path (this method is an extended version of the Compress method).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6b6e559c-4ca6-49d4-b255-5e1511fdf2e2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_Directory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

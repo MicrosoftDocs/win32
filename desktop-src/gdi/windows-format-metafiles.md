@@ -2,7 +2,6 @@
 Description: Microsoft Windows-format metafiles are limited in their capabilities and should rarely be used.
 ms.assetid: ebbf871b-cf78-4a90-8f27-e44699c17178
 title: Windows-Format Metafiles
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

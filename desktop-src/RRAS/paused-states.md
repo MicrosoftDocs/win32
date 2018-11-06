@@ -2,7 +2,6 @@
 title: Paused States
 description: During a connection operation, there can be times when the remote server cannot proceed without additional information from the local user.
 ms.assetid: a1a36b2a-33df-4cba-85a6-f4225779cd63
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

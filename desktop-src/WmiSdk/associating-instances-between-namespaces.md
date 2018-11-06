@@ -1,12 +1,8 @@
 ---
 Description: An association view class allows you to use ASSOCIATORS OF queries on classes that reside in different namespaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 4af4fe1b-2b19-472e-8261-798b374ae57e
 ms.tgt_platform: multiple
 title: Associating Instances Between Namespaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

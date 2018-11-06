@@ -1,12 +1,8 @@
 ---
 title: Object Class and Object Category
 description: Each instance of an object class has a multi-valued objectClass property that identifies the class of which the object is an instance, as well as all structural or abstract superclasses from which that class is derived.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b3c5f9ee-98e0-42dd-9b61-3731e14b9cd4
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -19,7 +15,7 @@ Each instance of an object class also has an [**objectCategory**](https://msdn.m
 
 For more information, and a code example that retrieves an object's [**objectClass**](https://msdn.microsoft.com/library/ms679012) property, see [Retrieving the objectClass Attribute](retrieving-the-objectclass-property.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Prior to Windows Server 2008, the [**objectClass**](https://msdn.microsoft.com/library/ms679012) attribute is not indexed. This is because it has multiple values and is highly non-unique; that is, every instance of the **objectClass** attribute includes the [**top**](https://msdn.microsoft.com/library/ms683975) class. This means an index would be very large and ineffective. To locate objects of a given class, use the [**objectCategory**](https://msdn.microsoft.com/library/ms679011) attribute, which is single-valued and indexed. For more information about using these properties in search filters, see [Deciding What to Find](deciding-what-to-find.md).
 
  

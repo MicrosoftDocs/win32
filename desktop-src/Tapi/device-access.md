@@ -2,7 +2,6 @@
 Description: The primary reference for device operations and information is in the main overview for this SDK, under Device Control.
 ms.assetid: e096f4fb-bf9f-4099-af01-0dd3ba257a98
 title: Device Access
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

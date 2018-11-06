@@ -2,7 +2,6 @@
 title: Shader Specified Stencil Reference Value
 description: Enabling pixel shaders to output the Stencil Reference Value, rather than using the API-specified one, enables a very fine granular control over stencil operations.
 ms.assetid: F58B1930-F12E-4FA4-A15C-A3C2B8705033
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Description attribute
 description: The description of the SQL Server database.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 30daa51a-078f-44ae-8c67-19c26a8a2e85
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Description
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

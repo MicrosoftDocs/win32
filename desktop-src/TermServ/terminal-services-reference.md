@@ -1,14 +1,10 @@
 ---
 title: Remote Desktop Services reference
 description: Documentation of property methods that you can use to examine and configure Remote Desktop Services user properties. Remote Desktop Services functions, structures, and Remote Desktop Web Connection scriptable interfaces are also documented.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9436857f-8243-42a6-b72e-50f5ccca2716
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

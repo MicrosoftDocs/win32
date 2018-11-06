@@ -1,15 +1,11 @@
 ---
 title: Container Browser
 description: An application can use the DsBrowseForContainer function to display a dialog box that can be used to browse through the containers in an Active Directory Domain Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aa88d565-ff25-4082-964a-9a230d2607f2
 ms.tgt_platform: multiple
 keywords:
 - Container Browser AD
 - containers AD , browser
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

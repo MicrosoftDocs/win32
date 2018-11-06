@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnServiceMessageReceived method
 description: Called when the client receives a system message.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9D230AA3-30F8-4BDF-89D6-D33AF42D0E85
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

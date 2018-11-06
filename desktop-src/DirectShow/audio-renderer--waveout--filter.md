@@ -2,7 +2,6 @@
 Description: Audio Renderer (WaveOut) Filter
 ms.assetid: a3f2776b-974b-4886-82a3-38e00b607a07
 title: Audio Renderer (WaveOut) Filter
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

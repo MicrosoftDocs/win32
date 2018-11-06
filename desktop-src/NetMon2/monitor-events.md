@@ -2,7 +2,6 @@
 Description: Monitors are designed to use Windows Management Instrumentation (WMI) to fire events to local or remote computers.
 ms.assetid: b20746dd-d8d9-49b6-95b7-5151ee02901d
 title: Monitor Events
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

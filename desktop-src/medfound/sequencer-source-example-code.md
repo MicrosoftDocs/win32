@@ -2,7 +2,6 @@
 Description: This topic shows example code for using the Sequencer Source in Microsoft Media Foundation.
 ms.assetid: 6f39a297-33a9-414a-9d41-47aec54eaa6b
 title: Sequencer Source Example Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -13,7 +13,6 @@ keywords:
 - custom visualizations,state variable
 - visualizations,timeStamp variable
 - custom visualizations,timeStamp variable
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

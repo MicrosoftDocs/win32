@@ -1,14 +1,10 @@
 ---
 title: Retrieving Large Results Sets
 description: When there is the possibility that the result set that will be returned will contain more than 1000 items, you must use a paged search.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1439d6b8-50dd-4d37-bcc9-dd0f63af865f
 ms.tgt_platform: multiple
 keywords:
 - Retrieving Large Results Sets ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

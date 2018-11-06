@@ -2,7 +2,6 @@
 title: SystemMonitor Properties
 description: The SystemMonitor class has the following properties
 ms.assetid: 37f8179a-50f8-481c-ae5e-d4081387eea0
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The following example shows the steps to obtain a CERT\_CONTEXT structure that contains a certificate; you should select a certificate and certificate store that are appropriate for your application.
 ms.assetid: 31d7a8bd-729f-4db7-8e22-25d14296c0c4
 title: Getting a Certificate for Schannel
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

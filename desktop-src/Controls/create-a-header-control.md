@@ -2,7 +2,6 @@
 title: How to Create a Header Control
 description: This topic demonstrates how to create a header control and position it within the parent window's client area.
 ms.assetid: 094AF70C-2761-439E-A1E3-0FD04212FE87
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

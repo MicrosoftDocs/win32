@@ -1,9 +1,6 @@
 ---
 title: NTFRS-Settings class
 description: Specific settings for FRS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eace9d90-4007-40e2-aff5-fb5dea389be0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - NTFRS-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

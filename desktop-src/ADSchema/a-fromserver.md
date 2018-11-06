@@ -1,9 +1,6 @@
 ---
 title: From-Server attribute
 description: The distinguished name of the replication source server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c4ff05fe-21a7-4b59-90f8-f3bd723285fa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - From-Server
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

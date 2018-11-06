@@ -2,7 +2,6 @@
 Description: Builds a customized, left-handed perspective projection matrix.
 ms.assetid: de2732dd-a4f2-47bc-9509-de16f1ca85c2
 title: D3DXMatrixPerspectiveOffCenterLH function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

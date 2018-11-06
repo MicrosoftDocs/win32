@@ -1,9 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnDialogDismissed method
 description: Called after a dialog box displayed by the client control is dismissed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 77238519-7E8E-41C4-8689-3F23B9072036
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

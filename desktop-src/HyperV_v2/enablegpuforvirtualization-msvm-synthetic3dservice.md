@@ -2,7 +2,6 @@
 Description: Enables a physical GPU for virtualization.
 ms.assetid: 700cb46b-97f1-40cf-88d2-64242f4bd2c6
 title: EnableGPUForVirtualization method of the Msvm_Synthetic3DService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

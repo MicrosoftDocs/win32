@@ -1,9 +1,6 @@
 ---
 title: PKT-Guid attribute
 description: Unique ID of a given Distributed File System Partition Knowledge Table.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 13ac3198-1ea1-4d07-8d7d-b8ed54665eaa
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKT-Guid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

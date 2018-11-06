@@ -1,9 +1,6 @@
 ---
 title: GetSMBPath method of the Win32_RDMSDeploymentSettings class
 description: Retrieves the UNC path to the SMB share to which virtual machines of the virtual desktop collection are deployed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0a5d3c11-6a77-48f7-a3ea-6f82725ff01f
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

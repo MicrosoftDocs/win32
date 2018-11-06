@@ -19,7 +19,6 @@ keywords:
 - DirectShow,WM ASF Writer
 - DirectShow,QASF
 - WM ASF Writer,configuring
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

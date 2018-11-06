@@ -1,14 +1,10 @@
 ---
 title: Active Directory Service Interfaces Objects
 description: The ADSI object model consists of COM objects. Clients manipulate objects with interfaces. ADSI providers implement the objects and their interfaces.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3c9fd08e-47d6-4b71-8259-7c831d7d95c9
 ms.tgt_platform: multiple
 keywords:
 - objects ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

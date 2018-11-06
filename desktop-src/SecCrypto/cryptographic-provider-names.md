@@ -2,7 +2,6 @@
 Description: Used with the CryptAcquireContext and CryptSetProvider functions.
 ms.assetid: 97e9a708-83b5-48b3-9d16-f7b54367dc4e
 title: Cryptographic Provider Names
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

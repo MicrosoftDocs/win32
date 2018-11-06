@@ -1,10 +1,8 @@
 ---
 title: Adding an Event Source to a Collector Initiated Subscription
 description: To receive a forwarded event from an event subscription, you can create a collector-initiated subscription on the local computer.
-audience: developer
 ms.assetid: f0100938-1702-4ef7-b20e-a0e8df224d18
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

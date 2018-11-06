@@ -2,7 +2,6 @@
 Description: Create an effect pool from an effect in memory.
 ms.assetid: 634bcb23-a73f-4493-b805-e2aa5420fa2a
 title: D3DX10CreateEffectPoolFromMemory function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

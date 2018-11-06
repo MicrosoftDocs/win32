@@ -2,7 +2,6 @@
 Description: This topic describes high-level network interface concepts on Windows, including the ways they can be identified in code and their properties. 
 ms.assetid: CB01B5ED-C9DB-410B-8C98-E30D9A680847
 title: Networking and Internet
-ms.author: windowsdriverdev
 ms.topic: article
 ms.date: 06/29/2018
 ---

@@ -25,7 +25,6 @@ keywords:
 - vector graphics,sizing shapes
 - VML shapes,sizing
 - sizing shapes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

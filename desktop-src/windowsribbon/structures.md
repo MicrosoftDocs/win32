@@ -2,7 +2,6 @@
 title: Structures
 description: The topics in this section provide the reference specifications for Windows Ribbon Framework structures.
 ms.assetid: 8A109C67-BF05-4BA4-8F12-473F2C773B90
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

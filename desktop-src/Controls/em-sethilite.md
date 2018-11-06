@@ -4,7 +4,6 @@ description: Not implemented.
 ms.assetid: 2fc09984-a88c-479d-a220-a461e550013e
 keywords:
 - EM_SETHILITE message Windows Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

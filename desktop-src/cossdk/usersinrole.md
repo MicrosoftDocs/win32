@@ -2,7 +2,6 @@
 Description: Contains an object for each user in the role to which the collection is related.
 ms.assetid: e7d9e5e8-1927-42b2-bdd5-0c49a562c31f
 title: UsersInRole collection
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

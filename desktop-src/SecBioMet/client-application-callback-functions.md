@@ -2,7 +2,6 @@
 title: Client Application Callback Functions
 description: Two types of callback signatures.
 ms.assetid: 5569BFF3-9EEC-42E6-8F63-0C569C68FA74
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

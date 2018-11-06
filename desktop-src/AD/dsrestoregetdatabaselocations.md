@@ -1,9 +1,6 @@
 ---
 title: DsRestoreGetDatabaseLocations function
 description: Obtains the locations where backup files should be copied during a restore operation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f91d701c-72cf-418a-8d1c-6bf6ef41c2c1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Loads the given matrix into the current matrix.
 ms.assetid: b898f344-db90-48e0-b457-0eb8d7b31dca
 title: ID3DXMATRIXStack::LoadMatrix method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

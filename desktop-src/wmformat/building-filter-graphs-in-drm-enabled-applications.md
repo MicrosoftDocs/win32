@@ -18,7 +18,6 @@ keywords:
 - DRM (digital rights management),DirectShow
 - digital rights management (DRM),building filter graphs
 - DRM (digital rights management),building filter graphs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

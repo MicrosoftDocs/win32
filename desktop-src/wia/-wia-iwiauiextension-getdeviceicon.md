@@ -2,7 +2,6 @@
 Description: Gets a custom device icon.
 ms.assetid: 27763f39-80d8-4862-b045-e49c6e824c28
 title: IWiaUIExtension::GetDeviceIcon method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

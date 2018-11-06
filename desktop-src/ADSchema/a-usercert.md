@@ -1,9 +1,6 @@
 ---
 title: User-Cert attribute
 description: Nortel v1 or DMS certificates.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f0aa19ad-0599-4e38-b49b-0a24241f1a23
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - User-Cert
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: LSA-Modified-Count attribute
 description: The LSA-Modified-Count attribute is used to support replication to Windows NT 4.0 domains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6af5931c-5d4f-4061-81a1-e8947d760abc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - LSA-Modified-Count
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

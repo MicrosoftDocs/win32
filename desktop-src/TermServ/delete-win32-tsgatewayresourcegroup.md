@@ -1,9 +1,6 @@
 ---
 title: Delete method of the Win32_TSGatewayResourceGroup class
 description: Deletes the resource group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 669a24b1-4828-498d-b249-7e9725d9bf72
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

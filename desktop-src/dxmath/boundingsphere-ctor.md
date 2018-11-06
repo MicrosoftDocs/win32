@@ -2,7 +2,6 @@
 Description: Creates an instance of the BoundingSphere class.
 ms.assetid: c733c15d-034f-4c95-bd10-f5757fc4e813
 title: DirectX.BoundingSphere constructors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

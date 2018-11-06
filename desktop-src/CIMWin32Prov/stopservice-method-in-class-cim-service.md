@@ -1,14 +1,8 @@
 ---
 Description: Stops the service represented by the object derived from CIM\_Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f9eedde7-8d71-40a2-b1e9-7ba97e634f64
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: StopService method of the CIM_Service class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -26,7 +20,7 @@ api_location:
 
 The **StopService** method stops the service represented by the object derived from [**CIM\_Service**](cim-service.md).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

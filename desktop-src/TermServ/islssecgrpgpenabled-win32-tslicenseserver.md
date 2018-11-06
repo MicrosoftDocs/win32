@@ -1,9 +1,6 @@
 ---
 title: IsLSSecGrpGPEnabled method of the Win32_TSLicenseServer class
 description: Retrieves whether the \ 0034;license server security group \ 0034; group policy setting is enabled on the Remote Desktop license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 715b619b-f082-4fed-ac4c-70d5e286e37c
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

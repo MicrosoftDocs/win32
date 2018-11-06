@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx DisconnectedText property
 description: Specifies the text that appears centered in the control before a connection is terminated.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ec7efe7a-8fb9-4c45-8e16-78951365de13
 ms.tgt_platform: multiple
 keywords:
@@ -65,7 +62,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

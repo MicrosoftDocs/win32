@@ -1,9 +1,6 @@
 ---
 title: Range-Upper attribute
 description: The maximum value or length of an attribute.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0f3951e4-62a5-4d6d-84ac-5e7902df0bcf
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Range-Upper
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,10 @@
 ---
 title: Class Icons
 description: The icon used to represent a class object can be specified in the iconPath attribute in the DisplaySpecifiers container.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0ff8da8a-d3d3-4a15-8103-4fe6ec307427
 ms.tgt_platform: multiple
 keywords:
 - class display names AD ,icons
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

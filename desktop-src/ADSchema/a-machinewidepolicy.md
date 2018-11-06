@@ -1,9 +1,6 @@
 ---
 title: Machine-Wide-Policy attribute
 description: Used to replicate the user-extensible policy to the clients.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e8ce40b8-7658-4e4b-b0e1-b68031811dd1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Machine-Wide-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ITsSbTarget TargetName property
 description: Specifies or retrieves the name of the target.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ba5c3158-b4bc-457f-94ea-adb2e0852129
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

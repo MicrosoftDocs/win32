@@ -1,7 +1,6 @@
 ---
 Description: Used to determine whether to show the Share this folder option in web view.
 title: CanShareFolderW function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

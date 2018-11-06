@@ -2,7 +2,6 @@
 Description: About the Filter Graph Manager
 ms.assetid: a227539a-7f9a-4f8d-99fe-f9ab67df9ef4
 title: About the Filter Graph Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

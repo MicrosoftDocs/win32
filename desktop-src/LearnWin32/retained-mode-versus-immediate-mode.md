@@ -2,7 +2,6 @@
 title: Retained Mode Versus Immediate Mode
 description: Graphics APIs can be divided into retained-mode APIs and immediate-mode APIs.
 ms.assetid: 0a98e8ee-4bc1-490c-867e-42bceae8a1f8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This method returns a device associated with the video data.
 ms.assetid: 9A61159B-C383-4770-AD8F-9F69F720E3E2
 title: IVideoFrameNative::GetDevice method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

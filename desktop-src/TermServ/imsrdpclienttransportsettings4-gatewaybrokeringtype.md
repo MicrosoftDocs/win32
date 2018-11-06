@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings4 GatewayBrokeringType property
 description: Gets and sets the gateway brokering type.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: be98538e-e875-48cd-9c8b-5e588f5e1c46
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

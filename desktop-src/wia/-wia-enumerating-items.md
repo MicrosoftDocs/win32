@@ -2,7 +2,6 @@
 Description: When a device is created, Windows Image Acquisition (WIA) creates a hierarchical tree of WIA items that represent the device and the folders and images associated with that device.
 ms.assetid: ab7246e8-47bb-4b94-8d91-1c22010ebd9f
 title: Enumerating Items
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

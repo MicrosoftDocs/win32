@@ -1,9 +1,6 @@
 ---
 title: IMsTscAx ConnectingText property
 description: Specifies the text that appears centered in the control while the control is connecting.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9bc82074-988f-491b-80e3-00c3f7ba437a
 ms.tgt_platform: multiple
 keywords:
@@ -65,7 +62,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

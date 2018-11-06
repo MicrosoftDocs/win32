@@ -2,7 +2,6 @@
 Description: Ends the lifespan of the ppData pointer returned by ID3DXFileData::Lock.
 ms.assetid: 6032ea1f-3c73-4157-ba3f-41ce9e73d64c
 title: ID3DXFileData::Unlock method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

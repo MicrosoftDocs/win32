@@ -2,7 +2,6 @@
 Description: Retrieves the HTTP response headers.
 ms.assetid: 3d59ee83-280c-4074-82e1-ded203fa1049
 title: IWinHttpRequest::GetResponseHeader method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

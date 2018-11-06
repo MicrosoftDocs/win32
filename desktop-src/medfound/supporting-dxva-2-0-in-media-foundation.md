@@ -2,7 +2,6 @@
 Description: Supporting DXVA 2.0 in Media Foundation
 ms.assetid: d7330370-adb3-4c6a-962a-7b46c344500c
 title: Supporting DXVA 2.0 in Media Foundation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -13,7 +12,7 @@ This topic describes how to support DirectX Video Acceleration (DXVA) 2.0 in a M
 
 In the remainder of this topic, the term *decoder* refers to the decoder MFT, which receives compressed video and outputs uncompressed video. The term *decoder device* refers to a hardware video accelerator implemented by the graphics driver.
 
-> \[!Tip\]  
+> [!TIP]
 > For info on Microsoft Direct3D 11 video decoding see, [Supporting Direct3D 11 Video Decoding in Media Foundation](supporting-direct3d-11-video-decoding-in-media-foundation.md).
 
  

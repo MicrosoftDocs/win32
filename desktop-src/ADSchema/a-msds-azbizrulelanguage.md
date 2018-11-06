@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Biz-Rule-Language attribute
 description: The language that the business rule script is in (JScript, VBScript).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 980f4715-b905-41aa-8274-de320be4a5a7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Biz-Rule-Language
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Frequency Tables
 ms.assetid: 58a680ea-1f88-4900-8820-c30a2f3e3901
 title: Frequency Tables
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 Description: A property provider uses the IWbemPropertyProvider methods as the primary interface to WMI. With IWbemPropertyProvider, you can implement the code to retrieve and modify class and instance properties.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d08c2ca4-9f8a-4a27-80fc-688d7c56f5eb
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for a Property Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

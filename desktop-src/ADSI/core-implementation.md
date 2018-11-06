@@ -1,14 +1,10 @@
 ---
 title: Core Implementation
 description: An ADSI provider supports the following features
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 39798237-a181-43b4-8441-ac711f923d4d
 ms.tgt_platform: multiple
 keywords:
 - core implementation ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

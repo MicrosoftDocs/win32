@@ -1,9 +1,6 @@
 ---
 title: X509-Cert attribute
 description: Contains the DER-encoded X.509v3 certificates issued to the user. Note that this property contains the public key certificates issued to this user by Microsoft Certificate Service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: bdd6b9a4-c402-462c-be2c-8e7e582a899a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - X509-Cert
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

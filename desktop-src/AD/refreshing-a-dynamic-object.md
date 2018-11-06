@@ -1,12 +1,8 @@
 ---
 title: Refreshing a Dynamic Object
 description: A client can refresh the Time To Live (TTL) of a given directory entry to keep it alive in one of two ways Performing an LDAP update to the value of its entryTTL attribute before the entry is garbage collected.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5f51013c-b278-4ef7-a235-b238eed79a35
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

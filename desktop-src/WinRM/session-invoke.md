@@ -1,9 +1,6 @@
 ---
 title: Session.Invoke method
 description: Invokes a method and returns the results of the method call.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c83d0631-2efb-47d9-abcf-ab0c8de06c36
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

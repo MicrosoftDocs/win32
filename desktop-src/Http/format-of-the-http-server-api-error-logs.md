@@ -4,7 +4,6 @@ description: In general, HTTP Server API error log files have the same format as
 ms.assetid: 436f898c-9063-4aee-b276-e6ab935e3606
 keywords:
 - HTTP Server API, error log format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

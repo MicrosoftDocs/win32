@@ -2,7 +2,6 @@
 title: IVMVirtualMachine Methods
 description: The IVMVirtualMachine interface exposes the following methods.
 ms.assetid: 7C80371E-22CC-41BC-A1E5-B550DAD5B8D9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

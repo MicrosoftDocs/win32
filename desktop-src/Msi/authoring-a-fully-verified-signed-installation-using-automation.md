@@ -2,7 +2,6 @@
 Description: The following sample demonstrates how to populate the MsiDigitalCertificate table and MsiDigitalSignature table by using a Visual Basic for Applications (VBA) subroutine.
 ms.assetid: 3a23a721-0672-4eac-bdf2-434282b92590
 title: Authoring a Fully Verified Signed Installation Using Automation
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

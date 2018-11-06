@@ -2,7 +2,6 @@
 Description: The SetRenderRange2 method sets the range of time on the timeline to be rendered. This method is equivalent to IRenderEngine::SetRenderRange, but takes values of type double.
 ms.assetid: 07df97a8-aa83-405d-91a0-45cd99185588
 title: IRenderEngine::SetRenderRange2 method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

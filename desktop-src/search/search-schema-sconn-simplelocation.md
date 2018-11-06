@@ -2,7 +2,6 @@
 Description: The <simpleLocation> element specifies the location for search connectors that are file-system based or protocol-handler based. This element has two child elements and no attributes.
 ms.assetid: 04ffc178-0a76-4870-a075-a2ecd31937a1
 title: simpleLocation Element (Search Connector Schema)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

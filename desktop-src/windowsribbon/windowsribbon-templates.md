@@ -10,7 +10,6 @@ keywords:
 - Windows Ribbon,custom templates
 - Ribbon,custom templates
 - customizing Windows Ribbon
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -62,7 +61,7 @@ While the input family of controls includes:
 
 The following is a list of the [**SizeDefinition**](windowsribbon-element-sizedefinition.md) templates with a description of the layout and controls allowed by each template.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If the controls declared in markup do not map exactly to control type, order, and quantity defined in the associated template, a [validation error](windowsribbon-compilationerrors.md) is logged by the [markup compiler](windowsribbon-intentcl.md) and compilation is terminated.
 
  
@@ -257,7 +256,7 @@ One [**FontControl**](windowsribbon-element-fontcontrol.md).
 
 Only Large and Medium group sizes are supported.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Including a [**FontControl**](windowsribbon-element-fontcontrol.md) within a custom template definition is not supported by the framework.
 
  

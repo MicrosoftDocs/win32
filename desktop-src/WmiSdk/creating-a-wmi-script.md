@@ -1,12 +1,8 @@
 ---
 Description: You can view or manipulate any information made available through WMI using scripts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 90e71e17-c2e7-42ad-a72e-2b475e6163fe
 ms.tgt_platform: multiple
 title: Creating a WMI Script
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

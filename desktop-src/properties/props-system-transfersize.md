@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: aa3ebe48-08e7-43d3-a25c-1a71d42267e9
 title: System.TransferSize
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

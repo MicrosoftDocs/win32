@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Operation-ID attribute
 description: An application specific ID that makes the operation unique to the application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0d0fc8ce-7044-481a-8df2-489e33264412
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Operation-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

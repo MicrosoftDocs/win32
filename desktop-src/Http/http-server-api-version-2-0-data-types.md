@@ -2,7 +2,6 @@
 title: HTTP Server API Version 2.0 Data Types
 description: HTTP Server API Version 2.0 Data Types
 ms.assetid: 13a0cac9-9e75-4350-a523-5ad9a57caad7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

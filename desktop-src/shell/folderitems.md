@@ -1,7 +1,6 @@
 ---
 Description: Represents the collection of items in a Shell folder. This object contains properties and methods that allow you to retrieve information about the collection.
 title: FolderItems object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 0658c808-f050-41f3-90b6-2a013b616b58
 title: PageForceFrontSide
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

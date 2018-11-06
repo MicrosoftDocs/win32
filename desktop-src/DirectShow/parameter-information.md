@@ -2,7 +2,6 @@
 Description: Parameter Information
 ms.assetid: 2600b200-f57a-46cd-8740-89b7f7aba540
 title: Parameter Information
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

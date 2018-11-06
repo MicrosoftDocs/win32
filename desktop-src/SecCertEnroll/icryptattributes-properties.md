@@ -2,7 +2,6 @@
 Description: The ICryptAttributes interface exposes the following properties.
 ms.assetid: 47D26C1C-535F-4100-BEEC-F7681F6D38BD
 title: ICryptAttributes Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

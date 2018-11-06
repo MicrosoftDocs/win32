@@ -4,7 +4,6 @@ description: Sets a background image from a resource file. The image is displaye
 ms.assetid: e40f3d45-69bf-402a-ac7c-9a3c431c6651
 keywords:
 - PSM_SETHEADERBITMAPRESOURCE message Windows Controls
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

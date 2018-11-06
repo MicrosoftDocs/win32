@@ -2,7 +2,6 @@
 title: Using MSMQ as an RPC Transport
 description: The RPC subsystem supports using MSMQ as a transport in synchronous and asynchronous modes.
 ms.assetid: c3f96a91-b7bb-4c2a-8699-2100324af165
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

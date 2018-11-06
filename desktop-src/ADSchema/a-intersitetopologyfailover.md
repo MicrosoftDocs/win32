@@ -1,9 +1,6 @@
 ---
 title: Inter-Site-Topology-Failover attribute
 description: Indicates how much time must transpire since the last keep-alive for the inter-site topology generator to be considered dead.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d351dbec-d5a3-46e1-87a9-0856d19e07c6
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Inter-Site-Topology-Failover
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

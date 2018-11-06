@@ -2,7 +2,6 @@
 Description: Pointer to a critical section object.
 ms.assetid: dc791bc4-857c-4a79-9aa8-3c5974c23483
 title: CSourceSeeking::m_pLock member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

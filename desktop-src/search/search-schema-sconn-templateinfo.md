@@ -2,7 +2,6 @@
 Description: This optional <templateInfo> element specifies a folder type for displaying the results from a query over this search connector. This element has no attributes and only one mandatory child.
 ms.assetid: fe42f589-5c47-4629-94eb-78dbaffa4112
 title: templateInfo Element (Search Connector Schema)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

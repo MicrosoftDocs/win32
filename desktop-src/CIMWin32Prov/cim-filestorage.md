@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_FileStorage association links the file system and the logical files addressed through the file system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1d0b698b-4c57-4a1c-8b00-0a6079be8dcc
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_FileStorage class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_FileStorage** association links the file system and the logical files addressed through the file system.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -1,9 +1,6 @@
 ---
 title: WM_DSA_SHEET_CREATE_NOTIFY message
 description: Posted to the Active Directory MMC snap-in to create a secondary property sheet.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 878878bf-fb78-4669-b282-1dd3349f35d5
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - WM_DSA_SHEET_CREATE_NOTIFY
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

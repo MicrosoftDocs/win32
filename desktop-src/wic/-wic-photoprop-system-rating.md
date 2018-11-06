@@ -2,7 +2,6 @@
 Description: The photo metadata policy for the System.Rating property.
 ms.assetid: e4d2c12e-617a-431e-9062-62acf6ef21c8
 title: System.Rating Photo Metadata Policy
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

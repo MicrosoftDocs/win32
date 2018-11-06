@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings7 VideoPlaybackMode property
 description: Specifies or retrieves a value that indicates the video playback mode.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 83f0baa3-3ac2-47ee-b106-5beaf60d73d2
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,12 +1,8 @@
 ---
 title: Example Code for Converting an objectSid into a Bindable String
 description: This topic contains a code example that converts an objectSid to a bindable string to add a member that belongs to a down-level domain to a group in an up-level domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8308c2e1-1a6f-4bbe-84fd-03b5fe13f0ec
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

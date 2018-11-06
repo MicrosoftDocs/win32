@@ -2,7 +2,6 @@
 Description: Certificate Services supports the use of Active Directory.
 ms.assetid: 214f08fb-89d4-4c06-bff8-b1d3bd92cb69
 title: Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

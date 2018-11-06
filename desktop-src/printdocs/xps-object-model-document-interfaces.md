@@ -2,7 +2,6 @@
 Description: The document interfaces provide access to the XPS package components that determine the structure of a document in an XPS OM.
 ms.assetid: 3302d164-81ad-4198-a116-f967e7a14147
 title: XPS OM Document Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

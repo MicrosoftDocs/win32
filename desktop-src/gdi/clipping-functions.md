@@ -2,7 +2,6 @@
 Description: The following functions are used with clipping.
 ms.assetid: de9e5786-63d8-47be-8522-e96d7c0f8634
 title: Clipping Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: CA-Certificate attribute
 description: Certificates of trusted Certification Authorities.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1bc1ed97-b985-469e-a198-208cb9f2a0d0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - CA-Certificate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

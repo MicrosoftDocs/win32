@@ -2,7 +2,6 @@
 Description: The Test Writer is a utility that you can use to test VSS requester applications.
 ms.assetid: 02434cb9-390c-4cf0-9941-b833ace55685
 title: VSS Test Writer Tool
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

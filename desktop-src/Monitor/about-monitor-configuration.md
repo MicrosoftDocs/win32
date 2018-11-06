@@ -20,7 +20,6 @@ keywords:
 - monitor configuration,saving monitor settings
 - monitor configuration,restoring monitor settings
 - monitor configuration,vendor features
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

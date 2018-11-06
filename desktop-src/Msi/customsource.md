@@ -2,7 +2,6 @@
 Description: The CustomSource data type is either a valid Identifier or an external key depending on the Type column of the CustomAction table.
 ms.assetid: af0b86e8-29ca-4afa-a1e5-f9fd88786dc5
 title: CustomSource
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

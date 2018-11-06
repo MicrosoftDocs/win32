@@ -16,7 +16,6 @@ keywords:
 - MCI reference,errors
 - waveform-audio errors
 - MCI waveform-audio errors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The m\_EndSample member variable specifies the stop time of the most recent sample.
 ms.assetid: 694815b6-8da5-4174-b2c7-7d686a557c6c
 title: CDrawImage::m_EndSample member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_SoftwareFeatureServiceImplementation class represents an association between a service and how it is implemented in software.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fa80cc91-8dd7-4726-a24a-5c4dfa3e786b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeatureServiceImplementation class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_SoftwareFeatureServiceImplementation** class represents an association between a service and how it is implemented in software. A service can be provided by more than one software feature, operating in conjunction with one another. Additionally, a software feature can provide more than one service. When multiple software features are associated with a single service, it is assumed that the elements operate in conjunction to provide the service. If different implementations of a service exist, each implementation would result in individual instantiations of the service object. Individual instantiations would then have associations to the unique implementations.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

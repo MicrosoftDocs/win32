@@ -1,9 +1,6 @@
 ---
 title: Type-Library class
 description: This class contains information about a type library.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3d545b6-0158-4ba8-a039-4747fa01a543
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Type-Library
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

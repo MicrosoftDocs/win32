@@ -2,7 +2,6 @@
 Description: Contains information about how to construct a certificate trust chain.
 ms.assetid: 120cd79e-7c9b-45f3-8596-091b674e73d8
 title: CertificateStatus object
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type:

@@ -5,7 +5,6 @@ ms.assetid: c91da741-07fe-41fb-94d5-f6a45ef2d89d
 keywords:
 - setting task comment Task Scheduler
 - setting work item properties Task Scheduler , task comment
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

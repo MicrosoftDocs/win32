@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_PhysicalElement subclasses define any component of a system that has a distinct physical identity. Instances of this class can be defined in terms of labels that can be physically attached to the object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 7ba6d1a9-f449-4ae2-a37c-517245bea39e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_PhysicalElement class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -43,7 +37,7 @@ The **CIM\_PhysicalElement** subclasses define any component of a system that ha
 
 Tangible managed system elements (usually hardware items) have a physical manifestation. A managed system element is not necessarily a discrete component. For example, it is possible for a single card (a type of physical element) to host more than one logical device. The card would be represented by a single physical element associated with multiple logical devices.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -2,7 +2,6 @@
 Description: The image dimensions in string format as horizontal pixels x vertical pixels. For example, 3080x2100.
 ms.assetid: 739d1d41-a374-4dc5-a6a2-da4e05ecb96d
 title: System.Image.Dimensions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

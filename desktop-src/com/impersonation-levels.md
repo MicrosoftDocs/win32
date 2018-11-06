@@ -2,7 +2,6 @@
 title: Impersonation Levels
 description: If impersonation succeeds, it means that the client has agreed to let the server be the client to some degree.
 ms.assetid: 7539bbee-063f-4788-aece-7b70684826c8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Determine the version of Windows Update Agent (WUA) before you use it.
 ms.assetid: fc915535-f87d-43fb-8755-fa6c80fedea5
 title: Determining the Current Version of WUA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

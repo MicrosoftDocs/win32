@@ -2,7 +2,6 @@
 Description: 'A media service provider must implement a minimum subset of MSPI interfaces: ITMSPAddress, ITTerminalSupport, ITStreamControl, and ITStream.'
 ms.assetid: 59560bdf-953e-48e8-b565-46c3e0123c7e
 title: Writing a Media Service Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

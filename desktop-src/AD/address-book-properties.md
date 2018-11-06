@@ -1,14 +1,10 @@
 ---
 title: User Address Book Attributes
 description: The address book attributes are used to provide supplementary identification and information for a user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aaa79d61-c9ba-4575-853f-c01caf10594f
 ms.tgt_platform: multiple
 keywords:
 - User Address Book Attributes AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

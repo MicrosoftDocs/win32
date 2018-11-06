@@ -1,9 +1,6 @@
 ---
 title: Validated-SPN validated writes
 description: Validated write permission to enable setting of the SPN attribute which is compliant to the DNS host name of the computer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f5760ee0-d1e3-4e0d-afb8-6f1c1493d379
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Validated-SPN
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The LINE\_QUEUESTATUS message is sent when the status of an ACD queue changes on an agent handler for which the application currently has an open line. This message is generated using the lineProxyMessage function.
 ms.assetid: 9baacfc5-f26c-41c7-a1f8-f48ec8aa844c
 title: LINE_QUEUESTATUS message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

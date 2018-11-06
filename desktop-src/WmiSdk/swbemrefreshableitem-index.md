@@ -1,12 +1,8 @@
 ---
 Description: Represents the index of the item in its parent SWbemRefresher object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f076eb01-1e71-487d-a1af-687a052b4d67
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem.Index property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

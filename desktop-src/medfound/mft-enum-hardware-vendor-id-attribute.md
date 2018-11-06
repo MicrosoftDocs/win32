@@ -2,7 +2,6 @@
 Description: Specifies the vendor ID for a hardware-based Microsoft Media Foundation.
 ms.assetid: AA31639F-EF70-4454-AC61-60755CAA684A
 title: MFT_ENUM_HARDWARE_VENDOR_ID_Attribute attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

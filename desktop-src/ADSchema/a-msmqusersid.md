@@ -1,9 +1,6 @@
 ---
 title: MSMQ-User-Sid attribute
 description: The migrated user's SID.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2bc658b7-987e-464e-9bf9-d4c7fd8a0df8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-User-Sid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

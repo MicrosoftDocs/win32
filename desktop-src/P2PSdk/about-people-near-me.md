@@ -2,7 +2,6 @@
 Description: About People Near Me
 ms.assetid: 814d6d3a-39b3-493c-b0fe-65e9bc38ee05
 title: About People Near Me
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

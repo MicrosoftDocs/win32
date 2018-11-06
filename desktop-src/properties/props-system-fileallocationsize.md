@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: ca3290ce-5690-44e1-80fd-0524a13ced5d
 title: System.FileAllocationSize
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

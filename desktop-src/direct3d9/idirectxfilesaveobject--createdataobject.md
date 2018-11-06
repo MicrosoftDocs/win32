@@ -2,7 +2,6 @@
 Description: Creates a data object. Deprecated.
 ms.assetid: bb0ef2cf-db76-40f6-968f-3599c58459a7
 title: IDirectXFileSaveObject::CreateDataObject method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

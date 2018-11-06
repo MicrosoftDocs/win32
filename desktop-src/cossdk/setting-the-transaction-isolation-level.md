@@ -2,7 +2,6 @@
 Description: You can manually set the transaction isolation level of components by using the Component Services administrative tool, or you can programmatically configure the transaction isolation level for a component by using the COM+ administration interfaces.
 ms.assetid: 3ef5b805-334d-4803-be67-00c9e35cdcc6
 title: Setting the Transaction Isolation Level
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

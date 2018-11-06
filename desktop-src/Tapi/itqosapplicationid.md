@@ -2,7 +2,6 @@
 Description: The ITQOSApplicationID interface exposes a method that allows an application to get the QOS identifier for the current call.
 ms.assetid: 1df50b3a-bd16-4e9b-afca-b025bfe537a4
 title: ITQOSApplicationID interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Attempts to place the service into its startup state.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3bafa228-a84b-4f14-a9e5-dfad09b83610
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: StartService method of the Win32_BaseService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Inter-Site-Transport-Container class
 description: Holds Inter-Site-Transport objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d2bc15bb-bbf9-4716-85d4-c15f3c88f361
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Inter-Site-Transport-Container
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

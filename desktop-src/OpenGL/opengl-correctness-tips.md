@@ -5,7 +5,6 @@ ms.assetid: 48397fbf-823d-4ea0-adfd-2c639e20e38f
 keywords:
 - OpenGL,correctness tips
 - OpenGL,best practices
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

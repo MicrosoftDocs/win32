@@ -2,7 +2,6 @@
 Description: The GetGroupOutputPin method retrieves the output pin for the specified group.
 ms.assetid: be4e17b6-15bf-43b1-8d93-d52d08c8bce6
 title: IRenderEngine::GetGroupOutputPin method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

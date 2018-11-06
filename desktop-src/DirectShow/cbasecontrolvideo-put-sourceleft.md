@@ -2,7 +2,6 @@
 Description: The put\_SourceLeft method sets the source rectangle left coordinate.
 ms.assetid: 94511eb7-0255-4e53-a9c6-62c8c47f197a
 title: CBaseControlVideo.put_SourceLeft method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

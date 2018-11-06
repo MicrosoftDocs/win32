@@ -2,7 +2,6 @@
 Description: Video Streaming Sample Code
 ms.assetid: 735af042-9800-4f75-a5c9-e1cf17b4a472
 title: Video Streaming Sample Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

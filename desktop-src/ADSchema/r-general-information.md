@@ -1,9 +1,6 @@
 ---
 title: General-Information property set
 description: Property set containing a set of user attributes that constitute general user information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e54a6a37-85f0-4b8e-801d-799a978ea313
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - General-Information
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

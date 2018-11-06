@@ -2,7 +2,6 @@
 title: EventManifest Schema Complex Types
 description: The following are the complex types that the EventManifest schema defines.
 ms.assetid: 25facfdd-3846-4215-9b84-a833d86c39ef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

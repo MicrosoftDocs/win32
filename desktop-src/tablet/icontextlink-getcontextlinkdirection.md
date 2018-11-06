@@ -2,7 +2,6 @@
 Description: Retrieves the type of relationship this IContextLink represents.
 ms.assetid: 03c13eba-1493-4fb7-b684-f15147e5a0eb
 title: IContextLink::GetContextLinkDirection method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

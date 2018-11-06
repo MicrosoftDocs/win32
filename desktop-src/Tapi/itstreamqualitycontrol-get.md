@@ -2,7 +2,6 @@
 Description: The Get method retrieves the value of a given stream quality property.
 ms.assetid: a8b5b8c7-47c9-4561-be96-af8416d854dc
 title: ITStreamQualityControl::Get method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

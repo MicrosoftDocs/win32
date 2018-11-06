@@ -4,7 +4,6 @@ description: Extended error data is useful even when the server or application t
 ms.assetid: 32c52afd-cd79-4df3-bf30-72a17ce22089
 keywords:
 - Independence From Other Components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ResourceLocator.MustUnderstandOptions property
 description: Gets or sets the MustUnderstandOptions value for the ResourceLocator object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d366696c-9128-4cbd-98d0-6c2d16c75d59
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

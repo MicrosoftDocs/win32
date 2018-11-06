@@ -2,7 +2,6 @@
 title: Group Policies
 description: Background Intelligent Transfer Service (BITS) uses the following Group Policies to configure BITS transfers and settings. For more information on which version of BITS is used by different versions of Windows, see the What's New topic.
 ms.assetid: 32c7e2b1-bac2-4708-a30c-f6b2a816c1a4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 10/04/2018
 ---

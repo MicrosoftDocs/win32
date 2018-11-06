@@ -1,9 +1,6 @@
 ---
 title: Win32_TSDeploymentLicensing class
 description: Licensing Settings for the Remote Desktop Virtualization (RDV) deployment.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 78e95629-6580-4aa1-bcbd-a79af44ddb54
 ms.tgt_platform: multiple
 keywords:
@@ -25,7 +22,6 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Uses a left-handed coordinate system to create a mesh containing a cylinder.
 ms.assetid: 54b8a59e-d13f-44cb-84c0-f63c7b1ffb1b
 title: D3DXCreateCylinder function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

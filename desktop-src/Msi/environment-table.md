@@ -2,7 +2,6 @@
 Description: The Environment table is used to set the values of environment variables.
 ms.assetid: f7106ed6-706f-4e57-989f-030066bcecd3
 title: Environment Table
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

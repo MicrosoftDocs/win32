@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceV2 DriveLetterBitmap property
 description: Contains a bitfield that represents a map of drive letters contained within the device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 13b7c9b9-a97f-4474-b5ad-833abff384f5
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

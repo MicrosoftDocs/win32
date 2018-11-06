@@ -2,7 +2,6 @@
 Description: After address assignment, TAPI assigns address identifiers to the addresses.
 ms.assetid: 19394db1-4408-4ba6-be48-b408c1fa0f30
 title: Address Identifiers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

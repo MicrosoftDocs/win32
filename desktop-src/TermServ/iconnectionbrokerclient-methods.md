@@ -1,12 +1,8 @@
 ---
 title: IConnectionBrokerClient methods
 description: These are the methods implements on the IConnectionBrokerClient interface.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 27261D99-35C9-4FE8-AED2-DE3B24EAB622
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

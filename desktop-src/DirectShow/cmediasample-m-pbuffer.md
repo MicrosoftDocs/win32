@@ -2,7 +2,6 @@
 Description: Pointer to the memory buffer that contains the media data.
 ms.assetid: 0f37e406-2af9-44ba-b760-f3d90c9a6d66
 title: CMediaSample::m_pBuffer member
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

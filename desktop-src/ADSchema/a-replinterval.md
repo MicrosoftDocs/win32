@@ -1,9 +1,6 @@
 ---
 title: Repl-Interval attribute
 description: The attribute of Site-Link objects that defines the interval, in minutes, between replication cycles between the sites in the Site-List.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ef4cbf75-7283-4930-9f98-1ffd6eb05669
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Repl-Interval
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

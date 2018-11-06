@@ -1,9 +1,6 @@
 ---
 title: ACS-Permission-Bits attribute
 description: Allows multicast flow origination for a given user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c7e7866d-b906-4a64-bd51-4e9cc7b8fb86
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Permission-Bits
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

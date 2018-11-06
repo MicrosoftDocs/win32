@@ -2,7 +2,6 @@
 Description: Identifies whether a message is flagged as a to-do item.
 ms.assetid: 0cd86838-34ce-4e49-b4bb-f486a55ab8f6
 title: System.Message.ToDoFlags
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

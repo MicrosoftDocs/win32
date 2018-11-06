@@ -4,7 +4,6 @@ description: The scripting objects that are described in the following topics pr
 ms.assetid: 632bc9ae-b300-42ed-9d2c-f1d2d53d44fb
 keywords:
 - Task Scheduler Task Scheduler , reference, scripting objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

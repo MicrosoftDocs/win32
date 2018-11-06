@@ -2,7 +2,6 @@
 title: Processes, Threads, and Apartments
 description: A process is a collection of virtual memory space, code, data, and system resources.
 ms.assetid: cb62412a-d079-40f9-89dc-cce0bf3889af
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

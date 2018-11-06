@@ -2,7 +2,6 @@
 Description: A file is a unit of data in the file system that a user can access and manage.
 ms.assetid: 271bad79-c23b-45ee-938c-d17dae89db1a
 title: Files and Clusters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

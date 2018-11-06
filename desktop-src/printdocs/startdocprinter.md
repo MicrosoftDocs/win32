@@ -2,7 +2,6 @@
 Description: The StartDocPrinter function notifies the print spooler that a document is to be spooled for printing.
 ms.assetid: caa2bd80-4af3-4968-a5b9-d12f16cac6fc
 title: StartDocPrinter function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

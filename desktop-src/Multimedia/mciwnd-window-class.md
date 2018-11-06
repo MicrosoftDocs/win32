@@ -5,7 +5,6 @@ ms.assetid: '473ec6dc-f3a3-430e-83bc-642f476e45af'
 keywords:
 - MCIWnd window class,about
 - MCIWnd window,window class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

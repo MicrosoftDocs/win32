@@ -2,7 +2,6 @@
 title: Crash Dump Analysis
 description: This technical article provides info about how to write and use a minidump.
 ms.assetid: 575c4716-18c2-7b11-7308-aa2e3d8efac7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

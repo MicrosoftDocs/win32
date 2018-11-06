@@ -1,9 +1,6 @@
 ---
 title: Integer syntax
 description: Represents a 32-bit signed integer value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5a1dc31b-42ee-44db-b9c7-ce80044bbbec
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Integer
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

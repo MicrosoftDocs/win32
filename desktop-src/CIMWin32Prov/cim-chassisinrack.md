@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ChassisInRack association represents the &\#0034;containing&\#0034; relationship between a rack and a chassis that it contains.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1c8a5058-58fe-42e0-b337-7e1a05120789
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ChassisInRack class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -30,7 +24,7 @@ api_location:
 
 The **CIM\_ChassisInRack** association represents the "containing" relationship between a rack and a chassis that it contains.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

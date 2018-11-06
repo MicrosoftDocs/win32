@@ -2,7 +2,6 @@
 Description: The ResetPrinter function specifies the data type and device mode values to be used for printing documents submitted by the StartDocPrinter function. These values can be overridden by using the SetJob function after document printing has started.
 ms.assetid: 9efc6629-dbb7-4320-90b9-07c66f0add47
 title: ResetPrinter function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: IDispatch Interface and Accessibility
 description: The IDispatch interface was initially designed to support Automation.
 ms.assetid: 5a95f002-4fd5-43d3-9b50-7b3f7790300a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

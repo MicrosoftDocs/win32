@@ -8,7 +8,6 @@ keywords:
 - Windows Media Player Mobile skins,Volume trackbars
 - trackbars in skins,types
 - skins,trackbars
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

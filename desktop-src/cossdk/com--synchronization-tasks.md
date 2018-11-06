@@ -2,7 +2,6 @@
 Description: COM+ Synchronization Tasks
 ms.assetid: e653e00c-313e-4ae1-ba72-d37e0d4fd6d9
 title: COM+ Synchronization Tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

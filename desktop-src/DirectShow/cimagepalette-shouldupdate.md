@@ -2,7 +2,6 @@
 Description: The ShouldUpdate method determines whether it is necessary to create a new palette.
 ms.assetid: 50886277-189b-4102-ade9-0366f64fdbcb
 title: CImagePalette.ShouldUpdate method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

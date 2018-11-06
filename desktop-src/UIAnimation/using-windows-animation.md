@@ -4,7 +4,6 @@ description: The topics contained in this section describe the basic tasks requi
 ms.assetid: 28103e5e-f00a-4ff5-820b-ece24a7ef21a
 keywords:
 - Windows Animation Windows Animation ,tasks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

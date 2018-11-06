@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 1c2b18d5-dcfc-40ab-bc2e-f8a092ff8b46
 title: System.Document.WordCount
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

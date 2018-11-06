@@ -10,7 +10,6 @@ keywords:
 - synchronous readers,seeking by frame numbers
 - video streams,seeking by frame numbers
 - video streams,synchronous readers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

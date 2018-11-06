@@ -1,9 +1,6 @@
 ---
 title: MS-TS-LicenseVersion3 attribute
 description: Version of the third terminal server per user CAL.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 93af038f-0324-4b39-a083-1790fc998557
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-TS-LicenseVersion3
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

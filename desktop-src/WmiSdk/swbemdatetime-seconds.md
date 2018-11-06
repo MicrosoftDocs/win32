@@ -1,12 +1,8 @@
 ---
 Description: Gets or sets a value that represents the seconds component of the datetime value.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 194d4309-6abf-4c5f-99f8-60d2c835af6c
 ms.tgt_platform: multiple
 title: SWbemDateTime.Seconds property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

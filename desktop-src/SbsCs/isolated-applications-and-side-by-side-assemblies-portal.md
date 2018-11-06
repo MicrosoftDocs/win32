@@ -2,7 +2,6 @@
 Description: Manage assembly sharing and DLL versioning in the systems side by side assembly store from programs. Write assembly manifests and self describing applications for assembly sharing and redirecting DLLs.
 ms.assetid: 2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0
 title: Isolated Applications and Side-by-side Assemblies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

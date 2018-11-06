@@ -2,7 +2,6 @@
 Description: Cipher suites can only be negotiated for TLS versions which support them.
 ms.assetid: 283CB634-25EA-47F5-A2E3-0913F7D3D9DC
 title: TLS Cipher Suites in Windows 7
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -16,7 +15,7 @@ Availability of cipher suites should be controlled in one of two ways:
 -   Default priority order is overridden when a priority list is configured. Cipher suites not in the priority list will not be used.
 -   Allowed when application passes SCH\_USE\_STRONG\_CRYPTO: The Microsoft Schannel provider will filter out known weak cipher suites when the application uses the SCH\_USE\_STRONG\_CRYPTO flag. In Windows 7, RC4 cipher suites are filtered out.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > HTTP/2 web services fail with non-HTTP/2-compatible cipher suites. To ensure your web services function with HTTP/2 clients and browsers, see [How to deploy custom cipher suite ordering](https://support.microsoft.com/help/4032720/how-to-deploy-custom-cipher-suite-ordering-in-windows-server-2016).
 
  

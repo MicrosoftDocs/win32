@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Repl-Authentication-Mode attribute
 description: The ms-DS-Repl-Authentication-Mode attribute is used to specify which authentication method is used to authenticate replication partners.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b7e77b40-7aa7-4990-93fd-c8068e35fcf9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Repl-Authentication-Mode
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

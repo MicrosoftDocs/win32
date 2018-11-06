@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-DisablePacketPrivacy attribute
 description: Disable packet privacy on a connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7a8e209a-0337-422a-bece-b5c7adf713b7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-DisablePacketPrivacy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

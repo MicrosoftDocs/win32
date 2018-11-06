@@ -1,9 +1,6 @@
 ---
 title: SMTP-Mail-Address attribute
 description: Generic mail address attribute. Used in the box as an optional attribute of server objects, where it is consumed by mail-based DS replication (if the computers are so configured).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 54fd710c-d140-4d46-9db3-0c72fb5fb08c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - SMTP-Mail-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

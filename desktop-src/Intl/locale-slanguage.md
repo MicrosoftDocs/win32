@@ -2,7 +2,6 @@
 Description: LOCALE\_SLANGUAGE
 ms.assetid: 3a659806-5380-4ad6-b57d-5469f12b5c1b
 title: LOCALE_SLANGUAGE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

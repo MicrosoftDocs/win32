@@ -2,7 +2,6 @@
 title: Instance Creation Helper Functions
 description: Instance Creation Helper Functions
 ms.assetid: 0b9b7bcf-f0f0-42c4-945e-63a532640d4b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

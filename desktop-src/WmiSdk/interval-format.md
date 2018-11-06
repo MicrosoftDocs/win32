@@ -1,12 +1,8 @@
 ---
 Description: Defines date-time intervals with a format similar to the date and time syntax by breaking the string into the fields for days, hours, minutes, seconds, and microseconds.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 13a3ca74-e3e9-44d7-9254-e288eb70ae4c
 ms.tgt_platform: multiple
 title: Interval Format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

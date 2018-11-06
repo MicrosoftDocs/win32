@@ -2,7 +2,6 @@
 Description: The user-friendly form of System.Photo.WhiteBalance. Not intended to be parsed programmatically.
 ms.assetid: f046912c-04cf-46df-bec5-c0f68fd0b44a
 title: System.Photo.WhiteBalanceText
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

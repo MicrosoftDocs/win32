@@ -2,7 +2,6 @@
 title: EventManifest Schema Elements
 description: The following are the elements that the EventManifest schema defines.
 ms.assetid: 3aa704a5-4ffd-4a5e-b14a-b276435b9b5c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

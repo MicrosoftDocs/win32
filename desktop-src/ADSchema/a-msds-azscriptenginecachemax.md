@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Az-Script-Engine-Cache-Max attribute
 description: The maximum number of scripts that are cached by the application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 957c1b75-b70c-450c-9a16-771b147324be
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Az-Script-Engine-Cache-Max
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

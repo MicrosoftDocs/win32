@@ -2,7 +2,6 @@
 Description: Defragmentation is the process of moving portions of files around on a disk to defragment files, that is, the process of moving file clusters on a disk to make them contiguous.
 ms.assetid: 27ccaab7-ec89-489b-80dc-df9beb7969bc
 title: Defragmenting Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

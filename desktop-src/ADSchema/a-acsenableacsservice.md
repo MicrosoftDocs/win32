@@ -1,9 +1,6 @@
 ---
 title: ACS-Enable-ACS-Service attribute
 description: True if ACS service is to be enabled.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 376f80a7-f07f-44ef-a12f-8c732ec514c4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Enable-ACS-Service
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

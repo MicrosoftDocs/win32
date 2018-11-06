@@ -2,7 +2,6 @@
 title: Configuring the URL Group
 description: .
 ms.assetid: be222076-51ff-4907-924f-cc7b0d4fe767
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

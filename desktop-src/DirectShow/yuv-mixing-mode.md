@@ -2,7 +2,6 @@
 Description: YUV Mixing Mode
 ms.assetid: 296b1d96-1824-4000-8bec-158925555177
 title: YUV Mixing Mode
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The SelectFile method constructs an application protocol data unit (APDU) command that sets a current elementary file within a logical channel. Subsequent commands may implicitly refer to the current file through the logical channel.
 ms.assetid: cb6231b3-fb1c-4350-8797-9efaa663c21b
 title: ISCardISO7816::SelectFile method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

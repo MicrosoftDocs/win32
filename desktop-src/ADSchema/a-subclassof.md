@@ -1,9 +1,6 @@
 ---
 title: Sub-Class-Of attribute
 description: The parent class of a class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ff2afb13-5d72-4b8b-9e66-c16fb0ae5e88
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Sub-Class-Of
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

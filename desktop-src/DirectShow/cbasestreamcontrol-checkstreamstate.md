@@ -2,7 +2,6 @@
 Description: The CheckStreamState method determines whether a media sample should be delivered or discarded.
 ms.assetid: 1533f4b9-e13e-458b-9614-96d733cef4ed
 title: CBaseStreamControl.CheckStreamState method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

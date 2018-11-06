@@ -1,9 +1,6 @@
 ---
 title: Is-Member-Of-Partial-Attribute-Set attribute
 description: If TRUE, this attribute is replicated to the global catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9ffd85e8-da1a-4b39-9758-2dc049204ca0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Is-Member-Of-Partial-Attribute-Set
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

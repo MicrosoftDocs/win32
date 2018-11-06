@@ -2,7 +2,6 @@
 title: Brushes How-to Topics
 description: The topics in this section provide examples showing how to accomplish brush-related tasks, such as painting gradients or filling an area with a bitmap.
 ms.assetid: b0756896-40b7-47a3-be8e-8ab100b022a5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Specifies whether the encoder adds a sequence end code at the end of the stream. This property applies to MPEG video encoders.
 ms.assetid: ef606207-2ee3-420b-afae-67c764e05e54
 title: AVEncMPVAddSeqEndCode property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

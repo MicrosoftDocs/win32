@@ -10,7 +10,6 @@ keywords:
 - creating Windows Media Device Manager applications,exploring devices
 - exploring devices
 - storages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

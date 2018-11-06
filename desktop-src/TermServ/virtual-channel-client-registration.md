@@ -1,12 +1,8 @@
 ---
 title: Virtual Channel Client Registration
 description: You must store the name of the client DLL in the registry.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bf84b2f4-55c2-45fd-bba7-8ff3efe4b1fd
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

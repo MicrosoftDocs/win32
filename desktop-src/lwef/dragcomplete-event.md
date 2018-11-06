@@ -2,7 +2,6 @@
 title: DragComplete Event
 description: DragComplete Event
 ms.assetid: b48e7097-9d9d-4eab-9dfc-68dbc9793382
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

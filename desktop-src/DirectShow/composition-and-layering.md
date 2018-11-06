@@ -2,7 +2,6 @@
 Description: Composition and Layering
 ms.assetid: c1aefd92-b47f-4af1-8299-9ba401ad5fe8
 title: Composition and Layering
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

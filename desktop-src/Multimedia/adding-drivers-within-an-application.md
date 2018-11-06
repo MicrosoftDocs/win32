@@ -14,7 +14,6 @@ keywords:
 - ACM (audio compression manager),global drivers
 - audio compression manager (ACM),local drivers
 - ACM (audio compression manager),local drivers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

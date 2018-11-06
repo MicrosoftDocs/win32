@@ -4,7 +4,6 @@ description: Common On-Boarding Problems for Online Music Stores
 ms.assetid: 4210aabb-d1ad-4f98-88e0-941933d77303
 keywords:
 - Windows Media Player Online Stores
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

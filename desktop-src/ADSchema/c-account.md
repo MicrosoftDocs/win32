@@ -1,9 +1,6 @@
 ---
 title: account class
 description: The account object class is used to define entries that represent computer accounts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 94199a02-47ea-4b44-b116-e6bed0aa1e1e
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - account
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

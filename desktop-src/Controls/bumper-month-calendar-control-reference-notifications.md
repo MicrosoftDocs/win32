@@ -2,7 +2,6 @@
 title: Month Calendar Notifications
 description: .
 ms.assetid: d7ca69ac-d8d2-4e1c-8516-d44ba5a0c350
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

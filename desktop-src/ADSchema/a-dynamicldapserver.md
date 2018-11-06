@@ -1,9 +1,6 @@
 ---
 title: Dynamic-LDAP-Server attribute
 description: DNS name of server handing dynamic properties for this account.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4a7ce6df-4c03-407a-a45e-0c1648d72003
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Dynamic-LDAP-Server
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

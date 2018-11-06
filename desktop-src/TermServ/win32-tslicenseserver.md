@@ -1,9 +1,6 @@
 ---
 title: Win32_TSLicenseServer class
 description: Provides methods and properties to view and configure Remote Desktop Licensing (RD Licensing) on a Remote Desktop license server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 699ddd9f-a91a-450c-b131-a7471252a4cc
 ms.tgt_platform: multiple
 keywords:
@@ -32,7 +29,6 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

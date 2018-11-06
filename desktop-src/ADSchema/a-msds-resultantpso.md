@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Resultant-PSO attribute
 description: Resultant password settings object applied to this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c7f66047-0cd7-460d-92f3-efdfca14b281
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Resultant-PSO
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

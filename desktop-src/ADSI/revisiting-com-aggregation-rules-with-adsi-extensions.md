@@ -1,16 +1,12 @@
 ---
 title: Revisiting COM Aggregation Rules with ADSI Extensions
 description: The following is a brief review of COM aggregation and ADSI extension rules.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3efcdfcf-4965-4436-90b2-dc0f627c71b4
 ms.tgt_platform: multiple
 keywords:
 - Extensions ADSI , COM Aggregation Rules
 - COM Aggregation ADSI
 - Revisiting COM Aggregation Rules with ADSI Extensions ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

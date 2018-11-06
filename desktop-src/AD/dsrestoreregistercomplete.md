@@ -1,9 +1,6 @@
 ---
 title: DsRestoreRegisterComplete function
 description: Called to unlock an Active Directory server after a restore operation is complete.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 781cd2ec-d2e2-4f3a-903d-feda4b871de5
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Represents a device that can interpret a sequence of instructions on a computer running on a Windows operating system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 26f3c7bf-c56a-4cf3-98d4-92ab05b8d244
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_Processor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

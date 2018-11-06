@@ -2,7 +2,6 @@
 Description: Gets the vertex declaration.
 ms.assetid: 53ff2fb5-68b6-4edd-b48f-e06df306ee3f
 title: ID3DXPatchMesh::GetDeclaration method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

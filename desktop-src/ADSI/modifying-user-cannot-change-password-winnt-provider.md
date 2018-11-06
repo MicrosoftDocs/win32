@@ -1,16 +1,12 @@
 ---
 title: Modifying User Cannot Change Password (WinNT Provider)
 description: The ability of a user to change their own password is a permission that can be granted or denied.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 071a817b-087e-49ee-af1a-6f190493cac0
 ms.tgt_platform: multiple
 keywords:
 - Modifying User Cannot Change Password (WinNT Provider)
 - User Cannot Change Password (WinNT Provider),modifying
 - WinNT provider ADSI ,user management examples,User Cannot Change Password,modifying
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -14,7 +14,6 @@ keywords:
 - SAMI (Synchronized Accessible Media Interchange),files
 - Synchronized Accessible Media Interchange (SAMI),example code
 - SAMI (Synchronized Accessible Media Interchange),example code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

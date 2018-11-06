@@ -2,7 +2,6 @@
 Description: The AttemptConnection method connects to another pin using a specified media type.
 ms.assetid: b80cf2c0-7266-4dac-8633-d30a871c57d9
 title: CBasePin.AttemptConnection method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

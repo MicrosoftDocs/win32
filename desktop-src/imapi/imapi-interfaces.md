@@ -2,7 +2,6 @@
 title: IMAPI Interfaces
 description: The following tables identify and briefly describe the interfaces used C/C++ developers and the associated scripting object. Prefix the object name in the table with \ 0034;IMAPI2. \ 0034; to fully qualify the object name when creating the object in script.
 ms.assetid: dba81a45-34a8-4b49-9ccb-d61a7e7ee1f6
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

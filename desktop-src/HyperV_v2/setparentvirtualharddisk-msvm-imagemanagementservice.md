@@ -2,7 +2,6 @@
 Description: Updates the parent for the specified leaf and child virtual hard disk files.
 ms.assetid: 5ad41218-bcfd-449a-a66e-2096a1d96bf5
 title: SetParentVirtualHardDisk method of the Msvm_ImageManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: Registry Hierarchy
 description: Registry Hierarchy
 ms.assetid: 5612c9eb-4598-49b0-abd5-9ec7706c4e35
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

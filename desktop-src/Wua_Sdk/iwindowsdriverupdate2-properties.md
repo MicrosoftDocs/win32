@@ -2,7 +2,6 @@
 Description: The IWindowsDriverUpdate2 interface defines the following properties.
 ms.assetid: ed45a833-5c28-4ddc-993c-1237f69ec63f
 title: IWindowsDriverUpdate2 Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

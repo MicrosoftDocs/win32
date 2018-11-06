@@ -2,7 +2,6 @@
 Description: A recognizer plug-in is an object that monitors the movement of the tablet pen for gesture, handwriting, or other objects.
 ms.assetid: 764a327e-1da0-487f-9245-b6a4f3f43502
 title: Recognizer Plug-ins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: Modifies a service object derived from Win32\_BaseService.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d5f4f472-e7d9-4664-9430-9c77034a5978
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Change method of the Win32_BaseService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

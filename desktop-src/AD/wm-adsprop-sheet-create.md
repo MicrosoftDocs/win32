@@ -1,9 +1,6 @@
 ---
 title: WM_ADSPROP_SHEET_CREATE message
 description: Sent to the notification object to create a secondary property sheet in an Active Directory MMC snap-in.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3efa25f2-cd39-44f8-952e-203f1519ce2c
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - WM_ADSPROP_SHEET_CREATE
 api_type:
 - NA
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

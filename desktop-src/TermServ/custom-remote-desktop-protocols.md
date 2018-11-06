@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Protocol Provider API
 description: You use the Remote Desktop Protocol Provider API to create a protocol to provide communication between the Remote Desktop Services service and multiple clients.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dd14c569-195e-460e-a1c3-2a74d0f49ff5
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

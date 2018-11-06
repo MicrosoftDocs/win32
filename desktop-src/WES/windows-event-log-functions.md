@@ -2,7 +2,6 @@
 title: Windows Event Log Functions
 description: Windows Event Log defines the following functions that you can use to get events from a channel or event log and to get the metadata for a provider and the events that it generates.
 ms.assetid: 0bc008e4-c01c-482b-b910-49de3de22fab
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

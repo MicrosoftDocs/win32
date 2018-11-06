@@ -2,7 +2,6 @@
 title: IAgentBalloon SetFontSize
 description: IAgentBalloon SetFontSize
 ms.assetid: c38779a6-bd7f-4d3a-9cb0-9d9fac1c7996
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

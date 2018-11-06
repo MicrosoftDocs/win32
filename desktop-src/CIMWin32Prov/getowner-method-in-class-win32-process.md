@@ -1,14 +1,8 @@
 ---
 Description: The GetOwner&\#8194;WMI class method retrieves the user name and domain name under which the process is running.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: bbd6d22b-ca54-42f3-8098-d3034048ec4d
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: GetOwner method of the Win32_Process class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,12 +1,8 @@
 ---
 Description: An asynchronous query, while somewhat more complex to write, is the preferred type of query when system or network performance will be affected by querying a large group of data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b382610a-dac9-4d31-b756-aa84d16f0234
 ms.tgt_platform: multiple
 title: Invoking an Asynchronous Query
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Capturing an Image From a Still Image Pin
 ms.assetid: cbcb4d6d-dc85-4ae2-b0a8-110f15092733
 title: Capturing an Image From a Still Image Pin
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

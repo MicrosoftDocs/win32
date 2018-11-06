@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Template-Schema-Version attribute
 description: Keeps track of schema updates of the PKI-Certificate-Template class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7ad55f1a-cdb9-4eea-bd09-db4f5e6373ba
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Template-Schema-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

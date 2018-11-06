@@ -1,12 +1,8 @@
 ---
 Description: Serves as the parent class for the \_\_Win32Provider system class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e4cad7c6-4650-4334-b8c4-ac65381bced7
 ms.tgt_platform: multiple
 title: '__Provider class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: Over time, different versions of TAPI, applications, and service providers may be produced.
 ms.assetid: 35fea8f9-307e-4429-b4ec-ffb5c62c2610
 title: TAPI Versioning
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

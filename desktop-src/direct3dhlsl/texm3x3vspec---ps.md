@@ -2,7 +2,6 @@
 title: texm3x3vspec - ps
 description: Performs a 3x3 matrix multiply and uses the result to perform a texture lookup.
 ms.assetid: 3798bc23-2929-48fe-93ae-5aa025823714
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

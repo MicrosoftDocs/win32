@@ -1,14 +1,10 @@
 ---
 title: Setting a Control Access Right ACE in an Object's ACL
 description: Using ADSI, you set a control access right ACE just as you would a property-specific ACE, except that the IADsAccessControlEntry.ObjectType property is the rightsGUID of the control access right.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 454dc372-47b0-457d-8660-644fcfa59be8
 ms.tgt_platform: multiple
 keywords:
 - Setting a Control Access Right ACE in an Object's ACL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

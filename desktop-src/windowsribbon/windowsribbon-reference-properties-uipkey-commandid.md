@@ -2,7 +2,6 @@
 title: UI_PKEY_CommandId
 description: Identifies the UI\_PKEY\_CommandId property.
 ms.assetid: 81d389b0-e4c4-4e39-bdc8-b0a2ea8996dd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

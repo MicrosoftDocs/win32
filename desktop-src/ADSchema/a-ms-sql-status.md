@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-Status attribute
 description: The status for the SQL server. The status is TRUE if the server is running.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a090cefc-ab60-43e3-9b31-f023d808820c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-Status
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

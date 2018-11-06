@@ -2,7 +2,6 @@
 Description: Path Functions
 ms.assetid: 0105FC65-332B-4F99-9629-F3DFEAD97535
 title: Path Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

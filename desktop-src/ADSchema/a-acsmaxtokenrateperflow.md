@@ -1,9 +1,6 @@
 ---
 title: ACS-Max-Token-Rate-Per-Flow attribute
 description: The maximum token rate any single flow may have for a given user.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2898b7a6-f2b1-4e08-aba6-9e1ac655a4db
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Max-Token-Rate-Per-Flow
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

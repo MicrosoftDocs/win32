@@ -1,9 +1,6 @@
 ---
 title: SetSharedSecret method of the Win32_TSGatewayRADIUSServer class
 description: Sets the SharedSecret property for this Remote Authentication Dial-In User Service (RADIUS) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b4f7afb7-862f-4c30-b60a-aa6a8dbbe3e9
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

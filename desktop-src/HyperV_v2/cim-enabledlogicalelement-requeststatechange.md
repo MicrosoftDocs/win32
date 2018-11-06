@@ -2,7 +2,6 @@
 Description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
 ms.assetid: 6d0061ad-ca14-400a-b813-af920f231eeb
 title: RequestStateChange method of the CIM_EnabledLogicalElement class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

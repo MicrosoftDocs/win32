@@ -2,7 +2,6 @@
 Description: Returns the identifiers of any relevant context nodes that are associated with this warning.
 ms.assetid: 8c418f48-3903-47c1-82e2-085de39574d4
 title: IAnalysisWarning::GetNodeIds method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

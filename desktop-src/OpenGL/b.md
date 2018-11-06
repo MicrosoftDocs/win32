@@ -10,7 +10,6 @@ keywords:
 - bitplanes
 - blending
 - buffers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

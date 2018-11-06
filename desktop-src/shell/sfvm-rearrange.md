@@ -1,7 +1,6 @@
 ---
 Description: Notifies the IShellView to rearrange its items. Used by SHShellFolderView\_Message.
 title: SFVM_REARRANGE message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

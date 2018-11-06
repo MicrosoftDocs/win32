@@ -2,7 +2,6 @@
 Description: The CMediaEvent class provides base class implementation of the IDispatch methods of the dual-interface IMediaEvent. It leaves as pure virtual the properties and methods of the IMediaEvent interface.
 ms.assetid: 849e08ac-8d1b-4c86-94eb-ab5c4f10d68a
 title: CMediaEvent class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

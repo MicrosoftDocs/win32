@@ -2,7 +2,6 @@
 title: How to Perform Hit Testing on a Text Layout
 description: Provides a short tutorial about how to add hit testing to a DirectWrite application that displays text by using the IDWriteTextLayout interface.
 ms.assetid: ef30c931-10f6-4317-b2ea-b446990778b9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

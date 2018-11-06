@@ -1,12 +1,8 @@
 ---
 Description: The Identifier property of an SWbemPrivilege object is an WbemPrivilegeEnum integer that represents the privilege that is being set or retrieved. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d370c3ae-6acf-409a-846a-42a74f1a3c02
 ms.tgt_platform: multiple
 title: SWbemPrivilege.Identifier property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -23,7 +23,6 @@ keywords:
 - Firefox,about webpage embedding
 - embedding,Web pages
 - Web page embedding,Firefox
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

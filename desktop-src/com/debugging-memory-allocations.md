@@ -2,7 +2,6 @@
 title: Debugging Memory Allocations
 description: Debugging Memory Allocations
 ms.assetid: 522adb1f-0e3e-4dfb-8836-f539a79a3d9e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

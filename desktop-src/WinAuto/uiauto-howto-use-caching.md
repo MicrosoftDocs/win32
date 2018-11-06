@@ -2,7 +2,6 @@
 title: How to Use Caching
 description: This topic contains example code that shows how to use the caching (or bulk fetching) capabilities of Microsoft UI Automation tree.
 ms.assetid: d72fa637-35ca-4c28-922d-263f469cb1c8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

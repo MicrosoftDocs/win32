@@ -16,7 +16,6 @@ keywords:
 - Advanced Systems Format (ASF),QASF
 - ASF (Advanced Systems Format),QASF
 - metadata,QASF
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -45,7 +44,7 @@ Then run the filter graph. When all the preprocessing passes are done (typically
 
 It is only necessary to call **IConfigAsfWriter::SetParam**(AM\_CONFIGASFWRITER\_PARAM\_MULTIPASS, **FALSE**) if you want to put the filter out of preprocessing mode completely.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > It is the application's responsibility to enable preprocessing mode based on the profile that will be used for encoding. Some profiles require two-pass encoding; if you attempt to encode a file with such a profile, and do not set AM\_CONFIGASFWRITER\_PARAM\_MULTIPASS to **TRUE**, an EC\_USERABORT error will result. For more information on how to determine whether a given profile requires two-pass encoding, see [Using Two-Pass Encoding](using-two-pass-encoding.md) or [Writing Variable Bit Rate Streams](writing-variable-bit-rate-streams.md).
 
  

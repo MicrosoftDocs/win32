@@ -2,7 +2,6 @@
 Description: A unique value used as a key to cache thumbnails.
 ms.assetid: 86f9f995-4de3-4e90-a507-a886ccff80c4
 title: System.ThumbnailCacheId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

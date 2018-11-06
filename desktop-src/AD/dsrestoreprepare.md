@@ -1,9 +1,6 @@
 ---
 title: DsRestorePrepare function
 description: Connects to the specified directory server and prepares it for the restore operation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e847d57a-32e1-49c0-800c-7ce0e5f442fa
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -14,7 +14,6 @@ keywords:
 - ASF (Advanced Systems Format),DirectShow
 - DirectShow,event notifications
 - DirectShow,WMT_STATUS event notifications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

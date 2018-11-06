@@ -4,7 +4,6 @@ description: The router administration documentation makes frequent reference to
 ms.assetid: 841a5728-39d6-4bd7-a41a-6543b4ed9985
 keywords:
 - routers RRAS , components
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

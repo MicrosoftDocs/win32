@@ -1,9 +1,6 @@
 ---
 title: System-Must-Contain attribute
 description: The list of mandatory attributes for a class. These attributes must be specified when an instance of the class is created. The list of attributes can only be modified by the system.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5131bd16-1a8d-4d4a-98e4-6140438c6517
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - System-Must-Contain
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

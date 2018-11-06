@@ -2,7 +2,6 @@
 title: Registers - hs_5_0
 description: A hull shader consists of three distinct phases control point phase, fork phase, and join phase. Each phase has its own sets of input and output registers.
 ms.assetid: 82F689EF-D3F4-40B5-9A2C-1F97F4CE6501
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

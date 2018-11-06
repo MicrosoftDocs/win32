@@ -2,7 +2,6 @@
 Description: The ELS transliteration services map UTF-16 text from one writing system to another writing system.
 ms.assetid: 32e46c52-5c3c-4e22-8f4e-05286ee213ba
 title: Transliteration Services
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

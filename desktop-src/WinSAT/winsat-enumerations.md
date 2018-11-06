@@ -2,7 +2,6 @@
 title: WinSAT Enumerations
 description: The Windows System Assessment Tool (WinSAT) defines the following enumerations
 ms.assetid: 0c6792b1-6ae1-4b50-b05b-b524c544d6f1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

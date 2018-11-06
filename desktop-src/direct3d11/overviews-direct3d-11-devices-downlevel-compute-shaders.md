@@ -2,7 +2,6 @@
 title: Compute Shaders on Downlevel Hardware
 description: This topic discusses how to make use of compute shaders in a Direct3D 11 app on Direct3D 10 hardware.
 ms.assetid: b864269f-c1f7-4253-888d-04d1ed3e6587
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

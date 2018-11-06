@@ -2,7 +2,6 @@
 Description: The EVENT\_TRACE structure is used to deliver event information to an event trace consumer.
 ms.assetid: d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0
 title: EVENT_TRACE structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

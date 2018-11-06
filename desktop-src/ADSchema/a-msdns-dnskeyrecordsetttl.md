@@ -1,9 +1,6 @@
 ---
 title: ms-DNS-DNSKEY-Record-Set-TTL attribute
 description: An attribute that defines the time-to-live (TTL) value assigned to DNSKEY records when signing the DNS zone.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 90f08d20-2e57-4751-ada1-0888b4be4533
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DNS-DNSKEY-Record-Set-TTL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

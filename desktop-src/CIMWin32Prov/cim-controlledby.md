@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ControlledBy relationship indicates which devices are commanded by, or accessed through, the controller logical device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6aa4e088-32a0-4c88-bb82-341b6ab53b4c
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ControlledBy class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -33,7 +27,7 @@ api_location:
 
 The **CIM\_ControlledBy** relationship indicates which devices are commanded by, or accessed through, the controller logical device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

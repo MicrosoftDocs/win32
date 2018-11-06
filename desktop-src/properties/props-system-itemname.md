@@ -2,7 +2,6 @@
 Description: The base name of the System.ItemNameDisplay property.
 ms.assetid: 8add2d72-efd3-4971-89d9-428190115ba0
 title: System.ItemName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

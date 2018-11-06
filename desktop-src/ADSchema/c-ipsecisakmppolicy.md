@@ -1,9 +1,6 @@
 ---
 title: Ipsec-ISAKMP-Policy class
 description: The Ipsec-ISAKMP-Policy class is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a40b4289-01c9-489d-a755-725978d6dfc2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-ISAKMP-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

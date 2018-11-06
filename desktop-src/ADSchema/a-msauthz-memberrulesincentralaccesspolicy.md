@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Member-Rules-In-Central-Access-Policy attribute
 description: For a central access policy, this attribute identifies the central access rules that make up the policy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4abd3f44-14d8-4dae-b978-fbe817cc8e4c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Member-Rules-In-Central-Access-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

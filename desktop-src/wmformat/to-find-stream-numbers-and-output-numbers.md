@@ -10,7 +10,6 @@ keywords:
 - synchronous readers,stream numbers
 - synchronous readers,finding output numbers
 - streams,finding numbers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

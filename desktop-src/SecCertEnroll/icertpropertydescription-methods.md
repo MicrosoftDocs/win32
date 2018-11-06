@@ -2,7 +2,6 @@
 Description: The ICertPropertyDescription interface exposes the following methods.
 ms.assetid: 0D64407F-16DE-4C75-95EB-B360A18C1EFA
 title: ICertPropertyDescription Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

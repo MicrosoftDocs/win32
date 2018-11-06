@@ -2,7 +2,6 @@
 Description: Indicates the sample size in bits for the video stream. &\#0034;SampleSize&\#0034;.
 ms.assetid: 60c31ee2-5c10-4930-8f5d-a973423ff5a7
 title: System.Video.SampleSize
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Win32_RdvhManagement class
 description: Describes a Remote Desktop Virtual Host (RDVH) management service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2a81786c-e772-4596-9846-a46828f9b48b
 ms.tgt_platform: multiple
 keywords:
@@ -17,7 +14,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Ipsec-Policy-Reference attribute
 description: The distinguished name of the related Internet Protocol security (IPsec) policy.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e5b96402-3bf8-4268-981d-53ead4455fc3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-Policy-Reference
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

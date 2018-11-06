@@ -1,14 +1,8 @@
 ---
 Description: Stop the collector quickly, discarding all the queued data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9d96a94b-21ae-40bd-9c7f-b466ca38dce3
-- boot-event-collector
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: FastShutdown method of the Control class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: Short-Server-Name attribute
 description: Pre-Windows 2000 compatible server name for print servers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 639704f4-e2b6-43e1-9b1b-6afffe8f0f6a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Short-Server-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

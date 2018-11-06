@@ -1,12 +1,8 @@
 ---
 Description: The IWbemServices::ExecMethod or ExecMethodAsync methods require the \_\_PARAMETERS system class as a container in pInParams if the method they are executing has any input arguments.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 17b72ceb-e730-4176-aa4d-189d0b6acc8b
 ms.tgt_platform: multiple
 title: Creating Parameters Objects in C++
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

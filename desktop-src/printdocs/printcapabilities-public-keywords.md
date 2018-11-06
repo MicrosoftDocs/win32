@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 7f08747f-f7ff-4381-b2b9-1917e4708ee3
 title: PrintCapabilities Public Keywords
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

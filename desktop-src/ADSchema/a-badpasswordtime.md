@@ -1,9 +1,6 @@
 ---
 title: Bad-Password-Time attribute
 description: The last time and date that an attempt to log on to this account was made with a password that is not valid.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8e8c5b73-b42d-4a62-89af-c0ff2fe106d8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Bad-Password-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

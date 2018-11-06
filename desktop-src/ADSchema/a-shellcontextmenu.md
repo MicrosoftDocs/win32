@@ -1,9 +1,6 @@
 ---
 title: Shell-Context-Menu attribute
 description: The order number and GUID of the context menu for this object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eea0d8d2-e676-4434-b589-aebc7cff3655
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Shell-Context-Menu
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

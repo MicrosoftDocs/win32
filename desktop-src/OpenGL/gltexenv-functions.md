@@ -11,7 +11,6 @@ keywords:
 - OpenGL reference,texture functions
 - reference for OpenGL,texture functions
 - texture functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

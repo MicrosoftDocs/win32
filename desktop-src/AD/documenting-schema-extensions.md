@@ -1,12 +1,8 @@
 ---
 title: Documenting Schema Extensions
 description: In addition to providing a separate installation procedure for schema extensions, the nature of the schema extensions must be clearly documented.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e9387368-aed4-4fb3-90e5-522580d90d99
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

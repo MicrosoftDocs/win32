@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-StagingSizeInMb attribute
 description: Contains the size, in megabytes, of the staging directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 80b292f0-5d4f-446b-af6b-69a218f972f7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-StagingSizeInMb
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

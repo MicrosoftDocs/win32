@@ -2,7 +2,6 @@
 Description: DirectXMath provides a math solution optimized for Windows.
 ms.assetid: c2a64435-b2fb-3638-2eea-3ed52f4c7cd5
 title: DirectXMath Programming Guide
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

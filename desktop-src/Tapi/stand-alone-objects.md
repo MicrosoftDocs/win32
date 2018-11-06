@@ -2,7 +2,6 @@
 Description: TAPI 3 involves a number of objects that are independent of its five main TAPI objects (TAPI, Address, Call, CallHub, and Terminal).
 ms.assetid: 090fa8e5-58a5-46ee-89a3-bd97fcfbf0f0
 title: Stand-Alone Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

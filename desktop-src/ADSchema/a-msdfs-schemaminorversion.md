@@ -1,9 +1,6 @@
 ---
 title: ms-DFS-Schema-Minor-Version attribute
 description: Contains the minor version of the schema of DFS metadata.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4f5a317d-e22a-4940-9f92-ce8bf52c92dd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFS-Schema-Minor-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

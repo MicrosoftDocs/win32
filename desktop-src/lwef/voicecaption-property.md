@@ -2,7 +2,6 @@
 title: VoiceCaption Property
 description: VoiceCaption Property
 ms.assetid: 2c4fa175-fc2d-4474-b15f-7e838103a435
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

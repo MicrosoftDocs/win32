@@ -2,7 +2,6 @@
 Description: The ReceiveConnection method accepts a connection from another pin. This method implements the IPin::ReceiveConnection method.
 ms.assetid: f17e7d93-ac45-4b8a-98c6-0c76ec7117c9
 title: CBasePin.ReceiveConnection method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

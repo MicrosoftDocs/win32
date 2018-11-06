@@ -4,7 +4,6 @@ description: Writing an authenticated SSPI client and Remote Procedure Call (RPC
 ms.assetid: db39d3bf-84fa-466e-9ba1-ba17f64c8f8d
 keywords:
 - Remote Procedure Call RPC , tasks, writing an authenticated SSPI client
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

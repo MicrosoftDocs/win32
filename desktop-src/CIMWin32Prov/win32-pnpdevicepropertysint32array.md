@@ -1,14 +1,8 @@
 ---
 Description: Represents a PnP device property consisting of an array of Sint32 elements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8CA6421B-6AC7-4590-9142-4093AA7BE019
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySint32Array class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

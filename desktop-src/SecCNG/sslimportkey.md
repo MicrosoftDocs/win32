@@ -2,7 +2,6 @@
 Description: Imports a key into the Secure Sockets Layer protocol (SSL) protocol provider.
 ms.assetid: 42310799-384e-4396-a9d5-5f226ca25a86
 title: SslImportKey function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

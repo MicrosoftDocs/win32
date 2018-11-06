@@ -1,9 +1,6 @@
 ---
 title: netboot-Locally-Installed-OSes attribute
 description: The netboot-Locally-Installed-OSes attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb59183b-26dd-4f51-955e-32f7a706a59c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-Locally-Installed-OSes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

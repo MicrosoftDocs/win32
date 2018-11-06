@@ -2,7 +2,6 @@
 title: Using Teredo with IP Helper
 description: Internet Protocol Helper (IP Helper) API is utilized by an application to gather and provide important information regarding the networking configuration of the local machine.
 ms.assetid: 67dbe639-aff5-4628-9471-63f50504962d
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

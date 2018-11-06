@@ -2,7 +2,6 @@
 Description: Changes the current top alternate to the specified IAnalysisAlternate.
 ms.assetid: 0867a662-d172-4ca2-a41f-49c0ea454768
 title: IInkAnalyzer::ModifyTopAlternateWithConfirmation method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

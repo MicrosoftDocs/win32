@@ -12,7 +12,6 @@ keywords:
 - separate window plug-ins
 - metadata area plug-ins
 - display area plug-ins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

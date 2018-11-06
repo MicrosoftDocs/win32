@@ -2,7 +2,6 @@
 Description: Clock Times
 ms.assetid: ff964f7f-a084-4de3-8b2b-8efb6c9f4a9f
 title: Clock Times
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

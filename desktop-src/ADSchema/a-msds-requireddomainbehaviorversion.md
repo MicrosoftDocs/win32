@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Required-Domain-Behavior-Version attribute
 description: Required domain function level for this feature.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c5fe973d-e091-42de-b2ea-2b10b9ee291f
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Required-Domain-Behavior-Version
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

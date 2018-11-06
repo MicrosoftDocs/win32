@@ -1,9 +1,6 @@
 ---
 title: ms-DS-NC-Repl-Outbound-Neighbors attribute
 description: Replication partners for this partition. This server sends replication data to these other servers, which act as destinations. This server will notify these other servers when new data is available.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9dcc7485-1999-47ff-bb57-8193768a15a9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-NC-Repl-Outbound-Neighbors
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

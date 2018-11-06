@@ -9,7 +9,6 @@ keywords:
 - custom visualizations,Render function
 - Render function,additional functions
 - IWMPEffects interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

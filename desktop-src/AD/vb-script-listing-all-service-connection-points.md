@@ -1,12 +1,8 @@
 ---
 title: VB Script Listing all Service Connection Points
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7a76f872-3e4e-4bb7-8f2d-e30b1246369f
 ms.tgt_platform: multiple
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -4,7 +4,6 @@ description: A DNS zone is a set of files or records (more precisely, a database
 ms.assetid: 'fc24bcd0-854d-4452-9c81-f344b52c7b4e'
 keywords:
 - DNS Zones DNS
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

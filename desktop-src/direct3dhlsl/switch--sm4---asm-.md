@@ -2,7 +2,6 @@
 title: switch (sm4 - asm)
 description: Transfers control to a different statement block within the switch body depending on the value of a selector.
 ms.assetid: ECAEECFD-B955-4356-B5C9-1D6A04C71D8F
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

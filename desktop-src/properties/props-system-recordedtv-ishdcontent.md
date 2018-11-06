@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 1afca0cb-95c1-40d6-9268-e70018973ff6
 title: System.RecordedTV.IsHDContent
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

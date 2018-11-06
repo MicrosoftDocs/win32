@@ -2,7 +2,6 @@
 title: Client Security During an Asynchronous Call
 description: Client Security During an Asynchronous Call
 ms.assetid: 26d1f2c2-cb08-49f1-8beb-b99b029f0d8c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Indicates the DVD player's new domain.
 ms.assetid: 4faa46d6-2ba2-44a3-b237-acac3b32f8b1
 title: EC_DVD_DOMAIN_CHANGE
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

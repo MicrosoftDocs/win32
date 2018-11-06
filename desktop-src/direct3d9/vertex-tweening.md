@@ -2,7 +2,6 @@
 Description: Vertex tweening blends two user-provided positions (or normals).
 ms.assetid: 'vs|directx_sdk|~\vertex_tweening.htm'
 title: Vertex Tweening (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

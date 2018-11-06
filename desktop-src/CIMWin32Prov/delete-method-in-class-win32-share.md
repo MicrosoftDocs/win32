@@ -1,14 +1,8 @@
 ---
 Description: Deletes a share name from a server's list of shared resources, disconnecting connections to the shared resource.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 175f9c0e-0017-4a86-8e05-ad78e2c93c11
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Delete method of the Win32_Share class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

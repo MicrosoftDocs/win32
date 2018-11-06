@@ -2,7 +2,6 @@
 title: Social Interaction
 description: Social Interaction
 ms.assetid: 4e8096e8-7bd1-4225-b12c-832f312ef833
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

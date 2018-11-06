@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claim-Is-Value-Space-Restricted attribute
 description: For a claim type, this attribute identifies whether a user can input values other than those described in the msDS-ClaimPossibleValues in applications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6a965b2f-ab3f-4429-8e2d-2fc21eefbb5e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claim-Is-Value-Space-Restricted
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

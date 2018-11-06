@@ -8,7 +8,6 @@ keywords:
 - digital signal processing plug-ins,Echo sample streaming resources
 - DSP plug-ins,Echo sample streaming resources
 - Echo DSP plug-in sample,streaming resources
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

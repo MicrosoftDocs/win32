@@ -2,7 +2,6 @@
 Description: Converts degrees into radians.
 ms.assetid: 450806bd-db2f-47be-ae80-c261088b1bb8
 title: D3DXToRadian
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

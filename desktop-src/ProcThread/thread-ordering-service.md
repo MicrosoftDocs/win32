@@ -2,7 +2,6 @@
 Description: The thread ordering service controls the execution of one or more client threads. It ensures that each client thread runs once during the specified period and in relative order.
 ms.assetid: 5c37873a-ced4-447e-a6e1-55cfa8ab24b4
 title: Thread Ordering Service
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

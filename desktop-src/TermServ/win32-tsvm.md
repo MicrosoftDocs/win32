@@ -1,9 +1,6 @@
 ---
 title: Win32_TSVm class
 description: Represents a Remote Desktop virtual machine.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9e076963-1c02-4419-b4d5-9863a2bbb23b
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

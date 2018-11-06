@@ -2,7 +2,6 @@
 title: Checking Media Support
 description: The following script examines characteristics of the media loaded in the disc device.
 ms.assetid: 05d88612-ff4c-4894-b838-a1d76923430c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

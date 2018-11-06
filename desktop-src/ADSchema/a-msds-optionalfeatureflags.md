@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Optional-Feature-Flags attribute
 description: An integer value that contains flags that define behavior of an optional feature in Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 02695ad1-3401-42c3-a7eb-aac8afa56327
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Optional-Feature-Flags
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

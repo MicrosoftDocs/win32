@@ -2,7 +2,6 @@
 Description: This section describes the functions that are used by the Core Audio APIs beginning in Windows 8.
 ms.assetid: 96F0AE0B-B357-4236-8B47-33353927D3C8
 title: Core Audio Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

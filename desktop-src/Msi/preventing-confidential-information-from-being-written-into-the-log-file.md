@@ -2,7 +2,6 @@
 Description: Developers can prevent confidential information, such as passwords, from being entered into the log file during a Windows Installer installation.
 ms.assetid: 950c3c56-3f16-4e1a-875f-d31f45065076
 title: Preventing Confidential Information from Being Written into the Log File
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

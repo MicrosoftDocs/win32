@@ -2,7 +2,6 @@
 Description: The GetTotalStatistics method retrieves the total statistics for the current capture.
 ms.assetid: e5098984-c69e-4cd5-9143-d85dfcbd7b92
 title: IRTC::GetTotalStatistics method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

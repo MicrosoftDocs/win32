@@ -2,7 +2,6 @@
 Description: The GetTime method retrieves the current reference time. This method implements the IReferenceClock::GetTime method.
 ms.assetid: 4e4e5954-b899-4741-8b7c-7bc98a3f0404
 title: CBaseReferenceClock.GetTime method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

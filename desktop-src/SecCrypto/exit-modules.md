@@ -2,7 +2,6 @@
 Description: Exit modules receive notifications from the server engine when operations such as the issuance of a certificate occur.
 ms.assetid: 5e7ee1f4-7e07-4a08-8e72-89b449804bc2
 title: Exit Modules
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

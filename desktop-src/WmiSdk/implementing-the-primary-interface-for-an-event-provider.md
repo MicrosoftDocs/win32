@@ -1,12 +1,8 @@
 ---
 Description: An event provider must implement the IWbemEventProvider interface to generate event notifications.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: ae33c9f5-61f7-4488-a281-01d7f9c62c46
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for an Event Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

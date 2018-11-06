@@ -2,7 +2,6 @@
 Description: MPEG-2 Media Types
 ms.assetid: 20fb2dc3-76b5-421a-b8e1-d99fad2ce2dd
 title: MPEG-2 Media Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

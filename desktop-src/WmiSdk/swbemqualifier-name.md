@@ -1,12 +1,8 @@
 ---
 Description: The Name property of the SWbemQualifier object defines the name of this qualifier. This property is read-only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c0e0b0fb-8c79-4da1-8706-a9b785431e49
 ms.tgt_platform: multiple
 title: SWbemQualifier.Name property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

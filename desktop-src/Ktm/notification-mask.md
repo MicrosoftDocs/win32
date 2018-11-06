@@ -2,7 +2,6 @@
 Description: Lists the different types of notifications that can be received by an enlistment.
 ms.assetid: 65db8ba5-193c-439b-8e8c-6cb4a9bd4efd
 title: NOTIFICATION_MASK
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

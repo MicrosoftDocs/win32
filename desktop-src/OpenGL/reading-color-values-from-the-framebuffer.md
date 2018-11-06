@@ -6,7 +6,6 @@ keywords:
 - OpenGL on Windows,reading color values from framebuffers
 - reading color values from framebuffers OpenGL
 - framebuffers,reading color values OpenGL
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

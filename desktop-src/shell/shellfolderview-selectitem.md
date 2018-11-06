@@ -1,7 +1,6 @@
 ---
 Description: Sets the selection state of an item in the view.
 title: ShellFolderView.SelectItem method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

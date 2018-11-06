@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Migrated attribute
 description: The MSMQ-Migrated attribute contains MSMQ mixed-mode information.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a1403cdd-7781-4329-ba49-bdc9ca067143
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Migrated
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

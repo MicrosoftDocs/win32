@@ -20,7 +20,6 @@ keywords:
 - DirectX Media Object (DMO),about
 - DMO (DirectX Media Object),about
 - IWMWatermarkInfo
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

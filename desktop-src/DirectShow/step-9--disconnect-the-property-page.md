@@ -2,7 +2,6 @@
 Description: Step 9.
 ms.assetid: 3e476422-ab76-4a2b-af9b-d9d065d79e5b
 title: Step 9. Disconnect the Property Page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

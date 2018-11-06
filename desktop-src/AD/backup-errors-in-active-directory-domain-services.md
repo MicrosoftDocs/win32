@@ -1,15 +1,11 @@
 ---
 title: Backup Errors in Active Directory Domain Services
 description: This topic lists backup error return values for functions in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d042f189-1b86-42ca-bdb4-a8aaa96c9c65
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Backup Errors
 - Active Directory Domain Service Backup Errors
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

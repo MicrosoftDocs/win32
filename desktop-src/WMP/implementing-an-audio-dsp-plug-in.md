@@ -13,7 +13,6 @@ keywords:
 - DSP plug-ins,audio implementation
 - audio DSP plug-ins,implementing code
 - audio DSP plug-ins,modifying sample code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

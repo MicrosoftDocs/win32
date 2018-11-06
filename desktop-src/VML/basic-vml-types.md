@@ -20,7 +20,6 @@ keywords:
 - font type
 - bitmap type
 - vector type
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: DragPattern/DragDropPattern elements requires valid DropEffect
 description: DragPattern/DragDropPattern elements requires valid DropEffect
 ms.assetid: 508DD4F3-4878-4A9E-859D-06BBDA505708
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

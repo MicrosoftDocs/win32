@@ -1,12 +1,8 @@
 ---
 title: Attributes
 description: Attributes
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: af7d220d-f920-4480-9cf1-72a2cb542e4e
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

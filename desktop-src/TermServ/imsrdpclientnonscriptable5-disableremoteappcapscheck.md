@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 DisableRemoteAppCapsCheck property
 description: Specifies whether the Remote Desktop ActiveX control should not check the server for RemoteApp capabilities.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: dcc44d4b-ece5-4f5b-a00a-f90d7a2fa11a
 ms.tgt_platform: multiple
 keywords:
@@ -20,7 +17,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

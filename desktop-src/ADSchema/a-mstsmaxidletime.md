@@ -1,9 +1,6 @@
 ---
 title: ms-TS-Max-Idle-Time attribute
 description: Terminal Services session Maximum Idle Time is the maximum amount of time, in minutes, that the Terminal Services session can remain idle.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a6da59a9-d3e5-4f54-9481-a4dc6a5eb5cd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-TS-Max-Idle-Time
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

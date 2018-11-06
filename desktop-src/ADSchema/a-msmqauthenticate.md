@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Authenticate attribute
 description: Indicates whether the queue accepts only authenticated messages.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: f03316e3-daae-4d1e-b135-8b4c3c2765b2
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Authenticate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

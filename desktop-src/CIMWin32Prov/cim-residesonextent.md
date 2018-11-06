@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ResidesOnExtent class represents an association between a file system and the storage extent where it is located. Typically, a file system resides on a logical disk.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 911a81e9-3032-41ff-a337-044c06d02307
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ResidesOnExtent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_ResidesOnExtent** class represents an association between a file system and the storage extent where it is located. Typically, a file system resides on a logical disk.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

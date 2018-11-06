@@ -2,7 +2,6 @@
 Description: Add an array of sprites to the batch of sprites to be rendered.
 ms.assetid: e6a9f806-7244-4139-b47e-c46dfab38a31
 title: ID3DX10Sprite::DrawSpritesBuffered method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

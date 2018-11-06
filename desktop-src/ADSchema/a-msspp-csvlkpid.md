@@ -1,9 +1,6 @@
 ---
 title: ms-SPP-CSVLK-Pid attribute
 description: ID of CSVLK product-key used to create the Activation Object
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 67aa6952-0ce8-40a3-948e-ac7198e04c60
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-SPP-CSVLK-Pid
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ExtendedDisconnectReasonCode enumeration
 description: Defines extended information about the control's reason for disconnection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: E73E73B4-6C6B-4270-A1BD-947FA6D7B31B
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 ---

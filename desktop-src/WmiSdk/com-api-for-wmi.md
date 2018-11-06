@@ -1,12 +1,8 @@
 ---
 Description: You can use the WMI Component Object Model (COM) API to write management client applications or create a new WMI provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 5fa8f1b5-fd19-4d45-9b53-bc7089eecdb1
 ms.tgt_platform: multiple
 title: COM API for WMI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

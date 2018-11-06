@@ -2,7 +2,6 @@
 Description: Begins a scene.
 ms.assetid: 8125c592-b985-42f7-8644-59ba93a1c517
 title: ID3DXRenderToSurface::BeginScene method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

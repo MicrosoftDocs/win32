@@ -1,14 +1,10 @@
 ---
 title: Assembling Query Strings
 description: In Active Directory, using specific filtering criteria can boost search performance. This is because Active Directory evaluates all predicates, identifies the indices, and then selects one index likely to yield the smallest set of returned values.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4139eedb-1383-4654-9b40-5e294a71be24
 ms.tgt_platform: multiple
 keywords:
 - Assembling Query Strings ADSI
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

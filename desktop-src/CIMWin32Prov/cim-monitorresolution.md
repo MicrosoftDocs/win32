@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_MonitorResolution class represents the relationship between horizontal and vertical resolutions and the refresh rate and scan mode for a desktop monitor. Values are specified in the video controller object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 064620dd-2d92-42d0-9167-35867830a077
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_MonitorResolution class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -35,7 +29,7 @@ api_location:
 
 The **CIM\_MonitorResolution** class represents the relationship between horizontal and vertical resolutions and the refresh rate and scan mode for a desktop monitor. Values are specified in the video controller object.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

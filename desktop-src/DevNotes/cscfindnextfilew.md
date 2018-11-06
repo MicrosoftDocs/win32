@@ -2,7 +2,6 @@
 Description: Continues a file search operation.
 ms.assetid: 5b1a8f67-7fce-4ba5-918d-826bdaca1947
 title: CSCFindNextFileW function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

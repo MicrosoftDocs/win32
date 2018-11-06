@@ -1,14 +1,10 @@
 ---
 title: CCLSOBJ.CPP
 description: In the example provider component, the functions for the schema class object are contained in cclsobj.cpp.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e8cdef8e-c031-49e0-9496-871064aec8bd
 ms.tgt_platform: multiple
 keywords:
 - CSampleDSClass
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

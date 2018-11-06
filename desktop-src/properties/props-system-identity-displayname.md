@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 17bf848f-6d45-4588-aaa7-50fe99579440
 title: System.Identity.DisplayName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

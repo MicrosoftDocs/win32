@@ -2,7 +2,6 @@
 Description: Forced Key Frame Insertion
 ms.assetid: 844e5a01-96db-4a69-9704-f0fdbfee3957
 title: Forced Key Frame Insertion
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -6,7 +6,6 @@ keywords:
 - Windows Ribbon,migrating to
 - Ribbon,migrating to
 - migrating to Windows Ribbon
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -234,7 +233,7 @@ Replacing standard menus and toolbars with a ribbon in a legacy application requ
 5.  Attach the ribbon to the top-level window of the application.
 6.  Load the compiled markup.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Existing status bar and keyboard shortcut tables should be preserved as the Ribbon framework does not replace these features.
 
  

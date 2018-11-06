@@ -1,9 +1,6 @@
 ---
 title: SetIPAndPort method of the Win32_TSGatewayServerSettings class
 description: Sets the listening IP address and port number for the specified transport.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f46f4660-31ce-4513-b93d-acd50b42ae0a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

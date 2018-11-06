@@ -2,7 +2,6 @@
 Description: Sent when the size and position of a window's client area must be calculated. By processing this message, an application can control the content of the window's client area when the size or position of the window changes.
 ms.assetid: d2d5825e-02a5-44b8-8615-55b7259d24ba
 title: WM_NCCALCSIZE message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

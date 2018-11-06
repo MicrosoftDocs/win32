@@ -1,9 +1,6 @@
 ---
 title: Service-DNS-Name attribute
 description: The DNS name to look up to find a server running this service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b2852276-30f5-4c2a-9f72-9df0d7c0c994
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-DNS-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

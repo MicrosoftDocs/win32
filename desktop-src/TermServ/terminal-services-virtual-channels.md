@@ -1,12 +1,8 @@
 ---
 title: Remote Desktop Services virtual channels
 description: Virtual channels are software extensions that can be used to add functional enhancements to a Remote Desktop Services application.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f7bdebec-ecc3-4f28-9327-f0d2f169c142
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

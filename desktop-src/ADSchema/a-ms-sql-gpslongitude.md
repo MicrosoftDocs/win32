@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-GPSLongitude attribute
 description: The MS-SQL-GPSLongitude attribute is not currently used.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 70dfe2f1-f222-47f8-981f-0f2ca1718c72
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-GPSLongitude
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

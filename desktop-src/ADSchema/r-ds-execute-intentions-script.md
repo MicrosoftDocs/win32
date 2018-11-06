@@ -1,9 +1,6 @@
 ---
 title: DS-Execute-Intentions-Script extended right
 description: Control access right, which should be granted to the partitions container, that allows the Rendom.exe or prepare operation to be used in a domain rename.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 39e9e76c-55c5-4514-ad4d-102844bcbc5a
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - DS-Execute-Intentions-Script
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

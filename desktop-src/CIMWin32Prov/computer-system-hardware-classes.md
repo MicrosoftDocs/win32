@@ -1,14 +1,8 @@
 ---
 Description: The Computer System Hardware category groups classes together that represent hardware related objects. Examples include input devices, hard disks, expansion cards, video devices, networking devices, and system power.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 0b6cb410-166e-45cd-8dca-77a111b3cf62
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Computer System Hardware Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: The following example sets the last-write time for a file to the current system time using the SetFileTime function.
 ms.assetid: b4a70c01-d5ce-47e8-9918-9c9176894240
 title: Changing a File Time to the Current Time
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

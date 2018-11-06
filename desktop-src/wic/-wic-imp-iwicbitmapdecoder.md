@@ -2,7 +2,6 @@
 Description: Implementing IWICBitmapDecoder
 ms.assetid: 9e316bdd-803a-47af-b004-7675478eb829
 title: Implementing IWICBitmapDecoder
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Constructor method.
 ms.assetid: 009ade28-0788-48d7-a037-4835736f77da
 title: CRefTime.CRefTime constructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

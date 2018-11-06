@@ -2,7 +2,6 @@
 title: Tree View Structures
 description: .
 ms.assetid: 2860458f-0217-4434-aab7-69f6f4274055
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

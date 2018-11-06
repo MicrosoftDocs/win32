@@ -2,7 +2,6 @@
 Description: An operation that completes asynchronously performs part of its processing in the function call made by the application and the remainder of it in an independent execution thread after TAPI 2.x has returned from the function call.
 ms.assetid: 37b544e4-6413-4741-b8b6-ec676ce4ca97
 title: Asynchronous Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

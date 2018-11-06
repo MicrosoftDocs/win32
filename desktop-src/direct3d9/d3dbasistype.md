@@ -2,7 +2,6 @@
 Description: Defines the basis type of a high-order patch surface.
 ms.assetid: 18c31c77-7ba3-449c-af4a-717b8c1dced1
 title: D3DBASISTYPE enumeration
-ms.author: windowssdkdev
 ms.topic: enumeration
 ms.date: 05/31/2018
 topic_type: 

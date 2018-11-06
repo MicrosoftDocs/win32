@@ -2,7 +2,6 @@
 title: How to Walk the UI Automation Tree
 description: This topic contains example code that shows how to use the IUIAutomationTreeWalker interface to walk through and examine the elements in the Microsoft UI Automation tree.
 ms.assetid: 41ca783d-56d1-4ad5-8f07-c265ff2e07bd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

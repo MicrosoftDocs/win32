@@ -2,7 +2,6 @@
 Description: The default queue callback routine handles notifications sent by SetupCommitFileQueue in a generic manner.
 ms.assetid: 6f2b3b9f-86e5-42af-8adc-29a1c768d106
 title: About the Default Queue Callback Routine
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

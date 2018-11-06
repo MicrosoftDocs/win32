@@ -5,7 +5,6 @@ ms.assetid: 84f9e075-7f54-4c05-bb40-a1118a96d71c
 keywords:
 - Background Intelligent Transfer Service
 - Background Intelligent Transfer Service,reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

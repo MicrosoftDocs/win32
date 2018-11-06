@@ -2,7 +2,6 @@
 Description: Retrieves the capabilities of the recognizer.
 ms.assetid: 9014bd9b-54fb-4735-9eb8-56a6188a5fc0
 title: IInkAnalysisRecognizer::GetCapabilities method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 05f45578-3259-4570-a1da-6068f520ecc0
 title: System.Contact.HomeAddress3Street
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

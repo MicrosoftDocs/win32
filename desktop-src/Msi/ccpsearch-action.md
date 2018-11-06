@@ -2,7 +2,6 @@
 Description: The CCPSearch action uses file signatures to validate that qualifying products are installed on a system before an upgrade installation is performed.
 ms.assetid: 0aa7bf8b-de76-464d-8e7b-3aa4f609fe19
 title: CCPSearch Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: MCI Reference
 ms.assetid: e7cedfc2-ce01-481c-a431-c93c97d45baf
 keywords:
 - MCI reference,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

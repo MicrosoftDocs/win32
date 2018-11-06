@@ -1,12 +1,8 @@
 ---
 Description: The CInstance::GetWBEMINT64 method retrieves a 64-bit integer property.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: b51d0c51-3b72-4358-8fc3-d1dbc298b4d9
 ms.tgt_platform: multiple
 title: CInstance::GetWBEMINT64 methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

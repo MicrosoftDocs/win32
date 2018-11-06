@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_ProtectedSpaceExtent class represents addressable logical-block addresses, which are treated as a single storage extent, but are located on a single physical extent.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c6fac984-3b04-4fdb-916a-f83a9d35c67b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_ProtectedSpaceExtent class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -51,7 +45,7 @@ api_location:
 
 The **CIM\_ProtectedSpaceExtent** class represents addressable logical-block addresses, which are treated as a single storage extent, but are located on a single physical extent. Protected space extents exclude any logical blocks mapped as check data and contain user-data stripe depth mapping information. An alternate possibility, if automatic configuration is used, is to instantiate or extend the [**CIM\_AggregatePSExtent**](cim-aggregatepsextent.md) class.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

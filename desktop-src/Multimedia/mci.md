@@ -5,7 +5,6 @@ ms.assetid: 'b414dffb-3701-4dfd-aa8c-cd8e8918027d'
 keywords:
 - Media Control Interface (MCI),about
 - MCI (Media Control Interface),about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

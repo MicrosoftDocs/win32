@@ -2,7 +2,6 @@
 title: Changing Elements of User Information
 description: The network management functions provide a variety of information levels to assist in changing user information.
 ms.assetid: dc126431-57b0-467b-9f56-1e66a647c7b1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The RegisterMediaTime method caches the time stamps from the current sample.
 ms.assetid: 9ff8e4ec-3401-4272-894d-643f0fc029de
 title: CRendererPosPassThru.RegisterMediaTime method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

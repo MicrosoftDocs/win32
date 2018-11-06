@@ -2,7 +2,6 @@
 Description: The SetProperties method sets the primitive referred by TLVs (tag, length, value) for the specified object.
 ms.assetid: f8f75c8e-14f4-4bc4-b49d-b232ede374b0
 title: ISCardFileAccess::SetProperties method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

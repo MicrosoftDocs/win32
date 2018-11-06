@@ -1,9 +1,6 @@
 ---
 title: shadowMin attribute
 description: Contains the minimum number of days between shadow changes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 10b54fb7-edd3-4700-a0ed-e4d8591968d3
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - shadowMin
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

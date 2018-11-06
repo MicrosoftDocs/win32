@@ -1,9 +1,6 @@
 ---
 title: ITsSbResourcePluginStoreEx interface
 description: Exposes methods that enable resource plug-ins to store objects such as sessions and targets.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 768a5a4e-8221-417a-ad65-9a213a176eca
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ITsSbResourcePluginStoreEx
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 api_location: 

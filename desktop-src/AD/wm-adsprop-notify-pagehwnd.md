@@ -1,9 +1,6 @@
 ---
 title: WM_ADSPROP_NOTIFY_PAGEHWND message
 description: An Active Directory directory service property sheet extension calls the ADsPropSetHwnd to inform the notification object of the property page window handle.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: eb8bf525-cd7f-44d0-a0f9-43178a29c443
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

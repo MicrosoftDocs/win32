@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_HeatPipe class represents the capabilities and management of a heat pipe cooling device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 55cbf645-12d8-4f17-a894-43195d42de0e
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_HeatPipe class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -46,7 +40,7 @@ api_location:
 
 The **CIM\_HeatPipe** class represents the capabilities and management of a heat pipe cooling device.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

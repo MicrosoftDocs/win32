@@ -2,7 +2,6 @@
 title: Move Event
 description: Move Event
 ms.assetid: 973e9e68-edbb-4741-b50e-57db96712df8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

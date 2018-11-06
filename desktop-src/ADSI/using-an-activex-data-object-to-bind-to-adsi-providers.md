@@ -1,16 +1,12 @@
 ---
 title: Using an ActiveX Data Object to Bind to ADSI Providers
 description: Since ADSI is also an OLE DB provider, you can use an ActiveX Data Object (ADO) to connect to ADSI providers.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b42d804b-f1eb-4085-88aa-015a92309ee8
 ms.tgt_platform: multiple
 keywords:
 - ActiveX data object ADSI
 - ActiveX data object ADSI ,using ADO to bind to ADSI providers
 - service providers ADSI ,using ActiveX data object to bind to
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

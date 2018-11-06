@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-LastBackupDate attribute
 description: The last date that the database was backed up.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 09bd6c2a-85fe-46af-8569-5bc3cbc8411d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-LastBackupDate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

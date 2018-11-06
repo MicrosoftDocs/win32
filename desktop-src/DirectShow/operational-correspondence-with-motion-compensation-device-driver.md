@@ -2,7 +2,6 @@
 Description: Operational Correspondence with Motion Compensation Device Driver
 ms.assetid: bd92a0f4-98d9-497a-99b9-0cf432347daf
 title: Operational Correspondence with Motion Compensation Device Driver
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

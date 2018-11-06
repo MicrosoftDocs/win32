@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Byte-Array attribute
 description: An attribute for storing binary data.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0053b11a-d55d-4d4e-998d-d9536c326f60
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Byte-Array
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

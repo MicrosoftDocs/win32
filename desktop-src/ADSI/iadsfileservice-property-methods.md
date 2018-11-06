@@ -1,9 +1,6 @@
 ---
 title: IADsFileService Property Methods
 description: The property methods of the IADsFileService interface get or set the properties described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1455df61-9218-450b-b956-1cf127364f24
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Contains logon credentials for a connection.
 ms.assetid: 79c1d277-6284-4adb-a1bd-6c207b37e33e
 title: UserLogonCred (contextType) Element
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

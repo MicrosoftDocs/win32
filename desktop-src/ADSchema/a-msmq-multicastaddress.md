@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Multicast-Address attribute
 description: This is part of an MSMQ object, it is set by calling API to MQCreateQueue or MQSetProperties. It controls whether MSMQ will accept messages from a multicast address.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 65622cc9-81d9-42c6-b208-cac703f32244
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Multicast-Address
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

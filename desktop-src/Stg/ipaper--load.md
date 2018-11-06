@@ -4,7 +4,6 @@ description: The following C++ sample code shows how to open the existing stream
 ms.assetid: a1559d97-387f-4d1a-8a9d-fa5c27abd545
 keywords:
 - IPaper Load
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

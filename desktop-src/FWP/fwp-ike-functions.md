@@ -4,7 +4,6 @@ description: (WFP) functions used to interact with keying modules \ 8212;Interne
 ms.assetid: df36b6cc-a304-4426-8f16-1bf92fd721e1
 keywords:
 - Windows Filtering Platform API Internet Key Exchange Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

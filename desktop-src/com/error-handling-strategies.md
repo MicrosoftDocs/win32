@@ -2,7 +2,6 @@
 title: Error Handling Strategies
 description: Error Handling Strategies
 ms.assetid: 8d03ede8-0661-43dc-adaf-3c1f5fc1687e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

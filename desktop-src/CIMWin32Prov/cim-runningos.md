@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_RunningOS class represents the currently executing operating system. At most, one operating system can execute at any time on a computer system; the computer system may not be currently booted, or its operating system may be unknown.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 93e3d425-d751-4252-aa81-7d6774c8f8c5
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_RunningOS class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_RunningOS** class represents the currently executing operating system. At most, one operating system can execute at any time on a computer system; the computer system may not be currently booted, or its operating system may be unknown.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

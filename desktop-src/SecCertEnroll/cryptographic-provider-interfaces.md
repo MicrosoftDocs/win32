@@ -2,7 +2,6 @@
 Description: The following interfaces can be used to retrieve information about cryptographic providers.
 ms.assetid: f4f6a763-707d-48a2-acb9-2a0c3530cf6b
 title: Cryptographic Provider Interfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

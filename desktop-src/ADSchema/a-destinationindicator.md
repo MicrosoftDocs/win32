@@ -1,9 +1,6 @@
 ---
 title: Destination-Indicator attribute
 description: This is part of the X.500 specification and not used by NTDS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3c8c8df1-25d7-4ef6-bec4-66b12318b3f0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Destination-Indicator
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

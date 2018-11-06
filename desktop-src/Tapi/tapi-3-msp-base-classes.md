@@ -2,7 +2,6 @@
 Description: 'This document describes the design and use of the MSP Base Classes. Use of these classes is not required, but most developers will find they simplify the task of building a DirectShow-based MSP for TAPI 3's new MSPI.'
 ms.assetid: '97597dcf-eb18-47aa-b0ed-a43286d5d134'
 title: TAPI 3 MSP Base Classes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

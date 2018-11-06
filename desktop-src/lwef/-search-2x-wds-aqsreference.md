@@ -2,7 +2,6 @@
 title: Advanced Query Syntax
 description: The Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches.
 ms.assetid: 8e55bd40-c7cf-44a6-bc18-24bc7a267779
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Teredo Components
 ms.assetid: 95d83030-b1de-4f09-b9d0-f443d9672ca1
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

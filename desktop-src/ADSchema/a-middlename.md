@@ -1,9 +1,6 @@
 ---
 title: Other-Name attribute
 description: Additional names for a user. For example, middle name, patronymic, matronymic, or others.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 539de593-e879-4b4a-bf75-c022f53e80de
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Other-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,7 +1,6 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
 title: CPL_NEWINQUIRE message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

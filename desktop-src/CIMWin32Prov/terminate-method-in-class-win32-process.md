@@ -1,14 +1,8 @@
 ---
 Description: The Terminate&\#32;WMI class method terminates a process and all of its threads.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6c6b27d4-cf9b-42d7-9136-42641ea56ee8
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Terminate method of the Win32_Process class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

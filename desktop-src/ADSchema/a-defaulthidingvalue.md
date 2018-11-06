@@ -1,9 +1,6 @@
 ---
 title: Default-Hiding-Value attribute
 description: A Boolean value that specifies the default setting of the showInAdvancedViewOnly property of new instances of this class.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aed0030c-7366-440e-b840-75782cb939d1
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Default-Hiding-Value
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

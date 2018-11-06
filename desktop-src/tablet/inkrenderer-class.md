@@ -2,7 +2,6 @@
 Description: Represents the management of mappings from ink to the display window. Use the InkRenderer object to display ink in a window. You can also use it to reposition and resize stroke.
 ms.assetid: 66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7
 title: InkRenderer class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

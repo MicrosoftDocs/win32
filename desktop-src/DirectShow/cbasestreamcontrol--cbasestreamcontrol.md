@@ -2,7 +2,6 @@
 Description: Destructor method.
 ms.assetid: 292b4e33-02e2-4325-9784-bd41893e1ff4
 title: CBaseStreamControl.~CBaseStreamControl destructor
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_VoltageSensor class exists for backward compatibility to earlier CIM schema definitions. With additions to the CIM\_Sensor and CIM\_NumericSensor classes in version 2.2, it is no longer necessary.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a578c7a2-27d5-4bd8-86d7-3962d5091f14
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_VoltageSensor class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -61,7 +55,7 @@ api_location:
 
 The **CIM\_VoltageSensor** class exists for backward compatibility to earlier CIM schema definitions. With additions to the [**CIM\_Sensor**](cim-sensor.md) and [**CIM\_NumericSensor**](cim-numericsensor.md) classes in version 2.2, it is no longer necessary. A voltage sensor can be defined by setting the **SensorType** property, inherited from [**CIM\_Sensor**](cim-sensor.md), to 3 ("Voltage"). Other properties of this class are hard-coded to constant values that correspond to definitions in the sensor hierarchy.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

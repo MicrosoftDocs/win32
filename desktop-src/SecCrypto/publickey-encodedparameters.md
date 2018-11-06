@@ -2,7 +2,6 @@
 Description: Retrieves the parameters of the public key algorithm.
 ms.assetid: 1d12f72e-0144-4b7b-b468-d2f35bf253d3
 title: PublicKey.EncodedParameters property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:

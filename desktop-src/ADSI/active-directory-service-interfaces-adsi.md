@@ -1,16 +1,12 @@
 ---
 title: Active Directory Service Interfaces
 description: Introduction to Active Directory Services Interfaces, with links to different guides.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b24f9789-b9f5-49c4-9812-298bae8b28a9
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI
 - Active Directory Service Interfaces (See ADSI)
 - ADSI ADSI ,start page
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

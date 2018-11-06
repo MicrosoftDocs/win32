@@ -1,12 +1,8 @@
 ---
 title: ITsSbServiceNotification Methods
 description: The ITsSbServiceNotification interfaces exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: B2DED62A-03B0-4837-A5D2-FC7EFB7EEF0E
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

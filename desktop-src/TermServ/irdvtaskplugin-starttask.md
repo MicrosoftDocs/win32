@@ -1,9 +1,6 @@
 ---
 title: IRDVTaskPlugin StartTask method
 description: Called to start the update task on the virtual machine.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c1e9f18b-1e83-4a29-8646-8adde94e8c14
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_name:
 - IRDVTaskPlugin.StartTask
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 api_location: 

@@ -2,7 +2,6 @@
 title: WinINet Structures
 description: The following are the WinINet structures.
 ms.assetid: 86cae0d8-effc-486b-8141-309c7d1bfb00
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

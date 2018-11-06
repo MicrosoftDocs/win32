@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Effective-Security-Policy attribute
 description: For a central access rule, this attribute defines the permission that is applying to the target resources on the central access rule.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0b7e14b7-9f5d-4437-a0a7-a6ec329c4f80
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Effective-Security-Policy
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

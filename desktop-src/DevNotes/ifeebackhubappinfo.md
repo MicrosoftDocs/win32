@@ -2,7 +2,6 @@
 Description: This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 ms.assetid: 9A3D38AA-75AF-4719-AEDB-BDC31079F57B
 title: IFeedbackHubAppInfo interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

@@ -6,7 +6,6 @@ keywords:
 - monitor,enumeration types
 - enumeration types for monitor configuration
 - monitor configuration,enumeration types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

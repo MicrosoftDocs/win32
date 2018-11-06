@@ -2,7 +2,6 @@
 Description: A user can check the status of the Teredo interface from the command prompt by typing netsh interface teredo show state and examining the output.
 ms.assetid: b6ac1708-fb8a-449b-b30f-c889688a4bac
 title: The Peer Infrastructure and Teredo
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

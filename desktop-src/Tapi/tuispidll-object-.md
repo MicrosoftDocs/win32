@@ -2,7 +2,6 @@
 Description: The TUISPIDLL\_OBJECT is defined below.
 ms.assetid: bc0f876d-2443-4c3c-b723-3f82dc6bf849
 title: TUISPIDLL_OBJECT_
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

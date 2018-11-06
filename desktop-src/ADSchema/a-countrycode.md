@@ -1,9 +1,6 @@
 ---
 title: Country-Code attribute
 description: Specifies the country/region code for the user's language of choice. This value is not used by Windows 2000.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7011cb76-aa86-4203-bcc4-0136bb11c403
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Country-Code
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

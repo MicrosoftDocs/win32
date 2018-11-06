@@ -2,7 +2,6 @@
 Description: This section contains an alphabetic listing of the line device structures used by TAPI.
 ms.assetid: a1ca88dc-8497-41f5-889d-16eecfee0648
 title: Line Device Structures
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

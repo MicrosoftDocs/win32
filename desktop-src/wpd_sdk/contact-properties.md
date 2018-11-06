@@ -2,7 +2,6 @@
 Description: Windows Portable Devices supports the following contact properties.
 ms.assetid: 8571b5a3-c3ac-40f2-86e1-33a8d5d0e550
 title: Contact Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

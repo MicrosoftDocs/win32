@@ -2,7 +2,6 @@
 title: Using Methods
 description: When a client registers with the routing table manager, it can export a set of methods. These methods are used by other clients to obtain client-specific information. Methods enable private communication between clients of the routing table manager.
 ms.assetid: 6d984a02-d005-43ad-81c4-968ae9c1a105
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

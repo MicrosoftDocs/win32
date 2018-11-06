@@ -1,12 +1,8 @@
 ---
 title: Schema Implementation
 description: In Active Directory Domain Services, class and attribute definitions are stored in the directory as instances of the classSchema and attributeSchema classes, respectively.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 917f8e65-df2c-457e-bfd8-3f1ce0d0fbae
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Contains information about a smart card cryptographic service provider (CSP).
 ms.assetid: b3e6722a-25dd-4137-b224-4082e846ddec
 title: KERB_SMARTCARD_CSP_INFO structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 
@@ -106,7 +105,7 @@ The private key to use from the key container specified within the buffer **bBuf
 
 The number of characters in the **bBuffer** buffer that precede the name of the smart card in that buffer.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If the name of the smart card is not provided, the buffer must contain an empty string.
 
  
@@ -118,7 +117,7 @@ The number of characters in the **bBuffer** buffer that precede the name of the 
 
 The number of characters in the **bBuffer** buffer that precede the name of the smart card reader in that buffer.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > If the name of the smart card reader is not provided, the buffer must contain an empty string.
 
  

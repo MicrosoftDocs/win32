@@ -2,7 +2,6 @@
 Description: This section introduces the presentation APIs and discusses the issues involved in presenting a scene to the display.
 ms.assetid: 'vs|directx_sdk|~\presenting_a_scene.htm'
 title: Presenting a Scene (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

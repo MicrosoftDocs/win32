@@ -2,7 +2,6 @@
 title: How to Create an IP Address Control
 description: This topic demonstrates how to create an instance of an IP address control.
 ms.assetid: E4DBECA6-B3F2-405F-8D95-32FA2334114D
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -4,7 +4,6 @@ description: Setting the Time Format
 ms.assetid: c670d47e-30fc-4637-b468-b6a415605dca
 keywords:
 - MCI_SET command message
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

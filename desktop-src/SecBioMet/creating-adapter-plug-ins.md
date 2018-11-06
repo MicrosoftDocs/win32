@@ -4,7 +4,6 @@ description: How to use the Windows Biometric Framework API to create adapter pl
 ms.assetid: a1a18d4b-e047-4fa7-ad9b-c531e987a7a4
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , adapter plug-ins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

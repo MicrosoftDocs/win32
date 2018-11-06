@@ -2,7 +2,6 @@
 title: About Retransmission
 description: A WinSNMP application can make SNMP operation requests in various ways.
 ms.assetid: 71150a66-74a3-4957-bc70-3dd25c3b9c71
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

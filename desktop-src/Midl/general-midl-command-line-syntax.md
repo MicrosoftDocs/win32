@@ -4,7 +4,6 @@ description: The MIDL compiler processes an IDL file and an optional application
 ms.assetid: 1906b374-d0d1-4ec8-9a00-c5228b4c29ca
 keywords:
 - command-line reference MIDL , general syntax
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

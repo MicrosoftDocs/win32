@@ -1,9 +1,6 @@
 ---
 title: IADsAccessControlEntry Property Methods
 description: The property methods of the IADsAccessControlEntry interface get or set the properties described in the following table. For more information, see Interface Property Methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: dce11723-0e30-4baa-8666-0a32f0968ebb
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

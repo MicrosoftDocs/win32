@@ -1,9 +1,6 @@
 ---
 title: Managed Reference for WinRM Windows PowerShell Command Classes
 description: Windows Remote Management 2.0 (WinRM) can use Windows PowerShell cmdlets for system management. Windows PowerShell cmdlets enable an administrator to configure WinRM and to get data or manage resources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 1ecdd41e-7257-483a-9a20-ae817f5f5ebe
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +21,6 @@ keywords:
 - AuthenticationMechanism
 - ProxyAccessType
 - ProxyAuthentication
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

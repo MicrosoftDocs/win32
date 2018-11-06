@@ -1,9 +1,6 @@
 ---
 title: MS-SQL-LastUpdatedDate attribute
 description: This value represents the time that SQL last updated Active Directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 74b7a14b-3e6b-49c8-9ce8-78579a77a5fd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MS-SQL-LastUpdatedDate
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

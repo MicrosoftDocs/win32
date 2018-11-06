@@ -1,12 +1,8 @@
 ---
 title: Detecting the Remote Desktop Services environment
 description: To optimize performance, it is good practice for applications to detect whether they are running in a Remote Desktop Services client session.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9ba03801-8471-43a9-8e24-114a082d5776
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

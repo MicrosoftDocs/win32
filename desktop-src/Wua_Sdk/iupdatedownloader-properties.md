@@ -2,7 +2,6 @@
 Description: The IUpdateDownloader interface defines the following properties.
 ms.assetid: b6a30356-f97d-408f-becd-a467e9f8e79f
 title: IUpdateDownloader Properties
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

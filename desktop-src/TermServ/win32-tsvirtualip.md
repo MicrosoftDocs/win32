@@ -1,9 +1,6 @@
 ---
 title: Win32_TSVirtualIP class
 description: Defines Internet protocol (IP) virtualization settings for a Remote Desktop Session Host (RD Session Host) server.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: c37d572c-f6db-438b-8290-006a623c6593
 ms.tgt_platform: multiple
 keywords:
@@ -34,7 +31,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

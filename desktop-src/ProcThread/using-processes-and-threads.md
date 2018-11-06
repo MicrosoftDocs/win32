@@ -2,7 +2,6 @@
 Description: The following examples demonstrate the process, thread, and fiber functions.
 ms.assetid: 472fc0ac-e840-433d-9f1a-510f202e723e
 title: Using Processes and Threads
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

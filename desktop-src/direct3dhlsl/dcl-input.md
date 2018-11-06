@@ -2,7 +2,6 @@
 title: dcl_input (sm4 - asm)
 description: dcl\_input (sm4 - asm)
 ms.assetid: 13456f2a-ee6c-42da-a9fe-670ab0fcbddf
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

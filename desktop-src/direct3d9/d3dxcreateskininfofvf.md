@@ -2,7 +2,6 @@
 Description: Creates an empty skin mesh object using a flexible vertex format (FVF) code.
 ms.assetid: 72e27850-0102-4121-a397-16f2e0220b93
 title: D3DXCreateSkinInfoFVF function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

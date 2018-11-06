@@ -1,9 +1,6 @@
 ---
 title: Object-Class-Category attribute
 description: This attribute contains the class type, such as abstract, auxiliary, or structured.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0698392d-991e-4a3c-b734-54d025a38d50
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Object-Class-Category
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

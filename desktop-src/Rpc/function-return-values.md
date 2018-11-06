@@ -2,7 +2,6 @@
 title: Function Return Values
 description: Function return values are similar to \ out\ -only parameters because their data is not provided by the client application.
 ms.assetid: 98d8d228-7222-49bf-9f29-7749a7a76d5a
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

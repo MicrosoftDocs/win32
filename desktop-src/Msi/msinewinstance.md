@@ -2,7 +2,6 @@
 Description: The MSINEWINSTANCE property indicates the installation of a new instance of a product with instance transforms.
 ms.assetid: 35d41fa9-79d3-4baa-b177-5a32239b5051
 title: MSINEWINSTANCE property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Domain-Info class
 description: Represents an internal data structure used by the server for NIS.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6ec69d6e-04f8-4cc5-919c-afea0fb3566b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Domain-Info
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

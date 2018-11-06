@@ -2,7 +2,6 @@
 Description: Asynchronous Callback Methods
 ms.assetid: ea778eaa-6460-4a93-bd6a-1857ea8b6230
 title: Asynchronous Callback Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

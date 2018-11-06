@@ -2,7 +2,6 @@
 Description: Represents the Microsoft Media Foundation Transform (MFT) stream id of the stream.
 ms.assetid: 2C2590DC-8031-400D-8D48-A61D46F14618
 title: MF_DEVICESTREAM_TRANSFORM_STREAM_ID attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: Using Direct3D 11 feature data to supplement Direct3D feature levels
 description: Find out how to check device support for optional features, including features that were added in recent versions of Windows.
 ms.assetid: 91D9706A-47C5-4220-8AC7-167095E74F74
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

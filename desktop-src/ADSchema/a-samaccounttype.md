@@ -1,9 +1,6 @@
 ---
 title: SAM-Account-Type attribute
 description: This attribute contains information about every account type object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 00479b89-1d96-4ace-bbd8-053ca9e548b0
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - SAM-Account-Type
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

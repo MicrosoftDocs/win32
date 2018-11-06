@@ -2,7 +2,6 @@
 Description: The PrepareWindow method creates the window.
 ms.assetid: c4c0d177-6351-4ecc-b1eb-399b4a94c463
 title: CBaseWindow.PrepareWindow method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

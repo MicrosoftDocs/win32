@@ -1,9 +1,6 @@
 ---
 title: netboot-Tools attribute
 description: The netboot-Tools attribute is reserved for internal use.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ebf8853a-a998-47d5-8ec2-83a233194fd3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-Tools
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

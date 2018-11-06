@@ -8,7 +8,6 @@ keywords:
 - ASF (Advanced Systems Format),input media properties objects
 - objects,input media properties objects
 - input media properties objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: Raised by a stream sink when it completes the transition to the stopped state. The transition to stopped occurs when the IMFPresentationClock Stop method is called on the sinks presentation clock.
 ms.assetid: '1a8c7faa-4d4a-4458-ad08-a760a15dc347'
 title: MEStreamSinkStopped event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

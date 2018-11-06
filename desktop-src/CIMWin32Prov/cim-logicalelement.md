@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_LogicalElement class is the base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 81b2788a-96e8-4570-9a13-d11d229ad789
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_LogicalElement class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -31,7 +25,7 @@ api_location:
 
 The **CIM\_LogicalElement** class is the base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -1,16 +1,12 @@
 ---
 title: Return Values for Functions in Active Directory Domain Services
 description: The following are categories of return values for functions in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e8e85ec1-0574-49ed-b649-f3131b048069
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Return Values AD
 - Active Directory, Reference, Return Values
 - Return Values AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-Enrollment-Servers attribute
 description: Priority, authentication type, and URI of each certificate enrollment web service.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 7125f6da-d7ca-457f-8f90-ca7f74a363ad
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-Enrollment-Servers
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

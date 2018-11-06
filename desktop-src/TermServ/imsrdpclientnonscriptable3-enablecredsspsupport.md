@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable3 EnableCredSspSupport property
 description: Specifies or retrieves whether the Credential Security Service Provider (CredSSP) is enabled for this connection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 770da50b-2a93-4274-9b6f-c24c13f08549
 ms.tgt_platform: multiple
 keywords:
@@ -45,7 +42,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

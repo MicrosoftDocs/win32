@@ -2,7 +2,6 @@
 title: Direct3D 11.4 Features
 description: The following functionality has been added in Direct3D 11.4.
 ms.assetid: 689A0460-5725-4C48-B960-41FE20499082
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

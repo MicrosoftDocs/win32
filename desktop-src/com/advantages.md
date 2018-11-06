@@ -2,7 +2,6 @@
 title: Advantages
 description: Advantages
 ms.assetid: 7f8c0510-1876-40fd-acb8-289bb073ac36
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

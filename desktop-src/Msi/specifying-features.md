@@ -2,7 +2,6 @@
 Description: The Microsoft Installer enables users to install and remove blocks of application functionality that is referred to as Windows Installer Features.
 ms.assetid: 88268c5c-57c5-49f8-92df-1ad8f30a70c2
 title: Specifying Features
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

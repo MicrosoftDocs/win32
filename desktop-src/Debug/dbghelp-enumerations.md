@@ -2,7 +2,6 @@
 Description: The following are the DbgHelp enumeration types.
 ms.assetid: e6c5a398-56e9-48ea-92dd-e60a8c5f33a7
 title: DbgHelp Enumerations
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

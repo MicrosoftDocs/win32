@@ -9,7 +9,6 @@ keywords:
 - Device Manager,service provider sample
 - service providers,samples
 - samples,service providers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -3,7 +3,6 @@ Description: Glossary of Network Monitor terms that begin with the letter W.
 Robots: noindex, nofollow
 ms.assetid: b768f51a-62ff-467c-b8a7-5c7f9932953a
 title: W
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

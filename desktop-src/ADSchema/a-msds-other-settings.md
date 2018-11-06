@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Other-Settings attribute
 description: This multiple-valued attribute is used to store any configurable setting for the DS stored in the NAME VALUE format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e7d17c8e-6264-43d1-9010-9d589f93a086
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Other-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

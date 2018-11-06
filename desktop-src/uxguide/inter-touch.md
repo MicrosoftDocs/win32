@@ -2,7 +2,6 @@
 title: Touch
 description: All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
 ms.assetid: a87d0726-1c57-4cf8-9e35-4e73a09ff1a3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -92,7 +91,7 @@ Windows provides a concise set of touch interactions that are used throughout th
 
 The press and hold gesture displays detailed info or teaching visuals (for example, a tooltip or context menu) without committing to an action or command. Panning is still possible if a sliding gesture is started while the visual is displayed.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > You can use press and hold for selection in cases where both horizontal and vertical panning is enabled.
 
  

@@ -2,7 +2,6 @@
 Description: The Sample Grabber filter is a transform filter that can be used to grab media samples from a stream as they pass through the filter graph.
 ms.assetid: ec0e367e-9ef9-4de6-9132-b462c233bc98
 title: Using the Sample Grabber
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

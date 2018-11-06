@@ -2,7 +2,6 @@
 title: ige (sm4 - asm)
 description: Component-wise vector integer greater-than-or-equal comparison.
 ms.assetid: 3A3225D1-9A3D-4928-9041-38CB6DE16E2A
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

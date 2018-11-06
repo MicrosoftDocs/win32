@@ -2,7 +2,6 @@
 title: Null Sessions
 description: Sometimes a call arriving on the null session can appear like an authenticated call.
 ms.assetid: 5d113d20-c7af-4fb3-ba17-d0715671f290
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Last-Content-Indexed attribute
 description: The time this volume was last content indexed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b2089fef-6dc1-4ba8-81ea-3ffd50c3326c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Last-Content-Indexed
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

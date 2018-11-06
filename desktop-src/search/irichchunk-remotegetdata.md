@@ -2,7 +2,6 @@
 Description: Retrieves the PROPVARIANT and input string that represents a chunk of data. Calling this method is the same as calling GetData.
 ms.assetid: 78846D1D-923F-4FEA-8BF2-B16BB1B21BB3
 title: IRichChunk::RemoteGetData method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

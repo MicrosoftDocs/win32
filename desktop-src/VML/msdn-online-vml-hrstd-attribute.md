@@ -2,7 +2,6 @@
 title: VML HRStd Attribute
 description: VML HRStd Attribute
 ms.assetid: d2589237-e71d-4b9c-b01f-8fa261f1f68c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

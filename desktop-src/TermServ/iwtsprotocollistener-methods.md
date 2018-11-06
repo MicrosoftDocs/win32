@@ -1,12 +1,8 @@
 ---
 title: IWTSProtocolListener Methods
 description: The IWTSProtocolListener interface exposes the following methods.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 6484F59E-20F5-4C6A-914F-A970B32368D1
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: CQPM_CLEARFORM message
 description: Sent to the CQPageProc callback function of a query for extension page when the contents of the page should be reset to the default values.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 0fd3ec82-0566-43de-a7a1-4b6b76bf2050
 ms.tgt_platform: multiple
 keywords:
@@ -16,7 +13,6 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

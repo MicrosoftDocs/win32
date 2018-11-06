@@ -2,7 +2,6 @@
 Description: This section details the binary version of the DirectX (.x) file format as introduced with the release of DirectX 3.0.
 ms.assetid: d1b6698f-72bd-40a4-a501-c2093cd940f6
 title: Binary Encoding
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

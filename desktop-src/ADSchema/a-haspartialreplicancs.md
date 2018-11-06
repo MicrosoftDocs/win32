@@ -1,9 +1,6 @@
 ---
 title: Has-Partial-Replica-NCs attribute
 description: Sibling to Has-Master-NCs. Has-Partial-Replica-NCs reflects the distinguished name for all other-domain NCs that have been replicated into a global catalog.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2501bbb3-74b5-4604-b0c0-8653fc092e1c
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Has-Partial-Replica-NCs
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

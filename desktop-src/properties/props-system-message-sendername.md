@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: b47e6b6c-19f1-4dfc-b119-d69329fb9e6a
 title: System.Message.SenderName
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

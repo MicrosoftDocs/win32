@@ -2,7 +2,6 @@
 title: Implementing Teredo
 ms.assetid: f32e908e-a96d-48a2-8b79-e2e53c64cb68
 description: 
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

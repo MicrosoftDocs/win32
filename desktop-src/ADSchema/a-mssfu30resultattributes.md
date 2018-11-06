@@ -1,9 +1,6 @@
 ---
 title: msSFU-30-Result-Attributes attribute
 description: Contains an object that the NIS server uses for temporary storage.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c59580cd-8c6b-489e-94a8-49516a347e9a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - msSFU-30-Result-Attributes
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

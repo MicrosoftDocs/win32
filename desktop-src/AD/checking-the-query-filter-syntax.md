@@ -1,12 +1,8 @@
 ---
 title: Checking the Query Filter Syntax
 description: The LDAP API provides a simple syntax-verification function. Be aware that it only verifies the syntax and not the existence of the properties specified in the filter.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4e564cd9-2f8b-4e70-928c-3a8bd804aeba
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

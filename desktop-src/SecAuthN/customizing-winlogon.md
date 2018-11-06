@@ -2,7 +2,6 @@
 Description: Customize Winlogon behavior by implementing a Credential Provider.
 ms.assetid: 70b47e29-c755-4c59-a493-d7fcbbc94b83
 title: Customizing Winlogon
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -32,7 +31,7 @@ A Winlogon notification package is a DLL that exports functions that handle Winl
 
 A [*GINA*](https://msdn.microsoft.com/library/windows/desktop/ms721584#-security-gina-gly) stub is a custom GINA DLL that uses the export function implementations of a previously installed GINA DLL (typically MsGina.dll). A GINA stub gets pointers to each function exported by the previously installed GINA DLL. Each GINA stub function then uses the appropriate function pointer to call the corresponding function in the previously installed GINA DLL.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > Each GINA stub function must call the corresponding function in the previously installed GINA.
 
  

@@ -2,7 +2,6 @@
 title: NLM Enumerations
 description: NLM Enumerations
 ms.assetid: 15a65dd0-f088-4473-a2d2-757da413b6e9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

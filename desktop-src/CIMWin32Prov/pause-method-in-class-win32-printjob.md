@@ -1,14 +1,8 @@
 ---
 Description: The Pause WMI class method suspends a print job.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f1e3906f-1ca2-45c0-9863-5762e4e2119a
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Pause method of the Win32_PrintJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -2,7 +2,6 @@
 title: ApiBuffer Functions
 description: The network management ApiBuffer functions are used to manage memory allocation used by an application with network management functions.
 ms.assetid: bf2fe8aa-dda6-4f6b-9c52-d7a96b96da18
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

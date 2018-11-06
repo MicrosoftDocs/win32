@@ -2,7 +2,6 @@
 title: ComboBox Control Messages
 description: .
 ms.assetid: 3de97027-e0c8-4199-a6ef-a8f096b118fd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

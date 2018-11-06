@@ -2,7 +2,6 @@
 Description: When installing a patch and one or more customization transforms to an application, the patch is typically installed first, followed by the customization transforms.
 ms.assetid: 39a58174-fa62-42e3-a0aa-4cc541c2e36b
 title: Patching Customized Applications
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

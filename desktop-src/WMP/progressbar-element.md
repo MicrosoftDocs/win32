@@ -8,7 +8,6 @@ keywords:
 - PROGRESSBAR element
 - reference for skins,PROGRESSBAR element
 - elements,PROGRESSBAR
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

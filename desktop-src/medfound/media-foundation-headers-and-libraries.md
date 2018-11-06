@@ -2,7 +2,6 @@
 Description: This topic lists the headers and libraries that define all of the Media Foundation APIs.
 ms.assetid: 69877842-fafe-408f-b55b-d2ff2277c756
 title: Media Foundation Headers and Libraries
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

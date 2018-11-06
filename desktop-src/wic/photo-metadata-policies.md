@@ -2,7 +2,6 @@
 Description: This section contains the photo metadata polices for system properties.
 ms.assetid: ac71889b-94e5-4135-abd4-5d96690e41ea
 title: Photo Metadata Policies
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

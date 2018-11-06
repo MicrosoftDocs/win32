@@ -1,9 +1,6 @@
 ---
 title: MSMQ-Long-Lived attribute
 description: The default time to live of MSMQ messages.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e47bcb0e-6e30-4300-9cfa-c553c2842416
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - MSMQ-Long-Lived
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

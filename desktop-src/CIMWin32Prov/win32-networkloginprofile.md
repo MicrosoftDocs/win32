@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_NetworkLoginProfile&\#8194;WMI class represents the network login information of a specific user on a computer system running Windows.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: e5a8e934-d5a7-43fa-b140-c3cca972590f
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_NetworkLoginProfile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

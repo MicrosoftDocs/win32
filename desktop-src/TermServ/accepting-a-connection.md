@@ -1,12 +1,8 @@
 ---
 title: Accepting a Connection
 description: At some point in time, the dynamic virtual channel (DVC) client will request a connection to the DVC listener.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: eab17aa9-590c-4da2-a1a9-6e50a11d1de7
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 title: How to Use a Font Duplicate
 description: This section explains how to use a font duplicate to apply a number of changes to a text range, all at once.
 ms.assetid: CF0123E5-313F-4583-872F-6FE954F1C9E8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

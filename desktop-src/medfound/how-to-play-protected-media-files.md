@@ -2,7 +2,6 @@
 Description: How to play files that contain DRM-protected media.
 ms.assetid: 85d98f49-8af2-42ce-9b36-a025aee93f73
 title: How to Play Protected Media Files
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

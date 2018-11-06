@@ -1,9 +1,6 @@
 ---
 title: Service-Class-Name attribute
 description: The string name of the service that an administration point represents.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b49a9570-eda0-49ca-8dd4-7d3639a7a319
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Service-Class-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

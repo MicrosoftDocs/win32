@@ -2,7 +2,6 @@
 Description: The following elements are used with structured exception handling.
 ms.assetid: fd658422-9ab1-4f00-9b61-ed87efac39b6
 title: Structured Exception Handling Reference
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

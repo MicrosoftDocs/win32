@@ -2,7 +2,6 @@
 Description: The printer escapes provided by 16-bit Windows allowed access special device features.
 ms.assetid: 4bdd1d47-8cf4-4088-aec8-88193e71a828
 title: Printer Escapes
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Is-Defunct attribute
 description: If TRUE, the class or attribute is no longer usable. Old versions of this object may exist, but new ones cannot be created.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ca1b7701-e501-424d-9c07-20835b23dcd3
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Is-Defunct
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

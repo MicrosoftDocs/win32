@@ -1,9 +1,6 @@
 ---
 title: groupOfUniqueNames class
 description: Defines the entries for a group of unique names. In general, used to store account objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3e857802-9938-4488-8419-36147b01b764
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - groupOfUniqueNames
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

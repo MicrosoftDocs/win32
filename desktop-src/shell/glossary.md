@@ -2,7 +2,6 @@
 Description: Glossary page
 Robots: noindex, nofollow
 title: Shell Glossary
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

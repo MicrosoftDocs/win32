@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings MaximizeShell property
 description: Specifies if programs launched with the StartProgram property should be maximized.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d8c194b6-04ef-495f-a763-7e18064230e6
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +52,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

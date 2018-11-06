@@ -1,9 +1,6 @@
 ---
 title: From-Entry attribute
 description: This is a constructed attribute that is TRUE if the object is writable and FALSE if it is read-only, for example, a GC replica instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: b43e979d-15f9-4425-8a58-c9ed71bab1e4
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - From-Entry
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

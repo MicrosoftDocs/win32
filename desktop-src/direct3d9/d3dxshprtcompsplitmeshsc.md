@@ -2,7 +2,6 @@
 Description: Used with compressed results of the vertex version of the precomputed radiance transfer (PRT) simulator.
 ms.assetid: 10d81920-2a1b-42fa-aabe-7d6b504f4d36
 title: D3DXSHPRTCompSplitMeshSC function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

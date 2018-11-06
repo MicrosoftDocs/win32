@@ -1,9 +1,6 @@
 ---
 title: ms-DFSR-DeletedSizeInMb attribute
 description: Size, in megabytes, of the deleted directory.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 6869b6d3-190d-4503-aa3b-e2629b950fb7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DFSR-DeletedSizeInMb
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

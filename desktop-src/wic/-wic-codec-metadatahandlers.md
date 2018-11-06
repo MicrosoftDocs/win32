@@ -2,7 +2,6 @@
 Description: This topic introduces the requirements for creating custom metadata handlers for the Windows Imaging Component (WIC), including both metadata readers and writers.
 ms.assetid: 08f1872b-6e4d-44ee-abc7-48685e435acc
 title: Metadata Extensibility Overview
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

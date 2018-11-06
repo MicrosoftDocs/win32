@@ -2,7 +2,6 @@
 Description: Lists the diagnostic procedures to use when troubleshooting People Near Me/Meetings Near Me.
 ms.assetid: 36190bc2-59f6-41ff-b443-894abb7f2ed8
 title: Troubleshooting People Near Me/Meetings Near Me
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-SPP-Config-License attribute
 description: Product-key configuration license used during online/phone activation of the Active Directory forest.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: deb313c2-6309-4268-8ff1-28d89cd469ca
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-SPP-Config-License
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

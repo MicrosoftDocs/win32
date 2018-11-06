@@ -1,12 +1,8 @@
 ---
 Description: Contains methods that let you access and modify the security settings for a namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a54fdd85-feb8-4727-9f26-fe4f213cab6b
 ms.tgt_platform: multiple
 title: '__SystemSecurity class'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

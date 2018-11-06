@@ -1,9 +1,6 @@
 ---
 title: meetingScope attribute
 description: Can be global, local, or some other value. Its interpretation is application specific.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 41d1552e-70e0-479c-86ce-cd5a52fe47ec
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - meetingScope
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

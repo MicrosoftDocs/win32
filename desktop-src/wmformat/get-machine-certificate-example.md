@@ -24,7 +24,6 @@ keywords:
 - DRM Client Extended APIs,code examples
 - Client Extended APIs,code examples
 - certificates,code examples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

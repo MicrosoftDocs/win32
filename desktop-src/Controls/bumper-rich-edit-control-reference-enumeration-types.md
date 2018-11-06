@@ -2,7 +2,6 @@
 title: Rich Edit Enumeration Types
 description: .
 ms.assetid: f2f00582-4b1a-4e8c-b408-89d352762ee3
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The SpawnWaitDialog ControlEvent triggers the dialog box specified by the Argument column of the ControlEvent table, if the expression in the Condition column evaluates as FALSE.
 ms.assetid: 38a5d896-2c11-4ce9-b829-104a882723b6
 title: SpawnWaitDialog ControlEvent
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

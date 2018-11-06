@@ -1,9 +1,6 @@
 ---
 title: SetName method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Sets the Name property for the Remote Desktop resource authorization policy (RD \ 160;RAP).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 3a652ece-11fe-4aa7-913d-39ef96ab1633
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

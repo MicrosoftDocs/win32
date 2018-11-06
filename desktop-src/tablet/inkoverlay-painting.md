@@ -2,7 +2,6 @@
 Description: Occurs before the InkOverlay object or InkPicture has completed redrawing itself.
 ms.assetid: abfd37fb-2d2b-4d60-96a1-08f68b73417b
 title: InkOverlay.Painting event
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

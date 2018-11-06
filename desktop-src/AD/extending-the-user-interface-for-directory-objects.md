@@ -1,15 +1,11 @@
 ---
 title: Extending the User Interface for Directory Objects
 description: With Microsoft Windows 2000 and later, Microsoft Management Console (MMC) snap-ins, such as the Active Directory Users and Computers snap-in, for administration of Active Directory Domain Services, are available.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 758ec25d-42ab-46ba-aa58-416d7ac8fd68
 ms.tgt_platform: multiple
 keywords:
 - Active Directory,using,extending the user interface
 - objects AD ,extending the user interface for directory objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

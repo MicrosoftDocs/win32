@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_PrinterDriver WMI class represents the drivers for a Win32\_Printer instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: baf48bbf-60a3-4d9b-93b7-c1b22518a9c1
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_PrinterDriver class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

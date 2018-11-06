@@ -6,7 +6,6 @@ keywords:
 - Windows Media Player Mobile skins,video
 - video in skins,displays
 - skins,video
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

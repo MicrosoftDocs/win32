@@ -1,9 +1,6 @@
 ---
 title: Object(OR-Name) syntax
 description: Object(OR-Name) syntax.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: aa5b2f96-a37d-4990-854e-82dc13a6f2bb
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - Object(OR-Name)
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

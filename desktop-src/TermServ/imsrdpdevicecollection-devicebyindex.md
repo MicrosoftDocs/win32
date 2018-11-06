@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceCollection DeviceByIndex property
 description: Retrieves the device at the specified index.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: fcfc459b-46e1-4f26-a331-745fcf06638b
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

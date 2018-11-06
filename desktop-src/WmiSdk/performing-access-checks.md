@@ -1,12 +1,8 @@
 ---
 Description: An access check determines whether a security descriptor grants a specified set of access rights to the client or thread identified by an access token.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d0259bb1-fd74-4440-ac2a-d6aa84a48d9b
 ms.tgt_platform: multiple
 title: Performing Access Checks
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

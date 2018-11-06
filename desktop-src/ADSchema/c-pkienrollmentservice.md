@@ -1,9 +1,6 @@
 ---
 title: PKI-Enrollment-Service class
 description: The certificate server that can process certificate requests and issue certificates.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c0e9b6b3-953d-413b-9817-8d7f125e2020
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - PKI-Enrollment-Service
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

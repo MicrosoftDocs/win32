@@ -2,7 +2,6 @@
 title: VML Brightness Attribute
 description: VML Brightness Attribute
 ms.assetid: f5b0c0d6-92e4-40d0-9578-5d53d4222a26
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

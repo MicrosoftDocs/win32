@@ -9,7 +9,6 @@ keywords:
 - service providers,registering service providers
 - creating service providers,registering service providers
 - registering service providers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

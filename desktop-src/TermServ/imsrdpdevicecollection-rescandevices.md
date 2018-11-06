@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceCollection RescanDevices method
 description: Refreshes the list of objects in the collection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2e2a959d-0a1d-4aca-9daf-3c24fb9b3b08
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

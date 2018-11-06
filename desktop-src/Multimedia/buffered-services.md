@@ -10,7 +10,6 @@ keywords:
 - buffered I/O
 - mmioOpen function
 - internal I/O buffer
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

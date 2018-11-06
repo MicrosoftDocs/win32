@@ -2,7 +2,6 @@
 Description: Retrieves an error due to a failed job.
 ms.assetid: d499eb91-e1cc-4792-b32d-5a8875eebbb7
 title: GetError method of the CIM_ConcreteJob class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

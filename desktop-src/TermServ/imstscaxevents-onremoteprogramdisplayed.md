@@ -1,9 +1,6 @@
 ---
 title: IMsTscAxEvents OnRemoteProgramDisplayed method
 description: Called when a RemoteApp program is displayed.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 24f5ea52-0c13-4024-9448-5c2c1896ca8b
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

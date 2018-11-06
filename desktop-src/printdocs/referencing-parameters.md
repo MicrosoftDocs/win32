@@ -2,7 +2,6 @@
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 2c796d5c-1556-4348-83e2-23e93780ebc1
 title: Referencing Parameters
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

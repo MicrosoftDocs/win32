@@ -15,7 +15,6 @@ keywords:
 - arbitrary stream inputs
 - streams,arbitrary stream inputs
 - streams,precompressed stream inputs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

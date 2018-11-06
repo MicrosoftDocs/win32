@@ -2,7 +2,6 @@
 title: Memory-Mapped File Information
 description: A memory-mapped file (or file mapping) is the result of associating a file's contents with a portion of the virtual address space of a process. It can be used to share a file or memory between two or more processes.
 ms.assetid: b6ec2bc4-c504-4d0b-87f0-39bb1949accd
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

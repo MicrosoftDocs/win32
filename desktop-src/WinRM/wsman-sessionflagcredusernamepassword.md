@@ -1,9 +1,6 @@
 ---
 title: WSMan.SessionFlagCredUsernamePassword method
 description: Returns the value of the authentication flag WSManFlagCredUsernamePassword for use in the flags parameter of the WSMan.CreateSession method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 70d12df4-f0ac-499a-8b2f-6ba83b77869e
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

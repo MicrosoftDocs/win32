@@ -2,7 +2,6 @@
 Description: Retrieves the name of the user on whose behalf the certificate enrollment is intended.
 ms.assetid: 7bd71944-f7dd-4c92-a71c-ecc5c0afd5b2
 title: ISCrdEnr::getUserName method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

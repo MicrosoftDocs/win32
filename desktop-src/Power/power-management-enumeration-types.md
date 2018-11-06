@@ -2,7 +2,6 @@
 Description: 'The following enumeration types are used with power schemes:'
 ms.assetid: f78cd97f-586f-4091-ab4a-5f109a0f679a
 title: Power Management Enumeration Types
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

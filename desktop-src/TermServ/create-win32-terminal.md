@@ -1,9 +1,6 @@
 ---
 title: Create method of the Win32_Terminal class
 description: Creates a terminal with default settings which can be customized by using the properties and methods of the Win32\_TerminalSetting classes.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 64c90695-72d4-42be-a37a-89b54c04a78c
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

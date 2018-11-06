@@ -1,9 +1,6 @@
 ---
 title: ms-PKI-RA-Application-Policies attribute
 description: The required RA application policy OID in the counter signatures of the certificate request.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 1ce61107-01aa-4a03-8a00-21890fb610d7
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-PKI-RA-Application-Policies
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

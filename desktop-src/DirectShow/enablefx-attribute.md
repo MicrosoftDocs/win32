@@ -2,7 +2,6 @@
 Description: The enablefx attribute specifies whether effects are enabled. If the value is TRUE, the rendering engine renders effects. Otherwise, it does not. The default value is TRUE.
 ms.assetid: 7ea09742-8dd3-431b-b07f-cf317fe11690
 title: enablefx Attribute
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

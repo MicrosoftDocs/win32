@@ -2,7 +2,6 @@
 Description: Writing the File
 ms.assetid: d3dbe6ab-810c-4798-a769-c3f00c52a93a
 title: Writing the File
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

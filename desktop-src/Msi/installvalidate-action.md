@@ -2,7 +2,6 @@
 Description: The InstallValidate action verifies that all volumes to which cost has been attributed have sufficient space for the installation. The InstallValidate action ends the installation with a fatal error if any volume is short of disk space.
 ms.assetid: 1c55794d-1ecc-43bf-956f-96afc5f36964
 title: InstallValidate Action
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

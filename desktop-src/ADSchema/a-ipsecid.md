@@ -1,9 +1,6 @@
 ---
 title: Ipsec-ID attribute
 description: The Ipsec-ID attribute is for internal use only.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a9a8e9ca-2ebe-40eb-8dbe-7b164417271b
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Ipsec-ID
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The Credential Security Support Provider protocol (CredSSP) is a Security Support Provider that is implemented by using the Security Support Provider Interface (SSPI).
 ms.assetid: b3006b89-d9fc-4444-a3c8-ad2698de501c
 title: Credential Security Support Provider
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -20,7 +19,7 @@ For information about SPNEGO, see [Microsoft Negotiate](microsoft-negotiate.md).
 
 After the client and server are authenticated, the client passes the user's credentials to the server. The credentials are doubly encrypted under the SPNEGO and TLS session keys. CredSSP supports password-based logon as well as smart card logon based on both [*X.509*](https://msdn.microsoft.com/library/windows/desktop/ms721636#-security-x-500-gly) and PKINIT.
 
-> \[!Important\]  
+> [!IMPORTANT]
 > CredSSP does not support Wow64 clients.
 
  

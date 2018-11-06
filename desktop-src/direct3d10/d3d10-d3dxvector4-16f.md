@@ -2,7 +2,6 @@
 Description: Same as a D3DXVECTOR4, but it uses 16-bit floating point values for x, y, and z.
 ms.assetid: 2db5fb3e-ffe0-4bcf-8894-a8bc7eefaf82
 title: D3DXVECTOR4_16F structure
-ms.author: windowssdkdev
 ms.topic: structure
 ms.date: 05/31/2018
 topic_type: 

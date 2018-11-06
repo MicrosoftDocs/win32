@@ -2,7 +2,6 @@
 title: Button Types
 description: There are several types of buttons and one or more button styles to distinguish between buttons of the same type.
 ms.assetid: bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

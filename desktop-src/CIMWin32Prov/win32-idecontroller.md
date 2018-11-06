@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_IDEController WMI class manages the capabilities of an integrated device electronics (IDE) controller device.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 9aff19df-8184-47d6-9d21-30376b6bc9b2
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_IDEController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

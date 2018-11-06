@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Lockout-Threshold attribute
 description: Lockout threshold for the lock out of user accounts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 040f2c22-413f-4f30-a0ad-7c2411567771
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Lockout-Threshold
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

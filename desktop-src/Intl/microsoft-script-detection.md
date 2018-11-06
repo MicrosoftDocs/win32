@@ -2,7 +2,6 @@
 Description: The ELS script detection service is called Microsoft Script Detection.
 ms.assetid: daf9f549-1eff-4666-b777-227ec31fba30
 title: Microsoft Script Detection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

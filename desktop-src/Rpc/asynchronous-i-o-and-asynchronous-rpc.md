@@ -2,7 +2,6 @@
 title: Asynchronous I/O and Asynchronous RPC
 description: Asynchronous I/O is an efficient means for a single thread to manage multiple I/O requests simultaneously.
 ms.assetid: a9105518-4130-4119-b8d1-e73064b077e9
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

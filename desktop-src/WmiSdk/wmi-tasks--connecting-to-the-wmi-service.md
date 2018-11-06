@@ -1,12 +1,8 @@
 ---
 Description: To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific namespace.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 71ff6b06-af7d-43ee-ae6e-1964ec249472
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Connecting to the WMI Service'
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

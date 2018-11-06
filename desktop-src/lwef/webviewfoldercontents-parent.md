@@ -6,7 +6,6 @@ keywords:
 - Parent property Legacy Windows Environment Features
 - Parent property Legacy Windows Environment Features , WebViewFolderContents object
 - WebViewFolderContents object Legacy Windows Environment Features , Parent property
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

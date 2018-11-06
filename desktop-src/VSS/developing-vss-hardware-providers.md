@@ -2,7 +2,6 @@
 Description: Hardware providers implement the IVssProviderCreateSnapshotSet and IVssHardwareSnapshotProvider interfaces.
 ms.assetid: 9f40f1d1-a63a-4edc-aa8d-b3998ecb2716
 title: Developing VSS Hardware Providers
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Is-Primary-Computer-For attribute
 description: Backlink attribute for msDS-IsPrimaryComputer.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ba2feaf9-7705-49ca-8b83-dce54d6f368d
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Is-Primary-Computer-For
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

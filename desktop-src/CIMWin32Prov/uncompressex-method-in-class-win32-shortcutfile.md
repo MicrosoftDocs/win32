@@ -1,14 +1,8 @@
 ---
 Description: Uncompresses the logical shortcut file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: aa1c04d1-4cce-4096-bce3-b9c61b9a4eb7
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_ShortcutFile class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

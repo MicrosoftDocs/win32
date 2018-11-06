@@ -8,7 +8,6 @@ keywords:
 - metafile playlists,redirection
 - Windows Media Player,redirection
 - redirection
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

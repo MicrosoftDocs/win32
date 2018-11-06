@@ -1,15 +1,11 @@
 ---
 title: Example Code for Implementing a Winsock Service with an RnR Publication
 description: The following code example implements the example Winsock service with RnR publication.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 8800ba76-f24c-4aa7-ba31-97eaf884130c
 ms.tgt_platform: multiple
 keywords:
 - Windows Sockets Registration and Resolution AD , Example Code, Implementing a Winsock Service with an RnR Publication
 - Implementing a Winsock Service with an RnR Publication AD , Example Code
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

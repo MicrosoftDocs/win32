@@ -1,9 +1,6 @@
 ---
 title: Group class
 description: Stores a list of user names. Used to apply security principals on resources.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: e8ce5c43-d0fb-4c67-a6ef-7094fb7e7669
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Group
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

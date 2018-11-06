@@ -4,7 +4,6 @@ description: The attributes listed in the following table enable you to perform 
 ms.assetid: ca03c7fe-6649-431b-89dc-5d07a3c8d591
 keywords:
 - ACF MIDL , attributes, memory management
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

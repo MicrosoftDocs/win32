@@ -1,9 +1,6 @@
 ---
 title: oncRpc class
 description: Represents an abstraction of the Open Network Computing (ONC) Remote Procedure Call (RPC) binding.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 05fb9e0b-2fc2-4bbe-9083-f3f383e97b2b
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - oncRpc
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

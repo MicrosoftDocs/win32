@@ -2,7 +2,6 @@
 Description: The DecideAllocator method selects a memory allocator.
 ms.assetid: cdc15b0e-ea1b-43aa-9267-95fa9db56ed5
 title: CBaseOutputPin.DecideAllocator method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

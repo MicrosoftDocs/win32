@@ -2,7 +2,6 @@
 title: Complete code for a DirectX framework
 description: This topic provides the complete code sample used in the tutorial Get started with DirectX for Windows.
 ms.assetid: 5d1e1f21-b541-4a61-8f04-e1e767b3a23e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

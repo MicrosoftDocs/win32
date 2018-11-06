@@ -2,7 +2,6 @@
 Description: Media Foundation Constants
 ms.assetid: 35355439-564f-400e-b287-7c333af72b99
 title: Media Foundation Constants
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

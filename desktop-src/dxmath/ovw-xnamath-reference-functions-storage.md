@@ -2,7 +2,6 @@
 Description: Lists the set of functions for storing values obtained from hardware registers provided as part of the DirectXMath Library.
 ms.assetid: 0e7b66bd-bdb0-956d-2962-b33ae52b3016
 title: DirectXMath Library Vector Store Functions
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

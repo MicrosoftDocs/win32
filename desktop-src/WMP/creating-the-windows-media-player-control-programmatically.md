@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player Mobile ActiveX control,creating programmatically
 - ActiveX control,creating programmatically
 - creating ActiveX control programmatically
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

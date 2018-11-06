@@ -2,7 +2,6 @@
 Description: Ejects the computer from its docking station. This is the same as clicking the Start menu and selecting Eject PC, if your computer supports this command.
 ms.assetid: eaba3dce-8fea-453f-90c2-4a9b5cb05ecc
 title: Shell.EjectPC method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

@@ -1,9 +1,6 @@
 ---
 title: WSMan.SessionFlagEnableSPNServerPort method
 description: Returns the value of the authentication flag WSManFlagEnableSPNServerPort for use in the flags parameter of the WSMan.CreateSession method.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a18a87e6-dcee-4e9f-8e8c-262fef36ab1a
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

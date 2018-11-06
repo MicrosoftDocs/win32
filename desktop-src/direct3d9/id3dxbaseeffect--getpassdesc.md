@@ -2,7 +2,6 @@
 Description: Gets a pass description.
 ms.assetid: 44c65a82-bcf4-49f5-9312-8320e133bb2f
 title: ID3DXBaseEffect::GetPassDesc method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

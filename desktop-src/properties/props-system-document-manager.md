@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 21b75af5-b53a-430c-9f6c-9296159bec89
 title: System.Document.Manager
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

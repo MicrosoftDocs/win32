@@ -4,7 +4,6 @@ description: The HTTP Server API error logging is controlled by three registry v
 ms.assetid: a7712159-939e-42e3-a8d8-73148c2f4f6e
 keywords:
 - HTTP Server API, configuring error logs
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The store (also known as the protocol handler) FILE, MAIL, OUTLOOKEXPRESS.
 ms.assetid: f2f1a669-3337-4c11-a289-a96d8f8e54eb
 title: System.Message.Store
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

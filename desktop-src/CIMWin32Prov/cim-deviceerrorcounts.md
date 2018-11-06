@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_DeviceErrorCounts class is a statistical class that contains error-related counters for a logical device. The types of errors are defined by CCITT (Rec X.733) and ISO (IEC 10164-4).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d65cbc78-40f2-4846-bd47-76e04b2f588b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_DeviceErrorCounts class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -38,7 +32,7 @@ api_location:
 
 The **CIM\_DeviceErrorCounts** class is a statistical class that contains error-related counters for a logical device. The types of errors are defined by CCITT (Rec X.733) and ISO (IEC 10164-4).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

@@ -4,7 +4,6 @@ description: MCI Functions Macros and Messages
 ms.assetid: 7cedc46f-f67b-4b1a-b1e0-7ac32c250132
 keywords:
 - MCI messages
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

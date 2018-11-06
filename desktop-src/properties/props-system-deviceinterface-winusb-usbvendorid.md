@@ -2,7 +2,6 @@
 Description: Vendor ID from the USB device's USB Device Descriptor.
 ms.assetid: 69e91003-d0e9-4295-be02-3a8a9487796c
 title: System.DeviceInterface.WinUsb.UsbVendorId
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

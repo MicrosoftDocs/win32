@@ -2,7 +2,6 @@
 Description: How to create a basic Windows Sockets (Winsock) application.
 ms.assetid: 56af2e95-ea82-49e4-b335-86dcf4c38780
 title: Creating a Basic Winsock Application
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ReplicationProvider1 class
 description: The base class for the provider instance.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: c3c6efda-faa7-42af-a635-060967fdcc35
 ms.tgt_platform: multiple
 keywords:
@@ -41,7 +38,6 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

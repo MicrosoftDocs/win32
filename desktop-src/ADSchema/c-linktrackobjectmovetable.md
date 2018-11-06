@@ -1,9 +1,6 @@
 ---
 title: Link-Track-Object-Move-Table class
 description: Container for Link-Track-OMT-Entry objects.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 205872bb-38dd-412c-9ed6-e35968b2629a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Link-Track-Object-Move-Table
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

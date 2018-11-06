@@ -2,7 +2,6 @@
 Description: About National Language Support
 ms.assetid: 1bf4d6f4-af86-440e-9179-2ff17b09766a
 title: About National Language Support
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

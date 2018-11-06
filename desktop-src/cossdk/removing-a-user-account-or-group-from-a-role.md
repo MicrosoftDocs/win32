@@ -2,7 +2,6 @@
 Description: If a users privileges change or if roles are added to an application, you can move an account from one role to another role.
 ms.assetid: 2d81a45a-9762-48b9-8395-3c3a4dcd5e8c
 title: Removing a User Account or Group from a Role
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: SetResourceGroup method of the Win32_TSGatewayResourceAuthorizationPolicy class
 description: Sets the resource group type and name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: a3dd0ffa-a39b-46f9-8317-fcc90a8afcd1
 ms.tgt_platform: multiple
 keywords:
@@ -18,7 +15,6 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

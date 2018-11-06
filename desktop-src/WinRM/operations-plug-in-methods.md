@@ -1,12 +1,8 @@
 ---
 title: Operations Plug-in Methods
 description: Operations Plug-in Methods
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 81fe751f-51fd-4da6-b44a-0af9007eea9a
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

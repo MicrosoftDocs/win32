@@ -2,7 +2,6 @@
 Description: Represents the instance value of a metric.
 ms.assetid: 6b272ae8-7684-45bb-bff8-6559680cc8b6
 title: CIM_BaseMetricValue class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -115,7 +114,7 @@ Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157), [**Override*
 
 Uniquely identifies an instance of this class within the scope of the containing namespace.
 
-> \[!Important\]
+> [!IMPORTANT]
 >
 > In order to ensure uniqueness within the namespace, the value of the **InstanceID** property should be constructed in the following pattern: *OrgID*:*LocalID*
 >

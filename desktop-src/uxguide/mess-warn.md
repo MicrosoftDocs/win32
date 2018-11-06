@@ -2,7 +2,6 @@
 title: Warning Messages
 description: A warning message is a modal dialog box, in-place message, notification, or balloon that alerts the user of a condition that might cause a problem in the future.
 ms.assetid: 4a2c3be9-9dc6-4d62-bd3d-72a2e5b621f4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

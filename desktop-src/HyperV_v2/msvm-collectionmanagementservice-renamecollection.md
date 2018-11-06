@@ -2,7 +2,6 @@
 Description: Updates the element name for the specified CIM\_CollectionOfMSEs object.
 ms.assetid: 03d3979b-f3d2-4192-8bba-bdf4a19aa47c
 title: RenameCollection method of the Msvm_CollectionManagementService class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

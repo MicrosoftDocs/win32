@@ -2,7 +2,6 @@
 Description: Represents the method that is called when an asynchronous action completes.
 ms.assetid: B410E7C1-B108-4204-9AD1-663F7E05BBC3
 title: AsyncActionCompletedHandler interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type:

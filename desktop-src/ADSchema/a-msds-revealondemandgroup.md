@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Reveal-OnDemand-Group attribute
 description: Used with RODCs to define which users, computers, and groups are allowed to have their passwords cached on an RODC.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: ee31957c-66a2-49d8-865c-7f599754dcdd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Reveal-OnDemand-Group
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: Organizational-Unit-Name attribute
 description: The name of the organizational unit.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 3f21d1ac-3583-4294-8910-311544a578c9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Organizational-Unit-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

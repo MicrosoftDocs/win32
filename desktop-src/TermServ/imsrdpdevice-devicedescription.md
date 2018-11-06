@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDevice DeviceDescription property
 description: Retrieves the device description to be displayed to the user if the display name is not available.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 969f96c6-5655-4cac-9e91-059114dc3815
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

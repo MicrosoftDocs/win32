@@ -2,7 +2,6 @@
 title: Adapter Workflow
 description: This section describes the enrollment workflow from the perspective of the adapter plugins.
 ms.assetid: 0392124A-78CF-49E3-A52A-1E2E3A100E2E
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: ms-WMI-stringValidValues attribute
 description: The set of strings that belong to a string set parameter object.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2c75818d-f8db-47ed-b125-e1b800b1139a
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-WMI-stringValidValues
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

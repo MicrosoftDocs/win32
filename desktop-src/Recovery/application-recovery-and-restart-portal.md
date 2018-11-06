@@ -10,7 +10,6 @@ keywords:
 - software reliability
 - application recovery
 - application restart
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

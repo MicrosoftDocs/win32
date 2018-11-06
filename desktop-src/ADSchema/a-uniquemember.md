@@ -1,9 +1,6 @@
 ---
 title: uniqueMember attribute
 description: The distinguished name for the member of a group. Used by groupOfUniqueNames.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a299d2c9-bf45-435c-9868-b1ffdbaa96d2
 ms.tgt_platform: multiple
 keywords:
@@ -14,7 +11,6 @@ api_name:
 - uniqueMember
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: The system-provided file system size of the item, in bytes.
 ms.assetid: 471c38fc-2382-4df8-8f70-e1af0dd6c746
 title: System.Size
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

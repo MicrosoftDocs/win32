@@ -2,7 +2,6 @@
 title: Standard Picture Object
 description: Standard Picture Object
 ms.assetid: 2df9e0a7-444b-454c-983a-82e82b9ed9d1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 DisableConnectionBar property
 description: Specifies whether the Remote Desktop ActiveX control should disable the connection bar.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 82c57b93-f976-43e6-97f9-3602bf97e466
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

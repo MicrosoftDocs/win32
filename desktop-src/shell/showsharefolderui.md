@@ -2,7 +2,6 @@
 Description: Displays the Folder Sharing tab on the properties sheet for the specified folder.
 ms.assetid: e622e4bb-eaf7-494f-b2a2-78ba1311a496
 title: ShowShareFolderUI function
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

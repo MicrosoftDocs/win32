@@ -2,7 +2,6 @@
 title: Searching for Files
 description: By default, RC searches for header files and resource files (such as icon and cursor files) first in the current directory and then in the directories specified by the INCLUDE environment variable.
 ms.assetid: 6c8c905d-b0f6-4665-9a93-62617ff30137
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

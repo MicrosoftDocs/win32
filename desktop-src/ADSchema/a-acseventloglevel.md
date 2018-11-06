@@ -1,9 +1,6 @@
 ---
 title: ACS-Event-Log-Level attribute
 description: RSVP logging level.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 2f3c645d-a064-40fb-965c-388b2fac61bc
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Event-Log-Level
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

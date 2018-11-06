@@ -2,7 +2,6 @@
 title: Processing Registrations
 description: The HTTP Server APIs use the routing database to apply access checks during registrations.
 ms.assetid: d72aa213-b8e8-4fe9-b98c-41114d2cea56
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

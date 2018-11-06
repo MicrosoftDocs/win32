@@ -2,7 +2,6 @@
 Description: The get\_Count method gets the number of items in the collection.
 ms.assetid: 9fe96af3-bb7b-4f6c-8df2-85bf7850c527
 title: ITTimeCollection::get_Count method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

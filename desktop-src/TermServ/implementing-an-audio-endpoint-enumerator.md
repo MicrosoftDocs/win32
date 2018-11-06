@@ -1,12 +1,8 @@
 ---
 title: Implementing a Custom Audio Endpoint Enumerator
 description: Beginning with Windows Server 2008 R2, you can implement a custom remote audio endpoint enumerator as part of a Remote Desktop protocol provider.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 684bd62e-1e28-4330-a3c5-6bce684d652d
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

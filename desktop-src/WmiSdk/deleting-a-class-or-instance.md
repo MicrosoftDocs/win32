@@ -1,12 +1,8 @@
 ---
 Description: After you finish with a class or an instance, you may wish to delete that class or instance from WMI.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 8d4bf548-a332-4058-92d0-d613bbeaa408
 ms.tgt_platform: multiple
 title: Deleting a Class or Instance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,14 +1,8 @@
 ---
 Description: The CIM\_AssociatedBattery dependency associates a battery with a logical device. Use this association to model individual batteries that make up an uninterruptible power supply (UPS).
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: f8d8b3d3-edc5-438a-8be6-3ea4d765085b
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM_AssociatedBattery class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -28,7 +22,7 @@ api_location:
 
 The **CIM\_AssociatedBattery** dependency associates a battery with a logical device. Use this association to model individual batteries that make up an uninterruptible power supply (UPS).
 
-> \[!Important\]  
+> [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
  

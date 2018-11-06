@@ -2,7 +2,6 @@
 title: Microsoft Agent Animations for Genie Character
 description: Microsoft Agent Animations for Genie Character
 ms.assetid: 56c42d7a-32af-47cb-8578-0a89507a41ed
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

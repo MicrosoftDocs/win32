@@ -1,9 +1,6 @@
 ---
 title: CIM_Setting class
 description: Represents configuration-related and operational parameters for one or more managed system elements.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: d0007762-5d13-421b-a73a-3392a77686a6
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +19,6 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

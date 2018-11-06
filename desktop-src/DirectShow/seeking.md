@@ -2,7 +2,6 @@
 Description: Seeking
 ms.assetid: 'ceccb657-f1e1-4d59-920a-477a95b8a1a4'
 title: Seeking
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

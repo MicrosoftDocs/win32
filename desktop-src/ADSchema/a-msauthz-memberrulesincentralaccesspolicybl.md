@@ -1,9 +1,6 @@
 ---
 title: ms-Authz-Member-Rules-In-Central-Access-Policy-BL attribute
 description: Backlink for ms-Authz-Member-Rules-In-Central-Access-Policy. For a central access rule object, this attribute references one or more central access policies that point to it.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: a3d5c596-e27b-4ce9-bc93-ae2f5603b213
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-Authz-Member-Rules-In-Central-Access-Policy-BL
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

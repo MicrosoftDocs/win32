@@ -11,7 +11,6 @@ keywords:
 - clipboard,owner window
 - clipboard,delayed rendering
 - clipboard,memory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

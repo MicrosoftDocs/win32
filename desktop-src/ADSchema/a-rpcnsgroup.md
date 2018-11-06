@@ -1,9 +1,6 @@
 ---
 title: rpc-Ns-Group attribute
 description: A reference to an RPC Server entry or another RPC Group.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d497b58d-28b6-4b31-a784-5df79ebc81bd
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - rpc-Ns-Group
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

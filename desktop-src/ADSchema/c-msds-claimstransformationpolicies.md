@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Claims-Transformation-Policies class
 description: An object of this class holds the one set of Claims Transformation Policy for Cross-Forest Claims Transformation.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: d6e188b3-0ff2-4888-8e19-277d642de68e
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Claims-Transformation-Policies
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

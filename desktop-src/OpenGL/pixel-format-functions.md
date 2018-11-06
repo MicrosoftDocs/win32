@@ -4,7 +4,6 @@ description: The following Windows functions manage pixel formats.
 ms.assetid: 78a6be75-72f6-4aef-a6bc-5f052c6fe2e9
 keywords:
 - WGL functions,pixel format
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

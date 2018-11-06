@@ -1,14 +1,10 @@
 ---
 title: Moving Existing Users to the Organizational Unit
 description: When the enterprise administrator, Joe Worden, upgrades the Windows NT 4.0 domain to Active Directory, all users and groups are migrated to the Users containers in the Fabrikam domain.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 230a594f-70c2-4ab6-a7e8-d5a77f2d6dd1
 ms.tgt_platform: multiple
 keywords:
 - Moving Existing Users to the Organizational Unit AD
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

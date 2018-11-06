@@ -2,7 +2,6 @@
 title: Remote Access Service Functions
 description: Use the following functions to implement RAS functionality.
 ms.assetid: 5883a77a-6af8-47a8-bb28-6ef60a5aa2f1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

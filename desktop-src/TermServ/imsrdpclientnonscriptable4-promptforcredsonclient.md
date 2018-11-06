@@ -1,9 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable4 PromptForCredsOnClient property
 description: Specifies whether the client control displays a dialog box that prompts for credentials.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 426676be-0150-4a33-acd0-26423966f32a
 ms.tgt_platform: multiple
 keywords:
@@ -37,7 +34,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

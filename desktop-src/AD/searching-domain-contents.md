@@ -1,15 +1,11 @@
 ---
 title: Searching Domain Contents
 description: Before discussing where to bind to begin a search for objects in a domain, it is helpful to understand how data is stored in Active Directory Domain Services.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fd0b4556-465b-4338-87cb-375450590c44
 ms.tgt_platform: multiple
 keywords:
 - domain contents Active Directory
 - searching domain contents Active Directory
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

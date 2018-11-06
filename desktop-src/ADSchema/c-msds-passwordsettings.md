@@ -1,9 +1,6 @@
 ---
 title: ms-DS-Password-Settings class
 description: Password settings object for accounts.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 4e3a5a80-4f55-4c26-b5af-ace9dd853836
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ms-DS-Password-Settings
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

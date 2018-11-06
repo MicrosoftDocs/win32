@@ -2,7 +2,6 @@
 title: Sharpen Effect
 description: Sharpens the image.
 ms.assetid: 1eb12d1e-83c1-ba13-33be-df2078f3ccb8
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -2,7 +2,6 @@
 Description: This section contains the image decoding samples.
 ms.assetid: 16AE71A7-E105-4c9a-8522-84B1C7C4A50D
 title: Image Decoding Samples
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

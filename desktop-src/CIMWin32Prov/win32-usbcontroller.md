@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_USBController &\#32; WMI class manages the capabilities of a universal serial bus (USB) controller.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2b45eb41-fc4f-4a00-a8e6-5b709240958a
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_USBController class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

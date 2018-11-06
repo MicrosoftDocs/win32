@@ -14,7 +14,6 @@ keywords:
 - metafile playlists,MediaCollection object
 - Windows Media metafile playlists,MediaCollection object
 - MediaCollection object
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

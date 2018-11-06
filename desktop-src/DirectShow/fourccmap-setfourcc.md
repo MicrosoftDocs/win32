@@ -2,7 +2,6 @@
 Description: Sets the FOURCC portion of the FOURCCMap object.
 ms.assetid: cc821e39-e565-4255-a289-2c9507d43433
 title: FOURCCMap::SetFOURCC method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

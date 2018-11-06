@@ -2,7 +2,6 @@
 Description: Provides a template for creating class factories.
 ms.assetid: 3dbe6402-15f8-4490-9fe2-bebaa4e79170
 title: CFactoryTemplate class
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 topic_type: 

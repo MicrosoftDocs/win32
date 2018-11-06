@@ -1,12 +1,8 @@
 ---
 Description: 'When creating an instance with embedded objects, perform the following tasks:'
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 2abf6197-8b95-4c04-b154-508aa85fe12f
 ms.tgt_platform: multiple
 title: Creating Embedded Objects
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

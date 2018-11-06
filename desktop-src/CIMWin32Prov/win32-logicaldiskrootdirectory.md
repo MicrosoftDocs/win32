@@ -1,14 +1,8 @@
 ---
 Description: The Win32\_LogicalDiskRootDirectory association WMI class relates a logical disk and its directory structure.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 860cd28a-2a59-4ce3-be26-8fdc869c70d1
-- cimwin32
-- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32_LogicalDiskRootDirectory class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

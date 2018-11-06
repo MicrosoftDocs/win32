@@ -2,7 +2,6 @@
 Description: Indicates the distance to the destination point.
 ms.assetid: 69e868bf-72ab-4c5e-8305-bb2b0a6ba088
 title: System.GPS.DestDistance
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

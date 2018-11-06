@@ -11,7 +11,6 @@ keywords:
 - Windows Media Player skins,hover images
 - skins,hover images
 - hover images in skins
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

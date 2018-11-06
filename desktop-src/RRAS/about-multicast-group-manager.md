@@ -7,7 +7,6 @@ keywords:
 - Multicast Group Manager RRAS , described
 - Routing and Remote Access Service RRAS , Multicast Group Manager
 - Routing and Remote Access Service RRAS , Multicast Group Manager, described
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

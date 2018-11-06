@@ -1,9 +1,6 @@
 ---
 title: Company attribute
 description: The user's company name.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 9f33cb8e-f456-48f1-ae41-7c3daddc66f8
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - Company
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

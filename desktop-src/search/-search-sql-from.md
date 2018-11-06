@@ -2,7 +2,6 @@
 Description: Following the SELECT statement, you use the FROM clause to specify where to search for matching documents.
 ms.assetid: 437d36d1-dd6d-4405-8f35-c37fd04fa0f6
 title: FROM Clause
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

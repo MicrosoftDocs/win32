@@ -2,7 +2,6 @@
 Description: Omits an item from Shell views.
 ms.assetid: 3dc94d18-626c-4626-8977-a93d41830ce7
 title: System.Shell.OmitFromView
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

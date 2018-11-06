@@ -2,7 +2,6 @@
 title: VML BorderLeftColor Attribute
 description: VML BorderLeftColor Attribute
 ms.assetid: 29f4212e-96c0-4e35-8c83-aac9aa63220c
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

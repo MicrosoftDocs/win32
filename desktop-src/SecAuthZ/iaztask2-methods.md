@@ -2,7 +2,6 @@
 Description: The IAzTask2 interface exposes the following methods.
 ms.assetid: 68F053D0-DBA5-4157-897C-512AC7C50144
 title: IAzTask2 Methods
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

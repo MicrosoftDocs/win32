@@ -2,7 +2,6 @@
 title: The COM Library
 description: The COM Library
 ms.assetid: 51d4db4a-ad88-4627-8140-2f7906945752
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,10 +1,8 @@
 ---
 title: Creating Hardware Event Subscriptions
 description: On computers that have a Baseboard Management Controller (BMC) installed, hardware events are raised and logged in the System event log (SEL), which is the BMC event store that is stored in nonvolatile memory.
-audience: developer
 ms.assetid: 646ab546-500e-44ee-8b08-2f835e57e3e6
 ms.tgt_platform: multiple
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

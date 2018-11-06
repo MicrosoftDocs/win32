@@ -9,7 +9,6 @@ keywords:
 - codecs,formats
 - streams,IWMCodecInfo interface
 - IWMCodecInfo,about
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

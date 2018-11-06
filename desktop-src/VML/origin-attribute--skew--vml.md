@@ -2,7 +2,6 @@
 title: Origin Attribute (Skew)(VML)
 description: Origin Attribute (Skew)(VML)
 ms.assetid: 36f77073-7438-41b3-9107-95e27b01b776
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

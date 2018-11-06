@@ -1,9 +1,6 @@
 ---
 title: ACS-Non-Reserved-Tx-Limit attribute
 description: The maximum bandwidth a user application can transmit before a reservation is in place.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 5ead8e5b-31e8-438e-8d1b-9aae8601dfc9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Non-Reserved-Tx-Limit
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

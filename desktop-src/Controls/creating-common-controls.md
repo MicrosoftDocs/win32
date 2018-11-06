@@ -2,7 +2,6 @@
 title: Creating Common Controls
 description: This topic describes how to create a window that belongs to a window class defined in the common control library, Comctl32.dll.
 ms.assetid: BCF25606-5B49-43A5-8107-E7220BE3253C
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

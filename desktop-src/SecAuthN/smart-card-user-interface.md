@@ -2,7 +2,6 @@
 Description: The smart card user interface (UI) is a single common dialog box that lets the user specify or search for a smart card to open (that is, connect to and use in an application).
 ms.assetid: a64a617a-b2ae-471f-a88f-a73f0fc3a791
 title: Smart Card User Interface
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

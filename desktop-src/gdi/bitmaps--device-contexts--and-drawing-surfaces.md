@@ -2,7 +2,6 @@
 Description: A device context (DC) is a data structure defining the graphics objects, their associated attributes, and the graphics modes affecting output on a device. To create a DC, call the CreateDC function; to retrieve a DC, call the GetDC function.
 ms.assetid: 4feafb23-bf5a-493a-9d1d-96170711b907
 title: Bitmaps, Device Contexts, and Drawing Surfaces
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

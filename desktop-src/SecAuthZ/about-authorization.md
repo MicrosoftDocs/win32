@@ -2,7 +2,6 @@
 Description: The following sections provide information about authorization.SectionDescriptionAccess ControlSecurity features that control who can access resources in the operating system.
 ms.assetid: 7c10f0cf-fdaf-41c4-ab0c-fc572a8337ed
 title: About Authorization
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

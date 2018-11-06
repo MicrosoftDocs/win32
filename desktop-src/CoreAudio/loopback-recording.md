@@ -2,7 +2,6 @@
 Description: Loopback Recording
 ms.assetid: 71c567f7-fffa-4b75-897a-63ed30c4c9b0
 title: Loopback Recording
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

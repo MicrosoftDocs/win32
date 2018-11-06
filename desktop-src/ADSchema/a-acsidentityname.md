@@ -1,9 +1,6 @@
 ---
 title: ACS-Identity-Name attribute
 description: This attribute contains the DN of a user or OU and is the identity of a user or a group of users to which this QoS policy applies.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: 00e6e2bd-aec8-426f-b89e-0661c15cfd46
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - ACS-Identity-Name
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -5,7 +5,6 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IObjectTableRequest interface
-ms.author: windowssdkdev
 ms.topic: interface
 ms.date: 05/31/2018
 ---

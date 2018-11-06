@@ -1,9 +1,6 @@
 ---
 title: netboot-Answer-Requests attribute
 description: Enables the RIS server to accept any RIS requests.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\mbaldwin
 ms.assetid: fb57762f-d7af-45ae-80f2-5dd52b5688a9
 ms.tgt_platform: multiple
 keywords:
@@ -15,7 +12,6 @@ api_name:
 - netboot-Answer-Requests
 api_type:
 - Schema
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

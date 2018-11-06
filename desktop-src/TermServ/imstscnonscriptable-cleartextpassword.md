@@ -1,9 +1,6 @@
 ---
 title: IMsTscNonScriptable ClearTextPassword property
 description: Sets the Remote Desktop ActiveX control password in plaintext format.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: 93d35b10-5c92-4ab7-a32a-328ba6fcf16b
 ms.tgt_platform: multiple
 keywords:
@@ -51,7 +48,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

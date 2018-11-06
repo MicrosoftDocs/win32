@@ -1,9 +1,6 @@
 ---
 title: IMsRdpDeviceV2 IsUSBDevice property
 description: Specifies if the device is for USB redirection.
-audience: developer
-author: REDMOND\\markl
-manager: REDMOND\\markl
 ms.assetid: df4c9764-ad96-4f35-9537-3890293a944c
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +16,6 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

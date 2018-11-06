@@ -2,7 +2,6 @@
 title: UI Automation Enumerations
 description: This section describes the enumerated types used by UI Automation client applications and UI Automation provider for Microsoft Win32.
 ms.assetid: 99ceb405-f8ad-4e85-8789-dc35fd0ec735
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

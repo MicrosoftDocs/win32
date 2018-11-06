@@ -2,7 +2,6 @@
 Description: .
 ms.assetid: 3b32eeaf-e605-4d8f-a63a-51cde818aa5e
 title: System.Message.ToDoTitle
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

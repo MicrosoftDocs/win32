@@ -2,7 +2,6 @@
 Description: The AddHead method adds an item to the front of the list.
 ms.assetid: 8f0012b7-bbc2-407c-ae5a-9843c2f692dc
 title: CGenericList.AddHead method
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

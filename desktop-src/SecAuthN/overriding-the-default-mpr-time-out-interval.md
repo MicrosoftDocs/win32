@@ -2,7 +2,6 @@
 Description: The Multiple Provider Router (MPR) calls NPGetCaps to find out when the network providers will start (nIndex is set to WNNC\_START).
 ms.assetid: f57bd8ff-647d-42f8-abaf-7937b24416dd
 title: Overriding the Default MPR Time-out Interval
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

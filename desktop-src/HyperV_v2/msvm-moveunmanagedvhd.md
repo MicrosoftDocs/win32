@@ -2,7 +2,6 @@
 Description: Moves a virtual hard drive from the source to the destination path.
 ms.assetid: f51f7bf3-585a-442d-b84d-51d633c38dea
 title: Msvm_MoveUnmanagedVhd class
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

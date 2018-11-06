@@ -24,7 +24,6 @@ keywords:
 - Windows Media Player plug-ins,plug-in wizard
 - Visual Studio,Windows Media Player Online Stores Wizard
 - plug-in wizard
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

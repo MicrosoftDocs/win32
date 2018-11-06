@@ -2,7 +2,6 @@
 Description: Textures are a powerful tool in creating realism in computer-generated 3D images. Direct3D supports an extensive texturing feature set, providing developers with easy access to advanced texturing techniques.
 ms.assetid: 48dcbc86-631e-4bc7-b809-b0e4a0a9ae8e
 title: Direct3D Textures (Direct3D 9)
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
